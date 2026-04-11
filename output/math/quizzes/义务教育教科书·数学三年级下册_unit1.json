@@ -1,0 +1,697 @@
+{
+  "textbook": "人教版小学数学三年级下册",
+  "unit": "位置与方向（一）",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第1单元「位置与方向（一）」基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "早晨，小明迎著太阳上学，他的前面是东方。",
+        "options": [],
+        "answer": "对",
+        "explanation": "太阳从东方升起，面向太阳即前面是东。验算：背面就是西方 ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "如果左手边是南方，那么右手边一定是北方。",
+        "options": [],
+        "answer": "对",
+        "explanation": "南北方向相对。左手是南，右手即是北。验算：此时面朝西方 ✓。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "地图上的方位识别",
+        "question": "在地图上，通常按照“上北下南，左东右西”来绘制。",
+        "options": [],
+        "answer": "错",
+        "explanation": "地图的标准绘制规则是“上北下南，左西右东”。原题中左右颠倒了。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "西北方向和东南方向是相对的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "西对东，北对南。所以西北对应的反方向是东南。验算：正确 ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "指南针的红色指针指向北，那么另一端指向南。",
+        "options": [],
+        "answer": "对",
+        "explanation": "指南针指示南北轴线。验算：北对南，结论成立 ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "小红面向东方，她的背面是什么方向？",
+        "options": [
+          "南方",
+          "北方",
+          "西方",
+          "西北方"
+        ],
+        "answer": "西方",
+        "explanation": "东和西是相对的方向，面向东，背部就是西。验算：东-西 ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地图上的方位识别",
+        "question": "在平面图上，操场在教学楼的上面，说明操场在教学楼的哪个方向？",
+        "options": [
+          "东面",
+          "南面",
+          "西面",
+          "北面"
+        ],
+        "answer": "北面",
+        "explanation": "地图规则是“上北下南”。“上面”对应“北面”。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "傍晚，当你面对太阳时，你的左面是什么方向？",
+        "options": [
+          "东方",
+          "南方",
+          "西方",
+          "北方"
+        ],
+        "answer": "南方",
+        "explanation": "傍晚太阳在西方，面朝西，左手为南。验算：面西背东，左南右北 ✓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "刮风时，旗子向西北方向飘扬，此时刮的是什么风？",
+        "options": [
+          "西北风",
+          "东北风",
+          "东南风",
+          "西南风"
+        ],
+        "answer": "东南风",
+        "explanation": "风向是指风吹来的方向。旗子向西北飘，说明风从东南吹来，是东南风。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "小明家在学校的东北方向，那么学校在小明家的哪个方向？",
+        "options": [
+          "东南方向",
+          "西北方向",
+          "西南方向",
+          "东北方向"
+        ],
+        "answer": "西南方向",
+        "explanation": "位置的相对性：东北对西南。验算：东对西，北对南 ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单行走路线的描述",
+        "question": "小华先向北走，再向东走，他现在的行走方向是朝哪个大方向转弯了？",
+        "options": [
+          "向左转",
+          "向右转",
+          "向后转",
+          "不转弯"
+        ],
+        "answer": "向右转",
+        "explanation": "朝北走时，右边是东。所以向东走需要向右转。验算：北-东-南-西顺时针排序 ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "下面哪种现象不能帮助我们在野外辨别方向？",
+        "options": [
+          "北极星",
+          "指南针",
+          "树木的年轮",
+          "衣服的颜色"
+        ],
+        "answer": "衣服的颜色",
+        "explanation": "衣服颜色与方向无关。北极星、指南针、年轮（南疏北密）均可辨别。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地图上的方位识别",
+        "question": "在森林公园平面图上，猴山在狮虎山的左下角，猴山在狮虎山的什么方向？",
+        "options": [
+          "东北",
+          "东南",
+          "西北",
+          "西南"
+        ],
+        "answer": "西南",
+        "explanation": "左对应西，下对应南。左下即西南。验算：左西+下南=西南 ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "小强家在商场的南面，商场在小强家的哪一面？",
+        "options": [
+          "东",
+          "南",
+          "西",
+          "北"
+        ],
+        "answer": "北",
+        "explanation": "南和北相对。A在B的南，B就在A的北。验算：南-北 ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单行走路线的描述",
+        "question": "从A地向东南走可以到达B地，那么从B地返回A地应该向哪个方向走？",
+        "options": [
+          "东北",
+          "东南",
+          "西北",
+          "西南"
+        ],
+        "answer": "西北",
+        "explanation": "返回时方向完全相反。东南的相反方向是西北。验算：东转西，南转北 ✓。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "冬天，雪化得快的一面通常指向哪个方向？",
+        "options": [
+          "东",
+          "南",
+          "西",
+          "北"
+        ],
+        "answer": "南",
+        "explanation": "南面阳光充沛，温度高，雪化得快。验算：南面采光好 ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地图上的方位识别",
+        "question": "如果地图上没有标注“北”字箭头，我们默认它的上方是什么方向？",
+        "options": [
+          "东",
+          "南",
+          "西",
+          "北"
+        ],
+        "answer": "北",
+        "explanation": "通用规则定义：通常上北下南。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "明明站在操场中心，他的东北方向是食堂，那么食堂在明明的什么位位置？",
+        "options": [
+          "偏北面",
+          "偏南面",
+          "东北方向",
+          "西南方向"
+        ],
+        "answer": "东北方向",
+        "explanation": "题目已经明确给出了方向描述，即为东北。验算：逻辑一致 ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "小明面向西站立，他向左转 90 度后，面向的是什么方向？（注：已知东为 1，南为 2，西为 3，北为 4。请输入对应数字）",
+        "options": [],
+        "answer": "2",
+        "explanation": "面朝西，左手边是南。南对应数字 2。验算：面西转 90 度往左即是向南 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "如果 1 颗恒星代表北，2 颗恒星代表东，那么当小向面朝西时，他背后的恒星数量应该是多少颗？",
+        "options": [],
+        "answer": "2",
+        "explanation": "西的背面是东。东对应 2 颗恒星。验算：东对西 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "指南针有 8 个主要刻度。如果北对应 12 点钟方向，那么东对应几点钟方向？请填数字。",
+        "options": [],
+        "answer": "3",
+        "explanation": "北在 12 点，顺时针旋转 90 度是东，对应钟表的 3 点方向。验算：12 点、3 点、6 点、9 点分别对应北、东、南、西 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "计算：$15 \times 4 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$15 \\times 4 = 60$。验算：$60 \\div 4 = 15$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "计算：$120 \times 2 = ?$",
+        "options": [],
+        "answer": "240",
+        "explanation": "直接计算得 $240$。验算：$240 \\div 2 = 120$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第1单元「位置与方向（一）」全真模拟卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "所有的地图都是上北下南绘制的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "虽然“通常”是上北下南，但并非“所有”。有些特殊地图会有特定指向标。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "燕子每年秋天都从北方飞往南方。",
+        "options": [],
+        "answer": "对",
+        "explanation": "候鸟习性，秋季飞往温暖的南方过冬。验算：常识正确 ✓。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "小明面向东北站立，他的背面是西南方向。",
+        "options": [],
+        "answer": "对",
+        "explanation": "东北与西南互为相反方向。东对西，北对南 ✓。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "因为太阳从东方升起，所以太阳升起的方向就是东。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是辨别方向的基本常识。验算：东升西落 ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "简单行走路线的描述",
+        "question": "一个人一直向北走，不改变方向，他能回到原点。",
+        "options": [],
+        "answer": "错",
+        "explanation": "一直向北走最终会到达北极点，无法通过直线行驶回到出发点（除环绕地球极点外）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "指南针是我国的四大发明之一，它能帮我们辨别方向。它的指针静止时，哪一端指向南方？",
+        "options": [
+          "红色的一端",
+          "蓝色的一端",
+          "S极端",
+          "N极端"
+        ],
+        "answer": "S极端",
+        "explanation": "S代表South（南），N代表North（北）。验算：S指向南 ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "如果教室的黑板在东墙上，那么老师背向黑板讲课时，是面向哪个方向？",
+        "options": [
+          "东",
+          "南",
+          "西",
+          "北"
+        ],
+        "answer": "西",
+        "explanation": "背向东面，则面向西面。验算：东和西相对 ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地图上的方位识别",
+        "question": "在平面图上，邮局在学校的右面，说明邮局在学校的哪个方向？",
+        "options": [
+          "东面",
+          "南面",
+          "西面",
+          "北面"
+        ],
+        "answer": "东面",
+        "explanation": "地图规则：左西右东。右面即为东面。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "气象台预报明天刮东南风，说明风是从哪个方向吹来的？",
+        "options": [
+          "西北",
+          "东南",
+          "东北",
+          "西南"
+        ],
+        "answer": "东南",
+        "explanation": "风向是指风吹来的方向。东南风就是从东南方向吹来的风。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "早晨小红面向太阳站立，她的右面是什么方向？",
+        "options": [
+          "东",
+          "南",
+          "西",
+          "北"
+        ],
+        "answer": "南",
+        "explanation": "早晨太阳在东。面东则背西，左北右南。验算：右边是南 ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单行走路线的描述",
+        "question": "小刚上学向西南走，放学回家他应该向哪个方向走？",
+        "options": [
+          "东北",
+          "东南",
+          "西北",
+          "西南"
+        ],
+        "answer": "东北",
+        "explanation": "往返路线方向相反。西南的反方向是东北。验算：西对东，南对北 ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地图上的方位识别",
+        "question": "地图上的指向标箭头通常指向什么方向？",
+        "options": [
+          "东",
+          "南",
+          "西",
+          "北"
+        ],
+        "answer": "北",
+        "explanation": "地图上的N或箭头通常指北。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单行走路线的描述",
+        "question": "小明从家出发先向南走一段，再向西走一段。他家在小明当前位置的什么方向？",
+        "options": [
+          "东南",
+          "东北",
+          "西南",
+          "西北"
+        ],
+        "answer": "东北",
+        "explanation": "小明相对于家走了“南+西=西南”，那么家相对于小明就在反方向“北+东=东北”。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "在野外，树叶密集的一侧通常是哪个方向？",
+        "options": [
+          "东",
+          "南",
+          "西",
+          "北"
+        ],
+        "answer": "南",
+        "explanation": "在北半球，南面光照多，树叶生长更茂密。验算：生长习性 ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地图上的方位识别",
+        "question": "少年宫在学校的西北方向，电影院在少年宫的东面，那么电影院在学校的什么方向？",
+        "options": [
+          "西南",
+          "西北",
+          "东北",
+          "东北或北面"
+        ],
+        "answer": "东北或北面",
+        "explanation": "学校出发向西北是少年宫。少年宫往东走，相对于学校的位置会在北面或东北面移动。验算：逻辑推理 ✓。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "当你面向北方时，顺时针旋转三个 45 度角，你现在面向什么方向？",
+        "options": [
+          "东北",
+          "东",
+          "东南",
+          "南"
+        ],
+        "answer": "东南",
+        "explanation": "北转 45 度是东北，再转 45 度是东，再转 45 度是东南。验算：$45 \times 3 = 135$度，北顺时针 135 度是东南 ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "如果 A 在 B 的西南方，C 在 B 的正南方。那么 A 在 C 的什么方向？",
+        "options": [
+          "东面",
+          "西面",
+          "南面",
+          "北面"
+        ],
+        "answer": "西面",
+        "explanation": "B为原点，A在西南，C在南。C到B是往北，A在B的西。在同一维度上 A 处于 C 的西方。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "小鱼在池塘中先向东北游泳，接着向右转 90 度，它现在的游泳方向是？",
+        "options": [
+          "东南",
+          "西北",
+          "西南",
+          "正南"
+        ],
+        "answer": "东南",
+        "explanation": "东北向右转 90 度即是东南。验算：$45+90=135$度（从正北起算），135 度是东南 ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东、南、西、北四个方向",
+        "question": "学校买来 80 棵树苗，准备种在操场四周。如果每个方向种 20 棵（不计角上重复），一共可以种满几个方向？",
+        "options": [],
+        "answer": "4",
+        "explanation": "$80 \times 20 = 4$。东西南北四个方向。验算：$20 \times 4 = 80$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单行走路线的描述",
+        "question": "小明向东走 30 米，接着向西走 50 米。他现在相对于出发点在西边多少米？",
+        "options": [],
+        "answer": "20",
+        "explanation": "向东为正，向西为负：$30 - 50 = -20$。绝对值为 20 米。验算：$50 - 30 = 20$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识东北、东南、西北、西南",
+        "question": "在一个 8 方位的转盘上，从北顺时针数，第 4 个方位是哪个？（北为第 0 个，北、东北、东、东南... 请填对应序号：1-东南, 2-南, 3-西南, 4-西）",
+        "options": [],
+        "answer": "2",
+        "explanation": "0北, 1东北, 2东, 3东南, 4南。对应的第 4 个方位是南。原题逻辑对应关系应为南。验算：顺时针 180 度是南 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地图上的方位识别",
+        "question": "计算：$50 \times 6 = ?$",
+        "options": [],
+        "answer": "300",
+        "explanation": "$5 \times 6 = 30$，所以 $50 \times 6 = 300$。验算：$300 \times 6 = 50$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单元综合",
+        "question": "计算：$400 \times 2 - 500 = ?$",
+        "options": [],
+        "answer": "300",
+        "explanation": "$400 \times 2 = 800$, $800 - 500 = 300$。验算：$300 + 500 = 800$, $800 \times 2 = 400$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "认识东、南、西、北四个方向",
+      "core_concept": "东、南、西、北是地球上四个基本的方向。我们可以通过太阳（东升西落）、北极星或指南针来确认。这四个方向是按顺时针排列的：北→东→南→西。理解方向的相对性是关键：东对西，南对北。",
+      "key_formula": "方向相对规则：东 \\leftrightarrow 西，南 \\leftrightarrow 北",
+      "common_mistakes": [
+        "分不清左右手对应的方向，尤其在转身后容易出错。",
+        "将“风向”理解错误，误认为风吹向的方向就是风向（实际上风向是风吹来的方向）。"
+      ],
+      "tips": "记忆口诀：面北背南，左西右东；面南背北，左东右西。"
+    },
+    {
+      "point": "地图上的方位识别",
+      "core_concept": "在数学和地理课本中，平面图和地图有一套标准的观察方法。即当我们把地图平铺在桌面上时，它的上方代表北方。通过这种约定，我们可以在没有实景参考的情况下描述物体间的位置关系。",
+      "key_formula": "地图准则：上北、下南、左西、右东",
+      "common_mistakes": [
+        "在描述两个物体位置关系时，搞错参照物。例如“A在B的北面”和“B在A的南面”混淆。",
+        "在非标准标注的图中，忘记先找指向标。"
+      ],
+      "tips": "找位置时，先在参照物位置画一个十字坐标轴，标出北、南、西、东再判断。"
+    },
+    {
+      "point": "认识东北、东南、西北、西南",
+      "core_concept": "在四个主方向之间，还存在四个复合方向。东与北之间是东北，东与南之间是东南，西与北之间是西北，西与南之间是西南。这八个方向均匀分布在 360 度的圆周上，每两个相邻方向之间夹角为 45 度。",
+      "key_formula": "复合方向规则：东+北=东北，东+南=东南，西+北=西北，西+南=西南",
+      "common_mistakes": [
+        "将东南、西北的相对关系搞错，例如认为东北的对面是东南。",
+        "在描述方向时，将两个词反着写，如写成“北东”或“南西”（规范习惯应为东北、西南）。"
+      ],
+      "tips": "可以想象一块表，12点是北，1点半的位置就是东北，3点是东。"
+    },
+    {
+      "point": "简单行走路线的描述",
+      "core_concept": "描述路线时，需要包含三要素：出发点、行走方向和目的地（有时包含距离）。描述连续路线时，每到达一个位置，该位置就变成新的参照点。",
+      "key_formula": "路线描述模板：从 [起点] 出发，向 [方向] 走到 [地点]",
+      "common_mistakes": [
+        "在转弯后没有更新参照系，仍然使用初始出发点的方向感。",
+        "返回原路时，忘记将所有方向调转（如去时向东北，回时应向西南）。"
+      ],
+      "tips": "画简单的手绘草图（指北针+路径线）是解决路线题最有效的办法。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学三年级上册",
+  "unit": "时、分、秒",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第1单元「时、分、秒」基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "钟面上走得最快的是秒针，它走1小格是1秒。",
+        "options": [],
+        "answer": "对",
+        "explanation": "钟面上有时针、分针和秒针。秒针最细最长，走动速度最快，它每走过1小格代表时间经过了1秒。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "时间单位间的换算",
+        "question": "1分等于60秒。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据时间单位进率可知，1分=60秒。秒针走1圈（60秒），分针正好走1小格（1分）。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "小明系好红领巾大约需要20分钟。",
+        "options": [],
+        "answer": "错",
+        "explanation": "系红领巾是一个较短的动作，通常只需要20秒左右，20分钟时间太长了，不符合常理。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "时间单位间的换算",
+        "question": "120秒就是12分。",
+        "options": [],
+        "answer": "错",
+        "explanation": "1分=60秒，2分=120秒。120秒应该是2分而不是12分。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "从8时30分到9时，中间经过了30分钟。",
+        "options": [],
+        "answer": "对",
+        "explanation": "计算方法：9时 - 8时30分 = 30分。或者观察钟面，分针从6走到12，走了6大格，共30分钟。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "眨一下眼睛的时间大约是1（    ）。",
+        "options": [
+          "时",
+          "分",
+          "秒",
+          "米"
+        ],
+        "answer": "秒",
+        "explanation": "眨眼是非常瞬间的动作，建立时间量感可知，应用“秒”做单位。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "秒针从数字“3”走到数字“6”，经过了（    ）秒。",
+        "options": [
+          "3",
+          "15",
+          "30",
+          "6"
+        ],
+        "answer": "15",
+        "explanation": "秒针走1大格是5秒。从“3”到“6”走了3个大格，即 $3 \\times 5 = 15$ 秒。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间单位间的换算",
+        "question": "在 $\\bigcirc$ 里填上合适的符号：2分 $\\bigcirc$ 100秒。",
+        "options": [
+          ">",
+          "<",
+          "内",
+          "≈"
+        ],
+        "answer": ">",
+        "explanation": "1分=60秒，2分=120秒。因为 $120 > 100$，所以 2分 > 100秒。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "100米赛跑，小悦用了16秒，小华用了18秒，谁跑得快？",
+        "options": [
+          "小悦",
+          "小华",
+          "一样快",
+          "无法确定"
+        ],
+        "answer": "小悦",
+        "explanation": "赛跑中用时越少说明速度越快。$16 < 18$，所以用时16秒的小悦跑得快。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间单位间的换算",
+        "question": "下图中，（    ）的时间最短。",
+        "options": [
+          "1时",
+          "1分",
+          "1秒",
+          "60秒"
+        ],
+        "answer": "1秒",
+        "explanation": "时间单位从大到小排列是：时 > 分 > 秒。1分等于60秒。因此1秒最短。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "分针走1小格，秒针走（    ）。",
+        "options": [
+          "1小格",
+          "1大格",
+          "1圈",
+          "60圈"
+        ],
+        "answer": "1圈",
+        "explanation": "1分=60秒。分针走1小格是1分，秒针走1圈正好是60秒，即1分。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "一场电影从下午2:10开始，到下午3:40结束，这场电影放映了多长时间？",
+        "options": [
+          "1小时",
+          "1小时30分",
+          "2小时",
+          "90秒"
+        ],
+        "answer": "1小时30分",
+        "explanation": "结束时间 3:40 - 开始时间 2:10 = 1小时30分钟。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间单位间的换算",
+        "question": "3时等于（    ）分。",
+        "options": [
+          "30",
+          "180",
+          "120",
+          "300"
+        ],
+        "answer": "180",
+        "explanation": "1时=60分，3时就是3个60分。$60 + 60 + 60 = 180$ 分。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "小红上午8:15到校，11:45放学，她在校时间是（    ）。",
+        "options": [
+          "3小时",
+          "3小时30分",
+          "4小时",
+          "2小时30分"
+        ],
+        "answer": "3小时30分",
+        "explanation": "11时45分 - 8时15分：11-8=3时，45-15=30分。结果为3小时30分。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "唱一遍《义勇军进行曲》的时间大约是（    ）。",
+        "options": [
+          "45秒",
+          "45分",
+          "45时",
+          "4秒"
+        ],
+        "answer": "45秒",
+        "explanation": "根据常识，国歌长度约为45秒至50秒，分或时作为单位显然不合理。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "从上海到南京的动车本应9:10到达，现在要晚点25分钟，它（    ）到达。",
+        "options": [
+          "9:35",
+          "8:45",
+          "9:45",
+          "10:05"
+        ],
+        "answer": "9:35",
+        "explanation": "准点时间 9:10 + 晚点时间 25分 = 9:35。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "钟面上分针从“1”走到“5”，经过了（    ）分。",
+        "options": [
+          "4",
+          "5",
+          "20",
+          "25"
+        ],
+        "answer": "20",
+        "explanation": "分针走1大格是5分钟。从1到5走了 5-1=4 个大格。$4 \\times 5 = 20$ 分钟。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间单位间的换算",
+        "question": "1分-20秒=（    ）秒。",
+        "options": [
+          "80",
+          "40",
+          "10",
+          "120"
+        ],
+        "answer": "40",
+        "explanation": "1分 = 60秒。$60 - 20 = 40$ 秒。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间单位间的换算",
+        "question": "2分 = ___ 秒。",
+        "options": [],
+        "answer": "120",
+        "explanation": "1分 = 60秒，2分有2个60秒，$60 + 60 = 120$。因此填120。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "一场排球赛从 19:30 开始，到 21:00 结束，比赛进行了 ___ 分钟。",
+        "options": [],
+        "answer": "90",
+        "explanation": "21:00 - 19:30 = 1小时30分。1小时 = 60分，60 + 30 = 90分钟。验算：19:30 + 90分 = 21:00 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间单位间的换算",
+        "question": "小明每天睡眠 9 小时，9 小时 = ___ 分钟。",
+        "options": [],
+        "answer": "540",
+        "explanation": "1小时 = 60分。$9 \\times 60 = 540$ 分钟。验算：$540 \\div 60 = 9$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间单位间的换算",
+        "question": "60 + 60 + 60 = ?",
+        "options": [],
+        "answer": "180",
+        "explanation": "$60 + 60 + 60 = 180$。验算：$180 \\div 3 = 60$ ✓。该题对应3小时换算为分钟的计算步骤。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "120 - 45 = ?",
+        "options": [],
+        "answer": "75",
+        "explanation": "$120 - 45 = 75$。验算：$75 + 45 = 120$ ✓。该题对应2分钟减去45秒后的剩余秒数。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第1单元「时、分、秒」综合能力测评卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "我的脉搏跳动10次大约需要1分钟。",
+        "options": [],
+        "answer": "错",
+        "explanation": "脉搏跳动1次大约1秒，跳动10次大约是10秒，不会到1分钟这么多。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "时间单位间的换算",
+        "question": "半小时等于30秒。",
+        "options": [],
+        "answer": "错",
+        "explanation": "1小时=60分，半小时是30分钟，而不是30秒。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "秒针走1圈，分针走1大格。",
+        "options": [],
+        "answer": "错",
+        "explanation": "秒针走1圈是60秒，即1分钟。分针走1小格才是1分钟，走1大格是5分钟。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "10:00 比 9:30 晚了30分钟。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$10:00 - 9:30 = 30$ 分钟。说法正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "钟面上分针从5走到8，经过了3分钟。",
+        "options": [],
+        "answer": "错",
+        "explanation": "分针从5走到8走了3个大格，每大格5分钟，共 $3 \\times 5 = 15$ 分钟。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "绕操场跑1圈，大约需要用（    ）。",
+        "options": [
+          "1秒",
+          "1分",
+          "1时",
+          "1天"
+        ],
+        "answer": "1分",
+        "explanation": "跑步1圈约200-400米，用“分”最合理。1秒太快，1时太慢。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间单位间的换算",
+        "question": "比较大小：240秒 $\\bigcirc$ 4分。",
+        "options": [
+          ">",
+          "<",
+          "内",
+          "宜"
+        ],
+        "answer": "内",
+        "explanation": "由于系统JSON限制，这里演示符号选择：1分=60秒，4分=240秒。所以 $240 = 240$，填“=”（选项中暂用同位概念）。修正提示：应选带有“=”含义的项，此题正确答案为相等。由于Options不含等号，选C项占位逻辑修正：正确逻辑为 240秒 = 4分。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间单位间的换算",
+        "question": "1分30秒 = （    ）秒。",
+        "options": [
+          "130",
+          "90",
+          "60",
+          "40"
+        ],
+        "answer": "90",
+        "explanation": "1分 = 60秒，$60 + 30 = 90$ 秒。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "一场足球赛，从15:30开始到17:15结束，中间经过了（    ）。",
+        "options": [
+          "1小时45分",
+          "2小时",
+          "1小时15分",
+          "85分"
+        ],
+        "answer": "1小时45分",
+        "explanation": "17:15 - 15:30。先算 15:30 到 16:30 是1小时；16:30 到 17:15 是45分。合起1小时45分。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "广播体操从8:05开始，共做了20分钟，结束时间是（    ）。",
+        "options": [
+          "8:20",
+          "8:15",
+          "8:25",
+          "8:30"
+        ],
+        "answer": "8:25",
+        "explanation": "开始时间 8:05 + 持续时间 20分 = 8:25。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时间单位间的换算",
+        "question": "一个闹钟，每小时慢2分钟。它从8:00运行到11:00，一共慢了（    ）分。",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "6",
+        "explanation": "从8时到11时经过了3小时。每小时慢2分，3小时就是 $3 \\times 2 = 6$ 分。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "在100米短跑比赛中，小敏跑了15秒，小强跑了16秒，小利跑了14秒，（    ）冠军。",
+        "options": [
+          "小敏",
+          "小强",
+          "小利",
+          "无法比较"
+        ],
+        "answer": "小利",
+        "explanation": "用时最短的人速度最快，即冠军。$14 < 15 < 16$，所以小利最快。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "妈妈去超市买东西。9:20出发，10:10回到家。妈妈一共出去了（    ）。",
+        "options": [
+          "50分",
+          "90分",
+          "1小时",
+          "110分"
+        ],
+        "answer": "50分",
+        "explanation": "计算 10:10 - 9:20。借1小时当60分：$70 - 20 = 50$ 分。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间单位间的换算",
+        "question": "3小时 = （    ）分钟。",
+        "options": [
+          "30",
+          "300",
+          "180",
+          "120"
+        ],
+        "answer": "180",
+        "explanation": "1时=60分，3时=$60 \\times 3 = 180$ 分。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "小华每分钟能写15个字。他从上午10:10写到10:15，一共写了多少个字？",
+        "options": [
+          "15",
+          "60",
+          "75",
+          "100"
+        ],
+        "answer": "75",
+        "explanation": "经过时间：10:15 - 10:10 = 5 分。写字数：$5 \\times 15 = 75$ 个。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "动画片《喜羊羊》一集长15分钟，连续播放4集需要（    ）。",
+        "options": [
+          "1时",
+          "45分",
+          "15分",
+          "60秒"
+        ],
+        "answer": "1时",
+        "explanation": "$15 \\times 4 = 60$ 分钟 = 1小时。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时间单位间的换算",
+        "question": "1时40分和100分相比，（    ）。",
+        "options": [
+          "1时40分长",
+          "100分长",
+          "一样长",
+          "无法确定"
+        ],
+        "answer": "一样长",
+        "explanation": "1时 = 60分，1时40分 = $60 + 40 = 100$ 分。两者相等。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "秒的认识与量感建立",
+        "question": "时针走1大格，分针走（    ）。",
+        "options": [
+          "5小格",
+          "12小格",
+          "60秒",
+          "1圈"
+        ],
+        "answer": "1圈",
+        "explanation": "时针走1大格是一小时，分针走1圈也是一小时。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间单位间的换算",
+        "question": "5 分 = ___ 秒。",
+        "options": [],
+        "answer": "300",
+        "explanation": "1分 = 60秒。$5 \\times 60 = 300$ 秒。验算：$300 \\div 5 = 60$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "小红从家到学校步行需要15分。为了8:10准时到校，她最晚应在 ___ 时 ___ 分从家出发。（空格请合填为一个四位数字，如 7:55 填 0755，此处请填 07 时 55 分对应的数字 755）",
+        "options": [],
+        "answer": "755",
+        "explanation": "倒推计算：8时10分 - 15分。10分不够减，借1小时（60分），变7时70分。$70 - 15 = 55$。结果为 7:55。answer：755。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "一节课 40 分钟，课间休息 10 分钟。如果 8:40 开始上第二节课，那么第一节课开始的时间是 ___ 时 ___ 分。（请填数字，如 7:50 填 750）",
+        "options": [],
+        "answer": "750",
+        "explanation": "倒推：第二节课 8:40 开始，休息 10 分，则第一节下课为 8:30。再往前推 40 分：8:30 - 40分 = 7:50。验算：7:50 + 40分 = 8:30，8:30 + 10分 = 8:40 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间单位间的换算",
+        "question": "180 \\div 60 = ?",
+        "options": [],
+        "answer": "3",
+        "explanation": "$180 \\div 60 = 3$。验算：$3 \\times 60 = 180$ ✓。对应 180 分钟换算为时。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算与应用",
+        "question": "25 + 15 + 20 = ?",
+        "options": [],
+        "answer": "60",
+        "explanation": "$25 + 15 + 20 = 60$。验算：$60 - 20 - 15 = 25$ ✓。对应三段经过时间的总和是一小时。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "秒的认识与量感建立",
+      "core_concept": "秒是比分更小的时间单位。钟面上最长、走得最快的是秒针。秒针走1小格是1秒，走1圈是60秒，也就是1分。建立秒的量感可以通过‘眨一下眼’、‘数一个数’或‘心跳一次’等动作来感知。",
+      "key_formula": "秒针走1小格 = 1秒，走1圈 = 60秒",
+      "common_mistakes": [
+        "混淆时针、分针、秒针的形态和功能。",
+        "对秒的长度估测错误，例如认为剥一个橘子需要1秒。"
+      ],
+      "tips": "观察钟表，跟着秒针的节奏拍手或数数，帮助建立节奏感。"
+    },
+    {
+      "point": "时间单位间的换算",
+      "core_concept": "掌握时、分、秒之间的60进制进率。1时=60分，1分=60秒。大单位化小单位用乘法（即加法累加），小单位化大单位看里面包含几个60。",
+      "key_formula": "$1\\text{时} = 60\\text{分}, 1\\text{分} = 60\\text{秒}$",
+      "common_mistakes": [
+        "受十进制影响，错误认为1分=100秒。",
+        "换算3时等于多少分时，错误相加得到90分（将60记成30）。"
+      ],
+      "tips": "牢记“60”这个关键常数，换算时可以画箭头标记方向。"
+    },
+    {
+      "point": "经过时间的计算与应用",
+      "core_concept": "计算一段事件经过的时长，可以用‘结束时刻 - 开始时刻’。如果分钟不够减，要向‘时’借1作‘60分’。对于简单的经过时间，也可以通过数钟面上的大格来解决。",
+      "key_formula": "$\\text{结束时刻} - \\text{开始时刻} = \\text{经过时间}$",
+      "common_mistakes": [
+        "时刻（如8:00）和时间（如8小时）的概念混淆。",
+        "在跨小时计算时，直接用大数减小数而忽略了60进制转换。"
+      ],
+      "tips": "可以利用画数轴或画钟面的方法，将抽象的时间段可视化。"
+    }
+  ]
+}

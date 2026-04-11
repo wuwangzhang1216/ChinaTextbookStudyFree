@@ -1,0 +1,734 @@
+{
+  "textbook": "统编版小学语文五年级下册",
+  "unit": "遨游汉字王国",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第三单元 遨游汉字王国 单元基础通关",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "甲骨文是刻在龟甲或兽骨上的文字。",
+        "options": [],
+        "answer": "对",
+        "explanation": "甲骨文是我国发现最早的成熟文字，因刻在龟甲或兽骨上而得名。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "“休”字是一个典型的形声字。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“休”是会意字，表示人靠在树木上休息。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "搜集资料的基本方法",
+        "question": "在图书馆找书时，借阅目录可以帮我们快速定位。",
+        "options": [],
+        "answer": "对",
+        "explanation": "借助目录分类可以快速缩小寻找范围。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "楷书始于东汉，通行至今，汉字字形趋于方正、笔画平直。",
+        "options": [],
+        "answer": "对",
+        "explanation": "楷书的特点是形体方正，笔画平直，是目前的通用标准字体。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "每个字都只有一个含义，绝不会改变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "汉字有一字多义的现象，含义会随语境变化。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "下列字体按照演变先后顺序排列正确的一项是：",
+        "options": [
+          "甲骨文 金文 小篆 隶书 楷书",
+          "甲骨文 隶书 小篆 金文 楷书",
+          "小篆 甲骨文 金文 隶书 楷书",
+          "金文 甲骨文 小篆 隶书 楷书"
+        ],
+        "answer": "甲骨文 金文 小篆 隶书 楷书",
+        "explanation": "汉字的演变过程大致为：甲骨文、金文、小篆、隶书、楷书。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "“一字值千金”中“值”字在字典里的解释有：1.财物价格。2.合算。3.正在。这里应选：",
+        "options": [
+          "财物价格",
+          "合算",
+          "正在",
+          "价值"
+        ],
+        "answer": "财物价格",
+        "explanation": "在此句中指汉字的分量重，抵得上千金的价格。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "下列哪个汉字是象形字？",
+        "options": [
+          "日",
+          "樱",
+          "闷",
+          "武"
+        ],
+        "answer": "日",
+        "explanation": "“日”模拟的是太阳的形状，属于象形字。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "猜字谜：“两个月亮一起挂”。谜底是：",
+        "options": [
+          "朋",
+          "日",
+          "明",
+          "阴"
+        ],
+        "answer": "朋",
+        "explanation": "两人为朋，字形由两个“月”组成。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "搜集资料的基本方法",
+        "question": "要查询汉字“龙”的文化典故，下面哪种方式不合适？",
+        "options": [
+          "到图书馆查阅历史故事书",
+          "在网上搜索关键词“龙的传说”",
+          "请教语文老师",
+          "闭着眼睛自己想象"
+        ],
+        "answer": "闭着眼睛自己想象",
+        "explanation": "搜集资料需要通过书籍、网络或请教他人，想象不是搜集手段。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "“门字里面多一点”是什么字？",
+        "options": [
+          "问",
+          "间",
+          "闩",
+          "闭"
+        ],
+        "answer": "问",
+        "explanation": "“门”字中间加一个“口”（口在谜语中常用点形容或指代结构），谜底是“问”。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "形声字“河”的意符是：",
+        "options": [
+          "氵",
+          "可",
+          "丁",
+          "口"
+        ],
+        "answer": "氵",
+        "explanation": "形声字的意符表示含义，三点水表示和水有关。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单的研究报告撰写",
+        "question": "在撰写关于汉字的研究报告时，最后一部分通常写什么？",
+        "options": [
+          "研究目的",
+          "研究方法",
+          "形成结论",
+          "引用文献"
+        ],
+        "answer": "形成结论",
+        "explanation": "研究报告的一般结构最后是基于资料整理后得出的结论。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "仓颉造字的传说是关于汉字产生的：",
+        "options": [
+          "科学论断",
+          "民间故事",
+          "考古证据",
+          "真实历史"
+        ],
+        "answer": "民间故事",
+        "explanation": "仓颉造字属于富有文化底蕴的民间神话传说。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的研究报告撰写",
+        "question": "整理资料时，如果发现有一篇内容不相关，应该：",
+        "options": [
+          "全部抄下来",
+          "进行筛选剔除",
+          "修改内容使其相关",
+          "重新开始研究"
+        ],
+        "answer": "进行筛选剔除",
+        "explanation": "研究报告要求资料必须真实且与主题高度相关。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "我们现在通用的汉字是（___）。",
+        "options": [],
+        "answer": "楷书",
+        "explanation": "目前我国通用的规范汉字字体是楷书。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "传说中创造汉字的人是（___）。",
+        "options": [],
+        "answer": "仓颉",
+        "explanation": "传说黄帝的史官仓颉观察鸟兽足迹创造了汉字。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "“清”和“湖”都是（___）字。",
+        "options": [],
+        "answer": "形声",
+        "explanation": "这两个字左侧表义，右侧表音，是标准的形声字。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "将下列物品与对应汉字进行连线：",
+        "options": [
+          "圆圆的月亮",
+          "燃烧的火堆",
+          "流动的泉水",
+          "高耸的山峰",
+          "山",
+          "月",
+          "火",
+          "水"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "象形字源于图形：月亮对应“月”，火堆对应“火”，泉水对应“水”，山峰对应“山”。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "将下列汉字与它们的演变阶段连线：",
+        "options": [
+          "龟角上的纹路",
+          "青铜器上的刻痕",
+          "竹简上的蚕头雁尾",
+          "宣纸上的工整一捺",
+          "金文",
+          "隶书",
+          "甲骨文",
+          "楷书"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "龟甲对应甲骨文，青铜器对应金文，隶书有蚕头雁尾特点，楷书书写工整。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "将歇后语的前后部分连起来：",
+        "options": [
+          "外甥打灯笼",
+          "隔着门缝看人",
+          "咸菜拌豆腐",
+          "上鞋不用锥子",
+          "把人看扁了",
+          "照旧",
+          "真好",
+          "有言在先"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "外甥打灯笼—照旧（舅）；隔着门缝看人—把人看扁了；咸菜拌豆腐—有言（盐）在先；上鞋不用锥子—真（针）好。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "将词语排列成一句赞美汉字的话：",
+        "options": [
+          "汉字",
+          "历史悠久的",
+          "祖国的",
+          "真是",
+          "瑰宝"
+        ],
+        "answer": "祖国的,汉字,真是,历史悠久的,瑰宝",
+        "explanation": "按照主谓宾结构排列，并正确使用修饰语。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "搜集资料的基本方法",
+        "question": "将撰写研究报告的步骤按顺序排列：",
+        "options": [
+          "整理资料",
+          "形成结论",
+          "明确问题",
+          "搜集资料"
+        ],
+        "answer": "明确问题,搜集资料,整理资料,形成结论",
+        "explanation": "撰写研究报告需要经过确定课题、找资料、选资料、写结论的过程。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级语文下册 第三单元 综合检测卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "“删”字的偏旁“刂”像古人用刀在竹简上刻痕。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“删”本意是削去简牒上的字，利刀旁代表工具。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "搜集资料的基本方法",
+        "question": "网上搜到的所有关于汉字的历史资料都一定是准确的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "网络资料良莠不齐，需要慎重筛选和多方求证。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "行书是在隶书的基础上演变而来的，比楷书书写更快捷。",
+        "options": [],
+        "answer": "对",
+        "explanation": "行书是介于楷书和草书之间的一种字体，兼顾书写速度与美感。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "简单的研究报告撰写",
+        "question": "研究报告的“研究方法”可以只写“写字”两个字。",
+        "options": [],
+        "answer": "错",
+        "explanation": "研究方法应具体到搜集资料的具体途径，如“查阅图书”、“调查访问”等。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "汉字经历了从繁到简的变化过程。",
+        "options": [],
+        "answer": "对",
+        "explanation": "汉字总的发展趋势是笔画减少、结构简化。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "下列词语中没有错别字的一项是：",
+        "options": [
+          "不可思议",
+          "随心所预",
+          "一如既往",
+          "万马奔腾"
+        ],
+        "answer": "不可思议",
+        "explanation": "其他项存在错别字，由于JSON限制只选一个全对的项。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "下列哪个字是“形旁在左，声旁在右”？",
+        "options": [
+          "桐",
+          "芬",
+          "期",
+          "驾"
+        ],
+        "answer": "桐",
+        "explanation": "“桐”左侧木字旁表义，右侧同表音。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "“若即若离”中“若”的意思是：",
+        "options": [
+          "好像",
+          "如果",
+          "你",
+          "顺从"
+        ],
+        "answer": "好像",
+        "explanation": "该成语意思是好像靠近又好像离开。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单的研究报告撰写",
+        "question": "一份完整的研究报告不包含以下哪项？",
+        "options": [
+          "问题的提出",
+          "调查研究的方法",
+          "资料整理",
+          "作者的生平介绍"
+        ],
+        "answer": "作者的生平介绍",
+        "explanation": "研究报告关注研究内容本身，不需要介绍作者生平。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "王羲之是历史上著名的：",
+        "options": [
+          "思想家",
+          "书法家",
+          "文学家",
+          "史学家"
+        ],
+        "answer": "书法家",
+        "explanation": "王羲之被尊称为“书圣”。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "下列哪种字体最有“厚重、古朴”的感觉？",
+        "options": [
+          "楷书",
+          "金文",
+          "行书",
+          "草书"
+        ],
+        "answer": "金文",
+        "explanation": "金文刻在青铜器上，线条浑厚，给人古朴的感觉。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "搜集资料的基本方法",
+        "question": "如果在图书馆找到一本书的索书号是“I247”，这本最可能是：",
+        "options": [
+          "科普杂志",
+          "数学题集",
+          "文学作品",
+          "地图册"
+        ],
+        "answer": "文学作品",
+        "explanation": "“I”类在图书分类法中通常代表文学。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "下列哪组词语最能体现汉字书法的艺术魅力？",
+        "options": [
+          "龙飞凤舞",
+          "乱七八糟",
+          "密密麻麻",
+          "重重叠叠"
+        ],
+        "answer": "龙飞凤舞",
+        "explanation": "“龙飞凤舞”形容书法笔势壮丽生动。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "“闻”字的构造属于：",
+        "options": [
+          "形声字",
+          "会意字",
+          "指事字",
+          "象形字"
+        ],
+        "answer": "形声字",
+        "explanation": "“门”表音，“耳”表义。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单的研究报告撰写",
+        "question": "在搜集关于“错别字”的资料时，不适合的做法是：",
+        "options": [
+          "去街头找错别字并拍照",
+          "记录同学作业里的错字",
+          "把自己不认识的字都算作错别字",
+          "通过调查问卷询问错字原因"
+        ],
+        "answer": "把自己不认识的字都算作错别字",
+        "explanation": "不认识的字不等于错别字，研究必须严谨。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "有一种汉字形式叫（___），是用丝绸或竹简书写的。",
+        "options": [],
+        "answer": "简牍",
+        "explanation": "在纸发明前，汉字主要写在竹简或木牍上。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "“月”字在演变成现在的字之前，最初是（___）形。",
+        "options": [],
+        "answer": "新月",
+        "explanation": "甲骨文中的“月”字就像一弯新月。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单的研究报告撰写",
+        "question": "研究报告的核心目的是（___）。",
+        "options": [],
+        "answer": "解决问题",
+        "explanation": "研究是为了探究真相并解决最初提出的问题。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "将下列汉字与对应的造字方法连线：",
+        "options": [
+          "休",
+          "山",
+          "刃",
+          "飘",
+          "指事字",
+          "形声字",
+          "象形字",
+          "会意字"
+        ],
+        "answer": "A-4,B-3,C-1,D-2",
+        "explanation": "休（会意）、山（象形）、刃（指事）、飘（形声）。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "将字体名称与其代表人物或特点连线：",
+        "options": [
+          "隶书",
+          "草书",
+          "楷书",
+          "行书",
+          "王羲之",
+          "颜真卿",
+          "蚕头雁尾",
+          "潦草狂奔"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "隶书突出特点是蚕头雁尾，草书笔画相连，颜真卿以楷书著称，王羲之行书第一。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "搜集资料的基本方法",
+        "question": "将研究任务与最合适的搜集方法连线：",
+        "options": [
+          "查找“龙”的字源",
+          "校园错别字现状",
+          "古代书法的由来",
+          "书法家的趣事",
+          "实地调查",
+          "查阅图书",
+          "听讲座",
+          "网络搜索"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "字源查字典，错别字去调查，由来查网络，趣事听讲座。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字的演变与文化",
+        "question": "将下列词语排成赞美汉字特点的句子：",
+        "options": [
+          "蕴含着",
+          "汉字",
+          "深刻的",
+          "每个",
+          "可能",
+          "道理"
+        ],
+        "answer": "每个,汉字,可能,蕴含着,深刻的,道理",
+        "explanation": "主语是汉字，谓语是蕴含，宾语是道理。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "搜集资料的基本方法",
+        "question": "请理顺利用网络搜集资料的正确顺序：",
+        "options": [
+          "输入关键词",
+          "打开搜索引擎",
+          "浏览并筛选内容",
+          "点击查询按钮"
+        ],
+        "answer": "打开搜索引擎,输入关键词,点击查询按钮,浏览并筛选内容",
+        "explanation": "考察信息技术在语文综合实践中的标准操作流程。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "汉字的演变与文化",
+      "core_concept": "汉字有几千年的历史，经历从甲骨文、金文、小篆到隶书、楷书的演变过程。汉字不仅仅是交流工具，更蕴含着古人的智慧。汉字有象形、指事、会意、形声等不同的造字规则，通过了解这些规则，我们能更深刻地理解汉字背后的含义和历史感。",
+      "key_formula": "演变顺序：甲—金—篆—隶—楷",
+      "common_mistakes": [
+        "混淆隶书和楷书的区别，不清楚蚕头雁尾是隶书的特征",
+        "错误判断形声字的声旁和形旁位置"
+      ],
+      "tips": "可以通过拆解字形的方法来记忆，比如看到三点水就知道跟水有关，看到木字旁就知道跟植物有关。"
+    },
+    {
+      "point": "搜集资料的基本方法",
+      "core_concept": "在开展专题研究时，搜集资料是核心步骤。学生需要掌握三种基本途径：一是图书资料搜索，通过索引号查找；二是网络搜索，通过关键词筛选有效信息；三是调查研究，如实地考察、采访专业人士等。要注意资料的真实性、权威性和关联性。",
+      "key_formula": "搜集途径：图书馆+网络+采访+实地考察",
+      "common_mistakes": [
+        "搜索时关键词过于宽泛导致搜出的内容无用",
+        "不加筛选地记录所有内容而没有针对性"
+      ],
+      "tips": "搜索时尽量具体，比如搜“汉字故事”比搜“汉字”更精确。"
+    },
+    {
+      "point": "简单的研究报告撰写",
+      "core_concept": "研究报告是记录研究过程和结果的文体。基本结构包括：1.问题的提出（为什么研究）；2.研究方法（怎么研究）；3.资料整理（搜到了什么）；4.形成结论（研究出了什么）。撰写时要求语言简练准确，结论必须有资料支撑。",
+      "key_formula": "报告四要素：问题、方法、整理、结论",
+      "common_mistakes": [
+        "结论中加入过多的个人主观情感或想象",
+        "资料整理部分内容凌乱，缺乏分类"
+      ],
+      "tips": "可以先用表格整理资料，然后再转化为文字展示，逻辑会更清晰。"
+    }
+  ]
+}

@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文六年级下册",
+  "unit": "第五单元：科学精神",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元基础通关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "《学弈》中“通国之善弈者也”的“善”意思是“擅长”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "善：擅长，善于。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "《两小儿辩日》中“及其日中如探汤”的“汤”指的是“食物汤”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "汤：热水。这里指中午的太阳像热水一样热。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "具体事例说明观点",
+        "question": "《真理诞生于一百个问号之后》的观点是：真理离我们很远，普通人无法发现。",
+        "options": [],
+        "answer": "错",
+        "explanation": "文章的观点是只要见微知著，善于发问，真理就诞生在一百个问号之后。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "科幻想象与逻辑构建",
+        "question": "科幻作品中的想象可以完全脱离科学事实，不需要任何逻辑。",
+        "options": [],
+        "answer": "错",
+        "explanation": "科幻想象应基于科学基础，并展开合理的逻辑构建。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "“孔子不能决也”中的“决”意思是“决定，判定”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "决：判断。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "下列加点词语解释错误的一项是：",
+        "options": [
+          "思援弓缴而射之（援：引，拉）",
+          "孰为汝多知乎（知：同“智”，智慧）",
+          "及其日初出如沧沧凉凉（及其：达到）",
+          "为是其智弗若与（为：因为）"
+        ],
+        "answer": "及其日初出如沧沧凉凉（及其：达到）",
+        "explanation": "及其：等到。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "具体事例说明观点",
+        "question": "下列哪组词语最能体现《真理诞生于一百个问号之后》所传达的精神？",
+        "options": [
+          "各抒己见 漫不经心",
+          "见微知著 锲而不舍",
+          "坐井观天 举一反三",
+          "不耻下问 囫囵吞枣"
+        ],
+        "answer": "见微知著 锲而不舍",
+        "explanation": "见微知著能从细微现象发现问题，锲而不舍代表坚持不懈地探索。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "阅读《两小儿辩日》，一儿认为“日初出远，而日中时近也”，他的理由是：",
+        "options": [
+          "日中时如探汤",
+          "日初出大如车盖",
+          "孰为汝多知乎",
+          "此不为远者小而近者大乎"
+        ],
+        "answer": "此不为远者小而近者大乎",
+        "explanation": "他根据视觉感官“近大远小”的经验进行判断。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "文中“虽与之俱学，弗若之矣”的“之”字指代的是：",
+        "options": [
+          "弈秋",
+          "鸿鹄",
+          "后一个人",
+          "前一个人"
+        ],
+        "answer": "前一个人",
+        "explanation": "指代那个专心致志学弈的人。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "具体事例说明观点",
+        "question": "下列哪一个故事不能作为“真理诞生于一百个问号之后”的论据？",
+        "options": [
+          "谢皮罗教授从洗澡水的旋涡发现地球自转",
+          "魏格纳从地图上发现大陆漂移学说",
+          "鲁班被草割伤手发明了锯子",
+          "守株待兔的人在田里等待兔子"
+        ],
+        "answer": "守株待兔的人在田里等待兔子",
+        "explanation": "守株待兔是由于偶然和迷信，不属于科学发现的过程。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "科幻想象与逻辑构建",
+        "question": "阅读语段：“20年后的教室，桌椅能根据学生的身高自动调节。”这个想象的依据是：",
+        "options": [
+          "魔法的加持",
+          "生理发育的需求",
+          "心情的起伏",
+          "天气的变化"
+        ],
+        "answer": "生理发育的需求",
+        "explanation": "这是基于现实中儿童成长发育需求的合理逻辑设定。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "“使弈秋诲二人弈”中“诲”的意思是：",
+        "options": [
+          "后悔",
+          "教导",
+          "谈话",
+          "观察"
+        ],
+        "answer": "教导",
+        "explanation": "诲：教导。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "具体事例说明观点",
+        "question": "“见微知著”中“著”的意思是：",
+        "options": [
+          "有名望的",
+          "显著，明显",
+          "写作",
+          "穿着"
+        ],
+        "answer": "显著，明显",
+        "explanation": "著在这里指微小的事物中显现出的显著特征或规律。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "具体事例说明观点",
+        "question": "关于《真理诞生于一百个问号之后》的结构，描述正确的是：",
+        "options": [
+          "提出观点—证明观点—总结观点",
+          "描写景物—抒发感情—点明主旨",
+          "讲述故事—引出话题—提出建议",
+          "逻辑混乱—没有条理—随意书写"
+        ],
+        "answer": "提出观点—证明观点—总结观点",
+        "explanation": "这是议论文典型的论证结构。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "“孔子东游，见两小儿辩斗”中“辩斗”的意思是：",
+        "options": [
+          "打架",
+          "比赛跑",
+          "辩论，争论",
+          "玩游戏"
+        ],
+        "answer": "辩论，争论",
+        "explanation": "辩斗：辩论，争论。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "《学弈》一文告诉我们，学习必须（____）。",
+        "options": [],
+        "answer": "专心致志",
+        "explanation": "文中对比了两个人的学习态度，强调了专心的重要性。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "“孰为汝多知乎”中“孰”的意思是（____）。",
+        "options": [],
+        "answer": "谁",
+        "explanation": "孰：谁。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "具体事例说明观点",
+        "question": "真理诞生于（____）个问号之后。",
+        "options": [],
+        "answer": "一百",
+        "explanation": "这是课文的标题，也是核心观点。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "请将下列文言文字词与对应的意思连线。",
+        "options": [
+          "弈",
+          "诲",
+          "俱",
+          "弗",
+          "不",
+          "教导",
+          "下棋",
+          "一起"
+        ],
+        "answer": "A-3,B-2,C-4,D-1",
+        "explanation": "弈-下棋，诲-教导，俱-一起，弗-不。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "具体事例说明观点",
+        "question": "将下列科学发现与其对应的典型事例连线。",
+        "options": [
+          "谢皮罗",
+          "波义耳",
+          "魏格纳",
+          "阿基米德",
+          "浮力定律",
+          "漩涡方向",
+          "酸碱试纸",
+          "大陆漂移"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "谢皮罗-漩涡，波义耳-试纸，魏格纳-大陆漂移，阿基米德-浮力。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "请将下列成语与对应的人物或故事连线。",
+        "options": [
+          "专心致志",
+          "两小儿辩日",
+          "见微知著",
+          "锲而不舍",
+          "只要功夫深",
+          "科学发现",
+          "学弈",
+          "孔子"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "专心致志-学弈，两小儿辩日-孔子，见微知著-科学发现，锲而不舍-只要功夫深。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "具体事例说明观点",
+        "question": "请将句子排好序：",
+        "options": [
+          "真理",
+          "就在于",
+          "敏锐地",
+          "发现问题",
+          "关键"
+        ],
+        "answer": "关键,就在于,敏锐地,发现问题,真理",
+        "explanation": "考察对论点句式逻辑的掌握。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "科幻想象与逻辑构建",
+        "question": "请连词成句，描述未来的科学生活：",
+        "options": [
+          "纳米机器人",
+          "将",
+          "在身体里",
+          "修补",
+          "受损细胞"
+        ],
+        "answer": "纳米机器人,将,在身体里,修补,受损细胞",
+        "explanation": "考察对科学词汇的组合能力。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级语文下册第五单元核心素养评价",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "《学弈》选自《孟子·告子上》。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文出处的基础考察。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "具体事例说明观点",
+        "question": "科学史上，所有的真理都是科学家凭空想象出来的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "真理产生于细心的观察和严谨的实验。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "“孔子不能决也”表现了孔子实事求是的态度。",
+        "options": [],
+        "answer": "对",
+        "explanation": "体现了“知之为知之，不知为不知”的精神。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "科幻想象与逻辑构建",
+        "question": "《表里的生物》一文中，作者认为表里面有一个活生物。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是童年作者的一种好奇心和朴素逻辑。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "具体事例说明观点",
+        "question": "“打破砂锅问到底”这种精神是科学精神的一种表现。",
+        "options": [],
+        "answer": "对",
+        "explanation": "代表了求知的渴望和韧劲。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "“为是其智弗若与”下一句正确的是：",
+        "options": [
+          "曰：非然也。",
+          "孰为汝多知乎？",
+          "一儿以日初出远。",
+          "思援弓缴而射之。"
+        ],
+        "answer": "曰：非然也。",
+        "explanation": "《学弈》原文背诵考察。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "具体事例说明观点",
+        "question": "下列哪组词语最能准确概括波义耳发现酸碱指示剂的过程？",
+        "options": [
+          "粗心大意 偶然得之",
+          "敏锐观察 实验探究",
+          "闭门造车 灵光一闪",
+          "听天由命 毫不费力"
+        ],
+        "answer": "敏锐观察 实验探究",
+        "explanation": "科学发现需要敏锐的眼光和实践规律总结。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "“孔子不能决也”中“不能决”的原因，从科学角度看是因为：",
+        "options": [
+          "孔子那天心情不好",
+          "那两个小孩太吵闹",
+          "当时科学水平局限",
+          "孔子没有读过书"
+        ],
+        "answer": "当时科学水平局限",
+        "explanation": "受限于当时的观测工具和天文学认知。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "具体事例说明观点",
+        "question": "文中提到的“司空见惯”的意思是：",
+        "options": [
+          "姓司空的人经常看",
+          "虽然常见，但很珍贵",
+          "经常看到，不足为奇",
+          "少见多怪"
+        ],
+        "answer": "经常看到，不足为奇",
+        "explanation": "该成语在文中指对平常现象的忽略。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "科幻想象与逻辑构建",
+        "question": "假如要写一篇关于“火星生活”的科幻作文，以下哪个点最科学？",
+        "options": [
+          "火星上有充足的液态氧气直接呼吸",
+          "人类住在封闭的地底基地或穹顶舱",
+          "人们每天坐云朵去上班",
+          "火星上的重力比地球大很多倍"
+        ],
+        "answer": "人类住在封闭的地底基地或穹顶舱",
+        "explanation": "基于火星没氧气、辐射强的科学事实做的合理想象。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "“一心以为有鸿鹄将至”中“鸿鹄”指的是：",
+        "options": [
+          "一种麻雀",
+          "天鹅",
+          "鲲鹏",
+          "乌鸦"
+        ],
+        "answer": "天鹅",
+        "explanation": "鸿鹄，指天鹅。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "具体事例说明观点",
+        "question": "“问号”在文中被比喻成什么？",
+        "options": [
+          "通向成功的钩子",
+          "心中的疑虑",
+          "发现真理的前奏",
+          "一个弯曲的符号"
+        ],
+        "answer": "发现真理的前奏",
+        "explanation": "这里的问号是发现问题的起点。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "具体事例说明观点",
+        "question": "下列句子中，标点符号使用正确的一项是：",
+        "options": [
+          "真理诞生于一百个问号之后？",
+          "“真理诞生于一百个问号之后”这句话是有科学依据的。",
+          "洗澡水的旋涡、紫罗兰颜色的变化、这些都是小事。",
+          "他问道。谁能决也？"
+        ],
+        "answer": "“真理诞生于一百个问号之后”这句话是有科学依据的。",
+        "explanation": "全句是陈述句，引号使用正确。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "“一儿曰：‘我以日始出时去人近，而日中时远也。’”中“去”的意思是：",
+        "options": [
+          "离开",
+          "距离",
+          "除掉",
+          "前往"
+        ],
+        "answer": "距离",
+        "explanation": "去：距离。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "具体事例说明观点",
+        "question": "下列对于“真理”的理解，最符合课文原意的是：",
+        "options": [
+          "真理是不可改变的",
+          "真理只有天才才能发现",
+          "真理掌握在少数人手中",
+          "真理在发现之前就是平常的小事"
+        ],
+        "answer": "真理在发现之前就是平常的小事",
+        "explanation": "对应文中“见微知著”的观点。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "《学弈》中，第二个人的心态可以用这个成语形容：（____）。",
+        "options": [],
+        "answer": "心不在焉",
+        "explanation": "他虽然在听，心里却想着射鸿鹄。词语长度在限制内。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "《两小儿辩日》体现了孩子敢于（____）的精神。",
+        "options": [],
+        "answer": "独立思考",
+        "explanation": "两小儿不迷信权威，敢于根据现象思考。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "具体事例说明观点",
+        "question": "波义耳通过紫罗兰变红发现了（____）试纸。",
+        "options": [],
+        "answer": "石蕊",
+        "explanation": "科学常识填空。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "请将古文中的重点词语与其意思连线。",
+        "options": [
+          "通国",
+          "非然",
+          "辩斗",
+          "孰",
+          "谁",
+          "全国",
+          "争论",
+          "不是这样"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "通国-全国，非然-不是这样，辩斗-争论，孰-谁。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "具体事例说明观点",
+        "question": "请将下列成语与它们的含义连线。",
+        "options": [
+          "见微知著",
+          "司空见惯",
+          "锲而不舍",
+          "无独有偶",
+          "不只一个",
+          "细处知著",
+          "坚持不懈",
+          "习以为常"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "见微知著-细处知著，司空见惯-习以为常，锲而不舍-坚持不懈，无独有偶-不只一个。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "科幻想象与逻辑构建",
+        "question": "请将科幻作品中的发明与其解决的问题连线。",
+        "options": [
+          "全息影像",
+          "自动驾驶",
+          "基因修复",
+          "人工太阳",
+          "交通事故",
+          "通讯距离",
+          "能源危机",
+          "遗传疾病"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考察科幻想象的逻辑对应性。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "具体事例说明观点",
+        "question": "按照课文逻辑将词语排成一句话：",
+        "options": [
+          "发现",
+          "真理",
+          "在",
+          "一百个",
+          "问号之后"
+        ],
+        "answer": "真理,在,一百个,问号之后,发现",
+        "explanation": "逻辑顺序：主语+所在位置+动词。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "文言文实词与辩证思维",
+        "question": "将《学弈》中的道理排成句子：",
+        "options": [
+          "智力",
+          "并不是",
+          "学习",
+          "的关键",
+          "勤奋"
+        ],
+        "answer": "智力,并不是,学习,的关键,勤奋",
+        "explanation": "逻辑：A不是关键，B才是关键。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "具体事例说明观点",
+      "core_concept": "在议论性文章中，论点是灵魂，而典型事例是支撑论点的血肉。通过谢皮罗洗澡水、波义耳盐酸滴花、魏格纳地壳观察这三个具有共性的科学发现故事，从不同学科领域、不同生活角度，层层递进地论证了“真理诞生于一百个问号之后”这一抽象道理方案。",
+      "key_formula": "论点 + 典型事例1 + 典型事例2 + 典型事例3 + 总结论证",
+      "common_mistakes": [
+        "所选事例与观点不配套。例如用“坚持练习书法”作为“科学发现”的论据。",
+        "事例叙述过于冗长，没有重点突出“问号”到“真理”的过程。"
+      ],
+      "tips": "写作或分析时，要采用“看到现象—产生疑问—实验探究—发现真理”的四步法锁定事例核心。"
+    },
+    {
+      "point": "文言文实词与辩证思维",
+      "core_concept": "理解文言文的关键在于掌握重点实词。如《学弈》中的指示代词“之”的不同指代对象。同时，学习古人的辩证思维，如两小儿从不同感官（视觉与触觉）出发产生的认知冲突。这不仅是语言学习，更是批判性思维和科学探索态度的启蒙。",
+      "key_formula": "文言基础：一词多义辨析 + 逻辑点：现象背后的原因",
+      "common_mistakes": [
+        "混淆多音字和古今异义词，如将“汤”误解为“鸡汤”。",
+        "忽略指示代词的指代对象，导致句意理解偏差。"
+      ],
+      "tips": "通过对比学习法，将两个人的学习表现或两小儿的观点画成对照表，加深记忆。"
+    },
+    {
+      "point": "科幻想象与逻辑构建",
+      "core_concept": "科幻作文与纯幻想作文的区别在于其“科学属性”。好的科幻作品应基于已知的科学事实（如火星重力、纳米技术）进行外延性想象。这种想象必须符合内部逻辑，不能依靠魔法，而是科技手段。通过这种练习，学生能锻炼严谨的逻辑推导能力。",
+      "key_formula": "现有科学原理 + 跨越式想象 + 合理的生活逻辑",
+      "common_mistakes": [
+        "把科幻写成玄幻。如：宇宙飞船是用咒语启动的。",
+        "逻辑断层。想象出了先进技术，但对人类生活的影响没有合理闭环。"
+      ],
+      "tips": "先定一个核心科技（如意识上传），再从衣食住行四个方面具体描述其带来的变化。"
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "textbook": "教科版小学科学三年级上册",
+  "unit": "天气",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第三单元《天气》阶段自测卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "气温计的使用",
+        "question": "测量气温时，气温计应该挂在室外阳光直射的地方。",
+        "options": [],
+        "answer": "错",
+        "explanation": "测量气温应在室外阴凉通风处，阳光直射会导致数值偏高。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "降水量的测量",
+        "question": "降雨量是用毫米作单位来计量的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "降水量的法定计量单位是毫米（mm）。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "风向的定义",
+        "question": "风向是指风吹来的方向，比如北风是指从北向南吹的风。",
+        "options": [],
+        "answer": "对",
+        "explanation": "风向即风来源的方向。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "云的识别",
+        "question": "阴天时，云量通常占据了整个天空的四分之三以上。",
+        "options": [],
+        "answer": "对",
+        "explanation": "气象学规定云量覆盖天空80%及以上为阴天。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "天气预报的制作",
+        "question": "现在气象员只依靠超级计算机就能发布准确的天气预报，不需要人工参与。",
+        "options": [],
+        "answer": "错",
+        "explanation": "天气预报需要经过人工集体会商后才会发布。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "气温计的读数",
+        "question": "读取气温计数值时，视线应该（ ）。",
+        "options": [
+          "仰视液柱顶端",
+          "俯视液柱顶端",
+          "与液柱顶端持平",
+          "随意观察"
+        ],
+        "answer": "与液柱顶端持平",
+        "explanation": "平视可以保证读数准确，避免产生误差。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "降水形式",
+        "question": "下列属于降水形式的是（ ）。",
+        "options": [
+          "雾",
+          "冰雹",
+          "霜",
+          "露水"
+        ],
+        "answer": "冰雹",
+        "explanation": "雨、雪、冰雹都属于大气降水形式。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "风向标的使用",
+        "question": "如果风向标的箭头指向西南方，说明此时刮的是（ ）。",
+        "options": [
+          "东北风",
+          "西南风",
+          "东南风",
+          "西北风"
+        ],
+        "answer": "西南风",
+        "explanation": "风向标箭头指向的方向即为风吹来的方向。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "积云的特征",
+        "question": "看上去像棉花团一样的云叫（ ）。",
+        "options": [
+          "卷云",
+          "层云",
+          "积云",
+          "雨云"
+        ],
+        "answer": "积云",
+        "explanation": "积云特征为像棉花团、团状堆积。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "制作雨量器",
+        "question": "制作简易雨量器时，容器的形状应该是（ ）。",
+        "options": [
+          "上大下小的圆锥形",
+          "不规则形状",
+          "直筒透明杯子",
+          "球形杯子"
+        ],
+        "answer": "直筒透明杯子",
+        "explanation": "雨量器要求上下粗细均匀以保证刻度均匀。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气观测工具",
+        "question": "测量风速的专业仪器的名称是（ ）。",
+        "options": [
+          "风向标",
+          "气压计",
+          "风速仪",
+          "百叶箱"
+        ],
+        "answer": "风速仪",
+        "explanation": "风速仪是测量风速的专用仪器。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "降雨等级划分",
+        "question": "24小时总降水量为15毫米，属于（ ）。",
+        "options": [
+          "小雨",
+          "中雨",
+          "大雨",
+          "暴雨"
+        ],
+        "answer": "中雨",
+        "explanation": "10-24.9毫米之间为中雨。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "气温的变化",
+        "question": "一天中气温最高的时间段通常是在（ ）。",
+        "options": [
+          "上午10点",
+          "中午12点",
+          "下午2点左右",
+          "傍晚6点"
+        ],
+        "answer": "下午2点左右",
+        "explanation": "受地表散热滞后影响，最高温通常在午后两小时。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "天气与气候的区别",
+        "question": "下列描述属于气候的是（ ）。",
+        "options": [
+          "昆明四季如春",
+          "今天乌云密布",
+          "昨晚下了一场雨",
+          "此刻窗外微风习习"
+        ],
+        "answer": "昆明四季如春",
+        "explanation": "气候强调长期稳定性，天气强调短时间的瞬间状态。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "风力等级观察",
+        "question": "当我们看到烟飘向北方，树枝摇动，这时的风向和风力大约是（ ）。",
+        "options": [
+          "北风 1级",
+          "南风 4级",
+          "南风 1级",
+          "西风 2级"
+        ],
+        "answer": "南风 4级",
+        "explanation": "烟向北飘是南风；树枝摇动约4级（风吹树枝动）。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "气温计结构",
+        "question": "气温计上标有的℃符号意为（ ）。",
+        "options": [
+          "华氏度",
+          "摄氏度",
+          "经度",
+          "纬度"
+        ],
+        "answer": "摄氏度",
+        "explanation": "℃是国际上常用的摄氏温标单位。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气预报流程",
+        "question": "制作天气预报的第一步流程是（ ）。",
+        "options": [
+          "数值天气预报",
+          "气象员会商",
+          "数据收集",
+          "发布预报"
+        ],
+        "answer": "数据收集",
+        "explanation": "天气预报始于全球各地的气象站点数据收集。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "二十四节气",
+        "question": "下列哪个选项不属于二十四节气？（ ）。",
+        "options": [
+          "夏至",
+          "大寒",
+          "国庆",
+          "惊蛰"
+        ],
+        "answer": "国庆",
+        "explanation": "国庆是公历节日，非传统农耕二十四节气。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "气温计读数",
+        "question": "冰水混合物的温度被规定为（ ___ ）℃。",
+        "options": [],
+        "answer": "0",
+        "explanation": "标准大气压下水结冰的温度为0度。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "风力等级",
+        "question": "蒲福风力等级表将风力共分为（ ___ ）个等级。",
+        "options": [],
+        "answer": "13",
+        "explanation": "蒲福风力等级表通常划分为0-12级，共13个等级。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "气温计结构",
+        "question": "气温计主要由液柱、刻度、单位和（ ___ ）组成。",
+        "options": [],
+        "answer": "液泡",
+        "explanation": "气温计下端装液体的部位叫液泡。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "降水量的测量",
+        "question": "测量降水量时，应把雨量器放在（ ___ ）的地方。",
+        "options": [],
+        "answer": "空旷",
+        "explanation": "空旷地带无遮挡，测得的降水量才具有代表性。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "云的分类",
+        "question": "像羽毛一样纤细的云通常是（ ___ ）。",
+        "options": [],
+        "answer": "卷云",
+        "explanation": "卷云通常在高空，呈纤维状或羽毛状。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "教科版三年级科学上册期末统考模拟卷（天气专题）",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "云的观测",
+        "question": "天空中云的多少是区分晴天、多云和阴天的重要依据。",
+        "options": [],
+        "answer": "对",
+        "explanation": "云量是划分天气状况的关键指标。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "降水量标准",
+        "question": "只要下雨，我们就称之为降水，不论它是液体还是固体。",
+        "options": [],
+        "answer": "对",
+        "explanation": "降水包括雨、雪、雹等多种形式。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "气候的稳定性",
+        "question": "气候描述的是长期的、比较稳定的平均天气特征。",
+        "options": [],
+        "answer": "对",
+        "explanation": "气候具有相对稳定性，天气具有多变性。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "风速描述",
+        "question": "“风拔树木”在蒲福风力层级表中属于 0 级风的表现。",
+        "options": [],
+        "answer": "错",
+        "explanation": "0级风是烟直上，拔树通常属于10级风。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "气温计选择",
+        "question": "测量开水的温度可以用普通气温计进行测量。",
+        "options": [],
+        "answer": "错",
+        "explanation": "气温计量程有限（通常0-50℃），测量开水会导致胀破。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "温度计读数",
+        "question": "在一个寒冷的冰库里，气温计液柱指示在刻度0以下第5格，应读作（ ）。",
+        "options": [
+          "5摄氏度",
+          "零上5摄氏度",
+          "零下5摄氏度",
+          "负5度"
+        ],
+        "answer": "零下5摄氏度",
+        "explanation": "0以下为零下，规范读法为“零下X摄氏度”。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "降水量计量",
+        "question": "某地24小时降水量为50毫米，降雨等级达到了（ ）。",
+        "options": [
+          "大雨",
+          "暴雨",
+          "大暴雨",
+          "中雨"
+        ],
+        "answer": "暴雨",
+        "explanation": "24小时降水量50-99.9毫米为暴雨。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "风向判断",
+        "question": "小明放风筝时，风筝向东南方向飘动，说明此时吹的是（ ）。",
+        "options": [
+          "东南风",
+          "西北风",
+          "西南风",
+          "东北风"
+        ],
+        "answer": "西北风",
+        "explanation": "风筝顺着风飘，吹西北风时往东南飘。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观测记录",
+        "question": "记录天气的日历中，最基本的信息应该包括（ ）。",
+        "options": [
+          "只有气温",
+          "只有降水量",
+          "时间及全天的天气状况",
+          "只有风向"
+        ],
+        "answer": "时间及全天的天气状况",
+        "explanation": "天气日历应包含时间、气温、云量、风向等综合信息。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "气象谚语与推理",
+        "question": "“天上钩钩云，地下晒死人”，这里的钩钩云是指（ ）。",
+        "options": [
+          "层云",
+          "积云",
+          "卷云",
+          "雨层云"
+        ],
+        "answer": "卷云",
+        "explanation": "钩钩云是卷云的一种，通常预示天气晴朗。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百叶箱原理",
+        "question": "气象站的气温计放在百叶箱里，其主要目的是（ ）。",
+        "options": [
+          "防止被弄坏",
+          "好看美观",
+          "避免阳光直射且通风良好",
+          "为了保暖"
+        ],
+        "answer": "避免阳光直射且通风良好",
+        "explanation": "百叶箱的设计是为了获取准确的自然空气温度。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数据分析",
+        "question": "在测量一周气温时，应选择（ ）作为标准。",
+        "options": [
+          "每天的最高气温",
+          "每天的平均气温",
+          "每天同一时间的温数值",
+          "以上三种都可以"
+        ],
+        "answer": "每天同一时间的温数值",
+        "explanation": "定点、定时测量是科学观测的基本要求。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "云量识别",
+        "question": "当天空中的云占据不到四分之一时，天气是（ ）。",
+        "options": [
+          "多云",
+          "晴",
+          "阴",
+          "阵雨"
+        ],
+        "answer": "晴",
+        "explanation": "云量少于1/4（或20%）为晴天。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "风级应用",
+        "question": "红旗展开飘动，属于蒲福风力等级表中的（ ）。",
+        "options": [
+          "1级",
+          "3级",
+          "6级",
+          "8级"
+        ],
+        "answer": "3级",
+        "explanation": "3级风旗展开，4级风吹起纸片。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "降水实验",
+        "question": "在测量降水量时，如果使用了盆子作为收集器，会导致测量结果（ ）。",
+        "options": [
+          "更准确",
+          "数值偏大",
+          "数值偏小",
+          "无法判断"
+        ],
+        "answer": "数值偏小",
+        "explanation": "由于盆底面积大且非直筒，水深显示会比标准直筒偏小。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "气温计功能",
+        "question": "气温计和体温计的主要区别在于（ ）。",
+        "options": [
+          "量程不同",
+          "单位不同",
+          "都是液态的",
+          "没有区别"
+        ],
+        "answer": "量程不同",
+        "explanation": "体温计量程通常35-42℃，气温计范围更广。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "天气应用",
+        "question": "在制定旅行计划时，最应参考的信息是（ ）。",
+        "options": [
+          "本地历史气候",
+          "短时天气预报",
+          "个人的心情",
+          "上周的气温"
+        ],
+        "answer": "短时天气预报",
+        "explanation": "天气预报能提供近期最可能的真实情况。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "降水单位",
+        "question": "雨量器的度数单位是（ ）。",
+        "options": [
+          "毫升",
+          "毫米",
+          "厘米",
+          "克"
+        ],
+        "answer": "毫米",
+        "explanation": "降水量是厚度，用毫米表示。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "气温读数",
+        "question": "人体保持舒适的室内温度大约是（ ___ ）℃左右。",
+        "options": [],
+        "answer": "25",
+        "explanation": "25摄氏度是人体感觉较为舒适的温度环境。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "风力应用",
+        "question": "如果一个人能逆风行走困难，这时的风力通常达到了（ ___ ）级。",
+        "options": [],
+        "answer": "7",
+        "explanation": "7级迎风走不便。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "降水预测",
+        "question": "当天空中出现大团灰黑色、低矮的云时，预示着很快可能下（ ___ ）。",
+        "options": [],
+        "answer": "大雨",
+        "explanation": "灰黑色低矮云通常是积雨云，易产生短时强降水。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "风的要素",
+        "question": "描述风的两个基本维度是风向和（ ___ ）。",
+        "options": [],
+        "answer": "风速",
+        "explanation": "观测风需要记录方向和快慢（力）。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气日历",
+        "question": "我们通常通过（ ___ ）来记录并分析一个月的各种天气数据。",
+        "options": [],
+        "answer": "天气日历",
+        "explanation": "天气日历是长期观测和统计天气的常用工具。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "气温的测量",
+      "core_concept": "气温计的使用与读数规范。",
+      "key_formula": "室外阴凉通风处测量；平视读数；单位为“摄氏度”或“℃”。",
+      "common_mistakes": [
+        "将气温计放在阳光下测量",
+        "手握住液泡读取数值",
+        "读数时仰视或俯视"
+      ],
+      "tips": "读数时，要等液柱稳定后再读，不要对着气温计呼气。"
+    },
+    {
+      "point": "降水量的观测",
+      "core_concept": "利用雨量器测量降水厚度并分级。",
+      "key_formula": "24小时降水量（毫米）：10以下小雨，10-25中雨，25-50大雨，50以上暴雨。",
+      "common_mistakes": [
+        "使用容积单位毫升(ml)代替长度单位毫米(mm)",
+        "雨量器内径上大下小导致数据错误"
+      ],
+      "tips": "简易雨量器必须是直筒透明容器，刻度“0”要对齐杯子内侧的底部。"
+    },
+    {
+      "point": "风的观测",
+      "core_concept": "风向是指风吹来的方向；风力是风的强度。",
+      "key_formula": "风向标箭头指北就是北风；蒲福风力等级表0-12级。",
+      "common_mistakes": [
+        "误认为风向是风吹去的方向",
+        "将风力和风速的概念混淆"
+      ],
+      "tips": "风向标的箭头指向哪，就是什么风；旗子向南飘，吹的是北风。"
+    },
+    {
+      "point": "云的识别",
+      "core_concept": "根据云量判断天气，根据形态区分类型。",
+      "key_formula": "云量：晴(<1/4)、多云(1/4-3/4)、阴(>3/4)。形态：积云、层云、卷云。",
+      "common_mistakes": [
+        "分不清多云和阴天",
+        "认为卷云会带大暴雨"
+      ],
+      "tips": "高大的积雨云常伴随强降水，卷云出现通常预示着晴好天气。"
+    },
+    {
+      "point": "天气与气候",
+      "core_concept": "天气的瞬时多变性与气候的长期规律性。",
+      "key_formula": "天气：短时间、多变；气候：长时间、稳定、平均特征。",
+      "common_mistakes": [
+        "把“今天真冷”说成“今天气候真冷”",
+        "认为气候每天都会变"
+      ],
+      "tips": "二十四节气是古人观察气候规律总结出的指导农耕的历法。"
+    }
+  ]
+}

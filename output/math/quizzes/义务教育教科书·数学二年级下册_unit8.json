@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级下册",
+  "unit": "克和千克",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "第8单元「克和千克」基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "1个2分硬币约重1克。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据生活经验，1枚2分硬币的重量大约就是1克。验算：1是克的基本感性衡量标准。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“千克”的认识",
+        "question": "小明的体重是30克。",
+        "options": [],
+        "answer": "错",
+        "explanation": "一名二年级学生的体重大约是30千克。30克太轻了，大约只有3个10克物体的重量。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "1千克棉花比1千克铁轻。",
+        "options": [],
+        "answer": "错",
+        "explanation": "1千克=1千克，两者的质量数值和单位都相同，所以一样重。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "测量一袋食盐的质量，通常用“克”作单位。",
+        "options": [],
+        "answer": "对",
+        "explanation": "一袋食盐通常重500克左右，属于较轻物品，适合用克作单位。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "5000克等于5千克。",
+        "options": [],
+        "answer": "对",
+        "explanation": "因为 $1000$ 克 $= 1$ 千克，所以 $5000 \times 1 = 5 \times 1000$。验算：$5$ 千克就是 $5000$ 克。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "一块橡皮约重（ ）。",
+        "options": [
+          "10克",
+          "10千克",
+          "1克",
+          "100克"
+        ],
+        "answer": "10克",
+        "explanation": "10克比较符合实际。10千克太重，1克太轻，100克大约是两枚鸡蛋的重量。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“千克”的认识",
+        "question": "一袋大米约重（ ）。",
+        "options": [
+          "10克",
+          "10千克",
+          "1克",
+          "100克"
+        ],
+        "answer": "10千克",
+        "explanation": "日常生活中一袋普通大米通常为5千克或10千克。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "一个西红柿约重（ ）。",
+        "options": [
+          "100克",
+          "10克",
+          "1千克",
+          "100千克"
+        ],
+        "answer": "100克",
+        "explanation": "一个普通的西红柿重量约为100克左右。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "在 $\\bigcirc$ 里应填哪个符号？$2$ 千克 $\\bigcirc$ $2000$ 克",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": "＝",
+        "explanation": "因为 $1$ 千克 $= 1000$ 克，所以 $2$ 千克 $= 2000$ 克。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "在 $\\bigcirc$ 里应填哪个符号？$600$ 克 $\\bigcirc$ $1$ 千克",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "无法判断"
+        ],
+        "answer": "<",
+        "explanation": "$1$ 千克 $= 1000$ 克，$600$ 克 $< 1000$ 克，所以填 $<$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "质量单位“千克”的认识",
+        "question": "下列哪种秤最适合用来称量一个小朋友的体重？",
+        "options": [
+          "天平",
+          "体重计",
+          "弹簧秤",
+          "电子台秤"
+        ],
+        "answer": "体重计",
+        "explanation": "体重计的量程适合人类体重，其他秤要么量程太小，要么不方便站立。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单位换算与比较",
+        "question": "3千克里面有（ ）个1000克。",
+        "options": [
+          "1",
+          "3",
+          "30",
+          "300"
+        ],
+        "answer": "3",
+        "explanation": "1千克包含1个1000克，3千克包含3个1000克。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "一只公鸡约重（ ）。",
+        "options": [
+          "3克",
+          "300克",
+          "3千克",
+          "30千克"
+        ],
+        "answer": "3千克",
+        "explanation": "正常成年公鸡的重量约在2-4千克之间。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "从小到大排列：$500$克、$3$千克、$1$千克，中间那个是（ ）。",
+        "options": [
+          "500克",
+          "3千克",
+          "1千克",
+          "无法确定"
+        ],
+        "answer": "1千克",
+        "explanation": "统一单位：$500$克、$3000$克、$1000$克。从小到大为 $500$克 < $1000$克 < $3000$克。中间是 $1000$克即 $1$千克。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单位换算与比较",
+        "question": "一袋糖重500克，（ ）袋这样的糖正好重2千克。",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4",
+        "explanation": "$2$ 千克 $= 2000$ 克，$2000 \bdiv 500 = 4$。验算：$500 \times 4 = 2000$（克）。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "测量一粒花生米的质量，适合用（ ）作单位。",
+        "options": [
+          "克",
+          "千克",
+          "厘米",
+          "米"
+        ],
+        "answer": "克",
+        "explanation": "花生米很轻，应使用质量单位，且因为轻，应选“克”。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "5千克木头和5000克棉花相比，（ ）。",
+        "options": [
+          "木头重",
+          "棉花重",
+          "一样重",
+          "无法比较"
+        ],
+        "answer": "一样重",
+        "explanation": "5千克 $= 5000$ 克。数值相等，所以质量一样。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“千克”的认识",
+        "question": "1千克大约有（ ）个500克。",
+        "options": [
+          "1",
+          "2",
+          "5",
+          "10"
+        ],
+        "answer": "2",
+        "explanation": "$1000 \bdiv 500 = 2$。验算：$500 + 500 = 1000$（克）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单位换算与比较",
+        "question": "$4$ 千克 = ___ 克",
+        "options": [],
+        "answer": "4000",
+        "explanation": "因为 $1$ 千克 $= 1000$ 克，所以 $4$ 个 $1$ 千克就是 $4000$ 克。验算：$4000 \bdiv 1000 = 4$✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "商店有 $20$ 千克大米，卖出 $12$ 千克，还剩 ___ 千克。",
+        "options": [],
+        "answer": "8",
+        "explanation": "列式：$20 - 12 = 8$。验算：$8 + 12 = 20$✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "质量单位“千克”的认识",
+        "question": "爷爷买回 4 千克苹果，妈妈买回 5 千克苹果，一共买回 ___ 千克。",
+        "options": [],
+        "answer": "9",
+        "explanation": "列式：$4 + 5 = 9$。单位一致，直接相加。验算：$9 - 5 = 4$✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单位换算与比较",
+        "question": "$2000 + 3000 = ?$",
+        "options": [],
+        "answer": "5000",
+        "explanation": "$2000 + 3000 = 5000$。验算：$5000 - 3000 = 2000$✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "$8000 - 5000 = ?$",
+        "options": [],
+        "answer": "3000",
+        "explanation": "$8000 - 5000 = 3000$。验算：$3000 + 5000 = 8000$✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级数学下册第八单元综合能力评估卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "称比较轻的物品时，通常用“克”作单位。",
+        "options": [],
+        "answer": "对",
+        "explanation": "克的单位较小，适合称量轻型物体如硬币、羽毛。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "质量单位“千克”的认识",
+        "question": "如果一只鸭子重3克，它就是世界上最轻的鸭子了。",
+        "options": [],
+        "answer": "对",
+        "explanation": "鸭子通常重约2千克（2000克），3克只比硬币重一点点，这种描述符合逻辑判别。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "单位换算与比较",
+        "question": "$1$ 千克等于 $1000$ 克。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是克与千克的基本进率原则。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "质量单位“千克”的认识",
+        "question": "一袋洗衣粉重1000千克。",
+        "options": [],
+        "answer": "错",
+        "explanation": "1000千克是1吨。家用洗衣粉通常是1千克（即1000克）。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "单位换算与比较",
+        "question": "400克 加 600克 等于 1千克。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$400 + 600 = 1000$（克），$1000$ 克正好是 $1$ 千克。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "一颗大枣约重（ ）。",
+        "options": [
+          "10克",
+          "10千克",
+          "100克",
+          "1克"
+        ],
+        "answer": "10克",
+        "explanation": "根据常识，枣的重量通常在10克左右。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单位换算与比较",
+        "question": "5千克沙子和5000克黄金，哪一个更重？",
+        "options": [
+          "沙子",
+          "黄金",
+          "一样重",
+          "无法确定"
+        ],
+        "answer": "一样重",
+        "explanation": "5千克 $= 5000$ 克，所以重量相等。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "质量单位“千克”的认识",
+        "question": "一头大象的体重大约是4000（ ）。",
+        "options": [
+          "克",
+          "千克",
+          "厘米",
+          "米"
+        ],
+        "answer": "千克",
+        "explanation": "大象非常重，需使用较大的质量单位“千克”。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "比 2 千克多 500 克是（ ）。",
+        "options": [
+          "2500克",
+          "700克",
+          "502克",
+          "250克"
+        ],
+        "answer": "2500克",
+        "explanation": "$2$ 千克 $= 2000$ 克，$2000 + 500 = 2500$ 克。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "数学课本约重 300（ ）。",
+        "options": [
+          "克",
+          "千克",
+          "元",
+          "米"
+        ],
+        "answer": "克",
+        "explanation": "课本属于较轻物品，单位应为克。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "1千克苹果有5个，10个同样的苹果重（ ）。",
+        "options": [
+          "1千克",
+          "2千克",
+          "5千克",
+          "10千克"
+        ],
+        "answer": "2千克",
+        "explanation": "$10 \bdiv 5 = 2$，即 $2$ 个 $1$ 千克，共 $2$ 千克。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单位换算与比较",
+        "question": "把 $2$ 千克、$200$ 克、$2000$ 克 按从大到小的顺序排列，排在最后的是（ ）。",
+        "options": [
+          "2千克",
+          "200克",
+          "2000克",
+          "都一样"
+        ],
+        "answer": "200克",
+        "explanation": "统一单位：$2000$克、$200$克、$2000$克。从大到小：$2$千克 ($2000$克) $=$ $2000$克 $>$ $200$克。最后是 $200$克。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "下面最轻的物体是（ ）。",
+        "options": [
+          "一只皮鞋",
+          "一个皮球",
+          "一根羽毛",
+          "一个苹果"
+        ],
+        "answer": "一根羽毛",
+        "explanation": "羽毛的质量通常不到1克，是四个选项中最轻的。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "质量单位“千克”的认识",
+        "question": "一名二年级学生的体重大约是（ ）。",
+        "options": [
+          "30克",
+          "3千克",
+          "30千克",
+          "300千克"
+        ],
+        "answer": "30千克",
+        "explanation": "30千克是二年级学生的正常平均体重。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质量单位“克”的认识",
+        "question": "一个 5 角硬币重（ ）。",
+        "options": [
+          "4克",
+          "4千克",
+          "400克",
+          "1克"
+        ],
+        "answer": "4克",
+        "explanation": "硬币通常几克重，4克较合理。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单位换算与比较",
+        "question": "一桶油连桶重 $5$ 千克，空桶重 $500$ 克，油重（ ）。",
+        "options": [
+          "4500克",
+          "5500克",
+          "4千克",
+          "5千克"
+        ],
+        "answer": "4500克",
+        "explanation": "$5$ 千克 $= 5000$ 克，$5000 - 500 = 4500$ 克。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "$\bigcirc$ 里应填哪个符号？$900$ 克 $+ 100$ 克 $\bigcirc$ $1$ 千克",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": "＝",
+        "explanation": "$900 + 100 = 1000$（克），$1000$ 克 $= 1$ 千克。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "质量单位“千克”的认识",
+        "question": "下面各重量中，最重的是（ ）。",
+        "options": [
+          "8千克",
+          "8克",
+          "8000克",
+          "以上一样重"
+        ],
+        "answer": "以上一样重",
+        "explanation": "8千克和8000克都代表同样的质量，且远大于8克。此处题目设计为判断最重的概念，8千克=8000克均为最重。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单位换算与比较",
+        "question": "妈妈买了 $3$ 千克葡萄和 $2000$ 克香蕉，一共买了 ___ 千克水果。",
+        "options": [],
+        "answer": "5",
+        "explanation": "$2000$ 克 $= 2$ 千克。$3 + 2 = 5$ 千克。验算：$5 - 2 = 3$✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单位换算与比较",
+        "question": "一袋盐重 $500$ 克，$10$ 袋盐重 ___ 千克。",
+        "options": [],
+        "answer": "5",
+        "explanation": "$500 \times 10 = 5000$ 克。$5000$ 克 $= 5$ 千克。验算：$5 \bdiv 10 = 0.5$ 千克即 $500$ 克✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单位换算与比较",
+        "question": "$1$ 千克 $-$ $200$ 克 = ___ 克",
+        "options": [],
+        "answer": "800",
+        "explanation": "$1000 - 200 = 800$。验算：$800 + 200 = 1000$✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单位换算与比较",
+        "question": "$4000 \bdiv 4 = ?$",
+        "options": [],
+        "answer": "1000",
+        "explanation": "$4000 \bdiv 4 = 1000$。验算：$1000 \times 4 = 4000$✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单位换算与比较",
+        "question": "$600 + 400 = ?$",
+        "options": [],
+        "answer": "1000",
+        "explanation": "$600 + 400 = 1000$。验算：$1000 - 400 = 600$✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "质量单位“克”的认识",
+      "core_concept": "克是一个较小的质量单位，通常用来计量轻薄、微小的物品。学生可以通过捏起一枚2分硬币感悟1克的重量。生活中，一枚大枣、一粒口香糖约1-5克，一个鸡蛋大约50-60克。",
+      "key_formula": "计量较轻物品用“克(g)”作单位。",
+      "common_mistakes": [
+        "将克与长度单位厘米混淆",
+        "对克没有感性认识，认为一个小球重1克（实际可能100克）"
+      ],
+      "tips": "记住“1枚2分硬币重1克”，用这个标准去估测其他轻的物体。"
+    },
+    {
+      "point": "质量单位“千克”的认识",
+      "core_concept": "千克是常用的质量单位，也叫公斤。常用于计量较重物品，如人的体重、大米、水果、动物等。学生可以通过提一瓶1升的矿泉水（约1千克）来感受单位重。",
+      "key_formula": "计量较重物品用“千克(kg)”作单位。",
+      "common_mistakes": [
+        "读秤盘面读数错误，将指针位置看错",
+        "认为千克只用于食物，不知体重也用千克"
+      ],
+      "tips": "找找家里的5升油或5千克米，亲手提一提，感受“重”的程度。"
+    },
+    {
+      "point": "单位换算与比较",
+      "core_concept": "克和千克之间是千进制关系。在进行质量比较时，必须先统一单位，再比较数值大小。在计算含单位的算式时，相同单位才可以直接加减。",
+      "key_formula": "$1$ 千克 $= 1000$ 克",
+      "common_mistakes": [
+        "由于1=1而忽略单位不同，认为1千克比100克小",
+        "进率记错，写成1千克=100克"
+      ],
+      "tips": "看到“千千千”，想到“1000”，所以1千克就是1000克。"
+    }
+  ]
+}

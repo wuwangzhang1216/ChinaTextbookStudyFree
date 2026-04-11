@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级上册",
+  "unit": "认识时间",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "第七单元「认识时间」基础达标测评",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "钟面上有12个大格，每个大格里有5个小格。",
+        "options": [],
+        "answer": "对",
+        "explanation": "钟面分为12个大格，从1到12；每个大格平均分成5个小格，全钟共60个小格。✓"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "分针走1圈是60分，也就是1时。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分针走1小格是1分，1圈是60小格即60分。分针走一圈，时针正好走一加格，即1时。✓"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "时针在4和5之间，分针指着6，这时是5时30分。",
+        "options": [],
+        "answer": "错",
+        "explanation": "时针在4和5之间说明刚过4时还没到5时，所以是4时30分，不是5时30分。✓"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "半小时就是30分。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1时=60分，60的一半是30，所以半小时是30分。✓"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "时间先后的推理",
+        "question": "小明8:30上课，他8:45到校，他没有迟到。",
+        "options": [],
+        "answer": "错",
+        "explanation": "8:45在8:30之后，所以他迟到了。✓"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "分针从数字3走到数字6，经过了多长时间？",
+        "options": [
+          "3分",
+          "15分",
+          "30分",
+          "20分"
+        ],
+        "answer": "15分",
+        "explanation": "分针每走一个数字（大格）是5分。从3走到6走了 $6 - 3 = 3$ 个大格。$3 \times 5 = 15$（分）。✓"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "下面哪个时刻，分针是指向“9”的？",
+        "options": [
+          "9时",
+          "9时零5分",
+          "9时45分",
+          "9时15分"
+        ],
+        "answer": "9时45分",
+        "explanation": "分针指向9时，代表经过了 $9 \times 5 = 45$ 分。✓"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "一节课的时间大约是 40 ___？",
+        "options": [
+          "时",
+          "分",
+          "元",
+          "米"
+        ],
+        "answer": "分",
+        "explanation": "结合生活经验，学校一节课是40分钟，40小时太长了。✓"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "1时减去20分等于多少分？",
+        "options": [
+          "80分",
+          "40分",
+          "120分",
+          "100分"
+        ],
+        "answer": "40分",
+        "explanation": "1时=60分。$60 - 20 = 40$（分）。验算：$40 + 20 = 60$ 分。✓"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "时针走一个大格，分钟走___小格？",
+        "options": [
+          "1",
+          "5",
+          "12",
+          "60"
+        ],
+        "answer": "60",
+        "explanation": "时针走一个大格是1时，分针走1圈是1时，即60个小格。✓"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "7:05 也可以读作哪个时刻？",
+        "options": [
+          "7时5分",
+          "7时50分",
+          "5时7分",
+          "7时零5分"
+        ],
+        "answer": "7时零5分",
+        "explanation": "在不满10分的情况下，读法上习惯加上“零”字。✓"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间先后的推理",
+        "question": "明明每天7时10分起床，红红每天7时半起床。谁起床更早？",
+        "options": [
+          "明明",
+          "红红",
+          "一样早",
+          "无法判断"
+        ],
+        "answer": "明明",
+        "explanation": "7时10分早于7时30分，数值越小时间越早。✓"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "钟面上时针指着10，分针指着12，这时是几时？",
+        "options": [
+          "10:00",
+          "12:00",
+          "10:12",
+          "12:10"
+        ],
+        "answer": "10:00",
+        "explanation": "分针指着12是整时，时针指着几就是几时。✓"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间先后的推理",
+        "question": "小亮9:00开始写作业，写了40分钟，他在什么时刻写完？",
+        "options": [
+          "9:04",
+          "9:40",
+          "10:00",
+          "8:20"
+        ],
+        "answer": "9:40",
+        "explanation": "9时 + 40分 = 9时40分。✓"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "“一刻”是指多少分钟？",
+        "options": [
+          "10分",
+          "15分",
+          "20分",
+          "30分"
+        ],
+        "answer": "15分",
+        "explanation": "1小时的四分之一是15分，生活习惯称15分为“一刻”。✓"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间先后的推理",
+        "question": "球赛10:30结束，小刚提前15分钟离场休息。小刚离场的时刻是？",
+        "options": [
+          "10:45",
+          "10:20",
+          "10:15",
+          "10:00"
+        ],
+        "answer": "10:15",
+        "explanation": "提前离场即在结束时间之前。$10:30 - 15 = 10:15$。✓"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时间先后的推理",
+        "question": "从3:15到3:45，中间经过了多久？",
+        "options": [
+          "15分",
+          "30分",
+          "45分",
+          "20分"
+        ],
+        "answer": "30分",
+        "explanation": "$45 - 15 = 30$（分）。验算：$15 + 30 = 45$。✓"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "时针走一圈，经过了多长时间？",
+        "options": [
+          "60分",
+          "1时",
+          "12时",
+          "24时"
+        ],
+        "answer": "12时",
+        "explanation": "钟面有12个数字，时针走1圈经过了12小时。✓"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "2时 = ___ 分",
+        "options": [],
+        "answer": "120",
+        "explanation": "因为 1时=60分。列式：$60 \times 2 = 120$（分）。验算：$120 \times 60 = 2$。✓"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "时针在 6 和 7 之间，分针指着 8。这个时刻是几时几分？请写出分钟数：6 时 ___ 分。",
+        "options": [],
+        "answer": "40",
+        "explanation": "分针指着8，表示 $8 \times 5 = 40$ 分。✓"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间先后的推理",
+        "question": "一部电影 3 时 10 分开始，4 时 40 分结束。电影放映了几分钟？",
+        "options": [],
+        "answer": "90",
+        "explanation": "4时40分与3时10分相差1时30分。1时=60分，加30分等于90分。验算：$10 + 90 = 100$ 分（即1时40分），3时+1时40分=4时40分。✓"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "60 + 60 = ?",
+        "options": [],
+        "answer": "120",
+        "explanation": "$60 + 60 = 120$。对应2小时的分钟数。✓"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "5 \times 9 = ?",
+        "options": [],
+        "answer": "45",
+        "explanation": "五九四十五，对应分针指在数字9时的分数。✓"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级数学上册第七单元综合能力质量检测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "钟面上一共有60个小格。",
+        "options": [],
+        "answer": "对",
+        "explanation": "12大格 $\times$ 5小格 = 60小格。✓"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "1时也就是100分。",
+        "options": [],
+        "answer": "错",
+        "explanation": "时间进率是60，不是100，所以1时=60分。✓"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "时间先后的推理",
+        "question": "从8:10到8:50，分针走过了40分钟。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$50 - 10 = 40$（分）。✓"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "快到11时了，说明已经是11时多一点了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“快到”说明还没到，应该是10时多。✓"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "时间先后的推理",
+        "question": "时针从数字1走到数字2，经过的时间是1分钟。",
+        "options": [],
+        "answer": "错",
+        "explanation": "时针走一大格是1小时。✓"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "当分针指向6时，分钟数是？",
+        "options": [
+          "6",
+          "12",
+          "30",
+          "60"
+        ],
+        "answer": "30",
+        "explanation": "$6 \times 5 = 30$（分）。✓"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "下面哪个单位是用来测量时间的？",
+        "options": [
+          "厘米",
+          "元",
+          "分",
+          "米"
+        ],
+        "answer": "分",
+        "explanation": "分是时间单位，厘米和米是长度单位，元是人民币单位。✓"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "时针走过4，分针指着5，这个时刻是？",
+        "options": [
+          "4:05",
+          "5:04",
+          "4:25",
+          "5:25"
+        ],
+        "answer": "4:25",
+        "explanation": "时针走过4是4时多，分针指着5是 $5 \times 5 = 25$ 分。✓"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间先后的推理",
+        "question": "小明11:50放学，12:10到家，他在路上用了多久？",
+        "options": [
+          "10分",
+          "20分",
+          "30分",
+          "60分"
+        ],
+        "answer": "20分",
+        "explanation": "11:50到12:00是10分，12:00到12:10又是10分，一共20分。✓"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时间先后的推理",
+        "question": "妈妈去超市，9:20出发，10:30回来，妈妈在外面多长时间？",
+        "options": [
+          "10分",
+          "1时10分",
+          "50分",
+          "1时"
+        ],
+        "answer": "1时10分",
+        "explanation": "从9:20到10:20是1时，再到10:30还有10分，共1时10分。✓"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "2小时等于多少分钟？",
+        "options": [
+          "60分",
+          "100分",
+          "120分",
+          "80分"
+        ],
+        "answer": "120分",
+        "explanation": "$60 + 60 = 120$。✓"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "3:45 也可以说成？",
+        "options": [
+          "3时一刻",
+          "4时三刻",
+          "3时三刻",
+          "3时半"
+        ],
+        "answer": "3时三刻",
+        "explanation": "一刻是15分，45分里有3个15分，即三刻。✓"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间先后的推理",
+        "question": "现在是10时25分，再过一刻钟是几时？",
+        "options": [
+          "10:30",
+          "10:40",
+          "10:10",
+          "11:00"
+        ],
+        "answer": "10:40",
+        "explanation": "一刻钟是15分。$25 + 15 = 40$。故为10:40。✓"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间先后的推理",
+        "question": "小华下午2:00到校，4:30放学，他在校时间为？",
+        "options": [
+          "2时",
+          "3时",
+          "2时30分",
+          "6时30分"
+        ],
+        "answer": "2时30分",
+        "explanation": "$4:30 - 2:00 = 2$ 小时 30 分。✓"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时间先后的推理",
+        "question": "钟面上时针指在8和9之间，分针指着7，现在大约是几时？",
+        "options": [
+          "不到8时半",
+          "刚过8时半",
+          "不到9时半",
+          "刚过9时半"
+        ],
+        "answer": "刚过8时半",
+        "explanation": "分针指着7是35分，8时35分已经超过了8时30分（半）。✓"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时间先后的推理",
+        "question": "一列火车本应11:45到达，现在要晚点10分钟。火车什么时候到达？",
+        "options": [
+          "11:35",
+          "11:55",
+          "12:00",
+          "12:05"
+        ],
+        "answer": "11:55",
+        "explanation": "$45 + 10 = 55$。所以时刻是11:55。✓"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "分针从12走到12，经过的时间是？",
+        "options": [
+          "1分",
+          "1时",
+          "12分",
+          "12时"
+        ],
+        "answer": "1时",
+        "explanation": "分针走一圈是60分，也就是1小时。✓"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "5时过一刻是？",
+        "options": [
+          "5:15",
+          "5:30",
+          "5:45",
+          "6:00"
+        ],
+        "answer": "5:15",
+        "explanation": "一刻是15分。5时加15分。✓"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "小红做家务用了 1 小时，也就是 ___ 分钟。",
+        "options": [],
+        "answer": "60",
+        "explanation": "1时=60分。✓"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时间先后的推理",
+        "question": "现在现实时刻是 8 时 55 分，再过 5 分钟是 ___ 时。",
+        "options": [],
+        "answer": "9",
+        "explanation": "$55 + 5 = 60$，满60分进1位到时。$8 + 1 = 9$ 时。✓"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "钟面时刻的认读",
+        "question": "时针指向 3，分针指向 12，这个时刻用电子数表法表示，分钟部分应填数字 ___。",
+        "options": [],
+        "answer": "0",
+        "explanation": "整时时分钟部分为00。✓"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "30 + 30 = ?",
+        "options": [],
+        "answer": "60",
+        "explanation": "两个半小时（30分）相加等于60分（1小时）。✓"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时、分、秒的换算与关系",
+        "question": "15 \times 4 = ?",
+        "options": [],
+        "answer": "60",
+        "explanation": "4个一刻钟等于一小时。$15 \times 4 = 60$。✓"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "钟面时刻的认读",
+      "core_concept": "钟面上有时针和分针，12个大格，60个小格。读数时先看时针，过几就是几时；再看分针，走过几个小格就是几分。分针指着几，就用五个五地数的方法数出分钟数。",
+      "key_formula": "分钟数 = 分针指向的数字 \times 5",
+      "common_mistakes": [
+        "将时针看错，如 4:55 误认为 5:55，因为时针很靠近5。",
+        "分针指向“1”时读成1分，实际应该是5分。"
+      ],
+      "tips": "“时针走过几，就是几时多；分针指几格，五五加起来”。"
+    },
+    {
+      "point": "时、分、秒的换算与关系",
+      "core_concept": "时间是按60进制计算的。时针走1大格是1时，分针正好走1圈是60分。因此，1时等于60分。此外，半小时是30分，一刻是15分。",
+      "key_formula": "1时 = 60分",
+      "common_mistakes": [
+        "受长度单位影响，误认为 1时 = 100分。",
+        "计算 1时 = 60分时，容易在加减法中进率出错。"
+      ],
+      "tips": "可以用“分分秒秒聚成时”来记忆，记住60是一个完整的圈。"
+    },
+    {
+      "point": "时间先后的推理",
+      "core_concept": "结合日常生活情境，利用“开始时间 + 经过时间 = 结束时间”或“结束时间 - 开始时间 = 经过时间”进行推算。需要注意先后顺序，数值大的时刻通常较晚。",
+      "key_formula": "结束时间 - 开始时间 = 经过时间",
+      "common_mistakes": [
+        "分不清“几时”和“几时多”，导致推理活动顺序错误。",
+        "在跨小时计算经过时间时出错，如 3:50 到 4:10 算成 60 分钟。"
+      ],
+      "tips": "在草稿纸上画一条时间轴，把活动标在轴上，先后关系就一目了然啦！"
+    }
+  ]
+}

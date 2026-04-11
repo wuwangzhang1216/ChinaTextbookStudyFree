@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级下册",
+  "unit": "数据收集整理",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第1单元「数据收集整理」基础巩固卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "收集数据的方法",
+        "question": "在调查全班同学最喜欢的颜色时，每人只能选一种颜色。",
+        "options": [],
+        "answer": "对",
+        "explanation": "为了保证数据的准确性，每人只能选择一项进行投票，这样统计出的总人数才与班级实际人数相符。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "一个“正”字代表 5 个数据。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“正”字一共有5笔，在统计数据时，每一笔代表1个数据，一个完整的“正”字表示5。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "统计表中的合计人数，一定是各选项人数的总和。",
+        "options": [],
+        "answer": "对",
+        "explanation": "合计表示将调查的所有类别的数据相加，所得的结果必须等于各部分之和。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "收集数据的方法",
+        "question": "调查本班同学最喜欢的运动，可以用举手的方法收集数据。",
+        "options": [],
+        "answer": "对",
+        "explanation": "举手、投票（无记名或记名）都是常用的数据收集方法。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "用写“正”字的方法记录数据时，写了两个“正”字和三个笔画，代表 12。",
+        "options": [],
+        "answer": "错",
+        "explanation": "两个“正”字是 $5 \\times 2 = 10$，再加上三画是 $10 + 3 = 13$，不是 12。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "二(1)班调查最喜欢吃的水果，苹果有 10 人喜欢，梨有 5 人喜欢，香蕉有 12 人喜欢。喜欢吃哪种水果的人数最多？",
+        "options": [
+          "苹果",
+          "梨",
+          "香蕉",
+          "无法确定"
+        ],
+        "answer": "香蕉",
+        "explanation": "比较数据大小：$12 > 10 > 5$，12 对应的是香蕉，所以喜欢吃香蕉的人数最多。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "在统计图画书数量时，写了 3 个“正”字，图画书一共有多少本？",
+        "options": [
+          "10",
+          "15",
+          "3",
+          "5"
+        ],
+        "answer": "15",
+        "explanation": "一个“正”字代表 5，3 个“正”字就是 $5 \\times 3 = 15$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "统计表中，喜欢看科技书的有 8 人，喜欢看故事书的有 15 人，喜欢看科技书的比喜欢看故事书的少几人？",
+        "options": [
+          "23",
+          "7",
+          "8",
+          "15"
+        ],
+        "answer": "7",
+        "explanation": "求“少几人”用减法计算：$15 - 8 = 7$（人）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "收集数据的方法",
+        "question": "为了选出班长，最公平的方法是下面的哪一种？",
+        "options": [
+          "老师直接指定",
+          "大家无记名投票",
+          "个子高的当班长",
+          "谁成绩好谁当"
+        ],
+        "answer": "大家无记名投票",
+        "explanation": "投票调查能反映全班大多数人的意愿，是最客观公平的数据收集方式。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "要调查二(2)班同学最喜欢的电视节目，下列哪个问题最合适？",
+        "options": [
+          "你家有几台电视？",
+          "你最喜欢看什么节目？",
+          "你每天看多久电视？",
+          "你喜欢看电视吗？"
+        ],
+        "answer": "你最喜欢看什么节目？",
+        "explanation": "调查目的明确是“最喜欢的电视节目”，所以问题必须围绕“节目种类”展开。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "用“正”字记录法记录了 18 票，应该写几个完整的“正”字，还余几画？",
+        "options": [
+          "3个完整的，余3画",
+          "2个完整的，余8画",
+          "3个完整的，余2画",
+          "4个完整的，余0画"
+        ],
+        "answer": "3个完整的，余3画",
+        "explanation": "$18 \\div 5 = 3$（个）……$3$（画）。验算：$3 \\times 5 + 3 = 18$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "统计表中，第一组 12 人，第二组 11 人，第三组 13 人，第四组 12 人。哪两组人数一样多？",
+        "options": [
+          "第一组和第二组",
+          "第一组和第三组",
+          "第一组和第四组",
+          "第二组和第四组"
+        ],
+        "answer": "第一组和第四组",
+        "explanation": "第一组 12 人，第四组 12 人，$12 = 12$，所以这两组人数一样多。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "商店昨天卖出 30 箱牛奶，今天卖出 45 箱，今天比昨天多卖出多少箱？",
+        "options": [
+          "75",
+          "15",
+          "10",
+          "25"
+        ],
+        "answer": "15",
+        "explanation": "求比一个数多多少，用减法：$45 - 30 = 15$。验算：$30 + 15 = 45$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "根据调查，全班有 35 人最喜欢吃肉。已知喜欢吃红烧肉的有 20 人，喜欢吃糖醋排骨的有多少人？（假设只调查了这两样）",
+        "options": [
+          "55",
+          "10",
+          "15",
+          "25"
+        ],
+        "answer": "15",
+        "explanation": "用总人数减去其中一部分：$35 - 20 = 15$。验算：$20 + 15 = 35$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "气象小组记录了上个月的天气：晴天 15 天，多云 8 天，剩下的都是雨天。已知上个月有 30 天，雨天有多少天？",
+        "options": [
+          "23",
+          "15",
+          "7",
+          "5"
+        ],
+        "answer": "7",
+        "explanation": "先算晴天和多云一共：$15 + 8 = 23$（天），再算雨天：$30 - 23 = 7$（天）。验算：$15 + 8 + 7 = 30$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "统计发现，二(3)班喜欢吃苹果的比喜欢吃香蕉的多 5 人。如果有 2 个同学原本喜欢吃苹果，改成了喜欢吃香蕉，现在两样水果的人数差距是多少？",
+        "options": [
+          "多 3 人",
+          "多 1 人",
+          "多 2 人",
+          "多 5 人"
+        ],
+        "answer": "多 1 人",
+        "explanation": "假设原来苹果 10 人，香蕉 5 人（差 5）。苹果减 2 变 8，香蕉加 2 变 7。现在差 $8 - 7 = 1$ 人。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "二(1)班有 40 人。在调查最喜欢的颜色时，红色 12 人，黄色 10 人，蓝色 8 人，剩下的喜欢绿色。喜欢绿色的有多少人？",
+        "options": [
+          "10",
+          "30",
+          "40",
+          "20"
+        ],
+        "answer": "10",
+        "explanation": "先求前三项总和：$12 + 10 + 8 = 30$。再用全班人数减去 30：$40 - 30 = 10$。验算：$12 + 10 + 8 + 10 = 40$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "调查中发现，想去动物园的有 22 人，想去游乐园的有 18 人。如果想让去两个地方的人数相等，需要从想去动物园的人中调几个人去游乐园？",
+        "options": [
+          "4",
+          "2",
+          "1",
+          "20"
+        ],
+        "answer": "2",
+        "explanation": "总人数 $22 + 18 = 40$。相等时每处 $40 \\div 2 = 20$。$22 - 20 = 2$。验算：$22 - 2 = 20, 18 + 2 = 20$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "统计记录显示有 4 个完整的“正”字，这代表的数字是 ___。",
+        "options": [],
+        "answer": "20",
+        "explanation": "$5 \\times 4 = 20$。一个正字是 5，四个就是 20。验算：$20 \\div 5 = 4$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "第一小组有 8 人，第二小组有 9 人，第三小组有 7 人。三个小组一共 ___ 人。",
+        "options": [],
+        "answer": "24",
+        "explanation": "$8 + 9 + 7 = 24$。分步：$8 + 9 = 17, 17 + 7 = 24$。验算：$24 - 7 - 9 = 8$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "小明有 15 张卡片，小华有 9 张。小明比小华多 ___ 张卡片。",
+        "options": [],
+        "answer": "6",
+        "explanation": "$15 - 9 = 6$。验算：$9 + 6 = 15$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作_与分析",
+        "question": "$12 + 18 + 20 = ?$",
+        "options": [],
+        "answer": "50",
+        "explanation": "$12 + 18 = 30$, $30 + 20 = 50$。验算：$50 - 20 - 18 = 12$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "$45 - 15 - 10 = ?$",
+        "options": [],
+        "answer": "20",
+        "explanation": "$45 - 15 = 30$, $30 - 10 = 20$。验算：$20 + 10 + 15 = 45$。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第1单元「数据收集整理」综合能力测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "收集数据的方法",
+        "question": "调查全班同学最喜欢的科目，由于有人没来，调查结果依然能代表全班同学的最爱。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数据收集应尽可能完整，缺失部分学生的数据会影响统计结果的准确性和代表性。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "记录数据时，可以用打“√”、画“○”或者写“正”字等多种方法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "只要符号能清晰代表数量，都可以作为记录方式，“正”字法是其中最常用的一种。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "从统计表中可以直接看出哪种分类的数据最大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "统计表的作用就是整理数据，通过数值对比能非常直观地看出大小和高低。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "如果统计表里“喜欢跳绳”的人数比“喜欢跑步”的多，那么换个班调查结果也一定一样。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数据具有随机性，不同的调查对象（不同班级）会有不同的偏好，结果不一定相同。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "写了 4 个“正”字代表 20，再多写 1 笔就代表 21。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$5 \\times 4 = 20, 20 + 1 = 21$。正确。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "收集数据的方法",
+        "question": "学校要订校服，想知道同学们喜欢的颜色，最适合的方法是：",
+        "options": [
+          "问问数学老师",
+          "在全校进行问卷调查",
+          "看商场里哪种颜色衣服卖得多",
+          "老师自己决定"
+        ],
+        "answer": "在全校进行问卷调查",
+        "explanation": "要了解特定群体（学生）的意愿，必须对该群体进行直接调查。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "某次选举中，王明写了 3 个“正”字，李亮写了 2 个“正”字和 4 笔，谁的票数多？",
+        "options": [
+          "王明多",
+          "李亮多",
+          "一样多",
+          "无法判断"
+        ],
+        "answer": "王明多",
+        "explanation": "王明：$3 \\times 5 = 15$（票）。李亮：$2 \\times 5 + 4 = 14$（票）。$15 > 14$，所以王明多。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "二(2)班同学最喜欢的季节调查结果：春季 10 人，夏季 5 人，秋季 12 人，冬季 8 人。喜欢哪个季节的人数最少？",
+        "options": [
+          "春季",
+          "夏季",
+          "秋季",
+          "冬季"
+        ],
+        "answer": "夏季",
+        "explanation": "比较数据：$5 < 8 < 10 < 12$。5 对应的是夏季，所以人数最少。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "接上题，喜欢秋季的人数比喜欢冬季的人数多几人？",
+        "options": [
+          "2",
+          "4",
+          "3",
+          "22"
+        ],
+        "answer": "4",
+        "explanation": "秋季 12 人，冬季 8 人，$12 - 8 = 4$（人）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "如果全班有 40 人，调查最爱吃的水果，有 2 人没参加。已统计出：苹果 15 人，橘子 10 人，剩下的都爱吃梨。爱吃梨的有几人？",
+        "options": [
+          "15",
+          "13",
+          "25",
+          "10"
+        ],
+        "answer": "13",
+        "explanation": "参加调查的总人数是 $40 - 2 = 38$ 人。爱吃梨的人数 = $38 - 15 - 10 = 13$ 人。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "在一張只有 30 人投票的选票统计表中，候选人 A 得了 12 票，候选人 B 得了 9 票，剩下的都是废票，废票有几张？",
+        "options": [
+          "21",
+          "9",
+          "30",
+          "10"
+        ],
+        "answer": "9",
+        "explanation": "$12 + 9 = 21$（票），$30 - 21 = 9$（张）。验算：$12 + 9 + 9 = 30$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "要把数字 24 用“正”字表示，下列描述正确的是：",
+        "options": [
+          "4个“正”字和4画",
+          "5个“正”字",
+          "4个“正”字和3画",
+          "4个“正”字"
+        ],
+        "answer": "4个“正”字和4画",
+        "explanation": "$24 \\div 5 = 4$（个）……$4$（画）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "小红统计了门口经过的车辆：小汽车 25 辆，面包车 7 辆，大客车 3 辆。她一共统计了多少辆车？",
+        "options": [
+          "32",
+          "28",
+          "35",
+          "30"
+        ],
+        "answer": "35",
+        "explanation": "$25 + 7 + 3 = 35$（辆）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "二(1)班投选“数学之星”，小刚得了 18 票，小强得了 21 票。小强最少再得几票就正好是小刚票数的两倍？",
+        "options": [
+          "15",
+          "3",
+          "36",
+          "2"
+        ],
+        "answer": "15",
+        "explanation": "小刚的两倍是 $18 \\times 2 = 36$（票）。现在小强 21 票，还差 $36 - 21 = 15$（票）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "气象台预测本周有 5 天晴天，2 天阴天。下列说法正确的是：",
+        "options": [
+          "这周每天都是晴天",
+          "晴天比阴天多 1 天",
+          "晴天比阴天多 3 天",
+          "阴天比晴天多"
+        ],
+        "answer": "晴天比阴天多 3 天",
+        "explanation": "$5 - 2 = 3$（天）。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "在用“正”字记录某数据时，写到了第 3 个“正”字的第 4 画，此时代表的数字是：",
+        "options": [
+          "14",
+          "12",
+          "9",
+          "19"
+        ],
+        "answer": "14",
+        "explanation": "前两个“正”字是 10，第三个“正”字的第 4 画表示又加了 4，$10 + 4 = 14$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "三个候选人的得票分别是：张三 12 票，李四 10 票，王五 15 票。谁得票最高？",
+        "options": [
+          "张三",
+          "李四",
+          "王五",
+          "一样多"
+        ],
+        "answer": "王五",
+        "explanation": "$15 > 12 > 10$。王五得票最高。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "全班 24 人投票。每人只能投一票给 A 或 B。A 目前得了 10 票，B 得了 8 票。剩下的 6 人如果全部投给 B，最后 B 比 A 多几票？",
+        "options": [
+          "4",
+          "2",
+          "6",
+          "14"
+        ],
+        "answer": "4",
+        "explanation": "B 最后得票：$8 + 6 = 14$。A 是 10。$14 - 10 = 4$。验算：$10 + 14 = 24$（总人数）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "二(1)班合唱小组，女生有 16 人，男生有 12 人。合唱小组一共有 ___ 人。",
+        "options": [],
+        "answer": "28",
+        "explanation": "$16 + 12 = 28$。验算：$28 - 12 = 16$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "记录数据的方法（“正”字记录法）",
+        "question": "如果用1个“○”代表 2 个人，那么 8 个“○”代表 ___ 个人。",
+        "options": [],
+        "answer": "16",
+        "explanation": "$2 \\times 8 = 16$。验算：$16 \\div 2 = 8$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "小明统计了自己一周的开销：周一到周五每天花 5 元，周六周日共花 15 元。他这周一共花了 ___ 元。",
+        "options": [],
+        "answer": "40",
+        "explanation": "平日：$5 \\times 5 = 25$（元）。总：$25 + 15 = 40$（元）。验算：$40 - 15 = 25$，$25 \\div 5 = 5$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "$24 \\div 4 = ?$",
+        "options": [],
+        "answer": "6",
+        "explanation": "$24 \\div 4 = 6$。验算：$6 \\times 4 = 24$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计表的制作与分析",
+        "question": "$35 + 25 - 10 = ?$",
+        "options": [],
+        "answer": "50",
+        "explanation": "$35 + 25 = 60$, $60 - 10 = 50$。验算：$50 + 10 = 60, 60 - 25 = 35$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "收集数据的方法",
+      "core_concept": "在进行数据统计前，首先要通过调查获取原始信息。常用的调查方法有举手、无记名投票、分类排队等。在调查时，一定要明确调查的问题，并确保调查范围内的人都能参与且每人只能表达一个意愿，这样收集到的数据才真实有效。",
+      "key_formula": "调查总人数 = 选择各选项的人数之和",
+      "common_mistakes": [
+        "统计时重复计数，导致总数超过实际人数",
+        "漏掉部分调查对象，导致数据不完整"
+      ],
+      "tips": "调查前先设计好表格，调查时喊一个名字记一个，能有效防止漏记。"
+    },
+    {
+      "point": "记录数据的方法（“正”字记录法）",
+      "core_concept": "在收集数据时，由于数据是一个个出现的，我们需要用符号先记录下来。写“正”字法是最高效的方法，因为“正”字刚好5笔，每5项凑成一个字，最后通过数“正”字的个数乘5再加上剩下的笔画，就能快速算出总数。",
+      "key_formula": "总数 = 完整的“正”字个数 \\times 5 + 剩余笔画数",
+      "common_mistakes": [
+        "数“正”字笔画时，把一个“正”字当成了4或6",
+        "记录过程中，由于分心导致少画了笔画"
+      ],
+      "tips": "写“正”字要横平竖直，笔画清晰，每写完一个“正”字可以小小地圈一下防止数错。"
+    },
+    {
+      "point": "统计表的制作与分析",
+      "core_concept": "将记录的符号（如“正”字）转化为阿拉伯数字，并填入预先设计的表格中，这就是统计表。通过观察统计表，我们可以通过比较数字的大小，一眼看出谁“最多”、谁“最少”，还能进行加减法运算来求“总和”或“差量”，并根据现状做出简单的预测。",
+      "key_formula": "比较规则：数值大的对应项为最多，数值小的对应项为最少。",
+      "common_mistakes": [
+        "看错行或列，导致数据填错位置",
+        "计算合计人数时出现口算失误"
+      ],
+      "tips": "分析数据时，先用笔圈出最大和最小的数字，这样回答“最多”和“最少”就不会选错了。"
+    }
+  ]
+}

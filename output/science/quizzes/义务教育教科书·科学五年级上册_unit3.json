@@ -1,0 +1,697 @@
+{
+  "textbook": "教科版小学科学五年级上册",
+  "unit": "计量时间",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元《计量时间》基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古代计时工具的原理",
+        "question": "在古代，人们利用阳光下物体影子的变化规律来计时，这种工具叫日晷。",
+        "options": [],
+        "answer": "对",
+        "explanation": "日晷是古代利用日影长度或方位变化来计时的工具。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古代计时工具的原理",
+        "question": "燃香计时是因为每一段相同长度的香，燃烧所需的时间基本相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "等速消耗现象是燃香计时的原理。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "单摆的等时性",
+        "question": "同一个单摆，摆角越大，摆动一次所需的时间就越长。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在一定摆角范围内，单摆的摆动周期与摆角大小无关，这是单摆的等时性。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "计时工具的演变",
+        "question": "随着科技的发展，人类制作的计时工具精度越来越高。",
+        "options": [],
+        "answer": "对",
+        "explanation": "从日晷、水钟到摆钟再到石英钟，计时精度随科技进步不断提升。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "摆绳越短，摆动得越慢；摆绳越长，摆动得越快。",
+        "options": [],
+        "answer": "错",
+        "explanation": "摆的快慢与摆长有关，摆绳越长，摆动越慢；摆绳越短，摆动越快。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古代计时工具的原理",
+        "question": "下列计时工具中，利用太阳光影变化来计时的是哪一个？",
+        "options": [
+          "水钟",
+          "日晷",
+          "沙漏",
+          "摆钟"
+        ],
+        "answer": "日晷",
+        "explanation": "日晷由晷盘和晷针组成，利用影子移动来显示刻度。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水钟的设计与水位控制",
+        "question": "对于受水型水钟，为了保持滴水速度均匀，最有效的方法是什么？",
+        "options": [
+          "增加容器的厚度",
+          "减小容器的直径",
+          "保持溢水孔不断流出多余的水使水位恒定",
+          "将水柱调高"
+        ],
+        "answer": "保持溢水孔不断流出多余的水使水位恒定",
+        "explanation": "水流速度受水位压力影响，保持固定水位可以确保压力稳定，从而实现匀速。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "有一个摆钟每天慢了1分钟，为了让它走时准确，应该怎么调节？",
+        "options": [
+          "增加摆绳的长度",
+          "减小摆绳的长度",
+          "增加摆锤的重量",
+          "减小摆锤的重量"
+        ],
+        "answer": "减小摆绳的长度",
+        "explanation": "摆钟慢了说明摆动频率过低，需要缩短摆绳使摆动加快。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常经验中的时间",
+        "question": "在没有精密仪器的情况下，下列哪种现象不适合作为计时参考？",
+        "options": [
+          "脉搏的跳动",
+          "呼吸的次数",
+          "云朵飘动的快慢",
+          "水滴等速滴下的次数"
+        ],
+        "answer": "云朵飘动的快慢",
+        "explanation": "计时需要具有周期性规律的现象，云朵移动受风力影响，不具备规律性。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古代计时工具的原理",
+        "question": "在阴雨天或夜晚无法正常工作的计时工具是什么？",
+        "options": [
+          "日晷",
+          "水钟",
+          "沙漏",
+          "香钟"
+        ],
+        "answer": "日晷",
+        "explanation": "日晷依靠阳光产生投影，没有阳光则无法计时。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "同一个单摆，在连续三个10秒内的摆动次数会呈现什么趋势？",
+        "options": [
+          "逐渐增多",
+          "逐渐减少",
+          "保持不变",
+          "先增多后减少"
+        ],
+        "answer": "保持不变",
+        "explanation": "单摆具有等时性，相同时间内摆动次数基本相等。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "计时工具的演变",
+        "question": "机械钟表的核心结构是哪一个部分？",
+        "options": [
+          "刻度盘",
+          "齿轮组和摆",
+          "玻璃罩",
+          "发条键"
+        ],
+        "answer": "齿轮组和摆",
+        "explanation": "摆控制频率，齿轮组带动指针，这是机械钟的关键原理。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "如果想把单摆的周期延长两倍，理想的方法是改变什么？",
+        "options": [
+          "增加摆绳长度",
+          "增加摆锤重力",
+          "减小摆长",
+          "固定摆动角度"
+        ],
+        "answer": "增加摆绳长度",
+        "explanation": "改变摆长是调节周期的唯一有效物理因素。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然界的周期性",
+        "question": "下列哪种现象可以作为计算一年的标准？",
+        "options": [
+          "潮汐的变化",
+          "四季的循环",
+          "日影的长短",
+          "月相的变化"
+        ],
+        "answer": "四季的循环",
+        "explanation": "公转导致四季循环，属于一年的周期特征。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间的认识",
+        "question": "一分钟大约可以做多少项活动？",
+        "options": [
+          "跑1000米",
+          "跳绳120次",
+          "看完一张报纸",
+          "睡一个午觉"
+        ],
+        "answer": "跳绳120次",
+        "explanation": "根据常识，跳绳每秒约2次，一分钟120次是合理的。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水钟的设计与水位控制",
+        "question": "水位的高低对于泄水型水钟的滴漏速度有什么影响？",
+        "options": [
+          "水位越高，滴漏越慢",
+          "水位越低，滴漏越快",
+          "水位越高，滴漏越快",
+          "没有影响"
+        ],
+        "answer": "水位越高，滴漏越快",
+        "explanation": "水位越高，水流到底部孔口的压力越大，流速越快。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "决定摆的快慢的根本因素是摆绳的哪一项指标？",
+        "options": [
+          "颜色",
+          "材质",
+          "重量",
+          "长度"
+        ],
+        "answer": "长度",
+        "explanation": "摆的快慢取决于摆绳的有效长度（即摆长）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "下面关于摆的说法正确的是什么？",
+        "options": [
+          "摆锤越重摆动越快",
+          "摆绳越长周期越大",
+          "摆幅越大摆动越快",
+          "摆的外部形状决定频率"
+        ],
+        "answer": "摆绳越长周期越大",
+        "explanation": "摆长决定周期，正相关关系。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间的计量",
+        "question": "当我们观察机械摆钟时，摆针摆动（___）个来回代表经过了一秒钟。",
+        "options": [],
+        "answer": "1",
+        "explanation": "标准的机械摆钟，一个完整往复代表两个半周期，或特定的一个往复对应秒计。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "实验数据处理",
+        "question": "如果要让摆在15秒内正好摆动15次，那么摆动1次需要（___）秒。",
+        "options": [],
+        "answer": "1",
+        "explanation": "15除以15等于1秒。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古代计时工具的原理",
+        "question": "依靠流水的力量计时的工具叫做（___）。",
+        "options": [],
+        "answer": "水钟",
+        "explanation": "水钟是利用等速水流或受水积聚来计时的工具。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "摆绳顶端到摆锤重心的距离我们称之为（___）。",
+        "options": [],
+        "answer": "摆长",
+        "explanation": "科学术语定义摆长为悬挂点到重心的距离。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "伽利略发现在一定角度内，摆由于具有（___），所以可以用来计时。",
+        "options": [],
+        "answer": "等时性",
+        "explanation": "单摆最重要的特征就是等时性。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级科学上册第三单元过关测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古代计时工具的原理",
+        "question": "日晷不仅能在白天计时，也能在有月光的夜晚精确计时。",
+        "options": [],
+        "answer": "错",
+        "explanation": "日晷必须依靠太阳光，月光光线弱且方位规律不同，不能直接替代太阳光计时。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "把一个摆长30厘米的摆缩短为15厘米，摆动速度会变快。",
+        "options": [],
+        "answer": "对",
+        "explanation": "缩小摆长会缩短单摆周期，提升频率。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "水钟的设计与水位控制",
+        "question": "对于泄水型水钟，随着容器内的水变少，流水的速度会逐渐变慢。",
+        "options": [],
+        "answer": "对",
+        "explanation": "水位降低导致底部压力减小，出流速度随之下降。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "计时工具的演变",
+        "question": "石英手表之所以计时准确，是因为石英晶体每秒振动的次数非常稳定。",
+        "options": [],
+        "answer": "对",
+        "explanation": "石英振荡器的频率极高且稳定，是精准计时的核心。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "两个摆长相同的摆，如果摆锤重量不同，它们摆动的快慢也是相同的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "摆的周期只取决于摆长，与物体的质量（摆锤重力）无关。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计时工具的演变",
+        "question": "目前人类制造出的最精确的计时工具是什么？",
+        "options": [
+          "机械摆钟",
+          "石英手表",
+          "原子钟",
+          "水钟"
+        ],
+        "answer": "原子钟",
+        "explanation": "原子钟的精度极高，几亿年误差不到一秒。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "水钟的设计与水位控制",
+        "question": "如果要设计一个能计时10分钟的水钟，下列哪项设计最合理？",
+        "options": [
+          "瓶盖上的小孔钻大一点",
+          "使用底部较宽且水位恒定的容器",
+          "增加容器中水的粘稠度",
+          "将水柱高度不断提高"
+        ],
+        "answer": "使用底部较宽且水位恒定的容器",
+        "explanation": "水位恒定是保持流速恒定的前提，配合稳定的容器结构更利于精准计时。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "如果在实验中测量同一个摆摆动10次的时间，记录了三次分别为：12秒、12秒、13秒，应取什么值？",
+        "options": [
+          "12秒",
+          "12.3秒",
+          "13秒",
+          "无法判断"
+        ],
+        "answer": "12.3秒",
+        "explanation": "科学实验数据通常取平均值以减少偶然误差。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "在调节摆绳长度时，发现摆动次数变多了，说明发生了什么变化？",
+        "options": [
+          "摆长变长了",
+          "摆长变短了",
+          "摆锤变轻了",
+          "摆幅变大了"
+        ],
+        "answer": "摆长变短了",
+        "explanation": "相同时间内摆动次数增多意味着频率变高，即周期减小，对应摆长变短。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "计时工具的演变",
+        "question": "下列计时工具中，利用机械能转化且具有摆动控制系统的是哪一个？",
+        "options": [
+          "沙漏",
+          "燃香",
+          "摆钟",
+          "太阳能表"
+        ],
+        "answer": "摆钟",
+        "explanation": "摆钟依靠重锤或发条提供动力，通过摆来控制时间间隔。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "单摆在摆动过程中，它的摆幅会逐渐发生什么变化？",
+        "options": [
+          "逐渐变大",
+          "保持不变",
+          "逐渐变小",
+          "上下运动"
+        ],
+        "answer": "逐渐变小",
+        "explanation": "由于空气阻力和摩擦力的存在，摆幅会逐渐衰减直至停止。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "我们可以通过改变摆绳的长度，使摆摆动的快慢发生改变。如果要让原本15秒摆动10次的摆，加快到15秒摆动12次，应该怎么做？",
+        "options": [
+          "缩短摆绳长度",
+          "加长摆绳长度",
+          "减轻摆锤重量",
+          "减小摆动角度"
+        ],
+        "answer": "缩短摆绳长度",
+        "explanation": "由慢变快需要减小摆长。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间的感知",
+        "question": "当我们心情愉快地玩游戏时，往往感觉时间过得很快，这是因为什么？",
+        "options": [
+          "钟表走快了",
+          "地球自转变快了",
+          "主管感知的主观时间偏离了实际时间",
+          "周围的人都在加快节奏"
+        ],
+        "answer": "主管感知的主观时间偏离了实际时间",
+        "explanation": "心理时间受专注度和情绪影响，但这并不影响客观物理时间的流逝。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计时工具的演变",
+        "question": "在古代，人们利用影子、流水等来计时。相比之下，机械钟表的优点在于什么？",
+        "options": [
+          "更加美观",
+          "不受天气情况影响",
+          "不用维护",
+          "造价更低"
+        ],
+        "answer": "不受天气情况影响",
+        "explanation": "机械钟表不依赖阳光或外部水源补给，使用场景更广。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "测量“摆长”的标准方法应当是从支架固定点测到哪里？",
+        "options": [
+          "摆锤的上端",
+          "摆锤的中心",
+          "摆锤的下端",
+          "摆绳的中点"
+        ],
+        "answer": "摆锤的中心",
+        "explanation": "物理学意义上的摆长是从悬点到摆系统的重心的距离。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间的单位",
+        "question": "我们通常说一场篮球赛用了48分钟，这里的“分钟”是什么？",
+        "options": [
+          "时间的单位",
+          "长度的单位",
+          "速度的单位",
+          "重量的单位"
+        ],
+        "answer": "时间的单位",
+        "explanation": "分钟是常见的时间度量单位。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水钟的设计与水位控制",
+        "question": "小明制作的水钟在接水容器中，第1分钟接了20毫升水，第5分钟接了10毫升水，这最可能的原因是什么？",
+        "options": [
+          "水位太高了",
+          "没有保持供水容器水位恒定",
+          "受水容器破了",
+          "计时器坏了"
+        ],
+        "answer": "没有保持供水容器水位恒定",
+        "explanation": "对于泄水型水钟，水位下降会导致水压降低，流速显著变慢。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "摆绳长度分别为10厘米、20厘米、30厘米的三个摆，同一个时间内摆动次数最少的是哪一个？",
+        "options": [
+          "10厘米的摆",
+          "20厘米的摆",
+          "30厘米的摆",
+          "由于摆锤重量相同而相同"
+        ],
+        "answer": "30厘米的摆",
+        "explanation": "摆绳越长，摆动一次所需时间越长，相同时间内摆动次数就越少。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间的换算",
+        "question": "古代的一昼夜被划分为12个时辰，那么一个时辰相当于现在的（___）个小时。",
+        "options": [],
+        "answer": "2",
+        "explanation": "24小时除以12个时辰，每个时辰为2小时。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间的换算",
+        "question": "一分钟包含（___）秒。",
+        "options": [],
+        "answer": "60",
+        "explanation": "时间进率为60制。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "摆动一个来回（往返）代表摆动了（___）次。",
+        "options": [],
+        "answer": "一",
+        "explanation": "在科学记录中，从一侧到另一侧再回到出发侧记录为一次。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "水钟的设计与水位控制",
+        "question": "为了解决水流速度不均匀的问题，古人设计了（___）水钟。",
+        "options": [],
+        "answer": "受水型",
+        "explanation": "受水型水钟通常配有溢水装置保持水位恒定。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单摆的等时性与摆长规律",
+        "question": "发现摆的等时性的科学家是（___）。",
+        "options": [],
+        "answer": "伽利略",
+        "explanation": "伽利略在观察教堂吊灯时最早发现了单摆的等时性规律。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "古代计时工具原理",
+      "core_concept": "利用自然界运动的周期性或能量匀速消耗计时的原理。",
+      "key_formula": "规律性 = 可计时性",
+      "common_mistakes": [
+        "认为日晷晚上利用月亮也能计时。",
+        "混淆受水型水钟和泄水型水钟的结构。"
+      ],
+      "tips": "所有的古代计时器都依赖一个能够“重复且匀速”发生的现象。"
+    },
+    {
+      "point": "水钟的设计与控制",
+      "core_concept": "水位产生水压，水压决定出流速度。",
+      "key_formula": "恒定水位 = 恒定流速",
+      "common_mistakes": [
+        "忽略瓶身形状对水位下降速度的影响。",
+        "没考虑小孔大小对滴速的显著影响。"
+      ],
+      "tips": "要让水钟变准，关键是加一个溢水管保持水位永远不变。"
+    },
+    {
+      "point": "单摆的等时性与摆长",
+      "core_concept": "单摆的摆动周期取决于摆长，与摆幅（小角度内）和摆锤重量无关。",
+      "key_formula": "摆长越长，摆动越慢；摆长越短，摆动越快。",
+      "common_mistakes": [
+        "误以为加重摆锤能让摆动加快。",
+        "测量摆长时只量了摆绳，没加摆锤半径。"
+      ],
+      "tips": "调节钟摆准时时，‘长慢短快’是四字诀窍。"
+    },
+    {
+      "point": "计时工具的演变",
+      "core_concept": "计时精度决定了人类社会发展的精细程度。",
+      "key_formula": "天文计时 < 机械计时 < 电子计时 < 原子能计时",
+      "common_mistakes": [
+        "认为机械钟比石英钟更准。",
+        "忽略了人类对微小时间单位（如毫秒、微秒）的需求。"
+      ],
+      "tips": "精度提升的本质是计时发生器振动频率的不断提高。"
+    }
+  ]
+}

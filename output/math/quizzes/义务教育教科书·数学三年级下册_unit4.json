@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学三年级下册",
+  "unit": "两位数乘两位数",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元：两位数乘两位数 单元学习评测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "因为 $2 \times 3 = 6$，所以 $20 \times 30 = 60$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$20 \times 30 = 600$。计算 $20 \times 30$ 时，先算 $2 \times 3 = 6$，再在积的末尾添上两个 0，结果是 600。验算：$600 \times 10 \times 10 = 6 \times 100 = 600$ ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "两位数乘两位数，积一定是三位数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "最小的两位数乘积 $10 \times 10 = 100$ 是三位数，最大的两位数乘积 $99 \times 99 = 9801$ 是四位数。所以积可能是三位数或四位数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "计算 $40 \times 50$ 时，积的末尾有两个 0。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$4 \times 5 = 20$，再添两个 0 得到 2000，积的末尾有三个 0。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "一个乘数的末尾有一个 0，另一个乘数的末尾没有 0，积的末尾至少有一个 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据乘法的基本性质，乘数末尾的 0 会落到积的末尾，如 $10 \times 2 = 20$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "每套书有 12 本，售价 30 元。买 2 套需要多少钱？列式为 $12 \times 30$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "每套书 30 元，买 2 套需要 $30 \times 2 = 60$ 元。12 本是干扰信息。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "$30 \times 80$ 的积是：",
+        "options": [
+          "240",
+          "2400",
+          "24",
+          "24000"
+        ],
+        "answer": "2400",
+        "explanation": "$3 \times 8 = 24$，两个数末尾共有两个 0，所以积是 2400。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "$14 \times 20$ 的积是：",
+        "options": [
+          "28",
+          "280",
+          "140",
+          "2800"
+        ],
+        "answer": "280",
+        "explanation": "$14 \times 2 = 28$，末尾补一个 0，结果为 280。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "在笔算 $23 \times 12$ 时，用第二个因数十位上的 1 去乘 23，得到的是：",
+        "options": [
+          "23",
+          "230",
+          "46",
+          "2300"
+        ],
+        "answer": "230",
+        "explanation": "十位上的 1 表示 1 个十，即 $23 \times 10 = 230$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "下面各题中，积最接近 1200 的是：",
+        "options": [
+          "21 \times 59",
+          "30 \times 41",
+          "38 \times 32",
+          "19 \times 49"
+        ],
+        "answer": "30 \times 41",
+        "explanation": "$21 \times 59 \times \text{≈} 1200$；$30 \times 41 = 1230$；$38 \times 32 \times \text{≈} 1200$；$30 \times 41$ 最接近。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "学校食堂买了 11 箱苹果，每箱 12 个，每个苹果卖 2 元。一共花了多少钱？",
+        "options": [
+          "264",
+          "132",
+          "22",
+          "24"
+        ],
+        "answer": "264",
+        "explanation": "$11 \times 12 = 132$ 个，$132 \times 2 = 264$ 元。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "$50 \times 60$ 的积的末尾有几个 0？",
+        "options": [
+          "1 个",
+          "2 个",
+          "3 个",
+          "4 个"
+        ],
+        "answer": "3 个",
+        "explanation": "$5 \times 6 = 30$，补两个 0，得 3000，共有 3 个 0。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "$42 \times 21$ 的结果大约是：",
+        "options": [
+          "60",
+          "800",
+          "400",
+          "1200"
+        ],
+        "answer": "800",
+        "explanation": "$42 \times \text{≈} 40$，$21 \times \text{≈} 20$，$40 \times 20 = 800$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "3 名老师带 40 名学生去公园，学生票每张 15 元，一共需要：",
+        "options": [
+          "600",
+          "45",
+          "645",
+          "15"
+        ],
+        "answer": "600",
+        "explanation": "题目问学生共需多少，或者默认为学生票费用。$40 \times 15 = 600$ 元。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "一个数乘 10，得到的积是 540，这个数是：",
+        "options": [
+          "54",
+          "540",
+          "5",
+          "5400"
+        ],
+        "answer": "54",
+        "explanation": "$540 \times \text{÷} 10 = 54$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "$25 \times 16$ 的积是：",
+        "options": [
+          "400",
+          "300",
+          "250",
+          "350"
+        ],
+        "answer": "400",
+        "explanation": "$25 \times 16 = 25 \times 4 \times 4 = 100 \times 4 = 400$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "最大的一位数与最小的两位数的乘积是：",
+        "options": [
+          "90",
+          "10",
+          "99",
+          "100"
+        ],
+        "answer": "90",
+        "explanation": "$9 \times 10 = 90$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "2 只青蛙 3 天吃了 60 只害虫，1 只青蛙 1 天吃几只？",
+        "options": [
+          "10",
+          "20",
+          "30",
+          "120"
+        ],
+        "answer": "10",
+        "explanation": "$60 \times \text{÷} 2 = 30$（1 只 3 天），$30 \times \text{÷} 3 = 10$（1 只 1 天）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "$15 \times 40$ 的积是：",
+        "options": [
+          "60",
+          "600",
+          "150",
+          "400"
+        ],
+        "answer": "600",
+        "explanation": "$15 \times 4 = 60$，补一个 0 是 600。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "20 乘 50 的积是 ___。",
+        "options": [],
+        "answer": "1000",
+        "explanation": "$20 \times 50 = 1000$。验算：$2 \times 5 = 10$，末尾加两个 0 是 1000 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "一本练习本 12 元，买 24 本需要 ___ 元。",
+        "options": [],
+        "answer": "288",
+        "explanation": "$12 \times 24 = 288$。验算：$12 \times 20 = 240$，$12 \times 4 = 48$，$240 + 48 = 288$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "一辆货车一次能运 5 吨货物，8 辆这样的车 12 次能运 ___ 吨。",
+        "options": [],
+        "answer": "480",
+        "explanation": "$5 \times 8 = 40$（8 辆一次），$40 \times 12 = 480$（12 次）。验算：$5 \times 12 = 60$，$60 \times 8 = 480$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "$12 \times 300 = ?$",
+        "options": [],
+        "answer": "3600",
+        "explanation": "$12 \times 3 = 36$，末尾补两个 0 得到 3600。验算：$3600 \times \text{÷} 300 = 12$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "$34 \times 12 = ?$",
+        "options": [],
+        "answer": "408",
+        "explanation": "$34 \times 2 = 68$，$34 \times 10 = 340$，$68 + 340 = 408$。验算：$408 \times \text{÷} 12 = 34$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级下册第四单元综合能力测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "30 乘 60 的积是 180。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$30 \times 60 = 1800$。$3 \times 6=18$，补两个 0。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "任何两位数乘 10，积的末尾一定有一个 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两位数 $n \times 10$ 相当于在 $n$ 的末尾添上一个 0。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "两个因数的末尾各有一个 0，积的末尾至少有两个 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$a0 \times b0 = (a \times b)00$，至少有两个 0。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "$25 \times 40$ 的积是 100。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$25 \times 4 = 100$，再补一个 0 是 1000。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "一辆客车限坐 40 人，12 辆这样的车能坐 500 人吗？答：不能。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$40 \times 12 = 480$，因为 $480 < 500$，所以不能坐 500 人。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "得数大于 1200 的算式是：",
+        "options": [
+          "30 \times 30",
+          "20 \times 50",
+          "40 \times 32",
+          "25 \times 40"
+        ],
+        "answer": "40 \times 32",
+        "explanation": "$30 \times 30 = 900$; $20 \times 50 = 1000$; $40 \times 32 = 1280$; $25 \times 40 = 1000$。只有 1280 > 1200。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "学校买了 24 个足球，每个足球 58 元，一共需要多少元？",
+        "options": [
+          "1392",
+          "1200",
+          "1440",
+          "1382"
+        ],
+        "answer": "1392",
+        "explanation": "$58 \times 24 = 1392$。末尾数字应是 $8 \times 4$ 的 2。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "每个箱子装 24 瓶饮料，每瓶 3 元，买 5 箱一共：",
+        "options": [
+          "360",
+          "240",
+          "120",
+          "15"
+        ],
+        "answer": "360",
+        "explanation": "$24 \times 3 = 72$ 元一箱，$72 \times 5 = 360$ 元。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "$13 \times 30$ 的结果是：",
+        "options": [
+          "39",
+          "390",
+          "3900",
+          "130"
+        ],
+        "answer": "390",
+        "explanation": "$13 \times 3 = 39$，加个 0 是 390。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "如果 $\text{□}3 \times 20 = 460$，那么 $\text{□}$ 里应填：",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "$460 \times \text{÷} 20 = 23$，所以 $\text{□}$ 是 2。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "$45 \times 11$ 与以下哪个等值？",
+        "options": [
+          "450+45",
+          "450+11",
+          "45 \times 10+1",
+          "45 \times 1+10"
+        ],
+        "answer": "450+45",
+        "explanation": "$45 \times 11 = 45 \times (10+1) = 45 \times 10 + 45 \times 1 = 450 + 45$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "一本书 212 页，小明每天看 15 页，看了 12 天，还剩多少页？",
+        "options": [
+          "32",
+          "180",
+          "200",
+          "28"
+        ],
+        "answer": "32",
+        "explanation": "$15 \times 12 = 180$ 页，$212 - 180 = 32$ 页。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "$20 \times 40$ 与 $10 \times 80$ 的结果：",
+        "options": [
+          "一样大",
+          "20 \times 40 大",
+          "10 \times 80 大",
+          "无法比较"
+        ],
+        "answer": "一样大",
+        "explanation": "都是 800。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "两个班学生合影，每排 12 人，站了 4 排，每张照片 5 元。买一张照片多少钱？",
+        "options": [
+          "5",
+          "60",
+          "240",
+          "48"
+        ],
+        "answer": "5",
+        "explanation": "题目最后问的是一张照片多少钱，文中已给出是 5 元。要注意审题。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "$38 \times 22$ 的估算结果最接近：",
+        "options": [
+          "600",
+          "800",
+          "1000",
+          "1200"
+        ],
+        "answer": "800",
+        "explanation": "$40 \times 20 = 800$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "一列火车有 12 节车厢，每节车厢有 60 个座位。这列火车一共有多少座位？",
+        "options": [
+          "720",
+          "620",
+          "7200",
+          "72"
+        ],
+        "answer": "720",
+        "explanation": "$12 \times 60 = 720$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "小红从家到学校，每分钟走 60 米，走 10 分钟。如果改骑车只需 4 分钟，骑车每分钟走多少米？",
+        "options": [
+          "150",
+          "240",
+          "600",
+          "120"
+        ],
+        "answer": "150",
+        "explanation": "距离 $60 \times 10 = 600$ 米，$600 \times \text{÷} 4 = 150$ 米。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "两个两位数相乘，积最小是：",
+        "options": [
+          "100",
+          "121",
+          "110",
+          "1000"
+        ],
+        "answer": "100",
+        "explanation": "$10 \times 10 = 100$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "口算乘法",
+        "question": "一只斑马每天休息 12 小时，20 只斑马每天共休息 ___ 小时。",
+        "options": [],
+        "answer": "240",
+        "explanation": "$12 \times 20 = 240$。验算：$12 \times 2 = 24$，$24 \times 10 = 240$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "计算 $35 \times 24$ 的积是 ___。",
+        "options": [],
+        "answer": "840",
+        "explanation": "$35 \times 24 = 35 \times 4 + 35 \times 20 = 140 + 700 = 840$。验算：$35 \times 2 \times 12 = 70 \times 12 = 840$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决两步计算的应用题",
+        "question": "小明每分钟打 45 个字，半个小时打 ___ 个字。",
+        "options": [],
+        "answer": "1350",
+        "explanation": "半小时是 30 分钟。$45 \times 30 = 1350$。验算：$135 \times \text{÷} 3 = 45$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法",
+        "question": "$80 \times 70 = ?$",
+        "options": [],
+        "answer": "5600",
+        "explanation": "$8 \times 7 = 56$，末尾补两个 0 为 5600。验算：$5600 \times \text{÷} 70 = 80$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "不进位与进位的笔算乘法",
+        "question": "$78 \times 32 = ?$",
+        "options": [],
+        "answer": "2496",
+        "explanation": "$78 \times 2 = 156$，$78 \times 30 = 2340$，$156 + 2340 = 2496$。由于是进位乘法需仔细计算 ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "口算乘法",
+      "core_concept": "掌握两位数、几百几十数乘一位数（进位）以及两位数乘整十、整百数的口算方法。口算时，先用因数中 0 前面的数相乘，然后看因数末尾共有几个 0，就在积的末尾添上几个 0。",
+      "key_formula": "$a0 \times b0 = (a \times b) \times 100$",
+      "common_mistakes": [
+        "少算积末尾的 0（如 $40 \times 50$ 算成 200）",
+        "进位时计算错误（如 $14 \times 3$ 算成 32）"
+      ],
+      "tips": "先乘非零数，末尾加 0 法。进位要记牢，细心不失分。"
+    },
+    {
+      "point": "不进位与进位的笔算乘法",
+      "core_concept": "笔算两位数乘两位数时，用第二个因数的每一位分别去乘第一个因数。用第二个因数十位上的数去乘时，积的末位要和十位对齐。最后把两次乘得的积相加。",
+      "key_formula": "两位数 \times 两位数 = \text{部分积}_1 + \text{部分积}_2",
+      "common_mistakes": [
+        "用十位数乘时积的末位与个位对齐",
+        "进位加法漏算"
+      ],
+      "tips": "相同数位要对齐，从个位起依次乘。十位乘积写十位，最后相加是总积。"
+    },
+    {
+      "point": "解决两步计算的应用题",
+      "core_concept": "解决连乘、连除问题时，首先要理清题目中的数量关系。可以从条件入手思索能求出什么，也可以从问题入手思索需要什么条件。通常需要两步计算才能得出最后结果。",
+      "key_formula": "总数 = \text{份数} \times \text{每份数量} \times \text{倍数}",
+      "common_mistakes": [
+        "找不到隐藏的中间量",
+        "混淆乘除关系导致运算符号选错"
+      ],
+      "tips": "读题两遍理思路，先求中间再求终。连乘连除看含义，结合生活更轻松。"
+    }
+  ]
+}

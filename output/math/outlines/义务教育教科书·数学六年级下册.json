@@ -1,0 +1,261 @@
+{
+  "textbook": "六年级下册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "负数",
+      "knowledge_points": [
+        {
+          "name": "负数的意义与读写法",
+          "description": "理解负数含义，会正确读、写正负数，明确0既不是正数也不是负数",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "判断",
+            "选择"
+          ]
+        },
+        {
+          "name": "负数的实际应用",
+          "description": "用正负数表示生活中具有相反意义的量，如气温、收支、海拔等",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "在数轴上表示正负数",
+          "description": "在直线上表示正数、0和负数，体会轴对称性及数的大小关系",
+          "difficulty": 3,
+          "question_types": [
+            "画图",
+            "排序/比较",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "百分数（二）",
+      "knowledge_points": [
+        {
+          "name": "折扣与成数",
+          "description": "理解打折和成数的含义，掌握其与百分数、分数的互化方法",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "应用题"
+          ]
+        },
+        {
+          "name": "税率与应纳税额计算",
+          "description": "理解纳税意义，掌握应纳税额、税率、营业额之间的数量关系",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "填空"
+          ]
+        },
+        {
+          "name": "利率与利息计算",
+          "description": "理解本金、利率、存期的概念，掌握利息与本息合计的计算公式",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "竖式计算"
+          ]
+        },
+        {
+          "name": "百分数综合方案对比",
+          "description": "综合运用折扣、满减等优惠方式解决购物最省钱方案的选择问题",
+          "difficulty": 4,
+          "question_types": [
+            "选择",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "圆柱与圆锥",
+      "knowledge_points": [
+        {
+          "name": "圆柱与圆锥的特征",
+          "description": "认识底面、侧面、高、顶点等概念，掌握圆柱侧面展开图的特性",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "圆柱的表面积",
+          "description": "掌握底面积、侧面积和表面积的计算，处理无盖、进一法等实际问题",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "应用题",
+            "操作题"
+          ]
+        },
+        {
+          "name": "圆柱的体积与容积",
+          "description": "利用转化法推导并运用体积公式解决容器盛装量、物体变形等问题",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "应用题",
+            "选择"
+          ]
+        },
+        {
+          "name": "圆锥的体积",
+          "description": "掌握圆锥与等底等高圆柱的体积关系，熟练运用1/3系数进行计算",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "判断",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "比例",
+      "knowledge_points": [
+        {
+          "name": "比例的意义和基本性质",
+          "description": "判断两比能否组成比例，掌握内项积等于外项积的性质并据此解比例",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "竖式计算"
+          ]
+        },
+        {
+          "name": "正比例与反比例的判断",
+          "description": "通过比值一定或乘积一定判断两个关联量的关系，并能识别相关图象",
+          "difficulty": 4,
+          "question_types": [
+            "判断",
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "比例尺的应用",
+          "description": "进行图上距离、实际距离与比例尺之间的相互换算，统一单位计算",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "画图",
+            "应用题"
+          ]
+        },
+        {
+          "name": "图形的放大与缩小",
+          "description": "按指定比画出原图形放大或缩小后的形状，理解相似图形边、面积的变化规律",
+          "difficulty": 3,
+          "question_types": [
+            "画图",
+            "填空"
+          ]
+        },
+        {
+          "name": "用比例解决问题",
+          "description": "运用正/反比例关系建立方程解决工程、单价、用电等实际应用题",
+          "difficulty": 4,
+          "question_types": [
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "数学广角——鸽巢问题",
+      "knowledge_points": [
+        {
+          "name": "鸽巢原理基础应用",
+          "description": "理解(n+1)个物体放入n个抽屉必然存在‘至少2个’的逻辑结论",
+          "difficulty": 2,
+          "question_types": [
+            "判断",
+            "选择",
+            "填空"
+          ]
+        },
+        {
+          "name": "带余除法处理鸽巢问题",
+          "description": "利用商+1的方法解决‘至少’个数的复杂计算，涉及不同余数情况的分析",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "综合逻辑推理与规律探究",
+          "description": "涉及人物排序、配色组合、数字排列等隐含规律的逻辑论证",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "逻辑推理"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "整理和复习",
+      "knowledge_points": [
+        {
+          "name": "数与代数的系统回顾",
+          "description": "梳理整数、小数、分数及运算定律，掌握方程与比和比例的联系",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "图形与几何的综合运用",
+          "description": "归纳平面图形周长面积及立体图形表面积体积公式，掌握图形运动位置",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "应用题",
+            "画图"
+          ]
+        },
+        {
+          "name": "统计图分析与概率决策",
+          "description": "对比三种统计图优劣，进行平均数分析及可能性预测",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "操作题",
+            "选择"
+          ]
+        },
+        {
+          "name": "解决问题策略与跨学科实践",
+          "description": "运用转化、画图、建模等策略解决综合实践问题（如绿色出行、自行车齿轮比等）",
+          "difficulty": 5,
+          "question_types": [
+            "应用题",
+            "规律探索"
+          ]
+        }
+      ]
+    }
+  ]
+}

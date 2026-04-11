@@ -1,0 +1,687 @@
+{
+  "textbook": "教科版小学科学四年级下册",
+  "unit": "植物的生长变化",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元「植物的生长变化」单元评估测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "种子的结构",
+        "question": "蚕豆种子的胚芽发育后形成了植物的根。",
+        "options": [],
+        "answer": "错",
+        "explanation": "胚芽发育形成茎和叶，胚根发育形成根。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "叶的功能",
+        "question": "植物的叶具有进行光合作用和蒸腾作用的功能。",
+        "options": [],
+        "answer": "对",
+        "explanation": "叶片是植物进行光合作用制造养料和蒸腾水分的主要器官。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "种子的萌发",
+        "question": "种子萌发时，最先突破种皮长出来的是胚根。",
+        "options": [],
+        "answer": "对",
+        "explanation": "吸足水分后，胚根首先发育并突破种皮向下生长形成根。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植物的根",
+        "question": "植物的根只有固定植株的作用，不能吸收水分。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根既能固定植物，也能吸收土壤中的水分和矿物质。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "种子的传播",
+        "question": "凤仙花的果实成熟后会自动爆裂，将种子弹射出去。",
+        "options": [],
+        "answer": "对",
+        "explanation": "凤仙花属于弹射传播（自体传播）的一种。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "种子的内部结构",
+        "question": "在种子结构中，能够发育成新植物体的是（）。",
+        "options": [
+          "种皮",
+          "胚",
+          "子叶",
+          "胚乳"
+        ],
+        "answer": "胚",
+        "explanation": "胚包含胚根、胚芽、胚轴和子叶，是种子的核心生命部分，能发育成新植株。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物生长所需条件",
+        "question": "凤仙花在生长过程中，叶片交叉生长主要是为了（）。",
+        "options": [
+          "更加美观",
+          "保持平衡",
+          "获得更多阳光",
+          "防止雨水淋湿"
+        ],
+        "answer": "获得更多阳光",
+        "explanation": "叶片交叉生长（叶磨）可以最大限度地接收阳光进行光合作用。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "茎的运输作用",
+        "question": "我们将植物的茎放入红色水中，纵切发现有红色线条，这说明茎有（）的作用。",
+        "options": [
+          "固定植物",
+          "吸收水分",
+          "运输水分",
+          "制造养料"
+        ],
+        "answer": "运输水分",
+        "explanation": "茎内的导管负责将水和无机盐由下向上运输到植物全身。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "花的结构",
+        "question": "凤仙花由花萼、花瓣、雄蕊和雌蕊四部分组成，它属于（）。",
+        "options": [
+          "不完全花",
+          "完全花",
+          "单性花",
+          "雌花"
+        ],
+        "answer": "完全花",
+        "explanation": "四部分俱全的花被称为完全花。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "种子的传播方式",
+        "question": "苍耳的果实上长有许多倒钩，它传播种子的方式是（）。",
+        "options": [
+          "风力传播",
+          "水力传播",
+          "动物传播",
+          "弹射传播"
+        ],
+        "answer": "动物传播",
+        "explanation": "倒钩可以挂在动物的皮毛上，随动物活动移动到他处。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "种子的萌发",
+        "question": "在观察种子萌发实验中，我们把蚕豆种子放在垫有纸巾的杯壁位置是为了（）。",
+        "options": [
+          "让种子美观",
+          "方便观察",
+          "给种子保暖",
+          "防止种子受潮"
+        ],
+        "answer": "方便观察",
+        "explanation": "靠近透明杯壁可以看到根和芽生长的动态过程。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "果实的发育",
+        "question": "凤仙花的果实是由（）发育而来的。",
+        "options": [
+          "花瓣",
+          "雄蕊",
+          "子房",
+          "花药"
+        ],
+        "answer": "子房",
+        "explanation": "受精完成后，花瓣、雄蕊枯萎，雌蕊的子房发育成果实。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的根",
+        "question": "下列植物中，拥有直根系的是（）。",
+        "options": [
+          "葱",
+          "凤仙花",
+          "水稻",
+          "玉米"
+        ],
+        "answer": "凤仙花",
+        "explanation": "凤仙花具有主根和侧根之分，属于直根系；葱、水稻、玉米属于须根系。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传粉过程",
+        "question": "为了让花结出果实，花粉必须落在（）上。",
+        "options": [
+          "花瓣",
+          "花丝",
+          "雌蕊柱头",
+          "花萼"
+        ],
+        "answer": "雌蕊柱头",
+        "explanation": "花粉落到雌蕊柱头上的过程叫传粉，是结果的前提。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的生长阶段",
+        "question": "凤仙花生命周期的第一个阶段是（）。",
+        "options": [
+          "幼苗",
+          "种子萌发",
+          "开花",
+          "结果"
+        ],
+        "answer": "种子萌发",
+        "explanation": "植物生命周期通常从种子萌发开始。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "环境需求",
+        "question": "在缺水的沙漠里，仙人掌的叶退化成刺，这是为了（）。",
+        "options": [
+          "吸收水分",
+          "减少水分蒸腾",
+          "进行光合作用",
+          "防御敌人"
+        ],
+        "answer": "减少水分蒸腾",
+        "explanation": "缩小表面积可以有效减少体内水分通过叶片蒸发。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生命周期",
+        "question": "植物的生命周期一般都会经历种子、萌发、生长发育、开花、（）以及衰老和死亡。",
+        "options": [
+          "生根",
+          "长叶",
+          "结果",
+          "分支"
+        ],
+        "answer": "结果",
+        "explanation": "开花之后结果是绿色开花植物的标准生命轨迹。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "实验对照",
+        "question": "研究植物根能否吸收水分实验中，在水面上滴油是为了（）。",
+        "options": [
+          "给植物提供营养",
+          "防止水分蒸发",
+          "增加水的重量",
+          "观察更清楚"
+        ],
+        "answer": "防止水分蒸发",
+        "explanation": "滴油密封水面是为了确保试管内水分的减少完全是由于根的吸收引起。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "子叶的结构",
+        "question": "在观察蚕豆种子时，我们可以看到它通常有（）片子叶。",
+        "options": [],
+        "answer": "2",
+        "explanation": "蚕豆属于双子叶植物，有两片肥厚的子叶储存营料。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "雄蕊的结构",
+        "question": "凤仙花的一朵花中，通常有（）枚雄蕊。",
+        "options": [],
+        "answer": "5",
+        "explanation": "根据植物学观察，凤仙花通常具有5枚雄蕊。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光合作用",
+        "question": "植物在阳光下，利用二氧化碳和水制造养料，并释放（）。",
+        "options": [],
+        "answer": "氧气",
+        "explanation": "光合作用的产物是养料（有机物）和氧气。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "种子的内部结构",
+        "question": "种子中为胚发育提供营养的部分是（）。",
+        "options": [],
+        "answer": "子叶",
+        "explanation": "双子叶植物萌发所需的营养储存在子叶中。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "茎的形态",
+        "question": "凤仙花的茎直立生长于地面，这种茎被称为（）。",
+        "options": [],
+        "answer": "直立茎",
+        "explanation": "按生长方式分类，凤仙花的茎属于直立茎。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级下学期科学期末模拟卷（植物单元专题）",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "光合作用条件",
+        "question": "如果没有阳光，植物就无法进行光合作用制造养料。",
+        "options": [],
+        "answer": "对",
+        "explanation": "阳光是光合作用的必要能源条件。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "传粉受精",
+        "question": "由于南瓜花有雌雄之分，所以它们必须经过传粉才能结果。",
+        "options": [],
+        "answer": "对",
+        "explanation": "单性花必须通过昆虫或风等媒介将花粉传至雌蕊。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "种子寿命",
+        "question": "只要种子完整，放在任何环境下都能萌发。",
+        "options": [],
+        "answer": "错",
+        "explanation": "萌发需要适宜的温度、足够的水分和充足的空气。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "植物排泄/蒸腾",
+        "question": "植物体内多余的水分主要是通过叶片上的气孔散发出去的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是蒸腾作用的定义，气孔是水分散失的门户。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "植物分类",
+        "question": "所有的绿色开花植物都是用种子来繁殖后代的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "被子植物（绿色开花植物）主要特征之一就是产生种子。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "种子的结构",
+        "question": "种子中最重要的部分是（），它是新植物的雏形。",
+        "options": [
+          "种皮",
+          "胚",
+          "子叶",
+          "种孔"
+        ],
+        "answer": "胚",
+        "explanation": "胚包含了未来植物的所有器官原始体。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根的作用",
+        "question": "在干旱的沙漠中，植物的根通常长得（）。",
+        "options": [
+          "很短",
+          "很深",
+          "很少",
+          "向上"
+        ],
+        "answer": "很深",
+        "explanation": "为了吸收地下深处的水分，沙漠植物根系发达且深扎。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "果实特征",
+        "question": "下列哪个部分属于凤仙花的果实？（）",
+        "options": [
+          "绿色的叶片",
+          "纺锤形的籽荚",
+          "红色的花瓣",
+          "细长的根"
+        ],
+        "answer": "纺锤形的籽荚",
+        "explanation": "籽荚内含种子，是果实器官。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "种子的传播方式",
+        "question": "椰子树生长在海边，它的果实成熟后落入海中，其传播方式是（）。",
+        "options": [
+          "弹射传播",
+          "风力传播",
+          "水路传播",
+          "动物传播"
+        ],
+        "answer": "水路传播",
+        "explanation": "椰子果实外壳疏松含有空气，利于随海水漂流。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物的生长顺序",
+        "question": "凤仙花的生长过程正确的是（）。",
+        "options": [
+          "种子-长叶-开花-结果",
+          "种子-结果-开花-长叶",
+          "种子-开花-结果-萌发",
+          "种子-萌发-幼苗-开花"
+        ],
+        "answer": "种子-长叶-开花-结果",
+        "explanation": "符合植物营养生长到生殖生长的逻辑。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "茎的形态",
+        "question": "牵牛花的茎细长，缠绕在其他物体上向上生长，属于（）。",
+        "options": [
+          "直立茎",
+          "攀缘茎",
+          "缠绕茎",
+          "匍匐茎"
+        ],
+        "answer": "缠绕茎",
+        "explanation": "靠自身茎蔓螺旋缠绕生长的叫缠绕茎。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "种子萌发实验",
+        "question": "在探究种子萌发条件的实验中，我们要改变的条件是（）。",
+        "options": [
+          "所有条件",
+          "只能是一个条件",
+          "两个条件",
+          "不需要控制"
+        ],
+        "answer": "只能是一个条件",
+        "explanation": "对比实验必须遵循单一变量原则。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "花的功能",
+        "question": "植物开花、传粉的最最终目的是（）。",
+        "options": [
+          "为了好看",
+          "吸引昆虫",
+          "制造氧气",
+          "繁殖后代"
+        ],
+        "answer": "繁殖后代",
+        "explanation": "花、果实、种子是植物的生殖器官。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "种子的内部结构",
+        "question": "剥开一颗浸泡过的蚕豆，那块像“豆瓣”一样厚实的部分是（）。",
+        "options": [
+          "胚根",
+          "胚芽",
+          "子叶",
+          "种皮"
+        ],
+        "answer": "子叶",
+        "explanation": "子叶储存大量养料，是种子中最大的部分。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "光合作用",
+        "question": "植物生长所需的养料主要是由（）通过光合作用提供的。",
+        "options": [
+          "根从土壤吸收",
+          "叶片制造",
+          "茎部运输",
+          "花瓣吸收"
+        ],
+        "answer": "叶片制造",
+        "explanation": "植物是生产者，通过叶进行光合作用自制有机物。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物的根",
+        "question": "当我们拔出草时，会发现根部带着很多泥土，这表现了根能（）。",
+        "options": [
+          "吸收水分",
+          "固定植物",
+          "呼吸空气",
+          "生长迅速"
+        ],
+        "answer": "固定植物",
+        "explanation": "根抓牢土壤，起到支持和固定作用。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "种子传播",
+        "question": "蒲公英的种子长有绒毛，它主要靠（）传播。",
+        "options": [
+          "水力",
+          "风力",
+          "弹力",
+          "动物"
+        ],
+        "answer": "风力",
+        "explanation": "轻小且带毛的结构适合随风飘散。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的一生",
+        "question": "凤仙花从种子萌发到开花结果，大约需要（）天时间。",
+        "options": [
+          "10",
+          "30",
+          "90",
+          "365"
+        ],
+        "answer": "90",
+        "explanation": "凤仙花的生命周期约为三个月左右。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "花的结构",
+        "question": "一朵完整的凤仙花通常具有（）片花瓣。",
+        "options": [],
+        "answer": "5",
+        "explanation": "凤仙花属于五出数花，标准为5枚花瓣。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生命周期",
+        "question": "一株健康的凤仙花一生中大约可以结出（）个左右的果实。",
+        "options": [],
+        "answer": "20",
+        "explanation": "根据实验观察，凤仙花单株产果量通常在20个左右。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "胚的结构",
+        "question": "在种子萌发过程中，将来发育成植物茎和叶的结构是（）。",
+        "options": [],
+        "answer": "胚芽",
+        "explanation": "胚芽向上生长形成地上的茎和叶。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "受精部位",
+        "question": "雌蕊的顶端通常会有粘液，这个部位被称为（）。",
+        "options": [],
+        "answer": "柱头",
+        "explanation": "柱头具有粘性，用于接收花粉。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "蒸腾作用",
+        "question": "植物体内水分以气体形式通过叶片散失到空气中的过程叫（）。",
+        "options": [],
+        "answer": "蒸腾作用",
+        "explanation": "该过程不仅是水分排泄，更是植物降温和吸收动力的源泉。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "种子结构与功能",
+      "core_concept": "种子由种皮和胚组成，胚是新植物的生命体。",
+      "key_formula": "胚=胚根+胚芽+胚轴+子叶",
+      "common_mistakes": [
+        "认为子叶就是胚的全部",
+        "混淆胚根和胚芽的发育方向"
+      ],
+      "tips": "记住“根”向下，“芽”向上。"
+    },
+    {
+      "point": "根、茎、叶的功能",
+      "core_concept": "各器官协调工作以维持生命：根吸水、茎运输、叶造粮。",
+      "key_formula": "植物养料=阳光+水分+二氧化碳（通过叶的光合作用）",
+      "common_mistakes": [
+        "认为植物所需的养料全部来自土壤",
+        "忽视了茎内部导管的运输作用"
+      ],
+      "tips": "对照实验中，水面滴油是防止干扰（水分蒸发）的关键。"
+    },
+    {
+      "point": "生殖与传播",
+      "core_concept": "花通过传粉结果，种子通过不同方式扩散以寻找生存空间。",
+      "key_formula": "果实=子房壁（果皮）+种子",
+      "common_mistakes": [
+        "认为所有的花都能结果（忽略了雄花或未传粉）",
+        "看到带钩的果实认为是风力传播"
+      ],
+      "tips": "传播方式看特征：轻有毛靠风，甜美多汁靠动物，硬而弹靠弹射，浮水靠水。"
+    }
+  ]
+}

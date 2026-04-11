@@ -1,0 +1,405 @@
+{
+  "textbook": "五年级下册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "观察物体（三）",
+      "knowledge_points": [
+        {
+          "name": "根据三视图还原几何体",
+          "description": "能够根据从前面、左面、上面观察到的图形，构建出相应的几何结构，理解三视图一致性。",
+          "difficulty": 3,
+          "question_types": [
+            "操作题",
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "空间方位与形状保持推理",
+          "description": "在已知部分视图的情况下，判断增加或减少小立方体后视图是否发生变化。",
+          "difficulty": 4,
+          "question_types": [
+            "判断",
+            "选择",
+            "画图"
+          ]
+        },
+        {
+          "name": "多角度观察的摆法多样性",
+          "description": "探究在缺失某一边视图条件时，组合体存在的多种可能性与逻辑推理。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "因数与倍数",
+      "knowledge_points": [
+        {
+          "name": "因数与倍数的意义及基本性质",
+          "description": "理解因数与倍数的相互依存关系，掌握找一个数的因数（有限）与倍数（无限）的方法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "判断",
+            "选择"
+          ]
+        },
+        {
+          "name": "2、5、3的倍数特征",
+          "description": "掌握个位特征（2, 5）及各位数字之和（3）的判定规则，识别奇数与偶数。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "质数与合数及1的特殊性",
+          "description": "根据因数个数对自然数进行分类，掌握100以内的质数查找方法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "分类/匹配",
+            "判断"
+          ]
+        },
+        {
+          "name": "数的奇偶性运算规律",
+          "description": "探究并掌握奇数、偶数在加减运算后的奇偶性变化规律。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "规律探索",
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "长方体和正方体",
+      "knowledge_points": [
+        {
+          "name": "长方体和正方体的特征",
+          "description": "认识面、棱、顶点及长宽高，理解正方体是特殊的长方体。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "表面积计算与展开图",
+          "description": "理解表面积含义，掌握长方体和正方体表面积公式及其在实际（如无盖盒子）中的应用。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "填空",
+            "画图"
+          ]
+        },
+        {
+          "name": "体积概念与体积单位换算",
+          "description": "认识体积单位(cm³, dm³, m³)，掌握相邻单位间1000的进率换算。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "长方体和正方体体积公式应用",
+          "description": "掌握V=abh, V=a³及通用公式V=Sh，解决实际生活中的方量计算。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "填空",
+            "操作题"
+          ]
+        },
+        {
+          "name": "容积与不规则物体体积测量",
+          "description": "理解容积单位L、mL，掌握利用排水法测量不规则物体体积的方法。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "填空",
+            "操作题"
+          ]
+        },
+        {
+          "name": "立体图形涂色与堆叠规律探索",
+          "description": "通过小正方体堆叠发现三面、两面、一面及无色小正方体的分布规律。",
+          "difficulty": 4,
+          "question_types": [
+            "规律探索",
+            "填空",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "分数的意义和性质",
+      "knowledge_points": [
+        {
+          "name": "分数的产生、意义与单位“1”",
+          "description": "理解分数产生的背景，掌握单位“1”和分数单位的概念。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "判断",
+            "画图"
+          ]
+        },
+        {
+          "name": "分数与除法的关系",
+          "description": "掌握a÷b=a/b(b≠0)的关系，并利用其进行单位换算和解决比例问题。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "真分数、假分数与带分数",
+          "description": "理解各类分数的定义，掌握假分数化为整数或带分数的方法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "分数的基本性质",
+          "description": "理解分子分母同时乘/除以相同数(0除外)大小不变，用于等值分数转化。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "约分与最大公因数",
+          "description": "掌握公因数、互质数概念，能利用最大公因数进行约分化简为最简分数。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "填空",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "通分与最小公倍数",
+          "description": "理解公倍数意义，掌握通分方法以比较异分母分数的大小。",
+          "difficulty": 3,
+          "question_types": [
+            "排序/比较",
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "分数和小数的互化",
+          "description": "掌握小数化分数及分数化小数（除法取近似值）的相互转化技巧。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "排序/比较"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "图形的运动（三）",
+      "knowledge_points": [
+        {
+          "name": "旋转的三要素辨析",
+          "description": "明确旋转中心、旋转方向（顺/逆时针）和旋转角度对图形变换的影响。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "简单图形在方格纸上的旋转作图",
+          "description": "掌握对应点到旋转中心距离相等、夹角等于旋转角的特征进行画图。",
+          "difficulty": 4,
+          "question_types": [
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "生活中的旋转现象应用",
+          "description": "识别钟摆、道闸、风车等旋转现象，并能描述其运动轨迹。",
+          "difficulty": 2,
+          "question_types": [
+            "判断",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "分数的加法和减法",
+      "knowledge_points": [
+        {
+          "name": "同分母分数加、减法",
+          "description": "理解相同分数单位相加减的算理，掌握分母不变分子相加减的方法。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "异分母分数加、减法",
+          "description": "理解通分的必要性，将异分母转化为同分母进行计算，结果要求最简。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "分数加减混合运算",
+          "description": "掌握混合运算顺序（同整数），学会灵活处理一次通分与分步通分。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "应用题"
+          ]
+        },
+        {
+          "name": "加法运算律在分数中的应用",
+          "description": "将加法交换律、结合律迁移至分数范畴，进行简便计算。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "口算"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "折线统计图",
+      "knowledge_points": [
+        {
+          "name": "单式折线统计图的认识与分析",
+          "description": "了解折线统计图能直观反映数据增减变化趋势的特点。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "复式折线统计图的绘制与对比",
+          "description": "学会在同一图中用不同格式折线表示两组数据，并进行对比预测。",
+          "difficulty": 4,
+          "question_types": [
+            "画图",
+            "应用题",
+            "填空"
+          ]
+        },
+        {
+          "name": "统计图的选择与决策分析",
+          "description": "根据数据特点选择条形（数量多少）或折线（趋势变化）统计图。",
+          "difficulty": 3,
+          "question_types": [
+            "选择",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "数学广角——找次品",
+      "knowledge_points": [
+        {
+          "name": "找次品的逻辑推理基础",
+          "description": "利用天平平衡原理，通过分堆缩小待测范围。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "最优策略（三分法）探究",
+          "description": "理解将待测物平均分成三份是保证找次品次数最少的最优策略。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "称量次数与物体数量的规律总结",
+          "description": "根据物体总数范围推导至少称准的次数，应用3的幂次方规律。",
+          "difficulty": 5,
+          "question_types": [
+            "规律探索",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "数与代数综合梳理",
+          "description": "系统复习因数倍数、分数意义性质及分数加减法计算。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "判断",
+            "口算",
+            "应用题"
+          ]
+        },
+        {
+          "name": "图形与几何综合应用",
+          "description": "综合运用体积、表面积、三视图及图形旋转知识解决复合空间问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "统计与概率综合分析",
+          "description": "利用复式统计图进行跨年度数据分析及增长趋势预测。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "选择"
+          ]
+        }
+      ]
+    }
+  ]
+}

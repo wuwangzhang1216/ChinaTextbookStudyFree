@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学四年级下册",
+  "unit": "岩石与土壤",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元《岩石与土壤》单元达标评测卷",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "岩石、土壤与人类资源的关系",
+        "question": "岩石和土壤是地球上非常重要的资源，我们可以随意开采。",
+        "options": [],
+        "answer": "错",
+        "explanation": "岩石和土壤是地球上的宝贵资源，形成需要漫长的时间，不可随意损耗和浪费。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常见岩石的特征观察与鉴定",
+        "question": "我们可以通过观察岩石的颜色、硬度、光泽等特征来识别它。",
+        "options": [],
+        "answer": "对",
+        "explanation": "科学观察岩石的标准通常包括颜色、纹理、硬度、透明度和光泽等。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "土壤的成分与分层现象",
+        "question": "土壤里除了沙和黏土，还有空气、水和腐殖质。",
+        "options": [],
+        "answer": "对",
+        "explanation": "土壤是由不同大小的固体颗粒（沙和黏土）、空气、水分以及植物残体腐烂形成的腐殖质组成的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "所有的岩石都是由一种矿物组成的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "岩石是由一种或多种矿物组成的。大多数岩石由多种矿物组成。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三种土壤的物理性质比较",
+        "question": "由于土壤颗粒大小不同，不同土壤的渗水性也不同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "颗粒大、间隙大的土壤渗水快，颗粒细小、间隙小的土壤渗水慢。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见岩石的特征观察与鉴定",
+        "question": "用指甲划不出痕迹，用铜钥匙能划出痕迹，这种岩石的硬度属于（）。",
+        "options": [
+          "软",
+          "较软",
+          "较硬",
+          "硬"
+        ],
+        "answer": "较软",
+        "explanation": "能被指甲刻划出痕迹为软；指甲划不动但铜钥匙能划动为较软；铜钥匙划不动但小刀能划动为较硬。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "我们要观察矿物的条痕颜色，需要将其放在（）上摩擦。",
+        "options": [
+          "白纸",
+          "玻璃板",
+          "无釉瓷板",
+          "木板"
+        ],
+        "answer": "无釉瓷板",
+        "explanation": "无釉瓷板表面粗糙且颜色较淡，能够有效留存并显示矿物粉末的真实颜色。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "花岗岩主要由石英、长石和（）三种矿物组成。",
+        "options": [
+          "金刚石",
+          "云母",
+          "方解石",
+          "硫磺"
+        ],
+        "answer": "云母",
+        "explanation": "花岗岩是由石英（坚硬透明）、长石（肉红或淡黄）和云母（片状闪光）组成的。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "土壤的成分与分层现象",
+        "question": "把土壤放入水中，发现有气泡冒出，这说明土壤中含有（）。",
+        "options": [
+          "水分",
+          "腐殖质",
+          "空气",
+          "黏土"
+        ],
+        "answer": "空气",
+        "explanation": "气泡是因为土壤颗粒间的空气溢出形成的。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三种土壤的物理性质比较",
+        "question": "下列哪种植物更适合生长在沙质土中？",
+        "options": [
+          "荷花",
+          "水稻",
+          "仙人掌",
+          "白菜"
+        ],
+        "answer": "仙人掌",
+        "explanation": "沙质土渗水性强、透气好，但保水差，非常适合耐旱植物如仙人掌生长。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "岩石、土壤与人类资源的关系",
+        "question": "下列物品中，利用矿物制成的是（）。",
+        "options": [
+          "木凳",
+          "铅笔芯",
+          "纸张",
+          "皮鞋"
+        ],
+        "answer": "铅笔芯",
+        "explanation": "铅笔芯的主要成分是石墨，石墨属于矿物资源。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "在鉴定矿物时光泽非常重要，下列光泽中最闪亮的是（）。",
+        "options": [
+          "丝绸光泽",
+          "金属光泽",
+          "玻璃光泽",
+          "蜡烛光泽"
+        ],
+        "answer": "金属光泽",
+        "explanation": "金属光泽反射光的能力最强，如黄铁矿、方铅矿。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "岩石、土壤与人类资源的关系",
+        "question": "岩石在太阳、风、水、生物等长期作用下，发生了破碎现象，这个过程叫做（）。",
+        "options": [
+          "崩塌",
+          "沉积",
+          "风化",
+          "磨损"
+        ],
+        "answer": "风化",
+        "explanation": "自然界中岩石受冷热雨水空气影响变碎的过程称为风化。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三种土壤的物理性质比较",
+        "question": "保水性、保肥性和透气性都比较适中的土壤是（）。",
+        "options": [
+          "沙质土",
+          "黏质土",
+          "壤土",
+          "荒漠土"
+        ],
+        "answer": "壤土",
+        "explanation": "壤土中的沙子和黏土含量比例相当，综合性能最均衡。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见岩石的特征观察与鉴定",
+        "question": "在观察岩石颗粒时，我们需要借助的工具是（）。",
+        "options": [
+          "显微镜",
+          "放大镜",
+          "望远镜",
+          "温度计"
+        ],
+        "answer": "放大镜",
+        "explanation": "放大镜是观察岩石细部特征、颗粒大小常用的工具。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "土壤的成分与分层现象",
+        "question": "搅拌土壤水悬浮液并静置后，沉淀在最下层的颗粒是（）。",
+        "options": [
+          "黏土",
+          "粉沙",
+          "沙砾",
+          "腐殖质"
+        ],
+        "answer": "沙砾",
+        "explanation": "根据重力沉降规律，颗粒大而重的沙砾会首先沉到杯底。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "岩石、土壤与人类资源的关系",
+        "question": "下列关于保护矿产资源的措施中，错误的是（）。",
+        "options": [
+          "合理开采",
+          "有计划开采",
+          "保护和回收利用金属",
+          "加快开采以满足需求"
+        ],
+        "answer": "加快开采以满足需求",
+        "explanation": "矿产资源属于不可再生资源，应有节制地开采并注重保护。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见岩石的特征观察与鉴定",
+        "question": "呈现青灰色、颗粒细且致密、遇到盐酸会冒泡的岩石是（）。",
+        "options": [
+          "砂岩",
+          "石灰岩",
+          "大理岩",
+          "页岩"
+        ],
+        "answer": "石灰岩",
+        "explanation": "遇盐酸冒泡是石灰岩的主要化学特征。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "我们要制作矿物标本，第（）步应是将标本装入盒中并贴上标签。",
+        "options": [],
+        "answer": "5",
+        "explanation": "制作标本通常分为：采集、清理、分类、装盒编号、贴标签（第五步）。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三种土壤的物理性质比较",
+        "question": "我们通常将土壤分为（）类。",
+        "options": [],
+        "answer": "3",
+        "explanation": "根据沙和黏土的含量比例，分为沙质土、黏质土、壤土三大类。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "土壤的成分与分层现象",
+        "question": "土壤中动植物腐烂后产生的黑色物质叫作（）。",
+        "options": [],
+        "answer": "腐殖质",
+        "explanation": "腐殖质是地球表层非常肥沃的部分，能为植物提供养分。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "石英、长石、云母三种矿物中，透明度最好的是（）。",
+        "options": [],
+        "answer": "石英",
+        "explanation": "石英通常是透明或半透明的，具有玻璃光泽。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三种土壤的物理性质比较",
+        "question": "具有较强黏性和保水性的土壤是（）。",
+        "options": [],
+        "answer": "黏质土",
+        "explanation": "黏质土含黏粒极多，渗水慢、保水性能强。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级下学期科学期末测评（岩石与土壤专题版）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常见岩石的特征观察与鉴定",
+        "question": "岩石和土壤是地球上的重要资源，它们处处可见，因此无需刻意保护。",
+        "options": [],
+        "answer": "错",
+        "explanation": "虽然常见，但它们是动植物生存的根基，且形成速度非常缓慢，极易被破坏。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "矿物的条痕颜色一定和它的外表颜色完全相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "条痕颜色消除了矿物外表的杂质或生理因素干扰，往往与外表颜色不同。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "土壤的成分与分层现象",
+        "question": "土壤由沙、黏土、水、空气、腐殖质等混合而成。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是对土壤成分的标准描述。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "三种土壤的物理性质比较",
+        "question": "壤土是最理想的农业用地，因为它既能保肥又能透气。",
+        "options": [],
+        "answer": "对",
+        "explanation": "壤土兼顾了沙质土的透气和黏质土的保肥优点。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "常见岩石的特征观察与鉴定",
+        "question": "只有岩石会发生风化，土壤不会发生变化。",
+        "options": [],
+        "answer": "错",
+        "explanation": "土壤也在不断地变化和演化过程中。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见岩石的特征观察与鉴定",
+        "question": "下列硬度中，可以用刀刻划出痕迹，但铜钥匙不能划出痕迹的是（）。",
+        "options": [
+          "软",
+          "较软",
+          "较硬",
+          "硬"
+        ],
+        "answer": "较硬",
+        "explanation": "以此分级规则：刀可划动而铜钥匙不可划动为较硬。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "被称为自然界中硬度最大的矿物是（）。",
+        "options": [
+          "石英",
+          "金刚石",
+          "长石",
+          "石墨"
+        ],
+        "answer": "金刚石",
+        "explanation": "金刚石是目前自然界中已知硬度最高的物质。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "土壤的成分与分层现象",
+        "question": "把干土壤放入水中，水面冒出的气泡说明土壤中有（）。",
+        "options": [
+          "氧气",
+          "二氧化碳",
+          "空气",
+          "水蒸汽"
+        ],
+        "answer": "空气",
+        "explanation": "气泡证实了土壤颗粒间空隙中存在空气。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "三种土壤的物理性质比较",
+        "question": "最难揉成团或条状的土壤是（）。",
+        "options": [
+          "沙质土",
+          "黏质土",
+          "壤土",
+          "红土"
+        ],
+        "answer": "沙质土",
+        "explanation": "沙质土颗粒大、黏性差，极难聚拢成型。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "在观察矿物透明度时，我们尝试透过矿物碎屑边缘来看书上的字，这属于观察（）。",
+        "options": [
+          "反射光强度",
+          "光泽",
+          "透明度",
+          "条痕"
+        ],
+        "answer": "透明度",
+        "explanation": "能否透过矿物边缘看清物体是判断透明度的标准方法。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "岩石、土壤与人类资源的关系",
+        "question": "下列哪种岩石多呈白色或黄色，由均匀的细硬颗粒组成，像许多小沙粒粘在了一起？",
+        "options": [
+          "大理岩",
+          "砂岩",
+          "页岩",
+          "花岗岩"
+        ],
+        "answer": "砂岩",
+        "explanation": "砂岩的典型特征是具有较细的砂粒结构。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "岩石、土壤与人类资源的关系",
+        "question": "计算机芯片主要由硅矿物制成，常见的硅矿物是（）。",
+        "options": [
+          "石英",
+          "云母",
+          "滑石",
+          "硫磺"
+        ],
+        "answer": "石英",
+        "explanation": "石英的主要成分是二氧化硅，是重要的工业原材料。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三种土壤的物理性质比较",
+        "question": "最有利于花生等需排水良好作物的生长的土壤是（）。",
+        "options": [
+          "黏质土",
+          "黑土",
+          "沙质土",
+          "湿润土"
+        ],
+        "answer": "沙质土",
+        "explanation": "沙质土排水性强，能避免花生等植物烂根。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见岩石的特征观察与鉴定",
+        "question": "在观察岩石表面光泽时，通常我们参照的物体不包括（）。",
+        "options": [
+          "金属",
+          "玻璃",
+          "木头",
+          "丝绸"
+        ],
+        "answer": "木头",
+        "explanation": "常见的对比光泽有金属光泽、玻璃光泽、丝绸光泽、蜡烛光泽等。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "如果要识别一种不知名的矿物，下列做法科学的是（）。",
+        "options": [
+          "只看外观颜色",
+          "咨询专家或查阅图鉴",
+          "通过尝味道来判断",
+          "直接认为是金刚石"
+        ],
+        "answer": "咨询专家或查阅图鉴",
+        "explanation": "对比《矿物特征卡》和咨询专业人士是识别矿物的正确方法。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见岩石的特征观察与鉴定",
+        "question": "花岗岩通常作为建筑地基或墓碑材料，是因为它（）。",
+        "options": [
+          "非常美观",
+          "质地坚硬且不易风化",
+          "容易刻划",
+          "颗粒很小"
+        ],
+        "answer": "质地坚硬且不易风化",
+        "explanation": "这决定了花岗岩适合作为永久性建筑的材料。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教育背景与资源保护",
+        "question": "在野外采集标本后，应注意（）。",
+        "options": [
+          "随意丢弃不需要的矿石",
+          "记录采集地点和日期",
+          "所有岩石全部带回家",
+          "在名胜古迹刻字纪念"
+        ],
+        "answer": "记录采集地点和日期",
+        "explanation": "这是制作科学标本应有的素养和必要凭证。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三种土壤的物理性质比较",
+        "question": "如果想做粘土手工，你会选择采集哪种土壤？",
+        "options": [
+          "沙质土",
+          "黏质土",
+          "壤土",
+          "都可以"
+        ],
+        "answer": "黏质土",
+        "explanation": "黏质土具有最好的黏性和可塑性。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "如果一种矿物可以被小刀刻划，但不能被铜钥匙刻划，说明它的硬度等級在（）级分级中排在第三等级。",
+        "options": [],
+        "answer": "3",
+        "explanation": "课本中通常将硬度基于实验结果分为四个层级。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "岩石通常由（）种或以上的矿物组成。",
+        "options": [],
+        "answer": "1",
+        "explanation": "岩石最少由一种矿物组成。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见岩石的特征观察与鉴定",
+        "question": "在地表常见的一层层排列的岩石结构称为（）。",
+        "options": [],
+        "answer": "层理",
+        "explanation": "层理是沉积岩的重要特征之一。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "土壤的成分与分层现象",
+        "question": "由于地表岩石的风化，地球陆地上覆盖了一层薄薄的（）。",
+        "options": [],
+        "answer": "土壤",
+        "explanation": "土壤由岩石风化而成，覆盖在地球表面。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "矿物的特征与岩石组成",
+        "question": "我们可以通过各种方式观察矿物（）的颜色，这比矿物外表的颜色更可靠。",
+        "options": [],
+        "answer": "条痕",
+        "explanation": "条痕颜色是矿物粉末颜色，是鉴定矿物的重要依据。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "岩石和矿物的关系",
+      "core_concept": "地球表面由岩石覆盖，岩石由一种或多种矿物组成。",
+      "key_formula": "岩石 = 矿物1 + 矿物2 + ...",
+      "common_mistakes": [
+        "认为岩石就是矿物",
+        "认为一块岩石里只有一种矿物"
+      ],
+      "tips": "矿物在岩石中通常以颗粒形式存在，可以通过其颜色、光泽判断。"
+    },
+    {
+      "point": "岩石硬度的鉴定",
+      "core_concept": "通过指甲、铜钥匙、小刀三种工具的刻划来评估岩石硬度。",
+      "key_formula": "指甲(软) < 铜钥匙(较软) < 小刀(较硬) < 均划不动(硬)",
+      "common_mistakes": [
+        "刻划力度不均匀导致判断偏差",
+        "不清理刻痕误以为是划痕"
+      ],
+      "tips": "观察划痕时要擦去粉末，看岩石本体是否留下凹痕。"
+    },
+    {
+      "point": "土壤的成分",
+      "core_concept": "土壤是沙、黏土、腐殖质、水和空气的混合物。",
+      "key_formula": "土壤 = 矿物质颗粒 + 腐殖质 + 水 + 空气",
+      "common_mistakes": [
+        "忽视土壤中空气的存在",
+        "认为土壤就是单纯的泥土颗粒"
+      ],
+      "tips": "通过沉积实验可以看到土壤颗粒分层，最上层浮着的是腐殖质。"
+    },
+    {
+      "point": "三种土壤的分类",
+      "core_concept": "根据沙和黏土的含量比例将土壤分为沙质土、黏质土和壤土。",
+      "key_formula": "沙多=沙质土；黏多=黏质土；适中=壤土",
+      "common_mistakes": [
+        "混淆渗水性和保水性的概念",
+        "由于壤土最好，认为所有植物都该种在壤土里"
+      ],
+      "tips": "主要看颗粒间的间隙：间隙大则渗水快（沙质土），间隙小则蓄水强（黏质土）。"
+    },
+    {
+      "point": "岩石的风化与土壤形成",
+      "core_concept": "岩石在自然因素作用下破碎，最终与腐殖质等混合形成土壤。",
+      "key_formula": "岩石 + 风化 + 动植物残体 = 土壤",
+      "common_mistakes": [
+        "认为土壤形成很快",
+        "忽略生物作用（如根系、蚯蚓、腐烂物质）对土壤形成的贡献"
+      ],
+      "tips": "记住土壤的形成需要千百年的时间，必须珍惜每一寸土地。"
+    }
+  ]
+}

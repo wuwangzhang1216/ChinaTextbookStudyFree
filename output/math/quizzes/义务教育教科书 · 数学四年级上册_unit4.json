@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学四年级上册",
+  "unit": "三位数乘两位数",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元：三位数乘两位数（基础达标卷）",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "三位数乘两位数的积一定是五位数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "最小的三位数 100 乘最小的两位数 10，$100 \\times 10 = 1000$（四位数）；最大的三位数 999 乘最大的两位数 99，$999 \\times 99 = 98901$（五位数）。所以可能是四位数也可能是五位数。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "积的变化规律",
+        "question": "一个因数不变，另一个因数乘 5，积也乘 5。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据积的变化规律：一个因数不变，另一个因数乘几（0除外），积也乘几。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "已知总价和单价，要求数量，应用总价除以单价。",
+        "options": [],
+        "answer": "对",
+        "explanation": "基本数量关系：$单价 \\times 数量 = 总价$。其变式为：$总价 \\div 单价 = 数量$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "两个因数的末尾一共有两个 0，积的末尾一定只有两个 0。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如：$250 \\times 40 = 10000$，因数末尾共有两个 0，但积的末尾有四个 0。原因是因数非零部分的乘积末尾也可能产生 0。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "120 千米/时表示每小时行 120 千米。",
+        "options": [],
+        "answer": "对",
+        "explanation": "速度单位“千米/时”读作千米每小时，表示单位时间（1小时）内行进的路程。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "计算 $204 \\times 52$ 时，52 中的“5”乘 204，结果是：",
+        "options": [
+          "1020",
+          "10200",
+          "102",
+          "102000"
+        ],
+        "answer": "10200",
+        "explanation": "52 中的“5”在十位上，表示 5 个十。$204 \\times 50 = 10200$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "王阿姨买了 5 升花生油，花了 120 元。每升花生油多少钱？这个问题是求：",
+        "options": [
+          "总价",
+          "数量",
+          "单价",
+          "路程"
+        ],
+        "answer": "单价",
+        "explanation": "“每升多少钱”是指单位数量的价格，即单价。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "一只猎豹的奔跑速度可达每秒 31 米，可以写作：",
+        "options": [
+          "31 米/分",
+          "31 秒/米",
+          "31 米/秒",
+          "31 千米/时"
+        ],
+        "answer": "31 米/秒",
+        "explanation": "速度单位写法：路程单位/时间单位。每秒 31 米写作 31 米/秒。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "积的变化规律",
+        "question": "两个因数相乘的积是 120。如果一个因数除以 3，另一个因数乘 3，积是：",
+        "options": [
+          "40",
+          "360",
+          "120",
+          "1080"
+        ],
+        "answer": "120",
+        "explanation": "积的变化：$120 \\div 3 \\times 3 = 120$。积保持不变。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "$450 \\times 60$ 的积的末尾有几个 0？",
+        "options": [
+          "2 个",
+          "3 个",
+          "4 个",
+          "5 个"
+        ],
+        "answer": "3 个",
+        "explanation": "$45 \\times 6 = 270$，再在后面添两个 0，结果是 27000，共 3 个 0。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "两地相距 240 千米，小明乘车 3 小时到达，这辆车的速度是：",
+        "options": [
+          "80 千米",
+          "80 千米/时",
+          "720 千米",
+          "720 千米/时"
+        ],
+        "answer": "80 千米/时",
+        "explanation": "$速度 = 路程 \\div 时间 = 240 \\div 3 = 80$（千米/时）。单位必须是复合单位。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "估算 $298 \\times 21$ 的结果大约是：",
+        "options": [
+          "4000",
+          "5000",
+          "6000",
+          "8000"
+        ],
+        "answer": "6000",
+        "explanation": "$298 \\approx 300$，$21 \\approx 20$，$300 \\times 20 = 6000$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "积的变化规律",
+        "question": "在乘法算式中，一个因数不变，另一个因数扩大到原来的 10 倍，积：",
+        "options": [
+          "不变",
+          "缩小到原来的 1/10",
+          "扩大到原来的 10 倍",
+          "扩大到原来的 100 倍"
+        ],
+        "answer": "扩大到原来的 10 倍",
+        "explanation": "根据积的变化规律，积随因数同比例扩大。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "小华 5 分钟跑了 1000 米，求“平均每分钟跑多少米”就是求：",
+        "options": [
+          "单价",
+          "时间",
+          "路程",
+          "速度"
+        ],
+        "answer": "速度",
+        "explanation": "单位时间（每分钟）跑过的路程叫做速度。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "$125 \\times 80$ 的积的末尾：",
+        "options": [
+          "有 3 个 0",
+          "有 4 个 0",
+          "有 2 个 0",
+          "没有 0"
+        ],
+        "answer": "有 4 个 0",
+        "explanation": "$125 \\times 8 = 1000$，再补一个 0 是 10000，共 4 个 0。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "积的变化规律",
+        "question": "如果 $A \\times B = 600$，那么 $(A \\times 2) \\times (B \\div 3) = $：",
+        "options": [
+          "400",
+          "900",
+          "1200",
+          "1800"
+        ],
+        "answer": "400",
+        "explanation": "积的变化规律：$600 \\times 2 \\div 3 = 1200 \\div 3 = 400$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "与 $480 \\times 40$ 的积不相等的算式是：",
+        "options": [
+          "48 \\times 400",
+          "4800 \\times 4",
+          "240 \\times 80",
+          "480 \\times 4"
+        ],
+        "answer": "480 \\times 4",
+        "explanation": "$480 \\times 40 = 19200$。D 选项只有 1920，少乘了 10。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "每套校服 125 元，购买 40 套共需多少元？这里求的是：",
+        "options": [
+          "总价",
+          "单价",
+          "数量",
+          "倍数"
+        ],
+        "answer": "总价",
+        "explanation": "已知单价（125元）和数量（40套），求共需钱数即总价。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "一列火车每小时行 145 千米，12 小时行了 ___ 千米。",
+        "options": [],
+        "answer": "1740",
+        "explanation": "列式：$145 \\times 12$。计算：$145 \\times 10 = 1450$，$145 \\times 2 = 290$，$1450 + 290 = 1740$。验算：$1740 \\div 12 = 145$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "小明家到学校的路程是 600 米，他每分钟走 50 米，从家走到学校需要 ___ 分钟。",
+        "options": [],
+        "answer": "12",
+        "explanation": "列式：$600 \\div 50$。计算：$600 \\div 50 = 12$。验算：$50 \\times 12 = 600$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "积的变化规律",
+        "question": "已知 $12 \\times 6 = 72$，若把 12 乘 10，6 不变，则积变为 ___。",
+        "options": [],
+        "answer": "720",
+        "explanation": "根据规律，一个因数乘 10，积也乘 10。$72 \\times 10 = 720$。验证：$120 \\times 6 = 720$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "$308 \\times 15 = ?$",
+        "options": [],
+        "answer": "4620",
+        "explanation": "$308 \\times 15 = 308 \\times 10 + 308 \\times 5 = 3080 + 1540 = 4620$。验算：$4620 \\div 15 = 308$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "$240 \\times 30 = ?$",
+        "options": [],
+        "answer": "7200",
+        "explanation": "$24 \\times 3 = 72$，在末尾添 2 个 0 得到 7200。验算：$7200 \\div 30 = 240$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第四单元：三位数乘两位数（期末综合模拟）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "速度 = 路程 × 时间。",
+        "options": [],
+        "answer": "错",
+        "explanation": "正确的公式是：$速度 = 路程 \\div 时间$ 或 $路程 = 速度 \\times 时间$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "积的变化规律",
+        "question": "一个因数乘 2，另一个因数也乘 2，积不变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "两个因数都乘 2，积应该乘 $2 \\times 2 = 4$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "因数中间有 0，积的中间也一定有 0。",
+        "options": [],
+        "answer": "错",
+        "explanation": "如 $105 \\times 2 = 210$，积的中间没有 0。积是否有 0 取决于进位情况。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "三位数乘两位数，积最少是四位数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "最小三位数 100 乘最小两位数 10 等于 1000，是四位数。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "积的变化规律",
+        "question": "如果因数各扩大 10 倍，则积也扩大 10 倍。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据积的变化规律，两个因数各扩大 10 倍，积扩大的倍数是 $10 \\times 10 = 100$ 倍。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "一份外卖 25 元，买 3 份。25 元是：",
+        "options": [
+          "数量",
+          "单价",
+          "总价",
+          "速度"
+        ],
+        "answer": "单价",
+        "explanation": "单件商品的价格称为单价。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "已知 $32 \\times 15 = 480$，那么 $320 \\times 150 = $",
+        "options": [
+          "4800",
+          "48000",
+          "480",
+          "480000"
+        ],
+        "answer": "48000",
+        "explanation": "因数共扩大 $10 \\times 10 = 100$ 倍，积变为 $480 \\times 100 = 48000$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "小马虎计算一个三位数乘两位数时，把三位数 103 看成了 13，得到的结果比正确结果少：",
+        "options": [
+          "90 个三位数",
+          "90 个两位数",
+          "10 个两位数",
+          "10 个三位数"
+        ],
+        "answer": "90 个两位数",
+        "explanation": "$103 - 13 = 90$。根据乘法分配律，少算了 90 倍的那个两位数。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "自行车每小时行 15 千米，汽车的速度是自行车的 4 倍。汽车 3 小时行：",
+        "options": [
+          "60 千米",
+          "180 千米",
+          "45 千米",
+          "240 千米"
+        ],
+        "answer": "180 千米",
+        "explanation": "汽车速：$15 \\times 4 = 60$（千米/时），路程：$60 \\times 3 = 180$（千米）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "在列竖式计算 $346 \\times 27$ 时，第二步用十位上的 2 乘 346，得：",
+        "options": [
+          "692",
+          "6920",
+          "2422",
+          "69200"
+        ],
+        "answer": "6920",
+        "explanation": "2 在十位，表示 20，$346 \\times 20 = 6920$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "积的变化规律",
+        "question": "两个因数相乘，积是 80。如果一个因数缩小为原来的 1/4，另一个因数不变，积变为：",
+        "options": [
+          "320",
+          "20",
+          "80",
+          "10"
+        ],
+        "answer": "20",
+        "explanation": "积随因数同倍数缩小：$80 \\div 4 = 20$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "李师傅 4 小时加工 120 个零件。照这样计算，加工 360 个零件需要多少小时？",
+        "options": [
+          "12 小时",
+          "10 小时",
+          "8 小时",
+          "9 小时"
+        ],
+        "answer": "12 小时",
+        "explanation": "工效为 $120 \\div 4 = 30$（个/时），时间为 $360 \\div 30 = 12$（小时）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "积的变化规律",
+        "question": "甲数 $\\times$ 乙数 $= 100$。如果甲数乘 5，乙数也乘 5，积是：",
+        "options": [
+          "100",
+          "500",
+          "2500",
+          "50"
+        ],
+        "answer": "2500",
+        "explanation": "积扩大了 $5 \\times 5 = 25$ 倍。$100 \\times 25 = 2500$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "下面各算式中，结果最接近 8000 的是：",
+        "options": [
+          "201 \\times 39",
+          "402 \\times 19",
+          "250 \\times 31",
+          "198 \\times 41"
+        ],
+        "answer": "198 \\times 41",
+        "explanation": "$198 \\times 41 \\approx 200 \\times 40 = 8000$。具体计算为 8118，差异最小。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "“一辆汽车 3 小时行驶了 210 千米，平均每小时行驶多少千米？”解决这个问题所用的数量关系式是：",
+        "options": [
+          "单价 \\times 数量 = 总价",
+          "速度 \\times 时间 = 路程",
+          "路程 \\div 时间 = 速度",
+          "路程 \\div 速度 = 时间"
+        ],
+        "answer": "路程 \\div 时间 = 速度",
+        "explanation": "已知路程 210 和时间 3，求速度，用除法。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "一个三位数乘两位数，积的最高位至少是：",
+        "options": [
+          "千位",
+          "万位",
+          "百位",
+          "十位"
+        ],
+        "answer": "千位",
+        "explanation": "最小积为 $100 \\times 10 = 1000$，最高位是千位。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "下列算式中与 $25 \\times 400$ 结果相同的是：",
+        "options": [
+          "250 \\times 40",
+          "25 \\times 40",
+          "250 \\times 4",
+          "25 \\times 4"
+        ],
+        "answer": "250 \\times 40",
+        "explanation": "根据积的变化规律，一个因数缩小 10 倍，另一个扩大 10 倍，积不变。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "小明骑车的速度是 200 米/分，也就是每小时行：",
+        "options": [
+          "1200 米",
+          "12 千米",
+          "24 千米",
+          "2000 米"
+        ],
+        "answer": "12 千米",
+        "explanation": "1小时 = 60分，$200 \\times 60 = 12000$（米）$= 12$ 千米。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见数量关系（单价与速度）",
+        "question": "一件上衣 205 元，买 14 件这种上衣共要花 ___ 元。",
+        "options": [],
+        "answer": "2870",
+        "explanation": "列式：$205 \\times 14 = 2870$。计算：$205 \\times 10 = 2050$，$205 \\times 4 = 820$，$2050 + 820 = 2870$。验算：$2870 \\div 14 = 205$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "积的变化规律",
+        "question": "如果 $A \\times B = 300$，把 A 扩大到原来的 3 倍，B 缩小到原来的 1/2，积是 ___。",
+        "options": [],
+        "answer": "450",
+        "explanation": "列式：$300 \\times 3 \\div 2 = 450$。验算：设 $A=10, B=30$，则 $30 \\times 15 = 450$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "一个长方形花圃长 120 米，宽 45 米。现在要把宽增加到 90 米，长不变，扩建后花圃的面积是 ___ 平方米。",
+        "options": [],
+        "answer": "10800",
+        "explanation": "新面积 $= 120 \\times 90 = 10800$。旧面积 $120 \\times 45 = 5400$，宽变为 2 倍，面积也应为 $5400 \\times 2 = 10800$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "$405 \\times 20 = ?$",
+        "options": [],
+        "answer": "8100",
+        "explanation": "$405 \\times 2 = 810$，末尾补一个 0 得 8100。验算：$8100 \\div 20 = 405$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三位数乘两位数笔算",
+        "question": "$125 \\times 16 = ?$",
+        "options": [],
+        "answer": "2000",
+        "explanation": "$125 \\times 8 \\times 2 = 1000 \\times 2 = 2000$。验算：$2000 \\div 16 = 125$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "三位数乘两位数笔算",
+      "core_concept": "笔算时，先用两位数个位上的数去乘三位数，得数的末位和两位数的个位对齐；再用两位数十位上的数去乘三位数，得数的末位和两位数的十位对齐；最后把两次乘得的积加起来。因数末尾有0时，可以先把0前面的数相乘，然后看因数末尾一共有几个0，就在积的末尾添写几个0。",
+      "key_formula": "$三位数 \\times 两位数 = 积$",
+      "common_mistakes": [
+        "因数中间有0时，计算忘记乘这个0及处理进位。",
+        "因数末尾有0时，由于竖式对齐习惯导致最后漏补0的个数。"
+      ],
+      "tips": "竖式计算时注意数位对齐，进位数字要写小，并及时相加，避免遗漏。"
+    },
+    {
+      "point": "积的变化规律",
+      "core_concept": "在乘法算式中，一个因数不变，另一个因数乘（或除以）几（0除外），积也乘（或除以）几。如果两个因数同时发生倍数变化，积的变化倍数等于两个因数变化倍数的乘积。",
+      "key_formula": "$(a \\times n) \\times b = (a \\times b) \\times n$",
+      "common_mistakes": [
+        "分不清扩大和缩小的倍数，将除法误操作为乘法。",
+        "两个因数都变时，误以为积只随其中一个变化。"
+      ],
+      "tips": "可以先通过简单的算式（如 $2 \\times 3 = 6$）来辅助验证规律。 "
+    },
+    {
+      "point": "常见数量关系（单价与速度）",
+      "core_concept": "本单元涉及两个核心模型：购物模型（单价、数量、总价）和行程模型（速度、时间、路程）。单价是指单位物品的价格；速度是指单位时间内行进的路程。理解这些量之间的乘除关系是解决应用问题的关键。",
+      "key_formula": "$速度 \\times 时间 = 路程$；$单价 \\times 数量 = 总价$",
+      "common_mistakes": [
+        "写速度单位时，漏写时间单位，如只写“千米”而不写“千米/时”。",
+        "三者关系记混，求时间或数量时误用乘法。"
+      ],
+      "tips": "记住“路程”和“总价”这两个“大数”通常是用乘法求得的，而其余两个量则是用“大数”除以另一个量。"
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学三年级上册",
+  "unit": "水",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元《水》单元达标测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "水蒸气与蒸发现象",
+        "question": "水蒸气是水的一种气态形式，它是没有颜色、没有气味、透明的气体。",
+        "options": [],
+        "answer": "对",
+        "explanation": "科学定义中，水蒸气是无色、无味、透明的气体。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "水结冰与冰融化的体积变化",
+        "question": "冰块浮在水面上，说明相同体积的冰比水轻。",
+        "options": [],
+        "answer": "对",
+        "explanation": "水结冰后体积增大，重量不变，密度减小，故冰比同体积的水轻。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "物质在水中的溶解限度",
+        "question": "只要不停地搅拌，食盐就可以无限制地溶解在水中。",
+        "options": [],
+        "answer": "错",
+        "explanation": "一定量的水中所能溶解的物质是有一定限度的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "水的沸腾实验与温度计使用",
+        "question": "读取温度计数值时，视线应与温度计液面持平。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是温度计使用的标准规范，仰视或俯视都会造成误差。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "混合物的分离技术",
+        "question": "用蒸发皿加热食盐水时，要等水分完全蒸干后再熄灭酒精灯。",
+        "options": [],
+        "answer": "错",
+        "explanation": "应在有大量固体析出时熄灭酒精灯，利用余热蒸干，防止食盐飞溅。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水蒸气与蒸发现象",
+        "question": "湿衣服晾在阳光下很快变干了，这是因为水（）。",
+        "options": [
+          "全部渗进衣服里了",
+          "变成了水蒸气散发到空气中",
+          "被太阳吸收了",
+          "直接消失了"
+        ],
+        "answer": "变成了水蒸气散发到空气中",
+        "explanation": "这是典型的蒸发现象，液态水转化为气态水蒸气。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的沸腾实验与温度计使用",
+        "question": "在标准大气压下，水沸腾时的温度是（）。",
+        "options": [
+          "50℃",
+          "80℃",
+          "100℃",
+          "120℃"
+        ],
+        "answer": "100℃",
+        "explanation": "在标准大气压下，水的沸点是100摄氏度。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水结冰与冰融化的体积变化",
+        "question": "水在结冰的过程中，体积会（）。",
+        "options": [
+          "变小",
+          "变大",
+          "不变",
+          "先变大后变小"
+        ],
+        "answer": "变大",
+        "explanation": "水结冰后分子间隙变大，导致体积膨胀。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加快溶解的方法及对比实验",
+        "question": "下列哪组方法能使冰糖在水中溶解得最快？（）",
+        "options": [
+          "冷水、不搅拌",
+          "热水、不搅拌",
+          "冷水、搅拌",
+          "热水、搅拌"
+        ],
+        "answer": "热水、搅拌",
+        "explanation": "升温和搅拌都能加快物质溶解的速度。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物质在水中的溶解限度",
+        "question": "同样是50毫升水，溶解能力更强的是（）。",
+        "options": [
+          "食盐",
+          "小苏打",
+          "一样强",
+          "无法比较"
+        ],
+        "answer": "食盐",
+        "explanation": "实验证明，在相同体积的水中食盐的溶解量远大于小苏打。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "混合物的分离技术",
+        "question": "要把混在沙子里的食盐分离出来，第一步通常是（）。",
+        "options": [
+          "过滤",
+          "蒸发",
+          "溶解",
+          "曝晒"
+        ],
+        "answer": "溶解",
+        "explanation": "利用食盐易溶于水而沙子不溶的特性，先溶解再通过过滤和蒸发分离。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加快溶解的方法及对比实验",
+        "question": "在研究“搅拌能否加快溶解”的对比实验中，我们要改变的条件是（）。",
+        "options": [
+          "水的温度",
+          "水的多少",
+          "是否搅拌",
+          "食盐的多少"
+        ],
+        "answer": "是否搅拌",
+        "explanation": "对比实验中，除了要研究的变量（是否搅拌）外，其他条件都要保持一致。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的沸腾实验与温度计使用",
+        "question": "烧杯里的水沸腾时，水面上方会出现很多“白汽”，它们是（）。",
+        "options": [
+          "水蒸气",
+          "小水滴",
+          "烟雾",
+          "空气"
+        ],
+        "answer": "小水滴",
+        "explanation": "水蒸气是肉眼看不见的，“白汽”是水蒸气遇冷凝结成的小水滴。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "混合物的分离技术",
+        "question": "酒精灯的火焰中，温度最高的是（）。",
+        "options": [
+          "内焰",
+          "外焰",
+          "焰心",
+          "都一样"
+        ],
+        "answer": "外焰",
+        "explanation": "外焰与空气接触最充分，燃烧最剧烈，温度最高。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水结冰与冰融化的体积变化",
+        "question": "冰融化成水的过程中，冰的温度（）。",
+        "options": [
+          "一直上升",
+          "保持在0℃左右",
+          "一直下降",
+          "降到0℃以下"
+        ],
+        "answer": "保持在0℃左右",
+        "explanation": "晶体在融化过程中吸收热量但温度保持在熔点不变。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水蒸气与蒸发现象",
+        "question": "下列现象中，属于蒸发现象的是（）。",
+        "options": [
+          "锅盖上的小水珠",
+          "河水水位下降",
+          "冬天窗户上的冰花",
+          "草叶上的露珠"
+        ],
+        "answer": "河水水位下降",
+        "explanation": "河水水位下降是因为液态水变成了肉眼看不见的水蒸气进入空气。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加快溶解的方法及对比实验",
+        "question": "为了发现细盐在水中溶解得快还是粗盐快，实验时放入的水量应该（）。",
+        "options": [
+          "细盐的多",
+          "粗盐的多",
+          "一样多",
+          "随意多少"
+        ],
+        "answer": "一样多",
+        "explanation": "对比实验需遵循单一变量原则，水量必须相同。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物质在水中的溶解限度",
+        "question": "如果水中的盐已经不再溶解了，我们可以通过（）让它继续溶解。",
+        "options": [
+          "不断搅拌",
+          "静置一会儿",
+          "加一点水",
+          "把盐研碎"
+        ],
+        "answer": "加一点水",
+        "explanation": "增加溶剂的量可以溶解更多的溶质。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水结冰与冰融化的体积变化",
+        "question": "水在温度下降到（）℃时会开始结冰。",
+        "options": [],
+        "answer": "0",
+        "explanation": "0摄氏度是水的冰点。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水的沸腾实验与温度计使用",
+        "question": "当水沸腾后，继续给水加热，水的温度会保持在（）℃不变。",
+        "options": [],
+        "answer": "100",
+        "explanation": "水沸腾时的特点是持续吸热但温度保持不变。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水蒸气与蒸发现象",
+        "question": "液态的水变成气态的水蒸气的过程叫做（）。",
+        "options": [],
+        "answer": "蒸发",
+        "explanation": "蒸发是描述液体表面变成气体的科学术语。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "混合物的分离技术",
+        "question": "在实验室中，我们利用（）的方法将食盐从盐水中分离出来。",
+        "options": [],
+        "answer": "蒸发",
+        "explanation": "通过加热使溶剂水分流失，溶质析出。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水结冰与冰融化的体积变化",
+        "question": "冰从固态变成液态水的过程中需要（）热量。",
+        "options": [],
+        "answer": "吸收",
+        "explanation": "融化是吸热过程。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级上册科学《水》单元期末评价卷",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "水蒸气与蒸发现象",
+        "question": "水蒸气的颗粒很大，我们可以用眼睛直接看到。",
+        "options": [],
+        "answer": "错",
+        "explanation": "水蒸气分子极小，肉眼不可见。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "水的沸腾实验与温度计使用",
+        "question": "测量水温时，温度计的下端可以接触到烧杯的底部。",
+        "options": [],
+        "answer": "错",
+        "explanation": "温度计液泡不能碰到容器壁或底，否则测得的是容器的温度。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "混合物的分离技术",
+        "question": "我们可以通过过滤的方法把溶解在水里的食盐找回来。",
+        "options": [],
+        "answer": "错",
+        "explanation": "过滤只能分离不溶于水的固体，溶解在水里的盐需要蒸发。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "加快溶解的方法及对比实验",
+        "question": "两个杯中水量、水温、盐量都相同，搅拌的杯子盐化得快。",
+        "options": [],
+        "answer": "对",
+        "explanation": "搅拌能加快溶质分子扩散，从而加速溶解。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "水结冰与冰融化的体积变化",
+        "question": "水结成冰后，它就不再是水这种物质了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "水、冰、水蒸气是同一种物质的三种不同状态。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的沸腾实验与温度计使用",
+        "question": "酒精灯熄灭的正确方法是（）。",
+        "options": [
+          "用嘴吹灭",
+          "用灯帽盖灭",
+          "用扇子扇灭",
+          "用水浇灭"
+        ],
+        "answer": "用灯帽盖灭",
+        "explanation": "盖灭法可以隔绝氧气，安全熄灭火焰。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加快溶解的方法及对比实验",
+        "question": "在探究“温度与溶解快慢关系”的实验中，不同的条件是（）。",
+        "options": [
+          "食盐的量",
+          "水的量",
+          "水的温度",
+          "搅拌的速度"
+        ],
+        "answer": "水的温度",
+        "explanation": "研究温度影响，必须设定不同的温度作为变量。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "混合物的分离技术",
+        "question": "过滤时，漏斗下端的管口应该（）。",
+        "options": [
+          "悬在烧杯中央",
+          "紧贴烧杯内壁",
+          "插入液面以下",
+          "离开烧杯一段距离"
+        ],
+        "answer": "紧贴烧杯内壁",
+        "explanation": "紧贴内壁可以防止液体溅出，且能加快过滤速度。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水蒸气与蒸发现象",
+        "question": "晾衣服时，（）条件下衣服干得最慢。",
+        "options": [
+          "有风、阳光下",
+          "无风、阳光下",
+          "有风、阴凉处",
+          "无风、阴凉处"
+        ],
+        "answer": "无风、阴凉处",
+        "explanation": "低温、空气不流动会因蒸发慢导致衣物难干。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物质在水中的溶解限度",
+        "question": "小明向一杯水中加了5份食盐直到不能溶解，如果想再多溶解1份盐，他可以（）。",
+        "options": [
+          "加一点水",
+          "拼命搅拌",
+          "把盐磨细",
+          "静置一天"
+        ],
+        "answer": "加一点水",
+        "explanation": "只有改变溶剂总量或极大幅改变温度才能改变溶解的限度。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水结冰与冰融化的体积变化",
+        "question": "冬天自来水管容易被冻裂，主要是因为（）。",
+        "options": [
+          "水管质量不好",
+          "水结冰后体积变大",
+          "水结冰后变重了",
+          "水管受冷收缩了"
+        ],
+        "answer": "水结冰后体积变大",
+        "explanation": "水结冰体积膨胀会产生巨大的压力将管壁撑裂。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水的沸腾实验与温度计使用",
+        "question": "实验室用的温度计，读数时（）。",
+        "options": [
+          "可以拿出来读",
+          "不能离开液体",
+          "随学生的习惯",
+          "放在桌子上读"
+        ],
+        "answer": "不能离开液体",
+        "explanation": "离开液体后温度计数值会受环境气温影响立即发生变化。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水蒸气与蒸发现象",
+        "question": "杯子里的水放置两三天后会变少，是因为发生了（）。",
+        "options": [
+          "渗透",
+          "结冰",
+          "蒸发",
+          "过滤"
+        ],
+        "answer": "蒸发",
+        "explanation": "常温下液态水缓慢变成气态导致水量减少。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物质在水中的溶解限度",
+        "question": "在做溶解实验时，我们要（）地加入食盐或小苏打比较合适。",
+        "options": [
+          "一股脑全部",
+          "一小份一小份",
+          "越多越好",
+          "不用称量"
+        ],
+        "answer": "一小份一小份",
+        "explanation": "分份加入能更准确地观察到在哪一刻达到饱和。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "混合物的分离技术",
+        "question": "在蒸发水分时，最后留在蒸发皿里的白色颗粒是（）。",
+        "options": [
+          "沙子",
+          "食盐",
+          "小苏打",
+          "冰霜"
+        ],
+        "answer": "食盐",
+        "explanation": "水受热蒸发，原本溶解在水中的食盐会析出残留。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水结冰与冰融化的体积变化",
+        "question": "往冰块上撒较多食盐，冰块融化速度会（）。",
+        "options": [
+          "变慢",
+          "变快",
+          "不变",
+          "先变慢再变快"
+        ],
+        "answer": "变快",
+        "explanation": "盐可以降低水的凝固点，让冰在更低的温度下融化。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加快溶解的方法及对比实验",
+        "question": "在探究加快溶解的实验中，搅拌可以加快（）。",
+        "options": [
+          "食盐的量",
+          "溶解的速度",
+          "水的温度",
+          "物质的甜度"
+        ],
+        "answer": "溶解的速度",
+        "explanation": "物理性质的迁移速度受外力（搅拌）影响显著。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "水的沸腾实验与温度计使用",
+        "question": "某小组测得水沸腾时的温度是98℃，原因可能是（）。",
+        "options": [
+          "读数快了",
+          "温度计坏了",
+          "实验地海拔较高",
+          "加热时间过长"
+        ],
+        "answer": "实验地海拔较高",
+        "explanation": "海拔越高气压越低，水的沸点也会随之降低。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水结冰与冰融化的体积变化",
+        "question": "100毫升的水结成冰后，体积通常会扩展到大约（）毫升左右。",
+        "options": [],
+        "answer": "110",
+        "explanation": "水结冰后体积约膨胀九分之一。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的沸腾实验与温度计使用",
+        "question": "人体的正常体温大约是（）℃。",
+        "options": [],
+        "answer": "37",
+        "explanation": "常识性知识点。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水结冰与冰融化的体积变化",
+        "question": "水在自然界有气态、液态和（）三种状态。",
+        "options": [],
+        "answer": "固态",
+        "explanation": "水的三态变化是物理变化的重点。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水的沸腾实验与温度计使用",
+        "question": "水受热剧烈变成水蒸气的现象叫做（）。",
+        "options": [],
+        "answer": "沸腾",
+        "explanation": "沸腾是特殊的汽化现象。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "混合物的分离技术",
+        "question": "分离食盐和水的实验中使用的主要器材是（）。",
+        "options": [],
+        "answer": "蒸发皿",
+        "explanation": "加热液体的专用瓷器皿。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "水蒸气与蒸发现象",
+      "core_concept": "水在常温下变成水蒸气的过程叫蒸发，温度越高、表面积越大、风力越大，蒸发越快。",
+      "key_formula": "液态水 ↔ 气态水蒸气",
+      "common_mistakes": [
+        "认为水蒸气是白色的烟雾",
+        "认为水蒸发后就消失了"
+      ],
+      "tips": "记住“看不见的那部分才是水蒸气”，白汽是小水滴。"
+    },
+    {
+      "point": "水的沸腾实验",
+      "core_concept": "水加热到100℃（标准压强）时会发生剧烈的汽化现象，过程中温度保持不变。",
+      "key_formula": "沸点 = 100℃（标准压强）",
+      "common_mistakes": [
+        "沸腾后继续加热会升温",
+        "温度计下端碰到杯底"
+      ],
+      "tips": "注意观察气泡：沸腾前气泡由大变小，沸腾时气泡由小变大并升至水面。"
+    },
+    {
+      "point": "水的三态变化",
+      "core_concept": "水的状态变化是由温度控制的，水、冰、水蒸气是不同形态的同一种物质。",
+      "key_formula": "0℃：结冰点/融化点",
+      "common_mistakes": [
+        "水结冰体积变小",
+        "冰融化需要放热"
+      ],
+      "tips": "关注体积变化：水变冰体积膨胀，冰变水体积缩小。"
+    },
+    {
+      "point": "溶解限度与速度",
+      "core_concept": "一定量的水只能溶解一定量的物质；加热、搅拌、破碎可以加快溶解速度。",
+      "key_formula": "搅拌 + 加热 + 减小颗粒 = 加快溶解",
+      "common_mistakes": [
+        "认为搅拌可以溶化更多的盐",
+        "分不清溶解速度和溶解限度"
+      ],
+      "tips": "对比实验只要有一个条件不同（变量），其他必须完全一样。"
+    },
+    {
+      "point": "混合物分离",
+      "core_concept": "利用不溶物颗粒大用过滤，利用溶质沸点高而水分易蒸发用蒸发分离。",
+      "key_formula": "过滤法（分不溶物），蒸发法（分溶解物）",
+      "common_mistakes": [
+        "过滤时将液体直接倒入不靠玻璃棒",
+        "蒸发皿加热到干才熄灯"
+      ],
+      "tips": "酒精灯熄灭必盖两次，防止灯帽打不开。"
+    }
+  ]
+}

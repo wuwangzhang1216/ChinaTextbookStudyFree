@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学五年级上册",
+  "unit": "光",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第1单元「光」基础过关检测卷",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "光源的辨析",
+        "question": "月亮在夜晚看起来很亮，所以它是一个光源。",
+        "options": [],
+        "answer": "错",
+        "explanation": "光源是指自身能发光的物体，月亮是反射太阳光，不是光源。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "光的直线传播",
+        "question": "光在同一种均匀介质中是沿直线传播的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "光的传播基本规律是在同种均匀介质中沿直线传播。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "光的反射",
+        "question": "我们能够看到不发光的物体，是因为这些物体反射了光进入我们的眼睛。",
+        "options": [],
+        "answer": "对",
+        "explanation": "人眼看到非光源物体是依靠其表面反射的光线进入眼球。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "光的折射",
+        "question": "光从空气进入水中时，传播方向一定会发生改变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "如果光线垂直射入水面，传播方向不发生改变。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "光的合成",
+        "question": "红色、绿色和蓝色的光混合在一起可以产生白光。",
+        "options": [],
+        "answer": "对",
+        "explanation": "红、绿、蓝是光的三基色，混合后可得到白光。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光源的辨析",
+        "question": "下列物体中属于光源的是（___）。",
+        "options": [
+          "熄灭的蜡烛",
+          "反光的镜子",
+          "燃烧的火把",
+          "明亮的月球"
+        ],
+        "answer": "燃烧的火把",
+        "explanation": "光源必须是正在发光的物体，火把正在燃烧所以是光源。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的直线传播",
+        "question": "影子产生的条件不包括（___）。",
+        "options": [
+          "光源",
+          "遮挡物",
+          "屏",
+          "镜子"
+        ],
+        "answer": "镜子",
+        "explanation": "影子产生的三个基本条件是光源、遮挡物和屏（接收面）。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的直线传播",
+        "question": "在做小孔成像实验时，看到的像是（___）。",
+        "options": [
+          "正立的",
+          "倒立的",
+          "左右相反，上下不反",
+          "与原物完全一致"
+        ],
+        "answer": "倒立的",
+        "explanation": "由于光的直线传播，光线通过小孔交叉，形成的像是倒立的实像。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的折射",
+        "question": "将一支铅笔倾斜放入盛水的烧杯中，从正面看铅笔好像在水面处（___）。",
+        "options": [
+          "变短了",
+          "变粗了",
+          "向下折断",
+          "向上折断"
+        ],
+        "answer": "向上折断",
+        "explanation": "这是光的折射现象，当光线从水斜射入空气时发生偏折，使水位看起来变浅，铅笔向上弯折。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的传播与遮挡",
+        "question": "光能穿过透明度不同的物体，下列最难通过光线的是（___）。",
+        "options": [
+          "干净的玻璃片",
+          "一张薄纸",
+          "厚木板",
+          "保鲜膜"
+        ],
+        "answer": "厚木板",
+        "explanation": "厚木板是不透明物体，光无法穿过。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "光的色散",
+        "question": "用三棱镜分解白光，得到红、橙、黄、绿、蓝、靛、紫七色光，这说明（___）。",
+        "options": [
+          "三棱镜中藏着颜色",
+          "白光由七种颜色混合而成",
+          "彩虹是画出来的",
+          "光只有在玻璃里才有颜色"
+        ],
+        "answer": "白光由七种颜色混合而成",
+        "explanation": "三棱镜实验证明了太阳光（白光）是复色光。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的反射",
+        "question": "汽车的后视镜使用了（___）来增加视野。",
+        "options": [
+          "平面镜",
+          "凸透镜",
+          "凸面镜",
+          "凹面镜"
+        ],
+        "answer": "凸面镜",
+        "explanation": "凸面镜对光有发散作用，可以扩大驾驶员的视野。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "力的直线传播",
+        "question": "下列自然现象中，能说明光沿直线传播的是（___）。",
+        "options": [
+          "海市蜃楼",
+          "水中月亮",
+          "皮影戏",
+          "雨后彩虹"
+        ],
+        "answer": "皮影戏",
+        "explanation": "皮影戏通过光照射不透明遮挡物形成影子，体现了光沿直线传播。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的反射",
+        "question": "我们在黑板前不同位置都能看清黑板上的字，是因为黑板发生了（___）。",
+        "options": [
+          "镜面反射",
+          "漫反射",
+          "折射",
+          "直线传播"
+        ],
+        "answer": "漫反射",
+        "explanation": "表面粗糙的物体会向各个方向反射光，叫漫反射，所以各个方向都能看见。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "光的应用",
+        "question": "潜望镜里有两个镜片，它们都是（___）。",
+        "options": [
+          "平行放置的平面镜",
+          "成90度角放置的平面镜",
+          "成45度角平行放置的平面镜",
+          "凹面镜"
+        ],
+        "answer": "成45度角平行放置的平面镜",
+        "explanation": "潜望镜由两面平面镜以45度角相互平行安装组成。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的折射",
+        "question": "叉鱼时，有经验的渔夫应该瞄准（___）位置叉才能成功。",
+        "options": [
+          "鱼的下方",
+          "鱼的上方",
+          "看到的鱼的正中心",
+          "光线反射的位置"
+        ],
+        "answer": "鱼的下方",
+        "explanation": "由于折射，看到的鱼比实际位置浅，所以要向下方叉。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的合成",
+        "question": "制作一个彩色轮，当它快速旋转时，能看到原本的颜色混合变成（___）。",
+        "options": [
+          "黑色",
+          "灰色",
+          "白色",
+          "红色"
+        ],
+        "answer": "白色",
+        "explanation": "七色轮快速转动时，利用视觉暂留，多种颜色混合成白色。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的直线传播",
+        "question": "夜晚灯光下，离路灯越近，影子（___）。",
+        "options": [
+          "越长",
+          "越短",
+          "不变",
+          "消失"
+        ],
+        "answer": "越短",
+        "explanation": "根据光沿直线传播原理，人距离点光源越近，遮挡的角度越小，影子越短。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的直线传播",
+        "question": "光在真空中的传播速度大约是每秒（___）万千米。",
+        "options": [],
+        "answer": "30",
+        "explanation": "光速约为30万千米/秒。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的反射",
+        "question": "两面平面镜成90度摆放，中间放一玩具，可以在镜中看到（___）个玩具的像。",
+        "options": [],
+        "answer": "3",
+        "explanation": "根据公式可得360/90 - 1 = 3个像。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的折射",
+        "question": "光从空气斜射入水中，改变传播方向的现象叫做光的（___）。",
+        "options": [],
+        "answer": "折射",
+        "explanation": "折射的定义是光从一种介质进入另一种介质时方向发生偏转。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的传播与遮挡",
+        "question": "空气、水和玻璃等透明物质通常被称为光的（___）。",
+        "options": [],
+        "answer": "介质",
+        "explanation": "物理学中，光波传播时所经过的物质环境称为介质。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "光的原理应用",
+        "question": "医生戴在额头上的额镜利用了光的（___）原理将光汇聚在病人口腔中。",
+        "options": [],
+        "answer": "反射",
+        "explanation": "额镜是凹面镜，利用光的反射原理将光线汇聚。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册第一单元「光」核心素养测评卷（秋季期中）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "光源概念",
+        "question": "自然界中，太阳是最强热的光源。",
+        "options": [],
+        "answer": "对",
+        "explanation": "太阳提供光能量，是地球最主要的自然光源。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "光的直线传播",
+        "question": "光经过烟雾时，我们能清楚看到光路，说明光是沿直线传播的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "烟雾微粒反射了光线，从而显现出了直线传播的路径。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "光的反射",
+        "question": "激光笔射向平面镜时，入射光线与平面镜的夹角越小，反射光线与镜面的夹角越大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "反射角等于入射角，入射光线靠近镜面时反射光线也会靠近镜面。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "光的反射",
+        "question": "黑色物体比白色物体更容易吸收热量，反射光线能力更弱。",
+        "options": [],
+        "answer": "对",
+        "explanation": "颜色浅的物体反射光能力强，颜色深的物体吸收光能力强。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "光的颜色",
+        "question": "雨后彩虹之所以形成，是因为空气中的小水珠像三棱镜一样分解了阳光。",
+        "options": [],
+        "answer": "对",
+        "explanation": "由于光的折射和色散，小水珠将白光分成了七彩光。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的折射",
+        "question": "将筷子斜插入水中，我们在水面上方看到“弯折”的筷子是（___）。",
+        "options": [
+          "真实的筷子实景",
+          "筷子的虚像",
+          "光的反射形成的",
+          "光沿直线传播的结果"
+        ],
+        "answer": "筷子的虚像",
+        "explanation": "折射形成的是虚像，位置比真实位置高。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的直线传播",
+        "question": "以下不是光沿直线传播产生的现象是（___）。",
+        "options": [
+          "排队看齐",
+          "日食",
+          "手影游戏",
+          "海市蜃楼"
+        ],
+        "answer": "海市蜃楼",
+        "explanation": "海市蜃楼是光的折射现象形成的。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的传播与介质",
+        "question": "在三张带孔硬纸板实验中，只有当三个小孔（___）且在同一高度时，最后的屏上才能看到光斑。",
+        "options": [
+          "垂直排列",
+          "成等腰三角形",
+          "在同一直线上",
+          "交叉排列"
+        ],
+        "answer": "在同一直线上",
+        "explanation": "验证光沿直线传播的经典实验结论。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的应用",
+        "question": "潜水艇里的水兵通过潜望镜观察海面，主要是利用了光的（___）。",
+        "options": [
+          "反射",
+          "折射",
+          "直线传播",
+          "漫反射"
+        ],
+        "answer": "反射",
+        "explanation": "潜望镜内安装的是平面镜，利用两次反射改变光路。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光源辨析",
+        "question": "我们可以把物体分为光源和非光源，下列选项中（___）全部都是光源。",
+        "options": [
+          "极光、萤火虫",
+          "月球、水母",
+          "行星、路灯",
+          "星星、镜子"
+        ],
+        "answer": "极光、萤火虫",
+        "explanation": "极光和萤火虫都是自身发光的物体。月球、行星和镜子都不发光。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "光的反射",
+        "question": "如果我们想让墙后的同学看到地板上的球，可以使用两面平面镜，这两面镜子的镜面应该（___）。",
+        "options": [
+          "面对面垂直",
+          "背对背平行",
+          "互成一定夹角反射",
+          "完全合并在一起"
+        ],
+        "answer": "互成一定夹角反射",
+        "explanation": "通过多面镜子的角度调整来引导光线的反射路径。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的合成",
+        "question": "科学家牛顿曾经研究过单色光的混合，如果我们把红、绿、蓝三种颜色的圆纸片贴在圆盘上高速旋转，会看到（___）。",
+        "options": [
+          "五光十色",
+          "近似白色",
+          "变成黑色",
+          "变成紫色"
+        ],
+        "answer": "近似白色",
+        "explanation": "红、绿、蓝是三基色，混合后呈现白色。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物体对光的吸收",
+        "question": "在同样的阳光照射下，夏季人们常选择白色的衣服是因为（___）。",
+        "options": [
+          "更容易吸收热量",
+          "白色反射光的能力强",
+          "白色比黑色好看",
+          "白色光沿直线传播"
+        ],
+        "answer": "白色反射光的能力强",
+        "explanation": "白色吸热少，反射光能力强，夏季穿更凉快。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的传播速度",
+        "question": "打雷时，我们总是先看到闪电后听到雷声，这是因为（___）。",
+        "options": [
+          "闪电比雷声先产生",
+          "光的传播速度比声音快得多",
+          "声音在地上传播慢",
+          "人眼比人耳反应快"
+        ],
+        "answer": "光的传播速度比声音快得多",
+        "explanation": "光速30万km/s，声速340m/s，所以先看到闪电。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的反射",
+        "question": "下列生活中利用凹面镜原理的是（___）。",
+        "options": [
+          "穿衣镜",
+          "太阳灶",
+          "水中的倒影",
+          "透过窗户看外面"
+        ],
+        "answer": "太阳灶",
+        "explanation": "太阳灶利用凹面镜将平行光汇聚在焦点处产生高温。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的颜色",
+        "question": "如果我们观察绿色的树叶，主要是因为树叶（___）。",
+        "options": [
+          "吸收了绿光",
+          "产生了绿光",
+          "反射了绿光",
+          "通过了绿光"
+        ],
+        "answer": "反射了绿光",
+        "explanation": "不透明物体的颜色由其反射的光的颜色决定。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "光的传播与实验",
+        "question": "在一个完全黑暗的房间里放一个红苹果，人坐在房间里（___）看到苹果。",
+        "options": [
+          "由于眼睛适应了黑暗，能",
+          "在一定时间后隐约能",
+          "完全不能",
+          "苹果周围有光圈时能"
+        ],
+        "answer": "完全不能",
+        "explanation": "没有光源且没有反射光，人眼接收不到任何光信号，所以无法看见。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的色散",
+        "question": "白光经过三棱镜发生色散，分布在最外侧的是红色和（___）。",
+        "options": [
+          "黄色",
+          "紫色",
+          "蓝色",
+          "绿色"
+        ],
+        "answer": "紫色",
+        "explanation": "色散光谱两端是红和紫。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "光的反射",
+        "question": "如果潜望镜内部两面镜片不平行，而是成（___）度角垂直安装，我们将看不到海面景象。",
+        "options": [],
+        "answer": "90",
+        "explanation": "90度角反射会改变光路的逻辑方向，通常潜望镜需要45度倾斜平行放置。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的颜色合成",
+        "question": "在实验中，如果我们将三瓶分别装满红、绿、蓝水的瓶子叠加在一起，最中心重合部分的颜色趋向于数字（___）代表的无色透明或白色。",
+        "options": [],
+        "answer": "0",
+        "explanation": "此题设定情境，红绿蓝三色光叠加，对应的灰度等级或理想色值为白光背景。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光的直线传播",
+        "question": "当月球运行到太阳和地球中间时，会发生（___）现象。",
+        "options": [],
+        "answer": "日食",
+        "explanation": "日食是光的直线传播被月球遮挡形成的。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光的反射",
+        "question": "光照射到镜面发生的反射属于（___）反射。",
+        "options": [],
+        "answer": "镜面",
+        "explanation": "平滑表面的反射称为镜面反射。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "光源",
+        "question": "能够自行发光的物体叫做（___）。",
+        "options": [],
+        "answer": "光源",
+        "explanation": "这是光源的基本科学定义。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "光源的本质",
+      "core_concept": "能自身发光的物体叫光源。",
+      "key_formula": "光源 = 正在发光 + 自身发光",
+      "common_mistakes": [
+        "误认为月亮、镜子是光源",
+        "误认为没点燃的蜡烛是光源"
+      ],
+      "tips": "看一个物体是不是光源，只需闭上眼想象在漆黑屋子里它是否还能被感觉到亮光。"
+    },
+    {
+      "point": "光的传播方式",
+      "core_concept": "光在同种均匀介质中沿直线传播。",
+      "key_formula": "直线传播 -> 影子、日食、小孔成像",
+      "common_mistakes": [
+        "认为光可以绕过障碍物",
+        "忽略了“同种均匀介质”的前提"
+      ],
+      "tips": "影子的大小随物体与光源距离的变化而变化。"
+    },
+    {
+      "point": "光的折射规律",
+      "core_concept": "光从一种介质斜射入另一种介质时，传播方向发生改变。",
+      "key_formula": "空气射入水/玻璃 -> 向法线靠拢（看起来变浅）",
+      "common_mistakes": [
+        "认为光垂直射入也会折射",
+        "将折射与反射现象混淆"
+      ],
+      "tips": "水中的物体看起来比实际位置高（变浅），叉鱼要叉下方。"
+    },
+    {
+      "point": "光的反射定律",
+      "core_concept": "光遇到物体表面改变传播方向回到原介质。",
+      "key_formula": "入射角 = 反射角",
+      "common_mistakes": [
+        "认为只有镜子能反射光",
+        "分不清镜面反射和漫反射"
+      ],
+      "tips": "几乎所有物体都能反射光，否则我们看不见它们。"
+    },
+    {
+      "point": "光的色散与合成",
+      "core_concept": "白光是由多种色光混合而成的复色光。",
+      "key_formula": "白光 = 红+橙+黄+绿+蓝+靛+紫",
+      "common_mistakes": [
+        "认为三棱镜给光涂了颜色",
+        "记不住三基色（红绿蓝）"
+      ],
+      "tips": "彩虹是自然界的光色散现象，快速旋转七色盘能看到白色。"
+    }
+  ]
+}

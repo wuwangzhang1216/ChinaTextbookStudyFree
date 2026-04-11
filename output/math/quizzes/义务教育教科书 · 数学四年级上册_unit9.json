@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学四年级上册",
+  "unit": "总复习",
+  "unit_number": 9,
+  "unit_test": {
+    "title": "第九单元「总复习」基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "直线没有端点，射线有一个端点，线段有两个端点。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据线、射线和直线的定义。直线无限延长无端点；射线从一点引出，有一个端点；线段连接两点，有两个端点。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "计数单位就是数位。",
+        "options": [],
+        "answer": "错",
+        "explanation": "计数单位是个、十、百等；数位是个位、十位、百位等。两者意义不同。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "省略万位后面的尾数求近似数，要看千位上的数字。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据“四舍五入”法，省略万位后面的尾数要看低一位（即千位）的数是否达到5。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "平行四边形具有稳定性。",
+        "options": [],
+        "answer": "错",
+        "explanation": "平行四边形具有易变形性（不稳定），三角形才具有稳定性。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "在同一平面内，两条直线不平行就一定垂直。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在同一平面内，两条直线的位置关系有平行和相交。相交中包含垂直，但不垂直也可以相交。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "一个八位数，它的最高位是（ ）。",
+        "options": [
+          "千万位",
+          "亿位",
+          "百万位",
+          "十万位"
+        ],
+        "answer": "千万位",
+        "explanation": "八位数的数位从右往左数分别是：个、十、百、千、万、十万、百万、千万。最高位是千万位。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "在数字 5 和 2 之间添（ ）个 0，这个数就变成了五百万零二。",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "五百万零二写作 5000002。在 5 和 2 之间共有 5 个 0。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "350 × 80 的积之末尾有（ ）个 0。",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3",
+        "explanation": "先算 $35 \\times 8 = 280$，因为两个因数末尾各有一个 0，所以积要在 280 后面添两个 0 得到 28000。末尾共有 3 个 0。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "两数相商，除数不变，被除数乘 10，商（ ）。",
+        "options": [
+          "不变",
+          "乘 10",
+          "除以 10",
+          "乘 100"
+        ],
+        "answer": "乘 10",
+        "explanation": "根据商的变化规律：除数不变，被除数乘几，商也乘几。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "用一副三角板可以拼出的角度是（ ）。",
+        "options": [
+          "70度",
+          "75度",
+          "80度",
+          "100度"
+        ],
+        "answer": "75度",
+        "explanation": "三角板的度数有 30°、45°、60°、90°。$30 + 45 = 75$度，因此 75度可以拼出。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "从直线外一点到这条直线所画的线段中，（ ）最短。",
+        "options": [
+          "射线",
+          "斜线段",
+          "垂直线段",
+          "直线"
+        ],
+        "answer": "垂直线段",
+        "explanation": "数学基本性质：点到直线的距离，垂直线段最短。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合应用与统计复习",
+        "question": "小明骑自行车每分钟行 200 米，他 1 小时行（ ）千米。",
+        "options": [
+          "2",
+          "12",
+          "120",
+          "200"
+        ],
+        "answer": "12",
+        "explanation": "1 小时 = 60 分钟。$200 \\times 60 = 12000$米。12000 米 = 12 千米。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合应用与统计复习",
+        "question": "一只平底锅只能同时煎 2 条鱼，煎熟一条鱼需要 4 分钟（两面各 2 分钟），煎 3 条鱼最快需要（ ）分钟。",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "12"
+        ],
+        "answer": "6",
+        "explanation": "交替煎法。第 1、2 条正面（2分钟）；取出第 2 条，放第 3 条正面，第 1 条反面（2分钟）；取出第 1 条，放第 2 条反面，第 3 条反面（2分钟）。$2+2+2=6$分钟。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合复习",
+        "question": "在 $582 \\div \\Box 2$ 中，如果商是一位数，$\\Box$ 里最小填（ ）。",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "explanation": "商是一位数，意味着被除数前两位 58 小于除数 $\\Box 2$。要使 $58 < \\Box 2$，$\\Box$ 最小填 6。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "下列图形中，只有一组对边平行的是（ ）。",
+        "options": [
+          "平行四边形",
+          "长方形",
+          "梯形",
+          "正方形"
+        ],
+        "answer": "梯形",
+        "explanation": "只有一组对边平行的四边形叫做梯形。平行四边形有两组对边平行。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "用量角器量角时，中心点要与（ ）重合。",
+        "options": [
+          "一条边",
+          "另一条边",
+          "顶点",
+          "随便哪一点"
+        ],
+        "answer": "顶点",
+        "explanation": "测量角度的步骤：量角器的中心点与角的顶点重合，0刻度线与角的一条边重合。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "一个公顷大约相当于（ ）个边长 100 米的正方形场地。",
+        "options": [
+          "1",
+          "10",
+          "100",
+          "1000"
+        ],
+        "answer": "1",
+        "explanation": "1 公顷 = 10000 平方米。边长 100 米的正方形面积 = $100 \\times 100 = 10000$平方米。所以是 1 个。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合应用与统计复习",
+        "question": "学校买来 8 盒钢笔，每盒 12 支，共花了 480 元。每支钢笔多少钱？",
+        "options": [
+          "5 元",
+          "6 元",
+          "10 元",
+          "60 元"
+        ],
+        "answer": "5 元",
+        "explanation": "总支数：$8 \\times 12 = 96$支。单价：$480 \\div 96 = 5$元。验算：$5 \\times 96 = 480$✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "1 平方千米 = ___ 公顷。",
+        "options": [],
+        "answer": "100",
+        "explanation": "1 平方千米 = 1000000 平方米，1 公顷 = 10000 平方米。$1000000 \\div 10000 = 100$。验算：$100 \\times 10000 = 1000000$✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合复习",
+        "question": "一个五位数，省略万位后面的尾数约是 6 万，这个数最大是 ___。",
+        "options": [],
+        "answer": "64999",
+        "explanation": "省略万位约为 6 万，万位应为 6。最大值则千位应填 4（四舍），后续位填 9。所以是 64999。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合应用与统计复习",
+        "question": "一辆货车送货，去时速度 60 千米/时，用了 3 小时。原路返回只用了 2 小时，返回时的平均速度是每小时 ___ 千米。",
+        "options": [],
+        "answer": "90",
+        "explanation": "路程 = $60 \\times 3 = 180$千米。返回速度 = $180 \\div 2 = 90$千米/时。验算：$90 \\times 2 = 180$✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "计算：$120 \\times 40 = ?$",
+        "options": [],
+        "answer": "4800",
+        "explanation": "$12 \\times 4 = 48$，因数末尾共有 2 个 0，补充后得 4800。验算：$4800 \\div 40 = 120$✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合复习",
+        "question": "计算：$672 \\div 21 = ?$",
+        "options": [],
+        "answer": "32",
+        "explanation": "$67 \\div 21 = 3 \\dots 4$；$42 \\div 21 = 2$。结果为 32。验算：$32 \\times 21 = 672$✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级上册数学期末综合评价测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "最小的自然数是 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据自然数的定义，自然数从 0 开始，没有最大的自然数。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "周角是一条射线。",
+        "options": [],
+        "answer": "错",
+        "explanation": "周角是一个角，它的两边重合，看起来像一条射线，但它是旋转形成的，具有 360 度。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合复习",
+        "question": "被除数和除数同时乘 5，商也乘 5。",
+        "options": [],
+        "answer": "错",
+        "explanation": "商不变性质：被除数和除数同时乘或除以同一个不为 0 的数，商不变。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "两个高相等的梯形一定能拼成一个平行四边形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "必须是两个完全一样的梯形才能拼成平行四边形，仅高相等是不够的。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "3000 ÷ 400 = 30 ÷ 4 = 7……2。",
+        "options": [],
+        "answer": "错",
+        "explanation": "利用商不变性质简算时，余数也要随之扩大。$30 \\div 4 = 7 \\dots 2$，则原式的余数应是 $2 \\times 100 = 200$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "下面的数中，一个零也不读的是（ ）。",
+        "options": [
+          "5000500",
+          "5050000",
+          "5005000",
+          "5500000"
+        ],
+        "answer": "5500000",
+        "explanation": "5500000 读作：五百五十万。其余选项在千万位、百万位或万位中间有 0，需要读出。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "两个因数相乘的积是 60，如果一个因数不变，另一个因数乘 3，则积是（ ）。",
+        "options": [
+          "20",
+          "60",
+          "180",
+          "600"
+        ],
+        "answer": "180",
+        "explanation": "积随因数的变化规律：一个因数不变，另一个因数乘 3，积也乘 3。$60 \\times 3 = 180$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "钟面上 6 时整，时针和分针组成的角是（ ）。",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "平角"
+        ],
+        "answer": "平角",
+        "explanation": "6 时整，时针指向 6，分针指向 12，时针分针在一条直线上且朝向相反，是 180 度，即平角。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "估算 $298 \\times 42$ 的结果最接近（ ）。",
+        "options": [
+          "8000",
+          "12000",
+          "15000",
+          "20000"
+        ],
+        "answer": "12000",
+        "explanation": "$298 \\approx 300$，$42 \\approx 40$。$300 \\times 40 = 12000$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "在一道除法算式中，除数是 35，余数最大是（ ）。",
+        "options": [
+          "34",
+          "35",
+          "36",
+          "1"
+        ],
+        "answer": "34",
+        "explanation": "余数一定要比除数小。除数是 35，最大余数是 $35 - 1 = 34$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合复习",
+        "question": "王老师买了 12 个足球，每个足球 120 元，一共花了多少钱？这是求（ ）。",
+        "options": [
+          "单价",
+          "数量",
+          "总价",
+          "速度"
+        ],
+        "answer": "总价",
+        "explanation": "$单价 \\times 数量 = 总价$。120 元是单价，12 是数量，求一共多少钱即求总价。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "长方形中相邻的两条边（ ）。",
+        "options": [
+          "平行",
+          "垂直",
+          "相等",
+          "无法确定"
+        ],
+        "answer": "垂直",
+        "explanation": "长方形的四个内角都是直角，所以相邻两边互相垂直。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合应用与统计复习",
+        "question": "一个锅每次最多能烙 2 张饼，每面要 3 分钟。要把 5 张饼的两面都烙熟，最少要（ ）分钟。",
+        "options": [
+          "12",
+          "15",
+          "18",
+          "30"
+        ],
+        "answer": "15",
+        "explanation": "煎 2 张需 6 分钟，煎 3 张需 9 分钟（交替法）。$6 + 9 = 15$分钟。公示估算：$5 \\times 2 \\times 3 \\div 2 = 15$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合复习",
+        "question": "下列各数中，最接近 10 万的数是（ ）。",
+        "options": [
+          "99000",
+          "100001",
+          "99990",
+          "110000"
+        ],
+        "answer": "100001",
+        "explanation": "通过减法比较差值：$100001 - 100000 = 1$，差值最小，最接近。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "等腰梯形的（ ）相等。",
+        "options": [
+          "上底和下底",
+          "两腰",
+          "四个角",
+          "所有边"
+        ],
+        "answer": "两腰",
+        "explanation": "两腰相等的梯形叫做等腰梯形。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合应用与统计复习",
+        "question": "某农场有一块长 800 米、宽 500 米的长方形棉田。这块棉田的面积是（ ）公顷。",
+        "options": [
+          "4",
+          "40",
+          "400",
+          "4000"
+        ],
+        "answer": "40",
+        "explanation": "$800 \\times 500 = 400000$平方米。1公顷 = 10000平方米。$400000 \\div 10000 = 40$公顷。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数与代数综合复习",
+        "question": "$480 \\div 12$ 的商与（ ）的商相等。",
+        "options": [
+          "240 \\div 12",
+          "480 \\div 24",
+          "960 \\div 24",
+          "480 \\div 6"
+        ],
+        "answer": "960 \\div 24",
+        "explanation": "根据商不变性质：被除数和除数同时乘 2，$480 \\times 2 = 960$，$12 \\times 2 = 24$。所以商相等。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合应用与统计复习",
+        "question": "商店开展促销活动：20元1袋，35元2袋。小明有 150 元，最多能买（ ）袋。",
+        "options": [
+          "4",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "explanation": "优先买“35元2袋”的套餐。$150 \\div 35 = 4$（套）……10（元）。4套包含 $4 \\times 2 = 8$袋。剩余 10 元不够再买 1 袋。共 8 袋。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合复习",
+        "question": "由 3 个千万、5 个十万、6 个百组成的数是 ___。",
+        "options": [],
+        "answer": "30500600",
+        "explanation": "千万位写 3，十万位写 5，百位写 6，其余位补 0。得到 30500600。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合复习",
+        "question": "一个等腰梯形的周长是 30 厘米，上底是 5 厘米，下底是 7 厘米。它的一条腰长是 ___ 厘米。",
+        "options": [],
+        "answer": "9",
+        "explanation": "腰长和 = $30 - 5 - 7 = 18$厘米。等腰梯形两腰相等，一条腰 = $18 \\div 2 = 9$厘米。验算：$9+9+5+7=30$✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合应用与统计复习",
+        "question": "小华计算除法时，把除数 32 错看成了 23，结果得到商 16 还余 1。正确的商应该是 ___。",
+        "options": [],
+        "answer": "11",
+        "explanation": "被除数 = $23 \\times 16 + 1 = 368 + 1 = 369$。正确计算：$369 \\div 32 = 11 \\dots 17$。商是 11。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合复习",
+        "question": "计算：$106 \\times 35 = ?$",
+        "options": [],
+        "answer": "3710",
+        "explanation": "$106 \\times 30 = 3180$，$106 \\times 5 = 530$。$3180 + 530 = 3710$。验算：$3710 \\div 35 = 106$✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数与代数综合复习",
+        "question": "计算：$936 \\div 52 = ?$",
+        "options": [],
+        "answer": "18",
+        "explanation": "$93 \\div 52 = 1 \\dots 41$；$416 \\div 52 = 8$。结果为 18。验算：$18 \\times 52 = 936$✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "数 with 代数综合复习",
+      "core_concept": "本模块主要复习大数的读写法、改写和省略。重点掌握三位数乘两位数的笔算法则。除数是两位数的除法需掌握‘试商’技巧及商不变的性质。",
+      "key_formula": "$总价 = 单价 \\times 数量$，$路程 = 速度 \\times 时间$",
+      "common_mistakes": [
+        "中间或末尾有0的数的读法写错",
+        "除法简算中余数忘掉同步扩大"
+      ],
+      "tips": "读数时先分级，每四位一分；除法试商遵循‘四舍五入’，四舍容易偏大，五入容易偏小。"
+    },
+    {
+      "point": "图形与几何综合复习",
+      "core_concept": "复习线段、射线、直线的区别；掌握角的分类（锐、直、钝、平、周角）；理解平行线和垂直线的定义，以及平行四边形和梯形的特征。",
+      "key_formula": "平角 = 180°，周角 = 360°，1周角 = 2平角 = 4直角",
+      "common_mistakes": [
+        "混淆平行四边形和梯形的定义",
+        "认为点到直线的距离是斜线段长度"
+      ],
+      "tips": "可以利用一副三角板拼出 15 倍数的各种角度。"
+    },
+    {
+      "point": "综合应用与统计复习",
+      "core_concept": "运用数学知识解决生活实际问题，如行程问题、购物理财及时间优化（烙饼问题、卸货问题）。学会从复式条形统计图中获取信息并进行简单分析。",
+      "key_formula": "烙饼总时间 = $饼数 \\times 2 \\times 每面时间 \\div 锅容量$ (饼数 > 1)",
+      "common_mistakes": [
+        "在烙饼问题中没有采取交替法导致时间变长",
+        "单位换算不准确，如公顷和平方米之间的进率记错"
+      ],
+      "tips": "解决优化问题时，核心策略是‘不让锅闲着，不让工序等候’。"
+    }
+  ]
+}

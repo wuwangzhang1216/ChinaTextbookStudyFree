@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学五年级下册",
+  "unit": "数学广角——找次品",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "第8单元《找次品》基础达标小测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "用天平找次品（只含一个次品且次品较轻）时，如果天平平衡，说明次品在剩下的物体中。",
+        "options": [],
+        "answer": "对",
+        "explanation": "天平平衡意味着两边的重量完全相等，由于次品质量不同（较轻），所以次品一定不在天平上的两堆物体中，而在剩下的物体中。验算：天平平则外，天平歪则内。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "从 5 个零件中找 1 个较轻的次品，如果不分堆，一个一个称，最少 1 次就能找出来。",
+        "options": [],
+        "answer": "对",
+        "explanation": "运气最好的情况下，如果第一次称量天平两边各放 1 个且不平衡，较轻的那一端就是次品，只需 1 次。注意题目问的是“最少”，属于极限情况。验算：1次称量可能确定1个次品。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "从 9 个零件中找 1 个较轻的次品，分成（4，4，1）三堆和分成（3，3，3）三堆，保证找出的最少次数是相同的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "分成（3,3,3）保证次数最少是 2 次。分成（4,4,1），若前两次天平平衡，则只需 1 次；但若天平不平衡，在 4 个中找次品还需 2 次，共 3 次。保证成功的次数（3,3,3）更优。验算：$3^1 < 9 = 3^2$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "如果次品比合格品重，放在天平上称量时，次品会在下沉的一端。",
+        "options": [],
+        "answer": "对",
+        "explanation": "天平称量时，重的一端会向下倾斜。如果次品重，包含次品的一端会下沉。验算：重力越大，力矩越大，端部下沉。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "已知 27 个零件中有一个较轻的次品，保证能找到次品的最少次数是 4 次。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$3 \times 3 \times 3 = 27$，即 $3^3 = 27$。对于 27 个物体，通过三分法只需要 3 次就能保证找到。4 次不是最少保证次数。验算：$3^3=27$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "在 3 个零件中找一个较轻的次品，至少称几次就一定能找出来？",
+        "options": [
+          "1 次",
+          "2 次",
+          "3 次",
+          "不能确定"
+        ],
+        "answer": "1 次",
+        "explanation": "将 3 个零件分为（1,1,1）。称量其中两个，若平衡，第三个是次品；若不平衡，轻的是次品。只需 1 次。验算：$3^1=3$，1次可以解决3个。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "要把 10 个零件分成三堆来找次品，下面哪种分法最符合“最优策略”？",
+        "options": [
+          "(1, 1, 8)",
+          "(2, 2, 6)",
+          "(3, 3, 4)",
+          "(5, 5, 0)"
+        ],
+        "answer": "(3, 3, 4)",
+        "explanation": "最优策略要求尽量平均分成 3 份。$10 \times 3 = 3$ 余 1，所以分成（3, 3, 4）最均衡。验算：各份额温差最小为 1。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "有 12 瓶水，其中 1 瓶被添加了食盐稍微重一点，至少称几次能保证找出这瓶盐水？",
+        "options": [
+          "2 次",
+          "3 次",
+          "4 次",
+          "5 次"
+        ],
+        "answer": "3 次",
+        "explanation": "因为 $3^2=9 < 12 < 3^3=27$，所以至少需要 3 次。验算：(4,4,4) -> (1,1,2) -> (1,1,0) 共3次。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "用天平找次品时，天平两端放置的物体数量必须（ ）。",
+        "options": [
+          "相等",
+          "左边多",
+          "右边多",
+          "不确定"
+        ],
+        "answer": "相等",
+        "explanation": "根据天平平衡原理，只有两端放置数量相等的合格品，天平才会平衡。否则无法判断。验算：等量代换前提是基数相等。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "如果有 15 个同样的零件，其中一个较轻，为了保证 3 次找到，第一次应分成（ ）。",
+        "options": [
+          "(1, 1, 13)",
+          "(7, 7, 1)",
+          "(5, 5, 5)",
+          "(4, 4, 7)"
+        ],
+        "answer": "(5, 5, 5)",
+        "explanation": "总数是 3 的倍数，平均分成 3 份是最优的。验算：$15 \times 3 = 5$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "称量 2 次最多可以在多少个零件中保证找出 1 个较轻的次品？",
+        "options": [
+          "3 个",
+          "6 个",
+          "9 个",
+          "12 个"
+        ],
+        "answer": "9 个",
+        "explanation": "利用公式 $3^n$，当 $n=2$ 时，$3^2 = 9$。验算：(3,3,3) -> (1,1,1)。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "已知次品比合格品轻，天平平衡说明次品在（ ）。",
+        "options": [
+          "左面",
+          "右面",
+          "外面",
+          "无法判断"
+        ],
+        "answer": "外面",
+        "explanation": "平衡表示天平上的都是合格品，次品被排除在天平之外。验算：排除法逻辑。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "从 20 个零件中找一个较重的次品，第一次天平一边各放 7 个零件，如果天平平衡，次品在剩下的（ ）个里。",
+        "options": [
+          "7",
+          "6",
+          "13",
+          "1"
+        ],
+        "answer": "6",
+        "explanation": "$20 - 7 - 7 = 6$。天平平衡说明次品不在天平上的 14 个零件中。验算：$20 - 14 = 6$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "要保证 2 次能找出一个较轻的次品，零件总数最大不能超过（ ）个。",
+        "options": [
+          "4",
+          "9",
+          "81",
+          "27"
+        ],
+        "answer": "9",
+        "explanation": "根据 $3^{n}$ 规律，2次对应 $3^2=9$。验算：10个就需要3次了。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "有 4 颗珍珠，其中一颗是假的，比真的重。至少称几次保证能找到？",
+        "options": [
+          "1 次",
+          "2 次",
+          "3 次",
+          "4 次"
+        ],
+        "answer": "2 次",
+        "explanation": "4个珍珠（2,2）称，不平衡取重的那堆（1,1）再称。共2次。验算：$3^1 < 4 < 3^2$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "若有 80 个零件，其中有一个次品，用天平称，保证找出次品至少需要的次数与（ ）个零件找次品的次数相同。",
+        "options": [
+          "10",
+          "20",
+          "40",
+          "27"
+        ],
+        "answer": "40",
+        "explanation": "80个需要4次（因为 $3^3=27 < 80 \times 3^4=81$）。选项各数中，40个也需要4次（因为 $3^3=27 < 40 < 81$）。验算：40与80同属 $(27, 81]$ 区间。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "从 8 个零件中找一个较轻的次品，最少称（ ）次能保证找出来。",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "8 分为 (3,3,2)。若3,3平衡，在2中找需1次，共2次。若3,3不平衡，在3中找需1次，共2次。验算：$3^2=9 > 8$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "有 100 个零件，至少称几次能保证找出其中的一个次品？",
+        "options": [
+          "3 次",
+          "4 次",
+          "5 次",
+          "6 次"
+        ],
+        "answer": "5 次",
+        "explanation": "因为 $3^4=81$，$3^5=243$，100 在 81 到 243 之间，所以需要 5 次。验算：$3^4 < 100 \times 3^5$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "从 2 个零件中寻找一个较重的次品，至少称 ___ 次能保证找出来。",
+        "options": [],
+        "answer": "1",
+        "explanation": "直接在天平两侧各放 1 个，下沉的就是次品。列式：$3^{1} = 3 \times 2$。验算：1 次足矣 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "有 7 枚金币，其中有一枚是假金币（略轻），如果用天平平均分成（2,2,3）三份，称一次后，最多剩下 ___ 枚金币需要继续寻找。",
+        "options": [],
+        "answer": "3",
+        "explanation": "称量两个 2。若平衡，次品在 3 枚中；若不平衡，次品在 2 枚中。由于问“最多”，取较大值 3。验算：$\text{max}(2, 3) = 3$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "通过 4 次称量，最多可以在 ___ 个零件中保证找出 1 个较轻的次品。",
+        "options": [],
+        "answer": "81",
+        "explanation": "公式 $3^n$，当 $n=4$ 时，$3 \times 3 \times 3 \times 3 = 81$。验算：$3^4 = 81$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "计算：$3 \times 3 \times 3 = ?$",
+        "options": [],
+        "answer": "27",
+        "explanation": "$3 \times 3 \times 3 = 9 \times 3 = 27$。验算：$27 \times 3 = 9$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "计算：$3 + 3 + 3 + 3 = ?$",
+        "options": [],
+        "answer": "12",
+        "explanation": "$3+3+3+3 = 12$。验算：$3 \times 4 = 12$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第8单元《找次品》综合能力评估",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "找次品时，天平两端放的物体个数必须一样多。",
+        "options": [],
+        "answer": "对",
+        "explanation": "天平必须在同等数量前提下才能通过平衡状态判断轻重。验算：数学逻辑一致性。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "13 个零件中找一个较轻的次品，分成（4，4，5）是最优的第一步分法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$13 \times 3 = 4$ 余 1，平均分为 (4,4,5) 符合三分法最优原则。验算：偏差不超过1。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "称量次数與物体数量的规律总结",
+        "question": "只要称量 3 次，就一定能从 30 个零件中找出唯一的次品。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$3^3 = 27$，3 次最多能保证在 27 个中找到。30 > 27，所以 3 次不一定能保证找到。验算：$3^3 < 30 \times 3^4$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "如果只有 2 个物体，只需要称 1 次就可以找出次品。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两边各放一个，哪个沉/轻一目了然。验算：$3^1 > 2$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "在 100 个零件中找一个较轻的次品，最少需要 6 次称量才能保证找到。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$3^4=81$，$3^5=243$。100在区间内，只需 5 次即可保证。验算：$81 < 100 < 243$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "从 2 瓶钙片中找一瓶少的，至少称几次保证找到？",
+        "options": [
+          "1 次",
+          "2 次",
+          "3 次",
+          "4 次"
+        ],
+        "answer": "1 次",
+        "explanation": "天平两边各放 1 瓶即可判断。验算：$2 \times 1 = 2$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "利用天平找次品，下列数量中，（ ）个零件分成 3 份是最平均的。",
+        "options": [
+          "7 (2,2,3)",
+          "8 (1,1,6)",
+          "9 (2,3,4)",
+          "10 (2,2,6)"
+        ],
+        "answer": "7 (2,2,3)",
+        "explanation": "7个分成 (2,2,3) 差额只有 1，最平均。其他分法差额较大。验算：均值差最小原则。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "最優策略（三分法）探究",
+        "question": "把 24 个零件平均分成三堆，每堆有（ ）个。",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "explanation": "$24 \times 3 = 8$。验算：$8 \times 3 = 24$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "用天平称 2 次，最多能保证在几个零件中找到 1 个较轻的次品？",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "27"
+        ],
+        "answer": "9",
+        "explanation": "$3 \times 3 = 9$。验算：$3^2=9$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "有 6 盒饼干，其中 5 盒质量相同，另一盒少了 2 块。至少称几次保证找到？",
+        "options": [
+          "1 次",
+          "2 次",
+          "3 次",
+          "4 次"
+        ],
+        "answer": "2 次",
+        "explanation": "$3^1 < 6 < 3^2$，所以需要 2 次。第一步(2,2,2)。验算：3的幂次区间。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "在 27 个零件中找 1 个次品，第二次称量时，是在（ ）个零件中找。",
+        "options": [
+          "27",
+          "18",
+          "9",
+          "3"
+        ],
+        "answer": "9",
+        "explanation": "27 (9,9,9) -> 第一次后剩 9。验算：$27 \times 3 = 9$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "如果要保证 4 次能找出次品，零件个数最多是（ ）个。",
+        "options": [
+          "27",
+          "81",
+          "243",
+          "12"
+        ],
+        "answer": "81",
+        "explanation": "$3^4 = 81$。验算：$3 \times 3 \times 3 \times 3 = 81$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "10 个零件中找 1 个轻次品，第一次分成（5,5）和（3,3,4），哪种方法保证找到的次数更少？",
+        "options": [
+          "(5,5) 更快",
+          "(3,3,4) 更快",
+          "一样快",
+          "无法确定"
+        ],
+        "answer": "(3,3,4) 更快",
+        "explanation": "(3,3,4) 只需要 3 次保证；(5,5) 第一步后在 5 个中找还需 2 次，总共 3 次。但在很多情况下三分法能更快收敛。规律上三分法最优。验算：最优策略定义。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "已知零件数量在 28 到 81 之间，保证找到次品至少要称几次？",
+        "options": [
+          "3 次",
+          "4 次",
+          "5 次",
+          "6 次"
+        ],
+        "answer": "4 次",
+        "explanation": "$3^3=27 < 28$，$81 = 3^4$。所以该范围内均为 4 次。验算：指数区间判定。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "有 5 瓶药，其中 1 瓶少了 3 粒。天平两边各放 2 瓶，若平衡，则第（ ）瓶是次品。",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "无法确定"
+        ],
+        "answer": "5",
+        "explanation": "天平上的 4 瓶（1,2,3,4）若是平衡的，则次品一定是没称的那一瓶。验算：$5 - 4 = 1$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "从 12 个乒乓球里找一个重一点的，第一次分成（4,4,4），至少（ ）次保证找到。",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "$3^2 < 12 < 3^3$，所以是 3 次。验算：(4,4,4) -> (1,1,2) -> (1,1,0)。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "将 16 瓶饮料分成三堆，最合理的分法是（ ）。",
+        "options": [
+          "(5, 5, 6)",
+          "(1, 1, 14)",
+          "(4, 4, 8)",
+          "(2, 2, 12)"
+        ],
+        "answer": "(5, 5, 6)",
+        "explanation": "$16 \times 3 = 5$ 余 1。分法 (5,5,6) 差距最小。验算：$16 \times 3 = 5 \text{...} 1$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "找次品的逻辑推理基础",
+        "question": "找次品时，如果次品比较重，不平衡时天平（ ）的一端是次品。",
+        "options": [
+          "上扬",
+          "下沉",
+          "中间",
+          "任意"
+        ],
+        "answer": "下沉",
+        "explanation": "重的物体会使天平托盘向下。验算：重力方向向下。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "要在 3 个零件中找出 1 个次品，至少需要称 ___ 次。",
+        "options": [],
+        "answer": "1",
+        "explanation": "三分法（1,1,1），称一次。验算：$3^1 = 3$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "有 21 个零件，按最优策略分成三堆，每堆是 ___ 个。",
+        "options": [],
+        "answer": "7",
+        "explanation": "$21 \times 3 = 7$。验算：$7 \times 3 = 21$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "120 个和 200 个物品找 1 个次品，保证找到的最少称量次数都是 ___ 次。",
+        "options": [],
+        "answer": "5",
+        "explanation": "$3^4 = 81$，$3^5 = 243$。120 和 200 都在 $(81, 243]$ 之间。验算：$81 < 120 < 200 < 243$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "称量次数与物体数量的规律总结",
+        "question": "计算：$81 \times 3 = ?$",
+        "options": [],
+        "answer": "243",
+        "explanation": "$81 \times 3 = 243$。验算：$243 \times 3 = 81$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "最优策略（三分法）探究",
+        "question": "计算：$2 \times 2 \times 2 + 1 = ?$",
+        "options": [],
+        "answer": "9",
+        "explanation": "$2 \times 2 \times 2 + 1 = 8 + 1 = 9$。验算：$9 - 1 = 8$, $8 = 2^3$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "找次品的逻辑推理基础",
+      "core_concept": "利用天平平衡的原理。将物体分成两组（或三组）放在天平两端对比。若天平平衡，次品在剩下的物体中；若不平衡，次品在倾斜或上扬的那一端（取决于次品是重还是轻）。",
+      "key_formula": "天平平衡 $\rightarrow$ 次品在外面；天平倾斜 $\rightarrow$ 次品在里面。",
+      "common_mistakes": [
+        "不考虑题目中次品是“重”还是“轻”，导致推理方向错误。",
+        "认为天平不平衡时，次品一定在重的那一端（忽略了次品可能较轻的情况）。"
+      ],
+      "tips": "做题前先圈出关键词“轻”或“重”，并在草稿纸上模拟天平左右两端的平衡情况。"
+    },
+    {
+      "point": "最优策略（三分法）探究",
+      "core_concept": "把待测物体尽量平均分成 3 份，是保证找次品次数最少的最优方法。如果总数不能被 3 整除，则应使每份之间的数量差不超过 1。",
+      "key_formula": "$N \times 3 = a$ ... $b$（$b$ 可能为 0, 1, 2）",
+      "common_mistakes": [
+        "习惯性地将物体对半平分（二分法），导致在数量较多时称量次数较多。",
+        "分三堆时数量差距太大，例如 10 粒分成 (1,1,8)。"
+      ],
+      "tips": "口诀：找次品，分三份；要平均，差一个；三分法，最快捷。"
+    },
+    {
+      "point": "称量次数与物体数量的规律总结",
+      "core_concept": "物体总数 $n$ 与保证找出次品的最少次数 $k$ 之间满足：$3^{k-1} < n \times 3^k$。即：3个以内1次，9个以内2次，27个以内3次，以此类推。",
+      "key_formula": "$3^{k}$ 规律",
+      "common_mistakes": [
+        "记混幂运算结果，例如把 $3^3$ 算成 9 而不是 27。",
+        "无法准确判断数量所在的区间，如认为 10 个只需要 2 次（实际要 3 次）。"
+      ],
+      "tips": "背熟 3 的前 5 次幂：3, 9, 27, 81, 243，考试时直接对号入座找区间。"
+    }
+  ]
+}

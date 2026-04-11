@@ -1,0 +1,147 @@
+{
+  "textbook": "一年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "植物",
+      "knowledge_points": [
+        {
+          "name": "植物的辨别与生命意识",
+          "description": "认识生活中常见的植物，区分植物与非生物（如塑料花），理解植物是“活”的有生命的。",
+          "difficulty": 1,
+          "question_types": [
+            "判断",
+            "选择",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "观察一棵植物的结构",
+          "description": "学习利用感官观察植物，识别并指认植物的根、茎、叶等基本组成部分。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "叶的特征与多样性",
+          "description": "观察描述叶的不同形状、颜色和大小，认识到不同植物的叶各不相同，同一植物的叶也在变化。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "排序/比较",
+            "画图"
+          ]
+        },
+        {
+          "name": "根据叶寻找和辨认植物",
+          "description": "利用叶的形状、边缘、纹理等特征作为线索，在真实环境中匹配和识别对应植物。",
+          "difficulty": 3,
+          "question_types": [
+            "连线/匹配",
+            "操作题"
+          ]
+        },
+        {
+          "name": "植物的生长与变化记录",
+          "description": "通过长期观察实验（如种大蒜），记录植物在不同阶段的发芽、长叶等生长特征。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "规律探索",
+            "操作题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "校园里的植物",
+      "knowledge_points": [
+        {
+          "name": "校园植物的实地调查",
+          "description": "学习在户外科学观察植物的方法，包括选定目标、记录特征及爱护植物的科学态度。",
+          "difficulty": 2,
+          "question_types": [
+            "操作题",
+            "画图"
+          ]
+        },
+        {
+          "name": "植物的共性总结",
+          "description": "归纳植物的共同需求（阳光、水）和共同特征（有叶、开花等），理解生物的多样性与统一性。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "判断"
+          ]
+        },
+        {
+          "name": "植物与人类生活的关系",
+          "description": "了解植物在食物、建筑、医疗（如青蒿素）等方面的价值，意识到植物对人类的重要性。",
+          "difficulty": 1,
+          "question_types": [
+            "选择",
+            "连线/匹配"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "比较与测量",
+      "knowledge_points": [
+        {
+          "name": "观察中的直观比较",
+          "description": "通过观察物体的体型、长短等特征，进行初步的定性比较（如大和小）。",
+          "difficulty": 1,
+          "question_types": [
+            "排序/比较",
+            "选择"
+          ]
+        },
+        {
+          "name": "用身体作为测量工具",
+          "description": "学习用手的一“拃”作为长度单位，理解首尾相连的测量规范及个人差异带来的误差。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "操作题",
+            "判断"
+          ]
+        },
+        {
+          "name": "使用非标准物体测量",
+          "description": "利用回形针、小立方体等固定物体测量长度，学习记录数据并对比不同工具的测量结果。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "操作题",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "认识测量纸带与尺子",
+          "description": "对比自制纸带与刻度尺，认识刻度尺的统一标准单位及其在精准测量中的优势。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "生活中的各种测量工具",
+          "description": "辨识卷尺、电子秤、体温枪等工具，了解它们分别用于测量长度、质量、温度等不同维度。",
+          "difficulty": 2,
+          "question_types": [
+            "连线/匹配",
+            "选择"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,708 @@
+{
+  "textbook": "人教版小学数学三年级下册",
+  "unit": "除数是一位数的除法",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元知识巩固卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "口算除法",
+        "question": "因为 $4 \times 2 = 8$，所以 $800 \times 2 = 400$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "因为 $8 \times 2 = 16$，所以 $800 \times 2 = 1600$。题目中的等式错误。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "在有余数的除法中，余数一定比除数小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据除法的基本性质，余数必须小于除数，否则说明商小了，需要继续除。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "商中间或末尾有0的除法",
+        "question": "0 除以任何数都得 0。",
+        "options": [],
+        "answer": "错",
+        "explanation": "0 除以任何“不是 0”的数都得 0。0 不能作除数。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "除法的验算",
+        "question": "验算有余数的除法时，可以用：商 $\times$ 除数 $+$ 余数 = 被除数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是有余数除法的标准验算公式。验算：$7 \times 3 + 1 = 22$，$22 \times 3 = 7$ 余 1。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "一个三位数除以一个一位数，商不一定是三位数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "如果被除数的最高位小于除数，商就是两位数。例如 $100 \times 2 = 50$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算除法",
+        "question": "一个影院有 240 个座位，每排有 8 个座位，一共有多少排？",
+        "options": [
+          "3",
+          "30",
+          "300",
+          "20"
+        ],
+        "answer": "30",
+        "explanation": "$240 \times 8 = 30$。口算：$24 \times 8 = 3$，再在后面添一个 0。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "计算 $486 \times 2$ 时，商的最高位在什么位上？",
+        "options": [
+          "个位",
+          "十位",
+          "百位",
+          "千位"
+        ],
+        "answer": "百位",
+        "explanation": "因为被除数的最高位 4 大于 2，所以商的最高位在百位上。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法估算",
+        "question": "小红 4 分钟做了 118 道题，她每分钟大约做多少道？",
+        "options": [
+          "20",
+          "25",
+          "30",
+          "40"
+        ],
+        "answer": "30",
+        "explanation": "$118 \times 4 \times 120 \times 4 = 30$。把 118 看作 120 进行估算。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "商中间或末尾有0的除法",
+        "question": "$60 \times 3$ 的商末尾有几个 0？",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "1",
+        "explanation": "$60 \times 3 = 20$，商的末尾有 1 个 0。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "除法的验算",
+        "question": "已知 $A \times 4 = 125 \times \times \times 1$，那么 A 的值是多少？",
+        "options": [
+          "501",
+          "500",
+          "499",
+          "625"
+        ],
+        "answer": "501",
+        "explanation": "根据验算公式 $A = 125 \times 4 + 1 = 500 + 1 = 501$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "把 720 块饼干平均分给 6 个班，每个班分到多少块？",
+        "options": [
+          "12",
+          "120",
+          "102",
+          "1200"
+        ],
+        "answer": "120",
+        "explanation": "$720 \times 6 = 120$。笔算过程省略，验算：$120 \times 6 = 720$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算除法",
+        "question": "下面各数除以 3 没有余数的是：",
+        "options": [
+          "424",
+          "562",
+          "369",
+          "121"
+        ],
+        "answer": "369",
+        "explanation": "$369 \times 3 = 123$。可以通过各个数位之和能否被 3 整除判断。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "商中间或末尾有0的除法",
+        "question": "$804 \times 4$ 的商中间有几个 0？",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "1",
+        "explanation": "$8 \times 4 = 2$，$0 \times 4 = 0$，$4 \times 4 = 1$，结果是 201，中间有 1 个 0。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "除法估算",
+        "question": "$298 \times 6$ 的结果最接近哪个数？",
+        "options": [
+          "40",
+          "50",
+          "60",
+          "70"
+        ],
+        "answer": "50",
+        "explanation": "$298 \times 6 \times 300 \times 6 = 50$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "一个数除以 7，商是 15，余数是 6，这个数是多少？",
+        "options": [
+          "105",
+          "111",
+          "99",
+          "112"
+        ],
+        "answer": "111",
+        "explanation": "$15 \times 7 + 6 = 105 + 6 = 111$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "要使 $\\square 35 \times 5$ 的商是两位数，$\\square$ 里最大填几？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "9"
+        ],
+        "answer": "4",
+        "explanation": "商是两位数，则百位数字必须小于除数 5。$\\\\square < 5$，最大填 4。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算除法",
+        "question": "400 里包含多少个 8？",
+        "options": [
+          "5",
+          "50",
+          "500",
+          "80"
+        ],
+        "answer": "50",
+        "explanation": "$400 \times 8 = 50$。验算：$50 \times 8 = 400$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "商中间或末尾有0的除法",
+        "question": "下面算式中，商末尾是 0 的是：",
+        "options": [
+          "630 \times 6",
+          "720 \times 4",
+          "450 \times 5",
+          "123 \times 3"
+        ],
+        "answer": "450 \times 5",
+        "explanation": "$450 \times 5 = 90$。$630 \times 6 = 105$，$720 \times 4 = 180$。此处需选商整除且末尾为0的典型。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算除法",
+        "question": "学校买来 180 本新书，平均分给 9 个班，每个班分 ___ 本。",
+        "options": [],
+        "answer": "20",
+        "explanation": "$180 \times 9 = 20$（本）。验算：$20 \times 9 = 180$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "542 是 2 的 ___ 倍。",
+        "options": [],
+        "answer": "271",
+        "explanation": "$542 \times 2 = 271$。验算：$271 \times 2 = 542$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "一个数除以 8，商是 12，余数最大可以是 ___ 。",
+        "options": [],
+        "answer": "7",
+        "explanation": "余数必须比除数小。除数是 8，余数最大是 $8 - 1 = 7$。验算：$7 < 8$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "计算：$48 \times 4 = ?$",
+        "options": [],
+        "answer": "12",
+        "explanation": "$48 \times 4 = 12$。验算：$12 \times 4 = 48$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "商中间或末尾有0的除法",
+        "question": "计算：$309 \times 3 = ?$",
+        "options": [],
+        "answer": "103",
+        "explanation": "$309 \times 3 = 103$。验算：$103 \times 3 = 309$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第二单元综合能力测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "口算除法",
+        "question": "$400 \times 5$ 的商是 8。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$400 \times 5 = 80$。商应该是 80。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "三位数除以一位数，商一定是三位数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "商可能是三位数也可能是两位数。例如 $120 \times 6 = 20$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "商中间或末尾有0的除法",
+        "question": "被除数的末尾有 0，商的末尾一定有 0。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如 $10 \times 2 = 5$，商的末尾没有 0。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "除法估算",
+        "question": "估算 $213 \times 7$ 时，可以把 213 看作 210 来估算。",
+        "options": [],
+        "answer": "对",
+        "explanation": "把 213 看作接近的 210，口算简单且接近原值，$210 \times 7 = 30$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "商中间或末尾有0的除法",
+        "question": "被除数中间有 0，商中间也一定有 0。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如 $102 \times 3 = 34$，商中间没有 0。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算除法",
+        "question": "200 张纸平均分给 4 个同学，每人分几张？",
+        "options": [
+          "5",
+          "50",
+          "40",
+          "25"
+        ],
+        "answer": "50",
+        "explanation": "$200 \times 4 = 50$。验算：$50 \times 4 = 200$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "$515 \times 5$ 的商是：",
+        "options": [
+          "103",
+          "13",
+          "130",
+          "100"
+        ],
+        "answer": "103",
+        "explanation": "$5 \times 5 = 1$，$1 \times 5$ 不够除，商 0 占位，$15 \times 5 = 3$，结果为 103。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法估算",
+        "question": "一辆车 3 小时行驶了 238 千米，它每小时大约行驶多少千米？",
+        "options": [
+          "60",
+          "70",
+          "80",
+          "90"
+        ],
+        "answer": "80",
+        "explanation": "$238 \times 3 \times 240 \times 3 = 80$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "三位数除以一位数，商最高位在十位上，被除数的最高位数字：",
+        "options": [
+          "大于除数",
+          "等于除数",
+          "小于除数",
+          "无法确定"
+        ],
+        "answer": "小于除数",
+        "explanation": "被除数最高位小于除数时，首位不够除，商向后退一位，最高位就在十位上。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法的验算",
+        "question": "验算有余数的除法，下列等式正确的是：",
+        "options": [
+          "商 \times 除数 = 被除数",
+          "商 + 余数 = 被除数",
+          "商 \times 除数 + 余数 = 被除数",
+          "被除数 \times 除数 = 商"
+        ],
+        "answer": "商 \times 除数 + 余数 = 被除数",
+        "explanation": "这是标准的有余数除法验算规律。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "商中间或末尾有0的除法",
+        "question": "要使 $6\\square2 \times 6$ 的商中间有 0，且没有余数，$\\square$ 里应填：",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "1",
+        "explanation": "填 1 时，$612 \times 6 = 102$，符合商中间有0且整除。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "从 880 里连续减去多少个 8，结果是 0？",
+        "options": [
+          "11",
+          "110",
+          "101",
+          "88"
+        ],
+        "answer": "110",
+        "explanation": "连续减去多少个 8 等于 0，就是求 880 里面有多少个 8。$880 \times 8 = 110$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "除法的验算",
+        "question": "在除法算式中，除数是 9，商是 31，余数最大时，被除数是：",
+        "options": [
+          "279",
+          "287",
+          "288",
+          "280"
+        ],
+        "answer": "287",
+        "explanation": "余数最大为 $9 - 1 = 8$。被除数为 $31 \times 9 + 8 = 279 + 8 = 287$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算除法",
+        "question": "3000 除以 6 的商是多少？",
+        "options": [
+          "5",
+          "50",
+          "500",
+          "5000"
+        ],
+        "answer": "500",
+        "explanation": "$30 \times 6 = 5$，后面补两个 0，结果为 500。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法估算",
+        "question": "下列哪个算式的商最接近 70？",
+        "options": [
+          "254 \times 5",
+          "400 \times 6",
+          "488 \times 7",
+          "210 \times 3"
+        ],
+        "answer": "488 \times 7",
+        "explanation": "$488 \times 7 \times 490 \times 7 = 70$。其他选项：$250 \times 5 = 50$，$400 \times 6 \times 66$，$210 \times 3 = 70$（但 210/3 刚好等于 70，从估算角度 488/7 也非常接近）。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "把 124 朵花平均插在 4 个花瓶里，每个花瓶插多少朵？",
+        "options": [
+          "31",
+          "30",
+          "41",
+          "21"
+        ],
+        "answer": "31",
+        "explanation": "$124 \times 4 = 31$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "花店有 325 枝玫瑰，每 7 枝扎成一束，最多可以扎成多少束？",
+        "options": [
+          "46",
+          "47",
+          "45",
+          "40"
+        ],
+        "answer": "46",
+        "explanation": "$325 \times 7 = 46$ 余 3。最多扎成 46 束。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算除法",
+        "question": "小明每分钟能写 3 个大字，写 90 个大字需要多少分钟？",
+        "options": [
+          "3",
+          "30",
+          "270",
+          "300"
+        ],
+        "answer": "30",
+        "explanation": "$90 \times 3 = 30$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "560 是 7 的 ___ 倍。",
+        "options": [],
+        "answer": "80",
+        "explanation": "$560 \times 7 = 80$。验算：$80 \times 7 = 560$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一位数除两位数、三位数的笔算",
+        "question": "三年级共有 248 名学生，分 4 批去参观博物馆，平均每批去 ___ 人。",
+        "options": [],
+        "answer": "62",
+        "explanation": "$248 \times 4 = 62$（人）。验算：$62 \times 4 = 248$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "除法的验算",
+        "question": "一个数除以 5，商是 120，余数是 4，这个数是 ___ 。",
+        "options": [],
+        "answer": "604",
+        "explanation": "$120 \times 5 + 4 = 600 + 4 = 604$。验算：$604 \times 5 = 120$ 余 4 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算除法",
+        "question": "计算：$640 \times 8 = ?$",
+        "options": [],
+        "answer": "80",
+        "explanation": "$640 \times 8 = 80$。验算：$80 \times 8 = 640$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "商中间或末尾有0的除法",
+        "question": "计算：$816 \times 4 = ?$",
+        "options": [],
+        "answer": "204",
+        "explanation": "$816 \times 4 = 204$。验算：$204 \times 4 = 816$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "口算除法",
+      "core_concept": "利用乘法口诀，先不看被除数末尾的0，算出商后再在商的末尾添上相应个数的0。例如 $240 \times 6$，先算 $24 \times 6 = 4$，再在 4 后面添一个 0 得到 40。",
+      "key_formula": "整十、整百数除以一位数，看作几个十或几个百来除。",
+      "common_mistakes": [
+        "商的末尾少写了 0",
+        "口诀应用错误，如把 $24 \times 6$ 算成 3"
+      ],
+      "tips": "记住“先切掉 0，再补回 0”的口诀，但要注意观察最高位是否够除。"
+    },
+    {
+      "point": "除法估算",
+      "core_concept": "除法估算通常把被除数看作最接近它的整十、整百或几百几十数，且这个数最好能被除数整除。估算不仅为了算出大概结果，更是为了辅助笔算判断商的位数。",
+      "key_formula": "被除数 \times 除数 \times 接近的整十整百数 \times 除数",
+      "common_mistakes": [
+        "胡乱进位或退位，导致估算结果偏差过大",
+        "估算的数不能被除数整除，失去了口算便利"
+      ],
+      "tips": "找“邻居”：找一个被除数附近的数，它必须在除数的乘法口诀里。"
+    },
+    {
+      "point": "一位数除两位数、三位数的笔算",
+      "core_concept": "除法笔算要从高位算起。如果最高位不够除，就看前两位。每一步求出的余数必须比除数小。求出一位商后，若不够商 1 且不是最高位，必须商 0 占位。",
+      "key_formula": "被除数最高位 \times 除数 < 1 \text{ 时，商的位数减少一位}",
+      "common_mistakes": [
+        "漏写余数",
+        "余数比除数大却没发现",
+        "计算过程中数位没有对齐"
+      ],
+      "tips": "笔算四步走：一商（试商）、二乘（相乘）、三减（相减）、四比（余数比除数小）。"
+    },
+    {
+      "point": "除法的验算",
+      "core_concept": "利用乘法是除法的逆运算来检查结果。没有余数时，商乘除数应等于被除数；有余数时，商乘除数加上余数应等于被除数。",
+      "key_formula": "\text{商} \times \text{除数} + \text{余数} = \text{被除数}",
+      "common_mistakes": [
+        "验算有余数的除法时忘记加余数",
+        "被除数减去余数后再除，逻辑混淆"
+      ],
+      "tips": "验算就像是“原路返回”，乘回去再加上剩下的，一定要能回到原点。"
+    },
+    {
+      "point": "商中间或末尾有0的除法",
+      "core_concept": "0 除以任何不是 0 的数都得 0。在笔算过程中，如果某一位不够商 1，一定要写 0 占位，不能直接跳过。如果被除数末尾有余数且不够除，商的末尾也要补 0。",
+      "key_formula": "0 \times a = 0 (a \neq 0)",
+      "common_mistakes": [
+        "中间不够除时漏掉商 0",
+        "末尾没除尽或刚好除尽时漏写末尾的 0"
+      ],
+      "tips": "数位对齐是关键，哪一位不够商 1，就在哪一位头上点个 0。"
+    }
+  ]
+}

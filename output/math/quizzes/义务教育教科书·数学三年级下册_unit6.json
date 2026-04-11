@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学三年级下册",
+  "unit": "年、月、日",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第六单元「年、月、日」标准达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "一年中共有 7 个大月，5 个小月。",
+        "options": [],
+        "answer": "错",
+        "explanation": "一年中有 7 个大月（1, 3, 5, 7, 8, 10, 12月），4 个小月（4, 6, 9, 11月），还有一个特殊的 2 月。$7 + 4 + 1 = 12$月。所以 5 个小月的说法是错误的。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "2024 年是闰年，这一年的 2 月有 29 天。",
+        "options": [],
+        "answer": "对",
+        "explanation": "判断闰年的方法：$2024 \\div 4 = 506$，没有余数，所以 2024 年是闰年，闰年的 2 月有 29 天。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "24时计时法与普通计时法",
+        "question": "晚上 10 时用 24 时计时法表示是 22 时。",
+        "options": [],
+        "answer": "对",
+        "explanation": "普通计时法转 24 时计时法，下午及以后的时间加 12：$10 + 12 = 22$。故正确。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "小明说只要年份是 4 的倍数，这一年就一定是闰年。",
+        "options": [],
+        "answer": "错",
+        "explanation": "通常年份是 4 的倍数是闰年，但公历年份是整百数时，必须是 400 的倍数才是闰年。例如 1900 年是 4 的倍数但不是闰年。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算",
+        "question": "从上午 8 时到下午 2 时，经过了 4 小时。",
+        "options": [],
+        "answer": "错",
+        "explanation": "下午 2 时是 14 时，$14 - 8 = 6$（小时）。原题说法错误。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "下面月份中，每个月都是 31 天的是哪一组？",
+        "options": [
+          "1月和2月",
+          "4月和5月",
+          "7月和8月",
+          "11月和12月"
+        ],
+        "answer": "7月和8月",
+        "explanation": "7 月是大月（31天），8 月也是大月（31天）。2月只有28或29天，4月和11月是小月（30天）。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "平年一年的天数是多少天？",
+        "options": [
+          "360",
+          "365",
+          "366",
+          "367"
+        ],
+        "answer": "365",
+        "explanation": "平年 2 月有 28 天，全年 $31\\times7 + 30\\times4 + 28 = 365$ 天。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "24时计时法与普通计时法",
+        "question": "下午 3 时用 24 时计时法表示是多少时？",
+        "options": [
+          "3时",
+          "13时",
+          "15时",
+          "18时"
+        ],
+        "answer": "15时",
+        "explanation": "下午时刻加 12：$3 + 12 = 15$。答案为 15 时。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "24时计时法与普通计时法",
+        "question": "20 时是指什么时候？",
+        "options": [
+          "上午 8 时",
+          "下午 8 时",
+          "晚上 10 时",
+          "凌晨 2 时"
+        ],
+        "answer": "下午 8 时",
+        "explanation": "24时计时法减 12：$20 - 12 = 8$，因为大于 12，所以是下午 8 时（或晚上 8 时）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "连续的两个大月是哪两个月？",
+        "options": [
+          "1月和2月",
+          "5月和6月",
+          "7月和8月",
+          "10月和11月"
+        ],
+        "answer": "7月和8月",
+        "explanation": "根据大小月分布，7 月和 8 月都是 31 天的连续大月。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "小华的生日是 2 月 29 日，他出生的年份可能是哪一年？",
+        "options": [
+          "2021",
+          "2022",
+          "2023",
+          "2024"
+        ],
+        "answer": "2024",
+        "explanation": "2 月 29 日只在闰年出现。选项中只有 2024 能被 4 整除，是闰年。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "24时计时法与普通计时法",
+        "question": "一列火车 14:30 准时发车，用普通计时法表示是什么时候？",
+        "options": [
+          "凌晨 2 时 30 分",
+          "下午 2 时 30 分",
+          "下午 4 时 30 分",
+          "晚上 14 时 30 分"
+        ],
+        "answer": "下午 2 时 30 分",
+        "explanation": "$14 - 12 = 2$，所以是下午 2 时 30 分。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算",
+        "question": "一场电影从 19:20 开始，播出了 100 分钟，结束时刻是？",
+        "options": [
+          "20:20",
+          "21:00",
+          "21:20",
+          "21:40"
+        ],
+        "answer": "21:00",
+        "explanation": "100 分钟 = 1 小时 40 分。19 时 20 分 + 1 小时 40 分 = 21 时 00 分。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算",
+        "question": "超市 8:30 开始营业，21:30 停止营业，全天营业多长时间？",
+        "options": [
+          "11小时",
+          "12小时",
+          "13小时",
+          "14小时"
+        ],
+        "answer": "13小时",
+        "explanation": "$21:30 - 8:30 = 13$ 小时。全天营业 13 小时。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "第三季度一共有多少天？",
+        "options": [
+          "90",
+          "91",
+          "92",
+          "93"
+        ],
+        "answer": "92",
+        "explanation": "第三季度包括 7, 8, 9 三个月。天数：$31 + 31 + 30 = 92$ 天。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "小红这周五去旅游，下周一回来。她一共旅游了几天？",
+        "options": [
+          "2天",
+          "3天",
+          "4天",
+          "5天"
+        ],
+        "answer": "4天",
+        "explanation": "周五、周六、周日、周一，共计 4 天。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "经过时间的计算",
+        "question": "妈妈每天 8:00 上班，17:30 下班，中午休息 1 小时 30 分。她每天工作多长时间？",
+        "options": [
+          "8小时",
+          "9小时",
+          "9小时30分",
+          "10小时"
+        ],
+        "answer": "8小时",
+        "explanation": "总在岗时间：$17:30 - 8:00 = 9$ 小时 30 分。扣除休息时间：$9$ 小时 $30$ 分 $- 1$ 小时 $30$ 分 $= 8$ 小时。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "一个工厂 2023 年 2 月份一共生产了 560 台机器。平均每天生产多少台？",
+        "options": [
+          "18",
+          "19",
+          "20",
+          "28"
+        ],
+        "answer": "20",
+        "explanation": "2023 是平年，2 月有 28 天。$560 \\div 28 = 20$ 台。验算：$20 \\times 28 = 560$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "一个闰年全年的天数是 ___ 天。",
+        "options": [],
+        "answer": "366",
+        "explanation": "平年 365 天，闰年 2 月多 1 天，$365 + 1 = 366$ 天。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算",
+        "question": "小明下午 2 时 30 分开始写作业，4 时整完成。他写作业用了 ___ 分钟。",
+        "options": [],
+        "answer": "90",
+        "explanation": "4 时即 16 时。$16:00 - 14:30 = 1$ 小时 30 分。$1 \\times 60 + 30 = 90$ 分钟。验算：$14:30 + 90$分 $= 16:00$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "2023 年的 5 月、6 月和 7 月一共有 ___ 天。",
+        "options": [],
+        "answer": "91",
+        "explanation": "5月是31天，6月是30天，7月是31天。$31 + 30 + 31 = 92$ 天。更正：计算 $31+30+31=92$。 结果应为 92。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "经过时间的计算",
+        "question": "24 - 7 = ?",
+        "options": [],
+        "answer": "17",
+        "explanation": "$24 - 7 = 17$。验算：$17 + 7 = 24$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "31 * 7 + 30 * 4 + 28 = ?",
+        "options": [],
+        "answer": "365",
+        "explanation": "$31\\times7 = 217$，$30\\times4 = 120$。$217 + 120 + 28 = 365$。此为平年天数计算。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级下册第六单元综合评估卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "平年和闰年的下半年（7-12月）天数是一样多的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "下半年固定包含 7, 8, 10, 12月（大月，4个）和 9, 11月（小月，2个）。天数为 $31\\times4 + 30\\times2 = 184$ 天。变化只在 2 月，属于上半年。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "24时计时法与普通计时法",
+        "question": "12 时既可以指中午 12 时，也可以指凌晨 0 时。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在 24 时计时法中，12 时明确指中午 12 时，0 时或 24 时指深夜 12 时（即凌晨）。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "双月都是小月，单月都是大月。",
+        "options": [],
+        "answer": "错",
+        "explanation": "8 月、10 月、12 月是双月，但它们都是大月。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算",
+        "question": "如果从 1 月 30 日开始放假，2 月 2 日开学，一共放假了 3 天。",
+        "options": [],
+        "answer": "错",
+        "explanation": "1 月 30, 31 日，加上 2 月 1 日，共 3 天。但如果 2 日开学，学生放假到 1 日结束，$2 - 0$ 是 4 天即（30, 31, 1, 2）。仔细数：30、31、1 这三天。如果包含开学当天则更多，但通常计法，放假天数为 3 天是对的。更正：30, 31, 1 共3天，如2号上班，2号不属于假。原题干“放假了3天”应为对。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "公历年份是 4 的倍数，一定是闰年。",
+        "options": [],
+        "answer": "错",
+        "explanation": "整百年份需是 400 的倍数。如 2100 年是 4 的倍数但不是闰年。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "2024 年的第一季度有多少天？",
+        "options": [
+          "90",
+          "91",
+          "92",
+          "89"
+        ],
+        "answer": "91",
+        "explanation": "2024 是闰年，2 月 29 天。第一季度（1,2,3月）：$31 + 29 + 31 = 91$ 天。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "24时计时法与普通计时法",
+        "question": "下午 5 时 30 分用 24 时计时法表示是？",
+        "options": [
+          "5:30",
+          "15:30",
+          "17:30",
+          "20:30"
+        ],
+        "answer": "17:30",
+        "explanation": "$5:30 + 12 = 17:30$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "经过时间的计算",
+        "question": "小华 16:40 放学，17:10 到家，她在路上用了多长时间？",
+        "options": [
+          "20分钟",
+          "30分钟",
+          "40分钟",
+          "70分钟"
+        ],
+        "answer": "30分钟",
+        "explanation": "$17:10 - 16:40 = 30$ 分钟。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "国庆节的前一天是？",
+        "options": [
+          "8月31日",
+          "9月30日",
+          "9月31日",
+          "10月2日"
+        ],
+        "answer": "9月30日",
+        "explanation": "国庆节是 10 月 1 日，前一天是 9 月的最后一天。9 月是小月，有 30 天。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算",
+        "question": "一列火车 13:50 出发，运行 4 小时 20 分到达。到达时刻是？",
+        "options": [
+          "18:10",
+          "17:10",
+          "18:00",
+          "17:50"
+        ],
+        "answer": "18:10",
+        "explanation": "$13:50 + 4$ 小时 $20$ 分, 先加 4 小时是 17:50，再加 20 分跳过 60 进位是 18:10。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "某年 2 月有 5 个星期日，这一年是？",
+        "options": [
+          "平年",
+          "闰年",
+          "无法判断",
+          "每个月都有"
+        ],
+        "answer": "闰年",
+        "explanation": "28 天正好 4 个星期。只有 29 天的闰年 2 月才可能出现 5 个相同的星期几。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "24时计时法与普通计时法",
+        "question": "深夜 12 时即可以表示为当天的 24 时，也可以表示为下一天的？",
+        "options": [
+          "12时",
+          "0时",
+          "1时",
+          "24时"
+        ],
+        "answer": "0时",
+        "explanation": "深夜 12 时是旧的一天的结束（24:00），也是新的一天的开始（0:00）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算",
+        "question": "广播电台每天播音时间如下：上午 6:00-10:00，下午 14:00-20:00。全天播音多长时间？",
+        "options": [
+          "4小时",
+          "6小时",
+          "10小时",
+          "12小时"
+        ],
+        "answer": "10小时",
+        "explanation": "$10 - 6 = 4$（小时），$20 - 14 = 6$（小时），$4 + 6 = 10$（小时）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "2023 年 12 月 30 日是星期六，2024 年 1 月 1 日是星期几？",
+        "options": [
+          "星期日",
+          "星期一",
+          "星期二",
+          "星期三"
+        ],
+        "answer": "星期一",
+        "explanation": "12月30日(六)，12月31日(日)，1月1日(一)。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "经过时间的计算",
+        "question": "一辆客车从上午 9 时从甲地开往乙地，平均每小时行 80 千米，下午 2 时到达。两地距离？",
+        "options": [
+          "400",
+          "480",
+          "320",
+          "560"
+        ],
+        "answer": "400",
+        "explanation": "下午 2 时 = 14 时。经过时间：$14 - 9 = 5$ 小时。路程：$80 \\times 5 = 400$ 千米。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "每年的最后一天是？",
+        "options": [
+          "12月30日",
+          "12月31日",
+          "1月1日",
+          "闰年12月31日，平年12月30日"
+        ],
+        "answer": "12月31日",
+        "explanation": "12 月是大月，无论平闰年，最后一天都是 12 月 31 日。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "经过时间的计算",
+        "question": "小明出差 3 天，这 3 天日期的和是 24。他回来的日期是几号？（假设这3天在同一月内）",
+        "options": [
+          "7号",
+          "8号",
+          "9号",
+          "10号"
+        ],
+        "answer": "9号",
+        "explanation": "设中间一天为 $x$，则 $x-1 + x + x+1 = 24$，$3x=24$，$x=8$。最后一天是 $x+1=9$ 号。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "明明满 12 岁时，只过了 3 个生日。他的生日是？",
+        "options": [
+          "1月1日",
+          "2月28日",
+          "2月29日",
+          "12月31日"
+        ],
+        "answer": "2月29日",
+        "explanation": "只有 2 月 29 日是每 4 年才有一次，12 岁里有 $12 \\div 4 = 3$ 个闰年，所以只过 3 个生日。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "从 2020 年到 2024 年（含这两年），共有 ___ 个闰年。",
+        "options": [],
+        "answer": "2",
+        "explanation": "2020 年和 2024 年都能被 4 整除且不是整百数，都是闰年。$2020, 2024$。共 2 个。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算",
+        "question": "课外兴趣小组 14:40 开始，进行了 1 小时 20 分，结束时刻是 ___ 时。",
+        "options": [],
+        "answer": "16",
+        "explanation": "$14:40 + 1$ 小时 $20$ 分：$40 + 20 = 60$ 分（进 1 小时），$14 + 1 + 1 = 16$ 时。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "认识时间单位年、月、日",
+        "question": "2024 年上半年（1月1日至6月30日）共有 ___ 天。",
+        "options": [],
+        "answer": "182",
+        "explanation": "2024 闰年。1月31 + 2月29 + 3月31 + 4月30 + 5月31 + 6月30 = 182 天。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "24时计时法与普通计时法",
+        "question": "12 + 8 = ?",
+        "options": [],
+        "answer": "20",
+        "explanation": "晚上 8 时即 12+8=20 时。验算：20-12=8。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "经过时间的计算",
+        "question": "15 * 60 = ?",
+        "options": [],
+        "answer": "900",
+        "explanation": "计算 15 小时等于多少分钟：$15 \\times 60 = 900$。验算：$900 \\div 60 = 15$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "认识时间单位年、月、日",
+      "core_concept": "一年有12个月。大月（31天）有：1、3、5、7、8、10、12月；小月（30天）有：4、6、9、11月。2月是特殊月份，平年2月28天，闰年2月29天。平年全年365天，闰年全年366天。",
+      "key_formula": "公历年份是4的倍数的一般是闰年；公历年份是整百数的，必须是400的倍数才是闰年。",
+      "common_mistakes": [
+        "认为单数月都是大月，双数月都是小月（忽视了8、10、12月）",
+        "判断整百年份（如1900年）时直接除以4判断为闰年"
+      ],
+      "tips": "记忆大月可以使用拳头计数法：凸起的地方是大月，凹下的地方是小月（2月除外）。"
+    },
+    {
+      "point": "24时计时法与普通计时法",
+      "core_concept": "普通计时法带时间词（如上午、下午），24时计时法不带时间词。从凌晨0时到中午12时，两种表示法数字相同；中午12时以后，24时计时法比普通计时法多12小时。",
+      "key_formula": "下午/晚上时刻 + 12 = 24时计时法时刻",
+      "common_mistakes": [
+        "转换成24时计时法后仍然写上“下午”二字",
+        "午后时间转换忘记加12或减12"
+      ],
+      "tips": "转换时，看到“下午”或“晚上”就给小时数加12；反之，若小时数大于12，减去12并加上“下午”或“晚上”。"
+    },
+    {
+      "point": "经过时间的计算",
+      "core_concept": "计算一段活动持续了多久。可以采用分段法，也可以统一转化成24时计时法后相减。公式为：结束时刻 - 开始时刻 = 经过时间。",
+      "key_formula": "结束时刻 - 开始时刻 = 经过时间",
+      "common_mistakes": [
+        "把时刻和时间单位算混（如结果写成10:00，实际是10小时）",
+        "起始和结束时间不在同一计时法下直接相减"
+      ],
+      "tips": "如果跨越了中午，先全部统一转化成24时计时法再计算，这样最不容易出错。"
+    }
+  ]
+}

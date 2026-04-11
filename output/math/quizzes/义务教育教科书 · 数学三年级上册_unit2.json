@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学三年级上册",
+  "unit": "万以内的加法和减法（一）",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第2单元阶段达标测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "口算 $23 + 45$ 时，可以先算 $20 + 40 = 60$，再算 $3 + 5 = 8$，最后算 $60 + 8 = 68$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$23 + 45 = 68$。拆分法：十位 $20 + 40 = 60$，个位 $3 + 5 = 8$，合计 68。验算正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "在笔算 $350 + 220$ 时，十位上的数字 5 和 2 相加得到 7，这个 7 表示 7 个十。",
+        "options": [],
+        "answer": "对",
+        "explanation": "350 和 220 的十位分别是 5 和 2，代表 50 和 20，相加是 70，即 7 个十。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "用估算解决实际问题",
+        "question": "判断：$498 + 203$ 的结果一定大于 700。",
+        "options": [],
+        "answer": "对",
+        "explanation": "498 大于 490，203 大于 200，且 $498 > 400 + 98$，$203 > 200$，估算 $500 + 200 = 700$，因为两个数都接近或超过整百，和一定大于 700。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "计算 $54 - 28$ 时，个位不够减，向十位退 1 当 10，结果个位应该是 6。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$14 - 8 = 6$。$54 - 28 = 26$。验算：$26 + 28 = 54$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "两个三位数的和一定是三位数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如：$600 + 500 = 1100$，结果是四位数。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "李老师买了 35 支红粉笔，24 支白粉笔。一共买了多少支粉笔？",
+        "options": [
+          "59",
+          "61",
+          "51",
+          "11"
+        ],
+        "answer": "59",
+        "explanation": "$35 + 24 = 59$。验算：$59 - 24 = 35$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "笑笑家到学校 80 米，他已经走了 36 米，还剩多少米？",
+        "options": [
+          "54",
+          "44",
+          "46",
+          "34"
+        ],
+        "answer": "44",
+        "explanation": "$80 - 36 = 44$。验算：$44 + 36 = 80$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "一个电饭锅 420 元，一台电风扇 180 元。买这两件商品一共要花多少元？",
+        "options": [
+          "500",
+          "600",
+          "580",
+          "610"
+        ],
+        "answer": "600",
+        "explanation": "$420 + 180 = 600$。验算：$600 - 180 = 420$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "水果店运进 740 千克苹果，卖出 360 千克，还剩多少千克？",
+        "options": [
+          "480",
+          "380",
+          "420",
+          "360"
+        ],
+        "answer": "380",
+        "explanation": "$740 - 360 = 380$。验算：$380 + 360 = 740$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "用估算解决实际问题",
+        "question": "一套课外书 192 元，一个书包 106 元。妈妈带 300 元钱买这两样物品，够吗？",
+        "options": [
+          "够",
+          "不够",
+          "正好",
+          "无法确定"
+        ],
+        "answer": "够",
+        "explanation": "把 192 看作 190，106 看作 110。$190 + 110 = 300$。因为 192 比 190 多 2，106 比 110 少 4，实际上 $192 + 106 = 298$。$298 < 300$，所以够。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "哪两个数相加的和最接近 80？",
+        "options": [
+          "38 + 41",
+          "29 + 42",
+          "45 + 25",
+          "52 + 32"
+        ],
+        "answer": "38 + 41",
+        "explanation": "A: $38+41=79$; B: $29+42=71$; C: $45+25=70$; D: $52+32=84$。79 最接近 80。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "$450 + 370$ 的和的百位数字是几？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "2"
+        ],
+        "answer": "8",
+        "explanation": "$450 + 370 = 820$。百位是 8。十位 $5+7=12$ 向百位进 1，百位 $4+3+1 = 8$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "比 56 少 27 的数是多少？",
+        "options": [
+          "39",
+          "29",
+          "83",
+          "31"
+        ],
+        "answer": "29",
+        "explanation": "$56 - 27 = 29$。验算：$29 + 27 = 56$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用估算解决实际问题",
+        "question": "小红有 412 个贝壳，小华有 289 个。他们大约一共放了多少个？",
+        "options": [
+          "600",
+          "700",
+          "800",
+          "500"
+        ],
+        "answer": "700",
+        "explanation": "$412 \rightarrow 410$，$289 \rightarrow 290$，$410 + 290 = 700$。或者 $400 + 300 = 700$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "下列哪个算式的计算结果最大？",
+        "options": [
+          "240 + 360",
+          "900 - 450",
+          "210 + 380",
+          "820 - 230"
+        ],
+        "answer": "240 + 360",
+        "explanation": "A: 600; B: 450; C: 590; D: 590. 600 最大。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "在算式 $3\text{_} + 26 = 58$ 中，方框里应该填哪个数字？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "$58 - 26 = 32$，所以 $32$ 的个位是 2。方框代表 32 的个位点。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "$45 + 3\text{?}$ 的和可能是多少？",
+        "options": [
+          "60",
+          "72",
+          "84",
+          "95"
+        ],
+        "answer": "84",
+        "explanation": "因为 $45 + 30 = 75$，$45 + 39 = 84$。和的范围在 75 到 84 之间。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "在一道减法算式中，被减数是 540，差是 150，减数是多少？",
+        "options": [
+          "690",
+          "490",
+          "390",
+          "410"
+        ],
+        "answer": "390",
+        "explanation": "减数 = 被减数 - 差。$540 - 150 = 390$。验算：$390 + 150 = 540$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "操场上有 28 个男生在打球，19 个女生在跳绳。操场上一共有 ___ 人。",
+        "options": [],
+        "answer": "47",
+        "explanation": "$28 + 19 = 47$。验算：$47 - 19 = 28$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "已知一个数比 250 多 360，这个数是 ___。",
+        "options": [],
+        "answer": "610",
+        "explanation": "$250 + 360 = 610$。验算：$610 - 360 = 250$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "小明看一本 500 页的故事书，第一天看了 120 页，第二天看了 150 页。他还要看 ___ 页才能看完。",
+        "options": [],
+        "answer": "230",
+        "explanation": "已经看了 $120 + 150 = 270$ 页。剩余：$500 - 270 = 230$。验算：$230 + 270 = 500$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "口算题：$72 - 38 = ?$",
+        "options": [],
+        "answer": "34",
+        "explanation": "$72 - 38 = 34$。验算：$34 + 38 = 72$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "竖式计算：$460 + 270 = ?$",
+        "options": [],
+        "answer": "730",
+        "explanation": "$460 + 270 = 730$。验算：$730 - 270 = 460$。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第2单元「万以内的加法和减法（一）」综合期末达标卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "口算 $46 + 32$ 时，可以先算 $46 + 30 = 76$，再算 $76 + 2 = 78$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$46+32=78$。口算步骤拆分正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "笔算加减法时，必须从百位开始算起。",
+        "options": [],
+        "answer": "错",
+        "explanation": "笔算加减法应该从个位开始算起，方便进位或退位。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "用估算解决实际问题",
+        "question": "一件上衣 203 元，一条裤子 198 元，买一套大约需要 400 元。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$203 \rightarrow 200$，$198 \rightarrow 200$，$200 + 200 = 400$。估算结果合理。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "计算 $810 - 450$ 时，十位 1 减 5 不够减，向百位借 1 当 10，十位成了 11 减 5 等于 6。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$810 - 450 = 360$。退位计算过程正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "$2\text{?}$ 加上 $3\text{?}$ 的和一定是五十多。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如 $29 + 39 = 68$，和是六十多。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "停车场有 54 辆小轿车，开走了 18 辆。还剩多少辆？",
+        "options": [
+          "36",
+          "46",
+          "38",
+          "44"
+        ],
+        "answer": "36",
+        "explanation": "$54 - 18 = 36$。验算：$36 + 18 = 54$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "小蜜蜂采了 420 毫升花粉，又采了 280 毫升。一共采了多少毫升？",
+        "options": [
+          "600",
+          "700",
+          "680",
+          "720"
+        ],
+        "answer": "700",
+        "explanation": "$420 + 280 = 700$。验算：$700 - 280 = 420$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "妈妈买了 25 个苹果，梨比苹果多 16 个。梨有多少个？",
+        "options": [
+          "9",
+          "31",
+          "41",
+          "42"
+        ],
+        "answer": "41",
+        "explanation": "$25 + 16 = 41$。验算：$41 - 16 = 25$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "算式 $4\text{_}0 + 250 = 700$。横线上的数是几？",
+        "options": [
+          "4",
+          "5",
+          "3",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "$700 - 250 = 450$。所以百位下面的十位应该是 5。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用估算解决实际问题",
+        "question": "电影院共有 800 个座位。一年级有 392 人，二年级有 405 人，两个年级同时进去看电影，坐得下吗？",
+        "options": [
+          "坐得下",
+          "坐不下",
+          "正好坐满",
+          "无法计算"
+        ],
+        "answer": "坐得下",
+        "explanation": "$392 \rightarrow 390$，$405 \rightarrow 400$。$390 + 400 = 790$。因为 $790 < 800$，且实际值 $392 + 405 = 797$ 仍然小于 800，所以坐得下。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "计算 $90 - 43$ 时，先把 43 分成 40 和 3。$90 - 40 = 50$，$50 - 3 = (\text{?})$。",
+        "options": [
+          "47",
+          "53",
+          "43",
+          "57"
+        ],
+        "answer": "47",
+        "explanation": "$90 - 43 = 47$。验算：$47 + 43 = 90$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "被减数增加了 50，减数减少了 50，差有什么变化？",
+        "options": [
+          "不变",
+          "增加了 100",
+          "减少了 100",
+          "增加了 50"
+        ],
+        "answer": "增加了 100",
+        "explanation": "举例：$200 - 100 = 100$。被减数加 50 为 250，减数减 50 为 50，$250 - 50 = 200$，差距增加了 100。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用估算解决实际问题",
+        "question": "下面各数中最接近 600 的数是哪一个？",
+        "options": [
+          "512",
+          "591",
+          "602",
+          "698"
+        ],
+        "answer": "602",
+        "explanation": "$602 - 600 = 2$；$600 - 591 = 9$。2 最小，所以 602 最接近。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "两个三位数相加，和是几位数？",
+        "options": [
+          "一定是三位数",
+          "一定是四位数",
+          "三位数或四位数",
+          "两位数"
+        ],
+        "answer": "三位数或四位数",
+        "explanation": "$100 + 100 = 200$ (三位数)，$500 + 600 = 1100$ (四位数)。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "小王跳绳跳了 67 下，比小李多跳 19 下。小李跳了多少下？",
+        "options": [
+          "86",
+          "48",
+          "58",
+          "46"
+        ],
+        "answer": "48",
+        "explanation": "$67 - 19 = 48$。验算：$48 + 19 = 67$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "仓库里有 850 筐苹果，第一天运走 280 筐，第二天运走 340 筐。两天共运走多少筐？",
+        "options": [
+          "620",
+          "560",
+          "230",
+          "520"
+        ],
+        "answer": "620",
+        "explanation": "$280 + 340 = 620$。注意题目问的是“一共运走”，不需要用 850 去减。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "已知 $\triangle + 24 = 63$，$\triangle - \bigcirc = 15$。$\bigcirc$ 是多少？",
+        "options": [
+          "39",
+          "24",
+          "15",
+          "54"
+        ],
+        "answer": "24",
+        "explanation": "$\triangle = 63 - 24 = 39$。$\bigcirc = 39 - 15 = 24$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用估算解决实际问题",
+        "question": "两个数相加的和是 500。如果一个加数减少 60，另一个加数不变。新的和是多少？",
+        "options": [
+          "560",
+          "440",
+          "500",
+          "400"
+        ],
+        "answer": "440",
+        "explanation": "$500 - 60 = 440$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "小明家离学校 450 米，早晨上学走了 120 米发现忘了带作业本，又回家去取。这天早晨他去学校一共走了 ___ 米。",
+        "options": [],
+        "answer": "690",
+        "explanation": "走了 120 米返回：$120 + 120 = 240$ 米。再加上去学校的 450 米：$240 + 450 = 690$ 米。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "水果店昨天卖出 48 箱梨，今天卖出 35 箱梨。这两天一共卖出 ___ 箱梨。",
+        "options": [],
+        "answer": "83",
+        "explanation": "$48 + 35 = 83$。验算：$83 - 35 = 48$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用估算解决实际问题",
+        "question": "商场搞促销，满 500 元减 50 元。小明买了一个 240 元的台灯和一个 270 元的电饭煲，他最后实际支付了 ___ 元。",
+        "options": [],
+        "answer": "460",
+        "explanation": "总价 $240 + 270 = 510$ 元。$510 > 500$，满足减 50 元条件。$510 - 50 = 460$ 元。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加减两位数的口算",
+        "question": "直接写出得数：$84 - 56 = ?$",
+        "options": [],
+        "answer": "28",
+        "explanation": "$84 - 56 = 28$。验算：$28 + 56 = 84$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几百几十加减几百几十的笔算",
+        "question": "计算：$920 - (380 + 140) = ?$",
+        "options": [],
+        "answer": "400",
+        "explanation": "先算括号内：$380 + 140 = 520$。再算减法：$920 - 520 = 400$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "两位数加减两位数的口算",
+      "core_concept": "口算两位数加法时，通常将其中一个加数拆分成整十数和一位数，先加整十数再加一位数。减法同理，先减去减数的整十部分，再减去个位部分。如果个位不够减，要注意从十位退一当十。",
+      "key_formula": "$32 + 45 = (32 + 40) + 5 = 72 + 5 = 77$",
+      "common_mistakes": [
+        "进位加法时忘了加进上来的1",
+        "退位减法中，被减数的十位忘了减去退掉的1"
+      ],
+      "tips": "拆分法是口算的灵魂，多练习心里拨算珠的感觉。"
+    },
+    {
+      "point": "几百几十加减几百几十的笔算",
+      "core_concept": "相同数位对齐，从个位算起。加法中，哪一位相加满十就向前一位进一；减法中，哪一位不够减就从前一位退一当十后再减。这其实是两位数笔算的延伸，只是在百位上多了操作。",
+      "key_formula": "相同数位对齐，从各位算起。$360 + 250 = 610$",
+      "common_mistakes": [
+        "数位没有对齐，把十位加到了百位上",
+        "三位数减三位数退位后，最高位如果是0没注意省略"
+      ],
+      "tips": "可以先口算百位和十位，再用竖式验证，确保万无一失。"
+    },
+    {
+      "point": "用估算解决实际问题",
+      "core_concept": "估算不是求精确值，而是通过把数看作与其接近的整十或整百数，快速判断范围。在解决“够不够”类问题时，估算非常高效。关键在于根据实际需要决定是估大还是估小。",
+      "key_formula": "$198 + 304 \rightarrow 200 + 300 = 500$",
+      "common_mistakes": [
+        "估算时找的“邻居数”偏差太大，导致结论错误",
+        "带单位计算时单位不统一就进行估算"
+      ],
+      "tips": "看到“大约”、“最接近”、“够吗”这些词往往提示需要使用估算。"
+    }
+  ]
+}

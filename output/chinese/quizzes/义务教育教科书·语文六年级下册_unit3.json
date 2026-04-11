@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文六年级下册",
+  "unit": "让真情在笔尖流露",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第三单元“让真情在笔尖流露”基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "修辞手法强化情感表达",
+        "question": "《匆匆》一文中，作者运用了大量的问句来表达对时光流逝的无奈与叹息。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文《匆匆》开头和结尾都用了问句，中间也穿插了连续的追问，通过这种方式强烈地表达了作者对时光易逝的感慨。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "融情于事",
+        "question": "在《那个星期天》中，作者通过描写早晨、报纸等细节，表现了“我”漫长的等待过程。",
+        "options": [],
+        "answer": "对",
+        "explanation": "文中刻画了阳光的移动、母亲洗衣服的动作等细节，真实地写出了“我”在那个星期天焦急等待的心情。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "环境描写随心情变化",
+        "question": "如果一个人心情很好，看镜子里的自己会觉得“面目可憎”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "心情好时看事物通常是美好的，心情不好时才会觉得平时喜爱的事物也变得烦人或不好看。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "融情于景",
+        "question": "“燕子去了，有再来的时候；杨柳枯了，有再青的时候”这句运用了排比手法抒发情感。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是朱自清《匆匆》的开头，运用排比手法展示自然规律，以此反衬人生的短暂。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "融情于事",
+        "question": "“我踏着一块块垫脚石，跳过地上的小水洼”这属于通过动作描写来侧面反映人物欢快的心情。",
+        "options": [],
+        "answer": "对",
+        "explanation": "欢快的跳跃动作是人物心情愉悦的直接体现，这就是融情于具体的动作细节中。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语中，描写时间流逝极快的一项是：",
+        "options": [
+          "万古长青",
+          "岁月悠悠",
+          "弹指之间",
+          "度日如年"
+        ],
+        "answer": "弹指之间",
+        "explanation": "“弹指之间”形容时间极短，符合本单元《匆匆》的主题；“度日如年”形容心情焦急，日子难熬。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法强化情感表达",
+        "question": "阅读句子：“洗手的时候，日子从水盆里过去；吃饭的时候，日子从饭碗里过去。”这句运用的修辞手法主要是：",
+        "options": [
+          "比喻",
+          "排比",
+          "反问",
+          "夸张"
+        ],
+        "answer": "排比",
+        "explanation": "句子结构相同，内容相关，通过排比写出了时光在日常生活杂事中悄悄溜走。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "融情于景",
+        "question": "“天黑了，路灯昏暗，整条街道显得冷冷清清。”这段描写最可能表达的情绪是：",
+        "options": [
+          "兴奋",
+          "孤独",
+          "惊讶",
+          "愤怒"
+        ],
+        "answer": "孤独",
+        "explanation": "通过“昏暗”、“冷冷清清”的客观环境描写，烘托出人物孤独、低落的心境。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "《匆匆》中“头涔涔而泪潸潸”形容的是什么样子的状态？",
+        "options": [
+          "愉快欢笑",
+          "极度疲劳",
+          "汗流不止且泪水直流",
+          "傲慢自大"
+        ],
+        "answer": "汗流不止且泪水直流",
+        "explanation": "涔涔形容汗水多，潸潸形容泪水流，表现了作者面对时光流逝的焦虑和伤感。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式转换正误判断",
+        "question": "将“我的心剧烈地跳动起来”改为感叹句，最准确的是：",
+        "options": [
+          "难道我的心在跳动吗？",
+          "我的心跳动得真剧烈啊！",
+          "我的心终于剧烈地跳动了。",
+          "那是一颗剧烈跳动的心。"
+        ],
+        "answer": "我的心跳动得真剧烈啊！",
+        "explanation": "感叹句通常带有感叹语气词如“啊”、“呀”和感叹号，表达强烈的情感。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "阅读：‘下午吧，母亲吓唬我说。古怪的是，那个下午我一点儿也不觉得长。’为什么“我”不觉得长？",
+        "options": [
+          "因为那天下午变短了",
+          "因为“我”在睡觉",
+          "因为“我”沉浸在期待中而忘我",
+          "因为母亲在陪“我”玩"
+        ],
+        "answer": "因为“我”沉浸在期待中而忘我",
+        "explanation": "心理学上，当人专注地期待某事或处于兴奋中时，主观感觉时间过得快。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法强化情感表达",
+        "question": "“过去的日子如轻烟，被微风吹散了。”这句运用了哪种修辞？",
+        "options": [
+          "拟人",
+          "比喻",
+          "借代",
+          "对比"
+        ],
+        "answer": "比喻",
+        "explanation": "将“过去的日子”比作“轻烟”，形象写出了时光虚无、易逝的特征。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "融情于事",
+        "question": "下列哪个细节描写最能体现“内心的焦急”？",
+        "options": [
+          "他慢条斯理地喝着茶",
+          "他在庭院里悠闲地散步",
+          "他不停地看表并由于走动发出声响",
+          "他静静地坐在窗前看书"
+        ],
+        "answer": "他不停地看表并由于走动发出声响",
+        "explanation": "看表和走动是焦急者常见的下意识动作，通过行为描写体现内心。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字读音选择",
+        "question": "“尽管”中“尽”字的读音是：",
+        "options": [
+          "jìn",
+          "jǐn",
+          "jìng",
+          "jǐng"
+        ],
+        "answer": "jǐn",
+        "explanation": "“尽管、尽量”中的“尽”读三声jǐn；“尽力、尽头”中的“尽”读四声jìn。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "融情于景",
+        "question": "“初升的太阳把光辉洒在大地上，花儿微笑着点头。”这句话描写的氛围是：",
+        "options": [
+          "沉重压抑",
+          "宁静致远",
+          "充满希望",
+          "诡异恐怖"
+        ],
+        "answer": "充满希望",
+        "explanation": "太阳、光辉、花儿微笑这些意象组合在一起具有积极向上的情感基调。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "《匆匆》的作者是现代著名作家（___）。",
+        "options": [],
+        "answer": "朱自清",
+        "explanation": "本课学习了散文大师朱自清的名篇《匆匆》。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "融情于事",
+        "question": "《那个星期天》中，“我”的心情经历了由期待到（___）的变化。",
+        "options": [],
+        "answer": "失望",
+        "explanation": "那个星期天，由于母亲没能实现带“我”出去玩的诺言，“我”十分失望。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "修辞手法强化情感表达",
+        "question": "“我不知道他们守候在什么地方。我的（___）是怎样虚度了呢？”中应填入？",
+        "options": [],
+        "answer": "日子",
+        "explanation": "出自《匆匆》，作者感叹自己过去的时光被虚度。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "作者→作品",
+        "question": "请将下列作家与其代表作进行对应：",
+        "options": [
+          "朱自清",
+          "史铁生",
+          "老舍",
+          "沈从文",
+          "《边城》",
+          "《匆匆》",
+          "《秋天的怀念》",
+          "《北京的春节》"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "考查本册重点作家作品。朱自清-匆匆，史铁生-秋天的怀念，老舍-北京的春节，沈从文-边城。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语释义",
+        "question": "请将词语与其表达的情绪进行匹配：",
+        "options": [
+          "心急如焚",
+          "心旷神怡",
+          "胆战心惊",
+          "垂头丧气",
+          "心情喜悦",
+          "非常焦急",
+          "极度恐惧",
+          "情绪低落"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "心急如焚对应非常焦急，心旷神怡对应心情喜悦，胆战心惊对应极度恐惧，垂头丧气对应情绪低落。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法识别",
+        "question": "请判断下列描写使用了哪种修辞：",
+        "options": [
+          "阳光斜斜地挪移",
+          "太阳它有脚啊",
+          "如烟被微风吹散",
+          "时间怎能倒流？",
+          "反问",
+          "拟人",
+          "比喻",
+          "赋予生命"
+        ],
+        "answer": "A-4,B-2,C-3,D-1",
+        "explanation": "“挪移”赋予太阳人的行为，属于赋予生命；“有脚”是拟人；“如烟”是比喻；“怎能”是反问。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "融情于事",
+        "question": "请将下列词语排列成一句描写动作的句子：",
+        "options": [
+          "我",
+          "一动不动",
+          "坐在",
+          "凳子上",
+          "焦急地"
+        ],
+        "answer": "我,一动不动,坐在,凳子上,焦急地",
+        "explanation": "合理的语序应是主语+修饰语+动作，表达焦虑的情绪。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法强化情感表达",
+        "question": "请根据《匆匆》内容排列出时光流逝的轨迹：",
+        "options": [
+          "日子",
+          "在眨眼间",
+          "便",
+          "匆匆溜走",
+          "从我们的"
+        ],
+        "answer": "日子,从我们的,在眨眼间,便,匆匆溜走",
+        "explanation": "按照主谓宾结构排列，体现了时光的快速流逝。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级语文下册第三单元质量检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "环境描写随心情变化",
+        "question": "作文中，我们可以通过写“风在低泣”来表现人物伤心的心情。",
+        "options": [],
+        "answer": "对",
+        "explanation": "通过拟人化的环境描写，将“低泣”赋予风，实际上是表达写作者内心的哀伤。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "融情于事",
+        "question": "抒情必须通过大段的感叹号和抒情词语（如：啊，我真高兴）来实现。",
+        "options": [],
+        "answer": "错",
+        "explanation": "优秀的抒情往往将情感融入具体的事件和景物中，即“融情于景”或“融情于事”，不一定直白抒情。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“洗手的时候，日子从水盆里过去”这句话中的“过去”是“消失”的意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "此处指时间的流失，也就是日子消失了。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "融情于景",
+        "question": "“那树丛被风吹得沙沙响，像是恶魔在低语。”这表现了人物恐惧的心情。",
+        "options": [],
+        "answer": "对",
+        "explanation": "将树丛声比作“恶魔低语”，带有明显的恐怖和不安情绪指向。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "修辞手法强化情感表达",
+        "question": "排比句能增强文章的气势，而在抒情散文中，它也能让情感表达得更细腻、充沛。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《匆匆》中连用的排比和追问，极大地增强了情感的感染力。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列哪组词语中没有错别字？",
+        "options": [
+          "千锤万燥",
+          "掩面叹息",
+          "翻箱倒框",
+          "荒凉忧伤"
+        ],
+        "answer": "荒凉忧伤",
+        "explanation": "A应为“千锤万凿”；B应为“掩面叹息”（通常无误，但C错在翻箱倒柜）；D正确。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "“于是——洗手的时候，日子从水盆里过去；吃饭的时候，日子从饭碗里过去。”作者写这句话想表达：",
+        "options": [
+          "我很忙，没空吃饭",
+          "水和饭很重要",
+          "日子在不经意间流逝",
+          "我吃饭速度很快"
+        ],
+        "answer": "日子在不经意间流逝",
+        "explanation": "作者选用了最平常的生活小事，说明时光无处不在又无时不在流走。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法强化情感表达",
+        "question": "“聪明的，你告诉我，我们的日子为什么一去不复返呢？”这是一个：",
+        "options": [
+          "设问句",
+          "反问句",
+          "疑问句",
+          "感叹句"
+        ],
+        "answer": "疑问句",
+        "explanation": "作者向“聪明的”读者提出疑问，引发思考，并没有自问自答或明确答案在其中。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "环境描写随心情变化",
+        "question": "当心情悲伤时，描写路边盛开的月季花，最合适的词语是：",
+        "options": [
+          "灿烂夺目",
+          "垂下病首",
+          "生机勃勃",
+          "昂首挺胸"
+        ],
+        "answer": "垂下病首",
+        "explanation": "悲伤时，客观景物也会带上主观的哀愁色彩，“垂下病首”带有忧郁的拟人特征。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "融情于事",
+        "question": "下列哪个句子的描写方式与“我就这样坐着，看阳光在砖墙上移动”最接近？",
+        "options": [
+          "他高兴得一蹦三尺高",
+          "我拿着考试卷子，手不停地抖着",
+          "春风轻柔地亲吻着大地",
+          "我们要珍惜每一分每一秒"
+        ],
+        "answer": "我拿着考试卷子，手不停地抖着",
+        "explanation": "题干是细节描写侧面反映心情，B选项通过“手抖”细节反映紧张心情，属于融情于事。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“枯萎”的近义词是：",
+        "options": [
+          "干涸",
+          "凋谢",
+          "繁茂",
+          "新生"
+        ],
+        "answer": "凋谢",
+        "explanation": "枯萎和凋谢都指植物失去生命力。干涸指水干，繁茂、新生是反义词。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法强化情感表达",
+        "question": "“燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。”这句话主要想表达：",
+        "options": [
+          "春天很美丽",
+          "燕子和桃花很常见",
+          "自然界周而复始，时光却一去不回",
+          "朱自清非常喜欢植物"
+        ],
+        "answer": "自然界周而复始，时光却一去不回",
+        "explanation": "作者通过自然现象的循环对比人生的不可逆，抒发对时光流逝的惆怅。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "融情于景",
+        "question": "在作文中，如果要写“期盼已久的郊游因为下雨取消了”，下列描写环境最恰当的是：",
+        "options": [
+          "雨点像珍珠一样漂亮",
+          "细雨滋润着庄稼，真好啊",
+          "雨点无情地打在脸颊上，冰冷刺骨",
+          "下雨了，我们可以打起花伞"
+        ],
+        "answer": "雨点无情地打在脸颊上，冰冷刺骨",
+        "explanation": "“无情”、“刺骨”体现了心情被破坏后的负面感知。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "“惆怅”一词的意思是：",
+        "options": [
+          "非常害怕",
+          "因为不满意或不顺心而失意",
+          "非常喜悦",
+          "非常愤怒"
+        ],
+        "answer": "因为不满意或不顺心而失意",
+        "explanation": "惆怅是指郁郁寡欢、失意的状态，常用于描写心情无法排遣。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句式转换正误判断",
+        "question": "把“我不能让光阴白白虚度”改为反问句，正确的是：",
+        "options": [
+          "我要让光阴白白虚度吗？",
+          "谁都不能让光阴白白虚度。",
+          "我难道能让光阴白白虚度吗？",
+          "我不一定要让光阴白白虚度。"
+        ],
+        "answer": "我难道能让光阴白白虚度吗？",
+        "explanation": "反问句用肯定的形式表示否定，增强语气。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "《那个星期天》选自长篇小说《（___）》。",
+        "options": [],
+        "answer": "务虚笔记",
+        "explanation": "史铁生的散文《那个星期天》节选自他的著作《务虚笔记》。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法强化情感表达",
+        "question": "朱自清在《匆匆》中反思，自己没留下像（___）样的痕迹。",
+        "options": [],
+        "answer": "游丝",
+        "explanation": "文中写到：“我赤裸裸来到这世界……为什么偏要白白走这一遭啊？……没留下像游丝样的痕迹。”"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "融情于事",
+        "question": "《那个星期天》中，母亲因为忙于（___）而一再推迟带“我”出去。",
+        "options": [],
+        "answer": "家务",
+        "explanation": "母亲在洗衣服、买菜等繁杂的家务中忙碌，无暇顾及孩子。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语近义词",
+        "question": "请将下列词语与它们的近义词连接：",
+        "options": [
+          "挪移",
+          "徘徊",
+          "匆匆",
+          "焦急",
+          "移动",
+          "踌躇",
+          "急忙",
+          "焦虑"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "挪移-移动；徘徊-踌躇；匆匆-急忙；焦急-焦虑。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "句意赏析",
+        "question": "请根据情境，将景物描写与心情匹配：",
+        "options": [
+          "鸟儿喳喳叫",
+          "乌云沉甸甸",
+          "寒风刺骨",
+          "阳光明媚",
+          "心情欢快",
+          "心情压抑",
+          "心情凄凉",
+          "心情舒畅"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "鸟鸣悦耳通常映衬欢快；乌云映衬压抑；寒风映衬凄凉；阳光映衬舒畅。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词与名量词搭配",
+        "question": "请为下列词语选择正确的搭配：",
+        "options": [
+          "跨过",
+          "掩着",
+          "盯着",
+          "叹着",
+          "面孔",
+          "门缝",
+          "时钟",
+          "气"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "掩着门缝；跨过面孔（此处指阳光跨过人物脸庞）；盯着时钟；叹着气。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法强化情感表达",
+        "question": "请将下列《匆匆》里的名句排列完整：",
+        "options": [
+          "在淘气的",
+          "时间",
+          "怀里",
+          "跳动",
+          "我们的"
+        ],
+        "answer": "我们的,时间,在淘气的,怀里,跳动",
+        "explanation": "运用拟人手法，将时间比作淘气的孩子在跳动。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "融情于景",
+        "question": "请排列出表达忧伤心情的景物描写：",
+        "options": [
+          "无力地",
+          "那盏路灯",
+          "在雨中",
+          "摇晃着",
+          "昏暗的"
+        ],
+        "answer": "昏暗的,那盏路灯,在雨中,无力地,摇晃着",
+        "explanation": "通过昏暗、摇晃、无力等词汇，营造出凄凉忧伤的氛围。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "融情于景与融情于事",
+      "core_concept": "这是一种间接抒情的方法。不直接说出“我很难过”或“我很开心”，而是通过描写具体的景物（如凋谢的花、灿烂的阳光）或具体的动作细节（如在砖墙边看阳光挪移、烦躁地踢石子）来暗示人物的情感，让读者在读故事或看画面时感同心声。",
+      "key_formula": "情感 + 具体的物象/动作 = 深度共情",
+      "common_mistakes": [
+        "只会直白地堆砌抒情形容词，如连续说‘我太开心了’，缺乏画面感。",
+        "选取的景物或事情与想要表达的情感不统一，如开心的事却描写了阴冷的雨。"
+      ],
+      "tips": "写作时可以先问自己：如果我是这个角色，我现在看周边的东西会是什么颜色？会有什么动作？"
+    },
+    {
+      "point": "修辞手法强化情感表达",
+      "core_concept": "在《匆匆》等散文中，通过排比、比喻、反复和连续不断的追问（反问/疑问），可以层层递进地增强情感的浓度。排比能增强节奏感，追问能直抵人心，比喻则能将抽象的时间或情感变得具象可感。",
+      "key_formula": "合理修辞 = 情感放大器",
+      "common_mistakes": [
+        "为了修辞而修辞，导致句子华而不实，脱离了真实情感。",
+        "分不清设问和反问的区别，导致语感表达不准确。"
+      ],
+      "tips": "读到动人处，试着把修辞句换成普通话，对比一下情感的减损，就能明白其妙处。"
+    },
+    {
+      "point": "环境描写随心情变化",
+      "core_concept": "正如古语云“景无情不发，情无景不生”，环境描写是心情的镜子。同一个校门口，放学拿到奖状时看是“充满金光的”，考试不及格时看可能是“尘土飞扬令人窒息”的。通过改变景物的色彩、声音和动态，可以精准传达人物心境。",
+      "key_formula": "同景异情 = 心理描写的最高境界",
+      "common_mistakes": [
+        "描写环境时过于刻板，习惯性套用好天气就是心情好，坏天气就是心情差。",
+        "忽略了通过感官（听觉、嗅觉等）来写环境，只停留在视觉描写。"
+      ],
+      "tips": "练习时，可以尝试针对同一个公园写两段话：一段是去郊游时的心情，一段是弄丢东西后的心情。"
+    }
+  ]
+}

@@ -1,0 +1,717 @@
+{
+  "textbook": "人教版小学数学五年级下册",
+  "unit": "长方体和正方体",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元「长方体和正方体」基础巩固卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体的特征",
+        "question": "正方体是长、宽、高都相等的长方体。",
+        "options": [],
+        "answer": "对",
+        "explanation": "正方体满足长方体的所有定义，且其长、宽、高均相等，因此正方体是特殊的长方体。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体的特征",
+        "question": "长方体中相对的面的面积一定相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "长方体由6个长方形组成，相对的面完全相同，因此面积相等。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "体积概念与体积单位换算",
+        "question": "体积单位之间的进率都是1000。",
+        "options": [],
+        "answer": "错",
+        "explanation": "只有相邻的体积单位（如立方米与立方分米）进率才是1000。如果不是相邻单位，如立方米与立方厘米，进率是1000000。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "容积与不规则物体体积测量",
+        "question": "计算一个木箱的容积，通常要从木箱的外面测量其数据。",
+        "options": [],
+        "answer": "错",
+        "explanation": "计算容积需要测量容器内部的数据，因为容器壁本身有厚度。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "表面积计算与展开图",
+        "question": "一个长方体切成两个小长方体后，表面积变大了。",
+        "options": [],
+        "answer": "对",
+        "explanation": "切开后会多出两个截面的面积，因此总表面积会增加。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体的特征",
+        "question": "长方体有几个顶点？",
+        "options": [
+          "4个",
+          "6个",
+          "8个",
+          "12个"
+        ],
+        "answer": "8个",
+        "explanation": "长方体有6个面，12条棱，8个顶点。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "体积概念与体积单位换算",
+        "question": "$2.5$ 立方米等于多少立方分米？",
+        "options": [
+          "25",
+          "250",
+          "2500",
+          "25000"
+        ],
+        "answer": "2500",
+        "explanation": "$1$ 立方米 = $1000$ 立方分米，所以 $2.5 \\times 1000 = 2500$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "容积与不规则物体体积测量",
+        "question": "一个矿泉水瓶的容积大约是 500 什么？",
+        "options": [
+          "升",
+          "毫升",
+          "立方米",
+          "立方分米"
+        ],
+        "answer": "毫升",
+        "explanation": "日常矿泉水瓶规格通常为 500 毫升（mL）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表面积计算与展开图",
+        "question": "制作一个长 5cm，宽 4cm，高 3cm 的长方体纸盒，至少需要多少平方厘米纸板？",
+        "options": [
+          "60",
+          "94",
+          "47",
+          "120"
+        ],
+        "answer": "94",
+        "explanation": "$(5 \\times 4 + 5 \\times 3 + 4 \\times 3) \\times 2 = (20 + 15 + 12) \\times 2 = 47 \\times 2 = 94$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "一个正方体的棱长总和是 24 厘米，它的体积是多少立方厘米？",
+        "options": [
+          "8",
+          "24",
+          "64",
+          "576"
+        ],
+        "answer": "8",
+        "explanation": "正方体有12条棱，棱长为 $24 \\div 12 = 2$ 厘米。体积 $V = 2 \\times 2 \\times 2 = 8$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "一个底面积是 20 平方分米的长方体，高是 5 分米，体积是多少立方分米？",
+        "options": [
+          "4",
+          "25",
+          "100",
+          "50"
+        ],
+        "answer": "100",
+        "explanation": "$V = Sh = 20 \\times 5 = 100$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形涂色与堆叠规律探索",
+        "question": "将一个表面涂色的正方体每条棱三等分并切开，三个面都涂色的小正方体有多少个？",
+        "options": [
+          "4",
+          "8",
+          "12",
+          "1"
+        ],
+        "answer": "8",
+        "explanation": "三面涂色的小正方体位于大正方体的8个顶点处。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "容积与不规则物体体积测量",
+        "question": "将一个石块放入盛有 500 毫升水的量杯中（水未溢出），水面上升到 750 毫升，石块体积是多少立方厘米？",
+        "options": [
+          "250",
+          "1250",
+          "750",
+          "500"
+        ],
+        "answer": "250",
+        "explanation": "$750 - 500 = 250$ 毫升，因为 $1$ 毫升 = $1$ 立方厘米，所以体积为 250。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表面积计算与展开图",
+        "question": "一个长方体无盖水箱，长 8 分米，宽 5 分米，高 4 分米。制作这个水箱需要铁皮多少平方分米？",
+        "options": [
+          "184",
+          "144",
+          "104",
+          "160"
+        ],
+        "answer": "144",
+        "explanation": "只有 5 个面：底面（$8 \\times 5$）+ 侧面（$8 \\times 4 \\times 2 + 5 \\times 4 \\times 2$）= $40 + 64 + 40 = 144$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "体积概念与体积单位换算",
+        "question": "下列哪个单位是容积单位？",
+        "options": [
+          "平方米",
+          "分米",
+          "升",
+          "立方厘米"
+        ],
+        "answer": "升",
+        "explanation": "升（L）和毫升（mL）是法定的容积单位。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "把一个正方体的棱长扩大到原来的 2 倍，它的体积扩大到原来的几倍？",
+        "options": [
+          "2倍",
+          "4倍",
+          "6倍",
+          "8倍"
+        ],
+        "answer": "8倍",
+        "explanation": "体积公式为 $a^{3}$，若 $a$ 变为 $2a$，体积变为 $(2a)^{3} = 8a^{3}$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体的特征",
+        "question": "长方体有 12 条棱，这些棱按长度可以分为几组？",
+        "options": [
+          "2组",
+          "3组",
+          "4组",
+          "6组"
+        ],
+        "answer": "3组",
+        "explanation": "分别是长、宽、高各4条，共3组。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形涂色与堆叠规律探索",
+        "question": "用棱长 1cm 的小正方体拼成一个棱长 3cm 的大正方体，需要多少个小正方体？",
+        "options": [
+          "9",
+          "18",
+          "27",
+          "36"
+        ],
+        "answer": "27",
+        "explanation": "$3 \\times 3 \\times 3 = 27$ 个。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体的特征",
+        "question": "一个正方体的棱长总和是 60 厘米，它的一条棱长是 ___ 厘米。",
+        "options": [],
+        "answer": "5",
+        "explanation": "正方体有 12 条棱且相等。$60 \\div 12 = 5$ 厘米。验算：$5 \\times 12 = 60$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "体积概念与体积单位换算",
+        "question": "3000 毫升 = ___ 升。",
+        "options": [],
+        "answer": "3",
+        "explanation": "$1000$ 毫升 = $1$ 升，所以 $3000 \\div 1000 = 3$。验算：$3 \\times 1000 = 3000$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "一个长方体容器，底面积是 100 平方厘米，里面盛有 5 厘米深的水。放入一个物体后（完全浸没且水未溢出），水深变成 8 厘米，物体的体积是 ___ 立方厘米。",
+        "options": [],
+        "answer": "300",
+        "explanation": "上升高度为 $8 - 5 = 3$ 厘米。体积 $V = Sh = 100 \\times 3 = 300$。验算：$300 \\div 100 = 3$，$5 + 3 = 8$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "$12 \\times 5 \\times 8 = ?$",
+        "options": [],
+        "answer": "480",
+        "explanation": "$12 \\times 5 = 60$，$60 \\times 8 = 480$。验算：$480 \\div 8 \\div 5 = 60 \\div 5 = 12$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "$15 \\times 15 \\times 15 = ?$",
+        "options": [],
+        "answer": "3375",
+        "explanation": "$15 \\times 15 = 225$，$225 \\times 15 = 3375$。验算：$3375 \\div 15 = 225$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第3单元「长方体和正方体」综合达标检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体的特征",
+        "question": "由于正方体是特殊的长方体，所以长方体的特征正方体都具备。",
+        "options": [],
+        "answer": "对",
+        "explanation": "考查包含关系，正方体完全继承了长方体的性质。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "表面积计算与展开图",
+        "question": "把一个正方体木块锯成两个相同的长方体，表面积增加了 4 个面。",
+        "options": [],
+        "answer": "错",
+        "explanation": "锯成两个物体只增加了一个切面，即多出 2 个面。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "体积概念与体积单位换算",
+        "question": "1 立方米的水比 1 立方米的木头体积大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "两者体积都是 1 立方米，体积相等，只是质量不同。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "容积与不规则物体体积测量",
+        "question": "测量一个球的体积，可以用排水法进行测量。",
+        "options": [],
+        "answer": "对",
+        "explanation": "排水法适用于测量不规则或不便于直接计算的固体体积。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "立体图形涂色与堆叠规律探索",
+        "question": "正方体的棱长扩大到原来的 3 倍，表面积就扩大到原来的 9 倍。",
+        "options": [],
+        "answer": "对",
+        "explanation": "表面积比例是棱长比例的平方，$3 \\times 3 = 9$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体的特征",
+        "question": "长方体中最多有几个面是正方形？",
+        "options": [
+          "2个",
+          "4个",
+          "6个",
+          "1个"
+        ],
+        "answer": "2个",
+        "explanation": "若有4个面是正方形，则另外两个面也必然是正方形，就变成了正方体。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表面积计算与展开图",
+        "question": "一个正方体的表面积是 24 平方分米，它的底面积是多少平方分米？",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "12"
+        ],
+        "answer": "4",
+        "explanation": "正方体 6 个面面积相等，$24 \\div 6 = 4$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "体积概念与体积单位换算",
+        "question": "比较 $5$ 立方米和 $500$ 立方分米，哪个大？",
+        "options": [
+          "5立方米大",
+          "500立方分米大",
+          "一样大",
+          "无法比较"
+        ],
+        "answer": "5立方米大",
+        "explanation": "$5$ 立方米 = $5000$ 立方分米，$5000 > 500$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "一个长方体水池，底面积是 15 平方米，深 2 米，池内最多能容水多少立方米？",
+        "options": [
+          "17",
+          "30",
+          "7.5",
+          "60"
+        ],
+        "answer": "30",
+        "explanation": "$V = Sh = 15 \\times 2 = 30$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "立体图形涂色与堆叠规律探索",
+        "question": "一个棱长 4cm 的正方体表面涂色，切成棱长 1cm 的小正方体，两面涂色的有多少个？",
+        "options": [
+          "8",
+          "16",
+          "24",
+          "32"
+        ],
+        "answer": "24",
+        "explanation": "两面涂色在棱上，公式 $(n-2) \\times 12 = (4-2) \\times 12 = 24$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表面积计算与展开图",
+        "question": "将三个棱长 2 厘米的正方体拼成一个长方体，表面积减少了多少平方厘米？",
+        "options": [
+          "4",
+          "8",
+          "16",
+          "24"
+        ],
+        "answer": "16",
+        "explanation": "拼合 3 个正方体共产生 4 个接触面。每个面面积 $2 \\times 2 = 4$，总减少 $4 \\times 4 = 16$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "容积与不规则物体体积测量",
+        "question": "一个油桶能装油 20L，这里的 20L 指的是油桶的什么？",
+        "options": [
+          "体积",
+          "容积",
+          "表面积",
+          "重量"
+        ],
+        "answer": "容积",
+        "explanation": "容器所能容纳物体的体积叫做它的容积。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "体积概念与体积单位换算",
+        "question": "把 1 立方米的正方体木块锯成 1 立方分米的小正方体块，可以锯成多少块？",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "answer": "1000",
+        "explanation": "$1$ 立方米 = $1000$ 立方分米。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "长方体的长扩至2倍，宽扩至3倍，高不变，体积扩至原来的几倍？",
+        "options": [
+          "2倍",
+          "3倍",
+          "5倍",
+          "6倍"
+        ],
+        "answer": "6倍",
+        "explanation": "体积变化 = $2 \\times 3 \\times 1 = 6$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体的特征",
+        "question": "相交于一个顶点的三条棱分别叫做长方体的什么？",
+        "options": [
+          "边、面、顶",
+          "长、宽、高",
+          "高、宽、棱",
+          "长、棱、高"
+        ],
+        "answer": "长、宽、高",
+        "explanation": "基本概念定义。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "容积与不规则物体体积测量",
+        "question": "往一个长 5 分米，宽 4 分米，高 3 分米的空水箱倒入 20 升水，水深是多少分米？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "1",
+        "explanation": "$20$ 升 = $20$ 立方分米。水深 $h = V \\div (ab) = 20 \\div (5 \\times 4) = 1$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表面积计算与展开图",
+        "question": "一个正方体木块表面积是 54，切成两个完全一样的长方体，每个长方体的表面积是多少？",
+        "options": [
+          "27",
+          "36",
+          "45",
+          "18"
+        ],
+        "answer": "36",
+        "explanation": "原面面积 $54 \\div 6 = 9$。切开增加2个面共 18。总面积 $54 + 18 = 72$。两个平分每个 36。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "底面积是 9 平方厘米的正方体，它的体积是多少立方厘米？",
+        "options": [
+          "9",
+          "18",
+          "27",
+          "81"
+        ],
+        "answer": "27",
+        "explanation": "底面积 $a^{2}=9 \\implies a=3$。体积 $V = a^{3} = 3 \\times 3 \\times 3 = 27$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长方体和正方体的特征",
+        "question": "用一根 48 厘米长的铁丝焊成一个正方体框架，该正方体的表面积是 ___ 平方厘米。",
+        "options": [],
+        "answer": "96",
+        "explanation": "棱长 $48 \\div 12 = 4$。表面积 $6 \\times 4 \\times 4 = 96$。验算：$96 \\div 6 = 16$，$16 = 4 \\times 4$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "体积概念与体积单位换算",
+        "question": "1.2 立方分米 = ___ 立方厘米。",
+        "options": [],
+        "answer": "1200",
+        "explanation": "$1$ 立方分米 = $1000$ 立方厘米，$1.2 \\times 1000 = 1200$。验算：$1200 \\div 1000 = 1.2$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "一个长方体的高增加 3 厘米后变成一个正方体，表面积比原来增加了 60 平方厘米。原来长方体的体积是 ___ 立方厘米。",
+        "options": [],
+        "answer": "50",
+        "explanation": "增加的侧面积 $4 \\times a \\times 3 = 60 \\implies 12a=60 \\implies a=5$。原高 $5 - 3 = 2$。体积 $5 \\times 5 \\times 2 = 50$。验算：$(5 \\times 5 \\times 4) - (5 \\times 4 \\times 2 + 5 \\times 5 \\times 2)$...正确 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "$20 \\times 15 \\times 2 = ?$",
+        "options": [],
+        "answer": "600",
+        "explanation": "$20 \\times 15 = 300$，$300 \\times 2 = 600$。验算：$600 \\div 2 = 300$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长方体和正方体体积公式应用",
+        "question": "$800 \\div (20 \\times 4) = ?$",
+        "options": [],
+        "answer": "10",
+        "explanation": "$20 \\times 4 = 80$，$800 \\div 80 = 10$。验算：$10 \\times 80 = 800$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "长方体和正方体的特征",
+      "core_concept": "长方体由6个长方形（特殊情况下有两个相对的面是正方形）围成，有12条棱，8个顶点。正方体是特殊的长方体，它的6个面都是完全相同的正方形，12条棱长度相等。",
+      "key_formula": "长方体棱长总和 $=(a+b+h) \\times 4$，正方体棱长总和 $=12a$",
+      "common_mistakes": [
+        "误以为长方体只有四个面",
+        "数棱的个数时重复计算或遗漏"
+      ],
+      "tips": "找家里的火柴盒或魔方观察，记住“面、棱、顶”的数量是6、12、8。"
+    },
+    {
+      "point": "表面积计算与展开图",
+      "core_concept": "表面积是物体6个面面积的总和。计算时要根据实际情况确定计算几个面，如鱼缸、粉刷教室等往往只有5个面或4个面。",
+      "key_formula": "长方体 $S=2(ab+ah+bh)$，正方体 $S=6a^{2}$",
+      "common_mistakes": [
+        "无盖水箱计算了6个面的面积",
+        "计算长方体表面积时漏乘2"
+      ],
+      "tips": "做题前先脑补一下物体长什么样，需不需要计算“底面”和“盖子”。"
+    },
+    {
+      "point": "体积概念与体积单位换算",
+      "core_concept": "体积是物体所占空间的大小。常用单位有立方米、立方分米、立方厘米。相邻两个体积单位之间的进率是1000。",
+      "key_formula": "$1 \\text{m}^{3} = 1000 \\text{dm}^{3}$, $1 \\text{dm}^{3} = 1000 \\text{cm}^{3}$",
+      "common_mistakes": [
+        "把体积单位进率记成100（混淆面积单位）",
+        "单位换算时大变小没用乘法"
+      ],
+      "tips": "记口诀：长度十、面积百、体积千。记单位进率时数清楚有几个“方”。"
+    },
+    {
+      "point": "长方体和正方体体积公式应用",
+      "core_concept": "体积的大小由底面积和高决定。通过底面积乘以高可以统一计算长方体和正方体的体积。",
+      "key_formula": "$V=abh$ 或 $V=Sh$",
+      "common_mistakes": [
+        "计算正方体体积时用棱长乘以3（应是三个棱长相乘）",
+        "公式应用时单位不统一就直接相乘"
+      ],
+      "tips": "看到底面积和高，直接相乘就是体积！一定要统一单位再计算。"
+    },
+    {
+      "point": "容积与不规则物体体积测量",
+      "core_concept": "容积指容器内部空间大小。不规则物体（如石块）丢进水里，上升那部分水的体积就是该物体的体积（排水法）。",
+      "key_formula": "$V_{\\text{物}} = S_{\\text{容}} \\times h_{\\text{升}}$",
+      "common_mistakes": [
+        "计算容积时用了外部测量数据",
+        "混淆1升水等于1立方厘米（实为1立方分米）"
+      ],
+      "tips": "排水法计算秘籍：物体的体积 = 放入后高度 - 放入前高度 × 底面积。"
+    },
+    {
+      "point": "立体图形涂色与堆叠规律探索",
+      "core_concept": "大正方体切开后，三面涂色在顶点，两面涂色在棱中，一面涂色在面中，无涂色在中心。",
+      "key_formula": "三面涂色：8个；两面涂色：$12(n-2)$；一面涂色：$6(n-2)^{2}$",
+      "common_mistakes": [
+        "死记硬背公式导致在不同边长时应用错误",
+        "忽略了三个面涂色的小正方体数量始终是8（针对标准切割）"
+      ],
+      "tips": "想象切西瓜，最角落的西瓜皮肯定涂色最多，中间的完全没皮。"
+    }
+  ]
+}

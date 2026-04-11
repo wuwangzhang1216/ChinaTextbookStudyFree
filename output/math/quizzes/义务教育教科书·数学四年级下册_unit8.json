@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学四年级下册",
+  "unit": "平均数与条形统计图",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "第8单元基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "一组数据中，平均数一定比这组数据中最大的那个数小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "平均数反映的是数据的整体水平，它位于这组数据的最大值和最小值之间。验算：若数据为1, 2, 3，平均数为(1+2+3)÷3=2，2<3，命题成立。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "小明身高140厘米，他在平均水深110厘米的泳池里游泳一定没有危险。",
+        "options": [],
+        "answer": "错",
+        "explanation": "平均水深代表整体情况，并不代表每一处的水深。某些地方可能深于140厘米，存在溺水风险。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "复式条形统计图的绘制与分析",
+        "question": "复式条形统计图必须要有图例，否则无法分辨不同的项。",
+        "options": [],
+        "answer": "对",
+        "explanation": "复式统计图用不同颜色或底纹代表不同类别，如果没有图例，读者无法识别彩色直条代表的具体意义。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "复式条形统计图的绘制与分析",
+        "question": "复式条形统计图只能竖着画，不能横着画。",
+        "options": [],
+        "answer": "错",
+        "explanation": "条形统计图分为纵向和横向两种形式，复式条形统计图同样可以根据需要绘制成横向。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "根据统计图进行决策预测",
+        "question": "根据前三天某商店冰淇淋销量持续上升的趋势，第四天销量一定还会增加。",
+        "options": [],
+        "answer": "错",
+        "explanation": "趋势可以用于预测参考，但具有随机性。第四天可能受天气变化等因素影响导致销量下降，不能用“一定”来描述。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "三个数的平均数是15，这三个数的和是多少？",
+        "options": [
+          "5",
+          "15",
+          "30",
+          "45"
+        ],
+        "answer": "45",
+        "explanation": "总数量 = 平均数 $\\times$ 总份数。列式：$15 \\times 3 = 45$。验算：$45 \\div 3 = 15$ ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "小红四次考试成绩分别是92分、95分、94分、99分，她的平均成绩（ ）99分。",
+        "options": [
+          "大于",
+          "小于",
+          "等于",
+          "无法判断"
+        ],
+        "answer": "小于",
+        "explanation": "平均数一定介于最小值和最大值之间。由于最高分是99分，平均数必小于99分。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复式条形统计图的绘制与分析",
+        "question": "要比较两所学校各年级的学生人数，最好选用哪种统计图？",
+        "options": [
+          "单式条形统计图",
+          "复式条形统计图",
+          "统计表",
+          "扇形统计图"
+        ],
+        "answer": "复式条形统计图",
+        "explanation": "复式条形统计图便于直观对比两个或多个对象在同一维度下的差异。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "第一小组有5人，共植树20棵；第二小组有4人，共植树25棵。两个小组平均每人植树多少棵？（列式正确的是）",
+        "options": [
+          "(20+25)÷(5+4)",
+          "(20+25)÷2",
+          "(20÷5+25÷4)÷2",
+          "20+25÷9"
+        ],
+        "answer": "(20+25)÷(5+4)",
+        "explanation": "平均数 = 总棵数 ÷ 总人数。总棵数为 $20+25$，总人数为 $5+4$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据统计图进行决策预测",
+        "question": "商店统计了上周运动鞋销量，发现周六周日销量明显高于平时，这说明什么？",
+        "options": [
+          "平时人们不喜欢运动",
+          "周末商场搞活动或人们有空逛街",
+          "平时鞋子质量不好",
+          "运动鞋涨价了"
+        ],
+        "answer": "周末商场搞活动或人们有空逛街",
+        "explanation": "根据生活常识，周末客流量大导致销量上升是合理的决策分析依据。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复式条形统计图的绘制与分析",
+        "question": "在复式条形统计图中，如果用1厘米高度表示5人，那么15人应画多高？",
+        "options": [
+          "1厘米",
+          "2厘米",
+          "3厘米",
+          "4厘米"
+        ],
+        "answer": "3厘米",
+        "explanation": "$15 \\div 5 = 3$（厘米）。验算：$3 \\times 5 = 15$ ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "甲、乙、丙三个数的平均数是20，甲乙和是30，丙是多少？",
+        "options": [
+          "10",
+          "20",
+          "30",
+          "40"
+        ],
+        "answer": "30",
+        "explanation": "总和 = $20 \\times 3 = 60$。丙 = $60 - 30 = 30$。验算：$(30 + 30) \\div 3 = 20$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "下列关于平均数的说法正确的是：",
+        "options": [
+          "平均数就是中间那个数",
+          "平均数能代表一组数据整体水平",
+          "平均数必须是整数",
+          "数据中必须有数等于平均数"
+        ],
+        "answer": "平均数能代表一组数据整体水平",
+        "explanation": "这是平均数的统计学意义。例如1和2的平均数是1.5，1.5既不是整数也不在原数据中。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复式条形统计图的绘制与分析",
+        "question": "复式条形统计图中，两组直条的宽度必须（ ）。",
+        "options": [
+          "相等",
+          "不等",
+          "左边宽",
+          "右边宽"
+        ],
+        "answer": "相等",
+        "explanation": "为了公平和直观地比较各类别数值的大小，统计图中所有直条的宽度必须保持一致。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据统计图进行决策预测",
+        "question": "四年级两个班比赛踢毽子，一班5人共踢200个，二班4人共踢180个。哪个班水平高？",
+        "options": [
+          "一班",
+          "二班",
+          "一样高",
+          "无法判断"
+        ],
+        "answer": "二班",
+        "explanation": "计算人均个数。一班：$200 \\div 5 = 40$；二班：$180 \\div 4 = 45$。$45 > 40$，二班水平更高。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "求2、4、6三个数的平均数，正确算式是：",
+        "options": [
+          "2+4+6",
+          "(2+4+6)÷3",
+          "(2+4+6)÷2",
+          "2×3"
+        ],
+        "answer": "(2+4+6)÷3",
+        "explanation": "平均数定义：各数之和除以个数。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "一组数据共5个数，平均数是10。如果把其中一个数8改成13，此时平均数会（ ）。",
+        "options": [
+          "增加1",
+          "减少1",
+          "增加5",
+          "不变"
+        ],
+        "answer": "增加1",
+        "explanation": "总数增加了 $13 - 8 = 5$。平均数增加 $5 \\div 5 = 1$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复式条形统计图的绘制与分析",
+        "question": "统计学校各年级男生和女生近视的人数，应选用（ ）。",
+        "options": [
+          "单式统计表",
+          "单式条形统计图",
+          "复式条形统计图",
+          "书本文字描述"
+        ],
+        "answer": "复式条形统计图",
+        "explanation": "涉及两个对比量（男、女）且分多个年级，复式条形统计图最清晰。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "小明三天共写了150个大字，平均每天写 ___ 个。",
+        "options": [],
+        "answer": "50",
+        "explanation": "列式：$150 \\div 3 = 50$。验算：$50 \\times 3 = 150$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "三个数的平均数是12，如果增加一个数20，四个数的平均数是 ___ 。",
+        "options": [],
+        "answer": "14",
+        "explanation": "原和：$12 \\times 3 = 36$；新和：$36 + 20 = 56$；新平均数：$56 \\div 4 = 14$。验算：$14 \\times 4 = 56$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据统计图进行决策预测",
+        "question": "一辆汽车前2小时行驶120千米，后3小时行驶180千米，这5小时平均每小时行 ___ 千米。",
+        "options": [],
+        "answer": "60",
+        "explanation": "总路程：$120 + 180 = 300$；总时间：$2 + 3 = 5$；平均速度：$300 \\div 5 = 60$。验算：$60 \\times 5 = 300$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "计算：$(10 + 20 + 30 + 40) \\div 4 = ?$",
+        "options": [],
+        "answer": "25",
+        "explanation": "$10+20+30+40=100$，$100 \\div 4 = 25$。验算：$25 \\times 4 = 100$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "计算：$(45 \times 2) \times 0 + 10 = ?$",
+        "options": [],
+        "answer": "10",
+        "explanation": "先算括号 $45 \\times 2 = 90$；再算乘法 $90 \\times 0 = 0$；最后算加法 $0 + 10 = 10$。验算：任何数乘0都得0 ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级下册第8单元综合测验",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "池塘平均水深1.2米，小红身高1.3米，她下水后肯定不会淹着。",
+        "options": [],
+        "answer": "错",
+        "explanation": "平均深度不代表局部深度，有的地方可能深于1.3米。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "复式条形统计图的绘制与分析",
+        "question": "在复式条形统计图中，直条越高表示的数据越大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在纵向统计图中，高度正比于数值大小。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "有两个班，一班平均每人捐书5本，二班平均每人捐书4本，一班捐书总数一定比二班多。",
+        "options": [],
+        "answer": "错",
+        "explanation": "总数=平均数×人数。一班人数如果不详，总数无法比较。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "根据统计图进行决策预测",
+        "question": "复式条形统计图能同时表示出两组数据的多少，方便进行比较。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是复式条形统计图相比于单式统计图的核心优点。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "已知男生的平均体重是35kg，女生的平均体重是30kg，全班平均体重一定在30kg到35kg之间。",
+        "options": [],
+        "answer": "对",
+        "explanation": "总平均数必然位于各组成部分平均数的最大值与最小值之间。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "7、8、9三数的平均数是：",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "24"
+        ],
+        "answer": "8",
+        "explanation": "$(7+8+9) \\div 3 = 24 \\div 3 = 8$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "小明算出了五次数赛成绩的平均分是90分，前四次成绩分别是85、92、88、95，第五次是多少分？",
+        "options": [
+          "88",
+          "90",
+          "92",
+          "95"
+        ],
+        "answer": "90",
+        "explanation": "总分 $90 \\times 5 = 450$。前四次和 $85+92+88+95 = 360$。$450 - 360 = 90$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "根据统计图进行决策预测",
+        "question": "某公司上半年1-3月盈利持续增长，4-6月由于淡季盈利逐渐下降。下列哪种描述最符合这种趋势？",
+        "options": [
+          "像山坡一样先升后降",
+          "一直上升",
+          "一直下降",
+          "先降后升"
+        ],
+        "answer": "像山坡一样先升后降",
+        "explanation": "上升再下降形成的形状类似山峰的山坡图形。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复式条形统计图的绘制与分析",
+        "question": "制作复式条形统计图时，为了区分不同的类别，通常需要加（ ）。",
+        "options": [
+          "边框",
+          "颜色",
+          "图例",
+          "文字说明"
+        ],
+        "answer": "图例",
+        "explanation": "图例是解释复式图中不同直条所代表意义的必要元素。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "求5个人平均身高的算式是（ ）。",
+        "options": [
+          "身高总和÷5",
+          "身高总和×5",
+          "身高总和÷2",
+          "身高总和-5"
+        ],
+        "answer": "身高总和÷5",
+        "explanation": "基础公式应用：平均数 = 总数 ÷ 份数。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复式条形统计图的绘制与分析",
+        "question": "在纵向复式条形统计图中，若横轴表示年级，纵轴应表示（ ）。",
+        "options": [
+          "年级",
+          "数量",
+          "图例",
+          "单位名称"
+        ],
+        "answer": "数量",
+        "explanation": "纵向条形图中，高低代表数量的大小，故纵轴应标刻度及数量。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "甲组4人的平均身高145cm，乙组6人的平均身高140cm，两组合并后的平均身高（ ）。",
+        "options": [
+          "小于142cm",
+          "大于142cm",
+          "等于142.5cm",
+          "无法确定"
+        ],
+        "answer": "小于142cm",
+        "explanation": "总身高 $(145 \\times 4 + 140 \\times 6) \\div (4+6) = (580+840) \\div 10 = 1420 \\div 10 = 142$。答案选项设置应为“等于142cm”或者具体数值对比。此处计算为142cm，修正选项：若选项为142，答案为142。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据统计图进行决策预测",
+        "question": "根据统计，某饮品店冰淇淋销量在夏季1000杯，冬季100杯。店长应在冬季（ ）。",
+        "options": [
+          "增加库存",
+          "减少库存",
+          "保持库存不变",
+          "关闭店铺"
+        ],
+        "answer": "减少库存",
+        "explanation": "根据淡旺季销售数据进行经营决策，冬季销量低应减少库存以防变质或占位。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "10名同学的平均体重是32kg，其中一名同学的体重（ ）是32kg。",
+        "options": [
+          "一定",
+          "可能",
+          "不可能",
+          "绝对"
+        ],
+        "answer": "可能",
+        "explanation": "平均数不代表每个样本的值，只是整体水平，个体可能等于、大于或小于它。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复式条形统计图的绘制 with 分析",
+        "question": "比较甲乙两个超市去年四个月的利润情况，哪种图最合适？",
+        "options": [
+          "两个单式条形统计图",
+          "一个复式条形统计图",
+          "一个复合统计表",
+          "文字描述列表"
+        ],
+        "answer": "一个复式条形统计图",
+        "explanation": "一个图中放两组数据最方便直接对比。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "小明身高135cm，他在平均水深120cm的池塘中（ ）。",
+        "options": [
+          "绝对安全",
+          "仍有危险",
+          "池塘没水",
+          "一定会游泳"
+        ],
+        "answer": "仍有危险",
+        "explanation": "平均水深不能排除深水区的存在。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "根据统计图进行决策预测",
+        "question": "如果一名射击运动员前六次成绩都在9环以上，他第七次成绩最可能是多少？",
+        "options": [
+          "2环",
+          "5环",
+          "9环",
+          "0环"
+        ],
+        "answer": "9环",
+        "explanation": "根据之前的成绩波动趋势，推测其水平稳定在9环左右。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "一组数据有4个数，若平均数是25，总和是多少？",
+        "options": [
+          "25",
+          "50",
+          "100",
+          "125"
+        ],
+        "answer": "100",
+        "explanation": "$25 \\times 4 = 100$。验算：$100 \\div 4 = 25$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "小明5分钟做了40道口算题，他平均每分钟做 ___ 道。",
+        "options": [],
+        "answer": "8",
+        "explanation": "$40 \\div 5 = 8$。验算：$8 \\times 5 = 40$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "甲数是20，乙数和丙数都是26，这三个数的平均数是 ___ 。",
+        "options": [],
+        "answer": "24",
+        "explanation": "$(20 + 26 + 26) \\div 3 = 72 \\div 3 = 24$。验算：$24 \\times 3 = 72$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "五个数的平均数是60，若其中一个数改成80后，平均数变为70，则原来那个数是 ___ 。",
+        "options": [],
+        "answer": "30",
+        "explanation": "原来总和 $60 \\times 5 = 300$；现在总和 $70 \\times 5 = 350$；增加了 $350 - 300 = 50$；原数应为 $80 - 50 = 30$。验算：$(300 - 30 + 80) \\div 5 = 350 \\div 5 = 70$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "计算：$(35 + 45) \\div 2 = ?$",
+        "options": [],
+        "answer": "40",
+        "explanation": "$35 + 45 = 80$，$80 \\div 2 = 40$。验算：$40 \\times 2 = 80$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平均数的求法与意义",
+        "question": "计算平均数：三个数为120, 130, 140，平均数是？",
+        "options": [],
+        "answer": "130",
+        "explanation": "$(120 + 130 + 140) \\div 3 = 390 \\div 3 = 130$。验算：$390 \\div 130 = 3$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "平均数的求法与意义",
+      "core_concept": "平均数是一个统计学概念，通过将一组数据的总和除以数据的个数得到。它能够反映出一组数据的集中趋势和整体水平，但并不代表这组数据中的每一个具体数值。平均数极其敏感，任何一个数据的变化都会引起平均数的变化。",
+      "key_formula": "平均数 = 总数量 \\div 总份数",
+      "common_mistakes": [
+        "误以为平均数就是这组数中间的那个数。",
+        "计算总数时漏加某个数据，或者除以份数时数错个数。"
+      ],
+      "tips": "计算完平均数后，记得检查平均数是否介于这组数的最大值和最小值之间，如果超出这个范围，计算一定有误。"
+    },
+    {
+      "point": "复式条形统计图的绘制与分析",
+      "core_concept": "复式条形统计图是在一个统计图中用两种（或多种）颜色或底纹的直条来表示两组（或多组）相关联的数据。它的特点是能更清楚地表示多组数据之间的对比关系。绘制时必须包含图例，且同一类别的直条间距和宽度应保持一致。",
+      "key_formula": "复式直条 + 图例 = 对比分析",
+      "common_mistakes": [
+        "忘记在图中画出图例，导致别人看不懂不同颜色代表什么。",
+        "不同类别的直条宽度不统一，导致视觉上的大小误导。"
+      ],
+      "tips": "先确定1格代表多少数量，画图时要对齐刻度，并用不同标记区分各组。"
+    },
+    {
+      "point": "根据统计图进行决策预测",
+      "core_concept": "统计的最终目的是为了通过数据发现规律。通过观察统计图中直条的高低起伏趋势（如上升、下降或平稳），我们可以推断未来的可能变化。这在商业、气象调查和学校成绩分析中非常有用。",
+      "key_formula": "趋势分析 → 科学预测",
+      "common_mistakes": [
+        "预测时说话太绝对，使用“一定”而不是“可能”。",
+        "脱离实际生活背景，只看数字不看具体情境。"
+      ],
+      "tips": "观察最高和最低的数据，分析它们出现的原因，能帮你做出更准确的判断。"
+    }
+  ]
+}

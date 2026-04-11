@@ -1,0 +1,697 @@
+{
+  "textbook": "教科版小学科学六年级下册",
+  "unit": "小小工程师",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元《小小工程师》单元评估卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "住房的结构与系统",
+        "question": "住房中的供水、供暖、采光等系统都是独立存在的，彼此互不干扰。",
+        "options": [],
+        "answer": "错",
+        "explanation": "住房中的各个系统，如供水、供暖、电路等在设计和施工中需要相互配合，协同工作。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "工程设计通常需要经历不断修改和完善的过程。",
+        "options": [],
+        "answer": "对",
+        "explanation": "工程建设的核心是设计，且设计需要经过测试、评估和不断的优化改进。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "在搭建塔台模型时，增加三角形结构可以使模型更加稳固。",
+        "options": [],
+        "answer": "对",
+        "explanation": "三角形具有稳定性，在框架结构中增加三角形能显著提高抗压和抗扭能力。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "工程模型的测试、评估与改进",
+        "question": "只要塔台模型不倒，就说明它是一个完美的工程作品，无需改进。",
+        "options": [],
+        "answer": "错",
+        "explanation": "工程评估除了稳固性，还需考虑成本、高度、抗风能力等多项指标。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "住房的结构与系统",
+        "question": "承重墙是住房的基本结构之一，不能随意拆改。",
+        "options": [],
+        "answer": "对",
+        "explanation": "承重墙支撑着整个住房的重量，属于核心结构，随意拆除会危及房屋安全。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "下列哪一项是工程建设最核心的步骤？",
+        "options": [
+          "准备材料",
+          "进行设计",
+          "实地施工",
+          "结算成本"
+        ],
+        "answer": "进行设计",
+        "explanation": "设计是工程建设的灵魂，后续的制作、测试和改进都基于设计方案。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "住房的结构与系统",
+        "question": "下列哪项不属于住房的系统？",
+        "options": [
+          "电路系统",
+          "排水系统",
+          "家具风格",
+          "通风系统"
+        ],
+        "answer": "家具风格",
+        "explanation": "系统是指由相互作用、相互依赖的若干部分组合而成的具有特定功能的有机整体，家具风格属于软装审美。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "在制作塔台模型时，下列哪种方法可以提高塔台的防风能力？",
+        "options": [
+          "增加塔台顶部的重量",
+          "增加塔台底部的面积",
+          "减少塔台内部支架",
+          "把塔台做得更细长"
+        ],
+        "answer": "增加塔台底部的面积",
+        "explanation": "底部面积大、上轻下重的结构能够有效提高塔台的防风和稳固性能。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "利用吸管制作塔台模型时，常用的连接材料是？",
+        "options": [
+          "双面胶",
+          "热熔胶或胶带",
+          "订书钉",
+          "细绳"
+        ],
+        "answer": "热熔胶或胶带",
+        "explanation": "教材实践中，吸管塔台主要利用胶带或热熔胶进行节点固定。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程模型的测试、评估与改进",
+        "question": "在测试塔台承重能力时，下列操作正确的是？",
+        "options": [
+          "重物要轻轻地放在塔顶正中央",
+          "重物可以随意堆放",
+          "只要放上去就行，不用管位置",
+          "用手托住塔台进行加重"
+        ],
+        "answer": "重物要轻轻地放在塔顶正中央",
+        "explanation": "为了测试模型的真实承载力并保证安全，重物应轻放且中心对齐。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "住房的结构与系统",
+        "question": "住房中用于支撑房屋重量的梁、柱属于？",
+        "options": [
+          "排水系统",
+          "供电系统",
+          "基本结构",
+          "装饰部分"
+        ],
+        "answer": "基本结构",
+        "explanation": "梁、柱、墙是构成房屋稳固性的基本结构。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "当设计方案在测试中没有达到预期目标时，工程师应该？",
+        "options": [
+          "直接放弃该工程",
+          "分析原因并修改方案",
+          "不理会测试结果继续施工",
+          "全盘按照原来的设计重做"
+        ],
+        "answer": "分析原因并修改方案",
+        "explanation": "测试的目的就是发现问题，通过分析原因优化设计是工程的核心逻辑。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "塔台模型评估表中，最重要的两项指标通常是？",
+        "options": [
+          "美观和材料多少",
+          "高度和制作时间",
+          "材料成本和塔台颜色",
+          "稳固性和承重能力"
+        ],
+        "answer": "稳固性和承重能力",
+        "explanation": "作为安全性工程，稳固和承重是满足基本功能的最关键指标。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "下列框架结构中，哪种形状最抗压且不易变形？",
+        "options": [
+          "正方形",
+          "长方形",
+          "三角形",
+          "五边形"
+        ],
+        "answer": "三角形",
+        "explanation": "三角形具有几何稳定性，是框架结构的基础单元。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "工程模型的测试、评估与改进",
+        "question": "在控制工程成本时，最合理的做法是？",
+        "options": [
+          "使用尽可能多的廉价材料",
+          "直接减少所有材料的使用量",
+          "在保证安全前提下减少浪费",
+          "为了省钱偷工减料"
+        ],
+        "answer": "在保证安全前提下减少浪费",
+        "explanation": "成本节约必须建立在工程质量合格的基础之上。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "住房的结构与系统",
+        "question": "北京“鸟巢”体育馆的结构形式主要是？",
+        "options": [
+          "砖混结构",
+          "钢结构框架",
+          "纯木结构",
+          "混凝土结构"
+        ],
+        "answer": "钢结构框架",
+        "explanation": "鸟巢利用钢梁相互支撑形成巨型空间网格结构。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "工程建设中，限制条件通常不包括？",
+        "options": [
+          "工程造价",
+          "使用材料",
+          "天气变化",
+          "学生的爱好"
+        ],
+        "answer": "学生的爱好",
+        "explanation": "限制条件主要是指客观的时间、空间、资金和技术条件。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "当塔台模型发生倾斜时，最有效的改进方法是？",
+        "options": [
+          "把倾斜方向的支架加长",
+          "调整底座重心并加固连接点",
+          "在倾斜的一侧挂重物",
+          "减少整体高度"
+        ],
+        "answer": "调整底座重心并加固连接点",
+        "explanation": "倾斜通常由底部不平或连接不牢导致，应针对重心和结构进行优化。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国著名工程",
+        "question": "举世瞩目的港珠澳大桥全长（___）千米，是桥、岛、隧为一体的世界级工程。",
+        "options": [],
+        "answer": "55",
+        "explanation": "港珠澳大桥全长约55千米，是目前世界上最长的跨海大桥。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "在工程建设程序中，通常我们将“制作模型”排在第（___）步（提示：按照明确问题、设计、制作、测试顺序）。",
+        "options": [],
+        "answer": "3",
+        "explanation": "标准工程流程：1.明确问题；2.方案设计；3.制作模型；4.测试评估；5.改进优化。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "在框架结构中，增加（___）可以起到支撑作用，使结构变得稳定。",
+        "options": [],
+        "answer": "斜杆",
+        "explanation": "斜杆与梁、柱形成三角形，是提升框架抗变形能力的关键。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "工程建设是为了满足人们的（___）而开展的有目的的实践活动。",
+        "options": [],
+        "answer": "需求",
+        "explanation": "所有的工程项目都是为了解决实际问题，满足人类的需求而诞生的。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程模型的测试、评估与改进",
+        "question": "当我们在评估模型时，通过（___）可以直观地看出各项指标的得分和不足。",
+        "options": [],
+        "answer": "评价量表",
+        "explanation": "评价量表提供了统一的标准，方便对工程模型进行量化测试和对比。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级科学下册第一学期期末质量检测卷（工程单元专项）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "住房的结构与系统",
+        "question": "住房的供水系统是通过水管与外界水源连通的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "住房系统是一组相连的零件或部分构成的整体，供水系统负责引入、过滤和分配水。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "设计方案的改进不需要考虑成本，只要效果好就可以。",
+        "options": [],
+        "answer": "错",
+        "explanation": "工程评价是多维度的，成本控制是工程师必须面对的关键限制条件。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "制作塔台模型前，必须先在纸上画出设计方案。",
+        "options": [],
+        "answer": "对",
+        "explanation": "设计图是施工的依据，体现了思考的过程，不能盲目堆叠。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "神舟飞船的发射属于一项宏大的科学探索，同时也属于一项伟大的工程。",
+        "options": [],
+        "answer": "对",
+        "explanation": "航天属于复杂的系统性工程，包含设计、制造、测试等环节。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "工程模型的测试、评估与改进",
+        "question": "测试塔台抗震能力时，通常可以用晃动桌面的方式进行量化模拟。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在教室内，通过不同等级的震动（如专业震动台或模拟晃动）来检测稳固性。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "住房的结构与系统",
+        "question": "下列属于住房内部设施的是？",
+        "options": [
+          "电视机",
+          "抽油烟机",
+          "马桶",
+          "以上全是"
+        ],
+        "answer": "以上全是",
+        "explanation": "电视属于电器，油烟机和马桶属于厨房和卫浴设施，都是住房配套的一部分。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "“明确工程要解决的问题”属于工程建设的第几个阶段？",
+        "options": [
+          "第一阶段",
+          "第二阶段",
+          "第三阶段",
+          "第四阶段"
+        ],
+        "answer": "第一阶段",
+        "explanation": "工程的第一步是明确任务，了解目标和限制条件。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "用吸管搭建框架时，最稳定的基本图形是？",
+        "options": [
+          "梯形",
+          "平行四边形",
+          "正方形",
+          "三角形"
+        ],
+        "answer": "三角形",
+        "explanation": "三角形的三边长度确定后，形状就固定了，具有稳定性。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "为了提高塔台的承重能力，下列做法最合理的是？",
+        "options": [
+          "增加吸管的长度",
+          "多使用斜杆连接形成三角形",
+          "在底部涂更多的胶带",
+          "将吸管弯曲使用"
+        ],
+        "answer": "多使用斜杆连接形成三角形",
+        "explanation": "合理的三角形支撑结构能显著分散压力并提升整体强度。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "工程模型的测试、评估与改进",
+        "question": "当小组的塔台模型测试成绩不理想时，应该采取的态度是？",
+        "options": [
+          "把模型拆了不做了",
+          "反思设计中的问题并进行优化",
+          "修改测试数据使之合格",
+          "埋怨队友配合不好"
+        ],
+        "answer": "反思设计中的问题并进行优化",
+        "explanation": "失败和问题是改进设计的契机，也是工程师成长的必经之路。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "工程模型的测试、评估与改进",
+        "question": "在项目评估中，如果小组为了省钱而使用了较少的吸管导致坍塌，这说明？",
+        "options": [
+          "成本控制得很好",
+          "平衡成本与安全的关系处理不当",
+          "应该完全不计成本",
+          "这种吸管质量不行"
+        ],
+        "answer": "平衡成本与安全的关系处理不当",
+        "explanation": "工程需要在安全、性能、成本之间寻找最佳平衡点。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "住房的结构与系统",
+        "question": "下列哪项描述是关于住房外部环境的？",
+        "options": [
+          "卧室的墙壁是白色的",
+          "屋顶安装了太阳能板",
+          "房子靠近社区公园",
+          "客厅窗帘是蓝色的"
+        ],
+        "answer": "房子靠近社区公园",
+        "explanation": "外部环境指房屋周边的选址、地形、配套辅助设施等。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "在工程实践中，科学家和工程师经常会建立模型，其主要目的是？",
+        "options": [
+          "为了好玩",
+          "向别人展示漂亮的作品",
+          "测试设计和发现潜在问题",
+          "直接当作最终成品使用"
+        ],
+        "answer": "测试设计和发现潜在问题",
+        "explanation": "模型测试是验证设计可行性的低成本且高效的方法。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "在制作吸管模型中，胶带过量使用会导致？",
+        "options": [
+          "模型更好看了",
+          "增加结构负荷且浪费成本",
+          "模型一定会更稳",
+          "没有负面影响"
+        ],
+        "answer": "增加结构负荷且浪费成本",
+        "explanation": "过度缠绕胶带会增加自重并增加材料成本，不一定是好的设计。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "住房的结构与系统",
+        "question": "下列对于“系统”的理解，错误的是？",
+        "options": [
+          "系统是由多个部分组成的",
+          "各个部分之间互不联通",
+          "系统具有特定的功能",
+          "系统各部分协同工作"
+        ],
+        "answer": "各个部分之间互不联通",
+        "explanation": "系统各部分必须相互作用、相互依赖才能产生功能。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "下列建筑中，不属于大型工程的是？",
+        "options": [
+          "学校的教学楼",
+          "胡同里的临时棚子",
+          "跨海大桥",
+          "水立方游泳馆"
+        ],
+        "answer": "胡同里的临时棚子",
+        "explanation": "工程通常具有明确的设计、施工和长期的使用需求，而临时简易搭建不算严格意义上的工程。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "为了使塔台更稳固，不倒翁原理给我们的启示是？",
+        "options": [
+          "把塔台做成圆形",
+          "顶部要用重物填满",
+          "底部做得重一些，重心降低",
+          "尽量不接触地面"
+        ],
+        "answer": "底部做得重一些，重心降低",
+        "explanation": "上轻下重、重心低是物体稳固的重要条件。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "如果在设计图阶段发现预算超标，应该如何操作？",
+        "options": [
+          "先做出来，钱不够再去借",
+          "删减不必要的功能或寻找平价替代材料",
+          "不管预算，随意施工",
+          "直接更换设计题目"
+        ],
+        "answer": "删减不必要的功能或寻找平价替代材料",
+        "explanation": "这是在限制条件下进行设计的典型场景，调整方案由于施工前进行。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "在制作高60厘米的塔台模型时，如果实际高度只有58厘米，在评价表中这一项得（___）分（假设满分3分，每差1厘米扣1分）。",
+        "options": [],
+        "answer": "1",
+        "explanation": "高度每差1cm扣1分，差2cm扣2分，剩余1分。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "住房的结构与系统",
+        "question": "一套普通住房通常包含卧室、客厅、厨房、卫生间等（___）个及以上的独立功能区。",
+        "options": [],
+        "answer": "4",
+        "explanation": "基础住宅一般由这四个核心区域构成。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "塔台模型的设计与制作",
+        "question": "在塔台搭建的关键部位（节点）用（___）包裹，可以增加连接的牢固度。",
+        "options": [],
+        "answer": "胶带",
+        "explanation": "节点是框架最脆弱的地方，胶带的使用能起到加固作用。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "工程建设的步骤与特点",
+        "question": "工程设计的核心是（___）技术，通过技术手段解决实际生活中的难题。",
+        "options": [],
+        "answer": "核心",
+        "explanation": "工程与技术相辅相成，核心技术是工程成功的关键。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "住房的结构与系统",
+        "question": "为了环保，现代住房常通过（___）系统利用自然能源进行供电。",
+        "options": [],
+        "answer": "太阳能",
+        "explanation": "太阳能是常见的环保可再生能源，广泛应用于现代节能建筑系统。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "住房的结构与系统",
+      "core_concept": "住房是由基本结构（梁、柱、墙等）和各种功能系统（供水、供电、通风等）组成的整体。",
+      "key_formula": "住房=基本结构+配套系统+相关设施",
+      "common_mistakes": [
+        "认为装修风格也属于住房系统",
+        "忽略了各系统之间在墙体内的交叉协作关系"
+      ],
+      "tips": "观察自家的总电闸、水表位置，能帮助理解系统的集成。"
+    },
+    {
+      "point": "工程建设的步骤",
+      "core_concept": "工程建设是一个具有特定流程的实践循环：目标→设计→制作→测试→优化。",
+      "key_formula": "设计是工程的核心，测试是改进的依据。",
+      "common_mistakes": [
+        "直接动手制作而不画草图",
+        "认为测试失败就意味着工程彻底毁了"
+      ],
+      "tips": "在遇到困难时，先回看设计图，分析是材料问题还是结构问题。"
+    },
+    {
+      "point": "框架结构稳定性",
+      "core_concept": "三角形具有稳定性，通过增加斜杆形成三角形结构可以提高塔台抗压和抗扭能力。",
+      "key_formula": "三角形>四边形（稳固性对比）",
+      "common_mistakes": [
+        "在不需要支撑的地方添加过多斜杆增加负担",
+        "连接点（节点）缠绕不紧导致晃动"
+      ],
+      "tips": "制作时遵循“上轻下重”、“上窄下宽”原则可极大提高抗震性。"
+    },
+    {
+      "point": "测试与评估",
+      "core_concept": "依据科学的指标体系（评价量表）进行公平测试，是判断工程质量的唯一标准。",
+      "key_formula": "工程质量=功能得分+性能得分-成本权重",
+      "common_mistakes": [
+        "忽视成本指标，过度堆砌材料",
+        "测试方法不统一导致数据无效"
+      ],
+      "tips": "学会看懂雷达图，通过数据短板制定改进计划。"
+    }
+  ]
+}

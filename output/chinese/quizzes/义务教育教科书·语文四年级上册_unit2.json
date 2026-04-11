@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文四年级上册",
+  "unit": "提问策略",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元提问策略基础达标周测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "筛选有价值的问题",
+        "question": "在阅读时，我们应该只针对自己不认识的生字提问，其他问题都不重要。",
+        "options": [],
+        "answer": "错",
+        "explanation": "提问不仅限于生字，还要针对课文内容、写法及联系生活多角度提问。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "雷达发出的无线电波遇到障碍物反映回来，显示在荧光屏上，这和蝙蝠探路原理是一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "雷达的无线电波相当于蝙蝠的超声波，这是典型的仿生学应用。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多角度尝试提问",
+        "question": "优秀的提问者只会在读完课文后才开始提问。",
+        "options": [],
+        "answer": "错",
+        "explanation": "阅读中、阅读后都可以提问，甚至看到题目时就可以开始思考。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "《一个豆荚里的五粒豆》中的第五粒豆让生病的小女孩感到愉快，对生活充满了希望。",
+        "options": [],
+        "answer": "对",
+        "explanation": "豌豆的顽强生命力感染了小女孩，使其身体逐渐康复。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "筛选有价值的问题",
+        "question": "“课文中为什么要把小豌豆比作小天使？”这是一个关于文章写法的问题。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这涉及到了作者采用比喻手法的用意，属于文章写法维度的提问。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "阅读《夜间飞行的秘密》，画线词语“横七竖八”的意思是什么？",
+        "options": [
+          "形容东西很多",
+          "形容杂乱无章",
+          "形容非常有规律",
+          "形容数量极少"
+        ],
+        "answer": "形容杂乱无章",
+        "explanation": "文中描述绳子排布乱，选项中杂乱无章最为符合。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度尝试提问",
+        "question": "阅读短文：“豌豆在那儿长得很好，它还开了一朵粉红色的花。”针对这段话提出的问题中，属于“联系生活”角度的是项？",
+        "options": [
+          "豌豆花是什么颜色的？",
+          "作者为什么写豌豆花？",
+          "豌豆种子要在什么环境下才能发芽开花？",
+          "豌豆花一共有几片花瓣？"
+        ],
+        "answer": "豌豆种子要在什么环境下才能发芽开花？",
+        "explanation": "该问题探讨的是动植物生长的客观条件，属于联系现实生活的科学常识提问。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "筛选有价值的问题",
+        "question": "下列哪个问题能最有效地帮助我们理解《呼风唤雨的世纪》这篇课文的核心内容？",
+        "options": [
+          "课文中提到了哪些神话故事？",
+          "“哲学家”这三个字怎么写？",
+          "为什么说20世纪是一个呼风唤雨的世纪？",
+          "文章第一段有多少个字？"
+        ],
+        "answer": "为什么说20世纪是一个呼风唤雨的世纪？",
+        "explanation": "理解“呼风唤雨”的含义和原因能直接触达文章主旨。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "在蝙蝠实验中，科学家蒙住蝙蝠的（  ），它依然能安全飞行。",
+        "options": [
+          "嘴巴",
+          "耳朵",
+          "眼睛",
+          "头部"
+        ],
+        "answer": "眼睛",
+        "explanation": "蝙蝠夜行靠的是听觉（超声波），不是视觉。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句式转换正误判断",
+        "question": "把“难道这不是一个奇迹吗？”改成陈述句，正确的是：",
+        "options": [
+          "这肯定是一个奇迹。",
+          "这是一个奇迹。",
+          "这难道是一个奇迹？",
+          "这是一个奇迹吗？"
+        ],
+        "answer": "这是一个奇迹。",
+        "explanation": "反问句变陈述句，肯变否，去掉疑问词和问号。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "筛选有价值的问题",
+        "question": "针对《蝴蝶的家》：“我常想，下大雨的时候，青鸟、麻雀这些鸟儿都在哪儿呢？”下面提问属于“针对内容”角度的是：",
+        "options": [
+          "作者用这种语气写有什么好处？",
+          "蝴蝶在雨天真的没地方躲避吗？",
+          "生活中我见过哪些避雨的小动物？",
+          "青鸟和麻雀属于什么科类？"
+        ],
+        "answer": "蝴蝶在雨天真的没地方躲避吗？",
+        "explanation": "直接针对课文所描述的寻找蝴蝶避雨所处的“课文内容”发问。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度尝试提问",
+        "question": "“那时没有电灯，没有电视，没有收音机，也没有汽车。”这句话使用了（  ）修辞手法。",
+        "options": [
+          "拟人",
+          "排比",
+          "比喻",
+          "夸张"
+        ],
+        "answer": "排比",
+        "explanation": "四个“没有……”构成了结构相同、意义相关的排比句。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "“忽如一夜春风来，千树万树梨花开。”诗句中“梨花”是指什么？",
+        "options": [
+          "美丽的梨树花",
+          "洁白的雪花",
+          "柳絮",
+          "白云"
+        ],
+        "answer": "洁白的雪花",
+        "explanation": "这是《呼风唤雨的世纪》引用的诗句，比喻现代科学成就如雪花般纷纷呈现。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "下列关于雷达与蝙蝠的对应关系，错误的是：",
+        "options": [
+          "天线——嘴巴",
+          "无线电波——超声波",
+          "荧光屏——耳朵",
+          "雷达——蝙蝠"
+        ],
+        "answer": "荧光屏——耳朵",
+        "explanation": "荧光屏是显示结果的，而耳朵是接收信号的对应物。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "标点符号选择",
+        "question": "“它是那么机灵（  ）又是那么温柔（  ）”括号里应填入：",
+        "options": [
+          "， 。",
+          "。 。",
+          "！ ！",
+          "， ？"
+        ],
+        "answer": "， 。",
+        "explanation": "并列成分中间逗号，陈述句末尾句号。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度尝试提问",
+        "question": "提问清单可以从内容、写法和（    ）三个角度来整理。",
+        "options": [],
+        "answer": "联系生活",
+        "explanation": "本单元明确提出的三个提问维度：内容、写法、联系生活。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "《夜间飞行的秘密》原文题目曾叫《蝙蝠和（    ）》。",
+        "options": [],
+        "answer": "雷达",
+        "explanation": "文章主要讲述了从蝙蝠身上得到启示发明雷达的过程。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词辨析",
+        "question": "找出“现代科学技术改变了人类的生活方式”中的动词：",
+        "options": [],
+        "answer": "改变",
+        "explanation": "“改变”是主语“技术”发出的动作。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "请将下列词语与它们的意思正确连接。",
+        "options": [
+          "洞察",
+          "潜伏",
+          "依赖",
+          "奥秘",
+          "深奥的秘密",
+          "观察得透彻",
+          "依靠",
+          "隐藏"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "考查课文核心词组的词义理解。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "请将科学发现或发明与其启示来源连接起来。",
+        "options": [
+          "雷达",
+          "直升机",
+          "潜水艇",
+          "超声波诊断仪",
+          "蝙蝠",
+          "鱼类",
+          "蜻蜓",
+          "海豚"
+        ],
+        "answer": "A-1,B-3,C-2,D-4",
+        "explanation": "考查仿生学的科学常识。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度尝试提问",
+        "question": "请根据问题的类型进行分类。",
+        "options": [
+          "为什么是五粒豆？",
+          "作者用词真形象",
+          "我也见过豌豆花",
+          "雷达有什么用？",
+          "内容维度",
+          "写法维度",
+          "联系生活维度",
+          "科学常识"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "根据提问的切入点判断问题所属类别。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "请将词语排成关于蝙蝠飞行的句子。",
+        "options": [
+          "蝙蝠",
+          "灵巧地",
+          "在夜里",
+          "能够",
+          "飞行"
+        ],
+        "answer": "蝙蝠,在夜里,能够,灵巧地,飞行",
+        "explanation": "主语+状语+谓语的基本句式。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多角度尝试提问",
+        "question": "请排出一个关于“好问题”定义的句子。",
+        "options": [
+          "能够",
+          "好问题",
+          "引发",
+          "深入的",
+          "思考"
+        ],
+        "answer": "好问题,能够,引发,深入的,思考",
+        "explanation": "名词+助动词+动词+形容词+名词。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第二单元提问策略综合学业质量监测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "筛选有价值的问题",
+        "question": "筛选问题时，我们需要把对理解课文没有帮助的简单问题剔除。",
+        "options": [],
+        "answer": "对",
+        "explanation": "为了深入理解，应优先关注能引发思考的高质量问题。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "蝙蝠在夜间飞行时，是靠眼睛来避开障碍物的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "蝙蝠是靠嘴发出超声波，由耳朵接收回声来定位的。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“潜入”的“潜”字在这里读音是 qián。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“潜”字没有 qiǎn 的发音，只有 qián。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "多角度尝试提问",
+        "question": "针对课题提问是一种低级的提问方式，无助于理解全文。",
+        "options": [],
+        "answer": "错",
+        "explanation": "针对课题提问是捕捉文章核心主旨的重要途径。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "“呼风唤雨”在课文中形容人类利用自然的能力很强。",
+        "options": [],
+        "answer": "对",
+        "explanation": "文中用这个词形象表现了科学技术的巨大力量。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "筛选有价值的问题",
+        "question": "读《一个豆荚里的五粒豆》后，以下哪个问题最能带给你启发？",
+        "options": [
+          "豆荚里一共有几粒豆？",
+          "伴随着豌豆的成长，小女孩的病为什么渐渐好了？",
+          "豆荚是什么颜色的？",
+          "文中的小女孩到底几岁了？"
+        ],
+        "answer": "伴随着豌豆的成长，小女孩的病为什么渐渐好了？",
+        "explanation": "这个问题涉及生命力对人的鼓舞，属于深层次理解课文本质的问题。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "《夜间飞行的秘密》中，科学家三次实验证明了蝙蝠夜间飞行靠的是（   ）。",
+        "options": [
+          "敏锐的视觉",
+          "嘴和耳朵的配合",
+          "灵活的翅膀",
+          "高超的记忆力"
+        ],
+        "answer": "嘴和耳朵的配合",
+        "explanation": "这是文章最核心的科学实验结论。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“人类在上百万年的历史中一直定居在一个地方。”句子中“定居”的近义词是：",
+        "options": [
+          "搬家",
+          "居住",
+          "旅行",
+          "动摇"
+        ],
+        "answer": "居住",
+        "explanation": "定居意为相对固定地居住在某地。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度尝试提问",
+        "question": "在《呼风唤雨的世纪》中，作者为什么引用陶渊明的诗句？这个问题属于（  ）角度。",
+        "options": [
+          "课文内容",
+          "文章写法",
+          "联系生活",
+          "生字词语"
+        ],
+        "answer": "文章写法",
+        "explanation": "提问引用句子的作用，属于对文章表达方式的探讨。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "选出与“舒服”意思最接近的词：",
+        "options": [
+          "舒畅",
+          "紧急",
+          "痛苦",
+          "马虎"
+        ],
+        "answer": "舒畅",
+        "explanation": "两个词都代表心理或生理上的愉悦状态。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "筛选有价值的问题",
+        "question": "阅读文章《蝴蝶的家》，下列哪个问题能够引导我们深入探讨人与自然的关系？",
+        "options": [
+          "蝴蝶的翅膀上有花纹吗？",
+          "麦田在哪里？",
+          "为什么作者如此关切雨中的蝴蝶？",
+          "蝴蝶飞行时有没有声音？"
+        ],
+        "answer": "为什么作者如此关切雨中的蝴蝶？",
+        "explanation": "这个问题探讨作者的情感寄托，上升到人文关怀层面。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "“是谁来呼风唤雨呢（  ）当然是人类（  ）”括号里应填入：",
+        "options": [
+          "？ 。",
+          "。 。",
+          "， ？",
+          "！ ！"
+        ],
+        "answer": "？ 。",
+        "explanation": "这是典型的设问句，先提问，后回答。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度尝试提问",
+        "question": "阅读语段：“20世纪是一个呼风唤雨的世纪。”这句话在全文中的作用是（  ）。",
+        "options": [
+          "点明主旨",
+          "总结全文",
+          "引起下文",
+          "埋下伏笔"
+        ],
+        "answer": "点明主旨",
+        "explanation": "首句开宗明义，确定了全文的基调。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“地球不再像是一个遥不可及的荒原，而是一个小小的小村庄。”这句话用了什么修辞？",
+        "options": [
+          "排比",
+          "比喻",
+          "拟人",
+          "反问"
+        ],
+        "answer": "比喻",
+        "explanation": "把地球比作村庄，形象说明了科技拉近了人们的距离。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度尝试提问",
+        "question": "“在漆黑的夜里，飞机怎么能安全飞行呢？”这是一个（  ）。",
+        "options": [
+          "疑问句",
+          "陈述句",
+          "感叹句",
+          "祈使句"
+        ],
+        "answer": "疑问句",
+        "explanation": "句中带有疑问词“怎么”且结尾使用问号。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多角度尝试提问",
+        "question": "在阅读中产生的，如果不影响对课文内容的理解，可以适当（    ）。",
+        "options": [],
+        "answer": "忽略",
+        "explanation": "提问也要分主次，为了阅读效率，非核心问题可以先放下。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "蝙蝠发出超声波就像雷达发出的（    ）。",
+        "options": [],
+        "answer": "无线电波",
+        "explanation": "无线电波是雷达工作的核心物理媒介。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“亿”字的部首是（    ）。",
+        "options": [],
+        "answer": "人",
+        "explanation": "亿是单人旁，部首即人。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "请将下列近义词进行配对。",
+        "options": [
+          "发明",
+          "改观",
+          "探索",
+          "改善",
+          "创造",
+          "改变",
+          "寻求",
+          "完善"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "考查对相近动词的使用语境认知。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "科学实验逻辑与原理解析",
+        "question": "请将五粒豌豆的最终“命运”连接起来。",
+        "options": [
+          "第一粒",
+          "第二粒",
+          "第三四粒",
+          "第五粒",
+          "飞进水沟",
+          "飞向世界",
+          "给孩子带来希望",
+          "被鸽子吃掉"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "回顾《一个豆荚里的五粒豆》的具体故事情节。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多角度尝试提问",
+        "question": "请将下列问题与其所属的角度连接起来。",
+        "options": [
+          "为什么豌豆想飞？",
+          "为什么用设问句？",
+          "现代科技还有啥？",
+          "飞机的翅膀长吗？",
+          "针对内容",
+          "针对写法",
+          "联系生活",
+          "无效提问"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "区分提问的不同视角以及问题的价值。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度尝试提问",
+        "question": "请将词语排成关于“提问”好处的句子。",
+        "options": [
+          "提问",
+          "理解",
+          "可以",
+          "帮助",
+          "我们"
+        ],
+        "answer": "提问,可以,帮助,我们,理解",
+        "explanation": "这是对本单元核心策略意义的表述。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多角度尝试提问",
+        "question": "请排出一个关于阅读与思考关系的句子。",
+        "options": [
+          "带着问题",
+          "能够",
+          "更深入地",
+          "阅读",
+          "思考"
+        ],
+        "answer": "带着问题,阅读,能够,更深入地,思考",
+        "explanation": "强调提问策略对思维能力的提升作用。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "多角度尝试提问",
+      "core_concept": "阅读时不只是被动接受信息，而是主动发问。提问可以从三个维度展开：1.针对课文内容（发生了什么，为什么这样）；2.针对文章写法（作者为什么要用这个词，这个比喻好在哪里）；3.联系生活经验（生活中是否有类似现象）。通过这些维度，能使阅读从表面走向纵深。",
+      "key_formula": "问题清单 = 内容维度 + 写法维度 + 生活维度",
+      "common_mistakes": [
+        "只针对自己不认识的字词提问，忽略了对情节和写法的思考",
+        "问题杂乱无章，无法区分哪些是关键问题"
+      ],
+      "tips": "读课文时可以在旁边画个问号，先把脑子里冒出的所有念头记下来，再归类。"
+    },
+    {
+      "point": "筛选有价值的问题",
+      "core_concept": "并非所有问题都对理解文章有同等价值。要学会区分“不影响理解的问题”（如：豆荚是什么颜色）和“能引发深入思考的问题”（如：为什么第五粒豌豆能给小女孩带来希望）。筛选的过程就是提炼文章主旨、聚焦核心矛盾的过程。",
+      "key_formula": "筛选规则 = 剔除浅表信息问题 + 保留深层逻辑问题",
+      "common_mistakes": [
+        "把所有问题都当成同等重要，平均分配精力",
+        "分不清什么是“写法”问题，什么是“内容”问题"
+      ],
+      "tips": "问问自己：‘如果我不解决这个问题，我能读懂这篇文章吗？’如果能，那就是次要问题。"
+    },
+    {
+      "point": "科学实验逻辑与原理解析",
+      "core_concept": "通过《夜间飞行的秘密》学习科学小品文的逻辑。理解科学家如何通过“提出疑问—进行实验—得出结论—发明创造”这一严谨过程开展研究。特别是掌握蝙蝠（嘴、超声波、耳朵）与雷达（天线、无线电波、荧光屏）之间的仿生对应关系。",
+      "key_formula": "仿生逻辑：生物特征 -> 科学实验 -> 人类发明",
+      "common_mistakes": [
+        "错认为雷达模仿的是蝙蝠的眼睛",
+        "混淆了嘴巴对应天线、耳朵对应荧光屏的具体关系"
+      ],
+      "tips": "可以画一个简单的对比草图，左边画蝙蝠，右边画雷达，用直线连接对应的器官和零件。"
+    }
+  ]
+}

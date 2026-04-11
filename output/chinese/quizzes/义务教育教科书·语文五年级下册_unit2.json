@@ -1,0 +1,732 @@
+{
+  "textbook": "统编版小学语文五年级下册",
+  "unit": "第二单元：古典名著之旅",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元古典名著单元基础测评",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "阅读古典名著时，遇到难懂的词语可以结合上下文来猜测大概意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是阅读古典名著的核心策略，不必字字深究，重点通过上下文理清语意。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "《草船借箭》一文中，诸葛亮最终借助大雨杀退了曹操的军队。",
+        "options": [],
+        "answer": "错",
+        "explanation": "文中诸葛亮是借助大雾和草船向曹操“借”箭，而不是借助大雨。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分析人物性格特点",
+        "question": "《景阳冈》中的武松，是一个豪爽、勇敢但也有点自尊心强的硬汉。",
+        "options": [],
+        "answer": "对",
+        "explanation": "武松不听店家劝告上山，明知有虎也要上去，体现了他的性格特点。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "“榜文”在《景阳冈》一文中指的是官府贴出的告示。",
+        "options": [],
+        "answer": "对",
+        "explanation": "联系课文背景，“榜文”即为官府发布的正式通告。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "《猴王出世》中，石猴之所以能当王，完全是因为他天生力气比别的猴子大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "石猴当王是因为他敢于第一个跳进水帘洞，展现了极大的勇气。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "阅读《草船借箭》，“鲁肃私自拨了二十条快船”中的“私自”一词，说明鲁肃：",
+        "options": [
+          "为人不诚实",
+          "想独吞箭支",
+          "顾全大局暗中相助",
+          "极其自私"
+        ],
+        "answer": "顾全大局暗中相助",
+        "explanation": "“私自”说明鲁肃瞒着周瑜帮诸葛亮，体现了他忠厚、顾大局的品质。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "“店家给武松筛了三碗酒”中，“筛”字在古汉语中的意思是：",
+        "options": [
+          "过滤",
+          "倒酒",
+          "加热",
+          "品尝"
+        ],
+        "answer": "倒酒",
+        "explanation": "在古文中，针对酒液的操作常用“筛”表示倒出。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "下列哪组词语最适合用来形容诸葛亮？",
+        "options": [
+          "有勇有谋，神机妙算",
+          "鲁莽行事，自高自大",
+          "老实忠厚，优柔寡断",
+          "心胸狭窄，嫉贤妒能"
+        ],
+        "answer": "有勇有谋，神机妙算",
+        "explanation": "诸葛亮运筹帷幄，草船借箭体现了他的神机妙算。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "《冬阳·童年·骆驼队》是哪部古典名著或经典作品的序言？",
+        "options": [
+          "《西游记》",
+          "《城南旧事》",
+          "《水浒传》",
+          "《三国演义》"
+        ],
+        "answer": "《城南旧事》",
+        "explanation": "这是林海音《城南旧事》的出版序言。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "诸葛亮算准了什么时候会有大雾？",
+        "options": [
+          "第一天清晨",
+          "第二天中午",
+          "第三天四更",
+          "第四天夜里"
+        ],
+        "answer": "第三天四更",
+        "explanation": "课文明确记载诸葛亮预测出第三天四更天必有大雾。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "章回体小说的特点是：",
+        "options": [
+          "故事没有结尾",
+          "由许多个短篇组成",
+          "分章叙述，标题多采用对仗",
+          "以第一人称叙述"
+        ],
+        "answer": "分章叙述，标题多采用对仗",
+        "explanation": "章回体小说每一章都有一个对仗工整的回目。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "在《红楼春趣》中，谁的剪纸风筝由于线断了而飞走了？",
+        "options": [
+          "林黛玉",
+          "贾宝玉",
+          "薛宝钗",
+          "探春"
+        ],
+        "answer": "林黛玉",
+        "explanation": "林黛玉的风筝线断了，众人说这叫“放晦气”。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "“请君入瓮”这个典故与哪位历史人物相关？",
+        "options": [
+          "诸葛亮",
+          "周兴",
+          "严监生",
+          "武松"
+        ],
+        "answer": "周兴",
+        "explanation": "虽然第二单元涉及名著，但文学常识积累中“请君入瓮”指唐朝周兴。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分析人物性格特点",
+        "question": "武松在景阳冈上打虎时，所用的哨棒由于：",
+        "options": [
+          "被老虎咬碎",
+          "太重了拿不动",
+          "打在枯树上折断",
+          "丢在山下没带上来"
+        ],
+        "answer": "打在枯树上折断",
+        "explanation": "书中描写武松抡起哨棒猛打老虎，却因用力过猛打在枯树上折断。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "“身躯凛凛，相貌堂堂。一双眼光射寒星，两弯眉浑如刷漆。”刻画的是：",
+        "options": [
+          "石猴",
+          "武松",
+          "鲁肃",
+          "周瑜"
+        ],
+        "answer": "武松",
+        "explanation": "这是《水浒传》中对行者武松的经典容貌描写。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "“草船借箭”的主谋是吴国的都督（___）。",
+        "options": [],
+        "answer": "周瑜",
+        "explanation": "周瑜因嫉妒诸葛亮，才设下了十天造十万支箭的计谋。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "石猴在花果山发现的水洞，石碑上刻着“（___）洞天”。",
+        "options": [],
+        "answer": "福地",
+        "explanation": "原著文字为“花果山福地，水帘洞洞天”。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "《三国演义》的作者是元末明初的（___）。",
+        "options": [],
+        "answer": "罗贯中",
+        "explanation": "罗贯中是中国四大名著之一《三国演义》的作者。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "请将下列古代用词与现代意思对应连线：",
+        "options": [
+          "郎中",
+          "印信",
+          "驿站",
+          "伙计",
+          "医生",
+          "旅店",
+          "图章",
+          "店员"
+        ],
+        "answer": "A-1,B-3,C-2,D-4",
+        "explanation": "古代郎中即医生，印信即公章，驿站可做旅店理解，伙计即店员。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分析人物性格特点",
+        "question": "请将名著人物与其对应的典型特征连线：",
+        "options": [
+          "诸葛亮",
+          "武松",
+          "林黛玉",
+          "石猴",
+          "多愁善感",
+          "勇敢灵巧",
+          "神机妙算",
+          "豪放硬朗"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "诸葛亮核心特征是神机妙算，武松是豪放硬朗，黛玉多愁善感，石猴勇敢灵巧。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "请将名著与其作者或出处连线：",
+        "options": [
+          "《西游记》",
+          "《草船借箭》",
+          "《景阳冈》",
+          "《红楼春趣》",
+          "《三国演义》",
+          "《水浒传》",
+          "吴承恩",
+          "《红楼梦》"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "西游记是吴承恩作，草船借箭出自三国，景阳冈出自水浒，红楼春趣出自红楼梦。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "请理顺诸葛亮草船借箭的原因：",
+        "options": [
+          "设下",
+          "借箭",
+          "计谋",
+          "周瑜",
+          "陷害"
+        ],
+        "answer": "周瑜,设下,计谋,陷害,借箭",
+        "explanation": "整个故事的起因是周瑜想陷害诸葛亮借箭不成。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "书写读后感",
+        "question": "读完名著后，写读后感的基本步骤是：",
+        "options": [
+          "内容",
+          "联系实际",
+          "简要介绍",
+          "表达感想"
+        ],
+        "answer": "简要介绍,内容,联系实际,表达感想",
+        "explanation": "读后感通常先简述内容，再结合生活实际抒发具体感想。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级下册古典名著专题月考卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "读古典名著应逐字逐句查阅字典，否则无法理解其意境。",
+        "options": [],
+        "answer": "错",
+        "explanation": "古典名著阅读应掌握策略，遇到不影响理解的生词可猜测，追求“不求甚解”的连贯性。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "《景阳冈》中武松打虎前喝了十五碗酒。",
+        "options": [],
+        "answer": "错",
+        "explanation": "文中描写店家说“三碗不过岗”，武松总共喝了十八碗。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "“请”在古代有时也表示恳请或请求，并不只是客套话。",
+        "options": [],
+        "answer": "对",
+        "explanation": "古代汉语言语简练，“请”常包含请求允许某事的含义。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "鲁肃在诸葛亮借箭的过程中，始终是一个“老实人”的角色。",
+        "options": [],
+        "answer": "对",
+        "explanation": "鲁肃忠厚守信，在周瑜和诸葛亮之间起到了平衡作用。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "分析人物性格特点",
+        "question": "《红楼春趣》通过放风筝描写了贾宝玉和林黛玉等人的生活情趣。",
+        "options": [],
+        "answer": "对",
+        "explanation": "本文选自《红楼梦》，描写了封建大家庭中青少年活泼的生活片段。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "下列词语在古代名著中用来指代“走路”的是：",
+        "options": [
+          "盘缠",
+          "行止",
+          "步履",
+          "行脚"
+        ],
+        "answer": "步履",
+        "explanation": "步履指迈步走动，盘缠指旅费，行止指行踪。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "诸葛亮下令：“把船掉过来，船头朝东，船尾朝西，仍旧擂鼓呐喊”。这是为了：",
+        "options": [
+          "扰乱敌方视线",
+          "让受箭面积更大",
+          "两面受箭且平稳受力",
+          "准备弃船逃跑"
+        ],
+        "answer": "两面受箭且平稳受力",
+        "explanation": "这样不仅能均匀受箭，还能保持船体平衡，同时方便顺水返回。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "武松在喝完酒后，不听劝告。这种行为体现了他：",
+        "options": [
+          "不爱惜生命",
+          "狂傲自大的一面",
+          "完全的自信",
+          "固执己见"
+        ],
+        "answer": "狂傲自大的一面",
+        "explanation": "明知山有虎偏向虎山行，除勇气外，也有其性格张扬狂傲的成分。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "“话说天下大势，分久必合，合久必分”是哪部书的开篇语？",
+        "options": [
+          "《水浒传》",
+          "《三国演义》",
+          "《红楼梦》",
+          "《西游记》"
+        ],
+        "answer": "《三国演义》",
+        "explanation": "这是《三国演义》宏大历史观的经典开篇。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "石猴在众猴面前承诺：“若能钻进去寻个源头出来，不伤身体者，我等即拜他为王。”体现了石猴：",
+        "options": [
+          "心思缜密",
+          "勇于挑重担",
+          "贪图名利",
+          "喜欢显摆"
+        ],
+        "answer": "勇于挑重担",
+        "explanation": "作为石猴，他在生死未卜面前敢于尝试，体现了英雄气概。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "阅读古典名著时，对于不理解或难懂的长诗、赞词，比较合理的做法是：",
+        "options": [
+          "必须全部背诵下来",
+          "反复查字典直到弄通每一个字",
+          "跳过去先读后面情节",
+          "撕掉以免干扰阅读"
+        ],
+        "answer": "跳过去先读后面情节",
+        "explanation": "名著中常穿插诗词，初学阅读策略建议先略过，抓住主线情节。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "《写读后感》中，关于“感”的写法，最重要的是：",
+        "options": [
+          "全篇复述故事",
+          "抄录名人名言",
+          "结合真实生活抒情",
+          "评价作者的文采"
+        ],
+        "answer": "结合真实生活抒情",
+        "explanation": "读后感的灵魂是“感”，即结合个人生活与书本内容的碰撞。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "“美猴王”这个称号是在什么时候得到的？",
+        "options": [
+          "大闹天宫后",
+          "跟随唐僧后",
+          "跳入水帘洞称王后",
+          "取经成功后"
+        ],
+        "answer": "跳入水帘洞称王后",
+        "explanation": "石猴进洞后，众猴履行诺言，拜他为千岁大王，遂称美猴王。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "下列哪个故事不是出自《三国演义》？",
+        "options": [
+          "火烧赤壁",
+          "空城计",
+          "武松打虎",
+          "三顾茅庐"
+        ],
+        "answer": "武松打虎",
+        "explanation": "武松打虎属于《水浒传》的情节。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分析人物性格特点",
+        "question": "《草船借箭》一文中，最能衬托诸葛亮神机妙算的人物是：",
+        "options": [
+          "曹操",
+          "周瑜",
+          "鲁肃",
+          "刘备"
+        ],
+        "answer": "周瑜",
+        "explanation": "周瑜处处算计、嫉妒，由于其心胸狭窄，更对比出诸葛亮的大智大勇。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "“齐天大圣”是《西游记》中（___）获得的封号。",
+        "options": [],
+        "answer": "孙悟空",
+        "explanation": "这是孙悟空在花果山时期为自己争取到的称号。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "武松因酒后不听劝上山，是因为他在店里喝了（___）碗酒。",
+        "options": [],
+        "answer": "十八",
+        "explanation": "课文及原著明确记载武松连喝十八碗后上山。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "诸葛亮立下军令状后，承诺在（___）天之内造好十万支箭。",
+        "options": [],
+        "answer": "三",
+        "explanation": "周瑜限期十天，诸葛亮主动要求缩短为三天。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分析人物性格特点",
+        "question": "请将人物与其经典语言（心理）连线：",
+        "options": [
+          "诸葛亮",
+          "武松",
+          "周瑜",
+          "鲁肃",
+          "不如诸葛亮",
+          "哪有老虎",
+          "我自带船",
+          "不知深浅"
+        ],
+        "answer": "A-3,B-2,C-1,D-4",
+        "explanation": "周瑜叹“难胜诸葛亮”，武松认为没虎，诸葛亮自信带船，鲁肃不知虚实。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "请将古代计量词语与现代释义连线：",
+        "options": [
+          "一里",
+          "一两",
+          "一更",
+          "一旬",
+          "重量单位",
+          "距离单位",
+          "十天",
+          "时间段"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "里为长度，两为重量，更为时间单元，旬为十天。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "书写读后感",
+        "question": "请将读后感的评价维度进行匹配：",
+        "options": [
+          "准确性",
+          "真挚性",
+          "深度",
+          "逻辑",
+          "引用原文",
+          "个人感悟",
+          "思想意义",
+          "结构安排"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "准确性看原文引用，真挚性看感悟，深度看思想，逻辑看结构。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "请按照武松在景阳冈上的动态变化排序：",
+        "options": [
+          "喝酒",
+          "见画贴",
+          "上冈",
+          "打虎"
+        ],
+        "answer": "喝酒,上冈,见画贴,打虎",
+        "explanation": "武松先在店里喝酒，然后上冈，看到告示（画贴），最后打虎。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "古典名著的阅读策略",
+        "question": "诸葛亮草船借箭成功的原因排序：",
+        "options": [
+          "识人心",
+          "懂天文",
+          "知地理",
+          "有胆识"
+        ],
+        "answer": "懂天文,知地理,识人心,有胆识",
+        "explanation": "这是对诸葛亮借箭成功多重因素的逻辑总结。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "古典名著的阅读策略",
+      "core_concept": "古典名著特别是章回体小说，语言带有半文半白的特点。阅读时应采用“观其大略”的策略，遇到生僻词语或古代职官名称，可以通过联系上下文、查看注释、结合社会背景来猜测。重点在于把握情节推进，而不是停留在单个字的识记上。",
+      "key_formula": "生词不纠结，注释看明白，前后连连看，大意心中存。",
+      "common_mistakes": [
+        "遇到文言词汇就停下来查字典，破坏阅读连贯性",
+        "对“榜文”、“印信”等古代专有名词缺乏生活联想"
+      ],
+      "tips": "初读名著可以先抓关键人物和精彩环节（如打虎、借箭），对于书中的插诗长句可以通读略读。"
+    },
+    {
+      "point": "分析人物性格特点",
+      "core_concept": "名著人物个性极其鲜明，主要通过动作、神态、对话和心理活动来刻画。例如通过武松的“连喝十八碗”和“不听劝”体现其豪勇与自负；通过诸葛亮的“算准天气”和“稳坐船中”体现其冷静与智慧。分析时需抓住典型动词和神态词。",
+      "key_formula": "抓动作读细节，品台词看内心，对性格判人物。",
+      "common_mistakes": [
+        "对人物性格分析简单化（只说好人、坏人）",
+        "脱离文本细节空谈人物性格，没有证据支持"
+      ],
+      "tips": "可以尝试给角色做“朋友圈档案”，用关键词标注他们的标签和脾气。"
+    },
+    {
+      "point": "书写读后感",
+      "core_concept": "读后感的基础是“读”，灵魂是“感”。结构上：简要写清书名、作者及主要内容；重点写引发感触的一个情节或一句话；核心是结合现实生活中的案例谈得到的启示。要做到叙议结合，感悟真切。",
+      "key_formula": "引（引原文）+ 议（评情节）+ 联（联实际）+ 结（做总结）。",
+      "common_mistakes": [
+        "大篇幅缩写书本内容，最后只有一句话感想",
+        "感想浮于表面，讲大道理，没有结合自己的生活实际"
+      ],
+      "tips": "读书时就在空白处随时记下自己的感受（批注），写感时直接选用最有共鸣的一条进行扩充。"
+    }
+  ]
+}

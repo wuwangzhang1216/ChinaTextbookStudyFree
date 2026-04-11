@@ -1,0 +1,727 @@
+{
+  "textbook": "人教版 PEP 英语五年级上册",
+  "unit": "My week",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2 My week 单元基础达标测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "'Monday' 的中文意思是 '星期一'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Monday 是周一。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "'Thursday' 在 'Friday' 之后。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Thursday 是周四，Friday 是周五，周四在周五之前。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "语音：字母组合ee和ea的发音",
+        "question": "单词 'beef' 和 'tea' 中划线部分发音相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "ee 和 ea 在这些单词中都发长元音 /i:/。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "在句子 'What do you have on Mondays?' 中，Monday 必须用复数形式表示每个周一。",
+        "options": [],
+        "answer": "对",
+        "explanation": "on Mondays 表示每个周一，符合习惯表达。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "'Weekend' 的意思是 '周末'，包含周六和周日。",
+        "options": [],
+        "answer": "对",
+        "explanation": "weekend 由 week 和 end 组成，意为周末。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "Which day is between Tuesday and Thursday?",
+        "options": [
+          "Monday",
+          "Wednesday",
+          "Friday",
+          "Saturday"
+        ],
+        "answer": "Wednesday",
+        "explanation": "周二和周四之间是周三 Wednesday。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词often的用法",
+        "question": "I ______ play football on the weekend.",
+        "options": [
+          "do",
+          "is",
+          "often",
+          "am"
+        ],
+        "answer": "often",
+        "explanation": "often 为频度副词，放在实义动词 play 之前。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "What ______ you have on Tuesdays?",
+        "options": [
+          "do",
+          "does",
+          "is",
+          "are"
+        ],
+        "answer": "do",
+        "explanation": "主语为 you，助动词用 do。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "It's 7:00 a.m. It's time ______ get up.",
+        "options": [
+          "on",
+          "to",
+          "for",
+          "at"
+        ],
+        "answer": "to",
+        "explanation": "It's time to do sth. 是固定句型。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "What do you do on ______?",
+        "options": [
+          "saturdays",
+          "Saturdays",
+          "Saturday",
+          "the Saturday"
+        ],
+        "answer": "Saturdays",
+        "explanation": "星期单词首字母需大写，表经常性行为用复数。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "— Do you often read books here? — ______",
+        "options": [
+          "Yes, I am.",
+          "No, I don't.",
+          "Yes, I do often.",
+          "No, I'm not."
+        ],
+        "answer": "No, I don't.",
+        "explanation": "Do 引导的一般疑问句，否定回答为 No, I don't."
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "I have PE and music ______ Wednesdays.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "to"
+        ],
+        "answer": "on",
+        "explanation": "在具体的某一天前用介词 on。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "Who is your music teacher? — ______",
+        "options": [
+          "He is kind.",
+          "Mr. Li.",
+          "I have music.",
+          "It's Wednesday."
+        ],
+        "answer": "Mr. Li.",
+        "explanation": "Who 提问人，回答应为姓名或称呼。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "Saturday and Sunday are the ______.",
+        "options": [
+          "week",
+          "days",
+          "weekend",
+          "weekends"
+        ],
+        "answer": "weekend",
+        "explanation": "周六周日合称周末 (the weekend)。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语音：字母组合ee和ea的发音",
+        "question": "Which word has a different sound?",
+        "options": [
+          "feet",
+          "meet",
+          "bread",
+          "tea"
+        ],
+        "answer": "bread",
+        "explanation": "bread 中的 ea 发 /e/，其他发 /i:/。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "The day after Sunday is ______.",
+        "options": [],
+        "answer": "monday",
+        "explanation": "周日之后是周一。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "I have an ______ class today. I like drawing.",
+        "options": [],
+        "answer": "art",
+        "explanation": "drawing 与美术课相关。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "What ______ you have on Fridays?",
+        "options": [],
+        "answer": "do",
+        "explanation": "助动词填空。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词often的用法",
+        "question": "I ______ watch TV on Saturdays.",
+        "options": [],
+        "answer": "often",
+        "explanation": "填入频度副词表示经常。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "将下列英文单词与对应的中文意思连线。",
+        "options": [
+          "Tuesday",
+          "Friday",
+          "Saturday",
+          "Sunday",
+          "星期五",
+          "星期日",
+          "星期二",
+          "星期六"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "Tuesday-星期二, Friday-星期五, Saturday-星期六, Sunday-星期日。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "将下列短语与对应的中文意思连线。",
+        "options": [
+          "wash my clothes",
+          "watch TV",
+          "do homework",
+          "play football",
+          "看电视",
+          "踢足球",
+          "洗我的衣服",
+          "做作业"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "wash my clothes-洗衣服, watch TV-看电视, do homework-做作业, play football-踢足球。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "连词成句：",
+        "options": [
+          "do",
+          "What",
+          "you",
+          "have",
+          "?"
+        ],
+        "answer": "What,do,you,have,?",
+        "explanation": "特殊疑问句结构。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "频度副词often的用法",
+        "question": "连词成句：",
+        "options": [
+          "I",
+          "often",
+          "books",
+          "read",
+          "."
+        ],
+        "answer": "I,often,read,books,.",
+        "explanation": "频度副词在动词前。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册 Unit 2 My week 期中综合模拟考试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "周三的英文拼写是 'Wednesday'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Wednesday 中间的d不发音，容易拼错。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "频度副词often的用法",
+        "question": "句子 'I often watch TV' 中 often 的位置是正确的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "often 位于实义动词 watch 之前。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "'What do you have on Mondays?' 只能回答学科，不能回答活动。",
+        "options": [],
+        "answer": "对",
+        "explanation": "have 通常接课程/学科，问活动常用 What do you do。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "语音：字母组合ee和ea的发音",
+        "question": "单词 'head' 中 ea 的发音和 'read' 完全相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "head 发 /e/，read 发 /i:/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "英语国家的一周第一天通常是 Sunday。",
+        "options": [],
+        "answer": "对",
+        "explanation": "西方文化习惯周日为首日。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "We have ______ on Mondays.",
+        "options": [
+          "a Chinese",
+          "Chinese",
+          "Chineses",
+          "a Chinese classs"
+        ],
+        "answer": "Chinese",
+        "explanation": "学科名词前不加冠词，Chinese 作为学科是不可数名词。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "— Is it Friday today? — ______",
+        "options": [
+          "Yes, it is.",
+          "No, it is Wednesday.",
+          "It's Friday.",
+          "Yes, it's."
+        ],
+        "answer": "Yes, it is.",
+        "explanation": "Is it 开头的一般疑问句，肯定回答用 Yes, it is.（不可缩写）"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "I like ______. Because I can play football.",
+        "options": [
+          "PE",
+          "music",
+          "maths",
+          "English"
+        ],
+        "answer": "PE",
+        "explanation": "踢足球属于体育课内容。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词often的用法",
+        "question": "Do you ______ wash your clothes?",
+        "options": [
+          "often",
+          "is",
+          "be",
+          "am"
+        ],
+        "answer": "often",
+        "explanation": "放在动词前的频度副词。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "Today is Wednesday. Tomorrow is ______.",
+        "options": [
+          "Tuesday",
+          "Thursday",
+          "Friday",
+          "Monday"
+        ],
+        "answer": "Thursday",
+        "explanation": "周三的明天是周四。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "What ______ you do on the weekend?",
+        "options": [
+          "do",
+          "does",
+          "are",
+          "is"
+        ],
+        "answer": "do",
+        "explanation": "助动词 do 用于第二人称。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "I have English, maths and art. ______ you?",
+        "options": [
+          "How are",
+          "What about",
+          "How about is",
+          "What"
+        ],
+        "answer": "What about",
+        "explanation": "What about you? 用于反问对方同样的问题。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "We should ______ on the weekend.",
+        "options": [
+          "do sports",
+          "does sports",
+          "playing sports",
+          "to play sports"
+        ],
+        "answer": "do sports",
+        "explanation": "should 后面接动词原形。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "语音：字母组合ee和ea的发音",
+        "question": "Find the word with different sound for 'ea'.",
+        "options": [
+          "eat",
+          "repeat",
+          "healthy",
+          "tea"
+        ],
+        "answer": "healthy",
+        "explanation": "healthy 中的 ea 发 /e/，其他发 /i:/。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "Which one is a weekend day?",
+        "options": [
+          "Monday",
+          "Friday",
+          "Sunday",
+          "Thursday"
+        ],
+        "answer": "Sunday",
+        "explanation": "Sunday 是周末的一种。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "What do you ______ on Saturdays?",
+        "options": [],
+        "answer": "do",
+        "explanation": "询问活动用 do。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "Tuesday comes after ______.",
+        "options": [],
+        "answer": "monday",
+        "explanation": "周一之后是周二。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "I have ______ and music. I like numbers.",
+        "options": [],
+        "answer": "maths",
+        "explanation": "numbers 表明是数学课。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "Saturday and Sunday are the ______.",
+        "options": [],
+        "answer": "weekend",
+        "explanation": "周末的英文。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "英汉配对（课程与活动）：",
+        "options": [
+          "science",
+          "read books",
+          "play sports",
+          "Tuesday",
+          "看书",
+          "星期二",
+          "做体育运动",
+          "科学"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "science-科学, read books-看书, play sports-体育运动, Tuesday-星期二。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "星期与课程安排词汇",
+        "question": "英汉配对（特征形容词）：",
+        "options": [
+          "strict",
+          "funny",
+          "kind",
+          "helpful",
+          "滑稽的",
+          "有用的",
+          "严厉的",
+          "和蔼的"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "strict-严厉, funny-滑稽, kind-和蔼, helpful-有帮助/有用。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "连词成句：",
+        "options": [
+          "do",
+          "we",
+          "What",
+          "have",
+          "?"
+        ],
+        "answer": "What,do,we,have,?",
+        "explanation": "特殊疑问句基本语序。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述课程安排",
+        "question": "连词成句：",
+        "options": [
+          "often",
+          "I",
+          "TV",
+          "watch",
+          "."
+        ],
+        "answer": "I,often,watch,TV,.",
+        "explanation": "注意 often 在动词 watch 之前。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "星期词汇拼写",
+      "core_concept": "熟练掌握周一至周日的英文缩写与全拼",
+      "key_formula": "星期单词首字母必须大写；Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday",
+      "common_mistakes": [
+        "Wednesday 漏写中间的 d",
+        "Thursday 与 Tuesday 混淆",
+        "首字母未大写"
+      ],
+      "tips": "可以将单词拆分记忆，如 Wed-nes-day, Satur-day。"
+    },
+    {
+      "point": "询问课程与活动",
+      "core_concept": "掌握 have (课程) 与 do (活动) 的区别",
+      "key_formula": "What do you have on + 星期s? vs What do you do on + 星期s?",
+      "common_mistakes": [
+        "问课程时用了 do 而不是 have",
+        "周几前面的介词用错 (应用 on)"
+      ],
+      "tips": "看见 days 复数形式通常表示“每逢周几”。"
+    },
+    {
+      "point": "频度副词 often",
+      "core_concept": "表示动作发生的频率",
+      "key_formula": "主语 + often + 动词原形/其他 + 时间",
+      "common_mistakes": [
+        "often 放在了动词后面",
+        "在 be 动词句子中放置位置不当"
+      ],
+      "tips": "记口诀：often 放在实义动词前，be 动词后。"
+    },
+    {
+      "point": "字母组合 ee/ea 发音规律",
+      "core_concept": "在重读音节中 ee 和大部分 ea 发长音 /i:/",
+      "key_formula": "feet, beef, meet, seed (ee) | tea, read, eat, sea (ea)",
+      "common_mistakes": [
+        "将 bread, head, healthy 中的 ea 读成 /i:/ (应读 /e/)"
+      ],
+      "tips": "见到 ee 快读长 E，见到 ea 大多同，少数特例需记牢。"
+    }
+  ]
+}

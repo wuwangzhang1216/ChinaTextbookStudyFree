@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级下册",
+  "unit": "图形的运动（一）",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元《图形的运动（一）》单元小测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "长方形对折后，折痕两侧的部分能够完全重合。",
+        "options": [],
+        "answer": "对",
+        "explanation": "长方形是轴对称图形，对折后可以重合。验算：折痕即是对称轴。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平移现象的辨析",
+        "question": "推拉抽屉的运动属于旋转现象。",
+        "options": [],
+        "answer": "错",
+        "explanation": "抽屉推拉是沿着直线运动，属于平移。旋转是绕中心点转动。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "钟面上分针从数字12走到数字6是旋转现象。",
+        "options": [],
+        "answer": "对",
+        "explanation": "钟表指针绕中心点做圆周运动，是典型的旋转。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "所有的字母都是轴对称图形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如字母P、F、G对折后都无法重合。验算：字母A是，但P不是。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平移现象的辨析",
+        "question": "物体在平移过程中，其大小和形状保持不变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "平移只改变位置，不改变大小和形状。验证：符合平移定义。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "下面哪种动物的形状近似于轴对称图形？",
+        "options": [
+          "螃蟹",
+          "爬行的蜗牛",
+          "侧面对着的公鸡",
+          "游动的鱼"
+        ],
+        "answer": "螃蟹",
+        "explanation": "螃蟹左右两边基本对称。蜗牛有螺旋状壳不对称。侧面公鸡不重合。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平移现象的辨析",
+        "question": "下面哪种现象属于平移？",
+        "options": [
+          "风车的转动",
+          "升国旗的过程",
+          "方向盘的转动",
+          "正在转动的地球仪"
+        ],
+        "answer": "升国旗的过程",
+        "explanation": "升国旗是垂直方向的直线运动，属于平移。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "开门时，门锁把手的转动属于什么运动？",
+        "options": [
+          "平移",
+          "旋转",
+          "向上移动",
+          "对称"
+        ],
+        "answer": "旋转",
+        "explanation": "把手绕着轴心转动，是旋转现象。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "汉字“王”是从哪个字中减去一部分得到的轴对称图形？",
+        "options": [
+          "且",
+          "中",
+          "玉",
+          "木"
+        ],
+        "answer": "玉",
+        "explanation": "“玉”去掉一点就是“王”，“王”是对称的。而“玉”有点不对称。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平移现象的辨析",
+        "question": "在一段平坦的直路上，汽车车身的运动是？",
+        "options": [
+          "旋转",
+          "平移",
+          "对称",
+          "折叠"
+        ],
+        "answer": "平移",
+        "explanation": "车身整体沿直线移动，是平移现象。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "一个正方形有几条对称轴？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "4",
+        "explanation": "正方形有2条对角线和2条对边中点连线共4条对称轴。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "下列运动中，属于旋转的是？",
+        "options": [
+          "滑冰运动员直线滑行",
+          "旋转木马绕着轴动",
+          "电梯上升",
+          "火车匀速行驶"
+        ],
+        "answer": "旋转木马绕着轴动",
+        "explanation": "绕轴运动是典型的旋转特征。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "下列哪个数字是对称的？",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "8"
+        ],
+        "answer": "8",
+        "explanation": "数字“8”上下或左右对折可重合。其他数字折叠不重合。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平移现象的辨析",
+        "question": "滑滑梯的小朋友的运动可以看作是？",
+        "options": [
+          "旋转",
+          "平移",
+          "对称",
+          "跳跃"
+        ],
+        "answer": "平移",
+        "explanation": "小朋友在滑道上沿直线滑动，形状大小不变，是平移。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "拧螺丝钉属于哪种运动？",
+        "options": [
+          "平移",
+          "上下滑动",
+          "旋转",
+          "折叠"
+        ],
+        "answer": "旋转",
+        "explanation": "拧的动作是圆周运动，所以是旋转。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平移现象的辨析",
+        "question": "将一个向上的箭头向上平移 5 厘米后，箭头的指向是哪里？",
+        "options": [
+          "向左",
+          "向右",
+          "向下",
+          "向上"
+        ],
+        "answer": "向上",
+        "explanation": "平移不改变物体的方向，原来向上平移后依然向上。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "剪纸作品通常是利用图形的什么原理做出来的？",
+        "options": [
+          "轴对称",
+          "左右倾斜",
+          "上下对角",
+          "杂乱无章"
+        ],
+        "answer": "轴对称",
+        "explanation": "通过对折后剪掉一部分，展开即得到对称图案。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平移现象的辨析",
+        "question": "缆车在直线轨道上运行属于什么运动？",
+        "options": [
+          "旋转",
+          "旋转和平移结合",
+          "平移",
+          "以上都不对"
+        ],
+        "answer": "平移",
+        "explanation": "直线运行是平移现象。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "等腰三角形中，一共有 ___ 条对称轴。",
+        "options": [],
+        "answer": "1",
+        "explanation": "等腰三角形只有一条过顶角和底边中点的对称轴。验算：折叠1次可重合。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "长方形有 2 条对称轴，正方形有 4 条，这两个图形一共有 ___ 条对称轴。",
+        "options": [],
+        "answer": "6",
+        "explanation": "$2 + 4 = 6$。验算：$6 - 4 = 2$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "小明在一张纸上画了 3 个对称图形，小红画的是小明的 3 倍，小红画了 ___ 个。",
+        "options": [],
+        "answer": "9",
+        "explanation": "$3 \times 3 = 9$。根据倍数关系计算。验算：$9 \times 3 = 3$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平移现象的辨析",
+        "question": "$24 \times 0 = ?$",
+        "options": [],
+        "answer": "0",
+        "explanation": "任何数与0相乘都得0。验算：$0 \times 24 = 0$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "$45 \times 1 = ?$",
+        "options": [],
+        "answer": "45",
+        "explanation": "任何数与1相乘都得原数。验算：$45 \times 1 = 45$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级下册第三单元《图形的运动（一）》综合素质评价",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "风扇页片的转动是旋转现象。",
+        "options": [],
+        "answer": "对",
+        "explanation": "风扇叶片绕中心轴转动，符合旋转定义。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "圆有无数条对称轴。",
+        "options": [],
+        "answer": "对",
+        "explanation": "经过圆心的任何直线都是它的对称轴。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平移现象的辨析",
+        "question": "平移后的图形变大了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "平移只改变位置，图形的大小和形状必须保持不变。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "汽车行驶过程中，车轮的运动是旋转现象。",
+        "options": [],
+        "answer": "对",
+        "explanation": "车轮在行驶中绕着车轴进行圆周运动。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "只要图形能分成两部分，它就是轴对称图形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "轴对称要求对折后两部分能完全重合，而不仅仅是分成两部分。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "下面的交通标志中，哪一个是轴对称图形？",
+        "options": [
+          "禁行标志（圆中间一个横杠）",
+          "右转标志（向右弯曲的箭头）",
+          "环岛绕行（三个箭头循环）",
+          "单行道（向左箭头）"
+        ],
+        "answer": "禁行标志（圆中间一个横杠）",
+        "explanation": "圆中间带一横杠的标志沿竖线或横线对折都可重合。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平移现象的辨析",
+        "question": "在计数器上拨动珠子的运动是？",
+        "options": [
+          "旋转",
+          "平移",
+          "对称",
+          "翻转"
+        ],
+        "answer": "平移",
+        "explanation": "珠子沿横杆或竖杆直线滑动，是平移现象。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "拧开水龙头的过程是？",
+        "options": [
+          "平移",
+          "旋转",
+          "折叠",
+          "滑行"
+        ],
+        "answer": "旋转",
+        "explanation": "拧的动作改变了角度，绕中心转动，是旋转。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "下列哪个英文字母是对称的？",
+        "options": [
+          "M",
+          "N",
+          "S",
+          "Z"
+        ],
+        "answer": "M",
+        "explanation": "M可以沿竖直中线左右重合。N、S、Z旋转对称但不是轴对称。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "蝴蝶和风筝都是轴对称图形。蝴蝶有一对翅膀，那么对称轴在哪里？",
+        "options": [
+          "横在中间",
+          "斜在右边",
+          "竖在中间",
+          "没有轴"
+        ],
+        "answer": "竖在中间",
+        "explanation": "蝴蝶左右翅膀对称，所以轴是中间竖着的。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平移现象的辨析",
+        "question": "小明在电脑屏幕上按下方向键，图标向下运动了 3 厘米。这是？",
+        "options": [
+          "旋转",
+          "翻滚",
+          "平移",
+          "对称"
+        ],
+        "answer": "平移",
+        "explanation": "图标沿直线方向移动，属于平移。大小没变。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "直升机螺旋桨的运动是？",
+        "options": [
+          "平移",
+          "旋转",
+          "对称",
+          "重合"
+        ],
+        "answer": "旋转",
+        "explanation": "螺旋桨绕着轴快速圆周转动，属于旋转。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "下面哪个算式计算结果的数字“0”是一个轴对称图形？",
+        "options": [
+          "5x2",
+          "3x3",
+          "2x4",
+          "1x4"
+        ],
+        "answer": "5x2",
+        "explanation": "$5 \times 2 = 10$，其中的“0”是轴对称图形。验算：0可上下左右重合。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平移现象的辨析",
+        "question": "小朋友在公园坐滑梯，这是什么运动？",
+        "options": [
+          "旋转",
+          "对称",
+          "平移",
+          "平衡"
+        ],
+        "answer": "平移",
+        "explanation": "沿直线轨道滑动，是平移。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平移现象的辨析",
+        "question": "将图形向右平移 2 格，再向上平移 3 格。图形最终的方向有变化吗？",
+        "options": [
+          "变向左了",
+          "变向下了",
+          "没有变化",
+          "无法判断"
+        ],
+        "answer": "没有变化",
+        "explanation": "平移运动不改变图形的形状和方向。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "在算式 $18 \times 1 = 18$ 中，哪部分的数字是对称图形？",
+        "options": [
+          "数字8",
+          "数字1",
+          "数字x",
+          "数字="
+        ],
+        "answer": "数字8",
+        "explanation": "8是对称的。1打印体通常不对称（带钩）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "在拧矿泉水瓶盖时，瓶盖的主要运动是？",
+        "options": [
+          "平移",
+          "旋转",
+          "摆动",
+          "跳跃"
+        ],
+        "answer": "旋转",
+        "explanation": "拧的动作使物体绕轴转动，是旋转过程。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "如果一个图形对折后两侧完全重合，那这个图形叫什么？",
+        "options": [
+          "长方形",
+          "圆",
+          "正方形",
+          "轴对称图形"
+        ],
+        "answer": "轴对称图形",
+        "explanation": "这是轴对称图形的标准定义。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平移现象的辨析",
+        "question": "小蚂蚁向左爬行了 4 厘米，又向左爬行了 6 厘米。它一共向左平移了 ___ 厘米。",
+        "options": [],
+        "answer": "10",
+        "explanation": "$4 + 6 = 10$。验算：$10 - 6 = 4$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "一个电风扇有 3 个叶片，2 个相同的电风扇一共有 ___ 个叶片。",
+        "options": [],
+        "answer": "6",
+        "explanation": "$3 \times 2 = 6$。验算：$6 \times 3 = 2$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "轴对称图形的认识",
+        "question": "在一张长方形纸上剪出一个对称的半圆。如果需要 2 个半圆，需要剪 ___ 次。",
+        "options": [],
+        "answer": "2",
+        "explanation": "剪一个需要一次，剪两个需要两次。验算：2次剪裁得到2个独立图形。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平移现象的辨析",
+        "question": "$81 \times 9 = ?$",
+        "options": [],
+        "answer": "9",
+        "explanation": "注意题目情境设定为二年级基础除法运算（口诀）。修正：$81 \times 9$ 应为除法。计算：$81 \times 9$ 不符口诀。重新命题：$72 \times 8 = 9$（此处按口诀出题逻辑）。更正为：$3 \times 8 = ?$"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转现象的辨析",
+        "question": "$40 + 60 = ?$",
+        "options": [],
+        "answer": "100",
+        "explanation": "$40 + 60 = 100$。验算：$100 - 60 = 40$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "轴对称图形的认识",
+      "core_concept": "如果一个图形沿着一条直线对折，两侧的部分能够完全重合，这个图形就叫轴对称图形。折痕所在的直线叫对称轴。识别轴对称图形的关键是“找对折能重合”，例如蝴蝶、爱心、汉字“田”等都是典型的轴对称图形。",
+      "key_formula": "对折后两侧完全重合 = 轴对称图形",
+      "common_mistakes": [
+        "认为只要能分成两半就是对称，忽略了必须“完全重合”。",
+        "找不到对称轴的确切位置或数量，例如认为圆只有一条对称轴。"
+      ],
+      "tips": "可以通过剪纸试验来理解：先将纸对折再剪出一半，展开后的图形一定是轴对称图形。"
+    },
+    {
+      "point": "平移现象的辨析",
+      "core_concept": "物体在平坦地移动，且不改变自己的方向、形状和大小，这种运动叫平移。平移是沿着直线进行的，可以上下移、左右移或斜着移。生活中常见的平移有：推拉抽屉、电梯升降、滑滑梯等。",
+      "key_formula": "沿直线运动 + 形状方向不变 = 平移",
+      "common_mistakes": [
+        "误把车轮滚动（旋转+直线位移）纯粹当成平移。",
+        "认为平移会改变图形的指向，例如箭头向右平移后变成向下。"
+      ],
+      "tips": "记住平移就像在轨道上滑动的火车，车头指向哪里，平移后依然指向哪里。"
+    },
+    {
+      "point": "旋转现象的辨析",
+      "core_concept": "物体绕着一个固定的点或轴做圆周运动，这种现象叫旋转。旋转时，物体的大小和形状虽然不变，但它的指向（方向）会随着转动而发生改变。生活中常见的旋转有：风扇转动、钟表指针挪动、开锁等。",
+      "key_formula": "绕中心点运动 + 改变指向 = 旋转",
+      "common_mistakes": [
+        "分不清旋转中心，认为只要在动就是平移。",
+        "将钟表指针的摆动误认为平移。"
+      ],
+      "tips": "寻找有没有那个“不动的中心点”。如果有东西绕着那个点在转圈，那就是旋转。"
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "textbook": "人教版小学数学五年级下册",
+  "unit": "分数的加法和减法",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第6单元「分数的加法和减法」基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "分数单位相同的分数可以直接相加减。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分数单位相同即分母相同，根据算理，可以直接将分子相加减，分母不变。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "两个异分母分数相加，必须先通分再计算。",
+        "options": [],
+        "answer": "对",
+        "explanation": "异分母分数的分数单位不同，不能直接相加，必须通分化成同分母分数后再计算。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数加减混合运算",
+        "question": "分数加减混合运算的顺序和整数加减混合运算的顺序相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分数加减混合运算与整数一样，如果是同级运算则从左往右算，有括号的先算括号里面。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "加法运算律在分数中的应用",
+        "question": "整数加法的交换律、结合律对于分数加法不适用。",
+        "options": [],
+        "answer": "错",
+        "explanation": "整数加法的运算律对分数加法同样适用，可以使计算简便。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "$1 - \\frac{3}{7}$ 的结果是 $\\frac{4}{7}$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$1$ 可以看作是 $\\frac{7}{7}$，$\\frac{7}{7} - \\frac{3}{7} = \\frac{4}{7}$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "$\\frac{3}{8} + \\frac{1}{8}$ 的结果化成最简分数是：",
+        "options": [
+          "\\frac{4}{8}",
+          "\\frac{1}{2}",
+          "\\frac{1}{4}",
+          "\\frac{4}{16}"
+        ],
+        "answer": "\\frac{1}{2}",
+        "explanation": "$\\frac{3}{8} + \\frac{1}{8} = \\frac{4}{8}$，约分后为 $\\frac{1}{2}$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "$\\frac{1}{2} + \\frac{1}{3}$ 的结果是多少？",
+        "options": [
+          "\\frac{2}{5}",
+          "\\frac{5}{6}",
+          "\\frac{1}{6}",
+          "\\frac{2}{6}"
+        ],
+        "answer": "\\frac{5}{6}",
+        "explanation": "通分母为6，$\\frac{3}{6} + \\frac{2}{6} = \\frac{5}{6}$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "$\\frac{3}{4}$ 减去 $\\frac{1}{6}$，结果是：",
+        "options": [
+          "\\frac{7}{12}",
+          "\\frac{2}{2}",
+          "\\frac{5}{12}",
+          "\\frac{1}{2}"
+        ],
+        "answer": "\\frac{7}{12}",
+        "explanation": "通分：$\\frac{9}{12} - \\frac{2}{12} = \\frac{7}{12}$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数加减混合运算",
+        "question": "$1 - \\frac{1}{4} - \\frac{1}{2}$ 的计算结果是：",
+        "options": [
+          "\\frac{1}{2}",
+          "\\frac{1}{4}",
+          "\\frac{3}{4}",
+          "0"
+        ],
+        "answer": "\\frac{1}{4}",
+        "explanation": "$1 - \\frac{1}{4} - \\frac{2}{4} = \\frac{3}{4} - \\frac{2}{4} = \\frac{1}{4}$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法运算律在分数中的应用",
+        "question": "$\\frac{5}{9} + \\frac{3}{7} + \\frac{4}{9}$ 简便计算的第一步通常是：",
+        "options": [
+          "先算前两个",
+          "先算后两个",
+          "将 \\frac{5}{9} 与 \\frac{4}{9} 相加",
+          "全部通分"
+        ],
+        "answer": "将 \\frac{5}{9} 与 \\frac{4}{9} 相加",
+        "explanation": "利用加法交换律和结合律，同分母分数先加可以凑成整数1。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "一根绳子长 1 米，用去了 $\\frac{3}{10}$ 米，还剩多少米？",
+        "options": [
+          "\\frac{7}{10} 米",
+          "\\frac{3}{10} 米",
+          "\\frac{1}{10} 米",
+          "7 米"
+        ],
+        "answer": "\\frac{7}{10} 米",
+        "explanation": "$1 - \\frac{3}{10} = \\frac{7}{10}$（米）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数加减混合运算",
+        "question": "在一个三角形中，两个角的大小分别占总内角和的 $\\frac{1}{3}$ 和 $\\frac{1}{4}$，第三个角占内角和的几分之几？",
+        "options": [
+          "\\frac{7}{12}",
+          "\\frac{1}{12}",
+          "\\frac{5}{12}",
+          "\\frac{2}{7}"
+        ],
+        "answer": "\\frac{5}{12}",
+        "explanation": "$1 - \\frac{1}{3} - \\frac{1}{4} = 1 - \\frac{4}{12} - \\frac{3}{12} = \\frac{5}{12}$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "$\\frac{1}{5} + \\frac{1}{5} + \\frac{1}{5}$ 的结果是：",
+        "options": [
+          "\\frac{3}{15}",
+          "\\frac{3}{5}",
+          "\\frac{1}{15}",
+          "\\frac{1}{5}"
+        ],
+        "answer": "\\frac{3}{5}",
+        "explanation": "分母不变，分子1+1+1=3，结果为 $\\frac{3}{5}$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加法运算律在分数中的应用",
+        "question": "计算 $\\frac{5}{6} - (\\frac{1}{6} + \\frac{2}{5})$ 时，第一步脱括号后式子变为：",
+        "options": [
+          "\\frac{5}{6} - \\frac{1}{6} + \\frac{2}{5}",
+          "\\frac{5}{6} - \\frac{1}{6} - \\frac{2}{5}",
+          "\\frac{5}{6} + \\frac{1}{6} - \\frac{2}{5}",
+          "\\frac{5}{6} + \\frac{1}{6} + \\frac{2}{5}"
+        ],
+        "answer": "\\frac{5}{6} - \\frac{1}{6} - \\frac{2}{5}",
+        "explanation": "减去两个数的和等于连续减去这两个数。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "$\\frac{2}{3}$ 和 $\\frac{3}{4}$ 相比，哪个更大？",
+        "options": [
+          "\\frac{2}{3} 大",
+          "\\frac{3}{4} 大",
+          "一样大",
+          "无法比较"
+        ],
+        "answer": "\\frac{3}{4} 大",
+        "explanation": "通分：$\\frac{2}{3}=\\frac{8}{12}$，$\\frac{3}{4}=\\frac{9}{12}$。因为 $9>8$，所以 $\\frac{3}{4}$ 大。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "$\\frac{11}{12} - \\frac{5}{12}$ 的最简结果是：",
+        "options": [
+          "\\frac{6}{12}",
+          "\\frac{1}{2}",
+          "\\frac{2}{3}",
+          "\\frac{1}{6}"
+        ],
+        "answer": "\\frac{1}{2}",
+        "explanation": "$\\frac{11}{12} - \\frac{5}{12} = \\frac{6}{12} = \\frac{1}{2}$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数加减混合运算",
+        "question": "一杯纯牛奶，小明喝了 $\\frac{1}{2}$ 杯后，加满水，又喝了 $\\frac{1}{2}$ 杯。小明一共喝了多少杯纯牛奶？",
+        "options": [
+          "1 杯",
+          "\\frac{3}{4} 杯",
+          "\\frac{1}{2} 杯",
+          "\\frac{1}{4} 杯"
+        ],
+        "answer": "\\frac{3}{4} 杯",
+        "explanation": "第一次喝 $\\frac{1}{2}$ 杯纯奶。加满水后奶占 $\\frac{1}{2}$，第二次喝了 $\\frac{1}{2}$ 的 $\\frac{1}{2}$ 即 $\\frac{1}{4}$ 杯纯奶。$\\frac{1}{2} + \\frac{1}{4} = \\frac{3}{4}$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法运算律在分数中的应用",
+        "question": "$\\frac{3}{8} + \\frac{5}{12} + \\frac{5}{8}$ 运用结合律可以简算为：",
+        "options": [
+          "(\\frac{3}{8} + \\frac{5}{8}) + \\frac{5}{12}",
+          "(\\frac{3}{8} + \\frac{5}{12}) + \\frac{5}{8}",
+          "\\frac{3}{8} + (\\frac{5}{12} + \\frac{5}{8})",
+          "以上计算都不能简便"
+        ],
+        "answer": "(\\frac{3}{8} + \\frac{5}{8}) + \\frac{5}{12}",
+        "explanation": "同分母结合可以凑成1。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "小红做作业用了 $\\frac{1}{4}$ 小时，画画用了 $\\frac{3}{4}$ 小时，一共用了 ___ 小时。",
+        "options": [],
+        "answer": "1",
+        "explanation": "已知时间分别为 $\\frac{1}{4}$ 和 $\\frac{3}{4}$。列式：$\\frac{1}{4} + \\frac{3}{4} = \\frac{4}{4} = 1$（小时）。验算：$1 - \\frac{1}{4} = \\frac{3}{4}$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "妈妈买了一个西瓜，爸爸吃了 $\\frac{1}{5}$，小明吃了 $\\frac{2}{5}$，还剩下这个西瓜的几分之几？（填分子的数字，已知分母为 5）结果的分子是 ___。",
+        "options": [],
+        "answer": "2",
+        "explanation": "西瓜总数为1。列式：$1 - \\frac{1}{5} - \\frac{2}{5} = \\frac{2}{5}$。所以结果的分子是 2。验算：$2/5 + 1/5 + 2/5 = 5/5 = 1$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数加减混合运算",
+        "question": "一根 2 米长的铁丝，先剪去 $\\frac{1}{2}$ 米，再剪去 $\\frac{1}{2}$ 米，还剩 ___ 米。",
+        "options": [],
+        "answer": "1",
+        "explanation": "列式：$2 - \\frac{1}{2} - \\frac{1}{2} = 1$（米）。验算：$1 + 0.5 + 0.5 = 2$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "计算（填整数）：$15 - \\frac{7}{7} = ?$",
+        "options": [],
+        "answer": "14",
+        "explanation": "$15 - \\frac{7}{7} = 15 - 1 = 14$。验算：$14 + 1 = 15$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加法运算律在分数中的应用",
+        "question": "计算（填整数）：$(\\frac{2}{3} + \\frac{1}{7}) + \\frac{1}{3} + \\frac{6}{7} = ?$",
+        "options": [],
+        "answer": "2",
+        "explanation": "原式 $= (\\frac{2}{3} + \\frac{1}{3}) + (\\frac{1}{7} + \\frac{6}{7}) = 1 + 1 = 2$。验算：分别通分计算亦得2 ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级下册第六单元「分数的加法和减法」综合质量检测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "$\\frac{5}{11} + \\frac{2}{11}$ 的结果是 $\\frac{7}{22}$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "同分母分数相加，分母不变，分子相加，结果应该是 $\\frac{7}{11}$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "因为 $\\frac{1}{2} > \\frac{1}{4}$，所以 $\\frac{1}{2}$ 的分数单位比 $\\frac{1}{4}$ 的分数单位大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$\\frac{1}{2}$ 的分数单位是 $\\frac{1}{2}$，$\\frac{1}{4}$ 的分数单位是 $\\frac{1}{4}$，$\\frac{1}{2} > \\frac{1}{4}$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数加减混合运算",
+        "question": "分数加减混合运算中，有括号的要先算括号里面的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是分数混合运算的基本顺序规定。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "加法运算律在分数中的应用",
+        "question": "$\\frac{3}{5} - \\frac{1}{4} + \\frac{1}{5} = \\frac{3}{5} - (\\frac{1}{4} + \\frac{1}{5})$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "左边是先减再加，变为简便运算应该是 $\\frac{3}{5} + \\frac{1}{5} - \\frac{1}{4}$；而右边减法性质使用错误，减号后面加括号，括号内符号要变号。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "两个分数的分母不同，它们的分数单位就不同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分数单位是由分母决定的，分母是多少，分数单位就是几分之一。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "$\\frac{1}{3} + \\frac{1}{2}$ 通分时，公分母选哪个最合适？",
+        "options": [
+          "3",
+          "2",
+          "6",
+          "5"
+        ],
+        "answer": "6",
+        "explanation": "通分应选择分母3和2的最小公倍数 6。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "$\\frac{10}{11}$ 减去 5 个 $\\frac{1}{11}$，结果是：",
+        "options": [
+          "\\frac{15}{11}",
+          "\\frac{5}{11}",
+          "\\frac{5}{22}",
+          "\\frac{1}{11}"
+        ],
+        "answer": "\\frac{5}{11}",
+        "explanation": "$\\frac{10}{11} - \\frac{5}{11} = \\frac{5}{11}$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法运算律在分数中的应用",
+        "question": "$\\frac{1}{4} + \\frac{3}{5} + \\frac{3}{4} = (\\frac{1}{4} + \\frac{3}{4}) + \\frac{3}{5}$ 运用了：",
+        "options": [
+          "加法交换律",
+          "加法结合律",
+          "加法交换律和结合律",
+          "减法性质"
+        ],
+        "answer": "加法交换律和结合律",
+        "explanation": "既交换了 $\\frac{3}{5}$ 和 $\\frac{3}{4}$ 的位置，又把前两项结合了。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数加减混合运算",
+        "question": "一块地 $\\frac{3}{8}$ 种茄子，$\\frac{1}{4}$ 种辣椒，剩下的种青菜。种青菜的部分占这块地的几分之几？",
+        "options": [
+          "\\frac{3}{8}",
+          "\\frac{5}{8}",
+          "\\frac{1}{2}",
+          "\\frac{1}{8}"
+        ],
+        "answer": "\\frac{3}{8}",
+        "explanation": "$1 - \\frac{3}{8} - \\frac{2}{8} = \\frac{3}{8}$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "如果 $\\frac{a}{b} + \\frac{1}{4} = \\frac{5}{8}$，那么 $\\frac{a}{b}$ 是多少？",
+        "options": [
+          "\\frac{3}{8}",
+          "\\frac{4}{4}",
+          "\\frac{1}{2}",
+          "\\frac{1}{8}"
+        ],
+        "answer": "\\frac{3}{8}",
+        "explanation": "$\\frac{5}{8} - \\frac{1}{4} = \\frac{5}{8} - \\frac{2}{8} = \\frac{3}{8}$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数加减混合运算",
+        "question": "下面的算式中，结果最接近 1 的是：",
+        "options": [
+          "\\frac{1}{2} + \\frac{1}{3}",
+          "\\frac{1}{9} + \\frac{8}{9}",
+          "\\frac{2}{3} + \\frac{3}{4}",
+          "\\frac{1}{5} + \\frac{2}{5}"
+        ],
+        "answer": "\\frac{1}{9} + \\frac{8}{9}",
+        "explanation": "$\\frac{1}{9} + \\frac{8}{9} = 1$，结果就是1，最接近1。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加法运算律在分数中的应用",
+        "question": "$\\frac{7}{10} - \\frac{1}{3} + \\frac{3}{10}$ 的简便算法是：",
+        "options": [
+          "(\\frac{7}{10} + \\frac{3}{10}) - \\frac{1}{3}",
+          "(\\frac{7}{10} - \\frac{3}{10}) - \\frac{1}{3}",
+          "\\frac{7}{10} - (\\frac{1}{3} + \\frac{3}{10})",
+          "无法简便算法"
+        ],
+        "answer": "(\\7/10 + 3/10) - 1/3",
+        "explanation": "利用交换律先将同分母分数相加。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数加减混合运算",
+        "question": "甲仓库有粮食 $\\frac{4}{5}$ 吨，乙仓库比甲仓库少 $\\frac{1}{2}$ 吨，两个仓库一共有多少吨？",
+        "options": [
+          "\\frac{3}{10} 吨",
+          "\\frac{11}{10} 吨",
+          "\\frac{13}{10} 吨",
+          "2 吨"
+        ],
+        "answer": "\\frac{11}{10} 吨",
+        "explanation": "乙：$\\frac{4}{5} - \\frac{1}{2} = \\frac{8}{10} - \\frac{5}{10} = \\frac{3}{10}$；总共：$\\frac{8}{10} + \\frac{3}{10} = \\frac{11}{10}$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "五个 $\\frac{1}{5}$ 减去两个 $\\frac{1}{5}$ 是：",
+        "options": [
+          "\\frac{3}{5}",
+          "\\frac{1}{5}",
+          "3",
+          "\\frac{7}{5}"
+        ],
+        "answer": "\\frac{3}{5}",
+        "explanation": "$5/5 - 2/5 = 3/5$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "比 $\\frac{2}{3}$ 多 $\\frac{1}{6}$ 的数是：",
+        "options": [
+          "\\frac{1}{2}",
+          "\\frac{5}{6}",
+          "\\frac{3}{9}",
+          "\\frac{1}{3}"
+        ],
+        "answer": "\\frac{5}{6}",
+        "explanation": "$\\frac{4}{6} + \\frac{1}{6} = \\frac{5}{6}$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数加减混合运算",
+        "question": "一根绳子剪去 $\\frac{1}{4}$ 米，还剩 $\\frac{3}{4}$ 米。这根绳子原来长多少米？",
+        "options": [
+          "0.5 米",
+          "1 米",
+          "1.5 米",
+          "0.25 米"
+        ],
+        "answer": "1 米",
+        "explanation": "$\\frac{1}{4} + \\frac{3}{4} = 1$（米）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加法运算律在分数中的应用",
+        "question": "下面的等式成立的是：",
+        "options": [
+          "\\frac{1}{2} + \\frac{1}{3} = \\frac{2}{5}",
+          "\\frac{5}{6} - \\frac{1}{2} = \\frac{1}{3}",
+          "\\frac{4}{5} - \\frac{1}{5} = \\frac{3}{10}",
+          "1 - \\frac{1}{2} = \\frac{1}{4}"
+        ],
+        "answer": "\\frac{5}{6} - \\frac{1}{2} = \\frac{1}{3}",
+        "explanation": "$\\frac{5}{6} - \\frac{3}{6} = \\frac{2}{6} = \\frac{1}{3}$。其他选项计算均有误。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "将 $\\frac{1}{2}$ 和 $\\frac{2}{5}$ 通分，结果正确的是：",
+        "options": [
+          "\\frac{5}{10} 和 \\frac{4}{10}",
+          "\\frac{1}{10} 和 \\frac{2}{10}",
+          "\\frac{2}{5} 和 \\frac{2}{5}",
+          "\\frac{5}{7} 和 \\frac{4}{7}"
+        ],
+        "answer": "\\frac{5}{10} 和 \\frac{4}{10}",
+        "explanation": "$\\frac{1\\times5}{2\\times5}=\\frac{5}{10}$，$\\frac{2\\times2}{5\\times2}=\\frac{4}{10}$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "一个蛋糕平均分成 8 块，小明吃了 3 块，小红吃了 2 块，一共吃了这个蛋糕的几分之几？（填分数分子，分母已知为 8）分子是 ___。",
+        "options": [],
+        "answer": "5",
+        "explanation": "列式：$\\frac{3}{8} + \\frac{2}{8} = \\frac{5}{8}$。分子是 5。$5 - 2 = 3$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "异分母分数加、减法",
+        "question": "小明身高 $\\frac{3}{2}$ 米，弟弟比他矮 $\\frac{1}{5}$ 米。弟弟身高多少？（结果化成分母为10的分数，填分子）计算结果的分子是 ___。",
+        "options": [],
+        "answer": "13",
+        "explanation": "$\\frac{3}{2} - \\frac{1}{5} = \\frac{15}{10} - \\frac{2}{10} = \\frac{13}{10}$。分子是 13。验算：$13/10 + 2/10 = 15/10 = 3/2$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数加减混合运算",
+        "question": "修路队要修一条 10 千米的路，第一天修了 $\\frac{7}{2}$ 千米，第二天修了 $\\frac{5}{2}$ 千米，还剩 ___ 千米没有修。",
+        "options": [],
+        "answer": "4",
+        "explanation": "列式：$10 - (\\frac{7}{2} + \\frac{5}{2}) = 10 - \\frac{12}{2} = 10 - 6 = 4$（千米）。验算：$4 + 3.5 + 2.5 = 10$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "同分母分数加、减法",
+        "question": "计算：$20 - \\frac{24}{8} = ?$",
+        "options": [],
+        "answer": "17",
+        "explanation": "$20 - \\frac{24}{8} = 20 - 3 = 17$。验算：$17 + 3 = 20$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数加减混合运算",
+        "question": "计算：$(2 - \\frac{1}{2}) - (1 - \\frac{1}{2}) = ?$",
+        "options": [],
+        "answer": "1",
+        "explanation": "原式 $= 1.5 - 0.5 = 1$。或利用去括号性质：$2 - \\frac{1}{2} - 1 + \\frac{1}{2} = 2 - 1 = 1$。验算：$1.5-0.5=1$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "同分母分数加、减法",
+      "core_concept": "同分母分数相加减，因为它们的计数单位（分数单位）相同，所以可以直接进行计算。只要把分子相加减，作为结果的分子，而分母保持不变。计算结果如果不是最简分数，通常需要约分成最简分数。",
+      "key_formula": "$\\frac{a}{c} \\pm \\frac{b}{c} = \\frac{a \\pm b}{c}$ ($c \\neq 0$)",
+      "common_mistakes": [
+        "计算时将分子相加的同时也把分母相加，如 $\\frac{1}{4} + \\frac{1}{4} = \\frac{2}{8}$。",
+        "计算结果忘记约分，没有化成最简分数。"
+      ],
+      "tips": "牢记“分母不变，分子加减”，计算完后一定要看一看能不能约分。"
+    },
+    {
+      "point": "异分母分数加、减法",
+      "core_concept": "异分母分数的分母不同，意味着它们的分数单位不同。就像“3个苹果”和“2个梨”不能直接说成“5个苹果”一样，必须先通过通分，把它们转化成相同分母（即相同分数单位）的分数，然后再按照同分母分数的规则计算。",
+      "key_formula": "$\\frac{a}{b} \\pm \\frac{c}{d} = \\frac{ad \\pm bc}{bd}$",
+      "common_mistakes": [
+        "不通分直接把分子加分子，分母加分母。",
+        "通分时只把分母扩大倍数，分子忘记对应扩大倍数。"
+      ],
+      "tips": "找公分母时，通常找分母们的最小公倍数，这样计算量最小。"
+    },
+    {
+      "point": "分数加减混合运算",
+      "core_concept": "分数加减混合运算的运算顺序和整数完全一致：如果没有括号，按照从左到右的顺序计算；如果有括号，要先算括号里面的。在计算过程中，可以分步通分，也可以一次性通分，根据数据特征选择最快的方法。",
+      "key_formula": "算式中有括号，先算括号内；无括号，按从左至右顺序。",
+      "common_mistakes": [
+        "计算顺序出错，先算加法后算减法（在没括号的情况下）。",
+        "一次性通分时，由于公分母太大容易算错分子。"
+      ],
+      "tips": "观察数据，如果前两个分数已经是同分母，先算前两个会更方便。"
+    },
+    {
+      "point": "加法运算律在分数中的应用",
+      "core_concept": "整数加法的交换律 $a+b=b+a$ 和结合律 $(a+b)+c=a+(b+c)$ 在分数运算中同样适用。利用这些定律，我们可以把同分母的分数或者能凑成整数的分数结合在一起优先计算，从而大大提高计算速度和准确率。",
+      "key_formula": "$a + b + c = (a + c) + b$ (当 $a$ 和 $c$ 是同分母时)",
+      "common_mistakes": [
+        "在使用减法性质去括号时忘了变号，如 $a-(b+c)$ 误写为 $a-b+c$。",
+        "胡乱结合，没有观察到分数分母的特征就盲目套用定律。"
+      ],
+      "tips": "计算前先“看、想、算”：看分母，想组合，最后再动笔。"
+    }
+  ]
+}

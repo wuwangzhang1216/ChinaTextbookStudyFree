@@ -1,0 +1,683 @@
+{
+  "textbook": "PEP Primary English Book 7 (Grade 6 Volume 1)",
+  "unit": "Unit 5 What does he do?",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 Basic Skills Test",
+    "total_score": 95,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "职业名词词义",
+        "question": "'pilot' 的意思是'飞行员'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "pilot是本单元核心职业词汇，意为飞行员。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "工作地点辨析",
+        "question": "A worker usually works in a hospital.",
+        "options": [],
+        "answer": "错",
+        "explanation": "工人通常在工厂(factory)工作，医生或护士在医院(hospital)工作。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动词三单形式",
+        "question": "在询问职业时，'What do he do?' 是正确的表达方式。",
+        "options": [],
+        "answer": "错",
+        "explanation": "当主语是he时，助动词应用does，正确表达为What does he do?"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "职业与爱好的关联",
+        "question": "If you like sports, you can be a head teacher.",
+        "options": [],
+        "answer": "错",
+        "explanation": "喜欢运动的人更适合作为运动员(athlete)或体育老师(PE teacher)。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "交通方式表达",
+        "question": "'by bike' 意为'骑自行车'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "by + 交通工具 表示通过某种方式。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "代词与谓语一致性",
+        "question": "What ______ your father do?",
+        "options": [
+          "do",
+          "does",
+          "is",
+          "are"
+        ],
+        "answer": "does",
+        "explanation": "your father是第三人称单数，疑问句借用助动词does。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "职业词汇辨析",
+        "question": "He works in a post office. He is a ______.",
+        "options": [
+          "cook",
+          "doctor",
+          "postman",
+          "driver"
+        ],
+        "answer": "postman",
+        "explanation": "在邮局(post office)工作的人是邮递员(postman)。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "介词搭配",
+        "question": "My aunt works ______ a university.",
+        "options": [
+          "in",
+          "at",
+          "on",
+          "to"
+        ],
+        "answer": "at",
+        "explanation": "在大学工作固定搭配为work at a university。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "短语理解",
+        "question": "A ______ helps sick people.",
+        "options": [
+          "scientist",
+          "doctor",
+          "pilot",
+          "police officer"
+        ],
+        "answer": "doctor",
+        "explanation": "医生(doctor)负责救治病人。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问地点",
+        "question": "— ______ does he work? — He works in a gym.",
+        "options": [
+          "What",
+          "How",
+          "Where",
+          "Who"
+        ],
+        "answer": "Where",
+        "explanation": "对地点提问用疑问词Where。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇拼写",
+        "question": "My mother is a ______ . She can sing many songs.",
+        "options": [
+          "singer",
+          "sister",
+          "student",
+          "worker"
+        ],
+        "answer": "singer",
+        "explanation": "会唱歌(sing)的是歌手(singer)。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "主谓一致",
+        "question": "She ______ to work by bus.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "to go"
+        ],
+        "answer": "goes",
+        "explanation": "主语为She，一般现在时谓语动词用三单形式goes。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "逻辑推理",
+        "question": "If you like drawing, you can be an ______.",
+        "options": [
+          "doctor",
+          "artist",
+          "worker",
+          "actor"
+        ],
+        "answer": "artist",
+        "explanation": "喜欢绘画(drawing)可以成为艺术家(artist)。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "疑问词辨析",
+        "question": "— ______ does she go to work? — By car.",
+        "options": [
+          "What",
+          "How",
+          "Where",
+          "Which"
+        ],
+        "answer": "How",
+        "explanation": "对交通方式提问用疑问词How。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "职业规划",
+        "question": "I want to be a ______ because I like science.",
+        "options": [
+          "police officer",
+          "scientist",
+          "cleaner",
+          "dancer"
+        ],
+        "answer": "scientist",
+        "explanation": "喜欢科学(science)对应的理想职业是科学家(scientist)。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "职业词汇",
+        "question": "A person who flies a plane is a ______.",
+        "options": [],
+        "answer": "pilot",
+        "explanation": "驾飞机的人是飞行员。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词形式",
+        "question": "Sarah ______ (study) very hard.",
+        "options": [],
+        "answer": "studies",
+        "explanation": "三单形式变化规律，y结尾变i加es。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地点词汇",
+        "question": "My father is a teacher. He works in a ______.",
+        "options": [],
+        "answer": "school",
+        "explanation": "教师的工作地点在学校。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "固定搭配",
+        "question": "I go to work ______ foot.",
+        "options": [],
+        "answer": "on",
+        "explanation": "步行用固定搭配on foot。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇中英匹配",
+        "question": "将下列英文职业/动作与中文意思匹配。",
+        "options": [
+          "businessman",
+          "factory worker",
+          "stay healthy",
+          "sea",
+          "大海",
+          "商人",
+          "保持健康",
+          "工厂工人"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "A.businessman-商人; B.factory worker-工厂工人; C.stay healthy-保持健康; D.sea-大海。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "职业与工作内容匹配",
+        "question": "将下列短语与其意思匹配。",
+        "options": [
+          "be good at",
+          "police officer",
+          "head teacher",
+          "post office",
+          "校长",
+          "邮局",
+          "擅长",
+          "警察"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "A.be good at-擅长; B.police officer-警察; C.head teacher-校长; D.post office-邮局。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "核心句型",
+        "question": "连词成句：does, he, What, do, ?",
+        "options": [
+          "What",
+          "does",
+          "he",
+          "do",
+          "?"
+        ],
+        "answer": "What,does,he,do,?",
+        "explanation": "这是询问他人的职业的标准句型。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Semester 1 Mid-term Exam (Unit 5)",
+    "total_score": 95,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词汇理解",
+        "question": "'coach' 这个词的意思是'主教练'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "coach在体育语境下意为教练。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "冠词用法",
+        "question": "We should say 'a artist' instead of 'an artist'.",
+        "options": [],
+        "answer": "错",
+        "explanation": "artist以元音音素开头，应用an。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "地点关联",
+        "question": "A fisherman works in a factory.",
+        "options": [],
+        "answer": "错",
+        "explanation": "渔民(fisherman)通常在海上工作。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "询问职业常用语",
+        "question": "'What is your job?' 与 'What do you do?' 意思相近。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两者均用于询问职业。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "逻辑推理",
+        "question": "If you are good at writing, you can be a reporter.",
+        "options": [],
+        "answer": "对",
+        "explanation": "记者(reporter)需要良好的写作能力。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "拼写辨析",
+        "question": "My uncle is a ______.",
+        "options": [
+          "stewdent",
+          "teacher",
+          "factoryer",
+          "scentist"
+        ],
+        "answer": "teacher",
+        "explanation": "其他选项存在拼写错误。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "疑问句结构",
+        "question": "How ______ your mother go to work?",
+        "options": [
+          "do",
+          "does",
+          "is",
+          "are"
+        ],
+        "answer": "does",
+        "explanation": "your mother为三单，疑问句使用does。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地点词汇",
+        "question": "My aunt works at a ______. She is a scientist.",
+        "options": [
+          "gym",
+          "university",
+          "school",
+          "factory"
+        ],
+        "answer": "university",
+        "explanation": "科学家通常在大学(university)或实验室工作。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "职业关联",
+        "question": "If you like swimming, you can be a ______.",
+        "options": [
+          "fisherman",
+          "cleaner",
+          "pilot",
+          "singer"
+        ],
+        "answer": "fisherman",
+        "explanation": "逻辑关联，游泳和渔民都与水相关。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "代词",
+        "question": "My uncle works on a boat. ______ is a fisherman.",
+        "options": [
+          "He",
+          "She",
+          "I",
+          "They"
+        ],
+        "answer": "He",
+        "explanation": "uncle是男性，用He代指。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "回答地点",
+        "question": "— Where does he work? — ______",
+        "options": [
+          "He is a pilot.",
+          "He works at sea.",
+          "By plane.",
+          "He likes science."
+        ],
+        "answer": "He works at sea.",
+        "explanation": "Where问地点，回答应包含地点。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一般现在时",
+        "question": "He often ______ storybooks after school.",
+        "options": [
+          "read",
+          "reading",
+          "reads",
+          "to read"
+        ],
+        "answer": "reads",
+        "explanation": "He是第三人称单数，动词加s。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单词构成",
+        "question": "Which of these is NOT a job?",
+        "options": [
+          "worker",
+          "scientist",
+          "university",
+          "dancer"
+        ],
+        "answer": "university",
+        "explanation": "university是地点词（大学），其他是职业。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "固定搭配",
+        "question": "Oliver ______ going to be a businessman.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "explanation": "be going to结构，Oliver用is。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合逻辑",
+        "question": "I want to be a pilot. I should ______ every day.",
+        "options": [
+          "study hard",
+          "sleep",
+          "play games",
+          "watch TV"
+        ],
+        "answer": "study hard",
+        "explanation": "职业理想需要努力学习(study hard)实现。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "冠词用法",
+        "question": "Mr. Li is ______ artist.",
+        "options": [],
+        "answer": "an",
+        "explanation": "名词artist首字母a发元音，故用an。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "职业单词",
+        "question": "He works in a gym. He is a ______.",
+        "options": [],
+        "answer": "coach",
+        "explanation": "在体育馆工作的教练是coach。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词形式",
+        "question": "What does your father ______ (do)?",
+        "options": [],
+        "answer": "do",
+        "explanation": "助动词does后面跟动词原形。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "介词辨析",
+        "question": "He goes to school ______ bus.",
+        "options": [],
+        "answer": "by",
+        "explanation": "by + bus 表示乘坐公交。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "职业与描述匹配",
+        "question": "英汉连线。",
+        "options": [
+          "reporter",
+          "fisherman",
+          "university",
+          "gym",
+          "渔民",
+          "大学",
+          "体育馆",
+          "记者"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "A.reporter-记者; B.fisherman-渔民; C.university-大学; D.gym-体育馆。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词短语匹配",
+        "question": "短语匹配。",
+        "options": [
+          "work hard",
+          "go to sea",
+          "write stories",
+          "study science",
+          "写故事",
+          "研究科学",
+          "努力工作",
+          "出海"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "A.work hard-努力工作; B.go to sea-出海; C.write stories-写故事; D.study science-研究科学。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "特殊疑问句",
+        "question": "词语排序：work, does, Where, she, ?",
+        "options": [
+          "Where",
+          "does",
+          "she",
+          "work",
+          "?"
+        ],
+        "answer": "Where,does,she,work,?",
+        "explanation": "Where开头的特殊疑问句，询问地点。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "核心职业词汇",
+      "core_concept": "掌握10个以上核心职业名词的拼写与含义",
+      "key_formula": "scientist, pilot, coach, fisherman, businessman, reporter, worker",
+      "common_mistakes": [
+        "scientist拼写错误",
+        "businessman中man变复数的规则"
+      ],
+      "tips": "可以通过词根记忆，如work+er=worker, report+er=reporter。"
+    },
+    {
+      "point": "第三人称单数疑问句",
+      "core_concept": "询问他人的职业、地点和交通方式",
+      "key_formula": "What/Where/How + does + he/she/it + 动词原形?",
+      "common_mistakes": [
+        "在does后面错误地使用了动词的三单形式",
+        "主语是单数但误用了do"
+      ],
+      "tips": "口诀：一旦借了does，后面动词还原形。"
+    },
+    {
+      "point": "职业与逻辑关联",
+      "core_concept": "建立性格/爱好与理想职业之间的条件联系",
+      "key_formula": "If you like..., you can be a/an...",
+      "common_mistakes": [
+        "artist和actor前忘记用an",
+        "like后面忘记加动词ing形式"
+      ],
+      "tips": "注意职业词汇前面的冠词：a doctor, an artist。"
+    }
+  ]
+}

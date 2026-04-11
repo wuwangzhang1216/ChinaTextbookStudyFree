@@ -1,0 +1,707 @@
+{
+  "textbook": "人教版小学数学一年级上册",
+  "unit": "6~10的认识和加减法",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第5单元基础能力过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "在 6，7，8，9，10 这五个数中，最小的一个数是 6。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在数序中，按从小到大的顺序排是6,7,8,9,10。排在最前面的6最小。验算：6 < 7 < 8 < 9 < 10。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "把 10 个苹果分成两堆，如果一边放 4 个，另一边应该放 5 个。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据10的组成，10可以分成4和6。验算：$4 + 5 = 9$，不等于10。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "$8 - 0$ 的结果比 $8 + 0$ 的结果小。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$8 - 0 = 8$，$8 + 0 = 8$，两个结果相等。验算：$8 = 8$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "连加、连减运算",
+        "question": "计算 $9 - 3 - 2$ 时，应该先算 $3 - 2$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "连减运算应从左往右计算。先算 $9 - 3 = 6$，再算 $6 - 2 = 4$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "$1 + 9 = 10$，所以 $10 - 1 = 9$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据加减法的互逆关系，加数+加数=和，则和-一个加数=另一个加数。验算：$9 + 1 = 10$ ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "和 8 相邻的两个数是哪个选项？",
+        "options": [
+          "7 和 9",
+          "6 和 7",
+          "9 和 10",
+          "5 和 6"
+        ],
+        "answer": "7 和 9",
+        "explanation": "相邻数是指比当前数小1和多1的数。$8 - 1 = 7$，$8 + 1 = 9$。因此是7和9。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "数字 9 可以分成 4 和几？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "根据9的组成，9可以分成4和5。验算：$4 + 5 = 9$ ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "下面符号填写正确的是：$7 ___ 10$。",
+        "options": [
+          ">",
+          "<",
+          " =",
+          "+"
+        ],
+        "answer": "<",
+        "explanation": "在数序中7排在10的前面，所以 7 小于 10。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "停车场原来有 6 辆车，又开来了 4 辆，现在一共有多少辆？",
+        "options": [
+          "2 辆",
+          "9 辆",
+          "10 辆",
+          "8 辆"
+        ],
+        "answer": "10 辆",
+        "explanation": "求一共有多少用加法。列式：$6 + 4 = 10$。验算：$10 - 4 = 6$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "计算 $10 - 7$ 的结果是多少？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "$10 - 7 = 3$。验算：$3 + 7 = 10$ ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "连加、连减运算",
+        "question": "算式 $3 + 2 + 4$ 的得数是多少？",
+        "options": [
+          "5",
+          "7",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "explanation": "先算 $3 + 2 = 5$，再算 $5 + 4 = 9$。验算：$9 - 4 - 2 = 3$ ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加减混合运算",
+        "question": "算式 $8 - 5 + 2$ 的得数是多少？",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "从左往右计算。先算 $8 - 5 = 3$，再算 $3 + 2 = 5$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决问题（原来有多少）",
+        "question": "小明吃了 6 块饼干，还剩 4 块，原来一共有多少块饼干？",
+        "options": [
+          "2 块",
+          "10 块",
+          "8 块",
+          "7 块"
+        ],
+        "answer": "10 块",
+        "explanation": "求原来有多少，用剩下的加上吃掉的。列式：$4 + 6 = 10$。验算：$10 - 6 = 4$ ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "从 1 数到 10，第 7 个数后面的一位数是哪个？",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "explanation": "第7个数是7，它后面紧跟着的数是8。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "小红有 10 支铅笔，送给小明一些后还剩 6 支。小红送给小明多少支？",
+        "options": [
+          "3 支",
+          "4 支",
+          "5 支",
+          "6 支"
+        ],
+        "answer": "4 支",
+        "explanation": "求送出的部分，用总数减去剩下的。列式：$10 - 6 = 4$。验算：$6 + 4 = 10$ ✓。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "下列哪个数比 8 大且比 10 小？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "11"
+        ],
+        "answer": "9",
+        "explanation": "在数序 8, 9, 10 中，9 刚好在 8 和 10 之间。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加减混合运算",
+        "question": "鱼缸里原有 7 条鱼，捞走 3 条，又放进 2 条。现在鱼缸里有几条鱼？",
+        "options": [
+          "4 条",
+          "5 条",
+          "6 条",
+          "2 条"
+        ],
+        "answer": "6 条",
+        "explanation": "列式：$7 - 3 + 2$。先算 $7 - 3 = 4$，再算 $4 + 2 = 6$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "计算 $4 + 4$ 的结果是多少？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "0"
+        ],
+        "answer": "8",
+        "explanation": "$4 + 4 = 8$。验算：$8 - 4 = 4$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "10 可以分成 2 和 ___。",
+        "options": [],
+        "answer": "8",
+        "explanation": "根据10的组成，2和8合成10。验算：$2 + 8 = 10$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "7 后面紧邻的一个数是 ___。",
+        "options": [],
+        "answer": "8",
+        "explanation": "按数序排，7之后是8。验算：$7 + 1 = 8$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "妈妈买了 9 个苹果，吃了 5 个，还剩 ___ 个。",
+        "options": [],
+        "answer": "4",
+        "explanation": "已知总数和吃掉的部分，求剩余。列式：$9 - 5 = 4$。验算：$4 + 5 = 9$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "$10 - 2 = ?$",
+        "options": [],
+        "answer": "8",
+        "explanation": "$10 - 2 = 8$。验算：$8 + 2 = 10$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "连加、连减运算",
+        "question": "$10 - 4 - 3 = ?$",
+        "options": [],
+        "answer": "3",
+        "explanation": "从左往右：$10 - 4 = 6$，$6 - 3 = 3$。验算：$3 + 3 + 4 = 10$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第5单元核心素养综合测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "从右边起，第 10 个数就是数字 10。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“第几个”表示顺序，取决于从哪里开始数。如果没有规定起始点和顺序，无法确定。通常题目如果没有特定数字序列，不能直接认为第10个就是10。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "计算 $8 - 2$ 和 $10 - 4$ 的结果是一样大的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$8 - 2 = 6$，$10 - 4 = 6$。两者结果都是6。验算：$6 = 6$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "加减混合运算",
+        "question": "$6 + 4 - 6$ 的结果等于 4。",
+        "options": [],
+        "answer": "对",
+        "explanation": "先算 $6 + 4 = 10$，再算 $10 - 6 = 4$。验算：$4 + 6 - 4 = 6$ ✓。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "连加、连减运算",
+        "question": "$10 - 2 - 3$ 和 $10 - 5$ 的结果相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$10 - 2 - 3 = 5$，$10 - 5 = 5$。因为减去2再减去3相当于一共减去5。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "将 9 个圆片分成两堆，一堆有 3 个，另一堆一定有 6 个。",
+        "options": [],
+        "answer": "对",
+        "explanation": "9可以分成3和6。验算：$3 + 6 = 9$ ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "在数序 1 到 10 中，排在 9 前面的数是几？",
+        "options": [
+          "10",
+          "8",
+          "7",
+          "0"
+        ],
+        "answer": "8",
+        "explanation": "按 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 排序，9 前面一个是 8。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "下列哪个数最大？",
+        "options": [
+          "6",
+          "10",
+          "8",
+          "9"
+        ],
+        "answer": "10",
+        "explanation": "10是两位数，在10以内数中最大。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "小明有 7 颗糖，小红有 10 颗糖。小红比小明多几颗？",
+        "options": [
+          "1 颗",
+          "2 颗",
+          "3 颗",
+          "4 颗"
+        ],
+        "answer": "3 颗",
+        "explanation": "求多多少用减法。列式：$10 - 7 = 3$。验算：$7 + 3 = 10$ ✓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "连加、连减运算",
+        "question": "计算 $2 + 3 + 5$ 的结果是多少？",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "7"
+        ],
+        "answer": "10",
+        "explanation": "先算 $2 + 3 = 5$，再算 $5 + 5 = 10$。验算：$10 - 5 - 3 = 2$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决问题（原来有多少）",
+        "question": "树上飞走了 7 只鸟，还剩 3 只。树上原来有多少只鸟？",
+        "options": [
+          "4 只",
+          "10 只",
+          "8 只",
+          "9 只"
+        ],
+        "answer": "10 只",
+        "explanation": "原来 = 飞走的 + 剩下的。列式：$7 + 3 = 10$。验算：$10 - 7 = 3$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "10 可以分成 5 和几？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "1"
+        ],
+        "answer": "5",
+        "explanation": "根据10的组成，5和5合成10。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加减混合运算",
+        "question": "算式 $10 - 8 + 3$ 的得数是多少？",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "先算 $10 - 8 = 2$，再算 $2 + 3 = 5$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "已知 $\\square + 4 = 9$，那么 $\\square$ 应该是几？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "求加数用减法：$9 - 4 = 5$。验算：$5 + 4 = 9$ ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "在数轴上，和 6 距离 2 个单位的数有 4 和哪个数？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "explanation": "比6大2的数是 $6 + 2 = 8$，比6小2的数是 $6 - 2 = 4$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "哪个数在 7 和 9 的中间？",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "10"
+        ],
+        "answer": "8",
+        "explanation": "按数序 7, 8, 9，中间的数是 8。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "加减混合运算",
+        "question": "小蓝做了 10 朵红花，送给小红 4 朵，又做了 2 朵。现在小蓝有几朵？",
+        "options": [
+          "4 朵",
+          "8 朵",
+          "12 朵",
+          "6 朵"
+        ],
+        "answer": "8 朵",
+        "explanation": "列式：$10 - 4 + 2$。先算 $10 - 4 = 6$（朵），再算 $6 + 2 = 8$（朵）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "连加、连减运算",
+        "question": "计算 $9 - 2 - 4$ 的结果是多少？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "answer": "3",
+        "explanation": "先算 $9 - 2 = 7$，再算 $7 - 4 = 3$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "算式 $4 + 5$ 的结果和下面哪个算式相等？",
+        "options": [
+          "10 - 1",
+          "8 - 2",
+          "7 + 3",
+          "6 + 4"
+        ],
+        "answer": "10 - 1",
+        "explanation": "$4 + 5 = 9$，$10 - 1 = 9$。两者相等。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10各数的认识与组成",
+        "question": "6 可以分成 3 和 ___。",
+        "options": [],
+        "answer": "3",
+        "explanation": "根据6的组成，$3 + 3 = 6$。验算：$6 - 3 = 3$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（原来有多少）",
+        "question": "小明借给同学 3 本书，还剩 5 本，他原来有 ___ 本书。",
+        "options": [],
+        "answer": "8",
+        "explanation": "求原有总数用加法。列式：$3 + 5 = 8$。验算：$8 - 3 = 5$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "加减混合运算",
+        "question": "计算 $10 - 3 + 2$ 的得数是 ___。",
+        "options": [],
+        "answer": "9",
+        "explanation": "先算 $10 - 3 = 7$，再算 $7 + 2 = 9$。验算：$9 - 2 + 3 = 10$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "$9 - 6 = ?$",
+        "options": [],
+        "answer": "3",
+        "explanation": "$9 - 6 = 3$。验算：$3 + 6 = 9$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "6~10的加减法运算",
+        "question": "$4 + 6 = ?$",
+        "options": [],
+        "answer": "10",
+        "explanation": "$4 + 6 = 10$。验算：$10 - 4 = 6$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "6~10各数的认识与组成",
+      "core_concept": "掌握6-10各数的基数含义（表示几个）和序数含义（表示第几个）。重点学习各数的组成与分解（分与合），特别是10的组成（凑十法的基石），如：1和9，2和8，3和7，4和6，5和5。",
+      "key_formula": "数序：$0<1<2<3<4<5<6<7<8<9<10$",
+      "common_mistakes": [
+        "容易混淆“几”和“第几”，例如把第7个数当成总共7个。",
+        "在写数字8或9时笔顺错误，或者在写10时漏掉0。"
+      ],
+      "tips": "可以通过手指操来记忆10的组成，比如伸出双手，弯下一根手指剩下九根，就是1和9组成10。"
+    },
+    {
+      "point": "6~10的加减法运算",
+      "core_concept": "理解加法是把两个数合并成一个数的运算，减法是从一个数里去掉一部分求另一部分的运算。熟练掌握得数是6-10的加法及相应的减法算式。",
+      "key_formula": "$加数 + 加数 = 和$， $被减数 - 减数 = 差$",
+      "common_mistakes": [
+        "计算减法时，错误地用小的数去减大的数。",
+        "看错运算符号，把加号当成减号。"
+      ],
+      "tips": "利用“一图四式”掌握加减法互逆关系。看到 $4 + 6 = 10$，立刻想到 $10 - 4 = 6$ 和 $10 - 6 = 4$。"
+    },
+    {
+      "point": "连加、连减运算",
+      "core_concept": "连加是求三个或三个以上数合起来是多少；连减是从总数里连续去掉几部分。运算顺序规定必须从左往右依次计算。",
+      "key_formula": "运算顺序：$A + B + C = (A + B) + C$ 或 $A - B - C = (A - B) - C$",
+      "common_mistakes": [
+        "计算顺序颠倒，先算了后面两个数，导致结果错误。",
+        "算出第一步后，漏掉了第二步计算。"
+      ],
+      "tips": "计算时，可以在第一步的算式下面轻轻写上得数，再用这个得数去加或减第三个数。"
+    },
+    {
+      "point": "加减混合运算",
+      "core_concept": "含有一加一减或一减一加的算式。同样遵循从左往右的运算顺序，先算出前两项的结果，再与第三项进行计算。",
+      "key_formula": "运算顺序：从左往右。例如 $A - B + C = (A - B) + C$",
+      "common_mistakes": [
+        "第一步算减法借位出错导致全局错误。",
+        "计算完减法后，忘记加上后面的数。"
+      ],
+      "tips": "坚持“按顺序、记中间数”的原则，加法要细心，减法要看清被减数。"
+    },
+    {
+      "point": "解决问题（原来有多少）",
+      "core_concept": "这类问题通常已知“去掉的/借走的/飞走的”和“剩下的”，求“原有的”。这属于逆向思维应用题，理解“原有”包含了两部分：现在的加过去的。",
+      "key_formula": "$原来有的 = 剩下的 + 去掉的$",
+      "common_mistakes": [
+        "见到“飞走”、“吃了”等词就习惯性使用减法。",
+        "无法理解原有数量是包含已发生变化的部分和未变化的部分。"
+      ],
+      "tips": "想象一下，如果把飞走的鸟儿叫回来，树上鸟的数量就会变多，所以用加法。"
+    }
+  ]
+}

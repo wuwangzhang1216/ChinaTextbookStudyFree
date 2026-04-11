@@ -1,0 +1,723 @@
+{
+  "textbook": "人教版 PEP 英语四年级下册",
+  "unit": "At the farm",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Unit 4 At the farm 单元基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "农场蔬菜与动物词汇(复数)",
+        "question": "'carrots' 的中文意思是'胡萝卜'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "carrot是胡萝卜，复数形式直接加s。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "农场蔬菜与动物词汇(复数)",
+        "question": "'tomato' 的复数形式是 'tomatos'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "tomato以o结尾，变复数需加es，应为tomatoes。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字母组合ar和al的发音规律",
+        "question": "单词 'arm' 和 'car' 中 'ar' 的发音是一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "ar在这两个单词中都发/ɑː/。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "农场蔬菜与动物词汇(复数)",
+        "question": "'sheep' 的复数形式和单数形式是一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "sheep是单复数同形词。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "these与those指代辨析",
+        "question": "'These' 指代较远处的复数物体。",
+        "options": [],
+        "answer": "错",
+        "explanation": "these是近指，those才是远指。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "这些是什么",
+        "question": "What are _______?",
+        "options": [
+          "this",
+          "that",
+          "these",
+          "it"
+        ],
+        "answer": "these",
+        "explanation": "are是be动词复数形式，主语也需用复数代词。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词复数用法",
+        "question": "I like ________.",
+        "options": [
+          "potato",
+          "potatoes",
+          "potatos",
+          "a potatoes"
+        ],
+        "answer": "potatoes",
+        "explanation": "表示泛指一类事物，potato需用复数形式且es结尾。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问数量",
+        "question": "How ________ horses do you have?",
+        "options": [
+          "much",
+          "any",
+          "many",
+          "old"
+        ],
+        "answer": "many",
+        "explanation": "询问可数名词的数量用How many。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情态动词表建议",
+        "question": "Look at the green beans. They are _______ long.",
+        "options": [
+          "too",
+          "so",
+          "to",
+          "two"
+        ],
+        "answer": "so",
+        "explanation": "so long表示“很长”，too通常含否定意味（太长了）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "指代远处的物体",
+        "question": "Are ________ cows? Yes, they are.",
+        "options": [
+          "this",
+          "that",
+          "those",
+          "me"
+        ],
+        "answer": "those",
+        "explanation": "cows是复数，主语需对应复数形式those。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "农场词汇",
+        "question": "Wait! How many ________ are there?",
+        "options": [
+          "sheep",
+          "sheeps",
+          "a sheep",
+          "cow"
+        ],
+        "answer": "sheep",
+        "explanation": "How many后接名词复数，sheep复数不加s。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "对疑问句的回答",
+        "question": "-Are these tomatoes? -_______.",
+        "options": [
+          "Yes, it is",
+          "No, they aren't",
+          "Yes, they is",
+          "No, it isn't"
+        ],
+        "answer": "No, they aren't",
+        "explanation": "these引导的疑问句，回答主语统一用they。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "形容词词义",
+        "question": "The farm is so _______. I like it.",
+        "options": [
+          "cold",
+          "big",
+          "short",
+          "fat"
+        ],
+        "answer": "big",
+        "explanation": "形容农场通常用big（大）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇",
+        "question": "They are ________. They provide milk.",
+        "options": [
+          "hens",
+          "ducks",
+          "cows",
+          "horses"
+        ],
+        "answer": "cows",
+        "explanation": "奶牛提供牛奶。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子理解",
+        "question": "The ______ are eating grass.",
+        "options": [
+          "potatoes",
+          "hens",
+          "carrots",
+          "horses"
+        ],
+        "answer": "horses",
+        "explanation": "horses（马）是动物，可以吃草吃。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问数量",
+        "question": "How ___ cows do you have?",
+        "options": [],
+        "answer": "many",
+        "explanation": "How many引导对可数名词数量的提问。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "这些是什么",
+        "question": "What ___ these?",
+        "options": [],
+        "answer": "are",
+        "explanation": "these是复数主语，be动词用are。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物词汇",
+        "question": "I like the black and white animal. It's a ___.",
+        "options": [],
+        "answer": "cow",
+        "explanation": "黑白相间的动物通常指奶牛。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蔬菜词汇",
+        "question": "They are long and green. They are green ___.",
+        "options": [],
+        "answer": "beans",
+        "explanation": "豆角是长且绿色的蔬菜。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇匹配",
+        "question": "请将单词与其对应的中文意思连线。",
+        "options": [
+          "potato",
+          "goat",
+          "hen",
+          "onion",
+          "山羊",
+          "洋葱",
+          "母鸡",
+          "土豆"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "potato-土豆, goat-山羊, hen-母鸡, onion-洋葱。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "指代词匹配",
+        "question": "请将这些词组与对应的中文意思连线。",
+        "options": [
+          "at the farm",
+          "ten sheep",
+          "try some",
+          "so big",
+          "十只羊",
+          "尝一尝",
+          "好大啊",
+          "在农场"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "at the farm-在农场, ten sheep-十只羊, try some-尝一尝, so big-那么大。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "提问物主",
+        "question": "将下列单词连成句子：",
+        "options": [
+          "these",
+          "Are",
+          "carrots",
+          "?"
+        ],
+        "answer": "Are,these,carrots,?",
+        "explanation": "一般疑问句结构：Be动词+主语+其他？"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "陈述句",
+        "question": "将下列单词连成句子：",
+        "options": [
+          "They",
+          "tomatoes",
+          "are",
+          "."
+        ],
+        "answer": "They,are,tomatoes,.",
+        "explanation": "主语+be动词+名词复数。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级下学期期末英语学业质量测试 (Unit 4专项版)",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动物复数",
+        "question": "单词 'duck' 的复数是 'ducks'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "直接在末尾加s。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "字母组合规律",
+        "question": "单词 'ball' 和 'tall' 中 'al' 的发音相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在这里都发/ɔː/。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词义判断",
+        "question": "'garden' 的意思是'农场'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "garden是花园，farm才是农场。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "单复数搭配",
+        "question": "我们可以说 'This are horses'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "are horses是复数，主语应该用These。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "不可数名词概念",
+        "question": "英语中 'milk' 是不可数的，不能直接加 's'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "milk属于物质名词，是不可数的。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "选出不同类的一项",
+        "question": "Which one is different?",
+        "options": [
+          "carrot",
+          "potato",
+          "tomato",
+          "cow"
+        ],
+        "answer": "cow",
+        "explanation": "cow属于动物，其他三项属于蔬菜。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复数指示代词",
+        "question": "Look! ________ are cows and ________ are sheep over there.",
+        "options": [
+          "This; that",
+          "These; those",
+          "These; that",
+          "This; those"
+        ],
+        "answer": "These; those",
+        "explanation": "cows是近指复数，sheep结合over there判断为远指复数。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "对话运用",
+        "question": "-Are these potatoes? -________",
+        "options": [
+          "Yes, they are.",
+          "No, it isn't.",
+          "Yes, it is.",
+          "They are big."
+        ],
+        "answer": "Yes, they are.",
+        "explanation": "复数一般疑问句的标准肯回答用They are。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动宾搭配",
+        "question": "Old Macdonald ________ a farm.",
+        "options": [
+          "have",
+          "has",
+          "is",
+          "are"
+        ],
+        "answer": "has",
+        "explanation": "主语是单数第三人称，have要变has。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "名词复数特殊变化",
+        "question": "There are fifteen ________ on the farm.",
+        "options": [
+          "sheeps",
+          "sheep",
+          "goats",
+          "cow"
+        ],
+        "answer": "sheep",
+        "explanation": "fifteen后接复数，sheep复数不变，goats若对需加s（选项已有），cow需加s。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数量询问回复",
+        "question": "-How many animals are there? -________.",
+        "options": [
+          "Four",
+          "It is big",
+          "They are goats",
+          "Green"
+        ],
+        "answer": "Four",
+        "explanation": "How many 提问数量，回答应为数字。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形容词运用",
+        "question": "The goats are so ______. They are small.",
+        "options": [
+          "long",
+          "cute",
+          "big",
+          "cold"
+        ],
+        "answer": "cute",
+        "explanation": "由small（小）可以联想到可爱（cute）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合理解",
+        "question": "What are those ________?",
+        "options": [
+          "animal",
+          "apple",
+          "potatoes",
+          "tomato"
+        ],
+        "answer": "potatoes",
+        "explanation": "those后接复数，四个选项中只有potatoes是复数形式。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义理解",
+        "question": "Mr. Mac likes vegetables. He has many ________.",
+        "options": [
+          "horses",
+          "hens",
+          "carrots",
+          "dogs"
+        ],
+        "answer": "carrots",
+        "explanation": "vegetables（蔬菜）对应的选项只有carrots（胡萝卜）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语音规律",
+        "question": "Which word 'ar' sounds like 'car'?",
+        "options": [
+          "warm",
+          "card",
+          "all",
+          "wall"
+        ],
+        "answer": "card",
+        "explanation": "car和card中的ar常发/ɑː/。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "颜色与植物",
+        "question": "They are round and red. They are ___.",
+        "options": [],
+        "answer": "tomatoes",
+        "explanation": "圆圆的红色的蔬菜是西红柿。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "远指代词",
+        "question": "___ are horses over there.",
+        "options": [],
+        "answer": "those",
+        "explanation": "over there指远处，horses是复数，用those。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "名词变复数规律",
+        "question": "I have two ___. (以potato为例)",
+        "options": [],
+        "answer": "potatoes",
+        "explanation": "以o结尾的有生命名词通常加es。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "农场地点",
+        "question": "Welcome to my ___.",
+        "options": [],
+        "answer": "farm",
+        "explanation": "本单元关键词：农场。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词与名词匹配",
+        "question": "请将单词与其对应的中文意思连线。",
+        "options": [
+          "horse",
+          "cow",
+          "sheep",
+          "goat",
+          "绵羊",
+          "马",
+          "奶牛",
+          "山羊"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "horse-马, cow-奶牛, sheep-绵羊, goat-山羊。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用短语",
+        "question": "请将短语与其对应的中文意思连线。",
+        "options": [
+          "how many",
+          "too big",
+          "red tomatoes",
+          "those animals",
+          "那些动物",
+          "多少",
+          "太大了",
+          "红西红柿"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "how many-多少, too big-太大, red tomatoes-红西红柿, those animals-那些动物。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数量提问",
+        "question": "将下列单词连成句子：",
+        "options": [
+          "How",
+          "cows",
+          "have",
+          "many",
+          "do",
+          "you"
+        ],
+        "answer": "How,many,cows,do,you,have",
+        "explanation": "这是询问数量的标准句型。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "特殊解答句",
+        "question": "将下列单词连成句子：",
+        "options": [
+          "They",
+          "long",
+          "so",
+          "are"
+        ],
+        "answer": "They,are,so,long",
+        "explanation": "主语+be+副词+形容词。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "农场词汇(复数变化)",
+      "core_concept": "名词变复数一般加s，但部分o结尾及特殊词有别。",
+      "key_formula": "potato/tomato+es; sheep单复同形",
+      "common_mistakes": [
+        "把potatoes写成potatos",
+        "给sheep加s写成sheeps"
+      ],
+      "tips": "记口诀：土豆西红柿，变多加-es；绵羊不合群，单数复数一个形。"
+    },
+    {
+      "point": "these与those指代",
+      "core_concept": "指示代词的远近与单复数对应。",
+      "key_formula": "these(近指复数); those(远指复数)",
+      "common_mistakes": [
+        "用this/that接are",
+        "混淆these（近）和those（远）"
+      ],
+      "tips": "这些these在近处，那些those在远处。"
+    },
+    {
+      "point": "How many 提问",
+      "core_concept": "对可数名词数量的提问。",
+      "key_formula": "How many + 名词复数 + do you have/are there?",
+      "common_mistakes": [
+        "How many后接了单数名词"
+      ],
+      "tips": "How many 后面必须跟'好多个'（复数形式）。"
+    },
+    {
+      "point": "ar/al 发音",
+      "core_concept": "字母组合在单词中的固定发音。",
+      "key_formula": "ar /ɑː/, al /ɔː/",
+      "common_mistakes": [
+        "混淆ball与bar的发音"
+      ],
+      "tips": "ar就像张大嘴巴说'啊'，al就像公鸡打鸣'喔-'"
+    }
+  ]
+}

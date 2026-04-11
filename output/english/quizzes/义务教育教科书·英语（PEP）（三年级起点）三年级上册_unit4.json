@@ -1,0 +1,710 @@
+{
+  "textbook": "PEP Primary English Grade 3 Volume 1",
+  "unit": "We love animals",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Unit 4 We love animals Mastery Test",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "单词 'panda' 的中文意思是 '大熊猫'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "panda是本单元核心单词，意为大熊猫。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "当我们询问离自己较远的动物是什么时，常用问句 'What's that?'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "that 指代距离说话人较远的人或事物。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字母Jj至Nn的音形辨析",
+        "question": "字母 'L' 的小写形式是字母 'i' 。",
+        "options": [],
+        "answer": "错",
+        "explanation": "L的小写是l，不是i。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "动物词汇识记",
+        "question": "单词 'pig' 的中文意思是 '鸭子'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "pig是猪，duck才是鸭子。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "听到建议 'Act like a tiger.' 时，我们应该模仿老虎的动作。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Act like... 意为“模仿……做动作”。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "选出下列单词中不同类的一项：",
+        "options": [
+          "monkey",
+          "tiger",
+          "green",
+          "bird"
+        ],
+        "answer": "green",
+        "explanation": "green是颜色，其他三个是动物。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "Look! It's an ________. It has a long nose.",
+        "options": [
+          "pig",
+          "elephant",
+          "duck",
+          "cat"
+        ],
+        "answer": "elephant",
+        "explanation": "长鼻子是象的特征，且前面是an，接元音开头单词。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "—What's this? —________ a duck.",
+        "options": [
+          "I am",
+          "It's",
+          "You are",
+          "This"
+        ],
+        "answer": "It's",
+        "explanation": "问句使用What's this/that，回答统一用It's a..."
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "当你想让别人看那个风筝时，你会说：",
+        "options": [
+          "Look at that.",
+          "Good morning.",
+          "Great!",
+          "I like it."
+        ],
+        "answer": "Look at that.",
+        "explanation": "Look at... 意为看着某物。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "下列哪个单词代表“鸟”？",
+        "options": [
+          "bear",
+          "bird",
+          "bread",
+          "blue"
+        ],
+        "answer": "bird",
+        "explanation": "bird音近bear和bread，需注意词意辨析。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "—What's that? —It's ________.",
+        "options": [
+          "a apple",
+          "an bear",
+          "a bear",
+          "an pig"
+        ],
+        "answer": "a bear",
+        "explanation": "bear首字母发音为辅音，用冠词a。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字母Jj至Nn的音形辨析",
+        "question": "字母K之后的一个字母是：",
+        "options": [
+          "L",
+          "J",
+          "M",
+          "N"
+        ],
+        "answer": "L",
+        "explanation": "字母表顺序 J K L M N。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "“我喜欢熊猫”用英语表达是：",
+        "options": [
+          "I like pandas.",
+          "I have pandas.",
+          "It is a panda.",
+          "Look at the panda."
+        ],
+        "answer": "I like pandas.",
+        "explanation": "like表示喜欢。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "当你想表达“它是一只会飞的鸟”时，可以说：",
+        "options": [
+          "It's a bird.",
+          "It's a duck.",
+          "It's a pig.",
+          "It's a dog."
+        ],
+        "answer": "It's a bird.",
+        "explanation": "只有bird会飞。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "Mike和妈妈去动物园，看到前面的大猩猩，Mike问：妈妈，那是什么？",
+        "options": [
+          "What's this?",
+          "What's that?",
+          "How are you?",
+          "How many?"
+        ],
+        "answer": "What's that?",
+        "explanation": "因为动物园的动物通常在笼内或围栏内，属于稍远距离，用that。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "这是一只狗。 It is a ___.",
+        "options": [],
+        "answer": "dog",
+        "explanation": "dog 意为狗。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "—What is this? —It ___ a cat.",
+        "options": [],
+        "answer": "is",
+        "explanation": "It对应的系动词是is。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字母Jj至Nn的音形辨析",
+        "question": "字母 L 的下一个字母是 ___。",
+        "options": [],
+        "answer": "m",
+        "explanation": "字母顺序为L, M。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "鸭子发出的叫声通常被描述为 quack, quack. 它是 ___。",
+        "options": [],
+        "answer": "duck",
+        "explanation": "duck 意为鸭子。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "将下列英文单词与中文意思匹配。",
+        "options": [
+          "monkey",
+          "tiger",
+          "panda",
+          "elephant",
+          "大象",
+          "熊猫",
+          "老虎",
+          "猴子"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "monkey猴子, tiger老虎, panda熊猫, elephant大象。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "将下列短语/句子与中文意思匹配。",
+        "options": [
+          "Look at me.",
+          "What is it?",
+          "Follow me.",
+          "I like it.",
+          "我喜欢它。",
+          "跟我来。",
+          "它是什么？",
+          "看着我。"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "核心常用语匹配。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "连词成句：[this, what, is]",
+        "options": [
+          "this",
+          "what",
+          "is"
+        ],
+        "answer": "what,is,this",
+        "explanation": "特殊疑问句语序：疑问词+系动词+主语。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "连词成句：[a, It's, monkey]",
+        "options": [
+          "a",
+          "It's",
+          "monkey"
+        ],
+        "answer": "It's,a,monkey",
+        "explanation": "陈述句语序：主谓（缩写）+宾语。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Grade 3 Semester 1 Unit 4 Comprehensive Exam",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "'monkey' 喜欢吃香蕉。",
+        "options": [],
+        "answer": "对",
+        "explanation": "monkey是猴子，习性是喜欢吃香蕉。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字母Jj至Nn的音形辨析",
+        "question": "字母 'N' 的小写是 'n'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "字母Nn的大小写考察。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "回答 'What's that?' 时可以回答 'Yes, it is.'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "What引导的是特殊疑问句，不能用Yes/No回答。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "'bird' 有翅膀，会飞。",
+        "options": [],
+        "answer": "对",
+        "explanation": "考察对bird（鸟）的概念认识。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "'What's this?' 的意思是 “这是什么？”",
+        "options": [],
+        "answer": "对",
+        "explanation": "this 指代近处的事物。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "找出下列发音与众不同的单词：",
+        "options": [
+          "jeep",
+          "jump",
+          "kite",
+          "juice"
+        ],
+        "answer": "kite",
+        "explanation": "kite首字母k发音不同于j。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "当你指着手里拿的照片问别人这是什么时，应说：",
+        "options": [
+          "What's that?",
+          "What's this?",
+          "How are you?",
+          "Hello!"
+        ],
+        "answer": "What's this?",
+        "explanation": "手中的照片属于近处，用this。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "—What's this? —It's ________ monkey.",
+        "options": [
+          "an",
+          "a",
+          "am",
+          "is"
+        ],
+        "answer": "a",
+        "explanation": "monkey开头是辅音音素，用a。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物词汇识记",
+        "question": "选出代表“猪”的图片单词：",
+        "options": [
+          "dog",
+          "duck",
+          "pig",
+          "bear"
+        ],
+        "answer": "pig",
+        "explanation": "pig是猪。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "Act like a ________ . (模仿狗的动作)",
+        "options": [
+          "dog",
+          "duck",
+          "bear",
+          "panda"
+        ],
+        "answer": "dog",
+        "explanation": "根据提示选择dog。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "Amy看见远方树上站着一只鸟，她应说：",
+        "options": [
+          "What's this?",
+          "Look at that bird.",
+          "This is a bird.",
+          "Hello, bird."
+        ],
+        "answer": "Look at that bird.",
+        "explanation": "远方的事物用that描述。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字母Jj至Nn的音形辨析",
+        "question": "与字母 M 读音含有相同元音音素的字母是：",
+        "options": [
+          "L",
+          "J",
+          "K",
+          "N"
+        ],
+        "answer": "L",
+        "explanation": "L, M, N 都包含 [e] 的音。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物词汇识记",
+        "question": "—What's that? —It's a ________. (它很胖，黑色和白色相间)",
+        "options": [
+          "panda",
+          "monkey",
+          "tiger",
+          "elephant"
+        ],
+        "answer": "panda",
+        "explanation": "根据外貌特征描述判定为panda。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "Cool! I ________ it.",
+        "options": [
+          "like",
+          "is",
+          "am",
+          "look"
+        ],
+        "answer": "like",
+        "explanation": "I like it 意为我喜欢它。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "当吴斌斌指着远处的一个物体问这是什么时，陈洁不认识，陈洁会说：",
+        "options": [
+          "It's a duck.",
+          "I don't know.",
+          "What's that?",
+          "Look!"
+        ],
+        "answer": "I don't know.",
+        "explanation": "对方询问是什么，由于不知道，回答I don't know。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "—What's this? —___ a tiger.",
+        "options": [],
+        "answer": "it's",
+        "explanation": "回答通常用It's a..."
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字母Jj至Nn的音形辨析",
+        "question": "J, K, ___, M, N.",
+        "options": [],
+        "answer": "l",
+        "explanation": "缺少字母L。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物词汇识记",
+        "question": "Look at the ___. It's on the tree. (它在树上/猴子)",
+        "options": [],
+        "answer": "monkey",
+        "explanation": "猴子常在树上。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "___ that? It's a bear.",
+        "options": [],
+        "answer": "whats",
+        "explanation": "询问是什么，缩写形式为what's（按要求全小写无标点）。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物词汇识记",
+        "question": "将动物词汇与对应的描述匹配。",
+        "options": [
+          "duck",
+          "bird",
+          "pig",
+          "bear",
+          "笨重的熊",
+          "粉红的猪",
+          "会飞的鸟",
+          "游泳的鸭"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "逻辑属性匹配。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字母Jj至Nn的音形辨析",
+        "question": "将首字母单词与对应的小写字母匹配。",
+        "options": [
+          "Jump",
+          "Kite",
+          "Leg",
+          "Nose",
+          "n",
+          "l",
+          "k",
+          "j"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "首字母大小写对应。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "连词成句：[a, It's, panda]",
+        "options": [
+          "a",
+          "It's",
+          "panda"
+        ],
+        "answer": "It's,a,panda",
+        "explanation": "考查It's a...句型。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物体的辨认与指示",
+        "question": "连词成句：[at, that, Look, tiger]",
+        "options": [
+          "at",
+          "that",
+          "Look",
+          "tiger"
+        ],
+        "answer": "Look,at,that,tiger",
+        "explanation": "看那只老虎：祈使句+宾语。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "动物类单词及其特征",
+      "core_concept": "能够识别常见的动物名称，并能在实际情景中运用。",
+      "key_formula": "panda, tiger, elephant, monkey, bird, duck, pig",
+      "common_mistakes": [
+        "混淆 bird 和 bear 的拼写与读音",
+        "忘记 elephant 前面要用 an 而不是 a"
+      ],
+      "tips": "可以通过模仿动物的叫声或动作（如 Act like a...）来辅助记忆。"
+    },
+    {
+      "point": "指示代词 this 和 that 的区别",
+      "core_concept": "区分近处和远处物体的询问方式。",
+      "key_formula": "What's this? (近处) / What's that? (远处) -> 回答统一用 It's a/an...",
+      "common_mistakes": [
+        "在回答时使用 This is... 而不是 It's...",
+        "that's 的发音不清晰"
+      ],
+      "tips": "手指触碰得到的用this，指着远方看不清的用that。"
+    },
+    {
+      "point": "字母 Jj 至 Nn 及其首字母发音",
+      "core_concept": "掌握 J-N 的字母顺序、书写及在单词中的发音规律（Phonics）。",
+      "key_formula": "j-jump, k-kite, l-leg, m-mum, n-nose",
+      "common_mistakes": [
+        "字母 L 的小写 l 容易和数字 1 或大写 I 混淆",
+        "字母 M 和 N 的读音区分不明显"
+      ],
+      "tips": "多观察字母在四线三格中的占格，M, N 又是两个鼻音，注意发音部位。"
+    }
+  ]
+}

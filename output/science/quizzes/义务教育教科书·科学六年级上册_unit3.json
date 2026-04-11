@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学六年级上册",
+  "unit": "工具与技术",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第三单元《工具与技术》单元形成性评价",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "工具与技术的紧密联系",
+        "question": "手机既是一种工具，其制造过程中也包含了多种技术的应用。",
+        "options": [],
+        "answer": "对",
+        "explanation": "工具是实物，技术是方法或手段，两者紧密相连。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "斜面的省力作用与应用",
+        "question": "斜面的坡度越小，向上提升重物时就越省力。",
+        "options": [],
+        "answer": "对",
+        "explanation": "斜面坡度越平缓越省力。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "活字印刷术的过程与社会价值",
+        "question": "活字印刷术中，刷墨之后应立即进行检字工作。",
+        "options": [],
+        "answer": "错",
+        "explanation": "活字印刷的流程是检字、刷墨、拓印、晾制。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "轮轴结构与车轮的运输效率",
+        "question": "在轮轴的轮上用力，一定可以省力。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在轮轴的轮上用力能够绕轴转动从而省力。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "组合工具：剪刀的结构分析",
+        "question": "剪刀的锋利刀刃利用了斜面原理。",
+        "options": [],
+        "answer": "对",
+        "explanation": "刀刃是斜面的变形应用，用于切开物体。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "斜面的省力作用与应用",
+        "question": "下列工具中，利用了斜面原理的是（）。",
+        "options": [
+          "天平",
+          "螺钉",
+          "跷跷板",
+          "方向盘"
+        ],
+        "answer": "螺钉",
+        "explanation": "螺钉上的螺纹是变形的斜面。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "杠杆的三个作用点极其平衡原理",
+        "question": "在使用杠杆撬动重物时，当用力点到支点的距离大于阻力点到支点的距离时，该杠杆（）。",
+        "options": [
+          "省力",
+          "费力",
+          "不省力也不费力",
+          "无法判断"
+        ],
+        "answer": "省力",
+        "explanation": "动力臂大于阻力臂时，杠杆省力。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "工具与技术的紧密联系",
+        "question": "下列关于工具和技术的说法，正确的是（）。",
+        "options": [
+          "同一工具只能有一种技术支撑",
+          "技术是不随时间变化的",
+          "工具常常是技术的载体",
+          "发明了工具就一定发明了技术"
+        ],
+        "answer": "工具常常是技术的载体",
+        "explanation": "工具和技术相互促进，工具是技术的实物表现。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "组合工具：剪刀的结构分析",
+        "question": "医生使用的手术剪刀通常手柄很长、刀刃很短，其目的是（）。",
+        "options": [
+          "省力",
+          "省距离",
+          "为了美观",
+          "增大阻力"
+        ],
+        "answer": "省力",
+        "explanation": "手柄长（动力臂长）于刀刃（阻力臂），属于省力杠杆。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轮轴结构与车轮的运输效率",
+        "question": "自行车上的指南针主要是用了（）的原理进行工作。",
+        "options": [
+          "杠杆",
+          "斜面",
+          "轮轴",
+          "磁极相吸"
+        ],
+        "answer": "磁极相吸",
+        "explanation": "指南针利用磁性，非机械工具原理。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "活字印刷术的过程与社会价值",
+        "question": "比起手工抄写，活字印刷的优势在于（）。",
+        "options": [
+          "字迹更漂亮",
+          "能快速大量复制",
+          "每印一张都很有成就感",
+          "不需要纸张"
+        ],
+        "answer": "能快速大量复制",
+        "explanation": "活字印刷极大地提高了信息传播的效率。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "杠杆的三个作用点极其平衡原理",
+        "question": "实验室常用的镊子属于（）杠杆。",
+        "options": [
+          "省力",
+          "费力",
+          "不省力也不费力",
+          "等臂"
+        ],
+        "answer": "费力",
+        "explanation": "镊子的用力点在支点和阻力点之间，动力臂小于阻力臂。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "组合工具：剪刀的结构分析",
+        "question": "理发师用的理发剪刀和裁缝用的剪刀相比，理发剪刀通常是（）。",
+        "options": [
+          "省力杠杆",
+          "等臂杠杆",
+          "费力杠杆",
+          "斜面工具"
+        ],
+        "answer": "费力杠杆",
+        "explanation": "理发剪刀为了移动距离大，牺牲力，属于费力杠杆。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轮轴结构与车轮的运输效率",
+        "question": "同样的一台小车，装载重物在粗糙的水泥路和光滑的水泥路上行驶，摩擦力（）。",
+        "options": [
+          "一样大",
+          "粗糙路面大",
+          "光滑路面大",
+          "无法比较"
+        ],
+        "answer": "粗糙路面大",
+        "explanation": "接触面越粗糙，产生的摩擦力越大。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "活字印刷术的过程与社会价值",
+        "question": "活字印刷术的发明者是（）。",
+        "options": [
+          "蔡伦",
+          "毕昇",
+          "鲁班",
+          "张衡"
+        ],
+        "answer": "毕昇",
+        "explanation": "北宋时期毕昇发明了活字印刷术。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "斜面的省力作用与应用",
+        "question": "盘山公路转弯多且平缓，主要是为了（）。",
+        "options": [
+          "缩短行驶距离",
+          "增加车辆美观",
+          "降低行驶坡度省力",
+          "防止山坡塌方"
+        ],
+        "answer": "降低行驶坡度省力",
+        "explanation": "盘山公路是斜面的应用，增加距离来换取省力。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工具与技术的紧密联系",
+        "question": "在评价一种工具的效率时，我们最不关注的是（）。",
+        "options": [
+          "完成任务的速度",
+          "劳动强度的大小",
+          "工具的颜色外壳",
+          "任务完成的质量"
+        ],
+        "answer": "工具的颜色外壳",
+        "explanation": "工具效率评估主要看省力程度、时间成本和成果质量。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "杠杆的三个作用点极其平衡原理",
+        "question": "杠杆上起支撑作用的点叫做（）。",
+        "options": [
+          "用力点",
+          "阻力点",
+          "支撑点",
+          "支点"
+        ],
+        "answer": "支点",
+        "explanation": "杠杆三个要素分别是支点、用力点、阻力点。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "杠杆的三个作用点极其平衡原理",
+        "question": "一套杠杆装置中，如果有（）个支点，这个杠杆才能正常工作。",
+        "options": [],
+        "answer": "1",
+        "explanation": "标准的单一杠杆有一个轴心点或支承点。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "工具与技术的紧密联系",
+        "question": "人类历史上，指南针作为航海工具在海上应用了大约（）年历史。",
+        "options": [],
+        "answer": "1000",
+        "explanation": "指南针在宋代开始由于航海，至今约千年左右。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轮轴结构与车轮的运输效率",
+        "question": "由半径较大的圆轮和半径较小的轴组成的简单机械叫做（）。",
+        "options": [],
+        "answer": "轮轴",
+        "explanation": "轮轴包含两个同心圆结构。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "组合工具：剪刀的结构分析",
+        "question": "剪刀其实是由两个（）和两个斜面组合而成的工具。",
+        "options": [],
+        "answer": "杠杆",
+        "explanation": "剪刀通过中心轴支点形成交互杠杆。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "活字印刷术的过程与社会价值",
+        "question": "在印刷术发展过程中，（）的出现极大地加速了知识的普及和社会的进步。",
+        "options": [],
+        "answer": "信息",
+        "explanation": "印刷术是信息传播技术的革命。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级上册科学第三单元《工具与技术》期末专项突破卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "斜面的省力作用与应用",
+        "question": "生活中的台阶可以看作是斜面的变形。",
+        "options": [],
+        "answer": "对",
+        "explanation": "台阶通过延长水平距离降低了上升的高度差，符合斜面原理。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "杠杆的三个作用点极其平衡原理",
+        "question": "只要是杠杆，就一定能省力。",
+        "options": [],
+        "answer": "错",
+        "explanation": "杠杆分为省力、费力和等臂三类。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "轮轴结构与车轮的运输效率",
+        "question": "车轮是一种轮轴，它主要的作用是变滑动摩擦为滚动摩擦。",
+        "options": [],
+        "answer": "对",
+        "explanation": "滚动摩擦力远小于滑动摩擦力，从而提高效率。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "工具与技术的紧密联系",
+        "question": "随着技术的发展，工具也会不断创新和改进。",
+        "options": [],
+        "answer": "对",
+        "explanation": "技术进步驱动工具迭代。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "组合工具：剪刀的结构分析",
+        "question": "用来裁剪厚铁皮的剪刀，其刀柄通常比普通剪刀短。",
+        "options": [],
+        "answer": "错",
+        "explanation": "剪铁皮需要大动力，手柄应该更长以便更省力。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "斜面的省力作用与应用",
+        "question": "下列物体中，没有利用斜面原理的是（）。",
+        "options": [
+          "斧头",
+          "楼梯",
+          "秋千",
+          "大桥的引桥"
+        ],
+        "answer": "秋千",
+        "explanation": "秋千属于摆或杠杆类模型，不属于斜面。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "杠杆的三个作用点极其平衡原理",
+        "question": "当支点到用力点的距离小于支点到阻力点的距离时，这种杠杆是（）。",
+        "options": [
+          "省力杠杆",
+          "费力杠杆",
+          "等臂杠杆",
+          "组合杠杆"
+        ],
+        "answer": "费力杠杆",
+        "explanation": "动力臂小于阻力臂，费力但省距离。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轮轴结构与车轮的运输效率",
+        "question": "下列工具中，应用了轮轴原理的是（）。",
+        "options": [
+          "老虎钳",
+          "自来水龙头",
+          "水果刀",
+          "订书机"
+        ],
+        "answer": "自来水龙头",
+        "explanation": "水龙头手柄转动带动轴转，属于典型的轮轴。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "组合工具：剪刀的结构分析",
+        "question": "在用剪刀剪硬纸板时，将硬纸板放在剪刀的（）最省力。",
+        "options": [
+          "尖端",
+          "中间",
+          "靠近轴的位置",
+          "远离轴的位置"
+        ],
+        "answer": "靠近轴的位置",
+        "explanation": "靠近轴会缩短阻力臂，使杠杆更省力。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "活字印刷术的过程与社会价值",
+        "question": "活字印刷术中，将字模反向排列的主要原因是（）。",
+        "options": [
+          "为了美观",
+          "印出正向的字",
+          "防止墨水流出",
+          "节省排版空间"
+        ],
+        "answer": "印出正向的字",
+        "explanation": "印章和活字必须是镜像反向的，刷墨拓印后才是正字。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "工具与技术的紧密联系",
+        "question": "在使用独轮车运送重物时，我们要解决的主要问题是（）。",
+        "options": [
+          "美观程度",
+          "运输重量与平衡",
+          "车的颜色",
+          "木料的疏密"
+        ],
+        "answer": "运输重量与平衡",
+        "explanation": "独轮车作为工具，其核心效能点在于承重与维持平衡。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "杠杆的三个作用点极其平衡原理",
+        "question": "我们要撬动一块巨石，最理想的杠杆条件是（）。",
+        "options": [
+          "支点离重物近，木棍长",
+          "支点离手近，木棍长",
+          "支点在木棍中间",
+          "木棍尽量弄短"
+        ],
+        "answer": "支点离重物近，木棍长",
+        "explanation": "这样可以获得最大的动力臂和最小的阻力臂，最省力。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工具与技术的紧密联系",
+        "question": "下列任务中，最适合使用计算机技术处理的是（）。",
+        "options": [
+          "劈开木头",
+          "挖掘深井",
+          "海量数据运算",
+          "搬运水泥"
+        ],
+        "answer": "海量数据运算",
+        "explanation": "数字技术擅长处理信息与数据。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轮轴结构与车轮的运输效率",
+        "question": "在对比测试中，有轮小车比无轮木板运输重物省力的原因是（）。",
+        "options": [
+          "车轮更轻",
+          "增加了惯性",
+          "减小了摩擦力",
+          "增加了推力"
+        ],
+        "answer": "减小了摩擦力",
+        "explanation": "滚动摩擦力显著小于滑动摩擦力。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "斜面的省力作用与应用",
+        "question": "斜面高度不变时，斜面越（）越省力。",
+        "options": [
+          "短",
+          "陡",
+          "长",
+          "重"
+        ],
+        "answer": "长",
+        "explanation": "高度一定，长度越长即坡度越小，越省力。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "杠杆的三个作用点极其平衡原理",
+        "question": "下列工具中，属于不省力也不费力杠杆的是（）。",
+        "options": [
+          "钳子",
+          "支点在中间的天平",
+          "钓鱼竿",
+          "开瓶器"
+        ],
+        "answer": "支点在中间的天平",
+        "explanation": "天平是典型的等臂杠杆。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "活字印刷术的过程与社会价值",
+        "question": "活字印刷比石碑刻字进步主要表现在（）。",
+        "options": [
+          "石碑太重",
+          "活字可重复使用",
+          "字迹更模糊",
+          "不需要墨水"
+        ],
+        "answer": "活字可重复使用",
+        "explanation": "活字灵活拆装，极大地降低了印刷成本。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "组合工具：剪刀的结构分析",
+        "question": "观察一把剪刀，它的动力点位于（）。",
+        "options": [
+          "刀尖处",
+          "中间的轴心处",
+          "手握的柄部",
+          "刀刃背部"
+        ],
+        "answer": "手握的柄部",
+        "explanation": "手施加力量的地方即为用力点（动力点）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "杠杆的三个作用点极其平衡原理",
+        "question": "杠杆上有（）个关键的作用点。",
+        "options": [],
+        "answer": "3",
+        "explanation": "杠杆包括用力点、阻力点和支点三个点。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "斜面的省力作用与应用",
+        "question": "在测试斜面省力情况时，通常要测量（）组不同的坡度数据以得出结论。",
+        "options": [],
+        "answer": "3",
+        "explanation": "科学实验为了严谨性，对比组通常至少设置三组坡度。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "工具与技术的紧密联系",
+        "question": "人们在生产实践中不断改进工具，这体现了（）的发展。",
+        "options": [],
+        "answer": "技术",
+        "explanation": "工具改进的基础是技术的进步。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轮轴结构与车轮的运输效率",
+        "question": "车轮的应用实现了由划行到（）的重大转变。",
+        "options": [],
+        "answer": "滚动",
+        "explanation": "车轮减少了阻力，通过滚动提高运输效率。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "活字印刷术的过程与社会价值",
+        "question": "活字印刷中，将纸按在墨迹上的过程称为（）。",
+        "options": [],
+        "answer": "拓印",
+        "explanation": "拓印是使文字从版面转移到纸上的关键步骤。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "工具与技术的联系",
+      "core_concept": "工具是实物载体，技术是方法手段，技术进步推动工具改革。",
+      "key_formula": "工具的发展依赖于技术的进步，两者的目的是为了提高工作效率。",
+      "common_mistakes": [
+        "认为工具和技术是一回事",
+        "认为技术仅仅指复杂的高科技"
+      ],
+      "tips": "可以通过‘能否摸得着’来区分，工具是实物，技术是流程、经验或科学原理。"
+    },
+    {
+      "point": "斜面原理",
+      "core_concept": "斜面可以省力，省力程度与坡度负相关。",
+      "key_formula": "高度一定时，斜面越长越省力；坡度越小越省力。",
+      "common_mistakes": [
+        "误以为斜面能省功（实际是费距离换取省力）",
+        "不理解螺丝钉也是斜面"
+      ],
+      "tips": "山路修成S形、螺丝钉的螺纹、斜插的刀刃都是变形斜面。"
+    },
+    {
+      "point": "杠杆原理",
+      "core_concept": "杠杆绕支点转动，通过动力臂与阻力臂的长短关系改变力。",
+      "key_formula": "动力臂 > 阻力臂 = 省力；动力臂 < 阻力臂 = 费力；动力臂 = 阻力臂 = 不省力不费力。",
+      "common_mistakes": [
+        "找不到隐蔽杠杆的支点",
+        "以为所有杠杆都是为了省力"
+      ],
+      "tips": "找准支点是分析杠杆性质的第一步。生活中的费力杠杆通常是为了节省距离或扩大动作范围。"
+    },
+    {
+      "point": "轮轴的作用",
+      "core_concept": "轮和轴固定在一起旋转，在轮上用力可以省力。",
+      "key_formula": "轮盘越大，相对于轴心旋转时越省力。",
+      "common_mistakes": [
+        "无法识别方向盘和水龙头是轮轴",
+        "在轴上用力时（如电风扇叶片）却认为省力"
+      ],
+      "tips": "外圆大，内轴小；圆动轴动，动力在圆，即为轮轴。"
+    },
+    {
+      "point": "活字印刷术",
+      "core_concept": "通过拆分和组合单字实现信息快速、大规模复制。",
+      "key_formula": "检字 -> 刷墨 -> 拓印 -> 晾制。",
+      "common_mistakes": [
+        "混淆活字印刷与雕版印刷",
+        "忘记活字需要反向排版"
+      ],
+      "tips": "活字印刷的灵魂在于‘活’，即字模可以反复拆卸重新组合。"
+    }
+  ]
+}

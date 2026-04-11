@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学六年级下册",
+  "unit": "宇宙",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第三单元《宇宙》单元测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "太阳系大家庭的组成",
+        "question": "太阳是太阳系中唯一一颗发光发热的恒星。",
+        "options": [],
+        "answer": "对",
+        "explanation": "太阳系中只有太阳是恒星，依靠核聚变反应发光发热。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "星座的认识",
+        "question": "星座在天空中的位置是固定不变的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "由于地球的自转和公转，星座在天空中的位置会随时间发生变化。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日食的成因",
+        "question": "日食发生时，月球运行到了地球和太阳的中间。",
+        "options": [],
+        "answer": "对",
+        "explanation": "日食的成因是月球挡住了太阳射向地球的光。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "浩瀚的宇宙",
+        "question": "银河系是宇宙中唯一的星系。",
+        "options": [],
+        "answer": "错",
+        "explanation": "宇宙中除了银河系，还有无数个河外星系。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "太阳系八颗行星中，离太阳越近的行星公转周期越短。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据开普勒定律，距离太阳越近，轨道半径越小，公转速度越快周期越短。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "太阳系八颗行星中，体积最大的是哪一颗？",
+        "options": [
+          "地球",
+          "火星",
+          "木星",
+          "土星"
+        ],
+        "answer": "木星",
+        "explanation": "木星是太阳系中体积最大的行星，属于巨行星。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星座的认识",
+        "question": "寻找北极星时，通常先找到哪个星座？",
+        "options": [
+          "大犬座",
+          "天鹅座",
+          "大熊座",
+          "狮子座"
+        ],
+        "answer": "大熊座",
+        "explanation": "北斗七星属于大熊座，通过北斗七星勺口两颗星延长5倍可找到北极星。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日食的成因",
+        "question": "日食一般发生在农历的什么时候？",
+        "options": [
+          "初一",
+          "初七",
+          "十五",
+          "二十二"
+        ],
+        "answer": "初一",
+        "explanation": "日食发生在朔日，即农历初一，此时月球处于日地之间。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "银河系及浩瀚的宇宙",
+        "question": "从俯视的角度看，银河系的形状像什么？",
+        "options": [
+          "球形",
+          "巨大的圆盘",
+          "旋转的旋涡",
+          "不规则云雾"
+        ],
+        "answer": "旋转的旋涡",
+        "explanation": "银河系是一个旋涡星系，从上方看像一个巨大的旋涡。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "太阳系大家庭的组成",
+        "question": "下列天体中，距离地球最近的恒星是哪一个？",
+        "options": [
+          "金星",
+          "太阳",
+          "月球",
+          "北极星"
+        ],
+        "answer": "太阳",
+        "explanation": "太阳是太阳系的中心天体，也是距离我们最近的恒星。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "火星在太阳系八颗行星中的位置是第几位？",
+        "options": [
+          "第二位",
+          "第三位",
+          "第四位",
+          "第五位"
+        ],
+        "answer": "第四位",
+        "explanation": "离太阳从近到远依次是：水星、金星、地球、火星。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "日食的成因与模拟实验",
+        "question": "在制作日食简易模型时，三个大小不同的圆纸片分别代表什么？",
+        "options": [
+          "太阳 地球 月球",
+          "恒星 行星 卫星",
+          "金星 地球 火星",
+          "火星 木星 土星"
+        ],
+        "answer": "太阳 地球 月球",
+        "explanation": "日食模拟实验的核心是模拟日、地、月三者的位置和遮挡。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "太阳系大家庭的组成",
+        "question": "曾经被评为九大行星之一，后来被降级为矮行星的是？",
+        "options": [
+          "海王星",
+          "天王星",
+          "冥王星",
+          "谷神星"
+        ],
+        "answer": "冥王星",
+        "explanation": "2006年国际天文联合会将冥王星重新归类为矮行星。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星座的认识",
+        "question": "在星座模型实验中，橡皮泥小球处于同一个平面吗？",
+        "options": [
+          "都在同一个平面",
+          "不在同一个平面",
+          "只有两颗在同平面",
+          "都在垂线上"
+        ],
+        "answer": "不在同一个平面",
+        "explanation": "星座是远近不同的恒星在地球视角上的投影，它们在空间中位置不同。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "银河系及浩瀚的宇宙",
+        "question": "光年是用来衡量什么的单位？",
+        "options": [
+          "时间",
+          "光速",
+          "天体亮度",
+          "距离"
+        ],
+        "answer": "距离",
+        "explanation": "光年是光在真空中一年所走的距离，是长度单位。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "哪两颗行星之间存在着小行星带？",
+        "options": [
+          "地球和火星",
+          "火星和木星",
+          "木星和土星",
+          "水星和金星"
+        ],
+        "answer": "火星和木星",
+        "explanation": "小行星带位于类地行星与巨行星的分界处，即火木之间。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "八颗行星的运行规律与建模",
+        "question": "若将地球直径缩小为1厘米建立模型，太阳的直径大约是多大？",
+        "options": [
+          "10厘米",
+          "100厘米",
+          "110厘米",
+          "1000厘米"
+        ],
+        "answer": "110厘米",
+        "explanation": "太阳直径约为地球的109倍，按比例约110厘米左右。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "星座的认识",
+        "question": "夏季星空中有“夏季大三角”之称的恒星不包括哪一颗？",
+        "options": [
+          "织女星",
+          "牛郎星",
+          "天津四",
+          "参宿四"
+        ],
+        "answer": "参宿四",
+        "explanation": "夏季大三角由织女星、牛郎星和天津四组成；参宿四属于冬季猎户座。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "目前我们已知的太阳系中，行星的数量是（___）颗。",
+        "options": [],
+        "answer": "8",
+        "explanation": "冥王星降级后，太阳系公认有八颗行星。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星座的认识",
+        "question": "全天共被划分为（___）个星座。",
+        "options": [],
+        "answer": "88",
+        "explanation": "国际天文学联合会将全天划分为88个正式星座。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日食的成因",
+        "question": "日食发生时，月球的（___）投影在地球表面。",
+        "options": [],
+        "answer": "影子",
+        "explanation": "日食是因为月球处于日地间，其影子落在地球上产生的现象。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "银河系及浩瀚的宇宙",
+        "question": "像银河系一样由千亿计恒星组成的星系，统称为（___）。",
+        "options": [],
+        "answer": "河外星系",
+        "explanation": "银河系之外的星系被称为河外星系。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "太阳系大家庭的组成",
+        "question": "拖着长长尾巴的天体被称为（___）。",
+        "options": [],
+        "answer": "彗星",
+        "explanation": "彗星因其冰物质升华形成彗发和彗尾，形态独特。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级下学期科学期末模拟卷（宇宙篇）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "太阳系大家庭的组成",
+        "question": "月球是地球唯一的天然卫星。",
+        "options": [],
+        "answer": "对",
+        "explanation": "月球绕地球公转，是地球唯一的天然卫星。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "日食的成因",
+        "question": "当月球运行到太阳和地球中间时，一定会发生日食。",
+        "options": [],
+        "answer": "错",
+        "explanation": "只有三者在同一直线上且月球影子扫过地球时才会发生日食。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "银河系及浩瀚的宇宙",
+        "question": "宇宙是有限的，但是正在不断膨胀。",
+        "options": [],
+        "answer": "对",
+        "explanation": "目前的宇宙大爆炸学说认为宇宙是有限且在膨胀的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "星座的认识",
+        "question": "北极星是一颗非常亮的星星，容易一眼认出。",
+        "options": [],
+        "answer": "错",
+        "explanation": "北极星并不算很亮，通常需要借助北极星寻找法来确认。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "金星的公转周期比地球长。",
+        "options": [],
+        "answer": "错",
+        "explanation": "金星比地球更靠近太阳，公转轨道更短，速度更快，周期更短。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "离太阳最近的行星是哪颗？",
+        "options": [
+          "金星",
+          "木星",
+          "水星",
+          "火星"
+        ],
+        "answer": "水星",
+        "explanation": "水星是太阳系行星中轨道半径最小的一颗。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "太阳系大家庭的组成",
+        "question": "太阳系中最主要的成员，占据了全系统99%以上质量的是？",
+        "options": [
+          "木星",
+          "地球",
+          "太阳",
+          "土星"
+        ],
+        "answer": "太阳",
+        "explanation": "太阳不仅是中心，更是质量的核心。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日食的成因",
+        "question": "在日食模拟实验中，如果用手电筒代表太阳，那么小球代表什么？",
+        "options": [
+          "地球",
+          "月球",
+          "星星",
+          "彗星"
+        ],
+        "answer": "月球",
+        "explanation": "三球实验中，中间移动遮光的小球模拟月球。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星座的认识",
+        "question": "北斗七星组成的形状最像什么？",
+        "options": [
+          "镰刀",
+          "勺子",
+          "狮子",
+          "织布机"
+        ],
+        "answer": "勺子",
+        "explanation": "北斗七星在大熊座中呈斗状（勺状）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "八颗行星的运行规律与建模",
+        "question": "在建立行星位置模型时，发现行星分布的一个显著特点是？",
+        "options": [
+          "均匀分布",
+          "靠太阳近的行星间距小",
+          "靠太阳远的行星间距小",
+          "都在同一圆周"
+        ],
+        "answer": "靠太阳近的行星间距小",
+        "explanation": "类地行星间距较密，远日行星如天王星海王星间距巨大。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "银河系及浩瀚的宇宙",
+        "question": "银河系的直径大约为多少万光年？",
+        "options": [
+          "1",
+          "10",
+          "100",
+          "1000"
+        ],
+        "answer": "10",
+        "explanation": "银河系直径约10万光年。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "太阳系大家庭的组成",
+        "question": "恒星周期性爆发产生的太阳风会对地球产生什么影响？",
+        "options": [
+          "引起降雪",
+          "干扰无线电通讯",
+          "产生潮汐",
+          "导致地震"
+        ],
+        "answer": "干扰无线电通讯",
+        "explanation": "太阳风是高能粒子流，会干扰地球电离层和磁场。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "星座的认识与模型构建",
+        "question": "通过星座模型实验，我们认识到星座是什么？",
+        "options": [
+          "真实存在的实体",
+          "一种立体的球状结构",
+          "恒星在天球上的投影",
+          "相互吸引的天体群"
+        ],
+        "answer": "恒星在天球上的投影",
+        "explanation": "星座是人为划分的，是视觉上的平面映射而非真实聚簇。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "银河系及浩瀚的宇宙",
+        "question": "太阳系位于银河系的什么位置？",
+        "options": [
+          "银盘中心",
+          "中心黑洞内",
+          "的一条旋臂上",
+          "银河系最外缘"
+        ],
+        "answer": "的一条旋臂上",
+        "explanation": "太阳系位于银河系的猎户座支臂上。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "被称为“红色星球”的行星是？",
+        "options": [
+          "金星",
+          "火星",
+          "木星",
+          "水星"
+        ],
+        "answer": "火星",
+        "explanation": "火星表面覆盖氧化铁，呈现橘红色。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星座的认识",
+        "question": "秋季代表性的星座是哪一个？",
+        "options": [
+          "仙后座",
+          "猎户座",
+          "天琴座",
+          "狮子座"
+        ],
+        "answer": "仙后座",
+        "explanation": "仙后座呈W形，是秋季星空的明显标志。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "银河系及浩瀚的宇宙",
+        "question": "科学家通过观察什么现象得出“宇宙正在膨胀”的结论？",
+        "options": [
+          "星体爆炸",
+          "黑洞吞噬",
+          "星系光谱红移",
+          "流星雨"
+        ],
+        "answer": "星系光谱红移",
+        "explanation": "哈勃发现远方星系光谱向红端移动，证明星系在远离。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "下列行星中，具有非常明显的光环的是？",
+        "options": [
+          "地球",
+          "火星",
+          "土星",
+          "水星"
+        ],
+        "answer": "土星",
+        "explanation": "土星的光环由冰块和岩石碎片组成，最容易被观测到。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "太阳系中，地球排列在离太阳第（___）近的位置。",
+        "options": [],
+        "answer": "3",
+        "explanation": "顺序为：水星、金星、地球。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "八颗行星的运行规律",
+        "question": "海王星到太阳的距离大约是地球到太阳距离的（___）倍。",
+        "options": [],
+        "answer": "30",
+        "explanation": "地球到太阳约1.5亿千米(1AU)，海王星约30AU。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "太阳系大家庭的组成",
+        "question": "地球绕着转动的那个发光发热的中心天体是（___）。",
+        "options": [],
+        "answer": "太阳",
+        "explanation": "太阳既是恒星，也是太阳系的中心。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "星座的认识",
+        "question": "在北半球，我们可以利用（___）来辨认北方。",
+        "options": [],
+        "answer": "北极星",
+        "explanation": "北极星位于地轴北极指向的星空位置，指示正北。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "日食的成因",
+        "question": "当月球只挡住太阳的一部分时，发生的日食现象叫（___）。",
+        "options": [],
+        "answer": "日偏食",
+        "explanation": "日食分为全食、环食和偏食，遮挡一部分为偏食。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "太阳系大家庭",
+      "core_concept": "以太阳为中心的天体系统。",
+      "key_formula": "太阳系 = 太阳 + 八颗行星 + 矮行星 + 小天体(小行星、彗星等)",
+      "common_mistakes": [
+        "认为月球也是太阳系的行星",
+        "不理解矮行星和行星的区别"
+      ],
+      "tips": "记住太阳质量占太阳系总质量的99.86%。"
+    },
+    {
+      "point": "八颗行星规律",
+      "core_concept": "行星的排列与物理特征规律。",
+      "key_formula": "水、金、地、火（类地行星）；木、土（巨行星）；天王、海王（远日行星）",
+      "common_mistakes": [
+        "将金星和水星的顺序记反",
+        "认为离太阳越远体积一定越大"
+      ],
+      "tips": "掌握“距日远近”和“体积大小”两套不同的排序。"
+    },
+    {
+      "point": "日食成因",
+      "core_concept": "光的直线传播与天体遮挡现象。",
+      "key_formula": "日食位置：太阳—月球—地球（三者在同一直线上）",
+      "common_mistakes": [
+        "混淆日食和月食的位置关系",
+        "认为每个月都会发生日食"
+      ],
+      "tips": "模拟实验中，小球到大球的距离会影响遮挡的面积。"
+    },
+    {
+      "point": "星座认识",
+      "core_concept": "人为划分的星空区域及空间立体投影。",
+      "key_formula": "北斗七星两星连线延长约5倍 = 北极星",
+      "common_mistakes": [
+        "认为星座中的恒星是靠在一起的",
+        "认为星座的形状永远不变"
+      ],
+      "tips": "星座模型说明了天体远近不同，只是视觉上在一起。"
+    },
+    {
+      "point": "浩瀚宇宙",
+      "core_concept": "宇宙的多层次结构与演化。",
+      "key_formula": "总星系 > 河外星系 / 银河系 > 太阳系 > 地月系",
+      "common_mistakes": [
+        "混淆光年是时间单位",
+        "认为银河系就是整个宇宙"
+      ],
+      "tips": "宇宙是在不断膨胀的，所有的天体都在永恒运动中。"
+    }
+  ]
+}

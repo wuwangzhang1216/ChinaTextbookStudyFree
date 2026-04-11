@@ -1,0 +1,405 @@
+{
+  "textbook": "二年级下册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "数据收集整理",
+      "knowledge_points": [
+        {
+          "name": "收集数据的方法",
+          "description": "学习通过调查法（举手、投票等）获取原始数据，要求全体参与且每人只选一项。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "操作题"
+          ]
+        },
+        {
+          "name": "记录数据的方法（“正”字记录法）",
+          "description": "掌握使用“正”字或符号记录零散数据，并能将其转化为数字。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "连线/匹配",
+            "操作题"
+          ]
+        },
+        {
+          "name": "统计表的制作与分析",
+          "description": "将整理后的数据填入统计表，并根据表格数据进行“最多”、“最少”的比较分析与预测。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "排序/比较",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "表内除法（一）",
+      "knowledge_points": [
+        {
+          "name": "平均分的含义与判断",
+          "description": "建立“平均分”概念，理解每份分得同样多才叫平均分，并能进行分物操作。",
+          "difficulty": 2,
+          "question_types": [
+            "判断",
+            "操作题",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "除法算式的意义与读写",
+          "description": "理解除法表示总数包含多少个每份数，或平均分求每份是多少；掌握除号写法及算式读法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "画图"
+          ]
+        },
+        {
+          "name": "除法各部分名称",
+          "description": "识别除法算式中的被除数、除数和商，理解它们在具体情境中的含义。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "用2~6的乘法口诀求商",
+          "description": "掌握“看除数，想口诀”的方法，熟练运用乘除互逆关系来快速计算商。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "图形的运动（一）",
+      "knowledge_points": [
+        {
+          "name": "轴对称图形的认识",
+          "description": "理解对折后两侧能完全重合的特征，认识对称轴，并能识别生活中的对称图形。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "操作题"
+          ]
+        },
+        {
+          "name": "平移现象的辨析",
+          "description": "理解物体沿直线运动且方向、形状、大小不变的特征，能判断图形平移后的位置。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "旋转现象的辨析",
+          "description": "认识物体绕固定点或轴做圆周运动的现象，如钟表指针、风扇转动等。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "连线/匹配"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "表内除法（二）",
+      "knowledge_points": [
+        {
+          "name": "用7、8、9的乘法口诀求商",
+          "description": "将乘法口诀范围扩大至7-9，熟练进行大数额的表内除法口算。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "乘除法综合应用",
+          "description": "在具体购物或分配情境中，利用除法解决求份数或每份数的问题。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "选择"
+          ]
+        },
+        {
+          "name": "除法算式的规律整理",
+          "description": "通过对除法表进行行、列整理，发现被除数、除数变化时商的规律。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "混合运算",
+      "knowledge_points": [
+        {
+          "name": "同级运算顺序",
+          "description": "掌握在只有加减或只有乘除的算式中，应按从左往右的顺序计算。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "乘除法与加减法混合运算",
+          "description": "掌握在没有括号的情况下，先算乘除法，后算加减法的优先级规则。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "判断",
+            "选择"
+          ]
+        },
+        {
+          "name": "带有小括号的混合运算",
+          "description": "理解括号能改变运算顺序，掌握凡有括号必须先算括号内部内容的规则。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "解决两步计算的实际问题",
+          "description": "分析数量关系，能将分步算式合并为带括号或不带括号的综合算式解决问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "有余数的除法",
+      "knowledge_points": [
+        {
+          "name": "有余数除法的实际含义",
+          "description": "理解平均分后剩下的不够再分的部分叫余数，掌握余数的表示方法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "余数与除数的关系",
+          "description": "发现并掌握“余数一定比除数小”的数学规律。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "判断",
+            "选择"
+          ]
+        },
+        {
+          "name": "除法竖式的写法",
+          "description": "掌握除法竖式的书写格式，理解被除数、商、除数与余数在竖式中的位置。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算"
+          ]
+        },
+        {
+          "name": "“进一法”与“去尾法”应用",
+          "description": "根据实际情境（如租船、装盒）决定是否对商进行加1处理。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "选择"
+          ]
+        },
+        {
+          "name": "利用余数解决周期问题",
+          "description": "通过有余数的除法确定重复排列事物中特定位置元素的特征。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "万以内数的认识",
+      "knowledge_points": [
+        {
+          "name": "计数单位与十进制概念",
+          "description": "认识千、万等计数单位，理解每相邻两个单位之间的进率是10。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "万以内数的读写规则",
+          "description": "掌握从高位起读写数的规则，特别是中间或末尾有0的处理方法。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "数位顺序表与数位意义",
+          "description": "理解万以内数各数位上的数字表示的意义及其组成。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "近似数与估算",
+          "description": "了解近似数的概念，能根据实际情境找出一个数的近似数，并进行加减法估算。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "整百、整千数加减口算",
+          "description": "通过计数单位的累加或消减，熟练进行整百、整千数的口算。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "克和千克",
+      "knowledge_points": [
+        {
+          "name": "质量单位“克”的认识",
+          "description": "建立1克的感性认识，知晓计量较轻物品用“g”作单位。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "质量单位“千克”的认识",
+          "description": "建立1千克的质量观念，了解生活中常见的秤及其读数方法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "操作题"
+          ]
+        },
+        {
+          "name": "单位换算与比较",
+          "description": "熟记1千克=1000克，能进行简单的单位换算及带单位的大小比较。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "排序/比较",
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "数学广角——推理",
+      "knowledge_points": [
+        {
+          "name": "简单的逻辑排除法",
+          "description": "根据已知条件，通过“不是……就是……”的逻辑进行排除得出结论。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "列表法与对应关系",
+          "description": "利用表格或连线工具，整理人物与事物的对应信息进行推理。",
+          "difficulty": 3,
+          "question_types": [
+            "操作题",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "行列约束推理（数独初步）",
+          "description": "在方格中根据每行、每列数字不重复的规则进行填数推理。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 10,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "计算能力综合训练",
+          "description": "对本学期涉及的表内乘除法、有余数除法、混合运算进行综合口算与笔算练习。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "竖式计算",
+            "填空"
+          ]
+        },
+        {
+          "name": "数与几何知识回顾",
+          "description": "复习万以内数的组成、读写，以及轴对称、平移、旋转等几何概念。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "画图"
+          ]
+        },
+        {
+          "name": "实际问题的综合解决",
+          "description": "结合统计数据、质量单位以及复杂的数量关系解决综合性应用题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "操作题",
+            "填空"
+          ]
+        }
+      ]
+    }
+  ]
+}

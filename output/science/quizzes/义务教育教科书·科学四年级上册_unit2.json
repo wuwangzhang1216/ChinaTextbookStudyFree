@@ -1,0 +1,703 @@
+{
+  "textbook": "教科版小学科学四年级上册",
+  "unit": "呼吸与消化",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元《呼吸与消化》基础达标卷",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "吸气时，空气通过鼻腔、气管进入肺部，此时胸腔扩张。",
+        "options": [],
+        "answer": "对",
+        "explanation": "吸气时，膈肌收缩下降，肋间肌收缩，胸廓扩大，肺部扩张进入空气。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "食物分类",
+        "question": "根据食物来源，我们可以把食物分为植物类食物和动物类食物。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是最常用的食物分类方法之一，又称素食和荤食。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "口腔的消化功能",
+        "question": "舌头在口腔消化的过程中只起到搅拌食物的作用。",
+        "options": [],
+        "answer": "对",
+        "explanation": "舌头主要负责搅拌食物并将其输送到食道口，同时协助感受味道。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "测量与提升肺活量",
+        "question": "肺活量大的人，每次呼吸能够交换的气体量相对较多。",
+        "options": [],
+        "answer": "对",
+        "explanation": "肺活量是人体发育水平和健康状况的重要指标，大的肺活量意味着更强气体交换能力。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "食物中的营养成分",
+        "question": "含有脂肪、蛋白质、糖类的食物才是营养均衡的，维生素不重要。",
+        "options": [],
+        "answer": "错",
+        "explanation": "维生素和矿物质也是人体必需的六大营养素，对调节身体机能至关重要。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "我们呼吸时，每次呼出的气体与吸入的气体相比，变化最大的是（）。",
+        "options": [
+          "氧气减少，二氧化碳增多",
+          "氧气增多，二氧化碳减少",
+          "完全没有氧气了",
+          "氮气显著增加"
+        ],
+        "answer": "氧气减少，二氧化碳增多",
+        "explanation": "人体呼吸过程本质是氧气与二氧化碳的交换过程。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物中的营养成分及其检测",
+        "question": "在馒头上滴加碘酒，馒头变蓝了，说明馒头中含有（）。",
+        "options": [
+          "蛋白质",
+          "脂肪",
+          "淀粉",
+          "维生素"
+        ],
+        "answer": "淀粉",
+        "explanation": "淀粉遇碘酒变蓝是基本的化学反应特征。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平衡膳食宝塔的应用",
+        "question": "根据“平衡膳食宝塔”，我们每天摄入量最大的应该是（）。",
+        "options": [
+          "谷薯类",
+          "蔬菜水果类",
+          "油脂类",
+          "鱼肉蛋类"
+        ],
+        "answer": "谷薯类",
+        "explanation": "谷薯类位于宝塔底层，提供能量，需求量最大。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口腔的消化功能",
+        "question": "牙齿中主要起切割食物作用的是（）。",
+        "options": [
+          "臼齿",
+          "犬齿",
+          "门齿",
+          "槽牙"
+        ],
+        "answer": "门齿",
+        "explanation": "门齿像菜刀负责切割，犬齿撕碎，臼齿磨碎。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "测量与提升肺活量",
+        "question": "通过体育锻炼，我们的肺活量通常会（）。",
+        "options": [
+          "减小",
+          "不变",
+          "增大",
+          "先变大后变小"
+        ],
+        "answer": "增大",
+        "explanation": "长期锻炼可增强呼吸肌力量，提升肺部的扩张能力。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "下列不属于呼吸器官的是（）。",
+        "options": [
+          "气管",
+          "肺",
+          "鼻腔",
+          "胃"
+        ],
+        "answer": "胃",
+        "explanation": "胃属于消化器官，而非呼吸器官。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物中的营养成分",
+        "question": "在白纸上涂抹花生种子，留下油迹，说明花生含有较多（）。",
+        "options": [
+          "糖类",
+          "蛋白质",
+          "脂肪",
+          "水"
+        ],
+        "answer": "脂肪",
+        "explanation": "脂肪能在纸上留下半透明的油迹。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物的分类与统计",
+        "question": "面条属于（）。",
+        "options": [
+          "动物类食物",
+          "植物类食物",
+          "矿物类食物",
+          "合成类食物"
+        ],
+        "answer": "植物类食物",
+        "explanation": "面条由小麦加工而成，来源是植物。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "人运动后呼吸次数增加，其原因是（）。",
+        "options": [
+          "人变得兴奋",
+          "需要更多氧气",
+          "心脏跳得慢了",
+          "肺变大了"
+        ],
+        "answer": "需要更多氧气",
+        "explanation": "运动消耗大量能量，需要更多氧气参与转化。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物中的营养成分",
+        "question": "主要负责构建和修复我们身体的营养成分是（）。",
+        "options": [
+          "糖类",
+          "脂肪",
+          "蛋白质",
+          "矿物质"
+        ],
+        "answer": "蛋白质",
+        "explanation": "蛋白质是生命的基础，是肌肉、皮肤等的主要成分。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "口腔的消化功能",
+        "question": "咀嚼馒头会感到甜，是因为唾液使其中的（）发生了变化。",
+        "options": [
+          "脂肪",
+          "淀粉",
+          "蛋白质",
+          "维生素"
+        ],
+        "answer": "淀粉",
+        "explanation": "唾液淀粉酶能将淀粉转化为有甜味的麦芽糖。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物分类",
+        "question": "下列属于主食的是（）。",
+        "options": [
+          "红烧肉",
+          "炒青菜",
+          "米饭",
+          "苹果"
+        ],
+        "answer": "米饭",
+        "explanation": "主食通常指谷类或薯类食物。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "衡量肺活量",
+        "question": "测量肺活量时，呼出的气体量应该是（）吸一口气后的呼出量。",
+        "options": [
+          "轻轻",
+          "普通",
+          "最大力",
+          "稍微"
+        ],
+        "answer": "最大力",
+        "explanation": "肺活量指尽力吸气后，尽力呼出的气体量。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物的分类与统计",
+        "question": "如果我们一餐吃了蛋炒饭，其中包含米饭、鸡蛋、葱，我们认为这一顿饭包含了（）种食物。",
+        "options": [],
+        "answer": "3",
+        "explanation": "按食材统计，米饭、鸡蛋、葱各为一种。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "口腔的消化功能",
+        "question": "一个成年人的牙齿通常有（）颗左右。",
+        "options": [],
+        "answer": "32",
+        "explanation": "成年人牙齿数量通常在28到32颗之间。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "人体进行气体交换的主要场所是（）。",
+        "options": [],
+        "answer": "肺",
+        "explanation": "肺是呼吸系统的核心，负责血液与外界的气体交换。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物中的营养成分",
+        "question": "肥肉里含有丰富的（），能在纸上留下油痕。",
+        "options": [],
+        "answer": "脂肪",
+        "explanation": "脂肪是肥肉的主要成分。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平衡膳食宝塔的应用",
+        "question": "根据营养均衡原则，我们不应该（），即只吃自己喜欢的食物。",
+        "options": [],
+        "answer": "挑食",
+        "explanation": "挑食会导致某些营养素缺乏，破坏身体健康。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级科学上册第二单元《呼吸与消化》期中测评卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "呼出的气体中完全没有氧气了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "呼出的气体中氧气含量只是减少了，仍然占有约16%。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "口腔的消化功能",
+        "question": "经常刷牙、早晚漱口是保护牙齿的好习惯。",
+        "options": [],
+        "answer": "对",
+        "explanation": "良好的生活习惯能预防龋齿。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "食物中的营养成分",
+        "question": "蛋白质遇到碘酒会变成蓝紫色。",
+        "options": [],
+        "answer": "错",
+        "explanation": "淀粉遇到碘酒才会变成蓝紫色。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "平衡膳食宝塔的应用",
+        "question": "虽然食盐和油脂位于膳食宝塔顶层，但并非指吃得越多越好。",
+        "options": [],
+        "answer": "对",
+        "explanation": "宝塔顶层的食物需求量最小，应尽量少摄入。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "测量与提升肺活量",
+        "question": "肺活量的大小只取决于肺的体积，和体育运动没有关系。",
+        "options": [],
+        "answer": "错",
+        "explanation": "体育锻炼可以增强呼吸肌，显著提高肺活量。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "深呼吸后，我们感到胸骨间的（）向上向外移动。",
+        "options": [
+          "肌肉",
+          "脂肪",
+          "肋骨",
+          "胃"
+        ],
+        "answer": "肋骨",
+        "explanation": "吸气时肋骨在肋间肌带动下上举外移。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物分类",
+        "question": "按照生吃和熟吃分类，下列属于生食的是（）。",
+        "options": [
+          "猪肉",
+          "鸡蛋",
+          "苹果",
+          "米饭"
+        ],
+        "answer": "苹果",
+        "explanation": "水果通常可以直接生食。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物中的营养成分",
+        "question": "用棉签蘸取少许食用油涂抹在白纸上，看到的现象是（）。",
+        "options": [
+          "纸变湿了立刻干掉",
+          "白纸变蓝了",
+          "白纸上留下透明油迹",
+          "纸被腐蚀了"
+        ],
+        "answer": "白纸上留下透明油迹",
+        "explanation": "这是检验食物中含有脂肪的简单方法。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "测量与提升肺活量",
+        "question": "科学测量肺活量时，正确的做法是（）。",
+        "options": [
+          "深吸一口气，多次吹入测量袋",
+          "分两次吸气，分两次吹入",
+          "深吸一口气，一次性尽力吹入",
+          "随便吹口气"
+        ],
+        "answer": "深吸一口气，一次性尽力吹入",
+        "explanation": "肺活量定义决定了必须是深吸后的一口气最大呼出量。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口腔的消化功能",
+        "question": "下列哪种组织主要负责磨碎食物？（）",
+        "options": [
+          "门齿",
+          "臼齿",
+          "犬齿",
+          "门牙"
+        ],
+        "answer": "臼齿",
+        "explanation": "臼齿宽大，适合通过咀嚼磨碎食物。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "下列气体在大气中含量最多的是（）。",
+        "options": [
+          "氧气",
+          "二氧化碳",
+          "氮气",
+          "水蒸气"
+        ],
+        "answer": "氮气",
+        "explanation": "氮气约占空气体积的78%。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平衡膳食宝塔的应用",
+        "question": "根据“平衡膳食宝塔”，我们每天摄入量最少的应该是（）。",
+        "options": [
+          "肉类",
+          "蔬菜",
+          "油脂",
+          "水果"
+        ],
+        "answer": "油脂",
+        "explanation": "油脂类位于塔尖，虽有营养但不宜多食。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "食物中的营养成分",
+        "question": "我们在做糖类检测实验时，滴入碘酒后食物样本没变色，说明其中不含有（）。",
+        "options": [
+          "脂肪",
+          "淀粉",
+          "蛋白质",
+          "维生素"
+        ],
+        "answer": "淀粉",
+        "explanation": "变蓝是检测淀粉的标准反应。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "人吸入气体的路径是（）。",
+        "options": [
+          "鼻腔→气管→肺",
+          "肺→气管→鼻腔",
+          "口腔→胃→肺",
+          "肺→心脏→胃"
+        ],
+        "answer": "鼻腔→气管→肺",
+        "explanation": "这是标准的吸气路径。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "口腔的消化功能",
+        "question": "（）可以使食物在口腔内初步消化。",
+        "options": [
+          "牙齿、舌头和食管",
+          "牙齿、舌头和唾液",
+          "胃、肠和唾液",
+          "牙齿和胃"
+        ],
+        "answer": "牙齿、舌头和唾液",
+        "explanation": "牙齿切磨、舌头搅拌、唾液分解，构成口腔消化。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "人呼出的气体中氧气含量大约是（）。",
+        "options": [
+          "21%",
+          "16%",
+          "4%",
+          "0%"
+        ],
+        "answer": "16%",
+        "explanation": "吸入约21%，呼出约16%，部分氧气被身体利用。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物分类",
+        "question": "下列属于动物类食物的是（）。",
+        "options": [
+          "豆腐",
+          "土豆",
+          "鸡蛋",
+          "面包"
+        ],
+        "answer": "鸡蛋",
+        "explanation": "鸡蛋来源于鸡，属于动物类食物。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "口腔的消化功能",
+        "question": "下列哪种行为最不利于保护呼吸器官健康？（）",
+        "options": [
+          "坚持体育锻炼",
+          "扫地前先洒水",
+          "二手烟环境",
+          "雾霾天戴口罩"
+        ],
+        "answer": "二手烟环境",
+        "explanation": "香烟及二手烟中的有害物质对肺部损伤极大。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "安静时，一个四年级小学生每分钟大约呼吸（）次。",
+        "options": [],
+        "answer": "22",
+        "explanation": "由于存在个体差异，20-25次均属于正常范围，教材案例多取22次。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "测量与提升肺活量",
+        "question": "国家体质标准规定，小学四年级男生肺活量及格标准大约是（）毫升。",
+        "options": [],
+        "answer": "1100",
+        "explanation": "1100毫升是四年级男生标准起点。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物分类",
+        "question": "像米饭、面条这种在一天中必须食用的主打食物叫（）。",
+        "options": [],
+        "answer": "主食",
+        "explanation": "主食提供全天主要能量来源。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物中的营养成分",
+        "question": "米饭遇到碘酒变成了蓝色，这证明米饭中含有大量（）。",
+        "options": [],
+        "answer": "淀粉",
+        "explanation": "淀粉是植物界常见的碳水化合物储能形式。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人体呼吸系统与过程",
+        "question": "吸气时，由于（）向下移动，导致胸腔容积变大。",
+        "options": [],
+        "answer": "膈肌",
+        "explanation": "膈肌的收缩与舒张改变了胸廓的上下径。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "人体呼吸过程",
+      "core_concept": "呼吸是吸入氧气并呼出二氧化碳的过程，主要由肺负责气体交换。",
+      "key_formula": "吸气：膈肌收缩下降，胸腔扩大；呼气：膈肌舒张上升，胸腔缩小。",
+      "common_mistakes": [
+        "认为呼出的气体中没有氧气",
+        "认为吸入的是全部氧气"
+      ],
+      "tips": "肺是交换中心，气管是通道，膈肌是动力泵。"
+    },
+    {
+      "point": "肺活量",
+      "core_concept": "尽力吸气后再尽力呼出的气体量。",
+      "key_formula": "深度练习 + 体育运动 = 增大肺活量",
+      "common_mistakes": [
+        "平静呼气后的气体量当作肺活量"
+      ],
+      "tips": "测量时先深吸一口气，然后一口气吐尽。"
+    },
+    {
+      "point": "食物营养检测",
+      "core_concept": "利用化学或物理特性识别脂肪、蛋白质、淀粉等成分。",
+      "key_formula": "淀粉+碘酒→蓝色；脂肪+白纸→油迹",
+      "common_mistakes": [
+        "把水痕当作油迹（水会蒸发，油不会）"
+      ],
+      "tips": "检测蛋白质可采用气味判别法（烧焦羽毛味）。"
+    },
+    {
+      "point": "平衡膳食宝塔",
+      "core_concept": "科学均衡地摄入各类食物以维持健康。",
+      "key_formula": "谷类最多，油盐最少。",
+      "common_mistakes": [
+        "挑食导致营养不平衡"
+      ],
+      "tips": "每天都要保证四大类食物（谷薯、蔬果、肉蛋、奶豆）的摄入。"
+    },
+    {
+      "point": "口腔的消化",
+      "core_concept": "通过物理切割和化学分解（唾液）对食物进行初步处理。",
+      "key_formula": "门齿(切)+犬齿(撕)+臼齿(磨)+唾液(化)",
+      "common_mistakes": [
+        "忽视舌头搅拌和唾液分解的作用"
+      ],
+      "tips": "细嚼慢咽能减轻胃部负担并让淀粉转化为糖。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级上册",
+  "unit": "准备课",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第1单元「准备课」基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "数数时，应按照从左到右或从上到下的顺序，做到不重复、不遗漏。",
+        "options": [],
+        "answer": "对",
+        "explanation": "数数的基本方法是按顺序点数，这样能保证结果准确。验算：从1数到10，按顺序数不会出错。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "同样多、多、少的含义",
+        "question": "两个篮子里各装了5个苹果，说明这两个篮子里的苹果同样多。",
+        "options": [],
+        "answer": "对",
+        "explanation": "数量相等即为同样多。$5 = 5$，所以同样多。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "数字“0”代表一个也没有。",
+        "options": [],
+        "answer": "对",
+        "explanation": "0的含义之一就是表示没有物体。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "同样多、多、少的含义",
+        "question": "小明有3块糖，小红有5块糖，小明比小红多。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$3 < 5$，所以小明比小红少，题干描述错误。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "比多少的实践应用",
+        "question": "3只兔子分4个萝卜，每个兔子分1个，萝卜会有剩余。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$4 > 3$，萝卜比兔子多，所以分完后还剩 $4 - 3 = 1$ 个。验算：$3 + 1 = 4$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "一只手有几个手指头？",
+        "options": [
+          "3个",
+          "4个",
+          "5个",
+          "6个"
+        ],
+        "answer": "5个",
+        "explanation": "正常手掌有1个大拇指和4个手指，共计5个。数数：1，2，3，4，5。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同样多、多、少的含义",
+        "question": "桌上有3个杯子和3个盖子，杯子和盖子的数量关系是？",
+        "options": [
+          "同样多",
+          "杯子多",
+          "盖子多",
+          "无法确定"
+        ],
+        "answer": "同样多",
+        "explanation": "数量都是3，所以同样多。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "在6前面的一个数是？",
+        "options": [
+          "4",
+          "5",
+          "7",
+          "8"
+        ],
+        "answer": "5",
+        "explanation": "按照数数顺序：1, 2, 3, 4, 5, 6... 6的前面是5。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "下面哪个数字比8大？",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "9",
+        "explanation": "数数时，9在8的后面，所以 $9 > 8$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同样多、多、少的含义",
+        "question": "盘子里有8个红苹果，6个青苹果，哪种苹果少？",
+        "options": [
+          "红苹果少",
+          "青苹果少",
+          "一样多",
+          "无法比较"
+        ],
+        "answer": "青苹果少",
+        "explanation": "$6 < 8$，数量小的比数量大的少。验算：6在8的前面。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "我们的教室里有几块黑板？",
+        "options": [
+          "1块",
+          "2块",
+          "5块",
+          "10块"
+        ],
+        "answer": "1块",
+        "explanation": "常规教室前方有一块主黑板。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比多少的实践应用",
+        "question": "小明有5个球，小红有7个球，谁的球多？",
+        "options": [
+          "小明多",
+          "小红多",
+          "一样多",
+          "不确定"
+        ],
+        "answer": "小红多",
+        "explanation": "$7 > 5$，所以小红的球多。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比多少的实践应用",
+        "question": "5个小朋友分6把椅子，每人坐一把，结果是？",
+        "options": [
+          "椅子有剩余",
+          "小朋友没位子",
+          "刚好坐满",
+          "无法判断"
+        ],
+        "answer": "椅子有剩余",
+        "explanation": "椅子6把，人5个，$6 > 5$，所以会有多出来的椅子。验算：$6 - 5 = 1$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "从1倒着数到5，第3个数是？",
+        "options": [
+          "10",
+          "9",
+          "8",
+          "7"
+        ],
+        "answer": "8",
+        "explanation": "倒着数：10, 9, 8, 7, 6, 5。第1个是10，第2个是9，第3个是8。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "双人跳绳比赛，一组有2人，3组一共有几人？",
+        "options": [
+          "3人",
+          "4人",
+          "5人",
+          "6人"
+        ],
+        "answer": "6人",
+        "explanation": "三组人就是三个2。列式：$2 + 2 + 2 = 6$。验算：$2 \times 3 = 6$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "同样多、多、少的含义",
+        "question": "第一排摆了4个圆，第二排也摆了4个圆，两排圆的关系是？",
+        "options": [
+          "第一排多",
+          "第二排多",
+          "同样多",
+          "不能比较"
+        ],
+        "answer": "同样多",
+        "explanation": "$4 = 4$，数量相等。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比多少的实践应用",
+        "question": "猫妈妈钓了8条鱼，小猫钓了5条鱼，小猫再钓几条就和妈妈同样多？",
+        "options": [
+          "2条",
+          "3条",
+          "4条",
+          "13条"
+        ],
+        "answer": "3条",
+        "explanation": "要求同样多，即小猫也要有8条。$8 - 5 = 3$（条）。验算：$5 + 3 = 8$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比多少的实践应用",
+        "question": "一列队伍中小华前面有2人，后面有3人，这一队共有几人？",
+        "options": [
+          "4人",
+          "5人",
+          "6人",
+          "7人"
+        ],
+        "answer": "6人",
+        "explanation": "前面2人 + 小华本人(1人) + 后面3人。列式：$2 + 1 + 3 = 6$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "小明家有爸爸、妈妈和他自己，小明家一共有 ___ 口人。",
+        "options": [],
+        "answer": "3",
+        "explanation": "数一数：1（爸爸），2（妈妈），3（小明）。总计3人。验算：$1 + 1 + 1 = 3$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "一只小鸡有 2 只脚，两只独立的小鸡一共有 ___ 只脚。",
+        "options": [],
+        "answer": "4",
+        "explanation": "每只鸡2只脚，两只就是 $2 + 2 = 4$（只）。验算：$2 \times 2 = 4$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比多少的实践应用",
+        "question": "小红有 10 支铅笔，小明有 8 支，小红比小明多 ___ 支。",
+        "options": [],
+        "answer": "2",
+        "explanation": "求多多少用减法。$10 - 8 = 2$（支）。验算：$8 + 2 = 10$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "计算：$3 + 4 = ?$",
+        "options": [],
+        "answer": "7",
+        "explanation": "$3 + 4 = 7$。验算：$7 - 4 = 3$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "计算：$9 - 5 = ?$",
+        "options": [],
+        "answer": "4",
+        "explanation": "$9 - 5 = 4$。验算：$4 + 5 = 9$。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第1单元「准备课」综合素质大比拼",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "7在6的后面，所以7比6大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在自然数顺序中，后面的数比前面的数大。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "同样多、多、少的含义",
+        "question": "5比4多，4比5少。",
+        "options": [],
+        "answer": "对",
+        "explanation": "比较大小的相对性。$5 > 4$，则 $4 < 5$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "把3个苹果放在2个盘子里，每个盘子一定都有苹果。",
+        "options": [],
+        "answer": "错",
+        "explanation": "不一定。可能一个盘子放3个，另一个盘子放0个。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "同样多、多、少的含义",
+        "question": "只要是一一对应后没有剩余，这两组物体就同样多。",
+        "options": [],
+        "answer": "对",
+        "explanation": "一一对应法是判断同样多的标准逻辑。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "比多少的实践应用",
+        "question": "小红和小明同样高，后来小红长高了2厘米，现在还是同样高。",
+        "options": [],
+        "answer": "错",
+        "explanation": "原本一样，其中一人增加了，现在肯定不一样高了。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "数一数，太阳有几个？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "0个"
+        ],
+        "answer": "1个",
+        "explanation": "常识与数数：天空只有一个太阳。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同样多、多、少的含义",
+        "question": "哥哥有6支笔，姐姐也有6支笔，他们的笔？",
+        "options": [
+          "同样多",
+          "哥哥多",
+          "姐姐多",
+          "不能比"
+        ],
+        "answer": "同样多",
+        "explanation": "$6 = 6$，所以同样多。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "按规律数数：2, 4, 6, 8, ( )。括号里应该是？",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "explanation": "每次加2。$8 + 2 = 10$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "同样多、多、少的含义",
+        "question": "小花有10元钱，小明有7元钱，谁的钱少？",
+        "options": [
+          "小花少",
+          "小明少",
+          "一样多",
+          "无法判断"
+        ],
+        "answer": "小明少",
+        "explanation": "$7 < 10$，所以小明少。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比多少的实践应用",
+        "question": "水壶能装4杯水，现在有5个人，每人一杯够分吗？",
+        "options": [
+          "够分",
+          "不够分",
+          "正好",
+          "不确定"
+        ],
+        "answer": "不够分",
+        "explanation": "$4 < 5$，水壶的水量少于人数，所以不够。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "从左往右数，第4个数字是几？（列：1, 3, 5, 7, 9）",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "9"
+        ],
+        "answer": "7",
+        "explanation": "1是第1，3是第2，5是第3，7是第4。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比多少的实践应用",
+        "question": "左边有6块橡皮，右边有9块橡皮，要把两边变得同样多，应该？",
+        "options": [
+          "右边给左边一些",
+          "左边给右边一些",
+          "不动",
+          "拿走左边的"
+        ],
+        "answer": "右边给左边一些",
+        "explanation": "右边多，左边少，平衡需要多的一方向少的一方提供。验算：右边给左边1块，变7和8；给1.5块（或右边拿掉3块）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "比5大且比8小的数有几个？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "2个",
+        "explanation": "符合条件的数有 6 和 7，共2个。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比多少的实践应用",
+        "question": "小明排队，从前数他是第3个，从后数他也是第3个，这一队共有几人？",
+        "options": [
+          "4人",
+          "5人",
+          "6人",
+          "7人"
+        ],
+        "answer": "5人",
+        "explanation": "前面2人 + 小明1人 + 后面2人 = 5人。列式：$3 + 3 - 1 = 5$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "同样多、多、少的含义",
+        "question": "两根绳子一样长，第一根剪掉1米，第二根剪掉2米，剩下的哪根长？",
+        "options": [
+          "第一根剩下的长",
+          "第二根剩下的长",
+          "一样长",
+          "无法比较"
+        ],
+        "answer": "第一根剩下的长",
+        "explanation": "减去的越少，剩下的越多。$1 < 2$，所以第一根剩下的长。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "写数时，8像什么？",
+        "options": [
+          "鸭子",
+          "耳朵",
+          "葫芦",
+          "红旗"
+        ],
+        "answer": "葫芦",
+        "explanation": "数字形象化记忆：8像葫芦。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "双休放假，星期六和星期天一共放假几天？",
+        "options": [
+          "1天",
+          "2天",
+          "3天",
+          "5天"
+        ],
+        "answer": "2天",
+        "explanation": "数一数：1（周六），2（周日）。共2天。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比多少的实践应用",
+        "question": "一筐苹果不到10个，比7个多，可能是多少个？",
+        "options": [
+          "6个",
+          "7个",
+          "9个",
+          "10个"
+        ],
+        "answer": "9个",
+        "explanation": "大于7且小于10的数有8和9。选项中只有9符合。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "小明有 4 块饼干，妈妈又给了他 3 块，他现在一共 ___ 块饼干。",
+        "options": [],
+        "answer": "7",
+        "explanation": "$4 + 3 = 7$。验算：$7 - 3 = 4$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "停车场原来有 9 辆车，开走了 4 辆，还剩 ___ 辆。",
+        "options": [],
+        "answer": "5",
+        "explanation": "$9 - 4 = 5$。验算：$5 + 4 = 9$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比多少的实践应用",
+        "question": "小红有 6 颗星，小亮有 10 颗星，小亮给小红 ___ 颗星，两人的星就同样多。",
+        "options": [],
+        "answer": "2",
+        "explanation": "总数：$6 + 10 = 16$。同样多即每人 $16 \bdiv 2 = 8$ 颗。$10 - 8 = 2$。验算：$6 + 2 = 8$，$10 - 2 = 8$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "计算：$5 + 5 = ?$",
+        "options": [],
+        "answer": "10",
+        "explanation": "$5 + 5 = 10$。验算：$10 - 5 = 5$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~10各数的数数与认读",
+        "question": "计算：$10 - 7 = ?$",
+        "options": [],
+        "answer": "3",
+        "explanation": "$10 - 7 = 3$。验算：$7 + 3 = 10$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "1~10各数的数数与认读",
+      "core_concept": "人教版一年级上册第一单元的基础是学会点数。点数时要用手指指着物体，数一个记一个，这就是“一一对应”。最后一个数出的数，就是这堆物体的总数。同时要学会识别阿拉伯数字1-10的字形，并能按顺序（正数、倒数）排列这些数字。",
+      "key_formula": "数数规则：$1, 2, 3, 4, 5, 6, 7, 8, 9, 10$ (从小到大)",
+      "common_mistakes": [
+        "跳数或重复数：手指点得快，嘴里数得慢，导致数错。",
+        "字形混淆：容易把6和9看反，或者把7和手枪模型建立错误联系。"
+      ],
+      "tips": "数数时可以做个小记号，数过一个划掉一个，这样就不会漏数或重复了。"
+    },
+    {
+      "point": "同样多、多、少的含义",
+      "core_concept": "这是比较事物数量的基础。判断方法是“一一对应”法：将两组物体一个对一个地连线或摆放。如果都没有剩余，就是“同样多”；如果有剩余，有剩余的那一组就“多”，对应的另一组就是“少”。",
+      "key_formula": "对应结论：没有剩余 = 同样多；有剩余 = 比较结果",
+      "common_mistakes": [
+        "视觉误导：认为占地面积大的物体就多，忽略了实际个数。",
+        "术语混淆：分不清“谁比谁多”和“谁比谁少”的逻辑关系。"
+      ],
+      "tips": "伸出左右手的手指一个对一个地比，这种身体语言能快速帮助理解“同样多”。"
+    },
+    {
+      "point": "比多少的实践应用",
+      "core_concept": "将数数和比较多少应用到生活情境中。例如，根据人数分发餐具，或者比较不同颜色气球的数量。这要求学生不仅能数出数字，还要能通过减法或逻辑推理解决“还差几个”或“多出几个”的实际问题。",
+      "key_formula": "差距计算：大数 - 小数 = 相差的数量",
+      "common_mistakes": [
+        "忽略自身：在排队问题中，容易忘记数自己。",
+        "逆向理解困难：不理解“小明比小红多2个”其实等同于“小红比小明少2个”。"
+      ],
+      "tips": "遇到复杂的排队或分配问题，可以在纸上画简单的圆点来代表物体，让抽象的数字变形象。"
+    }
+  ]
+}

@@ -1,0 +1,743 @@
+{
+  "textbook": "统编版小学语文四年级上册",
+  "unit": "自然之美",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元「自然之美」基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "“人声鼎沸”这个词形容人声嘈杂混乱，像水开了一样。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“鼎”是古代煮东西的器物，“沸”是开水，形容人群声音嘈杂。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "按时间顺序描写景物",
+        "question": "《观潮》一课是按照“潮来前、潮来时、潮去后”的顺序展示钱塘江大潮的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文按照时间先后顺序，生动描写了潮水的变化过程。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "边读边想象画面",
+        "question": "在读课文时，如果脑海中浮现出画面，会帮助我们更好地理解课文。",
+        "options": [],
+        "answer": "对",
+        "explanation": "想象画面是本单元的核心语文要素，能让静态文字变生动。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "“浪潮越来越近，犹如千万匹白色战马齐头并进。”这句话运用了拟人的修辞手法。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这句话使用了“犹如”，是比喻句，把浪潮比作白色战马。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "“鸦雀无声”和“震耳欲聋”是一对近义词。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“鸦雀无声”形容非常安静，“震耳欲聋”形容声音巨大，它们是反义词。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "下列哪个词语形容声音极小？",
+        "options": [
+          "人声鼎沸",
+          "响彻云霄",
+          "低声细语",
+          "山崩地裂"
+        ],
+        "answer": "低声细语",
+        "explanation": "低声细语形容说话声音很轻，其他项多形容音量极大。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按时间顺序描写景物",
+        "question": "《观潮》写“潮来前”时，作者重点描写了钱塘江的什么状态？",
+        "options": [
+          "奔腾咆哮",
+          "平静如镜",
+          "白浪翻滚",
+          "漫天飞舞"
+        ],
+        "answer": "平静如镜",
+        "explanation": "潮来前，江面薄雾笼罩，非常平静。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "“午后一点左右，从远处传来隆隆的响声，好像（    ）。”",
+        "options": [
+          "敲鼓声",
+          "闷雷滚动",
+          "下雨声",
+          "北风呼啸"
+        ],
+        "answer": "闷雷滚动",
+        "explanation": "这是《观潮》中的原句，形容潮水初现时的声音。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "“宽阔的钱塘江横卧在眼前。”这里“横卧”一词赋予了钱塘江什么样态？",
+        "options": [
+          "像人一样躺着",
+          "像马一样奔跑",
+          "像鸟一样飞翔",
+          "像鱼一样游动"
+        ],
+        "answer": "像人一样躺着",
+        "explanation": "“横卧”是拟人化的手法，写出了江面的宽阔与静止。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "边读边想象画面",
+        "question": "“细细的溪水流着，灰白色的鹅卵石布满河床。”读到这句，你最可能联想到的画面是？",
+        "options": [
+          "海边冲浪的惊险",
+          "山间小溪的清亮",
+          "波涛汹涌的瀑布",
+          "辽阔无边的草原"
+        ],
+        "answer": "山间小溪的清亮",
+        "explanation": "从“细细的溪水”和“鹅卵石”可以联想到山涧清爽的景色。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "选出下列词语中字形完全正确的一项：",
+        "options": [
+          "据说、庄稼",
+          "提土、余波",
+          "震耳欲笼",
+          "响彻云宵"
+        ],
+        "answer": "据说、庄稼",
+        "explanation": "C项应为“震耳欲聋”，D项应为“响彻云霄”。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "《梅兰芳蓄须》表现了人物的气节，那《观潮》主要表现了什么？",
+        "options": [
+          "钱塘大潮的雄伟",
+          "科技的发达",
+          "历史的厚重",
+          "人情的温暖"
+        ],
+        "answer": "钱塘大潮的雄伟",
+        "explanation": "这篇课文通过具体描写展现了钱塘江大潮这一自然奇观。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "边读边想象画面",
+        "question": "阅读“月儿是那样明亮，月光是那样柔和”，你脑海中浮现的色调是？",
+        "options": [
+          "火红色",
+          "银白色",
+          "金黄色",
+          "翠绿色"
+        ],
+        "answer": "银白色",
+        "explanation": "柔和明亮的月光通常被想象为洁净的银白色。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "按时间顺序描写景物",
+        "question": "“过了好久，钱塘江才恢复了平静。”这句话适合放在文章的哪个位置？",
+        "options": [
+          "文章开头",
+          "潮来前后面",
+          "正文结尾",
+          "潮头出现时"
+        ],
+        "answer": "正文结尾",
+        "explanation": "“恢复平静”是潮去后的状态，通常作为一次自然现象描写的收尾。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "“窃窃私语”常用来形容：",
+        "options": [
+          "大声喧哗",
+          "小声嘀咕",
+          "严厉训斥",
+          "唱歌跳舞"
+        ],
+        "answer": "小声嘀咕",
+        "explanation": "“窃窃”指细小的声音，“私语”指私下说话。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "形容声音非常响亮，好像快要把耳朵震聋了的词语是（____）。",
+        "options": [],
+        "answer": "震耳欲聋",
+        "explanation": "考查课文重点词语的词义理解。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "《走月亮》一文中，作者用“月亮（____）在溪水里”描写动态美。",
+        "options": [],
+        "answer": "倒映",
+        "explanation": "根据课文内容，“倒映”体现了水面倒影的特点。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "按时间顺序描写景物",
+        "question": "钱塘江大潮在每年农历的（____）十八日最为壮观。",
+        "options": [],
+        "answer": "八月",
+        "explanation": "课文第一句明确提到农历八月十八是观潮日。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "请将描写声音的词语与其对应的特征连线：",
+        "options": [
+          "低声细语",
+          "山崩地裂",
+          "人声鼎沸",
+          "鸦雀无声",
+          "声音巨大",
+          "安静极了",
+          "小声说话",
+          "人多嘈杂"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "A连接小声说话，B连接声音巨大，C连接人多嘈杂，D连接安静极了。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "将课文中描写的景物与关联的词语相连接：",
+        "options": [
+          "钱塘潮",
+          "小溪水",
+          "月亮",
+          "梨花",
+          "细细的",
+          "洁白的",
+          "柔和的",
+          "雄伟的"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "潮是雄伟的，溪水是细细的，月色是柔和的，梨花是洁白的。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "请连接近义词：",
+        "options": [
+          "顿时",
+          "犹如",
+          "庄稼",
+          "宽阔",
+          "庄禾",
+          "立刻",
+          "广阔",
+          "好像"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "顿时对应立刻，犹如对应好像，庄稼对应庄禾，宽阔对应广阔。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "请利用给出的词语，排列成一句生动描写景物的句子：",
+        "options": [
+          "那条",
+          "云漫般",
+          "白线",
+          "向我们",
+          "移来"
+        ],
+        "answer": "那条,白线,向我们,云漫般,移来",
+        "explanation": "出自《观潮》，描写潮水初见时的样子。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "边读边想象画面",
+        "question": "请将下列关于《繁星》的描写词语连成句子：",
+        "options": [
+          "柔和的",
+          "静寂的",
+          "夜里",
+          "我望着",
+          "星群"
+        ],
+        "answer": "静寂的,夜里,我望着,柔和的,星群",
+        "explanation": "通过修辞组合，表现作者对星空的细腻感受。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级语文上册第一单元「自然之美」综合测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "“风呼呼地刮着”中的“呼呼”是描写声音的拟声词。",
+        "options": [],
+        "answer": "对",
+        "explanation": "拟声词是模拟大自然或生活中声音的词语。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "按时间顺序描写景物",
+        "question": "在按时间顺序写景时，可以多用“过了一会儿”、“午后两点”等表达表示顺序。",
+        "options": [],
+        "answer": "对",
+        "explanation": "时间关联词是文章条理清晰的关键。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "边读边想象画面",
+        "question": "“月亮走，我也走”运用了夸张的修辞手法。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这是拟人手法，赋予月亮人类的行为。非夸张。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "“半明半昧”是形容光线忽明忽暗的样子。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“昧”指昏暗，该词形容亮度不恒定。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "“满天的小星斗，它们尽着力量，把点点滴滴的光芒织成一张网。”这是一个比喻句。",
+        "options": [],
+        "answer": "对",
+        "explanation": "将星光比作网，体现了星空的密集与光芒的交织。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "下列哪个词语中“载”字读音与“记载”相同？",
+        "options": [
+          "连年载道",
+          "满载而归",
+          "刊载",
+          "三年五载"
+        ],
+        "answer": "刊载",
+        "explanation": "记载、刊载读zǎi；满载而归、怨声载道读zài；三年五载中“载”表年，也读zǎi。综合辨析刊载最匹配。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "“忽如一夜春风来，千树万树梨花开。”这里的“梨花”指什么？",
+        "options": [
+          "真实的梨花",
+          "空中的白云",
+          "枝头上的积雪",
+          "飘落的雨滴"
+        ],
+        "answer": "枝头上的积雪",
+        "explanation": "此句来自岑参诗句，运用比喻手法将雪比作梨花。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "按时间顺序描写景物",
+        "question": "下列词语中，哪一个不属于表示“时间极短”的词语？",
+        "options": [
+          "霎时",
+          "恢复",
+          "眨眼间",
+          "瞬间"
+        ],
+        "answer": "恢复",
+        "explanation": "“恢复”是一个动词词组，表示状态改变的过程，非直接的时间副词。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "边读边想象画面",
+        "question": "“沉睡”这个词用在山峦上，你联想到的环境是？",
+        "options": [
+          "热闹的市场",
+          "寂静的深夜",
+          "欢乐的学校",
+          "繁忙的马路"
+        ],
+        "answer": "寂静的深夜",
+        "explanation": "“沉睡”与寂静、夜晚的意象最为符合。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "“锣鼓喧天”一词中，“喧”字的意思是：",
+        "options": [
+          "声音大",
+          "欺骗",
+          "沉默",
+          "快速"
+        ],
+        "answer": "声音大",
+        "explanation": "喧字意为大声说话或声音嘈杂。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "描写钱塘江大潮时，作者把浪潮比作“白色的城墙”，是为了写出：",
+        "options": [
+          "浪潮的颜色好看",
+          "浪潮很高且壮观",
+          "浪潮的声音好听",
+          "浪潮退得很快"
+        ],
+        "answer": "浪潮很高且壮观",
+        "explanation": "城墙具有高度和厚度感，此比喻突出了潮势的宏伟。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "边读边想象画面",
+        "question": "《走月亮》中提到“阿妈，白天你在溪里洗衣裳，我为你牵着阿爸”，这段话唤起了什么体验？",
+        "options": [
+          "自然奇观的震撼",
+          "温馨淳朴的亲情",
+          "孤独寂寞的忧伤",
+          "勤劳工作的辛苦"
+        ],
+        "answer": "温馨淳朴的亲情",
+        "explanation": "这种生活情境通过想象让人感受到家庭的温暖。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按时间顺序描写景物",
+        "question": "观察日记或游记最常用哪种结构？",
+        "options": [
+          "时间顺序",
+          "空间顺序",
+          "事情发展顺序",
+          "逻辑顺序"
+        ],
+        "answer": "时间顺序",
+        "explanation": "本单元课文如《观潮》就是典型的时间顺序写作示例。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "下面哪个字含有共同的声母？",
+        "options": [
+          "昂、按",
+          "鼎、顿",
+          "稼、恰",
+          "占、山"
+        ],
+        "answer": "鼎、顿",
+        "explanation": "鼎(dǐng)和顿(dùn)的声母都是d。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "“头晕目眩”的“眩”意思是：",
+        "options": [
+          "眼睛昏花",
+          "黑暗",
+          "迷茫",
+          "明亮"
+        ],
+        "answer": "眼睛昏花",
+        "explanation": "眩指眼睛看东西模糊或昏花。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "“人声鼎沸”中“鼎”字查字典应查部首（____）部。",
+        "options": [],
+        "answer": "鼎",
+        "explanation": "鼎是部首查字法中的部首。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "《观潮》中描写潮水如“千万匹白色（____）齐头并进”。",
+        "options": [],
+        "answer": "战马",
+        "explanation": "根据课文原文填空。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "按时间顺序描写景物",
+        "question": "描写潮头过后状况的词语是“漫天卷地、风号浪吼，还有（____）”。",
+        "options": [],
+        "answer": "余波",
+        "explanation": "考查对《观潮》潮去后景象的文字记忆。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音词语的分类与积累",
+        "question": "词语释义连连看：",
+        "options": [
+          "若隐若现",
+          "齐头并进",
+          "风平浪静",
+          "响彻云霄",
+          "像隐像现",
+          "水面平静",
+          "一起前进",
+          "声传九霄"
+        ],
+        "answer": "A-1,B-3,C-2,D-4",
+        "explanation": "考查四字词语的表面意思理解。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "边读边想象画面",
+        "question": "请将感官体验与文中描写连接：",
+        "options": [
+          "嗅觉",
+          "听觉",
+          "视觉",
+          "触觉",
+          "江水奔腾",
+          "花香扑鼻",
+          "凉爽的风",
+          "山崩地裂"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "嗅觉对应花香，听觉对应声响，视觉对应画面，触觉对应凉爽。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "按时间顺序描写景物",
+        "question": "古诗《鹿柴》中名句关联：",
+        "options": [
+          "空山",
+          "但闻",
+          "返景",
+          "复照",
+          "青苔上",
+          "不见人",
+          "入深林",
+          "人语响"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "空山不见人，但闻人语响。返景入深林，复照青苔上。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动态描写与修辞赏析",
+        "question": "请通过排序，组成描写秋晚江上的句子：",
+        "options": [
+          "斜阳",
+          "归鸟",
+          "驮着",
+          "双翅"
+        ],
+        "answer": "归鸟,驮着,斜阳,双翅",
+        "explanation": "出自《秋晚的江上》，运用了奇特的动态想象。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按时间顺序描写景物",
+        "question": "请将描写观潮过程的阶段按照正确顺序排列：",
+        "options": [
+          "潮来前",
+          "潮来时",
+          "平静",
+          "沸腾"
+        ],
+        "answer": "潮来前,平静,潮来时,沸腾",
+        "explanation": "体现观潮时景象与氛围的演变逻辑。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "按时间顺序描写景物",
+      "core_concept": "在记叙自然奇观或游覽活动中，通常采用由早到晚、由浅入深的逻辑。例如《观潮》一文，作者抓住了潮水到来过程中声音和景象的不同特点，通过“潮来前、潮来时、倒潮去后”三个时间节点，使读者如临其境。",
+      "key_formula": "使用固定的时间关联词作为段落开端的衔接，如“午后一点”、“瞬间”、“很久”。",
+      "common_mistakes": [
+        "时间跨度跳跃太大，没有过渡。",
+        "在潮来时的段落里插入了潮后的描写，逻辑混乱。"
+      ],
+      "tips": "写作前先列出时间轴，标注每个时刻最有特点的声音或景物。"
+    },
+    {
+      "point": "动态描写与修辞赏析",
+      "core_concept": "动态描写能赋予死板的文字灵动的生命。通过比喻（将浪潮比作战马）、拟人（钱塘江横卧）等修辞方式，将抽象的力度和规模具象化。这种方法能让学生理解文字背后的“力量感”。",
+      "key_formula": "画面感 = 具体名词 + 形容词/动词 + 恰当的修辞。",
+      "common_mistakes": [
+        "形容词使用单调，只会写“很大”、“很响”。",
+        "比喻不恰当，如将壮观的浪潮比作微小的物体。"
+      ],
+      "tips": "多背诵积累优美的比喻句，模仿其结构进行口头训练。"
+    },
+    {
+      "point": "边读边想象画面",
+      "core_concept": "这是阅读写景类文章最核心的策略。要求学生在朗读时，不仅看到汉字，还要在大脑中完成“数字化建模”。不仅有视觉的颜色（白浪），还有听觉的高低（隆隆声），甚至有气味（泥土芬芳）。",
+      "key_formula": "视觉 + 听觉 + 嗅觉 + 想象 = 完整的画面。",
+      "common_mistakes": [
+        "只识字不入心，读完后无法描述文字描述的景象。",
+        "想象太随意，脱离了文本提供的关键词。"
+      ],
+      "tips": "闭上眼睛听老师朗读，尝试用自己的话描绘出脑海中出现的颜色和声音。"
+    },
+    {
+      "point": "声音词语的分类与积累",
+      "core_concept": "描写声音时，词语的选择决定了文章的韵律感。本单元积累了从“鸦雀无声”到“震耳欲聋”这种音量跨度极大的词语，分清人声（人声鼎沸）和大自然声（风号浪吼）的区别。",
+      "key_formula": "识记四字成语中蕴含的声音动态感，区分褒义和贬义用法。",
+      "common_mistakes": [
+        "混淆词意，如在描写静寂时用了“人声鼎沸”。",
+        "书写笔画错误，尤其是“鼎”、“震”等生字。"
+      ],
+      "tips": "采用对比法记忆，如将“窃窃私语”与“响彻云霄”配套对比记忆。"
+    }
+  ]
+}

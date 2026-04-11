@@ -1,0 +1,713 @@
+{
+  "textbook": "人教版 PEP 英语三年级下册",
+  "unit": "At the zoo",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Unit 3 At the zoo 单元基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "'fat' 的意思是 '瘦的'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "fat意为'胖的'，thin才是'瘦的'。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "当我们要说长颈鹿很高时，可以用形容词 'tall'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "tall用于描述人或动物的身高'高'。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "'short' 有两个意思：一个是'短的'，一个是'矮的'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "short既可以描述长度短，也可以描述身高矮。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "元音字母i在闭音节中的发音",
+        "question": "在单词 'big' 和 'pig' 中，字母 'i' 的发音是一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这两个单词中的i都位于闭音节中，发短元音/ɪ/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "句子 'It has big eyes.' 的意思是 '它有小眼睛'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "big意思是'大的'，所以是'大眼睛'。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "Look at the elephant. It is so ________.",
+        "options": [
+          "big",
+          "small",
+          "thin",
+          "short"
+        ],
+        "answer": "big",
+        "explanation": "大象的体型巨大，通常用big来描述。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "A giraffe is ________. A bear is short.",
+        "options": [
+          "long",
+          "tall",
+          "fat",
+          "thin"
+        ],
+        "answer": "tall",
+        "explanation": "长颈鹿的特征是高，与后面的short(矮)形成对比。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "The rabbit has ________ ears.",
+        "options": [
+          "short",
+          "long",
+          "small",
+          "thin"
+        ],
+        "answer": "long",
+        "explanation": "兔子的耳朵特征是'长的'(long)。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "It ________ a long nose.",
+        "options": [
+          "is",
+          "am",
+          "has",
+          "have"
+        ],
+        "answer": "has",
+        "explanation": "描述某物拥有什么特征部位，主语是It，谓语动词用has。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "The monkey is thin. The panda is ________.",
+        "options": [
+          "thin",
+          "short",
+          "small",
+          "fat"
+        ],
+        "answer": "fat",
+        "explanation": "熊猫的体型较圆润胖，与猴子的thin形成对比。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "元音字母i在闭音节中的发音",
+        "question": "下列哪个单词中 'i' 的发音与 'six' 相同？",
+        "options": [
+          "ice",
+          "milk",
+          "kite",
+          "rice"
+        ],
+        "answer": "milk",
+        "explanation": "six和milk中的i都发短音/ɪ/，其他三项发长音/aɪ/。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "Come here, children! Look ________ the elephant.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "to"
+        ],
+        "answer": "at",
+        "explanation": "固定搭配look at意为'看……'。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "It has ________ small head.",
+        "options": [
+          "a",
+          "an",
+          "/",
+          "two"
+        ],
+        "answer": "a",
+        "explanation": "head是可数名词单数，开头辅音音素用a。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "The ostrich(鸵鸟) has ________ legs.",
+        "options": [
+          "tall",
+          "short",
+          "long",
+          "fat"
+        ],
+        "answer": "long",
+        "explanation": "描述身体部位(腿)的长度用long。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "It has a short tail. It has big eyes. It is ________.",
+        "options": [
+          "a giraffe",
+          "a rabbit",
+          "a monkey",
+          "an elephant"
+        ],
+        "answer": "a rabbit",
+        "explanation": "兔子符合短尾巴和大眼睛的特征。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "The elephant has a long nose and a ___ tail.",
+        "options": [],
+        "answer": "short",
+        "explanation": "大象有长鼻子和短尾巴。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "It ___ a big body.",
+        "options": [],
+        "answer": "has",
+        "explanation": "主语是it，表示'有'用has。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "The mouse is small. The elephant is ___.",
+        "options": [],
+        "answer": "big",
+        "explanation": "small的反义词是big。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "元音字母i在闭音节中的发音",
+        "question": "I'd like some ___. (牛奶)",
+        "options": [],
+        "answer": "milk",
+        "explanation": "考察单词书写，milk中i发短音。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "将下列形容词与中文意思连线。",
+        "options": [
+          "tall",
+          "thin",
+          "long",
+          "small",
+          "长的",
+          "小的",
+          "高的",
+          "瘦的"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "tall-高的, thin-瘦的, long-长的, small-小的。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "将下列身体部位与中文意思连线。",
+        "options": [
+          "tail",
+          "nose",
+          "eye",
+          "body",
+          "眼睛",
+          "身体",
+          "尾巴",
+          "鼻子"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "tail-尾巴, nose-鼻子, eye-眼睛, body-身体。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述描述身体部位的特征表达",
+        "question": "连词成句：(at, the, Look, giraffe)",
+        "options": [
+          "at",
+          "the",
+          "Look",
+          "giraffe"
+        ],
+        "answer": "Look,at,the,giraffe",
+        "explanation": "Look at...是祈使句，看那只长颈鹿。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "连词成句：(has, it, nose, a, long)",
+        "options": [
+          "has",
+          "it",
+          "nose",
+          "a",
+          "long"
+        ],
+        "answer": "it,has,a,long,nose",
+        "explanation": "描述物体的固定句型：It has + a + 形容词 + 部位。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Module 2 阶段性教学质量评估检测卷 (Unit 3 核心)",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "Elephant is small.",
+        "options": [],
+        "answer": "错",
+        "explanation": "大象通常被描述为big。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "元音字母i在闭音节中的发音",
+        "question": "'gift' 中的 'i' 和 'pig' 中的 'i' 发音是相同的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "都发短元音/ɪ/。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "我们可以说 'It has two big eye.'",
+        "options": [],
+        "answer": "错",
+        "explanation": "数词two后面接名词复数eyes。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "'short' 的反义词只能是 'tall'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "short的反义词可以是tall(高)，也可以是long(长)。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "描述大象的鼻子可以说 'It has a long nose.'",
+        "options": [],
+        "answer": "对",
+        "explanation": "大象有长鼻子，句型正确。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "It's so ________. It has a long tail.",
+        "options": [
+          "long",
+          "tall",
+          "short",
+          "small"
+        ],
+        "answer": "tall",
+        "explanation": "根据PEP三年级下册情境，通常指猴子或长颈鹿，在此空应选描述整体的形容词。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "元音字母i在闭音节中的发音",
+        "question": "Which word has a different sound for 'i'?",
+        "options": [
+          "big",
+          "six",
+          "nine",
+          "pig"
+        ],
+        "answer": "nine",
+        "explanation": "nine中的i发长音/aɪ/，其它发短音/ɪ/。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述描述身体部位的特征表达",
+        "question": "The elephant ________ a short tail.",
+        "options": [
+          "is",
+          "have",
+          "has",
+          "are"
+        ],
+        "answer": "has",
+        "explanation": "单数名词或代词It作主语表示'有'用has。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "Look at the monkey. It's ________.",
+        "options": [
+          "fat",
+          "thin",
+          "tall",
+          "big"
+        ],
+        "answer": "thin",
+        "explanation": "课文描述中通常称猴子为thin。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "It ________ big eyes and small ears.",
+        "options": [
+          "is",
+          "has",
+          "have",
+          "are"
+        ],
+        "answer": "has",
+        "explanation": "描述身体部位特征，主语是It，使用has。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "It is tall. It has a long neck(脖子). What is it?",
+        "options": [
+          "It's a panda.",
+          "It's a bear.",
+          "It's a pig.",
+          "It's a giraffe."
+        ],
+        "answer": "It's a giraffe.",
+        "explanation": "长脖子和高是个显著特征，对应长颈鹿。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "—Look at that bear! —Wow! It's ________.",
+        "options": [
+          "so fat",
+          "so tall",
+          "so thin",
+          "so long"
+        ],
+        "answer": "so fat",
+        "explanation": "熊的特征通常是壮且胖。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "Make your eyes ________.",
+        "options": [
+          "small",
+          "short",
+          "tall",
+          "thin"
+        ],
+        "answer": "small",
+        "explanation": "根据Let's do内容，“Make your eyes small/big”。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "The pig is ________. The monkey is thin.",
+        "options": [
+          "fat",
+          "small",
+          "short",
+          "long"
+        ],
+        "answer": "fat",
+        "explanation": "与thin相对的是fat。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "A: Look at the elephant. B: ________",
+        "options": [
+          "It has a long nose.",
+          "It is a pig.",
+          "It has two legs.",
+          "I am tall."
+        ],
+        "answer": "It has a long nose.",
+        "explanation": "对话逻辑应是对大象的描述。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "元音字母i在闭音节中的发音",
+        "question": "The ___ (猪) is fat.",
+        "options": [],
+        "answer": "pig",
+        "explanation": "pig符合词义且包含元音字母i的短音规律。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述描述身体部位的特征表达",
+        "question": "It ___ a short tail.",
+        "options": [],
+        "answer": "has",
+        "explanation": "考察have/has在It后的用法。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "The giraffe is tall, but the dog is ___.",
+        "options": [],
+        "answer": "short",
+        "explanation": "与tall相反的形容词是short。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "Look at the elephant! It is so ___.",
+        "options": [],
+        "answer": "big",
+        "explanation": "描述大象巨大体型的典型词汇。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述动物外貌特征的形容词",
+        "question": "反义词配对连线。",
+        "options": [
+          "big",
+          "tall",
+          "long",
+          "fat",
+          "short",
+          "small",
+          "thin",
+          "short"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "big-small, tall-short(矮), long-short(短), fat-thin。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "短语英汉配对。",
+        "options": [
+          "a long nose",
+          "a big body",
+          "small eyes",
+          "a short tail",
+          "大身体",
+          "小眼睛",
+          "短尾巴",
+          "长鼻子"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "考察形容词修饰身体部位的翻译。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "连词成句：(It, big, has, eyes)",
+        "options": [
+          "It",
+          "big",
+          "has",
+          "eyes"
+        ],
+        "answer": "It,has,big,eyes",
+        "explanation": "描述身体特征：主语 + has + 形容词 + 部位。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述身体部位的特征表达",
+        "question": "连词成句：(at, that, Look, monkey)",
+        "options": [
+          "at",
+          "that",
+          "Look",
+          "monkey"
+        ],
+        "answer": "Look,at,that,monkey",
+        "explanation": "Look at + 描述对象。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "核心形容词描述动物特征",
+      "core_concept": "运用 big, small, tall, short, fat, thin 等词描述动物的体型和长相。",
+      "key_formula": "It is + (so) + 形容词.",
+      "common_mistakes": [
+        "混淆 short 的意思(既指'矮'也指'短')",
+        "tall 用于描述身高，long 用于描述长度"
+      ],
+      "tips": "记忆时可以用反义词对子来记：big-small, tall-short, long-short, fat-thin。"
+    },
+    {
+      "point": "具有某种身体特征的表达",
+      "core_concept": "使用'It has...'句型描述动物拥有的身体部位特征。",
+      "key_formula": "It has (a/an) + 形容词 + 身体部位名称.",
+      "common_mistakes": [
+        "将 has 误用为 is (如错误说成 It is a long nose)",
+        "复数部位(如eyes)前错加了 'a'"
+      ],
+      "tips": "描述单数部位(如鼻子)用 'a'，描述复数部位(如眼睛、耳朵)不加 'a'。"
+    },
+    {
+      "point": "元音字母 i 在闭音节中的发音",
+      "core_concept": "字母 i 在单音节词中，两边被辅音字母包围时发短音 /ɪ/。",
+      "key_formula": "辅音+i+辅音 => /ɪ/ (如 big, pig, swim)",
+      "common_mistakes": [
+        "将短音 /ɪ/ 发成类似汉字'衣'的长音"
+      ],
+      "tips": "发音时嘴唇微微张开，舌尖抵下齿，舌前部稍抬起，发音短促。"
+    }
+  ]
+}

@@ -1,0 +1,697 @@
+{
+  "textbook": "教科版小学科学五年级下册",
+  "unit": "热",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元「热」基础评价周测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "热传导",
+        "question": "热量总是从温度较高的物体传向温度较低的物体。",
+        "options": [],
+        "answer": "对",
+        "explanation": "热传递的基本规律是从高温物体传向低温物体，或者从物体的高温部分传向低温部分。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "热对流",
+        "question": "在烧杯底部加热水时，热水会向上流动，冷水会向下流动。",
+        "options": [],
+        "answer": "对",
+        "explanation": "液体受热后体积膨胀，密度减小而上升，上部冷液体密度大而下沉，形成对流。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "凝结",
+        "question": "冬天窗户玻璃上的水珠通常出现在室内的一面。",
+        "options": [],
+        "answer": "对",
+        "explanation": "室内温暖的水蒸气遇到冰冷的玻璃表面凝结成小水珠。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "热的良导体",
+        "question": "塑料、木头和陶瓷都是热的良导体。",
+        "options": [],
+        "answer": "错",
+        "explanation": "塑料、木头和陶瓷导热性能差，属于热的不良导体。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "保温",
+        "question": "保温杯里的真空层主要目的是为了美观。",
+        "options": [],
+        "answer": "错",
+        "explanation": "真空层是为了隔绝热传导和热对流，从而起到保温作用。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的状态变化",
+        "question": "下列现象中，属于蒸发过程的是（）。",
+        "options": [
+          "湿衣服晾干了",
+          "草叶上出现露水",
+          "河面结冰了",
+          "冰棍冒“白气”"
+        ],
+        "answer": "湿衣服晾干了",
+        "explanation": "水从液态变为气态的过程叫蒸发。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "热量的传递",
+        "question": "在金属条的中部加热，热量会（）。",
+        "options": [
+          "只向左端传递",
+          "只向右端传递",
+          "向两端传递",
+          "不传递"
+        ],
+        "answer": "向两端传递",
+        "explanation": "热在固体中会从受热处（高温）向未受热处（低温）各个方向传递。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "热对流",
+        "question": "为了让房间快点凉快下来，空调扇叶应向上拨动，是因为冷空气会（）。",
+        "options": [
+          "向上流动",
+          "向下流动",
+          "向左流动",
+          "水平流动"
+        ],
+        "answer": "向下流动",
+        "explanation": "冷空气密度大，会向下沉，从而形成对流使全屋降温。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "热的良导体",
+        "question": "炒菜锅的把手通常用木头或塑料制造，主要是为了（）。",
+        "options": [
+          "减轻重量",
+          "增加强度",
+          "防止烫手",
+          "更加美观"
+        ],
+        "answer": "防止烫手",
+        "explanation": "木头和塑料是热的不良导体，能减缓热传导。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蒸发",
+        "question": "在两块同样的玻璃片上分别滴一滴水，将其中的一滴涂开，发现涂开的水干得快。这说明（）。",
+        "options": [
+          "温度越高蒸发越快",
+          "空气流动越快蒸发越快",
+          "表面积越大蒸发越快",
+          "水的多少影响蒸发"
+        ],
+        "answer": "表面积越大蒸发越快",
+        "explanation": "涂开增加了水与空气接触的表面积，从而加速蒸发。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "热传递",
+        "question": "把冰块放入热水中，热量的流动方向是（）。",
+        "options": [
+          "从冰块传向热水",
+          "从热水传向冰块",
+          "不发生热量传递",
+          "无法判断"
+        ],
+        "answer": "从热水传向冰块",
+        "explanation": "热量从高温物体（热水）传向低温物体（冰块）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "导热性能",
+        "question": "下列材料中，导热性能最好的是（）。",
+        "options": [
+          "铝片",
+          "木板",
+          "玻璃纸",
+          "塑料板"
+        ],
+        "answer": "铝片",
+        "explanation": "金属通常是热的良导体，其导热性能优于非金属。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的沸腾",
+        "question": "当水加热到沸腾时，撤掉酒精灯停止加热，水的沸腾现象会（）。",
+        "options": [
+          "继续维持很长时间",
+          "立即停止",
+          "温度继续升高",
+          "变成结冰"
+        ],
+        "answer": "立即停止",
+        "explanation": "沸腾需要持续吸热，撤掉热源后无法吸热，沸腾停止。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "凝结",
+        "question": "盛有冰块的杯子外壁会出现小水珠，这些水珠来自（）。",
+        "options": [
+          "杯子里的冰融化流出的",
+          "从杯壁渗出来的",
+          "空气中的水蒸气遇冷凝结的",
+          "冰直接变成的"
+        ],
+        "answer": "空气中的水蒸气遇冷凝结的",
+        "explanation": "空气中的水蒸气遇到较冷的杯壁释放热量变成液态水。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "保温原理",
+        "question": "穿羽绒服感到暖和，是因为羽绒（）。",
+        "options": [
+          "能产生热量",
+          "是热的良导体",
+          "能减少热量的散失",
+          "吸收了外界的热量"
+        ],
+        "answer": "能减少热量的散失",
+        "explanation": "羽绒中含有大量空气，是热的不良导体，能减少身体热量散失。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "热对流",
+        "question": "在探究水的热对流实验中，我们在水中加入红墨水是为了（）。",
+        "options": [
+          "增加水的重量",
+          "使水变鲜艳",
+          "方便观察水的流动",
+          "加快水的加热速度"
+        ],
+        "answer": "方便观察水的流动",
+        "explanation": "红墨水作为示踪剂，能清晰显示冷热水流动的轨迹。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "热量的传递",
+        "question": "冬天触摸室外的铁棒比木头感觉更冷，是因为（）。",
+        "options": [
+          "铁棒的温度比木头低",
+          "铁棒是热的良导体，能迅速传走手上的热",
+          "铁棒吸收了冷气",
+          "木头能产生热量"
+        ],
+        "answer": "铁棒是热的良导体，能迅速传走手上的热",
+        "explanation": "铁导热快，在相同时间内从手上带走的热量更多。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "保温杯设计",
+        "question": "保温杯杯盖通常是塑料材质，因为塑料是（）。",
+        "options": [
+          "热的良导体",
+          "热的不良导体",
+          "极其坚固的材料",
+          "能产生热量的材料"
+        ],
+        "answer": "热的不良导体",
+        "explanation": "塑料可以减缓杯子热量向上方的自然对流和传导散失。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的状态变化",
+        "question": "在常压下，水加热到沸腾时的温度大约是（）℃。",
+        "options": [],
+        "answer": "100",
+        "explanation": "在标准大气压下，水的沸点是100摄氏度。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的状态变化",
+        "question": "水开始结冰时的温度通常是（）℃。",
+        "options": [],
+        "answer": "0",
+        "explanation": "在标准大气压下，水的冰点是0摄氏度。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "凝结",
+        "question": "空气中的水蒸气受冷变成液态的小水珠，这种现象叫作（）。",
+        "options": [],
+        "answer": "凝结",
+        "explanation": "凝结是气体遇冷放热转变为液体的物理现象。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "热传递方式",
+        "question": "热在液体和气体中主要通过（）的方式进行传递。",
+        "options": [],
+        "answer": "对流",
+        "explanation": "通过流体（液态、气态）的宏观运动来平衡温度的传递方式是热对流。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "导热性分类",
+        "question": "容易传热的物体被称作热的（）。",
+        "options": [],
+        "answer": "良导体",
+        "explanation": "不同材料导热能力不同，导热强的称为热的良导体。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级下册科学第四单元「热」学期水平调研测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "热传递",
+        "question": "只要有温度差异，热量就会在两个物体之间传递。",
+        "options": [],
+        "answer": "对",
+        "explanation": "温差是热传递的基础条件。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "蒸发吸热",
+        "question": "水在蒸发过程中会吸收周围的热量，具有降温作用。",
+        "options": [],
+        "answer": "对",
+        "explanation": "蒸发需要能量，因此会向周围吸热导致环境或自身降温。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "热对流",
+        "question": "热对流只能发生在液体中，不能发生在空气中。",
+        "options": [],
+        "answer": "错",
+        "explanation": "热对流发生在所有流体中，包含液体和气体。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "导热性能",
+        "question": "导热性能好的物体，其散热性能通常也比较好。",
+        "options": [],
+        "answer": "对",
+        "explanation": "热的良导体传热快，也意味着热量散失到环境中的速度快。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "保温原理",
+        "question": "保温杯里的热水变冷是因为热量消失了，不是传递走了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "热量无法消失，只能从物体转移到周围空间。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水的沸腾",
+        "question": "测量水在加热过程中的温度变化，发现水在沸腾时温度（）。",
+        "options": [
+          "不断上升",
+          "保持不变",
+          "先变大后变小",
+          "不断下降"
+        ],
+        "answer": "保持不变",
+        "explanation": "在沸腾过程中，液体持续吸热但温度维持在沸点不变。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "蒸发",
+        "question": "游泳后刚从水里上岸，身上会感到冷，这是说明水蒸发（）。",
+        "options": [
+          "释放热量",
+          "温度下降",
+          "吸收热量",
+          "体积变大"
+        ],
+        "answer": "吸收热量",
+        "explanation": "水分蒸发带走了皮肤表面的热量。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "热传导",
+        "question": "在一根涂满感温油墨的金属长条一端加热，观察到的现象是（）。",
+        "options": [
+          "颜色从加热点向另一端逐渐变化",
+          "整根金属条颜色同时改变",
+          "颜色从另一端向加热点变化",
+          "颜色没有发生变化"
+        ],
+        "answer": "颜色从加热点向另一端逐渐变化",
+        "explanation": "热传导需要时间，热量会沿着金属载体由近及远传递。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "热的良导体",
+        "question": "做饭用的汤匙，勺头是金属的而把手是木头的，这样做是为了（）。",
+        "options": [
+          "勺头美观",
+          "勺头导热快而木把手导热慢",
+          "木把手结实",
+          "完全是因为节省金属"
+        ],
+        "answer": "勺头导热快而木把手导热慢",
+        "explanation": "金属良导体方便加热食物，木头不良导体保护手部不被烫伤。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "热对流",
+        "question": "要把一壶凉水烧开，加热点应该选在壶的（）。",
+        "options": [
+          "顶部",
+          "中部",
+          "底部",
+          "侧面"
+        ],
+        "answer": "底部",
+        "explanation": "底部加热能引发热对流，使整壶水均匀快速升温。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "保温杯设计",
+        "question": "保温杯设计中，双层结构中间抽成真空，可以最有效地阻隔（）。",
+        "options": [
+          "全部热量辐射",
+          "重力和阻力",
+          "热传导和对流",
+          "水分的蒸发"
+        ],
+        "answer": "热传导和对流",
+        "explanation": "导热和对流都需要介质（空气或固体），真空由于没有介质能阻隔它们。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水的温度规律",
+        "question": "一小杯80℃的热水放在20℃的实验室内，1小时后水的温度最可能是（）。",
+        "options": [
+          "80℃",
+          "10℃",
+          "20℃",
+          "0℃"
+        ],
+        "answer": "20℃",
+        "explanation": "物体最终会与周围环境达到热平衡，即温度相同。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "热的传递方案",
+        "question": "下列现象中，属于热对流的是（）。",
+        "options": [
+          "不锈钢勺放在热汤里变热",
+          "太阳晒在身上觉得暖和",
+          "暖气片让整间屋子变暖",
+          "用手触摸冰块手觉得冷"
+        ],
+        "answer": "暖气片让整间屋子变暖",
+        "explanation": "暖气片使周围空气受热上升，冷空气下降补充，形成循环流动。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蒸发",
+        "question": "夏天，洒水车往路面洒水会感到凉快，主要原因是（）。",
+        "options": [
+          "路上的灰尘减少了",
+          "水的温度真的很低",
+          "水蒸发时吸收热量",
+          "水遮住了阳光"
+        ],
+        "answer": "水蒸发时吸收热量",
+        "explanation": "水分在路面蒸发会吸走路面的热量。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "凝结",
+        "question": "夏天从冰箱里拿出的冷饮包装上会有水珠，这时发生了（）。",
+        "options": [
+          "蒸发现象",
+          "沸腾现象",
+          "凝结现象",
+          "融化现象"
+        ],
+        "answer": "凝结现象",
+        "explanation": "外界热空气中的水蒸气遇冷液化成水珠。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "材料导热",
+        "question": "同样厚度的下列材料，保温性能最好的是（）。",
+        "options": [
+          "铁板",
+          "玻璃板",
+          "泡沫塑料",
+          "铜板"
+        ],
+        "answer": "泡沫塑料",
+        "explanation": "泡沫塑料含有大量静止空气，是极佳的热的不良导体。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "实验安全",
+        "question": "在科学实验中使用酒精灯给水加热，熄灭酒精灯的正确操作是（）。",
+        "options": [
+          "用嘴吹灭",
+          "用手扇灭",
+          "用灯帽盖灭",
+          "等待酒精燃尽"
+        ],
+        "answer": "用灯帽盖灭",
+        "explanation": "灯帽盖灭可以隔绝氧气，防止回火引起爆炸。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "热传递方向",
+        "question": "热量在金属球中的传递方向是（）。",
+        "options": [
+          "只向上方传递",
+          "向四面八方传递",
+          "只向下方传递",
+          "向左或向右传递"
+        ],
+        "answer": "向四面八方传递",
+        "explanation": "固体会向所有温度较低的方向进行热传导。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水的温度规律",
+        "question": "把100℃的开水倒入室温常温杯子中，最初的5分钟内温度下降了（）次。",
+        "options": [],
+        "answer": "1",
+        "explanation": "水开始降温。注意题意指动作状态。如果指数值，由于温差大降温速度最快。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水的状态",
+        "question": "水有三种状态，固态的冰、液态的水和气态的水蒸气。当水结冰时，体积会（）倍增长。",
+        "options": [],
+        "answer": "1",
+        "explanation": "水结冰后体积会膨胀，约为原体积的11/10。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "导热性能",
+        "question": "木头、棉花、玻璃等传热本领差的物体称为热的（）。",
+        "options": [],
+        "answer": "不良导体",
+        "explanation": "传热慢的物体属于热的不良导体。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的变化",
+        "question": "水沸腾时，水面会出现大量的（）。",
+        "options": [],
+        "answer": "气泡",
+        "explanation": "沸腾是液体内部和表面同时发生的剧烈汽化现象。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "保温技术",
+        "question": "保温瓶内壁镀银是为了减少热量的（）散失。",
+        "options": [],
+        "answer": "辐射",
+        "explanation": "银面具有良好的反射作用，减少热辐射导致的能量损失。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "水的沸腾与状态变化",
+      "core_concept": "水在加热到一定温度时会变为气态，在此过程中吸收热量但温度保持不变。",
+      "key_formula": "水的沸点通常为100℃，沸腾过程中持续加热，温度不变。",
+      "common_mistakes": [
+        "误认为撤去酒精灯水还能继续沸腾",
+        "误认为水沸腾后温度会继续无限制升高"
+      ],
+      "tips": "观察沸腾要看是否有气泡从杯底大量往上升并破裂。"
+    },
+    {
+      "point": "蒸发与凝结中的能量转换",
+      "core_concept": "蒸发是缓慢吸热过程，凝结是遇冷放热过程。",
+      "key_formula": "蒸发吸热，凝结放热。",
+      "common_mistakes": [
+        "不理解冬天窗户水珠在室内还是室外",
+        "认为蒸发不需要消耗热量"
+      ],
+      "tips": "温度差是凝结发生的关键，温差越大，凝结越快。"
+    },
+    {
+      "point": "热在固体、流体中的传递",
+      "core_concept": "固体靠传导，流体（液/气）靠对流。",
+      "key_formula": "热量高->低；固体传导是由近及远。",
+      "common_mistakes": [
+        "认为热只能向上穿",
+        "把对流和传导混为一谈"
+      ],
+      "tips": "金属是热的良导体，空气和木头是不良导体。"
+    },
+    {
+      "point": "保温原理设计",
+      "core_concept": "通过减少传导、对流和辐射三个途径来阻断热量转移。",
+      "key_formula": "热的不良导体材料+真空隔热+表面反射。",
+      "common_mistakes": [
+        "认为保温杯可以产生热量",
+        "认为保温效果好的杯子不能装冰块"
+      ],
+      "tips": "保温的本质是“减缓”热量传递的速度，而不是彻底“制止”。"
+    }
+  ]
+}

@@ -1,0 +1,712 @@
+{
+  "textbook": "人教版 PEP 英语四年级下册",
+  "unit": "My clothes",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 My clothes 单元测评卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "衣物类词汇",
+        "question": "'skirt' 的意思是'裤子'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "skirt指的是短裙，裤子是pants。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "衣物类词汇",
+        "question": "'dress' 常用来指女孩穿的'连衣裙'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "dress是连衣裙的意思。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "衣物类词汇",
+        "question": "'clothes' 意思是'衣服'，是这类物品的总称。",
+        "options": [],
+        "answer": "对",
+        "explanation": "clothes为衣物的总称。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "单复数搭配",
+        "question": "当描述两个及以上的'帽子'时，应该说 'two hats'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "可数名词复数需要在词尾加s。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "名词所有格",
+        "question": "'Amy's' 意思是'艾米的'，表示所属关系。",
+        "options": [],
+        "answer": "对",
+        "explanation": "名词词尾加's表示...的。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "衣物词汇辨析",
+        "question": "What colour is your ______? It's white.",
+        "options": [
+          "shirt",
+          "shoes",
+          "socks",
+          "pants"
+        ],
+        "answer": "shirt",
+        "explanation": "问句中用is，说明主语应该是单数，只有shirt符合。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用动词短语",
+        "question": "It's cold outside. Please ______ your coat.",
+        "options": [
+          "put on",
+          "take off",
+          "hang up",
+          "wash"
+        ],
+        "answer": "put on",
+        "explanation": "外面冷，根据常识应该是“穿上”外套。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词复数用法",
+        "question": "These ______ are my father's.",
+        "options": [
+          "pants",
+          "skirt",
+          "dress",
+          "hat"
+        ],
+        "answer": "pants",
+        "explanation": "These are后接复数，pants（裤子）自带复数形式。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问归属",
+        "question": "______ hat is this? It's Mike's.",
+        "options": [
+          "Whose",
+          "Who",
+          "What",
+          "Where"
+        ],
+        "answer": "Whose",
+        "explanation": "针对物品归属提问用Whose。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "指示代词",
+        "question": "Are ______ your socks?",
+        "options": [
+          "these",
+          "this",
+          "that",
+          "it"
+        ],
+        "answer": "these",
+        "explanation": "socks是复数，由此匹配复数指示代词these。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "名词性物主代词",
+        "question": "The blue hat is ______. (那是我的。)",
+        "options": [
+          "mine",
+          "my",
+          "me",
+          "I"
+        ],
+        "answer": "mine",
+        "explanation": "mine是名词性物主代词，相当于my hat。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交际",
+        "question": "Where is my skirt? ______",
+        "options": [
+          "It's on the bed.",
+          "It's red.",
+          "They are mine.",
+          "Yes, it is."
+        ],
+        "answer": "It's on the bed.",
+        "explanation": "询问地点用Where，回答应指向方位。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句",
+        "question": "Is this your skirt? ______",
+        "options": [
+          "Yes, it is.",
+          "Yes, it's.",
+          "No, it is.",
+          "No, they aren't."
+        ],
+        "answer": "Yes, it is.",
+        "explanation": "Is this 开头的疑问句，肯定回答为Yes, it is."
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "所有格辨析",
+        "question": "These are ______ pants.",
+        "options": [
+          "Chen Jie's",
+          "Chen Jie",
+          "Chen Jies",
+          "Chen Jies'"
+        ],
+        "answer": "Chen Jie's",
+        "explanation": "名词后加's表示所属关系。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "代词理解",
+        "question": "No, they aren't ______. They are my sister's.",
+        "options": [
+          "yours",
+          "your",
+          "you",
+          "she"
+        ],
+        "answer": "yours",
+        "explanation": "空格后没有名词，需用名词性物主代词yours。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "衣物类词汇",
+        "question": "My red ______ (短裙) is very nice.",
+        "options": [],
+        "answer": "skirt",
+        "explanation": "考察单词书写，skirt为短裙。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用动词短语",
+        "question": "Please ______ up your clothes.",
+        "options": [],
+        "answer": "hang",
+        "explanation": "hang up是一个固定短语，意思是“挂起来”。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "名词所有格",
+        "question": "Whose hat is this? It's ______ (迈克的).",
+        "options": [],
+        "answer": "mike's",
+        "explanation": "专有名词所有格形式为在名字后加's。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "代词搭配",
+        "question": "Wait! These are ______ (我的短裤).",
+        "options": [],
+        "answer": "my shorts",
+        "explanation": "shorts是短裤，my是有主关系。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义匹配",
+        "question": "将下列短语与中文意思连线。",
+        "options": [
+          "put on",
+          "take off",
+          "wash",
+          "dry",
+          "脱下",
+          "清洗",
+          "晾干",
+          "穿上"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "put on-穿上, take off-脱下, wash-洗, dry-晾干。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "衣物名称匹配",
+        "question": "将下列衣物单词与中文意思连线。",
+        "options": [
+          "jacket",
+          "sweater",
+          "socks",
+          "coat",
+          "毛衣",
+          "大衣",
+          "夹克衫",
+          "袜子"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "jacket-夹克, sweater-毛衣, socks-袜子, coat-大衣。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "特殊疑问句",
+        "question": "连词成句：[is, Whose, this, hat]",
+        "options": [
+          "is",
+          "Whose",
+          "this",
+          "hat"
+        ],
+        "answer": "Whose,hat,is,this",
+        "explanation": "Whose + 名词 + is this? 是固定句式。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "肯定句",
+        "question": "连词成句：[They, are, mine]",
+        "options": [
+          "They",
+          "are",
+          "mine"
+        ],
+        "answer": "They,are,mine",
+        "explanation": "主语They + 系动词are + 名词性物主代词mine。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级下册第五单元「My clothes」综合检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词义理解",
+        "question": "'shorts' 总是以复数形式出现，因为短裤有两个裤腿。",
+        "options": [],
+        "answer": "对",
+        "explanation": "类似pants, shorts, socks这类物品通常以复数呈现。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "语法规则",
+        "question": "当我们说 'my shoes' 时，这里的 'shoes' 可以换成单数 'shoe'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "鞋子通常是成双出现，用复数shoes。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "问答匹配",
+        "question": "'Whose' 引导的问句可以用 'Mike's' 这样回答。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Whose问归属，名词所有格可以回答。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "代词理解",
+        "question": "'mine' 的意思是 '我的衣服'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "mine意为“我的（东西）”，需看上下文具体指代什么。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常见短语",
+        "question": "'it's time to' 后面应该接动词原形，比如 'It's time to go home'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "It's time to + 动作。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义辨析",
+        "question": "Can you help me? I can't find my ______. (我找不到我的裤子了。)",
+        "options": [
+          "pants",
+          "skirt",
+          "hat",
+          "dress"
+        ],
+        "answer": "pants",
+        "explanation": "根据汉语提示，裤子是pants。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "介词搭配",
+        "question": "Your shoes are ______ the bed.",
+        "options": [
+          "under",
+          "at",
+          "with",
+          "to"
+        ],
+        "answer": "under",
+        "explanation": "方位介词，表示鞋子在床底下。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问归属",
+        "question": "______ are these socks? They are mine.",
+        "options": [
+          "Whose",
+          "Who",
+          "Where",
+          "What"
+        ],
+        "answer": "Whose",
+        "explanation": "对物品主人提问用Whose。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "名词复数搭配",
+        "question": "Are these ______?",
+        "options": [
+          "yours",
+          "you",
+          "your",
+          "your's"
+        ],
+        "answer": "yours",
+        "explanation": "句末且无名词，用名词性物主代词yours。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "颜色表达",
+        "question": "I like the ______ dress. It's pretty.",
+        "options": [
+          "green",
+          "me",
+          "mine",
+          "is"
+        ],
+        "answer": "green",
+        "explanation": "形容词放在名词dress前做修饰。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人称代词宾格",
+        "question": "Sarah, please help ______.",
+        "options": [
+          "me",
+          "I",
+          "my",
+          "mine"
+        ],
+        "answer": "me",
+        "explanation": "动词help之后需用人称代词宾格me。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "所有格辨析",
+        "question": "Is this ______ hat? No, it's ______.",
+        "options": [
+          "Mike's; mine",
+          "Mike; my",
+          "Mike's; my",
+          "Mike; mine"
+        ],
+        "answer": "Mike's; mine",
+        "explanation": "第一个空是Mike's hat，第二个空单独使用用mine。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单复数转换",
+        "question": "These are your shoes. -> This is your ______.",
+        "options": [
+          "shoe",
+          "shoes",
+          "pants",
+          "socks"
+        ],
+        "answer": "shoe",
+        "explanation": "These are对应复数，This is对应单数。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物主代词应用",
+        "question": "That skirt is ______. It's not ______.",
+        "options": [
+          "mine; yours",
+          "my; your",
+          "my; yours",
+          "mine; your"
+        ],
+        "answer": "mine; yours",
+        "explanation": "两个空后都没有名词，全部使用名词性物主代词。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时态语境",
+        "question": "What are you doing? I am ______ my clothes.",
+        "options": [
+          "washing",
+          "wash",
+          "to wash",
+          "washed"
+        ],
+        "answer": "washing",
+        "explanation": "现在进行时 be + doing 结构。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用表达",
+        "question": "It is time ______ go to school.",
+        "options": [],
+        "answer": "to",
+        "explanation": "It is time to do sth. 前面已有谓语。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "代词",
+        "question": "The blue pants are Lucy's. The red ones are ______ (我的).",
+        "options": [],
+        "answer": "mine",
+        "explanation": "名词性物主代词mine表示我的。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "疑问词",
+        "question": "______ (谁的) pants are these?",
+        "options": [],
+        "answer": "whose",
+        "explanation": "whose在句首询问谁的。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "复数指示代词",
+        "question": "______ (那些) are Sarah's socks.",
+        "options": [],
+        "answer": "those",
+        "explanation": "表示远处的复数物体用those。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "颜色词匹配",
+        "question": "根据单词写出对应的中文颜色。",
+        "options": [
+          "yellow",
+          "green",
+          "blue",
+          "white",
+          "白色",
+          "蓝色",
+          "绿色",
+          "黄色"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "考查四年级必备颜色词。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情景对比",
+        "question": "将下列指令与动作含义匹配。",
+        "options": [
+          "Put on",
+          "Hang up",
+          "Wash",
+          "Take off",
+          "挂起",
+          "脱下",
+          "穿上",
+          "清洗"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "本单元Let's do部分的核心指令动词。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "陈述句",
+        "question": "连词成句：[I, like, that, skirt]",
+        "options": [
+          "I",
+          "like",
+          "that",
+          "skirt"
+        ],
+        "answer": "I,like,that,skirt",
+        "explanation": "主谓宾结构：我喜欢那条短裙。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一般疑问句",
+        "question": "连词成句：[these, Are, Mike's, pants]",
+        "options": [
+          "these",
+          "Are",
+          "Mike's",
+          "pants"
+        ],
+        "answer": "Are,these,Mike's,pants",
+        "explanation": "Are these + 所有格 + 名词? 构成疑问。注意句首大写。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "衣物词汇单复数",
+      "core_concept": "pants, shorts, socks, shoes 等词由两个部分组成，通常以复数形式出现。",
+      "key_formula": "These are + 复数衣物; This is + 单数衣物(skirt/dress/hat)。",
+      "common_mistakes": [
+        "说 'a pants' 而不是 'a pair of pants'",
+        "描述裤子颜色时用单数 'It is red' 而不用 'They are red'"
+      ],
+      "tips": "记住裤子、鞋子、袜子都是成双成对的，所以单词后面总是有s。"
+    },
+    {
+      "point": "Whose 引导的选择关系",
+      "core_concept": "Whose 用来询问某物是谁的。",
+      "key_formula": "Whose + 物品 + is this / are these?",
+      "common_mistakes": [
+        "混淆 whose (谁的) 和 who's (谁是)",
+        "Whose 后遗漏名词直接加 is"
+      ],
+      "tips": "回答 Whose 提问时，最常用的方式是[名字 + 's]。"
+    },
+    {
+      "point": "物主代词 mine 和 yours",
+      "core_concept": "名词性物主代词起替代作用，避免重复。",
+      "key_formula": "mine = my + 物品; yours = your + 物品",
+      "common_mistakes": [
+        "在 mine 或 yours 后面继续加名词 (如 mine skirt)",
+        "混淆 your (你的) 和 yours (你的东西)"
+      ],
+      "tips": "如果空格后面没有衣服名字了，就选带s的yours或者特殊的mine。"
+    }
+  ]
+}

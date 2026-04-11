@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级上册",
+  "unit": "认识图形（一）",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "单元小测：认识图形（一）",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "乒乓球的形状是球。",
+        "options": [],
+        "answer": "对",
+        "explanation": "按照立体图形的特征，乒乓球可以任意方向滚动，表面是曲面，属于球体。验算：球体特征符合 ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "长方体有 6 个面，而且每个面都是长方形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "长方体有 6 个面，通常是长方形，但也可能有两个相对的面是正方形。因此“每个面都是长方形”说法太绝对。验算：特殊长方体存在正方形面 ✓。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "圆柱上下两个面都是圆圆的，而且大小一样。",
+        "options": [],
+        "answer": "对",
+        "explanation": "圆柱的特征是上下两个底面是完全相同的圆。验算：符合圆柱几何定义 ✓。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "正方体是四四方方的，无法滚动。",
+        "options": [],
+        "answer": "对",
+        "explanation": "正方体由 6 个正方形组成，平平的，不能像球或圆柱那样滚动。验算：平面图形不具备滚动属性 ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "两个完全一样的正方体可以拼成一个长方体。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两个正方体并排靠在一起，长度变长，高度和宽度不变，变成了长方体。验算：拼搭实验成立 ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "文具盒的形状通常是什么？",
+        "options": [
+          "长方体",
+          "正方体",
+          "圆柱",
+          "球"
+        ],
+        "answer": "长方体",
+        "explanation": "文具盒有长长的边，平平的面，属于典型的长方体。验算：实物特征匹配 ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "下面哪种物体最容易滚动？",
+        "options": [
+          "书本",
+          "魔方",
+          "足球",
+          "砖头"
+        ],
+        "answer": "足球",
+        "explanation": "圆形的物体容易滚动。足球是球体，全方位可滚动。书本、魔方、砖头有棱角，不易滚动。验算：形状特征分析 ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "圆柱有几个平平的面？",
+        "options": [
+          "1 个",
+          "2 个",
+          "3 个",
+          "0 个"
+        ],
+        "answer": "2 个",
+        "explanation": "圆柱的上下两个底面是平平的圆，侧面是曲面。验算：$1 + 1 = 2$ ✓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "正方体有几个面？",
+        "options": [
+          "4 个",
+          "5 个",
+          "6 个",
+          "8 个"
+        ],
+        "answer": "6 个",
+        "explanation": "正方体和长方体一样，都有 6 个面。验算：数一数上、下、前、后、左、右共 6 个 ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "电线杆的形状像什么？",
+        "options": [
+          "球",
+          "正方体",
+          "圆柱",
+          "长方体"
+        ],
+        "answer": "圆柱",
+        "explanation": "电线杆细长且横截面是圆的，像圆柱。验算：几何形态比对 ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "要把物体叠得很高又不倒下来，选哪种形状最好？",
+        "options": [
+          "球",
+          "长方体",
+          "圆柱横放",
+          "都有可能"
+        ],
+        "answer": "长方体",
+        "explanation": "长方体有平滑的大面，稳定性最强，适合堆叠。球易滚动不稳。验算：物理稳定性分析 ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "红粉笔盒是方方正正的，它的每个面都一样大，它是：",
+        "options": [
+          "长方体",
+          "圆柱",
+          "正方体",
+          "球"
+        ],
+        "answer": "正方体",
+        "explanation": "满足方方正正且 6 个面都一样大的特征是正方体。验算：正方体定义匹配 ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "侧面看上去是一个长方形，这个物体不可能是：",
+        "options": [
+          "长方体",
+          "圆柱",
+          "正方体",
+          "球"
+        ],
+        "answer": "球",
+        "explanation": "球从任何方向看都是圆的，不可能是长方形。验算：排除法确定 ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "用 4 个相同的小正方体，可以拼成一个大的：",
+        "options": [
+          "长方体",
+          "正方体",
+          "圆柱",
+          "球"
+        ],
+        "answer": "长方体",
+        "explanation": "4 个小正方体横着排成一排是长方体。要拼成大正方体至少需要 8 个。验算：$2 \times 2 \times 2 = 8$ ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "在一个大长方体上面放一个球，球的下面接触到的形状是：",
+        "options": [
+          "圆形的",
+          "方方的",
+          "尖尖的",
+          "不确定"
+        ],
+        "answer": "方方的",
+        "explanation": "长方体的表面是平平的、方方的。验算：接触面性质分析 ✓。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "下列哪个物体既能滑动（平移）又能滚动？",
+        "options": [
+          "正方体",
+          "球",
+          "圆柱",
+          "长方体"
+        ],
+        "answer": "圆柱",
+        "explanation": "圆柱立着放只能滑动，横着放可以滚动。验算：多状态运动分析 ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "最少用几个完全一样的小正方体能拼成一个大正方体？",
+        "options": [
+          "2 个",
+          "4 个",
+          "6 个",
+          "8 个"
+        ],
+        "answer": "8 个",
+        "explanation": "大正方体每条边至少放 2 个小正方体。总数：$2 \times 2 \times 2 = 8$。验算：分层计数法 $4 + 4 = 8$ ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "老师把 3 个圆柱叠在一起，一共有几个平平的圆面在外面（可以看到或摸到，不考虑叠在一起的接触面）？",
+        "options": [
+          "2 个",
+          "4 个",
+          "6 个",
+          "3 个"
+        ],
+        "answer": "2 个",
+        "explanation": "3 个圆柱叠成一根长柱子，只有最上面和最下面两个底面露在外面。验算：$3 \times 2 - (3 - 1) \times 2 = 6 - 4 = 2$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "一个正方体有 ___ 个顶点。",
+        "options": [],
+        "answer": "8",
+        "explanation": "正方体上面有 4 个顶点，下面有 4 个顶点。列式：$4 + 4 = 8$ 个。验算：实物数数法得出 8 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "用 3 个小正方体拼成一个长方体，这个长方体一共有 ___ 个平平的面。",
+        "options": [],
+        "answer": "6",
+        "explanation": "无论几个正方体连成一排，拼成的仍然是一个长方体，长方体都有 6 个面。验算：拼成的图形是 $1 \times 1 \times 3$ 的整体，依然只有 6 个外表面 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "小明有 2 个圆柱和 3 个长方体。他一共有 ___ 个几何图形物体。",
+        "options": [],
+        "answer": "5",
+        "explanation": "根据题意，计算物体总数。列式：$2 + 3 = 5$（个）。验算：$5 - 3 = 2$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "计算：$6 + 8 = ?$",
+        "options": [],
+        "answer": "14",
+        "explanation": "$6 + 8 = 14$。验算：$14 - 8 = 6$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "计算：$20 - 5 = ?$",
+        "options": [],
+        "answer": "15",
+        "explanation": "$20 - 5 = 15$。验算：$15 + 5 = 20$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "综合测验：立体图形与空间初步",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "魔方是正方体形成的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "魔方每个角和面都相等，是标准的正方体。验算：外观比对符合 ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "圆柱可以立着放，也可以横着放。",
+        "options": [],
+        "answer": "对",
+        "explanation": "圆柱有两个平面和一个曲面，立着放平稳，横着放可滚动。验算：物理形态描述 ✓。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "图形的拼搭 with 组合",
+        "question": "3 个小正方体可以拼成一个大的正方体。",
+        "options": [],
+        "answer": "错",
+        "explanation": "拼成大正方体最少需要 8 个小正方体。3 个只能拼成长方体。验算：$2 \times 2 \times 2 = 8 > 3$ ✓。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "球体没有平平的面。",
+        "options": [],
+        "answer": "对",
+        "explanation": "球的表面是完全连续的曲面。验算：几何概念验证 ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "长方体和正方体都有 12 条边。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两者都有 12 条棱。验算：实物数数得 12 ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "易拉罐的形状像什么？",
+        "options": [
+          "球",
+          "长方体",
+          "圆柱",
+          "正方体"
+        ],
+        "answer": "圆柱",
+        "explanation": "易拉罐上下是平的圆底，四周是曲面，符合圆柱特征。验算：实物匹配 ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "我们的数学书是什么形状？",
+        "options": [
+          "正方形",
+          "长方形",
+          "长方体",
+          "正方体"
+        ],
+        "answer": "长方体",
+        "explanation": "数学书有厚度，是由 6 个面组成的立体图形，是长方体。注意不要误选平面图形长方形。验算：立体 vs 平面辨析 ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "下面哪种物体可以向四周任意方向滚动？",
+        "options": [
+          "圆柱",
+          "球",
+          "长方体",
+          "正方体"
+        ],
+        "answer": "球",
+        "explanation": "球没有棱角，曲面全对称。验算：滚动方向分析 ✓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "用一堆同样的小正方体拼搭。第一层 1 个，第二层 2 个。一共用了几个？",
+        "options": [
+          "1 个",
+          "2 个",
+          "3 个",
+          "4 个"
+        ],
+        "answer": "3 个",
+        "explanation": "$1 + 2 = 3$。验算：$3 - 1 = 2$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "把圆柱横着放，它会怎么运动？",
+        "options": [
+          "滑动",
+          "滚动",
+          "静止不动",
+          "跳动"
+        ],
+        "answer": "滚动",
+        "explanation": "横着放时接触面是曲面，会滚动。验算：受力滚动特征 ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的辨认",
+        "question": "正方体的 6 个面：",
+        "options": [
+          "都不一样大",
+          "有 2 个面一样大",
+          "有 4 个面一样大",
+          "都一样大"
+        ],
+        "answer": "都一样大",
+        "explanation": "正方体特征：6 个面都是大小相同的正方形。验算：定义核对 ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "这种物体摸起来圆圆的，没有平平的面，它是：",
+        "options": [
+          "长方体",
+          "圆柱",
+          "球",
+          "正方体"
+        ],
+        "answer": "球",
+        "explanation": "描述的是球的特征。验算：特征唯一性 ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "两个长方体拼在一起，最少有几个面露在外面？",
+        "options": [
+          "6 个",
+          "8 个",
+          "10 个",
+          "12 个"
+        ],
+        "answer": "10 个",
+        "explanation": "两个长方体各 6 面，共 12 面。拼在一起时，有两个面重合被遮住。$12 - 2 = 10$。验算：$6 \times 2 - 2 = 10$ ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "从一个长方体木块上切下一个角，剩下的木块最少有几个面？",
+        "options": [
+          "6 个",
+          "7 个",
+          "5 个",
+          "8 个"
+        ],
+        "answer": "7 个",
+        "explanation": "切掉一个角会由于切痕多出一个面。$6 + 1 = 7$。验算：切削操作空间想象 ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的辨认",
+        "question": "砖头的形状是：",
+        "options": [
+          "长方形",
+          "长方体",
+          "正方形",
+          "正方体"
+        ],
+        "answer": "长方体",
+        "explanation": "实物是立体的。验算：日常常识 ✓。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "把一个球切成两半，切开的面是什么形状？",
+        "options": [
+          "正方形",
+          "长方形",
+          "圆形",
+          "三角形"
+        ],
+        "answer": "圆形",
+        "explanation": "球的剖面永远是圆形。验算：几何切面分析 ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "立体图形的辨认",
+        "question": "哪种图形的面都是平平的？",
+        "options": [
+          "球",
+          "圆柱",
+          "长方体",
+          "以上都是"
+        ],
+        "answer": "长方体",
+        "explanation": "球是曲面，圆柱有曲面，只有长方体 6 面皆平。验算：排除法 ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "用同样的小正方体搭一个大正方体，至少需要几个？",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": "8",
+        "explanation": "$2 \times 2 \times 2 = 8$。验算：$2 \times 2 = 4$（底层），两层共 8 个 ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的辨认",
+        "question": "一间教室有 4 个角，每个角放 1 个球，一共需要 ___ 个球。",
+        "options": [],
+        "answer": "4",
+        "explanation": "列式：$1 \times 4 = 4$（个）。验算：$4 \times 1 = 4$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "把 2 个正方体拼成一个长方体。原本两个正方体一共有 12 个面，拼成后消失了 ___ 个面。",
+        "options": [],
+        "answer": "2",
+        "explanation": "两个面靠在一起，这两个面就都在图形内部不可见了。列式：$消失数量 = 2$。验算：拼成后剩下 $12 - 2 = 10$ 个外部面 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "圆柱有 2 个圆面，长方体有 6 个长方形面。它们一共有 ___ 个面。",
+        "options": [],
+        "answer": "8",
+        "explanation": "列式：$2 + 6 = 8$（个）。验算：$8 - 2 = 6$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的拼搭与组合",
+        "question": "计算：$8 + 8 + 8 = ?$",
+        "options": [],
+        "answer": "24",
+        "explanation": "$8 + 8 = 16$，$16 + 8 = 24$。验算：$24 \times 1 = 24$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "立体图形的特征分类",
+        "question": "计算：$12 - 6 + 4 = ?$",
+        "options": [],
+        "answer": "10",
+        "explanation": "$12 - 6 = 6$，$6 + 4 = 10$。验算：$10 - 4 + 6 = 12$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "立体图形的辨认",
+      "core_concept": "学生需要通过视觉和触摸，直观感知四种基本立体图形：长方体是长长的、由6个平平的面组成；正方体是方方正正的，6个面一样大；圆柱像个柱子，上下圆圆一样大；球是圆溜溜的，没有平平的面。",
+      "key_formula": "长方体和正方体都有 6 个面、8 个顶点、12 条边。",
+      "common_mistakes": [
+        "容易将“长方体”说成“长方形”，混淆立体图形与平面图形。",
+        "认为只有长长的才是长方体，忽略了有两个面是正方形的特殊长方体。"
+      ],
+      "tips": "可以通过“摸一摸”来记忆：有尖尖角的是长方体和正方体；没有角、滑滑的是圆柱和球。"
+    },
+    {
+      "point": "立体图形的特征分类",
+      "core_concept": "根据图形的运动特征和形状特征进行分类。球可以向任何方向滚动；圆柱横放可以滚动，竖放只能滑动；长方体和正方体只能滑动，堆叠时最稳定。这有助于培养学生的空间观测能力。",
+      "key_formula": "能滚动（含曲面）：圆柱、球；不能滚动（全平面）：长方体、正方体。",
+      "common_mistakes": [
+        "误认为圆柱只能滚动，忘记了它竖着放时是可以平稳滑动的。",
+        "认为所有圆圆的图形都能向四面八方滚动（其实圆柱只能向两个方向滚动）。"
+      ],
+      "tips": "记忆口诀：球儿圆圆滚得快，圆柱柱子站得稳，长方正方平平脸，堆高不倒最合群。"
+    },
+    {
+      "point": "图形的拼搭与组合",
+      "core_concept": "通过将多个基础图形拼凑成新的形状，了解图形间的组合关系。例如，两个正方体可以拼成长方体，多个长方体可以搭成滑梯或城堡。核心是培养空间想象力，数出被遮挡的基础图形数量。",
+      "key_formula": "拼成一个大正方体最少需要 8 个一样的小正方体。",
+      "common_mistakes": [
+        "在数复杂组合图形时，容易漏掉被遮在后面或压在底下的积木块。",
+        "认为 4 个小正方体就能拼成大正方体（其实只能拼成一个更大的正方形平面或长方体）。"
+      ],
+      "tips": "数数小技巧：分层数。先数最下面一层有几个，再数第二层，最后加在一起才准确。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学三年级下册",
+  "unit": "复式统计表",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元《复式统计表》基础过关评估卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "复式统计表的结构与认识",
+        "question": "复式统计表可以将两个或多个单式统计表的内容合并在一起。",
+        "options": [],
+        "answer": "对",
+        "explanation": "复式统计表的定义就是将两个或多个有联系的单式统计表合并成一个表，便于比较。✓"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "复式统计表的结构与认识",
+        "question": "复式统计表的左上角表头通常被分成两部分或三部分。",
+        "options": [],
+        "answer": "对",
+        "explanation": "表头斜线将空间分成几部分，分别表示横栏和竖栏的类别。✓"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "在复式统计表中，只能横着看数据，不能竖着看数据。",
+        "options": [],
+        "answer": "错",
+        "explanation": "复式统计表既可以横向看同一个项目的不同情况，也可以纵向看同一个类别的不同项目。✓"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "填补与合成复式统计表",
+        "question": "合并统计表时，只要把数据抄写下来就行，不需要核对总数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "合并数据后，必须通过计算总数来核对填写的准确性。✓"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "复式统计表比单式统计表更容易进行多组数据的对比分析。",
+        "options": [],
+        "answer": "对",
+        "explanation": "由于数据集中在同一张表中，对比不同类别的数据更加直观。✓"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复式统计表的结构与认识",
+        "question": "复式统计表的左上角那格通常叫做（  ）。",
+        "options": [
+          "内容",
+          "表头",
+          "标题",
+          "数据"
+        ],
+        "answer": "表头",
+        "explanation": "统计表最左上角的格子称为表头。✓"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "已知三年级男生成绩优的有15人，女生成绩优的有12人，优的总人数是（  ）人。",
+        "options": [
+          "27",
+          "15",
+          "12",
+          "3"
+        ],
+        "answer": "27",
+        "explanation": "$15 + 12 = 27$。验算：$27 - 12 = 15$。✓"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "如果统计表里第一排是“男生”，第二排是“女生”，那么横向对比可以发现（  ）。",
+        "options": [
+          "同性别差异",
+          "男女生差异",
+          "总人数情况",
+          "天气情况"
+        ],
+        "answer": "男女生差异",
+        "explanation": "横向查看不同行（男生行与女生行）可以对比男女生之间的差异。✓"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "小明统计了两个小组的视力。第一组近视2人，第二组近视5人。哪一组的视力情况较好？",
+        "options": [
+          "第一组",
+          "第二组",
+          "一样好",
+          "无法判断"
+        ],
+        "answer": "第一组",
+        "explanation": "近视人数少的小组视力情况相对较好，$2 < 5$，故第一组较好。✓"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "填补与合成复式统计表",
+        "question": "有两张单式表，各记录了男、女生的兴趣。合并后复式表的格数应（  ）两表格数之和。",
+        "options": [
+          "大于",
+          "等于",
+          "小于",
+          "不确定"
+        ],
+        "answer": "小于",
+        "explanation": "复式统计表会共用某些表头和项目名称，通常格数会减少。✓"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "根据统计表，喜欢看动画片的男生25人，女生20人。全班喜欢看动画片的共有（  ）人。",
+        "options": [
+          "45",
+          "5",
+          "50",
+          "40"
+        ],
+        "answer": "45",
+        "explanation": "$25 + 20 = 45$。验算：$45 - 20 = 25$。✓"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "甲班及格人数42人，乙班及格人数45人。哪班及格人数多？",
+        "options": [
+          "甲班",
+          "乙班",
+          "一样多",
+          "无法比较"
+        ],
+        "answer": "乙班",
+        "explanation": "$45 > 42$，乙班人数更多。✓"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复式统计表的结构与认识",
+        "question": "我们通常在统计表的哪个位置写统计表的名称？",
+        "options": [
+          "左侧",
+          "右侧",
+          "下方",
+          "上方正中间"
+        ],
+        "answer": "上方正中间",
+        "explanation": "统计表的标题通常置于表格上方的正中间。✓"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "复式统计表横栏表示“项目”，纵栏表示“性别”，交叉处的格子里填的是（  ）。",
+        "options": [
+          "项目名",
+          "性别名",
+          "对应数据",
+          "标题"
+        ],
+        "answer": "对应数据",
+        "explanation": "表格中心区域填写的是行与列交叉点对应的数值。✓"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "男生喜欢踢足球的有18人，女生喜欢踢足球的有2人。喜欢踢足球的总人数是（  ）人。",
+        "options": [
+          "16",
+          "20",
+          "18",
+          "2"
+        ],
+        "answer": "20",
+        "explanation": "$18 + 2 = 20$。验算：$20 - 2 = 18$。✓"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "一班有40人，二班有42人，两班总人数和80相比，结果是（  ）。",
+        "options": [
+          "正好等于",
+          "比80少",
+          "比80多",
+          "无法确定"
+        ],
+        "answer": "比80多",
+        "explanation": "$40 + 42 = 82$，$82 > 80$，故比80多。✓"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "若复式统计表中一共有35人，已知男生18人，那么女生有（  ）人。",
+        "options": [
+          "17",
+          "18",
+          "19",
+          "25"
+        ],
+        "answer": "17",
+        "explanation": "$35 - 18 = 17$。验算：$17 + 18 = 35$。✓"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复式统计表的结构与认识",
+        "question": "统计表中的“合计”表示的是（  ）。",
+        "options": [
+          "最大值",
+          "最小值",
+          "总数",
+          "平均数"
+        ],
+        "answer": "总数",
+        "explanation": "合计是指所有相关数据的总和。✓"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "填补与合成复式统计表",
+        "question": "第一组5人，第二组6人，第三组5人，这三个小组一共有 ___ 人。",
+        "options": [],
+        "answer": "16",
+        "explanation": "列式：$5 + 6 + 5 = 16$。验算：$16 - 5 - 6 = 5$。答：16。✓"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "复式表中显示：男生15人，总人数32人，则女生有 ___ 人。",
+        "options": [],
+        "answer": "17",
+        "explanation": "列式：$32 - 15 = 17$。验算：$17 + 15 = 32$。答：17。✓"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "某班有50人。统计表显示喜欢游泳的22人，剩下的人都喜欢跑步，喜欢跑步的有 ___ 人。",
+        "options": [],
+        "answer": "28",
+        "explanation": "列式：$50 - 22 = 28$。验算：$28 + 22 = 50$。答：28。✓"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "填补与合成复式统计表",
+        "question": "计算复式表横向合计数：$12 + 8 + 10 = ?$",
+        "options": [],
+        "answer": "30",
+        "explanation": "$12 + 8 + 10 = 20 + 10 = 30$。验算：$30 - 10 - 8 = 12$。答：30。✓"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "填补与合成复式统计表",
+        "question": "计算复式表纵向合计数：$24 + 36 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$24 + 36 = 60$。验算：$60 - 36 = 24$。答：60。✓"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第3单元《复式统计表》综合能力提升卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "复式统计表的结构与认识",
+        "question": "复式统计表的标题必须能反映出统计的主要内容。",
+        "options": [],
+        "answer": "对",
+        "explanation": "标题是统计表的“名字”，应能概括其核心内容。✓"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "如果要比较两个班级的跳绳成绩，复式统计表比单式统计表更合适。",
+        "options": [],
+        "answer": "对",
+        "explanation": "复式表可以将两班成绩集中在一起，更方便对比。✓"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "填补与合成复式统计表",
+        "question": "在合并统计表时，数据只要填对，表头随便写就行。",
+        "options": [],
+        "answer": "错",
+        "explanation": "表头必须正确标注类别，否则数据会失去意义。✓"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "复式统计表中的“合计”只能算横向的，不能算纵向的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "复式统计表通常既有行合计，也有列合计（总计）。✓"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "复式统计表的结构与认识",
+        "question": "统计表中的数据必须准确真实，不能随意填写。",
+        "options": [],
+        "answer": "对",
+        "explanation": "真实性是统计工作最基本的要求。✓"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "统计表显示：喜欢红色的男生8人，女生12人。喜欢红色的一共有（  ）人。",
+        "options": [
+          "20",
+          "4",
+          "10",
+          "15"
+        ],
+        "answer": "20",
+        "explanation": "$8 + 12 = 20$。验算：$20 - 12 = 8$。✓"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "三(1)班45人，三(2)班48人。两班总人数（  ）100人。",
+        "options": [
+          "大于",
+          "小于",
+          "等于",
+          "无法判断"
+        ],
+        "answer": "小于",
+        "explanation": "$45 + 48 = 93$，$93 < 100$。✓"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复式统计表的结构与认识",
+        "question": "要表示某校各年级男、女生人数，最适合用（  ）。",
+        "options": [
+          "复式统计表",
+          "算式",
+          "文字",
+          "单式统计表"
+        ],
+        "answer": "复式统计表",
+        "explanation": "多个年级的男女生数据对比，复式统计表最高效科学。✓"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "一组男生体重合计数240kg，女生合计数210kg。该小组总重（  ）kg。",
+        "options": [
+          "450",
+          "30",
+          "440",
+          "460"
+        ],
+        "answer": "450",
+        "explanation": "$240 + 210 = 450$。验算：$450 - 210 = 240$。✓"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "商店上午卖出15箱苹果，下午卖出22箱。全天共卖出（  ）箱。",
+        "options": [
+          "37",
+          "7",
+          "35",
+          "40"
+        ],
+        "answer": "37",
+        "explanation": "$15 + 22 = 37$。验算：$37 - 15 = 22$。✓"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "某年级共有学生200人，其中男生105人。女生人数（  ）男生人数。",
+        "options": [
+          "多于",
+          "少于",
+          "等于",
+          "无法比较"
+        ],
+        "answer": "少于",
+        "explanation": "女生人数为 $200 - 105 = 95$ 人，$95 < 105$，故少于男生。✓"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "填补与合成复式统计表",
+        "question": "合并两个单式表时，如果单式表1有3项，单式表2有3项且项目相同，复式表横栏有（  ）项。",
+        "options": [
+          "3",
+          "6",
+          "1",
+          "4"
+        ],
+        "answer": "3",
+        "explanation": "项目相同时，复式表会合并同类项目。✓"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "已知A班总人数40人，B班50人。A班男生20人，B班女生25人。两班总男生是（  ）人。",
+        "options": [
+          "45",
+          "40",
+          "50",
+          "20"
+        ],
+        "answer": "45",
+        "explanation": "B班男生为 $50 - 25 = 25$ 人，总男生为 $20 + 25 = 45$ 人。✓"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "如果“阅读”项中，男生有20人，女生比男生多5人，则女生有（  ）人。",
+        "options": [
+          "25",
+          "15",
+          "20",
+          "30"
+        ],
+        "answer": "25",
+        "explanation": "$20 + 5 = 25$。验算：$25 - 20 = 5$。✓"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "统计表合计栏显示总共有100人，其中一年级30人，二年级35人，则三年级有（  ）人。",
+        "options": [
+          "35",
+          "65",
+          "45",
+          "30"
+        ],
+        "answer": "35",
+        "explanation": "$100 - 30 - 35 = 35$。验算：$35 + 35 + 30 = 100$。✓"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复式统计表的结构与认识",
+        "question": "复式统计表中的斜线通常放在表格的（  ）。",
+        "options": [
+          "中间",
+          "右下角",
+          "左上角",
+          "左下角"
+        ],
+        "answer": "左上角",
+        "explanation": "左上角的表头格使用斜线划分维度。✓"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "小红和小明统计路口车辆。小红记了12辆，小明比小红多记了8辆。两人共记了（  ）辆。",
+        "options": [
+          "32",
+          "20",
+          "28",
+          "12"
+        ],
+        "answer": "32",
+        "explanation": "小明：$12 + 8 = 20$ 辆。总计：$12 + 20 = 32$ 辆。✓"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "填补与合成复式统计表",
+        "question": "统计表的数据计算中，若横向相加不等于合计数，说明（  ）。",
+        "options": [
+          "填错了",
+          "是对的",
+          "没关系",
+          "以上都对"
+        ],
+        "answer": "填错了",
+        "explanation": "合计必须等于各分项之和，不等则有误。✓"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "一班有学生45人，其中有24人是男生，那么女生有 ___ 人。",
+        "options": [],
+        "answer": "21",
+        "explanation": "列式：$45 - 24 = 21$。验算：$21 + 24 = 45$。答：21。✓"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "三个班级合计人数为120人。已知一班40人，二班38人，则三班有 ___ 人。",
+        "options": [],
+        "answer": "42",
+        "explanation": "列式：$120 - 40 - 38 = 42$。验算：$42 + 38 + 40 = 120$。答：42。✓"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "已知复式表中男生比女生多12人，女生有28人，那么全班共有 ___ 人。",
+        "options": [],
+        "answer": "68",
+        "explanation": "男生：$28 + 12 = 40$。总数：$40 + 28 = 68$。验算：$68 - 28 = 40$，$40 - 28 = 12$。答：68。✓"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "填补与合成复式统计表",
+        "question": "计算复式表中多项合计数：$15 + 23 + 12 + 30 = ?$",
+        "options": [],
+        "answer": "80",
+        "explanation": "$15 + 23 = 38$；$38 + 12 = 50$；$50 + 30 = 80$。验算：$80 - 30 - 12 - 23 = 15$。✓"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从复式统计表中获取并分析信息",
+        "question": "计算两组总数据的差值：$56 - 28 = ?$",
+        "options": [],
+        "answer": "28",
+        "explanation": "$56 - 28 = 28$。验算：$28 + 28 = 56$。✓"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "复式统计表的结构与认识",
+      "core_concept": "复式统计表是将两个或多个具有联系的单式统计表的数据合并在一个表格中。它包含标题、表头、栏目和数据项。左上角的表头通过斜线划分出不同的统计维度（如性别、项目等）。",
+      "key_formula": "复式统计表结构 = 标题 + 表头 + 行标签 + 列标签 + 数据区域",
+      "common_mistakes": [
+        "混淆表头中的横向和纵向说明文字",
+        "漏写统计表的标题或日期"
+      ],
+      "tips": "观察表头时，沿着斜线看，上方文字说明横排内容，下方文字说明竖排内容。"
+    },
+    {
+      "point": "填补与合成复式统计表",
+      "core_concept": "合并表格时，需要将单式统计表中对应位置的数据准确填写到复式统计表的交叉格中。关键在于确保数据的一致性，并通过计算行合计、列合计来验证填写的正确性。",
+      "key_formula": "部分数 + 部分数 = 总数",
+      "common_mistakes": [
+        "将数据填错行或列",
+        "在计算合计项时出现口算偏差"
+      ],
+      "tips": "填完后一定要横着加一遍、竖着加一遍，看看最后的总计是否吻合。"
+    },
+    {
+      "point": "从复式统计表中获取并分析信息",
+      "core_concept": "通过复式统计表，我们可以进行横向比较（看同一行中不同项目的变化）和纵向比较（看同一项目中不同组别的差异）。这有助于发现数据间的变化规律并做简单的决策预测。",
+      "key_formula": "比较规则：先找对应行，再找对应列，交叉点即为目标值",
+      "common_mistakes": [
+        "看错数据行导致比较结论错误",
+        "无法根据数据进行简单的推理建议"
+      ],
+      "tips": "读表时可以用手指辅助，左手按行，右手按列，交叉点就是你要的数据。"
+    }
+  ]
+}

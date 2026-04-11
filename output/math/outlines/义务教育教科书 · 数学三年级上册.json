@@ -1,0 +1,363 @@
+{
+  "textbook": "三年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "时、分、秒",
+      "knowledge_points": [
+        {
+          "name": "秒的认识与量感建立",
+          "description": "认识时间单位“秒”，了解秒针特征，初步建立1秒、1分的时间观念。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "时间单位间的换算",
+          "description": "掌握1分=60秒、1时=60分的进率关系，并进行简单单位转换。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "比较/排序"
+          ]
+        },
+        {
+          "name": "经过时间的计算与应用",
+          "description": "利用数大格或“结束时间-开始时间”的方法计算间隔时长。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "万以内的加法和减法（一）",
+      "knowledge_points": [
+        {
+          "name": "两位数加减两位数的口算",
+          "description": "掌握两位数加减法的拆分口算方法，理解进位与退位逻辑。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "几百几十加减几百几十的笔算",
+          "description": "掌握三位数加减法的竖式规则，强调相同数位对齐。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "判断"
+          ]
+        },
+        {
+          "name": "用估算解决实际问题",
+          "description": "根据情境将数看作整十或整百数，判断计算结果的合理性。",
+          "difficulty": 3,
+          "question_types": [
+            "选择",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "测量",
+      "knowledge_points": [
+        {
+          "name": "毫米、分米的认识与换算",
+          "description": "建立毫米和分米的长度观念，掌握1分米=10厘米，1厘米=10毫米。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "测量",
+            "选择"
+          ]
+        },
+        {
+          "name": "千米的认识与路程估测",
+          "description": "建立1千米的长度观念，掌握1千米=1000米，并能估测路程。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "应用题",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "吨的认识与质量单位换算",
+          "description": "认识质量单位“吨”，掌握1吨=1000千克，解决大宗物品运输问题。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "万以内的加法和减法（二）",
+      "knowledge_points": [
+        {
+          "name": "万以内加法的笔算及验算",
+          "description": "掌握连续进位加法的竖式计算，学会交换加数位置进行验算。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "填空"
+          ]
+        },
+        {
+          "name": "万以内减法的笔算（含被减数中间有0）",
+          "description": "掌握连续退位减法，尤其是中间有0的情况，掌握加减互逆验算。",
+          "difficulty": 4,
+          "question_types": [
+            "竖式计算",
+            "应用题",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "解决问题策略的选择",
+          "description": "根据题目要求灵活选择精确计算或估算来解决生活实际问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "分析题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "倍的认识",
+      "knowledge_points": [
+        {
+          "name": "倍的含义与直观感知",
+          "description": "理解倍是两个数量间的份数关系，通过圈画建立直观母型。",
+          "difficulty": 2,
+          "question_types": [
+            "画图",
+            "填空"
+          ]
+        },
+        {
+          "name": "求一个数是另一个数的几倍",
+          "description": "理解“求倍数”使用除法计算（较大数 ÷ 较小数）。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "求一个数的几倍是多少",
+          "description": "理解“求几倍数”使用乘法计算（较小数 × 倍数）。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "画图"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "多位数乘一位数",
+      "knowledge_points": [
+        {
+          "name": "口算乘法与算理转化",
+          "description": "掌握整十、整百数乘一位数的口算，将大数乘法转化为表内乘法。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "笔算乘法（一般进位与连续进位）",
+          "description": "掌握多位数乘一位数的竖式书写，理解从个位乘起的顺序及进位规则。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "应用题"
+          ]
+        },
+        {
+          "name": "乘数中间或末尾有0的乘法",
+          "description": "掌握含0乘法的特殊处理：中间有0需相乘，末尾有0可先移位计算。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "比较/排序"
+          ]
+        },
+        {
+          "name": "乘法估算与归一问题解决",
+          "description": "掌握多步计算应用题，尤其是“先求一份是多少”的归一逻辑。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "长方形和正方形",
+      "knowledge_points": [
+        {
+          "name": "四边形及长正方形特征认识",
+          "description": "识别四边形，掌握长方形对边相等、正方形四边相等的特征。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "判断",
+            "操作题"
+          ]
+        },
+        {
+          "name": "周长的含义与计算公式",
+          "description": "理解周长定义，掌握长方形 C=2(a+b) 和正方形 C=4a 的计算。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "竖式计算",
+            "测量"
+          ]
+        },
+        {
+          "name": "拼图周长的变化规律",
+          "description": "探究多个正方形拼组后周长的缩减规律，寻找最优周长方案。",
+          "difficulty": 4,
+          "question_types": [
+            "操作题",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "分数的初步认识",
+      "knowledge_points": [
+        {
+          "name": "分数的认识与读写（几分之一、几分之几）",
+          "description": "理解平均分的含义，掌握分数的各部分名称及读写方法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "画图",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "分数的大小比较",
+          "description": "掌握同分母分数比较及分子为1的分数比较规律。",
+          "difficulty": 2,
+          "question_types": [
+            "比较/排序",
+            "选择"
+          ]
+        },
+        {
+          "name": "同分母分数的加减运算",
+          "description": "掌握分母不变分子相加减的规则，理解1减去几分之几的转换。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "分数的简单应用（整体的部分）",
+          "description": "计算一组物体的几分之几是多少，结合除法与乘法解决问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "数学广角——集合",
+      "knowledge_points": [
+        {
+          "name": "集合思想与韦恩图应用",
+          "description": "利用韦恩图直观展示两个集合的重叠部分，解决计数问题。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "画图"
+          ]
+        },
+        {
+          "name": "重叠问题的计算逻辑",
+          "description": "掌握“总数 = A + B - 重叠项”的计算公式，排除重复计数。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "分析题"
+          ]
+        },
+        {
+          "name": "数字编码的含义与规则",
+          "description": "了解邮政编码、身份证号等数字背后的逻辑性与唯一性。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 10,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "数与代数综合梳理",
+          "description": "复习万以内加减法、多位数乘法、分数的意义与运算。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "竖式计算",
+            "应用题"
+          ]
+        },
+        {
+          "name": "图形与几何综合应用",
+          "description": "复习测量单位换算、长方形与正方形的周长计算及特征。",
+          "difficulty": 3,
+          "question_types": [
+            "测量",
+            "填空",
+            "解决问题"
+          ]
+        },
+        {
+          "name": "逆向思维与逻辑推导",
+          "description": "通过缺失竖式填数、复杂应用题拆解等提升逻辑思维。",
+          "difficulty": 5,
+          "question_types": [
+            "技巧填数",
+            "分析题",
+            "规律探索"
+          ]
+        }
+      ]
+    }
+  ]
+}

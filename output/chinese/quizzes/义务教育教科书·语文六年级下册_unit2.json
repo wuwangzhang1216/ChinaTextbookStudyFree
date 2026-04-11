@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文六年级下册",
+  "unit": "外国文学名著",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元 基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "作品梗概的阅读与编写",
+        "question": "《鲁滨逊漂流记》的梗概部分是按照时间顺序来介绍情节的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "梗概通常按照故事发展的先后顺序进行叙述，使脉络清晰。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "尼尔斯是一个从调皮捣蛋变得勇敢善良的孩子。",
+        "options": [],
+        "answer": "对",
+        "explanation": "尼尔斯在历险过程中性格发生了极大的正向转变。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "对比翻译法与语言特色",
+        "question": "“梗概”这个词的意思是作品的大略内容。",
+        "options": [],
+        "answer": "对",
+        "explanation": "梗概即为大意、主要情节的简略介绍。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "作品梗概的阅读与编写",
+        "question": "写作品梗概时，为了吸引读者，可以加入大量的心理描写和修辞手法。",
+        "options": [],
+        "answer": "错",
+        "explanation": "梗概应语言简练，重点突出主干情节，不宜有过多的细节描写。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "鲁滨逊在荒岛上只用了不到一个月的时间就把定居点建好了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "鲁滨逊建设定居点经历了漫长且艰苦的过程，而非不到一个月。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语中，加点字“处”读音不同于其他三项的是：",
+        "options": [
+          "处境",
+          "处理",
+          "处事",
+          "到处"
+        ],
+        "answer": "到处",
+        "explanation": "“到处”读 chù，其他三项均读 chǔ。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义辨析",
+        "question": "鲁滨逊在一个（   ）的荒岛上生活了二十多年。",
+        "options": [
+          "荒芜",
+          "荒僻",
+          "荒凉",
+          "荒唐"
+        ],
+        "answer": "荒凉",
+        "explanation": "描述缺乏人烟、贫瘠的环境，用“荒凉”最贴切。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“这些想法难道不是在这种处境下必然产生的吗？”这句话运用的修辞手法是：",
+        "options": [
+          "设问",
+          "反问",
+          "比喻",
+          "排比"
+        ],
+        "answer": "反问",
+        "explanation": "句子用疑问的形式表达肯定的意思，末尾是问号，属于反问。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "汤姆·索亚被关在山洞里时，表现出的性格特点是：",
+        "options": [
+          "胆小怕事",
+          "沉着勇敢",
+          "自私自利",
+          "怨天尤人"
+        ],
+        "answer": "沉着勇敢",
+        "explanation": "汤姆在困境中不仅安抚同伴，还积极寻找出口，体现了智慧和勇敢。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "对比翻译法与语言特色",
+        "question": "下面哪一组词语最能体现《鲁滨逊漂流记》的精神内核？",
+        "options": [
+          "安于现状、随遇而安",
+          "悲观失望、听天由命",
+          "积极乐观、坚韧不拔",
+          "随心所欲、随波逐流"
+        ],
+        "answer": "积极乐观、坚韧不拔",
+        "explanation": "鲁滨逊在绝境中求生存的精神核心是乐观与坚韧。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作品梗概的阅读与编写",
+        "question": "阅读课文《鲁滨逊漂流记》节选，鲁滨逊通过什么方式来记录日期？",
+        "options": [
+          "在树干上刻痕",
+          "在沙滩上写字",
+          "收集小石头",
+          "用绳子打结"
+        ],
+        "answer": "在树干上刻痕",
+        "explanation": "课文明确记载他用刀在木柱上刻痕来计算日期。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "对比翻译法与语言特色",
+        "question": "针对同一段名著内容，不同译本会有不同的遣词造句。这种现象说明了：",
+        "options": [
+          "翻译是不准确的",
+          "文学语言具有丰富性",
+          "作家写作水平不稳定",
+          "读者阅读习惯在变"
+        ],
+        "answer": "文学语言具有丰富性",
+        "explanation": "不同的翻译风格展示了语言表达的多样与魅力。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "“这是哪儿” 他自言自语道 “我怎么会在这儿呢” 横线处应填：",
+        "options": [
+          "？ ， ？",
+          "？ 。 ？",
+          "， ， 。",
+          "。 ， 。"
+        ],
+        "answer": "？ ， ？",
+        "explanation": "第一句是问句，“他自言自语道”后用逗号，最后一句依然是心里的疑问。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "在《尼尔斯骑鹅旅行记》中，尼尔斯由小变大的契机是：",
+        "options": [
+          "学会了魔法",
+          "战胜了大雄鹅",
+          "回到了父母身边",
+          "变得善良并舍己为人"
+        ],
+        "answer": "变得善良并舍己为人",
+        "explanation": "只有内心真正成长，诅咒才会解除。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作品梗概的阅读与编写",
+        "question": "给《鲁滨逊漂流记》的故事阶段拟小标题，最合适的一组是：",
+        "options": [
+          "流落荒岛—建房定居—营救“星期五”—回到英国",
+          "出海经商—遇到风暴—学会农耕—救下野人",
+          "遭遇海难—荒岛生活—回到家乡—再次出海",
+          "荒岛求生—遇到土著—制造木船—定居荒岛"
+        ],
+        "answer": "流落荒岛—建房定居—营救“星期五”—回到英国",
+        "explanation": "这四个标题涵盖了作品梗概的主要时间节点和关键情节。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "作品梗概的阅读与编写",
+        "question": "鲁滨逊在荒岛上救下的野人叫（ ）。",
+        "options": [],
+        "answer": "星期五",
+        "explanation": "因为是在星期五救下的，所以起名为星期五。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文学常识",
+        "question": "《汤姆·索亚历险记》的作者是美国的（ ）。",
+        "options": [],
+        "answer": "马克吐温",
+        "explanation": "马克·吐温是美国著名的批判现实主义作家。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "鲁滨逊把荒岛上的生活记录下来，把自己遇到的好处和（ ）列成两栏进行对比。",
+        "options": [],
+        "answer": "坏处",
+        "explanation": "通过“好处”与“坏处”的对比，他找到了生存下去的希望。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "作品与作者对应",
+        "question": "请将下列作家与其代表作进行连线：",
+        "options": [
+          "丹尼尔·笛福",
+          "塞尔玛·拉格洛芙",
+          "马克·吐温",
+          "夏洛蒂·勃朗特",
+          "《汤姆·索亚历险记》",
+          "《简·爱》",
+          "《鲁滨逊漂流记》",
+          "《尼尔斯骑鹅旅行记》"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "考察课文涉及的相关文学常识。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物形象关键词对应",
+        "question": "请将人物与其对应的性格关键词进行连线：",
+        "options": [
+          "鲁滨逊",
+          "尼尔斯",
+          "汤姆·索亚",
+          "贝琪",
+          "调皮机智",
+          "胆小柔弱",
+          "硬汉精神",
+          "勇敢善良"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "通过对比不同人物的表现，理清其人物性格特征。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情节概括",
+        "question": "请将故事情节与其所在的阶段进行连线：",
+        "options": [
+          "海上遇险",
+          "荒岛建房",
+          "救星期五",
+          "重返英国",
+          "发展阶段",
+          "高潮阶段",
+          "故事结局",
+          "开篇情节"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "考察学生对名著情节结构的整体掌握。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "现代文语言表达",
+        "question": "请将下列词语排列成一句描写鲁滨逊的话：",
+        "options": [
+          "鲁滨逊",
+          "是一个",
+          "向往",
+          "冒险",
+          "的人"
+        ],
+        "answer": "鲁滨逊,是一个,向往,冒险,的人",
+        "explanation": "考查对鲁滨逊性格特点的基础表述能力。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现代文语言表达",
+        "question": "请将词语排列成关于阅读名著的观点：",
+        "options": [
+          "我们可以",
+          "阅读名著",
+          "感受到",
+          "文学的",
+          "无穷魅力"
+        ],
+        "answer": "阅读名著,我们可以,感受到,文学的,无穷魅力",
+        "explanation": "考察句子的逻辑组合能力。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第二单元 综合评价卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文学常识",
+        "question": "《鲁滨逊漂流记》是英国作家丹尼尔·笛福的作品。",
+        "options": [],
+        "answer": "对",
+        "explanation": "丹尼尔·笛福被称为“英国小说之父”。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "鲁滨逊在荒岛上非常悲观，他一直认为自己注定要死在岛上。",
+        "options": [],
+        "answer": "错",
+        "explanation": "虽然有过消极念头，但他迅速调整心态，想办法改善生活环境。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "作品梗概的阅读与编写",
+        "question": "小标题必须是一个完整的句子。",
+        "options": [],
+        "answer": "错",
+        "explanation": "小标题通常由短语或关键词组成，需概括要点即可。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "尼尔斯骑在大鹅背上不仅看到了瑞典的风光，心智也得到了成长。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这不仅是一次地理旅行，更是一场心灵的洗礼。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "对比翻译法与语言特色",
+        "question": "多读不同国家的文学名著，可以让我们更开阔地了解世界。",
+        "options": [],
+        "answer": "对",
+        "explanation": "名著是了解异国文化、社会生活的窗口。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词辨析",
+        "question": "选出最适合填入括号的词语：他在逆境中表现得非常（ ）。",
+        "options": [
+          "固执",
+          "顽强",
+          "顽固",
+          "顽劣"
+        ],
+        "answer": "顽强",
+        "explanation": "“顽强”是褒义词，用于形容人在困境中不屈不挠。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语言特色",
+        "question": "下列哪句话最能体现名著中“心理活动”的描写？",
+        "options": [
+          "他走进屋子坐了下来。",
+          "天空阴沉沉的，快要下雨了。",
+          "他心里矛盾极了：是去救人呢，还是逃跑？",
+          "桌子上放着一块发霉的面包。"
+        ],
+        "answer": "他心里矛盾极了：是去救人呢，还是逃跑？",
+        "explanation": "心理描写直接展示人物内心的挣扎或想法。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作品梗概的阅读与编写",
+        "question": "缩写课文《鲁滨逊漂流记》梗概时，下列做法错误的是：",
+        "options": [
+          "删减次要的细节描写",
+          "保留核心的人物和情节",
+          "改变原著的故事顺序",
+          "理清故事的因果关系"
+        ],
+        "answer": "改变原著的故事顺序",
+        "explanation": "梗概应忠实于原著的情节逻辑和发展顺序。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "《尼尔斯骑鹅旅行记》中的尼尔斯最初是因为（ ）被变小的。",
+        "options": [
+          "喝了药水",
+          "没写作业",
+          "戏弄了小狐仙",
+          "魔法阵失效"
+        ],
+        "answer": "戏弄了小狐仙",
+        "explanation": "故事起因是尼尔斯调皮，戏弄了家中的小狐仙。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "对比翻译法与语言特色",
+        "question": "不同译本对“Friday”的翻译不同，这提醒我们在阅读名著时要注意：",
+        "options": [
+          "翻译者的名字",
+          "出版日期",
+          "语言的独特性与翻译的多样性",
+          "字数的多寡"
+        ],
+        "answer": "语言的独特性与翻译的多样性",
+        "explanation": "引导学生通过翻译对比，更深层次地理解文学作品。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式转换",
+        "question": "将“鲁滨逊克服了重重困难。”改为反问句，正确的是：",
+        "options": [
+          "鲁滨逊怎么能不克服重重困难呢？",
+          "鲁滨逊克服重重困难了吗？",
+          "鲁滨逊必须要克服困难。",
+          "鲁滨逊一定能克服困难！"
+        ],
+        "answer": "鲁滨逊怎么能不克服重重困难呢？",
+        "explanation": "双重否定加反问表示强烈的肯定。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "细节理解",
+        "question": "鲁滨逊在荒岛上第一次尝试种大麦和稻子，主要原因是：",
+        "options": [
+          "他带了种子去岛上",
+          "他在翻抖装谷物的袋子时意外抖出了种子",
+          "“星期五”送给他的",
+          "在海边捡到的"
+        ],
+        "answer": "他在翻抖装谷物的袋子时意外抖出了种子",
+        "explanation": "这是课文中一个关键的偶然情节，展现了生存的转机。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "对比鲁滨逊和汤姆·索亚，他们共同的特质是：",
+        "options": [
+          "都喜欢在荒岛生活",
+          "都有极强的探险精神和勇气",
+          "都非常听父母的话",
+          "都喜欢调皮捣蛋"
+        ],
+        "answer": "都有极强的探险精神和勇气",
+        "explanation": "这两部名著的人物都体现了对未知世界的探索和面对困难的勇敢。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "下列句子中标点符号使用正确的一项是：",
+        "options": [
+          "他想：我完了？",
+          "“救命啊！”他高声呼喊着。",
+          "这里有麦子。稻子。和一些杂豆。",
+          "快跑。别回头。"
+        ],
+        "answer": "“救命啊！”他高声呼喊着。",
+        "explanation": "引号和感叹号的使用符合对话与情感表达规范。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "《鲁滨逊漂流记》中鲁滨逊遇到的第一个伙伴是：",
+        "options": [
+          "星期五",
+          "一只小狗",
+          "一只鹦鹉",
+          "一只大鹅"
+        ],
+        "answer": "一只小狗",
+        "explanation": "鲁滨逊从沉船上救下了两只猫和一只狗，那是他最初的伙伴。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "作品梗概的阅读与编写",
+        "question": "《鲁滨逊漂流记》的节选部分由“梗概”和“（ ）”两部分组成。",
+        "options": [],
+        "answer": "精彩片段",
+        "explanation": "课文的编排结构是先大致了解全局，再精读片段。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "尼尔斯骑的那只雄鹅名字叫（ ）。",
+        "options": [],
+        "answer": "莫顿",
+        "explanation": "莫顿是带尼尔斯游历瑞典的关键角色。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多角度评价人物形象",
+        "question": "鲁滨逊评价自己是个（ ）的探险家。",
+        "options": [],
+        "answer": "天生",
+        "explanation": "他在故事开头便描述了自己对航海冒险的狂热向往。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情节特征连线",
+        "question": "请将书籍名称与其核心情节关键词连线：",
+        "options": [
+          "《鲁滨逊漂流记》",
+          "《尼尔斯骑鹅旅行记》",
+          "《汤姆·索亚历险记》",
+          "《爱丽丝漫游奇境》",
+          "游历地下世界",
+          "孤岛艰难求生",
+          "骑鹅俯瞰祖国",
+          "墓地见证凶案"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "考查学生对课内外名著情节的辨析力。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语搭配",
+        "question": "请将动词与对应的名词进行连线：",
+        "options": [
+          "挖掘",
+          "驯养",
+          "度过",
+          "磨炼",
+          "山洞",
+          "野羊",
+          "难关",
+          "意志"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "考查课文中关于鲁滨逊生活劳动的常用词汇。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "评价观点连线",
+        "question": "请将名著片段的表现手法及其作用连线：",
+        "options": [
+          "列表对比",
+          "内心独白",
+          "环境描写",
+          "细节动作",
+          "体现心理转变",
+          "增强真实感",
+          "梳理生活逻辑",
+          "渲染恐怖气氛"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "考查学生对文学创作手法和表达效果的深层理解。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "语言表达",
+        "question": "请将下列词语排列成一句关于鲁滨逊生活状态的话：",
+        "options": [
+          "他",
+          "并没有",
+          "对生活",
+          "失去",
+          "信心"
+        ],
+        "answer": "他,并没有,对生活,失去,信心",
+        "explanation": "考察基础语序和人物形象总结。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语言表达",
+        "question": "请将短语排列成一句关于尼尔斯的启示：",
+        "options": [
+          "只有",
+          "关爱他人",
+          "才能",
+          "赢得",
+          "真正的尊重"
+        ],
+        "answer": "只有,关爱他人,才能,赢得,真正的尊重",
+        "explanation": "考察关联词“只有……才能……”的逻辑应用。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "作品梗概的阅读与编写",
+      "core_concept": "梗概是对原著主干情节的精练概括。编写时需保留“三要素”：故事背景、主要人物、核心事件。通常按照“开端—发展—高潮—结局”的脉络，用简练的语言连接。编写步骤包括：读懂内容、筛选主干、连贯表述。",
+      "key_formula": "梗概 = 谁 + 在什么地方/时间 + 做了什么 + 结果如何",
+      "common_mistakes": [
+        "堆砌词藻：写梗概时像写作文一样加入大量环境描写，导致重点不突出。",
+        "情节断裂：只写精彩片段而忽略了情节之间的因果转换关系。"
+      ],
+      "tips": "尝试用“小标题”法，即先把每部分内容概括成4-6字的短语，再以此为骨架串连成文。"
+    },
+    {
+      "point": "多角度评价人物形象",
+      "core_concept": "评价名著人物不应片面，要结合困境中的表现。分析他们在极限环境下的心理波动（如恐惧、绝望到希望）、处理问题的智慧以及性格中的复杂性。例如鲁滨逊不仅是冒险家，也是勤劳的劳动者和清醒的管理者。",
+      "key_formula": "评价 = 性格标签 + 具体事实（论据）",
+      "common_mistakes": [
+        "标签化评价：只用“好人”或“坏人”来简单概括。",
+        "脱离文本：评价时空喊口号，没有结合书中的具体事例。"
+      ],
+      "tips": "关注人物在“两难境地”下的选择，那是性格最闪光的时刻。"
+    },
+    {
+      "point": "对比翻译法与语言特色",
+      "core_concept": "不同的译本会产生不同的阅读感受。通过对比同一段文字在不同译本中的选词（如动词的力度、口语化的程度），可以体会翻译家对原著语境的理解，感受文学语言的丰富性和张力。同时，也包括对具有地方文化特色语言的品读。",
+      "key_formula": "对比 = 词语替换后的语境感受差异",
+      "common_mistakes": [
+        "忽视语境：认为所有的翻译都一样，只关注故事情节而忽略语言美感。",
+        "理解浅表：无法说出不同表达方式优劣的原因。"
+      ],
+      "tips": "朗读不同的译文片段，语感会告诉你哪种表达更有生命力。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学六年级上册",
+  "unit": "位置与方向（二）",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元位置与方向(二)单元达标测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "在描述位置时，‘北偏东 30 度’和‘东偏北 30 度’表达的是同一个方向。",
+        "options": [],
+        "answer": "错",
+        "explanation": "北偏东 30 度是以正北为起始边向东旋转 30 度，其与正东方向的夹角是 60 度；而东偏北 30 度是以正东为起始边向北旋转 30 度。两者不重合。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "确定一个物体的位置，只需知道它相对于观测点的方向即可。",
+        "options": [],
+        "answer": "错",
+        "explanation": "确定位置需要两个要素：方向和距离，缺一不可。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "观测点的相对性",
+        "question": "如果甲在乙的南偏西 30 度方向，那么乙就在甲的北偏东 30 度方向。",
+        "options": [],
+        "answer": "对",
+        "explanation": "位置具有相对性。方向相反（南对北，西对东），角度保持不变。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "小明向东走 100 米，再向北走 100 米，他现在的位置在出发点的东北方向。",
+        "options": [],
+        "answer": "对",
+        "explanation": "向东再向北，合成位移在东北方向。验证：$90\\div2 = 45$ 度，即北偏东 45 度或东偏北 45 度。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "走同一段路，去时是北偏西 40 度，回来时就应该是南偏西 40 度。",
+        "options": [],
+        "answer": "错",
+        "explanation": "回来时的方向与去时完全相反。北的相反是南，西的相反是东，故应为南偏东 40 度。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "以学校为观测点，小明家在北偏东 30 度方向上。那么描述这个方向还可以说是：",
+        "options": [
+          "东偏北 30 度",
+          "东偏北 60 度",
+          "南偏西 30 度",
+          "西偏北 60 度"
+        ],
+        "answer": "东偏北 60 度",
+        "explanation": "直角为 90 度。北偏东 30 度即 $90 - 30 = 60$ 度，即东偏北 60 度。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "某潜水艇在雷达扫描图上的位置是北偏西 40 度，距离 500 米。如果要在图上画出来，主要需要哪两个工具？",
+        "options": [
+          "量角器和直尺",
+          "圆规和直尺",
+          "量角器和三角板",
+          "放大镜和直尺"
+        ],
+        "answer": "量角器和直尺",
+        "explanation": "量角器用于确定 40 度角的方向，直尺用于根据比例尺确定 500 米的图上距离。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "气象台观测到一颗气象卫星在气象台的东偏南 20 度偏向。请问这颗卫星相对于气象台的角度如果是从正南起算，应描述为：",
+        "options": [
+          "南偏西 20 度",
+          "南偏东 20 度",
+          "南偏东 70 度",
+          "南偏西 70 度"
+        ],
+        "answer": "南偏东 70 度",
+        "explanation": "东偏南 20 度与南偏东的角度互余。$90 - 20 = 70$ 度，所以是南偏东 70 度。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观测点的相对性",
+        "question": "如果 A 城市在 B 城市的南偏东 25 度方向，则 B 城市在 A 城市的：",
+        "options": [
+          "北偏西 25 度",
+          "北偏东 25 度",
+          "南偏西 25 度",
+          "南偏东 25 度"
+        ],
+        "answer": "北偏西 25 度",
+        "explanation": "观测点从 B 变为 A，方向刚好相反。南变北，东变西，度数不变，故为北偏西 25 度。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "在平面图上，通常用哪种方式表示实际距离？",
+        "options": [
+          "分度盘",
+          "长度单位",
+          "比例尺",
+          "指南针"
+        ],
+        "answer": "比例尺",
+        "explanation": "比例尺是表示图上距离比实际距离缩小的程度。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "小红从家出发向正东走 200 米到达超市。如果她从超市回航，应该向哪个方向走？",
+        "options": [
+          "正东",
+          "正南",
+          "正西",
+          "正北"
+        ],
+        "answer": "正西",
+        "explanation": "东的相反方向是西。返回原点需要走完全相反的方向。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "从车站出发，先向东偏北 20 度走 3 站，再向北走 2 站。这段路程一共有几个观测点变化？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "2个",
+        "explanation": "第一个观测点是车站，第二个观测点是转弯处（东偏北 3 站后的位置）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "如果 1 厘米代表 100 米。要在图上表示 400 米的实际距离，应画多少厘米？",
+        "options": [
+          "1 ",
+          "2 ",
+          "4 ",
+          "40 "
+        ],
+        "answer": "4 ",
+        "explanation": "$400 \\div 100 = 4$（厘米）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "小明跑步路线：起点向正北跑 3 千米，再向正东跑 4 千米。起点与终点的直线距离是：",
+        "options": [
+          "3 千米",
+          "4 千米",
+          "5 千米",
+          "7 千米"
+        ],
+        "answer": "5 千米",
+        "explanation": "根据勾股定理（直角三角形）：$3^2 + 4^2 = 9 + 16 = 25 = 5^2$。故距离为 5 千米。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "地图通常按照什么规律绘制？",
+        "options": [
+          "上南下北",
+          "上西下东",
+          "上北下南",
+          "左东右西"
+        ],
+        "answer": "上北下南",
+        "explanation": "地图上的标准方向通常是上北、下南、左西、右东。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "A 在 B 的北偏东 45 度方向。那么也可以说 A 在 B 的：",
+        "options": [
+          "正北方向",
+          "正东方向",
+          "东北方向",
+          "西北方向"
+        ],
+        "answer": "东北方向",
+        "explanation": "北偏东 45 度所在的射线恰好平分北和东的夹角，即东北方向。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "观测点的相对性",
+        "question": "敌舰在我国雷达站的南偏西 35 度方向，距离 20 海里。我方母舰在敌舰的南偏西 35 度方向。则雷达站在我方母舰的：",
+        "options": [
+          "北偏东 35 度",
+          "北偏西 35 度",
+          "南偏东 35 度",
+          "无法判断"
+        ],
+        "answer": "北偏东 35 度",
+        "explanation": "如果 A 在 B 的某个方向，B 在 C 的同一个方向，则 A 在 C 的该方向延长线上。由于每次都是相对方向相反，总体反向叠加仍遵循“南对北、西对东”的逻辑。此处雷达站在母舰的反方向。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "小东向北走 50 米，又掉头向南走 20 米。他现在离起点多少米？",
+        "options": [
+          "70",
+          "30",
+          "50",
+          "20"
+        ],
+        "answer": "30",
+        "explanation": "$50 - 20 = 30$（米）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "在一张地图上，用 2 厘米表示实际距离 10 千米。那么 1 厘米表示 ___ 千米。",
+        "options": [],
+        "answer": "5",
+        "explanation": "列式：$10 \\div 2 = 5$（千米）。验算：$5 \\times 2 = 10$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "小明向东走了 150 米，随后又向西走了 150 米。他现在离起点 ___ 米。",
+        "options": [],
+        "answer": "0",
+        "explanation": "向东走为正，向西走为负：$150 - 150 = 0$。或者理解为回到了原点。验算：$0 + 150 = 150$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "小强跑步，从家出发向南跑了 800 米，休息后再向北跑 1000 米。此时他家在小强南面 ___ 米处。",
+        "options": [],
+        "answer": "200",
+        "explanation": "小强跑出的总位移：向北 $1000 - 800 = 200$ 米。所以此时小强在家北面 200 米处。家就在小强的正南 200 米处。验算：$1000 - 200 = 800$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "计算：$45 + 45 = ?$",
+        "options": [],
+        "answer": "90",
+        "explanation": "$45 + 45 = 90$。验算：$90 - 45 = 45$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "计算：$180 - 60 = ?$",
+        "options": [],
+        "answer": "120",
+        "explanation": "$180 - 60 = 120$。这个计算常用于补角计算。验算：$120 + 60 = 180$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级上册数学第二单元综合测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "只要有方向，无论距离多远，都能准确找到目的地。",
+        "options": [],
+        "answer": "错",
+        "explanation": "描述位置必须具备方向和距离两个要素，否则无法确定具体点。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "观测点的相对性",
+        "question": "小明在小红的东偏北 20 度，则小红在小明的北偏东 20 度。",
+        "options": [],
+        "answer": "错",
+        "explanation": "相对方向应为南偏西 20 度。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "在描述路线时，每经过一个标志点，观测点都会发生改变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "描述行走路线是分段进行的，每一段的起点就是当前的观测点。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "比例尺 1:1000 表示图上 1 厘米等于实际 10 米。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1 厘米的 1000 倍是 1000 厘米，即 10 米。验算：$1000 \\text{ cm} = 10 \\text{ m}$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "如果从 A 到 B 先向北走 100 米，再向东走 100 米。那么从 B 到 A 直接走直线，应该向南偏西 45 度走。",
+        "options": [],
+        "answer": "对",
+        "explanation": "A 在 B 的西偏南 45 度（或南偏西 45 度）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "一个物体在观测点北偏西 70 度方向，也就是在观测点的：",
+        "options": [
+          "西偏北 20 度",
+          "西偏北 70 度",
+          "北偏东 20 度",
+          "南偏东 70 度"
+        ],
+        "answer": "西偏北 20 度",
+        "explanation": "$90 - 70 = 20$ 度，所以北偏西 70 度等同于西偏北 20 度。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "已知图书馆在学校的东偏北 35 度方向，则图书馆与正北方向的夹角是：",
+        "options": [
+          "35度",
+          "45度",
+          "55度",
+          "65度"
+        ],
+        "answer": "55度",
+        "explanation": "$90 - 35 = 55$ 度。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "学校在公园的正南方向 500 米，超市在公园的正北方向 300 米，超市在学校的：",
+        "options": [
+          "正北 800 米",
+          "正南 800 米",
+          "正北 200 米",
+          "正南 200 米"
+        ],
+        "answer": "正北 800 米",
+        "explanation": "以公园为 0 点，超市在 +300，学校在 -500。距离为 $300 - (-500) = 800$ 米，方向是北方。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观测点的相对性",
+        "question": "小红看小兰在东偏南 40 度方向上，则小兰看小红在什么方向上？",
+        "options": [
+          "西偏南 40 度",
+          "西偏北 40 度",
+          "东偏北 40 度",
+          "南偏东 40 度"
+        ],
+        "answer": "西偏北 40 度",
+        "explanation": "东对西，南对北，角度不变。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "有一幅比例尺为 1:200000 的地图，图上 5 厘米代表实际距离多少千米？",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "100"
+        ],
+        "answer": "10",
+        "explanation": "$5 \\times 200000 = 1000000$ 厘米 $= 10$ 千米。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "某人先向东走 40 米，再向南走 30 米。他离起点的距离是：",
+        "options": [
+          "70 米",
+          "50 米",
+          "10 米",
+          "40 米"
+        ],
+        "answer": "50 米",
+        "explanation": "勾股定理：$30^2 + 40^2 = 50^2$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观测点的相对性",
+        "question": "当你在划船时，发现灯塔在你的北偏东 60 度。如果你向灯塔划去，灯塔始终在你的前方，那么你现在的船在灯塔的：",
+        "options": [
+          "南偏西 60 度",
+          "南偏东 60 度",
+          "北偏西 60 度",
+          "北偏东 60 度"
+        ],
+        "answer": "南偏西 60 度",
+        "explanation": "物体位置的相对性。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "一辆车向北偏东 45 度方向行驶了 10 公里。若要回到原点，应该：",
+        "options": [
+          "南偏西 45 度走 10 公里",
+          "北偏西 45 度走 10 公里",
+          "南偏东 45 度走 10 公里",
+          "正西走 10 公里"
+        ],
+        "answer": "南偏西 45 度走 10 公里",
+        "explanation": "返回原点需走相反方向。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "在描述一个位置时，为了更精确，通常把角度控制在多少度以内？",
+        "options": [
+          "30",
+          "45",
+          "60",
+          "90"
+        ],
+        "answer": "45",
+        "explanation": "通常使用较小的角（0-45度）来描述，如东偏北 30 度而不是北偏东 60 度，但这只是习惯。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "在地图上，甲乙两地的图上距离是 10 厘米，已知实际距离是 500 米。这地图的比例尺是：",
+        "options": [
+          "1:50",
+          "1:5000",
+          "1:500",
+          "1:50000"
+        ],
+        "answer": "1:5000",
+        "explanation": "500 米 = 50000 厘米。$10 : 50000 = 1 : 5000$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "从学校去少年宫，先向东偏北 30 度走 400 米，再向东走 200 米。返回时，应先向哪走？",
+        "options": [
+          "正西走 200 米",
+          "西偏南 30 度走 400 米",
+          "正西走 400 米",
+          "东偏北 30 度走 200 米"
+        ],
+        "answer": "正西走 200 米",
+        "explanation": "返回时路线步骤完全逆序且方向相反。最后一步是向东，所以返回第一步是向西。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "机器人从原点出发，先向北走 1 米，再向东走 1 米，再向南走 1 米。这时它在原点的：",
+        "options": [
+          "正东 1 米",
+          "正西 1 米",
+          "正南 1 米",
+          "回到原点"
+        ],
+        "answer": "正东 1 米",
+        "explanation": "北和南抵消，只剩下向东 1 米。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "小明面向正北。他向右转 120 度后，面向的是：",
+        "options": [
+          "东偏南 30 度",
+          "北偏东 60 度",
+          "南偏东 60 度",
+          "东偏南 60 度"
+        ],
+        "answer": "东偏南 30 度",
+        "explanation": "向右转（顺时针）90 度是正东，再转 $120 - 90 = 30$ 度，即东偏南 30 度。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "在比例尺 1:500 的一张图纸上，一个建筑的长度画了 8 厘米。这个建筑的实际长度是 ___ 米。",
+        "options": [],
+        "answer": "40",
+        "explanation": "实际距离 = $8 \\times 500 = 4000$（厘米）。$4000$ 厘米 $= 40$ 米。验算：$40 \\div 8 = 5$（米/厘米）✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "指南针上，南和东两个方向之间的夹角是 ___ 度。",
+        "options": [],
+        "answer": "90",
+        "explanation": "四个主要方向两两垂直。验算：$360 \\div 4 = 90$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "一只蚂蚁先向正北爬了 12 厘米，再向正东爬了 5 厘米。这只蚂蚁离出发点直线距离是 ___ 厘米。",
+        "options": [],
+        "answer": "13",
+        "explanation": "利用勾股定理：$12^2 + 5^2 = 144 + 25 = 169$。$13 \\times 13 = 169$。故距离 13 厘米。验算：$169 - 25 = 144$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述简单的行走路线",
+        "question": "计算：$200 + 300 = ?$",
+        "options": [],
+        "answer": "500",
+        "explanation": "$200 + 300 = 500$。验算：$500 - 300 = 200$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据方向和距离确定位置",
+        "question": "计算：$90 - 35 = ?$",
+        "options": [],
+        "answer": "55",
+        "explanation": "$90 - 35 = 55$。用于计算余角。验算：$55 + 35 = 90$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "根据方向和距离确定位置",
+      "core_concept": "利用方向和距离这两个量可以确定物体在平面上的准确位置。描述时先确定观测点（中心点），再指出物体在观测点的哪个方位角（如北偏东多少度）以及距离中心点多远。这就像给每个点一个‘坐标’。",
+      "key_formula": "$方向 + 角度 + 距离 = 位置$",
+      "common_mistakes": [
+        "混淆起始边：例如将‘北偏东 30 度’画成‘东偏北 30 度’。",
+        "忽略比例尺：在图上标注位置时直接标注实际公里数而不是转换后的厘米数。"
+      ],
+      "tips": "量角时，把量角器的中心对准观测点，0刻度线对准起始方向（如正北或正东）。"
+    },
+    {
+      "point": "描述简单的行走路线",
+      "core_concept": "描述行走路线要把全过程分成若干段，每段都要说清是从哪里出发、向什么方向、走多远。当到达一个新点时，要把这个新点看作新的观测点来描述下一段。",
+      "key_formula": "$行走路线描述：点 A \\xrightarrow{方向+距离} 点 B \\xrightarrow{方向+距离} 点 C$",
+      "common_mistakes": [
+        "返回时方向没变：没意识到回程的方向应与去程完全相反。",
+        "观测点混淆：在描述第二段路程时，仍然以第一段的起点为参考物。"
+      ],
+      "tips": "可以口诀记忆：‘找起点，看方向，量角度，算距离’。返回描述时，逆推路线，方向取反。"
+    },
+    {
+      "point": "观测点的相对性",
+      "core_concept": "位置是相对的。当观测点交换时，描述这两个物体的方向是相互对应的。如果甲在乙的北偏西方向，那么乙一定在甲的南偏东方向，角度大小保持一致。",
+      "key_formula": "$A \\text{在} B → B ↔ A (方向互反, 角度不变, 距离相等)$",
+      "common_mistakes": [
+        "交换观测点时连同角度也一起改变（如 30 度改写为 60 度）。",
+        "只改变‘北/南’而忘了改变‘东/西’。"
+      ],
+      "tips": "记住‘反义词对’：北对南、南对北、东对西、西对东。角度就像影子，观测点一换，影子的方向变了，但长短（角度）没变。"
+    }
+  ]
+}

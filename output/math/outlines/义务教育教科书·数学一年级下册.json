@@ -1,0 +1,282 @@
+{
+  "textbook": "一年级下册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "认识图形（二）",
+      "knowledge_points": [
+        {
+          "name": "平面图形的辨认",
+          "description": "认识长方形、正方形、平行四边形、三角形和圆，并能从立体图形表面提取平面图形。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择",
+            "连线/匹配",
+            "操作题"
+          ]
+        },
+        {
+          "name": "平面图形的拼组与拆分",
+          "description": "通过对折、剪开、拼摆等活动，发现图形间的转换关系（如两个三角形拼成平行四边形）。",
+          "difficulty": 2,
+          "question_types": [
+            "操作题",
+            "填空",
+            "画图"
+          ]
+        },
+        {
+          "name": "七巧板的综合应用",
+          "description": "利用七巧板的7块板拼组出规则图形及各种抽象图案，培养空间想象力。",
+          "difficulty": 3,
+          "question_types": [
+            "操作题",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "20以内的退位减法",
+      "knowledge_points": [
+        {
+          "name": "十几减9、8、7、6的计算方法",
+          "description": "掌握“破十法”和“想加算减法”，能正确流利地口算退位减法。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "十几减5、4、3、2的推导计算",
+          "description": "利用迁移类推的方法，掌握被减数个位较小的退位减法速算。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "排序/比较",
+            "填空"
+          ]
+        },
+        {
+          "name": "解决问题（求剩余、求差）",
+          "description": "理解减法的实际意义，区分总数减部分及两个量对比多与少的应用场景。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "分类与整理",
+      "knowledge_points": [
+        {
+          "name": "单一标准的分类统计",
+          "description": "根据给定的形状或颜色等标准对事物进行分类，并用简单表格展示数量。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "不同标准的对比分类",
+          "description": "体验同一组事物按不同标准（如男女性别或大人小孩）分类会得到不同结果。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "数据的简单分析与记录",
+          "description": "根据分类后的数据表进行简单的比较，回答“谁多谁少”等基础分析问题。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "100以内数的认识",
+      "knowledge_points": [
+        {
+          "name": "100以内数的数数与组成",
+          "description": "理解计数单位“十”和“百”，掌握几十由几个十组成，能正确数出拐弯数。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "数的读法、写法与位值意义",
+          "description": "理解个位、十位、百位的排列，掌握从高位起读写数的方法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "判断",
+            "操作题"
+          ]
+        },
+        {
+          "name": "100以内数的大小比较与描述",
+          "description": "掌握比较规则，并能用“多一些、多得多、少一些、少得多”描述数的关系。",
+          "difficulty": 3,
+          "question_types": [
+            "排序/比较",
+            "填空",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "认识人民币",
+      "knowledge_points": [
+        {
+          "name": "面值的识别与单位进率",
+          "description": "认识元、角、分各面值人民币，掌握1元=10角，1角=10分的换算。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "连线/匹配",
+            "选择"
+          ]
+        },
+        {
+          "name": "人民币单位的简单换算",
+          "description": "能够进行单名数与复名数之间的转化（如1元2角等于12角）。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "人民币的加减运算与购物应用",
+          "description": "解决买东西时找零、求总价、求差价等实际计算问题。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "口算"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "100以内的加法和减法（一）",
+      "knowledge_points": [
+        {
+          "name": "整十数加减及两位数加减一位数(不进位/不退位)",
+          "description": "利用计数单位相同直接相加减的原理，在相同数位上进行计算。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "两位数加一位数的进位加法",
+          "description": "个位满十向十位进一，理解“凑十法”及其计算步骤。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空",
+            "操作题"
+          ]
+        },
+        {
+          "name": "含小括号的混合运算",
+          "description": "明确括号在算式中的作用，掌握带有括号的算式先算括号内的运算顺序。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "判断",
+            "排序/比较"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "找规律",
+      "knowledge_points": [
+        {
+          "name": "简单图形和动作的循环规律",
+          "description": "通过观察发现图形、颜色、动作等以固定次序重复出现的模式。",
+          "difficulty": 2,
+          "question_types": [
+            "画图",
+            "填空",
+            "操作题"
+          ]
+        },
+        {
+          "name": "等差递增与递减的数字规律",
+          "description": "发现数列中相邻两数之间相差固定数值的排列规律。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "规律的分析与补全",
+          "description": "在残缺或复合情境（如手链缺失、百数表空缺）中推导出特定的值。",
+          "difficulty": 4,
+          "question_types": [
+            "规律探索",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "100以内加减法综合运算技能",
+          "description": "系统梳理进位加、退位减及连加连减的计算方法，提高口算精度。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "全册图形与量、分类统计知识整合",
+          "description": "综合复习认识图形、人民币换算及分类统计的知识点。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "复杂情境下的综合应用题解决",
+          "description": "分析实际生活中的数量关系（如连续上下车、购物计算等），建立数学模型。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题"
+          ]
+        }
+      ]
+    }
+  ]
+}

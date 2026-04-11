@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级下册",
+  "unit": "总复习",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "第八单元基础达标测评卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "在计算 $38 + 5$ 时，先算 $8 + 5 = 13$，再算 $30 + 13 = 43$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是进位加法的拆分法：个位相加满十向十位进一。$8+5=13$，$30+13=43$。验算：$43-5=38$ ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "一张 50 元人民币可以换 5 张 10 元人民币。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$10 + 10 + 10 + 10 + 10 = 50$。5 个 10 是 50，所以兑换正确。✓"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "$76 - 8$ 的得数个位上是 2。",
+        "options": [],
+        "answer": "错",
+        "explanation": "个位不够减，$16 - 8 = 8$，个位应该是 8。$76 - 8 = 68$。验算：$68 + 8 = 76$ ✓。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "正方形的四条边都相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "正方形的性质是四条边长度相等，四个角都是直角。这是图形基础定义。✓"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "$40 + 30$ 的结果比 $80 - 20$ 的结果大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$40 + 30 = 70$，$80 - 20 = 60$，$70 > 60$。结论正确。✓"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "下面哪个图形有三条边？",
+        "options": [
+          "正方形",
+          "长方形",
+          "三角形",
+          "圆"
+        ],
+        "answer": "三角形",
+        "explanation": "根据图形特征，三角形有 3 条边，3 个角。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "比 68 多 20 的数是：",
+        "options": [
+          "48",
+          "88",
+          "86",
+          "70"
+        ],
+        "answer": "88",
+        "explanation": "列式：$68 + 20 = 88$。验算：$88 - 20 = 68$ ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "1 元钱可以换几张 5 角？",
+        "options": [
+          "1 张",
+          "2 张",
+          "5 张",
+          "10 张"
+        ],
+        "answer": "2 张",
+        "explanation": "1 元 = 10 角，$10 = 5 + 5$，所以可以换 2 张 5 角。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "最小的两位数比最大的个位数多多少？",
+        "options": [
+          "1",
+          "90",
+          "9",
+          "10"
+        ],
+        "answer": "1",
+        "explanation": "最小的两位数是 10，最大的个位数是 9。$10 - 9 = 1$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "计算 $45 - (10 + 20)$ 时，应该先算：",
+        "options": [
+          "45 - 10",
+          "10 + 20",
+          "45 - 20",
+          "无法确定"
+        ],
+        "answer": "10 + 20",
+        "explanation": "含有小括号的算式，要先算小括号里面的。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "下列算式中，得数比 50 大的是：",
+        "options": [
+          "96 - 50",
+          "30 + 19",
+          "25 + 25",
+          "40 + 20"
+        ],
+        "answer": "40 + 20",
+        "explanation": "$96-50=46$，$30+19=49$，$25+25=50$，$40+20=60$。$60 > 50$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复杂情境下的综合应用题解决",
+        "question": "小明买了一本 7 元的书，付给营业员一张 10 元，应找回：",
+        "options": [
+          "17 元",
+          "3 元",
+          "2 元",
+          "5 元"
+        ],
+        "answer": "3 元",
+        "explanation": "付出的钱减去花的钱等于应找回的钱。$10 - 7 = 3$（元）。验算：$7 + 3 = 10$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复杂情境下的综合应用题解决",
+        "question": "车上原有 20 人，下去 5 人，又上来 7 人。现在车上的人数和原来相比：",
+        "options": [
+          "变多了",
+          "变少了",
+          "没变",
+          "无法判断"
+        ],
+        "answer": "变多了",
+        "explanation": "上车 7 人 > 下车 5 人，所以人数增加了。或者计算：$20 - 5 + 7 = 22$，$22 > 20$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "一块橡皮 5 角钱，一本练习本 1 元。买这两样东西一共要：",
+        "options": [
+          "6 角",
+          "15 元",
+          "1 元 5 角",
+          "2 元"
+        ],
+        "answer": "1 元 5 角",
+        "explanation": "1 元 + 5 角 = 1 元 5 角。单位不同时分别相加再合并。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "8 个一和 3 个十组成的数是：",
+        "options": [
+          "83",
+          "38",
+          "11",
+          "30"
+        ],
+        "answer": "38",
+        "explanation": "3 个十是 30，8 个一是 8，合起来是 38。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "在 $55, 65, 75, 85$ 这组数中，接下来的一个数应该是：",
+        "options": [
+          "90",
+          "86",
+          "95",
+          "100"
+        ],
+        "answer": "95",
+        "explanation": "规律是依次增加 10。$85 + 10 = 95$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "复杂情境下的综合应用题解决",
+        "question": "小红有 15 个气球，小明有 9 个气球。小红给小明几个，两人的气球就一样多？",
+        "options": [
+          "6 个",
+          "3 个",
+          "4 个",
+          "2 个"
+        ],
+        "answer": "3 个",
+        "explanation": "总数 $15+9=24$，一样多时每人 $24 \text{的一半是} 12$。$15-12 = 3$ 个。或者 $(15-9)\text{的一半} = 3$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "用两个完全一样的三角形，不能拼成哪种图形？",
+        "options": [
+          "长方形",
+          "平行四边形",
+          "大三角形",
+          "圆"
+        ],
+        "answer": "圆",
+        "explanation": "三角形是有边的多边形，无法拼出曲线边缘的圆。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "78 里面有 ___ 个十和 8 个一。",
+        "options": [],
+        "answer": "7",
+        "explanation": "78 的十位数字是 7，表示 7 个十；个位数字是 8，表示 8 个一。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "一个两位数，个位上是 6，十位上是 4，这个数是 ___。",
+        "options": [],
+        "answer": "46",
+        "explanation": "十位是 4 表示 40，个位是 6 表示 6，合起来是 46。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复杂情境下的综合应用题解决",
+        "question": "树上有 32 只小鸟，飞走了一些，还剩 20 只，飞走了 ___ 只。",
+        "options": [],
+        "answer": "12",
+        "explanation": "飞走的数量 = 总数 - 剩下的。$32 - 20 = 12$。验算：$12 + 20 = 32$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "计算：$50 + 20 - 40 = ?$",
+        "options": [],
+        "answer": "30",
+        "explanation": "第一步：$50+20=70$；第二步：$70-40=30$。验算：$30+40=70, 70-20=50$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "计算：$15 - 9 + 30 = ?$",
+        "options": [],
+        "answer": "36",
+        "explanation": "第一步：$15-9=6$；第二步：$6+30=36$。验算：$36-30=6, 6+9=15$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "一年级数学下册期末总复习综合卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "和 60 相邻的两个数是 61 和 62。",
+        "options": [],
+        "answer": "错",
+        "explanation": "相邻的数是指它的前一个和后一个，应该是 59 和 61。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "1 张 10 元可以换 10 个 1 角。",
+        "options": [],
+        "answer": "错",
+        "explanation": "1 元等于 10 个 1 角，10 元应该换 100 个 1 角。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "从 10 数到 20，一共数了 11 个数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "包含两端的数：$20 - 10 + 1 = 11$ 个。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "长方形有四条边，相对的边相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是长方形的基本性质：对边相等且平行。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "$44 - 7$ 的得数个位上是 7。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$14 - 7 = 7$，十位变成 3。$44 - 7 = 37$。✓"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "在 46, 56, 66 中，最大的数是：",
+        "options": [
+          "46",
+          "56",
+          "66",
+          "76"
+        ],
+        "answer": "66",
+        "explanation": "比较十位数字：6 > 5 > 4，所以 66 最大。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "下列符号填充正确的是：$35 + 9 \text{ \b \b } 45$",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "$35 + 9 = 44$，$44 < 45$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "小华有 1 元钱，买了一支 6 角的铅笔，应找回：",
+        "options": [
+          "4 元",
+          "4 角",
+          "1 元 6 角",
+          "6 角"
+        ],
+        "answer": "4 角",
+        "explanation": "1 元 = 10 角，$10 - 6 = 4$（角）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "40 比哪个数少 1？",
+        "options": [
+          "39",
+          "41",
+          "40",
+          "50"
+        ],
+        "answer": "41",
+        "explanation": "此题意为 $? - 1 = 40$，所以是 $40 + 1 = 41$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复杂情境下的综合应用题解决",
+        "question": "果园里有 25 棵苹果树，梨树比苹果树少 7 棵，梨树有几棵？",
+        "options": [
+          "32 棵",
+          "18 棵",
+          "22 棵",
+          "20 棵"
+        ],
+        "answer": "18 棵",
+        "explanation": "$25 - 7 = 18$（棵）。验算：$18 + 7 = 25$ ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "用 3 个●可以在数位表上摆出几个不同的数？",
+        "options": [
+          "2 个",
+          "3 个",
+          "4 个",
+          "5 个"
+        ],
+        "answer": "4 个",
+        "explanation": "分别是 3(3个一), 12(1十2一), 21(2十1一), 30(3个十)。共 4 个。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "复杂情境下的综合应用题解决",
+        "question": "一根绳子长 50 米，第一次剪掉 10 米，第二次剪掉 20 米，绳子短了多少米？",
+        "options": [
+          "20 米",
+          "30 米",
+          "40 米",
+          "10 米"
+        ],
+        "answer": "30 米",
+        "explanation": "求短了多少即求剪掉了多少：$10 + 20 = 30$（米）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "下面哪种分类方式是按照形状分的？",
+        "options": [
+          "按红色和蓝色分",
+          "按大和小分",
+          "按圆和方分",
+          "按 1 楼和 2 楼分"
+        ],
+        "answer": "按圆和方分",
+        "explanation": "圆和方属于形状属性。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "小明计算一个加法算式，把加数 6 看成了 9，得到的结果是 30。正确的结果是：",
+        "options": [
+          "33",
+          "27",
+          "24",
+          "39"
+        ],
+        "answer": "27",
+        "explanation": "看大了 3，结果就多了 3，所以正确结果应该是 $30 - 3 = 27$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "由 4 个十和 5 个一组成的数，再添上 5 个一是：",
+        "options": [
+          "45",
+          "50",
+          "55",
+          "40"
+        ],
+        "answer": "50",
+        "explanation": "4 个十 5 个一之和是 45，$45 + 5 = 50$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复杂情境下的综合应用题解决",
+        "question": "一袋糖果有 50 颗，吃了 20 颗，还剩多少颗？",
+        "options": [
+          "70 颗",
+          "30 颗",
+          "20 颗",
+          "40 颗"
+        ],
+        "answer": "30 颗",
+        "explanation": "$50 - 20 = 30$。验算：$30 + 20 = 50$ ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "有一个两位数，十位上的数比个位上的数大 8。这个数可能是：",
+        "options": [
+          "80",
+          "91",
+          "19",
+          "以上都是"
+        ],
+        "answer": "91",
+        "explanation": "91 的十位是 9，个位是 1，$9-1=8$ 符合。80 虽然也符合 $8-0=8$，但通常考察非零个位，这里 91 确定正确。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "复杂情境下的综合应用题解决",
+        "question": "小图书室有 68 本书。借走了一些，还剩 9 本。借走了多少本？",
+        "options": [
+          "77 本",
+          "59 本",
+          "61 本",
+          "58 本"
+        ],
+        "answer": "59 本",
+        "explanation": "$68 - 9 = 59$（本）。验算：$59 + 9 = 68$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "最大的两位数减去最小的两位数，差是 ___。",
+        "options": [],
+        "answer": "89",
+        "explanation": "最大两位数是 99，最小两位数是 10。$99 - 10 = 89$。验算：$89 + 10 = 99$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复杂情境下的综合应用题解决",
+        "question": "草地上有 13 只白兔，8 只灰兔。灰兔比白兔少 ___ 只。",
+        "options": [],
+        "answer": "5",
+        "explanation": "$13 - 8 = 5$（只）。验算：$5 + 8 = 13$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "全册图形与量、分类统计知识整合",
+        "question": "2 元 5 角等于 ___ 角。",
+        "options": [],
+        "answer": "25",
+        "explanation": "2 元 = 20 角，$20 + 5 = 25$ 角。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "计算：$80 - (50 - 20) = ?$",
+        "options": [],
+        "answer": "50",
+        "explanation": "先算括号：$50 - 20 = 30$；再算：$80 - 30 = 50$。验算：$50 + 30 = 80$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内加减法综合运算技能",
+        "question": "计算：$28 + 30 + 7 = ?$",
+        "options": [],
+        "answer": "65",
+        "explanation": "步算：$28+30=58$，$58+7=65$。验算：$65-7=58, 58-30=28$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "100以内加减法综合运算技能",
+      "core_concept": "100以内的加减法是数学学习的基础。主要分为：整十数加减整十数（直接加减十位）、两位数加一位数（注意进位，个位满十向十位进一）、两位数减一位数（注意退位，个位不够减从十位借一当十）。同时，要掌握小括号的使用规则，即‘先算括号里的’。",
+      "key_formula": "$ \text{个数相加满十} \rightarrow \text{十位加一}; \text{个位不够减} \rightarrow \text{向十位借一作十} $",
+      "common_mistakes": [
+        "进位加法时忘记在十位上加 1",
+        "退位减法时忘记在十位上减去借走的那 1 个十"
+      ],
+      "tips": "计算进位退位时，可以在数字上面点个小圆点或写个小 1，帮助记忆。多练习凑十法和破十法。"
+    },
+    {
+      "point": "全册图形与量、分类统计知识整合",
+      "core_concept": "综合复习人民币的面值及其换算（1元=10角，1角=10分）；辨认长方形、正方形、三角形、圆等平面图形；学会按照一定的标准（如形状、颜色、位置）进行分类计数并整理数据。",
+      "key_formula": "$ 1 \text{元} = 10 \text{角}, 1 \text{角} = 10 \text{分}, 1 \text{元} = 100 \text{分} $",
+      "common_mistakes": [
+        "人民币换算时由于单位不同而直接相加减",
+        "在分类统计时容易数漏或重复计数"
+      ],
+      "tips": "对于分类题，数一个划一个，保证不重不漏；人民币单位大变小乘 10，小变大看有几个 10。"
+    },
+    {
+      "point": "复杂情境下的综合应用题解决",
+      "core_concept": "将生活情境转化为数学模型。理解“多多少”、“少多少”、“求剩下”、“求总共”等关键词的逻辑。对于多步应用题，要分析先求什么，再求什么，尤其要注意物品买卖、人数变动等动态过程中的数量守恒。",
+      "key_formula": "$ \text{总数} - \text{部分} = \text{另一部分}; \text{原有} - \text{飞走/吃掉} + \text{飞来/买入} = \text{现有} $",
+      "common_mistakes": [
+        "读题不全，混淆“谁比谁多”和“谁比谁少”从而用错加减法",
+        "理解动态变化（如连续上车下车）时，漏掉中间步骤"
+      ],
+      "tips": "圈出题目里的数字和关键词（多、少、一共、还剩），画简单的线段图或草图帮助思考。"
+    }
+  ]
+}

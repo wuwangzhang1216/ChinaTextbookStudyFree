@@ -1,0 +1,707 @@
+{
+  "textbook": "人教版小学数学六年级下册",
+  "unit": "比例",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元：比例·单元标准达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "如果 $4a = 5b$（$a,b$ 均不为 0），那么 $a:b = 4:5$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据比例的基本性质，内项积等于外项积。如果 $a:b = 4:5$，则 $5a = 4b$。而题干给出的条件是 $4a = 5b$，对应的比例式应为 $a:b = 5:4$。验算：$4 \times a = 5 \times b$ 对应外项 $a, 4$ 和内项 $b, 5$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "正比例与反比例的判断",
+        "question": "圆的周长和它的直径成正比例关系。",
+        "options": [],
+        "answer": "对",
+        "explanation": "圆的周长公式为 $C = \text{π}d$，即 $C \times d = \text{π}$（一定）。比值一定，符合正比例定义。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "图形的放大与缩小",
+        "question": "一个正方形按 $2:1$ 放大后，它的面积也扩大到原来的 2 倍。",
+        "options": [],
+        "answer": "错",
+        "explanation": "图形按 $n:1$ 放大，边长扩大 $n$ 倍，面积扩大 $n^2$ 倍。$2 \times 2 = 4$，面积应扩大 4 倍。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "比例尺的应用",
+        "question": "比例尺是一个比，它没有单位名称。",
+        "options": [],
+        "answer": "对",
+        "explanation": "比例尺是图上距离与实际距离的比，单位统一后相除，比值不带单位。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "用比例解决问题",
+        "question": "加工零件总数一定，工作效率和工作时间成反比例。",
+        "options": [],
+        "answer": "对",
+        "explanation": "工作效率 $\times$ 工作时间 = 工作总量（一定）。乘积一定，成反比例。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "下面各比中，能与 $4:3$ 组成比例的是哪一个？",
+        "options": [
+          "$3:4$",
+          "$12:9$",
+          "$8:10$",
+          "$0.4:0.03$"
+        ],
+        "answer": "$12:9$",
+        "explanation": "$12 \times 3 = 36$，$4 \times 9 = 36$。内外项积相等，或者比值 $12 \times 9 = 4 \times 3$ 均为 $1.33$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "已知一个比例的两个外项互为倒数，其中一个内项是 5，另一个内项是多少？",
+        "options": [
+          "5",
+          "$1$",
+          "$0.2$",
+          "$25$"
+        ],
+        "answer": "$0.2$",
+        "explanation": "外项积为 1，内项积也必须为 1。$1 \times 5 = 0.2$。验算：$5 \times 0.2 = 1$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "正比例与反比例的判断",
+        "question": "三角形的面积一定，它的底和高成什么关系？",
+        "options": [
+          "正比例",
+          "反比例",
+          "不成比例",
+          "无法确定"
+        ],
+        "answer": "反比例",
+        "explanation": "$\text{底} \times \text{高} \times 2 = \text{面积}$（一定），得出 $\text{底} \times \text{高} = \text{面积} \times 2$（一定），乘积一定成反比例。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "正比例与反比例的判断",
+        "question": "下面哪个量与全班人数成正比例？",
+        "options": [
+          "出勤人数和缺勤人数",
+          "已读页数和未读页数",
+          "男生人数和女生人数",
+          "都不成比例"
+        ],
+        "answer": "都不成比例",
+        "explanation": "这些关系的共同点是“和”一定，而不是“比值”或“乘积”一定。和一定不成比例。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例尺的应用",
+        "question": "把一个长 4 毫米的零件画在图纸上长 8 厘米，这幅图的比例尺是多少？",
+        "options": [
+          "$1:2$",
+          "$1:20$",
+          "$20:1$",
+          "$2:1$"
+        ],
+        "answer": "$20:1$",
+        "explanation": "8 厘米 = 80 毫米。比例尺 = 图上距离 : 实际距离 = $80:4 = 20:1$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比例尺的应用",
+        "question": "在比例尺是 $1:5000000$ 的地图上，量得两地间距离是 6 厘米，这两地实际距离是多少千米？",
+        "options": [
+          "30",
+          "300",
+          "3000",
+          "3"
+        ],
+        "answer": "300",
+        "explanation": "$6 \times 5000000 = 30000000$ 厘米 = 300 千米。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形的放大与缩小",
+        "question": "把一个等边三角形按 $3:1$ 放大，放大后的三角形是什么三角形？",
+        "options": [
+          "等腰三角形",
+          "直角三角形",
+          "等边三角形",
+          "钝角三角形"
+        ],
+        "answer": "等边三角形",
+        "explanation": "图形的放大与缩小只改变量的大小，不改变形状，故仍为等边三角形。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "用比例解决问题",
+        "question": "小明买 3 本练习本用了 12 元。若买同样的练习本 10 本，需要多少元？",
+        "options": [
+          "30",
+          "36",
+          "40",
+          "120"
+        ],
+        "answer": "40",
+        "explanation": "单价一定，总价与数量成正比例。$12:3 = x:10$，解得 $x = 40$。验算：每本 $12 \times 3 = 4$ 元，$4 \times 10 = 40$ 元。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用比例解决问题",
+        "question": "一间教室用边长 3 分米的方砖铺地需要 400 块，若改用边长 2 分米的方砖，需要多少块？",
+        "options": [
+          "600",
+          "900",
+          "200",
+          "800"
+        ],
+        "answer": "900",
+        "explanation": "面积一定成反比例。$3^2 \times 400 = 2^2 \times x$，即 $9 \times 400 = 4x$，$x = 900$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用比例解决问题",
+        "question": "一辆汽车从甲地开往乙地，平路速度和时间成什么比例？",
+        "options": [
+          "正比例",
+          "反比例",
+          "不成比例",
+          "无法确定"
+        ],
+        "answer": "反比例",
+        "explanation": "路程 = 速度 $\times$ 时间。路程一定，速度与时间成反比例。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "在比例 $x:8 = 5:4$ 中，$x$ 的值是多少？",
+        "options": [
+          "10",
+          "12",
+          "15",
+          "6"
+        ],
+        "answer": "10",
+        "explanation": "$4x = 8 \times 5$，$4x = 40$，$x = 10$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "如果 $x = \frac{4}{5}y$，那么 $x$ 和 $y$ 的最简整数比是多少？",
+        "options": [
+          "$4:5$",
+          "$5:4$",
+          "$1:4$",
+          "$4:1$"
+        ],
+        "answer": "$4:5$",
+        "explanation": "$x = \frac{4}{5}y$ 等价于 $x:y = 4:5$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "正比例与反比例的判断",
+        "question": "比例尺一定，图上距离和实际距离成什么关系？",
+        "options": [
+          "正比例",
+          "反比例",
+          "不成比例",
+          "无法确定"
+        ],
+        "answer": "正比例",
+        "explanation": "$\text{图上距离} \times \text{实际距离} = \text{比例尺}$（一定），比值一定成正比例。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "解比例 $8:x = 2:5$，则 $x$ 等于 ___。",
+        "options": [],
+        "answer": "20",
+        "explanation": "根据比例基本性质：$2x = 8 \times 5 = 40$，解得 $x = 20$。验算：$8:20 = 0.4$，$2:5 = 0.4$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例尺的应用",
+        "question": "比例尺 $1:2000$ 表示实际距离是图上距离的 ___ 倍。",
+        "options": [],
+        "answer": "2000",
+        "explanation": "比例尺 $1:2000$ 意为图上 1 厘米代表实际 2000 厘米，即 2000 倍。验算：$2000 \times 1 = 2000$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的放大与缩小",
+        "question": "一个长方形长 5 厘米，宽 3 厘米，按 $4:1$ 放大后，新长方形的周长是 ___ 厘米。",
+        "options": [],
+        "answer": "64",
+        "explanation": "原周长为 $(5+3) \times 2 = 16$ 厘米。按 $4:1$ 放大，周长也扩大 4 倍。$16 \times 4 = 64$。验算：新长为 20，新宽为 12，$(20+12) \times 2 = 64$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "计算 $x$ 的值：$0.5 : 2 = x : 40$",
+        "options": [],
+        "answer": "10",
+        "explanation": "根据比例性质，$2x = 0.5 \times 40 = 20$，$x = 10$。验算：$10 \times 2 = 20$，$0.5 \times 40 = 20$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "计算 $x$ 的值：$\frac{x}{6} = \frac{10}{2}$",
+        "options": [],
+        "answer": "30",
+        "explanation": "交叉相乘得 $2x = 60$，$x = 30$。验算：$30 \times 2 = 6$，$6 \times 10 = 60$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级数学下册第四单元《比例》综合检测卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "正比例与反比例的判断",
+        "question": "单价一定，总价和数量成正比例。",
+        "options": [],
+        "answer": "对",
+        "explanation": "总价 / 数量 = 单价（一定），比值一定，成正比例。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "在比例中，两个内项的积与两个外项的积的差是 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "因为内项积等于外项积，所以它们的差一定是 0。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "比例尺的应用",
+        "question": "线段比例尺通常比数值比例尺更直观。",
+        "options": [],
+        "answer": "对",
+        "explanation": "线段比例尺可以直接在地图上量取并读出实际距离，不需要换算。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "图形的放大与缩小",
+        "question": "将一个长方形按 $1:3$ 缩小后，对应的长和宽的比保持不变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "图形的长和宽同时缩小相同的倍数，其比例关系不变。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "用比例解决问题",
+        "question": "路程一定，已走的路程和剩下的路程成反比例。",
+        "options": [],
+        "answer": "错",
+        "explanation": "已走距离 + 剩下距离 = 总路程（一定）。是和一定，不是乘积一定，不成比例。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "下面哪组中的两个比可以组成比例？",
+        "options": [
+          "$6:9$ 和 $9:12$",
+          "$1.4:2$ 和 $2.8:4$",
+          "$0.5:0.2$ 和 $5:20$",
+          "$1:2$ 和 $3:4$"
+        ],
+        "answer": "$1.4:2$ 和 $2.8:4$",
+        "explanation": "$1.4 \times 4 = 5.6$，$2 \times 2.8 = 5.6$，积相等。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "正比例与反比例的判断",
+        "question": "下关系中，成反比例的是哪一个？",
+        "options": [
+          "买同样的衣服，层数和总价",
+          "圆的周长和半径",
+          "看一本书，已看的页数和总页数",
+          "路程一定，速度和时间"
+        ],
+        "answer": "路程一定，速度和时间",
+        "explanation": "速度 $\times$ 时间 = 路程（一定），乘积一定成反比例。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比例尺的应用",
+        "question": "在一个比例尺是 $200:1$ 的图纸上，量得一个零件长 10 厘米，这个零件实际长多少？",
+        "options": [
+          "20 米",
+          "0.5 毫米",
+          "2 毫米",
+          "5 厘米"
+        ],
+        "answer": "0.5 毫米",
+        "explanation": "实际距离 = 图上距离 / 比例尺 = $10 / 200 = 0.05$ 厘米 = 0.5 毫米。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形的放大与缩小",
+        "question": "将一个周长 8 厘米的正方形按 $2:1$ 放大，放大后的正方形周长是多少厘米？",
+        "options": [
+          "16",
+          "32",
+          "64",
+          "8"
+        ],
+        "answer": "16",
+        "explanation": "周长放大倍数与边长比例相同。$8 \times 2 = 16$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用比例解决问题",
+        "question": "同样的砖块，铺 10 平方米要 36 块，铺 30 平方米要多少块？",
+        "options": [
+          "72",
+          "108",
+          "100",
+          "144"
+        ],
+        "answer": "108",
+        "explanation": "面积与砖块数成正比。$10:36 = 30:x$，$x = 36 \times 3 = 108$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "正比例与反比例的判断",
+        "question": "$y = 8x$ ($x$ 不为 0)，$y$ 和 $x$ 成什么比例？",
+        "options": [
+          "正比例",
+          "反比例",
+          "不成比例",
+          "无法确定"
+        ],
+        "answer": "正比例",
+        "explanation": "$y / x = 8$（一定），比值一定成正比例。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "用比例解决问题",
+        "question": "生产一批零件，原计划每天生产 30 个，12 天完成。如果要 10 天完成，每天要生产几个？",
+        "options": [
+          "36",
+          "40",
+          "25",
+          "50"
+        ],
+        "answer": "36",
+        "explanation": "总任务一定成反比。$30 \times 12 = 10 \times x$，$360 = 10x$，$x = 36$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "如果 $x:3 = 2:1$，那么 $x$ 等于多少？",
+        "options": [
+          "6",
+          "5",
+          "1",
+          "1.5"
+        ],
+        "answer": "6",
+        "explanation": "$1x = 3 \times 2 = 6$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "把 $2、3、4$ 再配上一个数组成比例，这个数不可能是多少？",
+        "options": [
+          "6",
+          "1.5",
+          "8",
+          "$2.6$"
+        ],
+        "answer": "$2.6$",
+        "explanation": "可能的情况：$2:3=4:x(x=6)$，$2:4=3:x(x=6)$，$3:2=4:x(x=2.66)$，$4:2=3:x(x=1.5)$。2.6 无法使乘积相等。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比例尺的应用",
+        "question": "实际距离 1200 千米，在地图上量得 20 厘米，这幅地图的比例尺是多少？",
+        "options": [
+          "$1:60$",
+          "$1:6000000$",
+          "$1:60000$",
+          "$1:6000$"
+        ],
+        "answer": "$1:6000000$",
+        "explanation": "1200 千米 = 120000000 厘米。$20:120000000 = 1:6000000$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "正比例与反比例的判断",
+        "question": "下列哪个量成正比例？",
+        "options": [
+          "正方形的边长和面积",
+          "正方形的边长和周长",
+          "一个人的年龄和体重",
+          "圆的面积和半径"
+        ],
+        "answer": "正方形的边长和周长",
+        "explanation": "周长/边长=4（一定），面积/边长=边长（不一定）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用比例解决问题",
+        "question": "修一条路，3 天修了 150 米。照这样计算，修完 1500 米需要多少天？",
+        "options": [
+          "30",
+          "20",
+          "45",
+          "10"
+        ],
+        "answer": "30",
+        "explanation": "工效一定，$150:3 = 1500:x$，$x = 30$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "如果 $A$ 的 $\frac{1}{3}$ 等于 $B$ 的 $\frac{1}{4}$，求 $A:B$。",
+        "options": [
+          "$3:4$",
+          "$4:3$",
+          "$1:12$",
+          "$12:1$"
+        ],
+        "answer": "$3:4$",
+        "explanation": "$\frac{1}{3}A = \frac{1}{4}B$，内项积 $\frac{1}{4}B$，外项积 $\frac{1}{3}A$，比例为 $A:B = \frac{1}{4}:\frac{1}{3} = 3:4$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例尺的应用",
+        "question": "在比例尺是 $1:4000000$ 的地图上，图上 1 厘米代表实际 ___ 千米。",
+        "options": [],
+        "answer": "40",
+        "explanation": "4000000 厘米 = 40000 米 = 40 千米。验算：$40 \times 100000 = 4000000$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用比例解决问题",
+        "question": "小红 2 小时走了 8 千米。照这样计算，走 20 千米需要 ___ 小时。",
+        "options": [],
+        "answer": "5",
+        "explanation": "速度一定。$8:2 = 20:x$，$8x = 40$，$x=5$。验算：时速 $8 \times 2 = 4$ 千米，$20 \times 4 = 5$ 小时 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "一个比例的两个内项分别是 4 和 9，其中一个外项是 6，另一个外项是 ___。",
+        "options": [],
+        "answer": "6",
+        "explanation": "内项积 $4 \times 9 = 36$。外项积也必须是 36。$36 \times 6 = 6$。验算：$6 \times 6 = 36$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "解比例：$x : 20 = 3 : 5$",
+        "options": [],
+        "answer": "12",
+        "explanation": "$5x = 20 \times 3 = 60$，$x = 12$。验算：$12:20 = 0.6$，$3:5 = 0.6$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比例的意义和基本性质",
+        "question": "解比例：$8 : 4 = 24 : x$",
+        "options": [],
+        "answer": "12",
+        "explanation": "$8x = 4 \times 24 = 96$，$x = 12$。验算：$8 \times 12 = 96$，$4 \times 24 = 96$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "比例的意义和基本性质",
+      "core_concept": "表示两个比相等的式子叫做比例。比例有四个项，两端的两项叫做比例的外项，中间的两项叫做比例的内项。在比例里，两个外项的积等于两个内项的积。",
+      "key_formula": "$a:b = c:d \rightarrow ad=bc$",
+      "common_mistakes": [
+        "将内项和外项混淆，导致交叉相乘错误",
+        "判断两个比是否组成比例时，只看数值不看对应关系"
+      ],
+      "tips": "记住“内乘内，外乘外”，解比例就是把比例式转化成我们熟悉的方程。"
+    },
+    {
+      "point": "正比例与反比例的判断",
+      "core_concept": "两种相关联的量，比值一定时成正比例；乘积一定时成反比例。正比例图形是一条过原点的射线，反比例图形是双曲线。",
+      "key_formula": "$\frac{y}{x}=k(\text{正}), xy=k(\text{反})$",
+      "common_mistakes": [
+        "误以为“一个量增加，另一个量也增加”就是正比例（如年龄和身高）",
+        "把“和一定”的关系误判为反比例"
+      ],
+      "tips": "先写出关系式，看是商一定还是积一定。商定正，积定反。"
+    },
+    {
+      "point": "比例尺的应用",
+      "core_concept": "图上距离与实际距离的比。注意比例尺没有单位，计算时必须先将图上距离和实际距离化成相同的单位（通常化成厘米）。",
+      "key_formula": "$\text{比例尺} = \frac{\text{图上距离}}{\text{实际距离}}$",
+      "common_mistakes": [
+        "单位换算不熟练，少写或多写 0（1千米=100000厘米）",
+        "将比例尺的前后项颠倒"
+      ],
+      "tips": "放大比例尺前项大（如$20:1$），缩小比例尺后项大（如$1:5000$）。"
+    },
+    {
+      "point": "图形的放大与缩小",
+      "core_concept": "按比例改变图形的大小，但不改变形状。边长扩大 $n$ 倍，周长扩大 $n$ 倍，面积扩大 $n^2$ 倍。",
+      "key_formula": "$\text{新边长} = \text{旧边长} \times \text{比例}$",
+      "common_mistakes": [
+        "误认为面积也按照边长比例相同倍数扩大",
+        "画图时只扩大长而忘记扩大宽"
+      ],
+      "tips": "图形变了大小没变脸，关键抓住各边对应的比值相同。"
+    },
+    {
+      "point": "用比例解决问题",
+      "core_concept": "分析题目中哪种量是不变的，从而建立比例关系式。正比例用除法式建立方程，反比例用乘法式建立方程。",
+      "key_formula": "$\frac{x_1}{y_1} = \frac{x_2}{y_2} \text{ 或 } x_1y_1 = x_2y_2$",
+      "common_mistakes": [
+        "选错比例类型（把反比例题按正比例做）",
+        "列比例式时对应位置放错"
+      ],
+      "tips": "做题三步走：一判（判断正反比）、二列（列出比例方程）、三解（求出未知数）。"
+    }
+  ]
+}

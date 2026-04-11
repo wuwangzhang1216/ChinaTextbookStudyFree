@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级上册",
+  "unit": "角的初步认识",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元《角的初步认识》基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "角是由一个顶点和两条边组成的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据角的定义，从一个点起引出两条射线所组成的图形叫做角。这个点是顶点，这两条射线是边。验证：1个顶点，2条边，符合定义。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "角的边伸得越长，角就越大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "角的大小由两条边张开的程度决定，与边的长短无关。验算：把一个角的两条边画长，张开的程度没变，角的大小就不变。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "所有的直角都一样大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "直角的大小是固定的，都是九十度。无论在三角尺上还是在黑板上，所有的直角都完全相等。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "钝角比直角小。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据定义，锐角小于直角，钝角大于直角。所以钝角应该比直角大。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "画角与拼角",
+        "question": "用两个锐角一定能拼出一个钝角。",
+        "options": [],
+        "answer": "错",
+        "explanation": "不一定。例如两个微小的锐角相加可能还是锐角。验算：$10^{\\circ} + 20^{\\circ} = 30^{\\circ}$，仍是锐角。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "下面图形中，哪个是角？",
+        "options": [
+          "有1个顶点和2条直边的图形",
+          "有1个顶点和一条弧线的图形",
+          "没有顶点只有直线的图形",
+          "有2个顶点和1条边的图形"
+        ],
+        "answer": "有1个顶点和2条直边的图形",
+        "explanation": "角必须具备“一尖（顶点）两直（直边）”的特征。其他选项不符合角的组成结构。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "一个正方形有几个角？",
+        "options": [
+          "2个",
+          "3个",
+          "4个",
+          "5个"
+        ],
+        "answer": "4个",
+        "explanation": "正方形有四个顶点，每个顶点处都有一个角，且四个角都是直角。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "三角尺上最大的那个角是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "平角"
+        ],
+        "answer": "直角",
+        "explanation": "常用的三角尺有两个锐角和一个直角，其中直角是最大的。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "红领巾上有两个角是一样大的，这两个角是什么角？",
+        "options": [
+          "钝角",
+          "直角",
+          "锐角",
+          "无法确定"
+        ],
+        "answer": "锐角",
+        "explanation": "红领巾是一个钝角三角形，包含一个钝角和两个相等的锐角。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "我们使用的数学课本的封面四个角都是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "不确定"
+        ],
+        "answer": "直角",
+        "explanation": "数学书封面是长方形，长方形的四个角都是直角。可以用三角尺的直角去比一下。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的认识与特征",
+        "question": "把一个角放在放大镜下看，这个角的大小会怎样？",
+        "options": [
+          "变大",
+          "变小",
+          "不变",
+          "无法判断"
+        ],
+        "answer": "不变",
+        "explanation": "放大镜放大的是边的长度，但两条边张开的程度（角度）并没有改变。所以角的大小不变。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "比直角大的角叫什么角？",
+        "options": [
+          "锐角",
+          "钝角",
+          "直角",
+          "以上都不是"
+        ],
+        "answer": "钝角",
+        "explanation": "根据角的分类：小于直角的叫锐角，大于直角的叫钝角（在180度以内）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "画角与拼角",
+        "question": "用一副三角尺上的一个直角和一个锐角，拼成的是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "无法确定"
+        ],
+        "answer": "钝角",
+        "explanation": "直角是 $90^{\\circ}$，锐角大于 $0^{\\circ}$。$90^{\\circ}$ 加上任何一个锐角都会超过 $90^{\\circ}$，所以是钝角。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "画角与拼角",
+        "question": "在一个三角形中，最多有几个直角？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "1个",
+        "explanation": "三角形的内角和是 $180^{\\circ}$。如果有2个直角，和就是 $180^{\\circ}$，第三个角就是0度，无法组成三角形。所以最多只有1个直角。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "钟面上3时整，时针和分针组成的角是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "平角"
+        ],
+        "answer": "直角",
+        "explanation": "3时整，分针指向12，时针指向3，正好组成一个 $90^{\\circ}$ 的角，即直角。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "把一个圆片对折两次，打开后折痕组成的角是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "无法确定"
+        ],
+        "answer": "直角",
+        "explanation": "圆对折一次是半圆，再对折一次是四分之一圆，两条半径折痕互相垂直，形成直角。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "下列哪个角度的说法是正确的？",
+        "options": [
+          "锐角 > 直角",
+          "钝角 < 直角",
+          "锐角 < 钝角",
+          "直角 > 钝角"
+        ],
+        "answer": "锐角 < 钝角",
+        "explanation": "锐角 < 直角 < 钝角。所以锐角一定小于钝角。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "画角与拼角",
+        "question": "用尺子画角时，第一步通常是先画一个什么？",
+        "options": [
+          "一条边",
+          "一个顶点",
+          "一个圆圈",
+          "两条边"
+        ],
+        "answer": "一个顶点",
+        "explanation": "画角的规范步骤是：先画一个点（顶点），再从这个点出发向不同的方向画出两条线（边）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "一个五角星上一共有 ___ 个尖尖的角。",
+        "options": [],
+        "answer": "5",
+        "explanation": "五角星有五个突出的部分，每个部分都有一个角，总共 5 个。验算：1、2...5，正确。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "一个长方形被剪去一个角后，最多还剩 ___ 个角。",
+        "options": [],
+        "answer": "5",
+        "explanation": "当斜着剪去一个角且不过任何顶点时，会多出两个新顶点。$4 - 1 + 2 = 5$。验算：画图可知，剩下的形状是五边形，有5个角。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "画角与拼角",
+        "question": "用一副三角尺（一个含有 $45^{\\circ}$ ，另一个含有 $30^{\\circ}$ 和 $60^{\\circ}$ ），能拼出的最大角是 ___ 度。",
+        "options": [],
+        "answer": "150",
+        "explanation": "一副三角尺中最大的两个角分别是 $90^{\\circ}$ 和 $60^{\\circ}$。拼在一起：$90 + 60 = 150$。验算：$90+45=135$，$60+45=105$，均比150小。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "画角与拼角",
+        "question": "计算：$45 + 45 = ?$",
+        "options": [],
+        "answer": "90",
+        "explanation": "$45 + 45 = 90$。验算：$90 - 45 = 45$ ✓。这代表两个 $45^{\\circ}$ 的角可以拼成一个直角。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "计算：$180 - 90 = ?$",
+        "options": [],
+        "answer": "90",
+        "explanation": "$180 - 90 = 90$。验算：$90 + 90 = 180$ ✓。这代表两个直角和起来是一个平角。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级数学上册第3单元《角的初步认识》综合评价卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "一个角有两条边，这两条边是直的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "角的两条边是从顶点引出的射线，射线的特质是直的。如果有弯曲，就不是标准的角。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "用三角尺上的直角比一比，比直角大的角是锐角。",
+        "options": [],
+        "answer": "错",
+        "explanation": "比直角小的是锐角，比直角大的是钝角。验算：用三角尺靠在一个钝角上，钝角的边会张开到直角外面。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "画角与拼角",
+        "question": "拼角时，两个锐角拼在一起一定是钝角。",
+        "options": [],
+        "answer": "错",
+        "explanation": "如果两个锐角都很小，比如 $30^{\\circ}$ 和 $30^{\\circ}$，拼成 $60^{\\circ}$ 还是锐角。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "角的大小和两条边的长度没有关系。",
+        "options": [],
+        "answer": "对",
+        "explanation": "角的大小由张开幅度决定。验算：画两个同样大的角，一个边长，一个边短，两角重合可完全重叠。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "所有的钝角都比锐角大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "锐角 < $90^{\\circ}$，钝角 > $90^{\\circ}$，所以钝角一定大于锐角。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "下面图形中，哪个图形的角最多？",
+        "options": [
+          "三角形",
+          "正方形",
+          "五边形",
+          "圆"
+        ],
+        "answer": "五边形",
+        "explanation": "三角形有3个，正方形有4个，五边形有5个，圆没有角。5是其中最大的数。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "锐角、钝角、直角按从大到小的顺序排列，正确的是：",
+        "options": [
+          "锐角 > 直角 > 钝角",
+          "钝角 > 直角 > 锐角",
+          "直角 > 钝角 > 锐角",
+          "锐角 > 钝角 > 直角"
+        ],
+        "answer": "钝角 > 直角 > 锐角",
+        "explanation": "钝角大于 $90^{\\circ}$，直角等于 $90^{\\circ}$，锐角小于 $90^{\\circ}$。所以顺序是钝角、直角、锐角。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "钟面上9:30时，分针和时针组成的角是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "无法判断"
+        ],
+        "answer": "钝角",
+        "explanation": "9:30时，分针指着6，时针在9和10之间。它们之间的间隔超过了3大格（3大格是直角），所以是钝角。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "一个三角形中如果有一个角是直角，那么另外两个角是什么角？",
+        "options": [
+          "都是锐角",
+          "都是直角",
+          "都是钝角",
+          "一个直角一个锐角"
+        ],
+        "answer": "都是锐角",
+        "explanation": "三角形三个内角和为 $180^{\\circ}$，去掉一个 $90^{\\circ}$，剩下两个和为 $90^{\\circ}$，且都必须大于0，所以只能都是锐角。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "画角与拼角",
+        "question": "用一副三角尺，不能拼出多少度的角？",
+        "options": [
+          "75度",
+          "105度",
+          "20度",
+          "150度"
+        ],
+        "answer": "20度",
+        "explanation": "三角尺角度有 $30, 45, 60, 90$。$30+45=75$，$60+45=105$，$90+60=150$。20度无法通过这些组合拼或减得出。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "用两条互相垂直的直线，可以组成几个直角？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "4个",
+        "explanation": "两条直线垂直相交，在交点处会形成四个角，且这四个角都是直角。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "把一个钝角分成两个角，其中一个是直角，另一个一定是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "无法确定"
+        ],
+        "answer": "锐角",
+        "explanation": "钝角在 $90^{\\circ}$ 到 $180^{\\circ}$ 之间。减去 $90^{\\circ}$ 后，剩下的部分一定小于 $90^{\\circ}$，即锐角。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "画角与拼角",
+        "question": "用一个放大 10 倍的放大镜看一个 $30^{\\circ}$ 的角，看到的角是多少度？",
+        "options": [
+          "3度",
+          "30度",
+          "300度",
+          "33度"
+        ],
+        "answer": "30度",
+        "explanation": "放大镜不改变角度的大小。角度是指张开的幅度，放大时两条边同步变长但开口不变。验算：放大后重叠原角，完全贴合。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的认识与特征",
+        "question": "下面哪个字母中含有的直角最多？",
+        "options": [
+          "L",
+          "T",
+          "E",
+          "V"
+        ],
+        "answer": "E",
+        "explanation": "L有1个，T有2个，V是锐角，E有4个直角。4是最大值。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "把一个圆对折一次，折痕处形成的是什么？",
+        "options": [
+          "角",
+          "直径",
+          "顶点",
+          "钝角"
+        ],
+        "answer": "直径",
+        "explanation": "对折一次只有一条直线，不具备顶点和两条边的特征，不能称为角。折痕经过圆心是直径。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "画角与拼角",
+        "question": "在一个四边形中，最多可以有几个直角？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "4个",
+        "explanation": "长方形和正方形都有4个直角。根据四边形内角和 $360^{\\circ}$，可以达到4个。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "下面的角中，哪个角最接近直角？",
+        "options": [
+          "锐角 $10^{\\circ}$",
+          "钝角 $100^{\\circ}$",
+          "锐角 $85^{\\circ}$",
+          "钝角 $150^{\\circ}$"
+        ],
+        "answer": "锐角 $85^{\\circ}$",
+        "explanation": "$|90-10|=80$，$|90-100|=10$，$|90-85|=5$，$|90-150|=60$。5最小，所以 $85^{\\circ}$ 最接近。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的认识与特征",
+        "question": "下课了，时钟指向11:30，这时候分针和时针组成的角是什么角？",
+        "options": [
+          "钝角",
+          "直角",
+          "锐角",
+          "无法判断"
+        ],
+        "answer": "钝角",
+        "explanation": "分针指着6，时针在11和12中间。跨过了约 $5.5$ 个大格，远超直角所占的3大格，所以是钝角。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的认识与特征",
+        "question": "一个三角形剪去一个角，还剩 3 个角，说明是从 ___ 个顶点剪过去的。",
+        "options": [],
+        "answer": "2",
+        "explanation": "如果剪刀线经过两个顶点，三边形会变成三角形。$3 - 2 + 1 = 2$ 不对，应该是剪掉一个角后剩3个角代表还是三角形，需沿对角线剪。验算：三角形对角剪开还是三角形。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与特征",
+        "question": "正方形有 4 个角，2 个正方形一共有 ___ 个角。",
+        "options": [],
+        "answer": "8",
+        "explanation": "式子：$4 \\times 2 = 8$。验算：$8 \\div 2 = 4$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "直角、锐角、钝角的辨析",
+        "question": "小明用三角尺拼角，用一个 $30^{\\circ}$ 的角和一个 $45^{\\circ}$ 的角拼在一起，得到的角是 ___ 度。",
+        "options": [],
+        "answer": "75",
+        "explanation": "$30 + 45 = 75$。验算：$75 - 30 = 45$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "画角与拼角",
+        "question": "计算：$90 - 30 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$90 - 30 = 60$。验算：$60 + 30 = 90$ ✓。表示直角减去一个 $30^{\\circ}$ 锐角得 $60^{\\circ}$ 锐角。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "画角与拼角",
+        "question": "一个钝角是 $120^{\\circ}$，一个锐角是 $40^{\\circ}$，它们的差是 ___ 度。",
+        "options": [],
+        "answer": "80",
+        "explanation": "$120 - 40 = 80$。验算：$80 + 40 = 120$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "角的认识与特征",
+      "core_concept": "角是由一个共同的中心点（叫做顶点）引出的两条直直的线（叫做边）所形成的图形。角的大小与两条边张开的程度有关：开口越大，角就越大；开口越小，角就越小。特别要注意，角的大小和边的长短一点关系都没有。",
+      "key_formula": "角 = 1个顶点 + 2条直边",
+      "common_mistakes": [
+        "认为边越长角就越大",
+        "把有曲线的图形（如半圆）也当成角"
+      ],
+      "tips": "记口诀：小小角，真简单，一个顶点两条边；想知角的大小，只看开口不看边。"
+    },
+    {
+      "point": "直角、锐角、钝角的辨析",
+      "core_concept": "直角是角里的“标准大个子”，三角尺上最大的那个角就是直角。比直角小的（开口更小的）叫锐角，它看起来很尖锐；比直角大的（开口更大的）叫钝角，它看起来很笨笨的。我们可以用三角尺上的直角作为尺子去比一比。",
+      "key_formula": "锐角 < 直角 < 钝角",
+      "common_mistakes": [
+        "区分不清锐角和钝角，名字记反",
+        "不用三角尺测量，仅凭眼睛看近似直角的角"
+      ],
+      "tips": "随身带个纸折的直角，不管是书本角还是桌子角，比一比就知道是什么角啦！"
+    },
+    {
+      "point": "画角与拼角",
+      "core_concept": "画角要用尺。先点一个点，再从这一点开始往两个方向画线。拼角则是把两个三角尺上的角靠在一起，顶点对齐，边也对齐。两个锐角合起来可能是锐角、直角或者钝角。",
+      "key_formula": "拼成的角程度 = 第一个角 + 第二个角",
+      "common_mistakes": [
+        "画角时边画得不直，或者没有从同一个顶点出发",
+        "拼角时两个角的顶点没对齐"
+      ],
+      "tips": "画角要‘一落笔、二画线、三标号’。拼角时，要把两个三角尺紧紧贴在一起不能留缝隙哦。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学四年级上册",
+  "unit": "平行四边形和梯形",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元基础巩固测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "在同一平面内，两条直线如果不平行就一定相交。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在同一平面内，两条直线的位置关系只有两种：平行或相交。如果不平行，则必然相交。验算：排除不共面的空间直线情况，命题成立。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "两条直线相交成直角时，这两条直线互相垂直。",
+        "options": [],
+        "answer": "对",
+        "explanation": "垂直的定义即为两条直线相交成直角（90度）。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "两条平行线之间的距离处处相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "平行线性质：两条平行线之间所有垂线段的长度都相等。验算：从一条直线上任意取点向另一条作垂线，长度一致。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "长方形和正方形都是特殊的平行四边形。",
+        "options": [],
+        "answer": "对",
+        "explanation": "平行四边形定义是两组对边分别平行。长方形和正方形满足此条件，且角为直角，因此是特殊的平行四边形。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "梯形的一组对边平行，另一组对边一定不平行。",
+        "options": [],
+        "answer": "对",
+        "explanation": "梯形的定义是“只有”一组对边平行。如果另一组也平行，它就变成平行四边形了。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "在同一平面内，过直线外一点可以画几条已知直线的垂线？",
+        "options": [
+          "1条",
+          "2条",
+          "3条",
+          "无数条"
+        ],
+        "answer": "1条",
+        "explanation": "根据垂直的性质，过直线外一点有且只有一条直线与已知直线垂直。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "把两根小棒都摆成和第三根小棒平行，看一看这两根小棒的关系是：",
+        "options": [
+          "互相平行",
+          "互相垂直",
+          "相交但不垂直",
+          "无法确定"
+        ],
+        "answer": "互相平行",
+        "explanation": "平行线的传递性：如果 $a//c$ 且 $b//c$，那么 $a//b$。所以它们互相平行。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "平行四边形的对边：",
+        "options": [
+          "相等但不平行",
+          "垂直但不相等",
+          "平行且相等",
+          "不平行也不相等"
+        ],
+        "answer": "平行且相等",
+        "explanation": "平行四边形的特征是两组对边分别平行且相等。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "只有一组对边平行的四边形是：",
+        "options": [
+          "长方形",
+          "正方形",
+          "平行四边形",
+          "梯形"
+        ],
+        "answer": "梯形",
+        "explanation": "根据梯形的定义，只有一组对边平行的四边形叫做梯形。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "电动伸缩门是利用了平行四边形的什么特性？",
+        "options": [
+          "稳定性",
+          "容易变形",
+          "不容易变形",
+          "四个角都是直角"
+        ],
+        "answer": "容易变形",
+        "explanation": "平行四边形具有不稳定性（易变形），伸缩门正是利用这一特性实现伸缩。三角形才具有稳定性。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "从直线外一点到这条直线所画的所有线段中，最短的是：",
+        "options": [
+          "直线",
+          "平行线",
+          "垂线段",
+          "射线"
+        ],
+        "answer": "垂线段",
+        "explanation": "从直线外一点到这条直线所画的所有线段中，垂直线段最短。这是几何学的基本常识。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "两条直线互相垂直，形成的角有几个直角？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "4个",
+        "explanation": "两条直线垂直相交，其中一个角是90度，那么它的对顶角是90度，邻角也是 180-90=90 度，总共4个直角。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "在两条平行线之间画几条垂直线段，这些线段的长度：",
+        "options": [
+          "都不相等",
+          "有的相等有的不相等",
+          "都相等",
+          "长度逐渐变大"
+        ],
+        "answer": "都相等",
+        "explanation": "平行线间的距离处处相等，因此所有垂直线段的长度都相等。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "等腰梯形的两条腰：",
+        "options": [
+          "互相平行",
+          "互相垂直",
+          "相等",
+          "不相等"
+        ],
+        "answer": "相等",
+        "explanation": "两腰相等的梯形叫做等腰梯形。其名称本身定义了腰相等。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "平行四边形有几条高？",
+        "options": [
+          "1条",
+          "2条",
+          "4条",
+          "无数条"
+        ],
+        "answer": "无数条",
+        "explanation": "我们可以从一边的任意一点向对边作垂线，边上有无数个点，所以可以作无数条高。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "一个四边形的两组对边分别平行，它一定不是哪种图形？",
+        "options": [
+          "长方形",
+          "正方形",
+          "平行四边形",
+          "梯形"
+        ],
+        "answer": "梯形",
+        "explanation": "两组对边分别平行符合平行四边形的定义。梯形只有一组对边平行，所以绝对不可能是梯形。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "一个围栏的长方形周长是 20 米，如果把它拉成一个平行四边形，周长会有什么变化？",
+        "options": [
+          "周长变长",
+          "周长变短",
+          "周长不变",
+          "无法判断"
+        ],
+        "answer": "周长不变",
+        "explanation": "拉动过程中，四条边的长度没有发生改变，因此周长之和保持不变。变化的是面积（变小）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "如果两条直线都垂直于同一条直线，那么这两条直线：",
+        "options": [
+          "互相垂直",
+          "互相平行",
+          "相交",
+          "重合"
+        ],
+        "answer": "互相平行",
+        "explanation": "在同一平面内，垂直于同一直线的两条直线互相平行。这是判断平行的重要方法。验算：想象直尺两边都垂直于竖杠，则两边平行。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "平行四边形有 ___ 组对边分别平行。",
+        "options": [],
+        "answer": "2",
+        "explanation": "平行四边形的定义是两组对边分别平行。故填 2。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "一个等腰梯形的上底是 5 厘米，下底是 7 厘米，腰是 6 厘米，它的周长是 ___ 厘米。",
+        "options": [],
+        "answer": "24",
+        "explanation": "列式：$5 + 7 + 6 \times 2 = 5 + 7 + 12 = 24$。等腰梯形两腰相等，所以两腰共 12 厘米，加上底和下底。验算：$24 - 12 - 7 = 5$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "两条平行线之间的距离是 5 厘米，在这两条直线间作垂直线段，这段垂直线段的长是 ___ 厘米。",
+        "options": [],
+        "answer": "5",
+        "explanation": "平行线间的距离就是其间垂直线段的长度。因为距离是 5 厘米，所以垂直线段长也是 5 厘米。验算：定义匹配 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "计算一个平行四边形相邻两边之和：$15 + 25 = ?$",
+        "options": [],
+        "answer": "40",
+        "explanation": "$15 + 25 = 40$。验算：$40 - 25 = 15$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "一个平角是 $180$ 度，它包含几个 $90$ 度的直角？计算：$180 \times 1 \text{ (divide) } 90 = ?$",
+        "options": [],
+        "answer": "2",
+        "explanation": "$180 \times 1 \text{ (divide) } 90$ 即 $180 \text{ (divide) } 90 = 2$。验算：$90 \times 2 = 180$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第五单元平行四边形和梯形综合测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "不相交的两条直线叫做平行线。",
+        "options": [],
+        "answer": "错",
+        "explanation": "缺少了“在同一平面内”这个关键前提。如果在不同平面内，不相交的直线可能是异面直线而不是平行线。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "平行四边形的高只有两条。",
+        "options": [],
+        "answer": "错",
+        "explanation": "从一边上的任意一点向对边作垂线都是高，因此平行四边形有无数条高。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "如果直线 $A$ 垂直于直线 $B$，那么直线 $B$ 也垂直于直线 $A$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "垂直是相互的关系，形成的直角是公共的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "梯形的高一定垂直于上底和下底。",
+        "options": [],
+        "answer": "对",
+        "explanation": "梯形的高是从上底向底底作的垂线段，垂直于一组平行线。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "直角梯形中只有一个角是直角。",
+        "options": [],
+        "answer": "错",
+        "explanation": "直角梯形既然有一条腰垂直于底边，那么这条腰与上底和下底的交角都是 90 度，所以至少有两个直角。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四_side_形与梯形的特征",
+        "question": "下面哪种图形不属于四边形？",
+        "options": [
+          "长方形",
+          "平行四边形",
+          "三角形",
+          "梯形"
+        ],
+        "answer": "三角形",
+        "explanation": "三角形有 3 条边，不满足四边形有 4 条边的定义。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "要把一根木条固定在墙上，为了使其更稳固，通常用两枚钉子，这是利用了：",
+        "options": [
+          "两点确定一条直线",
+          "垂线段最短",
+          "平行线性质",
+          "三角形稳定性"
+        ],
+        "answer": "两点确定一条直线",
+        "explanation": "两枚钉子即两个点，两点决定了木条在墙上直线的位置，使其不能旋转。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行线与垂线的画法",
+        "question": "画已知直线的平行线，可以利用哪组工具最准确？",
+        "options": [
+          "直尺和量角器",
+          "三角尺和量角器",
+          "直尺和三角尺",
+          "两个圆规"
+        ],
+        "answer": "直尺和三角尺",
+        "explanation": "课本教材标准画法是：一靠、二移、三画，需要直尺作为导轨，三角尺移动。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "如果在同一平面内有 3 条直线，已知直线 $a // b$，且 $b // c$，那么 $a$ 和 $c$：",
+        "options": [
+          "互相垂直",
+          "互相平行",
+          "相交",
+          "无法确定"
+        ],
+        "answer": "互相平行",
+        "explanation": "平行线的传递性：平行于同一直线的两条直线互相平行。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "将一个长方形木框拉成平行四边形后，平行四边形的高与长方形的宽相比：",
+        "options": [
+          "变长了",
+          "变短了",
+          "长度不变",
+          "无法比较"
+        ],
+        "answer": "变短了",
+        "explanation": "拉动时侧边倾斜，垂线段（高）必然小于斜线性段（宽）。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "从马路的一边到另一边，走哪条路最近？",
+        "options": [
+          "斜着走",
+          "绕路走",
+          "垂直走",
+          "随意走"
+        ],
+        "answer": "垂直走",
+        "explanation": "马路两边视为平行线，垂线段最短，所以垂直穿过马路路程最短。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "四个角都是直角的四边形一定是：",
+        "options": [
+          "平行四边形",
+          "梯形",
+          "等腰梯形",
+          "以上都不对"
+        ],
+        "answer": "平行四边形",
+        "explanation": "四个角是直角的四边形是长方形或正方形，它们都属于特殊的平行四边形。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "当梯形的上底和下底相等时，这个图形变成了：",
+        "options": [
+          "三角形",
+          "平行四边形",
+          "等腰梯形",
+          "直角梯形"
+        ],
+        "answer": "平行四边形",
+        "explanation": "一组对边平行且相等，符合平行四边形的判定条件。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行线与垂线的画法",
+        "question": "过直线外一点画已知直线的垂线，可以画几条？",
+        "options": [
+          "0条",
+          "1条",
+          "2条",
+          "无数条"
+        ],
+        "answer": "1条",
+        "explanation": "过直线外一点只有一条直线与已知直线垂直。验算：旋转三角尺发现仅有一个位置重合。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "关于四边形分类，下列说法正确的是：",
+        "options": [
+          "平行四边形包括长方形",
+          "长方形包括平行四边形",
+          "梯形包括长方形",
+          "正方形包括平行四边形"
+        ],
+        "answer": "平行四边形包括长方形",
+        "explanation": "平行四边形是更大的集合，长方形是具备“四个直角”特征的特殊子集。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "在两条平行线之间画 5 条垂直线段，第 1 条长 10 厘米，第 5 条长几厘米？",
+        "options": [
+          "2厘米",
+          "5厘米",
+          "10厘米",
+          "50厘米"
+        ],
+        "answer": "10厘米",
+        "explanation": "平行线间的距离处处相等。既然第 1 条是 10 厘米，其他所有垂直线段一定都是 10 厘米。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "一个平行四边形的周长是 30 厘米，其中一条边是 10 厘米，它的领边是：",
+        "options": [
+          "5厘米",
+          "10厘米",
+          "15厘米",
+          "20厘米"
+        ],
+        "answer": "5厘米",
+        "explanation": "周长的一半是 $30 \text{ (divide) } 2 = 15$。领边 = $15 - 10 = 5$ 厘米。验算：$(10 + 5) \times 2 = 30$ ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "把一个等腰梯形沿高剪开，分成两部分，这两部分可能是什么形状？",
+        "options": [
+          "两个三角形",
+          "两个长方形",
+          "一个长方形和一个三角形",
+          "两个平行四边形"
+        ],
+        "answer": "一个长方形和一个三角形",
+        "explanation": "如果从上底的一个顶点作高，左侧会是一个直角三角形，右侧是一个直角梯形。如果等腰梯形特殊且从中间或多处切割，最基础切割结果包含三角形。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "梯形有 ___ 条高。",
+        "options": [],
+        "answer": "无数",
+        "explanation": "梯形的两底平行，从上底任意一点向下底作垂线都是高，所以有无数条。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行与垂直的认识",
+        "question": "在一个长方形中，互相平行的线段有 ___ 对。",
+        "options": [],
+        "answer": "2",
+        "explanation": "长方形两组对边分别平行。1组长边平行，1组宽边平行，总共 2 对。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "用一根长 40 厘米的铁丝围成一个底边为 12 厘米的等腰梯形，另外三条边长度一共是 ___ 厘米。",
+        "options": [],
+        "answer": "28",
+        "explanation": "周长减去一条边。列式：$40 - 12 = 28$。验算：$28 + 12 = 40$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "计算四边形的内角和：$90 + 90 + 90 + 90 = ?$",
+        "options": [],
+        "answer": "360",
+        "explanation": "$90 \times 4 = 360$。四边形内角和恒为 360 度。验算：$360 \text{ (divide) } 4 = 90$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行四边形与梯形的特征",
+        "question": "一个等腰梯形腰长 15 厘米，两腰之和是多少？$15 \times 2 = ?$",
+        "options": [],
+        "answer": "30",
+        "explanation": "$15 \times 2 = 30$。等腰梯形两腰相等。验算：$30 \text{ (divide) } 2 = 15$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "平行与垂直的认识",
+      "core_concept": "在同一个平面内，不相交的两条直线叫做平行线。当两条直线相交成直角时，这两条直线互相垂直，其中一条直线叫做另一条直线的垂线。要特别注意‘同一平面’这个前提。",
+      "key_formula": "在同一平面内，垂直于同一直线的两条直线互相平行。",
+      "common_mistakes": [
+        "认为不相交的两条直线就是平行线（忽略了同一平面的前提）",
+        "把‘互相垂直’理解为单方面的垂直关系"
+      ],
+      "tips": "可以观察教室里的黑板边框：相邻的两条边是互相垂直的，相对的两条边是互相平行的。"
+    },
+    {
+      "point": "平行线与垂线的画法",
+      "core_concept": "画垂线要用三角尺的一条直角边与已知直线重合，另一条直角边过定点画线。画平行线通常依靠‘一靠（已知线）、二移（尺子）、三画’的方法。",
+      "key_formula": "过直线外一点画已知直线的垂线，有且只有一条。",
+      "common_mistakes": [
+        "画垂线时三角尺的直角边没有与已知直线完全重合",
+        "画平行线移动三角尺时，作为‘导轨’的直尺发生了滑动"
+      ],
+      "tips": "记住口诀：靠、移、画。移动过程中三角尺必须紧贴直尺，不能晃动。"
+    },
+    {
+      "point": "平行四边形与梯形的特征",
+      "core_concept": "两组对边分别平行的四边形是平行四边形；只有一组对边平行的四边形是梯形。平行四边形容易变形，具有不稳定性。正方形和长方形都是特殊的平行四边形。",
+      "key_formula": "平行四边形的周长 = (长边 + 短边) \\times 2",
+      "common_mistakes": [
+        "认为梯形有 2 条高（实际上有无数条）",
+        "混淆平行四边形和梯形的定义，特别是对‘只有’二字的理解"
+      ],
+      "tips": "通过‘包含关系图’记忆：四边形包含平行四边形和梯形，平行四边形包含长方形，长方形包含正方形。"
+    }
+  ]
+}

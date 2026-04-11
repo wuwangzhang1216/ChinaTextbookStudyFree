@@ -1,0 +1,342 @@
+{
+  "textbook": "四年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "大数的认识",
+      "knowledge_points": [
+        {
+          "name": "亿以内数的计数单位与数位顺序",
+          "description": "理解十进制计数法，掌握数位顺序表，明确个级、万级、亿级的划分及进率。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "判断",
+            "选择"
+          ]
+        },
+        {
+          "name": "亿以内数的读法与写法",
+          "description": "掌握含两级数的分级读写规则，特别是中间或末尾有0的处理方法。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "写数",
+            "读数"
+          ]
+        },
+        {
+          "name": "大数的大小比较与改写",
+          "description": "掌握位数相同与不同时的比较方法，学会将整万、整亿的数改写成以“万”或“亿”为单位的数。",
+          "difficulty": 2,
+          "question_types": [
+            "排序/比较",
+            "填空"
+          ]
+        },
+        {
+          "name": "近似数与“四舍五入”法",
+          "description": "理解近似数的意义，能根据要求用“四舍五入”法省略尾数求近似值。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "进位制与计算工具的认识",
+          "description": "了解数的产生、十进制及算盘、计算器的基本操作与按键功能。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "操作题",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "公顷和平方千米",
+      "knowledge_points": [
+        {
+          "name": "公顷的认识与换算",
+          "description": "建立1公顷的表象（100m×100m），掌握公顷与平方米之间的进率。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "平方千米的认识与换算",
+          "description": "认识较大土地面积单位平方千米，掌握其与公顷、平方米的换算关系。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "面积单位的综合应用",
+          "description": "根据实际情境填写合适的面积单位，解决有关土地面积的简单问题。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "角的度量",
+      "knowledge_points": [
+        {
+          "name": "线段、直线、射线",
+          "description": "区分三种线的端点个数、延伸性及长度特征，理解点与线的关系。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "角的认识与度量",
+          "description": "理解角的定义及组成，掌握量角器的结构及测量角的大小的方法。",
+          "difficulty": 3,
+          "question_types": [
+            "操作题",
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "角的分类与画角",
+          "description": "掌握锐角、直角、钝角、平角、周角的关系，能利用量角器画指定度数的角。",
+          "difficulty": 3,
+          "question_types": [
+            "操作题",
+            "画图",
+            "排序/比较"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "三位数乘两位数",
+      "knowledge_points": [
+        {
+          "name": "三位数乘两位数笔算",
+          "description": "掌握笔算乘法的运算顺序及进位方法，包括因数中间或末尾有0的简便算法。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "应用题"
+          ]
+        },
+        {
+          "name": "积的变化规律",
+          "description": "理解一个因数不变，另一个因数乘或除以几，积也相应变化的规律。",
+          "difficulty": 3,
+          "question_types": [
+            "规律探索",
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "常见数量关系（单价与速度）",
+          "description": "理解“单价×数量=总价”和“速度×时间=路程”的模型及其变式。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "填空",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "平行四边形和梯形",
+      "knowledge_points": [
+        {
+          "name": "平行与垂直的认识",
+          "description": "理解同一平面内两条直线的位置关系，掌握垂线段最短及平行线间距离相等特性。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "判断",
+            "画图"
+          ]
+        },
+        {
+          "name": "平行线与垂线的画法",
+          "description": "学会使用三角尺画垂线和平行线，能过直线外一点画已知直线的垂线。",
+          "difficulty": 3,
+          "question_types": [
+            "操作题",
+            "画图"
+          ]
+        },
+        {
+          "name": "平行四边形与梯形的特征",
+          "description": "认识平行四边形和梯形的定义、各部分名称（底、高），掌握四边形间的包含关系。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "判断",
+            "操作题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "除数是两位数的除法",
+      "knowledge_points": [
+        {
+          "name": "口算除法与估算",
+          "description": "掌握整十数除整十数/几百几十数的口算，及非整十数的估算方法。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "笔算除法之试商与调商",
+          "description": "掌握“四舍五入”试商法，理解商偏大或偏小时的调商规则。",
+          "difficulty": 4,
+          "question_types": [
+            "竖式计算",
+            "填空"
+          ]
+        },
+        {
+          "name": "商的变化规律及简便运算",
+          "description": "掌握被除数和除数同时乘或除以相同数（0除外）商不变的规律，及余数的变化规律。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "口算",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "条形统计图",
+      "knowledge_points": [
+        {
+          "name": "条形统计图的绘制",
+          "description": "认识条形统计图的结构（横轴、纵轴、单位），能根据表格数据绘制直条。",
+          "difficulty": 3,
+          "question_types": [
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "1格代表多个单位",
+          "description": "根据数据的大小灵活确定纵轴刻度，理解在大数据下缩放比例的必要性。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "画图",
+            "分析分析"
+          ]
+        },
+        {
+          "name": "统计图的数据分析",
+          "description": "能从统计图中提取信息，进行简单的预测、对比或提出合理建议。",
+          "difficulty": 4,
+          "question_types": [
+            "判断",
+            "选择",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "数学广角——优化",
+      "knowledge_points": [
+        {
+          "name": "沏茶问题（时间安排）",
+          "description": "通过流程图分析，学会从多种方案中选择并行工作的最佳方案以缩短时间。",
+          "difficulty": 4,
+          "question_types": [
+            "操作题",
+            "应用题"
+          ]
+        },
+        {
+          "name": "烙饼问题（最优策略）",
+          "description": "通过对多枚饼烙法的探究，发现锅不闲置的交替烙法规律及计算公式。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "选择",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "田忌赛马（策略对策）",
+          "description": "理解在博弈过程中通过逻辑排列寻找以弱胜强的最优应对策略。",
+          "difficulty": 4,
+          "question_types": [
+            "连线/匹配",
+            "选择",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "数与代数综合复习",
+          "description": "回顾大数认识、三位数乘两位数、除数是两位数的除法及相关规律。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "图形与几何综合复习",
+          "description": "复习线、角、平行、垂直、平行四边形及梯形的特征与相互关系。",
+          "difficulty": 3,
+          "question_types": [
+            "画图",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "综合应用与统计复习",
+          "description": "运用所学数学模型解决行程、面积、优化问题，分析统计图表。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "画图",
+            "分析题"
+          ]
+        }
+      ]
+    }
+  ]
+}

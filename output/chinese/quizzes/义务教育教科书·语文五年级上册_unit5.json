@@ -1,0 +1,736 @@
+{
+  "textbook": "统编版小学语文五年级上册",
+  "unit": "介绍一种事物",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元基础过关测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“松鼠的叫声很尖，像小鸟似的”这句话运用了打比方的说明方法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "把松鼠的叫声比作小鸟的叫声，属于打比方。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“太阳离我们约有一亿五千万千米远”运用了列数字的说明方法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "通过具体的数字“一亿五千万”说明太阳距离遥远。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "“他为了窃取情报，真是呕心沥血。”这句话中“呕心沥血”用得正确。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“呕心沥血”是褒义词，不能用于描述“窃取情报”这类坏事。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "作比较的说明方法是通过与同类或异类事物对比来突出特征。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是作比较说明方法的定义。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "介绍事物时，只要写清楚样子就可以了，不需要考虑叙述的顺序。",
+        "options": [],
+        "answer": "错",
+        "explanation": "说明文必须有条理，通常按空间、时间或逻辑顺序叙述。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "下列词语中，情感色彩属于褒义词的一项是：",
+        "options": [
+          "处心积虑",
+          "诡计多端",
+          "足智多谋",
+          "得意忘形"
+        ],
+        "answer": "足智多谋",
+        "explanation": "足智多谋形容人聪明、计谋多，是褒义词；其他三项均为贬义词。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“约一百三十万个地球的体积才能抵得上一个太阳。”这句话采用的说明方法是：",
+        "options": [
+          "列数字、作比较",
+          "举例子、打比方",
+          "打比方、作比较",
+          "列数字、下定义"
+        ],
+        "answer": "列数字、作比较",
+        "explanation": "有数字“一百三十万”，且将地球和太阳进行对比。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "《太阳》一课中，先写太阳远、大、热，再写它与人类的关系。这是：",
+        "options": [
+          "空间顺序",
+          "逻辑顺序",
+          "时间顺序",
+          "游览顺序"
+        ],
+        "answer": "逻辑顺序",
+        "explanation": "按照事物特征到影响的内在逻辑关系进行编写。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“它要是能像松鼠那样灵活就好了。”本句运用了什么说明方法来写鲸？",
+        "options": [
+          "举例子",
+          "下定义",
+          "作比较",
+          "分类别"
+        ],
+        "answer": "作比较",
+        "explanation": "通过将鲸和松鼠进行对比，写出鲸不够灵活的特点。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "阅读语段：‘松鼠是一种漂亮的小动物，乖巧，驯良，很讨人喜欢。’这句话在段落中的作用是：",
+        "options": [
+          "过渡句",
+          "总结句",
+          "中心句",
+          "疑问句"
+        ],
+        "answer": "中心句",
+        "explanation": "这句话概括了松鼠的总体特征，为全段的中心内容。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "说明文《太阳》开头引用“后羿射日”的神话故事，主要是为了：",
+        "options": [
+          "证明神话是真实的",
+          "凑字数",
+          "增加文章趣味性，引出说明对象",
+          "科普天文知识"
+        ],
+        "answer": "增加文章趣味性，引出说明对象",
+        "explanation": "神话开头可以吸引读者的阅读兴趣。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "下列哪个词语最能体现说明文语言的准确性？",
+        "options": [
+          "经常",
+          "也许",
+          "大约",
+          "以上都是"
+        ],
+        "answer": "以上都是",
+        "explanation": "说明文中使用这些限制性词语是为了客观、准确地反映事实。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "填入括号最合适的一项：大家（   ）向英雄致敬。",
+        "options": [
+          "肃然起敬",
+          "得意洋洋",
+          "心怀鬼胎",
+          "手舞足蹈"
+        ],
+        "answer": "肃然起敬",
+        "explanation": "致敬英雄的情境需要庄重、尊重的褒义词。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“云就像干干净净的棉花。”这句话：",
+        "options": [
+          "比喻句也是生动说明",
+          "只是普通句子",
+          "是作比较",
+          "是列数字"
+        ],
+        "answer": "比喻句也是生动说明",
+        "explanation": "在说明文中，打比方也属于生动说明的一种。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "下列没有使用说明方法的一项是：",
+        "options": [
+          "不少人看到过象，都说象是很大的动物。",
+          "有一种非洲象，身高3.5米，重约6吨。",
+          "象的耳朵大得像两把扇子。",
+          "象比牛大得多。"
+        ],
+        "answer": "不少人看到过象，都说象是很大的动物。",
+        "explanation": "这句话只是普通陈述，没有具体的说明方法。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“太阳中心温度估计有1800万度。”这句话使用的说明方法是（___）。",
+        "options": [],
+        "answer": "列数字",
+        "explanation": "数字“1800万”是典型特征。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“松鼠的尾巴老是翘起来，一直翘到头上，身子露在尾巴下面，好像一把伞。”这里用“伞”来说明尾巴，运用了（___）的方法。",
+        "options": [],
+        "answer": "打比方",
+        "explanation": "将尾巴比作伞。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "他（___）地想：只要把这个宝贝偷走，我就发财了。此处应填入词语“处心积虑”还是“呕心沥血”？",
+        "options": [],
+        "answer": "处心积虑",
+        "explanation": "“偷走”是贬义语境，应用贬义词处心积虑。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "请将说明方法与其对应的句子连线：",
+        "options": [
+          "列数字",
+          "打比方",
+          "举例子",
+          "作比较",
+          "它像一把撑开的绿伞。",
+          "园林占地面积约十亩。",
+          "人与鸵鸟相比显得很矮。",
+          "比如松鼠，它很乖巧。"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "A列数字-2十亩；B打比方-1绿伞；C举例子-4比如；D作比较-3相比。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "请将说明文的结构特征进行逻辑连线：",
+        "options": [
+          "总分结构",
+          "逻辑顺序",
+          "空间顺序",
+          "平实说明",
+          "由表及里的介绍",
+          "东、西、南、北方位",
+          "通篇一问一答",
+          "先概括后具体"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "A总分-4先概后具；B逻辑-1由表及里；C空间-2方位；D平实-3一问一答。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "请将词语与其对应的情感色彩连线：",
+        "options": [
+          "神机妙算",
+          "阴谋诡计",
+          "举世闻名",
+          "臭名昭著",
+          "褒义词",
+          "贬义词",
+          "褒义词",
+          "贬义词"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "神机妙算、举世闻名为好词；阴谋诡计、臭名昭著为坏词。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "请将下列词语排成一个关于说明文作用的句子：",
+        "options": [
+          "我们要",
+          "说明方法",
+          "正确使用",
+          "介绍事物时"
+        ],
+        "answer": "介绍事物时,我们要,正确使用,说明方法",
+        "explanation": "根据主谓宾结构排列句子。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "请将下列词语组成一句话：",
+        "options": [
+          "说明文的",
+          "生动",
+          "准确",
+          "而且",
+          "语言",
+          "不仅"
+        ],
+        "answer": "说明文的,语言,不仅,准确,而且,生动",
+        "explanation": "考查递进关系的句式应用。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册第五单元综合质量监测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "“顽强”是一个褒义词，可以用来形容战士的意志。",
+        "options": [],
+        "answer": "对",
+        "explanation": "顽强形容坚强不屈，是褒义词。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“它不仅长得漂亮，还非常聪明。”这句话运用了打比方的说明方法。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这只是普通的拟人化描写，没有喻体，不是打比方。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "写说明文时，为了吸引读者，可以随便添加虚构的神话情节作为事实。",
+        "options": [],
+        "answer": "错",
+        "explanation": "说明文必须基于科学事实，神话只能作为趣味引子不能作为科学证据。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“不少人看到过象”中的“不少”体现了说明文语言的准确性。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“不少”限制了范围，比直接说“所有人都见过”更符合事实。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "“勾结”和“团结”是一对感情色彩相反的近义词。",
+        "options": [],
+        "answer": "对",
+        "explanation": "勾结是贬义，团结是褒义。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“地球，这位人类的母亲，这个生命的摇篮。”这句话运用的说明方法是：",
+        "options": [
+          "打比方",
+          "列数字",
+          "作比较",
+          "分类别"
+        ],
+        "answer": "打比方",
+        "explanation": "把地球比作母亲和摇篮。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“如果说大象是庞然大物，那么鲸就是海里的巨人。”本句运用的说明方法有：",
+        "options": [
+          "打比方和作比较",
+          "举例子和列数字",
+          "作比较和下定义",
+          "分类别和打比方"
+        ],
+        "answer": "打比方和作比较",
+        "explanation": "将鲸比作巨人（打比方），同时与象相比（作比较）。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "填入句子中最合适的词：“他正（   ）地想出一个坏主意。”",
+        "options": [
+          "挖空心思",
+          "废寝忘食",
+          "孜孜不倦",
+          "精益求精"
+        ],
+        "answer": "挖空心思",
+        "explanation": "“坏主意”需要贬义词“挖空心思”。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "阅读语段：‘科学家研究发现，松鼠有时也捕捉鸟雀。’如果去掉‘有时’后果是：",
+        "options": [
+          "没有影响",
+          "读起来更顺口",
+          "表达就不够准确严谨了",
+          "句子变短了"
+        ],
+        "answer": "表达就不够准确严谨了",
+        "explanation": "“有时”表示并非经常，体现了说明文语言的严谨。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“鲸的种类很多，总的来说可以分为两大类：一类是须鲸，没有牙齿；一类是齿鲸，有锋利的牙齿。”使用的说明方法是：",
+        "options": [
+          "列数字",
+          "分类别",
+          "打比方",
+          "举例子"
+        ],
+        "answer": "分类别",
+        "explanation": "根据有无牙齿将鲸分成两类说明。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "在介绍一种现代科技产品（如手机）时，最不适合采用的顺序是：",
+        "options": [
+          "从外观到功能的逻辑顺序",
+          "从主件到配件的空间顺序",
+          "从过去到未来的时间顺序",
+          "随机抽样写喜欢的特点"
+        ],
+        "answer": "随机抽样写喜欢的特点",
+        "explanation": "说明文严禁逻辑混乱、随机书写。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“有一种号称‘森林医生’的鸟，就是啄木鸟。”这句话：",
+        "options": [
+          "运用了打比方的说明方法",
+          "运用了列数字的说明方法",
+          "运用了作比较的说明方法",
+          "没有使用任何方法"
+        ],
+        "answer": "运用了打比方的说明方法",
+        "explanation": "把啄木鸟比作森林医生。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "关于《松鼠》和《太阳》两文的表述，正确的是：",
+        "options": [
+          "两篇都是通过神话引出",
+          "《松鼠》更生动，《太阳》更平实",
+          "都主要运用了列数字的方法",
+          "都没有介绍生活习性"
+        ],
+        "answer": "《松鼠》更生动，《太阳》更平实",
+        "explanation": "《松鼠》是文艺性说明文，描写生动；《太阳》是科普说明文，语言平实。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "下列词语属于贬义词的是：",
+        "options": [
+          "成果",
+          "结果",
+          "后果",
+          "结局"
+        ],
+        "answer": "后果",
+        "explanation": "后果多指坏的结局，含贬义。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "“最大的鲸约有十六万公斤重。”这句话：",
+        "options": [
+          "完全是胡说的",
+          "使用了列数字说明方法",
+          "使用了作比较说明方法",
+          "使用了下定义说明方法"
+        ],
+        "answer": "使用了列数字说明方法",
+        "explanation": "通过“十六万公斤”具体说明重量。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "一棵向日葵像一个金灿灿的盘子。这里运用了（___）的说明方法。",
+        "options": [],
+        "answer": "打比方",
+        "explanation": "比作盘子。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "《太阳》一课共有8个自然段，第4段到第8段主要讲太阳和（___）的关系。",
+        "options": [],
+        "answer": "人类",
+        "explanation": "后半部分侧重太阳对人类地球的重要性。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "“处心积虑”对应的褒义词通常是（___）。",
+        "options": [],
+        "answer": "费尽心思",
+        "explanation": "费尽心思多为中性偏褒，处心积虑为贬义。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "请将句子与其突出运用的说明方法对应：",
+        "options": [
+          "目前已知最大的鲸。",
+          "它的表面温度有五千多度。",
+          "它像一把撑开的伞。",
+          "比起猫来它更温顺。",
+          "列数字",
+          "举例子",
+          "打比方",
+          "作比较"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "A最大鲸是例子；B五千多度是列数字；C像伞是打比方；D比猫是作比较。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语的褒贬义辨析",
+        "question": "请将反义词组进行连线（情感色彩相反）：",
+        "options": [
+          "团结",
+          "赞扬",
+          "忠诚",
+          "坚强",
+          "诽谤",
+          "背叛",
+          "软弱",
+          "勾结"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "团结-勾结；赞扬-诽谤；忠诚-背叛；坚强-软弱。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "请匹配不同事物的最佳说明顺序：",
+        "options": [
+          "制作风筝的步骤",
+          "故宫的建筑布局",
+          "种子的生长过程",
+          "电视机的构造",
+          "空间顺序",
+          "时间顺序",
+          "工艺顺序",
+          "逻辑顺序"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "制作是工艺顺序；布局是空间；生长是时间；构造是逻辑。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明文的语言风格与条理",
+        "question": "请通过排序组成一个符合说明文特征的句子：",
+        "options": [
+          "说明文",
+          "真实的",
+          "必须给",
+          "提供",
+          "读者",
+          "信息"
+        ],
+        "answer": "说明文,必须给,读者,提供,真实的,信息",
+        "explanation": "考查对说明文科学性定义的理解。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常用说明方法的辨析与运用",
+        "question": "请排列下面的词语，说明一种方法的作用：",
+        "options": [
+          "使说明",
+          "更具体",
+          "列数字",
+          "可以",
+          "的事物"
+        ],
+        "answer": "列数字,可以,使说明,的事物,更具体",
+        "explanation": "考查列数字说明方法的作用。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "常用说明方法的辨析与运用",
+      "core_concept": "说明方法是说明文中用来介绍事物特征、解释事理的手段。五年级重点掌握四种：列数字（用确数或概数增强说服力）、打比方（用熟悉事物比喻陌生事物，增加形象性）、作比较（通过对比突出被说明对象的特点）、举例子（用代表性事例让说明更具体）。",
+      "key_formula": "找关键词：有数字看“列数字”，有比喻词看“打比方”，有对比看“作比较”。",
+      "common_mistakes": [
+        "将‘打比方’练习成修辞中的‘比喻’而忽略其说明意图",
+        "混淆‘作比较’与‘打比方’，看到‘像’就认为是打比方，而忽略了是否是两个事物在比大小优劣"
+      ],
+      "tips": "通过‘数字感、画面感、对比感、事例感’四个维度来快速区分。"
+    },
+    {
+      "point": "说明文的语言风格与条理",
+      "core_concept": "说明文按风格可分为平实说明（如《太阳》，科学严谨）和生动说明（如《松鼠》，富有文学色彩）。条理是指文章的组织方式，常见的有时间顺序、空间顺序和逻辑顺序（由主到次、由因到果、由表及里等）。",
+      "key_formula": "准确性是说明文的底色，‘大约、可能、几乎’等词不能随便去。",
+      "common_mistakes": [
+        "逻辑顺序混乱，在介绍事物时东拉西扯，没有固定视角",
+        "认为说明文必须枯燥，忽略了生动说明也可以通过拟人、描写来实现"
+      ],
+      "tips": "写作前先列提纲，确定‘先写什么、再写什么’，确保层级分明。"
+    },
+    {
+      "point": "词语的褒贬义辨析",
+      "core_concept": "词语的情感色彩分为褒义（赞美、喜爱）、贬义（厌恶、否定）和中性（客观陈述）。五年级要求在具体的说明语境或叙事语境中，根据说话人的立场选择恰当色彩的词语，避免‘褒词贬用’或‘贬词褒用’。",
+      "key_formula": "看语境：好事配褒义，坏事配贬义。",
+      "common_mistakes": [
+        "成语误用，如将‘处心积虑’当作‘费尽心思’来赞美老师",
+        "对中性词掌握不牢，无法区分‘结果’与‘后果’的细微差别"
+      ],
+      "tips": "记忆时成对记忆，如‘神机妙算’对‘阴谋诡计’，通过对比增强语感。"
+    }
+  ]
+}

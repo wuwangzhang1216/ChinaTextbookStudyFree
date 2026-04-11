@@ -1,0 +1,733 @@
+{
+  "textbook": "统编版小学语文五年级上册",
+  "unit": "第三单元：民间故事",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第三单元民间故事基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "民间故事最初是通过口耳相传的方式在人民群众中流传的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "民间故事是劳动人民创作并传播的口头文学。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "《牛郎织女》属于神话故事，不属于民间故事。",
+        "options": [],
+        "answer": "错",
+        "explanation": "《牛郎织女》是中国四大民间故事之一。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "创造性复述故事",
+        "question": "“创造性复述”就是要把故事背下来，不能改动一个字。",
+        "options": [],
+        "answer": "错",
+        "explanation": "创造性复述可以变换人称、添加细节或大胆想象。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古语与现代熟语的转换",
+        "question": "“直言不讳”对应的民间俗语是“打开天窗说亮话”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两者的意思都是直率地说话，不隐瞒。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "民间故事往往表达了劳动人民追求美好生活的愿望。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是民间故事核心的思想内涵。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语中，加点字读音正确的一项是：",
+        "options": [
+          "勤恳（kěn）",
+          "筛子（shāi）",
+          "依偎（wēi）",
+          "以上全部正确"
+        ],
+        "answer": "以上全部正确",
+        "explanation": "考查课后要求会认的字音。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "民间故事通常具有情节离奇的特点，下列哪个情节体现了这一点？",
+        "options": [
+          "老牛开口说话了",
+          "牛郎每天去下地干活",
+          "哥哥嫂子分给牛郎一辆破车",
+          "牛郎给老牛刷身子"
+        ],
+        "answer": "老牛开口说话了",
+        "explanation": "动物说话是民间故事幻想色彩的体现。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "创造性复述故事",
+        "question": "要把《猎人海力布》复述得更生动，下列做法不恰当的是：",
+        "options": [
+          "添加海力布劝说乡亲们时的语言、动作细节",
+          "变换人称，以海力布的口吻自述故事",
+          "省略掉海力布变成石头的情节",
+          "详细描写小白蛇报恩时的场景"
+        ],
+        "answer": "省略掉海力布变成石头的情节",
+        "explanation": "关键情节不能随意省略，否则故事不完整。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“牛郎照看那头老牛很周到。”中“周到”的近义词是：",
+        "options": [
+          "周密",
+          "细致",
+          "周接",
+          "大概"
+        ],
+        "answer": "细致",
+        "explanation": "周到形容照顾得细心、全面。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古语与现代熟语的转换",
+        "question": "与成语“孤掌难鸣”表达意思相近的俗语是：",
+        "options": [
+          "吃水不忘挖井人",
+          "一个巴掌拍不响",
+          "天上不会掉馅饼",
+          "前怕狼后怕虎"
+        ],
+        "answer": "一个巴掌拍不响",
+        "explanation": "两词都比喻力量单薄，难以办成事。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“织女在天上闷得不得了，就像笼子里的小鸟。”这句话运用了什么修辞？",
+        "options": [
+          "拟人",
+          "比喻",
+          "排比",
+          "夸张"
+        ],
+        "answer": "比喻",
+        "explanation": "把织女比作笼子里的鸟，表现她渴望自由。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "句式转换",
+        "question": "将“难道海力布不是为了救乡亲们才变成石头的吗？”改为陈述句，正确的是：",
+        "options": [
+          "海力布不是为了救乡亲们才变成石头的。",
+          "海力布可能不是为了救乡亲们表达意思。",
+          "海力布是为了救乡亲们才变成石头的。",
+          "海力布为了救乡亲们变成了漂亮的石头。"
+        ],
+        "answer": "海力布是为了救乡亲们才变成石头的。",
+        "explanation": "反问改陈述，去掉否定词，意思不变。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "关于《牛郎织女》和《猎人海力布》，下列说法正确的是：",
+        "options": [
+          "都是现代作家写的散文",
+          "结局都是大团圆",
+          "都含有神奇的力量或物品",
+          "都发生在同一个朝代"
+        ],
+        "answer": "都含有神奇的力量或物品",
+        "explanation": "《牛郎织女》有老牛皮，《海力布》有宝石。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“成家立（ ）”括号里应该填哪个字？",
+        "options": [
+          "业",
+          "页",
+          "夜",
+          "野"
+        ],
+        "answer": "业",
+        "explanation": "成家立业是固定词组。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "民间故事在流传过程中产生了很多版本，这体现了它的什么特点？",
+        "options": [
+          "书面性",
+          "真实性",
+          "单一性",
+          "变异性"
+        ],
+        "answer": "变异性",
+        "explanation": "流传过程中人们会根据自己的想象增补，导致多版本。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古语与现代熟语的转换",
+        "question": "书面语“饮水思源”对应的生活俗语是（________）。",
+        "options": [],
+        "answer": "吃水不忘挖井人",
+        "explanation": "考察课文提供的口语与书面语对应关系。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "《孟姜女哭长城》是我国四大民间故事之一，另外三个是《白蛇传》《牛郎织女》和《________》。",
+        "options": [],
+        "answer": "梁山伯与祝英台",
+        "explanation": "考察中国四大民间故事常识。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "创造性复述故事",
+        "question": "在复述《牛郎织女》时，我们要通过（________）来让人物形象变得更丰满。",
+        "options": [],
+        "answer": "添加细节",
+        "explanation": "通过动作、语言、心理描写增加细节使复述生动。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "请将下列词语与正确的意思连接起来。",
+        "options": [
+          "相依为命",
+          "倾盆大雨",
+          "恋恋不舍",
+          "气急败坏",
+          "形容雨非常大",
+          "互相依靠着生活",
+          "十分慌张愤恨",
+          "舍不得离开"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考察本单元词语表中成语的含义。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "请将下列故事与其对应的典型故事情节连接起来。",
+        "options": [
+          "《猎人海力布》",
+          "《牛郎织女》",
+          "《孟姜女》",
+          "《白蛇传》",
+          "鹊桥相会",
+          "哭倒长城",
+          "救下小龙女",
+          "断桥相会"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "考察学生对经典民间故事核心内容的了解。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古语与现代熟语的转换",
+        "question": "请将下列常用语与对应的书面成语连接起来。",
+        "options": [
+          "没开先打退堂鼓",
+          "盼头还没个准儿",
+          "鼻子都在气歪了",
+          "前怕狼后怕虎",
+          "半途而废",
+          "遥遥无期",
+          "气急败坏",
+          "畏首畏尾"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "成语与俗语的意义转换。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句子结构",
+        "question": "请将词语排列成一句完整通顺的话。",
+        "options": [
+          "善良的",
+          "一颗",
+          "海力布",
+          "拥有",
+          "心"
+        ],
+        "answer": "海力布,拥有,一颗,善良的,心",
+        "explanation": "主谓宾结构的简单句。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "按故事发展的逻辑，排列织女的心境变化：",
+        "options": [
+          "渴望自由",
+          "向往人间",
+          "天上寂寞",
+          "勇敢下凡"
+        ],
+        "answer": "天上寂寞,向往人间,渴望自由,勇敢下凡",
+        "explanation": "考察学生对《牛郎织女》一课人物心理脉络的理解。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册第三单元综合等级评定卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“酬谢”的“酬”字是左右结构，部首是“酉”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确识别字形结构。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "民间故事的结局往往体现了善有善报、恶有恶报。",
+        "options": [],
+        "answer": "对",
+        "explanation": "反映了劳动人民朴实的道德观。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "创造性复述故事",
+        "question": "在创造性复述中，我们可以根据故事情节加入合理的想象。",
+        "options": [],
+        "answer": "对",
+        "explanation": "合理想象能增强故事的吸引力。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "古代文学常识",
+        "question": "《乞巧》这首古诗描写的是中秋节人们祭拜月亮的场景。",
+        "options": [],
+        "answer": "错",
+        "explanation": "《乞巧》描写的是七夕节，与牛郎织女相关。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "字词义辨析",
+        "question": "“王母娘娘以此为据”中的“据”意思是根据、凭证。",
+        "options": [],
+        "answer": "对",
+        "explanation": "考查多义字在特定语境下的含义。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语书写完全正确的一项是：",
+        "options": [
+          "珍宝 谎话 延迟",
+          "牺牲 嫂子 叮嘱",
+          "发誓 郎中 悔恨",
+          "以上全部正确"
+        ],
+        "answer": "以上全部正确",
+        "explanation": "全部为本单元重点生词。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞方法识别",
+        "question": "“如果你把知道的事情说了出来，你就会变成一块石头。”这是：",
+        "options": [
+          "陈述句",
+          "设问句",
+          "假设关系的句子",
+          "转折关系的句子"
+        ],
+        "answer": "假设关系的句子",
+        "explanation": "“如果……就……”引导假设关系。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "下列民间故事中，哪一个不属于“四大民间故事”？",
+        "options": [
+          "《牛郎织女》",
+          "《花木兰》",
+          "《孟姜女》",
+          "《白蛇传》"
+        ],
+        "answer": "《花木兰》",
+        "explanation": "四大民间故事包括《梁祝》，不包括《花木兰》。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古语与现代熟语的转换",
+        "question": "“一不做，二不休”表现了人物怎样的性格特点？",
+        "options": [
+          "做事果断、彻底",
+          "优柔寡断",
+          "胆小怕事",
+          "乐于助人"
+        ],
+        "answer": "做事果断、彻底",
+        "explanation": "此俗语指事情既然做了，就索性做到底。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "短文阅读理解",
+        "question": "阅读：海力布把宝石含在嘴里，能听懂群鸟的话。他听到鸟儿说今晚大山崩塌。这让他陷入了困境。这段话说明海力布知道秘密后的心情是：",
+        "options": [
+          "兴奋不已",
+          "左右为难",
+          "欣喜若狂",
+          "毫不在意"
+        ],
+        "answer": "左右为难",
+        "explanation": "海力布陷入救人和保命之间的挣扎。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "古语与现代熟语的转换",
+        "question": "“打开天窗说亮话”对应成语：",
+        "options": [
+          "仗义执言",
+          "直言不讳",
+          "自相矛盾",
+          "口蜜腹剑"
+        ],
+        "answer": "直言不讳",
+        "explanation": "口语与书面语的转化。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "“你怎么啦（ ）你在那儿叫什么（ ）”牛郎奇怪地问。",
+        "options": [
+          "？ ？",
+          "， ？",
+          "。 ！",
+          "： ；"
+        ],
+        "answer": "？ ？",
+        "explanation": "此处为连续的疑问句。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "创造性复述故事",
+        "question": "以下哪种方式是在尝试“变换人称复述”？",
+        "options": [
+          "以织女的身份讲牛郎对她的照顾",
+          "按照课文顺序背诵一遍",
+          "画一幅牛郎织女的人物画",
+          "查阅资料了解喜鹊的习性"
+        ],
+        "answer": "以织女的身份讲牛郎对她的照顾",
+        "explanation": "“以织女的身份”将第三人称改位第一人称。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字构成",
+        "question": "“衰、挨、哀”这三个字声母相同的一项是：",
+        "options": [
+          "衰、哀",
+          "挨、哀",
+          "衰、挨",
+          "全部相同"
+        ],
+        "answer": "挨、哀",
+        "explanation": "挨、哀读音都是āi，衰读音shuāi。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "民间故事中常见的“宝物”起到了什么作用？",
+        "options": [
+          "让故事听起来更有趣、神奇",
+          "推动故事情节的发展",
+          "寄托了人们改变命运的愿望",
+          "以上都是"
+        ],
+        "answer": "以上都是",
+        "explanation": "综合考查民间故事宝物设定的功能。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "“牛郎织女”中的“郎”的意思原指（________）。",
+        "options": [],
+        "answer": "青年男子",
+        "explanation": "古汉语中常用义。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗内容",
+        "question": "《乞巧》一诗中描写少女祈求手艺进步的句子是：“家家乞巧望（________）”。",
+        "options": [],
+        "answer": "秋月",
+        "explanation": "补全诗句中的关键词。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "民间故事多采用（________）的形式开头，充满了亲切感。",
+        "options": [],
+        "answer": "从前",
+        "explanation": "经典开头如“从前有座山……”"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "民间故事的特点辨析",
+        "question": "请将人物与其对应的性格特点连接起来。",
+        "options": [
+          "牛郎",
+          "王母娘娘",
+          "海力布",
+          "老牛",
+          "残暴倔强",
+          "勤劳忠厚",
+          "舍己为人",
+          "通灵善解"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "考查人物形象的把握。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "请为下列生字选择正确的读音。",
+        "options": [
+          "裂缝",
+          "拘束",
+          "惩罚",
+          "拗不过",
+          "jū",
+          "fèng",
+          "niù",
+          "chéng"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "多音字和易错字音。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "字词义辨析",
+        "question": "将近义词进行配对。",
+        "options": [
+          "叮嘱",
+          "焦急",
+          "富裕",
+          "崩塌",
+          "着急",
+          "嘱托",
+          "坍塌",
+          "富有"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考查词汇积累。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子结构",
+        "question": "连词成句：",
+        "options": [
+          "美丽的",
+          "云彩",
+          "织女",
+          "成",
+          "把",
+          "织"
+        ],
+        "answer": "织女,把,云彩,织,成,美丽的",
+        "explanation": "“把”字句的运用。注意选项与答案词语一致。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "创造性复述故事",
+        "question": "请将复述故事的三个技巧按推荐程度排序：",
+        "options": [
+          "丰富细节",
+          "变换人称",
+          "大胆想象"
+        ],
+        "answer": "变换人称,丰富细节,大胆想象",
+        "explanation": "从基础到高阶的训练过程。三个词语完全对应。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "民间故事的特点辨析",
+      "core_concept": "民间故事是广大劳动人民自发创作并在口头流传的文学形式。其核心特征包括：具有神奇、离奇的情节（如动物报恩、法宝），采用口语化的叙述（如“从前……”开头），结构通常是重复性的。最重要的是，这类故事往往寄托了劳动人民对平等、良善、勤劳和美好爱情的追求，通常会有一个惩恶扬善、正义终将战胜邪恶的圆满或凄美结局。",
+      "key_formula": "幻想情节 + 口头语言 + 群众心愿 = 民间故事",
+      "common_mistakes": [
+        "混淆民间故事与神话故事的概念（神话侧重解释自然，民间故事侧重社会生活）",
+        "忽视民间故事在流传过程中的变异性，认为所有故事版本必须完全一样"
+      ],
+      "tips": "可以通过总结不同故事的共有‘套路’（如报恩、历险、婚变）来快速识别民间故事的类别。"
+    },
+    {
+      "point": "创造性复述故事",
+      "core_concept": "在完整把握原故事主干的基础上，通过改变视角、润色细节和补充想象，使故事更具表现力。具体手段包括：第一人称叙述（增强代入感）、增加心理描写或环境渲染（使形象丰满）、对故事中的‘空白点’进行合理扩充。这不仅仅是记忆的还原，更是基于理解的二度创作，有助于锻炼表达和思维能力。",
+      "key_formula": "保住骨干 + 改变人称 + 扩充细节 = 创造性复述",
+      "common_mistakes": [
+        "复述时改变了故事的原意或漏掉关键的核心逻辑",
+        "想象过度，脱离了民间故事原有的风格背景"
+      ],
+      "tips": "想象一下如果自己是当事人，当时会说出什么样的话、做出什么样的动作，从而自然地增加细节。"
+    },
+    {
+      "point": "古语与现代熟语的转换",
+      "core_concept": "将书面化的成语（多来自古雅文学）与通俗易懂的民间俗语进行对应。这种对比体现了汉语在书面文雅与生活实用之间的丰富层次。例如，‘直言不讳’和‘打开天窗说亮话’意思相同，但前者庄重，后者生动。学习这种转换可以帮助学生在不同场合选择最合适的语言表达方式，增强语感。",
+      "key_formula": "文雅成语 = 生动俗语（意义对等，语态互补）",
+      "common_mistakes": [
+        "生搬硬套，不分情境地在作文中使用俗语导致语言过于俚语化",
+        "对应错误，将意义相近但侧重点不同的词语强行混用"
+      ],
+      "tips": "建立一个小表格，左侧记成语，右侧写对应的俗语，成对记忆记忆效果更好。"
+    }
+  ]
+}

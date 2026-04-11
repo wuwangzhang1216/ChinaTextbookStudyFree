@@ -1,0 +1,697 @@
+{
+  "textbook": "教科版小学科学一年级上册",
+  "unit": "植物",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元《植物》基础巩固卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植物的辨别与生命意识",
+        "question": "塑料花不需要浇水，所以它不是植物。",
+        "options": [],
+        "answer": "对",
+        "explanation": "植物是活的有生命的，需要水分和阳光；塑料花是非生物。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植物的辨别与生命意识",
+        "question": "我们公园里的树木是活的，它们属于植物。",
+        "options": [],
+        "answer": "对",
+        "explanation": "树木有生命，能生长，是典型的植物。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "植物的根通常都生长在地面以上。",
+        "options": [],
+        "answer": "错",
+        "explanation": "大多数植物的根生长在土壤里，向上吸收水分和养分。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "叶的特征与多样性",
+        "question": "同一棵植物上的叶子也会有大有小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "受生长位置和时间影响，同一棵植物的叶子也会存在差异。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "植物的生长与变化记录",
+        "question": "我们可以通过画图的方法来记录植物的生长变化。",
+        "options": [],
+        "answer": "对",
+        "explanation": "画图描绘、拍照、测量都是记录植物生长的科学记录方法。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的辨别与生命意识",
+        "question": "下列属于植物的是（）。",
+        "options": [
+          "石头",
+          "小草",
+          "塑料玩具",
+          "纸蝴蝶"
+        ],
+        "answer": "小草",
+        "explanation": "小草会呼吸、生长、繁殖，是有生命的植物。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "我们通常用（）来观察植物的颜色。",
+        "options": [
+          "耳朵",
+          "鼻子",
+          "眼睛",
+          "手"
+        ],
+        "answer": "眼睛",
+        "explanation": "眼睛是视觉器官，负责感知颜色和形状。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "植物的（）通常长在土里。",
+        "options": [
+          "叶",
+          "花",
+          "果实",
+          "根"
+        ],
+        "answer": "根",
+        "explanation": "根负责固定身体和吸收水分，一般在地下。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叶的特征与多样性",
+        "question": "银杏叶的形状很像（）。",
+        "options": [
+          "小手掌",
+          "小爱心",
+          "小扇子",
+          "小雨伞"
+        ],
+        "answer": "小扇子",
+        "explanation": "银杏叶具有独特的扇形特征。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叶的特征与多样性",
+        "question": "枫叶的形状很像（）。",
+        "options": [
+          "手掌",
+          "针管",
+          "圆盘",
+          "羽毛"
+        ],
+        "answer": "手掌",
+        "explanation": "枫叶由于有多个裂片，看起来很像张开的手拿。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的生长与变化记录",
+        "question": "植物生长不需要的是（）。",
+        "options": [
+          "空气",
+          "水分",
+          "阳光",
+          "书本"
+        ],
+        "answer": "书本",
+        "explanation": "空气、水、阳光是植物生存的基本条件。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "根据叶寻找和辨认植物",
+        "question": "在校园里寻找植物时，我们（）。",
+        "options": [
+          "可以随意采摘",
+          "不能伤害它们",
+          "只看红色的花",
+          "要把根拔出来看"
+        ],
+        "answer": "不能伤害它们",
+        "explanation": "爱护生命、保护环境是科学观察的基本准则。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叶的特征与多样性",
+        "question": "秋天到了，很多植物的叶子会（）。",
+        "options": [
+          "变大",
+          "变绿",
+          "变黄或变红",
+          "变成透明"
+        ],
+        "answer": "变黄或变红",
+        "explanation": "季节更替会改变叶片内色素含量，导致颜色变化。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据叶寻找和辨认植物",
+        "question": "我们要观察植物的气味，应该用（）。",
+        "options": [
+          "手摸",
+          "舌头尝",
+          "鼻子闻",
+          "眼睛看"
+        ],
+        "answer": "鼻子闻",
+        "explanation": "鼻子是嗅觉器官，用于分辨气味。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的生长与变化记录",
+        "question": "大蒜种子种在水里，最先长出来的是（）。",
+        "options": [
+          "花",
+          "果实",
+          "根",
+          "没变化"
+        ],
+        "answer": "根",
+        "explanation": "种子萌发通常是先发根，以便吸收水分。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "向日葵的茎是（）。",
+        "options": [
+          "软绵绵的",
+          "五颜六色的",
+          "笔直支撑身体的",
+          "半透明的"
+        ],
+        "answer": "笔直支撑身体的",
+        "explanation": "茎的主要作用是支撑和运输水养。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "根据叶寻找和辨认植物",
+        "question": "捡到一片长长的、绿色的叶子，我们应该主要观察它的（）来找原植物。",
+        "options": [
+          "价格",
+          "味道",
+          "形状和边缘",
+          "重量"
+        ],
+        "answer": "形状和边缘",
+        "explanation": "叶片的形状、叶缘、叶脉是辨别植物的重要特征。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "植物的生长与变化记录",
+        "question": "在记录植物生长时，发现它长高了，我们可以（）。",
+        "options": [
+          "把植物剪掉",
+          "测量高度并记下来",
+          "假装没看见",
+          "画一个圆圈"
+        ],
+        "answer": "测量高度并记下来",
+        "explanation": "测量是科学记录生长变化的重要数据来源。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "人有2只眼睛，一棵普通的牵牛花通常有（）条主茎。",
+        "options": [],
+        "answer": "1",
+        "explanation": "普通牵牛花通常从根部萌发一条主茎向上攀援。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物的生长与变化记录",
+        "question": "如果每天给大蒜浇水，大约过（）天它就会长出绿芽。",
+        "options": [],
+        "answer": "3",
+        "explanation": "在适宜条件下，大蒜萌发周期大约为3-5天。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "植物进行光合作用获取养分的主要器官是（）。",
+        "options": [],
+        "answer": "叶",
+        "explanation": "叶片含有叶绿素，是植物制造养分的主要场所。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "支撑植物身体并将水分运送到叶子上的部分是（）。",
+        "options": [],
+        "answer": "茎",
+        "explanation": "茎承担着支撑和输导的功能。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "叶的特征与多样性",
+        "question": "叶子边缘像锯子一样的小尖尖叫做（）。",
+        "options": [],
+        "answer": "锯齿",
+        "explanation": "叶缘的一种形态描述，称为锯齿状。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第一单元《植物》期末模拟卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植物的辨别与生命意识",
+        "question": "植物在生长过程中需要阳光。",
+        "options": [],
+        "answer": "对",
+        "explanation": "阳光是植物进行光合作用必不可少的能量来源。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "植物的辨别与生命意识",
+        "question": "枯死的树木已经没有生命了，所以它现在不叫植物了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "虽然失去了生命体征，但在生物分类学上它仍属于植物范畴（植物遗体）。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "所有的植物都有根、茎、叶。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是本单元学习的常见陆生植物的基本结构（小学低段教材界定）。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "叶的特征与多样性",
+        "question": "我们可以通过叶子的气味来分辨不同的植物。",
+        "options": [],
+        "answer": "对",
+        "explanation": "有些植物如薄荷、艾草，其叶片具有独特的识别气味。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "植物的生长与变化记录",
+        "question": "植物生长只需要水，不需要空气。",
+        "options": [],
+        "answer": "错",
+        "explanation": "植物呼吸和光合作用都需要空气（氧气和二氧化碳）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的辨别与生命意识",
+        "question": "下列物体中属于非生物的是（）。",
+        "options": [
+          "牵牛花",
+          "苔藓",
+          "塑料树",
+          "大蒜"
+        ],
+        "answer": "塑料树",
+        "explanation": "塑料树是人工制造的，不具备生物的基本特征。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "我们观察植物叶片的“纹路”，实际上是在观察（）。",
+        "options": [
+          "叶柄",
+          "叶脉",
+          "叶尖",
+          "叶缘"
+        ],
+        "answer": "叶脉",
+        "explanation": "叶片上的纹路被称为叶脉，具有输导和支撑作用。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叶的特征与多样性",
+        "question": "我们可以观察到秋天的叶子相比春天通常变（）了。",
+        "options": [
+          "嫩",
+          "绿",
+          "枯萎",
+          "透明"
+        ],
+        "answer": "枯萎",
+        "explanation": "秋季气温降低，许多落叶植物的叶子会变色、干枯并脱落。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物的生长与变化记录",
+        "question": "在种大蒜的实验中，我们应该把大蒜的哪一部分朝下（）。",
+        "options": [
+          "尖尖的一头",
+          "有须根的一头",
+          "随便哪一头",
+          "侧着放"
+        ],
+        "answer": "有须根的一头",
+        "explanation": "根部朝下是为了方便吸收水分和扎根。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "根据叶寻找和辨认植物",
+        "question": "有一种叶子边缘有很多小缺口，像锯子一样，这属于叶子的（）特征。",
+        "options": [
+          "颜色",
+          "叶脉",
+          "叶缘",
+          "叶柄"
+        ],
+        "answer": "叶缘",
+        "explanation": "叶片的边缘形态称为叶缘。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "植物的哪一部分负责固定植物不被风吹倒（）。",
+        "options": [
+          "花",
+          "叶",
+          "果实",
+          "根"
+        ],
+        "answer": "根",
+        "explanation": "根生长在地下，起到强大的固定和支撑作用。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物的生长与变化记录",
+        "question": "为了观察植物的生长，我们最好选择（）的方法记录。",
+        "options": [
+          "几天观察一次并画图",
+          "只在开花时看一次",
+          "凭脑子记不写",
+          "每天把叶子摘下来数"
+        ],
+        "answer": "几天观察一次并画图",
+        "explanation": "定期定点观察并形成图文资料是科学研究的好习惯。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叶的特征与多样性",
+        "question": "松树的叶子长得很像（）。",
+        "options": [
+          "扇子",
+          "小针",
+          "手掌",
+          "圆盘"
+        ],
+        "answer": "小针",
+        "explanation": "松叶为针状，是适应寒冷或干旱环境的特征。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的辨别与生命意识",
+        "question": "当我们发现路边的小草变黄了，我们应该（）。",
+        "options": [
+          "把它拔掉",
+          "给它浇点水",
+          "踩碎它",
+          "不管它"
+        ],
+        "answer": "给它浇点水",
+        "explanation": "体现对生命的爱护，通过简单的养护观察其反应。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "连接根和叶的部分是（）。",
+        "options": [
+          "叶脉",
+          "茎",
+          "花瓣",
+          "种子"
+        ],
+        "answer": "茎",
+        "explanation": "茎是植物的中轴部分，连接根、叶、花、果。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "植物的生长与变化记录",
+        "question": "如果你种的植物枯萎了，可能是因为缺乏（）。",
+        "options": [
+          "石头",
+          "阳光和水",
+          "书包",
+          "音乐"
+        ],
+        "answer": "阳光和水",
+        "explanation": "植物生长必须具备水、空气、阳光等基本生存要素。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "根据叶寻找和辨认植物",
+        "question": "在校园里找叶子的家时，我们应该（）。",
+        "options": [
+          "把整棵树摇一摇",
+          "对照叶子的特征寻找",
+          "随便猜一个",
+          "摘下叶子拿去问老师"
+        ],
+        "answer": "对照叶子的特征寻找",
+        "explanation": "利用观察对比的方法进行科学鉴定。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叶的特征与多样性",
+        "question": "下列哪种方法不能帮助我们辨别叶子（）。",
+        "options": [
+          "看形状",
+          "闻气味",
+          "摸表面",
+          "听声音"
+        ],
+        "answer": "听声音",
+        "explanation": "植物叶子不会主动发声，听觉不是主要的观察方式。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叶的特征与多样性",
+        "question": "三叶草因为每片复叶上通常有（）片小叶子而得名。",
+        "options": [],
+        "answer": "3",
+        "explanation": "名字体现了其明显的结构特征。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "植物的生长与变化记录",
+        "question": "我们每周给绿萝浇2次水，两周一共需要浇（）次水。",
+        "options": [],
+        "answer": "4",
+        "explanation": "简单的跨学科数学应用，2次×2周=4次。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察一棵植物的结构",
+        "question": "植物的身体一般分为根、茎、（）三个主要部分。",
+        "options": [],
+        "answer": "叶",
+        "explanation": "一年级重点掌握植物的三大营养器官。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物的辨别与生命意识",
+        "question": "像小草这样春天发芽、冬天枯萎的变化说明植物是有（）的。",
+        "options": [],
+        "answer": "生命",
+        "explanation": "生长、凋谢是生命周期的体现。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "根据叶寻找和辨认植物",
+        "question": "我们观察叶子的表面，有的光滑，有的（）。",
+        "options": [],
+        "answer": "粗糙",
+        "explanation": "通过触觉感受植物表面的质地差异。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "植物的辨别",
+      "core_concept": "植物是有生命的生物，需要水分、阳光和空气。",
+      "key_formula": "植物的基本特征 = 会生长 + 会繁殖 + 需要营养 + 对刺激有反应",
+      "common_mistakes": [
+        "认为塑料花是植物",
+        "认为落叶或枯树不是植物"
+      ],
+      "tips": "观察时先看是否在生长，是否有根茎叶结构。"
+    },
+    {
+      "point": "植物的结构",
+      "core_concept": "常见植物通常由根、茎、叶组成。",
+      "key_formula": "根吸水，茎运输，叶制造养分",
+      "common_mistakes": [
+        "找不到茎（以为叶子直接长根上）",
+        "弄错根的位置"
+      ],
+      "tips": "从下往上观察：泥土里是根，中间是茎，上面是叶。"
+    },
+    {
+      "point": "叶的特征",
+      "core_concept": "不同的植物叶子形状、颜色、大小、气味各不相同。",
+      "key_formula": "叶 = 叶片 + 叶柄；叶片上有叶脉",
+      "common_mistakes": [
+        "认为所有的叶子都是绿色的",
+        "忽略叶子的气味和手感"
+      ],
+      "tips": "可以用画图法记录叶子的形状，如：扇形、针形、心形等。"
+    },
+    {
+      "point": "植物记录方法",
+      "core_concept": "通过长期观察和记录，可以发现植物是在动态变化的。",
+      "key_formula": "科学记录 = 真实观察 + 持续时间 + 图文/数据",
+      "common_mistakes": [
+        "只记录一天就得出结论",
+        "主观编造生长高度"
+      ],
+      "tips": "种大蒜时，注意水位不要淹没整个蒜头，防止腐烂。"
+    }
+  ]
+}

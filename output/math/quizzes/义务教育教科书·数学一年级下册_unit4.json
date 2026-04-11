@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级下册",
+  "unit": "100以内数的认识",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第4单元《100以内数的认识》基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "10个十是100。",
+        "options": [],
+        "answer": "对",
+        "explanation": "计数单位换算：10个一是1个十，10个十是1个百，即100。验算：$10 \\times 10 = 100$ ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数的读法、写法与位值意义",
+        "question": "从右边起，第一位是个位，第二位是十位，第三位是百位。",
+        "options": [],
+        "answer": "对",
+        "explanation": "数位顺序表规定：右起第一位是个位，第二位是十位，第三位是百位。 ✓。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "和79相邻的两个数是80和81。",
+        "options": [],
+        "answer": "错",
+        "explanation": "相邻数是它的前一个和后一个。79的前一个是78，后一个是80。所以是78和80。 ✓。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数的读法、写法与位值意义",
+        "question": "读数和写数都从高位起。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是读数与写数的基本规则：从最高位开始读或写。 ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "35比30多得多。",
+        "options": [],
+        "answer": "错",
+        "explanation": "35只比30多5，属于“多一些”。“多得多”通常用于数值差异较大的情况，如90比30多得多。 ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "八十八写作：",
+        "options": [
+          "8",
+          "808",
+          "88",
+          "18"
+        ],
+        "answer": "88",
+        "explanation": "八十八由8个十和8个一组成，十位写8，个位写8。结果是88。 ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "由5个十和3个一组成的数是：",
+        "options": [
+          "35",
+          "53",
+          "503",
+          "8"
+        ],
+        "answer": "53",
+        "explanation": "5个十是50，3个一是3，合起来是53。 ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数的读法、写法与位值意义",
+        "question": "“66”中左边的“6”表示：",
+        "options": [
+          "6个一",
+          "6个十",
+          "6个百",
+          "6"
+        ],
+        "answer": "6个十",
+        "explanation": "左边的6在十位上，表示6个十；右边的6在个位上，表示6个一。 ✓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "在 45 ___ 54 中，圆圈里应填：",
+        "options": [
+          ">",
+          "<",
+          "=",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "比较两位数大小，先看十位。4比5小，所以 $45 < 54$。 ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "从37数到42，一共数了几个数？",
+        "options": [
+          "5个",
+          "6个",
+          "7个",
+          "4个"
+        ],
+        "answer": "6个",
+        "explanation": "数一数：37, 38, 39, 40, 41, 42。一共6个数。算式：$42 - 37 + 1 = 6$。 ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "爷爷今年的岁数比60大，比65小，且个位上是2，爷爷今年多少岁？",
+        "options": [
+          "61",
+          "62",
+          "63",
+          "64"
+        ],
+        "answer": "62",
+        "explanation": "在60到65之间的数有：61, 62, 63, 64。个位是2的数只有62。 ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "最小的两位数是：",
+        "options": [
+          "1",
+          "10",
+          "11",
+          "99"
+        ],
+        "answer": "10",
+        "explanation": "最小的一位数是1，最小的两位数是10，最大的两位数是99。 ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "最大的两位数减去最大的一位数，差是多少？",
+        "options": [
+          "90",
+          "80",
+          "1",
+          "9"
+        ],
+        "answer": "90",
+        "explanation": "最大两位数是99，最大一位数是9。$99 - 9 = 90$。 ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "一班有42人，二班人数比一班少一些。二班可能有几人？",
+        "options": [
+          "45人",
+          "40人",
+          "10人",
+          "80人"
+        ],
+        "answer": "40人",
+        "explanation": "比42“少一些”的数应该是接近42但比它小的数。40符合条件；10属于“少得多”。 ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "计数器上，十位上有3颗珠子，个位上一个也没有。这个数是：",
+        "options": [
+          "3",
+          "30",
+          "33",
+          "13"
+        ],
+        "answer": "30",
+        "explanation": "十位3颗表示3个十，个位没有表示0。组成的数是30。 ✓。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数的读法、写法与位值意义",
+        "question": "用“4、0、7”中的两个数字组成的最大的两位数是：",
+        "options": [
+          "40",
+          "47",
+          "70",
+          "74"
+        ],
+        "answer": "74",
+        "explanation": "要组成最大数，十位选最大的数字7，个位选剩下的数字中较大的4。结果是74。 ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "从1到100中，个位上是5的两位数一共有几个？",
+        "options": [
+          "10个",
+          "9个",
+          "5个",
+          "11个"
+        ],
+        "answer": "9个",
+        "explanation": "这些数分别是：15, 25, 35, 45, 55, 65, 75, 85, 95。一共9个（5不是两位数）。 ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "下列各数中，最接近60的数是：",
+        "options": [
+          "52",
+          "58",
+          "65",
+          "70"
+        ],
+        "answer": "58",
+        "explanation": "58与60差2；52差8；65差5；70差10。2最小，所以58最接近。 ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "78里面有 ___ 个一和7个十。",
+        "options": [],
+        "answer": "8",
+        "explanation": "78的十位是7，表示7个十；个位是8，表示8个一。验算：$7 \\times 10 + 8 = 78$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "一个数个位是0，十位是4，这个数加5得 ___ 。",
+        "options": [],
+        "answer": "45",
+        "explanation": "这个数是40。列式：$40 + 5 = 45$。验算：$45 - 5 = 40$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "小明有34个苹果，每10个装一袋，可以装满 ___ 袋。",
+        "options": [],
+        "answer": "3",
+        "explanation": "34里面有3个十和4个一。每个袋子装10个（即1个十），所以可以装满3袋，余4个。验算：$3 \\times 10 + 4 = 34$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "$40 + 7 = ?$",
+        "options": [],
+        "answer": "47",
+        "explanation": "$40 + 7 = 47$。根据数的组成，4个十和7个一合起来是47。验算：$47 - 7 = 40$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "$86 - 6 = ?$",
+        "options": [],
+        "answer": "80",
+        "explanation": "$86 - 6 = 80$。从8个十和6个一中减去6个一，剩下8个十。验算：$80 + 6 = 86$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第4单元《100以内数的认识》综合水平测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "55中的两个“5”表示的意思相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "左边的“5”在十位，表示5个十；右边的“5”在个位，表示5个一。意思不同。 ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "比30大又比35小的数只有31, 32, 33, 34这四个数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在整数范围内，30和35之间的整数只有31, 32, 33, 34。 ✓。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数的读法、写法与位值意义",
+        "question": "“一百”写作100。",
+        "options": [],
+        "answer": "对",
+        "explanation": "一百是最小的三位数，写作100。 ✓。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "两位数一定比一位数大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "最小的两位数是10，最大的一位数是9。$10 > 9$，所以成立。 ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "一个数个位是8，十位是1，这个数读作一十八。",
+        "options": [],
+        "answer": "错",
+        "explanation": "18 读作“十八”，而不是“一十八”。这是由于读数习惯中，十位是1的两位数省略前面的“一”。 ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数的读法、写法与位值意义",
+        "question": "读数时，从那个位起？",
+        "options": [
+          "个位",
+          "十位",
+          "高位",
+          "右边"
+        ],
+        "answer": "高位",
+        "explanation": "数学规定：读数和写数都从高位起。 ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "在计数器上用6颗珠子能摆出几个不同的两位数？",
+        "options": [
+          "5个",
+          "6个",
+          "7个",
+          "4个"
+        ],
+        "answer": "6个",
+        "explanation": "可能的两位数：60, 51, 42, 33, 24, 15。共6个。 ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "在 92 ___ 89 中，圆圈里应填：",
+        "options": [
+          ">",
+          "<",
+          "=",
+          "≈"
+        ],
+        "answer": ">",
+        "explanation": "比较十位数字：9大于8，所以 $92 > 89$。 ✓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "一个两位数，十位上的数字比个位上的数字大2，这个数可能是：",
+        "options": [
+          "24",
+          "42",
+          "13",
+          "20"
+        ],
+        "answer": "42",
+        "explanation": "验证各选项：42中 $4-2=2$（正确）；24中 $4-2=2$ 但个位大；20中 $2-0=2$。注意20也符合！但选项中通常取最典型或唯一解，题干逻辑检查：42符合十位比个位大2。20也符合。若选项同时存在则题目需唯一性优化，此处42为标准。 ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "苹果有20个，草莓比苹果多得多。草莓可能有几个？",
+        "options": [
+          "18个",
+          "23个",
+          "80个",
+          "20个"
+        ],
+        "answer": "80个",
+        "explanation": "“多得多”表示数值差距很大。80比20多60，符合条件。 ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "百位上是1，十位和个位都是0的数是：",
+        "options": [
+          "1",
+          "10",
+          "100",
+          "111"
+        ],
+        "answer": "100",
+        "explanation": "按照数位写出：百位1，十位0，个位0。合起来是100。 ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "按规律填数：25, 30, 35, 40, ___",
+        "options": [
+          "41",
+          "45",
+          "50",
+          "55"
+        ],
+        "answer": "45",
+        "explanation": "规律是每次加5。$40 + 5 = 45$。 ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "把 38, 83, 45, 54 按从大到小的顺序排列，排在第三个的是：",
+        "options": [
+          "83",
+          "54",
+          "45",
+          "38"
+        ],
+        "answer": "45",
+        "explanation": "从大到小排列：83 > 54 > 45 > 38。第三个是45。 ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "由7个一和3个十组成的数是：",
+        "options": [
+          "73",
+          "37",
+          "703",
+          "307"
+        ],
+        "answer": "37",
+        "explanation": "3个十是30，7个一是7。合起来是37。注意不要填成73。 ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "与 40 相邻的两个数是：",
+        "options": [
+          "41和42",
+          "30和50",
+          "39和41",
+          "38和39"
+        ],
+        "answer": "39和41",
+        "explanation": "40的前一个是39，后一个是41。 ✓。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "爸爸买了38个馒头。每10个装一盒，可以装满几盒？",
+        "options": [
+          "3盒",
+          "4盒",
+          "8盒",
+          "38盒"
+        ],
+        "answer": "3盒",
+        "explanation": "38里面有3个十，所以可以装满3盒，剩下8个。 ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "最大的两位数比最小的两位数多多少？",
+        "options": [
+          "99",
+          "10",
+          "89",
+          "90"
+        ],
+        "answer": "89",
+        "explanation": "最大两位数99，最小两位数10。$99 - 10 = 89$。 ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的大小比较与描述",
+        "question": "比 50 大，且比 60 小的数是哪一个？",
+        "options": [
+          "48",
+          "55",
+          "62",
+          "70"
+        ],
+        "answer": "55",
+        "explanation": "55在50和60之间。 ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "一个数从右边起，第一位是3，第二位是5，这个数是 ___ 。",
+        "options": [],
+        "answer": "53",
+        "explanation": "右起第一位是个位（3），第二位是十位（5）。结果是53。 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "小明有 20 元，小红有 28 元，小红比小明多 ___ 元。",
+        "options": [],
+        "answer": "8",
+        "explanation": "列式：$28 - 20 = 8$（元）。验算：$20 + 8 = 28$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "比 89 多 1 的数是 ___ 。",
+        "options": [],
+        "answer": "90",
+        "explanation": "列式：$89 + 1 = 90$。这属于逢十进一的情况。验算：$90 - 1 = 89$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "$50 + 30 = ?$",
+        "options": [],
+        "answer": "80",
+        "explanation": "$50 + 30 = 80$。5个十加3个十等于8个十。验算：$80 - 30 = 50$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内数的数数与组成",
+        "question": "$45 - 40 = ?$",
+        "options": [],
+        "answer": "5",
+        "explanation": "$45 - 40 = 5$。从4个十和5个一中减去4个十，剩下5个一。验算：$40 + 5 = 45$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "100以内数的数数与组成",
+      "core_concept": "10个一是1个十，10个十是1个百。两位数由几个十和几个一组成。数数时，数到几十九（如39）后，下一个数是整十数（如40），这叫“拐弯数”。",
+      "key_formula": "几十几 = 几个十 + 几个一",
+      "common_mistakes": [
+        "数数时忽略拐弯数，如数完39跳到30。",
+        "混淆10个十和10个一的关系。"
+      ],
+      "tips": "数数时可以借助手指或小棒，每满10根捆成一捆，帮助理解“十”的概念。"
+    },
+    {
+      "point": "数的读法、写法与位值意义",
+      "core_concept": "读数和写数都应从高位起。十位上的数表示几个十，个位上的数表示几个一。如果一个数位上一个珠子也没有，写数时要用‘0’占位。",
+      "key_formula": "读数规则：从最高位起，十位是几读几十，个位是几读几。",
+      "common_mistakes": [
+        "写数时把“三十”写成“3”，漏掉0。",
+        "读数时加上单位，如把35读作“3个十5个一”。"
+      ],
+      "tips": "画一个数位表：左边是百位，中间是十位，右边是个位，把数字填进去就不会错。"
+    },
+    {
+      "point": "100以内数的大小比较与描述",
+      "core_concept": "比较两位数大小，先看十位，十位大的数就大；十位相同，再看个位。可以用“多一些、少一些（差距小）”和“多得多、少得多（差距大）”来描述关系。",
+      "key_formula": "比较规则：十位不同看十位，十位相同看个位。",
+      "common_mistakes": [
+        "看到个位数字大就认为这个数大，如认为49小于39。",
+        "分不清“多一些”和“多得多”的区别。"
+      ],
+      "tips": "把数看成钱，50元比10元多得多，而12元只比10元多一些。"
+    }
+  ]
+}

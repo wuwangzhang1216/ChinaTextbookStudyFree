@@ -1,0 +1,709 @@
+{
+  "textbook": "人教版 PEP 英语五年级上册",
+  "unit": "What can you do?",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Unit 4 What can you do? 单元基础评测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "'speak English' 的中文意思是'说英语'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "speak 是‘说’，English 是‘英语’，故正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "question": "玩足球应该说 'play the football'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在英语中，球类运动前不加定冠词the，应该是play football。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "语音：字母组合oo的发音辨析",
+        "question": "单词 'cook' 和 'cool' 中的 'oo' 发音相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "cook发短音/ʊ/，cool发长音/u:/。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "句子 'I can sing, but I can't dance.' 表达了能力的转折。",
+        "options": [],
+        "answer": "对",
+        "explanation": "but连接两个分句，表示我会唱歌但是不会跳舞。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "'do kung fu' 的意思是‘练武术’。",
+        "options": [],
+        "answer": "对",
+        "explanation": "kung fu是武术，do kung fu是练武术。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "I can _____ English songs.",
+        "options": [
+          "sing",
+          "singing",
+          "sings",
+          "to sing"
+        ],
+        "answer": "sing",
+        "explanation": "情态动词can后面必须跟动词原形。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "question": "Chen Jie can play _____ pipa.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "/"
+        ],
+        "answer": "the",
+        "explanation": "在西洋或民族乐器名称前通常要加定冠词the。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "-Can you swim? -______.",
+        "options": [
+          "Yes, I can't",
+          "No, I can",
+          "Yes, I can",
+          "No, I do"
+        ],
+        "answer": "Yes, I can",
+        "explanation": "Can you引导的一般疑问句，肯定回答用Yes, I can."
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "Please _____ the room, Robin.",
+        "options": [
+          "clean",
+          "play",
+          "sing",
+          "dance"
+        ],
+        "answer": "clean",
+        "explanation": "clean the room是清理房间，语义逻辑正确。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语音：字母组合oo的发音辨析",
+        "question": "Which word has a different sound for 'oo'?",
+        "options": [
+          "food",
+          "cool",
+          "zoo",
+          "book"
+        ],
+        "answer": "book",
+        "explanation": "book发短音/ʊ/，其余三项发长音/u:/。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "你能帮我吗？用英语怎么说？",
+        "options": [
+          "What can you do?",
+          "Can you help me?",
+          "Do you help me?",
+          "Can I help you?"
+        ],
+        "answer": "Can you help me?",
+        "explanation": "Can you help me? 是询问对方能否帮助自己。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "question": "He can play _____ basketball and play _____ erhu.",
+        "options": [
+          "the; /",
+          "/; the",
+          "the; the",
+          "/; /"
+        ],
+        "answer": "/; the",
+        "explanation": "球类运动前不加the，乐器前加the。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "What's the meaning of 'draw cartoons'?",
+        "options": [
+          "写作业",
+          "画漫画",
+          "看电视",
+          "打扫房间"
+        ],
+        "answer": "画漫画",
+        "explanation": "draw是画，cartoons是漫画。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "I can't play ping-pong, _____ I can play football.",
+        "options": [
+          "and",
+          "too",
+          "but",
+          "or"
+        ],
+        "answer": "but",
+        "explanation": "前后属于转折关系，使用but连接。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "个人能力动词短语",
+        "question": "We have an English party next Tuesday. We can ______.",
+        "options": [
+          "do some kung fu",
+          "play some football",
+          "sing some English songs",
+          "do some homework"
+        ],
+        "answer": "sing some English songs",
+        "explanation": "在英语派对上，最合适的活动是唱英文歌。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "I can swim and I can _____ (跳舞).",
+        "options": [],
+        "answer": "dance",
+        "explanation": "dance是跳舞的意思。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "What _____ you do for the party?",
+        "options": [],
+        "answer": "can",
+        "explanation": "询问对方能做什么，使用情态动词can。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "question": "Sarah can play _____ piano.",
+        "options": [],
+        "answer": "the",
+        "explanation": "乐器名称前需要加定冠词the。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "I can _____ (烹饪) for my mother.",
+        "options": [],
+        "answer": "cook",
+        "explanation": "cook是烹饪、做饭的意思。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "请将下列动词短语与中文意思匹配。",
+        "options": [
+          "cook",
+          "swim",
+          "do kung fu",
+          "draw cartoons",
+          "游泳",
+          "画漫画",
+          "做饭",
+          "练武术"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "cook-做饭, swim-游泳, do kung fu-练武术, draw cartoons-画漫画。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "个人能力动词短语",
+        "question": "请将乐器与动作匹配。",
+        "options": [
+          "play the pipa",
+          "play the piano",
+          "speak English",
+          "clean the desk",
+          "弹钢琴",
+          "说英语",
+          "打扫课桌",
+          "弹琵琶"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "play the pipa-弹琵琶, play the piano-弹钢琴, speak English-说英语, clean the desk-打扫课桌。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "连词成句：can, I, swim, .",
+        "options": [
+          "can",
+          "I",
+          "swim",
+          "."
+        ],
+        "answer": "I,can,swim,.",
+        "explanation": "陈述句语序为主语+can+动词原形。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "连词成句：What, can, do, you, ?",
+        "options": [
+          "What",
+          "can",
+          "do",
+          "you",
+          "?"
+        ],
+        "answer": "What,can,you,do,?",
+        "explanation": "疑问句语序为疑问词+can+主语+动词原形。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册第四单元学业质量监测卷",
+    "total_score": 95,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "语音：字母组合oo的发音辨析",
+        "question": "'food' 中的 'oo' 发音和 'cool' 是一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两个单词中的oo都发长音/u:/。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "question": "弹钢琴是 'play piano'，打篮球是 'play basketball'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "乐器piano前面必须加the。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "Can you speak Chinese? 意思是你不能说汉语吗？",
+        "options": [],
+        "answer": "错",
+        "explanation": "这是一个肯定形式的一般疑问句，意思是‘你会说汉语吗？’。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "He can plays the pipa.",
+        "options": [],
+        "answer": "错",
+        "explanation": "不管主语是否为第三人称单数，can后面的动词都必须用原形。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "'send' 的意思是发出/送出。",
+        "options": [],
+        "answer": "对",
+        "explanation": "send email是发邮件，send意为发出。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "Oliver can't play football, _____ he can do some kung fu.",
+        "options": [
+          "and",
+          "but",
+          "so",
+          "or"
+        ],
+        "answer": "but",
+        "explanation": "表示转折关系用but。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "语音：字母组合oo的发音辨析",
+        "question": "Which word has a different sound for 'oo' than 'foot'?",
+        "options": [
+          "good",
+          "look",
+          "cool",
+          "cook"
+        ],
+        "answer": "cool",
+        "explanation": "foot, good, look, cook均发/ʊ/，而cool发/u:/。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "Robin can _____ English and Chinese.",
+        "options": [
+          "talk",
+          "say",
+          "speak",
+          "tell"
+        ],
+        "answer": "speak",
+        "explanation": "表达‘说某种语言’固定搭配用speak。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "-What can you do?  -_____.",
+        "options": [
+          "I am helpful",
+          "I can dance",
+          "You can dance",
+          "I like dancing"
+        ],
+        "answer": "I can dance",
+        "explanation": "针对What can you do的回答，应使用I can..."
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "个人能力动词短语",
+        "question": "Sarah can _____ for the party.",
+        "options": [
+          "sings English songs",
+          "singing English songs",
+          "sing English songs",
+          "to sing English songs"
+        ],
+        "answer": "sing English songs",
+        "explanation": "can之后接动词原形。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "question": "I like music. I can play _____ piano, but I can't play _____ ping-pong.",
+        "options": [
+          "/; the",
+          "the; the",
+          "the; /",
+          "/; /"
+        ],
+        "answer": "the; /",
+        "explanation": "乐器前有the，球类前无the。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "个人能力动词短语",
+        "question": "We can help you _____.",
+        "options": [
+          "swim",
+          "speak",
+          "learn",
+          "do"
+        ],
+        "answer": "learn",
+        "explanation": "help you learn是‘帮你学习’，符合逻辑。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "Which of the following is a sport(运动)?",
+        "options": [
+          "play the lute",
+          "play football",
+          "sing songs",
+          "draw cartoons"
+        ],
+        "answer": "play football",
+        "explanation": "踢足球是一项体育运动。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "个人能力动词短语",
+        "question": "I can help my mother _____ the clothes.",
+        "options": [
+          "wash",
+          "washing",
+          "to washing",
+          "washes"
+        ],
+        "answer": "wash",
+        "explanation": "help sb (to) do sth，这里省略了to，用原形wash。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "-Can you do any kung fu? -_____.",
+        "options": [
+          "Yes, I do",
+          "No, I can",
+          "Yes, I can't",
+          "No, I can't"
+        ],
+        "answer": "No, I can't",
+        "explanation": "否定回答用No, I can't."
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语音：字母组合oo的发音辨析",
+        "question": "The opposite(反义词) of 'bad' is g_____.",
+        "options": [],
+        "answer": "good",
+        "explanation": "bad的反义词是good。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "question": "I often play _____ football with my friends.",
+        "options": [],
+        "answer": "play",
+        "explanation": "根据题干，这里缺动词play。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情态动词can的肯否定用法",
+        "question": "I _____ (不能) speak English.",
+        "options": [],
+        "answer": "can't",
+        "explanation": "不能是can not的缩写can't。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "Can you draw _____ (漫画)?",
+        "options": [],
+        "answer": "cartoons",
+        "explanation": "cartoon的复数形式cartoons。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "个人能力动词短语",
+        "question": "连线相应的活动：",
+        "options": [
+          "play ping-pong",
+          "play the violin",
+          "do kung fu",
+          "wash clothes",
+          "练武术",
+          "洗衣服",
+          "打乒乓球",
+          "拉小提琴"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "play ping-pong-打乒乓球, play the violin-拉小提琴, do kung fu-练武术, wash clothes-洗衣服。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人能力动词短语",
+        "question": "匹配动作与场所：",
+        "options": [
+          "swim",
+          "play basketball",
+          "read books",
+          "sing songs",
+          "操场",
+          "音乐教室",
+          "泳池",
+          "图书馆"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "游泳在泳池，篮球在操场，读书在图书馆，唱歌在音乐教室。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乐器与球类运动的冠词规则",
+        "question": "连词成句：play, I, can, the, pipa, .",
+        "options": [
+          "play",
+          "I",
+          "can",
+          "the",
+          "pipa",
+          "."
+        ],
+        "answer": "I,can,play,the,pipa,.",
+        "explanation": "注意乐器前的the位置。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "个人能力动词短语",
+      "core_concept": "描述自己或他人在艺术、体育、生活等方面的能力。",
+      "key_formula": "动词原形 + 名词 (如: sing English songs, do kung fu)",
+      "common_mistakes": [
+        "将'练武术'说成'play kung fu'（应使用do）",
+        "词组拼写错误，如'pipa'拼写成'piapa'"
+      ],
+      "tips": "可以通过肢体动作演示来记忆这些动词短语。"
+    },
+    {
+      "point": "情态动词can的肯否定用法",
+      "core_concept": "can表示'能'，后面接动词原形，否定形式为can't。",
+      "key_formula": "主语 + can/can't + 动词原形 (+ 其他).",
+      "common_mistakes": [
+        "在can后面误用动词ing形式或三单形式",
+        "回答Can you...时误用Yes, I do."
+      ],
+      "tips": "记住can是一个'法力无边'的词，它可以让后面的动词全部变回原形。"
+    },
+    {
+      "point": "乐器与球类冠词法则",
+      "core_concept": "在英语中，弹奏乐器名和进行球类运动名称前的定冠词用法不同。",
+      "key_formula": "play + the + 乐器; play + 球类运动 (无冠词)",
+      "common_mistakes": [
+        "play the football",
+        "play piano"
+      ],
+      "tips": "口诀：乐器有'脸'(the)，球类没'脸'。"
+    },
+    {
+      "point": "语音：oo组合发音",
+      "core_concept": "字母组合oo在不同单词中可以发长音/u:/或短音/ʊ/。",
+      "key_formula": "长音/u:/: food, cool, zoo; 短音/ʊ/: book, cook, foot, good.",
+      "common_mistakes": [
+        "混淆food和foot的发音。"
+      ],
+      "tips": "记短音口诀：看(look)书(book)做饭(cook)，好(good)脚(foot)。"
+    }
+  ]
+}

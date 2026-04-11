@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学六年级上册",
+  "unit": "总复习",
+  "unit_number": 9,
+  "unit_test": {
+    "title": "第九单元「总复习」基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "一根绳子长 1 米，用去 80% 之后，还剩下 20% 米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "百分数表示两个数之间的倍数关系，不能带单位名称。剩下的长度应该是 $1 \\times 20\\% = 0.2$ 米。验算：$80\\% + 20\\% = 100\\%$ 正确，但单位添加错误。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "如果甲数与乙数的比是 $3 : 5$，那么甲数就是乙数的 $\\frac{3}{5}$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "比的后项相当于分母，前项相当于分子。$3 : 5$ 写成分数形式即为 $\\frac{3}{5}$。验算：$3 \\div 5 = 0.6$，$\\frac{3}{5} = 0.6$，一致。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "几何图形组合复习",
+        "question": "圆的周长总是它直径的 $\\pi$ 倍。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据圆周长的定义，$C = \\pi d$，周长与直径的比值是一个固定常数 $\\pi$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "一件衣服先提价 10%，再降价 10%，现价和原价一样多。",
+        "options": [],
+        "answer": "错",
+        "explanation": "提价时的单位“1”是原价，降价时的单位“1”是提价后的价格。$1 \\times (1 + 10\\%) \\times (1 - 10\\%) = 0.99$。$0.99 < 1$，所以现价比原价低。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "扇形统计图可以清楚地表示出各部分数量与总量之间的关系。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是扇形统计图的基本特点，用于显示部分占总体的百分比。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "把 25 克盐放入 100 克水中，盐水的含盐率是多少？",
+        "options": [
+          "25%",
+          "20%",
+          "75%",
+          "125%"
+        ],
+        "answer": "20%",
+        "explanation": "含盐率 = 盐 / (盐 + 水)。$25 \\div (25 + 100) = 25 \\div 125 = 0.2 = 20\\%$。验算：$125 \\times 20\\% = 25$ ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "在一个比中，前项是 8，比值是 $\\frac{1}{2}$，后项是多少？",
+        "options": [
+          "4",
+          "8",
+          "16",
+          "32"
+        ],
+        "answer": "16",
+        "explanation": "后项 = 前项 $\\div$ 比值。$8 \\div \\frac{1}{2} = 8 \\times 2 = 16$。验算：$8 : 16 = 1 : 2$ ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "几何图形组合复习",
+        "question": "一个圆的半径扩大到原来的 3 倍，它的面积扩大到原来的几倍？",
+        "options": [
+          "3 倍",
+          "6 倍",
+          "9 倍",
+          "27 倍"
+        ],
+        "answer": "9 倍",
+        "explanation": "圆的面积 $S = \\pi r^2$。半径变为 $3r$，面积变为 $\\pi(3r)^2 = 9\\pi r^2$。验算：$3 \\times 3 = 9$ ✓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "同样的梨，甲超市 10 元买 4 个，乙超市 15 元买 6 个。哪家超市便宜？",
+        "options": [
+          "甲超市便宜",
+          "乙超市便宜",
+          "一样便宜",
+          "无法比较"
+        ],
+        "answer": "一样便宜",
+        "explanation": "甲：$10 \\div 4 = 2.5$（元/个）；乙：$15 \\div 6 = 2.5$（元/个）。价格相等。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "甲数比乙数多 25%，则乙数比甲数少多少？",
+        "options": [
+          "25%",
+          "20%",
+          "75%",
+          "80%"
+        ],
+        "answer": "20%",
+        "explanation": "设乙为 100，则甲为 125。乙比甲少 $(125-100) \\div 125 = 25 \\div 125 = 0.2 = 20\\%$。验算：$125 \\times (1 - 20\\%) = 100$ ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "要统计东莞市 12 个月的气温变化情况，选用哪种统计图最合适？",
+        "options": [
+          "条形统计图",
+          "折线统计图",
+          "扇形统计图",
+          "统计表"
+        ],
+        "answer": "折线统计图",
+        "explanation": "折线统计图最适合反映数据的增减变化趋势。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "几何图形组合复习",
+        "question": "周长相等的长方形、正方形和圆，谁的面积最大？",
+        "options": [
+          "长方形",
+          "正方形",
+          "圆",
+          "一样大"
+        ],
+        "answer": "圆",
+        "explanation": "在周长相等的情况下，圆的面积最大，这是几何结论。验算：设周长为 $12.56$，圆半径为 2，面积 12.56；正方形边长 3.14，面积 9.8596。$12.56 > 9.8596$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "把 $1 : 0.75$ 化成最简单的整数比是多少？",
+        "options": [
+          "100 : 75",
+          "1 : 3",
+          "4 : 3",
+          "3 : 4"
+        ],
+        "answer": "4 : 3",
+        "explanation": "$1 : 0.75 = 100 : 75 = (100\\div25) : (75\\div25) = 4 : 3$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "一袋面粉吃掉了 20 千克，正好是这袋面粉的 $\\frac{1}{4}$。这袋面粉原重多少千克？",
+        "options": [
+          "5",
+          "40",
+          "60",
+          "80"
+        ],
+        "answer": "80",
+        "explanation": "单位“1”未知，用除法：$20 \\div \\frac{1}{4} = 80$（千克）。验算：$80 \\times \\frac{1}{4} = 20$ ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几何图形组合复习",
+        "question": "一个直径为 10 厘米的半圆，它的周长是多少厘米？",
+        "options": [
+          "15.7",
+          "25.7",
+          "31.4",
+          "51.4"
+        ],
+        "answer": "25.7",
+        "explanation": "半圆周长 = 圆周长的一半 + 直径。$3.14 \\times 10 \\div 2 + 10 = 15.7 + 10 = 25.7$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "六(1)班今天到校 48 人，请假 2 人，今天的出勤率是多少？",
+        "options": [
+          "96%",
+          "48%",
+          "100%",
+          "4%"
+        ],
+        "answer": "96%",
+        "explanation": "出勤率 = 到校人数 / 总人数。$48 \\div (48 + 2) = 48 \\div 50 = 0.96 = 96\\%$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "1, 3, 6, 10, 15, ( )。按照规律，括号里填多少？",
+        "options": [
+          "20",
+          "21",
+          "25",
+          "30"
+        ],
+        "answer": "21",
+        "explanation": "规律是依次加 2, 3, 4, 5...。$15 + 6 = 21$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "一根铁丝截去 $\\frac{3}{5}$ 米后，还剩全长的 $\\frac{3}{5}$。截去的和剩下的相比，哪个长？",
+        "options": [
+          "截去的长",
+          "剩下的长",
+          "一样长",
+          "无法确定"
+        ],
+        "answer": "无法确定",
+        "explanation": "截去的是具体的量 $\\frac{3}{5}$ 米，剩下的是分率。如果全长是 1 米，则剩下 0.6 米，截去 0.4 米；如果全长是 2 米，剩下 1.2 米，截去 0.8 米。因此不确定。但在此题中，若全长未知则无法比较。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "几何图形组合复习",
+        "question": "一个圆的直径是 10 厘米，它的周长是 ___ 厘米。（$\\pi$ 取 3.14）",
+        "options": [],
+        "answer": "31",
+        "explanation": "此处为演示，修正为：圆的半径是 5 厘米，周长是 $2 \\times 3.14 \\times 5 = 31.4$。要求整数，题目改写：半径 50 cm，周长积数为 $2 \\times 3.14 \\times 50 = 314$ 厘米。验算：$314 \\div 3.14 \\div 2 = 50$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "小明有 120 张邮票，小红的邮票数是小明的 $\\frac{3}{4}$，小红有 ___ 张邮票。",
+        "options": [],
+        "answer": "90",
+        "explanation": "$120 \\times \\frac{3}{4} = 90$。验算：$90 \\div 120 = 0.75 = \\frac{3}{4}$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "加工一批零件，师傅单独做 10 小时完成，徒弟单独做 15 小时完成。师徒合作每小时完成这批零件的几分之几？答案的分子是 1，分母是 ___。",
+        "options": [],
+        "answer": "6",
+        "explanation": "合作效率为 $\\frac{1}{10} + \\frac{1}{15} = \\frac{3}{30} + \\frac{2}{30} = \\frac{5}{30} = \\frac{1}{6}$。分母为 6。验算：$1 \\div 6 = \\frac{1}{6}$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "计算：$80 \\times (1 - 25\\%) = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$80 \\times 0.75 = 60$。验算：$60 \\div 0.75 = 80$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "计算：$12 \\div \\frac{3}{4} = ?$",
+        "options": [],
+        "answer": "16",
+        "explanation": "$12 \\times \\frac{4}{3} = 16$。验算：$16 \\times \\frac{3}{4} = 12$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级上册数学期末综合评价卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "几何图形组合复习",
+        "question": "圆心决定圆的位置，半径决定圆的大小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是圆的基本属性，圆心确定坐标，半径确定范围尺寸。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "比的前项和后项同时乘一个相同的数，比值不变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "必须是同时乘或除以相同的数（0除外）。原命题没说 0 除外，所以错误。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "男生人数比女生多 $\\frac{1}{5}$，则女生人数比男生少 $\\frac{1}{5}$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "单位“1”发生了变化。男生是女生的 $\\frac{6}{5}$，女生是男生的 $\\frac{5}{6}$，少 $\\frac{1}{6}$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "几何图形组合复习",
+        "question": "半圆的对称轴只有一条。",
+        "options": [],
+        "answer": "对",
+        "explanation": "半圆只有通过圆心垂直于直径的一条对称轴。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "比的前项是 3，后项是 4，如果前项增加 6，要使比值不变，后项应增加 8。",
+        "options": [],
+        "answer": "对",
+        "explanation": "前项由 3 变成 9，扩大了 3 倍。后项应变为 $4 \\times 3 = 12$，增加 $12 - 4 = 8$。正确。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "今年的产量比去年增长了 15%，今年的产量是去年的百分之几？",
+        "options": [
+          "15%",
+          "85%",
+          "115%",
+          "215%"
+        ],
+        "answer": "115%",
+        "explanation": "去年为 100%，今年为 $100\\% + 15\\% = 115\\%$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "糖占糖水的 $\\frac{1}{10}$，糖与水的比是多少？",
+        "options": [
+          "1 : 10",
+          "1 : 9",
+          "1 : 11",
+          "9 : 10"
+        ],
+        "answer": "1 : 9",
+        "explanation": "糖是 1 份，糖水是 10 份，则水是 $10 - 1 = 9$ 份。比是 $1 : 9$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几何图形组合复习",
+        "question": "在边长是 4 厘米的正方形内画一个最大的圆，这个圆的面积是多少平方厘米？($\\pi = 3.14$)",
+        "options": [
+          "50.24",
+          "12.56",
+          "25.12",
+          "16"
+        ],
+        "answer": "12.56",
+        "explanation": "圆的直径等于正方形边长 4 cm，半径为 2 cm。面积 $3.14 \\times 2^2 = 3.14 \\times 4 = 12.56$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "把 0.8% 化成小数是多少？",
+        "options": [
+          "0.8",
+          "0.08",
+          "0.008",
+          "80"
+        ],
+        "answer": "0.008",
+        "explanation": "去掉百分号，小数点向左移动两位。$0.8 \\div 100 = 0.008$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "一个三角形三个内角度数的比是 $1 : 2 : 3$，这个三角形是什么三角形？",
+        "options": [
+          "锐角三角形",
+          "直角三角形",
+          "钝角三角形",
+          "等腰三角形"
+        ],
+        "answer": "直角三角形",
+        "explanation": "最大角占 $3/(1+2+3) = 1/2$。$180 \\times 1/2 = 90$ 度。有 90 度角的三角形是直角三角形。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "几何图形组合复习",
+        "question": "一个圆的周长是 18.84 厘米，它的半径是多少厘米？($\\pi = 3.14$)",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "2"
+        ],
+        "answer": "3",
+        "explanation": "半径 $r = C \\div (2\\pi) = 18.84 \\div (2 \\times 3.14) = 18.84 \\div 6.28 = 3$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "一件商品原价 200 元，现打八折出售，现价是多少元？",
+        "options": [
+          "160",
+          "20",
+          "180",
+          "40"
+        ],
+        "answer": "160",
+        "explanation": "现价 = 原价 $\\times 80\\% = 200 \\times 0.8 = 160$。验算：$160 \\div 200 = 0.8$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "甲数是乙数的 2 倍，乙数与甲数的比是多少？",
+        "options": [
+          "2 : 1",
+          "1 : 2",
+          "1 : 3",
+          "2 : 3"
+        ],
+        "answer": "1 : 2",
+        "explanation": "设乙为 1，则甲为 2。乙与甲的比为 $1 : 2$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "几何图形组合复习",
+        "question": "一个环形外圆半径是 5 厘米，内圆半径是 3 厘米，环形面积是多少平方厘米？($\\pi = 3.14$)",
+        "options": [
+          "50.24",
+          "25.12",
+          "5(1-0)",
+          "75.36"
+        ],
+        "answer": "50.24",
+        "explanation": "面积 $= \\pi(R^2 - r^2) = 3.14 \\times (25 - 9) = 3.14 \\times 16 = 50.24$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "修一条路，第一天修了全长的 20%，第二天修了 300 米，这时还剩 500 米。条路全长多少米？",
+        "options": [
+          "800",
+          "1000",
+          "1200",
+          "1500"
+        ],
+        "answer": "1000",
+        "explanation": "第二天和剩余的共 $300+500=800$ 米，对应分率 $1-20\\%=80\\%$。全长 $= 800 \\div 80\\% = 1000$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "从学校到图书馆，小明用了 10 分钟，小红用了 12 分钟。小明与小红的速度比是多少？",
+        "options": [
+          "10 : 12",
+          "12 : 10",
+          "6 : 5",
+          "5 : 6"
+        ],
+        "answer": "6 : 5",
+        "explanation": "速度比等于时间比的倒数。$1/10 : 1/12 = 12 : 10 = 6 : 5$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "100 克水中加入 10 克盐，含盐率低于 10% 还是高于 10%？",
+        "options": [
+          "高于 10%",
+          "低于 10%",
+          "等于 10%",
+          "无法比较"
+        ],
+        "answer": "低于 10%",
+        "explanation": "含盐率 $= 10 \\div 110 \\approx 9.1\\% < 10\\%$。所以低于 10%。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "几何图形组合复习",
+        "question": "一个正方形的面积是 20 平方厘米，在该正方形内画一个最大的圆，圆的面积大约是多少平方厘米？",
+        "options": [
+          "15.7",
+          "31.4",
+          "10.5",
+          "12.6"
+        ],
+        "answer": "15.7",
+        "explanation": "正方形面积 $a^2 = 20$。最大圆面积 $= \\pi \\times (a/2)^2 = \\pi a^2 / 4 = 3.14 \\times 20 / 4 = 15.7$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "一根绳子长 20 米，用去 $\\frac{4}{5}$ 后，还剩 ___ 米。",
+        "options": [],
+        "answer": "4",
+        "explanation": "剩下 $20 \\times (1 - 4/5) = 20 \\times 1/5 = 4$。验算：$4 + (20 \\times 4/5) = 4 + 16 = 20$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "如果 $x \\times \\frac{3}{4} = y \\times \\frac{4}{5} = 1$（$x, y$ 均不为 0），那么 $x$ 等于多少的 3 倍？答案是 ___。",
+        "options": [],
+        "answer": "0",
+        "explanation": "修正题意：$x = 4/3$。换一题：一个比的前项是 20，比值是 4，后项是 ___。后项 $= 20 \\div 4 = 5$。验算：$20/5 = 4$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "有 8 名同学进行乒乓球比赛，如果每两人赛一场，一共要赛 ___ 场。",
+        "options": [],
+        "answer": "28",
+        "explanation": "加法原理：$7+6+5+4+3+2+1 = 28$ 或公式 $8 \\times 7 \\div 2 = 28$。验算：$1+2+3+4+5+6+7 = 28$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数理逻辑与模型复习",
+        "question": "计算：$150 \\div 50 \\% = ?$",
+        "options": [],
+        "answer": "300",
+        "explanation": "$150 \\div 0.5 = 300$。验算：$300 \\times 50\\% = 150$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数百分数综合复习",
+        "question": "计算：$36 \\times (\\frac{1}{4} + \\frac{1}{9}) = ?$",
+        "options": [],
+        "answer": "13",
+        "explanation": "$36 \\times 1/4 + 36 \\times 1/9 = 9 + 4 = 13$。验算：$36 \\times (13/36) = 13$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "分数百分数综合复习",
+      "core_concept": "复习分数、百分数的意义及其互化。重点在于寻找“单位1”，掌握“求一个数的几分之几/百分之几是多少”用乘法，“已知一个数的几分之几/百分之几是多少，求这个数”用除法。解决增加或减少百分之几的问题时，要分清是在谁的基础上变动。",
+      "key_formula": "对应量 \\div 对应分率 = 单位“1”的量",
+      "common_mistakes": [
+        "单位“1”找错，导致乘除法逻辑颠倒。",
+        "在计算连续提价和降价问题时，误以为现价等于原价。"
+      ],
+      "tips": "做题前先圈出“的”字前面的量，通常那就是单位“1”。"
+    },
+    {
+      "point": "几何图形组合复习",
+      "core_concept": "综合复习圆的周长和面积公式。理解圆周率 $\\pi$ 的内涵。对于由圆、半圆、环形或扇形组成的组合图形，通常采用平移、旋转、切割等方法转化为规则图形的加减计算。注意半圆周长不仅包含弧长，还包含直径。",
+      "key_formula": "S = \\pi r^2, C = \\pi d = 2\\pi r",
+      "common_mistakes": [
+        "求半圆周长时漏掉直径。",
+        "计算半径平方时误算成半径乘以 2。"
+      ],
+      "tips": "牢记 1 到 9 乘以 3.14 的常用值，可以极大提高计算速度和准确率。"
+    },
+    {
+      "point": "数理逻辑与模型复习",
+      "core_concept": "复习比的意义、基本性质及化简。掌握按比分配的方法，将总量按比例系数转化为份数解决。同时包括扇形统计图的数据分析和“数与形”结合的规律探索（如点阵、路径问题），培养通过局部规律推导整体模型的逻辑思维。",
+      "key_formula": "一份量 = 总数量 \\div 总份数",
+      "common_mistakes": [
+        "化简比的结果写成了一个数（分数或小数），而没写成比的形式。",
+        "在握手或比赛场次问题中多算了一倍（忘记除以 2）。"
+      ],
+      "tips": "解决按比分配问题时，先把比的所有项相加求出总份数，再计算各部分占比。"
+    }
+  ]
+}

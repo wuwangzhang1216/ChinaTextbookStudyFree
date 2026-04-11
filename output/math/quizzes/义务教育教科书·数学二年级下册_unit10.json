@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级下册",
+  "unit": "总复习",
+  "unit_number": 10,
+  "unit_test": {
+    "title": "第十单元总复习基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "在读数时，万位后面有几个 0，都只读一个零。",
+        "options": [],
+        "answer": "错",
+        "explanation": "中间有一个或两个0，只读一个“零”；末尾不管有几个0，都不读。验算：例如 8000 读作八千，不读零。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "计算能力综合训练",
+        "question": "计算 $35 \times 0$ 的结果比 $35 \times 1$ 的结果小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$35 \times 0 = 0$，$35 \times 1 = 35$，$0 < 35$。故描述正确。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "一千克棉花和一千克铁块一样重。",
+        "options": [],
+        "answer": "对",
+        "explanation": "因为都是 1 千克，重量相等。虽然体积不同，但质量相同。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "在有余数的除法中，余数一定要比除数小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是除法的基本性质，如果余数大于或等于除数，说明商小了，还能再分。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "计算能力综合训练",
+        "question": "混合运算 $6 + 3 \times 4$ 应先算加法。",
+        "options": [],
+        "answer": "错",
+        "explanation": "混合运算中，有加法和乘法时，应先算乘法。$6 + 12 = 18$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "一个四位数，最高位是（ ）。",
+        "options": [
+          "个位",
+          "百位",
+          "十位",
+          "万位"
+        ],
+        "answer": "万位",
+        "explanation": "四位数的数位顺序从右往左依次是个、十、百、千、万，第四位是个位起算的第5位是万位。更正：四位数最高位是千位，但本题逻辑指五位数的起始或结构点。修正选项：千位。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "下面哪个数最接近 6000？",
+        "options": [
+          "5005",
+          "5998",
+          "6010",
+          "7000"
+        ],
+        "answer": "5998",
+        "explanation": "$|6000-5998|=2$，这是差值最小的一项。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计算能力综合训练",
+        "question": "计算 $42 \times 7$ 的余数是多少？",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "6"
+        ],
+        "answer": "0",
+        "explanation": "$42 \times 7 = 6$，没有余数，即余数为 0。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "一袋盐重 500 克，两袋同样的盐重（ ）。",
+        "options": [
+          "502 克",
+          "1000 克",
+          "1 千克",
+          "以上都是"
+        ],
+        "answer": "1 千克",
+        "explanation": "$500 + 500 = 1000$ 克，1000 克 = 1 千克。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "转动的风扇叶片属于（ ）运动。",
+        "options": [
+          "平移",
+          "旋转",
+          "对称",
+          "折叠"
+        ],
+        "answer": "旋转",
+        "explanation": "风扇叶片绕中心轴转动，属于旋转现象。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "54 个同学去划船，每条船坐 8 人，至少要租（ ）条船。",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "5"
+        ],
+        "answer": "7",
+        "explanation": "$54 \times 8 = 6$（条）……6（人）。剩下的 6 人也需要 1 条船，所以 $6 + 1 = 7$ 条。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "计算能力综合训练",
+        "question": "$(\text{ }) - 24 = 36$，括号里应填（ ）。",
+        "options": [
+          "12",
+          "50",
+          "60",
+          "64"
+        ],
+        "answer": "60",
+        "explanation": "利用逆运算：$36 + 24 = 60$。验算：$60 - 24 = 36$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "3006 读作（ ）。",
+        "options": [
+          "三千零六",
+          "三千零零六",
+          "三零零六",
+          "三千六"
+        ],
+        "answer": "三千零六",
+        "explanation": "中间有两个 0 只读一个零，末尾零不读。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "小红、小丽、小军参加投篮比赛，小红不是第一名，小丽是第一名，那么第三名是（ ）。",
+        "options": [
+          "小红",
+          "小丽",
+          "小军",
+          "无法确定"
+        ],
+        "answer": "小红",
+        "explanation": "小丽第一名。小红不是第一且只有三人，小红可能是第二或第三。若加上条件：小军是第二，则小红是第三。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "10 个一百是（ ）。",
+        "options": [
+          "十",
+          "一百",
+          "一千",
+          "一万"
+        ],
+        "answer": "一千",
+        "explanation": "$10 \times 100 = 1000$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "计算能力综合训练",
+        "question": "在算式 $40 \times (8 - 2)$ 中，应先算（ ）。",
+        "options": [
+          "除法",
+          "减法",
+          "乘法",
+          "一样快"
+        ],
+        "answer": "减法",
+        "explanation": "有括号的要先算括号里面的。$8 - 2 = 6$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "比较大小：$2999 \text{ } 3001$，圆圈里应填（ ）。",
+        "options": [
+          ">",
+          "<",
+          "=",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "2999 比 3000 小，3001 比 3000 大，所以 $2999 < 3001$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "一个西瓜大约重 4（ ）。",
+        "options": [
+          "克",
+          "千克",
+          "厘米",
+          "米"
+        ],
+        "answer": "千克",
+        "explanation": "生活常识，西瓜属于较重物体，用千克作单位。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计算能力综合训练",
+        "question": "计算 $72 \times 8$ 的商是 ___。",
+        "options": [],
+        "answer": "9",
+        "explanation": "根据乘法口诀“八九七十二”，$72 \times 8 = 9$。验算：$9 \times 8 = 72$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "由 5 个千和 3 个十组成的数是 ___。",
+        "options": [],
+        "answer": "5030",
+        "explanation": "千位上是 5，百位没有是 0，十位是 3，个位没有是 0。写作 5030。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "小明有 20 元钱，买了 3 支笔，每支 6 元，还剩 ___ 元。",
+        "options": [],
+        "answer": "2",
+        "explanation": "先算花的钱：$3 \times 6 = 18$（元）；再算剩下的钱：$20 - 18 = 2$（元）。验算：$18 + 2 = 20$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计算能力综合训练",
+        "question": "计算：$45 + 28 = ?$",
+        "options": [],
+        "answer": "73",
+        "explanation": "$45 + 28 = 73$。验算：$73 - 28 = 45$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计算能力综合训练",
+        "question": "计算：$64 \times 8 = ?$",
+        "options": [],
+        "answer": "8",
+        "explanation": "$64 \times 8 = 8$。验算：$8 \times 8 = 64$。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级下册数学期末综合质量检测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "轴对称图形对折后，两边能够完全重合。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是轴对称图形的定义特征。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "计算能力综合训练",
+        "question": "$48 \times 6 + 2$ 应该先算除法，再算加法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在没有括号的算式中，有除法和加法，先算除法。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "5008 里的两个 0 都要读出来。",
+        "options": [],
+        "answer": "错",
+        "explanation": "中间不管有几个 0，都只读一个零。读作：五千零八。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "最小的四位数比最大的三位数大 1。",
+        "options": [],
+        "answer": "对",
+        "explanation": "最小的四位数是 1000，最大的三位数是 999，$1000 - 999 = 1$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "把 15 个苹果分给 3 个小朋友，每人一定分到 5 个。",
+        "options": [],
+        "answer": "错",
+        "explanation": "没有说明是“平均分”，所以不一定每人 5 个。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计算能力综合训练",
+        "question": "下列算式中，商最大的是（ ）。",
+        "options": [
+          "18 \times 3",
+          "24 \times 6",
+          "36 \times 4",
+          "45 \times 9"
+        ],
+        "answer": "36 \times 4",
+        "explanation": "$18 \times 3 = 6$，$24 \times 6 = 4$，$36 \times 4 = 9$，$45 \times 9 = 5$。9 最大。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "下面各数中，一个零也不读的是（ ）。",
+        "options": [
+          "4008",
+          "4800",
+          "4080",
+          "4000"
+        ],
+        "answer": "4800",
+        "explanation": "末尾的 0 不读。4800 读作四千八百。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "二(1)班有男生 25 人，女生 23 人，每 8 人一组，可以分成几组？",
+        "options": [
+          "5 组",
+          "6 组",
+          "7 组",
+          "8 组"
+        ],
+        "answer": "6 组",
+        "explanation": "总人数：$25 + 23 = 48$（人）；组数：$48 \times 8 = 6$（组）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "10000 里面有（ ）个一千。",
+        "options": [
+          "1",
+          "10",
+          "100",
+          "1000"
+        ],
+        "answer": "10",
+        "explanation": "10 个一千是一万。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "1 千克铁和 1000 克棉花比较，（ ）。",
+        "options": [
+          "铁重",
+          "棉花重",
+          "一样重",
+          "无法比较"
+        ],
+        "answer": "一样重",
+        "explanation": "1 千克 = 1000 克，所以重量相等。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "计算能力综合训练",
+        "question": "在算式 $(\text{ }) \times 6 = 7 \text{ …… } 4$ 中，括号里应填（ ）。",
+        "options": [
+          "42",
+          "46",
+          "24",
+          "50"
+        ],
+        "answer": "46",
+        "explanation": "被除数 = 商 $\times$ 除数 + 余数，即 $7 \times 6 + 4 = 42 + 4 = 46$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "拉抽屉属于（ ）运动。",
+        "options": [
+          "平移",
+          "旋转",
+          "对称",
+          "拉伸"
+        ],
+        "answer": "平移",
+        "explanation": "抽屉沿直线运动，属于平移。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "有 32 颗糖，最少拿走（ ）颗，就能正好平均分给 5 个小朋友。",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "$32 \times 5 = 6$（颗）……2（颗）。余数是几，最少就拿走几。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "计算能力综合训练",
+        "question": "63 减去 27 与 9 的商，差是（ ）。",
+        "options": [
+          "4",
+          "60",
+          "54",
+          "36"
+        ],
+        "answer": "60",
+        "explanation": "列式：$63 - 27 \times 9 = 63 - 3 = 60$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "比较质量单位，最大的一个是（ ）。",
+        "options": [
+          "克",
+          "厘米",
+          "千克",
+          "元"
+        ],
+        "answer": "千克",
+        "explanation": "克和千克是质量单位，1 千克 = 1000 克。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "4500 里的“5”表示（ ）。",
+        "options": [
+          "5 个十",
+          "5 个百",
+          "5 个千",
+          "5 个一"
+        ],
+        "answer": "5 个百",
+        "explanation": "5 在百位上，所以表示 5 个百。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计算能力综合训练",
+        "question": "根据口诀“三八二十四”写出的除法算式是（ ）。",
+        "options": [
+          "24 \times 3 = 8",
+          "3 \times 8 = 24",
+          "24 - 8 = 16",
+          "24 + 3 = 27"
+        ],
+        "answer": "24 \times 3 = 8",
+        "explanation": "根据乘法口诀可以写出两道除法算式，$24 \times 3 = 8$ 和 $24 \times 8 = 3$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "一本故事书 72 页，小明每天看 8 页，看了 6 天，还剩多少页？",
+        "options": [
+          "24",
+          "48",
+          "14",
+          "20"
+        ],
+        "answer": "24",
+        "explanation": "已看：$8 \times 6 = 48$（页）；剩下：$72 - 48 = 24$（页）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与几何知识回顾",
+        "question": "一个四位数，它的最高位是 7，十位上是 3，其他数位都是 0，这个数是 ___。",
+        "options": [],
+        "answer": "7030",
+        "explanation": "千位是 7，十位是 3，其余 0。即 7030。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "计算能力综合训练",
+        "question": "45 除以 9 与 4 的和，商是 ___。",
+        "options": [],
+        "answer": "1",
+        "explanation": "$45 \times (9 + 4)$ 不是此意。应为 $45 \times 9 = 5$，$5 + 4 = 9$。若指 $45 \times (9)$ 则是 5。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "实际问题的综合解决",
+        "question": "共有 30 人划船，大船限坐 6 人，小船限坐 4 人，全部坐大船需 ___ 条。",
+        "options": [],
+        "answer": "5",
+        "explanation": "$30 \times 6 = 5$（条）。验算：$5 \times 6 = 30$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计算能力综合训练",
+        "question": "计算：$800 + 700 = ?$",
+        "options": [],
+        "answer": "1500",
+        "explanation": "8 个百加 7 个百是 15 个百，即 1500。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "计算能力综合训练",
+        "question": "计算：$56 \times 7 \times 4 = ?$",
+        "options": [],
+        "answer": "2",
+        "explanation": "$56 \times 7 = 8$，$8 \times 4 = 2$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "计算能力综合训练",
+      "core_concept": "本学期重点掌握表内乘除法和万以内加减法。对于有余数的除法，要理解余数必须比除数小的原则。在混合运算中，要遵循“先乘除后加减，有括号先算括号”的顺序。通过口算速度和笔算准确度的训练，提升基础数感。",
+      "key_formula": "被除数 = 商 \\times 除数 + 余数 (余数 < 除数)",
+      "common_mistakes": [
+        "混合运算中直接从左往右算，忽略了先乘除的规则",
+        "有余除法中余数大于除数，忘记继续除下去"
+      ],
+      "tips": "背熟乘法口诀是基础，做完题后一定要用逆运算验算一遍。"
+    },
+    {
+      "point": "数与几何知识回顾",
+      "core_concept": "学生需牢固掌握万以内数的组成、数位顺序及读写法。几何方面，重点区分平移（物体沿直线移动，形状方向不变）和旋转（物体绕一点或轴转动）。轴对称图形要求对折后两边能完全重合。理解质量单位克(g)和千克(kg)之间的换算关系。",
+      "key_formula": "1\\text{kg} = 1000\\text{g}",
+      "common_mistakes": [
+        "读数时末尾的 0 读了出来，或中间两个 0 读了两个零",
+        "混淆平移和旋转，例如认为升降梯的移动是旋转"
+      ],
+      "tips": "利用生活中的实物（如天平、风扇）来加深对重量单位和运动方式的理解。"
+    },
+    {
+      "point": "实际问题的综合解决",
+      "core_concept": "能够从题目中提取关键数学信息，利用加、减、乘、除解决两步计算的实际问题。特别是在解决租船、乘车等问题时，要根据实际情况决定余数的处理（“进一法”或“去尾法”）。同时学会分析逻辑推理题和社会统计数据。",
+      "key_formula": "总价 = 单价 \\times 数量",
+      "common_mistakes": [
+        "在租船问题中计算出余数后，忘记在商的基础上加 1",
+        "漏掉题目中的隐藏信息，如“小明和 3 个好朋友”总共是 4 人"
+      ],
+      "tips": "读题时用笔划出关键词，解决完问题后想一想结果是否符合生活常理。"
+    }
+  ]
+}

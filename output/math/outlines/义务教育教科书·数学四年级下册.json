@@ -1,0 +1,428 @@
+{
+  "textbook": "四年级下册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "四则运算",
+      "knowledge_points": [
+        {
+          "name": "加、减法的意义和各部分间的关系",
+          "description": "理解加减法互为逆运算，掌握‘加数+加数=和’及‘被减数-减数=差’的变形关系及验算方法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "判断",
+            "应用题"
+          ]
+        },
+        {
+          "name": "乘、除法的意义和各部分间的关系",
+          "description": "理解乘除法互为逆运算，掌握‘因数×因数=积’及‘被除数÷除数=商’的变形关系，明确0不能作除数。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "计算题"
+          ]
+        },
+        {
+          "name": "带括号的四则混合运算顺序",
+          "description": "掌握含有小括号和中括号的运算顺序，即先算小括号里面，再算中括号里面。",
+          "difficulty": 3,
+          "question_types": [
+            "计算题",
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "解决问题：租船/租车优化方案",
+          "description": "在实际情境中利用除法余数处理和单价对比，寻找总价最省的资源分配方案。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "操作题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "观察物体（二）",
+      "knowledge_points": [
+        {
+          "name": "从不同方向观察同一立体图形",
+          "description": "能辨认从前面、上面、左面观察由小正方体拼搭成的几何体得到的平面图形。",
+          "difficulty": 2,
+          "question_types": [
+            "连线/匹配",
+            "画图",
+            "选择"
+          ]
+        },
+        {
+          "name": "观察不同立体图形的视图比较",
+          "description": "通过观察发现不同形状的立体图形，从同一方向看到的平面图形可能相同也可能不同。",
+          "difficulty": 3,
+          "question_types": [
+            "判断",
+            "选择",
+            "填空"
+          ]
+        },
+        {
+          "name": "根据三视图还原几何体结构",
+          "description": "根据给出的多角度平面投影图，推断组成该几何体的小正方体数量或摆放位置。",
+          "difficulty": 4,
+          "question_types": [
+            "操作题",
+            "填空",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "运算定律",
+      "knowledge_points": [
+        {
+          "name": "加法交换律与结合律",
+          "description": "掌握a+b=b+a及(a+b)+c=a+(b+c)，并能运用定律进行加法简便计算。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "口算",
+            "计算题"
+          ]
+        },
+        {
+          "name": "减法的简便运算性质",
+          "description": "理解一个数连续减去两个数等于减去这两个数的和，即a-b-c=a-(b+c)。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "计算题",
+            "应用题"
+          ]
+        },
+        {
+          "name": "乘法交换律与结合律",
+          "description": "掌握a×b=b×a及(a×b)×c=a×(b×c)，利用凑整法（如25×4, 125×8）简化计算。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "计算题"
+          ]
+        },
+        {
+          "name": "乘法分配律及其逆运算",
+          "description": "掌握(a+b)×c=a×c+b×c，并能识别符合分配律特征的算式进行双向转化。",
+          "difficulty": 4,
+          "question_types": [
+            "计算题",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "连除的简便性质",
+          "description": "理解a÷b÷c=a÷(b×c)，并能根据数字特征灵活选择除法运算路径。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "计算题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "小数的意义和性质",
+      "knowledge_points": [
+        {
+          "name": "小数的意义与计数单位",
+          "description": "理解小数与分数的联系，明确十分位、百分位等计数单位及各单位间的十进关系。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "判断",
+            "选择"
+          ]
+        },
+        {
+          "name": "小数的读法与写法",
+          "description": "掌握小数数位顺序表，能正确读写含有整数部分和小数部分的小数。",
+          "difficulty": 2,
+          "question_types": [
+            "读数写数",
+            "填空"
+          ]
+        },
+        {
+          "name": "小数的性质与化简改写",
+          "description": "掌握小数末尾添0或去0大小不变的性质，进行小数的化简或指定位数的改写。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "小数点移动引起小数大小的变化",
+          "description": "掌握小数点向左、右移动引起原数扩大或缩小10倍、100倍、1000倍的规律。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "小数与单位换算",
+          "description": "利用小数点移动规律，熟练进行低级单位向高级单位（除以进率）及反向的转化。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "排序/比较",
+            "应用题"
+          ]
+        },
+        {
+          "name": "求小数的近似数",
+          "description": "利用‘四舍五入’法按要求保留位数，明确精确到哪一位及末尾0的处理。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "三角形",
+      "knowledge_points": [
+        {
+          "name": "三角形的定义、高与稳定性",
+          "description": "理解三角形定义，会画三角形指定底边对应的高，认识三角形的稳定性特征。",
+          "difficulty": 2,
+          "question_types": [
+            "画图",
+            "填空",
+            "判断"
+          ]
+        },
+        {
+          "name": "三角形三边关系定理",
+          "description": "掌握‘任意两边之和大于第三边’，并能据此判断给定的三条线段能否围成三角形。",
+          "difficulty": 3,
+          "question_types": [
+            "选择",
+            "操作题",
+            "填空"
+          ]
+        },
+        {
+          "name": "三角形的分类",
+          "description": "按角分类（锐角、直角、钝角）及按边分类（等腰、等边），掌握各特殊三角形的特征。",
+          "difficulty": 2,
+          "question_types": [
+            "连线/匹配",
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "三角形的内角和",
+          "description": "掌握三角形内角和为180度，并能计算未知角的度数。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "计算题",
+            "判断"
+          ]
+        },
+        {
+          "name": "多边形的内角和探索",
+          "description": "运用转化思想，通过分割三角形的方法求四边形及多边形的内角和。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "小数的加法和减法",
+      "knowledge_points": [
+        {
+          "name": "小数加减法的基础竖式计算",
+          "description": "掌握小数点对齐（相同数位对齐）的原则，处理进位加法和退位减法。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "填空"
+          ]
+        },
+        {
+          "name": "小数加减混合运算",
+          "description": "掌握含有括号的小数加减混合运算顺序，解决实际购物、测量等问题。",
+          "difficulty": 3,
+          "question_types": [
+            "计算题",
+            "应用题"
+          ]
+        },
+        {
+          "name": "整数运算律推广到小数",
+          "description": "灵活运用加法交换律和结合律使小数加减计算简便。",
+          "difficulty": 4,
+          "question_types": [
+            "计算题",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "图形的运动（二）",
+      "knowledge_points": [
+        {
+          "name": "轴对称图形的补全",
+          "description": "利用对应点到对称轴距离相等的性质，在方格纸上画出轴对称图形的另一半。",
+          "difficulty": 3,
+          "question_types": [
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "图形的平移规律",
+          "description": "掌握平移的方向和距离，能画出平移后的图形，理解对应点移动格数的计算。",
+          "difficulty": 3,
+          "question_types": [
+            "画图",
+            "填空"
+          ]
+        },
+        {
+          "name": "利用平移解决割补面积问题",
+          "description": "运用平移将不规则图形转化为规则图形，从而计算其面积或周长。",
+          "difficulty": 4,
+          "question_types": [
+            "计算题",
+            "操作题",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "平均数与条形统计图",
+      "knowledge_points": [
+        {
+          "name": "平均数的求法与意义",
+          "description": "掌握‘总数量÷总份数’的计算方法，理解平均数代表一组数据的整体水平。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "计算题",
+            "判断"
+          ]
+        },
+        {
+          "name": "复式条形统计图的绘制与分析",
+          "description": "认识复式统计图的结构和图例，能根据数据建图并进行对比分析。",
+          "difficulty": 3,
+          "question_types": [
+            "画图",
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "根据统计图进行决策预测",
+          "description": "根据统计图的变化趋势提取信息，分析并解决简单的实际推断问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "数学广角——鸡兔同笼",
+      "knowledge_points": [
+        {
+          "name": "假设法解决鸡兔同笼问题",
+          "description": "通过假设全是一种动物，根据足数差值推算两种个体的数量。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "填空"
+          ]
+        },
+        {
+          "name": "列表法与逻辑推理",
+          "description": "通过有序排列寻找符合条件的平衡点，解决简单的逻辑分类问题。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "操作题"
+          ]
+        },
+        {
+          "name": "鸡兔同笼模型的实际应用",
+          "description": "将‘鸡兔同笼’逻辑迁移到答题得分、租船费用、钢珠分类等实际变式题中。",
+          "difficulty": 5,
+          "question_types": [
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 10,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "知识系统整理与对比",
+          "description": "梳理整数与小数、平面图形性质、运算定律的整体框架。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "综合计算与验算能力",
+          "description": "综合运用四则运算和简便算法解决全册重点计算题型。",
+          "difficulty": 4,
+          "question_types": [
+            "计算题",
+            "竖式计算"
+          ]
+        },
+        {
+          "name": "数学反思与自我评价",
+          "description": "通过综合练习题组，评估学期知识掌握程度，对解题策略进行元认知反思。",
+          "difficulty": 2,
+          "question_types": [
+            "操作题",
+            "填空"
+          ]
+        }
+      ]
+    }
+  ]
+}

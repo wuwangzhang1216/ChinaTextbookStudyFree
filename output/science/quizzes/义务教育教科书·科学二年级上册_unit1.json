@@ -1,0 +1,697 @@
+{
+  "textbook": "教科版小学科学二年级上册",
+  "unit": "我们的地球家园",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第1单元「我们的地球家园」标准达成测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "地球家园的组成要素",
+        "question": "地球家园除了人、动物和植物，还有土壤、岩石和水等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "地球家园不仅包括生物，也包括非生物环境。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "土壤与生物的生存关系",
+        "question": "土壤里不仅生活着小动物，还生活着许多植物。",
+        "options": [],
+        "answer": "对",
+        "explanation": "土壤为多种动植物提供了生存空间和养分。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "天气现象及其影响",
+        "question": "大雨天气也会对人类的出行产生影响。",
+        "options": [],
+        "answer": "对",
+        "explanation": "天气与人类生活密切相关，恶劣天气会带来不便。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "月相的变化观察",
+        "question": "我们每天看到的月亮形状都是圆圆的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "月相是不断变化的，只有在农历十五左右才是圆的。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "人类与健康的地球关系",
+        "question": "为了建房子，我们可以随意砍伐身边的树木。",
+        "options": [],
+        "answer": "错",
+        "explanation": "我们要爱护自然资源，不能随意破坏生态环境。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地球家园的组成要素",
+        "question": "下列属于地球家园中的生物是：",
+        "options": [
+          "路边的岩石",
+          "清澈的溪水",
+          "路边的小草",
+          "洁白的云朵"
+        ],
+        "answer": "路边的小草",
+        "explanation": "草具有生长、繁殖等生命特征，属于生物。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "太阳的位置与方向",
+        "question": "早晨，太阳从哪个方向升起？",
+        "options": [
+          "东方",
+          "南方",
+          "西方",
+          "北方"
+        ],
+        "answer": "东方",
+        "explanation": "太阳东升西落是地球自转产生的自然规律。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气现象及其影响",
+        "question": "当天空布满厚厚的黑云，但还没有下雨时，这种天气是：",
+        "options": [
+          "晴天",
+          "暴雨",
+          "雪天",
+          "阴天"
+        ],
+        "answer": "阴天",
+        "explanation": "阴天的特征是云层厚且密，挡住了阳光。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季的特征与生物适应",
+        "question": "大雁南飞、树叶变黄发生在什么季节？",
+        "options": [
+          "春季",
+          "夏季",
+          "秋季",
+          "冬季"
+        ],
+        "answer": "秋季",
+        "explanation": "秋季气温下降，动物迁徙，叶片枯黄。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "太阳的位置与方向",
+        "question": "中午的时候，太阳在我们的哪个方向？",
+        "options": [
+          "东方",
+          "西方",
+          "南方",
+          "北方"
+        ],
+        "answer": "南方",
+        "explanation": "在我国北回归线以北地区，中午太阳位于正南方。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "土壤与生物的生存关系",
+        "question": "在观察土壤里的动植物时，我们应该：",
+        "options": [
+          "把动物带回家",
+          "直接拔掉植物",
+          "保持安静不惊扰",
+          "随意去踩踏"
+        ],
+        "answer": "保持安静不惊扰",
+        "explanation": "科学观察要尊重生命，尽量减少对环境的影响。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "月相的变化观察",
+        "question": "下列哪种形状可能是我们在天空中看到的月亮？",
+        "options": [
+          "长方形",
+          "五角星形",
+          "镰刀形",
+          "心形"
+        ],
+        "answer": "镰刀形",
+        "explanation": "月相变化过程中会出现类似镰刀或眉毛的形状。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季的特征与生物适应",
+        "question": "下列哪种植物是在春天开花的？",
+        "options": [
+          "腊梅",
+          "桃花",
+          "菊花",
+          "荷花"
+        ],
+        "answer": "桃花",
+        "explanation": "桃树在春季回暖时进入花期。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人类与健康的地球关系",
+        "question": "我们的衣服大多是用什么材料做成的？",
+        "options": [
+          "钢铁",
+          "岩石",
+          "棉花或蚕丝",
+          "塑料"
+        ],
+        "answer": "棉花或蚕丝",
+        "explanation": "棉花和蚕丝是来源于自然界的衣物原料。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "天气现象及其影响",
+        "question": "下列天气中，最适合在户外晾晒衣服的是：",
+        "options": [
+          "雷雨",
+          "大雾",
+          "大风",
+          "晴天"
+        ],
+        "answer": "晴天",
+        "explanation": "晴天阳光充足，气温适宜，利于水分蒸发。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "月相的变化观察",
+        "question": "两次圆月之间大约相隔多长时间？",
+        "options": [
+          "一天",
+          "一星期",
+          "一个月",
+          "一年"
+        ],
+        "answer": "一个月",
+        "explanation": "月相的变化周期大约是一个农历月。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "太阳的位置与方向",
+        "question": "傍晚，我们面对太阳时，背后是什么方向？",
+        "options": [
+          "东方",
+          "南方",
+          "西方",
+          "北方"
+        ],
+        "answer": "东方",
+        "explanation": "傍晚太阳在西方，面对西方时背后是东方。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季的特征与生物适应",
+        "question": "青蛙在冬天会通过什么方式来度过寒冷？",
+        "options": [
+          "换毛",
+          "迁徙",
+          "冬眠",
+          "储备粮食"
+        ],
+        "answer": "冬眠",
+        "explanation": "青蛙是冷血动物，冬天通过冬眠降低能量消耗。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季的特征与生物适应",
+        "question": "一年中一共有（___）个季节。",
+        "options": [],
+        "answer": "4",
+        "explanation": "指春夏秋冬四季。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "太阳的位置与方向",
+        "question": "我们通常说太阳每天在（___）点左右从东方升起（填整数）。",
+        "options": [],
+        "answer": "6",
+        "explanation": "一般情况下晨昏线的平均时间基准为早晨6点。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地球家园的组成要素",
+        "question": "地球家园中，表面覆盖着许多沙土和碎石的部分叫做（___）。",
+        "options": [],
+        "answer": "土壤",
+        "explanation": "土壤是地球表面的疏松层。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "月相的变化观察",
+        "question": "我们观察到的月球明亮部分的各种形状叫做（___）。",
+        "options": [],
+        "answer": "月相",
+        "explanation": "月相是地球上看到的月球被太阳照亮的部分。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "四季的特征与生物适应",
+        "question": "在天气炎热、雨水充足的（___）季，庄稼生长最快。",
+        "options": [],
+        "answer": "夏",
+        "explanation": "夏季气温高、光照强，是植物生长的旺季。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级上学期期末科学综合评价（地球家园篇）",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "地球家园的组成要素",
+        "question": "空气看不见，所以它不属于地球家园的一部分。",
+        "options": [],
+        "answer": "错",
+        "explanation": "空气是地球家园非常重要的非生物部分。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "太阳的位置与方向",
+        "question": "太阳在空中的位置是会变化的，我们的影子也会随之变化。",
+        "options": [],
+        "answer": "对",
+        "explanation": "影子的长度和方向随太阳高度和方位的变化而改变。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "天气现象及其影响",
+        "question": "强风、洪水等属于极端天气，会造成危害。",
+        "options": [],
+        "answer": "对",
+        "explanation": "极端天气对生命和财产具有破坏性。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "四季的特征与生物适应",
+        "question": "不同的季节里，我们的穿着是一样的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "我们要根据季节变化调节着装，保暖或防暑。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "月相的变化观察",
+        "question": "我们虽然看到的月亮形状不同，但月球本身不发光。",
+        "options": [],
+        "answer": "对",
+        "explanation": "月球反射的是太阳的光。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "土壤与生物的生存关系",
+        "question": "在土壤里挖小坑，最可能发现的是：",
+        "options": [
+          "云朵",
+          "小鱼",
+          "蚯蚓",
+          "月亮"
+        ],
+        "answer": "蚯蚓",
+        "explanation": "蚯蚓生活在潮湿、疏松的土壤中。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地球家园的组成要素",
+        "question": "下列属于非生物的是：",
+        "options": [
+          "小树",
+          "岩石",
+          "蚂蚁",
+          "小猫"
+        ],
+        "answer": "岩石",
+        "explanation": "岩石没有生命，属于非生物。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "太阳的位置与方向",
+        "question": "傍晚时分，我们要去西方看日落，应该面向：",
+        "options": [
+          "正在落下的太阳",
+          "背对太阳",
+          "左边是太阳",
+          "右边是太阳"
+        ],
+        "answer": "正在落下的太阳",
+        "explanation": "日落在西方，面向落日即面向西方。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "天气现象及其影响",
+        "question": "如果有雷电发生，我们不应该：",
+        "options": [
+          "关好门窗",
+          "在室内避雨",
+          "在大树下避雨",
+          "关闭电源"
+        ],
+        "answer": "在大树下避雨",
+        "explanation": "大树易遭雷击，在树下避雨很危险。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季的特征与生物适应",
+        "question": "下列哪种行为是动物为了适应冬季而做的准备？",
+        "options": [
+          "松鼠储存松果",
+          "燕子飞回北方",
+          "蝉大声鸣叫",
+          "小狗换厚毛"
+        ],
+        "answer": "松鼠储存松果",
+        "explanation": "松鼠在秋季储存粮食以备冬月食用。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人类与健康的地球关系",
+        "question": "下列哪个是人类爱护地球家园的表现？",
+        "options": [
+          "随意丢弃塑料袋",
+          "垃圾分类回收",
+          "大量使用农药",
+          "捉鸟当宠物"
+        ],
+        "answer": "垃圾分类回收",
+        "explanation": "垃圾分类有助于资源利用和环境保护。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "月相的变化观察",
+        "question": "农历八月十五这一天，月相正圆，这一天被称为：",
+        "options": [
+          "端午节",
+          "春节",
+          "中秋节",
+          "重阳节"
+        ],
+        "answer": "中秋节",
+        "explanation": "农历八月十五是中秋佳节，此时月相最圆。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "太阳的位置与方向",
+        "question": "当我们面对太阳升起的方向，左手指向的是：",
+        "options": [
+          "东方",
+          "西方",
+          "南方",
+          "北方"
+        ],
+        "answer": "北方",
+        "explanation": "面东背西，左北右南。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "天气现象及其影响",
+        "question": "天气预报说今天有大雪，小朋友应该穿：",
+        "options": [
+          "短袖上衣",
+          "裙子",
+          "厚棉袄",
+          "凉拖鞋"
+        ],
+        "answer": "厚棉袄",
+        "explanation": "下雪天气温低，需防寒保暖。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "土壤与生物的生存关系",
+        "question": "下列哪项不是土壤对植物的作用？",
+        "options": [
+          "固定根部",
+          "提供水分",
+          "提供养料",
+          "制造阳光"
+        ],
+        "answer": "制造阳光",
+        "explanation": "阳光来源于太阳，不是土壤制造的。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球家园的组成要素",
+        "question": "如果地球上没有了水，会发生什么？",
+        "options": [
+          "草木长得更茂盛",
+          "鱼儿游得更欢",
+          "生命将无法生存",
+          "天气会变凉爽"
+        ],
+        "answer": "生命将无法生存",
+        "explanation": "水是生命之源，没有水生命就会枯萎。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "四季的特征与生物适应",
+        "question": "农民伯伯通常在哪个季节播种农作物的种子？",
+        "options": [
+          "春季",
+          "夏季",
+          "秋季",
+          "冬季"
+        ],
+        "answer": "春季",
+        "explanation": "一年之计在于春，春季是播种的季节。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人类与健康的地球关系",
+        "question": "我们造房子的木材主要直接来自：",
+        "options": [
+          "工厂",
+          "矿山",
+          "森林",
+          "大海"
+        ],
+        "answer": "森林",
+        "explanation": "树木是森林的主要组成部分，提供木材资源。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "月相的变化观察",
+        "question": "月相变化一个周期（农历一个月）大约有（___）天。",
+        "options": [],
+        "answer": "30",
+        "explanation": "农历月平均约为29.5天，整数约为30天。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "太阳的位置与方向",
+        "question": "每天太阳升起、落下，我们的方位一共有（___）个基本方向。",
+        "options": [],
+        "answer": "4",
+        "explanation": "即东、南、西、北。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气现象及其影响",
+        "question": "当风力非常大，吹得树枝乱跳、行人难以行走，这种天气是（___）。",
+        "options": [],
+        "answer": "大风",
+        "explanation": "这是对大风天气现象的描述。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季的特征与生物适应",
+        "question": "冬天天气寒冷，北方会降下白色的（___）。",
+        "options": [],
+        "answer": "雪",
+        "explanation": "降雪是冬天的典型天气现象。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球家园的组成要素",
+        "question": "（___）是动植物共同的家园。",
+        "options": [],
+        "answer": "地球",
+        "explanation": "地球提供了生物生存的所有基本条件。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "地球家园的组成",
+      "core_concept": "地球是由生物（人、动植物）和非生物（气、土、水、石）共同组成的整体。",
+      "key_formula": "地球家园 = 生物 + 非生物环境",
+      "common_mistakes": [
+        "认为空气和阳光不属于地球家园",
+        "分不清生物和非生物"
+      ],
+      "tips": "观察时要从远到近，从大到小，注意那些看不见但存在的要素（如空气）。"
+    },
+    {
+      "point": "太阳的位置与方向",
+      "core_concept": "太阳在一天中的位置变化是有规律的，可以用来辨认方向。",
+      "key_formula": "清晨东升、中午南斜、傍晚西落",
+      "common_mistakes": [
+        "左右方向搞错",
+        "中午认为太阳在头顶（除非在热带地区，一般视为南方）"
+      ],
+      "tips": "早晨面向太阳，前面是东，后面是西，左面是北，右面是南。"
+    },
+    {
+      "point": "月相的变化",
+      "core_concept": "月相是月球明亮部分形状的变化，具有月周期性。",
+      "key_formula": "月初缺，月中圆，月末残",
+      "common_mistakes": [
+        "认为月亮本身形状在变",
+        "分不清月初和月末的月牙方向"
+      ],
+      "tips": "月相变化是逐渐的，不是跳跃的，建议坚持观察并记录一个月。"
+    },
+    {
+      "point": "季节与生物",
+      "core_concept": "一年四季气温、降水的变化会引起动植物行为的改变。",
+      "key_formula": "春生、夏长、秋收、冬藏",
+      "common_mistakes": [
+        "混淆不同季节开的花",
+        "不理解动物冬眠的意义"
+      ],
+      "tips": "多观察窗外的树木和身边的动物，体会自然界的节奏。"
+    }
+  ]
+}

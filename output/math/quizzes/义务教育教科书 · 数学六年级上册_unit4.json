@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学六年级上册",
+  "unit": "比",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元「比」基础巩固测评",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "比的前项不能为0。",
+        "options": [],
+        "answer": "错",
+        "explanation": "比的前项相当于除法中的被除数，可以是0；比的后项相当于除数，不能为0。验算：$0:5 = 0 \\div 5 = 0$，结果有意义。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "比的前项和后项同时乘一个相同的数，比值不变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "必须是同时乘或除以一个相同的数，且这个数不能为0。如果同时乘0，比的后项变为0，比就没有意义了。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "比的意义与比值",
+        "question": "小明身高1米，爸爸身高175厘米，小明与爸爸的身高比是1:175。",
+        "options": [],
+        "answer": "错",
+        "explanation": "求比时单位必须统一。1米=100厘米，比应该是100:175。验算：$100 \\div 175 = 4/7$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "按比例分配问题",
+        "question": "把10克盐放入100克水中，盐和盐水的比是1:11。",
+        "options": [],
+        "answer": "对",
+        "explanation": "盐是10克，盐水是$10+100=110$克。比是$10:110 = 1:11$。验算：$1/11 = 10/110$ ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "最简单的整数比的前项和后项必须都是质数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "最简整数比的要求是前项和后项互质，不一定非要是质数。例如4:9是最简比，但4和9都是合数。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "如果 $a:b = c$，那么下面说法正确的是：",
+        "options": [
+          "a是比的前项",
+          "b是比的前项",
+          "c是比的后项",
+          "b是比值"
+        ],
+        "answer": "a是比的前项",
+        "explanation": "比号前面的项叫前项，后面的叫后项，计算结果叫比值。所以a是前项，b是后项，c是比值。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "求 $0.6:0.12$ 的比值，结果是：",
+        "options": [
+          "5",
+          "0.5",
+          "50",
+          "1/5"
+        ],
+        "answer": "5",
+        "explanation": "$0.6 \\div 0.12 = 5$。验算：$5 \\times 0.12 = 0.6$ ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "把 $1.2:0.4$ 化简成最简单的整数比是：",
+        "options": [
+          "3:1",
+          "3",
+          "3:10",
+          "12:4"
+        ],
+        "answer": "3:1",
+        "explanation": "$1.2:0.4 = (1.2 \\times 10) : (0.4 \\times 10) = 12:4 = 3:1$。最简比符号不能省略。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按比例分配问题",
+        "question": "一个三角形三个内角的度数比是 1:1:2，这个三角形是：",
+        "options": [
+          "等腰直角三角形",
+          "等边三角形",
+          "钝角三角形",
+          "锐角三角形"
+        ],
+        "answer": "等腰直角三角形",
+        "explanation": "总份数 $1+1+2=4$。最大角 $180 \\times (2/4) = 90$度，且有两个角相等，是等腰直角三角形。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "一个比的前项扩大到原来的3倍，后项缩小到原来的1/3，比值会：",
+        "options": [
+          "扩大到原来的9倍",
+          "缩小到原来的1/9",
+          "不变",
+          "扩大到原来的3倍"
+        ],
+        "answer": "扩大到原来的9倍",
+        "explanation": "设定原比 $1:1=1$。新比 $(1 \\times 3):(1 \\div 3) = 3: (1/3) = 9$。$9 \\div 1 = 9$倍。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "按比例分配问题",
+        "question": "学校买来300本课外书，按 2:3 分给五、六年级，六年级分得多少本？",
+        "options": [
+          "180",
+          "120",
+          "200",
+          "150"
+        ],
+        "answer": "180",
+        "explanation": "总份数 $2+3=5$。六年级占 3/5。$300 \\times (3/5) = 180$（本）。验算：$300-180=120$，120:180=2:3 ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "在 5:8 中，如果前项加上10，要使比值不变，后项应加上：",
+        "options": [
+          "16",
+          "10",
+          "24",
+          "8"
+        ],
+        "answer": "16",
+        "explanation": "前项由5变为15，扩大了3倍。后项8也应扩大3倍变为24。$24 - 8 = 16$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "两个正方形的边长比是 2:3，它们的面积比是：",
+        "options": [
+          "4:9",
+          "2:3",
+          "4:6",
+          "8:27"
+        ],
+        "answer": "4:9",
+        "explanation": "面积比是边长比的平方。$2^2 : 3^2 = 4:9$。验算：设边长为2和3，面积为4和9。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "下面的比中，与 0.2:0.3 比值相等的比是：",
+        "options": [
+          "2:3",
+          "3:2",
+          "1:2",
+          "4:9"
+        ],
+        "answer": "2:3",
+        "explanation": "$0.2:0.3 = (0.2 \\times 10):(0.3 \\times 10) = 2:3$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按比例分配问题",
+        "question": "一段路，甲走完用4小时，乙走完用5小时。甲、乙的速度比是：",
+        "options": [
+          "5:4",
+          "4:5",
+          "1/4:1/5",
+          "1:1"
+        ],
+        "answer": "5:4",
+        "explanation": "路程一定，速度比是时间比的反比。$1/4 : 1/5 = 5:4$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "按比例分配问题",
+        "question": "甲、乙两数和是60，甲、乙两数比是 3:2，甲数是多少？",
+        "options": [
+          "36",
+          "24",
+          "40",
+          "30"
+        ],
+        "answer": "36",
+        "explanation": "总份数 $3+2=5$。甲占 3/5。$60 \\times (3/5) = 36$。验算：乙为$60-36=24$，36:24=3:2 ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比的意义与比值",
+        "question": "在实验室配汁，药粉与水的质量比是 1:500。现有药粉2克，需加水：",
+        "options": [
+          "1000克",
+          "500克",
+          "250克",
+          "2000克"
+        ],
+        "answer": "1000克",
+        "explanation": "$2 \\times 500 = 1000$（克）。验算：2:1000 = 1:500 ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "按比例分配问题",
+        "question": "一根长40厘米的铁丝围成一个长方形，长与宽的比是 3:2，这个长方形的面积是：",
+        "options": [
+          "96",
+          "240",
+          "150",
+          "384"
+        ],
+        "answer": "96",
+        "explanation": "一条长与宽的和是 $40 \\div 2 = 20$。长 $20 \\times (3/5)=12$，宽 $20 \\times (2/5)=8$。$12 \\times 8 = 96$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "比的前项是 12，比值是 3，比的后项是 ___。",
+        "options": [],
+        "answer": "4",
+        "explanation": "根据“后项 = 前项 $\\div$ 比值”，$12 \\div 3 = 4$。验算：$12:4 = 3$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "将 25:100 化简为最简整数比，后项是 ___。",
+        "options": [],
+        "answer": "4",
+        "explanation": "$25:100 = (25 \\div 25) : (100 \\div 25) = 1:4$。后项是4。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按比例分配问题",
+        "question": "果园里桃树和梨树共 120 棵，它们的比是 3:1，梨树有 ___ 棵。",
+        "options": [],
+        "answer": "30",
+        "explanation": "总份数 $3+1=4$。梨树占 1/4。$120 \\div 4 = 30$（棵）。验算：桃树90棵，$90+30=120$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "计算 $84 \\div 12$ 的结果是：",
+        "options": [],
+        "answer": "7",
+        "explanation": "$84 \\div 12 = 7$。验算：$12 \\times 7 = 84$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "按比例分配问题",
+        "question": "计算 $450 \\times \\frac{2}{9} = ?$",
+        "options": [],
+        "answer": "100",
+        "explanation": "$450 \\div 9 = 50$, $50 \\times 2 = 100$。验算：$100 \\div (2/9) = 100 \\times 4.5 = 450$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级上册「比」单元综合过关检测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "比的前项、后项和比值都可以是分数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "比的三个组成部分都可以表现为整数、小数或分数。验算：$(1/2) : (1/3) = 3/2$ ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "如果 a:b = 1/2，那么 2a = b。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$a \\div b = 1/2$ 整理得 $b = 2a$。符合等式基本性质。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "比的意义与比值",
+        "question": "在 4:5 中，比的前项增加8，要使比值不变，后项也要增加8。",
+        "options": [],
+        "answer": "错",
+        "explanation": "前项增加8变为12，是原来的3倍；后项也应乘3变为15，应增加 $15-5=10$ 而不是8。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "8:15 的后项增加30，要使比值不变，前项应增加16。",
+        "options": [],
+        "answer": "对",
+        "explanation": "后项变为 $15+30=45$，扩大到原来的3倍。前项 8 也应乘3变为24。$24-8=16$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "按比例分配问题",
+        "question": "一个长方形周长是 20 厘米，长与宽的比是 3:2，则长是 12 厘米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$20 \\div 2 = 10$，长应为 $10 \\times (3/5) = 6$ 厘米。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "足球比赛中常出现的“2:0”与数学中的“比”：",
+        "options": [
+          "意义不同",
+          "意义相同",
+          "完全一样",
+          "可以互换"
+        ],
+        "answer": "意义不同",
+        "explanation": "比赛比分是差比，表示得分多少；数学比是倍比，表示除法关系，后项不能为0。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "将 $\\frac{1}{4} : \\frac{1}{8}$ 化简为最简整数比是：",
+        "options": [
+          "2:1",
+          "1:2",
+          "4:8",
+          "0.5"
+        ],
+        "answer": "2:1",
+        "explanation": "$(1/4) \\times 8 : (1/8) \\times 8 = 2:1$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "两圆半径分别是 3cm 和 5cm，它们的周长比是：",
+        "options": [
+          "3:5",
+          "9:25",
+          "6:10",
+          "3.14:5"
+        ],
+        "answer": "3:5",
+        "explanation": "圆的周长比等于半径比。$2\\pi r_1 : 2\\pi r_2 = r_1 : r_2 = 3:5$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按比例分配问题",
+        "question": "把 40 升水倒入两个容器，容量比是 5:3，大容器装了：",
+        "options": [
+          "25升",
+          "15升",
+          "20升",
+          "30升"
+        ],
+        "answer": "25升",
+        "explanation": "$40 \\div (5+3) \\times 5 = 5 \\times 5 = 25$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "一个比的前项除以 5，后项乘 1/5，比值：",
+        "options": [
+          "不变",
+          "扩大到25倍",
+          "缩小到1/25",
+          "缩小到1/5"
+        ],
+        "answer": "不变",
+        "explanation": "除以 5 等于乘 1/5。前项和后项同时乘 1/5，比值不变。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "按比例分配问题",
+        "question": "甲数是乙数的 2/3，乙数与甲乙总和的比是：",
+        "options": [
+          "3:5",
+          "2:3",
+          "2:5",
+          "5:3"
+        ],
+        "answer": "3:5",
+        "explanation": "设乙为3，则甲为2。总和为5。乙：总和 = 3:5。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按比例分配问题",
+        "question": "一批零件共 100 个，由师傅和徒弟加工，分配比是 3:2，徒弟加工：",
+        "options": [
+          "40个",
+          "60个",
+          "50个",
+          "20个"
+        ],
+        "answer": "40个",
+        "explanation": "$100 \\div (3+2) \\times 2 = 20 \\times 2 = 40$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "0.15:3 化成最简整数比是：",
+        "options": [
+          "1:20",
+          "15:300",
+          "3:60",
+          "0.05"
+        ],
+        "answer": "1:20",
+        "explanation": "$0.15:3 = 15:300 = 1:20$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "按比例分配问题",
+        "question": "三角形三个内角度数之比是 2:3:5，这是：",
+        "options": [
+          "直角三角形",
+          "等腰三角形",
+          "钝角三角形",
+          "锐角三角形"
+        ],
+        "answer": "直角三角形",
+        "explanation": "最大角占 5/10。$180 \\times (5/10) = 90$度，故是直角三角形。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比的意义与比值",
+        "question": "小红5分钟走400米，小刚6分钟走450米，两人的速度比：",
+        "options": [
+          "16:15",
+          "15:16",
+          "8:9",
+          "5:6"
+        ],
+        "answer": "16:15",
+        "explanation": "小红速度 $400/5=80$；小刚 $450/6=75$。$80:75 = 16:15$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "按比例分配问题",
+        "question": "一杯糖水，糖和水的比是 1:20。如果有糖 5 克，这杯糖水重：",
+        "options": [
+          "105克",
+          "100克",
+          "25克",
+          "120克"
+        ],
+        "answer": "105克",
+        "explanation": "水 $5 \\times 20 = 100$克。糖水 = 糖 + 水 = $5+100=105$克。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "下列哪一项不是比、除法、分数之间的对应关系：",
+        "options": [
+          "比号与括号",
+          "前项与被除数",
+          "后项与除数",
+          "比值与商"
+        ],
+        "answer": "比号与括号",
+        "explanation": "比号对应除号和分数线，不是括号。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按比例分配问题",
+        "question": "甲数是乙数的 80%，甲数与乙数的比是：",
+        "options": [
+          "4:5",
+          "5:4",
+          "8:10",
+          "1:8"
+        ],
+        "answer": "4:5",
+        "explanation": "$80\\% = 80/100 = 4/5$，即甲:乙 = 4:5。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的意义与比值",
+        "question": "比的前项是 24，后项是 6，比值是 ___。",
+        "options": [],
+        "answer": "4",
+        "explanation": "$24 \\div 6 = 4$。验算：$6 \\times 4 = 24$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按比例分配问题",
+        "question": "把 20 厘米长的绳子按 2:3 分成两段，较短的一段是 ___ 厘米。",
+        "options": [],
+        "answer": "8",
+        "explanation": "总份数 5。短段占 2/5。$20 \\times (2/5) = 8$。验算：长段为12，8:12=2:3 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "若 3:5 的前项加上 6，后项应加上 ___。 ",
+        "options": [],
+        "answer": "10",
+        "explanation": "前项 3 变成 9，扩大了 3 倍。后项 5 也应乘 3 变成 15。$15 - 5 = 10$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比的基本性质与化简",
+        "question": "计算 $120 \\div 15$ 的结果是：",
+        "options": [],
+        "answer": "8",
+        "explanation": "$120 \\div 15 = 8$。验算：$15 \\times 8 = 120$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按比例分配问题",
+        "question": "计算 $(18 + 12) \\times \\frac{3}{5} = ?$",
+        "options": [],
+        "answer": "18",
+        "explanation": "$30 \\times 0.6 = 18$。验算：$18 \b \\div 0.6 = 30$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "比的意义与比值",
+      "core_concept": "两个数相除又叫做两个数的比。比号前面的数叫前项，后面的叫后项。前项除以后项所得的商叫做比值。例如 $3:2 = 3 \\div 2 = 1.5$。",
+      "key_formula": "$a:b = a \\div b = \\frac{a}{b}$ ($b \ne 0$)",
+      "common_mistakes": [
+        "将比的后项写为0（比的后项相当于除数，不能为0）",
+        "将比值与比的化简混淆（比值是一个数，可以是整数、分数、小数；而比必须带比号）"
+      ],
+      "tips": "记忆口诀：比的前项像分子，比的后项像分母，比值就是那个值。"
+    },
+    {
+      "point": "比的基本性质与化简",
+      "core_concept": "比的前项和后项同时乘或除以相同的数（0除外），比值不变。化简比就是把一个比变成最简单的整数比（前项和后项互质的整数）。",
+      "key_formula": "$a:b = (a \\times n):(b \\times n) = (a \\div n):(b \\div n)$ ($n \ne 0$)",
+      "common_mistakes": [
+        "化简时只在前项乘，后项忘记乘",
+        "化简结果写成一个孤立的数字（结果必须保留比的形式，如 2:1）"
+      ],
+      "tips": "遇到分数比，先通分去分母；遇到小数比，先扩位变整数，再求最大公因数约分。"
+    },
+    {
+      "point": "按比例分配问题",
+      "core_concept": "在工业生产和日常生活中，常常需要把一个数量按照一定的比来进行分配。通常做法是先算出总份数，再求出各部分占总量的几分之几，最后计算实际值。",
+      "key_formula": "某部分量 = 总量 $\\times \\frac{该部分份数}{总份数}$",
+      "common_mistakes": [
+        "计算各部分占比时，分母没有用各份数之和",
+        "围篱笆或求面积题中，误将周长直接按比分配（应先求长与宽的和）"
+      ],
+      "tips": "做题三部曲：求总份数、求分率、求部分量。最后别忘了把各部分加起来看看是不是等于总量。"
+    }
+  ]
+}

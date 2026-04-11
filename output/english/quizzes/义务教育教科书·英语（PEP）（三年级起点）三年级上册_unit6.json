@@ -1,0 +1,712 @@
+{
+  "textbook": "PEP Primary English Student's Book 1 (3A)",
+  "unit": "Happy birthday!",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "Unit 6 Happy birthday! Standard Test",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数字词汇认读",
+        "question": "'eight' 这个单词表示数字 '7'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "eight是数字8，7是seven。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字母辨析",
+        "question": "字母 'W' 的小写形式是 'm'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "W的小写是w，m是大写M的小写。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常用语",
+        "question": "当你想祝别人生日快乐时，可以说 'Happy birthday! '",
+        "options": [],
+        "answer": "对",
+        "explanation": "Happy birthday意为生日快乐。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词组理解",
+        "question": "'this one' 的中文意思是 '这个'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "this one 指代近处的某个特定的人或物。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "年龄询问",
+        "question": "回答年龄时可以使用 'I'm nine years old.'",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是询问年龄的标准答语。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字认读",
+        "question": "Show me _____. (伸出6根手指)",
+        "options": [
+          "six",
+          "seven",
+          "eight",
+          "nine"
+        ],
+        "answer": "six",
+        "explanation": "数字6的英文是six。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字顺序",
+        "question": "Choose the next number: seven, eight, nine, _____.",
+        "options": [
+          "six",
+          "five",
+          "ten",
+          "four"
+        ],
+        "answer": "ten",
+        "explanation": "按顺序1-10排列，nine后接ten。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交际",
+        "question": "How old are you?",
+        "options": [
+          "I'm fine.",
+          "I'm nine.",
+          "Nine plates.",
+          "Thank you."
+        ],
+        "answer": "I'm nine.",
+        "explanation": "How old are you询问年龄，常用I'm + 数字回答。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物品数量",
+        "question": "How many _____?",
+        "options": [
+          "plate",
+          "plates",
+          "a plate",
+          "the plate"
+        ],
+        "answer": "plates",
+        "explanation": "How many询问数量，后面需由名词复数形式。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇理解",
+        "question": "Sarah, this is my brother, Sam.",
+        "options": [
+          "Happy birthday!",
+          "Great!",
+          "Nice to meet you.",
+          "I'm six."
+        ],
+        "answer": "Nice to meet you.",
+        "explanation": "初次见面或是被介绍认识时常用Nice to meet you。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字母认读",
+        "question": "Which letter is after 'Uu'?",
+        "options": [
+          "Vv",
+          "Ww",
+          "Xx",
+          "Yy"
+        ],
+        "answer": "Vv",
+        "explanation": "字母表中U后面是V。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义辨析",
+        "question": "I have _____ gifts. (我有8件礼物)",
+        "options": [
+          "seven",
+          "nine",
+          "eight",
+          "ten"
+        ],
+        "answer": "eight",
+        "explanation": "数字8的英文是eight。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景应用",
+        "question": "今天是你的生日，朋友对你说 'Happy birthday!', 你应回答：",
+        "options": [
+          "Happy birthday!",
+          "I'm ten.",
+          "Thank you.",
+          "Fine, thanks."
+        ],
+        "answer": "Thank you.",
+        "explanation": "接受别人的祝福要表达感谢。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "冠词用法",
+        "question": "This is _____ elephant.",
+        "options": [
+          "a",
+          "an",
+          "/",
+          "two"
+        ],
+        "answer": "an",
+        "explanation": "elephant的首字母e发元音音素，单数要用an。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "逻辑理解",
+        "question": "Three and five is _____.",
+        "options": [
+          "six",
+          "seven",
+          "eight",
+          "nine"
+        ],
+        "answer": "eight",
+        "explanation": "3加5等于8。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "疑问词",
+        "question": "___ old are you?",
+        "options": [],
+        "answer": "how",
+        "explanation": "How old are you是询问年龄的固定短语。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字拼写",
+        "question": "One, two, three, four, ___.",
+        "options": [],
+        "answer": "five",
+        "explanation": "1到5的数字顺序。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数量询问",
+        "question": "How ___ cakes?",
+        "options": [],
+        "answer": "many",
+        "explanation": "how many引导对物体数量的提问。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "指示代词",
+        "question": "Let's eat ___ cake.",
+        "options": [],
+        "answer": "the",
+        "explanation": "吃那个蛋糕，特指生日蛋糕用the。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇互译",
+        "question": "将下列英文数字与中文意思连线。",
+        "options": [
+          "six",
+          "seven",
+          "eight",
+          "nine",
+          "九",
+          "八",
+          "七",
+          "六"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "six-六, seven-七, eight-八, nine-九。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "短语互译",
+        "question": "将下列短语与中文意思连线。",
+        "options": [
+          "so many",
+          "this one",
+          "how many",
+          "how old",
+          "多大",
+          "多少",
+          "这个",
+          "这么多"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "so many-这么多, this one-这个, how many-多少, how old-多大。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "年龄表达",
+        "question": "连词成句：",
+        "options": [
+          "I",
+          "six",
+          "am",
+          "years",
+          "old"
+        ],
+        "answer": "I,am,six,years,old",
+        "explanation": "意为：我六岁了。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生日祝福",
+        "question": "连词成句：",
+        "options": [
+          "Happy",
+          "to",
+          "birthday",
+          "you"
+        ],
+        "answer": "Happy,birthday,to,you",
+        "explanation": "意为：祝你生日快乐。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Grade 3 First Semester Final Exam (Unit 6 Inclusion)",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数字理解",
+        "question": "当我们数数时，'nine' 在 'ten' 的前面。",
+        "options": [],
+        "answer": "对",
+        "explanation": "数字顺序是9, 10。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字母书写",
+        "question": "字母 'Z' 是 26 个字母中的最后一个。",
+        "options": [],
+        "answer": "对",
+        "explanation": "A-Z共26个字母，Z为末位。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "代词理解",
+        "question": "'you' 的意思是 '我'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "you是‘你’，I才是‘我’。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "量词逻辑",
+        "question": "当我们说 'two plates' 时，'plates' 后面要加 's'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "复数名词需要加s。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "综合理解",
+        "question": "如果你有 6 个苹果，再买 4 个，你就有 'ten' 个苹果。",
+        "options": [],
+        "answer": "对",
+        "explanation": "6+4=10。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字词汇",
+        "question": "I have _____ ducks.",
+        "options": [
+          "one",
+          "seven",
+          "this",
+          "what"
+        ],
+        "answer": "seven",
+        "explanation": "空格处需填入修饰ducks的数量词。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常识与数字",
+        "question": "How many fingers(手指) on one hand?",
+        "options": [
+          "four",
+          "five",
+          "six",
+          "ten"
+        ],
+        "answer": "five",
+        "explanation": "一只手有5根手指。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交际",
+        "question": "— Happy birthday! — _____",
+        "options": [
+          "Happy birthday!",
+          "I'm eight.",
+          "Thank you.",
+          "Good morning."
+        ],
+        "answer": "Thank you.",
+        "explanation": "生日收到祝福的回应方式。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "年龄询问",
+        "question": "— How old are you? — _____",
+        "options": [
+          "I'm five years old.",
+          "I'm fine.",
+          "Very well.",
+          "Cool!"
+        ],
+        "answer": "I'm five years old.",
+        "explanation": "回答年龄的句型。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数量提问",
+        "question": "— How many _____? — Six.",
+        "options": [
+          "eraser",
+          "pencil",
+          "erasers",
+          "a pencil"
+        ],
+        "answer": "erasers",
+        "explanation": "How many后接复数。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "感谢回复",
+        "question": "— Thank you. — _____",
+        "options": [
+          "Great!",
+          "I'm sorry.",
+          "You're welcome.",
+          "Bye."
+        ],
+        "answer": "You're welcome.",
+        "explanation": "不用谢的标准表达。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合运用",
+        "question": "Look at the candles. I am _____.",
+        "options": [
+          "fine",
+          "too",
+          "nine",
+          "this"
+        ],
+        "answer": "nine",
+        "explanation": "根据蜡烛的数量判断年龄。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "限定词",
+        "question": "I'd like _____ cakes, please.",
+        "options": [
+          "this",
+          "some",
+          "an",
+          "a"
+        ],
+        "answer": "some",
+        "explanation": "cakes是复数，用some修饰。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数字计算",
+        "question": "Ten minus(减去) four is _____.",
+        "options": [
+          "five",
+          "seven",
+          "six",
+          "eight"
+        ],
+        "answer": "six",
+        "explanation": "10-4=6。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "指示代词",
+        "question": "Can I have _____ one?",
+        "options": [
+          "this",
+          "these",
+          "two",
+          "ten"
+        ],
+        "answer": "this",
+        "explanation": "one是单数，用this修饰。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字书写",
+        "question": "I have 8 books. (拼写8)",
+        "options": [],
+        "answer": "eight",
+        "explanation": "数字8的英文拼写。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "系动词",
+        "question": "How old ___ you?",
+        "options": [],
+        "answer": "are",
+        "explanation": "主语是you，be动词用are。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字减法",
+        "question": "Seven minus two is ___.",
+        "options": [],
+        "answer": "five",
+        "explanation": "7-2=5。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "逻辑填空",
+        "question": "___ see! One, two, three...",
+        "options": [],
+        "answer": "let",
+        "explanation": "Let us see/Let's see 让我们看看。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数字与单词",
+        "question": "将阿拉伯数字与对应的单词连线。",
+        "options": [
+          "10",
+          "8",
+          "6",
+          "7",
+          "seven",
+          "six",
+          "eight",
+          "ten"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "10-ten, 8-eight, 6-six, 7-seven。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "字母关联",
+        "question": "将首字母与对应的单词连线。",
+        "options": [
+          "umbrella",
+          "box",
+          "yellow",
+          "zoo",
+          "Z",
+          "Y",
+          "X",
+          "U"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "umbrella-U, box-X(结尾字母), yellow-Y, zoo-Z。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "年龄回答",
+        "question": "连词成句：",
+        "options": [
+          "are",
+          "You",
+          "seven"
+        ],
+        "answer": "You,are,seven",
+        "explanation": "意为：你是七岁。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "指示语",
+        "question": "连词成句：",
+        "options": [
+          "this",
+          "one",
+          "Please",
+          "have"
+        ],
+        "answer": "Please,have,this,one",
+        "explanation": "意为：请吃这个。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "数字6-10的拼写",
+      "core_concept": "基数词的认读与拼写",
+      "key_formula": "six, seven, eight (注意ei组合), nine (注意不发音e), ten",
+      "common_mistakes": [
+        "eight 拼写成 eigt",
+        "nine 拼写成 nin"
+      ],
+      "tips": "可以通过手指操或数数游戏来记忆数字规律。"
+    },
+    {
+      "point": "询问年龄",
+      "core_concept": "How old 句型的应用",
+      "key_formula": "How old are you? + I'm + [数字] (years old).",
+      "common_mistakes": [
+        "混淆 How old (多大) 与 How many (多少)",
+        "回答时漏掉系动词 am"
+      ],
+      "tips": "记住 'old' 表示老/旧，询问‘多老’即是问年龄。"
+    },
+    {
+      "point": "名词复数初探",
+      "core_concept": "当数量大于1时名词的变化",
+      "key_formula": "数词 + 名词 + s (如: six plates)",
+      "common_mistakes": [
+        "在大数字后使用名词单数形式，如 'six plate'"
+      ],
+      "tips": "看到数字 2-10，后面的名词小朋友要记得给它加个小尾巴 's'。"
+    }
+  ]
+}

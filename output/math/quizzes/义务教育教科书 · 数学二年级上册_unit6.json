@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级上册",
+  "unit": "表内乘法（二）",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第6单元：表内乘法（二）基础过关卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "计算 $8 \\times 9$ 和 $9 \\times 8$ 时，用的是同一句乘法口诀。",
+        "options": [],
+        "answer": "对",
+        "explanation": "计算 $8 \\times 9$ 和 $9 \\times 8$ 调换了因数位置，均使用口诀“八九七十二”。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "7的乘法口诀中，每一句口诀的积都比前一句多7。",
+        "options": [],
+        "answer": "对",
+        "explanation": "乘数增加1，积增加另一个因数的值。$7 \\times (n+1) - 7 \\times n = 7$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "9 乘任何一个数得到的积，个位数字与十位数字的和都是 9（0除外）。",
+        "options": [],
+        "answer": "对",
+        "explanation": "例如：$9 \\times 2 = 18$ ($1+8=9$)，$9 \\times 5 = 45$ ($4+5=9$)。这是9的乘法口诀的特殊规律。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "$8+8+8+8+8+8$ 可以写成 $8 \\times 6$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "乘法是求几个相同加数和的简便运算，6个8相加记作 $8 \\times 6$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "买一个 $8$ 元的笔记本，买 $9$ 个需要支付 $81$ 元。",
+        "options": [],
+        "answer": "错",
+        "explanation": "应该是 $8 \\times 9 = 72$（元），不是81元。八九七十二。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "口诀“七八五十六”可以用来计算下面哪个算式？",
+        "options": [
+          "$7 \\times 7$",
+          "$8 \\times 8$",
+          "$7 \\times 8$",
+          "$7 + 8$"
+        ],
+        "answer": "$7 \\times 8$",
+        "explanation": "口诀“七八五十六”对应 $7 \\times 8$ 或 $8 \\times 7$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "$9 \\times 4$ 的积是多少？",
+        "options": [
+          "32",
+          "36",
+          "40",
+          "45"
+        ],
+        "answer": "36",
+        "explanation": "根据口诀“四九三十六”，积是36。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "一个乘数是 8，另一个乘数是 7，积是多少？",
+        "options": [
+          "15",
+          "54",
+          "56",
+          "64"
+        ],
+        "answer": "56",
+        "explanation": "$8 \\times 7 = 56$，口诀：七八五十六。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "下面哪句口诀是错误的？",
+        "options": [
+          "七九六十三",
+          "八九七十一",
+          "九九八十一",
+          "六九五十四"
+        ],
+        "answer": "八九七十一",
+        "explanation": "应该是“八九七十二”，积是72而不是71。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "在关系式 $( ) \\times 9 < 60$ 中，括号里最大能填几？",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "explanation": "因为 $6 \\times 9 = 54$ ($< 60$)，$7 \\times 9 = 63$ ($> 60$)，所以最大填6。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "算式 $8 \\times 7 + 8$ 的结果与下列哪个算式相等？",
+        "options": [
+          "$8 \\times 8$",
+          "$8 \\times 6$",
+          "$7 \\times 7$",
+          "$8 \\times 9$"
+        ],
+        "answer": "$8 \\times 8$",
+        "explanation": "$8 \\times 7$ 表示7个8相加，再加上1个8，总共是8个8相加，即 $8 \\times 8$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "一只螃蟹有 8 条腿，7 只螃蟹一共有多少条腿？",
+        "options": [
+          "15",
+          "49",
+          "56",
+          "64"
+        ],
+        "answer": "56",
+        "explanation": "$8 \\times 7 = 56$（条）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "一件衣服要钉 7 个纽扣，做了 8 件衣服后还剩 4 个纽扣。原来一共有多少个纽扣？",
+        "options": [
+          "52",
+          "56",
+          "60",
+          "64"
+        ],
+        "answer": "60",
+        "explanation": "$7 \\times 8 + 4 = 56 + 4 = 60$（个）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "小明买 9 支铅笔，每支 3 元，付给售货员 30 元，应找回多少钱？",
+        "options": [
+          "3",
+          "1",
+          "27",
+          "7"
+        ],
+        "answer": "3",
+        "explanation": "$30 - (9 \\times 3) = 30 - 27 = 3$（元）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "在算式 $8 \\times \\Box = 64$ 中，$\\Box$ 里的数是几？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "explanation": "根据口诀“八八六十四”，$\\Box$ 应该是8。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "两排桌子，第一排 8 张，第二排 9 张，一共有多少张？",
+        "options": [
+          "17",
+          "72",
+          "81",
+          "64"
+        ],
+        "answer": "17",
+        "explanation": "注意题干是两排不是每排，算式是 $8 + 9 = 17$。不要混淆乘法和加法。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "9 的乘法口诀“五九四十五”，下一个口诀是：",
+        "options": [
+          "五八四十",
+          "六九五十四",
+          "六九六十",
+          "六八四十八"
+        ],
+        "answer": "六九五十四",
+        "explanation": "9的乘法口诀按顺序，五九之后是六九，积增加9，$45+9=54$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "比较大小：$7 \\times 6$ ( ) $9 \\times 5$。括号里填什么？",
+        "options": [
+          ">",
+          "<",
+          "（空）",
+          "无法比较"
+        ],
+        "answer": "<",
+        "explanation": "$7 \\times 6 = 42$，$9 \\times 5 = 45$，$42 < 45$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "有 8 大格，每大格有 5 个小格，一共有 ___ 个小格。",
+        "options": [],
+        "answer": "40",
+        "explanation": "列式：$8 \\times 5 = 40$。验算：$5 \\times 8 = 40$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "小明每天看 9 页书，刚好看了 7 天看完。这本书一共有 ___ 页。",
+        "options": [],
+        "answer": "63",
+        "explanation": "列式：$9 \\times 7 = 63$。验算：口诀“七九六十三” ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "两个因数都是 9，积是 ___ 。",
+        "options": [],
+        "answer": "81",
+        "explanation": "列式：$9 \\times 9 = 81$。验算：口诀“九九八十一” ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "计算：$9 \\times 8 = ?$",
+        "options": [],
+        "answer": "72",
+        "explanation": "$9 \\times 8 = 72$。验算：$8 \\times 9 = 72$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "计算：$7 \\times 7 = ?$",
+        "options": [],
+        "answer": "49",
+        "explanation": "$7 \\times 7 = 49$。验算：口诀“七七四十九” ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "表内乘法（二）单元综合素质监测卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "$9 \\times 3$ 的积比 $10 \\times 3$ 的积少 $3$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$9 \\times 3 = 27$，$10 \\times 3 = 30$，$30 - 27 = 3$，正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "两个数的积一定比这两个数的和大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "不一定。比如 $1 \\times 9 = 9$，但 $1 + 9 = 10$，积比和小。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "计算 $7 \\times 4 + 7$ 的结果与 $7 \\times 5$ 相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$4$ 个 $7$ 加 $1$ 个 $7$ 是 $5$ 个 $7$，结果都是 $35$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "有 34 个同学去划船，每条船限坐 4 人，8 条船够坐。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$8 \\times 4 = 32$（人），$32 < 34$，所以不够坐。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "在 9 的乘法口诀中，积的十位数字依次增加 1，个位数字依次减少 1。",
+        "options": [],
+        "answer": "对",
+        "explanation": "例如：09, 18, 27, 36... 十位 0-1-2-3，个位 9-8-7-6。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "计算 $8 \\times 6$，所用的心算口诀是：",
+        "options": [
+          "六八四十八",
+          "六七四十二",
+          "五八四十",
+          "七八五十六"
+        ],
+        "answer": "六八四十八",
+        "explanation": "$8 \\times 6 = 48$，对应口诀“六八四十八”。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "下列哪个算式的积最大？",
+        "options": [
+          "$8 \\times 8$",
+          "$7 \\times 9$",
+          "$9 \\times 6$",
+          "$7 \\times 8$"
+        ],
+        "answer": "$8 \\times 8$",
+        "explanation": "$8 \\times 8 = 64$，$7 \\times 9 = 63$，$9 \\times 6 = 54$，$7 \\times 8 = 56$。$64$ 最大。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "根据口诀“六九五十四”可以写出两个乘法算式，分别是：",
+        "options": [
+          "$6+9$ 和 $9+6$",
+          "$6 \\times 9$ 和 $9 \\times 6$",
+          "$6 \\times 9$ 和 $6 \\times 8$",
+          "$5 \\times 4$ 和 $4 \\times 5$"
+        ],
+        "answer": "$6 \\times 9$ 和 $9 \\times 6$",
+        "explanation": "乘法口诀可以计算两个因数交换位置的乘法算式。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "$\\Box \\times 7 < 50$，$\\Box$ 里最大能填多少？",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "explanation": "$7 \\times 7 = 49 < 50$，$8 \\times 7 = 56 > 50$，所以最大填 7。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "买一枝玫瑰花要 9 元，买 8 枝玫瑰花，带 70 元钱够吗？",
+        "options": [
+          "够",
+          "不够",
+          "正好",
+          "无法判断"
+        ],
+        "answer": "不够",
+        "explanation": "$9 \\times 8 = 72$（元），$72 > 70$，所以不够。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "操场上有 2 排学生在做操，一排 8 人，另一排 9 人，一共有多少人？",
+        "options": [
+          "72",
+          "17",
+          "81",
+          "18"
+        ],
+        "answer": "17",
+        "explanation": "求两部分的总和，用加法：$8 + 9 = 17$（人）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "计算 $9 \\times 5$ 的结果是：",
+        "options": [
+          "40",
+          "45",
+          "50",
+          "55"
+        ],
+        "answer": "45",
+        "explanation": "五九四十五。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "一根绳子对折再对折，每段长 8 厘米，这根绳子总长是多少？",
+        "options": [
+          "16 厘米",
+          "24 厘米",
+          "32 厘米",
+          "40 厘米"
+        ],
+        "answer": "32 厘米",
+        "explanation": "对折再对折是分成了 4 段。$8 \\times 4 = 32$（厘米）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "一个正方体有 6 个面，9 个正方体一共有多少个面？",
+        "options": [
+          "54",
+          "45",
+          "63",
+          "72"
+        ],
+        "answer": "54",
+        "explanation": "$6 \\times 9 = 54$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "8 个 7 相加的和是多少？",
+        "options": [
+          "15",
+          "54",
+          "56",
+          "64"
+        ],
+        "answer": "56",
+        "explanation": "$7 \\times 8 = 56$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "二(1)班有 4 个小组，每个小组有 8 人，全班一共有多少人？",
+        "options": [
+          "12",
+          "32",
+          "36",
+          "40"
+        ],
+        "answer": "32",
+        "explanation": "$8 \\times 4 = 32$（人）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "选择合适的符号填入 $9 \\times 3 \\bigcirc 25$：",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": ">",
+        "explanation": "$9 \\times 3 = 27$，$27 > 25$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "$9+9+9+9+8$ 可以简写为：",
+        "options": [
+          "$9 \\times 5$",
+          "$9 \\times 4 + 8$",
+          "$9 \\times 5 - 2$",
+          "$8 \\times 5$"
+        ],
+        "answer": "$9 \\times 4 + 8$",
+        "explanation": "有4个9相加，再加上一个8。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步乘法应用题：解决问题",
+        "question": "一盒巧克力有 8 块，小红买了 3 盒，一共 ___ 块。",
+        "options": [],
+        "answer": "24",
+        "explanation": "$8 \\times 3 = 24$。验算：$24 \\div 3 = 8$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "一支钢笔 9 元，买 4 支钢笔要 ___ 元。",
+        "options": [],
+        "answer": "36",
+        "explanation": "$9 \\times 4 = 36$。口诀：四九三十六 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用乘法口诀求积或因数",
+        "question": "小明看一本 80 页的书，每天看 9 页，看了 8 天后，还剩 ___ 页没看。",
+        "options": [],
+        "answer": "8",
+        "explanation": "已看 $9 \\times 8 = 72$ 页。剩余 $80 - 72 = 8$ 页。验算：$72 + 8 = 80$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "计算：$8 \\times 7 - 6 = ?$",
+        "options": [],
+        "answer": "50",
+        "explanation": "$8 \\times 7 = 56$，$56 - 6 = 50$。验算：$50 + 6 = 56$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "7、8、9的乘法口诀",
+        "question": "计算：$9 \\times 9 - 9 = ?$",
+        "options": [],
+        "answer": "72",
+        "explanation": "$9 \\times 9 = 81$，$81 - 9 = 72$。也可以看作 $9 \\times 8 = 72$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "7、8、9的乘法口诀",
+      "core_concept": "7、8、9的乘法口诀是在前面学习2-6口诀的基础上进一步深化的知识。7的口诀共有7句，8的口诀8句，9的口诀9句。随着因数变大，积也变大。特别需要通过排列规律来识记，例如9的口诀中，积的个位与十位和始终为9，且十位数总是比乘数小1。",
+      "key_formula": "$7 \\times 8 = 56, 8 \\times 9 = 72, 9 \\times 9 = 81$",
+      "common_mistakes": [
+        "口诀记忆模棱两可，如将“六九五十四”记成“六九五十六”。",
+        "在计算连乘或乘加题目时，由于计算量变大容易出现口算加减法的错误。"
+      ],
+      "tips": "可以通过手势法记忆9的口诀，或利用积的规律：9乘几，积就是几十减几。"
+    },
+    {
+      "point": "利用乘法口诀求积或因数",
+      "core_concept": "这是乘法运算的核心技能。要求学生能根据算式中的因数快速联想对应的口诀来求积，或者根据已知的积和其中一个因数，通过口诀反推另一个因数。这为以后学习除法打下基础。",
+      "key_formula": "因数 $\\times$ 因数 $=$ 积",
+      "common_mistakes": [
+        "看错符号，把乘法当成加法，如 $8 \\times 7$ 算成 $15$。",
+        "在填括号里的数时（如 $\\Box \\times 8 < 50$），容易填错最大值。"
+      ],
+      "tips": "背诵口诀要做到“对口令”，不仅按序背，更要能打乱顺序随机提取。"
+    },
+    {
+      "point": "多步乘法应用题：解决问题",
+      "core_concept": "将乘法运算应用到具体生活情境中，如购物支付、座位安排、物品分配等。需要通过阅读理解题意，判断是纯乘法还是需要配合加减法（乘加、乘减）来完成。这类问题考查学生的逻辑拆解能力。",
+      "key_formula": "总数 $=$ 单价 $\\times$ 数量 或 总数 $=$ 每组数 $\\times$ 组数 $+$ 剩余数",
+      "common_mistakes": [
+        "没分清“每排有几个”与“一共有几排”的关系，错误列式。",
+        "两步应用题中，做完第一步乘法后忘记进行第二步的加减法计算。"
+      ],
+      "tips": "画简单的草图或圆圈图可以帮助理解数量关系，分清哪些是个数，哪些是份数。"
+    }
+  ]
+}

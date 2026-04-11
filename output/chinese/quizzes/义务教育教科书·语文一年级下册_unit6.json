@@ -1,0 +1,731 @@
+{
+  "textbook": "统编版小学语文一年级下册",
+  "unit": "第六单元：夏天",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第六单元基础巩固测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "《小池》的作者是唐代诗人白居易。",
+        "options": [],
+        "answer": "错",
+        "explanation": "《小池》的作者是宋代诗人杨万里，《池上》的作者才是白居易。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "燕子低飞说明天气晴朗，适合阳光下运动。",
+        "options": [],
+        "answer": "错",
+        "explanation": "燕子低跳是因为空气潮湿，昆虫飞不高，燕子低飞是为了捕食，这是下雨前的征兆。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "气象谚语辨析",
+        "question": "“朝霞不出门，晚霞行千里”意思是早晨出霞会有雨。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是一句气象谚语，早晨出霞预示天气要变坏，不宜出门。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "蚂蚁搬家通常是因为快要下雨了。",
+        "options": [],
+        "answer": "对",
+        "explanation": "下雨前气压低，土中水分多，蚂蚁会提前往高处搬家。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "小鱼游到水面上呼吸是因为水里的氧气变少了。",
+        "options": [],
+        "answer": "对",
+        "explanation": "下雨前气压低，水里氧气减少，小鱼必须浮上水面透气。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "“偷采白莲回”中，“偷”字在诗中描述了小娃什么样的性格？",
+        "options": [
+          "性格狡猾",
+          "调皮可爱",
+          "不讲卫生",
+          "害怕大人"
+        ],
+        "answer": "调皮可爱",
+        "explanation": "诗中的“偷”字生动表现了小孩子瞒着大人采莲的童趣和纯真。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "《小池》中“小荷才露尖尖角”的下一句是？",
+        "options": [
+          "早有蜻蜓立上头",
+          "树阴照水爱晴柔",
+          "无声惜细流",
+          "小娃撑小艇"
+        ],
+        "answer": "早有蜻蜓立上头",
+        "explanation": "这是《小池》的第三、四句，描写蜻蜓立在刚出水的荷叶上。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "气象谚语辨析",
+        "question": "如果看到“蚂蚁搬家蛇过道”，接下来的天气最可能是？",
+        "options": [
+          "大晴天",
+          "大风天",
+          "大雨将至",
+          "下雪天"
+        ],
+        "answer": "大雨将至",
+        "explanation": "这是民间的气象谚语，预示着就要下大雨了。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意境背诵",
+        "question": "阅读古诗《池上》：小娃撑小艇，偷采白莲回。不解藏踪迹，浮萍一道开。诗中小娃不小心留下的痕迹是？",
+        "options": [
+          "脚印",
+          "小船",
+          "浮萍的分开处",
+          "采掉的莲花"
+        ],
+        "answer": "浮萍的分开处",
+        "explanation": "“浮萍一道开”说明划船划开了浮萍，留下了水面的痕迹。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "大雨前，蜻蜓通常会怎么飞？",
+        "options": [
+          "越高越快",
+          "低空飞翔",
+          "躲在窝里",
+          "飞向太阳"
+        ],
+        "answer": "低空飞翔",
+        "explanation": "下雨前空气潮湿，昆虫翅膀带水，蜻蜓会飞得很低来捕捉昆虫。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意境背诵",
+        "question": "《小池》这首诗中，“惜”的意思是？",
+        "options": [
+          "珍惜、爱惜",
+          "叹息",
+          "可惜",
+          "舍不得离开"
+        ],
+        "answer": "珍惜、爱惜",
+        "explanation": "“泉眼无声惜细流”把泉眼拟人化，表现出它对细流的爱惜。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "气象谚语辨析",
+        "question": "“有雨山戴帽，无雨半山腰”，这里的“帽”指的是？",
+        "options": [
+          "草帽",
+          "白云",
+          "积雪",
+          "雨伞"
+        ],
+        "answer": "白云",
+        "explanation": "云块盖住山头就像戴了帽子，预示天要下雨。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "通过本单元学习，我们知道“要下雨了”的表现不包括哪一个？",
+        "options": [
+          "燕子飞得很高",
+          "鱼游到水面",
+          "蚂蚁往高处搬家",
+          "感觉周围闷热"
+        ],
+        "answer": "燕子飞得很高",
+        "explanation": "下雨前燕子应该是“低飞”，而非“高飞”。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "天气自然现象常识",
+        "question": "阅读课文片段：小白兔对燕子说：“你为什么飞得这么低呀？”燕子说：“空气很潮湿，我的翅膀重了。”这段话说明燕子低飞是因为？",
+        "options": [
+          "想和兔子玩",
+          "翅膀被打湿了",
+          "寻找食物",
+          "空气潮湿因素"
+        ],
+        "answer": "空气潮湿因素",
+        "explanation": "原文明确提到“空气很潮湿”，导致翅膀重导致低飞。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "气象谚语辨析",
+        "question": "“晚霞行千里”意味着明天很可能是？",
+        "options": [
+          "晴天",
+          "雷阵雨",
+          "雾霾天",
+          "大雪"
+        ],
+        "answer": "晴天",
+        "explanation": "晚霞预示着云层逐渐消散，明天是适合远行的大晴天。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "《池上》一诗中，小娃划船去采的是什么？（两个字）",
+        "options": [],
+        "answer": "白莲",
+        "explanation": "诗句为“偷采白莲回”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "小白兔在弯腰割草的时候，感到天气很（___）。",
+        "options": [],
+        "answer": "闷热",
+        "explanation": "课文《要下雨了》开头描述兔子感到很闷热。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意境背诵",
+        "question": "《小池》中，描写树阴映照在水面上的词语是（___）。",
+        "options": [],
+        "answer": "照水",
+        "explanation": "对应诗句“树阴照水爱晴柔”。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "气象谚语辨析",
+        "question": "将上半句与下半句用线连起来。",
+        "options": [
+          "朝霞",
+          "晚霞",
+          "有雨",
+          "无雨",
+          "行千里",
+          "不出门",
+          "半山腰",
+          "山戴帽"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "对应谚语：朝霞不出门，晚霞行千里；有雨山戴帽，无雨半山腰。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "请将作者与对应的诗句相连接。",
+        "options": [
+          "白居易",
+          "杨万里",
+          "李白",
+          "孟浩然",
+          "小荷才露尖尖角",
+          "偷采白莲回",
+          "处处闻啼鸟",
+          "低头思故乡"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "白居易-《池上》；杨万里-《小池》；李白-《静夜思》；孟浩然-《春晓》。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "天气自然现象常识",
+        "question": "请连出下雨前小动物们的反应。",
+        "options": [
+          "燕子",
+          "小鱼",
+          "蚂蚁",
+          "小白兔",
+          "往高处搬家",
+          "低飞捉虫",
+          "急着往家跑",
+          "水面上透气"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "根据《要下雨了》课文内容匹配。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "词语宝宝排队走：请排成一句关于下雨的陈述句。",
+        "options": [
+          "山坡上",
+          "小白兔",
+          "割草",
+          "在"
+        ],
+        "answer": "小白兔,在,山坡上,割草",
+        "explanation": "合理的语序是：主体+地点+动作。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "气象谚语辨析",
+        "question": "请将谚语重新排列组合。",
+        "options": [
+          "蚂蚁",
+          "搬家",
+          "要下雨了",
+          "蛇过道"
+        ],
+        "answer": "蚂蚁,搬家,蛇过道,要下雨了",
+        "explanation": "这是流传最广的民间气象谚语。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第六单元「夏天」综合素质评价卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "“不解藏踪迹”中的“踪迹”就是指脚印的意思。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在《池上》中，踪迹指的是小划船荡开浮萍后留下的水路痕迹。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "气象谚语辨析",
+        "question": "“早晨下雨当日晴”说明早晨下的雨一般不会下太久。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这也是一句天气规律的谚语，意思是早雨通常很难持续到下午。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "天空布满乌云时，我们应该赶紧去池塘里游泳。",
+        "options": [],
+        "answer": "错",
+        "explanation": "乌云说明要下雨甚至打雷，为了安全不应该去游泳。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "《小池》一诗描绘的是初夏时节的景色。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“小荷才露尖尖角”说明荷花还没盛开，代表初夏。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "天气自然现象常识",
+        "question": "因为下雨前空气很闷，所以小白兔直不起腰来。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文里写小白兔割草时感到天气很闷，这与下雨前的低气压有关。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "《小池》中“泉眼无声”的下一句是？",
+        "options": [
+          "惜细流",
+          "爱晴柔",
+          "浮萍开",
+          "上头立"
+        ],
+        "answer": "惜细流",
+        "explanation": "原文是“泉眼无声惜细流”。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "鱼游水面后，天空中随后出现了什么现象？",
+        "options": [
+          "出太阳了",
+          "打雷闪电",
+          "下雪了",
+          "刮起大风"
+        ],
+        "answer": "打雷闪电",
+        "explanation": "根据《要下雨了》课文，动物反应后往往伴随雷雨。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "气象谚语辨析",
+        "question": "下面哪一句属于描写夏天的气象谚语？",
+        "options": [
+          "朝霞不出门",
+          "春雨贵如油",
+          "大雪兆丰年",
+          "霜降见青天"
+        ],
+        "answer": "朝霞不出门",
+        "explanation": "朝霞和夏天的短时强对流降雨关系最紧密。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意境背诵",
+        "question": "阅读《小池》：树阴照水爱晴柔。这里的“晴柔”描写的是？",
+        "options": [
+          "温柔的阳光",
+          "刚下完雨",
+          "非常大的风",
+          "冬天的雪"
+        ],
+        "answer": "温柔的阳光",
+        "explanation": "晴柔指晴天和风柔和的景象。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "燕子对小白兔说，他要忙着干什么？",
+        "options": [
+          "睡觉",
+          "唱歌",
+          "捉虫子",
+          "搬家"
+        ],
+        "answer": "捉虫子",
+        "explanation": "燕子低飞是为了捕捉被潮湿空气压住的昆虫。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "气象谚语辨析",
+        "question": "看到满天红霞的傍晚，明天的活动安排最合适的是？",
+        "options": [
+          "就在家睡觉",
+          "出门郊游",
+          "买一把伞",
+          "穿上雨靴"
+        ],
+        "answer": "出门郊游",
+        "explanation": "晚霞行千里，说明明天是好天气。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "古诗意境背诵",
+        "question": "如果给《池上》配一幅画，画面里不该出现什么？",
+        "options": [
+          "小船",
+          "荷叶",
+          "小娃娃",
+          "落雪"
+        ],
+        "answer": "落雪",
+        "explanation": "《池上》描写的是采白莲的夏景，不会有雪。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天气自然现象常识",
+        "question": "大雨过后，空气会变得？",
+        "options": [
+          "更加闷热",
+          "清新凉快",
+          "灰尘更多",
+          "非常干燥"
+        ],
+        "answer": "清新凉快",
+        "explanation": "雨水能降温并洗净空气。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "气象谚语辨析",
+        "question": "“有雨山戴帽”时，山上的云像什么？",
+        "options": [
+          "一条线",
+          "一个帽子",
+          "一朵花",
+          "一个皮球"
+        ],
+        "answer": "一个帽子",
+        "explanation": "故称“戴帽”，生动形容云彩覆盖山头的样子。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "天气自然现象常识",
+        "question": "小白兔最后大声喊：“大雨真的下起来了！”这说明？",
+        "options": [
+          "它很害怕",
+          "它觉得好玩",
+          "它的预感准了",
+          "它在和燕子比赛"
+        ],
+        "answer": "它的预感准了",
+        "explanation": "小白兔观察到动物们的变化，证实了要下雨的想法。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "《小池》中，哪种昆虫停在了荷叶的角上？",
+        "options": [],
+        "answer": "蜻蜓",
+        "explanation": "对应“早有蜻蜓立上头”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "小娃在水池里偷偷采摘的是（___）。",
+        "options": [],
+        "answer": "白莲",
+        "explanation": "采摘的是白色莲花。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "气象谚语辨析",
+        "question": "“朝霞不出门”，其中的“朝霞”出现在一天的（___）。",
+        "options": [],
+        "answer": "早晨",
+        "explanation": "“朝”指的就是早晨。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "将诗句的前后半句连起来。",
+        "options": [
+          "小娃撑小艇",
+          "不解藏踪迹",
+          "泉眼无声",
+          "小荷才露",
+          "惜细流",
+          "尖尖角",
+          "偷采白莲回",
+          "浮萍一道开"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "考查对《池上》和《小池》全诗的熟练程度。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "天气自然现象常识",
+        "question": "连一连动物们在下雨前的动作细节。",
+        "options": [
+          "大雨",
+          "小鱼",
+          "昆虫",
+          "燕子",
+          "忙着捉虫",
+          "哗哗地下",
+          "翅膀重了",
+          "水里闷得很"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "对应课文对现象背后原因的描写。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境背诵",
+        "question": "给下面的事物连上对应的描写词。",
+        "options": [
+          "小艇",
+          "踪迹",
+          "细流",
+          "尖尖",
+          "浮萍",
+          "惜",
+          "小娃",
+          "荷角"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "考查对诗句核心词汇的理解与连贯。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "天气自然现象常识",
+        "question": "按课文逻辑排列词语：",
+        "options": [
+          "小鱼",
+          "游到",
+          "透透气",
+          "水面上"
+        ],
+        "answer": "小鱼,游到,水面上,透透气",
+        "explanation": "描述小鱼行为的逻辑：主语+动作+地点+目的。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "天气自然现象常识",
+        "question": "将描写雷雨来临前的句子排好。",
+        "options": [
+          "燕子",
+          "低飞",
+          "捉害虫",
+          "在空中"
+        ],
+        "answer": "燕子,在空中,低飞,捉害虫",
+        "explanation": "标准的状语提前或在中置的句子结构。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "古诗意境背诵",
+      "core_concept": "本单元选取了《池上》和《小池》两首描写夏天池塘美景的古诗。重点在于通过诗句感受夏天的生机与童趣，理解“荷、泉、浮萍”等关键意象，体会诗人对自然的喜爱之情。",
+      "key_formula": "画面想象法：读古诗，在脑海中把文字转化成有色彩、有动作的图画。",
+      "common_mistakes": [
+        "混淆两首诗的作者，将白居易与杨万里记反。",
+        "“浮萍”的“萍”字与“苹果”的“苹”混淆。"
+      ],
+      "tips": "可以通过画简笔画的方式，标注出‘尖尖角’、‘蜻蜓’、‘小船’来辅助背诵。"
+    },
+    {
+      "point": "天气自然现象常识",
+      "core_concept": "通过《要下雨了》等课文，认识到动物在自然界中的异常表现预示着天气的变化。理解气压、湿度对燕子、小鱼和蚂蚁行为的影响，建立初步的自然科学观察意识。",
+      "key_formula": "观察规律：现象（动物异常）+ 逻辑（空气变化）= 预测（要下雨了）。",
+      "common_mistakes": [
+        "错误认为燕子是为了玩耍而低飞，不能理解‘空气潮湿’这个科学原因。",
+        "分不清蚂蚁搬家是往高处还是往低处。"
+      ],
+      "tips": "记住口诀：燕子低飞鱼露头，搬家蚂蚁大雨流。"
+    },
+    {
+      "point": "气象谚语辨析",
+      "core_concept": "气象谚语是民间长期观察自然总结出来的经验。本单元重点理解云、光（霞）与雨的关系。通过学习谚语，培养学生用简洁、朗朗上口的语言描述天气规律的能力。",
+      "key_formula": "对偶记忆法：朝霞对晚霞，戴帽对腰间，形成对比理解记忆。",
+      "common_mistakes": [
+        "将“朝霞不出门”记成“朝霞走千里”，不理解霞光方位对天气的意义。",
+        "对“山戴帽”这种形象化描述理解不清晰。"
+      ],
+      "tips": "看到彩霞时观察时间，如果是早上（朝），就要准备雨具；如果是傍晚（晚），明天可以出门玩。"
+    }
+  ]
+}

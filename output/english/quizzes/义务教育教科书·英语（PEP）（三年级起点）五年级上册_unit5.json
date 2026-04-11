@@ -1,0 +1,737 @@
+{
+  "textbook": "人教版 PEP 英语五年级上册",
+  "unit": "There is a big bed",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 There is a big bed 单元能力检测卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "'clock' 指的是放在桌子上的闹钟或挂在墙上的钟。",
+        "options": [],
+        "answer": "对",
+        "explanation": "clock 是钟表的总称。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "'beside' 的意思是 '在...后面'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "beside 表示 '在...旁边'，'在...后面' 应该是 behind。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "句子 'There is a water bottle.' 语法是正确的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "There is 后接单数名词，a water bottle 是单数。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "语音：字母组合ai和ay的发音",
+        "question": "单词 'rainy' 和 'Monday' 中的字母组合发音相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "ai 和 ay 在这些词中都发 /eɪ/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "描述有很多书时，应说 'There is many books.'",
+        "options": [],
+        "answer": "错",
+        "explanation": "books 是复数，应该用 There are。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "Where is the computer? It's ______ the desk.",
+        "options": [
+          "on",
+          "at",
+          "to",
+          "in"
+        ],
+        "answer": "on",
+        "explanation": "电脑通常放在桌子上面，用 on。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "There ______ a big bed and two photos in my room.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "is",
+        "explanation": "There be 句型遵循就近原则，紧跟的 a big bed 是单数，所以用 is。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "I can see a ______ on the wall. It tells me the time.",
+        "options": [
+          "bike",
+          "plant",
+          "clock",
+          "bottle"
+        ],
+        "answer": "clock",
+        "explanation": "根据后一句'告知时间'，应该是闹钟 clock。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "'in front of' 的中文意思是：",
+        "options": [
+          "在...上面",
+          "在...下面",
+          "在...后面",
+          "在...前面"
+        ],
+        "answer": "在...前面",
+        "explanation": "in front of 是固定词组，表示在前面。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "There are some ______ in the water.",
+        "options": [
+          "fish",
+          "bird",
+          "egg",
+          "apple"
+        ],
+        "answer": "fish",
+        "explanation": "are 后接复数，fish 单复数同形，且逻辑上鱼在水里。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语音：字母组合ai和ay的发音",
+        "question": "Which word has a different sound? (哪个单词发音不同？)",
+        "options": [
+          "rain",
+          "wait",
+          "day",
+          "bad"
+        ],
+        "answer": "bad",
+        "explanation": "rain, wait, day 都发 /eɪ/，而 bad 发 /æ/。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "I'm thirsty(渴). I need a ______.",
+        "options": [
+          "photo",
+          "water bottle",
+          "clock",
+          "bed"
+        ],
+        "answer": "water bottle",
+        "explanation": "渴了需要水瓶去装水喝。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空间位置的综合描述",
+        "question": "The ball is ______ the dog and the cat.",
+        "options": [
+          "between",
+          "on",
+          "above",
+          "in"
+        ],
+        "answer": "between",
+        "explanation": "在两者之间用 between。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "There is a ______ in the room. I can sleep on it.",
+        "options": [
+          "bike",
+          "desk",
+          "chair",
+          "bed"
+        ],
+        "answer": "bed",
+        "explanation": "可以睡觉的家具是床。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "Look! There ______ so many pictures on the wall.",
+        "options": [
+          "is",
+          "are",
+          "be",
+          "am"
+        ],
+        "answer": "are",
+        "explanation": "pictures 是复数形式，be 动词用 are。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "What's in the room? There is a ______ (时钟).",
+        "options": [],
+        "answer": "clock",
+        "explanation": "时钟的英文是 clock。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "There ______ many plants in the garden.",
+        "options": [],
+        "answer": "are",
+        "explanation": "many plants 是复数，填 are。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "The ball is ______ the box. (在...后面)",
+        "options": [],
+        "answer": "behind",
+        "explanation": "在后面使用介词 behind。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "There is a ______ (大) bed in my room.",
+        "options": [],
+        "answer": "big",
+        "explanation": "大的英文是 big。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "将下列短语与中文意思连线。",
+        "options": [
+          "water bottle",
+          "beside",
+          "in front of",
+          "photo",
+          "在前面",
+          "水瓶",
+          "照片",
+          "在旁边"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "A-water bottle-水瓶; B-beside-在旁边; C-in front of-在前面; D-photo-照片。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语音：字母组合ai和ay的发音",
+        "question": "将含有相同发音字母组合的单词与中文对应。",
+        "options": [
+          "rainy",
+          "Monday",
+          "wait",
+          "say",
+          "周一",
+          "说",
+          "下雨的",
+          "等待"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "根据词义对应：rainy-下雨的; Monday-周一; wait-等待; say-说。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "连词成句：[a, big, There, bed, is]",
+        "options": [
+          "a",
+          "big",
+          "There",
+          "bed",
+          "is"
+        ],
+        "answer": "There,is,a,big,bed",
+        "explanation": "There be 句型结构：There is/are + 事物。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空间位置的综合描述",
+        "question": "连词成句：[The, is, plant, beside, clock, the]",
+        "options": [
+          "The",
+          "is",
+          "plant",
+          "beside",
+          "clock",
+          "the"
+        ],
+        "answer": "The,plant,is,beside,the,clock",
+        "explanation": "物品A + is + 方位介词 + 物品B。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册 Unit 5 综合水平测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "There are some bikes in the park.",
+        "options": [],
+        "answer": "对",
+        "explanation": "some bikes 为复数，使用 are 正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "'above' 的意思是：物品之间有接触的 '在上面'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "above 表示无接触的上方。有接触的上方用 on。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "'There are a bed and a chair.' 语法是正确的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "There be 就近原则，靠近 be 的是 a bed，应用 is。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "语音：字母组合ai和ay的发音",
+        "question": "'play' 和 'paint' 中画线部分的发音是一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "ay 和 ai 都在这两个词中发 /eɪ/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "Sarah's room is 'clean'. 'clean' 的中文是 '脏的'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "clean 是干净的，脏的应该是 dirty。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "What's in the room? There is a ______.",
+        "options": [
+          "water bottle",
+          "plants",
+          "dogs",
+          "clocks"
+        ],
+        "answer": "water bottle",
+        "explanation": "is 后接单数，只有 water bottle 是单数。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "There ______ so many plants here.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "answer": "are",
+        "explanation": "plants 为复数，用 are。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空间位置的综合描述",
+        "question": "The computer is ______ the desk.",
+        "options": [
+          "on",
+          "in",
+          "under",
+          "above"
+        ],
+        "answer": "on",
+        "explanation": "电脑放在桌子上，常用 on。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "I can see a ______ on the wall.",
+        "options": [
+          "picture",
+          "shoes",
+          "rugs",
+          "balls"
+        ],
+        "answer": "picture",
+        "explanation": "is a 说明后面是单数，picture 符合。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "______ any students in the classroom?",
+        "options": [
+          "Is there",
+          "Are there",
+          "There is",
+          "There are"
+        ],
+        "answer": "Are there",
+        "explanation": "任何句型变疑问，be 提前。students 是复数，用 Are there。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语音：字母组合ai和ay的发音",
+        "question": "It's a ______ day. Let's stay at home and ______.",
+        "options": [
+          "rainy, play",
+          "rain, play",
+          "rainy, playing",
+          "raining, play"
+        ],
+        "answer": "rainy, play",
+        "explanation": "形容词 rainy 修饰 day，动词原形 play 跟在 let's 后。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "Your room is very ______. (你的房间很整洁。)",
+        "options": [
+          "cool",
+          "nice",
+          "big",
+          "tidy"
+        ],
+        "answer": "tidy",
+        "explanation": "tidy 表示整洁的。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空间位置的综合描述",
+        "question": "There is a tree ______ the house.",
+        "options": [
+          "in front of",
+          "on",
+          "between",
+          "under"
+        ],
+        "answer": "in front of",
+        "explanation": "逻辑上房前有树最合理。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "- Is there a garden in the park? - ______.",
+        "options": [
+          "Yes, there are",
+          "No, there is",
+          "Yes, there is",
+          "No, there are"
+        ],
+        "answer": "Yes, there is",
+        "explanation": "Is there 的回答用 Yes, there is 或 No, there isn't。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "I have a new ______ for my water.",
+        "options": [
+          "bottle",
+          "clock",
+          "photo",
+          "desk"
+        ],
+        "answer": "bottle",
+        "explanation": "water bottle 水瓶。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "I can see many ______ (照片) in the room.",
+        "options": [],
+        "answer": "photos",
+        "explanation": "many 后面跟复数，photo 的复数是 photos。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "There ______ a ruler and two pens on the desk.",
+        "options": [],
+        "answer": "is",
+        "explanation": "就近原则，ruler 是单数。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "The computer is ______ (在上面) the desk.",
+        "options": [],
+        "answer": "on",
+        "explanation": "表示在表面上用 on。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空间位置的综合描述",
+        "question": "There are ______ (许多) books on the shelf.",
+        "options": [],
+        "answer": "many",
+        "explanation": "修饰复数 books 可用 many。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家居用品词汇与方位介词",
+        "question": "Match the words with their meanings.",
+        "options": [
+          "above",
+          "behind",
+          "between",
+          "beside",
+          "在...后面",
+          "在...上面(不接触)",
+          "在...旁边",
+          "在...之间"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "A-above-上方; B-behind-后面; C-between-中间; D-beside-旁边。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空间位置的综合描述",
+        "question": "Match the furniture words.",
+        "options": [
+          "clock",
+          "plant",
+          "water bottle",
+          "bike",
+          "水瓶",
+          "自行车",
+          "钟",
+          "植物"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "基本的家居/生活用品辨析。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的单复数运用",
+        "question": "连词成句：[are, many, pictures, There, here]",
+        "options": [
+          "are",
+          "many",
+          "pictures",
+          "There",
+          "here"
+        ],
+        "answer": "There,are,many,pictures,here",
+        "explanation": "There are + 复数事物 + 地点。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空间位置的综合描述",
+        "question": "连词成句：[is, behind, My, the, dog, door]",
+        "options": [
+          "is",
+          "behind",
+          "My",
+          "the",
+          "dog",
+          "door"
+        ],
+        "answer": "My,dog,is,behind,the,door",
+        "explanation": "主语 + is + 介词短语。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "常用物品词汇",
+      "core_concept": "准确识读并拼写卧室及客厅常见物品",
+      "key_formula": "clock, photo, water bottle, bike, plant",
+      "common_mistakes": [
+        "photo复数写成photoes",
+        "water bottle 单词拼写错误"
+      ],
+      "tips": "photo的复数特殊，直接加s即可。"
+    },
+    {
+      "point": "方位介词辨析",
+      "core_concept": "描述物体间的相对位置关系",
+      "key_formula": "on(上), under(下), behind(后), in front of(前), beside(旁), above(上方), between(之间)",
+      "common_mistakes": [
+        "in front of 漏掉 of",
+        "above 与 on 混淆"
+      ],
+      "tips": "on 表示表面接触，above 指在上方不接触。"
+    },
+    {
+      "point": "There be 句型基本用法",
+      "core_concept": "表示某地存在某物，注意主谓一致",
+      "key_formula": "There is + 单数名词/不可数名词; There are + 复数名词",
+      "common_mistakes": [
+        "There are 后面接单数名词",
+        "忽略复数形式的 -s/es"
+      ],
+      "tips": "看到 There are 就要找复数名词标志。"
+    },
+    {
+      "point": "There be 句型的“就近原则”",
+      "core_concept": "当有多个并列主语时，be 动词形式由最靠近它的词决定",
+      "key_formula": "There is a book and two pens. / There are two pens and a book.",
+      "common_mistakes": [
+        "看到总数是复数就一律用 are"
+      ],
+      "tips": "只看 be 动词后面的第一个名词！"
+    },
+    {
+      "point": "语音组合 ai / ay",
+      "core_concept": "掌握这两个组合在单词中通常发长元音 /eɪ/",
+      "key_formula": "ai: rain, wait, paint; ay: day, play, Monday",
+      "common_mistakes": [
+        "将 rainy 读成 /ræn/"
+      ],
+      "tips": "想象成英文字母 A 的读音。"
+    }
+  ]
+}

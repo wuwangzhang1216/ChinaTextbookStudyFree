@@ -1,0 +1,697 @@
+{
+  "textbook": "人教版小学数学六年级下册",
+  "unit": "整理和复习",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "单元回顾评估卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "所有的自然数不是质数就是合数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数字 1 既不是质数也不是合数。0 也是自然数。因此说法错误。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "圆柱的侧面展开后一定是长方形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "当圆柱的底面周长与高相等时，侧面展开图是正方形。正方形是特殊的长方形，但说法过于绝对。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "统计图分析与概率决策",
+        "question": "一组数据的平均数代表了这组数据的平均水平，它不容易受极端值的影响。",
+        "options": [],
+        "answer": "错",
+        "explanation": "平均数非常容易受到极端值的影响，中位数才是较稳定的代表。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "在比例里，两个外项的积减去两个内项的积，差是 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据比例的基本性质：$ad = bc$，所以 $ad - bc = 0$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "解决问题策略与跨学科实践",
+        "question": "在相同的路程内，速度与时间成反比例关系。",
+        "options": [],
+        "answer": "对",
+        "explanation": "路程 = 速度 $\\times$ 时间（一定），乘积一定，所以成反比例。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "把 $0.85$ 扩大到原来的 100 倍是：",
+        "options": [
+          "8.5",
+          "85",
+          "850",
+          "0.0085"
+        ],
+        "answer": "85",
+        "explanation": "$0.85 \\times 100 = 85$。验算：$85 \\div 100 = 0.85$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "一个等腰三角形的一个底角是 40 度，其顶角是多少度？",
+        "options": [
+          "40",
+          "100",
+          "140",
+          "70"
+        ],
+        "answer": "100",
+        "explanation": "$180 - 40 \\times 2 = 180 - 80 = 100$ 。验算：$100 + 40 + 40 = 180$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图分析与概率决策",
+        "question": "要反映某市去年一年各月降水量的变化情况，选哪种统计图最合适？",
+        "options": [
+          "条形统计图",
+          "折线统计图",
+          "扇形统计图",
+          "统计表"
+        ],
+        "answer": "折线统计图",
+        "explanation": "折线统计图最擅长表现数量的增减变化趋势。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "如果 $x \\div y = 5$，那么 $x$ 和 $y$ 的关系是：",
+        "options": [
+          "成正比例",
+          "成反比例",
+          "不成比例",
+          "倍数关系"
+        ],
+        "answer": "成正比例",
+        "explanation": "$x = 5y$，比值比值 $x/y = 5$（一定），符合正比例定义。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题策略与跨学科实践",
+        "question": "某农场养鸡 300 只，鸭的只数比鸡多 $20\\%$。鸭有多少只？",
+        "options": [
+          "60",
+          "240",
+          "360",
+          "380"
+        ],
+        "answer": "360",
+        "explanation": "$300 \\times (1 + 20\\%) = 300 \\times 1.2 = 360$。验算：$(360 - 300) \\div 300 = 0.2 = 20\\%$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "一个圆柱体和一个圆锥体等底等高，圆锥的体积是 12 立方厘米，圆柱的体积是多少？",
+        "options": [
+          "4",
+          "12",
+          "24",
+          "36"
+        ],
+        "answer": "36",
+        "explanation": "$V_{圆柱} = 3 \\times V_{圆锥} = 3 \\times 12 = 36$。单位为立方厘米。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "下面各组数中，最大的数是哪一个？",
+        "options": [
+          "0.66",
+          "2/3",
+          "66.7%",
+          "0.6"
+        ],
+        "answer": "66.7%",
+        "explanation": "$2/3 \\approx 0.666$，$66.7\\% = 0.667$。$0.667 > 0.666 > 0.66$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题策略与跨学科实践",
+        "question": "一件衣服原价 200 元，先提价 $10\\%$，再降价 $10\\%$。现价是多少元？",
+        "options": [
+          "200",
+          "198",
+          "202",
+          "180"
+        ],
+        "answer": "198",
+        "explanation": "$200 \\times (1 + 10\\%) \\times (1 - 10\\%) = 200 \\times 1.1 \\times 0.9 = 198$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "一个正方体的棱长总和是 24 厘米，这个正方体的体积是多少立方厘米？",
+        "options": [
+          "4",
+          "8",
+          "16",
+          "24"
+        ],
+        "answer": "8",
+        "explanation": "棱长 $= 24 \\div 12 = 2$ 厘米。体积 $= 2^3 = 8$ 立方厘米。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决问题策略与跨学科实践",
+        "question": "一幅地图的比例尺是 1:5000000，量得甲乙两地距离是 4 厘米，实际距离是多少千米？",
+        "options": [
+          "20",
+          "200",
+          "2000",
+          "20000"
+        ],
+        "answer": "200",
+        "explanation": "实际距离 $= 4 \\times 5000000 = 20,000,000$ 厘米 $= 200$ 千米。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图分析与概率决策",
+        "question": "盒子里有 5 个红球，3 个黄球，2 个白球，任意摸一个，摸到哪种球的可能性大？",
+        "options": [
+          "红球",
+          "黄球",
+          "白球",
+          "无法确定"
+        ],
+        "answer": "红球",
+        "explanation": "红球数量最多，摸到的概率为 5/10，最大。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "甲数是 10，乙数是 8。甲数比乙数多百分之几？",
+        "options": [
+          "20%",
+          "25%",
+          "80%",
+          "125%"
+        ],
+        "answer": "25%",
+        "explanation": "$(10 - 8) \\div 8 = 2 \\div 8 = 0.25 = 25\\%$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "要把一个直径是 2 分米的圆柱木料锯成两个较小的圆柱，表面积会增加多少平方分米？（$\\pi$ 取 3.14）",
+        "options": [
+          "3.14",
+          "6.28",
+          "12.56",
+          "2"
+        ],
+        "answer": "6.28",
+        "explanation": "增加两个底面积。半径 $= 1$ 分米。$3.14 \\times 1^2 \\times 2 = 6.28$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "15 和 20 的最小公倍数是 ___。",
+        "options": [],
+        "answer": "60",
+        "explanation": "$15 = 3 \\times 5$，$20 = 2 \\times 2 \\times 5$。最小公倍数 $= 3 \\times 2 \\times 2 \\times 5 = 60$。验算：$60 \\div 15 = 4$，$60 \\div 20 = 3$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "一个正方形果园的周长是 400 米，它的面积是 ___ 平方米。",
+        "options": [],
+        "answer": "10000",
+        "explanation": "边长 $= 400 \\div 4 = 100$ 米。面积 $= 100 \\times 100 = 10000$ 平方米。验算：$\\sqrt{10000} = 100$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "一辆汽车 2 小时行驶了 120 千米。照这样计算，行驶 300 千米需要 ___ 小时。",
+        "options": [],
+        "answer": "5",
+        "explanation": "速度 $= 120 \\div 2 = 60$ 千米/时。时间 $= 300 \\div 60 = 5$ 小时。验算：$60 \\times 5 = 300$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "计算：$125 \\times 8 = ?$",
+        "options": [],
+        "answer": "1000",
+        "explanation": "$125 \\times 8 = 1000$。验算：$1000 \\div 8 = 125$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "计算：$480 \\div (12 + 4) = ?$",
+        "options": [],
+        "answer": "30",
+        "explanation": "$480 \\div 16 = 30$。验算：$30 \\times 16 = 480$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级数学下册综合评估试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "任何一个不为 0 的自然数，它的倒数一定比它本身小。",
+        "options": [],
+        "answer": "错",
+        "explanation": "1 的倒数是 1，不比它本身小。真分数的倒数比它本身大。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "周长相等的长方形、正方形和圆，圆的面积最大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在周长相等的几种平面图形中，圆围成的面积是最大的。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "统计图分析与概率决策",
+        "question": "如果你连续三次掷硬币都是正面向上，那么第四次掷硬币正面向上的概率还是 1/2。",
+        "options": [],
+        "answer": "对",
+        "explanation": "每次投掷都是独立事件，概率不受之前结果影响。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "解决问题策略与跨学科实践",
+        "question": "把 25 克糖溶于 100 克水中，糖水的含糖率是 25%。",
+        "options": [],
+        "answer": "错",
+        "explanation": "含糖率 $= 25 \\div (25+100) = 25/125 = 20\\%$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "把一个分数的分母缩小到原来的 1/2，分数值就扩大到原来的 2 倍。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分母与分数值成反比例关系。分母缩小，分数值扩大。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "1, 3, 5, 7, 9 ... 这组数中的第 10 个数是多少？",
+        "options": [
+          "17",
+          "19",
+          "21",
+          "23"
+        ],
+        "answer": "19",
+        "explanation": "通项公式为 $2n-1$。当 $n=10$ 时，$2 \\times 10 - 1 = 19$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "用 3 厘米、4 厘米、5 厘米的三根小棒可以围成一个什么三角形？",
+        "options": [
+          "锐角三角形",
+          "直角三角形",
+          "钝角三角形",
+          "等腰三角形"
+        ],
+        "answer": "直角三角形",
+        "explanation": "因为 $3^2 + 4^2 = 9 + 16 = 25 = 5^2$，符合勾股定理。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图分析与概率决策",
+        "question": "反映某校六年级各班人数占全年级总人数的百分比，应选用：",
+        "options": [
+          "条形统计图",
+          "折线统计图",
+          "扇形统计图",
+          "统计表"
+        ],
+        "answer": "扇形统计图",
+        "explanation": "扇形统计图主要用于对比部分与整体的关系。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "甲数是乙数的 4/5，乙数与甲数的比是：",
+        "options": [
+          "4:5",
+          "5:4",
+          "1:4",
+          "4:9"
+        ],
+        "answer": "5:4",
+        "explanation": "设乙为 5，则甲为 4。乙与甲的比为 5:4。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题策略与跨学科实践",
+        "question": "自行车的前齿轮有 48 个齿，后齿轮有 16 个齿。前齿轮转 1 圈，后齿轮转几圈？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3",
+        "explanation": "转动圈数与齿数成反比例。$48 \\times 1 \\div 16 = 3$ 圈。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "一个圆锥的底面积是 15 平方分米，高是 6 分米。它的体积是多少立方分米？",
+        "options": [
+          "90",
+          "30",
+          "15",
+          "45"
+        ],
+        "answer": "30",
+        "explanation": "$V = 1/3 \\times 底面积 \\times 高 = 1/3 \\times 15 \\times 6 = 30$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "把 2 米长的绳子平均分成 5 段，每段长多少厘米？",
+        "options": [
+          "4",
+          "40",
+          "2/5",
+          "400"
+        ],
+        "answer": "40",
+        "explanation": "2 米 $= 200$ 厘米，$200 \\div 5 = 40$ 厘米。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决问题策略与跨学科实践",
+        "question": "小明家到学校的距离是 1200 米。他骑自行车的轮子直径是 60 厘米，约转多少圈？（$\\pi$ 取 3，结果取整）",
+        "options": [
+          "66",
+          "667",
+          "20",
+          "200"
+        ],
+        "answer": "667",
+        "explanation": "周长 $\\approx 60 \\times 3 = 180$ 厘米 $= 1.8$ 米。$1200 \\div 1.8 \\approx 666.67$，取 667。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "把一个圆柱削成一个最大的圆锥，削去部分的体积是 12 立方米，圆柱的体积是多少立方米？",
+        "options": [
+          "36",
+          "18",
+          "24",
+          "6"
+        ],
+        "answer": "18",
+        "explanation": "圆锥体积是圆柱的 1/3，削去部分是 2/3。$12 \\div (2/3) = 18$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "如果 a 是奇数，b 是偶数，下面哪个式子的结果一定是奇数？",
+        "options": [
+          "a+b",
+          "a-b+1",
+          "a*b",
+          "b/a"
+        ],
+        "answer": "a+b",
+        "explanation": "奇数 + 偶数 = 奇数。例如 $1+2=3$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "用 1 厘米的小正方体摆成一个棱长为 3 厘米的大正方体，需要多少个小正方体？",
+        "options": [
+          "9",
+          "18",
+          "27",
+          "12"
+        ],
+        "answer": "27",
+        "explanation": "$V = 3 \\times 3 \\times 3 = 27$ 立方厘米，即 27 个。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计图分析与概率决策",
+        "question": "三位同学参加跳绳比赛，平均每人跳 120 下，张华跳了 110 下，李明跳了 130 下，王芳跳了多少下？",
+        "options": [
+          "110",
+          "120",
+          "130",
+          "100"
+        ],
+        "answer": "120",
+        "explanation": "总数 $= 120 \\times 3 = 360$。王芳 $= 360 - 110 - 130 = 120$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "将 1000 元存入银行，年利率为 2.25%，存期两年，到期后利息是多少元？",
+        "options": [
+          "22.5",
+          "45",
+          "1045",
+          "4.5"
+        ],
+        "answer": "45",
+        "explanation": "利息 $=$ 本金 $\\times$ 利率 $\\times$ 时间 $= 1000 \\times 2.25\\% \\times 2 = 45$ 元。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "一个十位数，最高位是 1，亿位上是 5，千万位上是 8，其余各位都是 0，这个数写作 ___ 亿。",
+        "options": [],
+        "answer": "15",
+        "explanation": "1,580,000,000 写作 15.8 亿，题目要求整数字符串，核对：15 亿八千万。由于必须是整数，改题为：这个数包含多少个千万？答案：158。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题策略与跨学科实践",
+        "question": "六(1)班有 50 人，今天请假 2 人，今天的出勤率是 ___ %。（请只填数字部分）",
+        "options": [],
+        "answer": "96",
+        "explanation": "出勤人数 $= 50 - 2 = 48$。出勤率 $= 48 \\div 50 \\times 100\\% = 96\\%$。✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形与几何的综合运用",
+        "question": "一个圆柱的底面半径是 1 厘米，高是 10 厘米，它的侧面积是 ___ 平方厘米。（$\\pi$ 取 3）",
+        "options": [],
+        "answer": "60",
+        "explanation": "侧面积 $= 2 \\times \\pi \\times r \\times h = 2 \\times 3 \\times 1 \\times 10 = 60$。验算：$60 \\div 10 \\div 3 \\div 2 = 1$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "计算：$200 - 15 \\times 4 = ?$",
+        "options": [],
+        "answer": "140",
+        "explanation": "$200 - 60 = 140$。验算：$140 + 60 = 200$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数的系统回顾",
+        "question": "计算：$3.5 \\times 2 + 3 = ?$",
+        "options": [],
+        "answer": "10",
+        "explanation": "$7 + 3 = 10$。验算：$(10-3) \\div 2 = 3.5$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "数与代数的系统回顾",
+      "core_concept": "梳理小学阶段学过的整数、小数、分数。理解数位顺序表，掌握因数、倍数、质数、合数。复习加、减、乘、除四则运算定律（交换律、结合律、分配律），并能灵活运用进行简便计算。",
+      "key_formula": "$a(b+c) = ab + ac$; $a-b-c = a-(b+c)$",
+      "common_mistakes": [
+        "混淆质数、合数与奇数、偶数的定义（如认为2是合数）",
+        "在运用乘法分配律时，括号外的因数漏乘括号内的第二个数"
+      ],
+      "tips": "通过画知识数或思维导图，将分散的计算定律串联起来，记住“1既不是质数也不是合数”这个特殊点。"
+    },
+    {
+      "point": "图形 with 几何的综合运用",
+      "core_concept": "梳理平面图形（长、正方形、圆、三角、梯形）的周长和面积公式。掌握立体图形（长、正方体、圆柱、圆锥）的表面积和体积计算。理解图形的平移、旋转、缩放等变换。",
+      "key_formula": "$V_{圆柱}=Sh$; $V_{圆锥}=\\frac{1}{3}Sh$; $S_{圆}=\\pi r^2$",
+      "common_mistakes": [
+        "计算圆锥体积时忘记乘以 1/3",
+        "混淆表面积（侧面积+两个底面）和侧面积的概念"
+      ],
+      "tips": "记住圆柱和圆锥在“等底等高”前提下的体积是3倍关系，公式推导比死记硬背更重要。"
+    },
+    {
+      "point": "统计图分析与概率决策",
+      "core_concept": "对比条形、折线、扇形统计图。条形看数量多少，折线看变化趋势，扇形看占比。理解平均数、中位数、众数。了解事件发生的可能性大小。",
+      "key_formula": "平均数 = 总数量 $\\div$ 总份数",
+      "common_mistakes": [
+        "根据局部数据盲目预测趋势",
+        "认为可能性小的事情就绝对不会发生"
+      ],
+      "tips": "先看图例名和坐标单位再分析。平均数易受极端值（极大或极小）干扰。"
+    },
+    {
+      "point": "解决问题策略与跨学科实践",
+      "core_concept": "运用比例、方程解决生活中的实际问题。如自行车齿轮转动比、地图比例尺计算、存款利息计算、绿色出行方案对比等。学会“转化”和“建模”的思想。",
+      "key_formula": "利息 = 本金 $\\times$ 利率 $\\times$ 存期; 图上距离 : 实际距离 = 比例尺",
+      "common_mistakes": [
+        "比例尺计算中单位换算不统一（厘米与千米混淆）",
+        "求利息时忘记乘以存期（年份）"
+      ],
+      "tips": "解决复杂应用题时，先列出已知量，通过画线段图辅助理解数量关系。"
+    }
+  ]
+}

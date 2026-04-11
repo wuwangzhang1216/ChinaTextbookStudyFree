@@ -1,0 +1,173 @@
+{
+  "textbook": "三年级下册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "物体的运动",
+      "knowledge_points": [
+        {
+          "name": "参照物与运动状态判断",
+          "description": "通过选择参照物来判断物体是运动还是静止的，理解运动的相对性。",
+          "difficulty": 1,
+          "question_types": [
+            "判断",
+            "选择",
+            "填空"
+          ]
+        },
+        {
+          "name": "位置的描述（方向与距离）",
+          "description": "学会利用方向和距离两个要素准确描述物体在空间中的相对位置。",
+          "difficulty": 2,
+          "question_types": [
+            "操作题",
+            "填空",
+            "画图"
+          ]
+        },
+        {
+          "name": "运动轨迹的分类（直线与曲线）",
+          "description": "根据物体运动路径的形状，将其划分为直线运动和曲线运动。",
+          "difficulty": 1,
+          "question_types": [
+            "判断",
+            "选择",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "物体在斜面上的运动方式",
+          "description": "观察并区分物体在斜面上滑行与滚动的现象，理解形状对运动方式的影响。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "运动快慢的比较标准",
+          "description": "掌握在相同距离下比时间、在相同时间内比距离的方法来衡量速度。",
+          "difficulty": 3,
+          "question_types": [
+            "排序/比较",
+            "应用题",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "动物的一生",
+      "knowledge_points": [
+        {
+          "name": "动物卵的结构与分类",
+          "description": "观察不同动物卵的特征，按是否有硬壳等外部特征进行分类。",
+          "difficulty": 1,
+          "question_types": [
+            "选择",
+            "填空",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "蚕的生长发育阶段（变态发育）",
+          "description": "识别蚕一生经历的卵、幼虫、蛹、成虫四个阶段及其形态变化。",
+          "difficulty": 2,
+          "question_types": [
+            "排序/比较",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "昆虫的身体结构特征",
+          "description": "掌握昆虫成虫身体分为头、胸、腹三部分且有三对足的特征。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "画图",
+            "判断"
+          ]
+        },
+        {
+          "name": "动物的繁殖方式（卵生与胎生）",
+          "description": "区分通过产卵繁殖的卵生动物和直接产下胎儿并哺乳的胎生动物。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "填空",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "动物的生命周期规律",
+          "description": "理解动物都要经历出生、生长发育、繁殖及死亡的完整生命历程。",
+          "difficulty": 1,
+          "question_types": [
+            "判断",
+            "填空",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "太阳、地球和月球",
+      "knowledge_points": [
+        {
+          "name": "天体特征对比（太阳与月球）",
+          "description": "对比恒星太阳与卫星月球在发光、热量、表面地貌（如环形山）上的差异。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "判断",
+            "选择"
+          ]
+        },
+        {
+          "name": "影子的产生条件与变化规律",
+          "description": "探究光源、遮挡物对影子的影响，以及阳光下影子长短随时间变化的规律。",
+          "difficulty": 3,
+          "question_types": [
+            "规律探索",
+            "操作题",
+            "填空"
+          ]
+        },
+        {
+          "name": "月相变化的周期性规律",
+          "description": "观察并记录一个月内月亮形状的连续变化，识别不同阶段的月相。",
+          "difficulty": 2,
+          "question_types": [
+            "排序/比较",
+            "画图",
+            "选择"
+          ]
+        },
+        {
+          "name": "地球形状的认知证据",
+          "description": "通过帆船入港、月食投影等证据认识地球是球体的科学事实。",
+          "difficulty": 2,
+          "question_types": [
+            "判断",
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "地球表面的海陆分布",
+          "description": "通过地图观察和数格子实验，理解地球表面海洋面积远大于陆地的特点。",
+          "difficulty": 3,
+          "question_types": [
+            "规律探索",
+            "计算题",
+            "填空"
+          ]
+        }
+      ]
+    }
+  ]
+}

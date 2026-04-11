@@ -1,0 +1,725 @@
+{
+  "textbook": "PEP Primary English Book 5A",
+  "unit": "What would you like?",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Unit 3 What would you like? Standard Test",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "饮食名词词汇",
+        "question": "单词 'sandwich' 的复数形式是 'sandwiches'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "以ch结尾的名词复数需加es。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "味道形容词",
+        "question": "单词 'sweet' 的意思是 '咸的'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "sweet意为甜的，salt/salty意为咸的。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "饮食意愿表达",
+        "question": "What would you like to eat? 是询问别人想喝什么。",
+        "options": [],
+        "answer": "错",
+        "explanation": "eat是吃，喝是drink。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "饮食偏好表达",
+        "question": "My favourite food is onions. 这句话表达的是我最喜欢的食物是洋葱。",
+        "options": [],
+        "answer": "对",
+        "explanation": "favourite意为最喜欢的。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "语音规律",
+        "question": "单词 'cow' 和 'now' 中 'ow' 的发音相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两者都发 /aʊ/。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "饮食名词词汇",
+        "question": "I'd like some _____. They are healthy.",
+        "options": [
+          "salad",
+          "hamburgers",
+          "ice cream",
+          "coke"
+        ],
+        "answer": "salad",
+        "explanation": "salad（沙拉）通常被认为是healthy（健康的）食物。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "味道形容词",
+        "question": "This tea is _____. I don't like it.",
+        "options": [
+          "hot",
+          "fresh",
+          "delicious",
+          "healthy"
+        ],
+        "answer": "hot",
+        "explanation": "tea通常与hot搭配，且在负面语境下可能指太烫了。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语法：would like",
+        "question": "What _____ you like to drink?",
+        "options": [
+          "do",
+          "are",
+          "would",
+          "is"
+        ],
+        "answer": "would",
+        "explanation": "固定搭配What would you like...?"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "名词复数",
+        "question": "I often eat some _____ for lunch.",
+        "options": [
+          "potatos",
+          "potato",
+          "potatoes",
+          "a potato"
+        ],
+        "answer": "potatoes",
+        "explanation": "potato的复数通过加es构造。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "饮食偏好表达",
+        "question": "—What's your favourite drink? —_____.",
+        "options": [
+          "Milk",
+          "Bread",
+          "Cakes",
+          "Apples"
+        ],
+        "answer": "Milk",
+        "explanation": "问题问的是drink（饮料），选项中只有milk符合。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "形容词词义",
+        "question": "Ice cream is very _____. Children like it.",
+        "options": [
+          "hot",
+          "sweet",
+          "salty",
+          "fresh"
+        ],
+        "answer": "sweet",
+        "explanation": "冰淇淋的显著特点是甜（sweet）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "特定名词形式",
+        "question": "He would like some _____ to drink.",
+        "options": [
+          "water",
+          "waters",
+          "a water",
+          "some waters"
+        ],
+        "answer": "water",
+        "explanation": "water是不可数名词。且题干已有some。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语法：favourite",
+        "question": "Beef is _____ favourite food.",
+        "options": [
+          "me",
+          "I",
+          "my",
+          "mine"
+        ],
+        "answer": "my",
+        "explanation": "这里需要形容词性物主代词my来修饰名词food。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "语音辨析",
+        "question": "Which word has a different sound for 'ow'?",
+        "options": [
+          "flower",
+          "down",
+          "snow",
+          "how"
+        ],
+        "answer": "snow",
+        "explanation": "snow中ow读/əʊ/，其余读/aʊ/。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句意理解",
+        "question": "The fish is too _____. Please give me some water.",
+        "options": [
+          "sweet",
+          "salty",
+          "fresh",
+          "delicious"
+        ],
+        "answer": "salty",
+        "explanation": "因为太salty（咸了），所以需要喝水。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "饮食名词",
+        "question": "I'd like a chicken _____ for lunch.",
+        "options": [],
+        "answer": "sandwich",
+        "explanation": "鸡肉三明治是本单元核心词汇。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "饮食偏好表达",
+        "question": "—What's your _____ food? —Carrots.",
+        "options": [],
+        "answer": "favourite",
+        "explanation": "询问最喜欢的食物用favourite。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "味道形容词",
+        "question": "The grapes are _____. They are not sweet.",
+        "options": [],
+        "answer": "sour",
+        "explanation": "如果不甜且描述葡萄，通常是酸的（sour）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "饮食意愿",
+        "question": "What _____ you like to eat?",
+        "options": [],
+        "answer": "would",
+        "explanation": "would you like固定表达。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "核心词汇匹配",
+        "question": "将下列英文单词与对应的中文意思连线。",
+        "options": [
+          "healthy",
+          "delicious",
+          "fresh",
+          "thirsty",
+          "美味的",
+          "渴的",
+          "新鲜的",
+          "健康的"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "healthy-健康, delicious-美味, fresh-新鲜, thirsty-渴。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "核心词汇匹配",
+        "question": "将对应的食物单词与其意思连线。",
+        "options": [
+          "chicken",
+          "onions",
+          "grapes",
+          "beef",
+          "牛肉",
+          "葡萄",
+          "洋葱",
+          "鸡肉"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "准确对应名词释义。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常用句型",
+        "question": "连词成句：",
+        "options": [
+          "like",
+          "would",
+          "you",
+          "What"
+        ],
+        "answer": "What,would,you,like",
+        "explanation": "基本的点餐询问句式。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "常用句型",
+        "question": "连词成句：",
+        "options": [
+          "food",
+          "is",
+          "favourite",
+          "Salad",
+          "my"
+        ],
+        "answer": "Salad,is,my,favourite,food",
+        "explanation": "陈述最喜欢某种食物。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 3 What would you like? Final Examination",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "味道形容词",
+        "question": "'hot' 既可以表示热的，也可以表示辣的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "hot在食物语境下有这两个意思。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "饮食名单",
+        "question": "Tomatoes 翻译成中文是 '土豆'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Tomatoes是西红柿，土豆是potatoes。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "饮食意愿",
+        "question": "I'd like... 是 I would like... 的缩写形式。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是标准的缩写规则。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "语音辨析",
+        "question": "'slow' 和 'yellow' 中 'ow' 的读音相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "都发 /əʊ/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "语法规则",
+        "question": "在句子 'He would like some soup.' 中，soup不能加s。",
+        "options": [],
+        "answer": "对",
+        "explanation": "soup通常作为不可数名词使用。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "饮食词汇",
+        "question": "Today is Monday. We have _____ on Mondays.",
+        "options": [
+          "hot dogs",
+          "beef",
+          "sweet",
+          "fresh"
+        ],
+        "answer": "beef",
+        "explanation": "名词作宾语，beef最合适。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语法：would like to",
+        "question": "I'd like _____ some noodles.",
+        "options": [
+          "eat",
+          "eating",
+          "to eat",
+          "eats"
+        ],
+        "answer": "to eat",
+        "explanation": "would like to do sth 固定结构。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "名词辨析",
+        "question": "My father likes _____. They are healthy.",
+        "options": [
+          "hamburger",
+          "vegetables",
+          "ice cream",
+          "cake"
+        ],
+        "answer": "vegetables",
+        "explanation": "vegetables被公认为健康的。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情景对话",
+        "question": "—What would you like to drink? —_____.",
+        "options": [
+          "I'd like some rice.",
+          "Apple juice, please.",
+          "I like apples.",
+          "I'm hungry."
+        ],
+        "answer": "Apple juice, please.",
+        "explanation": "针对drink的询问回答具体的饮料。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "味道形容词",
+        "question": "The peppers are too _____. I need some water.",
+        "options": [
+          "hot",
+          "sweet",
+          "fresh",
+          "delicious"
+        ],
+        "answer": "hot",
+        "explanation": "辣椒（peppers）的特征是辣（hot）。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物主代词",
+        "question": "They are _____ favourite food.",
+        "options": [
+          "your",
+          "you",
+          "him",
+          "she"
+        ],
+        "answer": "your",
+        "explanation": "修饰名词用形容词性物主代词。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形容词位置",
+        "question": "The milk is _____.",
+        "options": [
+          "thirsty",
+          "dry",
+          "sweet",
+          "hungry"
+        ],
+        "answer": "sweet",
+        "explanation": "形容牛奶味道甜。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "拼写检查",
+        "question": "Which one is spelled correctly?",
+        "options": [
+          "sandwiches",
+          "sandwichs",
+          "sandwicheses",
+          "sandwhichs"
+        ],
+        "answer": "sandwiches",
+        "explanation": "sandwich复数的正确形式。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "词义理解",
+        "question": "Don't eat too much _____. It's not healthy.",
+        "options": [
+          "salad",
+          "fruit",
+          "ice cream",
+          "water"
+        ],
+        "answer": "ice cream",
+        "explanation": "在选项中，ice cream多吃被视为不健康的（糖分高）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "指示代词",
+        "question": "I love _____. They are delicious.",
+        "options": [
+          "carrot",
+          "tomato",
+          "carrots",
+          "an apple"
+        ],
+        "answer": "carrots",
+        "explanation": "they 指代复数名词。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常表达",
+        "question": "I am _____. I'd like some water.",
+        "options": [],
+        "answer": "thirsty",
+        "explanation": "想喝水是因为渴（thirsty）。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "名词变复数",
+        "question": "Sarah likes _____. She eats two every day.",
+        "options": [],
+        "answer": "apples",
+        "explanation": "eats two 指示后面接名词复数。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "助动词",
+        "question": "What _____ you like to drink?",
+        "options": [],
+        "answer": "would",
+        "explanation": "常用点餐询问词。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形容词",
+        "question": "The vegetables are very _____. Just from the farm.",
+        "options": [],
+        "answer": "fresh",
+        "explanation": "刚从农场采摘形容为fresh。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "短语匹配",
+        "question": "将下列短语与对应的中文意思连线。",
+        "options": [
+          "favourite food",
+          "drink some water",
+          "hot tea",
+          "sweet candy",
+          "喝水",
+          "甜糖果",
+          "最喜欢的食物",
+          "热茶"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "考查课后常用短语理解。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述词匹配",
+        "question": "将形容词与其描述的对象连线。",
+        "options": [
+          "hungry",
+          "sandwich",
+          "delicious",
+          "onions",
+          "美味的",
+          "洋葱",
+          "饥饿的",
+          "三明治"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "形容词与名词的合理对应。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "特殊疑问句",
+        "question": "连词成句：",
+        "options": [
+          "your",
+          "is",
+          "favourite",
+          "What",
+          "food"
+        ],
+        "answer": "What,is,your,favourite,food",
+        "explanation": "询问最喜欢食物的固定结构。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "饮食需求",
+        "question": "连词成句：",
+        "options": [
+          "some",
+          "like",
+          "I",
+          "salad",
+          "would"
+        ],
+        "answer": "I,would,like,some,salad",
+        "explanation": "表达点餐意愿的肯定句。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "饮食相关名词",
+      "core_concept": "掌握 sandwich, salad, hamburger, ice cream, tea 等高频饮食词汇。",
+      "key_formula": "可数名词注意复数（sandwiches），不可数名词(water, milk, soup)不加s。",
+      "common_mistakes": [
+        "把 hamburger 拼成 hanburger",
+        "忘记 sandwich 复数加 es"
+      ],
+      "tips": "可以将食物按 'Healthy (健康)' 和 'Unhealthy (不健康)' 分类记忆。"
+    },
+    {
+      "point": "味道形容词",
+      "core_concept": "使用 fresh, healthy, delicious, hot, sweet 描述食物。",
+      "key_formula": "It is + 形容词. / They are + 形容词.",
+      "common_mistakes": [
+        "误认为 hot 只有 '热' 的意思，忽略了其 '辣' 的含义"
+      ],
+      "tips": "通过对比学习，如 sweet 对比 sour。"
+    },
+    {
+      "point": "点餐与偏好句型",
+      "core_concept": "What would you like to eat/drink? 与 What's your favourite food?",
+      "key_formula": "I'd like... = I would like...",
+      "common_mistakes": [
+        "回答 drink 问句时回答了食物",
+        "like 后面漏掉 to (would like to eat)"
+      ],
+      "tips": "记住 'Would like' 语气比 'Want' 更委婉有礼貌。"
+    },
+    {
+      "point": "语音规律：ow",
+      "core_concept": "区分 ow 的两种主要发音：/aʊ/ 和 /əʊ/。",
+      "key_formula": "双元音：/aʊ/ (cow, flower, now); /əʊ/ (slow, snow, yellow)。",
+      "common_mistakes": [
+        "将 snow 读成 /snaʊ/",
+        "混合两组单词的归类"
+      ],
+      "tips": "口诀：黄色的(yellow)雪(snow)慢慢的(slow)下，牛儿(cow)现在(now)看花(flower)。"
+    }
+  ]
+}

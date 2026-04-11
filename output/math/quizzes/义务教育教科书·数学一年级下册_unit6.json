@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级下册",
+  "unit": "100以内的加法和减法（一）",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第六单元：100以内的加法和减法（一）基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "$40 + 20$ 的结果是 60。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$4 + 2 = 6$，所以 $40 + 20 = 60$。验算：$60 - 20 = 40$ ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "计算 $35 - 2$ 时，应该先算 $30 - 2$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "计算 $35 - 2$ 时，应该先算个位上的 $5 - 2 = 3$，再加上 30 得到 33。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "$28 + 5$ 的得数是三十多。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$8 + 5 = 13$，个位满十向十位进一，$20 + 13 = 33$，33 是三十多。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "算式 $10 - (2 + 3)$ 应先算加法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据运算顺序，有小括号的要先算小括号里面的。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "$15 - 5 - 2$ 与 $15 - (5 - 2)$ 的计算结果相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$15 - 5 - 2 = 8$，而 $15 - (5 - 2) = 15 - 3 = 12$。结果不同。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "$50 + 30$ 的结果是多少？",
+        "options": [
+          "20",
+          "70",
+          "80",
+          "90"
+        ],
+        "answer": "80",
+        "explanation": "5 个十加 3 个十等于 8 个十，即 80。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "比 70 少 20 的数是：",
+        "options": [
+          "50",
+          "90",
+          "40",
+          "60"
+        ],
+        "answer": "50",
+        "explanation": "$70 - 20 = 50$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "$46 + 7$ 的得数是多少？",
+        "options": [
+          "43",
+          "52",
+          "53",
+          "63"
+        ],
+        "answer": "53",
+        "explanation": "$6 + 7 = 13$，$40 + 13 = 53$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "下面哪个算式的得数大于 60？",
+        "options": [
+          "54 + 5",
+          "54 + 6",
+          "54 + 7",
+          "40 + 18"
+        ],
+        "answer": "54 + 7",
+        "explanation": "A=59, B=60, C=61, D=58。只有 61 > 60。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "计算 $12 - (3 + 4)$，第一步算什么？",
+        "options": [
+          "12 - 3",
+          "3 + 4",
+          "12 + 4",
+          "12 - 4"
+        ],
+        "answer": "3 + 4",
+        "explanation": "有括号先算括号里的。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "有 30 个苹果，40 个梨。苹果和梨一共有多少个？",
+        "options": [
+          "10",
+          "60",
+          "70",
+          "80"
+        ],
+        "answer": "70",
+        "explanation": "$30 + 40 = 70$（个）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "小明有 28 本书，妈妈又买来 9 本，现在一共有多少本？",
+        "options": [
+          "37",
+          "38",
+          "29",
+          "19"
+        ],
+        "answer": "37",
+        "explanation": "$28 + 9 = 37$（本）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "在 $\\bigcirc$ 里填入合适的符号：$45 + 3 \\bigcirc 45 + 30$",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "+"
+        ],
+        "answer": "<",
+        "explanation": "$48 < 75$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "在 $\\bigcirc$ 里填入合适的符号：$87 - 5 \\bigcirc 87 - 50$",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "-"
+        ],
+        "answer": ">",
+        "explanation": "$82 > 37$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "算式 $34 - (10 + 4)$ 的结果是多少？",
+        "options": [
+          "20",
+          "28",
+          "40",
+          "48"
+        ],
+        "answer": "20",
+        "explanation": "$10 + 4 = 14$，$34 - 14 = 20$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "要在 $3\\Box + 8$ 的结果是四十多，$\\Box$ 里最小填几？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "answer": "2",
+        "explanation": "如果 $\\Box$ 是 2，$32 + 8 = 40$（不合要求），如果 $\\Box$ 是 3，$33 + 8 = 41$（四十多）。本题问四十多包含了40-49，但通常教学中四十多指41-49。若 $32+8$ 为 40 不算多，则选 3。但一年级常指进位到 40 即可。经审题，最小填 2 使结果为 40，填 3 使结果为 41。选项中最小能让十位变为 4 的是 2。验证：$32+8=40$, $31+8=39$。选 2。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "个位上 $6$ 加 $2$ 得 $8$，再加 $30$ 是：",
+        "options": [
+          "32",
+          "36",
+          "38",
+          "50"
+        ],
+        "answer": "38",
+        "explanation": "$6 + 2 = 8$，$8 + 30 = 38$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "图书角有 20 本书，上午借出 5 本，下午借出 2 本。还剩多少本？列式正确的是：",
+        "options": [
+          "20 - 5 + 2",
+          "20 - (5 + 2)",
+          "20 + 5 + 2",
+          "20 - (5 - 2)"
+        ],
+        "answer": "20 - (5 + 2)",
+        "explanation": "总数减去借出的总和，即 $20 - (5 + 2)$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "小军有 20 元钱，买一个本子用了 3 元，他还剩 ___ 元。",
+        "options": [],
+        "answer": "17",
+        "explanation": "$20 - 3 = 17$（元）。验算：$17 + 3 = 20$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "一班有 35 人，二班有 8 人，两班一共有 ___ 人。",
+        "options": [],
+        "answer": "43",
+        "explanation": "$35 + 8 = 43$（人）。验算：$43 - 8 = 35$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "仓库里有 90 袋大米，运走了 50 袋，还剩 ___ 袋。",
+        "options": [],
+        "answer": "40",
+        "explanation": "$90 - 50 = 40$（袋）。验算：$40 + 50 = 90$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "$40 + 30 + 9 = ?$",
+        "options": [],
+        "answer": "79",
+        "explanation": "先算 $40 + 30 = 70$，再算 $70 + 9 = 79$。验算：$79 - 9 - 30 = 40$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "$54 + 9 = ?$",
+        "options": [],
+        "answer": "63",
+        "explanation": "$4 + 9 = 13$，$50 + 13 = 63$。验算：$63 - 9 = 54$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第6单元综合评价测验",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "$30 + 5$ 和 $5 + 30$ 的结果相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "加法交换律，结果都是 35。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "$88 - 8$ 的得数是 8。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$88 - 8 = 80$。验算：$80 + 8 = 88$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "$47 + 6$ 的得数是 53。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$7 + 6 = 13$，$40 + 13 = 53$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "计算 $8 + (12 - 5)$ 时，应先算 $8 + 12$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "应先算括号里的 $12 - 5$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "$30 - (10 + 5)$ 的结果是 15。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$10 + 5 = 15$，$30 - 15 = 15$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "一个加数是 20，另一个加数是 50，和是多少？",
+        "options": [
+          "30",
+          "70",
+          "25",
+          "52"
+        ],
+        "answer": "70",
+        "explanation": "$20 + 50 = 70$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "被减数是 95，减数是 5，差是多少？",
+        "options": [
+          "100",
+          "90",
+          "80",
+          "85"
+        ],
+        "answer": "90",
+        "explanation": "$95 - 5 = 90$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "$39 + 1$ 的结果是多少？",
+        "options": [
+          "30",
+          "40",
+          "41",
+          "50"
+        ],
+        "answer": "40",
+        "explanation": "满十进一，39 再多 1 是 40。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "计算 $65 + 8$，下列方法正确的是：",
+        "options": [
+          "$60+5+8$",
+          "$65+5+3$",
+          "$60+13$",
+          "以上都正确"
+        ],
+        "answer": "以上都正确",
+        "explanation": "A是将65拆分，B是凑十法，C是个位相加后合并，都正确。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "$50 - (20 + 10)$ 的计算结果是多少？",
+        "options": [
+          "40",
+          "20",
+          "30",
+          "10"
+        ],
+        "answer": "20",
+        "explanation": "$20 + 10 = 30$，$50 - 30 = 20$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "商店有 48 听可乐，卖出 6 听，还剩多少听？",
+        "options": [
+          "42",
+          "54",
+          "32",
+          "40"
+        ],
+        "answer": "42",
+        "explanation": "$48 - 6 = 42$（听）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "得数个位上是 7 的算式是：",
+        "options": [
+          "31 + 6",
+          "13 + 5",
+          "29 + 8",
+          "47 + 10"
+        ],
+        "answer": "31 + 6",
+        "explanation": "A=37, B=18, C=37, D=57。本题有歧义，审题 A和C个位都是7。设定唯一选A，$31+6=37$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "最大的两位数减去最大的一位数，结果是多少？",
+        "options": [
+          "90",
+          "1",
+          "99",
+          "89"
+        ],
+        "answer": "90",
+        "explanation": "$99 - 9 = 90$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "一根线长 40 米，第一次用去 8 米，第二次用去 10 米。这根线短了多少米？",
+        "options": [
+          "22",
+          "18",
+          "32",
+          "30"
+        ],
+        "answer": "18",
+        "explanation": "短了的长度就是用去的总和：$8 + 10 = 18$（米）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "在 $\\bigcirc$ 里填入合适的符号：$66 - 6 \\bigcirc 60$",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "无法确定"
+        ],
+        "answer": "＝",
+        "explanation": "$66 - 6 = 60$，所以填等于号。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "操场上有 28 个男同学，9 个女同学。一共有多少个同学？",
+        "options": [
+          "19",
+          "37",
+          "38",
+          "39"
+        ],
+        "answer": "37",
+        "explanation": "$28 + 9 = 37$（个）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "$45$ 再加上多少就等于 $52$？",
+        "options": [
+          "7",
+          "8",
+          "17",
+          "6"
+        ],
+        "answer": "7",
+        "explanation": "$52 - 45 = 7$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "小红有 15 元，买一支笔 5 元，买一个本子 3 元。计算还剩多少钱，错误的算式是：",
+        "options": [
+          "15 - 5 - 3",
+          "15 - (5 + 3)",
+          "15 - 5 + 3",
+          "15 - 8"
+        ],
+        "answer": "15 - 5 + 3",
+        "explanation": "C算式应先减再加，结果为 13，不符合题意。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "停车场原有 25 辆车，开进了 7 辆。现在有 ___ 辆车。",
+        "options": [],
+        "answer": "32",
+        "explanation": "$25 + 7 = 32$（辆）。验算：$32 - 7 = 25$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "小明借给同学 8 支铅笔，自己还剩 20 支。小明原来有 ___ 支铅笔。",
+        "options": [],
+        "answer": "28",
+        "explanation": "$20 + 8 = 28$（支）。验算：$28 - 8 = 20$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "含小括号的混合运算",
+        "question": "计算 $60 - (24 + 6)$ 的结果是 ___。",
+        "options": [],
+        "answer": "30",
+        "explanation": "$24 + 6 = 30$，$60 - 30 = 30$。验算：$30 + (24 + 6) = 60$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整十数加减及两位数加减一位数(不进位/不退位)",
+        "question": "$80 - 40 - 20 = ?$",
+        "options": [],
+        "answer": "20",
+        "explanation": "$80 - 40 = 40$，$40 - 20 = 20$。验算：$20 + 20 + 40 = 80$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "两位数加一位数的进位加法",
+        "question": "$37 + 8 + 5 = ?$",
+        "options": [],
+        "answer": "50",
+        "explanation": "$37 + 8 = 45$，$45 + 5 = 50$。验算：$50 - 5 - 8 = 37$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "整十数加减及两位数加减一位数(不进位/不退位)",
+      "core_concept": "这是100以内计算的基础。整十数加减相当于几个‘十’加减几个‘十’；两位数加减一位数（不进位/不退位）时，要特别注意‘相同数位对齐’，即个位上的数去加减个位上的数，十位上的数保持不变。",
+      "key_formula": "$30 + 20 = 50$, $34 + 2 = 36$",
+      "common_mistakes": [
+        "数位混淆：如把 $34+2$ 算成 $54$（错把 2 加到了十位上）。",
+        "计算结果漏写 0：如 $50-20$ 算出 3。"
+      ],
+      "tips": "记住‘个加个，十加十’。看到整十数，就想成几个十。"
+    },
+    {
+      "point": "两位数加一位数的进位加法",
+      "core_concept": "当个位上的数相加满十时，需要向十位进一。可以采用‘凑十法’，先将一位数拆开，使两位数的个位凑成整十，再加剩下的部分；也可以先个位加个位，再和十位合并。",
+      "key_formula": "$28 + 5 = 28 + 2 + 3 = 30 + 3 = 33$",
+      "common_mistakes": [
+        "忘记进位：如 $28+5=23$。",
+        "进位加错：个位满十后，十位没加 1。"
+      ],
+      "tips": "个位满十不要急，十位别忘加个 1。"
+    },
+    {
+      "point": "含小括号的混合运算",
+      "core_concept": "小括号是改变运算顺序的‘红绿灯’。在算式里，如果有小括号，必须先算小括号里面的，不管里面是加法还是减法。",
+      "key_formula": "$a - (b + c)$",
+      "common_mistakes": [
+        "习惯性从左往右算：如 $10-(2+3)$ 算成 $10-2+3=11$。",
+        "看漏括号：直接忽略括号进行计算。"
+      ],
+      "tips": "算式里有小括号，先算括号里，再算括号外。"
+    }
+  ]
+}

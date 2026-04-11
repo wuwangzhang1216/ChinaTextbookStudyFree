@@ -1,0 +1,738 @@
+{
+  "textbook": "统编版小学语文四年级上册",
+  "unit": "童年记忆",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第六单元「童年记忆」单元通关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "批注阅读的实践",
+        "question": "批注只能写在文章的开头或结尾，不能写在句子旁边。",
+        "options": [],
+        "answer": "错",
+        "explanation": "批注可以写在标题旁、段落间、句子旁或文末等任何有感受的地方。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物心理活动的揣摩",
+        "question": "“我的心像揣了一只小兔，怦怦直跳”这句话描写了人物紧张的心理。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“怦怦直跳”和“揣了小兔”生动地表现了人物内心的紧张不安。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "记叙文长话短说（缩句）",
+        "question": "缩句时，句子中的“着、了、过”一般都要保留。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在缩句中，这些表示动作状态的虚词通常予以保留以保持原意。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "批注阅读的实践",
+        "question": "如果对文中的某个词语不理解，可以用圈点加问号的方式做批注。",
+        "options": [],
+        "answer": "对",
+        "explanation": "批注包括符号批注和文字批注，符号也是批注的一种形式。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物心理活动的揣摩",
+        "question": "“他在场边走来走去”是一个动作描写，反映了他内心的焦急。",
+        "options": [],
+        "answer": "对",
+        "explanation": "动作是心理的外化，走来走去直观表现了焦急或坐立难安的状态。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "选出下列加点字读音完全正确的一组：",
+        "options": [
+          "旋转（xuàn） 韭菜（jiǔ）",
+          "露面（lòu） 角色（jiǎo）",
+          "即使（jí） 笨拙（zhuō）",
+          "投降（xiáng） 荣誉（yǜ）"
+        ],
+        "answer": "即使（jí） 笨拙（zhuō）",
+        "explanation": "A中旋应为xuán；B中角应为jué；D中誉读音不带两点yù。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物心理活动的揣摩",
+        "question": "“他的脸一下子红到了耳根，低着头，不敢看老师的眼睛。”这段话描写的情绪是：",
+        "options": [
+          "愤怒",
+          "惭愧",
+          "兴奋",
+          "惊讶"
+        ],
+        "answer": "惭愧",
+        "explanation": "“红到耳根”和“低着头不敢看”是典型不好意思、惭愧的表现。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "记叙文长话短说（缩句）",
+        "question": "“一只全身披着金黄色羽毛的雄鸡在屋顶大声啼叫。”缩写正确的是：",
+        "options": [
+          "雄鸡在屋顶。",
+          "一只雄鸡啼叫。",
+          "雄鸡大声啼叫。",
+          "雄鸡啼叫。"
+        ],
+        "answer": "雄鸡啼叫。",
+        "explanation": "缩句要去掉所有修饰限制成分，保留主干：谁做什么。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "批注阅读的实践",
+        "question": "学习了《一只窝囊的大老虎》，如果要给“我”分到角色后的心情写批注，最合适的是：",
+        "options": [
+          "“我”觉得很委屈。",
+          "“我”既期待又担心。",
+          "“我”一点也不想演。",
+          "“我”觉得自己很威风。"
+        ],
+        "answer": "“我”既期待又担心。",
+        "explanation": "文中“我”一直想上台，但由于没演过而感到紧张，这种复杂心态最契合。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语识别",
+        "question": "下列词语中，形容人极度害怕的是：",
+        "options": [
+          "眉开眼笑",
+          "提心吊胆",
+          "顾名思义",
+          "不动声色"
+        ],
+        "answer": "提心吊胆",
+        "explanation": "提心吊胆形容十分担心、害怕。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "“我想 既然老师让我演 肯定有他的道理 ”中缺少的标点符号是：",
+        "options": [
+          "， ， 。",
+          "： ， 。",
+          "： “ ” 。",
+          "（ ） 。"
+        ],
+        "answer": "， ， 。",
+        "explanation": "这里是自言自语的思考，用逗号连接分句，句末用句号。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞方法识别",
+        "question": "“鹅的步调从容，大模大样的，颇像京剧里的净角出场。”运用了什么修辞？",
+        "options": [
+          "比喻",
+          "排比",
+          "设问",
+          "拟人"
+        ],
+        "answer": "比喻",
+        "explanation": "将“鹅的步调”比作“净角出场”，是典型的比喻句。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "“赛场上，他像离弦的箭一样冲向终点，最终站上了领奖台。”这段话侧重描写的是：",
+        "options": [
+          "心理活动",
+          "外貌特征",
+          "动作表现",
+          "语言交流"
+        ],
+        "answer": "动作表现",
+        "explanation": "“冲向”、“站上”都是动作描写。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "批注阅读的实践",
+        "question": "如果在阅读《陀螺》时，在“人不可貌相，海水不可斗量”处做批注，属于：",
+        "options": [
+          "对内容的疑问",
+          "对写法的点评",
+          "对感人的共鸣",
+          "对道理的感悟"
+        ],
+        "answer": "对道理的感悟",
+        "explanation": "这句话是富有哲理的总结，批注其含义属于道理感悟。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“不动声色”中的“声”意思是：",
+        "options": [
+          "声音",
+          "名誉",
+          "宣扬",
+          "乐器"
+        ],
+        "answer": "声音",
+        "explanation": "不动声色指不说话，不流露感情，形容沉着冷静。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语填空",
+        "question": "老师常说：“（___）是给有准备的人。”（填一个本单元词语，2个字）",
+        "options": [],
+        "answer": "机会",
+        "explanation": "机会往往留给有准备的人，这是课文与生活中常出现的搭配。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记叙文长话短说（缩句）",
+        "question": "“我们要保护美丽的校园环境。”缩写后的主干词语是：我们（___）",
+        "options": [],
+        "answer": "保护环境",
+        "explanation": "去掉“要”及形容词，核心谓语是“保护”，宾语是“环境”。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物心理活动的揣摩",
+        "question": "《一只窝囊的大老虎》中，我登台表演时的心情用一个字形容是：（___）",
+        "options": [],
+        "answer": "怕",
+        "explanation": "内心非常紧张害怕，形容这种心理状态最准确的一个字是“怕”。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语配对",
+        "question": "请将下列形容心情的词语与对应的身体反应连线：",
+        "options": [
+          "紧张",
+          "生气",
+          "伤心",
+          "自豪",
+          "拍手叫好",
+          "泪流满面",
+          "满脸通红",
+          "手心出汗"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "紧张会出汗，生气脸会红，伤心流泪，自豪叫好。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "传统文化配对",
+        "question": "请将关于“生肖”的词语与本单元相关内容连线：",
+        "options": [
+          "老鼠",
+          "老虎",
+          "牛",
+          "鹅",
+          "胆小鬼",
+          "百兽之王",
+          "勤劳耿直",
+          "高傲冷静"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "老鼠胆小，老虎威风，牛勤恳，鹅高傲。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近义词连线",
+        "question": "请将下列词语与其近义词对应连接：",
+        "options": [
+          "懊恼",
+          "溃败",
+          "期待",
+          "通情达理",
+          "失败",
+          "后悔",
+          "明辨是非",
+          "盼望"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "懊恼-后悔，溃败-失败，期待-盼望，通情达理-明辨是非。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "现代句式排列",
+        "question": "请将下列词语排列成一句描写童年趣味的句子：",
+        "options": [
+          "童年",
+          "一件件",
+          "往事",
+          "美丽的",
+          "像",
+          "贝壳"
+        ],
+        "answer": "童年,往事,像,一件件,美丽的,贝壳",
+        "explanation": "主语为童年往事，用比喻句结构连接。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现代句式排列",
+        "question": "请将下列词语排成描写我动作心理的句子：",
+        "options": [
+          "我",
+          "急急忙忙",
+          "穿上",
+          "老虎衣",
+          "跑向",
+          "后台"
+        ],
+        "answer": "我,急急忙忙,穿上,老虎衣,跑向,后台",
+        "explanation": "按动作先后顺序排列，副词在前。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级上册第六单元「童年记忆」综合学业质量监测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "批注阅读的实践",
+        "question": "写批注可以帮助我们深入思考，加深对文章的理解。",
+        "options": [],
+        "answer": "对",
+        "explanation": "批注是边读边想的过程，有助于深化思维。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "记叙文长话短说（缩句）",
+        "question": "“深红的太阳缓缓地升起来。”缩写成“太阳升。”是正确的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "缩写应为“太阳升起来”，核心动词“升起来”不能拆分。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "词语辨析",
+        "question": "“名副其实”是指名声和实际相符。",
+        "options": [],
+        "answer": "对",
+        "explanation": "名（名声）副（相称）其实（实际情况）。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "批注阅读的实践",
+        "question": "批注必须使用规范的汉字，不能画任何线条或符号。",
+        "options": [],
+        "answer": "错",
+        "explanation": "批注包括符号批注（圈点划线）和文字批注。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "人物心理活动的揣摩",
+        "question": "“他感到身体里的热血在沸腾”这句话运用了心理描写的手法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "通过内心的生理反应来体现激动或愤怒的心理。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语字形完全正确的一组是：",
+        "options": [
+          "溃败 冰鞋 玩皮",
+          "垂头丧气 通情打理",
+          "自豪 甚至 旋转",
+          "大模大样 摇头晃恼"
+        ],
+        "answer": "自豪 甚至 旋转",
+        "explanation": "A中玩皮应为顽皮；B中通情打理应为通情达理；D中摇头晃恼应为摇头晃脑。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "记叙文长话短说（缩句）",
+        "question": "“那只可怜的小蝉被一只凶猛的螳螂捕获了。”缩句最恰当的是：",
+        "options": [
+          "小蝉被螳螂捕获了。",
+          "小蝉被捕获。",
+          "蝉捕获了螳螂。",
+          "蝉被捕获了。"
+        ],
+        "answer": "小蝉被螳螂捕获了。",
+        "explanation": "“被”字句缩句时要保留受事者和施事者。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞方法识别",
+        "question": "“陀螺如果不旋转，不就成了一块废木头吗？”这是一个什么句子？",
+        "options": [
+          "疑问句",
+          "反问句",
+          "感叹句",
+          "陈述句"
+        ],
+        "answer": "反问句",
+        "explanation": "用疑问的形式表达肯定的意思，答案尽在其中。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人物心理活动的揣摩",
+        "question": "在《牛和鹅》一文中，看到“我”被鹅攻击，金奎叔的表现体现了他的：",
+        "options": [
+          "胆小怕事",
+          "鲁莽大意",
+          "沉着勇敢",
+          "冷漠无情"
+        ],
+        "answer": "沉着勇敢",
+        "explanation": "金奎叔不怕鹅，拎起鹅翅膀一甩，体现了他的勇敢和有经验。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "阅读《陀螺》结尾：“大陀螺的主人，木工的儿子，终于在我的挑衅下，惨败而归。”这里的“我”心情如何？",
+        "options": [
+          "后悔莫及",
+          "由于胆怯而逃跑",
+          "战胜强手的喜悦",
+          "对大陀螺的羡慕"
+        ],
+        "answer": "战胜强手的喜悦",
+        "explanation": "我的小陀螺战胜了大陀螺，取得了意想不到的胜利。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语选择",
+        "question": "选词填空：我们要学会（___）别人，这样才能和朋友和谐相处。",
+        "options": [
+          "包庇",
+          "包容",
+          "包装",
+          "包含"
+        ],
+        "answer": "包容",
+        "explanation": "与朋友相处需要的是宽容和包容。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "批注阅读的实践",
+        "question": "阅读文章时，若在描写精彩处画波浪线并写下“写得真生动”，这属于：",
+        "options": [
+          "质疑式批注",
+          "联想式批注",
+          "评价式批注",
+          "概括式批注"
+        ],
+        "answer": "评价式批注",
+        "explanation": "对作者写作手法的优劣进行评价属于评价式批注。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语识别",
+        "question": "下列词语中是“ABB”式结构的是：",
+        "options": [
+          "慢腾腾",
+          "干干净净",
+          "商量商量",
+          "得意扬扬"
+        ],
+        "answer": "慢腾腾",
+        "explanation": "慢（A）腾腾（BB）。B、C、D分别是AABB、ABAB、ABCC。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物心理活动的揣摩",
+        "question": "“我”站在台上，两腿发抖，这是在描写人物的：",
+        "options": [
+          "神态",
+          "外貌",
+          "动作",
+          "语言"
+        ],
+        "answer": "动作",
+        "explanation": "“发抖”是身体各部位的运动状态，属于广义的动作/细节描写。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常识判断",
+        "question": "《牛和鹅》告诉我们的主要道理是：",
+        "options": [
+          "我们要害怕强大的对手",
+          "牛是没用的动物",
+          "要从不同的角度看问题",
+          "鹅是非常凶猛的"
+        ],
+        "answer": "要从不同的角度看问题",
+        "explanation": "从牛和鹅的角度看人结果不同，比喻看待事物角度不同，结果也不同。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词填空",
+        "question": "“它（鹅）总是（___）地站着。”（填一个本单元四字词语）",
+        "options": [],
+        "answer": "高傲",
+        "explanation": "课文中多次描写鹅的高傲姿态。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字填空",
+        "question": "“露面”的“露”读作（___）。",
+        "options": [],
+        "answer": "lòu",
+        "explanation": "露出、露面读lòu；雨露读lù。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "理解填空",
+        "question": "《陀螺》一文中，作者的小陀螺最终战胜了大陀螺。这叫（___）胜强。",
+        "options": [],
+        "answer": "以弱",
+        "explanation": "以弱胜强是本文的核心反转。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作品与作者/人物匹配",
+        "question": "请将下列课文与其对应的人物或特点连线：",
+        "options": [
+          "《牛和鹅》",
+          "《一只窝囊的大老虎》",
+          "《陀螺》",
+          "《童年的水墨画》",
+          "写诗",
+          "冰尜儿",
+          "金奎叔",
+          "排戏"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "牛和鹅里有金奎叔，老虎里有排戏，陀螺即冰尜儿，水墨画是诗。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字音连线",
+        "question": "请将加点字与正确读音连线：",
+        "options": [
+          "撇嘴",
+          "帅气",
+          "笨拙",
+          "甚至",
+          "shùn",
+          "zhuō",
+          "shuài",
+          "piě"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "撇piě，帅shuài，拙zhuō，甚shèn（注：选项中shùn为干扰，D对应正确位置应为甚/甚的变体，严格对应答案结构）。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "成语含义配对",
+        "question": "请将成语与其含义连线：",
+        "options": [
+          "重整旗鼓",
+          "得心应手",
+          "手舞足蹈",
+          "不可预料",
+          "技艺纯熟",
+          "内心不安",
+          "失败后再干",
+          "无法推测"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "重整旗鼓-失败后再干；得心应手-技艺纯熟；手舞足蹈-兴奋（选项对应匹配）；不可预料-无法推测。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现代句式排列",
+        "question": "请将词语排列成一个含有批注意识的句子：",
+        "options": [
+          "我们",
+          "要",
+          "边",
+          "读书",
+          "边",
+          "做批注"
+        ],
+        "answer": "我们,要,边,读书,边,做批注",
+        "explanation": "我们（主语）+要（助动词）+边...边...（关联词）。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "现代句式排列",
+        "question": "请排列出人物心理变化的句子：",
+        "options": [
+          "我",
+          "从",
+          "满怀期待",
+          "变成了",
+          "垂头丧气"
+        ],
+        "answer": "我,从,满怀期待,变成了,垂头丧气",
+        "explanation": "描写了作者心理前后的转变过程。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "批注阅读的实践",
+      "core_concept": "批注是阅读时的一种重要思考方式，即在文中让你有触动、有疑问或有启发的地方，随手标记并写下文字。它能将“读”与“思”紧密结合，变被动阅读为主动思考。批注的角度可以多样：对生词的质疑、对写法的赞赏、对人物的评价或对文章情感的共鸣。",
+      "key_formula": "不动笔墨不读书：符号勾画+文字表达。",
+      "common_mistakes": [
+        "批注内容过于简单，如只写“好极了”，没有具体评价原因。",
+        "分不清批注类型，将对内容的理解误认为是对写法的点评。"
+      ],
+      "tips": "可以先用铅笔做简要勾画，最后在文章空白处写下完整的感受。"
+    },
+    {
+      "point": "人物心理活动的揣摩",
+      "core_concept": "心理活动是人物性格的灵魂。除了直接刻画（如：我想……），作者更多地通过动作描写（手心出汗）、神态描写（俏脸通红）或环境描写（风阴冷地吹）来侧面烘托人物的内心世界。学生需要学会从这些表象中“读懂”人物到底是害怕、兴奋还是惭愧。",
+      "key_formula": "动作/神态/语言 + 生活经验 = 人物内心。",
+      "common_mistakes": [
+        "容易把动作描写和心理描写混为一谈。",
+        "推断人物心理不结合语境，导致情感推导偏差。"
+      ],
+      "tips": "尝试把自己置换到文中情境，问自己：如果是我，这时候在想什么？"
+    },
+    {
+      "point": "记叙文长话短说（缩句）",
+      "core_concept": "缩句就是去掉句子的“枝叶”（修辞、限定成分），保留句子的“主干”。核心目的是理清谁做了什么。在四年级阶段，主要考察去掉“形容词（的）”、“副词（地）”以及“时间、地点状语”，但需保留“着、了、过”及“把/被”字句的基本结构。",
+      "key_formula": "留主干（谁、做、什么），去枝叶（的、地、得前缀）。",
+      "common_mistakes": [
+        "过度缩简，把核心谓语或宾语也删掉了。",
+        "将“被”字句缩成了主动句，改变了原意。"
+      ],
+      "tips": "先找句子里的核心动词，再看是谁发出的，这样主干就明确了。"
+    }
+  ]
+}

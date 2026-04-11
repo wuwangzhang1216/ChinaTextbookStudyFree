@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级下册",
+  "unit": "找规律",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "第7单元「找规律」基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "一串彩灯按“红、黄、蓝、红、黄、蓝……”的规律排列，那么第7盏灯应该是红色。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这组规律是“红、黄、蓝”三个一组。$7 \\div 3 = 2$（组）……$1$（颗），余数是1，对应每组的第1个，即红色。验算：1红、2黄、3蓝、4红、5黄、6蓝、7红，正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 5, 10, 15, 20, 25 是按照每次增加 5 的规律排列的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$10-5=5$，$15-10=5$，$20-15=5$，$25-20=5$，每相邻两数之差都是5，是增加5的规律。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 30, 28, 26, 24 中，下一个数应该是 23。",
+        "options": [],
+        "answer": "错",
+        "explanation": "规律是依次减2。$24-2=22$，所以下一个数应该是22，不是23。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "规律的分析与补全",
+        "question": "有一串珠子按“2颗白珠、1颗黑珠”重复排列，如果不小心掉了1颗黑珠，剩下的珠子排列规律就不会改变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "规律是由特定数量和颜色的物体重复组成的，缺失其中任何一部分都会打破原有的排列次序。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "跳舞动作按“拍手、跺脚、拍手、跺脚”循环，第5次动作应该是拍手。",
+        "options": [],
+        "answer": "对",
+        "explanation": "规律是“拍手、跺脚”两个一组。单数次（1,3,5）是拍手，双数次（2,4）是跺脚。5是单数，所以是拍手。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "一串图形依次是：正方形、圆、正方形、圆、正方形……接下来的一个图形应该是：",
+        "options": [
+          "正方形",
+          "圆",
+          "长方形",
+          "三角形"
+        ],
+        "answer": "圆",
+        "explanation": "规律是正方形和圆交替出现。最后一个是正方形，后面接圆。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 11, 22, 33, 44, ( )，括号里应该填：",
+        "options": [
+          "45",
+          "50",
+          "55",
+          "66"
+        ],
+        "answer": "55",
+        "explanation": "规律是后一个数比前一个数多11。$44 + 11 = 55$。验算：$55 - 11 = 44$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "找规律：100, 90, 80, 70, ( )",
+        "options": [
+          "65",
+          "60",
+          "50",
+          "71"
+        ],
+        "answer": "60",
+        "explanation": "规律是依次减10。$70 - 10 = 60$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "小明排队，按“男、女、男、女”排列，第10个学生是：",
+        "options": [
+          "男生",
+          "女生",
+          "不确定",
+          "老师"
+        ],
+        "answer": "女生",
+        "explanation": "每两个一组（男、女）。10是双数，对应每组的第2个，即女生。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 2, 4, 7, 11, 16, ( )，括号里填什么？",
+        "options": [
+          "20",
+          "21",
+          "22",
+          "23"
+        ],
+        "answer": "22",
+        "explanation": "规律是每次增加的数在变大。$+2, +3, +4, +5$，所以后面应该 $+6$。$16 + 6 = 22$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "规律的分析与补全",
+        "question": "手链上的珠子丢了2颗：●○●○( )( )●○，括号里应补：",
+        "options": [
+          "●○",
+          "○●",
+          "●●",
+          "○○"
+        ],
+        "answer": "●○",
+        "explanation": "整体规律是“黑、白”重复。第4个是白，第5个应为黑（●），第6个应为白（○）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "下列哪组物体的排列是按照“1个大的，2个小的”规律排的？",
+        "options": [
+          "大大小大大小",
+          "大小小大小小",
+          "大小大小大小",
+          "小小大小小大"
+        ],
+        "answer": "大小小大小小",
+        "explanation": "A是2大1小，B是1大2小，C是1大1小。符合题意的是B。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 ( ), 15, 20, 25, 30。括号里应填：",
+        "options": [
+          "5",
+          "10",
+          "14",
+          "16"
+        ],
+        "answer": "10",
+        "explanation": "后面几个数规律是每次加5。$15 - 5 = 10$。验算：$10+5=15$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "规律的分析与补全",
+        "question": "百数表中，有一个数在35的下面位置，这个数是：",
+        "options": [
+          "34",
+          "36",
+          "45",
+          "25"
+        ],
+        "answer": "45",
+        "explanation": "百数表中，下一行同位置的数比上一行大10。$35 + 10 = 45$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "三角形、正方形、圆，后面重复这一组。那么第6个图形是：",
+        "options": [
+          "三角形",
+          "正方形",
+          "圆",
+          "五角星"
+        ],
+        "answer": "圆",
+        "explanation": "3个一组。$6 \\div 3 = 2$（组），正好分完，对应每一组的最后一个，即“圆”。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "在 18, 16, 14, 12, ( ) 中，括号填：",
+        "options": [
+          "10",
+          "11",
+          "9",
+          "13"
+        ],
+        "answer": "10",
+        "explanation": "规律是依次减2。$12 - 2 = 10$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "规律的分析与补全",
+        "question": "小红有一串珠子：○●●○●●○●●。她想再加3颗，按规律最后加的一颗是：",
+        "options": [
+          "圆圈",
+          "黑球",
+          "两个黑球",
+          "无法确定"
+        ],
+        "answer": "黑球",
+        "explanation": "规律是“1白2黑”。最后是“●”，接下来的3颗应该是“○、●、●”。最后加的是黑球。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 7, 17, 27, 37, ( )",
+        "options": [
+          "38",
+          "47",
+          "57",
+          "40"
+        ],
+        "answer": "47",
+        "explanation": "个位都是7，十位每次加1，即每次加10。$37 + 10 = 47$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 5, 10, 15, 20, 后面紧接着的一个数是 ___。",
+        "options": [],
+        "answer": "25",
+        "explanation": "规律：$5+5=10, 10+5=15, 15+5=20$。计算：$20+5=25$。验算：$25-5=20$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "规律的分析与补全",
+        "question": "小明穿珠子，按“3红2绿”的规律。穿完两组后，一共用了 ___ 颗珠子。",
+        "options": [],
+        "answer": "10",
+        "explanation": "一组珠子有 $3 + 2 = 5$ 颗。两组共：$5 + 5 = 10$ 颗。验算：$10 \\div 5 = 2$ 组 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 88, 77, 66, 55, ___ , 33。横线上应填数字几？",
+        "options": [],
+        "answer": "44",
+        "explanation": "规律是每个数减11。$55 - 11 = 44$。验算：$44 - 11 = 33$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "计算：$45 + 5 + 5 + 5 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$45+5=50, 50+5=55, 55+5=60$。验算：连续加了3个5，等于加15，$45+15=60$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "计算：$90 - 10 - 10 - 10 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$90-10=80, 80-10=70, 70-10=60$。验算：$60+10+10+10=90$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第7单元「找规律」综合质量评估卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "春天、夏天、秋天、冬天是循环出现的规律。",
+        "options": [],
+        "answer": "对",
+        "explanation": "四季轮回，每年都按此顺序循环，是一种自然的重复规律。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "在数列 10, 20, 31, 40 中，规律被 31 破坏了。",
+        "options": [],
+        "answer": "对",
+        "explanation": "其他数都是每次加10，10到20加10，20到31加了11，所以31不符合规律。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "规律的分析与补全",
+        "question": "如果一串珠子按“黑白黑白”排，第99颗珠子是黑色的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "规律是单数位置是黑色，双数位置是白色。99是单数，所以是黑色。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "1, 3, 5, 7 后面一个数应该是 8。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这是奇数列，每次加2。$7+2=9$，所以应该是9。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "规律的分析 with 补全",
+        "question": "两个数列 1, 3, 5 和 2, 4, 6 的排列规律是不一样的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "两个数列的规律都是“后一个数比前一个数大2”，规律本质相同。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "有一串小旗：红旗、黄旗、蓝旗、红旗、黄旗、蓝旗……第8面是什么颜色？",
+        "options": [
+          "红旗",
+          "黄旗",
+          "蓝旗",
+          "绿旗"
+        ],
+        "answer": "黄旗",
+        "explanation": "3个一组。$8 \\div 3 = 2$（组）……$2$（面）。每组第2面是黄旗。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "找规律填数：0, 5, 10, 15, 20, ( )",
+        "options": [
+          "21",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": "25",
+        "explanation": "规律是每次加5。$20+5=25$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "下面哪个数列的规律和其他的不一样？",
+        "options": [
+          "2, 4, 6, 8",
+          "12, 14, 16, 18",
+          "21, 23, 25, 27",
+          "1, 2, 3, 4"
+        ],
+        "answer": "1, 2, 3, 4",
+        "explanation": "A, B, C 都是每次加2，D 是每次加1。所以 D 的规律不同。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "规律的分析与补全",
+        "question": "在百数表中，第4行第5列的数是35。那么它左边的数是：",
+        "options": [
+          "34",
+          "36",
+          "25",
+          "45"
+        ],
+        "answer": "34",
+        "explanation": "在百数表中，同一行左右相邻的数相差1，左边的数小1。$35-1=34$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "课间操排队，按“2个男生1个女生”规律，第12个同学是：",
+        "options": [
+          "男生",
+          "女生",
+          "无法确定",
+          "老师"
+        ],
+        "answer": "女生",
+        "explanation": "3个一组（男、男、女）。$12 \\div 3 = 4$（组），正好分完，是每一组的最后一个，即女生。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 1, 2, 4, 7, 11, ( )",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "17"
+        ],
+        "answer": "16",
+        "explanation": "增加量依次是：$+1, +2, +3, +4$。接下来的增加量是 $+5$。$11+5=16$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数字 95, 85, 75, 65 后面的两个数是：",
+        "options": [
+          "55, 45",
+          "60, 50",
+          "55, 50",
+          "45, 35"
+        ],
+        "answer": "55, 45",
+        "explanation": "规律是依次减10。$65-10=55$，$55-10=45$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "规律的分析与补全",
+        "question": "一串有规律的珠子，中间少了一段：○●●○( )○●●○。中间应该补什么？",
+        "options": [
+          "●●",
+          "●○",
+          "○●",
+          "○○"
+        ],
+        "answer": "●●",
+        "explanation": "规律是“一个白两个黑”。括号前是白，括号后也是白，且两边都有两个黑，说明规律中间缺失的是对应“两个黑”的部分。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "一个闹钟每小时敲一下，2点敲2下，3点敲3下。这属于什么规律？",
+        "options": [
+          "重复规律",
+          "递增规律",
+          "没有规律",
+          "递减规律"
+        ],
+        "answer": "递增规律",
+        "explanation": "随着时间数字的变大，敲的次数也在变多，属于递增规律。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 20, 24, 28, 32, ( )。括号里填：",
+        "options": [
+          "34",
+          "36",
+          "40",
+          "42"
+        ],
+        "answer": "36",
+        "explanation": "规律是依次加4。$32+4=36$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 1, 1, 2, 3, 5, 8, ( ) 是著名的斐波那契数列，它的规律是前两个数相加等于后一个。请问括号里填几？",
+        "options": [
+          "9",
+          "11",
+          "13",
+          "15"
+        ],
+        "answer": "13",
+        "explanation": "根据规律：$5 + 8 = 13$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单图形和动作的循环规律",
+        "question": "按照“笑脸、哭脸、笑脸、哭脸”的规律，第20个脸是：",
+        "options": [
+          "笑脸",
+          "哭脸",
+          "大笑",
+          "睡觉"
+        ],
+        "answer": "哭脸",
+        "explanation": "双数位是哭脸。20是双数，所以是哭脸。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "有一列数按“1, 2, 3, 1, 2, 3……”排列，第13个数是：",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "1",
+        "explanation": "3个一组（1,2,3）。$13 \\div 3 = 4$（组）……$1$。第1个是1。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "小华每天存 $2$ 元钱，存了 $5$ 天。第一天存完是 $2$ 元，第五天存完一共是 ___ 元。",
+        "options": [],
+        "answer": "10",
+        "explanation": "这是一个以2为公差的数列：2, 4, 6, 8, 10。第5个数是10。计算：$2 \\times 5 = 10$。验算：$10 \\div 5 = 2$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "规律的分析与补全",
+        "question": "一串珠子按“1红2绿3蓝”重复排列，这一组一共有 ___ 颗珠子。",
+        "options": [],
+        "answer": "6",
+        "explanation": "一组内包含的珠子数为：$1(牌) + 2(绿) + 3(蓝) = 6$（颗）。验算：$1+2+3=6$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "数列 40, 37, 34, ___ , 28。横线上应填数字几？",
+        "options": [],
+        "answer": "31",
+        "explanation": "规律是依次减3。$34 - 3 = 31$。验算：$31 - 3 = 28$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "计算：$20 + 7 + 7 + 7 = ?$",
+        "options": [],
+        "answer": "41",
+        "explanation": "$20+7=27, 27+7=34, 34+7=41$。验算：$41-7-7-7=20$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "等差递增与递减的数字规律",
+        "question": "计算：$100 - 9 - 9 - 9 = ?$",
+        "options": [],
+        "answer": "73",
+        "explanation": "$100-9=91, 91-9=82, 82-9=73$。验算：$73+27=100$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "简单图形和动作的循环规律",
+      "core_concept": "这是最基础的规律类型。通过观察一组图形、颜色或动作，发现它们是按照一定的顺序重复出现的。我们要先找到“重复的一组”是什么，再看后面是如何排的。",
+      "key_formula": "规律周期：第 n 个物体的颜色/形状 = n \\div 一组的个数的余数",
+      "common_mistakes": [
+        "找不准“重复的一组”，比如把“红黄黄”看成“红黄”",
+        "在计算第几个是什么时，数错了组数或余数"
+      ],
+      "tips": "动手画圈，把重复的那一组圈起来，这样就不容易看乱了。"
+    },
+    {
+      "point": "等差递增与递减的数字规律",
+      "core_concept": "数字规律是指一列数之间存在的大小变化关系。常见的有等差规律，即后面一个数总是比前面一个数多（或少）一个固定的数。",
+      "key_formula": "后一项 = 前一项 \\pm 固定的差值",
+      "common_mistakes": [
+        "加减法计算出错，导致找错规律",
+        "分不清是递增（越来越大）还是递减（越来越小）"
+      ],
+      "tips": "用小弧线连接相邻的两个数，在弧线上写下它们相差多少，规律就一目了然了。"
+    },
+    {
+      "point": "规律的分析与补全",
+      "core_concept": "在实际应用中，规律往往会缺了一两块（比如手链断了、墙砖掉了）。我们需要根据已知部分推导出完整的排列模式，然后确定缺失部分的具体内容。",
+      "key_formula": "整体规律 = 已知部分的重复单元",
+      "common_mistakes": [
+        "只看缺失处的前一个，不看板块整体的关联",
+        "补齐时忽略了最后一项是否能和后面已知项衔接上"
+      ],
+      "tips": "先确定“一组”是什么，再从头数起，看看缺的部分是这一组里的第几个。"
+    }
+  ]
+}

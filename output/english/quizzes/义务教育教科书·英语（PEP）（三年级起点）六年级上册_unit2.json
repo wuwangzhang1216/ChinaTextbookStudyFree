@@ -1,0 +1,720 @@
+{
+  "textbook": "PEP Primary English Grade 6 Volume 1",
+  "unit": "Ways to go to school",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2 Ways to go to school Standard Test",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "交通工具词汇",
+        "question": "'by subway' 的中文意思是'乘地铁'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "by subway表示乘地铁，by为介词后接交通工具。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "交通工具词汇",
+        "question": "'on foot' 的意思是'骑自行车'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "on foot的意思是'步行'。骑自行车是by bike。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "交通信号含义",
+        "question": "红色信号灯代表停止，英文是 'Stop and wait'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Red light means stop and wait."
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "语法规则",
+        "question": "在英国，人们过马路时靠右侧走。",
+        "options": [],
+        "answer": "错",
+        "explanation": "In the UK, people drive/walk on the left side (左侧)。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "地点词汇",
+        "question": "'hospital' 的中文含义是'图书馆'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "hospital是医院，library是图书馆。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "介词搭配",
+        "question": "How do you come to school? I come ___ bus.",
+        "options": [
+          "on",
+          "by",
+          "at",
+          "in"
+        ],
+        "answer": "by",
+        "explanation": "by + 交通工具表示交通方式。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通安全",
+        "question": "The yellow light means '___'.",
+        "options": [
+          "Go",
+          "Fast",
+          "Stop",
+          "Wait"
+        ],
+        "answer": "Wait",
+        "explanation": "黄灯表示等待（Wait）。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义辨析",
+        "question": "My home is near. I go to school ___.",
+        "options": [
+          "on foot",
+          "by plane",
+          "by ship",
+          "by train"
+        ],
+        "answer": "on foot",
+        "explanation": "距离近通常选择步行（on foot）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "疑问句",
+        "question": "___ do you go to the park? By bike.",
+        "options": [
+          "Where",
+          "What",
+          "How",
+          "Who"
+        ],
+        "answer": "How",
+        "explanation": "对交通方式提问用How。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词",
+        "question": "I ___ go by bus because it's cheap.",
+        "options": [
+          "too",
+          "very",
+          "often",
+          "not"
+        ],
+        "answer": "often",
+        "explanation": "often是频度副词，表示经常。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动词短语",
+        "question": "Please ___ at a red light.",
+        "options": [
+          "go",
+          "stop",
+          "slow down",
+          "run"
+        ],
+        "answer": "stop",
+        "explanation": "红灯停（stop）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "固定搭配",
+        "question": "Slow down and stop ___ a yellow light.",
+        "options": [
+          "at",
+          "on",
+          "in",
+          "by"
+        ],
+        "answer": "at",
+        "explanation": "在红绿灯处使用介词at。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "代词",
+        "question": "Tell ___ about your school.",
+        "options": [
+          "I",
+          "my",
+          "me",
+          "mine"
+        ],
+        "answer": "me",
+        "explanation": "tell后接人称代词宾格形式。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "交通安全",
+        "question": "Don't ___ on the road. It's dangerous.",
+        "options": [
+          "walk",
+          "run",
+          "go",
+          "look"
+        ],
+        "answer": "run",
+        "explanation": "不能在马路上奔跑。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "主谓一致",
+        "question": "How ___ your father go to work?",
+        "options": [
+          "do",
+          "does",
+          "is",
+          "are"
+        ],
+        "answer": "does",
+        "explanation": "your father是单三，助动词用does。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇拼写",
+        "question": "I go to the USA by ___.",
+        "options": [],
+        "answer": "plane",
+        "explanation": "去美国距离远，常选飞机plane。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "疑问词",
+        "question": "___ do you go to Canada? By plane.",
+        "options": [],
+        "answer": "how",
+        "explanation": "询问方式用how。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句型转换",
+        "question": "Don't go at a red light. We must ___.",
+        "options": [],
+        "answer": "stop",
+        "explanation": "红灯必须停下。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地点词汇",
+        "question": "I want to buy some books in the ___.",
+        "options": [],
+        "answer": "bookstore",
+        "explanation": "买书的地方是书店bookstore。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "英汉配对",
+        "question": "请将下列交通工具与其中文意思配对。",
+        "options": [
+          "taxi",
+          "sled",
+          "ferry",
+          "subway",
+          "雪橇",
+          "地铁",
+          "轮渡",
+          "出租车"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "taxi-出租车, sled-雪橇, ferry-轮渡, subway-地铁。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "祈使句配对",
+        "question": "请将指令与中文意思配对。",
+        "options": [
+          "Stop",
+          "Wait",
+          "Go",
+          "Slow down",
+          "等待",
+          "减速",
+          "停下",
+          "走"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "Stop-停下, Wait-等待, Go-走, Slow down-减速。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "特殊疑问句",
+        "question": "连词成句：you, go, How, do, school, to",
+        "options": [
+          "you",
+          "go",
+          "How",
+          "do",
+          "school",
+          "to"
+        ],
+        "answer": "How,do,you,go,to,school",
+        "explanation": "特殊疑问句语序：疑问词+助动词+主语+动词+其他。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "肯定的肯定句规则",
+        "question": "连词成句：must, We, attention, pay, to, lights",
+        "options": [
+          "must",
+          "We",
+          "attention",
+          "pay",
+          "to",
+          "lights"
+        ],
+        "answer": "We,must,pay,attention,to,lights",
+        "explanation": "We must pay attention to... 我们必须注意..."
+      }
+    ]
+  },
+  "exam": {
+    "title": "Grade 6 Mid-term English Exam (Unit 1-2 Focus)",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词义",
+        "question": "'fast' 的反义词是 'slow'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "fast快, slow慢。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "交通常识",
+        "question": "We can go to the moon by subway.",
+        "options": [],
+        "answer": "错",
+        "explanation": "去月球不能乘地铁。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "交通规则",
+        "question": "In China, people drive on the right side.",
+        "options": [],
+        "answer": "对",
+        "explanation": "中国交通规则是靠右行驶。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "词汇",
+        "question": "'Straight' 的意思是 '向左转'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "straight是直着走，turn left才是左转。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "综合常识",
+        "question": "Alaska is very cold, so children go to school by sled.",
+        "options": [],
+        "answer": "对",
+        "explanation": "阿拉斯加寒冷多雪，课文提到那里乘雪橇上学。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句型结构",
+        "question": "How ___ you come to school?",
+        "options": [
+          "are",
+          "do",
+          "does",
+          "am"
+        ],
+        "answer": "do",
+        "explanation": "主语you用助动词do。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "短语",
+        "question": "Usually I come ___ foot.",
+        "options": [
+          "by",
+          "on",
+          "with",
+          "at"
+        ],
+        "answer": "on",
+        "explanation": "固定搭配on foot。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词",
+        "question": "I ___ go by bike, but sometimes I walk.",
+        "options": [
+          "usually",
+          "but",
+          "and",
+          "it"
+        ],
+        "answer": "usually",
+        "explanation": "根据句意表通常的频率。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词义辨析",
+        "question": "The park is over there. Let's ___ the street.",
+        "options": [
+          "take",
+          "cross",
+          "look",
+          "by"
+        ],
+        "answer": "cross",
+        "explanation": "cross the street横穿马路。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通信号",
+        "question": "Slow down and ___ at a yellow light.",
+        "options": [
+          "go",
+          "run",
+          "stop",
+          "play"
+        ],
+        "answer": "stop",
+        "explanation": "黄灯要减速并停下。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "建议句型",
+        "question": "___ see a doctor if you feel ill.",
+        "options": [
+          "Do",
+          "Go",
+          "Let",
+          "Should"
+        ],
+        "answer": "Go",
+        "explanation": "Go see a doctor是祈使句建议。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语境理解",
+        "question": "The hospital is far from here. You can take the ___.",
+        "options": [
+          "walk",
+          "foot",
+          "subway",
+          "left"
+        ],
+        "answer": "subway",
+        "explanation": "距离远选交通工具subway。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "频度表达",
+        "question": "___ she often go to the library by bus?",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Can"
+        ],
+        "answer": "Does",
+        "explanation": "单三疑问句用Does引导。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时态综合",
+        "question": "Robin ___ many ways to go to school.",
+        "options": [
+          "know",
+          "knowing",
+          "knows",
+          "to know"
+        ],
+        "answer": "knows",
+        "explanation": "主语Robin人称单三，动词用knows。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "冠词/介词",
+        "question": "Stop at ___ red light.",
+        "options": [
+          "a",
+          "an",
+          "/",
+          "some"
+        ],
+        "answer": "a",
+        "explanation": "固定表达at a red light。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通工具",
+        "question": "I go to work by ___ because I like riding.",
+        "options": [],
+        "answer": "bike",
+        "explanation": "喜欢骑行，故选bike。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词",
+        "question": "I ___ go by bus, but sometimes I go on foot.",
+        "options": [],
+        "answer": "often",
+        "explanation": "often对应sometimes，表示频率对比。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "助动词",
+        "question": "How ___ he go to the cinema?",
+        "options": [],
+        "answer": "does",
+        "explanation": "主语he要求单三助动词does。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "交通标识",
+        "question": "Green light means ___.",
+        "options": [],
+        "answer": "go",
+        "explanation": "绿灯行。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词短语配对",
+        "question": "请将英语短语与对应中文翻译连接。",
+        "options": [
+          "get on",
+          "get off",
+          "slow down",
+          "go straight",
+          "减速",
+          "直行",
+          "上车",
+          "下车"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "get on-上车, get off-下车, slow down-减速, go straight-直行。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通工具匹配",
+        "question": "请将单词与分类匹配。",
+        "options": [
+          "bus",
+          "ship",
+          "plane",
+          "subway",
+          "飞机",
+          "地铁",
+          "公共汽车",
+          "轮船"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "bus-公交, ship-船, plane-飞机, subway-地铁。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "陈述句",
+        "question": "连词成句：always, by, My, goes, bus, father",
+        "options": [
+          "always",
+          "by",
+          "My",
+          "goes",
+          "bus",
+          "father"
+        ],
+        "answer": "My,father,always,goes,by,bus",
+        "explanation": "句意：我父亲总是乘坐公交车。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "祈使句",
+        "question": "连词成句：Run, on, road, the, Don't",
+        "options": [
+          "Run",
+          "on",
+          "road",
+          "the",
+          "Don't"
+        ],
+        "answer": "Don't,Run,on,the,road",
+        "explanation": "否定祈使句Don't + 动词原形。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "常见交通工具表达",
+      "core_concept": "熟练掌握 by+交通工具 的结构（注意交通工具前不加词）",
+      "key_formula": "by bus / by plane / by subway / by ship / by bike / on foot (注意foot用on)",
+      "common_mistakes": [
+        "错误使用 by the bus",
+        "将 on foot 误写为 by foot"
+      ],
+      "tips": "记忆口诀：方式介词by领头，工具单数跟在后；若是步行走着去，脚下一定要用on。"
+    },
+    {
+      "point": "频度副词的用法",
+      "core_concept": "描述动作发生的频率",
+      "key_formula": "Always (100%) > Usually (80%) > Often (60%) > Sometimes (20%)",
+      "common_mistakes": [
+        "频度副词在句子中的位置放置错误",
+        "拼写错误尤其是usually"
+      ],
+      "tips": "频度副词通常放在实义动词之前，be动词之后。"
+    },
+    {
+      "point": "交通信号与规则",
+      "core_concept": "红绿灯含义及应遵守的安全规则",
+      "key_formula": "Red: Stop and wait; Yellow: Slow down and stop; Green: Go",
+      "common_mistakes": [
+        "混合了yellow和red的动作指令",
+        "忽视祈使句否定形式以Don't开头"
+      ],
+      "tips": "记住 'Red, stop; Yellow, wait; Green, go' 的三字经。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学四年级上册",
+  "unit": "条形统计图",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "第7单元「条形统计图」同步活页卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "条形统计图的绘制",
+        "question": "条形统计图是用直条的长短来表示数量的多。直条越长，表示的数目越大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "条形统计图的特点就是用直条的高度（或长度）反映数值大小，直条越长数值越大。验算：概念符合统计图定义。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "1格代表多个单位",
+        "question": "在条形统计图中，如果每格代表 2 人，那么画 3 格就代表 6 人。",
+        "options": [],
+        "answer": "对",
+        "explanation": "计算：$2 \\times 3 = 6$。验算：$6 \\div 2 = 3$（格），结果正确。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "条形统计图的绘制",
+        "question": "绘制条形统计图时，每个直条的宽度可以不一样，只要高度准确就行。",
+        "options": [],
+        "answer": "错",
+        "explanation": "条形统计图中直条的宽度必须一致，以保证视觉表达的公平性和美观。验算：统计图规范要求等宽。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "1格代表多个单位",
+        "question": "当统计的数据非常大时，我们可以用 1 个格代表 100 个单位甚至更多。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1格代表多少单位取决于数据的最大值和纸张大小。在大数据情况下，缩放比例是必要的。验算：符合统计图缩放原则。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "统计图的数据分析",
+        "question": "统计图中直条最高的项目，一定就是该组数据中数量最多的项目。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在同一张统计图中，单位长度一致，直条越高则代表数量越多。验算：逻辑关系成立。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "条形统计图的绘制",
+        "question": "条形统计图中，表示数量多少的是什么？",
+        "options": [
+          "直条的宽度",
+          "直条的高度",
+          "直条的颜色",
+          "直条的间距"
+        ],
+        "answer": "直条的高度",
+        "explanation": "条形统计图通过直条的高度（纵轴数值）来表示具体的数量多少。验算：定义检查确认。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1格代表多个单位",
+        "question": "如果在统计图中 1 格表示 5 千克，要表示 20 千克需要画几格？",
+        "options": [
+          "2 格",
+          "3 格",
+          "4 格",
+          "5 格"
+        ],
+        "answer": "4 格",
+        "explanation": "计算：$20 \\div 5 = 4$（格）。验算：$4 \\times 5 = 20$ ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图的数据分析",
+        "question": "某班参加兴趣小组，足球组有 12 人，篮球组有 8 人，羽毛球组有 15 人。在统计图中哪个组的直条最短？",
+        "options": [
+          "足球组",
+          "篮球组",
+          "羽毛球组",
+          "无法确定"
+        ],
+        "answer": "篮球组",
+        "explanation": "比较大小：$8 < 12 < 15$。数值最小的项目直条最短。验算：8 为最小值。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1格代表多个单位",
+        "question": "已知 1 格代表 10 辆汽车，那么半格代表多少辆汽车？",
+        "options": [
+          "1 辆",
+          "5 辆",
+          "10 辆",
+          "20 辆"
+        ],
+        "answer": "5 辆",
+        "explanation": "计算：$10 \\div 2 = 5$。半格即为一格的一半。验算：$5 \\times 2 = 10$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1格代表多个单位",
+        "question": "如果最大的数据是 900，要让统计图高度美观（约10格高），每格代表多少最合适？",
+        "options": [
+          "1",
+          "10",
+          "100",
+          "1000"
+        ],
+        "answer": "100",
+        "explanation": "计算：$900 \\div 10 = 90$。为了方便计算和画图，通常取整百数 100。验算：$900 \\div 100 = 9$ 格，非常接近 10 格。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图的数据分析",
+        "question": "通过条形统计图可以清楚地看出各项数量的多少，这体现了统计图的什么特点？",
+        "options": [
+          "美观性",
+          "复杂性",
+          "直观性",
+          "准确性"
+        ],
+        "answer": "直观性",
+        "explanation": "条形统计图通过图形高低对比，让观察者一眼看出差异，这是直观性的体现。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计图的数据分析",
+        "question": "统计一家商店四个月的苹果销量：1月 40箱，2月 50箱，3月 30箱，4月 60箱。哪两个月的销量总和正好是 100 箱？",
+        "options": [
+          "1月和2月",
+          "1月和4月",
+          "2月和3月",
+          "3月和4月"
+        ],
+        "answer": "1月和4月",
+        "explanation": "计算：$40 + 60 = 100$。验算：$100 - 40 = 60$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "条形统计图的绘制",
+        "question": "在条形统计图的纵轴上，0 刻度通常位于哪里？",
+        "options": [
+          "最顶端",
+          "最底端",
+          "中间",
+          "任意位置"
+        ],
+        "answer": "最底端",
+        "explanation": "统计图的刻度从 0 开始自下而上增加。验算：绘图规范。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1格代表多个单位",
+        "question": "统计图中 1 格代表 25 升水，直条高 3 格，表示多少升水？",
+        "options": [
+          "25 升",
+          "50 升",
+          "75 升",
+          "100 升"
+        ],
+        "answer": "75 升",
+        "explanation": "计算：$25 \\times 3 = 75$。验算：$75 \\div 3 = 25$ ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计图的数据分析",
+        "question": "如果要把全校学生最喜欢的运动（人数很多且差异大）画成统计图，横轴表示运动项目，纵轴应表示什么？",
+        "options": [
+          "运动时间",
+          "运动人数",
+          "运动成绩",
+          "学生身高"
+        ],
+        "answer": "运动人数",
+        "explanation": "题目问的是“最喜欢的运动”，统计的维度应该是喜欢各项运动的人数。验算：调查主题一致性。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "条形统计图的绘制",
+        "question": "统计图中展示数据分类的是哪一部分？",
+        "options": [
+          "横轴",
+          "纵轴",
+          "直条颜色",
+          "单位名称"
+        ],
+        "answer": "横轴",
+        "explanation": "在常见的纵向条形统计图中，横轴通常用于标注类别名称。验算：结构组成。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计图的数据分析",
+        "question": "小明统计了五天练习口算的题目数量。第一天到第四天分别是 20、22、18、20 道。如果第五天达到了 30 道，他在统计图上的直条会如何变化？",
+        "options": [
+          "变短了",
+          "变长了",
+          "不变",
+          "消失了"
+        ],
+        "answer": "变长了",
+        "explanation": "30 大于之前的任何一个数值，所以代表第五天的直条会最高/最长。验算：$30 > 22$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "1格代表多个单位",
+        "question": "在一张统计图上，4 格表示 80 厘米，如果现在要表示 1 米，需要画几格？",
+        "options": [
+          "4 格",
+          "5 格",
+          "6 格",
+          "10 格"
+        ],
+        "answer": "5 格",
+        "explanation": "先求 1 格表示多少：$80 \\div 4 = 20$ (cm)。$1$ 米 $= 100$ 厘米。计算格数：$100 \\div 20 = 5$ (格)。验算：$5 \\times 20 = 100$ cm ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1格代表多个单位",
+        "question": "统计图中 1 格代表 50 公里，直条长 4 格，表示 ___ 公里。",
+        "options": [],
+        "answer": "200",
+        "explanation": "$50 \\times 4 = 200$。验算：$200 \\div 4 = 50$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计图的数据分析",
+        "question": "小红统计了四种水果的数量：苹果 15 个，梨 10 个，香蕉 20 个，橘子 5 个。这四种水果一共有 ___ 个。",
+        "options": [],
+        "answer": "50",
+        "explanation": "$15 + 10 + 20 + 5 = 50$。验算：$15+10=25$，$25+20=45$，$45+5=50$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "1格代表多个单位",
+        "question": "统计表中最大数据是 350，如果纵轴每格代表 50，一共需要画 ___ 格高度。",
+        "options": [],
+        "answer": "7",
+        "explanation": "$350 \\div 50 = 7$。验算：$7 \\times 50 = 350$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图的数据分析",
+        "question": "$125 \\times 8 = ?$",
+        "options": [],
+        "answer": "1000",
+        "explanation": "$125 \\times 8 = 1000$。验算：$1000 \\div 8 = 125$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图的数据分析",
+        "question": "$480 \\div 6 = ?$",
+        "options": [],
+        "answer": "80",
+        "explanation": "$480 \\div 6 = 80$。验算：$80 \\times 6 = 480$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级上册第7单元「条形统计图」综合测评卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "条形统计图的绘制",
+        "question": "条形统计图可以清楚地看出各部分数量的多与少。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是条形统计图最基本的特征。验算：根据教材定义。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "1格代表多个单位",
+        "question": "在同一张统计图中，每一格代表的数值必须是相等的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "为了保证数据的比例正确，同一个坐标轴的刻度单元必须统一。验算：绘图原则。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "统计图的数据分析",
+        "question": "通过条形统计图的增减趋势，我们可以对未来的数据进行一定的预测。",
+        "options": [],
+        "answer": "对",
+        "explanation": "统计的功能之一就是通过已知数据推断可能的发展趋势。验算：统计学意义。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "1格代表多个单位",
+        "question": "如果用1格代表10万，那么半格代表的就是5万。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$10 \\div 2 = 5$。验算：数值与图形比例一致。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "条形统计图的绘制",
+        "question": "纵向条形统计图的横轴通常用来表示数量的具体多少。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在纵向条形统计图中，纵轴表示数量，横轴表示项目类别。验算：坐标轴定义。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1格代表多个单位",
+        "question": "有一组数据：2, 5, 8, 3。用 1 格代表几最容易画出准确的统计图？",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "100"
+        ],
+        "answer": "1",
+        "explanation": "数据很小且不规律，用1格代表1最能准确还原每一个数字。验算：$2, 5, 8, 3$ 都是 1 的倍数。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图的数据分析",
+        "question": "某校四年级喜欢看漫画书的有 45 人，故事书的有 30 人，科技书的有 25 人。在统计图中表示哪种书的直条最长？",
+        "options": [
+          "漫画书",
+          "故事书",
+          "科技书",
+          "无法确定"
+        ],
+        "answer": "漫画书",
+        "explanation": "比较大小：$45 > 30 > 25$。45 对应的项目直条最长。验算：45 为最大值。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1格代表多个单位",
+        "question": "统计图中 1 格代表 4 个人，如果一个直条高 5 格半，它代表多少人？",
+        "options": [
+          "20 人",
+          "22 人",
+          "24 人",
+          "26 人"
+        ],
+        "answer": "22 人",
+        "explanation": "5 格代表 $4 \\times 5 = 20$ 人，半格代表 $4 \\div 2 = 2$ 人。总计：$20 + 2 = 22$ 人。验算：$22 \\div 4 = 5.5$（格） ✓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "条形统计图的绘制",
+        "question": "画条形统计图时，首先要画出两条互相垂直的什么？",
+        "options": [
+          "线段",
+          "射线",
+          "直线",
+          "控制线"
+        ],
+        "answer": "射线",
+        "explanation": "统计图的坐标轴是从原点出发的两条射线。验算：几何定义。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计图的数据分析",
+        "question": "去年 12 月份，某地有 15 天晴天，10 天阴天，其余是雨天。下列哪个数据最接近雨天的天数？",
+        "options": [
+          "6 天",
+          "10 天",
+          "15 天",
+          "31 天"
+        ],
+        "answer": "6 天",
+        "explanation": "12 月有 31 天。雨天 $= 31 - 15 - 10 = 6$（天）。验算：$15 + 10 + 6 = 31$ ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1格代表多个单位",
+        "question": "某工厂要统计月产量（约 5000 到 8000 件），纵轴每格代表多少件比较合理？",
+        "options": [
+          "1 件",
+          "10 件",
+          "1000 件",
+          "10000 件"
+        ],
+        "answer": "1000 件",
+        "explanation": "数据在几千级别，格数需控制在 10 格左右。用 1000 件代表一格，需要画 5-8 格。验算：$8000 \\div 1000 = 8$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计图的数据分析",
+        "question": "如果条形统计图的纵轴 1 格代表 5 摄氏度，气温从 15 度上升到 25 度，直条会升高几格？",
+        "options": [
+          "1 格",
+          "2 格",
+          "3 格",
+          "5 格"
+        ],
+        "answer": "2 格",
+        "explanation": "上升温差：$25 - 15 = 10$（度）。增加格数：$10 \\div 5 = 2$（格）。验算：原来 3 格，现在 5 格，$5 - 3 = 2$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计图的数据分析",
+        "question": "某组学生身高最高 155 厘米，最矮 138 厘米。如果统计图纵轴从 130 厘米开始标刻度，这种做法叫什么？",
+        "options": [
+          "画错刻度",
+          "起始值偏移",
+          "断裂统计",
+          "虚线处理"
+        ],
+        "answer": "起始值偏移",
+        "explanation": "当数据都集中在一个较大范围时，可以不从 0 开始以节省空间并突出差异。验算：实际应用技巧。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计图的数据分析",
+        "question": "统计一周的降雨量。周一到周六分别是：5mm, 0mm, 10mm, 0mm, 5mm, 20mm。周日没下雨。该周一共有几天降雨？",
+        "options": [
+          "3 天",
+          "4 天",
+          "5 天",
+          "7 天"
+        ],
+        "answer": "4 天",
+        "explanation": "降雨量不为 0 的天数分别为：周一、周三、周五、周六，共 4 天。验算：排除周二、周四、周日。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "条形统计图的绘制",
+        "question": "在绘制统计图前，通常需要先进行什么？",
+        "options": [
+          "数据收集和整理",
+          "画出直条",
+          "写总结",
+          "预测未来"
+        ],
+        "answer": "数据收集和整理",
+        "explanation": "先有数据再去画图，这是统计的基本流程。验算：步骤顺序。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1格代表多个单位",
+        "question": "1 格代表 20 人。如果某直条表示 50 人，应该画几格？",
+        "options": [
+          "2 格",
+          "2 格半",
+          "3 格",
+          "3 格半"
+        ],
+        "answer": "2 格半",
+        "explanation": "$50 \\div 20 = 2.5$（格）。0.5 格即为半格。验算：$20 \\times 2.5 = 50$ ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计图的数据分析",
+        "question": "已知四年级一班有 40 人，二班 42 人，三班 38 人。三个班的总人数和下列哪个算式结果一致？",
+        "options": [
+          "$40 \\times 3$",
+          "$38 \\times 3$",
+          "$42 \\times 3$",
+          "100"
+        ],
+        "answer": "$40 \\times 3$",
+        "explanation": "总人数 $= 40 + 42 + 38 = 120$。$40 \\times 3 = 120$。平均数估算。验算：$120 \\div 3 = 40$ ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计图的数据分析",
+        "question": "在统计图上，A 项目是 100，B 项目是 50。A 的直条高度是 B 的几倍？",
+        "options": [
+          "1 倍",
+          "2 倍",
+          "3 倍",
+          "4 倍"
+        ],
+        "answer": "2 倍",
+        "explanation": "计算：$100 \\div 50 = 2$。验算：$50 \\times 2 = 100$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计图的数据分析",
+        "question": "妈妈买了 3 千克苹果，5 千克橘子，苹果每千克 8 元，橘子每千克 4 元，妈妈一共花了 ___ 元。",
+        "options": [],
+        "answer": "44",
+        "explanation": "苹果：$3 \\times 8 = 24$ 元。橘子：$5 \\times 4 = 20$ 元。总：$24 + 20 = 44$ 元。验算：$44 - 20 = 24$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1格代表多个单位",
+        "question": "统计图中 1 格代表 12 人，如果直条高 4 格，代表 ___ 人。",
+        "options": [],
+        "answer": "48",
+        "explanation": "$12 \\times 4 = 48$。验算：$48 \\div 4 = 12$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "1格代表多个单位",
+        "question": "有一组数据：300, 600, 450。用 1 格代表 150，那么最大的数据需要画 ___ 格。",
+        "options": [],
+        "answer": "4",
+        "explanation": "最大数据为 600。计算：$600 \\div 150 = 4$。验算：$4 \\times 150 = 600$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "条形统计图的绘制",
+        "question": "$250 \\times 4 = ?$",
+        "options": [],
+        "answer": "1000",
+        "explanation": "$250 \\times 4 = 1000$。验算：$1000 \\div 4 = 250$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统计图的数据分析",
+        "question": "$960 \\div 12 = ?$",
+        "options": [],
+        "answer": "80",
+        "explanation": "$960 \\div 12 = 80$。验算：$80 \\times 12 = 960$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "条形统计图的绘制",
+      "core_concept": "条形统计图利用直条的高度来形象地展示数据。绘制时要先画出两条互相垂直的射线作为纵轴和横轴，在横轴上均匀分布各个项目，在纵轴上由下而上标注刻度，最后根据数值高低画出等宽的直条并填色。",
+      "key_formula": "直条高度取决于对应数值的大小",
+      "common_mistakes": [
+        "直条的宽度不一致或项目之间的间隔不相等。",
+        "忘记在纵轴的顶端注明单位名称。"
+      ],
+      "tips": "绘图前一定要先写上统计图的名字，画完直条后记得在直条上方写出精准的数值。"
+    },
+    {
+      "point": "1格代表多个单位",
+      "core_concept": "当统计的数据数值较大或跨度较大时，1个小格代表1个单位会导致统计图过长。此时需要根据最大数据选择合适的比例，例如1格代表2、5、10或100等。这是比例缩放思想在生活中的典型应用。",
+      "key_formula": "需画格数 = 实际数值 \\div 每格代表的数值",
+      "common_mistakes": [
+        "计算半格代表的数值时出错（例如1格代表10，学生以为半格是1）。",
+        "选定的比例不合适，导致直条太矮无法区分或太高超出了纸张。"
+      ],
+      "tips": "观察数据的规律，如果都是10的倍数，1格代表10最方便；如果都是5的倍数，1格代表5最合适。"
+    },
+    {
+      "point": "统计图的数据分析",
+      "core_concept": "统计的最终目的是为了解决问题。通过观察直条的高低对比，我们可以快速找出最大值、最小值、总数以及各项目之间的倍数关系，进而对现实情况做出合理的判断和建议（如销量预测、座位安排等）。",
+      "key_formula": "总数 = 各项目数值之和；差额 = 最大值 - 最小值",
+      "common_mistakes": [
+        "读图不仔细，误把纵轴的一个刻度单位看错。",
+        "进行预测或建议时脱离了数据事实，仅凭个人喜好回答。"
+      ],
+      "tips": "看图时先看纵轴单位，再看横轴项目，最后把直条对应的数字标注在旁边再开始计算。"
+    }
+  ]
+}

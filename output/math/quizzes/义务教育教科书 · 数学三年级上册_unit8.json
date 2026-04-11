@@ -1,0 +1,697 @@
+{
+  "textbook": "人教版小学数学三年级上册",
+  "unit": "分数的初步认识",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "第8单元：分数的初步认识 单元小测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "把一个苹果切成2块，每一块都是这个苹果的二分之一。",
+        "options": [],
+        "answer": "错",
+        "explanation": "分数的前提必须是“平均分”。如果没有平均分，就不能用分数表示。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "读作五分之三。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分数的读法是从分母读起，中间加“分之”，再读分子。$3/5$读作五分之三。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数的大小比较",
+        "question": "分子相同（不为0）的两个分数，分母大的分数反而小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分子相同表示取的份数相同，分母大代表分成的总份数多，每一份就越小。例如 $1/2 > 1/3$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "计算同分母分数加减法时，只需要把分子相加减，分母保持不变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "同分母分数的分数单位相同，计算时分母不变，分子直接相加减。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "把6个苹果平均分成3份，每份是总数的三分之一。",
+        "options": [],
+        "answer": "对",
+        "explanation": "平均分成3份，其中的一份即为 $1/3$。这里是把6个苹果看作一个整体。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "在分数 $5/8$ 中，数字 8 是这个分数的：",
+        "options": [
+          "分子",
+          "分母",
+          "分数线",
+          "整数部分"
+        ],
+        "answer": "分母",
+        "explanation": "分数线下方的数字称为分母，线上方的数字称为分子。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的大小比较",
+        "question": "比较大小：$1/4$ ___ $1/7$。",
+        "options": [
+          ">",
+          "<",
+          "=",
+          "无法判断"
+        ],
+        "answer": ">",
+        "explanation": "分子都是1，分母越小分数越大。$4 < 7$，所以 $1/4 > 1/7$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的大小比较",
+        "question": "比较大小：$3/10$ ___ $7/10$。",
+        "options": [
+          ">",
+          "<",
+          "=",
+          "无法判断"
+        ],
+        "answer": "<",
+        "explanation": "分母相同，分子越大分数越大。$3 < 7$，所以 $3/10 < 7/10$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "$1 - 2/9$ 的结果是：",
+        "options": [
+          "1/9",
+          "7/9",
+          "2/9",
+          "8/9"
+        ],
+        "answer": "7/9",
+        "explanation": "$1$ 可以看作 $9/9$，计算 $9/9 - 2/9 = 7/9$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "一堆小棒有12根，拿走这堆小棒的 $1/3$，拿走了多少根？",
+        "options": [
+          "3根",
+          "4根",
+          "9根",
+          "1根"
+        ],
+        "answer": "4根",
+        "explanation": "$12 \\div 3 = 4$（根）。取一份即为4根。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "一盒糖果有15块，小明吃了 $2/5$，小明吃了多少块？",
+        "options": [
+          "2块",
+          "3块",
+          "5块",
+          "6块"
+        ],
+        "answer": "6块",
+        "explanation": "$15 \\div 5 = 3$（块），$3 \\times 2 = 6$（块）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的大小比较",
+        "question": "下面分数中，最小的是哪一个？",
+        "options": [
+          "1/2",
+          "1/5",
+          "1/8",
+          "1/3"
+        ],
+        "answer": "1/8",
+        "explanation": "分子都是1，分母越大分数越小。8是最大的分母，所以 $1/8$ 最小。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "把一个正方形平均分成4份，涂色部分占3份，涂色部分用分数表示是：",
+        "options": [
+          "1/4",
+          "3/4",
+          "4/3",
+          "1/3"
+        ],
+        "answer": "3/4",
+        "explanation": "分母是总份数4，分子是取的份数3，所以是 $3/4$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "计算 $2/5 + 1/5$ 等于：",
+        "options": [
+          "3/5",
+          "3/10",
+          "1/5",
+          "1"
+        ],
+        "answer": "3/5",
+        "explanation": "分母不变，分子 $2+1=3$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数的大小比较",
+        "question": "小明和小红喝同样多的一瓶水，小明喝了这瓶水的 $1/2$，小红喝了这瓶水的 $1/3$。谁剩下的水多？",
+        "options": [
+          "小明剩下的多",
+          "小红剩下的多",
+          "两人一样多",
+          "无法比较"
+        ],
+        "answer": "小红剩下的多",
+        "explanation": "$1/2 > 1/3$，小明喝的多，所以小明剩下的少；小红喝的少，所以小红剩下的多。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "十分之七写作：",
+        "options": [
+          "10/7",
+          "7/10",
+          "1/7",
+          "1/10"
+        ],
+        "answer": "7/10",
+        "explanation": "“十分之”表示分母是10，“七”表示分子是7。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "班里有24人，其中女子占总人数的 $1/4$，男生有多少人？",
+        "options": [
+          "6人",
+          "18人",
+          "4人",
+          "20人"
+        ],
+        "answer": "18人",
+        "explanation": "女生：$24 \\div 4 = 6$（人）。男生：$24 - 6 = 18$（人）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "一个蛋糕，亮亮吃了 $2/8$，芳芳吃了 $3/8$，还剩下多少？",
+        "options": [
+          "5/8",
+          "3/8",
+          "1/8",
+          "1"
+        ],
+        "answer": "3/8",
+        "explanation": "一共吃了：$2/8 + 3/8 = 5/8$。剩下：$1 - 5/8 = 3/8$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "一扎绳子长10米，用去了它的 $1/2$，用去了 ___ 米。",
+        "options": [],
+        "answer": "5",
+        "explanation": "列式：$10 \\div 2 = 5$（米）。验算：$5 \\times 2 = 10$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "有16个羽毛球，老师拿出其中的 $3/4$ 发给同学，老师拿出了 ___ 个。",
+        "options": [],
+        "answer": "12",
+        "explanation": "先算一份：$16 \\div 4 = 4$（个）。再算三份：$4 \\times 3 = 12$（个）。验算：$12 \\div 3 \\times 4 = 16$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "分数 $4/9$ 的分子是 ___ 。",
+        "options": [],
+        "answer": "4",
+        "explanation": "在分数中，分数线上方的数为分子，故分子为4。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "计算：$5/9 + 2/9$ 的分子应该是多少？",
+        "options": [],
+        "answer": "7",
+        "explanation": "$5/9 + 2/9 = (5+2)/9 = 7/9$。结果的分子是7。验算：$7-5=2$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "计算：$1 - 4/10$ 的分子应该是多少？",
+        "options": [],
+        "answer": "6",
+        "explanation": "$1 - 4/10 = 10/10 - 4/10 = 6/10$。结果的分子是6。验算：$6+4=10$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第8单元：分数的初步认识 综合能力测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "把一个圆分成4份，每一份是它的 $1/4$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "必须是“平均分”才能表示为分数。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数的大小比较",
+        "question": "$1/5$ 小于 $1/2$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分子相同，分母大的分数由于平均分的份数多，每一份反而小。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "$2/3 + 1/3 = 1$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$2/3 + 1/3 = 3/3 = 1$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "8角是1元的 $8/10$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1元等于10角，8角是其中的8份，即 $8/10$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "分数的大小比较",
+        "question": "两个分数比较，分子大的分数一定大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "只有在分母相同时，分子大的才大；如果分母不同，则无法直接确定。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的大小比较",
+        "question": "在 $1/2$、$1/3$、$1/4$ 中，最大的分数是：",
+        "options": [
+          "1/2",
+          "1/3",
+          "1/4",
+          "一样大"
+        ],
+        "answer": "1/2",
+        "explanation": "分母越小，分数越大。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "1里面有几个 $1/5$？",
+        "options": [
+          "1个",
+          "2个",
+          "5个",
+          "10个"
+        ],
+        "answer": "5个",
+        "explanation": "$1 = 5/5$，所以有5个 $1/5$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "$3/8 + 2/8 =$ ",
+        "options": [
+          "5/16",
+          "1/8",
+          "5/8",
+          "1"
+        ],
+        "answer": "5/8",
+        "explanation": "分母不变，分子加和。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "一个西瓜，爸爸吃了 $2/7$，妈妈吃了 $3/7$，还剩下几分之几没吃？",
+        "options": [
+          "5/7",
+          "2/7",
+          "1/7",
+          "1/2"
+        ],
+        "answer": "2/7",
+        "explanation": "吃了 $2/7+3/7=5/7$。剩下 $1-5/7=2/7$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "一筐苹果有20个，如果分出它的 $3/5$，分出了多少个？",
+        "options": [
+          "4个",
+          "12个",
+          "8个",
+          "15个"
+        ],
+        "answer": "12个",
+        "explanation": "$20 \\div 5 = 4$（个），$4 \\times 3 = 12$（个）。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "表示把一个整体平均分成10份，取了其中的3份的分数是：",
+        "options": [
+          "1/3",
+          "1/10",
+          "3/10",
+          "10/3"
+        ],
+        "answer": "3/10",
+        "explanation": "总份数10做分母，取的份数3做分子。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的大小比较",
+        "question": "两根同样长的绳子，第一根剪去 $1/4$，第二根剪去 $1/5$。哪一根剩下的长？",
+        "options": [
+          "第一根剩下的长",
+          "第二根剩下的长",
+          "一样长",
+          "无法确定"
+        ],
+        "answer": "第二根剩下的长",
+        "explanation": "剪去的越多，剩下的越少。因为 $1/4 > 1/5$，第一根剪去的多，所以第二根剩下的长。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "一本书有30页，小红第一天看了全书的 $1/6$，第二天看了全书的 $2/6$。第三天她应该从第几页开始看起？",
+        "options": [
+          "11页",
+          "15页",
+          "16页",
+          "10页"
+        ],
+        "answer": "16页",
+        "explanation": "第一天看 $30 \\div 6=5$ 页，第二天看 $30 \\div 6 \\times 2=10$ 页。一共看了 $5+10=15$ 页。第三天从 $15+1=16$ 开始看。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的大小比较",
+        "question": "比 $5/9$ 大且分母是 9 的分数是：",
+        "options": [
+          "4/9",
+          "7/9",
+          "1/9",
+          "2/9"
+        ],
+        "answer": "7/9",
+        "explanation": "同分母比较，分子 7 大于 5。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "下列算式中结果等于 1 的是：",
+        "options": [
+          "1/4 + 1/4",
+          "2/5 + 3/5",
+          "1/2 + 1/3",
+          "6/7 - 5/7"
+        ],
+        "answer": "2/5 + 3/5",
+        "explanation": "$2/5 + 3/5 = 5/5 = 1$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "一袋球有18个，红色球占 $1/3$，蓝色球占 $1/2$，剩下的都是黄球。黄球有多少个？",
+        "options": [
+          "3个",
+          "6个",
+          "9个",
+          "12个"
+        ],
+        "answer": "3个",
+        "explanation": "红：$18 \\div 3=6$；蓝：$18 \\div 2=9$。黄：$18-6-9=3$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "把1分米长的带子平均分成10份，每份是：",
+        "options": [
+          "1/10分米",
+          "1/10米",
+          "1/10厘米",
+          "无法表示"
+        ],
+        "answer": "1/10分米",
+        "explanation": "平均分为10份，单位是分米，故每份是 $1/10$ 分米。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "$8/9 - 5/9$ 的结果是：",
+        "options": [
+          "3/9",
+          "3/0",
+          "3/18",
+          "13/9"
+        ],
+        "answer": "3/9",
+        "explanation": "分子相减，$8-5=3$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的认识与读写（几分之一、几分之几）",
+        "question": "1分米是1米的 $1/10$，那么7分米是1米的几分之几？分子应该是 ___ 。",
+        "options": [],
+        "answer": "7",
+        "explanation": "1米=10分米，7分米占其中的7份，即 $7/10$。分子是7。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "花园里有24盆花，其中 $2/3$ 是红花。红花有 ___ 盆。",
+        "options": [],
+        "answer": "16",
+        "explanation": "$24 \\div 3 = 8$， $8 \\times 2 = 16$。验算：$16 \\div 2 \\times 3 = 24$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数的简单应用（整体的部分）",
+        "question": "一盒巧克力有12块，送给小红 $1/4$，送给小刚 $1/2$。一共送出去 ___ 块。",
+        "options": [],
+        "answer": "9",
+        "explanation": "送给小红：$12 \\div 4=3$；送给小刚：$12 \\div 2=6$。一共：$3+6=9$。验算：$9-6=3$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "计算：$1/7 + 4/7$ 的分子是多少？",
+        "options": [],
+        "answer": "5",
+        "explanation": "$1/7 + 4/7 = 5/7$。分子是5。验算：$5-4=1$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "同分母分数的加减运算",
+        "question": "计算：$1 - 3/8 - 2/8$ 的最终结果分子是多少？",
+        "options": [],
+        "answer": "3",
+        "explanation": "$1 - 3/8 - 2/8 = 8/8 - 3/8 - 2/8 = 3/8$。分子是3。验算：$3+2+3=8$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "分数的认识与读写（几分之一、几分之几）",
+      "core_concept": "分数是用来表示一个整体被平均分成若干份后，其中的一份或几份的数。必须要强调“平均分”，即每份的大小必须完全一致。分数由分子、分数线、分母三部分组成，分母表示平均分的份数，分子表示取出的份数。",
+      "key_formula": "分数 = $\\frac{分子}{分母}$",
+      "common_mistakes": [
+        "不考虑是否“平均分”就直接用分数描述物体部分。",
+        "读分数时先读分子后读分母（顺序颠倒）。"
+      ],
+      "tips": "记住口诀：分母在下分份数，分子在上取几份，中间横线叫分数线。"
+    },
+    {
+      "point": "分数的大小比较",
+      "core_concept": "分数的比较分为两种基本情况：1. 分母相同时，分子大的那个分数大；2. 分为是几分之一（分子都为1）时，分母越小的分数反而越大（因为分的份数越少，每一份就越大）。",
+      "key_formula": "分子相同分母大则小；分母相同分子大则大。",
+      "common_mistakes": [
+        "认为分母大的分数就一定大，例如误判 $1/2 < 1/8$。",
+        "在分子分母都不同时直接套用单一规则。"
+      ],
+      "tips": "想象切披萨，分给的人（分母）越多，你吃到的一块（几分之一）就越少。"
+    },
+    {
+      "point": "同分母分数的加减运算",
+      "core_concept": "对于分母相同的分数，它们的分数单位是一致的，计算时只需要把分子相加或相减，而分母代表整体被分的总份数，位置和数值保持不变。在处理1减去某个分数时，要把1转化为与减数分母相同的分数（如 $1 = 5/5$）。",
+      "key_formula": "$\\frac{a}{c} \\pm \\frac{b}{c} = \\frac{a \\pm b}{c}$",
+      "common_mistakes": [
+        "把分子和分母分别相加减，例如 $1/3 + 1/3 = 2/6$。",
+        "计算 $1$ 减去分数时，不知道如何把 $1$ 进行转化。"
+      ],
+      "tips": "计算时分母是“单位”，只变数量（分子），底数（分母）不动。"
+    },
+    {
+      "point": "分数的简单应用（整体的部分）",
+      "core_concept": "理解一个分数不仅可以表示一个物体的部分，也可以表示一组物体的部分。计算一组物体的几分之几是多少时，先用总数除以分母求出一份是多少，再用商乘分子求出对应的几份是多少。",
+      "key_formula": "总数 $\\div$ 分母 $\\times$ 分子 = 部分量",
+      "common_mistakes": [
+        "在计算几分之几是多少时，只除了分母没有乘分子。",
+        "分不清是用除法还是乘法作为第一步。"
+      ],
+      "tips": "画图法是解决此类问题的法宝，先画总数，圈出等份，再数份数。"
+    }
+  ]
+}

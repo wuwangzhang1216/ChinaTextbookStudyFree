@@ -1,0 +1,714 @@
+{
+  "textbook": "PEP Primary English Grade 6 Semester 2",
+  "unit": "Unit 2 Last weekend",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2 Last weekend Mastery Test",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动词过去式规则变化",
+        "question": "单词 'stay' 的过去式是 'stayed'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "规则动词过去式直接在词尾加-ed。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "一般过去时特征词",
+        "question": "'last weekend' 意为'下周末'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "last weekend 意为'上周末'。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "动词过去式拼写",
+        "question": "动词 'read' 的过去式拼写依然是 'read'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "read的过去式是不规则变化，拼写保持原样但读音改变。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "陈述句时态",
+        "question": "'I cleaned my room yesterday.' 是正确的一般过去时句子。",
+        "options": [],
+        "answer": "对",
+        "explanation": "含有过去时间状语yesterday，动词使用过去式cleaned。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "疑问句结构",
+        "question": "在句子 'Did you washed your clothes?' 中，washed 的使用是正确的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "助动词did后面必须跟动词原形，应为wash。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动词词义",
+        "question": "I _______ a film last night.",
+        "options": [
+          "see",
+          "saw",
+          "look",
+          "looked"
+        ],
+        "answer": "saw",
+        "explanation": "昨晚看电影用see a film，过去时需用saw。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "短语理解",
+        "question": "—What did you do? —I ________.",
+        "options": [
+          "watch TV",
+          "cook noodles",
+          "washed my clothes",
+          "clean my room"
+        ],
+        "answer": "washed my clothes",
+        "explanation": "由Did提问的问题，回答需使用动词过去式。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词及搭配",
+        "question": "Did you read a _______?",
+        "options": [
+          "football",
+          "magazine",
+          "film",
+          "lamp"
+        ],
+        "answer": "magazine",
+        "explanation": "read搭配书报杂志，magazine符合语境。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "疑问词辨析",
+        "question": "—_______ did you go last weekend? —I went to a park.",
+        "options": [
+          "What",
+          "Where",
+          "How",
+          "Who"
+        ],
+        "answer": "Where",
+        "explanation": "根据回答地点a park，可知提问地点用Where。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般过去时肯定句",
+        "question": "Mike _______ his grandparents yesterday.",
+        "options": [
+          "visited",
+          "visits",
+          "visiting",
+          "visit"
+        ],
+        "answer": "visited",
+        "explanation": "yesterday标志着一般过去时，visit变visited。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "疑问句回答",
+        "question": "—Did you have a cold last Monday? —________.",
+        "options": [
+          "Yes, I do",
+          "No, I don't",
+          "Yes, I did",
+          "No, I do"
+        ],
+        "answer": "Yes, I did",
+        "explanation": "Did引导的一般疑问句，肯定回答为Yes, I did."
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "短语搭配",
+        "question": "It _______ good.",
+        "options": [
+          "look",
+          "looks",
+          "looking",
+          "looked"
+        ],
+        "answer": "looked",
+        "explanation": "描述过去发生的事情，系动词look使用过去式looked。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词组辨析",
+        "question": "I ______ fishing last Saturday.",
+        "options": [
+          "go",
+          "went",
+          "goes",
+          "going"
+        ],
+        "answer": "went",
+        "explanation": "go fishing的过去式是went fishing。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情景交际",
+        "question": "—Was the storybook interesting? —________.",
+        "options": [
+          "Yes, I was",
+          "Yes, it was",
+          "No, I wasn't",
+          "No, it isn't"
+        ],
+        "answer": "Yes, it was",
+        "explanation": "storybook的主语是it，was开头用was回答。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "短语应用",
+        "question": "I stayed ________ at home.",
+        "options": [
+          "in",
+          "for",
+          "on",
+          "all day"
+        ],
+        "answer": "all day",
+        "explanation": "stay at home all day是整天待在家。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "过去式词汇",
+        "question": "Yesterday I ________ (clean) my room.",
+        "options": [],
+        "answer": "cleaned",
+        "explanation": "clean加ed形式用于过去时。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "否定回答",
+        "question": "Did you watch TV? No, I ________.",
+        "options": [],
+        "answer": "didnt",
+        "explanation": "一般过去时否定的简略回答用didn't(此处要求全小写字母不含符号)。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "特殊疑问词",
+        "question": "________ did you do yesterday afternoon?",
+        "options": [],
+        "answer": "what",
+        "explanation": "问做了什么事用what。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不规则变化",
+        "question": "I _______ (drink) some tea last night.",
+        "options": [],
+        "answer": "drank",
+        "explanation": "drink的过去式是不规则形式drank。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "短语英汉对照",
+        "question": "请将下列短语与其对应的中文意思连线。",
+        "options": [
+          "drank tea",
+          "read a book",
+          "saw a film",
+          "slept",
+          "睡觉",
+          "看电影",
+          "读书",
+          "喝茶"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "drank tea-喝茶；read a book-读书；saw a film-看电影；slept-睡觉。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动词原形与过去式对应",
+        "question": "请将单词原形与其过去式对应。",
+        "options": [
+          "wash",
+          "study",
+          "do",
+          "go",
+          "did",
+          "went",
+          "studied",
+          "washed"
+        ],
+        "answer": "A-4,B-3,C-1,D-2",
+        "explanation": "对应规则：wash-washed, study-studied, do-did, go-went。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "陈述句语序",
+        "question": "把给出的单词排成一句话。",
+        "options": [
+          "stayed",
+          "I",
+          "at",
+          "home"
+        ],
+        "answer": "I,stayed,at,home",
+        "explanation": "标准陈述句结构：主语+谓语+地点。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "特殊疑问句语序",
+        "question": "把给出的单词排成一句话。",
+        "options": [
+          "What",
+          "you",
+          "do",
+          "did"
+        ],
+        "answer": "What,did,you,do",
+        "explanation": "特殊疑问句结构：特殊疑问词+did+主语+动词原形？"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Grade 6 Second Unit Comprehensive Examination",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "时态基本内涵",
+        "question": "一般过去时只能用来描述昨天发生的事。",
+        "options": [],
+        "answer": "错",
+        "explanation": "过去时间可以是昨天、上周末、两年前等。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "动词变化规律",
+        "question": "以辅音字母加y结尾的动词变过去式，要把y变i再加ed。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是规则动词过去式的变化规则之一，如study-studied。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "近义词辨析",
+        "question": "'watch TV' 和 'watch a show' 都是看节目的意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "watch在此处都作'观看'解。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "语法结构",
+        "question": "在过去时疑问句中，实义动词必须用过去式。",
+        "options": [],
+        "answer": "错",
+        "explanation": "助动词did出现后，实义动词恢复原形。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常表达",
+        "question": "I had a cold 意思是'我感冒了'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "have/had a cold是患感冒的固定表达。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时态关键词",
+        "question": "He _____ his room last Sunday.",
+        "options": [
+          "clean",
+          "cleans",
+          "cleaning",
+          "cleaned"
+        ],
+        "answer": "cleaned",
+        "explanation": "由last Sunday可知需要用过去式。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "助动词用法",
+        "question": "What ______ you ______ last weekend?",
+        "options": [
+          "do; do",
+          "did; do",
+          "did; did",
+          "do; did"
+        ],
+        "answer": "did; do",
+        "explanation": "疑问句结构为did+动词原形。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不规则动词",
+        "question": "I _____ it on TV yesterday.",
+        "options": [
+          "see",
+          "watch",
+          "saw",
+          "watched"
+        ],
+        "answer": "watched",
+        "explanation": "看电视节目的习惯用语是watch TV，过去式为watched。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动词词组",
+        "question": "Did you ______ any clothes?",
+        "options": [
+          "wash",
+          "washed",
+          "washing",
+          "washes"
+        ],
+        "answer": "wash",
+        "explanation": "Did引导句子的动词原形用法。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情景交际",
+        "question": "—How was your weekend? —________.",
+        "options": [
+          "I am fine",
+          "It was fine",
+          "Yes, it was",
+          "I did it"
+        ],
+        "answer": "It was fine",
+        "explanation": "How was... 询问情况，回答It was..."
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "形容词应用",
+        "question": "The film was very ______.",
+        "options": [
+          "drink",
+          "hot",
+          "interesting",
+          "badly"
+        ],
+        "answer": "interesting",
+        "explanation": "用来修饰film的形容词，有趣interesting最合适。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "连词用法",
+        "question": "I had a cold, ______ I stayed at home.",
+        "options": [
+          "and",
+          "so",
+          "but",
+          "because"
+        ],
+        "answer": "so",
+        "explanation": "前后是因果关系，表示“所以”。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合语法",
+        "question": "Did Sarah _____ a storybook last night?",
+        "options": [
+          "reads",
+          "read",
+          "reading",
+          "is reading"
+        ],
+        "answer": "read",
+        "explanation": "Did后跟原形，read的原形与过去式同形但此处取其原形。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "介词搭配",
+        "question": "What did you do ______ your holiday?",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "for"
+        ],
+        "answer": "on",
+        "explanation": "在假期中常用on your holiday。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "代词呼应",
+        "question": "Did you and your father go fishing? Yes, _____ did.",
+        "options": [
+          "I",
+          "he",
+          "they",
+          "we"
+        ],
+        "answer": "we",
+        "explanation": "you and your father 指代“你们”，回答用“我们”we。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动词变形",
+        "question": "My father ________ (cook) dinner yesterday.",
+        "options": [],
+        "answer": "cooked",
+        "explanation": "cook加ed。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般过去时否定形式",
+        "question": "I ________ (not watch) TV last night.",
+        "options": [],
+        "answer": "didnt watch",
+        "explanation": "否定形式为didn't + 动词原形(不含标点写成didnt watch)。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时态混合词",
+        "question": "Every day I clean my room. But I ________ it yesterday.",
+        "options": [],
+        "answer": "cleaned",
+        "explanation": "由yesterday确定使用cleaned。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形容词",
+        "question": "The show was ________ (好极了).",
+        "options": [],
+        "answer": "excellent",
+        "explanation": "好极了、优秀的英文是excellent。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生活场景短语",
+        "question": "匹配下列动作与含义。",
+        "options": [
+          "washed my clothes",
+          "cleaned my room",
+          "stayed at home",
+          "watched TV",
+          "看电视",
+          "待在家里",
+          "打扫我的房间",
+          "洗我的衣服"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "短语意指：洗衣服,扫房间,待在家,看电视。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动词与名词搭配",
+        "question": "匹配动词与合适的名词/介词短语。",
+        "options": [
+          "read",
+          "went",
+          "had",
+          "saw",
+          "a film",
+          "a cold",
+          "fishing",
+          "a magazine"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "固定搭配：read a magazine, went fishing, had a cold, saw a film。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般过去时肯定句",
+        "question": "连词成句。",
+        "options": [
+          "I",
+          "my",
+          "room",
+          "cleaned"
+        ],
+        "answer": "I,cleaned,my,room",
+        "explanation": "主+谓+宾结构。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一般疑问句及回答语序",
+        "question": "连词成句。",
+        "options": [
+          "Did",
+          "look",
+          "you",
+          "children",
+          "after"
+        ],
+        "answer": "Did,you,look,after,children",
+        "explanation": "look after 意为照顾。结构为Did+主语+动词词组+宾语。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "动词过去式的规则变化",
+      "core_concept": "描述过去状态或动作需要对动词进行形态变化。",
+      "key_formula": "大部分动词+ed; 以e结尾+d; 辅音+y结尾变i+ed; 双写末尾字母+ed。",
+      "common_mistakes": [
+        "忘记变辅音+y为i再加ed",
+        "不论什么动词都直接加ed"
+      ],
+      "tips": "记熟常用不规则动词表，如do-did, go-went, read-read, see-saw。"
+    },
+    {
+      "point": "一般过去时肯定句",
+      "core_concept": "陈述过去发生的动作。",
+      "key_formula": "主语 + 动词过去式 + 其他 + 过去时间 (如 yesterday, last weekend)。",
+      "common_mistakes": [
+        "使用了过去时间，但动词未用过去式",
+        "在主语和动词过去式之间加了is/am/are"
+      ],
+      "tips": "看到last, yesterday, ago, before等词，立刻联想过去式。"
+    },
+    {
+      "point": "一般过去时疑问句及其回答",
+      "core_concept": "询问或确认过去发生的动作。",
+      "key_formula": "Did + 主语 + 动词原形 + 其他? 回答：Yes, I did / No, I didn't.",
+      "common_mistakes": [
+        "Did 开头的句子动词用了过去式",
+        "回答时将did混淆为do或was"
+      ],
+      "tips": "记住'Did出动，动还原'的口诀。"
+    }
+  ]
+}

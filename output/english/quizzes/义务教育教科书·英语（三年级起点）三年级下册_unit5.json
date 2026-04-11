@@ -1,0 +1,714 @@
+{
+  "textbook": "PEP Primary English Grade 3 Volume 2",
+  "unit": "Do you like pears?",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 Do you like pears? 单元基础评测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "单词 'apple' 的复数形式是 'apples'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "名词变复数通常在词尾加s。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "单词 'banana' 的中文意思是草莓。",
+        "options": [],
+        "answer": "错",
+        "explanation": "banana的意思是香蕉，草莓是strawberry。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "'Can I have some grapes?' 这里的 'some' 可以换成 'a'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "some后跟可数名词复数或不可数名词，a后跟单数名词。grapes是复数。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "询问别人喜好可以用 'Do you like...?' 句型。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Do you like...? 是询问喜好的标准句型。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "元音字母u在闭音节中的发音",
+        "question": "单词 'under' 中字母 'u' 的发音和 'duck' 相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在闭音节单词中，字母u通常发短音/ʌ/。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "Look! That's ___ orange.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "/"
+        ],
+        "answer": "an",
+        "explanation": "orange以元音音素开头，应用an引导。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "— Do you like pears? — ___",
+        "options": [
+          "Yes, I do.",
+          "No, I do.",
+          "Yes, I don't.",
+          "I like pears."
+        ],
+        "answer": "Yes, I do.",
+        "explanation": "Do you...? 的肯定回答应为 Yes, I do。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "找出不同类的一项：",
+        "options": [
+          "apple",
+          "pear",
+          "fruit",
+          "banana"
+        ],
+        "answer": "fruit",
+        "explanation": "fruit是水果的总称，其他是具体的水果名称。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "— Can I have some bananas? — ___",
+        "options": [
+          "No.",
+          "Here you are.",
+          "I like bananas.",
+          "Thanks."
+        ],
+        "answer": "Here you are.",
+        "explanation": "当别人请求拿些东西时，同意给对方通常说 Here you are。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "I like ___. They are sweet.",
+        "options": [
+          "watermelon",
+          "a watermelon",
+          "watermelons",
+          "any watermelon"
+        ],
+        "answer": "watermelons",
+        "explanation": "表示喜欢哪一类事物，名词通常用复数形式。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "— Honey, let's buy some fruit. — ___",
+        "options": [
+          "Thank you.",
+          "Sorry.",
+          "Great!",
+          "Goodbye."
+        ],
+        "answer": "Great!",
+        "explanation": "对于建议的积极回应常使用 Great!。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "元音字母u在闭音节中的发音",
+        "question": "下列哪组单词中字母u的发音相同？",
+        "options": [
+          "duck, run",
+          "under, use",
+          "fun, student",
+          "computer, cup"
+        ],
+        "answer": "duck, run",
+        "explanation": "duck和run中的u都发/ʌ/音。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "I don't like grapes. ___ about you?",
+        "options": [
+          "Who",
+          "What",
+          "How",
+          "Why"
+        ],
+        "answer": "What",
+        "explanation": "What about you? 用于询问别人的情况。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "The ___ is huge and green.",
+        "options": [
+          "strawberry",
+          "orange",
+          "pear",
+          "watermelon"
+        ],
+        "answer": "watermelon",
+        "explanation": "西瓜是巨大的且表皮通常是绿色的。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "— Have some grapes. — ___",
+        "options": [
+          "Me too.",
+          "You're welcome.",
+          "Thanks.",
+          "No, I do."
+        ],
+        "answer": "Thanks.",
+        "explanation": "面对别人的招待应表示感谢。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "I have an ______. It's round and orange.",
+        "options": [],
+        "answer": "orange",
+        "explanation": "根据an和描述判定为橘子。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "______ you like strawberries?",
+        "options": [],
+        "answer": "do",
+        "explanation": "助动词引导的疑问句首选do。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "Can I ______ some water?",
+        "options": [],
+        "answer": "have",
+        "explanation": "Can I have some...? 表达想要某物的礼貌请求。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "Twelve apples and one apple are thirteen ______.",
+        "options": [],
+        "answer": "apples",
+        "explanation": "数字大于1，名词用复数形式。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "将下列水果单词与对应中文连线。",
+        "options": [
+          "pear",
+          "banana",
+          "strawberry",
+          "watermelon",
+          "香蕉",
+          "草莓",
+          "西瓜",
+          "梨"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "pear-梨，banana-香蕉，strawberry-草莓，watermelon-西瓜。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "将下列常用语与其对应的日常情景连线。",
+        "options": [
+          "Me neither.",
+          "Here you are.",
+          "What about you?",
+          "Can I have some?",
+          "给你",
+          "你呢？",
+          "我也不喜欢",
+          "我能吃一些吗？"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "Me neither 意思是我也不（常用于否定句），Here you are给你，What about you你呢，Can I have some我能吃点吗。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "连词成句：you, Do, pears, like",
+        "options": [
+          "you",
+          "Do",
+          "pears",
+          "like"
+        ],
+        "answer": "Do,you,like,pears",
+        "explanation": "助动词Do位于句首，其后跟主语you，动词like，最后是宾语pears。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "连词成句：like, I, bananas, don't",
+        "options": [
+          "like",
+          "I",
+          "bananas",
+          "don't"
+        ],
+        "answer": "I,don't,like,bananas",
+        "explanation": "主语+don't+动词原形+其他。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Grade 3 Semester 2 Unit 5 综合素养测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "'watermelon' 单词中包含两个独立的单词 'water' 和 'melon'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "watermelon是一个合成词。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "当你不喜欢某样东西时，你可以说 'I like it.'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "不喜欢应该说 I don't like it。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "如果别人对你说 'Have an apple.', 你可以用 'Thanks.' 回答。",
+        "options": [],
+        "answer": "对",
+        "explanation": "接受邀请或招待应礼貌告知谢谢。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "元音字母u在闭音节中的发音",
+        "question": "字母 'u' 在 'fun' 和 'blue' 中的发音是一样的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "fun中u发/ʌ/，blue中ue发/u:/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "否定句 'I don't like pears.' 中的 'don't' 是 'do not' 的缩写。",
+        "options": [],
+        "answer": "对",
+        "explanation": "don't = do not。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "Which fruit is red and has small seeds on the skin?",
+        "options": [
+          "banana",
+          "pear",
+          "strawberry",
+          "grape"
+        ],
+        "answer": "strawberry",
+        "explanation": "草莓是红色的且外表有小籽。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "— I don't like grapes. — ___",
+        "options": [
+          "Me too.",
+          "Me neither.",
+          "Yes, I do.",
+          "Here you are."
+        ],
+        "answer": "Me neither.",
+        "explanation": "对于对方否定的观点表示相同看法用 Me neither。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "How many ___ can you see?",
+        "options": [
+          "banana",
+          "apple",
+          "oranges",
+          "orange"
+        ],
+        "answer": "oranges",
+        "explanation": "How many后接可数名词的复数形式。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "— Do you like oranges? — No, I ___. I like bananas.",
+        "options": [
+          "don't",
+          "do",
+          "am not",
+          "can't"
+        ],
+        "answer": "don't",
+        "explanation": "Do you的否定回答用 No, I don't。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "元音字母u在闭音节中的发音",
+        "question": "Find the word with a different sound for 'u':",
+        "options": [
+          "duck",
+          "run",
+          "pupil",
+          "under"
+        ],
+        "answer": "pupil",
+        "explanation": "pupil中的u发/ju:/，其他发/ʌ/。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "— Can I have some pears? — ___",
+        "options": [
+          "Thanks.",
+          "Certainly!",
+          "Yes, I do.",
+          "No, I don't."
+        ],
+        "answer": "Certainly!",
+        "explanation": "Certainly表示当然可以，常用于回答对方的请求。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "I like pears. ___ you?",
+        "options": [
+          "How are",
+          "What is",
+          "How about",
+          "Where are"
+        ],
+        "answer": "How about",
+        "explanation": "How about you? 意为“你呢？”"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "— Silly me! Thanks. — ___",
+        "options": [
+          "You're welcome.",
+          "Me too.",
+          "Great!",
+          "OK."
+        ],
+        "answer": "You're welcome.",
+        "explanation": "回答感谢时使用 You're welcome。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "Let's ___ some fruit.",
+        "options": [
+          "eat",
+          "eats",
+          "eating",
+          "to eat"
+        ],
+        "answer": "eat",
+        "explanation": "Let's 后面跟动词原形。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "I have two ___. They are big.",
+        "options": [
+          "watermelons",
+          "watermelon",
+          "a watermelon",
+          "watermelones"
+        ],
+        "answer": "watermelons",
+        "explanation": "two后面名词用复数，watermelon的复数直接加s。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "— Do you like apples? — No, I ______.",
+        "options": [],
+        "answer": "dont",
+        "explanation": "否定回答使用do not的缩写形式（此处按要求不含标点，输入为dont）。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "I buy three ______.",
+        "options": [],
+        "answer": "pears",
+        "explanation": "填入一种水果的复数形式。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "______ about you?",
+        "options": [],
+        "answer": "what",
+        "explanation": "句首单词应为what，询问对方意见。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "An apple a day keeps the ______ away.",
+        "options": [],
+        "answer": "doctor",
+        "explanation": "英语谚语：一天一苹果，医生远离我。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水果类词汇及其复数形式",
+        "question": "匹配英文单词及其对应的水果颜色/特征。",
+        "options": [
+          "banana",
+          "watermelon",
+          "strawberry",
+          "orange",
+          "橙色",
+          "黄色",
+          "绿色",
+          "红色"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "banana通常是黄色的，watermelon绿色，strawberry红色，orange橙色。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "匹配问题与答语。",
+        "options": [
+          "Do you like pears?",
+          "Can I have some fruit?",
+          "Have some grapes.",
+          "Where is the apple?",
+          "Thank you.",
+          "Yes, I do.",
+          "It's on the desk.",
+          "Sure. Here you are."
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "Do you...用Yes/No回答；Can I...用Sure回答；Have some...回复Thank you；Where...回答地点。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "连词成句：have, some, I, Can, apples",
+        "options": [
+          "have",
+          "some",
+          "I",
+          "Can",
+          "apples"
+        ],
+        "answer": "Can,I,have,some,apples",
+        "explanation": "情态动词开头的疑问句：Can + 主语 + 动词原形 + 其他。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达喜好与征求许可",
+        "question": "连词成句：don't, pears, like, I",
+        "options": [
+          "don't",
+          "pears",
+          "like",
+          "I"
+        ],
+        "answer": "I,don't,like,pears",
+        "explanation": "陈述句语序，注意否定词don't置于动词前。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "水果类词汇及其复数形式",
+      "core_concept": "常见水果名称及复数名词的变化规律。",
+      "key_formula": "名词变复数通常加s（如apples），特别注意strawberry变复数为strawberries（去y变i加es）。",
+      "common_mistakes": [
+        "忘记在多于一个的水果词后加s",
+        "orange前不小心用了a而不是an"
+      ],
+      "tips": "可以通过颜色和形状联系记忆，例如：yellow-banana, red-strawberry。"
+    },
+    {
+      "point": "表达喜好与征求许可",
+      "core_concept": "使用Do you like...? 询问他人喜好以及使用Can I have...? 提出请求。",
+      "key_formula": "问：Do you like + 名词复数? 答：Yes, I do. / No, I don't.",
+      "common_mistakes": [
+        "回答Do you like时用了Yes, I am",
+        "请求许可时语气生硬"
+      ],
+      "tips": "在寻求许可或接到别人邀请时，别忘了加上Please和Thanks表现礼貌。"
+    },
+    {
+      "point": "元音字母u在闭音节中的发音",
+      "core_concept": "字母u在辅+元+辅结构单词中的短元音发音规则。",
+      "key_formula": "u -> /ʌ/ (短音，嘴张开，舌尖抵下齿)",
+      "common_mistakes": [
+        "将fun读成/fɑːn/或/fʊn/",
+        "不区分开音节中的/ju:/音"
+      ],
+      "tips": "记顺口溜：鸭子duck跑得快run，在那under太阳下fun。"
+    }
+  ]
+}

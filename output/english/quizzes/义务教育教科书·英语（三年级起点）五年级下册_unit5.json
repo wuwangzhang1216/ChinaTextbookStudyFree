@@ -1,0 +1,726 @@
+{
+  "textbook": "人教版 PEP 英语五年级下册",
+  "unit": "Whose dog is it?",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 Whose dog is it? 单元通关自测卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "'mine' 的意思是'我的'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "mine是名词性物主代词，表示“我的（东西）”。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "正在爬树可以表达为 'climbing'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "climb的动词ing形式是climbing。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "'hers' 后面通常不需要再加名词。",
+        "options": [],
+        "answer": "对",
+        "explanation": "名词性物主代词相当于“形容词性物主代词+名词”，所以后面不再接名词。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "字母组合-ng和-nk的发音规律",
+        "question": "单词 'sing' 和 'pink' 中字母组合的发音完全相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "sing发/ŋ/，pink发/ŋk/，两者不同。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "question": "'Whose' 的意思是'那是谁'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Whose的意思是“谁的”，Who's才是“谁是”。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "The blue pen is ________.",
+        "options": [
+          "my",
+          "mine",
+          "me",
+          "I"
+        ],
+        "answer": "mine",
+        "explanation": "句末没有名词，需用名词性物主代词mine。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "question": "— ________ hat is this? — It's Mike's.",
+        "options": [
+          "Who",
+          "What",
+          "Whose",
+          "Where"
+        ],
+        "answer": "Whose",
+        "explanation": "询问物品归属用Whose。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "The rabbits ________ jumping now.",
+        "options": [
+          "is",
+          "be",
+          "are",
+          "am"
+        ],
+        "answer": "are",
+        "explanation": "主语rabbits是复数，be动词用are。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "That's not my book. It is ________.",
+        "options": [
+          "yours",
+          "you",
+          "your",
+          "she"
+        ],
+        "answer": "yours",
+        "explanation": "此处指代你的书，用名词性物主代词yours。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "Look! The baby is ________.",
+        "options": [
+          "sleep",
+          "sleeps",
+          "sleeping",
+          "slept"
+        ],
+        "answer": "sleeping",
+        "explanation": "be动词后接动词ing形式表示正在进行。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "These books are ________. Those are ________.",
+        "options": [
+          "our; their",
+          "ours; theirs",
+          "ours; their",
+          "our; theirs"
+        ],
+        "answer": "ours; theirs",
+        "explanation": "前后两处都缺名词性物主代词。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "What is the dog doing? It's ________ water.",
+        "options": [
+          "drink",
+          "drinking",
+          "drinks",
+          "drank"
+        ],
+        "answer": "drinking",
+        "explanation": "正在喝水需用drinking。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "Is Fido ________? No, he's sleeping.",
+        "options": [
+          "runing",
+          "running",
+          "run",
+          "runes"
+        ],
+        "answer": "running",
+        "explanation": "run的ing形式需要双写n再加ing。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "question": "— Are these ________? — Yes, they're ours.",
+        "options": [
+          "you",
+          "yours",
+          "your",
+          "mine"
+        ],
+        "answer": "yours",
+        "explanation": "问句意思：这些是你们的吗？用yours。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "The yellow picture is ________.",
+        "options": [
+          "his",
+          "him",
+          "he",
+          "me"
+        ],
+        "answer": "his",
+        "explanation": "his既是形容词性也是名词性物主代词。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "The boy is ___ a book in the library.",
+        "options": [],
+        "answer": "reading",
+        "explanation": "正在看书用reading。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "I am Sarah. This bag is ___.",
+        "options": [],
+        "answer": "mine",
+        "explanation": "指我的书包且不接名词，用mine。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "— What are they doing? — They are ___.",
+        "options": [],
+        "answer": "eating",
+        "explanation": "正在吃东西用eating。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "question": "___ pens are these? They are hers.",
+        "options": [],
+        "answer": "whose",
+        "explanation": "询问谁的钢笔用whose。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "将下列词汇与其对应的中文意思相连。",
+        "options": [
+          "mine",
+          "yours",
+          "ours",
+          "theirs",
+          "你们的",
+          "他们的",
+          "我们的",
+          "我的"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "mine我的, yours你们的, ours我们的, theirs他们的。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "将下列动词ing形式与其意思相连。",
+        "options": [
+          "climbing",
+          "playing",
+          "jumping",
+          "drinking",
+          "玩耍",
+          "喝水",
+          "跳跃",
+          "攀爬"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "climbing攀爬, playing玩耍, jumping跳跃, drinking喝水。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "question": "连词成句。",
+        "options": [
+          "is",
+          "Whose",
+          "it",
+          "?"
+        ],
+        "answer": "Whose,is,it,?",
+        "explanation": "Whose is it? 是谁的？"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "连词成句。",
+        "options": [
+          "dog",
+          "The",
+          "sleeping",
+          "is",
+          "."
+        ],
+        "answer": "The,dog,is,sleeping,.",
+        "explanation": "The dog is sleeping. 这只狗正在睡觉。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 5 综合素养调研测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "单词 'flying' 的意思是'正在飞'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "fly加上ing表示正在飞。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "'That is mine bag.' 这句话在语法上是正确的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "mine后面不能接名词，应改为my bag或That bag is mine。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "his 是名词性物主代词。",
+        "options": [],
+        "answer": "对",
+        "explanation": "his既是形容词性也是名词性物主代词。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "'running' 的词根是 'run'，变法是直接加 ing。",
+        "options": [],
+        "answer": "错",
+        "explanation": "run需要双写n再加ing。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "question": "当询问谁的书包时，可以说 'Whose schoolbag is this?'",
+        "options": [],
+        "answer": "对",
+        "explanation": "Whose + 名词 + is this? 是正确句型。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "Is that your dog? No, it's ________.",
+        "options": [
+          "her",
+          "she",
+          "hers",
+          "I"
+        ],
+        "answer": "hers",
+        "explanation": "指代她的狗，用名词性物主代词hers。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "Look! The cats ________ under the tree.",
+        "options": [
+          "running",
+          "are running",
+          "is running",
+          "run"
+        ],
+        "answer": "are running",
+        "explanation": "cats为复数，现在进行时谓语动词用are running。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "question": "— ________ these crayons? — They are mine.",
+        "options": [
+          "Whose is",
+          "Whose are",
+          "Who is",
+          "Who are"
+        ],
+        "answer": "Whose are",
+        "explanation": "crayons是复数，用are。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "The elephant is ________ water with its trunk.",
+        "options": [
+          "drinks",
+          "drink",
+          "drinking",
+          "to drink"
+        ],
+        "answer": "drinking",
+        "explanation": "is后跟动词ing形式。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "This desk is ________. That one is ________.",
+        "options": [
+          "my; your",
+          "mine; yours",
+          "mine; your",
+          "my; yours"
+        ],
+        "answer": "mine; yours",
+        "explanation": "两个空均不接名词，需用名词性物主代词。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "— Is the monkey ________? — Yes, it is.",
+        "options": [
+          "climb",
+          "climbing",
+          "climbs",
+          "to climb"
+        ],
+        "answer": "climbing",
+        "explanation": "问句用现在进行时描述动作。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "These are ________ pictures.",
+        "options": [
+          "theirs",
+          "ours",
+          "their",
+          "mine"
+        ],
+        "answer": "their",
+        "explanation": "空格后有名词pictures，需用形容词性物主代词。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "question": "— Whose storybooks are those? — They are ________.",
+        "options": [
+          "Sam's",
+          "Sam",
+          "of Sam",
+          "he"
+        ],
+        "answer": "Sam's",
+        "explanation": "名词所有格Sam's在这相当于名词性物主代词。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "What is Mike doing? He is ________ with his dog.",
+        "options": [
+          "playing",
+          "play",
+          "plays",
+          "play's"
+        ],
+        "answer": "playing",
+        "explanation": "is playing正在玩。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问物品归属 (Whose句型)",
+        "question": "These pencils are ________.",
+        "options": [
+          "ours",
+          "our",
+          "we",
+          "us"
+        ],
+        "answer": "ours",
+        "explanation": "意为“我们的（铅笔）”，用ours。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "The picture of the park is ___.",
+        "options": [],
+        "answer": "his",
+        "explanation": "指代他的照片用his。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "He is ___ to music.",
+        "options": [],
+        "answer": "listening",
+        "explanation": "正在听音乐用listening。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "The children are ___ under the desk.",
+        "options": [],
+        "answer": "hiding",
+        "explanation": "hide的ing形式是hiding（去e加ing）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "I am ___ a letter.",
+        "options": [],
+        "answer": "writing",
+        "explanation": "write的ing形式是writing。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "将下列短语英汉匹配。",
+        "options": [
+          "jumping",
+          "walking",
+          "running",
+          "sleeping",
+          "跑步",
+          "睡觉",
+          "跳跃",
+          "走路"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "jumping跳跃，walking走路，running跑步，sleeping睡觉。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "将对应关系相连。",
+        "options": [
+          "my book",
+          "her pet",
+          "your dog",
+          "his bag",
+          "hers",
+          "his",
+          "mine",
+          "yours"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "形容词性物主代词+名词=名词性物主代词。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "名词性物主代词的用法",
+        "question": "连词成句。",
+        "options": [
+          "The",
+          "mine",
+          "is",
+          "ruler",
+          "."
+        ],
+        "answer": "The,ruler,is,mine,.",
+        "explanation": "这把尺子是我的。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "现在进行时态 (be+doing)",
+        "question": "连词成句。",
+        "options": [
+          "What",
+          "they",
+          "are",
+          "doing",
+          "?"
+        ],
+        "answer": "What,are,they,doing,?",
+        "explanation": "他们在做什么？"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "名词性物主代词",
+      "core_concept": "用来替代“形容词性物主代词+名词”，起到避免重复的作用。",
+      "key_formula": "名词性物主代词 = 形容词性物主代词 + 名词",
+      "common_mistakes": [
+        "在名词性物主代词后再加名词（如：This is hers book）",
+        "混淆my和mine"
+      ],
+      "tips": "记口诀：有“名”则“形”，无“名”则“名”。（有名词用形容词性，没名词用名词性）"
+    },
+    {
+      "point": "询问归属句型",
+      "core_concept": "使用特殊疑问词Whose引导的句子来查明物品的主人。",
+      "key_formula": "Whose + 物品 (单数/复数) + is/are + this/these/those?",
+      "common_mistakes": [
+        "把Whose拼写成Who's",
+        "单复数不一致（如Whose pens is these?）"
+      ],
+      "tips": "回答时可以直接用名词性物主代词，简短又准确。"
+    },
+    {
+      "point": "现在进行时 (be+doing)",
+      "core_concept": "描述此时此刻正在发生的动作或状态。",
+      "key_formula": "主语 + am/is/are + 动词-ing",
+      "common_mistakes": [
+        "漏掉be动词（如：He running）",
+        "忘记动词-ing的变化规则（如：runing）"
+      ],
+      "tips": "注意重读闭音节单词（如run, swim）双写末尾字母，以e结尾（如hide, write）去e。"
+    },
+    {
+      "point": "字母组合-ng和-nk发音",
+      "core_concept": "掌握鼻辅音/ŋ/的不同组合发音差异。",
+      "key_formula": "-ng发/ŋ/ (sing, song)；-nk发/ŋk/ (thank, pink)",
+      "common_mistakes": [
+        "将nk里的k读漏",
+        "无法区分两个组合的浊度和清脆度"
+      ],
+      "tips": "ng喉头震动响亮些，nk结尾有一个轻微的/k/爆破音。"
+    }
+  ]
+}

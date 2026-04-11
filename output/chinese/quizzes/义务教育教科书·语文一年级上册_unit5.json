@@ -1,0 +1,712 @@
+{
+  "textbook": "统编版小学语文一年级上册",
+  "unit": "课文（一）：感受自然与生活",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元基础过关测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "自然段的判定与划分",
+        "question": "每个自然段的开头都会空出两个汉字的位置。",
+        "options": [],
+        "answer": "对",
+        "explanation": "按照中文排版习惯，每个自然段开头都要空两格作为段落起始的标志。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“蓝蓝的天”中“蓝蓝”是表示颜色的叠词。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“蓝蓝”是由“蓝”字相叠形成的叠词，用来形容天空的颜色。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "“一（yī）片”中“一”的读音是第一声。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“一”在第四声（片）前应变调为第二声（yí）。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "自然段的判定与划分",
+        "question": "只要有句号出现，就代表一个自然段结束了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "一个自然段可以由很多个句子组成，句号只是句子的结束，不是段落的结束。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“闪闪的星星”中“闪闪”描写的是星星的样子。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“闪闪”是重叠词语，生动地形容星星发光的样子。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "在词语“一群”中，“一”的读音是？",
+        "options": [
+          "yī",
+          "yí",
+          "yì",
+          "yi"
+        ],
+        "answer": "yì",
+        "explanation": "“一”在第二声（群）前变调为第四声（yì）。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "下列哪一项叠词搭配是错误的？",
+        "options": [
+          "弯弯的月儿",
+          "小小的船",
+          "红红的草",
+          "尖尖的草芽"
+        ],
+        "answer": "红红的草",
+        "explanation": "草通常是绿色的，说“红红的草”不符合常识。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然段的判定与划分",
+        "question": "阅读《小小的船》：弯弯的月儿小小的船。小小的船儿两头尖。我在小小的船里坐，只看见闪闪的星星蓝蓝的天。文中有几个自然段？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "1个",
+        "explanation": "这段文字开头空两格后一直写到结束，中间没有新的另起一行空两格，所以算一个自然段。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "形容“苹果”的颜色，最合适的叠词是？",
+        "options": [
+          "白白的",
+          "红红的",
+          "青青的",
+          "黑黑的"
+        ],
+        "answer": "红红的",
+        "explanation": "熟透的苹果通常是红红的。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "“一会儿”中“一”的读音变调规律与下列哪个词相同？",
+        "options": [
+          "一个",
+          "第一",
+          "一起",
+          "一片"
+        ],
+        "answer": "一片",
+        "explanation": "“一会儿”和“一片”中的“一”都是在第四声前，变调为第二声。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“弯弯的月儿像（  ）。”横线上填入哪个最合适？",
+        "options": [
+          "小马",
+          "小船",
+          "脸蛋",
+          "火球"
+        ],
+        "answer": "小船",
+        "explanation": "课文《小小的船》中将弯弯的月儿比作小小的船。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "单独数数“一、二、三”时，“一”读什么音？",
+        "options": [
+          "yī",
+          "yí",
+          "yì",
+          "yi"
+        ],
+        "answer": "yī",
+        "explanation": "“一”单独使用或在数数时读原音第一声。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然段的判定与划分",
+        "question": "我们在课本上标记自然段时，通常在开头空两格的地方写第几自然段。标记第2段应该写？",
+        "options": [
+          "1",
+          "2",
+          "②",
+          "二"
+        ],
+        "answer": "②",
+        "explanation": "语文学习中通常习惯用带圆圈的数字标记自然段序号。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "选出“一”读音全是第四声（yì）的一组：",
+        "options": [
+          "一串、一边",
+          "一天、一心",
+          "一年、一条",
+          "一回、一人"
+        ],
+        "answer": "一天、一心",
+        "explanation": "当“一”在第一、二、三声字前时，变调为第四声。A项边是第一声，但串是第四声（变二声）；C、D均为第二声字前。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“草芽尖尖”是在描写哪个季节？",
+        "options": [
+          "春天",
+          "夏天",
+          "秋天",
+          "冬天"
+        ],
+        "answer": "春天",
+        "explanation": "《四季》第1小节写到“草芽尖尖，他对小鸟说：‘我是春天。’”"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "《小小的船》中，（      ）的星星亮晶晶。",
+        "options": [],
+        "answer": "闪闪",
+        "explanation": "课文原句是“只看见闪闪的星星蓝蓝的天”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "《四季》中，（      ）的肚子圆滚滚。",
+        "options": [],
+        "answer": "雪人",
+        "explanation": "课文原文“雪人大肚子一挺，他顽皮地说：‘我就是冬天。’”此处考查特征描述。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然段的判定与划分",
+        "question": "区分自然段的关键标志是段落开头空了两个（      ）的位置。",
+        "options": [],
+        "answer": "汉字",
+        "explanation": "自然段开头必须空出两个汉字的空格。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "请将事物与对应的修饰词连线。",
+        "options": [
+          "弯弯的",
+          "蓝蓝的",
+          "闪闪的",
+          "小小的",
+          "天空",
+          "月儿",
+          "船儿",
+          "星星"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考查课文《小小的船》中的固定搭配：弯弯的月儿、蓝蓝的天空、闪闪的星星、小小的船儿。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "请根据读音为“一”字词语寻找正确的拼音。",
+        "options": [
+          "一群",
+          "一片",
+          "数一数",
+          "第一",
+          "yī",
+          "yí",
+          "yì",
+          "yi"
+        ],
+        "answer": "A-3,B-2,C-4,D-1",
+        "explanation": "一群(yì)、一片(yí)、数一数(yi轻声)、第一(yī原音)。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "根据《四季》课文，将植物与对应的状态连线。",
+        "options": [
+          "草芽",
+          "荷叶",
+          "谷穗",
+          "雪人",
+          "圆圆",
+          "弯弯",
+          "尖尖",
+          "顽皮"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "草芽尖尖、荷叶圆圆、谷穗弯弯、雪人顽皮。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "连词成句：",
+        "options": [
+          "弯弯的",
+          "像",
+          "月儿",
+          "小船"
+        ],
+        "answer": "弯弯的,月儿,像,小船",
+        "explanation": "这是一个比喻句，描述月亮的形状。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "连词成句：",
+        "options": [
+          "看见",
+          "我",
+          "蓝蓝的",
+          "天空"
+        ],
+        "answer": "我,看见,蓝蓝的,天空",
+        "explanation": "按照“谁+干什么+什么样的事物”的顺序排列句子。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第五单元阶段素质测评",
+    "total_score": 95,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "自然段的判定与划分",
+        "question": "《江南》这首古诗只有1个自然段。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《江南》开头空两格，全诗内容紧凑，属于一个自然段结构。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "在“一九、二九、三九”中，“一”都读第一声。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在数词和序数词中，“一”保持原音第一声。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“船儿”和“船”是一个意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“儿”是后缀，在这里增加了亲切和可爱的语气，核心意思是一样的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“白白的云”搭配是正确的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“白白的”可以用来修饰云朵。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "“一行白鹭”和“一个学生”中“一”的读音相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“一行”读 yì，“一个”读 yí，变调规律不同。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然段的判定与划分",
+        "question": "我们在书上数自然段时，通常通过第几个格有没有字来判断？",
+        "options": [
+          "第一、二个格",
+          "第三、四个格",
+          "第一个格",
+          "随意一个格"
+        ],
+        "answer": "第一、二个格",
+        "explanation": "自然段开头必须空出前两个格子的位置。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“小小的船儿两头（  ）。”横线上填哪个词最准确？",
+        "options": [
+          "圆",
+          "平",
+          "尖",
+          "方"
+        ],
+        "answer": "尖",
+        "explanation": "课文原话是“小小的船儿两头尖”。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然段的判定与划分",
+        "question": "阅读：天冷了，大雁往南飞。一会儿排成个“人”字，一会儿排成个“一”字。这段文字有几个自然段？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "1个",
+        "explanation": "这段话开头空了两格，中间没有新的段首空格，是一个自然段。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "下面句子中“一”读音相同的是哪一项？\n①一只鸟 ②第一名 ③一群羊 ④一边",
+        "options": [
+          "①和②",
+          "①和③",
+          "②和④",
+          "③和④"
+        ],
+        "answer": "①和③",
+        "explanation": "①和③中的“一”均位于第一或第二声前，均读成第四声yì。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“鱼戏莲叶间。鱼戏莲叶东，鱼戏莲叶西...”这首诗描写的是？",
+        "options": [
+          "夏天荷塘",
+          "春天草原",
+          "秋天田野",
+          "冬天雪地"
+        ],
+        "answer": "夏天荷塘",
+        "explanation": "《江南》描写的是采莲时的情景，莲花在夏天盛开。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然段的判定与划分",
+        "question": "如果一篇课文有三个开头空两格的地方，这篇课文就有：",
+        "options": [
+          "两个自然段",
+          "三个自然段",
+          "四个自然段",
+          "一整个自然段"
+        ],
+        "answer": "三个自然段",
+        "explanation": "自然段的数量等于段首空格出现的次数。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "“一会儿”的“一”读音是？",
+        "options": [
+          "yī",
+          "yí",
+          "yì",
+          "yi"
+        ],
+        "answer": "yí",
+        "explanation": "“一”放在第四声“会”前，要读作第二声。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“雪人大肚子一挺，他顽皮地说...”这句话使用了什么修辞？",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "夸张"
+        ],
+        "answer": "拟人",
+        "explanation": "把雪人赋予人的动作（挺肚子）和语言（说），是拟人写法。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "选出不是同一类的词语：",
+        "options": [
+          "闪闪的",
+          "尖尖的",
+          "圆圆的",
+          "大雁"
+        ],
+        "answer": "大雁",
+        "explanation": "前三个是描写特征的叠词，第四个是动物名词。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“（  ）的荷叶”最适合填入哪个词？",
+        "options": [
+          "红红",
+          "大大的",
+          "尖尖",
+          "圆圆"
+        ],
+        "answer": "圆圆",
+        "explanation": "《四季》中描写荷叶是圆圆的。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "《江南》中，鱼儿在莲叶间（      ）。",
+        "options": [],
+        "answer": "嬉戏",
+        "explanation": "课文描述鱼儿在莲叶间游动玩耍的状态。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "“影子（      ）常陪我。”填入课文中的叠词。",
+        "options": [],
+        "answer": "常常",
+        "explanation": "考查《影子》中的叠词积累。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多音字“一”的变调规律",
+        "question": "“一排大雁”中“一”的拼音声调是第（    ）声。",
+        "options": [],
+        "answer": "四",
+        "explanation": "排是第二声，“一”在二声前读第四声yì。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "请将生字与对应的偏旁连线。",
+        "options": [
+          "树",
+          "闪",
+          "莲",
+          "江",
+          "门字框",
+          "木字旁",
+          "三点水",
+          "草字头"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "树-木、闪-门、莲-草、江-水。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然段的判定与划分",
+        "question": "将文章标题与所属的自然段数量（常规版）连线。",
+        "options": [
+          "《江南》",
+          "《四季》",
+          "《小小的船》",
+          "《秋天》",
+          "1个",
+          "4个",
+          "3个",
+          "1个"
+        ],
+        "answer": "A-1,B-2,C-4,D-3",
+        "explanation": "江南为1段；四季有4节（段）；船为1段；秋天有3段。"
+      },
+      {
+        "id": 21,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "连词成句：",
+        "options": [
+          "排成",
+          "大雁",
+          "一个",
+          "“人”字"
+        ],
+        "answer": "大雁,排成,一个,“人”字",
+        "explanation": "描述大雁飞行的状态。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "叠词（ABB/AAB）的积累应用",
+        "question": "连词成句：",
+        "options": [
+          "像",
+          "个",
+          "小星星",
+          "亮晶晶的",
+          "宝石"
+        ],
+        "answer": "亮晶晶的,小星星,像,个,宝石",
+        "explanation": "合理排列形容词、名词及比喻词。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "自然段的判定与划分",
+      "core_concept": "自然段是文章中表达意义的基本单位。在统编版教材中，每个新段落的开始都会在第一行开头空出两个汉字的空格，这是识别自然段的唯一标准。学生需要学会观察行首空格，并用序号在段首进行标注，这有助于理清文章脉络。",
+      "key_formula": "段首空两格 = 一个新自然段",
+      "common_mistakes": [
+        "将诗歌的一行误认为一个自然段",
+        "忽略了第二页开头的段落继续而重复计数"
+      ],
+      "tips": "数段落时，找“空格”，标序号，不漏数，不重数。"
+    },
+    {
+      "point": "多音字“一”的变调规律",
+      "core_concept": "“一”字在不同的语境下读音会发生变化：单独念或在词尾念原音（第一声）；在第四声字前读第二声；在第一、二、三声字前读第四声；在动词中间读轻声。一年级重点在于结合词语环境感悟音变。",
+      "key_formula": "四声前变二，非四前变四，单数念原音",
+      "common_mistakes": [
+        "把“一个”读成第一声",
+        "分不清“一群”和“一片”中一的读音区别"
+      ],
+      "tips": "记口诀：一二三声前变四，四声字前变二声。"
+    },
+    {
+      "point": "叠词（ABB/AAB）的积累应用",
+      "core_concept": "叠词是指通过词语重叠来增强表达效果的词汇。在一年级课文中，如“弯弯的、蓝蓝的、闪闪的”，这些叠词增加了语言的韵律感，使描写的事物更加生动形象。学生应掌握叠词与名词的合理搭配。",
+      "key_formula": "特征重叠字 + 的 + 名词",
+      "common_mistakes": [
+        "搭配不当，如“圆圆的草芽”",
+        "将“弯弯”写成“弯”"
+      ],
+      "tips": "结合课文画面记忆，比如看见月亮就想“弯弯”，看见星星就想“闪闪”。"
+    }
+  ]
+}

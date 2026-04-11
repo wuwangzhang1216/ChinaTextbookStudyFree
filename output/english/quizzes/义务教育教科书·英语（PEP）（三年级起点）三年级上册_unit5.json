@@ -1,0 +1,714 @@
+{
+  "textbook": "人教版 PEP 英语三年级上册",
+  "unit": "Let's eat!",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 Let's eat! 单元基础达标测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "Juice 的中文意思是“果汁”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Juice 意为果汁，属于本单元核心词汇。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "Egg 的中文意思是“鱼”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Egg 的中文意思是“鸡蛋”，鱼是 fish。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "当别人说 Thank you 时，你应该回答 You're welcome。",
+        "options": [],
+        "answer": "对",
+        "explanation": "You're welcome 是对感谢的标准礼貌回问。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字母Oo至Tt的音形辨析",
+        "question": "字母 R 的小写形式是 r。",
+        "options": [],
+        "answer": "对",
+        "explanation": "考察字母 Rr 的大小写对应。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "I'd like some water. 的意思是我想要一些牛奶。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Water 是水，不是牛奶 (milk)。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "Look at the bread. It's so _______.",
+        "options": [
+          "blue",
+          "brown",
+          "green",
+          "red"
+        ],
+        "answer": "brown",
+        "explanation": "面包通常被描述为棕色/褐色。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "I'm hungry. I want some _______.",
+        "options": [
+          "water",
+          "juice",
+          "bread",
+          "milk"
+        ],
+        "answer": "bread",
+        "explanation": "hungry 意为饥饿，四个选项中只有 bread 是固体食物。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "— Can I have some juice? — _______.",
+        "options": [
+          "Goodbye",
+          "Here you are",
+          "I'm fine",
+          "Great"
+        ],
+        "answer": "Here you are",
+        "explanation": "递给他人东西时说 Here you are（给你）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字母Oo至Tt的音形辨析",
+        "question": "找出下列字母中发音含有 /p/ 音的单词：",
+        "options": [
+          "pig",
+          "dog",
+          "cat",
+          "ant"
+        ],
+        "answer": "pig",
+        "explanation": "Pig 以字母 P 开头，发音为 /p/。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "I'd like some _______.",
+        "options": [
+          "a water",
+          "waters",
+          "water",
+          "an water"
+        ],
+        "answer": "water",
+        "explanation": "Water 是不可数名词，不能加 a/an 或变复数。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物词汇识记",
+        "question": "你想让对方喝点果汁，应该说：",
+        "options": [
+          "Have some juice.",
+          "I like juice.",
+          "This is juice.",
+          "Cool!"
+        ],
+        "answer": "Have some juice.",
+        "explanation": "Have some... 是请别人吃/喝东西的常用句型。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "Which one is different? (哪一个是不同类的？)",
+        "options": [
+          "milk",
+          "juice",
+          "water",
+          "egg"
+        ],
+        "answer": "egg",
+        "explanation": "前三个是液体饮料，egg 是固体食物。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "— Have some milk. — _______.",
+        "options": [
+          "Good",
+          "OK",
+          "Thanks",
+          "Fine"
+        ],
+        "answer": "Thanks",
+        "explanation": "接受别人的提议或招待后应表达感谢。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "I'd like _______ egg and some milk.",
+        "options": [
+          "a",
+          "an",
+          "/",
+          "the"
+        ],
+        "answer": "an",
+        "explanation": "egg 以元音音素开头，使用不定冠词 an。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "— Can I have some water? — _______",
+        "options": [
+          "Sure. Here you are.",
+          "I'd like some water.",
+          "Me too.",
+          "I'm Sarah."
+        ],
+        "answer": "Sure. Here you are.",
+        "explanation": "Sure 是对请求的肯定回答。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "Drink some ______. (喝些水吧。)",
+        "options": [],
+        "answer": "water",
+        "explanation": "中文提示为水，对应单词 water。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "I ______ like some rice. (我想要一些米饭。)",
+        "options": [],
+        "answer": "would",
+        "explanation": "I'd like 是 I would like 的缩写形式。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "Eat some ______. (吃些面包。)",
+        "options": [],
+        "answer": "bread",
+        "explanation": "中文提示为面包，对应单词 bread。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物词汇识记",
+        "question": "I like ______. (我喜欢喝牛奶。)",
+        "options": [],
+        "answer": "milk",
+        "explanation": "根据题干逻辑填入牛奶对应的单词。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "将下列食物单词与其意思匹配。",
+        "options": [
+          "cake",
+          "egg",
+          "fish",
+          "rice",
+          "鱼",
+          "米饭",
+          "蛋糕",
+          "鸡蛋"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "cake-蛋糕, egg-鸡蛋, fish-鱼, rice-米饭。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "常用表达英汉配对。",
+        "options": [
+          "I'm hungry.",
+          "Here you are.",
+          "You're welcome.",
+          "Eat some fish.",
+          "给你。",
+          "不客气。",
+          "吃些鱼吧。",
+          "我饿了。"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "根据句子的交际功能进行匹配。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "连词成句：some, I'd, juice, like",
+        "options": [
+          "some",
+          "I'd",
+          "juice",
+          "like"
+        ],
+        "answer": "I'd,like,some,juice",
+        "explanation": "固定句型 I'd like + some + 食物。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "连词成句：Can, have, I, some, water",
+        "options": [
+          "Can",
+          "have",
+          "I",
+          "some",
+          "water"
+        ],
+        "answer": "Can,I,have,some,water",
+        "explanation": "询问是否可以吃/喝某物的疑问句型。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级上学期期中英语综合测评卷 (Unit 1-5)",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "“Drink some milk.” 是“吃点牛奶”的意思。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Drink 是“喝”，不是“吃”。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "I'd like some water. 句子的中文意思是“我想要一些水”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "I'd like means 我想要。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字母Oo至Tt的音形辨析",
+        "question": "字母 S 的后一个字母是 T。",
+        "options": [],
+        "answer": "对",
+        "explanation": "考察字母表顺序 PQRS T。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "食物词汇识记",
+        "question": "Bread 和 juice 都是喝的饮料。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Bread（面包）是吃的，只有 juice（果汁）是喝的。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "“Here you are.” 翻译成“你在这儿”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Here you are 意思是“给你”。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "— Can I have some water? — _______",
+        "options": [
+          "Thank you",
+          "Sure",
+          "No",
+          "Hello"
+        ],
+        "answer": "Sure",
+        "explanation": "表示同意对方的请求。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物词汇识记",
+        "question": "Which of these is food? (哪一个是食物？)",
+        "options": [
+          "blue",
+          "nine",
+          "bread",
+          "ruler"
+        ],
+        "answer": "bread",
+        "explanation": "Bread 是面包，其他分别是颜色、数字和文具。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字母Oo至Tt的音形辨析",
+        "question": "The capital letter of 'q' is _______.",
+        "options": [
+          "O",
+          "P",
+          "Q",
+          "R"
+        ],
+        "answer": "Q",
+        "explanation": "考察小写字母 q 对应的大写字母。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "— Give me a ______ please. — OK.",
+        "options": [
+          "water",
+          "juice",
+          "milk",
+          "cake"
+        ],
+        "answer": "cake",
+        "explanation": "冠词 a 后面接可数名词单数，cake 可数，water/juice/milk 为不可数。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "Zoom: I'd like some fish. Zip: _______",
+        "options": [
+          "Me too.",
+          "I'm Zip.",
+          "I'm hungry.",
+          "No."
+        ],
+        "answer": "Me too.",
+        "explanation": "Me too 表示我也一样。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物词汇识记",
+        "question": "Drinking too much ______ is not good for you.",
+        "options": [
+          "bread",
+          "rice",
+          "coke",
+          "fish"
+        ],
+        "answer": "coke",
+        "explanation": "Drinking 后接液体饮料，只有 coke 符合。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "— _______ — Thanks.",
+        "options": [
+          "What's this?",
+          "How are you?",
+          "Have some eggs.",
+          "Good morning."
+        ],
+        "answer": "Have some eggs.",
+        "explanation": "提议给某人食物时，对方应回答 Thanks。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字母Oo至Tt的音形辨析",
+        "question": "下列字母发音含元音音素 /e/ 的是：",
+        "options": [
+          "S",
+          "O",
+          "P",
+          "Q"
+        ],
+        "answer": "S",
+        "explanation": "S 的字母发音为 /es/，包含 /e/。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "你想喝果汁，你应该说：",
+        "options": [
+          "I'd like some juice.",
+          "Can I have some milk?",
+          "Have some juice.",
+          "Look at the juice."
+        ],
+        "answer": "I'd like some juice.",
+        "explanation": "表达个人需求的主动句。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "How many ______?",
+        "options": [
+          "water",
+          "cakes",
+          "juice",
+          "milk"
+        ],
+        "answer": "cakes",
+        "explanation": "How many 后接可数名词复数。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "English for 鱼 is ______.",
+        "options": [],
+        "answer": "fish",
+        "explanation": "鱼的英文是 fish。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "English for 鸡蛋 is ______.",
+        "options": [],
+        "answer": "egg",
+        "explanation": "考察核心词汇书写。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "You are ______. (不用谢。)",
+        "options": [],
+        "answer": "welcome",
+        "explanation": "You're welcome 或 You are welcome 均可，填写 welcome。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "Can I ______ some bread? (我可以吃些面包吗？)",
+        "options": [],
+        "answer": "have",
+        "explanation": "Can I have ... 是本单元固定句式。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "情景对话连线。",
+        "options": [
+          "How are you?",
+          "I'd like some milk.",
+          "I'm hungry.",
+          "Thank you.",
+          "Give you some bread.",
+          "You're welcome.",
+          "I'm fine, thanks.",
+          "Here you are."
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "考查日常交际用语的逻辑应答。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物词汇识记",
+        "question": "饮料类词汇匹配。",
+        "options": [
+          "water",
+          "milk",
+          "juice",
+          "coke",
+          "可乐",
+          "水",
+          "牛奶",
+          "果汁"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "考查饮料类单词的义项。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "连词成句：have, Can, I, some, fish",
+        "options": [
+          "have",
+          "Can",
+          "I",
+          "some",
+          "fish"
+        ],
+        "answer": "Can,I,have,some,fish",
+        "explanation": "情态动词引导的一般疑问句。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达饮食需求与礼貌用语",
+        "question": "连词成句：welcome, You, welcome, are",
+        "options": [
+          "You",
+          "are",
+          "welcome"
+        ],
+        "answer": "You,are,welcome",
+        "explanation": "礼貌语的主语+系动词+表语结构。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "食物及饮料词汇",
+      "core_concept": "掌握饮食生活中常见的名词及类别区分",
+      "key_formula": "固体食物: cake, bread, egg, fish, rice; 液体饮料: water, milk, juice",
+      "common_mistakes": [
+        "将 water, milk, juice 误作为可数名词使用",
+        "分不清 bread (面包) 和 cake (蛋糕)"
+      ],
+      "tips": "可以通过‘吃(Eat)’和‘喝(Drink)’两个动作来分类记忆这些词汇。"
+    },
+    {
+      "point": "索要食物的礼貌句型",
+      "core_concept": "学会使用 Can I have... 和 I'd like... 寻求他人帮助或表达愿望",
+      "key_formula": "Can I have some [+食物]? (询问); I'd like some [+食物]. (表达)",
+      "common_mistakes": [
+        "在 I'd like 后直接加动词原形（三年级阶段仅要求接名词）",
+        "忘记在请求后加 please 以示礼貌"
+      ],
+      "tips": "‘d 是 would 的缩写，语气比 want 更加委婉礼貌。"
+    },
+    {
+      "point": "字母 Oo-Tt 的认读与书写",
+      "core_concept": "字母在单词首位时的发音及其标准手写形式",
+      "key_formula": "Oo-orange, Pp-pig, Qq-queen, Rr-red, Ss-six, Tt-tiger",
+      "common_mistakes": [
+        "小写 p 和 q 的方向写反",
+        "r 的小写笔画不规范，写成类似 v 的形状"
+      ],
+      "tips": "记住‘向左大头是 q，向右大头是 p’来区分 p 和 q。"
+    }
+  ]
+}

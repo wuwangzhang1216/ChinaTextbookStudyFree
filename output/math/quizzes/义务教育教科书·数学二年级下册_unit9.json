@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级下册",
+  "unit": "数学广角——推理",
+  "unit_number": 9,
+  "unit_test": {
+    "title": "第九单元「数学广角——推理」单元检测卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "三名同学分别拿着语文、数学、英语书。小红拿的是数学书，小刚拿的不是语文书，那么小刚拿的一定是英语书。",
+        "options": [],
+        "answer": "对",
+        "explanation": "小红拿了数学书。剩下语文和英语书。小刚拿的不是语文书，排除后小刚只能拿英语书。判断正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "在三人排队的推理中，如果已知甲不是第一名，那么甲一定是第三名。",
+        "options": [],
+        "answer": "错",
+        "explanation": "甲不是第一名，还有可能是第二名或第三名，不能确定一定是第三名。判断错误。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "行列约束推理（数独初步）",
+        "question": "在 $3 \times 3$ 的方格中，每一行和每一列的数字都不能重复。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据数独初步规则，行和列的数字均需不重复。判断正确。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "小明、小华和小芳比赛跑步。小明说：“我不是第一名”，小华说：“我是第一名”。那么小芳一定是第二名。",
+        "options": [],
+        "answer": "错",
+        "explanation": "小华是第一名，小明不是第一，则小明可能是第二或第三。若小明是第二，小芳就是第三；若小明是第三，小芳就是第二。条件不足，判断错误。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "有两块糖，一块是草莓味，一块是苹果味。小红拿了草莓味，小兰拿的就一定是苹果味。",
+        "options": [],
+        "answer": "对",
+        "explanation": "总共两块，小红拿走一块，剩下的那一块只能给小兰，即苹果味。判断正确。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "有三只小动物：小猫、小狗和小兔。它们分别喜欢吃鱼、骨头和萝卜。已知小猫不喜欢吃萝卜，小狗喜欢吃骨头。请问小猫喜欢吃什么？",
+        "options": [
+          "鱼",
+          "骨头",
+          "萝卜",
+          "无法确定"
+        ],
+        "answer": "鱼",
+        "explanation": "喜欢的东西有：鱼、骨头、萝卜。小狗选了骨头，还剩鱼和萝卜。小猫不喜欢萝卜，所以小猫只能选鱼。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "小红、小丽和小刚三个人的身高各不相同。小红说：“我不是最高的”，小刚说：“我是最矮的”。那谁是最高的？",
+        "options": [
+          "小红",
+          "小丽",
+          "小刚",
+          "无法确定"
+        ],
+        "answer": "小丽",
+        "explanation": "小刚最矮。剩下小红和小丽争夺最高。小红说她不是最高的，那么最高的只能是小丽。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "三个小朋友分别出生在上海、北京、广州。小明说“我没去过北京”，小红说“我出生在上海”。小明出生在哪个城市？",
+        "options": [
+          "北京",
+          "上海",
+          "广州",
+          "武汉"
+        ],
+        "answer": "广州",
+        "explanation": "小红选了上海。剩下北京和广州。小明没去过北京（没出生在北京），所以小明出生在广州。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "列表法与对应关系",
+        "question": "甲、乙、丙三个班进行足球赛，甲班没得第一，乙班不是第一也不是第三。请问丙班得了第几名？",
+        "options": [
+          "第一名",
+          "第二名",
+          "第三名",
+          "第四名"
+        ],
+        "answer": "第一名",
+        "explanation": "乙班不是第一也不是第三，所以乙班是第二。还剩下第一和第三。甲班没得第一，所以甲班是第三。那么丙班就是第一。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "二年级一班参加兴趣小组，明明、亮亮和圆圆分别参加了美术、舞蹈和书法组。明明参加的是美术组，圆圆参加的不是书法组。亮亮参加的是什么组？",
+        "options": [
+          "美术组",
+          "舞蹈组",
+          "书法组",
+          "围棋组"
+        ],
+        "answer": "书法组",
+        "explanation": "明明美术组。剩下舞蹈和书法。圆圆不是书法，所以圆圆是舞蹈。最后亮亮只能是书法组。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "已知 A、B、C 是三个不同的数字 1, 2, 3。如果 A=3，B 不是 2，那么 C 是多少？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "answer": "2",
+        "explanation": "A=3，剩下 1 和 2。B 不是 2，所以 B=1。那么 C 必须等于 2。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "行列约束推理（数独初步）",
+        "question": "在一个 $4 \times 4$ 的方格中，每行每列都有数字 1、2、3、4。某一行已经有了 1、2、4，那么这一行空格里应填多少？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3",
+        "explanation": "每一行数字不能重复且包含 1 到 4。已有 1, 2, 4，缺少的数字是 3。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "小明、小华、小东三人中，一人是老师，一人是医生，一人是司机。小明是医生，小华不是老师。谁是老师？",
+        "options": [
+          "小明",
+          "小华",
+          "小东",
+          "小红"
+        ],
+        "answer": "小东",
+        "explanation": "小明医生。剩下老师和司机。小华不是老师，小华是司机。所以小东是老师。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "黑兔、白兔、灰兔比赛跳高。黑兔说：“我跳得不是最高的”，白兔说：“我跳得最高”。请问谁跳得最矮？",
+        "options": [
+          "黑兔",
+          "白兔",
+          "灰兔",
+          "无法确定"
+        ],
+        "answer": "黑兔",
+        "explanation": "白兔最高。剩下黑兔和灰兔。黑兔说自己不是最高（即为剩余中较矮的一个），所以黑兔最矮。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "三个箱子分别装有苹果、橙子和香蕉。1号箱装的是香蕉，2号箱装的不是苹果。3号箱装的是什么？",
+        "options": [
+          "苹果",
+          "橙子",
+          "香蕉",
+          "西瓜"
+        ],
+        "answer": "苹果",
+        "explanation": "1号是香蕉。剩下苹果和橙子。2号不是苹果，所以2号是橙子。那么3号只能是苹果。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "列表法与对应关系",
+        "question": "甲、乙、丙三人比体重。甲比乙重，丙比甲重。请问谁最轻？",
+        "options": [
+          "甲",
+          "乙",
+          "丙",
+          "一样重"
+        ],
+        "answer": "乙",
+        "explanation": "丙 > 甲，且 甲 > 乙。所以 丙 > 甲 > 乙。乙最轻。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "行列约束推理（数独初步）",
+        "question": "在方格填充中，如果第一行是 1、2、4、3，第二行不能和第一行列重复，第二行第一个数填了 2。那么第二行第二个数不能填什么？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "根据规则，同一行数字不能重复。既然第二行第一个数已经是 2，第二个数绝对不能再填 2。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "小青和小蓝分别拿着红色和蓝色的气球。小青说：“我拿的不是红色的。”小蓝拿的是什么颜色的？",
+        "options": [
+          "红色",
+          "蓝色",
+          "黄色",
+          "绿色"
+        ],
+        "answer": "红色",
+        "explanation": "只有红蓝两种颜色。小青不是红，那小青是蓝。小蓝就只能是红。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "有 3 个不同的数 5, 8, 9。A 既不是 8 也不是 9，那么 A 是 ___。",
+        "options": [],
+        "answer": "5",
+        "explanation": "已知可选数字为 5, 8, 9。排除 8 和 9 之后，只剩下 5。故 A = 5。验算：5 不等于 8 且不等于 9 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "小明、小刚和小红玩猜数游戏，数字是 1, 2, 3。小明猜 1，小红不能猜 1。如果小红猜的不是 2，那么小红只能猜 ___。",
+        "options": [],
+        "answer": "3",
+        "explanation": "数字有 1, 2, 3。小红不能猜 1（被小明猜了），又不是 2。排除 1 和 2，只剩 3。验算：3 符合不是 1 且不是 2 的条件 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "行列约束推理（数独初步）",
+        "question": "在一段 3 格的横行里填入 1, 2, 3。第一格填了 1，第三格填了 2，中间那个格应该填 ___。",
+        "options": [],
+        "answer": "3",
+        "explanation": "一行需有 1, 2, 3 且不重复。已有 1 和 2。中间一格 $3 - 1 - 2 = 0$ 是不对的，应该是剩余数字 3。验算：1, 3, 2 不重复 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "$9 \times 4 = ?$",
+        "options": [],
+        "answer": "36",
+        "explanation": "直接应用乘法口诀：四九三十六。$9 \times 4 = 36$。验算：$36 \times 4 = 9$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "$45 \times 0 = ?$",
+        "options": [],
+        "answer": "0",
+        "explanation": "任何数与 0 相乘都得 0。$45 \times 0 = 0$。验算：$0 \times 45 = 0$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "人教版二年级下册数学广角综合测评卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "两个小朋友玩石头剪刀布，只要有一个人不赢，另一个人就一定赢。",
+        "options": [],
+        "answer": "错",
+        "explanation": "还存在“平局”的可能。所以不赢不代表对方一定赢。判断错误。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "小红、小明排队接水。小红不在小明后面，那小红一定在小明前面。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两个人的排队关系只有前后。不在后面就在前面。判断正确。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "行列约束推理（数独初步）",
+        "question": "在数独练习中，每一行可以出现两个相同的数字。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数独的基本规则就是每行、每列数字不重复。判断错误。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "列表法与对应关系",
+        "question": "三个小朋友每人各拿一种水果。只要确定了两个人的水果，就可以推出第三个人的水果。",
+        "options": [],
+        "answer": "对",
+        "explanation": "总共三种水果，确定了前两个，最后一种必然归属于第三个人。判断正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "行列约束推理（数独初步）",
+        "question": "在一个 $4 \times 4$ 的格子中，已知某行已经填了 3 个不同的数，那么该行第 4 个数是唯一确定的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "总共 4 个数，确定了 3 个，剩余的一个必然是唯一确定的。判断正确。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "三个同学比赛跳绳。小青不是最后一名，小月是第一名。谁是最后一名？",
+        "options": [
+          "小青",
+          "小月",
+          "小琳",
+          "无法确定"
+        ],
+        "answer": "小琳",
+        "explanation": "小月第一。剩小青和小琳。小青不是最后一名，所以小青是第二。最后一名是小琳。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "李老师、张老师、王老师分别教语文、数学、英语。李老师不教英语，王老师教数学。李老师教什么？",
+        "options": [
+          "语文",
+          "数学",
+          "英语",
+          "体育"
+        ],
+        "answer": "语文",
+        "explanation": "王教数学。剩下语文和英语。李不教英语，所以李教语文。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "列表法与对应关系",
+        "question": "大象、长颈鹿、熊猫去排队。熊猫在长颈鹿前面，大象在后面。谁排在最前面？",
+        "options": [
+          "大象",
+          "长颈鹿",
+          "熊猫",
+          "无法判断"
+        ],
+        "answer": "熊猫",
+        "explanation": "熊猫在前，长颈鹿在后；大象又在最后。顺序是：熊猫 > 长颈鹿 > 大象。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "行列约束推理（数独初步）",
+        "question": "在如下图结构的方格中（横行A,B,C），如果A填1，B填2，那么C只能填几？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "answer": "3",
+        "explanation": "根据不重复原则，$1, 2, 3$ 中排除 1 和 2，只剩 3。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "红红、明明、亮亮三个人中，一个是班长，一个是组长，一个是课代表。红红说：“我不是班长”，明明说：“我是课代表”。红红是什么？",
+        "options": [
+          "班长",
+          "组长",
+          "课代表",
+          "老师"
+        ],
+        "answer": "组长",
+        "explanation": "明明是课代表。剩下班长和组长。红红不是班长，所以红红是组长。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "列表法与对应关系",
+        "question": "甲、乙、丙、丁四人比身高。甲比乙高，乙比丙高，丁最矮。谁最高？",
+        "options": [
+          "甲",
+          "乙",
+          "丙",
+          "丁"
+        ],
+        "answer": "甲",
+        "explanation": "顺序为：甲 > 乙 > 丙。丁最矮排最后。所以甲最高。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "二年级一班选班长。王红得票不是最少的，李明得票最多。谁得票最少？",
+        "options": [
+          "王红",
+          "李明",
+          "张强",
+          "无法确定"
+        ],
+        "answer": "张强",
+        "explanation": "李明最多。剩王红和张强。王红不是最少，那张强就是最少。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "三个圆球分别是红、黄、绿。1号球不是黄色的，2号球是绿色的。1号球是什么颜色的？",
+        "options": [
+          "红色",
+          "黄色",
+          "绿色",
+          "蓝色"
+        ],
+        "answer": "红色",
+        "explanation": "2号绿。剩红黄。1号不黄，所以1号红。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "行列约束推理（数独初步）",
+        "question": "在一个 $3 \times 3$ 方格中，第一行是 1, 2, 3。第二行第一个数是 3，第二个数是 1。第二行第三个数是多少？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "answer": "2",
+        "explanation": "第二行已有 3, 1。还缺 2。填入 2 满足行不重复。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "明明、圆圆和方方每人手里拿一个图形，分别是长方形、正方形和圆形。明明拿的是长方形，圆圆拿的不是正方形。方方拿的是什么？",
+        "options": [
+          "长方形",
+          "正方形",
+          "圆形",
+          "三角形"
+        ],
+        "answer": "正方形",
+        "explanation": "明明长方形。剩正、圆。圆圆不拿正，圆圆拿圆。方方拿正方形。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "小力、小强、小明三人比年龄。小力不是最大的，小明最小。谁最大？",
+        "options": [
+          "小力",
+          "小强",
+          "小明",
+          "无法比较"
+        ],
+        "answer": "小强",
+        "explanation": "小明最小。剩下小力和小强。小力不是最大，所以小强最大。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "列表法与对应关系",
+        "question": "四个生肖分别是鼠、牛、虎、兔。小明不属鼠，他不属虎也不属兔。小明属什么？",
+        "options": [
+          "鼠",
+          "牛",
+          "虎",
+          "兔"
+        ],
+        "answer": "牛",
+        "explanation": "排除鼠、虎、兔，只剩下牛。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "文文、静静、花花分别吃苹果、梨、桃子。文文吃苹果，花花不吃桃子。静静吃什么？",
+        "options": [
+          "苹果",
+          "梨",
+          "桃子",
+          "西瓜"
+        ],
+        "answer": "桃子",
+        "explanation": "文文苹果。剩梨和桃。花花不吃桃，花花吃梨。静静吃桃子。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "三位数 123 中，百位不是 1，也不是 3。百位数字是 ___。",
+        "options": [],
+        "answer": "2",
+        "explanation": "数字可选 1, 2, 3。排除 1 和 3，百位只能是 2。验算：百位是 2 符合已知排除条件 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "行列约束推理（数独初步）",
+        "question": "在一个 $4 \times 4$ 方格中，第一列已经填了 1, 2, 3，那么第一列最后一个格子应填数字 ___。",
+        "options": [],
+        "answer": "4",
+        "explanation": "每列必须包含 1, 2, 3, 4 且不重复。现有 1, 2, 3，剩下只能是 4。验证：$4-3-2-1=0$ 不是加减法，是逻辑填空 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "小兔有 15 个萝卜，吃掉一些后还剩 7 个。它一共吃掉了 ___ 个萝卜。",
+        "options": [],
+        "answer": "8",
+        "explanation": "列式：$15 - 7 = 8$。验算：$8 + 7 = 15$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "$81 \times 1 = ?$",
+        "options": [],
+        "answer": "81",
+        "explanation": "$81 \times 1 = 81$。任何数与 1 相乘仍得该数。验算：$81 \times 1 = 81$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的逻辑排除法",
+        "question": "$7 \times 8 + 4 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "先做乘法：$7 \times 8 = 56$。再做加法：$56 + 4 = 60$。验算：$60 - 4 = 56$，$56 \times 7 = 8$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "简单的逻辑排除法",
+      "core_concept": "逻辑排除法是指在推理过程中，根据已知的所有条件，依次排除掉不可能的情况，最后剩下的就是正确结论。通常使用“不是……就是……”或“既不是……也不是……”来帮助判断。",
+      "key_formula": "排除项 + 排除项 \rightarrow 剩余项",
+      "common_mistakes": [
+        "在只有三个选项的情况下，排除一个后就立刻下结论，忽略了还有两个可能的选项。",
+        "混淆“不是”和“是”的条件，导致推理方向错误。"
+      ],
+      "tips": "做题时可以把所有选项列出来，将不符合的项划掉，剩下的就是答案。"
+    },
+    {
+      "point": "列表法与对应关系",
+      "core_concept": "当推理涉及多个对象和多种属性（如人物、颜色、交通工具等）时，通过画表的方式可以将杂乱的文字信息整理得清晰。在表格中用“√”表示肯定，用“×”表示否定，能有效避免遗漏。",
+      "key_formula": "对象 \times 属性 = 对应关系表",
+      "common_mistakes": [
+        "在一个对象对应了一个属性后，忘记在同行的其他属性格里打“×”。",
+        "没有仔细审题，导致勾选的对应关系出错。"
+      ],
+      "tips": "要掌握“纵看横看”的技巧，只要某一行出现了一个全对，其余格子必须全是错。"
+    },
+    {
+      "point": "行列约束推理（数独初步）",
+      "core_concept": "在特定的方格（如 $3 \times 3$ 或 $4 \times 4$）内填入数字，要求每一行、每一列的数字都不能重复出现。这需要观察所在行和所在列中已经有的数字，通过交叉观察找到空格里唯一的数字。",
+      "key_formula": "第 n 行不含重复数字 \bigcap 第 m 列不含重复数字",
+      "common_mistakes": [
+        "只看行不重复，忘记去查列是否有重复数字。",
+        "填数顺序混乱，建议从已知数字最多的行或列开始推理。"
+      ],
+      "tips": "找交集！找那个既属于某个数字较多行，又属于某个数字较多列的空格入手。"
+    }
+  ]
+}

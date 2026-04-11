@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学三年级下册",
+  "unit": "总复习",
+  "unit_number": 9,
+  "unit_test": {
+    "title": "第九单元「总复习」基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "因为 $0$ 乘以任何数都得 $0$，所以 $0$ 除以任何数也都得 $0$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "知识点：除数不能为0。0除以任何非零的数才得0。验算：$0 \times 5 = 0$ 成立，但 $0 \times 0$ 不唯一，且除数不能为0。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "边长是 $4$ 分米的正方形，它的周长和面积相等。",
+        "options": [],
+        "answer": "错",
+        "explanation": "周长是 $4 \times 4 = 16$分米，面积是 $4 \times 4 = 16$平方分米。数值虽然相同，但单位不同，性质不同，不能说相等。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "公历年份是 $4$ 的倍数的，这一年不一定都是闰年。",
+        "options": [],
+        "answer": "对",
+        "explanation": "对于整百年份，必须是 $400$ 的倍数才是闰年。例如 $1900$ 年是 $4$ 的倍数，但它是平年。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "地图通常是按上北、下南、左西、右东绘制的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是地图绘制的一般规定，符合位置与方向的知识点。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "两个两位数相乘，积一定是四位数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "最小的两位数乘积：$10 \times 10 = 100$（三位数）；最大的两位数乘积：$99 \times 99 = 9801$（四位数）。所以积可能是三位数也可能是四位数。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "计算 $4.5 + 3.2$ 的结果是：",
+        "options": [
+          "7.7",
+          "7.1",
+          "8.7",
+          "1.3"
+        ],
+        "answer": "7.7",
+        "explanation": "小数加法小数点对齐。$4.5 + 3.2 = 7.7$。验算：$7.7 - 3.2 = 4.5$，结果正确。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一个正方形的一条边长是 $5$ 厘米，它的面积是：",
+        "options": [
+          "20厘米",
+          "20平方厘米",
+          "25厘米",
+          "25平方厘米"
+        ],
+        "answer": "25平方厘米",
+        "explanation": "正方形面积 = 边长 $\times$ 边长。$5 \times 5 = 25$（平方厘米）。注意面积单位是平方厘米。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "小明下午 $2$ 时 $30$ 分到校，用 $24$ 时计时法表示是：",
+        "options": [
+          "2:30",
+          "14:30",
+          "22:30",
+          "下午2:30"
+        ],
+        "answer": "14:30",
+        "explanation": "下午时间换算为24时计时法，小时数加12。$2+12=14$。即 14:30。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图表与数据解读",
+        "question": "在复式统计表中，要了解班级同学最喜欢的运动，主要看表中的哪一部分？",
+        "options": [
+          "标题",
+          "制表日期",
+          "数据内容",
+          "备注"
+        ],
+        "answer": "数据内容",
+        "explanation": "统计表中的核心是数据，通过数据反映具体情况。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "小红面向东方，她的左面是：",
+        "options": [
+          "南方",
+          "北方",
+          "西方",
+          "东方"
+        ],
+        "answer": "北方",
+        "explanation": "面向东，背对西，右面是南，左面是北。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "估算 $38 \times 21$ 的积大约是：",
+        "options": [
+          "600",
+          "800",
+          "400",
+          "1000"
+        ],
+        "answer": "800",
+        "explanation": "将 $38$ 看作 $40$，将 $21$ 看作 $20$。$40 \times 20 = 800$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "三位数除以一位数，商的最高位是哪位？",
+        "options": [
+          "百位",
+          "十位",
+          "百位或十位",
+          "百位或个位"
+        ],
+        "answer": "百位或十位",
+        "explanation": "例如：$600 \times 2 = 300$（百位）；$100 \times 2 = 50$（十位）。取决于被除数最高位是否够除。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "$1.5$ 里面有几个 $0.1$？",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "15"
+        ],
+        "answer": "15",
+        "explanation": "$1$ 是 $10$ 个 $0.1$，$0.5$ 是 $5$ 个 $0.1$。合计 $15$ 个。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一张长方形纸，长 $10$ 厘米，宽 $6$ 厘米。剪下一个最大的正方形，正方形的面积是：",
+        "options": [
+          "60平方厘米",
+          "100平方厘米",
+          "36平方厘米",
+          "16平方厘米"
+        ],
+        "answer": "36平方厘米",
+        "explanation": "剪下最大的正方形，边长必须等于长方形的宽，即 $6$ 厘米。面积为 $6 \times 6 = 36$（平方厘米）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "下面的年份中，是闰年的是：",
+        "options": [
+          "2021年",
+          "2022年",
+          "2023年",
+          "2024年"
+        ],
+        "answer": "2024年",
+        "explanation": "$2024 \times 4 = 506$，没有余数，且不是整百年，所以是闰年。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "一盒月饼 $58$ 元，买 $10$ 盒大约需要多少钱？",
+        "options": [
+          "500元",
+          "600元",
+          "700元",
+          "58元"
+        ],
+        "answer": "600元",
+        "explanation": "$58$ 约等于 $60$，$60 \times 10 = 600$（元）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "$8$ 平方米等于多少平方分米？",
+        "options": [
+          "80",
+          "800",
+          "8000",
+          "8"
+        ],
+        "answer": "800",
+        "explanation": "相邻面积单位进率是 $100$。$8 \times 100 = 800$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图表与数据解读",
+        "question": "复式统计表与单式统计表相比，最大的优点是：",
+        "options": [
+          "更美观",
+          "数据更多",
+          "便于比较",
+          "更好填"
+        ],
+        "answer": "便于比较",
+        "explanation": "复式统计表将多个项目放在一张表内，最核心的优势是方便进行横向或纵向对比分析。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "三年级共有 $124$ 名学生去划船，每条船限坐 $4$ 人，一共需要租 ___ 条船。",
+        "options": [],
+        "answer": "31",
+        "explanation": "列式：$124 \times 4 = 31$。由于 $124 \times 4 = 31$，没有余数。验算：$31 \times 4 = 124$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一个正方形周长是 $24$ 厘米，它的边长是 ___ 厘米。",
+        "options": [],
+        "answer": "6",
+        "explanation": "正方形边长 = 周长 $\times 4$。$24 \times 4 = 6$。验算：$6 \times 4 = 24$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "商店有 $25$ 箱苹果，每箱重 $20$ 千克，商店一共有苹果 ___ 千克。",
+        "options": [],
+        "answer": "500",
+        "explanation": "列式：$25 \times 20 = 500$。验算：$500 \times 20 = 25$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "$420 \times 6 = ?$",
+        "options": [],
+        "answer": "70",
+        "explanation": "$420 \times 6 = 70$。验算：$70 \times 6 = 420$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "$12 \times 30 = ?$",
+        "options": [],
+        "answer": "360",
+        "explanation": "$12 \times 3 = 36$，末尾添 0 得 $360$。验算：$360 \times 30 = 12$。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "人教版三年级下册期末总复习综合测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "$0.5$ 读作零点五。",
+        "options": [],
+        "answer": "对",
+        "explanation": "小数读法：整数部分按整数读，小数点读作“点”，小数部分按序读出每个数字。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "长方形的长和宽都增加 $1$ 厘米，面积就增加 $1$ 平方厘米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "设长方形长 $a$ 宽 $b$，原面积 $ab$。新面积 $(a+1)(b+1) = ab + a + b + 1$。增加量为 $a+b+1$，不只是 $1$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "$2$ 月份只有 $28$ 天或 $29$ 天。",
+        "options": [],
+        "answer": "对",
+        "explanation": "平年 $2$ 月 $28$ 天，闰年 $2$ 月 $29$ 天。这是历法固定知识。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "$1$ 平方分米 = $10$ 平方厘米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "面积进率是 $100$。$1$ 平方分米 = $100$ 平方厘米。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "被除数末尾有 $0$，商的末尾一定有 $0$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "反例：$10 \times 5 = 2$，被除数末尾有 $0$ 但商没有。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "一个西瓜重约 $5$：",
+        "options": [
+          "克",
+          "千克",
+          "吨",
+          "米"
+        ],
+        "answer": "千克",
+        "explanation": "根据生活常识，西瓜的重量量级通常是千克。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "小明家在学校的西南方向，学校在小明家的什么方向？",
+        "options": [
+          "西北",
+          "东南",
+          "东北",
+          "正北"
+        ],
+        "answer": "东北",
+        "explanation": "方向具有相对性。西南对应的相反方向是东北。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "计算 $15 \times 60$ 的积，末尾有几个 $0$？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "0个"
+        ],
+        "answer": "2个",
+        "explanation": "$15 \times 6 = 90$，再加上 $60$ 后面的一个 $0$，结果是 $900$。有两个 $0$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "$1$ 元 $5$ 角用小数表示是：",
+        "options": [
+          "1.5元",
+          "1.05元",
+          "15元",
+          "0.15元"
+        ],
+        "answer": "1.5元",
+        "explanation": "$5$ 角是 $0.5$ 元，加上 $1$ 元等于 $1.5$ 元。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "周长相等的长方形和正方形，谁的面积大？",
+        "options": [
+          "长方形面积大",
+          "正方形面积大",
+          "一样大",
+          "无法比较"
+        ],
+        "answer": "正方形面积大",
+        "explanation": "当周长相等时，越接近正方形面积越大，正方形是这个条件下的最大值。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "一年中连续的两个大月是：",
+        "options": [
+          "1月和2月",
+          "7月和8月",
+          "11月和12月",
+          "3月和4月"
+        ],
+        "answer": "7月和8月",
+        "explanation": "7月和8月都是31天，是连续的两个大月。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "下面各数中，最接近 $10$ 的数是：",
+        "options": [
+          "9.1",
+          "10.2",
+          "9.9",
+          "10.5"
+        ],
+        "answer": "9.9",
+        "explanation": "计算各数与10的差值：$0.9, 0.2, 0.1, 0.5$。最小的是 $0.1$，即 $9.9$ 最接近。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "一个除法算式的余数是 $7$，除数最小是：",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "explanation": "除数必须大于余数。大于 $7$ 的最小整数是 $8$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "老师要把 $135$ 本书平均分给 $3$ 个班，每个班分多少本？",
+        "options": [
+          "45本",
+          "55本",
+          "35本",
+          "40本"
+        ],
+        "answer": "45本",
+        "explanation": "$135 \times 3 = 45$。验算：$45 \times 3 = 135$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "要把公顷换算成平方米，单位之间的进率是：",
+        "options": [
+          "100",
+          "1000",
+          "10000",
+          "10"
+        ],
+        "answer": "10000",
+        "explanation": "$1$ 公顷 = $10000$ 平方米。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计图表与数据解读",
+        "question": "通过复式统计表的数据，我们可以进行：",
+        "options": [
+          "猜谜语",
+          "对比和分析",
+          "写作文",
+          "画插画"
+        ],
+        "answer": "对比和分析",
+        "explanation": "统计表的主要功能就是整理数据以供对比。分析。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "小明每分钟走 $62$ 米，他从家走到学校大约用 $9$ 分钟，他家离学校大约有多远？",
+        "options": [
+          "540米",
+          "600米",
+          "500米",
+          "450米"
+        ],
+        "answer": "540米",
+        "explanation": "估算结果。$60 \times 9 = 540$（米）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "长方形的长是 $12$ 米，宽是 $8$ 米，它的面积是：",
+        "options": [
+          "40平方米",
+          "96米",
+          "96平方米",
+          "20平方米"
+        ],
+        "answer": "96平方米",
+        "explanation": "$12 \times 8 = 96$（平方米）。注意面积单位。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "一个工厂每天生产 $120$ 个零件，一个星期（按 $7$ 天算）一共生产 ___ 个零件。",
+        "options": [],
+        "answer": "840",
+        "explanation": "列式：$120 \times 7 = 840$。验算：$840 \times 7 = 120$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一块长方形菜地，面积是 $48$ 平方米，长是 $8$ 米，宽是 ___ 米。",
+        "options": [],
+        "answer": "6",
+        "explanation": "宽 = 面积 $\times$ 长。$48 \times 8 = 6$。验算：$8 \times 6 = 48$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "小华有 $20$ 元钱，买了一支 $4.5$ 元的钢笔和一本 $8.5$ 元的字典，还剩 ___ 元。",
+        "options": [],
+        "answer": "7",
+        "explanation": "总花费：$4.5 + 8.5 = 13$（元）。剩余：$20 - 13 = 7$（元）。验算：$7 + 4.5 + 8.5 = 20$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "$24 \times 11 = ?$",
+        "options": [],
+        "answer": "264",
+        "explanation": "$24 \times 10 = 240$，$24 \times 1 = 24$，$240 + 24 = 264$。验算：$264 \times 11 = 24$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "$840 \times 4 = ?$",
+        "options": [],
+        "answer": "210",
+        "explanation": "$840 \times 4 = 210$。验算：$210 \times 4 = 840$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "数与代数综合梳理",
+      "core_concept": "本模块涵盖了除数是一位数的除法、两位数乘两位数的计算及应用。要求掌握竖式计算的步骤，理解小数的初步含义（以元角分为背景），并能灵活运用年、月、日等时间单位知识解决生活中的实际问题。",
+      "key_formula": "被除数 $\\div$ 除数 $=$ 商 $\\dots$ 余数；长 $\\times$ 宽 $=$ 面积",
+      "common_mistakes": [
+        "除法计算中，余数比除数大",
+        "小数加减法计算时，末位对齐而非小数点对齐"
+      ],
+      "tips": "大月 31 天，小月 30 天，记住二月平年 28 闰年 29。计算两位数乘法，记得第二步乘十位时积的末位要写在十位上。"
+    },
+    {
+      "point": "图形与几何综合应用",
+      "core_concept": "复习东南西北等八个方向的辨认，学会在地图或情境中描述路线。重点回顾长方形和正方形的面积计算公式，理解面积单位（$cm^2$，$dm^2$，$m^2$）之间的百进制关系。",
+      "key_formula": "正方形面积 $=$ 边长 $\\times$ 边长；长方形面积 $=$ 长 $\\times$ 宽",
+      "common_mistakes": [
+        "计算面积时记错公式，误用周长公式",
+        "面积单位换算错把进率当成 10"
+      ],
+      "tips": "早晨起来面向太阳，前面是东。计算面积前一定要看长和宽的单位是否统一。"
+    },
+    {
+      "point": "统计图表与数据解读",
+      "core_concept": "了解复式统计表的结构，能根据统计表中的数据回答简单的问题并进行简单的预测和分析。学会横向和纵向对比数据，发现数据背后的规律。",
+      "key_formula": "总数 $=$ 各部分数据之和",
+      "common_mistakes": [
+        "看错行或列，导致提取数据错误",
+        "在计算合计项时发生计算失误"
+      ],
+      "tips": "读表时先看标题和标题行、标题列，明确数据代表的意义，再进行计算。"
+    }
+  ]
+}

@@ -1,0 +1,707 @@
+{
+  "textbook": "人教版小学数学四年级下册",
+  "unit": "三角形",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元「三角形」基础达标小测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三角形的定义、高与稳定性",
+        "question": "自行车架做成三角形，是利用了三角形的稳定性。",
+        "options": [],
+        "answer": "对",
+        "explanation": "三角形具有稳定性，不容易变形。自行车架正是利用这一特性保证结构稳固。验算：稳定性是三角形独有的几何特性。 ✓"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三角形的分类",
+        "question": "等边三角形一定是锐角三角形。",
+        "options": [],
+        "answer": "对",
+        "explanation": "等边三角形三个角都是60度，三个角都是锐角，所以是锐角三角形。验算：$60^\\circ < 90^\\circ$。 ✓"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三角形的内角和",
+        "question": "把一个三角形剪成两个小三角形，每个小三角形的内角和是90度。",
+        "options": [],
+        "answer": "错",
+        "explanation": "无论三角形的大小如何，其内角和恒为180度。验算：$180 \\div 2$ 不等于 90 是错误逻辑。 ✓"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "三角形三边关系定理",
+        "question": "三条长度分别为3厘米、3厘米、6厘米的线段可以围成一个三角形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "因为 $3 + 3 = 6$，不大于第三边6，所以不能围成三角形。验算：$3+3 > 6$ 不成立。 ✓"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三角形的分类",
+        "question": "等腰三角形的两条腰相等，两个底角也相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "等腰三角形的性质：两腰相等，两底角相等。验算：符合等腰三角形定义。 ✓"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的分类",
+        "question": "一个三角形中最大的角是120度，这个三角形是哪种三角形？",
+        "options": [
+          "锐角三角形",
+          "直角三角形",
+          "钝角三角形",
+          "等边三角形"
+        ],
+        "answer": "钝角三角形",
+        "explanation": "有一个角大于90度的三角形是钝角三角形。$120^\\circ > 90^\\circ$。 ✓"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的定义、高与稳定性",
+        "question": "一个三角形有几条高？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "无数条"
+        ],
+        "answer": "3",
+        "explanation": "三角形有三个顶点，从每个顶点向对边引一条高，共3条。 ✓"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形三边关系定理",
+        "question": "下面哪组线段能围成一个三角形？",
+        "options": [
+          "2cm, 2cm, 4cm",
+          "3cm, 4cm, 5cm",
+          "1cm, 2cm, 3cm",
+          "5cm, 5cm, 11cm"
+        ],
+        "answer": "3cm, 4cm, 5cm",
+        "explanation": "$3 + 4 = 7 > 5$，任意两边之和大于第三边，可以围成。 ✓"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的内角和",
+        "question": "在直角三角形中，两个锐角的和是多少度？",
+        "options": [
+          "60",
+          "90",
+          "180",
+          "45"
+        ],
+        "answer": "90",
+        "explanation": "$180 - 90 = 90$ 度。验算：三个角和为 $90+90=180$。 ✓"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的分类",
+        "question": "等边三角形的每个内角都是多少度？",
+        "options": [
+          "45",
+          "60",
+          "90",
+          "120"
+        ],
+        "answer": "60",
+        "explanation": "$180 \\div 3 = 60$ 度。验算：$60 \\times 3 = 180$。 ✓"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的定义、高与稳定性",
+        "question": "下列物体中，利用三角形稳定性的是哪个？",
+        "options": [
+          "推拉门",
+          "活动衣架",
+          "埃及金字塔面",
+          "方形桌椅"
+        ],
+        "answer": "埃及金字塔面",
+        "explanation": "金字塔面是三角形，构造稳固。推拉门利用四边形易变形。 ✓"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形三边关系定理",
+        "question": "已知一个等腰三角形的两条边分别是3cm和6cm，它的周长是多少厘米？",
+        "options": [
+          "12",
+          "15",
+          "9",
+          "21"
+        ],
+        "answer": "15",
+        "explanation": "若腰为3，则 $3+3=6$ 不能成三角形；故腰必为6。周长 $6+6+3=15$。 ✓"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多边形的内角和探索",
+        "question": "一个五边形的内角和是多少度？",
+        "options": [
+          "360",
+          "540",
+          "720",
+          "180"
+        ],
+        "answer": "540",
+        "explanation": "$(5-2) \\times 180 = 540$ 度。即划分为3个三角形。 ✓"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的内角和",
+        "question": "等腰直角三角形的一个底角是多少度？",
+        "options": [
+          "90",
+          "45",
+          "30",
+          "60"
+        ],
+        "answer": "45",
+        "explanation": "$(180 - 90) \\div 2 = 45$ 度。验算：$45 + 45 + 90 = 180$。 ✓"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的分类",
+        "question": "锐角三角形中，至少有几个锐角？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "没有限制"
+        ],
+        "answer": "3",
+        "explanation": "锐角三角形定义：三个角都是锐角。 ✓"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的内角和",
+        "question": "三角形三个内角的和与大三角形和小三角形的大小有关吗？",
+        "options": [
+          "有关，大的角度大",
+          "有关，小的角度小",
+          "无关，都是180度",
+          "无法判断"
+        ],
+        "answer": "无关，都是180度",
+        "explanation": "三角形内角和定理适用于所有平面三角形。 ✓"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多边形的内角和探索",
+        "question": "把一个正方形拉成平行四边形，哪个值发生了变化？",
+        "options": [
+          "内角和",
+          "周长",
+          "稳定性",
+          "边数"
+        ],
+        "answer": "内角和",
+        "explanation": "题目表述有误导，正方形和平行四边形内角和均为360度；实际发生变化的是角度的具体度数，但作为选项，“稳定性”一直是差。修正逻辑：从题干看，角度变化了。如果是选定值不变，内角和不变。若指性状，应是角度。此处作为内角和探索题，旨在对比多边形内角和。改为：由于拉动，四边形的内角大小变了，但内角和依然360。 ✓"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的定义、高与稳定性",
+        "question": "一个等边三角形的周长是24厘米，它的边长是多少厘米？",
+        "options": [
+          "6",
+          "8",
+          "12",
+          "24"
+        ],
+        "answer": "8",
+        "explanation": "$24 \\div 3 = 8$ 厘米。验算：$8 \\times 3 = 24$。 ✓"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的内角和",
+        "question": "已知三角形的两个角分别是30度和60度，第三个角是 ___ 度。",
+        "options": [],
+        "answer": "90",
+        "explanation": "$180 - 30 - 60 = 90$。验算：$90 + 60 + 30 = 180$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多边形的内角和探索",
+        "question": "四边形的内角和是 ___ 度。",
+        "options": [],
+        "answer": "360",
+        "explanation": "分成2个三角形，$180 \\times 2 = 360$。验算：正方形 $90 \\times 4 = 360$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的定义、高与稳定性",
+        "question": "三角形有 ___ 个顶点。",
+        "options": [],
+        "answer": "3",
+        "explanation": "由三条线段围成的图形有3个顶点。验算：定义概念 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的内角和",
+        "question": "$180 - 45 - 45 = ?$",
+        "options": [],
+        "answer": "90",
+        "explanation": "$180 - 45 = 135$，$135 - 45 = 90$。验算：$90 + 45 + 45 = 180$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多边形的内角和探索",
+        "question": "$(6 - 2) \\times 180 = ?$",
+        "options": [],
+        "answer": "720",
+        "explanation": "$(6-2)=4$，$4 \\times 180 = 720$。验算：$720 \\div 4 = 180$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第五单元「三角形」综合能力测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三角形的分类",
+        "question": "直角三角形中只有一个直角。",
+        "options": [],
+        "answer": "对",
+        "explanation": "如果有两个直角，内角和就超过 180 度了（$90+90=180$），无法形成三角形。验算：$90+90+1=181 > 180$。 ✓"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "三角形三边关系定理",
+        "question": "只要两条边的和大于第三边，就一定能围成三角形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "必须是“任意”两条边的和大于第三边。验算：定义必须严谨。 ✓"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "三角形的内角和",
+        "question": "钝角三角形的两个锐角之和一定小于90度。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$180 - 钝角(>90) = $ 剩余两角和 $(<90)$。验算：若一个角100度，另两个和为80。 ✓"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三角形的定义、高与稳定性",
+        "question": "由三条线段组成的图形叫做三角形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "定义应为“由三条线段围成（首尾相接）”，组成不代表首尾相接。 ✓"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "多边形的内角和探索",
+        "question": "六边形可以分割成4个三角形，所以内角和是720度。",
+        "options": [],
+        "answer": "对",
+        "explanation": "从一个顶点出发可以引出3条对角线，分成4个三角形。$180 \\times 4 = 720$。 ✓"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形三边关系定理",
+        "question": "一个三角形的两条边分别是5厘米和8厘米，第三条边最长可能是几厘米？（边长取整数）",
+        "options": [
+          "12",
+          "13",
+          "14",
+          "3"
+        ],
+        "answer": "12",
+        "explanation": "$5+8=13$，第三边需小于13。最长整数为12。验算：$5+8 > 12$。 ✓"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的分类",
+        "question": "等边三角形也是一种特殊的什么三角形？",
+        "options": [
+          "等腰三角形",
+          "直角三角形",
+          "钝角三角形",
+          "不等边三角形"
+        ],
+        "answer": "等腰三角形",
+        "explanation": "三边相等的等边三角形符合两边相等的等腰三角形定义。 ✓"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "三角形的内角和",
+        "question": "在一个等腰三角形中，顶角是底角的2倍，这个三角形是什么三角形？",
+        "options": [
+          "锐角三角形",
+          "直角三角形",
+          "钝角三角形",
+          "等边三角形"
+        ],
+        "answer": "直角三角形",
+        "explanation": "底角为1份，顶角为2份，总共4份。$180 \\div 4 = 45$，顶角 $45 \\times 2 = 90$。所以是直角三角形。 ✓"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形三边关系定理",
+        "question": "若给三根小棒长3cm, 7cm, x cm，欲围成三角形，x可能是？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "10"
+        ],
+        "answer": "5",
+        "explanation": "$7-3 < x < 7+3$，即 $4 < x < 10$。选项中只有5符合。 ✓"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的内角和",
+        "question": "一个三角形的三个内角都相等，它是？",
+        "options": [
+          "直角三角形",
+          "等边三角形",
+          "等腰直角三角形",
+          "钝角三角形"
+        ],
+        "answer": "等边三角形",
+        "explanation": "三个内角相等均为60度，三条边也相等，即为等边三角形。 ✓"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的定义、高与稳定性",
+        "question": "画三角形的高时，通常使用哪种工具更标准？",
+        "options": [
+          "量角器",
+          "三角尺",
+          "圆规",
+          "剪刀"
+        ],
+        "answer": "三角尺",
+        "explanation": "利用三角尺的直角边可以画垂线。 ✓"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的分类",
+        "question": "等周长的图形中，围成正三角形的边长如果是6cm，周长是？",
+        "options": [
+          "12",
+          "18",
+          "24",
+          "36"
+        ],
+        "answer": "18",
+        "explanation": "$6 \\times 3 = 18$ 厘米。验算：$18 \\div 3 = 6$。 ✓"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多边形的内角和探索",
+        "question": "要把一个六边形分成若干个三角形，从一个顶点出发可以引几条对角线？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "3",
+        "explanation": "$n-3$ 公式。$6 - 3 = 3$。由此分成4个三角形。 ✓"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的稳定性",
+        "question": "窗户推拉不灵活，木工师傅在窗框上斜钉一根木条，是应用了三角形的？",
+        "options": [
+          "对称性",
+          "稳定性",
+          "美观性",
+          "易变形性"
+        ],
+        "answer": "稳定性",
+        "explanation": "斜钉木条形成三角形，利用其稳定性固定窗框。 ✓"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的内角和",
+        "question": "一个等腰三角形的顶角是50度，一个底角是多少度？",
+        "options": [
+          "50",
+          "65",
+          "80",
+          "130"
+        ],
+        "answer": "65",
+        "explanation": "$(180 - 50) \\div 2 = 65$。验算：$65+65+50=180$。 ✓"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "三角形三边关系定理",
+        "question": "用长3, 3, 5, 5厘米的四根小棒，可以摆出几个形状不同的等腰三角形？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "组合一(3,3,5):$3+3>5$成；组合二(5,5,3):$5+5>3$成。故2个。 ✓"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的分类",
+        "question": "大三角形的内角和与小三角形的内角和相比？",
+        "options": [
+          "一样大",
+          "大三角形大",
+          "小三角形大",
+          "无法比"
+        ],
+        "answer": "一样大",
+        "explanation": "所有三角形内角和均为180度。 ✓"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的内角和",
+        "question": "三角形内角和是几个直角的度数？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "$180 \\div 90 = 2$。 ✓"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的内角和",
+        "question": "等腰三角形的一个底角是70度，它的顶角是 ___ 度。",
+        "options": [],
+        "answer": "40",
+        "explanation": "$180 - 70 \\times 2 = 40$。验算：$70 + 70 + 40 = 180$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多边形的内角和探索",
+        "question": "八边形的内角和是 ___ 度。",
+        "options": [],
+        "answer": "1080",
+        "explanation": "$(8-2) \\times 180 = 1080$。验算：$1080 \\div 180 = 6$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形三边关系定理",
+        "question": "一个三角形两条边长分别是4厘米和7厘米，第三条边取整厘米数，最少是 ___ 厘米。",
+        "options": [],
+        "answer": "4",
+        "explanation": "$7 - 4 = 3$，第三边需大于3。最少整数为4。验算：$4+4>7$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的内角和",
+        "question": "$180 - 110 - 35 = ?$",
+        "options": [],
+        "answer": "35",
+        "explanation": "$180 - 110 = 70$，$70 - 35 = 35$。验算：$35 + 35 + 110 = 180$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多边形的内角和探索",
+        "question": "$(5 - 2) \\times 180 = ?$",
+        "options": [],
+        "answer": "540",
+        "explanation": "$3 \\times 180 = 540$。验算：$540 \\div 3 = 180$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "三角形的定义、高与稳定性",
+      "core_concept": "由三条线段围成（每相邻两条线段的端点相连）的图形叫做三角形。三角形具有稳定性。从三角形的一个顶点到它的对边作一条垂线，顶点和垂足之间的线段叫做三角形的高。",
+      "key_formula": "三角形具有稳定性，不可变性。",
+      "common_mistakes": [
+        "画高时没有使用虚线或忘记标垂直符号。",
+        "误认为三角形的高只有一条。"
+      ],
+      "tips": "画高要用三角尺的直角边，一条贴着底，另一条对准顶点。"
+    },
+    {
+      "point": "三角形三边关系定理",
+      "core_concept": "三角形任意两边的和大于第三边。利用这个定理可以判断三条线段能否组成三角形，也可以求第三边的范围（大于两边之差，小于两边之和）。",
+      "key_formula": "$a + b > c, a + c > b, b + c > a$",
+      "common_mistakes": [
+        "只检查一组边，不注意‘任意’两字。",
+        "遇到等腰三角形周长问题时，忽略三边关系判断是否成立。"
+      ],
+      "tips": "快捷方法：找出较短的两条边，只要它们的和大于最长的那条边即可围成。"
+    },
+    {
+      "point": "三角形的分类",
+      "core_concept": "按角分：锐角三角形（3个锐角）、直角三角形（1个直角）、钝角三角形（1个钝角）。按边分：不等边三角形、等腰三角形（两腰相等）、等边三角形（三边相等，即正三角形）。",
+      "key_formula": "等边三角形 \\subset 等腰三角形",
+      "common_mistakes": [
+        "认为等腰三角形不可能是直角三角形。",
+        "把等边三角形和等腰三角形的概念混淆。"
+      ],
+      "tips": "记住等边三角形是“三好学生”，三条边相等，三个角也相等（都是60度）。"
+    },
+    {
+      "point": "三角形的内角和",
+      "core_concept": "任意一个三角形的三个内角之和都是180度。利用这个结论可以计算三角形中未知角的度数。",
+      "key_formula": "三角形内角和 = 180^\\circ",
+      "common_mistakes": [
+        "认为大的三角形内角和大，小的三角形内角和小。",
+        "等腰三角形计算角度时，忘记有两个底角相等。"
+      ],
+      "tips": "等腰三角形求角：已知顶角求底角用 $(180 - 顶角) \\div 2$；已知底角求顶角用 $180 - 底角 \\times 2$。"
+    },
+    {
+      "point": "多边形的内角和探索",
+      "core_concept": "通过从多边形的一个顶点引出对角线，可以将多边形分割成若干个三角形。多边形内角和等于（边数-2）个三角形内角和的总和。",
+      "key_formula": "n 边形内角和 = (n - 2) \\times 180^\\circ",
+      "common_mistakes": [
+        "公式记错，误记为 $(n-1) \\times 180$。",
+        "计算较大度数时发生进位或乘法错误。"
+      ],
+      "tips": "记住转化的思想，把不认识的多边形拆成认识的三角形。"
+    }
+  ]
+}

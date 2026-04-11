@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文二年级上册",
+  "unit": "伟人与榜样",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第六单元同步闯关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常见多音字辨析",
+        "question": "“他在地上铺（pū）了一层厚厚的红地毯。”这句话中“铺”的读音是正确的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "铺作为动词，表示展开放置时读pū，如铺床、铺位。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "“油轮”和“渔船”都属于水上交通工具。",
+        "options": [],
+        "answer": "对",
+        "explanation": "油轮用于运输石油，渔船用于捕鱼，它们都在水上航行。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "《朱德的扁担》中，“大家见了，越发敬爱朱德同志了”是因为他也会挑粮食。",
+        "options": [],
+        "answer": "错",
+        "explanation": "大家敬爱他是因为他身份尊贵却能以身作则，不怕辛苦与战士们同甘共苦。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常见多音字辨析",
+        "question": "“好客”的“好”字读音是 hǎo。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“好客”表示喜爱，应读四声 hào。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "“轿车”和“挖掘机”都属于专门在公路上进行客运的交通工具。",
+        "options": [],
+        "answer": "错",
+        "explanation": "轿车是客运交通工具，但挖掘机属于工程机械，不是常见的客运交通工具。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见多音字辨析",
+        "question": "选出下列加点字读音全部正确的一组：",
+        "options": [
+          "盛饭(shèng)  种子(zhǒng)",
+          "盛产(shèng)  铺路(pū)",
+          "重复(zhòng)  好人(hǎo)",
+          "教书(jiào)  重点(zhòng)"
+        ],
+        "answer": "盛产(shèng)  铺路(pū)",
+        "explanation": "盛产读shèng，铺路读pū。盛饭应读chéng，重复应读chóng，教书应读jiāo。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "周总理(  )地敲开第一户傣族人家，把象脚鼓(  )在身前。横线上应填入：",
+        "options": [
+          "飞快 拿",
+          "使劲 挎",
+          "轻轻 挎",
+          "大声 摆"
+        ],
+        "answer": "轻轻 挎",
+        "explanation": "“轻轻”体现总理对百姓的礼貌，“挎”体现了总理与傣族人民共度佳节的投入词。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "阅读语段：“他穿上一双草鞋，戴上斗笠，挑起粮食，跟大家一块儿爬山。”这些动作词表现了朱德同志：",
+        "options": [
+          "非常喜欢穿草鞋",
+          "力气特别大",
+          "生活简朴，与战士同甘共苦",
+          "不听大家的劝告"
+        ],
+        "answer": "生活简朴，与战士同甘共苦",
+        "explanation": "通过动作细节描写，展现了伟人以身作则、不搞特殊化的崇高品质。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "外出旅游需要横渡大海，最适合的交通工具是：",
+        "options": [
+          "出租车",
+          "客轮",
+          "洒水车",
+          "摩托车"
+        ],
+        "answer": "客轮",
+        "explanation": "在大海中航行应选择大型水上客运工具，即客轮。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见多音字辨析",
+        "question": "“大家在空地上重(   )新种(   )下了新的树苗。”括号内应依次填入音节：",
+        "options": [
+          "chóng zhòng",
+          "zhòng zhǒng",
+          "chóng zhǒng",
+          "zhòng zhòng"
+        ],
+        "answer": "chóng zhòng",
+        "explanation": "重新表示再次，读chóng；种下是动作，读zhòng。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "下列词语中，不属于陆地交通工具的是：",
+        "options": [
+          "消防车",
+          "潜艇",
+          "公交车",
+          "救护车"
+        ],
+        "answer": "潜艇",
+        "explanation": "潜艇是在水下活动的工具，属于水上/水下交通类。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "《难忘的泼水节》结尾写到“1961年的泼水节，多么令人难忘”，是因为：",
+        "options": [
+          "那年的水非常清甜",
+          "那是周总理和傣族人民在一起度过的",
+          "那年的鼓声最响亮",
+          "周总理穿的衣服很漂亮"
+        ],
+        "answer": "那是周总理和傣族人民在一起度过的",
+        "explanation": "由于国家领导人亲临现场与民同乐，使得这个节日在情感上变得极其珍贵难忘。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见多音字辨析",
+        "question": "根据课文内容，“盛(shèng)开”的“盛”还可以读(chéng)，组词为：",
+        "options": [
+          "盛饭",
+          "茂盛",
+          "丰盛",
+          "盛产"
+        ],
+        "answer": "盛饭",
+        "explanation": "盛作为容纳、装入的意思时读chéng。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见多音字辨析",
+        "question": "“王老师正在教(   )室里教(   )我们写生字。”括号内依次读：",
+        "options": [
+          "jiào jiāo",
+          "jiāo jiào",
+          "jiāo jiāo",
+          "jiào jiào"
+        ],
+        "answer": "jiào jiāo",
+        "explanation": "教室读jiào（名次），教学、教书读jiāo（动词）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "马路上，看到(   )在灭火，我们要主动让行。",
+        "options": [
+          "油轮",
+          "消防车",
+          "公共汽车",
+          "拖拉机"
+        ],
+        "answer": "消防车",
+        "explanation": "灭火是消防车的特殊用途。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "人们在水上捕鱼使用的交通工具叫做（___）。",
+        "options": [],
+        "answer": "渔船",
+        "explanation": "专门用于捕鱼的船被称为渔船。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见多音字辨析",
+        "question": "大家在山坡上（___）下了许多松树种子。 (填一个动词)",
+        "options": [],
+        "answer": "种",
+        "explanation": "考察多音字“种”作为动词时的用法。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "周总理一手（___）着盛满清水的银碗，一手（___）着柏树枝，向人们泼洒。",
+        "options": [],
+        "answer": "端蘸",
+        "explanation": "从《难忘的泼水节》课文细节中回忆动作描写。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "请将交通工具与其对应的运行环境连线。",
+        "options": [
+          "救护车",
+          "客轮",
+          "飞机",
+          "地铁",
+          "天空",
+          "地下铁路",
+          "公路",
+          "海洋"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "救护车在公路跑，客轮在海洋行，飞机在天空飞，地铁在地下跑。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见多音字辨析",
+        "question": "请将下列叠词与对应的意思连线。",
+        "options": [
+          "鲜红鲜红",
+          "火红火红",
+          "碧绿碧绿",
+          "金灿灿",
+          "火的颜色",
+          "鲜艳的红色",
+          "金色的光芒",
+          "绿草一般"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "词语颜色形容对象的自然对应。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "将课文中的词语与其描写的人物对应连线。",
+        "options": [
+          "笑容满面",
+          "以身作则",
+          "勇敢坚强",
+          "志向远大",
+          "小禹",
+          "周总理",
+          "曹操",
+          "朱德"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "笑容满面描写周总理，以身作则对应朱德，小禹（大禹治水）勇敢坚强，志向远大常指课文中的英雄。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "将词语连成一句话：",
+        "options": [
+          "周总理",
+          "和",
+          "傣族人民",
+          "一起",
+          "过泼水节"
+        ],
+        "answer": "周总理,和,傣族人民,一起,过泼水节",
+        "explanation": "句子结构：主语+状语+谓语+宾语。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "将词语连成描述动作的句子：",
+        "options": [
+          "朱德同志",
+          "也",
+          "挑起",
+          "一担",
+          "粮食"
+        ],
+        "answer": "朱德同志,也,挑起,一担,粮食",
+        "explanation": "还原课文中描述朱德与战士一起劳动的情境。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级上册第六单元综合检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常见多音字辨析",
+        "question": "“他种（zhǒng）下了一颗向日葵种（zhòng）子。”这句话的读音标反了。",
+        "options": [],
+        "answer": "对",
+        "explanation": "动词“种”读zhòng，名词“种子”读zhǒng。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "《难忘的泼水节》中，周总理身穿漂亮的傣族服装，是为了表示对少数民族的尊重。",
+        "options": [],
+        "answer": "对",
+        "explanation": "穿着民族服饰体现了总理对少数民族同胞的融入与情谊。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "“救护车”鸣笛行驶时，其他车辆应该主动避让。",
+        "options": [],
+        "answer": "对",
+        "explanation": "救护车是特种执行应急任务的车辆。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "常见多音字辨析",
+        "question": "“我的功课进步很大。”这里的“重”字读 chóng。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“重”在这里不出场。若考察“重要、重心”读zhòng；“重复”读chóng。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "《朱德的扁担》中，战士们把他的扁担藏起来是因为讨厌他去挑粮。",
+        "options": [],
+        "answer": "错",
+        "explanation": "战士们藏扁担是因为心疼朱德，想让他多休息。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "农民伯伯在田里犁地、运物，最常用的交通或工具是：",
+        "options": [
+          "摩托车",
+          "拖拉机",
+          "油轮",
+          "公共汽车"
+        ],
+        "answer": "拖拉机",
+        "explanation": "拖拉机是农业生产中常见的机械工具。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "阅读：周总理来到人群中，他(  )脸，(  )着笑容，(  )起手向大家招手。( )内应填：",
+        "options": [
+          "仰 哭 举",
+          "低 挂 缩",
+          "满 露 举",
+          "洗 带 沉"
+        ],
+        "answer": "满 露 举",
+        "explanation": "“满脸”、“露着笑容”、“举起手”是常见的积极神态和动作组合。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见多音字辨析",
+        "question": "下列词语读音完全正确的一项是：",
+        "options": [
+          "盛利 (shèng lì)",
+          "好学 (hǎo xué)",
+          "重复 (zhòng fù)",
+          "模样 (mú yàng)"
+        ],
+        "answer": "模样 (mú yàng)",
+        "explanation": "胜利（shèng）而非盛利；好学（hào）；重复（chóng）。模样读mú是正确的。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "刘胡兰面对敌人，咬紧牙关，瞪大眼睛。这里的动作描写表现了她的：",
+        "options": [
+          "非常胆怯",
+          "感到很累",
+          "坚贞不屈",
+          "骄傲自满"
+        ],
+        "answer": "坚贞不屈",
+        "explanation": "“咬紧牙关”、“瞪大”体现了英雄在危机关头的顽强抗争意志。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见多音字辨析",
+        "question": "“铺(pū)床”、“店铺(pù)”、“铺(pū)满”中，读音不同的一个是：",
+        "options": [
+          "铺床",
+          "店铺",
+          "铺满",
+          "全都一样"
+        ],
+        "answer": "店铺",
+        "explanation": "店铺指商店，作为名词读pù。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "要从广州到上海，速度最快、在天上飞的交通工具是：",
+        "options": [
+          "火车",
+          "飞机",
+          "渔船",
+          "马车"
+        ],
+        "answer": "飞机",
+        "explanation": "飞机属于航空工具，在天空飞行且速度最快。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "通常我们说“一(  )轿车”、“一(  )客轮”，括号里的量词应该是：",
+        "options": [
+          "条 艘",
+          "辆 艘",
+          "架 辆",
+          "辆 把"
+        ],
+        "answer": "辆 艘",
+        "explanation": "车辆用辆，大型船只用艘。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "《朱德的扁担》写他在扁担上刻了“朱德记”三个字，这说明：",
+        "options": [
+          "他怕和别人的扁担弄混",
+          "他想要向大家炫耀",
+          "他下定决心要亲自挑粮",
+          "他觉得自己写字很好看"
+        ],
+        "answer": "他下定决心要亲自挑粮",
+        "explanation": "这是伟人表达坚定信念的一种方式，防止战士再次藏扁担。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见多音字辨析",
+        "question": "“盛(chéng)满”、“盛(shèng)开”两个词：",
+        "options": [
+          "读音相同，意思不同",
+          "读音不同，意思相同",
+          "读音不同，意思不同",
+          "读音意思都一样"
+        ],
+        "answer": "读音不同，意思不同",
+        "explanation": "一个是容纳（chéng），一个是茂盛（shèng）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "在大城市地下运行，不会堵车的交通工具是：",
+        "options": [
+          "自行车",
+          "公共汽车",
+          "地铁",
+          "洒水车"
+        ],
+        "answer": "地铁",
+        "explanation": "地铁是在地下隧道运行的轨道交通。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见多音字辨析",
+        "question": "“教学”的“教”字读音是（___）。",
+        "options": [],
+        "answer": "jiào",
+        "explanation": "作为学科名词或词组整体，“教学”读jiào。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "能潜入深水进行科学调查的船叫（___）。",
+        "options": [],
+        "answer": "潜水艇",
+        "explanation": "潜入水下航行的舰艇。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "朱德同志在扁担上写了三个字是（___）。",
+        "options": [],
+        "answer": "朱德记",
+        "explanation": "课文原文细节记忆。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见多音字辨析",
+        "question": "把多音字与对应的读音连线。",
+        "options": [
+          "盛产",
+          "盛饭",
+          "铺张",
+          "床铺",
+          "pù",
+          "chéng",
+          "pū",
+          "shèng"
+        ],
+        "answer": "A-4,B-2,C-3,D-1",
+        "explanation": "多音字在不同语境下的标准读音。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "将描写神态的词语与其对应的含义连线。",
+        "options": [
+          "和蔼",
+          "严肃",
+          "凝视",
+          "愤怒",
+          "神情令人敬畏",
+          "态度温和",
+          "非常生气",
+          "专注地看"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "词义理解与人物描写关联。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "交通工具分类与认知",
+        "question": "把工作车辆与其用途连线。",
+        "options": [
+          "洒水车",
+          "邮政车",
+          "消防车",
+          "救护车",
+          "抢救病人",
+          "清洁路面",
+          "运送邮件",
+          "扑灭火灾"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "特殊用途交通工具的职能分类。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "将词语连成描写大禹治水的句子：",
+        "options": [
+          "大禹",
+          "带领",
+          "百姓",
+          "治理",
+          "洪水"
+        ],
+        "answer": "大禹,带领,百姓,治理,洪水",
+        "explanation": "考察对课文主要内容的句子概括能力。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人物动作与神态细节理解",
+        "question": "连成描写周总理动作的句子：",
+        "options": [
+          "周总理",
+          "一手端着",
+          "银碗",
+          "一手拿着",
+          "柏树枝"
+        ],
+        "answer": "周总理,一手端着,银碗,一手拿着,柏树枝",
+        "explanation": "长句排序，考察人物并行规律的描写顺序。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "人物动作与神态细节理解",
+      "core_concept": "本单元通过伟人故事展现其品格。学习时应重点观察文中描写的动作词（如“挑、戴、泼、端”）和神态词（如“笑容满面、凝视”）。这些词语不仅仅是单纯的行为记录，更是人物情感和意志的载体。例如朱德‘穿、戴、挑’的动作表现了他与战士平等的劳动观；周总理‘泼、洒’体现了领袖与民众的深情厚谊。",
+      "key_formula": "抓动作神态 = 体会人物品格",
+      "common_mistakes": [
+        "混淆不同人物的典型动作，如把大禹的英雄事迹安插在其他人物身上",
+        "不能从具体的动词中提炼出人物的精神品质，理解停留在表面"
+      ],
+      "tips": "朗读课文时，尝试自己模拟文中的动作细节，在动作体验中感悟人物的内心世界。"
+    },
+    {
+      "point": "交通工具分类与认知",
+      "core_concept": "语文园地中的‘识字加油站’要求学生识别并分类各种交通工具。可以从环境分（陆地：公交车、轿车、消防车；水上：油轮、渔船、客轮；空中：飞机、飞船）和用途分（运输、客运、救援、作业）。通过对这些词语的学习，丰富学生的社会常识和分类思维。",
+      "key_formula": "环境+用途 = 交通工具名称",
+      "common_mistakes": [
+        "将‘油轮’、‘潜艇’等生疏词汇错认为是陆地工具",
+        "量词使用不当，如把船说成“一辆船”"
+      ],
+      "tips": "在出行时多观察马路上的标志，将书本词语与现实生活中看到的车辆一一对应。"
+    },
+    {
+      "point": "常见多音字辨析",
+      "core_concept": "本单元涉及多个高频多音字：‘盛’（shèng/chéng）、‘铺’（pū/pù）、‘种’（zhǒng/zhòng）、‘好’（hǎo/hào）等。辨析的关键在于‘据义定音’，即根据词语在句子中的具体含义来确定读音。例如，表示‘装东西’的动作时，盛读chéng；表示‘种子’这个事物时读zhǒng，表示‘种植’这个动作时读zhòng。",
+      "key_formula": "辨析读音 = 确定词性/词义 + 套用规律",
+      "common_mistakes": [
+        "习惯性读最常用音，如把“好客”读成hǎo",
+        "在具体语境填空时，能说对却写错音节声调"
+      ],
+      "tips": "建立多音字本，每个读音下面记一个最典型的词，通过记住词来记住音。"
+    }
+  ]
+}

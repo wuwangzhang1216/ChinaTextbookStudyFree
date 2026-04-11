@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学五年级下册",
+  "unit": "图形的运动（三）",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元「图形的运动（三）」基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "当一个图形绕某点顺时针旋转 90 度后，它的形状和大小都没有发生变化。",
+        "options": [],
+        "answer": "对",
+        "explanation": "旋转只改变图形的位置和方向，不改变图形的形状和大小。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "钟面上秒针从数字 12 走到数字 3，经过的是旋转运动。",
+        "options": [],
+        "answer": "对",
+        "explanation": "秒针绕中心轴转动，属于典型的旋转运动。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "在方格纸上旋转图形时，图形上的每一个点旋转的角度都是相同的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "图形旋转时，绕旋转中心转动的角度是固定的，所有点都同步旋转相同的角度。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "旋转中心在旋转过程中是固定不动的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "旋转中心（旋转点）是图形旋转的固定参考点，其位置保持不变。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "图形顺时针旋转 90 度和逆时针旋转 90 度，所得结果位置是一样的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "旋转方向不同，图形最终到达的位置也不同。顺时针和逆时针旋转 180 度结果才一致。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "钟面上的时针从数字 3 走到数字 6，绕中心顺时针旋转了多少度？",
+        "options": [
+          "30",
+          "60",
+          "90",
+          "180"
+        ],
+        "answer": "90",
+        "explanation": "时针每小时走 30 度。从 3 到 6 经过 3 小时，$3 \times 30 = 90$ 度。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生活中的旋转现象应用",
+        "question": "下列哪种现象属于旋转现象？",
+        "options": [
+          "升降电梯的运行",
+          "风扇叶片的转动",
+          "拉开抽屉",
+          "推拉窗户的开关"
+        ],
+        "answer": "风扇叶片的转动",
+        "explanation": "电梯、抽屉、推拉窗均属于平移现象，风扇叶片绕轴转动是旋转现象。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "描述一个图形的旋转过程，不需要考虑下面哪个因素？",
+        "options": [
+          "旋转中心",
+          "旋转频率",
+          "旋转方向",
+          "旋转角度"
+        ],
+        "answer": "旋转频率",
+        "explanation": "旋转的三要素是：中心、方向、角度。频率与图形运动过程的描述无关。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "将一个长方形绕其中一个顶点顺时针旋转 180 度后，它的长和宽会有什么变化？",
+        "options": [
+          "长变长了",
+          "宽变短了",
+          "周长增加了",
+          "长和宽都不变"
+        ],
+        "answer": "长和宽都不变",
+        "explanation": "旋转是不改变图形大小的等距变换，所以长、宽、周长、面积都不变。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "指针从数字 12 开始，逆时针旋转 90 度后指向哪个数字？",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "12"
+        ],
+        "answer": "9",
+        "explanation": "顺时针 90 度指向 3，逆时针 90 度指向 9。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生活中的旋转现象应用",
+        "question": "收费站的道闸杆上升时，主要是绕哪个部分进行旋转的？",
+        "options": [
+          "杆的顶端",
+          "杆的中央",
+          "固定转轴的一端",
+          "地面"
+        ],
+        "answer": "固定转轴的一端",
+        "explanation": "道闸杆是以固定其转动的轴为中心进行旋转运动的。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "在方格纸上，一个小正方形绕某顶点顺时针旋转 360 度后，它位于何处？",
+        "options": [
+          "原位置右侧",
+          "原位置下方",
+          "与原位置重合",
+          "原位置上方"
+        ],
+        "answer": "与原位置重合",
+        "explanation": "任何图形旋转 360 度都会回到原始位置。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "如果从当前位置顺时针旋转 90 度能回到原位，说明该图形之前是？",
+        "options": [
+          "顺时针转了 90 度",
+          "逆时针转了 90 度",
+          "顺时针转了 180 度",
+          "逆时针转了 180 度"
+        ],
+        "answer": "逆时针转了 90 度",
+        "explanation": "逆时针旋转 90 度的还原方式是顺时针旋转 90 度。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "一个角是 30 度的直角三角形绕直角顶点旋转 90 度后，原有的 30 度角现在是多少度？",
+        "options": [
+          "30",
+          "60",
+          "90",
+          "120"
+        ],
+        "answer": "30",
+        "explanation": "旋转过程中，对应的角大小不发生改变。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "一个图形顺时针旋转 270 度，相当于它逆时针旋转了多少度？",
+        "options": [
+          "45",
+          "90",
+          "180",
+          "270"
+        ],
+        "answer": "90",
+        "explanation": "一周是 360 度，$360 - 270 = 90$ 度。顺时针 270 度等同于逆时针 90 度。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生活中的旋转现象应用",
+        "question": "跷跷板的运动属于什么现象？",
+        "options": [
+          "平移",
+          "旋转",
+          "放大",
+          "对称"
+        ],
+        "answer": "旋转",
+        "explanation": "跷跷板绕中间的支点上下摆动，属于旋转运动。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "等边三角形绕其中心旋转多少度后能与原图形重合？",
+        "options": [
+          "60",
+          "90",
+          "120",
+          "180"
+        ],
+        "answer": "120",
+        "explanation": "等边三角形是中心对称图形。一周 360 度除以三条边，$360 \times 120 = 360$。每旋转 120 度重合一次。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "分针从数字 12 到 6 顺时针旋转了半圈，这个角度是多少？",
+        "options": [
+          "90",
+          "180",
+          "270",
+          "360"
+        ],
+        "answer": "180",
+        "explanation": "半圈即 $360 \times \frac{1}{2} = 180$ 度。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "一个正方形有几个顶点？它可以绕其中任意一个顶点旋转。",
+        "options": [],
+        "answer": "4",
+        "explanation": "正方形有 4 条边，就有 4 个顶点。验算：$1 \times 4 = 4$✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "钟面上的时针每小时旋转 ___ 度。",
+        "options": [],
+        "answer": "30",
+        "explanation": "钟面共 360 度，分为 12 大格。$360 \times 12 = 30$（度）。验算：$30 \times 12 = 360$✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生活中的旋转现象应用",
+        "question": "吊扇有 3 个叶片，每个叶片之间夹角相等。每个夹角是 ___ 度。",
+        "options": [],
+        "answer": "120",
+        "explanation": "圆周 360 度平分给 3 个叶片间隔。$360 \times 3 = 120$。验算：$120 \times 3 = 360$✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "计算：$90 + 90 + 90 = ?$",
+        "options": [],
+        "answer": "270",
+        "explanation": "$90 \times 3 = 270$。三次 90 度旋转等于一次 270 度旋转。验算：$270 - 90 - 90 = 90$✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "计算：$360 - 90 = ?$",
+        "options": [],
+        "answer": "270",
+        "explanation": "$360 - 90 = 270$。由此可知顺时针 90 度等效于逆时针 270 度。验算：$270 + 90 = 360$✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第五单元「图形的运动（三）」综合水平测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "旋转后的图形位置改变，但所有线段的长度不变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "旋转是全等变换，线段长度及角的大小均保持不变。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "图形顺时针旋转 90 度，图形上的水平线段会变成垂直线段。",
+        "options": [],
+        "answer": "对",
+        "explanation": "旋转 90 度会改变线段的方向，水平方向旋转 90 度转为垂直方向。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "生活中的旋转现象应用",
+        "question": "风扇开启后，扇叶的运动是旋转。",
+        "options": [],
+        "answer": "对",
+        "explanation": "扇叶绕主轴中心转动，符合旋转定义。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "图形绕点 O 顺时针旋转 180 度，点 O 本身的位置也会移动。",
+        "options": [],
+        "answer": "错",
+        "explanation": "旋转中心点在旋转操作中是唯一不动点。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "底是 4 厘米，高是 3 厘米的三角形，旋转 90 度后面积变为 12 平方厘米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "旋转不改变面积。原面积 $4 \times 3 \times 2 = 6$ 平方厘米，旋转后仍为 6。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "把一个图形绕某一点顺时针旋转了 2 圈，它旋转了多少度？",
+        "options": [
+          "180",
+          "360",
+          "540",
+          "720"
+        ],
+        "answer": "720",
+        "explanation": "1 圈是 360 度，2 圈是 $360 \times 2 = 720$ 度。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "将图形绕点 O 逆时针旋转 90 度，记作绕点 O 顺时针旋转多少度？",
+        "options": [
+          "90",
+          "180",
+          "270",
+          "360"
+        ],
+        "answer": "270",
+        "explanation": "$360 - 90 = 270$，顺逆方向互补度数为一周。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生活中的旋转现象应用",
+        "question": "钟表上的分钟从 12 走到 4，旋转了多少度？",
+        "options": [
+          "30",
+          "60",
+          "90",
+          "120"
+        ],
+        "answer": "120",
+        "explanation": "每一大格是 30 度，$4 \times 30 = 120$ 度。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "将一个正方形绕中心点旋转 90 度后，图形与原图形的情况是？",
+        "options": [
+          "重合",
+          "缩小了",
+          "位置完全不同",
+          "变形成长方形"
+        ],
+        "answer": "重合",
+        "explanation": "正方形旋转 90 度可以通过对称性与自身重合。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "在方格纸上旋转三角形时，哪个因素决定了旋转后图形的最终位置？",
+        "options": [
+          "颜色",
+          "纸的大小",
+          "旋转中心和角度",
+          "三角形的底长"
+        ],
+        "answer": "旋转中心和角度",
+        "explanation": "旋转三要素决定了位置变换。在此情境中，中心和角度是位置核心变量。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "一个直角三角形的三边长分别是 3, 4, 5。绕直角顶点旋转 180 度。此时该三角形的斜边长度是多少？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "10"
+        ],
+        "answer": "5",
+        "explanation": "旋转不改变图形大小，原斜边是 5，旋转后依旧是 5。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生活中的旋转现象应用",
+        "question": "汽车行驶时，哪个部位在做旋转变换？",
+        "options": [
+          "车身",
+          "倒车镜",
+          "车轮",
+          "座椅"
+        ],
+        "answer": "车轮",
+        "explanation": "车身是在水平移动，车轮绕轴心在不停旋转。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "如果从 12 点开始，时针移动了 60 度，现在是几点？",
+        "options": [
+          "1 点",
+          "2 点",
+          "3 点",
+          "4 点"
+        ],
+        "answer": "2 点",
+        "explanation": "时针每小时旋转 30 度，$60 \times 30 = 2$，所以是 2 点。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "顺时针旋转 90 度后，原来的“上方”指代的方向变成了？",
+        "options": [
+          "上方",
+          "下方",
+          "左方",
+          "右方"
+        ],
+        "answer": "右方",
+        "explanation": "顺时针旋转 90 度，空间方位会按照 上->右->下->左 的顺序变化。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生活中的旋转现象应用",
+        "question": "下列哪个是旋转的特征？",
+        "options": [
+          "形状变了",
+          "大小变了",
+          "方向变了",
+          "面积变了"
+        ],
+        "answer": "方向变了",
+        "explanation": "旋转保持形状和大小不变，但图形的指向方向会发生变化。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "从 5:00 到 5:15，时钟的分针旋转了多少度？",
+        "options": [
+          "15",
+          "45",
+          "90",
+          "180"
+        ],
+        "answer": "90",
+        "explanation": "15 分钟是钟面的四分之一，$360 \times 4 = 90$ 度。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "一个梯形绕某点顺时针旋转三个 90 度，等效于逆时针旋转几个 90 度？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "1",
+        "explanation": "$4 - 3 = 1$ 个 90 度。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "中心点 O 在图形内部，图形绕 O 点旋转 360 度，其面积？",
+        "options": [
+          "变大",
+          "变小",
+          "不变",
+          "无法确定"
+        ],
+        "answer": "不变",
+        "explanation": "旋转具有面积保值性。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "钟面上有 12 个数字，相邻两个数字间的夹角是 ___ 度。",
+        "options": [],
+        "answer": "30",
+        "explanation": "$360 \times 12 = 30$。验算：$30 \times 12 = 360$✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "简单图形在方格纸上的旋转作图",
+        "question": "一个正方形顺时针旋转 90 度需要 4 秒，旋转一整圈需要 ___ 秒。",
+        "options": [],
+        "answer": "16",
+        "explanation": "一整圈是 360 度，由于 $360 \times 90 = 4$ 个 90 度，所以耗时 $4 \times 4 = 16$ 秒。验算：$16 \times 4 = 4$✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "分针从 1 走到 5，旋转了 ___ 度。",
+        "options": [],
+        "answer": "120",
+        "explanation": "走过 $5 - 1 = 4$ 大格。$4 \times 30 = 120$ 度。验算：$120 \times 30 = 4$✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "计算：$180 \times 2 = ?$",
+        "options": [],
+        "answer": "360",
+        "explanation": "旋转两个 180 度即回归原位。$180 \times 2 = 360$。验算：$360 \times 2 = 180$✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "旋转的三要素辨析",
+        "question": "计算：$30 \times 6 = ?$",
+        "options": [],
+        "answer": "180",
+        "explanation": "六个大格的度数为 $30 \times 6 = 180$。验算：$180 \times 6 = 30$✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "旋转的三要素辨析",
+      "core_concept": "旋转是指图形绕定点（旋转中心）按一定方向（顺时针或逆时针）转动一定角度的运动。旋转不改变图形的形状和大小，只改变其位置和指向。必须同时具备中心、方向、角度三个条件才能唯一确定旋转结果。",
+      "key_formula": "图形旋转前后对应的线段相等，对应的角相等，对应点到旋转中心的距离相等。",
+      "common_mistakes": [
+        "混淆顺时针和逆时针的方向，导致旋转位置画错。",
+        "描述旋转时漏写旋转中心或旋转角度。"
+      ],
+      "tips": "想象自己握着圆规的一脚固定在旋转中心，另一脚带着图形划过圆弧。"
+    },
+    {
+      "point": "简单图形在方格纸上的旋转作图",
+      "core_concept": "在方格纸上作图时，先确定图形的关键点，然后画出这些关键点绕中心旋转后的对应点，最后按顺序连接。关键点与旋转中心的连线长度在旋转前后保持一致，且两条连线的夹角等于旋转角度。",
+      "key_formula": "对应点到旋转中心的距离相等。夹角 $ \theta = $ 旋转角度。",
+      "common_mistakes": [
+        "旋转后关键点跑到了方格线交点之外，导致图形变形。",
+        "连接对应点时没有按照原图形的边的顺序连接。"
+      ],
+      "tips": "找关键点时，优先找与旋转中心在同一水平线或垂直线上的点，这样旋转 90 度后位置最容易找。"
+    },
+    {
+      "point": "生活中的旋转现象应用",
+      "core_concept": "生活中存在大量旋转运动，如钟表的指针、转动的风车、道闸杆的升降、汽车方向盘等。识别此类现象需要看物体是否绕着一个固定不动的点或轴进行弧线运动。",
+      "key_formula": "旋转现象判断准则：有点、有角、形状及大小守恒。",
+      "common_mistakes": [
+        "将跷跷板运动误认为是平移，其实它是绕中心支点的往复旋转。",
+        "认为旋转一定要转够一整圈，实际上任何弧度转动都算旋转。"
+      ],
+      "tips": "生活中如果是划直线的运动大多是平移，如果是划圆弧或绕弯的运动通常是旋转。"
+    }
+  ]
+}

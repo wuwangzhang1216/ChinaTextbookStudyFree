@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学三年级上册",
+  "unit": "空气",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元《空气》达标测评卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "空气占据空间实验",
+        "question": "我们将杯子竖直倒扣入水中，杯底的纸团不会湿，是因为空气占据了杯内的空间。",
+        "options": [],
+        "answer": "对",
+        "explanation": "空气虽然看不见，但确实占据空间，竖直倒扣时杯内的空气防止水进入杯底。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "空气的压缩性与弹性",
+        "question": "我们可以很容易地把灌满水的注射器活塞向下压一段距离。",
+        "options": [],
+        "answer": "错",
+        "explanation": "液体很难被压缩，而空气容易被压缩。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "空气质量的测量",
+        "question": "虽然空气很轻，但由于空气占据空间，所以它也有质量。",
+        "options": [],
+        "answer": "对",
+        "explanation": "质量是物质的基本属性，空气作为物质是有质量的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "空气的压缩性与弹性",
+        "question": "被压缩后的空气具有弹性。",
+        "options": [],
+        "answer": "对",
+        "explanation": "空气分子间隙大，压缩后会产生向外的弹力。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "空气作为物质的典型特征总结",
+        "question": "我们在石头缝隙、空瓶子中都能找到空气。",
+        "options": [],
+        "answer": "对",
+        "explanation": "空气无处不在，流动性强，能充满各种缝隙。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "空气作为物质的典型特征总结",
+        "question": "空气是什么颜色的？",
+        "options": [
+          "白色",
+          "无色",
+          "浅蓝色",
+          "透明红色"
+        ],
+        "answer": "无色",
+        "explanation": "空气的典型物理特征是无色、透明、无味。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气占据空间实验",
+        "question": "在做瓶中吹气球实验时，如果瓶底扎一个小洞，气球会怎么样？",
+        "options": [
+          "吹不起来",
+          "能够吹大",
+          "吹大后会立刻爆掉",
+          "气球会漏气"
+        ],
+        "answer": "能够吹大",
+        "explanation": "瓶底的小洞让空气跑出去了，气球就能占据瓶内的空间而变大。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气的压缩性与弹性",
+        "question": "下列物品中，利用了空气可以被压缩性质的是：",
+        "options": [
+          "水盆",
+          "指南针",
+          "打气筒",
+          "玻璃杯"
+        ],
+        "answer": "打气筒",
+        "explanation": "打气筒通过压缩活塞将空气压入轮胎。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气质量的测量",
+        "question": "在测量空气质量的实验中，我们最适合选取的测量工具是：",
+        "options": [
+          "体重计",
+          "简易天平",
+          "测力计",
+          "量筒"
+        ],
+        "answer": "简易天平",
+        "explanation": "天平可以通过平衡原理，利用回形针或绿豆等微小物体的数量来体现空气的微小质量。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "热空气上升及风的成因",
+        "question": "热气球能够升空，是因为：",
+        "options": [
+          "热空气比冷空气轻",
+          "热空气有弹性",
+          "热空气比较好玩",
+          "里面装了重物"
+        ],
+        "answer": "热空气比冷空气轻",
+        "explanation": "空气受热膨胀，密度变小，会向上运动。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "空气作为物质的典型特征总结",
+        "question": "下列哪个容器最容易收集到一瓶空气？",
+        "options": [
+          "底部漏掉的杯子",
+          "盖严盖子的空瓶",
+          "没盖盖子的空瓶",
+          "装满水的杯子"
+        ],
+        "answer": "没盖盖子的空瓶",
+        "explanation": "没盖盖子的空瓶本身就装满了空气。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气占据空间实验",
+        "question": "把纸团粘在杯子底部，斜着塞入水中，纸团会变湿吗？",
+        "options": [
+          "一定会湿",
+          "一定不会湿",
+          "如果是温水就不会湿",
+          "如果是冷水就不会湿"
+        ],
+        "answer": "一定会湿",
+        "explanation": "斜着塞入时，空气会从杯口冒出，水会进入占据空间，纸团变湿。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "空气占据空间实验",
+        "question": "我们可以用什么样的感官来感觉到空气在流动？",
+        "options": [
+          "用耳朵听声音",
+          "用嘴巴尝味道",
+          "皮肤感觉风吹",
+          "用眼睛看颜色"
+        ],
+        "answer": "皮肤感觉风吹",
+        "explanation": "流动的空气形成了风，皮肤可以感知到。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气作为物质的典型特征总结",
+        "question": "空气和水有什么共同点？",
+        "options": [
+          "都有固定形状",
+          "都能量化质量",
+          "都不能流动",
+          "都不能压缩"
+        ],
+        "answer": "都能量化质量",
+        "explanation": "空气和水都是物质，都具有质量。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空气质量的测量",
+        "question": "如果在天平的一端放入一个充满气的皮球，另一端用绿豆平衡。再往皮球里打入10筒气，天平会：",
+        "options": [
+          "依然平衡",
+          "向绿豆一端倾斜",
+          "向皮球一端倾斜",
+          "无法判断"
+        ],
+        "answer": "向皮球一端倾斜",
+        "explanation": "打入更多空气增加了皮球的总质量，天平向重的一方倾斜。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "热空气上升及风的成因",
+        "question": "在风的成因实验中，我们在盒子里点燃蜡烛是为了：",
+        "options": [
+          "照亮盒子",
+          "增加氧气",
+          "加热空气",
+          "消耗掉空气"
+        ],
+        "answer": "加热空气",
+        "explanation": "点燃蜡烛使空气变热上升，从而形成气压差产生风。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "空气占据空间实验",
+        "question": "下列哪个动作可以证明空气占据空间？",
+        "options": [
+          "把杯子盖紧",
+          "往装满碎纸碎屑的瓶子里灌水",
+          "用吸管吸水",
+          "把充气气球按入水中"
+        ],
+        "answer": "把充气气球按入水中",
+        "explanation": "气球占了一定体积，进入水中会抬高液面。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空气占据空间实验",
+        "question": "空气具有哪些特征？",
+        "options": [
+          "有颜色、有气味、有质量",
+          "无色、无味、无质量",
+          "无色、无味、占据空间",
+          "有固定形状、可以流动"
+        ],
+        "answer": "无色、无味、占据空间",
+        "explanation": "科学定义空气为无色无味、无固定形状但占据空间和质量的气体。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气占据空间实验",
+        "question": "如果要让漏斗里的水快速流进密闭瓶子中，我们需要在塞子上打（___）个孔。",
+        "options": [],
+        "answer": "2",
+        "explanation": "一个孔流进水，另一个孔排出瓶内空气，水才能流进去。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空气质量的测量",
+        "question": "实验发现，20筒空气的质量大约相当于（___）枚回形针。",
+        "options": [],
+        "answer": "1",
+        "explanation": "根据三年级教材实验参考值，20筒空气很轻，约等同一枚回形针或其零头质量。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "热空气上升及风的成因",
+        "question": "大自然中由于空气受热不均而产生的流动形成了（___）。",
+        "options": [],
+        "answer": "风",
+        "explanation": "风是由空气流动形成的。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气质量的测量",
+        "question": "在测量空气质量时，我们可以用（___）来替代微小的质量读数。",
+        "options": [],
+        "answer": "绿豆",
+        "explanation": "绿豆质量均匀且小，适合作为简易天平的平衡物。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空气的压缩性与弹性",
+        "question": "空气受压后的反弹力量我们称之为（___）。",
+        "options": [],
+        "answer": "弹性",
+        "explanation": "空气可压缩且具有弹性。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级科学第一学期期末模拟卷（空气专题）",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "空气占据空间实验",
+        "question": "在空气占据空间实验中，我们看到的观察孔冒气泡说明空气被挤出去了。",
+        "options": [],
+        "answer": "对",
+        "explanation": "水占据了空间，把原来的空气赶了出去。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "空气质量的测量",
+        "question": "由于空气是轻飘飘的，所以空气不属于物质。",
+        "options": [],
+        "answer": "错",
+        "explanation": "空气是有质量的实体，是构成世界的物质之一。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "热空气上升及风的成因",
+        "question": "风是因为地球自转形成的，和温度完全没有关系。",
+        "options": [],
+        "answer": "错",
+        "explanation": "风形成的主要原因是空气受热不均导致流动。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "空气作为物质的典型特征总结",
+        "question": "空气虽然看不见，但是我们可以通过一些方法证明它的存在。",
+        "options": [],
+        "answer": "对",
+        "explanation": "科学实验可以证明空气的存在。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "空气的压缩性与弹性",
+        "question": "给皮球充气的过程，体现了空气容易被压缩。",
+        "options": [],
+        "answer": "对",
+        "explanation": "往固定空间的球体里打入更多空气，是在压缩空气。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "空气作为物质的典型特征总结",
+        "question": "空气中包含多种气体，其中我们人类呼吸最需要的是：",
+        "options": [
+          "氧气",
+          "二氧化碳",
+          "氮气",
+          "水蒸气"
+        ],
+        "answer": "氧气",
+        "explanation": "氧气是生命维持呼吸必须的气体。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气占据空间实验",
+        "question": "在玻璃杯底塞纸团，竖直按入水中，纸团不湿的原因是：",
+        "options": [
+          "纸团防水",
+          "水不能流进杯子",
+          "空间被空气占据",
+          "杯子质量太好"
+        ],
+        "answer": "空间被空气占据",
+        "explanation": "空气占据了杯中的空间，防止水直接接触纸团。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气质量的测量",
+        "question": "古代科学家伽利略曾通过实验证明空气：",
+        "options": [
+          "是无色的",
+          "是有味道的",
+          "是有质量的",
+          "能帮助燃烧"
+        ],
+        "answer": "是有质量的",
+        "explanation": "伽利略是最早通过给气球充气称重证明空气有质量的科学家。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空气的压缩性与弹性",
+        "question": "用手按压一个装满空气的气球，感觉手被顶回来了。这是由于：",
+        "options": [
+          "空气有磁性",
+          "空气有重量",
+          "空气被压缩有弹力",
+          "空气会漏出来"
+        ],
+        "answer": "空气被压缩有弹力",
+        "explanation": "压缩空气后产生弹力。 "
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "热空气上升及风的成因",
+        "question": "在风的模拟实验中，烟雾会往哪个方向飘？",
+        "options": [
+          "随机乱飘",
+          "从进风口进入盒子",
+          "向上方直升",
+          "一直呆在盒子外"
+        ],
+        "answer": "从进风口进入盒子",
+        "explanation": "由于热空气上升，空气流动产生风，带动烟雾进入盒子。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气作为物质的典型特征总结",
+        "question": "下列哪个是空气的特点？",
+        "options": [
+          "它有白色",
+          "它不能被压缩",
+          "它能填充各种空间",
+          "它能被人看见"
+        ],
+        "answer": "它能填充各种空间",
+        "explanation": "由于空气具有流动性，可以充满各种形状的容器或缝隙。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "空气占据空间实验",
+        "question": "一个装了半瓶水的瓶子，塞上塞子。如果不拔塞子，我们可以通过什么办法取水？",
+        "options": [
+          "摇晃瓶子",
+          "往里吹气",
+          "倒过来拿",
+          "把瓶盖拧松"
+        ],
+        "answer": "往里吹气",
+        "explanation": "通过往里压入空气（吹气），空气占据空间将水压出。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气质量的测量",
+        "question": "如果我们把一袋空气压得更小，它的质量会：",
+        "options": [
+          "变大",
+          "变小",
+          "不变",
+          "消失"
+        ],
+        "answer": "不变",
+        "explanation": "体积改变但不改变物质的总量，质量不变。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "热空气上升及风的成因",
+        "question": "孔明灯能飞上天，模仿的是：",
+        "options": [
+          "飞机飞行",
+          "鸟儿飞翔",
+          "热气球升空",
+          "蜻蜓点水"
+        ],
+        "answer": "热气球升空",
+        "explanation": "两者原理都是利用热空气上升。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "空气作为物质的典型特征总结",
+        "question": "我们把注射器往后拉吸入空气，这时：",
+        "options": [
+          "空气充满了注射器",
+          "注射器里什么都没有",
+          "里面只有水蒸气",
+          "里面都是灰尘"
+        ],
+        "answer": "空气充满了注射器",
+        "explanation": "向后拉活塞，外部空气立刻占据了管内空间。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气占据空间实验",
+        "question": "如果要在水里冒气泡，可以用什么方法？",
+        "options": [
+          "往里加糖",
+          "把空的矿泉水瓶按入水中并捏扁",
+          "在水里放冰块",
+          "把水烧开"
+        ],
+        "answer": "把空的矿泉水瓶按入水中并捏扁",
+        "explanation": "捏扁瓶子时空气被挤出，在水中形成气泡。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空气的压缩性与弹性",
+        "question": "当空气被压缩到极致时，空气分子之间：",
+        "options": [
+          "间隔变大",
+          "间隔变小",
+          "变成了固体",
+          "全部消失"
+        ],
+        "answer": "间隔变小",
+        "explanation": "空气的压缩本质上是空气微粒之间间隔的缩小。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "热空气上升及风的成因",
+        "question": "暖气片通常安装在房间的低处，这是为了：",
+        "options": [
+          "方便维修",
+          "让热空气上升加热全屋",
+          "防止烫伤孩子",
+          "省钱"
+        ],
+        "answer": "让热空气上升加热全屋",
+        "explanation": "低处加热空气向上升，形成循环，效果更好。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空气质量的测量",
+        "question": "如果10粒绿豆质量是1克，那么50筒空气相当于（___）克左右。",
+        "options": [],
+        "answer": "1",
+        "explanation": "大致估算，约50筒普通的空气质量在1-2克左右。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "空气作为物质的典型特征总结",
+        "question": "如果我们准备了两袋完全一样的空气，把它们合在一起，就是（___）袋空气的内容量。",
+        "options": [],
+        "answer": "2",
+        "explanation": "简单的加法逻辑，考察空气作为物质的可加性。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "热空气上升及风的成因",
+        "question": "空调吹出的冷空气通常会向房子的（___）流动。",
+        "options": [],
+        "answer": "下方",
+        "explanation": "冷空气密度大，会向下沉降。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气占据空间实验",
+        "question": "把充气后的皮球按进水里，水面会（___）。",
+        "options": [],
+        "answer": "上升",
+        "explanation": "皮球占据了水的空间，使液面抬高。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空气作为物质的典型特征总结",
+        "question": "植物生长也需要空气，是因为空气中含有它们需要的（___）。",
+        "options": [],
+        "answer": "二氧化碳",
+        "explanation": "光合作用需要二氧化碳。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "空气占据空间",
+      "core_concept": "空气虽然看不见，但像固体和液体一样占据空间。",
+      "key_formula": "空气占据空间的大小可以改变。",
+      "common_mistakes": [
+        "认为杯里有纸团，水没进去是因为纸防水",
+        "认为空气看不见就不占据空间"
+      ],
+      "tips": "倒扣杯子实验中，一定要垂直放入水中，否则空气跑掉水就进去了。"
+    },
+    {
+      "point": "空气的压缩与弹性",
+      "core_concept": "空气微粒间的间隙很大，容易被压缩，压缩后有弹力。",
+      "key_formula": "压缩后的空气压力越大，弹力越强。",
+      "common_mistakes": [
+        "认为水也可以像空气一样被大幅压缩",
+        "认为压缩后的空气质量变重了"
+      ],
+      "tips": "对比实验中，用同等规格的注射器分别装等体积的水和空气进行按压对比。"
+    },
+    {
+      "point": "空气有质量",
+      "core_concept": "空气是有重量的，虽然很轻，但可以被测量。",
+      "key_formula": "总质量 = 皮球质量 + 内部空气质量。",
+      "common_mistakes": [
+        "认为空气轻飘飘的，所以没有质量",
+        "天平平衡后，打入空气却不观察天平倾斜方向"
+      ],
+      "tips": "测量微小质量时，要选择轻便的小物体如回形针或绿豆作为法码。"
+    },
+    {
+      "point": "风的成因",
+      "core_concept": "空气受热膨胀上升，周围的冷空气横向补充，形成风。",
+      "key_formula": "热空气上升 = 对流循环 = 风。",
+      "common_mistakes": [
+        "认为风只有扇子扇才有",
+        "不理解热空气上升是因为变轻了"
+      ],
+      "tips": "记住“热升冷补”四个字，大自然中的风就是这样产生的。"
+    },
+    {
+      "point": "空气的物理属性",
+      "core_concept": "空气是混合物，无色透明无味，无固定形状，能流动。",
+      "key_formula": "空气的三态属性：气态物质。",
+      "common_mistakes": [
+        "混淆空气与氧气的概念",
+        "认为空气是白色的（受云雾视觉干扰）"
+      ],
+      "tips": "空气无处不在，我们的生活离不开它提供的氧气和压力。"
+    }
+  ]
+}

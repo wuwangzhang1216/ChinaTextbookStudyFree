@@ -1,0 +1,715 @@
+{
+  "textbook": "PEP English Grade 6 Semester 2",
+  "unit": "Unit 4 Then and now",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Unit 4 Grade 6 PEP - Basic Evaluation",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "There be 句型时态",
+        "question": "描述过去的客观存在，我们使用 There was 或 There were。",
+        "options": [],
+        "answer": "对",
+        "explanation": "There be句型根据描述的时间决定时态，过去用was/were。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词汇变化",
+        "question": "'grass' 的意思是‘玻璃’。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Grass是草地，玻璃是glass。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "个人能力表达",
+        "question": "I could not ride a bike before. 这里的 could not 代表过去的能力。",
+        "options": [],
+        "answer": "对",
+        "explanation": "could是can的过去式，表示过去的能力。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "形容词最高级",
+        "question": "the biggest 表示‘最大的’，双写了字母g。",
+        "options": [],
+        "answer": "对",
+        "explanation": "big是重读闭音节单词，最高级需双写末尾辅音字母再加est。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "标志词识别",
+        "question": "ago 是描述‘现在’的时间标志词。",
+        "options": [],
+        "answer": "错",
+        "explanation": "ago意为‘以前’，是过去时的标志。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "There be 句型搭配",
+        "question": "There _____ no library in my school ten years ago.",
+        "options": [
+          "is",
+          "was",
+          "are",
+          "were"
+        ],
+        "answer": "was",
+        "explanation": "library是单数，ten years ago表示过去，用was。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人爱好对比",
+        "question": "I didn't _____ like eggs before.",
+        "options": [
+          "liked",
+          "like",
+          "likes",
+          "liking"
+        ],
+        "answer": "like",
+        "explanation": "didn't 后面接动词原形。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形容词最高级",
+        "question": "The sun is the ______ star in our system.",
+        "options": [
+          "hot",
+          "hotter",
+          "hottest",
+          "the hottest"
+        ],
+        "answer": "hottest",
+        "explanation": "形容词最高级前已有the，后面直接填hottest。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义辨析",
+        "question": "My school was small ten years ago, but now it is ______.",
+        "options": [
+          "old",
+          "quiet",
+          "small",
+          "large"
+        ],
+        "answer": "large",
+        "explanation": "句子用but转折，small的对比词应选large。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "特殊疑问句",
+        "question": "How ______ did you change?",
+        "options": [
+          "many",
+          "much",
+          "old",
+          "often"
+        ],
+        "answer": "much",
+        "explanation": "How much 询问程度，表示“改变了多少”。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "助动词辨析",
+        "question": "What ______ you do last night?",
+        "options": [
+          "do",
+          "did",
+          "does",
+          "done"
+        ],
+        "answer": "did",
+        "explanation": "last night表示过去，疑问句借用助动词did。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时态对比",
+        "question": "Now I ______ active in class.",
+        "options": [
+          "was",
+          "be",
+          "is",
+          "am"
+        ],
+        "answer": "am",
+        "explanation": "Now描述现在，I后面的人称代词用am。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形容词等级",
+        "question": "Who is the ______ girl in your class?",
+        "options": [
+          "tallest",
+          "taller",
+          "tall",
+          "talling"
+        ],
+        "answer": "tallest",
+        "explanation": "班级三者以上对比用最高级tallest。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "语境理解",
+        "question": "Before, I was short. Now, I am ______.",
+        "options": [
+          "thin",
+          "tall",
+          "quiet",
+          "short"
+        ],
+        "answer": "tall",
+        "explanation": "身高前后的对比，矮（short）对应高（tall）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "名词辨析",
+        "question": "People can see many stars in the ______ at night.",
+        "options": [
+          "gym",
+          "dining hall",
+          "sky",
+          "grass"
+        ],
+        "answer": "sky",
+        "explanation": "星星通常出现在天空（sky）中。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地点名词",
+        "question": "You can play basketball in the ____.",
+        "options": [],
+        "answer": "gym",
+        "explanation": "gym健身房/体育馆。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间介词",
+        "question": "Thirty years _____ , there were no computers in our class.",
+        "options": [],
+        "answer": "ago",
+        "explanation": "ago意为…以前。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形容词最高级",
+        "question": "Winter is the _____ season of the year in China.",
+        "options": [],
+        "answer": "coldest",
+        "explanation": "冬天是一年中最冷的季节。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动词时态",
+        "question": "I ____ thin two years ago. (用be动词填空)",
+        "options": [],
+        "answer": "was",
+        "explanation": "ago用过去时，I搭配was。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇配对",
+        "question": "请将下列单词与对应的中文意思连线。",
+        "options": [
+          "grass",
+          "star",
+          "dream",
+          "internet",
+          "星星",
+          "互联网",
+          "草地",
+          "梦想"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "grass草地，star星星，dream梦想，internet互联网。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动作短语配对",
+        "question": "请将短语与中文意思连线。",
+        "options": [
+          "look up",
+          "tell a story",
+          "go cycling",
+          "ice-skate",
+          "讲故事",
+          "去骑行",
+          "滑冰",
+          "查阅"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "look up查阅，tell a story讲故事，go cycling骑行，ice-skate滑冰。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时态对比句型",
+        "question": "连词成句：(was, no, library, There)",
+        "options": [
+          "was",
+          "no",
+          "library",
+          "There"
+        ],
+        "answer": "There,was,no,library",
+        "explanation": "There was no... 句型表示以前没有某物。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现在时表状态",
+        "question": "连词成句：(I, active, now, am)",
+        "options": [
+          "I",
+          "active",
+          "now",
+          "am"
+        ],
+        "answer": "I,am,active,now",
+        "explanation": "主系表结构描述现在的状态。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 4 Then and now - Final Examination",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "语法规则",
+        "question": "didn't 后面可以加 liked。",
+        "options": [],
+        "answer": "错",
+        "explanation": "助动词didn't后接动词原形。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词汇翻译",
+        "question": "'dining hall' 指的是‘图书馆’。",
+        "options": [],
+        "answer": "错",
+        "explanation": "dining hall是食堂。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "形容词变化",
+        "question": "easy 的最高级形式是 easiest。",
+        "options": [],
+        "answer": "对",
+        "explanation": "辅音字母+y结尾的形容词变最高级，去y变i加est。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "过去能力",
+        "question": "couldn't 是 could not 的缩写。",
+        "options": [],
+        "answer": "对",
+        "explanation": "考察单词缩写规则。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "语境判断",
+        "question": "20 years ago, there was no Internet. 这句话符合历史事实。",
+        "options": [],
+        "answer": "对",
+        "explanation": "20年前互联网在中国尚未普及。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "There be 句型",
+        "question": "There _____ no gym in late 1990s.",
+        "options": [
+          "is",
+          "was",
+          "are",
+          "be"
+        ],
+        "answer": "was",
+        "explanation": "过去的年份用过去时。"
+      },
+      {
+        "id": 7,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词辨析",
+        "question": "The moon and the ____ are in the sky.",
+        "options": [],
+        "answer": "stars",
+        "explanation": "stars 星星。"
+      },
+      {
+        "id": 8,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "最高级拼写",
+        "question": "The tiger is the _____ of the three animals. (big)",
+        "options": [],
+        "answer": "biggest",
+        "explanation": "双写g加est。"
+      },
+      {
+        "id": 9,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词时态",
+        "question": "He _____ not like sports before.",
+        "options": [],
+        "answer": "did",
+        "explanation": "before表示过去。"
+      },
+      {
+        "id": 10,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反义词",
+        "question": "The cat is small, but the elephant is ____.",
+        "options": [],
+        "answer": "large",
+        "explanation": "small对比large。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形容词等级",
+        "question": "Which one is the _____ of all?",
+        "options": [
+          "small",
+          "smaller",
+          "smallest",
+          "the small"
+        ],
+        "answer": "smallest",
+        "explanation": "of all表示范围，用最高级。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义理解",
+        "question": "We stay at home and study by ______.",
+        "options": [
+          "computer",
+          "star",
+          "cycling",
+          "grass"
+        ],
+        "answer": "computer",
+        "explanation": "借助电脑在线学习。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "连词辨析",
+        "question": "I loved bread, ______ now I love rice.",
+        "options": [
+          "and",
+          "so",
+          "but",
+          "with"
+        ],
+        "answer": "but",
+        "explanation": "前后喜好对比，用转折连词。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "过去能力",
+        "question": "My grandpa ______ play football many years ago.",
+        "options": [
+          "couldn't",
+          "don't",
+          "not",
+          "isn't"
+        ],
+        "answer": "couldn't",
+        "explanation": "表示过去没有的能力。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词复数",
+        "question": "There were no ______ in my old school.",
+        "options": [
+          "library",
+          "libraries",
+          "a library",
+          "the library"
+        ],
+        "answer": "libraries",
+        "explanation": "no后面通常接名词复数。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "日常用语",
+        "question": "I'm ______ I can't go to the party.",
+        "options": [
+          "scared",
+          "afraid",
+          "happy",
+          "excited"
+        ],
+        "answer": "afraid",
+        "explanation": "I'm afraid 用于委婉表达。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "介词搭配",
+        "question": "I looked ______ my old photos yesterday.",
+        "options": [
+          "up",
+          "at",
+          "to",
+          "for"
+        ],
+        "answer": "at",
+        "explanation": "look at 看着某物。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合理解",
+        "question": "Before, my mother had short hair, now she _____ long hair.",
+        "options": [
+          "had",
+          "has",
+          "have",
+          "is"
+        ],
+        "answer": "has",
+        "explanation": "now 表示现在时，主语she用has。"
+      },
+      {
+        "id": 19,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反义表达",
+        "question": "In the race, I was not fast. I was ______.",
+        "options": [
+          "quick",
+          "slow",
+          "quiet",
+          "fast"
+        ],
+        "answer": "slow",
+        "explanation": "不快即是慢。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "变化对比词",
+        "question": "连出对应关系。",
+        "options": [
+          "before",
+          "now",
+          "old",
+          "new",
+          "以前",
+          "现在",
+          "旧的",
+          "新的"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "时间与状态的词汇对应。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形容词等级配对",
+        "question": "连出原级与最高级。",
+        "options": [
+          "fast",
+          "slow",
+          "tall",
+          "short",
+          "tallest",
+          "shortest",
+          "fastest",
+          "slowest"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "fast-fastest, slow-slowest..."
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "复杂句式",
+        "question": "连词成句：(a, dream, I, had, tonight)",
+        "options": [
+          "a",
+          "dream",
+          "I",
+          "had",
+          "tonight"
+        ],
+        "answer": "I,had,a,dream,tonight",
+        "explanation": "过去发生的事情用had。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "对比表达",
+        "question": "连词成句：(is, school, changing, My, fast)",
+        "options": [
+          "is",
+          "school",
+          "changing",
+          "My",
+          "fast"
+        ],
+        "answer": "My,school,is,changing,fast",
+        "explanation": "现在进行时描述正在发生的变化。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "There be 句型时态转换",
+      "core_concept": "使用There was/were no表达过去没有某物，对比There is/are的现在状态。",
+      "key_formula": "过去: There was (单数名词) / There were (复数名词) + 时间状语(ago/last...)",
+      "common_mistakes": [
+        "混淆时态，如在ago句子中使用is/are",
+        "was/were与其后的名词单复数不匹配"
+      ],
+      "tips": "标志词是关键：看到ago用过去，看到now用现在。"
+    },
+    {
+      "point": "形容词最高级 (est)",
+      "core_concept": "用于三者或更多事物中表达‘最...’的一项。",
+      "key_formula": "the + 形容词最高级 (+ 范围词/名词)",
+      "common_mistakes": [
+        "最高级前漏写the",
+        "双写词尾字母拼写错误(如bigest)"
+      ],
+      "tips": "重读闭音节单词(如big, hot, fat)变最高级需双写末尾辅音字母。"
+    },
+    {
+      "point": "个人能力与爱好的时间对比",
+      "core_concept": "通过Before和Now两个时间段的描述呈现个人的成长与变化。",
+      "key_formula": "Before, I/He/She + (didn't/couldn't) + 动词原形. Now, I/He/She + (love/like/am/can)...",
+      "common_mistakes": [
+        "didn't后面接了动词过去式",
+        "现在时中第三人称单数漏掉s/es"
+      ],
+      "tips": "描述过去时别忘了动词要变身，描述现在时注意主谓一致。"
+    }
+  ]
+}

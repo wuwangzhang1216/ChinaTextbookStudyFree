@@ -1,0 +1,732 @@
+{
+  "textbook": "统编版小学语文一年级上册",
+  "unit": "我上学了（入学教育）",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元「我上学了」入学素养摸底测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "升国旗的时候，我们应该立正，行注目礼。",
+        "options": [],
+        "answer": "对",
+        "explanation": "升国旗是庄严的仪式，小学生应当肃立致敬。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "我们都是中国人，我们的祖国是妈妈。",
+        "options": [],
+        "answer": "对",
+        "explanation": "建立对祖国的热爱是入学教育的第一课。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "语文学习行为素养",
+        "question": "读书的时候，要把书拿稳，眼睛离书本远一点。",
+        "options": [],
+        "answer": "对",
+        "explanation": "保护视力需要保持正确的读书姿势。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "校园生活感知",
+        "question": "在学校遇到不认识的老师，可以不用打招呼。",
+        "options": [],
+        "answer": "错",
+        "explanation": "校园里遇到老师要有礼貌，主动问好。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "语文学习行为素养",
+        "question": "写字时，我们要坐在座位上，身体要坐正。",
+        "options": [],
+        "answer": "对",
+        "explanation": "正确的坐姿是写好字的基础。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "《上学歌》中，“我去上学校”的下一句是？",
+        "options": [
+          "天天不迟到",
+          "花儿对我笑",
+          "背着书包",
+          "小鸟向我叫"
+        ],
+        "answer": "天天不迟到",
+        "explanation": "根据歌词内容，下一句是表达不迟到的决心。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "太阳当空照，（ ）对我笑。空格里应该填什么？",
+        "options": [
+          "小草",
+          "小鸟",
+          "花儿",
+          "蓝天"
+        ],
+        "answer": "花儿",
+        "explanation": "《上学歌》原文为“太阳当空照，花儿对我笑”。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语文学习行为素养",
+        "question": "写字的时候，我们的胸口离桌子大约有多远？",
+        "options": [
+          "一寸",
+          "一拳",
+          "一尺",
+          "贴着桌子"
+        ],
+        "answer": "一拳",
+        "explanation": "“一拳、一尺、一寸”是基本的写字姿势规范。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "我们的国旗是什么颜色的？",
+        "options": [
+          "红色",
+          "黄色",
+          "彩色",
+          "蓝色"
+        ],
+        "answer": "红色",
+        "explanation": "五星红旗底色为红色。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园生活感知",
+        "question": "上课想发言，我们应该先怎么做？",
+        "options": [
+          "直接大声说",
+          "跟同桌悄悄说",
+          "举手示意",
+          "站起来说"
+        ],
+        "answer": "举手示意",
+        "explanation": "举手是课堂基本的社交礼仪。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "语文学习行为素养",
+        "question": "听故事的时候，下面哪种行为是不正确的？",
+        "options": [
+          "安静听",
+          "看着讲故事的人",
+          "随便乱动",
+          "动脑筋想"
+        ],
+        "answer": "随便乱动",
+        "explanation": "听故事要保持专注和安静。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园生活感知",
+        "question": "下课了，在走廊里我们要怎么走？",
+        "options": [
+          "飞快地跑",
+          "大声喊叫",
+          "靠右慢慢走",
+          "成群打闹"
+        ],
+        "answer": "靠右慢慢走",
+        "explanation": "安全文明行进是校园生活的基本准则。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "我是（ ）小学生。括号里填哪个词最合适？",
+        "options": [
+          "一名",
+          "一个",
+          "一头",
+          "一只"
+        ],
+        "answer": "一名",
+        "explanation": "“名”是形容人的常用量词，带有尊敬和正式感。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语文学习行为素养",
+        "question": "读书时，身体要坐直，书本可以稍微怎么放？",
+        "options": [
+          "平放在桌上",
+          "斜立起来",
+          "顶在头上",
+          "放在膝盖上"
+        ],
+        "answer": "斜立起来",
+        "explanation": "书本斜立有利于视线垂直，保护眼睛。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "校园生活感知",
+        "question": "向别人借东西时，第一句话应该说什么？",
+        "options": [
+          "喂",
+          "那是我的",
+          "请问",
+          "快拿来"
+        ],
+        "answer": "请问",
+        "explanation": "“请”是礼貌用语的开端。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "我们的祖国叫什么名字？",
+        "options": [],
+        "answer": "中国",
+        "explanation": "学生应明确自己是中国人，祖国是中国。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "校园生活感知",
+        "question": "早上见到老师，我们要主动说：“老师，（ ）！”",
+        "options": [],
+        "answer": "早",
+        "explanation": "“早”或“好”是基本的问候语。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语文学习行为素养",
+        "question": "读书、写字都要注意保护我们的什么？",
+        "options": [],
+        "answer": "眼睛",
+        "explanation": "用眼卫生是语文素养的重要组成部分。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "校园生活感知",
+        "question": "根据场景选择合适的礼貌用语（左为动作，右为话语）",
+        "options": [
+          "得到帮助",
+          "不小心碰到人",
+          "分别的时候",
+          "求人帮忙",
+          "没关系",
+          "谢谢你",
+          "对不起",
+          "再见"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "考察基础社交礼仪用语的对应关系。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语文学习行为素养",
+        "question": "读书、写字的正确姿势匹配",
+        "options": [
+          "眼离书本",
+          "胸离桌子",
+          "手离笔尖",
+          "双脚",
+          "一寸",
+          "放平",
+          "一尺",
+          "一拳"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "考察“一尺、一拳、一寸”及“脚放平”的规范要求。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "语文学习行为素养",
+        "question": "将活动与对应的感官连线",
+        "options": [
+          "听故事",
+          "看课本",
+          "讲笑话",
+          "写汉字",
+          "用嘴",
+          "用手",
+          "用耳",
+          "用眼"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "明确各项语文活动主要使用的感官器官。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "把词语排成一句话：",
+        "options": [
+          "是",
+          "我",
+          "中国",
+          "孩子"
+        ],
+        "answer": "我,是,中国,孩子",
+        "explanation": "建立简单的身份表述句式。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园生活感知",
+        "question": "把词语排成一句话：",
+        "options": [
+          "上学",
+          "开心地",
+          "我",
+          "去"
+        ],
+        "answer": "我,开心地,去,上学",
+        "explanation": "描述上学的心理状态和行为动作。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第一单元「我上学了」幼小衔接综合评估检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "升旗时，我们要一边说话一边看红旗。",
+        "options": [],
+        "answer": "错",
+        "explanation": "升旗仪式必须严肃安静。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "我们国家是个多民族的大家庭，各族人民是一家。",
+        "options": [],
+        "answer": "对",
+        "explanation": "理解民族团结是身份认同的重要部分。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "语文学习行为素养",
+        "question": "我们读书的时候，可以靠在椅子背上休息。",
+        "options": [],
+        "answer": "对",
+        "explanation": "读书姿势要求坐端正，但合理的背部支撑是有益的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "校园生活感知",
+        "question": "在校园里见到纸屑，我们要主动捡起来扔进垃圾桶。",
+        "options": [],
+        "answer": "对",
+        "explanation": "爱护环境是小学生行为规范的要求。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "语文学习行为素养",
+        "question": "讲故事的时候，声音越小越专业。",
+        "options": [],
+        "answer": "错",
+        "explanation": "讲故事要声音洪亮、自然大方。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "“你要去哪里？我去上学校。”这出自哪首儿歌？",
+        "options": [
+          "《小兔子乖乖》",
+          "《上学歌》",
+          "《咏鹅》",
+          "《找朋友》"
+        ],
+        "answer": "《上学歌》",
+        "explanation": "这是入学教育核心曲目的内容。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "五星红旗上的五颗星是什么颜色的？",
+        "options": [
+          "红色",
+          "白色",
+          "黄色",
+          "金色"
+        ],
+        "answer": "黄色",
+        "explanation": "红底黄星是中国国旗的特征。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园生活感知",
+        "question": "老师正在上课，你想去医务室，你应该怎么做？",
+        "options": [
+          "直接溜出去",
+          "举手向老师报告",
+          "下课再去",
+          "大声叫喊"
+        ],
+        "answer": "举手向老师报告",
+        "explanation": "课堂突发状况的处理礼仪。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "校园生活感知",
+        "question": "同学不小心把你的橡皮弄丢了，如果你原谅他，应该怎么说？",
+        "options": [
+          "赔给我",
+          "没关系",
+          "你真笨",
+          "我告诉老师"
+        ],
+        "answer": "没关系",
+        "explanation": "宽容是重要的校园社交素养。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "语文学习行为素养",
+        "question": "阅读短文：上学了，我最高兴。书包里，有课本，有铅笔。我爱老师，我爱同学。问：文中的“我”因为什么最高兴？",
+        "options": [
+          "有铅笔",
+          "有课本",
+          "上学了",
+          "爱老师"
+        ],
+        "answer": "上学了",
+        "explanation": "短文第一句指明了高兴的原因。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语文学习行为素养",
+        "question": "写字时，“一寸”是指哪里到笔尖的距离？",
+        "options": [
+          "鼻尖",
+          "指关节",
+          "手指尖",
+          "虎口"
+        ],
+        "answer": "手指尖",
+        "explanation": "执笔姿势中，手指握笔处离笔尖约一寸。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "《上学歌》中，“爱学习，爱劳动”的下一句是？",
+        "options": [
+          "长大要为祖国立功劳",
+          "天天不迟到",
+          "小鸟向我叫",
+          "我是小学生"
+        ],
+        "answer": "长大要为祖国立功劳",
+        "explanation": "歌曲结尾升华了学习的价值意义。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园生活感知",
+        "question": "当你进老师办公室时，第一步应该做什么？",
+        "options": [
+          "直接跑进去",
+          "在门口敲门或喊报告",
+          "偷偷看一眼",
+          "找老师要零食"
+        ],
+        "answer": "在门口敲门或喊报告",
+        "explanation": "进办公室的礼貌流程。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "语文学习行为素养",
+        "question": "讲故事时，我们应该注意什么？",
+        "options": [
+          "低着头看地面",
+          "左顾右盼",
+          "目视听众",
+          "用手捂住嘴巴"
+        ],
+        "answer": "目视听众",
+        "explanation": "交流式的表达需要眼神交流。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园生活感知",
+        "question": "课件休息时，下列哪种游戏最适合在教室里做？",
+        "options": [
+          "拍皮球",
+          "捉迷藏",
+          "静心看画报",
+          "追逐打闹"
+        ],
+        "answer": "静心看画报",
+        "explanation": "教室内应保持安静，适合温和的文化活动。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "我们国家的全名是？（提示：简称中国）",
+        "options": [],
+        "answer": "中华人民共和国",
+        "explanation": "知晓祖国的全称是基本的常识教育。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语文学习行为素养",
+        "question": "读书时，我们的身体要坐（ ）。",
+        "options": [],
+        "answer": "端正",
+        "explanation": "“端正”或“直”是核心要求。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "校园生活感知",
+        "question": "离开学校时，我们要对老师说声（ ）。",
+        "options": [],
+        "answer": "再见",
+        "explanation": "基本的道别礼仪。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园生活感知",
+        "question": "为校园里的物品找到它们的家",
+        "options": [
+          "图书",
+          "皮球",
+          "餐盘",
+          "粉笔",
+          "食堂",
+          "黑板下",
+          "图书馆",
+          "操场"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "熟悉校园环境及其配套设施的功能。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "语文学习行为素养",
+        "question": "匹配正确的语文学习行为与要求",
+        "options": [
+          "讲故事",
+          "听故事",
+          "读书",
+          "写字",
+          "认真专注",
+          "双手拿书",
+          "一拳一尺",
+          "有声有色"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "强化语文核心活动的具体行为规范。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "身份认同与角色定位",
+        "question": "对应身份与使命",
+        "options": [
+          "我是中国孩子",
+          "我是小学生",
+          "我是好学生",
+          "我是好帮手",
+          "热爱爸爸妈妈",
+          "我爱中国",
+          "我爱学校",
+          "认真学习"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "考察多重角色的感知与责任。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语文学习行为素养",
+        "question": "排成一句话：",
+        "options": [
+          "我",
+          "喜欢",
+          "听",
+          "老师",
+          "讲故事"
+        ],
+        "answer": "我,喜欢,听,老师,讲故事",
+        "explanation": "表达语文学科的学习兴趣。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "校园生活感知",
+        "question": "排成一句话：",
+        "options": [
+          "学校",
+          "我们的",
+          "大家庭",
+          "是"
+        ],
+        "answer": "学校,是,我们的,大家庭",
+        "explanation": "对校园环境的整体认知表述。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "身份认同与角色定位",
+      "core_concept": "学生通过《我是中国人》《上学歌》等内容，明确自己的多重身份。首先是建立深厚的民族自豪感，知晓国名、国旗，初步产生爱国情感。其次是认同“小学生”的新身份，理解学生阶段的主要任务是学习，并培养积极向上的学习态度和爱劳动的习惯。",
+      "key_formula": "我是中国人，我是小学生。",
+      "common_mistakes": [
+        "国名书写或发音不准确",
+        "混淆国旗底色和星的颜色"
+      ],
+      "tips": "通过观察国旗图片和学唱《上学歌》来辅助身份认同的内化。"
+    },
+    {
+      "point": "语文学习行为素养",
+      "core_concept": "入学之初需规范四种核心语文行为：读书要求双手拿书，身体端正；写字要求遵循“一尺（眼离书）、一拳（胸离桌）、一寸（手离笔尖）”原则；讲故事要自然、大方、声音洪亮；听故事要专注、安静。这些素养决定了未来语文学习质量的基础。",
+      "key_formula": "眼一尺，胸一拳，指一寸。",
+      "common_mistakes": [
+        "写字时胸部贴着桌沿",
+        "读书时趴在桌上"
+      ],
+      "tips": "可以配合口诀“头正、身直、臂开、足安”来记忆和检查自己的姿势。"
+    },
+    {
+      "point": "校园生活感知",
+      "core_concept": "重点在于引导学生熟悉学校环境（操场、图书馆、厕所等）和建立良好的人际关系。通过社交礼仪学习（如问好、道谢、抱歉、再见等），帮助学生平稳度过“离家入校”的心理适应期，学会基本的合作与尊重，营造和谐的学习氛围。",
+      "key_formula": "见师长，要问好；遇同伴，讲文明。",
+      "common_mistakes": [
+        "在公共区域（如办公室、阅览室）大声嘈杂",
+        "忘记使用基本的礼貌用语“请”"
+      ],
+      "tips": "通过角色扮演或模拟情景练习，让学生在真实的对话中掌握礼貌用语的使用。"
+    }
+  ]
+}

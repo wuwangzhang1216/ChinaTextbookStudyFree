@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学五年级上册",
+  "unit": "可能性",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元「可能性」单元小测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "太阳一定从东方升起。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据自然规律，太阳从东方升起是必然事件，所以用“一定”描述是正确的。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "小明明天可能会生病。",
+        "options": [],
+        "answer": "对",
+        "explanation": "生病是不确定事件，可能发生也可能不发生，用“可能”描述正确。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "可能性的大小比较",
+        "question": "口袋里有5个红球和2个白球，摸到白球的可能性比红球大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "5 > 2，红球数量多，摸到红球的可能性大。原命题错误。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小应用（设计方案）",
+        "question": "为了让抽奖的人很难中奖，应该把中奖的区域设计得非常大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "中奖区域越大，发生的可能性越大。要让抽奖难中奖，应该缩小中奖区域。原命题错误。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "正方形的四个角不可能都是直角。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据定义，正方形的四个角一定是直角。所以“不可能”描述错误。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "在只装有红球的袋子里摸球，摸出的（ ）是红球。",
+        "options": [
+          "一定",
+          "可能",
+          "不可能",
+          "不知道"
+        ],
+        "answer": "一定",
+        "explanation": "袋子里只有一种颜色的球，结果是确定的，摸出的必然是红球。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "抛一枚硬币，正面（ ）朝上。",
+        "options": [
+          "一定",
+          "可能",
+          "不可能",
+          "必然"
+        ],
+        "answer": "可能",
+        "explanation": "抛硬币结果是随机的，可能正面也可能反面。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "转动一个转盘，指针停在红色区域5次，蓝色区域15次。则（ ）区域的面积可能更大。",
+        "options": [
+          "红色",
+          "蓝色",
+          "一样大",
+          "无法判断"
+        ],
+        "answer": "蓝色",
+        "explanation": "次数多的通常对应可能性大的区域，因此蓝色区域面积可能更大。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "可能性的大小比较",
+        "question": "盒子里有10个黑球，1个粉球。摸一次，摸到（ ）球的可能性最小。",
+        "options": [
+          "黑",
+          "白",
+          "粉",
+          "蓝"
+        ],
+        "answer": "粉",
+        "explanation": "粉球数量最少（只有1个），所以可能性最小。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "下列说法中，属于“一定”的是（ ）。",
+        "options": [
+          "明天会下雨",
+          "人长生不老",
+          "一周有7天",
+          "猫会说话"
+        ],
+        "answer": "一周有7天",
+        "explanation": "常识判定：下雨是可能，长生不老和猫说话是不可能，一周7天是确定的。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "小明掷骰子（1-6点），掷出的点数大于4的有（ ）种可能。",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "大于4的点数有5和6，共2个。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "可能性的大小应用（设计方案）",
+        "question": "设计一个公平的转盘游戏，红蓝两色区域的面积应该（ ）。",
+        "options": [
+          "红色大",
+          "蓝色大",
+          "相等",
+          "不必考虑"
+        ],
+        "answer": "相等",
+        "explanation": "公平意味着可能性相等，即面积必须相等。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "今天是星期一，明天（ ）是星期二。",
+        "options": [
+          "一定",
+          "可能",
+          "不可能",
+          "也许"
+        ],
+        "answer": "一定",
+        "explanation": "星期的顺序是固定的。验算：周一的下一天即为周二。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "有3个红球和8个黄球，任意摸一个。下面说法正确的是（ ）。",
+        "options": [
+          "摸到红球可能性大",
+          "摸到黄球可能性大",
+          "摸到的一定是红球",
+          "摸到的不可能是黄球"
+        ],
+        "answer": "摸到黄球可能性大",
+        "explanation": "8 > 3，数量多的可能性大。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "石子扔进水里，石子（ ）会沉下去。",
+        "options": [
+          "一定",
+          "可能",
+          "不可能",
+          "无法确定"
+        ],
+        "answer": "一定",
+        "explanation": "物理常识，石子密度大于水，必然下沉。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "可能性的大小比较",
+        "question": "盒子里有9个红球。如果想让摸到白球的可能性大，至少要往盒子里放入（ ）个白球。",
+        "options": [
+          "1",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "10",
+        "explanation": "要使白球可能性大，数量必须超过红球。9 + 1 = 10。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "一个布袋里放了大小相同的球，摸到红球可能性最大。说明红球数量（ ）。",
+        "options": [
+          "最少",
+          "最多",
+          "和白球一样",
+          "中等"
+        ],
+        "answer": "最多",
+        "explanation": "可能性最大对应的数量最多。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "一个盒子里全是黑棋子。小华随便摸一个，（ ）是白棋子。",
+        "options": [
+          "一定",
+          "可能",
+          "不可能",
+          "或许"
+        ],
+        "answer": "不可能",
+        "explanation": "样本空间全是黑，不可能出现白。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "可能性的大小比较",
+        "question": "一个口袋里有 5 个红球和 3 个黄球，红球比黄球多 ___ 个。",
+        "options": [],
+        "answer": "2",
+        "explanation": "列式：$5 - 3 = 2$（个）。验算：$2 + 3 = 5$ ✓。红球多意味着抽中可能性大。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小应用（设计方案）",
+        "question": "箱子里有 6 个红球。如果要使摸到白球的可能性为零，白球的数量应该是 ___ 个。",
+        "options": [],
+        "answer": "0",
+        "explanation": "可能性为零即为“不可能”事件，意味着箱子里不存在白球，数量为 0。验算：没有白球即摸不到白球 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "抛出一枚硬币，可能出现的情况共有 ___ 种（假定只有正面和反面）。",
+        "options": [],
+        "answer": "2",
+        "explanation": "硬币有正面和反面两面，所以有 2 种可能。验算：1（正）+ 1（反） = 2 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "$12 \times 5 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$12 \times 5 = 60$。验算：$60 \times \frac{1}{5} = 12$ 或 $60 \times \frac{1}{12} = 5$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "$25 \times 4 - 20 = ?$",
+        "options": [],
+        "answer": "80",
+        "explanation": "先算乘法 $25 \times 4 = 100$，再算减法 $100 - 20 = 80$。验算：$80 + 20 = 100$, $100 \times \frac{1}{4} = 25$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册《可能性》综合素质检测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "地球绕着太阳转是一定会发生的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "自然科学规律，属于必然事件。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "只要数量够多，这种事件发生的可能性就一定大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在同一实验条件下，个体数量占据总数的比例越高，其发生的可能性就越大。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "三人玩石头剪刀布，结果是不确定的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "每个人出的策略是随机的，结果可能有多种，属于不确定事件。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "可能性的大小应用（设计方案）",
+        "question": "设计一个抽奖箱，如果放入1个一等奖和100个纪念奖，抽到一等奖的可能性非常小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1比100，数量极少，可能性极小。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "抛硬币10次都是正面，第11次一定是正面。",
+        "options": [],
+        "answer": "错",
+        "explanation": "每一次抛硬币都是独立随机事件，第11次依然是可能正面也可能反面。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "冬天，四川（ ）会下雪。",
+        "options": [
+          "一定",
+          "可能",
+          "不可能",
+          "必然"
+        ],
+        "answer": "可能",
+        "explanation": "四川大部分地区气候温和，有的年份下雪，有的不下，属于可能发生的。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "可能性的大小比较",
+        "question": "转动转盘，指针落在白色区域的可能性最小，说明（ ）。",
+        "options": [
+          "白色区域最大",
+          "白色区域最小",
+          "没白色区域",
+          "白色区域居中"
+        ],
+        "answer": "白色区域最小",
+        "explanation": "可能性大小与区域面积成正比。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "小力和小红比赛抽签。共有100张签，其中只有1张中奖。小力抽了第1张，没中。剩下的签中抽到中奖签的可能性（ ）。",
+        "options": [
+          "变大",
+          "变小",
+          "不变",
+          "消失"
+        ],
+        "answer": "变大",
+        "explanation": "原本是1/100，排除一个错项后变为1/99，分母变小值变大。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小应用（设计方案）",
+        "question": "要在盒子里放两种球，使摸到红球的可能性是绿球的3倍。数量可以是（ ）。",
+        "options": [
+          "红3绿1",
+          "红1绿3",
+          "红3绿3",
+          "红1绿1"
+        ],
+        "answer": "红3绿1",
+        "explanation": "比例关系：$3 \times 1 = 3$，红球数量应是绿球的3倍。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "可能性的大小比较",
+        "question": "甲袋里有10红2白，乙袋里有5红1白。从哪个袋子里摸到红球的可能性更大？",
+        "options": [
+          "甲袋",
+          "乙袋",
+          "同样大",
+          "无法比较"
+        ],
+        "answer": "同样大",
+        "explanation": "甲袋比例：$10:2=5:1$，乙袋比例：$5:1$。比例相同，可能性相同。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "三人轮流玩一个游戏，甲玩了之后乙玩，这种先后次序是（ ）安排的。",
+        "options": [
+          "人工",
+          "随机",
+          "确定性",
+          "可能"
+        ],
+        "answer": "确定性",
+        "explanation": "规则明确了后续人的次序，是确定发生的规律。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "可能性的大小比较",
+        "question": "扑克牌中，从一副牌里随机抽出一张，抽到红桃的可能性和抽到黑梅的可能性（ ）。",
+        "options": [
+          "相等",
+          "红桃大",
+          "黑梅大",
+          "无法判断"
+        ],
+        "answer": "相等",
+        "explanation": "扑克牌四种花色数量相等，所以抽中任一花色的可能性相等。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "老师在黑板上画了一个圆。这个圆（ ）有半径。",
+        "options": [
+          "一定",
+          "可能",
+          "不可能",
+          "没有"
+        ],
+        "answer": "一定",
+        "explanation": "圆的定义特征就是具有定长的半径。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "可能性的大小应用（设计方案）",
+        "question": "一个正方体，三面涂红，两面涂黄，剩下一面涂绿。抛起后（ ）色朝上的可能性最小。",
+        "options": [
+          "红",
+          "黄",
+          "绿",
+          "蓝"
+        ],
+        "answer": "绿",
+        "explanation": "绿色面数最少（1面），所以可能性最小。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "盒子里有3个红球，4个蓝球，5个白球。摸出（ ）球的可能性最大。",
+        "options": [
+          "白",
+          "蓝",
+          "红",
+          "黑"
+        ],
+        "answer": "白",
+        "explanation": "5 > 4 > 3，白球数量最多。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "任意翻看 2024 年历，翻到 2 月 29 日是（ ）。",
+        "options": [
+          "一定",
+          "可能",
+          "不可能",
+          "必定"
+        ],
+        "answer": "可能",
+        "explanation": "2024年是闰年，有29号。翻看是随机行为，属于不确定事件。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "小明和小强玩转盘，转到单数小明赢，转到双数小强赢。用（ ）数字的转盘最公平。",
+        "options": [
+          "1-5",
+          "1-6",
+          "1-7",
+          "1-9"
+        ],
+        "answer": "1-6",
+        "explanation": "1-6中有3个单数(1,3,5)和3个双数(2,4,6)，数量相等，公平。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "可能性的大小应用（设计方案）",
+        "question": "抽奖箱里放了 10 个球。为了让抽到红球的可能性最小（但不为零），红球应该放（ ）个。",
+        "options": [
+          "0",
+          "1",
+          "5",
+          "9"
+        ],
+        "answer": "1",
+        "explanation": "不能为零排除0；要最小，则放1个即可。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "一个黑口袋里有红球和黄球共 20 个。如果摸到红球可能性大，则红球至少要有 ___ 个。",
+        "options": [],
+        "answer": "11",
+        "explanation": "总数20，平分为10个。要使红球可能性大，红球数量需多于10。列式：$20 \times \frac{1}{2} + 1 = 11$。验算：$11 > 9$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "可能性的大小应用（设计方案）",
+        "question": "要把 12 个球放进盒子里，使摸到红球的可能性是黄球的 2 倍。红球应放 ___ 个。",
+        "options": [],
+        "answer": "8",
+        "explanation": "设黄球为x，红球为2x。$x + 2x = 12$, $3x = 12$, $x = 4$。红球为 $4 \times 2 = 8$。验算：$8 + 4 = 12$, $8 \times \frac{1}{2} = 4$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "可能性的大小比较",
+        "question": "骰子有 6 个面。掷一次，点数大于 5 的可能性 ___ 种（填数字）。",
+        "options": [],
+        "answer": "1",
+        "explanation": "大于5的点数只有6。所以只有一种可能。验算：点数范围1-6，只有6满足 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "事件发生的确定性与不确定性",
+        "question": "$24 \times 5 = ?$",
+        "options": [],
+        "answer": "120",
+        "explanation": "$24 \times 5 = 120$。验算：$120 \times \frac{1}{5} = 24$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "可能性的大小比较",
+        "question": "$480 \times \frac{1}{6} = ?$",
+        "options": [],
+        "answer": "80",
+        "explanation": "相当于 $480 \times \frac{1}{6} = 80$。验算：$80 \times 6 = 480$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "事件发生的确定性与不确定性",
+      "core_concept": "在数学中，根据发生的必然程度将事件分为确定事件和不确定事件。确定事件包括“一定”发生的（必然事件）和“不可能”发生的（不可能事件）。不确定事件则是“可能”发生也“可能”不发生的随机事件。",
+      "key_formula": "描述语：一定、不可能、可能。",
+      "common_mistakes": [
+        "混淆“不可能”与“可能性小”，如认为抽奖中一等奖是“不可能”的。",
+        "将偶然发生的事件描述为“一定”或“不可能”。"
+      ],
+      "tips": "结合生活常识判断。如果是规律、法则类通常是确定的；如果是抽奖、比赛、天气类通常是不确定的。"
+    },
+    {
+      "point": "可能性的大小比较",
+      "core_concept": "事件发生的可能性大小与它所包含的个体数量或所占的面积比例有关。在总数一定的情况下，数量越多，出现的可能性就越大；反之则越小。",
+      "key_formula": "数量（或面积）越多 $\rightarrow$ 可能性越大。",
+      "common_mistakes": [
+        "认为只要有这个选项，可能性就一样大，忽视了数量差异。",
+        "在计算抽奖公平性时，只看种类没看具体的份额。"
+      ],
+      "tips": "先数一数各部分的数量，数量最多的对应可能性最大，数量最少的对应可能性最小。"
+    },
+    {
+      "point": "可能性的大小应用（设计方案）",
+      "core_concept": "根据预设的可能性要求，反向设计实验模型。例如要让某结果出现的可能性大，就增加该结果对应的实物数量或区域面积；要实现公平，则需使各结果的条件完全相等。",
+      "key_formula": "设计规则：可能性相等 $\rightarrow$ 条件（数量/面积）相等。",
+      "common_mistakes": [
+        "设计“公平”游戏时，分配的数量不相等。",
+        "理解错比例关系，如要3倍可能却设计成多了3个。"
+      ],
+      "tips": "可以先设定一个基准数（如1），再根据倍数关系或大小关系分配其他部分的数量。"
+    }
+  ]
+}

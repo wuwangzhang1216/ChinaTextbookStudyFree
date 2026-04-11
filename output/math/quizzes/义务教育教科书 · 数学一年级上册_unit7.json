@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级上册",
+  "unit": "认识钟表",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "第7单元「认识钟表」单元达标测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "钟面上又短又粗的针是分针。",
+        "options": [],
+        "answer": "错",
+        "explanation": "钟面上短而粗的是时针，长而细的是分针。验算：概念核对一致。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "钟面上一共有12个数，它们按从小到大的顺序排成一圈。",
+        "options": [],
+        "answer": "对",
+        "explanation": "钟面刻度从1到12依次排列。验算：1,2,3,4,5,6,7,8,9,10,11,12共12个数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "当分针指向12，时针指向3时，是3时整。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分针指12，时针对着几就是几时。验算：3时整的特征符合。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "小明每天先吃午饭，再吃早饭。",
+        "options": [],
+        "answer": "错",
+        "explanation": "一日三餐的顺序是早餐、午餐、晚餐。验算：逻辑不符。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "8时整可以写成 8:00。",
+        "options": [],
+        "answer": "对",
+        "explanation": "整时的电子表表示法是在数字后面加冒号和两个0。验算：格式规范。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "钟面上最长的针叫什么名字？",
+        "options": [
+          "时针",
+          "分针",
+          "秒针",
+          "长针"
+        ],
+        "answer": "分针",
+        "explanation": "一年级标准教材定义：长针是分针，短针是时针。秒针暂不涉及。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "分针指着12，时针指着6，现在是几时？",
+        "options": [
+          "12时",
+          "6时",
+          "1时",
+          "无法确定"
+        ],
+        "answer": "6时",
+        "explanation": "分针指向12是整时标志，时针指向6即为6时。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "电子表上显示“10:00”，表示的时间是？",
+        "options": [
+          "1时",
+          "10时",
+          "12时",
+          "10分钟"
+        ],
+        "answer": "10时",
+        "explanation": "冒号左边的数字表示几时。左边是10，即10时。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "下面哪个活动通常是在上午进行的？",
+        "options": [
+          "看午夜电影",
+          "在学校听课",
+          "全家吃晚餐",
+          "睡觉做长梦"
+        ],
+        "answer": "在学校听课",
+        "explanation": "只有“听课”符合上午及日间的作息逻辑。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "小红上午9时去图书馆，11时回家。他在图书馆待了几个小时？",
+        "options": [
+          "1小时",
+          "2小时",
+          "3小时",
+          "9小时"
+        ],
+        "answer": "2小时",
+        "explanation": "从9时到10时是1小时，从10时到11时又1小时，共2小时。$11 - 9 = 2$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "数字12在钟面的哪个位置？",
+        "options": [
+          "最顶上",
+          "最底下",
+          "最左边",
+          "最右边"
+        ],
+        "answer": "最顶上",
+        "explanation": "钟面数字排列中，12位于正上方。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整时的认读与记录",
+        "question": "现在是5时整，过1小时是几时？",
+        "options": [
+          "4时",
+          "5时",
+          "6时",
+          "12时"
+        ],
+        "answer": "6时",
+        "explanation": "过1小时用加法，$5 + 1 = 6$（时）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整时的认读与记录",
+        "question": "1小时前是4时，现在是几时？",
+        "options": [
+          "3时",
+          "4时",
+          "5时",
+          "6时"
+        ],
+        "answer": "5时",
+        "explanation": "已知过去的时间求现在，用加法。$4 + 1 = 5$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "针尖走得慢，个子矮又胖。猜一物：",
+        "options": [
+          "分针",
+          "秒针",
+          "时针",
+          "数字"
+        ],
+        "answer": "时针",
+        "explanation": "谜语描述了时针“短”和“慢”的特征。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "整时的认读与记录",
+        "question": "时针和分针重合在一起（指向同一个数字）时，是几时？",
+        "options": [
+          "3时",
+          "6时",
+          "9时",
+          "12时"
+        ],
+        "answer": "12时",
+        "explanation": "12时整，分针指向12，时针也指向12，两针重合。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "小明1时吃饭，小乐2时吃饭，谁吃得早？",
+        "options": [
+          "小明",
+          "小乐",
+          "一样早",
+          "无法确定"
+        ],
+        "answer": "小明",
+        "explanation": "数字越小，时间越早（同一时段内）。1比2早。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "钟面上，分针指向12，时针指向12，这是：",
+        "options": [
+          "12时",
+          "0时",
+          "1时",
+          "24时"
+        ],
+        "answer": "12时",
+        "explanation": "符合整时定义，分针12，时针12即为12时。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "整时的认读与记录",
+        "question": "时针和分针排成一条直线的整时时间是：",
+        "options": [
+          "12时",
+          "9时",
+          "6时",
+          "3时"
+        ],
+        "answer": "6时",
+        "explanation": "6时整，分针正对12，时针正对6，成一直线。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "钟面上一共有 ___ 个大格。",
+        "options": [],
+        "answer": "12",
+        "explanation": "钟面数字从1到12，每两个相邻数字间是一个大格。公式：$12 - 0 = 12$。验算：数一数共有12格。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "分针指着12，时针指着2，是 ___ 时。",
+        "options": [],
+        "answer": "2",
+        "explanation": "分针指12为整时，时针指2即2时。验算：符合读数逻辑。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "小明7时起床，小华比他晚1小时起床，小华是 ___ 时起床的。",
+        "options": [],
+        "answer": "8",
+        "explanation": "晚1小时用加法。列式：$7 + 1 = 8$。验算：$8 - 1 = 7$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "3 + 9 = ?",
+        "options": [],
+        "answer": "12",
+        "explanation": "$3 + 9 = 12$。验算：$12 - 9 = 3$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "10 - 2 = ?",
+        "options": [],
+        "answer": "8",
+        "explanation": "$10 - 2 = 8$。验算：$8 + 2 = 10$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "一年级数学上册期末综合测验（认识钟表专项版）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "分针跑得快，时针跑得慢。",
+        "options": [],
+        "answer": "对",
+        "explanation": "同时间内分针转一圈，时针只走一格，所以分针快。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "整时的认读与记录",
+        "question": "6时整，时针和分针在同一个位置。",
+        "options": [],
+        "answer": "错",
+        "explanation": "6时整分针指12，时针指6，不在同位置。12时整才是同位置。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "早晨太阳从东方升起，这时大约是6时。",
+        "options": [],
+        "answer": "对",
+        "explanation": "符合常识及时间认知。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "整时的认读与记录",
+        "question": "时针走一圈是10小时。",
+        "options": [],
+        "answer": "错",
+        "explanation": "钟面有12个数，时针走一圈是12小时。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "我们通常在晚上9时左右睡觉。",
+        "options": [],
+        "answer": "对",
+        "explanation": "符合小学生科学作息规律。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "钟面上的数字是从1到几？",
+        "options": [
+          "10",
+          "12",
+          "24",
+          "60"
+        ],
+        "answer": "12",
+        "explanation": "人教版教材明确钟面上有1-12共12个数。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整时的认读与记录",
+        "question": "下午 4:00 也就是：",
+        "options": [
+          "4时",
+          "40时",
+          "10时",
+          "4分钟"
+        ],
+        "answer": "4时",
+        "explanation": "电子表表示法与汉字表示法的对应。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "现在是12时，分针对着哪个数字？",
+        "options": [
+          "1",
+          "6",
+          "12",
+          "11"
+        ],
+        "answer": "12",
+        "explanation": "整时分针永远对准12。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "小明每天下午 4时 放学，小红每天下午 5时 放学，谁晚离开学校？",
+        "options": [
+          "小明",
+          "小红",
+          "一样晚",
+          "无法确定"
+        ],
+        "answer": "小红",
+        "explanation": "5比4大，所以5时更晚。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "整时的认读与记录",
+        "question": "现在时针指向11，分针指向12，再过一小时是：",
+        "options": [
+          "10时",
+          "12时",
+          "11时",
+          "1时"
+        ],
+        "answer": "12时",
+        "explanation": "现在是11时，$11 + 1 = 12$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "分针是什么样子的？",
+        "options": [
+          "又短又粗",
+          "又长又细",
+          "没有针",
+          "弯弯的"
+        ],
+        "answer": "又长又细",
+        "explanation": "分针的形态特征是长和细。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "如果现在是 8时，下面的说法正确的是：",
+        "options": [
+          "1小时前是9时",
+          "1小时后是7时",
+          "1小时前是7时",
+          "2小时后是11时"
+        ],
+        "answer": "1小时前是7时",
+        "explanation": "8-1=7，所以1小时前是7时。8+1=9，1小时后应是9时。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整时的認读与记录",
+        "question": "时针指向3，分针指向12，正确的读法是：",
+        "options": [
+          "12时",
+          "3时",
+          "15时",
+          "12时3分"
+        ],
+        "answer": "3时",
+        "explanation": "时针指3即为3时。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "妈妈今天 7时 出出门，9时 回家，妈妈出门了多久？",
+        "options": [
+          "1小时",
+          "2小时",
+          "3小时",
+          "16小时"
+        ],
+        "answer": "2小时",
+        "explanation": "用回家时间减去出门时间：$9 - 7 = 2$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "钟面上数字 6 的正对面是哪个数字？",
+        "options": [
+          "12",
+          "3",
+          "9",
+          "1"
+        ],
+        "answer": "12",
+        "explanation": "钟面上12和6相对，9和3相对。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "整时的认读与记录",
+        "question": "钟面上，时针走过数字10，分针指向12，这时是：",
+        "options": [
+          "10时",
+          "11时",
+          "12时",
+          "9时"
+        ],
+        "answer": "10时",
+        "explanation": "指向12代表整时，刚好指向哪个数就是几时。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "以下哪个时间我们已经在深度睡眠？",
+        "options": [
+          "2:00",
+          "12:00",
+          "18:00",
+          "20:00"
+        ],
+        "answer": "2:00",
+        "explanation": "凌晨2时是深度睡眠时间。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "在电子钟上，冒号右边显示“00”代表什么？",
+        "options": [
+          "0分钟",
+          "整时",
+          "没电了",
+          "下午"
+        ],
+        "answer": "整时",
+        "explanation": "00表示分钟为0，即此时为整时。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "钟面结构的认识",
+        "question": "时针从 1 走到 3，一共走了 ___ 小时。",
+        "options": [],
+        "answer": "2",
+        "explanation": "时针每走一个大格是1小时。列式：$3 - 1 = 2$。验算：1到2是1小时，2到3是1小时，共2小时。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整时的认读与记录",
+        "question": "现在是 10 时，再加 ___ 小时就是 12 时。",
+        "options": [],
+        "answer": "2",
+        "explanation": "求两个时间点的间隔。列式：$12 - 10 = 2$。验算：$10 + 2 = 12$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "作息时间的先后逻辑",
+        "question": "小明 8 时到学校，小亮 9 时到学校，小亮比小明晚 ___ 小时。",
+        "options": [],
+        "answer": "1",
+        "explanation": "比较两个时间的差值。列式：$9 - 8 = 1$。验算：$8 + 1 = 9$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整时的认读与记录",
+        "question": "12 - 5 = ?",
+        "options": [],
+        "answer": "7",
+        "explanation": "$12 - 5 = 7$。验算：$7 + 5 = 12$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整时的认读与记录",
+        "question": "6 + 5 = ?",
+        "options": [],
+        "answer": "11",
+        "explanation": "$6 + 5 = 11$。验算：$11 - 5 = 6$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "钟面结构的认识",
+      "core_concept": "钟面是一个圆盘，上面均匀分布着12个数。长且细的针叫分针，短且粗的针叫时针。它们按照顺时针方向不停地转动。",
+      "key_formula": "钟面 = 12个数字 + 时针(短) + 分针(长)",
+      "common_mistakes": [
+        "混淆时针和分针，把长针当成时针",
+        "数刻度时数错，分不清数字对应的位置"
+      ],
+      "tips": "记住顺口溜：长长细细是分针，短短胖胖是时针。"
+    },
+    {
+      "point": "整时的认读与记录",
+      "core_concept": "当分针正好指向12时，这就是整时。此时时针指向几，就是几时整。可以用汉字形式记录（如：8时），也可以用电子表形式记录（如：8:00）。",
+      "key_formula": "分针指12，时针指几就是几时",
+      "common_mistakes": [
+        "写电子表格式时漏掉冒号后的两个0，写成 8:0",
+        "把时针指向读反，例如时针指12分针指3，读成12时"
+      ],
+      "tips": "看到分针指12，马上去找时针躲在哪。"
+    },
+    {
+      "point": "作息时间的先后逻辑",
+      "core_concept": "时间是按顺序流逝的。在日常生活中，我们要学会根据事情发生的先后给时间排序，比如早晨起床、上午上课、中午吃饭、下午运动、晚上睡觉。",
+      "key_formula": "早上的时间 < 中午的时间 < 晚上的时间",
+      "common_mistakes": [
+        "认为数字大的时刻一定比数字小的时刻晚（忽略上午和下午的区别）",
+        "不理解“过1小时”和“1小时前”的加减逻辑"
+      ],
+      "tips": "把一天的活动像讲故事一样排排队，就知道谁先谁后啦！"
+    }
+  ]
+}

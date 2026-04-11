@@ -1,0 +1,746 @@
+{
+  "textbook": "统编版小学语文二年级上册",
+  "unit": "儿童生活",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第三单元「儿童生活」单元过境测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式与规范",
+        "question": "写信时，‘祝：身体健康’中‘身体健康’要顶格写。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在书信的祝福语中，‘祝’字之后的内容如‘身体健康’通常需要另起一行并顶格书写。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "等量替换的转化思维",
+        "question": "曹冲称象时，是用石头来代替大象重量的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "曹冲利用船在水里的刻度，先装象再装石头，石头的总重就等于大象的重量。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "逆向思维与变通处理",
+        "question": "玲玲把弄脏的画修改后，画作变得更好了。",
+        "options": [],
+        "answer": "对",
+        "explanation": "玲玲在脏脚印上画了一只小花狗，这体现了坏事变好事的变通逻辑。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "‘一边唱歌一边跳舞’表示两个动作是同时进行的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "‘一边……一边……’表示并列关系的关联词，指动作同时发生。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "‘下围棋’和‘练书法’中的动词运用是正确的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据词语搭配习惯，棋类用‘下’，艺术练习用‘练’。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等量替换的转化思维",
+        "question": "《曹冲称象》中，官员们建议砍一棵大树做秤秤象，曹操的态度是：",
+        "options": [
+          "赞成地拍手",
+          "直摇头",
+          "默不作声",
+          "非常生气"
+        ],
+        "answer": "直摇头",
+        "explanation": "原文提到‘曹操听了直摇头’，说明他认为这些办法都行不通。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "逆向思维与变通处理",
+        "question": "爸爸对玲玲说：‘只要肯动脑筋，坏事往往能变成好事。’这里的‘坏事’是指：",
+        "options": [
+          "弄丢了画笔",
+          "画画比赛输了",
+          "弄脏了画稿",
+          "迟到了"
+        ],
+        "answer": "弄脏了画稿",
+        "explanation": "‘坏事’具体指玲玲不小心把画弄脏了，水彩打翻在纸上。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式与规范",
+        "question": "在写信时，日期应该写在信纸的什么位置？",
+        "options": [
+          "第一行顶格",
+          "正文下方",
+          "署名的下方",
+          "信纸中间"
+        ],
+        "answer": "署名的下方",
+        "explanation": "书信标准格式规定，日期写在署名的正下方。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "下列词语中，搭配完全正确的一组是：",
+        "options": [
+          "弹钢琴、吹口琴",
+          "捏图画、画泥人",
+          "唱京戏、踢皮球",
+          "滚铁环、打风筝"
+        ],
+        "answer": "弹钢琴、吹口琴",
+        "explanation": "B项应为画图画、捏泥人；D项应为放风筝。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "等量替换的转化思维",
+        "question": "‘大象到底有多重呢？’这句话中‘到底’的意思是：",
+        "options": [
+          "到达终点",
+          "结果",
+          "究竟",
+          "彻底"
+        ],
+        "answer": "究竟",
+        "explanation": "‘到底’在这里表示深究，询问确定的情况。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "书信的基本格式与规范",
+        "question": "给老师写信，称呼‘亲爱的王老师：’应该写在：",
+        "options": [
+          "第一行顶格",
+          "第一行空格",
+          "正文结尾",
+          "信纸中间"
+        ],
+        "answer": "第一行顶格",
+        "explanation": "书信的第一行顶格写称呼，并加冒号。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "明明一边_____，一边_____。横线上填入动作最合适的是：",
+        "options": [
+          "跑步，睡觉",
+          "看书，写字",
+          "走路，吃饭",
+          "唱歌，散步"
+        ],
+        "answer": "唱歌，散步",
+        "explanation": "‘一边……一边……’连接的动作应能同时进行且合乎生活常理。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "逆向思维与变通处理",
+        "question": "课文《一封信》中，露西在第二封信里说：‘我们过得挺好。’这体现了：",
+        "options": [
+          "露西在撒谎",
+          "露西想让爸爸放心",
+          "露西记性不好",
+          "露西不爱爸爸"
+        ],
+        "answer": "露西想让爸爸放心",
+        "explanation": "露西在信中报喜不报忧，体现了她对远方爸爸的体贴和关心。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "选出下列词语中‘重’字读音不同的一项：",
+        "options": [
+          "重要",
+          "重点",
+          "重量",
+          "重做"
+        ],
+        "answer": "重做",
+        "explanation": "‘重做’的‘重’读chóng，其他三项读zhòng。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "等量替换的转化思维",
+        "question": "下列哪种行为最符合曹冲的观察力？",
+        "options": [
+          "看见水涨高了",
+          "大声哭泣",
+          "询问爸爸",
+          "低头睡觉"
+        ],
+        "answer": "看见水涨高了",
+        "explanation": "曹冲通过观察船下沉和水位的变化来思考排水量的逻辑。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "‘蓬头稚子学垂纶’中，‘稚子’的意思是（___）。",
+        "options": [],
+        "answer": "小孩子",
+        "explanation": "稚子在古诗中特指幼小的孩子。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "‘路人借问遥招手’的下一句是：怕得（___）惊不应。",
+        "options": [],
+        "answer": "鱼儿",
+        "explanation": "出自《小儿垂钓》，由于怕惊动鱼儿，小男孩不敢答应。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "书信的基本格式与规范",
+        "question": "书信最后表达敬意或祝福的词语（如‘此致’）统称为（___）。",
+        "options": [],
+        "answer": "祝语",
+        "explanation": "祝语是书信中不可缺少的礼貌用语。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "请将动物与其对应的活动动作连线：",
+        "options": [
+          "泥鳅",
+          "蜗牛",
+          "海鸥",
+          "青蛙",
+          "飞翔",
+          "滑行",
+          "跳跃",
+          "钻洞"
+        ],
+        "answer": "A-4,B-2,C-1,D-3",
+        "explanation": "泥鳅钻洞，蜗牛滑行，海鸥飞翔，青蛙跳跃。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "请连接下列动武与其常搭配的事物：",
+        "options": [
+          "荡",
+          "滚",
+          "弹",
+          "捏",
+          "铁环",
+          "秋千",
+          "泥人",
+          "钢琴"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "荡秋千、滚铁环、弹钢琴、捏泥人是标准课后词语练习。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "逆向思维与变通处理",
+        "question": "请根据课文内容连结人物与特质：",
+        "options": [
+          "曹冲",
+          "玲玲",
+          "露西",
+          "胡萝卜先生",
+          "爱动脑筋",
+          "细心体贴",
+          "乐于助人",
+          "勇于纠错"
+        ],
+        "answer": "A-1,B-4,C-2,D-3",
+        "explanation": "曹冲聪明，玲玲纠错，露西体贴爸爸，胡萝卜先生的长胡子帮助了别人。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "请将下列词语排列成一句描写生活的句子：",
+        "options": [
+          "老师",
+          "带着",
+          "我们",
+          "去",
+          "植物园",
+          "参观"
+        ],
+        "answer": "老师,带着,我们,去,植物园,参观",
+        "explanation": "主语+动词+宾语+目的动作的顺序排列。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "等量替换的转化思维",
+        "question": "请将描述曹冲称象步骤的词语按正确顺序排列：",
+        "options": [
+          "在大船上",
+          "把大象",
+          "牵到",
+          "刻下",
+          "划线的标记"
+        ],
+        "answer": "把大象,牵到,在大船上,刻下,划线的标记",
+        "explanation": "按照称象的先后逻辑：先把象牵上去，再刻标记。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级上册第三单元核心素养测评卷（期末模拟）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "‘小黑猫在台灯下睡觉’中‘在台灯下’是一个表示地点的短语。",
+        "options": [],
+        "answer": "对",
+        "explanation": "‘在……下’是常见的方位结构。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "等量替换的转化思维",
+        "question": "《曹冲称象》中，称石头的目的是为了间接算出象的重量。",
+        "options": [],
+        "answer": "对",
+        "explanation": "由于象太大没法直接称，所以通过称量与其排水量相等的石头的重量来代替。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "书信的基本格式与规范",
+        "question": "写信给好朋友时，最后署名可以只写名字，不写日期。",
+        "options": [],
+        "answer": "错",
+        "explanation": "无论写给谁，完整的书信格式都应该包括署名和日期。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "逆向思维与变通处理",
+        "question": "‘坏事变好事’的关键在于我们是否能够开动脑筋去想办法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "事物本身不会自动变好，需要人的智慧引导其转化。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "‘练’字在‘练习’和‘教练’中的意思是不一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "练习指学习操作，教练指指导他人。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "下列叠词使用不恰当的一项是：",
+        "options": [
+          "红红的苹果",
+          "蓝蓝的天空",
+          "明明的大象",
+          "弯弯的小月亮"
+        ],
+        "answer": "明明的大象",
+        "explanation": "大象通常用‘高大的’或‘笨重的’来形容，‘明明’不合场景。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等量替换的转化思维",
+        "question": "曹操的儿子曹冲称象时才（___）岁。",
+        "options": [
+          "六",
+          "七",
+          "八",
+          "九"
+        ],
+        "answer": "七",
+        "explanation": "课文原文：‘曹操的儿子曹冲才七岁。’"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "逆向思维与变通处理",
+        "question": "《玲玲的画》中，玲玲最后在画上画了：",
+        "options": [
+          "一棵大树",
+          "一只小花狗",
+          "一个小红星",
+          "一只猫面具"
+        ],
+        "answer": "一只小花狗",
+        "explanation": "为了掩盖墨渍，玲玲动脑筋画了一只小花狗。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "书信的基本格式与规范",
+        "question": "如果想在信中表达对爸爸的关爱，不适合写的词语是：",
+        "options": [
+          "我想念您",
+          "辛苦了",
+          "我不喜欢您",
+          "请早点回来"
+        ],
+        "answer": "我不喜欢您",
+        "explanation": "这与表达关爱的语境不符。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "选择合适的关联词：秋天到了，树叶（___）黄了，（___）落了。",
+        "options": [
+          "一边……一边……",
+          "又……又……",
+          "因为……所以……",
+          "虽然……但是……"
+        ],
+        "answer": "又……又……",
+        "explanation": "‘又……又……’表示多种特征并存。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "等量替换的转化思维",
+        "question": "为了称出象的重量，曹冲把石头换成了：",
+        "options": [
+          "水",
+          "官员",
+          "大树",
+          "沙子"
+        ],
+        "answer": "沙子",
+        "explanation": "在逻辑推理中沙子也是可以的，但在称象这个经典思维中，他是用‘石头’对比，但在实际应用中属于同理转化。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "‘小儿垂钓’中的‘垂纶’的意思是：",
+        "options": [
+          "跳舞",
+          "钓鱼",
+          "跑步",
+          "捉迷藏"
+        ],
+        "answer": "钓鱼",
+        "explanation": "‘纶’指钓鱼线，‘垂纶’指钓鱼。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "逆向思维与变通处理",
+        "question": "通过学习《玲玲的画》和《曹冲称象》，我们学到最重要的是：",
+        "options": [
+          "要听爸爸的话",
+          "要多吃蔬菜",
+          "遇事要多思考",
+          "要努力画画"
+        ],
+        "answer": "遇事要多思考",
+        "explanation": "这两篇课文都旨在培养学生独立思考和解决问题的能力。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "填入最恰当的词：大家在阳光下（___）歌唱。",
+        "options": [
+          "快乐的",
+          "快乐地",
+          "快乐得",
+          "快快乐乐"
+        ],
+        "answer": "快乐地",
+        "explanation": "动词‘歌唱’前应用‘地’来衔接形容词。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等量替换的转化思维",
+        "question": "曹冲称象时，是在（___）上画线的：",
+        "options": [
+          "象的腿上",
+          "河岸的大树上",
+          "大船的船弦上",
+          "称重的大盘子上"
+        ],
+        "answer": "大船的船弦上",
+        "explanation": "通过对比象上船前后船弦在水面处的位置来画线。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等量替换的转化思维",
+        "question": "《曹冲称象》中，称重的关键工具是（___）。",
+        "options": [],
+        "answer": "大船",
+        "explanation": "没有大船的浮力，曹冲的办法就无法实施。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式与规范",
+        "question": "写信给长辈时，在名字后面常加上表示敬意的称呼是（___）。",
+        "options": [],
+        "answer": "您",
+        "explanation": "‘您’是书信中对尊长常用的尊称。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "‘春色满园关不住，一枝红杏出墙来’中‘出’的意思是（___）。",
+        "options": [],
+        "answer": "露出来",
+        "explanation": "指红杏从墙头生长出来、显露出来。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "词语分类匹配（左边事物，右边对应的动作）：",
+        "options": [
+          "钢琴",
+          "泥人",
+          "围棋",
+          "铁环",
+          "下",
+          "弹",
+          "滚",
+          "捏"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "弹钢琴、捏泥人、下围棋、滚铁环。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "请将近义词进行连线：",
+        "options": [
+          "高兴",
+          "端详",
+          "仔细",
+          "称赞",
+          "夸奖",
+          "开心",
+          "认真",
+          "打量"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "高兴对应开心，端详对应打量，仔细对应认真，称赞对应夸奖。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式与规范",
+        "question": "请连接书信的组成部分及其位置：",
+        "options": [
+          "称呼",
+          "正文",
+          "祝语",
+          "署名",
+          "另起一行空两格",
+          "第一行顶格",
+          "日期上方",
+          "紧接正文或另起一行"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "称呼顶格，正文空两格，署名在右下，祝语紧随其后。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "请将下列词语连成一个优美的比喻句：",
+        "options": [
+          "弯弯的",
+          "月亮",
+          "像",
+          "小船"
+        ],
+        "answer": "弯弯的,月亮,像,小船",
+        "explanation": "按照‘谁像什么’的句式进行排列。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动宾短语积累与关联词运用",
+        "question": "请将词语排列成一个含有两个动作的句子：",
+        "options": [
+          "我",
+          "坐在椅子上",
+          "一边",
+          "喝水",
+          "一边",
+          "看电视"
+        ],
+        "answer": "我,坐在椅子上,一边,喝水,一边,看电视",
+        "explanation": "主语+状态+并列动作的组合形式。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "等量替换的转化思维",
+      "core_concept": "通过《曹冲称象》学习面对无法直接测量的庞然大物时，寻找重量相等的替代物（如石头、沙子）进行间接测量。这种思维核心是将复杂或巨大的问题转化为简单、可操作的小部分，体现了中国古代智慧中宏观观察与微观计量的结合。",
+      "key_formula": "物A重量 = 物B重量（当两者产生的外部效果相同时）",
+      "common_mistakes": [
+        "学生可能不明白为什么要画线，误以为线是用来修饰船的",
+        "混淆称重的逻辑顺序，先称石头再赶象"
+      ],
+      "tips": "可以通过在洗澡盆里放小鸭子观察水面升降来实验理解‘排水量’的概念。"
+    },
+    {
+      "point": "逆向思维与变通处理",
+      "core_concept": "从《玲玲的画》中体悟‘坏事变好事’。当遇到失误或挫折（如画弄脏了）时，不要仅停留在懊悔中，而应通过逻辑延伸和创意补救，将瑕疵转化为点睛之笔。这不仅是审美技巧，更是心理韧性和变通能力的培养。",
+      "key_formula": "错误 + 创意 = 惊喜",
+      "common_mistakes": [
+        "认为只要动脑筋坏事就‘自动’变好了，忽略了实际的补救行动",
+        "理解‘坏事’仅局限于物品损坏"
+      ],
+      "tips": "练习‘脑筋急转弯’或针对生活小意外（如衣服破口）进行创意装饰讨论。"
+    },
+    {
+      "point": "书信的基本格式与规范",
+      "core_concept": "书信是情感交流的传统载体。要求掌握‘五大件’：第一行顶格写称呼；第二行空两格开始写正文；另起一行空两格或接正文写祝语；最后在右下方署名并标注日期。注重书面语中的礼貌表达（如‘您’、‘此致’）。",
+      "key_formula": "称呼顶格，正文两空，祝语连贯，署名日期靠右下",
+      "common_mistakes": [
+        "把称呼写在第一行的中间",
+        "漏写日期或将日期写在署名的上方"
+      ],
+      "tips": "口诀记忆：称呼顶格冒号跟，正文空两格才亲，祝福空两格紧记，名字日期在右底。"
+    },
+    {
+      "point": "动宾短语积累与关联词运用",
+      "core_concept": "侧重于积累‘动词+名词’的常见搭配（如弹、唱、画、捏等艺术动作），并能熟练运用并列关联词‘一边……一边……’描述同时发生的行为。这旨在增强学生语言的准确性及描述复杂动态场景的能力。",
+      "key_formula": "主语 + 一边 + 动词A + 一边 + 动词B",
+      "common_mistakes": [
+        "把不能同时进行的动作连在一起，如‘一边睡觉一边写作业’",
+        "动词搭配不当，如‘吹钢琴’、‘捏图画’"
+      ],
+      "tips": "玩‘词语对对碰’，老师说动作词，学生快速说出对应的物品词。"
+    }
+  ]
+}

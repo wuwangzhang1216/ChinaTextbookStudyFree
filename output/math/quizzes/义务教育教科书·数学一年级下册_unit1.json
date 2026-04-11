@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级下册",
+  "unit": "认识图形（二）",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第1单元「认识图形（二）」基础过关评价",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "正方形的四条边都相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据正方形的定义，它的四条边长度都是相等的。验算：用尺子量一量或通过折叠发现四边重合。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "圆柱的上下两个面都是圆。",
+        "options": [],
+        "answer": "对",
+        "explanation": "圆柱两个底面是完全相同的圆。验算：沿底面描出的图形的确是圆。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "用两个完全一样的三角形一定可以拼成一个圆。",
+        "options": [],
+        "answer": "错",
+        "explanation": "三角形是有尖角的，圆是曲面图形。三角形拼不出圆。验算：尝试各种拼法发现只能拼成四边形。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "长方形有两条长边和两条短边。",
+        "options": [],
+        "answer": "对",
+        "explanation": "长方形对边相等，通常有一组边长一些（长），一组边短一些（宽）。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "七巧板的综合应用",
+        "question": "一套七巧板中有 1 个正方形。",
+        "options": [],
+        "answer": "对",
+        "explanation": "一套七巧板由5个三角形、1个正方形、1个平行四边形组成。验算：$5 + 1 + 1 = 7$块。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "红领巾的形状是什么？",
+        "options": [
+          "三角形",
+          "正方形",
+          "圆",
+          "长方形"
+        ],
+        "answer": "三角形",
+        "explanation": "红领巾有三条边，属于三角形。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "数学书的封面是什么形状？",
+        "options": [
+          "三角形",
+          "圆",
+          "平行四边形",
+          "长方形"
+        ],
+        "answer": "长方形",
+        "explanation": "数学书封面对边相等且四个角都是直角，是长方形。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "硬币的正面是什么形状？",
+        "options": [
+          "长方形",
+          "圆",
+          "三角形",
+          "平行四边形"
+        ],
+        "answer": "圆",
+        "explanation": "硬币呈现平滑的曲线闭合状态，是圆形。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "把一张正方形纸对折一次，不可能折出什么图形？",
+        "options": [
+          "长方形",
+          "三角形",
+          "圆",
+          "不能确定"
+        ],
+        "answer": "圆",
+        "explanation": "直线折叠无法产生曲线，所以折不出圆。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "用 2 个完全一样的小正方形可以拼成一个什么图形？",
+        "options": [
+          "正方形",
+          "长方形",
+          "三角形",
+          "圆"
+        ],
+        "answer": "长方形",
+        "explanation": "两个正方形并排合并，一边变长，另一边不变，形成长方形。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "至少用几个完全一样的小正方形才能拼成一个大正方形？",
+        "options": [
+          "2个",
+          "4个",
+          "6个",
+          "8个"
+        ],
+        "answer": "4个",
+        "explanation": "只有 2x2 排列才能得到四边相等的图形。验算：$2 \times 2 = 4$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "魔方的每一个面都是什么形状？",
+        "options": [
+          "正方形",
+          "长方形",
+          "三角形",
+          "五边形"
+        ],
+        "answer": "正方形",
+        "explanation": "魔方是正方体，六个面都是相等的正方形。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "七巧板的综合应用",
+        "question": "七巧板中最大的图形是什么形状？",
+        "options": [
+          "正方形",
+          "三角形",
+          "平行四边形",
+          "圆"
+        ],
+        "answer": "三角形",
+        "explanation": "七巧板里有2块大三角形是面积最大的。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "七巧板的综合应用",
+        "question": "七巧板中一共有几种不同的形状？",
+        "options": [
+          "2种",
+          "3种",
+          "4种",
+          "7种"
+        ],
+        "answer": "3种",
+        "explanation": "分别是：三角形、正方形、平行四边形。共3种。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "一个正方形切掉一个角，还剩下几个角？下面哪个正确？",
+        "options": [
+          "3个",
+          "4个",
+          "5个",
+          "以上都有可能"
+        ],
+        "answer": "以上都有可能",
+        "explanation": "取决于切法：切过两个对角剩3个；切过一个顶点剩4个；不经过顶点剩5个。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "下列哪个图形没有尖尖的角？",
+        "options": [
+          "长方形",
+          "圆",
+          "三角形",
+          "正方形"
+        ],
+        "answer": "圆",
+        "explanation": "圆是由曲线围成的，没有顶点和角。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "两个完全一样的长方形，一定可以拼成什么？",
+        "options": [
+          "正方形",
+          "长方形",
+          "圆",
+          "三角形"
+        ],
+        "answer": "长方形",
+        "explanation": "横着拼或竖着拼都能拼成长方形（特殊情况可拼正方形，但一定能拼成长方形）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "像拉开的门框这样的图形是？",
+        "options": [
+          "三角形",
+          "长方形",
+          "圆",
+          "五边形"
+        ],
+        "answer": "长方形",
+        "explanation": "门框具有长方形的特征。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "三角形有 ___ 条边。",
+        "options": [],
+        "answer": "3",
+        "explanation": "根据定义，由三条线段围成的图形叫三角形。答：3。验算：三条边围成三个角。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "用两个完全一样的三角形，最少可以拼成一个 ___ 边形。",
+        "options": [],
+        "answer": "3",
+        "explanation": "两个直角三角形背靠背拼可以拼成一个大三角形（三边形）。验算：两个直角三角形拼合并斜边即为大三角形。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "七巧板的综合应用",
+        "question": "一套七巧板里，一共有 ___ 块图形。",
+        "options": [],
+        "answer": "7",
+        "explanation": "七巧板顾名思义由7块组成。验算：2大三+1中三+2小三+1正+1平=7。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "5 + 8 = ?",
+        "options": [],
+        "answer": "13",
+        "explanation": "$5 + 8 = 13$。验算：$13 - 8 = 5$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "15 - 7 = ?",
+        "options": [],
+        "answer": "8",
+        "explanation": "$15 - 7 = 8$。验算：$8 + 7 = 15$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第1单元「认识图形（二）」综合能力测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "足球是圆形的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "足球是球体（立体图形），不是圆（平面图形）。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的辨认",
+        "question": "长方形的四条边都一样长。",
+        "options": [],
+        "answer": "错",
+        "explanation": "长方形是对边相等，邻边通常不等。四条边都相等的是正方形。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "用两个三角形可以拼成一个平行四边形。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两个完全一样的三角形可以拼成一个平行四边形。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "一个正方形可以折成四个完全相同的小正方形。",
+        "options": [],
+        "answer": "对",
+        "explanation": "横竖各对折一次即可得到。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "七巧板的综合应用",
+        "question": "七巧板里没有圆。",
+        "options": [],
+        "answer": "对",
+        "explanation": "七巧板由多边形组成，不含圆。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的辨认",
+        "question": "把一个正方体放在纸上，沿着底面画一圈，画出的是什么？",
+        "options": [
+          "长方形",
+          "三角形",
+          "正方形",
+          "圆"
+        ],
+        "answer": "正方形",
+        "explanation": "正方体的每个面都是正方形。验算：正方体所有棱长相等。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "将一张长方形纸从中间剪开，不可能得到什么？",
+        "options": [
+          "两个长方形",
+          "两个正方形",
+          "两个圆",
+          "两个三角形"
+        ],
+        "answer": "两个圆",
+        "explanation": "剪出的边是直的，无法得到圆。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "教室里的黑板是什么形状？",
+        "options": [
+          "正方形",
+          "长方形",
+          "三角形",
+          "圆"
+        ],
+        "answer": "长方形",
+        "explanation": "黑板长长窄窄，有四个直角，是长方形。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "红灯、绿灯、黄灯通常是什么形状？",
+        "options": [
+          "圆",
+          "三角形",
+          "正方形",
+          "平行四边形"
+        ],
+        "answer": "圆",
+        "explanation": "交通灯发光面通常设计成圆形。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "把一个长方形纸对折，得到的图形不可能是？",
+        "options": [
+          "长方形",
+          "正方形",
+          "三角形",
+          "圆"
+        ],
+        "answer": "圆",
+        "explanation": "对折后的边仍然是直的，不含曲线。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "七巧板的综合应用",
+        "question": "七巧板中三角形的数量是？",
+        "options": [
+          "3个",
+          "5个",
+          "1个",
+          "2个"
+        ],
+        "answer": "5个",
+        "explanation": "七巧板含2大、1中、2小共5个三角形。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的辨认",
+        "question": "哪个图形的四条边都相等？",
+        "options": [
+          "正方形",
+          "长方形",
+          "平行四边形",
+          "三角形"
+        ],
+        "answer": "正方形",
+        "explanation": "正方形的特征就是四条边都相等。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的辨认",
+        "question": "下面哪个图形边最多？",
+        "options": [
+          "三角形",
+          "长方形",
+          "圆",
+          "正方形"
+        ],
+        "answer": "长方形",
+        "explanation": "长方形和正方形都是4条边，三角形3条，圆没有边。但在选项中长方形和正方形边数相等且最多。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "至少用几个相同的小正方形可以拼成一个大长方形（非正方形）？",
+        "options": [
+          "2个",
+          "4个",
+          "1个",
+          "3个"
+        ],
+        "answer": "2个",
+        "explanation": "2个拼在一起即为长方形。验算：1x2排列。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "七巧板的综合应用",
+        "question": "用七巧板中的 2 个小三角形不能拼成什么？",
+        "options": [
+          "正方形",
+          "三角形",
+          "平行四边形",
+          "长方形"
+        ],
+        "answer": "长方形",
+        "explanation": "2个等腰直角三角形可以拼成正方形、大三角形、平行四边形，但无法拼成长方形（不含正方形情况）。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的辨认",
+        "question": "我们要想画一个圆，可以利用什么？",
+        "options": [
+          "魔方",
+          "墨水瓶底面",
+          "三角板",
+          "直尺"
+        ],
+        "answer": "墨水瓶底面",
+        "explanation": "墨水瓶是圆柱体，底面是圆。验算：魔方是正方形面，三角板是三角形面。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "下面哪种图形最稳定，不易变形？",
+        "options": [
+          "三角形",
+          "正方形",
+          "长方形",
+          "平行四边形"
+        ],
+        "answer": "三角形",
+        "explanation": "三角形具有稳定性。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "把一个正方形平均分成两份，形状是？",
+        "options": [
+          "正方形",
+          "圆",
+          "长方形或三角形",
+          "只能是长方形"
+        ],
+        "answer": "长方形或三角形",
+        "explanation": "横剪是长方形，对角剪是三角形。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的拼组与拆分",
+        "question": "用两个完全一样的正方形可以拼成一个长方形，这个长方形有 ___ 条边。",
+        "options": [],
+        "answer": "4",
+        "explanation": "任何长方形都有4条边。验算：长方形是特殊的四边形。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平面图形的辨认",
+        "question": "正方形有 ___ 个直角。",
+        "options": [],
+        "answer": "4",
+        "explanation": "正方形四个角都是直角。验算：用三角板的直角比一比。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "七巧板的综合应用",
+        "question": "小明用一套七巧板拼成了一个大正方形，他一共用了 ___ 块板。",
+        "options": [],
+        "answer": "7",
+        "explanation": "七巧板全套就是7块。验算：基础知识点确认。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平面图形的辨认",
+        "question": "20 + 30 = ?",
+        "options": [],
+        "answer": "50",
+        "explanation": "$20 + 30 = 50$。验算：$50 - 30 = 20$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平面图形的辨认",
+        "question": "100 - 40 = ?",
+        "options": [],
+        "answer": "60",
+        "explanation": "$100 - 40 = 60$。验算：$60 + 40 = 100$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "平面图形的辨认",
+      "core_concept": "认识长方形、正方形、三角形、圆和平行四边形。长方形对边相等；正方形四条边都相等；三角形有三条直边和三个角；圆由曲线围成，没有角；平行四边形相对的边斜斜地平行。",
+      "key_formula": "图形边数规则：三角形(3边)，四边形(4边)，圆(0边)。",
+      "common_mistakes": [
+        "分不清球(立体)和圆(平面)，如把球说成圆形。",
+        "把长方形和正方形混淆，认为只要有4条边的都是正方形。"
+      ],
+      "tips": "可以通过“摸一摸”和“描一描”的方法，从积木（立体图形）的一个面上得到平面图形。"
+    },
+    {
+      "point": "平面图形的拼组与拆分",
+      "core_concept": "平面图形可以通过平移、旋转重新组合。例如两个完全一样的三角形可以拼成平行四边形、长方形或大三角形；两个正方形可以拼成长方形。",
+      "key_formula": "拼组规则：两个完全一样的直角三角形 $\\rightarrow$ 长方形/正方形/大三角形。",
+      "common_mistakes": [
+        "认为任意两个三角形都能拼成正方形。",
+        "忽略了对折方式的不同可能产生不同的图形（长方形对折可得长方形或三角形）。"
+      ],
+      "tips": "亲自动手剪一剪、拼一拼，观察边与边重合的过程，能快速建立空间感。"
+    },
+    {
+      "point": "七巧板的综合应用",
+      "core_concept": "七巧板是我国古代的一种构图玩具，由7块板组成：包括5个三角形（2大1中2小）、1个正方形和1个平行四边形。利用这7块板可以拼出千变万化的图案。",
+      "key_formula": "七巧板构成：5三角形 + 1正方形 + 1平行四边形 = 7块。",
+      "common_mistakes": [
+        "错误地认为七巧板里有长方形、圆形。",
+        "记不清各种形状的数量，尤其是容易漏掉平行四边形。"
+      ],
+      "tips": "记住“511”口诀：5个三角，1个正方，1个平四，总共是七。"
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "textbook": "统编版小学语文五年级上册",
+  "unit": "第八单元：读书明智",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "第八单元基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "楷书结构特征赏析",
+        "question": "欧阳询是唐代著名的书法家，他的楷书作品字形方整、笔力刚劲。",
+        "options": [],
+        "answer": "对",
+        "explanation": "欧阳询的楷书以结构严谨、方整、刚劲有力著称。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "《古人谈读书》一课中，朱熹认为读书最重要的是‘眼到’，其他都不重要。",
+        "options": [],
+        "answer": "错",
+        "explanation": "朱熹提出的是“三到”，其中“心到”最为重要。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "群文阅读与书籍推荐策略",
+        "question": "推荐书籍时，我们不仅可以介绍主要内容，还可以分享最感人的情节。",
+        "options": [],
+        "answer": "对",
+        "explanation": "推荐理由可以是情节、思想、语言等多个维度。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "孔子说的‘知之为知之，不知为不知’，体现了一种诚实的学习态度。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是孔子关于实事求是的治学态度的名言。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "楷书结构特征赏析",
+        "question": "欣赏书法作品时，我们只需要看字写得大不大，不需要关注间架结构。",
+        "options": [],
+        "answer": "错",
+        "explanation": "间架结构（汉字的布局）是赏析楷书美感的关键。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "朱熹强调的‘三到’是指那三到？",
+        "options": [
+          "眼到、口到、心到",
+          "眼到、手到、心到",
+          "眼到、耳到、口到",
+          "心到、手到、耳到"
+        ],
+        "answer": "眼到、口到、心到",
+        "explanation": "朱熹在《训学斋规》中明确提出：读书有三到，谓心到、眼到、口到。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "‘敏而好学，不耻下问’中‘耻’的意思是？",
+        "options": [
+          "羞耻",
+          "耻辱",
+          "以……为耻",
+          "可耻"
+        ],
+        "answer": "以……为耻",
+        "explanation": "这句话意为：聪敏而勤奋学习，不以向地位比自己低、知识比自己少的人请教为耻。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "群文阅读与书籍推荐策略",
+        "question": "阅读《中国民间故事》后，以下哪项最适合作为书籍推荐语？",
+        "options": [
+          "这本书里有很多故事，我很喜欢看。",
+          "这本书的封面是红色的，非常好看。",
+          "书中不仅有感人的爱情故事，还蕴含着深厚的传统文化。",
+          "书里的纸张摸起来很舒服，印刷非常清晰。"
+        ],
+        "answer": "书中不仅有感人的爱情故事，还蕴含着深厚的传统文化。",
+        "explanation": "推荐书目应侧重其内容价值、思想性或情感共鸣。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "楷书结构特征赏析",
+        "question": "唐代著名书法家欧阳询的代表作品是？",
+        "options": [
+          "《玄秘塔碑》",
+          "《九成宫醴泉铭》",
+          "《颜氏家庙碑》",
+          "《泰山刻石》"
+        ],
+        "answer": "《九成宫醴泉铭》",
+        "explanation": "《九成宫醴泉铭》是欧阳询楷书的巅峰之作。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "‘默而识之’中的‘识’读音和意思分别是？",
+        "options": [
+          "shí，认识",
+          "shí，知识",
+          "zhì，记住",
+          "zhì，标志"
+        ],
+        "answer": "zhì，记住",
+        "explanation": "这是古今字，在古语中读zhì，意为记住、记述。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "群文阅读与书籍推荐策略",
+        "question": "以下哪组关联词最适合表达‘读书不仅要多，更要精’的意思？",
+        "options": [
+          "虽然……但是……",
+          "与其……不如……",
+          "与其……不如……",
+          "与其博而不精，不如少而求精。"
+        ],
+        "answer": "与其博而不精，不如少而求精。",
+        "explanation": "‘与其……不如……’用于在两个选项中进行取舍，强调整体质量。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞方法识别",
+        "question": "‘书，被人们称为人类文明的‘长生果’。’这句话运用了什么修辞手法？",
+        "options": [
+          "拟人",
+          "排比",
+          "比喻",
+          "反问"
+        ],
+        "answer": "比喻",
+        "explanation": "将书比作“长生果”，运用了比喻的修辞手法。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "根据课文，朱熹读书法的核心是什么？",
+        "options": [
+          "三到之中心到最急",
+          "读得快记得牢",
+          "死记硬背",
+          "只追求读书数量"
+        ],
+        "answer": "三到之中心到最急",
+        "explanation": "朱熹特别强调心到，即读书时必须专心。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "群文阅读与书籍推荐策略",
+        "question": "小明想要深入了解‘航天英雄’，你建议他采用哪种阅读策略？",
+        "options": [
+          "只看一本书的目录",
+          "从不同书籍中寻找碎片化信息并整合",
+          "反复朗读一个科学术语",
+          "随意翻看报纸"
+        ],
+        "answer": "从不同书籍中寻找碎片化信息并整合",
+        "explanation": "这是典型的“由点到面”的群文阅读策略。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "‘我就像是——个（ ）‘小窃读记’（ ）里的主角，沉浸在文字中。’括号里应填？",
+        "options": [
+          "“ ”",
+          "《 》",
+          "‘ ’",
+          "（ ）"
+        ],
+        "answer": "《 》",
+        "explanation": "书名、篇名应使用书名号《 》。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "‘知之为知之，不知为不知，是（___）也。’",
+        "options": [],
+        "answer": "知",
+        "explanation": "出自《论语》，这里的“知”通“智”，智慧的意思。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "朱熹认为读书的三到是眼到、口到和（___）。",
+        "options": [],
+        "answer": "心到",
+        "explanation": "心到是三到中最为核心的要求。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "群文阅读与书籍推荐策略",
+        "question": "撰写书评时，通常要写推荐理由，即这本书（___）我的原因。",
+        "options": [],
+        "answer": "打动",
+        "explanation": "推荐理由应侧重文章最吸引、打动人的地方。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "请将下列读书名言的前后半句进行匹配。",
+        "options": [
+          "敏而好学",
+          "学而不厌",
+          "三到之中",
+          "默而识之",
+          "不耻下问",
+          "心到最急",
+          "学而不厌",
+          "诲人不倦"
+        ],
+        "answer": "A-1,B-4,C-2,D-3",
+        "explanation": "考查课文原文识记：敏而好学对不耻下问；学而不厌对诲人不倦等。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "书籍与人物匹配",
+        "question": "请将书籍名称与书中对应的经典人物连线。",
+        "options": [
+          "《西游记》",
+          "《水浒传》",
+          "《红楼梦》",
+          "《三国演义》",
+          "林黛玉",
+          "孙悟空",
+          "诸葛亮",
+          "林冲"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "孙悟空属西游记，林冲属水浒传，林黛玉属红楼梦，诸葛亮属三国演义。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词义匹配",
+        "question": "请将下列词语与它们在本单元语境下的意思匹配。",
+        "options": [
+          "博览群书",
+          "不耻下问",
+          "囫囵吞枣",
+          "手不释卷",
+          "读书不求甚解",
+          "形容勤奋好学",
+          "广泛阅读书籍",
+          "向不如己的人请教"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "A匹配广泛阅读，B匹配向不如己者请教，C匹配读书不细究，D匹配勤奋好学。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语排序",
+        "question": "请将词语排列成一句关于读书重要性的完整句子。",
+        "options": [
+          "书籍",
+          "人类进步的",
+          "是",
+          "阶梯"
+        ],
+        "answer": "书籍,是,人类进步的,阶梯",
+        "explanation": "这是高尔基的名言，主谓宾结构清晰。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语排序",
+        "question": "请将词语排列，说明欧阳询楷书的特点。",
+        "options": [
+          "欧阳询的",
+          "楷书",
+          "严谨",
+          "结构",
+          "方整"
+        ],
+        "answer": "欧阳询的,楷书,结构,方整,严谨",
+        "explanation": "描述书法作品风格的常见句式。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册第八单元检测卷（综合应用）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "文言文中‘敏’字通常指动作迅速，在‘敏而好学’中指思维敏捷。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这里的敏反映的是才智敏捷。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "书籍推荐策略",
+        "question": "推荐一本书时，只要写出书名和作者就可以了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "推荐应包含内容概要、精彩片段及推荐理由。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "楷书结构特征赏析",
+        "question": "楷书讲究横平竖直，欧阳询的字在严谨中透着险峻。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是欧体楷书的重要审美特征。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "群文阅读与书籍推荐策略",
+        "question": "在进行群文阅读时，我们应该寻找不同书籍之间在主题或写法上的关联。",
+        "options": [],
+        "answer": "对",
+        "explanation": "群文阅读的核心是议题式学习，即寻找关联。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "‘悔人不倦’的意思是告诉别人不要感到疲倦。",
+        "options": [],
+        "answer": "错",
+        "explanation": "应该是“诲”，意为教导。诲人不倦指教导人家不嫌疲倦。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "阅读下列短文：‘余尝谓：读书有三到，谓心到，眼到，口到。’朱熹认为哪一“到”最重要？",
+        "options": [
+          "心到",
+          "眼到",
+          "口到",
+          "手到"
+        ],
+        "answer": "心到",
+        "explanation": "原文提到：心不在此，则眼不看仔细……三到之中，心到最急。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "群文阅读与书籍推荐策略",
+        "question": "小明想向同学推荐《小王子》，以下最有说服力的理由是？",
+        "options": [
+          "这本书是我妈妈给我买的。",
+          "这本书已经在全球卖了很多册。",
+          "它通过唯美的故事告诉我们爱与责任的真谛。",
+          "我已经在两天之内把它读完了。"
+        ],
+        "answer": "它通过唯美的故事告诉我们爱与责任的真谛。",
+        "explanation": "深刻的主题内涵具有更强的推荐价值。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "楷书结构特征赏析",
+        "question": "关于学习书法，下列说法最准确的是？",
+        "options": [
+          "只追求速度，写得快就是写得好。",
+          "书法只需要天赋，不需要刻苦练习。",
+          "临摹欧体字要感受其方整和险峻的结构。",
+          "现在的字都有电脑字体，不需要练书法。"
+        ],
+        "answer": "临摹欧体字要感受其方整和险峻的结构。",
+        "explanation": "了解字体的间架结构特点是书法学习的核心。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近义词辨析",
+        "question": "选词填空：我们要（ ）博览群书，（ ）能增长见识。",
+        "options": [
+          "虽然……但是……",
+          "只有……才……",
+          "不仅……而且……",
+          "只要……就……"
+        ],
+        "answer": "只有……才……",
+        "explanation": "这里表达的是条件关系，强调博览群书是增长见识的必要条件。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "群文阅读与书籍推荐策略",
+        "question": "在读书报告会上，老师建议大家采用由点到面的方式阅读。这里的“点”指什么？",
+        "options": [
+          "每一个字",
+          "书里的插图",
+          "一本经典书籍或一个感点",
+          "标点符号"
+        ],
+        "answer": "一本经典书籍或一个感点",
+        "explanation": "“点”是由点及面阅读法中的起始书籍或话题。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "‘学如逆水行舟，不进则退。’这句名言告诫我们读书要？",
+        "options": [
+          "追求速度",
+          "持之以恒",
+          "随遇而安",
+          "学会放弃"
+        ],
+        "answer": "持之以恒",
+        "explanation": "比喻学习要不断努力，一旦停止就会退步。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字义辨析",
+        "question": "‘不耻下问’中‘耻’的意思是：",
+        "options": [
+          "羞耻的事",
+          "以……为耻",
+          "耻笑",
+          "因为……而害羞"
+        ],
+        "answer": "以……为耻",
+        "explanation": "意动用法，不以向地位、学识比自己低的人请教为耻。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "《论语》中提到的‘默而识之’的‘识’正确读音是？",
+        "options": [
+          "shí",
+          "shì",
+          "zhì",
+          "zhí"
+        ],
+        "answer": "zhì",
+        "explanation": "在“识之”中读zhì，志也，意为记住。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "修辞方法识别",
+        "question": "‘难道我们不应该像古人那样勤奋读书吗？’这句话是什么句式？",
+        "options": [
+          "陈述句",
+          "感叹句",
+          "反问句",
+          "设问句"
+        ],
+        "answer": "反问句",
+        "explanation": "用疑问的形式表达肯定的意思，带有“难道……不……吗”。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "关于朱熹所谓的“三到”，下列描述正确的是？",
+        "options": [
+          "眼到最重要",
+          "三者缺一不可，其中以心到为主",
+          "口到就是不用脑子的大声朗读",
+          "只要心到了，眼睛看不看没关系"
+        ],
+        "answer": "三者缺一不可，其中以心到为主",
+        "explanation": "三到相互关联，心到不仅统领眼口，也是读书专一的表现。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文读书观点的领悟",
+        "question": "孔子说，‘（___）而不厌，诲人不倦’。",
+        "options": [],
+        "answer": "学",
+        "explanation": "考查《小节》中的名句，表达学习不倦。答“学”或“学”均正确。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "楷书结构特征赏析",
+        "question": "欧阳询的楷书以（___）、严谨著称。",
+        "options": [],
+        "answer": "方整",
+        "explanation": "课文描述欧阳询字形的特点词语。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "书籍推荐策略",
+        "question": "推荐一本书时，为了打动别人，我们需要列出核心（___）。",
+        "options": [],
+        "answer": "理由",
+        "explanation": "核心推荐理由是说服他人的关键。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文实词匹配",
+        "question": "请将文言文中的字与其在《古人谈读书》中的意思对应。",
+        "options": [
+          "敏",
+          "识",
+          "厌",
+          "急",
+          "记住",
+          "满足",
+          "勤勉",
+          "要紧"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "敏-勤勉，识-记住，厌-满足，急-要紧。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "课内外书籍匹配",
+        "question": "请将书籍题目与其中的主要故事进行匹配。",
+        "options": [
+          "《西游记》",
+          "《草房子》",
+          "《城南旧事》",
+          "《水浒传》",
+          "桑桑的故事",
+          "大闹天宫",
+          "景阳冈打虎",
+          "冬阳童年骆驼队"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "西游记-大闹天宫，草房子-桑桑，城南旧事-骆驼队，水浒传-打虎。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "阅读方法匹配",
+        "question": "请将阅读方法与对应的要求进行匹配。",
+        "options": [
+          "精读",
+          "略读",
+          "扫描",
+          "默读",
+          "不发声、不指读",
+          "快速寻找特定信息",
+          "深入研读重要段落",
+          "粗略了解大意"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "考查小学五年级应掌握的几种核心阅读方法及其特点。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语排序",
+        "question": "请根据朱熹的观点排成一句话。",
+        "options": [
+          "三到之中",
+          "最急",
+          "心到",
+          "谓"
+        ],
+        "answer": "谓,三到之中,心到,最急",
+        "explanation": "出自朱熹《训学斋规》，强调心到的重要性。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "词语排序",
+        "question": "请排出一句写书评时的注意事项短语。",
+        "options": [
+          "推荐理由",
+          "要",
+          "充分且",
+          "具体"
+        ],
+        "answer": "推荐理由,要,具体,充分且",
+        "explanation": "此为病句修改或逻辑排列训练，要求语义通顺。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "文言文读书观点的领悟",
+      "core_concept": "本单元选取了《论语》中关于诚实治学（‘知之为知之’）、虚心请教（‘不耻下问’）和朱熹关于‘三到’（心到、眼到、口到）的论述。学习核心在于理解古人读书不仅强调方法的科学性（专心、细致），更强调态度的严谨性，以及‘敏’（勤勉）的作用。",
+      "key_formula": "心到 + 眼到 + 口到 = 专心读书",
+      "common_mistakes": [
+        "将‘识’（zhì，记住）误读为‘shí’",
+        "误以为‘不耻下问’是不用感到羞耻地提问"
+      ],
+      "tips": "朗读文言文要注意断句，结合课文注释理解一字多义的现象。"
+    },
+    {
+      "point": "群文阅读与书籍推荐策略",
+      "core_concept": "通过‘由点到面’的阅读方法，以一本喜爱的书为切入点，延伸到同一作者、同一主题或同一类型的书籍。推荐书籍时，需要提炼独特的推荐理由，包括感人的情节、深刻的人物形象或启发互动的思想，并能用精准的语言撰写简短书评。",
+      "key_formula": "书名 + 内容简介 + 核心推荐理由（情节/主题） = 成功的推荐",
+      "common_mistakes": [
+        "推荐理由过于笼统（如‘这本书很好看’）",
+        "分不清内容梗概和推荐理由的区别"
+      ],
+      "tips": "推荐时可以用‘最……的是……’这种句式来突出书籍亮点。"
+    },
+    {
+      "point": "楷书结构特征赏析",
+      "core_concept": "以唐代欧阳询的楷书为例，学习欣赏书法艺术。欧体楷书的主要特征是‘方整’与‘严谨’，字形虽然端正但笔画走势中带有‘险劲’之感。在审美上，要注意字的间架结构是否匀称，笔画是否刚劲有力。",
+      "key_formula": "字形方整 + 笔力刚劲 + 结构严谨 = 欧体楷书风格",
+      "common_mistakes": [
+        "混淆楷书与草书、行书的结构特点",
+        "认为书法美仅仅是‘写得快’"
+      ],
+      "tips": "观察字贴中每个部件的比例和重心的稳定性。"
+    }
+  ]
+}

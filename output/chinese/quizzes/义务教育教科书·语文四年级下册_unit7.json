@@ -1,0 +1,737 @@
+{
+  "textbook": "统编版小学语文四年级下册",
+  "unit": "第七单元：为人处世",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "第七单元基础达标与综合素质测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字音字形鉴别",
+        "question": "“芙蓉楼送辛渐”中的“渐”字读音是 jiàn。",
+        "options": [],
+        "answer": "对",
+        "explanation": "‘渐’在文中读 jiàn，指辛渐，人名。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词语释义",
+        "question": "“洛阳亲友如相问，一片冰心在玉壶”中，“冰心”指冰凉的心。",
+        "options": [],
+        "answer": "错",
+        "explanation": "‘冰心’喻指纯洁的心，而非温度低。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文本理解",
+        "question": "《“诺曼底号”遇难记》的作者是法国著名作家雨果。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《“诺曼底号”遇难记》是维克多·雨果的名篇。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "修辞手法",
+        "question": "“不要人夸好颜色，只留清气满乾坤”运用了拟人的修辞手法。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这句主要运用了托物言志，侧重描写梅花的品质。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "描写方法识别",
+        "question": "通过描写海水的咆哮、人们的惊慌来表现船长的镇定，这是侧面描写。",
+        "options": [],
+        "answer": "对",
+        "explanation": "通过周围人和环境的混乱反衬主角的镇定，属于侧面描写/反衬。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "咏物言志诗鉴赏",
+        "question": "《墨梅》一诗中，诗人通过赞美墨梅，表达了自己怎样的志趣？",
+        "options": [
+          "追求富贵荣华",
+          "热爱大自然的美景",
+          "不愿同流合污的高洁情操",
+          "思念家乡亲人的情感"
+        ],
+        "answer": "不愿同流合污的高洁情操",
+        "explanation": "“不要人夸好颜色，只留清气满乾坤”表达了诗人高洁的操守。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语理解",
+        "question": "下列词语中，形容人“志向高远”的是哪一个？",
+        "options": [
+          "胸怀大志",
+          "小心翼翼",
+          "迫不及待",
+          "欣喜若狂"
+        ],
+        "answer": "胸怀大志",
+        "explanation": "胸怀大志指心里有远大的志向。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字辨析",
+        "question": "“在这个混乱的场面中，哈尔威船长巍然屹立。”句子中“混”的读音是：",
+        "options": [
+          "hún",
+          "hùn",
+          "hūn",
+          "hǔn"
+        ],
+        "answer": "hùn",
+        "explanation": "“混乱”的“混”读音为第四声。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反衬手法分析",
+        "question": "阅读：‘阴惨惨的薄雾笼罩着大海。哈尔威船长站在指挥台上，大声吼喝……’这段环境描写的作用是：",
+        "options": [
+          "展示大海的美丽",
+          "说明天气的寒冷",
+          "烘托灾难即将来临的紧张气氛",
+          "介绍客轮的行驶路线"
+        ],
+        "answer": "烘托灾难即将来临的紧张气氛",
+        "explanation": "阴惨惨的薄雾暗示了不祥的预兆，烘托了紧张的氛围。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗名句积累",
+        "question": "“寒雨连江夜入吴，平明送客楚山孤”中，“平明”的意思是：",
+        "options": [
+          "平常",
+          "黎明",
+          "明亮",
+          "中午"
+        ],
+        "answer": "黎明",
+        "explanation": "平明：天刚亮的时候。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物形象评价",
+        "question": "在《黄继光》一文中，最能体现黄继光英雄气概的行为是：",
+        "options": [
+          "向连长请战",
+          "在敌人的炮火中爬行",
+          "用胸膛堵住敌人的枪口",
+          "执行通信任务"
+        ],
+        "answer": "用胸膛堵住敌人的枪口",
+        "explanation": "堵枪口是黄继光舍己为人牺牲自我的英雄行为最核心的表现。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语辨析",
+        "question": "下列词语中，哪一个不是描写人的高尚品质的？",
+        "options": [
+          "视死如归",
+          "刚正不阿",
+          "气急败坏",
+          "厚德载物"
+        ],
+        "answer": "气急败坏",
+        "explanation": "气急败坏是贬义词，形容羞恼愤怒。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语言表达简明",
+        "question": "在自我介绍时，以下哪种开头最能快速吸引老师和同学？",
+        "options": [
+          "我叫王小明，今年十岁了。",
+          "我家里有三口人，性格开朗。",
+          "嘿！我就是那个‘书呆子’王小明。",
+          "我的爱好有很多，比如看书。"
+        ],
+        "answer": "嘿！我就是那个‘书呆子’王小明。",
+        "explanation": "以此有趣的绰号开头能迅速建立鲜明的人物形象。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "核心意象分析",
+        "question": "《芙蓉楼送辛渐》中，“冰心”和“玉壶”两组意象结合在一起，传达出一种什么样的形象？",
+        "options": [
+          "富有且豪华",
+          "冰冷而孤独",
+          "晶莹透明、纯洁无暇",
+          "忧国忧民、壮志难酬"
+        ],
+        "answer": "晶莹透明、纯洁无暇",
+        "explanation": "冰代表纯，玉代表洁，组合寓意高尚人品。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关联词使用",
+        "question": "“（ ）哈尔威船长牺牲了，（ ）他伟大的精神永远活在人们心中。”括号内填入正确的是：",
+        "options": [
+          "因为……所以……",
+          "只要……就……",
+          "虽然……但是……",
+          "如果……就……"
+        ],
+        "answer": "虽然……但是……",
+        "explanation": "由于前后句呈转折关系，应选“虽然……但是……”。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗填空",
+        "question": "“我家洗砚池头树，朵朵花开（ ）。”",
+        "options": [],
+        "answer": "淡墨痕",
+        "explanation": "选自王冕的《墨梅》。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文学常识",
+        "question": "《“诺曼底号”遇难记》中，轮船相撞是因为海面上起了大（ ）。",
+        "options": [],
+        "answer": "雾",
+        "explanation": "事故的起因是“阴惨惨的薄雾”。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文章关键信息",
+        "question": "哈尔威船长在指挥自救时，首先保护的是（ ）。",
+        "options": [],
+        "answer": "妇女儿童",
+        "explanation": "在危急关头，船长先救最弱小的群体。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物与品质对应",
+        "question": "将下列人物与其对应的优秀品质连接起来：",
+        "options": [
+          "黄继光",
+          "哈尔威船长",
+          "王冕",
+          "王昌龄",
+          "忠于职守",
+          "视死如归",
+          "坚守清操",
+          "不改冰心"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "黄继光视死如归；哈尔威船长忠于职守；王冕写墨梅坚守清操；王昌龄诗中表露不改冰心。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语配对",
+        "question": "将下列成语与对应的意思连接起来：",
+        "options": [
+          "临危不惧",
+          "锲而不舍",
+          "囊萤夜读",
+          "悬梁刺股",
+          "勤学苦读",
+          "不断努力",
+          "刻苦励志",
+          "正视危险"
+        ],
+        "answer": "A-4,B-2,C-1,D-3",
+        "explanation": "临危不惧对应正视危险；锲而不舍对应不断努力；囊萤夜读对应勤学苦读；悬梁刺股对应刻苦励志。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗情境对应",
+        "question": "将古诗名句与所表达的志趣连接起来：",
+        "options": [
+          "一片冰心在玉壶",
+          "只留清气满乾坤",
+          "烈火焚烧若等闲",
+          "大雪满弓刀",
+          "高洁的操守",
+          "清廉的人格",
+          "英勇的杀敌",
+          "坚定的意志"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "玉壶冰心对应清廉；清气满乾坤对应高洁；烈火焚烧对应坚定；弓刀对应杀敌志。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式训练",
+        "question": "将下列词语排列成一句赞美哈尔威船长的话：",
+        "options": [
+          "哈尔威船长",
+          "一位",
+          "真正的",
+          "英雄",
+          "是",
+          "在海难中"
+        ],
+        "answer": "在海难中,哈尔威船长,是,一位,真正的,英雄",
+        "explanation": "组合成合乎逻辑的叙述句。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描写手法应用",
+        "question": "将下列描写词语排列成展示自我的句子：",
+        "options": [
+          "喜欢",
+          "性格开朗的我",
+          "在广场上",
+          "尽情地",
+          "滑旱冰"
+        ],
+        "answer": "性格开朗的我,喜欢,在广场上,尽情地,滑旱冰",
+        "explanation": "按“谁＋爱好＋干什么”的结构排列。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级下册第七单元综合学力评估（期末专项）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字形辨析",
+        "question": "“砚、雁、燕”这三个字的读音是完全相同的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "砚读yàn，雁读yàn，燕读yàn或yān。但在通常作为姓氏或鸟类时相同，砚与雁同音，但形态不同。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常识判断",
+        "question": "“车胤囊萤”讲述的是古代人利用萤火虫的光勤奋读书的故事。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是《囊萤夜读》的历史典故。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文体认知",
+        "question": "“我的‘自画像’”这类习作，重点在于描写人物的外貌。",
+        "options": [],
+        "answer": "错",
+        "explanation": "除了外貌，更要突出性格、爱好及具体的事例。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "描写技巧",
+        "question": "描写哈尔威船长时，“他就像一座黑色的大理石雕像”运用了比喻的手法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "运用比喻，生动刻画船长的沉稳不动摇。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法",
+        "question": "“火力点里的敌人把机枪对准黄继光，子弹像冰雹一样射过来”是比喻句。",
+        "options": [],
+        "answer": "对",
+        "explanation": "将子弹比作冰雹，形容火力密集。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义选择",
+        "question": "“猝然而至”中的“猝”字的意思是：",
+        "options": [
+          "突然",
+          "终于",
+          "必然",
+          "缓慢"
+        ],
+        "answer": "突然",
+        "explanation": "猝然：出乎意料，突然。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗理解",
+        "question": "下面哪一句诗表现了诗人和朋友告别时的不舍？",
+        "options": [
+          "不要人夸好颜色",
+          "平明送客楚山孤",
+          "读万卷书行万里路",
+          "烈火焚烧若等闲"
+        ],
+        "answer": "平明送客楚山孤",
+        "explanation": "“送客”二字点明了离别的主题。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物动作描写",
+        "question": "“黄继光忽然站起来，张开双臂，向鱼鳞般的枪口辅去。”这段动作描写体现了：",
+        "options": [
+          "他的速度飞快",
+          "他的身体强壮",
+          "他的英勇无畏",
+          "他的战场经验"
+        ],
+        "answer": "他的英勇无畏",
+        "explanation": "通过扑向火力的动作，展现出舍生忘死的品质。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反衬法理解",
+        "question": "《“诺曼底号”遇难记》中，在大家都奔向救生艇时，船长却坚守岗位。这种对比的目的是：",
+        "options": [
+          "说明船长不会游泳",
+          "表现场面太乱无法逃跑",
+          "突出船长舍己为人、忠于职守",
+          "说明救生艇位置不够"
+        ],
+        "answer": "突出船长舍己为人、忠于职守",
+        "explanation": "对比描写是为了凸显人物形象。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "写作技巧",
+        "question": "在写我的“自画像”时，为了让人物更生动，我们应该：",
+        "options": [
+          "只写我的长相",
+          "列举许多好词好句",
+          "通过具体的一两件事来写",
+          "把自己写得完美无缺"
+        ],
+        "answer": "通过具体的一两件事来写",
+        "explanation": "事实胜于雄辩，事例能让性格鲜活。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "成语运用",
+        "question": "“在学习上，我们应当有（ ）的精神，不断钻研。”括号中最合适的是：",
+        "options": [
+          "游手好闲",
+          "持之以恒",
+          "惊慌失措",
+          "半途而废"
+        ],
+        "answer": "持之以恒",
+        "explanation": "“持之以恒”形容长久坚持，符合语境。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗出处",
+        "question": "“一片冰心在玉壶”出自哪位诗人的笔下？",
+        "options": [
+          "王冕",
+          "王昌龄",
+          "李白",
+          "杜甫"
+        ],
+        "answer": "王昌龄",
+        "explanation": "这是王昌龄《芙蓉楼送辛渐》的名句。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "侧面描写深度解析",
+        "question": "在描写人物时，通过描写“周围的人都吓呆了”来表现主角的勇敢。这属于：",
+        "options": [
+          "正面描写",
+          "侧面描写",
+          "外貌描写",
+          "心理描写"
+        ],
+        "answer": "侧面描写",
+        "explanation": "通过描写由于主角以外的其他人和物，来烘托主角。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课文细节",
+        "question": "《黄继光》一文中提到，战斗持续到了黎明。这主要说明了：",
+        "options": [
+          "战士们很困",
+          "战斗非常激烈和持久",
+          "天气非常好",
+          "援军还没到"
+        ],
+        "answer": "战斗非常激烈和持久",
+        "explanation": "时间的跨度体现了战斗的艰难。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "咏物言志诗深度理解",
+        "question": "为什么《墨梅》中的梅花“不需要人夸好颜色”？",
+        "options": [
+          "因为它的颜色不好看",
+          "因为它不喜欢别人夸奖",
+          "因为诗人看重的是内在的芬芳和高尚的品行",
+          "因为它生长在洗砚池边"
+        ],
+        "answer": "因为诗人看重的是内在的芬芳和高尚的品行",
+        "explanation": "托物言志，强调内在精神价值而非外在红紫。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重点字词",
+        "question": "《囊萤夜读》中，“囊”在这里的意思是名词作动词，意思是（ ）。",
+        "options": [],
+        "answer": "用袋子装",
+        "explanation": "此处“囊”是动词用法。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗名句",
+        "question": "“洛阳亲友如相问，（ ）。”",
+        "options": [],
+        "answer": "一片冰心在玉壶",
+        "explanation": "考察名句记忆。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物精神总结",
+        "question": "哈尔威船长在生死的最后关头，屹立在指挥台上，这体现了他忠于（ ）。",
+        "options": [],
+        "answer": "职守",
+        "explanation": "他履行了身为船长哪怕牺牲也要守护到最后的职责。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近义词连线",
+        "question": "给下列词语找到意思相近的另一半：",
+        "options": [
+          "镇定",
+          "焦急",
+          "威严",
+          "牺牲",
+          "庄严",
+          "捐躯",
+          "从容",
+          "着急"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "镇定—从容；焦急—着急；威严—庄严；牺牲—捐躯。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗与作者",
+        "question": "将下列诗名与其作者对应起来：",
+        "options": [
+          "墨梅",
+          "芙蓉楼送辛渐",
+          "石灰吟",
+          "夏日绝句",
+          "李清照",
+          "于谦",
+          "王冕",
+          "王昌龄"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "墨梅-王冕；送辛渐-王昌龄；石灰吟-于谦；夏日绝句-李清照。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语分类",
+        "question": "将下列不同类型的人物品行词语连接起来：",
+        "options": [
+          "不屈不挠",
+          "舍己为人",
+          "两袖清风",
+          "博览群书",
+          "廉洁类",
+          "意志类",
+          "学识类",
+          "品质类"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "不屈不挠属意志；舍己为人属品质；两袖清风属廉洁；博览群书属学识。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长句逻辑",
+        "question": "将下列短语排成一句对《墨梅》中精神的描述：",
+        "options": [
+          "王冕",
+          "借墨梅",
+          "表达了",
+          "高尚的",
+          "情操",
+          "清正廉洁的"
+        ],
+        "answer": "王冕,借墨梅,表达了,清正廉洁的,高尚的,情操",
+        "explanation": "按照主谓宾及定语顺序排列。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反衬手法描述",
+        "question": "排列句子，描述《“诺曼底号”遇难记》中的对比：",
+        "options": [
+          "船长的镇定",
+          "与",
+          "形成了",
+          "鲜明的对比",
+          "众人的惊慌"
+        ],
+        "answer": "众人的惊慌,与,船长的镇定,形成了,鲜明的对比",
+        "explanation": "将对比的双方与动词连接起来。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "侧面描写与反衬手法",
+      "core_concept": "侧面描写是通过描写周围的人物、环境或事物，来间接表现主要描写对象的一种方法。在《“诺曼底号”遇难记》中，作者极力描写海难发生时的惊恐场面、人们的混乱以及海水的无情，通过这些负面和混乱的因素，反而衬托出哈尔威船长在生死关头指挥若定、忠于职守的英雄气概。这种‘以动衬静’‘以乱衬定’的方法，能使人物形象更加立体，震撼人心。",
+      "key_formula": "侧面描写 = 他人的反应 / 环境的渲染 / 事物的对比",
+      "common_mistakes": [
+        "分不清正面描写和侧面描写，把船长的语言描写也当成侧面描写。",
+        "在反衬时，无法准确找出被衬托的对象和衬托物之间的逻辑关系。"
+      ],
+      "tips": "寻找描写中“除了主角之外”的杂物、他人或背景，看它们是否在为主角的形象“加分”或作对比。"
+    },
+    {
+      "point": "咏物言志诗的鉴赏",
+      "core_concept": "此类诗歌表面描写的是某种具体的自然物（如梅花、冰心、石灰等），但实际上诗人是将自己的志向、抱负或品质寄托在这些意象中。例如《墨梅》中的‘清气’象征高洁，‘淡墨’象征朴素。鉴赏时不仅要看‘物’的特点，更要领会‘人’的操守，实现‘人’与‘物’在精神层面的高度统一。",
+      "key_formula": "咏物言志 = 物的特征（色、香、形） + 人的志向（德、操、魂）",
+      "common_mistakes": [
+        "仅停留在对物体的字面描写上，忽略了诗句背后的深远含义。",
+        "将‘冰心’简单理解为寒冷，未能识别其作为纯洁人格的象征意义。"
+      ],
+      "tips": "关注诗中最后两句，通常那是全诗的“诗眼”，直接点明志向所在。要把梅花的冷色调和诗人的清正廉洁联系起来思考。"
+    },
+    {
+      "point": "习作：我的“自画像”",
+      "core_concept": "这是一种典型的人物描写练习。学生需要从外貌（抓住最有特色的地方）、性格（如勇敢、内向、马虎）、爱好（如滑雪、读书）等多方面介绍自己。最关键的是要‘以事写人’，即通过一两个生动的小故事，把自己性格中的某个侧面真实地展示出来，避免干巴巴的罗列特征，使读者读后能如同见到本人一样。",
+      "key_formula": "自画像 = 独特外貌 + 性格标签 + 典型事例（1-2件）",
+      "common_mistakes": [
+        "泛泛而谈，列了一堆标签却没有任何具体例子支撑，人物形象模糊。",
+        "外貌描写面面俱到（大眼睛、高鼻子），没有抓住宅、痦子、发型等具有区分度的特征。"
+      ],
+      "tips": "先给自己取一个客观的“绰号”（如同桌给起的），然后围绕这个绰号来组织材料，这样更有针对性。"
+    }
+  ]
+}

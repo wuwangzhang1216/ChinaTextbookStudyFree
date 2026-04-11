@@ -1,0 +1,713 @@
+{
+  "textbook": "人教版 PEP 英语三年级下册",
+  "unit": "Welcome back to school!",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "Unit 1 Welcome back to school! 单元达标测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "'the USA' 翻译为 '美国'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "the USA 是 the United States of America 的缩写，意为美国。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "'teacher' 指的是 '学生'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "teacher 是老师，student 才是学生。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "元音字母a在闭音节中的发音",
+        "question": "单词 'cat' 中字母 'a' 的发音和 'bag' 中相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两者都是闭音节单词，字母a发短元音/æ/。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "询问别人来自哪里可以用 'Where are you from?'",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是询问国籍或来源地的标准句型。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "介绍一位男生时应该用 'She is'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "男生使用人称代词 he，女生使用 she。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "Hi, I'm Amy. I'm ___ the UK.",
+        "options": [
+          "from",
+          "to",
+          "on",
+          "at"
+        ],
+        "answer": "from",
+        "explanation": "be from 表示来自某地。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "选出不同类的一项：",
+        "options": [
+          "China",
+          "Canada",
+          "USA",
+          "Teacher"
+        ],
+        "answer": "Teacher",
+        "explanation": "前三个是国家名，Teacher 是职业身份。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "Welcome ___ to school!",
+        "options": [
+          "back",
+          "bag",
+          "book",
+          "black"
+        ],
+        "answer": "back",
+        "explanation": "welcome back to... 欢迎回到..."
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "— Where are you from? — ___",
+        "options": [
+          "I'm Sarah.",
+          "I'm from China.",
+          "He is from China.",
+          "My name is John."
+        ],
+        "answer": "I'm from China.",
+        "explanation": "回答来源地问句时，常用 I'm from + 地点。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "This is Mr Jones. ___ is a teacher.",
+        "options": [
+          "She",
+          "he",
+          "He",
+          "i"
+        ],
+        "answer": "He",
+        "explanation": "Mr Jones 是男性，在句首需要大写 He。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "Good morning, ___. (早上好，同学们。)",
+        "options": [
+          "boy",
+          "parents",
+          "boys and girls",
+          "teacher"
+        ],
+        "answer": "boys and girls",
+        "explanation": "常用 boys and girls 来称呼全体学生。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "元音字母a在闭音节中的发音",
+        "question": "单词 'hand' 中字母 'a' 的发音与下列哪个相同？",
+        "options": [
+          "cake",
+          "face",
+          "dad",
+          "name"
+        ],
+        "answer": "dad",
+        "explanation": "hand 和 dad 的 a 都发 /æ/，其他选项发 /eɪ/。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "Mike is a ___. (Mike是一名学生。)",
+        "options": [
+          "teacher",
+          "student",
+          "china",
+          "she"
+        ],
+        "answer": "student",
+        "explanation": "由语境可知需填身份词 student。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人称代词用法",
+        "question": "___ is a new student. (她是一名新学生。)",
+        "options": [
+          "He",
+          "She",
+          "I",
+          "You"
+        ],
+        "answer": "She",
+        "explanation": "题干指定为'她'，故选 She。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "We have two new ___ today.",
+        "options": [
+          "friend",
+          "friends",
+          "friends.",
+          "friend."
+        ],
+        "answer": "friends",
+        "explanation": "two 后面接名词复数 friends。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "I'm ___ China. (我来自中国。)",
+        "options": [],
+        "answer": "from",
+        "explanation": "来自用介词 from。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "Where ___ you from?",
+        "options": [],
+        "answer": "are",
+        "explanation": "you 作为主语时 be 动词用 are。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "I am a ___. (我是一名学生。)",
+        "options": [],
+        "answer": "student",
+        "explanation": "学生对应的英文单词是 student。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "Nice ___ meet you.",
+        "options": [],
+        "answer": "to",
+        "explanation": "固定搭配 nice to meet you。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "请将下列英文单词与其对应的中文意思连线。",
+        "options": [
+          "Canada",
+          "China",
+          "UK",
+          "USA",
+          "英国",
+          "美国",
+          "加拿大",
+          "中国"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "Canada-加拿大, China-中国, UK-英国, USA-美国。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "请将称呼语与其对应中文意思连线。",
+        "options": [
+          "teacher",
+          "student",
+          "he",
+          "she",
+          "她",
+          "他",
+          "学生",
+          "教师"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "teacher-教师, student-学生, he-他, she-她。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "连词成句：am, from, I, China",
+        "options": [
+          "am",
+          "from",
+          "I",
+          "China"
+        ],
+        "answer": "I,am,from,China",
+        "explanation": "陈述句结构：主语 + am + from + 来源地。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "连词成句：Welcome, back, school, to",
+        "options": [
+          "Welcome",
+          "back",
+          "school",
+          "to"
+        ],
+        "answer": "Welcome,back,to,school",
+        "explanation": "固定短语 welcome back to school。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级下学期英语阶段测评 (Unit 1)",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "The UK 代表的是 '加拿大'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "The UK 是英国，Canada 才是加拿大。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "元音字母a在闭音节中的发音",
+        "question": "单词 'dad' 中的字母 'a' 发 /æ/ 音。",
+        "options": [],
+        "answer": "对",
+        "explanation": "dad 是闭音节，字母a发短音。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "介绍一位女教师时可以用 'He is a teacher.'",
+        "options": [],
+        "answer": "错",
+        "explanation": "女性应该用 she。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "'I am from Canada' 可以缩写为 'I'm from Canada'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "I am 的缩写形式是 I'm。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "'boys and girls' 的意思是 '孩子们' 或 '同学们'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这通常用于老师对学生们的群体称呼。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "— Where are you from? — I'm from ___.",
+        "options": [
+          "Canada",
+          "student",
+          "teacher",
+          "he"
+        ],
+        "answer": "Canada",
+        "explanation": "问句询问地点，需填国家名。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "I have a new ___. (我有一个新朋友。)",
+        "options": [
+          "she",
+          "friend",
+          "from",
+          "he"
+        ],
+        "answer": "friend",
+        "explanation": "have a new friend 有一个新朋友。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "This is Miss White. ___ is a teacher.",
+        "options": [
+          "He",
+          "She",
+          "It",
+          "I"
+        ],
+        "answer": "She",
+        "explanation": "Miss 指未婚女性，用 She。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "元音字母a在闭音节中的发音",
+        "question": "哪个单词中的 'a' 发音与另外三个不同？",
+        "options": [
+          "bag",
+          "cat",
+          "apple",
+          "name"
+        ],
+        "answer": "name",
+        "explanation": "name 发 /eɪ/，其他发 /æ/。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "I ___ from the USA. (我也来自美国。)",
+        "options": [
+          "am too",
+          "is too",
+          "too",
+          "am also too"
+        ],
+        "answer": "am too",
+        "explanation": "too 放在肯定句句末表示“也”。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "— Welcome back! — ___",
+        "options": [
+          "You're welcome.",
+          "Thank you.",
+          "Where are you from?",
+          "I'm a student."
+        ],
+        "answer": "Thank you.",
+        "explanation": "当别人说欢迎时，应回答谢谢。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语法搭配",
+        "question": "Hi, I'm Amy. I am ___ student.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "/"
+        ],
+        "answer": "a",
+        "explanation": "辅音音素开头单词 student 前用 a。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "Mr Jones is ___ teacher.",
+        "options": [
+          "a",
+          "China",
+          "Canada",
+          "an"
+        ],
+        "answer": "a",
+        "explanation": "虽然 he is a teacher, 这里 a 修饰职业名词。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常用语",
+        "question": "当你想欢迎新同学时，你应该说：",
+        "options": [
+          "I'm from China.",
+          "Welcome!",
+          "Nice to meet you.",
+          "He is a student."
+        ],
+        "answer": "Welcome!",
+        "explanation": "Welcome 表示欢迎。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人称代词",
+        "question": "Look at the girl. ___ is from the UK.",
+        "options": [
+          "He",
+          "She",
+          "I",
+          "It"
+        ],
+        "answer": "She",
+        "explanation": "the girl 是女性，代词用 she。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "I from the ___ . (我来自美国。注：请填USA小写)",
+        "options": [],
+        "answer": "usa",
+        "explanation": "usa 代表美国。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人称代词用法",
+        "question": "___ is a teacher. (他是一名老师。)",
+        "options": [],
+        "answer": "he",
+        "explanation": "he 指代男性他。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "We ___ a new friend. (我们有一个新朋友。)",
+        "options": [],
+        "answer": "have",
+        "explanation": "have 表示有。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "日常用语",
+        "question": "Wait ___ minute. (等一下。)",
+        "options": [],
+        "answer": "a",
+        "explanation": "wait a minute 是常用短语。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常对话匹配",
+        "question": "请将左边的句子与右边对应的中文翻译连线。",
+        "options": [
+          "Welcome!",
+          "Wait a minute.",
+          "I'm from the UK.",
+          "Where are you from?",
+          "你来自哪里？",
+          "我来自英国。",
+          "欢迎！",
+          "等一下。"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "Welcome-欢迎, Wait a minute-等一下, I'm from the UK-我来自英国, Where are you from-你来自哪里。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "核心词汇辨析",
+        "question": "将身份词进行中英连线。",
+        "options": [
+          "new",
+          "friend",
+          "boys",
+          "girls",
+          "女孩们",
+          "男孩们",
+          "朋友",
+          "新的"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "new-新的, friend-朋友, boys-男孩们, girls-女孩们。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自我介绍与询问来源地",
+        "question": "连词成句：you, Where, from, are",
+        "options": [
+          "you",
+          "Where",
+          "from",
+          "are"
+        ],
+        "answer": "Where,are,you,from",
+        "explanation": "疑问词(Where) + are + 主语 + from。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "国家名称与核心词汇",
+        "question": "连词成句：She, teacher, is, a",
+        "options": [
+          "She",
+          "teacher",
+          "is",
+          "a"
+        ],
+        "answer": "She,is,a,teacher",
+        "explanation": "主语 + is + 职业名词。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "自我介绍与询问来源地",
+      "core_concept": "使用 I'm from... 介绍家乡，Where are you from? 询问对方。",
+      "key_formula": "I'm from + 国家名; Where are you from?",
+      "common_mistakes": [
+        "漏掉 be 动词，说成 I from China。",
+        "from 后面加了 a，如 I'm from a China。"
+      ],
+      "tips": "注意 China/USA/Canada 等国家名首字母要大写。"
+    },
+    {
+      "point": "核心身份词汇与人称代词",
+      "core_concept": "区分 he (他) 和 she (她)，以及 teacher (教师) 和 student (学生)。",
+      "key_formula": "He is a... 用于男性; She is a... 用于女性。",
+      "common_mistakes": [
+        "男女不分，用 he 指代 lady 或用 she 指代 boy。",
+        "忘记在职业前加冠词 a。"
+      ],
+      "tips": "Miss 对应 she, Mr 对应 he。"
+    },
+    {
+      "point": "元音字母 a 在闭音节中的发音",
+      "core_concept": "字母 a 在辅音+元音+辅音（CVC）结构中通常发 /æ/。",
+      "key_formula": "a -> /æ/ (如 cat, bag, dad, hand)",
+      "common_mistakes": [
+        "将 /æ/ 发成 /e/ (如 bed 的音)。",
+        "无法区分闭音节 a 和开音节 a (如 name)。"
+      ],
+      "tips": "发 /æ/ 时嘴巴要张大，嘴角向两边拉，舌尖抵下齿。"
+    }
+  ]
+}

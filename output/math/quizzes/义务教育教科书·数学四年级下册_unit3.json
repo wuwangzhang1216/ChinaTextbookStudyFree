@@ -1,0 +1,707 @@
+{
+  "textbook": "人教版小学数学四年级下册",
+  "unit": "运算定律",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元「运算定律」基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "加法交换律与结合律",
+        "question": "$25 + 137 + 75 = 137 + (25 + 75)$ 只运用了加法交换律。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$25 + 137 + 75 = 137 + 25 + 75$ 运用了加法交换律，$137 + (25 + 75)$ 运用了结合律。故错误。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "$a \\times (b + c) = a \\times b + a \\times c$",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是乘法分配律的标准公式。验算：若$a=2, b=3, c=4$，则$2 \\times (3+4)=14, 2 \\times 3 + 2 \\times 4=14$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乘法交换律与结合律",
+        "question": "$25 \\times 4 \\div 25 \\times 4 = 1$",
+        "options": [],
+        "answer": "错",
+        "explanation": "原式按照从左往右计算：$100 \\div 25 \\times 4 = 4 \\times 4 = 16$。不能随意加括号。故错误。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "减法的简便运算性质",
+        "question": "$568 - (68 + 179) = 568 - 68 - 179$",
+        "options": [],
+        "answer": "对",
+        "explanation": "减法性质：$a - (b + c) = a - b - c$。验算：$500 - 179 = 321, 568 - 247 = 321$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "连除的简便性质",
+        "question": "$480 16 5 = 480 16 5$ 无法简算，必须按顺序算。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$480 16 5 = 480 5 16$ 或 $480 80$)。故错误。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法交换律与结合律",
+        "question": "计算 $48 + 165 + 52$ 时，最简便的方法是：",
+        "options": [
+          "$(48 + 165) + 52$",
+          "$(48 + 52) + 165$",
+          "$(165 + 52) + 48$",
+          "按顺序计算"
+        ],
+        "answer": "$(48 + 52) + 165$",
+        "explanation": "利用加法交换律和结合律，先将能凑整的 48 和 52 相加得到 100，再加 165 比较简便。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法交换律与结合律",
+        "question": "$125 \\times 7 \\times 8 = 7 \\times (125 \\times 8)$，运用了：",
+        "options": [
+          "乘法交换律",
+          "乘法结合律",
+          "乘法交换律与结合律",
+          "乘法分配律"
+        ],
+        "answer": "乘法交换律与结合律",
+        "explanation": "125和7交换位置运用了交换律，加括号先算 125 乘 8 运用了结合律。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "下面各组算式中，得数相等的一组是：",
+        "options": [
+          "$25 \\times (4 + 8)$ 和 $25 \\times 4 + 8$",
+          "$45 \\times 101$ 和 $45 \\times 100 + 1$",
+          "$12 \\times 97 + 12 \\times 3$ 和 $12 \\times (97 + 3)$",
+          "$（32 + 8）\\times 5$ 和 $32 \\times 5 + 8$"
+        ],
+        "answer": "$12 \\times 97 + 12 \\times 3$ 和 $12 \\times (97 + 3)$",
+        "explanation": "符合乘法分配律的逆运算：$a \\times b + a \\times c = a \\times (b + c)$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "减法的简便运算性质",
+        "question": "$834 - 156 - 44$ 的简便算法是：",
+        "options": [
+          "$(834 - 44) - 156$",
+          "$834 - (156 + 44)$",
+          "$834 - 156 + 44$",
+          "按顺序计算"
+        ],
+        "answer": "$834 - (156 + 44)$",
+        "explanation": "一个数连续减去两个数，等于减去这两个数的和。156和44能凑整200。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "连除的简便性质",
+        "question": "$700 \\div 25 \\div 4$ 等于：",
+        "options": [
+          "$700 \\div (25 \\times 4)$",
+          "$700 \\div (25 \\div 4)$",
+          "$700 \\times 25 \\times 4$",
+          "$700 \\div 25 \\times 4$"
+        ],
+        "answer": "$700 \\div (25 \\times 4)$",
+        "explanation": "连除性质：$a \\div b \\div c = a \\div (b \\times c)$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法交换律与结合律",
+        "question": "在学校图书馆，第一天借出 128 本书，第二天借出 195 本，第三天借出 72 本。这三天一共借出多少本书？",
+        "options": [
+          "385",
+          "395",
+          "400",
+          "390"
+        ],
+        "answer": "395",
+        "explanation": "列式：$128+195+72 = (128+72)+195 = 200+195 = 395$。验算：$128+195=323, 323+72=395$ ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "下列哪个算式可以简算为 $25 \\times 100 + 25 \\times 4$？",
+        "options": [
+          "$25 \\times 104$",
+          "$125 \\times 100$",
+          "$25 \\times 140$",
+          "$25 \\times 400$"
+        ],
+        "answer": "$25 \\times 104$",
+        "explanation": "$25 \\times 104 = 25 \\times (100 + 4) = 25 \\times 100 + 25 \\times 4$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法交换律与结合律",
+        "question": "计算 $4 \\times 17 \\times 25$ 时，先算哪个比较简便？",
+        "options": [
+          "$4 \\times 17$",
+          "$17 \\times 25$",
+          "$4 \\times 25$",
+          "任意计算"
+        ],
+        "answer": "$4 \\times 25$",
+        "explanation": "$4 \\times 25 = 100$ 是常用的凑整口诀。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "减法的简便运算性质",
+        "question": "小明有 235 元，买书花了 64 元，买笔盒花了 36 元，他还剩多少元？",
+        "options": [
+          "135",
+          "145",
+          "125",
+          "155"
+        ],
+        "answer": "135",
+        "explanation": "$235 - 64 - 36 = 235 - (64 + 36) = 235 - 100 = 135$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法结合律",
+        "question": "一个影院有 25 排，每排有 4 个大区，每个大区有 18 个座位。影院一共有多少个座位？",
+        "options": [
+          "1600",
+          "1800",
+          "2000",
+          "1500"
+        ],
+        "answer": "1800",
+        "explanation": "$25 \\times 18 \\times 4 = (25 \\times 4) \\times 18 = 100 \\times 18 = 1800$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "$99 \\times 66 + 66$ 与下列哪个算式相等？",
+        "options": [
+          "$100 \\times 66$",
+          "$99 \\times 67$",
+          "$99 \\times (66 + 1)$",
+          "$98 \\times 66$"
+        ],
+        "answer": "$100 \\times 66$",
+        "explanation": "$99 \\times 66 + 66 = 99 \\times 66 + 66 \\times 1 = (99 + 1) \\times 66 = 100 \\times 66$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "连除的简便性质",
+        "question": "4000 支铅笔，每 8 支装一盒，每 5 盒装一箱。一共可以装多少箱？",
+        "options": [
+          "100",
+          "80",
+          "120",
+          "60"
+        ],
+        "answer": "100",
+        "explanation": "$4000 \\div 8 \\div 5 = 4000 \\div (8 \\times 5) = 4000 \\div 40 = 100$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法交换律与结合律",
+        "question": "下面使用了加法结合律的是：",
+        "options": [
+          "$a + b = b + a$",
+          "$(a + b) + c = a + (b + c)$",
+          "$a + 0 = a$",
+          "$a + b + c = a + c + b$"
+        ],
+        "answer": "$(a + b) + c = a + (b + c)$",
+        "explanation": "加法结合律是指三个数相加，先把前两个数相加或先把后两个数相加，和不变。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法交换律与结合律",
+        "question": "计算 $145 + 37 + 55$ 时，把 145 和 55 先相加得到 200，最终结果是 ___。",
+        "options": [],
+        "answer": "237",
+        "explanation": "$145 + 55 + 37 = 200 + 37 = 237$。验算：$145+37=182, 182+55=237$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "每套校服 102 元，学校买 45 套，一共需要 ___ 元。",
+        "options": [],
+        "answer": "4590",
+        "explanation": "$102 \\times 45 = (100 + 2) \\times 45 = 100 \\times 45 + 2 \\times 45 = 4500 + 90 = 4590$。验算：$4590 \\div 45 = 102$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "计算 $35 \\times 18 + 35 \\times 82$ 的值是 ___。",
+        "options": [],
+        "answer": "3500",
+        "explanation": "$35 \\times (18 + 82) = 35 \\times 100 = 3500$。验算：$35 \\times 18 = 630, 35 \\times 82 = 2870, 630 + 2870 = 3500$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法交换律与结合律",
+        "question": "$25 \\times 39 \\times 4 = ?$",
+        "options": [],
+        "answer": "3900",
+        "explanation": "$25 \\times 4 \\times 39 = 100 \\times 39 = 3900$。验算：$3900 \\div 4 = 975, 975 \\div 25 = 39$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "连除的简便性质",
+        "question": "$3600 25 4 = ?$",
+        "options": [],
+        "answer": "36",
+        "explanation": "$3600 25 4) = 3600 100 = 36$。验算：$36 4 = 144, 144 25 = 3600$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级下册第3单元「运算定律」综合评价卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "加法交换律与结合律",
+        "question": "三个数相加，先把前两个数相加，或者先把后两个数相加，和不变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是加法结合律的文字定义。$a+b+c = (a+b)+c = a+(b+c)$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "$45 \\times (100 + 1) = 45 \\times 100 + 1$",
+        "options": [],
+        "answer": "错",
+        "explanation": "分配律应为括号外的数与括号内每一个数分别相乘。应为 $45 \\times 100 + 45 \\times 1$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "连除的简便性质",
+        "question": "$1200 25 4 = 1200 100$",
+        "options": [],
+        "answer": "对",
+        "explanation": "连除性质：$a 25 4) = a 100$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "减法的简便运算性质",
+        "question": "$356 - 102 = 356 - 100 + 2$",
+        "options": [],
+        "answer": "错",
+        "explanation": "$356 - 102$ 相当于减去100再减2。应为 $356 - 100 - 2$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "乘法交换律与结合律",
+        "question": "$125 \\times 16 = 125 \\times 8 \\times 2$",
+        "options": [],
+        "answer": "对",
+        "explanation": "16可以拆解为 $8 \\times 2$，应用结合律先算 $125 \\times 8 = 1000$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法交换律与结合律",
+        "question": "下列算式运用了加法结合律的是：",
+        "options": [
+          "$15 + 28 = 28 + 15$",
+          "$47 + (53 + 19) = (47 + 53) + 19$",
+          "$x + y + z = x + z + y$",
+          "$100 + 2 = 102$"
+        ],
+        "answer": "$47 + (53 + 19) = (47 + 53) + 19$",
+        "explanation": "加法结合律改变了运算顺序（括号的位置），将 47 和 53 结合凑整。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法交换律与结合律",
+        "question": "$25 \\times 32 \\times 125$ 的最简便算法是：",
+        "options": [
+          "$(25 \\times 4) \\times (8 \\times 125)$",
+          "$(25 \\times 32) \\times 125$",
+          "$25 \\times 125 \\times 32$",
+          "按顺序计算"
+        ],
+        "answer": "$(25 \\times 4) \\times (8 \\times 125)$",
+        "explanation": "将 32 拆成 $4 \\times 8$，使 25 找 4，125 找 8，结果是 $100 \\times 1000 = 100000$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "$88 \\times 125$ 的简便计算方法正确的是：",
+        "options": [
+          "$(80 + 8) \\times 125$",
+          "$11 \\times (8 \\times 125)$",
+          "以上两种都对",
+          "以上都不对"
+        ],
+        "answer": "以上两种都对",
+        "explanation": "第一种用分配律，第二种用结合律，均能达到简算目的。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "减法的简便运算性质",
+        "question": "$432 - (132 + 50)$ 等于：",
+        "options": [
+          "250",
+          "350",
+          "200",
+          "300"
+        ],
+        "answer": "250",
+        "explanation": "$432 - (132 + 50) = 432 - 132 - 50 = 300 - 50 = 250$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "连除的简便性质",
+        "question": "算式 $420 7 6$",
+        "options": [
+          "10",
+          "60",
+          "70",
+          "40"
+        ],
+        "answer": "10",
+        "explanation": "$420 6 7 = 420 42 = 10$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "计算 $78 \\times 101$ 应该是：",
+        "options": [
+          "$78 \\times 100 + 1$",
+          "$78 \\times 100 + 78$",
+          "$78 \\times 100 \\times 1$",
+          "$78 \\times 101 - 78$"
+        ],
+        "answer": "$78 \\times 100 + 78$",
+        "explanation": "$78 \\times 101 = 78 \\times (100 + 1) = 78 \\times 100 + 78 \\times 1$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法交换律与结合律",
+        "question": "一辆卡车上午运货 375 箱，下午运货 420 箱，第二天上午运货 125 箱。这三次一共运货多少箱？",
+        "options": [
+          "820",
+          "920",
+          "900",
+          "1020"
+        ],
+        "answer": "920",
+        "explanation": "375 + 420 + 125 = (375 + 125) + 420 = 500 + 420 = 920。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法结合律",
+        "question": "每本笔记本 5 元，每包有 12 本，买 4 包一共要多少元？",
+        "options": [
+          "240",
+          "200",
+          "60",
+          "300"
+        ],
+        "answer": "240",
+        "explanation": "$5 \\times 12 \\times 4 = 12 \\times (5 \\times 4) = 12 \\times 20 = 240$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "与 $125 \\times 88$ 结果相等的算式是：",
+        "options": [
+          "$125 \\times 80 + 8$",
+          "$125 \\times 8 \\times 11$",
+          "$125 \\times 8 + 80$",
+          "$125 \\times 80 \\times 8$"
+        ],
+        "answer": "$125 \\times 8 \\times 11$",
+        "explanation": "88 拆成 $8 \\times 11$，应用乘法结合律 $125 \\times 8 = 1000$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "减法的简便运算性质",
+        "question": "一根绳子长 500 米，第一次用去 164 米，第二次用去 136 米。还剩多少米？",
+        "options": [
+          "200",
+          "300",
+          "190",
+          "210"
+        ],
+        "answer": "200",
+        "explanation": "$500 - (164 + 136) = 500 - 300 = 200$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "$25 \\times 44$ 改写成哪个算式计算最简便？",
+        "options": [
+          "$25 \\times 40 + 4$",
+          "$25 \\times 4 \\times 11$",
+          "$25 \\times 11 + 4$",
+          "$25 \\times 40 \\times 4$"
+        ],
+        "answer": "$25 \\times 4 \\times 11$",
+        "explanation": "$25 \\times 4 = 100$，再乘 11 等于 1100，比分配律更口算化。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法结合律",
+        "question": "水果店运来 25 箱苹果，每箱 2 层，每层 8 个。一共有多少个苹果？",
+        "options": [
+          "400",
+          "200",
+          "500",
+          "800"
+        ],
+        "answer": "400",
+        "explanation": "$25 \\times 2 \\times 8 = 50 \\times 8 = 400$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加法交换律与结合律",
+        "question": "$1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9$ 的和是：",
+        "options": [
+          "40",
+          "45",
+          "50",
+          "55"
+        ],
+        "answer": "45",
+        "explanation": "$(1+9) + (2+8) + (3+7) + (4+6) + 5 = 10 \\times 4 + 5 = 45$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法交换律与结合律",
+        "question": "计算 $368 + 231 + 132$。利用加法交换律可以先算 368 + 132，其和是 ___。",
+        "options": [],
+        "answer": "500",
+        "explanation": "$368 + 132 = 500$。验算：$500 - 132 = 368$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "减法的简便运算性质",
+        "question": "仓库里有 900 袋水泥，第一天运走 248 袋，第二天运走 252 袋。还剩 ___ 袋。",
+        "options": [],
+        "answer": "400",
+        "explanation": "$900 - (248 + 252) = 900 - 500 = 400$。验算：$400 + 252 + 248 = 900$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "计算 $102 \\times 34 - 2 \\times 34$ 的结果是 ___。",
+        "options": [],
+        "answer": "3400",
+        "explanation": "$(102 - 2) \\times 34 = 100 \\times 34 = 3400$。验算：$3468 - 68 = 3400$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法交换律与结合律",
+        "question": "$125 \\times 32 = ?$",
+        "options": [],
+        "answer": "4000",
+        "explanation": "$125 \\times 8 \\times 4 = 1000 \\times 4 = 4000$。验算：$4000 \\div 32 = 125$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法分配律及其逆运算",
+        "question": "$99 \\times 38 + 38 = ?$",
+        "options": [],
+        "answer": "3800",
+        "explanation": "$(99 + 1) \\times 38 = 100 \\times 38 = 3800$。验算：$3800 \\div 38 = 100$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "加法交换律与结合律",
+      "core_concept": "加法交换律指两个数相加，交换加数位置，和不变；结合律指三个数相加，先把前两个数相加，或者先把后两个数相加，和不变。在计算中通过交换和结合，寻找凑成整十、整百、整千的数，可以显著提高运算速度。",
+      "key_formula": "$a + b = b + a$ \r\n $(a + b) + c = a + (b + c)$",
+      "common_mistakes": [
+        "在交换加数位置时，错误地改变了后面的运算符号。",
+        "在使用结合律时，忘记在加括号或去括号时遵循符号变化规则（虽然加法比较简单，但在含有混合运算时易错）。"
+      ],
+      "tips": "做题前先观察数字末尾。例如末尾是1找9，2找8，3找7，5找5，它们能凑成整十数。"
+    },
+    {
+      "point": "减法的简便运算性质",
+      "core_concept": "减法结合性质是指一个数连续减去两个数，可以先把这两个减数加起来，再从被减数中减去它们的和。这种方法尤其适用于两个减数相加可以凑整的情况。反之，一个数减去两个数的和，也可以连续减去这两个数。",
+      "key_formula": "$a - b - c = a - (b + c)$",
+      "common_mistakes": [
+        "去括号时符号出错：$a - (b + c)$ 错写成 $a - b + c$。",
+        "没有观察数字特征，盲目按顺序计算导致计算量大。"
+      ],
+      "tips": "记口诀：括号前面是减号，去掉括号要变号；括号前面是加号，去掉括号不变号。"
+    },
+    {
+      "point": "乘法交换律与结合律",
+      "core_concept": "乘法交换律指两个数相乘，交换因数位置，积不变；结合律指三个数相乘，先把前两个数相乘，或者先把后两个数相乘，积不变。计算中优先结合能凑成 100 或 1000 的组合（如 $25 \times 4$ 或 $125 \times 8$）。",
+      "key_formula": "$a \\times b = b \\times a$ \r\n $(a \\times b) \\times c = a \\times (b \\times c)$",
+      "common_mistakes": [
+        "将拆分因数和分配律混淆。例如 $25 \times 32$ 拆成 $25 \times 4 + 8$（应为 $25 \times 4 \\times 8$）。",
+        "计算 $125 \times 8$ 时数错末尾 0 的个数。"
+      ],
+      "tips": "牢记乘法'好朋友'：$25 \\times 4 = 100$，$125 \\times 8 = 1000$，$5 \\times 2 = 10$。看到 25 找 4，看到 125 找 8。"
+    },
+    {
+      "point": "乘法分配律及其逆运算",
+      "core_concept": "两个数的和与一个数相乘，可以先把它们分别与这个数相乘，再相加。这是运算定律中的难点。逆运算则是提取相同的因数，将剩下的数相加再相乘，即“提取公因数”。",
+      "key_formula": "$(a + b) \\times c = a \\times c + b \\times c$",
+      "common_mistakes": [
+        "分配时漏掉括号里的某一项。如 $(100 + 1) \\times 45$ 错写成 $100 \\times 45 + 1$。",
+        "逆运算时提取公因数后忽略了系数为1的情况。如 $99 \\times 36 + 36$ 忘记写成 $36 \\times (99 + 1)$。"
+      ],
+      "tips": "分配律像发糖果：括号外的数字要发给括号里每一个数字，不能偏心只发第一个。"
+    },
+    {
+      "point": "连除的简便性质",
+      "core_concept": "一个数连续除以两个数，等于这个数除以这两个除数的积。利用此性质可以将复杂的除法转化为容易口算的整十整百数除法。",
+      "key_formula": "$a \\div b \\div c = a \\div (b \\times c)$",
+      "common_mistakes": [
+        "去括号混淆。如 $a \\div (b \\times c)$ 写成 $a \\div b \\times c$。",
+        "数字不适合使用性质时强行使用，如 $100 \\div 3 \\div 4$ 不适合转为 $100 \\div 12$。"
+      ],
+      "tips": "除号后面加括号，括号内‘乘’变‘除’，‘除’变‘乘’。重点还是看能否拼出好算的‘整百数’。"
+    }
+  ]
+}

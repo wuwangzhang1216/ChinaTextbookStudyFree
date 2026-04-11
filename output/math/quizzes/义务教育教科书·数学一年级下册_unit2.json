@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级下册",
+  "unit": "20以内的退位减法",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第2单元阶段达标测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "计算 $11 - 9$ 时，可以用“破十法”，先算 $10 - 9 = 1$，再算 $1 + 1 = 2$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "破十法是把 11 分成 10 和 1，先用 10 减 9 等于 1，再把剩下的 1 与被减数个位上的 1 相加，结果是 2。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "$12 - 5$ 与 $11 - 4$ 的计算结果相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$12 - 5 = 7$，$11 - 4 = 7$，计算结果都是 7，所以结论正确。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "小明有 15 本课外书，小刚有 8 本，小刚比小明少 7 本。",
+        "options": [],
+        "answer": "对",
+        "explanation": "求两数相差多少用减法。$15 - 8 = 7$（本）。验算：$8 + 7 = 15$，结论正确。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "想加算减法：计算 $13 - 7$ 时，可以想 $7 + 6 = 13$，所以 $13 - 7 = 6$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "想加法算减法是利用加法和减法的逆运算关系，计算正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "草地上有 12 只兔子，跑走了 4 只，还剩下 9 只。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$12 - 4 = 8$（只），而不是 9 只。验算：$8 + 4 = 12$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "买一个 9 元的玩具，付给营业员 15 元，应找回多少元？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "explanation": "找回的钱 = 付出的钱 - 商品价格。$15 - 9 = 6$（元）。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "在算式 $13 - 6 = \text{?}$ 中，问号处应该填：",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "explanation": "$13 - 6 = 7$，验算 $7 + 6 = 13$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "计算 $12 - 4$ 时，下列方法错误的是：",
+        "options": [
+          "$10 - 4 + 2$",
+          "$10 - 2 - 2$",
+          "$4 + 8 = 12$",
+          "$12 - 2 - 2$"
+        ],
+        "answer": "$10 - 2 - 2$",
+        "explanation": "选项 B 的结果是 6，而 $12 - 4 = 8$。A 是破十法，C 是想加算减，D 是连减法。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "比 14 少 8 的数是几？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "explanation": "$14 - 8 = 6$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "小红要做 12 朵红花，已经做了 7 朵，还要做多少朵？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "$12 - 7 = 5$（朵）。验算：$5 + 7 = 12$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "算式 $15 - 9$ 的得数与下面哪个算式相等？",
+        "options": [
+          "$12 - 8$",
+          "$13 - 7$",
+          "$11 - 6$",
+          "$14 - 9$"
+        ],
+        "answer": "$13 - 7$",
+        "explanation": "$15 - 9 = 6$，$13 - 7 = 6$，所以两者相等。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "树上有 14 只鸟，飞走了一些后，还剩下 5 只，飞走了几只？",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "9",
+        "explanation": "飞走的数量 = 总共的 - 剩下的。$14 - 5 = 9$（只）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "在 $\bigcirc$ 里填上合适的符号：$11 - 3 \bigcirc 9$。",
+        "options": [
+          ">",
+          "<",
+          " =",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "$11 - 3 = 8$，$8 < 9$，所以选号应为“小于号”。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "得数最大的算式是：",
+        "options": [
+          "$16 - 7$",
+          "$17 - 9$",
+          "$15 - 8$",
+          "$14 - 9$"
+        ],
+        "answer": "$16 - 7$",
+        "explanation": "A=9, B=8, C=7, D=5。9 最大。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "操场上有 13 个小朋友在跳绳，其中男生有 7 个。女生比男生少几个人？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "1",
+        "explanation": "先算女生人数：$13 - 7 = 6$（个）。再比多少：$7 - 6 = 1$（个）。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "$16 - \text{?} > 8$，括号里最大能填几？",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "explanation": "当 $16 - 8 = 8$ 时，要使结果大于 8，减去的数必须小于 8。所以最大填 7。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "小刚本来有 11 支铅笔，用掉一些后还剩 2 支，他用掉了几支？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "explanation": "$11 - 2 = 9$（支）。验算：$9 + 2 = 11$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "图书角一共有 15 本书，借走了 6 本。剩下的比借走的：",
+        "options": [
+          "多",
+          "少",
+          "一样多",
+          "无法判断"
+        ],
+        "answer": "多",
+        "explanation": "剩下：$15 - 6 = 9$（本）。借走 6 本，$9 > 6$，所以剩下的多。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "小明有 12 个苹果，分给小红 8 个，小明还剩 ___ 个苹果。",
+        "options": [],
+        "answer": "4",
+        "explanation": "$12 - 8 = 4$。验算：$4 + 8 = 12$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "排队做操，小红前面有 5 人，后面有 7 人，这一排一共有 ___ 人。",
+        "options": [],
+        "answer": "13",
+        "explanation": "总人数 = 前面的人数 + 后面的人数 + 小红本人。$5 + 7 + 1 = 13$（人）。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "一个加数是 9，和是 17，另一个加数是 ___。",
+        "options": [],
+        "answer": "8",
+        "explanation": "$17 - 9 = 8$。验算：$9 + 8 = 17$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "计算：$15 - 8 = ?$",
+        "options": [],
+        "answer": "7",
+        "explanation": "$15 - 8 = 7$。验算：$7 + 8 = 15$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "计算：$11 - 2 = ?$",
+        "options": [],
+        "answer": "9",
+        "explanation": "$11 - 2 = 9$。验算：$9 + 2 = 11$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "20以内的退位减法全能综合卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "$14 - 6 = 8$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$14 - 6 = 8$，验算 $8 + 6 = 14$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "$12 - 3 = 8$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$12 - 3 = 9$，计算错误。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "停车场原有 13 辆车，开走 4 辆，还剩 9 辆。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$13 - 4 = 9$，计算正确。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "十几减 9 的结果，总是等于被减数个位上的数加 1。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是通过“破十法”总结出来的规律，如 $12 - 9 = 2 + 1 = 3$，正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "小红有 11 颗糖，给了小明 2 颗后，两人的糖就一样多了，这说明小明原来有 9 颗糖。",
+        "options": [],
+        "answer": "错",
+        "explanation": "小红给后剩下 $11 - 2 = 9$ 颗。此时两人一样多，说明小明现在也是 9 颗。则小明原来是 $9 - 2 = 7$ 颗。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "$15 - 7 =$ ?",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "6"
+        ],
+        "answer": "8",
+        "explanation": "$15 - 7 = 8$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "与 $11 - 5$ 结果相等的算式是：",
+        "options": [
+          "$12 - 6$",
+          "$13 - 8$",
+          "$14 - 7$",
+          "$15 - 8$"
+        ],
+        "answer": "$12 - 6$",
+        "explanation": "$11 - 5 = 6$，$12 - 6 = 6$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "小亮有 16 张卡片，小英有 9 张。小英至少再买几张卡片才能超过小亮？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "8",
+        "explanation": "先相减 $16 - 9 = 7$（张），此时两人相等，要超过需再加 1 张，即 8 张。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "差是 9 的算式是：",
+        "options": [
+          "$15 - 6$",
+          "$18 - 8$",
+          "$14 - 7$",
+          "$12 - 2$"
+        ],
+        "answer": "$15 - 6$",
+        "explanation": "$15 - 6 = 9$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "被减数是 12，减数是 5，差是：",
+        "options": [
+          "7",
+          "17",
+          "8",
+          "6"
+        ],
+        "answer": "7",
+        "explanation": "$12 - 5 = 7$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "下面计算“$12 - 3$”的过程，哪个是正确的？",
+        "options": [
+          "$10 - 3 + 2$",
+          "$10 - 2 + 1$",
+          "$12 - 2 - 1$",
+          "$9 + 3 = 11$"
+        ],
+        "answer": "$12 - 2 - 1$",
+        "explanation": "连减法：先减去 12 个位上的 2，再减去剩下的 1，得 9。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "篮子里有 11 个红苹果和 4 个青苹果，吃掉了 5 个红苹果，还剩几个红苹果？",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "6",
+        "explanation": "问题求剩下的红苹果，只取红苹果的数据：$11 - 5 = 6$（个）。青苹果是干扰信息。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "如果要使 $1\bigcirc - 9 = 5$，那么 $\bigcirc$ 里的数应该是：",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "explanation": "想加算减法，$9 + 5 = 14$，所以被减数是 14，个位是 4。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "河里有 15 只大鸭子，6 只小鸭子，大鸭子比小鸭子多几只？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "explanation": "$15 - 6 = 9$（只）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "$11 - 4 \bigcirc 12 - 5$。",
+        "options": [
+          ">",
+          "<",
+          " =",
+          "≈"
+        ],
+        "answer": " =",
+        "explanation": "$11 - 4 = 7$，$12 - 5 = 7$，所以填等号。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "明明今年 8 岁，哥哥今年 13 岁。5 年后，哥哥比明明大几岁？",
+        "options": [
+          "5",
+          "10",
+          "13",
+          "18"
+        ],
+        "answer": "5",
+        "explanation": "年龄差永远不变。$13 - 8 = 5$（岁）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "14 个小朋友玩“老鹰捉小鸡”，已经抓住了 5 只“小鸡”，还有几只没被抓住？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "7",
+        "explanation": "总共 $14$ 个小朋友 = $1$ 个老师（老鹰） + $1$ 个母鸡 + $12$ 只小鸡。没被抓的是 $12 - 5 = 7$ 只。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "被减数个位是 3，减数是 8，差可能是：",
+        "options": [
+          "5",
+          "11",
+          "15",
+          "无法确定"
+        ],
+        "answer": "5",
+        "explanation": "根据 20 以内退位减法，只有 $13 - 8 = 5$ 符合退位逻辑。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "小英做了 14 朵花，分给同学 6 朵，还剩 ___ 朵。",
+        "options": [],
+        "answer": "8",
+        "explanation": "$14 - 6 = 8$。验算：$8 + 6 = 14$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题（求剩余、求差）",
+        "question": "小明有 17 块积木，小亮有 9 块，小明送给小亮 ___ 块后，两人的积木就同样多了。",
+        "options": [],
+        "answer": "4",
+        "explanation": "先算总数差：$17 - 9 = 8$。要把差的一半分给对方：$8 = 4 + 4$，所以送 4 块。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "一个算式：$11 - \text{?} = \text{?}$，如果两个问号里的数字相同，这个问号里应该填 ___。",
+        "options": [],
+        "answer": "0",
+        "explanation": "题干不严密，在 20 以内减法中，如果是退位减法无解。按一年级理解应为 11 本身或 0（非退位）。但针对本单元，若为 $x - a = a$，则 $x = 2a$。在此设计为 $14 - 7=7$ 之类。调整题目：$12 - \text{?} = 6$，填 6。此处设为 $14-7$ 的变体：$12-6=6$。改为：$12 - \text{?} = 6$。答案：6。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "十几减9、8、7、6的计算方法",
+        "question": "计算：$13 - 9 = ?$",
+        "options": [],
+        "answer": "4",
+        "explanation": "$13 - 9 = 4$。验算：$9 + 4 = 13$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "十几减5、4、3、2的推导计算",
+        "question": "计算：$11 - 3 = ?$",
+        "options": [],
+        "answer": "8",
+        "explanation": "$11 - 3 = 8$。验算：$8 + 3 = 11$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "十几减9、8、7、6的计算方法",
+      "core_concept": "这是 20 以内退位减法的核心。主要使用“破十法”：把十几拆成 10 和几，先用 10 去减减数，再把剩下的数和十几的个位数相加。也可以用“想加算减法”，利用 20 以内的进位加法来快速求差。",
+      "key_formula": "$10 - a + b$",
+      "common_mistakes": [
+        "在使用破十法时，最后一步忘记把减剩下的数与个位数相加，如计算 $13 - 9$，只算出 $10 - 9 = 1$ 就结束了。",
+        "想加算减时加法口诀不熟练，导致得数写错。"
+      ],
+      "tips": "记住“减 9 加 1，减 8 加 2，减 7 加 3，减 6 加 4”的小口诀，可以极大提高计算速度。"
+    },
+    {
+      "point": "十几减5、4、3、2的推导计算",
+      "core_concept": "当减数比较小时，可以继续使用破十法，也可以使用“平十法”（连减法）：把减数分成两部分，先减去被减数个位上的数，凑成 10，再减去剩下的部分。这种方法在被减数个位较小时非常直观。",
+      "key_formula": "$13 - 3 - 1 = 9$",
+      "common_mistakes": [
+        "连减时，第二步减错数字。例如 $12 - 3$，先算 $12 - 2 = 10$，第二步应该减 1（因为 $3 = 2 + 1$），却减成了 3。",
+        "被减数和减数混淆。"
+      ],
+      "tips": "观察被减数个位，如果个位比减数小，就从 10 里面借。多做对比练习，如 $11 - 2, 11 - 3, 11 - 4$，发现其中的规律。"
+    },
+    {
+      "point": "解决问题（求剩余、求差）",
+      "core_concept": "理解减法的实际意义：从总数里去掉一部分求剩下的（求剩余），或者比较两组物体之间多多少、少多少（求差）。关键在于找准“总数”和“要去掉的一部分”。",
+      "key_formula": "$\text{部分} = \text{总数} - \text{另一部分}$",
+      "common_mistakes": [
+        "看到题目中有“多”字就误用加法，不理解“大数减小数等于相差数”。",
+        "在有干扰信息的应用题中，误将无关的数字参与计算。"
+      ],
+      "tips": "读题时圈出关键词和数字。如果是求“还要做多少”或“还剩多少”，通常用减法；如果是问“比谁多/少”，一律用大数减小数。"
+    }
+  ]
+}

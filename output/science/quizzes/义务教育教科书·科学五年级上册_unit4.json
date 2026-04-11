@@ -1,0 +1,697 @@
+{
+  "textbook": "教科版小学科学五年级上册",
+  "unit": "健康生活",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元「健康生活」单元诊断卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "脑是大脑、小脑和脑干的总称。",
+        "options": [],
+        "answer": "对",
+        "explanation": "人脑包括大脑、小脑和脑干三部分。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "运动系统的协作机制",
+        "question": "骨骼可以独立完成运动，不需要肌肉参与。",
+        "options": [],
+        "answer": "错",
+        "explanation": "人体的运动需要骨、关节和肌肉的协同配合。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "经常锻炼身体可以增强心脏的功能。",
+        "options": [],
+        "answer": "对",
+        "explanation": "强健的心脏每次搏动泵出的血液更多，有利于身体健康。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "长期的精神压力不仅会影响情绪，还会伤害身体健康。",
+        "options": [],
+        "answer": "对",
+        "explanation": "压力管理是维护神经系统和心理健康的重要环节。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "体质监测与BMI计算",
+        "question": "BMI指数只与体重有关，与身高无关。",
+        "options": [],
+        "answer": "错",
+        "explanation": "BMI的计算公式是重量(kg)除以身高(m)的平方。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "运动系统的协作机制",
+        "question": "在手臂伸直的过程中，上臂肌肉的状态是？",
+        "options": [
+          "肌肉收缩",
+          "肌肉舒张",
+          "肌肉消失",
+          "没有变化"
+        ],
+        "answer": "肌肉舒张",
+        "explanation": "伸肘时，肱二头肌处于舒张状态。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "人体负责搬运氧气和养料的器官是？",
+        "options": [
+          "脑",
+          "心脏",
+          "肺",
+          "骨骼"
+        ],
+        "answer": "心脏",
+        "explanation": "心脏泵出的血液在全身流动，负责物质的输送。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "当手碰到火迅速缩回，这个信号传递的关键路径是？",
+        "options": [
+          "感受器→传入神经→神经中枢→传出神经→效应器",
+          "感受器→传出神经→神经中枢→传入神经→效应器",
+          "效应器→传入神经→神经中枢→传出神经→感受器",
+          "感受器→大脑→效应器"
+        ],
+        "answer": "感受器→传入神经→神经中枢→传出神经→效应器",
+        "explanation": "反射弧的路径是刺激经感受器传入，中枢处理后再传出指令。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "为了保护脑的健康，下列做法错误的是？",
+        "options": [
+          "保证充足的睡眠",
+          "骑行时佩戴头盔",
+          "长时间连续学习不休息",
+          "保持心情愉快"
+        ],
+        "answer": "长时间连续学习不休息",
+        "explanation": "脑需要适当的休息和劳逸结合来维持正常功能。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "心脏跳动次数与脉搏次数的关系是？",
+        "options": [
+          "它们通常是一致的",
+          "脉搏次数更多",
+          "心脏跳动次数更多",
+          "两者没有关系"
+        ],
+        "answer": "它们通常是一致的",
+        "explanation": "每一轮心脏收缩引起的大血管搏动即为脉搏。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "运动系统的协作机制",
+        "question": "支撑我们身体，保护内脏器官的构造是？",
+        "options": [
+          "皮肤",
+          "骨骼",
+          "血管",
+          "神经"
+        ],
+        "answer": "骨骼",
+        "explanation": "骨骼具有支撑、保护和运动的作用。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "体质监测与BMI计算",
+        "question": "某同学身高1.5米，体重45千克，他的BMI数值大约是？",
+        "options": [
+          "15",
+          "20",
+          "25",
+          "30"
+        ],
+        "answer": "20",
+        "explanation": "45除以(1.5x1.5)=45/2.25=20。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "管理人的情绪和智力活动的器官主要位于？",
+        "options": [
+          "小脑",
+          "脊髓",
+          "大脑",
+          "脑干"
+        ],
+        "answer": "大脑",
+        "explanation": "大脑是高级神经活动的枢纽，负责思维、情绪等。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "体质监测与BMI计算",
+        "question": "评价身体体质健康状况时，除了身高体重，还要看？",
+        "options": [
+          "肺活量",
+          "握力",
+          "50米跑成绩",
+          "以上都是"
+        ],
+        "answer": "以上都是",
+        "explanation": "体质健康监测是综合性的评价。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "联结脑、脊髓和身体各部分的结构是？",
+        "options": [
+          "血液",
+          "神经",
+          "骨骼",
+          "肌肉"
+        ],
+        "answer": "神经",
+        "explanation": "神经遍布全身，传递信息。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "关于心率，下列说法正确的是？",
+        "options": [
+          "所有人安静时的心率都一样",
+          "运动后心率会减慢",
+          "运动时心率会加快",
+          "睡觉时心率最快"
+        ],
+        "answer": "运动时心率会加快",
+        "explanation": "运动需要更多氧气，心脏会加速跳动以提高供血量。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "运动系统的协作机制",
+        "question": "骨与骨之间能活动的连接称为？",
+        "options": [
+          "肌肉",
+          "关节",
+          "韧带",
+          "皮肤"
+        ],
+        "answer": "关节",
+        "explanation": "关节是运动的支点。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神经网络信息传递",
+        "question": "当我们看到红灯停下脚步，这一信号是由哪个器官处理的？",
+        "options": [
+          "眼睛",
+          "脊髓",
+          "脑",
+          "肌肉"
+        ],
+        "answer": "脑",
+        "explanation": "视觉信号传输到大脑，由大脑发出停止指令。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "若心脏每分钟跳动75次，每搏输出量为80毫升，则该人每分钟输出量为（___）毫升。",
+        "options": [],
+        "answer": "6000",
+        "explanation": "75乘以80等于6000。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "成年人的脑重量大约为（___）克左右。",
+        "options": [],
+        "answer": "1400",
+        "explanation": "成年人的脑质量平均约为1.4千克即1400克。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "运动系统的协作机制",
+        "question": "骨骼、关节和（___）组成了人体的运动系统。",
+        "options": [],
+        "answer": "肌肉",
+        "explanation": "运动系统三大组成部分：骨、关节、肌肉。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "人体内唯一一个像“泵”一样工作的器官是（___）。",
+        "options": [],
+        "answer": "心脏",
+        "explanation": "心脏通过收缩和舒张推动血液循环。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "（___）被称为人体的“司令部”。",
+        "options": [],
+        "answer": "脑",
+        "explanation": "脑控制着人体的各项生理活动。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级科学上册第四单元期末模拟测试",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "运动系统的协作机制",
+        "question": "经常参加体育锻炼可以使关节更灵活。",
+        "options": [],
+        "answer": "对",
+        "explanation": "科学锻炼能增强关节韧性和灵活性。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "只要不摔到头，晚睡对大脑没有损伤。",
+        "options": [],
+        "answer": "错",
+        "explanation": "睡眠不足会严重损伤脑细胞和认知功能。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "体质监测与BMI计算",
+        "question": "良好的生活习惯包括饮食均衡和规律作息。",
+        "options": [],
+        "answer": "对",
+        "explanation": "生活方式是决定健康的核心因素。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "心脏停跳一两分钟，人也不会有生命危险。",
+        "options": [],
+        "answer": "错",
+        "explanation": "心脏停跳会立即导致全身缺氧，危及生命。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "小脑的主要功能是维持身体平衡。",
+        "options": [],
+        "answer": "对",
+        "explanation": "小脑负责动作协调和平衡。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "体质监测与BMI计算",
+        "question": "国家体质健康标准中，五年级学生必须测量的项目是？",
+        "options": [
+          "视力",
+          "肺活量",
+          "身高",
+          "体重"
+        ],
+        "answer": "肺活量",
+        "explanation": "肺活量是衡量心肺功能的关键指标。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "运动系统的协作机制",
+        "question": "当我们的右臂向上曲肘举起重物时？",
+        "options": [
+          "肱二头肌收缩，肱三头肌舒张",
+          "肱二头肌舒张，肱三头肌收缩",
+          "两组肌肉都收缩",
+          "两组肌肉都舒张"
+        ],
+        "answer": "肱二头肌收缩，肱三头肌舒张",
+        "explanation": "屈肘动作由肱二头肌收缩带动。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "关于心脏的跳动，下列计算合理的是？",
+        "options": [
+          "心脏一天大约跳动10万次",
+          "心脏一小时跳动10次",
+          "心脏每秒钟跳动100次",
+          "心脏一生只跳动100万次"
+        ],
+        "answer": "心脏一天大约跳动10万次",
+        "explanation": "若按每分钟70次算，一天约100800次。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "由脊髓发出的神经分布在身体的？",
+        "options": [
+          "头部",
+          "五官",
+          "躯干和四肢",
+          "只有大脑"
+        ],
+        "answer": "躯干和四肢",
+        "explanation": "脊神经主要负责躯干和四肢的感官与运动传递。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "下列属于低效的学习方式的是？",
+        "options": [
+          "制定合理的作息表",
+          "一边吃饭一边看书",
+          "每学习一小时休息一会儿",
+          "每天保证10小时睡眠"
+        ],
+        "answer": "一边吃饭一边看书",
+        "explanation": "分心会降低脑处理信息的效率。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "人在安静状态下，心跳次数每分钟大约是？",
+        "options": [
+          "20-30次",
+          "60-100次",
+          "120-150次",
+          "200次以上"
+        ],
+        "answer": "60-100次",
+        "explanation": "正常成年人安静时心率范围。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "体质监测与BMI计算",
+        "question": "如果我们通过测试发现自己的BMI指数过高，应该？",
+        "options": [
+          "完全不吃不喝",
+          "只吃肉不吃菜",
+          "加强体育锻炼，控制零食",
+          "从此不再运动"
+        ],
+        "answer": "加强体育锻炼，控制零食",
+        "explanation": "过高意味着肥胖风险，需通过锻炼和饮食调整。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "下列哪种行为属于神经系统调节下的条件反射？",
+        "options": [
+          "手碰到刺立刻缩回",
+          "看到柠檬流口水",
+          "天热出汗",
+          "眨眼反射"
+        ],
+        "answer": "看到柠檬流口水",
+        "explanation": "看到柠檬属于基于经验的条件反射。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "运动系统的协作机制",
+        "question": "我们能够做各种精细动作，这主要依靠？",
+        "options": [
+          "骨头的硬度",
+          "肌肉的拉动",
+          "关节的灵活和多样性",
+          "皮肤的保护"
+        ],
+        "answer": "关节的灵活和多样性",
+        "explanation": "关节提供了运动的多样性方向和角度。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "健康生活习惯",
+        "question": "长期使用电子产品最直接伤害的感官是？",
+        "options": [
+          "听觉",
+          "视觉",
+          "嗅觉",
+          "味觉"
+        ],
+        "answer": "视觉",
+        "explanation": "长时间盯着屏幕会导致视疲劳和近视。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "心脏每次跳动时，血液在血管里的流动状态是？",
+        "options": [
+          "停止不动",
+          "倒流",
+          "向前流动",
+          "左右乱跳"
+        ],
+        "answer": "向前流动",
+        "explanation": "瓣膜防止血液倒流，确保单向流动。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "下列被称为“反应时”的是？",
+        "options": [
+          "睡觉的时间",
+          "从受到刺激到做出反应的时间",
+          "心脏跳动一次的时间",
+          "跑步的时间"
+        ],
+        "answer": "从受到刺激到做出反应的时间",
+        "explanation": "反应时是神经系统处理信息的效率体现。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "脑的保护",
+        "question": "当感到愤怒或伤心时，不建议选取的做法是？",
+        "options": [
+          "找朋友倾诉",
+          "去跑步运动",
+          "把自己关在屋里生闷气",
+          "听舒缓的音乐"
+        ],
+        "answer": "把自己关在屋里生闷气",
+        "explanation": "闷气不利于情绪管理，应采取积极排解方式。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "体质监测与BMI计算",
+        "question": "某小学生身高140厘米，体重39.2千克，BMI值为（___）。",
+        "options": [],
+        "answer": "20",
+        "explanation": "39.2 / (1.4 * 1.4) = 39.2 / 1.96 = 20。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "如果一个人一小时心脏跳动4200次，那么他平均每分钟心跳（___）次。",
+        "options": [],
+        "answer": "70",
+        "explanation": "4200除以60分钟等于70。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "血液循环系统的功能与计算",
+        "question": "负责把血液从心脏输送到全身各处的血管叫（___）。",
+        "options": [],
+        "answer": "动脉",
+        "explanation": "动脉是离心血的管道。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "我们身体的控制中心位于（___）部内。",
+        "options": [],
+        "answer": "头",
+        "explanation": "脑位于头部保护壳（颅骨）内。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "神经系统的信息传递与脑的保护",
+        "question": "人的反射和发令是通过（___）系统完成的。",
+        "options": [],
+        "answer": "神经",
+        "explanation": "神经系统负责信息的传递、处理和控制。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "体质与BMI",
+      "core_concept": "BMI是衡量人体肥胖程度及健康状态的重要指标。",
+      "key_formula": "BMI = 体重(kg) / [身高(m) × 身高(m)]",
+      "common_mistakes": [
+        "身高单位错误使用厘米计算",
+        "忽略BMI等级划分标准"
+      ],
+      "tips": "计算时先将厘米换算成米再平方。"
+    },
+    {
+      "point": "运动系统工作原理",
+      "core_concept": "骨由肌肉牵引绕关节转动产生动作。",
+      "key_formula": "肌肉收缩 → 牵引骨 → 关节转动",
+      "common_mistakes": [
+        "认为骨骼本身能动",
+        "分不清伸肘和屈肘时肌肉的舒缩状态"
+      ],
+      "tips": "肌肉只能拉动骨而不能推开骨，通常成对工作。"
+    },
+    {
+      "point": "心脏与血液循环",
+      "core_concept": "心脏是动力器官，通过节律性收缩维持血液循环。",
+      "key_formula": "心率 = 脉搏频率",
+      "common_mistakes": [
+        "误以为心跳越快越健康",
+        "混淆动脉和静脉的血流方向"
+      ],
+      "tips": "经常运动的人，安静平均心率通常比不运动的人慢且有力。"
+    },
+    {
+      "point": "神经系统与压力管理",
+      "core_concept": "脑是总司令部，脊髓是低级中枢，神经是传输线。",
+      "key_formula": "刺激 → 传入神经 → 脑/脊髓 → 传出神经 → 反应",
+      "common_mistakes": [
+        "认为缩手反射必须经过大脑意识",
+        "忽视睡眠对脑功能的修复作用"
+      ],
+      "tips": "保持乐观、充足睡眠和有效的体育锻炼是保护大脑的三大法宝。"
+    }
+  ]
+}

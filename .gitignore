@@ -29,8 +29,13 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 
-# ---- Pipeline outputs (教材PDF/生成数据体积较大，单独分发) ----
-output/
+# ---- Pipeline outputs ----
+# 只保留前端实际使用的 outlines/ 和 quizzes/
+# pdfs/ 有版权风险；markdown/ 和 knowledge/ 前端不读且体积大
+output/*/pdfs/
+output/*/markdown/
+output/*/knowledge/
+output/_quizzes_backup/
 *.log
 
 # ---- OS / Editor ----

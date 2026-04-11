@@ -1,0 +1,697 @@
+{
+  "textbook": "人教版小学数学六年级上册",
+  "unit": "分数除法",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "分数除法单元标准达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "倒数的认识",
+        "question": "因为 $0.25 \\times 4 = 1$，所以 0.25 和 4 互为倒数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "乘积为 1 的两个数互为倒数。因为 $0.25 \\times 4 = 1$，符合定义。验算：$1/4 \\times 4 = 1$ ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "倒数的认识",
+        "question": "1 的倒数是 1，0 的倒数是 0。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$1 \\times 1 = 1$，所以 1 的倒数是 1；但 0 不能作除数，且找不到任何数与之相乘得 1，所以 0 没有倒数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "一个非零数除以 $\\frac{1}{2}$，相当于把这个数扩大到原来的 2 倍。",
+        "options": [],
+        "answer": "对",
+        "explanation": "除以一个不为零的数等于乘这个数的倒数。$\\div \\frac{1}{2}$ 等于 $\\times 2$，即扩大到 2 倍。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "甲数比乙数多 $\\frac{1}{5}$，则乙数比甲数少 $\\frac{1}{5}$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "设乙数为 5，甲数即为 6。乙比甲少 $(6-5) \\div 6 = \\frac{1}{6}$，而不是 $\\frac{1}{5}$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "工程问题（单位1的假设法）",
+        "question": "一项工程，甲单独做 10 天完成，乙单独做 8 天完成。甲的工作效率比乙快。",
+        "options": [],
+        "answer": "错",
+        "explanation": "工作总量相同时，时间越短效率越高。甲效为 $1/10$，乙效为 $1/8$，$1/10 < 1/8$，故乙快。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "倒数的认识",
+        "question": "下面各组数中，互为倒数的是：",
+        "options": [
+          "$\\frac{2}{3}$ 和 $\\frac{2}{3}$",
+          "0.5 和 2",
+          "1 和 0",
+          "$\\frac{4}{5}$ 和 $\\frac{5}{4}$"
+        ],
+        "answer": "$\\frac{4}{5}$ 和 $\\frac{5}{4}$",
+        "explanation": "$\\frac{4}{5} \\times \\frac{5}{4} = 1$，符合倒数定义。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "计算 $a \\div \\frac{3}{4}$ ($a \\neq 0$)，正确的是：",
+        "options": [
+          "$a \\times \\frac{3}{4}$",
+          "$a \\times \\frac{4}{3}$",
+          "$\\frac{3}{4} \\div a$",
+          "$a + \\frac{4}{3}$"
+        ],
+        "answer": "$a \\times \\frac{4}{3}$",
+        "explanation": "除以一个不为零的数等于乘这个数的倒数。$\\frac{3}{4}$ 的倒数是 $\\frac{4}{3}$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "若 $a \\div \\frac{4}{5} = b \\div \\frac{5}{4}$ ($a, b$ 均不为 0)，则 $a$ 与 $b$ 的关系是：",
+        "options": [
+          "$a > b$",
+          "$a < b$",
+          "$a = b$",
+          "无法确定"
+        ],
+        "answer": "$a < b$",
+        "explanation": "原式可写为 $a \\times \\frac{5}{4} = b \\times \\frac{4}{5}$。因为 $\\frac{5}{4} > \\frac{4}{5}$，根据“乘大数者小”原则，$a < b$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "一袋面粉吃了 15 千克，正好是这袋面粉的 $\\frac{3}{4}$，这袋面粉重多少千克？",
+        "options": [
+          "20",
+          "12",
+          "11",
+          "25"
+        ],
+        "answer": "20",
+        "explanation": "$15 \\div \\frac{3}{4} = 15 \\times \\frac{4}{3} = 20$（千克）。验算：$20 \\times \\frac{3}{4} = 15$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "一件衣服降价 $\\frac{1}{10}$ 后是 90 元，原价是多少元？",
+        "options": [
+          "81",
+          "100",
+          "99",
+          "110"
+        ],
+        "answer": "100",
+        "explanation": "原价看作“1”，现价是 $1 - \\frac{1}{10} = \\frac{9}{10}$。$90 \\div \\frac{9}{10} = 100$（元）。验算：$100 \\times (1 - 0.1) = 90$ ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "倒数的认识",
+        "question": "一个分数的倒数大于 1，则这个分数是：",
+        "options": [
+          "真分数",
+          "假分数",
+          "带分数",
+          "整数"
+        ],
+        "answer": "真分数",
+        "explanation": "真分数小于 1，其倒数大于 1。例如 $\\frac{1}{2}$ 的倒数是 2。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程问题（单位1的假设法）",
+        "question": "一项工程，甲队单独做要 6 天，乙队单独做要 12 天。两队合做几天可以完成？",
+        "options": [
+          "9",
+          "18",
+          "4",
+          "3"
+        ],
+        "answer": "4",
+        "explanation": "$1 \\div (\\frac{1}{6} + \\frac{1}{12}) = 1 \\div \\frac{3}{12} = 4$（天）。验算：$(\\frac{1}{6} + \\frac{1}{12}) \\times 4 = 1$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "小明有 40 张邮票，比小红多 $\\frac{1}{4}$，小红有几张？",
+        "options": [
+          "30",
+          "32",
+          "50",
+          "48"
+        ],
+        "answer": "32",
+        "explanation": "设小红为 $x$。$(1 + \\frac{1}{4})x = 40 \\Rightarrow \\frac{5}{4}x = 40 \\Rightarrow x = 32$。验算：$32 \\times (1 + \\frac{1}{4}) = 32 + 8 = 40$ ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "下列算式中，商大于被除数的是：",
+        "options": [
+          "$12 \\div \\frac{4}{3}$",
+          "$12 \\div \\frac{5}{6}$",
+          "$12 \\div 1$",
+          "$12 \\div \\frac{12}{11}$"
+        ],
+        "answer": "$12 \\div \\frac{5}{6}$",
+        "explanation": "除以一个小于 1 的数（0 除外），商比被除数大。$\\frac{5}{6} < 1$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "一根绳子剪去 $\\frac{1}{3}$ 后还剩 12 米，这根绳子原来长多少米？",
+        "options": [
+          "18",
+          "8",
+          "36",
+          "4"
+        ],
+        "answer": "18",
+        "explanation": "$12 \\div (1 - \\frac{1}{3}) = 12 \\div \\frac{2}{3} = 18$（米）。验算：$18 - 18 \\times \\frac{1}{3} = 18 - 6 = 12$ ✓。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "倒数的认识",
+        "question": "最小的质数的倒数是多少？",
+        "options": [
+          "1",
+          "0.5",
+          "2",
+          "0.2"
+        ],
+        "answer": "0.5",
+        "explanation": "最小的质数是 2，其倒数是 $1/2 = 0.5$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "把 $\\frac{4}{5}$ 平均分成 4 份，每份是多少？",
+        "options": [
+          "$\\frac{16}{5}$",
+          "$\\frac{1}{5}$",
+          "4",
+          "5"
+        ],
+        "answer": "$\\frac{1}{5}$",
+        "explanation": "$\\frac{4}{5} \\div 4 = \\frac{4}{5} \\times \\frac{1}{4} = \\frac{1}{5}$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "工程问题（单位1的假设法）",
+        "question": "甲做 3 小时完成工作的一半，乙做 3 小时完成剩下的，两人合做几小时完工？",
+        "options": [
+          "3",
+          "1.5",
+          "6",
+          "9"
+        ],
+        "answer": "3",
+        "explanation": "甲效 $1/2 \\div 3 = 1/6$，乙效也是 $1/6$。合做：$1 \\div (1/6 + 1/6) = 1 \\div 1/3 = 3$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "小明有 12 本故事书，是科技书数量的 $\\frac{2}{3}$，科技书有 ___ 本。",
+        "options": [],
+        "answer": "18",
+        "explanation": "$12 \\div \\frac{2}{3} = 12 \\times \\frac{3}{2} = 18$。验算：$18 \\times \\frac{2}{3} = 12$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "倒数的认识",
+        "question": "一个数与它的倒数之积加上 9，结果是 ___ 。",
+        "options": [],
+        "answer": "10",
+        "explanation": "任何非零数与其倒数积为 1，$1 + 9 = 10$。验算：$1 \\times 1 + 9 = 10$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "水结成冰体积增加 $\\frac{1}{10}$，现在有 11 立方分米的冰，化成水后的体积是 ___ 立方分米。",
+        "options": [],
+        "answer": "10",
+        "explanation": "$11 \\div (1 + \\frac{1}{10}) = 11 \\div \\frac{11}{10} = 10$。验算：$10 + 10 \\times 0.1 = 11$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "计算：$12 \\div \\frac{3}{4} = ?$",
+        "options": [],
+        "answer": "16",
+        "explanation": "$12 \\div \\frac{3}{4} = 12 \\times \\frac{4}{3} = 16$。验算：$16 \\times \\frac{3}{4} = 12$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "计算：$20 \\div \\frac{4}{5} = ?$",
+        "options": [],
+        "answer": "25",
+        "explanation": "$20 \\div \\frac{4}{5} = 20 \\times \\frac{5}{4} = 25$。验算：$25 \\times \\frac{4}{5} = 20$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级上册分数除法综合能力测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "倒数的认识",
+        "question": "所有的自然数都有倒数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "自然数 0 没有倒数，因为它不能作除数。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "除以一个数等于乘这个数的倒数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "必须是不为零的数，因为 0 没有倒数且不能作除数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "一根电线用去 $\\frac{2}{3}$ 后还剩 $\\frac{1}{3}$ 米，说明这根电线原长 1 米。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$1/3 \\div (1 - 2/3) = 1/3 \\div 1/3 = 1$（米）。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "工程问题（单位1的假设法）",
+        "question": "甲车行完全程要 4 小时，乙车要 5 小时。甲的速度比乙快 $\\frac{1}{4}$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "甲速 $1/4$，乙速 $1/5$。$(1/4 - 1/5) \\div 1/5 = 1/20 \\div 1/5 = 1/4$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "两个真分数相除，商一定大于被除数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "真分数小于 1，除以一个小于 1 的非零数，商必然大于被除数。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "倒数的认识",
+        "question": "$\\\\frac{5}{9} \\times ( ) = 1$",
+        "options": [
+          "$\\frac{5}{9}$",
+          "$\\frac{9}{5}$",
+          "1",
+          "0"
+        ],
+        "answer": "$\\frac{9}{5}$",
+        "explanation": "乘积为 1 的两个数互为倒数。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "$a$ 是一个非零自然数，在下面算式中，结果最大的是：",
+        "options": [
+          "$a \\times \\frac{2}{3}$",
+          "$a \\div \\frac{2}{3}$",
+          "$a \\div \\frac{3}{2}$",
+          "$a \\times \\frac{1}{3}$"
+        ],
+        "answer": "$a \\div \\frac{2}{3}$",
+        "explanation": "$a \\div \\frac{2}{3} = a \\times \\frac{3}{2} = 1.5a$。其他选项分别为 $0.66a, 0.66a, 0.33a$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "如果 $\\frac{4}{7} \\div a = \\frac{4}{7} \\times a$，那么 $a$ 是：",
+        "options": [
+          "0",
+          "1",
+          "$\\frac{4}{7}$",
+          "任意数"
+        ],
+        "answer": "1",
+        "explanation": "只有除以 1 等于乘以 1。或者算式变形为 $1/a = a \\Rightarrow a^2 = 1 \\Rightarrow a = 1$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "水果店运来一批水果，其中苹果有 180 千克，占总量的 $\\frac{3}{5}$，这批水果共多少千克？",
+        "options": [
+          "108",
+          "300",
+          "200",
+          "150"
+        ],
+        "answer": "300",
+        "explanation": "$180 \\div \\frac{3}{5} = 180 \\times \\frac{5}{3} = 300$。验算：$300 \\times 0.6 = 180$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "工程问题（单位1的假设法）",
+        "question": "一段路，甲走完要 12 分钟，乙走完要 15 分钟。甲乙速度的比是：",
+        "options": [
+          "4:5",
+          "5:4",
+          "12:15",
+          "无法确定"
+        ],
+        "answer": "5:4",
+        "explanation": "速度是时间的倒数。比为 $\\frac{1}{12} : \\frac{1}{15} = 15 : 12 = 5:4$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "倒数的认识",
+        "question": "0.1 的倒数是：",
+        "options": [
+          "10",
+          "1",
+          "0.1",
+          "100"
+        ],
+        "answer": "10",
+        "explanation": "$0.1 = 1/10$，其倒数是 10。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "实验小学六年级有女生 120 人，比男生少 $\\frac{1}{5}$，男生有多少人？",
+        "options": [
+          "96",
+          "150",
+          "144",
+          "200"
+        ],
+        "answer": "150",
+        "explanation": "$120 \\div (1 - \\frac{1}{5}) = 120 \\div \\frac{4}{5} = 150$。验算：$150 - 150 \\times 0.2 = 120$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "把 $\\frac{3}{4}$ 吨大豆平均分给 3 个工厂，每个工厂分得：",
+        "options": [
+          "$\\frac{1}{4}$ 吨",
+          "$\\frac{1}{3}$ 吨",
+          "3 吨",
+          "4 吨"
+        ],
+        "answer": "$\\frac{1}{4}$ 吨",
+        "explanation": "$\\frac{3}{4} \\div 3 = \\frac{1}{4}$（吨）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "一桶油，第一次用去 $\\frac{1}{4}$，第二次用去 10 千克，还剩一半。这桶油原重：",
+        "options": [
+          "20",
+          "40",
+          "60",
+          "30"
+        ],
+        "answer": "40",
+        "explanation": "10 千克占全桶的 $1 - 1/4 - 1/2 = 1/4$。$10 \\div 1/4 = 40$。验算：$40-10-10=20$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程问题（单位1的假设法）",
+        "question": "由甲独做要 $A$ 小时，乙独做要 $B$ 小时。两人合做效率是：",
+        "options": [
+          "$A+B$",
+          "$\\frac{1}{A} + \\frac{1}{B}$",
+          "$1 \\div (A+B)$",
+          "$AB$"
+        ],
+        "answer": "$\\frac{1}{A} + \\frac{1}{B}$",
+        "explanation": "效率是时间的倒数，合做效率为个人效率之和。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "$\\frac{2}{3}$ 里面包含几个 $\\frac{1}{6}$？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "answer": "4",
+        "explanation": "$\\frac{2}{3} \\div \\frac{1}{6} = \\frac{2}{3} \\times 6 = 4$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "甲数是 60，乙数是甲数的 $\\frac{2}{3}$，丙数是乙数的 $\\frac{3}{4}$。丙数是：",
+        "options": [
+          "30",
+          "40",
+          "45",
+          "20"
+        ],
+        "answer": "30",
+        "explanation": "$60 \\times \\frac{2}{3} \\times \\frac{3}{4} = 40 \\times \\frac{3}{4} = 30$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "工程问题（单位1的假设法）",
+        "question": "修路队修一段路，第一天修了全长的 $\\frac{1}{3}$，第二天修了 600 米，还剩 400 米。全长是：",
+        "options": [
+          "1500",
+          "2000",
+          "1200",
+          "1000"
+        ],
+        "answer": "1500",
+        "explanation": "$600+400=1000$ 米占全长的 $1-1/3=2/3$。$1000 \\div 2/3 = 1500$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数除法应用：已知部分求整体",
+        "question": "某校有学生 450 人，其中女生占 $\\frac{4}{9}$，男生有 ___ 人。",
+        "options": [],
+        "answer": "250",
+        "explanation": "男生占 $1 - 4/9 = 5/9$。$450 \\times \\frac{5}{9} = 250$。验算：$250 + (450 \\times 4/9) = 250 + 200 = 450$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "倒数的认识",
+        "question": "$\\frac{5}{3}$ 的倒数与 15 的积是 ___ 。",
+        "options": [],
+        "answer": "9",
+        "explanation": "$\\frac{3}{5} \\times 15 = 9$。验算：$9 \\div 15 = 3/5$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "工程问题（单位1的假设法）",
+        "question": "一池水单开甲管 10 分钟注满，单开乙管 15 分钟注满。两管齐开 ___ 分钟注满。",
+        "options": [],
+        "answer": "6",
+        "explanation": "$1 \\div (1/10 + 1/15) = 1 \\div 5/30 = 6$。验算：$(1/10+1/15) \\times 6 = 1$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "计算：$9 \\div \\frac{3}{7} = ?$",
+        "options": [],
+        "answer": "21",
+        "explanation": "$9 \\div \\frac{3}{7} = 9 \\times \\frac{7}{3} = 3 \\times 7 = 21$。验算：$21 \\times \\frac{3}{7} = 9$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数除法的计算方法",
+        "question": "计算：$100 \\div \\frac{5}{2} = ?$",
+        "options": [],
+        "answer": "40",
+        "explanation": "$100 \\div \\frac{5}{2} = 100 \\times \\frac{2}{5} = 40$。验算：$40 \\times \\frac{5}{2} = 100$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "倒数的认识",
+      "core_concept": "如果两个数的乘积是 1，那么这两个数互为倒数。求分数的倒数只需交换分子分母位置；求整数的倒数先把整数看作分母为 1 的分数再交换。1 的倒数是 1，0 没有倒数。",
+      "key_formula": "$a \\times \\frac{1}{a} = 1$ ($a \\neq 0$)",
+      "common_mistakes": [
+        "认为 0 的倒数是 0",
+        "求倒数后习惯性写成等式（如 $\\frac{2}{3} = \\frac{3}{2}$，应表述为“的倒数是”）"
+      ],
+      "tips": "互为倒数是形容两个数的关系。求带分数倒数要先化成假分数。"
+    },
+    {
+      "point": "分数除法的计算方法",
+      "core_concept": "分数除法的统一法则是：除以一个不为零的数，等于乘这个数的倒数。计算时要注意“一改、二变、三约”：除号改乘号，除数变倒数，能约分的要先约分简便。",
+      "key_formula": "$\\frac{a}{b} \\div \\frac{c}{d} = \\frac{a}{b} \\times \\frac{d}{c}$ ($b, c, d \\neq 0$)",
+      "common_mistakes": [
+        "把被除数也变成了倒数",
+        "除号变乘号了，但除数忘记变倒数"
+      ],
+      "tips": "先约分再计算可以有效减少出错率，特别是多步计算时。"
+    },
+    {
+      "point": "分数除法应用：已知部分求整体",
+      "core_concept": "当题目给出“一个数的几分之几是多少”求“这个数”时，这个数就是单位“1”。可以用除法（对应量 $\\div$ 对应分率 = 单位“1”）解决，也可以设方程求解。",
+      "key_formula": "部分量 $\\div$ 分率 = 单位“1” 的量",
+      "common_mistakes": [
+        "找错单位“1”，误用乘法计算",
+        "对应量与对应分率没找准（如已知增加的部分，却除以原来的分率）"
+      ],
+      "tips": "画线段图分析是解决此类问题的关键，能直观看出量率对应关系。"
+    },
+    {
+      "point": "工程问题（单位1的假设法）",
+      "core_concept": "在不告知具体工程总量时，通常假设总量为“1”。此时，工作效率 = $1 \\div$ 工作时间。多人合做的效率等于每人效率之和。工作时间 = 工作总量 $\\div$ 工作效率和。",
+      "key_formula": "$1 \\div (\\frac{1}{t_1} + \\frac{1}{t_2}) = $ 合做时间",
+      "common_mistakes": [
+        "将工作时间直接相加（如甲 3 天，乙 6 天，合做不可能是 9 天）",
+        "忘记工作效率是时间的倒数"
+      ],
+      "tips": "这类题目的结果一定是小于参与者中最小的时间的，因为合做肯定更快。"
+    }
+  ]
+}

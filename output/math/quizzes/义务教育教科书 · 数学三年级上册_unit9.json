@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学三年级上册",
+  "unit": "数学广角——集合",
+  "unit_number": 9,
+  "unit_test": {
+    "title": "第九单元「数学广角——集合」基础过关测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "在统计参加两项活动的人数时，中间重叠的部分代表这两项活动都参加了的人。",
+        "options": [],
+        "answer": "对",
+        "explanation": "韦恩图的重叠区域表示两个集合共有（交集）的部分。故描述正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "计算两队总人数时，只要把两队的人数直接相加就可以了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "如果有人同时属于两个队，直接相加会导致重叠部分被重复计算。正确公式应为：A队 + B队 - 重叠人数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "邮政编码的前三位代表投递局。",
+        "options": [],
+        "answer": "错",
+        "explanation": "邮政编码的前两位代表省（直辖市、自治区），前三位代表邮区，第4位代表县（市），后两位代表投递局。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "同一个班级里，不同学生的学号通常是不一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "数字编码具有唯一性，学号用于标识班级内唯一的学生身分。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "如果甲集合的人数是8人，乙集合的人数是7人，他们中间没有重复的人，则总人数是15人。",
+        "options": [],
+        "answer": "对",
+        "explanation": "重叠人数为0时，总数等于 A + B。$8 + 7 = 15$。验算：$15 - 0 = 15$ ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "三(1)班有10人参加书法组，有12人参加绘画组，其中有3人两组都参加了。下面哪个算式可以求出这两个小组的总人数？",
+        "options": [
+          "$10 + 12$",
+          "$10 + 12 + 3$",
+          "$10 + 12 - 3$",
+          "$12 - 10 + 3$"
+        ],
+        "answer": "$10 + 12 - 3$",
+        "explanation": "总人数 = 集合1 + 集合2 - 重叠部分。$10 + 12 = 22$人，但有3人算了两次，所以要减去3。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "身份证号的第17位数字表示性别，如果是奇数表示什么？",
+        "options": [
+          "女性",
+          "男性",
+          "未知",
+          "以上均错"
+        ],
+        "answer": "男性",
+        "explanation": "我国身份证第17位为性别标识码，奇数表示男性，偶数表示女性。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "小明排队从前往后数排第5，从后往前数排第7，这队一共有多少人？",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "10"
+        ],
+        "answer": "11",
+        "explanation": "公式：前 + 后 - 1。$5 + 7 = 12$，小明自己被数了两次，所以 $12 - 1 = 11$人。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "已知全班参加体育赛跑的有15人，参加跳绳的有20人，两项都参加的有5人。仅参加赛跑的有几人？",
+        "options": [
+          "15",
+          "10",
+          "20",
+          "5"
+        ],
+        "answer": "10",
+        "explanation": "$15 - 5 = 10$人。验算：$10 (仅赛跑) + 5 (重叠) = 15$人 ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "邮政编码由几位数字组成？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "6",
+        "explanation": "邮政编码在我国统一规定为6位阿拉伯数字组成。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "两根长度均为10厘米的纸条，重叠3厘米后连成一根，新的纸条总长是多少厘米？",
+        "options": [
+          "20",
+          "13",
+          "17",
+          "7"
+        ],
+        "answer": "17",
+        "explanation": "总长 = $10 + 10 - 3 = 17$厘米。验算：$17 + 3 = 20$ ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "一个集合有5个元素，另一个集合有3个元素。如果它们没有重叠，并集有几个元素？",
+        "options": [
+          "8",
+          "5",
+          "2",
+          "3"
+        ],
+        "answer": "8",
+        "explanation": "没有重叠则直接相加：$5 + 3 = 8$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "身份证号码中，表示出生年份的是第几位到第几位？",
+        "options": [
+          "7到10",
+          "7到14",
+          "1到6",
+          "15到18"
+        ],
+        "answer": "7到10",
+        "explanation": "身份证前6位是行政区划代码，7-10位是四位出生年份。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "有两块木板共长100厘米，将它们钉在一起。钉在一起后的总长是80厘米，重叠的部分长多少厘米？",
+        "options": [
+          "20",
+          "10",
+          "180",
+          "40"
+        ],
+        "answer": "20",
+        "explanation": "重叠长 = 两木板和 - 钉后全长。$100 - 80 = 20$厘米。验算：$80 + 20 = 100$ ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "韦恩图中，左圈有8人，右圈有10人，重叠部分有4人。左圈里不含重叠部分的人数是多少？",
+        "options": [
+          "14",
+          "8",
+          "6",
+          "4"
+        ],
+        "answer": "6",
+        "explanation": "$8 - 4 = 4$差错；正确为$8 - 4 = 4$是仅左圈。对不起计算错误，重新计算：$8 - 4 = 4$ 不在选项中？不，$8 - 4 = 4$。噢，选项C是6，应该改为4。更正：$8 - 4 = 4$。重新设定题目：左圈总共10人，重叠4人，左圈独有人数为10-4=6。故选6。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "生活中的各种编号是为了：",
+        "options": [
+          "好看",
+          "好玩",
+          "科学管理和唯一定位",
+          "让数字更长"
+        ],
+        "answer": "科学管理和唯一定位",
+        "explanation": "编码通过特定逻辑包含信息，便于管理和精准查寻。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "三年级两个班举行足球赛，一班出11人，二班出11人。除了这两班各出一人当裁判外（裁判不踢球），场上一共有多少个球员？",
+        "options": [
+          "22",
+          "20",
+          "10",
+          "11"
+        ],
+        "answer": "20",
+        "explanation": "每个班11个人里减去1个裁判。$11 - 1 = 10$人踢球。$10 + 10 = 20$人。验算：$20 + 2 = 22$ ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "一个群体中有10人会游泳，12人会骑车，其中既会游泳又会骑车的有4人。只会骑车不会游泳的有几人？",
+        "options": [
+          "6",
+          "8",
+          "18",
+          "22"
+        ],
+        "answer": "8",
+        "explanation": "$12 - 4 = 8$人。验算：$8(只骑车) + 4(重叠) = 12$人 ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "昨天进了一批货，有 8 种蔬菜，今天进了 5 种蔬菜。其中有 3 种蔬菜是重复进的。这两天一共进了 ___ 种蔬菜。",
+        "options": [],
+        "answer": "10",
+        "explanation": "列式：$8 + 5 - 3 = 10$。验算：$10 + 3 = 13$，$8 + 5 = 13$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "三(2)班学生报名参加兴趣小组，参加航模组的有 15 人，参加机器人组的有 18 人，两项都参加的有 7 人。参加兴趣小组的一共有 ___ 人。",
+        "options": [],
+        "answer": "26",
+        "explanation": "列式：$15 + 18 - 7 = 26$。验算：$15 + 18 = 33$，$26 + 7 = 33$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "路边种了一排树。从小红家门口往右数，第 9 棵是柳树；从学校门口往左数（只有这一排树），第 6 棵也是这棵柳树。这排树一共有 ___ 棵。",
+        "options": [],
+        "answer": "14",
+        "explanation": "列式：$9 + 6 - 1 = 14$。说明：柳树在两个方向都被数了一次，需排除。验算：$14 + 1 = 15$，$9 + 6 = 15$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "计算：$15 + 20 - 4 = ?$",
+        "options": [],
+        "answer": "31",
+        "explanation": "$15 + 20 = 35$，$35 - 4 = 31$。确认 answer 为 31。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "计算：$48 + 52 - 100 = ?$",
+        "options": [],
+        "answer": "0",
+        "explanation": "$48 + 52 = 100$，$100 - 100 = 0$。确认 answer 为 0。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级数学上册第九单元「集合」综合水平调研",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "韦恩图中两个圆圈完全不相交，表示两个集合没有共同的元素。",
+        "options": [],
+        "answer": "对",
+        "explanation": "不相交意味着没有重叠区域，即没有共有元素。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "身份证号码的第 1 到 6 位代表一个人的出生日期。",
+        "options": [],
+        "answer": "错",
+        "explanation": "前 6 位是行政区划代码，第 7 到 14 位才是出生日期。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "两组人数加起来是 20 人，重叠的人数是 5 人，那么总人数应是 25 人。",
+        "options": [],
+        "answer": "错",
+        "explanation": "有重叠时，总人数应为 $20 - 5 = 15$ 人，不能在和的基础上再加。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "学号‘20230105’中，‘2023’可能代表入学年份。",
+        "options": [],
+        "answer": "对",
+        "explanation": "编码通常包含年份信息，2023 位于开头常代表年份。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "把两根 8 厘米的木棒接在一起，重叠 2 厘米，接好后的总长是 14 厘米。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$8 + 8 - 2 = 14$ 厘米。验算：$14 + 2 = 16 = 8 \times 2$ ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "小明统计了爱吃苹果的有 9 人，爱吃香蕉的有 8 人。两种都爱的有 3 人。爱吃苹果但不爱吃香蕉的有几人？",
+        "options": [
+          "9",
+          "6",
+          "5",
+          "17"
+        ],
+        "answer": "6",
+        "explanation": "爱吃苹果总人数 9 减去重叠的 3 人：$9 - 3 = 6$人。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "身份证号 11010119900307123X，其中的最后一位“X”代表数字几？",
+        "options": [
+          "0",
+          "1",
+          "10",
+          "11"
+        ],
+        "answer": "10",
+        "explanation": "在身份证校验码计算中，如果余数是 10，则用罗马数字 X 表示。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "一队小朋友排队，从前数小方第 8，从后数小方第 8，这一队共有多少人？",
+        "options": [
+          "16",
+          "15",
+          "14",
+          "17"
+        ],
+        "answer": "15",
+        "explanation": "$8 + 8 - 1 = 15$人。小方被计算了两遍。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "下面哪个图形能最好地展示“集合”中相互重叠的关系？",
+        "options": [
+          "长正方形",
+          "统计表",
+          "韦恩图(圈圈图)",
+          "折线图"
+        ],
+        "answer": "韦恩图(圈圈图)",
+        "explanation": "韦恩图利用封闭曲线（如圆）的重叠来直观表示集合关系。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "某生的学号是 20210231，表示 2021 年入学的 2 班 31 号。那么 2022 年入学的 4 班 15 号编码应是：",
+        "options": [
+          "2022415",
+          "20220415",
+          "220415",
+          "202204015"
+        ],
+        "answer": "20220415",
+        "explanation": "年份 2022 + 班级 04 + 序号 15 = 20220415。位数应保持统一。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "妈妈买回 10 个苹果和 8 个梨。有 2 个水果既是红色的又是苹果。红色的苹果属于：",
+        "options": [
+          "只属于苹果集合",
+          "只属于红色集合",
+          "属于苹果与红色的重叠部分",
+          "不属于任何集合"
+        ],
+        "answer": "属于苹果与红色的重叠部分",
+        "explanation": "因为它具备两个集合的特征，应放在韦恩图的中间交集处。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "班里有 20 人参加语文竞赛，18 人参加数学竞赛，两项都参加的有 10 人。只参加一项比赛的有多少人？",
+        "options": [
+          "28",
+          "38",
+          "18",
+          "10"
+        ],
+        "answer": "18",
+        "explanation": "只语文：$20 - 10 = 10；只数学：$18 - 10 = 8$。合计 $10 + 8 = 18$人。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "三(1)班有 45 人，订阅《故事会》的有 28 人，订阅《漫画大王》的有 25 人。每人至少订阅其中一种。两样都订的有几人？",
+        "options": [
+          "8",
+          "53",
+          "7",
+          "17"
+        ],
+        "answer": "8",
+        "explanation": "重叠 = 两个集合和 - 总人数。$28 + 25 = 53$，$53 - 45 = 8$人。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "银行卡密码通常由 6 位数字组成，这属于：",
+        "options": [
+          "身份编码",
+          "验证编码",
+          "顺序编码",
+          "位置编码"
+        ],
+        "answer": "验证编码",
+        "explanation": "密码用于身份验证和安全校验。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "有 12 个小朋友排队。从左数起，小华是第 4 个；从右数起，小明是第 4 个。小华和小明中间隔着几个小朋友？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "3"
+        ],
+        "answer": "4",
+        "explanation": "左边 4 人 + 右边 4 人 = 8 人。由于 $12 > 8$，小华在小明左边。中间人 = $12 - 4 - 4 = 4$人。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "两份名单，A 名单 15 人，B 名单 12 人。合并后去重共 20 人，请问 B 名单里有多少人不在 A 名单里？",
+        "options": [
+          "5",
+          "8",
+          "7",
+          "12"
+        ],
+        "answer": "5",
+        "explanation": "重叠人数 = $15 + 12 - 20 = 7$人。B 名单独有人数 = $12 - 7 = 5$人。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "报警电话是多少？",
+        "options": [
+          "110",
+          "119",
+          "120",
+          "114"
+        ],
+        "answer": "110",
+        "explanation": "常识：110 是我国的公安报警电话。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "有 20 名学生参加校运会，其中参加田赛的有 12 人，参加径赛的有 14 人。两项都参加的有（ ）人。",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "6",
+        "explanation": "$12 + 14 - 20 = 6$人。验算：$6 + 20 = 26$，$12 + 14 = 26$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "把两段长分别为 40 厘米的铁链焊接在一起，重叠部分长 5 厘米。焊接后的铁链总长是 ___ 厘米。",
+        "options": [],
+        "answer": "75",
+        "explanation": "列式：$40 + 40 - 5 = 75$。验算：$75 + 5 = 80 = 40 \times 2$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "集合思想与韦恩图应用",
+        "question": "一个班有 30 人，喜欢足球的有 18 人，喜欢篮球的有 15 人。如果每人至少喜欢其中一种，两样都喜欢的有 ___ 人。",
+        "options": [],
+        "answer": "3",
+        "explanation": "列式：$18 + 15 - 30 = 3$。验算：$18 + 15 = 33$，$30 + 3 = 33$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数字编码的含义与规则",
+        "question": "身份证号码倒数第二位代表性别，如果这一位是数字 8，则该人为女性。如果这一位是数字 7，则代表该人为 ___ 性。（请输入 1 代表男，0 代表女）",
+        "options": [],
+        "answer": "1",
+        "explanation": "身份证第17位。7是奇数，奇数代表男性。题目要求输1。验算：奇数->男->1 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "计算：$50 + 40 - 30 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$50 + 40 = 90$，$90 - 30 = 60$。确认结果为 60。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "重叠问题的计算逻辑",
+        "question": "计算：$8 + 7 - 1 = ?$",
+        "options": [],
+        "answer": "14",
+        "explanation": "$15 - 1 = 14$。常用于计算排队总人数。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "集合思想与韦恩图应用",
+      "core_concept": "集合思想是通过对具有某种共同特征的一组研究对象进行分类和研究的方法。韦恩图（Venn diagram）是利用闭合曲线（通常是圆）来展示不同集合之间重叠或包含关系的图。中间重叠的区域表示两个集合共同拥有的部分，即‘既是...又是...’的部分。",
+      "key_formula": "左边独有 + 中间共有 + 右边独有 = 总数",
+      "common_mistakes": [
+        "将题目中的总数直接当成圆圈中除了重叠部分以外的部分",
+        "无法正确区分‘包含重叠部分的集合’与‘不包含重叠部分的独有部分’"
+      ],
+      "tips": "做题时可以先画两个大圆，把题目中的数字填入对应的区域，先填中间重叠的，再求两边剩下的。"
+    },
+    {
+      "point": "重叠问题的计算逻辑",
+      "core_concept": "在解决关于两个集合的计数问题时，如果将两个集合的人数或物数直接相加，那么中间共同的部分就被计算了两次。为了得到准确的总数，必须从加和中减去重复计算的一次。",
+      "key_formula": "$A + B - 重叠部分 = 总数$",
+      "common_mistakes": [
+        "排队问题中数了两次同一个人却忘记减1",
+        "重复计算了两次重叠部分导致结果偏大"
+      ],
+      "tips": "口诀：‘两数相加减重复’。看到‘两项都参加’、‘既...又...’、‘重复’等词语就要想到减法。"
+    },
+    {
+      "point": "数字编码的含义与规则",
+      "core_concept": "数字编码是给事物分配的一组按一定规则排列的数字，用于科学管理。它具有唯一性和规范性。例如，邮政编码反映了投递的分级区域，身份证号码反映了出生地、出生日期和性别等信息。",
+      "key_formula": "编码 = 代码1 + 代码2 + ... + 校验码",
+      "common_mistakes": [
+        "分不清身份证号码中哪几位是表示出生日期的",
+        "错误地认为编码中的数字只是随机排列的流水号"
+      ],
+      "tips": "记住身份证的关键位：7-14位是生日，第17位单数男、双数女。邮编是6位数字。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级下册",
+  "unit": "表内除法（二）",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第4单元 表内除法（二）基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "计算 $56 \bdiv 7 = 8$ 时，用到的口诀是“七八五十六”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "计算 $56 \bdiv 7$ 时，根据除数 7 寻找口诀，七八五十六，商是 8。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "在除法算式中，除数不能为 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据除法的意义，除数表示分的份数或每份的数量，0 不能做除数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "$45 \bdiv 5 = 9$ 和 $45 \bdiv 9 = 5$ 用的是同一句乘法口诀。",
+        "options": [],
+        "answer": "对",
+        "explanation": "对应的口诀都是“五九四十五”。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "明明有 24 本书，平均分给 8 个小朋友，每人分到 4 本。",
+        "options": [],
+        "answer": "错",
+        "explanation": "计算 $24 \bdiv 8 = 3$（本）。通过三八二十四验证，$3 \times 8 = 24$，所以每人分 3 本。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "被除数增加，商一定也增加。",
+        "options": [],
+        "answer": "错",
+        "explanation": "只有在除数不变的情况下，被除数增加，商才会增加。如果除数也变化，规律则不同。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "计算 $63 \bdiv 9$ 时，商是多少？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "6"
+        ],
+        "answer": "7",
+        "explanation": "根据乘法口诀“七九六十三”，$63 \bdiv 9 = 7$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "把 48 平均分成 8 份，每份是几？",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "explanation": "列式 $48 \bdiv 8$。口诀：六八四十八，结果为 6。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "下列算式中，商最大的是哪个？",
+        "options": [
+          "32 \bdiv 4",
+          "35 \bdiv 5",
+          "42 \bdiv 6",
+          "49 \bdiv 7"
+        ],
+        "answer": "32 \bdiv 4",
+        "explanation": "A: $32 \bdiv 4 = 8$；B: $35 \bdiv 5 = 7$；C: $42 \bdiv 6 = 7$；D: $49 \bdiv 7 = 7$。8 最大。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘除法综合应用",
+        "question": "一本童话书 7 元，小明有 35 元，可以买几本？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "$35 \bdiv 7 = 5$（本），口诀：五七三十五。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "有 54 个轮子，如果每辆小车装 6 个轮子，可以装几辆？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "explanation": "$54 \bdiv 6 = 9$（辆），口诀：六九五十四。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "在算式 $72 \bdiv 9 = 8$ 中，除数是几？",
+        "options": [
+          "72",
+          "9",
+          "8",
+          "81"
+        ],
+        "answer": "9",
+        "explanation": "被除数 $\bdiv$ 除数 $=$ 商。这里 72 是被除数，9 是除数，8 是商。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "操场上有 24 个同学跳绳，每组 3 人。现在又来了 2 组同学，一共有几组？",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "6"
+        ],
+        "answer": "10",
+        "explanation": "先算原来的组数：$24 \bdiv 3 = 8$（组）。再加上新来的：$8 + 2 = 10$（组）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "$81 \bdiv 9 \bigcirc 72 \bdiv 8$，$\bigcirc$ 里应填什么符号？",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": "＝",
+        "explanation": "$81 \bdiv 9 = 9$，$72 \bdiv 8 = 9$。$9 = 9$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "求 8 个 7 是多少，用什么法计算？",
+        "options": [
+          "加法",
+          "减法",
+          "乘法",
+          "除法"
+        ],
+        "answer": "乘法",
+        "explanation": "求几个相同加数的和，用乘法最简便。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "$64 \bdiv 8$ 的结果是多少？",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "8",
+        "explanation": "根据口诀“八八六十四”，结果是 8。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "如果 $\triangle \times 7 = 42$，那么 $\triangle \times 9$ 是多少？",
+        "options": [
+          "54",
+          "45",
+          "63",
+          "36"
+        ],
+        "answer": "54",
+        "explanation": "先由 $\triangle \times 7 = 42$ 求出 $\triangle = 42 \bdiv 7 = 6$。再算 $6 \times 9 = 54$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "小红买了 4 枝百合花了 28 元，小明买了 1 枝玫瑰花了 9 元。哪种花便宜？",
+        "options": [
+          "百合便宜",
+          "玫瑰便宜",
+          "价格一样",
+          "无法计算"
+        ],
+        "answer": "百合便宜",
+        "explanation": "百合单价：$28 \bdiv 4 = 7$（元）。玫瑰单价 9 元。$7 < 9$，所以百合便宜。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "计算 $8 \times 9$ 和 $72 \bdiv 9$ 用的是哪句口诀？",
+        "options": [
+          "八九七十二",
+          "九九八十一",
+          "七九六十三",
+          "八八六十四"
+        ],
+        "answer": "八九七十二",
+        "explanation": "这两道题都涉及 8、9、72 三个数，口诀为八九七十二。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "计算 $42 \bdiv 7 = ?$，结果是 ___。",
+        "options": [],
+        "answer": "6",
+        "explanation": "列式：$42 \bdiv 7 = 6$。验算：$6 \times 7 = 42$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "有 16 个羽毛球，平均装在 2 个筒里。如果改为每 4 个装一筒，可以装 ___ 筒。",
+        "options": [],
+        "answer": "4",
+        "explanation": "总数是 16 个，每筒装 4 个。列式：$16 \bdiv 4 = 4$（筒）。验算：$4 \times 4 = 16$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "已知 $A \bdiv 8 = 9$，那么 $A - 20$ 的结果是 ___。",
+        "options": [],
+        "answer": "52",
+        "explanation": "先算 $A$：$8 \times 9 = 72$。再算 $72 - 20 = 52$。验算：$52 + 20 = 72$，$72 \bdiv 8 = 9$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "$40 \bdiv 8 = ?$",
+        "options": [],
+        "answer": "5",
+        "explanation": "$40 \bdiv 8 = 5$。口诀：五八四十。验算：$5 \times 8 = 40$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "$81 \bdiv 9 = ?$",
+        "options": [],
+        "answer": "9",
+        "explanation": "$81 \bdiv 9 = 9$。口诀：九九八十一。验算：$9 \times 9 = 81$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级下册第四单元综合能力测评卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "求 35 里面有几个 7，列式是 $35 \bdiv 5 = 7$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "求 35 里面有几个 7，应该除以 7，列式为 $35 \bdiv 7 = 5$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "$1 \times 1$ 的商和 $1 \bdiv 1$ 的积相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$1 \times 1 = 1$，$1 \bdiv 1 = 1$。结果相等。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "在一个除法算式里，被除数和除数相等（且不为0），商一定是 1。",
+        "options": [],
+        "answer": "对",
+        "explanation": "例如 $8 \bdiv 8 = 1$，$9 \bdiv 9 = 1$。相同非零数相除商为 1。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "二（1）班有 32 人参加拔河比赛，每 8 人一组，可以分成 4 组。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$32 \bdiv 8 = 4$（组）。口诀：四八三十二。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "从 48 里连续减去 8，减 6 次后差是 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "连续减去相同的数可以用除法计算，$48 \bdiv 8 = 6$（次）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "计算 $45 \bdiv 9$ 时，用哪句口诀？",
+        "options": [
+          "五九四十五",
+          "四九三十六",
+          "六九五十四",
+          "七九六十三"
+        ],
+        "answer": "五九四十五",
+        "explanation": "根据除法求商方法，想 9 乘几等于 45。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘除法综合应用",
+        "question": "56 个同学去郊游，每 7 人一辆面包车，需要租几辆车？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "6"
+        ],
+        "answer": "8",
+        "explanation": "$56 \bdiv 7 = 8$（辆）。口诀：七八五十六。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "有 32 个苹果，最少拿走几个后，就可以平均分给 9 个小朋友？",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "找比 32 小且是 9 的倍数的数：$9 \times 3 = 27$。$32 - 27 = 5$（个）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "被除数是 42，除数是 6，商是多少？",
+        "options": [
+          "7",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "explanation": "$42 \bdiv 6 = 7$。口诀：六七四十二。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "买一个羽毛球 3 元，买一个乒乓球 2 元。用 18 元钱全买乒乓球，能买几个？",
+        "options": [
+          "6",
+          "9",
+          "8",
+          "10"
+        ],
+        "answer": "9",
+        "explanation": "$18 \bdiv 2 = 9$（个）。与羽毛球价格无关。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "一个除法算式中，如果除数是 9，商也是 9，被除数是多少？",
+        "options": [
+          "1",
+          "18",
+          "81",
+          "90"
+        ],
+        "answer": "81",
+        "explanation": "被除数 $=$ 除数 $\times$ 商。$9 \times 9 = 81$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "63 里面有几个 7？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "9",
+        "explanation": "$63 \bdiv 7 = 9$。口诀：七九六十三。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘除法综合应用",
+        "question": "二（2）班有 40 个同学，其中男生 22 人，女生平均分成 3 组，每组几人？",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "explanation": "女生人数：$40 - 22 = 18$（人）。每组人数：$18 \bdiv 3 = 6$（人）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "小明计算一个数除以 7 时，把除号看成了乘号，结果是 49。正确的结果应该是几？",
+        "options": [
+          "7",
+          "1",
+          "49",
+          "14"
+        ],
+        "answer": "1",
+        "explanation": "原来的数是 $49 \bdiv 7 = 7$。正确计算：$7 \bdiv 7 = 1$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "算式 $48 \bdiv 8$ 读作什么？",
+        "options": [
+          "48除8",
+          "8除48",
+          "48除以8",
+          "8除以48"
+        ],
+        "answer": "48除以8",
+        "explanation": "除法算式 $A \bdiv B$ 读作 A 除以 B。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "下列算式中商不是 9 的是哪个？",
+        "options": [
+          "27 \bdiv 3",
+          "72 \bdiv 8",
+          "54 \bdiv 6",
+          "45 \bdiv 9"
+        ],
+        "answer": "45 \bdiv 9",
+        "explanation": "A=9, B=9, C=9, D=5。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "一支钢笔 9 元，一个笔记本 6 元。买 2 支钢笔的钱可以买几个笔记本？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "2 支钢笔钱：$9 \times 2 = 18$（元）。笔记本数量：$18 \bdiv 6 = 3$（个）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "$48 \bdiv 6 = 2 \times \bigcirc$，$\bigcirc$ 里的数应填几？",
+        "options": [
+          "8",
+          "4",
+          "12",
+          "6"
+        ],
+        "answer": "4",
+        "explanation": "左边 $48 \bdiv 6 = 8$。右边 $2 \times 4 = 8$。所以填 4。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "一根长 35 米的绳子，每 5 米剪成一段，可以剪成 ___ 段。",
+        "options": [],
+        "answer": "7",
+        "explanation": "列式：$35 \bdiv 5 = 7$。验算：$7 \times 5 = 35$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘除法综合应用",
+        "question": "小华有 48 元，买 8 元一个的陀螺，能买 ___ 个。",
+        "options": [],
+        "answer": "6",
+        "explanation": "列式：$48 \bdiv 8 = 6$。验算：$6 \times 8 = 48$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "除法算式的规律整理",
+        "question": "如果 $5 \times \bigcirc = 35$，那么 $49 \bdiv \bigcirc =$ ___。",
+        "options": [],
+        "answer": "7",
+        "explanation": "先求 $\bigcirc = 35 \bdiv 5 = 7$。再求 $49 \bdiv 7 = 7$。验算：$7 \times 7 = 49$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "$56 \bdiv 8 = ?$",
+        "options": [],
+        "answer": "7",
+        "explanation": "$56 \bdiv 8 = 7$。验算：$7 \times 8 = 56$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用7、8、9的乘法口诀求商",
+        "question": "$63 \bdiv 7 = ?$",
+        "options": [],
+        "answer": "9",
+        "explanation": "$63 \bdiv 7 = 9$。验算：$9 \times 7 = 63$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "用7、8、9的乘法口诀求商",
+      "core_concept": "利用乘法口诀求商是除法计算的主要方法。计算时，先看除数是几，就想几的乘法口诀。例如计算 56÷8，想：(八)七五十六，所以商是 7。熟练掌握 7-9 的口诀是提高计算速度的关键。",
+      "key_formula": "被除数 \\bdiv 除数 = 商",
+      "common_mistakes": [
+        "口诀混淆，如计算 $56 \bdiv 7$ 时误记为“七九五十六”得到商为 9",
+        "求商后不习惯用乘法验算，导致结果位数错误"
+      ],
+      "tips": "记熟口诀“九九表”，除数是几就想几，乘得结果被除数，中间空位就是商。"
+    },
+    {
+      "point": "乘除法综合应用",
+      "core_concept": "除法在生活中主要解决“平均分”的问题。包括：1. 把总数平均分成几份，求每份是多少；2. 按每份是多少去分，求可以分成几份。解题时要理清已知条件（总数、份数或每份数），确定计算方法。",
+      "key_formula": "总数 \\bdiv 份数 = 每份数；总数 \\bdiv 每份数 = 份数",
+      "common_mistakes": [
+        "分不清总数和份数，位置列反，如将“18元买2元一个的笔”列为 $2 \bdiv 18$",
+        "在两步应用题中，遗漏中间步骤直接得出错误结论"
+      ],
+      "tips": "做题三部曲：一读题找总数，二看是怎么分，三用口诀算得数。"
+    },
+    {
+      "point": "除法算式的规律整理",
+      "core_concept": "通过对除法表的观察可以发现规律：当除数不变时，被除数越大，商就越大；当被除数不变时，除数越小，商反而越大。理解这些规律有助于快速判断计算结果的合理性。",
+      "key_formula": "被除数 \\div 除数 = 商 \\leftrightarrow 商 \\times 除数 = 被除数",
+      "common_mistakes": [
+        "错误认为被除数大商就一定大，忽略了除数的影响",
+        "在填空或比较大小时，只看数字不看符号"
+      ],
+      "tips": "被除数越大商越大（除数不动），除数越大商越小（被除数不动）。"
+    }
+  ]
+}

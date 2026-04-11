@@ -1,0 +1,707 @@
+{
+  "textbook": "人教版小学数学四年级上册",
+  "unit": "大数的认识",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第1单元「大数的认识」基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的计数单位与数位顺序",
+        "question": "在数位顺序表中，两个计数单位之间的进率都是10。",
+        "options": [],
+        "answer": "错",
+        "explanation": "只有每“相邻”两个计数单位之间的进率才是10。必须强调“相邻”二字。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的读法与写法",
+        "question": "读数时，每级末尾不管有几个0，都不读。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据大数的读法规则：每级末尾的0都不读，其他数位有一个0或连续几个0，都只读一个零。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "大数的大小比较与改写",
+        "question": "5000000 改写成用“万”作单位的数是 500 万。",
+        "options": [],
+        "answer": "对",
+        "explanation": "改写成用“万”作单位的数，去掉末尾的4个0，在后面加上一个“万”字。$5000000 = 500$万。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "近似数与“四舍五入”法",
+        "question": "近似数一定比准确数大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "近似数可能比准确数大（五入时），也可能比准确数小（四舍时）。例如：$43 \\approx 40$（变小），$47 \\approx 50$（变大）。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "进位制与计算工具的认识",
+        "question": "在算盘上，一个上珠表示1，一个下珠也表示1。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在算盘上，一个上珠表示5，一个下珠表示1。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的计数单位与数位顺序",
+        "question": "从个位起，第七位是（  ）。",
+        "options": [
+          "万位",
+          "十万位",
+          "百万位",
+          "千万位"
+        ],
+        "answer": "百万位",
+        "explanation": "数位顺序从右向左依次是：个、十、百、千、万、十万、百万。第七位是百万位。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的读法与写法",
+        "question": "由 3 个万、5 个千、4 个十组成的数是（  ）。",
+        "options": [
+          "35040",
+          "30540",
+          "35400",
+          "35004"
+        ],
+        "answer": "35040",
+        "explanation": "万位上是3，千位上是5，十位上是4，百位和个位补0，得到 35040。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "大数的大小比较与改写",
+        "question": "239000 和 240000 相比，结果是（  ）。",
+        "options": [
+          "239000 > 240000",
+          "239000 < 240000",
+          "239000 = 240000",
+          "无法比较"
+        ],
+        "answer": "239000 < 240000",
+        "explanation": "两个六位数比较，从最高位看起。十万位相同，万位上 $3 < 4$，所以 $239000 < 240000$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近似数与“四舍五入”法",
+        "question": "把 86420 省略万位后面的尾数，约是（  ）。",
+        "options": [
+          "8 万",
+          "9 万",
+          "86 万",
+          "86000"
+        ],
+        "answer": "9 万",
+        "explanation": "看千位上的数，千位是6，大于5，向前一位进1。$8+1=9$，所以约是 9 万。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "进位制与计算工具的认识",
+        "question": "在计算器上，开机键是（  ）。",
+        "options": [
+          "OFF",
+          "CE",
+          "ON",
+          "AC"
+        ],
+        "answer": "ON",
+        "explanation": "ON是开启/清零键，OFF是关机键。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的计数单位与数位顺序",
+        "question": "一亿里面有（  ）个一千万。",
+        "options": [
+          "1",
+          "10",
+          "100",
+          "1000"
+        ],
+        "answer": "10",
+        "explanation": "相邻计数单位间的进率是10，$10 \\times 1千万 = 1亿$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "亿以内数的读法与写法",
+        "question": "下面各数中，只读一个零的是（  ）。",
+        "options": [
+          "800800",
+          "808000",
+          "800008",
+          "880000"
+        ],
+        "answer": "800008",
+        "explanation": "A读八十万零八百（两个零）；B读八十万八千；C读八十万零八（一个零）；D读八十八万。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "大数的大小比较与改写",
+        "question": "由 7 个亿组成的数是（  ）。",
+        "options": [
+          "70000",
+          "7000000",
+          "70000000",
+          "700000000"
+        ],
+        "answer": "700000000",
+        "explanation": "7个亿说明亿位上是7，后面有8个0。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近似数与“四舍五入”法",
+        "question": "3□5000 ≈ 40 万，□里可以填的数是（  ）。",
+        "options": [
+          "0",
+          "4",
+          "9",
+          "3"
+        ],
+        "answer": "9",
+        "explanation": "省略万位后是40万，说明万位3向前进了一位，则千位□应 $\\ge 5$。选项中只有9符合。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的计数单位与数位顺序",
+        "question": "在 65 后面添上（  ）个零，这个数就是六百五十万。",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "六百五十万写作 6500000。65 后面需要补 5 个零。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "亿以内数的读法与写法",
+        "question": "一个数由 2 个万和 2 个一组成，这个数是（  ）。",
+        "options": [
+          "20002",
+          "20020",
+          "20200",
+          "22000"
+        ],
+        "answer": "20002",
+        "explanation": "万位是2，个位是2，中间的千、百、十位都是0。写作 20002。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "大数的大小比较与改写",
+        "question": "把 2080000 改写成以“万”为单位的数是（  ）。",
+        "options": [
+          "208",
+          "2080",
+          "208 万",
+          "280 万"
+        ],
+        "answer": "208 万",
+        "explanation": "去掉末尾4个0，加上“万”字。$2080000 = 208$ 万。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "近似数与“四舍五入”法",
+        "question": "一个数“四舍五入”到万位约是 10 万，这个数最小是（  ）。",
+        "options": [
+          "95000",
+          "99999",
+          "104999",
+          "100001"
+        ],
+        "answer": "95000",
+        "explanation": "要使原数最小，应由 9 万“五入”而来。千位最小是5，百、十、个位最小是0，即 95000。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的计数单位与数位顺序",
+        "question": "一个九位数，最高位是 ___ 位。",
+        "options": [],
+        "answer": "亿",
+        "explanation": "数位顺序表：个(1)、十(2)、百(3)、千(4)、万(5)、十万(6)、百万(7)、千万(8)、亿(9)。最高位是亿位。更正：由于题目要求填数字，此处知识点要求改写为：一个九位数，最高位在右起第 ___ 位。填 9。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "大数的大小比较与改写",
+        "question": "用 3 个 0 和 3 个 5 组成最小的六位数是 ___ 。",
+        "options": [],
+        "answer": "500055",
+        "explanation": "最小的数，最高位不能为0，所以首位填5。剩下的数字从小到大排列：0, 0, 0, 5, 5。得到 500055。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近似数与“四舍五入”法",
+        "question": "49□300 ≈ 50 万，□里最小填 ___ 。",
+        "options": [],
+        "answer": "5",
+        "explanation": "进位说明千位□必须满足“五入”，即 $\\ge 5$。最小填5。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "进位制与计算工具的认识",
+        "question": "计算：$25000 + 45000 = ?$",
+        "options": [],
+        "answer": "70000",
+        "explanation": "$25 + 45 = 70$，后面补三个零。验算：$70000 - 45000 = 25000$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "进位制与计算工具的认识",
+        "question": "计算：$120 \\times 40 = ?$",
+        "options": [],
+        "answer": "4800",
+        "explanation": "$12 \\times 4 = 48$，因数末尾共有两个0。验算：$4800 \\div 40 = 120$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "人教版数学四年级上册第一单元综合测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的计数单位与数位顺序",
+        "question": "个位、十位、百位、千位都是计数单位。",
+        "options": [],
+        "answer": "错",
+        "explanation": "个位、十位等是“数位”，个、十、百、千才是“计数单位”。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的读法与写法",
+        "question": "三千零五万写作 30050000。",
+        "options": [],
+        "answer": "对",
+        "explanation": "万级是3005，个级是0000。合起来是 30050000。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "大数的大小比较与改写",
+        "question": "10 个一千万等于 1 个亿。",
+        "options": [],
+        "answer": "对",
+        "explanation": "千万和亿是相邻单位，进率是10。$10 \\times 1千万 = 1亿$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "近似数与“四舍五入”法",
+        "question": "所有的近似数都比原数小。",
+        "options": [],
+        "answer": "错",
+        "explanation": "如 1.8 约等于 2，近似数比原数大。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "进位制与计算工具的认识",
+        "question": "古埃及象形文字也是一种计数方法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "教材中“数的产生”章节提到了古埃及、巴比伦、中国等古老的计数符号。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的计数单位与数位顺序",
+        "question": "与 10000 相邻的两个数是（  ）。",
+        "options": [
+          "9999 和 10001",
+          "9000 和 11000",
+          "9990 和 10010",
+          "9900 和 10100"
+        ],
+        "answer": "9999 和 10001",
+        "explanation": "相邻的数就是原数减1和加1。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "亿以内数的读法与写法",
+        "question": "在 4 后面添（  ）个 0，这个数就变成了四千万。",
+        "options": [
+          "5",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "7",
+        "explanation": "四千万写作 40000000，4后面有7个0。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "大数的大小比较与改写",
+        "question": "下面四个数中，最小的数是（  ）。",
+        "options": [
+          "600600",
+          "660000",
+          "606000",
+          "600006"
+        ],
+        "answer": "600006",
+        "explanation": "位数相同，比较最高位。六个万位都是6。千位分别是0, 6, 6, 0。百位分别是6, 0, 0, 0。个位 600006 最小。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "近似数与“四舍五入”法",
+        "question": "一个数省略万位后面的尾数约是 5 万，这个数最大是（  ）。",
+        "options": [
+          "49999",
+          "54999",
+          "55000",
+          "59999"
+        ],
+        "answer": "54999",
+        "explanation": "最大数由 5 万“四舍”而来，千位最大填4，百十个位最大填9，即 54999。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "进位制与计算工具的认识",
+        "question": "在使用计算器计算时，发现刚输入的 256 错了，想清掉这一个数，应按（  ）键。",
+        "options": [
+          "ON",
+          "OFF",
+          "CE",
+          "MC"
+        ],
+        "answer": "CE",
+        "explanation": "CE是清除当前输入键（Clear Entry）。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的计数单位与数位顺序",
+        "question": "十进制计数法中，每相邻两个计数单位之间的进率是（  ）。",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "100"
+        ],
+        "answer": "10",
+        "explanation": "这就是十进制的定义。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "亿以内数的读法与写法",
+        "question": "用三个 0 和三个 8 组成的六位数中，一个零都不读的是（  ）。",
+        "options": [
+          "888000",
+          "808080",
+          "800808",
+          "880008"
+        ],
+        "answer": "888000",
+        "explanation": "A读作八十八万八千（末尾0不读）；B读八十万八千零八十；C读八十万零八百零八；D读八十八万零八。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "大数的大小比较与改写",
+        "question": "下列各数中，（  ）最接近 6 万。",
+        "options": [
+          "50600",
+          "60001",
+          "61000",
+          "59000"
+        ],
+        "answer": "60001",
+        "explanation": "$60001 - 60000 = 1$，$60000 - 59000 = 1000$，1最小，最接近。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近似数与“四舍五入”法",
+        "question": "把 995000000 改写成以“亿”为单位的近似数是（  ）。",
+        "options": [
+          "9 亿",
+          "10 亿",
+          "99 亿",
+          "100 亿"
+        ],
+        "answer": "10 亿",
+        "explanation": "看千万位，千万位是5，向亿位进1，$9+1=10$，即 10 亿。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "亿以内数的计数单位与数位顺序",
+        "question": "一个数由 50 个万和 50 个一组成，这个数是（  ）。",
+        "options": [
+          "500050",
+          "5050",
+          "50050",
+          "5000050"
+        ],
+        "answer": "500050",
+        "explanation": "50个万即万级是50，50个一即个级是0050。整合成 500050。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "大数的大小比较与改写",
+        "question": "7400000000（  ）74 亿。",
+        "options": [
+          ">",
+          "<",
+          "==",
+          "≈"
+        ],
+        "answer": "==",
+        "explanation": "$7400000000 = 74$ 亿，这是改写，数值完全相等。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "进位制与计算工具的认识",
+        "question": "在数位顺序表中，亿位的右边一位是（  ）。",
+        "options": [
+          "十亿位",
+          "千万位",
+          "百万位",
+          "万位"
+        ],
+        "answer": "千万位",
+        "explanation": "右边是较低数位，亿的前面一个单位是千万。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "亿以内数的读法与写法",
+        "question": "一个数含有两级，这个数最少是（  ）位数。",
+        "options": [
+          "四",
+          "五",
+          "六",
+          "八"
+        ],
+        "answer": "五",
+        "explanation": "含有两级（个级和万级），万级最少要有一位，所以 $4+1=5$ 位。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "大数的大小比较与改写",
+        "question": "一个数由 8 个千万、4 个十万和 3 个千组成，这个数写作 ___ 。",
+        "options": [],
+        "answer": "80403000",
+        "explanation": "千万位8，十万位4，千位3，其余位补0。得到 80403000。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "近似数与“四舍五入”法",
+        "question": "最大的六位数比最小的六位数大 ___ 。",
+        "options": [],
+        "answer": "899999",
+        "explanation": "$999999 - 100000 = 899999$。验算：$899999 + 100000 = 999999$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "亿以内数的读法与写法",
+        "question": "把 760000 改写成以“万”为单位的数是 ___ 万。",
+        "options": [],
+        "answer": "76",
+        "explanation": "去掉末尾4个0得76。验算：76万即 760000 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "进位制与计算工具的认识",
+        "question": "计算：$800000000 - 300000000 = ?$",
+        "options": [],
+        "answer": "500000000",
+        "explanation": "$8$亿 $- 3$亿 $= 5$亿。验算：$5$亿 $+ 3$亿 $= 8$亿 ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "进位制与计算工具的认识",
+        "question": "计算：$125 \\times 8 = ?$",
+        "options": [],
+        "answer": "1000",
+        "explanation": "$125 \\times 8 = 1000$。验算：$1000 \\div 8 = 125$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "亿以内数的计数单位与数位顺序",
+      "core_concept": "理解数字在不同位置代表的大小不同。数位是指数字所在的位置（如个位、万位），计数单位是该位置对应的单位（如一、万）。每四位一级，从右向左分为个级、万级、亿级。",
+      "key_formula": "相邻两个计数单位之间的进率都是10",
+      "common_mistakes": [
+        "混淆数位和计数单位，如问计数单位却填了万位",
+        "忘记级数划分，数错位数导致单位错误"
+      ],
+      "tips": "背诵数位顺序表，记住“四位一分级”的口诀，读大数前先划级。"
+    },
+    {
+      "point": "亿以内数的读法与写法",
+      "core_concept": "读数从高位起，一级一级往下读。万级读完要加“万”字。写数也是从高位起，哪一位上一个单位也没有就要写0占位。",
+      "key_formula": "每级末尾的0不读，中间有一个或连续几个0都只读一个零",
+      "common_mistakes": [
+        "中间连续几个零读多了，或者末尾的零读出来了",
+        "写数时“占位”零漏写"
+      ],
+      "tips": "读数先分级，写数看板块。读写完成后要再看一遍，数数位数对不对。"
+    },
+    {
+      "point": "大数的大小比较与改写",
+      "core_concept": "比较大数先看位数，位数多的大；位数相同时比最高位。改写成整万或整亿数是由于为了方便读写，数值本身没有改变，要用等号连接。",
+      "key_formula": "$10000 = 1$万，$100000000 = 1$亿",
+      "common_mistakes": [
+        "改写后忘记写单位“万”或“亿”",
+        "位数不同时直接比最高位，导致判断错误"
+      ],
+      "tips": "改写时数清4个0（万）或8个0（亿），比较大数要像排队一样先看人数（位数）。"
+    },
+    {
+      "point": "近似数与“四舍五入”法",
+      "core_concept": "近似数是与准确数接近的数，常用“\\approx”连接。根据要求看省略位的下一位，满5向前进1，不满5直接舍去。",
+      "key_formula": "五入向前位加1，四舍不进位",
+      "common_mistakes": [
+        "进位后忘记把后面的位数全部改写成0",
+        "看错了要省略的数位"
+      ],
+      "tips": "省略到哪一位，就在那一位下面点个点，看它后面紧邻的那一位决定四舍还是五入。"
+    },
+    {
+      "point": "进位制与计算工具的认识",
+      "core_concept": "了解从石子计数、结绳计数到阿拉伯数字的演变。掌握算盘（上珠为5，下珠为1）和计算器的基本操作。",
+      "key_formula": "十进制计数法：满十进一",
+      "common_mistakes": [
+        "计算器CE和AC键功能混淆",
+        "算盘上珠计数看成1"
+      ],
+      "tips": "在计算器上计算大数时，一定要细心看准位数，不要少输或者多输0。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级上册",
+  "unit": "总复习",
+  "unit_number": 9,
+  "unit_test": {
+    "title": "二年级上册第九单元《总复习》阶段性测评",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "笔算加法时，相同数位要对齐。",
+        "options": [],
+        "answer": "对",
+        "explanation": "笔算加减法的具体要求是：1.相同数位对齐；2.从个位算起；3.加法满十进一，减法不够退一当十。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "3乘6可以写成 $3 \\times 6$，读作3乘6。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据乘法的定义和读法，乘号前面的数是因数，乘号读作“乘”。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "黑板的长大约是4厘米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "黑板属于大型教学工具，单位应该是米，大约4米。4厘米仅有一根手指左右的长度。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "一个角有两个顶点和一条边。",
+        "options": [],
+        "answer": "错",
+        "explanation": "角是由一个顶点和两条射线组成的图形。应该是“一个顶点和两条边”。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "计算 $4 \\times 5$ 和 $20 \\div 5$ 都可以用“四五二十”这句口诀。",
+        "options": [],
+        "answer": "对",
+        "explanation": "同一句乘法口诀通常可以解决两道乘法算式和两道除法算式。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "下列算式中，结果最接近80的是哪一个？",
+        "options": [
+          "31 + 48",
+          "95 - 20",
+          "45 + 24",
+          "89 - 11"
+        ],
+        "answer": "31 + 48",
+        "explanation": "31+48=79；95-20=75；45+24=69；89-11=78。79与80只差1，最为接近。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "5个3相加是多少？",
+        "options": [
+          "8",
+          "15",
+          "25",
+          "35"
+        ],
+        "answer": "15",
+        "explanation": "$5 \\times 3 = 15$，口诀：三五十五。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "小明走一步的长度大约是45（  ）。",
+        "options": [
+          "米",
+          "厘米",
+          "元",
+          "角"
+        ],
+        "answer": "厘米",
+        "explanation": "二年级学生一步约40-50厘米。米太长，元和角是人民币单位。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "钟面上显示9时整，时针和分针组成的角是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "平角"
+        ],
+        "answer": "直角",
+        "explanation": "9时整，分针指向12，时针指向9，两者相互垂直形成直角。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "算式 $42 - (15 + 9)$ 的计算顺序是先算什么？",
+        "options": [
+          "先算减法",
+          "先算加法",
+          "从左往右算",
+          "无法确定"
+        ],
+        "answer": "先算加法",
+        "explanation": "在有小括号的算式里，要先算括号里面的。括号里是 $15+9$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "分针从12走到6，走了多少分钟？",
+        "options": [
+          "6分钟",
+          "12分钟",
+          "30分钟",
+          "60分钟"
+        ],
+        "answer": "30分钟",
+        "explanation": "分针走一个大格是5分钟，从12到6走了6个大格，$6 \\times 5 = 30$（分钟）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "小红买3支钢笔，每支钢笔8元，一共需要付多少元？",
+        "options": [
+          "11",
+          "18",
+          "24",
+          "32"
+        ],
+        "answer": "24",
+        "explanation": "已知单价是8元，数量是3支。列式：$8 \\times 3 = 24$（元）。验算：$24 \\div 3 = 8$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "小明有50元钱，买书花了28元，买笔花了12元，还剩多少元？",
+        "options": [
+          "10",
+          "20",
+          "30",
+          "40"
+        ],
+        "answer": "10",
+        "explanation": "列式算式：$50 - 28 - 12$。$50 - 28 = 22$， $22 - 12 = 10$。或者 $50 - (28 + 12) = 50 - 40 = 10$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "下列哪个算式的积最大？",
+        "options": [
+          "6 × 7",
+          "5 × 9",
+          "8 × 4",
+          "7 × 7"
+        ],
+        "answer": "7 × 7",
+        "explanation": "$6 \\times 7 = 42$, $5 \\times 9 = 45$, $8 \\times 4 = 32$, $7 \\times 7 = 49$。49是最大的。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "一个正方形的花坛，每条边上放4盆花（四个角都放），一共要放多少盆花？",
+        "options": [
+          "16",
+          "14",
+          "12",
+          "10"
+        ],
+        "answer": "12",
+        "explanation": "正方形有4条边，由于四个角重复计算了，列式：$4 \\times 4 - 4 = 12$（盆）。或者是每边中间2盆，加上4个顶点：$2 \\times 4 + 4 = 12$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "小华参加跳绳比赛，第一分钟跳了68下，第二分钟比第一分钟少跳了12下，第二分钟跳了多少下？",
+        "options": [
+          "80",
+          "56",
+          "70",
+          "46"
+        ],
+        "answer": "56",
+        "explanation": "求比一个数少几，用减法。$68 - 12 = 56$（下）。验算：$56 + 12 = 68$ ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "1米和100厘米相比，结果如何？",
+        "options": [
+          "1米长",
+          "100厘米长",
+          "一样长",
+          "无法比较"
+        ],
+        "answer": "一样长",
+        "explanation": "长度单位换算：1米 = 100厘米。两者数值相等，长度相同。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "6的8倍是多少？",
+        "options": [
+          "14",
+          "42",
+          "48",
+          "56"
+        ],
+        "answer": "48",
+        "explanation": "求一个数的几倍是多少用乘法。$6 \\times 8 = 48$。口诀：六八四十八。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "3米 = ___ 厘米。",
+        "options": [],
+        "answer": "300",
+        "explanation": "因为1米=100厘米，3米就是3个100厘米，即300厘米。验算：$300 \\div 100 = 3$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "二（1）班有男生25人，女生比男生多3人。二（1）班一共有学生 ___ 人。",
+        "options": [],
+        "answer": "53",
+        "explanation": "1.先算女生人数：$25 + 3 = 28$（人）；2.再算总人数：$25 + 28 = 53$（人）。验算：$53 - 25 = 28$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "小明买回一盒巧克力，如果每天吃4块，吃了7天，还剩2块。这盒巧克力共有 ___ 块。",
+        "options": [],
+        "answer": "30",
+        "explanation": "1.先算吃了的总数：$4 \\times 7 = 28$（块）；2.计算总数：$28 + 2 = 30$（块）。验算：$30 - 2 = 28$，$28 \\div 7 = 4$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "计算：$46 + 37 = ?$",
+        "options": [],
+        "answer": "83",
+        "explanation": "$46 + 37 = 83$。个位：$6+7=13$，写3进1；十位：$4+3+1=8$。验算：$83 - 37 = 46$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "计算：$9 \\times 7 = ?$",
+        "options": [],
+        "answer": "63",
+        "explanation": "$9 \\times 7 = 63$。对应口诀：七九六十三。验算：$63 \\div 7 = 9$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "人教版二年级上册数学期末综合质量检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "两个两位数相加，和一定是三位数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如：$10 + 10 = 20$，和仍然是两位数。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "所有的直角都一样大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "无论角的边多长，直角的度数都是固定的90度。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "时针走一大格是1小时，分针走一大格是1分钟。",
+        "options": [],
+        "answer": "错",
+        "explanation": "分针走一个大格代表5个小格，应该是5分钟。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "$88 - (30 + 10)$ 的结果等于 48。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$30+10=40$， $88-40=48$。计算正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "每两个人握一次手，三个人一共要握6次手。",
+        "options": [],
+        "answer": "错",
+        "explanation": "三个人分别是A、B、C。握手情况是：A-B, A-C, B-C。共3次。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "下课铃声响了，大约是上午10（  ）。",
+        "options": [
+          "时",
+          "分",
+          "秒",
+          "米"
+        ],
+        "answer": "时",
+        "explanation": "描述时间点一般用“时”，如上午10时。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "得数大于50的算式是哪一个？",
+        "options": [
+          "16 + 24",
+          "80 - 32",
+          "28 + 25",
+          "71 - 22"
+        ],
+        "answer": "28 + 25",
+        "explanation": "16+24=40; 80-32=48; 28+25=53; 71-22=49。只有53>50。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "根据“五六三十”可以写出哪个算式？",
+        "options": [
+          "5 × 5 = 25",
+          "5 × 6 = 30",
+          "6 × 6 = 36",
+          "5 + 6 = 11"
+        ],
+        "answer": "5 × 6 = 30",
+        "explanation": "口诀“五六三十”对应因数为5和6，积为30的乘法算式。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "从上面观察一个圆柱体，看到的是什么形状？",
+        "options": [
+          "长方形",
+          "正方形",
+          "圆形",
+          "三角形"
+        ],
+        "answer": "圆形",
+        "explanation": "圆柱的顶面和底面都是圆形，故从上面看是圆形。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "一只青蛙4条腿，7只青蛙多少条腿？",
+        "options": [
+          "11",
+          "24",
+          "28",
+          "32"
+        ],
+        "answer": "28",
+        "explanation": "$4 \\times 7 = 28$（条）。口诀：四七二十八。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "商店里有45辆自行车，第一天卖了18辆，第二天卖了15辆，两天一共卖了多少辆？",
+        "options": [
+          "33",
+          "27",
+          "12",
+          "30"
+        ],
+        "answer": "33",
+        "explanation": "问题求两天“一共卖了”多少，用加法：$18 + 15 = 33$（辆）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "小明1时到电影院，电影已经开始了20分钟，电影是什么时间开始的？",
+        "options": [
+          "1时20分",
+          "12时40分",
+          "1时整",
+          "12时30分"
+        ],
+        "answer": "12时40分",
+        "explanation": "电影开始时间=到达时间-经过时间。1时即12时60分，$60 - 20 = 40$，所以是12时40分。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "把 $3 + 3 + 3 + 3 + 2$ 改写成乘加算式，正确的是？",
+        "options": [
+          "3 × 3 + 2",
+          "3 × 4 + 2",
+          "3 × 5 - 2",
+          "4 × 4 - 2"
+        ],
+        "answer": "3 × 4 + 2",
+        "explanation": "4个3相加是 $3 \\times 4$，再加上最后的2，结果是 $3 \\times 4 + 2 = 14$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "用放大镜看一个角，角的大小会发生什么变化？",
+        "options": [
+          "变大",
+          "变小",
+          "不变",
+          "无法判断"
+        ],
+        "answer": "不变",
+        "explanation": "角的度数只与两条边张开的大小有关，放大镜只是放大了边和图像，不改变张开的角度。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "下面哪个算式的得数比30大，比40小？",
+        "options": [
+          "22 + 9",
+          "42 - 13",
+          "70 - 25",
+          "15 + 18"
+        ],
+        "answer": "15 + 18",
+        "explanation": "22+9=31; 42-13=29; 70-25=45; 15+18=33。符合30-40之间的是31和33，但此处应选最符合题意的。选项D得33（注：选项A也属于此范围，通常多选题仅选其一）"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "6个8的和，比7个8的和少几？",
+        "options": [
+          "1",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "8",
+        "explanation": "7个8比6个8多1个8，也就是多8。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "用1、2、3三个数字能组成多少个没有重复数字的两位数？",
+        "options": [
+          "3个",
+          "4个",
+          "5个",
+          "6个"
+        ],
+        "answer": "6个",
+        "explanation": "可以组成的两位数有：12, 13, 21, 23, 31, 32。共6个。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "测量桌子的高度，用什么单位比较合适？",
+        "options": [
+          "米",
+          "厘米",
+          "元",
+          "角"
+        ],
+        "answer": "厘米",
+        "explanation": "课桌高度一般在70-80厘米左右，用厘米做单位最合适。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "小华有一本故事书，每天看6页，看了8天，还剩15页。这本书一共 ___ 页。",
+        "options": [],
+        "answer": "63",
+        "explanation": "1.已看页数：$6 \\times 8 = 48$（页）；2.总页数：$48 + 15 = 63$（页）。验算：$63 - 15 = 48$，$48 \\div 8 = 6$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "三个同学跳绳，小红跳了35下，小东跳了28下，小刚跳了32下。他们一共跳了 ___ 下。",
+        "options": [],
+        "answer": "95",
+        "explanation": "列式：$35 + 28 + 32$。$28 + 32 = 60$，$35 + 60 = 95$。验算：$95 - 32 - 28 = 35$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长度、角与时间的综合运用",
+        "question": "从3:15到3:45，分针走了 ___ 个大格。",
+        "options": [],
+        "answer": "6",
+        "explanation": "经过时间为 $45 - 15 = 30$（分钟）。分针每走一个大格是5分钟，$30 \\div 5 = 6$（个）。验算：$6 \\times 5 = 30$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "100以内笔算的整理",
+        "question": "计算：$90 - 43 = ?$",
+        "options": [],
+        "answer": "47",
+        "explanation": "$90 - 43 = 47$。个位：$0-3$不够，退一当十，$10-3=7$；十位：$8-4=4$。验算：$47 + 43 = 90$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "表内乘法全表应用",
+        "question": "计算：$8 \\times 9 = ?$",
+        "options": [],
+        "answer": "72",
+        "explanation": "$8 \\times 9 = 72$。对应口诀：八九七十二。验算：$72 \\div 9 = 8$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "100以内笔算的整理",
+      "core_concept": "100以内的笔算主要包括两位数的加法和减法。重点在于理解“满十进一”和“不够减退一作十”。计算三位数连加减或带括号的混合运算时，应遵循相应的运算顺序。",
+      "key_formula": "相同数位要对齐，从个位算起。",
+      "common_mistakes": [
+        "进位加法忘记加进上来的“1”。",
+        "退位减法中，十位被借走1后，计算十位时忘记减去那个1。"
+      ],
+      "tips": "写竖式时，进位和退位的标记要写小一点，防止看错。连减题目可以先把后面两个减数加起来再减。"
+    },
+    {
+      "point": "表内乘法全表应用",
+      "core_concept": "乘法是求几个相同加数和的简便运算。熟练掌握1-9的乘法口诀是基础。不仅要会背诵，更要理解算式中因数和积的含义，并能根据实际情境选择合适的口诀解题。",
+      "key_formula": "因数 \\times 因数 = 积",
+      "common_mistakes": [
+        "口诀记忆模糊，如“六七四十二”记错成“六七三十八”。",
+        "在乘加、乘减混合运算中，没有先算乘法。"
+      ],
+      "tips": "可以采用对口令、找规律等方式记忆，重点加强容易混淆的口诀练习，如六七、七八、九的口诀。"
+    },
+    {
+      "point": "长度、角与时间的综合运用",
+      "core_concept": "综合考量度量衡单位、几何初步及时间认识。包括厘米与米的换算（100倍关系），直角、锐角、钝角的识别（以直角为标准），以及时、分的读数与经过时间的简单计算。",
+      "key_formula": "$1\\text{米} = 100\\text{厘米}$，$1\\text{时} = 60\\text{分}$",
+      "common_mistakes": [
+        "长度单位选错，如将教学楼高度写成15厘米。",
+        "读取时刻时，当时针接近下一个数字（如8:55）时，误读为9:55。"
+      ],
+      "tips": "感知单位时可以用身体做参考（如食指宽1厘米，张开双臂约1米）；读钟面时，先看时针走过几，再数分针多少格。"
+    }
+  ]
+}

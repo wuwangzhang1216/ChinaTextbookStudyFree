@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级上册",
+  "unit": "观察物体（一）",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元「观察物体（一）」基础过关评价",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "我们从不同的位置观察同一个物体，看到的形状可能是不一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "基本概念：观察位置不同，看到的物体的部位就不同，所以看到的形状往往是不一样的。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "我们在任意位置观察一个正方体，最多可以看到它的 4 个面。",
+        "options": [],
+        "answer": "错",
+        "explanation": "观察规律：站在一个位置观察一个正方体，最多能看到它的3个面（即正面、侧面和上面）。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "从正面观察一个球体，看到的形状是一个圆。",
+        "options": [],
+        "answer": "对",
+        "explanation": "球体的特性：球体从任何方向看过去都是圆形的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "观察立体图形",
+        "question": "如果从正面看到一个物体的形状是正方形，那么这个物体一定是正方体。",
+        "options": [],
+        "answer": "错",
+        "explanation": "反例推导：长方体的一端如果是正方形，从正面看也是正方形，所以不一定是正方体。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "四个小朋友围坐在一起观察一个小汽车玩具，他们看到的形状一定都相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "围坐意味着位置不同（前、后、左、右），看到的汽车部位（车头、车尾、侧面）是不同的。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "小明站在讲台正前方观察老师的办公桌，他看到的是桌子的哪个面？",
+        "options": [
+          "正面",
+          "后面",
+          "侧面",
+          "上面"
+        ],
+        "answer": "正面",
+        "explanation": "站在物体正前方，观察到的就是物体的正面。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "从上面观察一个长方体（不含正方形面），看到的形状是：",
+        "options": [
+          "圆形",
+          "长方形",
+          "正方形",
+          "三角形"
+        ],
+        "answer": "长方形",
+        "explanation": "长方体的上面、正面、侧面通常都是长方形。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "哪种物体的每一个面看起来都是完全相同的正方形？",
+        "options": [
+          "长方体",
+          "圆柱",
+          "正方体",
+          "球"
+        ],
+        "answer": "正方体",
+        "explanation": "正方体的特征是 6 个面都是完全相同的正方形。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空间观念建立",
+        "question": "小红正在拍皮球，小强站在小红的左侧，小强看到的是：",
+        "options": [
+          "小红的正面",
+          "小红的左侧面",
+          "小红的右侧面",
+          "小红的后面"
+        ],
+        "answer": "小红的左侧面",
+        "explanation": "观察者在左侧，看到的自然是物体的左侧。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "从正面观察一个竖着的圆柱，看到的形状是：",
+        "options": [
+          "圆形",
+          "正方形",
+          "长方形",
+          "椭圆"
+        ],
+        "answer": "长方形",
+        "explanation": "竖放的圆柱从正面或侧面看都是长方形，从上面看才是圆形。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空间观念建立",
+        "question": "如果你看到一个物体的形状是圆，它不可能是下面哪一个？",
+        "options": [
+          "球",
+          "圆柱",
+          "闹钟的表面",
+          "正方体"
+        ],
+        "answer": "正方体",
+        "explanation": "正方体无论从哪个方向看都只能是方形，不可能看到圆形。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "妈妈在洗衣服，小林在妈妈身后，他看到的是妈妈的哪一部分？",
+        "options": [
+          "正脸",
+          "背部",
+          "左手",
+          "右手"
+        ],
+        "answer": "背部",
+        "explanation": "在身后观察，看到的是物体的后面（背面）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "从上面观察一本书（横放在桌上），看到的形状是：",
+        "options": [
+          "长方形",
+          "正方形",
+          "厚度",
+          "无法确定"
+        ],
+        "answer": "长方形",
+        "explanation": "书的封面和底面通常是长方形的。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空间观念建立",
+        "question": "一个正方体木块，小明把它放在桌子上。他最多能看到几个面？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "3个",
+        "explanation": "原理验算：由于视点限制，在一个固定角度不可能同时看到超过3个互相对立的面。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "小猫从树后观察路上的行人和车辆，它只能看到物体的：",
+        "options": [
+          "前面",
+          "后面",
+          "侧面",
+          "上面"
+        ],
+        "answer": "后面",
+        "explanation": "树在车后面，小猫在树后面，所以看到的是车或人的后部。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "正方体有几个面？",
+        "options": [
+          "4个",
+          "6个",
+          "8个",
+          "12个"
+        ],
+        "answer": "6个",
+        "explanation": "正方体由6个完全一样的正方形组成。验算：上、下、前、后、左、右各一个，共6个。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空间观念建立",
+        "question": "从小狗的右侧观察它，能看到它的：",
+        "options": [
+          "尾巴",
+          "右耳朵",
+          "左耳朵",
+          "鼻子"
+        ],
+        "answer": "右耳朵",
+        "explanation": "在右侧观察，能够看到的属于侧面的特征部位是右耳。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察立体图形",
+        "question": "把两个完全一样的正方体拼成一个长方体，拼成的长方体有几个面？",
+        "options": [
+          "6个",
+          "10个",
+          "12个",
+          "8个"
+        ],
+        "answer": "6个",
+        "explanation": "虽然是两个正方体拼成的，但形成的新物体仍然是一个长方体，长方体固定有6个面。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "正方体有 ___ 个面，这些面的形状完全相同。",
+        "options": [],
+        "answer": "6",
+        "explanation": "知识点直接应用：正方体共有6个面。验算：上下面2个，前后面2个，左右面2个，2+2+2=6。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察立体图形",
+        "question": "从正面看一个长方体，看到了一个长方形；从侧面看，也看到了一个长方形。这个长方体至少有 ___ 个面是长方形。",
+        "options": [],
+        "answer": "4",
+        "explanation": "长方体的成对特性：正面看到长方形，背面也一定是；侧面看到长方形，另一侧也一定是。$2 + 2 = 4$。验算：最少情况是两端是正方形，四周4个长方形。✓"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空间观念建立",
+        "question": "如果我们从不同的方向观察一个球，看到的图形都是圆的。观察 10 个不同的球，一共能看到 ___ 种不同的形状。",
+        "options": [],
+        "answer": "1",
+        "explanation": "逻辑推理：球体在任何方位看的形状都是圆，无论多少个球，形状这一属性只有“圆”这一种。✓"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "计算：$3 \times 2 = ?$",
+        "options": [],
+        "answer": "6",
+        "explanation": "$3 \times 2 = 6$。验算：$2+2+2 = 6$。本题对应正方体3个面可见，若两个正方体合起来数可见面的趣味计算。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "计算：$12 - 6 = ?$",
+        "options": [],
+        "answer": "6",
+        "explanation": "$12 - 6 = 6$。验算：$6 + 6 = 12$。对应正方体棱的数目减去面的数目的算理。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级数学上册第五单元「观察物体」综合能力测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "观察一个闹钟，从前面看到的是钟面，从后面看到的是背壳。",
+        "options": [],
+        "answer": "对",
+        "explanation": "生活常识与观察位置的关系。闹钟正面是针，背面是壳。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "圆柱从上面看是一个圆。",
+        "options": [],
+        "answer": "对",
+        "explanation": "圆柱体的几何特征。上下底面都是圆。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "观察立体图形",
+        "question": "长方体的每一个面都一定是长方形，不能有正方形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "长方体定义的特殊情况。长方体可以有两个相对的面是正方形。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "当我们离物体很远时，观察到的形状和很近时相比是完全相同的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "形状是特征属性。远近只改变大小，不改变观察方位的形状性质。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "空间观念建立",
+        "question": "一个物体从正面看是长方形，从上面看是圆，它一定是圆柱。",
+        "options": [],
+        "answer": "对",
+        "explanation": "组合推理：侧面是长方形且顶面是圆，符合圆柱体的三视图特征。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "小明走在小华后面，小明看到的是小华的：",
+        "options": [
+          "正面",
+          "左侧",
+          "右侧",
+          "后面"
+        ],
+        "answer": "后面",
+        "explanation": "在人身后，看到的是人的背部，即后面。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "从正面观察一个足球，看到的形状是：",
+        "options": [
+          "长方形",
+          "正方形",
+          "圆形",
+          "六边形"
+        ],
+        "answer": "圆形",
+        "explanation": "足球是球体，球体各个方向看都是圆。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空间观念建立",
+        "question": "如果你看到一个物体的形状是正方形，这个物体不可能是：",
+        "options": [
+          "正方体",
+          "长方体",
+          "球",
+          "魔方"
+        ],
+        "answer": "球",
+        "explanation": "球从任何角度看都是圆。正方体、长方体、魔方都能看到方形。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "要把一个大纸箱看全，我们至少要站在几个位置？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "2个",
+        "explanation": "推理：由于一个位置最多看3个面，纸箱有6个面，所以至少需要2个位置（如对角观察）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "摄影师给坐姿的小朋友拍照，从头顶往下拍，拍到的是小朋友的：",
+        "options": [
+          "侧面",
+          "正面",
+          "后面",
+          "上面"
+        ],
+        "answer": "上面",
+        "explanation": "俯拍看到的视角是物体的顶面/上面。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空间观念建立",
+        "question": "一个物体从正面、侧面、上面看都是完全一样的正方形，这是：",
+        "options": [
+          "正方体",
+          "长方体",
+          "圆柱",
+          "球"
+        ],
+        "answer": "正方体",
+        "explanation": "只有正方体具备三向观察完全相等的特性。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察立体图形",
+        "question": "圆柱的侧面（围着的一周）展开后是什么形状？",
+        "options": [
+          "长方形",
+          "圆形",
+          "三角形",
+          "梯形"
+        ],
+        "answer": "长方形",
+        "explanation": "知识点：圆柱的侧面是一个曲面，展开后是一个长方形。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "三个人观察一个水壶，结果看到的形状都不一样。这说明：",
+        "options": [
+          "水壶会变",
+          "三个人看的位置不同",
+          "三个人眼花了",
+          "水壶太小"
+        ],
+        "answer": "三个人看的位置不同",
+        "explanation": "归因分析：位置不同导致观察结果不同是本单元的核心原理。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空间观念建立",
+        "question": "在观察者面前放一个杯子，手柄朝向观察者，看到的形状是：",
+        "options": [
+          "一个圆",
+          "杯子的侧面",
+          "杯子的正面连着手柄",
+          "只看到手柄"
+        ],
+        "answer": "杯子的正面连着手柄",
+        "explanation": "物体方位描述。手柄正对由于透视关系会看到正面和突出的手柄。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空间观念建立",
+        "question": "小华从正面看到是一个长方形，小红从侧面看也是一个长方形，这一定是一个：",
+        "options": [
+          "正方体",
+          "长方体",
+          "球",
+          "圆柱"
+        ],
+        "answer": "长方体",
+        "explanation": "排除法。正方体看到应是正方形，球是圆，圆柱侧面看是长方形但正面看可能由于摆放是长方形也可能是圆（本题描述符合长方体特征）。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "在下列立体图形中，从任何方向观察，看到的形状都相同的是：",
+        "options": [
+          "长方体",
+          "正方体",
+          "圆柱",
+          "球"
+        ],
+        "answer": "球",
+        "explanation": "物理特性：球体在空间中是完全对称的，投影均为圆。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "从不同位置观察物体",
+        "question": "看一本立在书架上的书的侧面（书脊），你看到的是：",
+        "options": [
+          "很窄的长方形",
+          "很大的正方形",
+          "圆形",
+          "三角形"
+        ],
+        "answer": "很窄的长方形",
+        "explanation": "书的侧面（书脊）是一个长条形的平面。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空间观念建立",
+        "question": "如果一个物体从正面看是正方形，侧面看是长方形，它最有可能是：",
+        "options": [
+          "正方体",
+          "长方体",
+          "球",
+          "圆柱"
+        ],
+        "answer": "长方体",
+        "explanation": "逻辑：长方体可以有两面是正方形，其余面是长方形。圆柱侧面只能看到一种长方形形状。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察立体图形",
+        "question": "一个正方体有 6 个面。如果有 2 个这样的正方体，它们一共有 ___ 个面。",
+        "options": [],
+        "answer": "12",
+        "explanation": "列式：$6 \times 2 = 12$（个）。验算：$6 + 6 = 12$。单体面数乘以个数即可。✓"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "空间观念建立",
+        "question": "小明观察一个长方体，他最多能看到 ___ 个面。",
+        "options": [],
+        "answer": "3",
+        "explanation": "根据观察规律，在固定位置观察立体图形，最多看到3个面。验算：前、右、上三个面是共顶点的。✓"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "空间观念建立",
+        "question": "有 3 个小朋友站在一张方桌的三边。如果每边各站一人，桌子还空出 ___ 条边没人站。",
+        "options": [],
+        "answer": "1",
+        "explanation": "列式：$4 - 3 = 1$（条）。验算：桌子是方桌，有4条边，3个人各占1条，还剩1条。✓"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察立体图形",
+        "question": "计算：$6 \times 4 = ?$",
+        "options": [],
+        "answer": "24",
+        "explanation": "$6 \times 4 = 24$。验算：$24 \times 1 = 24$ 或 $4+4+4+4+4+4=24$。对应四个正方体的面数统计。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "空间观念建立",
+        "question": "计算：$10 - 2 \times 3 = ?$",
+        "options": [],
+        "answer": "4",
+        "explanation": "计算过程：先算乘法 $2 \times 3 = 6$，再算减法 $10 - 6 = 4$。验算：$4 + 6 = 10$。对应观察物体中排除遮挡面后的可见面计算类似逻辑。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "从不同位置观察物体",
+      "core_concept": "人站在不同的位置观察同一个物体，看到的物体的部位是不一样的，所以看到的物体的形状也可能是不一样的。通常我们从正面、后面、左侧面、右侧面和上面五个主要角度来辨认。",
+      "key_formula": "观察位置不同 $\rightarrow$ 看到的形状可能不同",
+      "common_mistakes": [
+        "混淆左、右侧面看到的形状，尤其是带有方向性的物体（如车头朝向）",
+        "认为同一个物体无论从哪看形状都应该一样"
+      ],
+      "tips": "观察时要通过‘身临其境’的想象，把自己假想成站在那个位置的人，看物体的特征部位在哪里。"
+    },
+    {
+      "point": "观察立体图形",
+      "core_concept": "对于简单的立体图形（长方体、正方体、圆柱、球），从不同方向看到的形状具有特定规律。例如，正方体任何面都是正方形；圆柱从上面看是圆，从正面看通常是长方形。",
+      "key_formula": "球：各方向都是圆；正方体：各方向都是正方形",
+      "common_mistakes": [
+        "错误认为长方体从各个面看都是长方形（忽略可能存在正方形面的情况）",
+        "将圆柱的侧面看成圆形"
+      ],
+      "tips": "记住‘三看’口诀：一看正面，二看侧面，三看上面，立体形状全呈现。"
+    },
+    {
+      "point": "空间观念建立",
+      "core_concept": "空间观念是指能够通过物体的形状推断观察者的位置，或者通过观察者的位置推断出应有的形状。关键在于理解‘遮挡’和‘角度’对视觉的影响。",
+      "key_formula": "固定位置最高可见面数 = 3",
+      "common_mistakes": [
+        "在平面练习中无法还原立体动态，导致方位判断错误",
+        "数物体面数时重复计数或漏记（如合并图形的隐藏面）"
+      ],
+      "tips": "可以亲自动手拿一个纸盒，从不同角度转一转，数一数能看到几个面，以此增强空间感。"
+    }
+  ]
+}

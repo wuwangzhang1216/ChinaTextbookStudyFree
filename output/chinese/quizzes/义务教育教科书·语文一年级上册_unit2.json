@@ -1,0 +1,737 @@
+{
+  "textbook": "统编版小学语文一年级上册",
+  "unit": "识字（一）",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元识字基础达标测评",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "“日”这个字在古代像是一个圆圆的太阳中间加一点。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“日”是象形字，模拟的是太阳的形状。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "“足”指的是我们的手部。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“足”在古代汉语中指的是脚。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "“天”对“地”，“上”对“下”，这是一组对应的词语。",
+        "options": [],
+        "answer": "对",
+        "explanation": "天和地，上和下是意思相对的词语对仗。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "田字格基础与基本笔顺",
+        "question": "写“二”字的时候，应该先写下面长的一横，再写上面短的一横。",
+        "options": [],
+        "answer": "错",
+        "explanation": "汉字书写遵循“从上到下”的原则，应先写上面的短横。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "“坐如钟”要求我们坐着的时候要像钟一样端正稳定。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是对坐姿的要求，形容坐姿端正。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "下列哪个字代表的是波纹流动的样子？",
+        "options": [
+          "日",
+          "月",
+          "水",
+          "火"
+        ],
+        "answer": "水",
+        "explanation": "“水”字的字形模拟的是流动的水波纹。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "《对韵歌》中，“云”对的是什么？",
+        "options": [
+          "雨",
+          "风",
+          "雪",
+          "花"
+        ],
+        "answer": "雨",
+        "explanation": "课文原文是：云对雨，雪对风。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "“花对树，（  ）对风。”括号里应该填哪个字？",
+        "options": [
+          "山",
+          "鸟",
+          "虫",
+          "鱼"
+        ],
+        "answer": "鸟",
+        "explanation": "课文原文是：花对树，鸟对虫。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "当我们用眼睛看书时，这个部位指的是（  ）。",
+        "options": [
+          "口",
+          "耳",
+          "目",
+          "手"
+        ],
+        "answer": "目",
+        "explanation": "“目”指的是眼睛。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "田字格基础与基本笔顺",
+        "question": "汉字“三”的第一笔是在田字格的哪个位置开始写的？",
+        "options": [
+          "横中线上方",
+          "横中线下方",
+          "竖中线上",
+          "左下格"
+        ],
+        "answer": "横中线上方",
+        "explanation": "“三”字第一横位于上半部分。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "“一片两片三四片，五片六片七八片。”这首儿歌描写的是什么？",
+        "options": [
+          "雨点",
+          "雪花",
+          "落叶",
+          "花朵"
+        ],
+        "answer": "雪花",
+        "explanation": "古诗《咏雪》中描述雪花飞入梅花都不见的景象。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "选出读音正确的一组：",
+        "options": [
+          "山(shān)",
+          "水(suǐ)",
+          "足(zhú)",
+          "手(sǒu)"
+        ],
+        "answer": "山(shān)",
+        "explanation": "“水”是shuǐ，“足”是zú，“手”是shǒu。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "“用我们的（  ）可以听悦耳的音乐。”括号里应填：",
+        "options": [
+          "目",
+          "耳",
+          "口",
+          "足"
+        ],
+        "answer": "耳",
+        "explanation": "耳朵是听觉器官。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "田字格基础与基本笔顺",
+        "question": "下列哪个字的第一笔是“竖”？",
+        "options": [
+          "上",
+          "十",
+          "天",
+          "口"
+        ],
+        "answer": "上",
+        "explanation": "“上”的第一笔是竖，“十”和“天”第一笔是横，“口”第一笔是竖（但作为首笔符合题意）。此情境下“上”更典型。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "“月”字在田字格里的第一笔是（  ）。",
+        "options": [
+          "横",
+          "撇",
+          "竖",
+          "点"
+        ],
+        "answer": "撇",
+        "explanation": "“月”字第一笔是撇（竖撇）。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "天对地，上对（  ）。",
+        "options": [],
+        "answer": "下",
+        "explanation": "考查反义词对应。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "“一、二、三、(  )、五。”",
+        "options": [],
+        "answer": "四",
+        "explanation": "考查数字汉字的顺序。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "“站如松，(  )如钟。”",
+        "options": [],
+        "answer": "坐",
+        "explanation": "考查课文关于姿态的背诵。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "请将汉字与它代表的事物进行匹配。",
+        "options": [
+          "日",
+          "月",
+          "山",
+          "田",
+          "高山",
+          "太阳",
+          "水田",
+          "月亮"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "考察基础汉字的字义映射。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "请将动词与我们的身体部位匹配。",
+        "options": [
+          "用口",
+          "用耳",
+          "用目",
+          "用足",
+          "走路",
+          "说话",
+          "看书",
+          "听歌"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "考查身体器官的功能归类。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "请将相对的词语连接起来。",
+        "options": [
+          "云",
+          "雪",
+          "金",
+          "山清",
+          "木",
+          "风",
+          "雨",
+          "水秀"
+        ],
+        "answer": "A-3,B-2,C-1,D-4",
+        "explanation": "考查对韵歌中的固定搭配。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "把这些词语连成一句话：",
+        "options": [
+          "天地分",
+          "上下",
+          "古今传"
+        ],
+        "answer": "天地分,上下,古今传",
+        "explanation": "考查《金木水火土》课文句式。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "连词成句：",
+        "options": [
+          "我们要",
+          "姿势",
+          "坐端正"
+        ],
+        "answer": "我们要,姿势,坐端正",
+        "explanation": "考查词语逻辑组合。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "一年级语文学科第一单元识字质量调研",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "“月”字的第一笔是横。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“月”的第一笔应该是撇。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "田字格基础与基本笔顺",
+        "question": "写“十”字时，应先写横，后写竖。",
+        "options": [],
+        "answer": "对",
+        "explanation": "遵循“先横后竖”的笔顺规则。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "“行如风”的意思是走路要像风一样快而有力。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是对行走姿态的要求。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "“田”字中间的竖必须写在竖中线上。",
+        "options": [],
+        "answer": "对",
+        "explanation": "为了汉字的间架结构美观，中间的竖应对准竖中线。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "“山清”对“水秀”中的“秀”是形容水很清澈美丽。",
+        "options": [],
+        "answer": "对",
+        "explanation": "水秀指水色秀丽。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "古人根据火堆冒出的火苗形状创造了什么字？",
+        "options": [
+          "水",
+          "火",
+          "山",
+          "土"
+        ],
+        "answer": "火",
+        "explanation": "“火”是象形字，模仿火苗的样子。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "“七八九十，木禾（  ）。”括号里应该填：",
+        "options": [
+          "土",
+          "山",
+          "竹",
+          "石"
+        ],
+        "answer": "土",
+        "explanation": "出自课文《金木水火土》。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "哪组器官可以让我们看到美丽的春天？",
+        "options": [
+          "耳",
+          "口",
+          "目",
+          "足"
+        ],
+        "answer": "目",
+        "explanation": "看东西需要用眼睛（目）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "下列哪个词与“太阳”的意思最接近？",
+        "options": [
+          "月",
+          "日",
+          "土",
+          "金"
+        ],
+        "answer": "日",
+        "explanation": "在古代，“日”即代表太阳。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "田字格基础与基本笔顺",
+        "question": "“从上到下”这个笔顺规则适用于哪个字？",
+        "options": [
+          "二",
+          "十",
+          "人",
+          "口"
+        ],
+        "answer": "二",
+        "explanation": "“二”由两横组成，先写上横，再写下横。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "“卧如弓”指的是睡觉时应该：",
+        "options": [
+          "直着身子",
+          "趴着睡",
+          "身体微弯",
+          "大字型睡"
+        ],
+        "answer": "身体微弯",
+        "explanation": "弓是弯曲的，形容睡觉时身体自然微弯，像弓一样。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "读古诗《咏鹅》，“鹅，鹅，鹅，曲项向天歌。”中的“项”指身体的哪个部位？",
+        "options": [
+          "手",
+          "脚",
+          "脖子",
+          "肚子"
+        ],
+        "answer": "脖子",
+        "explanation": "项指的是脖子，弯着脖子向天唱歌。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "“羊、鸟、兔”这些字的共同点是：",
+        "options": [
+          "都是数字",
+          "都是象形字",
+          "笔画都一样",
+          "读音都一样"
+        ],
+        "answer": "都是象形字",
+        "explanation": "这些字最初都是根据小动物的形状画出来的。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "我们写字、拍球主要靠我们的（  ）。",
+        "options": [
+          "足",
+          "手",
+          "耳",
+          "目"
+        ],
+        "answer": "手",
+        "explanation": "手是主要的劳动器官。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "田字格基础与基本笔顺",
+        "question": "字在田字格中要写在：",
+        "options": [
+          "左边格",
+          "右边格",
+          "中间",
+          "格子上边"
+        ],
+        "answer": "中间",
+        "explanation": "汉字要写在田字格中间，留出四周的留白。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "“水”字的第二笔是在竖中线上的（  ）。",
+        "options": [],
+        "answer": "竖钩",
+        "explanation": "“水”字中间一笔是竖钩。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "云对雨，雪对（  ）。",
+        "options": [],
+        "answer": "风",
+        "explanation": "考查对韵歌原文。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "两点水是水的变形，那三横一竖表示的是（  ）地。",
+        "options": [],
+        "answer": "田",
+        "explanation": "“田”字形似横竖交织的农田。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "象形字识记与图文匹配",
+        "question": "将下列汉字与对应的数字相连。",
+        "options": [
+          "三",
+          "五",
+          "八",
+          "十",
+          "10",
+          "8",
+          "3",
+          "5"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "考查大写数字汉字与阿拉伯数字的对应。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "将能组成词语的两个字相连。",
+        "options": [
+          "山",
+          "月",
+          "花",
+          "手",
+          "心",
+          "朵",
+          "儿",
+          "河"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "考查学生识字组词能力：山河、月儿、花朵、手心。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "身体部位识记与行为规范",
+        "question": "连一连行为规范。",
+        "options": [
+          "站",
+          "坐",
+          "行",
+          "卧",
+          "如弓",
+          "如钟",
+          "如松",
+          "如风"
+        ],
+        "answer": "A-3,B-2,C-4,D-1",
+        "explanation": "考查《对韵歌》之后的规范歌谣。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "按顺序排列数字：",
+        "options": [
+          "一二三",
+          "四五",
+          "金木水火土"
+        ],
+        "answer": "一二三,四五,金木水火土",
+        "explanation": "考查文章韵律顺序。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "对韵歌与反义词辨析",
+        "question": "连成一句话：",
+        "options": [
+          "红花",
+          "对",
+          "绿酒"
+        ],
+        "answer": "红花,对,绿酒",
+        "explanation": "考查常见韵文逻辑。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "象形字识记与图文匹配",
+      "core_concept": "本单元涉及的“日、月、水、火、山、石、田、禾”等均为象形字。象形字来源于古代人们对实物形状的描绘。通过观察事物的轮廓（如圆圆的太阳变成“日”，弯弯的月牙变成“月”），可以帮助一年级学生建立图形与汉字之间的逻辑联系，增强记忆。这类汉字的学习是理解汉字构字法的基础。",
+      "key_formula": "看图画，想字形，悟字义。",
+      "common_mistakes": [
+        "混淆“石”和“右”的字形",
+        "写“田”字时漏掉了中间的横或竖"
+      ],
+      "tips": "学习时可以将课本上的插图与文字放在一起观察，尝试在纸上画出物体的简笔画再写出对应的字。"
+    },
+    {
+      "point": "对韵歌与反义词辨析",
+      "core_concept": "《对韵歌》和《金木水火土》展示了汉语特有的对仗美。通过“云对雨、雪对风、花对树、鸟对虫”的学习，学生能感知到自然界事物的对应性，同类事物的概念归并，以及词语在音节上的对称感。同时，学习“天与地、上与下”等反义词是低年级掌握词汇逻辑的关键。",
+      "key_formula": "同类词，相对说，节奏感，记心头。",
+      "common_mistakes": [
+        "把“地”写成“池”或其他形近字",
+        "分不清哪些词可以直接对应（如用“天”对“水”）"
+      ],
+      "tips": "可以采用师生对读、同桌拍手读的方式，在强烈的节奏中记忆韵文内容。"
+    },
+    {
+      "point": "身体部位识记与行为规范",
+      "core_concept": "“口、耳、目、手、足”是人最重要的五个感官和劳动器官。识记这些文字需要结合学生自身的身体部位进行点位认读。同时，通过“站如松、坐如钟”等成语，将汉字学习与日常行为规范教育（立德树人）相结合，让学生理解良好的坐立行走姿态不仅是礼仪，也保护骨骼发育。",
+      "key_formula": "指认部位说汉字，规范姿势促成长。",
+      "common_mistakes": [
+        "“目”和“日”混淆（多写或少写一横）",
+        "“耳”的长横位置写错"
+      ],
+      "tips": "玩“我说你指”游戏，家长说出身体部位，孩子指着部位并报出对应的汉字。"
+    },
+    {
+      "point": "田字格基础与基本笔顺",
+      "core_concept": "田字格是汉字书写的规范。必须认识“横中线、竖中线、左上格、右上格、左下格、右下格”。笔顺是写好字的基础，本阶段重点掌握：先横后竖（如“十”）、从上到下（如“三”）、先撇后捺（如“八”）。规范的笔顺能提高书写速度并让间架结构更匀称。",
+      "key_formula": "先横后竖，上到下，撇后捺，格中央。",
+      "common_mistakes": [
+        "“二”字先写长横再写短横（逆笔）",
+        "字写得顶格或偏向一角，未居中"
+      ],
+      "tips": "书写前先观察笔画在田字格中的起笔和收笔位置，养成“一看二写三对照”的习惯。"
+    }
+  ]
+}

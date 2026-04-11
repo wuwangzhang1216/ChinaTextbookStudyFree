@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学五年级下册",
+  "unit": "总复习",
+  "unit_number": 9,
+  "unit_test": {
+    "title": "第五单元单元小测（总复习基础卷）",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "因为 $0.6 = 0.60$，所以它们的分数单位也相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$0.6$ 的分数单位是十分之一，$0.60$ 的分数单位是百分之一，虽然大小相等但意义不同。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "所有的偶数都是合数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数字 2 是偶数，但它是质数，不是合数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一个正方体的棱长扩大到原来的 2 倍，表面积就扩大到原来的 4 倍。",
+        "options": [],
+        "answer": "对",
+        "explanation": "表面积扩大的倍数是棱长扩大倍数的平方，$2 \\times 2 = 4$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "容积的计算方法和体积的计算方法完全相同，只是从容器里面测量尺寸。",
+        "options": [],
+        "answer": "对",
+        "explanation": "计算规则一致，区别仅在于测量部位不同。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "统计与概率综合分析",
+        "question": "复式折线统计图不但能表示数量的多少，还能清楚地表示两个量增减变化的趋势。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是复式折线统计图的核心特点，便于比较两组数据的走势。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "下列各数中，既是 2 的倍数，又是 5 的倍数的是：",
+        "options": [
+          "12",
+          "15",
+          "20",
+          "22"
+        ],
+        "answer": "20",
+        "explanation": "同时是 2 和 5 的倍数，个位必须是 0。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "把 2 米长的绳子平均分成 5 段，每段占全长的：",
+        "options": [
+          "五分之一",
+          "五分之二",
+          "五分之三",
+          "五分之四"
+        ],
+        "answer": "五分之一",
+        "explanation": "求比例用 1 除以段数 5，得到五分之一。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "一个分数的分母扩大到原来的 3 倍，分子不变，这个分数：",
+        "options": [
+          "扩大到原来的 3 倍",
+          "缩小到原来的三分之一",
+          "大小不变",
+          "增加 3"
+        ],
+        "answer": "缩小到原来的三分之一",
+        "explanation": "根据分数的基本性质，分母扩大则分数值缩小。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一个长方体（非正方体）最多有几个面完全相同？",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4",
+        "explanation": "如果长方体有两个相对的面是正方形，则其他四个侧面完全相同。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "公顷和平方米之间的进率是：",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "answer": "10000",
+        "explanation": "$1 公顷 = 10000 平方米$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "下面哪个体积单位最大？",
+        "options": [
+          "立方分米",
+          "立方厘米",
+          "立方米",
+          "升"
+        ],
+        "answer": "立方米",
+        "explanation": "$1 立方米 = 1000 立方分米 = 1000000 立方厘米$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统计与概率综合分析",
+        "question": "要统计某地区一年内降雨量的变化情况，最适合用：",
+        "options": [
+          "条形统计图",
+          "折线统计图",
+          "统计表",
+          "复式条形统计图"
+        ],
+        "answer": "折线统计图",
+        "explanation": "折线统计图最擅长表现数据的变化趋势。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "分母是 8 的最简真分数共有几个？",
+        "options": [
+          "2",
+          "4",
+          "6",
+          "8"
+        ],
+        "answer": "4",
+        "explanation": "分别是 $\\frac{1}{8}, \\frac{3}{8}, \\frac{5}{8}, \\frac{7}{8}$，共 4 个。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "两个质数的积一定是：",
+        "options": [
+          "质数",
+          "合数",
+          "奇数",
+          "偶数"
+        ],
+        "answer": "合数",
+        "explanation": "积除了 1 和它本身，还有这两个质数作为因数，所以是合数。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一个长方体的长宽深分别是 3cm, 4cm, 5cm，它的表面积是：",
+        "options": [
+          "60",
+          "94",
+          "47",
+          "120"
+        ],
+        "answer": "94",
+        "explanation": "$(3 \\times 4 + 3 \\times 5 + 4 \\times 5) \\times 2 = (12 + 15 + 20) \\times 2 = 94$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "将一个长方体木块锯成两个完全一样的正方体，表面积比原来：",
+        "options": [
+          "减少了",
+          "增加了",
+          "不变",
+          "无法判断"
+        ],
+        "answer": "增加了",
+        "explanation": "切开后会多出两个截面，所以面积增加。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "至少用几个相同的小正方体才能拼成一个稍大的正方体？",
+        "options": [
+          "4",
+          "8",
+          "9",
+          "27"
+        ],
+        "answer": "8",
+        "explanation": "$2 \\times 2 \\times 2 = 8$，边长至少为 2 个单位。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "甲数是乙数的倍数，甲乙两数的最大公因数是：",
+        "options": [
+          "1",
+          "甲数",
+          "乙数",
+          "甲乙两数的积"
+        ],
+        "answer": "乙数",
+        "explanation": "倍数关系的两个数，小数是最大公因数，大数是最小公倍数。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "小明有 15 本书，借给小红 5 本，剩下的书占总数的几分之几？这里填分母：10/___。",
+        "options": [],
+        "answer": "15",
+        "explanation": "总数是 15，剩下 $15-5=10$。比例是 $10/15$。验算：$10+5=15$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一个正方体的棱长总和是 24 厘米，它的棱长是 ___ 厘米。",
+        "options": [],
+        "answer": "2",
+        "explanation": "正方体有 12 条棱。$24 \\div 12 = 2$。验算：$2 \\times 12 = 24$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一个长方体底面积是 15 平方厘米，高是 4 厘米，体积是 ___ 立方厘米。",
+        "options": [],
+        "answer": "60",
+        "explanation": "体积 = 底面积 $\\times$ 高。$15 \\times 4 = 60$。验算：$60 \\div 4 = 15$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "计算：$125 \\times 8 = ?$",
+        "options": [],
+        "answer": "1000",
+        "explanation": "$125 \\times 8 = 1000$。验算：$1000 \\div 8 = 125$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "计算：$48 + 52 = ?$",
+        "options": [],
+        "answer": "100",
+        "explanation": "$48 + 52 = 100$。验算：$100 - 52 = 48$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级下册期末综合学业水平测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "分数的分子和分母同时乘或除以相同的数，分数的大小不变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "必须是相同的非零数。如果同时乘 0 则无意义。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "两个体积单位之间的进率都是 1000。",
+        "options": [],
+        "answer": "错",
+        "explanation": "相邻的体积单位进率是 1000，不相邻的则不是。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "一个非零自然数，不是质数就是合数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数字 1 既不是质数也不是合数。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "等底等高的两个长方体，形状一定相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "虽然底面积和高相等，但长和宽的具体数值可以不同，形状不同。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "统计与概率综合分析",
+        "question": "在复式条形统计图里，必须用不同的颜色或底纹来区分不同的类别。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是为了直观地区分两组数据，属于复式统计图的规范要求。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "6 的最大因数是多少？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "6"
+        ],
+        "answer": "6",
+        "explanation": "一个自然数的最大因数是它本身。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "长方体有几个顶点？",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "12"
+        ],
+        "answer": "8",
+        "explanation": "长方体有 6 个面，12 条棱，8 个顶点。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "下面的分数中，哪个是最简分数？",
+        "options": [
+          "2/4",
+          "3/9",
+          "5/11",
+          "6/8"
+        ],
+        "answer": "5/11",
+        "explanation": "5 和 11 互质，不能再约分。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一个正方体的表面积是 24 平方厘米，它的每个面的面积是：",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "12"
+        ],
+        "answer": "4",
+        "explanation": "正方体有 6 个面，$24 \\div 6 = 4$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "4 和 6 的最小公倍数是：",
+        "options": [
+          "2",
+          "12",
+          "24",
+          "1"
+        ],
+        "answer": "12",
+        "explanation": "4 的倍数有 4, 8, 12...，6 的倍数有 6, 12...，最小公倍数是 12。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一个长方体水缸，从里面量长 5 分米，宽 4 分米，水深 3 分米。缸内有水多少升？",
+        "options": [
+          "60",
+          "20",
+          "15",
+          "12"
+        ],
+        "answer": "60",
+        "explanation": "$5 \\times 4 \\times 3 = 60$ 立方分米，即 60 升。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "图形旋转 90 度后，什么发生了改变？",
+        "options": [
+          "形状",
+          "大小",
+          "方向",
+          "面积"
+        ],
+        "answer": "方向",
+        "explanation": "旋转只改变图形的位置和方向，不改变形状和大小。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "有一袋糖，无论平均分给 8 人还是 10 人都剩 1 块。这袋糖至少有多少块？",
+        "options": [
+          "40",
+          "41",
+          "81",
+          "39"
+        ],
+        "answer": "41",
+        "explanation": "8 和 10 的最小公倍数是 40，$40 + 1 = 41$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一个大正方体的表面积是 150，切成小正方体后增加 60。原正方体边长是：",
+        "options": [
+          "5",
+          "25",
+          "10",
+          "15"
+        ],
+        "answer": "5",
+        "explanation": "每个面 $150 \\div 6 = 25$，边长为 5。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "统计与概率综合分析",
+        "question": "甲超市去年销售额持续增长，乙超市先降后升。表现这种差异用：",
+        "options": [
+          "单式条形",
+          "复式条形",
+          "单式折线",
+          "复式折线"
+        ],
+        "answer": "复式折线",
+        "explanation": "复式折线适合比较两组数据的趋势差异。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "把 $\\frac{3}{4}$ 化成小数是：",
+        "options": [
+          "0.3",
+          "0.4",
+          "0.75",
+          "1.33"
+        ],
+        "answer": "0.75",
+        "explanation": "$3 \\div 4 = 0.75$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "2/3 + 1/6 的结果是：",
+        "options": [
+          "3/9",
+          "5/6",
+          "4/6",
+          "1/2"
+        ],
+        "answer": "5/6",
+        "explanation": "$2/3 + 1/6 = 4/6 + 1/6 = 5/6$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "长方体的长扩 2 倍，宽扩 3 倍，高不变，体积扩多少倍？",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": "6",
+        "explanation": "$2 \\times 3 = 6$ 倍。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "一个数既是 12 的因数，又是 12 的倍数，这个数是 ___。",
+        "options": [],
+        "answer": "12",
+        "explanation": "一个数最大的因数和最小的倍数都是它本身。验算：$12 \\div 12 = 1$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "一根 2 米长的长方体木料截成 3 段，增加了 4 个面。如果每个面是 5 平方厘米，共增加 ___ 平方厘米。",
+        "options": [],
+        "answer": "20",
+        "explanation": "$4 \\times 5 = 20$。验算：$20 \\div 4 = 5$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形与几何综合应用",
+        "question": "用棱长 1 厘米的小正方体摆成一个长 3 厘米、宽 2 厘米、高 2 厘米的长方体，需 ___ 个小正方体。",
+        "options": [],
+        "answer": "12",
+        "explanation": "$3 \\times 2 \\times 2 = 12$。验算：$12 \\div 3 \\div 2 = 2$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "计算：$200 \\div 5 = ?$",
+        "options": [],
+        "answer": "40",
+        "explanation": "$200 \\div 5 = 40$。验算：$40 \\times 5 = 200$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数与代数综合梳理",
+        "question": "计算：$12 \\times 25 = ?$",
+        "options": [],
+        "answer": "300",
+        "explanation": "$12 \\times 25 = 3 \\times (4 \\times 25) = 300$。验算：$300 \\div 12 = 25$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "数与代数综合梳理",
+      "core_concept": "本模块涵盖因数与倍数、质数与合数、分数的基本性质及加减运算。重点在于掌握因数倍数的特征（如2,3,5的倍数特征），以及利用通分解决异分母分数加减法。理解分数与除法的关系是核心。",
+      "key_formula": "$分数的分子 \\div 分母 = 分数值$; $a \\times b = [a, b] \\times (a, b)$",
+      "common_mistakes": [
+        "通分时忘记同步扩大分子，导致计算错误。",
+        "混淆质数和奇数的概念，如认为 1 是质数或 9 是质数。"
+      ],
+      "tips": "记忆 20 以内的质数表，做分数加减法前先观察能否拆分或简算。"
+    },
+    {
+      "point": "图形与几何综合应用",
+      "core_concept": "主要复习长方体和正方体的特征、表面积和体积计算。理解体积单位间的进率（1000），以及物体在空间中的旋转、平移和三视图观察。重点在于解决实际生活中的粉刷墙壁或装水等体积应用逻辑。",
+      "key_formula": "$V = Sh$; $S_{表面} = 2(ab+bc+ac)$",
+      "common_mistakes": [
+        "计算容积或表面积时，漏算底面或侧面（如无盖鱼缸）。",
+        "单位不统一就直接进行乘法运算。"
+      ],
+      "tips": "画出草图辅助思考，尤其是在处理切割或拼接图形的表面积增减问题时。"
+    },
+    {
+      "point": "统计与概率综合分析",
+      "core_concept": "进一步学习复式条形和折线统计图。复式统计图能同时展示两组数据，便于对比；折线图擅长表现趋势。复习重点在于如何从图表中提取关键信息并进行简单的预测分析。",
+      "key_formula": "平均数 = 总数 $\\div$ 份数",
+      "common_mistakes": [
+        "在读取复式折线图时，看错图例导致数据对应错误。",
+        "描述趋势时语言不规范，无法准确说出增长或下降的情况。"
+      ],
+      "tips": "先看图例，再读刻度，最后分析趋势或差异。"
+    }
+  ]
+}

@@ -1,0 +1,677 @@
+{
+  "textbook": "人教版小学数学六年级上册",
+  "unit": "数学广角——数与形",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "第8单元单元基础自测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "从1开始的连续3个奇数的和等于3的平方。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$1+3+5=9=3^2$，符合前n个连续奇数和等于$n^2$的规律。验算：$9=3 \\times 3=9$ ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "$1+3+5+7+10$可以利用平方数规律直接计算出结果。",
+        "options": [],
+        "answer": "错",
+        "explanation": "规律要求必须是连续奇数，10是偶数，不符合前n个连续奇数和的规律。验算：$1+3+5+7+9$才是$5^2$ ✓。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "等比数列求和的思想",
+        "question": "在无限求和式子$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}+\\dots$中，加得项数越多，和越接近1。",
+        "options": [],
+        "answer": "对",
+        "explanation": "通过图形分割，每次加上的面积是剩余面积的一半，总和无限逼近整体1 ✓。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "$1+3+5+7+9$的计算结果是25。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是前5个连续奇数的和，计算为$5^2 = 25$。验算：$1+3+5+7+9 = 25$ ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "前n个从1开始的连续奇数之和，可以用图形拼成一个长方形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "前n个连续数学和拼成的是一个边长为n的正方形，不是长方形 ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "计算 $1+3+5+7+9+11+13$，正确的结果是：",
+        "options": [
+          "36",
+          "49",
+          "64",
+          "81"
+        ],
+        "answer": "49",
+        "explanation": "共有7个连续奇数，和为$7^2 = 49$。验算：$1+3+5+7+9+11+13 = 49$ ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "如果要使 $1+3+5+\\dots+n = 100$，那么n应该是多少？",
+        "options": [
+          "10",
+          "15",
+          "19",
+          "21"
+        ],
+        "answer": "19",
+        "explanation": "$100 = 10^2$，说明是前10个奇数的和。第10个奇数是$2 \\times 10 - 1 = 19$ ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "根据数形结合规律，前12个连续奇数的和与12的平方关系如何？",
+        "options": [
+          "相等",
+          "大于",
+          "小于",
+          "无法确定"
+        ],
+        "answer": "相等",
+        "explanation": "规律表明前n个连续奇数的和等于$n^2$，因此前12个的和等于$12^2$ ✓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "算式 $1+3+5+7+9+7+5+3+1$ 的结果是多少？",
+        "options": [
+          "25",
+          "34",
+          "41",
+          "45"
+        ],
+        "answer": "41",
+        "explanation": "$1+3+5+7+9 = 5^2 = 25$，后面 $7+5+3+1 = 4^2 = 16$。$25 + 16 = 41$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等比数列求和的思想",
+        "question": "$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\frac{1}{32}$ 的结果与 1 相比：",
+        "options": [
+          "大于 1",
+          "小于 1",
+          "等于 1",
+          "无法比较"
+        ],
+        "answer": "小于 1",
+        "explanation": "这是逐步接近1的数列，但项数有限，结果必小于1。计算得 $\\frac{31}{32} < 1$ ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "在一个大正方形中，由 1, 3, 5, 7 四个层级的图形拼成。这个大正方形一共包含多少个小方块？",
+        "options": [
+          "4",
+          "9",
+          "16",
+          "25"
+        ],
+        "answer": "16",
+        "explanation": "$1+3+5+7 = 4^2 = 16$ ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "第10个正方形数是多少？",
+        "options": [
+          "20",
+          "50",
+          "100",
+          "121"
+        ],
+        "answer": "100",
+        "explanation": "第10个正方形数即 $10^2 = 100$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "计算 $11+13+15+17+19$ 的结果：",
+        "options": [
+          "75",
+          "100",
+          "125",
+          "150"
+        ],
+        "answer": "75",
+        "explanation": "可以看作 $(1+\\dots+19) - (1+\\dots+9) = 10^2 - 5^2 = 100 - 25 = 75$ ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等比数列求和的思想",
+        "question": "$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}$ 的结果是多少？",
+        "options": [
+          "0.5",
+          "0.75",
+          "0.875",
+          "1"
+        ],
+        "answer": "0.875",
+        "explanation": "$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8} = 0.5 + 0.25 + 0.125 = 0.875$ ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "下列哪个算式可以用 $n^2$ 来快速计算？",
+        "options": [
+          "1+2+3+4",
+          "1+3+5+7",
+          "2+4+6+8",
+          "1+3+4+7"
+        ],
+        "answer": "1+3+5+7",
+        "explanation": "只有连续奇数从1开始的和符合 $n^2$ 规律 ✓。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "用小圆点摆正方形。第1层1个，第2层3个，第3层5个，摆到第n层一共用了36个。n是多少？",
+        "options": [
+          "6",
+          "12",
+          "18",
+          "36"
+        ],
+        "answer": "6",
+        "explanation": "$n^2 = 36$，所以 $n = 6$ ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "1, 4, 9, 16, ( ), 36。括号中应该填：",
+        "options": [
+          "20",
+          "25",
+          "30",
+          "35"
+        ],
+        "answer": "25",
+        "explanation": "这是平方数序列，$1^2, 2^2, 3^2, 4^2, 5^2, 6^2$。$5^2 = 25$ ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等比数列求和的思想",
+        "question": "把一个正方形的面积看作1。第一次取其一半，第二次取剩余部分的一半，第三次再取剩余的一半。此时剩余部分的面积是：",
+        "options": [
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32"
+        ],
+        "answer": "1/8",
+        "explanation": "剩余面积序列为 $1/2, 1/4, 1/8$。第三次剩余即 $1 \\div 2 \\div 2 \\div 2 = 1/8$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "计算 $1+3+5+7+9+11+13+15 = $ ___。",
+        "options": [],
+        "answer": "64",
+        "explanation": "总共有8个连续奇数，列式：$8 \\times 8 = 64$。验算：$1+3+5+7+9+11+13+15=64$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "前 15 个连续奇数的和是 ___。",
+        "options": [],
+        "answer": "225",
+        "explanation": "直接使用公式 $n^2$。列式：$15 \\times 15 = 225$。验算：$225 \\div 15 = 15$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "一个正方形点阵图，最外层有20个点，这个点阵最外层每边有 ___ 个点。",
+        "options": [],
+        "answer": "6",
+        "explanation": "最外层点数计算公式 $(n-1) \\times 4 = 20$。列式：$20 \\div 4 + 1 = 6$。验算：$(6-1) \\times 4 = 20$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "计算：$9 \\times 9 = ?$",
+        "options": [],
+        "answer": "81",
+        "explanation": "$9 \\times 9 = 81$。验算：$81 \\div 9 = 9$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "计算：$20 \\times 20 - 15 \\times 15 = ?$",
+        "options": [],
+        "answer": "175",
+        "explanation": "$400 - 225 = 175$。验算：$175 + 225 = 400$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第8单元综合测验卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "从1开始的前10个奇数的和是100。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$10^2=100$。验算：$1+3+5+7+9+11+13+15+17+19=100$ ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "$2+4+6+8$ 的结果可以用 $4^2$ 计算。",
+        "options": [],
+        "answer": "错",
+        "explanation": "平方数规律仅适用于从1开始的连续奇数，这是偶数。验算：$2+4+6+8=20 \\neq 16$ ✓。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "等比数列求和的思想",
+        "question": "随着分母的增大，$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}+\\dots$ 的和会超过1。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据图形逼近思想，无论加多少项，其总和永远小于且无限接近于1 ✓。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "$1+3+5+7+5+3+1 = 4^2+3^2$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "前4个奇数和是 $4^2$，剩余部分 $5+3+1$ 是前3个奇数和 $3^2$。验算：$16+9=25$ ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "第n个正方形点阵的总点数一定是偶数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "总点数为 $n^2$，当n为奇数时，$n^2$ 为奇数，例如 $3^2=9$ ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "求 $1+3+5+\\dots+21$ 的和，项数n是多少？",
+        "options": [
+          "10",
+          "11",
+          "20",
+          "21"
+        ],
+        "answer": "11",
+        "explanation": "项数 $n = (21+1) \\div 2 = 11$ ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "观察序列：1, 3, 6, 10, 15...。这是由三角形排列产生的数字，那么第6个数是多少？",
+        "options": [
+          "18",
+          "20",
+          "21",
+          "25"
+        ],
+        "answer": "21",
+        "explanation": "规律为 $n(n+1) \\div 2$。第6个数是 $6 \\times 7 \\div 2 = 21$ ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "若前n个奇数之和为144，则n的值是：",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "16"
+        ],
+        "answer": "12",
+        "explanation": "$12^2 = 144$。验算：$12 \\times 12 = 144$ ✓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "等比数列求和的思想",
+        "question": "$\\frac{1}{2}+\\frac{1}{4}+\\frac{1}{8}+\\frac{1}{16}+\\frac{1}{32}+\\frac{1}{64}$ 等于：",
+        "options": [
+          "63/64",
+          "65/64",
+          "1",
+          "31/32"
+        ],
+        "answer": "63/64",
+        "explanation": "规律为 $1 - \\frac{1}{2^n}$。最后项分母为64，故结果为 $1 - 1/64 = 63/64$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "用1, 3, 5, 7, 9五个奇数围成一个正方形点阵，如果再围一层，需要增加多少个点？",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "11",
+        "explanation": "当前是第5层（9个点），下一层是下一个奇数，即11 ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "在 100 以内的数中，有多少个是“正方形数”（即1, 4, 9...）？",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "answer": "10",
+        "explanation": "$1, 4, 9, 16, 25, 36, 49, 64, 81, 100$，共10个 ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "算式 $1+3+5+7+9+11$ 的结果是：",
+        "options": [
+          "30",
+          "36",
+          "42",
+          "49"
+        ],
+        "answer": "36",
+        "explanation": "$6^2 = 36$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "$1+3+5+\\dots+(2n-1) = 400$，则n为：",
+        "options": [
+          "10",
+          "20",
+          "30",
+          "40"
+        ],
+        "answer": "20",
+        "explanation": "$n^2 = 400$，故 $n = 20$ ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "等比数列求和的思想",
+        "question": "一个圆形蛋糕，每次吃掉剩下的一半。吃了4次后，还剩多少？",
+        "options": [
+          "1/4",
+          "1/8",
+          "1/16",
+          "1/32"
+        ],
+        "answer": "1/16",
+        "explanation": "剩余量为 $(1/2)^4 = 1/16$ ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "等比数列求和的思想",
+        "question": "根据图形理解，$\\frac{1}{2}+\\frac{1}{4}$ 的和是：",
+        "options": [
+          "1/2",
+          "3/4",
+          "1",
+          "1/4"
+        ],
+        "answer": "3/4",
+        "explanation": "$0.5 + 0.25 = 0.75 = 3/4$ ✓。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "正方形数 4 和 9 之间相差多少？",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "9"
+        ],
+        "answer": "5",
+        "explanation": "差值为 $9 - 4 = 5$，正好是第3个奇数 ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "摆第10个三角形阵需要55个圆点，摆第11个需要多少个？",
+        "options": [
+          "60",
+          "65",
+          "66",
+          "70"
+        ],
+        "answer": "66",
+        "explanation": "第11个需要增加11个点，$55 + 11 = 66$ ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "连续奇数 1, 3, 5, 7, 9 的平均数是多少？",
+        "options": [
+          "3",
+          "5",
+          "7",
+          "9"
+        ],
+        "answer": "5",
+        "explanation": "和为 25，总个数为 5，$25 \\div 5 = 5$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "从1开始连续100个奇数相加，和是 ___。",
+        "options": [],
+        "answer": "10000",
+        "explanation": "列式：$100 \\times 100 = 10000$。验算：$100^2 = 10000$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "计算 $1+3+5+7+9+11+9+7+5+3+1 = $ ___。",
+        "options": [],
+        "answer": "61",
+        "explanation": "前6项和 $6^2=36$，后5项和 $5^2=25$。列式：$36+25=61$。验算：$36+25=61$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "第10个三角形数是 ___。",
+        "options": [],
+        "answer": "55",
+        "explanation": "公式为 $n(n+1) \\div 2$。列式：$10 \\times 11 \\div 2 = 55$。验算：$1+2+3+4+5+6+7+8+9+10=55$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "计算：$13 \\times 13 = ?$",
+        "options": [],
+        "answer": "169",
+        "explanation": "$13 \\times 13 = 169$。验算：$169 \\div 13 = 13$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数形结合规律（奇数和）",
+        "question": "计算：$1+3+5+7+9+11+13+15+17+19+21 = ?$",
+        "options": [],
+        "answer": "121",
+        "explanation": "这是前11个奇数的和。列式：$11 \\times 11 = 121$。验算：$121 \\div 11 = 11$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "数形结合规律（奇数和）",
+      "core_concept": "数形结合是一种重要的数学思想。通过观察正方形点阵发现，从1开始的连续n个奇数相加，其结果正好可以用边长为n的正方形面积来表示。这种通过图形直观理解抽象算式的方法，能帮助我们快速解决求和问题。",
+      "key_formula": "$1 + 3 + 5 + \\dots + (2n-1) = n^2$",
+      "common_mistakes": [
+        "不是从1开始相加也直接代入公式",
+        "将最后一个奇数的值直接当作n带入平方"
+      ],
+      "tips": "先数清一共有几个加数（n），再计算n的平方。如果计算不确定，可以画个小点阵验证。"
+    },
+    {
+      "point": "等比数列求和的思想",
+      "core_concept": "当我们把一个整体（如面积为1的正方形）不断对半分割并取走时，取走的面积序列为 $1/2, 1/4, 1/8 \\dots$。通过图形可以直观看到，无论加多少项，这些部分的部和永远填不满整个正方形，但会无限接近于1。这揭示了极限的初步数学思想。",
+      "key_formula": "$\\frac{1}{2} + \\frac{1}{4} + \\frac{1}{8} + \\dots + \\frac{1}{2^n} = 1 - \\frac{1}{2^n}$",
+      "common_mistakes": [
+        "认为无限加下去和会变的无限大",
+        "计算有限项求和时，分母计算错误"
+      ],
+      "tips": "记住“还差一点就到1”的思想，缺少的那个“点”正好就是最后一项的大小。"
+    }
+  ]
+}

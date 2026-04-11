@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学五年级上册",
+  "unit": "总复习",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "五年级上册第八单元总复习单元测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "一个不为 0 的数乘 0.8，所得的积一定比原来的数小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "一个非零数乘以一个小于1的数，积小于原数。$1 \times 0.8 = 0.8 < 1$，结论正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "两个面积相等的三角形一定能拼成一个平行四边形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "只有两个完全相同的三角形才能拼成平行四边形，面积相等形状不一定相同，无法保证拼成。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "含有未知数的式子叫做方程。",
+        "options": [],
+        "answer": "错",
+        "explanation": "方程的定义必须包含两个条件：含有未知数、是等式。只说式子不严谨。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "计算 $3.5 \times 2 \times 0.5$ 时，可以先算 $2 \times 0.5$ 比较简便。",
+        "options": [],
+        "answer": "对",
+        "explanation": "利用乘法结合律，先算 $2 \times 0.5 = 1$，再乘 3.5 得到 3.5。计算过程正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "平行四边形的底扩大到原来的 2 倍，高缩小到原来的一半，面积不变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "面积 $S = ah$。新面积 $S' = (2a) \times (0.5h) = ah$。面积不变。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "下列算式中，结果最大的算式是：",
+        "options": [
+          "$5.6 \times 0.1$",
+          "$5.6 \times 1$",
+          "$5.6 \times 1.1$",
+          "$5.6 \times 0.9$"
+        ],
+        "answer": "$5.6 \times 1.1$",
+        "explanation": "一个数（非0）乘以大于1的数结果变大。1.1最大，所以积最大。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "一个三角形的底是 10 厘米，高是 4 厘米，它的面积是多少平方厘米？",
+        "options": [
+          "40",
+          "20",
+          "14",
+          "80"
+        ],
+        "answer": "20",
+        "explanation": "$10 \times 4 \times 0.5 = 20$。验证：$20 \times 2 \times \frac{1}{4} = 10$。符合公式。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "方程 $2x + 5 = 15$ 的解是：",
+        "options": [
+          "$x=5$",
+          "$x=10$",
+          "$x=20$",
+          "$x=15$"
+        ],
+        "answer": "$x=5$",
+        "explanation": "$2x = 10$，解得 $x = 5$。验算：$2 \times 5 + 5 = 15$，正确。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "在比较符号练习中，$3.2 \times 0.99$ $\rule{1cm}{0.15mm}$ $3.2$，横线上应填：",
+        "options": [
+          ">",
+          "<",
+          " =",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "0.99比1小，所以积比原数小。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "一个梯形的上底是 3 米，下底是 5 米，面积是 16 平方米，它的高是多少米？",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": "4",
+        "explanation": "$16 \times 2 \times (3+5) = 4$。验算：$(3+5) \times 4 + 2 = 16$。正确。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "小明今年 $a$ 岁，爸爸今年 $(a + 25)$ 岁，再过 10 年，爸爸比小明大多少岁？",
+        "options": [
+          "10",
+          "25",
+          "35",
+          "$a+10$"
+        ],
+        "answer": "25",
+        "explanation": "年龄差是固定不变的。$(a+25+10) - (a+10) = 25$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "计算 $0.25 \times 3.2 \times 1.25$ 最简便的方法是把 3.2 拆成：",
+        "options": [
+          "$3 + 0.2$",
+          "$0.8 \times 4$",
+          "$8 \times 0.4$",
+          "$2 + 1.2$"
+        ],
+        "answer": "$0.8 \times 4$",
+        "explanation": "$0.25 \times 4$ 和 $0.8 \times 1.25$ 都能凑整，非常简便。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "平行四边形的面积计算公式是：",
+        "options": [
+          "$S=ah$",
+          "$S=ah÷2$",
+          "$S=(a+b)h÷2$",
+          "$S=ab$"
+        ],
+        "answer": "$S=ah$",
+        "explanation": "平行四边形面积等于底乘高。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "笼子里有鸡和兔共 10 只，脚共有 28 只，鸡有多少只？",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "2"
+        ],
+        "answer": "6",
+        "explanation": "设鸡 $x$ 只，兔 $10-x$ 只。$2x + 4(10-x) = 28$，$2x = 12$，$x = 6$。验算：$6 \times 2 + 4 \times 4 = 12+16=28$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "一个小数由 3 个十和 5 个百分之一组成，这个小数是：",
+        "options": [
+          "30.5",
+          "3.05",
+          "30.05",
+          "3.5"
+        ],
+        "answer": "30.05",
+        "explanation": "3个十是30，5个百分之一是0.05，合起来是30.05。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "把一个木条钉成的长方形框拉成一个平行四边形，周长：",
+        "options": [
+          "变大",
+          "变小",
+          "不变",
+          "无法确定"
+        ],
+        "answer": "不变",
+        "explanation": "边长没有发生改变，四条边的总和即周长不变。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "下列式子中是方程的是：",
+        "options": [
+          "$3x+5$",
+          "$46-7=39$",
+          "$x+2>10$",
+          "$2x=0$"
+        ],
+        "answer": "$2x=0$",
+        "explanation": "$2x=0$ 既有未知数又是等式，符合定义。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "王老师去文具店买单价 3.5 元的笔记本，带了 20 元钱，最多能买几本？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "$20 \times 3.5 \times 5 = 17.5$，余 2.5 元。$20 \times 3.5 \times 6 = 21$ 超过了。用去尾法取 5。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "1 吨等于 1000 千克，那么 0.5 吨等于 ___ 千克。",
+        "options": [],
+        "answer": "500",
+        "explanation": "$0.5 \times 1000 = 500$。验算：$500 \times 1000 = 0.5$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "一个正方形的周长是 24 厘米，这个正方形的面积是 ___ 平方厘米。",
+        "options": [],
+        "answer": "36",
+        "explanation": "边长 $24 \times 4 = 6$ cm，面积 $6 \times 6 = 36$。验算：$36$ 开方为 $6$，$6 \times 4 = 24$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "三个连续自然数的和是 36，其中最大的那个自然数是 ___。",
+        "options": [],
+        "answer": "13",
+        "explanation": "设中间的数为 $x$，则 $(x-1)+x+(x+1)=36$，$3x=36$，$x=12$。最大数是 $12+1=13$。验算：$11+12+13=36$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "$0.5 \times 40 = ?$",
+        "options": [],
+        "answer": "20",
+        "explanation": "$0.5 \times 40 = \frac{1}{2} \times 40 = 20$。验算：$20 \times 0.5 = 40$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "当 $x=20$ 时，$5x - 15 = ?$",
+        "options": [],
+        "answer": "85",
+        "explanation": "$5 \times 20 - 15 = 100 - 15 = 85$。验算：$85 + 15 = 100$，$100 \times 5 = 20$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册期末综合素质检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "$2.5 \times 4 = 10$",
+        "options": [],
+        "answer": "对",
+        "explanation": "$2.5 \times 4 = 10$。计算正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "等底等高的两个三角形面积相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "三角形面积 $S = ah \times 0.5$，字母相同，面积必相等。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "$x=2$ 是方程 $5x=10$ 的解。",
+        "options": [],
+        "answer": "对",
+        "explanation": "将 $x=2$ 代入，$5 \times 2 = 10$，等式成立。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "无限小数一定比有限小数大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如无限小数 $0.111...$ 小于有限小数 $0.2$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "直角三角形的面积等于两条直角边长度相乘所得积的一半。",
+        "options": [],
+        "answer": "对",
+        "explanation": "直角三角形中一条直角边为底，另一条即为高，符合公式。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "一个数除以 0.01，相当于把这个数扩大到原来的多少倍？",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "1"
+        ],
+        "answer": "100",
+        "explanation": "$1 \times 0.01 = 100$。除以一个分数等于乘它的倒数。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "平行四边形的底是 6 分米，高是 4 分米，与它等底等高的三角形面积是多少平方分米？",
+        "options": [
+          "24",
+          "12",
+          "10",
+          "48"
+        ],
+        "answer": "12",
+        "explanation": "三角形面积是平行四边形的一半。$6 \times 4 \times 0.5 = 12$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "小华有 $x$ 支铅笔，小明有 5 支，两人共有多少支？",
+        "options": [
+          "$5x$",
+          "$x-5$",
+          "$x+5$",
+          "$x \times 5$"
+        ],
+        "answer": "$x+5$",
+        "explanation": "求总数用加法，即 $x+5$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "一本课外书 4.5 元，买 10 本需要多少元？",
+        "options": [
+          "45",
+          "4.5",
+          "450",
+          "0.45"
+        ],
+        "answer": "45",
+        "explanation": "$4.5 \times 10 = 45$。小数点向右移动一位。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "梯形的上底增加 3 厘米，下底减少 3 厘米，高不变，面积会：",
+        "options": [
+          "变大",
+          "变小",
+          "不变",
+          "无法判断"
+        ],
+        "answer": "不变",
+        "explanation": "上底加下底的和 $(a+3)+(b-3) = a+b$，和不变，所以面积不变。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "如果 $2x+3=13$，那么 $4x+1$ 的值是：",
+        "options": [
+          "20",
+          "21",
+          "10",
+          "41"
+        ],
+        "answer": "21",
+        "explanation": "由 $2x=10$ 得 $x=5$。代入 $4 \times 5 + 1 = 21$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "由 $7 \times 8 = 56$ 推出 $0.7 \times 0.8$ 的结果是：",
+        "options": [
+          "5.6",
+          "0.56",
+          "0.056",
+          "56"
+        ],
+        "answer": "0.56",
+        "explanation": "两个因数各有一个小数位，积有两个小数位。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "一个三角形的面积是 48 平方厘米，底是 12 厘米，高是多少厘米？",
+        "options": [
+          "4",
+          "8",
+          "6",
+          "12"
+        ],
+        "answer": "8",
+        "explanation": "$48 \times 2 \times 12 = 8$。验算：$12 \times 8 \times 0.5 = 48$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "甲数是 $a$，乙数比甲数的 3 倍少 5，乙数是多少？",
+        "options": [
+          "$3a-5$",
+          "$3a+5$",
+          "$a \times 3$",
+          "$(a-5) \times 3$"
+        ],
+        "answer": "$3a-5$",
+        "explanation": "甲数的 3 倍是 $3a$，少 5 即减去 5。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "在除法算式中，被除数扩大 10 倍，除数扩大 100 倍，商会：",
+        "options": [
+          "扩大 10 倍",
+          "缩小到原来的 10 分之一",
+          "扩大 100 倍",
+          "不变"
+        ],
+        "answer": "缩小到原来的 10 分之一",
+        "explanation": "$10 \times 100 = 0.1$，即缩小到原来的 10 分之一。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "梯形的面积公式是：",
+        "options": [
+          "$(a+b)h \times 0.5$",
+          "$ah$",
+          "$ah \times 0.5$",
+          "$ab$"
+        ],
+        "answer": "$(a+b)h \times 0.5$",
+        "explanation": "梯形面积等于（上底+下底）乘高除以 2。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "果园里有苹果树 120 棵，比梨树的 2 倍多 20 棵，梨树有多少棵？",
+        "options": [
+          "50",
+          "70",
+          "260",
+          "220"
+        ],
+        "answer": "50",
+        "explanation": "设梨树 $x$ 棵。$2x + 20 = 120$，$2x = 100$，$x = 50$。验算：$50 \times 2 + 20 = 120$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "一个平行四边形的相邻两边分别是 5 厘米和 8 厘米，其中一条边上的高是 6 厘米，它的面积是多少平方厘米？",
+        "options": [
+          "48",
+          "30",
+          "40",
+          "240"
+        ],
+        "answer": "30",
+        "explanation": "高必须小于另一条斜边。6 比 5 大，说明 6 必须是 5 厘米这条底边上的高是不可能的，6 只能是底边为 5 时的对边高吗？不对，直角边（高）一定短于斜边，所以高 6 对应的底必须是 5。面积 $5 \times 6 = 30$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "如果 $x = 8$，那么 $2x + 4 = $ ___。",
+        "options": [],
+        "answer": "20",
+        "explanation": "$2 \times 8 + 4 = 16 + 4 = 20$。验算：$20 - 4 = 16$，$16 \times 2 = 8$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "要把 15.5 千克的油分装在容量为 2 千克的瓶子里，至少需要 ___ 个瓶子。",
+        "options": [],
+        "answer": "8",
+        "explanation": "$15.5 \times 2 = 7.75$，因为是装油，最后剩下的也需要一个瓶子，进一法取 8。验算：$7 \times 2 = 14 < 15.5$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多边形面积与几何公式复习",
+        "question": "一个三角形的底是 10 厘米，高是 6 厘米，如果底不变，高增加 2 厘米，面积增加 ___ 平方厘米。",
+        "options": [],
+        "answer": "10",
+        "explanation": "原面积 $10 \times 6 \times 0.5 = 30$；新面积 $10 \times (6+2) \times 0.5 = 40$。增加 $40 - 30 = 10$。验算：$10 \times 2 \times 0.5 = 10$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘除法综合应用",
+        "question": "$1.2 \times 5 = ?$",
+        "options": [],
+        "answer": "6",
+        "explanation": "$1.2 \times 5 = 6$。验算：$6 \times 5 = 1.2$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数代合一与方程建模总复习",
+        "question": "解方程：$x - 15 = 30$，$x=?$",
+        "options": [],
+        "answer": "45",
+        "explanation": "$x = 30 + 15 = 45$。验算：$45 - 15 = 30$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "小数乘除法综合应用",
+      "core_concept": "小数乘法先按整数乘法算，再看因数中共几位小数，从积的右边起数出几位点上小数点。小数除法要把除数转化成整数，被除数同步移动小数点。计算中注意进一法和去尾法在实际生活中的应用。",
+      "key_formula": "$因数小数位数之和 = 积的小数位数$",
+      "common_mistakes": [
+        "点小数点时数错位数，尤其是在末尾有0的情况下",
+        "小数除法中商的小数点没有和被除数移动后的位置对齐"
+      ],
+      "tips": "计算后可以用估算验证结果的合理性，比如 0.9 乘一个数积一定变小。"
+    },
+    {
+      "point": "多边形面积与几何公式复习",
+      "core_concept": "利用转化的思想，将平行四边形剪拼成长方形，将三角形、梯形拼成平行四边形。所有这些多边形的面积最终都与底和高有关，三角形和梯形的面积公式里千万不要忘记除以 2。",
+      "key_formula": "$S_{三角} = ah \times 0.5, S_{梯} = (a+b)h \times 0.5$",
+      "common_mistakes": [
+        "计算三角形或梯形面积时漏掉“除以 2”",
+        "高与底不对应，随便找两个数相乘"
+      ],
+      "tips": "记住等底等高的三角形面积是平行四边形的一半，这能帮助你快速判断面积关系。"
+    },
+    {
+      "point": "数代合一与方程建模总复习",
+      "core_concept": "字母可以表示任意数。方程是含有未知数的等式。解方程的本质是利用等式的性质（两边同时加减乘除相同的数，0除外，等式仍然成立）。在解决实际问题时，要先找等量关系再列方程。",
+      "key_formula": "$ax ± b = c$ 或 $a(x ± b) = c$",
+      "common_mistakes": [
+        "解方程时不写“解”字或不注意上下对齐等号",
+        "列方程解决实际问题时，找错等量关系导致列式错误"
+      ],
+      "tips": "解完方程一定要把结果代入原方程验算，这是得满分的法宝。"
+    }
+  ]
+}

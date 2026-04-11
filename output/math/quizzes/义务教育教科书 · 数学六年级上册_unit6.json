@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学六年级上册",
+  "unit": "百分数（一）",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "百分数（一）单元基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "百分数也叫做百分率或百分比。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据百分数的定义，百分数表示一个数是另一个数的百分之几，也叫百分率或百分比。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "分母是 100 的分数一定是百分数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "百分数只表示两个数的比率，不能带单位；而分母是 100 的分数可以表示具体的量（如 1/100 米）。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "一件衣服先提价 10%，再降价 10%，现价和原价相等。",
+        "options": [],
+        "answer": "错",
+        "explanation": "提价 10% 后是原价的 $110\\%$，再降价是在 $110\\%$ 的基础上降，现价是原价的 $110\\% \\times (1-10\\%) = 99\\% < 100\\%$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "把 0.8% 的百分号去掉，这个数就扩大了 100 倍。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$0.8\\% = 0.008$，去掉百分号变成 0.8，$0.8 \\div 0.008 = 100$。验算正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "生活中的百分数（利率/折扣）",
+        "question": "在存款利息计算中，本金越多，利息一定越多。",
+        "options": [],
+        "answer": "错",
+        "explanation": "利息取决于本金、利率和时间三个因素。如果时间很短或利率极低，本金多利息也不一定多。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "下面各数中，最小的一个数是：",
+        "options": [
+          "0.55",
+          "5.5%",
+          "五分之一",
+          "0.5"
+        ],
+        "answer": "5.5%",
+        "explanation": "统一换算成小数比较：$0.55$, $5.5\\%=0.055$, $\\frac{1}{5}=0.2$, $0.5$。$0.055$ 最小。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "把 25 克盐溶解在 100 克水中，盐水的含盐率是：",
+        "options": [
+          "25%",
+          "20%",
+          "75%",
+          "125%"
+        ],
+        "answer": "20%",
+        "explanation": "含盐率 = $25 \\div (25 + 100) \\times 100\\% = 25 \\div 125 = 20\\% $。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "甲数是 20，乙数是 25。甲数比乙数少百分之几？",
+        "options": [
+          "20%",
+          "25%",
+          "80%",
+          "5%"
+        ],
+        "answer": "20%",
+        "explanation": "$(25-20) \\div 25 = 5 \\div 25 = 0.2 = 20\\%$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生活中的百分数（利率/折扣）",
+        "question": "商场搞活动“满 100 元减 20 元”，这相当于打：",
+        "options": [
+          "二折",
+          "八折",
+          "七五折",
+          "八五折"
+        ],
+        "answer": "八折",
+        "explanation": "支付 $100-20=80$，现价除以原价即折扣：$80 \\div 100 = 80\\%$，即八折。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "在 $3.14$、$\\pi$、$\\frac{22}{7}$ 和 $314.2\\%$ 中，最大的数是：",
+        "options": [
+          "3.14",
+          "π",
+          "22/7",
+          "314.2%"
+        ],
+        "answer": "22/7",
+        "explanation": "$3.14$, $\\pi \\approx 3.14159$, $\\frac{22}{7} \\approx 3.14285$, $314.2\\% = 3.142$。比较可知 $\\frac{22}{7}$ 最大。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "六一班男生人数占全班的 48%，女生人数占全班的：",
+        "options": [
+          "48%",
+          "52%",
+          "100%",
+          "4%"
+        ],
+        "answer": "52%",
+        "explanation": "$1 - 48\\% = 52\\%$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "一种商品的价格先提高了 20%，如果要恢复原价，应当再降低：",
+        "options": [
+          "20%",
+          "25%",
+          "16.7%",
+          "15%"
+        ],
+        "answer": "16.7%",
+        "explanation": "设有 100 元，提价后 $100 \\times 1.2 = 120$。恢复原价需降 20 元。$20 \\div 120 \\approx 16.7\\%$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生活中的百分数（利率/折扣）",
+        "question": "爸爸买了一辆 10000 元的摩托车，按 10% 缴纳消费税，应缴税：",
+        "options": [
+          "100元",
+          "1000元",
+          "10元",
+          "11000元"
+        ],
+        "answer": "1000元",
+        "explanation": "$10000 \\times 10\\% = 1000$ 元。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "比较大小：$0.67$ 与 $\\frac{2}{3}$，中间应填：",
+        "options": [
+          ">",
+          "<",
+          "==",
+          "≈"
+        ],
+        "answer": ">",
+        "explanation": "$\\frac{2}{3} \\approx 0.666...$，所以 $0.67 > 0.666...$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "下列哪个百分率可能大于 100%？",
+        "options": [
+          "出油率",
+          "增长率",
+          "出勤率",
+          "及格率"
+        ],
+        "answer": "增长率",
+        "explanation": "增长率可以翻倍，超过 100%；出油率、出勤率、及格率最高只能是 100%。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "写成百分数的形式，0.03 等于：",
+        "options": [
+          "0.3%",
+          "3%",
+          "30%",
+          "0.03%"
+        ],
+        "answer": "3%",
+        "explanation": "$0.03 \\times 100 = 3$，加上百分号为 $3\\%$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "水果店运进一批苹果，卖出 400 千克，还剩 100 千克。卖出的比剩下的：",
+        "options": [
+          "多300%",
+          "多400%",
+          "多75%",
+          "多25%"
+        ],
+        "answer": "多300%",
+        "explanation": "$(400-100) \\div 100 = 300\\%$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "甲数是乙数的 2 倍，乙数比甲数少：",
+        "options": [
+          "200%",
+          "100%",
+          "50%",
+          "150%"
+        ],
+        "answer": "50%",
+        "explanation": "$(2-1) \\div 2 = 0.5 = 50\\%$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "校园里种了 50 棵树，有 2 棵没成活。这批树的成活率是 ___ %。",
+        "options": [],
+        "answer": "96",
+        "explanation": "成活棵数：$50 - 2 = 48$。成活率：$48 \\div 50 \\times 100 = 96$。验算：$96\\% \\times 50 = 48$，加上死掉的 2 棵正好 50 棵。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "一个数是 80，比它多 25% 的数是 ___ 。",
+        "options": [],
+        "answer": "100",
+        "explanation": "$80 \\times (1 + 25\\%) = 80 \\times 1.25 = 100$。验算：$(100-80) \\div 80 = 20 \\div 80 = 0.25 = 25\\%$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "把 0.45 转化为百分数是 ___ %。",
+        "options": [],
+        "answer": "45",
+        "explanation": "$0.45 \\times 100 = 45$。即 45%。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "$40 \\times 20\\% = ?$",
+        "options": [],
+        "answer": "8",
+        "explanation": "$40 \\times 0.2 = 8$。验算：$8 \\div 0.2 = 40$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "$100 \\div 50\\% = ?$",
+        "options": [],
+        "answer": "200",
+        "explanation": "$100 \\div 0.5 = 200$。验算：$200 \\times 0.5 = 100$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级上册百分数（一）综合能力测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "一根绳子长 0.9 米，也可以写成 90% 米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "百分数是率，不能带单位名称。0.9 米不能表示为 90% 米。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "甲数比乙数多 20%，则乙数比甲数少 20%。",
+        "options": [],
+        "answer": "错",
+        "explanation": "单位“1”不同。乙比甲少：$20\\% \\div (1 + 20\\%) \\approx 16.7\\%$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "生活中的百分数（利率/折扣）",
+        "question": "五折就是原价的 50%。",
+        "options": [],
+        "answer": "对",
+        "explanation": "折扣表示原价的百分之几十，五折即 50%。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "某种商品涨价 10% 后，又降价 10%，价格变得比原价低了。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$1 \\times 1.1 \\times 0.9 = 0.99 < 1$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "一个正方形的边长增加 10%，面积就增加 20%。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$1.1 \\times 1.1 = 1.21$，面积增加了 $1.21 - 1 = 21\\%$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "下面各数中，不能改写成百分数的是：",
+        "options": [
+          "0.4",
+          "八分之三",
+          "1.2",
+          "0.5千克"
+        ],
+        "answer": "0.5千克",
+        "explanation": "0.5 千克是具体的量，带有单位，不能改写为只表示关系的百分数。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "六一班有 50 人，今天请假 2 人，出勤率是：",
+        "options": [
+          "98%",
+          "96%",
+          "4%",
+          "2%"
+        ],
+        "answer": "96%",
+        "explanation": "出勤人数 $50-2=48$，出勤率 $48 \\div 50 = 96\\%$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生活中的百分数（利率/折扣）",
+        "question": "妈妈在银行存入 2000 元，定期二年，年利率是 2.25%。到期后可得利息：",
+        "options": [
+          "45元",
+          "90元",
+          "2090元",
+          "4.5元"
+        ],
+        "answer": "90元",
+        "explanation": "利息 = 本金 $\\times$ 利率 $\\times$ 时间 = $2000 \\times 2.25\\% \\times 2 = 90$ 元。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "某工厂去年的产量是 100 万吨，今年比去年增产 20%，今年的产量是：",
+        "options": [
+          "120万吨",
+          "80万吨",
+          "20万吨",
+          "100.2万吨"
+        ],
+        "answer": "120万吨",
+        "explanation": "$100 \\times (1 + 20\\%) = 120$ 万吨。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "甲数比乙数多 25%，则乙数比甲数少：",
+        "options": [
+          "25%",
+          "20%",
+          "30%",
+          "75%"
+        ],
+        "answer": "20%",
+        "explanation": "设乙为 100，甲为 125。$(125-100) \\div 125 = 25 \\div 125 = 20\\%$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生活中的百分数（利率/折扣）",
+        "question": "某种运动服原价 200 元，现在打八折出售，现价是：",
+        "options": [
+          "160元",
+          "40元",
+          "180元",
+          "240元"
+        ],
+        "answer": "160元",
+        "explanation": "$200 \\times 80\\% = 160$ 元。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "把 0.2% 化成小数是：",
+        "options": [
+          "0.2",
+          "0.02",
+          "0.002",
+          "2"
+        ],
+        "answer": "0.002",
+        "explanation": "$0.2 \\div 100 = 0.002$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "一套沙发原价 3000 元，现价 2400 元，这套沙发是打几折出售？",
+        "options": [
+          "八五折",
+          "八折",
+          "七五折",
+          "二折"
+        ],
+        "answer": "八折",
+        "explanation": "$2400 \\div 3000 = 0.8 = 80\\%$，即八折。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "1 吨菜籽可以榨油 350 千克，这批菜籽的出油率是：",
+        "options": [
+          "35%",
+          "350%",
+          "3.5%",
+          "0.35%"
+        ],
+        "answer": "35%",
+        "explanation": "1 吨 = 1000 千克，$350 \\div 1000 = 35\\%$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "修一条公路，第一天修了全长的 20%，第二天修了全长的 30%，还剩下 1000 米。这条公路全长：",
+        "options": [
+          "2000米",
+          "5000米",
+          "3000米",
+          "4000米"
+        ],
+        "answer": "2000米",
+        "explanation": "剩余比例：$1 - 20\\% - 30\\% = 50\\%$。全长：$1000 \\div 50\\% = 2000$ 米。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "百分之零点五写作：",
+        "options": [
+          "0.5",
+          "50%",
+          "0.5%",
+          "0.05"
+        ],
+        "answer": "0.5%",
+        "explanation": "直接按读法书写即可。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "六年级有男生 120 人，比女生多 20%。求女生有多少人？",
+        "options": [
+          "100人",
+          "144人",
+          "96人",
+          "150人"
+        ],
+        "answer": "100人",
+        "explanation": "$120 \\div (1 + 20\\%) = 120 \\div 1.2 = 100$ 人。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "一本书已经看了 80%，还剩 20 页。这本书共有：",
+        "options": [
+          "100页",
+          "160页",
+          "40页",
+          "80页"
+        ],
+        "answer": "100页",
+        "explanation": "剩余比例 $1 - 80\\% = 20\\%$。总页数 = $20 \\div 20\\% = 100$ 页。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "小明投篮 20 次，投中了 15 次，他的投篮命中率是 ___ %。",
+        "options": [],
+        "answer": "75",
+        "explanation": "$15 \\div 20 = 0.75 = 75\\%$。验算：$20 \\times 75\\% = 15$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生活中的百分数（利率/折扣）",
+        "question": "一件上衣原价 200 元，现价 140 元，这是打 ___ 折出售。",
+        "options": [],
+        "answer": "7",
+        "explanation": "$140 \\div 200 = 0.7$。0.7 即七折。验算：$200 \\times 0.7 = 140$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数的意义与互化",
+        "question": "六一班有 50 人，其中女生有 25 人。女生占全班人数的 ___ %。",
+        "options": [],
+        "answer": "50",
+        "explanation": "$25 \\div 50 = 0.5 = 50\\%$。验算：$50 \\times 50\\% = 25$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "$500 \\times (1 + 10\\%) = ?$",
+        "options": [],
+        "answer": "550",
+        "explanation": "$500 \\times 1.1 = 550$。验算：$550 \\div 1.1 = 500$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "百分数应用：增长率与减少率",
+        "question": "$80 \\div (1 - 20\\%) = ?$",
+        "options": [],
+        "answer": "100",
+        "explanation": "$80 \\div 0.8 = 100$。验算：$100 \\times 0.8 = 80$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "百分数的意义与互化",
+      "core_concept": "百分数表示一个数是另一个数的百分之几。它是专门用来表示两个数量之间的比率关系，因此不能带有单位。小数化百分数只要把小数点向右移两位并加百分号；分数化百分数通常先化成小数再化百分数。",
+      "key_formula": "$百分数 = \\frac{比较量}{标准量} \\times 100\\%$",
+      "common_mistakes": [
+        "把百分数和分数的意义混淆，给百分数带上单位，如 50% 米。",
+        "在互化过程中小数点移动位数错误，如将 0.03 写成 0.3%。"
+      ],
+      "tips": "记住百分数就是分母为100的特殊的比，它只表示‘关系’而不表示‘具体量’。"
+    },
+    {
+      "point": "百分数应用：增长率与减少率",
+      "core_concept": "这类问题本质是寻找“差量”占“单位1”的百分之几。关键在于找准谁是单位“1”（通常是“比”字后面的那个量）。求多百分之几是用差量除以原有的量。",
+      "key_formula": "$百分比 = (大数 - 小数) \\div 单位“1” \\times 100\\%$",
+      "common_mistakes": [
+        "找错单位“1”，例如求乙比甲少百分之几时，错误地除以了乙。",
+        "忽略连续变化的情况，认为先涨价10%再降价10%会回到原价。"
+      ],
+      "tips": "口诀：‘多（少）谁’就‘除以谁’，那个‘谁’就是单位‘1’。"
+    },
+    {
+      "point": "生活中的百分数（利率/折扣）",
+      "core_concept": "折扣表示现价是原价的十分之几（百分之几十）；税率是应纳税额占总收入的比例；利息是银行支付给存款人的额外金额，金额取决于本金、利率和存期。",
+      "key_formula": "$利息 = 本金 \\times 利率 \\times 存期$",
+      "common_mistakes": [
+        "计算利息时漏掉‘存期’，或者存期单位不是年（如月）而未做转化。",
+        "计算折扣时，将‘打八折’误认为是减去了 80%，实际上是卖原价的 80%。"
+      ],
+      "tips": "折扣越低越便宜，五折即半价；利息计算一定要看清存储时间。"
+    }
+  ]
+}

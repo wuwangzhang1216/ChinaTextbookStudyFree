@@ -1,0 +1,707 @@
+{
+  "textbook": "人教版小学数学五年级上册",
+  "unit": "简易方程",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元「简易方程」单元基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "在含有字母的式子里，$a \\times 3.5$ 可以简写成 $a3.5$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "含有字母的乘法中，数字通常写在字母前面，应缩写为 $3.5a$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "方程的意义与等式的性质",
+        "question": "$x + 5$ 是一个方程。",
+        "options": [],
+        "answer": "错",
+        "explanation": "方程必须是含有未知数的等式。$x + 5$ 只是一个式子，没有等号，不是方程。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "方程的意义与等式的性质",
+        "question": "如果 $a = b$，那么 $a - c = b - c$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据等式的性质1：等式两边同时加上或减去同一个数，等式仍然成立。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "解简易方程",
+        "question": "$x = 3$ 是方程 $5x = 15$ 的解。",
+        "options": [],
+        "answer": "对",
+        "explanation": "代入验算：当 $x = 3$ 时，左边 $= 5 \\times 3 = 15$，左边 $=$ 右边，所以是方程的解。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "$a^2$ 表示 2 个 $a$ 相加。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$a^2$ 表示 2 个 $a$ 相乘，即 $a \\times a$。2 个 $a$ 相加用 $2a$ 表示。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "小明今年 $a$ 岁，哥哥比他大 3 岁，哥哥今年（    ）岁。",
+        "options": [
+          "3a",
+          "a-3",
+          "a+3",
+          "a÷3"
+        ],
+        "answer": "a+3",
+        "explanation": "大 3 岁意味着在小明的年龄基础上加 3，即 $a + 3$ 岁。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "下列各式中，简写正确的是（    ）。",
+        "options": [
+          "x×x=2x",
+          "a×1=a",
+          "4+b=4b",
+          "x×y=xy"
+        ],
+        "answer": "x×y=xy",
+        "explanation": "A中 $x \\times x = x^2$；B中 $1a$ 通常省去1写成 $a$；C中加号不能省略；D字母相乘可省略乘号，正确。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "方程的意义与等式的性质",
+        "question": "下面式子里，（    ）是方程。",
+        "options": [
+          "4x+5",
+          "2x-1=0",
+          "3+6=9",
+          "10>x"
+        ],
+        "answer": "2x-1=0",
+        "explanation": "方程必须满足两个条件：含有未知数、是等式。只有 $2x-1=0$ 同时满足。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解简易方程",
+        "question": "方程 $x - 12 = 30$ 的解是（    ）。",
+        "options": [
+          "x=18",
+          "x=42",
+          "x=360",
+          "x=2.5"
+        ],
+        "answer": "x=42",
+        "explanation": "解法：$x = 30 + 12 = 42$。验算：$42 - 12 = 30$，正确。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解简易方程",
+        "question": "解方程 $2x + 10 = 50$ 时，第一步通常是（    ）。",
+        "options": [
+          "等式两边同时除以2",
+          "等式两边同时减去10",
+          "等式两边同时加上10",
+          "等式两边同时乘以2"
+        ],
+        "answer": "等式两边同时减去10",
+        "explanation": "根据等式性质，先处理加法，两边同时减去10得到 $2x = 40$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "列方程解决实际问题（ax±b=c类型）",
+        "question": "商店运来 8 袋大米，每袋 $x$ 千克，一共是 200 千克。要求每袋多少千克，下列方程正确的是（    ）。",
+        "options": [
+          "x+8=200",
+          "200-x=8",
+          "8x=200",
+          "x÷8=200"
+        ],
+        "answer": "8x=200",
+        "explanation": "数量关系：每袋重量 $\\times$ 袋数 $=$ 总重量。即 $8x = 200$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "列方程解决实际问题（ax±b=c类型）",
+        "question": "一个三角形的底是 10 厘米，面积是 30 平方厘米，高是 $x$ 厘米。下列方程正确的是（    ）。",
+        "options": [
+          "10x=30",
+          "10x÷2=30",
+          "10+x=30",
+          "10÷x=30"
+        ],
+        "answer": "10x÷2=30",
+        "explanation": "三角形面积公式：底 $\\times$ 高 $\\div 2 =$ 面积。代入得 $10 \\times x \\div 2 = 30$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解简易方程",
+        "question": "已知 $3x + 4 = 19$，那么 $x$ 等于（    ）。",
+        "options": [
+          "5",
+          "15",
+          "x=5",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "$3x = 19 - 4 = 15$，则 $x = 15 \\div 3 = 5$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "如果 $a=5, b=4$，那么 $ab+3$ 的值是（    ）。",
+        "options": [
+          "543",
+          "12",
+          "23",
+          "9"
+        ],
+        "answer": "23",
+        "explanation": "$ab$ 表示 $a \\times b$。代入得 $5 \\times 4 + 3 = 20 + 3 = 23$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+        "question": "果园里桃树有 $x$ 棵，梨树是桃树的 3 倍，两种树一共 240 棵。下列方程正确的是（    ）。",
+        "options": [
+          "x+3=240",
+          "x+3x=240",
+          "3x=240",
+          "x÷3+x=240"
+        ],
+        "answer": "x+3x=240",
+        "explanation": "桃树 $x$，梨树 $3x$，一共有 $x + 3x = 240$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+        "question": "甲乙两车同时从相距 450 千米的两地相对开出，甲车每小时行 40 千米，乙车每小时行 $x$ 千米，5 小时后相遇。下列方程错误的是（    ）。",
+        "options": [
+          "(40+x)×5=450",
+          "40×5+5x=450",
+          "450÷(40+x)=5",
+          "40+x=450"
+        ],
+        "answer": "40+x=450",
+        "explanation": "相遇问题的基本关系是：速度和 $\\times$ 相遇时间 $=$ 总路程。第四个选项没乘时间，是错误的。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "正方形的边长是 $a$ 厘米，周长 $C$ 是（    ）厘米。",
+        "options": [
+          "a×a",
+          "4a",
+          "a+4",
+          "2a"
+        ],
+        "answer": "4a",
+        "explanation": "正方形周长 $=$ 边长 $\\times 4$，即 $a \\times 4 = 4a$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "列方程解决实际问题（ax±b=c类型）",
+        "question": "羽毛球每筒 12 个，王老师买了几筒后又买了 3 个散装的，正好 27 个。王老师买了（    ）筒。",
+        "options": [
+          "2",
+          "3",
+          "12",
+          "24"
+        ],
+        "answer": "2",
+        "explanation": "设买了 $x$ 筒。$12x + 3 = 27$，$12x = 24$，$x = 2$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "解简易方程",
+        "question": "方程 $x \\div 4 = 25$ 的解是 $x =$ ___。",
+        "options": [],
+        "answer": "100",
+        "explanation": "$x = 25 \\times 4 = 100$。验算：$100 \\div 4 = 25$。结果为 100。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "一个长方形的长是 8 厘米，宽是 $b$ 厘米，它的面积是 ___ $b$ 平方厘米。",
+        "options": [],
+        "answer": "8",
+        "explanation": "长方形面积 $=$ 长 $\\times$ 宽 $= 8 \\times b = 8b$。填空处应为 8。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "列方程解决实际问题（ax±b=c类型）",
+        "question": "练习本每本 2 元，小明买了 $x$ 本，付给营业员 50 元，找回 30 元。小明买了 ___ 本。",
+        "options": [],
+        "answer": "10",
+        "explanation": "方程：$50 - 2x = 30$。$2x = 20$，$x = 10$。验算：$2 \\times 10 = 20$，$50 - 20 = 30$。符合题意。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "解简易方程",
+        "question": "计算方程的解：$x + 125 = 300, x = ?$",
+        "options": [],
+        "answer": "175",
+        "explanation": "$x = 300 - 125 = 175$。验算：$175 + 125 = 300$。结果正确。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解简易方程",
+        "question": "计算方程的解：$6x - 4x = 48, x = ?$",
+        "options": [],
+        "answer": "24",
+        "explanation": "合并同类项：$(6-4)x = 48$，即 $2x = 48$。解得 $x = 48 \\div 2 = 24$。验算：$6 \\times 24 - 4 \\times 24 = 144 - 96 = 48$。结果正确。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级数学上册第五单元综合能力测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "$a \\times a$ 可以简写成 $a^2$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$a^2$ 表示两个 $a$ 相乘，是正确的缩写形式。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "方程的意义与等式的性质",
+        "question": "等式两边同时乘一个数，等式一定成立。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是等式的性质2。注意除法时不能除以0，但乘法没有这个限制。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "$3a + 5b$ 简写为 $8ab$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "不是同类项不能相加。$3a$ 和 $5b$ 的单位不同，不能合并。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "解简易方程",
+        "question": "方程 $x \\div 0.5 = 10$ 的解是 $x = 20$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "解法：$x = 10 \\times 0.5 = 5$。验算：$5 \\div 0.5 = 10$。原题设解为 20 是错误的。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "列方程解决实际问题（ax±b=c类型）",
+        "question": "已知 $a+b=15$，如果 $a=8$，那么 $b=7$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "代入 $a$ 值：$8+b=15$，解得 $b=7$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "含有字母的式子“$a$ 的 2 倍加上 5”可以用（    ）表示。",
+        "options": [
+          "a+2+5",
+          "2a+5",
+          "a^2+5",
+          "2a-5"
+        ],
+        "answer": "2a+5",
+        "explanation": "$a$ 的 2 倍是 $2a$，加上 5 就是 $2a + 5$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "方程的意义与等式的性质",
+        "question": "如果 $x+1.5 = y+2.5$，那么 $x$ 与 $y$ 的关系是（    ）。",
+        "options": [
+          "x > y",
+          "x < y",
+          "x = y",
+          "无法确定"
+        ],
+        "answer": "x > y",
+        "explanation": "等式两边同时减去 1.5 得到 $x = y + 1$。因为 $y+1$ 比 $y$ 大，所以 $x > y$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "当 $x = 2$ 时，$x^2$ 与 $2x$ 的大小关系是（    ）。",
+        "options": [
+          "x^2 > 2x",
+          "x^2 < 2x",
+          "x^2 = 2x",
+          "无法比较"
+        ],
+        "answer": "x^2 = 2x",
+        "explanation": "$x^2 = 2 \\times 2 = 4$；$2x = 2 \\times 2 = 4$。两者相等。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解简易方程",
+        "question": "解方程 $(x-3) \\times 2 = 10$ 时，应先（    ）比较简便。",
+        "options": [
+          "两边同时乘2",
+          "两边同时减2",
+          "两边同时除以2",
+          "两个括号拆开"
+        ],
+        "answer": "两边同时除以2",
+        "explanation": "先把 $(x-3)$ 看作整体，两边除以 2 得到 $x-3=5$，计算更快捷。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "一本练习本 $a$ 元，一支铅笔 $b$ 元，买 3 本练习本和 2 支铅笔一共（    ）元。",
+        "options": [
+          "3a+2b",
+          "2a+3b",
+          "5ab",
+          "3+a+2+b"
+        ],
+        "answer": "3a+2b",
+        "explanation": "3 本练习本是 $3a$ 元，2 支铅笔是 $2b$ 元，总价相加。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+        "question": "妈妈买了 5 千克苹果和 8 千克梨，一共用了 76 元。已知苹果每千克 8 元，梨每千克多少元？设梨每千克 $x$ 元，方程是（    ）。",
+        "options": [
+          "5×8+8x=76",
+          "5x+8×8=76",
+          "76-8x=5",
+          "5+8+x=76"
+        ],
+        "answer": "5×8+8x=76",
+        "explanation": "总钱数 $=$ 苹果钱 $+$ 梨钱。即 $5 \\times 8 + 8x = 76$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "列方程解决实际问题（ax±b=c类型）",
+        "question": "大船限乘 10 人，小船限乘 6 人。全班 48 人共租了 6 条船，其中几条是大船？设大船有 $x$ 条，方程正确的是（    ）。",
+        "options": [
+          "10x+6(6-x)=48",
+          "6x+10(6-x)=48",
+          "10x+6x=48",
+          "10×6+6x=48"
+        ],
+        "answer": "10x+6(6-x)=48",
+        "explanation": "大船 $x$ 条，则小船 $(6-x)$ 条。人数总和：$10x + 6(6-x) = 48$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "方程的意义与等式的性质",
+        "question": "已知 $15 - x = 8$，求 $x$。下列说法正确的是（    ）。",
+        "options": [
+          "x=23",
+          "x=7",
+          "x=15",
+          "x=8"
+        ],
+        "answer": "x=7",
+        "explanation": "$15 - 7 = 8$，代入成立。计算过程：$x = 15 - 8 = 7$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+        "question": "学校买来 8 个足球和 10 个篮球，共付了 600 元。每个足球 35 元，每个篮球多少元？（结果为整数）",
+        "options": [
+          "32",
+          "28",
+          "30",
+          "25"
+        ],
+        "answer": "32",
+        "explanation": "设篮球 $x$ 元。$8 \\times 35 + 10x = 600$。$280 + 10x = 600$，$10x = 320$，$x = 32$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+        "question": "两地相距 660 千米，甲车每小时行 50 千米，乙车每小时行 60 千米。两车同时相对而行，几小时后相遇？",
+        "options": [
+          "5",
+          "6",
+          "11",
+          "12"
+        ],
+        "answer": "6",
+        "explanation": "设 $x$ 小时相遇。$(50+60)x = 660$，$110x = 660$，$x = 6$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+        "question": "动物园里猴子的只数是熊猫的 4 倍，猴子比熊猫多 30 只。熊猫有多少只？",
+        "options": [
+          "10",
+          "15",
+          "8",
+          "12"
+        ],
+        "answer": "10",
+        "explanation": "设熊猫 $x$ 只，则猴子 $4x$ 只。$4x - x = 30$，$3x = 30$，$x = 10$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "一个两位数，十位上的数字是 $a$，个位上的数字是 $b$。这个两位数是（    ）。",
+        "options": [
+          "ab",
+          "a+b",
+          "10a+b",
+          "10b+a"
+        ],
+        "answer": "10a+b",
+        "explanation": "十位上的数字表示几个十，所以是 $10a$，加上个位是 $10a+b$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "方程的意义与等式的性质",
+        "question": "如果 $3x = 12$，那么 $1.2x$ 等于（    ）。",
+        "options": [
+          "4",
+          "4.8",
+          "14.4",
+          "10"
+        ],
+        "answer": "4.8",
+        "explanation": "由 $3x=12$ 得 $x=4$。将 $x=4$ 代入 $1.2x$ 得 $1.2 \\times 4 = 4.8$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解简易方程",
+        "question": "已知 $2x + 7 = 37$，那么 $x$ 的值是 ___。",
+        "options": [],
+        "answer": "15",
+        "explanation": "$2x = 37 - 7 = 30$。$x = 30 \\div 2 = 15$。验算：$2 \\times 15 + 7 = 37$。正确。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用字母表示数与简写规则",
+        "question": "小红有 20 元钱，买了 $n$ 支单价为 3 元的铅笔，还剩 ___ 元。（用含有字母的式子表示，填入 $20-3n$ 中的数字 3 后的字母前面的数字）",
+        "options": [],
+        "answer": "3",
+        "explanation": "虽然是字母题，但要求填固定数字。此处考查式子结构 $20 - 3n$ 中的 3。总价 = 单价 $\\times$ 数量。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "列方程解决实际问题（ax±b=c类型）",
+        "question": "一个长方形周长是 40 厘米，长是 12 厘米，它的宽是 ___ 厘米。",
+        "options": [],
+        "answer": "8",
+        "explanation": "设宽为 $x$。$(12 + x) \\times 2 = 40$。$12 + x = 20$，$x = 8$。验算：$(12+8) \\times 2 = 40$。正确。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解简易方程",
+        "question": "计算方程的解：$5x - 13 = 27, x = ?$",
+        "options": [],
+        "answer": "8",
+        "explanation": "$5x = 27 + 13 = 40$。$x = 40 \\div 5 = 8$。验算：$5 \\times 8 - 13 = 40 - 13 = 27$。正确。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解简易方程",
+        "question": "计算方程的解：$3(x + 5) = 24, x = ?$",
+        "options": [],
+        "answer": "3",
+        "explanation": "$x + 5 = 24 \\div 3 = 8$。$x = 8 - 5 = 3$。验算：$3 \\times (3 + 5) = 3 \\times 8 = 24$。正确。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "用字母表示数与简写规则",
+      "core_concept": "在数学中，我们可以用字母来表示未知的数或变化的量。含有字母的乘法式子有特殊的简写方法：数字和字母、字母和字母之间的乘号可以记作“·”或省略不写。缩写时数字必须写在字母前面，1通常省略。",
+      "key_formula": "$a \\times b = ab, a \\times 1 = a, a \\times a = a^2$",
+      "common_mistakes": [
+        "把 $a \\times a$ 误写成 $2a$",
+        "在加法或减法中也省略符号，如把 $a + 5$ 写成 $5a$"
+      ],
+      "tips": "记住“字母像个筐，什么都能装”，简写只针对乘法，加减除万万不能省符号。"
+    },
+    {
+      "point": "方程的意义与等式的性质",
+      "core_concept": "含有未知数的等式叫做方程。方程一定是等式，但等式不一定是方程。等式就像一个平衡的天平，性质1：两边同时加减同一个数，天平仍平衡；性质2：两边同时乘或除以同一个不为0的数，天平仍平衡。",
+      "key_formula": "若 $a=b$，则 $a \\pm c = b \\pm c$ 且 $ac = bc$",
+      "common_mistakes": [
+        "认为 $x + 5 > 10$ 是方程（它不是等式）",
+        "在等式两边除以未知量时忽略了未知量不能为 0 的前提"
+      ],
+      "tips": "判断方程看两点：一看有没有等号，二看有没有字母。"
+    },
+    {
+      "point": "解简易方程",
+      "core_concept": "求方程的解的过程叫做解方程。解方程的主要根据是等式的基本性质。在解方程时，通常先处理括号外的加减法，再处理乘除法，最后求出未知数的值。求得的结果必须代入原方程验算。",
+      "key_formula": "$x + a = b \\Rightarrow x = b - a, ax = b \\Rightarrow x = b \\div a$",
+      "common_mistakes": [
+        "解方程写完后不写“解：”字",
+        "计算过程中等号没有对齐"
+      ],
+      "tips": "解方程要注意“格式”，左边写个“解”，每步等号要对齐，最后验算保满分。"
+    },
+    {
+      "point": "列方程解决实际问题（ax±b=c类型）",
+      "core_concept": "通过设定未知数 $x$，将文字中的等量关系转化成数学方程。关键在于寻找题目中的“总量=分量+分量”或“大数-小数=差”的等量关系。这类题通常包含一个固定量和一个随数量变化的量。",
+      "key_formula": "单价 \\times 数量 + 剩下的 = 总钱数",
+      "common_mistakes": [
+        "设未知数时忘记写单位名称",
+        "列出的方程中逻辑混乱，如用总数去加分量"
+      ],
+      "tips": "先找关键句，找出谁和谁相等，再用字母替代那个不知道的量。"
+    },
+    {
+      "point": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+      "core_concept": "这类问题涉及两个未知量或复杂运动情境。在和倍问题中，通常设标准量（或者小数）为 $x$，另一个量用含有 $x$ 的式子表示。在相遇问题中，利用“速度和×时间=总路程”来构建方程。",
+      "key_formula": "(\\text{速度}_1 + \\text{速度}_2) \\times \\text{时间} = \\text{路程}",
+      "common_mistakes": [
+        "相遇问题列方程时忘记加括号，写成 $v_1 + v_2 \\times t$",
+        "设两个未知数 $x$ 和 $y$（五年级只学一元一次方程）"
+      ],
+      "tips": "画个简单的线段图能快速帮你想清楚数量关系！"
+    }
+  ]
+}

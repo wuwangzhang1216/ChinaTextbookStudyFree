@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学六年级下册",
+  "unit": "负数",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元 负数 基础巩固卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "0 既是正数，也是负数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "规定 0 既不是正数，也不是负数。它是正数和负数的分界点。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "负数的实际应用",
+        "question": "如果盈利 500 元记作 +500 元，那么亏损 200 元就记作 -200 元。",
+        "options": [],
+        "answer": "对",
+        "explanation": "盈利和亏损是一对具有相反意义的量，盈利为正，则亏损为负。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "正数前面的“+”号可以省略不写，但负数前面的“-”号必须写。",
+        "options": [],
+        "answer": "对",
+        "explanation": "正数可以不写符号，负数必须带负号以示区别。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "在直数轴上，左边的数总比右边的数大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在数轴上，从左到右的顺序就是从小到大的顺序，右边的数总比左边的数大。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "-15 摄氏度读作“零下 15 摄氏度”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“-”在表示气温时读作“零下”。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "下列各数中，最小的数是哪个？",
+        "options": [
+          "-10",
+          "0",
+          "5",
+          "-2"
+        ],
+        "answer": "-10",
+        "explanation": "负数小于 0 和正数。在负数中，绝对值大的反而小，-10 在数轴最左边。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "在数轴上，从 0 点出发，先向右移动 3 个单位，再向左移动 5 个单位，此时的位置表示什么？",
+        "options": [
+          "+2",
+          "-2",
+          "+8",
+          "-8"
+        ],
+        "answer": "-2",
+        "explanation": "0 + 3 - 5 = -2。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "下面哪个温度最接近 0 摄氏度？",
+        "options": [
+          "-5 ℃",
+          "2 ℃",
+          "-1 ℃",
+          "3 ℃"
+        ],
+        "answer": "-1 ℃",
+        "explanation": "比较各数到 0 的距离（绝对值）：5, 2, 1, 3。1 最小，所以 -1 ℃ 最接近。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "负数的实际应用",
+        "question": "超市运进 50 箱苹果记作 +50 箱，那么“卖出 30 箱”应记作多少箱？",
+        "options": [
+          "30",
+          "-30",
+          "+30",
+          "-20"
+        ],
+        "answer": "-30",
+        "explanation": "运进为正，卖出为相反意义量，记为负。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "在 -5, 0, +8, 12, -0.6 这些数中，正数有几个？",
+        "options": [
+          "1 个",
+          "2 个",
+          "3 个",
+          "4 个"
+        ],
+        "answer": "2 个",
+        "explanation": "正数有 +8 和 12。0 既不是正数也不是负数。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "负数的实际应用",
+        "question": "潜水艇在海平面以下 100 米处记作 -100 米，它上升 20 米后的海拔高度是多少米？",
+        "options": [
+          "-120 米",
+          "-80 米",
+          "80 米",
+          "120 米"
+        ],
+        "answer": "-80 米",
+        "explanation": "-100 + 20 = -80（米）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "比 0 小的数是什么数？",
+        "options": [
+          "正数",
+          "负数",
+          "整数",
+          "自然数"
+        ],
+        "answer": "负数",
+        "explanation": "根据负数的定义，小于 0 的数叫做负数。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "比较大小：-8 与 -6 的关系是？",
+        "options": [
+          ">",
+          "<",
+          " =",
+          "无法比较"
+        ],
+        "answer": "<",
+        "explanation": "在数轴上，-8 在 -6 的左边，所以 -8 < -6。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "数轴上的原点表示什么数？",
+        "options": [
+          "1",
+          "-1",
+          "0",
+          "不存在"
+        ],
+        "answer": "0",
+        "explanation": "数轴的中心参考点（原点）表示 0。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "负数的实际应用",
+        "question": "电梯从 5 层下降 6 层，此时电梯在几层？（假设 1 层下面是地下 1 层，即 -1 层）",
+        "options": [
+          "0 层",
+          "-1 层",
+          "1 层",
+          "-11 层"
+        ],
+        "answer": "-1 层",
+        "explanation": "5 - 6 = -1。注意建筑中通常没有 0 层。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "写数：负十二点五 应该写作？",
+        "options": [
+          "12.5",
+          "-12.5",
+          "-12",
+          "+12.5"
+        ],
+        "answer": "-12.5",
+        "explanation": "负号在前，后面跟数字 12.5。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "离原点 3 个单位长度的点代表的数有几个？",
+        "options": [
+          "1 个",
+          "2 个",
+          "3 个",
+          "无数个"
+        ],
+        "answer": "2 个",
+        "explanation": "左边 3 个单位是 -3，右边 3 个单位是 +3。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "负数的实际应用",
+        "question": "如果水位上升 2 米记作 +2 米，那么水位下降 3 米后再上升 1 米，水位最终变化记作多少米？",
+        "options": [
+          "+2",
+          "-2",
+          "0",
+          "-4"
+        ],
+        "answer": "-2",
+        "explanation": "-3 + 1 = -2（米）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的实际应用",
+        "question": "小明向东走 50 米记作 +50 米，那么向西走 100 米记作 ___ 米。（仅填负号后的数字）",
+        "options": [],
+        "answer": "100",
+        "explanation": "向东为正，则向西为负，100 米对应数字 100。验算：相反方向数字对应正确。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "在数轴上，点 A 表示 -2，将点 A 向右移动 6 个单位得到点 B，点 B 表示正数 ___。",
+        "options": [],
+        "answer": "4",
+        "explanation": "-2 + 6 = 4。验算：4 - (-2) = 6，符合移动单位数。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "如果比平均分高 5 分记作 +5 分，那么比平均分低 8 分应记作减 ___ 分。",
+        "options": [],
+        "answer": "8",
+        "explanation": "高为正，低为负，数字部分为 8。验算：概念匹配正确。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的实际应用",
+        "question": "计算：|-15| = ?",
+        "options": [],
+        "answer": "15",
+        "explanation": "绝对值表示数到原点的距离，-15 的绝对值是 15。验算：负数的绝对值是其相反数。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "数轴上表示 -3 的点到表示 2 的点的距离是多少单位长度？",
+        "options": [],
+        "answer": "5",
+        "explanation": "距离 = |2 - (-3)| = |2 + 3| = 5。验算：从 -3 到 0 是 3 个单位，0 到 2 是 2 个单位，3 + 2 = 5。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "人教版六年级下册数学第一单元《负数》综合达标卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "所有的正数都大于负数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "正数在 0 的右边，负数在 0 的左边，所以正数 > 0 > 负数。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "整数分为正整数和负整数两类。",
+        "options": [],
+        "answer": "错",
+        "explanation": "整数分为正整数、0 和负整数三类。0 不可忽略。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "在数轴上，离原点越远，这个数就越大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "向右离原点越远越大，向左离原点越远越小。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "如果一个数不是正数，那么它一定是负数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "0 既不是正数也不是负数。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "海拔 -100 米表示比海平面低 100 米。",
+        "options": [],
+        "answer": "对",
+        "explanation": "海拔以海平面为 0，负数表示低于海平面。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "下列不是正数的是哪一个？",
+        "options": [
+          "+3",
+          "0.5",
+          "0",
+          "100"
+        ],
+        "answer": "0",
+        "explanation": "0 既不是正数也不是负数。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "负数的实际应用",
+        "question": "妈妈去银行存入 2000 元记作 +2000 元，取出 500 元后，存折余额变化记作多少元？",
+        "options": [
+          "+500",
+          "-500",
+          "+1500",
+          "-1500"
+        ],
+        "answer": "-500",
+        "explanation": "存入为正，取出为负。取出 500 元记作 -500 元。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "-3.8 读作什么？",
+        "options": [
+          "负三点八",
+          "减三点八",
+          "三点八",
+          "负三八"
+        ],
+        "answer": "负三点八",
+        "explanation": "“-”号读作“负”。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在數軸上表示正負數",
+        "question": "在数轴上，表示 -5 的点在表示 -2 的点的什么方向？",
+        "options": [
+          "右边",
+          "左边",
+          "上方",
+          "下方"
+        ],
+        "answer": "左边",
+        "explanation": "-5 比 -2 小，所以在数轴上位于 -2 的左边。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "下列各数中，与 0 最接近的数是哪个？",
+        "options": [
+          "-2",
+          "1",
+          "-0.1",
+          "0.5"
+        ],
+        "answer": "-0.1",
+        "explanation": "看绝对值大小：|-0.1|=0.1 是四个选项中最小的距离。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "负数的实际应用",
+        "question": "气温从 -5 ℃ 上升了 8 ℃，现在的气温是多少？",
+        "options": [
+          "-13 ℃",
+          "13 ℃",
+          "3 ℃",
+          "-3 ℃"
+        ],
+        "answer": "3 ℃",
+        "explanation": "-5 + 8 = 3。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "比较大小：-100 与 0.01 的关系是？",
+        "options": [
+          ">",
+          "<",
+          " =",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "所有的负数都小于正数。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "负数的实际应用",
+        "question": "小红的家在学校西边 200 米处，记作 -200 米。小明家在学校东边 150 米处。小明家到小红家的距离是多少？",
+        "options": [
+          "50 米",
+          "350 米",
+          "-50 米",
+          "-350 米"
+        ],
+        "answer": "350 米",
+        "explanation": "距离为 |150 - (-200)| = 350 米。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "负数的实际应用",
+        "question": "在一场足球赛中，甲队失球 2 个。若进球用正数表示，失球 2 个应记作？",
+        "options": [
+          "+2",
+          "2",
+          "-2",
+          "0"
+        ],
+        "answer": "-2",
+        "explanation": "相反意义量，进球为正，则失球为负。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "中国最大的咸水湖是青海湖，它的海拔高度是 3196 米，这记作什么？",
+        "options": [
+          "-3196 米",
+          "+3196 米",
+          "0 米",
+          "31.96 米"
+        ],
+        "answer": "+3196 米",
+        "explanation": "高于海平面记为正。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "数轴上表示整数的点有几个？",
+        "options": [
+          "10 个",
+          "100 个",
+          "1000 个",
+          "无数个"
+        ],
+        "answer": "无数个",
+        "explanation": "数轴向两端无限延伸，包含所有正整数、0 和负整数。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "负数的实际应用",
+        "question": "仓库运进 10 吨货物记作 +10 吨，运出 10 吨记作 -10 吨，那么运进 10 吨又运出 10 吨后，仓库的变化量是多少？",
+        "options": [
+          "+20",
+          "-20",
+          "0",
+          "10"
+        ],
+        "answer": "0",
+        "explanation": "+10 - 10 = 0。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "下面说法错误的是哪句？",
+        "options": [
+          "0 是正数",
+          "负数小于 0",
+          "正数前可以加 +",
+          "0 不是负数"
+        ],
+        "answer": "0 是正数",
+        "explanation": "0 既不是正数也不是负数，所以该说法错误。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的意义与读写法",
+        "question": "如果电梯上升 15 层记作 +15 层，那么下降 6 层应记作负 ___ 层。",
+        "options": [],
+        "answer": "6",
+        "explanation": "下降为相反意义，负号后填数字 6。验算：15 为正，6 为负。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "负数的实际应用",
+        "question": "某种饼干的标准质量是 500 克，包装袋上标着“500 ± 5”克。质检员抽检了一袋重 497 克的饼干，它比标准重量少 ___ 克。",
+        "options": [],
+        "answer": "3",
+        "explanation": "500 - 497 = 3（克）。验算：497 + 3 = 500。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "一个点从数轴上的 -1 处开始，向左移动 2 个单位，现在的点表示的数去掉符号后是 ___。",
+        "options": [],
+        "answer": "3",
+        "explanation": "-1 向左移动 2 是 -3。去掉符号后是数字 3。验算：-1 - 2 = -3。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "负数的实际应用",
+        "question": "计算：100 - 120 的绝对值是？",
+        "options": [],
+        "answer": "20",
+        "explanation": "100 - 120 = -20，绝对值为 20。验算：|-20| = 20。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在数轴上表示正负数",
+        "question": "在数轴上，0 到 -8 之间的整数点共有几个？（不含 0 和 -8 自身）",
+        "options": [],
+        "answer": "7",
+        "explanation": "这些点分别是 -1, -2, -3, -4, -5, -6, -7。共 7 个。验算：8 - 1 = 7。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "负数的意义与读写法",
+      "core_concept": "负数是为了表示具有相反意义的量而产生的。小于0的数叫做负数，在数字前加负号“-”；大于0的数叫做正数，正数前的“+”通常可以省略。0既不是正数也不是负数，它是两者之间的分界点。",
+      "key_formula": "负数 < 0 < 正数",
+      "common_mistakes": [
+        "错误地认为0是正数的一种。",
+        "读负数时漏掉‘负’字，或者读作‘减几’。"
+      ],
+      "tips": "记住‘0’是分水岭，所有的负数都躲在0的左边，负号千万不能丢。"
+    },
+    {
+      "point": "负数的实际应用",
+      "core_concept": "在生活中，我们经常遇到具有相反意义的量，如：零上温度与零下温度、收入与支出、水位上升与水位下降、海平面以上与以下。如果其中一个量用正数表示，另一个量就用负数表示。",
+      "key_formula": "相反意义的量：若 A 为正，则其相反量为负。",
+      "common_mistakes": [
+        "分不清哪一方该记作正，哪一方记作负（如：把支出记成了正数）。",
+        "计算变化量时混淆了增加和减小的方向。"
+      ],
+      "tips": "解题前先确定‘谁是基准点0’，通常海平面、平均分、标准重量、0度就是那个0。"
+    },
+    {
+      "point": "在数轴上表示正负数",
+      "core_concept": "数轴是一条规定了原点、正方向和单位长度的直线。在数轴上，0是原点，正数分布在原点的右边，负数分布在原点的左边。从左往右看，数轴上的数是由小到大排列的。",
+      "key_formula": "左边的数 < 右边的数",
+      "common_mistakes": [
+        "在数轴上标负数时，错误地从左往右数（如：认为-2在-1的右边）。",
+        "计算两点间距离时忽略了负号的影响。"
+      ],
+      "tips": "画图想象法：越往左越冷（负数绝对值越大越小），越往右越暖（正数越大）。"
+    }
+  ]
+}

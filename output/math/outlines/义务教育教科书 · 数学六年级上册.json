@@ -1,0 +1,336 @@
+{
+  "textbook": "六年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "分数乘法",
+      "knowledge_points": [
+        {
+          "name": "分数乘整数的意义与计算",
+          "description": "理解分数乘整数是求几个相同加数和的简便运算，掌握分子乘整数、分母不变的法则。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "分数乘分数的计算法则",
+          "description": "掌握分子相乘的积作分子，分母相乘的积作分母的计算方法，学会先约分再计算。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空",
+            "计算题"
+          ]
+        },
+        {
+          "name": "求一个数的几分之几是多少",
+          "description": "理解分数乘法的应用逻辑，解决连续求一个数的几分之几的实际问题。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "画图"
+          ]
+        },
+        {
+          "name": "分数乘法混合运算与简便计算",
+          "description": "掌握分数乘法的运算顺序，运用乘法交换律、结合律、分配律进行简便运算。",
+          "difficulty": 3,
+          "question_types": [
+            "计算题",
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "比一个数多/少几分之几的问题",
+          "description": "解决涉及数量增减变化的分数应用题，理解1±分率的数量关系。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "选择",
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "位置与方向（二）",
+      "knowledge_points": [
+        {
+          "name": "根据方向和距离确定位置",
+          "description": "利用方位角（东偏北等）和比例尺距离在平面图上标出物体位置。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "操作题",
+            "画图"
+          ]
+        },
+        {
+          "name": "描述简单的行走路线",
+          "description": "按方向、角度和距离描述物体移动的轨迹，绘制路线示意图。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "画图",
+            "应用题"
+          ]
+        },
+        {
+          "name": "观测点的相对性",
+          "description": "理解观测点变化后，物体对应的方向和角度的互逆关系。",
+          "difficulty": 3,
+          "question_types": [
+            "选择",
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "分数除法",
+      "knowledge_points": [
+        {
+          "name": "倒数的认识",
+          "description": "理解乘积为1的两个数互为倒数，掌握求分数、整数倒数的方法，明确0没有倒数。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "判断",
+            "选择"
+          ]
+        },
+        {
+          "name": "分数除法的计算方法",
+          "description": "理解除以一个不为零的数等于乘这个数的倒数，涵盖分数除以整数、除以分数。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "计算题",
+            "填空"
+          ]
+        },
+        {
+          "name": "分数除法应用：已知部分求整体",
+          "description": "解决已知一个数的几分之几是多少求这个数的问题，运用方程法或除法解决。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "判断"
+          ]
+        },
+        {
+          "name": "工程问题（单位1的假设法）",
+          "description": "利用工作总量、工作效率（1/t）和工作时间的关系解决协同工作问题。",
+          "difficulty": 5,
+          "question_types": [
+            "应用题",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "比",
+      "knowledge_points": [
+        {
+          "name": "比的意义与比值",
+          "description": "理解比是两个数相除的关系，掌握比的前项、后项及比值的求法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "比的基本性质与化简",
+          "description": "运用比的前项和后项同时乘或除以相同的数（0除外）性质化简为最简单的整数比。",
+          "difficulty": 3,
+          "question_types": [
+            "化简比",
+            "选择",
+            "填空"
+          ]
+        },
+        {
+          "name": "按比例分配问题",
+          "description": "将总量按给定的比进行分配，通过总份数求出各部分的实际数值。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "圆",
+      "knowledge_points": [
+        {
+          "name": "圆的认识与特征",
+          "description": "掌握圆心、半径、直径的概念及其关系（d=2r），认识轴对称性。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "圆的周长计算",
+          "description": "理解圆周率意义，运用周长公式C=πd或C=2πr解决实际长度问题。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "填空",
+            "计算题"
+          ]
+        },
+        {
+          "name": "圆的面积公式推导与应用",
+          "description": "理解割补法转化思想，掌握S=πr²计算圆及圆环的面积。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "计算题",
+            "操作题"
+          ]
+        },
+        {
+          "name": "扇形的认识与圆心角",
+          "description": "识别弧、扇形，理解圆心角决定扇形大小的特征。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "画图"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "百分数（一）",
+      "knowledge_points": [
+        {
+          "name": "百分数的意义与互化",
+          "description": "掌握百分数、小数、分数之间的互写与转化，理解百分率的概念。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "比较/排序"
+          ]
+        },
+        {
+          "name": "百分数应用：增长率与减少率",
+          "description": "解决求一个数比另一个数多（少）百分之几的实际问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "判断"
+          ]
+        },
+        {
+          "name": "生活中的百分数（利率/折扣）",
+          "description": "解决涉及税率、利息、价格折扣等实际金融或商业计算。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "扇形统计图",
+      "knowledge_points": [
+        {
+          "name": "扇形统计图的特点",
+          "description": "理解整个圆代表总量，扇形表示部分占总量的百分比。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "统计图的选择与数据分析",
+          "description": "根据数据需求选择条形、折线或扇形统计图，提取数据解决问题。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "操作题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "数学广角——数与形",
+      "knowledge_points": [
+        {
+          "name": "数形结合规律（奇数和）",
+          "description": "通过观察图形发现前n个连续奇数和等于n²的数学规律。",
+          "difficulty": 4,
+          "question_types": [
+            "规律探索",
+            "填空"
+          ]
+        },
+        {
+          "name": "等比数列求和的思想",
+          "description": "借助图形理解无限逼近1的级数规律初步思想。",
+          "difficulty": 4,
+          "question_types": [
+            "规律探索",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "分数百分数综合复习",
+          "description": "梳理分数与百分数在复杂情境中的混合运用及单位1转换。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "计算题"
+          ]
+        },
+        {
+          "name": "几何图形组合复习",
+          "description": "综合计算圆与多边形组合图形的周长和面积。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "画图"
+          ]
+        },
+        {
+          "name": "数理逻辑与模型复习",
+          "description": "回顾比、统计、规律探索等内容进行跨知识点建模。",
+          "difficulty": 5,
+          "question_types": [
+            "应用题",
+            "规律探索",
+            "操作题"
+          ]
+        }
+      ]
+    }
+  ]
+}

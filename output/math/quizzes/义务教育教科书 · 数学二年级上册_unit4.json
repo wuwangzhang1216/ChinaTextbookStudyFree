@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学二年级上册",
+  "unit": "表内乘法（一）",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第4单元《表内乘法（一）》单元规范特级测评",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "乘法的初步认识",
+        "question": "$4 + 4 + 4$ 改写成乘法算式是 $4 \\times 3$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$4 + 4 + 4$ 是 3 个 4 相加，根据乘法的定义，可以写成 $4 \\times 3$。验算：$4+4+4=12$，$4 \\times 3=12$，结果一致。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "计算 $5 \\times 2$ 和 $2 \\times 5$ 时，用的口诀都是“二五一十”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "同一乘法口诀通常可以计算两道乘法算式，$5 \\times 2$ 和 $2 \\times 5$ 的积都是 10，均使用口诀“二五一十”。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乘法的初步认识",
+        "question": "在乘法算式 $3 \\times 6 = 18$ 中，18 叫做和。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在乘法算式中，相乘的两个数叫做乘数，得到的结果叫做“积”。18 是积，而不是和。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "算式 $3 \\times 4 + 5$ 的计算结果是 17。",
+        "options": [],
+        "answer": "对",
+        "explanation": "按运算顺序先算乘法 $3 \\times 4 = 12$，再算加法 $12 + 5 = 17$。验算：$12+5=17$ ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "6 个 5 相加的和与 5 个 6 相加的和不相等。",
+        "options": [],
+        "answer": "错",
+        "explanation": "6 个 5 相加写成 $5 \\times 6 = 30$，5 个 6 相加写成 $6 \\times 5 = 30$。它们的和都是 30，是相等的。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法的初步认识",
+        "question": "求 3 个 5 相加的和是多少，下列算式错误的是：",
+        "options": [
+          "5 + 5 + 5",
+          "5 \\times 3",
+          "3 \\times 5",
+          "3 + 3 + 3 + 3 + 3"
+        ],
+        "answer": "3 + 3 + 3 + 3 + 3",
+        "explanation": "3 个 5 相加是 $5+5+5$，对应乘法 $5 \\times 3$ 或 $3 \\times 5$。而 $3+3+3+3+3$ 是 5 个 3 相加。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "把乘法口诀补充完整：四六（    ）。",
+        "options": [
+          "二十",
+          "二十四",
+          "三十",
+          "十二"
+        ],
+        "answer": "二十四",
+        "explanation": "根据 6 的乘法口诀：一六得六，二六十二，三六十八，四六二十四。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "积是 12 的算式是：",
+        "options": [
+          "10 + 2",
+          "3 \\times 4",
+          "20 - 8",
+          "6 + 6"
+        ],
+        "answer": "3 \\times 4",
+        "explanation": "A、C、D项结果虽然也是 12，但它们是加法或减法，只有 B 项是积（乘法的结果）为 12。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "明明买了 3 盒水彩笔，每盒 6 支。送给好朋友 4 支后，还剩多少支？",
+        "options": [
+          "22",
+          "14",
+          "10",
+          "24"
+        ],
+        "answer": "14",
+        "explanation": "先求总支数：$3 \\times 6 = 18$（支），再减去送掉的：$18 - 4 = 14$（支）。验算：$14 + 4 = 18$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "两个乘数都是 5，积是多少？",
+        "options": [
+          "10",
+          "25",
+          "7",
+          "0"
+        ],
+        "answer": "25",
+        "explanation": "乘数是 5 和 5，算式为 $5 \\times 5$。根据口诀“五五二十五”得 25。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "在计算 $4 \\times 5$ 时，小红忘记了口诀，她可以用下面哪个办法算出得数？",
+        "options": [
+          "4 + 5",
+          "4 + 4 + 4 + 4",
+          "5 + 5 + 5 + 5",
+          "5 - 4"
+        ],
+        "answer": "5 + 5 + 5 + 5",
+        "explanation": "$4 \\times 5$ 表示 4 个 5 相加，即 $5+5+5+5=20$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "一只青蛙 4 条腿，5 只青蛙有多少条腿？",
+        "options": [
+          "9",
+          "20",
+          "16",
+          "25"
+        ],
+        "answer": "20",
+        "explanation": "每只 4 条腿，5 只就是 5 个 4，列式 $4 \\times 5 = 20$（条）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "比较 $4 \\times 3 + 4$ 与 $4 \\times 4$ 的大小结果是：",
+        "options": [
+          ">",
+          "<",
+          "=",
+          "≈"
+        ],
+        "answer": "=",
+        "explanation": "$4 \\times 3 + 4 = 12 + 4 = 16$；$4 \\times 4 = 16$。两者相等。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "超市里一个面包 3 元钱，妈妈买了 6 个，一共要付多少元？",
+        "options": [
+          "9",
+          "18",
+          "12",
+          "15"
+        ],
+        "answer": "18",
+        "explanation": "单价 3 元，数量 6 个，总价为 $3 \\times 6 = 18$（元）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "计算 $5 \\times 4 - 3$ 时，应先算：",
+        "options": [
+          "减法",
+          "乘法",
+          "加法",
+          "都可以"
+        ],
+        "answer": "乘法",
+        "explanation": "在乘减混合运算中，应先算乘法，再算减法。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "一根绳子对折再对折，每段长 5 厘米，这根绳子原来长多少厘米？",
+        "options": [
+          "10",
+          "15",
+          "20",
+          "25"
+        ],
+        "answer": "20",
+        "explanation": "对折一次变 2 段，再对折一次变 4 段。原来长度为 $5 \\times 4 = 20$（厘米）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "下面哪句口诀只能写出一道乘法算式？",
+        "options": [
+          "二三得六",
+          "三四十二",
+          "四四十六",
+          "一五得五"
+        ],
+        "answer": "四四十六",
+        "explanation": "乘数相同的口诀（如四四十六、五五二十五）只能写出一道乘法算式。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "计算 $3 \\times 2$ 的结果是：",
+        "options": [
+          "5",
+          "6",
+          "8",
+          "9"
+        ],
+        "answer": "6",
+        "explanation": "$3 \\times 2 = 6$，口诀：二三得六。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "一辆 3 轮车有 3 个轮子，6 辆这样的车一共有 ___ 个轮子。",
+        "options": [],
+        "answer": "18",
+        "explanation": "列式：$3 \\times 6 = 18$。验算：$6 \\times 3 = 18$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "教室里有 4 排桌子，每排有 5 张，后来又搬走 3 张，现在教室里剩下 ___ 张桌子。",
+        "options": [],
+        "answer": "17",
+        "explanation": "先前总数：$4 \\times 5 = 20$（张）。搬走后剩下：$20 - 3 = 17$（张）。验算：$17+3=20$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "小明每天看 6 页书，看了一个星期（7天），但他最后一天只看了 2 页，他这星期一共看了 ___ 页。",
+        "options": [],
+        "answer": "38",
+        "explanation": "前 6 天看了：$6 \\times 6 = 36$（页），加上最后一天：$36 + 2 = 38$（页）。验算：$6+6+6+6+6+6+2=38$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "计算：$6 \\times 5 = ?$",
+        "options": [],
+        "answer": "30",
+        "explanation": "$6 \\times 5 = 30$。口诀：五六三十。验算：$5 \\times 6 = 30$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "计算：$4 \\times 6 + 2 = ?$",
+        "options": [],
+        "answer": "26",
+        "explanation": "先算 $4 \\times 6 = 24$，再算 $24 + 2 = 26$。验算：$26 - 2 = 24$, $24 \\div 4 = 6$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级上册《表内乘法（一）》期中能力综合达标卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "1 乘任何数都得 1。",
+        "options": [],
+        "answer": "错",
+        "explanation": "1 乘任何数都得原数。例如 $1 \\times 5 = 5$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乘法的初步认识",
+        "question": "$2 + 2$ 可以写成 $2 \\times 2$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "2 个 2 相加是 $2+2=4$，乘法表示为 $2 \\times 2=4$。结果相同。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "三五十五对应的乘法算式只有 $3 \\times 5$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "还可以对应 $5 \\times 3 = 15$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "$5 \\times 3 - 5$ 与 $5 \\times 2$ 的结果相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$5 \\times 3 - 5 = 15 - 5 = 10$；$5 \\times 2 = 10$。两者相等。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "两个乘数都是 1，积是 2。",
+        "options": [],
+        "answer": "错",
+        "explanation": "积应该是 $1 \\times 1 = 1$。2 是 $1+1$ 的和。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法的初步认识",
+        "question": "把 $6+6+6+6+6$ 改写成乘法算式，正确的是：",
+        "options": [
+          "6 \\times 5",
+          "6 + 5",
+          "5 + 5 + 5 + 5 + 5 + 5",
+          "6 \\times 6"
+        ],
+        "answer": "6 \\times 5",
+        "explanation": "5 个 6 相加，乘数分别是 6 和 5。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "5 的乘法口诀中，每一句的积都比前一句多：",
+        "options": [
+          "1",
+          "5",
+          "10",
+          "不确定"
+        ],
+        "answer": "5",
+        "explanation": "相邻两句 5 的口诀，积相差 5。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法的初步认识",
+        "question": "一个乘数是 4，另一个乘数是 6，积是多少？",
+        "options": [
+          "10",
+          "2",
+          "24",
+          "30"
+        ],
+        "answer": "24",
+        "explanation": "$4 \\times 6 = 24$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "妈妈买了 5 袋苹果，每袋 4 个，小明吃了 3 个，还剩多少个？",
+        "options": [
+          "17",
+          "23",
+          "12",
+          "15"
+        ],
+        "answer": "17",
+        "explanation": "$5 \\times 4 - 3 = 17$（个）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "口诀“三六十八”可以用来计算下列哪个算式？",
+        "options": [
+          "3 + 6",
+          "18 - 6",
+          "6 \\times 3",
+          "6 + 6 + 6 + 6"
+        ],
+        "answer": "6 \\times 3",
+        "explanation": "口诀对应乘法算式 $3 \\times 6$ 或 $6 \\times 3$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "小红有 2 套邮票，每套 6 张。小明有 3 套邮票，每套 4 张。谁的邮票多？",
+        "options": [
+          "小红多",
+          "小明多",
+          "一样多",
+          "无法比较"
+        ],
+        "answer": "一样多",
+        "explanation": "小红：$2 \\times 6 = 12$；小明：$3 \\times 4 = 12$。两人一样多。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "校园里种了 2 排柳树，第一排 6 棵，第二排 4 棵，一共多少棵？",
+        "options": [
+          "24",
+          "10",
+          "12",
+          "8"
+        ],
+        "answer": "10",
+        "explanation": "注意陷阱：这里是两排数量不同，应使用加法 $6 + 4 = 10$。如果两排都是 6 棵才用乘法。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "在算式 $2 \\times 5$ 中，5 叫做：",
+        "options": [
+          "加数",
+          "乘数",
+          "积",
+          "和"
+        ],
+        "answer": "乘数",
+        "explanation": "乘号两边的数都叫乘数。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "有一堆小棒，如果 4 根 4 根地数，数了 5 次还剩 2 根。这堆小棒共有多少根？",
+        "options": [
+          "18",
+          "22",
+          "20",
+          "11"
+        ],
+        "answer": "22",
+        "explanation": "$4 \\times 5 + 2 = 22$（根）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "$4 \\times 2$ 的结果比 $4 \\times 3$ 的结果：",
+        "options": [
+          "多 4",
+          "少 4",
+          "少 1",
+          "一样"
+        ],
+        "answer": "少 4",
+        "explanation": "$4 \\times 2 = 8$，$4 \\times 3 = 12$，$12 - 8 = 4$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "手工课上，小红做了 6 朵花，小云做的朵数是小红的 2 倍。小云做了多少朵？",
+        "options": [
+          "8",
+          "12",
+          "4",
+          "10"
+        ],
+        "answer": "12",
+        "explanation": "2 倍即 2 个 6，$6 \\times 2 = 12$（朵）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法的初步认识",
+        "question": "下列哪个加法算式不能改成乘法算式？",
+        "options": [
+          "2 + 2 + 2",
+          "4 + 4 + 4 + 4",
+          "3 + 3 + 2",
+          "5 + 5"
+        ],
+        "answer": "3 + 3 + 2",
+        "explanation": "只有相同加数连加才能改写成乘法。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "6+6+6+6+5 可以改写成什么？",
+        "options": [
+          "6 \\times 4 + 5",
+          "6 \\times 5",
+          "6 \\times 5 - 1",
+          "A 和 C 都可以"
+        ],
+        "answer": "A 和 C 都可以",
+        "explanation": "4 个 6 加 5 可以是 $6 \\times 4 + 5$；也可以看作 5 个 6 减去 1 即 $6 \\times 5 - 1$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "小明有 6 盒巧克力，每盒 4 块，他一共有 ___ 块巧克力。",
+        "options": [],
+        "answer": "24",
+        "explanation": "$6 \\times 4 = 24$。验算：$4+4+4+4+4+4=24$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "二年级一班参加兴趣小组，每组 6 人，分成了 5 组，其中有 1 个小组只去了 3 人，一共去了 ___ 人。",
+        "options": [],
+        "answer": "27",
+        "explanation": "先算满员的小组：$6 \\times 4 = 24$，加上不满意的小组：$24 + 3 = 27$。或者 $6 \\times 5 - 3 = 27$。验算：$6+6+6+6+3=27$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "两根跳绳，一根长 3 米，另一根的长是这根的 5 倍，第二根长 ___ 米。",
+        "options": [],
+        "answer": "15",
+        "explanation": "3 的 5 倍是 $3 \\times 5 = 15$。验算：15 里面有 5 个 3 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2~6的乘法口诀编制与记忆",
+        "question": "计算：$4 \\times 4 = ?$",
+        "options": [],
+        "answer": "16",
+        "explanation": "$4 \\times 4 = 16$。验算：$4+4+4+4=16$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘加、乘减混合运算",
+        "question": "计算：$6 \\times 6 - 8 = ?$",
+        "options": [],
+        "answer": "28",
+        "explanation": "先算 $6 \\times 6 = 36$，再算 $36 - 8 = 28$。验算：$28 + 8 = 36$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "乘法的初步认识",
+      "core_concept": "乘法是求几个相同加数和的简便运算。例如 $5+5+5$ 可以写成 $5 \\times 3$ 或 $3 \\times 5$。乘号左右两边的数叫“乘数”，计算出的结果叫“积”。",
+      "key_formula": "相同加数 \\times 加数的个数 = 积",
+      "common_mistakes": [
+        "将不同加数的算式（如 $2+3+2$）改写成乘法",
+        "混淆乘数和积的概念，把积说成和"
+      ],
+      "tips": "记住“乘法是加法的简便运算”，看到连加就要想到能不能变乘法。"
+    },
+    {
+      "point": "2~6的乘法口诀编制与记忆",
+      "core_concept": "口诀是我国古代发明的，用来快速计算乘法。通常一句口诀对应两道乘法算式，例如“二三得六”对应 $2 \\times 3=6$ 和 $3 \\times 2=6$。",
+      "key_formula": "$n$ 的乘法口诀里，相邻两句的积相差 $n$",
+      "common_mistakes": [
+        "口诀背诵不熟练，特别是“四六二十四”和“六六三十六”容易混淆",
+        "将口诀写错，如把“二五一十”写成“二五 10”"
+      ],
+      "tips": "可以采取对口令、手指游戏的方式辅助记忆，理解口诀的来源（每次多加一个数）。"
+    },
+    {
+      "point": "乘加、乘减混合运算",
+      "core_concept": "在一个算式里既有乘法又有加法或减法时，要先计算乘法，再计算加减法。这是数学中规定的运算顺序。",
+      "key_formula": "先乘后加减",
+      "common_mistakes": [
+        "按照从左往右的顺序先算了加减法",
+        "在计算乘减法时，如 $5 \\times 3 - 2$，计算乘法后忘记减去后面的数"
+      ],
+      "tips": "解题时可以先在乘法算式下面画一个小横线，提醒自己这一步要先算。"
+    }
+  ]
+}

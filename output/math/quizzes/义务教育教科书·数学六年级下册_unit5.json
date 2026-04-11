@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学六年级下册",
+  "unit": "数学广角——鸽巢问题",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元鸽巢问题基础水平测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "把5个苹果放进4个抽屉中，总有一个抽屉里至少有2个苹果。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$5 \u0000 4 = 1$（个）......$1$（个），执行 $1 + 1 = 2$。根据鸽巢原理，结论正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "任意从12个出生在同一年的人中，一定有两个人在同一个月出生。",
+        "options": [],
+        "answer": "错",
+        "explanation": "一年有12个月。如果有12个人，最好的情况是每人在不同月份出生。要保证必有两人同月出生，需要 $12 + 1 = 13$ 人。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "把10个小球放进3个盒子里，总有一个盒子至少有4个球。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$10 \u0000 3 = 3$......$1$。$3 + 1 = 4$，所以结论正确。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "在367个人中，至少有两人的生日在同一天。",
+        "options": [],
+        "answer": "对",
+        "explanation": "平年365天，闰年366天。将366天看作抽屉，$367 > 366$，必有两个人生日相同。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "将14本练习本分给5个学生，总有一个学生至少分到4本练习本。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$14 \u0000 5 = 2$......$4$。商是2，至少应是 $2 + 1 = 3$ 本。结论误以为余数4直接加，实际应加1。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "将10个笑脸贴纸分给9个小朋友，至少有一个小朋友得到几个贴纸？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "$10 \u0000 9 = 1$......$1$，$1 + 1 = 2$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "要在10个抽屉里放物品，要保证其中一个抽屉里至少有2个物品，最少要放多少个物品？",
+        "options": [
+          "10",
+          "11",
+          "12",
+          "13"
+        ],
+        "answer": "11",
+        "explanation": "抽屉数 $n=10$，物体数最少为 $10 + 1 = 11$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "向3个杯子里放10颗糖，总有一个杯子里至少有几颗糖？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "explanation": "$10 \u0000 3 = 3$......$1$，$3 + 1 = 4$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "把19本书分给4个同学，总有一个同学至少分到几本书？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "$19 \u0000 4 = 4$......$3$，$4 + 1 = 5$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "红、黄、蓝三种颜色的球各10个放在袋子里。至少取多少个球，才能保证有2个球颜色相同？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "explanation": "颜色数即抽屉数为3。$n=3$，取 $n + 1 = 4$ 个即可保证有2个球同色。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "一副扑克牌（去掉大小王）共52张。至少摸出多少张牌，才能保证有2张牌的点数相同？",
+        "options": [
+          "13",
+          "14",
+          "15",
+          "16"
+        ],
+        "answer": "14",
+        "explanation": "扑克牌点数共有13种（1-13）。将13种点数看作抽屉，摸 $13 + 1 = 14$ 张即可保证点数重复。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "一个口袋里有3种颜色的手套。至少摸出几只手套，才能保证有2只手套的颜色相同？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "explanation": "三种颜色是3个抽屉。摸 $3 + 1 = 4$ 只即可。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "8只鸽子飞进了3个鸽笼，总有一个鸽笼里至少有多少只鸽子？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "$8 \u0000 3 = 2$......$2$，$2 + 1 = 3$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "在一个布袋里放了红球、黄球各5个。至少摸出几个球，才能保证摸出的球中有两种不同颜色的球？",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "6"
+        ],
+        "answer": "6",
+        "explanation": "最坏情况是摸出了5个球都是同一种颜色（比如全是红球）。再摸一个必有另一种颜色。$5 + 1 = 6$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "有4个运动员练投篮，一共投进了33个球。总会有一个运动员至少投进了几个球？",
+        "options": [
+          "8",
+          "9",
+          "33",
+          "10"
+        ],
+        "answer": "9",
+        "explanation": "$33 \u0000 4 = 8$......$1$，$8 + 1 = 9$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "盒子中有4种颜色的球。从中取出多少个球，才能保证一定有2个球颜色相同？",
+        "options": [
+          "4",
+          "5",
+          "10",
+          "12"
+        ],
+        "answer": "5",
+        "explanation": "4种颜色为4个抽屉。$4 + 1 = 5$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "把7本书放进3个抽屉里，总有一个抽屉里至少有几本书？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3",
+        "explanation": "$7 \u0000 3 = 2$......$1$，$2 + 1 = 3$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "六一班有45名学生。至少有多少人的生日在同一个月？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "12"
+        ],
+        "answer": "4",
+        "explanation": "$45 \u0000 12 = 3$......$9$，$3 + 1 = 4$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "有 13 个小朋友聚会。其中至少有 ___ 个小朋友在同一个月份出生。",
+        "options": [],
+        "answer": "2",
+        "explanation": "$13 \u0000 12 = 1$......$1$。$1 + 1 = 2$。验算：即便12人分属12个月，第13人必与其中一个重复。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "将 21 条金鱼养在 4 个鱼缸里，总有一个鱼缸至少养了 ___ 条金鱼。",
+        "options": [],
+        "answer": "6",
+        "explanation": "$21 \u0000 4 = 5$......$1$。$5 + 1 = 6$。验算：若每个缸最多养5条，则总数 $5 \u0007 4 = 20 < 21$，故必有缸至少6条。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "口袋里有红、黄、蓝三色袜各 10 只。至少要摸出 ___ 只才保证有一双同色的袜子。",
+        "options": [],
+        "answer": "4",
+        "explanation": "颜色为3种。$3 + 1 = 4$。验算：前3只可能颜色各异，第4只必与前三者之一同色。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "计算：$50 \u0000 7 = ? $（只写商的整数部分）",
+        "options": [],
+        "answer": "7",
+        "explanation": "$50 \u0000 7 = 7$......$1$。商为7。验算：$7 \u0007 7 + 1 = 50$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "计算：$100 \u0000 9 = ? $（只写余数）",
+        "options": [],
+        "answer": "1",
+        "explanation": "$100 \u0000 9 = 11$......$1$。余数为1。验算：$9 \u0007 11 + 1 = 100$。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级下册数学广角综合检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "从一副扑克牌（54张）中，至少摸出55张牌才能保证有两张点数相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "总共只有54张牌，不可能摸出55张。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "在任意的3个整数中，必有2个数的和是偶数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "整数只有奇数和偶数两种。3个数中必有两个同为奇或同为偶。同性相加得偶数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "把25件玩具分给6个小朋友，总有一个小朋友至少得到5件玩具。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$25 \u0000 6 = 4$......$1$，$4 + 1 = 5$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "要把13只小兔放进4个笼子，总有一个笼子至少有4只小兔。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$13 \u0000 4 = 3$......$1$，$3 + 1 = 4$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "红蓝球混合，至少摸3个才能保证摸出2个颜色相同的球。",
+        "options": [],
+        "answer": "对",
+        "explanation": "2种颜色。$2 + 1 = 3$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "某班有50人。无论如何，至少有多少人的姓氏是相同的？（假设有12个姓氏）",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "12"
+        ],
+        "answer": "5",
+        "explanation": "$50 \u0000 12 = 4$......$2$，$4 + 1 = 5$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "有4款颜色的书包。至少有多少个学生，才能保证有3个学生拿的书包颜色相同？",
+        "options": [
+          "5",
+          "8",
+          "9",
+          "12"
+        ],
+        "answer": "9",
+        "explanation": "设每个颜色有2人，共 $4 \u0007 2 = 8$ 人。第9人必使某一颜色达到3人。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "把23个苹果放进5个抽屉中，总有一个抽屉至少有几个苹果？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "$23 \u0000 5 = 4$......$3$，$4 + 1 = 5$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "一副扑克牌去除大小王后。从中至少摸出几张，才能保证摸出的牌中有3张同花色的？",
+        "options": [
+          "5",
+          "9",
+          "10",
+          "13"
+        ],
+        "answer": "9",
+        "explanation": "4种花色。每个花色先摸2张，共8张。第9张必出现一个花色的第3张。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "把10枝铅笔放进4个笔筒，总有一个笔筒里至少有几枝？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "$10 \u0000 4 = 2$......$2$，$2 + 1 = 3$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "15个小朋友中。至少有多少个小朋友属相相同？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "属相有12个。$15 \u0000 12 = 1$......$3$，$1 + 1 = 2$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "要保证10人中至少有3人是同月出生的。这个结论对吗？",
+        "options": [
+          "对",
+          "不对",
+          "无法判断",
+          "有可能"
+        ],
+        "answer": "不对",
+        "explanation": "$10 < 12$，甚至不能保证2人同月出生。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "如果想让一个抽屉里至少有4本练习册。如果有3个抽屉，最少需要多少本练习册？",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "10",
+        "explanation": "每个抽屉先放3本共9本。多放1本即满足至少有4个。 $3 \u0007 (4-1) + 1 = 10$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "将11本书放进2个抽屉。总有一个抽屉至少放几本？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "11"
+        ],
+        "answer": "6",
+        "explanation": "$11 \u0000 2 = 5$......$1$，$5 + 1 = 6$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "在6个笔筒里放笔。要保证至少一个笔筒有4支，最少要多少笔？",
+        "options": [
+          "18",
+          "19",
+          "20",
+          "24"
+        ],
+        "answer": "19",
+        "explanation": "$6 \u0007 3 + 1 = 19$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "把10本书放进3个抽屉，总有一个抽屉至少放几本书？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "explanation": "$10 \u0000 3 = 3$......$1$，$3 + 1 = 4$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "鸽巢原理基础应用",
+        "question": "从15个球里选。只有两种球色。至少选几个球一定有2个同色？",
+        "options": [
+          "2",
+          "3",
+          "8",
+          "15"
+        ],
+        "answer": "3",
+        "explanation": "2种颜色为2个抽屉。$2 + 1 = 3$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "在一个纸袋中有红、黄、蓝各6个球。从中至少摸出几个球，才能保证摸出两个相同颜色的球？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "7"
+        ],
+        "answer": "4",
+        "explanation": "颜色数为3个抽屉。$3 + 1 = 4$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "把 25 粒围棋子放入 4 个格子里，总有一个格子里至少有 ___ 粒棋子。",
+        "options": [],
+        "answer": "7",
+        "explanation": "$25 \u0000 4 = 6$......$1$。$6 + 1 = 7$。验算：$6 \u0007 4 + 1 = 25$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "把 100 块糖分给 12 个小朋友，总有一个小朋友至少分到 ___ 块糖。",
+        "options": [],
+        "answer": "9",
+        "explanation": "$100 \u0000 12 = 8$......$4$。$8 + 1 = 9$。验算：$8 \u0007 12 + 4 = 100$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合逻辑推理与规律探究",
+        "question": "把 50 本书分给 6 个班，总有一个班至少分到 ___ 本书。",
+        "options": [],
+        "answer": "9",
+        "explanation": "$50 \u0000 6 = 8$......$2$。$8 + 1 = 9$。验算：如果每班只有8本，总共48本，还剩2本要分出去。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "计算：$13 \u0000 4 = ? $ 得到的余数。",
+        "options": [],
+        "answer": "1",
+        "explanation": "$13 \u0000 4 = 3$......$1$。验算：$3 \u0007 4 + 1 = 13$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "带余除法处理鸽巢问题",
+        "question": "计算：$45 \u0000 12$ 的商。",
+        "options": [],
+        "answer": "3",
+        "explanation": "$45 \u0000 12 = 3$......$9$。商是3。验算：$12 \u0007 3 + 9 = 45$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "鸽巢原理基础应用",
+      "core_concept": "如果把 $n+1$ 个物体放入 $n$ 个抽屉，不管怎么放，总有一个抽屉里至少有 2 个物体。这是一种必然发生的逻辑。我们可以把这些物体看作‘鸽子’，抽屉看作‘巢’。当物体数量超过抽屉数量时，重复是必然的。这种原理不仅适用于物体分配，也适用于生日相同判定、姓氏判断等常见情境。",
+      "key_formula": "物体数 > 抽屉数，则至少数 = 2",
+      "common_mistakes": [
+        "混淆抽屉和物体：不知道该把哪个量看作抽屉（巢），例如把12个月份当成物体。",
+        "分不清‘至少’的含义：误以为是固定在某一个特定的抽屉里有2个。"
+      ],
+      "tips": "首先确定什么是‘抽屉’，通常情况下，题目问什么（比如月份、花色、颜色），什么就是抽屉。"
+    },
+    {
+      "point": "带余除法处理鸽巢问题",
+      "core_concept": "当物体的个数 $m$ 比抽屉的个数 $n$ 多得多时，我们可以用 $m \u0000 n = a …… b$。这里 $a$ 是商，$b$ 是余数。鸽巢原理的结论就是：总有一个抽屉里至少有 $a+1$ 个物体。注意，$a+1$ 是针对有余数的情况；如果正好整除，那么至少数就是商 $a$。这种方法可以量化解决复杂的分配问题。",
+      "key_formula": "至少数 = 商 + 1 (有䅙数敂)",
+      "common_mistakes": [
+        "错误地加余数：有的同学公式记错，写成商加余数（$a+b$）。",
+        "整除情况报错：当没有余数时，不需要加1，但学生习惯性加1。"
+      ],
+      "tips": "不管余数是几，只要余数不为0，统统只在商的基础上加1。"
+    },
+    {
+      "point": "综合逻辑推理与规律探究",
+      "core_concept": "在解决较复杂的应用题时，需要将隐含的条件转化为鸽巢原理的模型。例如扑克牌中的‘花色’是4个抽屉，‘点数’是13个抽屉。有时需要先考虑最不利（最倒霉）的情况，即尽量把物体平均分配到每个抽屉里，直到无法平分。通过这种‘最不利原则’，可以反向推导出实现目标所需的物体总数。",
+      "key_formula": "最䄀物䄓数 = 成倴数 \u0007 (脳刑数 - 1) + 1",
+      "common_mistakes": [
+        "考虑不全：在抽口红球蓝球时，忘记考虑可能一直抽到同一种颜色的极端情况。",
+        "计算基数错误：例如扑克牌如果不拿走大王小王，抽屉数会发生变化。"
+      ],
+      "tips": "思考‘运气最差’的情况。如果你想摸到2个同色的，最坏的情况就是每种颜色都摸了1个。"
+    }
+  ]
+}

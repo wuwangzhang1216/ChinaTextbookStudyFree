@@ -1,0 +1,722 @@
+{
+  "textbook": "人教版 PEP 英语四年级上册",
+  "unit": "My friends",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Unit 3 My friends 单元达标自测卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物性格词汇辨析",
+        "question": "'quiet' 的意思是‘安静的’。",
+        "options": [],
+        "answer": "对",
+        "explanation": "quiet是本单元核心描述词汇，意为安静的。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物外貌描绘",
+        "question": "当你想表达他是强壮的时候，可以说：He is thin.",
+        "options": [],
+        "answer": "错",
+        "explanation": "strong是强壮的，thin是瘦的。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物身份提问",
+        "question": "'Who is he?' 用来询问‘他是谁’。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Who用于提问身份，he指代男性。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "o-e发音规律",
+        "question": "在单词 'nose' 中，字母 o 发音为 /əʊ/。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在nose中，o处于o-e开音节结构，发长元音/əʊ/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "名词复数表示外貌",
+        "question": "'glasses' 表示眼镜，通常以复数形式出现。",
+        "options": [],
+        "answer": "对",
+        "explanation": "眼镜由两片镜片组成，英语固定用复数形式glasses。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "代词区分",
+        "question": "My friend is a girl. ______ name is Amy.",
+        "options": [
+          "His",
+          "Her",
+          "She",
+          "He"
+        ],
+        "answer": "Her",
+        "explanation": "修饰名词name且指代女性，应使用形容词性物主代词Her。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物特征描述词",
+        "question": "Zhang Peng is ______ and strong.",
+        "options": [
+          "tall",
+          "long",
+          "blue",
+          "green"
+        ],
+        "answer": "tall",
+        "explanation": "描述人物身高用tall，其他选项颜色或长度不合逻辑。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "have/has动词用法",
+        "question": "He ______ short hair and big eyes.",
+        "options": [
+          "have",
+          "is",
+          "has",
+          "are"
+        ],
+        "answer": "has",
+        "explanation": "主语是He，表示“拥有”某特征时谓语动词用has。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "疑问句回答",
+        "question": "-Who's he? -______",
+        "options": [
+          "He is a boy.",
+          "He is Tim.",
+          "It is a desk.",
+          "She is Lily."
+        ],
+        "answer": "He is Tim.",
+        "explanation": "Who提问身份，主语是he，回答应涉及男性姓名。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "介词搭配",
+        "question": "He has blue ______ on his face.",
+        "options": [
+          "hair",
+          "shoes",
+          "glasses",
+          "bag"
+        ],
+        "answer": "glasses",
+        "explanation": "根据on his face（在他脸上）判断只有眼镜符合。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "描述物品所有权",
+        "question": "A ______ for you. Happy birthday!",
+        "options": [
+          "gift",
+          "friend",
+          "tall",
+          "quiet"
+        ],
+        "answer": "gift",
+        "explanation": "生日祝贺语境中，送的是礼盒/礼物gift。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "o-e结构词汇",
+        "question": "Please write a ______ on the paper.",
+        "options": [
+          "nose",
+          "note",
+          "hot",
+          "box"
+        ],
+        "answer": "note",
+        "explanation": "write a note意为写便条，且note符合o-e发音规律。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "颜色词汇",
+        "question": "She has ______ shoes and a red bag.",
+        "options": [
+          "friendly",
+          "quiet",
+          "white",
+          "his"
+        ],
+        "answer": "white",
+        "explanation": "描述鞋子颜色用white，其他词汇为性格描述或代词。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交际用语",
+        "question": "-Let's be friends! -______",
+        "options": [
+          "Goodbye.",
+          "OK.",
+          "I'm sorry.",
+          "Thank you."
+        ],
+        "answer": "OK.",
+        "explanation": "对方提议做朋友，表示同意用OK。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合描述",
+        "question": "My father is very ______. He helps many people.",
+        "options": [
+          "strong",
+          "quiet",
+          "friendly",
+          "thin"
+        ],
+        "answer": "friendly",
+        "explanation": "根据“帮助很多人”推测性格是友好的friendly。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "外貌词汇",
+        "question": "She is not tall. She is ______(矮的).",
+        "options": [],
+        "answer": "short",
+        "explanation": "tall的反义词是short。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "身份提问",
+        "question": "______ is your best friend?",
+        "options": [],
+        "answer": "who",
+        "explanation": "询问人身份用疑问词who。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词三单",
+        "question": "Lily ______ (有) long hair.",
+        "options": [],
+        "answer": "has",
+        "explanation": "主语Lily为第三人称单数，用has。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "性格词汇",
+        "question": "He doesn't talk much. He is ______(安静的).",
+        "options": [],
+        "answer": "quiet",
+        "explanation": "不爱说话描述的是性格安静quiet。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义匹配",
+        "question": "将下列英文单词与中文意思匹配。",
+        "options": [
+          "strong",
+          "friendly",
+          "hair",
+          "glasses",
+          "友好的",
+          "头发",
+          "眼镜",
+          "强壮的"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "strong-强壮的, friendly-友好的, hair-头发, glasses-眼镜。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "o-e规律单词匹配",
+        "question": "将下列含有o-e结构的单词与对应中文匹配。",
+        "options": [
+          "nose",
+          "note",
+          "Coke",
+          "home",
+          "可乐",
+          "家",
+          "便条",
+          "鼻子"
+        ],
+        "answer": "A-4,B-3,C-1,D-2",
+        "explanation": "nose-鼻子, note-便条, Coke-可乐, home-家。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "陈述句语序",
+        "question": "连词成句：[is, My, tall, friend]",
+        "options": [
+          "is",
+          "My",
+          "tall",
+          "friend"
+        ],
+        "answer": "My,friend,is,tall",
+        "explanation": "主语My friend + 系动词is + 形容词tall。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "疑问句语序",
+        "question": "连词成句：[name, What, his, is]",
+        "options": [
+          "name",
+          "What",
+          "his",
+          "is"
+        ],
+        "answer": "What,is,his,name",
+        "explanation": "特殊疑问句语序：疑问词What + is + 主语his name。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级上学期英语期中模拟考（含 Unit 3）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "颜色与外貌",
+        "question": "My friend has blue hair. 意思是‘我的朋友有蓝色的头发’。",
+        "options": [],
+        "answer": "对",
+        "explanation": "blue是蓝色，hair是头发。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物性别代词",
+        "question": "当介绍一个女生的名字时，可以说：His name is Lucy.",
+        "options": [],
+        "answer": "错",
+        "explanation": "女生的名字前应该用Her而不是His。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "o-e规律与闭音节区分",
+        "question": "单词 'hot' 和 'home' 中 o 的发音是一样的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "hot发/ɒ/，home发/əʊ/。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "句型逻辑",
+        "question": "He has glasses. 意思是‘他戴着眼镜’。",
+        "options": [],
+        "answer": "对",
+        "explanation": "has/have 在描述穿戴特征时可以表示‘戴着’。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "词性理解",
+        "question": "friendly 是形容词，用来描述人的性格友好。",
+        "options": [],
+        "answer": "对",
+        "explanation": "friendly虽然以ly结尾却是描述人性格的形容词。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "形容词位置",
+        "question": "She is a ______ girl.",
+        "options": [
+          "blue",
+          "shoes",
+          "quiet",
+          "hat"
+        ],
+        "answer": "quiet",
+        "explanation": "此处需要形容词修饰girl，形容词化的只有quiet。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "特殊疑问句",
+        "question": "-______ is she? -She is my sister.",
+        "options": [
+          "What",
+          "Where",
+          "Who",
+          "How"
+        ],
+        "answer": "Who",
+        "explanation": "根据答句my sister可知是在询问身份，用Who。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三单搭配",
+        "question": "Wu Binbin ______ glasses and his shoes are black.",
+        "options": [
+          "have",
+          "has",
+          "is",
+          "are"
+        ],
+        "answer": "has",
+        "explanation": "Wu Binbin是单数主语，表示“有/佩戴”特征用has。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "反义词辨析",
+        "question": "The boy is tall, but the girl is ______.",
+        "options": [
+          "strong",
+          "friendly",
+          "short",
+          "big"
+        ],
+        "answer": "short",
+        "explanation": "but表示转折，选tall的反义词short。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "拼写与拼读",
+        "question": "I have a new ______. I can write on it.",
+        "options": [
+          "nose",
+          "note",
+          "not",
+          "no"
+        ],
+        "answer": "note",
+        "explanation": "根据上下文“能写在上面”判断是便条note。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "选择疑问回答",
+        "question": "-A boy or girl? -______",
+        "options": [
+          "Yes, he is.",
+          "A boy.",
+          "I am ten.",
+          "He is tall."
+        ],
+        "answer": "A boy.",
+        "explanation": "选择疑问句二选一回答其一。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物主代词",
+        "question": "That is my friend. ______ name is Jack.",
+        "options": [
+          "He",
+          "His",
+          "She",
+          "Her"
+        ],
+        "answer": "His",
+        "explanation": "Jack是男孩名，所属格用His。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "形容词顺序",
+        "question": "He has ______ hair.",
+        "options": [
+          "short black",
+          "black short",
+          "a short",
+          "shorts"
+        ],
+        "answer": "short black",
+        "explanation": "描述发型时一般按“长短+颜色”顺序排列。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词辨析",
+        "question": "I have a new ______. Her name is Sarah.",
+        "options": [
+          "pencil",
+          "friend",
+          "bag",
+          "desk"
+        ],
+        "answer": "friend",
+        "explanation": "后面提到了Her name，说明前面的主语是人friend。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语法结构",
+        "question": "My friend ______ thin and quiet.",
+        "options": [
+          "is",
+          "are",
+          "has",
+          "have"
+        ],
+        "answer": "is",
+        "explanation": "由形容词直接描述状态用系动词is。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "代词",
+        "question": "She is my friend. ______ name is Chen Jie.",
+        "options": [],
+        "answer": "her",
+        "explanation": "女性姓名所有格用her。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体部位",
+        "question": "Touching my ______(鼻子) and your face.",
+        "options": [],
+        "answer": "nose",
+        "explanation": "鼻子英文为nose。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描述词汇",
+        "question": "A ______ (友好的) boy is over there.",
+        "options": [],
+        "answer": "friendly",
+        "explanation": "友好的英文是friendly。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合填空",
+        "question": "He ______ (有) a green schoolbag.",
+        "options": [],
+        "answer": "has",
+        "explanation": "单数主语he后接动词has表示拥有。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "中英互译",
+        "question": "请将单词与其对应的中文连线。",
+        "options": [
+          "strong",
+          "quiet",
+          "thin",
+          "glasses",
+          "安静的",
+          "瘦的",
+          "眼镜",
+          "强壮的"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "考察本单元重点外貌与性格词汇。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "外貌特征对应",
+        "question": "将下列短语与对应中文匹配。",
+        "options": [
+          "long hair",
+          "blue shoes",
+          "a big bag",
+          "orange hat",
+          "蓝色鞋子",
+          "大书包",
+          "橙色帽子",
+          "长头发"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "考察特征描述中形容词与名词的结合。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "陈述句",
+        "question": "连词成句：[He, has, glasses, blue]",
+        "options": [
+          "He",
+          "has",
+          "glasses",
+          "blue"
+        ],
+        "answer": "He,has,blue,glasses",
+        "explanation": "主语+谓语+特征描述（颜色+名词）。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人称代词应用",
+        "question": "连词成句：[is, Who, friend, your]",
+        "options": [
+          "is",
+          "Who",
+          "friend",
+          "your"
+        ],
+        "answer": "Who,is,your,friend",
+        "explanation": "Who引导的疑问句提问谁是你的朋友。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "核心词汇描述",
+      "core_concept": "描述朋友的外貌特征和性格品质。",
+      "key_formula": "tall, short, strong, thin, friendly, quiet, long/short hair, glasses.",
+      "common_mistakes": [
+        "将friendly误认为是副词而不敢在is后面使用。",
+        "glasses（眼镜）忘记加s变为复数形式。"
+      ],
+      "tips": "描述性格用quiet/friendly，描述体型用tall/strong/thin。"
+    },
+    {
+      "point": "关键句型 Who's he/she?",
+      "core_concept": "询问并回答他人的姓名或身份。",
+      "key_formula": "Who is he? + He is [Name/Identity].",
+      "common_mistakes": [
+        "he和she混淆，分不清男女性别指代。",
+        "在问句中丢掉be动词is。"
+      ],
+      "tips": "He指男，She指女，Who用来问人谁谁谁。"
+    },
+    {
+      "point": "He/She has... 句型",
+      "core_concept": "描述某人拥有的身体特征或物品（长发、大眼等）。",
+      "key_formula": "主语(He/She/单数人名) + has + 特征.",
+      "common_mistakes": [
+        "在he/she后面误用have。",
+        "混淆'is'(是)和'has'(有)，如：He is big eyes. (错误)"
+      ],
+      "tips": "表示“长着...”或者“戴着眼镜”时，要用has而不是is。"
+    },
+    {
+      "point": "Phonics: 元音字母o在开音节中的发音",
+      "core_concept": "掌握o-e结构中o的长元音发音规律。",
+      "key_formula": "o + 辅音 + e (不发音) -> o发/əʊ/音。如：nose, note, Coke, hope.",
+      "common_mistakes": [
+        "将note和not的发音搞混（长短音不分）。"
+      ],
+      "tips": "看到结构o_e，o的发音就像它在字母表里的读音一样。"
+    }
+  ]
+}

@@ -1,0 +1,730 @@
+{
+  "textbook": "统编版小学语文三年级上册",
+  "unit": "留心观察",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元测试：留心观察生活",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字音字形",
+        "question": "“悄悄地”中的“悄”字读作 qiǎo。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“悄”是一个多音字，在“悄悄”中读 qiǎo。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字形辨析",
+        "question": "“鹦鹉”的“鹦”字是鸟字旁。",
+        "options": [],
+        "answer": "对",
+        "explanation": "鹦鹉是一种鸟类，部首均为鸟字旁。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词义理解",
+        "question": "“静悄悄”形容非常安静，没有声响。",
+        "options": [],
+        "answer": "对",
+        "explanation": "词语释义正确。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "观察方法",
+        "question": "《金色的草地》一文中，草地颜色的变化是因为蒲公英的花瓣会张开和合拢。",
+        "options": [],
+        "answer": "对",
+        "explanation": "清晨和傍晚花瓣合拢是绿色，中午花瓣张开是金色。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文学常识",
+        "question": "《搭船的鸟》描写的是一只翠鸟。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文详细描写了翠鸟的样子和捕鱼的过程。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字义辨析",
+        "question": "“我来到草地上，仔细‘观察’。”这里的“察”是什么意思？",
+        "options": [
+          "看，查考",
+          "警察",
+          "形状",
+          "计算"
+        ],
+        "answer": "看，查考",
+        "explanation": "观察的意思是仔细察看（事物或现象）。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "事物的动态与静态观察",
+        "question": "“它的羽毛是翠绿的，翅膀带着一些蓝色。”这句话写的是翠鸟的：",
+        "options": [
+          "静态外形",
+          "动态捕鱼",
+          "飞行姿态",
+          "觅食习惯"
+        ],
+        "answer": "静态外形",
+        "explanation": "通过颜色描写展示翠鸟静止时的样子。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "观察事物的细微变化",
+        "question": "“它一下子冲进水里……没会儿，它又飞出来了。”从中你体会到翠鸟什么特点？",
+        "options": [
+          "动作敏捷",
+          "非常胆小",
+          "喜欢游泳",
+          "飞得很慢"
+        ],
+        "answer": "动作敏捷",
+        "explanation": "“一下子”说明速度极快。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语选择",
+        "question": "妈妈（   ）地推开门，怕吵醒睡梦中的孩子。",
+        "options": [
+          "悄悄",
+          "飞快",
+          "使劲",
+          "快乐"
+        ],
+        "answer": "悄悄",
+        "explanation": "根据语境“怕吵醒”，应选表示动作轻、无声响的词。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词",
+        "question": "“我在这儿‘发现’了一只翠鸟。”中“发现”的近义词是：",
+        "options": [
+          "察觉",
+          "发生",
+          "发育",
+          "发射"
+        ],
+        "answer": "察觉",
+        "explanation": "发现和察觉都有看出来的意思。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "标点符号",
+        "question": "“它是在这里捕鱼吗（ ）”这句话末尾应该用什么标点？",
+        "options": [
+          "？",
+          "。",
+          "！",
+          "，"
+        ],
+        "answer": "？",
+        "explanation": "这是一个疑问句，表达疑问语气。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法",
+        "question": "“那些被拨弄的蒲公英，像个害羞的小姑娘。”这句话用了什么修辞？",
+        "options": [
+          "比喻",
+          "排比",
+          "反问",
+          "夸张"
+        ],
+        "answer": "比喻",
+        "explanation": "把蒲公英比作害羞的小姑娘。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多音字",
+        "question": "下列词语中“盛”字的读音与“盛开”相同的是：",
+        "options": [
+          "茂盛",
+          "盛饭",
+          "盛装",
+          "盛汤"
+        ],
+        "answer": "茂盛",
+        "explanation": "盛开和茂盛都读 shèng，表兴旺；盛饭、盛汤读 chéng。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "课文理解",
+        "question": "课文中，作者最后觉得搭船的鸟是一只：",
+        "options": [
+          "可爱的小鸟",
+          "讨人嫌的小鸟",
+          "没用的小鸟",
+          "凶猛的小鸟"
+        ],
+        "answer": "可爱的小鸟",
+        "explanation": "作者对这只小鸟充满了喜爱之情。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阅读推理",
+        "question": "读句子：“清晨，太阳升起，草地是绿色的。”这是因为蒲公英的花瓣：",
+        "options": [
+          "还是合拢的",
+          "已经张开了",
+          "掉落了",
+          "变黄了"
+        ],
+        "answer": "还是合拢的",
+        "explanation": "花瓣合拢时露出绿色的外壳，所以草地是绿色的。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分类归纳观察所得",
+        "question": "描写翠鸟外形时，写了它红色的脚，还有翠绿的（___）。",
+        "options": [],
+        "answer": "羽毛",
+        "explanation": "原文提到：它的羽毛是翠绿的。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法",
+        "question": "“它长着一张红色的长嘴。”使用了（___）修辞。 (选填：比喻 / 拟人 / 无)",
+        "options": [],
+        "answer": "无",
+        "explanation": "这是客观陈述外貌特征，没有使用特殊修辞。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字形",
+        "question": "“玩耍”的“耍”字，上半部分是（___）字。",
+        "options": [],
+        "answer": "而",
+        "explanation": "耍是上下结构，上部是而，下部是女。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语搭配",
+        "question": "请将动词与对应的名词进行连线。",
+        "options": [
+          "采集",
+          "张开",
+          "观察",
+          "摇晃",
+          "船橹",
+          "标本",
+          "花瓣",
+          "事物"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "采集标本，张开花瓣，观察事物，摇晃船橹。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描写维度",
+        "question": "请将描写与对应的感官维度相连。",
+        "options": [
+          "红色的长嘴",
+          "沙啦沙啦的响声",
+          "苦涩的味道",
+          "粗糙的树皮",
+          "听觉",
+          "味觉",
+          "触觉",
+          "视觉"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "颜色是视觉，声响是听觉，味道是味觉，质感是触觉。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语归类",
+        "question": "请将不同特点的词语与其类别连接。",
+        "options": [
+          "翠绿",
+          "飞快",
+          "静静地",
+          "金灿灿",
+          "速度",
+          "状态",
+          "绿色",
+          "黄色"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "翠绿-绿色，飞快-速度，静静地-状态，金灿灿-黄色。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语排序",
+        "question": "请将下列词语排列成一句通顺的话：",
+        "options": [
+          "翠鸟",
+          "一只",
+          "船头",
+          "站在",
+          "彩色的小"
+        ],
+        "answer": "一只,彩色的小,翠鸟,站在,船头",
+        "explanation": "按照主谓宾结构：一只彩色的小翠鸟（主语）在船头（状语）站着。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语排序",
+        "question": "请排列出蒲公英花朵的变化规律：",
+        "options": [
+          "花瓣合拢",
+          "草地变绿",
+          "傍晚时分"
+        ],
+        "answer": "傍晚时分,花瓣合拢,草地变绿",
+        "explanation": "按照时间顺序和因果关系排列。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级上册第五单元期末复习卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字书写",
+        "question": "“搭”字的部首是“扌”，与手的动作有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "搭船需要动手操作，是提手旁。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "文本内容理解",
+        "question": "《金色的草地》中，兄弟俩最开始并没有发现草地变色的秘密。",
+        "options": [],
+        "answer": "对",
+        "explanation": "文章提到作者起初只是觉得好玩，后来仔细观察才发现秘密。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "词语用法",
+        "question": "“我正要用力摇橹”中的“正”表示动作正在进行。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“正”在这里起强调动作发生时间点的作用。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "修辞手法",
+        "question": "“蒲公英和我们一同睡觉”运用了拟人的修辞手法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "把蒲公英花瓣合拢比作人睡觉，赋予其人的特征。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "主旨理解",
+        "question": "“留心观察”就是要求我们要多看，没必要多想。",
+        "options": [],
+        "answer": "错",
+        "explanation": "观察不仅要看，还要结合思考才能发现事物的奥秘。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合阅读",
+        "question": "短文：“雨停了。我看见一只彩色的小鸟站在船头，多么美丽啊！它的羽毛是翠绿的，翅膀带着一些蓝色……”这段话描写顺序是：",
+        "options": [
+          "从全身到局部",
+          "从远到近",
+          "从头到脚",
+          "时间顺序"
+        ],
+        "answer": "从全身到局部",
+        "explanation": "先写整体“彩色的小鸟”，再具体写羽毛、翅膀。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字",
+        "question": "选出读音不同的一项：",
+        "options": [
+          "假装",
+          "假如",
+          "假期",
+          "假使"
+        ],
+        "answer": "假期",
+        "explanation": "假期读 jià，其他读 jiǎ。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词积累",
+        "question": "“它地‘注视’着水面”。由于它是想捉鱼，这里的“注视”包含：",
+        "options": [
+          "专注和期待",
+          "愤怒和生气",
+          "伤心和难过",
+          "无聊和随意"
+        ],
+        "answer": "专注和期待",
+        "explanation": "翠鸟在捕鱼前需要高度集中注意力。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "句式理解",
+        "question": "“难道它要和我们一起坐船到外祖父家里去吗？”转化为陈述句是：",
+        "options": [
+          "它要和我们一起坐船去。",
+          "它不要和我们一起去。",
+          "它不可能和我们一起去。",
+          "它必须和我们一起去。"
+        ],
+        "answer": "它要和我们一起坐船去。",
+        "explanation": "反问句表达肯定的猜测。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词",
+        "question": "“这些并不引人注目的蒲公英……”，中“注目”的意思是：",
+        "options": [
+          "眼睛注视",
+          "眉毛动",
+          "闭目养神",
+          "流眼泪"
+        ],
+        "answer": "眼睛注视",
+        "explanation": "目代表眼睛，注是集中。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "关联词",
+        "question": "（   ）我仔细观察，（   ）发现了草地的秘密。",
+        "options": [
+          "因为……所以……",
+          "虽然……但是……",
+          "如果……就……",
+          "只要……就……"
+        ],
+        "answer": "因为……所以……",
+        "explanation": "前后是因果关系。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课文细节",
+        "question": "《搭船的鸟》中提到的“橹”是用来干什么的？",
+        "options": [
+          "划船的工具",
+          "抓鱼的网",
+          "盛水的桶",
+          "睡觉的床"
+        ],
+        "answer": "划船的工具",
+        "explanation": "橹是古代船舶上的推进工具。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "修辞手法",
+        "question": "“蒲公英的花瓣就像我们的手掌。”这句话中把什么比作了手掌？",
+        "options": [
+          "花瓣",
+          "蒲公英",
+          "草地",
+          "太阳"
+        ],
+        "answer": "花瓣",
+        "explanation": "本体是花瓣，喻体是手掌。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字音",
+        "question": "“捕鱼”的“捕”读音是：",
+        "options": [
+          "bǔ",
+          "pǔ",
+          "fǔ",
+          "bù"
+        ],
+        "answer": "bǔ",
+        "explanation": "注意声母是b，不要念成p（铺）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文学常识",
+        "question": "本单元的主题是“留心观察”，主要是为了培养我们：",
+        "options": [
+          "发现美的能力",
+          "跑得快的能力",
+          "大声朗读的能力",
+          "书写整洁的能力"
+        ],
+        "answer": "发现美的能力",
+        "explanation": "观察可以带我们进入奇妙的世界，发现平凡事物中的美。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语填空",
+        "question": "中午的时候，草地变成了（___）色。",
+        "options": [],
+        "answer": "金",
+        "explanation": "中午花瓣张开，草地变成金色的。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语填空",
+        "question": "“翠鸟口中衔着一条小鱼”。“衔”的意思是（___）。",
+        "options": [],
+        "answer": "叼",
+        "explanation": "衔指用嘴含着或叼着。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课文填空",
+        "question": "《搭船的鸟》描写的是作者去（___）家的路上的见闻。",
+        "options": [],
+        "answer": "外祖父",
+        "explanation": "第一自然段交代了目的地。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字组词",
+        "question": "请将读音与对应的字连线。",
+        "options": [
+          "shèng",
+          "chéng",
+          "jiǎ",
+          "jià",
+          "放假",
+          "盛大",
+          "假装",
+          "盛饭"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "盛(shèng)大，盛(chéng)饭，假(jiǎ)装，放假(jià)。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近义词连接",
+        "question": "请将下列词语与它们的近义词连接。",
+        "options": [
+          "快乐",
+          "仔细",
+          "喜爱",
+          "观察",
+          "察看",
+          "欢快",
+          "认真",
+          "喜欢"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "快乐对欢快，仔细对认真，喜爱对喜欢，观察对察看。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "内容归纳",
+        "question": "请将观察对象与对应的关键特点连线。",
+        "options": [
+          "翠鸟",
+          "蒲公英",
+          "杨梅",
+          "草地",
+          "颜色交替",
+          "由青变红",
+          "捕鱼极快",
+          "张开合拢"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "翠鸟捕鱼快，蒲公英能张合，杨梅颜色渐变，草地有颜色交替。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "观察顺序",
+        "question": "排列出观察杨梅的正确观察维度：",
+        "options": [
+          "它的味道",
+          "它的外形",
+          "它的颜色"
+        ],
+        "answer": "它的外形,它的颜色,它的味道",
+        "explanation": "通常观察事物由表及里，先看到形状和颜色，最后品尝味道。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式训练",
+        "question": "排列句子：",
+        "options": [
+          "蒲公英",
+          "最有趣的",
+          "是",
+          "这种植物"
+        ],
+        "answer": "最有趣的,是,蒲公英,这种植物",
+        "explanation": "强调句式，表达对事物的赞美。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "事物的动态与静态观察",
+      "core_concept": "静态观察聚焦于事物的固有属性，如颜色、形状、材质等，给人以画面感；动态观察则捕捉事物在运动中的变化，如动作、速度、姿态等。在《搭船的鸟》中，作者通过“红色的长嘴”等静态描写展现翠鸟之美，通过“一下子冲进水里”等动态描写表现它的敏捷。动静结合能让描写对象更鲜活。",
+      "key_formula": "观察 = 固定特征(色/形/态) + 动作变化(连续动作词)",
+      "common_mistakes": [
+        "只写外貌不写动作，导致描写呆板",
+        "动作描写不具体，仅用“很快”概括而没有描写细节"
+      ],
+      "tips": "可以先给观察对象画一张“速写”，记下特点，再用录像机般的眼光观察它的连续动作。"
+    },
+    {
+      "point": "观察事物的细微变化",
+      "core_concept": "事物在不同时间、不同光照或不同环境下会呈现出截然不同的面貌。这需要观察者具备耐心，连续性地记录。例如，蒲公英的草地会随着时间（清晨、中午、傍晚）的推移而改变颜色。这种变化往往藏在微小的细节中，需要通过眼睛看、耳朵听、用心想等多感官配合。",
+      "key_formula": "变化 = 时间/环境 + 呈现的状态 + 发现的原因",
+      "common_mistakes": [
+        "观察时间间隔太短，看不出明显变化",
+        "忽视了变化背后的自然规律（如花瓣的开合）"
+      ],
+      "tips": "制作一个“时间轴观察表”，在不同时间段记录同一个对象的不同状态。"
+    },
+    {
+      "point": "分类归纳观察所得",
+      "core_concept": "在观察复杂事物时，不能杂乱无章。应学习从多个维度进行分类，例如外形（头、身、羽毛）、颜色（翠绿、蓝色）、习性（捕食、栖息）。通过有条理的归纳，可以将观察到的碎片信息整合为系统、全面的认识，这在写作说明性或描写性文字时至关重要。",
+      "key_formula": "归纳 = 确定维度 + 对应特征描述",
+      "common_mistakes": [
+        "描写顺序混乱，一会儿写头一会儿写尾",
+        "分类标准不统一，导致内容重叠"
+      ],
+      "tips": "用树状图或表格来整理观察笔记，把颜色归一类，动作归一类。"
+    }
+  ]
+}

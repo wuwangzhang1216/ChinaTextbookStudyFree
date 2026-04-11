@@ -1,0 +1,707 @@
+{
+  "textbook": "人教版小学数学二年级下册",
+  "unit": "有余数的除法",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第6单元：有余数的除法 单元基础闯关卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "有余数除法的实际含义",
+        "question": "在一个有余数的除法算式中，剩下的不够再分的部分就是余数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据有余数除法的定义，平均分后剩下的不够再分的部分叫余数。这句话表述正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "余数与除数的关系",
+        "question": "如果除数是6，余数可能是7。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在有余数的除法中，余数一定比除数小。因为 $7 > 6$，所以余数不可能是7。验算：$7 \\div 6 = 1 \\dots 1$，如果余数是7说明还没分完。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "余数与除数的关系",
+        "question": "计算有余数的除法时，余数一定要比除数小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是有余数除法计算的基本原则：余数 < 除数。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "除法竖式的写法",
+        "question": "在除法竖式中，商和除数的积写在被除数的下面。",
+        "options": [],
+        "answer": "对",
+        "explanation": "除法竖式步骤：一商、二乘、三减、四比。乘出的积（商×除数）要写在被除数下面进行减法。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "“进一法”与“去尾法”应用",
+        "question": "有21个小朋友划船，每条船限乘4人，至少需要5条船。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$21 \\div 4 = 5$（条）……1（人）。剩下的1人也需要坐一条船，所以是 $5 + 1 = 6$（条）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "有余数除法的实际含义",
+        "question": "算式 $15 \\div 4 = 3 \\dots 3$ 中，第二个“3”表示什么？",
+        "options": [
+          "分成的份数",
+          "每份的量",
+          "总数",
+          "余下的量"
+        ],
+        "answer": "余下的量",
+        "explanation": "在 $15 \\div 4 = 3 \\dots 3$ 中，前一个3是商，后一个3是余数，余数表示平均分后余下的量。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "余数与除数的关系",
+        "question": "在 $\\Box \\div 5 = 6 \\dots \\Box$ 中，余数最大是多少？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "1"
+        ],
+        "answer": "4",
+        "explanation": "余数必须比除数小。除数是5，比5小的数字有4, 3, 2, 1, 0。最大的余数是4。验算：$4 < 5$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "余数与除数的关系",
+        "question": "下列算式中，余数最小的是哪个？",
+        "options": [
+          "11 ÷ 3",
+          "15 ÷ 4",
+          "20 ÷ 6",
+          "25 ÷ 8"
+        ],
+        "answer": "25 ÷ 8",
+        "explanation": "A：$11 \\div 3 = 3 \\dots 2$；B：$15 \\div 4 = 3 \\dots 3$；C：$20 \\div 6 = 3 \\dots 2$；D：$25 \\div 8 = 3 \\dots 1$。1最小。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "除法竖式的写法",
+        "question": "在除法竖式中，从被除数中减去商和除数的积，得到的差是什么？",
+        "options": [
+          "商",
+          "除数",
+          "余数",
+          "被除数"
+        ],
+        "answer": "余数",
+        "explanation": "竖式计算最后一步的差即为余数。被除数 - 商 × 除数 = 余数。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“进一法”与“去尾法”应用",
+        "question": "有32位客人吃饭，每张桌子最多坐6人，至少需要几张桌子？",
+        "options": [
+          "5张",
+          "6张",
+          "7张",
+          "32张"
+        ],
+        "answer": "6张",
+        "explanation": "$32 \\div 6 = 5$（张）……2（人）。剩下的2人也需要一张桌子，$5 + 1 = 6$（张）。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“进一法”与“去尾法”应用",
+        "question": "一件衣服要钉5颗纽扣，一共有24颗纽扣，最多可以钉几件衣服？",
+        "options": [
+          "4件",
+          "5件",
+          "6件",
+          "24件"
+        ],
+        "answer": "4件",
+        "explanation": "$24 \\div 5 = 4$（件）……4（颗）。余下的4颗不够钉一件衣服，只能钉4件（去尾法）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用余数解决周期问题",
+        "question": "有一串珠子按“黑、白、白、黑、白、白……”的规律排列，第15个珠子是什么颜色的？",
+        "options": [
+          "黑色",
+          "白色",
+          "灰色",
+          "红褐色"
+        ],
+        "answer": "白色",
+        "explanation": "规律是“黑、白、白”，3个一组。$15 \\div 3 = 5$（组），没有余数，说明是第5组的最后一个，即白色。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "有余数除法的实际含义",
+        "question": "17个苹果，每5个装一盘，可以装几盘？还剩几个？",
+        "options": [
+          "3盘还剩2个",
+          "2盘还剩7个",
+          "3盘还剩1个",
+          "4盘还剩1个"
+        ],
+        "answer": "3盘还剩2个",
+        "explanation": "$17 \\div 5 = 3 \\dots 2$。验算：$3 \\times 5 + 2 = 17$。所以是3盘剩2个。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "余数与除数的关系",
+        "question": "被除数是29，除数是4，商和余数各是多少？",
+        "options": [
+          "商7余1",
+          "商6余5",
+          "商8余1",
+          "商7余2"
+        ],
+        "answer": "商7余1",
+        "explanation": "$29 \\div 4 = 7 \\dots 1$。验算：$4 \\times 7 + 1 = 29$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "除法竖式的写法",
+        "question": "计算 $26 \\div 5$ 时，竖式中商应写在哪个数位上？",
+        "options": [
+          "个位",
+          "十位",
+          "百位",
+          "任意位置"
+        ],
+        "answer": "个位",
+        "explanation": "26里面有5个5，商是5。在除法竖式中，商5应写在被除数6的上面，即个位。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“进一法”与“去尾法”应用",
+        "question": "一根绳子长19米，剪成3米长的小段，可以剪几段？",
+        "options": [
+          "6段",
+          "7段",
+          "5段",
+          "19段"
+        ],
+        "answer": "6段",
+        "explanation": "$19 \\div 3 = 6$（段）……1（米）。剩下的1米不够剪一段，所以只能剪6段。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用余数解决周期问题",
+        "question": "同学们按“1、2、3、4、1、2、3、4……”报数，第26个同学报几？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "周期是4。$26 \\div 4 = 6$（组）……2。余数是2，对应每组的第2个数，即报2。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "余数与除数的关系",
+        "question": "除数是8，商是3，余数可能是多少？",
+        "options": [
+          "7",
+          "8",
+          "9",
+          "10"
+        ],
+        "answer": "7",
+        "explanation": "根据余数一定比除数小，除数是8，余数只能在0-7之间。选项中只有7符合。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "有余数除法的实际含义",
+        "question": "把14颗糖平均分给4个小朋友，每个小朋友分到3颗，还剩 ___ 颗。",
+        "options": [],
+        "answer": "2",
+        "explanation": "列式：$14 \\div 4 = 3$（颗）……2（颗）。验算：$4 \\times 3 + 2 = 14$。剩下2颗。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "余数与除数的关系",
+        "question": "在 $\\Box \\div 7 = 4 \\dots \\triangle$ 中，$\\triangle$ 最大时，$\\Box$ 是 ___ 。",
+        "options": [],
+        "answer": "34",
+        "explanation": "除数是7，余数 $\\triangle$ 最大是6。此时 $\\Box = 7 \\times 4 + 6 = 28 + 6 = 34$。验算：$34 \\div 7 = 4 \\dots 6$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“进一法”与“去尾法”应用",
+        "question": "有25个球，每个盒子装6个，要把这些球全部装入盒子里，至少需要 ___ 个盒子。",
+        "options": [],
+        "answer": "5",
+        "explanation": "$25 \\div 6 = 4$（个）……1（个）。余下的1个也需要一个盒子，所以 $4 + 1 = 5$（个）。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "余数与除数的关系",
+        "question": "计算：$19 \\div 2 = ? \\dots 1$",
+        "options": [],
+        "answer": "9",
+        "explanation": "$19 \\div 2 = 9 \\dots 1$。验算：$2 \\times 9 + 1 = 18 + 1 = 19$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "余数与除数的关系",
+        "question": "计算：$45 \\div 8 = 5 \\dots ?$",
+        "options": [],
+        "answer": "5",
+        "explanation": "$45 \\div 8 = 5 \\dots 5$。验算：$8 \\times 5 + 5 = 40 + 5 = 45$。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级下册第6单元「有余数的除法」综合能力测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "余数与除数的关系",
+        "question": "一个除法算式的余数是5，除数可能是4。",
+        "options": [],
+        "answer": "错",
+        "explanation": "因为余数一定要比除数小。如果余数是5，除数必须大于5。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "除法竖式的写法",
+        "question": "除法竖式计算 $18 \\div 4$ 时，商应该对着被除数的个位。",
+        "options": [],
+        "answer": "对",
+        "explanation": "18个位是8，18里面有4个4，商4写在8的上面。属于个位对齐。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "“进一法”与“去尾法”应用",
+        "question": "50元钱买8元一个的笔记本，最多可以买6个。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$50 \\div 8 = 6$（个）……2（元）。剩下的2元买不到一个笔记本，只能买6个。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "利用余数解决周期问题",
+        "question": "一串彩灯按红、黄、蓝顺序排列，第21盏是蓝色。",
+        "options": [],
+        "answer": "对",
+        "explanation": "周期是3。$21 \\div 3 = 7$，没有余数，是每组最后一盏，即蓝色。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "有余数除法的实际含义",
+        "question": "在 $22 \\div 7 = 3 \\dots 1$ 中，1是余数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "有余数除法的基本格式，末尾点点点后面的是余数。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "余数与除数的关系",
+        "question": "在 $\\Box \\div 9$ 中，余数最大可能是多少？",
+        "options": [
+          "8",
+          "9",
+          "10",
+          "1"
+        ],
+        "answer": "8",
+        "explanation": "余数比除数9小，最大是8。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“进一法”与“去尾法”应用",
+        "question": "43个小朋友去划船，每条船限乘客6人，至少需要几条船？",
+        "options": [
+          "7条",
+          "8条",
+          "9条",
+          "6条"
+        ],
+        "answer": "8条",
+        "explanation": "$43 \\div 6 = 7$（条）……1（人），$7 + 1 = 8$（条）。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用余数解决周期问题",
+        "question": "第32个图形是什么？（规律：△□○△□○……）",
+        "options": [
+          "△",
+          "□",
+          "○",
+          "无法确定"
+        ],
+        "answer": "□",
+        "explanation": "周期3。$32 \\div 3 = 10 \\dots 2$。第2个是□。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "有余数除法的实际含义",
+        "question": "小明有13个球，平均分给4人。下面分法正确的是：",
+        "options": [
+          "每人3个，剩1个",
+          "每人2个，剩5个",
+          "每人4个，剩1个",
+          "每人3个，不剩"
+        ],
+        "answer": "每人3个，剩1个",
+        "explanation": "$13 \\div 4 = 3 \\dots 1$。余数5大于除数，不正确。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "余数与除数的关系",
+        "question": "有一道除法算式，除数是4。余数可能是：",
+        "options": [
+          "1, 2, 3",
+          "1, 2, 3, 4",
+          "1, 2",
+          "1, 2, 3, 4, 5"
+        ],
+        "answer": "1, 2, 3",
+        "explanation": "余数必须小于4，所以可以是1, 2, 3。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法竖式的写法",
+        "question": "计算 $38 \\div 7 = 5 \\dots 3$。在竖式中，38下面写的是哪个数？",
+        "options": [
+          "35",
+          "38",
+          "3",
+          "5"
+        ],
+        "answer": "35",
+        "explanation": "被除数下面写商乘除数的积，$5 \\times 7 = 35$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "余数与除数的关系",
+        "question": "$\\Box \\div 6 = 7 \\dots \\triangle$。$\\Box$ 可能是：",
+        "options": [
+          "45",
+          "48",
+          "50",
+          "41"
+        ],
+        "answer": "45",
+        "explanation": "$\\Box$ 应在 $6 \\times 7 + 0$ 到 $6 \\times 7 + 5$ 之间，即 42 到 47。只有45符合。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "“进一法”与“去尾法”应用",
+        "question": "一箱果汁有8瓶，30瓶果汁可以装满几箱？",
+        "options": [
+          "3箱",
+          "4箱",
+          "5箱",
+          "30箱"
+        ],
+        "answer": "3箱",
+        "explanation": "$30 \\div 8 = 3$（箱）……6（瓶）。装满的只有3箱。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“进一法”与“去尾法”应用",
+        "question": "每2米布做一件背心，9米布最多做几件背心？",
+        "options": [
+          "4件",
+          "5件",
+          "3件",
+          "9件"
+        ],
+        "answer": "4件",
+        "explanation": "$9 \\div 2 = 4$（件）……1（米）。不够做一件，所以选4。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用余数解决周期问题",
+        "question": "今天是星期一，再过20天是星期几？",
+        "options": [
+          "星期日",
+          "星期六",
+          "星期一",
+          "星期二"
+        ],
+        "answer": "星期日",
+        "explanation": "周期是7。$20 \\div 7 = 2$（周）……6（天）。星期一往后数6天是星期日。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "有余数除法的实际含义",
+        "question": "25个小朋友跳绳，每组4人，可以分成几组？还剩几人？",
+        "options": [
+          "6组剩1人",
+          "5组剩5人",
+          "7组剩1人",
+          "4组剩9人"
+        ],
+        "answer": "6组剩1人",
+        "explanation": "$25 \\div 4 = 6 \\dots 1$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "除法竖式的写法",
+        "question": "竖式中 $23 - 20 = 3$，这个3叫什么？",
+        "options": [
+          "余数",
+          "商",
+          "除数",
+          "被除数"
+        ],
+        "answer": "余数",
+        "explanation": "差是余数。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "余数与除数的关系",
+        "question": "如果 $\\Box \\div \\triangle = 5 \\dots 6$，$\\triangle$ 最小是多少？",
+        "options": [
+          "7",
+          "6",
+          "5",
+          "8"
+        ],
+        "answer": "7",
+        "explanation": "除数比余数6大，最小是7。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "有余数除法的实际含义",
+        "question": "20块饼干，每3块装一袋，可以装 ___ 袋，还剩 2 块。",
+        "options": [],
+        "answer": "6",
+        "explanation": "$20 \\div 3 = 6$（袋）……2（块）。验算：$3 \\times 6 + 2 = 20$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“进一法”与“去尾法”应用",
+        "question": "老师要把33个苹果装在盘子里，每盘装5个，全部装完需要 ___ 个盘子。",
+        "options": [],
+        "answer": "7",
+        "explanation": "$33 \\div 5 = 6$（个）……3（个）。全部装完要 $6 + 1 = 7$（个）。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用余数解决周期问题",
+        "question": "老师把 1 到 20 号卡片按顺序发给甲、乙、丙三位同学，最后一张发给 ___ (用1代表甲，2代表乙，3代表丙)。",
+        "options": [],
+        "answer": "2",
+        "explanation": "三人一循环。$20 \\div 3 = 6$（组）……2（人）。余数2表示给第2个人（乙）。填2。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "除法竖式的写法",
+        "question": "计算：$52 \\div 6 = 8 \\dots ?$",
+        "options": [],
+        "answer": "4",
+        "explanation": "$52 \\div 6 = 8$ 余 4。因为 $6 \\times 8 = 48$，$52 - 48 = 4$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "余数与除数的关系",
+        "question": "计算：$30 \\div 7 = ? \\dots 2$",
+        "options": [],
+        "answer": "4",
+        "explanation": "$30 \\div 7 = 4 \\dots 2$。验算：$7 \\times 4 + 2 = 30$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "有余数除法的实际含义",
+      "core_concept": "在平时的平均分过程中，经常会出现分到最后还有剩余且不够再分一份的情况。这种剩下的数叫余数。例如10个球，每3个一组，分3组还剩1个，这个1就是余数。",
+      "key_formula": "被除数 ÷ 除数 = 商 …… 余数",
+      "common_mistakes": [
+        "将余数直接写在商的后面而漏掉省略号",
+        "混淆余数和商的含义"
+      ],
+      "tips": "记住“分掉的部分”和“剩下的部分”之和必须等于“总数”。"
+    },
+    {
+      "point": "余数与除数的关系",
+      "core_concept": "这是本单元最重要的规律。在计算过程中，如果余数比除数大或相等，说明还可以继续分。因此，余数必须小于除数。",
+      "key_formula": "余数 < 除数",
+      "common_mistakes": [
+        "计算结果中余数大于除数（如 13÷3=3……4）",
+        "在没有给出除数的情况下，错误估计余数的最大可能值"
+      ],
+      "tips": "看到除数，立刻想：余数最大只能是除数减1。"
+    },
+    {
+      "point": "除法竖式的写法",
+      "core_concept": "竖式记录了除法的四个步骤：商（想乘法口诀）、乘（商和除数相乘）、减（被除数减去积）、比（余数和除数比较）。",
+      "key_formula": "被除数 - (商 × 除数) = 余数",
+      "common_mistakes": [
+        "商的位置写错，没有对齐个位",
+        "被除数减去积时计算错误"
+      ],
+      "tips": "口诀：一商二乘三减四比，数位一定要对齐。"
+    },
+    {
+      "point": "“进一法”与“去尾法”应用",
+      "core_concept": "解决实际问题时，不能只看数学计算结果。坐船、运货等场景，即便剩下1人也要多租1条船（进一法）；而裁衣服、买文具等场景，剩下的料子不够做一件则必须舍弃余数（去尾法）。",
+      "key_formula": "根据实际情境：结果 = 商 + 1 或 结果 = 商",
+      "common_mistakes": [
+        "租船问题忘记给余数的那1人预留位置",
+        "做衣服问题错误地将余下的布料也算作一件成品"
+      ],
+      "tips": "读题时圈出关键词，问“最少”通常跟进一法相关，问“最多”通常跟去尾法相关。"
+    },
+    {
+      "point": "利用余数解决周期问题",
+      "core_concept": "生活中很多事物是按一定顺序循环出现的。可以将一组算作一个周期，用总数除以周期，看余数。余数是几，就是一组中的第几个；没有余数，就是一组中的最后一个。",
+      "key_formula": "总数 ÷ 一个周期的数量 = 组数 …… 余数",
+      "common_mistakes": [
+        "没有余数时找错位置（应该是每一组的最后一个）",
+        "周期数数错（比如红黄红黄，周期是2而不是4）"
+      ],
+      "tips": "先找出一组里有几个，再用除法算余数。"
+    }
+  ]
+}

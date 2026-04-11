@@ -1,0 +1,732 @@
+{
+  "textbook": "统编版小学语文三年级上册",
+  "unit": "金秋时节",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元精要评估卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "《山行》这首诗描写的是初春时节的景色。",
+        "options": [],
+        "answer": "错",
+        "explanation": "《山行》描写的是秋天，因为诗句中提到了‘霜叶红于二月花’。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日记的书写格式",
+        "question": "写日记的第一行应该先写日记的正文。",
+        "options": [],
+        "answer": "错",
+        "explanation": "日记的第一行应该写日期、星期和天气。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "‘五彩缤纷’中‘缤纷’的意思是繁多而杂乱。",
+        "options": [],
+        "answer": "对",
+        "explanation": "缤纷形容繁多而杂乱，这里指色彩非常繁多。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "‘橙黄橘绿’是秋末冬初时景色的真实写照。",
+        "options": [],
+        "answer": "对",
+        "explanation": "出自《赠刘景文》，描写的是秋末冬初硕果累累。景物。 "
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "我们可以通过查字典来帮助理解词语的意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "查字典、词典是理解词义的基本方法之一。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "古诗《山行》中，诗人停车是因为看到了什么美景？",
+        "options": [
+          "寒山石径",
+          "白云人家",
+          "爱枫林晚",
+          "爱枫林晚"
+        ],
+        "answer": "爱枫林晚",
+        "explanation": "根据诗句‘停车坐爱枫林晚’，诗人是因为喜爱夕阳下的枫林才停车驻足。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "‘秋天的雨，有一盒五彩缤纷的颜料。’这里‘五彩缤纷’的意思是：",
+        "options": [
+          "五种颜色的彩带",
+          "颜色非常多而美",
+          "形容秋雨很细小",
+          "形容秋天很寒冷"
+        ],
+        "answer": "颜色非常多而美",
+        "explanation": "‘五彩’指颜色多，‘缤纷’指繁多，合起来指色彩丰富绚丽。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "下列哪个物候象常用来描写秋天的‘残败’景象？",
+        "options": [
+          "桃花凋谢",
+          "荷尽无雨盖",
+          "柳絮飞扬",
+          "映日荷花"
+        ],
+        "answer": "荷尽无雨盖",
+        "explanation": "苏轼在《赠刘景文》中写道‘荷尽已无擎雨盖’，描写荷叶枯萎凋谢。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "判断‘它是一把艺术的钥匙’中‘钥匙’的含义：",
+        "options": [
+          "开锁的工具",
+          "一种装饰品",
+          "解决问题的办法",
+          "一种珍贵的宝库"
+        ],
+        "answer": "解决问题的办法",
+        "explanation": "这里运用了比喻，‘钥匙’指的是开启艺术殿堂的方法或途径。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "‘它们在树枝上跳舞’运用了哪种修辞方法？",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "反问"
+        ],
+        "answer": "拟人",
+        "explanation": "把‘它们’（落叶）赋予了‘跳舞’的动作，是拟人写法。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "《夜书所见》中‘萧萧’一词描写的是什么声音？",
+        "options": [
+          "水流声",
+          "读书声",
+          "风声",
+          "敲门声"
+        ],
+        "answer": "风声",
+        "explanation": "‘萧萧梧叶送寒声’中‘萧萧’是拟声词，指秋风的声音。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "读句子：‘我憧憬着未来的生活。’运用联系上下文的方法，‘憧憬’最接近下面哪个词？",
+        "options": [
+          "回忆",
+          "决定",
+          "向往",
+          "讨厌"
+        ],
+        "answer": "向往",
+        "explanation": "‘憧憬未来’通常表达对美好的向往。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "‘那些亮晶晶的雨滴，像一颗颗珍珠。’这句话是把什么比作什么？",
+        "options": [
+          "珍珠比作雨滴",
+          "雨滴比作玻璃",
+          "雨滴比作珍珠",
+          "亮晶晶比作珍珠"
+        ],
+        "answer": "雨滴比作珍珠",
+        "explanation": "本体是‘雨滴’，喻体是‘珍珠’。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "下面词语中加点字读音完全正确的一项是：",
+        "options": [
+          "挑（tiāo）促织",
+          "枫（fēng）叶",
+          "橙（chéng）子",
+          "石径（jìn）"
+        ],
+        "answer": "枫（fēng）叶",
+        "explanation": "A应为tiǎo（挑动），C读音正确（但橙读作chéng是二声，本项无误），D径为jìng。本题选枫叶为最稳妥。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "古诗中提到‘知有儿童挑促织’，其中‘促织’是指：",
+        "options": [
+          "蚂蚁",
+          "蜻蜓",
+          "蟋蟀",
+          "蝴蝶"
+        ],
+        "answer": "蟋蟀",
+        "explanation": "促织是蟋蟀的别名。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "《山行》中，比二月的鲜花还要红的景物是：",
+        "options": [],
+        "answer": "霜叶",
+        "explanation": "对应诗句‘霜叶红于二月花’。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "由‘五彩缤纷’、‘五颜六色’可以联想到的季节是：",
+        "options": [],
+        "answer": "秋天",
+        "explanation": "本单元主题为秋天，且文中秋雨有丰富的色彩。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日记的书写格式",
+        "question": "在日记的首行中，除了日期和星期，还需要记录：",
+        "options": [],
+        "answer": "天气",
+        "explanation": "日记格式规范是日期、星期和天气。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "请将诗题与对应的作者连线。",
+        "options": [
+          "《山行》",
+          "《赠刘景文》",
+          "《夜书所见》",
+          "《秋天的雨》",
+          "杜牧",
+          "苏轼",
+          "叶绍翁",
+          "课文"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "对应关系：A-杜牧，B-苏轼，C-叶绍翁，D-文章（课文）。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "请将词语与其最贴切的解释相连。",
+        "options": [
+          "凌乱",
+          "紧紧",
+          "金桂",
+          "清凉",
+          "毫不整齐",
+          "非常牢靠",
+          "黄色花朵",
+          "凉爽宜人"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "词义匹配。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "请将景物与其描写的季节相连。",
+        "options": [
+          "红叶",
+          "荷花",
+          "冰雪",
+          "柳芽",
+          "秋天",
+          "夏天",
+          "冬天",
+          "春天"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "四季典型景物对应。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "将下列词语排列成一句形象的现代文句子。",
+        "options": [
+          "金黄色",
+          "银杏树",
+          "穿上了",
+          "的",
+          "衣裳"
+        ],
+        "answer": "银杏树,穿上了,金黄色,的,衣裳",
+        "explanation": "运用拟人手法，将银杏树作为主语。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "日记的书写格式",
+        "question": "请根据日记内容，排列这段发现的顺序。",
+        "options": [
+          "我",
+          "在果园里",
+          "发现了",
+          "成熟的",
+          "柿子"
+        ],
+        "answer": "我,在果园里,发现了,成熟的,柿子",
+        "explanation": "日记常由‘我’发起观察动作。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级上册第二单元满分冲刺测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "‘赠刘景文’中的刘景文是诗人的名字。",
+        "options": [],
+        "answer": "错",
+        "explanation": "刘景文是苏轼的好友，这首诗是写给他的。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "‘明朗’的意思是光亮而清澈。",
+        "options": [],
+        "answer": "对",
+        "explanation": "明朗指光亮；清楚。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "日记的书写格式",
+        "question": "日记的内容必须是每天发生的真实事情。",
+        "options": [],
+        "answer": "对",
+        "explanation": "日记是记录每天生活的真实点滴。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "《夜书所见》中，‘江上秋风动客情’的‘动’是触动的意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "秋风触动了诗人的思乡之情。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "‘层林尽染’通常是描写冬天的景象。",
+        "options": [],
+        "answer": "错",
+        "explanation": "描写的是秋天山上的树木全部变色。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "‘一年好景君须记，最是橙黄橘绿时。’作者是在勉励谁？",
+        "options": [
+          "自己的孩子",
+          "刘景文",
+          "杜牧",
+          "所有的老师"
+        ],
+        "answer": "刘景文",
+        "explanation": "诗题明确标注《赠刘景文》，是写给好友的赠言。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "在‘它们排列得并不整齐’这句话中，‘排列’一词可以通过哪种方法更好地理解？",
+        "options": [
+          "查字典",
+          "观察图画",
+          "联系生活中的队伍",
+          "以上方法都可以"
+        ],
+        "answer": "以上方法都可以",
+        "explanation": "结合多种辅助手段能更形象地理解词义。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "‘秋天的雨，是一把钥匙。’句子中的修辞方法是：",
+        "options": [
+          "拟人",
+          "比喻",
+          "排比",
+          "设问"
+        ],
+        "answer": "比喻",
+        "explanation": "把秋雨比作钥匙。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日记的书写格式",
+        "question": "写日记时，第一行的‘星期’应该写在：",
+        "options": [
+          "日期之后",
+          "天气之后",
+          "正文最后",
+          "题目的下方"
+        ],
+        "answer": "日期之后",
+        "explanation": "规范格式为：日期、星期、天气。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "‘远上寒山石径斜’中，‘斜’读音正确的是：",
+        "options": [
+          "xié",
+          "xiá",
+          "xiě",
+          "xiè"
+        ],
+        "answer": "xié",
+        "explanation": "现代汉语统一读音为xié。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "读句子：‘它的气味非常好闻。’，其中‘好闻’的近义词是：",
+        "options": [
+          "好看",
+          "芬芳",
+          "难闻",
+          "响亮"
+        ],
+        "answer": "芬芳",
+        "explanation": "形容气味好闻常用芬芳。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "‘一阵秋风吹过，落叶像彩蝶一样翩翩起舞。’这句话运用了：",
+        "options": [
+          "拟人",
+          "比喻",
+          "比喻和拟人",
+          "夸张"
+        ],
+        "answer": "比喻和拟人",
+        "explanation": "‘像彩蝶’是比喻，‘翩翩起舞’是拟人。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "下列不是描写秋天的景物是：",
+        "options": [
+          "金色的田野",
+          "通红的枫叶",
+          "飞舞的落叶",
+          "盛开的荷花"
+        ],
+        "answer": "盛开的荷花",
+        "explanation": "盛开的荷花是夏季的景象。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "结合课文内容，‘铺满金色巴掌的水泥道’中，‘金色巴掌’指的是什么？",
+        "options": [
+          "枫叶",
+          "梧桐树叶",
+          "银杏叶",
+          "小朋友的手"
+        ],
+        "answer": "梧桐树叶",
+        "explanation": "文中明确提到法国梧桐落叶像金色巴掌。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "阅读语段：‘秋天的雨，带给大地的是一曲丰收的歌。’这里的‘丰收’一词：",
+        "options": [
+          "形容庄稼成熟",
+          "形容落叶很多",
+          "形容天气变冷",
+          "形容雨下得大"
+        ],
+        "answer": "形容庄稼成熟",
+        "explanation": "丰收指农产品收获多。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "‘绚丽多彩’中，‘绚丽’的意思是：",
+        "options": [],
+        "answer": "灿烂美丽",
+        "explanation": "绚丽常用来形容颜色华丽。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意象与季节感知",
+        "question": "‘萧萧梧叶送寒声’中，‘梧叶’是指哪种树的叶子？",
+        "options": [],
+        "answer": "梧桐树",
+        "explanation": "梧叶即梧桐树叶。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "‘意欲捕鸣蝉，忽然闭口立。’这一行为是由于看到：",
+        "options": [],
+        "answer": "鸣蝉",
+        "explanation": "本题涉及回顾学习。本单元古诗中儿童的活动与此相似。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "将下列动词与合适的颜色关联。",
+        "options": [
+          "扇走了",
+          "飘来了",
+          "画出了",
+          "涂上了",
+          "夏天的炎热",
+          "秋天的凉爽",
+          "丰收的图画",
+          "金色的颜料"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "根据《秋天的雨》课文内容匹配。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "将近义词进行配对。",
+        "options": [
+          "温和",
+          "欢快",
+          "仔细",
+          "洁净",
+          "温柔",
+          "欢乐",
+          "认真",
+          "干净"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "考察近义词积累。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "请根据修辞手法对句子分类。",
+        "options": [
+          "落叶像地毯",
+          "枫叶在点头",
+          "松柏穿绿衣",
+          "云朵像棉花",
+          "比喻",
+          "拟人",
+          "拟人",
+          "比喻"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "A、D为比喻，B、C为拟人。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多种方法理解难懂词语",
+        "question": "把词语排列成一个描写景物的句子。",
+        "options": [
+          "菊花",
+          "在秋风中",
+          "频频",
+          "点头"
+        ],
+        "answer": "菊花,在秋风中,频频,点头",
+        "explanation": "运用拟人手法描写秋天的花。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日记的书写格式",
+        "question": "排列出日记开头的第一行。",
+        "options": [
+          "9月20日",
+          "星期五",
+          "晴"
+        ],
+        "answer": "9月20日,星期五,晴",
+        "explanation": "按照“日期, 星期, 天气”的标准格式排列。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "古诗意象与季节感知",
+      "core_concept": "学生需要通过识别和理解古诗中典型的物候意象（如：霜叶、残荷、促织、橙黄橘绿等）来判断季节及诗人表达的情感。例如，《山行》通过‘枫林’、‘霜叶’点明秋色。学习重点在于理解‘红于二月花’所体现的对大自然生命力的赞美。",
+      "key_formula": "季节 = 典型景物 + 颜色变化 + 植物状态",
+      "common_mistakes": [
+        "误将‘二月花’当做诗中描写的实际时间",
+        "不能理解‘促织’、‘擎雨盖’等偏生词的意象含义"
+      ],
+      "tips": "朗读时可以画出诗中表达颜色的词（如红、橙、黄、绿），通过色彩画面的构建辅助记忆。"
+    },
+    {
+      "point": "多种方法理解难懂词语",
+      "core_concept": "在阅读中遇到不理解的词语，不应只依赖标准答案。本单元提倡三种方法：1.查字典（本义）；2.联系上下文（语境义）；3.找近义词或拆分法。如‘五彩缤纷’，可以先看‘五彩’，再结合秋天各种树叶的颜色来感悟词语色彩丰富的意境。",
+      "key_formula": "词义 = 上下文联系 + 生活经验 + 拆词解析",
+      "common_mistakes": [
+        "脱离句子解释词语导致理解僵硬",
+        "遇到难词直接跳过，影响对全文的情感把握"
+      ],
+      "tips": "尝试把词语代入到生活中，想一想如果自己介绍秋天，会把这个词用在哪个场景。"
+    },
+    {
+      "point": "日记的书写格式",
+      "core_concept": "日记是记录个人生活的重要形式。格式规范是：第一行正中或靠左依次写明日期、星期、天气，从第二行开始写正文。正文写作要注意选材新颖，记录自己在‘金秋时节’中真实的观察和感悟，字数不限，重在真实。",
+      "key_formula": "首行 = X月X日 + 星期X + 天气状况",
+      "common_mistakes": [
+        "第一行漏写星期或天气",
+        "正文内容过于记‘流水账’，缺乏重点观察"
+      ],
+      "tips": "每天观察一样植物的细微变化并记录，是写好生活日记的秘诀。"
+    }
+  ]
+}

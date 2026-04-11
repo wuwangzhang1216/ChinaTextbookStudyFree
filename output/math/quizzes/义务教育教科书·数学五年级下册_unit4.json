@@ -1,0 +1,727 @@
+{
+  "textbook": "人教版小学数学五年级下册",
+  "unit": "分数的意义和性质",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元「分数的意义和性质」基础过关测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数的产生、意义与单位“1”",
+        "question": "把一个饼分成 4 份，其中的 1 份就是四分之一。",
+        "options": [],
+        "answer": "错",
+        "explanation": "分数必须建立在“平均分”的基础上。由于题目没有说明是平均分，所以不一定是四分之一。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "真分数、假分数与带分数",
+        "question": "假分数都大于 1。",
+        "options": [],
+        "answer": "错",
+        "explanation": "假分数的分子大于或等于分母，当分子等于分母时，其值等于 1。所以假分数是大于或等于 1 的。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数的基本性质",
+        "question": "分数的分子和分母同时乘或除以相同的数，分数的大小不变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据分数的基本性质，必须是“相同的数（0除外）”。因为 0 不能做分母，也不能作为除数。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "约分与最大公因数",
+        "question": "分子和分母都是合数的分数，一定不是最简分数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如 8/9，分子 8 是合数，分母 9 也是合数，但它们的公因数只有 1，所以 8/9 是最简分数。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "通分与最小公倍数",
+        "question": "通分时，分数的值变大了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "通分是根据分数的基本性质，将异分母分数化成大小相等的同分母分数，分数的大小保持不变。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的产生、意义与单位“1”",
+        "question": "把 3 米长的绳子平均分成 5 段，每段绳子是全长的：",
+        "options": [
+          "1/3",
+          "1/5",
+          "3/5",
+          "5/3"
+        ],
+        "answer": "1/5",
+        "explanation": "把 3 米长的绳子看作单位“1”，平均分成 5 段，求“每段是全长的几分之几”，用 $1 \\div 5 = 1/5$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数与除法的关系",
+        "question": "在 $a \\div b = a/b$ 中，对 $b$ 的要求是：",
+        "options": [
+          "b 是整数",
+          "b 是正数",
+          "b 不等于 0",
+          "b 大于 a"
+        ],
+        "answer": "b 不等于 0",
+        "explanation": "在除法算式中，除数不能为 0；在分数中，分母不能为 0。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "真分数、假分数与带分数",
+        "question": "下列分数中，属于真分数的是：",
+        "options": [
+          "5/4",
+          "4/4",
+          "3/4",
+          "7/4"
+        ],
+        "answer": "3/4",
+        "explanation": "真分数是分子比分母小的分数。3 < 4，所以 3/4 是真分数。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的基本性质",
+        "question": "把 2/3 的分子加上 4，要使分数的大小不变，分母应该：",
+        "options": [
+          "加上 4",
+          "乘 2",
+          "加上 3",
+          "乘 3"
+        ],
+        "answer": "乘 3",
+        "explanation": "分子从 2 变为 $2 + 4 = 6$，扩大了 3 倍。根据分数基本性质，分母也要扩大 3 倍，即 $3 \\times 3 = 9$（或加上 6）。选项中“乘 3”符合。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "约分与最大公因数",
+        "question": "24 和 36 的最大公因数是：",
+        "options": [
+          "6",
+          "8",
+          "12",
+          "72"
+        ],
+        "answer": "12",
+        "explanation": "24的因数有1,2,3,4,6,8,12,24；36的因数有1,2,3,4,6,9,12,18,36。最大公因数是12。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通分与最小公倍数",
+        "question": "比较 7/12 和 5/8 的大小，结果是：",
+        "options": [
+          ">",
+          "<",
+          " =",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "通分：12和8的最小公倍数是24。$7/12 = 14/24$，$5/8 = 15/24$。因为 $14/24 < 15/24$，所以 $7/12 < 5/8$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数和小数的互化",
+        "question": "把 0.45 化成最简分数是：",
+        "options": [
+          "45/100",
+          "9/20",
+          "9/25",
+          "45/10"
+        ],
+        "answer": "9/20",
+        "explanation": "$0.45 = 45/100$。分子分母同时除以最大公因数 5，$45 \\div 5 = 9$，$100 \\div 5 = 20$，得 9/20。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数与除法的关系",
+        "question": "小明 4 分钟走了 300 米，他平均每分钟走多少米？",
+        "options": [
+          "75",
+          "1/75",
+          "4/300",
+          "300/1"
+        ],
+        "answer": "75",
+        "explanation": "$300 \\div 4 = 75$（米）。验算：$75 \\times 4 = 300$ ✓。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的产生、意义与单位“1”",
+        "question": "一个分数的分数单位是 1/8，它有 5 个这样的单位，这个分数是：",
+        "options": [
+          "1/8",
+          "5/8",
+          "1/40",
+          "8/5"
+        ],
+        "answer": "5/8",
+        "explanation": "5 个 1/8 即 $5 \\times 1/8 = 5/8$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "真分数、假分数与带分数",
+        "question": "在分数 a/7 中，要使它是一个真分数，a 最大是：",
+        "options": [
+          "1",
+          "6",
+          "7",
+          "8"
+        ],
+        "answer": "6",
+        "explanation": "真分数的分子必须小于分母。分子 a < 7，最大的整数是 6。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "通分与最小公倍数",
+        "question": "两个数的公倍数有：",
+        "options": [
+          "1个",
+          "2个",
+          "有限个",
+          "无限个"
+        ],
+        "answer": "无限个",
+        "explanation": "两个数的公倍数是在最小公倍数的基础上不断乘 2, 3, 4... 得到的，所以有无限多个。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的产生、意义与单位“1”",
+        "question": "把 1 块糖平均分给 4 个小朋友，每个小朋友分得这块糖的：",
+        "options": [
+          "1/4",
+          "1/2",
+          "3/4",
+          "1"
+        ],
+        "answer": "1/4",
+        "explanation": "单位“1”被平均分成 4 份，每份是 1/4。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数和小数的互化",
+        "question": "下列各数中，数值最大的是：",
+        "options": [
+          "0.6",
+          "2/3",
+          "4/5",
+          "0.75"
+        ],
+        "answer": "4/5",
+        "explanation": "统一化成小数：0.6；$2/3 \\approx 0.667$；$4/5 = 0.8$；0.75。0.8 最大。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数与除法的关系",
+        "question": "45 分钟等于 ___ 小时。（用最简分数表示时，分子是多少？）",
+        "options": [],
+        "answer": "3",
+        "explanation": "45 分钟 = $45/60$ 小时。约分：$45/60 = (45 \\div 15) / (60 \\div 15) = 3/4$。分子是 3。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "约分与最大公因数",
+        "question": "一个最简真分数，分子和分母的积是 15，这个分数的分子是 ___ 。（只填较小的那个可能）",
+        "options": [],
+        "answer": "1",
+        "explanation": "积为 15 的两数有 (1,15) 和 (3,5)。真分数可能是 1/15 或 3/5。题目要求填较小的可能，1 和 3 中 1 较小。验算：$1 \\times 15 = 15$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "通分与最小公倍数",
+        "question": "已知两路公共汽车，3 路车每 6 分钟发一次车，5 路车每 8 分钟发一次车。它们同时出发后，下一次同时发车至少要过 ___ 分钟。",
+        "options": [],
+        "answer": "24",
+        "explanation": "求 6 和 8 的最小公倍数。$6 = 2 \\times 3$，$8 = 2 \\times 2 \\times 2$。最小公倍数是 $2 \\times 2 \\times 2 \\times 3 = 24$。验算：$24 \\div 6 = 4$, $24 \\div 8 = 3$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "约分与最大公因数",
+        "question": "求 18 和 30 的最大公因数是多少？",
+        "options": [],
+        "answer": "6",
+        "explanation": "18 的因数：1,2,3,6,9,18；30 的因数：1,2,3,5,6,10,15,30。共有因数中最大的是 6。验算：$18 \\div 6=3$, $30 \\div 6=5$，3和5互质 ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的产生、意义与单位“1”",
+        "question": "一个分数的分子是最小的质数，分母是最小的合数，这个分数的分数单位是 1/4，它有几个这样的单位？",
+        "options": [],
+        "answer": "2",
+        "explanation": "最小的质数是 2，最小的合数是 4。分数是 2/4。其分数单位是 1/4，分子是 2，表示有 2 个这样的单位。验算：$2 \\times 1/4 = 2/4$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级下册数学「分数的意义和性质」单元综合测评卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "真分数、假分数与带分数",
+        "question": "分子比分母大的分数一定是假分数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "假分数的定义是分子大于或等于分母的分数。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "约分与最大公因数",
+        "question": "最简分数的分子和分母没有公因数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "任何自然数的分子和分母都有公因数 1。最简分数的公因数只有 1。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数和小数的互化",
+        "question": "0.125 可以化成分数 1/8。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$0.125 = 125/1000 = 1/8$。验算：$1 \\div 8 = 0.125$ ✓。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数的基本性质",
+        "question": "一个分数的分子扩大 2 倍，分母缩小 2 倍，分数的大小不变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据分数的基本性质，分子分母应同时扩大或缩小相同倍数。此题操作会使分数扩大 4 倍。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "通分与最小公倍数",
+        "question": "两个质数的最小公倍数就是它们的乘积。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两个质数只有公因数 1，它们是互质数，互质数的最小公倍数是它们的积。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数的产生、意义与单位“1”",
+        "question": "把 2 根 1 米长的绳子平均分成 3 段，每段长的长度是：",
+        "options": [
+          "1/3 米",
+          "2/3 米",
+          "1/2 米",
+          "2/1 米"
+        ],
+        "answer": "2/3 米",
+        "explanation": "总长度 2 米除以 3 段：$2 \\div 3 = 2/3$（米）。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数与除法的关系",
+        "question": "一个袋子装有 5 千克大米，平均分成 8 份，每份大米重：",
+        "options": [
+          "1/8 千克",
+          "5/8 千克",
+          "1/5 千克",
+          "8/5 千克"
+        ],
+        "answer": "5/8 千克",
+        "explanation": "$5 \\div 8 = 5/8$（千克）。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "真分数、假分数与带分数",
+        "question": "要使 n/5 是假分数，n/6 是真分数，n 应是：",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "answer": "5",
+        "explanation": "n/5 是假分数则 $n \\ge 5$；n/6 是真分数则 $n < 6$。满足条件的整数 n 只有 5。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的基本性质",
+        "question": "与 3/4 相等的带分数是：",
+        "options": [
+          "1又1/4",
+          "9/12",
+          "6/8",
+          "不存在"
+        ],
+        "answer": "不存在",
+        "explanation": "3/4 是真分数，真分数小于 1，无法化为带分数。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "约分与最大公因数",
+        "question": "下列分数中，最简分数是：",
+        "options": [
+          "13/39",
+          "11/121",
+          "7/15",
+          "15/25"
+        ],
+        "answer": "7/15",
+        "explanation": "13/39 可约分为 1/3；11/121 可约分为 1/11；15/25 可约分为 3/5；7/15 的公因数只有 1。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "通分与最小公倍数",
+        "question": "一根绳子，第一段剪去 3/10 米，第二段剪去全长的 3/10，哪一段剪去的长？",
+        "options": [
+          "第一段长",
+          "第二段长",
+          "一样长",
+          "无法确定"
+        ],
+        "answer": "无法确定",
+        "explanation": "第一段是具体长度 3/10 米，第二段是分率。因为不知道绳子的全长是多少，所以无法比较。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数和小数的互化",
+        "question": "五（1）班有男生 25 人，女生 20 人。女生人数占全班人数的：",
+        "options": [
+          "4/5",
+          "5/9",
+          "4/9",
+          "1/4"
+        ],
+        "answer": "4/9",
+        "explanation": "全班人数：$25 + 20 = 45$（人）。女生占全班：$20 \\div 45 = 20/45 = 4/9$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数与除法的关系",
+        "question": "把 2 块月饼平均分给 5 个人，每人分得：",
+        "options": [
+          "2/5 块",
+          "1/5 块",
+          "2/5",
+          "1/2 块"
+        ],
+        "answer": "2/5 块",
+        "explanation": "$2 \\div 5 = 2/5$（块）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "通分与最小公倍数",
+        "question": "比 1/4 大而比 1/2 小的分数有：",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "无数个"
+        ],
+        "answer": "无数个",
+        "explanation": "虽然分母固定的分数有限，但分母可以无限扩大（如 100, 1000...），因此中间的分数有无数个。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的产生、意义与单位“1”",
+        "question": "五（2）班女生人数是男生的 5/6，这里把谁看作单位“1”？",
+        "options": [
+          "女生人数",
+          "男生人数",
+          "全班人数",
+          "无法确定"
+        ],
+        "answer": "男生人数",
+        "explanation": "“是男生的 5/6”表示男生是比较的标准，即单位“1”。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "约分与最大公因数",
+        "question": "一个最简分数，若分子加上 1，约分后是 1/2；若分子减去 1，约分后是 1/4。这个分数是：",
+        "options": [
+          "3/8",
+          "5/12",
+          "2/7",
+          "1/3"
+        ],
+        "answer": "3/8",
+        "explanation": "代入法：3/8 分子加 1 得 4/8=1/2；分子减 1 得 2/8=1/4。符合题意。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "真分数、假分数与带分数",
+        "question": "分母是 6 的最简真分数的和是：",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "5/6"
+        ],
+        "answer": "1",
+        "explanation": "分母是 6 的最简真分数有 1/6 和 5/6。$1/6 + 5/6 = 6/6 = 1$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "约分与最大公因数",
+        "question": "a 和 b 是相邻的两个自然数（且均不为 0），它们的最大公因数是：",
+        "options": [
+          "1",
+          "a",
+          "b",
+          "ab"
+        ],
+        "answer": "1",
+        "explanation": "相邻的两个自然数是互质数，互质数的最大公因数是 1。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数与除法的关系",
+        "question": "小红 3 小时做了 12 个手工，平均做一个手工需要 ___ 分钟。",
+        "options": [],
+        "answer": "15",
+        "explanation": "3 小时 = 180 分钟。$180 \\div 12 = 15$（分钟）。验算：$15 \\times 12 = 180$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "通分与最小公倍数",
+        "question": "有一袋糖，无论分给 8 人还是分给 10 人，都正好剩 3 块。这袋糖至少有 ___ 块。",
+        "options": [],
+        "answer": "43",
+        "explanation": "求 8 和 10 的最小公倍数，再加上 3。8 和 10 的最小公倍数是 40。$40 + 3 = 43$。验算：$43 \\div 8=5...3$，$43 \\div 10=4...3$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数的基本性质",
+        "question": "3/4 = 9/___ = ___/20。请填出第二个空格（分母为 20 时，分子是多少？）",
+        "options": [],
+        "answer": "15",
+        "explanation": "根据分数的基本性质，$3/4 = (3 \\times 5) / (4 \\times 5) = 15/20$。分子是 15。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "通分与最小公倍数",
+        "question": "计算 12 和 15 的最小公倍数是多少？",
+        "options": [],
+        "answer": "60",
+        "explanation": "$12 = 2 \\times 2 \\times 3$, $15 = 3 \\times 5$。最小公倍数 = $2 \\times 2 \\times 3 \\times 5 = 60$。验算：$60 \\div 12 = 5$, $60 \\div 15 = 4$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "约分与最大公因数",
+        "question": "求 42/56 约分后的最简分数（只要回答分子的数字）",
+        "options": [],
+        "answer": "3",
+        "explanation": "42 和 56 的最大公因数是 14。$42 \\div 14 = 3$，$56 \\div 14 = 4$。最简分数是 3/4。分子是 3。验算：$14 \\times 3 = 42$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "分数的产生、意义与单位“1”",
+      "core_concept": "分数源于测量的需要。一个物体、一些物体都可以看作一个整体，用自然数 1 来表示，通常把它叫做单位“1”。把单位“1”平均分成若干份，表示这样的一份或几份的数叫做分数。其中表示一份的数叫做分数单位。",
+      "key_formula": "分数 = $\\frac{表示的份数}{平均分的总份数}$",
+      "common_mistakes": [
+        "忽视“平均分”这一前提条件直接写分数",
+        "不理解单位“1”可以表示多个物体组成的整体（如一筐苹果）"
+      ],
+      "tips": "确定单位“1”是解题关键，通常在“的”字前面或比字后面。"
+    },
+    {
+      "point": "分数与除法的关系",
+      "core_concept": "分数的分子相当于除法中的被除数，分母相当于除数，分数线相当于除号。这种关系可以表示为 $a \\div b = \\frac{a}{b}$（$b \\neq 0$）。要注意分数是一种数，而除法是一种运算。",
+      "key_formula": "$被除数 \\div 除数 = \\frac{被除数}{除数}$",
+      "common_mistakes": [
+        "颠倒被除数和除数的位置，例如 2 除以 5 写成 5/2",
+        "忘记除数（分母）不能为 0"
+      ],
+      "tips": "求“每份是多少”带单位，求“占全长的几分之几”不带单位。"
+    },
+    {
+      "point": "真分数、假分数与带分数",
+      "core_concept": "分子比分母小的分数叫做真分数（小于 1）；分子比分母大或分子和分母相等的分数叫做假分数（大于或等于 1）。由整数和真分数合成的数叫做带分数。",
+      "key_formula": "假分数 $\\rightarrow$ 带分数：分子 $\\div$ 分母，商为整数部分，余数为分子",
+      "common_mistakes": [
+        "认为假分数一定大于 1，忽略了等于 1 的情况",
+        "将假分数化成带分数时，余数忘记写在分子位置"
+      ],
+      "tips": "分子是分母倍数的假分数可以化成整数。"
+    },
+    {
+      "point": "分数的基本性质",
+      "core_concept": "分数的分子和分母同时乘或除以相同的数（0 除外），分数的大小不变。它是约分和通分的理论依据。",
+      "key_formula": "$\\frac{a}{b} = \\frac{a \\times c}{b \\times c} = \\frac{a \\div c}{b \\div c}$ ($c \\neq 0$)",
+      "common_mistakes": [
+        "分子加（减）一个数，分母也跟着加（减）相同的数",
+        "同时乘或除以的数中包含了 0"
+      ],
+      "tips": "记忆口诀：同乘同除不带零，大小不变理最明。"
+    },
+    {
+      "point": "约分与最大公因数",
+      "core_concept": "两个数公有的因数叫公因数，其中最大的一个叫最大公因数。把一个分数化成和它相等，但分子分母都比较小的分数叫约分。分子分母互质的分数叫最简分数。",
+      "key_formula": "约分：$\\frac{a}{b} = \\frac{a \\div 最大公因数}{b \\div 最大公因数}$",
+      "common_mistakes": [
+        "约分没约到最简分数就停止了",
+        "找两个数最大公因数时漏掉最大的，只找了小的公因数"
+      ],
+      "tips": "互质数的特征要记牢，如两个连续自然数（0除外）必定互质。"
+    },
+    {
+      "point": "通分与最小公倍数",
+      "core_concept": "两个数公有的倍数叫公倍数，其中最小的一个叫最小公倍数。把异分母分数分别化成和原来分数相等的同分母分数，叫做通分。通常取分母的最小公倍数作为公分母。",
+      "key_formula": "通分：找分母的最小公倍数 $\\rightarrow$ 利用基本性质转化",
+      "common_mistakes": [
+        "通分时只把分母变了，分子忘了根据扩大倍数进行计算",
+        "求最小公倍数时与最大公因数的计算方法弄混"
+      ],
+      "tips": "通分主要用于比较大小和异分母分数加减法。"
+    },
+    {
+      "point": "分数和小数的互化",
+      "core_concept": "小数化分数：原来有几位小数，就在 1 后面写几个 0 作分母。分数化小数：利用分数与除法的关系，用分子除以分母，除不尽的按要求保留位数。",
+      "key_formula": "$\\frac{a}{b} = a \\div b$",
+      "common_mistakes": [
+        "分数化小数时分子分母位置颠倒",
+        "小数化分数后没有约分成最简分数"
+      ],
+      "tips": "熟记常用分数如 1/2=0.5, 1/4=0.25, 1/8=0.125 等可以提高计算速度。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学四年级下册",
+  "unit": "图形的运动（二）",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "第7单元「图形的运动（二）」过关测评",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "轴对称图形中，对称轴两侧对应的点到对称轴的距离相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据轴对称图形的基本性质，对应点到对称轴的距离是相等的。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形的平移规律",
+        "question": "一个图形在平移过程中，它的形状和大小都会发生改变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "平移只改变图形的位置，不改变图形的形状和大小。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "正方形有 4 条对称轴。",
+        "options": [],
+        "answer": "对",
+        "explanation": "正方形有两条对角线对称轴和两条对边中线对称轴，共4条。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "图形的平移规律",
+        "question": "平行四边形是轴对称图形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "普通的平行四边形沿任何直线对折都无法完全重合，所以不是轴对称图形。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "利用平移的方法可以将不规则图形转化为面积相等的规则图形。",
+        "options": [],
+        "answer": "对",
+        "explanation": "平移通过割补法改变形状但不改变面积，是求不规则图形面积的重要手段。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "等腰三角形有几条对称轴？",
+        "options": [
+          "1条",
+          "2条",
+          "3条",
+          "4条"
+        ],
+        "answer": "1条",
+        "explanation": "等腰三角形只有一条对称轴，即底边的中垂线。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形的平移规律",
+        "question": "电梯的升降运动属于哪种现象？",
+        "options": [
+          "对称",
+          "平移",
+          "旋转",
+          "折叠"
+        ],
+        "answer": "平移",
+        "explanation": "电梯沿直线上下移动，保持形状大小不变，属于平移。 "
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "下列哪个汉字可以看作是轴对称图形？",
+        "options": [
+          "中",
+          "左",
+          "右",
+          "上"
+        ],
+        "answer": "中",
+        "explanation": "“中”字关于中间竖笔画对称。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "画轴对称图形的另一半时，首先要找什么？",
+        "options": [
+          "对应点",
+          "对应线段",
+          "对称轴",
+          "中心点"
+        ],
+        "answer": "对应点",
+        "explanation": "补全轴对称图形的关键是先确定关键点关于对称轴的对应点。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的平移规律",
+        "question": "一个小鱼图向右平移了 5 格，鱼头上的一个点移动了多少格？",
+        "options": [
+          "3格",
+          "5格",
+          "10格",
+          "无法确定"
+        ],
+        "answer": "5格",
+        "explanation": "图形整体平移多少格，图形上每一个点就移动多少格。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形的平移规律",
+        "question": "等边三角形有几条对称轴？",
+        "options": [
+          "1条",
+          "2条",
+          "3条",
+          "0条"
+        ],
+        "answer": "3条",
+        "explanation": "等边三角形三条边的中垂线都是它的对称轴。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "一个长 8 厘米、宽 5 厘米的长方形，内部有一条弯曲的小路，将其平移转化后，长方形的面积如何变化？",
+        "options": [
+          "变大",
+          "变小",
+          "不变",
+          "无法判断"
+        ],
+        "answer": "不变",
+        "explanation": "平移过程中图形的面积守恒，虽然形状重组但总面积不变。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的平移规律",
+        "question": "在一个方格纸上，点 A(2,2) 向右平移 3 格后的位置坐标是？",
+        "options": [
+          "(5,2)",
+          "(2,5)",
+          "(5,5)",
+          "(0,2)"
+        ],
+        "answer": "(5,2)",
+        "explanation": "向右平移只改变横坐标，即 $2 + 3 = 5$，纵坐标不变。验算：$5 - 3 = 2$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "圆有几条对称轴？",
+        "options": [
+          "1条",
+          "2条",
+          "4条",
+          "无数条"
+        ],
+        "answer": "无数条",
+        "explanation": "圆的任何一条直径所在的直线都是它的对称轴。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的平移规律",
+        "question": "要把一个图形从左下角平移到右上角，至少需要几次方向移动？",
+        "options": [
+          "1次",
+          "2次",
+          "3次",
+          "0次"
+        ],
+        "answer": "2次",
+        "explanation": "需要先向右平移，再向上平移（或先上后右），共2个方向。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "一个不规则图形经过平移拼成了一个边长为 6 厘米的正方形，这个不规则图形的面积是多少平方厘米？",
+        "options": [
+          "12",
+          "24",
+          "36",
+          "48"
+        ],
+        "answer": "36",
+        "explanation": "平移前后的面积相等。正方形面积 = $6 \\times 6 = 36$（平方厘米）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "下列字母中，不是轴对称图形的是哪一个？",
+        "options": [
+          "A",
+          "H",
+          "M",
+          "S"
+        ],
+        "answer": "S",
+        "explanation": "S旋转180度重合，但沿任何轴折叠都无法重合，不是轴对称图形。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形的平移规律",
+        "question": "一个正方形先向右平移 4 格，再向下平移 3 格，它的形状？",
+        "options": [
+          "变长了",
+          "变宽了",
+          "没变",
+          "变大了"
+        ],
+        "answer": "没变",
+        "explanation": "平移不改变图形的大小和形状。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "长方形有 ___ 条对称轴。",
+        "options": [],
+        "answer": "2",
+        "explanation": "长方形的长边中点连线和短边中点连线各是一条对称轴，共2条。对角线折叠不重合。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的平移规律",
+        "question": "一个小球向左平移了 8 厘米，又向右平移了 5 厘米，此时小球相对于原点向左移动了 ___ 厘米。",
+        "options": [],
+        "answer": "3",
+        "explanation": "向左为负，向右为正。列式：$8 - 5 = 3$（厘米）。验算：$3 + 5 = 8$。最终位移向左3厘米。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "将一个长 10 厘米，宽 6 厘米的长方形，通过剪拼平移成一个底为 12 厘米的平行四边形，这个平行四边形面积是 ___ 平方厘米。",
+        "options": [],
+        "answer": "60",
+        "explanation": "平移拼剪面积不变。原长方形面积 = $10 \\times 6 = 60$（平方厘米）。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形的平移规律",
+        "question": "计算：$12 \\times 5 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$12 \\times 5 = 60$。验算：$60 \\div 5 = 12$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "计算：$25 \\times 4 + 10 = ?$",
+        "options": [],
+        "answer": "110",
+        "explanation": "先做乘法 $25 \\times 4 = 100$，再做加法 $100 + 10 = 110$。验算：$(110 - 10) \\div 4 = 25$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级下学期图形的运动（二）综合质量检测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "画轴对称图形的另一半，只要找到所有顶点并连线即可。",
+        "options": [],
+        "answer": "错",
+        "explanation": "不仅要找到顶点，关键是确定对应点到对称轴距离相等。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形的平移规律",
+        "question": "向上平移 3 格，图形的大小不会改变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "平移是位置变动，大小形状都不变。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "不规则图形的面积一定比规则图形的面积小。",
+        "options": [],
+        "answer": "错",
+        "explanation": "面积大小与形状是否规则无关，不规则图形可以转化面积相等的规则图形。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "一个轴对称图形至少有一条对称轴。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据定义，轴对称图形必须存在至少一条直线（对称轴）使其折叠重合。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "图形的平移规律",
+        "question": "将一个三角形平移后得到的图形，对应线段一定互相平行。",
+        "options": [],
+        "answer": "对",
+        "explanation": "平移性质规定，对应线段平行（或在同一直线上）且相等。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "半圆有几条对称轴？",
+        "options": [
+          "1条",
+          "2条",
+          "无数条",
+          "0条"
+        ],
+        "answer": "1条",
+        "explanation": "半圆只有过圆心且垂直于直径的那条直线是对称轴。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的平移规律",
+        "question": "图形向左平移 5 格后再向右平移 5 格，图形的位置？",
+        "options": [
+          "向左移动了5格",
+          "回到了原位置",
+          "向右移动了10格",
+          "向上移动了5格"
+        ],
+        "answer": "回到了原位置",
+        "explanation": "$-5 + 5 = 0$，位移为0，回到原处。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "下列哪个图形的对称轴最多？",
+        "options": [
+          "正方形",
+          "等边三角形",
+          "等腰梯形",
+          "圆"
+        ],
+        "answer": "圆",
+        "explanation": "正方形4条，等边三角形3条，等腰梯形1条，圆有无数条。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "一个长 12 分米、宽 8 分米的长方形，中间有一条宽 1 分米的横向小路，修路后草地面积是？",
+        "options": [
+          "96平方分米",
+          "84平方分米",
+          "80平方分米",
+          "11平方分米"
+        ],
+        "answer": "84平方分米",
+        "explanation": "平移小路到边上，草地合为一个宽 7 分米的长方形。$12 \\times (8-1) = 12 \\times 7 = 84$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形的平移规律",
+        "question": "汽车在平直公路上行驶，车身的运动是？",
+        "options": [
+          "平移",
+          "旋转",
+          "对称",
+          "放大"
+        ],
+        "answer": "平移",
+        "explanation": "车身沿直线运动，方向和形状不变，是平移。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "点 A 到对称轴的距离是 3 厘米，那么它的对应点 A' 距离点 A 为？",
+        "options": [
+          "3厘米",
+          "6厘米",
+          "0厘米",
+          "9厘米"
+        ],
+        "answer": "6厘米",
+        "explanation": "A' 到轴距离也是 3 厘米，且在轴另一侧，$3 + 3 = 6$ 厘米。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的平移规律",
+        "question": "一个三角形向右平移 6 格，它底边上的一个点移动了多少格？",
+        "options": [
+          "3格",
+          "6格",
+          "12格",
+          "0格"
+        ],
+        "answer": "6格",
+        "explanation": "图形上所有点平移的格数相同。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "利用平移法计算面积，主要是为了实现什么的转化？",
+        "options": [
+          "周长变长",
+          "形状变规则",
+          "面积变大",
+          "图形消失"
+        ],
+        "answer": "形状变规则",
+        "explanation": "割补平移的核心目的是将不规则图形转化为方便计算的规则图形。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "在方格纸上补全轴对称图形，最后一步通常是？",
+        "options": [
+          "找对称轴",
+          "找对应点",
+          "顺次连线",
+          "擦掉格子"
+        ],
+        "answer": "顺次连线",
+        "explanation": "确定好对应点后，按照原图的连接顺序连接对应点即可。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "下列哪个数字是轴对称图形？",
+        "options": [
+          "8",
+          "7",
+          "6",
+          "5"
+        ],
+        "answer": "8",
+        "explanation": "数字8左右对称，也上下对称。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形的平移规律",
+        "question": "平移前后的两个图形，它们的对应线段？",
+        "options": [
+          "不相等",
+          "平行且相等",
+          "互相垂直",
+          "长度成比例"
+        ],
+        "answer": "平行且相等",
+        "explanation": "这是平移的基本几何性质。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "一个 L 型的不规则图形，通过平移切割可以拼成两个长方形。这利用了什么？",
+        "options": [
+          "面积的可加性",
+          "平移面积不变",
+          "对称性",
+          "旋转性"
+        ],
+        "answer": "平移面积不变",
+        "explanation": "平移前后的面积守恒是不规则图形求积的理论基础。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "折痕所在的直线叫作？",
+        "options": [
+          "轴线",
+          "中心线",
+          "对称轴",
+          "中垂线"
+        ],
+        "answer": "对称轴",
+        "explanation": "将图形对折使两侧重合，折痕所在的直线即为对称轴。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "轴对称图形的补全",
+        "question": "一个轴对称图形的一半到对称轴的最远距离是 4 厘米，则该图形的总宽度至少为 ___ 厘米。",
+        "options": [],
+        "answer": "8",
+        "explanation": "对称轴两侧对称，最远距离相等。总宽 = $4 + 4 = 8$（厘米）。验算：$8 \\div 2 = 4$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形的平移规律",
+        "question": "一列火车长 200 米，以每秒 20 米的速度平移。火车头经过一个信号灯到火车尾离开，一共用了 ___ 秒。",
+        "options": [],
+        "answer": "10",
+        "explanation": "平移距离等于车长。列式：$200 \\div 20 = 10$（秒）。验算：$10 \\times 20 = 200$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "边长为 10 厘米的正方形内有一个不规则的阴影，平移后占正方形的一半，阴影面积是 ___ 平方厘米。",
+        "options": [],
+        "answer": "50",
+        "explanation": "正方形面积 = $10 \\times 10 = 100$。阴影 = $100 \\div 2 = 50$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形的平移规律",
+        "question": "计算：$450 \\div 9 = ?$",
+        "options": [],
+        "answer": "50",
+        "explanation": "$450 \\div 9 = 50$。验算：$50 \\times 9 = 450$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "利用平移解决割补面积问题",
+        "question": "计算：$15 \\times (2 + 2) = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "括号内 $2 + 2 = 4$， $15 \\times 4 = 60$。验算：$60 \\div 15 = 4$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "轴对称图形的补全",
+      "core_concept": "轴对称图形的核心是‘对应’和‘相等’。画另一半时，先找到原图形各个关键顶点，量出它们到对称轴的格数，然后在对称轴另一侧对应位置标出格数相同的点，最后顺次连接。",
+      "key_formula": "对应点距离 = 对应点到对称轴的格数",
+      "common_mistakes": [
+        "找对应点时，在对称轴同侧画点。",
+        "连接点时顺序错误，导致补出来的图形形状怪异。"
+      ],
+      "tips": "数格点时要细心，建议从上到下，先标点后连线。"
+    },
+    {
+      "point": "图形的平移规律",
+      "core_concept": "平移是指在平面内将图形沿某个方向移动一定的距离。平移只改变位置，图形的大小、形状、面积和角度完全不变。",
+      "key_formula": "平移格数 = 对应点之间的移动格数",
+      "common_mistakes": [
+        "数格数时数‘中间的空档’而不是数‘点的移动次数’。",
+        "平移后图形的大小发生了变化。"
+      ],
+      "tips": "找一个‘特征点’观察它的移动，这个点移几格，整个图就移几格。"
+    },
+    {
+      "point": "利用平移解决割补面积问题",
+      "core_concept": "对于不规则的图形，特别是带有曲线或台阶状的边缘，可以通过剪下其中一部分并平移到另一处，使之拼成一个正方形、长方形或平行四边形，从而简化计算。",
+      "key_formula": "不规则图形面积 = 割补平移后的规则图形面积",
+      "common_mistakes": [
+        "误以为平移后周长和面积都一定保持不变（注意：面积不变，周长可能变）。",
+        "割补的位置不对，无法凑成规则图形。"
+      ],
+      "tips": "‘以直代曲’，观察不规则边缘的互补性，像拼图一样去思考。"
+    }
+  ]
+}

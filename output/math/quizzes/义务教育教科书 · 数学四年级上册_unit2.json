@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学四年级上册",
+  "unit": "公顷和平方千米",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元《公顷和平方千米》基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "测量土地面积时，常用的面积单位是公顷和平方千米。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据教材定义，测量土地的面积，常用“公顷”和“平方千米”作单位。验算：概念描述正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "边长是 100 米的正方形面积是 1 公顷。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$100 \\times 100 = 10000$（平方米），$10000$ 平方米 $= 1$ 公顷。验算：定义符合。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "一个边长是 2000 米的正方形，面积是 2 平方千米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$2000 \\times 2000 = 4000000$（平方米）$= 4$ 平方千米。验算：$2 \\times 2 = 4$ 而不是 2。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "1 平方千米比 1 公顷大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$1$ 平方千米 $= 100$ 公顷，$100 > 1$。验算：单位进率正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "学校多功能教室的面积大约是 2 公顷。",
+        "options": [],
+        "answer": "错",
+        "explanation": "2 公顷是 $20000$ 平方米，教室面积通常在 $100$ 至 $200$ 平方米左右。验算：单位量级不符。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "4 公顷等于多少平方米？",
+        "options": [
+          "400",
+          "4000",
+          "40000",
+          "400000"
+        ],
+        "answer": "40000",
+        "explanation": "$1$ 公顷 $= 10000$ 平方米，则 $4$ 公顷 $= 40000$ 平方米。验算：$40000 \\div 10000 = 4$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "“鸟巢”的占地面积约为 20 公顷，多少个这样的“鸟巢”占地面积约为 1 平方千米？",
+        "options": [
+          "5 个",
+          "10 个",
+          "50 个",
+          "100 个"
+        ],
+        "answer": "5 个",
+        "explanation": "$1$ 平方千米 $= 100$ 公顷，$100 \\div 20 = 5$（个）。验算：$20 \\times 5 = 100$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "北京市的面积大约是 16410（ ）。",
+        "options": [
+          "平方米",
+          "公顷",
+          "平方千米",
+          "平方分米"
+        ],
+        "answer": "平方千米",
+        "explanation": "描述大城市的土地面积通常使用“平方千米”。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "在 500 平方米、5 公顷、5 平方千米中，最大的面积是（ ）。",
+        "options": [
+          "500 平方米",
+          "5 公顷",
+          "5 平方千米",
+          "一样大"
+        ],
+        "answer": "5 平方千米",
+        "explanation": "统一单位：$5$ 平方千米 $= 500$ 公顷 $= 5000000$ 平方米。$5$ 平方千米最大。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "1 平方千米等于（ ）平方米。",
+        "options": [
+          "1000",
+          "10000",
+          "100000",
+          "1000000"
+        ],
+        "answer": "1000000",
+        "explanation": "$1$ 平方千米 $= 100$ 公顷，$1$ 公顷 $= 10000$ 平方米，所以 $1$ 平方千米 $= 1000000$ 平方米。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "一个足球场的面积约是 7000（ ）。",
+        "options": [
+          "平方米",
+          "公顷",
+          "平方千米",
+          "平方分米"
+        ],
+        "answer": "平方米",
+        "explanation": "足球场边长约 $100$ 米和 $70$ 米，面积约 $7000$ 平方米。若填公顷则过大。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "比较大小：30 公顷（ ）3 平方千米。",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "$3$ 平方千米 $= 300$ 公顷，$30 < 300$。验算：进率是 $100$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "一个正方形果园的周长是 800 米，它的面积是（ ）公顷。",
+        "options": [
+          "4",
+          "16",
+          "40000",
+          "64"
+        ],
+        "answer": "4",
+        "explanation": "边长：$800 \\div 4 = 200$（米）；面积：$200 \\times 200 = 40000$（平方米）；换算：$40000$ 平方米 $= 4$ 公顷。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "一块长方形土地，长 500 米，宽 200 米，这块地的面积是（ ）。",
+        "options": [
+          "10 公顷",
+          "1 平方千米",
+          "100 公顷",
+          "10000 平方米"
+        ],
+        "answer": "10 公顷",
+        "explanation": "面积：$500 \\times 200 = 100000$（平方米）；换算：$100000$ 平方米 $= 10$ 公顷。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "修一段长 20 千米、宽 50 米的高速公路，占地面积是（ ）。",
+        "options": [
+          "100 公顷",
+          "100 平方千米",
+          "10 公顷",
+          "1000 公顷"
+        ],
+        "answer": "100 公顷",
+        "explanation": "$20$ 千米 $= 20000$ 米；面积：$20000 \\times 50 = 1000000$（平方米）；换算：$1000000$ 平方米 $= 100$ 公顷。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "1 平方千米增加 1 公顷后是（ ）公顷。",
+        "options": [
+          "2",
+          "11",
+          "101",
+          "1001"
+        ],
+        "answer": "101",
+        "explanation": "$1$ 平方千米 $= 100$ 公顷，$100 + 1 = 101$（公顷）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "边长是（ ）米的正方形面积是 1 公顷。",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "answer": "100",
+        "explanation": "因为 $100 \\times 100 = 10000$（平方米），符合 1 公顷定义。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "如果 1 平方米能站 12 人，那么 1 公顷能站（ ）人。",
+        "options": [
+          "1200",
+          "12000",
+          "120000",
+          "1200000"
+        ],
+        "answer": "120000",
+        "explanation": "$1$ 公顷 $= 10000$ 平方米，$12 \\times 10000 = 120000$（人）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "80000 平方米 = ___ 公顷。",
+        "options": [],
+        "answer": "8",
+        "explanation": "$80000 \\div 10000 = 8$。验算：$8 \\times 10000 = 80000$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "5 平方千米 = ___ 公顷。",
+        "options": [],
+        "answer": "500",
+        "explanation": "$1$ 平方千米 $= 100$ 公顷，$5 \\times 100 = 500$。验算：$500 \\div 100 = 5$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "一间教室的长是 10 米，宽是 5 米，___ 间这样的教室面积是 1 公顷。",
+        "options": [],
+        "answer": "200",
+        "explanation": "教室面积：$10 \\times 5 = 50$（平方米）。$1$ 公顷 $= 10000$ 平方米。数量：$10000 \\div 50 = 200$（间）。验算：$200 \\times 50 = 10000$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "计算：$10000 \\div 100 = ?$",
+        "options": [],
+        "answer": "100",
+        "explanation": "$10000 \\div 100 = 100$。验算：$100 \\times 100 = 10000$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "计算：$3 \\times 100 + 50 = ?$",
+        "options": [],
+        "answer": "350",
+        "explanation": "$3$ 平方千米加上 $50$ 公顷等于多少公顷？$3 \\times 100 = 300$，$300 + 50 = 350$。验算：$350 - 50 = 300$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级数学上册第二单元综合自测卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "公顷和平方米之间的进率是 100。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$1$ 公顷 $= 10000$ 平方米，进率是 $10000$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "我国的陆地领土面积约为 960 万平方千米。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据常识，中国陆地面积约为 $960$ 万平方千米。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "2 公顷 50 平方米就是 2050 平方米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$2$ 公顷 $= 20000$ 平方米，$20000 + 50 = 20050$ 平方米。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "平方千米、公顷、平方米、平方分米中，每相邻两个单位间的进率都是 100。",
+        "options": [],
+        "answer": "错",
+        "explanation": "公顷与平方米之间的进率是 $10000$，不是 $100$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "一个正方形操场的周长是 400 米，面积就是 1 公顷。",
+        "options": [],
+        "answer": "对",
+        "explanation": "边长 $100$ 米，面积 $100 \\times 100 = 10000$ 平方米 $= 1$ 公顷。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "一块长方形水稻田长 250 米，宽 40 米，面积是（ ）。",
+        "options": [
+          "1 平方米",
+          "1 公顷",
+          "10 公顷",
+          "10000 公顷"
+        ],
+        "answer": "1 公顷",
+        "explanation": "$250 \\times 40 = 10000$ 平方米 $= 1$ 公顷。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "上海市的面积大约是 6340（ ）。",
+        "options": [
+          "平方米",
+          "分米",
+          "公顷",
+          "平方千米"
+        ],
+        "answer": "平方千米",
+        "explanation": "城市面积通常以平方千米为单位。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "1 平方千米是 1 公顷的（ ）倍。",
+        "options": [
+          "10",
+          "100",
+          "1000",
+          "10000"
+        ],
+        "answer": "100",
+        "explanation": "$1$ 平方千米 $= 100$ 公顷，所以是 $100$ 倍。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "下列面积中，最大的是（ ）。",
+        "options": [
+          "4 平方千米",
+          "401 公顷",
+          "400000 平方米",
+          "4000 公顷"
+        ],
+        "answer": "4000 公顷",
+        "explanation": "统一单位为公顷：$4$ 平方千米 $= 400$ 公顷；$401$ 公顷；$400000$ 平方米 $= 40$ 公顷；$4000$ 公顷最大。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "“水立方”占地面积约 6（ ）。",
+        "options": [
+          "平方米",
+          "公顷",
+          "平方千米",
+          "平方分米"
+        ],
+        "answer": "公顷",
+        "explanation": "大型场馆占地面积用“公顷”合适。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "一个正方形的面积是 36 平方千米，它的边长是（ ）千米。",
+        "options": [
+          "6",
+          "60",
+          "9",
+          "36"
+        ],
+        "answer": "6",
+        "explanation": "因为 $6 \\times 6 = 36$，所以边长是 $6$ 千米。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "如果 1 公顷土地可种树 5000 棵，那么 1 平方千米可种树（ ）棵。",
+        "options": [
+          "50000",
+          "500000",
+          "5000000",
+          "5000"
+        ],
+        "answer": "500000",
+        "explanation": "$1$ 平方千米 $= 100$ 公顷，$5000 \\times 100 = 500000$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "7 公顷 500 平方米（ ）75000 平方米。",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "$7$ 公顷 $500$ 平方米 $= 70500$ 平方米，$70500 < 75000$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "一台收割机每小时收割 2 公顷小麦，收割 1 平方千米的小麦需要（ ）小时。",
+        "options": [
+          "5",
+          "50",
+          "20",
+          "200"
+        ],
+        "answer": "50",
+        "explanation": "$1$ 平方千米 $= 100$ 公顷，$100 \\div 2 = 50$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "边长为 300 米的正方形果园，面积最接近（ ）。",
+        "options": [
+          "90 平方米",
+          "9 公顷",
+          "9 平方千米",
+          "1 公顷"
+        ],
+        "answer": "9 公顷",
+        "explanation": "$300 \\times 300 = 90000$ 平方米 $= 9$ 公顷。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "一块手帕的面积约是 4（ ）。",
+        "options": [
+          "平方厘米",
+          "平方分米",
+          "平方米",
+          "公顷"
+        ],
+        "answer": "平方分米",
+        "explanation": "手帕面积较小，常用平方分米。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "一个长方形宽 400 米，长是宽的 2 倍，它的面积是（ ）公顷。",
+        "options": [
+          "8",
+          "16",
+          "32",
+          "320"
+        ],
+        "answer": "32",
+        "explanation": "长 $= 400 \\times 2 = 800$ 米，面积 $= 800 \\times 400 = 320000$ 平方米 $= 32$ 公顷。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "将 4 平方千米、4000 平方米、40 公顷按从小到大的顺序排列，正确的是（ ）。",
+        "options": [
+          "4000平方米 < 40公顷 < 4平方千米",
+          "4平方千米 < 40公顷 < 4000平方米",
+          "40公顷 < 4000平方米 < 4平方千米",
+          "4000平方米 < 4平方千米 < 40公顷"
+        ],
+        "answer": "4000平方米 < 40公顷 < 4平方千米",
+        "explanation": "$4000$ 平方米 $= 0.4$ 公顷，$40$ 公顷，$4$ 平方千米 $= 400$ 公顷。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "3000 公顷 = ___ 平方千米。",
+        "options": [],
+        "answer": "30",
+        "explanation": "$100$ 公顷 $= 1$ 平方千米，$3000 \\div 100 = 30$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "15 公顷 = ___ 平方米。",
+        "options": [],
+        "answer": "150000",
+        "explanation": "$15 \\times 10000 = 150000$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "面积单位的综合应用",
+        "question": "一块长方形麦田，长 400 米，宽 250 米，面积是 ___ 公顷。",
+        "options": [],
+        "answer": "10",
+        "explanation": "$400 \\times 250 = 100000$（平方米），$100000 \\div 10000 = 10$。验算：$10 \\times 10000 = 100000$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "公顷的认识与换算",
+        "question": "计算：$50000 \\div 10000 = ?$",
+        "options": [],
+        "answer": "5",
+        "explanation": "$50000 \\div 10000 = 5$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平方千米的认识与换算",
+        "question": "计算：$1200 \\div 100 = ?$",
+        "options": [],
+        "answer": "12",
+        "explanation": "$1200 \\div 100 = 12$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "公顷的认识与换算",
+      "core_concept": "测量土地面积时，常用公顷作单位。边长是 100 米的正方形面积是 1 公顷。1 公顷包含了 10000 个 1 平方米的面积极其巨大，大约相当于一个标准足球场的面积（约 0.7 公顷）或 1.4 个足球场。",
+      "key_formula": "$1 \\text{公顷} = 10000 \\text{平方米}$",
+      "common_mistakes": [
+        "错误地认为公顷和平方米之间的进率是 100 或 1000。",
+        "在计算周长和面积转换时混淆单位。"
+      ],
+      "tips": "想象 400 米跑道围起来的操场面积大约就是 1 公顷，记住“公顷”名字里虽然没有“平”，但它是面积单位。"
+    },
+    {
+      "point": "平方千米的认识与换算",
+      "core_concept": "测量国家、城市等极大的土地面积时，用平方千米作单位。边长是 1000 米（1 千米）的正方形面积是 1 平方千米。它比公顷大得多，1 平方千米等于 100 公顷。",
+      "key_formula": "$1 \\text{平方千米} = 100 \\text{公顷} = 1000000 \\text{平方米}$",
+      "common_mistakes": [
+        "记错平方千米与公顷的进率，常与长度单位千米和米的进率 1000 混淆。",
+        "在多级换算（平方千米到平方米）时漏写零。"
+      ],
+      "tips": "记住进率口诀：平方千米公顷一百倍，公顷变平米万万岁。"
+    },
+    {
+      "point": "面积单位的综合应用",
+      "core_concept": "根据物体实际大小选择合适的单位：课桌用平方分米，教室用平方米，公园/广场用公顷，城市/国家/行政区用平方千米。",
+      "key_formula": "$\\text{长} \\times \\text{宽} = \\text{面积}$ (注意先统一长宽单位)",
+      "common_mistakes": [
+        "不看单位直接相乘，如长 500 米乘以宽 2 千米。",
+        "生活经验不足，将学校面积填成平方千米。"
+      ],
+      "tips": "做题时先看清单位，如果是大数换小数就乘进率，小数换大数就除以进率。"
+    }
+  ]
+}

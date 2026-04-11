@@ -1,0 +1,355 @@
+{
+  "textbook": "一年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "准备课",
+      "knowledge_points": [
+        {
+          "name": "1~10各数的数数与认读",
+          "description": "通过点数实物认识1~10各数，建立实物与数字的一一对应关系。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "同样多、多、少的含义",
+          "description": "通过一一对应法比较两组物体数量的多少关系，理解同样多、多和少的概念。",
+          "difficulty": 1,
+          "question_types": [
+            "操作题",
+            "连线/匹配",
+            "判断"
+          ]
+        },
+        {
+          "name": "比多少的实践应用",
+          "description": "在复杂情境图中提取信息并进行数量比较。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "位置",
+      "knowledge_points": [
+        {
+          "name": "上、下、前、后位置关系",
+          "description": "能在具体场景中辨认上、下、前、后的空间方位，理解参照物的相对性。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择",
+            "操作题"
+          ]
+        },
+        {
+          "name": "左、右方位辨认",
+          "description": "能以自身为中心辨别左、右，理解左、右的相对性及在生活中的意义。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "判断",
+            "操作题"
+          ]
+        },
+        {
+          "name": "位置关系的综合描述",
+          "description": "根据指令描述或摆放物体位置，运用方位词解决简单路径或寻找目标的问题。",
+          "difficulty": 2,
+          "question_types": [
+            "画图",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "1~5的认识和加减法",
+      "knowledge_points": [
+        {
+          "name": "1~5的基数与序数含义",
+          "description": "认识1-5各数，理解“几个”（基数）与“第几”（序数）的区别。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "排序/比较",
+            "画图"
+          ]
+        },
+        {
+          "name": "通过符号(=、>、<)比较大小",
+          "description": "理解并掌握等号、大于号和小于号的意义及用法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "5以内数的分与合",
+          "description": "掌握4和5的组成与分解，理解整体与部分的关系。",
+          "difficulty": 2,
+          "question_types": [
+            "规律探索",
+            "填空"
+          ]
+        },
+        {
+          "name": "加法的初步认识",
+          "description": "体会加法“合并”的含义，能看图列式计算5以内的加法。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "应用题"
+          ]
+        },
+        {
+          "name": "减法的初步认识",
+          "description": "体会减法“去掉”的含义，能看图列式计算5以内的减法。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "应用题"
+          ]
+        },
+        {
+          "name": "0的认识与相关加减法",
+          "description": "理解0表示什么都没有，掌握涉及0的加减运算规律。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "认识图形（一）",
+      "knowledge_points": [
+        {
+          "name": "立体图形的辨认",
+          "description": "直观辨认长方体、正方体、圆柱和球，了解它们的外观特征。",
+          "difficulty": 1,
+          "question_types": [
+            "连线/匹配",
+            "选择"
+          ]
+        },
+        {
+          "name": "立体图形的特征分类",
+          "description": "根据形状特征（如滚动、平铺）对实物进行分类。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "操作题"
+          ]
+        },
+        {
+          "name": "图形的拼搭与组合",
+          "description": "通过拼搭活动感受图形的组合关系，数出复杂组合体中基础图形的数量。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "操作题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "6~10的认识和加减法",
+      "knowledge_points": [
+        {
+          "name": "6~10各数的认识与组成",
+          "description": "掌握6-10各数的数序、大小比较及分与合，特别是10的组成。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "规律探索",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "6~10的加减法运算",
+          "description": "熟练计算10以内的加减法，理解加减互逆关系及加法交换律。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "应用题"
+          ]
+        },
+        {
+          "name": "连加、连减运算",
+          "description": "掌握连加、连减的运算顺序，即从左往右依次计算。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "加减混合运算",
+          "description": "掌握加减混合题目中先算前两项再算第三项的计算规则。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "应用题"
+          ]
+        },
+        {
+          "name": "解决问题（原来有多少）",
+          "description": "运用逆向思维，通过“领走的+剩下的=原有的”解决实际问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "11~20各数的认识",
+      "knowledge_points": [
+        {
+          "name": "计数单位“十”与数位认识",
+          "description": "理解10个一是一个十，认识个位与十位，初步建立位值概念。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "画图"
+          ]
+        },
+        {
+          "name": "11~20各数的写法与组成",
+          "description": "掌握20以内数的读写，理解由1个十和几个一组成的结构。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "11~20的不进位加与不退位减",
+          "description": "利用数的组成计算如10+3, 13-3, 13-10等算式。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "认识钟表",
+      "knowledge_points": [
+        {
+          "name": "钟面结构的认识",
+          "description": "认识钟面上的12个数字，区分时针（短）和分针（长）。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "判断"
+          ]
+        },
+        {
+          "name": "整时的认读与记录",
+          "description": "掌握当分针指向12时，根据时针对准的数字读出整时。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "操作题",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "作息时间的先后逻辑",
+          "description": "结合生活情境辨析时间的先后顺序及其在实际生活中的意义。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "排序/比较"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "20以内的进位加法",
+      "knowledge_points": [
+        {
+          "name": "凑十法的算法与应用",
+          "description": "能运用“拆小数凑大数”的方法高效计算进位加法。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空",
+            "操作题"
+          ]
+        },
+        {
+          "name": "9、8、7、6加几的计算",
+          "description": "熟练掌握各基数的进位加法算理，并体会算法多样化。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "5、4、3、2加几（交换法）",
+          "description": "通过交换加数位置，利用已学的进位加法规律进行计算。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "排序/比较"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "20以内数与运算的综合",
+          "description": "系统梳理20以内数的组成、读写、大小比较及加减法规律。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "图形与时间的综合回顾",
+          "description": "复习立体图形特征及整时识别，解决综合性操作问题。",
+          "difficulty": 2,
+          "question_types": [
+            "操作题",
+            "选择",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "多步实际问题的解决",
+          "description": "从复杂情境中提取多个数学信息，综合运用加减法解决生活问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "规律探索"
+          ]
+        }
+      ]
+    }
+  ]
+}

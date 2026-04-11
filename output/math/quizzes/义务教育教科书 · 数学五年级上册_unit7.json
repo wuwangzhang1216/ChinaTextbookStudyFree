@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学五年级上册",
+  "unit": "数学广角——植树问题",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "第7单元「数学广角——植树问题」单元标准测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "在一条长 100 米的小路一侧植树（两端都栽），如果间隔 5 米，一共有 20 个间隔。",
+        "options": [],
+        "answer": "对",
+        "explanation": "间隔数 = 全长 ÷ 间隔长度。计算：$100 \\div 5 = 20$（个）。验算：$20 \\times 5 = 100$✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "在两座楼房之间种树，因为两端都不能种，所以棵数比间隔数多 1。",
+        "options": [],
+        "answer": "错",
+        "explanation": "两端都不栽的情况下，棵数 = 间隔数 - 1。例如有 2 个间隔只能种 1 棵树。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "封闭路线的植树规律",
+        "question": "在一个圆形池塘四周栽树，间隔数和棵数相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在封闭路线上植树，每一棵树对应一个间隔，因此棵数 = 间隔数。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "时钟敲 3 下要 4 秒，敲 6 下就要 8 秒。",
+        "options": [],
+        "answer": "错",
+        "explanation": "敲 3 下有 2 个间隔，每个间隔 $4 \\div 2 = 2$ 秒。敲 6 下有 5 个间隔，需要 $5 \\times 2 = 10$ 秒。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "把一根木头锯成 5 段，需要锯 5 次。",
+        "options": [],
+        "answer": "错",
+        "explanation": "锯成 5 段相当于有 5 个间隔，属于两端不栽的情况（或说是中间切口数），次数 = 段数 - 1，即 $5 - 1 = 4$ 次。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "在一条长 20 米的走廊一侧挂灯笼（两端都挂），每隔 5 米挂一个，一共要挂几个灯笼？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "20"
+        ],
+        "answer": "5",
+        "explanation": "两端都挂：间隔数 = $20 \\div 5 = 4$，灯笼数 = $4 + 1 = 5$ 个。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "在一段公路的一边每隔 40 米安一根路灯，一共安了 10 根（两端都安），这段公路长多少米？",
+        "options": [
+          "400",
+          "440",
+          "360",
+          "250"
+        ],
+        "answer": "360",
+        "explanation": "两端都安，间隔数 = $10 - 1 = 9$ 个。全长 = $9 \\times 40 = 360$ 米。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "封闭路线的植树规律",
+        "question": "一个正方形花坛周长 80 米，每隔 4 米摆一盆花。一共需要多少盆花？",
+        "options": [
+          "20",
+          "21",
+          "19",
+          "80"
+        ],
+        "answer": "20",
+        "explanation": "封闭图形中，棵数 = 间隔数。间隔数 = $80 \\div 4 = 20$ 个，所以需要 20 盆。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "小明家住 6 楼，他从 1 楼爬到 2 楼用了 10 秒。照这样计算，他从 1 楼爬到 6 楼需要几秒？",
+        "options": [
+          "60",
+          "50",
+          "40",
+          "70"
+        ],
+        "answer": "50",
+        "explanation": "1楼到2楼是 1 层楼梯。1楼到6楼是 $6 - 1 = 5$ 层楼梯。$5 \\times 10 = 50$ 秒。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "在一条 50 米长的路两旁植树（两端都栽），每隔 5 米栽一棵，一共要多少棵树？",
+        "options": [
+          "11",
+          "22",
+          "10",
+          "20"
+        ],
+        "answer": "22",
+        "explanation": "单侧间隔 = $50 \\div 5 = 10$ 个，单侧棵数 = $10 + 1 = 11$ 棵。两旁则为 $11 \\times 2 = 22$ 棵。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "把一根 12 米长的木料锯成 3 米长的小段，每锯一次需 2 分钟，锯完一共需要几分钟？",
+        "options": [
+          "8",
+          "6",
+          "4",
+          "2"
+        ],
+        "answer": "6",
+        "explanation": "段数 = $12 \\div 3 = 4$ 段。锯的次数 = $4 - 1 = 3$ 次。时间 = $3 \\times 2 = 6$ 分钟。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "封闭路线的植树规律",
+        "question": "在一个圆形场地周围植树，周长 120 米，每隔 6 米栽一棵，一共栽几棵？",
+        "options": [
+          "19",
+          "20",
+          "21",
+          "22"
+        ],
+        "answer": "20",
+        "explanation": "封闭路线：棵数 = 间隔数 = $120 \\div 6 = 20$ 棵。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "小红从 1 楼走到 4 楼走了 48 级台阶，每两层楼之间的台阶数相同，每层有多少级台阶？",
+        "options": [
+          "12",
+          "16",
+          "24",
+          "48"
+        ],
+        "answer": "16",
+        "explanation": "1楼到4楼有 $4 - 1 = 3$ 层间隔。每层台阶 = $48 \\div 3 = 16$ 级。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "一根木头锯成 4 段要 12 分钟，如果锯成 8 段，需要多少分钟？",
+        "options": [
+          "24",
+          "28",
+          "32",
+          "21"
+        ],
+        "answer": "28",
+        "explanation": "锯 4 段需要 3 次，$12 \\div 3 = 4$ 分钟/次。锯 8 段需要 7 次，$7 \\times 4 = 28$ 分钟。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "在长 100 米的路一侧安装路灯（两端都不安），每隔 10 米安一盏，可以安多少盏？",
+        "options": [
+          "9",
+          "10",
+          "11",
+          "12"
+        ],
+        "answer": "9",
+        "explanation": "两端都不安：间隔数 = $100 \\div 10 = 10$ 个。盏数 = $10 - 1 = 9$ 盏。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "封闭路线的植树规律",
+        "question": "一个三角形鱼池，三条边一共长 60 米，每隔 5 米放一根钓鱼竿，一共放几根？周边三个角都放。",
+        "options": [
+          "12",
+          "13",
+          "11",
+          "15"
+        ],
+        "answer": "12",
+        "explanation": "封闭图形（三角形）中，棵数 = 间隔数。$60 \\div 5 = 12$ 根。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "排队做操，小明这一列一共 11 人。相邻两人之间间隔 2 米，这列队伍多长？",
+        "options": [
+          "20",
+          "22",
+          "18",
+          "11"
+        ],
+        "answer": "20",
+        "explanation": "人相当于树（两端都栽），间隔数 = $11 - 1 = 10$ 个。总长 = $10 \\times 2 = 20$ 米。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "5 路公交车路线全长 12 千米，相邻两站距离 1 千米。一共有几个车站？（起点终点都有站）",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "13",
+        "explanation": "两端都有站，车站数 = 间隔数 + 1。间隔数 = $12 \\div 1 = 12$ 个，车站数 = $12 + 1 = 13$ 个。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "在一条长 30 米的小路一侧植树，每隔 6 米栽一棵（两端都栽），一共要栽 ___ 棵。",
+        "options": [],
+        "answer": "6",
+        "explanation": "间隔数：$30 \\div 6 = 5$（个）。两端都栽：棵数 = $5 + 1 = 6$（棵）。验算：$6-1=5$, $5 \\times 6=30$✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "封闭路线的植树规律",
+        "question": "一个圆形花坛的周长是 40 米，每隔 8 米放一盆花，一共要放 ___ 盆花。",
+        "options": [],
+        "answer": "5",
+        "explanation": "封闭图形规律：棵数 = 间隔数。计算：$40 \\div 8 = 5$（盆）。验算：$5 \\times 8 = 40$✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "把一根木头锯成 6 段，每锯断一次需要 3 分钟。锯完这根木头一共需要 ___ 分钟。",
+        "options": [],
+        "answer": "15",
+        "explanation": "锯成 6 段需要锯 $6 - 1 = 5$ 次。总时间：$5 \\times 3 = 15$（分钟）。验算：$15 \\div 3 = 5$ 次，加上最后一段不需锯，共 6 段✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "计算：$15 \\times (10 - 1) = ?$",
+        "options": [],
+        "answer": "135",
+        "explanation": "$15 \\times (10 - 1) = 15 \\times 9 = 135$。验算：$135 \\div 9 = 15$✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "计算：$(80 \\div 4) + 1 = ?$",
+        "options": [],
+        "answer": "21",
+        "explanation": "$(80 \\div 4) + 1 = 20 + 1 = 21$。验算：$(21 - 1) \\times 4 = 80$✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级数学上册第七单元综合能力测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "在一条直线上植树，如果两端都不栽，棵数比间隔数少 1。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是两端不栽的典型特征。例如 2 个间隔中间只有 1 棵树。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "封闭路线的植树规律",
+        "question": "周长 100 米的圆和周长 100 米的正方形，按相同间隔植树，棵数一样多。",
+        "options": [],
+        "answer": "对",
+        "explanation": "无论是什么形状，只要是封闭曲线，棵数都等于全长除以间隔长度。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "已知全长和间隔长度，求两端都种的棵数，公式是：全长 ÷ 间隔长度 + 1。",
+        "options": [],
+        "answer": "对",
+        "explanation": "间隔数 = 全长 ÷ 间隔长度，由于两端都种，棵数 = 间隔数 + 1。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "把 10 根短绳结成一个大圆圈，一共要打 10 个结。",
+        "options": [],
+        "answer": "对",
+        "explanation": "绳子结成圈属于封闭植树模型，绳子数 = 打结数。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "马拉松比赛，每 5 千米设一个饮水站（起点设，终点不设），15 千米的路程共设 3 个饮水站。",
+        "options": [],
+        "answer": "对",
+        "explanation": "一端种一端不种的情况下，站数 = 间隔数 = $15 \\div 5 = 3$ 个。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "一排同学共 15 人，每相邻两个同学之间距离 1 米。这排同学长多少米？",
+        "options": [
+          "14",
+          "15",
+          "16",
+          "30"
+        ],
+        "answer": "14",
+        "explanation": "两端都有人，间隔数 = $15 - 1 = 14$ 个。总长 = $14 \\times 1 = 14$ 米。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "时钟 4 点钟敲 4 下，6 秒钟敲完。那么 12 点钟敲 12 下，需要多少秒？",
+        "options": [
+          "18",
+          "22",
+          "24",
+          "12"
+        ],
+        "answer": "22",
+        "explanation": "敲 4 下有 3 个间隔，$6 \\div 3 = 2$ 秒/个。敲 12 下有 11 个间隔，$11 \\times 2 = 22$ 秒。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "在一段 600 米长的公路一侧，每隔 5 米种一棵柳树（两端都种），一共要种多少棵？",
+        "options": [
+          "120",
+          "121",
+          "119",
+          "242"
+        ],
+        "answer": "121",
+        "explanation": "间隔数 = $600 \\div 5 = 120$。两端都种：$120 + 1 = 121$ 棵。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "封闭路线的植树规律",
+        "question": "李大伯要在自家的圆形鱼塘周围栽树，鱼塘周长 150 米，每隔 5 米栽一棵，一共栽几棵？",
+        "options": [
+          "30",
+          "31",
+          "29",
+          "15"
+        ],
+        "answer": "30",
+        "explanation": "封闭路线，棵数 = 间隔数。$150 \\div 5 = 30$ 棵。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "广场上的大钟 5 时敲 5 下，8 秒敲完。10 时敲 10 下，需要几秒？",
+        "options": [
+          "16",
+          "18",
+          "20",
+          "15"
+        ],
+        "answer": "18",
+        "explanation": "5下 4 个间隔，每个间隔 $8 \\div 4 = 2$ 秒。10下 9 个间隔，$9 \\times 2 = 18$ 秒。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "同学们在全长 100 米的小路一边植树，每隔 5 米栽一棵（两端都不栽）。一共需树苗几棵？",
+        "options": [
+          "20",
+          "21",
+          "19",
+          "22"
+        ],
+        "answer": "19",
+        "explanation": "间隔数 = $100 \\div 5 = 20$。两端都不栽 = $20 - 1 = 19$ 棵。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "小明走楼梯，从 1 楼到 3 楼用了 20 秒。照这样计算，他从 1 楼到 5 楼要多少秒？",
+        "options": [
+          "40",
+          "30",
+          "50",
+          "60"
+        ],
+        "answer": "40",
+        "explanation": "1到3楼是 2 层，$20 \\div 2 = 10$ 秒/层。1到5楼是 4 层，$4 \\times 10 = 40$ 秒。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "封闭路线的植树规律",
+        "question": "一个圆形跑道长 400 米，每隔 10 米插一面红旗，每两面红旗中间插一面黄旗。黄旗有多少面？",
+        "options": [
+          "40",
+          "39",
+          "41",
+          "80"
+        ],
+        "answer": "40",
+        "explanation": "红旗数 = $400 \\div 10 = 40$。在圆周上，红旗间的间隔数等于红旗数，所以也是 40 个间隔。每个间隔插 1 面黄旗，共 40 面。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "两座楼房之间相距 40 米，每隔 4 米栽一棵树，一共栽几棵？",
+        "options": [
+          "11",
+          "10",
+          "9",
+          "8"
+        ],
+        "answer": "9",
+        "explanation": "两楼之间意味着两端都不能种树。间隔数 = $40 \\div 4 = 10$。棵数 = $10 - 1 = 9$ 棵。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "一根木料，锯成 3 段用了 6 分钟。如果以后锯的速度不变，锯成 7 段需要多少分钟？",
+        "options": [
+          "14",
+          "18",
+          "21",
+          "12"
+        ],
+        "answer": "18",
+        "explanation": "锯 3 段需 2 次，$6 \\div 2 = 3$ 分钟/次。锯 7 段需 6 次，$6 \\times 3 = 18$ 分钟。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "封闭路线的植树规律",
+        "question": "一个五边形水池，五条边共长 50 米。在池边每隔 2 米摆一盆花，包括五个角，一共需多少盆？",
+        "options": [
+          "25",
+          "26",
+          "24",
+          "50"
+        ],
+        "answer": "25",
+        "explanation": "封闭多边形，棵数 = 间隔数。$50 \\div 2 = 25$ 盆。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "在一个路口处有 11 根电线杆，相邻两根间距 20 米，第一根到最后一根距离多少米？",
+        "options": [
+          "200",
+          "220",
+          "180",
+          "110"
+        ],
+        "answer": "200",
+        "explanation": "间隔数 = $11 - 1 = 10$ 个。距离 = $10 \\times 20 = 200$ 米。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "5 路公交车在全程一路上共有 12 个间隔，如果起点终点都有站，共有多少个车站？",
+        "options": [
+          "11",
+          "12",
+          "13",
+          "14"
+        ],
+        "answer": "13",
+        "explanation": "间隔为 12 个，两端都有站，站数 = $12 + 1 = 13$ 个。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "一条走廊长 24 米，每隔 3 米放一盆花（两端都放），一共要放 ___ 盆。",
+        "options": [],
+        "answer": "9",
+        "explanation": "间隔数：$24 \\div 3 = 8$。两端都放：$8 + 1 = 9$ 盆。验算：$(9-1) \\times 3 = 24$✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "封闭路线的植树规律",
+        "question": "一个圆形花坛在四周摆了 12 盆花，每两盆花之间间隔 3 米。这个花坛的周长是 ___ 米。",
+        "options": [],
+        "answer": "36",
+        "explanation": "封闭图形中，间隔数 = 棵数 = 12 个。周长 = $12 \\times 3 = 36$ 米。验算：$36 \\div 3 = 12$✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "时钟敲 4 下用了 9 秒。那么敲 10 下需要 ___ 秒。",
+        "options": [],
+        "answer": "27",
+        "explanation": "4下有 3 个间隔。每个间隔 $9 \\div 3 = 3$ 秒。10下有 9 个间隔。所需时间：$9 \\times 3 = 27$ 秒。验算：$27 \\div 9 = 3$✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "直线上的植树问题（两端都栽 / 两端不栽）",
+        "question": "计算：$(36 \\div 4) - 1 = ?$",
+        "options": [],
+        "answer": "8",
+        "explanation": "$36 \\div 4 = 9, 9 - 1 = 8$。验算：$(8 + 1) \\times 4 = 36$✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "植树问题的综合转化",
+        "question": "计算：$5 \\times (8 - 1) = ?$",
+        "options": [],
+        "answer": "35",
+        "explanation": "$5 \\times (8 - 1) = 5 \\times 7 = 35$。验算：$35 \\div 7 = 5$✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "直线上的植树问题（两端都栽 / 两端不栽）",
+      "core_concept": "在不封闭的小路直线上植树，要根据端点是否栽树来确定数量。如果两端都栽，树比间隔多 1；如果两端都不栽（如楼间距、锯木头），树比间隔少 1；如果只栽一端，树与间隔相等。",
+      "key_formula": "两端都栽：$棵数 = 间隔数 + 1$；两端不栽：$棵数 = 间隔数 - 1$",
+      "common_mistakes": [
+        "忽视“两端”的具体要求，统一直接用全长除以间隔作为答案。",
+        "在计算“两旁”植树时，忘记最后将单侧结果乘以 2。"
+      ],
+      "tips": "先求出间隔数（全长÷间距），然后根据“手指头和空隙”的模型来判断：手掌张开，5个手指（树）之间有4个空隙（间隔），这就是两端都栽。"
+    },
+    {
+      "point": "封闭路线的植树规律",
+      "core_concept": "在圆形、正方形或多边形等封闭图形的周长上植树，起点即终点，每一棵树都对应一个间隔，不存在多出或减少的情况。因此，棵数、间隔数、顶点数（对于多边形）是三者相等的。",
+      "key_formula": "封闭图形：$棵数 = 间隔数 = 周长 \\div 间隔长度$",
+      "common_mistakes": [
+        "习惯了直线的公式，在圆形问题里也多加了1或减了1。",
+        "算正方形等图形时，把四个角重复计算或漏算。"
+      ],
+      "tips": "可以想象把圆环在某一点剪开拉直，原本重合的起点和终点现在只剩一个树位，所以刚好对应的就是间隔数。"
+    },
+    {
+      "point": "植树问题的综合转化",
+      "core_concept": "很多生活问题其实是植树问题的变式。爬楼梯：楼层数相当于棵数，层与层之间的楼梯相当于间隔；锯木头：段数相当于棵数，锯的次数相当于间隔数（两端不栽）；敲钟：敲的次数是棵数，间隔时间是间隔数。",
+      "key_formula": "$爬楼层数 = 到达层数 - 1$；$锯木次数 = 段数 - 1$",
+      "common_mistakes": [
+        "爬楼梯时，认为从1楼到5楼是5层楼梯（实际是4层）。",
+        "敲钟问题中，把敲第一下的动作也当成了间隔时间的开始。"
+      ],
+      "tips": "核心在于找“间隔”。只要找到了“空隙”在哪里，就能转化为数学模型。记住：楼层差、锯口数、敲钟间隔都是“间隔”。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "教科版小学科学一年级上册",
+  "unit": "校园里的植物",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元《校园里的植物》单元评价卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植物的基本特征",
+        "question": "我们观察校园里的植物时，可以随便把花摘下来回家看。",
+        "options": [],
+        "answer": "错",
+        "explanation": "观察植物要爱护植物，不能随意采摘。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植物的生活需求",
+        "question": "植物的生长只需要阳光，不需要水分。",
+        "options": [],
+        "answer": "错",
+        "explanation": "植物生长需要水分、阳光、空气等多种条件。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植物的多样性",
+        "question": "校园里的植物有高有矮，生长环境也各不相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "植物具有多样性，不同植物的大小和生活环境不同。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "科学观察方法",
+        "question": "画植物时，我们应该把自己看到的细节如实画出来。",
+        "options": [],
+        "answer": "对",
+        "explanation": "科学绘画要求实事求是，真实记录观察到的特征。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "植物的生命特征",
+        "question": "塑料花不需要浇水也能长大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "塑料花不是生物，它是不会生长的。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物与人类的关系",
+        "question": "下列哪种植物可以作为我们的主食？",
+        "options": [
+          "向日葵",
+          "水稻",
+          "玫瑰",
+          "柳树"
+        ],
+        "answer": "水稻",
+        "explanation": "水稻产出的米饭是人类的主要食物来源。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "校园植物调查",
+        "question": "我们要观察一棵很高的树，最好的方法是？",
+        "options": [
+          "爬到树顶看",
+          "站在树下仰望",
+          "把树砍倒看",
+          "闭上眼想象"
+        ],
+        "answer": "站在树下仰望",
+        "explanation": "实地观察应在保证安全和不伤害植物的前提下进行。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的特征",
+        "question": "大多数植物的叶子是什么颜色的？",
+        "options": [
+          "红色",
+          "蓝色",
+          "绿色",
+          "紫色"
+        ],
+        "answer": "绿色",
+        "explanation": "大多数植物的叶片含有叶绿素，呈现绿色。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "科学记录工具",
+        "question": "去校园观察植物，下列哪样物品通常不需要带？",
+        "options": [
+          "记录本",
+          "铅笔",
+          "放大镜",
+          "餐具"
+        ],
+        "answer": "餐具",
+        "explanation": "科学考察需要记录和观察工具，餐具与观察实验无关。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的组成部分",
+        "question": "植物的哪个部分长在土里并吸收水分？",
+        "options": [
+          "花",
+          "根",
+          "叶",
+          "果实"
+        ],
+        "answer": "根",
+        "explanation": "根负责固定植物体并吸收土壤中的水分和养分。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物与人类关系",
+        "question": "修建木头房子主要用到了植物的哪个部位？",
+        "options": [
+          "叶",
+          "茎（干）",
+          "根",
+          "花"
+        ],
+        "answer": "茎（干）",
+        "explanation": "树木的茎干提供木材，用于建筑。 "
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物多样性",
+        "question": "关于校园里的植物，下列说法正确的是？",
+        "options": [
+          "都是一样的",
+          "种类很多",
+          "不会枯萎",
+          "不需要阳光"
+        ],
+        "answer": "种类很多",
+        "explanation": "校园内分布着乔木、灌木、草本等多种植物。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "科学观察技巧",
+        "question": "闻植物的气味时，科学的方法是？",
+        "options": [
+          "鼻子贴上去猛吸",
+          "用手扇动气味",
+          "直接把叶子揉碎",
+          "用嘴巴尝尝"
+        ],
+        "answer": "用手扇动气味",
+        "explanation": "扇闻法是保护感官并安全感知气味的科学方法。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物分类",
+        "question": "下列哪种植物生长在水里？",
+        "options": [
+          "向日葵",
+          "凤仙花",
+          "睡莲",
+          "松树"
+        ],
+        "answer": "睡莲",
+        "explanation": "睡莲属于水生植物。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物与季节",
+        "question": "柳树在什么时候开始发芽？",
+        "options": [
+          "春季",
+          "夏季",
+          "秋季",
+          "冬季"
+        ],
+        "answer": "春季",
+        "explanation": "春季气温回升，植物进入萌芽生长期。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的价值",
+        "question": "棉花的主要用途是？",
+        "options": [
+          "做文具",
+          "做衣服",
+          "做工具",
+          "做玩具"
+        ],
+        "answer": "做衣服",
+        "explanation": "棉花是纺织工业的重要原材料。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "植物的器官",
+        "question": "我们吃的苹果是植物的？",
+        "options": [
+          "根",
+          "茎",
+          "叶",
+          "果实"
+        ],
+        "answer": "果实",
+        "explanation": "苹果是植物通过受粉发育形成的果实。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物生存需求",
+        "question": "长期放在没有窗户且完全黑暗的黑屋子里的盆栽会？",
+        "options": [
+          "长得更快",
+          "变红",
+          "变黄并死亡",
+          "没有变化"
+        ],
+        "answer": "变黄并死亡",
+        "explanation": "植物缺少阳光无法制造养料，会导致死亡。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "校园植物调查",
+        "question": "我们在校园里观察了（___）个不同地点的植物。",
+        "options": [],
+        "answer": "1",
+        "explanation": "由于一年级实操性强，通常以一个具体区域（如花坛）为起点进行深度调查。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物的生长阶段",
+        "question": "一棵完整的向日葵一生会经历（___）个主要阶段（种子、幼苗、开花、结果）。",
+        "options": [],
+        "answer": "4",
+        "explanation": "向日葵的生命周期主要包括这四个核心阶段。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的器官",
+        "question": "植物进行光合作用获取能量的主要器官是（___）。",
+        "options": [],
+        "answer": "叶",
+        "explanation": "叶片是植物呼吸和制造养分的场所。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物的药用价值",
+        "question": "屠呦呦从（___）这种植物中提取出青蒿素用于治疗疟疾。",
+        "options": [],
+        "answer": "青蒿",
+        "explanation": "这是植物在医疗科技领域的应用案例。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察态度",
+        "question": "我们在观察植物时，要做到不伤害（___）。",
+        "options": [],
+        "answer": "生命",
+        "explanation": "科学观察的基础是尊重和爱护每一个生命。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "一年级科学上学期期中质量调研",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植物分类",
+        "question": "大树和小草都属于植物。",
+        "options": [],
+        "answer": "对",
+        "explanation": "木本和草本都属于植物家族。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "科学伦理",
+        "question": "为了观察方便，可以把树皮剥开看。",
+        "options": [],
+        "answer": "错",
+        "explanation": "破坏树皮会影响植物生长甚至导致死亡。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "植物特征",
+        "question": "所有的植物都会经历生长、死亡的过程。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是生物共同的生命活动特征。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "观察方法",
+        "question": "我们可以用尺子来测量叶子的长度。",
+        "options": [],
+        "answer": "对",
+        "explanation": "测量是科学观察中的定量分析方法。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "科学差异",
+        "question": "同一棵树上摘下的叶子完全长得一样。",
+        "options": [],
+        "answer": "错",
+        "explanation": "同种植物的个体、同一主体的不同部分都存在差异性。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物器官",
+        "question": "大多数植物开花后会结出？",
+        "options": [
+          "叶子",
+          "根",
+          "果实",
+          "泥土"
+        ],
+        "answer": "果实",
+        "explanation": "这是植物生长发育的自然顺序。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察记录",
+        "question": "科学记录植物最好的方式是？",
+        "options": [
+          "只用嘴巴说",
+          "画出真实的特征",
+          "凭想象画漂亮",
+          "回家后再写"
+        ],
+        "answer": "画出真实的特征",
+        "explanation": "现场记录并基于事实描述是科学素养的要求。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物生活环境",
+        "question": "仙人掌适合生活在什么样的环境中？",
+        "options": [
+          "水里",
+          "阴冷潮湿处",
+          "干旱少雨处",
+          "冰川上"
+        ],
+        "answer": "干旱少雨处",
+        "explanation": "植物的形态结构与其生存环境相适应。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物的多样性",
+        "question": "观察叶子时，哪种方法是不正确的？",
+        "options": [
+          "看颜色",
+          "测大小",
+          "摸软硬",
+          "直接吃"
+        ],
+        "answer": "直接吃",
+        "explanation": "野外观察严禁轻易品尝，以防中毒。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物与人",
+        "question": "纸的主要制作原材料来自于？",
+        "options": [
+          "植物",
+          "石头",
+          "塑料",
+          "金属"
+        ],
+        "answer": "植物",
+        "explanation": "纸张主要由植物纤维制造。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物结构",
+        "question": "大树的“身上”最坚硬的部分通常是？",
+        "options": [
+          "花瓣",
+          "叶子",
+          "树干",
+          "种子"
+        ],
+        "answer": "树干",
+        "explanation": "树干具有木质部，支撑着整棵树的身躯。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "实验分析",
+        "question": "盆栽里的土干了，叶子都垂下来了，这时候应该？",
+        "options": [
+          "搬到太阳下晒",
+          "给它浇点水",
+          "把叶子剪掉",
+          "给它唱歌"
+        ],
+        "answer": "给它浇点水",
+        "explanation": "水分不足导致植物凋萎，应及时补水。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "校园观察",
+        "question": "在校园里观察植物，发现一种不认识的植物，应该？",
+        "options": [
+          "记下地点和样子",
+          "挖出来带走",
+          "不管它",
+          "给它取个明星的名字"
+        ],
+        "answer": "记下地点和样子",
+        "explanation": "不认识的植物应通过科学记录后再查阅资料识别。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物功能",
+        "question": "草坪上的草能起到什么作用？",
+        "options": [
+          "让地面变滑",
+          "美化环境和固定土壤",
+          "浪费水分",
+          "让人跌倒"
+        ],
+        "answer": "美化环境和固定土壤",
+        "explanation": "植物在生态环境中具有重要的保护作用。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "季节特征",
+        "question": "枫叶在秋天通常会变成什么颜色？",
+        "options": [
+          "浅蓝色",
+          "鲜紫色",
+          "红色或黄色",
+          "纯黑色"
+        ],
+        "answer": "红色或黄色",
+        "explanation": "气温降低使枫叶内的色素发生变化。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物多样性",
+        "question": "下列哪种植物是高大的木本植物？",
+        "options": [
+          "苔藓",
+          "小草",
+          "樟树",
+          "三叶草"
+        ],
+        "answer": "樟树",
+        "explanation": "樟树属于高大的乔木。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物器官",
+        "question": "植物的哪个部分通常最漂亮，能吸引昆虫？",
+        "options": [
+          "根",
+          "茎",
+          "叶",
+          "花"
+        ],
+        "answer": "花",
+        "explanation": "花朵通过颜色和香气吸引昆虫进行传粉。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "生存需求",
+        "question": "给植物浇水，最好浇在？",
+        "options": [
+          "叶片上",
+          "花朵上",
+          "根部的泥土里",
+          "树枝上"
+        ],
+        "answer": "根部的泥土里",
+        "explanation": "根是吸收水分的主要器官。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生活经验",
+        "question": "大多数花朵包含（___）个基本部分（花萼、花瓣、雄蕊、雌蕊）。",
+        "options": [],
+        "answer": "4",
+        "explanation": "完全花由四个部分组成。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "周期统计",
+        "question": "一年有（___）个季节，植物在每个季节都有不同的变化。",
+        "options": [],
+        "answer": "4",
+        "explanation": "春夏秋冬四季轮回影响植物的节律。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物特征",
+        "question": "像大树一样茎很硬的植物叫（___）植物。",
+        "options": [],
+        "answer": "木本",
+        "explanation": "根据茎的质地，植物可分为木本和草本。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物来源",
+        "question": "我们通常是在（___）里种植蔬菜。",
+        "options": [],
+        "answer": "土壤",
+        "explanation": "土壤为陆生植物提供养分和固定空间。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "科学职业",
+        "question": "专门研究植物的人被称为（___）学家。",
+        "options": [],
+        "answer": "植物",
+        "explanation": "了解职业分工有助于建立职业兴趣。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "校园植物调查",
+      "core_concept": "实地观察法",
+      "key_formula": "观察 = 看 + 闻 + 摸 + 测量记录",
+      "common_mistakes": [
+        "采摘花草回去观察",
+        "只记录植物而忽略环境"
+      ],
+      "tips": "观察时要从远到近，从整体到局部。"
+    },
+    {
+      "point": "植物的共同点",
+      "core_concept": "生命体特征",
+      "key_formula": "植物 = 根 + 茎 + 叶 + 花 + 果实 + 种子",
+      "common_mistakes": [
+        "认为塑料花也是植物",
+        "认为植物不需要吃东西"
+      ],
+      "tips": "植物需要阳光、水分和空气来维持生命。"
+    },
+    {
+      "point": "植物与人类关系",
+      "core_concept": "资源利用与保护",
+      "key_formula": "人类生活 = 吃植物 + 住植物 + 穿植物 + 用植物",
+      "common_mistakes": [
+        "认为野外的植物都没有用处",
+        "混淆植物的部位（如分不清根和茎）"
+      ],
+      "tips": "很多药材也来源于植物，比如青蒿。"
+    }
+  ]
+}

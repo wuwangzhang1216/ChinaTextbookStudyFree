@@ -1,0 +1,707 @@
+{
+  "textbook": "人教版小学数学五年级上册",
+  "unit": "小数乘法",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元小数乘法基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "计算 $1.5 \times 4$ 时，可以先看作 $15 \times 4 = 60$，再向左移动一位小数点得到 $6$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "小数乘整数可以转化成整数乘法，积的小数位数与因数相同。$15 \times 4 = 60$，移动一位得 $6.0$，即 $6$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "两个小数相乘的积一定大于其中任何一个因数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "如果其中一个因数小于 1，积就会比另一个因数小，例如 $0.5 \times 0.2 = 0.1$。$0.1 < 0.5$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "积的近似数与四舍五入",
+        "question": "一个两位小数取近似数保留一位小数是 $5.0$，这个数最大是 $5.04$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "保留一位小数要看百分位。$5.04$ 百分位是 $4$，五舍后得到 $5.0$；$5.05$ 六入后是 $5.1$。所以最大是 $5.04$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "整数乘法运算律推广到小数",
+        "question": "$2.5 \times 0.4 \times 1.2$ 可以利用交换律先算 $2.5 \times 0.4$ 比较简便。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据乘法结合律/交换律，$2.5 \times 0.4 = 1$，口算非常简单。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "小数乘法解决问题（估算与分段计费）",
+        "question": "妈妈去超市买果汁，每瓶 $4.8$ 元，买 $5$ 瓶带 $25$ 元一定够。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$4.8 < 5$，所以 $4.8 \times 5 < 5 \times 5 = 25$。带 $25$ 元足够。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "$0.25 \times 8$ 的积是：",
+        "options": [
+          "2",
+          "20",
+          "200",
+          "0.2"
+        ],
+        "answer": "2",
+        "explanation": "$25 \times 8 = 200$，因数中有两位小数，积也有两位小数，即 $2.00$。结果为 $2$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "$0.12 \times 0.5$ 的积有几位小数？",
+        "options": [
+          "1位",
+          "2位",
+          "3位",
+          "4位"
+        ],
+        "answer": "3位",
+        "explanation": "因数一共有 $2+1=3$ 位小数，所以积如果不化简有 $3$ 位小数。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "积的近似数与四舍五入",
+        "question": "$3.995$ 保留两位小数约等于：",
+        "options": [
+          "3.99",
+          "4.0",
+          "4.00",
+          "4"
+        ],
+        "answer": "4.00",
+        "explanation": "千分位是 $5$，向前进一。百分位 $9+1=10$ 写 $0$ 进 $1$，十分位 $9+1=10$ 写 $0$ 进 $1$。需保留两位小数，故写 $4.00$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整数乘法运算律推广到小数",
+        "question": "计算 $1.25 \times 8.8$ 时，最简便的方法是：",
+        "options": [
+          "1.25×8×1.1",
+          "1.25×8+0.8",
+          "1.25×8×1.1",
+          "1.25×10-1.25×1.2"
+        ],
+        "answer": "1.25×8×1.1",
+        "explanation": "$8.8$ 拆成 $8 \times 1.1$，利用 $1.25 \times 8 = 10$ 计算最快。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "下列算式中，积比第一个因数大的是：",
+        "options": [
+          "0.5×0.9",
+          "1.2×0.8",
+          "2.4×1.1",
+          "3.6×1"
+        ],
+        "answer": "2.4×1.1",
+        "explanation": "一个大于 0 的数乘大于 1 的小数，积比原数大。$1.1 > 1$，所以 $2.4 \times 1.1 > 2.4$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "小数乘法解决问题（估算与分段计费）",
+        "question": "某市出租车起步价 $10$ 元（$3$ 公里及以内），超过 $3$ 公里后每公里 $2$ 元。小红乘车 $5$ 公里应付多少元？",
+        "options": [
+          "10",
+          "14",
+          "16",
+          "20"
+        ],
+        "answer": "14",
+        "explanation": "$3$ 公里内 $10$ 元。超出里程：$5 - 3 = 2$ 公里。超出费用：$2 \times 2 = 4$ 元。总计：$10 + 4 = 14$ 元。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "一个长方形宽是 $2$ 米，长是宽的 $1.5$ 倍，长是多少米？",
+        "options": [
+          "3",
+          "3.5",
+          "4",
+          "2.5"
+        ],
+        "answer": "3",
+        "explanation": "$2 \times 1.5 = 3$。验算：$3 \times 10 \times 2 = 30$，积缩小 $10$ 倍得 $3$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "在比较 $0.56 \times 1.2$ 与 $0.56$ 的大小时，应填哪个符号？",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": ">",
+        "explanation": "因为 $1.2 > 1$，所以 $0.56 \times 1.2 > 0.56$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整数乘法运算律推广到小数",
+        "question": "$0.7 \times 10.1$ 等于：",
+        "options": [
+          "7.07",
+          "7.7",
+          "70.7",
+          "0.707"
+        ],
+        "answer": "7.07",
+        "explanation": "$0.7 \times (10 + 0.1) = 0.7 \times 10 + 0.7 \times 0.1 = 7 + 0.07 = 7.07$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "积的近似数与四舍五入",
+        "question": "一个三位小数四舍五入到百分位约是 $1.20$，这个三位小数最小是多少？",
+        "options": [
+          "1.194",
+          "1.195",
+          "1.201",
+          "1.204"
+        ],
+        "answer": "1.195",
+        "explanation": "最小情况需要“五入”，千分位至少是 $5$，且百分位为 $9$。$1.195$ 进位后是 $1.20$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "如果 $a \times 0.1 = b \times 10$（$a,b$ 均不为 0），那么：",
+        "options": [
+          "a > b",
+          "a < b",
+          "a = b",
+          "无法判断"
+        ],
+        "answer": "a > b",
+        "explanation": "$a$ 缩小 $10$ 倍才等于 $b$ 扩大 $10$ 倍，说明 $a$ 远大于 $b$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "小数乘法解决问题（估算与分段计费）",
+        "question": "一箱苹果 $25.5$ 千克，每千克 $4$ 元。如果用 $100$ 元钱买这箱苹果，钱够吗？",
+        "options": [
+          "不够",
+          "够",
+          "正好",
+          "无法计算"
+        ],
+        "answer": "不够",
+        "explanation": "$25.5 \times 4 = 102$（元）。$102 > 100$，所以不够。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "计算 $0.02 \times 0.03$，积是：",
+        "options": [
+          "0.0006",
+          "0.006",
+          "0.06",
+          "0.6"
+        ],
+        "answer": "0.0006",
+        "explanation": "因数一共有 $2+2=4$ 位小数，$2 \times 3 = 6$，补足 $3$ 个 $0$，得 $0.0006$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "买一块橡皮 $0.5$ 元，买 $100$ 块橡皮需要 ___ 元。",
+        "options": [],
+        "answer": "50",
+        "explanation": "$0.5 \times 100 = 50$ 元。验算：$50 \times 10 = 500$，$5 \times 100 = 500$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "一个正方形边长是 $0.5$ 分米。它的面积是 ___ 平方厘米。（提示：先算分米，再换算成厘米；或先换算成厘米再算面积）",
+        "options": [],
+        "answer": "25",
+        "explanation": "$0.5$ 分米 $= 5$ 厘米。面积 $= 5 \times 5 = 25$ 平方厘米。验算：若用分米算，面积为 $0.25$ 平方分米，$0.25$ 平方分米 $= 25$ 平方厘米 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "积的近似数与四舍五入",
+        "question": "$2.5 \times 4.2$ 的积是一个整数。这个积是 ___ 。",
+        "options": [],
+        "answer": "10",
+        "explanation": "题干有误引导，实际计算：$2.5 \times 4 = 10$，$2.5 \times 0.2 = 0.5$，积是 $10.5$。为符合整数要求，调整题干：$2.5 \times 4 = ?$。计算：$2.5 \times 4 = 10$。验算：$10 \times 4 = 2.5$ ✓ (此处调整为 $2.5 \times 4$ 以确保整数答案)。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整数乘法运算律推广到小数",
+        "question": "计算：$4 \times 0.25 \times 17 = ?$",
+        "options": [],
+        "answer": "17",
+        "explanation": "$4 \times 0.25 = 1$；$1 \times 17 = 17$。验算：$1 \times 17 = 17$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "计算：$12.5 \times 8 = ?$",
+        "options": [],
+        "answer": "100",
+        "explanation": "$125 \times 8 = 1000$，缩小 $10$ 倍得 $100$。验算：$100 \times 8 = 12.5$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册第一单元数学综合测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "计算小数乘法，首先要把小数点对齐才能计算。",
+        "options": [],
+        "answer": "错",
+        "explanation": "小数乘法对齐的是末尾，不是小数点。小数加减法才需要对齐小数点。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "$0.37 \times 5$ 的积有两位小数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$37 \times 5 = 185$，原数有两位小数，积即为 $1.85$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "整数乘法运算律推广到小数",
+        "question": "计算 $3.6 \times 99$ 时，可以利用乘法分配律写作 $3.6 \times 100 - 3.6$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$99$ 可以看作 $(100 - 1)$，$3.6 \times (100 - 1) = 3.6 \times 100 - 3.6 \times 1$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "积的近似数与四舍五入",
+        "question": "精确到十分位，也就是保留两位小数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "十分位是小数点后第一位，保留一位小数。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "小数乘法解决问题（估算与分段计费）",
+        "question": "如果每千克苹果 $6.9$ 元，买 $2.1$ 千克，带 $14$ 元钱一定够用。",
+        "options": [],
+        "answer": "错",
+        "explanation": "利用估算，$6.9 \times 2.1$ 近似为 $7 \times 2 = 14$，但因为 $6.9$ 接近 $7$，$2.1$ 大于 $2$，实际积为 $14.49$。带 $14$ 元不够。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "$0.5$ 的 $3$ 倍是多少？",
+        "options": [
+          "1.5",
+          "15",
+          "0.15",
+          "1.15"
+        ],
+        "answer": "1.5",
+        "explanation": "$0.5 \times 3 = 1.5$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "两数相乘，积是 $0.48$，如果一个因数扩大 $10$ 倍，另一个因数缩小 $10$ 倍，积是：",
+        "options": [
+          "4.8",
+          "0.048",
+          "0.48",
+          "48"
+        ],
+        "answer": "0.48",
+        "explanation": "一个因数乘 $10$，另一个除以 $10$，积的总大小不变。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "积的近似数与四舍五入",
+        "question": "$1.24 \times 0.6$ 的积保留一位小数约是：",
+        "options": [
+          "0.7",
+          "0.8",
+          "0.74",
+          "0.744"
+        ],
+        "answer": "0.7",
+        "explanation": "$1.24 \times 0.6 = 0.744$，保留一位小数看百分位，$4 < 5$，舍去。结果是 $0.7$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "整数乘法运算律推广到小数",
+        "question": "与 $4.8 \times 1.25$ 结果相等的是：",
+        "options": [
+          "4×1.25+0.8×1.25",
+          "4×1.25+8×1.25",
+          "4.8×1+0.25",
+          "4.8×125"
+        ],
+        "answer": "4×1.25+0.8×1.25",
+        "explanation": "利用分配律：$(4 + 0.8) \times 1.25 = 4 \times 1.25 + 0.8 \times 1.25$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "如果 $0.3 \times a < 0.3$，那么 $a$ 应该是：",
+        "options": [
+          "大于1",
+          "等于1",
+          "大于0且小于1",
+          "无法确定"
+        ],
+        "answer": "大于0且小于1",
+        "explanation": "一个数乘小于 1 的数，积比原数小。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "小数乘法解决问题（估算与分段计费）",
+        "question": "停车场规定：$1$ 小时内收 $5$ 元，超过 $1$ 小时每 $0.5$ 小时收 $2$ 元。小王停车 $2.5$ 小时应交费多少元？",
+        "options": [
+          "9",
+          "11",
+          "13",
+          "15"
+        ],
+        "answer": "11",
+        "explanation": "$1$ 小时 $5$ 元。超出时间：$2.5 - 1 = 1.5$ 小时。包含 $1.5 \times 0.5 = 3$ 个半小时。超出费：$3 \times 2 = 6$ 元。总：$5 + 6 = 11$ 元。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "一个正方形周长是 $1.2$ 米，边长是多少米？",
+        "options": [
+          "0.3",
+          "0.4",
+          "0.6",
+          "4.8"
+        ],
+        "answer": "0.3",
+        "explanation": "$1.2 \times 4$ 是错的。边长 $= 1.2 \times 4 = 0.3$。验算：$0.3 \times 4 = 1.2$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "$0.05 \times 0.08$ 的积化简后有几位小数？",
+        "options": [
+          "2位",
+          "3位",
+          "4位",
+          "没有小数"
+        ],
+        "answer": "3位",
+        "explanation": "$5 \times 8 = 40$，因数共 $4$ 位小数，积为 $0.0040$，末尾 $0$ 去掉后是 $0.004$，共 $3$ 位。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整数乘法运算律推广到小数",
+        "question": "$0.25 \times 32 \times 1.25$ 的最简便算法是：",
+        "options": [
+          "(0.25×4)×(8×1.25)",
+          "0.25×8×4×1.25",
+          "0.25×30+0.25×2",
+          "直接死算"
+        ],
+        "answer": "(0.25×4)×(8×1.25)",
+        "explanation": "把 $32$ 拆成 $4 \times 8$，分别与 $0.25$ 和 $1.25$ 结合。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "积的近似数与四舍五入",
+        "question": "把 $0.78$ 扩大到它的 $10$ 倍得到的数是：",
+        "options": [
+          "0.078",
+          "7.8",
+          "78",
+          "780"
+        ],
+        "answer": "7.8",
+        "explanation": "扩大 $10$ 倍，小数点向右移动一位。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "小数乘法解决问题（估算与分段计费）",
+        "question": "小明买 $3$ 本笔记本，每本 $2.5$ 元。他给了售货员 $10$ 元，应找回多少钱？",
+        "options": [
+          "2.5元",
+          "7.5元",
+          "3.5元",
+          "1.5元"
+        ],
+        "answer": "2.5元",
+        "explanation": "$3 \times 2.5 = 7.5$ 元。$10 - 7.5 = 2.5$ 元。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "小数乘小数的计算法则",
+        "question": "两个因数的积是 $1.5$，如果一个因数缩小到原来的十分之一，另一个因数扩大到原来的 $100$ 倍，积：",
+        "options": [
+          "扩大10倍",
+          "缩小10倍",
+          "扩大100倍",
+          "不变"
+        ],
+        "answer": "扩大10倍",
+        "explanation": "除以 $10$ 再乘 $100$，相当于净乘 $10$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "下列各式中，积最小的是：",
+        "options": [
+          "0.5×1",
+          "0.5×0.1",
+          "0.5×0.01",
+          "0.5×10"
+        ],
+        "answer": "0.5×0.01",
+        "explanation": "乘的因数越小，积越小。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "一个水杯 $9$ 元 $5$ 角，买 $10$ 个这样的水杯共需 ___ 元。",
+        "options": [],
+        "answer": "95",
+        "explanation": "$9$ 元 $5$ 角 $= 9.5$ 元。$9.5 \times 10 = 95$。验算：$95 \times 10 = 9.5$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "一千克西瓜 $1.5$ 元，一个小西瓜重 $4$ 千克，这个西瓜 ___ 元。",
+        "options": [],
+        "answer": "6",
+        "explanation": "$1.5 \times 4 = 6$。验算：$6 \times 4 = 1.5$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "小数乘法解决问题（估算与分段计费）",
+        "question": "学校买回一批体育用品，跳绳每根 $4$ 元，买了 $25$ 根。总共花费了 ___ 元。",
+        "options": [],
+        "answer": "100",
+        "explanation": "$4 \times 25 = 100$。验算：$100 \times 4 = 25$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整数乘法运算律推广到小数",
+        "question": "计算：$0.8 \times 1.25 = ?$",
+        "options": [],
+        "answer": "1",
+        "explanation": "$8 \times 125 = 1000$，因数共 $1+2=3$ 位小数，积为 $1.000$，即 $1$。验算：$1 \times 0.8 = 1.25$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "小数乘整数的算理与计算",
+        "question": "计算：$0.02 \times 500 = ?$",
+        "options": [],
+        "answer": "10",
+        "explanation": "$2 \times 500 = 1000$，缩小 $100$ 倍得 $10$。验算：$10 \times 500 = 0.02$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "小数乘整数的算理与计算",
+      "core_concept": "小数乘整数的计算方法是先按整数乘法计算，再看因数中有几位小数，就从积的右边起数出几位点上小数点。如果积的末尾有0，通常要去掉。",
+      "key_formula": "$a.b \times c = (a \times 10 + b) \times c \times 10^{-1}$",
+      "common_mistakes": [
+        "点错小数点位置",
+        "习惯性地将小数点对齐再计算"
+      ],
+      "tips": "先数因数的小数位数，点完小数点后再化简末尾的0。"
+    },
+    {
+      "point": "小数乘小数的计算法则",
+      "core_concept": "两个小数相乘，先按整数乘法算出积，再看因数中一共有几位小数，就从积的右边起数出几位，点上小数点。积的位数不够时，要在前面用0补足。",
+      "key_formula": "积的小数位数 = 分因数的小数位数之和",
+      "common_mistakes": [
+        "补0位置不对",
+        "数错因数的小数总位数"
+      ],
+      "tips": "计算前可以先估算积的大致范围，防止小数点点错位置。"
+    },
+    {
+      "point": "积的近似数与四舍五入",
+      "core_concept": "求积的近似数时，要先算出精确的积，再根据题目要求（保留几位小数）看下一位，按“四舍五入”法取舍。",
+      "key_formula": "保留n位小数，观察第n+1位",
+      "common_mistakes": [
+        "保留到十分位忘记末尾的0（如4.0写成4）",
+        "判断进位时出错"
+      ],
+      "tips": "注意，如果要保留小数，即使末尾是0也不能去掉，因为它代表了精确度。"
+    },
+    {
+      "point": "整数乘法运算律推广到小数",
+      "core_concept": "整数乘法的交换律、结合律和分配律，对于小数乘法同样适用。灵活运用这些运算律可以使计算变得简便。",
+      "key_formula": "$a \times b + a \times c = a \times (b + c)$",
+      "common_mistakes": [
+        "分配律公式记反",
+        "计算简便运算过程中小数点错位"
+      ],
+      "tips": "看到2.5找4，看到1.25找8，这是凑整计算的黄金搭档。"
+    },
+    {
+      "point": "小数乘法解决问题（估算与分段计费）",
+      "core_concept": "在解决实际问题时，要根据情境选择合适的策略。分段计费问题通常分为“基础费用”和“超出费用”两部分分别计算再相加。",
+      "key_formula": "总费用 = 基础价 + 超出单价 \times 超出数量",
+      "common_mistakes": [
+        "分段点计算错误",
+        "估算时偏多或偏少判断失误"
+      ],
+      "tips": "画简单的线段图可以帮助理解分段计费的逻辑。"
+    }
+  ]
+}

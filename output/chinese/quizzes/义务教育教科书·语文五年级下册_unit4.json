@@ -1,0 +1,720 @@
+{
+  "textbook": "统编版小学语文五年级下册",
+  "unit": "第四单元：家国情怀",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元 基础达标测试",
+    "total_score": 95,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "读音掌握",
+        "question": "“从容”的“从”字在这里读第二声：cóng。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“从”在“从容”中读 cóng，表示不慌不忙。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字形辨析",
+        "question": "“绷带”的“绷”字左边是一个“纟”旁。",
+        "options": [],
+        "answer": "对",
+        "explanation": "绷带是丝织品，所以是绞丝旁。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "课文理解",
+        "question": "《青山处处埋忠骨》中，毛主席忍痛决定将毛岸英烈士葬在朝鲜。",
+        "options": [],
+        "answer": "对",
+        "explanation": "毛主席为了中朝友谊，克制了个人情感，决定将儿子安葬在朝鲜。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "爱国诗词",
+        "question": "《闻官军收河南河北》是一首豪放派的爱国边塞诗。",
+        "options": [],
+        "answer": "错",
+        "explanation": "该诗属于律诗，被称为杜甫生平“第一快诗”，主要表达听到失地收复后的喜悦。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "细节刻画",
+        "question": "在《军神》一课中，沃克医生称刘伯承为“军神”是因为他武艺高强。",
+        "options": [],
+        "answer": "错",
+        "explanation": "被称为军神是因为他具有钢铁般的意志，在不打麻药的情况下进行手术。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词辨析",
+        "question": "沃克医生（    ）地问刘伯承：“你是一名军人吗？”",
+        "options": [
+          "冷暖",
+          "冷幽默",
+          "冷峻",
+          "冷清"
+        ],
+        "answer": "冷峻",
+        "explanation": "根据上下文语境，表现医生严肃冷酷的神情用“冷峻”最恰当。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞手法",
+        "question": "“三十一刀，三十二刀……他居然忍受了七十二刀。”这句话运用了哪种写法？",
+        "options": [
+          "侧面描写",
+          "神态描写",
+          "动作描写",
+          "数字描写"
+        ],
+        "answer": "数字描写",
+        "explanation": "通过具体的数字记录手术刀数，极力衬托出刘伯承忍受痛苦的惊人意志。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字义解析",
+        "question": "《秋夜将晓出篱门迎凉有感》中“三万里河东入海”里的“河”是指：",
+        "options": [
+          "黄河",
+          "淮河",
+          "长江",
+          "洛河"
+        ],
+        "answer": "黄河",
+        "explanation": "古诗中的“河”在没加特定前缀时多指黄河。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物刻画",
+        "question": "“两手紧紧抓住身下的白床单”这一动作描写体现了：",
+        "options": [
+          "伤口不疼",
+          "极度的痛苦和坚强的自制力",
+          "他很害怕",
+          "床单很滑"
+        ],
+        "answer": "极度的痛苦和坚强的自制力",
+        "explanation": "通过抓床单的细节表现人物忍受剧烈疼痛的心理状态。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "背景理解",
+        "question": "《从军行》作者是唐代的王昌龄，这首诗主要描写了：",
+        "options": [
+          "宫廷生活",
+          "田园风光",
+          "边塞战争情景",
+          "送别朋友"
+        ],
+        "answer": "边塞战争情景",
+        "explanation": "从“黄沙百战穿金甲”可知是描写边塞战争。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "诗词意境",
+        "question": "“黄沙百战穿金甲，不破楼兰终不还。”中“破”的意思是：",
+        "options": [
+          "搞坏",
+          "攻下",
+          "烂掉",
+          "揭穿"
+        ],
+        "answer": "攻下",
+        "explanation": "在这里指攻克敌人的地盘。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文学常识",
+        "question": "下列哪位诗人被后人称为“诗圣”？",
+        "options": [
+          "李白",
+          "王维",
+          "杜甫",
+          "王昌龄"
+        ],
+        "answer": "杜甫",
+        "explanation": "杜甫忧国忧民，被称为“诗圣”。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "内容探究",
+        "question": "“遗民泪尽胡尘里，南望王师又一年。”中“王师”是指：",
+        "options": [
+          "国王的厨师",
+          "宋朝的军队",
+          "老师的名字",
+          "胡人的军队"
+        ],
+        "answer": "宋朝的军队",
+        "explanation": "王师在古代诗歌中通常指朝廷的军队。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情感理解",
+        "question": "“却看妻子愁何在，漫卷诗书喜欲狂。”这句诗的神态和动作表现了杜甫：",
+        "options": [
+          "疯掉了",
+          "不爱护书籍",
+          "听到失地收复后极度的喜悦",
+          "对妻子的不满"
+        ],
+        "answer": "听到失地收复后极度的喜悦",
+        "explanation": "因为战乱结束，诗人欣喜若狂，这是爱国之情的体现。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描写方式",
+        "question": "“主席仰起头往前走去。”这个动作描写表现了毛主席：",
+        "options": [
+          "很有精神",
+          "傲慢无礼",
+          "努力掩饰失去亲人的悲痛及坚毅",
+          "看天空的浮云"
+        ],
+        "answer": "努力掩饰失去亲人的悲痛及坚毅",
+        "explanation": "仰头是为了不让泪水流出，体现了作为领袖的刚强。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字书写",
+        "question": "“摩天”的“摩”字笔画多，它的部首是（___）。",
+        "options": [],
+        "answer": "手",
+        "explanation": "摩字的下半部分是“手”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗常识",
+        "question": "“闻官军收河南河北”中的“闻”字是（___）的意思。",
+        "options": [],
+        "answer": "听到",
+        "explanation": "闻在古文中常指听见。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "成语归纳",
+        "question": "用来形容人意志力极强，像刘伯承那样的人可以称为（___）。",
+        "options": [],
+        "answer": "军神",
+        "explanation": "课文题目直接点出了这个称呼。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "诗人与作品匹配",
+        "question": "请将下列诗人与其笔下的经典诗句正确连线：",
+        "options": [
+          "杜甫",
+          "王昌龄",
+          "陆游",
+          "范成大",
+          "青春作伴好还乡",
+          "不破楼兰终不还",
+          "南望王师又一年",
+          "童孙未解供耕织"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "杜甫写闻官军收河南河北，王昌龄从军行，陆游秋夜将晓，范成大四时田园杂兴。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语意思匹配",
+        "question": "请将下列词语与它们在文中的意思正确连线：",
+        "options": [
+          "从容",
+          "堪称",
+          "狂喜",
+          "悲痛",
+          "可以称作",
+          "极度高兴",
+          "不慌不忙",
+          "非常伤心"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "从容对应不慌不忙，堪称对应可以称作，狂喜对应极度高兴，悲痛对应伤心。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物与品质匹配",
+        "question": "请将下列人物与表现出的品质正确连线：",
+        "options": [
+          "刘伯承",
+          "毛主席",
+          "方志敏",
+          "沃克医生",
+          "意志如钢",
+          "顾全大局",
+          "清贫廉洁",
+          "医术高超"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "刘伯承意志如钢，毛主席克制私情顾全大局，方志敏清贫，沃克医生本行是医生。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语序排列",
+        "question": "请将下列短语组成一句赞美刘伯承的话：",
+        "options": [
+          "刘伯承",
+          "意志的",
+          "是一块",
+          "会说话的",
+          "钢板"
+        ],
+        "answer": "刘伯承,是一块,会说话的,意志的,钢板",
+        "explanation": "出自《军神》，形容刘伯承意志极其坚强。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第五年级下册第四单元 期末模拟卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常识判断",
+        "question": "“涕泪满衣裳”中的“涕”在古汉语中指鼻涕。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在古代汉语中，“涕”指眼泪。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字形判断",
+        "question": "“拟定”的“拟”字右半部分是“以”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "拟的结构是左边提手旁，右边以。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "体裁辨析",
+        "question": "《从军行》和《闻官军收河南河北》都是唐代诗人写的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "王昌龄和杜甫都是唐朝著名的诗人。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "逻辑理解",
+        "question": "《青山处处埋忠骨》的题目意在说明只有青山才适合埋葬烈士。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这句诗的意思是革命者壮志报国，死后不必一定要回到家乡，哪里都可以作为安息之地。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "手法判断",
+        "question": "描写人物心理时，只能通过“我想”这样的词直接写。",
+        "options": [],
+        "answer": "错",
+        "explanation": "还可以通过动作、神态描写间接反映人物内心。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词积累",
+        "question": "下列词语中，读音完全正确的一组是（    ）",
+        "options": [
+          "土匪（fěi) 恐吓（xià）",
+          "踌躇（zhú） 殉职（xùn）",
+          "忌讳（huì） 矜持（jīn）",
+          "眷恋（juàn） 威吓（hè）"
+        ],
+        "answer": "眷恋（juàn） 威吓（hè）",
+        "explanation": "恐吓的吓读hè，踌躇的躇读chú。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词",
+        "question": "面对敌人的搜查，方志敏显得非常（    ）。",
+        "options": [
+          "坦然",
+          "突然",
+          "必然",
+          "偶然"
+        ],
+        "answer": "坦然",
+        "explanation": "坦然形容心里平静，在这能体现方志敏的大无畏气概。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗理解",
+        "question": "“剑外忽传收蓟北”中的“蓟北”在现在的：",
+        "options": [
+          "河北北部",
+          "山东南部",
+          "四川盆地",
+          "云南省"
+        ],
+        "answer": "河北北部",
+        "explanation": "根据历史地理，蓟北指唐代幽州附近，即今河北北部。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描写方法辨析",
+        "question": "“他一个劲儿地抽着烟，烟灰缸里堆满了烟蒂。”这属于什么描写？",
+        "options": [
+          "神态描写",
+          "侧面描写",
+          "环境和动作描写",
+          "语言描写"
+        ],
+        "answer": "环境和动作描写",
+        "explanation": "“抽着烟”是动作，“烟灰缸里满是烟蒂”侧面烘托了焦虑的环境氛围。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "阅读理解",
+        "question": "《清贫》中，两个国民党兵通过搜方志敏的身，发现了他：",
+        "options": [
+          "有很多金条",
+          "只有一块表和一支钢笔",
+          "满兜的现大洋",
+          "一封密信"
+        ],
+        "answer": "只有一块表和一支钢笔",
+        "explanation": "课文描述方志敏连一个铜板都没有，只有极简的办公用品。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阅读理解",
+        "question": "毛主席在电报记录稿上签字时，由于痛苦，笔尖（    ）在那份记录稿上。",
+        "options": [
+          "轻轻滑过",
+          "停留了好久",
+          "断掉了",
+          "画了一个圈"
+        ],
+        "answer": "停留了好久",
+        "explanation": "细节描写，体现了毛主席内心的极度痛苦与最后的决断。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语释义",
+        "question": "“五千仞岳上摩天”中的“岳”是指：",
+        "options": [
+          "泰山",
+          "华山",
+          "嵩山",
+          "衡山"
+        ],
+        "answer": "华山",
+        "explanation": "在这首诗中，由于是描写西北沦陷区，岳指华山。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法",
+        "question": "“黄沙百战穿金甲”运用了哪种修辞方法？",
+        "options": [
+          "拟人",
+          "比喻",
+          "夸张",
+          "排比"
+        ],
+        "answer": "夸张",
+        "explanation": "“穿金甲”极言战斗时间长、磨损严重，是夸张手法。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中心思想",
+        "question": "本单元的主题是“家国情怀”，这类文章主要目标是：",
+        "options": [
+          "介绍风景名胜",
+          "告诉我们生活常识",
+          "通过描写英雄体会爱国情感",
+          "学习怎样交朋友"
+        ],
+        "answer": "通过描写英雄体会爱国情感",
+        "explanation": "第四单元三篇课文均通过细节表现了英雄们的爱国志向。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "神态描写",
+        "question": "手术台上，刘伯承的神态是（    ）的。",
+        "options": [
+          "慌张",
+          "平静",
+          "愤怒",
+          "喜悦"
+        ],
+        "answer": "平静",
+        "explanation": "刘伯承忍痛时神志清醒、神态平静，令沃克医生惊讶。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词识记",
+        "question": "“王师北定中原日”，“中原”在这里指（___）。",
+        "options": [],
+        "answer": "北方领土",
+        "explanation": "南宋时期指被金兵占领的北方广大地区。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "作家常识",
+        "question": "《示儿》中“示”的意思是（___）。",
+        "options": [],
+        "answer": "告诉",
+        "explanation": "意思是写信告诉儿子。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课文细节",
+        "question": "沃克医生称赞刘伯承为“块会说话的（___）”。",
+        "options": [],
+        "answer": "钢板",
+        "explanation": "课文中的原话，比喻意志坚定。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语搭配",
+        "question": "将描写动作的词语与对应的情绪连线：",
+        "options": [
+          "手舞足蹈",
+          "咬牙切齿",
+          "垂头丧气",
+          "目瞪口呆",
+          "非常高兴",
+          "非常愤怒",
+          "非常失望",
+          "非常惊讶"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "常见的动作词语对应的内心活动。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反义词匹配",
+        "question": "请将下列词语与它的反义词正确连线：",
+        "options": [
+          "从容",
+          "舍得",
+          "眷恋",
+          "拒绝",
+          "慌张",
+          "吝啬",
+          "嫌弃",
+          "接受"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "从容反义词是慌张，舍得反义词是吝啬，眷恋反义词是嫌弃，拒绝反义词是接受。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "诗句对应关系",
+        "question": "根据诗句描写的情境选择对应的季节：",
+        "options": [
+          "白日放歌须纵酒",
+          "小舍清风六月凉",
+          "停车坐爱枫林晚",
+          "千树万树梨花开",
+          "春季",
+          "夏季",
+          "秋季",
+          "冬季"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "白日放歌句意为暮春，六月为夏，枫林为秋，梨花（雪）为冬。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "心理描写练笔",
+        "question": "请将描写他“陶醉了”的词语排成一句话：",
+        "options": [
+          "他",
+          "微闭双眼",
+          "优美的",
+          "在",
+          "歌声中",
+          "陶醉了"
+        ],
+        "answer": "他,在,优美的,歌声中,微闭双眼,陶醉了",
+        "explanation": "通过神态描写表现陶醉的心理状态。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "句式训练",
+        "question": "将描写刘伯承忍痛的句子整理出来：",
+        "options": [
+          "病人",
+          "两手",
+          "白床单",
+          "紧紧地",
+          "抓住了",
+          "身下的"
+        ],
+        "answer": "病人,两手,紧紧地,抓住了,身下的,白床单",
+        "explanation": "考查对《军神》经典动作描写的掌握。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "爱国诗词意境鉴赏",
+      "core_concept": "学生需通过诵读体会诗人忧国忧民的情感。理解杜甫在听到失地收复时“喜欲狂”的欢快，陆游在临终前叮嘱儿子“北定中原”的遗憾，以及王昌龄戍边将士“不破楼兰终不还”的报国志。理解“河、岳、王师、遗民”等特定词汇在爱国诗中的象征意义。",
+      "key_formula": "背景感知+关键词理解+意境联想=情感共鸣",
+      "common_mistakes": [
+        "将“涕泪”理解成涕泗横流的贬义",
+        "分不清《示儿》和《秋夜将晓出篱门迎凉有感》的表达侧重点"
+      ],
+      "tips": "朗读时可以通过调整语速感受情感：杜子美之诗宜快读，陆务观之诗当沉郁读。"
+    },
+    {
+      "point": "抓动作神态体会内心",
+      "core_concept": "学习通过人物的细节描写（如刘伯承抓床单、毛主席签字时的笔尖停留、方志敏对敌人的冷嘲）来揣摩人物复杂的心理活动。这是一种间接描写手法，比直接说“他很痛苦/很冷静”更生动传神。",
+      "key_formula": "动作/神态描写 + 语境分析 = 内心活动/人物品质",
+      "common_mistakes": [
+        "只看到表面的动作描写，不能联系人物品质",
+        "将神态描写与动作描写混淆"
+      ],
+      "tips": "想象自己是文中的人物，模拟那个动作，去感受肌肉紧张背后的情绪。"
+    },
+    {
+      "point": "习作：描写人物的心理状态",
+      "core_concept": "学会多角度表现心理。除了用“想”来直接表达，重点学习通过刻画人物在特定情境下的神态变化（如脸红、发抖）、动作特征（如来回走动、紧攥拳头）或环境描写来侧面烘托内心的心理状态。",
+      "key_formula": "内心独白 + 动作细节 + 神态变化 = 生动的心理描写",
+      "common_mistakes": [
+        "流水账式记录过程，缺乏细腻的内心波动描写",
+        "全篇都是“我想...我想...”，表达方式单一"
+      ],
+      "tips": "练习“他陶醉了”这类题目时，可以写他眼睛的样子、身体的姿态以及周围环境的变化。"
+    }
+  ]
+}

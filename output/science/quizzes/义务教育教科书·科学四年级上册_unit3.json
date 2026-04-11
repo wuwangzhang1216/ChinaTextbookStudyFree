@@ -1,0 +1,705 @@
+{
+  "textbook": "教科版小学科学四年级上册",
+  "unit": "运动和力",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元《运动和力》基础达标卷",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "重力的定义",
+        "question": "地球表面的物体都会受到一个向下的拉力，这个力就是重力。",
+        "options": [],
+        "answer": "对",
+        "explanation": "地球表面物体受到的垂直向下的力称为重力。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "弹力的产生",
+        "question": "撑杆跳高运动员是利用撑杆受压产生的弹力跃过横杆的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "物体形状改变时产生的力叫弹力，撑杆弯曲后产生弹力将运动员弹起。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "摩擦力的作用",
+        "question": "摩擦力总是阻碍物体向前运动，所以是有害的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "摩擦力有益也有害，走路时的摩擦力就是有益的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "控制反冲力",
+        "question": "气球驱动小车时，小车运行的方向与喷气方向相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "反冲力的方向与喷出气体的方向相反。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "能量与速度",
+        "question": "同一个小车，运动速度越快，具有的能量就越大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "运动物体的能量大小与速度有关，速度越快，能量越大。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "力的单位",
+        "question": "在科学上，力的单位是（___）。",
+        "options": [
+          "牛顿",
+          "米",
+          "千克",
+          "摄氏度"
+        ],
+        "answer": "牛顿",
+        "explanation": "国际单位制中，力的单位以牛顿命名。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "拉力与速度",
+        "question": "在探究拉力大小与小车运动速度的关系实验中，为了让小车动起来，最少需要挂（___）。",
+        "options": [
+          "刚好能克服摩擦力的垫圈",
+          "任意数量的垫圈",
+          "重100牛顿的物块",
+          "越多越好的垫圈"
+        ],
+        "answer": "刚好能克服摩擦力的垫圈",
+        "explanation": "只有拉力达到一定数值克服掉初始摩擦力，小车才会启动。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "反冲力现象",
+        "question": "下列物体运动时，利用反冲力的是（___）。",
+        "options": [
+          "划船",
+          "喷气式飞机",
+          "拉开的弓箭",
+          "滑滑板车"
+        ],
+        "answer": "喷气式飞机",
+        "explanation": "喷气式飞机通过向后高速喷气产生向前的反冲力。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "弹力限度",
+        "question": "如果挂两枚垫圈能让弹簧伸长2厘米，挂四枚垫圈（未超过限度）会伸长（___）。",
+        "options": [
+          "2厘米",
+          "4厘米",
+          "6厘米",
+          "8厘米"
+        ],
+        "answer": "4厘米",
+        "explanation": "在弹力限度内，物体的伸长量与受到的拉力成正比。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "测力计读数",
+        "question": "读数时，视线应与弹簧测力计内指针相（___）。",
+        "options": [
+          "俯视",
+          "仰视",
+          "平视",
+          "无所谓"
+        ],
+        "answer": "平视",
+        "explanation": "为了减少误差，读数时视线必须与刻度指针齐平。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "减小摩擦力",
+        "question": "自行车轴承中安装钢珠是为了（___）。",
+        "options": [
+          "美观",
+          "变滑动为滚动以减小摩擦",
+          "增大摩擦力",
+          "增加车轮重量"
+        ],
+        "answer": "变滑动为滚动以减小摩擦",
+        "explanation": "滚动摩擦力远小于滑动摩擦力。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "增大摩擦力",
+        "question": "下雪天在轮胎上缠绕防滑链是为了（___）。",
+        "options": [
+          "减小摩擦力",
+          "保护轮胎",
+          "增大接触面粗糙程度来增大摩擦",
+          "好看"
+        ],
+        "answer": "增大接触面粗糙程度来增大摩擦",
+        "explanation": "增加接触面的粗糙程度可以增大摩擦力，防止打滑。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "能量转化",
+        "question": "从小坡上滚下的铁球撞击木块，木块移动一段距离，这证明运动的铁球（___）。",
+        "options": [
+          "有磁性",
+          "有重力",
+          "有能量",
+          "有弹性"
+        ],
+        "answer": "有能量",
+        "explanation": "做功是能量转化的过程，铁球撞击木块移动说明其具有动能。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程设计流程",
+        "question": "设计并制作小车的正确顺序是（___）。",
+        "options": [
+          "设计-制作-确定方案-评估",
+          "明确问题-制定方案-实施方案-评估改进",
+          "制作-设计-修改",
+          "购买零件-组装-测试"
+        ],
+        "answer": "明确问题-制定方案-实施方案-评估改进",
+        "explanation": "这是标准的工程设计四个阶段。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "重力方向",
+        "question": "熟透的苹果落向地面，是由于受到了（___）。",
+        "options": [
+          "浮力",
+          "推力",
+          "重力",
+          "阻力"
+        ],
+        "answer": "重力",
+        "explanation": "地球吸引力产生的重力方向总是竖直向下。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "气球动力",
+        "question": "气球驱动的小车，如果想让它行驶更远，可以（___）。",
+        "options": [
+          "减小小车重量",
+          "换个更小的气球",
+          "在粗糙地面上跑",
+          "把喷气管折断"
+        ],
+        "answer": "减小小车重量",
+        "explanation": "减小自重可以减少摩擦阻力，提高行驶距离。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "弹簧测力计使用",
+        "question": "在使用弹簧测力计前，必须要检查指针是否指在（___）刻度上。",
+        "options": [
+          "0",
+          "1",
+          "5",
+          "最大"
+        ],
+        "answer": "0",
+        "explanation": "使用前需要进行调零。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "能量守恒初步",
+        "question": "下列哪个动作可以增加橡皮筋动力小车的能量（___）。",
+        "options": [
+          "多增加几根橡皮筋",
+          "减小橡皮筋长度",
+          "减少绕圈圈数",
+          "更换成更松的皮筋"
+        ],
+        "answer": "多增加几根橡皮筋",
+        "explanation": "增加皮筋数量可以提供更大的弹力，存储更多能量。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拉力规律",
+        "question": "实验发现，相同距离下，挂3个垫圈小车用了10秒，挂6个垫圈小车用了（___）秒。",
+        "options": [],
+        "answer": "5",
+        "explanation": "在一定范围内，拉力越大，速度越快，时间越短。此处取逻辑上的减半简化。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "力的测量",
+        "question": "1牛顿的力相当于（___）克物体的重力。",
+        "options": [],
+        "answer": "100",
+        "explanation": "科学常识：1N约为100克物体的重力。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "力的平衡与状态",
+        "question": "要使静止的小车动起来，必须对它施加（___）。",
+        "options": [],
+        "answer": "力",
+        "explanation": "力是改变物体运动状态的原因。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反冲力特征",
+        "question": "气球喷气时，产生一个和喷气方向相反的推力，这个力叫（___）。",
+        "options": [],
+        "answer": "反冲力",
+        "explanation": "反冲力的基本定义。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阻力概念",
+        "question": "一个物体在另一个物体表面运动时，接触面会产生（___）。",
+        "options": [],
+        "answer": "摩擦力",
+        "explanation": "物体在表面运动产生的阻碍力叫摩擦力。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级科学上册第三单元《运动和力》终结性考试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "重力方向",
+        "question": "人在地球上站得住，不会掉进太空，是因为遭到了空气阻力。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这是因为地球重力的作用。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "弹力限制",
+        "question": "只要把弹簧拉得足够长，无论多重的东西它都能秤出重量。",
+        "options": [],
+        "answer": "错",
+        "explanation": "测力计有最大量程，超过弹性限度会损坏。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "摩擦力增减",
+        "question": "滑冰鞋底部做得很光滑是为了减小摩擦力。",
+        "options": [],
+        "answer": "对",
+        "explanation": "光滑的接触面减少摩擦阻力，利于滑动。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "能量守恒",
+        "question": "风、流水、电都具有能量。",
+        "options": [],
+        "answer": "对",
+        "explanation": "自然界中许多物质都以能量的形式存在并发生转化。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "工程迭代",
+        "question": "小车制作完成后，如果测试数据不满意，就不需要管它了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "工程设计的关键环节是测试后的评估改进。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "弹簧测力计原理",
+        "question": "弹簧测力计是利用弹簧受到的拉力越大，弹簧（___）的原理制成的。",
+        "options": [
+          "越长",
+          "受到的力越小",
+          "越短",
+          "伸长越长"
+        ],
+        "answer": "伸长越长",
+        "explanation": "一定范围内，弹簧伸长量与拉力正相关。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "弹力来源",
+        "question": "以下不是利用物体弹性的是（___）。",
+        "options": [
+          "皮球弹起",
+          "拉开弹簧",
+          "铁块入水",
+          "跳水踏板"
+        ],
+        "answer": "铁块入水",
+        "explanation": "铁块入水属于重力下坠和浮力现象，不属于利用弹性。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反冲力的应用",
+        "question": "要使气球动力小车向东运动，喷气嘴的方向应朝向（___）。",
+        "options": [
+          "东",
+          "南",
+          "西",
+          "北"
+        ],
+        "answer": "西",
+        "explanation": "反冲力方向与喷气方向相反。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动力来源",
+        "question": "给小车安装橡皮筋时，缠绕圈数越多，小车行驶的距离（___）。",
+        "options": [
+          "越短",
+          "越远",
+          "不变",
+          "先远后近"
+        ],
+        "answer": "越远",
+        "explanation": "圈数多意味着弹力大，做功多，行驶远。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "摩擦力控制",
+        "question": "在地面上推箱子时，箱子底下垫几根圆木是为了（___）。",
+        "options": [
+          "增大摩擦力",
+          "减小摩擦力",
+          "增加重量",
+          "更好看"
+        ],
+        "answer": "减小摩擦力",
+        "explanation": "变滑动为滚动可以极大减小摩擦阻力。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "力的大小比较",
+        "question": "若小车能拉起200克钩码，这相当于施加了约（___）牛顿的拉力。",
+        "options": [
+          "0.2",
+          "2",
+          "20",
+          "200"
+        ],
+        "answer": "2",
+        "explanation": "1N约为100克重量，200克约为2N。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "能量大小判别",
+        "question": "足球比赛中，最难接住的球通常是因为球（___）。",
+        "options": [
+          "动能大且速度快",
+          "颜色亮",
+          "气不足",
+          "太大了"
+        ],
+        "answer": "动能大且速度快",
+        "explanation": "速度越快能量越大，冲击力随之增强。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重力知识",
+        "question": "射箭时，箭射出后最终会落向地面是因为（___）。",
+        "options": [
+          "空气太厚",
+          "反冲力消失",
+          "受到了重力",
+          "箭太累了"
+        ],
+        "answer": "受到了重力",
+        "explanation": "重力始终作用于箭体并使其下沉。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "摩擦力分类",
+        "question": "下列属于滑动摩擦的是（___）。",
+        "options": [
+          "车轮在跑道滚动",
+          "圆珠笔尖在纸上写字",
+          "用橡皮擦擦去错别字",
+          "在地上滚动的皮球"
+        ],
+        "answer": "用橡皮擦擦去错别字",
+        "explanation": "橡皮在纸上是面接触的位移滑动。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "实验条件控制",
+        "question": "探究摩擦力大小与重量的关系时，下列变量需要改变的是（___）。",
+        "options": [
+          "物体的重量",
+          "接触面的光滑程度",
+          "接触面的面积",
+          "拉力的快慢"
+        ],
+        "answer": "物体的重量",
+        "explanation": "对比实验中，研究哪个因素就只改变那个因素。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动力驱动",
+        "question": "设计赛车时，为了增加动力，最有效的办法是（___）。",
+        "options": [
+          "使用大功率发动机",
+          "增加车身重量",
+          "使用更宽的轮胎",
+          "把车身涂红"
+        ],
+        "answer": "使用大功率发动机",
+        "explanation": "发动机输出功率直接决定动力大小。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阻力分析",
+        "question": "赛车车身设计成流线型，主要是为了减小（___）。",
+        "options": [
+          "重力",
+          "空气阻力",
+          "弹力",
+          "摩擦力"
+        ],
+        "answer": "空气阻力",
+        "explanation": "流线型能有效引导空气流过，减小阻力。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "工程测试",
+        "question": "在小车测试中，为了数据的科学性，通常需要测试（___）。",
+        "options": [
+          "1次",
+          "2次",
+          "至少3次",
+          "直到满意为止"
+        ],
+        "answer": "至少3次",
+        "explanation": "多次实验取平均值或众数可减小偶然性。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "测力计读数",
+        "question": "一个测力计最大能测5N，分度值是0.1，那么1.5N和2N之间有（___）个小格。",
+        "options": [],
+        "answer": "5",
+        "explanation": "（2-1.5）/ 0.1 = 5。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "实验规律",
+        "question": "要拉动500克的木块，需要1牛顿的力。若增加木块到1000克，拉力需（___）牛顿。",
+        "options": [],
+        "answer": "2",
+        "explanation": "摩擦力与压力（此处重力转化）成正比。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单位名称",
+        "question": "力的单位是牛顿，简称牛，用字母（___）表示。",
+        "options": [],
+        "answer": "N",
+        "explanation": "国际通行符号。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "能的表现",
+        "question": "运动的球能把瓶子击倒，说明运动的物体具有（___）。",
+        "options": [],
+        "answer": "能量",
+        "explanation": "理解能量是使物体发生运动或变化的本领。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "重力发现者",
+        "question": "发现万有引力的英国科学家是（___）。",
+        "options": [],
+        "answer": "牛顿",
+        "explanation": "科学史常识。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "重力与拉力",
+      "core_concept": "地球对物体的吸引力叫重力；拉力可以使物体由静止变为运动。",
+      "key_formula": "拉力越大，小车运动越快。",
+      "common_mistakes": [
+        "认为重力的方向是向下的（应该表述为竖直向下）",
+        "认为没有拉力物体就不能动（忽略惯性）"
+      ],
+      "tips": "做小车实验时，要从挂第一个垫圈开始逐个增加。"
+    },
+    {
+      "point": "弹力及其测量",
+      "core_concept": "物体受力变形后恢复原状产生的力；使用牛顿作为单位。",
+      "key_formula": "物体的增加量或缩短量与受力大小成正比（限度内）。",
+      "common_mistakes": [
+        "不调零就直接使用测力计",
+        "读数时斜着看指针"
+      ],
+      "tips": "记住1牛顿约等于100克物体的重力。"
+    },
+    {
+      "point": "反冲力",
+      "core_concept": "喷气或喷水方向与运动方向相反。",
+      "key_formula": "喷出物速度越快/质量越大，产生的反冲力越大。",
+      "common_mistakes": [
+        "把反冲力方向搞反（认为和喷气同向）"
+      ],
+      "tips": "气球小车排气口越大，启动瞬间的动力越强。"
+    },
+    {
+      "point": "摩擦力",
+      "core_concept": "接触面阻碍运动的力。",
+      "key_formula": "重力越大、接触面越粗糙，摩擦力越大；滚动摩擦小于滑动摩擦。",
+      "common_mistakes": [
+        "认为摩擦力只有坏处",
+        "在比较摩擦力大小时没保持其他变量一致"
+      ],
+      "tips": "加润滑油、变滑动为滚动是减小摩擦的常用方法。"
+    },
+    {
+      "point": "能量与动力",
+      "core_concept": "能量是物体做功的本领。",
+      "key_formula": "速度越快、质量越大，动能（能量）越大。",
+      "common_mistakes": [
+        "认为不动的物体没有能量（忽略势能，虽然本单元侧重动能）"
+      ],
+      "tips": "斜坡实验中，坡度越高，能量越大。"
+    }
+  ]
+}

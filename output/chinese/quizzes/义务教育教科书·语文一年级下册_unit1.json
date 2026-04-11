@@ -1,0 +1,750 @@
+{
+  "textbook": "统编版小学语文一年级下册",
+  "unit": "识字（一）",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元「识字（一）」基础巩固测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "“夏雨落”这个词中，“落”字描述了雨从天上掉下来的样子。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文《春夏秋冬》中描述“夏雨落”，体现了雨的方向是向下落。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉语拼音字母表",
+        "question": "汉语拼音字母“G”的小写字母是“q”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "G的小写是g，q是大写Q的小写。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "姓氏介绍与拆字法",
+        "question": "介绍自己姓“胡”时，可以说“古月胡”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“胡”是由“古”和“月”组成的，这是常见的拆字介绍法。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "形声字构字规律（青字族）",
+        "question": "“睛”字有目字旁，所以这个字和眼睛有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“睛”是形声字，左边的目字旁表示它的字义与眼睛有关。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "字谜逻辑推理",
+        "question": "“一口咬断牛尾巴”的谜底是“告”字。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“告”字上面是“牛”去掉下面的一竖（咬断尾巴），下面是一个“口”。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "下列词语搭配完全正确的一项是：",
+        "options": [
+          "春风吹",
+          "冬雪落",
+          "秋霜降",
+          "夏雨飘"
+        ],
+        "answer": "春风吹",
+        "explanation": "《春夏秋冬》中对应为：春风吹、夏雨落、秋霜降、冬雪飘。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "姓氏介绍与拆字法",
+        "question": "“木子”合起来是什么姓？",
+        "options": [
+          "林",
+          "李",
+          "杰",
+          "村"
+        ],
+        "answer": "李",
+        "explanation": "儿歌中提到：木子李，口天吴。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形声字构字规律（青字族）",
+        "question": "如果要表示“心情很好”，“qíng”字应该带什么偏旁？",
+        "options": [
+          "日",
+          "目",
+          "忄",
+          "氵"
+        ],
+        "answer": "忄",
+        "explanation": "心情与内心有关，所以使用竖心旁（忄），写作“情”。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉语拼音字母表",
+        "question": "字母表顺序中，J KL ( ) N，括号里应该填：",
+        "options": [
+          "I",
+          "M",
+          "O",
+          "P"
+        ],
+        "answer": "M",
+        "explanation": "按照字母表顺序：J、K、L、M、N。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "“池草青，山花红，鱼出水，鸟入林。”这句描写的是哪个季节？",
+        "options": [
+          "春天",
+          "夏天",
+          "秋天",
+          "冬天"
+        ],
+        "answer": "春天",
+        "explanation": "草青花红、万物复苏是春天的景象。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字谜逻辑推理",
+        "question": "“左边绿，右边红，左边怕虫，右边怕水。”谜底是：",
+        "options": [
+          "秋",
+          "和",
+          "利",
+          "种"
+        ],
+        "answer": "秋",
+        "explanation": "左边是禾苗（绿颜色，怕蝗虫），右边是火（红颜色，怕水）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "形声字构字规律（青字族）",
+        "question": "在句子“河水清清天气___”中，横线应填入：",
+        "options": [
+          "晴",
+          "睛",
+          "请",
+          "情"
+        ],
+        "answer": "晴",
+        "explanation": "天气晴朗是因为有太阳，所以用日字旁的“晴”。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉语拼音字母表",
+        "question": "下列大写字母与小写字母对应错误的一组是：",
+        "options": [
+          "A—a",
+          "D—b",
+          "E—e",
+          "F—f"
+        ],
+        "answer": "D—b",
+        "explanation": "D的小写是d，b是大写字母B的小写。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "姓氏介绍与拆字法",
+        "question": "“双口”合起来是什么姓？",
+        "options": [
+          "吕",
+          "回",
+          "品",
+          "叶"
+        ],
+        "answer": "吕",
+        "explanation": "两个“口”上下排在一起组成了“吕”字。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阅读理解",
+        "question": "读古诗《画》：远看山有色，近听水无声。春去花还在，人来鸟不惊。诗中提到的反义词不包括：",
+        "options": [
+          "远——近",
+          "有——无",
+          "去——来",
+          "大——小"
+        ],
+        "answer": "大——小",
+        "explanation": "诗中有远近、有无、去来，并没有提到大小。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "在《春夏秋冬》一课中，“冬雪（___）”。",
+        "options": [],
+        "answer": "飘",
+        "explanation": "课文原句为“冬雪飘”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "姓氏介绍与拆字法",
+        "question": "“弓长”合起来是姓氏（___）。",
+        "options": [],
+        "answer": "张",
+        "explanation": "“张”字由“弓”和“长”组成。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "字谜逻辑推理",
+        "question": "一加一（猜一个字）：",
+        "options": [],
+        "answer": "王",
+        "explanation": "“一”下面加“十”是土，再加一横是“王”；本题通常指“王”字的构造。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "请将自然现象与对应的动作连线。",
+        "options": [
+          "春风",
+          "夏雨",
+          "秋霜",
+          "冬雪",
+          "落",
+          "降",
+          "飘",
+          "吹"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "春风吹，夏雨落，秋霜降，冬雪飘。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "姓氏介绍与拆字法",
+        "question": "请将姓氏与对应的拆解法连线。",
+        "options": [
+          "李",
+          "张",
+          "胡",
+          "吴",
+          "口天",
+          "古月",
+          "木子",
+          "弓长"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "木子李，弓长张，古月胡，口天吴。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "形声字构字规律（青字族）",
+        "question": "请为“青”字选择合适的偏旁组成新字。",
+        "options": [
+          "氵",
+          "日",
+          "目",
+          "忄",
+          "睛",
+          "情",
+          "清",
+          "晴"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "水清清(氵)，太阳晴(日)，眼睛(目)，心情(忄)。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "连词成句：",
+        "options": [
+          "各种各样的",
+          "春天",
+          "开满了",
+          "鲜花"
+        ],
+        "answer": "春天,开满了,各种各样的,鲜花",
+        "explanation": "按照“时间+动词+修饰语+名词”的逻辑排序。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "字谜逻辑推理",
+        "question": "将词语排列成一句顺畅的话：",
+        "options": [
+          "喜欢",
+          "我",
+          "猜字谜",
+          "非常"
+        ],
+        "answer": "我,非常,喜欢,猜字谜",
+        "explanation": "“非常”是副词，放在动词“喜欢”前面。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第一单元「识字（一）」综合学业质量监测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉语拼音字母表",
+        "question": "字母表里 R 的下一个字母是 S。",
+        "options": [],
+        "answer": "对",
+        "explanation": "字母顺序为 P Q R S T..."
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "“秋霜降”中的“霜”通常是在春天出现的现象。",
+        "options": [],
+        "answer": "错",
+        "explanation": "霜降是秋季的自然现象。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "姓氏介绍与拆字法",
+        "question": "“许”字可以介绍成“言午许”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "许是言字旁加个“午”字。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "形声字构字规律（青字族）",
+        "question": "“请”字的偏旁是“讠”，表示这个字和说话有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "言字旁的字多与语言、说话、礼貌语有关。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "字谜逻辑推理",
+        "question": "谜语“双木不成林”的谜底是“相”字。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“双木”是“林”，此处题目说法不具逻辑，通常是指“相”字包含木，但双木是林。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉语拼音字母表",
+        "question": "下列字母排列顺序正确的一项是：",
+        "options": [
+          "A B C D E",
+          "A C B D E",
+          "A B E C D",
+          "A D C B E"
+        ],
+        "answer": "A B C D E",
+        "explanation": "这是字母表开头的标准顺序。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "读句子：“池草青，山花红，鱼出水，鸟入林。”句子中表示动作的字是：",
+        "options": [
+          "池、山",
+          "青、红",
+          "出、入",
+          "鱼、鸟"
+        ],
+        "answer": "出、入",
+        "explanation": "“出”和“入”是动词，表示鱼和鸟的动作。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "姓氏介绍与拆字法",
+        "question": "姓氏“上官”属于：",
+        "options": [
+          "单姓",
+          "复姓",
+          "三字姓",
+          "不是姓"
+        ],
+        "answer": "复姓",
+        "explanation": "两个字组成的姓氏叫复姓。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形声字构字规律（青字族）",
+        "question": "选词填空：我们要保护（___）的小青蛙。",
+        "options": [
+          "清",
+          "晴",
+          "情",
+          "青"
+        ],
+        "answer": "青",
+        "explanation": "形容青蛙的颜色用“青”。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字谜逻辑推理",
+        "question": "字迷：“一人一张口，口下长只手。”谜底是：",
+        "options": [
+          "合",
+          "拿",
+          "吹",
+          "抱"
+        ],
+        "answer": "拿",
+        "explanation": "上面是“合”（人+口），下面是“手”，合起来是“拿”。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阅读理解",
+        "question": "读《小池》：泉眼无声惜细流，树阴照水爱晴柔。诗中“晴”字的意思是：",
+        "options": [
+          "下雨",
+          "阴天",
+          "大雾",
+          "晴朗"
+        ],
+        "answer": "晴朗",
+        "explanation": "“晴”代表晴天，阳光灿烂。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉语拼音字母表",
+        "question": "对应的小写字母是“y”的大写字母是：",
+        "options": [
+          "X",
+          "Y",
+          "V",
+          "U"
+        ],
+        "answer": "Y",
+        "explanation": "Y的大小写对应是Y和y。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "“夏雨、秋霜、冬雪”这组词语是按什么顺序排列的？",
+        "options": [
+          "时间",
+          "大小",
+          "多少",
+          "好坏"
+        ],
+        "answer": "时间",
+        "explanation": "春夏秋三季是按一年中的时间先后排序的。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "形声字构字规律（青字族）",
+        "question": "“小青蛙大眼睛，过路请你轻轻行。”这两句中一共有几个带“青”字族的字？",
+        "options": [
+          "2个",
+          "3个",
+          "4个",
+          "5个"
+        ],
+        "answer": "3个",
+        "explanation": "分别是：青、睛、请。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "姓氏介绍与拆字法",
+        "question": "下列姓氏按音序（字母表）排列正确的是：",
+        "options": [
+          "李、王、张",
+          "王、李、张",
+          "张、王、李",
+          "张、李、王"
+        ],
+        "answer": "李、王、张",
+        "explanation": "L(Li) < W(Wang) < Z(Zhang)。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "一年有四个季节，分别是春、夏、秋、（___）。",
+        "options": [],
+        "answer": "冬",
+        "explanation": "一年的四个季节是春夏秋冬。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形声字构字规律（青字族）",
+        "question": "“河水（___）（___）天气晴”，横线处应填：",
+        "options": [],
+        "answer": "清清",
+        "explanation": "课文《小青蛙》：河水清清天气晴。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "字谜逻辑推理",
+        "question": "“二木”合起来是林，“三木”合起来是（___）。",
+        "options": [],
+        "answer": "森",
+        "explanation": "考查字形组合：木、林、森。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉语拼音字母表",
+        "question": "请将大写字母与对应的小写字母连线。",
+        "options": [
+          "Q",
+          "R",
+          "B",
+          "G",
+          "r",
+          "q",
+          "g",
+          "b"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "Q-q, R-r, B-b, G-g。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季词汇与动词搭配",
+        "question": "请将动词与它经常搭配的事物连线。",
+        "options": [
+          "吹",
+          "落",
+          "降",
+          "飘",
+          "雨",
+          "雪",
+          "风",
+          "霜"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "吹风、落雨、降霜、飘雪。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "字谜逻辑推理",
+        "question": "请将谜面与对应的谜底字连线。",
+        "options": [
+          "三个日",
+          "三个口",
+          "三个木",
+          "三个人",
+          "众",
+          "晶",
+          "品",
+          "森"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "晶(三日), 品(三口), 森(三木), 众(三人)。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "姓氏介绍与拆字法",
+        "question": "连词成句：",
+        "options": [
+          "中国姓氏",
+          "有很多",
+          "常见的"
+        ],
+        "answer": "常见的,中国姓氏,有很多",
+        "explanation": "主语是“常见的中国姓氏”，谓语是“有很多”。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "形声字构字规律（青字族）",
+        "question": "排序组成一句话：",
+        "options": [
+          "我们",
+          "爱护",
+          "都要",
+          "小青蛙"
+        ],
+        "answer": "我们,都要,爱护,小青蛙",
+        "explanation": "“都要”是副词词组，修饰动词“爱护”。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "四季词汇与动词搭配",
+      "core_concept": "本知识点主要通过《春夏秋冬》一课，让学生感受四季不同的自然现象（风、雨、霜、雪）以及它们呈现的状态。通过“吹、落、降、飘”四个动态动词，生动地表现了自然美的变化。学生需要理解动词与名词的固定搭配，并能在实际情境中运用。",
+      "key_formula": "季节特征 = 自然现象名称 + 动作词",
+      "common_mistakes": [
+        "将“霜”的动作记成“飘”或“落”",
+        "对“降”字的意思不理解，不能与“霜”正确匹配"
+      ],
+      "tips": "可以通过动作模仿来记忆：双手扇动代表“吹”，手指下点代表“落”，手掌平压代表“降”，手指轻点撒开代表“飘”。"
+    },
+    {
+      "point": "姓氏介绍与拆字法",
+      "core_concept": "通过《姓氏歌》学习中国文化中常见的姓氏，并掌握两种最基本的介绍姓氏的方法：一种是拆字法（如：木子李、弓长张），另一种是说组词法（如：言午许、双口吕）。这不仅能识字，还能训练逻辑思维。",
+      "key_formula": "介绍姓氏 = 将汉字拆分为两个部件分别念出",
+      "common_mistakes": [
+        "将“张”拆成“立”和“长”",
+        "复姓（如上官、欧阳）误认为是两个人的姓"
+      ],
+      "tips": "可以玩“你说我猜”游戏，家长说出拆字口诀，孩子快速说出对应的姓氏。"
+    },
+    {
+      "point": "形声字构字规律（青字族）",
+      "core_concept": "本单元特有的“形声字族”识字法，以“青”为声部，配上不同的形部（日、目、氵、忄、讠）组成新字。形旁揭示字义（日与天气、目与眼睛、水与清纯等），声旁揭示读音。这是成规模识字的关键。",
+      "key_formula": "左形（表义）+ 右声（表音）= 新汉字",
+      "common_mistakes": [
+        "混合“晴”和“睛”，分不清太阳和眼睛的偏旁",
+        "将“请”的言字旁写成竖心旁"
+      ],
+      "tips": "记住口诀：有水方说清，有日天气晴，有目大眼睛，有心好心情，有言相互请。"
+    },
+    {
+      "point": "字谜逻辑推理",
+      "core_concept": "字谜是汉字特有的艺术形式。通过谜面中对形状、位置、特性的描述，引导学生在大脑中进行汉字的拆解与组合。例如“左边...右边...”描述左右结构，“一口咬断...”描述笔画变动。这能极大提高学生对汉字结构的敏感度。",
+      "key_formula": "谜底 = 谜面描述的动作（合并/减少）+ 部件组合",
+      "common_mistakes": [
+        "只关注谜面意思，忘记了寻找汉字部件",
+        "不能区分左右结构的描述，导致猜字错误"
+      ],
+      "tips": "看到谜面先画一画。比如“左边绿，右边红”，就在本子上画个禾苗，画个火焰，字就出来了。"
+    },
+    {
+      "point": "汉语拼音字母表",
+      "core_concept": "汉语拼音字母表是学习音序查字法的基础。一年级下册要求学生不仅会背诵小写字母，更要熟练掌握大写字母的形式及其与小写字母的对应关系，并能按照顺序进行准确排列。",
+      "key_formula": "字母顺序 = A B C D E F G...",
+      "common_mistakes": [
+        "将b和d、p和q的大写形式混淆",
+        "大写字母L、G、M的写法不标准"
+      ],
+      "tips": "可以借用英文字母歌的旋律来背诵汉语拼音字母表，同时注意区分语文读音与英语读音。"
+    }
+  ]
+}

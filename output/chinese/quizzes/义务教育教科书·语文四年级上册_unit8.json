@@ -1,0 +1,740 @@
+{
+  "textbook": "统编版小学语文四年级上册",
+  "unit": "第八单元 历史故事与人生启示",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "第八单元基础达标与智慧启示训练",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "“眉清目秀”是一个形容外貌俊俏、清爽的赞美性词语。",
+        "options": [],
+        "answer": "对",
+        "explanation": "眉清目秀形容面貌俊俏、爽朗，属于赞美类的描绘词。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式",
+        "question": "写信时，正文的第一行要空两格，这和写作文的要求一致。",
+        "options": [],
+        "answer": "对",
+        "explanation": "书信正文的开头和普通段落一样，需要首行缩进两格。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "通过阅读文章的题目，有时候可以直接推断出文章的主要内容。",
+        "options": [],
+        "answer": "对",
+        "explanation": "如《西门豹治邺》，题目就直接概括了主要人物和核心事件。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "《王戎不取道旁李》中，“诸儿竞走取之”的“走”是指走路的意思。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在古文中，“走”通常指跑。这里指孩子们竞争着跑过去抢李子。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "王戎认定李子是苦的，是因为他先尝了一个才告诉大家的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "王戎是通过观察和逻辑推理判断出来的，并没有亲自尝。原文说“唯戎不动”。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "爷爷虽然年纪大了，但腰板挺直，走起路来很有精神，可以用（）来形容。",
+        "options": [
+          "眉清目秀",
+          "文质彬彬",
+          "相貌堂堂",
+          "威风凛凛"
+        ],
+        "answer": "相貌堂堂",
+        "explanation": "相貌堂堂形容人仪表端正魁梧，符合爷爷精神矍铄的情境。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式",
+        "question": "书信中的称呼，应该写在信的第一行，末尾要加上后缀（）。",
+        "options": [
+          "逗号",
+          "冒号",
+          "感叹号",
+          "句号"
+        ],
+        "answer": "冒号",
+        "explanation": "书信开头称呼后面必须使用冒号，表示唤起下文。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "选出下列词语中，描写人物气质温文尔雅的一项：",
+        "options": [
+          "膀大腰粗",
+          "文质彬彬",
+          "鹤发童颜",
+          "明眸皓齿"
+        ],
+        "answer": "文质彬彬",
+        "explanation": "文质彬彬侧重性格、修养与外表的和谐、儒雅。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "阅读语段：‘西门豹到了邺县，看到田地荒芜，人烟稀少，就找老大爷调查。原来是巫婆和官绅给河伯娶媳妇闹的。’这段话交代了故事的（）。",
+        "options": [
+          "起因",
+          "经过",
+          "结果",
+          "高潮"
+        ],
+        "answer": "起因",
+        "explanation": "这段话描述了背景和问题的由来，属于故事的起因部分。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "王戎观察到：‘树在道边而多子，此必苦李。’他得出这个结论的依据是（）。",
+        "options": [
+          "他不爱吃李子",
+          "路人告诉他的",
+          "若是甜的一早被摘光了",
+          "这是他种的树"
+        ],
+        "answer": "若是甜的一早被摘光了",
+        "explanation": "如果李子是甜的，长在路边肯定早就被摘光了。树上结满果子说明李子很难吃。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式",
+        "question": "在信的末尾，署名应该写在日期（）。",
+        "options": [
+          "右方",
+          "左方",
+          "下方",
+          "上方"
+        ],
+        "answer": "上方",
+        "explanation": "正式书信落款中，署名在上一行，日期在下一行。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "对于《扁鹊治病》这类以人物对话推动发展的历史故事，最适合概括主要内容的方法是（）。",
+        "options": [
+          "看题目想内容",
+          "抓关键要素串联",
+          "字数叠加法",
+          "抄写重点段落"
+        ],
+        "answer": "抓关键要素串联",
+        "explanation": "通过谁、做了什么、结果如何这些关键要素串联能最准确概括故事情节。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "书信的基本格式",
+        "question": "给长辈写信，为了表达敬意，最恰当的祝福语是（）。",
+        "options": [
+          "祝你考试顺利",
+          "祝您身体健康",
+          "开门大吉",
+          "天天开心"
+        ],
+        "answer": "祝您身体健康",
+        "explanation": "对长辈应使用敬语“您”，且身体健康是最常用的得体祝福词。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "‘取之，信然。’这句话中‘信’的意思是（）。",
+        "options": [
+          "信任",
+          "书信",
+          "确实",
+          "信息"
+        ],
+        "answer": "确实",
+        "explanation": "“信然”在古文中是“确实如此”的意思。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "在复述《纪昌学射》时，必须抓住的两个关键阶段是：‘盯住目标不眨眼’和（）。",
+        "options": [
+          "练习拉弓",
+          "练出好的眼力",
+          "把极小的记号看大",
+          "百发百中"
+        ],
+        "answer": "把极小的记号看大",
+        "explanation": "这两步是纪昌练习基本功的核心内容，也是概括全文的关键点。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式",
+        "question": "在书信正文的下一行空两格写“祝你”，再另起一行顶格写“（___）”。",
+        "options": [],
+        "answer": "身体健康",
+        "explanation": "书信祝福语通常采用分行缩进和顶格的特殊排版格式。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "《王戎不取道旁李》中，‘唯戎不动’中的‘唯’字翻译成现代汉语是（___）。",
+        "options": [],
+        "answer": "只有",
+        "explanation": "唯在这里表示范围限定，指只有王戎一个人没有动身。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "楚霸王项羽带兵打仗时，盔甲鲜明，威严有力，可用成语（___）形容。",
+        "options": [],
+        "answer": "威风凛凛",
+        "explanation": "威风凛凛形容气势威严，符合武将出征的形象。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "请将下列故事题目与对应的核心人物进行连线。",
+        "options": [
+          "扁鹊治病",
+          "纪昌学射",
+          "西门豹治邺",
+          "破瓮救友",
+          "飞卫",
+          "司马光",
+          "西门豹",
+          "蔡桓侯"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "蔡桓侯是扁鹊治病的对象；飞卫是纪昌的老师；西门豹治邺名实相符；司马光破瓮救友。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "请将文言文字词与其对应的现代汉语意思连线。",
+        "options": [
+          "尝",
+          "竞走",
+          "诸",
+          "李",
+          "争着跑",
+          "曾经",
+          "李子",
+          "众，多"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "尝：曾经；竞走：争相奔跑；诸：各个、众多；李：李子子实。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "针对不同的人物特点，选择最合适的外貌词语进行匹配。",
+        "options": [
+          "书生",
+          "将军",
+          "姑娘",
+          "美男子",
+          "眉清目秀",
+          "文质彬彬",
+          "威风凛凛",
+          "相貌堂堂"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "书生多文质彬彬；将军威风凛凛；姑娘常用眉清目秀；美男子多相貌堂堂。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "按事情发展的先后顺序，排列概括《西门豹治邺》主要情节的词语。",
+        "options": [
+          "兴修水利",
+          "惩治罪恶",
+          "摸清底细"
+        ],
+        "answer": "摸清底细,惩治罪恶,兴修水利",
+        "explanation": "课文按调查情况、惩治巫婆官绅、引水灌田的顺序展开。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "这段话告诉了我们一个道理：请将词语排成通顺的句子。",
+        "options": [
+          "要",
+          "观察",
+          "善于",
+          "仔细"
+        ],
+        "answer": "要,善于,仔细,观察",
+        "explanation": "这是通过王戎故事学习到的核心逻辑和学习方法。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级上册第八单元期末评价综合卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式",
+        "question": "在正式书信中，日期的写法可以随意，写在信的任何位置都可以。",
+        "options": [],
+        "answer": "错",
+        "explanation": "日期必须写在信的右下角，且在署名的正下方。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "“文质彬彬”既可以形容一个人的外貌，也可以形容一个人的谈吐和修养。",
+        "options": [],
+        "answer": "对",
+        "explanation": "文质彬彬形容外表文雅，本质又好，内外交融。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "《王戎不取道旁李》里，王戎之所以不去摘李子，是因为他怕李子树太高。",
+        "options": [],
+        "answer": "错",
+        "explanation": "王戎不去是因为推断出李子是苦的，而非怕高。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "《纪昌学射》告诉我们，无论学什么本领，基本功都是非常重要的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "练习眼力就是练习射箭最核心的基本功。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "概括文章内容时，只要把每个自然段的第一句话抄下来连接起来就行了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "概括需要提炼核心，机械抄写第一句不一定能完整准确反映主旨。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "下列词语中，不是描写外貌气质的是（）。",
+        "options": [
+          "目不转睛",
+          "明眸皓齿",
+          "鹤发童颜",
+          "膀大腰圆"
+        ],
+        "answer": "目不转睛",
+        "explanation": "目不转睛描写的是神态动作，不是固有的外貌特征。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式",
+        "question": "给老师写信时，最得体的抬头称呼是（）。",
+        "options": [
+          "嘿！王老师",
+          "亲爱的老师",
+          "敬爱的老师",
+          "老师您好"
+        ],
+        "answer": "敬爱的老师",
+        "explanation": "对师长使用“敬爱的”体现了学生的礼貌与尊重。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "在‘看道边李树多子折枝’句中，‘折枝’的意思是（）。",
+        "options": [
+          "把树枝折断",
+          "树枝被压弯了",
+          "折下李子树枝",
+          "一种折纸游戏"
+        ],
+        "answer": "树枝被压弯了",
+        "explanation": "这里形容果实很多，把树枝都压得低垂了下来。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "下列关于《扁鹊治病》的概括，最准确的是（）。",
+        "options": [
+          "扁鹊是一个名医",
+          "扁鹊三次劝蔡桓侯治病",
+          "扁鹊四次劝诊被拒后离开",
+          "蔡桓侯不喜欢医生"
+        ],
+        "answer": "扁鹊四次劝诊被拒后离开",
+        "explanation": "这完整包括了人物、核心动作顺序及最终结局。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "‘这位小战士身高马大，挺胸叠肚，站在哨口真有（）的气概。’",
+        "options": [
+          "威风凛凛",
+          "文质彬彬",
+          "眉清目秀",
+          "老气横秋"
+        ],
+        "answer": "威风凛凛",
+        "explanation": "只有威风凛凛能形容出战士在哨位上的庄重和威严。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "书信的基本格式",
+        "question": "书信中的‘问候语’通常紧跟在（）的后面。",
+        "options": [
+          "正文",
+          "日期",
+          "署名",
+          "称呼"
+        ],
+        "answer": "称呼",
+        "explanation": "书信的基本结构是：称呼、问候语、正文、祝福语、署名、日期。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "阅读语段：‘西门豹发动百姓开凿了十二条渠道，引黄河水灌溉农田。从此，邺县年年丰收。’这在故事六要素中属于（）。",
+        "options": [
+          "起因",
+          "经过",
+          "结果",
+          "发展"
+        ],
+        "answer": "结果",
+        "explanation": "这描写了事件平息后的成果和最终状况。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "学习了《王戎不取道旁李》，你认为王戎是一个怎样的孩子？",
+        "options": [
+          "聪明机智且善于观察推理",
+          "顽皮调皮且不爱劳动",
+          "贪吃但不敢承认的孩子",
+          "性格孤僻不合群的孩子"
+        ],
+        "answer": "聪明机智且善于观察推理",
+        "explanation": "王戎不随大流，能通过现象分析本质，具有卓越的观察力。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "如果要描写一个古代文雅的读书人，选用哪个词语最不合适？",
+        "options": [
+          "文质彬彬",
+          "相貌堂堂",
+          "膀大腰粗",
+          "仪表堂堂"
+        ],
+        "answer": "膀大腰粗",
+        "explanation": "膀大腰粗通常形容武将或体力劳动者，不符合古代文弱书生的气质。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "概括《纪昌学射》的主要内容，最关键的动词组合是（）。",
+        "options": [
+          "拜见、练习、成功",
+          "射箭、看东西、百发百中",
+          "求教、看针尖、当射箭能手",
+          "请教、练眼力、成神射手"
+        ],
+        "answer": "请教、练眼力、成神射手",
+        "explanation": "这三个动词构成了纪昌学射的完整行为链条。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "‘诸儿竞走取之’中，‘之’在这个短句里指代的是（___）。",
+        "options": [],
+        "answer": "李子",
+        "explanation": "之是代词，指代上文提到的李子。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "书信的基本格式",
+        "question": "书信结尾表示祝福的话叫（___）。",
+        "options": [],
+        "answer": "祝福语",
+        "explanation": "书信六要素之一，如“此致敬礼”等。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "通过抓住故事的起因、经过、结果来概括内容的方法叫（___）概括法。",
+        "options": [],
+        "answer": "六要素",
+        "explanation": "这是叙事性文章最常用的概括方法。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "请将外貌词语与它最适合形容的人物进行匹配。",
+        "options": [
+          "威风凛凛",
+          "白发苍苍",
+          "亭亭玉立",
+          "眉清目秀",
+          "老爷爷",
+          "大将军",
+          "小男孩",
+          "美少女"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "词语与人物形象、生理特征需精准匹配。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把握文章主要内容的方法",
+        "question": "将描写人物表现的词语与对应的主题进行连线。",
+        "options": [
+          "扁鹊",
+          "西门豹",
+          "王戎",
+          "蔡桓侯",
+          "破除迷信",
+          "起死回生",
+          "固执己见",
+          "推算演练"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "扁鹊是名医；西门豹治邺破迷信；王戎擅长推理；蔡桓侯讳疾忌医、固执己见。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文疏通与智慧领悟",
+        "question": "请将下列文言句式与对应的理解进行连线。",
+        "options": [
+          "诸儿竞走",
+          "唯戎不动",
+          "人问之",
+          "取之信然",
+          "别人问他",
+          "只有他没去",
+          "孩子们乱跑",
+          "摘来真是苦的"
+        ],
+        "answer": "A-3,B-2,C-1,D-4",
+        "explanation": "考察对文言短句核心句意的准确理解。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "书信的基本格式",
+        "question": "请把写信的基本环节按顺序排列。",
+        "options": [
+          "写称呼",
+          "写正文",
+          "写问候语"
+        ],
+        "answer": "写称呼,写问候语,写正文",
+        "explanation": "考查书信开头的基本格式逻辑。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物外貌描写词汇辨析",
+        "question": "把词语组成一句生动的人物描写语句。",
+        "options": [
+          "将军",
+          "金盔",
+          "全身",
+          "披挂",
+          "威武"
+        ],
+        "answer": "将军,全身,披挂,金盔,威武",
+        "explanation": "该句符合描述历史人物雄姿的逻辑。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "文言文疏通与智慧领悟",
+      "core_concept": "本单元通过《王戎不取道旁李》，学习文言文的基本翻译技巧。核心在于掌握古今异义词（如“走”在古文中指“跑”）和代词“之”的指代对象。通过王戎观察树在路边而多果实推断果子必苦的逻辑，学习他在日常生活中勤于思考、不随大流、善于观察和冷静分析的优良品质。",
+      "key_formula": "注释辅助+情境联想=读懂古文意图",
+      "common_mistakes": [
+        "误认为‘竞走’是现代运动中的竞走项目",
+        "分不清‘之’到底是指代王戎还是李子"
+      ],
+      "tips": "朗读时注意停顿，如‘树/在道边/而多子’，并想象王戎站在路边的神态。"
+    },
+    {
+      "point": "把握文章主要内容的方法",
+      "core_concept": "掌握“六要素法”（起因、经过、结果）来概括记叙文。对于历史故事，可以先理清人物关系，再通过关键动词串联情节。长文章可以采用“意义段合并法”，即先给文章分段并总结段意，再将各段大意合并成简洁的句子。",
+      "key_formula": "主要人物+核心事件+最终结果=文章大意",
+      "common_mistakes": [
+        "概括时过于啰嗦，变成了‘复述’所有细节",
+        "遗漏故事的关键起因，导致读者不理解结局"
+      ],
+      "tips": "试着用一两句话告诉别人‘谁发生了什么事，最后一共怎么样’。"
+    },
+    {
+      "point": "书信的基本格式",
+      "core_concept": "书信由称呼、问候语、正文、祝福语、署名、日期六部分组成。称呼顶格写，加冒号；问候语另起一行空两格；正文分段写；祝福语分两行写（‘祝你’空两格，‘万事如意’等顶格）；署名和日期写在右下方，署名在上，日期在下。",
+      "key_formula": "顶格称呼加冒号，落款右下名接时",
+      "common_mistakes": [
+        "把署名和日期写反了位置",
+        "在称呼后面漏写了冒号"
+      ],
+      "tips": "可以记一个口诀：头顶称呼冒号跟，问候祝福不能省，名字日期右下沉。"
+    },
+    {
+      "point": "人物外貌描写词汇辨析",
+      "core_concept": "积累描写人物外貌和气质的四字成语。学生需要根据职业、年龄、性格精准使用词汇。如‘威风凛凛’多用于将领兵士，‘文质彬彬’用于书生学者，‘相貌堂堂’用于形容仪表不凡的男子。通过刻画外表，能更好地衬托人物的内心世界。",
+      "key_formula": "身份地位+外貌特征=精准用词",
+      "common_mistakes": [
+        "把形容女生的词语（如眉清目秀）误用到粗犷的将军身上",
+        "将神态描写（目不转睛）与外貌描写词语混淆"
+      ],
+      "tips": "在脑海中为每个成语匹配一张明星或书本人物的‘脸’进行关联记忆。"
+    }
+  ]
+}

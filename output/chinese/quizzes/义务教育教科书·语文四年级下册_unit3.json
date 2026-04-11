@@ -1,0 +1,732 @@
+{
+  "textbook": "统编版小学语文四年级下册",
+  "unit": "第三单元：现代诗歌",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元 现代诗歌 基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "现代诗的情感意象感知",
+        "question": "《白桦》这首诗的作者是俄国诗人叶赛宁。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《白桦》是中国小学语文教材选录的著名现代诗，作者是苏里南籍或俄国诗人叶赛宁。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "诗歌语言的凝练与独特性",
+        "question": "诗歌通常分行书写，主要是为了节省纸张。",
+        "options": [],
+        "answer": "错",
+        "explanation": "诗歌分行是为了表现节奏、停顿，增强韵律感和视觉美。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "现代诗的情感意象感知",
+        "question": "“所有的绿集中起来，挤在一起”表达了诗人对春天的赞美。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是通过色彩的浓度来表达生命力和喜悦感。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "句式识别",
+        "question": "“哪一颗星没有光？哪一朵花没有香？”是一组排比和反问句。",
+        "options": [],
+        "answer": "对",
+        "explanation": "此句既有重复的结构（排比），也表达了肯定的语气（反问）。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "诗歌常识",
+        "question": "艾青曾说：“诗是人类向未来寄发的信息。”",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是课文《短诗三首》后面的名言积累内容。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词音形义",
+        "question": "下列词语中，加点字“绽”的正确读音是：",
+        "options": [
+          "dìng",
+          "zhàn",
+          "zhè",
+          "diàn"
+        ],
+        "answer": "zhàn",
+        "explanation": "“绽放”的“绽”读作 zhàn。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语释义",
+        "question": "“炫耀”在《在天晴了的时候》中是指：",
+        "options": [
+          "夸耀、显摆",
+          "明亮地照耀",
+          "闪烁不定",
+          "色彩单调"
+        ],
+        "answer": "夸耀、显摆",
+        "explanation": "诗中赋予小草性格，用拟人手法写它不再炫耀曾经的灰尘。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "现代诗的情感意象感知",
+        "question": "在《繁星（七一）》中，诗人提到“这些事”是指：",
+        "options": [
+          "学校里的往事",
+          "童年的往事",
+          "梦里的往事",
+          "游玩的往事"
+        ],
+        "answer": "童年的往事",
+        "explanation": "这些事是永不灭的回忆，指作者冰心怀念的童年细节。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞手法",
+        "question": "“到下过小雨的营地去吧，那里有泥土的清香。”这句诗运用的感官视角是：",
+        "options": [
+          "视觉",
+          "触觉",
+          "嗅觉",
+          "听觉"
+        ],
+        "answer": "嗅觉",
+        "explanation": "“清香”是通过鼻子闻到的气味。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现代诗的情感意象感知",
+        "question": "读一段诗：“白桦在我的窗前，披着一身雪。它仿佛穿上了白色的长袍。”这里的“长袍”指：",
+        "options": [
+          "真的衣服",
+          "厚厚的积雪",
+          "白色的云霞",
+          "树木的枝干"
+        ],
+        "answer": "厚厚的积雪",
+        "explanation": "根据诗意，雪落在树上，就像白色的袍子。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语言表达",
+        "question": "要把“雨后天晴”的感觉写得富有诗意，哪种描述最合适？",
+        "options": [
+          "太阳出来了，地面变干了。",
+          "小雨停了，空气很潮湿。",
+          "赤着脚，携着手，踏着青草，采着露珠。",
+          "地面上有很多积水，踩着很湿。"
+        ],
+        "answer": "赤着脚，携着手，踏着青草，采着露珠。",
+        "explanation": "出自戴望舒的诗，语言生动富有节奏感。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "诗人常识",
+        "question": "下列哪位诗人以写“母爱、童真、自然”而闻名？",
+        "options": [
+          "艾青",
+          "冰心",
+          "戴望舒",
+          "叶赛宁"
+        ],
+        "answer": "冰心",
+        "explanation": "冰心的《繁星》《春水》三大会题正是母爱、童真与自然。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "诗歌语言的凝练与独特性",
+        "question": "诗句“不再胆怯的小草，慢慢地抬起头来”运用了什么修辞？",
+        "options": [
+          "比喻",
+          "拟人",
+          "夸张",
+          "反问"
+        ],
+        "answer": "拟人",
+        "explanation": "给小草赋予了“胆怯”和“抬头”的人物动作和情感。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "文学常识",
+        "question": "关于现代诗，下列说法不正确的一项是：",
+        "options": [
+          "现代诗一定要像古诗一样对仗工整。",
+          "现代诗常具有丰富的想象力。",
+          "现代诗的节奏感往往来自于押韵或情感起伏。",
+          "现代诗也可以表达对家乡和母亲的怀念。"
+        ],
+        "answer": "现代诗一定要像古诗一样对仗工整。",
+        "explanation": "现代诗形式自由，不强制要求工整对仗。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词音形义",
+        "question": "“抖去水珠的凤蝶，晖中扇动着翅膀。”中“晖”的意思是：",
+        "options": [
+          "月光",
+          "灯光",
+          "阳光",
+          "闪电"
+        ],
+        "answer": "阳光",
+        "explanation": "朝晖、夕晖都指阳光的映射。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "现代诗的情感意象感知",
+        "question": "《绿》一诗中描写了绿的形态：“密密的绿，（___）的绿。”",
+        "options": [],
+        "answer": "叠叠",
+        "explanation": "根据课文内容，应填“叠叠”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文学常识",
+        "question": "冰心的《繁星》是作者在印度诗人（___）的《飞鸟集》启发下创作的。",
+        "options": [],
+        "answer": "泰戈尔",
+        "explanation": "文学史常识点。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "诗歌修辞",
+        "question": "“大海啊！哪一颗星没有光？”中，大海被诗人当作（___）倾诉。 (填角色名)",
+        "options": [],
+        "answer": "母亲",
+        "explanation": "冰心将大海比作母亲，向其寻求慰藉。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "作者与作品配对",
+        "question": "请将下列诗篇与其对应的作者连接起来。",
+        "options": [
+          "《繁星》",
+          "《绿》",
+          "《白桦》",
+          "《天晴了》",
+          "冰心",
+          "艾青",
+          "叶赛宁",
+          "戴望舒"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "这是本单元四首诗词的作者归属。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生字读音匹配",
+        "question": "根据读音选择正确的汉字匹配。",
+        "options": [
+          "胆怯",
+          "炫耀",
+          "尘垢",
+          "余晖",
+          "qiè",
+          "xuàn",
+          "gòu",
+          "huī"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "考察重点生字的认读。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "意象词语搭配",
+        "question": "将下列诗中的描写对象与其对应的色彩词匹配。",
+        "options": [
+          "雪花",
+          "流金",
+          "雪盖",
+          "繁星",
+          "银样",
+          "灿烂",
+          "洁白",
+          "晶莹"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "考察诗人对意象动态和静态的描写色彩。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "诗歌语言的组织",
+        "question": "请根据记忆，将《繁星（一五九）》中的诗句排列成句。",
+        "options": [
+          "心中的风雨来了",
+          "我只躲到你的怀里",
+          "天上的风雨来了",
+          "鸟儿躲到它的巢里"
+        ],
+        "answer": "天上的风雨来了,鸟儿躲到它的巢里,心中的风雨来了,我只躲到你的怀里",
+        "explanation": "通过对比天上的风雨和心中的风雨，表达对母亲的依恋。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子逻辑",
+        "question": "将下列词语排列成一句描写春天的诗句：",
+        "options": [
+          "风",
+          "是绿的",
+          "雨",
+          "也是绿的"
+        ],
+        "answer": "风,是绿的,雨,也是绿的",
+        "explanation": "出自艾青的《绿》，体现诗人奇特而主观的感受。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第二学期四年级语文 第三单元 现代诗歌测试 A卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "现代诗的情感意象感知",
+        "question": "现代诗不需要讲究情感，只需要记录生活。",
+        "options": [],
+        "answer": "错",
+        "explanation": "现代诗是情感的饱满流露，意蕴丰富。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文本理解",
+        "question": "《绿》这首诗中，诗人笔下的所有景物都染上了绿色。",
+        "options": [],
+        "answer": "对",
+        "explanation": "诗人运用想象，描写风、雨、阳光都是绿的。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法",
+        "question": "“推开大门的风，是个顽皮的孩子。”这是一个比喻句。",
+        "options": [],
+        "answer": "对",
+        "explanation": "将风比作孩子，运用了明喻。若只说风顽皮则是拟人。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "诗歌鉴赏",
+        "question": "诗歌语言追求简练，有时一两个字就能表达深意。",
+        "options": [],
+        "answer": "对",
+        "explanation": "凝练是诗歌的主要特征之一。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "诗人常识",
+        "question": "戴望舒被称为“雨巷诗人”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是对戴望舒文学地位的经典描述。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词读音",
+        "question": "下列加点词注音完全正确的一项是：",
+        "options": [
+          "赤脚（chì） 涉过（shè）",
+          "漫灭（màn） 膝盖（qī）",
+          "波涛（tāo） 绽放（dìng）",
+          "白桦（huà） 炫耀（xián）"
+        ],
+        "answer": "赤脚（chì） 涉过（shè）",
+        "explanation": "B项膝应当是xī，C项绽应当是zhàn，D项炫应当是xuàn。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词匹配",
+        "question": "选出下列与“寂静”意思相近的词语：",
+        "options": [
+          "喧闹",
+          "幽静",
+          "热闹",
+          "忙碌"
+        ],
+        "answer": "幽静",
+        "explanation": "寂静和幽静都表示环境没有声音、很安静。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式转换",
+        "question": "将“哪一颗星没有光？”改为陈述句，正确的是：",
+        "options": [
+          "这颗星没有光。",
+          "每一颗星都有光。",
+          "难道星星有光吗？",
+          "星星为什么有光？"
+        ],
+        "answer": "每一颗星都有光。",
+        "explanation": "反问句变陈述句，去掉问号、否定词变肯定。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现代诗的情感意象感知",
+        "question": "在《白桦》中，诗人描写白桦“姗姗来迟”的意象是：",
+        "options": [
+          "晨曦",
+          "朝霞",
+          "白雪",
+          "流金"
+        ],
+        "answer": "朝霞",
+        "explanation": "诗中写：朝霞姗姗来迟，在白桦上涂抹金色的光。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "诗歌语言的凝练与独特性",
+        "question": "“所有的绿集中起来，挤在一起，重叠在一起，静静地交叉在一起。”这句诗的作用是：",
+        "options": [
+          "说明绿的颜色很多很乱",
+          "表现绿的层次和动感",
+          "说明绿的空间不够用",
+          "描写由于绿太多而模糊"
+        ],
+        "answer": "表现绿的层次和动感",
+        "explanation": "通过动作词表现动态美。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语语境义",
+        "question": "根据课文，“曝着阳光”的“曝”意思是：",
+        "options": [
+          "暴力",
+          "晒",
+          "露天",
+          "突然"
+        ],
+        "answer": "晒",
+        "explanation": "曝晒的意思。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "“月明的园中，藤萝的叶下，母亲的膝上。”这句诗表达的情感是：",
+        "options": [
+          "对大自然的恐惧",
+          "对故乡风景的怀念",
+          "对童年温馨时刻的眷恋",
+          "对月夜寂寞的感叹"
+        ],
+        "answer": "对童年温馨时刻的眷恋",
+        "explanation": "此三处意象共同构成了童年母亲怀抱的温暖回忆。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "现代诗的情感意象感知",
+        "question": "现代诗《白桦》中，白桦树被赋予了什么样的象征意义？",
+        "options": [
+          "顽强不屈的劳动者",
+          "高洁、挺拔的人格",
+          "受尽风霜的老人",
+          "随风摇摆的小人"
+        ],
+        "answer": "高洁、挺拔的人格",
+        "explanation": "白桦的银色和挺拔象征了高尚、圣洁。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "短诗创作与集册",
+        "question": "如果你要给自己的诗集取名，写一首关于“友谊”的小诗，哪个名字最合适？",
+        "options": [
+          "《大山集》",
+          "《小溪的歌》",
+          "《并肩的树》",
+          "《孤独的云》"
+        ],
+        "answer": "《并肩的树》",
+        "explanation": "“并肩”象征同伴和友谊。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文学常识",
+        "question": "关于诗歌，下列哪种描述是错误的？",
+        "options": [
+          "诗歌必须每行字数相同",
+          "诗歌要有节奏感",
+          "诗歌通常包含诗人情感",
+          "诗歌可以描写大自然"
+        ],
+        "answer": "诗歌必须每行字数相同",
+        "explanation": "现代诗字数是不受限的。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现代诗的情感意象感知",
+        "question": "《在天晴了的时候》中写到，凤蝶扇动着翅膀在（___）中闲游。",
+        "options": [],
+        "answer": "日光",
+        "explanation": "对应文本：在日光中闲游。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生字词",
+        "question": "“抖去水珠的凤蝶，晖中扇动着（___）。”",
+        "options": [],
+        "answer": "翅膀",
+        "explanation": "考察课文记忆。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "文学术语",
+        "question": "诗歌通过对自然界（___）的描写，来抒发内心深处的情感。 (填两个字术语)",
+        "options": [],
+        "answer": "意象",
+        "explanation": "诗歌创作的核心要素。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语修饰搭配",
+        "question": "请将诗中的动词与修饰成分正确连接。",
+        "options": [
+          "慢慢地",
+          "静静地",
+          "自由地",
+          "悄悄地",
+          "抬头",
+          "交叉",
+          "流浪",
+          "绽放"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "考察现代诗中副词与动词的艺术搭配。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "感官描写匹配",
+        "question": "将下列诗句与其对应的感官感受进行匹配。",
+        "options": [
+          "泥土的清香",
+          "炫耀着新绿",
+          "凉爽的松脂",
+          "溪水歌唱着",
+          "嗅觉",
+          "视觉",
+          "触觉",
+          "听觉"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "考察诗歌对五官感受的应用。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "字词含义辨析",
+        "question": "将下列加点词在诗意中的象征意义进行匹配。",
+        "options": [
+          "毛茸茸的枝头",
+          "姗姗来迟",
+          "漫灭的记忆",
+          "所有的绿",
+          "生机勃勃",
+          "仪态端正",
+          "岁月模糊",
+          "蓬勃生命"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "深度理解诗中词汇蕴含的情感。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "诗歌语言组织",
+        "question": "将散乱的诗句还原：",
+        "options": [
+          "推开",
+          "大门的",
+          "风",
+          "是个",
+          "顽皮的孩子"
+        ],
+        "answer": "推开,大门的,风,是个,顽皮的孩子",
+        "explanation": "语感联系与诗意表达。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "短诗创作与集册",
+        "question": "按照合理逻辑排列关于小草的一句诗：",
+        "options": [
+          "在微风中",
+          "小草",
+          "向大地",
+          "点头致敬"
+        ],
+        "answer": "小草,在微风中,向大地,点头致敬",
+        "explanation": "拟人化写法的句子排序。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "现代诗的情感意象感知",
+      "core_concept": "情感意象是指诗人在创作中为了直觉地表现主观情感，从现实世界中选取的媒介。如冰心选取‘繁星’代表对母亲的怀念，艾青选取‘绿’代表勃勃的生机。感知意象需要调动视觉、听觉、嗅觉等多种感官。",
+      "key_formula": "具体事物 + 诗人情感 = 意象",
+      "common_mistakes": [
+        "将意象理解为纯粹的景物描写，忽略背后的情感寄托",
+        "在阅读时无法将文字描写转化为脑海中的画面感"
+      ],
+      "tips": "朗读时可以尝试闭上眼睛，想象诗中描绘的颜色（如银色、绿色）和动作，从色彩和节奏中体会诗人的心情。"
+    },
+    {
+      "point": "诗歌语言的凝练与独特性",
+      "core_concept": "诗歌语言不同于生活对话。它强调“分行”，产生独特的节奏韵律；运用大量的拟人、比喻，赋予草木、昆虫以人的情感色彩。一个词语（如“炫耀”、“胆怯”）往往能起到点亮全诗的作用。",
+      "key_formula": "语言简练 + 韵律节奏 + 生动修辞 = 诗歌美",
+      "common_mistakes": [
+        "把诗句改写成白话文时丢掉了原有的韵味",
+        "分不清拟人手法与单纯动作描写的区别"
+      ],
+      "tips": "关注诗句末尾押韵的字，感受诗歌的音乐美；留意诗中那些‘不寻常’的搭配，如‘绿得发黑’。"
+    },
+    {
+      "point": "短诗创作与集册",
+      "core_concept": "现代诗歌的创作强调表达个人真实的观察。学生应学会将生活中瞬间的感动或新奇的视角记录下来。分行排列是基本形式，可以结合个人喜好为小诗配图或分类（如母爱篇、自然篇）。",
+      "key_formula": "真实观察 + 独特联想 + 分行排列 = 我的小诗",
+      "common_mistakes": [
+        "写作时强行凑字，导致语言啰嗦不精炼",
+        "盲目模仿古诗追求对仗，反而限制了现代诗的灵性"
+      ],
+      "tips": "可以先从小句子开始改写，试着把春天写成一个活生生的人，这就是诗的雏形。"
+    }
+  ]
+}

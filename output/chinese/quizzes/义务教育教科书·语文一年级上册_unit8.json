@@ -1,0 +1,732 @@
+{
+  "textbook": "统编版小学语文一年级上册",
+  "unit": "第8单元：期末归纳与综合运用",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "第八单元基础归纳测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字结构分类与辨析",
+        "question": "“林”和“明”这两个字都是左右结构。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“林”由两个木组成，“明”由日和月组成，均为左右并列关系。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "“草、芽、花”这三个字都带有草字头，它们的意思通常和植物有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "草字头的字大多与花草植物及其生长状态有关。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "口语交际：场景音量控制",
+        "question": "在阅览室看到好玩的事情，我们可以大声地呼唤小伙伴来看。",
+        "options": [],
+        "answer": "错",
+        "explanation": "阅览室是公共安静场所，应当保持安静，需要交流时应用极小的声音。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字结构分类与辨析",
+        "question": "“爸”和“空”这两个字都是上下结构的字。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“爸”是父字头，“空”是穴宝盖，均为上下层级关系。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "“打、拍、拔”这些字都有提手旁，所以它们的意思常与手的动作有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "提手旁代表手部动作，这符合汉字形旁表义的规律。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "下面哪组字的偏旁完全相同？",
+        "options": [
+          "江、河、湖",
+          "江、地、海",
+          "花、妈、草",
+          "说、语、清"
+        ],
+        "answer": "江、河、湖",
+        "explanation": "江、河、湖三字均为三点水旁。B项“地”是土字旁，C项“妈”是女字旁，D项“清”是三点水。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字结构分类与辨析",
+        "question": "下列汉字中，属于“左窄右宽”的一组是：",
+        "options": [
+          "妈、地",
+          "回、国",
+          "全、公",
+          "和、如"
+        ],
+        "answer": "妈、地",
+        "explanation": "“妈、地”在书写时左边部分比例较小，右边占位较宽。B为全包围，C为上下结构。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "口语交际：场景音量控制",
+        "question": "下课了，老师正在办公室批改作业，你进去拿作业本时应该：",
+        "options": [
+          "大声喊报告",
+          "轻轻敲门，小声说话",
+          "跑进去直接大喊",
+          "不说话直接拿走"
+        ],
+        "answer": "轻轻敲门，小声说话",
+        "explanation": "办公室需要保持安静有序，尊重老师的办公环境。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "阅读应用",
+        "question": "阅读：雪地里来了一群小画家。小鸡画竹叶，小狗画梅花。文中“小画家”指的是：",
+        "options": [
+          "小朋友们",
+          "爱画画的孩子",
+          "雪地里的动物",
+          "竹叶和梅花"
+        ],
+        "answer": "雪地里的动物",
+        "explanation": "根据课文内容，小画家是指在雪地上留下脚印的小动物们。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "看到“跑、蹦、跳”这三个字，我们可以猜出它们的意思与（）有关。",
+        "options": [
+          "说话",
+          "脚的动作",
+          "眼睛",
+          "树木"
+        ],
+        "answer": "脚的动作",
+        "explanation": "足字旁代表动作与脚相关。跑、蹦、跳都需要用到脚。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字义辨析",
+        "question": "下列叠词使用不正确的一项是：",
+        "options": [
+          "弯弯的月儿",
+          "小小的船",
+          "大大的苹果",
+          "长长的气球"
+        ],
+        "answer": "长长的气球",
+        "explanation": "气球通常说“大大的”或“圆圆的”，描述形状。长长一般形容绳子或道路。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉字结构分类与辨析",
+        "question": "“国”字的结构是：",
+        "options": [
+          "半包围结构",
+          "全包围结构",
+          "上下结构",
+          "左右结构"
+        ],
+        "answer": "全包围结构",
+        "explanation": "“国”字中大“口”将里面的内容完全围住，是全包围结构。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“红红的苹果像灯笼一样挂在树上。”这句话运用了：",
+        "options": [
+          "拟人",
+          "比喻",
+          "排比",
+          "疑问"
+        ],
+        "answer": "比喻",
+        "explanation": "把苹果比作灯笼，用了“像……一样”的比喻词。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阅读应用",
+        "question": "短文：云在天上飞。有的像白羊，有的像棉花。风一吹，它们就跑了。这段话写了云的什么？",
+        "options": [
+          "颜色",
+          "名字",
+          "形状",
+          "大小"
+        ],
+        "answer": "形状",
+        "explanation": "像白羊、像棉花都是在描述云看起来的样子，即形状。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "带有“亻”的字，含义通常和（）有关。",
+        "options": [
+          "人",
+          "天气",
+          "心情",
+          "水"
+        ],
+        "answer": "人",
+        "explanation": "单人旁代表字义与人类的身份、动作或特征有关。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "“海、洋、江”的偏旁是（）。",
+        "options": [],
+        "answer": "三点水",
+        "explanation": "这三个字左边都是三点水，通常与水有关。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗积累",
+        "question": "“小时不识月，呼作（）盘。”",
+        "options": [],
+        "answer": "白玉",
+        "explanation": "出自李白的《古朗月行》。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反义词",
+        "question": "“上”的反义词是“下”，“大”的反义词是（）。",
+        "options": [],
+        "answer": "小",
+        "explanation": "大与小是一对基础的反义词。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "偏旁归类",
+        "question": "请将汉字与其对应的偏旁分类连在一起。",
+        "options": [
+          "苹",
+          "说",
+          "他",
+          "清",
+          "单人旁",
+          "草字头",
+          "三点水",
+          "言字旁"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "苹-草字头；说-言字旁；他-单人旁；清-三点水。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语搭配",
+        "question": "请为词语找到合适的搭档。",
+        "options": [
+          "金色的",
+          "绿色的",
+          "雪白的",
+          "圆圆的",
+          "叶子",
+          "浪花",
+          "月亮",
+          "太阳"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "金色的太阳，绿色的叶子，雪白的浪花，圆圆的月亮。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "量词搭配",
+        "question": "请选出合适的量词进行连线。",
+        "options": [
+          "一只",
+          "一个",
+          "一头",
+          "一颗",
+          "黄牛",
+          "苹果",
+          "小鸟",
+          "枣"
+        ],
+        "answer": "A-3,B-2,C-1,D-4",
+        "explanation": "一只小鸟，一个苹果，一头黄牛，一颗枣。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "现代句式",
+        "question": "连词成句：",
+        "options": [
+          "是",
+          "小学生",
+          "一年级的",
+          "我"
+        ],
+        "answer": "我,是,一年级的,小学生",
+        "explanation": "按照主谓宾结构：我是小学生。再加入定语修饰。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现代句式",
+        "question": "连词成句：",
+        "options": [
+          "在",
+          "鱼儿",
+          "快活地",
+          "游来游去",
+          "水里"
+        ],
+        "answer": "鱼儿,在,水里,快活地,游来游去",
+        "explanation": "主语（鱼儿）+ 地点状语（在水里）+ 描写词（快活地）+ 动作（游来游去）。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "一年级上册语文期末综合素质监测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字结构分类与辨析",
+        "question": "“尖”和“尘”笔画很少，结构上是左右结构的字。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“尖”是上小下大，“尘”是上小下土，它们都是上下结构。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "口语交际：场景音量控制",
+        "question": "在电影院看电影时，如果觉得口渴，可以大声喊妈妈给自己拿水。",
+        "options": [],
+        "answer": "错",
+        "explanation": "电影院是需要安静听声音的公共场所，大声说话会干扰他人。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "“远、近、进”这几个字都有走之旁，意思常和行走、路程有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "走之旁代表“走”或“路”，表达空间位置的移动或距离。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "古诗认知",
+        "question": "《咏鹅》这首诗的作者是唐朝诗人贺知章。",
+        "options": [],
+        "answer": "错",
+        "explanation": "《咏鹅》的作者是骆宾王。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字结构分类与辨析",
+        "question": "“本”字是在“木”字的基础上加了一横变成的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“本”是指事字，在木的底部加一横表示树根。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字结构分类与辨析",
+        "question": "下列汉字按结构分类，完全正确的一组是：",
+        "options": [
+          "上下结构：全、星",
+          "左右结构：国、回",
+          "上下结构：秋、林",
+          "全包围结构：爸、空"
+        ],
+        "answer": "上下结构：全、星",
+        "explanation": "A正确；B是全包围结构；C是左右结构；D是上下结构。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "带有“木”这个偏旁的字，大多和什么有关？",
+        "options": [
+          "天空",
+          "植物、树木",
+          "心情",
+          "金属"
+        ],
+        "answer": "植物、树木",
+        "explanation": "木字旁的字如桥、校、林等，最初都与木材或树木有关。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "口语交际：场景音量控制",
+        "question": "在医院里保持安静是为了：",
+        "options": [
+          "不让医生工作",
+          "怕吵醒病人的休息",
+          "大家都在比赛不说话",
+          "不让大家听到声音"
+        ],
+        "answer": "怕吵醒病人的休息",
+        "explanation": "医院需要安静环境，利于病人康复和医生诊断。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "“听、唱、喊”这三个字都有（），表示用嘴发出的动作。",
+        "options": [
+          "口字旁",
+          "日字旁",
+          "目字旁",
+          "心字底"
+        ],
+        "answer": "口字旁",
+        "explanation": "口字旁相关的字大多与嘴部的动作、发声或吃有关。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "“你是我的好朋友吗（ ）” 括号里应该填：",
+        "options": [
+          "。",
+          "！",
+          "？",
+          "，"
+        ],
+        "answer": "？",
+        "explanation": "“吗”是疑问语气助词，句末使用问号。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字义辨析",
+        "question": "“青蛙为什么没参加？”这句话中的“参加”是什么意思？",
+        "options": [
+          "加入到某种活动中",
+          "看别人画画",
+          "去睡觉",
+          "在雪里走"
+        ],
+        "answer": "加入到某种活动中",
+        "explanation": "参加是指加入其中。文中指青蛙没来雪地画画。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阅读理解",
+        "question": "短文：向日葵，圆圆脸。对着太阳笑，对着太阳站。这段话描写的是向日葵总是（ ）。",
+        "options": [
+          "向着月亮",
+          "向着星星",
+          "向着太阳",
+          "躲进土里"
+        ],
+        "answer": "向着太阳",
+        "explanation": "“对着太阳笑，对着太阳站”说明向日葵的方向始终追随太阳。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "下面哪个字带有“艹”？",
+        "options": [
+          "林",
+          "蓝",
+          "江",
+          "明"
+        ],
+        "answer": "蓝",
+        "explanation": "“蓝”字上面是草字头（艹）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多音字读音选择",
+        "question": "在“一只小松鼠”中，“一”应该读：",
+        "options": [
+          "yī",
+          "yì",
+          "yí",
+          "不读声调"
+        ],
+        "answer": "yì",
+        "explanation": "“一”在第一、二、三声字前读第四声。只（zhī）是第一声，所以一读yì。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用偏旁与部首对应规律",
+        "question": "下列哪个字和眼睛有关？",
+        "options": [
+          "眼",
+          "耳",
+          "口",
+          "手"
+        ],
+        "answer": "眼",
+        "explanation": "眼带有目字旁，表示与视觉和肉眼器官有关。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "反义词",
+        "question": "西瓜（），芝麻小。",
+        "options": [],
+        "answer": "大",
+        "explanation": "西瓜与芝麻相比，个头是大对小。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗填空",
+        "question": "鹅，鹅，鹅，曲项向天（）。",
+        "options": [],
+        "answer": "歌",
+        "explanation": "出自骆宾王的《咏鹅》。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "汉字结构分类与辨析",
+        "question": "“地”是左右结构，“里”是（）结构。",
+        "options": [],
+        "answer": "上下",
+        "explanation": "“里”由田和土组成，属于上下分布。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "场景音量匹配",
+        "question": "请将场景与合适的音量连起来。",
+        "options": [
+          "在阅览室读书",
+          "在操场踢足球",
+          "在家里正常交流",
+          "向老师提问",
+          "大声喊叫",
+          "轻悄悄",
+          "中等声音",
+          "不影响邻居的声音"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "阅览室宜轻悄悄，操场可大声喊，家里适中，提问也应适中不干扰他人。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉字拼音匹配",
+        "question": "给下面的生字选择正确的读音。",
+        "options": [
+          "参加",
+          "竹叶",
+          "画家",
+          "睡着",
+          "zhú yè",
+          "cān jiā",
+          "shuì zháo",
+          "huà jiā"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考察课文生字的拼音识记。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "诗词出处匹配",
+        "question": "请将选项中相关的两项连线。",
+        "options": [
+          "床前明月光",
+          "锄禾日当午",
+          "白毛浮绿水",
+          "谁知盘中餐",
+          "汗滴禾下土",
+          "粒粒皆辛苦",
+          "疑是地上霜",
+          "红掌拨清波"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "A与3组成静夜思一联；B与1与D组成悯农两联；C与4组成咏鹅两联。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "现代句式",
+        "question": "连词成句：",
+        "options": [
+          "雪地上",
+          "走来了",
+          "一群",
+          "小画家"
+        ],
+        "answer": "雪地上,走来了,一群,小画家",
+        "explanation": "地点状语在前，动词在中，宾语在后。出自课文。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "现代句式",
+        "question": "连词成句：",
+        "options": [
+          "国旗",
+          "我们的",
+          "五星红旗",
+          "是"
+        ],
+        "answer": "五星红旗,是,我们的,国旗",
+        "explanation": "确立主语“五星红旗”，谓语“是”，宾语“国旗”，“我们的”作定语。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "汉字结构分类与辨析",
+      "core_concept": "汉字由部件组成，按照部件位置不同可分为左右结构（如：林、好）、上下结构（如：全、爸）、半包围结构（如：还、同）、全包围结构（如：回、国）以及独体字（如：人口）。一年级学生需初步建立空间感，学会观察字在田字格中的占位。",
+      "key_formula": "看笔画分布，定间架结构。",
+      "common_mistakes": [
+        "将“尖、尘”误认为左右结构",
+        "全包围结构的字（如“国”）封口时间掌握不对"
+      ],
+      "tips": "书写时，掌握“左窄右宽”或“上小下大”的比例原则，有助于把字写美观。"
+    },
+    {
+      "point": "常用偏旁与部首对应规律",
+      "core_concept": "汉字大多是形声字，偏旁（部首）往往提示了字的意思范畴。如草字头（艹）多与植物相关，三点水（氵）多与水相关，单人旁（亻）多与人相关，足字旁（⻊）多与脚部动作相关。这有助于归类识字和理解字义。",
+      "key_formula": "形旁表义，声旁表音。",
+      "common_mistakes": [
+        "混淆三点水（氵）和两点水（冫）",
+        "分辨不清提手旁（扌）和木字旁（木）的动作特征"
+      ],
+      "tips": "看到不认识的字，观察左边偏旁，往往能猜出这个字大概讲的是什么内容。"
+    },
+    {
+      "point": "口语交际：场景音量控制",
+      "core_concept": "良好的口语交际不仅是说话，更包含礼仪。学生应当理解在不同生活场景中需要调节音量：在图书馆、医院、办公室、电影院应使用“转头音”（极小声）或保持沉默；在操场、升旗仪式时可以大声；在日常互动中采用适中音量。",
+      "key_formula": "看场合，分大小，保持安静懂礼貌。",
+      "common_mistakes": [
+        "在图书馆由于兴奋大声喊叫他人",
+        "分不清“小声说话”和“不说话”的区别"
+      ],
+      "tips": "可以总结顺口溜：人多公共处，轻声不吵闹；课堂发言时，响亮也要到。"
+    }
+  ]
+}

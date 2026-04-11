@@ -1,0 +1,733 @@
+{
+  "textbook": "统编版小学语文三年级上册",
+  "unit": "第四单元：预测与推想",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "“放假”里的“假”读音是 jià。",
+        "options": [],
+        "answer": "对",
+        "explanation": "表示休假、假期的意思时，‘假’读第四声 jià。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "“到处”里的“处”读音是 chǔ。",
+        "options": [],
+        "answer": "错",
+        "explanation": "‘到处’表示地方，应该读作第四声 chù。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "阅读时，我们可以根据文章的题目来预测故事的内容。",
+        "options": [],
+        "answer": "对",
+        "explanation": "题目往往包含文章的核心信息，是预测的重要依据。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "预测就是漫无边际的瞎想，不需要任何依据。",
+        "options": [],
+        "answer": "错",
+        "explanation": "预测需要依据插图、题目或生活经验进行合理推断。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "阅读中如果发现实际内容和预测的不一样，我们要修正预测。",
+        "options": [],
+        "answer": "对",
+        "explanation": "预测是一个动态的过程，需要根据实际内容不断调整。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "下列词语中“几”字读音为 jī 的是：",
+        "options": [
+          "几个",
+          "几百",
+          "茶几",
+          "几十"
+        ],
+        "answer": "茶几",
+        "explanation": "‘茶几’的‘几’读第一声，表示小桌子；其他项均读第三声，表示数量。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "“爸爸正在书房中（ ）奖。”括号里应填入的读音是：",
+        "options": [
+          "zhōng",
+          "zhòng",
+          "zhōn",
+          "zhòngs"
+        ],
+        "answer": "zhòng",
+        "explanation": "表示射中、被选中的意思时，读第四声 zhòng。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "《总也倒不了的老屋》中，老屋第二次准备倒下时听到了谁的请求？",
+        "options": [
+          "小猫",
+          "老母鸡",
+          "小蜘蛛",
+          "小狗"
+        ],
+        "answer": "老母鸡",
+        "explanation": "老屋第一次帮了小猫，第二次帮了老母鸡孵蛋。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "看到题目《一个豆荚里的五粒豆》，最合理的预测是：",
+        "options": [
+          "讲五颗豆子不同的命运",
+          "讲农民伯伯种地的辛苦",
+          "讲厨师如何做豆子汤",
+          "讲豆荚长得真大"
+        ],
+        "answer": "讲五颗豆子不同的命运",
+        "explanation": "题目说明了主角是五粒豆，通常童话会通过对比描写它们的经历。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "阅读短文：“天空乌云密布，狂风大作，蜻蜓飞得很低。”你预测接下来：",
+        "options": [
+          "太阳出来了",
+          "要下大雨了",
+          "雪花飘下来",
+          "天气很暖和"
+        ],
+        "answer": "要下大雨了",
+        "explanation": "根据生活经验，乌云、狂风、蜻蜓低飞都是下雨的征兆。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "续编故事的逻辑性",
+        "question": "在《小狗学叫》中，小狗在模仿公鸡叫时，被谁取笑了？",
+        "options": [
+          "狐狸",
+          "杜鹃",
+          "猎人",
+          "母鸡"
+        ],
+        "answer": "狐狸",
+        "explanation": "狐狸听到小狗学公鸡叫，觉得非常滑稽并嘲笑了它。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "“胡萝卜先生的长胡子沾到了果酱，胡子长得飞快。”由此预测长胡子的作用是：",
+        "options": [
+          "当作围巾",
+          "当作风筝线",
+          "当成面条吃",
+          "没有任何用"
+        ],
+        "answer": "当作风筝线",
+        "explanation": "根据课文内容，长胡子被小男孩剪下一段当作了风筝线。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "续编故事的逻辑性",
+        "question": "续编故事时，哪项原则是最重要的？",
+        "options": [
+          "必须写出新人物",
+          "字数越多越好",
+          "符合原有的情节逻辑",
+          "结局必须是开心的"
+        ],
+        "answer": "符合原有的情节逻辑",
+        "explanation": "续编需要顺着作者的思路和人物性格进行发展。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "“处”字在下列哪个词中的读音与其他三个不同？",
+        "options": [
+          "到处",
+          "近处",
+          "处理",
+          "住处"
+        ],
+        "answer": "处理",
+        "explanation": "‘处理’的‘处’读三声 chǔ，其余项均读四声 chù。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语积累",
+        "question": "形容“非常害怕，心里没底”的成语是：",
+        "options": [
+          "七上八下",
+          "五光十色",
+          "四面八方",
+          "三头六臂"
+        ],
+        "answer": "七上八下",
+        "explanation": "七上八下形容心神不定或惊怕不安。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "“假”字的两个读音分别是 jiǎ 和（ ）。",
+        "options": [],
+        "answer": "jià",
+        "explanation": "‘假’是多音字，有 jiǎ（虚假）和 jià（假期）两个读音。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "《总也倒不了的老屋》中，老屋最后是因为听（ ）讲故事才没倒。 ",
+        "options": [],
+        "answer": "蜘蛛",
+        "explanation": "蜘蛛在老屋门框上织网抓虫，并给它讲故事。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语积累",
+        "question": "形容一个人读书很多、学识渊博，可以用成语（ ）富五车。",
+        "options": [],
+        "answer": "学",
+        "explanation": "学富五车形容读书多，学识渊博。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语积累",
+        "question": "请将下列成语与其对应的数字进行连线。",
+        "options": [
+          "四面",
+          "七嘴",
+          "百发",
+          "成千",
+          "八舌",
+          "八方",
+          "上万",
+          "百中"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "四面八方，七嘴八舌，百发百中，成千上万。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "请根据课文内容，将动物与它们请老屋帮的忙连线。",
+        "options": [
+          "小猫",
+          "老母鸡",
+          "蜘蛛",
+          "小狗",
+          "不想被雨淋",
+          "想找地方孵蛋",
+          "想安心织网",
+          "文中没出现"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "小猫避雨，老母鸡孵蛋，蜘蛛织网，课文中没有小狗请求老屋。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "请为下列词语中的“中”字选择正确的读音。",
+        "options": [
+          "中国",
+          "中弹",
+          "中间",
+          "中奖",
+          "zhòng",
+          "zhōng",
+          "zhòng",
+          "zhōng"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "中国和中间读 zhōng，中弹和中奖读 zhòng。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "请将下列词语排列成一句关于预测的话。",
+        "options": [
+          "预测",
+          "并不是",
+          "随意的",
+          "猜测"
+        ],
+        "answer": "预测,并不是,随意的,猜测",
+        "explanation": "这句话阐述了预测的科学性，它是有依据的。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "续编故事的逻辑性",
+        "question": "请根据《胡萝卜先生的长胡子》内容，排列情节顺序。",
+        "options": [
+          "胡子沾果酱",
+          "胡子长长",
+          "放风筝",
+          "晾衣服"
+        ],
+        "answer": "胡子沾果酱,胡子长长,放风筝,晾衣服",
+        "explanation": "按照故事发展的先后顺序：先长长，再被当做风筝线，最后被当做晾衣绳。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第四单元“预测与推想”综合评价卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "“几百”中的“几”和“几乎”中的“几”读音完全一样。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“几百”读 jǐ，“几乎”读 jī。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "如果预测的内容和书上的不一样，说明我们读得不认真。",
+        "options": [],
+        "answer": "错",
+        "explanation": "预测不一定要和原文一致，只要依据合理即可。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "续编故事的逻辑性",
+        "question": "《小狗学叫》为我们提供了三种不一样的结局。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文原文确实提供了三种不同的可能性供学生思考。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "“中奖”和“中心”里“中”的读音是不同的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“中奖”读 zhòng，“中心”读 zhōng。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "在阅读中，预测可以帮助我们更好地理解故事，提高阅读速度。",
+        "options": [],
+        "answer": "对",
+        "explanation": "预测能激活大脑的思维，使阅读从被动接收变为主动探索。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "下列加点字读音完全正确的一组是：",
+        "options": [
+          "假期(jiǎ) 中奖(zhòng)",
+          "到处(chù) 几百(jǐ)",
+          "处罚(chù) 几个(jǐ)",
+          "几乎(jǐ) 假话(jiǎ)"
+        ],
+        "answer": "到处(chù) 几百(jǐ)",
+        "explanation": "A项假期应为jià；C项处罚应为chǔ；D项几乎应为jī。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语辨析",
+        "question": "“小蜘蛛在一边织网，一边（ ）故事。”括号里最恰当的词是：",
+        "options": [
+          "写",
+          "编",
+          "看",
+          "读"
+        ],
+        "answer": "编",
+        "explanation": "语境中蜘蛛是在即兴创作故事，用“编”最贴切。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "阅读：‘小狗终于学会了喔喔叫，它以为自己学会了语言，高兴地跑进大森林。’接下来最可能发生的是：",
+        "options": [
+          "小狗遇到了想吃母鸡的狐狸",
+          "小狗遇到了它的妈妈",
+          "小狗在森林里睡着了",
+          "小狗变成了一只公鸡"
+        ],
+        "answer": "小狗遇到了想吃母鸡的狐狸",
+        "explanation": "公鸡的叫声会吸引狐狸，这是合理的逻辑推断。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“老屋低头看看，眼睛眯成一条缝。”这句话运用的修辞手法是：",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "夸张"
+        ],
+        "answer": "拟人",
+        "explanation": "赋予老屋“低头”、“眯眼”等人的动作词，是拟人写法。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "《总也倒不了的老屋》中，老屋不断推迟倒下的核心原因是：",
+        "options": [
+          "由于老屋地基牢固",
+          "因为老屋喜欢听故事",
+          "因为它有一颗爱助人的心",
+          "因为它害怕倒塌"
+        ],
+        "answer": "因为它有一颗爱助人的心",
+        "explanation": "它为了帮助小猫、老母鸡和蜘蛛，才坚持不倒。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语积累",
+        "question": "“百发百中”中的“发”字读音和意思是：",
+        "options": [
+          "fā，发射",
+          "fà，头发",
+          "fā，发生",
+          "fà，发财"
+        ],
+        "answer": "fā，发射",
+        "explanation": "百发百中指射尿一百次中一百次，读第一声。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "“等等 □ 老屋 □ 小猫说 □ 我想在里面躲躲雨 □ ”方框里填标点最合适的是：",
+        "options": [
+          "， ， ， 。",
+          "“ ， ” ， “ 。 ”",
+          "“ ， ” ：“ 。 ”",
+          "！ ， 。 ！”"
+        ],
+        "answer": "“ ， ” ， “ 。 ”",
+        "explanation": "考查引用人物语言时，“说”在中间的标点用法。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "续编故事的逻辑性",
+        "question": "如果给《小狗学叫》续写第四个结局，哪个最不符合故事基调？",
+        "options": [
+          "它遇到了百灵鸟学唱歌",
+          "它遇到了主人回到了家",
+          "它突然变成了一只老虎",
+          "它听到了另一只狗的叫声"
+        ],
+        "answer": "它突然变成了一只老虎",
+        "explanation": "童话虽有想象力，但“突然变身”缺乏前期的逻辑支撑。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "“假若”的“假”和下列哪个词的读音相同？",
+        "options": [
+          "暑假",
+          "放假",
+          "真假",
+          "请假"
+        ],
+        "answer": "真假",
+        "explanation": "假若表示假设，读 jiǎ，和真假相同。其余为 jià。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "预测：‘一个赶路的人太渴了，他看到前面有一片梅林。’这个预测借鉴了：",
+        "options": [
+          "《曹操望梅止渴》",
+          "《司马光砸缸》",
+          "《精卫填海》",
+          "《女娲补天》"
+        ],
+        "answer": "《曹操望梅止渴》",
+        "explanation": "利用已有的阅读经验和历史典故进行预测。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词积累",
+        "question": "“屋”字的偏旁是（ ）。",
+        "options": [],
+        "answer": "尸",
+        "explanation": "“屋”是半包围结构，部首是尸字头。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "阅读时，我们要随时（ ）自己的预测，让预测更接近真相。",
+        "options": [],
+        "answer": "修正",
+        "explanation": "预测是一边读一边调整的过程，关键词是“修正”。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语积累",
+        "question": "“（ ）发百中”这个成语是描写射箭技术高超。",
+        "options": [],
+        "answer": "百",
+        "explanation": "百发百中，形容射击非常准。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "续编故事的逻辑性",
+        "question": "根据《小狗学叫》的三个结局，匹配小狗可能遇到的对象。",
+        "options": [
+          "第一个结局",
+          "第二个结局",
+          "第三个结局",
+          "作者续编",
+          "一头母牛",
+          "一只杜鹃",
+          "一头公牛",
+          "一只狐狸"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "教材中三个预测分别是遇到杜鹃、狐狸和公牛。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字的语境辨析",
+        "question": "请将加点字与其读音连线。",
+        "options": [
+          "假(jiǎ)装",
+          "假(jià)期",
+          "中(zhōng)心",
+          "中(zhòng)弹",
+          "zhōng",
+          "zhòng",
+          "jiǎ",
+          "jià"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "根据词义选择多音字读音。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "词语积累",
+        "question": "请连线组成含有数字的成语。",
+        "options": [
+          "五光",
+          "四通",
+          "九牛",
+          "提心",
+          "一毛",
+          "吊胆",
+          "八达",
+          "十色"
+        ],
+        "answer": "A-4,B-3,C-1,D-2",
+        "explanation": "五光十色，四通八达，九牛一毛，提心吊胆。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "依据线索进行阅读预测",
+        "question": "请排列写出预测的三种依据。",
+        "options": [
+          "题目",
+          "插图",
+          "和",
+          "生活经验"
+        ],
+        "answer": "题目,插图,和,生活经验",
+        "explanation": "这是本单元学习的核心预测方法。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "词语积累",
+        "question": "请连词成句。",
+        "options": [
+          "只要",
+          "回头看看",
+          "它",
+          "老屋",
+          "就会",
+          "发现"
+        ],
+        "answer": "老屋,只要,回头看看,它,就会,发现",
+        "explanation": "考查关联词“只要...就...”在句子中的运用。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "依据线索进行阅读预测",
+      "core_concept": "预测不是漫无边际的想象，而是读者根据文章提供的线索（如题目、插图、关键词）以及自己的生活经验、阅读常识，对故事情节的发展进行推测。预测内容可能与原文一致，也可能不同，重要的是预测的有理有据，并能在阅读过程中根据新信息不断修正自己的看法。",
+      "key_formula": "预测 = 文本线索（图/文/题） + 生活经验/阅读常识",
+      "common_mistakes": [
+        "凭空想象：完全脱离故事线索，乱编结局。",
+        "拒绝修正：即使读到后面发现和预测不符，也不肯改变原有想法。"
+      ],
+      "tips": "先看题目猜大概，再看插图猜人物，根据前文猜后文，读完反思猜对了没。"
+    },
+    {
+      "point": "多音字的语境辨析",
+      "core_concept": "本单元涉及“假、几、中、处”等常见多音字。辨析的关键在于“据义断音”。例如，“假”表示虚伪、假设时读 jiǎ，表示休假、期限时读 jià；“中”表示位置、中间时读 zhōng，表示目标被击中、获奖时读 zhòng。",
+      "key_formula": "辨音原则：看词义，定读音",
+      "common_mistakes": [
+        "将“几乎”的“几”误读为三声（正确为一音）。",
+        "将“放假”的“假”与“真假”的读音混淆。"
+      ],
+      "tips": "可以编顺口溜记忆，如：暑假(jià)里看假(jiǎ)戏，中(zhòng)标要在中(zhōng)间。"
+    },
+    {
+      "point": "续编故事的逻辑性",
+      "core_concept": "续编故事是预测能力的延伸应用。在给定的开头或中间环节后，需要顺着人物的性格特征、已有的情节逻辑以及故事的演变趋势，合理地写出接下来的内容。优秀的续编应该是意料之外、情理之中的。",
+      "key_formula": "续编要求：性格不变，逻辑合理，情节连贯",
+      "common_mistakes": [
+        "人设崩塌：让善良的角色突然变坏，缺乏过渡。",
+        "虎头蛇尾：由于没有思考逻辑，最后草草下结论或强行结尾。"
+      ],
+      "tips": "动笔前先想：如果我是这个角色，由于前面的经历，我现在会做什么？"
+    }
+  ]
+}

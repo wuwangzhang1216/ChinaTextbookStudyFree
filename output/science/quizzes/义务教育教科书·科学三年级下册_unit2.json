@@ -1,0 +1,705 @@
+{
+  "textbook": "教科版小学科学三年级下册",
+  "unit": "动物的一生",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元《动物的一生》基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动物的生命周期规律",
+        "question": "世界上所有的动物都有生命周期，都会经历出生、生长发育、繁殖和死亡的过程。",
+        "options": [],
+        "answer": "对",
+        "explanation": "生命周期是所有动物共同的特征。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "蚕的一生是从蚕宝宝（幼虫）开始的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "蚕的一生是从卵开始的。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动物卵的结构与分类",
+        "question": "鸡蛋内部的蛋黄将来发育成小鸡，而蛋白为胚胎发育提供营养和水分。",
+        "options": [],
+        "answer": "错",
+        "explanation": "蛋黄上有一个小白点叫胚盘，胚盘才发育成小鸡，蛋黄和蛋白提供营养。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "昆虫的身体结构特征",
+        "question": "蚕蛾虽然有翅膀，但是不能在空中飞行。",
+        "options": [],
+        "answer": "对",
+        "explanation": "蚕蛾的翅膀已经退化，只能振动翅膀并缓慢爬行。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动物的繁殖方式",
+        "question": "蝙蝠会飞，因此它属于鸟类，是通过产卵繁殖后代的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "蝙蝠是哺乳动物，属于胎生。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物卵的结构与分类",
+        "question": "下列动物中，产下的卵外面没有硬壳的是（）。",
+        "options": [
+          "青蛙",
+          "鸡",
+          "蛇",
+          "乌龟"
+        ],
+        "answer": "青蛙",
+        "explanation": "青蛙产在水里的卵是软的，没有硬壳保护。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物卵的结构与分类",
+        "question": "鸡蛋气室的作用主要是为胚胎发育提供（）。",
+        "options": [
+          "水分",
+          "养料",
+          "空气",
+          "空间"
+        ],
+        "answer": "空气",
+        "explanation": "气室储存空气供胚胎呼吸。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "蚕的一生中，身体最长的阶段是（）。",
+        "options": [
+          "蚕卵",
+          "五龄幼虫",
+          "蚕蛹",
+          "蚕蛾"
+        ],
+        "answer": "五龄幼虫",
+        "explanation": "五龄幼虫（即将吐丝前）是蚕身体最长的时期。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "蚕宝宝吐丝结茧的目的是（）。",
+        "options": [
+          "保暖",
+          "装饰",
+          "保护蛹",
+          "把自己困住"
+        ],
+        "answer": "保护蛹",
+        "explanation": "结茧是为了保护处于不吃不动状态的蛹。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "昆虫的身体结构特征",
+        "question": "蚕蛾身体分为哪三个部分（）。",
+        "options": [
+          "头、胸、腹",
+          "头、颈、腹",
+          "头、胸、尾",
+          "胸、腹、尾"
+        ],
+        "answer": "头、胸、腹",
+        "explanation": "昆虫的共同特征是身体分为头、胸、腹。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "昆虫的身体结构特征",
+        "question": "下列属于昆虫的是（）。",
+        "options": [
+          "蜘蛛",
+          "蜈蚣",
+          "蜜蜂",
+          "螃蟹"
+        ],
+        "answer": "蜜蜂",
+        "explanation": "蜜蜂具备头胸腹和三对足的特征。蜘蛛有4对足，不属于昆虫。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物的繁殖方式",
+        "question": "下列动物中，属于胎生动物的是（）。",
+        "options": [
+          "金鱼",
+          "燕子",
+          "大熊猫",
+          "鳄鱼"
+        ],
+        "answer": "大熊猫",
+        "explanation": "大熊猫通过产下幼崽并哺乳，是胎生。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物的生命周期规律",
+        "question": "下列不属于人和动物共有生命周期现象的是（）。",
+        "options": [
+          "死亡",
+          "繁殖后代",
+          "生长发育",
+          "冬眠"
+        ],
+        "answer": "冬眠",
+        "explanation": "死亡、繁殖、生长发育是所有生物共性，但并非所有动物都冬眠。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物卵的结构与分类",
+        "question": "观察干鸡蛋时，发现蛋壳上有很多小孔，它们的作用是（）。",
+        "options": [
+          "让蛋轻一点",
+          "透气",
+          "利于孵化",
+          "没有什么用"
+        ],
+        "answer": "透气",
+        "explanation": "蛋壳上的气孔保证胚胎与外界进行气体交换。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "喂养蚕宝宝时，不正确的做法是（）。",
+        "options": [
+          "采摘新鲜桑叶",
+          "桑叶上的水要擦干",
+          "房间里喷洒灭蚊剂",
+          "清理蚕沙"
+        ],
+        "answer": "房间里喷洒灭蚊剂",
+        "explanation": "杀虫剂会导致蚕中毒死亡。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动物的生命周期规律",
+        "question": "影响蚕生长发育的外界条件不包括（）。",
+        "options": [
+          "温度",
+          "食物",
+          "湿度",
+          "光照颜色"
+        ],
+        "answer": "光照颜色",
+        "explanation": "温度、食物品质和适宜湿度对蚕的生长至关重要。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物的繁殖方式",
+        "question": "小明家养了一只狗，它属于（）。",
+        "options": [
+          "卵生动物",
+          "胎生动物",
+          "两栖动物",
+          "变态发育动物"
+        ],
+        "answer": "胎生动物",
+        "explanation": "狗是哺乳动物，直接产下胎儿。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "蚕身体两侧的小黑点是它的（）。",
+        "options": [
+          "眼睛",
+          "气门",
+          "足",
+          "花纹"
+        ],
+        "answer": "气门",
+        "explanation": "那是蚕的呼吸器官，叫气门。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "昆虫的身体结构特征",
+        "question": "成虫期（蚕蛾）的蚕有（___）对足。",
+        "options": [],
+        "answer": "3",
+        "explanation": "昆虫成虫都有三对足。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "蚕的一生共要经历（___）次蜕皮。",
+        "options": [],
+        "answer": "6",
+        "explanation": "幼虫期4次，蚕茧内2次（蜕皮变蛹和变蛾）。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "像蚕这样，幼虫和成虫在形态构造和生活习性上差异很大的发育过程叫（___）。",
+        "options": [],
+        "answer": "变态发育",
+        "explanation": "生命周期中形态发生剧烈变化的过程称为变态发育。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物的繁殖方式",
+        "question": "靠产卵繁殖后代的繁殖方式叫（___）。",
+        "options": [],
+        "answer": "卵生",
+        "explanation": "卵生是动物繁殖的基本方式之一。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "蚕宝宝生长过程中，不吃不动像睡觉一样，这叫（___）。",
+        "options": [],
+        "answer": "眠",
+        "explanation": "蚕在蜕皮前会有‘眠’的过程。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级下册第二单元《动物的一生》综合素质抽测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动物卵的结构与分类",
+        "question": "由于所有动物都是生命体，所以所有的动物卵都有硬壳保护。",
+        "options": [],
+        "answer": "错",
+        "explanation": "鱼卵、蛙卵等就没有硬壳。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "动物的繁殖方式",
+        "question": "胎生动物的幼体在母体内发育，营养主要来自母体。",
+        "options": [],
+        "answer": "对",
+        "explanation": "胎儿通过胎盘和脐带从母体获得养料和氧气。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "昆虫的身体结构特征",
+        "question": "蜻蜓的一生不经历‘蛹’的阶段，它和蚕的发育过程不完全相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "蜻蜓是不完全变态发育，没有蛹期；蚕是完全变态发育。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动物的生命周期规律",
+        "question": "为了保护小动物，我们不应该去观察和研究它们的生命周期。",
+        "options": [],
+        "answer": "错",
+        "explanation": "观察研究应在不伤害动物的前提下进行，这有助于科学认知。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "蚕蛾羽化后，由于能量不足，需要立即进食大量的桑叶。",
+        "options": [],
+        "answer": "错",
+        "explanation": "蚕蛾不再进食，其主要任务是交尾繁殖后代。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "昆虫的身体结构特征",
+        "question": "以下哪种特征不属于昆虫（）。",
+        "options": [
+          "有三对足",
+          "身体分为头胸腹",
+          "身体分为头腹部",
+          "有一对触角"
+        ],
+        "answer": "身体分为头腹部",
+        "explanation": "昆虫必须分三部分：头、胸、腹。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "在观察蚕的实验中，蚕宝宝蜕皮的原因是（）。",
+        "options": [
+          "它长大了，旧皮限制了生长",
+          "它觉得太热了",
+          "皮太脏了需要更换",
+          "这种皮太厚了"
+        ],
+        "answer": "它长大了，旧皮限制了生长",
+        "explanation": "昆虫的表皮不能随着身体的长大而扩大，所以需要定期蜕皮。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物卵的结构与分类",
+        "question": "下列动物中，繁殖方式和鸡一样的是（）。",
+        "options": [
+          "老虎",
+          "猫",
+          "燕子",
+          "鲸鱼"
+        ],
+        "answer": "燕子",
+        "explanation": "鸡和燕子都是卵生动物。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物的繁殖方式",
+        "question": "像猫、狗和人才有的繁殖特点是（）。",
+        "options": [
+          "产卵",
+          "孵化",
+          "胎生哺乳",
+          "变态发育"
+        ],
+        "answer": "胎生哺乳",
+        "explanation": "哺乳类动物的共同特征是胎生、哺乳。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "把蚕蛹放在手里，发现（）。",
+        "options": [
+          "完全不动了",
+          "会发出声音",
+          "用手触摸会动",
+          "一直在跑"
+        ],
+        "answer": "用手触摸会动",
+        "explanation": "蛹虽然不吃不动，但它是活的生命体，受到外界刺激会摆动腹部。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物的生命周期规律",
+        "question": "人的一生中，身体长高最快的时期是（）。",
+        "options": [
+          "婴儿期和青春期",
+          "中年时期",
+          "婴儿期和成年期",
+          "老年时期"
+        ],
+        "answer": "婴儿期和青春期",
+        "explanation": "这是人生中两个生长发育的高峰期。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物卵的结构与分类",
+        "question": "为了看清蚕卵的变化，我们需要使用的工具是（）。",
+        "options": [
+          "近视镜",
+          "放大镜",
+          "平面镜",
+          "太阳镜"
+        ],
+        "answer": "放大镜",
+        "explanation": "蚕卵很小，需要借助放大镜进行细微观察。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "昆虫的身体结构特征",
+        "question": "蚕蛾身体的哪个部分长有足（）。",
+        "options": [
+          "头部",
+          "胸部",
+          "腹部",
+          "背部"
+        ],
+        "answer": "胸部",
+        "explanation": "昆虫的足都长在胸部。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "蚕的一生中，生存时间最短的是（）。",
+        "options": [
+          "卵",
+          "幼虫",
+          "蛹",
+          "成虫"
+        ],
+        "answer": "成虫",
+        "explanation": "成虫（蚕蛾）完成交尾产卵后很快就会死亡，通常只有一周左右。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物的生命周期规律",
+        "question": "下列动物中，经历的生命周期最短的是（）。",
+        "options": [
+          "大象",
+          "蚂蚁",
+          "海龟",
+          "蜉蝣"
+        ],
+        "answer": "蜉蝣",
+        "explanation": "蜉蝣有些种类成虫寿命仅一天左右。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物卵的结构与分类",
+        "question": "煮熟后的鸡蛋剥去蛋壳，看到大头那一端陷进去的一部分，那是（）。",
+        "options": [
+          "蛋黄",
+          "蛋白",
+          "气室",
+          "胚胎"
+        ],
+        "answer": "气室",
+        "explanation": "气室位于鸡蛋的大头端。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "昆虫的身体结构特征",
+        "question": "关于蚕蛾的雌雄特征，正确的是（）。",
+        "options": [
+          "雌蛾体大、翅大",
+          "雄蛾爬行慢、体小",
+          "雌蛾体大、爬行慢",
+          "雄蛾没翅膀"
+        ],
+        "answer": "雌蛾体大、爬行慢",
+        "explanation": "雌蛾因为腹部充满卵，所以身体较大且行动缓慢。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物的繁殖方式",
+        "question": "人出生后，最主要的食物来源是（）。",
+        "options": [
+          "桑叶",
+          "肉类",
+          "母乳",
+          "蔬菜"
+        ],
+        "answer": "母乳",
+        "explanation": "由于人类是哺乳动物，幼年期主要依赖母乳。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "昆虫的身体结构特征",
+        "question": "昆虫共有（___）只足。",
+        "options": [],
+        "answer": "6",
+        "explanation": "三对足即为六只足。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "蚕在蚕房中度过的幼虫阶段大约是（___）天。",
+        "options": [],
+        "answer": "30",
+        "explanation": "根据实验观察，蚕的幼虫期约一个月。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "蚕的生长发育阶段",
+        "question": "刚从卵里孵化出来的幼虫，黑黑的像蚂蚁，我们称它为（___）。",
+        "options": [],
+        "answer": "蚁蚕",
+        "explanation": "蚁蚕是蚕的第一个幼虫状态。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物卵的结构与分类",
+        "question": "鸡蛋内部的（___）能发育成生命。",
+        "options": [],
+        "answer": "胚",
+        "explanation": "胚（或胚盘）是生命发育的起点。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动物的生命周期规律",
+        "question": "动物繁殖后代的意义在于保持种族的（___）。",
+        "options": [],
+        "answer": "延续",
+        "explanation": "繁殖使生命不断流传下去。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "动物卵的结构",
+      "core_concept": "卵壳保护胚胎，卵白和卵黄提供营养和水分，气室提供氧气。",
+      "key_formula": "受精卵 + 适宜条件（温度、湿度）= 新生命",
+      "common_mistakes": [
+        "认为蛋黄就是胚胎",
+        "认为所有卵都有硬壳"
+      ],
+      "tips": "观察鸡蛋时，用放大镜找找蛋壳上的气孔。"
+    },
+    {
+      "point": "蚕的变态发育",
+      "core_concept": "蚕的一生要经历卵、幼虫、蛹、成虫四个阶段。",
+      "key_formula": "全周期天数 ≈ 50-60天",
+      "common_mistakes": [
+        "忘记计算蚕茧里的蜕皮次数",
+        "认为蚕蛾需要吃桑叶"
+      ],
+      "tips": "记清楚：幼虫期蜕皮4次，一共蜕皮6次。"
+    },
+    {
+      "point": "昆虫特征",
+      "core_concept": "成虫身体分为头、胸、腹三部分，胸部有三对足。",
+      "key_formula": "身体3部 + 足3对 = 昆虫",
+      "common_mistakes": [
+        "把蜘蛛当成昆虫",
+        "认为只有会飞的是昆虫"
+      ],
+      "tips": "看足的数量是区分昆虫最快的方法。"
+    },
+    {
+      "point": "繁殖方式分类",
+      "core_concept": "动物繁殖分为卵生（产卵）和胎生（由母体直接产下并哺乳）。",
+      "key_formula": "哺乳动物 ≈ 胎生",
+      "common_mistakes": [
+        "把鲸鱼、蝙蝠当成卵生动物"
+      ],
+      "tips": "胎生动物的标志是“吃母乳”。"
+    },
+    {
+      "point": "人的生命周期",
+      "core_concept": "人的一生经历婴儿、幼儿、青少年、成年、老年阶段。",
+      "key_formula": "出生—生长发育—繁殖—死亡",
+      "common_mistakes": [
+        "认为人没有繁殖和死亡的周期属性"
+      ],
+      "tips": "养成良好的生活习惯是健康度过生命周期的关键。"
+    }
+  ]
+}

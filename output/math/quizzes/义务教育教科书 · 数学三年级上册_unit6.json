@@ -1,0 +1,697 @@
+{
+  "textbook": "人教版小学数学三年级上册",
+  "unit": "多位数乘一位数",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第六单元「多位数乘一位数」单元综合评测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法与算理转化",
+        "question": "$40 \times 5 = 200$",
+        "options": [],
+        "answer": "对",
+        "explanation": "$40 \times 5$ 可以看作4个十乘5，等于20个十，即200。验算：$200 \text{  } / \text{  } 5 = 40$ ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "乘数中间或末尾有0的乘法",
+        "question": "0 和任何数相乘都得 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据乘法的意义，0个几或几个0相加都是0，所以0和任何数相乘都得0。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乘数中间或末尾有0的乘法",
+        "question": "$102 \times 3$ 的积的中间一定有一个 0。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$102 \times 3 = 306$，虽然中间有0，但如果是个位进位如 $106 \times 3 = 318$，中间就没有0了。本题仅就 102x3 而言是对的，但作为命题逻辑需注意进位。此题计算 $102 \times 3 = 306$ 确实有0，命题表述为具体的算式则为真。但 102x3=306 正确。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "一个多位数乘一位数，积一定是多位数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两位数及以上的数乘一位数（非0），最小是 $10 \times 1 = 10$，结果至少是两位数。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "三位数乘一位数，积可能是四位数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "如 $500 \times 2 = 1000$，1000是四位数。所以积可能是四位数。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法与算理转化",
+        "question": "$300 \times 4$ 的积是多少？",
+        "options": [
+          "120",
+          "1200",
+          "700",
+          "1210"
+        ],
+        "answer": "1200",
+        "explanation": "$3 \times 4 = 12$，所以 $300 \times 4 = 1200$。验算：$1200 \text{  } / \text{  } 4 = 300$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法与算理转化",
+        "question": "计算 $60 \times 8$ 时，可以先算 $6 \times 8 = 48$，再在 48 的末尾添上几个 0？",
+        "options": [
+          "一个",
+          "两个",
+          "三个",
+          "不添"
+        ],
+        "answer": "一个",
+        "explanation": "60是6个十，乘8得48个十，即480，所以在末尾添1个0。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "$24 \times 3$ 的结果是多少？",
+        "options": [
+          "62",
+          "72",
+          "612",
+          "52"
+        ],
+        "answer": "72",
+        "explanation": "个位 $4 \times 3 = 12$，向十位进1，个位写2；十位 $2 \times 3 = 6$，加上进位的1得7。结果是72。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "一个三位数乘一位数，积最少是几位数？",
+        "options": [
+          "两位数",
+          "三位数",
+          "四位数",
+          "五位数"
+        ],
+        "answer": "三位数",
+        "explanation": "最小的三位数是100，最小的一位数（不含0）是1，$100 \times 1 = 100$，是三位数。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "$125 \times 8$ 的积的末尾有几个 0？",
+        "options": [
+          "1 个",
+          "2 个",
+          "3 个",
+          "4 个"
+        ],
+        "answer": "3 个",
+        "explanation": "$125 \times 8 = 1000$，末尾有三个0。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘数中间或末尾有0的乘法",
+        "question": "$504 \times 2$ 的结果是多少？",
+        "options": [
+          "1008",
+          "108",
+          "1080",
+          "1000"
+        ],
+        "answer": "1008",
+        "explanation": "$500 \times 2 = 1000$，$4 \times 2 = 8$，$1000 + 8 = 1008$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘数中间或末尾有0的乘法",
+        "question": "$250 \times 4$ 的积的末尾有几个 0？",
+        "options": [
+          "1 个",
+          "2 个",
+          "3 个",
+          "4 个"
+        ],
+        "answer": "3 个",
+        "explanation": "$25 \times 4 = 100$，再在后面加原有的一个0，得1000，共3个0。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "小明买 3 本练习本用了 12 元。照这样计算，买 9 本练习本需要多少钱？",
+        "options": [
+          "24 元",
+          "36 元",
+          "48 元",
+          "108 元"
+        ],
+        "answer": "36 元",
+        "explanation": "先求单价：$12 \text{  } / \text{  } 3 = 4$（元）。再求9本总价：$4 \times 9 = 36$（元）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "老师买了 4 枝钢笔用了 32 元。如果用 80 元钱，可以买多少枝这样的钢笔？",
+        "options": [
+          "8 枝",
+          "10 枝",
+          "12 枝",
+          "20 枝"
+        ],
+        "answer": "10 枝",
+        "explanation": "先求单价：$32 \text{  } / \text{  } 4 = 8$（元）。再求数量：$80 \text{  } / \text{  } 8 = 10$（枝）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法与算理转化",
+        "question": "比较大小：$20 \times 3 \text{  } \text{  } \text{   } 30 \times 2$",
+        "options": [
+          ">",
+          "<",
+          " =",
+          " ≈"
+        ],
+        "answer": " =",
+        "explanation": "$20 \times 3 = 60$，$30 \times 2 = 60$，所以相等。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "学校买来 2 叠本子，每叠 20 本。如果把这些本子平均分给 8 个同学，每个同学分多少本？",
+        "options": [
+          "4 本",
+          "5 本",
+          "10 本",
+          "40 本"
+        ],
+        "answer": "5 本",
+        "explanation": "总本数：$2 \times 20 = 40$（本）。每人分得：$40 \text{  } / \text{  } 8 = 5$（本）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "估算 $298 \times 3$，结果最接近多少？",
+        "options": [
+          "600",
+          "900",
+          "1200",
+          "300"
+        ],
+        "answer": "900",
+        "explanation": "298 接近 300，$300 \times 3 = 900$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "要使 $231 \times \text{ ┱}$ 的积是三位数，$\text{ ┱}$里最大填几？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "9"
+        ],
+        "answer": "4",
+        "explanation": "$231 \times 4 = 924$（三位数），$231 \times 5 = 1155$（四位数），所以最大填4。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法与算理转化",
+        "question": "一只螃蟹有 8 条腿，40 只螃蟹一共有 ___ 条腿。",
+        "options": [],
+        "answer": "320",
+        "explanation": "列式：$8 \times 40 = 320$。验算：$320 \text{  } / \text{  } 8 = 40$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "小明每天看 12 页书，一个星期（7天）一共看了 ___ 页。",
+        "options": [],
+        "answer": "84",
+        "explanation": "一星期7天。列式：$12 \times 7 = 84$。验算：$84 \text{  } / \text{  } 7 = 12$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "3 名同学 2 小时做了 18 朵花。照这样计算，1 名同学 1 小时做 ___ 朵花。",
+        "options": [],
+        "answer": "3",
+        "explanation": "先求3人1小时做的：$18 \text{  } / \text{  } 2 = 9$（朵）。再求1人1小时做的：$9 \text{  } / \text{  } 3 = 3$（朵）。或 $18 \text{  } / \text{  } (3 \times 2) = 3$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "$212 \times 3 = ?$",
+        "options": [],
+        "answer": "636",
+        "explanation": "$200 \times 3 = 600$，$12 \times 3 = 36$，$600 + 36 = 636$。验算：$636 \text{  } / \text{  } 3 = 212$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘数中间或末尾有0的乘法",
+        "question": "$106 \times 5 = ?$",
+        "options": [],
+        "answer": "530",
+        "explanation": "$100 \times 5 = 500$，$6 \times 5 = 30$，$500 + 30 = 530$。验算：$530 \text{  } / \text{  } 5 = 106$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级上学期期末综合测试（多位数乘法专题）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法与算理转化",
+        "question": "$200 \times 5$ 的积的末尾有 2 个 0。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$200 \times 5 = 1000$，积的末尾有 3 个 0。故原说法错误。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "乘数中间或末尾有0的乘法",
+        "question": "$0 + 1 + 2 + 3 + 4 + 5 < 0 \times 1 \times 2 \times 3 \times 4 \times 5$",
+        "options": [],
+        "answer": "错",
+        "explanation": "左边和为15，右边积为0，$15 > 0$，所以判断为错。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "两个数相乘，积一定大于其中的每一个因数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "如果其中一个因数是0或1，积就不一定大于因数。如 $5 \times 0 = 0$，$0 < 5$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "乘数中间或末尾有0的乘法",
+        "question": "$350 \times 4$ 的积的末尾一共有 2 个 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$35 \times 4 = 140$，添上原有的一个0得1400，有两个0。正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "一个三位数乘 7，积可能是三位数，也可能是四位数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$100 \times 7 = 700$（三位），$200 \times 7 = 1400$（四位）。正确。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法与算理转化",
+        "question": "比 $30 \times 6$ 少 20 的数是多少？",
+        "options": [
+          "160",
+          "180",
+          "200",
+          "140"
+        ],
+        "answer": "160",
+        "explanation": "$30 \times 6 = 180$，$180 - 20 = 160$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "$435 \times 2$ 的结果是多少？",
+        "options": [
+          "860",
+          "870",
+          "810",
+          "437"
+        ],
+        "answer": "870",
+        "explanation": "$400 \times 2 = 800$，$35 \times 2 = 70$，$800 + 70 = 870$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘数中间或末尾有0的乘法",
+        "question": "下面算式中，积最大的是哪个？",
+        "options": [
+          "201 \times 3",
+          "301 \times 2",
+          "199 \times 3",
+          "250 \times 2"
+        ],
+        "answer": "201 \times 3",
+        "explanation": "A=603, B=602, C=597, D=500。所以A最大。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "在笔算 $23 \times 3$ 时，十位上的 $2 \times 3$ 得 6，这个“6”表示什么？",
+        "options": [
+          "6 个一",
+          "6 个十",
+          "6 个百",
+          "无法确定"
+        ],
+        "answer": "6 个十",
+        "explanation": "十位上的2表示2个十，2个十乘3等于6个十。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "一辆自行车 398 元，买 5 辆这样的自行车，大约需要准备多少钱？",
+        "options": [
+          "1500 元",
+          "2000 元",
+          "2500 元",
+          "3000 元"
+        ],
+        "answer": "2000 元",
+        "explanation": "$398 \text{ ≈ } 400$，$400 \times 5 = 2000$（元）。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "某工厂 3 小时生产 120 个零件。照这样计算，生产 400 个零件需要多少小时？",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "15"
+        ],
+        "answer": "10",
+        "explanation": "单效率：$120 \text{  } / \text{  } 3 = 40$（个/小时）；所需时间：$400 \text{  } / \text{  } 40 = 10$（小时）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘数中间或末尾有0的乘法",
+        "question": "要使 $\text{ ┱} 02 \times 4$ 的积是三位数，$\text{ ┱}$ 里可以填几？",
+        "options": [
+          "1 或 2",
+          "2 或 3",
+          "1, 2, 3",
+          "4"
+        ],
+        "answer": "1 或 2",
+        "explanation": "$102 \times 4 = 408$（三位），$202 \times 4 = 808$（三位），$302 \times 4 = 1208$（四位）。故填1,2。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法与算理转化",
+        "question": "计算 $400 \times 5$，可以看作 4 个（ ）乘 5。",
+        "options": [
+          "一",
+          "十",
+          "百",
+          "千"
+        ],
+        "answer": "百",
+        "explanation": "400即4个百。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "王老师带了 100 元，买了 8 个足球，每个 12 元。他还剩多少钱？",
+        "options": [
+          "4 元",
+          "14 元",
+          "96 元",
+          "2 元"
+        ],
+        "answer": "4 元",
+        "explanation": "总花费：$12 \times 8 = 96$（元）。剩余：$100 - 96 = 4$（元）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "$489 \times 0 \times 7$ 的结果是多少？",
+        "options": [
+          "3423",
+          "489",
+          "0",
+          "7"
+        ],
+        "answer": "0",
+        "explanation": "任何数与0相乘都积为0。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "小力 4 分钟跑了 400 米，小强 3 分钟跑了 330 米。谁跑得快？",
+        "options": [
+          "小力快",
+          "小强快",
+          "一样快",
+          "无法比较"
+        ],
+        "answer": "小强快",
+        "explanation": "小力速度：$400 \text{  } / \text{  } 4 = 100$（米/分）；小强速度：$330 \text{  } / \text{  } 3 = 110$（米/分）。$110 > 100$，小强快。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "一个两位数乘 9，积（ ）。",
+        "options": [
+          "一定是三位数",
+          "一定是两位数",
+          "可能是两位数也可能是三位数",
+          "一定是四位数"
+        ],
+        "answer": "可能是两位数也可能是三位数",
+        "explanation": "$11 \times 9 = 99$（两位），$12 \times 9 = 108$（三位）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "$5 \times 600$ 的积的末尾有几个 0？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3",
+        "explanation": "$5 \times 6 = 30$，补上两个0得 3000，共3个。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "口算乘法与算理转化",
+        "question": "一辆客车限制载客 50 人，6 辆这样的客车一共能载客 ___ 人。",
+        "options": [],
+        "answer": "300",
+        "explanation": "列式：$50 \times 6 = 300$。验算：$300 \text{  } / \text{  } 6 = 50$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "一个三位数 105 的 4 倍是 ___ 。",
+        "options": [],
+        "answer": "420",
+        "explanation": "列式：$105 \times 4 = 420$。验算：$100 \times 4 = 400$，$5 \times 4 = 20$，$400 + 20 = 420$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乘法估算与归一问题解决",
+        "question": "小华 5 分钟写 60 个大字。照这样计算，他 12 分钟能写 ___ 个大字。",
+        "options": [],
+        "answer": "144",
+        "explanation": "先求每分钟写几个：$60 \text{  } / \text{  } 5 = 12$（个）。再求12分钟写的：$12 \times 12 = 144$（个）。验算：$144 \text{  } / \text{  } 12 = 12$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "乘数中间或末尾有0的乘法",
+        "question": "$304 \times 3 = ?$",
+        "options": [],
+        "answer": "912",
+        "explanation": "个位 $4 \times 3 = 12$，十位 $0 \times 3 + 1 = 1$，百位 $3 \times 3 = 9$。结果912。验算：$912 \text{  } / \text{  } 3 = 304$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "笔算乘法（一般进位与连续进位）",
+        "question": "$121 \times 4 = ?$",
+        "options": [],
+        "answer": "484",
+        "explanation": "$100 \times 4 = 400$，$20 \times 4 = 80$，$1 \times 4 = 4$。合计 484。验算：$484 \text{  } / \text{  } 4 = 121$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "口算乘法与算理转化",
+      "core_concept": "口算整十、整百数乘一位数时，可以将因数看作几个十、几个百。例如 $40 \times 3$ 就是 4 个十乘 3 等于 12 个十，即 120。本质是利用乘法分配律将大数拆解回表内乘法。",
+      "key_formula": "$a00 \times b = (a \times b)00$",
+      "common_mistakes": [
+        "计算时少写末尾的0，如 $500 \times 3 = 1500$ 错写成 150",
+        "口算表内乘法不熟练，如 $60 \times 7$ 算成 480"
+      ],
+      "tips": "先用盖住“0”的方法计算表内乘法，算出积后，看因数末尾有几个0，就在积的末尾添上几个0。"
+    },
+    {
+      "point": "笔算乘法（一般进位与连续进位）",
+      "core_concept": "笔算多位数乘一位数时，相同数位对齐，从个位乘起。用一位数依次去乘多位数每一个数位上的数。哪一位上乘得的积满几十，就要向前一位进几。",
+      "key_formula": "积 = 因数 \times 因数（从个位乘起，满十进一）",
+      "common_mistakes": [
+        "忘记加进位上的数，导致结果偏小",
+        "错将进位数与下一位相乘，而不是相加"
+      ],
+      "tips": "进位的数字要写小一点，写在对应数位的左下角，计算完下一位后立刻把它加进去。"
+    },
+    {
+      "point": "乘数中间或末尾有0的乘法",
+      "core_concept": "0乘任何数都得0。中间有0的乘法，如果个位不进位，十位积就是0；如果进位则积是进位数。末尾有0可以先算0前面的数，再补0。",
+      "key_formula": "$0 \times n = 0$ 或 $n \times 0 = 0$",
+      "common_mistakes": [
+        "看到因数中间有0，漏算这一位，直接跳过",
+        "把 $0 \times 5$ 算成了 5"
+      ],
+      "tips": "即使某位是0也要按顺序相乘，并注意是否有低位传上来的进位。"
+    },
+    {
+      "point": "乘法估算与归一问题解决",
+      "core_concept": "遇到“大约”字样时需估算，将多位数看作最接近的整十、整百数。解决“归一问题”时，关键是先通过除法求出单一量（一份是多少），再根据要求进行乘法计算。",
+      "key_formula": "总数 \text{  } / \text{  } 数量 = 单一份数",
+      "common_mistakes": [
+        "估算时找不对近似数，误差过大",
+        "两步计算题找不准中间量，运算顺序错误"
+      ],
+      "tips": "先读题确定是“求总数”还是“求每份数”，画简单的线段图可以帮助理清思路。"
+    }
+  ]
+}

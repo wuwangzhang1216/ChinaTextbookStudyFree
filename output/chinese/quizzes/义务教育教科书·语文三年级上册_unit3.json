@@ -1,0 +1,734 @@
+{
+  "textbook": "统编版小学语文三年级上册",
+  "unit": "第三单元：童话世界",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第三单元基础达标与童话初探",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "童话的拟人化特点",
+        "question": "童话中的动植物可以像人一样说话、哭泣，也有自己的喜怒哀乐。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是童话最基本的特点，通过想象赋予万物人的情感。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "修改符号的规范使用",
+        "question": "在修改习作时，‘对调符号’可以用来交换两个相邻词语的位置。",
+        "options": [],
+        "answer": "对",
+        "explanation": "对调符号专门用于修正位置颠倒的词句。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "童话的拟人化特点",
+        "question": "《在那牛肚子里的旅行》讲述的是青头和红头这两只蟋蟀的故事。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文主角是蟋蟀青头和红头。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "修改符号的规范使用",
+        "question": "‘改正符号’通常是由一个小圆圈或方框连出的引线指向修改后的内容。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是改正符号的标准写法。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "童话的拟人化特点",
+        "question": "《卖火柴的小女孩》中，小女孩最后一次擦燃火柴看到了死去的奶奶。",
+        "options": [],
+        "answer": "对",
+        "explanation": "故事描写小女孩在幻象中见到了亲人。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语中，描写秋天景色最恰当的一项是：",
+        "options": [
+          "春光明媚",
+          "烈日灼人",
+          "金桂飘香",
+          "冰天雪地"
+        ],
+        "answer": "金桂飘香",
+        "explanation": "金桂飘香描写的是秋天的气息。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "童话的拟人化特点",
+        "question": "阅读：‘红头在牛肚子里拼命叫喊：救命啊！’ 这段话体现了：",
+        "options": [
+          "科学事实",
+          "拟人化特点",
+          "实证研究",
+          "古代传说"
+        ],
+        "answer": "拟人化特点",
+        "explanation": "蟋蟀求救是赋予动物化人的行为与情感。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修改符号的规范使用",
+        "question": "当你想在句子中间增加一个词语时，应该使用以下哪种符号？",
+        "options": [
+          "删除号",
+          "增补号",
+          "对调号",
+          "改正号"
+        ],
+        "answer": "增补号",
+        "explanation": "增加内容需要使用增补符号。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "‘它终于在那牛肚子里旅行了一次。’ 句子中‘终于’的意思是：",
+        "options": [
+          "最后的结果",
+          "刚开始",
+          "一直",
+          "从来不"
+        ],
+        "answer": "最后的结果",
+        "explanation": "终于表示经过种种变化后出现的情况。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "‘小松鼠在树枝上跳着欢快的舞。’ 运用了什么修辞？",
+        "options": [
+          "比喻",
+          "排比",
+          "拟人",
+          "反问"
+        ],
+        "answer": "拟人",
+        "explanation": "跳舞是人的行为，赋予了松鼠。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列哪组词语中带点字的读音全部正确？",
+        "options": [
+          "切开(qiè) 回答(dá)",
+          "喷香(pèn) 几乎(jǐ)",
+          "卷起(juǎn) 处理(chù)",
+          "挣扎(zhèng) 勉强(qiáng)"
+        ],
+        "answer": "切开(qiè) 回答(dá)",
+        "explanation": "其他选项存在多音字读音错误。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "童话的拟人化特点",
+        "question": "在《卖火柴的小女孩》中，火柴的光像什么？",
+        "options": [
+          "像太阳",
+          "像美丽的烟火",
+          "像温暖的火炉",
+          "奇异的火光"
+        ],
+        "answer": "奇异的火光",
+        "explanation": "原文中描述擦燃火柴后看到的是奇异的火花。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "童话的拟人化特点",
+        "question": "童话故事结尾通常会告诉我们一个道理，这说明童话具有：",
+        "options": [
+          "逻辑性",
+          "教育意义",
+          "真实性",
+          "复杂性"
+        ],
+        "answer": "教育意义",
+        "explanation": "童话常寓教于乐。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自主编创童话故事",
+        "question": "在编写童话时，如果要把铅笔作为主角，以下哪个情节最合理？",
+        "options": [
+          "铅笔在工厂里生产出来",
+          "铅笔和橡皮吵了一架",
+          "铅笔由木头和石墨组成",
+          "人们用铅笔写字"
+        ],
+        "answer": "铅笔和橡皮吵了一架",
+        "explanation": "拟人化的冲突是童话情节的核心。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "修改符号的规范使用",
+        "question": "句子‘我很高兴发现了一朵。’少了一个宾语，修改时应在末尾：",
+        "options": [
+          "加删除号",
+          "加改正号",
+          "加增补号‘野花’",
+          "加对调号"
+        ],
+        "answer": "加增补号‘野花’",
+        "explanation": "补充缺失的内容。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗内容",
+        "question": "《赠刘景文》中描写‘即使好景君须记’，最是在（___）黄橘绿时。",
+        "options": [],
+        "answer": "橙",
+        "explanation": "出自苏轼的诗句。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "童话常识",
+        "question": "《卖火柴的小女孩》的作者是丹麦著名的童话作家（___）。",
+        "options": [],
+        "answer": "安徒生",
+        "explanation": "安徒生是世界著名的童话大师。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词辨析",
+        "question": "‘咱们’一词中，‘咱’字的偏旁是（___）。",
+        "options": [],
+        "answer": "口",
+        "explanation": "该字为提口旁。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "童话作品配对",
+        "question": "请将下列童话故事与其对应的主要人物连线。",
+        "options": [
+          "《海的女儿》",
+          "《丑小鸭》",
+          "《在那牛肚子里》",
+          "《卖火柴的小女孩》",
+          "天鹅",
+          "小人鱼",
+          "小女孩",
+          "青头"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "小人鱼对应海的女儿，丑小鸭最后变天鹅，青头是蟋蟀，小女孩卖火柴。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞手法配对",
+        "question": "请根据句子特点对应相关内容。",
+        "options": [
+          "柳树在梳头",
+          "红红的枫叶",
+          "大树像雨伞",
+          "鸟儿会唱歌",
+          "拟人动作",
+          "描写颜色",
+          "比喻形象",
+          "拟人声音"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "梳头是动作，枫叶红是颜色，像伞是比喻，唱歌是拟人。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近义词连线",
+        "question": "请将下列词语与其意思相近的一项配对。",
+        "options": [
+          "暖和",
+          "急忙",
+          "奇妙",
+          "非常",
+          "赶快",
+          "温暖",
+          "特别",
+          "神奇"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考察课文中核心词汇的近义词。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句子结构",
+        "question": "请将下列词语连成一个描写秋天的句子。",
+        "options": [
+          "秋天的",
+          "雨",
+          "一把",
+          "钥匙",
+          "是"
+        ],
+        "answer": "秋天的,雨,是,一把,钥匙",
+        "explanation": "课文《秋天的雨》开篇名句。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "童话语言风格",
+        "question": "请根据课文内容排序：一只红红的小蟋蟀求救的话。",
+        "options": [
+          "救命啊",
+          "我在",
+          "肚子里",
+          "牛的"
+        ],
+        "answer": "救命啊,我在,牛的,肚子里",
+        "explanation": "模拟红头遇险时的紧急呼救。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级上册第三单元综合测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "修改符号的规范使用",
+        "question": "当习作中出现重复的字词时，可以使用‘删除号’将其去掉。",
+        "options": [],
+        "answer": "对",
+        "explanation": "删除多余内容用删除号。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "童话的拟人化特点",
+        "question": "童话里的想象必须完全脱离现实，不需要任何生活基础。",
+        "options": [],
+        "answer": "错",
+        "explanation": "童话虽然是想象，但也往往建立在一定的现实感知和生活体验之上。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词辨析",
+        "question": "‘稍息’的‘稍’在作为体育指令语时读音是 shào。",
+        "options": [],
+        "answer": "对",
+        "explanation": "多音字在特定词组里的读音。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "自主编创童话故事",
+        "question": "写童话故事时，可以把没有生命的石头写成会走路、会思考的角色。",
+        "options": [],
+        "answer": "对",
+        "explanation": "万物皆可人格化是童话的精髓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "童话常识",
+        "question": "《在牛肚子里旅行》一文中，青头是因为贪玩才掉进牛肚子里的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "红头是因为躲闪不及被大黄牛卷进嘴里的。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "标点符号选择",
+        "question": "‘不要紧（ ）’小公鸡说道（ ）‘第一次学啼叫，都是这样的。’",
+        "options": [
+          "， 。",
+          "。 ，",
+          "， ”",
+          "，“"
+        ],
+        "answer": "，”",
+        "explanation": "考查说话人在中间时的标点使用技巧。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "童话的拟人化特点",
+        "question": "《卖火柴的小女孩》中，火柴的光让小女孩产生了许多幻象，这是为了抒发作者对小女孩的：",
+        "options": [
+          "讨厌",
+          "羡慕",
+          "同情与爱",
+          "不理解"
+        ],
+        "answer": "同情与爱",
+        "explanation": "幻象的美好反衬现实的残酷，表达了怜悯。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "修改符号的规范使用",
+        "question": "句子‘他在公园里美丽的花。’明显缺失动词，应在‘美丽’前：",
+        "options": [
+          "用删除号去掉美丽",
+          "用增补号加‘欣赏’",
+          "用改正号改文字",
+          "用对调号换位置"
+        ],
+        "answer": "用增补号加‘欣赏’",
+        "explanation": "句子不完整，需要增补谓语。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "童话内容理解",
+        "question": "《在那牛肚子里的旅行》中，青头告诉红头牛有几个胃？",
+        "options": [
+          "一个",
+          "两个",
+          "三个",
+          "四个"
+        ],
+        "answer": "四个",
+        "explanation": "考查课内知识细节。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字选择",
+        "question": "下列词语中的‘答’读音与其他三项不同的是：",
+        "options": [
+          "回答",
+          "答理",
+          "回声",
+          "答谢"
+        ],
+        "answer": "答理",
+        "explanation": "‘答理’读 dā，其余均为 dá。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式转换正误判断",
+        "question": "将‘难道这不可怜吗？’改为陈述句，正确的是：",
+        "options": [
+          "这很不可怜。",
+          "这难道不可怜？",
+          "这太可怜了。",
+          "这不可怜。"
+        ],
+        "answer": "这太可怜了。",
+        "explanation": "反问句改陈述句，需变否定为肯定。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "选词填空：我们要像青头一样，遇到危险时保持（ ）。",
+        "options": [
+          "安静",
+          "冷清",
+          "冷静",
+          "冷淡"
+        ],
+        "answer": "冷静",
+        "explanation": "形容头脑清醒，不慌张应选‘冷静’。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "童话的拟人化特点",
+        "question": "阅读：‘一块老旧的橡皮在叹气，它觉得自己变瘦了。’ 这句话描写的是：",
+        "options": [
+          "真实的自然现象",
+          "橡皮的自我牺牲",
+          "童话的奇妙想象",
+          "工厂的制作过程"
+        ],
+        "answer": "童话的奇妙想象",
+        "explanation": "通过拟人化表达橡皮被使用的损耗。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自主编创童话故事",
+        "question": "如果要在童话里设置一个‘智者’角色，通常会选：",
+        "options": [
+          "笨笨的小熊",
+          "聪明的狐狸",
+          "智慧的老猫头鹰",
+          "胆小的兔子"
+        ],
+        "answer": "智慧的老猫头鹰",
+        "explanation": "猫头鹰常在童话中扮演博学的长辈或老师。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语搭配",
+        "question": "填入合适的量词：一（ ）火柴，一（ ）烤鹅。",
+        "options": [
+          "根 只",
+          "把 个",
+          "盒 只",
+          "根 件"
+        ],
+        "answer": "根 只",
+        "explanation": "考查常见的量词搭配。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词辨析",
+        "question": "《一块奶酪》中，蚂蚁队长宣布：‘照直线（___）！’",
+        "options": [],
+        "answer": "前行",
+        "explanation": "出自课文原文用词。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "童话内容理解",
+        "question": "《在那牛肚子里的旅行》中，红头最后从牛肚子里（___）了出来。",
+        "options": [],
+        "answer": "喷",
+        "explanation": "牛打了一个喷嚏，把它喷了出来。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗内容",
+        "question": "‘一年好景君须记，最是橙黄（___）绿时。’",
+        "options": [],
+        "answer": "橘",
+        "explanation": "苏轼《赠刘景文》。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语解释配对",
+        "question": "请将词语与其在童话中的表现含义连线。",
+        "options": [
+          "垂头丧气",
+          "大吃一惊",
+          "争先恐后",
+          "小心翼翼",
+          "形容非常害怕",
+          "由于失败而情绪低落",
+          "非常吃惊",
+          "抢着上前唯恐落后"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "考察对课文成语内涵的理解。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文本分类",
+        "question": "请将对应的文章与体裁进行连线。",
+        "options": [
+          "《总也倒不了的老屋》",
+          "《夜书所见》",
+          "《那一定会很好》",
+          "《一块奶酪》",
+          "古诗",
+          "童话故事",
+          "童话故事",
+          "童话故事"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "区分古诗与本单元的童话。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "修改符号含义",
+        "question": "请将修改符号的功能描述进行对应。",
+        "options": [
+          "^形符号",
+          "圈加线",
+          "双弧线",
+          "两个三角",
+          "表示改正",
+          "表示增补",
+          "表示调换",
+          "表示删除"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "考核对三类修改符号视觉形状与功能的记忆。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "逻辑语序",
+        "question": "请将小女孩在寒夜里的绝望处境连接成句。",
+        "options": [
+          "在这",
+          "又冷又黑的",
+          "走在",
+          "她",
+          "街上",
+          "晚上"
+        ],
+        "answer": "在这,又冷又黑的,晚上,她,走在,街上",
+        "explanation": "符合故事语境的现代文排序。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "修改符号练习",
+        "question": "请根据正常的语序排列以下打乱的句子成分。",
+        "options": [
+          "修改符号",
+          "要学会",
+          "我们",
+          "正确使用"
+        ],
+        "answer": "我们,要学会,正确使用,修改符号",
+        "explanation": "考查学生对本单元核心技能的语言表达。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "童话的拟人化特点",
+      "core_concept": "童话通过丰富的想象，赋予动植物、物品以人的思想、行为和真挚深厚的感情。它通过奇妙的情节展现现实生活中可能存在的各种情感关系和哲理，让读者在不可思议的幻想中感受到成长的力量。",
+      "key_formula": "物 + 人的表情/语言/动作 = 拟人化的童话形象",
+      "common_mistakes": [
+        "只会写小动物说说话，不具备真实的性格特征",
+        "情节设计完全脱离生活逻辑，导致故事不可信"
+      ],
+      "tips": "观察生活中的人是怎么说话做事的，然后把这些特点‘借’给你的动植物主角。"
+    },
+    {
+      "point": "修改符号的规范使用",
+      "core_concept": "这是提升作文质量的必备技能。主要包括三种：1. 改正符号，用于把错别字或词改成对的；2. 增补符号，在缺少字词的地方通过‘尖号’补写；3. 删除号，把多余的部分像圈小气球一样圈掉并划线走。",
+      "key_formula": "多余删、错误改、少处补、顺序反了连起来",
+      "common_mistakes": [
+        "修改符号画得太乱，老师看不清要改哪里",
+        "分不清改正号和增补号的使用场景"
+      ],
+      "tips": "修改时要把符号画在对应的字词上方，补写的字要工整地写在符号的开口处。"
+    },
+    {
+      "point": "自主编创童话故事",
+      "core_concept": "编创童话要基于一个奇妙的设想。首先选定主角（如书包、啄木鸟），然后给它设定一个困难或愿望，通过它的努力或他人的帮助实现转变。故事要有起因、经过和结果，最好能表达一个美好的心愿或小道理。",
+      "key_formula": "谁 + 在哪里 + 遇到了什么麻烦 + 怎么解决的 = 一个完整的童话",
+      "common_mistakes": [
+        "流水账式记录，没有有趣的冲突和对话",
+        "结尾过于仓促，没有体现童话的意义"
+      ],
+      "tips": "可以尝试‘假如...会怎样’的提问法来寻找灵感，如‘假如作业本会说话会怎样？’"
+    }
+  ]
+}

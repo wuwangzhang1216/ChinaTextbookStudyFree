@@ -1,0 +1,703 @@
+{
+  "textbook": "统编版小学语文二年级下册",
+  "unit": "第6单元 大自然的秘密",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第6单元 基础达标自我测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "天然指南针的科学原理辨析",
+        "question": "在野外迷路时，中午的太阳所在的方向是南方。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据常识，中午太阳在正南方。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "太空生活失重现象的因果推论",
+        "question": "在宇宙飞船里，宇航员想喝水可以直接用杯子喝。",
+        "options": [],
+        "answer": "错",
+        "explanation": "太空处于失重状态，水会飘在空中，需要用吸管杯喝水。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "地质化石与地理变迁的科普认知",
+        "question": "岩石上的“雨痕”是由于古代下雨时在泥土上留下的痕迹干涸后形成的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "雨痕是雨点降落在岩层表面留下的凹穴。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "天然指南针的科学原理辨析",
+        "question": "北极星在晴朗的夜晚可以帮我们指点方向，它一直挂在南方。",
+        "options": [],
+        "answer": "错",
+        "explanation": "北极星挂在北方。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "天然指南针的科学原理辨析",
+        "question": "沟渠里的积雪，化得快的是北方，化得慢的是南方。",
+        "options": [],
+        "answer": "错",
+        "explanation": "沟渠北边的积雪朝南，阳光多化得快；南边的积雪朝北，化得慢。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天然指南针的科学原理辨析",
+        "question": "如果不小心在树林里迷了路，可以通过观察树叶的稠密来辨别方向。树叶稠的一面是（）。",
+        "options": [
+          "东方",
+          "西方",
+          "南方",
+          "北方"
+        ],
+        "answer": "南方",
+        "explanation": "南方阳光充足，树木生长旺盛，树叶更稠密。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字辨析",
+        "question": "选出下列句子中加下划线字读音正确的一项：要是你在野外迷了路，可千万别慌张（慌：huāng）。",
+        "options": [
+          "hāng",
+          "huāng",
+          "huāng",
+          "huáng"
+        ],
+        "answer": "huāng",
+        "explanation": "慌张的慌读作huāng。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字义理解",
+        "question": "《要是你在野外迷了路》中，“天然的指南针”指的是什么？",
+        "options": [
+          "人工罗盘",
+          "大自然的导航事物",
+          "路标",
+          "老爷爷"
+        ],
+        "answer": "大自然的导航事物",
+        "explanation": "文中介绍的是太阳、北极星等大自然的事物。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语分类",
+        "question": "下列哪组词语不属于大自然的天气现象？",
+        "options": [
+          "雷暴、闪电",
+          "狂风、骤雨",
+          "地震、海啸",
+          "乌云、彩虹"
+        ],
+        "answer": "地震、海啸",
+        "explanation": "地震和海啸通常被视为地质灾害，而非普通气象。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "阅读：要是你在野外迷了路，可千万别慌张。大自然有许多天然的指南针，会帮助你辨别方向。文中“天然”的意思是？",
+        "options": [
+          "非常漂亮",
+          "自然生成的",
+          "昂贵的",
+          "奇怪的"
+        ],
+        "answer": "自然生成的",
+        "explanation": "天然指自然界本身就有的，非人工制造。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "太空生活失重现象的因果推论",
+        "question": "宇航员在太空舱里移动时需要用到扶手，这是因为：",
+        "options": [
+          "外面很冷",
+          "为了锻炼身体",
+          "人处于失重状态",
+          "怕撞坏机器"
+        ],
+        "answer": "人处于失重状态",
+        "explanation": "失重状态下人会飘浮，需要拉住扶手行走。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词辨析",
+        "question": "“满天的乌云黑沉沉地压下来。”这句话中的“压”字表现了：",
+        "options": [
+          "乌云很重",
+          "乌云很低很厚",
+          "风很大",
+          "雨很大"
+        ],
+        "answer": "乌云很低很厚",
+        "explanation": "压形象地写出了乌云的沉重感和低压感。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗理解",
+        "question": "《晓出净慈寺送林子方》描写的季节是：",
+        "options": [
+          "春季",
+          "夏季",
+          "秋季",
+          "冬季"
+        ],
+        "answer": "夏季",
+        "explanation": "诗中提到了接天莲叶和映日荷花，是夏季景观。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "标点符号",
+        "question": "选出标点符号使用完全正确的一项：",
+        "options": [
+          "你在哪儿。小明？",
+          "天上的云真美啊！",
+          "妈妈说，你快回来吧？",
+          "我喜欢看，童话书。"
+        ],
+        "answer": "天上的云真美啊！",
+        "explanation": "感叹句结尾使用感叹号。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "地质化石与地理变迁的科普认知",
+        "question": "《要是你在野外迷了路》一文中没有提到的指南针是：",
+        "options": [
+          "正午的太阳",
+          "黑夜的北极星",
+          "阴雨天的大树",
+          "地上的小石头"
+        ],
+        "answer": "地上的小石头",
+        "explanation": "文中只提到了太阳、北极星、大树和积雪。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗填空",
+        "question": "两个黄鹂鸣翠柳，（_____）青天。",
+        "options": [],
+        "answer": "一行白鹭上",
+        "explanation": "出自杜甫《绝句》。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语搭配",
+        "question": "一阵（_____）吹过，树上的叶子一动也不动。",
+        "options": [],
+        "answer": "大风",
+        "explanation": "用于描述天气变化的常见词语。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地质化石与地理变迁的科普认知",
+        "question": "在岩石中发现鱼的印记，说明这里曾经是（_____）。",
+        "options": [],
+        "answer": "大海",
+        "explanation": "鱼生活在水中，证明了地壳运动导致的陆海变迁。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语解释",
+        "question": "请将下列词语与它们的意思正确连接：",
+        "options": [
+          "向导",
+          "稠密",
+          "稀少",
+          "慌张",
+          "事物稀疏",
+          "指路的人",
+          "心里不沉着",
+          "多而密"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "A向导-指路的人；B稠密-多而密；C稀少-事物稀疏；D慌张-不沉着。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天然指南针的科学原理辨析",
+        "question": "请连接指南针及其正对方位：",
+        "options": [
+          "太阳",
+          "北极星",
+          "大树叶稠",
+          "积雪化快",
+          "阴雨天南方",
+          "晴天正午南",
+          "黑夜北方",
+          "沟渠北坡南"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "太阳中午南，北极星指北，叶稠指西南方（阳光更足），沟渠积雪北坡阳光足化得快。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "太空生活失重现象的因果推论",
+        "question": "宇航员在太空遇到的问题及解决办法：",
+        "options": [
+          "睡觉",
+          "喝水",
+          "走路",
+          "洗澡",
+          "特制吸管杯",
+          "钻进睡袋",
+          "密封带喷头",
+          "穿带钩的鞋"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "太空生活中的特殊现象应对措施。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句式训练",
+        "question": "请将下列词语排列成一句通顺的话：",
+        "options": [
+          "指南针",
+          "许多",
+          "大自然",
+          "有",
+          "天然的"
+        ],
+        "answer": "大自然,有,许多,天然的,指南针",
+        "explanation": "主谓宾结构的句子。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比喻句式",
+        "question": "请将下列词语排列成一个漂亮的比喻句：",
+        "options": [
+          "闪闪的",
+          "星星",
+          "蓝蓝的",
+          "宝石",
+          "像",
+          "天空中的"
+        ],
+        "answer": "天空中的,星星,像,闪闪的,蓝蓝的,宝石",
+        "explanation": "本体是星星，喻体是宝石。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第六单元「大自然的秘密」核心突破综合测评",
+    "total_score": 90,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "地质化石与地理变迁的科普认知",
+        "question": "《要是你在野外迷了路》告诉我们，大自然的指南针只要细心观察就能发现。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文主旨在于引导学生留心观察自然。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "太空生活失重现象的因果推论",
+        "question": "因为太空中没有氧气，所以宇航员在飞船里会飘来飘去。",
+        "options": [],
+        "answer": "错",
+        "explanation": "飘来飘去是由于“失重”而非缺少氧气。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词读音",
+        "question": "“帮助”的“帮”字拼音是 bāng。",
+        "options": [],
+        "answer": "对",
+        "explanation": "读音正确。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "地质化石与地理变迁的科普认知",
+        "question": "如果岩石里有树叶的印记，这说明很早以前这里可能是森林。",
+        "options": [],
+        "answer": "对",
+        "explanation": "植物化石可以反映该地古代的植被分布情况。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法识别",
+        "question": "“太阳是个忠实的向导”这句话使用了拟人的修辞手法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "将太阳比作向导，且赋予“忠实”的人化特征。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "天然指南针的科学原理辨析",
+        "question": "北极星永远高挂在（）。",
+        "options": [
+          "东方",
+          "西方",
+          "南方",
+          "北方"
+        ],
+        "answer": "北方",
+        "explanation": "基础天文常识。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗赏析",
+        "question": "《绝句》中“窗含西岭千秋雪”的“窗含”是什么意思？",
+        "options": [
+          "窗户里面有雪",
+          "像框在窗框里",
+          "雪花飘进窗户",
+          "窗户坏了"
+        ],
+        "answer": "像框在窗框里",
+        "explanation": "窗户像画框一样框住了远处的山景。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "太空生活失重现象的因果推论",
+        "question": "在航天飞机里，宇航员睡觉时必须（），不然一睡着就会飘走。",
+        "options": [
+          "盖厚被子",
+          "睁着眼睛",
+          "绑在睡袋里",
+          "躺在床底下"
+        ],
+        "answer": "绑在睡袋里",
+        "explanation": "太空生活中因失重需固定身体。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号",
+        "question": "“你怎么还不去上学呢（）”括号里应填：",
+        "options": [
+          "！",
+          "。",
+          "？",
+          "，"
+        ],
+        "answer": "？",
+        "explanation": "这是一个反问或询问句。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "量词填空",
+        "question": "选出最合适的一项：一（）彩虹，一（）岩石。",
+        "options": [
+          "道、块",
+          "条、座",
+          "个、粒",
+          "位、种"
+        ],
+        "answer": "道、块",
+        "explanation": "考查量词正确搭配。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "地质化石与地理变迁的科普认知",
+        "question": "阅读《要是你在野外迷了路》：要是碰上阴雨天，大树也会来帮忙。树叶（）的一面是南方，树叶（）的一面是北方。",
+        "options": [
+          "疏、稠",
+          "稠、疏",
+          "多、少",
+          "大、小"
+        ],
+        "answer": "稠、疏",
+        "explanation": "考察对课文原文的精准记忆。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "反义词",
+        "question": "“普通”的反义词是（）。",
+        "options": [
+          "一般",
+          "平常",
+          "特殊",
+          "平凡"
+        ],
+        "answer": "特殊",
+        "explanation": "逻辑关系练习。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语结构",
+        "question": "下面的词语中，属于“黑沉沉”这种形式的是：",
+        "options": [
+          "亮晶晶",
+          "干干净净",
+          "一会儿",
+          "努力"
+        ],
+        "answer": "亮晶晶",
+        "explanation": "ABB式词语。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "雷雨前，大自然会出现什么现象？",
+        "options": [
+          "彩虹挂在天边",
+          "蜘蛛从网上垂下来跑了",
+          "蝉在树上叫",
+          "太阳出来照耀"
+        ],
+        "answer": "蜘蛛从网上垂下来跑了",
+        "explanation": "选自《雷雨》一文描写雨前的内容。"
+      },
+      {
+        "id": 15,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语识别",
+        "question": "形容天气的四字词语：风雨（_____）。",
+        "options": [],
+        "answer": "交加",
+        "explanation": "基础词语积累。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗填空",
+        "question": "接天莲叶无穷碧，映日（_____）别样红。",
+        "options": [],
+        "answer": "荷花",
+        "explanation": "《晓出净慈寺送林子方》名句。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "地质化石与地理变迁的科普认知",
+        "question": "大自然的“书”指的是（_____）。",
+        "options": [],
+        "answer": "岩石",
+        "explanation": "出自《要是你在野外迷了路》或相关地质科普内容。"
+      },
+      {
+        "id": 18,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关联词配对",
+        "question": "请将前句与后句正确连线：",
+        "options": [
+          "要是迷了路",
+          "只要细心观察",
+          "无论怎么睡",
+          "即使是坐下",
+          "都能辨别方向",
+          "千万别慌张",
+          "都要用吸管",
+          "都会飘走"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考察对课文逻辑的掌握。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词搭配",
+        "question": "请连接合适的动词和名词：",
+        "options": [
+          "打开",
+          "辨别",
+          "横跨",
+          "寻找",
+          "方向",
+          "窗户",
+          "宝藏",
+          "天空"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "常见动宾搭配。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "自然景观特征",
+        "question": "连接自然景观与其伴随的特征：",
+        "options": [
+          "雷雨前",
+          "雷雨后",
+          "太空里",
+          "森林里",
+          "彩虹出现",
+          "乌云压顶",
+          "树木茂密",
+          "失重状态"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "综合单元知识点。"
+      },
+      {
+        "id": 21,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式训练",
+        "question": "排列词语：",
+        "options": [
+          "有趣的",
+          "一件",
+          "太空生活",
+          "真是",
+          "事情"
+        ],
+        "answer": "太空生活,真是,一件,有趣的,事情",
+        "explanation": "主系表结构。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "天然指南针的科学原理辨析",
+      "core_concept": "课文介绍了大自然中四种天然的指南针：太阳（中午正南）、北极星（夜晚指北）、大树（枝叶稠南稀北）和积雪（沟渠中化得快的是北面，化得慢的是南面）。这些原理在野外探险中非常实用。",
+      "key_formula": "观察光影位置，对应地理南北方向。",
+      "common_mistakes": [
+        "容易混淆沟渠积雪消融速度所代表的方向",
+        "把北极星记成在南方"
+      ],
+      "tips": "可以通过口诀记忆：太阳中午在南边，北极星永远指南方（纠正为北方），树叶稠的面儿是南方。"
+    },
+    {
+      "point": "太空生活失重现象的因果推论",
+      "core_concept": "在太空中，由于远离地球产生失重状态，导致一切物体都会飘浮。这使得宇航员吃饭、喝水、睡觉和走路都需要特殊的方式，如用吸管、钻睡袋、穿特制鞋子等，防止到处飘动。",
+      "key_formula": "失重导致飘浮，固定产生稳定。",
+      "common_mistakes": [
+        "将失重的原因误解为缺少空气",
+        "认为在太空走路和地面一样"
+      ],
+      "tips": "想象自己是一颗在水里没沉底的气球，所以一切都需要“抓手”。"
+    },
+    {
+      "point": "地质化石与地理变迁的科普认知",
+      "core_concept": "岩石是大自然的“百科全书”。通过观察其中的化石（如鱼印记、树叶印记）以及雨痕、波痕，可以推断出现在的陆地在很久以前可能是海洋或丛林。这种现象被称为“地壳运动”。",
+      "key_formula": "岩石化石遗迹 = 环境历史缩影。",
+      "common_mistakes": [
+        "不理解鱼化石为什么会出现在高山上",
+        "分不清什么是“印记”和“实物”"
+      ],
+      "tips": "把岩石想象成一本厚厚的日记，上面的花纹就是大自然写下的文字。"
+    }
+  ]
+}

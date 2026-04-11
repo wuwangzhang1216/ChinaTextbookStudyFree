@@ -1,0 +1,734 @@
+{
+  "textbook": "统编版小学语文二年级上册",
+  "unit": "想象",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "第七单元语文基础能力测试（限时40分钟）",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "“悬崖”的“崖”字，下面是“山”，代表这个地方通常很高。",
+        "options": [],
+        "answer": "对",
+        "explanation": "崖指高峻的山边，部首是山。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "在海滩上，我们可能会捡到美丽的贝壳。",
+        "options": [],
+        "answer": "对",
+        "explanation": "海滩是海洋边缘，常有贝壳。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "“雪山”和“高原”属于两种不同的自然地貌。",
+        "options": [],
+        "answer": "对",
+        "explanation": "雪山是山脉，高原是海拔较高的大片平坦地形。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "“无论...还是...”复杂句式",
+        "question": "“无论是在家里，还是在学校，我都认真学习。”这句话用词得当。",
+        "options": [],
+        "answer": "对",
+        "explanation": "无论...还是...表示在任何条件下结果都不变。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "句子成分的扩展与生动化",
+        "question": "“小黑猫散步”比“那只调皮的小黑猫在草地上悠闲地散步”更生动。",
+        "options": [],
+        "answer": "错",
+        "explanation": "添加了形容词和修饰语的句子更具体、生动。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "下列哪种植物最适合生长在“沙漠”里？",
+        "options": [
+          "荷花",
+          "椰子树",
+          "仙人掌",
+          "柳树"
+        ],
+        "answer": "仙人掌",
+        "explanation": "沙漠干旱，仙人掌耐旱。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "《雾在哪里》中，雾最后把谁藏了起来？",
+        "options": [
+          "太阳",
+          "大海",
+          "城市",
+          "他自己"
+        ],
+        "answer": "他自己",
+        "explanation": "故事结尾雾把自己藏起来了，于是云开雾散。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "“雾是个又淘气又顽皮的孩子（ ）”括号里应填什么标点？",
+        "options": [
+          "，",
+          "。",
+          "！",
+          "？"
+        ],
+        "answer": "。",
+        "explanation": "这是一个完整的陈述句，用句号。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“危楼高百尺”中，“危”字的意思是：",
+        "options": [
+          "危险",
+          "高",
+          "害怕",
+          "破坏"
+        ],
+        "answer": "高",
+        "explanation": "危楼：高楼。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“无论...还是...”复杂句式",
+        "question": "选出句子中缺失的一组关联词：雾（ ）把大海藏起来，（ ）把天空连同太阳一起藏起来。",
+        "options": [
+          "因为...所以...",
+          "虽然...但是...",
+          "无论...还是...",
+          "一边...一边..."
+        ],
+        "answer": "无论...还是...",
+        "explanation": "该句式描述雾覆盖范围广泛。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句子成分的扩展与生动化",
+        "question": "填入最合适的词：雾（ ）地来到了岸边。",
+        "options": [
+          "大声",
+          "悄悄",
+          "慢腾腾",
+          "红彤彤"
+        ],
+        "answer": "悄悄",
+        "explanation": "雾的出现往往是无声无息的。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文本阅读",
+        "question": "“雪孩子变成了一朵白云，美丽的白云。”这句话表达了：",
+        "options": [
+          "雪孩子被太阳晒化了",
+          "雪孩子想去旅游",
+          "舍己救人的美好品质",
+          "雪孩子不见了"
+        ],
+        "answer": "舍己救人的美好品质",
+        "explanation": "通过雪孩子化为水、变成云的过程，赞美其奉献精神。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字读音选择",
+        "question": "“雾散（ ）了，太阳出来了。”括号中字的正确读音是：",
+        "options": [
+          "sǎn",
+          "sàn",
+          "shàn",
+          "shǎn"
+        ],
+        "answer": "sàn",
+        "explanation": "散开、散开时读第四声。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句式转换",
+        "question": "把“雾把大海藏起来了”换成“被”字句，正确的是：",
+        "options": [
+          "大海被雾藏起来了",
+          "雾被大海藏起来了",
+          "大海把雾藏起来了",
+          "被雾大海藏起来了"
+        ],
+        "answer": "大海被雾藏起来了",
+        "explanation": "被字句主语是承受者。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "句子成分的扩展与生动化",
+        "question": "哪句话写得最具体？",
+        "options": [
+          "雪孩子在奔跑。",
+          "小黑猫跳到床上。",
+          "顽皮的小黑猫跳到了暖和的被子上。",
+          "小白兔回家了。"
+        ],
+        "answer": "顽皮的小黑猫跳到了暖和的被子上。",
+        "explanation": "使用了形容词修饰，描述最清晰生动。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗内容填空",
+        "question": "不敢高声语，恐惊（___）中人。",
+        "options": [],
+        "answer": "天上",
+        "explanation": "出自《夜宿山寺》。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "在浩瀚的（___）上，生活着庞大的蓝鲸。",
+        "options": [],
+        "answer": "大海",
+        "explanation": "蓝鲸生活在海洋。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子成分的扩展与生动化",
+        "question": "（___）的雪花在空中飘舞。",
+        "options": [],
+        "answer": "洁白",
+        "explanation": "修饰雪花的常见形容词。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "请将环境与对应的景物连线。",
+        "options": [
+          "沙漠",
+          "海滩",
+          "高原",
+          "悬崖",
+          "贝壳",
+          "仙人掌",
+          "青稞",
+          "石缝"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "主要由于地理环境决定的典型物产。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "请为词语找到正确的反义词。",
+        "options": [
+          "顽皮",
+          "消失",
+          "黑暗",
+          "远方",
+          "出现",
+          "乖巧",
+          "近处",
+          "光明"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考察本单元课文中出现的重点词汇的对立义。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动词搭配",
+        "question": "请为动作选择合适的对象。",
+        "options": [
+          "躲在",
+          "露在",
+          "飘在",
+          "藏在",
+          "云间",
+          "山背后",
+          "外面",
+          "云端"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "根据词语意思和课文惯用表达进行搭配。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“无论...还是...”复杂句式",
+        "question": "根据课文内容连词成句：",
+        "options": [
+          "无论",
+          "还是",
+          "大海",
+          "天空",
+          "雾都看不见了"
+        ],
+        "answer": "无论,大海,还是,天空,雾都看不见了",
+        "explanation": "考察无论...还是...的结构应用。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句子成分的扩展与生动化",
+        "question": "连词成句，描述小白兔：",
+        "options": [
+          "小白兔",
+          "跳到了",
+          "地上",
+          "又蹦又跳地"
+        ],
+        "answer": "小白兔,又蹦又跳地,跳到了,地上",
+        "explanation": "修饰词“又蹦又跳地”应置于动词前。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级上册第七单元综合学业测评（限时60分钟）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“淘气”和“顽皮”是一对词义相近的词。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两个词都形容孩子不老实、爱玩。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "“无论...还是...”复杂句式",
+        "question": "“无论”后面通常接不同的条件，“还是”连接并列的事物。",
+        "options": [],
+        "answer": "对",
+        "explanation": "无论...还是...表示条件普适性。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗内容填空",
+        "question": "《夜宿山寺》的作者是唐代诗人李白。",
+        "options": [],
+        "answer": "对",
+        "explanation": "李白所作，风格夸张。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "“椰树”是在“沙漠”里非常常见的植物。",
+        "options": [],
+        "answer": "错",
+        "explanation": "椰树常见于海滩而非沙漠。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "句子成分的扩展与生动化",
+        "question": "句子中添加的修饰词越多，句子的意思就越混乱。",
+        "options": [],
+        "answer": "错",
+        "explanation": "合理的修饰语能使描写对象更具体、形象。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "《雾在哪里》一课中，“雾”表现得像个：",
+        "options": [
+          "善良的老爷爷",
+          "爱哭的小姑娘",
+          "顽皮的孩子",
+          "勤劳的运动员"
+        ],
+        "answer": "顽皮的孩子",
+        "explanation": "全文用拟人化手法写雾的淘气。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“雾把大海藏起来了。”这句话运用了什么修辞？",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "反问"
+        ],
+        "answer": "拟人",
+        "explanation": "“藏”赋予了雾人的动作。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文本阅读",
+        "question": "“天苍苍，野茫茫，风吹草低见牛羊”描写的是：",
+        "options": [
+          "高原风光",
+          "草原风光",
+          "沙漠风光",
+          "大海风光"
+        ],
+        "answer": "草原风光",
+        "explanation": "出自《敕勒歌》，描写大草原。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字读音选择",
+        "question": "“他在雪地上走，没（ ）过了膝盖。”",
+        "options": [
+          "méi",
+          "mò",
+          "mié",
+          "mù"
+        ],
+        "answer": "mò",
+        "explanation": "浸没、淹没读音为mò。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "“无论...还是...”复杂句式",
+        "question": "下面哪组词填入句中正确？（ ）是晴天，（ ）是雨天，我也要坚持跳绳。",
+        "options": [
+          "因为...所以...",
+          "无论...还是...",
+          "只要...就...",
+          "如果...就..."
+        ],
+        "answer": "无论...还是...",
+        "explanation": "通过条件排除表达坚持的态度。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子成分的扩展与生动化",
+        "question": "“天空中飘着云。”扩句最恰当的是：",
+        "options": [
+          "天空中飘着白云。",
+          "蓝蓝的天空中飘着几朵雪白的云。",
+          "云在天空中飘。",
+          "那是天上的云。"
+        ],
+        "answer": "蓝蓝的天空中飘着几朵雪白的云。",
+        "explanation": "使用了多项感官（色彩）和量词修饰。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗内容填空",
+        "question": "“手可摘星辰”下一句是：",
+        "options": [
+          "不敢高声语",
+          "恐惊天上人",
+          "危楼高百尺",
+          "天下谁不识"
+        ],
+        "answer": "不敢高声语",
+        "explanation": "古诗《夜宿山寺》顺序记忆。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "“高原”上最常见的鸟类被称为“高原之舟”的动物通常指：",
+        "options": [
+          "骆驼",
+          "牦牛",
+          "羚羊",
+          "鹰"
+        ],
+        "answer": "牦牛",
+        "explanation": "由于特殊的抗寒能力，牦牛被称为高原之舟。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "近义词正误判断",
+        "question": "词语“悠闲”的近义词最贴切的是：",
+        "options": [
+          "紧张",
+          "忙碌",
+          "自在",
+          "快乐"
+        ],
+        "answer": "自在",
+        "explanation": "悠闲强调的是闲暇、无拘无束。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "“这时候，雾不知道躲到哪里去了（ ）”句末用什么标点？",
+        "options": [
+          "，",
+          "。",
+          "！",
+          "？"
+        ],
+        "answer": "。",
+        "explanation": "陈述客观事实，用句号。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句子成分的扩展与生动化",
+        "question": "（___）的草地上开满了鲜花。",
+        "options": [],
+        "answer": "绿油油",
+        "explanation": "常用的ABB式颜色修饰词。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "骆驼被人们称为“（___）之舟”。",
+        "options": [],
+        "answer": "沙漠",
+        "explanation": "骆驼是沙漠里的主要运输工具。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "反义词填空",
+        "question": "“光明”的反义词是（___）。",
+        "options": [],
+        "answer": "黑暗",
+        "explanation": "光的对立面。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同地理环境词汇积累",
+        "question": "搭配相应的量词。",
+        "options": [
+          "一幅",
+          "一朵",
+          "一个",
+          "一棵",
+          "孩子",
+          "白云",
+          "画卷",
+          "大树"
+        ],
+        "answer": "A-3,B-2,C-1,D-4",
+        "explanation": "考察量词的正确使用。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反义词连线",
+        "question": "把意思相反的词连起来。",
+        "options": [
+          "寒冷",
+          "宽阔",
+          "消失",
+          "淘气",
+          "乖巧",
+          "炎热",
+          "出现",
+          "狭窄"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "考察形容词和动词的反义词。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "课文角色与特征",
+        "question": "请将事物与其在课文中的特征连线。",
+        "options": [
+          "雾",
+          "雪孩子",
+          "白方块",
+          "小白兔",
+          "想在火边取暖",
+          "变得像水汽",
+          "爱捉迷藏",
+          "窗户上的霜"
+        ],
+        "answer": "A-3,B-2,C-4,D-1",
+        "explanation": "回顾第七单元几篇课文的核心情节和形象。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子成分的扩展与生动化",
+        "question": "把短句通过修饰词排成生动句：",
+        "options": [
+          "雪孩子",
+          "飞到了",
+          "变成了一朵",
+          "美丽的白云",
+          "空中"
+        ],
+        "answer": "雪孩子,飞到了,空中,变成了一朵,美丽的白云",
+        "explanation": "按照事情发展的先后顺序排列。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "“无论...还是...”复杂句式",
+        "question": "用关联词语组合句子：",
+        "options": [
+          "无论",
+          "还是",
+          "城市",
+          "桥梁",
+          "都被雾藏起来了"
+        ],
+        "answer": "无论,城市,还是,桥梁,都被雾藏起来了",
+        "explanation": "注意无论后面的条件并列关系。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "“无论...还是...”复杂句式",
+      "core_concept": "这是表示条件关系的关联词组。它通过列举出两种或多种不同的情况，来强调在任何情况下，结果或状态都是一样的。在本单元中，用来描写雾覆盖一切的自然特征。学生应理解这是一种夸张和全面的表达方式，学习如何将身边的并列事物代入其中进行表达训练。",
+      "key_formula": "无论 + 条件A + 还是 + 条件B + 都/总 + 结果。",
+      "common_mistakes": [
+        "在使用时漏掉后面的“都”或“也”，导致句子不通顺。",
+        "“还是”后面没有接具体的名词或短语，而是接了无关的内容。"
+      ],
+      "tips": "记忆口诀：‘无论后面跟条件，还是连起二者选，结果通通都一样，逻辑严密不打折。’"
+    },
+    {
+      "point": "句子成分的扩展与生动化",
+      "core_concept": "在简单句（主谓宾关系）的基础上，通过在名词前添加形容词（如：洁白的、可爱的），在动词前添加副词（如：悄悄地、悠闲地）或者描述动作的状态（如：又蹦又跳地），使句子从“骨骼”变成有血有肉的描写。这能够有效提升低年级学生的观察能力和书面表达能力。",
+      "key_formula": "（形容词的）中心语 + [状语地] 动作 + (结果/补语)。",
+      "common_mistakes": [
+        "“的”和“地”使用混淆，如把‘认真地写’写成‘认真的写’。",
+        "形容词搭配不当，如‘美丽的说话’。"
+      ],
+      "tips": "可以玩‘加减法游戏’，看谁能给‘小狗跑’加最多的修饰词，变成‘一只毛茸茸的小狗在草地上飞快地跑’。"
+    },
+    {
+      "point": "不同地理环境词汇积累",
+      "core_concept": "本单元涉及了多种自然地理环境，包括海滩、沙漠、高原、悬崖、雪山等。学生需要识记这些环境中特有的代表性事物（如沙漠里的骆驼、海滩上的贝壳）。这不仅是词汇量的积累，更是认知世界的延伸，帮助学生通过词语建立对地理景观的直观感知。",
+      "key_formula": "地理名词 + 代表性生物/植物/景观。",
+      "common_mistakes": [
+        "将不同环境的事物混淆，如认为高原上有大海。",
+        "对生僻字如‘崖’、‘漠’的写法或含义理解模糊。"
+      ],
+      "tips": "建议采用分类识字法，画一张‘地理环境图’，把沙漠、海洋等标志性物产贴在对应的位置上记忆。"
+    }
+  ]
+}

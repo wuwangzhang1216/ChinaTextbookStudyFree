@@ -1,0 +1,727 @@
+{
+  "textbook": "PEP Primary English Book 5 Unit 6",
+  "unit": "In a nature park",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "Unit 6 In a nature park - Unit Test",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "'mountain' 的中文意思是 '高山'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "mountain表示大山、高山。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "'lake' 的中文意思对应的是 '河流'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "lake是湖泊，river是河流。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "限定词any在疑问句中的用法",
+        "question": "在单数疑问句 Is there a lake? 中可以使用 any 替换 a。",
+        "options": [],
+        "answer": "错",
+        "explanation": "any通常用于复数名词或不可数名词，单数可数名词用a/an。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "Are there any rivers? 的否定回答可以是 No, there aren't.",
+        "options": [],
+        "answer": "对",
+        "explanation": "复数一般疑问句的标准简略否定回答方式。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "语音：字母组合ou的发音规律",
+        "question": "单词 'house' 和 'mouse' 中字母组合 'ou' 的发音是一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "它们都发 /aʊ/。 "
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "Which word means '许多树木生长的地方'?",
+        "options": [
+          "river",
+          "forest",
+          "building",
+          "city"
+        ],
+        "answer": "forest",
+        "explanation": "forest指森林，长满了树。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "There is a small _____ in the park for people to swim.",
+        "options": [
+          "lake",
+          "mountain",
+          "hill",
+          "tree"
+        ],
+        "answer": "lake",
+        "explanation": "在湖里（lake）可以游泳。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "—Is there a river in the park? —_____",
+        "options": [
+          "Yes, there is.",
+          "Yes, there are.",
+          "No, there is.",
+          "No, it isn't."
+        ],
+        "answer": "Yes, there is.",
+        "explanation": "Is there 开头的疑问句，肯定回答用 Yes, there is."
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "限定词any在疑问句中的用法",
+        "question": "Are there _____ tall buildings in the village?",
+        "options": [
+          "some",
+          "a",
+          "any",
+          "the"
+        ],
+        "answer": "any",
+        "explanation": "在疑问句中，复数名词前通常用any。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "语音：字母组合ou的发音规律",
+        "question": "Which word has the same sound as 'sound'?",
+        "options": [
+          "young",
+          "count",
+          "soup",
+          "touch"
+        ],
+        "answer": "count",
+        "explanation": "sound和count中ou都发/aʊ/。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "—Are there any people here? —No, _____.",
+        "options": [
+          "there is",
+          "there aren't",
+          "there are",
+          "it isn't"
+        ],
+        "answer": "there aren't",
+        "explanation": "否定回答用No, there aren't."
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然景观类词汇",
+        "question": "Look! There is a _____ over the river.",
+        "options": [
+          "hill",
+          "bridge",
+          "cloud",
+          "star"
+        ],
+        "answer": "bridge",
+        "explanation": "在河流上方的是桥（bridge）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然景观类词汇",
+        "question": "A _____ is higher than a hill.",
+        "options": [
+          "lake",
+          "river",
+          "mountain",
+          "village"
+        ],
+        "answer": "mountain",
+        "explanation": "山（mountain）通常比小丘（hill）高。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "The water in the _____ is clean.",
+        "options": [
+          "forest",
+          "village",
+          "river",
+          "hill"
+        ],
+        "answer": "river",
+        "explanation": "只有河（river）里有流动的水。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "_____ there an apple on the table?",
+        "options": [
+          "Am",
+          "Are",
+          "Is",
+          "Be"
+        ],
+        "answer": "Is",
+        "explanation": "apple是单数且以元音音素开头，用Is there an...。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "There are many trees and flowers in the f___.",
+        "options": [],
+        "answer": "forest",
+        "explanation": "森林（forest）里有许多树和花。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "限定词any在疑问句中的用法",
+        "question": "Are there ___ monkeys in the mountains?",
+        "options": [],
+        "answer": "any",
+        "explanation": "疑问句复数名词前填any。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "___ there a lake in the forest?",
+        "options": [],
+        "answer": "is",
+        "explanation": "单数一般疑问句用is开头。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "My grandparents live in a small v___.",
+        "options": [],
+        "answer": "village",
+        "explanation": "居住在村庄（village）里。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "请将下列英语单词与对应的中文意思连线。",
+        "options": [
+          "mountain",
+          "river",
+          "hill",
+          "lake",
+          "小山",
+          "湖泊",
+          "大山",
+          "河流"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "A高山，B河流，C小山，D湖泊。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然景观类词汇",
+        "question": "请将自然景观与特征描述连线。",
+        "options": [
+          "forest",
+          "bridge",
+          "village",
+          "building",
+          "村庄",
+          "建筑物",
+          "森林",
+          "桥"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "A森林，B桥，C村庄，D建筑物。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "将下列单词连成句子（注意大小写和标点）：",
+        "options": [
+          "there",
+          "Is",
+          "lake",
+          "a",
+          "?"
+        ],
+        "answer": "Is,there,a,lake,?",
+        "explanation": "一般疑问句：Is there + 物品 + 地点？"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "将下列单词连成句子（注意大小写和标点）：",
+        "options": [
+          "any",
+          "ducks",
+          "Are",
+          "there",
+          "?"
+        ],
+        "answer": "Are,there,any,ducks,?",
+        "explanation": "复数一般疑问句：Are there + any + 复数名词？"
+      }
+    ]
+  },
+  "exam": {
+    "title": "5th Grade English Final Exam - Unit 6 Emphasis",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "'river' 的中文意思是 '河流'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "river意为河流。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "限定词any在疑问句中的用法",
+        "question": "在句子 'There are some lakes.' 的一般疑问句中，some要变成any。",
+        "options": [],
+        "answer": "对",
+        "explanation": "肯定句变疑问句时，some通常变any。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "Is there a forest? 的答语可以是 No, there is.",
+        "options": [],
+        "answer": "错",
+        "explanation": "No后面应该接否定形式 isn't。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "Are there any hills? 问的是这里有没有一些小山。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Are there any...用于询问复数主语的存在性。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "语音：字母组合ou的发音规律",
+        "question": "'ground' 中字母组合 'ou' 的发音和 'mouth' 是一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "都发/aʊ/。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "The nature park is very quiet. There aren't many _____.",
+        "options": [
+          "people",
+          "water",
+          "bridge",
+          "sky"
+        ],
+        "answer": "people",
+        "explanation": "没有多少人，所以很安静。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "—Are there any pandas in the mountains? —_____",
+        "options": [
+          "Yes, they are.",
+          "Yes, there are.",
+          "No, there is.",
+          "No, they aren't."
+        ],
+        "answer": "Yes, there are.",
+        "explanation": "Are there的答语中主语必须是there。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "限定词any在疑问句中的用法",
+        "question": "Is there _____ water in the bottle?",
+        "options": [
+          "a",
+          "some",
+          "any",
+          "an"
+        ],
+        "answer": "any",
+        "explanation": "water是不可数名词，一般疑问句常用any。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "—_____ there a restaurant in the nature park? —No, there isn't.",
+        "options": [
+          "Is",
+          "Are",
+          "Am",
+          "Be"
+        ],
+        "answer": "Is",
+        "explanation": "根据答语isn't确定问句用Is。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "自然景观类词汇",
+        "question": "Children like to play on the green _____. It's like a soft carpet.",
+        "options": [
+          "grass",
+          "lake",
+          "river",
+          "mountain"
+        ],
+        "answer": "grass",
+        "explanation": "草地（grass）像绿毯子。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "语音：字母组合ou的发音规律",
+        "question": "Which word is DIFFERENT from the others in the sound of 'ou'?",
+        "options": [
+          "mouse",
+          "cloud",
+          "mountain",
+          "soup"
+        ],
+        "answer": "soup",
+        "explanation": "soup中ou发/uː/，其他发/aʊ/。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "—Are there any ducks on the lake? —Yes, _____.",
+        "options": [
+          "there are",
+          "there is",
+          "they are",
+          "it is"
+        ],
+        "answer": "there are",
+        "explanation": "复数肯定回答使用Yes, there are."
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然景观类词汇",
+        "question": "There is a _____ near the village. We can go boating.",
+        "options": [
+          "mountain",
+          "lake",
+          "building",
+          "hill"
+        ],
+        "answer": "lake",
+        "explanation": "划船（boating）需要在水域里，lake符合。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "_____ there many trees in the forest?",
+        "options": [
+          "Is",
+          "Are",
+          "Am",
+          "Be"
+        ],
+        "answer": "Are",
+        "explanation": "trees是复数名词，用Are there。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然景观类词汇",
+        "question": "My village is in the _____.",
+        "options": [
+          "mountains",
+          "bridge",
+          "fish",
+          "sky"
+        ],
+        "answer": "mountains",
+        "explanation": "村庄在山（mountains）里。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "There is a r___ in the park. The water is clean.",
+        "options": [],
+        "answer": "river",
+        "explanation": "根据首字母和水推断出是河流。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "There be 句型的一般疑问句",
+        "question": "___ there a bird in the tree?",
+        "options": [],
+        "answer": "is",
+        "explanation": "单数一般疑问句。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "限定词any在疑问句中的用法",
+        "question": "Are there ___ boys in the forest?",
+        "options": [],
+        "answer": "any",
+        "explanation": "复数疑问句中填any。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "The village is small. There are no t___ buildings.",
+        "options": [],
+        "answer": "tall",
+        "explanation": "村庄通常没有高（tall）楼。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然景观类词汇",
+        "question": "Match the words with Chinese meanings.",
+        "options": [
+          "village",
+          "forest",
+          "path",
+          "building",
+          "建筑物",
+          "小路",
+          "村庄",
+          "森林"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "A村庄，B森林，C小路，D建筑物。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自然景观类词汇",
+        "question": "Match the questions and answers.",
+        "options": [
+          "Is it far?",
+          "Are there any?",
+          "How is it?",
+          "Where is it?",
+          "它在哪里？",
+          "它怎么样？",
+          "它远吗？",
+          "有一些吗？"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "考察功能句的对应关系。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": " देयर बी 句型的一般疑问句",
+        "question": "Reorder the words to make a sentence.",
+        "options": [
+          "Is",
+          "there",
+          "forest",
+          "a",
+          "?"
+        ],
+        "answer": "Is,there,a,forest,?",
+        "explanation": "单数一般疑问句结构。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": " देयर बी 句型的一般疑问句",
+        "question": "Reorder the words to make a sentence.",
+        "options": [
+          "any",
+          "Are",
+          "there",
+          "fish",
+          "?"
+        ],
+        "answer": "Are,there,any,fish,?",
+        "explanation": "鱼（fish）单复数同形，询问复数时用Are there any。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "自然景观词汇",
+      "core_concept": "描述自然公园中的地理景观",
+      "key_formula": "mountain (大山), forest (森林), river (河流), lake (湖泊), village (村庄)",
+      "common_mistakes": [
+        "混淆 mountain (高山) 和 hill (小山)",
+        "river (河) 和 lake (湖) 拼写混淆"
+      ],
+      "tips": "可以通过高度和水域形态记忆：长条流动的多为river，静止成片的多为lake。"
+    },
+    {
+      "point": "There be 句型一般疑问句",
+      "core_concept": "确认某地是否存在某物",
+      "key_formula": "Is there a + 单数? / Are there any + 复数?",
+      "common_mistakes": [
+        "回答中使用 Yes, they are 回答 Are there 提问",
+        "疑问句开头字母未大写"
+      ],
+      "tips": "回答坚持‘问什么答什么’原则，用there提问就用there回答。"
+    },
+    {
+      "point": "限定词 any 的用法",
+      "core_concept": "在否定句和疑问句中代替 some",
+      "key_formula": "some + 复数 (肯定句); any + 复数 (疑问/否定句)",
+      "common_mistakes": [
+        "在肯定句中误用 any",
+        "在一般疑问句中忘记将 some 改为 any"
+      ],
+      "tips": "any 看到问号和 not 就要多加留意。"
+    },
+    {
+      "point": "语音规律：ou",
+      "core_concept": "字母组合 ou 在单词里的发音",
+      "key_formula": "ou -> /aʊ/ (如 house, mouse, thousand)",
+      "common_mistakes": [
+        "将 soup 中的 ou (/uː/) 误读为 /aʊ/",
+        "将 young 中的 ou (/ʌ/) 误读为 /aʊ/"
+      ],
+      "tips": "记忆口诀：大大的 house (房子) 里有只 mouse (老鼠)，发出 sound (声音) 到 ground (地面)。"
+    }
+  ]
+}

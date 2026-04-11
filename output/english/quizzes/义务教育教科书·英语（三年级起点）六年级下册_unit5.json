@@ -1,0 +1,716 @@
+{
+  "textbook": "PEP Primary English 6B",
+  "unit": "Recycle 2",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 Recycle & Review Baseline Test",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词汇逻辑分类",
+        "question": "单词 'plane', 'train', 'taxi' 都属于交通工具类词汇。",
+        "options": [],
+        "answer": "对",
+        "explanation": "plane(飞机), train(火车), taxi(出租车)均属于交通工具。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "冠词搭配",
+        "question": "在单词 'eraser' 前面表示 '一个' 时，应该用 'a'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "eraser以元音音素开头，应用an。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "一般将来时",
+        "question": "'I am going to visit my uncle.' 表达的是将来打算做的事情。",
+        "options": [],
+        "answer": "对",
+        "explanation": "be going to结构表示计划或打算做某事。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "时态辨析",
+        "question": "'last weekend' 通常与过去式连用，不与将来时连用。",
+        "options": [],
+        "answer": "对",
+        "explanation": "last weekend意为上周末，是过去时间的标志。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "叙事连接词",
+        "question": "在描述事情经过时，'Finally' 通常放在段落的最开头。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Finally表示‘最后’，应放在事件描述的末尾。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "冠词搭配",
+        "question": "I would like ____ apple and ____ milk.",
+        "options": [
+          "a; some",
+          "an; some",
+          "an; a",
+          "a; a"
+        ],
+        "answer": "an; some",
+        "explanation": "apple是元音音素开头用an；milk是不可数名词用some。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇分类",
+        "question": "Which word doesn't belong to others? (哪一个单词不属于同一类?)",
+        "options": [
+          "scientist",
+          "pilot",
+          "coach",
+          "summer"
+        ],
+        "answer": "summer",
+        "explanation": "其他三项是职业，summer是季节。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "一般将来时",
+        "question": "What ____ you going to do this evening?",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "do"
+        ],
+        "answer": "are",
+        "explanation": "第二人称you对应的be动词是are。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叙事连接词",
+        "question": "____, he got up. Then, he brushed his teeth.",
+        "options": [
+          "Finally",
+          "After that",
+          "First",
+          "Next"
+        ],
+        "answer": "First",
+        "explanation": "表示事情的第一步通常用First。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "职业词汇",
+        "question": "Mike likes stars. He wants to be an ____.",
+        "options": [
+          "postman",
+          "astronaut",
+          "worker",
+          "doctor"
+        ],
+        "answer": "astronaut",
+        "explanation": "喜欢星星的人想当宇航员(astronaut)，且以元音开头应用an。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时态辨析",
+        "question": "Yesterday I ____ to the park. Today I ____ at home.",
+        "options": [
+          "go; am",
+          "went; was",
+          "went; am",
+          "go; was"
+        ],
+        "answer": "went; am",
+        "explanation": "第一句有Yesterday用过去式；第二句有Today且主语是I用am。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "连词用法",
+        "question": "____ comes after 'Then' in a story sequence?",
+        "options": [
+          "Before",
+          "Yesterday",
+          "After that",
+          "In the morning"
+        ],
+        "answer": "After that",
+        "explanation": "在叙事逻辑中，Then之后常用After that衔接。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "疑问词辨析",
+        "question": "____ are you going to the party? At 7:00.",
+        "options": [
+          "Where",
+          "When",
+          "Who",
+          "How"
+        ],
+        "answer": "When",
+        "explanation": "对时间提问用When。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "固定搭配",
+        "question": "Sarah is going to ____ a magazine this afternoon.",
+        "options": [
+          "read",
+          "reads",
+          "reading",
+          "readed"
+        ],
+        "answer": "read",
+        "explanation": "be going to后面跟动词原形。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合理解",
+        "question": "John: I'm going to be a teacher. Amy: ____.",
+        "options": [
+          "Good luck",
+          "That's sounds great",
+          "Me either",
+          "I am a teacher"
+        ],
+        "answer": "That's sounds great",
+        "explanation": "当别人说出理想时，合适的反馈是表示赞赏。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "一般将来时",
+        "question": "We are going to ____ a film tonight.",
+        "options": [],
+        "answer": "see",
+        "explanation": "看电影固定搭配为see a film。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叙事连接词",
+        "question": "First, I wash my face. ____ that, I have breakfast.",
+        "options": [],
+        "answer": "after",
+        "explanation": "After that是固定的衔接短语。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "冠词搭配",
+        "question": "There is ____ orange on the table.",
+        "options": [],
+        "answer": "an",
+        "explanation": "orange以元音音素开头，用an。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一般将来时",
+        "question": "Where ____ you go next Sunday?",
+        "options": [],
+        "answer": "will",
+        "explanation": "对将来地点的询问，可用will加动词原形。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇翻译",
+        "question": "给下列短语进行英汉配对。",
+        "options": [
+          "take a trip",
+          "go hiking",
+          "see a doctor",
+          "by subway",
+          "去远足",
+          "乘地铁",
+          "去旅行",
+          "看病"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "A.take a trip-3.去旅行; B.go hiking-1.去远足; C.see a doctor-4.看病; D.by subway-2.乘地铁。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叙事连接词",
+        "question": "给下列逻辑连接词进行英汉配对。",
+        "options": [
+          "In the morning",
+          "Then",
+          "Finally",
+          "Yesterday",
+          "昨天",
+          "最后",
+          "在早上",
+          "然后"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "A.In the morning-3.在早上; B.Then-4.然后; C.Finally-2.最后; D.Yesterday-1.昨天。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般将来时",
+        "question": "将下列单词连成句子：",
+        "options": [
+          "going",
+          "am",
+          "I",
+          "to",
+          "swim"
+        ],
+        "answer": "I,am,going,to,swim",
+        "explanation": "主语I + am going to + 动词原形swim。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一般将来时",
+        "question": "将下列单词连成句子：",
+        "options": [
+          "be",
+          "He",
+          "will",
+          "a",
+          "pilot"
+        ],
+        "answer": "He,will,be,a,pilot",
+        "explanation": "主语He + will be + 职业a pilot。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Sixth Grade Second Term Final Recycle Exam",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "冠词搭配",
+        "question": "'an' is used before the word 'hour' because it starts with a vowel sound.",
+        "options": [],
+        "answer": "对",
+        "explanation": "hour中的h不发音，发音以元音开头，所以用an。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "一般将来时",
+        "question": "'I will to play football' is a correct sentence.",
+        "options": [],
+        "answer": "错",
+        "explanation": "will后面直接跟动词原形，不需要to。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词汇分类",
+        "question": "'Dictionary', 'book', 'newspaper' follow the same logic as reading materials.",
+        "options": [],
+        "answer": "对",
+        "explanation": "它们都属于阅读材料类。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "叙事连接词",
+        "question": "'Instead' can be used to show the sequence of time in a story.",
+        "options": [],
+        "answer": "错",
+        "explanation": "instead表示替代，不是时间顺序连接词。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "一般将来时",
+        "question": "We can use 'be going to' to talk about a dream job in the future.",
+        "options": [],
+        "answer": "对",
+        "explanation": "be going to可以用来描述未来的计划或目标。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般将来时",
+        "question": "____ you ____ free next Sunday morning?",
+        "options": [
+          "Are; going to",
+          "Will; be",
+          "Do; be",
+          "Are; be"
+        ],
+        "answer": "Will; be",
+        "explanation": "将来时的疑问句Will + 主语 + 动词原形be。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "方位介词",
+        "question": "The cinema is ____ the hospital. It's next to it.",
+        "options": [
+          "next to",
+          "on",
+          "in",
+          "under"
+        ],
+        "answer": "next to",
+        "explanation": "表示在...旁边用next to。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "叙事连接词",
+        "question": "I had a busy day. ____ I did my homework. Then I went to bed.",
+        "options": [
+          "Finally",
+          "First",
+          "At last",
+          "Then"
+        ],
+        "answer": "Finally",
+        "explanation": "根据上下文，睡觉前做的最后一件事是作业，用Finally或后接Then构成的序列中有误，此处选Finally最符合结束感。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇辨析",
+        "question": "If you want to buy some books, you can go to the ____.",
+        "options": [
+          "post office",
+          "hospital",
+          "bookstore",
+          "museum"
+        ],
+        "answer": "bookstore",
+        "explanation": "买书要去书店(bookstore)。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般将来时",
+        "question": "My father ____ a teacher next year.",
+        "options": [
+          "is",
+          "will is",
+          "will be",
+          "was"
+        ],
+        "answer": "will be",
+        "explanation": "明年(next year)用一般将来时，will后面接动词原形be。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "特殊疑问句",
+        "question": "____ are you going? To the library.",
+        "options": [
+          "What",
+          "How",
+          "Where",
+          "When"
+        ],
+        "answer": "Where",
+        "explanation": "回答是地点，用Where提问。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词形式",
+        "question": "I want ____ an English teacher in the future.",
+        "options": [
+          "to be",
+          "be",
+          "am",
+          "being"
+        ],
+        "answer": "to be",
+        "explanation": "want to be... 想要成为..."
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情景交际",
+        "question": "How can I get to the Fuxing Hospital? ____",
+        "options": [
+          "It's near.",
+          "Take the No. 5 bus.",
+          "I like it.",
+          "It's cold."
+        ],
+        "answer": "Take the No. 5 bus.",
+        "explanation": "询问如何到达某地，应回答交通方式或路线。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "冠词用法",
+        "question": "He has ____ idea for the weekend.",
+        "options": [
+          "a",
+          "an",
+          "some",
+          "two"
+        ],
+        "answer": "an",
+        "explanation": "idea以元音音素/aɪ/开头，用an。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "逻辑理解",
+        "question": "Robin is a robot. He ____ eat or sleep.",
+        "options": [
+          "doesn't",
+          "can",
+          "is",
+          "not"
+        ],
+        "answer": "doesn't",
+        "explanation": "机器人不需要吃和睡，eat/sleep是动词，用doesn't助动词。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词汇归类",
+        "question": "Spring, summer, autumn and ____ are four seasons.",
+        "options": [],
+        "answer": "winter",
+        "explanation": "四季包括：春夏秋冬。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "一般将来时",
+        "question": "I ____ going to buy a comic book.",
+        "options": [],
+        "answer": "am",
+        "explanation": "主语是I，be动词用am。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "叙事连接词",
+        "question": "____, he went to the bookstore. Finally, he went home.",
+        "options": [],
+        "answer": "then",
+        "explanation": "表示动作的先后顺序，常用Then。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "日期表达",
+        "question": "Childern's Day is on the first of ____.",
+        "options": [],
+        "answer": "june",
+        "explanation": "六一儿童节在六月。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词义匹配",
+        "question": "Match the following occupations with definitions.",
+        "options": [
+          "pilot",
+          "coach",
+          "singer",
+          "writer",
+          "教练",
+          "作家",
+          "飞行员",
+          "歌手"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "pilot-飞行员; coach-教练; singer-歌手; writer-作家。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词短语",
+        "question": "Match the English phrases with Chinese.",
+        "options": [
+          "read a book",
+          "clean the room",
+          "cook food",
+          "listen to music",
+          "打扫房间",
+          "听音乐",
+          "看书",
+          "做饭"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "read a book-看书; clean the room-打扫房间; cook food-做饭; listen to music-听音乐。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "疑问句序",
+        "question": "将下列单词连成句子：",
+        "options": [
+          "are",
+          "Where",
+          "going",
+          "you"
+        ],
+        "answer": "Where,are,you,going",
+        "explanation": "疑问词Where + be + 主语 + doing。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "叙事逻辑",
+        "question": "将下列单词连成句子：",
+        "options": [
+          "he",
+          "Then",
+          "ate",
+          "dinner"
+        ],
+        "answer": "Then,he,ate,dinner",
+        "explanation": "连接词Then + 主语he + 谓语ate + 宾语dinner。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "词汇逻辑分类与冠词",
+      "core_concept": "名词的特征分类及不定冠词的选择",
+      "key_formula": "a + 辅音音素开头单词; an + 元音音素开头单词(如 apple, egg, orange, hour); some + 不可数/复数",
+      "common_mistakes": [
+        "在hour前误用a",
+        "在不可数名词如milk前误用a"
+      ],
+      "tips": "分类记忆词汇可以建立思维导图，如Transport, Jobs, Places等。"
+    },
+    {
+      "point": "叙事逻辑连接词",
+      "core_concept": "使用连接词使故事表达更流畅",
+      "key_formula": "First -> Then -> After that -> Finally",
+      "common_mistakes": [
+        "连接词顺序混乱",
+        "忘记在After后面加that"
+      ],
+      "tips": "想象自己在讲故事，先说第一步，最后一步用Finally结尾。"
+    },
+    {
+      "point": "一般将来时",
+      "core_concept": "描述计划、打算或将要发生的动作",
+      "key_formula": "be going to + 动词原形; will + 动词原形",
+      "common_mistakes": [
+        "be动词与主语不一致",
+        "to后面误用动词ing或过去式",
+        "will后面加了to"
+      ],
+      "tips": "看到tomorrow, tonight, next week等时间状语时，优先考虑将来时。"
+    }
+  ]
+}

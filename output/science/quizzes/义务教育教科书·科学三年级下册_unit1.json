@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学三年级下册",
+  "unit": "物体的运动",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元《物体的运动》单元基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "参照物与运动状态判断",
+        "question": "当我们坐在行驶的汽车里，看到路边的树木在向后退，是以路边的建筑为参照物的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "看到树木向后退是以汽车或自己为参照物的；以路边建筑为参照物，树木是静止的。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "运动轨迹的分类",
+        "question": "抛出的铅球在空中的运动路径是曲线，所以它做的是曲线运动。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据运动路径形状，运动分为直线运动和曲线运动，铅球路径是弧形，属于曲线运动。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "位置的描述",
+        "question": "只要有方向，我们就一定能确定一个物体在空间中的准确位置。",
+        "options": [],
+        "answer": "错",
+        "explanation": "描述位置需要方向和距离两个要素，缺一不可。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "物体在斜面上的运动方式",
+        "question": "同一个物体在同一个斜面上，其运动方式只能是滑行或滚动中的一种。",
+        "options": [],
+        "answer": "错",
+        "explanation": "由于放置方式不同（如正方体平放或立放），物体的运动方式可能发生改变。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "在奔跑比赛中，相同时间内跑的距离越长，说明运动得越快。",
+        "options": [],
+        "answer": "对",
+        "explanation": "相同时间内，比距离，距离长的运动快。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "参照物与运动状态判断",
+        "question": "我们通常所说的“太阳东升西落”，是以（）为参照物的。",
+        "options": [
+          "太阳",
+          "地球",
+          "云朵",
+          "月亮"
+        ],
+        "answer": "地球",
+        "explanation": "描述天体运行通常是以观察者所在的地球作为参照物。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "运动轨迹的分类",
+        "question": "下列运动中，属于直线运动的是（）。",
+        "options": [
+          "转动中的风扇叶片",
+          "垂直下落的雨滴",
+          "绕操场跑步的学生",
+          "在地上的陀螺"
+        ],
+        "answer": "垂直下落的雨滴",
+        "explanation": "垂直下落的雨滴路径是直线；其他选项路径均为曲线或旋转。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "位置的描述",
+        "question": "在描述小明的位置时，最准确的说法是（）。",
+        "options": [
+          "他在学校里",
+          "他在离校门10米处",
+          "他在校门正东方向",
+          "他在校门正东方向10米处"
+        ],
+        "answer": "他在校门正东方向10米处",
+        "explanation": "准确描述位置包含：参照物（校门）、方向（正东）和距离（10米）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体在斜面上的运动方式",
+        "question": "把小钢球放在斜面上，它最有可能的运动方式是（）。",
+        "options": [
+          "滑动",
+          "静止不动",
+          "滚动",
+          "先滑动后静止"
+        ],
+        "answer": "滚动",
+        "explanation": "球形物体在斜面上因重力作用通常会向下滚动。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "三位同学参加50米赛跑。甲用了10秒，乙用了12秒，丙用了9秒。跑得最快的是（）。",
+        "options": [
+          "甲",
+          "乙",
+          "丙",
+          "三人一样快"
+        ],
+        "answer": "丙",
+        "explanation": "相同距离内，用时越短，运动越快。9秒最短，所以丙最快。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "运动轨迹的分类",
+        "question": "在公交车上，乘客能看到路边站牌在移动。路边站牌的运动轨迹是（）。",
+        "options": [
+          "直线运动",
+          "曲线运动",
+          "复合运动",
+          "无法判断"
+        ],
+        "answer": "直线运动",
+        "explanation": "相对于直线行驶的汽车，路边的站牌在做直线运动。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "参照物与运动状态判断",
+        "question": "诗句“满眼风波多闪烁，看山恰似走来迎”。诗中描述山是运动的，参照物是（）。",
+        "options": [
+          "岸边的树",
+          "山",
+          "诗人乘坐的船",
+          "天空"
+        ],
+        "answer": "诗人乘坐的船",
+        "explanation": "山相对于船的位置发生了变化，所以船是参照物。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "位置的描述",
+        "question": "我们利用指南针主要是为了确定物体的（）。",
+        "options": [
+          "距离",
+          "方向",
+          "大小",
+          "重量"
+        ],
+        "answer": "方向",
+        "explanation": "指南针是利用磁场指示南北，从而确定方向的工具。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体在斜面上的运动方式",
+        "question": "增加斜面的高度，物体在斜面上的运动速度通常会（）。",
+        "options": [
+          "变慢",
+          "变快",
+          "不变",
+          "先变慢再变快"
+        ],
+        "answer": "变快",
+        "explanation": "斜面坡度越大，重力沿斜面的分力越大，物体下滑越快。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "在测量运动快慢实验中，重复实验3次的目的是（）。",
+        "options": [
+          "让结果更准确",
+          "打发时间",
+          "让更多人参与",
+          "增加难度"
+        ],
+        "answer": "让结果更准确",
+        "explanation": "重复试验、取平均值是为了减少实验偶然因素引起的误差。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "甲车2小时行驶100公里，乙车3小时行驶150公里，则（）。",
+        "options": [
+          "甲车快",
+          "乙车快",
+          "两车一样快",
+          "无法比较"
+        ],
+        "answer": "两车一样快",
+        "explanation": "100/2=50，150/3=50。两车每小时速度均为50公里。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体在斜面上的运动方式",
+        "question": "把立方体木块放在斜面上，它最常见的运动方式是（）。",
+        "options": [
+          "滑动",
+          "滚动",
+          "旋转",
+          "跳跃"
+        ],
+        "answer": "滑动",
+        "explanation": "立方体各面平整，在斜面上更容易发生面与面之间的滑动。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "运动轨迹的分类",
+        "question": "钟表指针的运动轨迹属于（）。",
+        "options": [
+          "直线运动",
+          "曲线运动",
+          "静止",
+          "无法判断"
+        ],
+        "answer": "曲线运动",
+        "explanation": "指针绕轴旋转，各点路径是圆弧，属于曲线运动。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "猎豹10秒跑了300米，羚羊10秒跑了200米，猎豹在10秒内比羚羊多跑了（）米。",
+        "options": [],
+        "answer": "100",
+        "explanation": "300 - 200 = 100。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "位置的描述",
+        "question": "在地图或校园平面图中，通常用“上北、下南、左西、右东”来表示方向。图中共有（）个基本方向。",
+        "options": [],
+        "answer": "4",
+        "explanation": "东、南、西、北为四个最基本方向。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "运动状态判断",
+        "question": "判断一个物体是运动还是静止，首先要选择（）。",
+        "options": [],
+        "answer": "参照物",
+        "explanation": "参照物是判断物体运动状态的标准。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物体在斜面上的运动方式",
+        "question": "像皮球在斜面上那样，物体整体向下移动且伴随自身旋转的运动方式叫（）。",
+        "options": [],
+        "answer": "滚动",
+        "explanation": "滚动是圆柱形或球形物体常见的运动方式。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "运动轨迹的分类",
+        "question": "老鹰在空中盘旋，它的运动路径是曲线，这种运动方式称为（）。",
+        "options": [],
+        "answer": "曲线运动",
+        "explanation": "路径不是直线的运动统一称为曲线运动。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级下册科学第一单元《物体的运动》综合评估检测卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "运动轨迹的分类",
+        "question": "电梯轿厢的上下运送属于直线运动。",
+        "options": [],
+        "answer": "对",
+        "explanation": "电梯沿垂直导轨移动，路径是直线。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "参照物与运动状态判断",
+        "question": "同步卫星相对于地面是运动的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "同步卫星相对于地面位置保持不变，是静止的。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "位置的描述",
+        "question": "利用地图寻找目的地时，我们需要根据地图上的方向标志来辨别南、北。",
+        "options": [],
+        "answer": "对",
+        "explanation": "地图通过方向标确定方位。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "物体在斜面上的运动方式",
+        "question": "只要物体是球形的，它在任何斜面上都一定能滚动。",
+        "options": [],
+        "answer": "对",
+        "explanation": "球体因重心原因在斜面上极不稳定，会发生滚动。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "赛跑时，跑完全程用时最长的运动员获得的成绩最好。",
+        "options": [],
+        "answer": "错",
+        "explanation": "用时最短的成绩最好。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "参照物与运动状态判断",
+        "question": "坐在快艇上的小明说：“岸边的房屋和树木都在向后退”。他选取的参照物是（）。",
+        "options": [
+          "河水",
+          "快艇",
+          "房屋",
+          "树木"
+        ],
+        "answer": "快艇",
+        "explanation": "房屋相对于快艇位置在改变，看到向后退是以快艇为参照。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "位置的描述",
+        "question": "如果要记录一个物体的位置，我们通常不需要用到的是（）。",
+        "options": [
+          "参照物",
+          "方向",
+          "物体的质量",
+          "距离"
+        ],
+        "answer": "物体的质量",
+        "explanation": "描述位置由参照物、方向、距离三要素组成，与质量无关。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "运动轨迹的分类",
+        "question": "下列选项中，既包含直线运动又包含曲线运动的是（）。",
+        "options": [
+          "掉落的树叶",
+          "绕操场跑圈的人",
+          "从滑梯滑下的小朋友",
+          "在直线跑道上拍打带球过人的球员"
+        ],
+        "answer": "在直线跑道上拍打带球过人的球员",
+        "explanation": "球员整体沿直线跑，球在上下弹跳（直线）或过人避障（曲线），属于复合运动。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物体在斜面上的运动方式",
+        "question": "我们要让小车在斜面上运动得更快，合适的方法是（）。",
+        "options": [
+          "增加斜面长度",
+          "增加斜面高度",
+          "减小斜面坡度",
+          "在斜面上铺毛巾"
+        ],
+        "answer": "增加斜面高度",
+        "explanation": "增加高度能增加坡度，使物体运动更快。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "百米赛跑计时员应该在（）时开始计时。",
+        "options": [
+          "听到起跑发令枪声",
+          "看到起跑发令枪冒烟",
+          "看到运动员开始起跑",
+          "听观众喊加油"
+        ],
+        "answer": "看到起跑发令枪冒烟",
+        "explanation": "光速比声速快，看烟计时最准确。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "在比较快慢的实验中，如果有一次测量的数据与其他两次差距过大，应该（）。",
+        "options": [
+          "直接舍弃，取另外两次平均值",
+          "重新测量一次",
+          "修改这个数据，让它接近其他数据",
+          "只选大的那个"
+        ],
+        "answer": "重新测量一次",
+        "explanation": "科学实验应严谨，异常数据需排除干扰后重测。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "位置的描述",
+        "question": "在校园里，教学楼在大门的北面，大门就在教学楼的（）。",
+        "options": [
+          "东面",
+          "南面",
+          "西面",
+          "北面"
+        ],
+        "answer": "南面",
+        "explanation": "方向是相对的，北的相反方向是南。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "参照物与运动状态判断",
+        "question": "小红站立在自动扶梯上随扶梯上楼。相对于（），小红是静止的。",
+        "options": [
+          "扶梯的台阶",
+          "地面上的柜台",
+          "楼层天花板",
+          "正在下楼的人"
+        ],
+        "answer": "扶梯的台阶",
+        "explanation": "小红和扶梯台阶之间没有位置改变，所以是静止的。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物体在斜面上的运动方式",
+        "question": "将一个正方体木块放在一个非常陡的斜面上（坡度很大），它最有可能（）。",
+        "options": [
+          "滑动",
+          "翻滚",
+          "静止",
+          "匀速运动"
+        ],
+        "answer": "翻滚",
+        "explanation": "在坡度极大时，重力会导致非球形物体重心偏移发生翻滚。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "运动轨迹的分类",
+        "question": "乒乓球从桌上滚落地面的过程中，它在空中的路径是（）。",
+        "options": [
+          "直线",
+          "曲线",
+          "圆形",
+          "正方形"
+        ],
+        "answer": "曲线",
+        "explanation": "受重力影响，平抛出的物体做曲线运动。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "小明走10米用了8秒，小红走10米用了9秒，则（）。",
+        "options": [
+          "小明走得慢",
+          "小红走得快",
+          "小明走得快",
+          "两人一样快"
+        ],
+        "answer": "小明走得快",
+        "explanation": "相同距离，用时短的快。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物体在斜面上的运动方式",
+        "question": "以下哪种形状的物体，在斜面上最容易滚动起来？",
+        "options": [
+          "圆柱体侧放",
+          "正方体",
+          "三角柱",
+          "长方体"
+        ],
+        "answer": "圆柱体侧放",
+        "explanation": "圆柱体侧面是弯曲的，容易产生滚动。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "下列物体运动速度最快的是（）。",
+        "options": [
+          "正在飞行的客机",
+          "正在奔跑的狮子",
+          "高速公路上的汽车",
+          "海里游动的旗鱼"
+        ],
+        "answer": "正在飞行的客机",
+        "explanation": "客机时速约800-900公里，远高于动物和地面车辆。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "一个物体2秒钟移动了10米，那么它在1分钟内可以移动（）米（假设速度不变）。",
+        "options": [],
+        "answer": "300",
+        "explanation": "1秒5米，60秒就是300米。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "运动快慢的比较标准",
+        "question": "在50米往返跑比赛中，小强从起点跑向终点用了9秒，转头跑回起点用了11秒，小强跑完这100米全程共用了（）秒。",
+        "options": [],
+        "answer": "20",
+        "explanation": "9 + 11 = 20。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "参照物与运动状态判断",
+        "question": "运动的相对性是指物体是运动还是静止，取决于我们所选取的（）。",
+        "options": [],
+        "answer": "参照物",
+        "explanation": "参照物不同，描述出的运动状态可能不同。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "运动轨迹的分类",
+        "question": "滑冰运动员在平直冰道上向前滑行时，其整体的运动属于（）。",
+        "options": [],
+        "answer": "直线运动",
+        "explanation": "轨迹为直线。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "位置的描述",
+        "question": "要描述“过山车”的位置，需要用到方向盘和（）。",
+        "options": [],
+        "answer": "软尺",
+        "explanation": "描述位置需要方向和距离，软尺用于测量距离。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "参照物与运动状态判断",
+      "core_concept": "判断物体是否运动，关键看它相对于参照物的位置是否发生改变。",
+      "key_formula": "位置改变=运动；位置不变=静止。",
+      "common_mistakes": [
+        "认为参照物必须是静止的",
+        "选择自己做参照物时忘记自己也在动"
+      ],
+      "tips": "通常选择地面或地面上固定的物体作为参照物。"
+    },
+    {
+      "point": "位置的描述（方向与距离）",
+      "core_concept": "利用方向和距离描述物体在参照物周围的具体位置。",
+      "key_formula": "具体位置 = 参照物 + 方向 + 距离。",
+      "common_mistakes": [
+        "描述位置只说方向不说明距离",
+        "忘记说明以哪里为起点(参照物)"
+      ],
+      "tips": "在地图上找位置要先看方向标，通常是北向上。"
+    },
+    {
+      "point": "运动轨迹的分类（直线与曲线）",
+      "core_concept": "根据物体运动路径的形状分类。",
+      "key_formula": "路径直=直线运动；路径弯=曲线运动。",
+      "common_mistakes": [
+        "把复合运动简单归为一类",
+        "认为旋转的物体是直线运动"
+      ],
+      "tips": "看物体的中心点或整体移动的路径。"
+    },
+    {
+      "point": "物体在斜面上的运动方式",
+      "core_concept": "物体在斜面上有滑动、滚动、静止三种状态。",
+      "key_formula": "接触面形状与斜面坡度共同决定运动方式。",
+      "common_mistakes": [
+        "认为所有物体放在斜面上都会动",
+        "混淆滑动和滚动的定义"
+      ],
+      "tips": "圆柱形、球形物体容易滚动；坡度越大，运动越快。"
+    },
+    {
+      "point": "运动快慢的比较标准",
+      "core_concept": "通过相同距离比时间或相同时间比距离。",
+      "key_formula": "距离/时间=速度(快慢)。",
+      "common_mistakes": [
+        "距离相同时，认为用时越长的越快",
+        "不统一单位就直接比较数值"
+      ],
+      "tips": "做实验时取三次测量的平均值能减少误差。"
+    }
+  ]
+}

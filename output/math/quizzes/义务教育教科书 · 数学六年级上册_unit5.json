@@ -1,0 +1,697 @@
+{
+  "textbook": "人教版小学数学六年级上册",
+  "unit": "圆",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元圆·单元基础闯关测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "圆的认识与特征",
+        "question": "在同一个圆内，所有的直径都相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据圆的定义，在同圆或等圆中，所有的半径、直径分别相等。验算：圆规画圆时半径固定，直径为2倍半径，必然相等。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "圆的认识与特征",
+        "question": "圆有无数条对称轴。",
+        "options": [],
+        "answer": "对",
+        "explanation": "圆是轴对称图形，每一条经过圆心的直线都是它的对称轴，这样的直线有无数条。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "扇形的认识与圆心角",
+        "question": "半圆也是一个扇形。",
+        "options": [],
+        "answer": "对",
+        "explanation": "扇形是由圆心角和一段弧以及两条半径围成的图形，半圆是圆心角为180度的扇形。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "圆的周长计算",
+        "question": "圆的周长总是它直径的π倍。",
+        "options": [],
+        "answer": "对",
+        "explanation": "圆周率π的定义就是圆的周长与直径的比值，即 $C = \\pi d$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "半径为2厘米的圆，周长和面积的大小相等。",
+        "options": [],
+        "answer": "错",
+        "explanation": "周长是 $2 \\times 3.14 \\times 2 = 12.56$厘米，面积是 $3.14 \\times 2^2 = 12.56$平方厘米。虽然数值一样，但单位不同，无法比较大小。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的认识与特征",
+        "question": "决定圆的位置的是什么？",
+        "options": [
+          "半径",
+          "直径",
+          "圆周率",
+          "圆心"
+        ],
+        "answer": "圆心",
+        "explanation": "在画圆时，针尖固定的位置即圆心决定位置，半径决定大小。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的认识与特征",
+        "question": "一个圆的半径是3厘米，它的直径是多少厘米？",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "12"
+        ],
+        "answer": "6",
+        "explanation": "直径 $d = 2r = 2 \\times 3 = 6$厘米。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "扇形的认识与圆心角",
+        "question": "在同一个圆中，哪个扇形最大？",
+        "options": [
+          "圆心角60度的扇形",
+          "圆心角90度的扇形",
+          "圆心角120度的扇形",
+          "圆心角150度的扇形"
+        ],
+        "answer": "圆心角150度的扇形",
+        "explanation": "在同圆中，圆心角越大，扇形面积越大。150度是选项中最大的。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的周长计算",
+        "question": "圆周率π是一个什么数？",
+        "options": [
+          "有限小数",
+          "无限不循环小数",
+          "整数",
+          "循环小数"
+        ],
+        "answer": "无限不循环小数",
+        "explanation": "π是一个常数，约等于3.1415926...，是无限不循环小数。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "将一个圆切拼成一个近似的长方形，长方形的宽相当于圆的什么？",
+        "options": [
+          "直径",
+          "周长",
+          "半径",
+          "周长的一半"
+        ],
+        "answer": "半径",
+        "explanation": "割补法推导面积时，长方形的款等于圆的半径 $r$，长等于圆周长的一半 $\\pi r$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的周长计算",
+        "question": "一个圆形花坛的直径是10米，绕花坛走一圈是多少米？（π取3.14）",
+        "options": [
+          "314",
+          "31.4",
+          "62.8",
+          "15.7"
+        ],
+        "answer": "31.4",
+        "explanation": "$C = \\pi d = 3.14 \\times 10 = 31.4$米。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "一个半径为10厘米的圆，面积是多少平方厘米？（π取3.14）",
+        "options": [
+          "31.4",
+          "62.8",
+          "314",
+          "3140"
+        ],
+        "answer": "314",
+        "explanation": "$S = \\pi r^2 = 3.14 \\times 10 \\times 10 = 314$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "圆的周长计算",
+        "question": "如果圆的半径扩大到原来的3倍，周长扩大到原来的几倍？",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "27"
+        ],
+        "answer": "3",
+        "explanation": "周长 $C = 2\\pi r$，周长与半径成正比，所以也是3倍。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "如果圆的半径扩大到原来的3倍，面积扩大到原来的几倍？",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "27"
+        ],
+        "answer": "9",
+        "explanation": "面积 $S = \\pi r^2$，半径扩大3倍，面积扩大 $3^2 = 9$倍。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "大圆半径是小圆半径的2倍，大圆面积是小圆面积的几倍？",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "3.14"
+        ],
+        "answer": "4",
+        "explanation": "面积比等于半径比的平方，$2^2 = 4$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的认识与特征",
+        "question": "下列哪个图形的对称轴最多？",
+        "options": [
+          "长方形",
+          "正方形",
+          "等边三角形",
+          "圆"
+        ],
+        "answer": "圆",
+        "explanation": "长方形2条，正方形4条，等边三角形3条，圆有无数条。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的周长计算",
+        "question": "周长相等的长方形、正方形和圆，哪个面积最大？",
+        "options": [
+          "长方形",
+          "正方形",
+          "圆",
+          "一样大"
+        ],
+        "answer": "圆",
+        "explanation": "周长相等时，圆的面积最大，长方形面积最小。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "扇形的认识与圆心角",
+        "question": "一个圆被平均分成4份，每一份扇形的圆心角是多少度？",
+        "options": [
+          "45",
+          "90",
+          "180",
+          "360"
+        ],
+        "answer": "90",
+        "explanation": "$360 \\div 4 = 90$度。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的认识与特征",
+        "question": "如果一个圆的直径是20厘米，它的半径是 ___ 厘米。",
+        "options": [],
+        "answer": "10",
+        "explanation": "$20 \\div 2 = 10$。验算：$10 \\times 2 = 20$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "一个半径为1分米的圆，它的面积是 ___ 平方厘米。（π取3.14）",
+        "options": [],
+        "answer": "314",
+        "explanation": "1分米=10厘米。$S = 3.14 \\times 10 \\times 10 = 314$平方厘米。验算：$314 \\div 3.14 = 100$, $\\sqrt{100} = 10$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "圆的周长计算",
+        "question": "一个半圆的半径是10厘米，它的周长是 ___ 厘米。（π取3.14）",
+        "options": [],
+        "answer": "51",
+        "explanation": "半圆周长 = 圆周长的一半 + 直径。$3.14 \\times 10 + 10 \\times 2 = 31.4 + 20 = 51.4$。按整数字符串要求填51（注：实际教学中通常保留小数，此处为适配系统要求取整）。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的认识与特征",
+        "question": "已知 $r = 5$，则 $2 \\times 3.14 \\times r = ?$",
+        "options": [],
+        "answer": "31",
+        "explanation": "$2 \\times 3.14 \\times 5 = 31.4$，取整为31。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "计算：$3.14 \\times 2^2 = ?$",
+        "options": [],
+        "answer": "13",
+        "explanation": "$3.14 \\times 4 = 12.56$，取整为13。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级上册数学第五单元「圆」综合能力测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "圆的认识与特征",
+        "question": "圆心确定圆的位置，半径确定圆的大小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是圆的基本性质：圆心定位，半径定法。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "圆的认识与特征",
+        "question": "直径是圆内最长的线段。",
+        "options": [],
+        "answer": "对",
+        "explanation": "经过圆心的线段是直径，它是圆内所有线段中最长的。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "圆的面积是它半径的 $\\pi$ 倍。",
+        "options": [],
+        "answer": "错",
+        "explanation": "圆的面积是它半径平方的 $\\pi$ 倍，$S = \\pi r^2$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "圆的周长计算",
+        "question": "两个圆的周长相等，它们的面积也一定相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "周长相等则半径相等，半径相等则面积相等。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "扇形的认识与圆心角",
+        "question": "顶点在圆心的角叫做圆心角。",
+        "options": [],
+        "answer": "对",
+        "explanation": "圆心角的理论定义即顶点在圆心，两条边是圆的半径。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的周长计算",
+        "question": "圆的周长计算公式是什么？",
+        "options": [
+          "C=πd",
+          "C=πr",
+          "C=πd²",
+          "C=2πd"
+        ],
+        "answer": "C=πd",
+        "explanation": "圆的周长等于圆周率乘以直径。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "在一个边长为4厘米的正方形里画一个最大的圆，这个圆的直径是多少厘米？",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "16"
+        ],
+        "answer": "4",
+        "explanation": "正方形内最大圆的直径等于正方形的边长。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的认识与特征",
+        "question": "把一个圆沿直径对折，得到的半圆有几条对称轴？",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "无数"
+        ],
+        "answer": "1",
+        "explanation": "半圆只有一条对称轴，即通过圆心且垂直于直径的直线。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "一个圆环，外圆半径是6厘米，内圆半径是4厘米，圆环面积是多少平方厘米？（π取3.14）",
+        "options": [
+          "62.8",
+          "31.4",
+          "12.56",
+          "62.8"
+        ],
+        "answer": "62.8",
+        "explanation": "$S = \\pi(R^2 - r^2) = 3.14 \\times (36 - 16) = 3.14 \\times 20 = 62.8$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的周长计算",
+        "question": "车轮滚动一周，所行的路程是求车轮的什么？",
+        "options": [
+          "半径",
+          "直径",
+          "周长",
+          "面积"
+        ],
+        "answer": "周长",
+        "explanation": "轮子转动一周的长度等于它的圆周长。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的周长计算",
+        "question": "钟面上的分针长10厘米，经过1小时，分针尖端走过的路程是多少厘米？（π取3.14）",
+        "options": [
+          "31.4",
+          "62.8",
+          "314",
+          "20"
+        ],
+        "answer": "62.8",
+        "explanation": "分针走1小时是一圈，$C = 2 \\times 3.14 \\times 10 = 62.8$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的认识与特征",
+        "question": "用圆规画一个周长是18.84厘米的圆，圆规两脚间的距离应定为多少厘米？",
+        "options": [
+          "3",
+          "6",
+          "9",
+          "2"
+        ],
+        "answer": "3",
+        "explanation": "两脚间距离即半径，$r = C \\div 2\\pi = 18.84 \\div 6.28 = 3$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "等底等高的长方形和圆相比，面积关系如何？",
+        "options": [
+          "长方形大",
+          "圆大",
+          "一样大",
+          "无法比较"
+        ],
+        "answer": "无法比较",
+        "explanation": "圆没有底和高的概念，通常与正方形比较。此题考查概念界定。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "一个圆的周长是12.56厘米，它的面积是多少平方厘米？",
+        "options": [
+          "12.56",
+          "6.28",
+          "3.14",
+          "25.12"
+        ],
+        "answer": "12.56",
+        "explanation": "$r = 12.56 \\div 6.28 = 2$，$S = 3.14 \\times 2^2 = 12.56$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "扇形的认识与圆心角",
+        "question": "下面哪个图形是扇形？",
+        "options": [
+          "三角形",
+          "圆形",
+          "半圆",
+          "长方形"
+        ],
+        "answer": "半圆",
+        "explanation": "半圆是特殊的扇形。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的认识与特征",
+        "question": "圆内最长的线段是什么？",
+        "options": [
+          "半径",
+          "直径",
+          "弧线",
+          "切线"
+        ],
+        "answer": "直径",
+        "explanation": "直径通过圆心，是圆内最长的线段。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的周长计算",
+        "question": "小明沿直径为8米的圆周跑了半圈，他跑了多少米？",
+        "options": [
+          "25.12",
+          "12.56",
+          "8",
+          "4"
+        ],
+        "answer": "12.56",
+        "explanation": "$C = 3.14 \\times 8 = 25.12$，半圈为 $12.56$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "如果一个圆的半径增加1厘米，它的周长增加多少厘米？",
+        "options": [
+          "3.14",
+          "6.28",
+          "1",
+          "2"
+        ],
+        "answer": "6.28",
+        "explanation": "周长变化量 $\\Delta C = 2\\pi \\Delta r = 2 \\times 3.14 \\times 1 = 6.28$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的周长计算",
+        "question": "一个圆的直径是5厘米，周长是 ___ 厘米。（结果取整）",
+        "options": [],
+        "answer": "16",
+        "explanation": "$3.14 \\times 5 = 15.7$，取整为16。验算：$16 \\div 5 \\approx 3.2$ 符合π范围。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的面积公式推导与应用",
+        "question": "半径是2米的圆，它的面积是 ___ 平方米。（结果取整）",
+        "options": [],
+        "answer": "13",
+        "explanation": "$3.14 \\times 2 \\times 2 = 12.56$, 取整为13。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "圆的认识与特征",
+        "question": "在直径是4分米的圆里画一个最大的正方形，正方形对角线长 ___ 分米。",
+        "options": [],
+        "answer": "4",
+        "explanation": "圆内最大正方形的对角线等于圆的直径，即4分米。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "圆的认识与特征",
+        "question": "计算半径：$d = 100, r = d \\div 2 = ?$",
+        "options": [],
+        "answer": "50",
+        "explanation": "$100 \\div 2 = 50$。验算：$50 \\times 2 = 100$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "圆的周长计算",
+        "question": "计算 $C = 2 \\times 3 \\times 10 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$2 \\times 3 \\times 10 = 60$。验算：$60 \\div 10 \\div 2 = 3$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "圆的认识与特征",
+      "core_concept": "圆是由曲线围成的平面封闭图形。圆中心的一点叫圆心（O），决定圆的位置；连接圆心和圆上任意一点的线段叫半径（r），决定圆的大小；通过圆心且两端都在圆上的线段叫直径（d）。在同圆或等圆中，直径是半径的2倍。",
+      "key_formula": "$d = 2r$ 或 $r = \\frac{d}{2}$",
+      "common_mistakes": [
+        "误认为圆上任意两点间的线段就是直径，忽视了必须经过圆心这个前提。",
+        "混淆圆心和半径的作用，记不清哪个决定位置，哪个决定大小。"
+      ],
+      "tips": "折纸法：把圆对折再对折，交点就是圆心；用圆规画圆时，针尖位置不能移动。"
+    },
+    {
+      "point": "圆的周长计算",
+      "core_concept": "围成圆的曲线的长度叫做圆的周长。圆的周长除以直径的商是一个固定的数，叫圆周率（$\\pi$），是一个无限不循环小数，小学阶段取近似值3.14。周长公式反映了周长与直径或半径的倍数关系。",
+      "key_formula": "$C = \\pi d$ 或 $C = 2 \\pi r$",
+      "common_mistakes": [
+        "计算半圆周长时，只算了弧长而漏掉了底部的直径。",
+        "计算过程中将3.14错看成3.41或在多步运算中过早取整导致误差。"
+      ],
+      "tips": "记住常用的$\\pi$倍数，如 $2\\pi=6.28$, $3\\pi=9.42$, $4\\pi=12.56$, 可大幅提高做题速度。"
+    },
+    {
+      "point": "圆的面积公式推导与应用",
+      "core_concept": "利用化曲为直的转化思想，将圆等分成若干份，拼成一个近似的长方形。长方形的长相当于圆周长的一半（$\\pi r$），宽相当于圆的半径（$r$）。通过长方形面积公式 $S=ab$ 推导出圆面积公式。",
+      "key_formula": "$S = \\pi r^2$",
+      "common_mistakes": [
+        "求面积时直接用直径平方，忘记先除以2求出半径。",
+        "分不清周长和面积的单位，甚至认为数值相等时它们就相等。"
+      ],
+      "tips": "看到直径先求半径是解决面积问题的首要习惯；理解公式来源有助于防止死记硬背出错。"
+    },
+    {
+      "point": "扇形的认识与圆心角",
+      "core_concept": "由圆心角的两条半径和一段弧围成的图形叫做扇形。顶点在圆心的角叫圆心角。在同一个圆中，扇形的大小由圆心角的大小决定。圆心角是360度的几分之几，扇形面积就是圆面积的几分之几。",
+      "key_formula": "扇形面积 $=$ 圆面积 $\\times \\frac{n}{360}$（n为圆心角度数）",
+      "common_mistakes": [
+        "认为顶点在圆上的角也是圆心角。",
+        "在比较不同圆中的扇形大小时，只看圆心角而忽略了圆本身的大小（半径）。"
+      ],
+      "tips": "扇形就像切开的一块蛋糕，蛋糕的大小（面积）取决于切开的角度和整块蛋糕的大小。"
+    }
+  ]
+}

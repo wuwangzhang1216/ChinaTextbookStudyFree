@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学三年级下册",
+  "unit": "数学广角——搭配（二）",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "第8单元《数学广角——搭配（二）》基础过关测评",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "用0、1、2三个数字可以组成6个不同的两位数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "两位数的十位不能为0。可以组成的两位数有：10、12、20、21，共4个。故说法错误。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的组合问题",
+        "question": "3个人每两人通一次电话，一共要通3次电话。",
+        "options": [],
+        "answer": "对",
+        "explanation": "设三人为A、B、C。通话组合为：(A,B)、(A,C)、(B,C)，共3次。不需要考虑顺序，故正确。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的组合问题",
+        "question": "有4件上衣和3条裤子，每次穿1件上衣搭配1条裤子，共有7种穿法。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据乘法原理，搭配种类为 $4 \\times 3 = 12$ 种。题干将其误算为加法 $4 + 3 = 7$，故错误。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "从4个同学中选2人参加跳绳比赛，有6种不同的选法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是组合问题。选法有：(1,2), (1,3), (1,4), (2,3), (2,4), (3,4)，共6种。正确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "排列的顺序发生改变，结果也就随之改变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "排列强调有序性，如数字1和2，组成12和21是不同的数，故正确。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "用2、5、8三个数字（不重复使用）能组成多少个不同的两位数？",
+        "options": [
+          "3个",
+          "4个",
+          "6个",
+          "9个"
+        ],
+        "answer": "6个",
+        "explanation": "十位选2，有25、28；十位选5，有52、58；十位选8，有82、85。共 $2 \\times 3 = 6$ 个。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的组合问题",
+        "question": "小明有3本不同的课外书，他想借给小红和小华每人一本，共有多少种不同的借法？",
+        "options": [
+          "3种",
+          "6种",
+          "9种",
+          "12种"
+        ],
+        "answer": "6种",
+        "explanation": "小红从3本里选1本有3种情况，小华从剩下2本里选1本有2种情况。$3 \\times 2 = 6$ 种。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的组合问题",
+        "question": "妈妈要给小丽买一份饮品和一份主食。饮品有牛奶、果汁，主食有面包、蛋糕、汉堡。一共有多少种搭配方法？",
+        "options": [
+          "5种",
+          "6种",
+          "8种",
+          "9种"
+        ],
+        "answer": "6种",
+        "explanation": "饮品2种，主食3种，搭配方式为 $2 \\times 3 = 6$ 种。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "用0、3、6三个数字可以组成多少个没有重复数字的两位数？",
+        "options": [
+          "2个",
+          "4个",
+          "6个",
+          "9个"
+        ],
+        "answer": "4个",
+        "explanation": "十位可以是3或6。3开头：30, 36；6开头：60, 63。共4个。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "4位好朋友聚会，每两人握一次手，一共要握多少次手？",
+        "options": [
+          "4次",
+          "6次",
+          "8次",
+          "12次"
+        ],
+        "answer": "6次",
+        "explanation": "组合问题。$3 + 2 + 1 = 6$ 次。验证：(1,2),(1,3),(1,4),(2,3),(2,4),(3,4)。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "3名小朋友站成一排照相，共有多少种排法？",
+        "options": [
+          "3种",
+          "4种",
+          "6种",
+          "9种"
+        ],
+        "answer": "6种",
+        "explanation": "第一个位置3人可选，第二个位置2人可选，第三个位置1人可选。$3 \\times 2 \\times 1 = 6$ 种。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的组合问题",
+        "question": "从红、黄、蓝三种颜色的球中选出两种球。一共有多少种选法？",
+        "options": [
+          "3种",
+          "6种",
+          "9种",
+          "2种"
+        ],
+        "answer": "3种",
+        "explanation": "组合问题：(红,黄), (红,蓝), (黄,蓝)，共3种。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "小红有2件不同的上衣，2条不同的裤子和2顶不同的帽子。她要选1件上衣、1条裤子和1顶帽子穿搭，共有多少种方法？",
+        "options": [
+          "4种",
+          "6种",
+          "8种",
+          "10种"
+        ],
+        "answer": "8种",
+        "explanation": "$2 \\times 2 \\times 2 = 8$ 种。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "用1、2、0、5四个数字可以组成多少个没有重复数字的两位数？",
+        "options": [
+          "9个",
+          "12个",
+          "16个",
+          "24个"
+        ],
+        "answer": "9个",
+        "explanation": "十位可选1, 2, 5（3种选择）；个位从剩下3个数中选1个。$3 \\times 3 = 9$ 种。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "5、7、9三个数字可以组成几个没有重复数字的三位数？",
+        "options": [
+          "3个",
+          "6个",
+          "9个",
+          "12个"
+        ],
+        "answer": "6个",
+        "explanation": "百位有3种选法，十位2种，个位1种。$3 \\times 2 \\times 1 = 6$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的组合问题",
+        "question": "有三样不同的奖品，发给三名表现优秀的学生，每名学生发一件。一共有多少种发法？",
+        "options": [
+          "3种",
+          "6种",
+          "9种",
+          "12种"
+        ],
+        "answer": "6种",
+        "explanation": "这实际上是排列问题。$3 \\times 2 \\times 1 = 6$ 种。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "用4、0两个数字可以组成几个不同的两位数？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "1个",
+        "explanation": "十位不能为0，只能是40。故只有1个。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "用数字“3”和“7”可以组成几个不同的两位数？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "2个",
+        "explanation": "可以组成37和73。共2个。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的组合问题",
+        "question": "小林有3件短袖和2条短裤。他一共有 ___ 种不同的穿法。",
+        "options": [],
+        "answer": "6",
+        "explanation": "$3 \\times 2 = 6$ 种。验算：$2+2+2=6$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "用5、6两个数字可以组成 ___ 个没有重复数字的两位数。",
+        "options": [],
+        "answer": "2",
+        "explanation": "可以组成的数是56和65。共2个。验算：$1 \\times 2 = 2$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "5个队员进行乒乓球单打比赛，每两人打一场，一共要打 ___ 场。",
+        "options": [],
+        "answer": "10",
+        "explanation": "$4 + 3 + 2 + 1 = 10$ 场。验算：$(5 \\times 4) \\div 2 = 10$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "计算：$5 \\times 4 \\times 3 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$5 \\times 4 = 20$，$20 \\times 3 = 60$。验算：$60 \\div 3 = 20$，$20 \\div 4 = 5$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "计算：$4 \\times 3 = ?$",
+        "options": [],
+        "answer": "12",
+        "explanation": "$4 \\times 3 = 12$。验算：$12 \\div 3 = 4$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第8单元《数学广角——搭配（二）》单元综合质量检测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "用1、2、3三个数字组成没有重复数字的三位数，总共有6个。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$3 \\times 2 \\times 1 = 6$。分别是123, 132, 213, 231, 312, 321。正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "简单的排列问题",
+        "question": "用0、4、7三个数字组成没有重复数字的两位数，总共有6个。",
+        "options": [],
+        "answer": "错",
+        "explanation": "十位不能是0。只能是40, 47, 70, 74共4个。故说法错误。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "简单的组合问题",
+        "question": "3个小朋友握手，每两人握一次，一共握3次手。",
+        "options": [],
+        "answer": "对",
+        "explanation": "组合数 $2+1=3$。正确。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "在排列问题中，数字的顺序调整不会改变结果。",
+        "options": [],
+        "answer": "错",
+        "explanation": "排列有序，顺序改变（如12变21）代表不同的结果，故错误。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "简单的组合问题",
+        "question": "有4种不同颜色的花，选出两种送给老师，有6种选法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "组合数 $3+2+1=6$。正确。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的组合问题",
+        "question": "早点有豆浆、牛奶2种饮品，油条、包子、面包3种食物。选一种饮品和一种食物，有几种选法？",
+        "options": [
+          "5种",
+          "6种",
+          "8种",
+          "9种"
+        ],
+        "answer": "6种",
+        "explanation": "$2 \\times 3 = 6$ 种。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "用0、2、4、6组成的没有重复数字的两位数中，最大的数是几？",
+        "options": [
+          "60",
+          "62",
+          "64",
+          "46"
+        ],
+        "answer": "64",
+        "explanation": "十位选最大的6，个位选剩下的最大的4，组成64。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的排列问题",
+        "question": "有A、B、C三个小朋友，排成一横排，A在中间的情况有几种？",
+        "options": [
+          "1种",
+          "2种",
+          "3种",
+          "6种"
+        ],
+        "answer": "2种",
+        "explanation": "固定A在中间，只有BAC和CAB两种排法。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的组合问题",
+        "question": "4名同学进行乒乓球比赛，每两人赛一场，一共赛几场？",
+        "options": [
+          "4场",
+          "6场",
+          "8场",
+          "12场"
+        ],
+        "answer": "6场",
+        "explanation": "$3 + 2 + 1 = 6$ 场。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "用1、2、3可组成几个不同的三位数？",
+        "options": [
+          "3个",
+          "6个",
+          "9个",
+          "12个"
+        ],
+        "answer": "6个",
+        "explanation": "$3 \times 2 \times 1 = 6$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "甲、乙、丙、丁四个组进行足球赛，每两个组踢一场，一共要踢多少场？",
+        "options": [
+          "4场",
+          "5场",
+          "6场",
+          "12场"
+        ],
+        "answer": "6场",
+        "explanation": "组合问题。$3+2+1=6$场。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的排列问题",
+        "question": "用3、0、5可以组成多少个不同的三位数（不重复）？",
+        "options": [
+          "4个",
+          "6个",
+          "2个",
+          "5个"
+        ],
+        "answer": "4个",
+        "explanation": "百位不能为0。305, 350, 503, 530，共4个。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "从0、3、5、7中选两个数求和，总共有多少个不同的和？",
+        "options": [
+          "4个",
+          "5个",
+          "6个",
+          "12个"
+        ],
+        "answer": "6个",
+        "explanation": "组合：0+3=3, 0+5=5, 0+7=7, 3+5=8, 3+7=10, 5+7=12。共6种不同的和。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的组合问题",
+        "question": "小明有1元、5角、1角的硬币各一枚，他想买一块8角的橡皮，有多少种付钱方法？",
+        "options": [
+          "0种",
+          "1种",
+          "2种",
+          "3种"
+        ],
+        "answer": "0种",
+        "explanation": "最大金额只有 $1 + 0.5 + 0.1 = 1.6$ 元，且不找零的情况下，只有5角+1角=6角，无法凑齐8角。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的排列问题",
+        "question": "三个小朋友排排站，丽丽必须站在排头，有多少种站法？",
+        "options": [
+          "1种",
+          "2种",
+          "3种",
+          "6种"
+        ],
+        "answer": "2种",
+        "explanation": "丽丽固定。剩下两人有两种排法。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的组合问题",
+        "question": "在排球比赛中，两队之间进行比赛。3个队一共要进行多少场比赛？",
+        "options": [
+          "2场",
+          "3场",
+          "4场",
+          "6场"
+        ],
+        "answer": "3场",
+        "explanation": "$2+1=3$ 场。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "用数字 1, 3, 5, 7 可以组成多少个没有重复数字的两位数？",
+        "options": [
+          "4个",
+          "8个",
+          "12个",
+          "16个"
+        ],
+        "answer": "12个",
+        "explanation": "十位4种可能，个位3种可能。$4 \\times 3 = 12$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的组合问题",
+        "question": "有4名同学，老师要从他们中选2名去参加数学竞赛，有几种选法？",
+        "options": [
+          "4种",
+          "6种",
+          "8种",
+          "12种"
+        ],
+        "answer": "6种",
+        "explanation": "组合问题。$3+2+1=6$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "用0、2、5、8可以组成 ___ 个没有重复数字的两位数。",
+        "options": [],
+        "answer": "9",
+        "explanation": "十位选2, 5, 8（3种），个位选剩下3个里的1个（3种）。$3 \\times 3 = 9$。验算：20,25,28; 50,52,58; 80,82,85。符合。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "简单的组合问题",
+        "question": "如果有5件短袖和2条裤子，一共可以有 ___ 种不同的穿法。",
+        "options": [],
+        "answer": "10",
+        "explanation": "$5 \\times 2 = 10$ 种。验算：$2+2+2+2+2=10$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单的组合问题",
+        "question": "小亮、小红、小刚三人互换一张贺卡，一共要准备 ___ 张贺卡。",
+        "options": [],
+        "answer": "6",
+        "explanation": "互换贺卡是有序的。每人准备2张。$3 \\times 2 = 6$ 张。验算：A给B, A给C, B给A, B给C, C给A, C给B。共6张 ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "计算：$3 \\times 2 \\times 1 = ?$",
+        "options": [],
+        "answer": "6",
+        "explanation": "$3 \\times 2 = 6$, $6 \\times 1 = 6$。验算：$6 \\div 1 \\div 2 = 3$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "排列与组合的综合应用",
+        "question": "计算：$4 \\times 3 \\times 2 = ?$",
+        "options": [],
+        "answer": "24",
+        "explanation": "$4 \\times 3 = 12$, $12 \\times 2 = 24$。验算：$24 \\div 2 \\div 3 = 4$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "简单的排列问题",
+      "core_concept": "排列是指从给定个数的元素中取出指定个数的元素进行排序。在解决数字排列问题（如组成两位数）时，通常采用“固定十位法”或“固定个位法”进行不重不漏的枚举。特别要注意：在组成多位数时，最高位（首位）不能为0。",
+      "key_formula": "n个元素取2个进行排列，数量为 $n \\times (n-1)$",
+      "common_mistakes": [
+        "在组成两位数时漏掉包含0的情况或错误地将0放在十位。",
+        "枚举时没有按照一定的顺序（从小到大或从大到小），导致重复或遗漏。"
+      ],
+      "tips": "记住“先选位，再搭配”。先定下最高位有几种选法，再看后面的位置。画树状图是最清晰的展示方式。"
+    },
+    {
+      "point": "简单的组合问题",
+      "core_concept": "组合是指从给定个数的元素中取出指定个数的元素，不考虑其顺序（即A与B、B与A视为同一种情况）。常见情境包括搭配衣服、握手比赛、配餐问题等。解决这类问题常使用连线法，通过有序的连线确保不重不漏。",
+      "key_formula": "搭配总数 = 第一类数量 $\\times$ 第二类数量",
+      "common_mistakes": [
+        "将组合问题误认为排列问题，例如握手时认为A和B握、B和A握是2次。",
+        "分不清何时用加法何时用乘法（搭配用乘，选一用加）。"
+      ],
+      "tips": "连线法是万能药！把两类事物排开，从左边第一个开始依此连接右边所有项，数清线条总数。"
+    },
+    {
+      "point": "排列与组合的综合应用",
+      "core_concept": "综合应用要求学生能区分问题的本质：是否与顺序有关。如果改变元素位置结果变了（如数字组成数、排队照相），则是排列；如果位置改变结果不变（如握手、送贺卡、选水果），则是组合。能够利用乘法原理和加法原理解决复杂的多步骤搭配问题。",
+      "key_formula": "排列数 = 组合数 $\\times$ 每组内的全排列",
+      "common_mistakes": [
+        "混淆比赛场次（组合）和互送礼物（排列）的数量差异。",
+        "面对三类事物的搭配（如衣、裤、帽）时只计算了两类。"
+      ],
+      "tips": "做题前先问自己：“换个位置还是一样吗？”一样就是组合，不一样就是排列。"
+    }
+  ]
+}

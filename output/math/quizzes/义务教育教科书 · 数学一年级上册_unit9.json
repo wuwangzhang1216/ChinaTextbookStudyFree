@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级上册",
+  "unit": "总复习",
+  "unit_number": 9,
+  "unit_test": {
+    "title": "第九单元「总复习」单元达标测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "因为 19 比 20 小，所以 19 后面的一个数是 20。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据数序，19再添1就是20，所以19后面的数是20。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与时间的综合回顾",
+        "question": "长方体有 6 个面，而且每个面都是长方形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "长方体有6个面，但有的长方体其中两个相对的面可能是正方形。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "十位上是 1，个位上是 7，这个数是 71。",
+        "options": [],
+        "answer": "错",
+        "explanation": "十位上是1表示1个十，个位上是7表示7个一，合起来是17而非71。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多步实际问题的解决",
+        "question": "小明前面有 3 人，后面有 4 人，这一排一共有 7 人。",
+        "options": [],
+        "answer": "错",
+        "explanation": "计算总人数要加上小明自己：$3 + 4 + 1 = 8$（人）。验算：$8-3-4=1$ ✓。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与时间的综合回顾",
+        "question": "钟面上，短针是时针，长针是分针。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是认识钟表的基本常识：短的是时针，长的是分针。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "在 12 和 15 之间一共有几个数？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "2",
+        "explanation": "12和15之间的数有13、14，共2个。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "比 15 大，比 19 小的数是哪一个？",
+        "options": [
+          "14",
+          "15",
+          "17",
+          "20"
+        ],
+        "answer": "17",
+        "explanation": "在15到19之间的数列为16, 17, 18，选项中只有17符合。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "算式 $9 + 6$ 的结果与下面哪个算式相等？",
+        "options": [
+          "8 + 6",
+          "7 + 8",
+          "10 + 4",
+          "9 + 5"
+        ],
+        "answer": "7 + 8",
+        "explanation": "$9 + 6 = 15$；$7 + 8 = 15$。所以相等。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与时间的综合回顾",
+        "question": "分针指向 12，时针指向 9，这时是几时？",
+        "options": [
+          "12时",
+          "3时",
+          "9时",
+          "6时"
+        ],
+        "answer": "9时",
+        "explanation": "分针指向12是整时，时针指向几就是几时。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与时间的综合回顾",
+        "question": "下面哪个图形最容易滚动？",
+        "options": [
+          "长方体",
+          "正方体",
+          "圆柱",
+          "球"
+        ],
+        "answer": "球",
+        "explanation": "球表面是曲面，且往各个方向都能滚动。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步实际问题的解决",
+        "question": "操场上有 8 个小朋友在玩，又来了 4 个，走了 2 个。现在有多少个？",
+        "options": [
+          "10",
+          "12",
+          "14",
+          "6"
+        ],
+        "answer": "10",
+        "explanation": "列式：$8 + 4 - 2 = 10$。验算：$10 + 2 - 4 = 8$ ✓。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "结果最大的算式是哪一个？",
+        "options": [
+          "10 + 5",
+          "19 - 8",
+          "8 + 9",
+          "12 + 0"
+        ],
+        "answer": "8 + 9",
+        "explanation": "$10+5=15$, $19-8=11$, $8+9=17$, $12+0=12$。17最大。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "1 个十和 2 个一合起来是多少？",
+        "options": [
+          "1",
+          "2",
+          "12",
+          "21"
+        ],
+        "answer": "12",
+        "explanation": "1个十是10，2个一是2，合起来是12。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与时间的综合回顾",
+        "question": "过 1 小时后是 11 时，现在是几时？",
+        "options": [
+          "10时",
+          "11时",
+          "12时",
+          "1时"
+        ],
+        "answer": "10时",
+        "explanation": "要求现在时间，用后来的时间减去经过的时间：$11 - 1 = 10$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "$16 - 3$ 的符号应该填什么？$16 - 3 \bigcirc 14$",
+        "options": [
+          ">",
+          "<",
+          " =",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "$16 - 3 = 13$，$13 < 14$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "两个相同的数相加得 12，这个数是几？",
+        "options": [
+          "5",
+          "6",
+          "10",
+          "12"
+        ],
+        "answer": "6",
+        "explanation": "因为 $6 + 6 = 12$，所以这个数是6。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多步实际问题的解决",
+        "question": "小红要做 14 朵红花，已经做了 4 朵，还要做几朵？",
+        "options": [
+          "18",
+          "10",
+          "14",
+          "4"
+        ],
+        "answer": "10",
+        "explanation": "总数 14，已做 4。列式：$14 - 4 = 10$。验算：$10 + 4 = 14$ ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "20 里面有几个一？",
+        "options": [
+          "2",
+          "10",
+          "20",
+          "0"
+        ],
+        "answer": "20",
+        "explanation": "20是由20个一组成的，也可以说是由2个十组成的。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "一个两位数，从右边起，第一位是 5，第二位是 1，这个数是 ___。",
+        "options": [],
+        "answer": "15",
+        "explanation": "从右往左数，第一位是个位（5），第二位是十位（1），合并为 15。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步实际问题的解决",
+        "question": "树上原来有 7 只鸟，飞走了 2 只，又飞来了 5 只。树上现在有 ___ 只鸟。",
+        "options": [],
+        "answer": "10",
+        "explanation": "列式：$7 - 2 + 5 = 10$。验算：$10 - 5 + 2 = 7$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "小华采了 8 朵花，小兰和小华采得一样多，两人一共采了 ___ 朵花。",
+        "options": [],
+        "answer": "16",
+        "explanation": "“一样多”意味着两人都是 8 朵。列式：$8 + 8 = 16$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "$8 + 5 + 2 = ?$",
+        "options": [],
+        "answer": "15",
+        "explanation": "$8 + 2 = 10$，$10 + 5 = 15$。验算：$15 - 2 - 5 = 8$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "$18 - 6 - 4 = ?$",
+        "options": [],
+        "answer": "8",
+        "explanation": "$18 - 6 = 12$，$12 - 4 = 8$。验算：$8 + 4 + 6 = 18$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "一年级数学上册期末综合质量检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "2 个十是 20。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1个十是10，2个十就是20。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与时间的综合回顾",
+        "question": "圆柱上下两个面都是圆，而且大小一样。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是圆柱的基本几何特征。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "算式 $13 - 3 + 4$ 的结果是 4。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$13 - 3 + 4 = 10 + 4 = 14$，不是 4。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "图形与时间的综合回顾",
+        "question": "6时整，分针指向 6。",
+        "options": [],
+        "answer": "错",
+        "explanation": "整时时，分针一定指向 12。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "多步实际问题的解决",
+        "question": "小明排队，从前数他排第 5，从后数排第 3，这一队共有 8 人。",
+        "options": [],
+        "answer": "错",
+        "explanation": "小明被数了两次。计算：$5 + 3 - 1 = 7$（人）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "与 15 相邻的两个数是多少？",
+        "options": [
+          "14和16",
+          "13和14",
+          "16和17",
+          "14和15"
+        ],
+        "answer": "14和16",
+        "explanation": "相邻数指的是当前数的前一个和后一个。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "算式 $8 + \bigcirc = 15$ 中，$\bigcirc$ 里的数应该是多少？",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "answer": "7",
+        "explanation": "根据减法是加法的逆运算：$15 - 8 = 7$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "图形与时间的综合回顾",
+        "question": "下列哪个形状的物体最难堆叠起来？",
+        "options": [
+          "长方体",
+          "正方体",
+          "球",
+          "圆柱"
+        ],
+        "answer": "球",
+        "explanation": "球表面是弯曲的，没有平滑的接触面，容易滚动，最难堆叠。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "14 和 16 中间的数是几？",
+        "options": [
+          "13",
+          "15",
+          "17",
+          "14"
+        ],
+        "answer": "15",
+        "explanation": "数序中 14, 15, 16，中间是 15。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与时间的综合回顾",
+        "question": "时针指向 3，分针指向 12，再过 1 小时是几时？",
+        "options": [
+          "3时",
+          "4时",
+          "2时",
+          "12时"
+        ],
+        "answer": "4时",
+        "explanation": "现在是 3 时，再过 1 小时是 $3 + 1 = 4$ 时。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "最接近 20 的数是哪一个？",
+        "options": [
+          "10",
+          "15",
+          "18",
+          "19"
+        ],
+        "answer": "19",
+        "explanation": "比较差值：$20-19=1$ 是最小的距离。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多步实际问题的解决",
+        "question": "一共有 16 个苹果，小明吃了 6 个，小华吃了 4 个，还剩多少个？",
+        "options": [
+          "10",
+          "6",
+          "8",
+          "12"
+        ],
+        "answer": "6",
+        "explanation": "列式：$16 - 6 - 4 = 6$。验算：$6 + 4 + 6 = 16$ ✓。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "$10 - 2 \bigcirc 5 + 3$，圆圈里填什么？",
+        "options": [
+          ">",
+          "<",
+          " =",
+          "≈"
+        ],
+        "answer": " =",
+        "explanation": "$10 - 2 = 8$，$5 + 3 = 8$，两个算式结果相等。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步实际问题的解决",
+        "question": "停车场里开走了 7 辆车，还剩下 8 辆，原来有多少辆车？",
+        "options": [
+          "1",
+          "15",
+          "14",
+          "16"
+        ],
+        "answer": "15",
+        "explanation": "求原来，用剩下的加上开走的：$8 + 7 = 15$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "1 个十和 9 个一组成的数是几？",
+        "options": [
+          "10",
+          "19",
+          "91",
+          "20"
+        ],
+        "answer": "19",
+        "explanation": "1个十在十位，9个一在个位，即 19。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "最大的一位数和最小的两位数相加，和是多少？",
+        "options": [
+          "10",
+          "19",
+          "20",
+          "11"
+        ],
+        "answer": "19",
+        "explanation": "最大一位数是 9，最小两位数是 10。列式：$9 + 10 = 19$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形与时间的综合回顾",
+        "question": "一个正方体一共有多少个顶点？",
+        "options": [
+          "4",
+          "6",
+          "8",
+          "12"
+        ],
+        "answer": "8",
+        "explanation": "正方体（类似魔方）上面 4 个顶点，下面 4 个顶点，共 8 个。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "多步实际问题的解决",
+        "question": "有 13 个小朋友玩捉迷藏，已经捉住了 3 个，还有几个人没被捉住？",
+        "options": [
+          "10",
+          "9",
+          "11",
+          "8"
+        ],
+        "answer": "9",
+        "explanation": "总共 13 人，其中 1 人是寻找者，被捉对象有 $13 - 1 = 12$ 人。$12 - 3 = 9$ 人。验算：$9 + 3 + 1 = 13$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "18 里面有 ___ 个十和 8 个一。",
+        "options": [],
+        "answer": "1",
+        "explanation": "18 是由 1 个十和 8 个一组成的。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多步实际问题的解决",
+        "question": "公车上有 15 人，到站下车 5 人，又上车 2 人，车上现在有 ___ 人。",
+        "options": [],
+        "answer": "12",
+        "explanation": "列式：$15 - 5 + 2 = 12$。验算：$12 - 2 + 5 = 15$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "在算式 $19 - \bigcirc = 10$ 中，$\bigcirc$ 里的数是 ___。",
+        "options": [],
+        "answer": "9",
+        "explanation": "减法算式中，减数 = 被减数 - 差。$19 - 10 = 9$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "$9 + 1 + 6 = ?$",
+        "options": [],
+        "answer": "16",
+        "explanation": "$9 + 1 = 10$，$10 + 6 = 16$。验算：$16 - 6 - 1 = 9$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "20以内数与运算的综合",
+        "question": "$20 - 10 - 5 = ?$",
+        "options": [],
+        "answer": "5",
+        "explanation": "$20 - 10 = 10$，$10 - 5 = 5$。验算：$5 + 5 + 10 = 20$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "20以内数与运算的综合",
+      "core_concept": "学生需熟练掌握20以内数的顺序、大小及组成。理解“10个一是一个十”。加减法方面重点复习“凑十法”和“破十法”，以此提高口算速度，并建立加减法互逆的关系。对于进位加法（如9+4），重点在于拆分较小的数，凑齐10。",
+      "key_formula": "加数 + 加数 = 和；被减数 - 减数 = 差",
+      "common_mistakes": [
+        "计数单位混淆：如将“1个十和5个一”误写为“51”",
+        "进位漏加：在计算 8+5 时，算出 12（忘记再加1）"
+      ],
+      "tips": "背熟20以内加法表，利用手指对照辅助理解数位关系。"
+    },
+    {
+      "point": "图形与时间的综合回顾",
+      "core_concept": "复习长方体、正方体、圆柱和球的特征，主要通过触摸感和滚动感来区分。时间的复习则集中在“整时”的识别。分针长，指向12；时针短，指向几就是几时。",
+      "key_formula": "分针长，时针短；分针指12是整时",
+      "common_mistakes": [
+        "长短针看反：将 3:00（时针指3分针指12）认成 12:15（误把分针当时针）",
+        "图形特征混淆：认为圆柱在任何方向都能滚动"
+      ],
+      "tips": "区分图形看平滑面，区分时间先看分针再看时针。"
+    },
+    {
+      "point": "多步实际问题的解决",
+      "core_concept": "学会从文字中提取关键信息，区分“前、后、左、右”的位置关系。处理排队问题时，要注意“包含”和“不包含”目标本人的情况。理解“增加了、又来了”用加法，“飞走了、吃掉了”用减法。",
+      "key_formula": "总人数 = 前面人数 + 后面人数 + 1（自己）",
+      "common_mistakes": [
+        "排队问题漏加自己：如计算前后总共人数时直接加数字",
+        "不理解“捉迷藏”模型：忽略捉迷藏中必须有1个人是寻找者"
+      ],
+      "tips": "遇到排队题，养成动笔画小圆圈代表人的好习惯，防止漏算或多算。"
+    }
+  ]
+}

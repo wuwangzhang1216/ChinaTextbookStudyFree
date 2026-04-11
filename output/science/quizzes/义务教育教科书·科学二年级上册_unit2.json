@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学二年级上册",
+  "unit": "材料",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元《材料》单元评价卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "自然世界与人工世界",
+        "question": "大山、森林和河流都属于自然世界中的景观。",
+        "options": [],
+        "answer": "对",
+        "explanation": "大山、森林和河流是自然形成的，不属于人工制造。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常见材料的辨识与特性",
+        "question": "棉质毛巾摸起来非常坚硬、光滑。",
+        "options": [],
+        "answer": "错",
+        "explanation": "棉布材料的特性通常是柔软、吸水、粗糙。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "书的历史与材料演变",
+        "question": "在古代，人们曾把字写在竹片上，这种书叫竹简。",
+        "options": [],
+        "answer": "对",
+        "explanation": "竹子是古代造纸术普及前重要的书写材料。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "改变材料形状增强性能",
+        "question": "瓦楞状的纸比普通的平纸支撑力更强。",
+        "options": [],
+        "answer": "对",
+        "explanation": "改变形状能增强纸的承重能力。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "物品的组成与功能设计",
+        "question": "一把好椅子所有部位都必须用同一种材料做成。",
+        "options": [],
+        "answer": "错",
+        "explanation": "椅子通常结合多种材料，如木头做支架，海绵做垫子。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见材料的辨识与特性",
+        "question": "下列物品中，由金属材料制成的是（ ）。",
+        "options": [
+          "塑料盆",
+          "铁钥匙",
+          "纸飞机",
+          "木板凳"
+        ],
+        "answer": "铁钥匙",
+        "explanation": "钥匙通常由铁或铜等金属制成。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然世界与人工世界",
+        "question": "下列属于人工世界产物的是（ ）。",
+        "options": [
+          "奔跑的兔子",
+          "高大的楼房",
+          "原始森林",
+          "美丽的彩虹"
+        ],
+        "answer": "高大的楼房",
+        "explanation": "楼房由人类加工材料建造，属于人工世界。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见材料的辨识与特性",
+        "question": "这种材料亮晶晶的，敲击声音清脆，它是（ ）。",
+        "options": [
+          "木材",
+          "石头",
+          "陶瓷",
+          "金属"
+        ],
+        "answer": "金属",
+        "explanation": "金属具有光泽且敲击声响亮。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见材料的辨识与特性",
+        "question": "我们使用的教材封面主要是用（ ）做成的。",
+        "options": [
+          "纸",
+          "玻璃",
+          "皮革",
+          "橡胶"
+        ],
+        "answer": "纸",
+        "explanation": "书本的主要材料是纸。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "书的历史与材料演变",
+        "question": "相比于竹简，纸这种材料的优点是（ ）。",
+        "options": [
+          "更笨重",
+          "更容易刻字",
+          "轻便易携带",
+          "防蛀防腐烂"
+        ],
+        "answer": "轻便易携带",
+        "explanation": "纸克服了竹简笨重的缺陷。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见材料的辨识与特性",
+        "question": "雨伞的伞面通常选用的材料是（ ）。",
+        "options": [
+          "吸水的棉布",
+          "不透水的塑料布",
+          "厚重的木板",
+          "容易生锈的铁片"
+        ],
+        "answer": "不透水的塑料布",
+        "explanation": "雨伞需要防水，塑料或防水布是最佳选择。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "改变材料形状增强性能",
+        "question": "在餐盒里垫上一层瓦楞纸，主要的目的是（ ）。",
+        "options": [
+          "让饭菜更好吃",
+          "让餐盒更美观",
+          "隔热并增加承重",
+          "减轻餐盒重量"
+        ],
+        "answer": "隔热并增加承重",
+        "explanation": "瓦楞状结构留有空气层，能隔热和增强支撑。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物品的组成与功能设计",
+        "question": "运动鞋的鞋底通常使用橡胶，是因为这种材料（ ）。",
+        "options": [
+          "颜色漂亮",
+          "容易碎裂",
+          "有弹性且耐磨",
+          "非常沉重"
+        ],
+        "answer": "有弹性且耐磨",
+        "explanation": "橡胶具备良好的弹性和防滑耐磨性。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "材料的来源与回收利用",
+        "question": "回收废旧塑料瓶的主要科学意义是（ ）。",
+        "options": [
+          "浪费金钱",
+          "制造更多垃圾",
+          "节约资源保护环境",
+          "塑料瓶太占地儿"
+        ],
+        "answer": "节约资源保护环境",
+        "explanation": "回收利用可以减少原材料的消耗及环境污染。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见材料的辨识与特性",
+        "question": "我们通常用（ ）材料来制作透明的窗户。",
+        "options": [
+          "木头",
+          "金属",
+          "玻璃",
+          "水泥"
+        ],
+        "answer": "玻璃",
+        "explanation": "玻璃具有透光性好的特点。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "改变材料形状增强性能",
+        "question": "把纸折成风琴状（W形）后再放上重物，它能承载的力会（ ）。",
+        "options": [
+          "变小",
+          "变大",
+          "不变",
+          "无法判断"
+        ],
+        "answer": "变大",
+        "explanation": "折叠增加了结构的稳定性，从而增加了载重力。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见材料的辨识与特性",
+        "question": "筷子常用的材料比较多。下列材料中，导热最快的是（ ）。",
+        "options": [
+          "竹子",
+          "木头",
+          "不锈钢",
+          "塑料"
+        ],
+        "answer": "不锈钢",
+        "explanation": "金属的导热性能优于木材和塑料。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物品的组成与功能设计",
+        "question": "保温杯的杯套通常是尼龙或硅胶做的，主要是为了（ ）。",
+        "options": [
+          "防烫手",
+          "装水多",
+          "让杯子变轻",
+          "变得更硬"
+        ],
+        "answer": "防烫手",
+        "explanation": "硅胶是热的不良导体，能起到防烫作用。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "书的历史与材料演变",
+        "question": "在造纸术发明前，人们在竹片上刻字，一捆竹简写不了太多字。大约（ ）年前蔡伦改进了造纸术。",
+        "options": [],
+        "answer": "2000",
+        "explanation": "蔡伦在公元105年前后改进造纸术，距今约两千年。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见材料的辨识与特性",
+        "question": "常见的材料种类很多，本单元我们重点学习辨认了（ ）种基础材料。",
+        "options": [],
+        "answer": "6",
+        "explanation": "通常包括木材、金属、塑料、玻璃、纤维（布）、陶瓷等。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常用材料鉴别",
+        "question": "衣服通常是由（ ）材料制成的。",
+        "options": [],
+        "answer": "纤维",
+        "explanation": "纤维是各种布料的主要成分。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自然世界与人工世界",
+        "question": "我们使用的尺子是用（ ）制造出来的物品。",
+        "options": [],
+        "answer": "塑料",
+        "explanation": "小学生用的直尺最常用的材料是塑料。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "材料的来源与回收利用",
+        "question": "为了保护环境，我们应该把废旧垃圾放进（ ）箱里。",
+        "options": [],
+        "answer": "回收",
+        "explanation": "可回收物应放入指定的回收设施中。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二上科学第二单元《材料》学期期末模拟测验",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "常用材料辨识",
+        "question": "陶瓷碗摔在地上不容易碎。",
+        "options": [],
+        "answer": "错",
+        "explanation": "陶瓷材料虽然坚硬但很脆，易碎。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "材料来源",
+        "question": "木材是来自自然界的天然材料。",
+        "options": [],
+        "answer": "对",
+        "explanation": "木材直接取自树木，是天然材料。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "性能探究",
+        "question": "金属材料具有反光能力。",
+        "options": [],
+        "answer": "对",
+        "explanation": "由于金属光泽，金属表面通常能反光。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "材料演变",
+        "question": "泥板书在古代书写起来非常轻便且容易保存。",
+        "options": [],
+        "answer": "错",
+        "explanation": "泥板书不仅沉重，而且容易碎裂，并不轻便。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "综合应用",
+        "question": "不同的材料有不同的特点，我们可以根据需求选择材料。",
+        "options": [],
+        "answer": "对",
+        "explanation": "材料的选择取决于物品需要实现的功能。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "常见材料性质",
+        "question": "小明想要观察杯子里的水有多少，他最好选择（ ）材质的杯子。",
+        "options": [
+          "不透明的金属",
+          "透明的玻璃",
+          "棕色的木头",
+          "银色的铝合金"
+        ],
+        "answer": "透明的玻璃",
+        "explanation": "玻璃透明，便于观察内部。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人工世界",
+        "question": "下列物品的材料中，哪种是经过人类加工后变成的（ ）。",
+        "options": [
+          "河滩上的鹅卵石",
+          "森林里的腐殖土",
+          "工厂里造出的纸",
+          "山洞里的石钟乳"
+        ],
+        "answer": "工厂里造出的纸",
+        "explanation": "纸是典型的通过原材料加工而成的人工材料。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "书的演变",
+        "question": "在宣纸上写毛笔字，墨迹会散开，说明宣纸（ ）。",
+        "options": [
+          "非常坚硬",
+          "不吸水",
+          "有吸水性",
+          "很重"
+        ],
+        "answer": "有吸水性",
+        "explanation": "纸的吸水性让墨汁渗入。 "
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "改变形状",
+        "question": "做瓦楞纸实验时，通常发现瓦楞状的纸比平纸更（ ）。",
+        "options": [
+          "容易弄湿",
+          "容易撕破",
+          "难以折叠",
+          "能支撑更多垫圈"
+        ],
+        "answer": "能支撑更多垫圈",
+        "explanation": "瓦楞状结构大大增强了纸的抗弯曲和承压能力。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多材料组合",
+        "question": "普通的雨伞手柄通常用塑料制成，这主要是因为塑料（ ）。",
+        "options": [
+          "很重",
+          "容易导电",
+          "手感舒适且轻便",
+          "非常昂贵"
+        ],
+        "answer": "手感舒适且轻便",
+        "explanation": "塑料手柄轻、不导热且易塑形。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "常见材料性质",
+        "question": "我们在实验室用放大镜观察材料，发现木材表面往往有（ ）。",
+        "options": [
+          "金属光泽",
+          "花纹或年轮",
+          "很多气泡",
+          "透明的划痕"
+        ],
+        "answer": "花纹或年轮",
+        "explanation": "年轮和木纹是天然木材的特征。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合功能",
+        "question": "冬天为了保暖，我们会戴上厚帽子，这种帽子的材料通常是（ ）。",
+        "options": [
+          "坚硬的塑料",
+          "凉爽的竹蔑",
+          "保暖的羊毛",
+          "冰冷的薄铁皮"
+        ],
+        "answer": "保暖的羊毛",
+        "explanation": "羊毛属于热的不良导体，能有效锁住体温。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "材料属性",
+        "question": "用指甲在木块和铁块上划，哪种更容易留下明显的痕迹？",
+        "options": [
+          "铁块",
+          "一样的",
+          "木块",
+          "都划不出痕迹"
+        ],
+        "answer": "木块",
+        "explanation": "铁的硬度比木材大，木材更容易受损留下痕迹。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "回收利用",
+        "question": "将旧报纸送到造纸厂加工成新纸，这属于（ ）。",
+        "options": [
+          "乱扔垃圾",
+          "回收利用",
+          "毁坏树木",
+          "收集古董"
+        ],
+        "answer": "回收利用",
+        "explanation": "这是材料的再加工利用过程。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人工世界",
+        "question": "下列物品完全由天然材料直接制成的是（ ）。",
+        "options": [
+          "石头记事本",
+          "天然干葫芦",
+          "塑料吸管",
+          "不锈钢盆"
+        ],
+        "answer": "天然干葫芦",
+        "explanation": "葫芦是自然生长的，干燥后即可使用。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "材料应用",
+        "question": "电线的外面包裹着一层塑料，这是利用了塑料（ ）的特点。",
+        "options": [
+          "便宜",
+          "好看",
+          "不导电",
+          "很软"
+        ],
+        "answer": "不导电",
+        "explanation": "利用塑料的绝缘性来保障用电安全。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "材料演变",
+        "question": "以下书写材料出现的先后顺序，排列正确的是（ ）。",
+        "options": [
+          "竹简、泥板、纸",
+          "泥板、竹简、纸",
+          "纸、竹简、泥板",
+          "竹简、纸、泥板"
+        ],
+        "answer": "泥板、竹简、纸",
+        "explanation": "早期使用泥板或龟甲，后使用竹简，再出现造纸术。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "组合材料",
+        "question": "运动鞋的鞋带常用棉线，这是为了（ ）。",
+        "options": [
+          "漂亮",
+          "结实且易系紧",
+          "防水",
+          "增加重量"
+        ],
+        "answer": "结实且易系紧",
+        "explanation": "棉线摩擦力适中，结合纤维强度适合做鞋带。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "材料实验",
+        "question": "把两张同样的纸中的一张折成瓦楞纸，实验表明，同样负重下，平纸可能在放（ ）个垫圈时就弯曲了。",
+        "options": [],
+        "answer": "1",
+        "explanation": "单张平纸支撑力极弱，一般1个垫圈就会使其变形。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "历史常识",
+        "question": "我国古代造纸术是世界四大发明之一。蔡伦生活在距今约（ ）个世纪之前。",
+        "options": [],
+        "answer": "19",
+        "explanation": "蔡伦生活在东汉，约为公元1世纪末2世纪初。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "材料性质",
+        "question": "将干纸和湿纸进行对比实验，发现纸被浸湿后，它的（ ）会变弱。",
+        "options": [],
+        "answer": "韧性",
+        "explanation": "纸在受潮或浸水后，纤维连接变松，强度和韧性大幅下降。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "材料演变",
+        "question": "在蔡伦之前，人们最早把文字刻在动物的（ ）上。",
+        "options": [],
+        "answer": "骨头",
+        "explanation": "甲骨文就是刻在龟甲或兽骨上的文字。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "功能设计",
+        "question": "小雨伞的骨架通常由（ ）材料制成，使其支撑更有力。",
+        "options": [],
+        "answer": "金属",
+        "explanation": "金属的高硬度和高强度使其适合做支撑架构。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "自然世界与人工世界",
+      "core_concept": "人造物品由于使用了天然材料加工而成，构成了人工世界。",
+      "key_formula": "天然材料 + 人力加工 = 人工物品",
+      "common_mistakes": [
+        "认为木头桌子是自然界直接长出来的",
+        "区分不清原材料和成品"
+      ],
+      "tips": "看物品是否有人类干预、修改、组合的痕迹。"
+    },
+    {
+      "point": "常见材料的辨识",
+      "core_concept": "不同材料具有硬度、透明度、柔韧性、导热性等物理特性。",
+      "key_formula": "观察观察再观察：看颜色光泽、摸粗糙程度、敲声音响度。",
+      "common_mistakes": [
+        "把金属和塑料制品混淆",
+        "认为透明的都是玻璃"
+      ],
+      "tips": "金属亮、木头纹、塑料轻、陶瓷脆。"
+    },
+    {
+      "point": "书的演变",
+      "core_concept": "书的发展经历了从笨重到轻便、从难以书写到易于记录的过程。",
+      "key_formula": "泥板/龟甲 -> 竹简 -> 纸书 -> 电子书",
+      "common_mistakes": [
+        "认为竹简比纸方便",
+        "低估古代造纸术的意义"
+      ],
+      "tips": "重点对比各种材料的重量、成本和耐用性。"
+    },
+    {
+      "point": "瓦楞状结构",
+      "core_concept": "改变材料的形状可以显著改变材料的抗弯曲能力和隔热性。",
+      "key_formula": "折叠结构 = 承重增强 + 缓冲避震",
+      "common_mistakes": [
+        "认为把纸折了会损坏纸的能力",
+        "不能理解为何能隔热"
+      ],
+      "tips": "想象快递纸箱中间的那层波浪线，它既能保护物品又很硬。"
+    },
+    {
+      "point": "多材料组合",
+      "core_concept": "物品往往由多种材料组成，每种材料服务于特定的功能需求。",
+      "key_formula": "特定功能 = 特定材料属性的组合",
+      "common_mistakes": [
+        "认为一个物品只能有一种材料",
+        "不能对等材料属性与功能"
+      ],
+      "tips": "分析椅子、杯子、帽子等，思考没处部位为什么用这种材料。"
+    }
+  ]
+}

@@ -1,0 +1,706 @@
+{
+  "textbook": "教科版小学科学四年级上册",
+  "unit": "声音",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元《声音》单元达标测试卷",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "声音的产生",
+        "question": "我们听到的所有声音都是由物体振动产生的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "科学定义明确指出，声音是由物体的振动产生的，振动停止，声音消失。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "声音的传播",
+        "question": "声音在固体中的传播速度通常比在空气中慢。",
+        "options": [],
+        "answer": "错",
+        "explanation": "声音在固体中传播速度最快，液体次之，空气最慢。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "耳的结构",
+        "question": "鼓膜是非常薄且有弹性的薄膜，即使很轻的声音也会引起它的振动。",
+        "options": [],
+        "answer": "对",
+        "explanation": "鼓膜的结构特点决定了它能感应声波带来的细微压力变化并产生振动。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "噪音控制",
+        "question": "在耳道里塞上棉花可以在声源处减弱噪声。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在耳道塞棉花是在人耳接收处减弱噪声，不是在声源处。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "音高变化",
+        "question": "敲击盛水量不同的玻璃杯，水越多，发出的声音越高。",
+        "options": [],
+        "answer": "错",
+        "explanation": "水越多，振动质量越大，振动越慢，发出的声音越低。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音的产生",
+        "question": "用手按住正在发声的锣面，锣声立即消失，是因为：",
+        "options": [
+          "手挡住了声音的传播",
+          "手吸收了声波",
+          "手使锣面停止了振动",
+          "手改变了声音的音调"
+        ],
+        "answer": "手使锣面停止了振动",
+        "explanation": "声音由振动产生，手按住锣面强制停止了振动，所以声音消失。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音的传播",
+        "question": "土电话是通过（）把声音传给对方的。",
+        "options": [
+          "空气",
+          "棉线",
+          "纸杯",
+          "吸管"
+        ],
+        "answer": "棉线",
+        "explanation": "土电话利用棉线这一固体介质来传播振动信号。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "耳的结构",
+        "question": "人耳朵里将声波信号转化为听觉信号的结构是：",
+        "options": [
+          "鼓膜",
+          "听小骨",
+          "听觉神经",
+          "耳蜗"
+        ],
+        "answer": "耳蜗",
+        "explanation": "耳蜗接收听小骨传来的振动并将其转化为大脑能接收的听觉信号。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "音量描述",
+        "question": "我们在形容声音很大、震耳欲聋时，是指声音的：",
+        "options": [
+          "音高",
+          "音力",
+          "音量",
+          "音色"
+        ],
+        "answer": "音量",
+        "explanation": "声音的大小强弱在科学上称为音量（或响度）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "音高规律",
+        "question": "拨动伸出桌面长度不同的钢尺，钢尺伸出越长，声音：",
+        "options": [
+          "越高",
+          "越低",
+          "越强",
+          "越弱"
+        ],
+        "answer": "越低",
+        "explanation": "伸出长度越长，振动部分越长，振动越慢，音高越低。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "传播介题",
+        "question": "月球上宇航员必须通过无线电通话，是因为：",
+        "options": [
+          "月球上温度太低",
+          "月球上没有空气",
+          "月球上引力太小",
+          "宇航服隔绝了声音"
+        ],
+        "answer": "月球上没有空气",
+        "explanation": "真空中没有传声介质，所以声音无法传播。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "音高综合",
+        "question": "吹奏排箫时，管子越短，发出的声音：",
+        "options": [
+          "越高",
+          "越低",
+          "越轻",
+          "越响"
+        ],
+        "answer": "越高",
+        "explanation": "短管内的空气柱短，振动速度快，产生的音高就越高。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "耳朵功能",
+        "question": "耳廓的主要作用是：",
+        "options": [
+          "收集声波",
+          "产生振动",
+          "传递振动",
+          "转化信号"
+        ],
+        "answer": "收集声波",
+        "explanation": "耳廓形状特殊，主要是为了更好地收集来自各方的声波进入耳道。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "弦乐器",
+        "question": "小提琴的琴弦拧得越紧，拨动时发出的声音越：",
+        "options": [
+          "响",
+          "低",
+          "轻",
+          "高"
+        ],
+        "answer": "高",
+        "explanation": "弦越紧，振动越快，音高随之变高。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "音量控制",
+        "question": "用力拨动橡皮筋，橡皮筋的振动幅度变大，此时声音：",
+        "options": [
+          "变高",
+          "变低",
+          "变强",
+          "变弱"
+        ],
+        "answer": "变强",
+        "explanation": "振幅决定音量的强弱，幅度越大声音越强。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "声音描述",
+        "question": "蚊子飞过耳边的嗡嗡声和牛的叫声相比：",
+        "options": [
+          "蚊子声音更低",
+          "蚊子声音更高",
+          "牛声音更高",
+          "两者音高一样"
+        ],
+        "answer": "蚊子声音更高",
+        "explanation": "蚊子翅膀振动极快，频率高，所以音调高（尖细）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "听力保护",
+        "question": "为了保护听力，我们不应该：",
+        "options": [
+          "远离噪音源",
+          "长时间戴耳机听歌",
+          "轻声说话",
+          "遇到巨响张开嘴巴"
+        ],
+        "answer": "长时间戴耳机听歌",
+        "explanation": "长时间近距离声源刺激会损伤听神经和鼓膜。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传声实验",
+        "question": "潜水员在水下能听到岸上的说话声，说明声音可以在（）中传播。",
+        "options": [
+          "固体",
+          "液体",
+          "真空中",
+          "只有空气"
+        ],
+        "answer": "液体",
+        "explanation": "声音通过空气传到水面，再经水传至潜水员耳中，证明了液体的导声性。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数字识别",
+        "question": "吉法师共有 6 根琴弦，其中 1 号弦最细，其发出的声音频率最高。那么 6 号弦（最粗）在单位时间内振动的次数比 1 号弦要（数字填 0 表示相同，填 1 表示少，填 2 表示多）：",
+        "options": [],
+        "answer": "1",
+        "explanation": "粗弦振动慢，单位时间内振动次数少。此处逻辑选1为少。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "耳结构数量",
+        "question": "人的耳朵可以分为外耳、中耳和内耳（___）个部分。",
+        "options": [],
+        "answer": "3",
+        "explanation": "人耳结构三大部分：外耳（耳廓、耳道）、中耳（鼓膜、听小骨）、内耳（耳蜗、听神经）。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "科学概念",
+        "question": "物体振动的幅度越大，发出的声音就越（___）。",
+        "options": [],
+        "answer": "强",
+        "explanation": "强弱由振幅决定，幅度大则强。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "科学术语",
+        "question": "物体振动的快慢决定了声音的（___）。",
+        "options": [],
+        "answer": "音高",
+        "explanation": "音高（音调）由物体振动的频率（快慢）决定。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "解剖结构",
+        "question": "外耳道末端的（___）会自动产生振动，并将振动传到中耳。",
+        "options": [],
+        "answer": "鼓膜",
+        "explanation": "鼓膜是接收空气振动并首先产生机械振动的结构。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级上学期科学期末模拟测评（声音专项）",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "声音产生",
+        "question": "我们喉咙里的声带振动时，发出了声音。",
+        "options": [],
+        "answer": "对",
+        "explanation": "人声是由声带振动产生的。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "传播介质",
+        "question": "声音可以在气体中传播，但不能在液体中传播。",
+        "options": [],
+        "answer": "错",
+        "explanation": "声音可以在气、液、固三态物质中传播。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "人耳结构",
+        "question": "长期佩戴入耳式耳机大音量听歌会对内耳造成不可逆损伤。",
+        "options": [],
+        "answer": "对",
+        "explanation": "强烈震动会损伤精密的人耳内结构如听感细胞。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "音高变化",
+        "question": "钢尺伸出桌面越短，拨动时振动得越快。",
+        "options": [],
+        "answer": "对",
+        "explanation": "长度短其质量小，易于高频振动。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "综合判断",
+        "question": "物体不振动，也能通过传声介质发出微弱的声音。",
+        "options": [],
+        "answer": "错",
+        "explanation": "振动是声音产生的根本前提。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音描述",
+        "question": "叮铃铃...闹钟响了，这里闹钟发声的物体是：",
+        "options": [
+          "空气",
+          "闹钟里的铃片",
+          "闹钟的外壳",
+          "闹钟里的电池"
+        ],
+        "answer": "闹钟里的铃片",
+        "explanation": "机械闹钟通过打击铃片使其振动发声。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "音高控制",
+        "question": "欲使吉他弦发出的声音变高，应该：",
+        "options": [
+          "把弦调松一些",
+          "把弦调紧一些",
+          "用力拨动弦",
+          "轻微拨动弦"
+        ],
+        "answer": "把弦调紧一些",
+        "explanation": "调紧弦能增加张力，提高振动频率，从而升高音调。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传播实验",
+        "question": "把正在响铃的闹钟放在玻璃罩内，抽尽空气，闹钟声音消失，这是因为：",
+        "options": [
+          "闹钟不工作了",
+          "声音不能在真空中传播",
+          "空气在真空中变多了",
+          "玻璃罩隔音效果太好"
+        ],
+        "answer": "声音不能在真空中传播",
+        "explanation": "实验证明声音的传播需要空气等介质。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "音量定义",
+        "question": "“震耳欲聋”主要形容声音的：",
+        "options": [
+          "强弱程度",
+          "高低程度",
+          "传播速度",
+          "是否悦耳"
+        ],
+        "answer": "强弱程度",
+        "explanation": "震耳是指响度大，即能量（强弱）大。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "耳朵功能",
+        "question": "耳道的主要作用是：",
+        "options": [
+          "防止进水",
+          "传送声波",
+          "平衡压力",
+          "产生音信号"
+        ],
+        "answer": "传送声波",
+        "explanation": "外耳道是声波从外部环境进入中耳的通道。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "音高实验",
+        "question": "向水壶里灌水，水快满时听到的声音音调会：",
+        "options": [
+          "变重",
+          "变低",
+          "变高",
+          "不变"
+        ],
+        "answer": "变高",
+        "explanation": "灌水时发声体是水壶内的空气柱。水越多空气柱越短，振动越快，音调越高。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "声音特性",
+        "question": "在敲打鼓面时，如想发出较弱的声音，应当：",
+        "options": [
+          "重敲",
+          "换大鼓",
+          "轻敲",
+          "连续敲击"
+        ],
+        "answer": "轻敲",
+        "explanation": "轻敲减小了鼓面的振幅，从而减弱了音量。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传播途径",
+        "question": "隔着一堵墙能听到隔壁的人说话，主要是因为墙壁是（）：",
+        "options": [
+          "固体",
+          "液体",
+          "真空",
+          "透明的"
+        ],
+        "answer": "固体",
+        "explanation": "声音透过墙壁（固体）传导到另一侧。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "音高感官",
+        "question": "男低音和女高音歌唱家的区别在于声音的：",
+        "options": [
+          "音色",
+          "强弱",
+          "音高",
+          "远近"
+        ],
+        "answer": "音高",
+        "explanation": "“高音”“低音”指代的是音调的高低。 "
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "乐器原理",
+        "question": "制作排箫时，为了获得依次降低的音调，管子的排布应该是：",
+        "options": [
+          "由短变长",
+          "由长变短",
+          "全部等长",
+          "随意排布"
+        ],
+        "answer": "由短变长",
+        "explanation": "短管音高，长管音低。音调依次降低需要由短管向长管排列。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合规律",
+        "question": "敲击一个实心钢管，听到清脆的声音，这说明声音具有（）性质。",
+        "options": [
+          "只能在空气传",
+          "能量和传播性",
+          "必须在真空中",
+          "只有金属能传"
+        ],
+        "answer": "能量和传播性",
+        "explanation": "声音产生及传递体现了振动能量的扩散。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "保护听力",
+        "question": "下列属于保护听觉的正确做法是：",
+        "options": [
+          "用尖锐工具掏耳朵",
+          "对着同学耳朵大喊",
+          "游泳时带上耳塞",
+          "一直呆在迪厅"
+        ],
+        "answer": "游泳时带上耳塞",
+        "explanation": "耳塞防污水进入外耳道，保护耳膜健康。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "实验条件",
+        "question": "在探究“尺子振动快慢与音高关系”的实验中，必须改变的条件是：",
+        "options": [
+          "拨动的力度",
+          "尺子伸出桌面的长度",
+          "尺子的种类",
+          "拨动的方向"
+        ],
+        "answer": "尺子伸出桌面的长度",
+        "explanation": "改变振动部分的长度是探究音高变化的基础变量。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "声音常识",
+        "question": "人类正常的听觉范围通常在 20 到 （___） 赫兹之间。（填数字）",
+        "options": [],
+        "answer": "20000",
+        "explanation": "人类能够听到的振动频率范围在20Hz到20000Hz之间。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "音量单位",
+        "question": "为了保护听力，建议声音环境不要超过（___）分贝。",
+        "options": [],
+        "answer": "80",
+        "explanation": "长时间超过80-90分贝会损伤听觉器官。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "术语填空",
+        "question": "悦耳、有规律的声音被称为乐音，刺耳、杂乱的声音被称为（___）。",
+        "options": [],
+        "answer": "噪声",
+        "explanation": "噪声通常指主观难听或客观杂乱无章的声音。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "科学词汇",
+        "question": "声音的三个基本特性包括音调、响度和（___）。",
+        "options": [],
+        "answer": "音色",
+        "explanation": "音色是由发声体本身的材料和结构决定的特性。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解剖名词",
+        "question": "耳朵中长得像蜗牛一样的结构叫（___）。",
+        "options": [],
+        "answer": "耳蜗",
+        "explanation": "内耳中的耳蜗因形状得名，内含大量听觉细胞。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "声音的产生",
+      "core_concept": "物体受力并产生往复运动（振动）产生声音。",
+      "key_formula": "声音 = 物体振动",
+      "common_mistakes": [
+        "认为物体受到力就会产生声音",
+        "认为不振动的物体也可以发声"
+      ],
+      "tips": "观察发声物体的细微颤动，如水中的音叉、跳动的纸屑。"
+    },
+    {
+      "point": "声音的传播",
+      "core_concept": "声音以声波的形式，通过物质（固体、液体、气体）向四面八方传播。",
+      "key_formula": "传播效果：固体 > 液体 > 气体",
+      "common_mistakes": [
+        "认为真空中可以通过大声喊叫传声",
+        "由于土电话线没拉紧也能传声"
+      ],
+      "tips": "记住“介质”是声音传播的桥梁，没桥声音过不去。"
+    },
+    {
+      "point": "音高（高低）",
+      "core_concept": "物体振动快慢决定声音高低。物体越短、小、薄、细、紧，振动越快，声音越高。",
+      "key_formula": "振动快 = 音高；振动慢 = 音低",
+      "common_mistakes": [
+        "把音高（高低）和音量（强弱）搞混",
+        "认为用力拨弦声音会变高"
+      ],
+      "tips": "长短、粗细、松紧是判断音高的关键词。"
+    },
+    {
+      "point": "音量（强弱）",
+      "core_concept": "物体振动幅度决定声音强弱。用力越大，幅度越大，声音越强。",
+      "key_formula": "振幅大 = 强（大声）；振幅小 = 弱（轻声）",
+      "common_mistakes": [
+        "认为声音传得远是因为音调高"
+      ],
+      "tips": "音量大小看用力程度，音高高低看物体长短。"
+    },
+    {
+      "point": "听觉的形成",
+      "core_concept": "耳廓（集声）→鼓膜（振动）→听小骨（传导）→耳蜗（信号转换）。",
+      "key_formula": "外部声波 → 机械振动 → 听觉信号",
+      "common_mistakes": [
+        "认为耳蜗是产生振动的地方",
+        "认为只有外耳损坏才会耳聋"
+      ],
+      "tips": "各部分功能分工明确：耳廓是漏斗，鼓膜是鼓皮，耳蜗是翻译器。"
+    }
+  ]
+}

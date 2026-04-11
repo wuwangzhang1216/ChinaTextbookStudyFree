@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学六年级下册",
+  "unit": "生物的多样性",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元《生物的多样性》单元达标验收卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植物的遗传与变异",
+        "question": "亲代绿豆是圆形的，后代绿豆也一定是圆形的，这属于遗传现象。",
+        "options": [],
+        "answer": "对",
+        "explanation": "生物后代与其亲代在形态结构上相似的现象叫做遗传。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "生物多样性的保护",
+        "question": "建立自然保护区是保护生物多样性的一种有效措施。",
+        "options": [],
+        "answer": "对",
+        "explanation": "建立自然保护区可以就地保护生物的原有生存环境。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "动物的遗传与变异",
+        "question": "变异在生物界是普遍存在的，而遗传只发生在特定物种中。",
+        "options": [],
+        "answer": "错",
+        "explanation": "遗传和变异是生物界普遍存在的生命特性。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "校园生物大搜索",
+        "question": "调查校园生物时，地下、空中和水中都要进行观察和记录。",
+        "options": [],
+        "answer": "对",
+        "explanation": "全面的调查应覆盖校园内的各个角落和空间。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "古代生物化石",
+        "question": "化石只能在沉积岩中找到，在火山岩中不可能存在化石。",
+        "options": [],
+        "answer": "对",
+        "explanation": "由于岩浆的高温，化石通常保存在沉积岩中。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "校园生物大搜索",
+        "question": "在校园生物大搜索中，对于不认识的植物，我们应该（ ）。",
+        "options": [
+          "拔出来带回教室询问",
+          "直接跳过不记入调查表",
+          "拍下照片或画图记录",
+          "带回家问父母"
+        ],
+        "answer": "拍下照片或画图记录",
+        "explanation": "科学调查应保护现场环境，不认识的生物可通过图文记录后期查证。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物的变异",
+        "question": "“一母生九子，连母十个样”这句话描述的主要是（ ）现象。",
+        "options": [
+          "遗传",
+          "变异",
+          "进化",
+          "发育"
+        ],
+        "answer": "变异",
+        "explanation": "这句话说明了同胞兄弟之间以及与亲代之间的差异，属于变异。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "二歧分类法",
+        "question": "二歧分类法是将特征不同的生物（ ）。",
+        "options": [
+          "按大小分类",
+          "分成两个对立的类别",
+          "按颜色分类",
+          "随机分成若干类"
+        ],
+        "answer": "分成两个对立的类别",
+        "explanation": "二歧分类法是确定一个标准，将生物分为有此特征和无此特征的两类。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古代生物化石",
+        "question": "通过观察恐龙化石，科学家可以推断出恐龙的（ ）。",
+        "options": [
+          "叫声高低",
+          "运动方式",
+          "具体的体色",
+          "瞬时情绪"
+        ],
+        "answer": "运动方式",
+        "explanation": "骨骼化石的结构可以反映其四肢发育和运动方式。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人体的遗传",
+        "question": "下列属于人体遗传特征的是（ ）。",
+        "options": [
+          "单眼皮",
+          "后天的伤疤",
+          "学习的知识",
+          "喜欢的颜色"
+        ],
+        "answer": "单眼皮",
+        "explanation": "单双眼皮属于可通过生殖细胞传递给后代的形态特征。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古代生物化石",
+        "question": "被称为“活化石”的植物是（ ）。",
+        "options": [
+          "绿梦",
+          "银杏",
+          "仙人掌",
+          "凤仙花"
+        ],
+        "answer": "银杏",
+        "explanation": "银杏出现在几亿年前，形态至今变化不大，被称为活化石。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生物多样性的意义",
+        "question": "保护生物多样性的根本目的是（ ）。",
+        "options": [
+          "为了观赏",
+          "为了维持生态系统平衡",
+          "为了消灭害虫",
+          "为了让人类更好控制自然"
+        ],
+        "answer": "为了维持生态系统平衡",
+        "explanation": "生物多样性是生态系统稳定和功能的基础。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物的遗传与变异",
+        "question": "下列关于金鱼的说法正确的是（ ）。",
+        "options": [
+          "金鱼是天生的野生品种",
+          "金鱼形态各异是人工选择和变异的结果",
+          "所有金鱼都没有相似之处",
+          "金鱼不会产生变异"
+        ],
+        "answer": "金鱼形态各异是人工选择和变异的结果",
+        "explanation": "人类利用生物的变异，通过人工选育培育出了品种繁多的金鱼。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物与环境",
+        "question": "仙人掌的叶退化成刺，主要是为了适应（ ）的环境。",
+        "options": [
+          "寒冷",
+          "潮湿",
+          "高温",
+          "干旱"
+        ],
+        "answer": "干旱",
+        "explanation": "刺状叶减少了水分蒸腾，是适应荒漠干旱环境的表现。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "制作校园生物分布图",
+        "question": "在制作校园生物分布图时，如果生物种类太多，可以（ ）。",
+        "options": [
+          "不标在图上",
+          "只记录动物",
+          "用编号或图例表示",
+          "全部密密麻麻写上去"
+        ],
+        "answer": "用编号或图例表示",
+        "explanation": "图例法能使分布图清晰、直观地传达信息。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "调查校园生物",
+        "question": "校园里的生物多种多样，即使是同一种树，其叶子（ ）。",
+        "options": [
+          "完全一模一样",
+          "会有不同程度差异",
+          "大小相同但颜色不同",
+          "形态完全不同"
+        ],
+        "answer": "会有不同程度差异",
+        "explanation": "由于变异的存在，世界上没有两片完全相同的叶子。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生物多样性的保护",
+        "question": "建立基因库属于保护生物多样性的（ ）。",
+        "options": [
+          "迁地保护",
+          "就地保护",
+          "国家法律宣传",
+          "环境整治"
+        ],
+        "answer": "迁地保护",
+        "explanation": "将遗传物质或种子等移出原产地保存属于迁地保护。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "古代生物化石",
+        "question": "猛犸象的化石在冰原中被发现，说明猛犸象（ ）。",
+        "options": [
+          "不能适应寒冷环境",
+          "具有耐寒的身体结构",
+          "曾生活在赤道地区",
+          "是由恐龙演化而来"
+        ],
+        "answer": "具有耐寒的身体结构",
+        "explanation": "猛犸象披满长毛，是典型的寒带动物。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "二歧分类法",
+        "question": "在使用二歧分类法将4种不同的生物完全区分开，最少需要进行（ ）级分类。",
+        "options": [],
+        "answer": "2",
+        "explanation": "第一级分2组，第二级每组再分2个，即可区分出4个物种。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "调查校园生物",
+        "question": "在校园生物大搜索中，我们主要观察（ ）个方面的环境。",
+        "options": [],
+        "answer": "3",
+        "explanation": "通常指天上、地上（含水中）、地下三个空间。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古代生物化石",
+        "question": "（ ）是存留在岩石中的古生物遗体、遗物或遗迹。",
+        "options": [],
+        "answer": "化石",
+        "explanation": "化石是研究生物进化的重要依据。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "二歧分类法",
+        "question": "确定一个标准，将事物分为两类，再确定标准，直到分完为止，这种方法叫（ ）。",
+        "options": [],
+        "answer": "二歧分类法",
+        "explanation": "二歧分类法是科学分类的基础方法。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物的变异",
+        "question": "同一种群中的不同个体在形态特征上存在的差异叫做（ ）。",
+        "options": [],
+        "answer": "变异",
+        "explanation": "变异是物种多样性的重要来源之一。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级科学下册第二单元期末专项突破卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "生物的遗传",
+        "question": "猫的亲代是白色，其后代产生花斑色是遗传现象。",
+        "options": [],
+        "answer": "错",
+        "explanation": "颜色由单一变为混合是产生了差异，属于变异。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "生物多样性意义",
+        "question": "如果某种生物灭绝了，会对生态平衡产生连锁反应。",
+        "options": [],
+        "answer": "对",
+        "explanation": "生态系统内由于食物链等关系，一个环节缺失会引起整体波动。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "古代生物化石",
+        "question": "虽然环境在变，但现代生物的身体结构与古代生物完全相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "生物随着环境变化在不断演化，结构会有所调整。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "调查校园生物",
+        "question": "调查生物分布时，不仅要记录名称，还要记录数量和位置。",
+        "options": [],
+        "answer": "对",
+        "explanation": "数量和分布位置是生态调查的核心数据。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分类方法",
+        "question": "分类标准不同，得到的分类结果也会不同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分类取决于所选特征，不同的特征会导致不同的归属。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古今生物对比",
+        "question": "将始祖鸟化石与现代鸟类对比，发现鸟类祖先可能由（ ）演化而来。",
+        "options": [
+          "哺乳动物",
+          "爬行动物",
+          "两栖动物",
+          "鱼类"
+        ],
+        "answer": "爬行动物",
+        "explanation": "始祖鸟具有某些爬行动物的特征，证明了进化的中间过渡。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "校园生物大搜索",
+        "question": "在调查中，若发现树下有几根羽毛，应记录校园中存在（ ）。",
+        "options": [
+          "羽毛",
+          "垃圾",
+          "鸟类",
+          "昆虫"
+        ],
+        "answer": "鸟类",
+        "explanation": "羽毛是鸟类存在的间接证据。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物分类",
+        "question": "按照“是否有花”分类，下列属于同一类的是（ ）。",
+        "options": [
+          "凤仙花和苔藓",
+          "海带和银杏",
+          "油菜和月季",
+          "蕨类和桃花"
+        ],
+        "answer": "油菜和月季",
+        "explanation": "油菜和月季都是开花植物。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "变异的应用",
+        "question": "袁隆平教授利用生物具有（ ）的原理，培育出了杂交水稻。",
+        "options": [
+          "遗传性",
+          "变异性",
+          "耐旱性",
+          "向光性"
+        ],
+        "answer": "变异性",
+        "explanation": "利用不同品种产生变异并选择优良性状。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生物的遗传",
+        "question": "猫妈妈生了三只小猫，它们的毛色都与猫妈妈一样，这属于（ ）。",
+        "options": [
+          "进化",
+          "变异",
+          "遗传",
+          "退化"
+        ],
+        "answer": "遗传",
+        "explanation": "亲代与后代性状保持一致称为遗传。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生物的多样性",
+        "question": "如果地球上只有一个物种，那么（ ）。",
+        "options": [
+          "环境更美了",
+          "生态系统会更稳定",
+          "生态系统会崩溃",
+          "这种物种会活得更好"
+        ],
+        "answer": "生态系统会崩溃",
+        "explanation": "生命之间相互依存，单一物种无法维持生态链。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古代生物化石",
+        "question": "我们在喜马拉雅山上发现了鱼骨化石，这说明那里曾经是（ ）。",
+        "options": [
+          "高山",
+          "平原",
+          "海洋",
+          "沙漠"
+        ],
+        "answer": "海洋",
+        "explanation": "鱼生活在水中，化石出现在高山说明地形发生了沧海桑田的变迁。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "自然选择",
+        "question": "在长期干旱的环境中，叶片肥厚且能储水的植物容易生存，这是（ ）。",
+        "options": [
+          "人工选择",
+          "自然选择",
+          "由于光照太强",
+          "偶然现象"
+        ],
+        "answer": "自然选择",
+        "explanation": "环境筛选出适应力强的个体并使其保留繁殖。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "保护生物多样性",
+        "question": "下列不属于我国生物保护行动的是（ ）。",
+        "options": [
+          "颁布野生动物保护法",
+          "建立三江源自然保护区",
+          "开展植树造林",
+          "大量捕猎野兔"
+        ],
+        "answer": "大量捕猎野兔",
+        "explanation": "捕杀野生动物破坏了生物多样性。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "制作校园生物分布图",
+        "question": "下列哪个特征不适合作为二歧分类的标准？（ ）",
+        "options": [
+          "是否有花",
+          "是否能自主运动",
+          "是否漂亮",
+          "是否有脊椎"
+        ],
+        "answer": "是否漂亮",
+        "explanation": "科学分类标准必须是客观的，漂亮属于主观感受。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "不同区域生物",
+        "question": "极地狐的耳朵比非洲狐小得多，这种结构特点有利于（ ）。",
+        "options": [
+          "寻找食物",
+          "散热",
+          "保温",
+          "美观"
+        ],
+        "answer": "保温",
+        "explanation": "寒冷地区的动物体表突起部分通常较小，以减少热量散失。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生物的遗传",
+        "question": "父母都是卷发，孩子也是卷发，这属于（ ）。",
+        "options": [
+          "行为遗传",
+          "形态特征遗传",
+          "生理特征遗传",
+          "环境影响"
+        ],
+        "answer": "形态特征遗传",
+        "explanation": "卷发属于外观形态特征的遗传。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "化石研究",
+        "question": "通过化石研究，我们不能获取的信息是（ ）。",
+        "options": [
+          "古代环境",
+          "物种演化路径",
+          "古生物的生活习性",
+          "古生物的具体寿命"
+        ],
+        "answer": "古生物的具体寿命",
+        "explanation": "化石难以精确反映单个个体的具体存活年限。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "二歧分类法",
+        "question": "如果一个班级有32名学生，采用二歧分类法逐一区分开每一个人，至少需要分支（ ）次。",
+        "options": [],
+        "answer": "5",
+        "explanation": "2的5次方等于32，故至少需要5层分类。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生物多样性",
+        "question": "《生物多样性公约》于（ ）年正式生效。",
+        "options": [],
+        "answer": "1993",
+        "explanation": "这是课本中关于国际保护行动的识记内容。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "研究方法",
+        "question": "科学家通常根据生物身体结构的（ ）特征来对生物进行分类。",
+        "options": [],
+        "answer": "相似性",
+        "explanation": "相似性是生物分类的重要依据。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "进化的动力",
+        "question": "生物正是通过遗传、变异和（ ）机制不断进化的。",
+        "options": [],
+        "answer": "自然选择",
+        "explanation": "这是达尔文进化论的核心要素。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "环境与进化",
+        "question": "长颈鹿的长脖子是（ ）的结果。",
+        "options": [],
+        "answer": "自然选择",
+        "explanation": "只有脖子长的个体能吃到高处叶片并生存下来。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "校园生物调查",
+      "core_concept": "利用样方法和实地搜寻法记录生物多样性。",
+      "key_formula": "调查总和＝直接观察物种＋痕迹寻找物种(如脚印、粪便)。",
+      "common_mistakes": [
+        "只记录动物忽略植物",
+        "不认识的就不记"
+      ],
+      "tips": "要像科学家一样记录时间和地点，对未知生物拍照。"
+    },
+    {
+      "point": "二歧分类法",
+      "core_concept": "基于特征有无将生物不断一分为二。",
+      "key_formula": "n 级分类可辨别 2 的 n 次方个物种。",
+      "common_mistakes": [
+        "分类标准不明确",
+        "同一级使用了多个分类标准"
+      ],
+      "tips": "标准必须是客观的形态特征，如“是否有毛”。"
+    },
+    {
+      "point": "遗传与变异",
+      "core_concept": "亲子代间的“像”与“不像”。",
+      "key_formula": "遗传保持物种稳定，变异推动物种进化。",
+      "common_mistakes": [
+        "认为变异都是有害的",
+        "混淆形态特征与后天习惯"
+      ],
+      "tips": "全世界没有两片完全相同的叶子，这是变异的绝对性。"
+    },
+    {
+      "point": "化石与演化",
+      "core_concept": "化石是留在岩石里的生命历史证据。",
+      "key_formula": "地层年代越久远，其中的生物结构越简单。",
+      "common_mistakes": [
+        "认为化石就是石头本身",
+        "觉得所有生物都能形成化石"
+      ],
+      "tips": "化石可以还原古环境，如高山上的鱼骨化石代表该地曾是海洋。"
+    },
+    {
+      "point": "多样性保护",
+      "core_concept": "生物多样性包括物种、基因和生态系统多样性。",
+      "key_formula": "多样性程度越高，生态系统自我调节能力越强。",
+      "common_mistakes": [
+        "认为某种生物有害（如蚊子）就该灭绝",
+        "认为保护生物只是少吃野味"
+      ],
+      "tips": "建立自然保护区是最核心、最有效的手段。"
+    }
+  ]
+}

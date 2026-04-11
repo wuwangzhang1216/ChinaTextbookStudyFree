@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文三年级下册",
+  "unit": "第三单元：中华传统文化",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第三单元 单元素养评估卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "《元日》这首诗中描述的“屠苏”指的是一种酒。",
+        "options": [],
+        "answer": "对",
+        "explanation": "屠苏即屠苏酒，古代春节时全家饮用，寓意驱邪避瘟。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "中国古代科技发明与历史演变",
+        "question": "在蔡伦改进造纸术之前，西汉时期就已经出现了笨重的麻纸。",
+        "options": [],
+        "answer": "对",
+        "explanation": "西汉时期已经有了麻纸，但由于粗糙且产量低，并不普及。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "重阳节时，人们会通过赛龙舟、挂艾草的方式来庆祝节日。",
+        "options": [],
+        "answer": "错",
+        "explanation": "赛龙舟和挂艾草是端午节的习俗；重阳节的习俗是登高、插茱萸。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "《赵州桥》中“这座桥不但坚固，而且美观”这句话起到了承上启下的作用。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是典型的过渡句，承接上文的坚固，引出下文的美观。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "《一幅名扬中外的画》主要描写了《清明上河图》中各个朝代的服饰变化。",
+        "options": [],
+        "answer": "错",
+        "explanation": "该文主要是描写了北宋京城汴梁热闹的场面，体现其艺术价值。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语中，描写环境“十分热闹”的四字词语是？",
+        "options": [
+          "形态各异",
+          "人山人海",
+          "名扬中外",
+          "学富五车"
+        ],
+        "answer": "人山人海",
+        "explanation": "人山人海形容聚集的人极多，场面非常热闹。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "“独在异乡为异客，每逢佳节倍思亲”描述的是哪个传统节日？",
+        "options": [
+          "中秋节",
+          "春节",
+          "重阳节",
+          "端午节"
+        ],
+        "answer": "重阳节",
+        "explanation": "这是王维《九月九日忆山东兄弟》中的名句，九月九日即重阳节。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "古诗《清明》中，“借问酒家何处有”的下一句是？",
+        "options": [
+          "总把新桃换旧符",
+          "牧童遥指杏花村",
+          "每逢佳节倍思亲",
+          "遍插茱萸少一人"
+        ],
+        "answer": "牧童遥指杏花村",
+        "explanation": "这是杜牧《清明》中的经典诗句。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“清明时节雨纷纷”中，“纷纷”一词生动地写出了？",
+        "options": [
+          "雨下得很大",
+          "雨下得非常急",
+          "雨下得细而绵绵不断",
+          "雨像冰雹一样"
+        ],
+        "answer": "雨下得细而绵绵不断",
+        "explanation": "纷纷形容连续不断的样子，清明的雨多为细密的春雨。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "课文写赵州桥“美观”时，主要是通过描写什么来体现的？",
+        "options": [
+          "桥下的流水",
+          "桥上的石栏板上精美的图案",
+          "桥两岸的风景",
+          "桥的长度和宽度"
+        ],
+        "answer": "桥上的石栏板上精美的图案",
+        "explanation": "文中详细描写了三种姿态的龙的图案，体现了其美观。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国古代科技发明与历史演变",
+        "question": "关于蔡伦改进的造纸术，以下描述最准确的是？",
+        "options": [
+          "原料昂贵，平民买不起",
+          "原料容易得到，造纸成本降低",
+          "这种纸非常笨重",
+          "这种纸无法用来写字"
+        ],
+        "answer": "原料容易得到，造纸成本降低",
+        "explanation": "蔡伦用树皮、麻头、破布等原料，使得造纸术得以普及。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "“这些龙有的刻着两条飞龙，前爪相互抵着，各自回首遥望（ ）有的刻着双龙戏珠（ ）”横线处填哪组标点？",
+        "options": [
+          "， 。",
+          "； ；",
+          "； ，",
+          "： 。"
+        ],
+        "answer": "； ；",
+        "explanation": "文中描写龙的不同形态，使用分号表示并列关系。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语中，没有错别字的一组是？",
+        "options": [
+          "造纸述 伟大",
+          "赵州桥 设计",
+          "经念 经验",
+          "欧州 社会"
+        ],
+        "answer": "赵州桥 设计",
+        "explanation": "A应该是造纸术，C应该是纪念，D应该是欧洲。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阅读理解",
+        "question": "根据课文内容，为什么说《清明上河图》是一幅名扬中外的画？",
+        "options": [
+          "因为画的尺寸特别大",
+          "因为画的主人很有名",
+          "因为它反映了八九百年前北宋都城的市井生活",
+          "因为画的纸张非常珍贵"
+        ],
+        "answer": "因为它反映了八九百年前北宋都城的市井生活",
+        "explanation": "它的历史价值和艺术价值在于真实还原了当时的社会风貌。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式转换正误判断",
+        "question": "将“蔡伦改进了造纸术。”改为“被”字句，正确的是？",
+        "options": [
+          "蔡伦把造纸术改进了。",
+          "造纸术被蔡伦改进了。",
+          "造纸术把蔡伦改进了。",
+          "造纸术被改进了蔡伦。"
+        ],
+        "answer": "造纸术被蔡伦改进了。",
+        "explanation": "被字句格式：受动者+被+施动者+动作。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "“爆竹声中一岁除，春风送暖入（___）。”",
+        "options": [],
+        "answer": "屠苏",
+        "explanation": "出自王安石的《元日》。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国古代科技发明与历史演变",
+        "question": "东汉时期，（___）改进了造纸术，是我国古代四大发明之一。",
+        "options": [],
+        "answer": "蔡伦",
+        "explanation": "蔡伦是造纸术的关键改进者。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "《赵州桥》的作者是隋朝的石匠（___）。",
+        "options": [],
+        "answer": "李春",
+        "explanation": "赵州桥由隋朝石匠李春设计建造。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "请将传统节日与其对应的风俗活动进行连线。",
+        "options": [
+          "春节",
+          "元宵节",
+          "端午节",
+          "中秋节",
+          "赛龙舟",
+          "贴春联",
+          "吃月饼",
+          "看花灯"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "春节贴春联，元宵节看灯，端午赛船，中秋赏月吃饼。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "请将下列古代记录文字的材料与其特点连线。",
+        "options": [
+          "龟甲",
+          "帛",
+          "竹片",
+          "蔡侯纸",
+          "笨重",
+          "刻字难",
+          "轻便省钱",
+          "价钱贵"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "龟甲坚硬刻字难，帛昂贵，竹片笨重，蔡伦改进的纸轻便便宜。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "将下列诗人与诗句对应的节日进行关联。",
+        "options": [
+          "王安石",
+          "杜牧",
+          "王维",
+          "张择端",
+          "清明节",
+          "重阳节",
+          "春节",
+          "《清明上河图》"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "王安石写元日（春节），杜牧写清明，王维写九月九日（重阳），张择端画名画。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "请将词语排成描写赵州桥特点的句子。",
+        "options": [
+          "赵州桥",
+          "是我国",
+          "宝贵的",
+          "文化遗产",
+          "历史"
+        ],
+        "answer": "赵州桥,是我国,历史,宝贵的,文化遗产",
+        "explanation": "按课文原句顺序：赵州桥是我国历史宝贵的文化遗产。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "请根据课文逻辑排列蔡伦造纸的过程。",
+        "options": [
+          "把原料",
+          "切断浸在水里",
+          "捣烂成泥",
+          "捞出来晒干",
+          "铺在席子上"
+        ],
+        "answer": "把原料,切断浸在水里,捣烂成泥,铺在席子上,捞出来晒干",
+        "explanation": "造纸过程：切断浸泡、捣烂、铺开、晒干。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "三年级下册第三单元 综合素养模拟评估",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "“清明节”是我国传统的祭祀节日，也是人们亲近自然的节日。",
+        "options": [],
+        "answer": "对",
+        "explanation": "清明节兼具自然与人文内涵，既是节气也是节日。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "《赵州桥》共有四个自然段，第3自然段主要写桥的坚固。",
+        "options": [],
+        "answer": "错",
+        "explanation": "第2自然段写坚固，第3自然段主要写美观。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "中国古代科技发明与历史演变",
+        "question": "造纸术的发明和传播，极大地促进了人类社会的文明进步。",
+        "options": [],
+        "answer": "对",
+        "explanation": "纸的影响力非常深远，是文明传播的重要媒介。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“所有的龙似乎都在游动”中，“似乎”的意思是非常确定。",
+        "options": [],
+        "answer": "错",
+        "explanation": "似乎是好像的意思，表示推测或生动比喻。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "每年的农历八月十五是中秋节，有赏月、吃元宵的习俗。",
+        "options": [],
+        "answer": "错",
+        "explanation": "中秋节吃月饼，吃元宵是元宵节的习俗。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列哪组词语中，读音完全正确的一组是？",
+        "options": [
+          "切断(qiē) 便宜(pián)",
+          "积累(lěi) 鲜见(xiān)",
+          "朝鲜(xiǎn) 洨河(jiāo)",
+          "由于(yóu) 携带(xié)"
+        ],
+        "answer": "由于(yóu) 携带(xié)",
+        "explanation": "A便宜应读pián yi；B鲜见应读xiǎn；C洨河应读xiáo。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "诗句“千门万户曈曈日，总把新桃换旧符”中，“新桃”是指？",
+        "options": [
+          "红色的桃子",
+          "新的桃木符（对联的前身）",
+          "桃树的枝条",
+          "桃花瓣"
+        ],
+        "answer": "新的桃木符（对联的前身）",
+        "explanation": "桃符是古代挂在门上的避邪物，后演变为对联。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "《一幅名扬中外的画》具体描写了哪些画面？",
+        "options": [
+          "桥头、街道、村庄",
+          "皇宫、花园、战场",
+          "农田、森林、大海",
+          "雪山、草原、戈壁"
+        ],
+        "answer": "桥头、街道、村庄",
+        "explanation": "文章主要以张择端的画作为基础，描写了这三个核心场景。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "下面词语填入句子最恰当的是（ ）：我们的祖先（ ）了许多宝贵的文化遗产。",
+        "options": [
+          "创作",
+          "建造",
+          "创举",
+          "创造"
+        ],
+        "answer": "创造",
+        "explanation": "创造通常指从无到有，指代文化遗产的形成。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "“清明时节雨纷纷，路上行人欲断魂”中，“断魂”表达了怎样的心情？",
+        "options": [
+          "极度喜悦",
+          "非常疲劳",
+          "悲哀忧愁",
+          "愤怒生气"
+        ],
+        "answer": "悲哀忧愁",
+        "explanation": "断魂形容伤感、忧郁到了极点。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国古代科技发明与历史演变",
+        "question": "在蔡伦造纸术之前，人们在帛上写字。帛的缺点是？",
+        "options": [
+          "太重了",
+          "价格太贵，不能普及",
+          "容易破碎",
+          "无法长期保存"
+        ],
+        "answer": "价格太贵，不能普及",
+        "explanation": "帛是丝织品，非常昂贵，只有少数贵族能用。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "赵州桥的设计在建桥史上是一个伟大的创举，是因为？",
+        "options": [
+          "桥是用石头做的",
+          "桥很长也要花费很多钱",
+          "大拱肩上有小拱，减轻水力冲击和重量",
+          "桥面上可以跑马车"
+        ],
+        "answer": "大拱肩上有小拱，减轻水力冲击和重量",
+        "explanation": "这种敞肩拱的设计既省料又泄洪，是其核心创举。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阅读理解",
+        "question": "课文描写《清明上河图》中人们形态各异，下列哪项不属于文中的描写？",
+        "options": [
+          "有的骑马，有的挑担",
+          "有的摆小摊，有的推独轮车",
+          "有的坐在教室里读书",
+          "有的悠闲地在街上溜达"
+        ],
+        "answer": "有的坐在教室里读书",
+        "explanation": "文中主要描写的是市井生活，没有描写教室读书。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "找出下列词语中感情色彩不同类的一个？",
+        "options": [
+          "赞扬",
+          "杰出",
+          "精美",
+          "笨重"
+        ],
+        "answer": "笨重",
+        "explanation": "前三个是褒义词，笨重是描述物体特性的中性偏贬义词。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式转换正误判断",
+        "question": "“这么远，箭哪能射得得到呢？”改为陈述句，正确的是？",
+        "options": [
+          "这么远，箭能射得得到。",
+          "这么远，箭不能射得得到。",
+          "这么远，箭怎么射得到呢？",
+          "这么远，箭肯定射得到。"
+        ],
+        "answer": "这么远，箭不能射得得到。",
+        "explanation": "反问句变陈述句，肯变否，去问号。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "农历九月初九是（___）节。",
+        "options": [],
+        "answer": "重阳",
+        "explanation": "九月九日为重阳节。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "《赵州桥》中描写龙的姿态：有的刻着两条（___），前爪相互抵着。",
+        "options": [],
+        "answer": "飞龙",
+        "explanation": "考查课文描写细节的词汇。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国古代科技发明与历史演变",
+        "question": "北宋时期，（___）画了一幅名扬中外的画《清明上河图》。",
+        "options": [],
+        "answer": "张择端",
+        "explanation": "张择端是《清明上河图》的作者。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "请将下列词语与正确的意思连线。",
+        "options": [
+          "创举",
+          "美观",
+          "保存",
+          "悠闲",
+          "保持不坏",
+          "前所未有",
+          "好看漂亮",
+          "自在闲适"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "创举指新创造；美观指形式好看；保存是完整留存；悠闲是闲适。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与古诗内涵",
+        "question": "将下列古诗句与对应的景象描述连线。",
+        "options": [
+          "曈曈日",
+          "雨纷纷",
+          "遍插茱萸",
+          "欲断魂",
+          "非常哀伤",
+          "初升阳光",
+          "雨点细密",
+          "兄弟团聚"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "曈曈指太阳升起的样子；纷纷指细雨；插茱萸是重阳习俗；断魂是极其哀痛。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国古代科技发明与历史演变",
+        "question": "将造纸原料对应的历史朝代及其成果进行连线。",
+        "options": [
+          "龟甲兽骨",
+          "青铜器",
+          "竹片木片",
+          "树皮破布",
+          "东汉纸",
+          "商朝甲骨",
+          "春秋册",
+          "周朝铭文"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "按书写材料的历史发展顺序对应。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "请根据课文内容排序：赵州桥设计非常精巧。",
+        "options": [
+          "既减轻了",
+          "流水的",
+          "冲击力",
+          "节省了",
+          "石料"
+        ],
+        "answer": "既减轻了,流水的,冲击力,节省了,石料",
+        "explanation": "这是课文中描写赵州桥敞肩拱设计优点的句子。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "说明性文章的构段逻辑：围绕一个意思写具体",
+        "question": "排列下面描述《清明上河图》场面热闹的词语。",
+        "options": [
+          "张择端画",
+          "非常多的人",
+          "画了",
+          "形形色色的",
+          "人在做生意"
+        ],
+        "answer": "张择端画,画了,非常多的人,形形色色的,人在做生意",
+        "explanation": "考查学生组织描述性语言的能力。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "传统节日习俗与古诗内涵",
+      "core_concept": "本单元通过《古诗三首》展现了春节、清明、重阳三大节日。春节（元日）重点在“换新”，扫除陈旧迎接光明；清明重在“思归与哀悼”，伴随春雨绵绵的凄清感；重阳重在“登高思亲”，通过插茱萸、登高化解身在异乡的孤独。学习时需体会古诗中的节日符号与情感纽带。",
+      "key_formula": "节日名称 + 标志性习俗（如：清明-祭祖、扫墓、折柳）= 诗词意象",
+      "common_mistakes": [
+        "混淆各节日的特定习俗，如将“插茱萸”记为中秋节习俗。",
+        "诗句填空时容易将“曈曈”或“屠苏”等生僻古词写错。"
+      ],
+      "tips": "可以通过建立“节日历卡”的方法，将时间、诗句、习俗一一对应记忆。"
+    },
+    {
+      "point": "说明性文章的构段逻辑：围绕一个意思写具体",
+      "core_concept": "学习如何围绕“中心意图”展开描写。如《赵州桥》第3自然段先总述“赵州桥非常美观”，接着分别描写石栏上“有的刻着飞龙”、“有的刻着双龙戏珠”、“有的写着吐雾”，这种总-分结构配合具体动作描写，能让抽象的词（如‘美观’）变得形象可见。",
+      "key_formula": "总起句（中心意思）+ 具体细节描述 1, 2, 3 = 生动的段落",
+      "common_mistakes": [
+        "在找中心句时，往往忽略了段落开头的句子。",
+        "在仿写时，虽然有总起句，但后面的分述内容与中心意思无关。"
+      ],
+      "tips": "寻找段落中的“有的……有的……还有的……”句式，这通常是展开细节的信号。"
+    },
+    {
+      "point": "中国古代科技发明与历史演变",
+      "core_concept": "以《纸的发明》为中心，了解书写载体从笨重（龟甲、竹片）到昂贵（帛）再到粗糙（初期麻纸）最后到蔡伦改进后的“平价且好用纸”的演变历程。重点在于理解蔡伦改进工艺的核心：原料易得（树皮、破布等）和降低成本，从而推动文化普及。",
+      "key_formula": "载体演变：笨重/昂贵 -> 改进工艺 -> 轻便/便宜 -> 文明传播",
+      "common_mistakes": [
+        "误认为纸是蔡伦发明的（实际上蔡伦是‘改进’）。",
+        "无法正确排出造纸原料出现的先后顺序。"
+      ],
+      "tips": "可以画一条时间轴，标注出“商朝-周朝-西汉-东汉”对应的书写材料。"
+    }
+  ]
+}

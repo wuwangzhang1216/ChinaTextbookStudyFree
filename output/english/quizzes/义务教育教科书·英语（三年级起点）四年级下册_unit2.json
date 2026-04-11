@@ -1,0 +1,718 @@
+{
+  "textbook": "PEP Primary English Grade 4 Semester 2",
+  "unit": "Unit 2 What time is it?",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2 Standard Unit Test",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "breakfast 的意思是“晚餐”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "breakfast 意为“早餐”，dinner 才是“晚餐”。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "时间表达与询问",
+        "question": "当你想问别人“几点了？”可以说：What time is it?",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是询问时间的标准句型。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "go to school 的意思是“去上学”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "go to school 是常用固定搭配。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "It's time for breakfast. 里的 breakfast 是动词短语。",
+        "options": [],
+        "answer": "错",
+        "explanation": "breakfast 是名词，所以前面用 for。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "o'clock 必须用在点钟（整点）之后。",
+        "options": [],
+        "answer": "对",
+        "explanation": "o'clock 意为“……点钟”，常接在整点数字后。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间表达与询问",
+        "question": "It's seven ____.",
+        "options": [
+          "clock",
+          "o'clock",
+          "clocks",
+          "time"
+        ],
+        "answer": "o'clock",
+        "explanation": "整点表达常用 o'clock。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "It's 9:00 p.m. It's time ____ go to bed.",
+        "options": [
+          "for",
+          "to",
+          "in",
+          "on"
+        ],
+        "answer": "to",
+        "explanation": "go 是动词，It's time to 后接动词原形。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "I have ____ at 7:00 a.m.",
+        "options": [
+          "lunch",
+          "dinner",
+          "breakfast",
+          "supper"
+        ],
+        "answer": "breakfast",
+        "explanation": "早上七点通常是吃早餐的时间。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间表达与询问",
+        "question": "—What time is it? —____",
+        "options": [
+          "It's blue.",
+          "It's 8:00.",
+          "It's a desk.",
+          "It's big."
+        ],
+        "answer": "It's 8:00.",
+        "explanation": "回答时间提问应回复具体数字或时间。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "It's time ____ PE class.",
+        "options": [
+          "to",
+          "for",
+          "at",
+          "with"
+        ],
+        "answer": "for",
+        "explanation": "PE class 是名词短语，需用 It's time for。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "Time ____ go to school.",
+        "options": [
+          "to",
+          "for",
+          "at",
+          "in"
+        ],
+        "answer": "to",
+        "explanation": "Time to + 动词，省去了 It's。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "Let's drink some milk. It's time for ____.",
+        "options": [
+          "English class",
+          "breakfast",
+          "music class",
+          "PE class"
+        ],
+        "answer": "breakfast",
+        "explanation": "喝牛奶通常发生在早餐或晚餐，选项中 breakfast 最合适。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间表达与询问",
+        "question": "School is over. Let's ____.",
+        "options": [
+          "go home",
+          "go to school",
+          "get up",
+          "have breakfast"
+        ],
+        "answer": "go home",
+        "explanation": "放学了（School is over）应该回家。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "Wait! It's time ____ dinner. Just a minute.",
+        "options": [
+          "to",
+          "for",
+          "in",
+          "on"
+        ],
+        "answer": "for",
+        "explanation": "dinner 是名词，表示该吃晚饭了。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "I __ up at 6:30.",
+        "options": [
+          "go",
+          "get",
+          "have",
+          "do"
+        ],
+        "answer": "get",
+        "explanation": "get up 是固定搭配，意为“起床”。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间表达与询问",
+        "question": "What ___ is it? It's 10:00.",
+        "options": [],
+        "answer": "time",
+        "explanation": "提问时间固定词组为 what time。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "It's 12:00. It's time for ___.",
+        "options": [],
+        "answer": "lunch",
+        "explanation": "中午 12 点通常是午餐时间。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "It's 8:00. Let's go to ___.",
+        "options": [],
+        "answer": "school",
+        "explanation": "八点钟通常是上学的时间。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "It's time ___ sing and dance.",
+        "options": [],
+        "answer": "to",
+        "explanation": "sing 是动词，前接 to。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "请将英语短语与对应的中文意思连线。",
+        "options": [
+          "lunch",
+          "English class",
+          "music class",
+          "dinner",
+          "英语课",
+          "晚餐",
+          "午餐",
+          "音乐课"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "lunch-午餐；English class-英语课；music class-音乐课；dinner-晚餐。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "请将英语短语与对应的中文意思连线。",
+        "options": [
+          "get up",
+          "go home",
+          "go to bed",
+          "over",
+          "去上学",
+          "起床",
+          "上床睡觉",
+          "结束"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "注意选项中有 go home/school 的混淆，但此题主要测试起床、回家睡觉和结束的动作。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间表达与询问",
+        "question": "连词成句：is,What,time,it,?",
+        "options": [
+          "is",
+          "What",
+          "time",
+          "it",
+          "?"
+        ],
+        "answer": "What,time,is,it,?",
+        "explanation": "特殊疑问句，What 置于句首。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "连词成句：time,school,It's,for,.",
+        "options": [
+          "time",
+          "school",
+          "It's",
+          "for",
+          "."
+        ],
+        "answer": "It's,time,for,school,.",
+        "explanation": "陈述句，It's time for... 后接名词短语。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 2 Final Term Examination",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "时间表达与询问",
+        "question": "“6点整”可以表达为 six o'clock。",
+        "options": [],
+        "answer": "对",
+        "explanation": "整点用法正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "get up 的意思是“去上学”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "get up 是“起床”。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "It's time for music class. (这里可以说 It's time to music class)",
+        "options": [],
+        "answer": "错",
+        "explanation": "music class 是名词，不能用 to。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "Time to go home. 这是 It's time to go home. 的简写形式。",
+        "options": [],
+        "answer": "对",
+        "explanation": "口语中常省略 IT is。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "English class 之后要加 s 变成复数才正确。",
+        "options": [],
+        "answer": "错",
+        "explanation": "泛指一节英语课时用单数。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间表达与询问",
+        "question": "—____ is it? —It's 10:00.",
+        "options": [
+          "What colour",
+          "What time",
+          "How many",
+          "Who"
+        ],
+        "answer": "What time",
+        "explanation": "根据答句可知是问时间。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "It's 4:00. It's time to ____.",
+        "options": [
+          "PE class",
+          "go home",
+          "dinner",
+          "breakfast"
+        ],
+        "answer": "go home",
+        "explanation": "to 后面接动词短语 go home。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "It's 7:00. It's time for ____.",
+        "options": [
+          "English",
+          "sleep",
+          "sing",
+          "jump"
+        ],
+        "answer": "English",
+        "explanation": "for 后面接名词 English。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间表达与询问",
+        "question": "—What time is it now? —It's nine ____.",
+        "options": [
+          "o'clock",
+          "clock",
+          "hour",
+          "times"
+        ],
+        "answer": "o'clock",
+        "explanation": "表示整点点钟。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "School is over. Let's go to the ____.",
+        "options": [
+          "playground",
+          "bed",
+          "classroom",
+          "desk"
+        ],
+        "answer": "playground",
+        "explanation": "放学后通常可以去操场玩耍。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "It's time ____ breakfast.",
+        "options": [
+          "for",
+          "to",
+          "at",
+          "in"
+        ],
+        "answer": "for",
+        "explanation": "breakfast 是名词。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "Let's ____! It's 6:30. Time for school.",
+        "options": [
+          "hurry up",
+          "go bed",
+          "sleep",
+          "good"
+        ],
+        "answer": "hurry up",
+        "explanation": "hurry up 意为“快点”，符合语境。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "—Is it 5:00 now? —____",
+        "options": [
+          "Yes, it is.",
+          "No, it is.",
+          "Yes, it is not.",
+          "It is 5:00."
+        ],
+        "answer": "Yes, it is.",
+        "explanation": "Is it 开头的一般疑问句，肯定回答用 Yes, it is."
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "It's 7 p.m. It's time ____ dinner.",
+        "options": [
+          "to have",
+          "have",
+          "for have",
+          "to"
+        ],
+        "answer": "to have",
+        "explanation": "It's time to have dinner 相当于 It's time for dinner。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "I ____ at 9:00 p.m.",
+        "options": [
+          "go to bed",
+          "go home",
+          "get up",
+          "have lunch"
+        ],
+        "answer": "go to bed",
+        "explanation": "晚上九点是睡觉时间。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "I go to bed at 9:00 in the ___.",
+        "options": [],
+        "answer": "evening",
+        "explanation": "晚上睡觉，in the evening。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间表达与询问",
+        "question": "___ time is it? It's nine.",
+        "options": [],
+        "answer": "what",
+        "explanation": "特殊疑问词开头小写（按题目规范）。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "It's 8:00. It's time ___ go to school.",
+        "options": [],
+        "answer": "to",
+        "explanation": "go 是动词，用 to。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "I have ___ at 12:00.",
+        "options": [],
+        "answer": "lunch",
+        "explanation": "12点吃午饭。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常活动词汇与短语",
+        "question": "把动作与中文意思匹配。",
+        "options": [
+          "get up",
+          "go to school",
+          "go home",
+          "go to bed",
+          "上学",
+          "回家",
+          "睡觉",
+          "起床"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "A-起床；B-上学；C-回家；D-睡觉。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "词汇理解",
+        "question": "匹配关联词。",
+        "options": [
+          "breakfast",
+          "English",
+          "music",
+          "PE",
+          "操场",
+          "面包",
+          "钢琴",
+          "书本"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "词义联想：早餐-面包；英语-书本；音乐-钢琴；体育-操场。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "It's time for与It's time to句型区分",
+        "question": "连词成句：time,school,It,is,for,.",
+        "options": [
+          "time",
+          "school",
+          "It",
+          "is",
+          "for",
+          "."
+        ],
+        "answer": "It,is,time,for,school,.",
+        "explanation": "It is time for + 名词。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时间表达与询问",
+        "question": "连词成句：o'clock,is,It,eight,.",
+        "options": [
+          "o'clock",
+          "is",
+          "It",
+          "eight",
+          "."
+        ],
+        "answer": "It,is,eight,o'clock,.",
+        "explanation": "It is + 数字 + o'clock."
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "时间询问与表达",
+      "core_concept": "熟练掌握询问时间的句型 What time is it? 和回答句型 It's ... o'clock.",
+      "key_formula": "What time is it? + It's [number] o'clock.",
+      "common_mistakes": [
+        "将 time 拼写成 team",
+        "在非整点后加 o'clock"
+      ],
+      "tips": "o'clock 只用于整点点钟，a.m. 表示上午，p.m. 表示下午。"
+    },
+    {
+      "point": "It's time for 与 It's time to",
+      "core_concept": "区分固定句型中 for 与 to 后接成分的词性。",
+      "key_formula": "It's time for + 名词/名词短语; It's time to + 动词/动词短语",
+      "common_mistakes": [
+        "It's time to breakfast (错误)",
+        "It's time for go to school (错误)"
+      ],
+      "tips": "看空后面第一个单词，动作（动词）选 to，食物或课程（名词）选 for。"
+    },
+    {
+      "point": "日常作息短语",
+      "core_concept": "掌握描述一天生活的核心动词短语。",
+      "key_formula": "get up, go to school, have breakfast/lunch/dinner, go home, go to bed",
+      "common_mistakes": [
+        "go to home (home是副词，前面不加to)",
+        "have a breakfast (餐名前通常不加冠词)"
+      ],
+      "tips": "记住 'go home' 特例，其他上课上学睡觉都要加 to。"
+    }
+  ]
+}

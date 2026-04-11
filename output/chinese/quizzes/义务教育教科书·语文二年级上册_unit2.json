@@ -1,0 +1,745 @@
+{
+  "textbook": "统编版小学语文二年级上册",
+  "unit": "识字",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元识字综合测评（基础巩固）",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "松树的叶子像一把把小扇子。",
+        "options": [],
+        "answer": "错",
+        "explanation": "松树的叶子像针，银杏的叶子才像小扇子。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "雄鹰在高原上空翱翔。",
+        "options": [],
+        "answer": "对",
+        "explanation": "鹰确实生活在高空中，翱翔是它的特点。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "四季农事规律识记",
+        "question": "“秋季里，稻上场”说明秋天是收获的季节。",
+        "options": [],
+        "answer": "对",
+        "explanation": "秋天是农作物成熟收获的季节。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "量词的正确使用",
+        "question": "我们可以说“一支欢笑的人群”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "量词搭配不当，应该是“一群欢笑的人”。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "部首查字法操作流程",
+        "question": "用部首查字法查“狐”字，应该先查“犭”部。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“狐”是左右结构，偏旁部首是犭。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "量词的正确使用",
+        "question": "选出下列量词搭配完全正确的一项：",
+        "options": [
+          "一扇翠竹，一双海鸥",
+          "一竿翠竹，一只海鸥",
+          "一堆翠竹，一头海鸥",
+          "一片翠竹，一艘海鸥"
+        ],
+        "answer": "一竿翠竹，一只海鸥",
+        "explanation": "翠竹常用“竿”或“节”，海鸥用“只”。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "根据课文，“枫树秋天（  ）”，括号里填哪个词？",
+        "options": [
+          "穿绿装",
+          "叶儿红",
+          "披金装",
+          "百草香"
+        ],
+        "answer": "叶儿红",
+        "explanation": "枫树的特点是秋天叶子变红。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "量词的正确使用",
+        "question": "去海边旅行，我看到了一（  ）军舰和一（  ）帆船。",
+        "options": [
+          "只，个",
+          "列，条",
+          "艘，条",
+          "口，座"
+        ],
+        "answer": "艘，条",
+        "explanation": "大型船只用“艘”，小型船只用“条”。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "部首查字法操作流程",
+        "question": "在“部首目录”中，“草字头”应该在几画里找？",
+        "options": [
+          "二画",
+          "三画",
+          "四画",
+          "五画"
+        ],
+        "answer": "三画",
+        "explanation": "草字头（艹）由三笔组成。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季农事规律识记",
+        "question": "“采桑、插秧、蚕桑”这些农事活动通常在哪个季节进行？",
+        "options": [
+          "春季",
+          "夏季",
+          "秋季",
+          "冬季"
+        ],
+        "answer": "夏季",
+        "explanation": "夏季农事忙，这时候要进行采桑和插秧。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "阅读短文：小白兔说：“我是短尾巴。”小松鼠说：“我是大尾巴。”小象说：“我有一根长鼻子。”这段话描写了动物的什么？",
+        "options": [
+          "生活习惯",
+          "外形特征",
+          "捕捉本领",
+          "生活环境"
+        ],
+        "answer": "外形特征",
+        "explanation": "文中提到的尾巴、鼻子都是动物的身体部位，即外形特征。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "部首查字法操作流程",
+        "question": "如果一个字没有明显的部首，我们通常查它的：",
+        "options": [
+          "第一笔",
+          "最后一笔",
+          "中间一笔",
+          "最下面一画"
+        ],
+        "answer": "第一笔",
+        "explanation": "独体字或难检字一般查第一笔。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "“人和动物是朋友”告诉我们要：",
+        "options": [
+          "去森林玩",
+          "保护动物",
+          "在家里喂养",
+          "观察动物"
+        ],
+        "answer": "保护动物",
+        "explanation": "《拍手歌》的主旨是关爱和保护动物。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季农事规律识记",
+        "question": "下列哪个汉字表示农具？",
+        "options": [
+          "棉",
+          "谷",
+          "麦",
+          "犁"
+        ],
+        "answer": "犁",
+        "explanation": "犁是用来翻土的农具。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "“百里香”通常是用来形容：",
+        "options": [
+          "桂花盛开",
+          "稻谷成熟",
+          "杨树高大",
+          "竹子翠绿"
+        ],
+        "answer": "桂花盛开",
+        "explanation": "形容花香浓郁常用“百里香”。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "量词的正确使用",
+        "question": "根据偏旁猜一猜，一（  ）小溪，横线上应该填哪个量词？",
+        "options": [],
+        "answer": "条",
+        "explanation": "溪流长长的，通常用“条”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季农事规律识记",
+        "question": "“春季里，春风（  ）”，横线上应该填哪个两个字的词？",
+        "options": [],
+        "answer": "吹开",
+        "explanation": "出自《田家四季歌》：春季里，春风吹。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "（  ）树木活化石，银杏水杉满园载。",
+        "options": [],
+        "answer": "这种",
+        "explanation": "教材原文：银杏水杉活化石。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "请将树木与其对应的特点连接起来：",
+        "options": [
+          "杨树",
+          "榕树",
+          "梧桐",
+          "木棉",
+          "叶片壮",
+          "高大",
+          "喜暖",
+          "树冠大"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "杨树高，榕树冠，梧桐手掌，木棉喜暖。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "请将动物与其叫声或动作连接起来：",
+        "options": [
+          "猛虎",
+          "雄鹰",
+          "百灵",
+          "黄鹂",
+          "飞翔",
+          "下山",
+          "唱歌",
+          "深林"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "猛虎下山，雄鹰飞翔，黄鹂唱歌，百灵深林。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "部首查字法操作流程",
+        "question": "请将汉字与它们的部首连接起来：",
+        "options": [
+          "葡",
+          "笨",
+          "酸",
+          "忙",
+          "酉",
+          "艹",
+          "忄",
+          "⺮"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "考核常见汉字的部首归属。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "将下列词语排列成一句赞美大自然的话：",
+        "options": [
+          "我们要",
+          "动物",
+          "不仅要",
+          "爱护",
+          "保护",
+          "环境"
+        ],
+        "answer": "我们要,不仅要,保护,环境,爱护,动物",
+        "explanation": "考察递进关系句式的应用。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季农事规律识记",
+        "question": "将下列农事按时间先后顺序排列：",
+        "options": [
+          "播种",
+          "耕地",
+          "收获",
+          "施肥"
+        ],
+        "answer": "耕地,播种,施肥,收获",
+        "explanation": "通常农事是先耕地，再种地，中间施肥，最后收获。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级语文上册第二单元综合检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "锦鸡的羽毛非常漂亮，由于受到惊吓会开屏。",
+        "options": [],
+        "answer": "错",
+        "explanation": "开屏的是孔雀，不是锦鸡。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "部首查字法操作流程",
+        "question": "“深”字按照部首查字法，先查三点水，再查7画。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“深”字除去部首“氵”，右边部分“罙”是8画。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "水杉是活化石。",
+        "options": [],
+        "answer": "对",
+        "explanation": "教材中明确记载水杉是活化石植物。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "四季农事规律识记",
+        "question": "“冬季里，雪飘飞，新制棉衣暖又轻。”写的是农民冬天的生活。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《田家四季歌》描写了冬季农民的情况。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "量词的正确使用",
+        "question": "“一丛大山”这个词语用法正确。",
+        "options": [],
+        "answer": "错",
+        "explanation": "大山应用“座”，灌木、翠竹才用“丛”。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "部首查字法操作流程",
+        "question": "如果要查“旗”字的部首，下列哪项是正确的？",
+        "options": [
+          "方",
+          "其",
+          "方部，总共14画",
+          "⺩"
+        ],
+        "answer": "方部，总共14画",
+        "explanation": "“旗”的部首是“方”，全字总笔画为14画。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "量词的正确使用",
+        "question": "下列量词中，哪一个不适合用来形容“人”？",
+        "options": [
+          "位",
+          "个",
+          "层",
+          "群"
+        ],
+        "answer": "层",
+        "explanation": "“层”用于楼层或层级，不用于人。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "“树木”被称为地球的什么？",
+        "options": [
+          "血液",
+          "肺",
+          "眼睛",
+          "心脏"
+        ],
+        "answer": "肺",
+        "explanation": "森林可以净化空气，常被称为“地球之肺”。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季农事规律识记",
+        "question": "“早起勤耕作，归来（  ）。”句子中括号里应填：",
+        "options": [
+          "披月光",
+          "一身汗",
+          "戴红花",
+          "乐陶陶"
+        ],
+        "answer": "披月光",
+        "explanation": "出自原文，形容辛勤劳作到月亮出来才回家。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "量词的正确使用",
+        "question": "选出量词使用错误的一项：",
+        "options": [
+          "一方鱼塘",
+          "一块稻田",
+          "一座花园",
+          "一把红旗"
+        ],
+        "answer": "一把红旗",
+        "explanation": "红旗通常说“一面红旗”。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "儿歌阅读：公鸡公鸡真美丽，大红冠子花外衣。油亮脖子金黄脚，要比漂亮我第一。这首儿歌主要描写公鸡的哪方面？",
+        "options": [
+          "勤劳性格",
+          "捕食动作",
+          "色彩丰富的外形",
+          "生活环境"
+        ],
+        "answer": "色彩丰富的外形",
+        "explanation": "红冠、花外衣、金黄脚都体现了色彩的美丽。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "古诗《墨梅》中“不要人夸好颜色，只留清气满乾坤”，这种树是指：",
+        "options": [
+          "梅树",
+          "柳树",
+          "松树",
+          "柏树"
+        ],
+        "answer": "梅树",
+        "explanation": "由诗名《墨梅》可知描写的是梅树。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "部首查字法操作流程",
+        "question": "确定一个字的部首后，接下来应该在字典的哪个部分查找？",
+        "options": [
+          "拼音索引",
+          "检字表",
+          "正文最后页",
+          "封面"
+        ],
+        "answer": "检字表",
+        "explanation": "查字典顺序：部首目录 -> 检字表 -> 正文。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季农事规律识记",
+        "question": "秋天到了，田野里到处是收获的景象，我们可以用哪个词形容？",
+        "options": [
+          "春暖花开",
+          "五谷丰登",
+          "冰天雪地",
+          "生机勃勃"
+        ],
+        "answer": "五谷丰登",
+        "explanation": "五谷丰登专门形容粮食丰收。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "部首查字法操作流程",
+        "question": "“园”字查字典，下列说法正确的是：",
+        "options": [
+          "先查元，再查3画",
+          "先查方框，再查4画",
+          "先查方框，再查7画",
+          "先查元，再查7画"
+        ],
+        "answer": "先查方框，再查4画",
+        "explanation": "全包围字查外框，除去部首后内部“元”是4画。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "量词的正确使用",
+        "question": "写出合适的量词：一（  ）石桥。",
+        "options": [],
+        "answer": "座",
+        "explanation": "建筑、大山常用“座”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "什么树叶像手掌？",
+        "options": [],
+        "answer": "梧桐",
+        "explanation": "梧桐树叶形状似掌。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "部首查字法操作流程",
+        "question": "用部首查字法，“装”字查（  ）部。",
+        "options": [],
+        "answer": "衣",
+        "explanation": "“装”是上下结构，部首在下部是“衣”。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季农事规律识记",
+        "question": "将季节与对应农事活动连起来：",
+        "options": [
+          "春",
+          "夏",
+          "秋",
+          "冬",
+          "采桑",
+          "播种",
+          "储藏",
+          "打场"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "春种，夏忙，秋收，冬藏。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "量词的正确使用",
+        "question": "将物品与常用量词连起来：",
+        "options": [
+          "小溪",
+          "圆月",
+          "翠竹",
+          "鲜花",
+          "束",
+          "条",
+          "竿",
+          "轮"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "搭配关系：溪-条，月-轮，竹-竿，花-束。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "动物与生活场所连一连：",
+        "options": [
+          "丛林",
+          "蓝天",
+          "竹林",
+          "池塘",
+          "鸳鸯",
+          "熊猫",
+          "百灵",
+          "雄鹰"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "百灵在丛林，鸳鸯在池塘，雄鹰在天，熊猫在竹林。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同树木与动物的特征认知",
+        "question": "将词语排成描写秋游的句子：",
+        "options": [
+          "红红的",
+          "枫叶",
+          "真像",
+          "手掌",
+          "红红的"
+        ],
+        "answer": "红红的,枫叶,真像,红红的,手掌",
+        "explanation": "描述秋天景物的特征。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "量词的正确使用",
+        "question": "将数量词语排成优美的句子：",
+        "options": [
+          "一只小鸟",
+          "掠过",
+          "平静的",
+          "正飞快地",
+          "水面"
+        ],
+        "answer": "一只小鸟,正飞快地,掠过,平静的,水面",
+        "explanation": "考察主谓宾搭配和量词应用。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "量词的正确使用",
+      "core_concept": "量词是表示人、事物或动作单位的词。在汉语中，量词必须与名词进行恰当的搭配，不仅能体现数量，还能描写出事物的形状特点。如“一（座）山”体现高大，“一（条）河”体现长形。",
+      "key_formula": "数词 + 量词 + 名词",
+      "common_mistakes": [
+        "将“艘”用于小船或将“只”用于大型建筑",
+        "乱用“个”代替所有特定量词"
+      ],
+      "tips": "观察事物的形状，长条用‘条’，大件用‘座’，成对用‘双’。"
+    },
+    {
+      "point": "不同树木与动物的特征认知",
+      "core_concept": "通过对树木外形（如手掌状、针状）和生活习性（如喜暖、耐寒）的观察，以及对动物动作、外貌的识记，培养对大自然的热爱和环保意识。重点掌握文中提到的典型动植物特征。",
+      "key_formula": "抓住关键特征词（如：高、大、红、暖、飞、鸣）进行识别",
+      "common_mistakes": [
+        "混淆银杏叶和松树叶的形状",
+        "不清楚哪些动物是受保护的益鸟"
+      ],
+      "tips": "可以编顺口溜记忆，如：梧桐手掌、枫叶红、水杉银杏活化石。"
+    },
+    {
+      "point": "四季农事规律识记",
+      "core_concept": "了解一年四季循环中农业生产的先后顺序。春天播种、夏天劳作（插秧采桑）、秋天收获（打场）、冬天修整（制棉衣），感知农民劳动的辛苦与汗水。",
+      "key_formula": "春种 -> 夏长 -> 秋收 -> 冬藏",
+      "common_mistakes": [
+        "将秋季的收割提前到春季",
+        "不理解“插秧”和“采桑”发生的具体季节"
+      ],
+      "tips": "联系生活实际，夏天最热的时候是农事最忙的时候。"
+    },
+    {
+      "point": "部首查字法操作流程",
+      "core_concept": "部首查字法是低年级学生必须掌握的工具性技能。步骤包括：提取部首、部首目录查页码、检字表数剩余笔画找字、翻正文。适用于知道字形但不知道读音的情况。",
+      "key_formula": "定部首 -> 找目录 -> 找检字表 -> 翻正文",
+      "common_mistakes": [
+        "数部首笔画不准导致找不到页码",
+        "查检字表时数错除去部首外的笔画数"
+      ],
+      "tips": "遇到合体字通常查偏旁，遇到独体字通常查第一笔。"
+    }
+  ]
+}

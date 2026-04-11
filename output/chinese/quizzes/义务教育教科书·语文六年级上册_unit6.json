@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文六年级上册",
+  "unit": "第六单元：保护环境",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第六单元达标测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "《浪淘沙》（其一）的作者是唐代诗人刘禹锡。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《浪淘沙》（其一）确实是唐代诗人刘禹锡的作品。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "文章的中心句只能出现在文段的开头。",
+        "options": [],
+        "answer": "错",
+        "explanation": "中心句可能在开头（总起），也可能在中间（过渡）或结尾（总结）。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "倡议书的格式与写作",
+        "question": "写倡议书时，署名应该写在日期的下方。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在倡议书右下角，应该是先写署名，再在署名下方写日期。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "“两山排闼送青来”中的“排闼”是指推开门。",
+        "options": [],
+        "answer": "对",
+        "explanation": "排闼意为推门。此处运用拟人手法，写青山富有情意。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "《只有一个地球》一文的结论是我们要精心地保护地球。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文通过介绍地球的渺小和资源的有限，最后得出了保护地球的结论。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "“千里莺啼绿映红，水村山郭酒旗风”描写的是哪个季节？",
+        "options": [
+          "初春",
+          "盛夏",
+          "深秋",
+          "隆冬"
+        ],
+        "answer": "初春",
+        "explanation": "莺啼、绿映红是典型的春季景观。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "下列词语中，加点字读音完全正确的一组是：",
+        "options": [
+          "天涯（yá） 晶莹（yín）",
+          "颠簸（bǒ） 既然（jì）",
+          "璀璨（chàn） 恩赐（cì）",
+          "滥用（luàn） 慷慨（kǎi）"
+        ],
+        "answer": "颠簸（bǒ） 既然（jì）",
+        "explanation": "莹读yíng，璨读càn，滥读làn。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "“地球，这位人类的母亲，这个生命的摇篮，是那样的美丽壮观，和蔼可亲。”这句话运用的修辞手法是：",
+        "options": [
+          "夸张",
+          "拟人",
+          "比喻",
+          "排比"
+        ],
+        "answer": "比喻",
+        "explanation": "把地球比作母亲和摇篮，是典型的比喻。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "“九曲黄河万里沙，浪淘风簸自天涯。”中“簸”的意思是：",
+        "options": [
+          "簸箕",
+          "颠簸、摇荡",
+          "跳跃",
+          "洗刷"
+        ],
+        "answer": "颠簸、摇荡",
+        "explanation": "诗句形容黄河波涛汹涌，泥沙随风浪荡漾。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "在《只有一个地球》中，作者提到\"矿产资源\"是为了说明：",
+        "options": [
+          "地球很美丽",
+          "地球很小",
+          "自然资源有限",
+          "人类非常聪明"
+        ],
+        "answer": "自然资源有限",
+        "explanation": "矿产资源属于不可再生资源，用以论证资源有限性。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "倡议书的格式与写作",
+        "question": "写倡议书的第一行居中应该写：",
+        "options": [
+          "建议",
+          "标题",
+          "称呼",
+          "署名"
+        ],
+        "answer": "标题",
+        "explanation": "倡议书格式第一行应为标题。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "“南朝四百八十寺，多少楼台烟雨中。”中“四百八十”的意思是：",
+        "options": [
+          "恰好480座",
+          "很少的意思",
+          "虚指，形容多",
+          "指的是寺庙高度"
+        ],
+        "answer": "虚指，形容多",
+        "explanation": "这是古代诗歌常用的夸张或虚指手法。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "阅读语段：“我们要精心地保护地球，保护地球的生态环境。让地球更好地造福于我们的后代吧！”这段话的情感基调是：",
+        "options": [
+          "悲哀期待",
+          "愤怒斥责",
+          "呼唤号召",
+          "平铺直叙"
+        ],
+        "answer": "呼唤号召",
+        "explanation": "通过“我们要...让...吧”表达了强烈的号召性。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "下列古诗词名句中，描写“绿意”最浓的一项是：",
+        "options": [
+          "浪淘风簸自天涯",
+          "两山排闼送青来",
+          "多少楼台烟雨中",
+          "如今直上银河去"
+        ],
+        "answer": "两山排闼送青来",
+        "explanation": "“送青来”直观表现出了满山的绿意。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "下列关于“珍惜资源”的标语，最恰当的一项是：",
+        "options": [
+          "与其修饰面容，不如重修心田。",
+          "但存方寸地，留与子孙耕。",
+          "诚实是人生最珍贵的财富。",
+          "书山有路勤为径。"
+        ],
+        "answer": "但存方寸地，留与子孙耕。",
+        "explanation": "这句标语强调了保护土地资源服务后代，契合环保主题。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "《书湖阴先生壁》中，运用了拟人手法的诗句是“一水护田将绿绕，（______）排闼送青来。”",
+        "options": [],
+        "answer": "两山",
+        "explanation": "根据课文内容，“两山”与“一水”相对。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "刘禹锡在《浪淘沙》中借“同到牵牛织女家”表达了对（______）生活的向往。",
+        "options": [],
+        "answer": "美好",
+        "explanation": "诗人借此表达了对宁静、美好生活图景的追求。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "《只有一个地球》采用了（______）的结构，先说明现状，最后发出呼吁。",
+        "options": [],
+        "answer": "总分总",
+        "explanation": "文章典型的逻辑结构是总领、分述、总结。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "请将下列诗句与所描写的自然景色对应连线。",
+        "options": [
+          "千里莺啼绿映红",
+          "九曲黄河万里沙",
+          "茅檐长扫净无苔",
+          "两山排闼送青来",
+          "江南繁花",
+          "黄河气势",
+          "庭院洁净",
+          "山林春色"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "A对应江南美景，B对应黄河，C对应庭院，D对应山色。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "请为下列事物选择恰当的打比方说法。",
+        "options": [
+          "地球",
+          "森林",
+          "湿地",
+          "大气层",
+          "地球的肺",
+          "人类的母亲",
+          "天然护罩",
+          "地球的肾"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "地球是母亲，森林光合作用是肺，湿地过滤是肾，大气层是护罩。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "倡议书的格式与写作",
+        "question": "请将倡议书的各部分与其内容对应连线。",
+        "options": [
+          "称呼",
+          "正文",
+          "署名",
+          "日期",
+          "倡议的对象",
+          "具体建议",
+          "倡议者名字",
+          "写书的时间"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "这是标准的倡议书格式对应关系。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "将下列词语排列成一句保护环境的口号。",
+        "options": [
+          "保护",
+          "环境",
+          "人人有责",
+          "就是",
+          "保护自己"
+        ],
+        "answer": "保护,环境,就是,保护自己,人人有责",
+        "explanation": "这是符合逻辑且通顺的环保宣传语。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "根据《只有一个地球》的内容，排列句子的逻辑关系。",
+        "options": [
+          "因此",
+          "我们要",
+          "精心",
+          "保护",
+          "地球"
+        ],
+        "answer": "因此,我们要,精心,保护,地球",
+        "explanation": "这是全文的结论句，逻辑连贯。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级上册第六单元综合水平测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "《江南春》是一首描写我国北方春天景色的诗。",
+        "options": [],
+        "answer": "错",
+        "explanation": "《江南春》如题所示，描写的是江南水乡的春天。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "“三黑”是《三黑和土地》这篇课文中一个热爱土地的农民形象。",
+        "options": [],
+        "answer": "对",
+        "explanation": "三黑是诗歌中的主要人物，通过他的劳动表现了对土地的热爱。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "如果没有了地球，人类可以先移民到火星居住。",
+        "options": [],
+        "answer": "错",
+        "explanation": "课文明确指出，目前人类还无法移居到其他星球。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "倡议书的格式与写作",
+        "question": "倡议书的正文部分必须写清楚倡议的内容和具体的建议。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是倡议书最核心的部分，必须详细明确。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "“水村山郭酒旗风”中，“山郭”指的是山上的凉亭。",
+        "options": [],
+        "answer": "错",
+        "explanation": "山郭是指山城、依山的城镇。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "选出下列词语中字形完全正确的一组：",
+        "options": [
+          "和楷 资源",
+          "慷慨 贡献",
+          "目睹 地坏",
+          "节治 地球"
+        ],
+        "answer": "慷慨 贡献",
+        "explanation": "项应该是“和睦、和谐”，C项是“地球”，D项是“节制”。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "“一水护田将绿绕”中，“绕”字写出了水的什么动态？",
+        "options": [
+          "汹涌澎湃",
+          "温柔环抱",
+          "急速流过",
+          "停滞不前"
+        ],
+        "answer": "温柔环抱",
+        "explanation": "“护”和“绕”运用拟人，体现了水的灵动与温情。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "“如果不加节制地开采，地球上的矿产资源就会枯竭。”这句话中“枯竭”的意思是：",
+        "options": [
+          "形容水变臭了",
+          "干涸、断绝",
+          "变得很稀少",
+          "被深埋地下"
+        ],
+        "answer": "干涸、断绝",
+        "explanation": "在文境中指资源被用光，无法再提供。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "倡议书的格式与写作",
+        "question": "针对“校园内乱扔纸屑”现象，倡议书中最不适合出现的措辞是：",
+        "options": [
+          "建议设立环保红领巾岗",
+          "严禁所有同学带零食",
+          "弯弯腰捡起一片纸",
+          "共同维护校园卫生"
+        ],
+        "answer": "严禁所有同学带零食",
+        "explanation": "倡议书以劝说建议为主，全面禁止带零食与扔纸屑无直接必然因果且语气生硬。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "《只有一个地球》告诉我们的观点是：",
+        "options": [
+          "我们可以寻找新的星球",
+          "科学技术是万能的",
+          "必须精心保护地球",
+          "资源可以不断再生"
+        ],
+        "answer": "必须精心保护地球",
+        "explanation": "这是文章的核心落脚点。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "“如今直上银河去，同到牵牛织女家。”描述的是哪条河流？",
+        "options": [
+          "长江",
+          "黄河",
+          "珠江",
+          "淮河"
+        ],
+        "answer": "黄河",
+        "explanation": "出自刘禹锡的《浪淘沙》，描写的是黄河。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "“地球在群星璀璨的宇宙中就像一叶扁舟。”这句话强调了地球的：",
+        "options": [
+          "美丽",
+          "坚固",
+          "渺小",
+          "危险"
+        ],
+        "answer": "渺小",
+        "explanation": "用扁舟在宇宙中航行比喻地球的微小和脆弱。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "倡议书的格式与写作",
+        "question": "在写《节约用水倡议书》时，哪项不是合理的具体措施？",
+        "options": [
+          "随手关紧水龙头",
+          "淘米水浇花",
+          "口渴了不喝水",
+          "提倡盆浴改淋浴"
+        ],
+        "answer": "口渴了不喝水",
+        "explanation": "节约用水是在不影响基本生存需要的前提下科学用水。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "《书湖阴先生壁》中，诗人是通过什么来间接描写湖阴先生的勤劳？",
+        "options": [
+          "家里的藏书",
+          "邻居的夸奖",
+          "院落的整洁",
+          "先生的衣着"
+        ],
+        "answer": "院落的整洁",
+        "explanation": "“净无苔”说明主人经常打扫，为人勤勉、脱俗。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "下列哪句话最能表达《青山不老》的主旨？",
+        "options": [
+          "老人住在山沟里。",
+          "他创造了绿洲。",
+          "青山是不会老的。",
+          "老人有很多财富。"
+        ],
+        "answer": "青山是不会老的。",
+        "explanation": "“青山不老”象征了老人植树造林的精神永垂不朽。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "《只有一个地球》呼吁人类不要指望在破坏了地球后再（______）到其他星球。",
+        "options": [],
+        "answer": "移居",
+        "explanation": "原文重点强调了“移居”的不可能性。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "《江南春》中写寺庙之多，用了一个具体的数字是（______）。",
+        "options": [],
+        "answer": "四百八十",
+        "explanation": "出自诗句“南朝四百八十寺”。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "倡议书的格式与写作",
+        "question": "倡议书最后一般会写上表达心愿的句子，比如“让我们（______）起来”。",
+        "options": [],
+        "answer": "行动",
+        "explanation": "号召大家行动起来是倡议书常见的结尾。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "请将生字与正确的拼音连线。",
+        "options": [
+          "粼",
+          "蔼",
+          "资",
+          "慷",
+          "ǎi",
+          "lín",
+          "kāng",
+          "zī"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考察本单元重点生字的读音。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗词中的自然意境",
+        "question": "请将古诗名句与其描写的地点对应。",
+        "options": [
+          "四百八十寺",
+          "万里沙",
+          "花木成畦",
+          "酒旗风",
+          "黄河",
+          "江南",
+          "山郭",
+          "庭院"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "寺庙属江南，黄河多泥沙，山郭随风，成畦在庭院。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "请根据课文内容连接对应的结论。",
+        "options": [
+          "地球渺小",
+          "资源有限",
+          "无法移居",
+          "保护环境",
+          "不能乱挖",
+          "心存敬畏",
+          "这是唯一",
+          "子孙后代"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "渺小应敬畏，有限不能挖，唯一即移居，环保为子孙。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "倡议书的格式与写作",
+        "question": "排出一句倡议书中的常用提示语。",
+        "options": [
+          "让我们",
+          "保护",
+          "携起手来",
+          "共同",
+          "大自然"
+        ],
+        "answer": "让我们,携起手来,共同,保护,大自然",
+        "explanation": "这是标准的倡议书结语式表达。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "关键句的提取与观点把握",
+        "question": "根据课文内容将说明地球处境的词语连成句子。",
+        "options": [
+          "地球",
+          "面对的",
+          "是",
+          "资源枯竭",
+          "的威胁"
+        ],
+        "answer": "地球,面对的,是,资源枯竭,的威胁",
+        "explanation": "准确反映了《只有一个地球》的课文核心内容。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "关键句的提取与观点把握",
+      "core_concept": "阅读写景或说明性文章时，要重点关注文章的开头、结尾以及段落的起首句。这些地方往往隐藏着作者的观点或全篇的中心。通过合并各部分的中心意思，就能准确把握作者想要传达的核心价值。在《只有一个地球》中，结论正是在层层论述后在文末点明。",
+      "key_formula": "找中心句 = 首句（总起）+ 尾句（总结）+ 过渡句（承上启下）",
+      "common_mistakes": [
+        "将文中的生动描写误认为是核心观点。",
+        "提取关键句时只摘录一半，导致意思不完整。"
+      ],
+      "tips": "朗读时遇到作者发出的感叹或号召，通常就是关键句所在。"
+    },
+    {
+      "point": "倡议书的格式与写作",
+      "core_concept": "倡议书是为倡导某项举措而写的应用文。其格式严谨：标题居中；称呼顶格；正文另起一行空两格，需写清倡议背景、具体措施；结尾常用号召性语句；最后在右下角分两行写出署名和日期。",
+      "key_formula": "倡议书 = 标题 + 称呼 + 背景建议 + 号召结语 + 署名日期",
+      "common_mistakes": [
+        "署名和日期的位置写反，或者未右对齐。",
+        "称呼后面漏掉冒号。"
+      ],
+      "tips": "记口诀：标题中间站，称呼顶格看，正文空两格，署名日期右下方。"
+    },
+    {
+      "point": "古诗词中的自然意境",
+      "core_concept": "通过品味诗中的动词（如“绕”、“送”、“排”）来感受古人的拟人化表达。本单元古诗多采用动静结合的手法，如《江南春》中流动的风、飞莺与静止的寺庙。理解诗人的情感，要从景物色彩中体会其对自然的热爱。",
+      "key_formula": "悟意境 = 辨景物（意象） + 品动词（拟人/夸张） + 联情感",
+      "common_mistakes": [
+        "对诗中虚指数字（如四百八十、九曲）进行生硬的字面理解。",
+        "混淆不同诗人的写作风格和地域特色。"
+      ],
+      "tips": "脑海中把古诗词转变为一幅彩色画卷，能更好理解其意境。"
+    }
+  ]
+}

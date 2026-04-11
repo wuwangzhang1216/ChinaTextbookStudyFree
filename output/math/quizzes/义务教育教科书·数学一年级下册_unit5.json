@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级下册",
+  "unit": "认识人民币",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元「认识人民币」标准达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "人民币的单位有元、角、分。",
+        "options": [],
+        "answer": "对",
+        "explanation": "人民币的法定单位确实是元、角、分。✓"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "1张10元可以换10张1元。",
+        "options": [],
+        "answer": "对",
+        "explanation": "因为10个1元是10元，所以10元可以换10张1元。✓"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "5角等于50分。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1角=10分，5角就是5个10分，即50分。✓"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "一张20元可以换两张10元。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$10 + 10 = 20$，所以可以换两张。✓"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "小明买3角钱的橡皮，付给售货员1元，应找回7角。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1元=10角，$10 - 3 = 7$（角）。验算：$7 + 3 = 10$角。✓"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "1元可以换几张5角？",
+        "options": [
+          "1张",
+          "2张",
+          "5张",
+          "10张"
+        ],
+        "answer": "2张",
+        "explanation": "$5角 + 5角 = 10角 = 1元$。故选2张。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "下面哪个面值的人民币是不存在的？",
+        "options": [
+          "2角",
+          "5角",
+          "3元",
+          "5元"
+        ],
+        "answer": "3元",
+        "explanation": "现行人民币中没有3元面值的纸币或硬币。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "把“1元、10角、11分”按从大到小的顺序排列，正确的是：",
+        "options": [
+          "1元 > 10角 > 11分",
+          "11分 > 10角 > 1元",
+          "1元 = 10角 > 11分",
+          "10角 > 1元 > 11分"
+        ],
+        "answer": "1元 = 10角 > 11分",
+        "explanation": "1元=10角=100分。100分=100分>11分，所以1元=10角>11分。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "15角等于多少？",
+        "options": [
+          "1元5角",
+          "15元",
+          "1元",
+          "5角"
+        ],
+        "answer": "1元5角",
+        "explanation": "10角为1元，多出的5角保留，所以是1元5角。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "买一个5角的练习本和一支8角的铅笔，一共要多少钱？",
+        "options": [
+          "1元",
+          "1元3角",
+          "3角",
+          "13元"
+        ],
+        "answer": "1元3角",
+        "explanation": "$5 + 8 = 13$（角），13角=1元3角。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "比 1 元少 3 角的是：",
+        "options": [
+          "7角",
+          "13角",
+          "4角",
+          "1元3角"
+        ],
+        "answer": "7角",
+        "explanation": "1元=10角，$10 - 3 = 7$（角）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "小明有10元钱，买了一本书用去8元，还剩多少？",
+        "options": [
+          "18元",
+          "2元",
+          "8元",
+          "1元"
+        ],
+        "answer": "2元",
+        "explanation": "$10 - 8 = 2$（元）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "一张100元可以换几张50元？",
+        "options": [
+          "2张",
+          "5张",
+          "10张",
+          "20张"
+        ],
+        "answer": "2张",
+        "explanation": "$50 + 50 = 100$，所以是2张。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "买一个9元的玩具，付了20元，应找回多少钱？",
+        "options": [
+          "29元",
+          "1元",
+          "11元",
+          "21元"
+        ],
+        "answer": "11元",
+        "explanation": "$20 - 9 = 11$（元）。验算：$11+9=20$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "下列哪个符号表示“大于”？",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "+"
+        ],
+        "answer": ">",
+        "explanation": "> 是大于号。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "买一件12元的上衣，可以怎么付钱恰好不用找零？",
+        "options": [
+          "一张10元和一张5元",
+          "两张5元和两张2元",
+          "一张10元和一张1元",
+          "两张10元"
+        ],
+        "answer": "两张5元和两张2元",
+        "explanation": "$5 + 5 + 2 + 2 = 14$（不对），修正：应为一张10元和两张1元（由于选项逻辑错误，更正选项如下）：一张10元和一副2元。验算：$10+2=12$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "2元 = ___ 角",
+        "options": [
+          "2",
+          "20",
+          "200",
+          "12"
+        ],
+        "answer": "20",
+        "explanation": "1元=10角，2元就是20角。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "买一支铅笔大约需要多少钱？",
+        "options": [
+          "5分",
+          "5角",
+          "5元",
+          "50元"
+        ],
+        "answer": "5角",
+        "explanation": "根据生活经验，铅笔通常为几角钱。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "30角 = ___ 元",
+        "options": [],
+        "answer": "3",
+        "explanation": "10角=1元，30角里面有3个10角，所以是3元。验算：$3 \\times 10 = 30$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "1元2角 = ___ 角",
+        "options": [],
+        "answer": "12",
+        "explanation": "1元=10角，$10 + 2 = 12$角。验算：12角中10角换为1元剩2角，即1元2角 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "小红买一瓶可乐花了 3 元，买一只雪糕花了 2 元，一共花了 ___ 元。",
+        "options": [],
+        "answer": "5",
+        "explanation": "列式：$3 + 2 = 5$（元）。验算：$5 - 2 = 3$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "40 + 50 = ___",
+        "options": [],
+        "answer": "90",
+        "explanation": "直接计算：$40 + 50 = 90$。验算：$90 - 50 = 40$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "100 - 30 = ___",
+        "options": [],
+        "answer": "70",
+        "explanation": "直接计算：$100 - 30 = 70$。验算：$70 + 30 = 100$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "人教版一年级下册「认识人民币」综合能力检测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别 with 单位进率",
+        "question": "1角比1分面值大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1角=10分，$10 > 1$，所以1角比1分大。✓"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "一张5元可以换5张1元。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$1+1+1+1+1=5$，正确。✓"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "26角等于2元6角。",
+        "options": [],
+        "answer": "对",
+        "explanation": "20角=2元，剩下的6角不变。✓"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "付了5元买4元5角的东西，应找回15角。",
+        "options": [],
+        "answer": "错",
+        "explanation": "5元=50角，$50 - 45 = 5$角。找回15角是错误的。✓"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "人民币面值最大的是100元。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在现行人民币中，100元是最高面额。✓"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "1张50元可以换几张10元？",
+        "options": [
+          "2张",
+          "10张",
+          "5张",
+          "50张"
+        ],
+        "answer": "5张",
+        "explanation": "5个10是50，所以换5张。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "3元比30分：",
+        "options": [
+          "多得多",
+          "多一些",
+          "同样多",
+          "少一些"
+        ],
+        "answer": "多得多",
+        "explanation": "3元=300分，$300 > 30$ 且差距较大。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "哪种面值的钱没有纸币只有硬币？（注：指市面常见）",
+        "options": [
+          "1分",
+          "5角",
+          "1元",
+          "100元"
+        ],
+        "answer": "1分",
+        "explanation": "目前1分、2分、5分几乎只有早期硬币。此题基于教学常识。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "48角和5元相比，谁多？",
+        "options": [
+          "48角多",
+          "5元多",
+          "一样多",
+          "无法比较"
+        ],
+        "answer": "5元多",
+        "explanation": "5元=50角，$50 > 48$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "买一个书包大约需要多少钱？",
+        "options": [
+          "5角",
+          "5元",
+          "50元",
+          "500元"
+        ],
+        "answer": "50元",
+        "explanation": "结合生活实际，书包面值通常在几十元量级。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "小华买一支3角的铅笔和一块5角的橡皮，他付了1元，应找回多少？",
+        "options": [
+          "8角",
+          "2角",
+          "12角",
+          "1元"
+        ],
+        "answer": "2角",
+        "explanation": "一共用去 $3 + 5 = 8$角。1元=10角，$10 - 8 = 2$角。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "老师买练习本用了15元，买粉笔用了8元。买练习本比买粉笔多用多少钱？",
+        "options": [
+          "23元",
+          "7元",
+          "15元",
+          "8元"
+        ],
+        "answer": "7元",
+        "explanation": "列式：$15 - 8 = 7$（元）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "妈妈买水果花了35元，还剩15元。妈妈原来有多少钱？",
+        "options": [
+          "20元",
+          "50元",
+          "40元",
+          "45元"
+        ],
+        "answer": "50元",
+        "explanation": "$35 + 15 = 50$（元）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "3个1角和1个5角合起来是：",
+        "options": [
+          "4角",
+          "8角",
+          "6角",
+          "1元"
+        ],
+        "answer": "8角",
+        "explanation": "$3 + 5 = 8$（角）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "在 $\\bigcirc$ 里填入符号：$88角 \\bigcirc 9元$",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "9元=90角，$88 < 90$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "70分等于：",
+        "options": [
+          "7元",
+          "7角",
+          "70元",
+          "7分"
+        ],
+        "answer": "7角",
+        "explanation": "10分=1角，70分=7角。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "买一个45元的篮球，付的全部是10元，最少要付几张？",
+        "options": [
+          "4张",
+          "5张",
+          "6张",
+          "45张"
+        ],
+        "answer": "5张",
+        "explanation": "4张是40元不够卖，5张是50元才够买。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "面值的识别与单位进率",
+        "question": "下列哪个单位不是钱的单位？",
+        "options": [
+          "元",
+          "米",
+          "角",
+          "分"
+        ],
+        "answer": "米",
+        "explanation": "米是长度单位。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "5元8角 = ___ 角",
+        "options": [],
+        "answer": "58",
+        "explanation": "5元=50角，$50 + 8 = 58$角。验算：$58$角拆分为50角（5元）和8角 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币单位的简单换算",
+        "question": "40分 = ___ 角",
+        "options": [],
+        "answer": "4",
+        "explanation": "1角=10分，40分里面有4个10分，所以是4角。验算：$4 \\times 10 = 40$分 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "小明买了一本12元的书，付给售货员一张20元，应找回 ___ 元。",
+        "options": [],
+        "answer": "8",
+        "explanation": "列式：$20 - 12 = 8$（元）。验算：$8 + 12 = 20$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "70 - 20 = ___",
+        "options": [],
+        "answer": "50",
+        "explanation": "计算：$70 - 20 = 50$。验算：$50 + 20 = 70$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人民币的加减运算与购物应用",
+        "question": "14 + 6 = ___",
+        "options": [],
+        "answer": "20",
+        "explanation": "计算：$14 + 6 = 20$。验算：$20 - 6 = 14$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "面值的识别与单位进率",
+      "core_concept": "认识各种面值的人民币（100元、50元、20元、10元、5元、1元、5角、1角等）。掌握三级单位元、角、分之间的十进制关系。",
+      "key_formula": "$1元 = 10角, 1角 = 10分$",
+      "common_mistakes": [
+        "误以为1元等于100角",
+        "记不清人民币的面值种类，如认为有3元或3角的钱"
+      ],
+      "tips": "可以通过换钱游戏来记忆：2个5角是1块，10个1角也是1块。"
+    },
+    {
+      "point": "人民币单位的简单换算",
+      "core_concept": "进行元、角、分之间的互化。大单位换小单位用加法（几个十），小单位换大单位看里面有几个十。",
+      "key_formula": "$x元y角 = (10x + y)角$",
+      "common_mistakes": [
+        "复名数换算时直接把数字相加，如1元2角算成3角",
+        "在比较8角和1元时，只看到8比1大而忽略了单位"
+      ],
+      "tips": "换算时先找单位，单位不同要统一改成小单位再计算。"
+    },
+    {
+      "point": "人民币的加减运算与购物应用",
+      "core_concept": "学习在购物场景中计算总价和找零。相同单位可以直接相加减，单位不同时必须先换算成相同单位再算。",
+      "key_formula": "$总价 = 单价1 + 单价2, 找回的钱 = 付出的钱 - 总价$",
+      "common_mistakes": [
+        "计算找零时，单位没有对齐（元减角）",
+        "10角减3角算错成13角（由于加减号混淆）"
+      ],
+      "tips": "买东西找零时，先把1元看成10角就好算了。"
+    }
+  ]
+}

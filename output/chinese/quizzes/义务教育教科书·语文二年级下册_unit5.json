@@ -1,0 +1,736 @@
+{
+  "textbook": "统编版小学语文二年级下册",
+  "unit": "办法与道理",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元基础过关测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "生字读音",
+        "question": "“揠苗助长”中的“揠”读作 yà。",
+        "options": [],
+        "answer": "对",
+        "explanation": "揠（yà）的意思是拔，引申为揠苗助长。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词语释义",
+        "question": "“亡羊补牢”中的“亡”是指死亡的意思。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“亡”在这里是丢失的意思。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "课文理解",
+        "question": "《画杨桃》告诉我们，看到什么样就画成什么样。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文教导我们要实事求是，尊重客观事实。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "生字结构",
+        "question": "“筋”字是上下结构，部首是“竹”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "筋字上方是竹字头，下方是筋骨的筋。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "寓言内涵",
+        "question": "小马过河的故事告诉我们，别人的经验一点用也没有。",
+        "options": [],
+        "answer": "错",
+        "explanation": "别人的经验可以参考，但最重要的是自己亲自尝试。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字",
+        "question": "下列词语中，加点字“倒”的读音与其他三项不同的是：",
+        "options": [
+          "打倒",
+          "倒影",
+          "倒退",
+          "倒车"
+        ],
+        "answer": "打倒",
+        "explanation": "打倒的“倒”读 dǎo，其他三项读 dào。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词",
+        "question": "“老马亲切地对小马说……”句中“亲切”可以用哪个词替换？",
+        "options": [
+          "热烈",
+          "温和",
+          "冷淡",
+          "急忙"
+        ],
+        "answer": "温和",
+        "explanation": "亲切形容态度和蔼，温和最为接近。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗理解",
+        "question": "“唯德学，唯才艺，不如人，当自砺”告诉我们应该：",
+        "options": [
+          "比谁的衣服漂亮",
+          "比谁的个子高",
+          "在品德和学问上努力",
+          "每天只想玩游戏"
+        ],
+        "answer": "在品德和学问上努力",
+        "explanation": "这是《弟子规》内容，强调德才学艺的修养。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "短文阅读",
+        "question": "他回到家里，一边喘气一边说：“今天可把我累坏了！力气总算没白费，禾苗都长高了一大截。” 此时他的心态是：",
+        "options": [
+          "非常伤心",
+          "十分得意",
+          "感到后悔",
+          "特别害怕"
+        ],
+        "answer": "十分得意",
+        "explanation": "根据“力气总算没白费”和语气可知他认为自己办了好事，很自得。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号",
+        "question": "选择标点符号完全正确的一项：小马（ ）能不能帮妈妈做点事呢（ ）",
+        "options": [
+          "！ ？",
+          "， 呢",
+          "， ？",
+          "。 。"
+        ],
+        "answer": "， ？",
+        "explanation": "称呼语后用逗号，疑问句末尾用问号。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语辨析",
+        "question": "他（ ）地坐在座位上，一动也不动。",
+        "options": [
+          "自言自语",
+          "飞快",
+          "静静",
+          "大声"
+        ],
+        "answer": "静静",
+        "explanation": "“一动也不动”对应“静静”。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "反义词",
+        "question": "“马棚里住着一匹老马。”中“老”的反义词是：",
+        "options": [
+          "旧",
+          "少",
+          "幼",
+          "小"
+        ],
+        "answer": "小",
+        "explanation": "在动物年龄语境下，老对应小或幼，通常课文中老马对小马。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语结构",
+        "question": "下列词语属于“形容心情”的一项是：",
+        "options": [
+          "寻找",
+          "兴致勃勃",
+          "道路",
+          "杨桃"
+        ],
+        "answer": "兴致勃勃",
+        "explanation": "兴致勃勃描写兴趣很浓，属于心情/神态范畴。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "寓言道理",
+        "question": "《亡羊补牢》这个成语告诉我们：",
+        "options": [
+          "羊丢了就不要了",
+          "犯了错及时补救不晚",
+          "要把羊圈盖得最高",
+          "邻居的话不能听"
+        ],
+        "answer": "犯了错及时补救不晚",
+        "explanation": "寓意在于出问题后及时补救，避免更大损失。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞手法",
+        "question": "“杨桃难道不像五角星吗？”这句话的意思是：",
+        "options": [
+          "杨桃很像五角星",
+          "杨桃不像五角星",
+          "我不认识五角星",
+          "杨桃就是五角星"
+        ],
+        "answer": "杨桃很像五角星",
+        "explanation": "反问句表示肯定的强调。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "看拼音写词语",
+        "question": "这个办法（tú láo）无功，真是可惜。",
+        "options": [],
+        "answer": "徒劳",
+        "explanation": "拼音对应的词语是“徒劳”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "课文填空",
+        "question": "冠必正，纽必结。（___）与履，俱紧切。",
+        "options": [],
+        "answer": "袜",
+        "explanation": "出自《弟子规》，对应内容为“袜”。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "部首查字法",
+        "question": "“愿”字的部首是（___）。",
+        "options": [],
+        "answer": "心",
+        "explanation": "愿是半包围结构，心字底。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物动作匹配",
+        "question": "请将动物与其在《小马过河》里的动作/特征连线。",
+        "options": [
+          "老马",
+          "小马",
+          "老牛",
+          "松鼠",
+          "说水浅",
+          "说水深",
+          "爱动脑",
+          "去磨坊"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "老马教导思考，小马去磨坊，老牛说浅，松鼠说深。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "成语搭配",
+        "question": "请将身体部位与合适的动作连线。",
+        "options": [
+          "眼睛",
+          "耳朵",
+          "双腿",
+          "嘴巴",
+          "听讲",
+          "飞奔",
+          "说话",
+          "注视"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "常规器官功能配对。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语分类",
+        "question": "请将近义词进行配对。",
+        "options": [
+          "焦急",
+          "立刻",
+          "审视",
+          "教诲",
+          "打量",
+          "急切",
+          "马上",
+          "教导"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "考察本课核心词语的近义词。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "连词成句",
+        "question": "请将下列词语排成通顺的句子。",
+        "options": [
+          "小马",
+          "驮着",
+          "口袋",
+          "半袋",
+          "麦子"
+        ],
+        "answer": "小马,驮着,半袋,口袋,麦子",
+        "explanation": "按照主谓宾顺序排列。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "感叹句排序",
+        "question": "将描写心情的词语排成一句话。",
+        "options": [
+          "他的",
+          "该多好哇",
+          "病",
+          "如果",
+          "好了"
+        ],
+        "answer": "如果,他的,病,好了,该多好哇",
+        "explanation": "这是一个表达愿望的感叹句。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第五单元阶段质量调研卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字形辨析",
+        "question": "“课桌”的“课”和“一棵树”的“棵”读音相同，意思也相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "读音相同，但意思不同，前者与课程有关，后者是量词。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "文学常识",
+        "question": "《画杨桃》中的老师是一个性格暴躁、不讲道理的人。",
+        "options": [],
+        "answer": "错",
+        "explanation": "老师非常有耐心，引导学生实事求是地看待问题。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "偏旁含义",
+        "question": "“穴”字头的字多与洞穴、房屋有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "穴部汉字如“窟、窿、窄”等都与洞有关。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "古诗内容",
+        "question": "“置冠服，有定位”的意思是衣服帽子要放在固定的地方。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是《弟子规》中关于生活习惯的要求。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "寓言逻辑",
+        "question": "那个拔苗的人最后收获了很多粮食。",
+        "options": [],
+        "answer": "错",
+        "explanation": "禾苗都枯死了，他没有收获任何粮食。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语选择",
+        "question": "禾苗好像一点儿也没有（ ）。",
+        "options": [
+          "生长",
+          "升高",
+          "长高",
+          "长出"
+        ],
+        "answer": "长高",
+        "explanation": "根据课文原文选词。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子语气",
+        "question": "“小马，你开什么玩笑？”这句话应该读出（ ）的语气。",
+        "options": [
+          "惊讶",
+          "高兴",
+          "伤心",
+          "骄傲"
+        ],
+        "answer": "惊讶",
+        "explanation": "老牛认为水浅，发现小马不敢过时感到很惊讶。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词义辨析",
+        "question": "他（ ）道：“怎么能把羊丢了呢？”",
+        "options": [
+          "得意",
+          "后悔",
+          "满意",
+          "快乐"
+        ],
+        "answer": "后悔",
+        "explanation": "丢了羊的心情应该是后悔当初没修补羊圈。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "部首识别",
+        "question": "下面哪个字的部首不是“厂”字旁？",
+        "options": [
+          "原",
+          "愿",
+          "厨",
+          "房"
+        ],
+        "answer": "房",
+        "explanation": "“房”的部首是“户”。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语境应用",
+        "question": "如果你发现同学在犯错，你应该对他（ ）。",
+        "options": [
+          "哈哈大笑",
+          "不闻不问",
+          "诚恳劝告",
+          "大声责备"
+        ],
+        "answer": "诚恳劝告",
+        "explanation": "这符合单元中“道理”的教育意义。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "课文理解",
+        "question": "小马过河时，面对不同的意见，它最后是怎么做的？",
+        "options": [
+          "听老牛的直接过去",
+          "听松鼠的立刻回家",
+          "在河边哭起来",
+          "在妈妈指导下试一试"
+        ],
+        "answer": "在妈妈指导下试一试",
+        "explanation": "课文结局是小马亲自尝试后渡河。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "拼音纠错",
+        "question": "下列读音完全正确的一项是：",
+        "options": [
+          "既然(jì)",
+          "羊圈(quān)",
+          "钻进(zuān)",
+          "街坊(fāng)"
+        ],
+        "answer": "既然(jì)",
+        "explanation": "羊圈为 juàn，钻进为 zuān（正确），街坊为 fang（轻声）。此处选jì。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "短文阅读",
+        "question": "“老师请这几个同学回到座位上，然后和颜悦色地说……”中“和颜悦色”的意思是：",
+        "options": [
+          "颜色很多",
+          "满脸愤怒",
+          "态度温和",
+          "脸色苍白"
+        ],
+        "answer": "态度温和",
+        "explanation": "形容神色和蔼。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式转换",
+        "question": "将“羊被狼叼走了”换一种说法，意思不变的是：",
+        "options": [
+          "狼把羊叼走了",
+          "羊把狼叼走了",
+          "狼被羊叼走了",
+          "羊没被狼叼走"
+        ],
+        "answer": "狼把羊叼走了",
+        "explanation": "被字句和把字句的转换。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "成语归类",
+        "question": "下列哪一组词语都是寓言故事？",
+        "options": [
+          "刻舟求剑、画蛇添足",
+          "万里无云、碧空如洗",
+          "大惊小怪、自言自语",
+          "眉开眼笑、捧腹大笑"
+        ],
+        "answer": "刻舟求剑、画蛇添足",
+        "explanation": "这两项均为出自古代寓言的成语。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近义词填入",
+        "question": "通过学习，我得到了很多（   ）。",
+        "options": [],
+        "answer": "教益",
+        "explanation": "教益指受到的教导和好处。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生字查字",
+        "question": "“筋疲力尽”的“尽”字共有（___）画。",
+        "options": [],
+        "answer": "六",
+        "explanation": "尽（jìn）的部首是尸，总共6画。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "成语填空",
+        "question": "看到犯了错误的人不听劝，我们可以用一个词：（   ）自用。",
+        "options": [],
+        "answer": "刚愎",
+        "explanation": "刚愎自用形容固执己见。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "寓言配对",
+        "question": "请将寓言名字与告诉我们的道理连线。",
+        "options": [
+          "亡羊补牢",
+          "揠苗助长",
+          "画杨桃",
+          "小马过河",
+          "不能急于求成",
+          "实事求是",
+          "知错就改",
+          "亲自实践"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "考察对课文主旨的掌握。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "偏旁归类",
+        "question": "请将汉字与对应的部首关联。",
+        "options": [
+          "突",
+          "厨",
+          "寓",
+          "闷",
+          "心字底",
+          "门字框",
+          "厂字头",
+          "穴字头"
+        ],
+        "answer": "A-4,B-3,C-1,D-2",
+        "explanation": "突(穴)，厨(厂)，寓(宀-虽然选项是心但考察底部或整体结构，此处选心字底对应闷的错位修正：修订答案为标准结构)。修正后：A-4,B-3,C-1,D-2。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语搭配",
+        "question": "请将动词与名词进行连线。",
+        "options": [
+          "修补",
+          "磨碎",
+          "挡住",
+          "画出",
+          "去路",
+          "杨桃",
+          "羊圈",
+          "麦子"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "考查动宾搭配。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式排序",
+        "question": "把词语排列成一个反问句。",
+        "options": [
+          "难道",
+          "不",
+          "这",
+          "是",
+          "你的吗"
+        ],
+        "answer": "这,难道,不,是,你的吗",
+        "explanation": "正确的反问句语序。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "复杂句排序",
+        "question": "请按照因果逻辑排序话语。",
+        "options": [
+          "因为",
+          "所以",
+          "没修",
+          "他的",
+          "羊圈",
+          "羊丢了"
+        ],
+        "answer": "因为,他的,羊圈,没修,所以,羊丢了",
+        "explanation": "说明因果关系。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "寓言成语的核心内涵理解",
+      "core_concept": "本单元通过《亡羊补牢》和《揠苗助长》两则寓言，引导学生理解深刻的人生哲理。《亡羊补牢》强调在错误发生后，及时采取补救措施，依然可以防止损失扩大，体现了知错就改的智慧；《揠苗助长》则通过违反生长规律的荒唐行为，告诫学生凡事要循序渐进，不能急于求成，否则会适得其反。",
+      "key_formula": "理解寓言 = 读懂故事 + 寻找逻辑错误/改变之处 + 总结生活启示",
+      "common_mistakes": [
+        "误解“亡”的意思为“死亡”而非“丢失”",
+        "认为揠苗助长的人很勤劳，忽视了规律的重要性"
+      ],
+      "tips": "通过角色的心理变化（如后悔、得意、焦急）来体会成语背后的教训。"
+    },
+    {
+      "point": "多角度观察与客观评价他人",
+      "core_concept": "以《画杨桃》为例，核心在于理解“视角决定形状”的原理。当别人看到的不同于常识时，不要急着嘲笑，而要站在对方的角度观察。这不仅是美术绘画的原则，更是待人处事的方法，即尊重事实，不先入为主，客观地评价外部世界和他人。",
+      "key_formula": "多角度思维 = 换位思考 + 实事求是描述",
+      "common_mistakes": [
+        "学生倾向于嘲笑与众不同的人或结论",
+        "在分清“像什么”和“是什么”上存在混淆"
+      ],
+      "tips": "可以拿一个实物（如杯子）放在不同高度让学生观察，发现形状变化。"
+    },
+    {
+      "point": "实践验证与独立思考能力",
+      "core_concept": "《小马过河》的故事告诉学生，当面对众说纷纭（老牛说浅、松鼠说深）的情况时，单纯依靠别人的经验是不够的。因为每个个体的自身情况（身高、能力）不同。学生应学会分析不同意见背后的原因，并勇于亲身实践，在尝试中得出最适合自己的结论。",
+      "key_formula": "正确行动 = 听取意见 + 对比自身情况 + 亲自体验",
+      "common_mistakes": [
+        "认为只要“听妈妈的话”就行，忽略了“亲身尝试”的主动性",
+        "混淆不同动物对水深浅判断的依据"
+      ],
+      "tips": "对比老牛和松鼠的身材大小，帮孩子理解“深度”是相对的而非绝对的。"
+    }
+  ]
+}

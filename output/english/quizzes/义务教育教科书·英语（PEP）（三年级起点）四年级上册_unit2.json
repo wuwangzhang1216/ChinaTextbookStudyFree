@@ -1,0 +1,715 @@
+{
+  "textbook": "PEP Primary English Grade 4 Volume 1",
+  "unit": "My schoolbag",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2 My schoolbag 单元基础达标测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "学习用品词汇",
+        "question": "'maths book' 的中文意思是'语文书'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "maths book指的是数学书，语文书是Chinese book。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "句型识别",
+        "question": "当你想询问书包里有什么时，可以说：'What's in your schoolbag?'",
+        "options": [],
+        "answer": "对",
+        "explanation": "What's in... 句型用于询问某处有什么物品。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "名词复数",
+        "question": "在英语中，'three storybook' 这种表达是正确的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数量大于1时，名词应该变复数，应为three storybooks。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "语音规律",
+        "question": "单词 'like' 和 'kite' 中元音字母 'i' 的发音相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在开音节结构 i...e 中，i 发双元音 /aɪ/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "方位介词",
+        "question": "'under the desk' 表示在课桌里面。",
+        "options": [],
+        "answer": "错",
+        "explanation": "under表示在...下面，在里面应该用in。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "学习用品词汇",
+        "question": "I have an ______ book in my schoolbag.",
+        "options": [
+          "English",
+          "maths",
+          "Chinese",
+          "storybook"
+        ],
+        "answer": "English",
+        "explanation": "因为横线前是不定冠词an，所以后面接的单词必须以元音音素开头。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "指代一致",
+        "question": "-What colour is it? -______ is blue.",
+        "options": [
+          "I",
+          "It",
+          "He",
+          "She"
+        ],
+        "answer": "It",
+        "explanation": "问句提问color，且代词用it，回答应用It指代物体。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义辨析",
+        "question": "We read pictures and stories in a ______.",
+        "options": [
+          "maths book",
+          "pencil box",
+          "storybook",
+          "ruler"
+        ],
+        "answer": "storybook",
+        "explanation": "故事书（storybook）里包含图画和故事。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不定代词",
+        "question": "-Put your book ______ your head. -OK.",
+        "options": [
+          "at",
+          "on",
+          "under",
+          "near"
+        ],
+        "answer": "on",
+        "explanation": "放书在头上，动作方位应为on（在...上面）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "形容词选择",
+        "question": "I have a ______ schoolbag. It's so big!",
+        "options": [
+          "new",
+          "old",
+          "small",
+          "short"
+        ],
+        "answer": "new",
+        "explanation": "语境表达兴奋拥有新书包，且后句描述big（大），new符合逻辑。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "疑问词",
+        "question": "-______ is your pencil box? -It's on the desk.",
+        "options": [
+          "What",
+          "Where",
+          "Who",
+          "How"
+        ],
+        "answer": "Where",
+        "explanation": "答语在描述方位（on the desk），提问用Where。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情景交际",
+        "question": "当你想表达“太棒了！”或“太赞了！”时，应该说：",
+        "options": [
+          "Excuse me.",
+          "Good night.",
+          "Great!",
+          "Thank you."
+        ],
+        "answer": "Great!",
+        "explanation": "Great用于表达赞叹和称赞。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "名词辨析",
+        "question": "Please put your ____ in your schoolbag.",
+        "options": [
+          "candies",
+          "candy",
+          "a candy",
+          "the candy"
+        ],
+        "answer": "candies",
+        "explanation": "根据教材情景，表达书包里的多颗糖果，常用复数candies。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数词词义",
+        "question": "one, two, three, ______ , five.",
+        "options": [
+          "five",
+          "four",
+          "six",
+          "ten"
+        ],
+        "answer": "four",
+        "explanation": "考察数字序列，3和5之间是4。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语音规律",
+        "question": "Which word has a different sound for 'i'?",
+        "options": [
+          "big",
+          "six",
+          "five",
+          "pig"
+        ],
+        "answer": "five",
+        "explanation": "five中的i发/aɪ/，其余三个单词i发/ɪ/。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "拼写-书包",
+        "question": "Put your books into your s_________.",
+        "options": [],
+        "answer": "schoolbag",
+        "explanation": "本单元主题词汇，书包的英文是schoolbag。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "颜色词汇",
+        "question": "-What color is it? -It is ________ (黄色的).",
+        "options": [],
+        "answer": "yellow",
+        "explanation": "黄色译为yellow。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问书包内物品",
+        "question": "What's _____ your pencil box?",
+        "options": [],
+        "answer": "in",
+        "explanation": "询问在...里面，介词用in。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "书籍-数学",
+        "question": "I have one ______ book and two storybooks.",
+        "options": [],
+        "answer": "maths",
+        "explanation": "数学书对应maths book。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "核心词汇译义",
+        "question": "将下列英文与中文意思连线。",
+        "options": [
+          "storybook",
+          "English book",
+          "schoolbag",
+          "key",
+          "英语书",
+          "钥匙",
+          "书包",
+          "故事书"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "A故事书，B英语书，C书包，D钥匙。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交流连线",
+        "question": "将左侧问句与右侧正确答语连线。",
+        "options": [
+          "Thank you so much.",
+          "What's in it?",
+          "What color is it?",
+          "Excuse me.",
+          "Yes?",
+          "It's blue and white.",
+          "Many books.",
+          "You're welcome."
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "感谢对应不客气，问内容对应物品，问颜色对应蓝白，打扰了对应回应。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "陈述句语序",
+        "question": "连词成句：have, I, new, a, schoolbag",
+        "options": [
+          "have",
+          "I",
+          "new",
+          "a",
+          "schoolbag"
+        ],
+        "answer": "I,have,a,new,schoolbag",
+        "explanation": "主+谓+宾结构：我有(I have)一个新书包(a new schoolbag)。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "疑问句语序",
+        "question": "连词成句：in, What, is, schoolbag, your",
+        "options": [
+          "in",
+          "What",
+          "is",
+          "schoolbag",
+          "your"
+        ],
+        "answer": "What,is,in,your,schoolbag",
+        "explanation": "特殊疑问句：What is in + 地点？你的书包里有什么？"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 2 My schoolbag 核心素养综合期末模拟卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文具名称",
+        "question": "'pencil box' 的意思是'铅笔盒'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "pencil铅笔，box盒子，组合为铅笔盒。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "冠词用法",
+        "question": "在 'English book' 前应该使用 'a' 而不是 'an'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "English以元音音素开头，应用an。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "反义词",
+        "question": "'heavy' 的反义词是 'light'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "heavy重，light轻。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "语音辨析",
+        "question": "单词 'pig' 里的字母 'i' 发音是 /aɪ/。",
+        "options": [],
+        "answer": "错",
+        "explanation": "pig是闭音节，i发短音/ɪ/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "习惯表达",
+        "question": "失物招领处在英语中可以说成 'Lost and Found'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "固定词组，失物招领。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "名词复数",
+        "question": "I have three ______.",
+        "options": [
+          "key",
+          "keys",
+          "a key",
+          "the key"
+        ],
+        "answer": "keys",
+        "explanation": "数词three后面接名词复数形式。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "颜色词汇",
+        "question": "The panda is ______.",
+        "options": [
+          "blue and green",
+          "black and white",
+          "red and yellow",
+          "orange"
+        ],
+        "answer": "black and white",
+        "explanation": "常识：大熊猫是黑白相间的。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "代词区分",
+        "question": "I lost ______ schoolbag. Can you help me?",
+        "options": [
+          "me",
+          "my",
+          "mine",
+          "I"
+        ],
+        "answer": "my",
+        "explanation": "修饰名词schoolbag应用形容词性物主代词my。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "介词辨析",
+        "question": "Keep your books ______ your desk. Keep it tidy.",
+        "options": [
+          "in",
+          "at",
+          "to",
+          "for"
+        ],
+        "answer": "in",
+        "explanation": "把书放在课桌里（in your desk）保持整洁。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "交际用语",
+        "question": "-Here it is! -______",
+        "options": [
+          "Good morning.",
+          "Thank you.",
+          "I'm sorry.",
+          "Hello."
+        ],
+        "answer": "Thank you.",
+        "explanation": "别人帮你找到东西或递给你东西，应说谢谢。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "限定词",
+        "question": "How ______ storybooks do you have?",
+        "options": [
+          "much",
+          "many",
+          "old",
+          "big"
+        ],
+        "answer": "many",
+        "explanation": "提问可数名词（books）的数量用How many。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词义理解",
+        "question": "It's so ______! I can't carry it.",
+        "options": [
+          "light",
+          "heavy",
+          "new",
+          "nice"
+        ],
+        "answer": "heavy",
+        "explanation": "后面说“搬不动（can't carry）”，说明物体很重（heavy）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "语音规则",
+        "question": "Which of these follows the 'i_e' pattern?",
+        "options": [
+          "rice",
+          "fish",
+          "thin",
+          "milk"
+        ],
+        "answer": "rice",
+        "explanation": "rice符合字母i在开音节中发/aɪ/的规律。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句子补全",
+        "question": "I have ______, a ruler and a notebook.",
+        "options": [
+          "a apple",
+          "an apple",
+          "apple",
+          "apples"
+        ],
+        "answer": "an apple",
+        "explanation": "apple单数前面用an。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "谓语动词",
+        "question": "Everything ______ in the schoolbag.",
+        "options": [
+          "be",
+          "am",
+          "is",
+          "are"
+        ],
+        "answer": "is",
+        "explanation": "Everything（每样事物）作主语，动词用单数is。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "糖果词汇",
+        "question": "I have some ______ (糖果) in my hand.",
+        "options": [],
+        "answer": "candy",
+        "explanation": "candy即可数也可不可数，在此填原形。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词习惯用法",
+        "question": "Please ______ me your storybook.",
+        "options": [],
+        "answer": "show",
+        "explanation": "给我看看..., 动词是show。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "方位介词",
+        "question": "The keys are ______ the door.",
+        "options": [],
+        "answer": "in",
+        "explanation": "钥匙插在门锁里，固定表达用in the door。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计数",
+        "question": "I have ______ (一个) English book.",
+        "options": [],
+        "answer": "an",
+        "explanation": "English前用an。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义匹配",
+        "question": "Match English words with Chinese.",
+        "options": [
+          "heavy",
+          "light",
+          "cute",
+          "lost",
+          "轻的",
+          "丢失的",
+          "重的",
+          "可爱的"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "考察本单元形容词意义。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常用语匹配",
+        "question": "Match the sentences.",
+        "options": [
+          "I lost my bag.",
+          "It's so heavy.",
+          "Look! My new bag.",
+          "An English book?",
+          "Yes. And a kite.",
+          "I can help you.",
+          "I'm sorry to hear.",
+          "It's very nice."
+        ],
+        "answer": "A-3,B-2,C-4,D-1",
+        "explanation": "丢失了-难过；很重-帮助；看包-漂亮；是书吗-对还有纸鸢。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "语序",
+        "question": "连词成句：is, My, green, schoolbag",
+        "options": [
+          "is",
+          "My",
+          "green",
+          "schoolbag"
+        ],
+        "answer": "My,schoolbag,is,green",
+        "explanation": "主系表结构：我的书包是绿色的。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "疑问从句语序",
+        "question": "连词成句：What, is, it, colour",
+        "options": [
+          "What",
+          "is",
+          "it",
+          "colour"
+        ],
+        "answer": "What,colour,is,it",
+        "explanation": "询问颜色的标准语序：What colour + is + 主语？"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "学习用品词汇掌握",
+      "core_concept": "学生需掌握schoolbag, maths book, English book, Chinese book, storybook, candy, notebook, key等核心词汇。",
+      "key_formula": "名词复数规则：一般在末尾加-s，如key->keys, book->books。",
+      "common_mistakes": [
+        "maths末尾的s容易漏掉",
+        "storybook常由于拼写太长写错"
+      ],
+      "tips": "可以通过'分段记忆法'记长单词，如school+bag=schoolbag。"
+    },
+    {
+      "point": "询问与描述书包内容",
+      "core_concept": "使用特殊疑问句What's in your schoolbag?来了解内部物品，并用I have...进行陈述。",
+      "key_formula": "What is in + 地点? -> 回答: I have / There is / Many + 物品.",
+      "common_mistakes": [
+        "回答时忘记使用冠词a或an",
+        "in和on的介词混淆"
+      ],
+      "tips": "回答有多个物品时，要注意单复数的变化。"
+    },
+    {
+      "point": "元音字母i的两种发音规律",
+      "core_concept": "辨析i在闭音节(CVC)中发/ɪ/与在开音节(i_e)中发字母本音/aɪ/的区别。",
+      "key_formula": "i_e 结构 -> /aɪ/ (如like, rice, kite); 辅音+i+辅音 -> /ɪ/ (如big, six, pig).",
+      "common_mistakes": [
+        "将'six'误读为/saɪks/",
+        "不理解e在结尾不发音的规律"
+      ],
+      "tips": "记住口诀：'有e发大音，没e发短音'。"
+    }
+  ]
+}

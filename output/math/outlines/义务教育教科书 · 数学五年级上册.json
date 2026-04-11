@@ -1,0 +1,347 @@
+{
+  "textbook": "五年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "小数乘法",
+      "knowledge_points": [
+        {
+          "name": "小数乘整数的算理与计算",
+          "description": "理解小数乘整数的转化思想，掌握积的小数点位置确定方法及末尾0的处理。",
+          "difficulty": 2,
+          "question_types": [
+            "竖式计算",
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "小数乘小数的计算法则",
+          "description": "掌握因数中小数位数与积的小数位数之间的关系，能够正确进行竖式计算。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "填空",
+            "判断"
+          ]
+        },
+        {
+          "name": "积的近似数与四舍五入",
+          "description": "能根据要求用“四舍五入”法求积的近似数，并在实际情境中应用。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "应用题"
+          ]
+        },
+        {
+          "name": "整数乘法运算律推广到小数",
+          "description": "运用乘法交换律、结合律和分配律进行小数乘法的简便运算。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "选择",
+            "应用题"
+          ]
+        },
+        {
+          "name": "小数乘法解决问题（估算与分段计费）",
+          "description": "利用估算判断计算结果的合理性，解决出租车、水电费等分段计费实际问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "位置",
+      "knowledge_points": [
+        {
+          "name": "用数对表示具体情境中的位置",
+          "description": "理解列与行的概念，掌握用数对（列，行）表示物体位置的方法。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "连线/匹配",
+            "操作题"
+          ]
+        },
+        {
+          "name": "在方格纸上用数对确定点的位置",
+          "description": "能在方格纸上根据数对找到对应的点，或由点写出对应的数对。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "图形平移与数对变化规律",
+          "description": "观察并掌握图形在方格纸上平移后顶点对应数对的变化规律。",
+          "difficulty": 3,
+          "question_types": [
+            "画图",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "小数除法",
+      "knowledge_points": [
+        {
+          "name": "除数是整数的小数除法",
+          "description": "掌握商的小数点与被除数小数点对齐的规则，以及整数部分不够除、除到末尾需添0的情况。",
+          "difficulty": 2,
+          "question_types": [
+            "竖式计算",
+            "填空"
+          ]
+        },
+        {
+          "name": "一个数除以小数的计算方法",
+          "description": "利用商不变的性质将除数是小数的除法转化为除数是整数的除法进行计算。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "判断"
+          ]
+        },
+        {
+          "name": "商的近似数（进一法与去尾法）",
+          "description": "根据实际生活需要，灵活运用“进一法”或“去尾法”取商的近似值。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "选择"
+          ]
+        },
+        {
+          "name": "循环小数的相关概念",
+          "description": "理解循环小数、循环节的概念，掌握循环小数的简便记法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "用计算器探索规律",
+          "description": "借助计算器发现小数除法中商的规律，并能根据规律写出相关的商。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "可能性",
+      "knowledge_points": [
+        {
+          "name": "事件发生的确定性与不确定性",
+          "description": "能用“一定”、“可能”、“不可能”等词汇描述简单随机事件发生的结果。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "可能性的大小比较",
+          "description": "理解事件发生的可能性大小与个体数量或区域面积的关系。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "可能性的大小应用（设计方案）",
+          "description": "根据给定的可能性要求，通过涂色或放入特定数量的球设计实验方案。",
+          "difficulty": 3,
+          "question_types": [
+            "画图",
+            "操作题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "简易方程",
+      "knowledge_points": [
+        {
+          "name": "用字母表示数与简写规则",
+          "description": "理解用字母表示数的意义，掌握含有字母的乘法算式的简写规范。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "方程的意义与等式的性质",
+          "description": "理解方程的定义，掌握等式两边同时执行相同运算后等式仍成立的性质。",
+          "difficulty": 2,
+          "question_types": [
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "解简易方程",
+          "description": "掌握一至三步方程的解法，能够正确书写解方程的过程和验算方法。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "竖式计算"
+          ]
+        },
+        {
+          "name": "列方程解决实际问题（ax±b=c类型）",
+          "description": "分析题目中的等量关系，通过设未知数、列方程解决基础应用题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题"
+          ]
+        },
+        {
+          "name": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+          "description": "处理包含括号、两个未知数或相遇问题的复杂情境，建立方程模型。",
+          "difficulty": 5,
+          "question_types": [
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "多边形的面积",
+      "knowledge_points": [
+        {
+          "name": "平行四边形的面积计算",
+          "description": "通过割补法推导公式 S=ah，并能应用公式解决计算底、高或面积的问题。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "计算题",
+            "画图"
+          ]
+        },
+        {
+          "name": "三角形的面积计算",
+          "description": "理解拼凑法推导公式 S=ah÷2，重点掌握三角形面积是等底等高平行四边形的一半。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "计算题",
+            "简单应用"
+          ]
+        },
+        {
+          "name": "梯形的面积计算",
+          "description": "掌握公式 S=(a+b)h÷2，理解梯形面积与拼成的平行四边形面积的关系。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "计算题",
+            "应用题"
+          ]
+        },
+        {
+          "name": "组合图形的面积与不规则图形估算",
+          "description": "通过分割法或添补法计算组合图形面积，利用数方格估算不规则图形面积。",
+          "difficulty": 4,
+          "question_types": [
+            "画图",
+            "计算题",
+            "操作题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "数学广角——植树问题",
+      "knowledge_points": [
+        {
+          "name": "直线上的植树问题（两端都栽 / 两端不栽）",
+          "description": "区分不同栽植情况下的间隔数与棵数的关系：棵数=间隔数+1（或-1）。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "画图",
+            "应用题"
+          ]
+        },
+        {
+          "name": "封闭路线的植树规律",
+          "description": "理解在圆或封闭多边形上植树时，棵数等于间隔数的规律。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "植树问题的综合转化",
+          "description": "将锯木头、上楼梯、敲钟等生活场景转化为植树问题模型解决。",
+          "difficulty": 5,
+          "question_types": [
+            "应用题",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "小数乘除法综合应用",
+          "description": "对全册小数运算进行整合复习，包含简便计算与混合运算。",
+          "difficulty": 4,
+          "question_types": [
+            "竖式计算",
+            "填空",
+            "判断"
+          ]
+        },
+        {
+          "name": "多边形面积与几何公式复习",
+          "description": "系统梳理平行四边形、三角形、梯形的面积公式及推导过程。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "画图",
+            "计算题"
+          ]
+        },
+        {
+          "name": "数代合一与方程建模总复习",
+          "description": "综合运用字母表示数、解方程及列方程解决各类复杂数量关系。",
+          "difficulty": 5,
+          "question_types": [
+            "应用题",
+            "填空"
+          ]
+        }
+      ]
+    }
+  ]
+}

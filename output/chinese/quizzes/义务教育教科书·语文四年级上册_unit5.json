@@ -1,0 +1,733 @@
+{
+  "textbook": "统编版小学语文四年级上册",
+  "unit": "第五单元（习作：我手写我心）",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元“把事情写清楚”基础通关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "在写一件事的时候，要把起因、经过、结果交代清楚。",
+        "options": [],
+        "answer": "对",
+        "explanation": "记叙文六要素（时间、地点、人物、起因、经过、结果）是写清楚一件事情的基础。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动作词的精准运用",
+        "question": "“他把书包扔在桌子上，头也不回地走了。”这句属于神态描写。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“扔”、“走”是明显的动作描写，用来表现人物的心情。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "环境描写对叙事的衬托",
+        "question": "《爬天都峰》中描写石级“笔陡”，是为了说明山路很难走。",
+        "options": [],
+        "answer": "对",
+        "explanation": "环境描写如“笔陡”、“铁链似乎从天上挂下来”都突显了爬山的困难和挑战。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "写经过时，为了省事，我们可以把最有意思的部分写得简略一些。",
+        "options": [],
+        "answer": "错",
+        "explanation": "经过是事情的核心，必须重点描写，尤其是重要的细节。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动作词的精准运用",
+        "question": "“抓、跑、跳、喊”这四个词中，“喊”是不属于动作词的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“喊”是发的声，但在习作习惯中属于言语动作（动词）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动作词的精准运用",
+        "question": "给下列句子填入合适的词：他（  ）起书包，（  ）向操场。",
+        "options": [
+          "背 跑",
+          "拿 走",
+          "提 跳",
+          "扛 挪"
+        ],
+        "answer": "背 跑",
+        "explanation": "结合生活情境，书包通常用“背”，去操场参加活动通常用“跑”。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "环境描写对叙事的衬托",
+        "question": "阅读：‘在那条崎岖的小路上，寒风呼呼地刮着。’这段环境描写的作用是？",
+        "options": [
+          "表现天气寒冷，路不好走",
+          "预示着结局非常圆满",
+          "描写美丽的冬景",
+          "介绍小路的构造"
+        ],
+        "answer": "表现天气寒冷，路不好走",
+        "explanation": "寒风和崎岖表现了环境的恶劣，为后续人物克服困难做铺垫。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "通过什么描写可以让我们看到人物内心的想法？",
+        "options": [
+          "动作描写",
+          "环境描写",
+          "心理描写",
+          "外貌描写"
+        ],
+        "answer": "心理描写",
+        "explanation": "心理描写直接反映人物的内心世界。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动作词的精准运用",
+        "question": "“老爷爷……爬上了天都峰。”中间应该填哪组词体现爬山费力？",
+        "options": [
+          "大步流星地",
+          "慢吞吞地",
+          "奋力地",
+          "轻快地"
+        ],
+        "answer": "奋力地",
+        "explanation": "根据《爬天都峰》课文内容及语境，爬山过程极其艰辛，用“奋力”最恰当。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "“他气得脸色发白，拳头握得紧紧的。”这句话通过什么描写写出了他的气愤？",
+        "options": [
+          "神态和动作描写",
+          "心理和语言描写",
+          "环境和外貌描写",
+          "动作和心理描写"
+        ],
+        "answer": "神态和动作描写",
+        "explanation": "“脸色发白”是神态，“握紧拳头”是动作。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "下列哪个题目最适合通过一系列连续动作来具体描写？",
+        "options": [
+          "我的一张照片",
+          "一次做家务的过程",
+          "我喜欢的风景",
+          "我的好朋友"
+        ],
+        "answer": "一次做家务的过程",
+        "explanation": "做家务包含洗、擦、拖等连续动作，最适宜动作描写。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "“风停了，雨住了，太阳出来了。”这段描写在文中一般起到什么作用？",
+        "options": [
+          "转折作用",
+          "交代背景或暗示心情好转",
+          "介绍自然常识",
+          "总结全文"
+        ],
+        "answer": "交代背景或暗示心情好转",
+        "explanation": "天气的变化常用来衬托人物心情的变化。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动作词的精准运用",
+        "question": "下列词语中，哪一个是形容走得很快？",
+        "options": [
+          "蹒跚",
+          "踱步",
+          "飞奔",
+          "徘徊"
+        ],
+        "answer": "飞奔",
+        "explanation": "飞奔形容速度极快。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "环境描写对叙事的衬托",
+        "question": "阅读：‘屋子里静极了，只有时钟嘀嗒嘀嗒地响。’描写环境寂静是为了表现？",
+        "options": [
+          "时钟的质量很好",
+          "屋里没有人",
+          "人物内心的焦急或沉思",
+          "描写背景声音"
+        ],
+        "answer": "人物内心的焦急或沉思",
+        "explanation": "以动衬静，突出环境的压抑感或人物心事重重。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "在写文章时，“开头”最主要的作用通常是？",
+        "options": [
+          "凑字数",
+          "交代起因或点题",
+          "描写大自然",
+          "写自己的缺点"
+        ],
+        "answer": "交代起因或点题",
+        "explanation": "好的开头能快速进入主题，吸引读者。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "写事要交代清楚六要素，包括：时、地、人、起因、经过和（  ）。",
+        "options": [],
+        "answer": "结果",
+        "explanation": "记叙文完整性要求具备结果。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动作词的精准运用",
+        "question": "“他（  ）起水壶，咕嘟咕嘟喝了下去。”括号里填一个最准确的动词。",
+        "options": [],
+        "answer": "举",
+        "explanation": "喝水的动作常用“端”或“举”。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "《爬天都峰》中，作者描写了“我”和（  ）一起爬山的事情。",
+        "options": [],
+        "answer": "老爷爷",
+        "explanation": "文中主要人物是“我”和老爷爷。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动作词的精准运用",
+        "question": "请将动作与对应的身体部位连线。",
+        "options": [
+          "眨",
+          "嗅",
+          "跺",
+          "拍",
+          "鼻子",
+          "眼睛",
+          "手掌",
+          "双脚"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "眨眼、嗅鼻、跺脚、拍手是常见的动宾搭配。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "请将描写方法与其对应的短语连线。",
+        "options": [
+          "动作描写",
+          "神态描写",
+          "心理描写",
+          "环境描写",
+          "心花怒放",
+          "狂风骤雨",
+          "眉开眼笑",
+          "手舞足蹈"
+        ],
+        "answer": "A-4,B-3,C-1,D-2",
+        "explanation": "手舞足蹈是动作，眉开眼笑是神态，心花怒放是心理，狂风骤雨是环境。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "将文章结构与对应的内容连线。",
+        "options": [
+          "开头",
+          "经过",
+          "结果",
+          "细节",
+          "具体描写过程",
+          "交代时间地点",
+          "运用动词神态",
+          "事情的结局"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "匹配文章结构及其功能。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动作词的精准运用",
+        "question": "请通过排序展现打羽毛球的动作：",
+        "options": [
+          "稳稳地",
+          "接住了",
+          "小明",
+          "羽毛球"
+        ],
+        "answer": "小明,稳稳地,接住了,羽毛球",
+        "explanation": "主语(小明)+状语(稳稳地)+谓语(接住了)+宾语(羽毛球)。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "环境描写对叙事的衬托",
+        "question": "请把环境描写排序完整：",
+        "options": [
+          "陡峭的",
+          "石级",
+          "似乎从",
+          "天空中",
+          "挂下来"
+        ],
+        "answer": "陡峭的,石级,似乎从,天空中,挂下来",
+        "explanation": "仿照《爬天都峰》中的原句结构进行排序。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级上册第五单元“学写一件事”综合质量评估",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "只要把事情发生的时间和地点写对，这篇习作就算是写清楚了。",
+        "options": [],
+        "answer": "错",
+        "explanation": "写清楚还需要经过、细节描写等必要元素。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "环境描写对叙事的衬托",
+        "question": "描写周围的景物可以帮助表达作者当时的心情。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这叫“借景抒情”或“情景交融”。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动作词的精准运用",
+        "question": "“跳”是一个表示脚部动作的动词。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“跳”跟脚的力量有关。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "在不同的场合，同一个动作可以表达不同的内心感受。",
+        "options": [],
+        "answer": "对",
+        "explanation": "比如“顿足”，可能是生气，也可能是焦急。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "写日记也是在练习把事情写清楚。",
+        "options": [],
+        "answer": "对",
+        "explanation": "日记是记录生活、练习叙事的一种好方式。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动作词的精准运用",
+        "question": "选出下列词语中不属于动作描写的一项：",
+        "options": [
+          "弯下腰",
+          "伸出手",
+          "红着脸",
+          "迈开腿"
+        ],
+        "answer": "红着脸",
+        "explanation": "“红着脸”属于神态或外貌描写。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "下列哪个词最适合形容比赛夺冠时人物的心情？",
+        "options": [
+          "垂头丧气",
+          "狂喜万分",
+          "犹豫不决",
+          "忐忑不安"
+        ],
+        "answer": "狂喜万分",
+        "explanation": "夺冠对应的是极度的喜悦。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "环境描写对叙事的衬托",
+        "question": "阅读：‘天阴沉沉的，路边的小草也显得无精打采。’这段描写预示着什么？",
+        "options": [
+          "小草生病了",
+          "作者的心情很郁闷",
+          "下午要除草",
+          "路边很荒凉"
+        ],
+        "answer": "作者的心情很郁闷",
+        "explanation": "环境描写常用来衬托人物低落的心情。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "在写《我的发现》这篇习作时，要把什么写得最详细？",
+        "options": [
+          "发现的过程",
+          "发现的时间",
+          "发现的伙伴",
+          "发现的地点"
+        ],
+        "answer": "发现的过程",
+        "explanation": "过程是事物的核心，最能体现主题。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动作词的精准运用",
+        "question": "“姐姐握着笔，对着草稿纸发愁。”这句话通过描写什么展现了姐姐遇到了难题？",
+        "options": [
+          "神态和环境",
+          "动作和心理",
+          "外貌和语言",
+          "环境和语言"
+        ],
+        "answer": "动作和心理",
+        "explanation": "“握着笔”是动作，“发愁”是内心状态的表现。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "“我终于爬上了山顶！”这句话在朗读时应该读出什么样的语气？",
+        "options": [
+          "惊讶",
+          "自豪与激动",
+          "悲伤",
+          "害怕"
+        ],
+        "answer": "自豪与激动",
+        "explanation": "克服困难后的成功伴随着喜悦和成就感。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "下列哪个要素不是记叙一件事必须具备的？",
+        "options": [
+          "人物",
+          "起因",
+          "故事情节",
+          "复杂的排比句"
+        ],
+        "answer": "复杂的排比句",
+        "explanation": "修辞手法是润色，不是必须要素。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动作词的精准运用",
+        "question": "哪组动词能连贯表现“洗手”的过程？",
+        "options": [
+          "冲、抹、搓、擦",
+          "跳、跑、喊、闹",
+          "看、听、写、画",
+          "拿、吃、吞、嚼"
+        ],
+        "answer": "冲、抹、搓、擦",
+        "explanation": "这是标准的洗手连续动作。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "环境描写对叙事的衬托",
+        "question": "“路边的槐树被风吹得沙沙作响，仿佛在为我欢呼。”这是什么写法？",
+        "options": [
+          "环境描写衬托心情",
+          "外貌描写",
+          "说明文章中心",
+          "交代故事地点"
+        ],
+        "answer": "环境描写衬托心情",
+        "explanation": "槐树的声响被赋予了感彩，衬托了“我”的喜悦。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动作词的精准运用",
+        "question": "“他（  ）开外衣，（  ）进怀里。”此处填入哪两个词最能体现动作的急切？",
+        "options": [
+          "解 塞",
+          "脱 放",
+          "撕 扔",
+          "掀 挡"
+        ],
+        "answer": "解 塞",
+        "explanation": "“解和塞”在特定情境（如课文《猎人笔记》中相关描写）最贴切。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "《爬天都峰》中，我和老爷爷最后都从对方身上汲取了（  ）。",
+        "options": [],
+        "answer": "力量",
+        "explanation": "课文结尾的主题升华。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "环境描写对叙事的衬托",
+        "question": "天都峰的“天”字体现了这座山非常之（  ）。",
+        "options": [],
+        "answer": "高",
+        "explanation": "“天”指天边，以此形容山高。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动作词的精准运用",
+        "question": "形容一个人做事非常小心，常用动词词组：轻（  ）轻放。",
+        "options": [],
+        "answer": "拿",
+        "explanation": "轻拿轻放是固定搭配。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "给下列词语寻找近义词：",
+        "options": [
+          "奋力",
+          "鼓舞",
+          "居然",
+          "笔陡",
+          "激励",
+          "努力",
+          "陡峭",
+          "竟然"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考察词语理解。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "将习作要素与其作用对应起来：",
+        "options": [
+          "时间",
+          "地点",
+          "人物",
+          "经过",
+          "谁发生的故事",
+          "什么时候的事",
+          "最有意思的部分",
+          "在哪里发生的"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "巩固叙事六要素的功能。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动作词的精准运用",
+        "question": "将描写与表现的性格或状态连线：",
+        "options": [
+          "抓耳挠腮",
+          "胸有成竹",
+          "蹑手蹑脚",
+          "昂首挺胸",
+          "自信满满",
+          "焦急思考",
+          "精神抖擞",
+          "避免发现"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "通过动作描写反映人物精神状态。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "把事情写清楚的方法",
+        "question": "请排序成一个完整的句子：",
+        "options": [
+          "我",
+          "在家里",
+          "专心地",
+          "那本书",
+          "读完"
+        ],
+        "answer": "我,在家里,专心地,那本书,读完",
+        "explanation": "基本的叙述句式。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动作词的精准运用",
+        "question": "请描述接球的动作顺序：",
+        "options": [
+          "盯准球",
+          "伸出手",
+          "用力一跳",
+          "抱住了球"
+        ],
+        "answer": "盯准球,用力一跳,伸出手,抱住了球",
+        "explanation": "逻辑顺序：观察->跳起->伸手->结果。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "把事情写清楚的方法",
+      "core_concept": "写一件事，要按照顺序交代清楚时间、地点、人物及事情的起因、经过、结果。最重要的是把“经过”写具体，通过细致观察，将人物的表现表现得有声有色。",
+      "key_formula": "要素完备 + 顺序清晰 + 细节具体",
+      "common_mistakes": [
+        "像记流水账，只记录了做了什么，没有具体的过程。",
+        "丢失关键的起因或结果，导致读者看不清逻辑。"
+      ],
+      "tips": "写作前可以先在草稿纸上简单画出‘情节梯’，一段写一个关键动作。"
+    },
+    {
+      "point": "环境描写对叙事的衬托",
+      "core_concept": "环境描写不仅仅是写风景，更是为了服务于故事情节。通过描写天气的变化、景物的高低险峻，可以突显事情的难度或人物的心情，起到‘渲染气氛’的作用。",
+      "key_formula": "景物描写 = 场景交代 + 情感烘托",
+      "common_mistakes": [
+        "环境描写与故事情节脱节，写了很多风景但对叙事没用。",
+        "形容词使用过于苍白，只会写‘很美丽’、‘很可怕’。"
+      ],
+      "tips": "尝试在人物心情大好时，描写路边的花草都在点头；在大考前，描写周围空气的凝固。"
+    },
+    {
+      "point": "动作词的精准运用",
+      "core_concept": "在叙事中，要学会分解动作。将一个大的活动分解为一系列连续的小动作，并选用最贴切的动词（如‘背、扛、提、挎’书包的不同区别），使画面感扑面而来。",
+      "key_formula": "动词连用 = 动作分解 + 精准措辞",
+      "common_mistakes": [
+        "一个句子中重复使用同一个动词（如多次用‘拿’）。",
+        "动作衔接生硬，不符合逻辑规律。"
+      ],
+      "tips": "模仿‘慢动作回放’，观察一个简单的动作其实包含了哪些更细小的步骤。"
+    }
+  ]
+}

@@ -1,0 +1,709 @@
+{
+  "textbook": "统编版小学语文一年级上册",
+  "unit": "汉语拼音（二）：复韵母与鼻韵母",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元汉语拼音达标测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "在复韵母ai中，发音时口形是由a滑向i的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "复韵母是由两个元音组成的，发音时要有口形滑动的过程。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "整体认读音节应用",
+        "question": "yi是一个整体认读音节，可以直接读出来。",
+        "options": [],
+        "answer": "对",
+        "explanation": "yi、wu、yu属于整体认读音节，不需要拼读。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "‘山’字的韵母是ang。",
+        "options": [],
+        "answer": "错",
+        "explanation": "‘山’的读音是shān，韵母是前鼻韵母an。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "ei和ie的韵母是一样的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "ei和ie的字母位置不同，读音也完全不同。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "整体认读音节应用",
+        "question": "zhi、chi、shi是整体认读音节。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这三个属于声母后面带-i的整体认读音节。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "下面哪组词语的拼音中含有复韵母ui？",
+        "options": [
+          "书包",
+          "开水",
+          "白兔",
+          "太阳"
+        ],
+        "answer": "开水",
+        "explanation": "水读作shuǐ，含有复韵母ui。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "‘羊’字的韵母是：",
+        "options": [
+          "an",
+          "en",
+          "ang",
+          "eng"
+        ],
+        "answer": "ang",
+        "explanation": "羊读作yáng，韵母是后鼻韵母ang。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整体认读音节应用",
+        "question": "下列音节中属于整体认读音节的是：",
+        "options": [
+          "ba",
+          "yue",
+          "mei",
+          "tian"
+        ],
+        "answer": "yue",
+        "explanation": "yue是整体认读音节，不要拼读。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "‘秋天’的正确韵母组合是：",
+        "options": [
+          "iu, an",
+          "ui, an",
+          "iu, en",
+          "ui, en"
+        ],
+        "answer": "iu, an",
+        "explanation": "秋读作qiū，天读作tiān。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "当我们说到‘放风筝’时，‘风’字的韵母是：",
+        "options": [
+          "en",
+          "eng",
+          "in",
+          "ing"
+        ],
+        "answer": "eng",
+        "explanation": "风读作fēng，是后鼻韵母。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "‘九’字的韵母是：",
+        "options": [
+          "ou",
+          "iu",
+          "ui",
+          "io"
+        ],
+        "answer": "iu",
+        "explanation": "九读作jiǔ，韵母是iu。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "读一段短文：‘小燕子，穿花衣，年年春天来这里。’文中‘花’字的音节怎样拼读？",
+        "options": [
+          "h-u-a",
+          "h-a-u",
+          "f-u-a",
+          "h-o-a"
+        ],
+        "answer": "h-u-a",
+        "explanation": "花hhuā是三拼音节，声母h，介母u，韵母a。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "‘老、草、好’这三个字的韵母都是：",
+        "options": [
+          "ou",
+          "ao",
+          "ai",
+          "uo"
+        ],
+        "answer": "ao",
+        "explanation": "老lǎo，草cǎo，好hǎo，韵母都是ao。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整体认读音节应用",
+        "question": "哪个整体认读音节代表‘圆形’中‘圆’的读音？",
+        "options": [
+          "yu",
+          "yun",
+          "yuan",
+          "yan"
+        ],
+        "answer": "yuan",
+        "explanation": "yuan是整体认读音节，不要拼读。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "小猫‘喵喵’叫，‘猫’（māo）的韵母是：",
+        "options": [
+          "ao",
+          "ou",
+          "uo",
+          "ua"
+        ],
+        "answer": "ao",
+        "explanation": "猫māo，韵母是ao。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "‘梅花’的‘梅’字的复韵母是（___）。",
+        "options": [],
+        "answer": "ei",
+        "explanation": "梅méi，复韵母是ei。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "‘今天’的‘今’字是前鼻音，它的韵母是（___）。",
+        "options": [],
+        "answer": "in",
+        "explanation": "今jīn，韵母是in。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "‘月亮’的‘亮’字，韵母属于后鼻韵母（___）。",
+        "options": [],
+        "answer": "ang",
+        "explanation": "亮liàng，韵母是ang。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "将下列字与其对应的音节连线：",
+        "options": [
+          "飞",
+          "外",
+          "六",
+          "回",
+          "wài",
+          "liù",
+          "huí",
+          "fēi"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "飞fēi，外wài，六liù，回huí。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "区分前后鼻音，将字与韵母连线：",
+        "options": [
+          "蓝",
+          "乒",
+          "分",
+          "朋",
+          "ing",
+          "an",
+          "eng",
+          "en"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "蓝lán(an)，乒pīng(ing)，分fēn(en)，朋péng(eng)。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整体认读音节应用",
+        "question": "将整体认读音节与对应的汉字连线：",
+        "options": [
+          "zi",
+          "wu",
+          "ri",
+          "yu",
+          "日",
+          "鱼",
+          "子",
+          "五"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "zi-子，wu-五，ri-日，yu-鱼。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉语拼音综合应用",
+        "question": "连词成句：",
+        "options": [
+          "小鱼",
+          "在水里",
+          "游来游去"
+        ],
+        "answer": "小鱼,在水里,游来游去",
+        "explanation": "这是典型的主语+地点+动作句式。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉语拼音综合应用",
+        "question": "连词成句：",
+        "options": [
+          "爱吃",
+          "大熊猫",
+          "嫩竹子"
+        ],
+        "answer": "大熊猫,爱吃,嫩竹子",
+        "explanation": "大熊猫是主语，爱吃是动词，嫩竹子是宾语。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "一年级拼音专项期末模拟卷",
+    "total_score": 95,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "整体认读音节应用",
+        "question": "ye是一个复韵母。",
+        "options": [],
+        "answer": "错",
+        "explanation": "ye是整体认读音节，不要当成复韵母拼读。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "‘民’和‘名’的韵母都是in。",
+        "options": [],
+        "answer": "错",
+        "explanation": "‘民’读mín，韵母是in；‘名’读míng，韵母是ing。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "er是一个特殊的韵母，它不能和声母相拼。",
+        "options": [],
+        "answer": "对",
+        "explanation": "er是独立音节，不与任何声母相拼。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "音节jiǔ的韵母是ui。",
+        "options": [],
+        "answer": "错",
+        "explanation": "音节jiǔ的韵母是iu。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "整体认读音节应用",
+        "question": "chi是一个整体认读音节。",
+        "options": [],
+        "answer": "对",
+        "explanation": "chi直接认读，无需拼读。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "下列词语拼音中，韵母是ou的是：",
+        "options": [
+          "皮球",
+          "黄狗",
+          "开心",
+          "水杯"
+        ],
+        "answer": "黄狗",
+        "explanation": "狗读作gǒu，韵母是ou。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "‘灯光’这两个字的韵母依次是：",
+        "options": [
+          "en, an",
+          "eng, ang",
+          "eng, an",
+          "en, ang"
+        ],
+        "answer": "eng, ang",
+        "explanation": "灯dēng，光guāng，都是后鼻韵母。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整体认读音节应用",
+        "question": "‘下雨’的‘雨’字的正确音节是：",
+        "options": [
+          "yǔ",
+          "ǔ",
+          "iǔ",
+          "lǔ"
+        ],
+        "answer": "yǔ",
+        "explanation": "雨是整体认读音节yu。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "‘白菜、买卖、奶奶’这些词里都有哪个韵母？",
+        "options": [
+          "an",
+          "ei",
+          "ai",
+          "ao"
+        ],
+        "answer": "ai",
+        "explanation": "白bái，菜cài，买mǎi，卖mài，奶nǎi，都含有ai。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "短文选读：‘小牛过河，河水浅。小燕子说：河水可深啦！’句中‘牛’和‘流’的韵母是：",
+        "options": [
+          "iu",
+          "ui",
+          "ou",
+          "ao"
+        ],
+        "answer": "iu",
+        "explanation": "牛niú，流liú，韵母都是iu。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "根据‘青、情、请、晴’这组字的规律，它们的韵母都是：",
+        "options": [
+          "in",
+          "ing",
+          "en",
+          "eng"
+        ],
+        "answer": "ing",
+        "explanation": "这组字是形声字，韵母都是后鼻音ing。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "‘雪山’中‘雪’字的拼音是：",
+        "options": [
+          "xuě",
+          "xiě",
+          "xüě",
+          "xǔ"
+        ],
+        "answer": "xuě",
+        "explanation": "x和üe相拼，ü上两点省略。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整体认读音节应用",
+        "question": "‘这里有一只小鸡。’句中属于整体认读音节的音节是：",
+        "options": [
+          "zhe",
+          "li",
+          "zhi",
+          "ji"
+        ],
+        "answer": "zhi",
+        "explanation": "zhi是整体认读音节。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "‘黑猫’的‘黑’字和‘北边’的‘北’字，韵母都是：",
+        "options": [
+          "ie",
+          "ei",
+          "er",
+          "en"
+        ],
+        "answer": "ei",
+        "explanation": "黑hēi，北běi，韵母均为ei。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "‘北京的天安门真雄伟。’这句话里哪一个是前鼻音？",
+        "options": [
+          "京",
+          "安",
+          "雄",
+          "门"
+        ],
+        "answer": "安",
+        "explanation": "安ān是典型的开音节前鼻音。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "‘春天’的‘春’，韵母是（___）。",
+        "options": [],
+        "answer": "un",
+        "explanation": "春chūn，韵母是un。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "复韵母辨析与拼读",
+        "question": "‘学校’的‘校’字，其中的复韵母是（___）。",
+        "options": [],
+        "answer": "ao",
+        "explanation": "校xiào，介母是i，韵母是ao。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整体认读音节应用",
+        "question": "‘白云’的‘云’字的整体认读音节是（___）。",
+        "options": [],
+        "answer": "yun",
+        "explanation": "云yún是整体认读音节。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "整体认读音节应用",
+        "question": "给下列字找朋友（音节匹配）：",
+        "options": [
+          "师",
+          "由",
+          "圆",
+          "五",
+          "yuán",
+          "wǔ",
+          "shī",
+          "yóu"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "师shī，由yóu，圆yuán，五wǔ。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "前鼻韵母与后鼻韵母区分",
+        "question": "判断韵母类型并连线：",
+        "options": [
+          "山",
+          "羊",
+          "林",
+          "丁",
+          "ang",
+          "an",
+          "ing",
+          "in"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "山-an, 羊-ang, 林-in, 丁-ing。"
+      },
+      {
+        "id": 21,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉语拼音综合应用",
+        "question": "连词成句：",
+        "options": [
+          "弯弯的",
+          "像",
+          "月亮",
+          "小船"
+        ],
+        "answer": "弯弯的,月亮,像,小船",
+        "explanation": "这是一个比喻句，主语是月亮。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "汉语拼音综合应用",
+        "question": "连词成句：",
+        "options": [
+          "弟弟",
+          "在灯下",
+          "看书",
+          "认真的"
+        ],
+        "answer": "弟弟,在灯下,认真的,看书",
+        "explanation": "修饰语‘认真的’放在动词‘看书’前面。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "复韵母辨析与拼读",
+      "core_concept": "复韵母是由两个或三个元音结合而成的韵母。发音特点是从一个元音的音值向另一个元音的音值滑动，中间音带连续，口形有明显变化。例如ai，由大口的a向小口的i滑动。重点在于区分ui和iu、ei和ie等形近复韵母。",
+      "key_formula": "复韵母发音：前重后轻，中间滑动。",
+      "common_mistakes": [
+        "将ui读成iu，或者将ei读成ie。",
+        "发音时口形僵硬，没有滑动过程，读成两个独立的单韵母。"
+      ],
+      "tips": "记住‘小i在前ie ie ie，小i在后ei ei ei’。观察口形，先发第一个字母的音，再快速滑向第二个。"
+    },
+    {
+      "point": "前鼻韵母与后鼻韵母区分",
+      "core_concept": "前鼻韵母以舌尖挡住气流（n结尾），音色较清浅；后鼻韵母以舌根抬起挡住气流（ng结尾），音色较浑厚并带有鼻腔共鸣。一年级学生需重点区分an/ang, en/eng, in/ing的读音。",
+      "key_formula": "n结尾舌尖抵齿龈，ng结尾舌根抵软腭。",
+      "common_mistakes": [
+        "发an音时舌尖没有顶住上牙床，导致读成ang。",
+        "将‘民’（mín）和‘名’（míng）混淆。"
+      ],
+      "tips": "发n时感觉气流从鼻孔出来，手摸鼻子有震动；发ng时感觉喉咙后部在用力。"
+    },
+    {
+      "point": "整体认读音节应用",
+      "core_concept": "整体认读音节是不需要经过声母和韵母拼合，而是直接作为一个整体来认读的音节。本单元涉及的包括zhi, chi, shi, ri, zi, ci, si, yi, wu, yu, ye, yue, yuan, yin, yun, ying等16个。",
+      "key_formula": "见符直接读，不必拼声音。",
+      "common_mistakes": [
+        "习惯性进行拆分拼读，如把yu读成y-u。",
+        "将yuan拆解为y-u-an，实际应整体识记。"
+      ],
+      "tips": "编顺口溜：i u ü 见大y，变身整体别拼读；zhi chi shi ri zi ci si，见到小i躲进屋。"
+    }
+  ]
+}

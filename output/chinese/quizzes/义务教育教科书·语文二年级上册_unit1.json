@@ -1,0 +1,744 @@
+{
+  "textbook": "统编版小学语文二年级上册",
+  "unit": "大自然的秘密",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元《大自然的秘密》基础闯关卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "户外活动词汇与书法规律",
+        "question": "“法”这个字书写时左窄右宽。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“法”是三点水旁，属于左窄右宽的结构。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "小蝌蚪先长出两条前腿，后长出两条后腿。",
+        "options": [],
+        "answer": "错",
+        "explanation": "小蝌蚪是先长出两条后腿，再长出两条前腿。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "水在极低温度下会变成冰，这属于水的形态变化。",
+        "options": [],
+        "answer": "对",
+        "explanation": "水遇冷会凝结成冰，变成固体形态。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "“迎上去”和“追上去”的意思完全一样。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“迎”是面对面，“追”是在后面赶，方向不同。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "户外活动词汇与书法规律",
+        "question": "登山时，我们要准备好登山鞋和登山杖。",
+        "options": [],
+        "answer": "对",
+        "explanation": "登山鞋和登山杖是户外登山的必备装备。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "苍耳传播种子主要是靠什么？",
+        "options": [
+          "风力吹拂",
+          "太阳暴晒",
+          "动物皮毛挂住",
+          "水流冲走"
+        ],
+        "answer": "动物皮毛挂住",
+        "explanation": "苍耳身上有刺，会挂在狗或兔子的皮毛上随处旅行。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "“有时候我穿着白衣服，有时候我穿着黑衣服。”这里的“我”是谁？",
+        "options": [
+          "雨",
+          "雪",
+          "云",
+          "雹子"
+        ],
+        "answer": "云",
+        "explanation": "课文中描写云在晴天是白的，阴天是黑的。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "青蛙披着绿衣裳，露着（  ）。",
+        "options": [
+          "大肚子",
+          "大眼睛",
+          "白肚皮",
+          "大嘴巴"
+        ],
+        "answer": "白肚皮",
+        "explanation": "根据课文描述，青蛙是披着碧绿的衣裳，露着雪白的肚皮。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "户外活动词汇与书法规律",
+        "question": "下列哪个字属于“左宽右窄”的结构？",
+        "options": [
+          "给",
+          "如",
+          "都",
+          "极"
+        ],
+        "answer": "都",
+        "explanation": "“都”字的右边单耳旁较窄，左边部分较宽。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "阅读语段：‘小蝌蚪游哇游，过了几天，尾巴变短了。’这句话体现了什么？",
+        "options": [
+          "小蝌蚪变调皮了",
+          "小蝌蚪在成长变化",
+          "小蝌蚪游不动了",
+          "小蝌蚪在找妈妈"
+        ],
+        "answer": "小蝌蚪在成长变化",
+        "explanation": "尾巴变短是小蝌蚪发育过程中的一个生理变化阶段。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "水能做许多好事，下列哪项不是水做的好事？",
+        "options": [
+          "灌溉田地",
+          "发动机器",
+          "淹没庄稼",
+          "冲洗道路"
+        ],
+        "answer": "淹没庄稼",
+        "explanation": "淹没庄稼是水带来的灾害，属于坏事。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "“植物妈妈有办法”中，蒲公英靠什么出发去远方？",
+        "options": [
+          "铠甲",
+          "降落伞",
+          "小翅膀",
+          "大长腿"
+        ],
+        "answer": "降落伞",
+        "explanation": "蒲公英的种子带着毛茸茸的绒毛，像一个个降落伞。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "户外活动词汇与书法规律",
+        "question": "下列词语中，哪一个不属于户外装备？",
+        "options": [
+          "地图",
+          "书包",
+          "水壶",
+          "指南针"
+        ],
+        "answer": "书包",
+        "explanation": "虽然书包能装东西，但在课文语境下，地图、水壶、指南针是特定的原野生存装备。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "选出动词搭配不当的一项：",
+        "options": [
+          "拍拍肩膀",
+          "甩甩尾巴",
+          "鼓着眼睛",
+          "披着肚皮"
+        ],
+        "answer": "披着肚皮",
+        "explanation": "应该是“露着肚皮”，“披着绿衣裳”。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "小雪花从空中（  ）下来。",
+        "options": [
+          "落",
+          "打",
+          "飘",
+          "跳"
+        ],
+        "answer": "飘",
+        "explanation": "雪花很轻，用“飘”描写最为精准生动。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "小蝌蚪大大的脑袋，（___）的长尾巴。",
+        "options": [],
+        "answer": "甩着",
+        "explanation": "应用“甩”来形容长尾巴摆动的动作。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "我在池子里睡觉，在小溪里（___）。",
+        "options": [],
+        "answer": "散步",
+        "explanation": "课文中使用拟人化的“散步”描写水在小溪里的流动。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "小蝌蚪的妈妈是（___）。",
+        "options": [],
+        "answer": "青蛙",
+        "explanation": "这是本单元《小蝌蚪找妈妈》的核心科普点。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "将植物与它们的传播方式连起来。",
+        "options": [
+          "蒲公英",
+          "苍耳",
+          "豌豆",
+          "椰子",
+          "太阳晒",
+          "微风吹",
+          "水流漂",
+          "动物带"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "蒲公英靠风，苍耳靠动物皮毛，豌豆靠太阳晒裂，椰子靠水漂流。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "给下列现象选择正确的变化形态。",
+        "options": [
+          "白云",
+          "雨滴",
+          "冰雹",
+          "雪花",
+          "变成小水滴",
+          "聚成小硬球",
+          "变成小花朵",
+          "变成汽"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "白云是汽升空后的变化，雨是降雨的过程，冰雹是硬球，雪花是花朵。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "请为身体部位选配精准的动词。",
+        "options": [
+          "鼓着",
+          "披着",
+          "露着",
+          "甩着",
+          "绿衣裳",
+          "大眼睛",
+          "长尾巴",
+          "白肚皮"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考察课文原句：鼓着大眼睛，披着绿衣裳，甩着长尾巴，露着白肚皮。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "将词语排成描写水变化的句子：",
+        "options": [
+          "变成",
+          "升到",
+          "天空",
+          "我会",
+          "汽"
+        ],
+        "answer": "我会,升到,天空,变成,汽",
+        "explanation": "主语加动词加地点最后是结果。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "将词语排成介绍种子旅行的句子：",
+        "options": [
+          "纷纷地",
+          "孩子们",
+          "出发",
+          "就",
+          "告别妈妈"
+        ],
+        "answer": "孩子们,就,纷纷地,告别妈妈,出发",
+        "explanation": "这是课文中描写蒲公英种子离开母体的生动表达。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级上册第一单元《大自然的秘密》综合测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "水在不同条件下会变成不同的样子，如汽、雨、雪。",
+        "options": [],
+        "answer": "对",
+        "explanation": "水循环存在液态、气态、固态三种变化。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "户外活动词汇与书法规律",
+        "question": "“顶”字是左宽右窄的结构。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“顶”左边是‘丁’，右边是‘页’，右边笔画多，通常是左右等宽或左窄右宽。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "只要有风，豌豆就能传播种子去旅行。",
+        "options": [],
+        "answer": "错",
+        "explanation": "豌豆传播种子主要靠太阳晒裂豆荚。蒲公英才主要靠风。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "“有时候我很温和，有时候我很暴躁。”这句话运用了拟人手法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "运用人的脾气特征描写水的特性，是拟人写法。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "小蝌蚪找妈妈的时候，鲤鱼阿姨指引了正确的方向。",
+        "options": [],
+        "answer": "对",
+        "explanation": "鲤鱼阿姨告诉了小蝌蚪，它们的妈妈有四条腿和宽嘴巴。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "下雨时，小水滴是从天上（  ）下来的。",
+        "options": [
+          "打",
+          "落",
+          "飘",
+          "洒"
+        ],
+        "answer": "落",
+        "explanation": "根据《我是水》课文原句，描写雨用“落”。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "阅读：‘我在江河里奔跑，在海洋里跳舞、唱歌。’这说明水处于什么状态？",
+        "options": [
+          "静态的水",
+          "冰冻的水",
+          "快速流动的水",
+          "蒸发的水"
+        ],
+        "answer": "快速流动的水",
+        "explanation": "奔跑、跳舞等词暗示了水流的动态之美。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "户外活动词汇与书法规律",
+        "question": "在野外如果迷路了，我们可以依靠什么辨别方向？",
+        "options": [
+          "地图",
+          "帐篷",
+          "登山杖",
+          "水壶"
+        ],
+        "answer": "地图",
+        "explanation": "地图是提供地理位置参考和辨识方向的重要工具。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "小蝌蚪最后变成青蛙前，身体发生的最后一个变化是：",
+        "options": [
+          "长出后腿",
+          "长出前腿",
+          "尾巴不见了",
+          "变成绿色"
+        ],
+        "answer": "尾巴不见了",
+        "explanation": "当尾巴消失，小蝌蚪就彻底变成了能在陆地跳跃的青蛙。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "“粗心的小朋友却得不到它。”这句话中“它”指的是？",
+        "options": [
+          "美食",
+          "种子",
+          "植物妈妈的知识",
+          "好天气"
+        ],
+        "answer": "植物妈妈的知识",
+        "explanation": "《植物妈妈有办法》强调要仔细观察大自然。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "下列哪组词语中带点字的读音全部正确？",
+        "options": [
+          "知识（shi） 旅行（lún）",
+          "炸开（zhà） 捕捉（zhū）",
+          "脑袋（dai） 教诲（huì）",
+          "阿姨（yí） 淹没（méi）"
+        ],
+        "answer": "脑袋（dai） 教诲（huì）",
+        "explanation": "A项旅行读xíng，B项捕捉读zhuō，D项淹没读mò。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "“我在天空中越升越高，体温变低了。”这时我会：",
+        "options": [
+          "变成云",
+          "变成太阳",
+          "变成风",
+          "变成雨"
+        ],
+        "answer": "变成云",
+        "explanation": "水汽升空遇冷凝结成小水珠，形成云。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "乌龟的动作是：",
+        "options": [
+          "蹦蹦跳跳",
+          "划着四条腿",
+          "飞快地跑",
+          "甩着长尾巴"
+        ],
+        "answer": "划着四条腿",
+        "explanation": "描写乌龟在水中滑动的姿态常用“划”。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "“哪儿……哪儿……”表示的含义是：",
+        "options": [
+          "疑问",
+          "到处",
+          "选择",
+          "否定"
+        ],
+        "answer": "到处",
+        "explanation": "比如“四海为家”就是指哪儿都可以是家。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "古诗《梅花》中“遥知不是雪，为有暗香来”的原因是：",
+        "options": [
+          "梅花和雪颜色一样",
+          "梅花散发着香味",
+          "雪有香味",
+          "诗人眼力不好"
+        ],
+        "answer": "梅花散发着香味",
+        "explanation": "因为闻到了清幽暗香，所以诗人才知道那洁白的是梅花而非雪。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "户外活动词汇与书法规律",
+        "question": "“海”字的部首是（___）。",
+        "options": [],
+        "answer": "氵",
+        "explanation": "“海”字是左右结构，部首是三点水。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动植物的生长与传播常识",
+        "question": "植物要旅行，靠的是（___）。",
+        "options": [],
+        "answer": "办法",
+        "explanation": "《植物妈妈有办法》歌咏植物繁衍的各种自然方法。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "看到鲤鱼妈妈，小蝌蚪忙着（___）过去。",
+        "options": [],
+        "answer": "迎",
+        "explanation": "“迎”表示小蝌蚪是有礼貌且主动面对面靠近。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "请将现象与对人类的影响相匹配。",
+        "options": [
+          "灌溉田地",
+          "发动机器",
+          "冲毁房屋",
+          "淹没庄稼",
+          "减少由于干旱造成的损失",
+          "洪水带来的破坏",
+          "转化为清洁的动力",
+          "水稻等作物无法生长"
+        ],
+        "answer": "A-1,B-3,C-2,D-4",
+        "explanation": "ABC三个对应关系分别是水的正面（利）与反面（弊）评价。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "户外活动词汇与书法规律",
+        "question": "根据户外活动场景搭配装备。",
+        "options": [
+          "夜晚行走",
+          "确定方位",
+          "防止滑倒",
+          "寻找水源",
+          "手电筒",
+          "指南针",
+          "防滑鞋",
+          "地图"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "手电筒照明，指南针定位，防滑鞋防摔，地图标示水源。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词积累",
+        "question": "把意思相反的词语连起来。",
+        "options": [
+          "温和",
+          "升高",
+          "明白",
+          "出发",
+          "降低",
+          "暴躁",
+          "到达",
+          "糊涂"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考察课文反义词积累。温和对暴躁，升高对降低，明白对糊涂，出发对应到达。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化表达与动词搭配",
+        "question": "连词成句：",
+        "options": [
+          "披着",
+          "小青蛙",
+          "碧绿的",
+          "衣裳",
+          "一只"
+        ],
+        "answer": "一只,小青蛙,披着,碧绿的,衣裳",
+        "explanation": "数量词+主语+动作+定语+宾语。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "水的形态变化及其影响",
+        "question": "按照水的变化顺序排列词语：",
+        "options": [
+          "变作小水滴",
+          "变成汽",
+          "升到天空",
+          "聚成云"
+        ],
+        "answer": "变成汽,升到天空,聚成云,变作小水滴",
+        "explanation": "遵循自然规律：受热汽化，上升，凝结成云，降雨。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "动植物的生长与传播常识",
+      "core_concept": "本单元通过《小蝌蚪找妈妈》揭示了青蛙变态发育的过程：从卵变蝌蚪，由后腿到前腿，尾巴由长变短至消失。通过《植物妈妈有办法》介绍了植物利用自然力传播种子的奥秘：蒲公英靠风力传播，苍耳利用倒刺挂在动物身上，豌豆则是果荚爆裂弹出种子。",
+      "key_formula": "植物遗传法则：物种通过风、水、动物、光等外部介质扩散生命。",
+      "common_mistakes": [
+        "混淆小蝌蚪长腿的先后顺序（常误认为先长前腿）",
+        "分不清苍耳和豌豆的具体传播介质"
+      ],
+      "tips": "可以用“后前尾”三字经记忆青蛙长腿过程，通过观察实物苍耳的粘附性来理解动物传播。"
+    },
+    {
+      "point": "水的形态变化及其影响",
+      "core_concept": "理解水在自然界的不同存在形式：液态（水、雨）、气态（汽）、固态（冰、雹、雪）。同时通过拟人化视角理解水的双重性：当它在池子睡觉、江河奔跑时是造福人类的工具；当它发起脾气引发灾害时，则需要我们科学防范与治理。",
+      "key_formula": "水形态公式：受热为汽，遇冷成云/雨/雪/冰。",
+      "common_mistakes": [
+        "认为云是气体（其实云是微小水滴或冰晶的集合体）",
+        "无法区分“由于气温降低”产生的不同效果"
+      ],
+      "tips": "画一张水循环示意图，标注出对应的动词（落、打、飘），帮助记忆不同形态。"
+    },
+    {
+      "point": "拟人化表达与动词搭配",
+      "core_concept": "本单元强调了动词运用的精准性，如“披、鼓、露、甩”等词将小动物描写得活灵活现。通过拟人手法，将水、植物、动物赋予人的情感和动作，使科普知识变得亲切生动，增强语言的感染力和趣味性。",
+      "key_formula": "动词精准搭配：动作+特定部位（如：甩+长尾巴）。",
+      "common_mistakes": [
+        "动词错位使用，如“挂着绿衣裳”（应用“披”）",
+        "无法体会“迎”与“追”在具体语境下的情感差异"
+      ],
+      "tips": "结合肢体表演来体会“披、露、鼓、甩”的动作，建立感官连接。"
+    },
+    {
+      "point": "户外活动词汇与书法规律",
+      "core_concept": "积累生活化词汇，掌握野外探险的基本装备，学会从书法角度观察汉字平衡感。二年级汉字教学注重结构美，如“法、如”等字左窄右宽，而“都、别”等字左宽右窄，强调左右部分的比例关系。",
+      "key_formula": "左右平衡法则：左窄右宽求高挑，左宽右窄求稳健。",
+      "common_mistakes": [
+        "书写“极、海洋”时左右部分比例均等，显得臃肿",
+        "“指南针”的“针”字偏旁部首掌握不牢"
+      ],
+      "tips": "临摹字帖时先画辅助框，标注出宽窄比例再动笔。"
+    }
+  ]
+}

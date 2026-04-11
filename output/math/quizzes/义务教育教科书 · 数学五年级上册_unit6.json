@@ -1,0 +1,697 @@
+{
+  "textbook": "人教版小学数学五年级上册",
+  "unit": "多边形的面积",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第6单元：多边形的面积·基础过关卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "平行四边形的底越长，它的面积就越大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据公式 $S=ah$，面积由底和高共同决定。只有在高不变的情况下，底越长面积才越大。如果高变小，面积可能变小。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三角形的面积计算",
+        "question": "两个完全一样的三角形一定可以拼成一个平行四边形。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两个完全一样的三角形，通过旋转和平移可以拼成一个底为三角形底、高为三角形高的平行四边形。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "梯形的面积计算",
+        "question": "梯形的面积等于平行四边形面积的一半。",
+        "options": [],
+        "answer": "错",
+        "explanation": "只有当梯形与平行四边形等底、高相等，且这个平行四边形是由两个完全一样的该梯形拼成时才成立。描述不完整。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "三角形的面积计算",
+        "question": "等底等高的两个三角形，面积一定相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据公式 $S=ah \\div 2$，底和高分别相等，乘积的一半也一定相等。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "组合图形的面积与不规则图形估算",
+        "question": "计算组合图形的面积，只能使用分割法进行计算。",
+        "options": [],
+        "answer": "错",
+        "explanation": "计算组合图形面积除了分割法，还可以使用添补法或其他转化方法。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "一个平行四边形的底是 10 厘米，高是 6 厘米，它的面积是多少平方厘米？",
+        "options": [
+          "16",
+          "30",
+          "60",
+          "120"
+        ],
+        "answer": "60",
+        "explanation": "$10 \\times 6 = 60$（平方厘米）。验算：$60 \\div 10 = 6$ ✓。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的面积计算",
+        "question": "一个三角形的底是 8 分米，高是 5 分米，它的面积是多少平方分米？",
+        "options": [
+          "40",
+          "20",
+          "13",
+          "10"
+        ],
+        "answer": "20",
+        "explanation": "$8 \\times 5 \\div 2 = 20$（平方分米）。注意三角形面积要除以 2。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "梯形的面积计算",
+        "question": "一个梯形的上底是 4 厘米，下底是 6 厘米，高是 5 厘米，它的面积是多少平方厘米？",
+        "options": [
+          "50",
+          "30",
+          "25",
+          "20"
+        ],
+        "answer": "25",
+        "explanation": "$(4+6) \\times 5 \\div 2 = 10 \\times 5 \\div 2 = 25$（平方厘米）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "把一个木条钉成的长方形框拉成一个平行四边形，它的面积如何变化？",
+        "options": [
+          "变大",
+          "变小",
+          "不变",
+          "无法判断"
+        ],
+        "answer": "变小",
+        "explanation": "拉动时周长不变，但高变短了，底不变，因此面积变小。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的面积计算",
+        "question": "一个三角形的面积是 36 平方厘米，底是 9 厘米，它的高是多少厘米？",
+        "options": [
+          "4",
+          "8",
+          "9",
+          "18"
+        ],
+        "answer": "8",
+        "explanation": "$36 \\times 2 \\div 9 = 8$（厘米）。验算：$9 \\times 8 \\div 2 = 36$ ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "组合图形的面积与不规则图形估算",
+        "question": "一个由两个边长 10 厘米的正方形拼成的长方形，面积是多少平方厘米？",
+        "options": [
+          "100",
+          "200",
+          "400",
+          "300"
+        ],
+        "answer": "200",
+        "explanation": "一个正方形面积 $10 \\times 10 = 100$，两个就是 $100 \\times 2 = 200$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "梯形的面积计算",
+        "question": "两个完全一样的梯形拼成一个平行四边形，梯形的面积与平行四边形的面积比较，哪个说法正确？",
+        "options": [
+          "梯形是平行四边形的一半",
+          "梯形是平行四边形的 2 倍",
+          "两者相等",
+          "无法比较"
+        ],
+        "answer": "梯形是平行四边形的一半",
+        "explanation": "拼成的平行四边形由两个梯形构成，所以每个梯形面积是其一半。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "平行四边形的底扩大到原来的 3 倍，高扩大到原来的 2 倍，面积扩大到原来的多少倍？",
+        "options": [
+          "5",
+          "6",
+          "1",
+          "3"
+        ],
+        "answer": "6",
+        "explanation": "$3 \\times 2 = 6$，根据积的变化规律，面积应扩大到原来的 $3\\times2=6$ 倍。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的面积计算",
+        "question": "在边长是 8 厘米的正方形内画一个最大的三角形，三角形的面积是多少平方厘米？",
+        "options": [
+          "64",
+          "48",
+          "32",
+          "16"
+        ],
+        "answer": "32",
+        "explanation": "三角形的底和高最大都等于正方形的边长，$8 \\times 8 \\div 2 = 32$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "组合图形的面积与不规则图形估算",
+        "question": "估计一张树叶的面积，通常采用哪种方法？",
+        "options": [
+          "直接测量",
+          "数方格",
+          "公式计算",
+          "秤重法"
+        ],
+        "answer": "数方格",
+        "explanation": "不规则图形通常通过数方格法估算面积。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "已知一个平行四边形的面积是 48 平方厘米，高是 6 厘米，它的底是多少厘米？",
+        "options": [
+          "8",
+          "6",
+          "12",
+          "4"
+        ],
+        "answer": "8",
+        "explanation": "$48 \\div 6 = 8$。验算：$8 \\times 6 = 48$ ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "梯形的面积计算",
+        "question": "一个梯形的高是 10 厘米，如果上底增加 3 厘米，下底减少 3 厘米，面积会如何？",
+        "options": [
+          "增加",
+          "减少",
+          "不变",
+          "无法判断"
+        ],
+        "answer": "不变",
+        "explanation": "上底加下底的和没变，$(a+3) + (b-3) = a+b$，所以面积不变。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的面积计算",
+        "question": "一个等腰直角三角形的直角边长 10 厘米，它的面积是多少平方厘米？",
+        "options": [
+          "100",
+          "50",
+          "25",
+          "20"
+        ],
+        "answer": "50",
+        "explanation": "直角三角形两条直角边互为底和高，$10 \\times 10 \\div 2 = 50$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "一个平行四边形的地面，底是 20 米，高是 5 米，面积是 ___ 平方米。",
+        "options": [],
+        "answer": "100",
+        "explanation": "列式：$20 \\times 5 = 100$。验算：$100 \\div 5 = 20$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的面积计算",
+        "question": "一个三角形的底是 14 厘米，高是 10 厘米，与它等底等高的平行四边形的面积是 ___ 平方厘米。",
+        "options": [],
+        "answer": "140",
+        "explanation": "平行四边形面积为 $ah = 14 \\times 10 = 140$。验算：三角形面积是 $140 \\div 2 = 70$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "梯形的面积计算",
+        "question": "一堆圆木，最上层有 3 根，最下层有 7 根，一共有 5 层。这堆圆木一共有 ___ 根。",
+        "options": [],
+        "answer": "25",
+        "explanation": "圆木堆积符合梯形规律：$(3+7) \\times 5 \\div 2 = 10 \\times 5 \\div 2 = 25$。验算：$3+4+5+6+7 = 25$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的面积计算",
+        "question": "计算：$12 \\times 8 \\div 2 = ?$",
+        "options": [],
+        "answer": "48",
+        "explanation": "$12 \\times 8 = 96$，$96 \\div 2 = 48$。验算：$48 \\times 2 = 96$，$96 \\div 8 = 12$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "梯形的面积计算",
+        "question": "计算：$(15 + 25) \\times 4 \\div 2 = ?$",
+        "options": [],
+        "answer": "80",
+        "explanation": "$15 + 25 = 40$，$40 \\times 4 = 160$，$160 \\div 2 = 80$。验算：$80 \\times 2 = 160$，$160 \\div 4 = 40$，$40 - 15 = 25$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级上册《多边形的面积》单元名校测评卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "两个平行四边形的面积相等，它们的底和高也一定分别相等。",
+        "options": [],
+        "answer": "错",
+        "explanation": "面积相等，底和高的乘积相等即可。比如 $4 \\times 3 = 12$ 和 $2 \\times 6 = 12$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "三角形的面积计算",
+        "question": "直角三角形的面积等于两条直角边长度乘积的一半。",
+        "options": [],
+        "answer": "对",
+        "explanation": "直角三角形的两条直角边互为底和高，公式 $S=ah \\div 2$ 适用。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "梯形的面积计算",
+        "question": "任意一个梯形都可以分成两个等高的三角形。",
+        "options": [],
+        "answer": "对",
+        "explanation": "连结一条对角线，可将梯形分成底分别为上底和下底、高相等的两个三角形。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "组合图形的面积与不规则图形估算",
+        "question": "计算不规则图形面积时，数方格的结果是一个精确值。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数方格是对不规则图形面积的估算，不是精确值。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "同底等高的平行四边形，形状一定完全一样。",
+        "options": [],
+        "answer": "错",
+        "explanation": "同底等高意味着面积相等，但倾斜角度可以不同，形状不一定一样。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "一块平行四边形菜地的底是 40 米，高是 25 米，面积是多少平方米？",
+        "options": [
+          "1000",
+          "500",
+          "100",
+          "65"
+        ],
+        "answer": "1000",
+        "explanation": "$40 \\times 25 = 1000$（平方米）。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的面积计算",
+        "question": "一个三角形的底和高都扩大到原来的 2 倍，面积扩大到原来的多少倍？",
+        "options": [
+          "2",
+          "4",
+          "8",
+          "6"
+        ],
+        "answer": "4",
+        "explanation": "$2 \\times 2 = 4$。面积扩大倍数是底扩大倍数与高扩大倍数的乘积。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "梯形的面积计算",
+        "question": "一个梯形的面积是 40 平方厘米，上底是 3 厘米，下底是 5 厘米，它的高是多少厘米？",
+        "options": [
+          "5",
+          "10",
+          "15",
+          "20"
+        ],
+        "answer": "10",
+        "explanation": "$40 \\times 2 \\div (3+5) = 80 \\div 8 = 10$（厘米）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "一个平行四边形的高是 8 厘米，底比高多 2 厘米，它的面积是多少平方厘米？",
+        "options": [
+          "16",
+          "48",
+          "80",
+          "40"
+        ],
+        "answer": "80",
+        "explanation": "底是 $8+2=10$ 厘米，面积是 $10 \\times 8 = 80$ 平方厘米。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的面积计算",
+        "question": "两个等底等高的三角形，一定具有什么特征？",
+        "options": [
+          "形状相同",
+          "面积相等",
+          "能拼成正方形",
+          "周长相等"
+        ],
+        "answer": "面积相等",
+        "explanation": "面积公式 $S=ah \\div 2$ 决定了只要底和高相等，面积就相等。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "梯形的面积计算",
+        "question": "一个梯形的上底是 6 分米，下底是 10 分米，高是 1 分米，面积是多少平方分米？",
+        "options": [
+          "16",
+          "8",
+          "30",
+          "10"
+        ],
+        "answer": "8",
+        "explanation": "$(6+10) \\times 1 \\div 2 = 8$ 平方分米。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "组合图形的面积与不规则图形估算",
+        "question": "在大正方形（边长 6 厘米）里挖去一个小正方形（边长 2 厘米），剩下部分的面积是多少平方厘米？",
+        "options": [
+          "32",
+          "36",
+          "4",
+          "40"
+        ],
+        "answer": "32",
+        "explanation": "$6 \\times 6 - 2 \\times 2 = 36 - 4 = 32$ 平方厘米。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的面积计算",
+        "question": "一个三角形的底是 10 厘米，高减少 2 厘米，面积减少了多少平方厘米？",
+        "options": [
+          "20",
+          "10",
+          "5",
+          "2"
+        ],
+        "answer": "10",
+        "explanation": "$10 \\times 2 \\div 2 = 10$。减少的面积等于底乘以减少的高再除以 2。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "把一个平行四边形割补成长方形，它的什么没变？",
+        "options": [
+          "周长",
+          "高",
+          "面积",
+          "形状"
+        ],
+        "answer": "面积",
+        "explanation": "割补法只是改变了形状，面积总量保持不变。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "梯形的面积计算",
+        "question": "一个梯形的面积是 100 平方厘米，高是 10 厘米，它的上下底之和是多少厘米？",
+        "options": [
+          "10",
+          "20",
+          "40",
+          "5"
+        ],
+        "answer": "20",
+        "explanation": "$100 \\times 2 \\div 10 = 20$（厘米）。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "三角形的面积计算",
+        "question": "一个三角形与一个平行四边形等底等高，平行四边形面积是 24，三角形面积是多少？",
+        "options": [
+          "48",
+          "24",
+          "12",
+          "6"
+        ],
+        "answer": "12",
+        "explanation": "$24 \\div 2 = 12$。等底等高三角形面积是平行四边形的一半。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "平行四边形的两条邻边分别为 5 厘米和 8 厘米，量得其中的一条高是 6 厘米，它的面积是多少平方厘米？",
+        "options": [
+          "48",
+          "30",
+          "40",
+          "24"
+        ],
+        "answer": "30",
+        "explanation": "高必须比斜边短，所以高 6 对应的底必须是 5。面积 $5 \\times 6 = 30$。如果底是 8，高必须小于 5。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "组合图形的面积与不规则图形估算",
+        "question": "下面哪个图形的面积可以用割补法转化成长方形？",
+        "options": [
+          "平行四边形",
+          "圆柱",
+          "球体",
+          "五角星"
+        ],
+        "answer": "平行四边形",
+        "explanation": "平行四边形可以通过沿高剪开并平移，转化为一个长方形。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "平行四边形的面积计算",
+        "question": "一个平行四边形的底是 15 厘米，是高的 3 倍，这个平行四边形的面积是 ___ 平方厘米。",
+        "options": [],
+        "answer": "75",
+        "explanation": "高为 $15 \\div 3 = 5$ 厘米，面积为 $15 \\times 5 = 75$。验算：$75 \\div 15 = 5$，$5 \\times 3 = 15$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "三角形的面积计算",
+        "question": "一个三角形的底是 20 厘米，高是 12 厘米，把它裁成一个最大的平行四边形，这个平行四边形面积是 ___ 平方厘米。",
+        "options": [],
+        "answer": "120",
+        "explanation": "最大平行四边形面积应为原三角形的一半或底同高为一半，此处应理解为同底（或同高）时对应的最大面积 $20 \\times 12 \\div 2 = 120$。等效于三角形面积本身。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "组合图形的面积与不规则图形估算",
+        "question": "由两个边长为 6 厘米的正方形重叠一部分组成一个长方形，重叠部分是长 2 厘米、宽 6 厘米的小长方形，总面积是 ___ 平方厘米。",
+        "options": [],
+        "answer": "60",
+        "explanation": "两个正方形面积和 $6 \\times 6 \\times 2 = 72$，减去重复计算的重叠部分 $2 \\times 6 = 12$，面积为 $72 - 12 = 60$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "三角形的面积计算",
+        "question": "计算：$50 \\times 20 \\div 2 = ?$",
+        "options": [],
+        "answer": "500",
+        "explanation": "$50 \\times 20 = 1000$，$1000 \\div 2 = 500$。验算：$500 \\times 2 = 1000$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "梯形的面积计算",
+        "question": "计算：$(20 + 30) \\times 10 \\div 2 = ?$",
+        "options": [],
+        "answer": "250",
+        "explanation": "$20 + 30 = 50$，$50 \\times 10 = 500$，$500 \\div 2 = 250$。验算：$250 \\times 2 = 500$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "平行四边形的面积计算",
+      "core_concept": "平行四边形的面积可以转化成一个长方形来推导。通过切割出一部分平移到另一边，长方形的长等于平行四边形的底，长方形的宽等于平行四边形的高。因此面积就是底乘高。",
+      "key_formula": "$S = ah$",
+      "common_mistakes": [
+        "计算面积时误除以 2（与三角形混淆）",
+        "计算面积时没有找准对应的底和高（高必须垂直于底）"
+      ],
+      "tips": "拉动长方形框架变成平行四边形时，周长不变，但由于高变短了，面积也会变小。"
+    },
+    {
+      "point": "三角形的面积计算",
+      "core_concept": "两个完全一样的三角形可以拼成一个平行四边形。这个平行四边形的底等于三角形的底，高等于三角形的高。因为三角形是拼成平行四边形的一半，所以需要除以 2。",
+      "key_formula": "$S = ah \\div 2$",
+      "common_mistakes": [
+        "最重要的错误：忘记除以 2",
+        "在等底等高条件下，错误认为三角形面积等于平行四边形面积"
+      ],
+      "tips": "求底或求高时，记得先用面积乘以 2，再除以已知的底或高。"
+    },
+    {
+      "point": "梯形的面积计算",
+      "core_concept": "两个完全一样的梯形可以拼成一个平行四边形。拼成的平行四边形的底等于梯形的“上底+下底”，高就等于梯形的高。梯形面积就是这个平行四边形的一半。",
+      "key_formula": "$S = (a + b)h \\div 2$",
+      "common_mistakes": [
+        "忘记除以 2",
+        "上底和下底没有先相加就开始乘除计算"
+      ],
+      "tips": "计算圆木堆堆数时，最上层根数相当于上底，最下层根数相当于下底，层数就是高。"
+    },
+    {
+      "point": "组合图形的面积与不规则图形估算",
+      "core_concept": "组合图形由几个基本多边形组成，计算方法有“分割法”（把图形分成几个简单图形加起来）和“添补法”（把图形补成一个大简单图形再减去多余部分）。不规则图形则常通过数方格（满格记 1，不满格通常记半格或 0.5）来估算。",
+      "key_formula": "$S_{总} = S_1 + S_2$ 或 $S_{总} = S_{大} - S_{小}$",
+      "common_mistakes": [
+        "分割图形后找错隐藏的边长尺寸",
+        "添补法时忘记减去补上去的那部分面积"
+      ],
+      "tips": "尽量采用简单的分割方式。数不规则图形方格时，可以先数满格，再数不满格。 "
+    }
+  ]
+}

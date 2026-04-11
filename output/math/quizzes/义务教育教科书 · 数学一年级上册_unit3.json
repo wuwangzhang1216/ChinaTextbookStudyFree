@@ -1,0 +1,717 @@
+{
+  "textbook": "人教版小学数学一年级上册",
+  "unit": "1~5的认识和加减法",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元「1~5的认识和加减法」基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "1~5的基数与序数含义",
+        "question": "一共有5个小朋友排队，小明排在第2个，小明后面还有3个人。",
+        "options": [],
+        "answer": "对",
+        "explanation": "总人数5人，小明是第2个，他前面有1人。后面人数为 $5 - 2 = 3$ 人。验算：$1 + 1 + 3 = 5$ ✓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "0的认识与相关加减法",
+        "question": "一个数加上0，还得这个数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "0表示什么都没有，任何数加上0，大小都不变。例如 $3 + 0 = 3$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "通过符号(=、>、<)比较大小",
+        "question": "3比4大，所以可以用符号 $3 > 4$ 表示。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在数列中3在4的前面，3比4小，应该用小于号表示：$3 < 4$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "5以内数的分与合",
+        "question": "把5个苹果分给两个小朋友，只有一种分法。",
+        "options": [],
+        "answer": "错",
+        "explanation": "5的分成有：1和4，2和3，3和2，4和1，共4种分法（不考虑0）。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "减法的初步认识",
+        "question": "算式 $5 - 5 = 0$ 是正确的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "相同的两个数相减，结果等于0。验算：$0 + 5 = 5$ ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~5的基数与序数含义",
+        "question": "在1、2、3、4、5这五个数中，排在最中间的数是几？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "这五个数排好序后，3的前面有两个数（1,2），后面也有两个数（4,5），所以3在中间。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过符号(=、>、<)比较大小",
+        "question": "下面哪个符号填在 $2 \bigcirc 5$ 中是正确的？",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": "<",
+        "explanation": "2比5小，开口应该朝向大的数，所以填小于号 <。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "5以内数的分与合",
+        "question": "4可以分成2和几？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "根据数的组成，$2 + 2 = 4$，所以4可以分成2和2。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法的初步认识",
+        "question": "树上有2只小鸟，又飞来了3只，现在一共有几只？",
+        "options": [
+          "1只",
+          "4只",
+          "5只",
+          "0只"
+        ],
+        "answer": "5只",
+        "explanation": "求一共有多少用加法：$2 + 3 = 5$。验算：$5 - 3 = 2$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "减法的初步认识",
+        "question": "小明有5块饼干，吃了一些后还剩1块，吃了多少块？",
+        "options": [
+          "2块",
+          "3块",
+          "4块",
+          "5块"
+        ],
+        "answer": "4块",
+        "explanation": "总数5减去剩下的1，得到吃掉的数量：$5 - 1 = 4$。验算：$4 + 1 = 5$ ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "0的认识与相关加减法",
+        "question": "计算 $4 - 0 = \bigcirc$，圈里应填什么？",
+        "options": [
+          "0",
+          "1",
+          "4",
+          "5"
+        ],
+        "answer": "4",
+        "explanation": "任何数减去0，结果还是原来的数。$4 - 0 = 4$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~5的基数与序数含义",
+        "question": "一队小朋友排队，从前往后数小红排第3，小红前面有几个人？",
+        "options": [
+          "1人",
+          "2人",
+          "3人",
+          "4人"
+        ],
+        "answer": "2人",
+        "explanation": "小红排第3，说明她是第3个，她前面有第1个和第2个，共2个人。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法的初步认识",
+        "question": "下面哪个算式的得数是5？",
+        "options": [
+          "1+3",
+          "2+2",
+          "3+2",
+          "0+4"
+        ],
+        "answer": "3+2",
+        "explanation": "$1+3=4$, $2+2=4$, $3+2=5$, $0+4=4$。故选 3+2。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "减法的初步认识",
+        "question": "算式 $4 - 1$ 的结果是多少？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "$4 - 1 = 3$。验算：$3 + 1 = 4$ ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "0的认识与相关加减法",
+        "question": "鱼缸里原来有3条鱼，全死后捞出来了，现在鱼缸里有几条鱼？",
+        "options": [
+          "0条",
+          "1条",
+          "2条",
+          "3条"
+        ],
+        "answer": "0条",
+        "explanation": "全部捞出了，表示什么都没有了，用0表示。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过符号(=、>、<)比较大小",
+        "question": "和 4 相等的数是哪个？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "0"
+        ],
+        "answer": "4",
+        "explanation": "同样大小的数用等号连接，$4 = 4$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "5以内数的分与合",
+        "question": "5可以分成几和几？",
+        "options": [
+          "1和3",
+          "2和2",
+          "4和1",
+          "3和3"
+        ],
+        "answer": "4和1",
+        "explanation": "检查选项：$1+3=4$, $2+2=4$, $4+1=5$, $3+3=6$。所以选 4和1。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "加法的初步认识",
+        "question": "已知 $\bigcirc + 1 = 4$，那么 $\bigcirc$ 应该是几？",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "answer": "3",
+        "explanation": "这是一个逆运算问题。已知和与一个加数，求另一个加数：$4 - 1 = 3$。验证：$3 + 1 = 4$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "5以内数的分与合",
+        "question": "5可以分成2和 ___。",
+        "options": [],
+        "answer": "3",
+        "explanation": "根据5的组成，$2 + 3 = 5$。验算：$5 - 2 = 3$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~5的基数与序数含义",
+        "question": "小明家住在第4层，小明家下面有 ___ 层。",
+        "options": [],
+        "answer": "3",
+        "explanation": "小明家是第4层，在他下面的是第1、2、3层，一共3层。验算：$4 - 1 = 3$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "加法的初步认识",
+        "question": "停车场原来有1辆车，又开进来4辆，现在共有 ___ 辆车。",
+        "options": [],
+        "answer": "5",
+        "explanation": "合并用加法：$1 + 4 = 5$。单步计算 1 加 4 等于 5。验算：$5 - 4 = 1$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "减法的初步认识",
+        "question": "$4 - 2 = ?$",
+        "options": [],
+        "answer": "2",
+        "explanation": "$4 - 2 = 2$。验算：$2 + 2 = 4$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "0的认识与相关加减法",
+        "question": "$0 + 5 = ?$",
+        "options": [],
+        "answer": "5",
+        "explanation": "0加上任何数等于那个数本身，$0 + 5 = 5$。验算：$5 - 0 = 5$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第3单元「1~5的认识和加减法」综合能力测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "0的认识与相关加减法",
+        "question": "0和任何数相乘都得0。（本单元考查范围：0比1小）",
+        "options": [],
+        "answer": "对",
+        "explanation": "虽然主要学加减，但0表示没有的概念是基础。在加减中，$0 + 0 = 0$，$0 - 0 = 0$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "通过符号(=、>、<)比较大小",
+        "question": "算式 $2 + 1$ 的结果比 $5 - 3$ 的结果大。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$2 + 1 = 3$，$5 - 3 = 2$，$3 > 2$，所以正确。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "加法的初步认识",
+        "question": "2和3合起来是5。",
+        "options": [],
+        "answer": "对",
+        "explanation": "加法就是合并的意思，$2 + 3 = 5$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "1~5的基数与序数含义",
+        "question": "第5个数就是指一共有5个数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“第5”是指序数，指特定排在第5位置的那一个；“一共5个”是基数，指总数。两者含义不同。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "5以内数的分与合",
+        "question": "只要两个数的和是5，这两个数就一定是2和3。",
+        "options": [],
+        "answer": "错",
+        "explanation": "还可能是1和4，或者0和5。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "1~5的基数与序数含义",
+        "question": "1, 2, ( ), 4, 5。括号里应该填几？",
+        "options": [
+          "0",
+          "3",
+          "5",
+          "1"
+        ],
+        "answer": "3",
+        "explanation": "这是按照从小到大的顺序排列，2后面是3。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "通过符号(=、>、<)比较大小",
+        "question": "下面的算式中，得数最大的是哪个？",
+        "options": [
+          "1+2",
+          "5-0",
+          "3+1",
+          "4-2"
+        ],
+        "answer": "5-0",
+        "explanation": "$1+2=3$, $5-0=5$, $3+1=4$, $4-2=2$。5最大。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "5以内数的分与合",
+        "question": "把4个饼干分给两个小朋友，每人分得同样多，每人分几个？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "2个",
+        "explanation": "4可以分成2和2，所以每人分2个正好分完且相等。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加法的初步认识",
+        "question": "一共有5个气球，左手拿了2个，右手拿了几个？",
+        "options": [
+          "2个",
+          "3个",
+          "4个",
+          "5个"
+        ],
+        "answer": "3个",
+        "explanation": "总数5减去左手的2等于右手的：$5 - 2 = 3$。验证：$2 + 3 = 5$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "减法的初步认识",
+        "question": "5 - ( ) > 3，括号里可以填几？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "1",
+        "explanation": "如果填1，$5 - 1 = 4$，$4 > 3$ 成立；填2则得2不大于3；填3得2不大于3；填4得1不大于3。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "0的认识与相关加减法",
+        "question": "小猫钓鱼，一条也没钓到，用哪个数表示？",
+        "options": [
+          "1",
+          "2",
+          "0",
+          "3"
+        ],
+        "answer": "0",
+        "explanation": "0表示一个也没有。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "1~5的基数与序数含义",
+        "question": "从1数到5，第4个数是多少？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "answer": "4",
+        "explanation": "1（第一），2（第二），3（第三），4（第四），所以是4。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "通过符号(=、>、<)比较大小",
+        "question": "如果 $\bigcirc < 3$，那么 $\bigcirc$ 可能是几？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "answer": "2",
+        "explanation": "比3小的数有0, 1, 2。选项中只有2符合要求。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "5以内数的分与合",
+        "question": "3可以分成1和几？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "$1 + 2 = 3$，所以3可以分成1和2。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加法的初步认识",
+        "question": "$2 + 2$ 的得数和下面哪个算式相同？",
+        "options": [
+          "5-1",
+          "1+1",
+          "3+2",
+          "4-3"
+        ],
+        "answer": "5-1",
+        "explanation": "$2+2=4$。选项：$5-1=4$，$1+1=2$，$3+2=5$，$4-3=1$。故选 5-1。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "减法的初步认识",
+        "question": "5个苹果，吃了5个，还剩几个？",
+        "options": [
+          "0个",
+          "5个",
+          "1个",
+          "10个"
+        ],
+        "answer": "0个",
+        "explanation": "$5 - 5 = 0$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "0的认识与相关加减法",
+        "question": "已知 $\triangle - \triangle = 0$，且 $\triangle + \triangle = 4$，那么 $\triangle$ 是多少？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "相同的两个数相加等于4，只有 $2 + 2 = 4$，所以 $\triangle$ 是 2。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "1~5的基数与序数含义",
+        "question": "一群小动物排队，公鸡前面有2只，后面有2只，一共有几只小动物？",
+        "options": [
+          "3只",
+          "4只",
+          "5只",
+          "2只"
+        ],
+        "answer": "5只",
+        "explanation": "前面2只 + 公鸡1只 + 后面2只 = 5只。$2 + 1 + 2 = 5$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过符号(=、>、<)比较大小",
+        "question": "在 1, 5, 3 这三个数中，最大的数是 ___。",
+        "options": [],
+        "answer": "5",
+        "explanation": "比较大小：$5 > 3 > 1$，最大的数是5。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "加法的初步认识",
+        "question": "小红有2元钱，妈妈又给了2元，小红现在有 ___ 元钱。",
+        "options": [],
+        "answer": "4",
+        "explanation": "原有2元，增加2元。列式：$2 + 2 = 4$。验算：$4 - 2 = 2$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "5以内数的分与合",
+        "question": "有两个盘子，一共放了5个苹果。第一个盘子放了1个，第二个盘子要放 ___ 个。",
+        "options": [],
+        "answer": "4",
+        "explanation": "总数是5，分成了1和另外一部分。列式：$5 - 1 = 4$。验算：$1 + 4 = 5$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "减法的初步认识",
+        "question": "$5 - 4 = ?$",
+        "options": [],
+        "answer": "1",
+        "explanation": "$5 - 4 = 1$。验算：$1 + 4 = 5$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "0的认识与相关加减法",
+        "question": "$3 - 3 + 2 = ?$",
+        "options": [],
+        "answer": "2",
+        "explanation": "先算 $3 - 3 = 0$，再算 $0 + 2 = 2$。验算：$2 - 2 + 3 = 3$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "1~5的基数与序数含义",
+      "core_concept": "基数表示物体的“总个数”，回答的是“有多少”；序数表示物体在序列中的“位置”，回答的是“第几个”。例如：5个人排队（基数），排在末尾的是第5个（序数）。",
+      "key_formula": "从左往右数：第1，第2，... 第n。",
+      "common_mistakes": [
+        "混淆‘第5个’和‘5个’，认为‘第5个’就是代表5个物体。",
+        "数数时漏数或者重复数（点数不一致）。"
+      ],
+      "tips": "数数时，手指指着物体，数一个移一个，做到眼、手、口同步。"
+    },
+    {
+      "point": "通过符号(=、>、<)比较大小",
+      "core_concept": "用于描述数与数之间的大小关系。开口向大数，尖尖对小数。两数相等用等号（=），左边大用大于号（>），右边大用小于号（<）。",
+      "key_formula": "大数 > 小数；小数 < 大数；等数 = 等数",
+      "common_mistakes": [
+        "分不清大于号 > 和小于号 < 的方向。",
+        "在比较算式结果和数字时，忘记先计算出算式的得数。"
+      ],
+      "tips": "可以记住儿歌：开口朝大数，尖尖对小数，两边相等画二横。"
+    },
+    {
+      "point": "5以内数的分与合",
+      "core_concept": "理解一个整体可以分成两个部分，两个部分也可以合并成一个整体。如5可以分成1和4、2和3。这是学习加减法的基石。",
+      "key_formula": "$n = a + b$",
+      "common_mistakes": [
+        "分的时候漏掉某种情况（如5的分成漏掉2和3）。",
+        "记不住4和5的组成，导致加减计算速度慢。"
+      ],
+      "tips": "利用自己的五根手指来练习，折下一根想起 1和4，折下两根想起 2和3。"
+    },
+    {
+      "point": "加法的初步认识",
+      "core_concept": "加法是指把两部分东西合并在一起求总数的过程。算式中用加号“+”连接。如 2+1=3 表示2个和1个合起来是3个。",
+      "key_formula": "部分 + 部分 = 整体",
+      "common_mistakes": [
+        "不理解加法的意义，把加法题做成减法。",
+        "计算 2+3 时错算成 4。"
+      ],
+      "tips": "想象成两个好朋友搬家搬到了同一个房子里，总人数增加了。"
+    },
+    {
+      "point": "减法的初步认识",
+      "core_concept": "减法是从总数里去掉一部分，求剩下多少的过程。算式中用减号“-”连接。如 5-2=3 表示从5个里拿走2个还剩3个。",
+      "key_formula": "整体 - 部分 = 另一部分",
+      "common_mistakes": [
+        "分不清整体和部分，用小数减大数（如3-5）。",
+        "看图列式时，把去掉的部分当成剩下的部分。"
+      ],
+      "tips": "想象成气球飞走了、苹果被吃了、小鸟飞走了，数量在减少。"
+    },
+    {
+      "point": "0的认识与相关加减法",
+      "core_concept": "0不仅表示“一个也没有”，还表示起点的意思（如尺子的刻度0）。在计算中，任何数加0仍得原数，任何数减0也得原数，两个相同的数相减得0。",
+      "key_formula": "$a + 0 = a; a - 0 = a; a - a = 0$",
+      "common_mistakes": [
+        "认为 0+5=0（把0当成了没有，认为加了也不占位）。",
+        "混淆 5-0 和 5-5，结果都写成0。"
+      ],
+      "tips": "把0想象成“空气”，你抱着5个苹果，加了空气还是5个；吃光了5个苹果，手里就剩空气了。"
+    }
+  ]
+}

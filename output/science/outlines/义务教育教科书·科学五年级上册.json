@@ -1,0 +1,199 @@
+{
+  "textbook": "五年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "光",
+      "knowledge_points": [
+        {
+          "name": "光源的辨析",
+          "description": "理解自身能发光的物体称为光源，并能区分光源与非光源（如月亮、镜子）。",
+          "difficulty": 1,
+          "question_types": [
+            "判断",
+            "选择",
+            "填空"
+          ]
+        },
+        {
+          "name": "光的直线传播与遮挡",
+          "description": "理解光在同种均匀介质中沿直线传播，以及遇到不同透明度物体产生的现象。",
+          "difficulty": 2,
+          "question_types": [
+            "操作题",
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "光的折射现象",
+          "description": "认识光从一种介质斜射入另一种介质时传播方向发生偏折的规律。",
+          "difficulty": 2,
+          "question_types": [
+            "操作题",
+            "选择",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "光的色散与合成",
+          "description": "通过三棱镜实验认识白光由七色光组成，了解彩色轮的混合原理。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "判断",
+            "操作题"
+          ]
+        },
+        {
+          "name": "光的反射与潜望镜原理",
+          "description": "理解光遇到物体表面改变传播方向的现象，并能应用两次反射原理制作潜望镜。",
+          "difficulty": 3,
+          "question_types": [
+            "操作题",
+            "应用题",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "地球表面的变化",
+      "knowledge_points": [
+        {
+          "name": "典型地形地貌的特征与成因",
+          "description": "描述高原、盆地、雅丹地貌等形态，并初步推测地壳运动、风、水等形成因素。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "连线/匹配",
+            "选择"
+          ]
+        },
+        {
+          "name": "地球内部圈层结构",
+          "description": "识别地壳、地幔、地核三个圈层，了解岩石的分类（岩浆岩、沉积岩、变质岩）。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "地震与火山的成因",
+          "description": "通过模拟实验理解地球内部能量释放对地表形态的剧烈改变。",
+          "difficulty": 3,
+          "question_types": [
+            "操作题",
+            "应用题",
+            "选择"
+          ]
+        },
+        {
+          "name": "风与水对外力的侵蚀与沉积作用",
+          "description": "探究风力搬运和流水降雨对土壤、岩石的长期塑造作用及植被的保护意义。",
+          "difficulty": 3,
+          "question_types": [
+            "规律探索",
+            "应用题",
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "计量时间",
+      "knowledge_points": [
+        {
+          "name": "古代计时工具的原理",
+          "description": "了解日晷、燃香、水钟等利用自然周期或等速消耗现象进行计时的工具。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "填空",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "水钟的设计与水位控制",
+          "description": "探究水流速度与水位的关系，掌握通过保持水位恒定实现匀速滴漏的方法。",
+          "difficulty": 4,
+          "question_types": [
+            "操作题",
+            "应用题",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "单摆的等时性与摆长规律",
+          "description": "探究影响摆动快慢的因素，理解摆的快慢只与摆绳长度有关。",
+          "difficulty": 3,
+          "question_types": [
+            "规律探索",
+            "填空",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "计时工具的演变与精准计时",
+          "description": "比较不同计时工具的准确性，理解精准计时对现代社会的重要性。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "应用题",
+            "排序/比较"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "健康生活",
+      "knowledge_points": [
+        {
+          "name": "体质监测与BMI计算",
+          "description": "掌握体重指数的计算方法，通过各项指标评价个人体质健康状况。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "应用题",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "运动系统的协作机制",
+          "description": "理解骨、关节、肌肉如何相互配合完成身体动作。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "判断",
+            "操作题"
+          ]
+        },
+        {
+          "name": "血液循环系统的功能与计算",
+          "description": "认识心脏的泵血作用，并能进行简单的每小时血液输出量计算。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "选择",
+            "填空"
+          ]
+        },
+        {
+          "name": "神经系统的信息传递与脑的保护",
+          "description": "了解脑、脊髓、神经的作用，掌握保护大脑及管理压力、情绪的方法。",
+          "difficulty": 2,
+          "question_types": [
+            "判断",
+            "选择",
+            "应用题"
+          ]
+        }
+      ]
+    }
+  ]
+}

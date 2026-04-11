@@ -1,0 +1,717 @@
+{
+  "textbook": "统编版小学语文六年级上册",
+  "unit": "第一单元：从所读的内容想开去",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元 联想与想象 单元达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "“我是亲友之间交往的礼品，我是婚礼上的冠冕，我是生者赠与死者的最后的祭献。”这句话运用了排比的修辞方法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "句中出现了三个结构相同（我是...）、语气一致的短句排列在一起，符合排比的定义。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "在并列关系的分句之间，如果没有逗号，则不能使用分号。",
+        "options": [],
+        "answer": "错",
+        "explanation": "分号用于层级在逗号之上的并列关系，若并列分句内部已经用了逗号，则分句间必须用分号；若没用逗号，一般用逗号，但有时为了强调关联也可用分号。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "《丁香结》一文中，作者用“丁香结”来象征生活中的烦恼和痛苦。",
+        "options": [],
+        "answer": "错",
+        "explanation": "作者用“丁香结”象征生活中忧愁、不顺心的事情，文中提到“结，是解不完的”，表达的是对生活豁达的态度，不单纯指痛苦。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "阅读时“想开去”就是指可以脱离课文内容，随意天马行空地乱想。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“想开去”要联系生活实际或相关情境，是有根据、有意义的联想，不能完全脱离文本内涵。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "《草原》一文中，作者由草原美景联想到骏马和大牛，这是一种基于现实观察的联想。",
+        "options": [],
+        "answer": "对",
+        "explanation": "作者在描写草原景色时，看到绿毯般的草原联想到牛羊，或是由美景联想到民族情谊，都是基于文意的联想。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "下列词语中，加点字读音完全正确的一组是？",
+        "options": [
+          "渲染（xuàn） 迂回（yū）",
+          "参差（cān） 蒙古（měng）",
+          "拘束（sù） 襟飘带舞（jīn）",
+          "羞涩（shè） 豆腐（fu）"
+        ],
+        "answer": "渲染（xuàn） 迂回（yū）",
+        "explanation": "B项参差应读cēn cī；C项拘束应读shù；D项羞涩应读sè。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "“每一朵盛开的花就像是一个小小的张满了的帆”运用了什么修辞？",
+        "options": [
+          "排比",
+          "拟人",
+          "比喻",
+          "夸张"
+        ],
+        "answer": "比喻",
+        "explanation": "把“盛开的花”比作“张满了的帆”，中间有本体、喻词和喻体。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "阅读《宿建德江》：“野旷天低树，江清月近人。”关于这两句诗的理解，错误的是？",
+        "options": [
+          "描写了天高地迥、江水清澈的景象",
+          "“近人”体现了诗人对月影的亲切感",
+          "这两句诗表达了诗人积极进取的心情",
+          "由于背景空旷，远处的树木显得比天还高"
+        ],
+        "answer": "这两句诗表达了诗人积极进取的心情",
+        "explanation": "本诗表达的是诗人的羁旅之愁，而非积极进取的心情。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "《丁香结》中，“丁香结”最初触发作者联想的契机是什么？",
+        "options": [
+          "丁香花的香气",
+          "丁香花蕾的形状",
+          "丁香树的高大",
+          "丁香花的颜色"
+        ],
+        "answer": "丁香花蕾的形状",
+        "explanation": "文中写到“看那愁怨的结，由于花苞圆圆的，恰由于结”，是指花蕾像结。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "读《草原》时，看到“蒙汉情深何忍别，天涯碧草话斜阳”，你会联想起以前学过的哪句诗？",
+        "options": [
+          "两岸猿声啼不住，轻舟已过万重山",
+          "劝君更尽一杯酒，西出阳关无故人",
+          "不识庐山真面目，只缘身在此山中",
+          "停车坐爱枫林晚，霜叶红于二月花"
+        ],
+        "answer": "劝君更尽一杯酒，西出阳关无故人",
+        "explanation": "“蒙汉情深何忍别”描写的是离别之情，与“西出阳关无故人”的送别意境相符。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "下列句子中分号使用正确的一项是？",
+        "options": [
+          "燕子去了，有再来的时候；杨柳枯了，有再青的时候。",
+          "我喜欢红色；因为红色热烈。",
+          "他今天没来；可能是生病了。",
+          "我们要努力学习；天天向上。"
+        ],
+        "answer": "燕子去了，有再来的时候；杨柳枯了，有再青的时候。",
+        "explanation": "A项是典型的两个并列分句，使用分号正确。其余选项分句间没有并列关系或结构不完整。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "阅读短文：“它脱下破旧的外衣，又开始新的生活；它贪婪地吮吸着春天那清馨、甘甜的露汁。”由这段话你会联想到什么？",
+        "options": [
+          "勤劳的蜜蜂",
+          "破茧成蝶的勇气",
+          "落叶归根的凄凉",
+          "严冬的寒冷"
+        ],
+        "answer": "破茧成蝶的勇气",
+        "explanation": "“脱下旧衣”和“新生活”暗示了蜕变过程，联想到破茧成蝶最合适。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "“这种境界，既使人惊叹，又叫人舒服……”这句话中“惊叹”的原因是？",
+        "options": [
+          "草原太辽阔了",
+          "草原景色美得超乎想象",
+          "小丘的线条太生硬",
+          "在那儿可以骑马"
+        ],
+        "answer": "草原景色美得超乎想象",
+        "explanation": "惊叹于草原的千里碧透、翠色欲流，这种极致的自然美让人震撼。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "《花之歌》通过花的自述，表达了作者怎样的生活态度？",
+        "options": [
+          "自哀自怜，感叹生命短暂",
+          "向往自由，不愿被束缚",
+          "乐观向上，在大自然中奉献自我",
+          "追求名利，渴望被赞美"
+        ],
+        "answer": "乐观向上，在大自然中奉献自我",
+        "explanation": "文中花作为大自然的语言，作为祭献和冠冕，体现的是奉献的精神和积极的生命观。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "在《草原》中，“并不茫茫”一词改变了我们对草原的固有印象。这是因为？",
+        "options": [
+          "草原草长得不多",
+          "草原随处可见小丘，绿得有层次感",
+          "草原太小了，一眼望得到头",
+          "天空没有云朵"
+        ],
+        "answer": "草原随处可见小丘，绿得有层次感",
+        "explanation": "文中解释因为“到处翠色欲流”，小丘线条柔美，使得色彩丰富不单调，所以不觉得空旷茫茫。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "根据课文内容，“那些小丘的线条是那么柔美，就像只用绿色（___），不用墨线勾勒的中国画那样。”",
+        "options": [],
+        "answer": "渲染",
+        "explanation": "考查课文核心动词，“渲染”一词写出了草原色彩流动的特点。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "《西江月·夜行黄沙道中》，“旧时茅店社林边，（___）忽见。”",
+        "options": [],
+        "answer": "路转溪桥",
+        "explanation": "考查古诗文名句填空。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "《丁香结》的作者是宗璞，她在文中称丁香花为“（___）的星星”。",
+        "options": [],
+        "answer": "灵动",
+        "explanation": "文中将丁香花比作灵动的星星，增加了一种轻盈、美好的感官想象。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "请将下列诗句与所描写的季节连接起来。",
+        "options": [
+          "忽如一夜春风来",
+          "小荷才露尖尖角",
+          "霜叶红于二月花",
+          "稻花香里说丰年",
+          "夏季",
+          "秋季",
+          "冬季",
+          "秋季"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "A对冬（雪如梨花），B对夏，C、D均对秋。根据选项配对：A-3(冬)，B-1(夏)，C-4(秋)，D-2(秋)。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "请将下列词语与其正确的读音连接起来。",
+        "options": [
+          "勾勒",
+          "迂回",
+          "宅院",
+          "参差",
+          "zhái yuàn",
+          "cēn cī",
+          "gōu lè",
+          "yū huí"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "考查生字读音。勾勒(gōu lè)，迂回(yū huí)，宅院(zhái yuàn)，参差(cēn cī)。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "请将文中意象与其象征的意义连接起来。",
+        "options": [
+          "丁香结",
+          "草原",
+          "花",
+          "月亮",
+          "思乡之情",
+          "生活忧愁",
+          "奉献精神",
+          "民族团结"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "丁香结象征忧愁，草原象征团结，花象征奉献，月亮象征思乡。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "请将下列词语组成描写草原的句子。",
+        "options": [
+          "到处",
+          "翠色欲流",
+          "轻轻流入",
+          "云际",
+          "而"
+        ],
+        "answer": "到处,翠色欲流,而,轻轻流入,云际",
+        "explanation": "出自《草原》名句，描写绿色的流动感。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "请排列词语，体现通过联想深化阅读的过程。",
+        "options": [
+          "想开去",
+          "阅读时",
+          "内容",
+          "抓住",
+          "再联系生活"
+        ],
+        "answer": "阅读时,抓住,内容,再联系生活,想开去",
+        "explanation": "这是本单元学习的核心步骤：读内容、联生活、想开去。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级上册第一单元 综合检测试题",
+    "total_score": 95,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "“我是亲友间交往的礼品，我是婚礼上的冠冕……”这句排比句增强了语言的节奏感。",
+        "options": [],
+        "answer": "对",
+        "explanation": "排比能够增强语言气势，使节奏明快。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "《宿建德江》中“移舟泊烟渚”的“烟渚”指烟雾蒙蒙的小洲。",
+        "options": [],
+        "answer": "对",
+        "explanation": "渚指水中小洲，烟指烟雾，解释正确。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "只有文学作品需要联想，科学阅读不需要联想。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据新课标要求，阅读任何文本都可以联系生活实际进行深度思考。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "《花之歌》是黎巴嫩诗人纪伯伦的一篇散文诗，运用的第一人称是“我”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "诗人化身为花，用第一人称自述生命历程。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "“这种境界，既使人惊叹，又叫人舒服。”这句话中不应使用逗号。",
+        "options": [],
+        "answer": "错",
+        "explanation": "此处为关联词带动的两个分句，使用逗号是正确的停顿。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "《西江月·夜行黄沙道中》的作者是？",
+        "options": [
+          "苏轼",
+          "辛弃疾",
+          "孟浩然",
+          "王维"
+        ],
+        "answer": "辛弃疾",
+        "explanation": "这是课本明确要求背诵的偏目及其作者。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "“羊群一会儿上了小丘，一会儿又下来，走在哪里都像给无边的绿毯绣上了白色的大花。”这句话中“绿毯”和“大花”分别指？",
+        "options": [
+          "草地和野花",
+          "草原和羊群",
+          "天空和白云",
+          "地毯和刺绣"
+        ],
+        "answer": "草原和羊群",
+        "explanation": "这是一个精彩的比喻，由色块联想到绿毯和绣花。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "《丁香结》中，作者为什么说“丁香结”是解不完的？",
+        "options": [
+          "因为丁香花太多了",
+          "因为作者不会解绳子",
+          "意指人生总会有忧愁，应乐观面对",
+          "因为丁香花的花期太长"
+        ],
+        "answer": "意指人生总会有忧愁，应乐观面对",
+        "explanation": "象征意义解析：结是解不完的，生活才有趣味，这是作者的豁达见解。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "下列词语书写完全正确的一项是？",
+        "options": [
+          "群马 襟飘带舞",
+          "境界 翠色欲留",
+          "彩虹 孤芳自赏",
+          "断断续续 庞然大树"
+        ],
+        "answer": "彩虹 孤芳自赏",
+        "explanation": "A项群马应为骏马；B项欲留应为欲流；D项大树应为大物（庞然大物）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "看到“旧时茅店社林边，路转溪桥忽见”，你会联想到下列哪种心情？",
+        "options": [
+          "山穷水复疑无路，柳暗花明又一村",
+          "感时花溅泪，恨别鸟惊心",
+          "孤帆远影碧空尽，唯见长江天际流",
+          "少小离家老大回，乡音无改鬓毛衰"
+        ],
+        "answer": "山穷水复疑无路，柳暗花明又一村",
+        "explanation": "“忽见”体现了转折后的惊喜，与柳暗花明的意境一致。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "选择合适的一组关联词：( )我闭上眼睛，( )会看见那一望无际的草原。",
+        "options": [
+          "因为...所以",
+          "只要...就",
+          "不仅...而且",
+          "即使...也"
+        ],
+        "answer": "只要...就",
+        "explanation": "此处表达充分条件关系最为恰当。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "《草原》中“蒙汉情深何忍别，天涯碧草话斜阳。”中“话”的意思是？",
+        "options": [
+          "说话",
+          "倾诉",
+          "神话",
+          "话题"
+        ],
+        "answer": "倾诉",
+        "explanation": "在这里指蒙汉同胞依依惜别，互道深情。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "下列不是排比句的一项是？",
+        "options": [
+          "山内的桃花开了，山外的桃花也开了。",
+          "静寂的草原热闹起来：欢呼声，车声，马蹄声，响成一片。",
+          "它是大自然的语言；它是祭献的冠冕；它是婚礼的赠礼。",
+          "联想可以联系课文，可以联系生活，还可以联系艺术。"
+        ],
+        "answer": "山内的桃花开了，山外的桃花也开了。",
+        "explanation": "A项只有两项并列，不构成排比（通常需要三项或以上）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "在《丁香结》中，为什么作者要把丁香花放在雨中描写？",
+        "options": [
+          "因为作者喜欢淋雨",
+          "为了增加朦胧哀伤的意境，衬托“结”的含蓄",
+          "因为雨后的丁香花长得快",
+          "为了说明丁香花怕旱"
+        ],
+        "answer": "为了增加朦胧哀伤的意境，衬托“结”的含蓄",
+        "explanation": "雨中的丁香更显妩媚与愁怨，符合全文借景抒情的基调。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "诗句“野旷天低树，江清月近人”中，作者通过联想，将月亮变成了能理解自己的？",
+        "options": [
+          "敌人",
+          "邻居",
+          "亲人知己",
+          "过客"
+        ],
+        "answer": "亲人知己",
+        "explanation": "“近人”二字赋予月亮情感，在孤独的旅途中，月亮仿佛成了唯一的伴侣。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情景交融与物 I 象征",
+        "question": "《宿建德江》中，“野旷天低树”的下一句是“（___）”。",
+        "options": [],
+        "answer": "江清月近人",
+        "explanation": "考查必背古诗词默写。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "“我是亲友之间交往的礼品；我是婚礼上的（___）。”",
+        "options": [],
+        "answer": "冠冕",
+        "explanation": "考查《花之歌》中的重点词汇记忆。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "联想与想象的阅读策略",
+        "question": "《草原》选自现代著名作家（___）的作品《草原》。",
+        "options": [],
+        "answer": "老舍",
+        "explanation": "考查文学常识。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "请将标点符号与其对应的功能连接起来。",
+        "options": [
+          "分号",
+          "逗号",
+          "句号",
+          "感叹号",
+          "陈述结束",
+          "强烈情感",
+          "内部并列",
+          "一般停顿"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "考查标点符号基础功能。A-分号-内部并列，B-逗号-一般停顿，C-句号-陈述结束，D-感叹号-强烈情感。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "将下列诗词名句与作者对应。",
+        "options": [
+          "七八个星天外",
+          "野旷天低树",
+          "蒙汉情深",
+          "芭蕉不展",
+          "孟浩然",
+          "老舍",
+          "李商隐",
+          "辛弃疾"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "A-辛弃疾，B-孟浩然，C-老舍，D-李商隐（咏丁香）。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "排比修辞与分号用法",
+        "question": "请连接近义词。",
+        "options": [
+          "惊叹",
+          "拘束",
+          "妩媚",
+          "渲染",
+          "拘谨",
+          "美艳",
+          "烘托",
+          "赞叹"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "考查本单元重点词语理解。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情景交融与物我象征",
+        "question": "请选出诗人观察自然并产生联想的正确逻辑顺序。",
+        "options": [
+          "观察自然景象",
+          "引发人生感悟",
+          "融入个人情感",
+          "产生奇特联想"
+        ],
+        "answer": "观察自然景象,产生奇特联想,融入个人情感,引发人生感悟",
+        "explanation": "这是《花之歌》和《丁香结》这类散文诗或托物言志散文的通用逻辑。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "联想与想象的阅读策略",
+      "core_concept": "阅读时“从所读的内容想开去”，不仅要看进文字，还要由文字产生的画面联想到曾经的亲身经历、看过的书或听过的故事。这能帮我们更深刻地理解作者的情感，化平面文字为立体景观。",
+      "key_formula": "观察文本内容 + 联系生活经验/相关情境 = 深度阅读感悟",
+      "common_mistakes": [
+        "只是生搬硬套背景资料，不能与文本中的具体景观建立联系",
+        "联想过于离谱，导致理解偏离课文中心思想"
+      ],
+      "tips": "读描写美景的词语时，闭上眼睛想象如果我就在那，会听到什么、看到什么。"
+    },
+    {
+      "point": "情景交融与物我象征",
+      "core_concept": "文学作品常借用外界景物来表达内心志向或情感。如丁香结象征人生中解不开的愁怨，这种“物我合一”的手法让抽象的情感变得具体可感。",
+      "key_formula": "具体物象（如丁香） + 作者情感（如愁怨） = 象征意象",
+      "common_mistakes": [
+        "只会直白地解释词语表面意思，不懂得提取其背后的情感象征",
+        "分不清作者的主观抒情和客观描写"
+      ],
+      "tips": "遇到文中的核心景物，多问一句：这个东西有哪些特点和人的性格相似？"
+    },
+    {
+      "point": "排比修辞与分号用法",
+      "core_concept": "排比是通过三个或三个以上结构相似的句子表达强烈情感；分号则用在并列分句之间，表示比逗号更长、比句号更短的停顿，常用于列举不同的侧面。",
+      "key_formula": "排比：A……，A……，A……。分号：分句1；分句2。",
+      "common_mistakes": [
+        "在只有两项并列时也强行说是排比",
+        "在分句内部没有逗号的情况下乱用分号"
+      ],
+      "tips": "如果几个句子开头长得差不多，就是在排比；如果一个长句子分了好几段在讲不同的道理，分句间就用多用分号。"
+    }
+  ]
+}

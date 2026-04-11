@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学四年级下册",
+  "unit": "总复习",
+  "unit_number": 10,
+  "unit_test": {
+    "title": "单元基础评估测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "在小数点的末尾添上“0”或者去掉“0”，小数的大小不变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "根据小数的性质，在小数的末尾添上“0”或去掉“0”，小数的大小不变。题目中说是“小数点”的末尾，表述错误。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "等腰三角形不可能是钝角三角形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "等腰三角形可能存在钝角，例如顶角为120度，底角各为30代的三角形就是等腰钝角三角形。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "计算 $125 \\times 8 \\div 125 \\times 8$ 的结果是 1。",
+        "options": [],
+        "answer": "错",
+        "explanation": "按照从左到右的顺序计算：$125 \\times 8 = 1000$，$1000 \\div 125 = 8$，$8 \\times 8 = 64$。结果应为64而非1。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "三角形任意两边的和大于第三边。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是三角形的基本特性，两边之和大于第三边，两边之差小于第三边。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "0 除以任何非 0 的数都得 0。",
+        "options": [],
+        "answer": "对",
+        "explanation": "0 除以任何一个不为 0 的数等于 0，这是基本的除法性质。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "下面各数中，去掉 0 而大小不变的是哪个数？",
+        "options": [
+          "5.08",
+          "500",
+          "5.80",
+          "0.58"
+        ],
+        "answer": "5.80",
+        "explanation": "根据小数性质，只有小数末尾的0可以去掉而不改变大小。5.80去掉末尾0变成5.8，大小不变。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "由 3 个十、5 个十分之一和 7 个千分之一组成的数是多少？",
+        "options": [
+          "3.507",
+          "30.57",
+          "30.507",
+          "35.007"
+        ],
+        "answer": "30.507",
+        "explanation": "3个十是30，5个十分之一是0.5，7个千分之一是0.007，合起来是30.507。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "把 0.05 扩大到原数的 100 倍是多少？",
+        "options": [
+          "0.5",
+          "5",
+          "50",
+          "500"
+        ],
+        "answer": "5",
+        "explanation": "0.05 扩大 100 倍即小数点向右移动两位，结果是 5。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "在一个三角形中，已知 $\\angle 1 = 45^\\circ$，$\\angle 2 = 55^\\circ$，那么 $\\angle 3$ 是多少度？",
+        "options": [
+          "100",
+          "80",
+          "90",
+          "70"
+        ],
+        "answer": "80",
+        "explanation": "三角形内角和是 $180^\\circ$。$180 - 45 - 55 = 80$（度）。验算：$45 + 55 + 80 = 180$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "$4.5 + 3.28 + 5.5$ 的简便算法是应用了什么定律？",
+        "options": [
+          "加法交换律",
+          "加法结合律",
+          "加法交换律和结合律",
+          "乘法分配律"
+        ],
+        "answer": "加法交换律和结合律",
+        "explanation": "原式可以变为 $(4.5 + 5.5) + 3.28$，既交换了位置又结合在一起，使用了交换律和结合律。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "10.02 读作什么？",
+        "options": [
+          "十点二",
+          "十点零二",
+          "一点零二",
+          "十点零零二"
+        ],
+        "answer": "十点零二",
+        "explanation": "小数读法：整数部分按整数读，小数点读作点，小数部分依次读出每个数字。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "下列哪个长度的三根小棒不能围成三角形？",
+        "options": [
+          "2cm, 3cm, 4cm",
+          "3cm, 3cm, 3cm",
+          "2cm, 2cm, 6cm",
+          "5cm, 4cm, 3cm"
+        ],
+        "answer": "2cm, 2cm, 6cm",
+        "explanation": "三角形两边之和需大于第三边。$2 + 2 = 4 < 6$，不能围成三角形。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "101 $\\times$ 25 的简便算法正确的是哪个？",
+        "options": [
+          "100 $\\times$ 25 + 1",
+          "(100 + 1) $\\times$ 25",
+          "100 + 1 $\\times$ 25",
+          "100 $\\times$ 25 $\\times$ 1"
+        ],
+        "answer": "(100 + 1) $\\times$ 25",
+        "explanation": "利用乘法分配律：$101 \\times 25 = (100 + 1) \\times 25 = 100 \\times 25 + 1 \\times 25$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "4.56 中的“6”在什么位上？",
+        "options": [
+          "十分位",
+          "百分位",
+          "个位",
+          "百分数"
+        ],
+        "answer": "百分位",
+        "explanation": "小数点右边第一位是十分位，第二位是百分位。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "下面哪个图形是对称轴最多的？",
+        "options": [
+          "长方形",
+          "等边三角形",
+          "等腰三角形",
+          "正方形"
+        ],
+        "answer": "正方形",
+        "explanation": "长方形2条，等边三角形3条，等腰三角形1条，正方形4条。正方形最多。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "小明身高1.45米，小红身高1.5米。谁更高一些？",
+        "options": [
+          "小明高",
+          "小红高",
+          "一样高",
+          "无法比较"
+        ],
+        "answer": "小红高",
+        "explanation": "比较小数大小：$1.5 = 1.50$，$1.50 > 1.45$，所以小红高。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "计算 $125 \\times 32$ 最简便的方法是应用了什么？",
+        "options": [
+          "$125 \\times 8 \\times 4$",
+          "$125 \\times 4 \\times 8$",
+          "$125 \\times (30+2)$",
+          "$125 \\times 16 \\times 2$"
+        ],
+        "answer": "$125 \\times 8 \\times 4$",
+        "explanation": "利用 $125 \\times 8 = 1000$ 是简便计算的常用技巧。$32 = 8 \\times 4$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "鸡兔同笼，有 10 个头，28 只脚，笼子里鸡有几只？",
+        "options": [
+          "4",
+          "6",
+          "5",
+          "7"
+        ],
+        "answer": "6",
+        "explanation": "假设全是兔：脚应有 $10 \\times 4 = 40$ 只。多了 $40 - 28 = 12$ 只脚。鸡的数量为 $12 \\div (4-2) = 6$ 只。验算：6只鸡12只脚，4只兔16只脚，共28只脚 ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "3 吨 50 千克 = ___ 千克。",
+        "options": [],
+        "answer": "3050",
+        "explanation": "1 吨 = 1000 千克，3 吨 = 3000 千克。$3000 + 50 = 3050$ 千克。验算：$3050 \\div 1000$ 是 3 吨余 50 千克 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "学校买来 25 套桌椅，每张桌子 62 元，每把椅子 38 元，共花 ___ 元。",
+        "options": [],
+        "answer": "2500",
+        "explanation": "每套桌椅 $(62 + 38) = 100$ 元，25 套：$25 \\times 100 = 2500$ 元。验算：$2500 \\div 25 = 100$，$100 - 38 = 62$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "一个等腰三角形的顶角是 $40^\\circ$，它的一个底角是 ___ 度。",
+        "options": [],
+        "answer": "70",
+        "explanation": "三角形内角和 $180^\\circ$，底角和为 $180 - 40 = 140$ 度。等腰三角形底角相等，$140 \\div 2 = 70$ 度。验算：$70 + 70 + 40 = 180$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "计算：$480 \\div (20 + 40) = ?$",
+        "options": [],
+        "answer": "8",
+        "explanation": "$480 \\div (20 + 40) = 480 \\div 60 = 8$。验算：$8 \\times 60 = 480$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "计算：$25 \\times 16 = ?$",
+        "options": [],
+        "answer": "400",
+        "explanation": "$25 \\times 16 = 25 \\times 4 \\times 4 = 100 \\times 4 = 400$。验算：$400 \\div 16 = 25$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "学期末数学能力综合评估",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "所有的三角形内角和都是 $180^\\circ$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "无论三角形的大小和形状，平面内三角形的内角和恒为180度。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "小数比整数小。",
+        "options": [],
+        "answer": "错",
+        "explanation": "比较数的大小不能只看小数或整数。例如 1.5 比 1 大，但 0.5 比 2 小。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "把一个三角形剪成两个小三角形，每个小三角形的内角和是 $90^\\circ$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "三角形的内角和是固定的，无论大小都是 $180^\\circ$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "$a \times b + a = a \times (b + 1)$ 应用了乘法分配律。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据乘法分配律，$a \\times (b + 1) = a \\times b + a \\times 1 = a \\times b + a$。这里利用了分配律的逆运算。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "在观察物体时，从前面和侧面观察同一个物体，看到的图形一定不同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "取决于物体形状，例如正方体，从前面和侧面看都是正方形，图形相同。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "5.682 中的“8”在什么位上？",
+        "options": [
+          "十分位",
+          "百分位",
+          "千分位",
+          "十位"
+        ],
+        "answer": "百分位",
+        "explanation": "小数点后第一位是十分位，第二位是百分位，所以“8”在百分位。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "一个等腰三角形的一个底角是 $50^\\circ$，它的顶角是多少度？",
+        "options": [
+          "50",
+          "80",
+          "130",
+          "100"
+        ],
+        "answer": "80",
+        "explanation": "顶角 $= 180 - 50 \\times 2 = 180 - 100 = 80$（度）。验算：$80 + 50 + 50 = 180$ ✓。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "计算 $32 \\times 25 \\times 125$ 时，怎样计算比较简便？",
+        "options": [
+          "$(4 \\times 25) \\times (8 \\times 125)$",
+          "$(30+2) \\times 25 \\times 125$",
+          "$32 \\times (25 \\times 125)$",
+          "$(25 \\times 125) \\times 32$"
+        ],
+        "answer": "$(4 \\times 25) \\times (8 \\times 125)$",
+        "explanation": "因为 $32 = 4 \\times 8$，将 4 与 25 结合得 100，8 与 125 结合得 1000，最为简便。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "下面各组线段中，能围成三角形的是哪组？",
+        "options": [
+          "2cm, 2cm, 4cm",
+          "1cm, 2cm, 3cm",
+          "3cm, 4cm, 5cm",
+          "2cm, 3cm, 6cm"
+        ],
+        "answer": "3cm, 4cm, 5cm",
+        "explanation": "只有3、4、5满足任意两边之和大于第三边：$3+4>5$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "1.2 计数单位是 0.1，它含有多少个这样的计数单位？",
+        "options": [
+          "1",
+          "2",
+          "12",
+          "120"
+        ],
+        "answer": "12",
+        "explanation": "$1.2 = 12 \\times 0.1$，所以含有 12 个 0.1。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "在 $6.3$ 后面添上两个 $0$。该数的大小会如何变化？",
+        "options": [
+          "扩大到原数的100倍",
+          "缩小到原数的百分之一",
+          "不变",
+          "扩大到原数的10倍"
+        ],
+        "answer": "不变",
+        "explanation": "根据小数的性质，在小数的末尾添上“0”或去掉“0”，小数的大小不变。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "用简便方法计算 $78 \\times 102$ 是哪个？",
+        "options": [
+          "78 \\times 100 + 2",
+          "78 \\times 100 \\times 2",
+          "78 \\times 100 + 78 \\times 2",
+          "70 \\times 100 + 8 \\times 2"
+        ],
+        "answer": "78 \\times 100 + 78 \\times 2",
+        "explanation": "$78 \\times 102 = 78 \\times (100 + 2) = 78 \\times 100 + 78 \\times 2$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "小红的身高是 1.35 米，也就是多少厘米？",
+        "options": [
+          "135",
+          "13.5",
+          "1350",
+          "1.35"
+        ],
+        "answer": "135",
+        "explanation": "1 米 = 100 厘米，$1.35 \\times 100 = 135$ 厘米。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "鸡共有 10 只脚，兔共有 12 只脚。这个笼子里共有多少个头？",
+        "options": [
+          "22",
+          "8",
+          "11",
+          "5"
+        ],
+        "answer": "8",
+        "explanation": "鸡：$10 \\div 2 = 5$ 只头；兔：$12 \\div 4 = 3$ 只头。总头数：$5 + 3 = 8$ 个。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "一个等腰三角形的两条边分别是 3 厘米和 7 厘米。它的周长是多少厘米？",
+        "options": [
+          "13",
+          "17",
+          "13 或 17",
+          "21"
+        ],
+        "answer": "17",
+        "explanation": "等腰三角形边长可能是 (3,3,7) 或 (3,7,7)。因为 $3+3<7$ 不能围成三角形，所以只有 (3,7,7)。周长：$3+7+7=17$ 厘米。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "计算 $99 \\times 38 + 38$ 的简便方法是应用了什么？",
+        "options": [
+          "乘法交换律",
+          "乘法结合律",
+          "乘法分配律",
+          "加法结合律"
+        ],
+        "answer": "乘法分配律",
+        "explanation": "$99 \\times 38 + 1 \\times 38 = (99+1) \\times 38 = 100 \\times 38 = 3800$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "在 0.5 和 0.7 之间的小数有几个？",
+        "options": [
+          "1个",
+          "10个",
+          "无数个",
+          "0个"
+        ],
+        "answer": "无数个",
+        "explanation": "在两个小数之间，如果没有位数限制，有无数个小数（如0.51, 0.511...）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "学校买来 8 套运动服，单价 125 元。学校一共花了多少元？",
+        "options": [
+          "1000",
+          "2000",
+          "800",
+          "1250"
+        ],
+        "answer": "1000",
+        "explanation": "列式：$125 \\times 8 = 1000$。验算：$1000 \\div 8 = 125$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "知识系统整理与对比",
+        "question": "把 0.36 扩大到原数的 1000 倍是 ___ 。",
+        "options": [],
+        "answer": "360",
+        "explanation": "0.36 扩大 1000 倍，小数点向右移动三位。$0.36 \\times 1000 = 360$。验算：$360 \\div 1000 = 0.36$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "学校举行运动会。四年级有 12 个班，每个班参加田径赛的和跳绳赛的一共有 25 人。四年级一共有 ___ 人参加比赛。",
+        "options": [],
+        "answer": "300",
+        "explanation": "列式：$25 \\times 12 = 300$。简便计算：$25 \\times 4 \\times 3 = 100 \\times 3 = 300$。验算：$300 \\div 12 = 25$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数学反思与自我评价",
+        "question": "小马虎在计算 $(20+a) \\times 5$ 时，错成了 $20+a \\times 5$。得到的结果与正确答案相差多少？填写差值数字。",
+        "options": [],
+        "answer": "80",
+        "explanation": "正确：$(20+a) \\times 5 = 100 + 5a$。错误：$20 + 5a$。差值为：$(100+5a) - (20+5a) = 80$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "计算：$25 \\times 8 = ?$",
+        "options": [],
+        "answer": "200",
+        "explanation": "$25 \\times 8 = 200$。验算：$200 \\div 8 = 25$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合计算与验算能力",
+        "question": "计算：$(35 + 65) \\times 13 = ?$",
+        "options": [],
+        "answer": "1300",
+        "explanation": "先算括号内：$35+65=100$，再算 $100 \\times 13 = 1300$。验算：$1300 \\div 13 = 100$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "知识系统整理与对比",
+      "core_concept": "本模块旨在梳理全册核心概念。包括小数的性质（末尾添0去0大小不变）、小数点的移动规律（向右移扩大，向左移缩小）；理解三角形的分类与内角和特性，以及轴对称图形和图形平移的特征。通过对比整数与小数的数位顺序表，形成结构化的知识网络。",
+      "key_formula": "三角形内角和 = $180^\\circ$，且任意两边之和 > 第三边。",
+      "common_mistakes": [
+        "混淆“小数点的末尾”与“小数的末尾”，在小数点后面直接加0导致数值改变。",
+        "判断三角形时，忽略两边之和大于第三边的硬性条件。"
+      ],
+      "tips": "制作一个小数和整数的数位对照表，记住小数点右边分别是十分位、百分位、千分位。"
+    },
+    {
+      "point": "综合计算与验算能力",
+      "core_concept": "全面复习四则运算顺序（先括号内，再乘除，后加减）和五大运算定律（加法交换律、结合律，乘法交换律、结合律、分配律）。学会观察数字特征（如25与4，125与8），合理运用简便算法提高计算效率，并养成“一步一验算”的闭环思维习惯。",
+      "key_formula": "$a \\times (b + c) = a \\times b + a \\times c$ (乘法分配律)",
+      "common_mistakes": [
+        "在使用乘法分配律简算 $99 \times 38 + 38$ 时，漏掉隐含的 $38 \times 1$。",
+        "减法性质应用错误，如 $480 \times 20 \times 2$ 误算为除法操作。"
+      ],
+      "tips": "看到25找4，看到125找8；看到99或101要想到转化成 (100-1) 或 (100+1)。"
+    },
+    {
+      "point": "数学反思与自我评价",
+      "core_concept": "这是对解决问题能力的综合检阅。包括解决经典的“鸡兔同笼”问题（学习假设法或列表法），以及处理多步运算的应用情境。强调从题目文字中提取数学数学建模，在解题后能通过代入原题或逆运算的方式进行检查，实现数学思维的深度提升。",
+      "key_formula": "兔数 = (总脚数 - 鸡脚数 $\times$ 总头数) $\times$ (4 - 2)",
+      "common_mistakes": [
+        "解决鸡兔同笼时，假设全是兔却求出了兔的数量（应为鸡的数量）。",
+        "在多步应用题中，没有统一单位就直接进行数值运算。"
+      ],
+      "tips": "每次做完应用题，都要把结果带回题目情境看是否合乎逻辑，练习反推验证。"
+    }
+  ]
+}

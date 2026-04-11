@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学六年级上册",
+  "unit": "能量",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元「能量」单元达标测试卷",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "电磁铁的制作与属性验证",
+        "question": "电磁铁在通电时产生磁性，断电时磁性消失。",
+        "options": [],
+        "answer": "对",
+        "explanation": "电磁铁由线圈和铁芯组成，其磁性是由电流产生的，属于暂时性磁铁。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "奥斯特实验：电生磁现象",
+        "question": "奥斯特实验证明了导线只要靠近指南针，指南针就会发生偏转，不需要通电。",
+        "options": [],
+        "answer": "错",
+        "explanation": "奥斯特实验的核心是通电导线产生磁场使磁针偏转，不通电则无此现象。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "能量是看不见、摸不着的，所以它并不真实存在。",
+        "options": [],
+        "answer": "错",
+        "explanation": "能量虽然抽象，但可以通过运动、发光、发热等现象观察到其作用，是客观存在的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "电动机的结构与工作原理",
+        "question": "小电动机里的转子其实是一个电磁铁。",
+        "options": [],
+        "answer": "对",
+        "explanation": "小电动机的转子由铁芯、线圈和换向器组成，本质上就是一个电磁铁。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "太阳能作为地球能量的源头",
+        "question": "煤、石油、天然气所具有的能量最终都来自太阳能。",
+        "options": [],
+        "answer": "对",
+        "explanation": "煤、石油、天然气是古代生物储存的太阳能，经过亿万年演变形成的。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "反复弯折铁丝，铁丝弯折处会发热，这是将机械能转化为了（）。",
+        "options": [
+          "化学能",
+          "热能",
+          "光能",
+          "电能"
+        ],
+        "answer": "热能",
+        "explanation": "摩擦和克服阻力做功常将机械能转化为热能。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "影响电磁铁磁性强弱的因素",
+        "question": "在探究电磁铁磁性强弱与线圈匝数的关系时，需要改变的条件是（）。",
+        "options": [
+          "电池数量",
+          "铁芯大小",
+          "线圈匝数",
+          "导线长度"
+        ],
+        "answer": "线圈匝数",
+        "explanation": "根据控制变量法，探究哪个因素就要改变哪个因素，其他条件保持不变。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "电灯泡发光时，消耗的能量主要是（）。",
+        "options": [
+          "电能",
+          "化学能",
+          "机械能",
+          "原子能"
+        ],
+        "answer": "电能",
+        "explanation": "电灯是将电能转化为光能和热能的装置。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "影响电磁铁磁性强弱的因素",
+        "question": "以下哪种操作可以增强电磁铁的磁性？（）",
+        "options": [
+          "增加线圈匝数",
+          "减少电池节数",
+          "改变电流方向",
+          "取走铁芯"
+        ],
+        "answer": "增加线圈匝数",
+        "explanation": "电磁铁磁性强弱与电流大小、线圈匝数成正比。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "奥斯特实验：电生磁现象",
+        "question": "做奥斯特实验时，导线（）放置在指南针上方最容易观察到偏转。",
+        "options": [
+          "垂直指南针",
+          "平行指南针",
+          "乱七八糟",
+          "远离指南针"
+        ],
+        "answer": "平行指南针",
+        "explanation": "平行放置时，电流产生的磁场方向与磁针指向垂直，偏转最明显。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家庭用能调查与节能逻辑",
+        "question": "下列能源中属于可再生能源的是（）。",
+        "options": [
+          "煤",
+          "石油",
+          "天然气",
+          "风能"
+        ],
+        "answer": "风能",
+        "explanation": "风能可以自然循环再生，化石能源属于不可再生能源。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电磁铁的制作与属性验证",
+        "question": "改变电磁铁南北极的方法是（）。",
+        "options": [
+          "增加电池数量",
+          "改变电流方向",
+          "增加线圈匝数",
+          "更换更粗的铁芯"
+        ],
+        "answer": "改变电流方向",
+        "explanation": "电磁铁的极性取决于线圈绕向和电流方向。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "电动机的结构与工作原理",
+        "question": "电动机中起到接通电流并转换电流方向作用的部件是（）。",
+        "options": [
+          "铁芯",
+          "线圈",
+          "外壳",
+          "换向器"
+        ],
+        "answer": "换向器",
+        "explanation": "换向器的作用是每转动半周改变一次线圈中的电流方向。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "太阳能作为地球能量的源头",
+        "question": "食物中储存的能量属于（）。",
+        "options": [
+          "热能",
+          "化学能",
+          "机械能",
+          "动能"
+        ],
+        "answer": "化学能",
+        "explanation": "食物、燃料等物质内部储存的能量统称为化学能。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "使用手摇发电机发电时，能量的转化过程是（）。",
+        "options": [
+          "电能转化为动能",
+          "动能转化为电能",
+          "光能转化为电能",
+          "化学能转化为电能"
+        ],
+        "answer": "动能转化为电能",
+        "explanation": "发电机是将机械能（动能）转化为电能的装置。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "正在公路上行驶的汽车具有（）。",
+        "options": [
+          "动能",
+          "静止能",
+          "原子能",
+          "引力能"
+        ],
+        "answer": "动能",
+        "explanation": "运动的物体都具有动能。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "家庭用能调查与节能逻辑",
+        "question": "一度电（1kW·h）可以供 100 瓦的灯泡正常工作（）小时。",
+        "options": [
+          "1",
+          "10",
+          "100",
+          "0.1"
+        ],
+        "answer": "10",
+        "explanation": "1000瓦时 / 100瓦 = 10小时。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "影响电磁铁磁性强弱的因素",
+        "question": "电磁铁磁力的测量通常使用（）的方法较为科学。",
+        "options": [
+          "看火花大小",
+          "听声音强弱",
+          "吸引大头针的数量",
+          "用手感觉热度"
+        ],
+        "answer": "吸引大头针的数量",
+        "explanation": "吸引大头针的数量是衡量磁力大小可量化的指标。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "家庭用能调查与节能逻辑",
+        "question": "某电热水壶功率为 2000 瓦，连续工作 30 分钟。该水壶消耗的电能是（）度。",
+        "options": [],
+        "answer": "1",
+        "explanation": "2000瓦 = 2千瓦；30分钟 = 0.5小时；2 * 0.5 = 1度电。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家庭用能调查与节能逻辑",
+        "question": "1千瓦时电能通俗的说法是（）度电。",
+        "options": [],
+        "answer": "1",
+        "explanation": "1kW·h等于1度电。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "植物进行光合作用，是将太阳能转化为（）。",
+        "options": [],
+        "answer": "化学能",
+        "explanation": "植物利用光能制造有机物并储存化学能。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "电磁铁的制作与属性验证",
+        "question": "制作电磁铁时，缠绕线圈的中间通常要放入（）。",
+        "options": [],
+        "answer": "铁芯",
+        "explanation": "铁芯能极大地增强线圈产生的磁场。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "我们使用的电能大部分是通过（）把其他形式的能量转化而来的。",
+        "options": [],
+        "answer": "发电机",
+        "explanation": "发电机是能量转化的核心装置。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级科学上册《能量》期末专项诊断卷",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "所有的用电器都是将电能转化为动能。",
+        "options": [],
+        "answer": "错",
+        "explanation": "不同电器转化形式不同，如电铃转化为声能，电饭煲转化为热能。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "电磁铁的制作与属性验证",
+        "question": "电磁铁没有南北极。",
+        "options": [],
+        "answer": "错",
+        "explanation": "电磁铁和永磁铁一样，都具有南北极。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "影响电磁铁磁性强弱的因素",
+        "question": "增加线圈匝数可以改变电磁铁的南北极。",
+        "options": [],
+        "answer": "错",
+        "explanation": "增加匝数只能改变磁力大小，不能改变极性。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "太阳能作为地球能量的源头",
+        "question": "能量在转化过程中，总量保持不变，但往往会散发热量。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是能量守恒定律的体现，转化中常伴随热能损失。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "家庭用能调查与节能逻辑",
+        "question": "节约用电不仅是省钱，更是为了减少化石能源消耗和环境污染。",
+        "options": [],
+        "answer": "对",
+        "explanation": "目前我国主要发电方式仍为火力发电，节电即是减碳。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "奥斯特实验：电生磁现象",
+        "question": "发现“电生磁”现象的科学家是（）。",
+        "options": [
+          "牛顿",
+          "爱迪生",
+          "奥斯特",
+          "瓦特"
+        ],
+        "answer": "奥斯特",
+        "explanation": "1820年，丹麦科学家奥斯特发现了电流的磁效应。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电动机的结构与工作原理",
+        "question": "电动机工作的本质是（）。",
+        "options": [
+          "磁的相互作用",
+          "电转化为热",
+          "水流带动转化",
+          "齿轮咬合转动"
+        ],
+        "answer": "磁的相互作用",
+        "explanation": "电动机利用外部磁铁与内部电磁铁（转子）的同极相斥、异极相吸原理运转。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "影响电磁铁磁性强弱的因素",
+        "question": "同时增加电池数量和线圈匝数，电磁铁的磁力（）。",
+        "options": [
+          "不变",
+          "减小",
+          "变大",
+          "消失"
+        ],
+        "answer": "变大",
+        "explanation": "两个增强因素叠加，磁力必然显著增强。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "跳水运动员从高处落下，主要是（）在进行转化。",
+        "options": [
+          "化学能转化为电能",
+          "势能转化为动能",
+          "热能转化为声能",
+          "光能转化为动能"
+        ],
+        "answer": "势能转化为动能",
+        "explanation": "下落过程中，高度降低（势能减小），速度增加（动能增大）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "影响电磁铁磁性强弱的因素",
+        "question": "小明用相同的电池和导线绕制了两个电磁铁。甲吸引了12个大头针，乙吸引了5个。可以推断（）。",
+        "options": [
+          "甲的线圈匝数多",
+          "乙的线圈匝数多",
+          "甲乙极性相同",
+          "甲乙极性不同"
+        ],
+        "answer": "甲的线圈匝数多",
+        "explanation": "在电流相同的情况下，磁力大说明线圈匝数多。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "激光切割机工作时，主要将电能转化为（）。",
+        "options": [
+          "机械能",
+          "光能",
+          "原子能",
+          "化学能"
+        ],
+        "answer": "光能",
+        "explanation": "激光切割利用的是高能量的光束。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家庭用能调查与节能逻辑",
+        "question": "我们要提倡低碳生活。下列行为正确的是（）。",
+        "options": [
+          "白天也开着灯",
+          "空调温度调得很低",
+          "少用一次性筷子",
+          "电脑一直不关机"
+        ],
+        "answer": "少用一次性筷子",
+        "explanation": "减少一次性用品的使用可以有效节约资源和能量。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "太阳能作为地球能量的源头",
+        "question": "森林被埋在地下，经过漫长时间的变化形成了煤。这个过程是（）。",
+        "options": [
+          "物理变化",
+          "能量的消亡",
+          "能量的储存",
+          "水的循环"
+        ],
+        "answer": "能量的储存",
+        "explanation": "植物固定的太阳能被转化为化学能长期储存在煤中。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "电磁铁的制作与属性验证",
+        "question": "如果想让电磁铁的南北极发生改变，最简便的方法是（）。",
+        "options": [
+          "关掉电源",
+          "把电池正负极对调",
+          "增加一节电池",
+          "把铁芯换大一点"
+        ],
+        "answer": "把电池正负极对调",
+        "explanation": "对调电池两极即改变了电流方向，从而改变电磁铁极性。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电动机的结构与工作原理",
+        "question": "小电动机工作时，能量的转化路径是（）。",
+        "options": [
+          "电能→磁能→机械能",
+          "机械能→电能→热能",
+          "光能→电能→动能",
+          "热能→电能→磁能"
+        ],
+        "answer": "电能→磁能→机械能",
+        "explanation": "电生磁，磁的相互作用产生机械运动。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "关于能量转换，下列说法正确的是（）。",
+        "options": [
+          "能量只能从一种形式转化为另一种形式",
+          "能量转化时总量会变多",
+          "能量转化是单向不可逆的",
+          "能量无法通过物体转移"
+        ],
+        "answer": "能量只能从一种形式转化为另一种形式",
+        "explanation": "能量守恒定律明确能量可以转化和转移，但总量不变。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "太阳能作为地球能量的源头",
+        "question": "草原上“草→兔→狐狸”这条食物链中，能量的源头是（）。",
+        "options": [
+          "草",
+          "兔子",
+          "狐狸",
+          "太阳"
+        ],
+        "answer": "太阳",
+        "explanation": "所有生物链的起始能量几乎都源自绿色植物固定的太阳能。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "奥斯特实验：电生磁现象",
+        "question": "奥斯特实验中，如果电流方向改变，磁针偏转的方向会（）。",
+        "options": [
+          "不变",
+          "相反",
+          "停止偏转",
+          "上下震动"
+        ],
+        "answer": "相反",
+        "explanation": "电流方向改变导致磁场方向改变，因此磁针受力方向也改变。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "家庭用能调查与节能逻辑",
+        "question": "一只 20 瓦的节能灯与一只 100 瓦的白炽灯亮度相当。100 瓦白炽灯消耗 1 度电的时间，节能灯可以工作（）小时。",
+        "options": [],
+        "answer": "50",
+        "explanation": "1000/20 = 50。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电动机的结构与工作原理",
+        "question": "小电动机内通常有（）块固定的永久磁铁。",
+        "options": [],
+        "answer": "2",
+        "explanation": "常见的小电动机外壳内侧有两块弧形永磁铁。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "能量的形式识别与转化",
+        "question": "手电筒点亮的过程中，电池里的（）转化为了电能。",
+        "options": [],
+        "answer": "化学能",
+        "explanation": "干电池是通过化学反应产生电流的。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "电磁铁的制作与属性验证",
+        "question": "电磁铁是利用（）产生磁性的装置。",
+        "options": [],
+        "answer": "电流",
+        "explanation": "电流流动产生磁场。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "太阳能作为地球能量的源头",
+        "question": "煤、石油等能源被科学家称为（）的太阳能。",
+        "options": [],
+        "answer": "储存",
+        "explanation": "它们是生物体将太阳能转化为化学能后在地层中长期保存的结果。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "能量的形式与转化",
+      "core_concept": "能量有电、热、声、光、磁等多种形式，它们可以相互转化或转移。",
+      "key_formula": "能量转化守恒定律：能不会凭空产生或消失。",
+      "common_mistakes": [
+        "认为只有在动的物体才有能量",
+        "混淆能量的形式与能量的来源"
+      ],
+      "tips": "识别转化时，先找消耗了什么能（输入），再找产生了什么能（输出）。"
+    },
+    {
+      "point": "电生磁（奥斯特实验）",
+      "core_concept": "通电导线产生磁场，使磁针发生偏转。",
+      "key_formula": "电磁感应：电流方向改变，磁场方向随之改变。",
+      "common_mistakes": [
+        "忘记导线要平行于磁针",
+        "误以为不通电也能偏转"
+      ],
+      "tips": "短路状态下电流最大，磁针偏转最明显，但要注意保护电池。"
+    },
+    {
+      "point": "电磁铁的特性",
+      "core_concept": "磁力强弱受电流、匝数影响；极性受电流方向、绕向影响。",
+      "key_formula": "磁力 ∝ 电流大小 × 线圈匝数。",
+      "common_mistakes": [
+        "混淆改变极性的方法和改变强弱的方法",
+        "认为增加电池能改变极性"
+      ],
+      "tips": "探究磁力影响因素时，必须使用控制变量法。"
+    },
+    {
+      "point": "电动机原理",
+      "core_concept": "利用电产生磁，通过磁的相互作用（斥力/吸力）实现转动。",
+      "key_formula": "电能 -> 磁能 -> 机械能（动能）。",
+      "common_mistakes": [
+        "认为电动机里全是永磁铁",
+        "不理解换向器的作用"
+      ],
+      "tips": "换向器的核心作用是定时改变转子中的电流方向。"
+    },
+    {
+      "point": "能源与节能",
+      "core_concept": "能源分为可再生（太阳能、风能）和不可再生（化石能源）。",
+      "key_formula": "1度电 = 1000瓦 × 1小时。",
+      "common_mistakes": [
+        "计算电量时单位不统一（瓦和千瓦混合）",
+        "误认为核能是可再生能源"
+      ],
+      "tips": "瓦变千瓦要除以1000；分钟算电度要换算成小时。"
+    }
+  ]
+}

@@ -1,0 +1,734 @@
+{
+  "textbook": "统编版小学语文五年级上册",
+  "unit": "提高阅读速度",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元 提高阅读速度 基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "快速默读的技巧",
+        "question": "在进行快速默读时，我们应该一边读一边用手指着字，以免读错。",
+        "options": [],
+        "answer": "错",
+        "explanation": "快速默读要求不指读，指读会限制阅读速度。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "快速默读的技巧",
+        "question": "默读时，如果遇到个别不理解的词语，可以先跳过去继续往下读，不影响理解整段话的意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "遇到生僻词语先不回读，是提高阅读速度的重要习惯。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "借助关键词句筛选信息",
+        "question": "文章的标题通常能提示文章的主要内容，有助于快速阅读。",
+        "options": [],
+        "answer": "对",
+        "explanation": "标题是文章的眼睛，能够高度概括文章主旨。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "长文章的缩写与概括",
+        "question": "缩写课文时，要把所有的细节描写都保留下来。",
+        "options": [],
+        "answer": "错",
+        "explanation": "缩写通常需要删减次要的细节描写，保留核心内容。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "快速默读的技巧",
+        "question": "快速默读就是为了求快，甚至可以完全不思考内容。",
+        "options": [],
+        "answer": "错",
+        "explanation": "阅读的目的是理解，快速默读是在理解的基础上提高效率。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "快速默读的技巧",
+        "question": "下列哪种行为是提高阅读速度的好习惯？",
+        "options": [
+          "读出声来",
+          "遇到不认识的词立即查字典",
+          "连词成句地读",
+          "回读已经读过的部分"
+        ],
+        "answer": "连词成句地读",
+        "explanation": "一眼看一组词语而不是一个字，可以有效提升速度。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "借助关键词句筛选信息",
+        "question": "《搭石》一文中，最能概括家乡人走搭石场面的词语是：",
+        "options": [
+          "协调有序",
+          "热热闹闹",
+          "小心翼翼",
+          "急急忙忙"
+        ],
+        "answer": "协调有序",
+        "explanation": "文中有明确描述走搭石时“协调有序”的关键词。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "借助关键词句筛选信息",
+        "question": "阅读《将相和》时，通过了解背景，我们知道蔺相如带璧赴秦的原因是：",
+        "options": [
+          "赵王害怕秦王",
+          "秦王以城换璧",
+          "赵国比较弱小",
+          "蔺相如很勇敢"
+        ],
+        "answer": "秦王以城换璧",
+        "explanation": "起因是秦王提出用十五座城池换和氏璧。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "给下列句子中加点的词语选择正确的词义。他觉得这件事很【为难】。",
+        "options": [
+          "故意给别人制造麻烦",
+          "难以应付或处理",
+          "非常愤怒",
+          "感到很不好意思"
+        ],
+        "answer": "难以应付或处理",
+        "explanation": "此处指事情处理起来比较棘手。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "提高阅读速度",
+        "question": "在读《什么比猎豹的速度更快》这一科普文中，我们应该侧重抓住什么来读？",
+        "options": [
+          "事物的描写",
+          "作者的感情",
+          "事物的速度数据",
+          "环境的描写"
+        ],
+        "answer": "事物的速度数据",
+        "explanation": "科普说明文应关注说明的对象及其特征数据。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "借助关键词句筛选信息",
+        "question": "语段：‘秦王接过宝璧，左右端详，喜爱之极。他绝口不提十五座城的事。’这段话表现了秦王的：",
+        "options": [
+          "不守信用",
+          "非常博学",
+          "做事果断",
+          "为人豪爽"
+        ],
+        "answer": "不守信用",
+        "explanation": "只顾看璧却不提城池，体现了秦王的虚伪和无信。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞方法识别",
+        "question": "‘难道蔺相如真的是怕廉颇吗？非也，他是为了赵国的利益。’这个句子使用的修辞手法是：",
+        "options": [
+          "设问",
+          "反问",
+          "比喻",
+          "拟人"
+        ],
+        "answer": "设问",
+        "explanation": "自问自答是设问修辞的特点。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长文章的缩写与概括",
+        "question": "缩写《冀中的地道战》时，哪一部分可以适当删减，不作为重点？",
+        "options": [
+          "地道的构造特点",
+          "抗击敌人的方式",
+          "个别士兵的对话",
+          "地道战的重要作用"
+        ],
+        "answer": "个别士兵的对话",
+        "explanation": "大规模的描写和概括性作用需要保留，具体对话可删去。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "选出下列词语中书写完全正确的一项：",
+        "options": [
+          "婉转 懒惰",
+          "汛期 协调",
+          "平衡 召急",
+          "挽回 诺延"
+        ],
+        "answer": "汛期 协调",
+        "explanation": "A中婉应为宛（宛转常作宛转），C中急应为集，D中延应为言。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "快速默读的技巧",
+        "question": "下列关于默读规则，不包含在哪三条基本原则里？",
+        "options": [
+          "不发声",
+          "不指读",
+          "读得快",
+          "不回读"
+        ],
+        "answer": "读得快",
+        "explanation": "不发声、不指读、不回读是技巧，因遵循这些技巧才变得快。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "提高阅读速度",
+        "question": "带着（___）去阅读，可以帮助我们更快地找到相关信息。",
+        "options": [],
+        "answer": "问题",
+        "explanation": "针对性阅读能提高筛选信息的效率。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "借助关键词句筛选信息",
+        "question": "《将相和》中包含三个故事，分别是完璧归赵、渑池之会和（___）。",
+        "options": [],
+        "answer": "负荆请罪",
+        "explanation": "这是课文《将相和》的第三个核心故事情节。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长文章的缩写与概括",
+        "question": "缩写后的内容要保持（___）的原意不能改变。",
+        "options": [],
+        "answer": "文章",
+        "explanation": "缩写不能违背原文主旨。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "作者与作品",
+        "question": "请将下列课文与对应的作者或出处进行连线。",
+        "options": [
+          "《搭石》",
+          "《将相和》",
+          "《冀中的地道战》",
+          "《少年中国说》",
+          "司马迁",
+          "刘章",
+          "梁启超",
+          "周而复"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "根据教材常识配对作品与作者。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "成语含义",
+        "question": "请将下列成语与其意思进行正确连线。",
+        "options": [
+          "完璧归赵",
+          "无价之宝",
+          "理直气壮",
+          "攻无不克",
+          "理由充分言语自信",
+          "没有办法衡量价值",
+          "完好无损退回原地",
+          "只要进攻就能获胜"
+        ],
+        "answer": "A-3,B-2,C-1,D-4",
+        "explanation": "理解《将相和》中相关成语的含义。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "反义词",
+        "question": "请将下列词语与它们的反义词进行连线。",
+        "options": [
+          "懒惰",
+          "谴责",
+          "协调",
+          "进攻",
+          "杂乱",
+          "撤退",
+          "勤劳",
+          "表扬"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "考察词义对应关系。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "提高阅读速度",
+        "question": "请将下列词语排列成一句关于阅读习惯的话。",
+        "options": [
+          "不发声",
+          "默读",
+          "我们要",
+          "养成",
+          "习惯"
+        ],
+        "answer": "我们要,养成,不发声,默读,习惯",
+        "explanation": "养成良好的阅读习惯是本单元的核心要求。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长文章的缩写与概括",
+        "question": "请根据课文内容排序说明缩写的步骤。",
+        "options": [
+          "缩减",
+          "摘录",
+          "改写",
+          "内容",
+          "核心"
+        ],
+        "answer": "摘录,核心,内容,缩减,改写",
+        "explanation": "缩写的逻辑步骤：先定核心再精简。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级语文上册第二单元核心素养评价卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "快速默读的技巧",
+        "question": "快速阅读时，大脑可以直接捕捉词组或短语，从而整体理解。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“视幅”大有助于提高速度。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "借助关键词句筛选信息",
+        "question": "对于科普性文章，我们只需要读每段的第一句话就能理解全部内容。",
+        "options": [],
+        "answer": "错",
+        "explanation": "虽然中心句很重要，但细节论证也是理解的关键。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“绝口不提”的“绝”是“绝对”的意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在这里表示完全、绝对。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "长文章的缩写与概括",
+        "question": "缩写文章时，人称可以根据需要由第一人称改为第三人称。",
+        "options": [],
+        "answer": "对",
+        "explanation": "为了叙述简洁，常进行人称转换。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "提高阅读速度",
+        "question": "阅读速度快的人一定比阅读速度慢的人理解得深刻。",
+        "options": [],
+        "answer": "错",
+        "explanation": "速度与理解深度没有必然的绝对正相关关系。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "快速默读的技巧",
+        "question": "在读文章时，下列哪种情况最应该尽量避免？",
+        "options": [
+          "遇到生词直接跳过",
+          "视线从左向右移动",
+          "嘴唇微动发出声音",
+          "阅读时集中注意力"
+        ],
+        "answer": "嘴唇微动发出声音",
+        "explanation": "发声会严重拖慢语速及脑部处理速度。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "借助关键词句筛选信息",
+        "question": "《什么比猎豹的速度更快》一文中，作者列举猎豹、鸵鸟、游隼等是为了：",
+        "options": [
+          "说明猎豹的速度快",
+          "比较不同事物的速度",
+          "描写大自然的美丽",
+          "呼吁保护动物"
+        ],
+        "answer": "比较不同事物的速度",
+        "explanation": "通过对比体现“什么比猎豹的速度更快”的主题。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞方法识别",
+        "question": "‘地道里不仅有通风口，还有防毒、防烟的设施。’这句话：",
+        "options": [
+          "是比喻句",
+          "是排比句",
+          "是递进关系的句子",
+          "是拟人句"
+        ],
+        "answer": "是递进关系的句子",
+        "explanation": "“不仅……还……”是典型的递进关系。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长文章的缩写与概括",
+        "question": "下面哪一个句子最适合作为《搭石》中‘大家排队走搭石’一段的缩写？",
+        "options": [
+          "人们经常在溪水中摆放搭石。",
+          "乡亲们走搭石时协调有序。",
+          "石头被水冲走了，大家很遗憾。",
+          "年轻人背着老人过河。"
+        ],
+        "answer": "乡亲们走搭石时协调有序。",
+        "explanation": "既包含了主体也包含了核心特征。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "‘渑池之会’中‘会’字的意思是：",
+        "options": [
+          "理解",
+          "聚合",
+          "会盟、宴请",
+          "能力"
+        ],
+        "answer": "会盟、宴请",
+        "explanation": "指古代国君之间的正式会谈。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "提高阅读速度",
+        "question": "当我们面对一篇很长的说明文，只想知道具体的数字信息时，应采用：",
+        "options": [
+          "精读法",
+          "扫读法",
+          "朗读法",
+          "背诵法"
+        ],
+        "answer": "扫读法",
+        "explanation": "扫读用于快速定位特定信息。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "标点符号选择",
+        "question": "‘我看你没诚意（ ）蔺相如说（ ）就把头和璧一起撞碎在柱子上（ ）’",
+        "options": [
+          "： ， 。",
+          "， ， 。",
+          "， ：“ ！”",
+          "， ：“ 。”"
+        ],
+        "answer": "， ：“ ！”",
+        "explanation": "蔺相如当时的语气非常激昂坚定，用感叹号。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "借助关键词句筛选信息",
+        "question": "在阅读中，如果想快速了解《冀中的地道战》中地道如何‘防毒’，应找哪些词？",
+        "options": [
+          "枯井、出口",
+          "关口、地堡",
+          "孑口、活道",
+          "吊板、火隔"
+        ],
+        "answer": "吊板、火隔",
+        "explanation": "这些是地道内针对烟熏火燎设计的设施。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "提高阅读速度",
+        "question": "下列哪个是导致阅读速度变慢的‘坏习惯’？",
+        "options": [
+          "眼睛平视书本",
+          "逐字阅读",
+          "记笔记",
+          "复述大意"
+        ],
+        "answer": "逐字阅读",
+        "explanation": "逐字读会限制视域，降低效率。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "提高阅读速度",
+        "question": "‘人影绰绰’中‘绰’的意思是：",
+        "options": [
+          "宽大",
+          "姿态柔美",
+          "富裕",
+          "精神"
+        ],
+        "answer": "姿态柔美",
+        "explanation": "形容人影忽隐忽现，姿态优美。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "提高阅读速度",
+        "question": "不回读指的是阅读时不反复看（___）读过的内容。",
+        "options": [],
+        "answer": "已经",
+        "explanation": "克服目光回跳是提速的关键。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "借助关键词句筛选信息",
+        "question": "通过关键词筛选，我们可以知道蔺相如是一个机智、勇敢和（___）的人。",
+        "options": [],
+        "answer": "爱国",
+        "explanation": "蔺相如所做一切皆是为了赵国利益。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "提高阅读速度",
+        "question": "提高阅读速度的终极目标是为了更好地（___）文章。",
+        "options": [],
+        "answer": "理解",
+        "explanation": "速度是工具，理解是目的。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近义词",
+        "question": "请将下列词语与它们的近义词进行正确连线。",
+        "options": [
+          "商议",
+          "诚意",
+          "推辞",
+          "抵御",
+          "拒绝",
+          "探讨",
+          "抵抗",
+          "真心"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "考察对词汇语义的理解。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "快速默读的技巧",
+        "question": "请将下列快速阅读的技巧与对应的行为连线。",
+        "options": [
+          "不发声",
+          "不指读",
+          "不回读",
+          "扫读",
+          "不用手指字",
+          "寻找关键词",
+          "眼球不动",
+          "嘴唇不动"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "针对提高阅读速度的方法进行归类。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长文章的缩写与概括",
+        "question": "请将缩写策略与具体的操作方法连线。",
+        "options": [
+          "摘录",
+          "删减",
+          "概括",
+          "改写",
+          "合并次要情节",
+          "提取核心重点",
+          "去掉形容词语",
+          "变换叙述人称"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "掌握缩写的四种基本技能。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "借助关键词句筛选信息",
+        "question": "请将词语排列成一个能体现快速阅读目的的句子。",
+        "options": [
+          "能够",
+          "我们",
+          "捕捉",
+          "重要信息",
+          "快速"
+        ],
+        "answer": "我们,能够,快速,捕捉,重要信息",
+        "explanation": "句子逻辑：主语+能+状语+谓语+宾语。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长文章的缩写与概括",
+        "question": "请排列《将相和》中三个核心故事的逻辑链条。",
+        "options": [
+          "完璧归赵",
+          "将相和好",
+          "渑池会见",
+          "负荆请罪"
+        ],
+        "answer": "完璧归赵,渑池会见,负荆请罪,将相和好",
+        "explanation": "这是课文的叙事线索。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "快速默读的技巧",
+      "core_concept": "默读是不出声的阅读。快速默读要求做到“三不”：不发声（嘴唇不动）、不指读（不用手指或笔尖指着字）、不回读（眼睛不反复看读过的内容）。其目的是通过扩大眼睛扫描的“视域”，直接让大脑接收成组的文字信息，而不是逐词转码成声音再理解。",
+      "key_formula": "眼脑直映：扩大视幅，不指不读。 ",
+      "common_mistakes": [
+        "不自觉地小声哼鸣或嘴唇蠕动",
+        "因为担心没看清楚而频繁地目光回跳"
+      ],
+      "tips": "练习时可以限定时间，强迫自己眼球快速移动，遇到生词暂时记下，等读完整个自然段后再统一处理。"
+    },
+    {
+      "point": "借助关键词句筛选信息",
+      "core_concept": "在阅读中，通过识别段落的中心句、起始句、总结句，以及带动作、时间、逻辑关联词（如“但是”、“总之”）的关键词，可以迅速略过次要的描写性内容，直接抓取文章的核心骨架和相关事实数据。",
+      "key_formula": "抓首尾句，寻关联词，瞄关键词。",
+      "common_mistakes": [
+        "平均用力，每一个字都仔细研读导致速度过慢",
+        "找不到中心句，把具体的举例说明当成了核心观点"
+      ],
+      "tips": "阅读前先看课后习题或带着“是什么、为什么、怎么样”的问题去扫描，目光会像扫描仪一样精准捕捉目标词汇。"
+    },
+    {
+      "point": "长文章的缩写与概括",
+      "core_concept": "缩写是语文综合能力的体现。具体包括：摘录（保留主干）、删减（去掉枝叶）、概括（合并段意）和改写（人称转换或口语变书面语）。缩写的关键是在保证文章内容真实、逻辑通顺的前提下，用最简练的语言交代事情的起因、经过、结果。",
+      "key_formula": "去粗取精，留主删次，合意变通。",
+      "common_mistakes": [
+        "缩写后文章成了毫无关联的碎句堆砌",
+        "过度删减导致故事情节不完整，逻辑断裂"
+      ],
+      "tips": "先在原文中划出核心动词和名词，连接成句，再检查人称和时态是否统一。"
+    }
+  ]
+}

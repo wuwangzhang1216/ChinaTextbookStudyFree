@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文四年级下册",
+  "unit": "第四单元 动物朋友",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元：动物朋友 基础闯关测试",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "明贬实褒的表达方式",
+        "question": "在老舍的《猫》中，作者说猫性格“古怪”，实际上是表达对猫的喜爱之情。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“古怪”一词在此处是明贬实褒，体现了猫性格独特可爱。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "冒号的用法与排版规范",
+        "question": "冒号在文稿纸上书写时，通常占据一个格子的左下角。",
+        "options": [],
+        "answer": "对",
+        "explanation": "标点符号在硬笔书写中需规范，冒号占一格且靠左下方。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "动作与神态的细节描写",
+        "question": "《母鸡》一课通过母鸡负责、慈爱、勇敢的动作描写，改变了作者对它的偏见。",
+        "options": [],
+        "answer": "对",
+        "explanation": "作者通过观察母鸡护雏的一连串动作，产生了敬佩之情。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词语字音",
+        "question": "“看守”中的“看”字读音是 kàn。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“看守”的“看”读一声kān，表示守护。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "明贬实褒的表达方式",
+        "question": "“它要是高兴，能比谁都温柔可亲。”这是一句明贬实褒的话。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这句话是直接描写温顺，不含贬义词语，属于直接赞美。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "明贬实褒的表达方式",
+        "question": "在《白鹅》中，作者称呼白鹅为“鹅老爷”，体现了作者怎样的情感？",
+        "options": [
+          "讨厌鹅的傲慢",
+          "对鹅的调侃与喜爱",
+          "不满鹅的架子大",
+          "害怕白鹅咬人"
+        ],
+        "answer": "对鹅的调侃与喜爱",
+        "explanation": "“鹅老爷”运用了拟人化的称呼，带有戏谑和亲昵的感觉。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动作与神态的细节描写",
+        "question": "“它要是啄你一口，那就真的疼了。”这句话最能体现母鸡的什么特点？",
+        "options": [
+          "温柔可爱",
+          "欺弱怕强",
+          "凶狠可怕",
+          "性格散漫"
+        ],
+        "answer": "欺弱怕强",
+        "explanation": "在描写母鸡讨厌的部分，作者通过这种细节描写体现它欺侮弱小的习性。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "冒号的用法与排版规范",
+        "question": "下列句子中，冒号使用正确的一项是：",
+        "options": [
+          "它的一举一动：都显得那么高傲。",
+          "鹅的吃饭，非有一人侍候不可：真是架子十足。",
+          "它吃法：必须由三样东西组成。",
+          "它立刻警告：泥干了，快加点水。"
+        ],
+        "answer": "它立刻警告：泥干了，快加点水。",
+        "explanation": "冒号在此处用于引出提示语的内容。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗内容理解",
+        "question": "阅读《蜂》，判断诗人通过“采得百花成蜜后，为谁辛苦为谁甜”表达了什么？",
+        "options": [
+          "赞美蜜蜂的勤劳和无私奉献",
+          "感叹蜜蜂工作环境的艰辛",
+          "希望蜜蜂能够多产蜂蜜",
+          "批评蜜蜂不劳而获的行为"
+        ],
+        "answer": "赞美蜜蜂的勤劳和无私奉献",
+        "explanation": "诗人借蜜蜂辛勤采蜜却不求回报的精神来赞美劳动者。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词含义",
+        "question": "“它贪睡，无忧无虑，什么事也不过问。”中“过问”的意思是：",
+        "options": [
+          "过去询问",
+          "关心、干预",
+          "路过问候",
+          "经过询问"
+        ],
+        "answer": "关心、干预",
+        "explanation": "这里的“过问”是指猫对事情不关心的状态。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "明贬实褒的表达方式",
+        "question": "“这真是一只（  ）的母鸡！”在课文结尾，作者这样感叹。",
+        "options": [
+          "讨人厌",
+          "令人生厌",
+          "英雄",
+          "美丽"
+        ],
+        "answer": "英雄",
+        "explanation": "文章结尾作者从讨厌转为敬佩，赞美母鸡是英雄。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关联词运用",
+        "question": "“（  ）它不高兴，（  ）谁说多少好话，它一声也不出。”",
+        "options": [
+          "如果……就……",
+          "虽然……但是……",
+          "假若……无论……",
+          "只有……才……"
+        ],
+        "answer": "假若……无论……",
+        "explanation": "这里表示假设和条件逻辑，猫不高兴时非常固执。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语辨析",
+        "question": "形容傲慢到极点，不把别人放在眼里的词语是：",
+        "options": [
+          "不胜其烦",
+          "目中无人",
+          "一丝不苟",
+          "从容不迫"
+        ],
+        "answer": "目中无人",
+        "explanation": "目中无人形容人或动物极其自大傲慢。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动作描写",
+        "question": "老舍在描写猫“尽职”时，通过写猫屏息凝视等了几个钟头，这是（  ）描写。",
+        "options": [
+          "神态描写",
+          "细节和动作描写",
+          "语言描写",
+          "环境描写"
+        ],
+        "answer": "细节和动作描写",
+        "explanation": "通过具体的时长和姿态，刻画了猫抓老鼠的耐心。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达技巧",
+        "question": "相比丰子恺写白鹅，老舍在《母鸡》中主要运用了什么样的结构？",
+        "options": [
+          "先分后总",
+          "先抑后扬",
+          "承上启下",
+          "托物言志"
+        ],
+        "answer": "先抑后扬",
+        "explanation": "文章前部分写讨厌母鸡，后半部分写敬佩母鸡，形成情感对比。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗名句",
+        "question": "采得百花成蜜后，为谁辛苦为谁（    ）？",
+        "options": [],
+        "answer": "甜",
+        "explanation": "出自罗隐的《蜂》。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "课文关键字",
+        "question": "《白鹅》一课中，白鹅走路的样子可以用“引吭（    ）”来形容。",
+        "options": [],
+        "answer": "大叫",
+        "explanation": "考查词语积累，引吭大叫。注：课文原文描述声调。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "作者常识",
+        "question": "《猫》和《母鸡》的作者都是享誉世界的著名作家（    ）。",
+        "options": [],
+        "answer": "老舍",
+        "explanation": "老舍是本单元重点作家。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语释义",
+        "question": "请将描写动作的词语与其对应的情感连接起来。",
+        "options": [
+          "引吭大叫",
+          "屏息凝视",
+          "警戒",
+          "狂吠",
+          "负责任",
+          "显威风",
+          "抓老鼠",
+          "护雏"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "引吭大叫显威风，屏息凝视抓老鼠，警戒护雏，狂吠是对入侵者的负责。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物特征匹配",
+        "question": "将动物与其在文章中体现出的性格特点相连。",
+        "options": [
+          "白鹅",
+          "猫",
+          "母鸡",
+          "白公鹅",
+          "慈爱勇敢",
+          "高傲十足",
+          "海军上将",
+          "古怪可爱"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "根据丰子恺、老舍、叶·诺索夫的课文内容进行性格匹配。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "反义词连线",
+        "question": "将下列词语与它们的反义词连线。",
+        "options": [
+          "讨厌",
+          "高傲",
+          "温柔",
+          "尽职",
+          "谦卑",
+          "喜欢",
+          "粗鲁",
+          "失职"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "考查对本单元常见形容词的反义理解。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单句排列",
+        "question": "请将词语排成描写猫的一句话。",
+        "options": [
+          "猫的",
+          "这种",
+          "性格",
+          "古怪",
+          "实在"
+        ],
+        "answer": "猫的,性格,实在,这种,古怪",
+        "explanation": "出自《猫》的首句，调整为规范陈述句。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动作连贯句",
+        "question": "请排好母鸡保护小鸡时的动作顺序。",
+        "options": [
+          "它",
+          "放声",
+          "啼叫",
+          "发现",
+          "一点东西"
+        ],
+        "answer": "它,发现,一点东西,放声,啼叫",
+        "explanation": "这是描写母鸡发现食物后呼唤小鸡的动作序列。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第四单元：动物朋友 综合素养评估",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "冒号的用法与排版规范",
+        "question": "冒号可以表示提起下文，例如“它吃法：先吃泥，再吃水”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "此处冒号起到引导下文具体内容的作用。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "明贬实褒的表达方式",
+        "question": "课文中说白鹅是“鹅老爷”是因为它真的生活在古代官宦人家。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这是一种戏称，用贬义词表达作者对白鹅派头的亲切调侃。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词语理解",
+        "question": "“不胜其烦”的意思是事情太多，让人无法承受那样的烦恼。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“胜”是承受的意思，本义为烦琐得让人受不了。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "文章结构",
+        "question": "老舍写的《母鸡》一文，中间有一段明显的过渡，将情感从讨厌转为尊敬。",
+        "options": [],
+        "answer": "对",
+        "explanation": "文章通过“可是，现在我改变了心思，我看见了一只孵出一群小鸡的母鸡”进行转折。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "写作技巧",
+        "question": "描写动物时，只要写出它们的长相即可，不需要描写动作。",
+        "options": [],
+        "answer": "错",
+        "explanation": "描写动物必须结合动作和性格描写才能生动形象。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "明贬实褒的表达方式",
+        "question": "阅读语段：“它若是不高兴啊，无论谁说多少好话，它都一声不出。”这体现了作者对猫：",
+        "options": [
+          "不耐烦的情绪",
+          "宽容与宠溺的情感",
+          "非常生气的态度",
+          "感到猫很笨拙"
+        ],
+        "answer": "宽容与宠溺的情感",
+        "explanation": "这种描写类似于说家中的顽皮孩子，饱含了作者的包容与喜爱。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动作与神态的细节描写",
+        "question": "白鹅吃饭时必须有三样东西下饭，这体现了它的生活（  ）。",
+        "options": [
+          "简陋潦草",
+          "一丝不苟",
+          "随随便便",
+          "粗茶淡饭"
+        ],
+        "answer": "一丝不苟",
+        "explanation": "白鹅吃饭程序的严格正体现了它性格中傲慢而刻板的一面。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗赏析",
+        "question": "《蜂》中“采得百花成蜜后，为谁辛苦为谁甜”运用的修辞手法是：",
+        "options": [
+          "比喻",
+          "排比",
+          "反问",
+          "夸张"
+        ],
+        "answer": "反问",
+        "explanation": "最后一句用疑问形式表达了对劳动意义的深刻肯定。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词识别",
+        "question": "下列哪组词语最能替换“它的一举一动都显得非常【高傲】”中的高傲？",
+        "options": [
+          "满足",
+          "自豪",
+          "骄傲",
+          "傲慢"
+        ],
+        "answer": "傲慢",
+        "explanation": "高傲在此处指神情姿态的傲慢。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "表达方式理解",
+        "question": "为什么作者说母鸡是一个“英雄”？",
+        "options": [
+          "因为它和别的鸡打架赢了",
+          "因为它保护小鸡时表现出的勇敢和慈爱",
+          "因为它能下很多蛋",
+          "因为它不怕人"
+        ],
+        "answer": "因为它保护小鸡时表现出的勇敢和慈爱",
+        "explanation": "这种对弱小生命的这种守护力量是作者赞美它为英雄的根本。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字音辨析",
+        "question": "“看守”的“看”和“看护”的“看”读音（    ）。",
+        "options": [
+          "都是kàn",
+          "都是kān",
+          "前面kàn后面kān",
+          "前面kān后面kàn"
+        ],
+        "answer": "都是kān",
+        "explanation": "两个词中的“看”都含有照看、守护的意思，读一声。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "冒号的用法与排版规范",
+        "question": "下列句子冒号使用表示“总括之后的分述”的是：",
+        "options": [
+          "它立刻警告：泥干了，快加点水。",
+          "鹅的吃饭，非有一人侍候不可：真是架子十足。",
+          "它吃的食物有：水、泥、草。",
+          "老师说：大家要爱护小动物。"
+        ],
+        "answer": "它吃的食物有：水、泥、草。",
+        "explanation": "冒号引出了食物的具体种类，属于总述后的分述。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子语气识辩",
+        "question": "“说它贪玩吧，的确是呀，要不怎么会一天一夜不回家呢？”这句话是什么语气？",
+        "options": [
+          "愤怒",
+          "责备",
+          "商量与宠溺",
+          "嫌弃"
+        ],
+        "answer": "商量与宠溺",
+        "explanation": "“吧”和“呢”等语气词展现了作者对猫亲昵的无奈。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关联词应用",
+        "question": "白鹅（  ）在吃水，（  ）在吃泥，（  ）在吃草。",
+        "options": [
+          "如果……就……不……",
+          "既……也……又……",
+          "不但……而且……还……",
+          "由于……所以……因为……"
+        ],
+        "answer": "不但……而且……还……",
+        "explanation": "递进关系，说明白鹅吃饭步骤的完整性。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "写法迁移",
+        "question": "如果我们要写“小狗非常淘气”，下列最适合作为动作细节描写的是：",
+        "options": [
+          "它长着一身金黄色的毛，非常漂亮。",
+          "它咬坏了我的拖鞋，还把花盆里的土刨得到处都是。",
+          "小狗今天在窝里睡了一整天觉。",
+          "小狗的名字叫球球，是我最喜欢的宠物。"
+        ],
+        "answer": "它咬坏了我的拖鞋，还把花盆里的土刨得到处都是。",
+        "explanation": "通过具体的破坏动作，生动体现“淘气”的特点。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生字积累",
+        "question": "白鹅的叫声，音调严肃郑重，似厉声（    ）。",
+        "options": [],
+        "answer": "呵斥",
+        "explanation": "呵斥形容大声责备。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课文情感",
+        "question": "《母鸡》一课表达了作者对（    ）的赞美之情。",
+        "options": [],
+        "answer": "母爱",
+        "explanation": "通过母鸡护雏的行为赞美母爱。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文学常识",
+        "question": "《白鹅》是著名漫画家、散文家（    ）先生的作品。",
+        "options": [],
+        "answer": "丰子恺",
+        "explanation": "考查必读课文的作者。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语感情色彩",
+        "question": "根据词语原本的色彩与本文表达的情感进行匹配。",
+        "options": [
+          "鹅老爷",
+          "古怪",
+          "英雄",
+          "贪玩",
+          "明贬实褒",
+          "明贬实褒",
+          "正面赞美",
+          "明贬实褒"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "鹅老爷、古怪、贪玩均为贬义词活用为喜爱，英雄是直接赞美。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物习性匹配",
+        "question": "根据课文内容连线动物与它们的独特习性。",
+        "options": [
+          "白鹅吃饭",
+          "猫睡觉",
+          "母鸡教子",
+          "公鹅划水",
+          "无忧无虑",
+          "三眼一板",
+          "海军上将",
+          "教它们啄食"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "考查各课核心细节描写内容。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子修辞辨析",
+        "question": "请将句子与对应的修辞手法连线。",
+        "options": [
+          "鹅老爷",
+          "它屏息凝视",
+          "这难道不可爱吗",
+          "蜜蜂采蜜辛苦",
+          "拟人",
+          "动作描写",
+          "反问",
+          "陈述"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "辨析文章中的修辞和描写方式。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比喻句式排列",
+        "question": "请将词语排列成一个生动的比喻句。",
+        "options": [
+          "它",
+          "像",
+          "一位",
+          "海军上将",
+          "走起路来"
+        ],
+        "answer": "它,走起路来,像,一位,海军上将",
+        "explanation": "选自课文《白公鹅》，生动刻画了鹅的姿态。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "排比结结构排列",
+        "question": "请根据课文逻辑排列母鸡负责任的描写。",
+        "options": [
+          "母鸡",
+          "勇敢",
+          "慈爱",
+          "因为它",
+          "负责"
+        ],
+        "answer": "因为它,负责,慈爱,勇敢,母鸡",
+        "explanation": "原句为“它负责、慈爱、勇敢、真诚，因为它有一群雏鸡”，此处选取核心词语构造逻辑关系。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "明贬实褒的表达方式",
+      "core_concept": "作者在描写喜爱的动物时，表面上使用一些看似贬义的词语，如“古怪”、“高傲”、“鹅老爷”、“讨厌”，实际上在这些词语中蕴含着深厚的喜爱、亲昵和赞赏之情。这种表达方式能使文章语言更加风趣幽默，情感表达更显委婉、耐人寻味。",
+      "key_formula": "贬义词语 + 宠溺语气 = 强烈的表达喜爱之情",
+      "common_mistakes": [
+        "误认为作者真的讨厌这些动物",
+        "在仿写时只学会了贬义词，却没能通过语境体现出喜爱的温度"
+      ],
+      "tips": "朗读时注意带上调皮、宠溺的语气，就能听出作者其实是在“反向表白”。"
+    },
+    {
+      "point": "动作与神态的细节描写",
+      "core_concept": "为了让动物形象跃然纸上，作者通常会选取一系列连贯的动作进行精准刻画。例如老舍描写猫抓老鼠时的“屏息凝视”、“一连站几个钟头”，以及母鸡护雏时“挺着脖儿”、“警戒”等。神态描写则辅以情感，让动物不仅具备“形”，更具备“神”。",
+      "key_formula": "连续动词 + 描写性形容词 = 生动的动物性格",
+      "common_mistakes": [
+        "描写过于笼统，如只写“小狗在跑”，没有具体的姿态",
+        "动作描写与要表达的性格不匹配"
+      ],
+      "tips": "观察动物时要学会抓拍“特写镜头”，把大的动作拆解成三个以上的小动作。"
+    },
+    {
+      "point": "冒号的用法与排版规范",
+      "core_concept": "冒号在本单元主要用于提起下文。一种是用于提示语后（如：它立刻警告：……），另一种是用于总括语后，引出具体的分述内容（如：它吃的食物有：水、泥、草）。在书写时，冒号在格子的左下方，不宜写在正中间。",
+      "key_formula": "总结词 + 冒号 + 具体内容（分述）",
+      "common_mistakes": [
+        "在该用句号或逗号的地方错误运用冒号",
+        "文稿纸书写时冒号写在右侧或格子中间"
+      ],
+      "tips": "记住“先总后分”时，中间往往需要一个冒号来连接。"
+    }
+  ]
+}

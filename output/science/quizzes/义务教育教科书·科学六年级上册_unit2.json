@@ -1,0 +1,706 @@
+{
+  "textbook": "教科版小学科学六年级上册",
+  "unit": "地球的运动",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元《地球的运动》单元基础过关测验",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "地球模型制作与结构认识",
+        "question": "地球从表面到地心可以分为地壳、地幔和地核三个圈层。",
+        "options": [],
+        "answer": "对",
+        "explanation": "地球内部圈层结构由外向内分别是地壳、地幔和地核。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人类认识地球运动的历史学说",
+        "question": "“地心说”是由波兰天文学家哥白尼提出来的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "地心说是古希腊天文学家托勒密提出来的，哥白尼提出的是日心说。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "地球自转的方向是自东向西。",
+        "options": [],
+        "answer": "错",
+        "explanation": "地球自转的方向是自西向东。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "正午影长的四季变化规律",
+        "question": "在同一地点，一年中正午时分影长最长的是冬至日。",
+        "options": [],
+        "answer": "对",
+        "explanation": "冬至日太阳高度角最小，影子最长；夏至日太阳高度角最大，影子最短。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "地球公转的特点与周期",
+        "question": "地球公转时，地轴的倾斜方向会随着季节的变化而不断改变。",
+        "options": [],
+        "answer": "错",
+        "explanation": "地球在公转过程中，地轴倾斜的方向保持不变，始终指向北极星附近。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地球模型制作与结构认识",
+        "question": "在地球结构模型中，厚度最薄的一层是（    ）。",
+        "options": [
+          "地壳",
+          "地幔",
+          "地核",
+          "大气层"
+        ],
+        "answer": "地壳",
+        "explanation": "地壳是地球最外层的薄壳，平均厚度约17千米，在地壳、地幔、地核中厚度最薄。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "昼夜交替现象的成因假设",
+        "question": "能够解释昼夜交替现象的假设不包括（    ）。",
+        "options": [
+          "太阳不动，地球自转",
+          "地球不动，太阳绕着地球转",
+          "地球不动，月球自转",
+          "地球绕着太阳转，同时自转"
+        ],
+        "answer": "地球不动，月球自转",
+        "explanation": "月球自转不会导致地球上产生昼夜交替现象。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人类认识地球运动的历史学说",
+        "question": "关于“日心说”，下列说法正确的是（    ）。",
+        "options": [
+          "太阳是宇宙的中心并静止不动",
+          "地球是宇宙的中心",
+          "所有天体都绕着地球旋转",
+          "地球是静止不动的"
+        ],
+        "answer": "太阳是宇宙的中心并静止不动",
+        "explanation": "哥白尼的“日心说”认为太阳是宇宙的中心且静止不动。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "中国北京和德国柏林的经度不同，北京在柏林东面。当北京的天刚亮时，柏林（    ）。",
+        "options": [
+          "也刚亮",
+          "已经天亮很久了",
+          "正处于深夜",
+          "还没到深夜"
+        ],
+        "answer": "正处于深夜",
+        "explanation": "由于地球自西向东转，东边的城市北京先迎来黎明，西边的柏林此时还处于黑夜。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "正午影长的四季变化规律",
+        "question": "古代人观察正午影长变化的工具叫（    ）。",
+        "options": [
+          "日晷",
+          "圭表",
+          "沙漏",
+          "水钟"
+        ],
+        "answer": "圭表",
+        "explanation": "日晷是计量一天内时间的工具，圭表是测量四季正午影长变化的工具。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "地球公转的特点与周期",
+        "question": "地球在公转轨道上距离太阳最远时，北半球处于（    ）。",
+        "options": [
+          "春季",
+          "夏季",
+          "秋季",
+          "冬季"
+        ],
+        "answer": "夏季",
+        "explanation": "地球公转轨道是椭圆，北半球夏季时地球位于远日点附近，四季成因主要是地轴倾斜导致阳光直射点变化。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "我们在转椅上由西向东转动时，看到的周围景物会（    ）运动。",
+        "options": [
+          "自西向东",
+          "自东向西",
+          "自北向南",
+          "自南向北"
+        ],
+        "answer": "自东向西",
+        "explanation": "相对运动原理，人自西向东转，看到的参照物会向相反方向运动。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球模型制作与结构认识",
+        "question": "下列关于地球特征的说法中，错误的是（    ）。",
+        "options": [
+          "地球是一个球体",
+          "地球表面大部分被海洋覆盖",
+          "陆地在地球表面的分布是很均匀的",
+          "地球内部存在不同的圈层结构"
+        ],
+        "answer": "陆地在地球表面的分布是很均匀的",
+        "explanation": "地球表面的海陆分布是不均匀的，海洋面积远大于陆地面积。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "昼夜交替现象的成因假设",
+        "question": "昼夜交替一次的时间大约是（    ）。",
+        "options": [
+          "12小时",
+          "24小时",
+          "365天",
+          "12个月"
+        ],
+        "answer": "24小时",
+        "explanation": "地球自转一周大约24小时，即一个昼夜交替周期。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "正午影长的四季变化规律",
+        "question": "从夏至到冬至，我国大部分地区的正午影长（    ）。",
+        "options": [
+          "逐渐变长",
+          "逐渐变短",
+          "先变长再变短",
+          "保持不变"
+        ],
+        "answer": "逐渐变长",
+        "explanation": "夏至正午影子最短，之后太阳高度角逐渐变小，到冬至影子达到最长。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球公转的特点与周期",
+        "question": "地球绕太阳公转的方向是（    ）。",
+        "options": [
+          "自东向西",
+          "自西向东",
+          "自南向北",
+          "自北向南"
+        ],
+        "answer": "自西向东",
+        "explanation": "地球自转和公转的方向都是自西向东。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "在傅科摆实验中，摆的方向（    ）。",
+        "options": [
+          "会随地球自转发生偏移",
+          "会随地球自转而改变快慢",
+          "在地板上永远指向同一个点",
+          "随重力消失而停止"
+        ],
+        "answer": "会随地球自转发生偏移",
+        "explanation": "傅科摆利用摆具有保持摆动方向不变的性质，证明了地球在自转。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "正午影长的四季变化规律",
+        "question": "如果地轴不再倾斜而是垂直于公转轨道面，那么地球上（    ）。",
+        "options": [
+          "没有昼夜现象",
+          "没有四季温差变化",
+          "极地地区变热",
+          "赤道地区变冷"
+        ],
+        "answer": "没有四季温差变化",
+        "explanation": "四季的产生是由于地轴倾斜导致公转过程中阳光直射点变化，若地轴不倾斜，阳光直射点将永远固定在赤道。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地球公转的特点与周期",
+        "question": "地球绕太阳公转完整的一周，需要的时间大约是（    ）天。",
+        "options": [],
+        "answer": "365",
+        "explanation": "地球公转周期为一年，约为365天（精确为365.25天）。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "地球自转一周的时间大约是（    ）小时。",
+        "options": [],
+        "answer": "24",
+        "explanation": "地球自转周期为一天，即24小时。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地球模型制作与结构认识",
+        "question": "地球内部圈层中，位于最中心的部分叫（    ）。",
+        "options": [],
+        "answer": "地核",
+        "explanation": "地核是地球的核心部分。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人类认识地球运动的历史学说",
+        "question": "哥白尼提出的（    ）学说，推翻了传统的地球是宇宙中心的观点。",
+        "options": [],
+        "answer": "日心说",
+        "explanation": "哥白尼通过《天体运行论》系统阐述了日心说。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "在地球仪上，连接南北两极的线叫做（    ）。",
+        "options": [],
+        "answer": "经线",
+        "explanation": "经线是地球仪上连接南北两极的半圆弧线。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级科学上册第二单元《地球的运动》期末模拟卷",
+    "total_score": 95,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "昼夜交替现象的成因假设",
+        "question": "只要地球在不停地转动，就一定会产生昼夜交替现象。",
+        "options": [],
+        "answer": "错",
+        "explanation": "必须有光源（太阳）且地球是不透明的，在其转动时才会产生昼夜交替。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "地球公转的特点与周期",
+        "question": "地球公转的轨道是一个标准的圆形。",
+        "options": [],
+        "answer": "错",
+        "explanation": "地球公转的轨道是一个椭圆。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "地球模型制作与结构认识",
+        "question": "地壳主要由岩石组成。",
+        "options": [],
+        "answer": "对",
+        "explanation": "地壳是地球表面的坚硬外壳，主要由各种岩石组成。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "乌鲁木齐的学生比北京的学生更早看到日出。",
+        "options": [],
+        "answer": "错",
+        "explanation": "北京位于乌鲁木齐的东面，由于地球自西向东自转，北京先迎来日出。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人类认识地球运动的历史学说",
+        "question": "伽利略发明了望远镜，为日心说提供了观测证据。",
+        "options": [],
+        "answer": "对",
+        "explanation": "伽利略利用望远镜发现了金星位相改变和木星卫星，支持了日心说。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "地球模型制作与结构认识",
+        "question": "地球表面陆地和海洋的面积比例约为（    ）。",
+        "options": [
+          "各占一半",
+          "三成陆地七成海洋",
+          "七成陆地三成海洋",
+          "一成陆地九成海洋"
+        ],
+        "answer": "三成陆地七成海洋",
+        "explanation": "地球表面约29%是陆地，约71%是海洋。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "昼夜交替现象的成因假设",
+        "question": "模拟昼夜交替现象时，手电筒模拟的是（    ）。",
+        "options": [
+          "地球",
+          "月球",
+          "太阳",
+          "星星"
+        ],
+        "answer": "太阳",
+        "explanation": "在模拟实验中，手电筒发出的光代表太阳光。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人类认识地球运动的历史学说",
+        "question": "下列属于“地心说”和“日心说”共同观点的是（    ）。",
+        "options": [
+          "太阳是静止不动的",
+          "地球是静止不动的",
+          "地球是一个球体",
+          "地球是宇宙的中心"
+        ],
+        "answer": "地球是一个球体",
+        "explanation": "托勒密和哥白尼都认为天体（地球或太阳）是球形的。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "如果我们观察到北极星不动，周围的星体由于地球自转（    ）旋转。",
+        "options": [
+          "顺时针",
+          "逆时针",
+          "向南",
+          "向东"
+        ],
+        "answer": "逆时针",
+        "explanation": "在北半球观察，由于地球自西向东逆时针旋转，星空看起来是绕北极星逆时针旋转。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "正午影长的四季变化规律",
+        "question": "由于影长的四季变化，我们需要不断调整太阳能热水器的倾斜角度，冬天的倾斜角应该比夏天（    ）。",
+        "options": [
+          "大",
+          "小",
+          "一样",
+          "无法判断"
+        ],
+        "answer": "大",
+        "explanation": "冬天太阳高度角小，热水器集热管应增加倾角以与阳光垂直。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "地球公转的特点与周期",
+        "question": "产生四季现象最主要的原因是（    ）。",
+        "options": [
+          "地球离太阳远近不断变化",
+          "地轴倾斜且公转",
+          "地球自转方向不断变化",
+          "月球绕地球转动"
+        ],
+        "answer": "地轴倾斜且公转",
+        "explanation": "地轴倾斜且公转导致阳光直射点在南北回归线间移动，从而产生四季。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "下列现象中，能证明地球在自转的是（    ）。",
+        "options": [
+          "影子长短变化",
+          "傅科摆的偏移",
+          "月亮的自转",
+          "极光现象"
+        ],
+        "answer": "傅科摆的偏移",
+        "explanation": "傅科摆是证明地球自转的最直观、最科学的实验之一。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "正午影长的四季变化规律",
+        "question": "当圭表上的影长达到一年中最短时，对应的节气是（    ）。",
+        "options": [
+          "春分",
+          "夏至",
+          "秋分",
+          "冬至"
+        ],
+        "answer": "夏至",
+        "explanation": "夏至这一天北半球正午太阳高度最高，影长最短。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球公转的特点与周期",
+        "question": "南极圈内出现极昼现象时，北极圈内通常是（    ）。",
+        "options": [
+          "极昼",
+          "极夜",
+          "昼夜平分",
+          "无法确定"
+        ],
+        "answer": "极夜",
+        "explanation": "南北半球季节和光照情况相反，当南极极昼（冬至左右）时，北极极夜。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球模型制作与结构认识",
+        "question": "在制作地球海陆分布模型时，通常用（    ）代表海洋。",
+        "options": [
+          "绿色",
+          "蓝色",
+          "黄色",
+          "红色"
+        ],
+        "answer": "蓝色",
+        "explanation": "地图和地理模型中，习惯上用蓝色代表海洋和水。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "上海和拉萨大概相差30个经度，由于自传，它们的日出时间大概相差（    ）。",
+        "options": [
+          "1小时",
+          "2小时",
+          "4小时",
+          "12小时"
+        ],
+        "answer": "2小时",
+        "explanation": "地球自转每小时转动15度经度，30度对应2小时时差。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "昼夜交替现象的成因假设",
+        "question": "最早发现“日延长时”和“影更替”规律并编入历法的人群是（    ）。",
+        "options": [
+          "古埃及人",
+          "古希腊人",
+          "古中国人",
+          "古玛雅人"
+        ],
+        "answer": "古中国人",
+        "explanation": "中国古代天文学发达，通过长期观测影子长度制定了二十四节气。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球公转的特点与周期",
+        "question": "当地球绕太阳公转到哪个节气时，全球昼夜等长（    ）。",
+        "options": [
+          "夏至",
+          "冬至",
+          "春分",
+          "大暑"
+        ],
+        "answer": "春分",
+        "explanation": "春分和秋分，阳光直射赤道，全球各地昼夜平分。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球自转方向与时差",
+        "question": "经线每隔（    ）度划分一个时区。",
+        "options": [],
+        "answer": "15",
+        "explanation": "全球分为24时区，每区跨15度经度。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地球公转的特点与周期",
+        "question": "地球在公转过程中，始终倾斜着身子，地轴的上端始终指向（    ）附近。",
+        "options": [],
+        "answer": "北极星",
+        "explanation": "北极星的位置相对固定，是因为地轴基本指向它。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "昼夜交替现象的成因假设",
+        "question": "由地球自转产生的现象叫（    ）交替。",
+        "options": [],
+        "answer": "昼夜",
+        "explanation": "这里的术语应填写昼夜。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "正午影长的四季变化规律",
+        "question": "冬至日正午时分，阳光直射（    ）。",
+        "options": [],
+        "answer": "南回归线",
+        "explanation": "冬至日太阳高度角在北半球最小，是因为直射点在南回归线。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "地球结构与模型",
+      "core_concept": "地球是球体，内部由三个主要圈层组成。",
+      "key_formula": "地壳 < 地幔 < 地核（厚度比较）",
+      "common_mistakes": [
+        "认为地壳是最厚的一层",
+        "忽略海洋也是地壳的一部分"
+      ],
+      "tips": "制作模型时要注意三个圈层的比例，地壳是非常薄的一层。"
+    },
+    {
+      "point": "昼夜交替成因",
+      "core_concept": "昼夜交替是由地球自转形成的。",
+      "key_formula": "昼夜交替周期 = 24小时",
+      "common_mistakes": [
+        "认为地球只有公转也会产生昼夜交替",
+        "搞混自转和公转的方向"
+      ],
+      "tips": "模拟实验是验证假设的重要方法，需要控制光源和视角。"
+    },
+    {
+      "point": "日心说与地心说",
+      "core_concept": "科学理论需要证据支持并随着技术进步而完善。",
+      "key_formula": "日心说取代地心说是人类认识宇宙的巨大进步",
+      "common_mistakes": [
+        "混淆托勒密和哥白尼的观点",
+        "忽略伽利略望远镜的重要性"
+      ],
+      "tips": "要掌握两者关于宇宙中心、地球是否运动的核心分歧。"
+    },
+    {
+      "point": "地球自转及其意义",
+      "core_concept": "地球自西向东自转，产生了时差和晨昏线移动。",
+      "key_formula": "越偏东的地方越先看到黎明",
+      "common_mistakes": [
+        "计算温州和拉萨谁先看到日出时出错",
+        "忘记傅科摆是证明自转的"
+      ],
+      "tips": "自转方向识记法：顺着地球自转，右手边（东）的人先被太阳照到。"
+    },
+    {
+      "point": "影长与季节变化",
+      "core_concept": "地球公转与地轴倾斜导致了正午影长的周期性变化。",
+      "key_formula": "夏至影最短，冬至影最长",
+      "common_mistakes": [
+        "分不清圭和表的作用",
+        "认为影长短是因为地球离太阳近"
+      ],
+      "tips": "正午影长是由于太阳高度角变化引起的，角度越大影越短。"
+    },
+    {
+      "point": "公转及其意义",
+      "core_concept": "地球绕太阳自西向东公转，地轴倾斜方向不变。",
+      "key_formula": "周期 = 1年（365天）",
+      "common_mistakes": [
+        "认为地轴在转动中会来回晃动",
+        "把四季成因归结为离太阳远近"
+      ],
+      "tips": "理解“斜着身子公转”是解释极昼极夜和四季变化的关键点。"
+    }
+  ]
+}

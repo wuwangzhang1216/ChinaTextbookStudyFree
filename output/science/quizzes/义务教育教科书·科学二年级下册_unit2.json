@@ -1,0 +1,697 @@
+{
+  "textbook": "教科版小学科学二年级下册",
+  "unit": "我们自己",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元《我们自己》基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "question": "人的身体外部结构大致可以分为头、颈、躯干和四肢四个部分。",
+        "options": [],
+        "answer": "对",
+        "explanation": "科学观察发现，人体外形由头、颈、躯干、四肢四部分组成。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "我们通过耳朵可以听到声音，辨别声音的高低和强弱。",
+        "options": [],
+        "answer": "对",
+        "explanation": "听觉器官是耳朵，能接收声音信号。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的生长变化",
+        "question": "测量身高时，我们应该穿着厚底鞋来增加高度。",
+        "options": [],
+        "answer": "错",
+        "explanation": "测量身高应脱去鞋帽，确保数据的真实性。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "综合运用感官进行观察与比较",
+        "question": "如果我们只用眼睛观察，就能知道杯子里的液体是酸的还是甜的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "味道需要通过味觉器官（舌头）来感知，眼睛只能看到颜色。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "鼻子的作用是闻气味，它也是我们的呼吸器官之一。",
+        "options": [],
+        "answer": "对",
+        "explanation": "鼻子是嗅觉器官，具有分辨气味的功能。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "question": "我们的身体外部形态表现出明显的（___）特征。",
+        "options": [
+          "上下对称",
+          "左右对称",
+          "前后对称",
+          "完全不对称"
+        ],
+        "answer": "左右对称",
+        "explanation": "从外形看，人的左右两边结构是非常相似的。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "观察物体的颜色、形状、大小，主要利用的感官是（___）。",
+        "options": [
+          "眼睛",
+          "鼻子",
+          "舌头",
+          "耳朵"
+        ],
+        "answer": "眼睛",
+        "explanation": "眼睛是视觉器官，负责感知物体的视觉特征。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "想要辨别两杯液体哪个是醋，哪个是水，最简单的方法是（___）。",
+        "options": [
+          "用听觉听",
+          "用嗅觉闻",
+          "用皮肤摸",
+          "用眼睛看"
+        ],
+        "answer": "用嗅觉闻",
+        "explanation": "醋有明显的酸味，可以通过鼻子闻出来。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合运用感官进行观察与比较",
+        "question": "在“翻拍手”游戏中，我们主要训练的是（___）。",
+        "options": [
+          "记忆力",
+          "反应速度",
+          "观察力",
+          "逻辑能力"
+        ],
+        "answer": "反应速度",
+        "explanation": "翻拍手游戏需要根据对方动作迅速做出避让或拍打，是反应能力的体现。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的生长变化",
+        "question": "下列哪项现象能证明我们正在生长？（___）",
+        "options": [
+          "衣服变短了",
+          "指甲变长了",
+          "体重增加了",
+          "以上都是"
+        ],
+        "answer": "以上都是",
+        "explanation": "身高、体重的增加以及身体局部（如指甲、头发）的变化都是生长表现。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人体反应速度的测试与提升",
+        "question": "在“抓尺子”实验中，抓住尺子的位置越靠下，说明反应（___）。",
+        "options": [
+          "越快",
+          "越慢",
+          "中等",
+          "没变化"
+        ],
+        "answer": "越快",
+        "explanation": "位置越靠下，说明尺子下落的时间越短，反应越迅速。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "我们要了解物体的粗糙程度，应该使用（___）。",
+        "options": [
+          "手（皮肤）",
+          "眼睛",
+          "鼻子",
+          "耳朵"
+        ],
+        "answer": "手（皮肤）",
+        "explanation": "皮肤是触觉器官，可以感知冷热、粗糙、软硬。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体信息的记录、推测与健康保护",
+        "question": "为了保护我们的听力，下列哪种做法是正确的？（___）",
+        "options": [
+          "经常挖耳朵",
+          "长时间戴耳机听歌",
+          "远离噪音环境",
+          "对着同学耳朵大吼"
+        ],
+        "answer": "远离噪音环境",
+        "explanation": "强噪音会伤害耳膜，保护听力应远离高噪声环境。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合运用感官进行观察与比较",
+        "question": "当我们闭上眼睛，只通过触摸来分辨桔子和苹果时，（___）不起作用。",
+        "options": [
+          "视觉",
+          "触觉",
+          "嗅觉",
+          "听觉"
+        ],
+        "answer": "视觉",
+        "explanation": "闭上眼睛即关闭了视觉通道。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察身体的生长变化",
+        "question": "测量我们的体形变化，不属于测量范围的是（___）。",
+        "options": [
+          "身高",
+          "体重",
+          "腿长",
+          "衣服颜色"
+        ],
+        "answer": "衣服颜色",
+        "explanation": "衣服颜色是个人的外在装饰，不属于身体生长变化的生物特征。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "盲人通过（___）阅读盲文。",
+        "options": [
+          "听觉",
+          "触觉",
+          "嗅觉",
+          "味觉"
+        ],
+        "answer": "触觉",
+        "explanation": "盲文是凸起的点状文字，靠手指皮肤的触觉来感知。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "question": "人体躯干部分最重要的保护对象是（___）。",
+        "options": [
+          "心脏和肺",
+          "指甲",
+          "头发",
+          "皮肤表面"
+        ],
+        "answer": "心脏和肺",
+        "explanation": "胸腔和腹腔内包含了心脏、肺、胃等维持生命的重要器官。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人体反应速度的测试与提升",
+        "question": "经过多次练习，我们抓尺子的能力会（___）。",
+        "options": [
+          "提高",
+          "下降",
+          "不变",
+          "消失"
+        ],
+        "answer": "提高",
+        "explanation": "反复练习可以提高神经系统的协调能力，缩短反应时间。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "正常人的感官系统共有（___）大感官。",
+        "options": [],
+        "answer": "5",
+        "explanation": "人有眼、耳、鼻、舌、皮肤五大感官。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "question": "人的一只手有（___）个手指。",
+        "options": [],
+        "answer": "5",
+        "explanation": "正常情况下人的一只手有五指。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "我们常用（___）来辨别事物的颜色。",
+        "options": [],
+        "answer": "眼睛",
+        "explanation": "眼睛产生视觉，感知色彩。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "我们说话、吃饭都要用到（___）。",
+        "options": [],
+        "answer": "嘴巴",
+        "explanation": "嘴巴是重要的面部结构，涉及消化和语言。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察身体的生长变化",
+        "question": "通过对比小时候的照片和现在的自己，我们发现身体在（___）。",
+        "options": [],
+        "answer": "生长",
+        "explanation": "体型变大、身高增长统称为生长。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级下册科学第二单元综合测评卷",
+    "total_score": 100,
+    "time_minutes": 50,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "question": "医生使用的听诊器可以帮助他们听到我们的心跳声。",
+        "options": [],
+        "answer": "对",
+        "explanation": "听诊器能放大声音，帮助医生通过听觉观察身体内部。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "人体反应速度的测试与提升",
+        "question": "反应速度是天生的，不能通过后天练习提高。",
+        "options": [],
+        "answer": "错",
+        "explanation": "通过科学的训练可以有效缩短反应时。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "身体信息的记录、推测与健康保护",
+        "question": "为了生长发育，我们要挑自己喜欢的炸薯条吃，不吃蔬菜。",
+        "options": [],
+        "answer": "错",
+        "explanation": "健康生长需要均衡营养，不能偏食。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "综合运用感官进行观察与比较",
+        "question": "观察不仅是用眼睛看，还包括用耳听、用鼻闻等多种方式。",
+        "options": [],
+        "answer": "对",
+        "explanation": "多感官协同配合可以使观察更客观、更全面。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "皮肤可以感知冷热，但不能感知物体的痛觉。",
+        "options": [],
+        "answer": "错",
+        "explanation": "皮肤具备感知冷、热、痛、触的能力。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合运用感官进行观察与比较",
+        "question": "在观察水果时，小明先闻一闻，再尝一尝，他依次用到的感官是（___）。",
+        "options": [
+          "鼻子、舌头",
+          "眼睛、鼻子",
+          "嘴巴、耳朵",
+          "手、眼睛"
+        ],
+        "answer": "鼻子、舌头",
+        "explanation": "闻对应嗅觉（鼻子），尝对应味觉（舌头）。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人体反应速度的测试与提升",
+        "question": "玩“抓尺子”游戏时，需要（___）和手的配合。",
+        "options": [
+          "眼睛",
+          "鼻子",
+          "舌头",
+          "脚"
+        ],
+        "answer": "眼睛",
+        "explanation": "需要眼睛看到尺子下落并迅速给大手发指令。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "我们在判断一个物体的软硬时，通常采用的方法是（___）。",
+        "options": [
+          "敲击听声音",
+          "用手按压",
+          "用嘴巴尝",
+          "用鼻子闻"
+        ],
+        "answer": "用手按压",
+        "explanation": "通过皮肤受力后的反馈来判断软硬程度。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察身体的生长变化",
+        "question": "二年级的小丽发现去年买的裙子现在穿太短了，这说明（___）。",
+        "options": [
+          "裙子缩水了",
+          "小丽长高了",
+          "裙子变色了",
+          "小丽变瘦了"
+        ],
+        "answer": "小丽长高了",
+        "explanation": "这属于典型的身体生长导致原有衣物不合身的现象。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "question": "当我们用手摸自己的身体，发现皮肤下面硬硬的是（___）。",
+        "options": [
+          "肌肉",
+          "骨骼",
+          "血液",
+          "脂肪"
+        ],
+        "answer": "骨骼",
+        "explanation": "骨骼支撑着我们的身体，质地坚硬。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "身体信息的记录、推测与健康保护",
+        "question": "测量身体数据时，下列做法规范的是（___）。",
+        "options": [
+          "垫起脚尖量身高",
+          "吃饱了大餐量体重",
+          "脱去外套和鞋子量",
+          "弯着腰量身高"
+        ],
+        "answer": "脱去外套和鞋子量",
+        "explanation": "减少外物影响才能获得准确的生理数据。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "听到美妙音乐主要依靠的器官是（___）。",
+        "options": [
+          "视觉器官",
+          "听觉器官",
+          "嗅觉器官",
+          "味觉器官"
+        ],
+        "answer": "听觉器官",
+        "explanation": "耳朵是听觉器官。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "question": "如果我们只用一只眼睛看东西，会发现（___）。",
+        "options": [
+          "看得很清楚",
+          "完全看不见",
+          "范围变小了",
+          "没有区别"
+        ],
+        "answer": "范围变小了",
+        "explanation": "双眼视觉比单眼视觉视野更广，更有立体感。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体信息的记录、推测 with 健康保护",
+        "question": "为了保护皮肤，我们在烈日下活动应该（___）。",
+        "options": [
+          "不做防护",
+          "多晒太阳",
+          "涂抹防晒霜",
+          "不穿衣服"
+        ],
+        "answer": "涂抹防晒霜",
+        "explanation": "紫外线会伤害皮肤，需要物理或化学防护。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "观察身体的生改变",
+        "question": "到了 6、7 岁左右，小朋友都要经历（___）阶段。",
+        "options": [
+          "换牙",
+          "长胡子",
+          "换肤",
+          "停止生长"
+        ],
+        "answer": "换牙",
+        "explanation": "乳牙脱落换成恒牙是这一年龄段的重要生理特征。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人体反应速度的测试与提升",
+        "question": "在复杂的交通环境中，行人需要敏锐的反应能力，这是为了（___）。",
+        "options": [
+          "走得更快",
+          "保护安全",
+          "锻炼身体",
+          "展示美观"
+        ],
+        "answer": "保护安全",
+        "explanation": "快速反应能帮助人避开危险。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合运用感官进行观察与比较",
+        "question": "通过触觉，我们不能发现物体的（___）。",
+        "options": [
+          "冷热",
+          "轻重",
+          "颜色",
+          "形状"
+        ],
+        "answer": "颜色",
+        "explanation": "颜色属于视觉范畴，触觉无法感知。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "question": "人体结构中，连接头和躯干的部分是（___）。",
+        "options": [
+          "腰部",
+          "颈部",
+          "肩膀",
+          "背部"
+        ],
+        "answer": "颈部",
+        "explanation": "颈部即脖子，起桥梁作用。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "观察身体的生长变化",
+        "question": "小明去年身高120厘米，今年125厘米，他一年长高了（___）厘米。",
+        "options": [],
+        "answer": "5",
+        "explanation": "125 - 120 = 5 厘米。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "question": "每个人都有（___）只眼睛。",
+        "options": [],
+        "answer": "2",
+        "explanation": "人类正常生理结构为双眼。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "身体信息的记录、推测与健康保护",
+        "question": "我们手上的指纹是不重复的，可以用来（___）身份。",
+        "options": [],
+        "answer": "辨认",
+        "explanation": "指纹具有唯一性，是重要的身份凭证。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "通过五种感官发现信息",
+        "question": "我们可以通过（___）辨别事物的味道。",
+        "options": [],
+        "answer": "舌头",
+        "explanation": "舌头是味觉器官。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "观察身体的外部结构与对称性",
+        "question": "人体的外部结构中，上肢和下肢统称为（___）。",
+        "options": [],
+        "answer": "四肢",
+        "explanation": "四肢包含两条胳膊和两条腿。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "身体外部结构",
+      "core_concept": "人体由头、颈、躯干、四肢组成，表现出左右对称的特征。",
+      "key_formula": "人体内部还有骨骼、肌肉和器官。",
+      "common_mistakes": [
+        "混淆躯干和四肢的概念",
+        "忽略身体内部结构的存在"
+      ],
+      "tips": "可以通过对折照片或照镜子来理解对称性。"
+    },
+    {
+      "point": "五感官观察",
+      "core_concept": "眼（视觉）、耳（听觉）、鼻（嗅觉）、舌（味觉）、皮肤（触觉）。",
+      "key_formula": "单一感官获取信息有限，综合感官获取信息全面。",
+      "common_mistakes": [
+        "认为手只有触觉，忽略了皮肤遍布全身",
+        "仅靠颜色判断性质（如白醋与水）"
+      ],
+      "tips": "未知的物品禁止随便闻或尝。"
+    },
+    {
+      "point": "反应能力",
+      "core_concept": "反应速度是指人体对刺激做出反应的快慢程度。",
+      "key_formula": "反应过程：感受器→神经中枢→效应器（眼看→脑思→手动）。",
+      "common_mistakes": [
+        "认为反应速度是不可改变的",
+        "实验时提前移动手部导致测试无效"
+      ],
+      "tips": "可以通过玩抓尺子、拍手游戏来提升反应能力。"
+    },
+    {
+      "point": "生长变化",
+      "core_concept": "身高、体重、牙齿、指甲、衣服尺码的变化都是生长证据。",
+      "key_formula": "生长是持续的过程，均衡营养和运动有助于健康生长。",
+      "common_mistakes": [
+        "认为只有长高才叫生长",
+        "测量数据不规范导致结果偏差"
+      ],
+      "tips": "定期建立身体发育记录袋，记录生长足迹。"
+    }
+  ]
+}

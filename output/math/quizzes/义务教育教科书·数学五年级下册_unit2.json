@@ -1,0 +1,697 @@
+{
+  "textbook": "人教版小学数学五年级下册",
+  "unit": "因数与倍数",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元 因数与倍数 单元小测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "因为 $1.2 \\div 0.3 = 4$，所以 1.2 是 0.3 的倍数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "因数和倍数研究的是非零自然数。1.2和0.3是小数，不能讨论因数和倍数关系。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "所有的偶数都是合数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "2是偶数，但2只有1和2两个因数，所以2是质数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "1 既不是质数，也不是合数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "质数要求有2个因数，合数要求有3个及以上因数。1只有1个因数，所以既不是质数也不是合数。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数的奇偶性运算规律",
+        "question": "两个奇数的和一定是偶数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "奇数+奇数=偶数。例如 $3 + 5 = 8$ 是偶数。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "一个数的倍数一定比它的因数大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "一个数的最大因数和最小倍数都是它本身，此时它们相等。例如6的最大因数是6，最小倍数也是6。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "下列各组数中，第一个数是第二个数倍数的是：",
+        "options": [
+          "16 和 32",
+          "24 和 6",
+          "0.8 和 0.4",
+          "7 和 14"
+        ],
+        "answer": "24 和 6",
+        "explanation": "$24 \neq 6 = 4$，且都是自然数，所以24是6的倍数。16是32的因数，0.8是小数。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "下列数字中，同时是 2 和 5 的倍数的是：",
+        "options": [
+          "102",
+          "115",
+          "110",
+          "122"
+        ],
+        "answer": "110",
+        "explanation": "同时是2和5的倍数，末尾必须是0。110符合条件。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "一个数既是 3 的倍数，又是 5 的倍数，这个数可能是：",
+        "options": [
+          "15",
+          "20",
+          "25",
+          "26"
+        ],
+        "answer": "15",
+        "explanation": "15的各位数字之和是 $1+5=6$（3的倍数），且末尾是5，所以是15。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "在 1-10 的自然数中，质数有几个？",
+        "options": [
+          "3 个",
+          "4 个",
+          "5 个",
+          "6 个"
+        ],
+        "answer": "4 个",
+        "explanation": "1-10中的质数有2, 3, 5, 7，共4个。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "下列各数中，属于合数的是：",
+        "options": [
+          "17",
+          "23",
+          "27",
+          "31"
+        ],
+        "answer": "27",
+        "explanation": "27除了1和27，还有因数3和9，所以是合数。17, 23, 31都是质数。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数的奇偶性运算规律",
+        "question": "奇数与偶数的积是：",
+        "options": [
+          "奇数",
+          "偶数",
+          "质数",
+          "不确定"
+        ],
+        "answer": "偶数",
+        "explanation": "奇数 $\times$ 偶数 = 偶数。例如 $3 \times 2 = 6$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "18 的因数一共有几个？",
+        "options": [
+          "4 个",
+          "5 个",
+          "6 个",
+          "8 个"
+        ],
+        "answer": "6 个",
+        "explanation": "18的因数有：1, 2, 3, 6, 9, 18。共6个。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "一个三位数 52□，如果是 3 的倍数，□里最小填几？",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "2",
+        "explanation": "$5+2+2=9$，9是3的倍数，所以最小填2。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "两个质数的积一定是：",
+        "options": [
+          "质数",
+          "合数",
+          "偶数",
+          "奇数"
+        ],
+        "answer": "合数",
+        "explanation": "两个质数的积至少有1、这两个质数本身及积本身四个因数，故为合数。如 $2 \times 3 = 6$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "一个数既是 12 的因数，又是 12 的倍数，这个数是：",
+        "options": [
+          "1",
+          "6",
+          "12",
+          "24"
+        ],
+        "answer": "12",
+        "explanation": "一个数的最大因数和最小倍数都是它本身。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "把 30 个苹果平均分给小朋友，要使每人分得的个数是偶数，人数不可能是：",
+        "options": [
+          "3 人",
+          "5 人",
+          "15 人",
+          "4 人"
+        ],
+        "answer": "4 人",
+        "explanation": "人数必须是30的因数。4不是30的因数，无法平均分。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数的奇偶性运算规律",
+        "question": "有 101 个连读自然数相加，和是：",
+        "options": [
+          "奇数",
+          "偶数",
+          "取决于第一个数",
+          "无法确定"
+        ],
+        "answer": "取决于第一个数",
+        "explanation": "奇数个自然数连加，奇数的个数若为偶数则和为偶数，反之则奇。若首项为偶，则有50个奇数（和为偶）；若首项为奇，则有51个奇数（和为奇）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "两个质数的和是 25，这两个质数的积是：",
+        "options": [
+          "24",
+          "46",
+          "50",
+          "100"
+        ],
+        "answer": "46",
+        "explanation": "两个数之和为奇数，必为一奇一偶。质数中唯一的偶数是2，故另一个质数是 $25-2=23$。积为 $2 \times 23 = 46$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "20 的因数中，最大的是 ___。",
+        "options": [],
+        "answer": "20",
+        "explanation": "一个数的最大因数是它本身。验算：$20 \times 1 = 20$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "最小的偶数是 0，最小的质数是 ___。",
+        "options": [],
+        "answer": "2",
+        "explanation": "质数从2开始，1既不是质数也不是合数。最小质数是2。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数的奇偶性运算规律",
+        "question": "3 个连续奇数的和是 21，这三个数中最大的一个是 ___。",
+        "options": [],
+        "answer": "9",
+        "explanation": "中间的数是 $21 \times 3 = 7$。三个数是5, 7, 9。最大是9。验算：$5+7+9=21$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "$12 \times 4 = ?$",
+        "options": [],
+        "answer": "48",
+        "explanation": "$12 \times 4 = 48$。验算：$48 \times 4 = 12$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "$2 \times 3 \times 5 = ?$",
+        "options": [],
+        "answer": "30",
+        "explanation": "$2 \times 3 \times 5 = 6 \times 5 = 30$。验算：$30 \times 5 \times 3 = 2$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第二单元 因数与倍数 综合能力测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "一个数的因数一定比它的倍数小。",
+        "options": [],
+        "answer": "错",
+        "explanation": "一个数的最大因数和最小倍数相等。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "个位上是 3、6、9 的数都是 3 的倍数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "3的倍数特征是各位数字之和是3的倍数。如16个位是6，但不是3的倍数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "除了 2 以外，所有的质数都是奇数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "大于2的偶数都能被2整除，所以一定是合数。因此质数中只有2是偶数。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数的奇偶性运算规律",
+        "question": "$n$ 是自然数，$2n+1$ 一定是奇数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$2n$ 是偶数，偶数加1一定是奇数。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "两个奇数的和一定是合数。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如 $1 + 2$（1不是质数）不适用；看质数：$3+5=8$（合数），但 $1+1=2$（质数，若考虑1的话）不成立。规范看：$7+11=18$（合数），但如果是 $1+2$ 这种不是两个奇数的情况。主要考点：$1+1=2$（2是质数）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "7 的倍数共有：",
+        "options": [
+          "1 个",
+          "7 个",
+          "14 个",
+          "无数个"
+        ],
+        "answer": "无数个",
+        "explanation": "一个数的倍数有无数个。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "一个数既是 2 的倍数也是 3 的倍数，它一定也是几的倍数？",
+        "options": [
+          "4",
+          "5",
+          "6",
+          "9"
+        ],
+        "answer": "6",
+        "explanation": "2和3的最小公倍数是6。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "最小的合数是：",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "4",
+        "explanation": "1不是，2和3是质数，4是最小的合数。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "15 的全部因数有几个？",
+        "options": [
+          "2 个",
+          "3 个",
+          "4 个",
+          "5 个"
+        ],
+        "answer": "4 个",
+        "explanation": "15的因数有1, 3, 5, 15，共4个。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "一个数是 9 的倍数，这个数：",
+        "options": [
+          "一定是 3 的倍数",
+          "不一定是 3 的倍数",
+          "一定是 6 的倍数",
+          "一定是 18 的倍数"
+        ],
+        "answer": "一定是 3 的倍数",
+        "explanation": "9是3的倍数，所以9的倍数也一定是3的倍数。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "10 以内所有质数的和是：",
+        "options": [
+          "17",
+          "18",
+          "19",
+          "20"
+        ],
+        "answer": "17",
+        "explanation": "$2 + 3 + 5 + 7 = 17$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数的奇偶性运算规律",
+        "question": "如果 $a$ 是奇数，$b$ 是偶数，那么 $a \times b + a$ 是：",
+        "options": [
+          "奇数",
+          "偶数",
+          "质数",
+          "合数"
+        ],
+        "answer": "奇数",
+        "explanation": "奇 $\times$ 偶 = 偶，偶 + 奇 = 奇。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "用 0, 3, 5 三个数字组成的三位数中，是 5 的倍数的：",
+        "options": [
+          "只有 1 个",
+          "共有 2 个",
+          "共有 3 个",
+          "共有 4 个"
+        ],
+        "answer": "共有 3 个",
+        "explanation": "末尾是0或5。满足的有：350, 530, 305。共3个。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "一个数既是 18 的因数，又是 24 的因数，这个数最大是：",
+        "options": [
+          "2",
+          "3",
+          "6",
+          "12"
+        ],
+        "answer": "6",
+        "explanation": "18的因数：1,2,3,6,9,18；24的因数：1,2,3,4,6,8,12,24。公因数最大是6。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "有一个质数，它加上 10 和加上 14 之后依然是质数，这个数是：",
+        "options": [
+          "3",
+          "7",
+          "11",
+          "13"
+        ],
+        "answer": "3",
+        "explanation": "若为3，$3+10=13$（质），$3+14=17$（质）。若为7，$7+14=21$（合）。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "下列哪一组数中，全是 3 的倍数？",
+        "options": [
+          "13, 23, 33",
+          "12, 21, 51",
+          "15, 25, 35",
+          "11, 22, 33"
+        ],
+        "answer": "12, 21, 51",
+        "explanation": "1+2=3, 2+1=3, 5+1=6，均为3的倍数。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数的奇偶性运算规律",
+        "question": "已知 $a+b=20$（$a, b$ 为原数），则 $a$ 和 $b$：",
+        "options": [
+          "都是奇数",
+          "都是偶数",
+          "同为奇数或同为偶数",
+          "一奇一偶"
+        ],
+        "answer": "同为奇数或同为偶数",
+        "explanation": "偶数和只能由 奇+奇 或 偶+偶 得到。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "102 至少减去几就是 5 的倍数？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "2",
+        "explanation": "$102-2=100$，100是5的倍数。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "质数与合数及1的特殊性",
+        "question": "20 以内的质数中，最大的奇数是 ___。",
+        "options": [],
+        "answer": "19",
+        "explanation": "20以内的质数：2, 3, 5, 7, 11, 13, 17, 19。最大奇数是19。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "一个数只有 1, 2, 4, 8 四个因数，这个数是 ___。",
+        "options": [],
+        "answer": "8",
+        "explanation": "因数中最大的是它本身。验算：8的因数确实只有1,2,4,8。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "2、5、3的倍数特征",
+        "question": "同时是 2, 3, 5 的倍数的最小三位数是 ___。",
+        "options": [],
+        "answer": "120",
+        "explanation": "2,3,5的最小公倍数是30。30的倍数中最小的三位数是 $30 \times 4 = 120$。验算：120末尾0（2,5倍数），$1+2+0=3$（3倍数）✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "因数与倍数的意义及基本性质",
+        "question": "$84 \times 4 = ?$",
+        "options": [],
+        "answer": "21",
+        "explanation": "$84 \times 4 = 21$。验算：$21 \times 4 = 84$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数的奇偶性运算规律",
+        "question": "$1 + 2 + 3 + ... + 10 = ?$",
+        "options": [],
+        "answer": "55",
+        "explanation": "等差数列求和：$(1+10) \times 10 \times 2 = 11 \times 5 = 55$。验算：$1+10=11, 2+9=11, 3+8=11, 4+7=11, 5+6=11$，共5组11，即55 ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "因数与倍数的意义及基本性质",
+      "core_concept": "如果 $a \times b = c$（$a, b, c$ 都是非零自然数），那么 $a$ 和 $b$ 就是 $c$ 的因数，$c$ 就是 $a$ 和 $b$ 的倍数。因数和倍数是相互依存的，不能单独说某个数是因数。一个数的因数个数是有限的，最小因数是 1，最大因数是它本身；一个数的倍数个数是无限的，最小倍数是它本身。",
+      "key_formula": "$a \times b = c \\Rightarrow a, b \\text{ 是 } c \\text{ 的因数}, c \\text{ 是 } a, b \\text{ 的倍数}$",
+      "common_mistakes": [
+        "说 15 是倍数（漏掉相互依存关系，应说 15 是 3 的倍数）",
+        "认为 1.2 是 0.4 的 3 倍，所以 1.2 是倍数（忽视了必须是非零自然数的前提）"
+      ],
+      "tips": "找因数要成对找，比如 12 的因数：1 和 12，2 和 6，3 和 4。"
+    },
+    {
+      "point": "2、5、3的倍数特征",
+      "core_concept": "2 的倍数特征：个位上是 0, 2, 4, 6, 8；5 的倍数特征：个位上是 0 或 5；3 的倍数特征：各位数字之和是 3 的倍数。整数中，是 2 的倍数的数叫做偶数（0 也是偶数），不是 2 的倍数的数叫做奇数。",
+      "key_formula": "3 \\text{ 的倍数} \\Rightarrow \\text{各位数字之和} \\div 3 = \\text{整数}$",
+      "common_mistakes": [
+        "通过看个位来判断 3 的倍数（如误认为 13, 16, 19 是 3 的倍数）",
+        "漏掉 0 也是偶数"
+      ],
+      "tips": "同时是 2, 3, 5 的倍数，个位一定是 0，且各位数字之和是 3 的倍数。"
+    },
+    {
+      "point": "质数与合数及1的特殊性",
+      "core_concept": "一个数，如果只有 1 和它本身两个因数，叫做质数（或素数）。一个数，如果除了 1 和它本身还有别的因数，叫做合数。1 只有 1 个因数，所以它既不是质数，也不是合数。按因数个数分，自然数（0除外）可以分为 1、质数和合数三类。",
+      "key_formula": "\\text{质数只有 2 个因数，合数至少有 3 个因数}",
+      "common_mistakes": [
+        "误以为 1 是质数",
+        "误以为所有奇数都是质数（如 9, 15 是合数）"
+      ],
+      "tips": "熟记 20 以内的质数：2, 3, 5, 7, 11, 13, 17, 19。"
+    },
+    {
+      "point": "数的奇偶性运算规律",
+      "core_concept": "研究奇数与偶数通过加减乘运算后的结果性质。规律包括：奇数 + 奇数 = 偶数，偶数 + 偶数 = 偶数，奇数 + 偶数 = 奇数；奇数 $\times$ 奇数 = 奇数，奇数 $\times$ 偶数 = 偶数，偶数 $\times$ 偶数 = 偶数。",
+      "key_formula": "\\text{奇}+\\text{奇}=\\text{偶}, \\text{奇}+\\text{偶}=\\text{奇}, \\text{偶}+\\text{偶}=\\text{偶}",
+      "common_mistakes": [
+        "记混加法和乘法的规律",
+        "在处理多个数连加时，没看奇数出现的次数"
+      ],
+      "tips": "不确定规律时，可以用最简单的数字（如 1 和 2）代入验算。"
+    }
+  ]
+}

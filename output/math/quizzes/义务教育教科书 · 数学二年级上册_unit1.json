@@ -1,0 +1,697 @@
+{
+  "textbook": "人教版小学数学二年级上册",
+  "unit": "长度单位",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第1单元「长度单位」单元过关检测卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "测量物体的长度时，必须从尺子的1刻度线开始写起。",
+        "options": [],
+        "answer": "错",
+        "explanation": "测量物体长度时通常应从0刻度线开始，如果从1开始，结果需要减去1。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "线段的初步认识与画法",
+        "question": "线段是可以量出长度的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "线段有两个端点，长度是有限的，可以用尺子量出。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "1米比100厘米长。",
+        "options": [],
+        "answer": "错",
+        "explanation": "因为1米 = 100厘米，所以它们一样长。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "线段的初步认识与画法",
+        "question": "只要是直的线就是线段。",
+        "options": [],
+        "answer": "错",
+        "explanation": "线段不仅要直，还必须有两个端点。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "统一长度单位的必要性",
+        "question": "我们现在测量课桌的长度，全国小朋友用的单位都是一样的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "为了结果一致，必须使用统一的长度单位。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "操场跑道长约 100 （ ）。",
+        "options": [
+          "厘米",
+          "米",
+          "元",
+          "角"
+        ],
+        "answer": "米",
+        "explanation": "跑道较长，应选择长度单位“米”。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "食指宽大约是 1 （ ）。",
+        "options": [
+          "厘米",
+          "米",
+          "分",
+          "克"
+        ],
+        "answer": "厘米",
+        "explanation": "手宽、手指宽等较小的长度通常用厘米作单位。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "在○里填上合适的符号：$30厘米○3米$。",
+        "options": [
+          ">",
+          "<",
+          "水平",
+          "无法比较"
+        ],
+        "answer": "<",
+        "explanation": "3米 = 300厘米，30厘米 < 300厘米，所以30厘米 < 3米。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "一把小尺子断了，从刻度2厘米处开始量，到刻度8厘米处结束，这个物体的长度是（ ）。",
+        "options": [
+          "8厘米",
+          "2厘米",
+          "6厘米",
+          "10厘米"
+        ],
+        "answer": "6厘米",
+        "explanation": "$8 - 2 = 6$（厘米）。验算：$6 + 2 = 8$ ✓。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "线段的初步认识与画法",
+        "question": "下面哪个物体的边可以看成线段？",
+        "options": [
+          "吸管",
+          "黑板的长边",
+          "皮带",
+          "围巾"
+        ],
+        "answer": "黑板的长边",
+        "explanation": "黑板的长边是直的，且有两个固定的端点。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统一长度单位的必要性",
+        "question": "古代人们用手作为测量工具，不同的人量出的结果往往不同，是因为（ ）。",
+        "options": [
+          "手的大小不同",
+          "工具太高级",
+          "心情不一样",
+          "计算错误"
+        ],
+        "answer": "手的大小不同",
+        "explanation": "人的手掌各异，标准不统一导致测量结果不同。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "小华身高 135 厘米，小东身高 1 米 30 厘米。谁高一些？",
+        "options": [
+          "小华",
+          "小东",
+          "一样高",
+          "无法确定"
+        ],
+        "answer": "小华",
+        "explanation": "小东身高是 130 厘米。135 > 130，所以小华高。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "测量数学书的长度，用（ ）作单位比较合适。",
+        "options": [
+          "厘米",
+          "米",
+          "千克",
+          "元"
+        ],
+        "answer": "厘米",
+        "explanation": "数学书长度较短，厘米是合适的长度单位。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "线段的初步认识与画法",
+        "question": "要把一根长 10 厘米的绳子剪成 2 厘米长的一小段，要剪几次？",
+        "options": [
+          "5次",
+          "4次",
+          "3次",
+          "6次"
+        ],
+        "answer": "4次",
+        "explanation": "10厘米里有5个2厘米，剪成5段需要剪 $5 - 1 = 4$ 次。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "统一长度单位的必要性",
+        "question": "下面哪个不是长度单位？",
+        "options": [
+          "米",
+          "厘米",
+          "岁",
+          "毫米"
+        ],
+        "answer": "岁",
+        "explanation": "岁是年龄单位，不是长度单位。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "一根跳绳长 2 米，3 根这样的跳绳接在一起（不计接口），总长（ ）米。",
+        "options": [
+          "5",
+          "6",
+          "2",
+          "3"
+        ],
+        "answer": "6",
+        "explanation": "$2 + 2 + 2 = 6$（米）。验算：$6 \\div 3 = 2$ ✓。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "在尺子上，从刻度 0 到刻度 5 是（ ）厘米。",
+        "options": [
+          "0",
+          "5",
+          "4",
+          "6"
+        ],
+        "answer": "5",
+        "explanation": "$5 - 0 = 5$ 厘米。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "线段的初步认识与画法",
+        "question": "线段有（ ）个端点。",
+        "options": [
+          "0",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": "2",
+        "explanation": "线段的特征有两个端点。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "米的认识 with 单位换算",
+        "question": "1 米 = ___ 厘米。",
+        "options": [],
+        "answer": "100",
+        "explanation": "根据教材定义，1米等于100个1厘米。验算：$100 \\div 1 = 100$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "一根铅笔原来长 18 厘米，用去了一些后还剩 8 厘米，用去了 ___ 厘米。",
+        "options": [],
+        "answer": "10",
+        "explanation": "列式：$18 - 8 = 10$。验算：$10 + 8 = 18$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "小明身高 1 米 25 厘米，也可以说身高是 ___ 厘米。",
+        "options": [],
+        "answer": "125",
+        "explanation": "1米 = 100厘米，$100 + 25 = 125$。验算：$125 - 25 = 100$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "计算：$40 + 7 = ?$",
+        "options": [],
+        "answer": "47",
+        "explanation": "$40 + 7 = 47$。验算：$47 - 7 = 40$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "计算：$100 - 35 = ?$",
+        "options": [],
+        "answer": "65",
+        "explanation": "$100 - 35 = 65$。验算：$65 + 35 = 100$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第1单元「长度单位」综合素质评估卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "统一长度单位的必要性",
+        "question": "为了交流方便，全世界都统一了长度单位。",
+        "options": [],
+        "answer": "对",
+        "explanation": "统一单位是现代社会科学测量的基础。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "5厘米和50厘米加起来是1米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$5 + 50 = 55$厘米，不等于100厘米。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "线段的初步认识与画法",
+        "question": "把一条线段的一端无限延长，它还是线段。",
+        "options": [],
+        "answer": "错",
+        "explanation": "线段必须有固定长度和两个端点，延长后就不是线段了。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "门的高度大约是2米。",
+        "options": [],
+        "answer": "对",
+        "explanation": "普通房屋的房门高度通常在2米左右。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "尺子上刻度4到刻度8之间的长度是3厘米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$8 - 4 = 4$ 厘米，不是3厘米。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "一棵大树高约（ ）。",
+        "options": [
+          "10厘米",
+          "10米",
+          "1厘米",
+          "100米"
+        ],
+        "answer": "10米",
+        "explanation": "树木通常较高，米是合理的单位。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "测量纸条长度，左端对准“2”刻度，右端对准“9”刻度，纸条长（ ）。",
+        "options": [
+          "9厘米",
+          "7厘米",
+          "11厘米",
+          "2厘米"
+        ],
+        "answer": "7厘米",
+        "explanation": "$9 - 2 = 7$ 厘米。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "有三根木料，分别长 50 厘米、45 厘米、1 米，最长的是哪根？",
+        "options": [
+          "50 厘米",
+          "45 厘米",
+          "1 米",
+          "一样长"
+        ],
+        "answer": "1 米",
+        "explanation": "1米 = 100厘米，100 > 50 > 45。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "线段的初步认识与画法",
+        "question": "画一条长 3 厘米的线段，应该（ ）。",
+        "options": [
+          "随手画",
+          "用尺子画",
+          "用手指画",
+          "用绳子比"
+        ],
+        "answer": "用尺子画",
+        "explanation": "画规定长度的线段必须使用刻度尺辅助。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "统一长度单位的必要性",
+        "question": "1 个大拇指宽大约是 1 厘米，测一盆花的宽度用了 15 个大拇指，这盆花宽大约（ ）。",
+        "options": [
+          "1 厘米",
+          "15 米",
+          "15 厘米",
+          "100 厘米"
+        ],
+        "answer": "15 厘米",
+        "explanation": "15个1厘米就是15厘米。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "将两根长 10 厘米的木条重叠 2 厘米钉在一起，连接后的木条长（ ）。",
+        "options": [
+          "20 厘米",
+          "18 厘米",
+          "22 厘米",
+          "12 厘米"
+        ],
+        "answer": "18 厘米",
+        "explanation": "$10 + 10 - 2 = 18$ 厘米。重叠部分由于重合了，需减去一次。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "操场的小旗杆高 3 （ ）。",
+        "options": [
+          "米",
+          "厘米",
+          "元",
+          "角"
+        ],
+        "answer": "米",
+        "explanation": "旗杆属于较高物体，应以米为单位。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "线段的初步认识与画法",
+        "question": "在两点之间，可以画（ ）条线段。",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "无数"
+        ],
+        "answer": "1",
+        "explanation": "由于两点确定一条直线，两点间只有一条最短的线段。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "蚂蚁从 0 刻度爬到 5 厘米处，再爬（ ）厘米就是 10 厘米。",
+        "options": [
+          "10",
+          "5",
+          "0",
+          "1"
+        ],
+        "answer": "5",
+        "explanation": "$10 - 5 = 5$ 厘米。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "测量较短物体的长度，一般用（ ）作单位。",
+        "options": [
+          "米",
+          "厘米",
+          "元",
+          "岁"
+        ],
+        "answer": "厘米",
+        "explanation": "厘米适合测量铅笔、书本等较短物体。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "1 米减去 1 厘米等于（ ）。",
+        "options": [
+          "0 厘米",
+          "9 厘米",
+          "99 厘米",
+          "10 厘米"
+        ],
+        "answer": "99 厘米",
+        "explanation": "1米=100厘米，$100 - 1 = 99$ 厘米。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "线段的初步认识与画法",
+        "question": "小明画了一条线段，长度是（ ）。",
+        "options": [
+          "5 厘米",
+          "5 岁",
+          "5 元",
+          "50 米"
+        ],
+        "answer": "5 厘米",
+        "explanation": "一般在纸上画出的线段用厘米表示比较符合实际。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "下面哪种测量方式是正确的？",
+        "options": [
+          "斜着放尺子",
+          "0 刻度对准左端",
+          "从 5 开始不减数",
+          "尺子离开物体"
+        ],
+        "answer": "0 刻度对准左端",
+        "explanation": "测量规范要求0刻度对准一端，尺子放平紧贴物体。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "2 米 = ___ 厘米。",
+        "options": [],
+        "answer": "200",
+        "explanation": "1米=100厘米，2米就是2个100厘米，$2 \\times 100 = 200$。验算：$200 \\div 2 = 100$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "线段的初步认识与画法",
+        "question": "有一个正方形，它由 ___ 条线段围成。",
+        "options": [],
+        "answer": "4",
+        "explanation": "正方形有四条直的边，每条边都是线段。验算：边数=4 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "操场上的跳远成绩是 150 厘米，也可以说是 1 米 ___ 厘米。",
+        "options": [],
+        "answer": "50",
+        "explanation": "$150 = 100 + 50$，100厘米为1米，剩下50厘米。验算：$100 + 50 = 150$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "厘米的认识与使用",
+        "question": "计算：$52 + 48 = ?$",
+        "options": [],
+        "answer": "100",
+        "explanation": "$52 + 48 = 100$。验算：$100 - 48 = 52$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "米的认识与单位换算",
+        "question": "计算：$200 - 150 = ?$",
+        "options": [],
+        "answer": "50",
+        "explanation": "$200 - 150 = 50$。验算：$50 + 150 = 200$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "统一长度单位的必要性",
+      "core_concept": "在古代，人们用身体部位（如手掌、脚掌）作为长度单位，但由于每个人身体大小不同，测量同一物体得到的结果也不一样。为了方便交流和准确测量，必须使用统一的长度单位，如米和厘米。",
+      "key_formula": "测量标准必须统一",
+      "common_mistakes": [
+        "认为用任何物体测量同一个物体得到的结果数字都应该一样",
+        "忽略单位名称直接比较数字大小"
+      ],
+      "tips": "想象一下，如果买衣服时裁缝用大的手量，你用小的手量，衣服就不合身了，所以我们要用尺子。"
+    },
+    {
+      "point": "厘米的认识与使用",
+      "core_concept": "厘米是测量较短物体长度的常用单位，可以用字母“cm”表示。测量时，要把刻度尺的“0”刻度对准物体的左端，观察物体右端对着刻度几，就是几厘米。",
+      "key_formula": "长度 = 右端对应刻度 - 左端对应刻度",
+      "common_mistakes": [
+        "测量时从尺子的最边缘（没有刻度的地方）开始量",
+        "没有对准0刻度，却直接读出右端的数值"
+      ],
+      "tips": "找找身体上的1厘米：食指的宽度大约就是1厘米。"
+    },
+    {
+      "point": "米的认识与单位换算",
+      "core_concept": "米是比厘米大的长度单位，用于测量较长的物体。1米等于100个1厘米。在选择单位时，房子、树木、操场常用米；铅笔、橡皮、书本常用厘米。",
+      "key_formula": "$1 米 = 100 厘米$",
+      "common_mistakes": [
+        "记混进率，认为1米等于10厘米",
+        "在给物体填单位时，把米和厘米填反，如写出“大树高10厘米”"
+      ],
+      "tips": "张开双臂，两个手尖之间的距离大约就是1米。"
+    },
+    {
+      "point": "线段的初步认识与画法",
+      "core_concept": "线段的特征是“直”和“有两个端点”。线段是有长度的，可以测量。画线段时，通常先点一个点，从这个点开始按要求画到指定长度再点一个点。",
+      "key_formula": "线段的特征：直 + 2个端点",
+      "common_mistakes": [
+        "认为弯曲的线也是线段",
+        "画线段时不画端点，或者画得不直"
+      ],
+      "tips": "拉紧一根绳子，两手之间的一段就可以看成线段。"
+    }
+  ]
+}

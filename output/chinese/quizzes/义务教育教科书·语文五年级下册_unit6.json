@@ -1,0 +1,731 @@
+{
+  "textbook": "部编版小学语文五年级下册",
+  "unit": "思维的火花",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第六单元：思维的火花（单元检测）",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言逻辑谬误分析",
+        "question": "《自相矛盾》选自《韩非子·难一》。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《自相矛盾》确实选自《韩非子》，这是文学常识。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "推测人物思维过程",
+        "question": "《田忌赛马》中，田忌用下等马对齐威王的上等马是正确的策略。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是孙膑策略的关键，用最差的马消耗对方最强的马。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词读音",
+        "question": "“肆无忌惮”的“惮”字读音是 dàn。",
+        "options": [],
+        "answer": "对",
+        "explanation": "惮字读音为第四声。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "课文理解",
+        "question": "《跳水》一文中，船长命令孩子跳水是为了惩罚他。",
+        "options": [],
+        "answer": "错",
+        "explanation": "船长命令孩子跳水是为了在危急关头救孩子的命。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "文言文字词含义",
+        "question": "“物莫能陷也”中的“陷”是“陷阱”的意思。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在这里“陷”是“穿透”的意思。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语中，加点字“誉”在“誉之曰”中的意思是：",
+        "options": [
+          "名誉",
+          "称赞",
+          "荣誉",
+          "赠送"
+        ],
+        "answer": "称赞",
+        "explanation": "在《自相矛盾》中，那个人夸赞他的盾，誉即称赞。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "推测人物思维过程",
+        "question": "阅读：孙膑对田忌说：“将军，我有个办法，保证能让您在比赛中获胜。”这体现了孙膑：",
+        "options": [
+          "喜欢说大话",
+          "爱出风头",
+          "善于观察分析",
+          "运气比较好"
+        ],
+        "answer": "善于观察分析",
+        "explanation": "孙膑通过观察发现了转输为赢的方法，体现了他的思维品质。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字音字形",
+        "question": "下列词语书写完全正确的一项是：",
+        "options": [
+          "矛循",
+          "赏赐",
+          "船桅",
+          "吓虎"
+        ],
+        "answer": "赏赐",
+        "explanation": "矛循应为矛盾，船桅是对的，吓虎应为吓唬。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言逻辑谬误分析",
+        "question": "那个楚国人“弗能应也”的原因是：",
+        "options": [
+          "他突然忘记怎么说话了",
+          "他觉得对方问得没道理",
+          "他的话自相矛盾，无法自圆其说",
+          "他不想理会围观的人"
+        ],
+        "answer": "他的话自相矛盾，无法自圆其说",
+        "explanation": "最锋利的矛和最坚固的盾不能同时存在。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "推测人物思维过程",
+        "question": "《跳水》中，水手们笑话孩子，间接导致：",
+        "options": [
+          "孩子很开心",
+          "孩子感到羞涩",
+          "孩子失去了理智而走向横木",
+          "猴子更加温顺"
+        ],
+        "answer": "孩子失去了理智而走向横木",
+        "explanation": "水手的笑声激起了孩子的自尊心和愤怒，使其陷入险境。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "推测人物思维过程",
+        "question": "孙膑建议田忌调换赛马顺序的逻辑基础是：",
+        "options": [
+          "马的力量变强了",
+          "齐威王变笨了",
+          "马的脚力等级差别不大",
+          "田忌的马跑得更快了"
+        ],
+        "answer": "马的脚力等级差别不大",
+        "explanation": "前提是双方同等级的马脚力相近，调换才有赢的可能。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "修辞方法识别",
+        "question": "“那只猴子难道不该受到惩罚吗？”这句话使用了什么修辞手法？",
+        "options": [
+          "比喻",
+          "拟人",
+          "排比",
+          "反问"
+        ],
+        "answer": "反问",
+        "explanation": "“难道不...吗”是典型的反问句式。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "名言积累",
+        "question": "下列哪句话最能概括本单元“思维”的主题？",
+        "options": [
+          "敏而好学，不耻下问",
+          "温故而知新",
+          "知之者不如好之者",
+          "因能用数，以取胜"
+        ],
+        "answer": "因能用数，以取胜",
+        "explanation": "这里的“数”指策略和方法，符合《田忌赛马》的思维主题。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“吾盾之坚”中的“坚”意思是：",
+        "options": [
+          "坚持",
+          "坚固",
+          "坚定",
+          "坚决"
+        ],
+        "answer": "坚固",
+        "explanation": "指盾牌非常结实。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情节分析",
+        "question": "在《跳水》中，环境和气候的描写是：",
+        "options": [
+          "风雨交加",
+          "风平浪静",
+          "冰天雪地",
+          "烈日当空"
+        ],
+        "answer": "风平浪静",
+        "explanation": "课文开头交代“这一天风平浪静”，为水手们逗猴子提供了环境背景。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言逻辑谬误分析",
+        "question": "《自相矛盾》中，称赞盾的词语是“坚”，称赞矛的词语是（___）。",
+        "options": [],
+        "answer": "利",
+        "explanation": "文中提到“吾矛之利”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "推测人物思维过程",
+        "question": "《田忌赛马》中，为田忌献计的人是（___）。",
+        "options": [],
+        "answer": "孙膑",
+        "explanation": "孙膑是著名的军事家，他提出了这个策略。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课文理解",
+        "question": "《跳水》的作者是俄国著名作家列夫·（___）。",
+        "options": [],
+        "answer": "托尔斯泰",
+        "explanation": "《跳水》的作者是列夫·托尔斯泰。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "推测人物思维过程",
+        "question": "请将下列人物与他解决问题的关键方法连接起来：",
+        "options": [
+          "孙膑",
+          "楚人",
+          "船长",
+          "孩子",
+          "以己之长对人之短",
+          "举枪逼迫",
+          "叫卖夸口",
+          "纵身一跳"
+        ],
+        "answer": "A-1,B-3,C-2,D-4",
+        "explanation": "孙膑利用长处对短处，楚人叫卖，船长逼孩子跳水，孩子最终跳水。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "成语积累",
+        "question": "请将成语与其相关的思维特点连接起来：",
+        "options": [
+          "自相矛盾",
+          "胸有成竹",
+          "急中生智",
+          "老谋深算",
+          "逻辑混乱",
+          "很有把握",
+          "瞬间反应",
+          "深思熟虑"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "自相矛盾指逻辑前后不一，胸有成竹指有把握，急中生智指瞬间决断，老谋深算指考虑深远。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词含义",
+        "question": "给文言实词选择正确的解释：",
+        "options": [
+          "鬻",
+          "陷",
+          "或",
+          "应",
+          "穿透",
+          "卖",
+          "回答",
+          "有人"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "鬻是卖，陷是穿透，或是有人，应是回答。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言句式转换",
+        "question": "请将下列词语排成“自相矛盾”的现代文解释：",
+        "options": [
+          "自己的",
+          "言语",
+          "前后否定",
+          "行为"
+        ],
+        "answer": "自己的,言语,行为,前后否定",
+        "explanation": "自相矛盾指的是自己的言语和行为前后抵触。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "探险故事的情节设计",
+        "question": "根据探险故事的思维逻辑排列句子：",
+        "options": [
+          "陷入险情",
+          "运用装备",
+          "寻找出路",
+          "成功脱险"
+        ],
+        "answer": "陷入险情,寻找出路,运用装备,成功脱险",
+        "explanation": "这是探险故事常见的逻辑顺序。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级下册第六单元“思维的火花”学业质量监测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "课文人物",
+        "question": "齐威王和田忌是同一个国家的人。",
+        "options": [],
+        "answer": "对",
+        "explanation": "齐威王是齐国国君，田忌是齐国将军。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "文言逻辑",
+        "question": "“不可同世而立”的意思是世界上不能同时存在这矛和盾。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是指文中互相对立的这种逻辑状态不能并存。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "情节推测",
+        "question": "《跳水》中，如果孩子不跳水，他极有可能会摔在甲板上。",
+        "options": [],
+        "answer": "对",
+        "explanation": "横木离甲板太远且孩子已经失去平衡，摔在甲板上必死无疑。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词含义",
+        "question": "“冀复得兔”中的“冀”是冀州的意思。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在这里“冀”是希望的意思。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "推测人物思维过程",
+        "question": "孙膑之所以能改变比赛结果，关键在于他具有整体统筹的全局思维。",
+        "options": [],
+        "answer": "对",
+        "explanation": "孙膑不计较局部（第一场）的得失，追求整体的胜利。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "课文内容",
+        "question": "《跳水》故事发生的地点是在：",
+        "options": [
+          "海边的沙滩上",
+          "航行在大海上的船上",
+          "深不见底的湖泊旁",
+          "森林里的独木桥"
+        ],
+        "answer": "航行在大海上的船上",
+        "explanation": "全文围绕船上的横木、桅杆展开。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言逻辑谬误分析",
+        "question": "读文言文：“以子之矛陷子之盾，何如？”对方的反应中，最贴切的是：",
+        "options": [
+          "哈哈大笑",
+          "大声反驳",
+          "哑口无言",
+          "不屑一顾"
+        ],
+        "answer": "哑口无言",
+        "explanation": "“弗能应也”即无法应对，也就是哑口无言。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "推测人物思维过程",
+        "question": "关于《田忌赛马》中齐威王的描述，正确的是：",
+        "options": [
+          "他知道自己会输",
+          "他被孙膑控制了",
+          "他因为连续获胜而掉以轻心",
+          "他在故意让着田忌"
+        ],
+        "answer": "他因为连续获胜而掉以轻心",
+        "explanation": "齐威王觉得没必要调整策略，因为由于实力领先，他认为稳操胜券。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "推测人物思维过程",
+        "question": "在危险时刻，船长表现出的品质是：",
+        "options": [
+          "严厉冷酷",
+          "犹豫不决",
+          "沉着果断",
+          "惊慌失措"
+        ],
+        "answer": "沉着果断",
+        "explanation": "在短短几秒钟内决策并拿枪逼孩子跳水，这是极高的心理素质。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字音辨析",
+        "question": "加点字“策略”的“策”读音正确的一项是：",
+        "options": [
+          "cè",
+          "chè",
+          "cì",
+          "zè"
+        ],
+        "answer": "cè",
+        "explanation": "策略的“策”是平舌音，读音为 cè。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文本阅读理解",
+        "question": "阅读：田忌采用了孙膑的计策，齐威王好奇地问：“田忌，你这马怎么突然跑得这么快？”齐威王这样问是因为：",
+        "options": [
+          "他不认识田忌的马了",
+          "他没看出马跑得快慢",
+          "他没发现比赛马匹的顺序变了",
+          "他认为田忌换了神马"
+        ],
+        "answer": "他没发现比赛马匹的顺序变了",
+        "explanation": "齐威王只看到了结果的改变，没有意识到思维方式的转变。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词",
+        "question": "“胸有成竹”的近义词是：",
+        "options": [
+          "束手无策",
+          "成算在心",
+          "虚张声势",
+          "半信半疑"
+        ],
+        "answer": "成算在心",
+        "explanation": "两者都表示在做事之前已经有了成熟的主张。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子修改",
+        "question": "“孙膑对田忌说，我不是能让你的马跑得快，而是有办法让你赢。”这句话中关联词使用：",
+        "options": [
+          "非常正确",
+          "不仅……而且……",
+          "虽然……但是……",
+          "因为……所以……"
+        ],
+        "answer": "非常正确",
+        "explanation": "“不是……而是……”表示转折并强调后者，用法正确。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "探险故事的情节设计",
+        "question": "如果你正在描写一个沙漠探险故事，下列哪个情节“不合逻辑”？",
+        "options": [
+          "水喝完了，只能靠仙人掌汁液解渴",
+          "因为迷路，决定寻找北极星指路",
+          "为了取暖，在中午烈日下点火",
+          "遇到沙尘暴，趴在沙地背风口"
+        ],
+        "answer": "为了取暖，在中午烈日下点火",
+        "explanation": "沙漠中午非常炎热，不需要点火取暖，这不符合科学常识。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文学常识",
+        "question": "下列作品作者对应错误的一项是：",
+        "options": [
+          "《自相矛盾》——韩非",
+          "《跳水》——托尔斯泰",
+          "《田忌赛马》——司马迁",
+          "《静夜思》——杜甫"
+        ],
+        "answer": "《静夜思》——杜甫",
+        "explanation": "《静夜思》是李白写的。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "课文理解",
+        "question": "《自相矛盾》告诉我们的深刻道理可以用一个四字成语表示，它是（___）。",
+        "options": [],
+        "answer": "自相矛盾",
+        "explanation": "故事的名字本身就是这个道理的总结。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "推测人物思维过程",
+        "question": "船长对孩子喊：“向海里（___）！快！不跳我就开枪了！”",
+        "options": [],
+        "answer": "跳",
+        "explanation": "船长唯一的办法是让孩子跳水减缓冲击力。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文字词含义",
+        "question": "“其人弗能应也”中，“弗”的意思是（___）。",
+        "options": [],
+        "answer": "不",
+        "explanation": "弗是副词，表示否定。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词含义",
+        "question": "将文言字词与对应的现代义连接：",
+        "options": [
+          "楚人",
+          "莫能",
+          "陷",
+          "利",
+          "穿透",
+          "锋利",
+          "楚国人",
+          "没有东西能"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "楚人-楚国人，莫能-没有东西能，陷-穿透，利-锋利。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言名篇",
+        "question": "将课文名称与其中的核心思维点连接：",
+        "options": [
+          "自相矛盾",
+          "田忌赛马",
+          "跳水",
+          "守株待兔",
+          "逻辑自洽",
+          "统筹策略",
+          "果敢决策",
+          "死板教条"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "各自对应文中的核心价值。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "推测人物思维过程",
+        "question": "将下列行为与所处的后果/影响连接起来：",
+        "options": [
+          "猴子摘孩子帽子",
+          "水手放声大笑",
+          "孩子走上横木",
+          "船长举起机枪",
+          "生命悬于一线",
+          "激起孩子顽性",
+          "引起矛盾冲突",
+          "逼出唯一生机"
+        ],
+        "answer": "A-3,B-2,C-1,D-4",
+        "explanation": "按故事情节的因果逻辑进行配对。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子语法",
+        "question": "请将这些词排列成对孙膑策略的评价：",
+        "options": [
+          "这是",
+          "以弱胜强",
+          "一种",
+          "的智慧"
+        ],
+        "answer": "这是,一种,以弱胜强,的智慧",
+        "explanation": "孙膑的计策属于典型的以弱胜强。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情节设计",
+        "question": "请排列《跳水》中孩子情绪变化的词语：",
+        "options": [
+          "哭笑不得",
+          "气急败坏",
+          "心惊胆战",
+          "吓坏了"
+        ],
+        "answer": "哭笑不得,气急败坏,心惊胆战,吓坏了",
+        "explanation": "情绪随着危险程度的加深而变化。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "文言逻辑谬误分析",
+      "core_concept": "逻辑谬论是指思维过程中违背逻辑规则（如矛盾律）的情况。在《自相矛盾》中，那个人夸口盾坚固到没什么能刺破，又夸口矛锋利到能刺破任何东西。这在同一思维过程中对两个对立的事实同时肯定，造成了逻辑上的自相抵触，导致最终无法圆其说。",
+      "key_formula": "逻辑自洽原则：论点不能同时支持互相对立的属性。",
+      "common_mistakes": [
+        "错误理解“陷”字为“掉进陷阱”，导致无法理解核心逻辑",
+        "分不清是谁在问楚人问题，误以为是路人无理取闹"
+      ],
+      "tips": "学习时应对比矛和盾的极度夸张之处，找到逻辑断裂点。"
+    },
+    {
+      "point": "推测人物思维过程",
+      "core_concept": "这是一种高阶思维能力，通过文本中的动作、语言推断人物在危急时刻或策略选择时的心理推导逻辑。例如孙膑之所以敢变马序，是因为他观察到了对方马匹速度的细微差距；船长之所以逼子跳水，是因为他在极短时间内权衡了摔在甲板（必死）与跳入水中（生机）的胜算。",
+      "key_formula": "行为推导公式：观察实情+分析利弊+做出决策。",
+      "common_mistakes": [
+        "仅从表面判定人物性格（如严厉、聪明），而忽略了逻辑推演步骤",
+        "无法说清《田忌赛马》赢两场的具体逻辑路径"
+      ],
+      "tips": "复述故事时，试着带入人物角色，思考“当时他看到了什么才决定这么做”。"
+    },
+    {
+      "point": "探险故事的情节设计",
+      "core_concept": "在创作探险类习作时，情节必须遵循“环境险象-装备辅助-思维自救”的合理逻辑。环境应极端（如沙漠、深海），装备要具体（如指南针、打火石），而最核心的是利用知识和冷静的分析解决险情，而非靠运气获救。",
+      "key_formula": "合理探险架构：困境+转折（智慧/工具）+解决。",
+      "common_mistakes": [
+        "脱险情节过于玄幻或纯靠运气，缺乏思维含量",
+        "装备在故事中不发挥作用，只是摆设"
+      ],
+      "tips": "写作前列一个“环境-困难-对策”核对清单，确保情节有逻辑性。"
+    }
+  ]
+}

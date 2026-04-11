@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学四年级上册",
+  "unit": "角的度量",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元「角的度量」基础达标测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "线段、直线、射线",
+        "question": "直线可以向两端无限延伸，没有端点，所以直线无法测量长度。",
+        "options": [],
+        "answer": "对",
+        "explanation": "直线的特征是向两端无限延伸，没有端点，不可测量长度。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "线段、直线、射线",
+        "question": "把线段的一端无限延长，就得到了一条射线。",
+        "options": [],
+        "answer": "对",
+        "explanation": "射线只有一个端点，可以向一端无限延伸，由线段一端延长得到。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与度量",
+        "question": "角的大小与两边的长度有关，边越长角越大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "角的大小由张开幅度决定，与边的长短无关。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "大于 $90^{\\circ}$ 的角一定是钝角。",
+        "options": [],
+        "answer": "错",
+        "explanation": "大于 $90^{\\circ}$ 但小于 $180^{\\circ}$ 的才是钝角，如果是 $180^{\\circ}$ 则是平角。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "角的分类与画角",
+        "question": "周角是一条射线，平角是一条直线。",
+        "options": [],
+        "answer": "错",
+        "explanation": "周角和平角都是角，由顶点和两条边组成，不能说成是射线或直线。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "线段、直线、射线",
+        "question": "我们在手电筒射出的光线中，可以抽象出哪种线？",
+        "options": [
+          "线段",
+          "射线",
+          "直线",
+          "曲线"
+        ],
+        "answer": "射线",
+        "explanation": "手电筒是端点，光向一个方向无限延伸，属于射线。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "线段、直线、射线",
+        "question": "连接两点的所有连线中，哪种线最短？",
+        "options": [
+          "曲线",
+          "折线",
+          "射线",
+          "线段"
+        ],
+        "answer": "线段",
+        "explanation": "根据数学公理，两点之间线段最短。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与度量",
+        "question": "从一点引出两条射线所组成的图形叫做什么？",
+        "options": [
+          "线段",
+          "直线",
+          "角",
+          "度"
+        ],
+        "answer": "角",
+        "explanation": "这是角的标准定义。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与度量",
+        "question": "测量角的大小的工具是哪个？",
+        "options": [
+          "直尺",
+          "三角尺",
+          "圆规",
+          "量角器"
+        ],
+        "answer": "量角器",
+        "explanation": "量角器是专业的角长度度量工具。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "下面哪个角度无法用一副三角尺拼出来？",
+        "options": [
+          "$75^{\\circ}$",
+          "$105^{\\circ}$",
+          "$20^{\\circ}$",
+          "$150^{\\circ}$"
+        ],
+        "answer": "$20^{\\circ}$",
+        "explanation": "三角尺角度为 $30^{\\circ}, 60^{\\circ}, 90^{\\circ}$ 和 $45^{\\circ}, 45^{\\circ}, 90^{\\circ}$。无法通过加减得到 $20$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的分类与画角",
+        "question": "一个平角等于几个直角？",
+        "options": [
+          "1个",
+          "2个",
+          "3个",
+          "4个"
+        ],
+        "answer": "2个",
+        "explanation": "$180 ÷ 90 = 2$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的分类与画角",
+        "question": "钟面上 3 时整，时针和分针组成的角是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "平角"
+        ],
+        "answer": "直角",
+        "explanation": "3 时整，时针指向 3，分针指向 12，夹角为 $90^{\\circ}$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "将一个钝角分成两个角，其中一个是直角，另一个一定是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "周角"
+        ],
+        "answer": "锐角",
+        "explanation": "钝角介于 $90^{\\circ}$ 到 $180^{\\circ}$ 之间，减去 $90^{\\circ}$ 后的差一定小于 $90^{\\circ}$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的分类与画角",
+        "question": "按从大到小的顺序排列，正确的是哪组？",
+        "options": [
+          "周角>平角>钝角>直角>锐角",
+          "周角>钝角>平角>直角>锐角",
+          "平角>周角>钝角>直角>锐角",
+          "锐角>直角>钝角>平角>周角"
+        ],
+        "answer": "周角>平角>钝角>直角>锐角",
+        "explanation": "$360^{\\circ} > 180^{\\circ} > (90^{\\circ} \text{至} 180^{\\circ}) > 90^{\\circ} > (0^{\\circ} \text{至} 90^{\\circ})$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与度量",
+        "question": "量角时，量角器的中心要与角的什么重合？",
+        "options": [
+          "顶点",
+          "一条边",
+          "另一条边",
+          "内部"
+        ],
+        "answer": "顶点",
+        "explanation": "量角器的中心点必须对准角的顶点。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与度量",
+        "question": "量角器上有两圈刻度，读数时应根据什么来确定看哪一圈？",
+        "options": [
+          "心情",
+          "角的大小",
+          "0刻度线所在边",
+          "顶点位置"
+        ],
+        "answer": "0刻度线所在边",
+        "explanation": "哪圈的 0 刻度线与角的一边重合，就读哪一圈的数。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "角的分类与画角",
+        "question": "将一张圆形纸对折 3 次，得到的角是多少度？",
+        "options": [
+          "$90^{\\circ}$",
+          "$60^{\\circ}$",
+          "$45^{\\circ}$",
+          "$30^{\\circ}$"
+        ],
+        "answer": "$45^{\\circ}$",
+        "explanation": "圆是 $360^{\\circ}$。对折1次是 $180^{\\circ}$，2次是 $90^{\\circ}$，3次是 $45^{\\circ}$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的角度计算",
+        "question": "已知 $\\angle 1 + \\angle 2 = 180^{\\circ}$，若 $\\angle 1 = 50^{\\circ}$，则 $\\angle 2$ 是多少度？",
+        "options": [
+          "$40^{\\circ}$",
+          "$50^{\\circ}$",
+          "$130^{\\circ}$",
+          "$180^{\\circ}$"
+        ],
+        "answer": "$130^{\\circ}$",
+        "explanation": "$180 - 50 = 130$。验算：$130 + 50 = 180$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "线段、直线、射线",
+        "question": "线段有 ___ 条端点。",
+        "options": [],
+        "answer": "2",
+        "explanation": "线段有两个端点。验算：直线0个，射线1个，线段2个 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的分类与画角",
+        "question": "一个周角等于 ___ 个平角。",
+        "options": [],
+        "answer": "2",
+        "explanation": "$360 ÷ 180 = 2$。验算：$180 \times 2 = 360$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "从 $3:00$ 到 $4:00$ ，钟面上的分针转动了 ___ 度。",
+        "options": [],
+        "answer": "360",
+        "explanation": "分针 1 小时转动一整圈，为周角 $360^{\\circ}$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的分类与画角",
+        "question": "$90 + 90 = ?$",
+        "options": [],
+        "answer": "180",
+        "explanation": "两个直角相加得到平角，$90 + 90 = 180$。验算：$180 - 90 = 90$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "$360 - 180 = ?$",
+        "options": [],
+        "answer": "180",
+        "explanation": "周角减去平角得到平角，$360 - 180 = 180$。验算：$180 + 180 = 360$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级上册第3单元「角的度量」综合学力评估",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "线段、直线、射线",
+        "question": "过一点可以画无数条直线。",
+        "options": [],
+        "answer": "对",
+        "explanation": "以一点为中心，可以向任意方向画直线，所以有无数条。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "线段、直线、射线",
+        "question": "一条直线长 5 厘米。",
+        "options": [],
+        "answer": "错",
+        "explanation": "直线向两端无限延伸，没有长度，只有线段才有长度。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "平角就是一条直线。",
+        "options": [],
+        "answer": "错",
+        "explanation": "平角虽然两边在同一直线上，但它有顶点，属于角，概念不同。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与度量",
+        "question": "用放大 10 倍的放大镜看一个 $10^{\\circ}$ 的角，角变成了 $100^{\\circ}$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "放大镜放大的是边的长度，不改变两边叉开的大小，度数不变。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "角的分类与画角",
+        "question": "两个锐角之和一定比直角大。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如 $10^{\\circ} + 20^{\\circ} = 30^{\\circ}$，仍是锐角，比直角小。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "线段、直线、射线",
+        "question": "过两点可以画多少条直线？",
+        "options": [
+          "1条",
+          "2条",
+          "3条",
+          "无数条"
+        ],
+        "answer": "1条",
+        "explanation": "两点确定一条直线。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的认识与度量",
+        "question": "量角器上，外圈刻度 $60^{\\circ}$ 对应内圈刻度是多少度？",
+        "options": [
+          "$30^{\\circ}$",
+          "$60^{\\circ}$",
+          "$120^{\\circ}$",
+          "$180^{\\circ}$"
+        ],
+        "answer": "$120^{\\circ}$",
+        "explanation": "内外圈刻度之和为 $180$。$180 - 60 = 120$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "角的分类与画角",
+        "question": "一个 $175^{\\circ}$ 的角是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "平角"
+        ],
+        "answer": "钝角",
+        "explanation": "$90 < 175 < 180$，符合钝角定义。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的分类与画角",
+        "question": "直角是多少度？",
+        "options": [
+          "$0^{\\circ}$",
+          "$90^{\\circ}$",
+          "$180^{\\circ}$",
+          "$360^{\\circ}$"
+        ],
+        "answer": "$90^{\\circ}$",
+        "explanation": "基础定义，直角等于 $90^{\\circ}$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "三个 $60^{\\circ}$ 的角拼在一起是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "平角"
+        ],
+        "answer": "平角",
+        "explanation": "$60 \times 3 = 180$，$180^{\\circ}$ 是平角。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "线段、直线、射线",
+        "question": "下面哪种线可以量出长度？",
+        "options": [
+          "直线",
+          "射线",
+          "线段",
+          "所有线"
+        ],
+        "answer": "线段",
+        "explanation": "线段有两个端点，不延伸，可以测量。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "角的分类与画角",
+        "question": "已知 $\\angle 1$ 和 $\\angle 2$ 组成一个直角，$\\angle 1 = 35^{\\circ}$，则 $\\angle 2$ 是多少？",
+        "options": [
+          "$35^{\\circ}$",
+          "$55^{\\circ}$",
+          "$65^{\\circ}$",
+          "$145^{\\circ}$"
+        ],
+        "answer": "$55^{\\circ}$",
+        "explanation": "$90 - 35 = 55$。验算：$55 + 35 = 90$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的认识与度量",
+        "question": "角的大小是由什么决定的？",
+        "options": [
+          "边的长短",
+          "顶点位置",
+          "两边张开的幅度",
+          "量角器大小"
+        ],
+        "answer": "两边张开的幅度",
+        "explanation": "角是由两射线组成的，夹角即张开的程度。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "钟面上 $6:00$ 时，时针和分针组成的角是什么角？",
+        "options": [
+          "锐角",
+          "直角",
+          "钝角",
+          "平角"
+        ],
+        "answer": "平角",
+        "explanation": "6时整，时针指6，分针指12，成一直线，为 $180^{\\circ}$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "角的分类与画角",
+        "question": "1个周角等于几个直角？",
+        "options": [
+          "2个",
+          "4个",
+          "6个",
+          "8个"
+        ],
+        "answer": "4个",
+        "explanation": "$360 ÷ 90 = 4$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "角的分类与画角",
+        "question": "下列哪个角是锐角？",
+        "options": [
+          "$90^{\\circ}$",
+          "$91^{\\circ}$",
+          "$89^{\\circ}$",
+          "$180^{\\circ}$"
+        ],
+        "answer": "$89^{\\circ}$",
+        "explanation": "小于 $90^{\\circ}$ 的角是锐角。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "线段、直线、射线",
+        "question": "把线段向两端无限延长，就得到一条什么？",
+        "options": [
+          "直线",
+          "射线",
+          "曲线",
+          "两个角"
+        ],
+        "answer": "直线",
+        "explanation": "两个端点都无限延长得到直线。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "平角的度数是直角度数的几倍？",
+        "options": [
+          "1倍",
+          "2倍",
+          "3倍",
+          "4倍"
+        ],
+        "answer": "2倍",
+        "explanation": "$180 ÷ 90 = 2$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "一个周角是 ___ 度。",
+        "options": [],
+        "answer": "360",
+        "explanation": "周角定义为 $360^{\\circ}$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "线段、直线、射线",
+        "question": "射线有 ___ 个端点。",
+        "options": [],
+        "answer": "1",
+        "explanation": "射线有一个端点，向一端无限延伸。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "角的角度计算",
+        "question": "已知 $\\angle 1 + 105^{\\circ} = 180^{\\circ}$，则 $\\angle 1 = ___$ 度。",
+        "options": [],
+        "answer": "75",
+        "explanation": "$180 - 105 = 75$。验算：$75 + 105 = 180$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角的分类与画角",
+        "question": "$180 \times 2 = ?$",
+        "options": [],
+        "answer": "360",
+        "explanation": "2个平角等于1个周角，$180 \times 2 = 360$。验算：$360 ÷ 2 = 180$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角的分类与画角",
+        "question": "$90 \times 2 = ?$",
+        "options": [],
+        "answer": "180",
+        "explanation": "2个直角等于1个平角，$90 \times 2 = 180$。验算：$180 ÷ 2 = 90$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "线段、直线、射线",
+      "core_concept": "线段有两个端点，长度有限，可以测量；射线有一个端点，向一端无限延伸，无法测量；直线没有端点，向两端无限延伸，无法测量。它们是几何学习中最基础的线形。",
+      "key_formula": "两点确定一条直线，两点之间线段最短。",
+      "common_mistakes": [
+        "误认为射线比直线短（两者都无限长，无法比较）",
+        "在测量长度时将直线和射线代入（只有线段可测）"
+      ],
+      "tips": "记法：线段“有头有尾”，射线“有头无尾”，直线“无头无尾”。"
+    },
+    {
+      "point": "角的认识与度量",
+      "core_concept": "从一点引出两条射线所组成的图形叫做角。量角器是核心工具，要注意“点对点”（中心对顶点）、“线对线”（0线对角边）、“读准确”（看清内外圈）。",
+      "key_formula": "角的度量单位是“度”，符号是 $^{\\circ}$。",
+      "common_mistakes": [
+        "内外圈读数混淆，将 $60^{\\circ}$ 读成 $120^{\\circ}$",
+        "中心点未对准角顶点"
+      ],
+      "tips": "判断内外圈技巧：0刻度线在右边读内圈，0刻度线在左边读外圈。"
+    },
+    {
+      "point": "角的分类与画角",
+      "core_concept": "根据度数分类：锐角（$<90^{\\circ}$）、直角（$=90^{\\circ}$）、钝角（$90^{\\circ}<角<180^{\\circ}$）、平角（$=180^{\\circ}$）、周角（$=360^{\\circ}$）。画角时先定线，再定点，连线即成。",
+      "key_formula": "$1\\text{周角} = 2\\text{平角} = 4\\text{直角}$",
+      "common_mistakes": [
+        "认为大于 $90^{\\circ}$ 的角全是钝角，忽略了平角和周角",
+        "分不清平角和直线、周角和射线的区别"
+      ],
+      "tips": "口诀：小于90是锐角，等于90是直角，90至180是钝角，180是平，360是周。"
+    }
+  ]
+}

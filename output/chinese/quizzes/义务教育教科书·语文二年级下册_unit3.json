@@ -1,0 +1,741 @@
+{
+  "textbook": "统编版小学语文二年级下册",
+  "unit": "第三单元：传统文化与识字",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第三单元：传统文化基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "黄河和长江都是我们国家的“母亲河”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《神州谣》中提到了黄河奔、长江涌，它们是中华民族的象征。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "我国一共有65个民族，大家共同生活在一起。",
+        "options": [],
+        "answer": "错",
+        "explanation": "我国一共有56个民族，统称为中华民族。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "“贝”字旁与汉字造字意图",
+        "question": "“赚”字的偏旁是“贝”，说明这个字的意思可能和钱财有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在古代，人们曾用贝壳作为货币，所以带贝字旁的字多与钱财有关。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "重阳节是在农历九月初九，有登高看菊的习俗。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《传统节日》文中明确交代了重阳节的时间和登高习俗。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "烹饪动作动词的分类与应用",
+        "question": "“蒸”馒头和“炸”油条所使用的烹饪方法是一样的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "蒸是利用水蒸气加热，炸是放入热油中成熟，方式不同。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "《神州谣》中形容台湾岛和大陆关系紧密的词语是：",
+        "options": [
+          "隔海峡",
+          "一家人",
+          "长又长",
+          "情谊深"
+        ],
+        "answer": "一家人",
+        "explanation": "全文传达了台湾同胞和大陆同胞是一家人的民族情感。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "“贝”字旁与汉字造字意图",
+        "question": "下列哪组汉字全部带有“贝”字旁？",
+        "options": [
+          "财、赚、赔",
+          "饭、饮、饱",
+          "跑、跳、踢",
+          "冷、冰、冻"
+        ],
+        "answer": "财、赚、赔",
+        "explanation": "财、赚、赔均与金钱有关，都是贝字旁。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "如果你想看赛龙舟，你应该在哪个节日去？",
+        "options": [
+          "春节",
+          "清明节",
+          "端午节",
+          "中秋节"
+        ],
+        "answer": "端午节",
+        "explanation": "赛龙舟、吃粽子是端午节的传统习俗。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "烹饪动作动词的分类与应用",
+        "question": "厨房里的“凉拌三丝”主要用到了哪个动作？",
+        "options": [
+          "煮",
+          "拌",
+          "烤",
+          "爆"
+        ],
+        "answer": "拌",
+        "explanation": "凉拌菜的关键动作是“拌”。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "阅读：神州大地，山川壮美。黄河奔，长江涌，长城长，珠峰耸。文中“耸”的意思是：",
+        "options": [
+          "害怕",
+          "发抖",
+          "高厚地向上直立",
+          "左右摇晃"
+        ],
+        "answer": "高厚地向上直立",
+        "explanation": "形容山峰高峻挺拔。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "中秋节的月亮圆又圆，这一天家家户户要：",
+        "options": [
+          "去踏青",
+          "吃月饼",
+          "贴对联",
+          "转风车"
+        ],
+        "answer": "吃月饼",
+        "explanation": "吃月饼、赏月是中秋节的标志性活动。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“贝”字旁与汉字造字意图",
+        "question": "古人觉得“贝”字像什么，所以才把它作为钱财的象征？",
+        "options": [
+          "贝壳的形状",
+          "圆形的硬币",
+          "张开的嘴巴",
+          "一只小鸟"
+        ],
+        "answer": "贝壳的形状",
+        "explanation": "贝字是象形字，模拟了贝壳的外形。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "烹饪动作动词的分类与应用",
+        "question": "如果要形容菜肴在锅里快速翻动并加入少量调味料，最合适的词是：",
+        "options": [
+          "炒",
+          "炖",
+          "蒸",
+          "煮"
+        ],
+        "answer": "炒",
+        "explanation": "炒是烹饪中最基础的快速翻动成熟的方法。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "如果你正在阅读《传统节日》，你会发现这些节日的排序规律是：",
+        "options": [
+          "按气温高低",
+          "按名字笔画数量",
+          "按农历时间的先后",
+          "按喜欢的程度"
+        ],
+        "answer": "按农历时间的先后",
+        "explanation": "课文从正月初一春节一直讲到腊月二十三。依据的是农历时间轴。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "“华夏子孙”指的是：",
+        "options": [
+          "姓华的人",
+          "住在夏朝的人",
+          "中华民族的后代",
+          "喜欢夏天的孩子"
+        ],
+        "answer": "中华民族的后代",
+        "explanation": "华夏是中国的古称，华夏子孙即中国人。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "“贝”字旁与汉字造字意图",
+        "question": "汉字“购”的偏旁是（___）。",
+        "options": [],
+        "answer": "贝",
+        "explanation": "购的意思是买，与钱财有关，偏旁是贝。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "《神州谣》中提到，各民族要（___），情谊深，共繁荣。",
+        "options": [],
+        "answer": "齐奋发",
+        "explanation": "考察课文原文填空：齐奋发，情谊深。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "元宵节主要的习俗是看花灯和（___）。",
+        "options": [],
+        "answer": "吃汤圆",
+        "explanation": "元宵节习俗包括看花灯、吃汤圆（或元宵）。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "请将传统节日与对应的日期连线。",
+        "options": [
+          "春节",
+          "端午节",
+          "中秋节",
+          "七夕节",
+          "农历八月十五",
+          "农历正月初一",
+          "农历七月初七",
+          "农历五月初五"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "春节-初一；端午-五月初五；中秋-八月十五；七夕-七月初七。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "烹饪动作动词的分类与应用",
+        "question": "请将食物与它主要的制作方式连线。",
+        "options": [
+          "小馒头",
+          "炸薯条",
+          "烤红薯",
+          "拌黄瓜",
+          "火烤",
+          "水蒸",
+          "凉拌",
+          "油炸"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "馒头主蒸；薯条主炸；红薯主烤；黄瓜主拌。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "请将地理景观与文中修饰它的动词连线。",
+        "options": [
+          "黄河",
+          "长江",
+          "珠峰",
+          "岛屿",
+          "耸",
+          "奔",
+          "隔",
+          "涌"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "黄河奔，长江涌，珠峰耸，隔海峡。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "根据课文内容排列句子：",
+        "options": [
+          "各民族",
+          "情谊深",
+          "齐奋发",
+          "中华"
+        ],
+        "answer": "中华,各民族,齐奋发,情谊深",
+        "explanation": "考察《神州谣》最后一句的逻辑顺序。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "请把传统节日的描写排成通顺的句子：",
+        "options": [
+          "大街小巷",
+          "春节到",
+          "好热闹",
+          "看社火"
+        ],
+        "answer": "春节到,看社火,大街小巷,好热闹",
+        "explanation": "原文出自《传统节日》第一节。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二下第三单元识字与传统文化综合测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "“贝”字旁与汉字造字意图",
+        "question": "在造纸术发明前，贝壳曾被当作货币使用。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文《“贝”的故事》中提到古人把贝壳作为钱币。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "端午节是为了纪念屈原而设立的，习俗有划龙舟。",
+        "options": [],
+        "answer": "对",
+        "explanation": "常识与课文内容结合，说法正确。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "烹饪动作动词的分类与应用",
+        "question": "“炖”这种烹饪方式通常需要较长的时间。",
+        "options": [],
+        "answer": "对",
+        "explanation": "炖是指用文火长时间熬煮。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "长江是我们国家长度第一的长河。",
+        "options": [],
+        "answer": "对",
+        "explanation": "长江是亚洲第一、中国第一长河。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "中秋节过完之后，下一个紧接着的传统节日是春节。",
+        "options": [],
+        "answer": "错",
+        "explanation": "中秋（八月十五）后还有重阳（九月初九）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "下列哪一项不属于《神州谣》中赞美的壮丽景观？",
+        "options": [
+          "长城",
+          "黄河",
+          "泰山",
+          "珠峰"
+        ],
+        "answer": "泰山",
+        "explanation": "课文中提到了黄河、长江、长城、珠峰，未提及泰山。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "“贝”字旁与汉字造字意图",
+        "question": "看到部首“火”，我能想到这个字多与火有关；看到“贝”，我能想到这个字多与（）有关。",
+        "options": [
+          "大海",
+          "钱财",
+          "甲壳动物",
+          "心情"
+        ],
+        "answer": "钱财",
+        "explanation": "根据形声字和象形字的演变，贝字旁多表示钱财。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "“人团圆，吃月饼”描写的节日是：",
+        "options": [
+          "中秋节",
+          "元宵节",
+          "清明节",
+          "七夕节"
+        ],
+        "answer": "中秋节",
+        "explanation": "中秋节的特点是赏月、团圆、吃月饼。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "烹饪动作动词的分类与应用",
+        "question": "妈妈在做红烧肉之前要先把肉放在水里煮，“煮”的部首是：",
+        "options": [
+          "水",
+          "灬",
+          "目",
+          "者"
+        ],
+        "answer": "灬",
+        "explanation": "“煮”的偏旁是底下的四点底，代表火。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "阅读《神州谣》片段：“各民族，情谊深，齐奋发，共繁荣。”这里体现了什么精神？",
+        "options": [
+          "民族团结",
+          "热爱劳动",
+          "诚实守信",
+          "刻苦学习"
+        ],
+        "answer": "民族团结",
+        "explanation": "情谊深、齐奋发描述了民族之间的紧密关系。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "按照一年的先后顺序，在“端午节”之前的是哪个节日？",
+        "options": [
+          "中秋节",
+          "清明节",
+          "重阳节",
+          "元宵节"
+        ],
+        "answer": "清明节",
+        "explanation": "顺序：元宵-清明-端午-中秋。端午之前是清明。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“贝”字旁与汉字造字意图",
+        "question": "“赔”字在“赔本赚吆喝”中的意思最可能与什么相关？",
+        "options": [
+          "行走",
+          "货币损失",
+          "人的身体",
+          "房屋建筑"
+        ],
+        "answer": "货币损失",
+        "explanation": "带贝字旁，指金钱上的亏损。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "烹饪动作动词的分类与应用",
+        "question": "下列美食中，哪一种主要是通过“炸”来制作的？",
+        "options": [
+          "烤鸭",
+          "油条",
+          "清蒸鱼",
+          "红烧肉"
+        ],
+        "answer": "油条",
+        "explanation": "油条是典型的油炸食品。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "“华夏”一词中，“华”字在这里的意思最接近：",
+        "options": [
+          "花朵",
+          "光彩",
+          "繁盛、美",
+          "姓氏"
+        ],
+        "answer": "繁盛、美",
+        "explanation": "中国古称华夏，意为衣冠之美、礼仪之大。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "“贝”字旁与汉字造字意图",
+        "question": "在古代，“贫”字的意思是一个人把财物“分”了，显得少了。它的部首是：",
+        "options": [
+          "八",
+          "刀",
+          "分",
+          "贝"
+        ],
+        "answer": "贝",
+        "explanation": "“贫”是上下结构，底下的“贝”是部首，表示财物。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中国地理版图与民族概念识记",
+        "question": "我们通常把长江和（___）称为中华民族的摇篮。",
+        "options": [],
+        "answer": "黄河",
+        "explanation": "黄河和长江是我们的两条母亲河。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "端午节人们除了赛龙舟，还要吃（___）。",
+        "options": [],
+        "answer": "粽子",
+        "explanation": "端午吃粽子是核心习俗。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "烹饪动作动词的分类与应用",
+        "question": "“水煮鱼”和“红烧茄子”，烹饪动作分别是煮和（___）。",
+        "options": [],
+        "answer": "烧",
+        "explanation": "红烧茄子的主要动作是烧。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "“贝”字旁与汉字造字意图",
+        "question": "请将含有相同部首的生字进行连线归类。",
+        "options": [
+          "财",
+          "烧",
+          "辣",
+          "鹅",
+          "火",
+          "贝",
+          "鸟",
+          "辛"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "财-贝；烧-火；辣-辛；鹅-鸟。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "请将节日与其描述的诗句/民俗对应。",
+        "options": [
+          "清明",
+          "七夕",
+          "中秋",
+          "重阳",
+          "赏月",
+          "祭祖",
+          "登高",
+          "乞巧"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "清明祭祖，七夕乞巧，中秋赏月，重阳登高。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "烹饪动作动词的分类与应用",
+        "question": "请根据烹饪时“火候”和“水/油”的关系连线。",
+        "options": [
+          "蒸",
+          "炸",
+          "炒",
+          "煮",
+          "热油快翻",
+          "隔水加热",
+          "多水慢滚",
+          "热油宽锅"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "蒸是隔水，炸是热油宽锅，炒是热油快翻，煮是多水。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "传统节日习俗与时间排序",
+        "question": "连词成句，描述中秋节：",
+        "options": [
+          "月儿圆",
+          "吃月饼",
+          "中秋到",
+          "人团圆"
+        ],
+        "answer": "中秋到,月儿圆,人团圆,吃月饼",
+        "explanation": "按照课文中的对仗结构排序。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“贝”字旁与汉字造字意图",
+        "question": "请根据造字规律连接成句：",
+        "options": [
+          "大多",
+          "带贝字旁的字",
+          "与钱财",
+          "有关"
+        ],
+        "answer": "带贝字旁的字,大多,与钱财,有关",
+        "explanation": "这是本单元最重要的识字规律。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "中国地理版图与民族概念识记",
+      "core_concept": "通过《神州谣》的学习，学生需要识别祖国版图的主要特征。长江、黄河被视为中华文明的摇篮。神州是指中国，台湾是祖国不可分割的一部分。强调56个民族团结一心的重要性。",
+      "key_formula": "神州=中国；华夏=中华。",
+      "common_mistakes": [
+        "容易将“民族”的“族”读成平舌音",
+        "分不清黄河和长江的地理特点描述词"
+      ],
+      "tips": "可以通过背诵三字经形式的《神州谣》来记忆，注意“奔”和“涌”的动词应用。"
+    },
+    {
+      "point": "传统节日习俗与时间排序",
+      "core_concept": "本单元要求掌握春节、元宵、清明、端午、七夕、中秋、重阳等节日的名称、农历时间和习俗。重点在于了解每个节日的文化内涵和时间先后顺序。",
+      "key_formula": "传统节日 = 农历日期 + 对应习俗。",
+      "common_mistakes": [
+        "混淆中秋节（八月）和重阳节（九月）的先后次序",
+        "将元宵节写成阳历的一月一日"
+      ],
+      "tips": "画一条时间轴，把节日像挂灯笼一样挂在轴上，再配上简单的插图。"
+    },
+    {
+      "point": "“贝”字旁与汉字造字意图",
+      "core_concept": "汉字具有表意功能。通过了解古代以贝壳作为货币的历史，学生理解字理逻辑。凡是带有“贝”字旁的字，如财、赚、赔、购，大多与货币和财产有关。",
+      "key_formula": "贝 = 钱财。",
+      "common_mistakes": [
+        "书写“贝”字旁时最后一点写成捺",
+        "误认为所有海产品都带贝字旁"
+      ],
+      "tips": "找找家里的日常开销，哪些动作如“购”“买”带贝部，联系生活实物记忆。"
+    },
+    {
+      "point": "烹饪动作动词的分类与应用",
+      "core_concept": "中华饮食文化博大精深，汉字中有大量表示烹饪方式的动词。带“火”部（或四点底）的字多与用火加工有关，如煎、蒸、炸、煮。需要准确区分不同动作的水油比例和火候区别。",
+      "key_formula": "火字旁/灬 = 烧煮加热。",
+      "common_mistakes": [
+        "区分不清“蒸”与“煮”的区别（是否有水直接接触）",
+        "写不准“蒸”字的四点底"
+      ],
+      "tips": "走进厨房看一看妈妈做菜的过程：多水的是煮，隔水的是蒸，多油的是炸。"
+    }
+  ]
+}

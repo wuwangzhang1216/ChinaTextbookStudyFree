@@ -1,0 +1,684 @@
+{
+  "textbook": "人教版 PEP 英语六年级下册",
+  "unit": "Unit 1 How tall are you?",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "Unit 1 单元基础达标测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "形容词比较级构成规则",
+        "question": "形容词 'tall' 的比较级形式是 'taller'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "形容词比较级的规则变化是在词尾加-er。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "形容词比较级构成规则",
+        "question": "'heavy' 的比较级是 'heavyer'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "以辅音字母加y结尾的形容词，变y为i再加-er，应该是heavier。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "度量衡单位",
+        "question": "'kilogram' 翻译成中文是 '千克/公斤'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "kilogram是质量单位千克。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "比较级句型",
+        "question": "句子 'You are taller than I.' 是错误的，than后面只能接me。",
+        "options": [],
+        "answer": "错",
+        "explanation": "than后面接主格I或宾格me皆可，在口语中常用me。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "形容词意义",
+        "question": "'shorter' 只能用来表示 '更矮'，不能表示 '更短'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "short既可以指身高矮，也可以指长度短。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比较级词汇",
+        "question": "My legs are ____ than yours.",
+        "options": [
+          "long",
+          "longer",
+          "tall",
+          "taller"
+        ],
+        "answer": "longer",
+        "explanation": "腿的长度比较用longer，身高用taller。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问身高",
+        "question": "____ tall are you? - I am 1.65 metres.",
+        "options": [
+          "What",
+          "Who",
+          "How",
+          "How much"
+        ],
+        "answer": "How",
+        "explanation": "How tall是固定搭配，用于询问身高。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比较级构成规则",
+        "question": "Which word is the comparative form(比较级) of 'big'?",
+        "options": [
+          "biggier",
+          "biger",
+          "bigger",
+          "big"
+        ],
+        "answer": "bigger",
+        "explanation": "big是重读闭音节单词，双写词尾字母g再加er。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "形容词辨析",
+        "question": "Your feet are bigger than mine. You wear size ____.",
+        "options": [
+          "37",
+          "40",
+          "small",
+          "kg"
+        ],
+        "answer": "40",
+        "explanation": "脚大所以鞋码数字应较大。37和40中40更大。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问体重",
+        "question": "How ____ is the dinosaur? - It is 5 tons.",
+        "options": [
+          "tall",
+          "heavy",
+          "big",
+          "strong"
+        ],
+        "answer": "heavy",
+        "explanation": "根据回答中的单位tons（吨）可知是在询问重量。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句型识别",
+        "question": "选出翻译正确的一项：那只恐龙比我高。",
+        "options": [
+          "That dinosaur is tall than me.",
+          "That dinosaur is taller than me.",
+          "That dinosaur is taller than I am.",
+          "That dinosaur is taller than me."
+        ],
+        "answer": "That dinosaur is taller than me.",
+        "explanation": "比较级句型为 A + be + adj-er + than + B。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "固定搭配",
+        "question": "Please ____ it into the hall.",
+        "options": [
+          "get",
+          "take",
+          "bring",
+          "put"
+        ],
+        "answer": "take",
+        "explanation": "take...into 把...带进...。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "逻辑理解",
+        "question": "A is 1.6m. B is 1.55m. So A is ____ than B.",
+        "options": [
+          "shorter",
+          "taller",
+          "smaller",
+          "thin"
+        ],
+        "answer": "taller",
+        "explanation": "1.6米大于1.55米，所以A更高。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句型补全",
+        "question": "What ____ are your shoes?",
+        "options": [
+          "long",
+          "heavy",
+          "size",
+          "tall"
+        ],
+        "answer": "size",
+        "explanation": "What size是固定短语，询问鞋子的号码。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "常识推断",
+        "question": "An elephant is ____ than a rabbit.",
+        "options": [
+          "smaller",
+          "heavier",
+          "shorter",
+          "thinner"
+        ],
+        "answer": "heavier",
+        "explanation": "大象比兔子重。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比较级词汇",
+        "question": "I am 160cm tall. My brother is 165cm. I am ___ than him.",
+        "options": [],
+        "answer": "shorter",
+        "explanation": "160cm比165cm矮。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "语法运用",
+        "question": "My bag is 2kg. Your bag is 3kg. Your bag is ___ than mine.",
+        "options": [],
+        "answer": "heavier",
+        "explanation": "3kg比2kg重，heavy的比较级是heavier。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "语法结构",
+        "question": "Who is stronger, you ___ your father?",
+        "options": [],
+        "answer": "or",
+        "explanation": "选择性疑问句用or连接两个选项。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比较级词汇",
+        "question": "Your hair is 20cm. My hair is 15cm. Your hair is ___ than mine.",
+        "options": [],
+        "answer": "longer",
+        "explanation": "形容头发长短用long，比较级longer。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇翻译",
+        "question": "将下列短语/单词与对应的中文意思连线。",
+        "options": [
+          "how tall",
+          "how heavy",
+          "smaller",
+          "thinner",
+          "更瘦的",
+          "更小的",
+          "多高",
+          "多重"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "how tall询问身高；how heavy询问体重；smaller更小；thinner更瘦。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词汇翻译",
+        "question": "将下列核心词汇与对应中文意思连线。",
+        "options": [
+          "shadow",
+          "dinosaur",
+          "stronger",
+          "younger",
+          "恐龙",
+          "更强壮的",
+          "更年轻的",
+          "影子"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "shadow影子；dinosaur恐龙；stronger更强壮；younger更年轻。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比较级句式",
+        "question": "请将单词排列成句：(than, I, taller, am, you)",
+        "options": [
+          "than",
+          "I",
+          "taller",
+          "am",
+          "you"
+        ],
+        "answer": "I,am,taller,than,you",
+        "explanation": "标准比较级结构：主语+be+形容词比较级+than+对象。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "特殊疑问句",
+        "question": "请将单词排列成句：(are, How, you, tall, ?)",
+        "options": [
+          "are",
+          "How",
+          "you",
+          "tall",
+          "?"
+        ],
+        "answer": "How,tall,are,you,?",
+        "explanation": "询问身高的特殊疑问句结构：How tall + be + 主语 + ?"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 1 How tall are you? 综合能力评估卷",
+    "total_score": 90,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词汇理解",
+        "question": "'older' 是形容词 'old' 的比较级。",
+        "options": [],
+        "answer": "对",
+        "explanation": "old以辅音结尾直接加er。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "逻辑判断",
+        "question": "If Tom is 1.6m and Sam is 1.5m, then Sam is taller.",
+        "options": [],
+        "answer": "错",
+        "explanation": "1.6米高于1.5米，所以应该是Tom更矮（shorter）。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "拼写检查",
+        "question": "'thinner' 的原形是 'thin'，变比较级需要双写n。",
+        "options": [],
+        "answer": "对",
+        "explanation": "thin是辅-元-辅结构，需双写词尾字母。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "翻译辨析",
+        "question": "'What size are your shoes?' 意思是 '你的鞋子是什么颜色的？'",
+        "options": [],
+        "answer": "错",
+        "explanation": "Weat size是询问尺寸，而非颜色。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "词义延伸",
+        "question": "'Your shadow gets longer when the sun goes down.' 这里的 longer 是 long 的比较级。",
+        "options": [],
+        "answer": "对",
+        "explanation": "long变比较级为longer，意为更长。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇选择",
+        "question": "Which of the following is correct?",
+        "options": [
+          "tall-taller",
+          "thin-thiner",
+          "heavy-heavyer",
+          "big-biger"
+        ],
+        "answer": "tall-taller",
+        "explanation": "thin需双写n，heavy需改y为i，big需双写g。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "疑问短语",
+        "question": "____ is your schoolbag? - It's 3 kilograms.",
+        "options": [
+          "How old",
+          "How tall",
+          "How heavy",
+          "How many"
+        ],
+        "answer": "How heavy",
+        "explanation": "单位是千克，询问重量用how heavy。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "代词搭配",
+        "question": "Mike is thinner than ____.",
+        "options": [
+          "my",
+          "his",
+          "he",
+          "me"
+        ],
+        "answer": "me",
+        "explanation": "than后常用人称代词宾格。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "联系上下文",
+        "question": "The sun goes down, our shadows are ____.",
+        "options": [
+          "longer",
+          "shorter",
+          "long",
+          "short"
+        ],
+        "answer": "longer",
+        "explanation": "根据常识，太阳下山影子变长。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比较级句型",
+        "question": "She is 2 years ____ than me.",
+        "options": [
+          "old",
+          "older",
+          "young",
+          "oldder"
+        ],
+        "answer": "older",
+        "explanation": "than引导比较句，使用比较级older।"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "综合理解",
+        "question": "Lucy is 1.5m tall. Lily is 1.55m. Who is taller?",
+        "options": [
+          "Lucy",
+          "Lily",
+          "They are same",
+          "I don't know"
+        ],
+        "answer": "Lily",
+        "explanation": "1.55米大于1.5米。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词汇应用",
+        "question": "Your feet are No.38. Mine are No.36. Your feet are ____.",
+        "options": [
+          "smaller",
+          "shorter",
+          "bigger",
+          "taller"
+        ],
+        "answer": "bigger",
+        "explanation": "鞋码大说明脚大。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "介词辨析",
+        "question": "Look! The sun is shining ____ the window.",
+        "options": [
+          "at",
+          "through",
+          "on",
+          "in"
+        ],
+        "answer": "through",
+        "explanation": "through the window 穿过窗户。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "语感填空",
+        "question": "I'm 48 kilograms. You are 50 kilograms. You are 2 kilograms ____ than me.",
+        "options": [
+          "heavy",
+          "heavier",
+          "weight",
+          "older"
+        ],
+        "answer": "heavier",
+        "explanation": "差值+比较级+than。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比较级特殊形式",
+        "question": "Which of these words is NOT a comparative form?",
+        "options": [
+          "smaller",
+          "stronger",
+          "father",
+          "shorter"
+        ],
+        "answer": "father",
+        "explanation": "father是名词“父亲”，虽然以er结尾但不是形容词比较级。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比较级拼写",
+        "question": "The whale is ___ than the dolphin. (heavy)",
+        "options": [],
+        "answer": "heavier",
+        "explanation": "heavy变比较级为heavier。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "单位表达",
+        "question": "I am 1.65 ___ tall.",
+        "options": [],
+        "answer": "metres",
+        "explanation": "描述身高单位为米，复数形式为metres。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比较级词汇",
+        "question": "My computer is ___ than yours. (small)",
+        "options": [],
+        "answer": "smaller",
+        "explanation": "small的比较级直接加er。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问信息",
+        "question": "___ size are your shoes?",
+        "options": [],
+        "answer": "what",
+        "explanation": "疑问短语What size。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "对比词汇",
+        "question": "将下列原形与其比较级对应。",
+        "options": [
+          "old",
+          "young",
+          "strong",
+          "short",
+          "stronger",
+          "shorter",
+          "older",
+          "younger"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "考察形容词原形与比较级的对应。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数量表达",
+        "question": "将数字与英文表达连线。",
+        "options": [
+          "1.60m",
+          "45kg",
+          "Size 38",
+          "Two tons",
+          "45公斤",
+          "1.60米",
+          "两吨",
+          "38码"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "度量衡单位的对应关系。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "形容词比较级的规则变化",
+      "core_concept": "用于两人或两物之间的比较",
+      "key_formula": "一般+er; e结尾+r; 辅元辅双写尾字母+er; 辅+y变i+er",
+      "common_mistakes": [
+        "形容词原形与比较级混用",
+        "双写错误（如thiner）",
+        "y结尾直接加er"
+      ],
+      "tips": "记背'肥瘦大红'（fat, thin, big, red）这几个双写词。"
+    },
+    {
+      "point": "询问数据及对应单位",
+      "core_concept": "身高、体重、尺寸的精准提问",
+      "key_formula": "How tall(身高-m/cm), How heavy(体重-kg/t), What size(鞋码)",
+      "common_mistakes": [
+        "How heavy与How tall混淆",
+        "单位单词拼写错误"
+      ],
+      "tips": "看到数字后面的单位，反推疑问词。"
+    },
+    {
+      "point": "比较级标准句型",
+      "core_concept": "A 超过 B 的表达结构",
+      "key_formula": "A + be + 比较级 + than + B",
+      "common_mistakes": [
+        "漏掉be动词",
+        "将than写成then"
+      ],
+      "tips": "than是比较级的标志性词汇，看到than必选比较级。"
+    }
+  ]
+}

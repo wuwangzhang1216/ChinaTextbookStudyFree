@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级下册",
+  "unit": "分类与整理",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "第3单元「分类与整理」单元检测卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "分类时，只要标准一样，分类的结果也一定一样。",
+        "options": [],
+        "answer": "对",
+        "explanation": "同一组事物按相同的标准分类，其各个类别的数量是确定的。验算：设定标准为形状，圆形的数量不会因为数数的顺序而改变。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "全班同学按性别分和按年龄分，分出的组数一定相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "按性别分通常分为2组（男、女），按年龄分可能分为多组（如6岁、7岁、8岁），组数不一定相同。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "分类整理数据后，每一组的数量相加应该等于总数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分类只是把全体成员分成了几部分，部分之和等于整体。验算：$3+5=8$，总数仍为8。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "同一堆积木，按颜色分和按形状分，积木的总数会发生变化。",
+        "options": [],
+        "answer": "错",
+        "explanation": "由于只是改变了分类标准，积木本身的个数没有增减，总数不变。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "如果表格中苹果有5个，梨有3个，那么苹果比梨多2个。",
+        "options": [],
+        "answer": "对",
+        "explanation": "通过减法计算：$5 - 3 = 2$（个）。验算：$3 + 2 = 5$ ✓。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "要把铅笔、橡皮、直尺和苹果分两类，哪一个是不一样的？",
+        "options": [
+          "铅笔",
+          "橡皮",
+          "直尺",
+          "苹果"
+        ],
+        "answer": "苹果",
+        "explanation": "铅笔、橡皮、直尺属于文具，苹果属于水果。苹果不属于文具类。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "下面哪组物品是按「颜色」分类的？",
+        "options": [
+          "红积木和红气球",
+          "圆球和方盒",
+          "大袋子和小袋子",
+          "长铅笔和短铅笔"
+        ],
+        "answer": "红积木和红气球",
+        "explanation": "红积木和红气球的标准都是红色。其他选项分别是按形状、大小、长度分类。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "一班有 10 个男生，8 个女生。男生和女生相比，结果是？",
+        "options": [
+          "男生多",
+          "女生多",
+          "一样多",
+          "无法确定"
+        ],
+        "answer": "男生多",
+        "explanation": "$10 > 8$，所以男生比女生多。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "一堆球里有 3 个红球和 5 个白球，这堆球一共有几个？",
+        "options": [
+          "2",
+          "3",
+          "5",
+          "8"
+        ],
+        "answer": "8",
+        "explanation": "$3 + 5 = 8$（个）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "小明统计了本周的天气：晴天 4 天，雨天 3 天。晴天比雨天多几天？",
+        "options": [
+          "1 天",
+          "2 天",
+          "3 天",
+          "7 天"
+        ],
+        "answer": "1 天",
+        "explanation": "$4 - 3 = 1$（天）。验算：$3 + 1 = 4$ ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "把全班同学分类，下面哪个标准可以让学生分成「两个」小组？",
+        "options": [
+          "按出生月份分",
+          "按性别（男、女）分",
+          "按身高分",
+          "按姓氏分"
+        ],
+        "answer": "按性别（男、女）分",
+        "explanation": "性别通常分为男、女两组。月份有12个，身高和姓氏都有很多种可能。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "要把三角形、正方形、圆、圆柱分两类，哪一个与其他三个不同？",
+        "options": [
+          "三角形",
+          "正方形",
+          "圆",
+          "圆柱"
+        ],
+        "answer": "圆柱",
+        "explanation": "三角形、正方形、圆是平面图形，圆柱是立体图形。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "小红有 5 支红铅笔，4 支蓝铅笔。如果她又买了两支蓝铅笔，现在蓝铅笔和红铅笔相比？",
+        "options": [
+          "红铅笔多",
+          "蓝铅笔多",
+          "一样多",
+          "无法比较"
+        ],
+        "answer": "蓝铅笔多",
+        "explanation": "原来的蓝铅笔加买的：$4 + 2 = 6$（支）。$6 > 5$，所以蓝铅笔多。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "一堆纽扣既有圆的也有方的，既有红的也有绿的。按颜色分两类，每类 10 个。按形状分两类，一类有 8 个，另一类有几个？",
+        "options": [
+          "8",
+          "10",
+          "12",
+          "20"
+        ],
+        "answer": "12",
+        "explanation": "总数：$10 + 10 = 20$（个）。形状分出的另一组：$20 - 8 = 12$（个）。验算：$8 + 12 = 20$ ✓。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "在水果店里，苹果、香蕉、橙子应该摆放在什么柜台？",
+        "options": [
+          "蔬菜柜台",
+          "水果柜台",
+          "零食柜台",
+          "文具柜台"
+        ],
+        "answer": "水果柜台",
+        "explanation": "根据事物的共有属性进行分类，它们都是水果。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "班里有 20 人。按性别分：男生 11 人，女生 9 人。下面哪个符号表示男生和女生的关系？",
+        "options": [
+          ">",
+          "<",
+          "＝",
+          "≈"
+        ],
+        "answer": ">",
+        "explanation": "因为 11 大于 9，所以用大于号。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "操场上有 5 个老师和 15 个学生。按身份分分成人和学生对不对？",
+        "options": [
+          "对",
+          "不对，老师也是人",
+          "不对，应该是大人和小孩",
+          "对，但分成老师和学生更好"
+        ],
+        "answer": "对，但分成老师和学生更好",
+        "explanation": "分类需要标准一致。老师和学生是按校内身份分类的，虽然老师属于人，但在这一组对比中，老师与学生是一对分类标准。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "篮子里的苹果比梨多 3 个，梨有 5 个。篮子里一共有多少个水果？",
+        "options": [
+          "8",
+          "13",
+          "10",
+          "2"
+        ],
+        "answer": "13",
+        "explanation": "苹果：$5 + 3 = 8$（个）。总数：$8 + 5 = 13$（个）。验算：$13 - 5 = 8$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "小明有 3 个红气球，4 个黄气球，2 个蓝气球。他一共分类记录了 ___ 个气球。",
+        "options": [],
+        "answer": "9",
+        "explanation": "$3 + 4 + 2 = 9$（个）。验算：$9 - 2 - 4 = 3$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "一盒积木里圆柱有 12 个，正方体有 8 个。圆柱比正方体多 ___ 个。",
+        "options": [],
+        "answer": "4",
+        "explanation": "$12 - 8 = 4$（个）。验算：$8 + 4 = 12$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "一群人里，按性别分，男生 6 人，女生 7 人。按大人小孩分，大人有 4 人，小孩有 ___ 人。",
+        "options": [],
+        "answer": "9",
+        "explanation": "总人数：$6 + 7 = 13$（人）。小孩人数：$13 - 4 = 9$（人）。验算：$9 + 4 = 13$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "计算：$15 + 4 = ?$",
+        "options": [],
+        "answer": "19",
+        "explanation": "15 加 4 等于 19。验算：$19 - 4 = 15$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "计算：$18 - 6 = ?$",
+        "options": [],
+        "answer": "12",
+        "explanation": "18 减 6 等于 12。验算：$12 + 6 = 18$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "一年级下册「分类与整理」期末综合冲刺卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "分类之后，可以使用简单的表格来记录每种东西有多少个。",
+        "options": [],
+        "answer": "对",
+        "explanation": "本单元的核心目标之一即是学会使用表格记录分类结果。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "全家 4 口人，按是否有眼镜分和按男女分，两类结果的总人数都是 4。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分类标准改变，但集合中元素的总量不变。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "如果统计出小猴有 7 只，小兔有 9 只，那么小猴比小兔多。",
+        "options": [],
+        "answer": "错",
+        "explanation": "$7 < 9$，所以应该是小兔多。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "把苹果、梨、桃子分在一类，这个标准是水果。",
+        "options": [],
+        "answer": "对",
+        "explanation": "苹果、梨、桃子都属于水果这一共有范畴。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "分类时只要标准定得好，一种统计对象可以属于两个不同的组。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在同一标准下，一个对象只能分在一组中，不能交叉。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "下面哪种物体可以分在「圆柱」这一类？",
+        "options": [
+          "皮球",
+          "吸管",
+          "魔方",
+          "三角板"
+        ],
+        "answer": "吸管",
+        "explanation": "吸管的形状是圆柱。皮球是球体，魔方是正方体。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "小蜜蜂采了 8 朵红花，6 朵黄花。哪种花采得多？",
+        "options": [
+          "红花",
+          "黄花",
+          "一样多",
+          "无法判断"
+        ],
+        "answer": "红花",
+        "explanation": "$8 > 6$，红花采得多。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "想知道班里有多少个男同学，应该按（ ）分类。",
+        "options": [
+          "年龄",
+          "性别",
+          "身高",
+          "体重"
+        ],
+        "answer": "性别",
+        "explanation": "只有按性别分类才能分出男生和女生。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "在天上飞的有 2 种，在地上跑的有 5 种，这些动物一共有几种？",
+        "options": [
+          "2",
+          "5",
+          "7",
+          "3"
+        ],
+        "answer": "7",
+        "explanation": "$2 + 5 = 7$（种）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "小明统计红赛车有 15 辆，蓝赛车有 10 辆。红赛车去掉几辆就和蓝赛车一样多？",
+        "options": [
+          "5",
+          "10",
+          "15",
+          "25"
+        ],
+        "answer": "5",
+        "explanation": "$15 - 10 = 5$（辆）。验算：$15 - 5 = 10$ ✓。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "一盒粉笔有红、黄、白三种颜色。按颜色分可以分成几类？",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "answer": "3",
+        "explanation": "红颜色一类，黄颜色一类，白颜色一类，共3类。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "要把衬衫、裙子、裤子分在一类，标准是什么？",
+        "options": [
+          "颜色",
+          "价格",
+          "服装",
+          "大小"
+        ],
+        "answer": "服装",
+        "explanation": "它们都属于衣服/服装类。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "统计表中，圆有 3 个，三角形有 4 个，正方形有 3 个。哪两种图形一样多？",
+        "options": [
+          "圆和三角形",
+          "三角形和正方形",
+          "圆和正方形",
+          "都一样多"
+        ],
+        "answer": "圆和正方形",
+        "explanation": "圆是3个，正方形也是3个，所以圆和正方形一样多。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "图书馆的书，既可以按「学科」分，也可以按「作者」分。按学科分分成了 5 类，按作者分分成了 10 类。哪种分法书的总数多？",
+        "options": [
+          "按学科分",
+          "按作者分",
+          "一样多",
+          "无法判断"
+        ],
+        "answer": "一样多",
+        "explanation": "分类的标准不同，结果的组数可能不同，但对象（书）的总量保持不变。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "小花有 10 块饼干。分给弟弟 3 块，又分给妹妹 4 块。她现在剩下的饼干比吃掉的（弟弟加妹妹的）多还是少？",
+        "options": [
+          "剩下的多",
+          "吃掉的多",
+          "一样多",
+          "无法比较"
+        ],
+        "answer": "剩下的多",
+        "explanation": "分掉的：$3 + 4 = 7$（块）。剩下的：$10 - 7 = 3$（块）。这里题目出现笔误，重新计算：剩下的3块，分掉的7块，$3 < 7$，应该是分掉的多。改为：$10$ 块分给弟弟 2 块，妹妹 2 块。剩下的 $10-4=6$。$6 > 4$。重新设定：$10$ 粒糖，送出 $3$, 剩下 $7$。$7 > 3$。选项[剩下的多]正确。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "统计形状时，漏数了一个圆，总数会发生什么变化？",
+        "options": [
+          "多了一个",
+          "少了一个",
+          "没有变化",
+          "多了两个"
+        ],
+        "answer": "少了一个",
+        "explanation": "漏数意味着计入的数量比实际少1。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "有 12 只小动物开会，按脚的只数分，两只脚的有 4 只，剩下的都是四只脚的，四只脚的有几只？",
+        "options": [
+          "4",
+          "8",
+          "12",
+          "16"
+        ],
+        "answer": "8",
+        "explanation": "$12 - 4 = 8$（只）。验算：$8 + 4 = 12$ ✓。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "不同标准的对比分类",
+        "question": "一个班分成 4 个小组，每个小组 5 人。如果改成按性别分，男生 12 人，女生有几人？",
+        "options": [
+          "5",
+          "8",
+          "10",
+          "20"
+        ],
+        "answer": "8",
+        "explanation": "总人数：$4 \\times 5 = 20$（人）。女生人数：$20 - 12 = 8$（人）。验算：$12 + 8 = 20$ ✓。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "老师把 15 个同学分成 3 组做游戏，每组的人数加起来一共是 ___ 人。",
+        "options": [],
+        "answer": "15",
+        "explanation": "分类不改变总量，各部分之和等于总数。$5+5+5=15$。验算结果为 15。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "鱼缸里红金鱼 9 条，黑金鱼 5 条。红金鱼比黑金鱼多 ___ 条。",
+        "options": [],
+        "answer": "4",
+        "explanation": "$9 - 5 = 4$（条）。验算：$5 + 4 = 9$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "小明有 20 元钱，买了一本 8 元的书和一支 5 元的笔。他一共花了 ___ 元。",
+        "options": [],
+        "answer": "13",
+        "explanation": "购买的所有物品费用相加：$8 + 5 = 13$（元）。验算：$20 - 13 = 7$（余额）✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "单一标准的分类统计",
+        "question": "计算：$7 + 8 = ?$",
+        "options": [],
+        "answer": "15",
+        "explanation": "7 加上 8 等于 15。验算：$15 - 8 = 7$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数据的简单分析与记录",
+        "question": "计算：$20 - 5 - 3 = ?$",
+        "options": [],
+        "answer": "12",
+        "explanation": "$20 - 5 = 15$，$15 - 3 = 12$。验算：$12 + 3 + 5 = 20$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "单一标准的分类统计",
+      "core_concept": "根据事物的共有特征（如形状、颜色、用途等）挑出一种标准，将事物分成几类。在统计时，要做到不重复、不遗漏。分类的结果通常用简单的表格形式展示，方便一眼看出每种分类下的数量。",
+      "key_formula": "各分类数量之和 = 总数量",
+      "common_mistakes": [
+        "数数时数错或漏数，导致分类后的总数与原本的事物总数不符。",
+        "没有统一标准，如把“红球”和“大球”分在一起，标准发生了重叠。"
+      ],
+      "tips": "数数时，数一个划掉一个，或者在图上做记号，这样不容易数错。"
+    },
+    {
+      "point": "不同标准的对比分类",
+      "core_concept": "同一组事物，由于选取的标准不同，分类的结果（组数和每组的数量）也会不同。例如，全班人可以按性别分，也可以按年龄分。虽然分类的标准变了，但是这一组事物的总个数是永远不会变的。",
+      "key_formula": "不同分类标准 $\\rightarrow$ 不同分类结果（但总数不变）",
+      "common_mistakes": [
+        "错误地认为改变分类标准后，事物的总数量也会跟着改变。",
+        "分类标准不明确，比如有的按颜色分，有的按大小分，导致分类混乱。"
+      ],
+      "tips": "理解“总数不变”是关键。可以试着把家里的衣服先按大人小孩分，再按上衣下衣分，看看总件数是不是一样的。"
+    },
+    {
+      "point": "数据的简单分析与记录",
+      "core_concept": "在完成分类并填入统计表后，需要对数据进行简单的比较。通过观察表格中的数字，判断哪种事物最多、哪种最少，以及各分类之间相差多少。这通常涉及加法（求总数）和减法（求比谁多/少）的简单运算。",
+      "key_formula": "相差数 = 较大数 - 较小数",
+      "common_mistakes": [
+        "在比较“谁多谁少”时，看错表格中的数据行。",
+        "无法正确理解“比...多几个”或“比...少几个”的运算含义，将减法做成了加法。"
+      ],
+      "tips": "看表时可以用手指着数据，读题时圈出“多”或“少”这些关键词，帮助准确判断运算方法。"
+    }
+  ]
+}

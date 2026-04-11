@@ -1,0 +1,707 @@
+{
+  "textbook": "教科版小学科学五年级下册",
+  "unit": "生物与环境",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元「生物与环境」单元测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "种子发芽的条件",
+        "question": "种子发芽必须要有土壤，没有土壤种子绝对不会发芽。",
+        "options": [],
+        "answer": "错",
+        "explanation": "种子发芽需要适量的水分、充足的空气和适宜的温度，不一定要有土壤。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "植物光合作用",
+        "question": "植物进行光合作用时会释放出氧气。",
+        "options": [],
+        "answer": "对",
+        "explanation": "光合作用是绿色植物利用光能，把二氧化碳和水转化成储存能量的有机物，并释放出氧气的过程。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "动物对环境的选择性",
+        "question": "蚯蚓喜欢生活在干燥、明亮的环境中。",
+        "options": [],
+        "answer": "错",
+        "explanation": "实验证明蚯蚓喜欢阴暗、潮湿的环境。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "食物链",
+        "question": "在食物链中，箭头符号应该指向捕食者（吃的一方）。",
+        "options": [],
+        "answer": "对",
+        "explanation": "箭头代表能量流动的方向，从被食者指向捕食者。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "生态系统",
+        "question": "池塘里的所有生物与其生活的非生物环境共同构成了一个生态系统。",
+        "options": [],
+        "answer": "对",
+        "explanation": "生态系统是指在一定面积内，生物成分和非生物成分通过物质循环和能量流动互相作用所形成的统一整体。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "种子发芽条件",
+        "question": "在研究种子发芽是否需要水分的对比实验中，我们要改变的条件是（ ）。",
+        "options": [
+          "光照",
+          "温度",
+          "水分",
+          "空气"
+        ],
+        "answer": "水分",
+        "explanation": "对比实验中，除了研究的变量（水分）不同，其他条件必须保持一致。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "对比实验设计",
+        "question": "为了排除偶然性，种子发芽实验中每个盒子通常放（ ）粒种子。",
+        "options": [
+          "1",
+          "至少3",
+          "0",
+          "100"
+        ],
+        "answer": "至少3",
+        "explanation": "放多粒种子可以避免因种子本身发育不良导致实验失败，增加实验的准确性。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光合作用",
+        "question": "绿豆芽的根会朝着什么方向生长？（ ）",
+        "options": [
+          "有水的方向",
+          "有光的方向",
+          "空气充足的方向",
+          "垂直向上"
+        ],
+        "answer": "有水的方向",
+        "explanation": "植物的根具有向水性，这是植物为了寻找生长所需水分产生的适应性。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "动物适应行为",
+        "question": "天鹅每年都要进行长途迁徙，这主要是为了（ ）。",
+        "options": [
+          "寻找水源",
+          "锻炼身体",
+          "寻找配偶",
+          "适应气候和食物变化"
+        ],
+        "answer": "适应气候和食物变化",
+        "explanation": "迁徙是动物因季节更替而产生的适应环境的行为。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物链",
+        "question": "下列食物链书写规范的是（ ）。",
+        "options": [
+          "阳光→草→兔→狼",
+          "草←兔←狼",
+          "草→兔→狼",
+          "落叶→蚯蚓"
+        ],
+        "answer": "草→兔→狼",
+        "explanation": "食物链必须从生产者开始，不包括阳光，且箭头指向捕食者。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生态平衡",
+        "question": "如果一个草原上的狼被人类猎杀光了，短期内羊的数量会（ ）。",
+        "options": [
+          "急剧减少",
+          "先增加后减少",
+          "保持不变",
+          "立刻灭绝"
+        ],
+        "answer": "先增加后减少",
+        "explanation": "天敌消失羊会大量繁殖，随后会导致草原退化食物不足，数量再下降。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生态系统成分",
+        "question": "在生态瓶中，为生物提供氧气的是（ ）。",
+        "options": [
+          "微生物",
+          "小鱼",
+          "水和砂石",
+          "绿色植物"
+        ],
+        "answer": "绿色植物",
+        "explanation": "绿色植物通过光合作用产生氧气。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动物适应行为",
+        "question": "青蛙在冬天会躲进地洞不吃不动，这种现象叫（ ）。",
+        "options": [
+          "迁徙",
+          "繁殖",
+          "冬眠",
+          "换羽"
+        ],
+        "answer": "冬眠",
+        "explanation": "冬眠是变温动物适应严寒和食物匮乏的行为。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "对比实验原则",
+        "question": "在对比实验中，我们要保持相同的条件是（ ）。",
+        "options": [
+          "所有条件",
+          "研究因素以外的所有条件",
+          "研究因素本身",
+          "随意条件"
+        ],
+        "answer": "研究因素以外的所有条件",
+        "explanation": "单一变量原则是对比实验的核心。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生物关系",
+        "question": "以下属于生产者的是（ ）。",
+        "options": [
+          "真菌",
+          "兔子",
+          "水稻",
+          "蝗虫"
+        ],
+        "answer": "水稻",
+        "explanation": "生产者是能通过光合作用制造有机物的植物。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "生态瓶制作",
+        "question": "增加生态瓶中生物的数量，对非生物环境的要求会（ ）。",
+        "options": [
+          "变低",
+          "变高",
+          "没有变化",
+          "不确定"
+        ],
+        "answer": "变高",
+        "explanation": "生物越多，消耗的氧气和养料越多，对水体及空间的要求相应变高。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物生长",
+        "question": "绿豆芽的生长（ ）阳光。",
+        "options": [
+          "不需要",
+          "必须有",
+          "有没有都行",
+          "只在晚上需要"
+        ],
+        "answer": "必须有",
+        "explanation": "种子发芽不一定需要光，但长成幼苗后必须依靠光合作用制造养料。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "植物对环境选择",
+        "question": "香蕉生长在热带，叶子宽大是为了（ ）。",
+        "options": [
+          "收集阳光",
+          "蒸发水分",
+          "抵御寒冷",
+          "增加美观"
+        ],
+        "answer": "蒸发水分",
+        "explanation": "热带雨林水分充足，宽大的叶片有利于水分散失。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "食物网计算",
+        "question": "如果一个食物网由“草→兔→鹰”和“草→鼠→鹰”构成，此网中共有（ ）条食物链。",
+        "options": [],
+        "answer": "2",
+        "explanation": "草是起点，鹰是终点，共两条路径。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "实验周期",
+        "question": "播种绿豆种子后，如果条件适宜，通常在（ ）天左右种子会开始萌发。",
+        "options": [],
+        "answer": "3",
+        "explanation": "在温度适宜水分充足时，绿豆萌发非常快。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "光合作用产物",
+        "question": "植物进行光合作用的主要器官是（ ）。",
+        "options": [],
+        "answer": "叶",
+        "explanation": "叶片含有叶绿体，是光合作用的主要场所。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生态系统概念",
+        "question": "植物在生态系统中充当的角色被称为（ ）。",
+        "options": [],
+        "answer": "生产者",
+        "explanation": "由于植物能制造有机物，因此被称为生产者。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "动物适应性",
+        "question": "大雁、燕子等鸟类在迁徙时呈现出的季节性行为属于（ ）。",
+        "options": [],
+        "answer": "适应性",
+        "explanation": "生物通过特定的行为来适应外界环境的变化。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级下册科学第一单元质量评估卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "种子发芽条件",
+        "question": "种子萌发时不需要阳光，因为此时它主要消耗的是自身的养分。",
+        "options": [],
+        "answer": "对",
+        "explanation": "大多数种子发芽实验证明光照不是萌发的必要条件。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "生态系统平衡",
+        "question": "生态瓶里的水越多，里面的小鱼存活时间就越长。",
+        "options": [],
+        "answer": "对",
+        "explanation": "水越多，溶解氧总量相对越多，空间更广阔。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "食物网关系",
+        "question": "在复杂的食物网中，一种生物可能同时被多种生物捕食。",
+        "options": [],
+        "answer": "对",
+        "explanation": "食物网由于多种食物链交织而成，体现了生物关系的多样性。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "生物适应性",
+        "question": "企鹅的厚脂肪层是它在南极这种寒冷环境下生存的保障。",
+        "options": [],
+        "answer": "对",
+        "explanation": "形态结构与环境适应相统一。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "生态平衡",
+        "question": "在一个稳定的生态瓶中，消费者的数量应该超过生产者。",
+        "options": [],
+        "answer": "错",
+        "explanation": "生产者必须足够多才能支撑消费者的生存。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "变量控制",
+        "question": "在研究“水分对种子发芽的影响”实验中，最科学的做法是（ ）。",
+        "options": [
+          "一组浇水，一组不浇水",
+          "两组都浇水",
+          "一组放阳台，一组放阴暗处",
+          "一组加土，一组不加土"
+        ],
+        "answer": "一组浇水，一组不浇水",
+        "explanation": "对比实验需要唯一的自变量。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "植物生长需求",
+        "question": "植物进行光合作用不需要的条件是（ ）。",
+        "options": [
+          "阳光",
+          "二氧化碳",
+          "水",
+          "氧气"
+        ],
+        "answer": "氧气",
+        "explanation": "氧气是光合作用的产物而非原料。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "能量流向",
+        "question": "食物链中生物之间最主要的联系是（ ）。",
+        "options": [
+          "居住关系",
+          "亲缘关系",
+          "捕食关系",
+          "竞争关系"
+        ],
+        "answer": "捕食关系",
+        "explanation": "食物链描述的是吃与被吃的关系。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "适应行为",
+        "question": "北极狐的毛色在冬天会变成白色，主要作用是（ ）。",
+        "options": [
+          "防御和伪装",
+          "为了漂亮",
+          "吸收阳光",
+          "御寒保暖"
+        ],
+        "answer": "防御和伪装",
+        "explanation": "与雪地颜色一致有利于躲避天敌和捕食。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "生态平衡",
+        "question": "池塘生态系统中，若水生植物过度生长导致水面覆盖，最先受影响的是（ ）。",
+        "options": [
+          "微生物",
+          "底栖动物",
+          "捕食鸟类",
+          "大型哺乳动物"
+        ],
+        "answer": "底栖动物",
+        "explanation": "水面覆盖导致水下光照不足，溶氧降低，影响底层生物。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "蚯蚓习性",
+        "question": "在纸盒里铺上湿土和干土，将蚯蚓放在中间，能观察到它倾向于爬向（ ）。",
+        "options": [
+          "中间",
+          "湿土一边",
+          "干土一边",
+          "盒外"
+        ],
+        "answer": "湿土一边",
+        "explanation": "蚯蚓通过皮肤呼吸，需要湿润的环境。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "实验安全",
+        "question": "完成种子发芽实验后，废弃的种子和土壤应该（ ）。",
+        "options": [
+          "随手扔到窗外",
+          "倒入下水道",
+          "分类处理或放入校园植物箱",
+          "带回家煮食"
+        ],
+        "answer": "分类处理或放入校园植物箱",
+        "explanation": "体现科学实践后的环保精神。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "食物网结构",
+        "question": "在一个森林里，蛇吃老鼠，老鼠吃种子。如果蛇的数量剧减，老鼠会（ ）。",
+        "options": [
+          "一直增加",
+          "先增加后减少",
+          "马上灭绝",
+          "数量不变"
+        ],
+        "answer": "先增加后减少",
+        "explanation": "天敌减少引起种群爆发，随后引发食物链失衡导致种群回落。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物器官",
+        "question": "绿豆种子发芽时，最先突破种皮长出来的是（ ）。",
+        "options": [
+          "胚芽",
+          "胚根",
+          "子叶",
+          "真叶"
+        ],
+        "answer": "胚根",
+        "explanation": "植物发芽先扎根，便于吸收水分。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生态瓶组件",
+        "question": "在制作生态瓶时，下列（ ）是非生物环境。",
+        "options": [
+          "金鱼藻",
+          "泥鳅",
+          "水和砂石",
+          "螃蟹"
+        ],
+        "answer": "水和砂石",
+        "explanation": "水、阳光、沙石等属于无机环境（非生物）。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "变量控制",
+        "question": "某同学设计实验发现黑暗中的绿豆种子也能发芽，说明发芽（ ）阳光。",
+        "options": [
+          "必须有",
+          "不需要",
+          "有害于",
+          "只在白天需要"
+        ],
+        "answer": "不需要",
+        "explanation": "只要有发芽的，就说明这个条件不是必需的。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "植物适应性",
+        "question": "仙人掌的叶退化成刺状，主要是为了（ ）。",
+        "options": [
+          "防御敌人",
+          "增加美观",
+          "减少水分蒸腾",
+          "储存水分"
+        ],
+        "answer": "减少水分蒸腾",
+        "explanation": "干旱环境的适应特征。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "生态系统稳定性",
+        "question": "下面哪个生态系统最容易受到破坏？（ ）",
+        "options": [
+          "生物种类较多的原始森林",
+          "生物种类稀少的荒漠",
+          "物种丰富的热带雨林",
+          "池塘生态系统"
+        ],
+        "answer": "生物种类稀少的荒漠",
+        "explanation": "生物种类越少，食物网越简单，稳定性就越差。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "食物链提取",
+        "question": "在“草、兔、鹰、蛇、鼠”构成的网络中，如果所有动物只吃一种食物，则有（ ）条食物链。",
+        "options": [],
+        "answer": "2",
+        "explanation": "基础路径为草-兔-鹰（或蛇）等，该题强调单向性。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "温度条件",
+        "question": "多数常见种子的萌发最适宜温度大约在（ ）摄氏度左右。",
+        "options": [],
+        "answer": "25",
+        "explanation": "温暖的环境利于生命活动。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "科学术语",
+        "question": "动物由于季节变化而改变居住地的行为叫（ ）。",
+        "options": [],
+        "answer": "迁徙",
+        "explanation": "典型的适应季节变化的行为。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "捕食者概念",
+        "question": "在食物链中，不能自己制造食物的生物被称为（ ）。",
+        "options": [],
+        "answer": "消费者",
+        "explanation": "动物直接或间接以植物为食，属于消费者。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "生态平衡",
+        "question": "若长期不换水，生态瓶内的鱼会因缺（ ）而浮头。",
+        "options": [],
+        "answer": "氧气",
+        "explanation": "水中溶解氧主要来自植物光合作用和空气接触。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "种子发芽实验",
+      "core_concept": "对照实验是验证科学假设的重要方法。",
+      "key_formula": "对比实验原则：只有一个变量不同，其余条件均保持不变。",
+      "common_mistakes": [
+        "每组只放一颗种子",
+        "无法区分变量（如同时改变水和阳光）"
+      ],
+      "tips": "设置多粒种子可以降低实验的随机误差。"
+    },
+    {
+      "point": "植物的生长",
+      "core_concept": "植物生长需要阳光进行光合作用。",
+      "key_formula": "二氧化碳 + 水 + 阳光 → 养料 + 氧气。",
+      "common_mistakes": [
+        "认为发芽需要阳光",
+        "混淆呼吸作用和光合作用"
+      ],
+      "tips": "注意：发芽不需要光，但幼苗长高叶绿需要光。"
+    },
+    {
+      "point": "动物选择环境",
+      "core_concept": "动物具有对适宜生存环境的选择偏向性。",
+      "key_formula": "生物形态结构 + 行为习惯 = 适应环境。",
+      "common_mistakes": [
+        "认为蚯蚓喜欢明亮处",
+        "忽视干土和湿土的对比"
+      ],
+      "tips": "蚯蚓的粘液皮肤决定了它必须生活在潮湿处以利于呼吸。"
+    },
+    {
+      "point": "食物链和食物网",
+      "core_concept": "生物之间通过食物关系构成的能量传递链条。",
+      "key_formula": "生产者 → 消费者1 → 消费者2...",
+      "common_mistakes": [
+        "将阳光画入食物链",
+        "将箭头指向被吃的生物"
+      ],
+      "tips": "记住：箭头是指向“进嘴”的方向，代表能量流动。"
+    },
+    {
+      "point": "生态系统",
+      "core_concept": "群落与其环境相互作用形成的统一整体。",
+      "key_formula": "生态系统 = 生物成分（生产/消费/分解者）+ 非生物成分（水/光/空气等）。",
+      "common_mistakes": [
+        "认为生态瓶里鱼越多越好",
+        "认为只有活的生物才是生态系统的组成部分"
+      ],
+      "tips": "保持生态系统多样性能增强其自我调节的能力。"
+    }
+  ]
+}

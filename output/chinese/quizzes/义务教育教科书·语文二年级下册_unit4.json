@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文二年级下册",
+  "unit": "第四单元：童心与想象",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元 综合素质评价",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "全包围与三面包围结构书写规范",
+        "question": "“国”和“团”这两个字在书写时都要遵循“先里头后封口”的笔顺规则。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据汉字笔顺规则，全包围结构的字（如国、团）应先写外框，再写里面，最后封口。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "基于时间顺序的绘本叙事写话",
+        "question": "“过了一会儿”这个词语表示的时间间隔通常是非常长的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“过了一会儿”表示时间过去得并不久，属于较短的时间间隔。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "在诗歌《彩色的梦》中，彩色铅笔被想象成了大森林的小精灵。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文将彩色铅笔拟人化，赋予它们生命，在白纸上跳舞，如同精灵。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "《枫树上的喜鹊》中，“我”能听懂喜鹊阿姨和喜鹊弟弟的语言。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文中“我”通过观察和想象，理解了喜鹊一家的对话和情感。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "全包围与三面包围结构书写规范",
+        "question": "“匹”字在书写时，最后一笔是“竖折”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“匹”是三面包围结构，书写顺序是先撇、后横、再写儿，最后写外框的竖折。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语中，描写心情“非常生气”的是哪一个？",
+        "options": [
+          "喜出望外",
+          "垂头丧气",
+          "愤怒不已",
+          "兴高采烈"
+        ],
+        "answer": "愤怒不已",
+        "explanation": "“愤怒”表示非常生气，而“喜出望外”和“兴高采烈”表示开心，“垂头丧气”表示失望或丧气。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "中性词与褒贬义辨析",
+        "question": "读句子：阿姨（    ）地摸了摸我的头。横线处填哪一个词最合适？",
+        "options": [
+          "凶狠",
+          "亲切",
+          "愤怒",
+          "悲伤"
+        ],
+        "answer": "亲切",
+        "explanation": "根据生活情境，“摸头”通常表示关爱，应选褒义词“亲切”。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "《彩色的梦》中，彩色铅笔滑过的地方有什么？",
+        "options": [
+          "大火与烟雾",
+          "红旗与喇叭",
+          "大块的草坪",
+          "蓝色的房屋"
+        ],
+        "answer": "大块的草坪",
+        "explanation": "原文描述为“脚尖滑过的地方，大块的草坪，绿了”。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "喜鹊弟弟在说：‘鹊！鹊！鹊！’这句话中的‘！’表达了什么？",
+        "options": [
+          "疑惑的语气",
+          "欢快或强烈的情感",
+          "平淡的陈述",
+          "句子的中断"
+        ],
+        "answer": "欢快或强烈的情感",
+        "explanation": "感叹号用于表达强烈的情感，在这里体现了小喜鹊的活力与快乐。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "阅读：‘沙滩上的小城堡里，住着一位美丽的公主。’这描写运用了什么？",
+        "options": [
+          "夸张",
+          "拟人",
+          "想象",
+          "排比"
+        ],
+        "answer": "想象",
+        "explanation": "学生在沙滩玩耍时，通过联想创造出城堡中住着公主的情境，这属于想象。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字读音选择",
+        "question": "下面句子中“量”字的读音与其它三项不同的是？",
+        "options": [
+          "称量重量",
+          "降雨量",
+          "力量",
+          "胆量"
+        ],
+        "answer": "称量重量",
+        "explanation": "在“称量”中读liáng（动词），其余三项中读liàng（名词）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "近义词辨析",
+        "question": "‘我的彩色铅笔，是大森林的精灵。’中‘精灵’可以换成？",
+        "options": [
+          "怪物",
+          "神仙",
+          "使者",
+          "灵精"
+        ],
+        "answer": "使者",
+        "explanation": "“精灵”在文中具有拟人色彩，指带有灵性的生命体，与“使者”语境最贴近。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "阅读：‘清晨，阳光叫醒了森林，喜鹊阿姨带着小喜鹊在树下做操。’这段话谁是主角？",
+        "options": [
+          "太阳",
+          "大树",
+          "喜鹊",
+          "操场"
+        ],
+        "answer": "喜鹊",
+        "explanation": "通过拟人描写，突出了喜鹊阿姨带着小喜鹊晨练的过程。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "全包围与三面包围结构书写规范",
+        "question": "下面哪一个字的结构与“周”字相同？",
+        "options": [
+          "匹",
+          "圆",
+          "因",
+          "向"
+        ],
+        "answer": "向",
+        "explanation": "“周”和“向”都是三面包围结构（上左右包围）。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "基于时间顺序的绘本叙事写话",
+        "question": "在描述小虫子一天的故事时，接在‘早上’后面的词语通常应该是？",
+        "options": [
+          "昨天",
+          "很久以前",
+          "过了一会儿",
+          "去年"
+        ],
+        "answer": "过了一会儿",
+        "explanation": "“过了一会儿”是表示时间流逝的过渡词，适合描述一天内的连续动作。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "《沙滩上的童话》中，大家一起商量去抢救被魔王抢走的（____）。",
+        "options": [],
+        "answer": "公主",
+        "explanation": "课文描述小朋友们在沙滩编故事，城堡里住着公主，被魔王抢走了。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "全包围与三面包围结构书写规范",
+        "question": "“国”字的部首是（____）。",
+        "options": [],
+        "answer": "囗",
+        "explanation": "“国”是全包围结构，部首是“大口框”，即“囗”。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "基于时间顺序的绘本叙事写话",
+        "question": "表示天快黑了的时间词语是（____）。",
+        "options": [],
+        "answer": "傍晚",
+        "explanation": "“傍晚”指临近晚上的时候，符合语义。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "请将颜色名与它们的代表词语连接起来。",
+        "options": [
+          "碧",
+          "火",
+          "葱",
+          "雪",
+          "红",
+          "绿",
+          "白",
+          "青"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "碧绿，火红，葱郁（青色），雪白。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "请将《彩色的梦》中的事物与它们变化的颜色连线。",
+        "options": [
+          "草坪",
+          "野花",
+          "天空",
+          "森林",
+          "红了",
+          "蓝了",
+          "绿了",
+          "郁郁葱葱"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "原文：草坪绿了，野花红了，天空蓝了，森林郁郁葱葱。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "全包围与三面包围结构书写规范",
+        "question": "请根据汉字的结构类型进行分类连线。",
+        "options": [
+          "团",
+          "巨",
+          "底",
+          "冈",
+          "全包围结构",
+          "三面包围左下",
+          "三面包围左上",
+          "三面包围上左右"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "团是全包围，巨是左下三面包围，底是左上三面包围，冈是上左右三面包围。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "基于时间顺序的绘本叙事写话",
+        "question": "将下列词语排列成一句描述时间顺序的句子。",
+        "options": [
+          "四只小虫子",
+          "早上",
+          "发现",
+          "一个鸡蛋壳",
+          "在草地上"
+        ],
+        "answer": "早上,四只小虫子,在草地上,发现,一个鸡蛋壳",
+        "explanation": "句子的时间语通常放在句首，接着是主语、地点、动作、对象。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "把这些词语连成一句富有想象力的拟人句。",
+        "options": [
+          "在雪地上",
+          "跳起了",
+          "美丽的",
+          "梅花姑娘",
+          "迪斯科"
+        ],
+        "answer": "梅花姑娘,在雪地上,跳起了,美丽的,迪斯科",
+        "explanation": "本句运用拟人修辞，主语是梅花姑娘，动作是跳舞。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "二年级下学期第四单元 期末质量抽测",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "《沙滩上的童话》中，孩子们炸碎魔王城堡的方法是真的用炸药。",
+        "options": [],
+        "answer": "错",
+        "explanation": "孩子们是在沙滩上通过挖隧道和想象出的对话完成的“炸城堡”，是游戏的想象。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "全包围与三面包围结构书写规范",
+        "question": "“区”字的笔顺是先写横，再写里面的“乂”，最后写竖折。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“区”是左三面包围，应先上后内再左下。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "“寻觅”和“寻找”意思相近，都可以表示找东西。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这两者是近义词，都包含找寻的动作。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "基于时间顺序的绘本叙事写话",
+        "question": "“到了下午”通常意味着故事中的事件已经过了一大半时间。",
+        "options": [],
+        "answer": "对",
+        "explanation": "由于绘本叙事通常描写一天，下午属于时间进程的中后期。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "拟人化意象的创作 with 联想",
+        "question": "在诗歌创作中，只要是想象出来的东西，就不需要符合逻辑。",
+        "options": [],
+        "answer": "错",
+        "explanation": "诗歌想象虽然大胆，但往往基于事物的某种相似性或情感逻辑（如彩色铅笔的头联想到草地变绿）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "全包围与三面包围结构书写规范",
+        "question": "书感规范中，写“圆”字的时候，整体形状应该是？",
+        "options": [
+          "扁扁的",
+          "长长的",
+          "方方正正的",
+          "歪斜的"
+        ],
+        "answer": "方方正正的",
+        "explanation": "全包围结构的外框（囗）书写要点是方正、平稳。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "下面词语中用来形容“声音很大”的是？",
+        "options": [
+          "雷声大作",
+          "风平浪静",
+          "悄无声息",
+          "自言自语"
+        ],
+        "answer": "雷声大作",
+        "explanation": "“雷声大作”形容声音震耳欲聋。而“悄无声息”表示没有声音。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "《我是一只小虫子》中，‘我’为什么觉得当一只小虫子还真不错？",
+        "options": [
+          "因为可以永远不用上学",
+          "因为可以在草叶上伸懒腰，用露珠洗脸",
+          "因为身体很小不会被发现",
+          "因为可以飞向月亮"
+        ],
+        "answer": "因为可以在草叶上伸懒腰，用露珠洗脸",
+        "explanation": "文中通过细节描写展现了虫子生活的悠闲与快乐。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "基于时间顺序的绘本叙事写话",
+        "question": "如果我们要写一个小种子长大的过程，词语排列最合理的一组是？",
+        "options": [
+          "秋天-冬天-春天",
+          "春天-秋天-夏天",
+          "冬天-秋天-春天",
+          "下午-早上-中午"
+        ],
+        "answer": "秋天-冬天-春天",
+        "explanation": "虽然植物多春天发芽，但此组选项中只有A满足时间的正序流动。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "‘天上的云像一团棉花，软绵绵的。’这句话用了什么修辞手法？",
+        "options": [
+          "拟人",
+          "排比",
+          "比喻",
+          "夸张"
+        ],
+        "answer": "比喻",
+        "explanation": "句子中出现了比喻词“像”，将云比作棉花。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "理解阅读",
+        "question": "阅读：‘如果你在夜晚听见草丛里有细细的歌声，那一定是蟋蟀在开音乐会。’这句话表达了作者？",
+        "options": [
+          "对蟋蟀的讨厌",
+          "害怕漆黑的夜晚",
+          "对大自然的喜爱和想象",
+          "想去抓蟋蟀的想法"
+        ],
+        "answer": "对大自然的喜爱和想象",
+        "explanation": "作者将蟋蟀的叫声比作音乐会，体现了对生命世界的温情联想。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "近义词反义词选择",
+        "question": "与“干净”意思相反的词语是？",
+        "options": [
+          "整洁",
+          "明亮",
+          "肮脏",
+          "新鲜"
+        ],
+        "answer": "肮脏",
+        "explanation": "干净指没有尘土杂质，肮脏指不洁净，是一对反义词。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "多音字读音选择",
+        "question": "‘这件事（    ）非同小可。’括号里应填入词语及读音正确的是？",
+        "options": [
+          "确实 què",
+          "确实 qiè",
+          "结实 jiē",
+          "结实 jié"
+        ],
+        "answer": "确实 què",
+        "explanation": "“确”的读音是què，表示真实、实在。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式转换正误判断",
+        "question": "把‘魔王抢走了公主。’改成‘被’字句，正确的是？",
+        "options": [
+          "被魔王抢走了公主。",
+          "公主被魔王抢走了。",
+          "魔王被公主抢走了。",
+          "公主被我抢走了。"
+        ],
+        "answer": "公主被魔王抢走了。",
+        "explanation": "“被”字句由承受动作的人或物做主语。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "‘小手一挥，大山就长高了。’这里运用了什么方法？",
+        "options": [
+          "真实描写",
+          "夸张想象",
+          "讲道理",
+          "写日记"
+        ],
+        "answer": "夸张想象",
+        "explanation": "将人的动作与自然界巨变联想在一起，是属于儿童画式的夸张想象。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "形容天空中没有一片云彩，我们可以说天气是（____）。",
+        "options": [],
+        "answer": "晴空万里",
+        "explanation": "晴空万里形容天气清爽，视野开阔。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "《我是一只小虫子》中，作者认为“当一只小虫子，还真（____）。”",
+        "options": [],
+        "answer": "不错",
+        "explanation": "这是课文的中心句，表达了乐观的情感。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "全包围与三面包围结构书写规范",
+        "question": "“匹、区、巨”这三个字都是（____）结构的字。",
+        "options": [],
+        "answer": "半包围",
+        "explanation": "三面包围属于半包围结构的一种。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "请根据课文内容连线意象与动作。",
+        "options": [
+          "枫树",
+          "彩色梦",
+          "魔王",
+          "喜鹊",
+          "住进了城堡",
+          "站在山冈",
+          "在纸上跳舞",
+          "在树头唱歌"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "枫树在课文中像一把大伞立在山冈，彩色铅笔（梦）在纸上画图，魔王住城堡，喜鹊唱歌。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "请将意思相反的词语练习起来。",
+        "options": [
+          "赞赏",
+          "喜欢",
+          "灵活",
+          "快乐",
+          "迟钝",
+          "伤心",
+          "讨厌",
+          "批评"
+        ],
+        "answer": "A-4,B-3,C-1,D-2",
+        "explanation": "赞赏-批评；喜欢-讨厌；灵活-迟钝；快乐-伤心。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "给下列拟人句寻找合适的“主人公”。",
+        "options": [
+          "对着太阳公公点头",
+          "在风中飞舞",
+          "悄悄躲进了云层",
+          "调皮地眨眼睛",
+          "月亮",
+          "星星",
+          "小草",
+          "落叶"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "通过动作特征进行合理想象匹配。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "基于时间顺序的绘本叙事写话",
+        "question": "请按照时间流逝的顺序排列这句话。",
+        "options": [
+          "太阳",
+          "到了中午",
+          "躲进",
+          "云层里去了",
+          "变得火辣辣"
+        ],
+        "answer": "到了中午,太阳,变得火辣辣,躲进,云层里去了",
+        "explanation": "时间+主语+第一动作+第二动作的逻辑排列。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "拟人化意象的创作与联想",
+        "question": "请将描写大森林梦境的词语连成句子。",
+        "options": [
+          "大森林的",
+          "雪松们",
+          "拉着手",
+          "在微风中",
+          "快乐地跳舞"
+        ],
+        "answer": "大森林的,雪松们,在微风中,拉着手,快乐地跳舞",
+        "explanation": "这是一个拟人句，修饰语在前，动词在后。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "拟人化意象的创作与联想",
+      "core_concept": "这是童话文学的核心。要求学生观察事物的特点（如形状、声音），并联想到人的行为动作。例如，看到彩色铅笔细长的笔头在白纸上移动，联想到“它们在跳舞”；看到枫树茂盛，联想到它像“大伞”。这种联想能赋予死物以生命力，是低年级学生想象力培养的关键。",
+      "key_formula": "事物具体特征 + 人的典型动作 = 活灵活现的拟人句",
+      "common_mistakes": [
+        "想象脱离现实，如让石头飞上天但没有合理解释",
+        "只写动作但不使用拟人化词语，导致句子干瘪"
+      ],
+      "tips": "观察时试着问自己：这个东西长得像谁？它发出的声音像在说什么悄悄话？"
+    },
+    {
+      "point": "基于时间顺序的绘本叙事写话",
+      "core_concept": "通过时间词连接一系列动作，使故事具有逻辑性和连贯性。重点掌握“早上、过了一会儿、到了中午、下午、太阳落山了”等表示时间流逝的关键词。这不仅是写话技巧，更是逻辑思维的训练，要求学生在描述鸡蛋壳的一日活动时，动作要符合时间的发展节奏。",
+      "key_formula": "时间词 + 谁 + 在干什么 + 结果如何",
+      "common_mistakes": [
+        "时间词乱序，如先写下午再写早上",
+        "缺乏过渡词，导致句子与句子之间断裂严重"
+      ],
+      "tips": "可以先画一个“时间轴”，在轴上标出关键点，再把动作填进去。"
+    },
+    {
+      "point": "全包围与三面包围结构书写规范",
+      "core_concept": "掌握汉字的间架结构。全包围字（如“国、圆”）讲究“封口”笔顺，即“先里头后封口”；三面包围（如“匹、区”）则要注意包围部分的均匀和稳定。书写时不仅要关注笔画，更要关注内部空间与外框的大小比例，做到“外框方正，内件匀称”。",
+      "key_formula": "全包围：先里再封。三面包围：看准缺口，笔顺先行。",
+      "common_mistakes": [
+        "“国”字先封口再写里面（由于不熟悉笔顺）",
+        "“匹”字的末笔写成竖，而不是竖折"
+      ],
+      "tips": "记住口诀：全包围，最后封；三面包围看仔细，左下包围最后框。"
+    }
+  ]
+}

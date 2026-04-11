@@ -1,0 +1,697 @@
+{
+  "textbook": "教科版小学科学六年级下册",
+  "unit": "物质的变化",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "单元基础巩固测验",
+    "total_score": 100,
+    "time_minutes": 45,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "蜡烛熔化过程中没有新物质生成。",
+        "options": [],
+        "answer": "对",
+        "explanation": "蜡烛熔化只是由固态变为液态，状态改变，没有新物质产生，属于物理变化。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "化学变化一定伴随发光发热现象。",
+        "options": [],
+        "answer": "错",
+        "explanation": "有些化学变化不发光发热，如铁生锈；有些物理变化发光发热，如电灯发光。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "生命体与地球家园中的化学变化",
+        "question": "植物进行光合作用获取营养物质属于化学变化。",
+        "options": [],
+        "answer": "对",
+        "explanation": "光合作用将水和二氧化碳合成为有机物并释放氧气，有新物质产生。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "化学变化与环境治理",
+        "question": "二氧化碳的大量排放是导致温室效应的主要原因。",
+        "options": [],
+        "answer": "对",
+        "explanation": "二氧化碳是主要的温室气体，过量排放会导致全球变暖。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "铁锅生锈后，生锈的部分依然是铁。",
+        "options": [],
+        "answer": "错",
+        "explanation": "铁锈是一种不同于铁的新物质，具有不同的物理和化学性质。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "下列变化中，属于物理变化的是（）。",
+        "options": [
+          "火柴燃烧",
+          "剪碎纸片",
+          "米饭变馊",
+          "铁钉生锈"
+        ],
+        "answer": "剪碎纸片",
+        "explanation": "剪碎纸片只改变了纸的大小和形状，没有产生新物质。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "向米饭上滴碘酒，观察到颜色变成了（）。",
+        "options": [
+          "红色",
+          "绿色",
+          "黄色",
+          "蓝色"
+        ],
+        "answer": "蓝色",
+        "explanation": "淀粉遇到碘酒会发生化学变化，产生蓝色的新物质。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "区分物理变化和化学变化的根本依据是（）。",
+        "options": [
+          "是否改变颜色",
+          "是否发光发热",
+          "是否产生新物质",
+          "是否由快变慢"
+        ],
+        "answer": "是否产生新物质",
+        "explanation": "化学变化的本质特征是有新物质生成。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "小苏打和白醋混合后产生的气体能让燃着的木条熄灭，这种气体是（）。",
+        "options": [
+          "氧气",
+          "氢气",
+          "二氧化碳",
+          "空气"
+        ],
+        "answer": "二氧化碳",
+        "explanation": "小苏打与白醋反应生成的二氧化碳不支持燃烧。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生命体与地球家园中的化学变化",
+        "question": "我们咀嚼米饭时感受到的甜味是因为米饭中的淀粉变成了（）。",
+        "options": [
+          "蔗糖",
+          "麦芽糖",
+          "盐",
+          "味精"
+        ],
+        "answer": "麦芽糖",
+        "explanation": "唾液淀粉酶将淀粉分解为麦芽糖，这属于化学变化。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "化学变化与环境治理",
+        "question": "为了减少白色污染，下列做法错误的是（）。",
+        "options": [
+          "使用布袋购物",
+          "回收废弃塑料",
+          "研发生物分解塑料",
+          "随地焚烧塑料袋"
+        ],
+        "answer": "随地焚烧塑料袋",
+        "explanation": "焚烧塑料产生有毒气体污染空气，不符合环保要求。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生命体与地球家园中的化学变化",
+        "question": "煤、石油等化石能源在地底下的形成过程属于（）。",
+        "options": [
+          "物理变化",
+          "化学变化",
+          "形态变化",
+          "简单蒸发"
+        ],
+        "answer": "化学变化",
+        "explanation": "动植物遗骸经过漫长的化学反应转化成化石封存的能源。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "将蜡烛点燃，主要伴随的现象是（）。",
+        "options": [
+          "产生气体",
+          "发光发热",
+          "变透明",
+          "体积变大"
+        ],
+        "answer": "发光发热",
+        "explanation": "蜡烛燃烧是典型的化学变化，伴随剧烈的发光发热。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "硫酸铜溶液与铁钉反应，铁钉表面会出现（）。",
+        "options": [
+          "白色粉末",
+          "绿色液体",
+          "红色物质",
+          "蓝色晶体"
+        ],
+        "answer": "红色物质",
+        "explanation": "铁置换出硫酸铜中的铜，在铁钉表面附着红色铜单质。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "化学变化与环境治理",
+        "question": "目前我们使用最广泛的清洁能源不包括（）。",
+        "options": [
+          "太阳能",
+          "风能",
+          "煤炭",
+          "水能"
+        ],
+        "answer": "煤炭",
+        "explanation": "煤炭属于传统化石能源，燃烧产生污染。其余为清洁能源。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "生命体与地球家园中的化学变化",
+        "question": "人体吸收营养的主要过程涉及（）。",
+        "options": [
+          "只有物理变化",
+          "只有化学变化",
+          "物理变化和化学变化",
+          "都没有"
+        ],
+        "answer": "物理变化和化学变化",
+        "explanation": "磨碎食物是物理变化，消化酶分解食物是化学变化。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "下列关于铁生锈的说法，正确的是（）。",
+        "options": [
+          "铁生锈只需要水",
+          "铁生锈只需要空气",
+          "水和空气共同作用",
+          "铁锈能导电"
+        ],
+        "answer": "水和空气共同作用",
+        "explanation": "铁在有水和空气（氧气）的环境下最容易生锈。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "把紫甘蓝液滴在白醋中，白醋显现出的颜色通常是（）。",
+        "options": [
+          "蓝色",
+          "红色",
+          "绿色",
+          "黄色"
+        ],
+        "answer": "红色",
+        "explanation": "紫甘蓝汁作为酸碱指示剂，遇到酸性的白醋会变红色。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "在实验室中，通常将（___）个大气压下的标准环境作为实验基准。",
+        "options": [],
+        "answer": "1",
+        "explanation": "标准大气压通常定义为1个。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "化学变化与环境治理",
+        "question": "我国力争在2030年前实现碳达峰，在（___）年前实现碳中和。",
+        "options": [],
+        "answer": "2060",
+        "explanation": "这是我国向世界做出的关于应对气候变化的庄严承诺。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "物质发生化学变化时，往往伴随着（___）的产生。",
+        "options": [],
+        "answer": "新物质",
+        "explanation": "化学变化的唯一判据就是有无新物质生成。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生命体与地球家园中的化学变化",
+        "question": "绿色植物利用太阳能把水和二氧化碳转化为氧气和（___）。",
+        "options": [],
+        "answer": "养料",
+        "explanation": "光合作用产生有机物，通常在小学阶段表述为养料或淀粉。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "小苏打和白醋反应后的液体，其主要成分是（___）。",
+        "options": [],
+        "answer": "醋酸钠",
+        "explanation": "小苏打与白醋（醋酸）反应生成醋酸钠、水和二氧化碳。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "期末综合能力评估",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "所有物理变化过程中，分子的种类都没有改变。",
+        "options": [],
+        "answer": "对",
+        "explanation": "物理变化只是分子间距或排列改变，分子本身性质不变。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "只要物质发生了颜色变化，就一定属于化学变化。",
+        "options": [],
+        "answer": "错",
+        "explanation": "例如颜料混合改变颜色，属于物理变化。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "生命体与地球家园中的化学变化",
+        "question": "情绪的变化也与人体内的化学变化有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "情绪受激素和神经递质调节，这些物质的生成和代谢属于化学变化。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "化学变化与环境治理",
+        "question": "通过化学技术可以将生活垃圾转化为有用的资源。",
+        "options": [],
+        "answer": "对",
+        "explanation": "如焚烧发电、生物降解产沼气等都是利用化学变化处理垃圾。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "物质发生化学变化的同时，往往也伴随着物理变化。",
+        "options": [],
+        "answer": "对",
+        "explanation": "例如蜡烛燃烧时，蜡烛先受热熔化（物理），再燃烧（化学）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "用泥土烧制陶瓷的过程属于（）。",
+        "options": [
+          "物理变化",
+          "化学变化",
+          "形状变化",
+          "位置变化"
+        ],
+        "answer": "化学变化",
+        "explanation": "泥土在高温下成分发生了改变，生成了坚硬的陶瓷。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "在观察铁钉生锈实验中，我们将铁钉一半浸入水里一半露在空气中，是为了（）。",
+        "options": [
+          "节约实验用水",
+          "对比水和空气的影响",
+          "加速生锈过程",
+          "观察生锈的颜色"
+        ],
+        "answer": "对比水和空气的影响",
+        "explanation": "这样可以观察到铁钉在水、空气交界处生锈最为严重。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生命体与地球家园中的化学变化",
+        "question": "我们每天呼吸需要消耗（）。",
+        "options": [
+          "二氧化碳",
+          "氮气",
+          "氧气",
+          "稀有气体"
+        ],
+        "answer": "氧气",
+        "explanation": "人体呼吸作用消耗氧气氧化分解养料，产生能量。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "下列工艺制作过程中，发生了化学变化的是（）。",
+        "options": [
+          "磨碎豆浆",
+          "酿造黄酒",
+          "纺织棉布",
+          "雕刻木像"
+        ],
+        "answer": "酿造黄酒",
+        "explanation": "酿酒涉及微生物发酵，使淀粉转化为酒精，是化学变化。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "化学变化与环境治理",
+        "question": "为了保护大气环境，我们提倡（）。",
+        "options": [
+          "燃放烟花爆竹",
+          "开私家车出行",
+          "乘坐公共交通",
+          "增加燃煤发电"
+        ],
+        "answer": "乘坐公共交通",
+        "explanation": "公共出行可以减少废气排放，保护环境。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "把白醋滴在紫甘蓝叶片上，颜色会变红色。这说明白醋是（）。",
+        "options": [
+          "甜的",
+          "咸的",
+          "酸性的",
+          "碱性的"
+        ],
+        "answer": "酸性的",
+        "explanation": "酸性物质能使花青素（紫甘蓝成分）变红。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生命体与地球家园中的化学变化",
+        "question": "下列自然现象中，包含着化学变化的是（）。",
+        "options": [
+          "冰雪融化",
+          "海水晒盐",
+          "水滴石穿",
+          "酸雨腐蚀"
+        ],
+        "answer": "酸雨腐蚀",
+        "explanation": "酸雨与建筑物发生化学反应导致损毁。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "厨房里的下列操作中，属于物理变化的是（）。",
+        "options": [
+          "洗菜",
+          "炒菜",
+          "发酵面粉",
+          "煤气燃烧"
+        ],
+        "answer": "洗菜",
+        "explanation": "洗菜只是去除污垢，没有产生新物质。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "化学变化与环境治理",
+        "question": "下列关于二氧化碳的说法，错误的是（）。",
+        "options": [
+          "二氧化碳不支持燃烧",
+          "二氧化碳是光合作用的原料",
+          "二氧化碳越多对地球越好",
+          "干冰是固态二氧化碳"
+        ],
+        "answer": "二氧化碳越多对地球越好",
+        "explanation": "适量的二氧化碳支持生命，但过量会导致严重的温室效应。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "关于硫酸铜溶液与铁钉的反应，叙述错误的是（）。",
+        "options": [
+          "属于化学变化",
+          "溶液颜色会变浅",
+          "会产生大量气泡",
+          "铁钉上有铜析出"
+        ],
+        "answer": "会产生大量气泡",
+        "explanation": "该反应主要表现为颜色变化和沉淀生成，不产生气泡。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "下列物质中，不属于铁生锈后的产物铁锈的是（）。",
+        "options": [
+          "棕红色的物质",
+          "能被磁铁吸引的物质",
+          "粗糙的物质",
+          "质地疏松的物质"
+        ],
+        "answer": "能被磁铁吸引的物质",
+        "explanation": "铁锈不能被磁铁吸引，这是它与铁的区别之一。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "生命体与地球家园中的化学变化",
+        "question": "地球家园中的“能量宝库”煤炭，其能量最初来源于（）。",
+        "options": [
+          "地热能",
+          "太阳能",
+          "水能",
+          "风能"
+        ],
+        "answer": "太阳能",
+        "explanation": "煤炭是古代植物储存的太阳能。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "化学变化与环境治理",
+        "question": "保护环境的“分类投放”主要是针对（）。",
+        "options": [
+          "空气",
+          "土壤",
+          "噪声",
+          "垃圾"
+        ],
+        "answer": "垃圾",
+        "explanation": "垃圾分类是为了资源化和减少污染。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "生命体与地球家园中的化学变化",
+        "question": "正常人的体温约为（___）摄氏度。",
+        "options": [],
+        "answer": "37",
+        "explanation": "人体通过化学反应维持恒定体温。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "在观察小苏打和白醋反应的实验中，混合两者的比例通常为（___）比一（体积比）。",
+        "options": [],
+        "answer": "3",
+        "explanation": "教材建议常用比例大致为3份醋对1份小苏打。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "物理变化与化学变化的本质辨析",
+        "question": "铁生锈的必要条件是空气和（___）。",
+        "options": [],
+        "answer": "水",
+        "explanation": "铁在潮湿空气中（同时存在水和氧气）极易生锈。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "化学变化中伴随的典型现象",
+        "question": "蜡烛燃烧时产生的新物质主要是二氧化碳和（___）。",
+        "options": [],
+        "answer": "水",
+        "explanation": "蜡烛是有机物，燃烧生成二氧化碳和水蒸气。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "化学变化与环境治理",
+        "question": "为应对气候变化，目前全球大力推发的机动车能源是（___）。",
+        "options": [],
+        "answer": "电力",
+        "explanation": "电动汽车是目前减少碳排放的主要交通工具解决方案。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "物理变化与化学变化的辨析",
+      "core_concept": "变化过程中是否有新物质生成。",
+      "key_formula": "物质的化学性质未变 = 物理变化；产生了新分子 = 化学变化。",
+      "common_mistakes": [
+        "误以为颜色改变、发光发热就一定是化学变化（如灯泡发光、调色盘混色）",
+        "忽略了某些细微的变化过程"
+      ],
+      "tips": "判断时一定要想：最后的东西还是不是原来的东西？"
+    },
+    {
+      "point": "化学变化常伴随的现象",
+      "core_concept": "颜色变化、产生气体、产生沉淀、发光发热。",
+      "key_formula": "现象是观察变化的线索，但不是判断标准。",
+      "common_mistakes": [
+        "将“水沸腾产生气泡”当做化学变化",
+        "将硫酸铜与铁钉反应中的红色固体当成铁锈"
+      ],
+      "tips": "记住特定反应的特征，如淀粉+碘=蓝色，小苏打+醋=产生二氧化碳。"
+    },
+    {
+      "point": "生命体与环境中的化学变化",
+      "core_concept": "化学变化是生命活动和资源形成的基石。",
+      "key_formula": "光合作用：二氧化碳 + 水 + 光能 → 氧气 + 养料。",
+      "common_mistakes": [
+        "认为身体的成长只是简单的堆叠（实际上是复杂的合成）",
+        "忽略了化石能源的不可再生性"
+      ],
+      "tips": "我们的身体就是一个不停运转的微型“化学工厂”。"
+    },
+    {
+      "point": "化学变化与环境",
+      "core_concept": "辩证看待化学影响，发展绿色技术。",
+      "key_formula": "温室效应主要归结于二氧化碳过度排放。",
+      "common_mistakes": [
+        "认为化学物质都是有害的",
+        "混淆二氧化碳和有毒的一氧化碳"
+      ],
+      "tips": "保护环境需减少化石燃料，开发如氢能、太阳能等清洁能源。"
+    }
+  ]
+}

@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学一年级上册",
+  "unit": "11~20各数的认识",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第6单元：11~20各数的认识 单元测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "1个十和8个一合起来是18。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1个十提供十位上的1，8个一提供个位上的8，合起来是18。验算：$10 + 8 = 18$。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "计数单位“十”与数位认识",
+        "question": "从右边起，第一位是个位，第二位是十位。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据数位顺序表，右起第一位是个位，第二位是十位。这是基础定义说明。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "14前面的数是15。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在数序中，14的前面是13，15是在14的后面。验算：$14 - 1 = 13$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "计数单位“十”与数位认识",
+        "question": "2个十是20。",
+        "options": [],
+        "answer": "对",
+        "explanation": "1个十是10，2个十就是 $10 + 10 = 20$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "计算 $12 + 5$ 时，可以先算 $2 + 5 = 7$，再算 $10 + 7 = 17$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "计算十几加几时，通常把个位上的数相加，再加上十。$2 + 5 = 7，10 + 7 = 17$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "与 15 相邻的两个数是：",
+        "options": [
+          "14 和 16",
+          "13 和 14",
+          "16 和 17",
+          "14 和 15"
+        ],
+        "answer": "14 和 16",
+        "explanation": "相邻数是指比它少1和多1的数。$15 - 1 = 14$，$15 + 1 = 16$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "计数单位“十”与数位认识",
+        "question": "十位上是 1，个位上是 5，这个数是：",
+        "options": [
+          "51",
+          "15",
+          "11",
+          "5"
+        ],
+        "answer": "15",
+        "explanation": "十位是1表示1个十，个位是5表示5个一，组合起来是15。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "12 和 17 之间有几个数？",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "answer": "4",
+        "explanation": "12和17之间的数包括：13, 14, 15, 16。共4个。验算：$17 - 12 - 1 = 4$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "小明有 10 支铅笔，妈妈又买来 3 支，一共有多少支？",
+        "options": [
+          "7",
+          "10",
+          "13",
+          "30"
+        ],
+        "answer": "13",
+        "explanation": "$10 + 3 = 13$。验算：$13 - 3 = 10$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "下图中表示的数是 20，它的组成是：",
+        "options": [
+          "2 个一",
+          "2 个十",
+          "1 个十和 10 个一",
+          "20 个十"
+        ],
+        "answer": "2 个十",
+        "explanation": "20 在十位上是2，个位是0，表示2个十。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "18 里面有几个十和几个一？",
+        "options": [
+          "8 个十和 1 个一",
+          "1 个十和 8 个一",
+          "18 个十",
+          "1 个十和 1 个八"
+        ],
+        "answer": "1 个十 and 8 个一",
+        "explanation": "18的十位是1，个位是8，表示1个十和8个一。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "两个加数都是 10，和是多少？",
+        "options": [
+          "10",
+          "11",
+          "20",
+          "0"
+        ],
+        "answer": "20",
+        "explanation": "列式：$10 + 10 = 20$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "比 16 多 3 的数是：",
+        "options": [
+          "13",
+          "19",
+          "18",
+          "17"
+        ],
+        "answer": "19",
+        "explanation": "求比一个数多几的数用加法：$16 + 3 = 19$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "最大的一位数是：",
+        "options": [
+          "1",
+          "9",
+          "10",
+          "20"
+        ],
+        "answer": "9",
+        "explanation": "一位数包括0-9，其中最大的是9。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "最小的两位数是：",
+        "options": [
+          "10",
+          "11",
+          "20",
+          "9"
+        ],
+        "answer": "10",
+        "explanation": "10 是第一个出现的两位数，所以是最小的两位数。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "在 13, 18, 11, 20 这四个数中，最接近 20 的数是：",
+        "options": [
+          "13",
+          "11",
+          "18",
+          "18"
+        ],
+        "answer": "18",
+        "explanation": "$20-18=2$, $20-13=7$, $20-11=9$。2最小，所以18最接近。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "在算式 $19 - 9 = 10$ 中，9 是：",
+        "options": [
+          "加数",
+          "和",
+          "减数",
+          "被减数"
+        ],
+        "answer": "减数",
+        "explanation": "减法算式中，减号后面的数叫做减数。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "在 $13 > \\_$ 中，横线上最大能填多少？",
+        "options": [
+          "14",
+          "13",
+          "12",
+          "0"
+        ],
+        "answer": "12",
+        "explanation": "要使 $13 > \\_$ 成立且填最大的数，应填比13小1的数，即12。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "1个十和3个一组成的数是 ___。",
+        "options": [],
+        "answer": "13",
+        "explanation": "1个十（10）加3个一（3）等于13。验算：$10 + 3 = 13$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "小红这周要看 19 页绘本，已经看了 10 页，还剩 ___ 页。 ",
+        "options": [],
+        "answer": "9",
+        "explanation": "还剩下的页数 = 总页数 - 已看页数。$19 - 10 = 9$。验算：$9 + 10 = 19$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "比 15 大，比 17 小的数是 ___。",
+        "options": [],
+        "answer": "16",
+        "explanation": "按数序排列：15, 16, 17。介于两者之间的是16。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "$10 + 6 = ?$",
+        "options": [],
+        "answer": "16",
+        "explanation": "$10 + 6 = 16$。验算：$16 - 6 = 10$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "$18 - 5 = ?$",
+        "options": [],
+        "answer": "13",
+        "explanation": "$18 - 5 = 13$。验算：$13 + 5 = 18$。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "2024年一年级数学上册第6单元综合水平测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "计数单位“十”与数位认识",
+        "question": "10个一就是1个十。",
+        "options": [],
+        "answer": "对",
+        "explanation": "十进制计数法的核心：满十进一，10个一组成的单位叫一个十。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "16的个位是6，十位是1。",
+        "options": [],
+        "answer": "对",
+        "explanation": "数字16中，6在右边第一位（个位），1在右边第二位（十位）。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "11中的两个“1”表示的意思一样。",
+        "options": [],
+        "answer": "错",
+        "explanation": "左边的1在十位，表示1个十；右边的1在个位，表示1个一。意思不同。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "13再加7是20。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$13 + 7 = 20$。可以在13的基础上往后数7个数。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "在1到20中，19最接近20。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$20 - 19 = 1$，差值最小，所以最接近。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "按规律填数：10, 12, 14, ( ), 18",
+        "options": [
+          "15",
+          "16",
+          "17",
+          "13"
+        ],
+        "answer": "16",
+        "explanation": "规律是每次加2：$14 + 2 = 16$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "$14 - 10 = $",
+        "options": [
+          "4",
+          "10",
+          "14",
+          "1"
+        ],
+        "answer": "4",
+        "explanation": "$14$ 是由 $1$ 个十和 $4$ 个一组成，减去 $1$ 个十还剩 $4$ 个一。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "十位上是 2，个位上是 0 的数是：",
+        "options": [
+          "2",
+          "12",
+          "20",
+          "10"
+        ],
+        "answer": "20",
+        "explanation": "十位是2，个位是0，组成的数是20。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "被减数是 17，减数是 4，差是：",
+        "options": [
+          "11",
+          "21",
+          "13",
+          "14"
+        ],
+        "answer": "13",
+        "explanation": "$17 - 4 = 13$。验算：$13 + 4 = 17$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "从 13 数到 19，一共数了几个数？",
+        "options": [
+          "6",
+          "7",
+          "8",
+          "5"
+        ],
+        "answer": "7",
+        "explanation": "包括两端的数：13, 14, 15, 16, 17, 18, 19。列式：$19 - 13 + 1 = 7$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "15 读作：",
+        "options": [
+          "一五",
+          "十五",
+          "一十五",
+          "五一"
+        ],
+        "answer": "十五",
+        "explanation": "读数时，十位上的1读作“十”，个位上的5读作“五”。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "花园里有 11 朵红花，6 朵黄花。红花比黄花多几朵？",
+        "options": [
+          "17",
+          "5",
+          "6",
+          "11"
+        ],
+        "answer": "5",
+        "explanation": "求多多少用减法：$11 - 6 = 5$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "下列各数中，比 12 大且比 19 小的数是：",
+        "options": [
+          "10",
+          "12",
+          "15",
+          "20"
+        ],
+        "answer": "15",
+        "explanation": "10<12，12=12，20>19。只有15符合 $12 < 15 < 19$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "计数单位“十”与数位认识",
+        "question": "在计数器上，十位上有 1 个珠子，个位上有 4 个珠子，这个数是：",
+        "options": [
+          "14",
+          "41",
+          "5",
+          "10"
+        ],
+        "answer": "14",
+        "explanation": "十位的1代表10，个位的4代表4，合起来是14。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "个位上是 7，十位上是 1，在这个数的基础上减去 5，结果是：",
+        "options": [
+          "2",
+          "12",
+          "17",
+          "22"
+        ],
+        "answer": "12",
+        "explanation": "数是17，$17 - 5 = 12$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "将 11, 19, 15, 13 按从大到小的顺序排列，正确的是：",
+        "options": [
+          "11, 13, 15, 19",
+          "19, 15, 13, 11",
+          "19, 13, 15, 11",
+          "15, 19, 13, 11"
+        ],
+        "answer": "19, 15, 13, 11",
+        "explanation": "从大到小比较：$19 > 15 > 13 > 11$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "一个数比 14 大，比 16 小，这个数是：",
+        "options": [
+          "13",
+          "15",
+          "17",
+          "14"
+        ],
+        "answer": "15",
+        "explanation": "14和16中间的数字是15。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "计数单位“十”与数位认识",
+        "question": "与 20 相邻的前一个数是：",
+        "options": [
+          "19",
+          "21",
+          "18",
+          "10"
+        ],
+        "answer": "19",
+        "explanation": "20的前一个数是 $20 - 1 = 19$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "由 2 个十组成的数是 ___。",
+        "options": [],
+        "answer": "20",
+        "explanation": "2个十即 $10 + 10 = 20$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "11~20各数的写法与组成",
+        "question": "从 10 开始数，第 6 个数是 ___。",
+        "options": [],
+        "answer": "15",
+        "explanation": "数列为：10, 11, 12, 13, 14, 15... 第6个是15。验算：$10 + 6 - 1 = 15$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "我有 18 块糖，吃了 6 块，还有 ___ 块。",
+        "options": [],
+        "answer": "12",
+        "explanation": "列式：$18 - 6 = 12$。验算：$12 + 6 = 18$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "$12 + 4 = ?$",
+        "options": [],
+        "answer": "16",
+        "explanation": "$12 + 4 = 16$。验算：$16 - 4 = 12$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "11~20的不进位加与不退位减",
+        "question": "$17 - 7 + 3 = ?$",
+        "options": [],
+        "answer": "13",
+        "explanation": "第一步：$17 - 7 = 10$；第二步：$10 + 3 = 13$。验算：$13 - 3 + 7 = 17$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "计数单位“十”与数位认识",
+      "core_concept": "理解个位和十位的含义。10个一合起来是一个“十”，在计数器上，十位上的一个珠子表示1个十，个位上的一个颗珠子表示1个一。右边起第一位是个位，第二位是十位。",
+      "key_formula": "$10个一 = 1个十$",
+      "common_mistakes": [
+        "分不清数位顺序，以为左边起第一位是个位。",
+        "理解偏差，认为20个一就是1个十。"
+      ],
+      "tips": "可以通过捆小棒的方法来记忆，10根捆成一捆，一捆就代表一个十。"
+    },
+    {
+      "point": "11~20各数的写法与组成",
+      "core_concept": "11~20各数都是由1个十和几个一组成的（20是由2个十组成的）。写数时，有几个十就在十位写几，有几个一就在个位写几。如果个位上一个单位也没有，要写0占位。",
+      "key_formula": "$1个十 + n个一 = 1n$",
+      "common_mistakes": [
+        "写“二十”时写成“2”，漏掉个位的0。",
+        "读数和写数混淆，将“15”读成“一五”。"
+      ],
+      "tips": "写数时一定要注意数位，先写十位再写个位，没数就用0住位置。"
+    },
+    {
+      "point": "11~20的不进位加与不退位减",
+      "core_concept": "利用数的组成进行计算。如10+3，就是1个十加3个一，得13；13-3就是从1个十和3个一中去掉3个一，剩1个十，即10。计算十几加几时，十位不变，个位相加。",
+      "key_formula": "$10 + a = 1a, 1a - a = 10, 1a - 10 = a$",
+      "common_mistakes": [
+        "计算 15-5 时错答为 1。",
+        "加减混淆，看错运算符号导致计算错误。"
+      ],
+      "tips": "计算时先看个位，个位加个位，减法时个位减个位，十位如果不动就照抄出来。"
+    }
+  ]
+}

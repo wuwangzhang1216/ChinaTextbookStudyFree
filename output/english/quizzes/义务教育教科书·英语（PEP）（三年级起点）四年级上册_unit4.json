@@ -1,0 +1,714 @@
+{
+  "textbook": "人教版 PEP 英语四年级上册",
+  "unit": "Unit 4 My home",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Unit 4 My home 单元基础过关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "居室名称词汇",
+        "question": "'study' 的中文意思是 '卧室'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "study 的意思是书房；卧室应该是 bedroom。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "居室名称词汇",
+        "question": "厨房的英文单词是 'kitchen'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "kitchen 意为厨房，拼写正确。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "'fridge' 的意思是冰箱。",
+        "options": [],
+        "answer": "对",
+        "explanation": "fridge 是 refrigerator 的缩写，意为冰箱。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "回答 'Is she in the study?' 可以用 'Yes, it is.'",
+        "options": [],
+        "answer": "错",
+        "explanation": "问句主语是 she，回答也应使用 she，即：Yes, she is。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "'phone' 是电话的意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "phone 是指电话或手机。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "居室名称词汇",
+        "question": "Go to the ______. Watch TV.",
+        "options": [
+          "kitchen",
+          "bathroom",
+          "living room",
+          "bedroom"
+        ],
+        "answer": "living room",
+        "explanation": "根据常识，看电视通常在客厅（living room）。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "Go to the bedroom. Have a ______.",
+        "options": [
+          "snack",
+          "nap",
+          "shower",
+          "read"
+        ],
+        "answer": "nap",
+        "explanation": "Have a nap 意为午睡，在卧室（bedroom）进行。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "—Where are the keys? —______ in the door.",
+        "options": [
+          "It is",
+          "They are",
+          "She is",
+          "He is"
+        ],
+        "answer": "They are",
+        "explanation": "keys 为复数形式，其代词应为 they。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "居室名称词汇",
+        "question": "Go to the ______ . Read a book.",
+        "options": [
+          "study",
+          "kitchen",
+          "bathroom",
+          "fridge"
+        ],
+        "answer": "study",
+        "explanation": "阅读通常在书房（study）进行。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "Is he ______ the living room?",
+        "options": [
+          "on",
+          "under",
+          "in",
+          "at"
+        ],
+        "answer": "in",
+        "explanation": "在那间屋子里的介词用 in。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "—Is your cat in the kitchen? —______",
+        "options": [
+          "No, she is.",
+          "Yes, she isn't.",
+          "No, she isn't.",
+          "Yes, it is not."
+        ],
+        "answer": "No, she isn't.",
+        "explanation": "一般疑问句否定回答为 No, 主语 + isn't。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "Open the ______ . Have a snack.",
+        "options": [
+          "bed",
+          "fridge",
+          "phone",
+          "table"
+        ],
+        "answer": "fridge",
+        "explanation": "吃零食需要从冰箱（fridge）里拿。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "元音字母u在开音节中的发音",
+        "question": "以下哪个单词中 'u' 的发音与其他三个不同？",
+        "options": [
+          "use",
+          "cute",
+          "tube",
+          "duck"
+        ],
+        "answer": "duck",
+        "explanation": "use, cute, tube 中的 u 发 /juː/，而 duck 中的 u 发 /ʌ/。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "Where ______ my books?",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "answer": "are",
+        "explanation": "books 是复数，对应的 be 动词是 are。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "居室名称词汇",
+        "question": "This is my home. It ______ a big living room.",
+        "options": [
+          "have",
+          "has",
+          "is",
+          "are"
+        ],
+        "answer": "has",
+        "explanation": "It 是第三人称单数，表示“有”要用 has。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "居室名称词汇",
+        "question": "Go to the ______ . Take a shower.",
+        "options": [],
+        "answer": "bathroom",
+        "explanation": "洗澡（take a shower）是在浴室里。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "Is she in the kitchen? No, she ______ .",
+        "options": [],
+        "answer": "isn't",
+        "explanation": "is 引导的疑问句否定回答为 isn't。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "居室名称词汇",
+        "question": "Go to the ______ . Make a salad.",
+        "options": [],
+        "answer": "kitchen",
+        "explanation": "做沙拉通常在厨房。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "______ is the cat? It's under the bed.",
+        "options": [],
+        "answer": "where",
+        "explanation": "询问位置用疑问词 where。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "将下列英文单词与对应的中文意思匹配。",
+        "options": [
+          "bed",
+          "table",
+          "sofa",
+          "phone",
+          "沙发",
+          "电话",
+          "床",
+          "桌子"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "bed-床, table-桌子, sofa-沙发, phone-电话。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "居室名称词汇",
+        "question": "将下列短语与对应的中文意思匹配。",
+        "options": [
+          "in the desk",
+          "near the window",
+          "on the fridge",
+          "behind the door",
+          "在门后",
+          "在书桌里",
+          "在冰箱上",
+          "在窗户旁"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "in the desk-在书桌里, near the window-在窗户旁, on the fridge-在冰箱上, behind the door-在门后。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "将单词连成句子（注意标点）：",
+        "options": [
+          "she",
+          "in",
+          "the",
+          "Is",
+          "study?"
+        ],
+        "answer": "Is,she,in,the,study?",
+        "explanation": "一般疑问句 Be 动词置于句首，后接主语和地点。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "将单词连成句子：",
+        "options": [
+          "No",
+          "they",
+          "aren't."
+        ],
+        "answer": "No,they,aren't.",
+        "explanation": "否定回答格式：No, 主语 + aren't。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级英语上册期中综合能力评估卷 (My Home 专题)",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "居室名称词汇",
+        "question": "'bathroom' 与洗澡有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "bathroom 意为浴室。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "'sofa' 是沙发的音译词。",
+        "options": [],
+        "answer": "对",
+        "explanation": "sofa 对应中文“沙发”。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "询问‘他们在哪里？’应该说 'Where is they?'",
+        "options": [],
+        "answer": "错",
+        "explanation": "they 是复数，应配合 use are，即 Where are they?"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "居室名称词汇",
+        "question": "'bedroom' 的意思也是书房。",
+        "options": [],
+        "answer": "错",
+        "explanation": "bedroom 是卧室，study 是书房。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "元音字母u在开音节中的发音",
+        "question": "单词 'mule' 里的字母 'u' 发音跟 'cute' 里的 'u' 一样。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两者都是 u-e 结构，发 /juː/。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "居室名称词汇",
+        "question": "I am hungry. I go to the ______ .",
+        "options": [
+          "bathroom",
+          "kitchen",
+          "bedroom",
+          "study"
+        ],
+        "answer": "kitchen",
+        "explanation": "饿了（hungry）去厨房（kitchen）找吃的。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "Are the keys ______ the table?",
+        "options": [
+          "at",
+          "on",
+          "to",
+          "with"
+        ],
+        "answer": "on",
+        "explanation": "在桌子上用介词 on。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "—Are they in the door? —No, ______ .",
+        "options": [
+          "they are",
+          "it isn't",
+          "they aren't",
+          "she isn't"
+        ],
+        "answer": "they aren't",
+        "explanation": "复数一般疑问句否定回答用 No, they aren't。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "The ______ is in the kitchen. It's cold.",
+        "options": [
+          "bed",
+          "sofa",
+          "fridge",
+          "desk"
+        ],
+        "answer": "fridge",
+        "explanation": "冰箱（fridge）在厨房，且里面是冷的（cold）。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "元音字母u在开音节中的发音",
+        "question": "Choose the word with the /ju:/ sound.",
+        "options": [
+          "bus",
+          "cup",
+          "excuse",
+          "run"
+        ],
+        "answer": "excuse",
+        "explanation": "excuse 里的 u 发 /juː/，其余均发 /ʌ/。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "居室名称词汇",
+        "question": "Let's go to the ______ and read some books.",
+        "options": [
+          "study",
+          "living room",
+          "kitchen",
+          "bathroom"
+        ],
+        "answer": "study",
+        "explanation": "书房（study）是读书的地方。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "Where is my cat? ______ in the living room.",
+        "options": [
+          "He's",
+          "It's",
+          "They're",
+          "I'm"
+        ],
+        "answer": "It's",
+        "explanation": "指代单数动物（my cat）常用 it。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "Put the ______ in the bedroom.",
+        "options": [
+          "bed",
+          "fridge",
+          "sink",
+          "cooker"
+        ],
+        "answer": "bed",
+        "explanation": "床（bed）放在卧室。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "居室名称词汇",
+        "question": "My father is in the ______ . He is watching TV.",
+        "options": [
+          "study",
+          "living room",
+          "bathroom",
+          "kitchen"
+        ],
+        "answer": "living room",
+        "explanation": "电视（TV）通常在客厅。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "The ______ is on the table. Speak 'Hello'.",
+        "options": [
+          "bed",
+          "phone",
+          "fridge",
+          "sofa"
+        ],
+        "answer": "phone",
+        "explanation": "根据语境说 Hello 判定是电话（phone）。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "居室名称词汇",
+        "question": "Go to the ______ . Have a nap.",
+        "options": [],
+        "answer": "bedroom",
+        "explanation": "小睡在卧室。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "Is your father in the study? Yes, he ______ .",
+        "options": [],
+        "answer": "is",
+        "explanation": "肯定回答用 is。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "The ______ is in the kitchen. It has milk.",
+        "options": [],
+        "answer": "fridge",
+        "explanation": "厨房里装牛奶的电器是冰箱。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "______ are the keys? They are on the fridge.",
+        "options": [],
+        "answer": "where",
+        "explanation": "询问位置用 where。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "居室名称词汇",
+        "question": "匹配房间与相应的活动：",
+        "options": [
+          "living room",
+          "kitchen",
+          "bathroom",
+          "bedroom",
+          "make a salad",
+          "watch TV",
+          "have a nap",
+          "take a shower"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "A客厅观影，B厨房做饭，C浴室洗澡，D卧室睡觉。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "家具词汇",
+        "question": "英汉连连看：",
+        "options": [
+          "study",
+          "fridge",
+          "table",
+          "phone",
+          "冰箱",
+          "电话",
+          "书房",
+          "桌子"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "study-书房, fridge-冰箱, table-桌子, phone-电话。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "连词成句（注意第一个字母大写）：",
+        "options": [
+          "my",
+          "Where",
+          "keys?",
+          "are"
+        ],
+        "answer": "Where,are,my,keys?",
+        "explanation": "特殊疑问句：疑问词 + are + 物品。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "一般疑问句确认位置",
+        "question": "连词成句：",
+        "options": [
+          "They",
+          "are",
+          "the",
+          "desk.",
+          "near"
+        ],
+        "answer": "They,are,near,the,desk.",
+        "explanation": "陈述句：主语 + are + 介词短语。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "居室与家具词汇",
+      "core_concept": "常见房屋布局及主要家电家具的名称",
+      "key_formula": "Go to the [房间]. [动作]. (如: Go to the kitchen. Make a salad.)",
+      "common_mistakes": [
+        "混淆 study (书房) 与 bedroom (卧室)",
+        "fridge 和 kitchen 的拼写错误"
+      ],
+      "tips": "可以通过房间的功能来记忆，如 bed 在 bedroom，bath 在 bathroom。"
+    },
+    {
+      "point": "位置确认句型",
+      "core_concept": "使用一般疑问句来询问并确认人或物的位置",
+      "key_formula": "Is + 单数主语 + 地点? -> Yes, he/she/it is. / No, he/she/it isn't. | Are + 复数主语 + 地点? -> Yes, they are. / No, they aren't.",
+      "common_mistakes": [
+        "问句主语是复数 keys，却用 Is 开头",
+        "回答时人称代词 he/she/it/they 混淆"
+      ],
+      "tips": "看主语的数量，单数用 is，复数用 are。"
+    },
+    {
+      "point": "字母 u 的发音规律",
+      "core_concept": "字母 u 在开音节（u-e）和闭音节中的发音区别",
+      "key_formula": "u-e 结构发 /juː/ (use, cute, tube); 辅+u+辅 结构发 /ʌ/ (bus, duck, cup)",
+      "common_mistakes": [
+        "误将 duck 读成 / djuːk /",
+        "不理解 e 结尾不发音对前面元音的影响"
+      ],
+      "tips": "记住 'u-e' 结构里 u 发其字母本身的音 /juː/。"
+    }
+  ]
+}

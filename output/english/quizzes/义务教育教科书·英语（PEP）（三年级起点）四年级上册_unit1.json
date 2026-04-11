@@ -1,0 +1,722 @@
+{
+  "textbook": "人教版 PEP 英语四年级上册",
+  "unit": "My classroom",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "Unit 1 My classroom 单元基础能力测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "'window' 的意思是‘窗户’。",
+        "options": [],
+        "answer": "对",
+        "explanation": "window是第一单元核心词汇，意为窗户。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "'blackboard' 的意思是‘小提琴’。",
+        "options": [],
+        "answer": "错",
+        "explanation": "blackboard意为黑板，不是小提琴。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "课堂指令动作执行",
+        "question": "'Turn on the light' 的意思是‘关灯’。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Turn on是打开，Turn off才是关闭。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "'Where is it?' 用来询问某物在哪里。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Where引导疑问句询问地点或位置。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "元音字母a在开音节中的发音",
+        "question": "单词 'face' 中字母 'a' 的发音与 'cat' 中的相同。",
+        "options": [],
+        "answer": "错",
+        "explanation": "face是开音节发/eɪ/，cat是闭音节发/æ/。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "当你想说“让我们去看看教室吧”，你应该说：",
+        "options": [
+          "Let's go and see.",
+          "Let's clean the classroom.",
+          "Let's go and see the classroom.",
+          "This is the classroom."
+        ],
+        "answer": "Let's go and see the classroom.",
+        "explanation": "Let's...表示让我们...，go and see the classroom去看看教室。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "Where is the green book? — It's ______ the desk.",
+        "options": [
+          "at",
+          "in",
+          "under",
+          "to"
+        ],
+        "answer": "in",
+        "explanation": "in the desk是在课桌里，是常见的方位搭配。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "We have ______ new classroom.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "some"
+        ],
+        "answer": "a",
+        "explanation": "new以辅音音素开头，使用不定冠词a。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课堂指令动作执行",
+        "question": "你想让同学擦黑板，你应该说：",
+        "options": [
+          "Clean the door.",
+          "Clean the blackboard.",
+          "Clean the floor.",
+          "Clean the window."
+        ],
+        "answer": "Clean the blackboard.",
+        "explanation": "blackboard意为黑板。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "The computer is ______ the teacher's desk.",
+        "options": [
+          "on",
+          "above",
+          "in",
+          "under"
+        ],
+        "answer": "on",
+        "explanation": "电脑通常放在老师的讲台“上面”。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "What's ______ the classroom?",
+        "options": [
+          "at",
+          "in",
+          "on",
+          "under"
+        ],
+        "answer": "in",
+        "explanation": "询问教室里面有什么，介词用in。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "元音字母a在开音节中的发音",
+        "question": "哪组单词字母 'a' 的发音是一样的？",
+        "options": [
+          "cake; dad",
+          "make; face",
+          "bag; name",
+          "cat; cake"
+        ],
+        "answer": "make; face",
+        "explanation": "make和face都是开音节结构，字母a发/eɪ/。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "Look! The ______ is orange.",
+        "options": [
+          "door",
+          "see",
+          "is",
+          "where"
+        ],
+        "answer": "door",
+        "explanation": "只有door（门）是名词，可以填入该句主语位置。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课堂指令动作执行",
+        "question": "Open the ______.",
+        "options": [
+          "light",
+          "fan",
+          "window",
+          "wall"
+        ],
+        "answer": "window",
+        "explanation": "打开窗户是常见搭配。light和fan通常用turn on。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "Where is the kite? — It's ______ the wall.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "under"
+        ],
+        "answer": "on",
+        "explanation": "风筝挂在墙上用介词on。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "We have six ______ (灯) in the classroom.",
+        "options": [],
+        "answer": "lights",
+        "explanation": "灯的英文是light，前面有six需要用复数lights。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "Please clean the ______ (地板).",
+        "options": [],
+        "answer": "floor",
+        "explanation": "地板的英文是floor。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "Where ______ my picture?",
+        "options": [],
+        "answer": "is",
+        "explanation": "picture是单数，be动词用is。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "This is my ______ (教室).",
+        "options": [],
+        "answer": "classroom",
+        "explanation": "教室的英文是classroom。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "请将下列英文单词与对应的中文意思连线。",
+        "options": [
+          "computer",
+          "fan",
+          "wall",
+          "teacher's desk",
+          "墙壁",
+          "电脑",
+          "风扇",
+          "讲台"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "A computer-电脑; B fan-风扇; C wall-墙壁; D teacher's desk-讲台。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课堂指令动作执行",
+        "question": "请将动词与对应的物品连线组成指令。",
+        "options": [
+          "Close",
+          "Turn on",
+          "Put up",
+          "Clean",
+          "the picture",
+          "the window",
+          "the light",
+          "the blackboard"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "A Close the window; B Turn on the light; C Put up the picture; D Clean the blackboard。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "连词成句：is, it, Where",
+        "options": [
+          "is",
+          "it",
+          "Where"
+        ],
+        "answer": "Where,is,it",
+        "explanation": "Where引导疑问句，后面接be动词和主语。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "连词成句：the, door, near, It's",
+        "options": [
+          "the",
+          "door",
+          "near",
+          "It's"
+        ],
+        "answer": "It's,near,the,door",
+        "explanation": "描述物体位置：主语+is+方位介词+地点。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级上册第一单元「My classroom」综合素养评估",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "‘picture’ 的意思是‘照片’或‘图画’。",
+        "options": [],
+        "answer": "对",
+        "explanation": "picture包含图画、照片的意思。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "元音字母a在开音节中的发音",
+        "question": "单词 'name' 中的字母 'a' 发 /æ/ 的音。",
+        "options": [],
+        "answer": "错",
+        "explanation": "name是开音节，字母a发/eɪ/。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "‘fan’ 的意思是‘电风扇’。",
+        "options": [],
+        "answer": "对",
+        "explanation": "fan对应本单元词汇电风扇。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "‘It's near the window.’ 的意思是‘它在窗户里面’。",
+        "options": [],
+        "answer": "错",
+        "explanation": "near意为在...旁边，不是在里面(in)。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "课堂指令动作执行",
+        "question": "‘Put up the picture’ 是‘张贴这幅画’的意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "put up在此语境意为张贴、挂起。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "We have a big ______. There are 40 desks in it.",
+        "options": [
+          "pencil box",
+          "schoolbag",
+          "classroom",
+          "book"
+        ],
+        "answer": "classroom",
+        "explanation": "有40张课桌的地方显然是教室。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "Where is the new computer? — ______.",
+        "options": [
+          "It's white",
+          "It's on the teacher's desk",
+          "It's a computer",
+          "I like it"
+        ],
+        "answer": "It's on the teacher's desk",
+        "explanation": "Where问地点，答语应包含方位信息。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "元音字母a在开音节中的发音",
+        "question": "选出划线部分读音不同的一项：",
+        "options": [
+          "make",
+          "cake",
+          "hat",
+          "face"
+        ],
+        "answer": "hat",
+        "explanation": "make, cake, face中a发/eɪ/，hat中a发/æ/。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课堂指令动作执行",
+        "question": "It's too dark (太暗了). Please ______.",
+        "options": [
+          "clean the window",
+          "turn on the light",
+          "open the door",
+          "close the light"
+        ],
+        "answer": "turn on the light",
+        "explanation": "太暗了应该开灯。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "Let ______ clean the classroom.",
+        "options": [
+          "we",
+          "my",
+          "me",
+          "I"
+        ],
+        "answer": "me",
+        "explanation": "Let后面接代词宾格，表示让我来做某事。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "Look! The picture is ______ the wall.",
+        "options": [
+          "near",
+          "on",
+          "in",
+          "under"
+        ],
+        "answer": "on",
+        "explanation": "画挂在墙上，习惯用on the wall。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "This is my new desk. It's ______.",
+        "options": [
+          "green",
+          "thin",
+          "tall",
+          "long"
+        ],
+        "answer": "green",
+        "explanation": "green（绿色）是描述颜色，符合小学常用语境。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "The ______ is on the floor.",
+        "options": [
+          "light",
+          "fan",
+          "schoolbag",
+          "picture"
+        ],
+        "answer": "schoolbag",
+        "explanation": "书包(schoolbag)放在地板上最合理。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "Where is the cat? — It's ______ the door.",
+        "options": [
+          "of",
+          "behind",
+          "at",
+          "to"
+        ],
+        "answer": "behind",
+        "explanation": "behind是在...后面，猫在门后是常见表述。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "How many ______ can you see?",
+        "options": [
+          "window",
+          "a window",
+          "windows",
+          "the window"
+        ],
+        "answer": "windows",
+        "explanation": "How many后面接可数名词复数。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "The fan is ______ (在...上面) the desk.",
+        "options": [],
+        "answer": "above",
+        "explanation": "风扇通常悬挂在桌子上方但不接触，用above或在屋顶用on the ceiling。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "______ (让我们) clean the classroom.",
+        "options": [],
+        "answer": "let's",
+        "explanation": "Let's是Let us的缩写，表示建议。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "元音字母a在开音节中的发音",
+        "question": "c-k-e三个字母中间加a，组成单词: ______ (蛋糕).",
+        "options": [],
+        "answer": "cake",
+        "explanation": "cake是本单元语音部分的关键词。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "______ (在哪里) is your seat?",
+        "options": [],
+        "answer": "where",
+        "explanation": "询问位置用where。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "教室物品词汇认读",
+        "question": "英汉配对：",
+        "options": [
+          "blackboard",
+          "window",
+          "light",
+          "picture",
+          "图画",
+          "黑板",
+          "窗户",
+          "电灯"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "A blackboard-黑板; B window-窗户; C light-电灯; D picture-图画。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "课堂指令动作执行",
+        "question": "动作与地点配对：",
+        "options": [
+          "Open",
+          "Sweep",
+          "Clean",
+          "Close",
+          "the window",
+          "the door",
+          "the floor",
+          "the desk"
+        ],
+        "answer": "A-2,B-3,C-4,D-1",
+        "explanation": "常见组合：Open the door; Sweep the floor; Clean the desk; Close the window。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课堂指令动作执行",
+        "question": "连词成句：the, light, Turn, on",
+        "options": [
+          "the",
+          "light",
+          "Turn",
+          "on"
+        ],
+        "answer": "Turn,on,the,light",
+        "explanation": "祈使句以动词原形开头。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问及描述物品方位",
+        "question": "连词成句：in, classroom, What's, the",
+        "options": [
+          "in",
+          "classroom",
+          "What's",
+          "the"
+        ],
+        "answer": "What's,in,the,classroom",
+        "explanation": "询问某地有什么用What's in + 地点。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "教室物品词汇",
+      "core_concept": "识别教室基础硬件设施",
+      "key_formula": "classroom, window, door, picture, light, blackboard",
+      "common_mistakes": [
+        "将blackboard拼写为black board",
+        "window复数形式记错"
+      ],
+      "tips": "可以通过‘看图说话’的方式，结合教室实物进行记忆。"
+    },
+    {
+      "point": "方位介词的运用",
+      "core_concept": "描述物体之间的位置关系",
+      "key_formula": "in (在...里面), on (在...上面), under (在...下面), near (在...旁边)",
+      "common_mistakes": [
+        "on the wall 与 in the wall 混淆（画在墙上用on）",
+        "介词后漏掉定冠词the"
+      ],
+      "tips": "手势辅助法：手心向上为on，手入兜为in，手在桌边为near。"
+    },
+    {
+      "point": "Let's 引导的祈使句",
+      "core_concept": "提出共同行动的建议",
+      "key_formula": "Let's + 动词原形 + 其他",
+      "common_mistakes": [
+        "Let's后接了动词单三形式",
+        "误写为Let us's"
+      ],
+      "tips": "Let's 相当于 Let us，语气委婉，多用于提议清洁教室等场景。"
+    },
+    {
+      "point": "元音字母a的开音节发音规律",
+      "core_concept": "a-e 结构的发音",
+      "key_formula": "辅音+a+辅音+e -> /eɪ/",
+      "common_mistakes": [
+        "将cake中的a读成/æ/",
+        "无法区分cat(闭)和cake(开)的区别"
+      ],
+      "tips": "结尾不发音的e就像个魔法师，让中间的a读它在字母表里的名字/eɪ/。"
+    }
+  ]
+}

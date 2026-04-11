@@ -1,0 +1,718 @@
+{
+  "textbook": "PEP Primary English Book 4 (Grade 3)",
+  "unit": "How many?",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "Unit 6 How many? Standard Test",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "英文单词 'thirteen' 是数字 13 的意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "thirteen对应数字13。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "'fifteen' 是由 five 加 teen 组成的，字母没有变化。",
+        "options": [],
+        "answer": "错",
+        "explanation": "fifteen的词根是fif-，由five变来。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "How many 后面直接跟名词单数，如：How many apple?",
+        "options": [],
+        "answer": "错",
+        "explanation": "How many后面必须跟名词的复数形式。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "question": "单词 'box' 中字母 'o' 的发音与 'dog' 相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "它们都发闭音节的短元音/ɒ/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "'eleven' 代表数字 11。",
+        "options": [],
+        "answer": "对",
+        "explanation": "eleven译为11。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "What is ten and eight?",
+        "options": [
+          "eighteen",
+          "sixteen",
+          "twelve",
+          "twenty"
+        ],
+        "answer": "eighteen",
+        "explanation": "10加8等于18。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "How many ______ do you see?",
+        "options": [
+          "bird",
+          "birds",
+          "a bird",
+          "the bird"
+        ],
+        "answer": "birds",
+        "explanation": "How many询问数量，后接名词复数。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "I have ______ crayons. (12支)",
+        "options": [
+          "eleven",
+          "twelve",
+          "twenty",
+          "thirteen"
+        ],
+        "answer": "twelve",
+        "explanation": "12的英文单词是twelve。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "question": "下列哪个单词中 'u' 的发音与其他三个不同？",
+        "options": [
+          "duck",
+          "fun",
+          "under",
+          "blue"
+        ],
+        "answer": "blue",
+        "explanation": "duck, fun, under中的u发短音/ʌ/，blue发/u:/。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "—How many balls do you have? —______",
+        "options": [
+          "I have sixteen.",
+          "I see sixteen.",
+          "It is sixteen.",
+          "Fine, thanks."
+        ],
+        "answer": "I have sixteen.",
+        "explanation": "用have提问应用have回答。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "Which number is 'twenty'?",
+        "options": [
+          "12",
+          "20",
+          "2",
+          "11"
+        ],
+        "answer": "20",
+        "explanation": "twenty是20。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "question": "找出划线发音不同的单词：h__e__lp, b__e__d, p__e__n, sh__e__",
+        "options": [
+          "help",
+          "bed",
+          "pen",
+          "she"
+        ],
+        "answer": "she",
+        "explanation": "she中的e发长音/i:/，其他三个发短音/e/。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "14的英文是：",
+        "options": [
+          "four",
+          "fourteen",
+          "forty",
+          "fourty"
+        ],
+        "answer": "fourteen",
+        "explanation": "14是fourteen。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "Look at the kites! I see ______.",
+        "options": [
+          "no. 11",
+          "eleven",
+          "the eleven",
+          "eleven kite"
+        ],
+        "answer": "eleven",
+        "explanation": "表示数量直接用基数词。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "—How many cars do you see? —I see ______ (15).",
+        "options": [
+          "fifeteen",
+          "fiveteen",
+          "fifteen",
+          "fifty"
+        ],
+        "answer": "fifteen",
+        "explanation": "考查15的正确拼写。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "How ___ books do you have?",
+        "options": [],
+        "answer": "many",
+        "explanation": "询问数量常用How many..."
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "Ten and nine is ___.",
+        "options": [],
+        "answer": "nineteen",
+        "explanation": "10加9等于19。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "I have ___ apples. (只有1个用单词表示)",
+        "options": [],
+        "answer": "one",
+        "explanation": "基数词1即为one。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "question": "The ___ is on the box. (小狗)",
+        "options": [],
+        "answer": "dog",
+        "explanation": "dog符合中o发短音的规律。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "将下列数字单词与其汉语意思配对：",
+        "options": [
+          "thirteen",
+          "sixteen",
+          "seventeen",
+          "nineteen",
+          "十六",
+          "十七",
+          "十九",
+          "十三"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "thirteen-13, sixteen-16, seventeen-17, nineteen-19。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "将下列短语与汉语意思配对：",
+        "options": [
+          "how many",
+          "so beautiful",
+          "open it",
+          "have a look",
+          "打开它",
+          "看一看",
+          "多少",
+          "太美了"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "词汇意义配对。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "单词排队：many, you, how, see, do, cats",
+        "options": [
+          "many",
+          "you",
+          "how",
+          "see",
+          "do",
+          "cats"
+        ],
+        "answer": "how,many,cats,do,you,see",
+        "explanation": "How many + 名词复数 + do you + 动词原形？"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "单词排队：I, nineteen, have, pens",
+        "options": [
+          "I",
+          "nineteen",
+          "have",
+          "pens"
+        ],
+        "answer": "I,have,nineteen,pens",
+        "explanation": "主语+谓语+数量+名词复数。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 6 How many? Comprehensive Final Exam",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "question": "单词 'leg', 'red', 'ten' 中的 'e' 发音都相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这三个词字母e都处于闭音节，发短元音/e/。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "数字 12 的英文是 'twenteen'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "12是twelve，不是twenteen。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "当你想看某人的东西时，可以说 'Have a look!'",
+        "options": [],
+        "answer": "对",
+        "explanation": "Have a look意为看一看。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "数字 18 写做 'eighteen'，这里只有一个 't'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "eight结尾是t，加teen时中间只写一个t。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "How many caps do you see? 回答可以是 I have four.",
+        "options": [],
+        "answer": "错",
+        "explanation": "问see（看到）应用see回答，have是（拥有）的意思。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "question": "Which one has a different sounds for 'a'?",
+        "options": [
+          "cat",
+          "bag",
+          "dad",
+          "cake"
+        ],
+        "answer": "cake",
+        "explanation": "cake中的a发长音/eɪ/，其他发短音/æ/。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "How many minutes are in an hour? (一个小结有多少分钟？)",
+        "options": [
+          "thirty",
+          "forty",
+          "sixty",
+          "fifty"
+        ],
+        "answer": "sixty",
+        "explanation": "常识题，60分钟但在三年级下常考查对基数词的认知，选符合逻辑的数值词。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "—How many robots do you have? —______. One, two...",
+        "options": [
+          "Let me count",
+          "I'm fine",
+          "Look at me",
+          "Thank you"
+        ],
+        "answer": "Let me count",
+        "explanation": "当在查数时，常用Let me count (让我数数)。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "Eleven and prime number four is ______.",
+        "options": [
+          "fifteen",
+          "fourteen",
+          "sixteen",
+          "seventeen"
+        ],
+        "answer": "fifteen",
+        "explanation": "11+4=15。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "Look at the black boat! ______ beautiful!",
+        "options": [
+          "How",
+          "What",
+          "So",
+          "Very"
+        ],
+        "answer": "So",
+        "explanation": "So beautiful! 太漂亮了！符合课文句型。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "数字 11 到 15 的正确顺序是：",
+        "options": [
+          "twelve, eleven, thirteen, fourteen, fifteen",
+          "eleven, twelve, thirteen, fourteen, fifteen",
+          "eleven, twelve, fourteen, thirteen, fifteen",
+          "eleven, twelve, thirteen, fifteen, fourteen"
+        ],
+        "answer": "eleven, twelve, thirteen, fourteen, fifteen",
+        "explanation": "考查基数词排序。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "question": "找出 'i' 发音不同的：",
+        "options": [
+          "pig",
+          "milk",
+          "rice",
+          "six"
+        ],
+        "answer": "rice",
+        "explanation": "rice中的i发音为/aɪ/，其他为/ɪ/。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "—Let's have a race! —______!",
+        "options": [
+          "Great",
+          "No",
+          "Goodbye",
+          "Hello"
+        ],
+        "answer": "Great",
+        "explanation": "提议比赛，赞成时用Great。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "The ______ (第16号) kite is my kite.",
+        "options": [
+          "sixteen",
+          "sixteenth",
+          "6",
+          "no. 16"
+        ],
+        "answer": "no. 16",
+        "explanation": "表示编号用No.加数字。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "—Whose kities are they? —______",
+        "options": [
+          "They are seventeen.",
+          "It is small.",
+          "They are my kites.",
+          "I have two."
+        ],
+        "answer": "They are my kites.",
+        "explanation": "Whose询问是谁的，应回答领属关系。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "Nine and nine is ___ .",
+        "options": [],
+        "answer": "eighteen",
+        "explanation": "9+9=18。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "How many ___ (鸭子) do you see?",
+        "options": [],
+        "answer": "ducks",
+        "explanation": "How many后跟复数形式。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "五个元音字母短音综合辨析",
+        "question": "One, two, three, four, ___. (数字5)",
+        "options": [],
+        "answer": "five",
+        "explanation": "考查基础数字记忆。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "My father has ___ cars. (20)",
+        "options": [],
+        "answer": "twenty",
+        "explanation": "20的英文是twenty。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "英汉连线：",
+        "options": [
+          "twelve",
+          "fourteen",
+          "fifteen",
+          "eighteen",
+          "十八",
+          "十五",
+          "十二",
+          "十四"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "基数词匹配。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "对话连线：",
+        "options": [
+          "How many?",
+          "How are you?",
+          "What is it?",
+          "Is it a cat?",
+          "它是猫吗",
+          "它是什",
+          "我很好",
+          "有多少"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "常用疑问句汉语意思匹配。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问数量的句型应用",
+        "question": "单词排队：balls, how, you, have, many, do",
+        "options": [
+          "balls",
+          "how",
+          "you",
+          "have",
+          "many",
+          "do"
+        ],
+        "answer": "how,many,balls,do,you,have",
+        "explanation": "询问并列物品数量的固定句式。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "数字11-20的认读与拼写",
+        "question": "单词排队：The, is, one, black",
+        "options": [
+          "The",
+          "is",
+          "one",
+          "black"
+        ],
+        "answer": "The,one,is,black",
+        "explanation": "主系表结构，描述那个是黑色的。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "数字11-20的拼写规律",
+      "core_concept": "掌握11-12特殊变化，13-19以后缀-teen结尾的规律。",
+      "key_formula": "13=thir+teen, 15=fif+teen, 18=eigh+teen (不重叠t)",
+      "common_mistakes": [
+        "把12写成twenteen",
+        "thirteen写成threeteen",
+        "fifteen写成fiveteen"
+      ],
+      "tips": "注意13和15是特例，记号'三thir，五fif'。"
+    },
+    {
+      "point": "How many句型",
+      "core_concept": "用于询问数量，强调名词必须用复数。",
+      "key_formula": "How many + 名词复数 (s/es) + do you see/have?",
+      "common_mistakes": [
+        "How many后跟名词单数",
+        "回答时数量与名词单复数不匹配"
+      ],
+      "tips": "看见How many，脑子里一定要紧跟一个加‘s’的单词。"
+    },
+    {
+      "point": "元音字母闭音节发音",
+      "core_concept": "总结 a, e, i, o, u 在辅+元+辅结构中的短音发音。",
+      "key_formula": "a/æ/, e/e/, i/ɪ/, o/ɒ/, u/ʌ/",
+      "common_mistakes": [
+        "混淆cat/kæt/与cake/keɪk/的发音",
+        "u在不同单词中发音辨析不清"
+      ],
+      "tips": "短元音发音短促有力，口型要到位。"
+    }
+  ]
+}

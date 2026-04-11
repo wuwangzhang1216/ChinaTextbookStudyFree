@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文四年级上册",
+  "unit": "神话故事",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "第四单元核心素养评价园地",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "感悟神话神奇的想象",
+        "question": "《盘古开天地》中，盘古的双眼变成了太阳和月亮，这体现了神话神奇的想象。",
+        "options": [],
+        "answer": "对",
+        "explanation": "神话中身体化作万物是夸张且奇特的想象。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "神话人物形象分析",
+        "question": "普罗米修斯为了帮人类取火，忍受被死死锁在悬崖上的痛苦，他是一个狠毒的人。",
+        "options": [],
+        "answer": "错",
+        "explanation": "普罗米修斯是不畏强暴、勇于自我牺牲的人。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "神话人物形象分析",
+        "question": "《精卫填海》里的精卫是一只由炎帝小女儿变化而成的鸟。",
+        "options": [],
+        "answer": "对",
+        "explanation": "神话传说中精卫原名女娃，溺亡后化为母鸟。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "“混沌”一词在神话中常用来形容宇宙形成以前模糊一团的状态。",
+        "options": [],
+        "answer": "对",
+        "explanation": "混沌在传统文化中特指宇宙初开前的原始状态。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "修辞方法识别",
+        "question": "“盘古开天地的故事难道不感人吗？”这是一个设问句。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这是一个反问句，表达肯定的语气。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字读音选择",
+        "question": "下列词语中“降”字的读音与“投降”相同的一项是：",
+        "options": [
+          "降临",
+          "降落",
+          "宁死不降",
+          "降生"
+        ],
+        "answer": "宁死不降",
+        "explanation": "在表达“屈服、战败”时读 xiáng，其他读 jiàng。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "《盘古开天地》中，“隆隆的雷声”是盘古的哪部分变成的？",
+        "options": [
+          "血液",
+          "气息",
+          "肌肉",
+          "声音"
+        ],
+        "answer": "声音",
+        "explanation": "原文中写到：他发出的声音，变成了隆隆的雷声。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "阅读：普罗米修斯被锁在悬崖上，每天遭受秃鹰啄食，但他没有向宙斯屈服。这段话主要体现了普罗米修斯的：",
+        "options": [
+          "贪婪",
+          "坚强屈服",
+          "坚毅顽强",
+          "喜怒无常"
+        ],
+        "answer": "坚毅顽强",
+        "explanation": "忍受酷刑而不低头体现了人物的坚毅品质。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神话人物形象分析",
+        "question": "《精卫填海》中“常衔西山之木石，以堙于东海”是因为：",
+        "options": [
+          "精卫想锻炼身体",
+          "精卫溺亡后复仇",
+          "精卫无聊玩耍",
+          "父亲的要求"
+        ],
+        "answer": "精卫溺亡后复仇",
+        "explanation": "精卫因溺死海中，化鸟衔石填海，体现其执着的报复或献身精神。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "理解阅读",
+        "question": "古诗：女娃游于东海，溺而不返。这里的“溺”字意思是：",
+        "options": [
+          "溺爱",
+          "顽皮",
+          "贪玩",
+          "淹没"
+        ],
+        "answer": "淹没",
+        "explanation": "文言文中溺指淹死在水里。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "感悟神话神奇的想象",
+        "question": "下列神话情节中，最具“神奇想象”色彩的是：",
+        "options": [
+          "盘古在睡觉",
+          "后羿准备箭矢",
+          "女娲用彩色石补天",
+          "普罗米修斯走路"
+        ],
+        "answer": "女娲用彩色石补天",
+        "explanation": "五彩石补天体现了神话独有的超越自然的想象。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "找出下列词语中书写完全正确的一项：",
+        "options": [
+          "奔流不息",
+          "滋闰万物",
+          "精疲力竭",
+          "愤愤不瓶"
+        ],
+        "answer": "奔流不息",
+        "explanation": "滋润（闰错）、精疲力竭（正确）、愤愤不平（瓶错）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "“神话故事往往起源于原始先民对自然的敬畏。”由此判断，神话反映的是：",
+        "options": [
+          "未来的高科技",
+          "现代的生活",
+          "古代人类对自然的理解",
+          "老师的故事"
+        ],
+        "answer": "古代人类对自然的理解",
+        "explanation": "神话是远古人民解析自然界现象的一种方式。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神话题材叙事结构复述",
+        "question": "叙述神话故事时，通常遵循的逻辑顺序是：",
+        "options": [
+          "经过-起因-结果",
+          "结果-经过-起因",
+          "起因-经过-结果",
+          "没有顺序"
+        ],
+        "answer": "起因-经过-结果",
+        "explanation": "记叙文的基本结构是起因、经过、结果。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "神话人物形象分析",
+        "question": "盘古、精卫、女娲这些人物的共同点是：",
+        "options": [
+          "都具有神力且乐于助人",
+          "都生活在现代",
+          "全都是现实生活的人",
+          "都喜欢大海"
+        ],
+        "answer": "都具有神力且乐于助人",
+        "explanation": "神话英雄通常拥有超越常人的力量并为人类牺牲或贡献。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "《盘古开天地》中，盘古用斧头劈开黑暗，轻而清的东西上升变成了（___）。",
+        "options": [],
+        "answer": "天",
+        "explanation": "神话原意为轻清上浮者为天。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神话人物形象分析",
+        "question": "盗取火种给人类的神格英雄是（___）。",
+        "options": [],
+        "answer": "普罗米修斯",
+        "explanation": "普罗米修斯是希腊神话中的取火者。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "《精卫填海》选自跨越山海的神话典籍《（___）》。",
+        "options": [],
+        "answer": "山海经",
+        "explanation": "《精卫填海》出自《山海经·北山经》。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神话人物形象分析",
+        "question": "请将下列神话人物与其对应的成就或特质连线：",
+        "options": [
+          "盘古",
+          "普罗米修斯",
+          "精卫",
+          "女娲",
+          "为了火种受苦",
+          "填平东海",
+          "补天造人",
+          "开辟天地"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "考察对本单元核心人物故事内容的对应。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "请将近义词进行配对：",
+        "options": [
+          "悲惨",
+          "立即",
+          "茂盛",
+          "宽阔",
+          "繁茂",
+          "凄惨",
+          "广阔",
+          "马上"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "考察词义理解与近义词积累。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "请将叠词与其修饰的词语搭配：",
+        "options": [
+          "轰隆隆的",
+          "辽阔的",
+          "茂盛的",
+          "奔流不息的",
+          "花草树木",
+          "江河",
+          "大地",
+          "雷声"
+        ],
+        "answer": "A-4,B-3,C-1,D-2",
+        "explanation": "考察《盘古开天地》课文原文中的语言搭配。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "句式转换正误判断",
+        "question": "将下列词语排列成一句赞美盘古的话：",
+        "options": [
+          "伟大的",
+          "盘古",
+          "巨人",
+          "创造了",
+          "宇宙"
+        ],
+        "answer": "伟大的,巨人,盘古,创造了,宇宙",
+        "explanation": "主谓宾句式：巨人盘古创造了宇宙。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "神话题材叙事结构复述",
+        "question": "按照神话故事的常见脉络排列词语：",
+        "options": [
+          "故事的",
+          "按照",
+          "经过",
+          "叙述",
+          "起因和结果"
+        ],
+        "answer": "按照,起因和结果,经过,叙述,故事的",
+        "explanation": "本题练习叙述结构逻辑。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级上册第四单元综合能力专项测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "感悟神话神奇的想象",
+        "question": "神话故事中的人物通常拥有凡人没有的超能力。",
+        "options": [],
+        "answer": "对",
+        "explanation": "神话的特点之一就是人物神化、能力超常。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“精疲力竭”中的“竭”字意思是“尽，用尽”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "竭在词语中表示精神和力量消耗干净。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "神话人物形象分析",
+        "question": "赫拉克勒斯是希腊神话中的英雄，他解救了普罗米修斯。",
+        "options": [],
+        "answer": "对",
+        "explanation": "希腊神话中赫拉克勒斯用箭射死秃鹰并锁链。救出普罗米修斯。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“那巨石像小山一样压在身上”运用了拟人的修辞手法。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这是比喻句，把巨石比作小山。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "神话题材叙事结构复述",
+        "question": "复述神话故事时，只要记得关键情节，顺序不重要。",
+        "options": [],
+        "answer": "错",
+        "explanation": "复述必须遵循逻辑顺序（起因经过结果），否则故事不完整。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "选出下列词语中词性不同的一项：",
+        "options": [
+          "温暖",
+          "严厉",
+          "悲惨",
+          "盘古"
+        ],
+        "answer": "盘古",
+        "explanation": "盘古是名词，其他三项多可用作形容词。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "标点符号选择",
+        "question": "下列句子中标点符号使用正确的一项是：",
+        "options": [
+          "“你要干什么？”宙斯愤怒地问。",
+          "“你要干什么，”宙斯愤怒地问？",
+          "宙斯愤怒地问：“你要干什么”。",
+          "宙斯愤怒地问：“你要干什么”？"
+        ],
+        "answer": "“你要干什么？”宙斯愤怒地问。",
+        "explanation": "直接引语在前，提示语在后，句尾用句号。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "神话人物形象分析",
+        "question": "普罗米修斯不向宙斯屈服，主要是因为：",
+        "options": [
+          "他想当王",
+          "他认为火能给人类带来文明",
+          "他不害怕鹰",
+          "他有人救他"
+        ],
+        "answer": "他认为火能给人类带来文明",
+        "explanation": "这是他盗火并坚持的根本原因：为人类谋福祉。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "理解阅读",
+        "question": "文言文：慎也，以此为戒。这里的“戒”意思是：",
+        "options": [
+          "戒指",
+          "戒心",
+          "警告",
+          "禁戒"
+        ],
+        "answer": "警告",
+        "explanation": "此处指引以为戒，表示从错误中吸取教训。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "感悟神话神奇的想象",
+        "question": "《盘古开天地》中，“四季的风和飘动的云”是盘古的什么变成的？",
+        "options": [
+          "头发",
+          "汗毛",
+          "血液",
+          "气息"
+        ],
+        "answer": "气息",
+        "explanation": "原文：他呼出的气息，变成了四季的风和飘动的云。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "神话题材叙事结构复述",
+        "question": "概括《女娲补天》的起因，最准确的是：",
+        "options": [
+          "女娲很漂亮",
+          "天塌了一大块，人类受难",
+          "女娲要去捡彩石",
+          "火神和水神打架"
+        ],
+        "answer": "天塌了一大块，人类受难",
+        "explanation": "故事的起因是灾难降临导致人类处于水深火热中。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "理解阅读",
+        "question": "短文：普罗米修斯看到人类没有火，在无边的黑暗中受冻。他决心为人类带来火种。这段话最适合做：",
+        "options": [
+          "故事的起因",
+          "故事的结尾",
+          "故事的冲突",
+          "故事的悬念"
+        ],
+        "answer": "故事的起因",
+        "explanation": "描述现状及主角的动机通常是神话题材的起因。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“天和地分开后，盘古就像一根柱子支撑在天地之间。”运用的手法是：",
+        "options": [
+          "拟人",
+          "比喻",
+          "排比",
+          "反问"
+        ],
+        "answer": "比喻",
+        "explanation": "将盘古比作柱子（明喻）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "神话人物形象分析",
+        "question": "关于精卫填海，下列说法正确的是：",
+        "options": [
+          "精卫是一只没用的小鸟",
+          "填海是不自量力",
+          "这种精神叫永不放弃",
+          "大海很快就被填平了"
+        ],
+        "answer": "这种精神叫永不放弃",
+        "explanation": "精卫衔石填海寓意意志坚毅、不屈不挠。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字读音选择",
+        "question": "“血液”中“血”字的读音是：",
+        "options": [
+          "xiě",
+          "xuě",
+          "xuè",
+          "xié"
+        ],
+        "answer": "xuè",
+        "explanation": "书面词语“血液”中标准读音为 xuè。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "《精卫填海》中“女娃游于东海”中的“于”字翻译为（___）。",
+        "options": [],
+        "answer": "在",
+        "explanation": "文言虚词“于”在此处表示地点。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "普罗米修斯因为盗火遭受惩罚，最后被英雄（___）救了下来。",
+        "options": [],
+        "answer": "赫拉克勒斯",
+        "explanation": "希腊神话中救出普罗米修斯的英雄名。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "感悟神话神奇的想象",
+        "question": "盘古死后，他的心变成了（___），为大地增添了色彩。",
+        "options": [],
+        "answer": "花草树木",
+        "explanation": "根据神话传说中盘古身体器官化为万物的细节。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "请将生字与对应的正确拼音连线：",
+        "options": [
+          "劈",
+          "混沌",
+          "浊",
+          "凄",
+          "zhuó",
+          "pī",
+          "qī",
+          "hùn dùn"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "考查生字注音。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "请根据课文《盘古开天地》，将身体部分与化作的事物连线：",
+        "options": [
+          "汗毛",
+          "汗水",
+          "双眼",
+          "四肢",
+          "太阳月亮",
+          "五岳",
+          "雨露",
+          "花草树木"
+        ],
+        "answer": "A-4,B-3,C-1,D-2",
+        "explanation": "考察课文细节掌握程度。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "神话人物形象分析",
+        "question": "请将神话人物与其对应的武器或标志物连线：",
+        "options": [
+          "盘古",
+          "普罗米修斯",
+          "精卫",
+          "后羿",
+          "神箭",
+          "木石",
+          "火把",
+          "神斧"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "考察对不同神话典型意象的认知。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "感悟神话神奇的想象",
+        "question": "按句子成分顺序排列：",
+        "options": [
+          "盘古",
+          "把",
+          "这个",
+          "劈开了",
+          "大鸡蛋"
+        ],
+        "answer": "盘古,把,这个,大鸡蛋,劈开了",
+        "explanation": "经典的“把”字句结构练习。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "神话人物形象分析",
+        "question": "排列描述神话精神的词语：",
+        "options": [
+          "神话英雄",
+          "有着",
+          "为民造福的",
+          "伟大的",
+          "理想"
+        ],
+        "answer": "神话英雄,有着,伟大的,为民造福的,理想",
+        "explanation": "修饰语顺序排列练习。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "感悟神话神奇的想象",
+      "core_concept": "神话是人类童年时期的产物，其核心在于超越自然的“神奇想象”。例如盘古的肢体化作万物，这不仅是量级的夸张（如声音变雷声），更是质的飞跃（如牙齿变金石）。学习时要抓住作者如何通过这一层层铺排，构建一个宏大奇丽的变化过程。",
+      "key_formula": "具体的人体器官/动作 + 具有相似特征的自然物 = 神奇变化",
+      "common_mistakes": [
+        "混淆课文原文中的对应关系，如把汗毛变雨露记成汗水变雨露。",
+        "认为神话只是胡编乱造，忽略了古代人民对自然现象的诗意解释。"
+      ],
+      "tips": "闭上眼模拟盘古顶天立地的动作，联想身体各部位的特点（热、冷、硬、软）来对应自然万物。"
+    },
+    {
+      "point": "神话人物形象分析",
+      "core_concept": "神话人物往往具备“神力”与“神性”。神力是指排山倒海的力量，神性则是指为了人类幸福不惜牺牲自我的伟大精神，如普罗米修斯的英勇、精卫的执着、盘古的献身。这些人物是远古先民某种精神品质的化身。",
+      "key_formula": "核心行为（如盗火） + 面对的阻力（如重罚） = 性格特质（如坚强不屈）",
+      "common_mistakes": [
+        "用现代审美或逻辑去质疑神话，如认为精卫填海是在浪费时间。",
+        "评价人物词汇单一，只会说“好人”或“厉害”。"
+      ],
+      "tips": "对比分析：将中外神话人物放在一起看，你会发现他们都具备“为公不为私”的共同点。"
+    },
+    {
+      "point": "神话题材叙事结构复述",
+      "core_concept": "神话故事通常有非常明确的叙事链：因为发生了某种宏大的灾难或不便（起因），英雄决定去解决（经过，往往伴随三次尝试或长期抗争），最后世界恢复秩序或产生新物种（结果）。复述时必须抓准这条主线。",
+      "key_formula": "叙事三部曲 = 灾难/初创（起因） + 历险/抗争（经过） + 变化/和平（结果）",
+      "common_mistakes": [
+        "经过描述过于简略，直接从起因跳到结果。",
+        "复述时缺乏描述性的词汇，把富有美感的文字变成了生硬的流水账。"
+      ],
+      "tips": "分段绘制“情节坐标轴”，标记出故事的高潮点，复述时重点突出英雄努力的过程。"
+    }
+  ]
+}

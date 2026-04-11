@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文四年级下册",
+  "unit": "第五单元：妙笔写美景",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元基础巩固测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字形辨析",
+        "question": "“浙”江的“浙”字，左边是一个三点水。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“浙江”的“浙”字是左中右结构，左边是三点水。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "景物描写顺序",
+        "question": "按照游览路线来描写景物叫做“移步换景”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "移步换景就是随着观察位置的移动，描写不同位置看到的景物。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "修辞手法识别",
+        "question": "“这些石钟乳形状各异，像是天上的云朵。”这句话运用了拟人的修辞。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这句话运用了比喻，把石钟乳比作云朵。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "词语释义",
+        "question": "“突兀”在描述山峰时，通常是指山峰高耸、突然出现的样子。",
+        "options": [],
+        "answer": "对",
+        "explanation": "突兀形容山高耸，在游记中常用来描写奇特的山势。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "课文理解",
+        "question": "《记金华的双龙洞》是叶圣陶先生写的游记。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《记金华的双龙洞》作者确为叶圣陶。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "多音字读音",
+        "question": "下面词语中，“系”字的读音与“系绳子”相同的是？",
+        "options": [
+          "关系",
+          "联系",
+          "系好鞋带",
+          "系统"
+        ],
+        "answer": "系好鞋带",
+        "explanation": "在“系绳子”、“系鞋带”中读jì，在“关系”、“联系”中读xì。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "标点符号",
+        "question": "“这里的石钟乳真多啊（）有的像老人，有的像卧龙。”括号里最合适的标点是？",
+        "options": [
+          "。",
+          "！",
+          "？",
+          "——"
+        ],
+        "answer": "！",
+        "explanation": "“真多啊”表达了强烈的感叹语气，应使用感叹号。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "段落理解",
+        "question": "阅读：‘一路迎着溪流。随着山势，溪流时而宽，时而窄，时而缓，时而急，溪声也时时变换调子。’这段话主要写了什么？",
+        "options": [
+          "溪流的颜色",
+          "溪流的变化",
+          "溪边的野花",
+          "山势的高低"
+        ],
+        "answer": "溪流的变化",
+        "explanation": "通过“宽、窄、缓、急”四个词体现了溪流在不同山势下的变化。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "关联词语",
+        "question": "填入括号最恰当的是：（）在船里并排仰卧，刚合适，再没法容下一人。",
+        "options": [
+          "虽然",
+          "由于",
+          "所以",
+          "哪怕"
+        ],
+        "answer": "哪怕",
+        "explanation": "此处表示假设或极端的限定，语境为描写孔隙的窄小。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "景物特点",
+        "question": "《海上日出》中，太阳负着重荷上升，这里的“重荷”指的是？",
+        "options": [
+          "沉重的行李",
+          "沉重的负担",
+          "跳出海面的吃力感",
+          "云层的重量"
+        ],
+        "answer": "跳出海面的吃力感",
+        "explanation": "这是一种拟人化的写法，表现太阳升起时的缓慢、有力。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "过渡句辨析",
+        "question": "下列哪个句子最适合作为进入景点的过渡句？",
+        "options": [
+          "这里的风景真美丽。",
+          "我们吃完饭就开始休息了。",
+          "转过石角，我们便来到了孔隙口。",
+          "今天的天气阳光明媚。"
+        ],
+        "answer": "转过石角，我们便来到了孔隙口。",
+        "explanation": "这个句子明确交待了地点的转换，起到了承上启下的连接作用。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语搭配",
+        "question": "寻找能与“空气”最恰当搭配的描写词语：",
+        "options": [
+          "宽阔的",
+          "清新的",
+          "狭窄的",
+          "突兀的"
+        ],
+        "answer": "清新的",
+        "explanation": "清新通常用来形容空气，指新鲜。宽阔形容空间，狭窄形容通道。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词含义",
+        "question": "“变化多端”的“端”在这里的意思是？",
+        "options": [
+          "项目、方面",
+          "端正",
+          "用手托住",
+          "尽头"
+        ],
+        "answer": "项目、方面",
+        "explanation": "在该成语中指变化的方式、方面非常多。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "移步换景规律",
+        "question": "习作《我的校园》如果按移步换景写，正确的顺序是？",
+        "options": [
+          "教学楼—草操场—校门—花园",
+          "校门—教学楼—操场—花园",
+          "操场—校门—花园—教学楼",
+          "花园—操场—校门—教学楼"
+        ],
+        "answer": "校门—教学楼—操场—花园",
+        "explanation": "按照进校的游览路径顺序写作是最符合移步换景逻辑的。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "近义词选择",
+        "question": "选出与“灿烂”意思最相近的词语：",
+        "options": [
+          "绚烂",
+          "昏暗",
+          "微弱",
+          "平淡"
+        ],
+        "answer": "绚烂",
+        "explanation": "灿烂和绚烂都用来形容光彩非常鲜艳、夺目。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "景物特点填空",
+        "question": "在《记金华的双龙洞》中，作者通过“孔隙”时是（___）进出的。",
+        "options": [],
+        "answer": "仰卧",
+        "explanation": "课文中明确描写作者是仰卧在小船底进出的。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "重点景物填空",
+        "question": "《海上日出》作者主要描写了晴天和（___）时日出的景象。",
+        "options": [],
+        "answer": "多云",
+        "explanation": "全文分为晴天日出和多云时日出两个主要场景描述。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文学常识",
+        "question": "《海上日出》的作者是文学家（___）。",
+        "options": [],
+        "answer": "巴金",
+        "explanation": "《海上日出》是巴金先生的名篇。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义匹配",
+        "question": "请将下列形容词与它们修饰的对象连线。",
+        "options": [
+          "蜿蜒的",
+          "突兀的",
+          "漆黑的",
+          "明艳的",
+          "岩石",
+          "野花",
+          "小溪",
+          "内洞"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "蜿蜒的小溪，突兀的岩石，漆黑的内洞，明艳的野花。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "景物及其所在地",
+        "question": "请将游览内容与对应的地点连线。",
+        "options": [
+          "溪水入洞",
+          "仰卧入洞",
+          "石钟乳",
+          "映山红",
+          "内洞",
+          "外洞口",
+          "路上",
+          "孔隙"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "溪流汇入外洞口；仰卧过孔隙；内洞有石钟乳；路上可见映山红。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "动词搭配",
+        "question": "请将描写太阳升起的动词与对应状态连线。",
+        "options": [
+          "冲破",
+          "跳出",
+          "躲进",
+          "由于",
+          "海面",
+          "云层",
+          "原因",
+          "黑暗"
+        ],
+        "answer": "A-4,B-1,C-2,D-3",
+        "explanation": "冲破黑暗，跳出海面，躲进云层。由于-原因属于逻辑连词配对。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子结构",
+        "question": "将下列词语排列成一句描写溶洞的话：",
+        "options": [
+          "五颜六色的",
+          "许多",
+          "洞顶",
+          "悬挂着",
+          "石钟乳"
+        ],
+        "answer": "洞顶,悬挂着,许多,五颜六色的,石钟乳",
+        "explanation": "按照主谓宾及定语顺序排列：地点+动词+数量+定语+名词。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "游记过渡句表达",
+        "question": "将下列词语排成顺畅的过渡句：",
+        "options": [
+          "进入",
+          "沿着",
+          "我们",
+          "溪流",
+          "外洞"
+        ],
+        "answer": "我们,沿着,溪流,进入,外洞",
+        "explanation": "这是一个标准的游记过渡句，交代了主语、路径和到达的地点。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级下册第五单元「妙笔写美景」检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "移步换景",
+        "question": "“移步换景”要求作者必须停在一个地方观察，不能走动。",
+        "options": [],
+        "answer": "错",
+        "explanation": "移步换景强调要动过脚步变换观察角度。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "课文细节",
+        "question": "《海上日出》作者观察日出的地方是在一艘船上。",
+        "options": [],
+        "answer": "对",
+        "explanation": "作者在文中提到“我常常早起，在那儿看日出”，由后文推断其在海上航行的环境中。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法",
+        "question": "“太阳像负着重荷似的一步一步慢慢地努力上升”，这里运用了拟人手法。",
+        "options": [],
+        "answer": "对",
+        "explanation": "赋予太阳人的动作和神态，属于拟人。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "汉字构成",
+        "question": "“臀”字的部首是“月”，和身体部位有关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "肉月旁的字多与身体组织器官有关。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "详略安排",
+        "question": "写游记时，每一个看到的景物都要平均用力，写得一样详细。",
+        "options": [],
+        "answer": "错",
+        "explanation": "游记应有详有略，重点突出的景物要详细描写。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语辨析",
+        "question": "形容水流声音很大，最合适的词语是？",
+        "options": [
+          "震耳欲聋",
+          "清脆响亮",
+          "鸦雀无声",
+          "娓娓道来"
+        ],
+        "answer": "震耳欲聋",
+        "explanation": "震耳欲聋形容声音极大，符合描写壮观水流的语境。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "阅读推理",
+        "question": "阅读：‘随着山势，溪流时而宽，时而窄...’。这里通过溪流的变化暗示了什么？",
+        "options": [
+          "溪水很干净",
+          "山坡的起伏变化",
+          "天气的变化",
+          "小鱼在游动"
+        ],
+        "answer": "山坡的起伏变化",
+        "explanation": "“随着山势”说明溪流的变化是由地形山势决定的。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "过渡句选择",
+        "question": "离开外洞进入内洞，最适合的衔接句是？",
+        "options": [
+          "内洞有很多石钟乳。",
+          "外洞非常宽阔。",
+          "泉水靠着右边，引导我们进入内洞。",
+          "我们大家都非常开心。"
+        ],
+        "answer": "泉水靠着右边，引导我们进入内洞。",
+        "explanation": "该句交代了进入内洞的路径和向导（泉水）。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "景物特点",
+        "question": "《记金华的双龙洞》中，外洞的特点是？",
+        "options": [
+          "窄小",
+          "宽敞",
+          "深不见底",
+          "五颜六色"
+        ],
+        "answer": "宽敞",
+        "explanation": "文中写到外洞“仿佛到了个大会议室”，说明它很宽敞。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词义理解",
+        "question": "“颜色各异”的“异”意思是？",
+        "options": [
+          "奇怪",
+          "另外的",
+          "不同",
+          "分开"
+        ],
+        "answer": "不同",
+        "explanation": "异在这里指不相同，各种各样的。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子变换",
+        "question": "“难道这灿烂的日出不是伟大的奇观吗？”改为陈述句是？",
+        "options": [
+          "这灿烂的日出是伟大的奇观。",
+          "这灿烂的日出是不伟大的奇观。",
+          "这灿烂的日出难道是奇观吗？",
+          "这灿烂的日出真的是奇观。"
+        ],
+        "answer": "这灿烂的日出是伟大的奇观。",
+        "explanation": "反问句变陈述句，要去掉反问词并否定原意，原意为“是”。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "逻辑顺序",
+        "question": "描写日出过程，第一步通常写什么？",
+        "options": [
+          "太阳跳出海面",
+          "天边出现红霞",
+          "满天灿烂的光芒",
+          "乌云遮住太阳"
+        ],
+        "answer": "天边出现红霞",
+        "explanation": "根据《海上日出》，先是天边出现红光红霞，然后才是太阳升起。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "描写视角",
+        "question": "“不论多大的船只，进出罪都要仰卧在其中”，这句话突出了孔隙的：",
+        "options": [
+          "长度",
+          "高度",
+          "宽度",
+          "险要"
+        ],
+        "answer": "高度",
+        "explanation": "仰卧意味着空间极扁极矮，突出高度上的受限。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "习作重点",
+        "question": "如果要写一篇《美丽的公园》，下列哪项最适合作为详写内容？",
+        "options": [
+          "早晨起床刷牙洗脸",
+          "路边的垃圾桶很有趣",
+          "湖心亭盛开的一池荷花",
+          "回家时的公交车人很多"
+        ],
+        "answer": "湖心亭盛开的一池荷花",
+        "explanation": "写美景应选取公园最具代表性的自然或人工景观进行详写。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "课外知识",
+        "question": "金华双龙洞位于我国的哪个省？",
+        "options": [
+          "江苏省",
+          "浙江省",
+          "江西省",
+          "福建省"
+        ],
+        "answer": "浙江省",
+        "explanation": "金华属于浙江省。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞手法",
+        "question": "“一刹那间，深红的圆东西发出夺目的亮光”，这里的圆东西指（___）。",
+        "options": [],
+        "answer": "太阳",
+        "explanation": "这是课文中对新升太阳的比喻。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "成语填空",
+        "question": "形容景色独特，很少见的四字成语是：奇观（___）。",
+        "options": [],
+        "answer": "异彩",
+        "explanation": "考察对“奇观”相关联描述词的掌握（注：若指课文可填异彩或直接填奇观一词）。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "游记衔接",
+        "question": "描写游览顺序时，我们常说“先、然后、再、（___）”。",
+        "options": [],
+        "answer": "最后",
+        "explanation": "这是常用的表示先后顺序的连接词。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "景物特征配对",
+        "question": "将景物与其具有的特点连起来：",
+        "options": [
+          "外洞",
+          "孔隙",
+          "内洞",
+          "溪水",
+          "宽大",
+          "奇特",
+          "窄小",
+          "欢快"
+        ],
+        "answer": "A-1,B-3,C-2,D-4",
+        "explanation": "外洞宽大，孔隙窄小，内洞景物奇特（石钟乳），溪水欢快流淌。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "地点关联",
+        "question": "将作者游览双龙洞的先后顺序连线：",
+        "options": [
+          "第一站",
+          "第二站",
+          "第三站",
+          "第四站",
+          "路上的景色",
+          "外洞",
+          "孔隙",
+          "内洞"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "按照文中游览顺序：路上->外洞->孔隙->内洞。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "词语释义",
+        "question": "将下列带有“观”字的词语与意思连线：",
+        "options": [
+          "海上奇观",
+          "走马观花",
+          "观察",
+          "观点",
+          "仔细看",
+          "景象",
+          "粗略看",
+          "看法"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "奇观-景象；走马观花-粗略看；观察-仔细看；观点-看法。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子仿写句子结构",
+        "question": "把词语组成一句生动的景物描写句：",
+        "options": [
+          "红霞",
+          "慢慢地",
+          "范围",
+          "扩大面积",
+          "在"
+        ],
+        "answer": "红霞,在,慢慢地,扩大面积,范围",
+        "explanation": "考察对《海上日出》中原句语序的理解。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "过渡句连词",
+        "question": "按逻辑顺序排列这个游记转场句子：",
+        "options": [
+          "过了",
+          "就",
+          "小桥",
+          "来到了",
+          "翠竹林"
+        ],
+        "answer": "过了,小桥,就,来到了,翠竹林",
+        "explanation": "使用“过了...就来到了...”的承接句式。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "移步换景的游览顺序",
+      "core_concept": "移步换景是指在描写一个地方时，观察者不是停留在固定的位置，而是随着脚步的移动变换观察点，将所见的景物依次写下来。在写作中，必须明确交代观察位置的改变。",
+      "key_formula": "位置变换+新景物+景物特征",
+      "common_mistakes": [
+        "忘记写表示位置转换的词语，导致读者不知道景物在哪",
+        "空间跨度太大，中间没有衔接"
+      ],
+      "tips": "可以先画一张游览路线草图，确定哪些地方需要停下来详细看。"
+    },
+    {
+      "point": "游记过渡句的衔接",
+      "core_concept": "过渡句是连接两个景点的桥梁。它可以提示游览的顺序，如“走完路，就来到了洞口”，使文章脉络清晰，读者能听清作者的行踪。",
+      "key_formula": "（离开旧景点）+（动作）+（到达新景点）",
+      "common_mistakes": [
+        "过渡生硬，直接就开始写下一个景",
+        "每一段的开头都用同样的连接词，如'接着'、'又'，语言单调"
+      ],
+      "tips": "尝试用泉水、阳光或路标作为线索来连接不同的景点。"
+    },
+    {
+      "point": "场景细节的详略安排",
+      "core_concept": "在描写一处美景时，不能像流水账一样面面俱到。要挑选印象最深的一两个景物进行详细描写（如外貌、颜色、动态、感受），其他的则可以简单带过。",
+      "key_formula": "重点景物（详）+ 次要景物（略）= 层次感",
+      "common_mistakes": [
+        "重点不突出，所有的景物都只写一两句话",
+        "把不重要的生活细节（如坐车、买票）写得太长"
+      ],
+      "tips": "把最想推荐给别人的那个景点作为“主咖”，给它最多的文字。"
+    }
+  ]
+}

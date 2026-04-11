@@ -1,0 +1,730 @@
+{
+  "textbook": "PEP Primary English Book Grade 5 Volume 2",
+  "unit": "My day",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "Unit 1 My day - Basic Skills Test",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "'eat breakfast' 的意思是吃早餐。",
+        "options": [],
+        "answer": "对",
+        "explanation": "eat breakfast是吃早餐的固定搭配。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "'do morning exercises' 的意思是晨练或做早操。",
+        "options": [],
+        "answer": "对",
+        "explanation": "do morning exercises 意为做早操。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "单词 'busy' 的意思是忙碌的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "busy是形容词，表示忙的。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "频度副词的用法",
+        "question": "'sometimes' 放在句中，意思是‘总是’。",
+        "options": [],
+        "answer": "错",
+        "explanation": "sometimes 是‘有时’，总是是 always。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "询问并回答作息时间",
+        "question": "在描述时间点前，通常使用介词 'at'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "时间点前常用 at，如 at 7:00。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I often _____ basketball on the weekend.",
+        "options": [
+          "play",
+          "playing",
+          "plays",
+          "played"
+        ],
+        "answer": "play",
+        "explanation": "often提示用一般现在时，主语I用动词原形。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问并回答作息时间",
+        "question": "When _____ you get up?",
+        "options": [
+          "does",
+          "am",
+          "do",
+          "are"
+        ],
+        "answer": "do",
+        "explanation": "主语是you，助动词用do。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词的用法",
+        "question": "What do you _____ do on Sundays?",
+        "options": [
+          "usually",
+          "once",
+          "too",
+          "can"
+        ],
+        "answer": "usually",
+        "explanation": "问经常做的事情，通常用频度副词usually。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "It's 12 o'clock. It's time to eat _____.",
+        "options": [
+          "breakfast",
+          "lunch",
+          "dinner",
+          "egg"
+        ],
+        "answer": "lunch",
+        "explanation": "12点通常是吃午饭（lunch）的时间。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字母组合cl的发音规律",
+        "question": "Which word has the /kl/ sound?",
+        "options": [
+          "plate",
+          "clean",
+          "play",
+          "please"
+        ],
+        "answer": "clean",
+        "explanation": "clean中的cl发/kl/音。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I always _____ my room on Saturday.",
+        "options": [
+          "wash",
+          "watch",
+          "clean",
+          "go"
+        ],
+        "answer": "clean",
+        "explanation": "打扫房间用clean my room。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I take a dancing _____ on Saturdays.",
+        "options": [
+          "room",
+          "class",
+          "shop",
+          "park"
+        ],
+        "answer": "class",
+        "explanation": "take a class 意为上课。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词的用法",
+        "question": "Zhang Peng _____ plays sports.",
+        "options": [
+          "sometimes",
+          "very",
+          "good",
+          "is"
+        ],
+        "answer": "sometimes",
+        "explanation": "句意表达频度，需要频度副词。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问并回答作息时间",
+        "question": "—When do you eat dinner? —_____ 7:00 p.m.",
+        "options": [
+          "In",
+          "On",
+          "At",
+          "For"
+        ],
+        "answer": "At",
+        "explanation": "具体几点钟前面用at。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I often _____ shopping with my mum.",
+        "options": [
+          "go",
+          "goes",
+          "doing",
+          "does"
+        ],
+        "answer": "go",
+        "explanation": "go shopping 是固定搭配。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I eat _____ at 7:00 in the morning.",
+        "options": [],
+        "answer": "breakfast",
+        "explanation": "早上7点通常吃早餐。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I usually go for a _____ with my father.",
+        "options": [],
+        "answer": "walk",
+        "explanation": "go for a walk 意为去散步。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并回答作息时间",
+        "question": "_____ do you finish class in Spain?",
+        "options": [],
+        "answer": "when",
+        "explanation": "询问时间用疑问词when。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I play _____ with my friends at 4:30.",
+        "options": [],
+        "answer": "sports",
+        "explanation": "play sports 是本单元核心词组，意为体育运动。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "请将下列英语短语与其对应的中文意思连线。",
+        "options": [
+          "get up",
+          "brush teeth",
+          "play sports",
+          "clean my room",
+          "进行体育活动",
+          "起床",
+          "打扫我的房间",
+          "刷牙"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "get up-起床, brush teeth-刷牙, play sports-进行体育活动, clean my room-打扫我的房间。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词的用法",
+        "question": "请将频度副词与其中文释义及对应特征连线。",
+        "options": [
+          "always",
+          "usually",
+          "often",
+          "sometimes",
+          "经常",
+          "总是",
+          "有时",
+          "通常"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "always-总是, usually-通常, often-经常, sometimes-有时。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并回答作息时间",
+        "question": "连词成句：do, get, When, you, up, ?",
+        "options": [
+          "do",
+          "get",
+          "When",
+          "you",
+          "up",
+          "?"
+        ],
+        "answer": "When,do,you,get,up,?",
+        "explanation": "疑问词+do+主语+动词原形+其他？"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "日常作息动词短语",
+        "question": "连词成句：I, breakfast, at, 7:00, eat, .",
+        "options": [
+          "I",
+          "breakfast",
+          "at",
+          "7:00",
+          "eat",
+          "."
+        ],
+        "answer": "I,eat,breakfast,at,7:00,.",
+        "explanation": "主语+谓语+宾语+时间状语。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "Grade 5 Second Term English Mid-term Exam (Unit 1)",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "In English, 'have dinner' and 'eat dinner' have the same meaning.",
+        "options": [],
+        "answer": "对",
+        "explanation": "have 和 eat 在表示进餐时可以互换。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "频度副词的用法",
+        "question": "The word 'usually' means you do something 100% of the time.",
+        "options": [],
+        "answer": "错",
+        "explanation": "100%通常是always, usually大约是80%。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字母组合pl的发音规律",
+        "question": "The 'pl' in 'plate' and 'player' sounds the same.",
+        "options": [],
+        "answer": "对",
+        "explanation": "都发/pl/音。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "日常作息动词短语",
+        "question": "We say 'on the morning' to talk about daily activities.",
+        "options": [],
+        "answer": "错",
+        "explanation": "应该用 'in the morning'。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "'shopping' is the correct spelling for 购物.",
+        "options": [],
+        "answer": "对",
+        "explanation": "拼写正确。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I often _____ morning exercises.",
+        "options": [
+          "do",
+          "does",
+          "did",
+          "doing"
+        ],
+        "answer": "do",
+        "explanation": "主语是第一人称，一般现在时谓语动词用原形。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并回答作息时间",
+        "question": "_____ do you go to bed?",
+        "options": [
+          "What",
+          "When",
+          "Where",
+          "Who"
+        ],
+        "answer": "When",
+        "explanation": "询问时间用 When。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "频度副词的用法",
+        "question": "I _____ play football, but not very often.",
+        "options": [
+          "always",
+          "sometimes",
+          "usually",
+          "never"
+        ],
+        "answer": "sometimes",
+        "explanation": "but not very often 提示频率不高，所以选 sometimes。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I often go _____ on the weekend.",
+        "options": [
+          "shop",
+          "shope",
+          "shopping",
+          "shopped"
+        ],
+        "answer": "shopping",
+        "explanation": "go shopping 是习惯表达。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I eat lunch _____ school.",
+        "options": [
+          "at",
+          "on",
+          "to",
+          "of"
+        ],
+        "answer": "at",
+        "explanation": "在学校用 at school。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字母组合cl和pl的发音规律",
+        "question": "Find the odd one out (找出发音不同的一项).",
+        "options": [
+          "clean",
+          "clock",
+          "cloud",
+          "play"
+        ],
+        "answer": "play",
+        "explanation": "前三个是cl发音，play是pl发音。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并回答作息时间",
+        "question": "When do you _____ back to school?",
+        "options": [
+          "goes",
+          "going",
+          "go",
+          "went"
+        ],
+        "answer": "go",
+        "explanation": "助动词do后面接动词原形。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "日常作息动词短语",
+        "question": "The police officer works _____ night.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "with"
+        ],
+        "answer": "at",
+        "explanation": "at night 是固定搭配。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词的用法",
+        "question": "We _____ have a robot. He is helpful.",
+        "options": [
+          "too",
+          "very",
+          "also",
+          "all"
+        ],
+        "answer": "also",
+        "explanation": "also 意为‘也’，常放在实义动词前。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并回答作息时间",
+        "question": "That's _____ late!",
+        "options": [
+          "too",
+          "to",
+          "two",
+          "much"
+        ],
+        "answer": "too",
+        "explanation": "too late 表示‘太晚了’。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I eat _____ at 6:00 p.m.",
+        "options": [],
+        "answer": "dinner",
+        "explanation": "傍晚通常吃晚餐。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常作息动词短语",
+        "question": "—What do you do on the _____? —I often clean my room.",
+        "options": [],
+        "answer": "weekend",
+        "explanation": "常问周末（weekend）做什么。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常作息动词短语",
+        "question": "I usually do _____ exercises at 8:30 a.m.",
+        "options": [],
+        "answer": "morning",
+        "explanation": "动词短语为 do morning exercises。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "频度副词的用法",
+        "question": "I _____ watch TV. (频率100%)",
+        "options": [],
+        "answer": "always",
+        "explanation": "100%频率用always。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "日常作息动词短语",
+        "question": "中英文句子对应关系连线。",
+        "options": [
+          "Go for a walk.",
+          "Take a class.",
+          "Eat dinner.",
+          "Wash clothes.",
+          "上课",
+          "去散步",
+          "洗衣服",
+          "吃晚饭"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "A对2(去散步)，B对1(上课)，C对4(吃晚饭)，D对3(洗衣服)。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "日常作息动词短语",
+        "question": "单词拼写与意思对应。",
+        "options": [
+          "busy",
+          "often",
+          "class",
+          "when",
+          "经常",
+          "忙碌的",
+          "什么时候",
+          "课"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "A-busy(2忙)，B-often(1经常)，C-class(4课)，D-when(3什么时候)。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "频度副词的用法",
+        "question": "连词成句：I, always, up, get, early, .",
+        "options": [
+          "I",
+          "always",
+          "up",
+          "get",
+          "early",
+          "."
+        ],
+        "answer": "I,always,get,up,early,.",
+        "explanation": "频度副词放在实义动词之前。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问并回答作息时间",
+        "question": "连词成句：When, finish, you, class, do, ?",
+        "options": [
+          "When",
+          "finish",
+          "you",
+          "class",
+          "do",
+          "?"
+        ],
+        "answer": "When,do,you,finish,class,?",
+        "explanation": "特殊疑问句语序：疑问词+do+主语+动词原形+其他。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "日常作息动词短语",
+      "core_concept": "描述一天的活动，如 get up, eat breakfast, play sports, clean my room。",
+      "key_formula": "动词原形 + 宾语 (如: eat + dinner)",
+      "common_mistakes": [
+        "容易混淆 eat breakfast 和 eat dinner",
+        "忘记 do morning exercises 中的 exercises 是复数"
+      ],
+      "tips": "记忆短语时结合身体动作，形成肌肉记忆。"
+    },
+    {
+      "point": "频度副词",
+      "core_concept": "表示动作发生的频率，常见的有 always, usually, often, sometimes。",
+      "key_formula": "主语 + 频度副词 + 动词 (如: I usually get up at 6:00)",
+      "common_mistakes": [
+        "频度副词位置放错",
+        "always 和 usually 频率等级混淆"
+      ],
+      "tips": "可以将频率从100%到20%排列：always > usually > often > sometimes。"
+    },
+    {
+      "point": "询问作息的 When 句型",
+      "core_concept": "询问对方在什么时间做某事。",
+      "key_formula": "When do you + 动词原形 + 其他? 回答：I ... at ... ",
+      "common_mistakes": [
+        "回答时间时漏掉介词 at",
+        "疑问词 when 写成 what"
+      ],
+      "tips": "见到 When 开头的问句，答案里一定要找表示时间的词和 at。"
+    },
+    {
+      "point": "cl/pl 字母组合发音",
+      "core_concept": "辨析 cl 发音为 /kl/，pl 发音为 /pl/。",
+      "key_formula": "cl- [k] + [l], pl- [p] + [l]",
+      "common_mistakes": [
+        "发音不清晰，混淆 [k] 和 [p]"
+      ],
+      "tips": "多读含有这组字母组合的单词，如 clean, clock (cl) 和 play, plate (pl)。"
+    }
+  ]
+}

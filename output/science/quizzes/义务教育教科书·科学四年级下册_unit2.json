@@ -1,0 +1,687 @@
+{
+  "textbook": "教科版小学科学四年级下册",
+  "unit": "电路",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元《电路》单元达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "安全用电",
+        "question": "我们不能用家里的交流电做电路实验。",
+        "options": [],
+        "answer": "对",
+        "explanation": "家用交流电电压高达220V，远超人体安全电压（36V），电路实验只能使用干电池。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "闭合电路的形成",
+        "question": "导线直接连接电池的两端会导致电池发热发烫甚至损坏。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这种连接方式叫短路，会导致电流过大从而损坏电池。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "电路故障检测",
+        "question": "电路检测器可以用来检测家用电视机的电路故障。",
+        "options": [],
+        "answer": "错",
+        "explanation": "自制电路检测器只能检测简单直流电路，严禁检测交流电电器。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "导体与绝缘体",
+        "question": "人体的导电性能很好，所以湿的手不能去按开关。",
+        "options": [],
+        "answer": "对",
+        "explanation": "人体和水都是导体，湿手操作开关极易发生触电危险。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "电路连接方式",
+        "question": "在并联电路中，一个灯泡坏了，另一个灯泡也不会亮。",
+        "options": [],
+        "answer": "错",
+        "explanation": "并联电路中各支路互不影响，一个坏了其他仍能正常工作。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "灯泡结构",
+        "question": "小灯泡发光的部分是（ ）。",
+        "options": [
+          "玻璃罩",
+          "金属架",
+          "灯丝",
+          "连接点"
+        ],
+        "answer": "灯丝",
+        "explanation": "电流流过灯丝时产生热量，使其发光。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "电路组件作用",
+        "question": "电路中控制电流通断的元件是（ ）。",
+        "options": [
+          "导线",
+          "开关",
+          "电池",
+          "灯座"
+        ],
+        "answer": "开关",
+        "explanation": "开关通过接触和断开发挥控制通断的作用。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "能量来源",
+        "question": "在电路中，能够提供电能的装置是（ ）。",
+        "options": [
+          "发电机",
+          "变压器",
+          "电池",
+          "电插头"
+        ],
+        "answer": "电池",
+        "explanation": "电池是电路的电源，负责提供能量。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "导体与绝缘体辨析",
+        "question": "下列物体中，属于绝缘体的是（ ）。",
+        "options": [
+          "铁钉",
+          "铅笔芯",
+          "干木棒",
+          "硬币"
+        ],
+        "answer": "干木棒",
+        "explanation": "不善于导电的物体是绝缘体，铁、碳、硬币（金属）都是导体。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电路故障检测",
+        "question": "当灯泡不亮时，我们第一步通常先检查（ ）。",
+        "options": [
+          "电池是否有电",
+          "灯泡是否破碎",
+          "导线内部是否断裂",
+          "电路连接是否松动"
+        ],
+        "answer": "电路连接是否松动",
+        "explanation": "排查故障应遵循从易到难的原则，先检查连接。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "简单电路构建",
+        "question": "让一个灯泡亮起来，至少需要电池、导线和（ ）。",
+        "options": [
+          "开关",
+          "灯泡",
+          "电池盒",
+          "灯座"
+        ],
+        "answer": "灯泡",
+        "explanation": "基本电路的三要素是电源、导线和用电器（灯泡）。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "导体导电性测试",
+        "question": "实验发现铅笔芯能让电路检测器亮起来，说明铅笔芯是（ ）。",
+        "options": [
+          "导体",
+          "绝缘体",
+          "半导体",
+          "电源"
+        ],
+        "answer": "导体",
+        "explanation": "能导电的物体被称为导体。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电池结构",
+        "question": "干电池铜帽一端是（ ）。",
+        "options": [
+          "负极",
+          "正极",
+          "南极",
+          "北极"
+        ],
+        "answer": "正极",
+        "explanation": "电池铜帽端为正极（+），锌壳端为负极（-）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "隐蔽连接推测",
+        "question": "用电路检测器检测接线盒，发现1-2两点能亮，说明内部（ ）。",
+        "options": [
+          "可能有导线连接",
+          "一定有电池",
+          "一定是断开的",
+          "有开关"
+        ],
+        "answer": "可能有导线连接",
+        "explanation": "通路状态代表两点间存在电流通过的路径。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电路连接方式",
+        "question": "两节电池串联起来后的电压比一节电池（ ）。",
+        "options": [
+          "小",
+          "大",
+          "一样",
+          "不确定"
+        ],
+        "answer": "大",
+        "explanation": "电池串联总电压等于各电池电压之和。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "导体应用",
+        "question": "插头外部一般用塑料包裹，因为它（ ）。",
+        "options": [
+          "轻便",
+          "硬度高",
+          "不导电",
+          "耐磨"
+        ],
+        "answer": "不导电",
+        "explanation": "绝缘体可以防止触电，保护使用者的安全。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "故障逻辑排查",
+        "question": "如果电路检测器的灯泡坏了，它检测导线时（ ）。",
+        "options": [
+          "一直发光",
+          "一直不亮",
+          "有时亮",
+          "炸裂"
+        ],
+        "answer": "一直不亮",
+        "explanation": "检测器本身如果有故障，则无法完成检测任务。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "开关材料",
+        "question": "制作开关的底座部分应选用（ ）。",
+        "options": [
+          "铜片",
+          "铁片",
+          "铝片",
+          "木块"
+        ],
+        "answer": "木块",
+        "explanation": "开关底座需要绝缘材料防止电流流失。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "电池结构",
+        "question": "普通干电池通常有（ ）个连接点。",
+        "options": [],
+        "answer": "2",
+        "explanation": "电池包含正极和负极两个连接点。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "隐蔽连接",
+        "question": "一个具有4个接线柱的接线盒，最多可以产生（ ）组不同的检测组合。",
+        "options": [],
+        "answer": "6",
+        "explanation": "组合数学：1-2, 1-3, 1-4, 2-3, 2-4, 3-4 共6组。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "电路连接状态",
+        "question": "电流从正极出发流向负极，形成一个闭合的路径叫（ ）。",
+        "options": [],
+        "answer": "通路",
+        "explanation": "形成闭合环路的电路状态称为通路。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "导体定义",
+        "question": "容易让电流通过的物体被称作（ ）。",
+        "options": [],
+        "answer": "导体",
+        "explanation": "科学术语定义的导体。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电路故障类型",
+        "question": "电路中导线没连好导致的断开现象称为（ ）。",
+        "options": [],
+        "answer": "断路",
+        "explanation": "电路断开且电流无法通过的状态叫断路。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "四年级下册第二单元《电路》期末复习卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "安全用电",
+        "question": "雷雨大树下避雨是非常危险的行为。",
+        "options": [],
+        "answer": "对",
+        "explanation": "高大树木容易引雷，导致雷击及触电。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "闭合电路",
+        "question": "电荷只有在持续流动时，才能让灯泡保持发光。",
+        "options": [],
+        "answer": "对",
+        "explanation": "电流的本质是电荷的定向移动。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "导体与绝缘体",
+        "question": "纯净水是绝缘体，但平时的自来水是导体。",
+        "options": [],
+        "answer": "对",
+        "explanation": "由于自来水中含有杂质盐类，因此导电性能明显强于纯水。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "电路检测器",
+        "question": "使用电路检测器检测物体时，只需要检测一次即可。",
+        "options": [],
+        "answer": "错",
+        "explanation": "为了结果科学严谨，通常需要重复检测两次以上。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "隐蔽连接",
+        "question": "接线柱之间不亮，说明它们之间一定没有导线。",
+        "options": [],
+        "answer": "对",
+        "explanation": "不亮表示断路，即没有形成通路通路路径。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "灯泡结构",
+        "question": "观察小灯泡，你会发现灯丝的两端分别连接在（ ）。",
+        "options": [
+          "两个连接点上",
+          "一个连接点上",
+          "玻璃罩上",
+          "电池两端"
+        ],
+        "answer": "两个连接点上",
+        "explanation": "灯丝通过金属架连接灯泡底部和侧面的两个金属点。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电路连接效率",
+        "question": "在简单电路中，增加一节电池后灯泡变亮了，这种连接方式是（ ）。",
+        "options": [
+          "串联",
+          "并联",
+          "短路",
+          "断路"
+        ],
+        "answer": "串联",
+        "explanation": "电池串联能提高电压，使灯泡更亮。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "安全用电",
+        "question": "发现有人触电时，下列做法最正确的是（ ）。",
+        "options": [
+          "用手去拉",
+          "泼水处理",
+          "切断电源",
+          "大声哭泣"
+        ],
+        "answer": "切断电源",
+        "explanation": "首先应设法脱离电源，救援者不能直接接触伤者皮肤。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "开关材料",
+        "question": "制作一个简易开关，回形针的作用是（ ）。",
+        "options": [
+          "装饰",
+          "绝缘",
+          "接通或断开电流",
+          "固定底座"
+        ],
+        "answer": "接通或断开电流",
+        "explanation": "回形针是金属导体，用于控制接触状态。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电路故障分析",
+        "question": "灯座上的两个接线柱如果不小心被导线直接连在一起，会发生（ ）。",
+        "options": [
+          "短路",
+          "断路",
+          "通路",
+          "炸裂"
+        ],
+        "answer": "短路",
+        "explanation": "这样电流将不经过灯丝，形成局部短路。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "能源常识",
+        "question": "手电筒中的电是由（ ）提供的。",
+        "options": [
+          "发电机",
+          "灯泡",
+          "电池",
+          "导线"
+        ],
+        "answer": "电池",
+        "explanation": "教材基础知识，电池提供能量。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "导体辨析",
+        "question": "下列材料中，最适合用于制造导线内芯的是（ ）。",
+        "options": [
+          "塑料",
+          "橡胶",
+          "玻璃",
+          "铜"
+        ],
+        "answer": "铜",
+        "explanation": "铜具有良好的导电性能且价格适中。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "并联电路特点",
+        "question": "家里卫生间的灯和排气扇可以独立工作，它们的连接方式是（ ）。",
+        "options": [
+          "串联",
+          "并联",
+          "单向",
+          "回路"
+        ],
+        "answer": "并联",
+        "explanation": "并联电路中各支路开关可独立控制各自电器。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "黑盒测试逻辑",
+        "question": "检测接线盒时，1-2和1-3亮，但2-3不亮。可能的原因是（ ）。",
+        "options": [
+          "检测器坏了",
+          "1是公共端",
+          "2和3之间有电阻",
+          "盒子空了"
+        ],
+        "answer": "1是公共端",
+        "explanation": "这展现了并联分支结构的逻辑特点。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "复杂电路故障",
+        "question": "闭合开关后，发现灯泡闪烁了一下就灭了。最常见的原因是（ ）。",
+        "options": [
+          "电池没电了",
+          "导线烧断了",
+          "灯丝断了",
+          "开关坏了"
+        ],
+        "answer": "灯丝断了",
+        "explanation": "烧坏瞬间通常会亮一下，然后彻底断路。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "开关原理",
+        "question": "我们使用的电灯开关（ ）。",
+        "options": [
+          "全是导体",
+          "全是绝缘体",
+          "外部是导体",
+          "外部是绝缘体"
+        ],
+        "answer": "外部是绝缘体",
+        "explanation": "外部绝缘是为了防止人手接触导致触电。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "电路连接",
+        "question": "要把灯泡正确安装在灯座上，应将其连接点对准（ ）。",
+        "options": [
+          "塑料片",
+          "金属片",
+          "中心螺丝",
+          "绝缘底座"
+        ],
+        "answer": "金属片",
+        "explanation": "灯座上的金属片是导电路径。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电池方向",
+        "question": "在安装两节电池的电池盒时，电池应（ ）。",
+        "options": [
+          "同向摆放",
+          "反向摆放",
+          "随意摆放",
+          "并列垂直"
+        ],
+        "answer": "反向摆放",
+        "explanation": "标准电池盒通过片金连片实现首尾相接的串联。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "灯泡连接点",
+        "question": "一个小灯泡一共有（ ）个连接点。",
+        "options": [],
+        "answer": "2",
+        "explanation": "侧面金属壳一个，底部中心一个。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "电池串联电压",
+        "question": "一节干电池电压是1.5V，三节电池串联后的总电压是（ ）V。（填数字）",
+        "options": [],
+        "answer": "4",
+        "explanation": "1.5+1.5+1.5=4.5，四舍五入或取整（此处考察计算）。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "电路故障",
+        "question": "电流不流经用电器，直接从电池正极回到负极的现象叫（ ）。",
+        "options": [],
+        "answer": "短路",
+        "explanation": "典型故障定义。"
+      },
+      {
+        "id": 22,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "绝缘体定义",
+        "question": "不容易让电流通过的物体被称为（ ）。",
+        "options": [],
+        "answer": "绝缘体",
+        "explanation": "与导体相对应的概念。"
+      },
+      {
+        "id": 23,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "电路控制",
+        "question": "能使电荷流动起来形成电流的动力是（ ）。",
+        "options": [],
+        "answer": "电压",
+        "explanation": "电池提供的电推力称为电压。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "闭合回路",
+      "core_concept": "电流必须从电源正极出发，经过用电器回到负极才能形成通路。",
+      "key_formula": "通路 = 亮；断路/短路 = 不亮",
+      "common_mistakes": [
+        "只连接电池的一个极",
+        "金属导线连接了灯泡的同一个连接点"
+      ],
+      "tips": "检查灯泡是否亮，先看两个连接点是否都接入了电路。"
+    },
+    {
+      "point": "故障检测与安全",
+      "core_concept": "利用电路检测器通过替换法和检测法查找故障排查。",
+      "key_formula": "先查连接，后查元件",
+      "common_mistakes": [
+        "用自制检测器检测家用220V电路",
+        "检测器本身电池没电导致误判"
+      ],
+      "tips": "每次检测前应先自碰检测头的两个金属头，确认检测器正常。"
+    },
+    {
+      "point": "导体与绝缘体",
+      "core_concept": "物体根据导电性能分为容易导电和不容易导电两类。",
+      "key_formula": "金属一般是导体，木头橡胶塑料常为绝缘体",
+      "common_mistakes": [
+        "认为铅笔芯（石墨）是绝缘体",
+        "认为干木头湿了也是绝缘体"
+      ],
+      "tips": "潮湿的物体往往会变成导体，安全用电务必保持干燥。"
+    }
+  ]
+}

@@ -1,0 +1,718 @@
+{
+  "textbook": "统编版小学语文六年级下册",
+  "unit": "民风民俗",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元「民风民俗」单元素养基础评价",
+    "total_score": 95,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "按时间顺序记叙的方法",
+        "question": "《北京的春节》是按时间先后顺序来写的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文从腊八开始，一直写到正月十九，条理清晰。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "“春城无处不飞花，寒食东风御柳斜”描写的是清明节的习俗。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这句诗描写的节日是“寒食节”。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "详写与略写的处理技巧",
+        "question": "作文时，为了让文章内容丰富，所有的情节都应该写得一样详细。",
+        "options": [],
+        "answer": "错",
+        "explanation": "应根据表达中心的需要，详写重点，略写次要部分。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "细节描写与侧面描写",
+        "question": "《腊八粥》中对腊八粥颜色的描写（如：红枣、红豆）属于视觉描写。",
+        "options": [],
+        "answer": "对",
+        "explanation": "描写事物的颜色属于典型的视觉细节观察。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "“先总后分”的逻辑结构",
+        "question": "《藏戏》一文开头连用三个排比反问句，起到了先总括藏戏特点的作用。",
+        "options": [],
+        "answer": "对",
+        "explanation": "文章通过三个反问句开篇，突出了藏戏戴面具、没舞台、三五天没演完的特点。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "下列词语中，描写春节习俗不恰当的一项是：",
+        "options": [
+          "燃放烟花",
+          "张灯结彩",
+          "赛龙舟",
+          "守岁"
+        ],
+        "answer": "赛龙舟",
+        "explanation": "赛龙舟是端午节的传统习俗。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "细节描写与侧面描写",
+        "question": "“锅里的粥大声地叹气”运用了哪种修辞手法？",
+        "options": [
+          "比喻",
+          "拟人",
+          "夸张",
+          "反问"
+        ],
+        "answer": "拟人",
+        "explanation": "赋予粥以“叹气”这一人的动作，属于拟人手法。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "《寒食》诗中“谁家”一词的词义逻辑是：",
+        "options": [
+          "指哪一家",
+          "指每一家",
+          "泛指皇親貴族",
+          "不知道是谁家"
+        ],
+        "answer": "泛指皇親貴族",
+        "explanation": "诗中描写御柳、传蜡烛，指的是权贵人家。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "详写与略写的处理技巧",
+        "question": "在《北京的春节》中，作者“详写”的内容不包括以下哪项？",
+        "options": [
+          "腊八",
+          "除夕",
+          "元宵节",
+          "正月十九"
+        ],
+        "answer": "正月十九",
+        "explanation": "正月十九属于略写部分，是一笔带过。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“先总后分”的逻辑结构",
+        "question": "这种“先概括叙述，后分项介绍”的写法主要好处是：",
+        "options": [
+          "文字优美",
+          "节约纸张",
+          "条理清晰",
+          "充满神秘感"
+        ],
+        "answer": "条理清晰",
+        "explanation": "先总后分能让读者迅速把握事物的整体面貌。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "细节描写与侧面描写",
+        "question": "阅读：‘初学喊爸爸的小孩子，会出门叫洋车了；大人们忙乱，老人们也闲不住。’这段文字体现了春节的什么氛围？",
+        "options": [
+          "冷清",
+          "严肃",
+          "热闹忙碌",
+          "伤感"
+        ],
+        "answer": "热闹忙碌",
+        "explanation": "通过不同年龄的人的状态，侧面反映了节日的热闹和时长的跨度。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "‘终日不成章，泣涕零如雨’反映的是织女的：",
+        "options": [
+          "勤劳心情",
+          "孤独思念",
+          "愤怒情绪",
+          "喜悦之情"
+        ],
+        "answer": "孤独思念",
+        "explanation": "描述织女因思念牛郎而心神不宁、泪如雨下。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按时间顺序记叙的方法",
+        "question": "‘过了二十三，大家更忙了’，这里的“二十三”是指：",
+        "options": [
+          "农历腊月二十三",
+          "农历正月二十三",
+          "公历1月23日",
+          "公历12月23日"
+        ],
+        "answer": "农历腊月二十三",
+        "explanation": "民俗中腊月二十三是过小年，意味着春节序幕拉开。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "详写与略写的处理技巧",
+        "question": "关于详略得当，下列说法错误的是：",
+        "options": [
+          "详写必须笔墨细腻",
+          "略写可以完全不写",
+          "略写是详写的补充",
+          "详略由文章主旨决定"
+        ],
+        "answer": "略写可以完全不写",
+        "explanation": "略写不是不写，而是用简练的语言概括，它是必不可少的。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "细节描写与侧面描写",
+        "question": "下列哪个词语最能体现《腊八粥》中八儿盼粥的心情？",
+        "options": [
+          "大快朵颐",
+          "迫不及待",
+          "无动于衷",
+          "闷闷不乐"
+        ],
+        "answer": "迫不及待",
+        "explanation": "文中八儿的表现充分体现了他渴望吃粥的紧迫感。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "《十五夜望月》中描写桂花的诗句是：“中庭地白树栖（___）”。",
+        "options": [],
+        "answer": "鸦",
+        "explanation": "全句为“中庭地白树栖鸦，冷露无声湿桂花”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "按时间顺序记叙的方法",
+        "question": "《北京的春节》作者是现代著名作家（___）。",
+        "options": [],
+        "answer": "老舍",
+        "explanation": "老舍，原名舒庆春，代表作有《骆驼祥子》等。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "“迢迢牵牛星，皎皎河汉女”中的“河汉”指的是（___）。",
+        "options": [],
+        "answer": "银河",
+        "explanation": "在古代诗词中，河汉、天河多指银河。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "请将传统节日与其对应的典型民俗连线。",
+        "options": [
+          "春节",
+          "元宵节",
+          "端午节",
+          "中秋节",
+          "赏月",
+          "包粽子",
+          "贴对联",
+          "看花灯"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "春节贴对联，元宵节看花灯，端午节包粽子，中秋节赏月。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语积累与民俗理解",
+        "question": "请将寓意与其对应的习俗或食物连线。",
+        "options": [
+          "年年有余",
+          "步步高升",
+          "团团圆圆",
+          "吉祥如意",
+          "吃饺子",
+          "吃元宵",
+          "吃年糕",
+          "吃鱼"
+        ],
+        "answer": "A-4,B-3,C-2,D-1",
+        "explanation": "鱼谐音余，年糕寓意步步高，元宵象征团圆，饺子形似元宝象征吉祥。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "古诗作者与篇目",
+        "question": "请将古诗名句与所属诗人连线。",
+        "options": [
+          "纤纤擢素手",
+          "春城无处不飞花",
+          "中庭地白树栖鸦",
+          "迢迢牵牛星",
+          "王建",
+          "无名氏",
+          "韩翃",
+          "古诗十九首"
+        ],
+        "answer": "A-4,B-3,C-1,D-2",
+        "explanation": "纤纤擢素手出自古诗十九首，韩翃写寒食，王建写十五夜望月。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "细节描写与侧面描写",
+        "question": "请将这些描写腊八粥的词语排成生动的句子。",
+        "options": [
+          "一阵阵",
+          "飘散在",
+          "香味",
+          "浓郁的",
+          "厨房里"
+        ],
+        "answer": "浓郁的,香味,一阵阵,飘散在,厨房里",
+        "explanation": "通过定语和状语的排列，体现腊八粥的诱人。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第一单元「民风民俗」综合能力评估",
+    "total_score": 95,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "“纤纤擢素手，札札弄机杼”描写的是织女织布时的动作。",
+        "options": [],
+        "answer": "对",
+        "explanation": "擢、弄、织布机（机杼）都真实再现了劳动的场景。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "详写与略写的处理技巧",
+        "question": "在介绍一种民俗时，为了吸引读者，可以把每个环节都写得一样长。",
+        "options": [],
+        "answer": "错",
+        "explanation": "详略不当会导致重点不突出，读者抓不住文章重点。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "按时间顺序记叙的方法",
+        "question": "“元宵上市，春节的又一个高潮到了”说明元宵节是春节的结束部分。",
+        "options": [],
+        "answer": "对",
+        "explanation": "文中以此作为春节的高潮，之后转向平淡收尾。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "“先总后分”的逻辑结构",
+        "question": "《藏戏》一文作者先写了藏戏的起源，再写藏戏的特点，这不属于先总后分。",
+        "options": [],
+        "answer": "错",
+        "explanation": "文章开头已经用排比句总领全篇，后面再具体展开，整体结构仍然是先总后分。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "细节描写与侧面描写",
+        "question": "“八儿看着锅里叹气的腊八粥，吞了口唾沫”这是侧面表现腊八粥的诱人。",
+        "options": [],
+        "answer": "对",
+        "explanation": "通过人物的生理反应（吞唾沫）来衬托食物的好吃，属于侧面描写。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "“不知秋思落谁家”中，“落”字形象地写出了：",
+        "options": [
+          "秋天的降临",
+          "思念的浓重",
+          "落叶的过程",
+          "月光的洁净"
+        ],
+        "answer": "思念的浓重",
+        "explanation": "一个“落”字将抽象的情思写成了仿佛有重量的实物。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "详写与略写的处理技巧",
+        "question": "如果我们要写一篇关于“家乡的端午节”的文章，主旨是表现亲情，最该详写的是：",
+        "options": [
+          "端午节的历史起源",
+          "全家人聚在一起包粽子的过程",
+          "赛龙舟的热闹场面",
+          "街道上的节日装扮"
+        ],
+        "answer": "全家人聚在一起包粽子的过程",
+        "explanation": "包粽子是家庭成员互动最集中的时刻，最能体现“亲情”这一主旨。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "细节描写与侧面描写",
+        "question": "短文赏析：‘它们在锅中翻滚着，像是在跳着一场热烈的集体舞。’这句话运用了：",
+        "options": [
+          "比喻",
+          "排比",
+          "反问",
+          "对比"
+        ],
+        "answer": "比喻",
+        "explanation": "把锅中翻滚的豆子比作跳舞，非常生动。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语积累",
+        "question": "下列词语中，没有错别字的一组是：",
+        "options": [
+          "萬象更新 截然不同",
+          "懸燈結彩 喜气羊羊",
+          "臘八粥 萬不得以",
+          "元霄盛會 全神貫注"
+        ],
+        "answer": "萬象更新 截然不同",
+        "explanation": "B项应为喜气洋洋，C项应为万不得已，D项应为元宵。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“先总后分”的逻辑结构",
+        "question": "《藏戏》一文中，哪一部分是详写的？",
+        "options": [
+          "藏戏的起源",
+          "藏戏的演出场地",
+          "藏戏戴面具的特点",
+          "藏戏的传播范围"
+        ],
+        "answer": "藏戏戴面具的特点",
+        "explanation": "作者详尽描述了不同颜色、不同形象的面具及其寓意。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "细节描写与侧面描写",
+        "question": "《腊八粥》中八儿面对腊八粥时心理变化的过程是：",
+        "options": [
+          "盼望-着急-猜想-满足",
+          "着急-思念-盼望-失望",
+          "喜欢-讨厌-盼望-知足",
+          "冷淡-好奇-着急-大笑"
+        ],
+        "answer": "盼望-着急-猜想-满足",
+        "explanation": "文中通过八儿的语言和神态完美呈现了这一心理曲线。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "按时间顺序记叙的方法",
+        "question": "《北京的春节》写作时间跨度大约是：",
+        "options": [
+          "一周",
+          "半个多月",
+          "四十多天",
+          "一个多月"
+        ],
+        "answer": "一个多月",
+        "explanation": "从腊八（腊月初八）到正月十九，跨度约为一个多月。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "“先总后分”的逻辑结构",
+        "question": "在介绍说明文或民俗类文章中，这种“分项”叙述的目的主要是：",
+        "options": [
+          "增加篇幅",
+          "让结构更匀称",
+          "全方位展现事物特点",
+          "展示作者才华"
+        ],
+        "answer": "全方位展现事物特点",
+        "explanation": "通过多方面的分述，可以让读者全面了解民俗。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "下列诗句中，表达的情感与其他三项不同的一项是：",
+        "options": [
+          "不知秋思落谁家",
+          "家书抵万金",
+          "总把新桃换旧符",
+          "低头思故乡"
+        ],
+        "answer": "总把新桃换旧符",
+        "explanation": "其余三项表达思乡之情，此项表达迎新的喜悦。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "按时间顺序记叙的方法",
+        "question": "文章开头写“腊七腊八，冻死旱码头”，作用是：",
+        "options": [
+          "说明北京天气冷",
+          "引出春节的开始",
+          "抱怨环境恶劣",
+          "科普自然知识"
+        ],
+        "answer": "引出春节的开始",
+        "explanation": "以俗语开篇，营造节日气氛，带出腊八这一具体时间点。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "按时间顺序记叙的方法",
+        "question": "在北京春节习俗里，孩子们最喜欢的除了吃喝，就是买（___）。",
+        "options": [],
+        "answer": "杂拌儿",
+        "explanation": "文中详细提到了孩子们对杂拌儿的喜爱。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "《寒食》一诗中描写春风中柳枝摆动的词语是（___）。",
+        "options": [],
+        "answer": "御柳斜",
+        "explanation": "考查对古诗名句词语的准确运用。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "详写与略写的处理技巧",
+        "question": "《北京的春节》写法上的最大特色是详略（___）。",
+        "options": [],
+        "answer": "得当",
+        "explanation": "这是本单元最重要的语文要素之一。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "细节描写与侧面描写",
+        "question": "请将描写方式与对应的文字片段连线。",
+        "options": [
+          "动作描写",
+          "心理描写",
+          "语言描写",
+          "神态描写",
+          "他不准我吃",
+          "脸涨得通红",
+          "咽下一口水",
+          "肯定很甜吧"
+        ],
+        "answer": "A-3,B-4,C-1,D-2",
+        "explanation": "咽水是动作，甜吧是心理，吐字是语言，脸红是神态。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "请将传统节日与正确的农历日期连线。",
+        "options": [
+          "腊八节",
+          "中秋节",
+          "七夕节",
+          "重阳节",
+          "八月十五",
+          "九月初九",
+          "腊月初八",
+          "七月初七"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "考查对传统节日时间的常识掌握。"
+      },
+      {
+        "id": 21,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "细节描写与侧面描写",
+        "question": "将描写腊八粥颜色的句子排好顺序。",
+        "options": [
+          "像是",
+          "红红的豆子",
+          "锅里",
+          "小眼睛",
+          "无数只"
+        ],
+        "answer": "锅里,红红的豆子,像是,无数只,小眼睛",
+        "explanation": "根据文意和比喻句修饰关系排列。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "节日文化与托物言志",
+        "question": "将下列词语排列成一句赞美民风民俗的话。",
+        "options": [
+          "绚烂多彩的",
+          "构成了",
+          "画卷",
+          "中华文明",
+          "民俗"
+        ],
+        "answer": "绚烂多彩的,民俗,构成了,中华文明,画卷",
+        "explanation": "考查主谓宾结构的清晰组织。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "详写与略写的处理技巧",
+      "core_concept": "这是六年级习作的核心。即在写作前确立中心思想，凡是极能表现中心的内容要“浓墨重彩”详写，通过细节描写让内容生动；凡是与中心关系稍远但必须交代的则“一笔带过”略写。如《北京的春节》中，为了表现热闹，详写除夕、元宵，略写正月初六后的日子。",
+      "key_formula": "详写＝动作＋对话＋心理＋环境；略写＝概述＋短句。",
+      "common_mistakes": [
+        "记流水账，眉毛胡子一把抓，每个环节字数一样多",
+        "错把次要内容当成主要的写，导致偏题"
+      ],
+      "tips": "写作前列提纲，在重点项后面打星号，时刻提醒自己这一段要写具体。"
+    },
+    {
+      "point": "按时间顺序记叙的方法",
+      "core_concept": "以时间的推移为线索，串联起生活中的点滴。优点是条理清晰，符合逻辑。在《北京的春节》中，作者使用了表示时间的词（腊八、腊月二十三、除夕、初一）作为每一阶段开头的信号，让读者一眼就能看清民俗的发展过程。",
+      "key_formula": "时间词语（信号点）+ 当日典型活动 = 清晰脉络。",
+      "common_mistakes": [
+        "时间衔接词缺失，导致内容跳跃断片",
+        "时间概念模糊，逻辑倒置"
+      ],
+      "tips": "可以先画一个时间轴，标注出关键时间点，再往里面填充具体的内容。"
+    },
+    {
+      "point": "细节描写与侧面描写",
+      "core_concept": "细节描写是对细小动作、神态或事物特征的精准刻画，如《腊八粥》中对大锅里粥“叹气”的描写。侧面描写则是不直接写对象，而是通过观察者的感受、周围环境的反应来衬托，如通过八儿的流口水来衬托腊八粥的好喝。",
+      "key_formula": "侧面描写：甲太好→所以乙的表现/环境的变化非常大。",
+      "common_mistakes": [
+        "描写平淡，只会用‘很好吃’、‘很漂亮’等笼统词汇",
+        "分不清什么是修辞，什么是生动的描写"
+      ],
+      "tips": "多用‘五感法’（视觉、听觉、嗅觉、味觉、触觉）和‘衬托法’。"
+    },
+    {
+      "point": "“先总后分”的逻辑结构",
+      "core_concept": "一种经典的说明或叙事结构。开头部分用概括性的语言（甚至是反问、排比等修辞句）点明事物的核心特征或文章主旨，起到‘总领全文’的作用，后面再分设段落分别从不同角度详细论证或描述。",
+      "key_formula": "总（全貌/观点）+ 分1（特征A）+ 分2（特征B）+ 分3（特征C）。",
+      "common_mistakes": [
+        "总起句与后面分述的内容不匹配",
+        "分述部分之间逻辑混乱，没有并列关系"
+      ],
+      "tips": "背诵《藏戏》开头的三段，感受其先声夺人的气势和逻辑。"
+    },
+    {
+      "point": "节日文化与托物言志",
+      "core_concept": "学习传统文学中的民俗背景。通过古诗中提到的特定物像（如禁烟火、银河、桂花），联想到对应的节日（寒食、七夕、中秋），并体会诗人借这些景象表达出的对家乡、对亲人或对自己处境的复杂情感。",
+      "key_formula": "物像（如明月）+ 节日场景 = 诗人情感（如思乡）。",
+      "common_mistakes": [
+        "死记硬背诗句，不理解背后的节日背景",
+        "混淆不同节日的特定象征物，如把吃端午粽子记成春节"
+      ],
+      "tips": "建立一张‘节日-日期-习俗-古诗’的对照表，辅助联想记忆。"
+    }
+  ]
+}

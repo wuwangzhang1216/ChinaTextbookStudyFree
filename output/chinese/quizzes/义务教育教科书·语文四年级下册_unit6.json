@@ -1,0 +1,734 @@
+{
+  "textbook": "统编版小学语文四年级下册",
+  "unit": "成长的足迹",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第六单元达标测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "《囊萤夜读》中“胤恭勤不倦”的“恭”字意思是“谦逊有礼”。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在《囊萤夜读》中，“恭”指恭敬、谦逊，“勤”指勤勉。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "《小英雄雨来》中，雨来之所以能逃脱，是因为他游泳本领高。",
+        "options": [],
+        "answer": "对",
+        "explanation": "雨来利用高超的游泳技能从河里脱险，体现了他的机智勇敢。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "“世传李太白读书山中，未成，弃去”中的“弃去”是“抛弃离开”的意思。",
+        "options": [],
+        "answer": "对",
+        "explanation": "弃：放弃；去：离开。指李白学习没完成就想放弃离开。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "长文章的小标题概括",
+        "question": "给长文章列小标题时，每个小标题的字数必须完全一样才行。",
+        "options": [],
+        "answer": "错",
+        "explanation": "小标题字数尽量工整即可，不强制要求完全一样，核心在于概括内容。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "《芦花鞋》里的青铜最后把脚上的芦花鞋也卖了是因为他家里太贪钱。",
+        "options": [],
+        "answer": "错",
+        "explanation": "青铜是为了让家里多赚点钱贴补家用，体现了他纯朴、善良和坚韧的品质。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "选出下列加点字读音全部正确的一项：",
+        "options": [
+          "倔强（jué） 部署（shǔ）",
+          "囊萤（nán） 祈求（qǐ）",
+          "慷慨（kài） 搓澡（cuō）",
+          "扒拉（bā） 捆绑（páng）"
+        ],
+        "answer": "倔强（jué） 部署（shǔ）",
+        "explanation": "B项囊应为náng；C项慨应为kǎi；D项绑应为bǎng。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "《囊萤夜读》中“夏月则练囊盛数十萤火以照书”中“练囊”的意思是：",
+        "options": [
+          "练习用袋子讲课",
+          "用白绢做的袋子",
+          "准备好的行囊",
+          "读书用的书包"
+        ],
+        "answer": "用白绢做的袋子",
+        "explanation": "练：白绢。练囊指用白色丝绢做的小袋子。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "“雨来没理他，脚下像踩着风，一直朝后院跑去。”这句话表现了雨来的：",
+        "options": [
+          "调皮贪玩",
+          "机智果断",
+          "惊慌失措",
+          "鲁莽冲动"
+        ],
+        "answer": "机智果断",
+        "explanation": "面对敌人，雨来反应迅速，说明他非常机智果断。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长文章的小标题概括",
+        "question": "根据课文内容，最适合做《小英雄雨来》第一部分小标题的是：",
+        "options": [
+          "雨来上夜校",
+          "掩护李大叔",
+          "游泳本领高",
+          "勇斗鬼子兵"
+        ],
+        "answer": "游泳本领高",
+        "explanation": "第一部分主要描写雨来在芦花村戏水的情景，突出了他水性好。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "“过是溪，逢老媪方磨铁杵”中“方”的意思是：",
+        "options": [
+          "方向",
+          "平方",
+          "正在",
+          "方才"
+        ],
+        "answer": "正在",
+        "explanation": "方：正在。指李白路过这条溪水，正好看见老奶奶在磨铁棒。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“蓝蓝的天空，电线杆之间连着几痕细线，多么像五线谱啊！”这是什么修辞？",
+        "options": [
+          "拟人",
+          "反问",
+          "排比",
+          "比喻"
+        ],
+        "answer": "比喻",
+        "explanation": "将电线比作五线谱，是典型的比喻手法。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "长文章的小标题概括",
+        "question": "如果给《芦花鞋》中青铜在雪地等候的一段起小标题，最贴切的是：",
+        "options": [
+          "美丽的芦花",
+          "雪地换鞋",
+          "雪中枯等",
+          "青铜的心事"
+        ],
+        "answer": "雪中枯等",
+        "explanation": "这段文字主要写青铜在雪天里为了卖鞋长时间坚持，体现了坚韧。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "下列哪句话最能体现《铁杵成针》给我们的启发？",
+        "options": [
+          "书读百遍，而义自见",
+          "只要功夫深，铁杵磨成针",
+          "一日读书一日切",
+          "敏而好学，不耻下问"
+        ],
+        "answer": "只要功夫深，铁杵磨成针",
+        "explanation": "这句话点明了《铁杵成针》的核心主旨：持之以恒。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“老师对我们的关怀无微不至。”中“无微不至”的意思是：",
+        "options": [
+          "没有微小的东西",
+          "每一处微小的地方都照顾到",
+          "不太重视",
+          "只有一点点关心"
+        ],
+        "answer": "每一处微小的地方都照顾到",
+        "explanation": "形容关怀、照顾得非常细致周到。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "阅读语段：“雨来仰着脸，望着妈妈。妈妈还在打。雨来一矮身，钻到妈妈的双臂下面。”这段话体现了：",
+        "options": [
+          "雨来不怕妈妈",
+          "雨来顽皮灵活",
+          "雨来胆大妄为",
+          "雨来心情很难过"
+        ],
+        "answer": "雨来顽皮灵活",
+        "explanation": "通过动作描写，展现了孩子天真、调皮、机灵的一面。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "车胤读书时，因为家贫不能买油，所以夏天用什么来照亮书本？",
+        "options": [],
+        "answer": "萤火虫",
+        "explanation": "《囊萤夜读》记载车胤夏天抓几十只萤火虫装在袋子里照亮书本供晚上阅读。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "《铁杵成针》故事的主人公是哪位著名的诗人？",
+        "options": [],
+        "answer": "李白",
+        "explanation": "文中提到“世传李太白读书山中”，即指李白。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长文章的小标题概括",
+        "question": "在《小英雄雨来》中，由于雨来在鬼子的毒打下坚贞不屈，人们都夸他是（___）。",
+        "options": [],
+        "answer": "小英雄",
+        "explanation": "雨来的勇敢品质使他赢得了“小英雄”的美称。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "将下列字词与对应的解释连线。",
+        "options": [
+          "胤恭勤不倦",
+          "夏月则练囊",
+          "逢老媪方磨",
+          "太白感其意",
+          "老奶奶",
+          "疲倦",
+          "被……感动",
+          "白绢口袋"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "倦指疲倦；练囊指白绢袋子；媪指老奶奶；感即被感动。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "根据课文内容，将人物与其特点准确连线。",
+        "options": [
+          "雨来",
+          "青铜",
+          "车胤",
+          "李白",
+          "机智勇敢",
+          "勤勉克苦",
+          "持之以恒",
+          "坚韧淳朴"
+        ],
+        "answer": "A-1,B-4,C-2,D-3",
+        "explanation": "雨来机智，青铜通过卖鞋体现坚韧，车胤勤勉学习，李白学铁杵精神后的持之以恒。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "根据情节将《芦花鞋》中的内容进行连线。",
+        "options": [
+          "辛苦编鞋",
+          "冒雪卖鞋",
+          "最后的一双",
+          "为了家人",
+          "执着等待",
+          "赤脚回家",
+          "精心准备",
+          "无私纯良"
+        ],
+        "answer": "A-3,B-2,C-1,D-4",
+        "explanation": "编鞋是精心准备；卖鞋是雪中等待；卖掉最后那一双意味着赤脚回家；这一切都是因为他照顾家人。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "将下列词语排列成一句赞美雨来的话。",
+        "options": [
+          "雨来",
+          "抗日",
+          "是",
+          "爱国的",
+          "一个小英雄"
+        ],
+        "answer": "雨来,是,一个小英雄,爱国的,抗日",
+        "explanation": "语序应为：雨来是一个爱国的抗日小英雄。但在选项逻辑中应表述为：雨来是抗日爱国的一个小英雄。根据给出的词语排列为“雨来是爱国的抗日一个小英雄”。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "将词语排列成通顺的句子描述青铜的行为。",
+        "options": [
+          "青铜",
+          "在雪地里",
+          "那双",
+          "卖掉了",
+          "最后一双鞋"
+        ],
+        "answer": "青铜,在雪地里,卖掉了,那双,最后一双鞋",
+        "explanation": "句子逻辑为：青铜在雪地里卖掉了那双最后一双鞋。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第六单元综合评价测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“博学多通”中“通”的意思是“连通、贯通”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "在文言文中，“通”指精通、通晓。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "长文章的小标题概括",
+        "question": "小标题可以理清长文章的脉络，方便我们把握主要内容。",
+        "options": [],
+        "answer": "对",
+        "explanation": "小标题的作用正是提取核心信息，帮助读者快速了解文章结构。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "雨来被鬼子抓走后，村民们都以为他已经光荣牺牲了。",
+        "options": [],
+        "answer": "对",
+        "explanation": "文中描写到大家都难过地在河边寻找，以为他被害了。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "《囊萤夜读》和《铁杵成针》这两篇短文都告诉我们要勤奋苦学。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两篇文言文虽然情节不同，但核心思想都是勤奋学习和持之以恒。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "《芦花鞋》中，买鞋的人给出的价钱非常高，所以青铜才卖掉脚下的鞋。",
+        "options": [],
+        "answer": "错",
+        "explanation": "青铜卖掉脚下的鞋是因为对方极度渴望并欣赏这些鞋，且青铜想为家里做贡献，而非单纯因为钱多。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语中，描写英雄气概的一项是：",
+        "options": [
+          "眉清目秀",
+          "从容不迫",
+          "慌张失措",
+          "垂头丧气"
+        ],
+        "answer": "从容不迫",
+        "explanation": "从容不迫形容镇定、不慌不忙，常用于描写英雄人物。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "“博学多通”的“博”字与下列哪个词意思相近？",
+        "options": [
+          "赌博",
+          "渊博",
+          "搏斗",
+          "博士"
+        ],
+        "answer": "渊博",
+        "explanation": "博：广博，渊博。指学识广。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "雨来掩护李大叔时，把李大叔藏在了：",
+        "options": [
+          "地窖里",
+          "草堆里",
+          "大柜子里",
+          "房顶上"
+        ],
+        "answer": "地窖里",
+        "explanation": "李大叔跳进地窖，雨来帮着掩盖好洞口。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "长文章的小标题概括",
+        "question": "如果给《芦花鞋》中青铜精心制作芦花鞋的情节起标题，最合适的是：",
+        "options": [
+          "冬日的寒冷",
+          "美丽的芦花",
+          "辛苦的付出",
+          "精美的芦花鞋"
+        ],
+        "answer": "精美的芦花鞋",
+        "explanation": "该部分重点在于鞋子的制作工艺美及一家人的劳动成果。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "下列哪一项不是描述雨来精神品质的词语？",
+        "options": [
+          "机智勇敢",
+          "宁死不屈",
+          "爱国守信",
+          "骄傲自满"
+        ],
+        "answer": "骄傲自满",
+        "explanation": "雨来是小英雄，骄傲自满是贬义词，不符合其身份。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "阅读：“弃去。过是溪，逢老媪方磨铁杵。”李白为何“弃去”？",
+        "options": [
+          "因为太累了",
+          "因为读书没成功就想放弃",
+          "因为急着去看风景",
+          "因为书本弄丢了"
+        ],
+        "answer": "因为读书没成功就想放弃",
+        "explanation": "“未成，弃去”说明是因为学习没坚持下来。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "标点符号选择",
+        "question": "“我们是中国人，我们爱自己的祖国。”这句话在课文中出现了几次？",
+        "options": [
+          "1次",
+          "2次",
+          "3次",
+          "很多次"
+        ],
+        "answer": "3次",
+        "explanation": "课文中这句话反复出现，强调了爱国主义的主旋律。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "《芦花鞋》中，青铜把草鞋卖掉后，脚底的感觉是：",
+        "options": [
+          "非常温暖",
+          "刺骨的寒冷",
+          "火辣辣的",
+          "没有感觉"
+        ],
+        "answer": "刺骨的寒冷",
+        "explanation": "在雪地里打赤脚，必然感到刺骨寒冷，更显青铜的坚韧。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长文章的小标题概括",
+        "question": "概括长文章小标题的原则不包括下列哪项？",
+        "options": [
+          "概括内容",
+          "语言简洁",
+          "尽量引用原话",
+          "结构一致"
+        ],
+        "answer": "尽量引用原话",
+        "explanation": "小标题通常需要自己提炼浓缩，不一定要引用原话。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "雨来在夜校学习的内容，表现了他：",
+        "options": [
+          "学习成绩优异",
+          "热爱自己的祖国",
+          "非常调皮好动",
+          "很听老师的话"
+        ],
+        "answer": "热爱自己的祖国",
+        "explanation": "“我是中国人”等内容体现了早期爱国思想的萌发。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "《囊萤夜读》中描述车胤“家贫不常（___）”。",
+        "options": [],
+        "answer": "得油",
+        "explanation": "因为家里穷，没有钱买灯油。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "《铁杵成针》中，老婆婆准备把铁杵磨成（___）。",
+        "options": [],
+        "answer": "针",
+        "explanation": "老媪磨铁杵是为了制成绣花针。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "《芦花鞋》中，那一双双鞋像是（___）的翅膀，很好看。",
+        "options": [],
+        "answer": "白鸟",
+        "explanation": "文中描写芦花鞋洁白漂亮，像白鸟的翅膀。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "将课文名称与对应的小标题连线。",
+        "options": [
+          "小英雄雨来",
+          "芦花鞋",
+          "囊萤夜读",
+          "铁杵成针",
+          "掩护李大叔",
+          "苦学成才",
+          "雪地卖鞋",
+          "铁杵磨针"
+        ],
+        "answer": "A-1,B-3,C-2,D-4",
+        "explanation": "掩护李大叔是雨来的情节；雪地卖鞋是青铜的情节；苦学成才是车胤；铁杵磨针是李白。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "文言文实词与精神感悟",
+        "question": "根据文言文词义进行连线。",
+        "options": [
+          "多通",
+          "倦",
+          "方",
+          "感其意",
+          "疲倦",
+          "正在",
+          "通晓",
+          "被心意打动"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "考察重点实词：通、倦、方、感的文言释义。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "将下列近义词连起来。",
+        "options": [
+          "机智",
+          "坚韧",
+          "部署",
+          "慷慨",
+          "顽强",
+          "大方",
+          "聪明",
+          "安排"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "机智对聪明；坚韧对顽强；部署对安排；慷慨对大方。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "长文章的小标题概括",
+        "question": "按事情发展顺序给“囊萤夜读”的情节排序。",
+        "options": [
+          "家贫得油难",
+          "抓萤火虫",
+          "盛在练囊中",
+          "映着看书"
+        ],
+        "answer": "家贫得油难,抓萤火虫,盛在练囊中,映着看书",
+        "explanation": "这是《囊萤夜读》故事发展的逻辑顺序。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "英雄人物的精神品质分析",
+        "question": "把词语排列成赞美青铜这一人物形象的句子。",
+        "options": [
+          "坚韧的",
+          "一个",
+          "善良而",
+          "青铜",
+          "少年"
+        ],
+        "answer": "青铜,一个,善良而,坚韧的,少年",
+        "explanation": "正确完整的表达是：青铜是一个善良而坚韧的少年。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "长文章的小标题概括",
+      "core_concept": "学习如何从篇幅较长的文章中提炼核心信息。通过关注文章的分段标志（如空行、序号），概括出每一部分的主要情节。小标题应当简洁明了，能体现该部分内容的特点，且全篇的小标题在字数和结构上应尽量保持平衡。",
+      "key_formula": "找情节关键词 + 精简语言 = 准确的小标题",
+      "common_mistakes": [
+        "小标题起得太长，像一句话句意总结",
+        "标题概括不全，只说了细枝末节"
+      ],
+      "tips": "可以尝试用文中出现的具有代表性的物件、动作或关键情节作为标题。"
+    },
+    {
+      "point": "文言文实词与精神感悟",
+      "core_concept": "通过《囊萤夜读》车胤勤学和《铁杵成针》李白求学的故事，学习古文中“通”、“媪”、“方”、“感”等实词的含义。理解古人即便生活艰苦或面临困难，依然坚持读书的优秀品质。",
+      "key_formula": "看注释知字义 + 连字成句悟道理",
+      "common_mistakes": [
+        "用现代汉语的意思去硬套古代词义（如把‘方’理解为方形）",
+        "忽视了人物对话背后的精神内涵"
+      ],
+      "tips": "多朗读文言文，培养语感，重点记忆古今异义的字词。"
+    },
+    {
+      "point": "英雄人物的精神品质分析",
+      "core_concept": "阅读《小英雄雨来》和《芦花鞋》，学习通过人物的言行、举止尤其是心理活动和细节描写来感受人物性格。雨来的机智果断、青铜的坚韧无私，都是通过一个个具体的生活细节塑造出来的。",
+      "key_formula": "抓描写（动作/语言）+ 联想背景 = 概括性格特征",
+      "common_mistakes": [
+        "概括性格只用‘好’、‘坏’等简单词汇",
+        "分析人物时脱离课文具体情节，主观臆断"
+      ],
+      "tips": "关注反复出现的句子（如“我们是中国人”），那往往是人物精神的支柱。"
+    }
+  ]
+}

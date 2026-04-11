@@ -1,0 +1,687 @@
+{
+  "textbook": "人教版小学数学五年级上册",
+  "unit": "位置",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第二单元「位置」单元小测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "数对 $(3, 5)$ 和 $(5, 3)$ 表示的是同一个位置。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数对中前一个数表示列，后一个数表示行。$(3, 5)$ 表示第 3 列第 5 行，$(5, 3)$ 表示第 5 列第 3 行，位置不同。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "在教室里，小明坐在第 2 列第 4 行，用数对表示是 $(2, 4)$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据数对的书写规则（列, 行），第 2 列第 4 行应表示为 $(2, 4)$。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "数对 $(x, 5)$ 表示的点一定在第 5 行。",
+        "options": [],
+        "answer": "对",
+        "explanation": "数对中的第二个数字表示行数，只要第二个数字是 5，无论其在第几列，其位置一定在第 5 行。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "一个点向右平移 3 格，它的行数会增加 3。",
+        "options": [],
+        "answer": "错",
+        "explanation": "向右平移改变的是列数（第一个数字），行数（第二个数字）保持不变。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "在同一行中，所有点的数对的第二个数字都相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "行数对应数对中的第二个分量，同一行意味着行数相同，所以第二个数字一定相同。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "小华在教室里的位置用数对表示是 $(4, 3)$，他坐在第几列？",
+        "options": [
+          "第 3 列",
+          "第 4 列",
+          "第 7 列",
+          "第 1 列"
+        ],
+        "answer": "第 4 列",
+        "explanation": "数对 $(a, b)$ 中，$a$ 表示列，$b$ 表示行。所以 $(4, 3)$ 表示第 4 列。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "如果用 $(2, 1)$ 表示张平的位置，那么 $(2, 5)$ 表示的同学与张平在：",
+        "options": [
+          "同一列",
+          "同一行",
+          "不同列也不同行",
+          "无法确定"
+        ],
+        "answer": "同一列",
+        "explanation": "两个数对的第一个数字都是 2，说明他们都在第 2 列。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "数对 $(5, 8)$，如果左边的 5 表示列，右边的 8 表示行，那么这个点所在的位置是：",
+        "options": [
+          "第 8 列第 5 行",
+          "第 5 行第 8 列",
+          "第 5 列第 8 行",
+          "第 8 行第 8 列"
+        ],
+        "answer": "第 5 列第 8 行",
+        "explanation": "数对中的第一个数是列，第二个数是行，故为第 5 列第 8 行。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "在方格纸上，点 A $(3, 2)$ 向右平移 2 格后的位置是：",
+        "options": [
+          "(3, 4)",
+          "(5, 2)",
+          "(1, 2)",
+          "(5, 4)"
+        ],
+        "answer": "(5, 2)",
+        "explanation": "向右平移 2 格，列数加 2，行数不变。$3 + 2 = 5$，所以新坐标为 $(5, 2)$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "音乐课上，老师请坐在 $(a, 4)$ 这一行的同学起立，下列哪位同学应该起立？",
+        "options": [
+          "小明 (4, 3)",
+          "小红 (3, 4)",
+          "小刚 (5, 5)",
+          "小芳 (4, 2)"
+        ],
+        "answer": "小红 (3, 4)",
+        "explanation": "一行代表数对的第二个数字相同。$(a, 4)$ 表示第 4 行的所有人，小红的坐标 $(3, 4)$ 第二个数字是 4。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "小军坐在教室的第 3 列第 2 行，用 $(3, 2)$ 表示。小红坐在小军正后方的一个位置，小红的位置可能是：",
+        "options": [
+          "(2, 2)",
+          "(4, 2)",
+          "(3, 1)",
+          "(3, 3)"
+        ],
+        "answer": "(3, 3)",
+        "explanation": "正后方意味着列数不变，行数增加。选项中只有 $(3, 3)$ 满足列数相同且行数更大。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "点 A 的位置是 $(2, 3)$，先向左平移 1 格，再向上平移 2 格，现在的位置是：",
+        "options": [
+          "(1, 5)",
+          "(3, 1)",
+          "(1, 1)",
+          "(3, 5)"
+        ],
+        "answer": "(1, 5)",
+        "explanation": "向左平移 1 格列减 1：$2-1=1$；向上平移 2 格行加 2：$3+2=5$。结果为 $(1, 5)$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "若一个平行四边形的三个顶点分别是 $(1, 1), (5, 1), (2, 4)$，则第四个顶点的坐标可能是：",
+        "options": [
+          "(6, 4)",
+          "(4, 6)",
+          "(1, 4)",
+          "(5, 4)"
+        ],
+        "answer": "(6, 4)",
+        "explanation": "底边长度为 $5 - 1 = 4$。顶部的点 $(2, 4)$ 向右水平移动 4 个单位得到 $(6, 4)$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "正方形 ABCD 的顶点 A $(1, 1)$, B $(1, 3)$, C $(3, 3)$，那么顶点 D 的位置是：",
+        "options": [
+          "(3, 1)",
+          "(1, 3)",
+          "(3, 3)",
+          "(2, 2)"
+        ],
+        "answer": "(3, 1)",
+        "explanation": "正方形边长为 2。A 到 B 是向上移动 2。C 应向下移动 2 到达 D，即 $(3, 3-2) = (3, 1)$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "数对 $(4, 6)$ 中，6 表示的是：",
+        "options": [
+          "第 6 列",
+          "第 6 行",
+          "第 4 行",
+          "距离"
+        ],
+        "answer": "第 6 行",
+        "explanation": "按照数对习惯，第一个数表示列，第二个数表示行。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "在方格纸上，点 $(3, 2), (3, 5), (7, 2)$ 三个点连接起来形成的图形是：",
+        "options": [
+          "长方形",
+          "正方形",
+          "直角三角形",
+          "等边三角形"
+        ],
+        "answer": "直角三角形",
+        "explanation": "$(3, 2)$ 与 $(3, 5)$ 在同一垂直线上，$(3, 2)$ 与 $(7, 2)$ 在同一水平线上，两条线垂直，故为直角三角形。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "一个点 $(x, y)$ 向下平移 2 格后再向右平移 3 格，得到的新坐标是：",
+        "options": [
+          "(x+3, y-2)",
+          "(x-3, y+2)",
+          "(x+2, y-3)",
+          "(x-2, y+3)"
+        ],
+        "answer": "(x+3, y-2)",
+        "explanation": "向右平移列加（x+3），向下平移行减（y-2）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "小明坐在第 5 列第 6 行，用 $(5, 6)$ 表示。如果小明坐的位置变成了 $(6, 5)$，说明他：",
+        "options": [
+          "向右移动了 1 列，向下移动了 1 行",
+          "向左移动了 1 列，向上移动了 1 行",
+          "向右移动了 1 列，向上移动了 1 行",
+          "没有变动"
+        ],
+        "answer": "向右移动了 1 列，向下移动了 1 行",
+        "explanation": "列从 5 变 6（右移 1），行从 6 变 5（下移 1）。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "小明的位置是 $(3, 4)$，小华坐在小明后面两排且同一列，小华的位置用数对表示第二个数字是 ___。",
+        "options": [],
+        "answer": "6",
+        "explanation": "小明在第 4 行，后面两排即 $4 + 2 = 6$。验算：$6 - 2 = 4$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "数对 $(8, 12)$ 表示的是第 8 列第 ___ 行。",
+        "options": [],
+        "answer": "12",
+        "explanation": "数对的第二个数字表示行数。验算：$(8, 12)$ 对应 (列, 行) 规则 ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "一个点 A $(4, 5)$ 向上平移 3 格后，再向左平移 2 格，平移后的点第 1 个数字是 ___。",
+        "options": [],
+        "answer": "2",
+        "explanation": "向左平移 2 格，列数减 2。列算式：$4 - 2 = 2$。验算：$2 + 2 = 4$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "计算：$12 \times 5 = ?$",
+        "options": [],
+        "answer": "60",
+        "explanation": "$12 \times 5 = 60$。验算：$60 \times 2 \times \frac{1}{2} = 60$ 或 $60 \times \frac{1}{5} = 12$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "计算：$100 - 45 = ?$",
+        "options": [],
+        "answer": "55",
+        "explanation": "$100 - 45 = 55$。验算：$55 + 45 = 100$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级数学上册第二单元《位置》综合素质测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "数对 $(4, 3)$ 和 $(3, 4)$ 所表示的位置是相同的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数对中数字顺序不同，代表的列和行也不同，位置不同。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "数对中的第一个数字表示行，第二个数字表示列。",
+        "options": [],
+        "answer": "错",
+        "explanation": "数学中习惯用数对 $(a, b)$ 表示位置，其中第一个数 $a$ 表示列，第二个数 $b$ 表示行。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "将点 $(2, 2)$ 向上平移 3 格，它的数对变为 $(2, 5)$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "向上平移行数增加，列数不变。$2 + 3 = 5$，坐标变为 $(2, 5)$。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "数对 $(5, x)$ 表示的位置都在第 5 列。",
+        "options": [],
+        "answer": "对",
+        "explanation": "第一个数代表列。既然第一个数固定为 5，这些点都在第 5 列。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "如果一个三角形向左平移 4 格，它的三个顶点的数对中的第一个数都要减去 4。",
+        "options": [],
+        "answer": "对",
+        "explanation": "图形向左平移，所有点对应的列数（第一个数）都会减去平移的格数。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "电影票上的“5 排 2 号”可以记作 $(2, 5)$。那么“7 排 4 号”应记作：",
+        "options": [
+          "(7, 4)",
+          "(4, 7)",
+          "(11, 0)",
+          "(7, 7)"
+        ],
+        "answer": "(4, 7)",
+        "explanation": "在该规则下，号数（列）放在第一位，排数（行）放在第二位。故为 $(4, 7)$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "下列数对中，表示的位置与 $(3, 5)$ 最接近的是：",
+        "options": [
+          "(3, 8)",
+          "(1, 5)",
+          "(3, 6)",
+          "(6, 5)"
+        ],
+        "answer": "(3, 6)",
+        "explanation": "比较坐标差距，$(3, 6)$ 与 $(3, 5)$ 仅相差 1 行，距离最近。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "三(1)班教室里，小明的位置是 $(2, 3)$，小红的位置是 $(2, 5)$，小刚的位置是 $(4, 3)$。谁与小明在同一列？",
+        "options": [
+          "小红",
+          "小刚",
+          "小明自己",
+          "都不在"
+        ],
+        "answer": "小红",
+        "explanation": "同一列代表数对第一个数字相同。小明和小红第一个数字都是 2。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "一个正方形三个顶点位置分别是 $(2, 2), (5, 2), (5, 5)$，第四个顶点是：",
+        "options": [
+          "(2, 5)",
+          "(5, 2)",
+          "(2, 2)",
+          "(5, 5)"
+        ],
+        "answer": "(2, 5)",
+        "explanation": "正方形各边互相垂直且相等。根据已知点，D 点应与 A 点同列，与 C 点同行，即 $(2, 5)$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "点 A $(3, 4)$ 先向右平移 2 格，再向下平移 1 格，新坐标是：",
+        "options": [
+          "(5, 3)",
+          "(1, 5)",
+          "(5, 5)",
+          "(1, 3)"
+        ],
+        "answer": "(5, 3)",
+        "explanation": "列：$3+2=5$；行：$4-1=3$。结果 $(5, 3)$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "如果三角形两个顶点的坐标分别是 $(1, 1)$ 和 $(4, 1)$。整个三角形向上平移 2 格后，这两个点变为：",
+        "options": [
+          "(1, 3)和(4, 3)",
+          "(3, 1)和(6, 1)",
+          "(1, 1)和(4, 1)",
+          "(3, 3)和(6, 3)"
+        ],
+        "answer": "(1, 3)和(4, 3)",
+        "explanation": "向上平移只改变行坐标（加 2）。$1+2=3$。坐标变为 $(1, 3)$ 和 $(4, 3)$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "在方格纸上，数对 $(0, 0)$ 表示的是：",
+        "options": [
+          "原点",
+          "第一行",
+          "第一列",
+          "无法确定"
+        ],
+        "answer": "原点",
+        "explanation": "通常方格纸的起始点 $(0, 0)$ 被称为原点。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "点 M $(a, b)$ 向左平移 3 格，再向上平移 4 格后的位置是：",
+        "options": [
+          "(a-3, b+4)",
+          "(a+3, b-4)",
+          "(a-4, b+3)",
+          "(a+4, b-3)"
+        ],
+        "answer": "(a-3, b+4)",
+        "explanation": "向左列减，向上行加。故为 $(a-3, b+4)$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "在方格练习本上，(3, 4) 到 (3, 7) 的距离是几格？",
+        "options": [
+          "3",
+          "4",
+          "7",
+          "11"
+        ],
+        "answer": "3",
+        "explanation": "列数相同，行数差为 $7 - 4 = 3$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "点 A $(2, 2)$, B $(6, 2)$, C $(4, 5)$ 围成一个三角形，这个三角形的面积用方格数计算是多少？",
+        "options": [
+          "6",
+          "12",
+          "8",
+          "10"
+        ],
+        "answer": "6",
+        "explanation": "底边 AB 长度为 $6-2=4$；高是从第 2 行到第 5 行，高度为 $5-2=3$。面积 $4 \times 3 \times 0.5 = 6$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "将图形向下平移，哪个数值会发生变化？",
+        "options": [
+          "行数",
+          "列数",
+          "颜色",
+          "形状"
+        ],
+        "answer": "行数",
+        "explanation": "上下平移改变的是行数（数对中的第二个数）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "数对 $(x, y)$，如果已知 $x=2, y=5$，那么这个点在：",
+        "options": [
+          "第 2 列第 5 行",
+          "第 5 列第 2 行",
+          "第 2 行第 5 列",
+          "无法确定"
+        ],
+        "answer": "第 2 列第 5 行",
+        "explanation": "按惯例第一个数 $x$ 是列，第二个数 $y$ 是行。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "下列点中，与 $(4, 4)$ 在同一条对角线（斜线）上的点是：",
+        "options": [
+          "(5, 5)",
+          "(4, 5)",
+          "(5, 4)",
+          "(1, 2)"
+        ],
+        "answer": "(5, 5)",
+        "explanation": "在 $45$ 度对角线上的点，其横纵坐标增加量相同。$(4+1, 4+1) = (5, 5)$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "小明在第 6 列第 8 行，小芳在第 2 列第 8 行。他们两人之间隔了 ___ 列。",
+        "options": [],
+        "answer": "3",
+        "explanation": "计算列数差：$6 - 2 = 4$。中间隔的列数为 $4 - 1 = 3$。验算：第 3, 4, 5 列在中间，共 3 列 ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "长方形 ABEF 的顶点 A $(1, 1)$, B $(5, 1)$, E $(5, 3)$，则顶点 F 的第 2 个数字是 ___。",
+        "options": [],
+        "answer": "3",
+        "explanation": "F 点与 E 点在同一水平线上，所以行数相同，为 3。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "图形平移与数对变化规律",
+        "question": "点 $(10, 10)$ 向左平移 5 格后再向下平移 7 格，新位置第二个数字是 ___。",
+        "options": [],
+        "answer": "3",
+        "explanation": "向下平移行数减 7。计算：$10 - 7 = 3$。验算：$3 + 7 = 10$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "用数对表示具体情境中的位置",
+        "question": "计算：$25 \times 8 = ?$",
+        "options": [],
+        "answer": "200",
+        "explanation": "$25 \times 8 = 200$。验算：$200 \times \frac{1}{8} = 25$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "在方格纸上用数对确定点的位置",
+        "question": "计算：$125 \times 8 - 900 = ?$",
+        "options": [],
+        "answer": "100",
+        "explanation": "先算 $125 \times 8 = 1000$，再算 $1000 - 900 = 100$。验算：$100 + 900 = 1000$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "用数对表示具体情境中的位置",
+      "core_concept": "在具体情境中，我们通常把竖排叫做列，横排叫做行。确定第几列一般从左往右数，确定第几行一般从前往后数。数对的书写格式是用括号把列数和行数括起来，中间用逗号隔开，即（列数，行数）。",
+      "key_formula": "$(列, 行)$",
+      "common_mistakes": [
+        "混淆列和行的顺序，错误地写成（行，列）。",
+        "观察方位错误，没有按照从左往右、从前往后的标准顺序计数。"
+      ],
+      "tips": "记忆口诀：先横（列）后纵（行），括号括起逗号分。"
+    },
+    {
+      "point": "在方格纸上用数对确定点的位置",
+      "core_concept": "方格纸上的点可以用数对来表示。方格纸的水平线表示行，垂直线表示列。数对中的第一个数表示该点所在的列，第二个数表示该点所在的行。通过数对可以精确地在坐标系中准确定位每一个交点。",
+      "key_formula": "点 A(x, y) 指第 $x$ 列第 $y$ 行",
+      "common_mistakes": [
+        "将坐标轴上的原点 (0, 0) 当作 (1, 1) 开始计数。",
+        "漏写括号或逗号，导致表达不规范。"
+      ],
+      "tips": "在方格纸上找点时，先在横轴找到列数，再在纵轴找到行数，两条线的交点就是所找的位置。"
+    },
+    {
+      "point": "图形平移与数对变化规律",
+      "core_concept": "图形在方格纸上平移时，其顶点的数对会发生有规律的变化。向右平移，列数（第一个数）增加；向左平移，列数减小。向上平移，行数（第二个数）增加；向下平移，行数减小。图形的大小和形状在平移前后不发生改变。",
+      "key_formula": "右加左减（x轴），上加下减（y轴）",
+      "common_mistakes": [
+        "平移方向与加减运算对应错误，如向左平移却误用了加法。",
+        "平移时只改变了其中一个顶点的坐标，而忽略了图形所有顶点都要同步移动。"
+      ],
+      "tips": "平移规律总结：左右移，变一数；上下移，变二数。平移几格就加减几。"
+    }
+  ]
+}

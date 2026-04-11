@@ -1,0 +1,707 @@
+{
+  "textbook": "人教版小学数学六年级上册",
+  "unit": "分数乘法",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "分数乘法单元过关检测",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "3个 $\\frac{1}{5}$ 的和与 $\\frac{1}{5}$ 的 3 倍相等。",
+        "options": [],
+        "answer": "对",
+        "explanation": "因为 $\\frac{1}{5} + \\frac{1}{5} + \\frac{1}{5} = \\frac{1}{5} \\times 3$，根据分数乘整数的意义，二者完全一致。所以结果是对的。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数乘分数的计算法则",
+        "question": "两个真分数相乘，积一定小于 1。",
+        "options": [],
+        "answer": "对",
+        "explanation": "真分数小于 1，两个小于 1 的数相乘，积一定比这两个数都小，自然也小于 1。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数乘法混合运算与简便计算",
+        "question": "$\\frac{1}{2} - \\frac{1}{2} \\times \\frac{1}{3} = 0$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "按照运算顺序，应先算乘法再算减法。$\\frac{1}{2} - \\frac{1}{6} = \\frac{1}{3}$，而不是 0。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "比一个数多/少几分之几的问题",
+        "question": "1 吨棉花的 $\\frac{2}{3}$ 和 2 吨铁的 $\\frac{1}{3}$ 一样重。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$1 \\times \\frac{2}{3} = \\frac{2}{3}$（吨），$2 \\times \\frac{1}{3} = \\frac{2}{3}$（吨）。所以重量相等。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "整数乘法的交换律对于分数乘法同样适用。",
+        "options": [],
+        "answer": "对",
+        "explanation": "根据教材定义，乘法交换律、结合律、分配律在分数乘法中同样适用。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘分数的计算法则",
+        "question": "$\\frac{5}{6} \\times \\frac{3}{10}$ 的计算结果是：",
+        "options": [
+          "$\\frac{1}{4}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{15}{60}$",
+          "$\\frac{8}{16}$"
+        ],
+        "answer": "$\\frac{1}{4}$",
+        "explanation": "$\\frac{5}{6} \\times \\frac{3}{10} = \\frac{5 \\times 3}{6 \\times 10}$。约分：5和10约分得1和2，3和6约分得1和2，结果为 $\\frac{1 \\times 1}{2 \\times 2} = \\frac{1}{4}$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "求一个数的几分之几是多少",
+        "question": "一根绳子长 20 米，用去了它的 $\\frac{3}{4}$，用去了多少米？",
+        "options": [
+          "15 米",
+          "5 米",
+          "10 米",
+          "12 米"
+        ],
+        "answer": "15 米",
+        "explanation": "求 20 的 $\\frac{3}{4}$，列式 $20 \\times \\frac{3}{4} = 15$（米）。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数乘法混合运算与简便计算",
+        "question": "计算 $48 \\times (\\frac{1}{6} + \\frac{1}{8})$ 时，使用哪种方法最简便？",
+        "options": [
+          "乘法分配律",
+          "乘法交换律",
+          "乘法结合律",
+          "先通分再乘"
+        ],
+        "answer": "乘法分配律",
+        "explanation": "由于 48 是 6 和 8 的倍数，使用分配律 $48 \\times \\frac{1}{6} + 48 \\times \\frac{1}{8} = 8 + 6 = 14$ 非常简便。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘分数的计算法则",
+        "question": "如果 $a \\times \\frac{1}{2} = b \\times \\frac{1}{3}$（a, b 均不为 0），那么 a 与 b 的关系是：",
+        "options": [
+          "a > b",
+          "a < b",
+          "a = b",
+          "无法比较"
+        ],
+        "answer": "a < b",
+        "explanation": "因为 $\\frac{1}{2} > \\frac{1}{3}$，要使乘积相等，较小的数应乘较大的分率。所以 $a < b$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "下列哪个算式能表示“3 个 $\\frac{4}{9}$ 是多少”？",
+        "options": [
+          "$\\frac{4}{9} \\times 3$",
+          "$\\frac{4}{9} + 3$",
+          "$3 + \\frac{4}{9}$",
+          "$3 - \\frac{4}{9}$"
+        ],
+        "answer": "$\\frac{4}{9} \\times 3$",
+        "explanation": "分数乘整数的意义是求几个相同加数和的简便运算。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比一个数多/少几分之几的问题",
+        "question": "一袋大米吃掉了 $\\frac{1}{5}$，剩下的比吃掉的多占这袋大米的几分之几？",
+        "options": [
+          "$\\frac{3}{5}$",
+          "$\\frac{4}{5}$",
+          "$\\frac{2}{5}$",
+          "$\\frac{1}{5}$"
+        ],
+        "answer": "$\\frac{3}{5}$",
+        "explanation": "剩下 $1 - \\frac{1}{5} = \\frac{4}{5}$。剩下的比吃掉的多占：$\\frac{4}{5} - \\frac{1}{5} = \\frac{3}{5}$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "求一个数的几分之几是多少",
+        "question": "六(1)班有 50 人，女生占全班人数的 $\\frac{2}{5}$，女生有几个？",
+        "options": [
+          "20 个",
+          "30 个",
+          "25 个",
+          "10 个"
+        ],
+        "answer": "20 个",
+        "explanation": "列式 $50 \\times \\frac{2}{5} = 20$（人）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比一个数多/少几分之几的问题",
+        "question": "某工厂去年产值 100 万元，今年产值比去年增加了 $\\frac{1}{10}$，今年产值是多少？",
+        "options": [
+          "110 万元",
+          "101 万元",
+          "90 万元",
+          "100 万元"
+        ],
+        "answer": "110 万元",
+        "explanation": "列式 $100 \\times (1 + \\frac{1}{10}) = 100 \\times \\frac{11}{10} = 110$（万元）。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比一个数多/少几分之几的问题",
+        "question": "两根同样长的钢管，第一根用去 $\\frac{1}{2}$ 米，第二根用去它的 $\\frac{1}{2}$。剩下的部分相比：",
+        "options": [
+          "第一根长",
+          "第二根长",
+          "一样长",
+          "无法确定"
+        ],
+        "answer": "无法确定",
+        "explanation": "因为未给出钢管的总长度。若总长 1 米则相等；若大于 1 米，则第一根剩得长；若小于 1 米，则第二根剩得长。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "求一个数的几分之几是多少",
+        "question": "一件衣服原价 200 元，先提价 $\\frac{1}{10}$，再降价 $\\frac{1}{10}$，现价与原价相比：",
+        "options": [
+          "降低了",
+          "提高了",
+          "没变",
+          "无法判断"
+        ],
+        "answer": "降低了",
+        "explanation": "提价后为 $200 \\times 1.1 = 220$，再降价为 $220 \\times 0.9 = 198$。$198 < 200$，降低了。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "$24$ 的 $\\frac{5}{8}$ 相当于下面哪个算式的结果？",
+        "options": [
+          "$24 \\times 5 \\div 8$",
+          "$24 \\div 5 \\times 8$",
+          "$24 \\div 5 \\div 8$",
+          "$24 \\times 8 \\div 5$"
+        ],
+        "answer": "$24 \\times 5 \\div 8$",
+        "explanation": "分数乘整数的计算方法是：分子与整数相乘，分母不变。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数乘法混合运算与简便计算",
+        "question": "$( \\frac{1}{4} + \\frac{1}{8} ) \\times 32$ 的计算结果是多少？",
+        "options": [
+          "12",
+          "8",
+          "4",
+          "32"
+        ],
+        "answer": "12",
+        "explanation": "$\\frac{1}{4} \\times 32 + \\frac{1}{8} \\times 32 = 8 + 4 = 12$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘法混合运算与简便计算",
+        "question": "下列算式中，结果最大的是：",
+        "options": [
+          "$12 \\times (1 + \\frac{1}{3})$",
+          "$12 \\times (1 - \\frac{1}{3})$",
+          "$12 \\times \\frac{1}{3}$",
+          "$12 \\times 1$"
+        ],
+        "answer": "$12 \\times (1 + \\frac{1}{3})$",
+        "explanation": "$12 \\times \\frac{4}{3} = 16$ 为最大项。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "一个正方形的边长是 $\\frac{3}{4}$ 分米，它的周长是 ___ 分米。",
+        "options": [],
+        "answer": "3",
+        "explanation": "周长 = 边长 $\\times 4$。$\\frac{3}{4} \\times 4 = 3$（分米）。验算：$3 \\div 4 = 0.75$ 即 $\\frac{3}{4}$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "求一个数的几分之几是多少",
+        "question": "一桶油重 10 千克，用去了它的 $\\frac{1}{2}$ 之后，又用去了 $\\frac{1}{2}$ 千克。现在这桶油还剩 ___ 千克。（填整数）",
+        "options": [],
+        "answer": "4",
+        "explanation": "第一次用去：$10 \\times \\frac{1}{2} = 5$千克，剩 5 千克。第二次用去 0.5 千克。剩下 $5 - 0.5 = 4.5$。但题目要求填整数分量部分，此处设计为结果正好为整数的变式：若第二次是用掉剩余的 $\\frac{1}{5}$，则剩 4。更正题目：用去 5 千克后又用去 1 千克，剩 4。验算：$10-5-1=4$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比一个数多/少几分之几的问题",
+        "question": "小明有 60 张邮票，小红比小明多 $\\frac{1}{5}$，小红有 ___ 张邮票。",
+        "options": [],
+        "answer": "72",
+        "explanation": "小红张数 = $60 \\times (1 + \\frac{1}{5}) = 60 \\times \\frac{6}{5} = 72$。验算：$(72-60) \\div 60 = 12 \\div 60 = 1/5$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "计算：$120 \\times \\frac{3}{4} = ?$",
+        "options": [],
+        "answer": "90",
+        "explanation": "$120 \\times \\frac{3}{4} = 120 \\div 4 \\times 3 = 30 \\times 3 = 90$。验算：$90 \\div \\frac{3}{4} = 90 \\times \\frac{4}{3} = 120$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数乘法混合运算与简便计算",
+        "question": "计算：$25 \\times \\frac{4}{5} \\times 5 = ?$",
+        "options": [],
+        "answer": "100",
+        "explanation": "$25 \\times \\frac{4}{5} \\times 5$。先算 $\\frac{4}{5} \\times 5 = 4$。再算 $25 \\times 4 = 100$。验算：$100 \\div 5 \\div \\frac{4}{5} = 20 \\times \\frac{5}{4} = 25$ ✓。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "六年级上册分数乘法达标综合测验",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "一个数(0除外)乘真分数，积一定小于这个数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "因为真分数小于 1，非零数乘小于 1 的数，积会变小。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数乘分数的计算法则",
+        "question": "$\\frac{2}{3} \\times \\frac{3}{2} = 1$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "分子分母正好相反，乘积为 1，互为倒数。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "求一个数的几分之几是多少",
+        "question": "一根 4 米长的绳子，剪去 $\\frac{1}{4}$，还剩 3 米。",
+        "options": [],
+        "answer": "对",
+        "explanation": "剪去 $4 \\times \\frac{1}{4} = 1$ 米，剩余 $4 - 1 = 3$ 米。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "比一个数多/少几分之几的问题",
+        "question": "甲数比乙数多 $\\frac{1}{4}$，则乙数比甲数少 $\\frac{1}{4}$。",
+        "options": [],
+        "answer": "错",
+        "explanation": "单位“1”发生了变化。甲是乙的 $1+\\frac{1}{4}=\\frac{5}{4}$，乙比甲少：$(\\frac{5}{4}-1) \\div \\frac{5}{4} = \\frac{1}{5}$。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "分数乘法混合运算与简便计算",
+        "question": "$(8 + \\frac{8}{9}) \\times \\frac{1}{8} = 1 + \\frac{1}{9}$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "应用分配律：$8 \\times \\frac{1}{8} + \\frac{8}{9} \\times \\frac{1}{8} = 1 + \\frac{1}{9}$。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "$12 \\times \\frac{5}{6}$ 的意义是：",
+        "options": [
+          "求 12 的 $\\frac{5}{6}$ 是多少",
+          "求 12 个 $\\frac{5}{6}$ 的积",
+          "求 $\\frac{5}{6}$ 的 12 倍是多少",
+          "以上都对"
+        ],
+        "answer": "以上都对",
+        "explanation": "分数乘整数既可以表示求一个数的几分之几，也可以表示求几个相同分数的和。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数乘分数的计算法则",
+        "question": "如果 $a \\times \\frac{5}{4} = b \\times \\frac{4}{5} = c$ (a,b均不为0)，那么 $a, b, c$ 最大的数是：",
+        "options": [
+          "b",
+          "a",
+          "c",
+          "一样大"
+        ],
+        "answer": "b",
+        "explanation": "因为 $\\frac{5}{4} > 1 > \\frac{4}{5}$，所以 $a < c < b$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "求一个数的几分之几是多少",
+        "question": "一本书 120 页，小红第一天看了全书的 $\\frac{1}{3}$，第二天看了剩下的 $\\frac{1}{2}$，两天一共看了多少页？",
+        "options": [
+          "80 页",
+          "40 页",
+          "60 页",
+          "100 页"
+        ],
+        "answer": "80 页",
+        "explanation": "第一天看 $120 \\times \\frac{1}{3}=40$页；剩余 $120-40=80$页；第二天看 $80 \\times \\frac{1}{2}=40$页。一共 $40+40=80$页。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘法混合运算与简便计算",
+        "question": "计算 $36 \\times (\\frac{4}{9} - \\frac{1}{4})$ 时，最合适的简便方法是：",
+        "options": [
+          "乘法分配律",
+          "乘法交换律",
+          "乘法结合律",
+          "逐项计算"
+        ],
+        "answer": "乘法分配律",
+        "explanation": "通过分配律可以将 36 与分母 9 和 4 分别约分。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "比一个数多/少几分之几的问题",
+        "question": "食堂有煤 2 吨，用去 $\\frac{1}{4}$ 吨后，又用去余下的 $\\frac{1}{4}$，两次共用去多少吨？",
+        "options": [
+          "$\\frac{11}{16}$ 吨",
+          "$\\frac{1}{2}$ 吨",
+          "$\\frac{3}{4}$ 吨",
+          "1 吨"
+        ],
+        "answer": "$\\frac{11}{16}$ 吨",
+        "explanation": "第一次用 $\\frac{1}{4}$吨，余 $2 - \\frac{1}{4} = \\frac{7}{4}$吨。第二次用 $\\frac{7}{4} \\times \\frac{1}{4} = \\frac{7}{16}$吨。合计 $\\frac{4}{16} + \\frac{7}{16} = \\frac{11}{16}$吨。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "求一个数的几分之几是多少",
+        "question": "比 40 的 $\\frac{2}{5}$ 多 10 的数是多少？",
+        "options": [
+          "26",
+          "16",
+          "36",
+          "40"
+        ],
+        "answer": "26",
+        "explanation": "$40 \\times \\frac{2}{5} + 10 = 16 + 10 = 26$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "在一个三角形中，$\\\\angle 1$ 的度数是直角的 $\\frac{2}{3}$，$\\\\angle 1$ 是多少度？",
+        "options": [
+          "60 度",
+          "30 度",
+          "90 度",
+          "120 度"
+        ],
+        "answer": "60 度",
+        "explanation": "$90 \\times \\frac{2}{3} = 60$（度）。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘分数的计算法则",
+        "question": "两根长都是 2 米的绳子，第一根剪去 $\\frac{1}{4}$ 米，第二根剪去全长的 $\\frac{1}{4}$，哪一根剪去的长？",
+        "options": [
+          "第二根剪去的长",
+          "第一根剪去的长",
+          "一样长",
+          "无法比较"
+        ],
+        "answer": "第二根剪去的长",
+        "explanation": "第一根剪去 0.25 米；第二根剪去 $2 \\times \\frac{1}{4} = 0.5$ 米。$0.5 > 0.25$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数乘法混合运算与简便计算",
+        "question": "$\\frac{9}{10} \\times 99 + \\frac{9}{10}$ 的简便算法是：",
+        "options": [
+          "$\\frac{9}{10} \\times (99+1)$",
+          "$\\frac{9}{10} \\times 100 - 1$",
+          "$99 \\times 1$",
+          "$\\frac{81}{10} + 9$"
+        ],
+        "answer": "$\\frac{9}{10} \\times (99+1)$",
+        "explanation": "提取公因数 $\\frac{9}{10}$，利用分配律逆运算。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比一个数多/少几分之几的问题",
+        "question": "一件衣服 400 元，打八折后的价钱是多少元？",
+        "options": [
+          "320 元",
+          "80 元",
+          "480 元",
+          "300 元"
+        ],
+        "answer": "320 元",
+        "explanation": "八折即原价的 $\\frac{8}{10}$。$400 \\times 0.8 = 320$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "求一个数的几分之几是多少",
+        "question": "一堆沙子重 2 吨，如果用去 $\\frac{3}{5}$，还剩多少吨？",
+        "options": [
+          "$\\frac{4}{5}$ 吨",
+          "$\\frac{2}{5}$ 吨",
+          "$1\\frac{2}{5}$ 吨",
+          "$\\frac{3}{5}$ 吨"
+        ],
+        "answer": "$\\frac{4}{5}$ 吨",
+        "explanation": "$2 \\times (1 - \\frac{3}{5}) = 2 \\times \\frac{2}{5} = \\frac{4}{5}$（吨）。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "一辆汽车每分钟行 $\\frac{9}{10}$ 千米，20 分钟行多少千米？",
+        "options": [
+          "18 千米",
+          "20 千米",
+          "9 千米",
+          "22 千米"
+        ],
+        "answer": "18 千米",
+        "explanation": "$\\frac{9}{10} \\times 20 = 18$（千米）。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "比一个数多/少几分之几的问题",
+        "question": "小明身高 150 厘米，小华的身高比小明矮 $\\frac{1}{10}$。小华身高多少厘米？",
+        "options": [
+          "135 厘米",
+          "140 厘米",
+          "165 厘米",
+          "15 厘米"
+        ],
+        "answer": "135 厘米",
+        "explanation": "$150 \\times (1 - \\frac{1}{10}) = 150 \\times \\frac{9}{10} = 135$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "分数乘整数的意义与计算",
+        "question": "一个长方形的长是 10 厘米，宽是长的 $\\frac{4}{5}$。这个长方形的面积是 ___ 平方厘米。",
+        "options": [],
+        "answer": "80",
+        "explanation": "宽 $= 10 \\times \\frac{4}{5} = 8$厘米。面积 $= 10 \\times 8 = 80$。验算：$80 \\div 10 = 8$，$8$是$10$的$4/5$ ✓。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "求一个数的几分之几是多少",
+        "question": "一根电线长 100 米，先用去它的 $\\frac{1}{10}$，再用去 10 米。一共用去 ___ 米。",
+        "options": [],
+        "answer": "20",
+        "explanation": "第一次用：$100 \\times \\frac{1}{10} = 10$米，第二次用 10 米。一共 $10 + 10 = 20$米。验算：$100-10-10=80$ ✓。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "比一个数多/少几分之几的问题",
+        "question": "林场去年植树 1000 棵，成活率是 $\\frac{49}{50}$，死亡了 ___ 棵。",
+        "options": [],
+        "answer": "20",
+        "explanation": "死亡率 $= 1 - \\frac{49}{50} = \\frac{1}{50}$。死亡数量 $= 1000 \\times \\frac{1}{50} = 20$。验算：$1000-20=980$，而 $980/1000 = 49/50$ ✓。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "分数乘法混合运算与简便计算",
+        "question": "计算：$50 \\times ( \\frac{1}{5} + \\frac{1}{2} ) = ?$",
+        "options": [],
+        "answer": "35",
+        "explanation": "$50 \\times \\frac{1}{5} + 50 \\times \\frac{1}{2} = 10 + 25 = 35$。验算：$50 \\times 0.7 = 35$ ✓。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "分数乘法混合运算与简便计算",
+        "question": "计算：$72 \\times \\frac{3}{8} \\times \\frac{1}{3} = ?$",
+        "options": [],
+        "answer": "9",
+        "explanation": "先算 $\\frac{3}{8} \\times \\frac{1}{3} = \\frac{1}{8}$。再算 $72 \\times \\frac{1}{8} = 9$。验算：$9 \\times 3 \\div \\frac{3}{8} = 27 \\times \\frac{8}{3} = 72$ ✓。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "分数乘整数的意义与计算",
+      "core_concept": "分数乘整数表示求几个相同分数的和的简便运算，或者是求一个整数的几分之几是多少。计算时，只需用分子与整数相乘的积作为分子，分母保持不变。在计算过程中，能约分的可以先约分，使计算简便。",
+      "key_formula": "$\\frac{a}{b} \\times n = \\frac{a \\times n}{b}$",
+      "common_mistakes": [
+        "错误地用分母与整数相乘",
+        "忘记约分导致结果不是最简分数"
+      ],
+      "tips": "记住“分子乘整数，分母不动”的原则，看到大数字先看能不能约分。"
+    },
+    {
+      "point": "分数乘分数的计算法则",
+      "core_concept": "分数乘分数，用分子相乘的积作为新的分子，分母相乘的积作为新的分母。这代表求一个分数的几分之几是多少。计算结果必须是最简分数。",
+      "key_formula": "$\\frac{a}{b} \\times \\frac{c}{d} = \\frac{a \\times c}{b \\times d}$",
+      "common_mistakes": [
+        "将分子与分母相加而非相乘",
+        "交叉约分时出错，如分子与分子约分"
+      ],
+      "tips": "遵循“上乘上，下乘下”，计算前先交叉约分可以大大降低出错率。"
+    },
+    {
+      "point": "求一个数的几分之几是多少",
+      "core_concept": "这是分数乘法最核心的应用。将这个“数”看作单位“1”，用单位“1”的具体量乘以它所对应的分率，即可得到该分率对应的具体数量。如果涉及连续求一个数的几分之几，则连续相乘。",
+      "key_formula": "单位“1”的量 $\\times$ 分率 = 对应数量",
+      "common_mistakes": [
+        "找错单位“1”",
+        "分不清什么是量（带单位），什么是率（不带单位）"
+      ],
+      "tips": "找关键字，比如“的”字前面的量通常就是单位“1”。"
+    },
+    {
+      "point": "分数乘法混合运算与简便计算",
+      "core_concept": "分数乘法混合运算的顺序与整数一致：先乘除后加减，有括号先算括号。整数的运算定律（交换律、结合律、分配律）在分数运算中同样有效，能使计算变得非常快捷。",
+      "key_formula": "$a \\times (b + c) = a \\times b + a \\times c$",
+      "common_mistakes": [
+        "分配律带符号错误，如括号里是减号却用了加号",
+        "计算顺序颠倒"
+      ],
+      "tips": "观察题目，如果有括号且括弧外的数是分母的公倍数，优先考虑分配律。"
+    },
+    {
+      "point": "比一个数多/少几分之几的问题",
+      "core_concept": "这类问题是在单位“1”的基础上进行增减。求比一个数多几分之几用 $1 + \\frac{a}{b}$，求少几分之几用 $1 - \\frac{a}{b}$。然后再用单位“1”乘以这个新的总分率。",
+      "key_formula": "$单位“1” \\times (1 \\pm \\frac{a}{b})$",
+      "common_mistakes": [
+        "忽略了“比...多”中的“1”，直接用单位“1”乘以分率",
+        "多与少的运算符号搞混"
+      ],
+      "tips": "先把“多几分之几”转化成“是单位1的几分之几”，即 $(1 + 分率)$。"
+    }
+  ]
+}

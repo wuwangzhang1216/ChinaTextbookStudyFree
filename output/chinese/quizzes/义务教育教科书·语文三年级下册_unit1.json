@@ -1,0 +1,737 @@
+{
+  "textbook": "统编版小学语文三年级下册",
+  "unit": "第一单元「可爱生灵」",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "第一单元基础达标卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "描写燕子的外形时，课文是按照从局部到整体的顺序写的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "课文《燕子》描写外形时是由局部到整体：先写羽毛，再写翅膀，接着是尾巴，最后凑成活泼可爱的小燕子。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "“泥融飞燕子”中的“泥融”指泥土湿润、融化。",
+        "options": [],
+        "answer": "对",
+        "explanation": "春天冰雪消融，泥土变得湿润，所以说“泥融”。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "“剪尾”是形容燕子的尾巴像剪刀一样。",
+        "options": [],
+        "answer": "对",
+        "explanation": "燕子的尾巴分叉，形状酷似剪刀。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "制作植物记录卡时，只能记录植物的样子，不能记录我的感受。",
+        "options": [],
+        "answer": "错",
+        "explanation": "记录卡不仅要记植物特征，也可以简要记录观察者的独特感受或发现。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "《三衢道中》描写的是初夏时节的景色。",
+        "options": [],
+        "answer": "对",
+        "explanation": "由诗中“梅子黄时日日晴”可知是初夏。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "下列词语中，哪一个是形容小燕子动作轻盈的？",
+        "options": [
+          "跌落",
+          "闲散",
+          "掠过",
+          "飞舞"
+        ],
+        "answer": "掠过",
+        "explanation": "“掠过”体现了燕子飞行速度快且动作敏捷、轻盈。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "“正是河豚欲上时”中的“欲”字是什么意思？",
+        "options": [
+          "欲望",
+          "想要",
+          "将要",
+          "洗浴"
+        ],
+        "answer": "将要",
+        "explanation": "这里指河豚这时候正要逆流而上。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "阅读《绝句》：迟日江山丽，春风花草香。泥融飞燕子，沙暖睡鸳鸯。诗中“睡”字体现了什么？",
+        "options": [
+          "鸳鸯非常懒惰",
+          "小燕子太吵了",
+          "春日温暖安逸",
+          "鸳鸯生病了"
+        ],
+        "answer": "春日温暖安逸",
+        "explanation": "燕子的“飞”是动景，鸳鸯的“睡”是静景，一动一静展现春天的生机与恬静。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "“清香、嫩叶、花苞”这些词主要用于描写荷花的什么？",
+        "options": [
+          "动态景象",
+          "生长过程",
+          "静止状态",
+          "嗅觉感受"
+        ],
+        "answer": "静止状态",
+        "explanation": "题目给出的词语多是对荷花样子、气味的静态观察。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "想要知道荷叶的质感，最好使用哪种感官去观察？",
+        "options": [
+          "听觉",
+          "嗅觉",
+          "味觉",
+          "触觉"
+        ],
+        "answer": "触觉",
+        "explanation": "质感通常需要通过手摸（触觉）来感知。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "“有的还是花骨朵儿，看起来饱胀得马上要破裂似的。”这句话运用了什么修辞？",
+        "options": [
+          "比喻",
+          "夸张",
+          "拟人",
+          "排比"
+        ],
+        "answer": "夸张",
+        "explanation": "“马上要破裂似的”运用夸张手法形容花骨朵非常饱满。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "下列哪组词语最能概括燕子的羽毛特点？",
+        "options": [
+          "五光十色",
+          "乌黑光亮",
+          "洁白无瑕",
+          "枯黄暗淡"
+        ],
+        "answer": "乌黑光亮",
+        "explanation": "根据课文内容，燕子的羽毛是乌黑发亮的。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "在植物记录卡中，“颜色”这一项属于哪种感官的观察结果？",
+        "options": [
+          "视觉",
+          "嗅觉",
+          "触觉",
+          "听觉"
+        ],
+        "answer": "视觉",
+        "explanation": "颜色通过眼睛观察，属于视觉。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "《三衢道中》“绿阴不减来时路，添得黄鹂四五声”表达了诗人怎样的心情？",
+        "options": [
+          "伤心忧愁",
+          "孤独寂寞",
+          "愤愤不平",
+          "游兴很浓"
+        ],
+        "answer": "游兴很浓",
+        "explanation": "诗人归途中见绿意不减，又有鸟鸣陪伴，心情十分闲适愉悦。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "描写荷叶时用“大圆盘”来形容，这是运用了什么说明方法？",
+        "options": [
+          "打比方",
+          "列数字",
+          "作比较",
+          "分类别"
+        ],
+        "answer": "打比方",
+        "explanation": "将荷叶比作大圆盘，生动形象地写出了荷叶圆而大的特点。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "“竹外桃花三两枝，（___）水暖鸭先知。”请填入空缺词语。",
+        "options": [],
+        "answer": "春江",
+        "explanation": "出自苏轼《惠崇春江晚景》。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "《惠崇春江晚景》中，描写江边植物的词语是“（___）”。",
+        "options": [],
+        "answer": "蒌蒿",
+        "explanation": "描写了江边的蒌蒿和芦芽。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "课文中描写小燕子飞行时的姿态，用到了“（___）”字，表现了动作的灵敏。",
+        "options": [],
+        "answer": "掠",
+        "explanation": "“掠”字精准表现了燕子划过水面的轻快。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "请将描写动作的词语与相应的动物连线。",
+        "options": [
+          "燕子",
+          "鸳鸯",
+          "鸭子",
+          "河豚",
+          "滑过水面",
+          "沙上安睡",
+          "水中嬉戏",
+          "逆流而上"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "根据本单元课文和古诗意境内容进行对应。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "请将诗句与对应的描写内容连线。",
+        "options": [
+          "泥融飞燕子",
+          "沙暖睡鸳鸯",
+          "三衢道中",
+          "春江晚景",
+          "动态之美",
+          "静态之境",
+          "梅子黄时",
+          "芦芽短时"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "综合考查诗句的动静结合及背景意象。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "请将观察方法与其对应的观察内容连线。",
+        "options": [
+          "用眼看",
+          "用鼻闻",
+          "用手摸",
+          "动脑想",
+          "花瓣的形状",
+          "淡淡的清香",
+          "叶子的厚度",
+          "名字的来历"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "不同感官对应不同的观察特征。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "请将下列词语排成描写燕子的句子。",
+        "options": [
+          "小燕子",
+          "带了",
+          "剪刀似的",
+          "从南方",
+          "飞回来了",
+          "尾巴"
+        ],
+        "answer": "小燕子,带了,剪刀似的,尾巴,从南方,飞回来了",
+        "explanation": "根据《燕子》第一自然段语序进行句式排列。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "将描写荷叶的句子排列整齐。",
+        "options": [
+          "荷叶",
+          "挨挨挤挤的",
+          "像",
+          "一个个",
+          "碧绿的",
+          "大圆盘"
+        ],
+        "answer": "荷叶,挨挨挤挤的,像,一个个,碧绿的,大圆盘",
+        "explanation": "出自《荷花》，训练比喻句的结构顺序。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第一单元综合素养测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "“三衢道中”的“道中”是指在去三衢山的路上。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“道中”即路途中。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "《燕子》文中提到的“五线谱”是指天上的电线。",
+        "options": [],
+        "answer": "对",
+        "explanation": "作者运用比喻，将电线比作五线谱，燕子比作音符。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "观察荷花时，我们可以说荷花“翩翩起舞”，这是用了比喻写法。",
+        "options": [],
+        "answer": "错",
+        "explanation": "这是用了拟人的修辞手法，将荷花随风摆动看作跳舞。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "“芦芽”指的是芦苇刚长出来的嫩芽。",
+        "options": [],
+        "answer": "对",
+        "explanation": "“芦芽”是芦苇初发的嫩芽。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "记录卡中记录“昆虫的习性”是植物记录卡的核心内容。",
+        "options": [],
+        "answer": "错",
+        "explanation": "植物记录卡核心应是植物的形态、颜色等，昆虫属于次要关联内容。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "“迟日江山丽”中的“迟日”指的是什么？",
+        "options": [
+          "迟到的日子",
+          "落山时的太阳",
+          "春天的太阳",
+          "漫长的日子"
+        ],
+        "answer": "春天的太阳",
+        "explanation": "“迟日”出自《诗经》，指春天白天渐长，阳光灿烂。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "课文《燕子》中，“旷亮无比的天空”主要描写了燕子的什么生活环境？",
+        "options": [
+          "声音",
+          "背景",
+          "气味",
+          "动作"
+        ],
+        "answer": "背景",
+        "explanation": "通过天空、春天的景象衬托燕子的飞行。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "“另有几只却在波光粼粼的湖面上横掠着。”这里的“横掠”一词用得好在：",
+        "options": [
+          "写出了燕子飞行的姿态轻快",
+          "写出了燕子在抓鱼",
+          "写出了燕子飞得很累",
+          "写出了燕子飞得很慢"
+        ],
+        "answer": "写出了燕子飞行的姿态轻快",
+        "explanation": "“横掠”指燕子飞得低而快，轻轻贴过水面。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "阅读语段：“白荷花在这些大圆盘之间冒出来。有的才展开两三片花瓣儿。有的花瓣儿全展开了。”这段文字的观察顺序是？",
+        "options": [
+          "从低到高",
+          "从整体到局部",
+          "由里向外",
+          "由远及近"
+        ],
+        "answer": "从整体到局部",
+        "explanation": "先看满池荷花的大框架，再看单朵荷花的状态。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "古诗意境还原 with 画面想象",
+        "question": "如果给《三衢道中》配一幅画，画面中不应该出现什么？",
+        "options": [
+          "黄色的梅子",
+          "成群的黄鹂",
+          "湍急的瀑布",
+          "茂密的绿树"
+        ],
+        "answer": "湍急的瀑布",
+        "explanation": "诗中未提及瀑布，只提到了山行景色。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "“有的横掠过湖面，尾尖偶尔沾了一下水面。”这里的“沾”换成“打”好吗？",
+        "options": [
+          "好，更有力",
+          "不好，沾字更轻盈且生动",
+          "好，更形象",
+          "不好，沾字太简单"
+        ],
+        "answer": "不好，沾字更轻盈且生动",
+        "explanation": "“沾”字极其传神地写出了燕子在水面上划过的轻捷。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "描写“桃花”，除了看颜色外，最好再加入哪种感官观察使其更生动？",
+        "options": [
+          "听觉",
+          "嗅觉",
+          "味觉",
+          "想象力"
+        ],
+        "answer": "嗅觉",
+        "explanation": "加入花香的描写能让植物记录更立体。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "《燕子》最后提到“蓝天、电线、燕子”像一首“赞歌”，目的是：",
+        "options": [
+          "描写电线漂亮",
+          "赞美春天的生机与和谐",
+          "赞美燕子的歌声",
+          "描写燕子飞累了"
+        ],
+        "answer": "赞美春天的生机与和谐",
+        "explanation": "借自然美景表达对春天的由衷赞美。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "文中说“燕子为春光增添了许多生趣”，以下哪种景象最能说明这一点？",
+        "options": [
+          "燕子在杆上闲散地休憩",
+          "燕子如斜风细雨般飞掠湖面",
+          "燕子那乌黑的羽毛",
+          "电线杆上的痕迹"
+        ],
+        "answer": "燕子如斜风细雨般飞掠湖面",
+        "explanation": "动景（横掠湖面）最能表现生机勃勃的趣味。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "三衢道中描写的是哪种天气？",
+        "options": [
+          "春雨绵绵",
+          "阴云密布",
+          "天气晴朗",
+          "秋风萧瑟"
+        ],
+        "answer": "天气晴朗",
+        "explanation": "文中提到“日日晴”，说明天气非常好。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "《三衢道中》中，“（___）”字代表诗人划船而行。",
+        "options": [],
+        "answer": "泛",
+        "explanation": "“小溪泛尽却山行”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "燕子剪刀似的尾巴，是由翅膀和（___）凑成的。",
+        "options": [],
+        "answer": "羽毛",
+        "explanation": "根据外形描写填空。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "描写花不仅要写花瓣，还要写花心中间的“（___）”。",
+        "options": [],
+        "answer": "花蕊",
+        "explanation": "属于观察植物细节的专业词汇。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "请将描写燕子的词组与相应方面连线。",
+        "options": [
+          "乌黑光亮",
+          "剪刀似的",
+          "斜飞湖面",
+          "电线杆上",
+          "羽毛",
+          "尾巴",
+          "动作",
+          "休憩"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "本题考查燕子外形、动作、静止不同状态的词语对应。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "请为下列植物找到它们最具特色的特点。",
+        "options": [
+          "白荷花",
+          "嫩芦芽",
+          "黄梅子",
+          "早春花",
+          "冒出来",
+          "短",
+          "黄",
+          "三两枝"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "从文章及诗句中提取关键特征。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗意境还原与画面想象",
+        "question": "请将诗人、朝代与诗句精准匹配。",
+        "options": [
+          "苏轼",
+          "杜甫",
+          "曾几",
+          "卢纶",
+          "春江晚景",
+          "唯见燕子",
+          "三衢道中",
+          "塞下曲"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "考查文学常识储备。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "燕子的外形与动态描写顺序",
+        "question": "排列出春天充满生机的景象句子。",
+        "options": [
+          "春风",
+          "微微地",
+          "在",
+          "吹拂着",
+          "大地"
+        ],
+        "answer": "春风,在,微微地,吹拂着,大地",
+        "explanation": "基础的主谓宾句式排列。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "感官观察法与植物记录卡",
+        "question": "排列下面描写动态荷花的句子。",
+        "options": [
+          "一阵微风",
+          "吹来",
+          "我就",
+          "翩翩起舞",
+          "随风"
+        ],
+        "answer": "一阵微风,吹来,我就,随风,翩翩起舞",
+        "explanation": "出自《荷花》课文，考查学生对课文优美句段的语感。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "古诗意境还原与画面想象",
+      "core_concept": "要求学生在阅读古诗词时，通过挖掘“泥融”“春江”“绿阴”等关键色彩及动觉意象，在脑海中将文字转化成流动的画面。通过动静结合（如飞燕与睡鸳鸯）的对比，体会诗人通过自然景物借景抒情的精妙之处。",
+      "key_formula": "优美诗句 = 观察视角 + 核心景物 + 精练动词/形容词",
+      "common_mistakes": [
+        "分不清古诗中的季节（如把初夏的黄梅看作春季）",
+        "解释诗意时机械翻译，缺乏画面的生动想象"
+      ],
+      "tips": "想象画面时，可以从色彩、声音、气味和温度四个维度展开，让诗歌变电影。"
+    },
+    {
+      "point": "燕子的外形与动态描写顺序",
+      "core_concept": "学习一种有序观察的方法：先写整体给人的印象，再由远及近或由表及里地描写局部特征。在动态描写中，通过寻找精准的动词（如“掠”“沾”）来体现生物的灵性。同时，学习用比喻、拟人将自然物与人文审美（如五线谱）联系起来。",
+      "key_formula": "灵动描写 = 观察顺序（外形-动作-休息）+ 精准动词 + 恰当比喻",
+      "common_mistakes": [
+        "描写顺序混乱，一会儿写头一会儿写尾巴又回到身体",
+        "用词太平淡，无法体现“轻盈”和“快”的感觉"
+      ],
+      "tips": "画一张燕子结构图，对着图按顺序背诵第一自然段，最能体会描写顺序。"
+    },
+    {
+      "point": "感官观察法与植物记录卡",
+      "core_concept": "掌握多维度观察植物的技巧：不仅靠眼睛看颜色，还要靠鼻子闻气味，靠手摸质感。通过制作植物记录卡，将这些零散的感官信息分类（名称、样子、颜色、感受等），这为写出言之有物的习作打下数据基础。",
+      "key_formula": "植物卡片 = 多感官观察（视听嗅触）+ 细节记录 + 个人发现",
+      "common_mistakes": [
+        "记录内容过于单一，只写“很美”“红色”，没有细节描写",
+        "混淆观察到的事实和主观的想象，不知道记录卡应以事实为主"
+      ],
+      "tips": "带上一个小本子实地看一朵花，分别记录它“看起来像什么”、“摸起来像什么”。"
+    }
+  ]
+}

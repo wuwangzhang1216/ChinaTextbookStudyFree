@@ -1,0 +1,730 @@
+{
+  "textbook": "人教版 PEP 英语五年级下册",
+  "unit": "My favourite season",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2 My favourite season 单元达标检测卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "单词 'spring' 的意思是 '秋天'。",
+        "options": [],
+        "answer": "错",
+        "explanation": "spring意为春天，秋天是autumn。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "单词 'winter' 的意思是 '冬天'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "winter意为冬天。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "季节性活动的表达",
+        "question": "'go swimming' 的中文意思是 '去游泳'。",
+        "options": [],
+        "answer": "对",
+        "explanation": "go swimming意为去游泳。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字母组合br和gr的发音规律",
+        "question": "单词 'bread' 和 'brown' 中 'br' 的发音相同。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两者中的br都发/br/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "因为喜欢玩雪，所以喜欢夏天的表达是正确的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "玩雪通常发生在winter（冬天）而不是summer（夏天）。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "Which _______ do you like best?",
+        "options": [
+          "season",
+          "fruit",
+          "food",
+          "animal"
+        ],
+        "answer": "season",
+        "explanation": "询问最喜欢的季节使用season。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "It's very cold in ________.",
+        "options": [
+          "spring",
+          "summer",
+          "autumn",
+          "winter"
+        ],
+        "answer": "winter",
+        "explanation": "冬天（winter）天气寒冷。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "I like summer ________ I can go swimming.",
+        "options": [
+          "but",
+          "and",
+          "because",
+          "so"
+        ],
+        "answer": "because",
+        "explanation": "表达喜欢的理由使用连词because。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "季节性活动的表达",
+        "question": "I often ________ in autumn.",
+        "options": [
+          "make a snowman",
+          "pick apples",
+          "plant trees",
+          "go swimming"
+        ],
+        "answer": "pick apples",
+        "explanation": "秋天是收获的季节，常摘苹果。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "The flowers are beautiful in ________.",
+        "options": [
+          "spring",
+          "winter",
+          "hot",
+          "cold"
+        ],
+        "answer": "spring",
+        "explanation": "春暖花开，所以是spring。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "Which season does she ________ best?",
+        "options": [
+          "likes",
+          "like",
+          "liked",
+          "liking"
+        ],
+        "answer": "like",
+        "explanation": "助动词does后动词使用原形。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "季节性活动的表达",
+        "question": "Let's ________ a picnic today!",
+        "options": [
+          "go in",
+          "go on",
+          "go to",
+          "go"
+        ],
+        "answer": "go on",
+        "explanation": "固定搭配go on a picnic意为去写生/野餐。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "Autumn is ________ in China.",
+        "options": [
+          "gold",
+          "green",
+          "white",
+          "pink"
+        ],
+        "answer": "gold",
+        "explanation": "秋天常被描述为金色的季节。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "— I like winter best. \r\n— ________.",
+        "options": [
+          "Me too",
+          "Me neither",
+          "Yes",
+          "No"
+        ],
+        "answer": "Me too",
+        "explanation": "表示我也一样，用Me too。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字母组合br和gr的发音规律",
+        "question": "Which word has the /gr/ sound?",
+        "options": [
+          "brother",
+          "brown",
+          "green",
+          "bread"
+        ],
+        "answer": "green",
+        "explanation": "green包含gr组合，发音为/gr/。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "There are four seasons in a year. They are spring, summer, autumn and ________.",
+        "options": [],
+        "answer": "winter",
+        "explanation": "填入四季中缺失的冬季。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "季节性活动的表达",
+        "question": "I can make a ________ in winter.",
+        "options": [],
+        "answer": "snowman",
+        "explanation": "冬天的活动是堆雪人（make a snowman）。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "I like spring ________ the weather is pretty.",
+        "options": [],
+        "answer": "because",
+        "explanation": "引导原因状语从句用because。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "The weather is very ________ in summer.",
+        "options": [],
+        "answer": "hot",
+        "explanation": "夏季的天气特征是炎热。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "将下列季节单词与对应的中文意思连线。",
+        "options": [
+          "spring",
+          "summer",
+          "autumn",
+          "winter",
+          "秋天",
+          "夏天",
+          "冬天",
+          "春天"
+        ],
+        "answer": "A-4,B-2,C-1,D-3",
+        "explanation": "A.spring-春天; B.summer-夏天; C.autumn-秋天; D.winter-冬天。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "季节性活动的表达",
+        "question": "将动词短语与中文意思连线。",
+        "options": [
+          "go swimming",
+          "pick apples",
+          "plant trees",
+          "make a snowman",
+          "种树",
+          "摘苹果",
+          "游泳",
+          "堆雪人"
+        ],
+        "answer": "A-3,B-2,C-1,D-4",
+        "explanation": "A.go swimming-游泳; B.pick apples-摘苹果; C.plant trees-种树; D.make a snowman-堆雪人。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "连词成句：[season, Which, you, best, like, ?]",
+        "options": [
+          "season",
+          "Which",
+          "you",
+          "best",
+          "like",
+          "?"
+        ],
+        "answer": "Which,season,like,you,best,?",
+        "explanation": "特殊疑问句结构：疑问词+名词+助动词(此处省略do)+主语+动词。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "季节性活动的表达",
+        "question": "连词成句：[I, go, on, a, picnic, .]",
+        "options": [
+          "I",
+          "go",
+          "on",
+          "a",
+          "picnic",
+          "."
+        ],
+        "answer": "I,go,on,a,picnic,.",
+        "explanation": "陈述句结构：主语+谓语动词短语。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级下册期中英语综合评价试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "夏天非常冷，我们可以堆雪人。",
+        "options": [],
+        "answer": "错",
+        "explanation": "夏天很热，冬天才能堆雪人。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "四个季节的拼写",
+        "question": "'autum' 是单词 '秋天' 正确拼写。",
+        "options": [],
+        "answer": "错",
+        "explanation": "秋天正确拼写是autumn，结尾有n。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "'Which season do you like best?' 询问的是对方最讨厌哪个季节。",
+        "options": [],
+        "answer": "错",
+        "explanation": "该句询问的是最喜欢哪个季节。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字母组合br和gr的发音规律",
+        "question": "单词 'grapes' 里的字母组合 'gr' 发音是 /gr/。",
+        "options": [],
+        "answer": "对",
+        "explanation": "gr在grapes中发/gr/。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "季节性活动的表达",
+        "question": "'go on a picnic' 常在春天和秋天进行。",
+        "options": [],
+        "answer": "对",
+        "explanation": "春秋天气适宜郊游野餐。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "Summer is ________. We can go swimming.",
+        "options": [
+          "cool",
+          "hot",
+          "cold",
+          "windy"
+        ],
+        "answer": "hot",
+        "explanation": "夏天天气炎热（hot）。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "I like winter ________ I like the snow.",
+        "options": [
+          "but",
+          "with",
+          "because",
+          "and"
+        ],
+        "answer": "because",
+        "explanation": "用because解释喜欢的原因。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "季节性活动的表达",
+        "question": "It's spring. Let's ________.",
+        "options": [
+          "pick apples",
+          "plant trees",
+          "make a snowman",
+          "sweeping"
+        ],
+        "answer": "plant trees",
+        "explanation": "春天是植树（plant trees）的季节。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字母组合br和gr的发音规律",
+        "question": "Which word family is different?",
+        "options": [
+          "brown",
+          "bread",
+          "grow",
+          "brother"
+        ],
+        "answer": "grow",
+        "explanation": "grow是gr组合，其他三项是br组合。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "Autumn is ________. The leaves are yellow.",
+        "options": [
+          "warm",
+          "cool",
+          "hot",
+          "cold"
+        ],
+        "answer": "cool",
+        "explanation": "秋天天凉快（cool）。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "— ________ \r\n— Winter. I can play in the snow.",
+        "options": [
+          "What is the weather today?",
+          "Which season do you like best?",
+          "What do you do in winter?",
+          "Do you like winter?"
+        ],
+        "answer": "Which season do you like best?",
+        "explanation": "根据回答Winter及其理由，判断问句是问最喜欢的季节。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "季节性活动的表达",
+        "question": "In ________, I always wear my coat.",
+        "options": [
+          "summer",
+          "spring",
+          "winter",
+          "autumn"
+        ],
+        "answer": "winter",
+        "explanation": "穿大衣（wear my coat）通常在寒冷的冬天。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "The colors are ________ in spring.",
+        "options": [
+          "white",
+          "beautiful",
+          "snowy",
+          "black"
+        ],
+        "answer": "beautiful",
+        "explanation": "春天色彩斑斓，很美丽。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "季节性活动的表达",
+        "question": "I usually ________ with my parents on Sundays.",
+        "options": [
+          "go a picnic",
+          "go picnic",
+          "go on a picnic",
+          "goes on a picnic"
+        ],
+        "answer": "go on a picnic",
+        "explanation": "go on a picnic为固定短语，主语是I所以动词不加s。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "Which season comes after winter?",
+        "options": [
+          "summer",
+          "autumn",
+          "fall",
+          "spring"
+        ],
+        "answer": "spring",
+        "explanation": "冬去春来，冬天的下一个季节是春天。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "I like summer ________ I can go to the beach.",
+        "options": [],
+        "answer": "because",
+        "explanation": "表示因果关系。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "I don't like winter. It's too ________.",
+        "options": [],
+        "answer": "cold",
+        "explanation": "不喜欢的理由通常是天气太冷（cold）。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "季节性活动的表达",
+        "question": "In autumn, I often go and ________ apples.",
+        "options": [],
+        "answer": "pick",
+        "explanation": "秋天摘苹果的动词是pick。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季词汇与特征描述",
+        "question": "My favorite ________ is summer.",
+        "options": [],
+        "answer": "season",
+        "explanation": "summer属于season（季节）。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "四季特征描述词匹配",
+        "question": "将形容词与对应的中文意思连线。",
+        "options": [
+          "warm",
+          "hot",
+          "cool",
+          "cold",
+          "炎热",
+          "寒冷",
+          "凉爽",
+          "温暖"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "warm-温暖, hot-炎热, cool-凉爽, cold-寒冷。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "季节与活动综合匹配",
+        "question": "将季节与相关内容连线。",
+        "options": [
+          "spring",
+          "summer",
+          "autumn",
+          "winter",
+          "snow",
+          "green",
+          "golden",
+          "swimming"
+        ],
+        "answer": "A-2,B-4,C-3,D-1",
+        "explanation": "春天是绿色的，夏天游泳，秋天金黄，冬天雪。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "连词成句：[I, like, best, spring, .]",
+        "options": [
+          "I",
+          "like",
+          "best",
+          "spring",
+          "."
+        ],
+        "answer": "I,like,spring,best,.",
+        "explanation": "like...best 表达最喜欢。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "询问并表达最喜欢的季节及原因",
+        "question": "连词成句：[Why, you, like, summer, do, ?]",
+        "options": [
+          "Why",
+          "you",
+          "like",
+          "summer",
+          "do",
+          "?"
+        ],
+        "answer": "Why,do,you,like,summer,?",
+        "explanation": "Why引导的特殊疑问句结构：Why + do + 主语 + 动词 + 宾语 + ?"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "核心季节词汇",
+      "core_concept": "spring, summer, autumn, winter",
+      "key_formula": "季节首字母小写（除非句首），autumn 的末尾 n 不发音。",
+      "common_mistakes": [
+        "autumn 拼写漏掉最后的 n",
+        "winter 和 window 混淆"
+      ],
+      "tips": "可以通过颜色记忆：Green spring, Red summer, Yellow autumn, White winter."
+    },
+    {
+      "point": "询问最喜爱的季节",
+      "core_concept": "Which season do you like best?",
+      "key_formula": "Which + 名词 + do/does + 主语 + like best?",
+      "common_mistakes": [
+        "like best 中间漏掉名词",
+        "把 Which 用成了 What"
+      ],
+      "tips": "回答时可以直接说 I like winter best. 或者简略回答 Winter."
+    },
+    {
+      "point": "描述季节原因",
+      "core_concept": "Because...",
+      "key_formula": "主语 + like + 季节 + because + 句子(原因).",
+      "common_mistakes": [
+        "because后面只接单词而非句子",
+        "拼写 because 时字母 a 和 u 顺序颠倒"
+      ],
+      "tips": "原因通常连接天气(The weather is white)或活动(I can shop)."
+    },
+    {
+      "point": "语音规则 br/gr",
+      "core_concept": "辅音连缀发音 /br/ 和 /gr/",
+      "key_formula": "br/br/ (bread, brown, brother), gr/gr/ (green, grapes, grass)",
+      "common_mistakes": [
+        "将 /gr/ 发成 /g/ 或把 /br/ 发成 /b/",
+        "听音辨析时分不清 brown 和 green 的开头"
+      ],
+      "tips": "注意舌尖位置，r 的发音要卷舌但不触碰上齿龈。"
+    }
+  ]
+}

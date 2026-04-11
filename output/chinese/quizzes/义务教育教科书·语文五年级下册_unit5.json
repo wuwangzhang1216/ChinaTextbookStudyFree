@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文五年级下册",
+  "unit": "把一个人的特点写具体",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元人物特点描写基础评估",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "《摔跤》一文中，运用了大量的动作描写来表现小嘎子和胖墩儿的特点。",
+        "options": [],
+        "answer": "对",
+        "explanation": "文中通过“猴儿踢”“钩”“蹦”等一系列动作生动展现了人物特点。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "严监生临死前伸出两根指头，是因为他想起了两个亲人没有见最后一面。",
+        "options": [],
+        "answer": "错",
+        "explanation": "严监生是因为看到灯盏里点着两根灯草，怕费油，体现了他的吝啬。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "侧面描写与烘托",
+        "question": "描写人物时，通过旁人的反应来表现主人公的特点，这属于侧面描写。",
+        "options": [],
+        "answer": "对",
+        "explanation": "侧面描写即通过外界事物的评价或反应来烘托人物形象。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "描写人物外貌时，必须把人的每一个五官特征都巨细无遗地写出来。",
+        "options": [],
+        "answer": "错",
+        "explanation": "写外貌应抓重点和典型特征，而不是面面俱到。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "选用典型事例表现人物",
+        "question": "要写出老师“严厉”的特点，可以选她认真批改作业到深夜的事例。",
+        "options": [],
+        "answer": "错",
+        "explanation": "认真批改作业体现的是责任心，而不能直接表现“严厉”。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "下列词语中，哪一个最能体现严监生这种人？",
+        "options": [
+          "两袖清风",
+          "勤俭持家",
+          "爱财如命",
+          "一贫如洗"
+        ],
+        "answer": "爱财如命",
+        "explanation": "文中严监生临终掐灭灯草的行为正是金钱至上、吝啬成性的“爱财如命”的表现。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "“刷子李”的黑衣上没有一个白点，这主要通过什么描写展现他的技艺高超？",
+        "options": [
+          "外貌描写",
+          "心理描写",
+          "语言描写",
+          "神态描写"
+        ],
+        "answer": "外貌描写",
+        "explanation": "通过对他那一身黑衣的视觉描述，从侧面或正面展示其手艺。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "曹小三在刷墙时，一直盯着师傅的黑衣服看。这是什么描写？",
+        "options": [
+          "正面描写",
+          "侧面描写",
+          "细节描写",
+          "心理描写"
+        ],
+        "answer": "侧面描写",
+        "explanation": "通过曹小三的行为和心理状态，反衬出刷子李手艺的神奇。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "“两虎相争，必有一伤。”这句话形容《摔跤》中谁最合适？",
+        "options": [
+          "嘎子和胖墩儿",
+          "刷子李和徒弟",
+          "严监生和家人",
+          "作者和读者"
+        ],
+        "answer": "嘎子和胖墩儿",
+        "explanation": "嘎子和胖墩儿摔跤时互不相让，势均力敌。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "选用典型事例表现人物",
+        "question": "要描写一个人“记性好”，以下哪个事例最典型？",
+        "options": [
+          "他经常帮妈妈买东西",
+          "他能准确背出三年前读过的一首短诗",
+          "他在考试中考了满分",
+          "他每天准时到学校上课"
+        ],
+        "answer": "他能准确背出三年前读过的一首短诗",
+        "explanation": "背出很久以前的细节最能体现“记性好”。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "“他转了三圈，寻找机会下手。”这句话属于？",
+        "options": [
+          "动作描写",
+          "外貌描写",
+          "心理描写",
+          "神态描写"
+        ],
+        "answer": "动作描写",
+        "explanation": "“转”是典型的肢体动作。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "在《刷子李》原文中，最能体现他自信的词语是？",
+        "options": [
+          "悠然自得",
+          "半信半疑",
+          "天衣无缝",
+          "一尘不染"
+        ],
+        "answer": "悠然自得",
+        "explanation": "文中描写刷子李刷墙时的姿态舒展，体现出对他对自己手艺的极大自信。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "下列哪组词语最适合形容小嘎子？",
+        "options": [
+          "憨厚踏实",
+          "机制灵敏",
+          "老气横秋",
+          "胆小怕事"
+        ],
+        "answer": "机制灵敏",
+        "explanation": "嘎子在摔跤时时刻寻找对方漏洞，非常机灵。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "侧面描写与烘托",
+        "question": "短文：“张华还没进教室，同学们就听到他那爽朗的大笑声。”这运用了？",
+        "options": [
+          "声音烘托",
+          "神态描写",
+          "环境描写",
+          "外貌描写"
+        ],
+        "answer": "声音烘托",
+        "explanation": "通过未见其人先闻其声的方式烘托其开朗特点。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "描写严监生“伸出两个指头”属于什么描写？",
+        "options": [
+          "动作描写",
+          "神态描写",
+          "心理描写",
+          "侧面描写"
+        ],
+        "answer": "动作描写",
+        "explanation": "“伸”这是一个具体的肢体动作。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "通过描写人物的穿戴、长相体现特点的方法叫（___）描写。",
+        "options": [],
+        "answer": "外貌",
+        "explanation": "长相、身材、穿戴均属于外貌（肖像）描写范畴。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "《摔跤》选自徐光耀的著名小说《（___）》。",
+        "options": [],
+        "answer": "小兵张嘎",
+        "explanation": "该片段选自经典儿童文学《小兵张嘎》。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "“刷子李”之所以被称为刷子李，是因为他在哪方面技艺超群？",
+        "options": [],
+        "answer": "刷墙",
+        "explanation": "人物绰号往往代表其职业中的绝活。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "将作品中的人物与典型的描写手法连线。",
+        "options": [
+          "小嘎子",
+          "严监生",
+          "刷子李",
+          "胖墩儿",
+          "伸指动作",
+          "摔跤动作",
+          "沉稳厚实",
+          "黑衣无点"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "嘎子偏重灵动动作，严监生是经典的伸手动作，刷子李是黑衣，胖墩儿则是力量感。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "将描写词语与对应的描写范畴连线。",
+        "options": [
+          "五官端正",
+          "大步流星",
+          "忧心忡忡",
+          "窃窃私语",
+          "动作",
+          "外貌",
+          "神态",
+          "语言"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "五官是外貌，大步是动作，忧心是神态，私语是语言。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "选用典型事例表现人物",
+        "question": "将性格特点与最匹配的事例连线。",
+        "options": [
+          "爱面子",
+          "乐于助人",
+          "粗心大意",
+          "勤学苦练",
+          "主动扶起同学",
+          "考试总漏做题",
+          "输了球不承认",
+          "练琴磨破手指"
+        ],
+        "answer": "A-3,B-1,C-2,D-4",
+        "explanation": "输球不认是爱面子，漏题是粗心，扶人是助人，磨破手是苦练。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "请将词语排成描写人物动作的句子：",
+        "options": [
+          "小胖墩儿",
+          "塌着腰",
+          "挺着肚子",
+          "就像",
+          "石墩子"
+        ],
+        "answer": "小胖墩儿,塌着腰,挺着肚子,就像,石墩子",
+        "explanation": "这是课文中描写胖墩儿摔跤姿态的经典短句。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "侧面描写与烘托",
+        "question": "通过他人眼神排成能够体现侧面烘托的句子：",
+        "options": [
+          "惊讶的",
+          "投向了",
+          "目光",
+          "大家都把",
+          "曹小三"
+        ],
+        "answer": "大家都把,惊讶的,目光,投向了,曹小三",
+        "explanation": "体现曹小三（代表旁人）的反应，从而衬托刷子李的技艺。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级下册第五单元「人物描写」综合学业测评",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "描写人物时，只要把词语用得华丽，就能写出人物的特点。",
+        "options": [],
+        "answer": "错",
+        "explanation": "写出特点靠的是选材典型和描写具体，而非华丽词藻。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "侧面描写与烘托",
+        "question": "《刷子李》中描写曹小三的心理变化，是为了突出刷子李的高超手艺。",
+        "options": [],
+        "answer": "对",
+        "explanation": "曹小三从佩服到怀疑再到崇拜的过程，有力地衬托了师傅的绝活。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "选用典型事例表现人物",
+        "question": "表现一个人的特点可以选用一件事表达，也可以选用几件事。",
+        "options": [],
+        "answer": "对",
+        "explanation": "可以用一件事写透，也可以用几件典型事多角度展现。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "严监生是短篇小说集《儒林外史》中的典型人物。",
+        "options": [],
+        "answer": "对",
+        "explanation": "《严监生喉咙气断》节选自清代吴敬梓的《儒林外史》。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "“下巴的胡须随着说话微微颤动”这属于神态描写。",
+        "options": [],
+        "answer": "对",
+        "explanation": "通过面部细微动作展现人物的神情。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "“小嘎子……围着小胖墩儿蹦来蹦去。”这里的“蹦”字体现了嘎子的？",
+        "options": [
+          "沉稳",
+          "胆怯",
+          "机灵",
+          "慌张"
+        ],
+        "answer": "机灵",
+        "explanation": "“蹦”体现了动作的敏捷和观察的灵活。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "侧面描写与烘托",
+        "question": "读句子：“曹小三发现师傅衣服上居然有一个白点，心猛地往下一沉。”这里的描写是为了：",
+        "options": [
+          "说明师傅手艺退步了",
+          "说明曹小三眼神太好",
+          "为后文的转折制造悬念",
+          "表现曹小三很顽皮"
+        ],
+        "answer": "为后文的转折制造悬念",
+        "explanation": "白点的出现是一个转折点，增强了故事的趣味性。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "选用典型事例表现人物",
+        "question": "要描写“爸爸是个体育迷”，以下哪组素材最不恰当？",
+        "options": [
+          "凌晨起床看球赛",
+          "给孩子买漂亮的运动鞋",
+          "跑步时忘记了回家吃饭",
+          "能记得近十年的奥运冠军"
+        ],
+        "answer": "给孩子买漂亮的运动鞋",
+        "explanation": "买鞋可能是因为爱孩子，并不一定能直接反映出他本人是体育迷。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "《两虎相争》中，为什么嘎子要提议摔跤？",
+        "options": [
+          "他觉得摔跤更有趣",
+          "他想通过摔跤显示自己的高大",
+          "他想利用自己灵活的优势避开力气",
+          "他害怕对方手里的枪"
+        ],
+        "answer": "他想利用自己灵活的优势避开力气",
+        "explanation": "嘎子知道硬拼力气拼不过胖墩儿，想智取。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "“刷子李”给自己定的规矩中，最奇特的一条是：",
+        "options": [
+          "刷墙时穿一身黑",
+          "一天只刷一间房",
+          "刷墙时不许徒弟说话",
+          "刷墙收费特别贵"
+        ],
+        "answer": "刷墙时穿一身黑",
+        "explanation": "重点在于如果黑衣服上沾了白点，就不收钱。这是他自信的体现。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "下列属于神态描写的是：",
+        "options": [
+          "他穿着一件破旧的大衣",
+          "他愤怒地盯着那个坏人",
+          "他一个箭步冲了上去",
+          "他低声说了一句对不起"
+        ],
+        "answer": "他愤怒地盯着那个坏人",
+        "explanation": "愤怒和盯着的眼神构成了神态。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "冯骥才在《刷子李》中通过一个“小包袱”描写白点，白点最后被证明是？",
+        "options": [
+          "墙上的白灰",
+          "掉下来的漆皮",
+          "裤子上的破洞",
+          "烟屁股烫的眼"
+        ],
+        "answer": "烟屁股烫的眼",
+        "explanation": "结尾揭开了悬念，那个白点其实是黑裤子被烟灰烫穿的小洞。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "阅读：“他在屋里走来走去，手不停地搓着，眉头皱成了疙瘩。”这段话主要刻画了人物：",
+        "options": [
+          "犹豫不决的神情",
+          "非常有钱的样子",
+          "非常生病的症状",
+          "正在偷听的动作"
+        ],
+        "answer": "犹豫不决的神情",
+        "explanation": "走来走去、搓手、皱眉是内心焦急、纠结的外部表现。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "形容一个人说话像连珠炮，这是形容这个人的？",
+        "options": [
+          "语言速度极快",
+          "长得像炮弹",
+          "喜欢开玩笑",
+          "声音很好听"
+        ],
+        "answer": "语言速度极快",
+        "explanation": "这是一种生动的比喻，形容说话密集且迅速。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "严监生的两个家人分别猜错了他的意思，以下谁猜对了？",
+        "options": [
+          "他的大侄子",
+          "他的二侄子",
+          "他的奶妈",
+          "赵氏"
+        ],
+        "answer": "赵氏",
+        "explanation": "赵氏最了解严监生的吝啬本性，猜中是因为两根灯草。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "个人描写方法",
+        "question": "在《摔跤》一文中，我们可以看出嘎子骨子里带着一股（___）劲儿。",
+        "options": [],
+        "answer": "不服输",
+        "explanation": "嘎子虽输但不放弃，充满了韧性。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "侧面描写与烘托",
+        "question": "描写周围人的惊叹是为了（___）主人公的高超技艺。",
+        "options": [],
+        "answer": "烘托",
+        "explanation": "烘托是侧面描写的主要作用。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "“严监生”这个人物给读者留下的最大特点是（___）。",
+        "options": [],
+        "answer": "吝啬",
+        "explanation": "吝啬是他最为典型的标签。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "将描写词语与对应的人物特征连线。",
+        "options": [
+          "手疾眼快",
+          "一丝不苟",
+          "半信半疑",
+          "挺脱活泼",
+          "刷子李工作",
+          "嘎子动作",
+          "祥子外貌",
+          "曹小三心态"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "嘎子动作快，刷子李态度严谨，曹小三起疑心，祥子（本册相关人物）挺脱。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "将下列课文中的描写与其所属类别连线。",
+        "options": [
+          "赵氏插手道...",
+          "头飞快地摇...",
+          "两根灯草...",
+          "平平整整...",
+          "动作",
+          "语言",
+          "细节物象",
+          "环境"
+        ],
+        "answer": "A-2,B-1,C-3,D-4",
+        "explanation": "说出的词是语言，摇头是动作，灯草是关键物品细节，涂匀后的平整状是环境结果。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "侧面描写与烘托",
+        "question": "匹配侧面描写的功能。",
+        "options": [
+          "看客的欢呼",
+          "花朵的低下",
+          "破旧的房屋",
+          "众人的称赞",
+          "表现主人公美",
+          "表现手艺高",
+          "表现主人公穷",
+          "表现比赛精彩"
+        ],
+        "answer": "A-4,B-1,C-3,D-2",
+        "explanation": "欢呼对应比赛精彩，花低对应人美，屋旧对应穷，赞对应手艺高。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人物描写的基本方法",
+        "question": "请将描写嘎子心理的词语排成句：",
+        "options": [
+          "小嘎子",
+          "自以为",
+          "推拉拽顶",
+          "能战胜",
+          "胖墩儿"
+        ],
+        "answer": "小嘎子,自以为,推拉拽顶,能战胜,胖墩儿",
+        "explanation": "反映出嘎子的心理状态与动作企图。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "选用典型事例表现人物",
+        "question": "排成一个总结写作手法的句子：",
+        "options": [
+          "写人",
+          "典型事例",
+          "要选用",
+          "特点",
+          "来表现"
+        ],
+        "answer": "写人,要选用,典型事例,来表现,特点",
+        "explanation": "这是一句关于本单元习作要求的总结性话语。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "人物描写的基本方法",
+      "core_concept": "即直接描写，通过对人物的外貌（身材、衣着、五官）、动作（具体的肢体变化）、语言（对话的内容和语气）、神态（脸上的表情、目光）以及心理进行细致刻画。这是让人物形象“活起来”的核心。例如《摔跤》通过“钩、扫、踢”一系列动词，精准展现了嘎子的机敏和争强好胜。",
+      "key_formula": "生动刻画 = 细微动作 + 传神表情 + 典型话语",
+      "common_mistakes": [
+        "描写过于平庸，如‘他很开心’（应通过动作神态表现）",
+        "堆砌辞藻，写了一堆外貌却与性格无关"
+      ],
+      "tips": "观察时要抓住人物瞬间的变化，重点抓那些最能反映性格的细节。"
+    },
+    {
+      "point": "侧面描写与烘托",
+      "core_concept": "不直接写主人公，而是通过描写周围人的反应、评价，或者通过环境、其他事物的衬托，从侧面表现人物的特点。在《刷子李》中，作者花费大量笔墨写徒弟曹小三的心理从质疑到震撼的变化，这比直接夸赞刷子李技艺高超更有说服力和感染力。",
+      "key_formula": "侧面表达 = 旁人反应 + 环境气氛 + 对比反衬",
+      "common_mistakes": [
+        "反客为主，写了一堆路人的反应却让读者忘了主角是谁",
+        "侧面描写与主角特点不匹配，起不到衬托作用"
+      ],
+      "tips": "想象主角在做惊人之举时，周围人的嘴巴、眼神是什么样的。"
+    },
+    {
+      "point": "选用典型事例表现人物",
+      "core_concept": "一个人有多种品质，但在写作时必须选择最能代表其某一方面特点的事例。所谓“典型”，是指那些最有说服力、最能在读者心中留下深刻印象的事件。严监生一生可能有许多事，但“临终掐灭灯草”这一件事足以让他成为中国文学中“吝啬鬼”的代名词。",
+      "key_formula": "一个特点 + 1到2个扎实的典型事例",
+      "common_mistakes": [
+        "选材雷同化（如写老师必是深夜改作业，写妈妈必是雨中送伞）",
+        "事小却不精，无法精准对接人物特点"
+      ],
+      "tips": "问问自己：这件事要是换个人做，效果是不是一样？如果不一样，它就是典型的。"
+    }
+  ]
+}

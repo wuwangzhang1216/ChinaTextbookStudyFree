@@ -1,0 +1,349 @@
+{
+  "textbook": "二年级上册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "长度单位",
+      "knowledge_points": [
+        {
+          "name": "统一长度单位的必要性",
+          "description": "通过实践操作体验统一长度单位的必要性，了解古代与现代测量单位的区别。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "厘米的认识与使用",
+          "description": "建立1厘米的长度表象，掌握用尺子测量物体长度的方法（0刻度对准起点）。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "画图",
+            "操作题"
+          ]
+        },
+        {
+          "name": "米的认识与单位换算",
+          "description": "建立1米的长度表象，掌握1米=100厘米的进率关系及长度单位的选择。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "线段的初步认识与画法",
+          "description": "直观认识线段的特征（直、有两个端点），学会画指定长度的线段。",
+          "difficulty": 3,
+          "question_types": [
+            "判断",
+            "画图",
+            "操作题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "100以内的加法和减法（二）",
+      "knowledge_points": [
+        {
+          "name": "两位数加两位数（不进位与进位）",
+          "description": "掌握相同数位对齐，从个位加起，个位满十向十位进一的竖式笔算规则。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "填空",
+            "判断"
+          ]
+        },
+        {
+          "name": "两位数减两位数（不退位与退位）",
+          "description": "掌握个位不够减从十位退一作十再减的算理，熟练进行减法笔算。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "连加、连减与加减混合运算",
+          "description": "理解运算顺序（由左至右），掌握通过简便竖式计算多个数加减的方法。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "含小括号的加减混合运算",
+          "description": "理解小括号的作用，掌握含有小括号算式的优先运算顺序规则。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "选择",
+            "计算题"
+          ]
+        },
+        {
+          "name": "解决问题：求比一个数多（或少）几的数",
+          "description": "分析数量关系，利用加减法解决简单的比较型应用题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "角的初步认识",
+      "knowledge_points": [
+        {
+          "name": "角的认识与特征",
+          "description": "知道角由一个顶点和两条边组成，体会角的大小与边张开程度的关系。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "判断",
+            "选择"
+          ]
+        },
+        {
+          "name": "直角、锐角、钝角的辨析",
+          "description": "认识直角并能用三角尺判定，了解锐角比直角小，钝角比直角大。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断",
+            "操作题"
+          ]
+        },
+        {
+          "name": "画角与拼角",
+          "description": "学会使用尺子画出各类的角，并能用一副三角尺拼组出特定的角。",
+          "difficulty": 3,
+          "question_types": [
+            "画图",
+            "操作题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "表内乘法（一）",
+      "knowledge_points": [
+        {
+          "name": "乘法的初步认识",
+          "description": "理解乘法是求几个相同加数和的简便运算，认识乘数和积。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "连线/匹配",
+            "选择"
+          ]
+        },
+        {
+          "name": "2~6的乘法口诀编制与记忆",
+          "description": "经历编制口诀过程，熟练背诵2、3、4、5、6的乘法口诀并理解来源。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "乘加、乘减混合运算",
+          "description": "掌握在含乘法和加减法的算式中先算乘法的原则，解决场景应用问题。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "计算题",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "观察物体（一）",
+      "knowledge_points": [
+        {
+          "name": "从不同位置观察物体",
+          "description": "体验站在不同方位（前、后、左、右）观察同一物体时，看到的形状可能不同。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "观察立体图形",
+          "description": "辨认从正面、侧面、上面观察到的简单几何体（如长方体、正方体）的形状。",
+          "difficulty": 2,
+          "question_types": [
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "空间观念建立",
+          "description": "根据看到的形状描述或推断观察者的位置，培养空间想象能力。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "操作题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "表内乘法（二）",
+      "knowledge_points": [
+        {
+          "name": "7、8、9的乘法口诀",
+          "description": "熟练掌握7、8、9的乘法口诀，发现积的变化规律（如9的积的特征）。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "填空",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "利用乘法口诀求积或因数",
+          "description": "能根据积推算乘数，或利用口诀解决含大额数字的场景计算。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "多步乘法应用题：解决问题",
+          "description": "根据题目信息（如座位安排、购物）选择乘加、乘减或乘法进行综合计算。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "填空"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "认识时间",
+      "knowledge_points": [
+        {
+          "name": "钟面时刻的认读",
+          "description": "能以5分位单位认读时刻（如几时几分），知道1时=60分。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "画图",
+            "选择"
+          ]
+        },
+        {
+          "name": "时、分、秒的换算与关系",
+          "description": "理解半小时、一刻等概念，掌握小时与分钟之间的进率。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "排序/比较"
+          ]
+        },
+        {
+          "name": "时间先后的推理",
+          "description": "结合生活情境，根据作息规律或经过时间推断合理的活动时刻。",
+          "difficulty": 4,
+          "question_types": [
+            "选择",
+            "判断",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "数学广角——搭配（一）",
+      "knowledge_points": [
+        {
+          "name": "简单的排列问题",
+          "description": "通过固定位置等有序思考方法，找出不重复数字组成的两位数数量。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "简单的组合问题",
+          "description": "找出与顺序无关的组合（如握手次数、衣服搭配、数字求和）的多种可能性。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "有序思考与逻辑推导",
+          "description": "培养不重复、不遗漏的思维方式，解决生活中的搭配规律问题。",
+          "difficulty": 4,
+          "question_types": [
+            "画图",
+            "应用题",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "100以内笔算的整理",
+          "description": "系统复习进位加法、退位减法及三位数连加减的计算规则与错易点分析。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "填空",
+            "判断"
+          ]
+        },
+        {
+          "name": "表内乘法全表应用",
+          "description": "熟练运用完整乘法口诀表进行口算，并能解决各类乘法实际应用问题。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "应用题",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "长度、角与时间的综合运用",
+          "description": "综合回顾测量、几何分类及时间读数，解决复合型生活数学问题。",
+          "difficulty": 4,
+          "question_types": [
+            "操作题",
+            "填空",
+            "选择"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,732 @@
+{
+  "textbook": "统编版小学语文一年级上册",
+  "unit": "第六单元：识字（二）",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "第六单元：识字逻辑与生活应用基础卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "“日”和“月”组合在一起变成“明”，意思是亮晶晶的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "日和月都是发光体，组合在一起表达“明亮”的意思。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "“小”和“大”组合成“尖”，是因为物体上面小下面大就是尖的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "上小下大即为尖，这是典型的会意字构字逻辑。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "我们可以说“一头小猫”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "通常说“一只小猫”，“头”常用于体型较大的牲畜，如“一头牛”。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "时间关联词逻辑排序",
+        "question": "昨天的后一天就是今天。",
+        "options": [],
+        "answer": "对",
+        "explanation": "时间顺序是：昨天、今天、明天。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "“一群鸭子”中的“群”表示鸭子的数量有很多。",
+        "options": [],
+        "answer": "对",
+        "explanation": "群表示成群结队，指数量较多。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "看图猜字：人在树木旁休息，这个字是？",
+        "options": [
+          "休",
+          "体",
+          "林",
+          "森"
+        ],
+        "answer": "休",
+        "explanation": "“单人旁”代表人在，“木”代表树木，人靠着树就是“休”。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "填入合适的词：操场上有一（）小朋友在做游戏。",
+        "options": [
+          "头",
+          "只",
+          "个",
+          "群"
+        ],
+        "answer": "群",
+        "explanation": "小朋友不止一个时，生活场景中多用“一群”。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间关联词逻辑排序",
+        "question": "如果今天是星期二，那么昨天是星期（）。",
+        "options": [
+          "一",
+          "三",
+          "四",
+          "五"
+        ],
+        "answer": "一",
+        "explanation": "昨天是今天的前一天。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "根据构字规律，“不正”合成的字是哪一个？",
+        "options": [
+          "歪",
+          "否",
+          "还",
+          "去"
+        ],
+        "answer": "歪",
+        "explanation": "“不”加“正”就是“歪”，意为不正。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "“一（）黄牛，一（）猫”，括号里应填？",
+        "options": [
+          "个，只",
+          "头，只",
+          "只，头",
+          "群，个"
+        ],
+        "answer": "头，只",
+        "explanation": "大牲畜用头，小动物用只。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "阅读《画》：远看山有色，近听水无声。诗中“远”的反义词是？",
+        "options": [
+          "去",
+          "近",
+          "有",
+          "无"
+        ],
+        "answer": "近",
+        "explanation": "诗句中“远看”对“近听”，“远”和“近”是一对反义词。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "“三个木”可以组成“森”，“三个日”可以组成什么字？",
+        "options": [
+          "晶",
+          "众",
+          "品",
+          "磊"
+        ],
+        "answer": "晶",
+        "explanation": "三个日重叠在一起是“晶”，表示非常明亮。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "选出搭配错误的一项：",
+        "options": [
+          "一堆杏子",
+          "一朵红花",
+          "一张鸭子",
+          "一个苹果"
+        ],
+        "answer": "一张鸭子",
+        "explanation": "鸭子通常用“只”或“群”，不能用“张”。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "阅读理解",
+        "question": "短文：云儿见它点头，花儿见它弯腰。这里的“它”指什么？",
+        "options": [
+          "水",
+          "风",
+          "雨",
+          "雪"
+        ],
+        "answer": "风",
+        "explanation": "这是谜语诗，风吹过云动、花摇，所以“它”指风。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间关联词逻辑排序",
+        "question": "妈妈说：“我们明天去公园”。请问我们要去公园是哪一天？",
+        "options": [
+          "已经去过了",
+          "正在去",
+          "还没到的一天",
+          "以前的一天"
+        ],
+        "answer": "还没到的一天",
+        "explanation": "明天代表将要到来的那一天。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "“小”和“土”放在一起，组成的汉字是（）。",
+        "options": [],
+        "answer": "尘",
+        "explanation": "微小的尘土即为“尘”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "过生日了，妈妈给我买了一（）课外书。",
+        "options": [],
+        "answer": "本",
+        "explanation": "书的常用量词是“本”。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间关联词逻辑排序",
+        "question": "时间顺序：昨天、（）、明天。",
+        "options": [],
+        "answer": "今天",
+        "explanation": "昨天、今天、明天构成了连续的时间链。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "请将物品与合适的量词连线。",
+        "options": [
+          "一头",
+          "一只",
+          "一颗",
+          "一把",
+          "枣子",
+          "老牛",
+          "小花猫",
+          "雨伞"
+        ],
+        "answer": "A-2,B-3,C-1,D-4",
+        "explanation": "一头老牛，一只小花猫，一颗枣子，一把雨伞。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "找朋友：将意思与组合出的字连起来。",
+        "options": [
+          "人靠在树旁",
+          "上面的小",
+          "两棵树木",
+          "很多树木",
+          "尖",
+          "休",
+          "森",
+          "林"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "人靠树为休，上小下大为尖，双木为林，三木为森。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词义辨析",
+        "question": "找出下列词语的反义词。",
+        "options": [
+          "大",
+          "多",
+          "上",
+          "男",
+          "下",
+          "小",
+          "女",
+          "少"
+        ],
+        "answer": "A-2,B-4,C-1,D-3",
+        "explanation": "大对小，多对手，上对下，男对女。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "连词成句：",
+        "options": [
+          "有",
+          "一头",
+          "牛",
+          "山上"
+        ],
+        "answer": "山上,有,一头,牛",
+        "explanation": "按照“地点+动作/状态+物品”的逻辑排序。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时间关联词逻辑排序",
+        "question": "连词成句：",
+        "options": [
+          "去",
+          "我们",
+          "明天",
+          "学校",
+          "一起"
+        ],
+        "answer": "我们,明天,一起,去,学校",
+        "explanation": "时间词通常放在主语之后，表示将要进行的动作。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "一年级语文上册第六单元综合水平测试",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "“林”是由两个“木”组成的，意思是树木很多。",
+        "options": [],
+        "answer": "对",
+        "explanation": "双木成林，三木成森，体现了数量增加意思改变。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "时间关联词逻辑排序",
+        "question": "“今年、明年、后年”是按照时间从早到晚排序的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "这是未来时间的先后顺序。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "所有的动物都可以用“一只”来形容。",
+        "options": [],
+        "answer": "错",
+        "explanation": "大型动物通常用“头”，条状动物用“条”。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "“男”字是由“田”和“力”组成的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在田里用力气干活的人是男子。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "“一群鸟”和“一堆鸟”的意思是一样的。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“群”指聚在一起的一大组活物，“堆”通常指无序堆放的物品。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "“日月（）”，括号里应填哪个字来组成会意字？",
+        "options": [
+          "明",
+          "暗",
+          "晴",
+          "阴"
+        ],
+        "answer": "明",
+        "explanation": "课文识字歌：日月明。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "时间关联词逻辑排序",
+        "question": "今天我生病了，（）我已经康复去学校了。",
+        "options": [
+          "昨天",
+          "明天",
+          "后天",
+          "以前"
+        ],
+        "answer": "昨天",
+        "explanation": "由于今天是病态，“康复”对应的时间逻辑应该是“明天”或“昨天”，但语境通常指过去或未来，这里考查学生日常语感。根据逻辑，昨天的状态与今天不同。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "选出合适的词：一（）水牛在田里。",
+        "options": [
+          "只",
+          "头",
+          "个",
+          "颗"
+        ],
+        "answer": "头",
+        "explanation": "牛作为大牲畜，固定搭配为“头”。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "“反”的反义词是：",
+        "options": [
+          "对",
+          "正",
+          "错",
+          "左"
+        ],
+        "answer": "正",
+        "explanation": "正反是一对基本的方位/状态反义词。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "阅读理解",
+        "question": "古诗：谁知盘中餐，粒粒皆辛苦。这告诉我们要珍爱：",
+        "options": [
+          "玩具",
+          "衣服",
+          "时间",
+          "粮食"
+        ],
+        "answer": "粮食",
+        "explanation": "“盘中餐”指的就是我们吃的粮食。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "看组合联想：鱼+羊 = ？ (暗示：味道鲜美)",
+        "options": [
+          "鲜",
+          "味",
+          "美好",
+          "香"
+        ],
+        "answer": "鲜",
+        "explanation": "鱼和羊的味道组合在一起就是“鲜”。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "填入量词：我家门前有（）小树。",
+        "options": [
+          "一个",
+          "一棵",
+          "一头",
+          "一双"
+        ],
+        "answer": "一棵",
+        "explanation": "树木的专用量词是“棵”。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间关联词逻辑排序",
+        "question": "（）是已过去的，（）是现在的，（）是还没来的。",
+        "options": [
+          "明天,今天,昨天",
+          "昨天,今天,明天",
+          "今天,昨天,明天",
+          "明天,昨天,今天"
+        ],
+        "answer": "昨天,今天,明天",
+        "explanation": "考查对过去、现在、将来概念的词汇对应。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“弯弯的月亮像小船”，这句话用了什么方法？",
+        "options": [
+          "打比方",
+          "问问题",
+          "学说话",
+          "夸张"
+        ],
+        "answer": "打比方",
+        "explanation": "“像”字体现了比喻（打比方）的修辞。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "字词义辨析",
+        "question": "“锄禾日当午”中的“日”是什么意思？",
+        "options": [
+          "日期",
+          "太阳",
+          "日子",
+          "天天"
+        ],
+        "answer": "太阳",
+        "explanation": "这时候太阳在正午，指烈日下劳作。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "“众”字有三个人，意思是指（）很多。",
+        "options": [],
+        "answer": "人",
+        "explanation": "三人为众，表示人多。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "一（）苹果，一（）杏子。两空都填同一个字。",
+        "options": [],
+        "answer": "个",
+        "explanation": "个是通用性很强的量词。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "时间关联词逻辑排序",
+        "question": "星期三的前一天是星期（）。",
+        "options": [],
+        "answer": "二",
+        "explanation": "考查对时间周期的逆向推导。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "找找汉字的组成部分。",
+        "options": [
+          "明",
+          "尖",
+          "尘",
+          "休",
+          "小+大",
+          "人+木",
+          "日+月",
+          "小+土"
+        ],
+        "answer": "A-3,B-1,C-4,D-2",
+        "explanation": "日月明，小大尖，小土尘，人木休。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "把物和量的搭配连一连。",
+        "options": [
+          "一堆",
+          "一只",
+          "一朵",
+          "一头",
+          "黄牛",
+          "白云",
+          "杏子",
+          "小鸭"
+        ],
+        "answer": "A-3,B-4,C-2,D-1",
+        "explanation": "一堆杏子，一只小鸭，一朵白云，一头黄牛。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "时间关联词逻辑排序",
+        "question": "时间逻辑连线。",
+        "options": [
+          "昨天",
+          "今天",
+          "明天",
+          "后天",
+          "此时此刻",
+          "已经过去",
+          "明天之后",
+          "明天还没到"
+        ],
+        "answer": "A-2,B-1,C-4,D-3",
+        "explanation": "昨天是过去，今天是此刻，明天是未到，后天是明天之后。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "量词的规范搭配应用",
+        "question": "排排队：",
+        "options": [
+          "苹果",
+          "树上",
+          "结了",
+          "许多"
+        ],
+        "answer": "树上,结了,许多,苹果",
+        "explanation": "句子结构为：地点+动作+修饰词+宾语。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "会意字构字特征分析",
+        "question": "排排队：",
+        "options": [
+          "汉字",
+          "非常",
+          "很有趣",
+          "组合"
+        ],
+        "answer": "汉字,组合,非常,很有趣",
+        "explanation": "主语是“汉字组合”，形容词做谓语描述特征。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "会意字构字特征分析",
+      "core_concept": "会意字是由两个或两个以上的独体字根据意义之间的关系组合而成的新字。通过观察字形各部分的意义，可以推测出整个字的含义。例如，“明”由日和月组成，意为光亮；“尖”由小和大组成，意为末端细小。这种构字法体现了中国古人通过具象思维表达抽象概念的智慧。",
+      "key_formula": "部件A的意义 + 部件B的意义 = 新字的逻辑意义",
+      "common_mistakes": [
+        "将“尖”的上部分误记为“少”。",
+        "死记硬背字形而不理解“人+木=休”这种逻辑联系。"
+      ],
+      "tips": "学习时可以采用“拆字游戏法”，把汉字想象成积木，拼在一起讲个小故事来帮助记忆。"
+    },
+    {
+      "point": "量词的规范搭配应用",
+      "core_concept": "量词表示人、事物或动作的单位。在汉语中，量词与名词的搭配具有固定性。如形状大的哺乳动物多用“头”（一头象），小而灵动的多用“只”（一只鸟），颗粒状的用“颗”（一颗糖）。准确使用量词能使语言表达更生动、更精确，也是低年级学生建立语感的基础。",
+      "key_formula": "数词 + 量词 + 名词（例如：一 + 头 + 牛）",
+      "common_mistakes": [
+        "混淆“颗”和“棵”的使用（如误写为一棵珍珠）。",
+        "量词错位，如说“一个牛”。"
+      ],
+      "tips": "分类记忆法：按形状（长条形用“条”、圆形用“个”）、按大小（大的用“头”、小的用“只”）进行归类练习。"
+    },
+    {
+      "point": "时间关联词逻辑排序",
+      "core_concept": "时间关联词用于表达事件发生的先后顺序或相对当前的时间位置。在一年级段，重点掌握以“今天”为原点的放射状逻辑：过去（昨天、以前）、现在（今天、此时）、未来（明天、后天、以后）。理解这种线性关系有助于学生建立初步的时间观念和叙事逻辑。",
+      "key_formula": "过去（昨天） → 现在（今天） → 未来（明天）",
+      "common_mistakes": [
+        "分不清“昨天”和“明天”谁在前谁在后。",
+        "无法在具体语境（如：明天是星期三，今天就是星期二）中进行推导。"
+      ],
+      "tips": "通过观察日历或绘制“时间轴”小图，标出今天的位置，向左跳是过去，向右跳是未来。"
+    }
+  ]
+}

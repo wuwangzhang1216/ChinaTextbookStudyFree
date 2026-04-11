@@ -1,0 +1,364 @@
+{
+  "textbook": "三年级下册",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "位置与方向（一）",
+      "knowledge_points": [
+        {
+          "name": "认识东、南、西、北四个方向",
+          "description": "在现实情境中根据太阳等参照物辨别四个基本方向，理解方向的相对性（东对西，南对北）。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "地图上的方位识别",
+          "description": "掌握地图通常按“上北下南，左西右东”绘制的规则，并能看懂简单的平面图。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "画图",
+            "应用题"
+          ]
+        },
+        {
+          "name": "认识东北、东南、西北、西南",
+          "description": "在东、南、西、北的基础上，认识其余四个复合方向，能根据给定一个方向辨认其余七个方向。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "简单行走路线的描述",
+          "description": "结合具体情境，能够用方位词描述从一个地点到另一个地点的行走路线。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "应用题",
+            "描述题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "除数是一位数的除法",
+      "knowledge_points": [
+        {
+          "name": "口算除法",
+          "description": "掌握整十、整百、整千数除以一位数，以及两位数除以一位数（每一位都能除尽）的口算方法。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "除法估算",
+          "description": "掌握除数是一位数的除法估算方法，能根据具体情境选择合理的估算策略解决问题。",
+          "difficulty": 3,
+          "question_types": [
+            "选择",
+            "填空",
+            "应用题"
+          ]
+        },
+        {
+          "name": "一位数除两位数、三位数的笔算",
+          "description": "掌握笔算顺序：从高位除起；理解每求出一位商，余下的数必须比除数小。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "填空",
+            "判断"
+          ]
+        },
+        {
+          "name": "除法的验算",
+          "description": "理解乘除法的互逆关系，掌握没有余数（商×除数=被除数）和有余数（商×除数+余数=被除数）的验算方法。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "填空"
+          ]
+        },
+        {
+          "name": "商中间或末尾有0的除法",
+          "description": "掌握“0除以任何不是0的数都得0”，理解并掌握不够商1时用0占位的笔算方法。",
+          "difficulty": 4,
+          "question_types": [
+            "竖式计算",
+            "判断",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "复式统计表",
+      "knowledge_points": [
+        {
+          "name": "复式统计表的结构与认识",
+          "description": "了解复式统计表的结构，知道标题、日期、栏目等组成部分。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "填补与合成复式统计表",
+          "description": "能将几个单式统计表合并成一个复式统计表，并正确填写数据。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "操作题"
+          ]
+        },
+        {
+          "name": "从复式统计表中获取并分析信息",
+          "description": "能通过横向、纵向对比发现数据间的联系，并能进行简单的预测或决策。",
+          "difficulty": 3,
+          "question_types": [
+            "应用题",
+            "选择"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "两位数乘两位数",
+      "knowledge_points": [
+        {
+          "name": "口算乘法",
+          "description": "掌握两位数、几百几十数乘一位数（进位）以及两位数乘整十、整百数的口算方法。",
+          "difficulty": 2,
+          "question_types": [
+            "口算",
+            "填空"
+          ]
+        },
+        {
+          "name": "不进位与进位的笔算乘法",
+          "description": "理解两位数乘两位数的算理，掌握两次部分积的对位规则：第二个因数十位上的数去乘，积的末位要和十位对齐。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "判断",
+            "填空"
+          ]
+        },
+        {
+          "name": "解决两步计算的应用题",
+          "description": "灵活运用连乘、连除或乘除混合运算解决实际问题，学会分析数量关系。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "面积",
+      "knowledge_points": [
+        {
+          "name": "面积的含义与比较",
+          "description": "通过观察、重叠等活动理解面积的定义，学会用不同图形作单位度量面积。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "操作题"
+          ]
+        },
+        {
+          "name": "认识面积单位",
+          "description": "认识平方厘米、平方分米、平方米，建立具体单位的大小观念。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "长方形与正方形面积公式",
+          "description": "理解并熟练运用‘长×宽’和‘边长×边长’计算图形面积。",
+          "difficulty": 3,
+          "question_types": [
+            "竖式计算",
+            "计算题",
+            "填空"
+          ]
+        },
+        {
+          "name": "面积单位间的进率与换算",
+          "description": "掌握相邻两个积累单位间的进率是100（1平方米=100平方分米=10000平方厘米）。",
+          "difficulty": 2,
+          "question_types": [
+            "排序/比较",
+            "填空"
+          ]
+        },
+        {
+          "name": "面积与周长的对比应用",
+          "description": "区分长度单位与面积单位，解决剪拼图形中关于周长和面积变化的综合问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "画图",
+            "判断"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "年、月、日",
+      "knowledge_points": [
+        {
+          "name": "认识时间单位年、月、日",
+          "description": "知道大月、小月、平年、闰年的天数及判断方法，了解2月特殊天数。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "选择",
+            "判断"
+          ]
+        },
+        {
+          "name": "24时计时法与普通计时法",
+          "description": "掌握两种计时法的互换：下午之后的时刻加12即为24时计时法。",
+          "difficulty": 2,
+          "question_types": [
+            "填空",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "经过时间的计算",
+          "description": "学会计算简单的经过时间（结束时刻 - 开始时刻），应用于时刻表的阅读。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "计算题",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "小数的初步认识",
+      "knowledge_points": [
+        {
+          "name": "小数的读写法与含义",
+          "description": "以元、角、分和米、分米、厘米为背景认识小数，理解十分之几可以用一位小数表示。",
+          "difficulty": 1,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        },
+        {
+          "name": "小数的大小比较",
+          "description": "学会比较一位小数的大小，先看整数部分，再看十分位。",
+          "difficulty": 2,
+          "question_types": [
+            "排序/比较",
+            "填空"
+          ]
+        },
+        {
+          "name": "简单的小数加减法",
+          "description": "掌握不进位、不退位以及进位、退位的一位小数加减笔算，关键在于小数点对齐。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "竖式计算",
+            "应用题"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "数学广角——搭配（二）",
+      "knowledge_points": [
+        {
+          "name": "简单的排列问题",
+          "description": "找出简单事物的排列数，学会固定十位法进行枚举，考虑0不能在首位的限制。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择",
+            "规律探索"
+          ]
+        },
+        {
+          "name": "简单的组合问题",
+          "description": "通过连线法或列表法找出事物之间的搭配方法，强调有序思考不重不漏。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "画图",
+            "连线/匹配"
+          ]
+        },
+        {
+          "name": "排列与组合的综合应用",
+          "description": "区分有序排列（如数字组成数）与无序组合（如比赛场次），解决生活实际问题。",
+          "difficulty": 4,
+          "question_types": [
+            "应用题",
+            "规律探索"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "总复习",
+      "knowledge_points": [
+        {
+          "name": "数与代数综合梳理",
+          "description": "复习除数是一位数的除法、两位数乘两位数、年、月、日及小数的初步认识。",
+          "difficulty": 3,
+          "question_types": [
+            "口算",
+            "竖式计算",
+            "应用题"
+          ]
+        },
+        {
+          "name": "图形与几何综合应用",
+          "description": "梳理位置与方向及面积计算知识，能在综合情境中解决空间与度量问题。",
+          "difficulty": 4,
+          "question_types": [
+            "填空",
+            "画图",
+            "计算题"
+          ]
+        },
+        {
+          "name": "统计图表与数据解读",
+          "description": "回顾复式统计表的阅读与分析方法，提高数据处理与推理能力。",
+          "difficulty": 3,
+          "question_types": [
+            "填空",
+            "选择"
+          ]
+        }
+      ]
+    }
+  ]
+}

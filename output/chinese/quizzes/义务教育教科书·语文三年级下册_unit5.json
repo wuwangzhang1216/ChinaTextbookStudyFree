@@ -1,0 +1,735 @@
+{
+  "textbook": "统编版小学语文三年级下册",
+  "unit": "第五单元 大胆想象",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "第五单元基础通关测验",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "镜像宇宙与想象思维建模",
+        "question": "在想象的世界里，所有的规则都必须和现实生活一模一样。",
+        "options": [],
+        "answer": "错",
+        "explanation": "想象的世界可以打破现实规则，进行反转或重构。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "角色变身的情节构思",
+        "question": "《我变成了一棵树》中，“我”变成树是因为不想在吃饭的时候被打扰。",
+        "options": [],
+        "answer": "对",
+        "explanation": "课文开头交代了“我”变树的动机是希望躲避妈妈催促吃饭。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "想象与现实情感的结合",
+        "question": "想象故事虽然奇特，但其中蕴含的情感往往是真实的。",
+        "options": [],
+        "answer": "对",
+        "explanation": "想象是外壳，母爱、童真等情感是内核。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词积累",
+        "question": "“继续”的近义词是“中断”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "继续的近义词应当是持续，中断是反义词。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "角色变身的情节构思",
+        "question": "在奇妙的想象中，我们可以写树木在跳舞，小鸟在下棋。",
+        "options": [],
+        "answer": "对",
+        "explanation": "拟人化是想象故事中常用的表达方式。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词义辨析",
+        "question": "下列词语中，加点字“悠”的含义与“悠闲”相同的一项是：",
+        "options": [
+          "悠久",
+          "悠扬",
+          "悠然自得",
+          "晃悠"
+        ],
+        "answer": "悠然自得",
+        "explanation": "悠闲和悠然自得都表示从容、闲适。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字音辨析",
+        "question": "下列加点字读音完全正确的一项是：",
+        "options": [
+          "巧克力（qiǎo）",
+          "关系（jì）",
+          "馋嘴（cán）",
+          "甚至（shènɡ）"
+        ],
+        "answer": "巧克力（qiǎo）",
+        "explanation": "系读xì，馋读chán，甚读shèn。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "镜像宇宙与想象思维建模",
+        "question": "《手指里的宇宙》中，如果手指会说话，它们最可能讨论什么？",
+        "options": [
+          "谁的个子最高",
+          "人类的历史",
+          "明天的天气",
+          "物价的上涨"
+        ],
+        "answer": "谁的个子最高",
+        "explanation": "贴近学生对身体部位特征的直观想象。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "“在这长满各种形状的鸟窝的树上，我会请小兔、小刺猬快活地住进去。”这句话表达了作者怎样的心情？",
+        "options": [
+          "痛苦的",
+          "纠结的",
+          "分享的快乐",
+          "害怕的"
+        ],
+        "answer": "分享的快乐",
+        "explanation": "邀请小动物居住体现了善意和快乐的情绪。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "角色变身的情节构思",
+        "question": "如果你变成了一个云朵，你最想做的事情是：",
+        "options": [
+          "在地上跑步",
+          "在天空变魔术",
+          "在水里游泳",
+          "在屋檐下挂着"
+        ],
+        "answer": "在天空变魔术",
+        "explanation": "云朵的特质是变化多端，符合逻辑。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法识别",
+        "question": "“每一片叶子都在风中跳起了华尔兹。”这句话运用了什么修辞？",
+        "options": [
+          "比喻",
+          "拟人",
+          "夸张",
+          "排比"
+        ],
+        "answer": "拟人",
+        "explanation": "把叶子当作人来写，赋予其跳舞的动作。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "标点符号选择",
+        "question": "“你想知道我变成树后发生了什么吗（ ）” 括号里应该填：",
+        "options": [
+          "。",
+          "！",
+          "？",
+          "……"
+        ],
+        "answer": "？",
+        "explanation": "这是一个疑问句，表达好奇询问。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词语搭配",
+        "question": "选出搭配最恰当的一组：",
+        "options": [
+          "奇妙的想象",
+          "奇妙的计算",
+          "奇妙的朋友",
+          "奇妙的作业"
+        ],
+        "answer": "奇妙的想象",
+        "explanation": "符合本单元主题，词语组合最自然。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "理解阅读",
+        "question": "在《小真的长头发》里，小真把辫子垂下来是为了：",
+        "options": [
+          "钓鱼",
+          "跳绳",
+          "晾衣服",
+          "吓跑怪兽"
+        ],
+        "answer": "钓鱼",
+        "explanation": "考查对课外/教材拓展阅读情节的记忆。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "镜像宇宙与想象思维建模",
+        "question": "如果“加法”发生在春天，花朵加雨水可能变成什么？",
+        "options": [
+          "冰块",
+          "书包",
+          "彩虹桥",
+          "枯叶"
+        ],
+        "answer": "彩虹桥",
+        "explanation": "符合“事物相加产生美感效果”的想象逻辑。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词积累",
+        "question": "形容一个人很想吃东西的词语是“（___）”。（提示：二字词语，常形容嘴馋）",
+        "options": [],
+        "answer": "垂涎三尺",
+        "explanation": "虽然是成语但字数在6字内，也可填“嘴馋”。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "课文背诵",
+        "question": "《我变成了一棵树》中，树上结满了各种形状的（___）。",
+        "options": [],
+        "answer": "鸟窝",
+        "explanation": "考查对课文关键细节的记忆。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "字词积累",
+        "question": "“丁零丁零”是形容（___）的声音。",
+        "options": [],
+        "answer": "铃铛",
+        "explanation": "对拟声词的理解与运用。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语解释",
+        "question": "请将词语与其对应的解释连接起来。",
+        "options": [
+          "尴尬",
+          "思绪",
+          "秘密",
+          "洋溢",
+          "难为情",
+          "想法",
+          "不公开的事",
+          "充分流露"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "词语与其释义的一一对应。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "角色变身的情节构思",
+        "question": "如果你变成这些事物，你会做什么？请匹配。",
+        "options": [
+          "变成云",
+          "变成鱼",
+          "变成鸟",
+          "变成树",
+          "遮风挡雨",
+          "自在游动",
+          "空中俯瞰",
+          "随风飘荡"
+        ],
+        "answer": "A-4,B-2,C-3,D-1",
+        "explanation": "根据事物属性想象合理的行为动作。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "镜像宇宙",
+        "question": "在这个奇妙的世界里，谁和谁是好朋友？",
+        "options": [
+          "铅笔",
+          "橡皮",
+          "尺子",
+          "闹钟",
+          "纸张",
+          "错误",
+          "直线",
+          "懒觉"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "通过拟人化的功能关系进行关联。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子结构",
+        "question": "请将下列词语排列成一句流畅的话。",
+        "options": [
+          "我",
+          "变成树",
+          "以后",
+          "秘密",
+          "有很多"
+        ],
+        "answer": "我,变成树,以后,有很多,秘密",
+        "explanation": "考查主谓宾的基本结构。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "修辞句式",
+        "question": "排列出奇妙的想象句：",
+        "options": [
+          "蒲公英",
+          "当做",
+          "降落伞",
+          "被",
+          "蚂蚁"
+        ],
+        "answer": "蒲公英,被,蚂蚁,当做,降落伞",
+        "explanation": "被字句的特殊想象用法。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "五年级想象力挑战综合卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "镜像宇宙与想象思维建模",
+        "question": "在现实生活中，我们可以通过“倒着看”来产生新的点子。",
+        "options": [],
+        "answer": "对",
+        "explanation": "多角度观察是触发想象的重要手段。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "角色变身的情节构思",
+        "question": "“变成一棵树”后，“我”依然保留着人类的思想。",
+        "options": [],
+        "answer": "对",
+        "explanation": "童话想象中，变身后的主角往往保留人的意识和感情。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "想象与现实情感的结合",
+        "question": "母亲在树下喂食的情节，表现了想象故事中的现实亲情。",
+        "options": [],
+        "answer": "对",
+        "explanation": "想象背后的内核是真实存在的母爱。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "字词积累",
+        "question": "“秘密”这两个字都是上下结构。",
+        "options": [],
+        "answer": "错",
+        "explanation": "秘是左右结构，密是上下结构。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "镜像宇宙与想象思维建模",
+        "question": "想象可以完全不顾事物的本质特征进行乱编。",
+        "options": [],
+        "answer": "错",
+        "explanation": "优秀的想象建立在对事物特征重构的基础上，而非毫无逻辑的乱编。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字音辨析",
+        "question": "选出加点字读音完全正确的一项：",
+        "options": [
+          "失望（shī）",
+          "麻烦（mă）",
+          "形状（suànɡ）",
+          "狐狸（lí）"
+        ],
+        "answer": "失望（shī）",
+        "explanation": "麻读má（阳平），状读zhuàng，狸此处读轻声li或标音对齐lí。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "理解阅读",
+        "question": "阅读：‘如果你喜欢，可以住到我的树洞里来。’这句话流露出的情感是：",
+        "options": [
+          "骄傲",
+          "大方与友善",
+          "无奈",
+          "生气"
+        ],
+        "answer": "大方与友善",
+        "explanation": "体现了诚挚的邀请与分享心理。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "镜像宇宙与想象思维建模",
+        "question": "如果“黑板”会做梦，它最可能梦见什么？",
+        "options": [
+          "粉笔变成流星划过",
+          "自己在操场打球",
+          "肚子饿了想吃饭",
+          "被老师狠狠批评"
+        ],
+        "answer": "粉笔变成流星划过",
+        "explanation": "基于黑板与粉笔的共生关系进行的合理想象。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词语理解",
+        "question": "“我的心‘嗵嗵’地跳着。”这里的“嗵嗵”表现了：",
+        "options": [
+          "心跳很快",
+          "非常伤心",
+          "身体疲惫",
+          "环境安静"
+        ],
+        "answer": "心跳很快",
+        "explanation": "拟声词反映了紧张或兴奋的状态。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "想象与现实情感的结合",
+        "question": "为什么“我”变成树后，最先被妈妈认出来？",
+        "options": [
+          "我穿了同样的鞋子",
+          "因为母子连心",
+          "我大声喊了她",
+          "我长得非常像她"
+        ],
+        "answer": "因为母子连心",
+        "explanation": "体现文章温情的主题：母亲最了解孩子。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "古诗常识",
+        "question": "下列哪句诗具有丰富的想象力？",
+        "options": [
+          "春眠不觉晓",
+          "危楼高百尺",
+          "锄禾日当午",
+          "清明时节雨纷纷"
+        ],
+        "answer": "危楼高百尺",
+        "explanation": "运用了夸张和大胆的想象。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句子变换",
+        "question": "把“风吹乱了我的头发”改为“被”字句，正确的是：",
+        "options": [
+          "我的头发被风吹乱了",
+          "风被我的头发吹乱了",
+          "被风吹乱了我的头发",
+          "我的头发乱了被风吹"
+        ],
+        "answer": "我的头发被风吹乱了",
+        "explanation": "标准被字句转换练习。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词义辨析",
+        "question": "“我真希望变成一棵树，这样就没人在你玩的时候叫你吃饭了。”这句话体现了：",
+        "options": [
+          "对吃饭的厌恶",
+          "童年的无奈与渴望",
+          "对大自然的热爱",
+          "母子之间的矛盾"
+        ],
+        "answer": "童年的无奈与渴望",
+        "explanation": "从儿童视角分析心理。 "
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "情节构思",
+        "question": "如果给《我变成了一棵树》续写，最合适的结局是：",
+        "options": [
+          "一直做一棵树",
+          "变成一只飞鸟",
+          "变回人去吃晚饭",
+          "消失在大森林里"
+        ],
+        "answer": "变回人去吃晚饭",
+        "explanation": "回归现实逻辑，体现亲情。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "修辞方法",
+        "question": "“雨点儿在荷叶上欢快地蹦蹦跳跳。”运用的修辞手法是：",
+        "options": [
+          "拟人",
+          "比喻",
+          "对偶",
+          "排比"
+        ],
+        "answer": "拟人",
+        "explanation": "词语“蹦蹦跳跳”赋予雨点生命。"
+      },
+      {
+        "id": 16,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "字词积累",
+        "question": "《手指里的宇宙》中，食指和（___）指组成了一对好搭档。",
+        "options": [],
+        "answer": "拇",
+        "explanation": "简单的字形填空。"
+      },
+      {
+        "id": 17,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "成语填空",
+        "question": "形容想法极其奇特，常人意想不到的成语是（___）。",
+        "options": [],
+        "answer": "异想天开",
+        "explanation": "符合单元“大胆想象”语境。"
+      },
+      {
+        "id": 18,
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "文学常识",
+        "question": "本单元学习的目的是让我们拥有（___）思维。",
+        "options": [],
+        "answer": "想象力",
+        "explanation": "单元核心能力目标。"
+      },
+      {
+        "id": 19,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "事物特征配对",
+        "question": "根据课文内容，将下列事物与其奇妙功能连线。",
+        "options": [
+          "长头发",
+          "鸟窝",
+          "树枝",
+          "毛毛虫",
+          "可以钓鱼",
+          "住小动物",
+          "挂书包",
+          "会跳舞"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "考查对文本细节的重构想象。"
+      },
+      {
+        "id": 20,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "反义词连线",
+        "question": "将下列意思相反的词语连起来。",
+        "options": [
+          "秘密",
+          "普通",
+          "继续",
+          "喜欢",
+          "公开",
+          "特别",
+          "停止",
+          "讨厌"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "基础词汇量考查。"
+      },
+      {
+        "id": 21,
+        "type": "matching",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "镜像宇宙",
+        "question": "请为现实事物匹配其在“相反世界”里的身份。",
+        "options": [
+          "猫",
+          "冰激凌",
+          "书包",
+          "老师",
+          "怕老鼠",
+          "冒热气",
+          "装满烦恼",
+          "向学生提问"
+        ],
+        "answer": "A-1,B-2,C-3,D-4",
+        "explanation": "利用反转逻辑建立想象。"
+      },
+      {
+        "id": 22,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "句式结构",
+        "question": "把词语连成一个生动的想象句：",
+        "options": [
+          "月亮",
+          "挂在",
+          "金色的",
+          "像香蕉",
+          "天空"
+        ],
+        "answer": "金色的,月亮,像香蕉,挂在,天空",
+        "explanation": "比喻句的语序练习。"
+      },
+      {
+        "id": 23,
+        "type": "word_order",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "逻辑句式",
+        "question": "连词成句练习：",
+        "options": [
+          "只要",
+          "万物",
+          "就",
+          "大胆想象",
+          "有生命"
+        ],
+        "answer": "只要,大胆想象,万物,就,有生命",
+        "explanation": "条件关系的关联词逻辑应用。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "镜像宇宙与想象思维建模",
+      "core_concept": "这是学生学习想象的高阶技巧。通过“反向思考”或“属性重排”，打破原有事物的固有认知。例如在一个相反的世界里，水从地向上流，火是冰冷的。建模的核心在于寻找事物的核心特征并进行合理的逻辑变向，让荒诞的故事充满自身的“逻辑自洽”。",
+      "key_formula": "想象 = 现实原型 + 功能反转/移位",
+      "common_mistakes": [
+        "想象逻辑前后矛盾，没有统一的世界观设置",
+        "过度天马行空而失去了事物本身的特征连接"
+      ],
+      "tips": "可以试着从“如果……会怎样”的问题开始练习，把平常看来理所当然的事反过来想。"
+    },
+    {
+      "point": "角色变身的情节构思",
+      "core_concept": "以第一人称代入非生物或异类角色（如变树、变动物），通过视角的转换观察世界。在构思时，要运用拟人化的手法，将人类的喜怒哀乐赋予变身后的物体，同时利用该物体独特的物理形态（如树的枝桠、根须）制造独特的情节冲突或惊喜。",
+      "key_formula": "情节 = 变身动机 + 身体特征产生的趣事 + 现实回归",
+      "common_mistakes": [
+        "变身后忘记了主角原本的身份背景",
+        "没有利用新身体的生理特征来制造故事情节"
+      ],
+      "tips": "写作时闭上眼，想象自己的身体变成了那种事物，你的手会变成什么？脚会变成什么？你能感觉到什么？"
+    },
+    {
+      "point": "想象与现实情感的结合",
+      "core_concept": "单纯的想象是枯燥的，好的想象故事必须植根于真实的情感。在五年级下册的学习中，重点是理解《我变成了一棵树》中母子之间的互动。无论想象多么离奇，那种“无论你变成什么，妈妈都能认出你”的爱是连接想象与读者的纽带。",
+      "key_formula": "感人的想象 = 奇特的外壳 + 真实的情感内核",
+      "common_mistakes": [
+        "故事只有光怪陆离的描写，读完后感觉空洞无物",
+        "情感表达生硬，与想象的情境格格不入"
+      ],
+      "tips": "记录下生活中最让你触动的一个瞬间（如妈妈的叮咛），尝试给这个瞬间套上一个神奇的“马甲”。"
+    }
+  ]
+}

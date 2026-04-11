@@ -1,0 +1,707 @@
+{
+  "textbook": "人教版小学数学二年级上册",
+  "unit": "100以内的加法和减法（二）",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "第2单元阶段达标测试卷",
+    "total_score": 100,
+    "time_minutes": 40,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "笔算两位数加法时，应从十位加起。",
+        "options": [],
+        "answer": "错",
+        "explanation": "笔算加减法都要从个位加起。故判断为错。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "在减法算式中，差一定比被减数小。",
+        "options": [],
+        "answer": "对",
+        "explanation": "在100以内且减数不为0的情况下，差一定比被减数小。故判断为对。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "含小括号的加减混合运算",
+        "question": "算式 $80 - (20 + 30)$ 的计算结果是 30。",
+        "options": [],
+        "answer": "对",
+        "explanation": "先算小括号里：$20 + 30 = 50$。再算括号外：$80 - 50 = 30$。验算：$30 + 50 = 80$。故判断为对。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "计算 $36 + 45$ 时，个位满十向十位进 1。",
+        "options": [],
+        "answer": "对",
+        "explanation": "$6 + 5 = 11$，个位满十向十位进1。故判断为对。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "解决问题：求比一个数多（或少）几的数",
+        "question": "比 25 多 18 的数是 33。",
+        "options": [],
+        "answer": "错",
+        "explanation": "应该是 $25 + 18 = 43$。题干中 33 是计算错误。故判断为错。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "一个加数是 28，另一个加数是 35，和是（ ）。",
+        "options": [
+          "53",
+          "63",
+          "52",
+          "62"
+        ],
+        "answer": "63",
+        "explanation": "$28 + 35 = 63$。验算：$63 - 35 = 28$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "明明有 50 元钱，买一个 38 元的足球，应找回（ ）元。",
+        "options": [
+          "12",
+          "22",
+          "88",
+          "18"
+        ],
+        "answer": "12",
+        "explanation": "$50 - 38 = 12$。个位 $0 - 8$ 不够减，向十位借 1 当 10，$10 - 8 = 2$，十位 $4 - 3 = 1$。验算：$12 + 38 = 50$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "下面算式中，（ ）的得数最大。",
+        "options": [
+          "86 - 30",
+          "92 - 40",
+          "75 - 10",
+          "100 - 50"
+        ],
+        "answer": "75 - 10",
+        "explanation": "$86-30=56$；$92-40=52$；$75-10=65$；$100-50=50$。65最大。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "计算 $5\\square + 28$ 时，如果和的十位上是 8，那么 $\\square$ 里最小填（ ）。",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "0"
+        ],
+        "answer": "2",
+        "explanation": "由于十位是 $5 + 2 = 7$，若和的十位是 8，说明个位进位了。$\\square + 8 \\geq 10$，$\\square$ 最小为 2。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "连加、连减与加减混合运算",
+        "question": "计算 $24 + 16 + 30$ 的结果是（ ）。",
+        "options": [
+          "40",
+          "60",
+          "70",
+          "80"
+        ],
+        "answer": "70",
+        "explanation": "$24 + 16 = 40$，$40 + 30 = 70$。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "含小括号的加减混合运算",
+        "question": "结果与 $85 - (20 + 30)$ 相等的算式是（ ）。",
+        "options": [
+          "85 - 20 + 30",
+          "85 - 20 - 30",
+          "85 + 20 - 30",
+          "85 + 20 + 30"
+        ],
+        "answer": "85 - 20 - 30",
+        "explanation": "去掉括号要变号：$85 - (20 + 30) = 85 - 20 - 30$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题：求比一个数多（或少）几的数",
+        "question": "小明有 28 张邮票，小红比小明多 15 张，小红有多少张？",
+        "options": [
+          "13",
+          "33",
+          "43",
+          "53"
+        ],
+        "answer": "43",
+        "explanation": "求比一个数多几用加法：$28 + 15 = 43$。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决问题：求比一个数多（或少）几的数",
+        "question": "二（1）班有女生 22 人，男生比女生少 5 人，全班一共有多少人？",
+        "options": [
+          "17",
+          "39",
+          "49",
+          "27"
+        ],
+        "answer": "39",
+        "explanation": "男生：$22 - 5 = 17$人；全班：$22 + 17 = 39$人。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "72 减去（ ）等于 45。",
+        "options": [
+          "27",
+          "37",
+          "117",
+          "23"
+        ],
+        "answer": "27",
+        "explanation": "$72 - 45 = 27$。验算：$27 + 45 = 72$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "连加、连减与加减混合运算",
+        "question": "在算式 $90 - 36 - 24$ 中，可以先算（ ）会比较简便。",
+        "options": [
+          "90 - 36",
+          "36 - 24",
+          "36 + 24",
+          "90 - 24"
+        ],
+        "answer": "36 + 24",
+        "explanation": "$90 - (36 + 24)$ 可以湊成整十数，$36+24=60$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "$46 + 2\\square$ 的和是一个七十多，$\\square$ 里可以填（ ）。",
+        "options": [
+          "1",
+          "3",
+          "5",
+          "8"
+        ],
+        "answer": "8",
+        "explanation": "如果是 $46+28=74$（七十多）；如果是 $46+25=71$；但看选项 $46+21=67$，$46+23=69$，只有填 8 满足进位需求。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题：求比一个数多（或少）几的数",
+        "question": "商场运来 80 筐苹果，上午卖出 25 筐，下午卖出 38 筐，还剩（ ）筐。",
+        "options": [
+          "17",
+          "55",
+          "42",
+          "63"
+        ],
+        "answer": "17",
+        "explanation": "$80 - 25 - 38 = 17$。验算：$17 + 38 + 25 = 80$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "连加、连减与加减混合运算",
+        "question": "一根绳子长 100 米，第一次剪去 36 米，第二次剪去 44 米，绳子短了（ ）米。",
+        "options": [
+          "20",
+          "80",
+          "64",
+          "56"
+        ],
+        "answer": "80",
+        "explanation": "求短了多少即求一共剪去多少：$36 + 44 = 80$。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "小明有 16 张画片，小芳有 24 张画片，两人一共有 ___ 张画片。",
+        "options": [],
+        "answer": "40",
+        "explanation": "$16 + 24 = 40$。验算：$40 - 24 = 16$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "一辆公交车上原有 45 人，下车 18 人，现在车上有 ___ 人。",
+        "options": [],
+        "answer": "27",
+        "explanation": "$45 - 18 = 27$。验算：$27 + 18 = 45$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "连加、连减与加减混合运算",
+        "question": "三个朋友跳绳，小红跳了 32 下，小军跳了 28 下，小刚跳了 35 下，他们一共跳了 ___ 下。",
+        "options": [],
+        "answer": "95",
+        "explanation": "$32 + 28 + 35 = 60 + 35 = 95$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "$58 + 37 = ?$",
+        "options": [],
+        "answer": "95",
+        "explanation": "$58 + 37 = 95$。个位 $8+7=15$ 进1，十位 $5+3+1=9$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "$91 - 46 = ?$",
+        "options": [],
+        "answer": "45",
+        "explanation": "$91 - 46 = 45$。个位 $1-6$ 不够减，向十位借 1，$11-6=5$。十位 $8-4=4$。"
+      }
+    ]
+  },
+  "exam": {
+    "title": "第2单元「100以内的加法和减法（二）」综合检测试卷",
+    "total_score": 100,
+    "time_minutes": 60,
+    "questions": [
+      {
+        "id": 1,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "两个两位数相加，和可能是两位数，也可能是三位数。",
+        "options": [],
+        "answer": "对",
+        "explanation": "例如 $10+10=20$（两位），$50+60=110$（三位）。故正确。"
+      },
+      {
+        "id": 2,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "$72 - 3\\square$ 的得数一定是三十多。",
+        "options": [],
+        "answer": "错",
+        "explanation": "如果 $\\square$ 是 1，结果是 41（四十多）。故错误。"
+      },
+      {
+        "id": 3,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "连加、连减与加减混合运算",
+        "question": "$45 + 23 - 45 = 23$。",
+        "options": [],
+        "answer": "对",
+        "explanation": "利用加法交换律和减法性质，$45 - 45 + 23 = 23$。正确。"
+      },
+      {
+        "id": 4,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "含小括号的加减混合运算",
+        "question": "$50 - (24 + 6)$ 和 $50 - 24 + 6$ 的结果相等。",
+        "options": [],
+        "answer": "错",
+        "explanation": "前者得 20，后者得 32。不相等。"
+      },
+      {
+        "id": 5,
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 3,
+        "knowledge_point": "解决问题：求比一个数多（或少）几的数",
+        "question": "小明比小红高 5 厘米，就是小红比小明矮 5 厘米。",
+        "options": [],
+        "answer": "对",
+        "explanation": "两者高度差是固定的，甲比乙多几，乙就比甲少几。正确。"
+      },
+      {
+        "id": 6,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "比 37 大 14 的数是（ ）。",
+        "options": [
+          "41",
+          "51",
+          "50",
+          "43"
+        ],
+        "answer": "51",
+        "explanation": "$37 + 14 = 51$。验算：$51 - 14 = 37$。"
+      },
+      {
+        "id": 7,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "如果 $\\triangle + 25 = 62$，那么 $\\triangle$ 是（ ）。",
+        "options": [
+          "37",
+          "47",
+          "87",
+          "43"
+        ],
+        "answer": "37",
+        "explanation": "$\\triangle = 62 - 25 = 37$。"
+      },
+      {
+        "id": 8,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "连加、连减与加减混合运算",
+        "question": "100 减去 35，再减去 25，结果是（ ）。",
+        "options": [
+          "40",
+          "50",
+          "60",
+          "30"
+        ],
+        "answer": "40",
+        "explanation": "$100 - 35 - 25 = 100 - (35 + 25) = 100 - 60 = 40$。"
+      },
+      {
+        "id": 9,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决问题：求比一个数多（或少）几的数",
+        "question": "篮子里有 30 个苹果，梨比苹果少 7 个，梨有多少个？",
+        "options": [
+          "37",
+          "23",
+          "33",
+          "27"
+        ],
+        "answer": "23",
+        "explanation": "求比一个数少几用减法：$30 - 7 = 23$。"
+      },
+      {
+        "id": 10,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "含小括号的加减混合运算",
+        "question": "计算 $80 - (42 - 18)$ 时，第一步算（ ）。",
+        "options": [
+          "80 - 42",
+          "42 - 18",
+          "80 + 18",
+          "42 + 18"
+        ],
+        "answer": "42 - 18",
+        "explanation": "有小括号的要先算括号里面的。"
+      },
+      {
+        "id": 11,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "最小的两位数与最大的两位数相差（ ）。",
+        "options": [
+          "89",
+          "90",
+          "99",
+          "10"
+        ],
+        "answer": "89",
+        "explanation": "最大的两位数是 99，最小的是 10。$99 - 10 = 89$。"
+      },
+      {
+        "id": 12,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "得数大于 50 的算式是（ ）。",
+        "options": [
+          "35 + 14",
+          "80 - 32",
+          "95 - 46",
+          "38 + 15"
+        ],
+        "answer": "38 + 15",
+        "explanation": "A:49; B:48; C:49; D:53。只有 53 > 50。"
+      },
+      {
+        "id": 13,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决问题：求比一个数多（或少）几的数",
+        "question": "图书角原来有 65 本书，借出 28 本，又还回 19 本。图书角现在有多少本书？",
+        "options": [
+          "37",
+          "46",
+          "56",
+          "74"
+        ],
+        "answer": "56",
+        "explanation": "$65 - 28 + 19 = 37 + 19 = 56$。"
+      },
+      {
+        "id": 14,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "$48 + 32$ 的结果是（ ）。",
+        "options": [
+          "70",
+          "80",
+          "90",
+          "71"
+        ],
+        "answer": "80",
+        "explanation": "$48 + 32 = 80$。验算：$80 - 32 = 48$。"
+      },
+      {
+        "id": 15,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "被减数是 74，减数是 18，差是（ ）。",
+        "options": [
+          "66",
+          "56",
+          "92",
+          "46"
+        ],
+        "answer": "56",
+        "explanation": "$74 - 18 = 56$。验算：$56 + 18 = 74$。"
+      },
+      {
+        "id": 16,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "解决问题：求比一个数多（或少）几的数",
+        "question": "一辆 45 座的客车，已经坐了 24 人，还有几个空座位？",
+        "options": [
+          "21",
+          "11",
+          "69",
+          "31"
+        ],
+        "answer": "21",
+        "explanation": "总数减去已坐人数：$45 - 24 = 21$。"
+      },
+      {
+        "id": 17,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "含小括号的加减混合运算",
+        "question": "下列算式中选项正确的结果是（ ）。 $100 - (34 + 26)$",
+        "options": [
+          "40",
+          "60",
+          "30",
+          "50"
+        ],
+        "answer": "40",
+        "explanation": "括号内 $34+26=60$，$100-60=40$。"
+      },
+      {
+        "id": 18,
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "已知 $\\text{A} + 18 = \\text{B} + 25$，那么 A 和 B 相比（ ）。",
+        "options": [
+          "A 大",
+          "B 大",
+          "一样大",
+          "无法确定"
+        ],
+        "answer": "A 大",
+        "explanation": "因为 25 > 18，要使等式成立，A 必须比 B 大。验证：若 B=1，则 A=8。"
+      },
+      {
+        "id": 19,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "两位数加两位数（不进位与进位）",
+        "question": "小明有 35 支铅笔，妈妈又买了 15 支，他现在有 ___ 支铅笔。",
+        "options": [],
+        "answer": "50",
+        "explanation": "$35 + 15 = 50$。"
+      },
+      {
+        "id": 20,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "一箱苹果 42 个，吃掉 25 个后，还剩 ___ 个。",
+        "options": [],
+        "answer": "17",
+        "explanation": "$42 - 25 = 17$。验算：$17 + 25 = 42$。"
+      },
+      {
+        "id": 21,
+        "type": "fill_blank",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "解决问题：求比一个数多（或少）几的数",
+        "question": "停车场原有 54 辆车，开走了 28 辆，又开进来 16 辆，现在停车场有 ___ 辆车。",
+        "options": [],
+        "answer": "42",
+        "explanation": "$54 - 28 + 16 = 26 + 16 = 42$。"
+      },
+      {
+        "id": 22,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "连加、连减与加减混合运算",
+        "question": "$25 + 36 + 18 = ?$",
+        "options": [],
+        "answer": "79",
+        "explanation": "$25 + 36 = 61$，$61 + 18 = 79$。"
+      },
+      {
+        "id": 23,
+        "type": "calculation",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "两位数减两位数（不退位与退位）",
+        "question": "$83 - 57 = ?$",
+        "options": [],
+        "answer": "26",
+        "explanation": "$83 - 57 = 26$。验算：$26 + 57 = 83$。"
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "point": "两位数加两位数（不进位与进位）",
+      "core_concept": "笔算加法时，相同数位要对齐，从个位加起。如果个位相加满十，要向十位进一。在计算十位时，千万不要忘记加上个位进上来的“1”。",
+      "key_formula": "相同数位对齐，从个位加起，个位满十向十位进一。",
+      "common_mistakes": [
+        "忘记加进位1",
+        "数位没有对齐，导致错误的把个位和十位上的数相加"
+      ],
+      "tips": "写竖式时，进位的“1”建议写成小字标在十位右下方，防止漏加。"
+    },
+    {
+      "point": "两位数减两位数（不退位与退位）",
+      "core_concept": "笔算减法时，相同数位对齐，从个位减起。如果个位不够减，就从十位退一。在十位上退一后，到个位变成了十，与个位上的数合起来再减。",
+      "key_formula": "相同数位对齐，从个位减起，个位不够减从十位退一作十。",
+      "common_mistakes": [
+        "计算十位时忘记减去退掉的“1”",
+        "个位不够减时，直接用大数减小数（如 32-18 算出 26）"
+      ],
+      "tips": "退位减法要记得在被减数的十位上面点一个小圆点提示自己已经退位了。"
+    },
+    {
+      "point": "连加、连减与加减混合运算",
+      "core_concept": "连加、连减和加减混合运算，一般按照从左到右的顺序依次计算。为了书写简便，可以把两个竖式合并成一个竖式。",
+      "key_formula": "从左往右看，谁在前面先算谁。",
+      "common_mistakes": [
+        "看错运算符号，把加法当成减法或反之",
+        "两步计算中第一步算错导致最后结果错误"
+      ],
+      "tips": "在计算连加时，寻找凑成整十的数（如4+6, 2+8）先加，可以提高速度。"
+    },
+    {
+      "point": "含小括号的加减混合运算",
+      "core_concept": "如果在算式中看到了小括号，它就像一个超级通行证，括号里的内容必须最先计算。算完括号再算括号外面的。",
+      "key_formula": "含有小括号的，要先算括号里面的。",
+      "common_mistakes": [
+        "无视括号，依然从左到右计算",
+        "在列竖式时，只写了括号里的算式，漏写了第二步"
+      ],
+      "tips": "看到（ ），先圈起来，写上“先算”两个字提醒自己。"
+    },
+    {
+      "point": "解决问题：求比一个数多（或少）几的数",
+      "core_concept": "已知一个数，求比它多几的数，用加法计算（大数=小数+相差数）；求比它少几的数，用减法计算（小数=大数-相差数）。",
+      "key_formula": "求多用加法（$+$），求少用减法（$-$）。",
+      "common_mistakes": [
+        "不理解题意，盲目根据“多”就加，“少”就减（有时题目是倒着问的）",
+        "找错比较的标准量"
+      ],
+      "tips": "可以画简单的线段图辅助分析：长的线段表示多，短的线段表示少。"
+    }
+  ]
+}

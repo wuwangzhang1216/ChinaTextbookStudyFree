@@ -1,0 +1,665 @@
+{
+  "issues": [],
+  "summary": {
+    "chinese-g1up": {
+      "fullName": "统编版小学语文一年级上册",
+      "lessonFiles": 37,
+      "expectedLessons": 37,
+      "outlineLessons": 37,
+      "totalQuestions": 184,
+      "avgQuestions": "5.0",
+      "minQuestions": 1,
+      "maxQuestions": 13,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 12,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 80,
+        "fill_blank_text": 24,
+        "word_order": 16,
+        "matching": 24
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g2up": {
+      "fullName": "统编版小学语文二年级上册",
+      "lessonFiles": 54,
+      "expectedLessons": 54,
+      "outlineLessons": 54,
+      "totalQuestions": 184,
+      "avgQuestions": "3.4",
+      "minQuestions": 1,
+      "maxQuestions": 15,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 30,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 80,
+        "fill_blank_text": 24,
+        "matching": 24,
+        "word_order": 16
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g3up": {
+      "fullName": "统编版小学语文三年级上册",
+      "lessonFiles": 89,
+      "expectedLessons": 89,
+      "outlineLessons": 89,
+      "totalQuestions": 184,
+      "avgQuestions": "2.1",
+      "minQuestions": 1,
+      "maxQuestions": 11,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 69,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 80,
+        "fill_blank_text": 24,
+        "matching": 24,
+        "word_order": 16
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g4up": {
+      "fullName": "统编版小学语文四年级上册",
+      "lessonFiles": 54,
+      "expectedLessons": 54,
+      "outlineLessons": 54,
+      "totalQuestions": 184,
+      "avgQuestions": "3.4",
+      "minQuestions": 1,
+      "maxQuestions": 11,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 30,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 80,
+        "fill_blank_text": 24,
+        "matching": 24,
+        "word_order": 16
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g5up": {
+      "fullName": "统编版小学语文五年级上册",
+      "lessonFiles": 51,
+      "expectedLessons": 51,
+      "outlineLessons": 51,
+      "totalQuestions": 181,
+      "avgQuestions": "3.5",
+      "minQuestions": 1,
+      "maxQuestions": 12,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 27,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 80,
+        "fill_blank_text": 24,
+        "word_order": 16,
+        "matching": 21
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g6up": {
+      "fullName": "统编版小学语文六年级上册",
+      "lessonFiles": 45,
+      "expectedLessons": 45,
+      "outlineLessons": 45,
+      "totalQuestions": 182,
+      "avgQuestions": "4.0",
+      "minQuestions": 1,
+      "maxQuestions": 11,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 22,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 79,
+        "matching": 24,
+        "word_order": 15,
+        "fill_blank_text": 24
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g1down": {
+      "fullName": "统编版小学语文一年级下册",
+      "lessonFiles": 65,
+      "expectedLessons": 65,
+      "outlineLessons": 65,
+      "totalQuestions": 184,
+      "avgQuestions": "2.8",
+      "minQuestions": 1,
+      "maxQuestions": 9,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 37,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 80,
+        "fill_blank_text": 24,
+        "matching": 24,
+        "word_order": 16
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g2down": {
+      "fullName": "统编版小学语文二年级下册",
+      "lessonFiles": 79,
+      "expectedLessons": 79,
+      "outlineLessons": 79,
+      "totalQuestions": 184,
+      "avgQuestions": "2.3",
+      "minQuestions": 1,
+      "maxQuestions": 9,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 55,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 80,
+        "fill_blank_text": 24,
+        "matching": 24,
+        "word_order": 16
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g3down": {
+      "fullName": "统编版小学语文三年级下册",
+      "lessonFiles": 102,
+      "expectedLessons": 102,
+      "outlineLessons": 102,
+      "totalQuestions": 183,
+      "avgQuestions": "1.8",
+      "minQuestions": 1,
+      "maxQuestions": 9,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 82,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 80,
+        "fill_blank_text": 24,
+        "matching": 24,
+        "word_order": 15
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g4down": {
+      "fullName": "统编版小学语文四年级下册",
+      "lessonFiles": 125,
+      "expectedLessons": 125,
+      "outlineLessons": 125,
+      "totalQuestions": 184,
+      "avgQuestions": "1.5",
+      "minQuestions": 1,
+      "maxQuestions": 10,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 108,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 80,
+        "fill_blank_text": 24,
+        "matching": 24,
+        "word_order": 16
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g5down": {
+      "fullName": "统编版小学语文五年级下册",
+      "lessonFiles": 76,
+      "expectedLessons": 76,
+      "outlineLessons": 76,
+      "totalQuestions": 183,
+      "avgQuestions": "2.4",
+      "minQuestions": 1,
+      "maxQuestions": 18,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 56,
+      "questionTypes": {
+        "true_false": 40,
+        "choice": 80,
+        "fill_blank_text": 24,
+        "matching": 24,
+        "word_order": 15
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "chinese-g6down": {
+      "fullName": "统编版小学语文六年级下册",
+      "lessonFiles": 39,
+      "expectedLessons": 39,
+      "outlineLessons": 39,
+      "totalQuestions": 137,
+      "avgQuestions": "3.5",
+      "minQuestions": 1,
+      "maxQuestions": 12,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 21,
+      "questionTypes": {
+        "true_false": 30,
+        "choice": 60,
+        "fill_blank_text": 18,
+        "word_order": 11,
+        "matching": 18
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "english-g3up": {
+      "fullName": "人教版PEP小学英语三年级上册",
+      "lessonFiles": 49,
+      "expectedLessons": 49,
+      "outlineLessons": 49,
+      "totalQuestions": 138,
+      "avgQuestions": "2.8",
+      "minQuestions": 1,
+      "maxQuestions": 11,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 49,
+      "questionTypes": {
+        "choice": 60,
+        "fill_blank_text": 24,
+        "word_order": 12,
+        "true_false": 30,
+        "matching": 12
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "english-g4up": {
+      "fullName": "人教版PEP小学英语四年级上册",
+      "lessonFiles": 93,
+      "expectedLessons": 93,
+      "outlineLessons": 93,
+      "totalQuestions": 138,
+      "avgQuestions": "1.5",
+      "minQuestions": 1,
+      "maxQuestions": 10,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 93,
+      "questionTypes": {
+        "true_false": 30,
+        "choice": 60,
+        "fill_blank_text": 24,
+        "matching": 12,
+        "word_order": 12
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "english-g5up": {
+      "fullName": "人教版PEP小学英语五年级上册",
+      "lessonFiles": 36,
+      "expectedLessons": 36,
+      "outlineLessons": 36,
+      "totalQuestions": 138,
+      "avgQuestions": "3.8",
+      "minQuestions": 1,
+      "maxQuestions": 11,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 33,
+      "questionTypes": {
+        "true_false": 30,
+        "choice": 60,
+        "fill_blank_text": 24,
+        "matching": 12,
+        "word_order": 12
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "english-g6up": {
+      "fullName": "人教版PEP小学英语六年级上册",
+      "lessonFiles": 125,
+      "expectedLessons": 125,
+      "outlineLessons": 125,
+      "totalQuestions": 159,
+      "avgQuestions": "1.3",
+      "minQuestions": 1,
+      "maxQuestions": 7,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 124,
+      "questionTypes": {
+        "true_false": 35,
+        "choice": 70,
+        "fill_blank_text": 28,
+        "matching": 14,
+        "word_order": 12
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "english-g3down": {
+      "fullName": "人教版PEP小学英语三年级下册",
+      "lessonFiles": 39,
+      "expectedLessons": 39,
+      "outlineLessons": 39,
+      "totalQuestions": 138,
+      "avgQuestions": "3.5",
+      "minQuestions": 1,
+      "maxQuestions": 12,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 35,
+      "questionTypes": {
+        "true_false": 30,
+        "choice": 60,
+        "fill_blank_text": 24,
+        "word_order": 12,
+        "matching": 12
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "english-g4down": {
+      "fullName": "人教版PEP小学英语四年级下册",
+      "lessonFiles": 59,
+      "expectedLessons": 59,
+      "outlineLessons": 59,
+      "totalQuestions": 138,
+      "avgQuestions": "2.3",
+      "minQuestions": 1,
+      "maxQuestions": 11,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 59,
+      "questionTypes": {
+        "true_false": 30,
+        "choice": 60,
+        "fill_blank_text": 24,
+        "matching": 12,
+        "word_order": 12
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "english-g5down": {
+      "fullName": "人教版PEP小学英语五年级下册",
+      "lessonFiles": 59,
+      "expectedLessons": 59,
+      "outlineLessons": 59,
+      "totalQuestions": 138,
+      "avgQuestions": "2.3",
+      "minQuestions": 1,
+      "maxQuestions": 13,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 57,
+      "questionTypes": {
+        "true_false": 30,
+        "choice": 60,
+        "matching": 12,
+        "fill_blank_text": 24,
+        "word_order": 12
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "english-g6down": {
+      "fullName": "人教版PEP小学英语六年级下册",
+      "lessonFiles": 95,
+      "expectedLessons": 95,
+      "outlineLessons": 95,
+      "totalQuestions": 115,
+      "avgQuestions": "1.2",
+      "minQuestions": 1,
+      "maxQuestions": 6,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 93,
+      "questionTypes": {
+        "choice": 50,
+        "fill_blank_text": 20,
+        "matching": 10,
+        "word_order": 10,
+        "true_false": 25
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g1up": {
+      "fullName": "教科版小学科学一年级上册",
+      "lessonFiles": 31,
+      "expectedLessons": 31,
+      "outlineLessons": 31,
+      "totalQuestions": 69,
+      "avgQuestions": "2.2",
+      "minQuestions": 1,
+      "maxQuestions": 7,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 29,
+      "questionTypes": {
+        "true_false": 15,
+        "choice": 39,
+        "fill_blank": 6,
+        "fill_blank_text": 9
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g2up": {
+      "fullName": "教科版小学科学二年级上册",
+      "lessonFiles": 14,
+      "expectedLessons": 14,
+      "outlineLessons": 14,
+      "totalQuestions": 46,
+      "avgQuestions": "3.3",
+      "minQuestions": 1,
+      "maxQuestions": 8,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 12,
+      "questionTypes": {
+        "true_false": 10,
+        "choice": 26,
+        "fill_blank_text": 6,
+        "fill_blank": 4
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g3up": {
+      "fullName": "教科版小学科学三年级上册",
+      "lessonFiles": 32,
+      "expectedLessons": 32,
+      "outlineLessons": 32,
+      "totalQuestions": 69,
+      "avgQuestions": "2.2",
+      "minQuestions": 1,
+      "maxQuestions": 7,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 30,
+      "questionTypes": {
+        "true_false": 15,
+        "choice": 39,
+        "fill_blank_text": 9,
+        "fill_blank": 6
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g4up": {
+      "fullName": "教科版小学科学四年级上册",
+      "lessonFiles": 52,
+      "expectedLessons": 52,
+      "outlineLessons": 52,
+      "totalQuestions": 69,
+      "avgQuestions": "1.3",
+      "minQuestions": 1,
+      "maxQuestions": 5,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 50,
+      "questionTypes": {
+        "true_false": 15,
+        "choice": 39,
+        "fill_blank": 6,
+        "fill_blank_text": 9
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g5up": {
+      "fullName": "教科版小学科学五年级上册",
+      "lessonFiles": 48,
+      "expectedLessons": 48,
+      "outlineLessons": 48,
+      "totalQuestions": 92,
+      "avgQuestions": "1.9",
+      "minQuestions": 1,
+      "maxQuestions": 8,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 47,
+      "questionTypes": {
+        "true_false": 20,
+        "choice": 52,
+        "fill_blank_text": 12,
+        "fill_blank": 8
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g6up": {
+      "fullName": "教科版小学科学六年级上册",
+      "lessonFiles": 40,
+      "expectedLessons": 40,
+      "outlineLessons": 40,
+      "totalQuestions": 92,
+      "avgQuestions": "2.3",
+      "minQuestions": 1,
+      "maxQuestions": 7,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 39,
+      "questionTypes": {
+        "true_false": 20,
+        "choice": 52,
+        "fill_blank": 8,
+        "fill_blank_text": 12
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g1down": {
+      "fullName": "教科版小学科学一年级下册",
+      "lessonFiles": 23,
+      "expectedLessons": 23,
+      "outlineLessons": 23,
+      "totalQuestions": 46,
+      "avgQuestions": "2.0",
+      "minQuestions": 1,
+      "maxQuestions": 5,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 20,
+      "questionTypes": {
+        "true_false": 10,
+        "choice": 26,
+        "fill_blank_text": 6,
+        "fill_blank": 4
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g2down": {
+      "fullName": "教科版小学科学二年级下册",
+      "lessonFiles": 12,
+      "expectedLessons": 12,
+      "outlineLessons": 12,
+      "totalQuestions": 46,
+      "avgQuestions": "3.8",
+      "minQuestions": 1,
+      "maxQuestions": 9,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 12,
+      "questionTypes": {
+        "true_false": 10,
+        "choice": 26,
+        "fill_blank_text": 6,
+        "fill_blank": 4
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g3down": {
+      "fullName": "教科版小学科学三年级下册",
+      "lessonFiles": 28,
+      "expectedLessons": 28,
+      "outlineLessons": 28,
+      "totalQuestions": 69,
+      "avgQuestions": "2.5",
+      "minQuestions": 1,
+      "maxQuestions": 8,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 25,
+      "questionTypes": {
+        "true_false": 15,
+        "choice": 39,
+        "fill_blank_text": 9,
+        "fill_blank": 6
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g4down": {
+      "fullName": "教科版小学科学四年级下册",
+      "lessonFiles": 45,
+      "expectedLessons": 45,
+      "outlineLessons": 45,
+      "totalQuestions": 69,
+      "avgQuestions": "1.5",
+      "minQuestions": 1,
+      "maxQuestions": 6,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 44,
+      "questionTypes": {
+        "true_false": 15,
+        "choice": 39,
+        "fill_blank_text": 9,
+        "fill_blank": 6
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g5down": {
+      "fullName": "教科版小学科学五年级下册",
+      "lessonFiles": 64,
+      "expectedLessons": 64,
+      "outlineLessons": 64,
+      "totalQuestions": 92,
+      "avgQuestions": "1.4",
+      "minQuestions": 1,
+      "maxQuestions": 6,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 61,
+      "questionTypes": {
+        "true_false": 20,
+        "choice": 52,
+        "fill_blank": 8,
+        "fill_blank_text": 12
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    },
+    "science-g6down": {
+      "fullName": "教科版小学科学六年级下册",
+      "lessonFiles": 30,
+      "expectedLessons": 30,
+      "outlineLessons": 30,
+      "totalQuestions": 92,
+      "avgQuestions": "3.1",
+      "minQuestions": 1,
+      "maxQuestions": 8,
+      "lessonsWithNoQuestions": 0,
+      "lessonsWithNoKnowledge": 28,
+      "questionTypes": {
+        "true_false": 20,
+        "choice": 52,
+        "fill_blank": 8,
+        "fill_blank_text": 12
+      },
+      "invalidAnswers": 0,
+      "missingFields": 0
+    }
+  }
+}

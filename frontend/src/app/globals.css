@@ -1,0 +1,134 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* KaTeX */
+@import "katex/dist/katex.min.css";
+
+:root {
+  --font-sans: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  height: 100%;
+  -webkit-font-smoothing: antialiased;
+  background: #ffffff;
+  color: #4b4b4b;
+}
+
+body {
+  font-family: var(--font-sans);
+}
+
+/* 英文数字用 Nunito，中文 fallback 到 PingFang；display 类用于标题和按钮 */
+.font-display,
+h1,
+h2,
+h3,
+.btn-chunky,
+.display-text {
+  font-family: var(--font-display), "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", sans-serif;
+  letter-spacing: -0.01em;
+}
+
+/* 多邻国式按钮：底部硬阴影，按下时阴影消失模拟"按下去" */
+.btn-chunky {
+  @apply relative inline-flex items-center justify-center font-extrabold text-white;
+  @apply px-6 py-3 rounded-2xl select-none cursor-pointer;
+  @apply active:translate-y-[3px] active:shadow-none active:scale-[0.99];
+  transition: transform 120ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
+    box-shadow 120ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
+    filter 150ms ease;
+}
+.btn-chunky:hover {
+  filter: brightness(1.06);
+}
+
+.btn-chunky-primary {
+  @apply btn-chunky bg-primary shadow-chunky-primary;
+}
+
+.btn-chunky-secondary {
+  @apply btn-chunky bg-secondary shadow-chunky-secondary;
+}
+
+.btn-chunky-danger {
+  @apply btn-chunky bg-danger shadow-chunky-danger;
+}
+
+.btn-chunky-disabled {
+  @apply btn-chunky bg-bg-softer text-ink-softer shadow-chunky cursor-not-allowed;
+  @apply active:translate-y-0 active:scale-100;
+}
+.btn-chunky-disabled:hover {
+  filter: none;
+}
+
+/* 选项卡（多邻国题目选项常用） */
+.option-card {
+  @apply relative border-2 border-bg-softer rounded-2xl px-5 py-4 cursor-pointer overflow-hidden;
+  @apply text-lg text-ink font-medium select-none;
+  @apply hover:border-secondary hover:bg-secondary/5;
+  box-shadow: 0 2px 0 0 #e5e5e5;
+  transition: transform 140ms cubic-bezier(0.2, 0.9, 0.3, 1.2), border-color 140ms ease,
+    box-shadow 140ms ease, background-color 140ms ease;
+}
+.option-card:active {
+  transform: translateY(1px) scale(0.99);
+  box-shadow: 0 1px 0 0 #e5e5e5;
+}
+
+.option-card-selected {
+  @apply border-secondary bg-secondary/10 text-secondary-dark;
+  box-shadow: 0 2px 0 0 #1899d6;
+  transform: scale(1.02);
+}
+
+.option-card-correct {
+  @apply border-primary bg-primary/10 text-primary-dark;
+  box-shadow: 0 2px 0 0 #58a700, 0 0 0 6px rgba(88, 204, 2, 0.18);
+}
+
+.option-card-wrong {
+  @apply border-danger bg-danger/10 text-danger-dark;
+  box-shadow: 0 2px 0 0 #ea2b2b, 0 0 0 6px rgba(255, 75, 75, 0.18);
+}
+
+/* ripple 元素 */
+.ripple-dot {
+  position: absolute;
+  border-radius: 9999px;
+  pointer-events: none;
+  background: currentColor;
+  opacity: 0.35;
+  transform: scale(0);
+  animation: ripple 0.55s ease-out forwards;
+}
+
+/* 当前路径节点的金色光晕 */
+.path-node-current::before {
+  content: "";
+  position: absolute;
+  inset: -8px;
+  border-radius: 9999px;
+  background: radial-gradient(circle, rgba(88, 204, 2, 0.35), transparent 70%);
+  animation: glowPulse 2s ease-in-out infinite;
+  z-index: -1;
+}
+
+/* 可访问性：尊重系统"减少动画" */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

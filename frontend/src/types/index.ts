@@ -22,6 +22,12 @@ export interface Question {
   options: string[]; // 选择题 4 项；其他为空
   answer: string;
   explanation: string;
+  /** 题干 / 选项 / 解析的 TTS 音频相对路径，由 build-data 注入 */
+  audio?: {
+    question?: string;
+    options?: (string | null)[];
+    explanation?: string;
+  };
 }
 
 // ============================================================
@@ -34,6 +40,14 @@ export interface KnowledgeSummary {
   key_formula: string;
   common_mistakes: string[];
   tips: string;
+  /** 各字段的 TTS 音频相对路径 */
+  audio?: {
+    point?: string;
+    core_concept?: string;
+    key_formula?: string;
+    tips?: string;
+    common_mistakes?: (string | null)[];
+  };
 }
 
 export interface QuizFile {

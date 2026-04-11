@@ -10,6 +10,7 @@
 import { motion } from "framer-motion";
 import { cn } from "@/lib/cn";
 import { MathText } from "@/components/MathText";
+import { TTSButton } from "@/components/TTSButton";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 export function FillBlankTextQuestion({
@@ -36,8 +37,11 @@ export function FillBlankTextQuestion({
 
   return (
     <div className="w-full">
-      <div className="text-xl font-bold text-ink mb-6 leading-relaxed whitespace-pre-wrap">
-        <MathText text={question.question} />
+      <div className="flex items-start gap-3 mb-6">
+        <div className="text-xl font-bold text-ink leading-relaxed whitespace-pre-wrap flex-1">
+          <MathText text={question.question} />
+        </div>
+        <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
       </div>
 
       <motion.input

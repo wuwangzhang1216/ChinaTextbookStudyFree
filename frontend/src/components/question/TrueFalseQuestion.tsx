@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import { Check, XMark } from "@/components/icons";
 import { cn } from "@/lib/cn";
 import { MathText } from "@/components/MathText";
+import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import type { QuestionRendererProps } from "./QuestionRenderer";
@@ -47,8 +48,11 @@ export function TrueFalseQuestion({ question, answer, phase, isCorrect, onChange
 
   return (
     <div className="w-full">
-      <div className="text-2xl font-bold text-ink mb-8 leading-relaxed">
-        <MathText text={question.question} />
+      <div className="flex items-start gap-3 mb-8">
+        <div className="text-2xl font-bold text-ink leading-relaxed flex-1">
+          <MathText text={question.question} />
+        </div>
+        <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
       </div>
       <div className="flex gap-4">
         {renderBtn("对", <Check className="w-12 h-12 text-primary" />)}

@@ -10,6 +10,7 @@ __pycache__/
 *$py.class
 *.egg-info/
 .venv/
+.venv-*/
 venv/
 env/
 .pytest_cache/
@@ -48,3 +49,9 @@ Thumbs.db
 
 # ---- Claude / local agent state ----
 .claude/
+
+# ---- TTS 生成物（体积大 / 机器产物） ----
+frontend/public/audio/
+frontend/public/data/
+scripts/tts/logs/
+scripts/tts/manifest.json

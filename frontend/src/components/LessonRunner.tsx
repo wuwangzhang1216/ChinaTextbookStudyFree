@@ -16,6 +16,7 @@ import { HeartsBar } from "./HeartsBar";
 import { QuestionRenderer, type QuestionPhase } from "./question/QuestionRenderer";
 import { Mascot, type MascotReaction } from "./Mascot";
 import { MuteToggle, useSyncMute } from "./MuteToggle";
+import { TTSButton } from "./TTSButton";
 
 // 重型/条件渲染的子组件：按需加载以减小 LessonRunner 初始 chunk
 const FeedbackPanel = dynamic(
@@ -659,6 +660,7 @@ interface IntroPage {
   accent: string; // hex，用于进度点和底部装饰
   mascotMood: MascotMood; // 每页吉祥物心情
   bubbleText: string; // 吉祥物气泡鼓励语
+  audioSrc?: string; // 该页主要内容的 TTS 音频
   render: () => React.ReactNode;
 }
 
@@ -685,6 +687,7 @@ function IntroCard({
       accent: "#1CB0F6",
       mascotMood: "think",
       bubbleText: "一起学！",
+      audioSrc: knowledge.audio?.core_concept,
       render: () => (
         <p className="text-ink leading-relaxed text-lg">
           <MathText text={knowledge.core_concept} />
@@ -702,6 +705,7 @@ function IntroCard({
       accent: "#58CC02",
       mascotMood: "wave",
       bubbleText: "超级重要!",
+      audioSrc: knowledge.audio?.key_formula,
       render: () => (
         <div className="bg-bg-soft border-2 border-bg-softer rounded-2xl px-5 py-5 text-center">
           <div className="text-xl text-ink font-bold leading-relaxed">
@@ -734,6 +738,11 @@ function IntroCard({
               <div className="flex-1 text-ink leading-relaxed text-base">
                 <MathText text={m} />
               </div>
+              <TTSButton
+                src={knowledge.audio?.common_mistakes?.[i] ?? null}
+                size="sm"
+                label="朗读"
+              />
             </li>
           ))}
         </ul>
@@ -750,6 +759,7 @@ function IntroCard({
       accent: "#FFC800",
       mascotMood: "cheer",
       bubbleText: "你最棒!",
+      audioSrc: knowledge.audio?.tips,
       render: () => (
         <p className="text-ink leading-relaxed text-lg">
           <MathText text={knowledge.tips} />
@@ -938,14 +948,19 @@ function IntroCard({
               </motion.div>
 
               {/* 标题 */}
-              <motion.h1
+              <motion.div
                 initial={{ y: 12, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ type: "spring", damping: 16, stiffness: 260, delay: 0.2 }}
-                className="text-3xl font-extrabold text-ink mb-4 leading-tight"
+                className="flex items-center justify-center gap-3 mb-4"
               >
-                {current.title}
-              </motion.h1>
+                <h1 className="text-3xl font-extrabold text-ink leading-tight">
+                  {current.title}
+                </h1>
+                {current.audioSrc && (
+                  <TTSButton src={current.audioSrc} label="朗读讲解" />
+                )}
+              </motion.div>
 
               {/* 内容（左对齐） */}
               <motion.div

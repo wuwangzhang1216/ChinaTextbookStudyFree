@@ -11,6 +11,7 @@
  *   - 非 math 学科带前缀：`chinese-g1up` / `english-g3up` / `science-g1up`
  */
 
+import { createHash } from "crypto";
 import { existsSync, promises as fs } from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
@@ -28,6 +29,97 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const OUTPUT_SRC = path.resolve(ROOT, "..", "output");
 const DATA_DST = path.resolve(ROOT, "public", "data");
+const AUDIO_ROOT = path.resolve(ROOT, "public", "audio");
+
+// ============================================================
+// TTS 音频映射：与 scripts/tts/collect_texts.py 的 hash 规则保持一致
+//   - normalize: trim + 折叠空白
+//   - hash:      sha1(text)
+//   - rel path:  /audio/<hash[0:2]>/<hash>.mp3
+// 仅当对应 mp3 已生成时才注入路径，避免前端 404。
+// ============================================================
+
+function normalizeText(text: string): string {
+  return text.trim().replace(/\s+/g, " ");
+}
+
+function textHash(text: string): string {
+  return createHash("sha1").update(text, "utf8").digest("hex");
+}
+
+function audioRel(text: string): string {
+  const h = textHash(text);
+  return `${h.slice(0, 2)}/${h}.mp3`;
+}
+
+let audioIndex: Set<string> | null = null;
+
+async function buildAudioIndex(): Promise<Set<string>> {
+  if (audioIndex) return audioIndex;
+  const set = new Set<string>();
+  if (!existsSync(AUDIO_ROOT)) {
+    audioIndex = set;
+    return set;
+  }
+  const buckets = await fs.readdir(AUDIO_ROOT);
+  for (const b of buckets) {
+    const dir = path.join(AUDIO_ROOT, b);
+    let entries: string[];
+    try {
+      entries = await fs.readdir(dir);
+    } catch {
+      continue;
+    }
+    for (const f of entries) {
+      if (f.endsWith(".mp3")) set.add(`${b}/${f}`);
+    }
+  }
+  audioIndex = set;
+  return set;
+}
+
+function audioFor(text: string | undefined | null): string | undefined {
+  if (!text) return undefined;
+  const norm = normalizeText(text);
+  if (!norm) return undefined;
+  const rel = audioRel(norm);
+  if (audioIndex && audioIndex.has(rel)) return `/audio/${rel}`;
+  return undefined;
+}
+
+function stripOptionPrefix(opt: string): string {
+  return opt.replace(/^[A-Da-d][.、]\s*/, "");
+}
+
+function decorateQuestion(q: Question): Question {
+  const audio: NonNullable<Question["audio"]> = {};
+  const qa = audioFor(q.question);
+  if (qa) audio.question = qa;
+  if (q.options && q.options.length) {
+    const opts = q.options.map(o => audioFor(stripOptionPrefix(o)) ?? null);
+    if (opts.some(Boolean)) audio.options = opts;
+  }
+  const ea = audioFor(q.explanation);
+  if (ea) audio.explanation = ea;
+  if (Object.keys(audio).length) q.audio = audio;
+  return q;
+}
+
+function decorateKnowledge<T extends { point: string; core_concept: string; key_formula: string; tips: string; common_mistakes: string[]; audio?: unknown }>(
+  ks: T,
+): T {
+  const audio: Record<string, unknown> = {};
+  const p = audioFor(ks.point); if (p) audio.point = p;
+  const c = audioFor(ks.core_concept); if (c) audio.core_concept = c;
+  const f = audioFor(ks.key_formula); if (f) audio.key_formula = f;
+  const t = audioFor(ks.tips); if (t) audio.tips = t;
+  if (Array.isArray(ks.common_mistakes) && ks.common_mistakes.length) {
+    const cm = ks.common_mistakes.map(m => audioFor(m) ?? null);
+    if (cm.some(Boolean)) audio.common_mistakes = cm;
+  }
+  if (Object.keys(audio).length) (ks as { audio?: unknown }).audio = audio;
+  return ks;
+}
 
 // ============================================================
 // 学科配置（与 Python 侧 subjects.py 对齐）
@@ -119,6 +211,10 @@ async function processTextbook(
       console.warn(`    ⚠️  缺失题库: ${stem}_unit${unit.unit_number}.json`);
       continue;
     }
+
+    quiz.knowledge_summary.forEach(decorateKnowledge);
+    quiz.unit_test.questions.forEach(decorateQuestion);
+    quiz.exam?.questions?.forEach(decorateQuestion);
 
     const ksByPoint = new Map(quiz.knowledge_summary.map(ks => [ks.point, ks]));
     const allUnitQuestions = quiz.unit_test.questions;
@@ -230,6 +326,10 @@ async function main() {
   await fs.rm(DATA_DST, { recursive: true, force: true });
   await fs.mkdir(DATA_DST, { recursive: true });
   await fs.mkdir(path.join(DATA_DST, "books"), { recursive: true });
+
+  // 索引已生成的 TTS 音频文件
+  const audio = await buildAudioIndex();
+  console.log(`🔊 已索引 ${audio.size} 个 TTS 音频文件`);
 
   const books: Book[] = [];
   let totalLessons = 0;

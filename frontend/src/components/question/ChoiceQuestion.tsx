@@ -4,6 +4,7 @@ import { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/cn";
 import { MathText } from "@/components/MathText";
+import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import type { QuestionRendererProps } from "./QuestionRenderer";
@@ -53,8 +54,11 @@ export function ChoiceQuestion({ question, answer, phase, isCorrect, onChange }:
 
   return (
     <div className="w-full">
-      <div className="text-2xl font-bold text-ink mb-6 leading-relaxed">
-        <MathText text={question.question} />
+      <div className="flex items-start gap-3 mb-6">
+        <div className="text-2xl font-bold text-ink leading-relaxed flex-1">
+          <MathText text={question.question} />
+        </div>
+        <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
       </div>
 
       <div className="space-y-3">
@@ -106,6 +110,12 @@ export function ChoiceQuestion({ question, answer, phase, isCorrect, onChange }:
               <span className="flex-1">
                 <MathText text={display} />
               </span>
+              <TTSButton
+                src={question.audio?.options?.[idx] ?? null}
+                size="sm"
+                label={`朗读选项 ${letter}`}
+                className="ml-2"
+              />
 
               {/* Ripple */}
               {(ripples[letter] ?? []).map(r => (

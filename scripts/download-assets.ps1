@@ -64,6 +64,16 @@ if ((Test-Path $dataDir) -and (Get-ChildItem $dataDir -ErrorAction SilentlyConti
     Download-And-Extract "data.tar.gz" $PublicDir
 }
 
+# Download textbook pages
+Write-Host ""
+Write-Host "--- 下载课本原页图片 ---" -ForegroundColor Cyan
+$pagesDir = Join-Path $PublicDir "textbook-pages"
+if ((Test-Path $pagesDir) -and (Get-ChildItem $pagesDir -ErrorAction SilentlyContinue | Select-Object -First 1)) {
+    Write-Host "  跳过 (目录已存在且非空)" -ForegroundColor Yellow
+} else {
+    Download-And-Extract "textbook-pages.tar.gz" $PublicDir
+}
+
 Write-Host ""
 Write-Host "=== 全部下载完成! ===" -ForegroundColor Green
 Write-Host "现在可以运行: cd frontend && npm run dev"

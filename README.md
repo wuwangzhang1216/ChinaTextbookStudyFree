@@ -69,6 +69,7 @@ powershell -ExecutionPolicy Bypass -File scripts\download-assets.ps1
 
 这会自动下载并解压以下文件到 `frontend/public/`：
 - `audio.tar.gz` — 66,231 个 Opus 格式 TTS 音频（~711 MB）
+- `textbook-pages.tar.gz` — 1,577 张课本原页图片（~192 MB）
 - `data.tar.gz` — 题库 JSON 数据（~2.3 MB）
 
 ### 3. 运行前端

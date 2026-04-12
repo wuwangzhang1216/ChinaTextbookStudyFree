@@ -62,6 +62,22 @@ else
   echo "  完成 ✓"
 fi
 
+# ---- Download textbook-pages (tar.gz) ----
+echo ""
+echo "--- 下载课本原页图片 ---"
+PAGES_DIR="$PUBLIC_DIR/textbook-pages"
+if [ -d "$PAGES_DIR" ] && [ "$(ls -A "$PAGES_DIR" 2>/dev/null)" ]; then
+  echo "  跳过 (目录已存在且非空: $PAGES_DIR)"
+else
+  echo "  下载 textbook-pages.tar.gz ..."
+  curl -L --progress-bar -o "/tmp/textbook-pages.tar.gz" "$BASE_URL/textbook-pages.tar.gz"
+  echo "  解压到 $PUBLIC_DIR/ ..."
+  mkdir -p "$PUBLIC_DIR"
+  tar xzf "/tmp/textbook-pages.tar.gz" -C "$PUBLIC_DIR"
+  rm -f "/tmp/textbook-pages.tar.gz"
+  echo "  完成 ✓ ($(find "$PAGES_DIR" -type f | wc -l) 张课本页)"
+fi
+
 echo ""
 echo "=== 全部下载完成! ==="
 echo "现在可以运行: cd frontend && npm run dev"

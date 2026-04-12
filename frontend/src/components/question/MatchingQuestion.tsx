@@ -20,6 +20,7 @@ import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
+import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 const LEFT_KEYS = ["A", "B", "C", "D"] as const;
@@ -44,6 +45,7 @@ export function MatchingQuestion({
 }: QuestionRendererProps) {
   const disabled = phase === "checked";
   const options = question.options ?? [];
+  const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
   const left = options.slice(0, 4);
   const right = options.slice(4, 8);
 
@@ -73,6 +75,7 @@ export function MatchingQuestion({
 
   function pickLeft(k: LeftKey) {
     if (disabled) return;
+    cancelNarrate();
     playSfx("tap");
     haptic("light");
     // 已配对的左项点击 → 解除配对

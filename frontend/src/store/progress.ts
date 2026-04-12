@@ -35,6 +35,8 @@ interface ProgressState {
 
   // 偏好
   muted: boolean;
+  /** 自动朗读题干/讲解/知识卡（面向低龄）。默认 on。 */
+  autoNarrate: boolean;
 
   // 心数系统（持久化，跨会话恢复）
   hearts: number;
@@ -58,6 +60,7 @@ interface ProgressState {
   clearMistakesForLesson: (lessonId: string) => void;
   bumpStreakIfNeeded: () => void;
   toggleMute: () => void;
+  toggleAutoNarrate: () => void;
 
   loseHeart: () => void;
   refreshHearts: () => void;
@@ -120,6 +123,7 @@ export const useProgressStore = create<ProgressState>()(
       completedLessons: {},
       mistakesBank: [],
       muted: false,
+      autoNarrate: true,
 
       hearts: MAX_HEARTS,
       nextHeartAt: null,
@@ -220,6 +224,10 @@ export const useProgressStore = create<ProgressState>()(
         set(state => ({ muted: !state.muted }));
       },
 
+      toggleAutoNarrate: () => {
+        set(state => ({ autoNarrate: !state.autoNarrate }));
+      },
+
       // --------------------------------------------------------
       // 心数
       // --------------------------------------------------------
@@ -271,8 +279,8 @@ export const useProgressStore = create<ProgressState>()(
     {
       name: "csf-progress-v1",
       storage: createJSONStorage(() => localStorage),
-      // 版本迁移：v1 → v2（新增 hearts / dailyGoal / freezes 等字段）
-      version: 2,
+      // 版本迁移：v3 新增 autoNarrate
+      version: 3,
       migrate: (persistedState: unknown) => {
         const state = (persistedState as Partial<ProgressState>) ?? {};
         return {
@@ -284,6 +292,7 @@ export const useProgressStore = create<ProgressState>()(
           lastXpDate: state.lastXpDate ?? "",
           streakFreezes: state.streakFreezes ?? MAX_FREEZES,
           activeLesson: state.activeLesson ?? null,
+          autoNarrate: state.autoNarrate ?? true,
         } as ProgressState;
       },
     },

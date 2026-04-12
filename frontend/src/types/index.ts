@@ -115,6 +115,54 @@ export interface Book {
   fullName: string; // '人教版小学数学三年级上册'
   unitsCount: number;
   lessonsCount: number;
+  /** 该书是否有课文听读数据（由 build-data 注入） */
+  hasPassages?: boolean;
+}
+
+// ============================================================
+// 课文听读（语文 / 英语）
+// ============================================================
+
+export type PassageKind =
+  | "poem"
+  | "ancient_poem"
+  | "prose"
+  | "story"
+  | "song"
+  | "dialogue";
+
+export interface PassageSentence {
+  text: string;
+  /** TTS 音频相对路径，由 build-data 注入。未生成时为 undefined */
+  audio?: string;
+}
+
+export interface Passage {
+  id: string; // e.g. "chinese-g1up-p3"
+  bookId: string;
+  unitNumber: number | null;
+  lessonNumber: number;
+  title: string;
+  kind: PassageKind;
+  author?: string | null;
+  language: "Chinese" | "English";
+  sentences: PassageSentence[];
+  /** Gemini 从页眉读到的印刷页码（debug 用，前端一般不用）*/
+  pageHint?: number | null;
+  /** 应用 book-level offset 后的真实 PDF 物理页 */
+  pdfPage?: number | null;
+  /**
+   * 该篇课文对应的课本原页 JPG 列表，按物理页号升序。
+   * 通常是 [pdfPage-1, pdfPage, pdfPage+1]，前端默认显示 pdfPage 那张。
+   */
+  pageImages?: string[];
+}
+
+export interface BookPassages {
+  bookId: string;
+  subject: SubjectId;
+  textbook: string;
+  passages: Passage[];
 }
 
 // ============================================================

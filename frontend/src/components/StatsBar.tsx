@@ -11,7 +11,7 @@ import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { MAX_HEARTS, useProgressStore } from "@/store/progress";
 import { Heart, Flame, Lightning, Snowflake } from "@/components/icons";
-import { MuteToggle, useSyncMute } from "./MuteToggle";
+import { MuteToggle, AutoNarrateToggle, useSyncMute } from "./MuteToggle";
 import { Modal } from "./Modal";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
@@ -93,7 +93,8 @@ export function StatsBar() {
           <span>{dXp}</span>
         </motion.div>
 
-        <MuteToggle className="ml-1" />
+        <AutoNarrateToggle className="ml-1" />
+        <MuteToggle />
       </div>
 
       {/* 心数详情弹窗 */}

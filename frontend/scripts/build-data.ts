@@ -23,20 +23,24 @@ import type {
   Book,
   SiteIndex,
   SubjectId,
+  Passage,
+  BookPassages,
 } from "../src/types/index.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const OUTPUT_SRC = path.resolve(ROOT, "..", "output");
+const PASSAGES_SRC = path.resolve(ROOT, "..", "data", "passages");
 const DATA_DST = path.resolve(ROOT, "public", "data");
 const AUDIO_ROOT = path.resolve(ROOT, "public", "audio");
+const PAGES_ROOT = path.resolve(ROOT, "public", "textbook-pages");
 
 // ============================================================
 // TTS 音频映射：与 scripts/tts/collect_texts.py 的 hash 规则保持一致
 //   - normalize: trim + 折叠空白
 //   - hash:      sha1(text)
-//   - rel path:  /audio/<hash[0:2]>/<hash>.mp3
-// 仅当对应 mp3 已生成时才注入路径，避免前端 404。
+//   - rel path:  /audio/<hash[0:2]>/<hash>.opus
+// 仅当对应 opus 已生成时才注入路径，避免前端 404。
 // ============================================================
 
 function normalizeText(text: string): string {
@@ -49,7 +53,7 @@ function textHash(text: string): string {
 
 function audioRel(text: string): string {
   const h = textHash(text);
-  return `${h.slice(0, 2)}/${h}.mp3`;
+  return `${h.slice(0, 2)}/${h}.opus`;
 }
 
 let audioIndex: Set<string> | null = null;
@@ -71,7 +75,7 @@ async function buildAudioIndex(): Promise<Set<string>> {
       continue;
     }
     for (const f of entries) {
-      if (f.endsWith(".mp3")) set.add(`${b}/${f}`);
+      if (f.endsWith(".opus")) set.add(`${b}/${f}`);
     }
   }
   audioIndex = set;
@@ -119,6 +123,165 @@ function decorateKnowledge<T extends { point: string; core_concept: string; key_
   }
   if (Object.keys(audio).length) (ks as { audio?: unknown }).audio = audio;
   return ks;
+}
+
+// ============================================================
+// 课文听读（passages）构建
+// 读 data/passages/{subject}/{bookId}.json，对每个 sentence 注入音频路径，
+// 输出到 public/data/books/{bookId}/passages.json
+// 返回一个 Set，记录有课文的 bookId，供上游给 Book 打 hasPassages 标记
+// ============================================================
+
+/**
+ * 读 render_pages.py 写的 pages.json 映射。
+ * 结构：{ bookId, offset, passages: [{passage_id, page_hint, pdf_page, pages: [n...]}] }
+ * 这个映射已经把 Gemini 的 page_hint 应用了书级 offset，得到真实 PDF 物理页 + ±1 兜底。
+ */
+interface PagesMapping {
+  bookId: string;
+  offset: number;
+  passages: Array<{
+    passage_id: string;
+    page_hint: number | null;
+    pdf_page: number | null;
+    pages: number[];
+  }>;
+}
+
+interface PagesInfo {
+  pdfPage: number | null;
+  pages: number[];
+}
+
+async function loadPagesMapping(bookId: string): Promise<Map<string, PagesInfo>> {
+  const file = path.join(PAGES_ROOT, bookId, "pages.json");
+  if (!existsSync(file)) return new Map();
+  try {
+    const doc = JSON.parse(await fs.readFile(file, "utf-8")) as PagesMapping;
+    return new Map(
+      doc.passages.map(p => [
+        p.passage_id,
+        { pdfPage: p.pdf_page, pages: p.pages },
+      ]),
+    );
+  } catch {
+    return new Map();
+  }
+}
+
+async function buildPassages(): Promise<Set<string>> {
+  const withPassages = new Set<string>();
+  if (!existsSync(PASSAGES_SRC)) {
+    console.log("  [跳过] data/passages/ 不存在，无课文听读数据");
+    return withPassages;
+  }
+  const subjectDirs = await fs.readdir(PASSAGES_SRC);
+  let totalBooks = 0;
+  let totalPassages = 0;
+  let totalSentences = 0;
+  let audioHit = 0;
+  let passageWithImage = 0;
+
+  for (const subject of subjectDirs) {
+    const subjectDir = path.join(PASSAGES_SRC, subject);
+    let stat;
+    try {
+      stat = await fs.stat(subjectDir);
+    } catch {
+      continue;
+    }
+    if (!stat.isDirectory()) continue;
+
+    const files = (await fs.readdir(subjectDir)).filter(
+      f => f.endsWith(".json") && !f.endsWith(".draft.json"),
+    );
+    for (const f of files) {
+      const srcPath = path.join(subjectDir, f);
+      let doc: {
+        bookId: string;
+        subject: SubjectId;
+        textbook: string;
+        passages: Array<{
+          id: string;
+          unitNumber: number | null;
+          lessonNumber: number;
+          title: string;
+          kind: Passage["kind"];
+          author?: string | null;
+          language: "Chinese" | "English";
+          sentences: string[];
+          page_hint?: number | null;
+        }>;
+      };
+      try {
+        doc = JSON.parse(await fs.readFile(srcPath, "utf-8"));
+      } catch (e) {
+        console.warn(`  ⚠️  解析失败 ${f}: ${(e as Error).message}`);
+        continue;
+      }
+
+      const bookId = doc.bookId;
+      if (!bookId || !Array.isArray(doc.passages) || doc.passages.length === 0) {
+        continue;
+      }
+
+      const pagesMap = await loadPagesMapping(bookId);
+
+      const enriched: Passage[] = doc.passages.map(p => {
+        const info = pagesMap.get(p.id) ?? { pdfPage: null, pages: [] };
+        const pageImages = info.pages.map(
+          n => `/textbook-pages/${bookId}/p${n}.jpg`,
+        );
+        if (pageImages.length > 0) passageWithImage++;
+        return {
+          id: p.id,
+          bookId,
+          unitNumber: p.unitNumber,
+          lessonNumber: p.lessonNumber,
+          title: p.title,
+          kind: p.kind,
+          author: p.author ?? null,
+          language: p.language,
+          pageHint: p.page_hint ?? null,
+          pdfPage: info.pdfPage,
+          pageImages,
+          sentences: p.sentences.map(s => {
+            const audio = audioFor(s);
+            if (audio) audioHit++;
+            totalSentences++;
+            return { text: s, audio };
+          }),
+        };
+      });
+
+      const bookDir = path.join(DATA_DST, "books", bookId);
+      await fs.mkdir(bookDir, { recursive: true });
+      const out: BookPassages = {
+        bookId,
+        subject: doc.subject,
+        textbook: doc.textbook,
+        passages: enriched,
+      };
+      await fs.writeFile(
+        path.join(bookDir, "passages.json"),
+        JSON.stringify(out, null, 2),
+        "utf-8",
+      );
+
+      withPassages.add(bookId);
+      totalBooks++;
+      totalPassages += enriched.length;
+    }
+  }
+
+  console.log(
+    `📖 课文听读: ${totalBooks} 本 / ${totalPassages} 篇 / ${totalSentences} 句 ` +
+      `(${audioHit} 句已生成 TTS, ${totalSentences - audioHit} 句待合成)`,
+  );
+  console.log(
+    `📕 课本原页: ${passageWithImage}/${totalPassages} 篇挂上了 pageImages`,
+  );
+  return withPassages;
 }
 
 // ============================================================
@@ -331,6 +494,9 @@ async function main() {
   const audio = await buildAudioIndex();
   console.log(`🔊 已索引 ${audio.size} 个 TTS 音频文件`);
 
+  // 构建课文听读（在教材处理之前跑一次，得到 bookId → 有无课文 的映射）
+  const booksWithPassages = await buildPassages();
+
   const books: Book[] = [];
   let totalLessons = 0;
   let totalQuestions = 0;
@@ -361,6 +527,9 @@ async function main() {
     for (const outlineFile of outlineFiles) {
       const result = await processTextbook(subject, outlineFile, outlineDir, quizDir);
       if (!result) continue;
+      if (booksWithPassages.has(result.book.id)) {
+        result.book.hasPassages = true;
+      }
       books.push(result.book);
       totalLessons += result.lessonCount;
       totalQuestions += result.questionCount;

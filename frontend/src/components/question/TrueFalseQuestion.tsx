@@ -7,12 +7,14 @@ import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
+import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 const TRUE_VALUES = new Set(["对", "正确", "true", "T", "✓", "√"]);
 
 export function TrueFalseQuestion({ question, answer, phase, isCorrect, onChange }: QuestionRendererProps) {
   const correctIsTrue = TRUE_VALUES.has(question.answer.trim());
+  const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
 
   const renderBtn = (label: "对" | "错", icon: React.ReactNode) => {
     const selected = answer === label;
@@ -31,6 +33,7 @@ export function TrueFalseQuestion({ question, answer, phase, isCorrect, onChange
         disabled={phase === "checked"}
         onClick={() => {
           if (phase !== "answering") return;
+          cancelNarrate();
           playSfx("tap");
           haptic("light");
           onChange(label);

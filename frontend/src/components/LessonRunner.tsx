@@ -15,8 +15,11 @@ import { useProgressTicker, formatMsCountdown } from "@/lib/useProgressTicker";
 import { HeartsBar } from "./HeartsBar";
 import { QuestionRenderer, type QuestionPhase } from "./question/QuestionRenderer";
 import { Mascot, type MascotReaction } from "./Mascot";
-import { MuteToggle, useSyncMute } from "./MuteToggle";
+import { MuteToggle, AutoNarrateToggle, useSyncMute } from "./MuteToggle";
 import { TTSButton } from "./TTSButton";
+import { useAutoNarrate } from "@/lib/useAutoNarrate";
+import { uiAudio } from "@/lib/uiAudio";
+import { playTTS } from "@/lib/tts";
 
 // 重型/条件渲染的子组件：按需加载以减小 LessonRunner 初始 chunk
 const FeedbackPanel = dynamic(
@@ -176,6 +179,9 @@ export function LessonRunner({ lesson }: LessonRunnerProps) {
     setComboOverlay({ combo: c, key: Date.now() });
     if (comboTimerRef.current) clearTimeout(comboTimerRef.current);
     comboTimerRef.current = setTimeout(() => setComboOverlay(null), 1400);
+    // 播放连击里程碑语音
+    const comboLabel = c === 3 ? "连击 三连!" : c === 5 ? "连击 五连!" : c === 10 ? "连击 十连!" : null;
+    if (comboLabel) void playTTS(uiAudio(comboLabel));
   }
 
   // 卸载时清计时器
@@ -400,6 +406,7 @@ export function LessonRunner({ lesson }: LessonRunnerProps) {
           </AnimatePresence>
 
           <HeartsBar total={MAX_HEARTS} remaining={hearts} />
+          <AutoNarrateToggle />
           <MuteToggle />
         </div>
       </div>
@@ -463,6 +470,7 @@ export function LessonRunner({ lesson }: LessonRunnerProps) {
         <FeedbackPanel
           isCorrect={isCorrect ?? false}
           explanation={current.explanation}
+          explanationAudio={current.audio?.explanation ?? null}
           onContinue={handleContinue}
         />
       )}
@@ -528,6 +536,10 @@ function CompletionScreen({
 
   useEffect(() => {
     playSfx("complete");
+    // 星星揭晓完毕后播"完成!"语音（延迟到动画尾声，不抢音效节奏）
+    const voiceTimer = setTimeout(() => {
+      void playTTS(uiAudio("完成!"));
+    }, 500 + 3 * 380 + 200);
     const t0 = setTimeout(() => setMascotReactKey(k => k + 1), 120);
     const starTimers: ReturnType<typeof setTimeout>[] = [];
     for (let i = 0; i < stars; i++) {
@@ -542,6 +554,7 @@ function CompletionScreen({
       starTimers.push(t);
     }
     return () => {
+      clearTimeout(voiceTimer);
       clearTimeout(t0);
       starTimers.forEach(clearTimeout);
     };
@@ -780,6 +793,12 @@ function IntroCard({
   const isLast = pageIdx >= pages.length - 1;
   const current = pages[pageIdx];
 
+  // 翻到某一页时：先播气泡短句（"一起学！"），再播主文本音频
+  const cancelNarrate = useAutoNarrate(
+    [uiAudio(current?.bubbleText ?? ""), current?.audioSrc],
+    pageIdx,
+  );
+
   // 进入每一页时：触发吉祥物反应动画 + 分层音效
   // 注意：依赖里只放 pageIdx，不能放 current（current 是 pages[pageIdx]，每次渲染都是新对象引用，会触发无限循环）
   useEffect(() => {
@@ -792,6 +811,7 @@ function IntroCard({
   }, [pageIdx]);
 
   function goNext() {
+    cancelNarrate();
     if (isLast) {
       // 最后一步：从"学"过渡到"练"，多层音效 + 强反馈
       playSfx("unlock");
@@ -811,6 +831,7 @@ function IntroCard({
 
   function goPrev() {
     if (pageIdx === 0) return;
+    cancelNarrate();
     playSfx("tap");
     haptic("light");
     setDirection(-1);

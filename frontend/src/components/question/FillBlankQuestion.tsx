@@ -6,6 +6,7 @@ import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
+import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 /**
@@ -23,9 +24,11 @@ const KEYPAD_ROWS: string[][] = [
 
 export function FillBlankQuestion({ question, answer, phase, isCorrect, onChange }: QuestionRendererProps) {
   const disabled = phase === "checked";
+  const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
 
   function handleKey(k: string) {
     if (disabled) return;
+    cancelNarrate();
     playSfx("tap");
     haptic("light");
     if (k === "⌫") {

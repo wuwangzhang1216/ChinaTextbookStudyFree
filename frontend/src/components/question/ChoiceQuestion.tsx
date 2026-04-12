@@ -7,6 +7,8 @@ import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
+import { playTTS } from "@/lib/tts";
+import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 interface Ripple {
@@ -34,8 +36,16 @@ export function ChoiceQuestion({ question, answer, phase, isCorrect, onChange }:
   const [ripples, setRipples] = useState<Record<string, Ripple[]>>({});
   const idRef = useRef(0);
 
+  // 自动朗读题干（只在进入该题时一次；点选项立即打断）
+  const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
+
   function handleTap(letter: string, e: React.MouseEvent<HTMLButtonElement>) {
     if (phase === "checked") return;
+    cancelNarrate();
+    // 选中选项时自动朗读该选项
+    const idx = letter.charCodeAt(0) - 65;
+    const optAudio = question.audio?.options?.[idx];
+    if (optAudio) void playTTS(optAudio);
     playSfx("tap");
     haptic("light");
     const rect = (e.currentTarget as HTMLElement).getBoundingClientRect();

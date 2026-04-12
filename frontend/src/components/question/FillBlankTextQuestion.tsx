@@ -2,16 +2,54 @@
 
 /**
  * 文字填空题：用于语文 / 英语 / 科学的术语填空。
- * 不像数学的 fill_blank（数字键盘），这里直接用系统输入法。
+ * 屏幕汉字键盘：把正确答案的字和干扰字打散，学生直接点字填写。
  *
  * 答案是 1-6 个汉字 / 1 个英文单词。
  */
 
+import { useMemo } from "react";
 import { motion } from "framer-motion";
 import { cn } from "@/lib/cn";
 import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
+import { playSfx } from "@/lib/sfx";
+import { haptic } from "@/lib/haptic";
+import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import type { QuestionRendererProps } from "./QuestionRenderer";
+
+/**
+ * 常用汉字池 —— 用于生成干扰项，涵盖小学低年级高频字。
+ */
+const DISTRACTOR_POOL =
+  "的一是了不人我在有他这中大来上个国到说们为子和你地出会也时要就可以对生能而着事前里所去行过家十用发天如然作方成者多日都三小军二无同么经法当起与好看学进种将还分此心前把把道文些将主实重新明体开它合已从提力此面理由她长角期将再想许让向又物被全书走给最便位加将些别几义路反条其化或接将片向才助战持区住四带运段切反确据形今指两打西再至张头走知活步往什";
+
+/** 简易伪随机 —— 基于 question id 做稳定 shuffle，每次渲染保持一致 */
+function seededShuffle<T>(arr: T[], seed: number): T[] {
+  const a = [...arr];
+  let s = seed;
+  for (let i = a.length - 1; i > 0; i--) {
+    s = (s * 16807 + 0) % 2147483647;
+    const j = s % (i + 1);
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/** 根据答案生成候选字列表（答案字 + 干扰字，打散） */
+function buildCandidates(answerStr: string, questionId: number): string[] {
+  const answerChars = [...new Set(answerStr.split(""))];
+  // 干扰字数量：至少让总数 >= 9，最多 12
+  const need = Math.max(9, answerChars.length + 4);
+  const distractorCount = need - answerChars.length;
+
+  const pool = DISTRACTOR_POOL.split("").filter(c => !answerChars.includes(c));
+  // 从池中选干扰字（用 seed 稳定）
+  const shuffledPool = seededShuffle(pool, questionId + 7);
+  const distractors = shuffledPool.slice(0, distractorCount);
+
+  const all = [...answerChars, ...distractors];
+  return seededShuffle(all, questionId);
+}
 
 export function FillBlankTextQuestion({
   question,
@@ -21,19 +59,42 @@ export function FillBlankTextQuestion({
   onChange,
 }: QuestionRendererProps) {
   const disabled = phase === "checked";
+  const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
 
-  let cls =
-    "w-full text-2xl font-extrabold text-center px-4 py-4 rounded-2xl border-2 outline-none transition-all";
+  const candidates = useMemo(
+    () => buildCandidates(question.answer, question.id),
+    [question.answer, question.id],
+  );
+
+  function handleKey(k: string) {
+    if (disabled) return;
+    cancelNarrate();
+    playSfx("tap");
+    haptic("light");
+    if (k === "⌫") {
+      onChange(answer.slice(0, -1));
+      return;
+    }
+    // 限制长度，防止误操作
+    if (answer.length >= 10) return;
+    onChange(answer + k);
+  }
+
+  let displayCls =
+    "w-full min-h-[68px] text-3xl font-extrabold text-center px-4 py-4 rounded-2xl border-2 flex items-center justify-center";
   if (disabled) {
-    cls = cn(
-      cls,
+    displayCls = cn(
+      displayCls,
       isCorrect
         ? "border-primary bg-primary/10 text-primary-dark"
         : "border-danger bg-danger/10 text-danger-dark",
     );
   } else {
-    cls = cn(cls, "border-bg-softer focus:border-secondary focus:shadow-glow text-ink bg-white");
+    displayCls = cn(displayCls, "border-secondary bg-white text-ink shadow-glow");
   }
+
+  // 键盘列数：候选字 <= 9 用 3 列，否则 4 列
+  const cols = candidates.length <= 9 ? 3 : 4;
 
   return (
     <div className="w-full">
@@ -44,23 +105,15 @@ export function FillBlankTextQuestion({
         <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
       </div>
 
-      <motion.input
-        type="text"
-        inputMode="text"
-        autoComplete="off"
-        autoCorrect="off"
-        autoCapitalize="off"
-        spellCheck={false}
-        value={answer}
-        disabled={disabled}
-        onChange={e => onChange(e.target.value)}
-        placeholder="在此输入答案"
-        className={cls}
-        autoFocus
+      {/* 答案显示区 */}
+      <motion.div
+        className={displayCls}
         initial={{ scale: 0.98, opacity: 0.6 }}
         animate={{ scale: 1, opacity: 1 }}
         transition={{ type: "spring", damping: 18, stiffness: 260 }}
-      />
+      >
+        {answer || <span className="text-ink-light/50 text-xl font-bold">点下方汉字作答</span>}
+      </motion.div>
 
       {phase === "checked" && !isCorrect && (
         <motion.div
@@ -72,6 +125,41 @@ export function FillBlankTextQuestion({
           <span className="font-extrabold text-primary-dark">{question.answer}</span>
         </motion.div>
       )}
+
+      {/* 汉字键盘 */}
+      <div
+        className="mt-6 grid gap-3 select-none"
+        style={{ gridTemplateColumns: `repeat(${cols}, 1fr)` }}
+      >
+        {candidates.map((ch, i) => (
+          <motion.button
+            key={`${ch}-${i}`}
+            type="button"
+            disabled={disabled}
+            onClick={() => handleKey(ch)}
+            whileTap={!disabled ? { scale: 0.92 } : undefined}
+            className={cn(
+              "h-14 rounded-2xl text-2xl font-extrabold bg-white border-2 border-bg-softer text-ink",
+              "active:bg-bg-soft disabled:opacity-50 disabled:cursor-not-allowed",
+            )}
+          >
+            {ch}
+          </motion.button>
+        ))}
+        {/* 退格键 */}
+        <motion.button
+          type="button"
+          disabled={disabled}
+          onClick={() => handleKey("⌫")}
+          whileTap={!disabled ? { scale: 0.92 } : undefined}
+          className={cn(
+            "h-14 rounded-2xl text-2xl font-extrabold bg-white border-2 border-bg-softer text-danger",
+            "active:bg-bg-soft disabled:opacity-50 disabled:cursor-not-allowed",
+          )}
+        >
+          ⌫
+        </motion.button>
+      </div>
     </div>
   );
 }

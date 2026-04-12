@@ -42,3 +42,32 @@ export function MuteToggle({ className }: MuteToggleProps) {
     </button>
   );
 }
+
+/**
+ * 自动朗读开关 —— 控制题干/知识卡/讲解是否自动播 TTS。
+ * 面向家长/大童：默认开；低龄从此免找喇叭。
+ */
+export function AutoNarrateToggle({ className }: MuteToggleProps) {
+  const autoNarrate = useProgressStore(s => s.autoNarrate);
+  const toggleAutoNarrate = useProgressStore(s => s.toggleAutoNarrate);
+
+  return (
+    <button
+      type="button"
+      aria-label={autoNarrate ? "关闭自动朗读" : "开启自动朗读"}
+      title={autoNarrate ? "自动朗读：开" : "自动朗读：关"}
+      onClick={() => {
+        toggleAutoNarrate();
+        playSfx("tap");
+      }}
+      className={`inline-flex items-center gap-1 px-2 h-7 rounded-full text-xs font-extrabold transition-colors ${
+        autoNarrate
+          ? "bg-primary/15 text-primary-dark hover:bg-primary/25"
+          : "bg-bg-soft text-ink-softer hover:bg-bg-softer"
+      } ${className ?? ""}`}
+    >
+      <Volume className="w-3.5 h-3.5" />
+      <span>自动</span>
+    </button>
+  );
+}

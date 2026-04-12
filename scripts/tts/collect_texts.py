@@ -12,7 +12,7 @@ profile 取自首次出现该文本的 (subject, grade) 组合。
     "generated_at": "...",
     "total_unique": N,
     "items": [
-      { "hash": "...", "text": "...", "audio_rel": "ab/abcd...mp3",
+      { "hash": "...", "text": "...", "audio_rel": "ab/abcd...opus",
         "language": "Chinese", "speaker": "Cherry",
         "instruction": "..." , "field": "question",
         "subject": "math", "grade": 1 }
@@ -31,6 +31,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "output"
+PASSAGES_DIR = ROOT / "data" / "passages"
 MANIFEST_PATH = Path(__file__).resolve().parent / "manifest.json"
 
 # ---------------------------------------------------------------------------
@@ -222,7 +223,7 @@ def collect():
                 seen[h] = {
                     "hash": h,
                     "text": text,
-                    "audio_rel": f"{h[:2]}/{h}.mp3",
+                    "audio_rel": f"{h[:2]}/{h}.opus",
                     "language": lang,
                     "speaker": speaker,
                     "instruction": instruction,
@@ -253,6 +254,81 @@ def collect():
                 push(ks.get("tips", ""), "kp_tips")
                 for cm in ks.get("common_mistakes") or []:
                     push(cm, "kp_mistake")
+
+    # ---------------------------------------------------------
+    # 课文原文（语文/英语）—— data/passages/{subject}/{bookId}.json
+    # 只收最终版（.json），不收草稿（.draft.json）
+    # ---------------------------------------------------------
+    if PASSAGES_DIR.exists():
+        for passages_file in sorted(PASSAGES_DIR.rglob("*.json")):
+            if passages_file.name.endswith(".draft.json"):
+                continue
+            try:
+                pdoc = json.loads(passages_file.read_text(encoding="utf-8"))
+            except Exception as e:
+                print(f"⚠️  解析 passages 失败 {passages_file.name}: {e}", file=sys.stderr)
+                continue
+
+            subject = pdoc.get("subject") or passages_file.parent.name
+            grade = pdoc.get("grade") or parse_grade(passages_file.stem) or 3
+
+            for passage in pdoc.get("passages") or []:
+                pid = passage.get("id", "")
+                plang = passage.get("language") or ("English" if subject == "english" else "Chinese")
+                # speaker 由课文数据直接指定（extract_passages.py 填好的）；
+                # 如缺失则走 pick_profile 兜底。
+                forced_speaker = passage.get("speaker")
+                sentences = passage.get("sentences") or []
+                for si, sentence in enumerate(sentences):
+                    text = normalize(sentence or "")
+                    if not is_speakable(text):
+                        continue
+                    h = text_hash(text)
+                    if forced_speaker:
+                        speaker = forced_speaker
+                        _, instruction = pick_profile(subject, grade, plang)
+                    else:
+                        speaker, instruction = pick_profile(subject, grade, plang)
+
+                    if h in seen:
+                        # 该文本已被 quiz 阶段收过（比如 "Hi, I'm Wu Binbin." 也出现在英语选项里）。
+                        # 课文句子在用户体验上**必须**被合成出来，而之前的 `field=option` 分类
+                        # 会让 `api_tts.py --field passage_sentence` 过滤器漏掉它。
+                        # 解决：覆盖该条 item 的 field 为 passage_sentence（优先级最高），
+                        # 同时顺手挂上 passage 定位信息。语音内容不会变，只是分类变。
+                        existing = seen[h]
+                        if existing.get("field") != "passage_sentence":
+                            stats["per_field"][existing["field"]] = (
+                                stats["per_field"].get(existing["field"], 1) - 1
+                            )
+                            existing["field"] = "passage_sentence"
+                            existing["speaker"] = speaker
+                            existing["instruction"] = instruction
+                            existing["language"] = plang
+                            existing["passage_id"] = pid
+                            existing["sentence_index"] = si
+                            stats["per_field"]["passage_sentence"] = (
+                                stats["per_field"].get("passage_sentence", 0) + 1
+                            )
+                        continue
+
+                    seen[h] = {
+                        "hash": h,
+                        "text": text,
+                        "audio_rel": f"{h[:2]}/{h}.opus",
+                        "language": plang,
+                        "speaker": speaker,
+                        "instruction": instruction,
+                        "field": "passage_sentence",
+                        "subject": subject,
+                        "grade": grade,
+                        "passage_id": pid,
+                        "sentence_index": si,
+                    }
+                    stats["per_subject"][subject] = stats["per_subject"].get(subject, 0) + 1
+                    stats["per_field"]["passage_sentence"] = (
+                        stats["per_field"].get("passage_sentence", 0) + 1
+                    )
 
     items = list(seen.values())
     manifest = {

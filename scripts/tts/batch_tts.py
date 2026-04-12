@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 batch_tts.py — 消费 manifest.json，把每条文本合成 mp3 写入
-frontend/public/audio/<hash[:2]>/<hash>.mp3。
+frontend/public/audio/<hash[:2]>/<hash>.opus。
 
 支持:
   - 断点续跑（已存在的 mp3 自动跳过）
@@ -114,6 +114,8 @@ def main():
                         help="本次进程最多跑 N 条后退出（供外层循环防止 MPS 泄漏）")
     parser.add_argument("--subject", default="", help="只跑指定学科")
     parser.add_argument("--field", default="", help="只跑指定字段（question/option/...）")
+    parser.add_argument("--batch-size", type=int, default=1,
+                        help="一次推理多少条，>1 时走批量模式（显著提速）")
     parser.add_argument("--dry-run", action="store_true", help="不真的合成，只统计")
     args = parser.parse_args()
 
@@ -174,39 +176,71 @@ def main():
             except Exception:
                 pass
 
-    for idx, item in enumerate(pending, 1):
-        text = item["text"]
-        out_path = audio_root / item["audio_rel"]
+    def run_one(item):
+        """单条推理（用于 batch 失败回退）"""
+        with torch.inference_mode():
+            wavs, sr = model.generate_custom_voice(
+                text=item["text"],
+                language=item["language"],
+                speaker=item["speaker"],
+                instruct=item["instruction"],
+            )
+        write_mp3(audio_root / item["audio_rel"], wavs[0], sr)
+        del wavs
+
+    def run_batch(batch):
+        """批量推理一组 items"""
+        with torch.inference_mode():
+            wavs, sr = model.generate_custom_voice(
+                text=[it["text"] for it in batch],
+                language=[it["language"] for it in batch],
+                speaker=[it["speaker"] for it in batch],
+                instruct=[it["instruction"] for it in batch],
+            )
+        for it, wav in zip(batch, wavs):
+            write_mp3(audio_root / it["audio_rel"], wav, sr)
+        del wavs
+
+    bs = max(1, args.batch_size)
+    idx = 0
+    i = 0
+    while i < total:
+        batch = pending[i : i + bs]
+        i += len(batch)
         try:
-            with torch.inference_mode():
-                wavs, sr = model.generate_custom_voice(
-                    text=text,
-                    language=item["language"],
-                    speaker=item["speaker"],
-                    instruct=item["instruction"],
-                )
-            write_mp3(out_path, wavs[0], sr)
-            del wavs
+            if len(batch) == 1:
+                run_one(batch[0])
+            else:
+                run_batch(batch)
+            idx += len(batch)
         except KeyboardInterrupt:
             print("\n🛑 中断 — 已生成的文件保留，下次重跑会续传")
             raise
         except Exception as e:
-            fail += 1
-            print(f"  ⚠️  [{idx}/{total}] {item['hash'][:8]} 失败: {e}")
+            print(f"  ⚠️  batch of {len(batch)} failed: {e} — 回退逐条重试")
             cleanup()
-            continue
+            for it in batch:
+                try:
+                    run_one(it)
+                    idx += 1
+                except KeyboardInterrupt:
+                    raise
+                except Exception as e2:
+                    fail += 1
+                    print(f"    ⚠️  {it['hash'][:8]} 失败: {e2}")
+                cleanup()
 
-        # 每条都清，防止 MPS 显存累积
         cleanup()
 
-        if idx % 20 == 0 or idx == total:
-            elapsed = time.time() - t0
-            rate = idx / elapsed if elapsed else 0
-            eta = (total - idx) / rate if rate else 0
-            print(
-                f"  [{idx:>5}/{total}] {rate:5.2f} item/s   "
-                f"ETA {eta/60:6.1f} min   fail={fail}   {item['subject']:7s} {item['field']:11s}"
-            )
+        elapsed = time.time() - t0
+        rate = idx / elapsed if elapsed else 0
+        eta = (total - idx) / rate if rate else 0
+        last = batch[-1]
+        print(
+            f"  [{idx:>5}/{total}] bs={len(batch)} {rate:5.2f} item/s   "
+            f"ETA {eta/60:6.1f} min   fail={fail}   {last['subject']:7s} {last['field']:11s}",
+            flush=True,
+        )
 
     print(f"\n🎉 完成。生成 {total - fail} 条，失败 {fail} 条，"
           f"总耗时 {(time.time()-t0)/60:.1f} min")

@@ -4,19 +4,23 @@ import { useMemo } from "react";
 import { motion } from "framer-motion";
 import { CheckCircle, XCircle } from "@/components/icons";
 import { MathText } from "@/components/MathText";
+import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
+import { useAutoNarrate } from "@/lib/useAutoNarrate";
+import { uiAudio } from "@/lib/uiAudio";
 
 interface FeedbackPanelProps {
   isCorrect: boolean;
   explanation: string;
+  explanationAudio?: string | null;
   onContinue: () => void;
 }
 
 const PRAISE_POOL = ["太棒了！", "完美！", "做得好！", "天才！", "继续保持！", "漂亮！"];
 const COMFORT_POOL = ["再想想", "差一点", "加油", "没关系", "下次就对！"];
 
-export function FeedbackPanel({ isCorrect, explanation, onContinue }: FeedbackPanelProps) {
+export function FeedbackPanel({ isCorrect, explanation, explanationAudio, onContinue }: FeedbackPanelProps) {
   const bg = isCorrect ? "bg-primary/10 border-primary" : "bg-danger/10 border-danger";
   const titleColor = isCorrect ? "text-primary-dark" : "text-danger-dark";
   const btnCls = isCorrect ? "btn-chunky-primary" : "btn-chunky-danger";
@@ -25,6 +29,9 @@ export function FeedbackPanel({ isCorrect, explanation, onContinue }: FeedbackPa
     const pool = isCorrect ? PRAISE_POOL : COMFORT_POOL;
     return pool[Math.floor(Math.random() * pool.length)];
   }, [isCorrect]);
+
+  // 面板出现：只播标题语音（"太棒了！" / "再想想"），讲解保留手动喇叭
+  useAutoNarrate([uiAudio(title)], explanation);
 
   return (
     <motion.div
@@ -56,9 +63,14 @@ export function FeedbackPanel({ isCorrect, explanation, onContinue }: FeedbackPa
           initial={{ y: 6, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 0.1 }}
-          className="text-ink text-base leading-relaxed mb-4"
+          className="flex items-start gap-2 text-ink text-base leading-relaxed mb-4"
         >
-          <MathText text={explanation} />
+          <div className="flex-1">
+            <MathText text={explanation} />
+          </div>
+          {explanationAudio && (
+            <TTSButton src={explanationAudio} size="sm" label="重听讲解" className="mt-0.5" />
+          )}
         </motion.div>
         <button
           onClick={() => {

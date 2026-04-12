@@ -20,6 +20,8 @@ import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
+import { playTTS } from "@/lib/tts";
+import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
 export function WordOrderQuestion({
@@ -31,6 +33,7 @@ export function WordOrderQuestion({
 }: QuestionRendererProps) {
   const disabled = phase === "checked";
   const options = question.options ?? [];
+  const cancelNarrate = useAutoNarrate([question.audio?.question], question.id);
 
   // 已选索引列表（指向 options 中的 index）
   const [picked, setPicked] = useState<number[]>([]);
@@ -47,11 +50,19 @@ export function WordOrderQuestion({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [picked]);
 
+  /** 播放第 i 个选项的 TTS */
+  function playOptionAudio(i: number) {
+    const src = question.audio?.options?.[i];
+    if (src) playTTS(src);
+  }
+
   function pick(i: number) {
     if (disabled) return;
     if (picked.includes(i)) return;
+    cancelNarrate();
     playSfx("tap");
     haptic("light");
+    playOptionAudio(i);
     setPicked(p => [...p, i]);
   }
 
@@ -59,6 +70,7 @@ export function WordOrderQuestion({
     if (disabled) return;
     playSfx("tap");
     haptic("light");
+    playOptionAudio(i);
     setPicked(p => p.filter(x => x !== i));
   }
 

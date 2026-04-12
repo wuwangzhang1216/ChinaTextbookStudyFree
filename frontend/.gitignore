@@ -2,7 +2,10 @@ node_modules/
 .next/
 out/
 *.log
+*.tsbuildinfo
 .DS_Store
 .env*.local
+next-env.d.ts
+*.report.json
 public/data/
 public/textbook-pages/

@@ -1,0 +1,706 @@
+{
+  "bookId": "english-g4down",
+  "subject": "english",
+  "textbook": "英语四年级下册",
+  "grade": 4,
+  "stories": [
+    {
+      "id": "english-g4down-s1",
+      "unitNumber": 1,
+      "unitTitle": "My school",
+      "storyIndex": 1,
+      "title": "Welcome to Our School",
+      "language": "English",
+      "sentences": [
+        "Welcome to our school.",
+        "It is big and beautiful.",
+        "Look, this is the teachers' office.",
+        "It is on the first floor.",
+        "The library is next to the teachers' office.",
+        "Do you have an art room?",
+        "Yes, we do.",
+        "It is on the second floor.",
+        "We like our school very much."
+      ],
+      "vocabulary_used": [
+        "teachers' office",
+        "first floor",
+        "library",
+        "next to",
+        "art room",
+        "second floor"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The teachers' office is on the second floor.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says the teachers' office is on the first floor."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Where is the library?",
+          "options": [
+            "It is on the playground.",
+            "It is next to the art room.",
+            "It is next to the teachers' office.",
+            "It is in the garden."
+          ],
+          "answer": "It is next to the teachers' office.",
+          "explanation": "The sentence states: 'The library is next to the teachers' office.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "The art room is on the ________ floor.",
+          "options": [],
+          "answer": "second",
+          "explanation": "The story says the art room is on the second floor."
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s2",
+      "unitNumber": 1,
+      "unitTitle": "My school",
+      "storyIndex": 2,
+      "title": "John's Busy Day",
+      "language": "English",
+      "sentences": [
+        "Today is Monday.",
+        "John is at the playground.",
+        "He plays with his sister.",
+        "Where is the computer room?",
+        "Is it next to the library?",
+        "No, it isn't.",
+        "It is on the second floor.",
+        "It is time for computer class.",
+        "John runs to the room."
+      ],
+      "vocabulary_used": [
+        "playground",
+        "sister",
+        "computer room",
+        "next to",
+        "library",
+        "second floor"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "John is with his sister at the playground.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says 'He plays with his sister' at the playground."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What class does John have?",
+          "options": [
+            "Art class",
+            "English class",
+            "Computer class",
+            "Music class"
+          ],
+          "answer": "Computer class",
+          "explanation": "The story mentions 'It is time for computer class.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "The computer room is on the ________ floor.",
+          "options": [],
+          "answer": "second",
+          "explanation": "The text states the computer room is on the second floor."
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s3",
+      "unitNumber": 2,
+      "unitTitle": "What time is it?",
+      "storyIndex": 1,
+      "title": "A Busy Morning for Zip",
+      "language": "English",
+      "sentences": [
+        "Wake up, Zip! It's 7:00 a.m. now.",
+        "It's time to get up and have breakfast.",
+        "The milk is hot and the bread is good.",
+        "What time is it now? It is 7:30 a.m.",
+        "It's time for school. Zip goes to school by bike.",
+        "At 8:00, it's time for English class.",
+        "Zip reads a book and speaks English with Zoom.",
+        "They are very happy at school today."
+      ],
+      "vocabulary_used": [
+        "get up",
+        "breakfast",
+        "What time is it?",
+        "It's time for",
+        "It's time to",
+        "English class",
+        "o'clock"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Zip gets up at 7:00 a.m.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says 'It's 7:00 a.m. now. It's time to get up'."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does Zip do at 8:00?",
+          "options": [
+            "He has breakfast.",
+            "He has English class.",
+            "He goes to bed.",
+            "He plays football."
+          ],
+          "answer": "He has English class.",
+          "explanation": "The text states 'At 8:00, it's time for English class'."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Zip goes to school by ______.",
+          "options": [],
+          "answer": "bike",
+          "explanation": "The text says 'Zip goes to school by bike'."
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s4",
+      "unitNumber": 2,
+      "unitTitle": "What time is it?",
+      "storyIndex": 2,
+      "title": "Mike's Late Lunch",
+      "language": "English",
+      "sentences": [
+        "Mike is at home on Saturday morning.",
+        "He plays with his toy car in the room.",
+        "What time is it? It is 12:00 o'clock.",
+        "Oh! It is time for lunch.",
+        "But Mike is not hungry. He wants to play.",
+        "At 3:00 p.m., Mike feels very hungry.",
+        "Now it is time to eat some noodles.",
+        "He eats and drinks some orange juice.",
+        "Time to go to the playground now!"
+      ],
+      "vocabulary_used": [
+        "What time is it?",
+        "o'clock",
+        "It's time for",
+        "It's time to",
+        "lunch"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "It is time for lunch at 12:00 o'clock.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says at 12:00 it is time for lunch."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What is Mike doing at 12:00?",
+          "options": [
+            "He is eating noodles.",
+            "He is going to school.",
+            "He is playing with a toy car.",
+            "He is sleeping."
+          ],
+          "answer": "He is playing with a toy car.",
+          "explanation": "The story says he plays with his toy car and then checks the time at 12:00."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "At 3:00 p.m., Mike eats some ______.",
+          "options": [],
+          "answer": "noodles",
+          "explanation": "The text states 'Now it is time to eat some noodles'."
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s5",
+      "unitNumber": 3,
+      "unitTitle": "Weather",
+      "storyIndex": 1,
+      "title": "Sam's Dilemma",
+      "language": "English",
+      "sentences": [
+        "It is seven o'clock in the morning.",
+        "Sam looks at the window.",
+        "It is cloudy and windy today.",
+        "\"Mum, can I go outside?\" Sam asks.",
+        "\"No, you can't,\" Mum says.",
+        "\"Wait, look! Now it is rainy.\"",
+        "Sam is sad.",
+        "He can't play football in the park.",
+        "He stays home and reads a book."
+      ],
+      "vocabulary_used": [
+        "cloudy",
+        "windy",
+        "can I go outside",
+        "No, you can't",
+        "rainy"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The weather is sunny in the morning.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says it is cloudy and windy, and later it becomes rainy."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What is the weather like when Mum says 'no'?",
+          "options": [
+            "It is snowy.",
+            "It is rainy.",
+            "It is hot.",
+            "It is warm."
+          ],
+          "answer": "It is rainy.",
+          "explanation": "Mum points out that now it is rainy, so Sam cannot go outside."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Sam wants to play ______ in the park.",
+          "options": [],
+          "answer": "football",
+          "explanation": "The story mentions Sam cannot play football due to the rain."
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s6",
+      "unitNumber": 3,
+      "unitTitle": "Weather",
+      "storyIndex": 2,
+      "title": "A Phone Call to Grandpa",
+      "language": "English",
+      "sentences": [
+        "Chen Jie calls her grandpa in Harbin.",
+        "\"Hi Grandpa! What's the weather like in Harbin?\"",
+        "\"It is snowy and very cold here,\" says Grandpa.",
+        "\"Oh! In Shenzhen, it is sunny and warm.\"",
+        "Chen Jie wants to go outside and swim.",
+        "\"Can I swim today, Mum?\" she asks.",
+        "\"Yes, you can,\" says her mum.",
+        "Chen Jie is very happy."
+      ],
+      "vocabulary_used": [
+        "What's the weather like",
+        "snowy",
+        "cold",
+        "sunny",
+        "warm",
+        "Yes, you can"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "choice",
+          "question": "Where is Grandpa now?",
+          "options": [
+            "In Shenzhen",
+            "In Beijing",
+            "In Harbin",
+            "In London"
+          ],
+          "answer": "In Harbin",
+          "explanation": "The first sentence states Chen Jie calls her grandpa in Harbin."
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "Chen Jie can go swimming today.",
+          "options": [],
+          "answer": "True",
+          "explanation": "Her mum says 'Yes, you can' because it is sunny and warm in Shenzhen."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "The weather in Harbin is ______ and very cold.",
+          "options": [],
+          "answer": "snowy",
+          "explanation": "Grandpa describes the weather in Harbin as snowy and cold."
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s7",
+      "unitNumber": 4,
+      "unitTitle": "At the farm",
+      "storyIndex": 1,
+      "title": "Old Macdonald's Magic Garden",
+      "language": "English",
+      "sentences": [
+        "Welcome to my big farm.",
+        "Look at these big red tomatoes.",
+        "They are so fresh.",
+        "What are those over there?",
+        "They are potatoes under the tall grass.",
+        "The potatoes are small and brown.",
+        "Are these apples or oranges?",
+        "No, they are big yellow carrots.",
+        "How many carrots do you have?",
+        "I have fifteen carrots today."
+      ],
+      "vocabulary_used": [
+        "tomatoes",
+        "these",
+        "those",
+        "potatoes",
+        "carrots",
+        "How many"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The tomatoes on the farm are red.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says 'Look at these big red tomatoes'."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What color are the potatoes?",
+          "options": [
+            "They are red.",
+            "They are yellow.",
+            "They are small and brown.",
+            "They are green."
+          ],
+          "answer": "They are small and brown.",
+          "explanation": "The text states 'The potatoes are small and brown.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "How many carrots are there on the farm today?",
+          "options": [],
+          "answer": "fifteen",
+          "explanation": "The speaker says 'I have fifteen carrots today.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s8",
+      "unitNumber": 4,
+      "unitTitle": "At the farm",
+      "storyIndex": 2,
+      "title": "A Busy Day with Animals",
+      "language": "English",
+      "sentences": [
+        "It is a sunny day at the farm.",
+        "I see many animals near the park.",
+        "Look at these horses.",
+        "They are very tall and strong.",
+        "Are those sheep over there?",
+        "Yes, they are.",
+        "How many cows do you see?",
+        "I see twenty cows.",
+        "The cows like eating green grass.",
+        "The farm is so much fun."
+      ],
+      "vocabulary_used": [
+        "horses",
+        "these",
+        "those",
+        "sheep",
+        "How many",
+        "cows"
+      ],
+      "questions": [
+        {
+          "id": 4,
+          "type": "true_false",
+          "question": "The narrator sees ten cows.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says 'I see twenty cows', not ten."
+        },
+        {
+          "id": 5,
+          "type": "choice",
+          "question": "What do the cows like to do?",
+          "options": [
+            "They like eating red tomatoes.",
+            "They like eating green grass.",
+            "They like running with horses.",
+            "They like sleeping in the park."
+          ],
+          "answer": "They like eating green grass.",
+          "explanation": "The text says 'The cows like eating green grass.'"
+        },
+        {
+          "id": 6,
+          "type": "fill_blank_text",
+          "question": "The horses are tall and ________.",
+          "options": [],
+          "answer": "strong",
+          "explanation": "The story describes the horses as 'tall and strong'."
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s9",
+      "unitNumber": 5,
+      "unitTitle": "My clothes",
+      "storyIndex": 1,
+      "title": "A Busy Morning",
+      "language": "English",
+      "sentences": [
+        "It is seven o'clock.",
+        "Amy wants to go to the park.",
+        "She puts on her red dress.",
+        "But she cannot find her hat.",
+        "She sees a blue hat on the bed.",
+        "She asks her brother, \"Is this yours?\"",
+        "Sam says, \"No, it is not mine.\"",
+        "It is Mum's hat.",
+        "Amy puts the blue hat on the desk.",
+        "Finally, she finds her yellow hat under the chair."
+      ],
+      "vocabulary_used": [
+        "dress",
+        "hat",
+        "puts on",
+        "yours",
+        "mine",
+        "Is this yours?"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Amy wants to go to school.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says Amy wants to go to the park, not school."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Whose hat is the blue one?",
+          "options": [
+            "It is Amy's.",
+            "It is Sam's.",
+            "It is Mum's.",
+            "It is Dad's."
+          ],
+          "answer": "It is Mum's.",
+          "explanation": "The text states 'It is Mum's hat' when referring to the blue hat."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Amy finds her yellow hat under the _______.",
+          "options": [],
+          "answer": "chair",
+          "explanation": "The final sentence says she finds her hat under the chair."
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s10",
+      "unitNumber": 5,
+      "unitTitle": "My clothes",
+      "storyIndex": 2,
+      "title": "Clean Identity",
+      "language": "English",
+      "sentences": [
+        "The clothes are clean now.",
+        "Mike helps his mother hang up the clothes.",
+        "\"Whose pants are these?\" Mike asks.",
+        "They are very long.",
+        "They are his father's pants.",
+        "Then he sees some small socks.",
+        "\"Are these yours, Sarah?\" Mike asks his sister.",
+        "\"Yes, they are mine,\" says Sarah.",
+        "Sarah likes her white socks.",
+        "Now the clothes are all on the line."
+      ],
+      "vocabulary_used": [
+        "pants",
+        "socks",
+        "hang up",
+        "Whose pants are these?",
+        "mine",
+        "yours"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The pants are very short.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says the pants are very long because they are his father's."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What is Mike doing?",
+          "options": [
+            "He is washing clothes.",
+            "He is hanging up clothes.",
+            "He is buying clothes.",
+            "He is wearing a skirt."
+          ],
+          "answer": "He is hanging up clothes.",
+          "explanation": "The text says 'Mike helps his mother hang up the clothes'."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "The socks are ________.",
+          "options": [],
+          "answer": "white",
+          "explanation": "The text mentions 'Sarah likes her white socks'."
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s11",
+      "unitNumber": 6,
+      "unitTitle": "Shopping",
+      "storyIndex": 1,
+      "title": "A New Hat for Little Rabbit",
+      "language": "English",
+      "sentences": [
+        "Little Rabbit goes to the clothes shop with her mother.",
+        "She sees a pretty hat on the table.",
+        "It is pink and it has a little apple on it.",
+        "\"How much is this hat?\" asks Little Rabbit.",
+        "\"It is fifteen yuan,\" says the people in the shop.",
+        "That is very cheap!",
+        "Little Rabbit puts the hat on her head.",
+        "It is not too big or too small.",
+        "It is just right for the party."
+      ],
+      "vocabulary_used": [
+        "pretty",
+        "How much is this",
+        "table",
+        "apple",
+        "cheap",
+        "too big",
+        "just right",
+        "people"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The pretty hat has a little apple on it.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says 'it has a little apple on it'."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "How much is the hat?",
+          "options": [
+            "Five yuan",
+            "Fifty yuan",
+            "Fifteen yuan",
+            "Five hundred yuan"
+          ],
+          "answer": "Fifteen yuan",
+          "explanation": "The text states the hat is fifteen yuan."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "The hat is not too big or too small, it is ________.",
+          "options": [],
+          "answer": "just right",
+          "explanation": "The text mentions 'It is just right for the party'."
+        }
+      ]
+    },
+    {
+      "id": "english-g4down-s12",
+      "unitNumber": 6,
+      "unitTitle": "Shopping",
+      "storyIndex": 2,
+      "title": "Shopping for New Shoes",
+      "language": "English",
+      "sentences": [
+        "Zhang Peng wants to buy a pair of cool shoes.",
+        "He sees some blue shoes in the window.",
+        "\"How much are those shoes?\" asks Zhang Peng.",
+        "They are ninety-nine yuan.",
+        "\"Oh, they are too expensive!\" says Zhang Peng.",
+        "Then he finds some black shoes on a small table.",
+        "They are only thirty yuan.",
+        "They are cheap and they look nice.",
+        "The people in the shop help him try them on."
+      ],
+      "vocabulary_used": [
+        "How much are those",
+        "expensive",
+        "cheap",
+        "table",
+        "people"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The blue shoes are very cheap.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The blue shoes are ninety-nine yuan and Zhang Peng says they are too expensive."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Where does Zhang Peng find the black shoes?",
+          "options": [
+            "On a chair",
+            "On a small table",
+            "In the window",
+            "Under the bed"
+          ],
+          "answer": "On a small table",
+          "explanation": "The story says he finds some black shoes on a small table."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Zhang Peng wants to buy a pair of ________.",
+          "options": [],
+          "answer": "cool shoes",
+          "explanation": "The first sentence says he wants to buy a pair of cool shoes."
+        }
+      ]
+    }
+  ]
+}

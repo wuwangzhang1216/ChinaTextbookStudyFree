@@ -12,8 +12,8 @@ const nunito = Nunito({
 });
 
 export const metadata: Metadata = {
-  title: "中国小学免费学 · 数学",
-  description: "免费、有趣、有内容的小学数学AI学习平台",
+  title: "小猫头鹰课堂",
+  description: "全科免费，人人可学的小学AI学习平台",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

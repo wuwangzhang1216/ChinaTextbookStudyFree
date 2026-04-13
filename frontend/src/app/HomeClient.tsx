@@ -63,7 +63,7 @@ export function HomeClient({ grades, byGrade, totalBooks, totalLessons, totalQue
         <Mascot mood="wave" size={64} />
         <div className="flex-1 min-w-0">
           <h1 className="text-xl font-extrabold text-primary leading-tight truncate">
-            中国小学免费学
+            小猫头鹰课堂
           </h1>
           <p className="text-[11px] text-ink-light mt-1 leading-tight">
             {totalBooks} 本教材 · {totalLessons} 节课 · {totalQuestions} 道题
@@ -84,10 +84,10 @@ export function HomeClient({ grades, byGrade, totalBooks, totalLessons, totalQue
         <Mascot mood="wave" size={160} />
         <div className="flex-1 text-left">
           <h1 className="text-6xl font-extrabold text-primary leading-tight tracking-tight">
-            中国小学免费学
+            小猫头鹰课堂
           </h1>
           <p className="text-xl text-ink-light mt-3 font-semibold">
-            免费 · 有趣 · 有内容 · 数学
+            全科免费，人人可学
           </p>
           <p className="text-sm text-ink-softer mt-3">
             共 {totalBooks} 本教材 · {totalLessons} 节小课 · {totalQuestions} 道题
@@ -196,8 +196,9 @@ export function HomeClient({ grades, byGrade, totalBooks, totalLessons, totalQue
       </div>
 
       {/* Footer */}
-      <p className="mt-12 text-xs text-ink-softer text-center max-w-md">
-        本平台所有题目和讲解均由 AI 基于人教版小学数学教材生成，免费开源。
+      <p className="mt-12 text-xs text-ink-softer text-center max-w-md leading-relaxed">
+        我们相信每个孩子都值得快乐地学习，不该因为经济条件而失去机会。<br/>
+        小猫头鹰课堂永久免费、开源，愿每一位小学生都能无负担地成长。
       </p>
     </main>
   );

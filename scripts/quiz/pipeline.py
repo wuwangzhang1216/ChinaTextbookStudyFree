@@ -30,8 +30,11 @@ from pathlib import Path
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from openai import OpenAI
 
+# 项目根目录
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+
 # 加载 .env 文件中的环境变量
-_env_path = Path(__file__).parent / ".env"
+_env_path = PROJECT_ROOT / ".env"
 if _env_path.exists():
     for _line in _env_path.read_text(encoding="utf-8").splitlines():
         _line = _line.strip()
@@ -82,7 +85,7 @@ EXTRA_HEADERS = {
 
 GITHUB_RAW_BASE = "https://raw.githubusercontent.com/TapXWorld/ChinaTextbook/master"
 
-OUTPUT_DIR = Path("output")
+OUTPUT_DIR = PROJECT_ROOT / "output"
 
 
 # ============================================================

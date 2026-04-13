@@ -1,0 +1,697 @@
+{
+  "bookId": "english-g4up",
+  "subject": "english",
+  "textbook": "英语四年级上册",
+  "grade": 4,
+  "stories": [
+    {
+      "id": "english-g4up-s1",
+      "unitNumber": 1,
+      "unitTitle": "My classroom",
+      "storyIndex": 1,
+      "title": "A New Classroom",
+      "language": "English",
+      "sentences": [
+        "We have a new classroom.",
+        "It is very big and clean.",
+        "Look! This is my new desk.",
+        "Where is my schoolbag?",
+        "It is under the desk.",
+        "A picture is on the wall.",
+        "The window is near the computer.",
+        "Let's clean the classroom together.",
+        "I clean the blackboard."
+      ],
+      "vocabulary_used": [
+        "classroom",
+        "desk",
+        "Where is",
+        "under",
+        "picture",
+        "window",
+        "near",
+        "blackboard"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The new classroom is small and dirty.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says the classroom is big and clean."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Where is the schoolbag?",
+          "options": [
+            "On the desk",
+            "Under the desk",
+            "Near the window",
+            "On the wall"
+          ],
+          "answer": "Under the desk",
+          "explanation": "The text states 'It is under the desk' referring to the schoolbag."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "What is on the wall?",
+          "options": [],
+          "answer": "A picture",
+          "explanation": "The story mentions 'A picture is on the wall.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s2",
+      "unitNumber": 1,
+      "unitTitle": "My classroom",
+      "storyIndex": 2,
+      "title": "Clean the Classroom",
+      "language": "English",
+      "sentences": [
+        "Today is Monday.",
+        "Zhang Peng and Mike clean the classroom.",
+        "Open the door, please.",
+        "Turn on the light.",
+        "The classroom is bright now.",
+        "Mike, please clean the windows.",
+        "Look at the kite on the wall.",
+        "It has a big face and a long tail.",
+        "We like our classroom very much."
+      ],
+      "vocabulary_used": [
+        "clean",
+        "classroom",
+        "Open the door",
+        "Turn on the light",
+        "windows",
+        "face"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Mike and Zhang Peng clean the classroom on Monday.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story starts by saying it's Monday and they are cleaning."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does Zhang Peng want Mike to do?",
+          "options": [
+            "Open the door",
+            "Turn on the light",
+            "Clean the windows",
+            "Clean the blackboard"
+          ],
+          "answer": "Clean the windows",
+          "explanation": "The text says 'Mike, please clean the windows.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "What is on the wall?",
+          "options": [],
+          "answer": "the kite",
+          "explanation": "The story says 'Look at the kite on the wall.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s3",
+      "unitNumber": 2,
+      "unitTitle": "My schoolbag",
+      "storyIndex": 1,
+      "title": "Mike’s Heavy Schoolbag",
+      "language": "English",
+      "sentences": [
+        "Mike has a new blue schoolbag.",
+        "It is very heavy today.",
+        "What is in his schoolbag?",
+        "He has an English book and a maths book.",
+        "He has three storybooks and a candy.",
+        "Oh, look! There is a cute toy panda too.",
+        "Mike likes the panda very much.",
+        "The panda makes his bag heavy but fun."
+      ],
+      "vocabulary_used": [
+        "schoolbag",
+        "English book",
+        "maths book",
+        "storybooks",
+        "heavy",
+        "What is in"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Mike has a new green schoolbag.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says Mike has a new blue schoolbag, not green."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "How many books are in Mike's schoolbag in total?",
+          "options": [
+            "Two books",
+            "Three books",
+            "Four books",
+            "Five books"
+          ],
+          "answer": "Five books",
+          "explanation": "He has one English book, one maths book, and three storybooks (1+1+3=5)."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "There is a cute _____ _____ in his bag.",
+          "options": [],
+          "answer": "toy panda",
+          "explanation": "The text mentions there is a cute toy panda in the bag."
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s4",
+      "unitNumber": 2,
+      "unitTitle": "My schoolbag",
+      "storyIndex": 2,
+      "title": "A Surprise in the Bag",
+      "language": "English",
+      "sentences": [
+        "Chen Jie likes her big schoolbag.",
+        "She puts a Chinese book in it.",
+        "She has a white kite in the bag.",
+        "Wait! Something is moving in the bag.",
+        "It is her little cat, Mimi.",
+        "Mimi is thin and likes the bag.",
+        "Chen Jie takes Mimi out quickly.",
+        "The schoolbag is for books, not for cats!"
+      ],
+      "vocabulary_used": [
+        "schoolbag",
+        "Chinese book",
+        "likes",
+        "kite",
+        "thin"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Chen Jie finds a cat in her schoolbag.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says Mimi, her little cat, is in the bag."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Which word in the story has the same 'i' sound as 'like' (long i)?",
+          "options": [
+            "kite",
+            "big",
+            "thin",
+            "is"
+          ],
+          "answer": "kite",
+          "explanation": "'Kite' and 'like' both have the long /aɪ/ sound, while the others have the short /ɪ/ sound."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "What kind of book does Chen Jie put in her bag?",
+          "options": [],
+          "answer": "Chinese book",
+          "explanation": "The second sentence says she puts a Chinese book in it."
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s5",
+      "unitNumber": 3,
+      "unitTitle": "My friends",
+      "storyIndex": 1,
+      "title": "A New Friend",
+      "language": "English",
+      "sentences": [
+        "I have a new friend in my class.",
+        "He is tall and strong.",
+        "He has short hair and big eyes.",
+        "He has blue glasses on his nose.",
+        "Is he friendly? Yes, he is.",
+        "Who's he? He is my friend, Zhang Peng.",
+        "We like to play together after school."
+      ],
+      "vocabulary_used": [
+        "tall",
+        "strong",
+        "glasses",
+        "nose",
+        "friendly",
+        "Who's he"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The new friend has long hair.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says 'He has short hair'."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What is on Zhang Peng's nose?",
+          "options": [
+            "blue glasses",
+            "a small hat",
+            "a red note",
+            "blue eyes"
+          ],
+          "answer": "blue glasses",
+          "explanation": "The text states 'He has blue glasses on his nose.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Zhang Peng is ______ and strong.",
+          "options": [],
+          "answer": "tall",
+          "explanation": "The story describes him as 'tall and strong'."
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s6",
+      "unitNumber": 3,
+      "unitTitle": "My friends",
+      "storyIndex": 2,
+      "title": "My Quiet Friend",
+      "language": "English",
+      "sentences": [
+        "Look at this girl in the picture.",
+        "She is my good friend, Chen Jie.",
+        "She is thin and quiet.",
+        "She has long hair and a small nose.",
+        "She has a cute hat on her head.",
+        "She likes to write a note in her book.",
+        "I like my friend very much."
+      ],
+      "vocabulary_used": [
+        "quiet",
+        "thin",
+        "long hair",
+        "nose",
+        "note"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "choice",
+          "question": "What is Chen Jie like?",
+          "options": [
+            "She is strong and tall.",
+            "She is thin and quiet.",
+            "She has short hair.",
+            "She is very loud."
+          ],
+          "answer": "She is thin and quiet.",
+          "explanation": "The story says 'She is thin and quiet.'"
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "Chen Jie likes to write a note in her book.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The text says 'She likes to write a note in her book.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Chen Jie has a ______ on her head.",
+          "options": [],
+          "answer": "cute hat",
+          "explanation": "The text states 'She has a cute hat on her head.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s7",
+      "unitNumber": 4,
+      "unitTitle": "My home",
+      "storyIndex": 1,
+      "title": "Where is Mimi?",
+      "language": "English",
+      "sentences": [
+        "Zhang Peng has a new cat named Mimi.",
+        "Mimi is very cute.",
+        "But Mimi is missing now.",
+        "Is she in the living room?",
+        "No, she isn't.",
+        "Is she in the kitchen?",
+        "No, she isn't.",
+        "Look! The cat is in the bedroom.",
+        "Mimi is on the big bed.",
+        "She is sleeping now."
+      ],
+      "vocabulary_used": [
+        "living room",
+        "kitchen",
+        "bedroom",
+        "bed",
+        "Is she in the...?",
+        "No, she isn't."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Mimi is in the kitchen.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says 'No, she isn't' when asking if she is in the kitchen. She is in the bedroom."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Where is the cat at the end of the story?",
+          "options": [
+            "In the living room",
+            "In the bathroom",
+            "In the study",
+            "In the bedroom"
+          ],
+          "answer": "In the bedroom",
+          "explanation": "The text says 'Look! The cat is in the bedroom.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Mimi is on the big ____.",
+          "options": [],
+          "answer": "bed",
+          "explanation": "The sentence in the story is 'Mimi is on the big bed.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s8",
+      "unitNumber": 4,
+      "unitTitle": "My home",
+      "storyIndex": 2,
+      "title": "A Cute Dog",
+      "language": "English",
+      "sentences": [
+        "Look at this room.",
+        "It is a study.",
+        "My dog is often here.",
+        "Can you use the computer?",
+        "The dog can use the computer too!",
+        "Is he under the desk?",
+        "No, he is on the chair.",
+        "I have a phone for him.",
+        "He is a cute dog.",
+        "I love my home and my dog."
+      ],
+      "vocabulary_used": [
+        "study",
+        "cute",
+        "use",
+        "Is he under the...?"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The dog is in the study.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story mentions the room is a study and the dog is often there."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Which word in the story has the same 'u-e' sound as 'tube'?",
+          "options": [
+            "duck",
+            "use",
+            "under",
+            "but"
+          ],
+          "answer": "use",
+          "explanation": "'Use' and 'tube' both follow the u-e pattern and make the /juː/ sound."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "The dog is on the ____.",
+          "options": [],
+          "answer": "chair",
+          "explanation": "The story says 'No, he is on the chair.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s9",
+      "unitNumber": 5,
+      "unitTitle": "Dinner's ready",
+      "storyIndex": 1,
+      "title": "A Hungry Panda",
+      "language": "English",
+      "sentences": [
+        "It is 6 o'clock and the panda family is home.",
+        "Mom says, \"Dinner's ready!\"",
+        "The little panda asks, \"What's for dinner?\"",
+        "Mom has some beef, vegetables and delicious soup.",
+        "The little panda says, \"I'd like some beef, please.\"",
+        "Dad says, \"Help yourself. Pass me a bowl and chopsticks.\"",
+        "The little panda can use chopsticks well.",
+        "The family is very happy now."
+      ],
+      "vocabulary_used": [
+        "Dinner's ready",
+        "beef",
+        "vegetables",
+        "soup",
+        "I'd like",
+        "Help yourself",
+        "bowl",
+        "chopsticks"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The panda family is having dinner at 6 o'clock.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story starts by saying it is 6 o'clock and the family is home for dinner."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What would the little panda like for dinner?",
+          "options": [
+            "He would like some beef.",
+            "He would like some bread.",
+            "He would like some milk.",
+            "He would like some chicken."
+          ],
+          "answer": "He would like some beef.",
+          "explanation": "The little panda explicitly says, 'I'd like some beef, please.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Dad wants a _______ and chopsticks.",
+          "options": [],
+          "answer": "bowl",
+          "explanation": "The text says: 'Pass me a bowl and chopsticks.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s10",
+      "unitNumber": 5,
+      "unitTitle": "Dinner's ready",
+      "storyIndex": 2,
+      "title": "Mike's School Lunch",
+      "language": "English",
+      "sentences": [
+        "Today is Monday and Mike is at school.",
+        "He is at the canteen for lunch.",
+        "Ms. White asks, \"What would you like, Mike?\"",
+        "He says, \"I'd like some soup and vegetables.\"",
+        "Ms. White asks him, \"Would you like a knife and fork?\"",
+        "Mike says, \"No, thank you. I can use chopsticks.\"",
+        "He is a good boy.",
+        "He eats all his vegetables."
+      ],
+      "vocabulary_used": [
+        "What would you like",
+        "I'd like",
+        "soup",
+        "vegetables",
+        "knife",
+        "fork",
+        "chopsticks"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Mike uses a knife and fork to eat his lunch.",
+          "options": [],
+          "answer": "False",
+          "explanation": "Mike says 'No, thank you' to the knife and fork because he can use chopsticks."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Where is Mike having his lunch?",
+          "options": [
+            "At home",
+            "At the park",
+            "At the canteen",
+            "At the zoo"
+          ],
+          "answer": "At the canteen",
+          "explanation": "The story mentions Mike is at the canteen for lunch."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Mike would like some soup and _______.",
+          "options": [],
+          "answer": "vegetables",
+          "explanation": "Mike says, 'I'd like some soup and vegetables.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s11",
+      "unitNumber": 6,
+      "unitTitle": "Meet my family!",
+      "storyIndex": 1,
+      "title": "Mike's Big Family",
+      "language": "English",
+      "sentences": [
+        "Welcome to my home.",
+        "How many people are there in my family?",
+        "There are five people.",
+        "My parents are both teachers.",
+        "This is my uncle.",
+        "What's his job?",
+        "He is a tall driver.",
+        "I have no sister.",
+        "But I have a cute little puppy."
+      ],
+      "vocabulary_used": [
+        "How many people are there",
+        "family",
+        "parents",
+        "uncle",
+        "job",
+        "driver"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "There are six people in Mike's family.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says there are five people in the family."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What is Mike's uncle's job?",
+          "options": [
+            "He is a teacher.",
+            "He is a driver.",
+            "He is a doctor.",
+            "He is a nurse."
+          ],
+          "answer": "He is a driver.",
+          "explanation": "The text states 'He is a tall driver.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Mike's father and mother are both ________.",
+          "options": [],
+          "answer": "teachers",
+          "explanation": "The story says 'My parents are both teachers.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g4up-s12",
+      "unitNumber": 6,
+      "unitTitle": "Meet my family!",
+      "storyIndex": 2,
+      "title": "The Happy Farm",
+      "language": "English",
+      "sentences": [
+        "Look! My aunt is on the farm.",
+        "She is a busy farmer.",
+        "My uncle is there too.",
+        "What's her job?",
+        "She is a helpful nurse.",
+        "No, she is not a nurse today.",
+        "She is helping my uncle.",
+        "My family is very happy on the farm."
+      ],
+      "vocabulary_used": [
+        "aunt",
+        "uncle",
+        "farmer",
+        "nurse",
+        "job"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "choice",
+          "question": "Where is the aunt?",
+          "options": [
+            "In a school",
+            "In a hospital",
+            "On the farm",
+            "In a car"
+          ],
+          "answer": "On the farm",
+          "explanation": "The first sentence says 'My aunt is on the farm.'"
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "The aunt is a farmer and she is busy.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says 'She is a busy farmer.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "The aunt's usual job is a ________.",
+          "options": [],
+          "answer": "nurse",
+          "explanation": "The story asks what her job is and says 'She is a helpful nurse.'"
+        }
+      ]
+    }
+  ]
+}

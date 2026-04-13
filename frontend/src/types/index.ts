@@ -117,6 +117,8 @@ export interface Book {
   lessonsCount: number;
   /** 该书是否有课文听读数据（由 build-data 注入） */
   hasPassages?: boolean;
+  /** 该书是否有故事阅读数据（由 build-data 注入） */
+  hasStories?: boolean;
 }
 
 // ============================================================
@@ -163,6 +165,45 @@ export interface BookPassages {
   subject: SubjectId;
   textbook: string;
   passages: Passage[];
+}
+
+// ============================================================
+// 故事阅读（LLM 生成的分级故事 + 阅读理解题）
+// ============================================================
+
+export interface StoryQuestion {
+  id: number;
+  type: "true_false" | "choice" | "fill_blank_text";
+  question: string;
+  options: string[];
+  answer: string;
+  explanation: string;
+  audio?: {
+    question?: string;
+    options?: (string | null)[];
+    explanation?: string;
+  };
+}
+
+export interface Story {
+  id: string; // e.g. "chinese-g3up-s1"
+  bookId: string;
+  unitNumber: number;
+  unitTitle: string;
+  storyIndex: number;
+  title: string;
+  language: "Chinese" | "English";
+  sentences: PassageSentence[];
+  questions: StoryQuestion[];
+  /** 故事配图路径（由 build-data 注入） */
+  image?: string;
+}
+
+export interface BookStories {
+  bookId: string;
+  subject: SubjectId;
+  textbook: string;
+  stories: Story[];
 }
 
 // ============================================================

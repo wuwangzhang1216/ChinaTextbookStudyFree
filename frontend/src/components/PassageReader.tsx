@@ -15,8 +15,8 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Play, Pause, Mic, Square, RotateCcw } from "lucide-react";
-import { ArrowLeft, Volume, Lightning } from "@/components/icons";
-import { SoundLink } from "@/components/SoundLink";
+import { Volume, Lightning } from "@/components/icons";
+import { InnerHeader } from "@/components/InnerHeader";
 import { playTTS, preloadTTS, stopTTS } from "@/lib/tts";
 import { useRecorder } from "@/lib/useRecorder";
 import { useProgressStore } from "@/store/progress";
@@ -250,28 +250,11 @@ export function PassageReader({ passage, backHref }: Props) {
 
   return (
     <main className="min-h-screen bg-bg-soft pb-24">
-      {/* Header */}
-      <div className="bg-white border-b border-bg-softer sticky top-0 z-10">
-        <div className="max-w-md lg:max-w-6xl mx-auto flex items-center justify-between px-4 py-3 gap-3">
-          <SoundLink
-            href={backHref}
-            className="text-ink-light hover:text-primary shrink-0"
-          >
-            <ArrowLeft className="w-6 h-6" />
-          </SoundLink>
-          <div className="text-center flex-1 min-w-0">
-            <div className="text-base font-extrabold text-ink truncate">
-              {passage.title}
-            </div>
-            {passage.author && (
-              <div className="text-xs text-ink-light mt-0.5 truncate">
-                {passage.author}
-              </div>
-            )}
-          </div>
-          <div className="w-6 shrink-0" />
-        </div>
-      </div>
+      <InnerHeader
+        backHref={backHref}
+        title={passage.title}
+        subtitle={passage.author ?? undefined}
+      />
 
       {/* 桌面双栏：lg+ 时课本原页(左) + 课文正文(右) 并排；移动端顺序堆叠 */}
       <div

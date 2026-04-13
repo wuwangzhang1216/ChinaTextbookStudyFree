@@ -1,0 +1,742 @@
+{
+  "bookId": "english-g5down",
+  "subject": "english",
+  "textbook": "英语五年级下册",
+  "grade": 5,
+  "stories": [
+    {
+      "id": "english-g5down-s1",
+      "unitNumber": 1,
+      "unitTitle": "My day",
+      "storyIndex": 1,
+      "title": "A Busy Morning for Oliver",
+      "language": "English",
+      "sentences": [
+        "Oliver is a clever puppy and he has a busy day.",
+        "He usually gets up at 6:30 in the morning.",
+        "Then he does morning exercises with his owner in the park.",
+        "Oliver often eats breakfast at 7:30 a.m.",
+        "After that, he helps clean the floor with a big cloth.",
+        "When do you go to school, Oliver?",
+        "He doesn't go to school, but he plays with a plastic ball.",
+        "Sometimes he sleeps under the table in the afternoon.",
+        "He is always happy because he likes his life.",
+        "Oliver is a very good helper at home."
+      ],
+      "vocabulary_used": [
+        "get up",
+        "do morning exercises",
+        "usually",
+        "eat breakfast",
+        "often",
+        "clean",
+        "When do you",
+        "sometimes",
+        "always"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Oliver usually gets up at 7:30.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says Oliver usually gets up at 6:30, not 7:30."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does Oliver do in the park?",
+          "options": [
+            "He eats a big breakfast.",
+            "He does morning exercises.",
+            "He cleans the floor.",
+            "He goes to school."
+          ],
+          "answer": "He does morning exercises.",
+          "explanation": "The story mentions he does morning exercises with his owner in the park."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Oliver cleans the floor with a big ________.",
+          "options": [],
+          "answer": "cloth",
+          "explanation": "The text states he helps clean the floor with a big cloth."
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s2",
+      "unitNumber": 1,
+      "unitTitle": "My day",
+      "storyIndex": 2,
+      "title": "Zhang Peng's Weekend",
+      "language": "English",
+      "sentences": [
+        "Today is Saturday and Zhang Peng is very busy.",
+        "He often cleans his room at 9:00 a.m.",
+        "Usually, he goes for a walk after that.",
+        "He plays football with his friends in the afternoon.",
+        "When do you do your homework, Zhang Peng?",
+        "I usually do my homework at 7:00 p.m.",
+        "Sometimes I watch TV with my parents in the evening.",
+        "I always go to bed at 9:30.",
+        "My weekend is very hard but fun.",
+        "I like my busy Saturdays very much."
+      ],
+      "vocabulary_used": [
+        "clean his room",
+        "often",
+        "usually",
+        "go for a walk",
+        "When do you",
+        "sometimes",
+        "always",
+        "go to bed"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "fill_blank_text",
+          "question": "Zhang Peng cleans his room at ________ a.m.",
+          "options": [],
+          "answer": "9:00",
+          "explanation": "The text says he often cleans his room at 9:00 a.m."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does Zhang Peng do in the afternoon?",
+          "options": [
+            "He watches TV.",
+            "He goes to bed.",
+            "He plays football.",
+            "He does homework."
+          ],
+          "answer": "He plays football.",
+          "explanation": "The story says he plays football with his friends in the afternoon."
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "Zhang Peng always goes to bed at nine thirty.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story confirms he always goes to bed at 9:30."
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s3",
+      "unitNumber": 2,
+      "unitTitle": "My favourite season",
+      "storyIndex": 1,
+      "title": "Zhang Peng's Color Palette",
+      "language": "English",
+      "sentences": [
+        "Zhang Peng likes painting pictures of the four seasons.",
+        "In spring, he paints green grass and beautiful flowers.",
+        "Today is a sunny day in summer.",
+        "Which season do you like best?",
+        "I like summer best because I can go swimming in the lake.",
+        "Everything is bright and the trees are green.",
+        "But my brother likes autumn best.",
+        "He likes to pick apples with our grandparents on the farm.",
+        "The brown bread and grapes there are very delicious.",
+        "He thinks autumn is the best season of all."
+      ],
+      "vocabulary_used": [
+        "spring",
+        "summer",
+        "Which season do you like best?",
+        "I like ... best",
+        "go swimming",
+        "autumn",
+        "pick apples",
+        "green",
+        "grass",
+        "brown"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Zhang Peng likes summer because he can go swimming.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says 'I like summer best because I can go swimming in the lake.'"
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does Zhang Peng's brother like to do in autumn?",
+          "options": [
+            "Go swimming in the lake",
+            "Pick apples on the farm",
+            "Make a big snowman",
+            "Paint green grass"
+          ],
+          "answer": "Pick apples on the farm",
+          "explanation": "The story mentions: 'He likes to pick apples with our grandparents on the farm.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "The story says the grapes and ____ ____ are very delicious.",
+          "options": [],
+          "answer": "brown bread",
+          "explanation": "The text states: 'The brown bread and grapes there are very delicious.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s4",
+      "unitNumber": 2,
+      "unitTitle": "My favourite season",
+      "storyIndex": 2,
+      "title": "Sarah and the Snowman",
+      "language": "English",
+      "sentences": [
+        "Winter comes and it is very cold now.",
+        "The ground is all white and beautiful.",
+        "Sarah puts on her warm clothes.",
+        "Which season do you like best, Sarah?",
+        "I like winter best because I like the snow.",
+        "I can make a snowman with my friends.",
+        "Look! My snowman has a big nose and green eyes.",
+        "We also go on a picnic in the snow.",
+        "It is great fun to play outside.",
+        "My mother says spring is too wet for her.",
+        "She likes the golden colors of autumn."
+      ],
+      "vocabulary_used": [
+        "winter",
+        "Which season do you like best?",
+        "I like ... best",
+        "make a snowman",
+        "go on a picnic",
+        "spring",
+        "autumn",
+        "green"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Sarah's mother likes spring best.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says her mother thinks spring is too wet and she likes autumn."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Why does Sarah like winter best?",
+          "options": [
+            "Because she likes the snow",
+            "Because she can pick apples",
+            "Because the flowers are pretty",
+            "Because she likes swimming"
+          ],
+          "answer": "Because she likes the snow",
+          "explanation": "Sarah says: 'I like winter best because I like the snow.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Sarah and her friends ____ ____ ____ ____ in the snow.",
+          "options": [],
+          "answer": "go on a picnic",
+          "explanation": "The story mentions 'We also go on a picnic in the snow.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s5",
+      "unitNumber": 3,
+      "unitTitle": "My school calendar",
+      "storyIndex": 1,
+      "title": "Sarah's Busy Year",
+      "language": "English",
+      "sentences": [
+        "Sarah is looking at her new school calendar on the wall.",
+        "There are many fun things to do this year.",
+        "The school sports meet is in April.",
+        "Sarah wants to run and jump in the sun.",
+        "When is the school trip?",
+        "It is in May and the weather is warm.",
+        "In June, she will have a party for Children's Day.",
+        "She likes to eat chocolate and chicken for lunch at the party.",
+        "Summer vacation starts in July and August.",
+        "She will visit her grandma and wash her clothes."
+      ],
+      "vocabulary_used": [
+        "calendar",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "When is...?",
+        "sports meet",
+        "school trip",
+        "Children's Day"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The school sports meet is in April.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story explicitly states 'The school sports meet is in April.'"
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What is in May according to Sarah's calendar?",
+          "options": [
+            "The school trip",
+            "The sports meet",
+            "Children's Day",
+            "Summer vacation"
+          ],
+          "answer": "The school trip",
+          "explanation": "The text says 'It is in May' referring to the school trip."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Sarah likes to eat ____ and chicken for lunch at the party.",
+          "options": [],
+          "answer": "chocolate",
+          "explanation": "The sentence in the story is 'She likes to eat chocolate and chicken for lunch at the party.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s6",
+      "unitNumber": 3,
+      "unitTitle": "My school calendar",
+      "storyIndex": 2,
+      "title": "Zhang Peng's Favorite Holidays",
+      "language": "English",
+      "sentences": [
+        "Zhang Peng loves Chinese festivals and holidays.",
+        "New Year's Day is in January.",
+        "He often goes to the park with his family then.",
+        "Teachers' Day is in September.",
+        "He gives his teacher a beautiful shirt and a card.",
+        "When is China's National Day?",
+        "It is in October.",
+        "His mother says, 'We can go to the beach.'",
+        "They see many shells on the sand.",
+        "Zhang Peng is very happy in autumn."
+      ],
+      "vocabulary_used": [
+        "January",
+        "September",
+        "October",
+        "New Year's Day",
+        "Teachers' Day",
+        "National Day",
+        "When is...?",
+        "shirt",
+        "shells"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Teachers' Day is in October.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story states Teachers' Day is in September."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does Zhang Peng give his teacher?",
+          "options": [
+            "Some chocolate",
+            "A shirt and a card",
+            "A big cake",
+            "A new calendar"
+          ],
+          "answer": "A shirt and a card",
+          "explanation": "The story says 'He gives his teacher a beautiful shirt and a card.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "National Day is in ____.",
+          "options": [],
+          "answer": "October",
+          "explanation": "The text answers the question 'When is China's National Day?' with 'It is in October.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s7",
+      "unitNumber": 4,
+      "unitTitle": "When is the art show?",
+      "storyIndex": 1,
+      "title": "Zhu Hui's Special Calendar",
+      "language": "English",
+      "sentences": [
+        "Zhu Hui has a very busy calendar at school.",
+        "The English party is on April 3rd.",
+        "The big art show is on May 5th.",
+        "Zhu Hui needs to draw three beautiful pictures for the show.",
+        "His mother's birthday is also in May.",
+        "It is on May 21st.",
+        "Zhu Hui wants to make a thin card for her.",
+        "When is the school sports meet?",
+        "It is on June 12th.",
+        "Zhu Hui is happy because he likes these special days."
+      ],
+      "vocabulary_used": [
+        "April 3rd",
+        "May 5th",
+        "May 21st",
+        "June 12th",
+        "art show",
+        "birthday",
+        "When is"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The art show is in April.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says the art show is on May 5th."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "When is Zhu Hui's mother's birthday?",
+          "options": [
+            "June 12th",
+            "May 5th",
+            "May 21st",
+            "April 3rd"
+          ],
+          "answer": "May 21st",
+          "explanation": "The text states his mother's birthday is on May 21st."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "The English party is on _______.",
+          "options": [],
+          "answer": "April 3rd",
+          "explanation": "According to the second sentence, the party is on April 3rd."
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s8",
+      "unitNumber": 4,
+      "unitTitle": "When is the art show?",
+      "storyIndex": 2,
+      "title": "The Singing Contest",
+      "language": "English",
+      "sentences": [
+        "Zhang Peng and Sarah are good friends.",
+        "Today is March 1st.",
+        "They are talking about the school singing contest.",
+        "When is the singing contest?",
+        "It is on March 20th.",
+        "Sarah's birthday is on the same day.",
+        "She will be thirteen years old.",
+        "Zhang Peng will sing a song for her.",
+        "They both like the music teacher, Miss White.",
+        "The students are excited for the twentieth of March."
+      ],
+      "vocabulary_used": [
+        "March 1st",
+        "March 20th",
+        "thirteen",
+        "twentieth",
+        "When is",
+        "birthday"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Sarah's birthday is on March 20th.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says the contest is March 20th and her birthday is on the same day."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "How old will Sarah be?",
+          "options": [
+            "twelve",
+            "thirteen",
+            "twenty",
+            "three"
+          ],
+          "answer": "thirteen",
+          "explanation": "The text mentions she will be thirteen years old."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Today is _______.",
+          "options": [],
+          "answer": "March 1st",
+          "explanation": "The second sentence identifies today as March 1st."
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s9",
+      "unitNumber": 5,
+      "unitTitle": "Whose dog is it?",
+      "storyIndex": 1,
+      "title": "A Day at the Dog Show",
+      "language": "English",
+      "sentences": [
+        "Zhang Peng and Sarah are at a big dog show today.",
+        "They see many cute dogs run around the park.",
+        "Look at that small white dog.",
+        "Whose dog is it?",
+        "Sarah says it is hers.",
+        "The dog is drinking water now.",
+        "Is that black dog yours, Zhang Peng?",
+        "No, it is not mine.",
+        "The black dog is jump-rope jumping and playing with a ball.",
+        "Its tail is long and it looks very happy.",
+        "Oh, those yellow dogs are theirs.",
+        "They are all having a lot of fun together."
+      ],
+      "vocabulary_used": [
+        "Whose",
+        "hers",
+        "drinking",
+        "yours",
+        "mine",
+        "theirs",
+        "playing",
+        "jumping"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The small white dog belongs to Sarah.",
+          "options": [],
+          "answer": "True",
+          "explanation": "In the story, Sarah says 'it is hers' referring to the small white dog."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What is the black dog doing?",
+          "options": [
+            "It is drinking water.",
+            "It is sleeping under a tree.",
+            "It is jumping and playing with a ball.",
+            "It is eating a big bone."
+          ],
+          "answer": "It is jumping and playing with a ball.",
+          "explanation": "The text states the black dog is 'jump-rope jumping and playing with a ball.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Whose dogs are the yellow ones?",
+          "options": [],
+          "answer": "theirs",
+          "explanation": "The story says 'those yellow dogs are theirs'."
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s10",
+      "unitNumber": 5,
+      "unitTitle": "Whose dog is it?",
+      "storyIndex": 2,
+      "title": "The Singing Contest",
+      "language": "English",
+      "sentences": [
+        "Chen Jie is walking in the garden with her friends.",
+        "Suddenly, they hear a beautiful sound.",
+        "Is someone singing a song?",
+        "Yes, a little bird is singing in the tree.",
+        "Oliver finds a colorful bag on the pink bench.",
+        "Whose bag is this?",
+        "Is it yours, Chen Jie?",
+        "No, my bag is green, so it is not mine.",
+        "Wu Binbin says, 'It is ours! We forgot it here.'",
+        "They are thinking about their lunch inside the bag.",
+        "Now they are eating and drinking under the tree.",
+        "They are very happy to find the bag."
+      ],
+      "vocabulary_used": [
+        "singing",
+        "Whose",
+        "yours",
+        "mine",
+        "ours",
+        "thinking",
+        "eating",
+        "drinking"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Chen Jie's bag is colorful.",
+          "options": [],
+          "answer": "False",
+          "explanation": "Chen Jie says her bag is green, not the colorful one found on the bench."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Who does the bag belong to?",
+          "options": [
+            "Chen Jie",
+            "The bird",
+            "Oliver's teacher",
+            "Wu Binbin and his friend"
+          ],
+          "answer": "Wu Binbin and his friend",
+          "explanation": "Wu Binbin says 'It is ours!', meaning it belongs to him and his group."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "What is the bird doing in the tree?",
+          "options": [],
+          "answer": "singing",
+          "explanation": "The story mentions 'a little bird is singing in the tree'."
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s11",
+      "unitNumber": 6,
+      "unitTitle": "Work quietly!",
+      "storyIndex": 1,
+      "title": "A Quiet Visit to the Library",
+      "language": "English",
+      "sentences": [
+        "Today is Sunday morning and the sun is shining.",
+        "Zhang Peng and John are at the school library.",
+        "They are looking for some books about space.",
+        "Zhang Peng sees a sign on the white wall.",
+        "The sign says, 'Talk quietly' and 'Keep your desk clean'.",
+        "John is talking to Zhang Peng about a robot.",
+        "Zhang Peng says, 'Shh, we must follow the rules'.",
+        "Are they playing games in the library?",
+        "No, they are reading silently at the desk.",
+        "They want to be good students today."
+      ],
+      "vocabulary_used": [
+        "Talk quietly",
+        "Keep your desk clean",
+        "white",
+        "Are they doing",
+        "library"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Zhang Peng and John are in the school library.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The second sentence says they are at the school library."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does the sign on the wall say?",
+          "options": [
+            "No eating",
+            "Talk quietly",
+            "Run fast",
+            "Listen to music"
+          ],
+          "answer": "Talk quietly",
+          "explanation": "The story mentions the sign says 'Talk quietly' and 'Keep your desk clean'."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Where are they reading their books?",
+          "options": [],
+          "answer": "at the desk",
+          "explanation": "The text states they are reading silently at the desk."
+        }
+      ]
+    },
+    {
+      "id": "english-g5down-s12",
+      "unitNumber": 6,
+      "unitTitle": "Work quietly!",
+      "storyIndex": 2,
+      "title": "Fun at the Science Museum",
+      "language": "English",
+      "sentences": [
+        "Whose bag is this on the floor?",
+        "It is Sarah's, but she is busy now.",
+        "She is visiting the museum with her brother.",
+        "They see many people and many cool things.",
+        "Is her brother running in the hall?",
+        "No, he is walking slowly on the right.",
+        "A teacher says, 'Keep to the right, please'.",
+        "They also see a sign that says, 'Take turns'.",
+        "They are waiting for their turn to see the stars.",
+        "They are having a great time at the museum."
+      ],
+      "vocabulary_used": [
+        "Whose",
+        "Keep to the right",
+        "Take turns",
+        "Is he doing",
+        "museum"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Sarah's brother is running in the hall.",
+          "options": [],
+          "answer": "False",
+          "explanation": "He is walking slowly on the right, not running."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What rule does the teacher say to them?",
+          "options": [
+            "Keep to the right",
+            "Work quietly",
+            "No photos",
+            "Clean the room"
+          ],
+          "answer": "Keep to the right",
+          "explanation": "The teacher explicitly says 'Keep to the right, please' in the story."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "What does the second sign say?",
+          "options": [],
+          "answer": "Take turns",
+          "explanation": "The text says they see a sign that says 'Take turns'."
+        }
+      ]
+    }
+  ]
+}

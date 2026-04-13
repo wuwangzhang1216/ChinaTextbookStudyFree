@@ -1,0 +1,625 @@
+{
+  "bookId": "english-g6down",
+  "subject": "english",
+  "textbook": "英语六年级下册",
+  "grade": 6,
+  "stories": [
+    {
+      "id": "english-g6down-s1",
+      "unitNumber": 1,
+      "unitTitle": "Unit 1 How tall are you?",
+      "storyIndex": 1,
+      "title": "A Visit to the Zoo",
+      "language": "English",
+      "sentences": [
+        "Today is a sunny Sunday.",
+        "Zhang Peng and John are visiting the city zoo together.",
+        "They see two tall giraffes near the big tree.",
+        "The brown giraffe is 5 metres tall.",
+        "The spotted giraffe is 4.8 metres tall.",
+        "So the brown giraffe is taller than the spotted one.",
+        "Then they see two small monkeys playing.",
+        "The brown monkey is only 5 kilograms.",
+        "The yellow monkey is 8 kilograms.",
+        "The yellow monkey is heavier and stronger.",
+        "John is 1.62 metres tall now.",
+        "Zhang Peng is 1.65 metres tall.",
+        "Zhang Peng is 3 centimetres taller than John.",
+        "They have a lot of fun at the zoo."
+      ],
+      "vocabulary_used": [
+        "taller",
+        "metres",
+        "heavier",
+        "stronger",
+        "kilograms",
+        "than"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The brown giraffe is taller than the spotted giraffe.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The brown giraffe is 5 metres and the spotted one is 4.8 metres, so 5 is more than 4.8."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "How heavy is the yellow monkey?",
+          "options": [
+            "5 kilograms",
+            "8 kilograms",
+            "1.62 metres",
+            "1.65 metres"
+          ],
+          "answer": "8 kilograms",
+          "explanation": "The story states the yellow monkey is 8 kilograms."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Zhang Peng is 3 centimetres ________ than John.",
+          "options": [],
+          "answer": "taller",
+          "explanation": "Based on the story, Zhang Peng is 1.65m and John is 1.62m, making Zhang Peng taller."
+        }
+      ]
+    },
+    {
+      "id": "english-g6down-s2",
+      "unitNumber": 1,
+      "unitTitle": "Unit 1 How tall are you?",
+      "storyIndex": 2,
+      "title": "Buying New Shoes",
+      "language": "English",
+      "sentences": [
+        "Spring is coming and Sarah needs new shoes.",
+        "She goes to a shoe store with her mother.",
+        "Sarah tries on a pair of red shoes.",
+        "They are size 36 but they are too small.",
+        "'What size are your shoes?' the salesperson asks.",
+        "Sarah says, 'I wore size 35 last year.'",
+        "Her mother says, 'Your feet are bigger than before.'",
+        "Sarah tries size 38 shoes this time.",
+        "These shoes are much better for her feet.",
+        "Sarah's feet are longer than her mother's feet now.",
+        "She is also becoming taller than her mother.",
+        "Sarah is very happy with her new shoes.",
+        "They walk out of the store happily."
+      ],
+      "vocabulary_used": [
+        "size",
+        "bigger",
+        "longer",
+        "taller",
+        "than"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Sarah's feet are smaller than before.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says her feet are bigger than before."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What size of shoes did Sarah wear last year?",
+          "options": [
+            "Size 35",
+            "Size 36",
+            "Size 38",
+            "Size 40"
+          ],
+          "answer": "Size 35",
+          "explanation": "Sarah says, 'I wore size 35 last year.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Sarah's feet are ________ than her mother's feet now.",
+          "options": [],
+          "answer": "longer",
+          "explanation": "The text states: Sarah's feet are longer than her mother's feet now."
+        }
+      ]
+    },
+    {
+      "id": "english-g6down-s3",
+      "unitNumber": 2,
+      "unitTitle": "Unit 2 Last weekend",
+      "storyIndex": 1,
+      "title": "Wu Binbin's Busy Saturday",
+      "language": "English",
+      "sentences": [
+        "Last Saturday, Wu Binbin stayed at home because it was rainy all day.",
+        "First, he cleaned his room and made his bed carefully.",
+        "He washed his clothes and hung them up to dry.",
+        "In the afternoon, he wanted to do something fun.",
+        "He watched TV and saw a very interesting show about robots.",
+        "Then, he read a new storybook in his study.",
+        "His mother asked, 'Did you do your homework, Binbin?'",
+        "He answered, 'Yes, I did my homework and I also cleaned the house.'",
+        "His mother was very happy and smiled at him.",
+        "They cooked a delicious dinner together in the kitchen.",
+        "Wu Binbin felt tired but he was very proud of himself.",
+        "It was a busy and wonderful Saturday for him."
+      ],
+      "vocabulary_used": [
+        "cleaned my room",
+        "washed my clothes",
+        "stayed at home",
+        "watched TV",
+        "read a storybook",
+        "Did you...?",
+        "Yes, I did"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Wu Binbin went outside to play with his friends on Saturday.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says he stayed at home because it was rainy."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What did Wu Binbin do in the afternoon?",
+          "options": [
+            "He played football.",
+            "He watched TV and read a storybook.",
+            "He went to the zoo.",
+            "He slept all day."
+          ],
+          "answer": "He watched TV and read a storybook.",
+          "explanation": "The text mentions he watched TV and then read a storybook in the afternoon."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Wu Binbin felt _____ but happy at the end of the day.",
+          "options": [],
+          "answer": "tired",
+          "explanation": "The story mentions 'Wu Binbin felt tired but he was very proud'."
+        }
+      ]
+    },
+    {
+      "id": "english-g6down-s4",
+      "unitNumber": 2,
+      "unitTitle": "Unit 2 Last weekend",
+      "storyIndex": 2,
+      "title": "A Great Weekend Trip",
+      "language": "English",
+      "sentences": [
+        "Last weekend, Sarah went to a park with her grandfather.",
+        "The weather was sunny and the air was very fresh.",
+        "They walked for a long time and saw many beautiful flowers.",
+        "Sarah drank some tea and talked with her grandfather.",
+        "He told her many stories about his own primary school days.",
+        "Sarah asked, 'Did you have a computer at that time?'",
+        "Her grandfather laughed and said, 'No, we didn't have computers.'",
+        "In the evening, Sarah watched children's shows on the internet.",
+        "Then, she played football with her dog in the garden.",
+        "She had a great time with her family last weekend.",
+        "She wrote a letter to her friend about her trip.",
+        "She was very excited to share her stories."
+      ],
+      "vocabulary_used": [
+        "last weekend",
+        "drank tea",
+        "talked",
+        "Did you...?",
+        "No, we didn't",
+        "played football",
+        "watched"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Sarah's grandfather had a computer when he was young.",
+          "options": [],
+          "answer": "False",
+          "explanation": "Grandfather said, 'No, we didn't have computers.'"
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Who did Sarah go to the park with?",
+          "options": [
+            "Her grandmother",
+            "Her teacher",
+            "Her grandfather",
+            "Her classmate"
+          ],
+          "answer": "Her grandfather",
+          "explanation": "The first sentence says she went with her grandfather."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Sarah played _____ with her dog in the garden.",
+          "options": [],
+          "answer": "football",
+          "explanation": "The text says 'she played football with her dog'."
+        }
+      ]
+    },
+    {
+      "id": "english-g6down-s5",
+      "unitNumber": 3,
+      "unitTitle": "Unit 3 Where did you go?",
+      "storyIndex": 1,
+      "title": "A Snowy Trip to Harbin",
+      "language": "English",
+      "sentences": [
+        "Last winter holiday, Sarah went to Harbin with her parents.",
+        "They went there by plane because it was very far.",
+        "The weather was very cold and it snowed a lot.",
+        "Sarah rode a horse on the ice for the first time.",
+        "She also took many photos of the beautiful ice lanterns.",
+        "In the afternoon, they ate delicious fish and hot soup.",
+        "Suddenly, Sarah fell off the sled and hurt her foot.",
+        "It didn't hurt much, but she stayed in the hotel to rest.",
+        "She saw many birds through the big window.",
+        "She also bought some gifts for her friends in Beijing.",
+        "I had a great time despite my foot, Sarah wrote in her diary.",
+        "She wants to go there again next year."
+      ],
+      "vocabulary_used": [
+        "went",
+        "rode a horse",
+        "took photos",
+        "ate",
+        "hurt",
+        "bought gifts",
+        "went there by plane"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Sarah went to Harbin by train with her friends.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says she went there by plane with her parents."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What did Sarah do on the ice?",
+          "options": [
+            "She went swimming.",
+            "She rode a horse.",
+            "She played football.",
+            "She flew a kite."
+          ],
+          "answer": "She rode a horse.",
+          "explanation": "The text states 'Sarah rode a horse on the ice for the first time.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Sarah stayed in the hotel because she hurt her ________.",
+          "options": [],
+          "answer": "foot",
+          "explanation": "The story mentions she 'hurt her foot' after falling off the sled."
+        }
+      ]
+    },
+    {
+      "id": "english-g6down-s6",
+      "unitNumber": 3,
+      "unitTitle": "Unit 3 Where did you go?",
+      "storyIndex": 2,
+      "title": "Wu Binbin's Busy Weekend",
+      "language": "English",
+      "sentences": [
+        "Wu Binbin had a very busy weekend last week.",
+        "On Saturday morning, he went to a forest park by bike.",
+        "He went with his cousin, Jack.",
+        "They saw many green trees and colorful flowers there.",
+        "They went camping and stayed there for one night.",
+        "On Sunday, they went fishing near a small lake.",
+        "Jack caught a big fish, but Wu Binbin caught nothing.",
+        "Then they licked some cold ice cream because it was hot.",
+        "In the evening, they went back home by bus.",
+        "Wu Binbin was very tired but very happy.",
+        "He did his homework after dinner.",
+        "He told his teacher about the trip on Monday."
+      ],
+      "vocabulary_used": [
+        "went camping",
+        "went fishing",
+        "by bike",
+        "by bus",
+        "went to a forest park",
+        "had a busy weekend"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "choice",
+          "question": "Who did Wu Binbin go to the park with?",
+          "options": [
+            "His teacher",
+            "His classmate",
+            "His cousin",
+            "His parents"
+          ],
+          "answer": "His cousin",
+          "explanation": "The story says 'He went with his cousin, Jack.'"
+        },
+        {
+          "id": 2,
+          "type": "fill_blank_text",
+          "question": "How did they go to the forest park?",
+          "options": [],
+          "answer": "by bike",
+          "explanation": "The second sentence says he 'went to a forest park by bike.'"
+        },
+        {
+          "id": 3,
+          "type": "true_false",
+          "question": "Wu Binbin and Jack stayed in the forest park for one night.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The text says 'They went camping and stayed there for one night.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g6down-s7",
+      "unitNumber": 4,
+      "unitTitle": "Unit 4 Then and now",
+      "storyIndex": 1,
+      "title": "Grandpa's Small Village",
+      "language": "English",
+      "sentences": [
+        "Twenty years ago, my grandpa lived in a very small village.",
+        "There were no tall buildings and there was no internet then.",
+        "People used to walk or ride bikes because there were no cars.",
+        "But everything is different now in the village.",
+        "There is a big library and a modern gym near my grandpa's house.",
+        "The library is the biggest building in the village.",
+        "Before, Grandpa didn't like sports because he was always busy.",
+        "Now, he loves playing basketball with his friends every weekend.",
+        "He is much healthier than before.",
+        "I went to the village last summer holiday and I liked it.",
+        "It was the most beautiful place I have ever seen.",
+        "Grandpa says the village will be even better in the future."
+      ],
+      "vocabulary_used": [
+        "There were no",
+        "There is",
+        "didn't like... before",
+        "Now I love",
+        "the biggest",
+        "internet"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "There was a big library in the village twenty years ago.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says there were no tall buildings then and the library is there 'now'."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does Grandpa do every weekend now?",
+          "options": [
+            "He rides a bike to the city.",
+            "He plays basketball with friends.",
+            "He uses the internet at home.",
+            "He works in the tall building."
+          ],
+          "answer": "He plays basketball with friends.",
+          "explanation": "The text states: 'Now, he loves playing basketball with his friends every weekend.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "What is the biggest building in the village now?",
+          "options": [],
+          "answer": "the library",
+          "explanation": "The sentence states 'The library is the biggest building in the village.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g6down-s8",
+      "unitNumber": 4,
+      "unitTitle": "Unit 4 Then and now",
+      "storyIndex": 2,
+      "title": "Wu Binbin's Change",
+      "language": "English",
+      "sentences": [
+        "Wu Binbin was a quiet boy three years ago.",
+        "He was short and he could not run fast.",
+        "Before, he didn't like PE class at all.",
+        "He thought he was the slowest runner in his class.",
+        "Now, Wu Binbin is very active and tall.",
+        "He practiced running every morning last year.",
+        "Now he loves sports and he is the fastest runner in school.",
+        "There was no gym in his school before.",
+        "But now there is a large gym with many stars on the wall.",
+        "Wu Binbin also liked to stay at home before.",
+        "Now he likes to go cycling with his active friends.",
+        "He is very happy about his new life."
+      ],
+      "vocabulary_used": [
+        "didn't like... before",
+        "Now he loves",
+        "the fastest",
+        "the slowest",
+        "There was no",
+        "active"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Wu Binbin was very active three years ago.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says Wu Binbin was a 'quiet boy' three years ago, not active."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "Which word describes Wu Binbin's running speed now?",
+          "options": [
+            "the slowest",
+            "the quietest",
+            "the fastest",
+            "the shortest"
+          ],
+          "answer": "the fastest",
+          "explanation": "The text says 'Now he loves sports and he is the fastest runner in school.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "What new facility is in the school now that wasn't there before?",
+          "options": [],
+          "answer": "a large gym",
+          "explanation": "The story mentions 'There was no gym... But now there is a large gym'."
+        }
+      ]
+    },
+    {
+      "id": "english-g6down-s9",
+      "unitNumber": 5,
+      "unitTitle": "Recycle & Review",
+      "storyIndex": 1,
+      "title": "Wu Binbin's Busy Sunday",
+      "language": "English",
+      "sentences": [
+        "Yesterday was Sunday and Wu Binbin had a very busy day.",
+        "In the morning, he cleaned his room and washed his clothes.",
+        "Then, he went to a supermarket to buy some food.",
+        "He bought an apple, a watermelon and some beef for lunch.",
+        "After that, he visited his grandparents and played football with his cousin.",
+        "Finally, he did his homework and went to bed at nine o'clock.",
+        "Today, he is talking about his weekend with his friends at school.",
+        "He feels a little tired but he is very happy.",
+        "He likes to help his parents with the housework on weekends.",
+        "His mother gave him a small gift for being so helpful.",
+        "He thinks it is important to review what he learned every day."
+      ],
+      "vocabulary_used": [
+        "In the morning",
+        "Then",
+        "After that",
+        "Finally",
+        "an apple",
+        "a watermelon",
+        "some beef"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Wu Binbin went to the supermarket before he visited his grandparents.",
+          "options": [],
+          "answer": "True",
+          "explanation": "According to the story, he went to the supermarket 'Then' and visited grandparents 'After that'."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What did Wu Binbin buy at the supermarket?",
+          "options": [
+            "an apple, a watermelon and some beef",
+            "some apples and a banana",
+            "an orange and some pork",
+            "a bike and some books"
+          ],
+          "answer": "an apple, a watermelon and some beef",
+          "explanation": "The text states: 'He bought an apple, a watermelon and some beef for lunch.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Wu Binbin went to bed at ______ o'clock.",
+          "options": [],
+          "answer": "nine",
+          "explanation": "The sixth sentence mentions he went to bed at nine o'clock."
+        }
+      ]
+    },
+    {
+      "id": "english-g6down-s10",
+      "unitNumber": 5,
+      "unitTitle": "Recycle & Review",
+      "storyIndex": 2,
+      "title": "A Great Dream for the Summer",
+      "language": "English",
+      "sentences": [
+        "Summer holiday is coming and Sarah has a wonderful plan.",
+        "She is going to take a trip to Beijing with her parents.",
+        "They will visit the Great Wall and take many beautiful pictures.",
+        "Sarah wants to be a reporter in the future.",
+        "She is going to write a story about her trip for a magazine.",
+        "In the morning, she will walk in the ancient parks.",
+        "Then, she will eat some traditional Chinese food in fish restaurants.",
+        "After that, she will go to an art museum to see paintings.",
+        "Finally, she will buy some postcards for her best friends.",
+        "She believes her summer holiday will be colorful and interesting.",
+        "Are you going to have a trip this summer too?"
+      ],
+      "vocabulary_used": [
+        "is going to",
+        "will",
+        "reporter",
+        "In the morning",
+        "Then",
+        "After that",
+        "Finally",
+        "some postcards",
+        "an art museum"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Sarah wants to be a pilot when she grows up.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says 'Sarah wants to be a reporter in the future.'"
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What will Sarah do finally in her plan?",
+          "options": [
+            "She will visit the Great Wall.",
+            "She will go to an art museum.",
+            "She will buy some postcards.",
+            "She will eat traditional food."
+          ],
+          "answer": "She will buy some postcards.",
+          "explanation": "The text says: 'Finally, she will buy some postcards for her best friends.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Sarah is going to take a trip to ______ with her parents.",
+          "options": [],
+          "answer": "Beijing",
+          "explanation": "The second sentence mentions she is going to take a trip to Beijing."
+        }
+      ]
+    }
+  ]
+}

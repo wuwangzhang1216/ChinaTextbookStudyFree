@@ -32,6 +32,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 OUTPUT_DIR = ROOT / "output"
 PASSAGES_DIR = ROOT / "data" / "passages"
+STORIES_DIR = ROOT / "data" / "stories"
 MANIFEST_PATH = Path(__file__).resolve().parent / "manifest.json"
 
 # ---------------------------------------------------------------------------
@@ -329,6 +330,59 @@ def collect():
                     stats["per_field"]["passage_sentence"] = (
                         stats["per_field"].get("passage_sentence", 0) + 1
                     )
+
+    # ---------------------------------------------------------
+    # 故事阅读（语文/英语）—— data/stories/{subject}/{bookId}.json
+    # 收集故事句子 + 题目/选项/解析
+    # ---------------------------------------------------------
+    if STORIES_DIR.exists():
+        for stories_file in sorted(
+            f for f in STORIES_DIR.rglob("*.json")
+            if ".cache" not in f.parts
+        ):
+            try:
+                sdoc = json.loads(stories_file.read_text(encoding="utf-8"))
+            except Exception as e:
+                print(f"⚠️  解析 stories 失败 {stories_file.name}: {e}", file=sys.stderr)
+                continue
+
+            subject = sdoc.get("subject") or stories_file.parent.name
+            grade = sdoc.get("grade") or parse_grade(stories_file.stem) or 3
+
+            for story in sdoc.get("stories") or []:
+                slang = "English" if story.get("language") == "English" else "Chinese"
+
+                # 故事句子
+                for sentence in story.get("sentences") or []:
+                    text = normalize(sentence or "")
+                    if not is_speakable(text):
+                        continue
+                    h = text_hash(text)
+                    if h in seen:
+                        continue
+                    speaker, instruction = pick_profile(subject, grade, slang)
+                    seen[h] = {
+                        "hash": h,
+                        "text": text,
+                        "audio_rel": f"{h[:2]}/{h}.opus",
+                        "language": slang,
+                        "speaker": speaker,
+                        "instruction": instruction,
+                        "field": "story_sentence",
+                        "subject": subject,
+                        "grade": grade,
+                    }
+                    stats["per_subject"][subject] = stats["per_subject"].get(subject, 0) + 1
+                    stats["per_field"]["story_sentence"] = (
+                        stats["per_field"].get("story_sentence", 0) + 1
+                    )
+
+                # 故事题目/选项/解析
+                for q in story.get("questions") or []:
+                    push(q.get("question", ""), "story_question")
+                    for opt in q.get("options") or []:
+                        push(opt, "story_option")
+                    push(q.get("explanation", ""), "story_explanation")
 
     items = list(seen.values())
     manifest = {

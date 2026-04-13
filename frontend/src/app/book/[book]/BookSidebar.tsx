@@ -29,6 +29,7 @@ interface BookSidebarProps {
   unitsCount: number;
   lessonIds: string[];
   hasPassages: boolean;
+  hasStories?: boolean;
 }
 
 export function BookSidebar({
@@ -38,6 +39,7 @@ export function BookSidebar({
   unitsCount,
   lessonIds,
   hasPassages,
+  hasStories,
 }: BookSidebarProps) {
   const completedLessons = useProgressStore(s => s.completedLessons);
 
@@ -142,6 +144,27 @@ export function BookSidebar({
             <div className="text-sm font-extrabold text-ink">课文听读</div>
             <div className="text-xs text-ink-light mt-0.5">
               范读 · 跟读练习
+            </div>
+          </div>
+          <div className="shrink-0 text-xl text-ink-softer">›</div>
+        </SoundLink>
+      )}
+
+      {/* 故事阅读 */}
+      {hasStories && (
+        <SoundLink
+          href={`/stories/${bookId}/`}
+          hapticIntensity="medium"
+          className="group flex items-center gap-3 bg-white rounded-3xl border-2 border-bg-softer p-4 hover:border-gold transition-colors"
+          style={{ boxShadow: "0 4px 0 0 #e5e5e5" }}
+        >
+          <div className="shrink-0 w-12 h-12 rounded-2xl bg-gold/10 text-gold flex items-center justify-center group-hover:bg-gold group-hover:text-white transition-colors">
+            <BookOpen className="w-6 h-6" />
+          </div>
+          <div className="flex-1 min-w-0">
+            <div className="text-sm font-extrabold text-ink">故事阅读</div>
+            <div className="text-xs text-ink-light mt-0.5">
+              趣味故事 · 阅读理解
             </div>
           </div>
           <div className="shrink-0 text-xl text-ink-softer">›</div>

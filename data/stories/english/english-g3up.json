@@ -1,0 +1,686 @@
+{
+  "bookId": "english-g3up",
+  "subject": "english",
+  "textbook": "英语三年级上册",
+  "grade": 3,
+  "stories": [
+    {
+      "id": "english-g3up-s1",
+      "unitNumber": 1,
+      "unitTitle": "Hello!",
+      "storyIndex": 1,
+      "title": "A New Friend",
+      "language": "English",
+      "sentences": [
+        "Hello!",
+        "I'm Zoom.",
+        "Hi!",
+        "I'm Zip.",
+        "I have a pencil.",
+        "Wait!",
+        "I have a ruler, too.",
+        "We are friends."
+      ],
+      "vocabulary_used": [
+        "Hello",
+        "Hi",
+        "I'm",
+        "I have",
+        "pencil",
+        "ruler"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Zip has a pencil.",
+          "options": [],
+          "answer": "True",
+          "explanation": "In the story, Zip says 'I have a pencil.'"
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What is the name of the first character?",
+          "options": [
+            "Zip",
+            "Zoom",
+            "Sarah",
+            "Mike"
+          ],
+          "answer": "Zoom",
+          "explanation": "The first character introduces himself saying 'I'm Zoom.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Zip has a pencil and a ___.",
+          "options": [],
+          "answer": "ruler",
+          "explanation": "Zip mentions having both a pencil and a ruler."
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s2",
+      "unitNumber": 1,
+      "unitTitle": "Hello!",
+      "storyIndex": 2,
+      "title": "The Magic Bag",
+      "language": "English",
+      "sentences": [
+        "Hello, I'm Wu Binbin.",
+        "Look!",
+        "I have a bag.",
+        "I have an eraser.",
+        "I have a crayon.",
+        "My name's John.",
+        "I have a book.",
+        "Let's play!"
+      ],
+      "vocabulary_used": [
+        "Hello",
+        "I'm",
+        "I have",
+        "My name's",
+        "bag",
+        "eraser",
+        "crayon",
+        "book"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Wu Binbin has an eraser.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The text says 'I have an eraser' after Wu Binbin introduces himself."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does John have?",
+          "options": [
+            "a pencil",
+            "a ruler",
+            "a book",
+            "a pen"
+          ],
+          "answer": "a book",
+          "explanation": "The story states: 'My name's John. I have a book.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Wu Binbin has a bag and a ___.",
+          "options": [],
+          "answer": "crayon",
+          "explanation": "Wu Binbin mentions having a bag, an eraser, and a crayon."
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s3",
+      "unitNumber": 2,
+      "unitTitle": "Colours",
+      "storyIndex": 1,
+      "title": "A Colorful Gift",
+      "language": "English",
+      "sentences": [
+        "This is Mr. Duck.",
+        "Mr. Duck has a big bag.",
+        "He has a red apple.",
+        "He has a yellow banana.",
+        "Look! A green bag is for Ant.",
+        "Nice to meet you, Mr. Duck.",
+        "Nice to meet you, too."
+      ],
+      "vocabulary_used": [
+        "This is",
+        "red",
+        "apple",
+        "yellow",
+        "green",
+        "Nice to meet you"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The apple is green.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The story says the apple is red."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What color is the bag for Ant?",
+          "options": [
+            "red",
+            "yellow",
+            "green",
+            "blue"
+          ],
+          "answer": "green",
+          "explanation": "The text states 'A green bag is for Ant'."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "When meeting Mr. Duck, Ant says: \"______ to meet you.\"",
+          "options": [],
+          "answer": "Nice",
+          "explanation": "The polite greeting used in the story is 'Nice to meet you'."
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s4",
+      "unitNumber": 2,
+      "unitTitle": "Colours",
+      "storyIndex": 2,
+      "title": "Sarah's New Friends",
+      "language": "English",
+      "sentences": [
+        "Good morning, Mom.",
+        "This is Wu Binbin.",
+        "He has a blue book.",
+        "He has a black pen.",
+        "Look, I have a white cat.",
+        "The cat likes the orange ball.",
+        "Brown is the pup, Ben."
+      ],
+      "vocabulary_used": [
+        "This is",
+        "blue",
+        "black",
+        "white",
+        "orange",
+        "brown"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Wu Binbin has a blue book.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story mentions 'He has a blue book' referring to Wu Binbin."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What color is the cat?",
+          "options": [
+            "blue",
+            "white",
+            "black",
+            "orange"
+          ],
+          "answer": "white",
+          "explanation": "The sentence 'I have a white cat' confirms the color."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "The cat likes the ______ ball.",
+          "options": [],
+          "answer": "orange",
+          "explanation": "According to the story, the cat likes the orange ball."
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s5",
+      "unitNumber": 3,
+      "unitTitle": "Look at me!",
+      "storyIndex": 1,
+      "title": "A Funny Robot",
+      "language": "English",
+      "sentences": [
+        "I have a robot friend.",
+        "His name is Zip.",
+        "Look at me, Zip!",
+        "Touch your nose, Zip.",
+        "Zip touches his big ear.",
+        "No, that is not your nose!",
+        "Zip looks at his face and smiles.",
+        "We are very happy today."
+      ],
+      "vocabulary_used": [
+        "look at me",
+        "touch",
+        "nose",
+        "ear",
+        "face"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The robot's name is Zip.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The second sentence says 'His name is Zip.'"
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does Zip touch first in the story?",
+          "options": [
+            "his nose",
+            "his big ear",
+            "his hand",
+            "his leg"
+          ],
+          "answer": "his big ear",
+          "explanation": "The story says 'Zip touches his big ear' when asked to touch his nose."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Zip looks at his ___ and smiles.",
+          "options": [],
+          "answer": "face",
+          "explanation": "The seventh sentence states 'Zip looks at his face and smiles.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s6",
+      "unitNumber": 3,
+      "unitTitle": "Look at me!",
+      "storyIndex": 2,
+      "title": "Hello, Mr. Elephant",
+      "language": "English",
+      "sentences": [
+        "Good morning, Mr. Elephant.",
+        "How are you today?",
+        "I'm fine, thank you.",
+        "Look at your big body.",
+        "Shake your head, Mr. Elephant.",
+        "Wave your hand and say hello.",
+        "I have an egg for you.",
+        "It is a nice day."
+      ],
+      "vocabulary_used": [
+        "How are you",
+        "I'm fine, thank you",
+        "head",
+        "hand",
+        "elephant",
+        "egg"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The elephant is not fine today.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The elephant says 'I'm fine, thank you.'"
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What should the elephant shake?",
+          "options": [
+            "his foot",
+            "his arm",
+            "his head",
+            "his nose"
+          ],
+          "answer": "his head",
+          "explanation": "The fifth sentence is 'Shake your head, Mr. Elephant.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "I have an ___ for the elephant.",
+          "options": [],
+          "answer": "egg",
+          "explanation": "The seventh sentence states 'I have an egg for you.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s7",
+      "unitNumber": 4,
+      "unitTitle": "We love animals",
+      "storyIndex": 1,
+      "title": "A Day at the Zoo",
+      "language": "English",
+      "sentences": [
+        "Open your eyes, Zoom!",
+        "Look, what's this?",
+        "It is a fat pig.",
+        "Look, what's that?",
+        "It is a big elephant.",
+        "A small bird is in my hand.",
+        "I like the blue bird.",
+        "We love animals!"
+      ],
+      "vocabulary_used": [
+        "What's this?",
+        "What's that?",
+        "pig",
+        "elephant",
+        "bird",
+        "It is a..."
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The pig is fat.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says 'It is a fat pig.'"
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What is that far away?",
+          "options": [
+            "A fat pig",
+            "A big elephant",
+            "A small bear",
+            "A green duck"
+          ],
+          "answer": "A big elephant",
+          "explanation": "The character asks 'What's that?' and the answer is 'It is a big elephant.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "What is in the hand?",
+          "options": [],
+          "answer": "A small bird",
+          "explanation": "The text states 'A small bird is in my hand.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s8",
+      "unitNumber": 4,
+      "unitTitle": "We love animals",
+      "storyIndex": 2,
+      "title": "Old Macdonald's Fun",
+      "language": "English",
+      "sentences": [
+        "Hello, I am Old Macdonald.",
+        "Look at my duck.",
+        "It is yellow and funny.",
+        "What's this under the tree?",
+        "It is a cute panda.",
+        "A monkey is on the bag.",
+        "I see a tiger too.",
+        "I love my animals."
+      ],
+      "vocabulary_used": [
+        "duck",
+        "What's this?",
+        "panda",
+        "monkey",
+        "tiger"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The panda is on the bag.",
+          "options": [],
+          "answer": "False",
+          "explanation": "The monkey is on the bag, not the panda."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What color is the duck?",
+          "options": [
+            "It is red.",
+            "It is blue.",
+            "It is yellow.",
+            "It is black."
+          ],
+          "answer": "It is yellow.",
+          "explanation": "The story describes the duck as 'yellow and funny'."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "What is under the tree?",
+          "options": [],
+          "answer": "A cute panda",
+          "explanation": "The story says 'It is a cute panda' is under the tree."
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s9",
+      "unitNumber": 5,
+      "unitTitle": "Let's eat!",
+      "storyIndex": 1,
+      "title": "A Hungry Morning",
+      "language": "English",
+      "sentences": [
+        "It is morning.",
+        "Mike is hungry.",
+        "He sees some food.",
+        "I'd like some bread and milk.",
+        "Here you are, Mike.",
+        "Thank you, Mum.",
+        "I like eggs, too."
+      ],
+      "vocabulary_used": [
+        "hungry",
+        "bread",
+        "milk",
+        "I'd like some",
+        "Here you are",
+        "Thank you",
+        "eggs"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Mike is hungry in the morning.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story says 'It is morning' and 'Mike is hungry'."
+        },
+        {
+          "id": 2,
+          "type": "fill_blank_text",
+          "question": "Mike would like some milk and ______.",
+          "options": [],
+          "answer": "bread",
+          "explanation": "In the story, Mike says 'I'd like some bread and milk'."
+        },
+        {
+          "id": 3,
+          "type": "choice",
+          "question": "What else does Mike like?",
+          "options": [
+            "fish",
+            "rice",
+            "eggs",
+            "juice"
+          ],
+          "answer": "eggs",
+          "explanation": "The last sentence says 'I like eggs, too.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s10",
+      "unitNumber": 5,
+      "unitTitle": "Let's eat!",
+      "storyIndex": 2,
+      "title": "Sarah and the Juice",
+      "language": "English",
+      "sentences": [
+        "Sarah is at a party.",
+        "She is very thirsty.",
+        "Can I have some juice, please?",
+        "Yes.",
+        "Have some juice and cake.",
+        "I like juice very much.",
+        "Drink some water, too."
+      ],
+      "vocabulary_used": [
+        "Can I have some",
+        "juice",
+        "cake",
+        "water",
+        "please",
+        "Have some"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "choice",
+          "question": "Where is Sarah?",
+          "options": [
+            "at school",
+            "at a party",
+            "at home",
+            "in the park"
+          ],
+          "answer": "at a party",
+          "explanation": "The first sentence says 'Sarah is at a party'."
+        },
+        {
+          "id": 2,
+          "type": "true_false",
+          "question": "Sarah does not like juice.",
+          "options": [],
+          "answer": "False",
+          "explanation": "Sarah says 'I like juice very much'."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Sarah is told to drink some ______.",
+          "options": [],
+          "answer": "water",
+          "explanation": "The last sentence suggests to 'Drink some water, too'."
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s11",
+      "unitNumber": 6,
+      "unitTitle": "Happy birthday!",
+      "storyIndex": 1,
+      "title": "Sam's Birthday Party",
+      "language": "English",
+      "sentences": [
+        "Today is Sam's birthday.",
+        "He is very happy.",
+        "\"How old are you?\" asks Kate.",
+        "\"I am seven,\" Sam says.",
+        "Kate gives him eight gifts.",
+        "\"Happy birthday!\" says Kate.",
+        "They see a big umbrella."
+      ],
+      "vocabulary_used": [
+        "birthday",
+        "Happy birthday!",
+        "How old are you?",
+        "seven",
+        "eight",
+        "umbrella"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "Sam is eight years old.",
+          "options": [],
+          "answer": "False",
+          "explanation": "Sam says, 'I am seven.'"
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "What does Kate say to Sam?",
+          "options": [
+            "How are you?",
+            "Happy birthday!",
+            "Thank you.",
+            "Good morning."
+          ],
+          "answer": "Happy birthday!",
+          "explanation": "In the story, Kate says 'Happy birthday!' to Sam."
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "Kate gives Sam how many gifts?",
+          "options": [],
+          "answer": "eight",
+          "explanation": "The text says 'Kate gives him eight gifts.'"
+        }
+      ]
+    },
+    {
+      "id": "english-g3up-s12",
+      "unitNumber": 6,
+      "unitTitle": "Happy birthday!",
+      "storyIndex": 2,
+      "title": "Numbers in the Zoo",
+      "language": "English",
+      "sentences": [
+        "Look at the zoo.",
+        "I see six tigers.",
+        "I see nine ducks.",
+        "I see ten pandas.",
+        "The pandas have a cake.",
+        "It is the panda's birthday.",
+        "The pandas like the yellow yo-yo."
+      ],
+      "vocabulary_used": [
+        "six",
+        "nine",
+        "ten",
+        "birthday",
+        "yo-yo"
+      ],
+      "questions": [
+        {
+          "id": 1,
+          "type": "true_false",
+          "question": "The pandas have a cake.",
+          "options": [],
+          "answer": "True",
+          "explanation": "The story mentions the pandas have a cake for the birthday."
+        },
+        {
+          "id": 2,
+          "type": "choice",
+          "question": "How many ducks are in the zoo?",
+          "options": [
+            "six",
+            "seven",
+            "eight",
+            "nine"
+          ],
+          "answer": "nine",
+          "explanation": "The story explicitly states 'I see nine ducks.'"
+        },
+        {
+          "id": 3,
+          "type": "fill_blank_text",
+          "question": "What color is the yo-yo?",
+          "options": [],
+          "answer": "yellow",
+          "explanation": "The last sentence describes the yo-yo as yellow."
+        }
+      ]
+    }
+  ]
+}

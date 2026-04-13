@@ -51,11 +51,14 @@ Thumbs.db
 # ---- Claude / local agent state ----
 .claude/
 
-# ---- TTS 生成物（体积大 / 机器产物） ----
+# ---- 生成物（体积大 / 机器产物 → Release 分发） ----
 frontend/public/audio/
 frontend/public/audio.mp3-backup/
 frontend/public/data/
 frontend/public/data.old-backup/
 frontend/public/textbook-pages/
+frontend/public/story-images/
 scripts/tts/logs/
 scripts/tts/manifest.json
+scripts/tts/ui_manifest.json
+data/stories/*/.cache/

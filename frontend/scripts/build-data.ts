@@ -25,15 +25,20 @@ import type {
   SubjectId,
   Passage,
   BookPassages,
+  Story,
+  StoryQuestion,
+  BookStories,
 } from "../src/types/index.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
 const OUTPUT_SRC = path.resolve(ROOT, "..", "output");
 const PASSAGES_SRC = path.resolve(ROOT, "..", "data", "passages");
+const STORIES_SRC = path.resolve(ROOT, "..", "data", "stories");
 const DATA_DST = path.resolve(ROOT, "public", "data");
 const AUDIO_ROOT = path.resolve(ROOT, "public", "audio");
 const PAGES_ROOT = path.resolve(ROOT, "public", "textbook-pages");
+const STORY_IMAGES_ROOT = path.resolve(ROOT, "public", "story-images");
 
 // ============================================================
 // TTS 音频映射：与 scripts/tts/collect_texts.py 的 hash 规则保持一致
@@ -285,6 +290,138 @@ async function buildPassages(): Promise<Set<string>> {
 }
 
 // ============================================================
+// 故事阅读（stories）构建
+// 读 data/stories/{subject}/{bookId}.json，注入 TTS 音频路径，
+// 输出到 public/data/books/{bookId}/stories.json
+// ============================================================
+
+function decorateStoryQuestion(q: StoryQuestion): StoryQuestion {
+  const audio: NonNullable<StoryQuestion["audio"]> = {};
+  const qa = audioFor(q.question);
+  if (qa) audio.question = qa;
+  if (q.options && q.options.length) {
+    const opts = q.options.map(o => audioFor(o) ?? null);
+    if (opts.some(Boolean)) audio.options = opts;
+  }
+  const ea = audioFor(q.explanation);
+  if (ea) audio.explanation = ea;
+  if (Object.keys(audio).length) q.audio = audio;
+  return q;
+}
+
+async function buildStories(): Promise<Set<string>> {
+  const withStories = new Set<string>();
+  if (!existsSync(STORIES_SRC)) {
+    console.log("  [跳过] data/stories/ 不存在，无故事数据");
+    return withStories;
+  }
+  const subjectDirs = await fs.readdir(STORIES_SRC);
+  let totalBooks = 0;
+  let totalStories = 0;
+  let totalSentences = 0;
+  let audioHit = 0;
+
+  for (const subject of subjectDirs) {
+    const subjectDir = path.join(STORIES_SRC, subject);
+    let stat;
+    try {
+      stat = await fs.stat(subjectDir);
+    } catch {
+      continue;
+    }
+    if (!stat.isDirectory()) continue;
+    // skip cache dir
+    if (subject.startsWith(".")) continue;
+
+    const files = (await fs.readdir(subjectDir)).filter(
+      f => f.endsWith(".json"),
+    );
+    for (const f of files) {
+      const srcPath = path.join(subjectDir, f);
+      let doc: {
+        bookId: string;
+        subject: SubjectId;
+        textbook: string;
+        grade: number;
+        stories: Array<{
+          id: string;
+          unitNumber: number;
+          unitTitle: string;
+          storyIndex: number;
+          title: string;
+          language: "Chinese" | "English";
+          sentences: string[];
+          vocabulary_used?: string[];
+          questions: StoryQuestion[];
+        }>;
+      };
+      try {
+        doc = JSON.parse(await fs.readFile(srcPath, "utf-8"));
+      } catch (e) {
+        console.warn(`  ⚠️  解析失败 ${f}: ${(e as Error).message}`);
+        continue;
+      }
+
+      const bookId = doc.bookId;
+      if (!bookId || !Array.isArray(doc.stories) || doc.stories.length === 0) {
+        continue;
+      }
+
+      const enriched: Story[] = doc.stories.map(s => {
+        // decorate questions
+        s.questions.forEach(decorateStoryQuestion);
+
+        // check for story image
+        const imgPath = path.join(STORY_IMAGES_ROOT, bookId, `${s.id}.jpg`);
+        const image = existsSync(imgPath) ? `/story-images/${bookId}/${s.id}.jpg` : undefined;
+
+        return {
+          id: s.id,
+          bookId,
+          unitNumber: s.unitNumber,
+          unitTitle: s.unitTitle,
+          storyIndex: s.storyIndex,
+          title: s.title,
+          language: s.language,
+          sentences: s.sentences.map(text => {
+            const audio = audioFor(text);
+            if (audio) audioHit++;
+            totalSentences++;
+            return { text, audio };
+          }),
+          questions: s.questions,
+          image,
+        };
+      });
+
+      const bookDir = path.join(DATA_DST, "books", bookId);
+      await fs.mkdir(bookDir, { recursive: true });
+      const out: BookStories = {
+        bookId,
+        subject: doc.subject,
+        textbook: doc.textbook,
+        stories: enriched,
+      };
+      await fs.writeFile(
+        path.join(bookDir, "stories.json"),
+        JSON.stringify(out, null, 2),
+        "utf-8",
+      );
+
+      withStories.add(bookId);
+      totalBooks++;
+      totalStories += enriched.length;
+    }
+  }
+
+  console.log(
+    `📚 故事阅读: ${totalBooks} 本 / ${totalStories} 篇 / ${totalSentences} 句 ` +
+      `(${audioHit} 句已生成 TTS, ${totalSentences - audioHit} 句待合成)`,
+  );
+  return withStories;
+}
+
+// ============================================================
 // 学科配置（与 Python 侧 subjects.py 对齐）
 // ============================================================
 
@@ -494,8 +631,9 @@ async function main() {
   const audio = await buildAudioIndex();
   console.log(`🔊 已索引 ${audio.size} 个 TTS 音频文件`);
 
-  // 构建课文听读（在教材处理之前跑一次，得到 bookId → 有无课文 的映射）
+  // 构建课文听读 + 故事阅读（在教材处理之前跑一次，得到 bookId → 有无课文/故事 的映射）
   const booksWithPassages = await buildPassages();
+  const booksWithStories = await buildStories();
 
   const books: Book[] = [];
   let totalLessons = 0;
@@ -529,6 +667,9 @@ async function main() {
       if (!result) continue;
       if (booksWithPassages.has(result.book.id)) {
         result.book.hasPassages = true;
+      }
+      if (booksWithStories.has(result.book.id)) {
+        result.book.hasStories = true;
       }
       books.push(result.book);
       totalLessons += result.lessonCount;

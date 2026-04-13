@@ -64,12 +64,12 @@ if ((Test-Path $dataDir) -and (Get-ChildItem $dataDir -ErrorAction SilentlyConti
     Download-And-Extract "data.tar.gz" $PublicDir
 }
 
-# Download textbook pages
+# Download textbook-pages
 Write-Host ""
-Write-Host "--- 下载课本原页图片 ---" -ForegroundColor Cyan
+Write-Host "--- 下载课本原页扫描图 (JPG) ---" -ForegroundColor Cyan
 $pagesDir = Join-Path $PublicDir "textbook-pages"
-if ((Test-Path $pagesDir) -and (Get-ChildItem $pagesDir -ErrorAction SilentlyContinue | Select-Object -First 1)) {
-    Write-Host "  跳过 (目录已存在且非空)" -ForegroundColor Yellow
+if ((Test-Path $pagesDir) -and (Get-ChildItem $pagesDir -Filter "*.jpg" -Recurse -ErrorAction SilentlyContinue | Select-Object -First 1)) {
+    Write-Host "  跳过 (目录已存在且含 jpg 文件)" -ForegroundColor Yellow
 } else {
     Download-And-Extract "textbook-pages.tar.gz" $PublicDir
 }

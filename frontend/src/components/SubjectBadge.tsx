@@ -18,10 +18,13 @@ interface SubjectBadgeProps {
 
 export function SubjectBadge({ book, size = "sm", className }: SubjectBadgeProps) {
   const subject = resolveSubject(book);
-  const sizeClass = size === "md" ? "px-3 py-1 text-sm" : "px-2 py-0.5 text-xs";
+  const sizeClass =
+    size === "md"
+      ? "h-7 px-3 text-sm"
+      : "h-5 px-1.5 text-[11px] leading-none";
   return (
     <span
-      className={`inline-flex items-center gap-1 rounded-full border-2 font-extrabold ${sizeClass} ${subject.badgeClasses} ${className ?? ""}`}
+      className={`inline-flex items-center gap-1 rounded-full border-2 font-extrabold tracking-tight ${sizeClass} ${subject.badgeClasses} ${className ?? ""}`}
     >
       {subject.label}
     </span>

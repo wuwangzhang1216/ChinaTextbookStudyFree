@@ -36,7 +36,7 @@ export function MuteToggle({ className }: MuteToggleProps) {
           playSfx("tap");
         }
       }}
-      className={`text-ink-light hover:text-ink transition-colors ${className ?? ""}`}
+      className={`h-8 w-8 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors ${className ?? ""}`}
     >
       {muted ? <VolumeMute className="w-5 h-5" /> : <Volume className="w-5 h-5" />}
     </button>
@@ -60,7 +60,7 @@ export function AutoNarrateToggle({ className }: MuteToggleProps) {
         toggleAutoNarrate();
         playSfx("tap");
       }}
-      className={`inline-flex items-center gap-1 px-2 h-7 rounded-full text-xs font-extrabold transition-colors ${
+      className={`h-8 px-2.5 inline-flex items-center gap-1 rounded-full text-xs font-extrabold transition-colors ${
         autoNarrate
           ? "bg-primary/15 text-primary-dark hover:bg-primary/25"
           : "bg-bg-soft text-ink-softer hover:bg-bg-softer"

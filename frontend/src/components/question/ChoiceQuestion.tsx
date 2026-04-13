@@ -89,53 +89,58 @@ export function ChoiceQuestion({ question, answer, phase, isCorrect, onChange }:
           // 答错时在正确选项上播放脉冲高亮，引导用户注意
           const shouldPulse = phase === "checked" && !isCorrect && isThisCorrect;
 
+          const optionAudio = question.audio?.options?.[idx] ?? null;
           return (
-            <motion.button
-              key={idx}
-              type="button"
-              disabled={phase === "checked"}
-              onClick={e => handleTap(letter, e)}
-              className={cn("w-full text-left flex items-center gap-3 relative", cls)}
-              whileTap={phase === "answering" ? { scale: 0.985 } : undefined}
-              animate={
-                shouldPulse
-                  ? {
-                      boxShadow: [
-                        "0 2px 0 0 #58a700, 0 0 0 0 rgba(88,204,2,0.6)",
-                        "0 2px 0 0 #58a700, 0 0 0 12px rgba(88,204,2,0)",
-                        "0 2px 0 0 #58a700, 0 0 0 0 rgba(88,204,2,0.6)",
-                      ],
-                    }
-                  : undefined
-              }
-              transition={shouldPulse ? { duration: 1.3, repeat: Infinity } : undefined}
-            >
-              <motion.span
-                animate={selected ? { scale: [1, 1.18, 1], backgroundColor: "#1CB0F6", color: "#FFFFFF" } : { scale: 1 }}
-                transition={{ duration: 0.25 }}
-                className="w-8 h-8 rounded-full bg-bg-soft flex items-center justify-center font-extrabold text-ink-light shrink-0"
+            <div key={idx} className="flex items-stretch gap-2">
+              <motion.button
+                type="button"
+                disabled={phase === "checked"}
+                onClick={e => handleTap(letter, e)}
+                className={cn("flex-1 text-left flex items-center gap-3 relative", cls)}
+                whileTap={phase === "answering" ? { scale: 0.98 } : undefined}
+                animate={
+                  shouldPulse
+                    ? {
+                        boxShadow: [
+                          "0 2px 0 0 #58a700, 0 0 0 0 rgba(88,204,2,0.6)",
+                          "0 2px 0 0 #58a700, 0 0 0 12px rgba(88,204,2,0)",
+                          "0 2px 0 0 #58a700, 0 0 0 0 rgba(88,204,2,0.6)",
+                        ],
+                      }
+                    : undefined
+                }
+                transition={shouldPulse ? { duration: 1.3, repeat: Infinity } : undefined}
               >
-                {letter}
-              </motion.span>
-              <span className="flex-1">
-                <MathText text={display} />
-              </span>
-              <TTSButton
-                src={question.audio?.options?.[idx] ?? null}
-                size="sm"
-                label={`朗读选项 ${letter}`}
-                className="ml-2"
-              />
+                <motion.span
+                  animate={selected ? { scale: [1, 1.18, 1], backgroundColor: "#1CB0F6", color: "#FFFFFF" } : { scale: 1 }}
+                  transition={{ duration: 0.25 }}
+                  className="w-8 h-8 rounded-full bg-bg-soft flex items-center justify-center font-extrabold text-ink-light shrink-0"
+                >
+                  {letter}
+                </motion.span>
+                <span className="flex-1">
+                  <MathText text={display} />
+                </span>
 
-              {/* Ripple */}
-              {(ripples[letter] ?? []).map(r => (
-                <span
-                  key={r.id}
-                  className="ripple-dot text-secondary"
-                  style={{ left: r.x - 8, top: r.y - 8, width: 16, height: 16 }}
-                />
-              ))}
-            </motion.button>
+                {/* Ripple */}
+                {(ripples[letter] ?? []).map(r => (
+                  <span
+                    key={r.id}
+                    className="ripple-dot text-secondary"
+                    style={{ left: r.x - 8, top: r.y - 8, width: 16, height: 16 }}
+                  />
+                ))}
+              </motion.button>
+              {optionAudio && (
+                <div className="flex items-center">
+                  <TTSButton
+                    src={optionAudio}
+                    size="sm"
+                    label={`朗读选项 ${letter}`}
+                  />
+                </div>
+              )}
+            </div>
           );
         })}
       </div>

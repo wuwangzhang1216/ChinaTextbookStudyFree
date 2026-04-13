@@ -3,12 +3,25 @@
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
 import type { Question, LessonResult } from "@/types";
+import { DEFAULT_EQUIPPED, getCosmeticById, getStarterCosmetics } from "@/lib/cosmetics";
 
+/**
+ * 错题条目，含 SRS（间隔重复）字段。
+ * box / correctCount / lastReviewedAt / nextReviewDate 由 lib/srs.ts 维护。
+ */
 interface MistakeEntry {
   lessonId: string;
   lessonTitle?: string;
   question: Question;
   addedAt: string;
+  /** SRS box（1=新错题/今天复习，2=明天，3=毕业级 7 天） */
+  box?: 1 | 2 | 3;
+  /** 累计答对次数 */
+  correctCount?: number;
+  /** 上次复习时间（ISO） */
+  lastReviewedAt?: string;
+  /** 下次复习日期（YYYY-MM-DD），<= today 即可复习 */
+  nextReviewDate?: string;
 }
 
 /**
@@ -53,6 +66,32 @@ interface ProgressState {
   // 未完成课程会话
   activeLesson: ActiveLessonSession | null;
 
+  // 💎 宝石货币 / 宝箱 / 首次完美通关记录
+  gems: number;
+  lifetimeGems: number;
+  claimedChests: Record<string, true>;
+  perfectedLessons: Record<string, true>;
+
+  // 🎨 美妆系统 v4
+  /** 已解锁的 cosmetic id 集合 */
+  ownedCosmetics: Record<string, true>;
+  /** 当前装备的吉祥物皮肤 id */
+  equippedMascotSkin: string;
+  /** 当前装备的 UI 主题 id */
+  equippedTheme: string;
+  /** 当前装备的课程背景 id */
+  equippedBackdrop: string;
+  /** 已发放过的"连胜里程碑"礼物（防止重复发） */
+  claimedStreakRewards: Record<number, true>;
+
+  // ⏱️ 时间关怀（家长可选开启） v4
+  /** 每日累计学习时间（毫秒，按 lastXpDate 重置） */
+  todayTimeMs: number;
+  /** 单日学习时间上限（毫秒），0 表示无限制 */
+  dailyTimeLimitMs: number;
+  /** 单次课程时长上限（毫秒），0 表示无限制 */
+  sessionTimeLimitMs: number;
+
   // actions
   recordLessonComplete: (lessonId: string, lessonTitle: string, accuracy: number, xpGained: number) => void;
   addMistake: (lessonId: string, lessonTitle: string, question: Question) => void;
@@ -71,7 +110,54 @@ interface ProgressState {
   upsertLessonSession: (session: ActiveLessonSession) => void;
   /** 清除进行中的会话（通关/退出/失败时调用） */
   clearLessonSession: () => void;
+
+  // 💎 宝石 / 宝箱 / 首次完美
+  addGems: (n: number) => void;
+  /** 花费宝石，成功返回 true，不够返回 false */
+  spendGems: (n: number) => boolean;
+  /** 标记某课为已首次完美通关（幂等），返回 true 表示是首次 */
+  markPerfected: (lessonId: string) => boolean;
+  /** 领取宝箱（幂等），返回 true 表示是首次领取 */
+  claimChest: (chestId: string) => boolean;
+
+  // 🎨 美妆系统 actions
+  /** 拥有 cosmetic（不扣 gems，比如初始赠送 / 任务奖励） */
+  unlockCosmetic: (id: string) => void;
+  /** 购买 cosmetic：扣 gems → 加入 owned → 自动装备。失败返回 false（gems 不够 / 已拥有 / 道具不存在） */
+  purchaseCosmetic: (id: string) => { ok: boolean; reason?: string };
+  /** 切换装备（必须已拥有） */
+  equipCosmetic: (id: string) => boolean;
+
+  // ⏱️ 时间关怀 actions
+  setDailyTimeLimit: (ms: number) => void;
+  setSessionTimeLimit: (ms: number) => void;
+  /** 课程过程中按秒累加学习时间 */
+  addLearningTimeMs: (ms: number) => void;
+
+  // 🔁 连胜补卡：花 50 gems 找回昨天的 streak（不让小朋友因为漏了一天就清零）
+  makeUpYesterdayStreak: () => boolean;
+
+  // 📚 SRS：复习答题后的更新
+  reviewMistake: (lessonId: string, questionId: number, isCorrect: boolean) => void;
 }
+
+/** 美妆系统：单次连胜里程碑奖励的 gems 数（按里程碑 stage） */
+export const STREAK_MILESTONE_REWARDS: Record<number, number> = {
+  3: 30,
+  7: 80,
+  14: 150,
+  30: 300,
+  60: 500,
+  100: 800,
+};
+
+/** 连胜补卡价格 */
+export const STREAK_MAKEUP_COST = 50;
+
+/** 首次三星（零失误）通关的额外 XP 奖励 */
+export const FIRST_PERFECT_XP_BONUS = 5;
+/** 每多少课出现一个宝箱节点 */
+export const CHEST_EVERY_N_LESSONS = 5;
 
 // ============================================================
 // 常量
@@ -136,23 +222,75 @@ export const useProgressStore = create<ProgressState>()(
 
       activeLesson: null,
 
+      gems: 0,
+      lifetimeGems: 0,
+      claimedChests: {},
+      perfectedLessons: {},
+
+      // 美妆系统初值（首次启动 = 仅持有 starter 道具）
+      ownedCosmetics: Object.fromEntries(
+        getStarterCosmetics().map(c => [c.id, true as const]),
+      ),
+      equippedMascotSkin: DEFAULT_EQUIPPED.mascotSkin,
+      equippedTheme: DEFAULT_EQUIPPED.uiTheme,
+      equippedBackdrop: DEFAULT_EQUIPPED.lessonBackdrop,
+      claimedStreakRewards: {},
+
+      // 时间关怀（默认全部关闭，家长在 profile 里手动开）
+      todayTimeMs: 0,
+      dailyTimeLimitMs: 0,
+      sessionTimeLimitMs: 0,
+
       recordLessonComplete: (lessonId, lessonTitle, accuracy, xpGained) => {
+        const stars = starsFromAccuracy(accuracy);
         const result: LessonResult = {
           lessonId,
-          stars: starsFromAccuracy(accuracy),
+          stars,
           accuracy,
           completedAt: new Date().toISOString(),
         };
         const today = todayStr();
+
+        // === 💎 gem 经济：每节课的通关奖励 ===
+        // 基础：3 gems / 课
+        // 二星：+5 / 三星：+10
+        // 首次完美：+15
+        let gemsGained = 3;
+        if (stars === 2) gemsGained += 5;
+        if (stars === 3) gemsGained += 10;
+        const isFirstPerfect = stars === 3 && !get().perfectedLessons[lessonId];
+        if (isFirstPerfect) gemsGained += 15;
+
         set(state => {
-          const todayXp = state.lastXpDate === today ? state.todayXp + xpGained : xpGained;
+          const isSameDay = state.lastXpDate === today;
+          const prevTodayXp = isSameDay ? state.todayXp : 0;
+          const newTodayXp = prevTodayXp + xpGained;
+
+          // === 每日目标达成奖励：首次跨过 dailyGoal 阈值时给一次性 +20 gems ===
+          let bonusGoalGems = 0;
+          if (
+            prevTodayXp < state.dailyGoal &&
+            newTodayXp >= state.dailyGoal &&
+            state.dailyGoal > 0
+          ) {
+            bonusGoalGems = 20;
+          }
+          const totalGems = gemsGained + bonusGoalGems;
+
           return {
             xp: state.xp + xpGained,
             completedLessons: { ...state.completedLessons, [lessonId]: result },
-            todayXp,
+            todayXp: newTodayXp,
             lastXpDate: today,
+            gems: state.gems + totalGems,
+            lifetimeGems: state.lifetimeGems + totalGems,
           };
         });
+
+        if (isFirstPerfect) {
+          get().markPerfected(lessonId);
+        }
+
         get().bumpStreakIfNeeded();
         // 通关后：如当前课程的错题都已掌握（用户通过），自动移除该课的错题
         // 保守起见：准确率 100% 才清理，否则保留待复习
@@ -164,12 +302,22 @@ export const useProgressStore = create<ProgressState>()(
       },
 
       addMistake: (lessonId, lessonTitle, question) => {
+        const today = todayStr();
         set(state => ({
           mistakesBank: [
             ...state.mistakesBank.filter(
               m => !(m.lessonId === lessonId && m.question.id === question.id),
             ),
-            { lessonId, lessonTitle, question, addedAt: new Date().toISOString() },
+            {
+              lessonId,
+              lessonTitle,
+              question,
+              addedAt: new Date().toISOString(),
+              // SRS 初值：box 1，今天就该复习
+              box: 1,
+              correctCount: 0,
+              nextReviewDate: today,
+            },
           ],
         }));
       },
@@ -192,31 +340,45 @@ export const useProgressStore = create<ProgressState>()(
         const today = todayStr();
         const { lastActiveDate, streak, streakFreezes } = get();
         if (lastActiveDate === today) return;
+        let newStreak = streak;
         if (lastActiveDate === "") {
+          newStreak = 1;
           set({ streak: 1, lastActiveDate: today });
-          return;
-        }
-        const gap = daysBetween(lastActiveDate, today);
-        if (gap === 1) {
-          // 正常连续
-          const newStreak = streak + 1;
-          // 周一自动补充护盾（最多到上限）
-          const newFreezes =
-            isMonday() && streakFreezes < MAX_FREEZES ? streakFreezes + 1 : streakFreezes;
-          set({ streak: newStreak, lastActiveDate: today, streakFreezes: newFreezes });
-        } else if (gap > 1) {
-          const missed = gap - 1;
-          if (streakFreezes >= missed) {
-            // 护盾生效：保留连胜
-            set({
-              streak: streak + 1,
-              lastActiveDate: today,
-              streakFreezes: streakFreezes - missed,
-            });
-          } else {
-            // 连胜中断
-            set({ streak: 1, lastActiveDate: today });
+        } else {
+          const gap = daysBetween(lastActiveDate, today);
+          if (gap === 1) {
+            // 正常连续
+            newStreak = streak + 1;
+            const newFreezes =
+              isMonday() && streakFreezes < MAX_FREEZES ? streakFreezes + 1 : streakFreezes;
+            set({ streak: newStreak, lastActiveDate: today, streakFreezes: newFreezes });
+          } else if (gap > 1) {
+            const missed = gap - 1;
+            if (streakFreezes >= missed) {
+              newStreak = streak + 1;
+              set({
+                streak: newStreak,
+                lastActiveDate: today,
+                streakFreezes: streakFreezes - missed,
+              });
+            } else {
+              newStreak = 1;
+              set({ streak: 1, lastActiveDate: today });
+            }
           }
+        }
+
+        // === 💎 连胜里程碑奖励：3/7/14/30/60/100 天 ===
+        const reward = STREAK_MILESTONE_REWARDS[newStreak];
+        if (reward && !get().claimedStreakRewards[newStreak]) {
+          set(state => ({
+            gems: state.gems + reward,
+            lifetimeGems: state.lifetimeGems + reward,
+            claimedStreakRewards: {
+              ...state.claimedStreakRewards,
+              [newStreak]: true,
+            },
+          }));
         }
       },
 
@@ -275,14 +437,182 @@ export const useProgressStore = create<ProgressState>()(
       clearLessonSession: () => {
         set({ activeLesson: null });
       },
+
+      // --------------------------------------------------------
+      // 💎 宝石 / 宝箱 / 首次完美
+      // --------------------------------------------------------
+
+      addGems: n => {
+        if (n <= 0) return;
+        set(state => ({
+          gems: state.gems + n,
+          lifetimeGems: state.lifetimeGems + n,
+        }));
+      },
+
+      spendGems: n => {
+        if (n <= 0) return true;
+        const { gems } = get();
+        if (gems < n) return false;
+        set({ gems: gems - n });
+        return true;
+      },
+
+      markPerfected: lessonId => {
+        const { perfectedLessons } = get();
+        if (perfectedLessons[lessonId]) return false;
+        set({ perfectedLessons: { ...perfectedLessons, [lessonId]: true } });
+        return true;
+      },
+
+      claimChest: chestId => {
+        const { claimedChests } = get();
+        if (claimedChests[chestId]) return false;
+        set({ claimedChests: { ...claimedChests, [chestId]: true } });
+        return true;
+      },
+
+      // --------------------------------------------------------
+      // 🎨 美妆系统
+      // --------------------------------------------------------
+
+      unlockCosmetic: id => {
+        const item = getCosmeticById(id);
+        if (!item) return;
+        set(state => ({
+          ownedCosmetics: { ...state.ownedCosmetics, [id]: true },
+        }));
+      },
+
+      purchaseCosmetic: id => {
+        const item = getCosmeticById(id);
+        if (!item) return { ok: false, reason: "未找到道具" };
+        const { ownedCosmetics, gems } = get();
+        if (ownedCosmetics[id]) return { ok: false, reason: "已经拥有了" };
+        if (gems < item.cost) return { ok: false, reason: "宝石不够" };
+        set(state => ({
+          gems: state.gems - item.cost,
+          ownedCosmetics: { ...state.ownedCosmetics, [id]: true },
+        }));
+        // 自动装备购买的道具
+        get().equipCosmetic(id);
+        return { ok: true };
+      },
+
+      equipCosmetic: id => {
+        const item = getCosmeticById(id);
+        if (!item) return false;
+        const { ownedCosmetics } = get();
+        if (!ownedCosmetics[id]) return false;
+        if (item.type === "mascot_skin") set({ equippedMascotSkin: id });
+        else if (item.type === "ui_theme") set({ equippedTheme: id });
+        else if (item.type === "lesson_backdrop") set({ equippedBackdrop: id });
+        return true;
+      },
+
+      // --------------------------------------------------------
+      // ⏱️ 时间关怀
+      // --------------------------------------------------------
+
+      setDailyTimeLimit: ms => {
+        set({ dailyTimeLimitMs: Math.max(0, ms) });
+      },
+
+      setSessionTimeLimit: ms => {
+        set({ sessionTimeLimitMs: Math.max(0, ms) });
+      },
+
+      addLearningTimeMs: ms => {
+        if (ms <= 0) return;
+        const today = todayStr();
+        set(state => {
+          const isSameDay = state.lastXpDate === today;
+          const prev = isSameDay ? state.todayTimeMs : 0;
+          return {
+            todayTimeMs: prev + ms,
+            lastXpDate: today,
+          };
+        });
+      },
+
+      // --------------------------------------------------------
+      // 🔁 连胜补卡（消耗 50 gems 找回昨天的 streak）
+      // --------------------------------------------------------
+
+      // --------------------------------------------------------
+      // 📚 SRS：复习答题后更新错题状态
+      // --------------------------------------------------------
+
+      reviewMistake: (lessonId, questionId, isCorrect) => {
+        set(state => ({
+          mistakesBank: state.mistakesBank
+            .map(m => {
+              if (m.lessonId !== lessonId || m.question.id !== questionId) return m;
+              const today = new Date();
+              const todayDateStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+              if (!isCorrect) {
+                // 答错 → 重置回 box 1
+                return {
+                  ...m,
+                  box: 1 as const,
+                  correctCount: 0,
+                  lastReviewedAt: today.toISOString(),
+                  nextReviewDate: todayDateStr,
+                };
+              }
+              const correctCount = (m.correctCount ?? 0) + 1;
+              const currentBox = m.box ?? 1;
+              const nextBox: 1 | 2 | 3 = currentBox >= 3 ? 3 : ((currentBox + 1) as 2 | 3);
+              const intervalDays = nextBox === 2 ? 1 : nextBox === 3 ? 3 : 7;
+              const next = new Date(today);
+              next.setDate(next.getDate() + intervalDays);
+              const nextDateStr = `${next.getFullYear()}-${String(next.getMonth() + 1).padStart(2, "0")}-${String(next.getDate()).padStart(2, "0")}`;
+              return {
+                ...m,
+                box: nextBox,
+                correctCount,
+                lastReviewedAt: today.toISOString(),
+                nextReviewDate: nextDateStr,
+              };
+            }),
+        }));
+      },
+
+      makeUpYesterdayStreak: () => {
+        const { gems, streak, lastActiveDate } = get();
+        if (gems < STREAK_MAKEUP_COST) return false;
+        const today = todayStr();
+        // 必须是今天没活动过 + 昨天断了
+        if (lastActiveDate === today) return false;
+        const gap = daysBetween(lastActiveDate, today);
+        if (gap < 2) return false;
+        // 扣 gems + 把 lastActiveDate 设回昨天，下次 bumpStreakIfNeeded 会顺延
+        set({
+          gems: gems - STREAK_MAKEUP_COST,
+          // 假装"昨天有学过" → 让 bumpStreakIfNeeded 看到 gap=1
+          lastActiveDate: (() => {
+            const d = new Date();
+            d.setDate(d.getDate() - 1);
+            return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+          })(),
+          streak,
+        });
+        return true;
+      },
     }),
     {
       name: "csf-progress-v1",
       storage: createJSONStorage(() => localStorage),
-      // 版本迁移：v3 新增 autoNarrate
-      version: 3,
+      // 版本迁移：
+      //   v1 → v2：新增 hearts / dailyGoal / freezes / activeLesson
+      //   v2 → v3：新增 gems / lifetimeGems / claimedChests / perfectedLessons + autoNarrate
+      //   v3 → v4：新增美妆系统 ownedCosmetics / equippedXxx + claimedStreakRewards + 时间关怀
+      version: 4,
       migrate: (persistedState: unknown) => {
         const state = (persistedState as Partial<ProgressState>) ?? {};
+        const starterOwned = Object.fromEntries(
+          getStarterCosmetics().map(c => [c.id, true as const]),
+        );
         return {
           ...state,
           hearts: state.hearts ?? MAX_HEARTS,
@@ -293,6 +623,19 @@ export const useProgressStore = create<ProgressState>()(
           streakFreezes: state.streakFreezes ?? MAX_FREEZES,
           activeLesson: state.activeLesson ?? null,
           autoNarrate: state.autoNarrate ?? true,
+          gems: state.gems ?? 0,
+          lifetimeGems: state.lifetimeGems ?? 0,
+          claimedChests: state.claimedChests ?? {},
+          perfectedLessons: state.perfectedLessons ?? {},
+          // v4 新字段
+          ownedCosmetics: { ...starterOwned, ...(state.ownedCosmetics ?? {}) },
+          equippedMascotSkin: state.equippedMascotSkin ?? DEFAULT_EQUIPPED.mascotSkin,
+          equippedTheme: state.equippedTheme ?? DEFAULT_EQUIPPED.uiTheme,
+          equippedBackdrop: state.equippedBackdrop ?? DEFAULT_EQUIPPED.lessonBackdrop,
+          claimedStreakRewards: state.claimedStreakRewards ?? {},
+          todayTimeMs: state.todayTimeMs ?? 0,
+          dailyTimeLimitMs: state.dailyTimeLimitMs ?? 0,
+          sessionTimeLimitMs: state.sessionTimeLimitMs ?? 0,
         } as ProgressState;
       },
     },

@@ -47,8 +47,8 @@ export function FillBlankQuestion({ question, answer, phase, isCorrect, onChange
     displayCls = cn(
       displayCls,
       isCorrect
-        ? "border-primary bg-primary/10 text-primary-dark"
-        : "border-danger bg-danger/10 text-danger-dark",
+        ? "border-primary bg-primary/20 text-primary-dark"
+        : "border-danger bg-danger/15 text-danger-dark",
     );
   } else {
     displayCls = cn(displayCls, "border-secondary bg-white text-ink shadow-glow");
@@ -90,12 +90,13 @@ export function FillBlankQuestion({ question, answer, phase, isCorrect, onChange
             type="button"
             disabled={disabled}
             onClick={() => handleKey(k)}
-            whileTap={!disabled ? { scale: 0.92 } : undefined}
+            whileTap={!disabled ? { scale: 0.96 } : undefined}
             className={cn(
               "h-14 rounded-2xl text-2xl font-extrabold bg-white border-2 border-bg-softer text-ink",
-              "active:bg-bg-soft disabled:opacity-50 disabled:cursor-not-allowed",
+              "hover:border-secondary/60 active:translate-y-[2px] active:shadow-none disabled:opacity-50 disabled:cursor-not-allowed transition-colors",
               k === "⌫" && "text-danger",
             )}
+            style={{ boxShadow: "0 3px 0 0 #e5e5e5" }}
           >
             {k}
           </motion.button>

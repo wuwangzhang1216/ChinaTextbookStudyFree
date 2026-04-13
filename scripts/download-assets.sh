@@ -64,10 +64,10 @@ fi
 
 # ---- Download textbook-pages (tar.gz) ----
 echo ""
-echo "--- 下载课本原页图片 ---"
+echo "--- 下载课本原页扫描图 (JPG) ---"
 PAGES_DIR="$PUBLIC_DIR/textbook-pages"
-if [ -d "$PAGES_DIR" ] && [ "$(ls -A "$PAGES_DIR" 2>/dev/null)" ]; then
-  echo "  跳过 (目录已存在且非空: $PAGES_DIR)"
+if [ -d "$PAGES_DIR" ] && [ "$(find "$PAGES_DIR" -name '*.jpg' 2>/dev/null | head -1)" ]; then
+  echo "  跳过 (目录已存在且含 jpg 文件: $PAGES_DIR)"
 else
   echo "  下载 textbook-pages.tar.gz ..."
   curl -L --progress-bar -o "/tmp/textbook-pages.tar.gz" "$BASE_URL/textbook-pages.tar.gz"
@@ -75,7 +75,7 @@ else
   mkdir -p "$PUBLIC_DIR"
   tar xzf "/tmp/textbook-pages.tar.gz" -C "$PUBLIC_DIR"
   rm -f "/tmp/textbook-pages.tar.gz"
-  echo "  完成 ✓ ($(find "$PAGES_DIR" -type f | wc -l) 张课本页)"
+  echo "  完成 ✓ ($(find "$PAGES_DIR" -name '*.jpg' | wc -l) 张课本扫描页)"
 fi
 
 echo ""

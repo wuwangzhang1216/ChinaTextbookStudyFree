@@ -7,54 +7,93 @@ import { useProgressStore } from "@/store/progress";
 import { Mascot } from "@/components/Mascot";
 import { MathText } from "@/components/MathText";
 import { StatsBar } from "@/components/StatsBar";
-import { ArrowLeft, Bookmark, Trash, CheckCircle } from "@/components/icons";
+import { ArrowLeft, Bookmark, Check, XCircle, CheckCircle } from "@/components/icons";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 
+/** 把"YYYY-MM-DD"和今天比较，<= today 即为可复习 */
+function isDueToday(dateStr?: string): boolean {
+  if (!dateStr) return true;
+  const d = new Date();
+  const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  return dateStr <= today;
+}
+
+const BOX_LABELS: Record<number, { label: string; color: string }> = {
+  1: { label: "新错题", color: "text-danger bg-danger/10 border-danger/30" },
+  2: { label: "再练练", color: "text-warning bg-warning/10 border-warning/40" },
+  3: { label: "快掌握了", color: "text-primary-dark bg-primary/10 border-primary/30" },
+};
+
 export function ReviewClient() {
   const mistakes = useProgressStore(s => s.mistakesBank);
-  const removeMistake = useProgressStore(s => s.removeMistake);
+  const reviewMistake = useProgressStore(s => s.reviewMistake);
 
   const [hydrated, setHydrated] = useState(false);
   useEffect(() => setHydrated(true), []);
 
+  // SRS 排序：先 box 1 → 2 → 3，同 box 内按 lastReviewedAt 旧的优先
+  const sortedMistakes = hydrated
+    ? [...mistakes].sort((a, b) => {
+        const ba = a.box ?? 1;
+        const bb = b.box ?? 1;
+        if (ba !== bb) return ba - bb;
+        const la = a.lastReviewedAt ?? a.addedAt;
+        const lb = b.lastReviewedAt ?? b.addedAt;
+        return la.localeCompare(lb);
+      })
+    : [];
+
   // 按 lessonId 分组
-  const grouped = hydrated
-    ? mistakes.reduce<Record<string, { title: string; items: typeof mistakes }>>((acc, m) => {
-        const key = m.lessonId;
-        if (!acc[key]) acc[key] = { title: m.lessonTitle || m.lessonId, items: [] };
-        acc[key].items.push(m);
-        return acc;
-      }, {})
-    : {};
+  const grouped = sortedMistakes.reduce<Record<string, { title: string; items: typeof mistakes }>>((acc, m) => {
+    const key = m.lessonId;
+    if (!acc[key]) acc[key] = { title: m.lessonTitle || m.lessonId, items: [] };
+    acc[key].items.push(m);
+    return acc;
+  }, {});
   const groupEntries = Object.entries(grouped);
   const totalMistakes = hydrated ? mistakes.length : 0;
+  const dueCount = hydrated
+    ? mistakes.filter(m => isDueToday(m.nextReviewDate)).length
+    : 0;
 
   return (
     <main className="min-h-screen bg-bg-soft relative">
       {/* Header */}
       <div className="bg-white border-b border-bg-softer sticky top-0 z-10">
-        <div className="max-w-2xl mx-auto flex items-center justify-between gap-3 px-4 py-3">
-          <SoundLink href="/" className="text-ink-light hover:text-primary shrink-0">
-            <ArrowLeft className="w-6 h-6" />
+        <div className="max-w-2xl lg:max-w-4xl mx-auto flex items-center justify-between gap-3 px-4 py-3">
+          <SoundLink
+            href="/"
+            aria-label="返回"
+            className="inline-flex items-center justify-center w-10 h-10 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0"
+          >
+            <ArrowLeft className="w-5 h-5" />
           </SoundLink>
-          <div className="flex-1 text-center">
-            <div className="text-lg font-extrabold text-ink flex items-center justify-center gap-2">
-              <Bookmark className="w-5 h-5 text-primary" /> 错题本
+          <div className="flex-1 min-w-0 text-center">
+            <div className="text-base lg:text-lg font-extrabold text-ink flex items-center justify-center gap-1.5 truncate">
+              <Bookmark className="w-4 h-4 lg:w-5 lg:h-5 text-primary shrink-0" />
+              <span>错题本</span>
             </div>
-            <div className="text-xs text-ink-light">
-              {hydrated ? `${totalMistakes} 道错题待复习` : "\u00a0"}
+            <div className="text-[11px] lg:text-xs text-ink-light truncate">
+              {hydrated
+                ? `共 ${totalMistakes} 道 · 今天该复习 ${dueCount} 道`
+                : "\u00a0"}
             </div>
           </div>
-          <StatsBar />
+          <div className="lg:hidden shrink-0">
+            <StatsBar compact />
+          </div>
+          <div className="hidden lg:flex shrink-0">
+            <StatsBar />
+          </div>
         </div>
       </div>
 
-      <div className="max-w-2xl mx-auto px-4 py-6">
+      <div className="max-w-2xl lg:max-w-4xl mx-auto px-4 py-6">
         {hydrated && totalMistakes === 0 ? (
           <EmptyState />
         ) : (
-          <div className="space-y-6">
+          <div className="space-y-6 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-6 lg:items-start">
             {groupEntries.map(([lessonId, group], gi) => (
               <motion.section
                 key={lessonId}
@@ -77,10 +116,17 @@ export function ReviewClient() {
                       questionText={m.question.question}
                       correctAnswer={m.question.answer}
                       explanation={m.question.explanation}
-                      onRemove={() => {
-                        playSfx("tap");
-                        haptic("light");
-                        removeMistake(lessonId, m.question.id);
+                      box={m.box ?? 1}
+                      due={isDueToday(m.nextReviewDate)}
+                      onMarkCorrect={() => {
+                        playSfx("correct");
+                        haptic("success");
+                        reviewMistake(lessonId, m.question.id, true);
+                      }}
+                      onMarkWrong={() => {
+                        playSfx("wrong");
+                        haptic("medium");
+                        reviewMistake(lessonId, m.question.id, false);
                       }}
                     />
                   ))}
@@ -113,26 +159,43 @@ interface MistakeItemProps {
   questionText: string;
   correctAnswer: string;
   explanation: string;
-  onRemove: () => void;
+  box: 1 | 2 | 3;
+  due: boolean;
+  onMarkCorrect: () => void;
+  onMarkWrong: () => void;
 }
 
 function MistakeItem({
   questionText,
   correctAnswer,
   explanation,
-  onRemove,
+  box,
+  due,
+  onMarkCorrect,
+  onMarkWrong,
 }: MistakeItemProps) {
   const [expanded, setExpanded] = useState(false);
+  const boxStyle = BOX_LABELS[box] ?? BOX_LABELS[1];
   return (
     <motion.div
       layout
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0, x: -20 }}
-      className="px-5 py-4 border-b border-bg-softer last:border-b-0"
+      className={`px-5 py-4 border-b border-bg-softer last:border-b-0 ${due ? "" : "opacity-60"}`}
     >
       <div className="flex items-start gap-3">
         <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2 mb-1.5">
+            <span
+              className={`inline-flex items-center text-[10px] font-extrabold px-2 py-0.5 rounded-full border ${boxStyle.color}`}
+            >
+              {boxStyle.label}
+            </span>
+            {!due && (
+              <span className="text-[10px] text-ink-softer">今天不用复习</span>
+            )}
+          </div>
           <div className="text-base font-semibold text-ink leading-relaxed">
             <MathText text={questionText} />
           </div>
@@ -169,19 +232,29 @@ function MistakeItem({
               </motion.div>
             )}
           </AnimatePresence>
+
+          {/* SRS 复习按钮：我会了 / 还要练 */}
+          {due && (
+            <div className="mt-3 flex items-center gap-2">
+              <button
+                type="button"
+                onClick={onMarkCorrect}
+                className="btn-chunky-sm flex-1 bg-primary"
+                style={{ boxShadow: "0 3px 0 0 #58A700" }}
+              >
+                <Check className="w-3.5 h-3.5" /> 我会了
+              </button>
+              <button
+                type="button"
+                onClick={onMarkWrong}
+                className="btn-chunky-sm flex-1 bg-danger"
+                style={{ boxShadow: "0 3px 0 0 #EA2B2B" }}
+              >
+                <XCircle className="w-3.5 h-3.5" /> 还要练
+              </button>
+            </div>
+          )}
         </div>
-        <button
-          type="button"
-          onClick={() => {
-            playSfx("tap");
-            haptic("medium");
-            onRemove();
-          }}
-          className="text-ink-softer hover:text-danger shrink-0 p-1"
-          aria-label="移除错题"
-        >
-          <Trash className="w-5 h-5" />
-        </button>
       </div>
     </motion.div>
   );

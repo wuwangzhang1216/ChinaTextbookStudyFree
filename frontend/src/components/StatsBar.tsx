@@ -13,12 +13,18 @@ import { MAX_HEARTS, useProgressStore } from "@/store/progress";
 import { Heart, Flame, Lightning, Snowflake } from "@/components/icons";
 import { MuteToggle, AutoNarrateToggle, useSyncMute } from "./MuteToggle";
 import { Modal } from "./Modal";
+import { GemBadge } from "./GemBadge";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 import { Mascot } from "./Mascot";
 import { useProgressTicker, formatMsCountdown } from "@/lib/useProgressTicker";
 
-export function StatsBar() {
+interface StatsBarProps {
+  /** 紧凑模式：移动端 / 内页用，只显示 心 + 连击 + 宝石，省掉 XP & 音频开关 */
+  compact?: boolean;
+}
+
+export function StatsBar({ compact = false }: StatsBarProps = {}) {
   useSyncMute();
   const now = useProgressTicker();
 
@@ -44,7 +50,7 @@ export function StatsBar() {
 
   return (
     <>
-      <div className="flex items-center gap-2">
+      <div className="flex items-center gap-1.5">
         {/* 心数胶囊 */}
         <motion.button
           type="button"
@@ -56,7 +62,7 @@ export function StatsBar() {
           initial={{ opacity: 0, y: -6 }}
           animate={{ opacity: 1, y: 0 }}
           whileTap={{ scale: 0.95 }}
-          className={`flex items-center gap-1 px-2.5 py-1 rounded-full border-2 font-extrabold text-sm select-none ${
+          className={`h-8 px-2.5 inline-flex items-center gap-1 rounded-full border-2 font-extrabold text-sm select-none tabular-nums transition-colors ${
             dHearts > 0
               ? "border-danger/40 text-danger bg-danger/10"
               : "border-bg-softer text-ink-softer bg-bg-soft"
@@ -72,7 +78,7 @@ export function StatsBar() {
           initial={{ opacity: 0, y: -6 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.05 }}
-          className={`flex items-center gap-1 px-2.5 py-1 rounded-full border-2 font-extrabold text-sm select-none ${
+          className={`h-8 px-2.5 inline-flex items-center gap-1 rounded-full border-2 font-extrabold text-sm select-none tabular-nums ${
             streakActive
               ? "border-warning text-warning bg-warning/10"
               : "border-bg-softer text-ink-softer bg-bg-soft"
@@ -82,19 +88,30 @@ export function StatsBar() {
           <span>{dStreak}</span>
         </motion.div>
 
-        {/* XP */}
-        <motion.div
-          initial={{ opacity: 0, y: -6 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.1 }}
-          className="flex items-center gap-1 px-2.5 py-1 rounded-full border-2 border-secondary/40 text-secondary-dark bg-secondary/10 font-extrabold text-sm select-none"
-        >
-          <Lightning className="w-4 h-4" />
-          <span>{dXp}</span>
-        </motion.div>
+        {/* XP —— compact 模式隐藏 */}
+        {!compact && (
+          <motion.div
+            initial={{ opacity: 0, y: -6 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.1 }}
+            className="h-8 px-2.5 inline-flex items-center gap-1 rounded-full border-2 border-secondary/40 text-secondary-dark bg-secondary/10 font-extrabold text-sm select-none tabular-nums"
+          >
+            <Lightning className="w-4 h-4" />
+            <span>{dXp}</span>
+          </motion.div>
+        )}
 
-        <AutoNarrateToggle className="ml-1" />
-        <MuteToggle />
+        {/* 宝石 */}
+        <GemBadge />
+
+        {/* 分割竖线 + 音频开关 —— compact 模式隐藏 */}
+        {!compact && (
+          <>
+            <span aria-hidden className="w-px h-5 bg-bg-softer mx-0.5" />
+            <AutoNarrateToggle />
+            <MuteToggle />
+          </>
+        )}
       </div>
 
       {/* 心数详情弹窗 */}

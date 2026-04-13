@@ -543,3 +543,162 @@ export function VolumeMute({ size = 24, ...props }: IconProps) {
     </svg>
   );
 }
+
+/** Gem —— 多面切割的宝石/钻石，实体填充 */
+export function Gem({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="currentColor" {...props}>
+      <path d="M6 3h12l4 6-10 12L2 9l4-6z" fill="currentColor" />
+      <path d="M2 9h20" stroke="white" strokeWidth={1.2} fill="none" opacity={0.55} />
+      <path d="M12 21l-3-12" stroke="white" strokeWidth={1.2} fill="none" opacity={0.55} />
+      <path d="M12 21l3-12" stroke="white" strokeWidth={1.2} fill="none" opacity={0.55} />
+      <path d="M9 9L6 3" stroke="white" strokeWidth={1.2} fill="none" opacity={0.55} />
+      <path d="M15 9l3-6" stroke="white" strokeWidth={1.2} fill="none" opacity={0.55} />
+    </svg>
+  );
+}
+
+/** Chest —— 封闭宝箱（未开） */
+export function Chest({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="currentColor" {...props}>
+      <path d="M3 10.5V19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8.5H3z" fill="currentColor" />
+      <path d="M3 10.5V8a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2v2.5" fill="currentColor" opacity={0.85} />
+      <rect x="10.5" y="12" width="3" height="4" rx="0.5" fill="white" opacity={0.9} />
+      <circle cx="12" cy="13.8" r="0.7" fill="currentColor" />
+      <path d="M3 10.5h18" stroke="white" strokeWidth={1.2} fill="none" opacity={0.6} />
+    </svg>
+  );
+}
+
+/** ChestOpen —— 打开的宝箱，盖子掀起 */
+export function ChestOpen({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="currentColor" {...props}>
+      <path d="M3 11V19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-8H3z" fill="currentColor" />
+      <path d="M2 11L12 2l10 9" fill="currentColor" opacity={0.85} stroke="currentColor" strokeWidth={0.6} />
+      <rect x="10.5" y="12.5" width="3" height="4" rx="0.5" fill="white" opacity={0.9} />
+      <path d="M3 11h18" stroke="white" strokeWidth={1.2} fill="none" opacity={0.6} />
+    </svg>
+  );
+}
+
+/** Sparkle —— 四角闪光，用于"首次完美"等亮点提示 */
+export function Sparkle({ size = 24, ...props }: IconProps) {
+  return (
+    <svg
+      {...COMMON}
+      width={size}
+      height={size}
+      fill="currentColor"
+      stroke="none"
+      {...props}
+    >
+      <path d="M12 2.5l1.6 5.4 5.4 1.6-5.4 1.6-1.6 5.4-1.6-5.4L5 9.5l5.4-1.6L12 2.5z" />
+      <path d="M19 14l.7 2.3 2.3.7-2.3.7-.7 2.3-.7-2.3-2.3-.7 2.3-.7L19 14z" opacity={0.7} />
+      <path d="M5 16l.5 1.5 1.5.5-1.5.5L5 20l-.5-1.5L3 18l1.5-.5L5 16z" opacity={0.5} />
+    </svg>
+  );
+}
+
+/** Palette —— 调色盘（用于"界面主题"商店分类） */
+export function Palette({ size = 24, ...props }: IconProps) {
+  return (
+    <svg
+      {...COMMON}
+      width={size}
+      height={size}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.75}
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path d="M12 3.5c-4.7 0-8.5 3.6-8.5 8.1 0 4 2.7 6.4 6 6.4 1.5 0 2-1.4 2-2.4 0-1.1-1-1.7-1-2.7 0-1 .8-1.7 1.8-1.7H15a4.5 4.5 0 0 0 4.5-4.5C19.5 5.4 16.1 3.5 12 3.5z" />
+      <circle cx="7.5" cy="10" r="1.1" fill="currentColor" stroke="none" />
+      <circle cx="11" cy="6.7" r="1.1" fill="currentColor" stroke="none" />
+      <circle cx="15.5" cy="7.5" r="1.1" fill="currentColor" stroke="none" />
+      <circle cx="17.5" cy="11.5" r="1.1" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+/** Picture —— 风景图（山 + 太阳，用于"课堂背景"商店分类） */
+export function Picture({ size = 24, ...props }: IconProps) {
+  return (
+    <svg
+      {...COMMON}
+      width={size}
+      height={size}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={1.75}
+      strokeLinejoin="round"
+      {...props}
+    >
+      <rect x="3" y="4.5" width="18" height="15" rx="2.5" />
+      <circle cx="8" cy="9.5" r="1.5" fill="currentColor" stroke="none" />
+      <path d="M3.5 17.5l5-5 4 4 3-3 5 5" />
+    </svg>
+  );
+}
+
+/** Owl —— 猫头鹰侧脸（用于"聪聪皮肤"商店分类） */
+export function Owl({ size = 24, ...props }: IconProps) {
+  return (
+    <svg
+      {...COMMON}
+      width={size}
+      height={size}
+      fill="currentColor"
+      stroke="none"
+      {...props}
+    >
+      <path d="M12 3c-4.4 0-7.5 3.2-7.5 7.5 0 2.6 1 4.6 2.6 5.9V19a1 1 0 0 0 1.5.85l1.5-.9a8 8 0 0 0 3.8 0l1.5.9A1 1 0 0 0 17 19v-2.6c1.6-1.3 2.5-3.3 2.5-5.9C19.5 6.2 16.4 3 12 3z" />
+      <circle cx="9" cy="10" r="1.7" fill="white" />
+      <circle cx="15" cy="10" r="1.7" fill="white" />
+      <circle cx="9" cy="10" r="0.7" fill="#1a1a1a" />
+      <circle cx="15" cy="10" r="0.7" fill="#1a1a1a" />
+      <path d="M11 12.2L12 13.4L13 12.2L12 12Z" fill="#FFB200" />
+    </svg>
+  );
+}
+
+/** Confetti —— 庆祝彩带（替代 🎉 emoji） */
+export function Home({ size = 24, ...props }: IconProps) {
+  return (
+    <svg
+      {...COMMON}
+      width={size}
+      height={size}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      {...props}
+    >
+      <path d="M3 11.5L12 4l9 7.5" />
+      <path d="M5 10v10h14V10" />
+      <path d="M10 20v-6h4v6" />
+    </svg>
+  );
+}
+
+export function Confetti({ size = 24, ...props }: IconProps) {
+  return (
+    <svg
+      {...COMMON}
+      width={size}
+      height={size}
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={2}
+      strokeLinecap="round"
+      {...props}
+    >
+      <path d="M4 20l4-12 8 8-12 4z" fill="currentColor" stroke="none" />
+      <path d="M14 4l1.5 1.5M19 6l1 -2M19 10l2 0M16 12l1.5 1.5" />
+    </svg>
+  );
+}

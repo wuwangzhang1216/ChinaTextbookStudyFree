@@ -2,6 +2,7 @@
 
 import dynamic from "next/dynamic";
 import type { Lesson } from "@/types";
+import type { ChestSlot } from "@/lib/chestLogic";
 
 const LessonRunner = dynamic(
   () => import("@/components/LessonRunner").then(m => ({ default: m.LessonRunner })),
@@ -19,6 +20,12 @@ const LessonRunner = dynamic(
   },
 );
 
-export default function LessonPageClient({ lesson }: { lesson: Lesson }) {
-  return <LessonRunner lesson={lesson} />;
+export default function LessonPageClient({
+  lesson,
+  chestSlot,
+}: {
+  lesson: Lesson;
+  chestSlot: ChestSlot | null;
+}) {
+  return <LessonRunner lesson={lesson} chestSlot={chestSlot} />;
 }

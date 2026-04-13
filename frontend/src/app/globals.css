@@ -7,6 +7,12 @@
 
 :root {
   --font-sans: "PingFang SC", "Microsoft YaHei", "Hiragino Sans GB", ui-sans-serif, system-ui, sans-serif;
+
+  /* 美妆主题色（ThemeProvider 会在 hydrate 后覆盖；这是 SSR 默认值） */
+  --theme-primary: #58CC02;
+  --theme-primary-dark: #58A700;
+  --theme-accent: #1CB0F6;
+  --theme-bg: #F7F7F7;
 }
 
 html {
@@ -17,8 +23,9 @@ html,
 body {
   height: 100%;
   -webkit-font-smoothing: antialiased;
-  background: #ffffff;
   color: #4b4b4b;
+  /* 背景由 layout.tsx 的 body className="bg-bg-soft" 统一提供，
+     这里不再硬编码以免覆盖 Tailwind utility。 */
 }
 
 body {
@@ -39,11 +46,34 @@ h3,
 /* 多邻国式按钮：底部硬阴影，按下时阴影消失模拟"按下去" */
 .btn-chunky {
   @apply relative inline-flex items-center justify-center font-extrabold text-white;
-  @apply px-6 py-3 rounded-2xl select-none cursor-pointer;
+  @apply px-6 rounded-2xl select-none cursor-pointer;
   @apply active:translate-y-[3px] active:shadow-none active:scale-[0.99];
+  /* 固定按钮高度，避免不同语种 / 不同字号下高度漂移；与 btn-chunky-ghost 对齐 */
+  min-height: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+  letter-spacing: 0.01em;
   transition: transform 120ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
     box-shadow 120ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
     filter 150ms ease;
+}
+
+/* 副按钮：白底厚边 + 灰色厚阴影。和 btn-chunky 同高度同圆角，用于"上一步 / 取消"等次要动作 */
+.btn-chunky-ghost {
+  @apply relative inline-flex items-center justify-center font-extrabold text-ink-light bg-white;
+  @apply px-6 rounded-2xl select-none cursor-pointer border-2 border-bg-softer;
+  @apply active:translate-y-[3px] active:shadow-none active:scale-[0.99];
+  min-height: 50px;
+  padding-top: 0;
+  padding-bottom: 0;
+  letter-spacing: 0.01em;
+  box-shadow: 0 4px 0 0 #e5e5e5;
+  transition: transform 120ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
+    box-shadow 120ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
+    color 150ms ease;
+}
+.btn-chunky-ghost:hover {
+  color: #4b4b4b;
 }
 .btn-chunky:hover {
   filter: brightness(1.06);
@@ -69,34 +99,70 @@ h3,
   filter: none;
 }
 
-/* 选项卡（多邻国题目选项常用） */
+/* 小尺寸 chunky 按钮 —— 用于行内次要操作（错题"我会了/还要练"等） */
+.btn-chunky-sm {
+  @apply relative inline-flex items-center justify-center gap-1 font-extrabold text-white;
+  @apply px-3 rounded-xl select-none cursor-pointer text-xs;
+  @apply active:translate-y-[2px] active:shadow-none;
+  min-height: 36px;
+  letter-spacing: 0.01em;
+  transition: transform 100ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
+    box-shadow 100ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
+    filter 150ms ease;
+}
+.btn-chunky-sm:hover {
+  filter: brightness(1.06);
+}
+
+/* Duolingo 风格的厚底纯色卡片 —— 用于学科/课程/技能气泡
+ * 背景色和底部阴影颜色需要在内联 style 上传入（不同学科不同色），
+ * 这个类只负责过渡曲线和 hover/active 行为。
+ */
+.duo-chunky-card {
+  transition: transform 140ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
+    box-shadow 140ms cubic-bezier(0.2, 0.9, 0.3, 1.2),
+    filter 150ms ease;
+}
+.duo-chunky-card:hover {
+  filter: brightness(1.06);
+}
+.duo-chunky-card:active {
+  transform: translateY(4px);
+  box-shadow: none !important;
+}
+
+/* 选项卡（多邻国题目选项通用基底）
+ * 规范：min-h 56px、px-4 py-3、border-2、rounded-2xl、text-base font-extrabold
+ * 用于 ChoiceQuestion / TrueFalseQuestion / MatchingQuestion / WordOrderQuestion 等所有题型选项
+ */
 .option-card {
-  @apply relative border-2 border-bg-softer rounded-2xl px-5 py-4 cursor-pointer overflow-hidden;
-  @apply text-lg text-ink font-medium select-none;
+  @apply relative border-2 border-bg-softer rounded-2xl cursor-pointer overflow-hidden;
+  @apply text-base text-ink font-extrabold select-none;
   @apply hover:border-secondary hover:bg-secondary/5;
-  box-shadow: 0 2px 0 0 #e5e5e5;
+  min-height: 56px;
+  padding: 12px 16px;
+  box-shadow: 0 3px 0 0 #e5e5e5;
   transition: transform 140ms cubic-bezier(0.2, 0.9, 0.3, 1.2), border-color 140ms ease,
     box-shadow 140ms ease, background-color 140ms ease;
 }
 .option-card:active {
-  transform: translateY(1px) scale(0.99);
+  transform: translateY(2px);
   box-shadow: 0 1px 0 0 #e5e5e5;
 }
 
 .option-card-selected {
   @apply border-secondary bg-secondary/10 text-secondary-dark;
-  box-shadow: 0 2px 0 0 #1899d6;
-  transform: scale(1.02);
+  box-shadow: 0 3px 0 0 #1899d6;
 }
 
 .option-card-correct {
-  @apply border-primary bg-primary/10 text-primary-dark;
-  box-shadow: 0 2px 0 0 #58a700, 0 0 0 6px rgba(88, 204, 2, 0.18);
+  @apply border-primary bg-primary/20 text-primary-dark;
+  box-shadow: 0 3px 0 0 #58a700, 0 0 0 6px rgba(88, 204, 2, 0.2);
 }
 
 .option-card-wrong {
-  @apply border-danger bg-danger/10 text-danger-dark;
-  box-shadow: 0 2px 0 0 #ea2b2b, 0 0 0 6px rgba(255, 75, 75, 0.18);
+  @apply border-danger bg-danger/15 text-danger-dark;
+  box-shadow: 0 3px 0 0 #ea2b2b, 0 0 0 6px rgba(255, 75, 75, 0.18);
 }
 
 /* ripple 元素 */

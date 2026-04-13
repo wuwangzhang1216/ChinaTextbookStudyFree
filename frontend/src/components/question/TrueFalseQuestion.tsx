@@ -38,28 +38,29 @@ export function TrueFalseQuestion({ question, answer, phase, isCorrect, onChange
           haptic("light");
           onChange(label);
         }}
-        whileTap={phase === "answering" ? { scale: 0.96 } : undefined}
-        className={cn("flex-1 flex flex-col items-center gap-2 py-6", cls)}
+        whileTap={phase === "answering" ? { scale: 0.98 } : undefined}
+        className={cn("flex-1 flex flex-col items-center gap-2", cls)}
+        style={{ minHeight: 108 }}
       >
-        <motion.div animate={selected ? { scale: [1, 1.2, 1] } : { scale: 1 }} transition={{ duration: 0.25 }}>
+        <motion.div animate={selected ? { scale: [1, 1.15, 1] } : { scale: 1 }} transition={{ duration: 0.25 }}>
           {icon}
         </motion.div>
-        <span className="text-2xl font-extrabold">{label}</span>
+        <span className="text-lg font-extrabold">{label}</span>
       </motion.button>
     );
   };
 
   return (
     <div className="w-full">
-      <div className="flex items-start gap-3 mb-8">
-        <div className="text-2xl font-bold text-ink leading-relaxed flex-1">
+      <div className="flex items-start gap-3 mb-6">
+        <div className="text-xl font-bold text-ink leading-relaxed flex-1">
           <MathText text={question.question} />
         </div>
         <TTSButton src={question.audio?.question} className="mt-1" label="朗读题目" />
       </div>
-      <div className="flex gap-4">
-        {renderBtn("对", <Check className="w-12 h-12 text-primary" />)}
-        {renderBtn("错", <XMark className="w-12 h-12 text-danger" />)}
+      <div className="flex gap-3">
+        {renderBtn("对", <Check className="w-10 h-10 text-primary" />)}
+        {renderBtn("错", <XMark className="w-10 h-10 text-danger" />)}
       </div>
     </div>
   );

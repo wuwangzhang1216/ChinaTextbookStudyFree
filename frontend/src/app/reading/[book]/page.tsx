@@ -47,12 +47,13 @@ export default async function ReadingListPage({
   return (
     <main className="min-h-screen bg-bg-soft">
       <div className="bg-white border-b border-bg-softer sticky top-0 z-10">
-        <div className="max-w-md mx-auto flex items-center justify-between px-4 py-3 gap-3">
+        <div className="max-w-md lg:max-w-4xl mx-auto flex items-center justify-between px-4 py-3 gap-3">
           <SoundLink
             href={`/book/${bookId}/`}
-            className="text-ink-light hover:text-primary shrink-0"
+            aria-label="返回"
+            className="inline-flex items-center justify-center w-10 h-10 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0"
           >
-            <ArrowLeft className="w-6 h-6" />
+            <ArrowLeft className="w-5 h-5" />
           </SoundLink>
           <div className="text-center flex-1 min-w-0">
             <div className="flex items-center justify-center gap-2">
@@ -65,11 +66,11 @@ export default async function ReadingListPage({
               {doc.passages.length} 篇课文 · 听读 / 跟读
             </div>
           </div>
-          <div className="w-6 shrink-0" />
+          <div className="w-10 shrink-0" />
         </div>
       </div>
 
-      <div className="max-w-md mx-auto px-4 py-5 space-y-3">
+      <div className="max-w-md lg:max-w-4xl mx-auto px-4 py-5 space-y-3 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-3">
         {doc.passages.map(p => {
           const audioReady = p.sentences.some(s => s.audio);
           return (

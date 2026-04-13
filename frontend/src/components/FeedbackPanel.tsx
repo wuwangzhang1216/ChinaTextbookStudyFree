@@ -41,7 +41,7 @@ export function FeedbackPanel({ isCorrect, explanation, explanationAudio, onCont
       className={`fixed bottom-0 left-0 right-0 border-t-4 ${bg} backdrop-blur-sm`}
       style={{ boxShadow: "0 -8px 24px rgba(0,0,0,0.06)" }}
     >
-      <div className="max-w-md mx-auto px-5 py-5">
+      <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-5">
         <div className={`flex items-center gap-3 mb-3 font-extrabold text-2xl ${titleColor}`}>
           <motion.span
             initial={{ scale: 0, rotate: -180 }}

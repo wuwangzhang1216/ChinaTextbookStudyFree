@@ -15,12 +15,46 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ChevronLeft, ChevronRight, Play, Pause, Mic, Square, RotateCcw } from "lucide-react";
-import { ArrowLeft, Volume } from "@/components/icons";
+import { ArrowLeft, Volume, Lightning } from "@/components/icons";
 import { SoundLink } from "@/components/SoundLink";
 import { playTTS, preloadTTS, stopTTS } from "@/lib/tts";
 import { useRecorder } from "@/lib/useRecorder";
+import { useProgressStore } from "@/store/progress";
+import { playSfx } from "@/lib/sfx";
+import { haptic } from "@/lib/haptic";
 import { cn } from "@/lib/cn";
 import type { Passage } from "@/types";
+
+/** 课文听读完成奖励：在 localStorage 里记一个集合避免重复发 */
+const PASSAGE_REWARDS_KEY = "csf-passage-rewards-v1";
+type RewardKind = "listen" | "followup";
+function hasPassageReward(passageId: string, kind: RewardKind): boolean {
+  if (typeof window === "undefined") return false;
+  try {
+    const raw = window.localStorage.getItem(PASSAGE_REWARDS_KEY);
+    const obj = raw ? (JSON.parse(raw) as Record<string, RewardKind[]>) : {};
+    return (obj[passageId] ?? []).includes(kind);
+  } catch {
+    return false;
+  }
+}
+function markPassageReward(passageId: string, kind: RewardKind): void {
+  if (typeof window === "undefined") return;
+  try {
+    const raw = window.localStorage.getItem(PASSAGE_REWARDS_KEY);
+    const obj = raw ? (JSON.parse(raw) as Record<string, RewardKind[]>) : {};
+    const list = obj[passageId] ?? [];
+    if (!list.includes(kind)) {
+      obj[passageId] = [...list, kind];
+      window.localStorage.setItem(PASSAGE_REWARDS_KEY, JSON.stringify(obj));
+    }
+  } catch {
+    // 静默
+  }
+}
+
+const XP_LISTEN = 5;
+const XP_FOLLOWUP = 10;
 
 interface Props {
   passage: Passage;
@@ -38,6 +72,21 @@ export function PassageReader({ passage, backHref }: Props) {
   );
   const abortRef = useRef(false);
   const rec = useRecorder();
+
+  // XP 奖励集成（接进 progress store 当 XP / gems 算）
+  const recordPassageXp = useProgressStore(s => s.recordLessonComplete);
+  const [xpToast, setXpToast] = useState<{ amount: number; key: number } | null>(null);
+
+  function grantPassageReward(kind: RewardKind, xp: number) {
+    if (hasPassageReward(passage.id, kind)) return;
+    markPassageReward(passage.id, kind);
+    // 用 recordLessonComplete 走主流：accuracy=1 → 三星 → 自动加 XP + gems + dailyGoal 进度
+    // lessonId 用 passage- 前缀，避免和真正的 lesson 冲突
+    recordPassageXp(`passage-${passage.id}-${kind}`, passage.title, 1.0, xp);
+    setXpToast({ amount: xp, key: Date.now() });
+    playSfx("star");
+    haptic("success");
+  }
 
   // 课本原页：render_pages.py 已经应用了书级 offset 算出真实 PDF 物理页 pdfPage，
   // pageImages 一般是 [pdfPage-1, pdfPage, pdfPage+1] 按页号升序。默认显示 pdfPage。
@@ -93,17 +142,29 @@ export function PassageReader({ passage, backHref }: Props) {
     }
     abortRef.current = false;
     setMode("playing");
+    let completed = true;
     for (let i = 0; i < passage.sentences.length; i++) {
-      if (abortRef.current) break;
+      if (abortRef.current) {
+        completed = false;
+        break;
+      }
       const s = passage.sentences[i];
       if (!s.audio) continue;
       setCurrentIndex(i);
       await playTTS(s.audio);
-      if (abortRef.current) break;
+      if (abortRef.current) {
+        completed = false;
+        break;
+      }
       await sleep(200);
     }
     setCurrentIndex(null);
     setMode("idle");
+    // 完整听完整篇 → 首次给 XP
+    if (completed) {
+      grantPassageReward("listen", XP_LISTEN);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode, passage]);
 
   // 跟读流程：逐句 → 播原音 → 录音 → 下一句
@@ -160,6 +221,11 @@ export function PassageReader({ passage, backHref }: Props) {
 
     setCurrentIndex(null);
     setMode("idle");
+    // 完整完成跟读 → 首次给 XP（更高奖励）
+    if (!abortRef.current) {
+      grantPassageReward("followup", XP_FOLLOWUP);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [mode, passage, rec]);
 
   const playMyRecording = useCallback((idx: number) => {
@@ -186,7 +252,7 @@ export function PassageReader({ passage, backHref }: Props) {
     <main className="min-h-screen bg-bg-soft pb-24">
       {/* Header */}
       <div className="bg-white border-b border-bg-softer sticky top-0 z-10">
-        <div className="max-w-md mx-auto flex items-center justify-between px-4 py-3 gap-3">
+        <div className="max-w-md lg:max-w-6xl mx-auto flex items-center justify-between px-4 py-3 gap-3">
           <SoundLink
             href={backHref}
             className="text-ink-light hover:text-primary shrink-0"
@@ -207,9 +273,16 @@ export function PassageReader({ passage, backHref }: Props) {
         </div>
       </div>
 
+      {/* 桌面双栏：lg+ 时课本原页(左) + 课文正文(右) 并排；移动端顺序堆叠 */}
+      <div
+        className={cn(
+          "max-w-md lg:max-w-6xl mx-auto",
+          pageImages.length > 0 && "lg:grid lg:grid-cols-[3fr_2fr] lg:gap-6 lg:items-start",
+        )}
+      >
       {/* 课本原页 */}
       {pageImages.length > 0 && (
-        <div className="max-w-md mx-auto px-4 pt-4">
+        <div className="px-4 pt-4 lg:pt-5">
           <div className="relative rounded-2xl overflow-hidden bg-white border border-bg-softer shadow-sm">
             <img
               src={pageImages[pageIdx]}
@@ -258,7 +331,7 @@ export function PassageReader({ passage, backHref }: Props) {
       )}
 
       {/* 课文正文 */}
-      <div className="max-w-md mx-auto px-4 pt-5">
+      <div className="px-4 pt-5 lg:pt-5">
         {!hasAnyAudio && (
           <div className="mb-4 rounded-xl bg-warning/10 text-ink-light text-xs px-3 py-2">
             本课文的朗读音频还在生成中，暂时只能看文字
@@ -367,19 +440,20 @@ export function PassageReader({ passage, backHref }: Props) {
           )}
         </AnimatePresence>
       </div>
+      </div>
 
       {/* 底部操作栏 */}
       <div className="fixed bottom-0 inset-x-0 bg-white border-t border-bg-softer shadow-[0_-4px_12px_rgba(0,0,0,0.04)]">
-        <div className="max-w-md mx-auto px-4 py-3 flex gap-3">
+        <div className="max-w-md lg:max-w-6xl mx-auto px-4 py-3 flex gap-3">
           <motion.button
             type="button"
             whileTap={{ scale: 0.96 }}
             onClick={playAll}
             disabled={!hasAnyAudio || mode === "followup"}
             className={cn(
-              "flex-1 inline-flex items-center justify-center gap-2 rounded-xl py-3 font-bold text-white",
-              mode === "playing" ? "bg-danger" : "bg-primary",
-              (!hasAnyAudio || mode === "followup") && "opacity-40 cursor-not-allowed",
+              "flex-1 gap-2",
+              mode === "playing" ? "btn-chunky-danger" : "btn-chunky-primary",
+              (!hasAnyAudio || mode === "followup") && "btn-chunky-disabled",
             )}
           >
             {mode === "playing" ? (
@@ -401,11 +475,9 @@ export function PassageReader({ passage, backHref }: Props) {
             onClick={runFollowup}
             disabled={!hasAnyAudio || mode === "playing"}
             className={cn(
-              "flex-1 inline-flex items-center justify-center gap-2 rounded-xl py-3 font-bold",
-              mode === "followup"
-                ? "bg-danger text-white"
-                : "bg-secondary text-white",
-              (!hasAnyAudio || mode === "playing") && "opacity-40 cursor-not-allowed",
+              "flex-1 gap-2",
+              mode === "followup" ? "btn-chunky-danger" : "btn-chunky-secondary",
+              (!hasAnyAudio || mode === "playing") && "btn-chunky-disabled",
             )}
           >
             {mode === "followup" ? (
@@ -422,11 +494,35 @@ export function PassageReader({ passage, backHref }: Props) {
           </motion.button>
         </div>
         {rec.error && (
-          <div className="max-w-md mx-auto px-4 pb-2 text-xs text-danger">
+          <div className="max-w-md lg:max-w-6xl mx-auto px-4 pb-2 text-xs text-danger">
             麦克风错误：{rec.error}
           </div>
         )}
       </div>
+
+      {/* +XP 奖励 toast（首次听完整篇 / 首次跟读全篇） */}
+      <AnimatePresence>
+        {xpToast && (
+          <motion.div
+            key={xpToast.key}
+            initial={{ opacity: 0, y: 30, scale: 0.6 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: -10 }}
+            transition={{ type: "spring", damping: 14, stiffness: 240 }}
+            onAnimationComplete={() => {
+              setTimeout(() => setXpToast(null), 1600);
+            }}
+            className="fixed top-20 left-1/2 -translate-x-1/2 z-50 flex items-center gap-2 px-5 py-3 rounded-2xl text-white font-extrabold"
+            style={{
+              background: "linear-gradient(135deg, #1CB0F6, #1899D6)",
+              boxShadow: "0 5px 0 0 #0d7aa8",
+            }}
+          >
+            <Lightning className="w-5 h-5" />
+            +{xpToast.amount} XP
+          </motion.div>
+        )}
+      </AnimatePresence>
     </main>
   );
 }

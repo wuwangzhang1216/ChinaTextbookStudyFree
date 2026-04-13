@@ -15,7 +15,10 @@ import {
   Crown,
   Snowflake,
   Bookmark,
+  Gem,
 } from "@/components/icons";
+import { playSfx } from "@/lib/sfx";
+import { haptic } from "@/lib/haptic";
 
 export function ProfileClient() {
   const xp = useProgressStore(s => s.xp);
@@ -23,9 +26,18 @@ export function ProfileClient() {
   const freezes = useProgressStore(s => s.streakFreezes);
   const completedLessons = useProgressStore(s => s.completedLessons);
   const mistakes = useProgressStore(s => s.mistakesBank);
+  const lifetimeGems = useProgressStore(s => s.lifetimeGems);
+  const dailyTimeLimitMs = useProgressStore(s => s.dailyTimeLimitMs);
+  const setDailyTimeLimit = useProgressStore(s => s.setDailyTimeLimit);
 
   const [hydrated, setHydrated] = useState(false);
   useEffect(() => setHydrated(true), []);
+
+  function pickLimit(min: number) {
+    playSfx("tap");
+    haptic("light");
+    setDailyTimeLimit(min * 60_000);
+  }
 
   const completedCount = hydrated ? Object.keys(completedLessons).length : 0;
   const totalStars = hydrated
@@ -40,18 +52,27 @@ export function ProfileClient() {
     <main className="min-h-screen bg-bg-soft relative">
       {/* Header */}
       <div className="bg-white border-b border-bg-softer sticky top-0 z-10">
-        <div className="max-w-2xl mx-auto flex items-center justify-between gap-3 px-4 py-3">
-          <SoundLink href="/" className="text-ink-light hover:text-primary shrink-0">
-            <ArrowLeft className="w-6 h-6" />
+        <div className="max-w-2xl lg:max-w-4xl mx-auto flex items-center justify-between gap-3 px-4 py-3">
+          <SoundLink
+            href="/"
+            aria-label="返回"
+            className="inline-flex items-center justify-center w-10 h-10 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0"
+          >
+            <ArrowLeft className="w-5 h-5" />
           </SoundLink>
-          <div className="flex-1 text-center">
-            <div className="text-lg font-extrabold text-ink">我的主页</div>
+          <div className="flex-1 min-w-0 text-center">
+            <div className="text-base lg:text-lg font-extrabold text-ink truncate">我的主页</div>
           </div>
-          <StatsBar />
+          <div className="lg:hidden shrink-0">
+            <StatsBar compact />
+          </div>
+          <div className="hidden lg:flex shrink-0">
+            <StatsBar />
+          </div>
         </div>
       </div>
 
-      <div className="max-w-2xl mx-auto px-4 py-8">
+      <div className="max-w-2xl lg:max-w-4xl mx-auto px-4 py-8">
         {/* 顶部：聪聪 + 问候 + 每日目标环 */}
         <div className="flex items-center gap-6 mb-8">
           <motion.div
@@ -99,8 +120,29 @@ export function ProfileClient() {
           />
         </div>
 
+        {/* 桌面 2x2 网格：商店 / 成就 / 错题本 / 家长设置 */}
+        <div className="lg:grid lg:grid-cols-2 lg:gap-5">
+        {/* 累计宝石 + 商店入口 */}
+        <SoundLink
+          href="/shop"
+          hapticIntensity="medium"
+          className="group flex items-center gap-4 bg-white rounded-3xl border-2 border-purple-200 p-5 mb-6 lg:mb-0 hover:border-purple-400 transition-colors"
+          style={{ boxShadow: "0 4px 0 0 #d8b4fe" }}
+        >
+          <div className="w-12 h-12 rounded-2xl bg-purple-100 text-purple-600 flex items-center justify-center group-hover:bg-purple-500 group-hover:text-white transition-colors">
+            <Gem className="w-6 h-6" />
+          </div>
+          <div className="flex-1">
+            <div className="text-base font-extrabold text-ink">美妆商店</div>
+            <div className="text-sm text-ink-light">
+              累计获得 <span className="font-extrabold text-purple-600">{hydrated ? lifetimeGems : 0}</span> 颗宝石 · 去给聪聪换装吧
+            </div>
+          </div>
+          <div className="text-ink-softer text-xl">›</div>
+        </SoundLink>
+
         {/* 成就栏 */}
-        <section className="bg-white rounded-3xl border-2 border-bg-softer p-5 mb-6"
+        <section className="bg-white rounded-3xl border-2 border-bg-softer p-5 mb-6 lg:mb-0"
           style={{ boxShadow: "0 4px 0 0 #e5e5e5" }}
         >
           <div className="text-base font-extrabold text-ink mb-4">成就</div>
@@ -122,7 +164,7 @@ export function ProfileClient() {
         <SoundLink
           href="/review"
           hapticIntensity="medium"
-          className="group flex items-center gap-4 bg-white rounded-3xl border-2 border-bg-softer p-5 hover:border-primary transition-colors"
+          className="group flex items-center gap-4 bg-white rounded-3xl border-2 border-bg-softer p-5 hover:border-primary transition-colors mb-6 lg:mb-0"
           style={{ boxShadow: "0 4px 0 0 #e5e5e5" }}
         >
           <div className="w-12 h-12 rounded-2xl bg-primary/10 text-primary flex items-center justify-center group-hover:bg-primary group-hover:text-white transition-colors">
@@ -136,6 +178,53 @@ export function ProfileClient() {
           </div>
           <div className="text-ink-softer text-xl">›</div>
         </SoundLink>
+
+        {/* 家长设置：每日学习时间上限（默认关闭，家长自愿启用） */}
+        <section
+          className="bg-white rounded-3xl border-2 border-bg-softer p-5"
+          style={{ boxShadow: "0 4px 0 0 #e5e5e5" }}
+        >
+          <div className="flex items-center justify-between mb-1">
+            <div className="text-base font-extrabold text-ink">家长设置 · 每日时间上限</div>
+            <span className="text-[10px] text-ink-softer uppercase tracking-wider">
+              防沉迷
+            </span>
+          </div>
+          <div className="text-xs text-ink-light mb-3">
+            达到上限后会暂停新课程，鼓励休息眼睛 · 不影响已开始的课程
+          </div>
+          <div className="flex flex-wrap gap-2">
+            {([
+              { label: "不限制", min: 0 },
+              { label: "20 分钟", min: 20 },
+              { label: "30 分钟", min: 30 },
+              { label: "45 分钟", min: 45 },
+              { label: "60 分钟", min: 60 },
+            ] as const).map(opt => {
+              const active = hydrated && dailyTimeLimitMs === opt.min * 60_000;
+              return (
+                <button
+                  key={opt.min}
+                  type="button"
+                  onClick={() => pickLimit(opt.min)}
+                  className={`h-9 px-4 inline-flex items-center rounded-2xl text-sm font-extrabold border-2 transition-colors ${
+                    active
+                      ? "bg-primary text-white border-primary"
+                      : "bg-white text-ink-light border-bg-softer hover:border-primary/40"
+                  }`}
+                  style={
+                    active
+                      ? { boxShadow: "0 3px 0 0 #58A700" }
+                      : { boxShadow: "0 2px 0 0 #e5e5e5" }
+                  }
+                >
+                  {opt.label}
+                </button>
+              );
+            })}
+          </div>
+        </section>
+        </div>
       </div>
     </main>
   );
@@ -160,8 +249,8 @@ function StatCard({
       style={{ boxShadow: "0 4px 0 0 #e5e5e5" }}
     >
       <div className={`${color}`}>{icon}</div>
-      <div className="text-2xl font-extrabold text-ink mt-2 tabular-nums">{value}</div>
-      <div className="text-xs text-ink-light mt-0.5">{label}</div>
+      <div className="text-2xl font-extrabold text-ink mt-2 tabular-nums leading-none">{value}</div>
+      <div className="text-[10px] uppercase tracking-wider text-ink-softer font-extrabold mt-1.5">{label}</div>
     </motion.div>
   );
 }

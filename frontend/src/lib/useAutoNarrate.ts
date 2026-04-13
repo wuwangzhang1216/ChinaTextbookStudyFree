@@ -27,6 +27,10 @@ interface Opts {
   gapMs?: number;
   /** 首段开始前的延迟，默认 0。仅在需要避开入场动画时才传 >0 值。 */
   startDelayMs?: number;
+  /** 每段开始播放时回调，便于父组件做"当前播放项"高亮。idx 是过滤后非空 src 列表的 0 起索引。 */
+  onSrcStart?: (idx: number) => void;
+  /** 全部播放完毕（或被取消）时回调，可用于清理高亮状态。 */
+  onAllDone?: () => void;
 }
 
 export function useAutoNarrate(
@@ -34,14 +38,18 @@ export function useAutoNarrate(
   key: string | number,
   opts: Opts = {},
 ): () => void {
-  const { gapMs = 200, startDelayMs = 0 } = opts;
+  const { gapMs = 200, startDelayMs = 0, onSrcStart, onAllDone } = opts;
   const autoNarrate = useProgressStore(s => s.autoNarrate);
   const muted = useProgressStore(s => s.muted);
 
-  // 用 ref 持有 srcs，避免数组引用变化造成 effect 反复重跑；
+  // 用 ref 持有 srcs / 回调，避免引用变化造成 effect 反复重跑；
   // 触发重播只依赖语义 key / 开关。
   const srcsRef = useRef(srcs);
   srcsRef.current = srcs;
+  const onSrcStartRef = useRef(onSrcStart);
+  onSrcStartRef.current = onSrcStart;
+  const onAllDoneRef = useRef(onAllDone);
+  onAllDoneRef.current = onAllDone;
 
   const cancelledRef = useRef(false);
 
@@ -66,10 +74,12 @@ export function useAutoNarrate(
       );
       for (let i = 0; i < list.length; i++) {
         if (cancelledRef.current) return;
+        onSrcStartRef.current?.(i);
         await playTTS(list[i]);
         if (cancelledRef.current) return;
         if (i < list.length - 1) await sleep(gapMs);
       }
+      if (!cancelledRef.current) onAllDoneRef.current?.();
     };
 
     void run();
@@ -77,6 +87,7 @@ export function useAutoNarrate(
     return () => {
       cancelledRef.current = true;
       stopTTS();
+      onAllDoneRef.current?.();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [key, autoNarrate, muted]);

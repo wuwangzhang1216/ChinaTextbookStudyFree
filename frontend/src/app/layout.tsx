@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Nunito } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@/components/ThemeProvider";
+import { BottomNav } from "@/components/BottomNav";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -17,7 +19,12 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="zh-CN" className={nunito.variable}>
-      <body className="min-h-screen bg-bg-soft">{children}</body>
+      <body className="min-h-screen bg-bg-soft pb-16 lg:pb-0">
+        <ThemeProvider>
+          {children}
+          <BottomNav />
+        </ThemeProvider>
+      </body>
     </html>
   );
 }

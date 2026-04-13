@@ -20,6 +20,7 @@ import { MathText } from "@/components/MathText";
 import { TTSButton } from "@/components/TTSButton";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
+import { playTTS } from "@/lib/tts";
 import { useAutoNarrate } from "@/lib/useAutoNarrate";
 import type { QuestionRendererProps } from "./QuestionRenderer";
 
@@ -78,6 +79,10 @@ export function MatchingQuestion({
     cancelNarrate();
     playSfx("tap");
     haptic("light");
+    // 朗读当前左项内容
+    const idx = LEFT_KEYS.indexOf(k);
+    const optAudio = question.audio?.options?.[idx];
+    if (optAudio) void playTTS(optAudio);
     // 已配对的左项点击 → 解除配对
     if (pairs[k] !== null) {
       setPairs(p => ({ ...p, [k]: null }));
@@ -90,8 +95,13 @@ export function MatchingQuestion({
   function pickRight(rk: RightKey) {
     if (disabled) return;
     if (activeLeft === null) return;
+    cancelNarrate();
     playSfx("tap");
     haptic("medium");
+    // 朗读当前右项内容
+    const idx = 4 + RIGHT_KEYS.indexOf(rk);
+    const optAudio = question.audio?.options?.[idx];
+    if (optAudio) void playTTS(optAudio);
     setPairs(p => {
       // 如果该右项已被其他左项占用，先腾出来
       const next = { ...p };
@@ -143,23 +153,21 @@ export function MatchingQuestion({
                 type="button"
                 disabled={disabled}
                 onClick={() => pickLeft(k)}
-                whileTap={!disabled ? { scale: 0.96 } : undefined}
+                whileTap={!disabled ? { scale: 0.98 } : undefined}
                 className={cn(
-                  "min-h-[56px] rounded-2xl border-2 px-3 py-2 font-extrabold text-base text-left",
-                  "transition-colors flex items-center gap-2",
+                  "option-card text-left flex items-center gap-2",
                   c
                     ? `${c.border} ${c.bg} ${c.text}`
                     : active
-                      ? "border-secondary bg-secondary/10 text-secondary-dark"
-                      : "border-bg-softer bg-white text-ink hover:border-secondary",
+                      ? "option-card-selected"
+                      : undefined,
                 )}
-                style={{ boxShadow: "0 2px 0 0 #e5e5e5" }}
               >
-                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white border border-current text-xs">
+                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white border-2 border-current text-xs shrink-0">
                   {k}
                 </span>
                 <span className="flex-1">{txt}</span>
-                {pairs[k] && <span className="text-xs opacity-70">→{pairs[k]}</span>}
+                {pairs[k] && <span className="text-xs opacity-70 shrink-0">→{pairs[k]}</span>}
               </motion.button>
             );
           })}
@@ -170,25 +178,24 @@ export function MatchingQuestion({
           {RIGHT_KEYS.map((k, i) => {
             const txt = right[i] ?? "";
             const c = colorForRight(k);
+            const clickable = activeLeft !== null && !disabled;
             return (
               <motion.button
                 key={k}
                 type="button"
                 disabled={disabled || activeLeft === null}
                 onClick={() => pickRight(k)}
-                whileTap={!disabled && activeLeft !== null ? { scale: 0.96 } : undefined}
+                whileTap={clickable ? { scale: 0.98 } : undefined}
                 className={cn(
-                  "min-h-[56px] rounded-2xl border-2 px-3 py-2 font-extrabold text-base text-left",
-                  "transition-colors flex items-center gap-2",
+                  "option-card text-left flex items-center gap-2",
                   c
                     ? `${c.border} ${c.bg} ${c.text}`
-                    : activeLeft !== null && !disabled
-                      ? "border-bg-softer bg-white text-ink hover:border-secondary cursor-pointer"
-                      : "border-bg-softer bg-white text-ink-softer cursor-default",
+                    : clickable
+                      ? undefined
+                      : "text-ink-softer cursor-default hover:border-bg-softer hover:bg-white",
                 )}
-                style={{ boxShadow: "0 2px 0 0 #e5e5e5" }}
               >
-                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white border border-current text-xs">
+                <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-white border-2 border-current text-xs shrink-0">
                   {k}
                 </span>
                 <span className="flex-1">{txt}</span>

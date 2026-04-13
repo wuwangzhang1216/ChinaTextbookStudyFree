@@ -53,6 +53,9 @@ Thumbs.db
 
 # ---- TTS 生成物（体积大 / 机器产物） ----
 frontend/public/audio/
+frontend/public/audio.mp3-backup/
 frontend/public/data/
+frontend/public/data.old-backup/
+frontend/public/textbook-pages/
 scripts/tts/logs/
 scripts/tts/manifest.json

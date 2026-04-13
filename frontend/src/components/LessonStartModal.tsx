@@ -74,33 +74,37 @@ export function LessonStartModal({
     <Modal open={open} onClose={onClose}>
       <div className="flex flex-col items-center text-center">
         <Mascot mood={canStart ? "happy" : "sad"} size={88} />
-        <div className="text-xs text-ink-light mt-2 font-semibold">
+        <div className="text-[11px] uppercase tracking-wider text-ink-softer mt-4 font-extrabold">
           第 {unitNumber} 单元 · {kpIndex}/{kpTotal}
         </div>
-        <h2 className="text-2xl font-extrabold text-ink mt-1">{title}</h2>
+        <h2 className="text-2xl font-extrabold text-ink mt-2 leading-tight">{title}</h2>
 
         {resume && (
-          <div className="mt-3 inline-flex items-center gap-2 px-3 py-1 rounded-full bg-secondary/10 border-2 border-secondary/30 text-secondary-dark text-xs font-extrabold">
+          <div className="mt-4 h-8 inline-flex items-center gap-2 px-3 rounded-full bg-secondary/10 border-2 border-secondary/30 text-secondary-dark text-xs font-extrabold">
             上次答到第 {resume.index + 1} 题 · 还剩 {remaining} 题
           </div>
         )}
 
-        <div className="grid grid-cols-2 gap-3 w-full mt-5">
+        <div className="grid grid-cols-2 gap-3 w-full mt-6">
           <div
-            className="bg-bg-soft rounded-2xl p-3 border-2 border-bg-softer"
+            className="bg-bg-soft rounded-2xl p-4 border-2 border-bg-softer"
             style={{ boxShadow: "0 3px 0 0 #e5e5e5" }}
           >
-            <div className="text-xs text-ink-light">{resume ? "剩余题数" : "题目数"}</div>
-            <div className="text-xl font-extrabold text-ink">
+            <div className="text-[11px] uppercase tracking-wider text-ink-softer font-extrabold">
+              {resume ? "剩余题数" : "题目数"}
+            </div>
+            <div className="text-xl font-extrabold text-ink mt-1 tabular-nums">
               {resume ? remaining : questionCount}
             </div>
           </div>
           <div
-            className="bg-bg-soft rounded-2xl p-3 border-2 border-bg-softer"
+            className="bg-bg-soft rounded-2xl p-4 border-2 border-bg-softer"
             style={{ boxShadow: "0 3px 0 0 #e5e5e5" }}
           >
-            <div className="text-xs text-ink-light">可获得</div>
-            <div className="text-xl font-extrabold text-secondary flex items-center justify-center gap-1">
+            <div className="text-[11px] uppercase tracking-wider text-ink-softer font-extrabold">
+              可获得
+            </div>
+            <div className="text-xl font-extrabold text-secondary flex items-center justify-center gap-1 mt-1 tabular-nums">
               <Lightning className="w-4 h-4" />+{estimatedXp}
             </div>
           </div>
@@ -135,7 +139,7 @@ export function LessonStartModal({
           <button
             type="button"
             onClick={handleRestart}
-            className="mt-3 text-sm font-bold text-ink-light hover:text-ink transition-colors"
+            className="mt-4 text-sm font-bold text-ink-light hover:text-ink transition-colors"
           >
             重新开始这节课
           </button>

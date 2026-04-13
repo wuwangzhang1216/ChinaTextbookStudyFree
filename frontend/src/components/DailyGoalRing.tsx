@@ -10,7 +10,7 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { DAILY_GOAL_OPTIONS, useProgressStore } from "@/store/progress";
-import { Target, Lightning } from "./icons";
+import { Target, Lightning, Check } from "./icons";
 import { Modal } from "./Modal";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
@@ -35,10 +35,15 @@ export function DailyGoalRing({ size = 120 }: DailyGoalRingProps) {
   const progress = Math.min(1, displayXp / goal);
   const achieved = progress >= 1;
 
-  const stroke = 10;
+  const stroke = Math.max(7, Math.round(size * 0.1));
   const radius = (size - stroke) / 2;
   const circumference = 2 * Math.PI * radius;
   const dashOffset = circumference * (1 - progress);
+  const gradientId = `dgr-grad-${size}-${achieved ? "g" : "p"}`;
+
+  // 内部字号根据 size 动态缩放
+  const xpFontPx = Math.round(size * 0.26);
+  const labelFontPx = Math.max(9, Math.round(size * 0.11));
 
   return (
     <>
@@ -51,17 +56,44 @@ export function DailyGoalRing({ size = 120 }: DailyGoalRingProps) {
         }}
         className="relative inline-flex items-center justify-center"
         style={{ width: size, height: size }}
-        whileHover={{ scale: 1.03 }}
-        whileTap={{ scale: 0.97 }}
+        whileHover={{ scale: 1.04 }}
+        whileTap={{ scale: 0.96 }}
         aria-label="每日目标"
       >
-        <svg width={size} height={size} className="-rotate-90">
+        {/* 内圆软底 + 内阴影 */}
+        <div
+          className="absolute rounded-full"
+          style={{
+            width: size - stroke * 2 + 4,
+            height: size - stroke * 2 + 4,
+            background: achieved
+              ? "linear-gradient(180deg, #FFFBEB 0%, #FFF6D6 100%)"
+              : "linear-gradient(180deg, #FFFFFF 0%, #F4F4F5 100%)",
+            boxShadow: "inset 0 2px 4px rgba(0,0,0,0.04)",
+          }}
+        />
+        <svg width={size} height={size} className="-rotate-90 relative">
+          <defs>
+            <linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="100%">
+              {achieved ? (
+                <>
+                  <stop offset="0%" stopColor="#FFE066" />
+                  <stop offset="100%" stopColor="#FFB300" />
+                </>
+              ) : (
+                <>
+                  <stop offset="0%" stopColor="#76E32A" />
+                  <stop offset="100%" stopColor="#3FA800" />
+                </>
+              )}
+            </linearGradient>
+          </defs>
           {/* 背景环 */}
           <circle
             cx={size / 2}
             cy={size / 2}
             r={radius}
-            stroke="#E5E5E5"
+            stroke="#EDEDED"
             strokeWidth={stroke}
             fill="none"
           />
@@ -70,7 +102,7 @@ export function DailyGoalRing({ size = 120 }: DailyGoalRingProps) {
             cx={size / 2}
             cy={size / 2}
             r={radius}
-            stroke={achieved ? "#FFC800" : "#58CC02"}
+            stroke={`url(#${gradientId})`}
             strokeWidth={stroke}
             strokeLinecap="round"
             fill="none"
@@ -79,26 +111,45 @@ export function DailyGoalRing({ size = 120 }: DailyGoalRingProps) {
             animate={{ strokeDashoffset: dashOffset }}
             transition={{ type: "spring", damping: 20, stiffness: 80 }}
             style={{
-              filter: achieved ? "drop-shadow(0 0 8px rgba(255,200,0,0.6))" : undefined,
+              filter: achieved
+                ? "drop-shadow(0 0 8px rgba(255,200,0,0.55))"
+                : "drop-shadow(0 1px 2px rgba(88,204,2,0.25))",
             }}
           />
         </svg>
-        <div className="absolute inset-0 flex flex-col items-center justify-center">
-          <Lightning className={`w-5 h-5 ${achieved ? "text-warning" : "text-primary"}`} />
-          <div className={`text-2xl font-extrabold ${achieved ? "text-warning" : "text-ink"}`}>
+        <div className="absolute inset-0 flex flex-col items-center justify-center leading-none">
+          <div
+            className={`font-extrabold tabular-nums tracking-tight inline-flex items-baseline gap-0.5 ${
+              achieved ? "text-warning" : "text-ink"
+            }`}
+            style={{ fontSize: xpFontPx, lineHeight: 1 }}
+          >
+            <Lightning
+              className={`${achieved ? "text-warning" : "text-primary"}`}
+              style={{
+                width: xpFontPx * 0.7,
+                height: xpFontPx * 0.7,
+                marginRight: 1,
+              }}
+            />
             {displayXp}
           </div>
-          <div className="text-[10px] text-ink-light font-semibold">/ {goal} XP</div>
+          <div
+            className="font-extrabold text-ink-softer mt-0.5 uppercase tracking-wider"
+            style={{ fontSize: labelFontPx }}
+          >
+            / {goal} XP
+          </div>
         </div>
         {achieved && (
           <motion.div
             initial={{ scale: 0, rotate: -20 }}
             animate={{ scale: 1, rotate: 0 }}
             transition={{ type: "spring", damping: 10 }}
-            className="absolute -top-2 -right-2 bg-warning text-white rounded-full w-7 h-7 flex items-center justify-center text-xs font-extrabold shadow"
+            className="absolute -top-1 -right-1 bg-warning text-white rounded-full w-6 h-6 flex items-center justify-center shadow"
             style={{ boxShadow: "0 3px 0 0 #c89600" }}
           >
-            ✓
+            <Check className="w-3.5 h-3.5" strokeWidth={3} />
           </motion.div>
         )}
       </motion.button>

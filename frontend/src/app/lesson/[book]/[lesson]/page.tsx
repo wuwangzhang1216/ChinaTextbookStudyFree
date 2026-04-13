@@ -1,6 +1,8 @@
 import { promises as fs } from "fs";
 import path from "path";
 import type { Lesson, SiteIndex } from "@/types";
+import type { PathLessonMeta } from "@/components/PathMap";
+import { findChestAfterLesson } from "@/lib/chestLogic";
 import LessonPageClient from "./LessonPageClient";
 
 async function getIndex(): Promise<SiteIndex> {
@@ -8,9 +10,13 @@ async function getIndex(): Promise<SiteIndex> {
   return JSON.parse(await fs.readFile(p, "utf-8"));
 }
 
-async function getOutline(bookId: string) {
+interface OutlineFile {
+  lessons: PathLessonMeta[];
+}
+
+async function getOutline(bookId: string): Promise<OutlineFile> {
   const p = path.join(process.cwd(), "public", "data", "books", bookId, "outline.json");
-  return JSON.parse(await fs.readFile(p, "utf-8")) as { lessons: { id: string }[] };
+  return JSON.parse(await fs.readFile(p, "utf-8"));
 }
 
 async function getLesson(bookId: string, lessonId: string): Promise<Lesson> {
@@ -36,6 +42,11 @@ export default async function LessonPage({
   params: Promise<{ book: string; lesson: string }>;
 }) {
   const { book, lesson: lessonId } = await params;
-  const lesson = await getLesson(book, lessonId);
-  return <LessonPageClient lesson={lesson} />;
+  const [lesson, outline] = await Promise.all([
+    getLesson(book, lessonId),
+    getOutline(book),
+  ]);
+  // 本节课结束后是否紧跟一个宝箱 slot
+  const chestSlot = findChestAfterLesson(book, outline.lessons, lessonId);
+  return <LessonPageClient lesson={lesson} chestSlot={chestSlot} />;
 }

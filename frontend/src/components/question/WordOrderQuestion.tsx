@@ -97,8 +97,8 @@ export function WordOrderQuestion({
           "min-h-[64px] rounded-2xl border-2 border-dashed p-3 flex flex-wrap gap-2 mb-4 transition-colors",
           disabled
             ? isCorrect
-              ? "border-primary bg-primary/5"
-              : "border-danger bg-danger/5"
+              ? "border-primary bg-primary/15"
+              : "border-danger bg-danger/10"
             : "border-bg-softer bg-bg-soft",
         )}
       >
@@ -122,10 +122,11 @@ export function WordOrderQuestion({
               animate={{ scale: 1, opacity: 1 }}
               exit={{ scale: 0, opacity: 0 }}
               transition={{ type: "spring", damping: 18, stiffness: 260 }}
-              whileTap={!disabled ? { scale: 0.94 } : undefined}
+              whileTap={!disabled ? { scale: 0.98 } : undefined}
               onClick={() => unpick(i)}
               disabled={disabled}
-              className="px-3 py-2 rounded-xl bg-secondary text-white font-extrabold text-base shadow-chunky-secondary"
+              className="h-10 px-4 inline-flex items-center rounded-xl bg-secondary text-white font-extrabold text-base"
+              style={{ boxShadow: "0 3px 0 0 #1899d6" }}
             >
               {options[i]}
             </motion.button>
@@ -140,11 +141,11 @@ export function WordOrderQuestion({
             key={`opt-${i}`}
             type="button"
             layout
-            whileTap={!disabled ? { scale: 0.94 } : undefined}
+            whileTap={!disabled ? { scale: 0.98 } : undefined}
             onClick={() => pick(i)}
             disabled={disabled}
-            className="px-3 py-2 rounded-xl bg-white border-2 border-bg-softer text-ink font-extrabold text-base hover:border-secondary transition-colors"
-            style={{ boxShadow: "0 2px 0 0 #e5e5e5" }}
+            className="h-10 px-4 inline-flex items-center rounded-xl bg-white border-2 border-bg-softer text-ink font-extrabold text-base hover:border-secondary transition-colors"
+            style={{ boxShadow: "0 3px 0 0 #e5e5e5" }}
           >
             {options[i]}
           </motion.button>

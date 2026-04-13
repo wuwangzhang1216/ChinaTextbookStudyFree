@@ -8,7 +8,7 @@ const BookPathView = dynamic(
   {
     ssr: false,
     loading: () => (
-      <div className="max-w-md mx-auto px-4 mt-4">
+      <div className="max-w-md lg:max-w-3xl mx-auto px-4 mt-4">
         <div className="h-[60vh] rounded-3xl bg-bg-softer/40 animate-pulse" />
       </div>
     ),

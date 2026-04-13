@@ -5,23 +5,38 @@
  *
  * 用纯 SVG 实现（不依赖任何素材），可通过 props 控制表情。
  * mood:
- *   - happy:    默认开心（眨眼睛）
- *   - cheer:    欢呼（眼睛弯成 ^ ^）
- *   - sad:      答错时（眉毛低下）
- *   - think:    思考中（一只眼半闭）
- *   - wave:     挥手打招呼
- *   - surprise: 惊讶（眼睛很大）
+ *   - happy:       默认开心（眨眼睛）
+ *   - cheer:       欢呼（眼睛弯成 ^ ^）
+ *   - sad:         答错时（眉毛低下）
+ *   - think:       思考中（一只眼半闭）
+ *   - wave:        挥手打招呼
+ *   - surprise:    惊讶（眼睛很大）
+ *   - proud:       骄傲（眼睛闪光 + 抬头）
+ *   - embarrassed: 尴尬（脸颊红晕 + 眼睛斜视）
  *
  * reactTo: 一次性动画触发器（由父组件通过 key 或 prop 切换）
  *   - 'correct':  scale 弹跳 + 翅膀挥
  *   - 'wrong':    头摇摆 + 汗滴
  *   - 'levelup':  跳跃 + 金色光晕
+ *
+ * skin: 美妆系统加的"皮肤叠加层"。从 progress store 的 equippedMascotSkin
+ *       读取，决定要不要叠加帽子/眼镜/披风等装饰 SVG。
  */
 
 import { motion, useAnimation, useReducedMotion } from "framer-motion";
 import { useEffect, useState } from "react";
+import { MascotSkinOverlay } from "./MascotSkinOverlay";
+import { useProgressStore } from "@/store/progress";
 
-export type MascotMood = "happy" | "cheer" | "sad" | "think" | "wave" | "surprise";
+export type MascotMood =
+  | "happy"
+  | "cheer"
+  | "sad"
+  | "think"
+  | "wave"
+  | "surprise"
+  | "proud"
+  | "embarrassed";
 export type MascotReaction = "correct" | "wrong" | "levelup" | null;
 
 export interface MascotProps {
@@ -31,6 +46,11 @@ export interface MascotProps {
   reactTo?: MascotReaction;
   /** 每次 reactKey 变化时触发一次 reactTo 动画 */
   reactKey?: number;
+  /**
+   * 皮肤覆盖：如果传入则用这个 skin id；否则读 progress store 里
+   * 当前装备的皮肤。让 shop 页面试穿场景可以传 prop 直接预览。
+   */
+  skinOverride?: string | null;
 }
 
 // Eel #4B4B4B — Duolingo 官方眼珠/线条色
@@ -42,6 +62,7 @@ export function Mascot({
   animate = true,
   reactTo = null,
   reactKey = 0,
+  skinOverride,
 }: MascotProps) {
   const prefersReduced = useReducedMotion();
   const controls = useAnimation();
@@ -49,6 +70,9 @@ export function Mascot({
   const [blinkClose, setBlinkClose] = useState(false);
   const [showSweat, setShowSweat] = useState(false);
   const [showGlow, setShowGlow] = useState(false);
+
+  const equippedSkin = useProgressStore(s => s.equippedMascotSkin);
+  const skinId = skinOverride !== undefined ? skinOverride : equippedSkin;
 
   // 持续呼吸
   useEffect(() => {
@@ -195,6 +219,9 @@ export function Mascot({
             strokeWidth="1.2"
           />
         )}
+
+        {/* 皮肤叠加层（帽子 / 眼镜 / 披风 / 装饰） */}
+        <MascotSkinOverlay skinId={skinId} />
       </motion.svg>
     </div>
   );
@@ -233,6 +260,32 @@ function Eyes({ mood }: { mood: MascotMood }) {
           <circle cx="46" cy="46" r="2" fill="#FFFFFF" />
           <circle cx="76" cy="48" r="7" fill={EEL} />
           <circle cx="78" cy="46" r="2" fill="#FFFFFF" />
+        </>
+      );
+    case "proud":
+      // 闪闪发光的眼睛 + 上扬眉毛 → 自信
+      return (
+        <>
+          <circle cx="44" cy="48" r="5" fill={EEL} />
+          <circle cx="45.5" cy="46.5" r="1.8" fill="#FFFFFF" />
+          <circle cx="42" cy="50" r="0.9" fill="#FFFFFF" />
+          <circle cx="76" cy="48" r="5" fill={EEL} />
+          <circle cx="77.5" cy="46.5" r="1.8" fill="#FFFFFF" />
+          <circle cx="74" cy="50" r="0.9" fill="#FFFFFF" />
+          {/* 上扬眉毛 */}
+          <path d="M 32 38 Q 40 34 50 40" stroke={EEL} strokeWidth="2.5" strokeLinecap="round" fill="none" />
+          <path d="M 88 38 Q 80 34 70 40" stroke={EEL} strokeWidth="2.5" strokeLinecap="round" fill="none" />
+        </>
+      );
+    case "embarrassed":
+      // 斜视小眼 + 脸颊红晕
+      return (
+        <>
+          <circle cx="44" cy="50" r="3.5" fill={EEL} />
+          <circle cx="76" cy="50" r="3.5" fill={EEL} />
+          {/* 脸颊红晕 */}
+          <ellipse cx="36" cy="62" rx="6" ry="3" fill="#FFB3B3" opacity={0.75} />
+          <ellipse cx="84" cy="62" rx="6" ry="3" fill="#FFB3B3" opacity={0.75} />
         </>
       );
     case "wave":

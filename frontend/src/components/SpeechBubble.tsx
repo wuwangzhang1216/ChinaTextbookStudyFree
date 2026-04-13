@@ -17,10 +17,10 @@ interface SpeechBubbleProps {
 export function SpeechBubble({ text, tone = "neutral" }: SpeechBubbleProps) {
   const colors =
     tone === "primary"
-      ? { border: "border-primary", text: "text-primary-dark", bg: "bg-primary/10" }
+      ? { border: "border-primary", text: "text-primary-dark", bg: "bg-primary/15", shadow: "0 3px 0 0 rgba(88,204,2,0.35)" }
       : tone === "danger"
-        ? { border: "border-danger", text: "text-danger-dark", bg: "bg-danger/10" }
-        : { border: "border-bg-softer", text: "text-ink", bg: "bg-white" };
+        ? { border: "border-danger", text: "text-danger-dark", bg: "bg-danger/15", shadow: "0 3px 0 0 rgba(234,43,43,0.3)" }
+        : { border: "border-bg-softer", text: "text-ink", bg: "bg-white", shadow: "0 3px 0 0 rgba(0,0,0,0.08)" };
 
   return (
     <motion.div
@@ -28,8 +28,8 @@ export function SpeechBubble({ text, tone = "neutral" }: SpeechBubbleProps) {
       animate={{ scale: 1, opacity: 1, x: 0 }}
       exit={{ scale: 0.7, opacity: 0, x: -8 }}
       transition={{ type: "spring", damping: 16, stiffness: 320 }}
-      className={`relative inline-block px-3 py-1.5 rounded-2xl border-2 font-extrabold text-sm whitespace-nowrap ${colors.border} ${colors.text} ${colors.bg}`}
-      style={{ boxShadow: "0 2px 0 0 rgba(0,0,0,0.08)" }}
+      className={`relative inline-block h-8 px-3.5 inline-flex items-center rounded-2xl border-2 font-extrabold text-sm whitespace-nowrap ${colors.border} ${colors.text} ${colors.bg}`}
+      style={{ boxShadow: colors.shadow }}
     >
       {text}
       {/* 指向左下的小三角 */}

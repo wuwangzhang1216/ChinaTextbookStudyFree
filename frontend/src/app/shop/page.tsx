@@ -41,6 +41,7 @@ import {
   Picture,
 } from "@/components/icons";
 import { GemBadge } from "@/components/GemBadge";
+import { AppShell } from "@/components/layout/AppShell";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 
@@ -126,30 +127,28 @@ export default function ShopPage() {
   }
 
   return (
-    <main className="min-h-screen bg-bg-soft">
-      {/* Header */}
-      <div className="bg-white border-b border-bg-softer sticky top-0 z-10">
-        <div className="max-w-3xl lg:max-w-6xl mx-auto px-4 py-2.5 flex items-center gap-3">
+    <AppShell right={null} centerMaxWidth={920}>
+    <main className="min-h-screen bg-bg-soft lg:bg-transparent">
+      {/* Header —— 移动端白底 sticky；桌面端简化为 标题 + GemBadge */}
+      <div className="bg-white border-b border-bg-softer sticky top-0 z-10 lg:bg-transparent lg:border-0 lg:static lg:mb-2">
+        <div className="max-w-3xl mx-auto px-4 py-2.5 lg:px-0 flex items-center gap-3">
           <Link
             href="/"
-            className="inline-flex items-center justify-center w-10 h-10 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0"
+            className="inline-flex items-center justify-center w-10 h-10 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0 lg:hidden"
             onClick={() => playSfx("tap")}
             aria-label="返回首页"
           >
             <ArrowLeft className="w-5 h-5" />
           </Link>
-          <div className="flex-1 min-w-0">
-            <div className="text-base font-extrabold text-ink leading-tight">美妆商店</div>
-            <div className="text-[11px] text-ink-light mt-0.5 inline-flex items-center gap-1 leading-none">
-              <Gem className="w-3 h-3 text-purple-500" />
-              <span>所有道具用宝石解锁，永久免费</span>
-            </div>
+          <div className="flex-1 min-w-0 lg:hidden">
+            <div className="text-base font-extrabold text-ink leading-tight">商店</div>
           </div>
+          <div className="hidden lg:block flex-1" />
           <GemBadge />
         </div>
       </div>
 
-      <div className="max-w-3xl lg:max-w-6xl mx-auto px-4 py-4 lg:py-6">
+      <div className="max-w-3xl mx-auto px-4 py-4 lg:py-2 lg:px-0">
         {/* Tab 切换 —— 移动端 3 列等宽不溢出 / 桌面端横向 chip */}
         <div className="grid grid-cols-3 gap-2 mb-4 lg:flex lg:gap-2 lg:mb-6">
           {TABS.map(t => {
@@ -194,8 +193,8 @@ export default function ShopPage() {
           })}
         </div>
 
-        {/* 桌面端 2 列：左大预览 + 右网格 / 移动端：上下堆叠 */}
-        <div className="lg:grid lg:grid-cols-[minmax(0,360px)_minmax(0,1fr)] lg:gap-6 lg:items-start">
+        {/* 2 列：左大预览 + 右网格 */}
+        <div className="lg:grid lg:grid-cols-[minmax(0,300px)_minmax(0,1fr)] lg:gap-4 lg:items-start">
           {/* 大预览面板 */}
           <div className="mb-6 lg:mb-0 lg:sticky lg:top-24 relative">
             <PreviewPane
@@ -247,6 +246,7 @@ export default function ShopPage() {
       </div>
 
     </main>
+    </AppShell>
   );
 }
 

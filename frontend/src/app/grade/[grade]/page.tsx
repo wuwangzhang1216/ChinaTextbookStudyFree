@@ -2,6 +2,8 @@ import { promises as fs } from "fs";
 import path from "path";
 import { PageHeader } from "@/components/PageHeader";
 import { SoundLink } from "@/components/SoundLink";
+import { AppShell } from "@/components/layout/AppShell";
+import { ChangeGradeButton } from "@/components/ChangeGradeButton";
 import type { SiteIndex, SubjectId, Book } from "@/types";
 import { SUBJECTS } from "@/lib/subjects";
 
@@ -81,15 +83,16 @@ export default async function GradePage({ params }: { params: Promise<{ grade: s
   }
 
   return (
-    <main className="min-h-screen flex flex-col items-center px-4 pt-4 pb-8 lg:pt-8">
+    <AppShell right={null} centerMaxWidth={840}>
+    <main className="min-h-screen flex flex-col items-center px-4 pt-4 pb-8 lg:pt-2 lg:px-0">
       <PageHeader
-        backHref="/"
+        backHref={null}
         title={`${gradeName}年级`}
-        subtitle="选择学科 · 选择上册或下册"
+        rightExtra={<ChangeGradeButton />}
       />
-      <div className="w-full max-w-3xl lg:max-w-5xl xl:max-w-6xl">
+      <div className="w-full">
 
-        <div className="space-y-6 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-10">
+        <div className="space-y-6">
           {SUBJECT_ORDER.map(subjectId => {
             const subjectBooks = bySubject.get(subjectId);
             if (!subjectBooks || subjectBooks.length === 0) return null;
@@ -178,5 +181,6 @@ export default async function GradePage({ params }: { params: Promise<{ grade: s
         </div>
       </div>
     </main>
+    </AppShell>
   );
 }

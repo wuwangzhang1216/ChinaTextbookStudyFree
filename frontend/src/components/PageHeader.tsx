@@ -21,8 +21,8 @@ import { SoundLink } from "@/components/SoundLink";
 import { StatsBar } from "@/components/StatsBar";
 
 interface PageHeaderProps {
-  /** 返回链接的目标路径 */
-  backHref: string;
+  /** 返回链接的目标路径；传 null 隐藏返回按钮（顶层页面无父级时用） */
+  backHref: string | null;
   /** 主标题 */
   title: string;
   /** 副标题（可选） */
@@ -47,26 +47,21 @@ export function PageHeader({
     <div className={`w-full ${maxWidthClass}`}>
       {/* 顶部 app bar —— 单行：返回 + stats */}
       <div className="flex items-center justify-between gap-3 mb-4 lg:mb-6">
-        <SoundLink
-          href={backHref}
-          aria-label="返回"
-          className="inline-flex items-center justify-center w-10 h-10 lg:w-11 lg:h-11 rounded-full bg-white border-2 border-bg-softer text-ink-light hover:text-primary hover:border-primary transition-colors shrink-0"
-          style={{ boxShadow: "0 3px 0 0 #e5e5e5" }}
-        >
-          <ArrowLeft className="w-5 h-5" />
-        </SoundLink>
+        {backHref ? (
+          <SoundLink
+            href={backHref}
+            aria-label="返回"
+            className="inline-flex items-center justify-center w-10 h-10 lg:w-11 lg:h-11 rounded-full bg-white border-2 border-bg-softer text-ink-light hover:text-primary hover:border-primary transition-colors shrink-0 lg:hidden"
+            style={{ boxShadow: "0 3px 0 0 #e5e5e5" }}
+          >
+            <ArrowLeft className="w-5 h-5" />
+          </SoundLink>
+        ) : null}
 
         {showStats && (
-          <>
-            {/* 移动端：紧凑 StatsBar */}
-            <div className="lg:hidden flex-1 flex justify-end min-w-0">
-              <StatsBar compact />
-            </div>
-            {/* 桌面端：完整 StatsBar */}
-            <div className="hidden lg:flex flex-1 justify-end min-w-0">
-              <StatsBar />
-            </div>
-          </>
+          <div className="flex-1 flex justify-end min-w-0">
+            <StatsBar compact />
+          </div>
         )}
       </div>
 

@@ -1,6 +1,7 @@
 "use client";
 
 import dynamic from "next/dynamic";
+import type { Book } from "@/types";
 import type { BookOutlineWithLessons } from "./BookPathView";
 
 const BookPathView = dynamic(
@@ -18,9 +19,11 @@ const BookPathView = dynamic(
 export default function BookPathSection({
   bookId,
   outline,
+  book,
 }: {
   bookId: string;
   outline: BookOutlineWithLessons;
+  book: Book;
 }) {
-  return <BookPathView bookId={bookId} outline={outline} />;
+  return <BookPathView bookId={bookId} outline={outline} book={book} />;
 }

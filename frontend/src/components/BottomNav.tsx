@@ -1,16 +1,9 @@
 "use client";
 
 /**
- * BottomNav —— 移动端底部固定导航栏（1:1 Duolingo 模式）
+ * BottomNav —— 移动端底部固定导航栏
  *
- * 4 个 tab：学习 / 错题本 / 商店 / 我的
- *
- * 设计语言：
- *   - 固定底部，全宽，56px 高（safe-area-inset 适配 iPhone 刘海/底栏）
- *   - 每个 tab：图标 + 标签，激活态 = 主色 + 灰底背板
- *   - 仅移动端显示（lg+ 用回原有的内联按钮）
- *   - 在课程进行中（lesson runner）等沉浸式页面隐藏（路径检查）
- *   - Badge 系统：错题本显示今日待复习数 / 商店在有可购道具时点红点
+ * 4 个真实 tab：学习 / 错题本 / 商店 / 我的
  */
 
 import { useEffect, useState } from "react";
@@ -182,7 +175,7 @@ export function BottomNav() {
                 ) : null}
               </div>
               <span
-                className={`text-[10px] font-extrabold leading-none ${
+                className={`text-[9px] font-extrabold leading-none ${
                   active ? item.activeColor : "text-ink-softer"
                 }`}
               >

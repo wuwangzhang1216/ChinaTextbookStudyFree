@@ -32,6 +32,28 @@ import {
   type MascotTriggerContext,
 } from "@/lib/mascotTriggers";
 import { getCosmeticById, type LessonBackdrop } from "@/lib/cosmetics";
+import type { QuestionType } from "@cstf/core";
+
+/** 仿 Duolingo 题型胶囊文案（紫色 NEW WORD tag） */
+function questionTagLabel(type: QuestionType): string {
+  switch (type) {
+    case "choice":
+      return "选择题";
+    case "true_false":
+      return "判断题";
+    case "fill_blank":
+    case "calculation":
+      return "计算填空";
+    case "fill_blank_text":
+      return "文字填空";
+    case "word_order":
+      return "排序";
+    case "matching":
+      return "连线配对";
+    default:
+      return "新题";
+  }
+}
 
 // 重型/条件渲染的子组件：按需加载以减小 LessonRunner 初始 chunk
 const FeedbackPanel = dynamic(
@@ -719,6 +741,13 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
       {/* Question area */}
       <div className="flex-1 flex flex-col items-center justify-start px-5 py-4">
         <div className="w-full max-w-md lg:max-w-2xl">
+          {/* "NEW WORD" 紫色胶囊 tag —— 仿 Duolingo 题型标签 */}
+          <div className="mb-3 inline-flex items-center gap-1.5">
+            <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-purple-100 text-purple-600 text-[11px] font-extrabold uppercase tracking-wider">
+              <span className="w-1.5 h-1.5 rounded-full bg-purple-500" />
+              {questionTagLabel(current.type)}
+            </span>
+          </div>
           <AnimatePresence mode="wait">
             <motion.div
               key={index}
@@ -746,14 +775,28 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
           `回答错误。正确答案是：${current.answer}。${current.explanation ?? ""}`}
       </div>
 
-      {/* Bottom: check button (or feedback panel takes over) */}
+      {/* Bottom: SKIP / CHECK 双按钮（仿 Duolingo 真机底栏） */}
       {phase === "answering" && (
-        <div className="bg-white border-t border-bg-softer">
-          <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-4">
+        <div className="bg-white border-t-2 border-bg-softer">
+          <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-4 flex items-center gap-3">
+            <button
+              type="button"
+              onClick={() => {
+                playSfx("tap");
+                haptic("light");
+                // 跳过：等价于直接判错并继续
+                setAnswer("");
+                handleCheck();
+              }}
+              className="btn-chunky-ghost px-6"
+              aria-label="跳过本题"
+            >
+              跳过
+            </button>
             <button
               onClick={handleCheck}
               disabled={!answer.trim()}
-              className={answer.trim() ? "w-full btn-chunky-primary" : "w-full btn-chunky-disabled"}
+              className={answer.trim() ? "flex-1 btn-chunky-primary" : "flex-1 btn-chunky-disabled"}
             >
               检查
             </button>

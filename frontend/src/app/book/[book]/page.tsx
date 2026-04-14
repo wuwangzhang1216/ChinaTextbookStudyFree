@@ -2,13 +2,11 @@ import { promises as fs } from "fs";
 import path from "path";
 import { BookOpen } from "@/components/icons";
 import { StatsBar } from "@/components/StatsBar";
-import { SubjectBadge } from "@/components/SubjectBadge";
 import { SoundLink } from "@/components/SoundLink";
-import { InnerHeader } from "@/components/InnerHeader";
+import { AppShell } from "@/components/layout/AppShell";
 import type { SiteIndex } from "@/types";
 import type { BookOutlineWithLessons } from "./BookPathView";
 import BookPathSection from "./BookPathSection";
-import { BookSidebar } from "./BookSidebar";
 
 async function getIndex(): Promise<SiteIndex> {
   const p = path.join(process.cwd(), "public", "data", "index.json");
@@ -33,24 +31,17 @@ export default async function BookPage({ params }: { params: Promise<{ book: str
 
   const outline = await getBookOutline(bookId);
 
-  const lessonIds = outline.lessons.map(l => l.id);
-
   return (
-    <main className="min-h-screen bg-bg-soft">
-      <InnerHeader
-        backHref={`/grade/${book.grade}/`}
-        title={book.textbookName}
-        subtitle={`${book.unitsCount} 单元 · ${book.lessonsCount} 节小课`}
-        badge={<SubjectBadge book={book} />}
-        right={
-          <>
-            <div className="lg:hidden"><StatsBar compact /></div>
-            <div className="hidden lg:flex"><StatsBar /></div>
-          </>
-        }
-      />
+    <AppShell centerMaxWidth={720}>
+    <main className="min-h-screen bg-bg-soft lg:bg-transparent">
+      {/* 移动端 stats 顶栏：返回和教材/单元信息已并入 PathMap sticky banner */}
+      <div className="lg:hidden bg-white border-b border-bg-softer sticky top-0 z-30">
+        <div className="max-w-md mx-auto px-4 py-2 flex items-center justify-end">
+          <StatsBar compact />
+        </div>
+      </div>
 
-      {/* 移动端：课文听读 + 故事阅读小条（lg+ 隐藏，桌面端在右侧 sidebar 里） */}
+      {/* 移动端：课文听读 + 故事阅读小条 */}
       {(book.hasPassages || book.hasStories) && (
         <div className="lg:hidden max-w-md mx-auto px-4 pt-4 space-y-3">
           {book.hasPassages && (
@@ -90,26 +81,9 @@ export default async function BookPage({ params }: { params: Promise<{ book: str
         </div>
       )}
 
-      {/* 桌面端 2 列：左路径 + 右侧边栏（sticky 跟随滚动）；移动端单列
-       * 注意：grid 不能用 items-start，否则右 cell 高度会被压成内容高度，
-       * sticky 就失去滚动范围。默认 stretch 让右 cell 跟左 cell 同高，
-       * 内层 aside 的 sticky top-24 才能在整个路径长度内吸附。 */}
-      <div className="max-w-md lg:max-w-6xl mx-auto lg:px-6 lg:pt-6 lg:grid lg:grid-cols-[minmax(0,1fr)_320px] lg:gap-8">
-        <div className="min-w-0">
-          <BookPathSection bookId={bookId} outline={outline} />
-        </div>
-        <div className="hidden lg:block">
-          <BookSidebar
-            bookId={bookId}
-            grade={book.grade}
-            textbookName={book.textbookName}
-            unitsCount={book.unitsCount}
-            lessonIds={lessonIds}
-            hasPassages={!!book.hasPassages}
-            hasStories={!!book.hasStories}
-          />
-        </div>
-      </div>
+      {/* 单元路径 —— 桌面端的课文/故事入口由 PathMap 的 topSlot 承载，随 sticky banner 一起吸附 */}
+      <BookPathSection bookId={bookId} outline={outline} book={book} />
     </main>
+    </AppShell>
   );
 }

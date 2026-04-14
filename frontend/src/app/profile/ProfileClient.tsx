@@ -9,6 +9,7 @@ import { StatsBar } from "@/components/StatsBar";
 import { DailyGoalRing } from "@/components/DailyGoalRing";
 import { AchievementWall } from "@/components/AchievementWall";
 import { WeeklyReportCard } from "@/components/WeeklyReportCard";
+import { AppShell } from "@/components/layout/AppShell";
 import {
   ArrowLeft,
   Lightning,
@@ -48,25 +49,24 @@ export function ProfileClient() {
   const mistakesCount = hydrated ? mistakes.length : 0;
 
   return (
-    <main className="min-h-screen bg-bg-soft relative">
-      {/* Header */}
-      <div className="bg-white border-b border-bg-softer sticky top-0 z-10">
-        <div className="max-w-2xl lg:max-w-4xl mx-auto flex items-center justify-between gap-3 px-4 py-3">
+    <AppShell right={null} centerMaxWidth={920}>
+    <main className="min-h-screen bg-bg-soft lg:bg-transparent relative">
+      {/* Header —— 移动端白底 sticky；桌面端简化为 标题 + compact HUD */}
+      <div className="bg-white border-b border-bg-softer sticky top-0 z-10 lg:bg-transparent lg:border-0 lg:static lg:mb-2">
+        <div className="max-w-2xl lg:max-w-4xl mx-auto flex items-center justify-between gap-3 px-4 py-3 lg:px-0 lg:py-2">
           <SoundLink
             href="/"
             aria-label="返回"
-            className="inline-flex items-center justify-center w-10 h-10 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0"
+            className="inline-flex items-center justify-center w-10 h-10 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0 lg:hidden"
           >
             <ArrowLeft className="w-5 h-5" />
           </SoundLink>
-          <div className="flex-1 min-w-0 text-center">
-            <div className="text-base lg:text-lg font-extrabold text-ink truncate">我的主页</div>
+          <div className="flex-1 min-w-0 text-center lg:hidden">
+            <div className="text-base font-extrabold text-ink truncate">我的主页</div>
           </div>
-          <div className="lg:hidden shrink-0">
+          <div className="hidden lg:block flex-1" />
+          <div className="shrink-0">
             <StatsBar compact />
-          </div>
-          <div className="hidden lg:flex shrink-0">
-            <StatsBar />
           </div>
         </div>
       </div>
@@ -236,6 +236,7 @@ export function ProfileClient() {
         </div>
       </div>
     </main>
+    </AppShell>
   );
 }
 

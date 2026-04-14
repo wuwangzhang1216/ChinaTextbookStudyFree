@@ -111,16 +111,21 @@ export function ChoiceQuestion({ question, answer, phase, isCorrect, onChange }:
                 }
                 transition={shouldPulse ? { duration: 1.3, repeat: Infinity } : undefined}
               >
-                <motion.span
-                  animate={selected ? { scale: [1, 1.18, 1], backgroundColor: "#1CB0F6", color: "#FFFFFF" } : { scale: 1 }}
-                  transition={{ duration: 0.25 }}
-                  className="w-8 h-8 rounded-full bg-bg-soft flex items-center justify-center font-extrabold text-ink-light shrink-0"
-                >
-                  {letter}
-                </motion.span>
                 <span className="flex-1">
                   <MathText text={display} />
                 </span>
+                {/* Duolingo 风格：右下角数字角标（1/2/3/4） */}
+                <motion.span
+                  animate={
+                    selected
+                      ? { scale: [1, 1.18, 1], borderColor: "#1CB0F6", color: "#1CB0F6" }
+                      : { scale: 1 }
+                  }
+                  transition={{ duration: 0.25 }}
+                  className="ml-3 w-7 h-7 rounded-md border-2 border-bg-softer flex items-center justify-center font-extrabold text-ink-softer text-xs tabular-nums shrink-0"
+                >
+                  {idx + 1}
+                </motion.span>
 
                 {/* Ripple */}
                 {(ripples[letter] ?? []).map(r => (

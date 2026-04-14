@@ -100,7 +100,11 @@ interface ProgressState {
   /** 上次领取每日登陆奖励的日期 */
   lastDailyRewardDate: string;
 
+  // 🎒 v6：用户选择的年级（首次进入时引导选择，决定 home 显示哪一年级的教材）
+  selectedGrade: number | null;
+
   // actions
+  setSelectedGrade: (grade: number | null) => void;
   recordLessonComplete: (lessonId: string, lessonTitle: string, accuracy: number, xpGained: number) => void;
   addMistake: (lessonId: string, lessonTitle: string, question: Question) => void;
   removeMistake: (lessonId: string, questionId: number) => void;
@@ -279,6 +283,10 @@ export const useProgressStore = create<ProgressState>()(
       xpHistory: {},
       lessonHistory: {},
       lastDailyRewardDate: "",
+
+      // v6
+      selectedGrade: null,
+      setSelectedGrade: grade => set({ selectedGrade: grade }),
 
       recordLessonComplete: (lessonId, lessonTitle, accuracy, xpGained) => {
         const stars = starsFromAccuracy(accuracy);
@@ -678,7 +686,8 @@ export const useProgressStore = create<ProgressState>()(
       //   v2 → v3：新增 gems / lifetimeGems / claimedChests / perfectedLessons + autoNarrate
       //   v3 → v4：新增美妆系统 ownedCosmetics / equippedXxx + claimedStreakRewards + 时间关怀
       //   v4 → v5：新增 xpHistory / lessonHistory / lastDailyRewardDate
-      version: 5,
+      //   v5 → v6：新增 selectedGrade（首次进入引导选择年级）
+      version: 6,
       migrate: (persistedState: unknown) => {
         const state = (persistedState as Partial<ProgressState>) ?? {};
         const starterOwned = Object.fromEntries(
@@ -710,6 +719,8 @@ export const useProgressStore = create<ProgressState>()(
           xpHistory: state.xpHistory ?? {},
           lessonHistory: state.lessonHistory ?? {},
           lastDailyRewardDate: state.lastDailyRewardDate ?? "",
+          // v6
+          selectedGrade: state.selectedGrade ?? null,
         } as ProgressState;
       },
     },

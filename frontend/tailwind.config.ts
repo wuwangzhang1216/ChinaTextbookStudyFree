@@ -116,6 +116,9 @@ const config: Config = {
         glow: "0 0 0 6px rgba(88,204,2,0.25)",
         "glow-gold": "0 0 0 8px rgba(255,200,0,0.3)",
       },
+      letterSpacing: {
+        tightest: "-0.025em",
+      },
       animation: {
         "bounce-slow": "bounce 2s infinite",
         wiggle: "wiggle 0.4s ease-in-out",

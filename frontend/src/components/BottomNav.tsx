@@ -10,8 +10,10 @@
  *   - 每个 tab：图标 + 标签，激活态 = 主色 + 灰底背板
  *   - 仅移动端显示（lg+ 用回原有的内联按钮）
  *   - 在课程进行中（lesson runner）等沉浸式页面隐藏（路径检查）
+ *   - Badge 系统：错题本显示今日待复习数 / 商店在有可购道具时点红点
  */
 
+import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import {
@@ -23,6 +25,9 @@ import {
 } from "@/components/icons";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
+import { useProgressStore } from "@/store/progress";
+import { ALL_COSMETICS } from "@/lib/cosmetics";
+import { hasUnseenAchievements } from "@/lib/achievements";
 import type { ComponentType } from "react";
 
 interface NavItem {
@@ -82,11 +87,43 @@ function isActive(pathname: string, item: NavItem): boolean {
   return pathname.startsWith(item.matchPrefix);
 }
 
+function todayStr(): string {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 export function BottomNav() {
   const pathname = usePathname() ?? "/";
+  const [hydrated, setHydrated] = useState(false);
+  useEffect(() => setHydrated(true), []);
+
+  const mistakes = useProgressStore(s => s.mistakesBank);
+  const gems = useProgressStore(s => s.gems);
+  const ownedCosmetics = useProgressStore(s => s.ownedCosmetics);
+
+  // 错题本徽章：今日可复习的数量
+  const today = todayStr();
+  const reviewBadge = hydrated
+    ? mistakes.filter(m => !m.nextReviewDate || m.nextReviewDate <= today).length
+    : 0;
+
+  // 商店徽章：有任何当前 gems 买得起且未拥有的道具就亮红点
+  const shopHasAffordable = hydrated
+    ? ALL_COSMETICS.some(c => !ownedCosmetics[c.id] && c.cost > 0 && gems >= c.cost)
+    : false;
+
+  // 个人中心徽章：未读成就
+  const profileHasUnseen = hydrated && hasUnseenAchievements();
 
   // 内嵌路径检查：sub-route 上的 lesson runner / reading 隐藏
   if (HIDDEN_PREFIXES.some(p => pathname.startsWith(p))) return null;
+
+  function getBadge(item: NavItem): { count?: number; dot?: boolean } | null {
+    if (item.matchPrefix === "/review" && reviewBadge > 0) return { count: reviewBadge };
+    if (item.matchPrefix === "/shop" && shopHasAffordable) return { dot: true };
+    if (item.matchPrefix === "/profile" && profileHasUnseen) return { dot: true };
+    return null;
+  }
 
   return (
     <nav
@@ -101,6 +138,7 @@ export function BottomNav() {
         {NAV_ITEMS.map(item => {
           const active = isActive(pathname, item);
           const Icon = item.Icon;
+          const badge = getBadge(item);
           return (
             <Link
               key={item.href}
@@ -109,12 +147,18 @@ export function BottomNav() {
                 playSfx("tap");
                 haptic("light");
               }}
-              className="flex flex-col items-center justify-center gap-0.5 select-none"
-              aria-label={item.label}
+              className="flex flex-col items-center justify-center gap-0.5 select-none relative"
+              aria-label={
+                badge?.count
+                  ? `${item.label}（${badge.count} 项待办）`
+                  : badge?.dot
+                    ? `${item.label}（有新内容）`
+                    : item.label
+              }
               aria-current={active ? "page" : undefined}
             >
               <div
-                className={`flex items-center justify-center w-10 h-7 rounded-full transition-colors ${
+                className={`relative flex items-center justify-center w-10 h-7 rounded-full transition-colors ${
                   active ? item.activeBg : ""
                 }`}
               >
@@ -123,6 +167,19 @@ export function BottomNav() {
                     active ? item.activeColor : "text-ink-softer"
                   }`}
                 />
+                {badge?.count && badge.count > 0 ? (
+                  <span
+                    className="absolute -top-1 -right-1 min-w-[16px] h-4 px-1 rounded-full bg-danger text-white text-[9px] font-extrabold inline-flex items-center justify-center border-2 border-white tabular-nums"
+                    aria-hidden="true"
+                  >
+                    {badge.count > 99 ? "99+" : badge.count}
+                  </span>
+                ) : badge?.dot ? (
+                  <span
+                    className="absolute -top-0.5 -right-0.5 w-2.5 h-2.5 rounded-full bg-danger border-2 border-white"
+                    aria-hidden="true"
+                  />
+                ) : null}
               </div>
               <span
                 className={`text-[10px] font-extrabold leading-none ${

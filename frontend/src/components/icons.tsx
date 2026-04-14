@@ -702,3 +702,78 @@ export function Confetti({ size = 24, ...props }: IconProps) {
     </svg>
   );
 }
+
+export function Medal({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="none" stroke="currentColor" strokeWidth={1.75} {...props}>
+      <path d="M7 3l3 6M17 3l-3 6" />
+      <circle cx={12} cy={15} r={6} />
+      <path d="M9 13l3 2 3-2v4l-3 -1.5L9 17z" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+export function Bell({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="none" stroke="currentColor" strokeWidth={1.75} {...props}>
+      <path d="M6 16V11a6 6 0 0 1 12 0v5l1.5 2H4.5z" />
+      <path d="M10 20a2 2 0 0 0 4 0" />
+    </svg>
+  );
+}
+
+export function Calendar({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="none" stroke="currentColor" strokeWidth={1.75} {...props}>
+      <rect x={3} y={5} width={18} height={16} rx={3} />
+      <path d="M3 10h18M8 3v4M16 3v4" />
+    </svg>
+  );
+}
+
+export function TrendingUp({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="none" stroke="currentColor" strokeWidth={1.75} {...props}>
+      <path d="M3 17l6-6 4 4 8-8" />
+      <path d="M14 7h7v7" />
+    </svg>
+  );
+}
+
+export function CloudOff({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="none" stroke="currentColor" strokeWidth={1.75} {...props}>
+      <path d="M3 3l18 18" />
+      <path d="M9 5a5 5 0 0 1 9 3 4 4 0 0 1 1.5 7.6" />
+      <path d="M16 18H7a4 4 0 0 1 -1.5 -7.7" />
+    </svg>
+  );
+}
+
+export function Smile({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="none" stroke="currentColor" strokeWidth={1.75} {...props}>
+      <circle cx={12} cy={12} r={9} />
+      <path d="M9 14a3.5 3.5 0 0 0 6 0" />
+      <circle cx={9} cy={10} r={0.8} fill="currentColor" />
+      <circle cx={15} cy={10} r={0.8} fill="currentColor" />
+    </svg>
+  );
+}
+
+export function Sun({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="none" stroke="currentColor" strokeWidth={1.75} {...props}>
+      <circle cx={12} cy={12} r={4} />
+      <path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6l1.4 1.4M17 17l1.4 1.4M5.6 18.4l1.4 -1.4M17 7l1.4 -1.4" />
+    </svg>
+  );
+}
+
+export function Moon({ size = 24, ...props }: IconProps) {
+  return (
+    <svg {...COMMON} width={size} height={size} fill="none" stroke="currentColor" strokeWidth={1.75} {...props}>
+      <path d="M21 12.5A9 9 0 1 1 11.5 3a7 7 0 0 0 9.5 9.5z" />
+    </svg>
+  );
+}

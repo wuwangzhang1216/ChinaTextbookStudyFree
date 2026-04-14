@@ -17,6 +17,8 @@
 import { useMemo, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
+import { useToast } from "@/components/Toast";
+import { Sparkle } from "@/components/icons";
 import {
   MASCOT_SKINS,
   UI_THEMES,
@@ -63,7 +65,8 @@ const CATALOGS: Record<Tab, CosmeticItem[]> = {
 export default function ShopPage() {
   const [tab, setTab] = useState<Tab>("mascot_skin");
   const [hoverItemId, setHoverItemId] = useState<string | null>(null);
-  const [toast, setToast] = useState<{ msg: string; ok: boolean } | null>(null);
+  const [unlockBurstId, setUnlockBurstId] = useState<string | null>(null);
+  const toast = useToast();
 
   const gems = useProgressStore(s => s.gems);
   const ownedCosmetics = useProgressStore(s => s.ownedCosmetics);
@@ -95,11 +98,6 @@ export default function ShopPage() {
     [items, previewId],
   );
 
-  function showToast(msg: string, ok = true) {
-    setToast({ msg, ok });
-    setTimeout(() => setToast(null), 1800);
-  }
-
   function handleClick(item: CosmeticItem) {
     playSfx("tap");
     haptic("light");
@@ -109,18 +107,20 @@ export default function ShopPage() {
       if (ok) {
         playSfx("star");
         haptic("success");
-        showToast(`已装备：${item.name}`);
+        toast.success(`已装备：${item.name}`);
       }
     } else {
       const result = purchaseCosmetic(item.id);
       if (result.ok) {
         playSfx("unlock");
         haptic("success");
-        showToast(`解锁成功：${item.name}`);
+        toast.success(`解锁成功：${item.name}`);
+        setUnlockBurstId(item.id);
+        window.setTimeout(() => setUnlockBurstId(null), 1400);
       } else {
         playSfx("wrong");
         haptic("heavy");
-        showToast(result.reason ?? "购买失败", false);
+        toast.error(result.reason ?? "购买失败");
       }
     }
   }
@@ -197,7 +197,7 @@ export default function ShopPage() {
         {/* 桌面端 2 列：左大预览 + 右网格 / 移动端：上下堆叠 */}
         <div className="lg:grid lg:grid-cols-[minmax(0,360px)_minmax(0,1fr)] lg:gap-6 lg:items-start">
           {/* 大预览面板 */}
-          <div className="mb-6 lg:mb-0 lg:sticky lg:top-24">
+          <div className="mb-6 lg:mb-0 lg:sticky lg:top-24 relative">
             <PreviewPane
               item={previewItem}
               isHoverPreview={hoverItemId !== null && hoverItemId !== getEquippedId(tab)}
@@ -208,6 +208,7 @@ export default function ShopPage() {
               equipped={previewItem ? isEquipped(previewItem) : false}
               canAfford={previewItem ? gems >= previewItem.cost : false}
             />
+            <UnlockBurst active={!!previewItem && unlockBurstId === previewItem.id} />
           </div>
 
           {/* 右侧网格 */}
@@ -245,26 +246,6 @@ export default function ShopPage() {
         </div>
       </div>
 
-      {/* Toast */}
-      <AnimatePresence>
-        {toast && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: 20 }}
-            className={`fixed bottom-6 left-1/2 -translate-x-1/2 px-5 py-3 rounded-2xl font-extrabold text-white shadow-lg z-50 ${
-              toast.ok ? "bg-primary" : "bg-danger"
-            }`}
-            style={{
-              boxShadow: toast.ok
-                ? "0 5px 0 0 #58A700"
-                : "0 5px 0 0 #c00",
-            }}
-          >
-            {toast.msg}
-          </motion.div>
-        )}
-      </AnimatePresence>
     </main>
   );
 }
@@ -448,6 +429,59 @@ function PreviewStage({ item }: { item: CosmeticItem }) {
     );
   }
   return null;
+}
+
+// ============================================================
+// 解锁爆裂动画 —— 在预览面板上短暂展示星星 + 闪光
+// ============================================================
+function UnlockBurst({ active }: { active: boolean }) {
+  return (
+    <AnimatePresence>
+      {active && (
+        <motion.div
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          exit={{ opacity: 0 }}
+          className="pointer-events-none absolute inset-0 flex items-center justify-center"
+          aria-hidden="true"
+        >
+          {/* 中心圆环 */}
+          <motion.div
+            initial={{ scale: 0, opacity: 0.8 }}
+            animate={{ scale: 4, opacity: 0 }}
+            transition={{ duration: 0.9, ease: "easeOut" }}
+            className="absolute w-20 h-20 rounded-full"
+            style={{
+              background:
+                "radial-gradient(circle, rgba(168,85,247,0.55), transparent 70%)",
+            }}
+          />
+          {/* 8 颗散开的星星 */}
+          {Array.from({ length: 8 }).map((_, i) => {
+            const angle = (i / 8) * Math.PI * 2;
+            const dist = 110;
+            return (
+              <motion.div
+                key={i}
+                initial={{ x: 0, y: 0, opacity: 0, scale: 0.4 }}
+                animate={{
+                  x: Math.cos(angle) * dist,
+                  y: Math.sin(angle) * dist,
+                  opacity: [0, 1, 0],
+                  scale: [0.4, 1.2, 0.8],
+                  rotate: 360,
+                }}
+                transition={{ duration: 0.95, ease: "easeOut" }}
+                className="absolute text-purple-500"
+              >
+                <Sparkle className="w-5 h-5" />
+              </motion.div>
+            );
+          })}
+        </motion.div>
+      )}
+    </AnimatePresence>
+  );
 }
 
 function ColorChip({ color, label }: { color: string; label: string }) {

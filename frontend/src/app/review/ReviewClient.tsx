@@ -4,19 +4,38 @@ import { useEffect, useState } from "react";
 import { SoundLink } from "@/components/SoundLink";
 import { motion, AnimatePresence } from "framer-motion";
 import { useProgressStore } from "@/store/progress";
-import { Mascot } from "@/components/Mascot";
 import { MathText } from "@/components/MathText";
 import { StatsBar } from "@/components/StatsBar";
+import { EmptyState } from "@/components/StateMessages";
 import { ArrowLeft, Bookmark, Check, XCircle, CheckCircle } from "@/components/icons";
 import { playSfx } from "@/lib/sfx";
 import { haptic } from "@/lib/haptic";
 
+function todayKey(): string {
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
+function tomorrowKey(): string {
+  const d = new Date();
+  d.setDate(d.getDate() + 1);
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 /** 把"YYYY-MM-DD"和今天比较，<= today 即为可复习 */
 function isDueToday(dateStr?: string): boolean {
   if (!dateStr) return true;
-  const d = new Date();
-  const today = `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-  return dateStr <= today;
+  return dateStr <= todayKey();
+}
+
+function isTomorrow(dateStr?: string): boolean {
+  if (!dateStr) return false;
+  return dateStr === tomorrowKey();
+}
+
+function isLater(dateStr?: string): boolean {
+  if (!dateStr) return false;
+  return dateStr > tomorrowKey();
 }
 
 const BOX_LABELS: Record<number, { label: string; color: string }> = {
@@ -90,8 +109,25 @@ export function ReviewClient() {
       </div>
 
       <div className="max-w-2xl lg:max-w-4xl mx-auto px-4 py-6">
+        {hydrated && totalMistakes > 0 && (
+          <SrsSummary
+            todayCount={dueCount}
+            tomorrowCount={mistakes.filter(m => isTomorrow(m.nextReviewDate)).length}
+            laterCount={mistakes.filter(m => isLater(m.nextReviewDate)).length}
+            graduatedCount={mistakes.filter(m => (m.box ?? 1) >= 3).length}
+          />
+        )}
         {hydrated && totalMistakes === 0 ? (
-          <EmptyState />
+          <EmptyState
+            mood="cheer"
+            title="还没有错题！"
+            desc="继续加油，保持零错误～"
+            action={
+              <SoundLink href="/" hapticIntensity="medium" className="btn-chunky-primary px-8">
+                去学习
+              </SoundLink>
+            }
+          />
         ) : (
           <div className="space-y-6 lg:space-y-0 lg:grid lg:grid-cols-2 lg:gap-6 lg:items-start">
             {groupEntries.map(([lessonId, group], gi) => (
@@ -140,15 +176,68 @@ export function ReviewClient() {
   );
 }
 
-function EmptyState() {
+function SrsSummary({
+  todayCount,
+  tomorrowCount,
+  laterCount,
+  graduatedCount,
+}: {
+  todayCount: number;
+  tomorrowCount: number;
+  laterCount: number;
+  graduatedCount: number;
+}) {
+  const total = todayCount + tomorrowCount + laterCount;
+  const todayPct = total > 0 ? Math.round((todayCount / total) * 100) : 0;
   return (
-    <div className="flex flex-col items-center justify-center py-16 text-center">
-      <Mascot mood="cheer" size={140} />
-      <h2 className="text-2xl font-extrabold text-ink mt-4">还没有错题！</h2>
-      <p className="text-ink-light mt-2">继续加油，保持零错误～</p>
-      <SoundLink href="/" hapticIntensity="medium" className="btn-chunky-primary mt-6 px-8">
-        去学习
-      </SoundLink>
+    <motion.section
+      initial={{ opacity: 0, y: 8 }}
+      animate={{ opacity: 1, y: 0 }}
+      className="mb-5 bg-white rounded-3xl border-2 border-bg-softer p-5"
+      style={{ boxShadow: "0 4px 0 0 #e5e5e5" }}
+    >
+      <div className="flex items-center justify-between mb-3">
+        <div className="text-base font-extrabold text-ink">今日复习计划</div>
+        <div className="text-xs font-extrabold text-ink-light tabular-nums">
+          <span className="text-danger">{todayCount}</span>
+          <span className="text-ink-softer"> / {total} 待办</span>
+        </div>
+      </div>
+      <div className="h-2 rounded-full bg-bg-softer overflow-hidden mb-3">
+        <motion.div
+          initial={{ width: 0 }}
+          animate={{ width: `${todayPct}%` }}
+          transition={{ duration: 0.6, ease: "easeOut" }}
+          className="h-full bg-danger rounded-full"
+        />
+      </div>
+      <div className="grid grid-cols-4 gap-2">
+        <SrsBucket label="今天" count={todayCount} color="text-danger" bg="bg-danger/10" />
+        <SrsBucket label="明天" count={tomorrowCount} color="text-warning" bg="bg-warning/15" />
+        <SrsBucket label="之后" count={laterCount} color="text-secondary" bg="bg-secondary/10" />
+        <SrsBucket label="已掌握" count={graduatedCount} color="text-primary" bg="bg-primary/10" />
+      </div>
+    </motion.section>
+  );
+}
+
+function SrsBucket({
+  label,
+  count,
+  color,
+  bg,
+}: {
+  label: string;
+  count: number;
+  color: string;
+  bg: string;
+}) {
+  return (
+    <div className={`rounded-xl ${bg} p-2 text-center`}>
+      <div className={`text-xl font-extrabold tabular-nums leading-none ${color}`}>{count}</div>
+      <div className="text-[10px] uppercase tracking-wider text-ink-softer font-extrabold mt-1">
+        {label}
+      </div>
     </div>
   );
 }

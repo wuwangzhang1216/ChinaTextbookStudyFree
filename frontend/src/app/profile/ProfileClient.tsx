@@ -7,6 +7,8 @@ import { useProgressStore } from "@/store/progress";
 import { Mascot } from "@/components/Mascot";
 import { StatsBar } from "@/components/StatsBar";
 import { DailyGoalRing } from "@/components/DailyGoalRing";
+import { AchievementWall } from "@/components/AchievementWall";
+import { WeeklyReportCard } from "@/components/WeeklyReportCard";
 import {
   ArrowLeft,
   Lightning,
@@ -42,9 +44,6 @@ export function ProfileClient() {
   const completedCount = hydrated ? Object.keys(completedLessons).length : 0;
   const totalStars = hydrated
     ? Object.values(completedLessons).reduce((acc, r) => acc + r.stars, 0)
-    : 0;
-  const perfectCount = hydrated
-    ? Object.values(completedLessons).filter(r => r.stars === 3).length
     : 0;
   const mistakesCount = hydrated ? mistakes.length : 0;
 
@@ -141,24 +140,34 @@ export function ProfileClient() {
           <div className="text-ink-softer text-xl">›</div>
         </SoundLink>
 
-        {/* 成就栏 */}
-        <section className="bg-white rounded-3xl border-2 border-bg-softer p-5 mb-6 lg:mb-0"
+        {/* 本周报告 */}
+        <div className="mb-6 lg:mb-0">
+          {hydrated && <WeeklyReportCard />}
+        </div>
+
+        {/* 连胜护盾小卡片 */}
+        <section
+          className="bg-white rounded-3xl border-2 border-bg-softer p-5 mb-6 lg:mb-0"
           style={{ boxShadow: "0 4px 0 0 #e5e5e5" }}
         >
-          <div className="text-base font-extrabold text-ink mb-4">成就</div>
-          <div className="space-y-3">
-            <Achievement
-              icon={<Snowflake className="w-5 h-5 text-secondary" />}
-              title="连胜护盾"
-              desc={`剩余 ${freezes} 个 · 可保护连胜不中断`}
-            />
-            <Achievement
-              icon={<Star className="w-5 h-5 fill-current text-gold" />}
-              title="完美通关"
-              desc={`已三星通过 ${perfectCount} 节小课`}
-            />
+          <div className="text-base font-extrabold text-ink mb-3">连胜护盾</div>
+          <div className="flex items-center gap-3">
+            <div className="w-12 h-12 rounded-2xl bg-secondary/10 text-secondary flex items-center justify-center">
+              <Snowflake className="w-6 h-6" />
+            </div>
+            <div className="flex-1">
+              <div className="text-sm font-extrabold text-ink">
+                剩余 <span className="text-secondary tabular-nums">{hydrated ? freezes : 0}</span> 个
+              </div>
+              <div className="text-xs text-ink-light">周一自动补给一个 · 防止连胜中断</div>
+            </div>
           </div>
         </section>
+
+        {/* 成就墙（占满整行） */}
+        <div className="lg:col-span-2 mb-6 lg:mb-0">
+          {hydrated && <AchievementWall />}
+        </div>
 
         {/* 快速入口 */}
         <SoundLink
@@ -255,24 +264,3 @@ function StatCard({
   );
 }
 
-function Achievement({
-  icon,
-  title,
-  desc,
-}: {
-  icon: ReactNode;
-  title: string;
-  desc: string;
-}) {
-  return (
-    <div className="flex items-center gap-3 p-3 rounded-2xl bg-bg-soft">
-      <div className="w-10 h-10 rounded-xl bg-white flex items-center justify-center border-2 border-bg-softer">
-        {icon}
-      </div>
-      <div className="flex-1 min-w-0">
-        <div className="text-sm font-extrabold text-ink">{title}</div>
-        <div className="text-xs text-ink-light">{desc}</div>
-      </div>
-    </div>
-  );
-}

@@ -92,6 +92,14 @@ interface ProgressState {
   /** 单次课程时长上限（毫秒），0 表示无限制 */
   sessionTimeLimitMs: number;
 
+  // 📅 v5：每日 XP 历史 + 每日登陆奖励
+  /** 每日 XP 历史 { "YYYY-MM-DD": xp }，最多保留近 60 天 */
+  xpHistory: Record<string, number>;
+  /** 每日完成课程数历史 { "YYYY-MM-DD": count } */
+  lessonHistory: Record<string, number>;
+  /** 上次领取每日登陆奖励的日期 */
+  lastDailyRewardDate: string;
+
   // actions
   recordLessonComplete: (lessonId: string, lessonTitle: string, accuracy: number, xpGained: number) => void;
   addMistake: (lessonId: string, lessonTitle: string, question: Question) => void;
@@ -136,6 +144,9 @@ interface ProgressState {
 
   // 🔁 连胜补卡：花 50 gems 找回昨天的 streak（不让小朋友因为漏了一天就清零）
   makeUpYesterdayStreak: () => boolean;
+
+  /** 领取今日登陆奖励，返回获得的 gems 数；已领过返回 0 */
+  claimDailyReward: () => number;
 
   // 📚 SRS：复习答题后的更新
   reviewMistake: (lessonId: string, questionId: number, isCorrect: boolean) => void;
@@ -196,6 +207,29 @@ function isMonday(): boolean {
   return new Date().getDay() === 1;
 }
 
+/** 保留最近 60 天的历史，防止 localStorage 持续膨胀 */
+function pruneHistory<T>(history: Record<string, T>): Record<string, T> {
+  const keys = Object.keys(history).sort();
+  if (keys.length <= 60) return history;
+  const kept = keys.slice(-60);
+  const out: Record<string, T> = {};
+  for (const k of kept) out[k] = history[k];
+  return out;
+}
+
+/** 周末双倍 XP 标记：用于 UI 展示 */
+export function isWeekendBonusActive(): boolean {
+  const d = new Date().getDay();
+  return d === 0 || d === 6;
+}
+
+/** 每日登陆奖励基础值（连续登陆越多奖励越大，截断到 7 日 cycle） */
+export function dailyRewardForStreak(streak: number): number {
+  // 1天:5 / 2:8 / 3:12 / 4:15 / 5:20 / 6:25 / 7+:30
+  const table = [5, 5, 8, 12, 15, 20, 25, 30];
+  return table[Math.min(streak, 7)];
+}
+
 // ============================================================
 // Store
 // ============================================================
@@ -241,8 +275,19 @@ export const useProgressStore = create<ProgressState>()(
       dailyTimeLimitMs: 0,
       sessionTimeLimitMs: 0,
 
+      // v5
+      xpHistory: {},
+      lessonHistory: {},
+      lastDailyRewardDate: "",
+
       recordLessonComplete: (lessonId, lessonTitle, accuracy, xpGained) => {
         const stars = starsFromAccuracy(accuracy);
+        // 周末双倍 XP（周六/周日）
+        const day = new Date().getDay();
+        const isWeekend = day === 0 || day === 6;
+        if (isWeekend) {
+          xpGained = xpGained * 2;
+        }
         const result: LessonResult = {
           lessonId,
           stars,
@@ -266,6 +311,16 @@ export const useProgressStore = create<ProgressState>()(
           const prevTodayXp = isSameDay ? state.todayXp : 0;
           const newTodayXp = prevTodayXp + xpGained;
 
+          // === 历史聚合：用于周报 ===
+          const newXpHistory = pruneHistory({
+            ...state.xpHistory,
+            [today]: (state.xpHistory[today] ?? 0) + xpGained,
+          });
+          const newLessonHistory = pruneHistory({
+            ...state.lessonHistory,
+            [today]: (state.lessonHistory[today] ?? 0) + 1,
+          });
+
           // === 每日目标达成奖励：首次跨过 dailyGoal 阈值时给一次性 +20 gems ===
           let bonusGoalGems = 0;
           if (
@@ -284,6 +339,8 @@ export const useProgressStore = create<ProgressState>()(
             lastXpDate: today,
             gems: state.gems + totalGems,
             lifetimeGems: state.lifetimeGems + totalGems,
+            xpHistory: newXpHistory,
+            lessonHistory: newLessonHistory,
           };
         });
 
@@ -578,6 +635,19 @@ export const useProgressStore = create<ProgressState>()(
         }));
       },
 
+      claimDailyReward: () => {
+        const today = todayStr();
+        const { lastDailyRewardDate, streak } = get();
+        if (lastDailyRewardDate === today) return 0;
+        const reward = dailyRewardForStreak(streak);
+        set(state => ({
+          gems: state.gems + reward,
+          lifetimeGems: state.lifetimeGems + reward,
+          lastDailyRewardDate: today,
+        }));
+        return reward;
+      },
+
       makeUpYesterdayStreak: () => {
         const { gems, streak, lastActiveDate } = get();
         if (gems < STREAK_MAKEUP_COST) return false;
@@ -607,7 +677,8 @@ export const useProgressStore = create<ProgressState>()(
       //   v1 → v2：新增 hearts / dailyGoal / freezes / activeLesson
       //   v2 → v3：新增 gems / lifetimeGems / claimedChests / perfectedLessons + autoNarrate
       //   v3 → v4：新增美妆系统 ownedCosmetics / equippedXxx + claimedStreakRewards + 时间关怀
-      version: 4,
+      //   v4 → v5：新增 xpHistory / lessonHistory / lastDailyRewardDate
+      version: 5,
       migrate: (persistedState: unknown) => {
         const state = (persistedState as Partial<ProgressState>) ?? {};
         const starterOwned = Object.fromEntries(
@@ -636,6 +707,9 @@ export const useProgressStore = create<ProgressState>()(
           todayTimeMs: state.todayTimeMs ?? 0,
           dailyTimeLimitMs: state.dailyTimeLimitMs ?? 0,
           sessionTimeLimitMs: state.sessionTimeLimitMs ?? 0,
+          xpHistory: state.xpHistory ?? {},
+          lessonHistory: state.lessonHistory ?? {},
+          lastDailyRewardDate: state.lastDailyRewardDate ?? "",
         } as ProgressState;
       },
     },

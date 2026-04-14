@@ -3,6 +3,9 @@ import { Nunito } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { BottomNav } from "@/components/BottomNav";
+import { ToastProvider } from "@/components/Toast";
+import { DailyRewardWatcher } from "@/components/DailyRewardWatcher";
+import { AchievementWatcher } from "@/components/AchievementWatcher";
 
 const nunito = Nunito({
   subsets: ["latin"],
@@ -21,8 +24,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <html lang="zh-CN" className={nunito.variable}>
       <body className="min-h-screen bg-bg-soft pb-16 lg:pb-0">
         <ThemeProvider>
-          {children}
-          <BottomNav />
+          <ToastProvider>
+            <DailyRewardWatcher />
+            <AchievementWatcher />
+            {children}
+            <BottomNav />
+          </ToastProvider>
         </ThemeProvider>
       </body>
     </html>

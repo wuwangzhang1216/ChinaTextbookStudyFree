@@ -147,8 +147,21 @@ export interface UiThemeData {
   accent: string;
   /** 页面背景 */
   bg: string;
-  /** 是否暗色文字（亮色主题用 false） */
-  darkText?: boolean;
+  /** 是否暗色主题（dark mode）。开启时整套灰阶 token 反转 */
+  isDark?: boolean;
+  /** 卡片背景（暗色主题必填，亮色可缺省） */
+  cardBg?: string;
+  /** 卡片边框/分隔色 */
+  borderSoft?: string;
+  /** 主文本色 */
+  ink?: string;
+  /** 次要文本色 */
+  inkLight?: string;
+  /** 更弱的文本/icon */
+  inkSofter?: string;
+  /** 兜底深灰 */
+  bgSoft?: string;
+  bgSofter?: string;
 }
 
 export interface UiTheme extends CosmeticItem {
@@ -268,6 +281,51 @@ export const UI_THEMES: UiTheme[] = [
       primaryDark: "#0891B2",
       accent: "#A855F7",
       bg: "#ECFEFF",
+    },
+  },
+  // ===== Dark themes =====
+  {
+    id: "theme_midnight",
+    type: "ui_theme",
+    name: "暗夜模式",
+    description: "护眼的深色界面，傍晚学习不刺眼",
+    cost: 350,
+    rarity: "epic",
+    data: {
+      primary: "#58CC02",
+      primaryDark: "#3B9A00",
+      accent: "#1CB0F6",
+      bg: "#0F1419",
+      isDark: true,
+      cardBg: "#1B2230",
+      borderSoft: "#2A3343",
+      ink: "#F1F5F9",
+      inkLight: "#CBD5E1",
+      inkSofter: "#94A3B8",
+      bgSoft: "#0F1419",
+      bgSofter: "#1B2230",
+    },
+  },
+  {
+    id: "theme_obsidian",
+    type: "ui_theme",
+    name: "曜石黑",
+    description: "极简纯黑配霓虹蓝，潮酷十足",
+    cost: 480,
+    rarity: "legendary",
+    data: {
+      primary: "#1CB0F6",
+      primaryDark: "#0E7FB8",
+      accent: "#A855F7",
+      bg: "#08090C",
+      isDark: true,
+      cardBg: "#13151B",
+      borderSoft: "#1F2330",
+      ink: "#F8FAFC",
+      inkLight: "#CBD5E1",
+      inkSofter: "#94A3B8",
+      bgSoft: "#08090C",
+      bgSofter: "#13151B",
     },
   },
 ];

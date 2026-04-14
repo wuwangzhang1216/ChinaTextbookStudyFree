@@ -739,6 +739,13 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
         </div>
       </div>
 
+      {/* a11y: 屏幕阅读器实时播报答题结果（仅 sr-only） */}
+      <div className="sr-only" aria-live="polite" aria-atomic="true">
+        {phase === "checked" && isCorrect === true && `回答正确。${current.explanation ?? ""}`}
+        {phase === "checked" && isCorrect === false &&
+          `回答错误。正确答案是：${current.answer}。${current.explanation ?? ""}`}
+      </div>
+
       {/* Bottom: check button (or feedback panel takes over) */}
       {phase === "answering" && (
         <div className="bg-white border-t border-bg-softer">

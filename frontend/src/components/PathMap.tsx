@@ -56,7 +56,6 @@ export function PathMap({ bookId, lessons, statuses, stars = {} }: PathMapProps)
   const [activeChest, setActiveChest] = useState<ActiveChestState | null>(null);
 
   const claimedChests = useProgressStore(s => s.claimedChests);
-  const perfectedLessons = useProgressStore(s => s.perfectedLessons);
   const addGems = useProgressStore(s => s.addGems);
   const claimChest = useProgressStore(s => s.claimChest);
 
@@ -136,7 +135,6 @@ export function PathMap({ bookId, lessons, statuses, stars = {} }: PathMapProps)
                     lesson={item.lesson}
                     status={status}
                     stars={stars[item.lesson.id] ?? 0}
-                    perfected={!!perfectedLessons[item.lesson.id]}
                     offsetX={offset}
                     breatheDelay={idx * 0.12}
                     onSelect={() => setActiveLesson(item.lesson)}
@@ -257,14 +255,12 @@ interface PathNodeProps {
   lesson: PathLessonMeta;
   status: LessonStatus;
   stars: number;
-  /** 是否曾经首次完美通关（绑 progress.perfectedLessons），决定是否显示 👑 */
-  perfected: boolean;
   offsetX: number;
   breatheDelay: number;
   onSelect: () => void;
 }
 
-function PathNode({ lesson, status, stars, perfected, offsetX, breatheDelay, onSelect }: PathNodeProps) {
+function PathNode({ lesson, status, stars, offsetX, breatheDelay, onSelect }: PathNodeProps) {
   const isLocked = status === "locked";
   const isCurrent = status === "current";
   const isCompleted = status === "completed";
@@ -277,28 +273,6 @@ function PathNode({ lesson, status, stars, perfected, offsetX, breatheDelay, onS
       className="flex flex-col items-center relative"
       style={{ transform: `translateX(${offsetX}px)` }}
     >
-      {/* 首次完美通关的王冠（旋转摇摆） */}
-      {perfected && (
-        <motion.div
-          className="absolute -top-7 z-10 select-none text-gold"
-          initial={{ scale: 0, rotate: -30 }}
-          animate={{
-            scale: 1,
-            rotate: [-3, 3, -3],
-            y: [0, -2, 0],
-          }}
-          transition={{
-            scale: { type: "spring", damping: 10, stiffness: 220 },
-            rotate: { duration: 2.4, repeat: Infinity, ease: "easeInOut" },
-            y: { duration: 2.4, repeat: Infinity, ease: "easeInOut" },
-          }}
-          aria-label="首次完美通关"
-          style={{ filter: "drop-shadow(0 2px 4px rgba(255,200,0,0.6))" }}
-        >
-          <Crown className="w-6 h-6 fill-current" />
-        </motion.div>
-      )}
-
       <motion.div
         animate={!isLocked ? { y: [0, -3, 0] } : { y: 0 }}
         transition={

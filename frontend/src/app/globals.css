@@ -198,3 +198,103 @@ h3,
     scroll-behavior: auto !important;
   }
 }
+
+/* ============================================================
+ * 可访问性：键盘焦点环
+ * 仅在键盘导航 (:focus-visible) 时显示，鼠标点击不打扰
+ * 用项目主色 + 双层 outline 模拟"硬 outline"
+ * ============================================================ */
+*:focus {
+  outline: none;
+}
+*:focus-visible {
+  outline: 3px solid #1CB0F6;
+  outline-offset: 3px;
+  border-radius: 6px;
+  transition: outline-offset 80ms ease;
+}
+.btn-chunky:focus-visible,
+.btn-chunky-ghost:focus-visible,
+.btn-chunky-sm:focus-visible {
+  outline-offset: 4px;
+}
+/* 链接 / 卡片自身已有圆角时 outline 跟随 */
+a:focus-visible,
+button:focus-visible,
+[role="button"]:focus-visible,
+[tabindex]:focus-visible {
+  outline: 3px solid #1CB0F6;
+  outline-offset: 3px;
+}
+
+/* sr-only：屏幕阅读器可见但视觉隐藏（aria-live 兜底等） */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+/* ============================================================
+ * 暗色主题：通过 .theme-dark 选择器重映射常用 Tailwind 工具类
+ * 仅覆盖最常用的背景 / 边框 / 文本 token，保持设计语言一致
+ * 主色（primary / secondary / danger）依然使用 Duolingo 原色，避免品牌漂移
+ * ============================================================ */
+body.theme-dark {
+  background-color: var(--app-bg) !important;
+  color: var(--app-ink);
+}
+body.theme-dark .bg-white,
+body.theme-dark .bg-bg {
+  background-color: var(--app-card) !important;
+}
+body.theme-dark .bg-bg-soft {
+  background-color: var(--app-bg-soft) !important;
+}
+body.theme-dark .bg-bg-softer {
+  background-color: var(--app-bg-softer) !important;
+}
+body.theme-dark .border-bg-softer {
+  border-color: var(--app-border) !important;
+}
+body.theme-dark .border-bg {
+  border-color: var(--app-border) !important;
+}
+body.theme-dark .text-ink {
+  color: var(--app-ink) !important;
+}
+body.theme-dark .text-ink-light {
+  color: var(--app-ink-light) !important;
+}
+body.theme-dark .text-ink-softer {
+  color: var(--app-ink-softer) !important;
+}
+/* 卡片厚阴影在暗色下用更深的阴影替代灰色 */
+body.theme-dark [style*="0 4px 0 0 #e5e5e5"],
+body.theme-dark [style*="0 3px 0 0 #e5e5e5"],
+body.theme-dark [style*="0 2px 0 0 #e5e5e5"],
+body.theme-dark [style*="0 5px 0 0 #e5e5e5"] {
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.4) !important;
+}
+/* option-card 默认底色阴影 */
+body.theme-dark .option-card {
+  background-color: var(--app-card);
+  border-color: var(--app-border);
+  color: var(--app-ink);
+  box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.4);
+}
+body.theme-dark .btn-chunky-ghost {
+  background-color: var(--app-card);
+  color: var(--app-ink-light);
+  border-color: var(--app-border);
+  box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.4);
+}
+body.theme-dark .btn-chunky-disabled {
+  background-color: var(--app-bg-softer);
+  color: var(--app-ink-softer);
+}

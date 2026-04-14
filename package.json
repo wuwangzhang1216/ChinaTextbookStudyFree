@@ -1,0 +1,15 @@
+{
+  "name": "china-textbook-study-free-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev --workspace=china-study-free",
+    "build": "npm run build --workspace=china-study-free",
+    "type-check": "npm run type-check --workspaces --if-present"
+  }
+}

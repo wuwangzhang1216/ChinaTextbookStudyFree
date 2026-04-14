@@ -167,8 +167,8 @@ export const STREAK_MAKEUP_COST = 50;
 
 /** 首次三星（零失误）通关的额外 XP 奖励 */
 export const FIRST_PERFECT_XP_BONUS = 5;
-/** 每多少课出现一个宝箱节点 */
-export const CHEST_EVERY_N_LESSONS = 5;
+/** 每多少课出现一个宝箱节点（真值在 @cstf/core/chestLogic 中，这里 re-export 保持向后兼容） */
+export { CHEST_EVERY_N_LESSONS } from "@cstf/core/chestLogic";
 
 // ============================================================
 // 常量

@@ -19,18 +19,9 @@ import { LessonStartModal } from "./LessonStartModal";
 import { ChestModal } from "./ChestModal";
 import { computeChestsForBook, rollChestReward, type ChestSlot } from "@/lib/chestLogic";
 import { useProgressStore } from "@/store/progress";
+import type { PathLessonMeta, LessonStatus } from "@cstf/core";
 
-export interface PathLessonMeta {
-  id: string;
-  title: string;
-  unitNumber: number;
-  unitTitle: string;
-  kpIndex: number;
-  kpTotal: number;
-  questionCount: number;
-}
-
-export type LessonStatus = "completed" | "current" | "locked";
+export type { PathLessonMeta, LessonStatus };
 
 interface PathMapProps {
   bookId: string;

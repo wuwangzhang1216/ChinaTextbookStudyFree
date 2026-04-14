@@ -27,17 +27,9 @@ import { motion, useAnimation, useReducedMotion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { MascotSkinOverlay } from "./MascotSkinOverlay";
 import { useProgressStore } from "@/store/progress";
+import type { MascotMood, MascotReaction } from "@cstf/core";
 
-export type MascotMood =
-  | "happy"
-  | "cheer"
-  | "sad"
-  | "think"
-  | "wave"
-  | "surprise"
-  | "proud"
-  | "embarrassed";
-export type MascotReaction = "correct" | "wrong" | "levelup" | null;
+export type { MascotMood, MascotReaction };
 
 export interface MascotProps {
   mood?: MascotMood;

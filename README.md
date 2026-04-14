@@ -25,6 +25,28 @@
 
 ---
 
+## 📸 功能预览
+
+<table>
+  <tr>
+    <td align="center"><img src="docs/screenshots/screen-0.png" width="200" /><br/><b>年级选择</b></td>
+    <td align="center"><img src="docs/screenshots/screen-1.png" width="400" /><br/><b>学科总览</b></td>
+    <td align="center"><img src="docs/screenshots/screen-3.png" width="400" /><br/><b>学习路径</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/screen-2.png" width="200" /><br/><b>单元答题</b></td>
+    <td align="center"><img src="docs/screenshots/screen-6.png" width="400" /><br/><b>课文听读</b></td>
+    <td align="center"><img src="docs/screenshots/screen-7.png" width="400" /><br/><b>课外故事</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/screen-4.png" width="400" /><br/><b>错题回顾</b></td>
+    <td align="center"><img src="docs/screenshots/screen-5.png" width="400" /><br/><b>个人中心</b></td>
+    <td></td>
+  </tr>
+</table>
+
+---
+
 ## ✨ 主要特性
 
 | 功能 | 说明 |

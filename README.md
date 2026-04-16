@@ -95,23 +95,45 @@ powershell -ExecutionPolicy Bypass -File scripts\download-assets.ps1
 
 | 文件 | 内容 | 大小 | 解压到 |
 |------|------|------|--------|
-| `audio.tar.gz` | 71,502 个 TTS 音频 (Opus) | ~870 MB | `frontend/public/audio/` |
-| `story-images.zip` | 284 张 AI 故事配图 | ~368 MB | `frontend/public/story-images/` |
-| `textbook-pages.zip` | 1,577 张课本原页 (JPG) | ~192 MB | `frontend/public/textbook-pages/` |
-| `data.zip` | 前端构建数据 (JSON) | ~4.3 MB | `frontend/public/data/` |
+| `audio.tar.gz` | 71,502 个 TTS 音频 (Opus) | ~870 MB | `apps/web/public/audio/` |
+| `story-images.zip` | 284 张 AI 故事配图 | ~368 MB | `apps/web/public/story-images/` |
+| `textbook-pages.zip` | 1,577 张课本原页 (JPG) | ~192 MB | `apps/web/public/textbook-pages/` |
+| `data.zip` | 前端构建数据 (JSON) | ~4.3 MB | `apps/web/public/data/` |
 | `data-source.zip` | passages + stories 源 JSON | ~811 KB | `data/` |
 
-### 3. 运行前端
+### 3. 运行 Web 端
 
 ```bash
-cd frontend
+cd apps/web
 npm install
 npm run dev
 ```
 
 访问 http://localhost:3000 即可。
 
-### 4. （可选）运行数据生成 Pipeline
+### 4. 运行 iOS 端
+
+需要 macOS + Xcode 16+ + [XcodeGen](https://github.com/yonaskolb/XcodeGen)：
+
+```bash
+brew install xcodegen      # 首次安装
+cd apps/mobile
+xcodegen generate          # 生成 .xcodeproj
+open ChinaTextbookStudy.xcodeproj
+```
+
+在 Xcode 里选 iPhone / iPad 模拟器，Cmd+R 即可运行。App 内置一本数学书（一年级上册 + 第一节课的 TTS 音频）作为离线种子，无需网络就能体验完整流程。
+
+**iOS 端特点：**
+- SwiftUI 原生（非 React Native），支持 iPhone + iPad（iPad 自动三栏布局）
+- 域逻辑（SRS / 判分 / 成就 / 宝箱 / 吉祥物）从 `packages/core` 逐文件对译为 Swift
+- 音频：Opus 预转码为 AAC m4a，`AVAudioPlayer` 播放，无第三方解码依赖
+- 数据按书从 GitHub Release 按需下载（首启不需要下完全部 44 本的 ~843MB）
+- 32 单元测试 + 5 UI 测试覆盖
+
+更多上架相关细节见 [`apps/mobile/APPSTORE.md`](apps/mobile/APPSTORE.md)。
+
+### 5. （可选）运行数据生成 Pipeline
 
 如需从教材 PDF 重新生成题库数据：
 
@@ -136,7 +158,7 @@ python scripts/tts/collect_texts.py
 python scripts/tts/api_tts.py
 
 # 构建前端数据
-cd frontend && npx tsx scripts/build-data.ts
+cd apps/web && npx tsx scripts/build-data.ts
 ```
 
 ---
@@ -174,28 +196,43 @@ ChinaStudyFree/
 │   ├── passages/                   #   课文听读源 JSON（语文/英语）
 │   └── stories/                    #   课外故事源 JSON（语文/英语）
 │
-└── frontend/                       # Next.js 前端
-    ├── scripts/
-    │   └── build-data.ts           #   output/ + data/ → public/data/ 构建
-    ├── src/
-    │   ├── app/                    # 路由与页面
-    │   │   ├── book/               #   教材详情 / 学习路径
-    │   │   ├── reading/            #   课文听读
-    │   │   ├── stories/            #   课外故事阅读 + 答题
-    │   │   ├── lesson/             #   答题页面
-    │   │   ├── grade/              #   年级总览
-    │   │   ├── profile/            #   学习档案
-    │   │   ├── review/             #   错题回顾
-    │   │   └── shop/               #   商店 / 奖励
-    │   ├── components/             # UI 组件
-    │   ├── lib/                    # 工具库（TTS、音效、状态）
-    │   ├── store/                  # Zustand 状态管理
-    │   └── types/                  # TypeScript 类型定义
-    └── public/
-        ├── audio/                  # TTS 音频（通过 Release 下载）
-        ├── data/                   # 题库+故事 JSON（通过 Release 下载）
-        ├── story-images/           # AI 故事配图（通过 Release 下载）
-        └── textbook-pages/         # 课本原页图片（通过 Release 下载）
+├── packages/core/                  # TypeScript 共享域逻辑（Web 端运行时 + iOS 翻译蓝本）
+│
+└── apps/
+    ├── mobile/                         # iOS SwiftUI 端（iPhone + iPad）
+    │   ├── project.yml                 #   XcodeGen 项目定义
+    │   ├── ChinaTextbookStudy/
+    │   │   ├── App/                    #   SwiftUI @main + NavigationStack/SplitView
+    │   │   ├── Models/                 #   CoreTypes.swift（对译 packages/core/types.ts）
+    │   │   ├── Domain/                 #   SRS / Grade / Achievements / Chest / MascotTriggers
+    │   │   ├── Services/               #   DataLoader / AssetDownloader / AudioPlayer
+    │   │   ├── Stores/                 #   ProgressStore / SettingsStore（持久化）
+    │   │   ├── Features/               #   Home / Grade / Book / Lesson / Review / …
+    │   │   └── Components/             #   TTSButton / MuteToggle
+    │   └── ChinaTextbookStudyTests/    #   32 单元测试 + 5 UI 测试
+    │
+    └── web/                            # Next.js 前端（原 frontend/）
+        ├── scripts/
+        │   └── build-data.ts           #   output/ + data/ → public/data/ 构建
+        ├── src/
+        │   ├── app/                    # 路由与页面
+        │   │   ├── book/               #   教材详情 / 学习路径
+        │   │   ├── reading/            #   课文听读
+        │   │   ├── stories/            #   课外故事阅读 + 答题
+        │   │   ├── lesson/             #   答题页面
+        │   │   ├── grade/              #   年级总览
+        │   │   ├── profile/            #   学习档案
+        │   │   ├── review/             #   错题回顾
+        │   │   └── shop/               #   商店 / 奖励
+        │   ├── components/             # UI 组件
+        │   ├── lib/                    # 工具库（TTS、音效、状态）
+        │   ├── store/                  # Zustand 状态管理
+        │   └── types/                  # TypeScript 类型定义
+        └── public/
+            ├── audio/                  # TTS 音频（通过 Release 下载）
+            ├── data/                   # 题库+故事 JSON（通过 Release 下载）
+            ├── story-images/           # AI 故事配图（通过 Release 下载）
+            └── textbook-pages/         # 课本原页图片（通过 Release 下载）
 ```
 
 ---

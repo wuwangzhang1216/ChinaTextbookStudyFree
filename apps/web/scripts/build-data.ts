@@ -32,9 +32,11 @@ import type {
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.resolve(__dirname, "..");
-const OUTPUT_SRC = path.resolve(ROOT, "..", "output");
-const PASSAGES_SRC = path.resolve(ROOT, "..", "data", "passages");
-const STORIES_SRC = path.resolve(ROOT, "..", "data", "stories");
+// Repo root is two levels up from apps/web (ROOT)
+const REPO_ROOT = path.resolve(ROOT, "..", "..");
+const OUTPUT_SRC = path.resolve(REPO_ROOT, "output");
+const PASSAGES_SRC = path.resolve(REPO_ROOT, "data", "passages");
+const STORIES_SRC = path.resolve(REPO_ROOT, "data", "stories");
 const DATA_DST = path.resolve(ROOT, "public", "data");
 const AUDIO_ROOT = path.resolve(ROOT, "public", "audio");
 const PAGES_ROOT = path.resolve(ROOT, "public", "textbook-pages");

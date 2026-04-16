@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "workspaces": [
-    "frontend",
-    "packages/*",
-    "apps/*"
+    "apps/*",
+    "packages/*"
   ],
   "scripts": {
     "dev": "npm run dev --workspace=china-study-free",

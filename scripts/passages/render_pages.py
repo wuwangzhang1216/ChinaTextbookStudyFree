@@ -38,7 +38,7 @@ if hasattr(sys.stdout, "reconfigure"):
 ROOT = Path(__file__).resolve().parents[2]
 PASSAGES_DIR = ROOT / "data" / "passages"
 OUTPUT_DIR = ROOT / "output"
-PAGES_OUT = ROOT / "frontend" / "public" / "textbook-pages"
+PAGES_OUT = ROOT / "apps" / "web" / "public" / "textbook-pages"
 
 
 def find_pdf(subject: str, textbook_stem: str) -> Path | None:

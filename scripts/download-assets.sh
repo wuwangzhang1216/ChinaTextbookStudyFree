@@ -12,7 +12,7 @@ set -euo pipefail
 REPO="wuwangzhang1216/ChinaTextbookStudyFree"
 TAG="${1:-latest}"
 ROOT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
-FRONTEND_DIR="$ROOT_DIR/frontend"
+FRONTEND_DIR="$ROOT_DIR/apps/web"
 PUBLIC_DIR="$FRONTEND_DIR/public"
 DATA_SRC_DIR="$ROOT_DIR/data"
 
@@ -132,4 +132,4 @@ fi
 
 echo ""
 echo "=== 全部下载完成! ==="
-echo "现在可以运行: cd frontend && npm run dev"
+echo "现在可以运行: cd apps/web && npm run dev"

@@ -11,7 +11,7 @@ param(
 $ErrorActionPreference = "Stop"
 $Repo = "wuwangzhang1216/ChinaTextbookStudyFree"
 $RootDir = Split-Path -Parent $PSScriptRoot
-$FrontendDir = Join-Path $RootDir "frontend"
+$FrontendDir = Join-Path $RootDir "apps\web"
 $PublicDir = Join-Path $FrontendDir "public"
 $DataSrcDir = Join-Path $RootDir "data"
 
@@ -120,4 +120,4 @@ if ((Test-Path (Join-Path $DataSrcDir "passages")) -and (Test-Path (Join-Path $D
 
 Write-Host ""
 Write-Host "=== 全部下载完成! ===" -ForegroundColor Green
-Write-Host "现在可以运行: cd frontend && npm run dev"
+Write-Host "现在可以运行: cd apps/web && npm run dev"

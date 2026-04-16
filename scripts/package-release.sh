@@ -9,7 +9,7 @@
 
 set -euo pipefail
 
-FRONTEND="e:/ChinaStudyFree/frontend"
+FRONTEND="$(cd "$(dirname "$0")/.." && pwd)/apps/web"
 AUDIO_DIR="$FRONTEND/public/audio"
 DATA_DIR="$FRONTEND/public/data"
 IMAGES_DIR="$FRONTEND/public/story-images"

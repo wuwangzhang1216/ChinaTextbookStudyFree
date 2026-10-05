@@ -1,0 +1,48 @@
+{
+  app: {
+    signingConfigs: [
+      {
+        name: "default",
+        type: "HarmonyOS",
+        material: {
+          certpath: "/Users/chenyu/.ohos/config/default_harmony_KBWYaxw4z6VUCDyBwR9-QJH8EsuJUCSvzyYw98qlk0Y=.cer",
+          keyAlias: "debugKey",
+          keyPassword: "0000001BA19077AF409705AAADF664CF1A829F2509675FAC745871E28277CBBA20527132A06EFDF6B18DFE",
+          profile: "/Users/chenyu/.ohos/config/default_harmony_KBWYaxw4z6VUCDyBwR9-QJH8EsuJUCSvzyYw98qlk0Y=.p7b",
+          signAlg: "SHA256withECDSA",
+          storeFile: "/Users/chenyu/.ohos/config/default_harmony_KBWYaxw4z6VUCDyBwR9-QJH8EsuJUCSvzyYw98qlk0Y=.p12",
+          storePassword: "0000001B7DFB236C95CC3ABE185A4DE1ECBD69493C42D0026C9FF13DEF6060EB972AD223350BEE87DDF826",
+        },
+      },
+    ],
+    products: [
+      {
+        name: "default",
+        signingConfig: "default",
+        compatibleSdkVersion: "6.1.0(23)",
+        targetSdkVersion: "6.1.0(23)",
+        runtimeOS: "HarmonyOS",
+      },
+    ],
+    buildModeSet: [
+      {
+        name: "debug",
+      },
+      {
+        name: "release",
+      },
+    ],
+  },
+  modules: [
+    {
+      name: "entry",
+      srcPath: "./entry",
+      targets: [
+        {
+          name: "default",
+          applyToProducts: ["default"],
+        },
+      ],
+    },
+  ],
+}

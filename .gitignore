@@ -64,6 +64,18 @@ scripts/tts/ui_manifest.json
 data/passages/
 data/stories/
 release-assets/
+apps/harmony/entry/src/main/resources/rawfile/site/
+apps/harmony/entry/build/
+apps/harmony/build/
 
 # generated content source (real dir in main tree, symlink in worktrees)
 /data
+apps/harmony/.hvigor/*
+apps/web/public/story-images.zip
+apps/web/public/textbook-pages.zip
+apps/web/public/web-source.zip
+apps/web/public/manifest.json
+apps/web/public/data-source.zip
+apps/web/public/data.zip
+apps/web/public/audio.tar.gz
+apps/web/public/SHA256SUMS

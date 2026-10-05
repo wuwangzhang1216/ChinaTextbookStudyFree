@@ -9,6 +9,8 @@
   "scripts": {
     "dev": "npm run dev --workspace=china-study-free",
     "build": "npm run build --workspace=china-study-free",
+    "harmony:prepare-web": "node scripts/package-harmony-web.mjs",
+    "harmony:assets-server": "node scripts/harmony-assets-server.mjs",
     "type-check": "npm run type-check --workspaces --if-present",
     "test": "npm test --workspace=@cstf/core"
   }

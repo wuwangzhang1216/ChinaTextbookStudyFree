@@ -63,7 +63,7 @@ const bootScript = `
       root.style.backgroundColor = cosmeticDark ? DARK_THEMES[equipped] : "#131F24";
     }
   } catch (e) {}
-  if ("serviceWorker" in navigator) {
+  if ("serviceWorker" in navigator && window.location.hostname !== "cstf.invalid") {
     window.addEventListener("load", function () {
       navigator.serviceWorker.register("/sw.js").catch(function () {});
     });

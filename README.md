@@ -214,7 +214,32 @@ open ChinaTextbookStudy.xcodeproj
 
 更多上架相关细节见 [`apps/mobile/APPSTORE.md`](apps/mobile/APPSTORE.md)。
 
-### 5. （可选）运行数据生成 Pipeline
+### 5. HarmonyOS 手机 / 平板 / PC 测试版
+
+完整的文件结构、开发环境、资源服务器搭建、构建安装和故障排查说明见 [鸿蒙 App README](apps/harmony/README.md)。
+
+测试包首次启动会从开发机下载完整课程资源（约 2.06 GB），安装完成后可离线使用。手机全屏固定横屏；平板和 PC 自适应窗口。
+
+1. 在开发机先准备 Web 页面壳：
+
+```bash
+npm run build
+npm run harmony:prepare-web
+```
+
+2. 确保 `apps/web/public/` 下有 `manifest.json`、`data.zip`、`audio.tar.gz`、`story-images.zip` 和 `textbook-pages.zip`，然后启动仅供局域网测试的资源服务器：
+
+```bash
+npm run harmony:assets-server
+```
+
+服务器会输出本机局域网地址，例如 `http://192.168.1.20:8787`。在 [AssetConfig.ets](apps/harmony/entry/src/main/ets/config/AssetConfig.ets) 中将 `ASSET_BASE_URL` 改成该地址，手机/平板/PC 与开发机连接同一局域网。测试服务器只提供 manifest 和四个资源归档，不提供目录浏览；HTTP 明文下载仅允许私有局域网地址，**不要将测试服务器暴露到公网**。
+
+3. 用 DevEco Studio 打开 `apps/harmony/`，配置本机调试签名后运行 `entry`。需要首次联网下载；下载后资源保存在 App 私有目录。资源校验失败或下载中断时可重试。
+
+更换资源镜像时，在 `AssetConfig.ets` 同步修改 `ASSET_BASE_URL`、`ASSET_TAG` 和对应的 `MANIFEST_SHA256`。本机资源服务器启动时会校验 manifest 固定哈希。
+
+### 6. （可选）运行数据生成 Pipeline
 
 语文课外阅读的课文难度校准、题库审计，以及 GPT-6 Luna / Muse / Gemini TTS
 修订流程见 [内容质量审计与升级说明](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/content-quality-review.md)。

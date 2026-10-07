@@ -1,7 +1,9 @@
 # ChinaStudyFree · 小学全科 AI 学习平台
 
-**在线体验：[小猫头鹰课堂](https://d3nmsqi4n72idj.cloudfront.net/)** · 支持电脑和手机浏览器，无需安装。
+**在线体验：[聪聪学堂](https://d3nmsqi4n72idj.cloudfront.net/)** · 支持电脑和手机浏览器，无需安装。
 
+> **UX修复进展（2026-10-06）**：[PR #13](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/pull/13) 已提供续学恢复、儿童点数、一页结算、布局与题库修正，本地题目增加到6842道。尚未合并或生产部署；本分支启动需按 [补充资源安装](docs/ux-content-install.md) 安装新音频。验收与剩余项见 [UX修复状态](docs/ux-repair-status.md) 和 [issue #12](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/issues/12)。
+>
 > **版本说明（2026-10-05）**：当前线上 Web 已部署 [`main`](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/tree/main) 的判分与音频兼容更新，并保留首次听完讲解才解锁的边框光环体验。下文本地启动步骤使用 `main`。
 >
 > **完整资源包：[v1.2.0-assets](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.2.0-assets)**。包含新版 188 篇语文阅读、936 道配套题及既有四科资源；无需先安装旧版本。Release 中的 `web-source.zip` 是资源包发布时的源码快照，早于当前线上语音兼容和界面修复。详见 [安装与升级说明](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/release-install.md)。

@@ -156,7 +156,13 @@ export default function ShopPage() {
       </div>
 
       <div className="max-w-3xl mx-auto px-4 py-4 lg:py-2 lg:px-0">
-        <h1 className="text-2xl font-extrabold text-ink mb-4">聪聪衣橱</h1>
+        <div className="flex items-center justify-between gap-3 mb-4">
+          <h1 className="text-2xl font-extrabold text-ink">聪聪衣橱</h1>
+          <div className="hidden lg:flex items-center gap-2 shrink-0">
+            <span className="text-sm font-bold text-ink-light">可用宝石</span>
+            <GemBadge asLink={false} />
+          </div>
+        </div>
         {/* ⚡ 红心 & 连胜 —— 功能性道具（护盾 / 补心），与纯装扮分区 */}
         <PowerUpsSection />
 

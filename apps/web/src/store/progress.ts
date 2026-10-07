@@ -329,12 +329,12 @@ interface ProgressState {
    */
   addHeart: (n?: number) => void;
   /**
-   * 复习一轮错题后的补心结算（对齐 iOS content-7）：
-   * 答对 ≥ REVIEW_HEART_MIN_CORRECT 才补 REVIEW_HEART_REWARD 颗，
+   * 复习一轮错题后的补心结算（Web按可用题数调整门槛）：
+   * 首答正确达五题（可用题不足五题则需整轮正确）补 REVIEW_HEART_REWARD 颗，
    * 每天最多一次（lastReviewHeartDate 账本，防止刷同一批错题无限刷心）。
    * 返回实际补到的红心数（0 = 没到门槛 / 今天领过 / 已满心）。
    */
-  awardReviewHeart: (correctCount: number) => number;
+  awardReviewHeart: (correctCount: number, availableCount?: number) => number;
   /** 花 350 宝石立即补满红心（先刷新自然回复；已满不扣费返回 false） */
   buyHeartRefill: () => boolean;
   /** 花 200 宝石购买一枚连胜护盾（持有上限 2，满则返回 false） */
@@ -1332,12 +1332,12 @@ export const useProgressStore = create<ProgressState>()(
         }));
       },
 
-      awardReviewHeart: correctCount => {
+      awardReviewHeart: (correctCount, availableCount) => {
         const today = todayStr();
         // 每天一次的账本：不然反复进出同一批错题就能把红心刷成无限
         if (get().lastReviewHeartDate === today) return 0;
         get().refreshHearts();
-        const granted = reviewHeartReward(correctCount, get().hearts);
+        const granted = reviewHeartReward(correctCount, get().hearts, availableCount);
         // 没到门槛 / 已经满心 → 不记账本，今天晚点真赚到了还能补
         if (granted <= 0) return 0;
         get().addHeart(granted);

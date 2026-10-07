@@ -23,6 +23,10 @@ async function main() {
     assert.equal(store.claimQuest(quest.id, 999999), true);
     assert.equal(store.claimQuest(quest.id, 999999), false, 'quest adaptation must preserve the claim ledger');
   }
+  useProgressStore.setState({ hearts: 0, nextHeartAt: Date.now() + 300000, lastReviewHeartDate: null });
+  assert.equal(store.awardReviewHeart(3, 3), 1, 'a complete three-question review must not promise an impossible five-question reward');
+  assert.equal(useProgressStore.getState().hearts, 1);
+  assert.equal(store.awardReviewHeart(3, 3), 0, 'the smaller review pool must preserve the daily claim limit');
   console.log('micro-practice evidence and attainable quest regressions passed');
 }
 main().catch(error => { console.error(error); process.exitCode = 1; });

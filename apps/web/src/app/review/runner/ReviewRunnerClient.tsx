@@ -8,8 +8,8 @@
  *   - 复用 QuestionRenderer + core gradeAnswer 真实判分，答完才亮对错与解析
  *   - 首次作答的结果驱动 SRS（store reviewMistake）；答错的题重排队尾再练
  *   - 完成页：正确数 + XP（store awardReviewXP，每答对 +5）+ 毕业庆祝
- *   - 走完一整轮到期错题且首答答对 ≥ REVIEW_HEART_MIN_CORRECT 题 → 补 1 颗红心
- *     （store awardReviewHeart，每天一次的账本在 store 里，对齐 iOS content-7）
+ *   - 完成整轮：首答正确达五题；可用题不足五题则整轮正确 → 补 1 颗红心
+ *     （store awardReviewHeart，每天一次的账本在 store 里）
  *
  * 无红心消耗：复习是「安全区」，答错只会把题排回队尾，不扣心。
  */
@@ -170,9 +170,9 @@ export function ReviewRunnerClient() {
     const correct = [...attempts.values()].filter(Boolean).length;
     // 统一记账：每首答答对 +5 XP、dailyReviews += 复习量、推进连胜
     const xpGained = awardReviewXP(correct, attempts.size);
-    // parity-5 断心联动：走完一整轮到期错题才结算补心；门槛（答对 ≥ 5 题）、
+    // 走完一整轮到期错题才结算补心；首答至少五题正确，不足五题则整轮正确。
     // 上限（不超过 MAX_HEARTS）、当天只领一次都由 store awardReviewHeart 裁决。
-    const heartsGained = awardReviewHeart(correct);
+    const heartsGained = awardReviewHeart(correct, attempts.size);
     setStats({
       total: solved,
       correct,
@@ -403,6 +403,8 @@ function ReviewCompletionScreen({
   stats: ReviewStats;
   fromHearts: boolean;
 }) {
+  const activeLesson = useProgressStore(s => s.activeLesson);
+  const resumeHref = activeLesson ? `/lesson/${activeLesson.lessonId.split("-u")[0]}/${activeLesson.lessonId}/` : "/";
   useEffect(() => {
     playSfx("complete");
   }, []);
@@ -493,15 +495,15 @@ function ReviewCompletionScreen({
           <div className="mt-5 flex items-center justify-center gap-2 px-4 py-3 rounded-2xl bg-danger/10 border-2 border-danger/30 text-danger text-sm font-extrabold">
             <Heart className="w-4 h-4" />
             <span>
-              复习辛苦啦！一轮里答对 {REVIEW_HEART_MIN_CORRECT} 题就能补回 1 颗心，
+              复习辛苦啦！一轮首答正确至少 {Math.min(REVIEW_HEART_MIN_CORRECT, stats.total)} 题可回心，每天可领取一次。
               红心也会每 5 分钟自己恢复 1 颗～
             </span>
           </div>
         )}
 
         <div className="flex flex-col gap-3 mt-8">
-          <SoundLink href="/" hapticIntensity="medium" className="btn-chunky-primary w-full">
-            继续学习
+          <SoundLink href={resumeHref} hapticIntensity="medium" className="btn-chunky-primary w-full">
+            {activeLesson ? "继续上次课程" : "继续学习"}
           </SoundLink>
           <SoundLink href="/review/" hapticIntensity="light" className="btn-chunky-ghost w-full">
             回错题本

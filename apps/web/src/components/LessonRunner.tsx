@@ -909,7 +909,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     playSfx("tap");
     haptic("light");
     // 会话保留（不清除 activeLesson），复习完回来无缝续课
-    router.push("/review/");
+    router.push("/review/runner/?from=hearts");
   }
 
   function handleGateExit() {

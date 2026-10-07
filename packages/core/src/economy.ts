@@ -140,9 +140,11 @@ export const REVIEW_HEART_MIN_CORRECT = 5;
  * 一轮复习结束后应补的红心数（已满心则为 0）。
  * @param correctCount 本轮答对题数
  * @param hearts 当前红心数
+ * @param availableCount 本轮可用题数；不足五题时需整轮首答正确
  */
-export function reviewHeartReward(correctCount: number, hearts: number): number {
-  if (correctCount < REVIEW_HEART_MIN_CORRECT) return 0;
+export function reviewHeartReward(correctCount: number, hearts: number, availableCount = REVIEW_HEART_MIN_CORRECT): number {
+  if (!Number.isFinite(correctCount) || !Number.isInteger(availableCount) || availableCount < 1) return 0;
+  if (correctCount < Math.min(REVIEW_HEART_MIN_CORRECT, availableCount)) return 0;
   return Math.min(REVIEW_HEART_REWARD, Math.max(0, MAX_HEARTS - hearts));
 }
 

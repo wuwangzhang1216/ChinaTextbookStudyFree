@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g3down-u2-kp4",
+  "point": "除法的验算",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit2.json",
+  "before_source_fingerprint": "a4e358453414014298cfa8a150b0bf5d94f4d56a6b2e30b769dd876a1a854872",
+  "after_fingerprint": "01ea46c33722a59d7b37175f7f6df2cde807c3e72190ba0fe9ae9420e905360b",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    29,
+    30,
+    31,
+    32
+  ],
+  "revised_question_ids": [
+    4,
+    10
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "验算有余数的除法时，可以用：商×除数+余数=被除数。"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "一次有余数的除法中，商是125，除数是4，余数是1。被除数是____。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "用哪道算式可以验算72÷8=9？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一次有余数的除法中，被除数是50，商是8，除数是6。余数是____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "下面哪道除法虽然“商×除数+余数”等于被除数，但余数不符合要求？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "验算有余数的除法时，如果“商×除数+余数”等于被除数，即使余数等于除数，结果也正确。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "02a54b7a612e56810924c7b54178702c8d2f36e8f1245fe2fec8a9ddb7e14ed7",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "仅依据提供的项目大纲与旧题编辑，未核对教材原页，也未进行教师签审。",
+    "保留了旧题source_id 4并修正其原解析中与算式不符的例子；旧题source_id 10含无法确认含义的重复乘号，未猜测原符号，改写为条件完整的同知识点题目。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

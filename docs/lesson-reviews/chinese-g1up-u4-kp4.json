@@ -1,0 +1,72 @@
+{
+  "lesson_id": "chinese-g1up-u4-kp4",
+  "point": "汉语拼音综合应用",
+  "source": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit4.json",
+  "before_source_fingerprint": "ead3112d7ed5d2febcde5e4bfdbb3ed409e52b2158297e63ceb73b144c70522f",
+  "after_fingerprint": "a398bb2f4c27065b2ff248aad326891a9bcd1dc331b9a01bd7ca807eb2274837",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25,
+    26,
+    27,
+    28
+  ],
+  "revised_question_ids": [
+    22,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 22,
+      "skill": "recognition",
+      "question": "“水”（shuǐ）的韵母是哪个？"
+    },
+    {
+      "source_id": 23,
+      "skill": "recognition",
+      "question": "“民”（mín）的韵母是ing。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "下面哪个是整体认读音节？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "“妹”（mèi）的韵母是哪个？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "“山”（shān）和“商”（shāng）的韵母有什么不同？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "“白”（bái）的韵母是____。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "d247de6c5b708ea5c15c5aaaa61689150a968f141040543842bab019d816573d",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题source_id 22和23，并修订其题目内容以对应本课拼音知识点。",
+    "共6题，包含选择、判断和文字填空；练习覆盖复韵母、前鼻韵母与后鼻韵母、整体认读音节，并设置比较辨析题。",
+    "输入未提供教材原页，未作教材逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

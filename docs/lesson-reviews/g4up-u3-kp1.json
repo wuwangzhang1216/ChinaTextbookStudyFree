@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g4up-u3-kp1",
+  "point": "线段、直线、射线",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit3.json",
+  "before_source_fingerprint": "8ddbaf824b8e19c1b47b484907d1f4339fe649d401d1812fe4a5a5ef06a9eced",
+  "after_fingerprint": "fc936d28725c255d0e6bc4f024e9cb3dc4b1cf62b57e7ddb473946398d2ffc01",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    1,
+    2,
+    6,
+    7,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "直线有一个端点，并向一个方向无限延伸。"
+    },
+    {
+      "source_id": 2,
+      "skill": "application",
+      "question": "把线段的一端向外无限延长，另一端保留为端点，就得到了一条射线。"
+    },
+    {
+      "source_id": 6,
+      "skill": "application",
+      "question": "把手电筒发出的光在数学中理想化为从一点向一个方向延伸的线，可以抽象出哪种线？"
+    },
+    {
+      "source_id": 7,
+      "skill": "reasoning",
+      "question": "连接两点的所有连线中，哪种线最短？"
+    },
+    {
+      "source_id": 19,
+      "skill": "recognition",
+      "question": "线段有 ___ 个端点。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "图形甲有一个端点，向一端无限延伸；图形乙没有端点，向两端无限延伸。下面哪种判断正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "8dc13487e5cb9c9a6eac7dfc75ac8e2d1c9ee304656beef1e3cb2b498c98514d",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id：1、2、6、7、19；新增题的 source_id 为 null。第1题调整为辨析直线与射线特征的判断题。",
+    "本次内容依据提供的项目大纲与旧题整理；未提供教材原页，因此未进行教材原文逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

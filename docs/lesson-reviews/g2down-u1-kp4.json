@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2down-u1-kp4",
+  "point": "统计表的制作_与分析",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit1.json",
+  "before_source_fingerprint": "164f0f0d4271c722279bb67f88e311f350e0d819f42d1595f69b3dd7a5d9a0ed",
+  "after_fingerprint": "7c13c88883e2231f1dd410bff1b1e9823988049650293793b15ae53f26717a1f",
+  "before_question_count": 1,
+  "after_question_count": 6,
+  "added_question_ids": [
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "revised_question_ids": [
+    22
+  ],
+  "coverage": [
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "统计表记录了同学最喜欢的活动：阅读7人，跳绳10人，绘画6人。喜欢哪种活动的人数最多？"
+    },
+    {
+      "source_id": 22,
+      "skill": "application",
+      "question": "统计表记录了三种颜色气球的数量：红色12个、黄色18个、蓝色20个。三种颜色的气球一共有多少个？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "一张统计表记录了三组同学参加活动的人数：甲组7人，乙组5人，丙组9人。小丽说：“乙组人数最多。”她说得对吗？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "统计表记录了胡萝卜13份、黄瓜8份、西红柿10份。份数最多的项目与份数最少的项目相差____份。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "调查记录了三种花的数量：红花6朵、黄花9朵、白花5朵。请把黄花的数量填入统计表。\n\n| 花的种类 | 红花 | 黄花 | 白花 |\n|---|---:|---:|---:|\n| 数量（朵） | 6 | ____ | 5 |"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "统计表记录了三种游戏的选择人数：甲游戏8人，乙游戏6人，丙游戏5人。如果再有1人选择丙游戏，选择丙游戏的人数会超过甲游戏吗？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "206cb20dcb5a7ac88d48871ac1e821caf916c984bc4ba64d59ea47e9db61f112",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题source_id 22，并将原加法题改写为统计表数据求总数的情境题；新增题的source_id均为null。",
+    "已修正旧题中用“人数”询问“份数”的单位不一致问题，并加入根据调查记录填写统计表的练习。",
+    "未提供教材原页，因此不作原教材逐字核对或教师签审的声明。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

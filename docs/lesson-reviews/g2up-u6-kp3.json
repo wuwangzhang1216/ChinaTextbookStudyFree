@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2up-u6-kp3",
+  "point": "多步乘法应用题：解决问题",
+  "source": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit6.json",
+  "before_source_fingerprint": "1b973bad48c4e0fd5eb6584d0311703bb8647d8f0ba65928243f4357e1b2eb82",
+  "after_fingerprint": "9b1b5793c294ac31e62ce447e48d6921d96d249849ef4b21468837e1cd381f6c",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    5,
+    12,
+    13,
+    14,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "买一个 $8$ 元的笔记本，买 $9$ 个需要支付 $81$ 元。"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "一盒彩纸有8张，7盒这样的彩纸用去9张后，还剩多少张？"
+    },
+    {
+      "source_id": 13,
+      "skill": "application",
+      "question": "一件衣服要钉 7 个纽扣，做了 8 件衣服后还剩 4 个纽扣。原来一共有多少个纽扣？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "小明买 9 支铅笔，每支 3 元，付给售货员 30 元，应找回多少钱？"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "小明每天看 9 页书，连续看了 7 天后还剩 5 页。这本书原来有 ___ 页。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "礼堂摆了7排椅子，每排8把。活动开始时有6把椅子空着，其余每把椅子都坐着一人。现在有多少人坐着？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "686890d5fe4158f3843c89cc29af924ddf970949dfb7f31a10ec7a3ba0d01a1f",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "未提供教材原页；本稿依据所给项目大纲与旧题编写，未作教材逐字核对或教师签审。",
+    "保留全部旧题 source_id。原 source_id 12 的螃蟹情境已改为彩纸情境，避免不准确的动物腿数信息；新增椅子题明确说明其余每把椅子都坐着一人。",
+    "共6题，包含识记、应用与推理，并采用判断、选择和填空题型。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

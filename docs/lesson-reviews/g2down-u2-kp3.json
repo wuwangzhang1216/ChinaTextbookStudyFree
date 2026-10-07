@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2down-u2-kp3",
+  "point": "除法各部分名称",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit2.json",
+  "before_source_fingerprint": "07224bb852881c7340a427611cb4cf299c961447d1cb42629c4e4e65dfda9153",
+  "after_fingerprint": "21cbd6099f959f4fcccbf8c5a3847cfb7611c1e1c9c572ec1036d6eb84de4ebf",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27,
+    28
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    15,
+    17
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "在算式15÷5=3中，5是商。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "在除法算式中，除号前面的数叫做："
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "被除数是30，除数是5，商是几？"
+    },
+    {
+      "source_id": 17,
+      "skill": "recognition",
+      "question": "在除法算式中，等号后面的数叫做："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "算式24÷4=□中，商是几？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "下面两种分书的方法都可以用算式12÷3=4表示。甲：12本书平均放到3个书架上，每个书架放4本。乙：12本书，每3本放一摞，可以放4摞。哪句话正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "a946c62d99af65dfdd1186c2d44372b5e1e0fec2ba945768ed9a36612743ee46",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题source_id：3、8、15、17；新增两题的source_id为null。",
+    "将新增填空题调整为24÷4，所用乘法口诀在本单元2～6的乘法口诀范围内。",
+    "本次依据输入的大纲和旧题编辑；未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

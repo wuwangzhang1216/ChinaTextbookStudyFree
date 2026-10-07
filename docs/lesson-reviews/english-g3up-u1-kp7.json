@@ -1,0 +1,71 @@
+{
+  "lesson_id": "english-g3up-u1-kp7",
+  "point": "离别语",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "d8d2f46e0c45a910f9761ebc9b1d73b504921cae0673ebd8f0db04e33875d0f6",
+  "before_question_count": 1,
+  "after_question_count": 6,
+  "added_question_ids": [
+    32,
+    33,
+    34,
+    35,
+    36
+  ],
+  "revised_question_ids": [
+    5
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "当你要和同学道别时，你应该说：'Hello!'"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "同学对你说“Goodbye!”，你也要离开。按要求选一句合适的回应：使用以B开头的离别语。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "什么情况下最适合说“Goodbye!”？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "把“再见”翻译成英语，写出以G开头的常用离别语：____!"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "“Bye!”可以用来和同学道别。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "下面四句话中，哪一句不是离别语？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "728ce6e4c421e07ed9698e7d6064ea64eba9331c84bff398f125c8d6d89b8f09",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "已保留旧题source_id 5，并修订了题目解析。",
+    "依据提供的大纲与旧题整理；未提供教材原页，未作原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2up-u5-kp1",
+  "point": "从不同位置观察物体",
+  "source": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit5.json",
+  "before_source_fingerprint": "0b35abd85da55459fbef3e5bb4d846d14fbb82eb83ce63cbe99d5739eb6ba39b",
+  "after_fingerprint": "58cb740d5a1f3f55182b8c10d6b47367ae15316715a7f720a0c4fcdf5a7ba88c",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    1,
+    5,
+    6,
+    12,
+    15
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "关于从不同位置观察同一个物体，哪句话正确？"
+    },
+    {
+      "source_id": 5,
+      "skill": "reasoning",
+      "question": "四个小朋友分别站在一辆玩具车的正前方、正后方、正左侧和正右侧观察。已知车头、车尾、左侧和右侧的外形各不相同。哪句话正确？"
+    },
+    {
+      "source_id": 6,
+      "skill": "application",
+      "question": "讲台的正面朝向教室。小明站在讲台正前方，正对讲台观察。他看到的是讲台的哪个面？"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "一个长方体纸盒的正面朝向黑板。小芳站在纸盒右侧，正对纸盒的右侧面观察。她看到的是纸盒的哪个面？"
+    },
+    {
+      "source_id": 15,
+      "skill": "reasoning",
+      "question": "一辆小汽车的车头朝向教室前方。小猫站在车尾的正后方，正对车尾观察。小猫看到的是小汽车的哪一面？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "正方体的每个面都是正方形，所以正对着观察它的正面和左侧面，看到的面都是正方形。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "d1475864607e89116088efd79bcc186e013946c341bfea79479198b877968e49",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "仅依据提供的项目大纲和旧题进行编辑；未提供教材原页，因此不声称完成原教材逐字核对或教师签审。",
+    "保留了全部旧题source_id：1、5、6、12、15。对旧题12改为观察纸盒，并明确观察者正对纸盒右侧面；对旧题15明确小猫位于车尾正后方并正对车尾观察。",
+    "新增题source_id为null；本课共6题，包含选择题和判断题。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

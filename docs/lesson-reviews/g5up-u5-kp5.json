@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g5up-u5-kp5",
+  "point": "列方程解决稍复杂的实际问题（和倍、行程问题）",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit5.json",
+  "before_source_fingerprint": "c3d128392fed213b2f225c9e8292e3470b9d04f5ffaeeef99965d2495f076583",
+  "after_fingerprint": "18810bad8e756a8cb8d0b9b55e843f69243f5d40a2ffdda19017643771f7fe74",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    29,
+    30,
+    31,
+    32
+  ],
+  "revised_question_ids": [
+    15,
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "果园里桃树有 $x$ 棵，梨树是桃树的 3 倍，两种树一共 240 棵。下列方程正确的是（    ）。"
+    },
+    {
+      "source_id": 16,
+      "skill": "reasoning",
+      "question": "甲乙两车同时从相距 450 千米的两地相对开出，甲车每小时行 40 千米，乙车每小时行 $x$ 千米，5 小时后相遇。下列方程错误的是（    ）。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "甲数是乙数的3倍。设乙数为x，则甲、乙两数的和可以表示为4x。（对或错）"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "两地相距510千米。甲、乙两车同时从两地相向而行，3小时后相遇。甲车每小时行48千米，设乙车每小时行x千米。根据方程(48+x)×3=510，乙车每小时行多少千米？答：____千米。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "两个数的和是96，一个数是另一个数的3倍。较小的数是____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "甲、乙两数的和是90，甲数是乙数的2倍。设甲数为x，下面哪个方程表示两数的和是90？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "6b3f99545d2b2b6f331046ad98c5f6c5ec4bf7927a390b3790d6ed1aa14f35f4",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "本课内容依据所给项目大纲与旧题整理；未提供教材原页，因此未作教材逐字核对，也未声称教师签审。",
+    "保留旧题source_id 15、16及其对应知识点；其列式与答案经独立检查后保留。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,76 @@
+{
+  "lesson_id": "g3up-u10-kp2",
+  "point": "图形与几何综合应用",
+  "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit10.json",
+  "before_source_fingerprint": "f275ece7b1553c729906e23e41f456102cf65e7dcab774857c4e2082fe309b2c",
+  "after_fingerprint": "f215533d7d30fabce174954d63853e4f408b9bfeeabbf22e4a06ccf8273ec1fa",
+  "before_question_count": 7,
+  "after_question_count": 7,
+  "added_question_ids": [],
+  "revised_question_ids": [
+    1,
+    4,
+    6,
+    10,
+    13,
+    16,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "周长相等的两个正方形，它们的边长也一定相等。"
+    },
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "1 吨棉花比 1000 千克铁轻。"
+    },
+    {
+      "source_id": 6,
+      "skill": "application",
+      "question": "操场跑道一圈是 400 米，小明跑了 2 圈后还差多少米是 1 千米？"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "一张长方形纸长 10 厘米，宽 6 厘米。剪下一个最大的正方形，正方形的周长是多少？"
+    },
+    {
+      "source_id": 13,
+      "skill": "reasoning",
+      "question": "用 2 个边长是 3 厘米的正方形拼成一个长方形，这个长方形的周长是多少？"
+    },
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "小华身高 135 厘米，小明身高 14 分米，谁更高？"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "5 吨 - 2000 千克 = ___ 千克。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "594cddca25762c85161a5b1ead7f2d285f670958cfce37dd0dc6047c69784683",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留全部7道旧题的source_id；修正了第10题旧解析中的文字错误，并补充了必要的计算依据。",
+    "本次内容依据所提供的大纲与旧题整理，未提供教材原页，因此未进行教材逐字核对，也不代表教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g6up-u3-kp4",
+  "point": "工程问题（单位1的假设法）",
+  "source": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit3.json",
+  "before_source_fingerprint": "f0e2bba7d8637c1363d9aac86870663aaaec77ed54701e1f1cfd6527bbf267ec",
+  "after_fingerprint": "3f1840e6d17332859c87bcf9772ce97cf8e8528034c9bfa2088fb04d526b570c",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    5,
+    12,
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "一项工程，甲单独做 10 天完成，乙单独做 8 天完成。甲的工作效率比乙快。"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "一项工程，甲队单独做要 6 天，乙队单独做要 12 天。两队合做几天可以完成？"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "甲单独做 3 小时完成一项工程的一半，乙单独做 3 小时完成另一半。两人同时合作，几小时可以完成这项工程？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "把一项工程看作1。甲单独做需4天，乙单独做需6天。两人合作1天，完成这项工程的几分之几？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一项工程，甲单独做需5天，乙单独做需20天。两人合作完成这项工程需【 】天。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把一项工程看作1。甲每天完成1/5，乙每天完成1/10，所以两人合作每天完成1/15。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "742f3c73bba020d269fd444d06dc1c32bc92d23cebc08b89838876ae5162373e",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "根据所给大纲与旧题整理并校正内容；未提供教材原页，不能据此声称已逐字核对原教材或完成教师签审。",
+    "保留旧题 source_id 5、12、18；将 source_id 18 的题干明确为乙单独完成另一半，避免“剩下的”指代不清。新增题均使用 source_id=null。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g1up-u3-kp4",
+  "point": "加法的初步认识",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit3.json",
+  "before_source_fingerprint": "0f961d8f296c7b0d875c175efaef7976bf947550daf00a6e7958bed6494983eb",
+  "after_fingerprint": "02dca72ce0ab6a65f5e56a06124c6e60e759dc6506c908ddad5551438627b05d",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    31,
+    32
+  ],
+  "revised_question_ids": [
+    9,
+    13,
+    18,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "树上有2只小鸟，又飞来了3只，现在一共有几只？"
+    },
+    {
+      "source_id": 13,
+      "skill": "recognition",
+      "question": "下面哪个算式的得数是5？"
+    },
+    {
+      "source_id": 18,
+      "skill": "reasoning",
+      "question": "已知 ○ + 1 = 4，那么 ○ 应该是几？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "停车场原来有1辆车，又开进来4辆，现在共有 ___ 辆车。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "左边有2枚棋子，右边有1枚棋子。把两边的棋子合起来，下面哪个算式表示合起来的总数？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "计算：1+1=___"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "7650ba62f7d8d39bf9eb2d1b3fb220b30adf5776f86c0a910707056371194c83",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题的source_id，并将题目总数补至6题；新增题的source_id为null。",
+    "输入未提供教材原页，因此本次仅依据所给大纲和旧题进行编辑，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

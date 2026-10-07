@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g6down-u3-kp1",
+  "point": "圆柱与圆锥的特征",
+  "source": "output/math/quizzes/义务教育教科书·数学六年级下册_unit3.json",
+  "before_source_fingerprint": "f60677753aa64704f390d0250bda8098675ad40344deaab4d119cd008c403b7f",
+  "after_fingerprint": "c2aa751eb61695b573e5582e89f2bde79c1cf88e45ce7e263cde142ca0a073c7",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    1,
+    3,
+    6,
+    12,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "圆柱的侧面展开后，可能是一个正方形。"
+    },
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "圆锥只有一条高。"
+    },
+    {
+      "source_id": 6,
+      "skill": "recognition",
+      "question": "圆柱有几条高？"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "以长方形的长边为轴旋转一周，得到的是什么形状？"
+    },
+    {
+      "source_id": 21,
+      "skill": "recognition",
+      "question": "一个圆锥有 ___ 个底面。（填阿拉伯数字）"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把一个圆柱的侧面沿一条高剪开并展平，得到一个长方形。关于这个长方形，哪项一定正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3cf12219571f846acc4fc4e905e77d6832100f846db44fbfc7fb81ab16203d4b",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "输入未提供教材原页，因此未进行逐字核对，也不声称经过教师签审。",
+    "保留了旧题的全部 source_id。source_id 为 21 的旧题内容含互相冲突的改写说明，已修订为关于圆锥底面数量的完整、可评分填空题。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3up-u6-kp4",
+  "point": "乘法估算与归一问题解决",
+  "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit6.json",
+  "before_source_fingerprint": "4d05f661951601f1aac2e952078cc8bb185f85de4bf335f1c3287e8b2dfde2c7",
+  "after_fingerprint": "0fb91ddbab9ac09b338872b1aa1bb86939a8a83bb0e75c318de5ed3bcb50f411",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    26
+  ],
+  "revised_question_ids": [
+    13,
+    14,
+    16,
+    17,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 13,
+      "skill": "application",
+      "question": "小明买 3 本练习本用了 12 元。照这样计算，买 9 本练习本需要多少钱？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "老师买了 4 枝钢笔用了 32 元。如果用 80 元钱，可以买多少枝这样的钢笔？"
+    },
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "学校买来 2 叠本子，每叠 20 本。如果把这些本子平均分给 8 个同学，每个同学分多少本？"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "估算 298 × 3，结果最接近多少？"
+    },
+    {
+      "source_id": 21,
+      "skill": "reasoning",
+      "question": "3 名同学 2 小时做了 18 朵花。照这样计算，1 名同学 1 小时做 ___ 朵花。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "6个相同的筐装了42个梨，照这样计算，4个筐装多少个梨？先算什么？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3a6ca184ccb1b059545dfe9948c8c2e7667680c0d1bdd21b48cf3af0355b9bb1",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了旧题source_id：13、14、16、17、21；新增题使用source_id=null，共6题。",
+    "source_id 17保留为具体乘法估算题，补足估算计算练习；各题skill按实际考查内容标注。",
+    "未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

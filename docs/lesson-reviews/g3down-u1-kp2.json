@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3down-u1-kp2",
+  "point": "地图上的方位识别",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit1.json",
+  "before_source_fingerprint": "ac1a1657f7f0c4176d1fe478d3ad024b82c63bde2ab039b10b438ae97780681a",
+  "after_fingerprint": "e42e8e1f557538f7d95760317c26032537515d92bc2ceb21c2ea77ffb40a59f4",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    3,
+    7,
+    13,
+    17
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "在没有方向标的地图上，通常按照“上北下南，左东右西”来判断方向。"
+    },
+    {
+      "source_id": 7,
+      "skill": "application",
+      "question": "一张没有方向标的平面图上，操场在教学楼的上面。操场在教学楼的哪个方向？"
+    },
+    {
+      "source_id": 13,
+      "skill": "application",
+      "question": "一张没有方向标的公园平面图上，猴山在狮虎山的左下角。猴山在狮虎山的什么方向？"
+    },
+    {
+      "source_id": 17,
+      "skill": "recognition",
+      "question": "一张地图上完全没有方向标。通常把地图的上方看作哪个方向？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一张没有方向标的平面图上，A点在B点的正右方，B点在C点的正上方。A点在C点的什么方向？请从“东北、东南、西北、西南”中选词填空：____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一张没有方向标的平面图上，花园在水池的左上方。下面哪句话正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "91d91660f27a99a90ef448f8af55df3f2b81504a86d9b94819f56f1b7485a402",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部4道旧题的source_id，并补充或明确了地图方向标条件；新增2道题的source_id为null，共6道题。",
+    "练习包含判断题、选择题和文字填空题，覆盖识记、应用与推理。",
+    "内容依据所提供的项目大纲和旧题整理，未进行教材原页逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

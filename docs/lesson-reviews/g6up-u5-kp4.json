@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g6up-u5-kp4",
+  "point": "扇形的认识与圆心角",
+  "source": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit5.json",
+  "before_source_fingerprint": "8af1819659d79a94bd26f6854b1cb9142ad51258c926650d6f85b0f1f28110cd",
+  "after_fingerprint": "80227c826bfdcfc88b25d733b48e060083d9d81903fa3185e77ee1efd4a1cddd",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "半圆也是一个扇形。"
+    },
+    {
+      "source_id": 8,
+      "skill": "reasoning",
+      "question": "在同一个圆中，哪个扇形最大？"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "一个圆按相同的圆心角平均分成若干份，每份的圆心角是72度。这个圆平均分成几份？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "圆上有A、B两点，O是圆心。由OA、OB和较短弧AB围成的图形是什么？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "圆心角的顶点必须在圆的____。（限填“圆心”或“圆上”）"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一个圆分成三个扇形，其中两个扇形的圆心角分别是100度和120度。第三个扇形的圆心角是____度。（答案只写数字）"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "71bcab86af1c5221f39a63f1fbe56e2938a37389b0bf7901c8aae121004e9191",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题source_id 3、8、18；source_id 18明确为已知每份圆心角求平均分成的份数。",
+    "本课讲解聚焦弧、扇形、圆心角及圆心角大小关系，不纳入扇形面积公式。",
+    "共6题，包含判断、选择、文字填空和计算，覆盖识记、应用与推理。",
+    "输入未提供教材原页，未作原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

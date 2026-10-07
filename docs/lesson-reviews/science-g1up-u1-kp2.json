@@ -1,0 +1,80 @@
+{
+  "lesson_id": "science-g1up-u1-kp2",
+  "point": "观察一棵植物的结构",
+  "source": "output/science/quizzes/义务教育教科书·科学一年级上册_unit1.json",
+  "before_source_fingerprint": "0ed4fe0bcecc1cd1374dd45c7b7e9de05e0d68f8baac4068c5b331f8d02b857c",
+  "after_fingerprint": "d8a7b3e7e647bda6812315f8418fd67b32ea63ebef510119d05ba303051f6193",
+  "before_question_count": 7,
+  "after_question_count": 7,
+  "added_question_ids": [],
+  "revised_question_ids": [
+    3,
+    7,
+    8,
+    16,
+    19,
+    21,
+    22
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "reasoning",
+      "question": "一株水培植物的根泡在水里。看到这种情况，可以知道植物的根不一定长在土里。"
+    },
+    {
+      "source_id": 7,
+      "skill": "recognition",
+      "question": "我们通常用（）来观察植物的颜色。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "植物的（）通常长在土里。"
+    },
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "观察一株向日葵，茎旁边长着一片片扁平的部分，部分上能看到细细的纹路。这些部分是（）。"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "观察记录写着：小苗有1根茎，茎上有2片叶，土里有3条根。记录中提到了（）种植物部分。"
+    },
+    {
+      "source_id": 21,
+      "skill": "recognition",
+      "question": "从“观察、记录”中选一个词填空：把看到的植物样子画下来或写下来，是做观察（）。"
+    },
+    {
+      "source_id": 22,
+      "skill": "application",
+      "question": "从“根、茎、叶”中选词填空：一株小苗的根在下方，叶片连在根上方那段绿色、直立的部分上。这段部分是（）。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "aadedeee6a0cbc31a85122e4bc221b4bf0abeb361d511638e297d3a5749873ed",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留全部旧题 source_id，题数为7；对部分旧题题干或考查内容作了修订。",
+    "第16题改为观察叶的可见特征，与茎的辨认题区分开。",
+    "第22题补充小苗各部分的位置和样子，并限定可选词语，使答案明确为“茎”。",
+    "讲解说明土里的根看不见时不自行挖土或拔植物，并给出安全的观察方式。",
+    "未提供教材原页，因此无法核对教材原文；未声称完成原教材逐字核对或教师签审。",
+    "前置讲解采用一般观察步骤，判断题独立提供水培植物的具体记录。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

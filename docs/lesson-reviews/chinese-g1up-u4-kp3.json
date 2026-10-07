@@ -1,0 +1,72 @@
+{
+  "lesson_id": "chinese-g1up-u4-kp3",
+  "point": "整体认读音节应用",
+  "source": "output/chinese/quizzes/义务教育教科书·语文一年级上册_unit4.json",
+  "before_source_fingerprint": "ead3112d7ed5d2febcde5e4bfdbb3ed409e52b2158297e63ceb73b144c70522f",
+  "after_fingerprint": "2014352b834f9e8e9382b30cfb3908689f5530b58516cb17c087439b1ed6c627",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    2,
+    5,
+    8,
+    14,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "yi是一个整体认读音节，可以直接读出来。"
+    },
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "zhi、chi、shi需要拆成声母和韵母，再拼读。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "下列音节中，哪个是整体认读音节？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "“圆形”的“圆”读yuán。哪个音节表示这个读音？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "哪一组音节和汉字对应正确？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小华要把zi、yu、ma、shi放进“直接读”或“先拼一拼”两个盒子。哪种放法正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "7b82b9f218185cb5449581aa4a7eb96d15ccbc4b9888c111db44054a206fd1fd",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了旧题的source_id：2、5、8、14、21；将source_id为21的连线题改为当前支持的选择题型。",
+    "修订了source_id为5的判断题，并修改了新增题的选项，使题干描述的分类有唯一正确答案。",
+    "在涉及汉字读音的拼音中标出声调。输入未提供教材原页，本内容依据所给项目大纲与旧题整理，未进行原教材逐字核对，也不代表教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

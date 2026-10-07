@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3down-u5-kp1",
+  "point": "面积的含义与比较",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit5.json",
+  "before_source_fingerprint": "e84ab87db182f627c1a2015cfe5e325921e7ebe3b797f93c504876b61a267871",
+  "after_fingerprint": "776d3d3178628b8c3a4b4e77a9e18a86167eac150d2ee5dfb477d82a0b957524",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    1,
+    7,
+    15
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "测量或计算一个物体的表面或平面图形的大小，就是求它的周长。"
+    },
+    {
+      "source_id": 7,
+      "skill": "application",
+      "question": "图甲用大小相同的小方格铺满，共用了8格；图乙也用这种小方格铺满，共用了5格。哪个图形的面积大？"
+    },
+    {
+      "source_id": 15,
+      "skill": "reasoning",
+      "question": "要准确比较两个不规则图形的面积，下面哪种方法更可靠？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "两个图形都用大小相同的小方格铺满。图形甲用了12格，图形乙用了8格。甲的面积比乙多（　）格的面积。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "图甲铺满了6块小方格，每块面积是1个单位；图乙铺满了4块大方格，每块面积是2个单位。哪个图形的面积大？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "只知道一个图形的边线长度，不能据此直接确定它的面积大小。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3ef7504d349e47f8d9f04272b00391c94f892a42845b533e83ce00258a92a2f8",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据输入提供的项目大纲与旧题整理；未提供教材原页，未声称完成教材逐字核对或教师签审。",
+    "保留旧题 source_id 1、7、15。旧题1保留原判断题并明确答案；旧题7改为比较图形面积，以落实本课目标；旧题15保留准确比较面积的考查内容并修订措辞。",
+    "共6题，包含选择题、判断题和填空题，并覆盖识记、应用与推理。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

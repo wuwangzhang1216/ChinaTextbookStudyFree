@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g2down-u5-kp4",
+  "point": "解决两步计算的实际问题",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit5.json",
+  "before_source_fingerprint": "c29c7caa1c2f52020d23b72e4af53b2c00ea3d99aebd15d221ab9f882c705b02",
+  "after_fingerprint": "987e64989ab6b725134ac5ebbfec8dbeb3cf0ec39ed6a16ea9fb7940dc7762b2",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25
+  ],
+  "revised_question_ids": [
+    5,
+    12,
+    16,
+    17,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "application",
+      "question": "小明有20元，买3本练习本，每本5元，还剩5元。"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "有3排柳树，每排8棵，又栽了10棵，现在一共有多少棵？"
+    },
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "王老师买了1支钢笔和3支圆珠笔。钢笔10元，圆珠笔每支2元，共花多少钱？"
+    },
+    {
+      "source_id": 17,
+      "skill": "reasoning",
+      "question": "停车场有25辆车，开走了10辆，又开来了8辆。现在车变多了还是变少了？"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "二年级一班有22名男同学，20名女同学。每6人一组，全班可以分成___组。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "算式18－6÷3没有小括号，应该先算哪一步？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "ef3d61e8890f1fd6bf300a64cb4989ef098458ef5d1714bc017ece06ab914327",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id，并将旧题5中“3本5元”明确为每本5元。",
+    "旧题17的解析改为按情境逐步计算并比较，不使用负数表示变化。",
+    "旧题19按总人数除以每组人数说明解法。",
+    "本次内容依据提供的大纲与旧题整理，未声称逐字核对教材原页或完成教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

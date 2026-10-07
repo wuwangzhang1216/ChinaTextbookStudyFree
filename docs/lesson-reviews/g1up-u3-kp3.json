@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g1up-u3-kp3",
+  "point": "5以内数的分与合",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit3.json",
+  "before_source_fingerprint": "0f961d8f296c7b0d875c175efaef7976bf947550daf00a6e7958bed6494983eb",
+  "after_fingerprint": "ceec728f8bb2eae0b523fcd81b3eaad2054c407f0118d2834138a71bb2c34c10",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    4,
+    8,
+    17,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "reasoning",
+      "question": "把5个苹果分给两个小朋友，只有一种分法。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "4可以分成2和几？"
+    },
+    {
+      "source_id": 17,
+      "skill": "recognition",
+      "question": "5可以分成几和几？"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "5可以分成2和 ___。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "盒里一共有4颗珠子，分成左右两堆，左边有1颗，右边有 ___ 颗。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "5颗棋子分成左、右两堆，左边比右边多1颗。左边和右边各有几颗？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "d980a27df40e91e83e46ef1091e0edba834df28ffb6d5cde70e128c2f0f29e9b",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id：4、8、17、19；新增题的 source_id 为 null。",
+    "共6题，包含判断题、选择题和数字填空题，并覆盖识记、应用和推理。",
+    "新增珠子题明确说明分成左右两堆，避免题目依赖未写出的条件。",
+    "输入未提供教材原页，因此未作原教材逐字核对或教师签审的声明。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

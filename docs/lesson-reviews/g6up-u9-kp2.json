@@ -1,0 +1,74 @@
+{
+  "lesson_id": "g6up-u9-kp2",
+  "point": "几何图形组合复习",
+  "source": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit9.json",
+  "before_source_fingerprint": "587b4408c120109bb04057efdc5a14a97ddbfd8ec947daba23fe5d50bdbf6f4f",
+  "after_fingerprint": "b136077a70363c9bb951fddef0a86b57614d1a5f4ec2915fa6ff435010ff7c17",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    12,
+    15,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "圆的周长是直径的2π倍。"
+    },
+    {
+      "source_id": 8,
+      "skill": "reasoning",
+      "question": "一个圆的半径扩大到原来的3倍，它的面积扩大到原来的几倍？"
+    },
+    {
+      "source_id": 12,
+      "skill": "reasoning",
+      "question": "一个圆的周长是12.56厘米，一个正方形的边长是3.14厘米，一个长方形的长是4.28厘米、宽是2厘米。这三个图形的周长相等。哪个图形的面积最大？（π取3.14）"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "一个边长为10厘米的正方形，一边与一个直径为10厘米的半圆的直径重合。半圆在正方形外侧，两个图形只共用这条边且内部不重叠。组合图形外边界的周长是多少厘米？（π取3.14）"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "一个圆的直径是10厘米，它的周长是___厘米。（π取3.14）"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一个边长为14厘米的正方形，一边外接一个半圆；半圆的直径正好是正方形这一边，两个图形只共用这条边且内部不重叠。组合图形的面积是___平方厘米。（π取22/7）"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "b7ec49ba1155679fa712b770c8235ff26fa75491a507f521025fcc20a8f4c845",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题source_id，题数为6；新增题source_id为null。",
+    "将source_id为3的判断内容改为可依据圆周长公式辨析的错误说法。",
+    "将source_id为15的题改为条件明确的组合图形外边界周长题，以覆盖组合图形周长。",
+    "source_id为19的题按题干给出的直径和π值，答案修正为31.4。",
+    "未提供教材原页，未进行教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

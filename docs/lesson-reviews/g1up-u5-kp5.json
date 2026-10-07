@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g1up-u5-kp5",
+  "point": "解决问题（原来有多少）",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit5.json",
+  "before_source_fingerprint": "c66106bb687d845325d4c90618c787cc46ace6ead48bea6803384f1c837050b2",
+  "after_fingerprint": "026c3e509144da9f448a8506073edae5199712ea8ed84e83fb9c4cf54eb121db",
+  "before_question_count": 1,
+  "after_question_count": 6,
+  "added_question_ids": [
+    31,
+    32,
+    33,
+    34,
+    35
+  ],
+  "revised_question_ids": [
+    13
+  ],
+  "coverage": [
+    {
+      "source_id": 13,
+      "skill": "application",
+      "question": "小明吃了 6 块饼干，还剩 4 块，原来一共有多少块饼干？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "盒子里原有一些铅笔，拿走3支后还剩4支。原来有（ ）支。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小雨送出3张贴纸后还剩5张。她用5-3求原来有多少张。下面哪句话能说明她哪里错了？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "已知离开的数量和剩下的数量，求原来有多少，要用（ ）（从“加法、减法”中选一个词填写）。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小芳借出2本书后还剩6本，小刚借出6本书后还剩2本。下面哪句话正确？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一篮子里原有一些苹果，拿走2个后还剩5个。说原来有3个，是对的。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3db565f5390fddb78a9d47f8e749b07edcacb96a3e5292833238f81c0fbfb163",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "本课共6题，保留旧题source_id 13及其题干、选项和答案；其余5题的source_id为null。",
+    "题组包含识记、应用和推理，使用选择题、数字填空、文字填空和判断题。",
+    "已按反馈调整题目解析，避免复述练习中的具体数量及相同算式和得数；苹果判断题改为辨析错误说法。",
+    "输入未提供教材原页，因此未进行教材原文逐字核对，也不声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

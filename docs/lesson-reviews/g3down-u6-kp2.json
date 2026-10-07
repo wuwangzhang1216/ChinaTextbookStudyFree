@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g3down-u6-kp2",
+  "point": "24时计时法与普通计时法",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit6.json",
+  "before_source_fingerprint": "9d88eff69be3e2624ea9dedee81cd3a59903a034f2f77edc39a1e62b1a414aa7",
+  "after_fingerprint": "3a23633ace26f46f5a791a0f477df181bbbac32ef52a0206c3c2a0f8f0223dd0",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    9,
+    12
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "晚上10时用24时计时法表示是22时。"
+    },
+    {
+      "source_id": 8,
+      "skill": "application",
+      "question": "下午3时用24时计时法表示是多少时？"
+    },
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "20时用普通计时法表示，下面哪一种正确？"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "一列火车14:30准时发车，用普通计时法表示是什么时候？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "17时用普通计时法表示是下午__时。（只填小时数）"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "下面哪一组是同一时刻的两种计时法表示？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "b28088118ed0902c8a64d68b9c6acc2a26cff09040a8edbfc605ada5fd656617",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "按输入保留了旧题source_id 3、8、9、12；source_id 9修订了题干、选项和答案，使20时对应的普通计时法表达明确。",
+    "根据提供的大纲与旧题完成内容整理，未进行原教材逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

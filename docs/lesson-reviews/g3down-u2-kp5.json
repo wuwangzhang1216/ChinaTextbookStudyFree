@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g3down-u2-kp5",
+  "point": "商中间或末尾有0的除法",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit2.json",
+  "before_source_fingerprint": "a4e358453414014298cfa8a150b0bf5d94f4d56a6b2e30b769dd876a1a854872",
+  "after_fingerprint": "f6d3455a0a9ab6f21dc63b0b468667d8c55d03c7c251faddbc08f44ee5c6da59",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    33
+  ],
+  "revised_question_ids": [
+    3,
+    9,
+    13,
+    18,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "0除以任何不是0的数都得0。"
+    },
+    {
+      "source_id": 9,
+      "skill": "recognition",
+      "question": "60÷3的商末尾有几个0？"
+    },
+    {
+      "source_id": 13,
+      "skill": "application",
+      "question": "804÷4的商中间有几个0？"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "下面哪个算式的商末尾是0？"
+    },
+    {
+      "source_id": 23,
+      "skill": "application",
+      "question": "计算：621÷3="
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "计算426÷4时，百位算完后，十位上的数是2。因为2小于除数4，接下来应该怎样做？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "398f457499829522bc6e7303e7b3f407b8965d098c45dca2b0a1c6bac832983a",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "旧题中多处把除法运算符写成了乘法符号，题干与旧答案不一致；保留其source_id，并将相关题目修订为条件完整、答案可核验的除法题。",
+    "仅依据本次提供的项目大纲和旧题修订，未进行原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

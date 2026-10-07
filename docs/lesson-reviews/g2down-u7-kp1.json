@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g2down-u7-kp1",
+  "point": "计数单位与十进制概念",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit7.json",
+  "before_source_fingerprint": "79f7502f9e9f377792b0ff5a6eca2eb5d0ad6a78c41c39969bfa3c697fcf2c39",
+  "after_fingerprint": "b89428bd7de188ddaa9db422609fcc275aa902bb716cbf27b058a3193d17d0da",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    1,
+    7,
+    15,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "从百到千只跨过一个相邻计数单位，进率是100。"
+    },
+    {
+      "source_id": 7,
+      "skill": "recognition",
+      "question": "10个一千是（ ）。"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "比最大的三位数多1的数是（ ）。"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "4300是由___个百组成的。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "1个万里有多少个百？（ ）"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "6个千和10个百合起来是___。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "9e80efa9dfd4159a74e1a06168d3b81e4e8983bd338ad811fed2f69bb8cdd9a4",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "按本次提供的大纲和旧题整理；未提供教材原页，不声称完成教材逐字核对或教师签审。",
+    "保留了全部4道旧题的source_id；新增2道题的source_id为null。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

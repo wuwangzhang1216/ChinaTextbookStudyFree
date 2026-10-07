@@ -1,0 +1,70 @@
+{
+  "lesson_id": "g1up-u8-kp1",
+  "point": "凑十法的算法与应用",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit8.json",
+  "before_source_fingerprint": "4fc93cd82afea7a511a3b734fac68a08fc0b84a587b096fb659c4fd08bb4f916",
+  "after_fingerprint": "027c4d2312b172ee81f4a22b8ccca0eee89b9500344fcc1c7090fa57f55b1d56",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    1,
+    11,
+    18,
+    20,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "计算 $9 + 5$ 时，可以把 5 分成 1 和 4，先算 $9 + 1 = 10$，再算 $10 + 4 = 14$。"
+    },
+    {
+      "source_id": 11,
+      "skill": "recognition",
+      "question": "哪个算式运用凑十法拆分正确？"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "有 2 盒粉笔，第一盒 9 支，第二盒 8 支，用了 5 支，还剩多少支？"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "小朋友排成一排，小红在队伍中。她前面有 8 人，后面有 4 人。这一排一共有 ___ 人。"
+    },
+    {
+      "source_id": 23,
+      "skill": "application",
+      "question": "$9 + 9 = ?$"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小芳算 $8+6$，把6分成2和4，先算 $8+2=10$。接下来怎样算，才能得到原来算式的结果？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "5a0b55f51f98160fae7e1f0402737e3d5cea69ade3a366a54be23f45bf96cacb",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据本次提供的大纲与旧题整理；未提供教材原页，因此未进行教材原页逐字核对，也未进行教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2down-u9-kp2",
+  "point": "列表法与对应关系",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit9.json",
+  "before_source_fingerprint": "5c1844efb444aa0353f033fc54cde0975e6df0fceb2458d1d3b80683f74f5fd9",
+  "after_fingerprint": "55b7689ff192dfcf1a529cefeb27f36661ee78d6a6498be9bd4fe46ed968e4a9",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26,
+    27
+  ],
+  "revised_question_ids": [
+    9,
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 9,
+      "skill": "reasoning",
+      "question": "甲、乙、丙三个班进行足球赛，三个班的名次各不相同，分别是第一、第二、第三。甲班没得第一，乙班不是第一也不是第三。请问丙班得了第几名？"
+    },
+    {
+      "source_id": 16,
+      "skill": "reasoning",
+      "question": "甲、乙、丙三人比体重。甲比乙重，丙比甲重。请问谁最轻？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "遇到几个人分别选择不同物品的题目，哪种做法有助于整理条件并检查答案？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "小林、小美、小刚各坐1号、2号、3号座位，每人坐一个不同的座位。小林不是1号，小美坐3号，小刚不是2号。小林坐几号？____"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小林、小美、小刚各选一种不同的物品：铅笔、尺子、橡皮。小美选尺子，小林不选橡皮，小刚不选铅笔。下面哪张表正确？表中“√”表示选了，“×”表示没选。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "甲、乙、丙参加短跑，三人的名次各不相同，分别是第一、第二、第三。甲不是第一，乙比丙先到，丙不是第三。谁得第二名？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "10eec6c26b69f9854dcaeb1fb34601bae678f7882c5911932f4ae8f4393f04af",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题 source_id 9 和 16。为使 source_id 9 的结论成立，在题干中补明三个班名次各不相同，且分别为第一、第二、第三。",
+    "新增一题要求根据人物与物品的条件判断完整对应表，以落实列表法与对应关系的操作应用。",
+    "未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

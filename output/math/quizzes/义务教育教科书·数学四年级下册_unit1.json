@@ -68,14 +68,14 @@
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "加、减法的意义和各部分间的关系",
-        "question": "已知 $\triangle + \bigcirc = \big竞$，下面哪个算式是正确的？",
+        "question": "两个加数分别是12和8，和是20。下面哪个算式能表示“和减去一个加数，得到另一个加数”？",
         "options": [
-          "$\big竞 - \bigcirc = \triangle$",
-          "$\bigcirc - \triangle = \big竞$",
-          "$\triangle - \big竞 = \bigcirc$",
-          "$\big竞 + \bigcirc = \triangle$"
+          "20 - 8 = 12",
+          "8 - 12 = 20",
+          "12 - 20 = 8",
+          "20 + 8 = 12"
         ],
-        "answer": "$\big竞 - \bigcirc = \triangle$",
+        "answer": "20 - 8 = 12",
         "explanation": "根据“加数 + 加数 = 和”，可以推出“和 - 一个加数 = 另一个加数”。"
       },
       {
@@ -137,9 +137,9 @@
           "5 条大船和 1 条小船",
           "4 条大船和 2 条小船",
           "3 条大船和 4 条小船",
-          "2 条大船和 5 条小船"
+          "2 条大船和 6 条小船"
         ],
-        "answer": "4 条大船 and 2 条小船",
+        "answer": "4 条大船和 2 条小船",
         "explanation": "方案A：$5 \times 6 + 1 \times 4 = 34$（错误）；方案B：$4 \times 6 + 2 \times 4 = 32$（正确）。"
       },
       {

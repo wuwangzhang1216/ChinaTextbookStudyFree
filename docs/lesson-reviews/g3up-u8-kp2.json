@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3up-u8-kp2",
+  "point": "分数的大小比较",
+  "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit8.json",
+  "before_source_fingerprint": "593d6eee5f684d0cc8fdabdb61d63217270a28ddf11793e1e42a4c18625f3741",
+  "after_fingerprint": "9c3209149e4ec7fa00b2f4984696b407457ba76f1e4880fcc6ffb341aec6f190",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    3,
+    7,
+    8,
+    12,
+    15
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "两个分母为正、分母不同且分子相同并为正数的分数，分母较大的那个分数较小。"
+    },
+    {
+      "source_id": 7,
+      "skill": "recognition",
+      "question": "比较大小：1/4 ___ 1/7。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "比较大小：3/10 ___ 7/10。"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "下面分数中，最小的是哪一个？"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "小明和小红各有一瓶同样多的水。小明喝了自己这瓶水的1/2，小红喝了自己这瓶水的1/3。谁剩下的水多？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把下面的分数按从大到小排列，哪一项正确？1/9、1/4、1/6、1/3"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "18a10896f9bbf4ad0564cba109e3a2bc98a8dc3bc0b058f8d0f63edfadc1e194",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共保留5道旧题的source_id，并新增1道题，题数为6。",
+    "修订source_id为3的题目，明确分母为正、分母不同且分子为正，避免结论适用条件不清。",
+    "依据所给大纲与题目整理内容；未声称完成教材原页逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

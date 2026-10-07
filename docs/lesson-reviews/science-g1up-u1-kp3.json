@@ -1,0 +1,72 @@
+{
+  "lesson_id": "science-g1up-u1-kp3",
+  "point": "叶的特征与多样性",
+  "source": "output/science/quizzes/义务教育教科书·科学一年级上册_unit1.json",
+  "before_source_fingerprint": "0ed4fe0bcecc1cd1374dd45c7b7e9de05e0d68f8baac4068c5b331f8d02b857c",
+  "after_fingerprint": "62781567284b96a13fe72b13f6a890cd005373ac1b14ef9d2a29631fee3bdee5",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27
+  ],
+  "revised_question_ids": [
+    4,
+    9,
+    10,
+    13,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "同一棵植物上的叶子，大小可能不同。"
+    },
+    {
+      "source_id": 9,
+      "skill": "recognition",
+      "question": "银杏叶的形状很像（）。"
+    },
+    {
+      "source_id": 10,
+      "skill": "recognition",
+      "question": "枫叶的形状很像（）。"
+    },
+    {
+      "source_id": 13,
+      "skill": "recognition",
+      "question": "秋天到了，很多植物的叶子会（）。"
+    },
+    {
+      "source_id": 23,
+      "skill": "application",
+      "question": "观察记录：甲叶的边缘平滑；乙叶的边缘有一排像锯子齿一样的小尖尖。用一个词填写乙叶的边缘特点：乙叶的边缘有（）。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小明找到一片形状像心形的叶子。只凭这个特点，他能确定这片叶子来自哪种植物吗？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "bccece6d1a4d4957161d274653d6560630664450d02255abede26120a9a2c5b1",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据提供的大纲和旧题整理；未提供教材原页，未进行教材逐字核对或教师签审。",
+    "保留了全部旧题 source_id。第23题改为比较两片叶子的边缘描述，并明确要求填写一个约定词语。",
+    "新增题 source_id 为 null。本课共6题，包含识记、应用、推理，以及判断、选择、文字填空三种题型。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

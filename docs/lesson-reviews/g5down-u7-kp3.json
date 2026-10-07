@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g5down-u7-kp3",
+  "point": "统计图的选择与决策分析",
+  "source": "output/math/quizzes/义务教育教科书·数学五年级下册_unit7.json",
+  "before_source_fingerprint": "887d0d0a0b9a9f8ef3f0b29c34850beda2a54a32a900817b8db82eb6f95be693",
+  "after_fingerprint": "04daa32dd9cff0222d6e7233dc03d575938b2531dad5fa6408ca9d50ed6dc04d",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    2,
+    6,
+    10,
+    14,
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "要表示小明从一年级到五年级身高的变化，哪种统计图更合适？"
+    },
+    {
+      "source_id": 6,
+      "skill": "application",
+      "question": "商场经理想观察去年一年各月冰箱销售额的增减波动情况，选哪种统计图更合适？"
+    },
+    {
+      "source_id": 10,
+      "skill": "reasoning",
+      "question": "下列哪种情况最适合选用条形统计图？"
+    },
+    {
+      "source_id": 14,
+      "skill": "recognition",
+      "question": "统计学校各年级的人数，应选用哪种统计图？"
+    },
+    {
+      "source_id": 18,
+      "skill": "reasoning",
+      "question": "学校记录甲、乙两支校队连续四周每周的训练出勤人数，想在同一张图中比较两队人数随周数的变化，应选哪种统计图？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "统计某条河流每月的水位，重点是观察水位随月份的变化趋势。只填写“条形统计图”或“折线统计图”：______"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "9d1a69c0ae69b1a75fb189a278a49b176830b83c18c5cd4c0b5594dd54c4c8e4",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "未提供教材原页，未进行教材逐字核对，也不表示已完成教师签审。",
+    "旧题 source_id 2 原为判断题；当前支持的题型不包含判断题，因此改为选择题，保留其考查知识点与 source_id。",
+    "旧题 source_id 18 原题要求根据短期股价走势预测后续行情，预测依据不足；已改为明确给出两支校队、四周数据及统计目的的独立情境题，并保留 source_id。",
+    "其余旧题保留原有考查内容并调整表述或选项；新增题 source_id 为 null。题目共 6 道。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

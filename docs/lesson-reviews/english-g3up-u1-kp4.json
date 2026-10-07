@@ -1,0 +1,73 @@
+{
+  "lesson_id": "english-g3up-u1-kp4",
+  "point": "见面问候",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "81fa8bc8f254421f2aa395ef1223523bcb3bc575a20567d8437918a5c37c7795",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    1,
+    2,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "reasoning",
+      "question": "当你想告诉别人你叫陈杰时，你可以说：'Hello, Chen Jie.'"
+    },
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "'Hi' 和 'Hello' 意思相近，都可以用来打招呼。"
+    },
+    {
+      "source_id": 21,
+      "skill": "recognition",
+      "question": "哪一组英文短语和中文意思全部对应正确？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "有人问你“What's your name?”，哪一句可以用来介绍自己的名字？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "按句子开头补上名字：I'm ___。句意是“我是 Amy”。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "May 见到新同学 Tom 并说：“Hello! I'm May.” 哪句话适合 Tom 接着说？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "cee56ecf3122c521969c85961c779d344cea004a458386cfb645a456ee3c74f3",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题 source_id 1、2、21；source_id 21 的连线题改为当前支持的选择题型，保留原有短语及配对考查内容。",
+    "将原第6题补充新同学的姓名为 Tom，确保只有一个选项符合情境。",
+    "共6题，包含判断、选择和文字填空，覆盖识记、应用与推理。",
+    "未提供教材原页，因此未进行教材逐字核对；也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

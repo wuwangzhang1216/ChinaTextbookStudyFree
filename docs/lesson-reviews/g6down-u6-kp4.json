@@ -1,0 +1,70 @@
+{
+  "lesson_id": "g6down-u6-kp4",
+  "point": "解决问题策略与跨学科实践",
+  "source": "output/math/quizzes/义务教育教科书·数学六年级下册_unit6.json",
+  "before_source_fingerprint": "4cb6bc648406c31e3165100c4c3dd51a34a41513404e4f1c7056386a63429f92",
+  "after_fingerprint": "453372afa1041a0b5e310a4eddbe9ba35637754ac85cb8bc4f337a0874885c7e",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27,
+    28
+  ],
+  "revised_question_ids": [
+    5,
+    10,
+    13,
+    15
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "在相同的路程内，速度与时间成反比例关系。"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "某农场养鸡 300 只，鸭的只数比鸡多 $20\\%$。鸭有多少只？"
+    },
+    {
+      "source_id": 13,
+      "skill": "application",
+      "question": "一件衣服原价 200 元，先提价 $10\\%$，再降价 $10\\%$。现价是多少元？"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "一幅地图的比例尺是 1:5000000，量得甲乙两地距离是 4 厘米，实际距离是多少千米？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "按单利计算，不计税费。存入 1200 元，年利率是 2.5%，存期 3 年，利息是多少元？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "自行车前齿轮有 48 个齿，后齿轮有 16 个齿。链条不打滑，且后齿轮与后轮同步转动。前齿轮转 1.5 圈时，后齿轮转多少圈？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "86dcd4d8ec414c484e0cfb1f29c6d8b3be12401e91900005b900b8ff14cf268c",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "本课内容依据所提供的大纲与旧题整理；未进行教材原页逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

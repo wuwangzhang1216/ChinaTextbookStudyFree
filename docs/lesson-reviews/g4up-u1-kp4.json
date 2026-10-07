@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g4up-u1-kp4",
+  "point": "近似数与“四舍五入”法",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit1.json",
+  "before_source_fingerprint": "06a90e7a478eb0cefda382cbdc76bbd31efaf93965522d604c4709bebf06c0fa",
+  "after_fingerprint": "3817a0ade121e75c32be99f35f921ba862386c1166625f8491f11a5b88c6389b",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    28
+  ],
+  "revised_question_ids": [
+    4,
+    9,
+    14,
+    18,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "近似数一定比准确数大。"
+    },
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "把 86420 省略万位后面的尾数，约是（ ）。"
+    },
+    {
+      "source_id": 14,
+      "skill": "reasoning",
+      "question": "3□5000 ≈ 40 万，□里可以填的数是（ ）。"
+    },
+    {
+      "source_id": 18,
+      "skill": "reasoning",
+      "question": "一个数“四舍五入”到万位约是 10 万，这个数最小是（ ）。"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "49□300 ≈ 50 万，□里最小填 ____。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把 62748 四舍五入到千位，约是 ____。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "f189c75262a36c906632bfde15c57c34e6a53adee6c39be7a1d5f527d35f1b9a",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题的 source_id；对旧题14的解析作了修订，明确说明判断位是千位、进位发生在万位。",
+    "仅依据所给项目大纲与旧题进行整理，未提供教材原页，未作逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

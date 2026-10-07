@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5down-u4-kp2",
+  "point": "分数与除法的关系",
+  "source": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+  "before_source_fingerprint": "779f3ffa539ffa24c1b556a77f1130b0b4c367395030d089fbe12b26f3f81dcd",
+  "after_fingerprint": "5ff99aafdf9fc8de24a8446eada5bdf47e76593ee1dc05cc99b71b5da811a3fa",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25,
+    26,
+    27
+  ],
+  "revised_question_ids": [
+    7,
+    13,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 7,
+      "skill": "recognition",
+      "question": "在 a÷b＝a/b（a、b为非负整数）中，关于 b 的说法，正确的是："
+    },
+    {
+      "source_id": 13,
+      "skill": "application",
+      "question": "小明 4 分钟走了 300 米，他平均每分钟走多少米？"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "45 分钟占 1 小时的最简分数的分子是多少？___"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "把 14÷9 写成分数，正确的是："
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把 5 个相同的橘子平均分给 8 人，每人分得的橘子数是 5/8 个。这个说法对吗？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一根长 7 米的绳子平均剪成 3 段，每段长多少米？用分数表示：___"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "f91c6889abb2990b88f2104cad3c857ebafe7e37ddb1152b00a88be1ae3185a8",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id：7、13、19。第7题明确了a、b的范围并调整选项，确保关于除数b的要求只有一个正确答案；第19题限定只填写最简分数的分子。",
+    "共6题，包含选择、判断、填空和计算题型，覆盖识记、应用与推理。",
+    "输入未提供教材原页，未进行原教材逐字核对，也不表示已完成教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

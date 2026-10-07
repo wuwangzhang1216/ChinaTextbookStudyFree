@@ -1,0 +1,334 @@
+[
+  {
+    "lesson_id": "g1up-u6-kp2",
+    "question_id": 11,
+    "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit6.json",
+    "before": {
+      "id": 11,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "11~20各数的写法与组成",
+      "question": "18 里面有几个十和几个一？",
+      "options": [
+        "8 个十和 1 个一",
+        "1 个十和 8 个一",
+        "18 个十",
+        "1 个十和 1 个八"
+      ],
+      "answer": "1 个十 and 8 个一",
+      "explanation": "18的十位是1，个位是8，表示1个十和8个一。"
+    },
+    "after": {
+      "id": 11,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "11~20各数的写法与组成",
+      "question": "18 里面有几个十和几个一？",
+      "options": [
+        "8 个十和 1 个一",
+        "1 个十和 8 个一",
+        "18 个十",
+        "1 个十和 1 个八"
+      ],
+      "answer": "1 个十和 8 个一",
+      "explanation": "18的十位是1，个位是8，表示1个十和8个一。"
+    },
+    "review": "AI repair of deterministic source defects; teacher review pending"
+  },
+  {
+    "lesson_id": "g1up-u6-kp2",
+    "question_id": 16,
+    "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit6.json",
+    "before": {
+      "id": 16,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 3,
+      "knowledge_point": "11~20各数的写法与组成",
+      "question": "在 13, 18, 11, 20 这四个数中，最接近 20 的数是：",
+      "options": [
+        "13",
+        "11",
+        "18",
+        "18"
+      ],
+      "answer": "18",
+      "explanation": "$20-18=2$, $20-13=7$, $20-11=9$。2最小，所以18最接近。"
+    },
+    "after": {
+      "id": 16,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 3,
+      "knowledge_point": "11~20各数的写法与组成",
+      "question": "在 13, 18, 11, 20 这四个数中，最接近 20 的数是：",
+      "options": [
+        "13",
+        "11",
+        "18",
+        "20"
+      ],
+      "answer": "20",
+      "explanation": "20和20相差0，18和20相差2，13和20相差7，11和20相差9。相差0最小，所以20最接近20。"
+    },
+    "review": "AI repair of deterministic source defects; teacher review pending"
+  },
+  {
+    "lesson_id": "g3up-u7-kp2",
+    "question_id": 16,
+    "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit7.json",
+    "before": {
+      "id": 16,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "周长的含义与计算公式",
+      "question": "测量课本封面的周长，通常选用什么单位？",
+      "options": [
+        "米",
+        "厘米",
+        "米",
+        "千米"
+      ],
+      "answer": "厘米",
+      "explanation": "课本长度一般在20-30厘米之间，厘米是测量文具、课本等小型物体最合适的单位。"
+    },
+    "after": {
+      "id": 16,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "周长的含义与计算公式",
+      "question": "测量课本封面的周长，通常选用什么单位？",
+      "options": [
+        "米",
+        "厘米",
+        "平方米",
+        "千米"
+      ],
+      "answer": "厘米",
+      "explanation": "课本长度一般在20-30厘米之间，厘米是测量文具、课本等小型物体最合适的单位。"
+    },
+    "review": "AI repair of deterministic source defects; teacher review pending"
+  },
+  {
+    "lesson_id": "g4down-u1-kp4",
+    "question_id": 10,
+    "source": "output/math/quizzes/义务教育教科书·数学四年级下册_unit1.json",
+    "before": {
+      "id": 10,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "解决问题：租船/租车优化方案",
+      "question": "有 32 人去划船，大船每条坐 6 人，小船每条坐 4 人。全都坐满且不留空位，应租（ ）。",
+      "options": [
+        "5 条大船和 1 条小船",
+        "4 条大船和 2 条小船",
+        "3 条大船和 4 条小船",
+        "2 条大船和 5 条小船"
+      ],
+      "answer": "4 条大船 and 2 条小船",
+      "explanation": "方案A：$5 \times 6 + 1 \times 4 = 34$（错误）；方案B：$4 \times 6 + 2 \times 4 = 32$（正确）。"
+    },
+    "after": {
+      "id": 10,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "解决问题：租船/租车优化方案",
+      "question": "有 32 人去划船，大船每条坐 6 人，小船每条坐 4 人。全都坐满且不留空位，应租（ ）。",
+      "options": [
+        "5 条大船和 1 条小船",
+        "4 条大船和 2 条小船",
+        "3 条大船和 4 条小船",
+        "2 条大船和 6 条小船"
+      ],
+      "answer": "4 条大船和 2 条小船",
+      "explanation": "方案A：$5 \times 6 + 1 \times 4 = 34$（错误）；方案B：$4 \times 6 + 2 \times 4 = 32$（正确）。"
+    },
+    "review": "AI repair of deterministic source defects; teacher review pending"
+  },
+  {
+    "lesson_id": "chinese-g3up-u2-kp1",
+    "question_id": 6,
+    "source": "output/chinese/quizzes/义务教育教科书·语文三年级上册_unit2.json",
+    "before": {
+      "id": 6,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "古诗意象与季节感知",
+      "question": "古诗《山行》中，诗人停车是因为看到了什么美景？",
+      "options": [
+        "寒山石径",
+        "白云人家",
+        "爱枫林晚",
+        "爱枫林晚"
+      ],
+      "answer": "爱枫林晚",
+      "explanation": "根据诗句‘停车坐爱枫林晚’，诗人是因为喜爱夕阳下的枫林才停车驻足。"
+    },
+    "after": {
+      "id": 6,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "古诗意象与季节感知",
+      "question": "古诗《山行》中，诗人停车是因为看到了什么美景？",
+      "options": [
+        "寒山石径",
+        "白云人家",
+        "爱枫林晚",
+        "春天的柳树"
+      ],
+      "answer": "爱枫林晚",
+      "explanation": "根据诗句‘停车坐爱枫林晚’，诗人是因为喜爱夕阳下的枫林才停车驻足。"
+    },
+    "review": "AI repair of deterministic source defects; teacher review pending"
+  },
+  {
+    "lesson_id": "chinese-g5up-u8-kp2",
+    "question_id": 11,
+    "source": "output/chinese/quizzes/义务教育教科书·语文五年级上册_unit8.json",
+    "before": {
+      "id": 11,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "群文阅读与书籍推荐策略",
+      "question": "以下哪组关联词最适合表达‘读书不仅要多，更要精’的意思？",
+      "options": [
+        "虽然……但是……",
+        "与其……不如……",
+        "与其……不如……",
+        "与其博而不精，不如少而求精。"
+      ],
+      "answer": "与其博而不精，不如少而求精。",
+      "explanation": "‘与其……不如……’用于在两个选项中进行取舍，强调整体质量。"
+    },
+    "after": {
+      "id": 11,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "群文阅读与书籍推荐策略",
+      "question": "以下哪组关联词最适合表达‘读书不仅要多，更要精’的意思？",
+      "options": [
+        "虽然……但是……",
+        "与其……不如……",
+        "因为……所以……",
+        "不但……而且……"
+      ],
+      "answer": "不但……而且……",
+      "explanation": "“不仅要多，更要精”表示递进关系。“不但……而且……”也表示递进：读书不但要多，而且要精。"
+    },
+    "review": "AI repair of deterministic source defects; teacher review pending"
+  },
+  {
+    "lesson_id": "chinese-g2down-u6-kp4",
+    "question_id": 7,
+    "source": "output/chinese/quizzes/义务教育教科书·语文二年级下册_unit6.json",
+    "before": {
+      "id": 7,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "多音字辨析",
+      "question": "选出下列句子中加下划线字读音正确的一项：要是你在野外迷了路，可千万别慌张（慌：huāng）。",
+      "options": [
+        "hāng",
+        "huāng",
+        "huāng",
+        "huáng"
+      ],
+      "answer": "huāng",
+      "explanation": "慌张的慌读作huāng。"
+    },
+    "after": {
+      "id": 7,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "多音字辨析",
+      "question": "“银行”的“行”应该读哪个音？",
+      "options": [
+        "xíng",
+        "háng",
+        "hàng",
+        "xìng"
+      ],
+      "answer": "háng",
+      "explanation": "“行”是多音字。在“银行”中读háng；在“行走”中读xíng。"
+    },
+    "review": "AI repair of deterministic source defects; teacher review pending"
+  },
+  {
+    "lesson_id": "g4down-u4-kp4",
+    "question_id": 21,
+    "source": "output/math/quizzes/义务教育教科书·数学四年级下册_unit4.json",
+    "before": {
+      "id": 21,
+      "type": "fill_blank",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "小数点移动引起小数大小的变化",
+      "question": "把 45 缩小到原来的千分之一后，再扩大 100 倍，结果是 ___。（注：请输入计算过程最终结果的 10 倍整数值，此题特殊要求填 45 对应的最终计算结果的十分位数字，设逻辑为 4.5 则填 45，由于系统只收整数，请计算：0.45 乘以 100 是多少？）",
+      "options": [],
+      "answer": "45",
+      "explanation": "（注：为了符合填空题整数要求，改为计算 $0.45 \\times 100$）$45 \\div 1000 = 0.045$。$0.045 \\times 1000 = 45$。此处模拟 45 缩后再扩回 100 倍的结果乘以 10，正确逻辑应为：直接问 0.45 的 100 倍。$0.45 \\times 100 = 45$。验算：$45 \\div 100 = 0.45$ ✓。"
+    },
+    "after": {
+      "id": 21,
+      "type": "fill_blank",
+      "score": 5,
+      "difficulty": 2,
+      "knowledge_point": "小数点移动引起小数大小的变化",
+      "question": "把45缩小到原来的千分之一后，再扩大100倍，结果是多少？",
+      "options": [],
+      "answer": "4.5",
+      "explanation": "45除以1000得到0.045，再乘以100得到4.5。缩小到千分之一，再扩大100倍，相当于原数除以10。"
+    },
+    "review": "AI repair of deterministic source defects; teacher review pending"
+  },
+  {
+    "lesson_id": "g4down-u1-kp1",
+    "question_id": 6,
+    "source": "output/math/quizzes/义务教育教科书·数学四年级下册_unit1.json",
+    "before": {
+      "id": 6,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "加、减法的意义和各部分间的关系",
+      "question": "已知 $\triangle + \bigcirc = \big竞$，下面哪个算式是正确的？",
+      "options": [
+        "$\big竞 - \bigcirc = \triangle$",
+        "$\bigcirc - \triangle = \big竞$",
+        "$\triangle - \big竞 = \bigcirc$",
+        "$\big竞 + \bigcirc = \triangle$"
+      ],
+      "answer": "$\big竞 - \bigcirc = \triangle$",
+      "explanation": "根据“加数 + 加数 = 和”，可以推出“和 - 一个加数 = 另一个加数”。"
+    },
+    "after": {
+      "id": 6,
+      "type": "choice",
+      "score": 5,
+      "difficulty": 1,
+      "knowledge_point": "加、减法的意义和各部分间的关系",
+      "question": "两个加数分别是12和8，和是20。下面哪个算式能表示“和减去一个加数，得到另一个加数”？",
+      "options": [
+        "20 - 8 = 12",
+        "8 - 12 = 20",
+        "12 - 20 = 8",
+        "20 + 8 = 12"
+      ],
+      "answer": "20 - 8 = 12",
+      "explanation": "根据“加数 + 加数 = 和”，可以推出“和 - 一个加数 = 另一个加数”。"
+    },
+    "review": "AI repair of deterministic source defects; teacher review pending"
+  }
+]

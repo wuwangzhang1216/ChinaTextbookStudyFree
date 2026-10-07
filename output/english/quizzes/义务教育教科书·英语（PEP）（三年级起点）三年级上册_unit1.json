@@ -4,11 +4,10 @@
   "unit_number": 1,
   "unit_test": {
     "title": "Unit 1 Hello! 基础达标卷",
-    "total_score": 100,
+    "total_score": 316,
     "time_minutes": 40,
     "questions": [
       {
-        "id": 1,
         "type": "true_false",
         "score": 2,
         "difficulty": 1,
@@ -16,10 +15,10 @@
         "question": "当你想告诉别人你叫陈杰时，你可以说：'Hello, Chen Jie.'",
         "options": [],
         "answer": "错",
-        "explanation": "Hello, Chen Jie是向陈杰打招呼，介绍自己应使用I'm Chen Jie。"
+        "explanation": "'Hello, Chen Jie.' 是向陈杰问好，不是在介绍自己的名字。介绍自己可以说 I'm Chen Jie. 或 My name's Chen Jie.",
+        "id": 1
       },
       {
-        "id": 2,
         "type": "true_false",
         "score": 2,
         "difficulty": 1,
@@ -27,32 +26,32 @@
         "question": "'Hi' 和 'Hello' 意思相近，都可以用来打招呼。",
         "options": [],
         "answer": "对",
-        "explanation": "Hi和Hello都是英语中非正式的打招呼用语。"
+        "explanation": "Hi 和 Hello 都可以在见面时用来问好。",
+        "id": 2
       },
       {
-        "id": 3,
         "type": "true_false",
         "score": 2,
         "difficulty": 1,
         "knowledge_point": "词汇识记",
-        "question": "单词 'pencil' 的中文意思是 '铅笔'。",
+        "question": "pencil 和 pen 都表示“铅笔”。",
         "options": [],
-        "answer": "对",
-        "explanation": "pencil意为铅笔，pen意为钢笔。"
+        "answer": "错",
+        "explanation": "pencil 表示“铅笔”，pen 表示“钢笔”，两者的中文意思不同。",
+        "id": 3
       },
       {
-        "id": 4,
         "type": "true_false",
         "score": 2,
         "difficulty": 2,
         "knowledge_point": "物品持有表达",
-        "question": "在句子 'I have an eraser.' 中，使用 'an' 是因为 'eraser' 以元音音素开头。",
+        "question": "在句子“I have an eraser.”中，使用“an”是因为“eraser”以元音音素开头。",
         "options": [],
         "answer": "对",
-        "explanation": "以元音音素开头的单词前通常用不定冠词an。"
+        "explanation": "a 或 an 要根据后面单词开头的发音来选择。“eraser”开头是元音音素，所以它前面用 an。",
+        "id": 4
       },
       {
-        "id": 5,
         "type": "true_false",
         "score": 2,
         "difficulty": 1,
@@ -60,10 +59,10 @@
         "question": "当你要和同学道别时，你应该说：'Hello!'",
         "options": [],
         "answer": "错",
-        "explanation": "道别应说Goodbye或Bye，Hello是见面时的问候。"
+        "explanation": "Hello!是见面时的问候语。要和同学道别，可以说Goodbye!或Bye!",
+        "id": 5
       },
       {
-        "id": 6,
         "type": "choice",
         "score": 5,
         "difficulty": 1,
@@ -76,15 +75,15 @@
           "Yes."
         ],
         "answer": "Hi, I'm Wu Binbin.",
-        "explanation": "面对别人的自我介绍，应礼貌回应并也介绍自己。"
+        "explanation": "对方先问候并介绍自己。用 Hi 回应问候，再用 I'm 加自己的名字介绍自己，能同时回应问候并介绍姓名。Goodbye 用于告别，Great 和 Yes 都没有介绍自己的名字。",
+        "id": 6
       },
       {
-        "id": 7,
         "type": "choice",
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "物品持有表达",
-        "question": "I _______ a ruler.",
+        "question": "选择表示“我有一把尺子”的句子中缺少的词：I _______ a ruler.",
         "options": [
           "is",
           "am",
@@ -92,10 +91,10 @@
           "has"
         ],
         "answer": "have",
-        "explanation": "第一人称主语I后接动词have表示“有”。"
+        "explanation": "题目要求表达“我有”，英语用 I have，所以空格填 have。I am 表示“我是”，不符合题目给定的意思。",
+        "id": 7
       },
       {
-        "id": 8,
         "type": "choice",
         "score": 5,
         "difficulty": 1,
@@ -108,15 +107,15 @@
           "ruler"
         ],
         "answer": "book",
-        "explanation": "book意为书。"
+        "explanation": "book 表示“书”；bag 表示“书包”，pen 表示“钢笔”，ruler 表示“尺子”。",
+        "id": 8
       },
       {
-        "id": 9,
         "type": "choice",
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "冠词用法",
-        "question": "I have _______ eraser and _______ crayon.",
+        "question": "从 a 和 an 中选词完成句子：I have _______ eraser and _______ crayon.",
         "options": [
           "a; an",
           "an; a",
@@ -124,10 +123,10 @@
           "an; an"
         ],
         "answer": "an; a",
-        "explanation": "eraser以元音开头用an，crayon以辅音开头用a。"
+        "explanation": "eraser 的开头是元音音素，前面用 an；crayon 的开头是辅音音素，前面用 a。因此句子应填 an 和 a。",
+        "id": 9
       },
       {
-        "id": 10,
         "type": "choice",
         "score": 5,
         "difficulty": 1,
@@ -140,26 +139,26 @@
           "me"
         ],
         "answer": "your",
-        "explanation": "询问姓名使用形容词性物主代词your（你的）。"
+        "explanation": "问句是在询问对方的姓名。your表示“你的”，应放在名词name前，因此完整句子是“What's your name?”。",
+        "id": 10
       },
       {
-        "id": 11,
         "type": "choice",
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "人名书写",
-        "question": "我的名字是陈杰。写成英文是：",
+        "question": "姓名卡上写着 Chen Jie。下面哪句按姓名卡正确书写了自我介绍？",
         "options": [
-          "i am chenjie",
-          "I am Chen jie",
-          "I'm Chen Jie",
-          "I m chen jie"
+          "I'm Chen Jie.",
+          "I'm Chen jie.",
+          "i'm Chen Jie.",
+          "Im Chen Jie."
         ],
-        "answer": "I'm Chen Jie",
-        "explanation": "句首字母、人名首字母需大写，且I和am缩写为I'm。"
+        "answer": "I'm Chen Jie.",
+        "explanation": "姓名卡上的姓名是 Chen Jie，两部分的首字母都大写，中间有空格。自我介绍中的 I 要大写，I'm 中要有撇号。",
+        "id": 11
       },
       {
-        "id": 12,
         "type": "choice",
         "score": 5,
         "difficulty": 1,
@@ -172,10 +171,10 @@
           "eraser"
         ],
         "answer": "crayon",
-        "explanation": "crayon表示蜡笔。"
+        "explanation": "crayon 表示“蜡笔”；pencil 表示“铅笔”，ruler 表示“尺子”，eraser 表示“橡皮”。",
+        "id": 12
       },
       {
-        "id": 13,
         "type": "choice",
         "score": 5,
         "difficulty": 2,
@@ -188,10 +187,10 @@
           "I have a bag."
         ],
         "answer": "What's your name?",
-        "explanation": "What's your name? 是询问姓名的标准句型。"
+        "explanation": "What's your name? 用来询问对方的姓名。How are you? 是问候对方近况；Look at me. 是让对方看自己；I have a bag. 是说自己有一个书包。",
+        "id": 13
       },
       {
-        "id": 14,
         "type": "choice",
         "score": 5,
         "difficulty": 1,
@@ -204,48 +203,48 @@
           "拿出铅笔"
         ],
         "answer": "把书打开",
-        "explanation": "open意为打开。"
+        "explanation": "Open表示“打开”，your book表示“你的书”。因此，这条指令是让听话人把自己的书打开。",
+        "id": 14
       },
       {
-        "id": 15,
         "type": "choice",
         "score": 5,
         "difficulty": 3,
         "knowledge_point": "综合运用",
-        "question": "Sarah: ______? \nZoom: My name's Zoom.",
+        "question": "Sarah 想知道 Zoom 的名字，她应该怎样问？Sarah: ______? Zoom: My name's Zoom.",
         "options": [
           "I'm Sarah",
-          "Hello, Zoom",
+          "Goodbye",
           "What's your name",
-          "Are you Zoom"
+          "I have a pen"
         ],
         "answer": "What's your name",
-        "explanation": "根据答句My name's...可知问句是询问姓名。"
+        "explanation": "Sarah 想询问对方的姓名，应使用 What's your name?。Zoom 用 My name's Zoom. 回答自己的名字。",
+        "id": 15
       },
       {
-        "id": 16,
         "type": "fill_blank_text",
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "持有表达",
-        "question": "I ___ a pen.",
+        "question": "只填入本课表示“有”的词：I ___ a pen.",
         "options": [],
         "answer": "have",
-        "explanation": "表达“我有...”用I have...。"
+        "explanation": "本课用“I have...”表达“我有……”。句子中的主语是I，表示“有”时用have，因此空格填have。",
+        "id": 16
       },
       {
-        "id": 17,
         "type": "fill_blank_text",
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "冠词用法",
-        "question": "I have ___ eraser.",
+        "question": "从 a 和 an 中选词完成句子：I have ___ eraser.",
         "options": [],
         "answer": "an",
-        "explanation": "eraser是元音音素开头的单词，用an。"
+        "explanation": "eraser 的开头是元音音素，单数名词前应使用 an。",
+        "id": 17
       },
       {
-        "id": 18,
         "type": "fill_blank_text",
         "score": 5,
         "difficulty": 1,
@@ -253,10 +252,10 @@
         "question": "What is ___ name?",
         "options": [],
         "answer": "your",
-        "explanation": "询问你的姓名：What is your name?"
+        "explanation": "这句话在询问对方的姓名，name前需要用表示“你的”的your。完整句子是“What is your name?”。",
+        "id": 18
       },
       {
-        "id": 19,
         "type": "fill_blank_text",
         "score": 5,
         "difficulty": 1,
@@ -264,78 +263,731 @@
         "question": "Hi, I ___ Wu Binbin.",
         "options": [],
         "answer": "am",
-        "explanation": "I am... 或 I'm... 表示“我是...”。"
+        "explanation": "用英语介绍自己时，I 后面接 am。I am 可以缩写为 I'm，因此句子中的空格应填 am。",
+        "id": 19
       },
       {
-        "id": 20,
-        "type": "matching",
+        "type": "fill_blank_text",
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "词汇识记",
-        "question": "将下列英文单词与对应的中文意思连线。",
-        "options": [
-          "ruler",
-          "bag",
-          "book",
-          "pencil",
-          "书包",
-          "尺子",
-          "铅笔",
-          "书"
-        ],
-        "answer": "A-2,B-1,C-4,D-3",
-        "explanation": "ruler-尺子, bag-书包, book-书, pencil-铅笔。"
+        "question": "文具 ruler 对应“尺子、书包、书、铅笔”中的哪个词？请只填一个中文词：____。",
+        "options": [],
+        "answer": "尺子",
+        "explanation": "ruler 的中文意思是“尺子”。",
+        "id": 20
       },
       {
-        "id": 21,
-        "type": "matching",
+        "type": "choice",
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "见面问候",
-        "question": "将下列英文短语/句子与中文意思连线。",
+        "question": "哪一组英文短语和中文意思全部对应正确？",
         "options": [
-          "Goodbye",
-          "Hello",
-          "My name's",
-          "Me too",
-          "你好",
-          "再见",
-          "我也一样",
-          "我的名字是"
+          "Goodbye—再见；Hello—你好；My name's—我的名字是；Me too—我也一样",
+          "Goodbye—你好；Hello—再见；My name's—我的名字是；Me too—我也一样",
+          "Goodbye—再见；Hello—你好；My name's—我也一样；Me too—我的名字是",
+          "Goodbye—再见；Hello—你好；My name's—再见；Me too—我也一样"
         ],
-        "answer": "A-2,B-1,C-4,D-3",
-        "explanation": "Goodbye-再见, Hello-你好, My name's-我的名字是, Me too-我也一样。"
+        "answer": "Goodbye—再见；Hello—你好；My name's—我的名字是；Me too—我也一样",
+        "explanation": "Goodbye 表示“再见”，Hello 表示“你好”，My name's 表示“我的名字是”，Me too 表示“我也一样”。只有这组配对全部正确。",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
+        "type": "choice",
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "询问姓名",
-        "question": "将下列单词排列成一句完整的话：",
+        "question": "哪一句的单词顺序正确，可以询问对方的姓名？",
         "options": [
-          "your",
-          "What's",
-          "name"
+          "Your what's name?",
+          "What's name your?",
+          "What's your name?",
+          "Name your what's?"
         ],
-        "answer": "What's,your,name",
-        "explanation": "询问姓名句式：What's your name?"
+        "answer": "What's your name?",
+        "explanation": "询问姓名时，What's放在句首，your放在名词name前。只有“What's your name?”符合这个语序。",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
+        "type": "fill_blank_text",
         "score": 5,
         "difficulty": 2,
         "knowledge_point": "物品持有表达",
-        "question": "将下列单词排列成一句完整的话：",
+        "question": "把句子里的 has 改正确，只写一个词：I has an orange. 答：___",
+        "options": [],
+        "answer": "have",
+        "explanation": "主语是 I 时，表示“有”要用 have，所以句子应为“I have an orange.”",
+        "id": 23
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问姓名",
+        "question": "别人问你姓名。用给定的名字补全回答：I'm ______.（名字：Amy）",
+        "options": [],
+        "answer": "Amy",
+        "explanation": "可以用“I'm + 名字.”介绍自己。题目给出的名字是Amy，所以空格中填Amy。",
+        "id": 45
+      },
+      {
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "询问姓名",
+        "question": "询问别人姓名时，可以说“What's you name?”。对吗？",
+        "options": [],
+        "answer": "错",
+        "explanation": "询问别人姓名时，name前要用your，表示“你的”，不能用you。正确说法是“What's your name?”。",
+        "id": 46
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "询问姓名",
+        "question": "读对话：A: Hi! What's your name? B: Goodbye! B的回答有什么问题？",
         "options": [
-          "have",
-          "I",
-          "ruler",
-          "a"
+          "他在介绍自己的名字。",
+          "他在询问A的名字。",
+          "他用了告别语，没有回答姓名问题。",
+          "他在向A打招呼。"
         ],
-        "answer": "I,have,a,ruler",
-        "explanation": "我有尺子的表达：I have a ruler."
+        "answer": "他用了告别语，没有回答姓名问题。",
+        "explanation": "A问B叫什么名字，期待B介绍自己的姓名。“Goodbye!”用于告别，不能回答姓名问题；B应使用介绍姓名的句型。",
+        "id": 47
+      },
+      {
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人名书写",
+        "question": "姓名卡上写着 Amy Lee。小华写成 AmyLee，并说这与姓名卡上的分词相同。小华说得对吗？",
+        "options": [],
+        "answer": "错",
+        "explanation": "姓名卡把姓名分成 Amy 和 Lee 两部分，中间有空格。AmyLee 把两部分连在了一起，因此分词与姓名卡不同。",
+        "id": 48
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人名书写",
+        "question": "姓名卡上写着 Lily Brown。哪种写法与姓名卡的大小写和分词都一致？",
+        "options": [
+          "lily Brown",
+          "Lilybrown",
+          "Lily Brown",
+          "Lily brown"
+        ],
+        "answer": "Lily Brown",
+        "explanation": "姓名卡写的是 Lily Brown。要保留每部分首字母大写的写法，并在 Lily 和 Brown 之间留一个空格。",
+        "id": 49
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "人名书写",
+        "question": "姓名卡上写着 Grace。哪句话正确地写出了姓名并作自我介绍？",
+        "options": [
+          "I'm grace.",
+          "I'm Grace.",
+          "Im Grace.",
+          "I'm Grase."
+        ],
+        "answer": "I'm Grace.",
+        "explanation": "姓名卡上的拼写是 Grace，首字母大写。自我介绍中的 I 要大写，I'm 中要有撇号；姓名拼写也要与姓名卡一致。",
+        "id": 50
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人名书写",
+        "question": "姓名卡上写着 Noah King。草稿是“I'm NoahKing.”。要使姓名拼写、大小写和分词都与姓名卡一致，应选哪句？",
+        "options": [
+          "I'm Noah King.",
+          "I'm NoahKing.",
+          "I'm Noah king.",
+          "I'm Noah'King."
+        ],
+        "answer": "I'm Noah King.",
+        "explanation": "姓名卡把姓名写作 Noah King：两个部分的首字母都大写，中间有空格。第一句符合这三点；其他写法分别缺少空格、大小写不一致或多了撇号。",
+        "id": 51
+      },
+      {
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "人名书写",
+        "question": "姓名卡上写着 Oliver。小文写成“I'm Oliver.”，并判断姓名和自我介绍的书写都符合姓名卡与本课规则。小文判断得对吗？",
+        "options": [],
+        "answer": "对",
+        "explanation": "Oliver 的拼写与姓名卡一致，首字母大写。句中的 I 大写，I'm 中有撇号，因此姓名和自我介绍的书写符合题目所给规则。",
+        "id": 52
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情景交际",
+        "question": "早上在学校见到一位朋友，你想向他问好，可以说：",
+        "options": [
+          "Goodbye!",
+          "I have a book.",
+          "Hello!",
+          "What's your name?"
+        ],
+        "answer": "Hello!",
+        "explanation": "见面时可以用 Hello! 或 Hi! 打招呼。Goodbye! 用于告别；I have a book. 表示自己有一本书；What's your name? 用来询问姓名。",
+        "id": 53
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情景交际",
+        "question": "哪一项把学习用品的中文和英文都正确配对了？",
+        "options": [
+          "尺子—ruler；橡皮—eraser；铅笔—crayon；蜡笔—pencil；书包—bag；钢笔—pen；书—book",
+          "尺子—ruler；橡皮—eraser；铅笔—pencil；蜡笔—crayon；书包—bag；钢笔—pen；书—book",
+          "尺子—ruler；橡皮—pencil；铅笔—eraser；蜡笔—crayon；书包—bag；钢笔—pen；书—book",
+          "尺子—ruler；橡皮—eraser；铅笔—pencil；蜡笔—crayon；书包—pen；钢笔—bag；书—book"
+        ],
+        "answer": "尺子—ruler；橡皮—eraser；铅笔—pencil；蜡笔—crayon；书包—bag；钢笔—pen；书—book",
+        "explanation": "这些配对依次是：ruler 是尺子，eraser 是橡皮，pencil 是铅笔，crayon 是蜡笔，bag 是书包，pen 是钢笔，book 是书。其余选项至少有一组中文和英文不对应。",
+        "id": 54
+      },
+      {
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "情景交际",
+        "question": "“How are you?”可以用来询问别人的姓名。",
+        "options": [],
+        "answer": "错",
+        "explanation": "How are you? 用来问候对方近况，不是询问姓名。询问姓名时可以使用 What's your name?",
+        "id": 55
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交际",
+        "question": "读对话：A: What's your name? B: ______",
+        "options": [
+          "Goodbye!",
+          "I have a pen.",
+          "How are you?",
+          "I'm Sam."
+        ],
+        "answer": "I'm Sam.",
+        "explanation": "A 在询问姓名，B 可以用 I'm 加自己的姓名来回答。Goodbye! 用于告别；I have a pen. 表示自己有一支钢笔；How are you? 用于问候近况。",
+        "id": 56
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "情景交际",
+        "question": "Complete the sentence: I have ___ eraser.（填 a 或 an）",
+        "options": [],
+        "answer": "an",
+        "explanation": "eraser 开头的发音是元音音素，因此 eraser 前用 an。a 或 an 要根据后一个词开头的发音来选择。",
+        "id": 57
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "指令语",
+        "question": "老师说“Carry your bag.”，你应该怎么做？",
+        "options": [
+          "把书包给老师看",
+          "打开书包",
+          "拿着或背起自己的书包",
+          "转过身"
+        ],
+        "answer": "拿着或背起自己的书包",
+        "explanation": "Carry表示“拿着、提着或背着”，your bag表示“你的书包”，所以这条指令是让听话人拿着或背起自己的书包。",
+        "id": 58
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "指令语",
+        "question": "根据中文意思补全指令，填一个英文单词：把你的书合上。Close your ____.",
+        "options": [],
+        "answer": "book",
+        "explanation": "book表示“书”。Close your book. 是让听话人把自己的书合上。",
+        "id": 59
+      },
+      {
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "指令语",
+        "question": "“Show me your pen.”的意思是“转过身”。对还是错？",
+        "options": [],
+        "answer": "错",
+        "explanation": "Show me your pen. 的意思是“把你的钢笔给我看”。“转过身”是Turn around.，所以题干中的意思不正确。",
+        "id": 60
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "指令语",
+        "question": "老师想让你把自己的橡皮给他看，应该说哪句话？",
+        "options": [
+          "Close your eraser.",
+          "Turn around.",
+          "Carry your eraser.",
+          "Show me your eraser."
+        ],
+        "answer": "Show me your eraser.",
+        "explanation": "Show me表示“给我看”，your eraser表示“你的橡皮”。因此，要表达把自己的橡皮给老师看，应使用Show me your eraser.",
+        "id": 61
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "指令语",
+        "question": "从 around 和 book 中选一个完整单词，补全表示“转过身”的指令：Turn ____.",
+        "options": [],
+        "answer": "around",
+        "explanation": "Turn around 表示“转过身”。book 表示“书”，不能与 Turn 组成表示转过身的指令。",
+        "id": 62
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "综合运用",
+        "question": "在学校见到同学，选择一句问候语。",
+        "options": [
+          "Hi!",
+          "Goodbye!",
+          "What's your name?",
+          "My name's Ben."
+        ],
+        "answer": "Hi!",
+        "explanation": "Hi! 可以在见面时用来打招呼。Goodbye! 用于告别，What's your name? 用于询问姓名，My name's Ben. 用于介绍自己的名字。",
+        "id": 63
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合运用",
+        "question": "从 a 和 an 中选词：I have ___ eraser.",
+        "options": [
+          "a",
+          "an",
+          "I'm",
+          "Hello"
+        ],
+        "answer": "an",
+        "explanation": "eraser 开头的发音是元音音素，因此前面用 an。a 用在辅音音素开头的词前；I'm 和 Hello 不能填入这个表达拥有物品的句子中。",
+        "id": 64
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "综合运用",
+        "question": "“蜡笔”的英文单词是哪个？请填入一个英文单词：____。",
+        "options": [],
+        "answer": "crayon",
+        "explanation": "crayon 是“蜡笔”的英文单词。题目要求填写小写形式，所以答案写作 crayon。",
+        "id": 65
+      },
+      {
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "综合运用",
+        "question": "Goodbye! 可以用来在刚见到朋友时说“你好”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "Goodbye! 通常用于分别或告别，不是见面时用来问好的表达，因此这个说法错误。",
+        "id": 66
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "综合运用",
+        "question": "男孩的名字是 Tom，他在介绍自己。补全句子：I'm ____.（只填名字）",
+        "options": [],
+        "answer": "Tom",
+        "explanation": "I'm 后面可以接说话者自己的名字。题目说明男孩的名字是 Tom，因此空格应填 Tom。",
+        "id": 67
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "持有表达",
+        "question": "选择合适的词填空：I have ___ orange.",
+        "options": [
+          "a",
+          "an",
+          "is",
+          "are"
+        ],
+        "answer": "an",
+        "explanation": "orange开头是元音音素，因此单数名词orange前用an。",
+        "id": 68
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "持有表达",
+        "question": "只填a或an：I have ___ pencil.",
+        "options": [],
+        "answer": "a",
+        "explanation": "pencil开头是辅音音素，因此单数名词pencil前用a。",
+        "id": 69
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "持有表达",
+        "question": "选出表达“我有一支蜡笔”的正确句子。",
+        "options": [
+          "I has a crayon.",
+          "I have an crayon.",
+          "My have a crayon.",
+          "I have a crayon."
+        ],
+        "answer": "I have a crayon.",
+        "explanation": "表示“我有”要用I have。crayon开头是辅音音素，所以前面用a。",
+        "id": 70
+      },
+      {
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "持有表达",
+        "question": "Ben说“I have a bag.”时，句子中的I指说话人Ben。",
+        "options": [],
+        "answer": "对",
+        "explanation": "I表示说话的人。因为这句话由Ben说出，所以I指Ben。",
+        "id": 71
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "持有表达",
+        "question": "Lily说：“I have a book and a ruler.” 根据她的话，Lily有哪两件物品？",
+        "options": [
+          "一本书和一把尺子",
+          "一本书和一支钢笔",
+          "一个书包和一把尺子",
+          "两本书"
+        ],
+        "answer": "一本书和一把尺子",
+        "explanation": "a book表示一本书，a ruler表示一把尺子，and把两件物品连接起来。因此Lily有一本书和一把尺子。",
+        "id": 72
+      },
+      {
+        "type": "choice",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "见面问候",
+        "question": "有人问你“What's your name?”，哪一句可以用来介绍自己的名字？",
+        "options": [
+          "Goodbye, Ben.",
+          "My name's Ben.",
+          "What's your name?",
+          "Hello, Ben."
+        ],
+        "answer": "My name's Ben.",
+        "explanation": "My name's 后面可以接说话人的名字，用来介绍自己。What's your name? 是询问姓名；Hello 用于问好，Goodbye 用于道别。",
+        "id": 24
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "见面问候",
+        "question": "按句子开头补上名字：I'm ___。句意是“我是 Amy”。",
+        "options": [],
+        "answer": "Amy",
+        "explanation": "I'm 后面接说话人的名字。句意给出的名字是 Amy，因此空格填 Amy。",
+        "id": 25
+      },
+      {
+        "type": "choice",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "见面问候",
+        "question": "May 见到新同学 Tom 并说：“Hello! I'm May.” 哪句话适合 Tom 接着说？",
+        "options": [
+          "Goodbye, May!",
+          "What's your name?",
+          "Hi, May! I'm Tom.",
+          "My name's May."
+        ],
+        "answer": "Hi, May! I'm Tom.",
+        "explanation": "Tom 可以先回应 May 的问好，再介绍自己的名字。Goodbye 用于道别；What's your name? 是询问姓名；My name's May. 表示说话人的名字是 May，与已知的 Tom 不符。",
+        "id": 26
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "词汇识记",
+        "question": "在本课学过的文具词中，表示“橡皮”的英文单词是____。（只填一个英文单词）",
+        "options": [],
+        "answer": "eraser",
+        "explanation": "eraser 表示“橡皮”。",
+        "id": 27
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "词汇识记",
+        "question": "小明要选一种用墨水写字的文具；它不是用来量长度、擦字或装文具的。最符合的是哪一种？",
+        "options": [
+          "ruler",
+          "eraser",
+          "bag",
+          "pen"
+        ],
+        "answer": "pen",
+        "explanation": "pen 表示“钢笔”，属于书写用品；ruler、eraser 和 bag 分别表示“尺子”“橡皮”和“书包”。",
+        "id": 28
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 3,
+        "difficulty": 1,
+        "knowledge_point": "物品持有表达",
+        "question": "填入 a 或 an，只写一个词：I have ___ crayon.",
+        "options": [],
+        "answer": "a",
+        "explanation": "“crayon”开头是辅音音素，因此它前面用 a。",
+        "id": 29
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "物品持有表达",
+        "question": "下面哪句话表示“我有一个包”？",
+        "options": [
+          "I have an bag.",
+          "I has a bag.",
+          "I have a bag.",
+          "I am a bag."
+        ],
+        "answer": "I have a bag.",
+        "explanation": "表示“我有”要用“I have”；“bag”开头是辅音音素，前面用 a。因此正确表达是“I have a bag.”",
+        "id": 30
+      },
+      {
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "物品持有表达",
+        "question": "“I am a pen.”可以表示“我有一支钢笔”。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“I am”表示“我是……”，“I have”才表示“我有……”。所以“I am a pen.”不能表示“我有一支钢笔”。",
+        "id": 31
+      },
+      {
+        "type": "choice",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "离别语",
+        "question": "同学对你说“Goodbye!”，你也要离开。按要求选一句合适的回应：使用以B开头的离别语。",
+        "options": [
+          "Hello!",
+          "Bye!",
+          "What's your name?",
+          "Hi!"
+        ],
+        "answer": "Bye!",
+        "explanation": "Bye!是以B开头的离别语。Hello!和Hi!用于问候，What's your name?用于询问姓名。",
+        "id": 32
+      },
+      {
+        "type": "choice",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "离别语",
+        "question": "什么情况下最适合说“Goodbye!”？",
+        "options": [
+          "刚见到同学时",
+          "想询问同学姓名时",
+          "想介绍自己的姓名时",
+          "要离开同学时"
+        ],
+        "answer": "要离开同学时",
+        "explanation": "Goodbye!表示“再见”，适合在准备离开同学时使用；刚见面可以用Hello!或Hi!，询问姓名可以用What's your name?，介绍自己可以用I'm...。",
+        "id": 33
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "离别语",
+        "question": "把“再见”翻译成英语，写出以G开头的常用离别语：____!",
+        "options": [],
+        "answer": "Goodbye",
+        "explanation": "Goodbye!是常用的离别语，意思是“再见”。",
+        "id": 34
+      },
+      {
+        "type": "true_false",
+        "score": 2,
+        "difficulty": 1,
+        "knowledge_point": "离别语",
+        "question": "“Bye!”可以用来和同学道别。",
+        "options": [],
+        "answer": "对",
+        "explanation": "Bye!和Goodbye!都可以表示“再见”，用于道别。",
+        "id": 35
+      },
+      {
+        "type": "choice",
+        "score": 2,
+        "difficulty": 2,
+        "knowledge_point": "离别语",
+        "question": "下面四句话中，哪一句不是离别语？",
+        "options": [
+          "Bye!",
+          "Goodbye!",
+          "Hello!",
+          "Goodbye, Ben!"
+        ],
+        "answer": "Hello!",
+        "explanation": "Bye!和Goodbye!都表示道别，Goodbye, Ben!也是向Ben道别。Hello!用于见面问候，不是离别语。",
+        "id": 36
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自我介绍",
+        "question": "哪一句用来询问对方的姓名？",
+        "options": [
+          "How are you?",
+          "Goodbye!",
+          "What's your name?",
+          "I'm fine."
+        ],
+        "answer": "What's your name?",
+        "explanation": "What's your name? 用来询问对方的姓名。How are you? 询问近况；Goodbye! 用于告别；I'm fine. 表达自己的状态。",
+        "id": 37
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自我介绍",
+        "question": "小红正在直接询问你的名字。补全句子：What's ___ name?",
+        "options": [],
+        "answer": "your",
+        "explanation": "小红正在询问和她说话的人的名字，因此要用 your（你的）。询问对方姓名的句型是 What's your name?",
+        "id": 38
+      },
+      {
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "自我介绍",
+        "question": "A 问：“What's your name?” B 回答：“Hello!” A 说：“我已经知道 B 的名字了。”这句话判断对还是错？",
+        "options": [],
+        "answer": "错",
+        "explanation": "Hello! 是问候语，没有说出 B 的姓名。要知道对方的名字，对方需要用包含自己名字的句子回答。",
+        "id": 39
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "自我介绍",
+        "question": "先询问姓名，再回答姓名。哪组对话符合顺序和意思？",
+        "options": [
+          "Hi! — Goodbye!",
+          "What's your name? — Goodbye!",
+          "My name's Tom. — What's your name?",
+          "What's your name? — My name's Tom."
+        ],
+        "answer": "What's your name? — My name's Tom.",
+        "explanation": "询问姓名要用 What's your name?；回答姓名可以用 My name's 加名字。符合题目要求的对话应先询问，再由对方说出自己的名字。",
+        "id": 40
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "冠词用法",
+        "question": "哪一组短语正确使用了 an？",
+        "options": [
+          "an egg",
+          "a egg",
+          "an ruler",
+          "a orange"
+        ],
+        "answer": "an egg",
+        "explanation": "egg 的开头是元音音素，因此前面用 an。ruler 的开头是辅音音素，应使用 a；egg 和 orange 的开头是元音音素，不能在它们前面用 a。",
+        "id": 41
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "冠词用法",
+        "question": "从 a 和 an 中选词完成句子：I have ___ pencil.",
+        "options": [],
+        "answer": "a",
+        "explanation": "pencil 的开头是辅音音素，单数名词前应使用 a。",
+        "id": 42
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "冠词用法",
+        "question": "哪句话正确使用了 a 或 an？",
+        "options": [
+          "I have an bag.",
+          "I have a bag.",
+          "I have an book.",
+          "I have a eraser."
+        ],
+        "answer": "I have a bag.",
+        "explanation": "bag 的开头是辅音音素，前面用 a。book 的开头是辅音音素，前面不能用 an；eraser 的开头是元音音素，前面应使用 an。",
+        "id": 43
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "冠词用法",
+        "question": "bag 和 book 的开头音都是辅音。哪句话的两处冠词都正确？",
+        "options": [
+          "I have a bag and a book.",
+          "I have an bag and an book.",
+          "I have a bag and an book.",
+          "I have an bag and a book."
+        ],
+        "answer": "I have a bag and a book.",
+        "explanation": "bag 和 book 的开头音都是辅音音素，所以两个单数名词前都用 a。只有“I have a bag and a book.”中的两个冠词都正确。",
+        "id": 44
       }
     ]
   },
@@ -706,6 +1358,144 @@
         "an bag"
       ],
       "tips": "记口诀：元音前an，辅音前a，看图说话别弄差。"
+    },
+    {
+      "point": "询问姓名",
+      "core_concept": "想知道对方的姓名，可以礼貌地询问；回答时可以介绍自己的姓名。例：问“What's your name?”，答“I'm Sam.”或“My name's Sam.”",
+      "key_formula": "询问姓名：What's your name? / What is your name? 回答姓名：I'm + 名字. / My name's + 名字.",
+      "tips": "先判断是在询问对方，还是在介绍自己。问句中your表示“你的”，放在name前；介绍自己时用I'm或My name's，再接名字。回答时选一种介绍方式即可。",
+      "common_mistakes": [
+        "把your写成you；your表示“你的”，在问姓名的句子里放在name前。",
+        "把“What's your name?”当作姓名回答；它是在问对方的姓名。",
+        "把“My name's”后面再接“I'm”；介绍姓名时用其中一种句型即可。"
+      ]
+    },
+    {
+      "point": "人名书写",
+      "core_concept": "书写英文人名时，要以题目或姓名卡给出的拼写为准，并保留其中的大小写和空格。用英语介绍自己时，I 要大写，I'm 中要有撇号。",
+      "key_formula": "姓名卡示例：Ava Park。自我介绍示例：I'm Sam.",
+      "tips": "先看清姓名卡上的每个字母，再检查姓名各部分的大小写和空格；接着检查自我介绍中的 I 是否大写、I'm 中是否有撇号；最后核对句末标点。",
+      "common_mistakes": [
+        "把姓名某一部分的首字母写成小写，或改变姓名卡给出的拼写。",
+        "姓名卡把姓名分成两部分时，漏掉中间的空格。",
+        "把 I 写成小写 i，或漏写 I'm 中的撇号。",
+        "只凭中文姓名猜英文拼写，而不根据题目提供的姓名卡。"
+      ]
+    },
+    {
+      "point": "情景交际",
+      "core_concept": "在日常交流中，可以用 Hello 或 Hi 打招呼，用 What's your name? 询问姓名，用 I'm... 或 My name's... 介绍自己。表达自己有某件学习用品时，可以说 I have a/an...。常见学习用品有 ruler（尺子）、eraser（橡皮）、pencil（铅笔）、crayon（蜡笔）、bag（书包）、pen（钢笔）和 book（书）。",
+      "key_formula": "打招呼：Hello! / Hi!；告别：Goodbye! / Bye!；询问姓名：What's your name?；介绍自己：I'm + 姓名. / My name's + 姓名.；表达拥有：I have a/an + 物品.。a 或 an 根据后一个词开头的发音选择：辅音音素前用 a，元音音素前用 an。",
+      "tips": "先判断交流目的：见面问好、告别、询问姓名、介绍自己，还是说自己有某样东西，再选择相应表达。记学习用品时，把英文单词和中文意思配对复习。选择 a 或 an 时，读一读后面的词，听它开头的发音，不要只看首字母。",
+      "common_mistakes": [
+        "把问候和告别混淆：Hello!、Hi! 用于打招呼；Goodbye!、Bye! 用于告别。",
+        "把询问姓名和询问近况混淆：What's your name? 问姓名；How are you? 问近况。",
+        "混用自我介绍句型，例如把 I'm... 和 My name's... 拼接成一个句子。",
+        "只根据单词首字母选择 a 或 an，而忽略后一个词开头的发音。"
+      ]
+    },
+    {
+      "point": "指令语",
+      "core_concept": "英语指令用来告诉听话人要做什么。动作词表示要做的动作，后面有时会接物品名称；有些指令不带物品名称。your表示“你的”，指听话人自己的物品。",
+      "key_formula": "Open your ... 表示“打开你的……”；Close your ... 表示“合上你的……”；Show me your ... 表示“把你的……给我看”；Carry your ... 表示“拿着、提着或背着你的……”；Turn around 表示“转过身”。例如：Close the door.（把门关上。）",
+      "tips": "先听清动作词，再听后面有没有物品名称；根据整条指令理解要做什么。听到Turn around时，注意它表示转身，不是在说要拿取或展示某件物品。",
+      "common_mistakes": [
+        "把Open（打开）和Close（合上）弄反。",
+        "只听懂动作词，却忽略物品名称，结果对错物品做动作。",
+        "把Show me（给我看）和Carry（拿着、提着或背着）混淆。",
+        "把Turn around理解成拿取物品的指令，忽略around表示转身。"
+      ]
+    },
+    {
+      "point": "综合运用",
+      "core_concept": "见面时可以用 Hello! 或 Hi! 打招呼，分别时可以用 Goodbye! 或 Bye!。介绍自己可以说 I'm + 名字. 或 My name's + 名字.；询问对方姓名可以说 What's your name?。常见学习用品有 ruler（尺子）、eraser（橡皮）、pencil（铅笔）、crayon（蜡笔）、bag（书包）、pen（钢笔）和 book（书）。表达自己有某样东西时，可以说 I have a/an + 物品，例如 I have a book.",
+      "key_formula": "打招呼：Hello! / Hi!；告别：Goodbye! / Bye!；介绍自己：I'm + 名字. / My name's + 名字.；询问姓名：What's your name?；表达拥有：I have a/an + 物品.。a 或 an 根据后一个词开头的发音选择：辅音音素前用 a，元音音素前用 an。",
+      "tips": "先看情境：刚见面时选择问候语，分别时选择告别语。介绍自己时在 I'm 或 My name's 后说名字；询问姓名时用 What's your name?。表达拥有时先读一读物品词，再判断开头的音：book 开头是辅音音素，用 a；eraser 开头是元音音素，用 an。",
+      "common_mistakes": [
+        "把 Goodbye! 或 Bye! 用作见面问候；它们通常用于告别。",
+        "把 I'm... 和 My name's... 的结构混在一起；这两种表达后面都直接接名字。",
+        "询问姓名时漏掉 your，或把 What's your name? 当成自我介绍。",
+        "只看单词的首字母选择 a 或 an；应根据后一个词开头的发音判断。",
+        "把 pencil（铅笔）和 pen（钢笔）混淆。"
+      ]
+    },
+    {
+      "point": "持有表达",
+      "core_concept": "用“I have...”表示“我有……”。说一种物品时，常用“I have a/an + 单数物品名词”。a或an根据后面紧接的单词开头的发音来选：辅音音素开头用a，如a bag；元音音素开头用an，如an egg。",
+      "key_formula": "I have a/an + 单数物品名词. 例如：I have an eraser.（我有一块橡皮。）",
+      "tips": "先确认句子要表达“我有”，再用I have。接着看a/an后面紧接的单词，听它开头的发音：辅音音素用a，元音音素用an。最后检查物品是否为单数。",
+      "common_mistakes": [
+        "表示“我有”时把have误写成has。",
+        "只看单词的首字母、不听开头的发音来选择a或an。",
+        "在单数物品名词前漏掉a或an，或误用复数名词。"
+      ]
+    },
+    {
+      "point": "见面问候",
+      "core_concept": "见面时可以用 Hello! 或 Hi! 问好；介绍自己的名字可以说 I'm + 名字. 或 My name's + 名字.；询问对方姓名可以说 What's your name?；离开时可以说 Goodbye! 或 Bye!。例如：I'm Leo. 表示“我是 Leo”；What's your name? 表示“你叫什么名字？”",
+      "key_formula": "问好：Hello! / Hi!；介绍自己：I'm + 名字. / My name's + 名字.；询问姓名：What's your name?；道别：Goodbye! / Bye!",
+      "tips": "先判断是在见面还是要离开：见面用 Hello 或 Hi，离开用 Goodbye 或 Bye。介绍自己时，在 I'm 或 My name's 后说自己的名字；询问别人姓名时记得说完整的 What's your name?",
+      "common_mistakes": [
+        "把问候语当作自我介绍。Hello 和 Hi 用来问好；介绍自己的名字要用 I'm... 或 My name's...。",
+        "询问姓名时漏掉 your。完整句型是 What's your name?。",
+        "把 Goodbye 或 Bye 用在见面问好时。这两个词通常用于道别。"
+      ]
+    },
+    {
+      "point": "词汇识记",
+      "core_concept": "把常见学习用品的英文词与对应实物和中文意思联系起来，能认读并区分 ruler（尺子）、eraser（橡皮）、pencil（铅笔）、crayon（蜡笔）、bag（书包）、pen（钢笔）和 book（书）。例如，pencil 和 pen 都是书写用品，但分别表示铅笔和钢笔。",
+      "key_formula": "英文词 ↔ 实物或用途 ↔ 中文意思。例如，book 对应“书”，eraser 对应“橡皮”。",
+      "tips": "先看文具实物或想想它的用途，再回忆对应的英文词和中文意思。复习拼写时按字母顺序逐个检查；也可以按书写、擦除、测量、装物品等用途整理词汇。",
+      "common_mistakes": [
+        "把 pen（钢笔）和 pencil（铅笔）混淆；记住它们表示两种不同的书写用品。",
+        "把 ruler（尺子）和 eraser（橡皮）混淆；可分别联系测量和擦除的用途来记忆。",
+        "拼写时漏写或调换字母，例如没有按正确顺序写出 crayon。"
+      ]
+    },
+    {
+      "point": "物品持有表达",
+      "core_concept": "用“I have ...”表示“我有……”。说一种物品时，通常在物品名称前加 a 或 an。a 还是 an，要听后面单词开头的音：辅音音素开头用 a，元音音素开头用 an。例如：“I have a toy.”表示“我有一个玩具”；“I have an apple.”表示“我有一个苹果”。",
+      "key_formula": "表达“我有一种物品”：I have + a/an + 物品名称。",
+      "tips": "先确定句子表达的是“我有”，用 I have 开头；再听物品名称的第一个音，选择 a 或 an；最后检查物品名称前是否有冠词。判断 a 或 an 要依据后面单词开头的音，而不是只看首字母。",
+      "common_mistakes": [
+        "把“I have”写成“I has”；主语 I 后表示“有”时用 have。",
+        "漏掉物品名称前的 a 或 an，例如把“I have a toy.”写成“I have toy.”。",
+        "只看单词的首字母选冠词，忽略开头的发音，例如把“an apple”误写成“a apple”。"
+      ]
+    },
+    {
+      "point": "离别语",
+      "core_concept": "和同学或朋友分开时，可以用 Goodbye! 或 Bye! 表示“再见”。Hello! 和 Hi! 是见面时的问候语，不用来表示道别。例如，离开同学时可以说“Goodbye, Sam!”或“Bye, Sam!”",
+      "key_formula": "道别：Goodbye! / Bye!；见面问候：Hello! / Hi!",
+      "tips": "先看情境：如果刚见面，用Hello或Hi问候；如果要离开，用Goodbye或Bye道别。说话时可以把对方的名字放在后面，如“Goodbye, Amy!”",
+      "common_mistakes": [
+        "把Hello!当作离别语；Hello!通常用于见面问候。",
+        "把Goodbye!当作见面问候；Goodbye!用于道别。",
+        "认为只有Goodbye!能表示道别；Bye!也可以用于道别。"
+      ]
+    },
+    {
+      "point": "自我介绍",
+      "core_concept": "见面时可以用 Hello 或 Hi 问候；介绍自己的名字可以说 I'm + 名字，或 My name's + 名字；询问对方姓名可以说 What's your name?。例如：I'm Amy. / My name's Ben.。",
+      "key_formula": "问候：Hello! / Hi!；介绍自己：I'm + 名字. / My name's + 名字.；询问姓名：What's your name?",
+      "tips": "先想清楚要表达什么：见面问候用 Hello 或 Hi；告诉别人自己的名字用 I'm 或 My name's；询问正在交谈的人的姓名用 What's your name?。听到询问后，要用包含自己名字的句子回答。",
+      "common_mistakes": [
+        "把 I'm 和 My name's 连在一起说，例如 My name's I'm Lily；应选 I'm Lily 或 My name's Lily。",
+        "询问姓名时漏掉 your，或把 What's your name? 的词序弄乱。",
+        "把 Hello 或 Hi 当作姓名回答；它们是问候语，不会告诉别人自己的名字。",
+        "把 Hello 或 Hi 用作告别；告别时可以说 Goodbye 或 Bye。"
+      ]
+    },
+    {
+      "point": "冠词用法",
+      "core_concept": "在本课常见表达中，单数名词前通常用 a 或 an，表示“一个”。选择哪一个，要听后面单词的开头音：开头是元音音素时用 an，开头是辅音音素时用 a。判断时看发音，不只看第一个字母。例如：a desk，an apple。",
+      "key_formula": "常见句型：I have a/an + 单数名词. 例如：I have a desk. / I have an apple.",
+      "tips": "先读一读冠词后面单词的开头音，再选 a 或 an；最后检查名词是不是单数。若开头音是元音音素，用 an；若开头音是辅音音素，用 a。",
+      "common_mistakes": [
+        "只看单词的第一个字母，不听开头音。",
+        "把 a 和 an 用反，例如在元音音素开头的单数名词前用 a。",
+        "忘记 a 或 an 后面通常接单数名词。"
+      ]
     }
   ]
 }

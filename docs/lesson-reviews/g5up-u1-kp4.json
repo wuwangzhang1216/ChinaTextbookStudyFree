@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5up-u1-kp4",
+  "point": "整数乘法运算律推广到小数",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit1.json",
+  "before_source_fingerprint": "13c4dbb06df70b777f2cf0e1119ead05575b6e6ac914cba207891ff99079daed",
+  "after_fingerprint": "e27168fb25e6dd2b2d19d1780e3009213788c823ce78218237a8f655108dfb73",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    26,
+    27
+  ],
+  "revised_question_ids": [
+    4,
+    9,
+    14,
+    22
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "2.5×0.4×1.2可以先算2.5×0.4，比较简便。"
+    },
+    {
+      "source_id": 9,
+      "skill": "reasoning",
+      "question": "计算1.25×8.8时，把8.8分成8×1.1，再先算1.25×8。下面哪个算式表示这种方法？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "0.7×10.1等于："
+    },
+    {
+      "source_id": 22,
+      "skill": "application",
+      "question": "计算：4×0.25×17=？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "利用乘法分配律计算：1.8×4.6+1.8×5.4=____。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "运用乘法交换律和结合律简算：4×6.4×0.25=____。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "f879a1079166aa154a62c2910a065d0327685d6d89c253b07127c72efb3c4784",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题source_id 4、9、14、22，并保留两道新增题的source_id为null；题目总数为6。",
+    "新增题中加入了需要调换因数位置并重新分组的简算题，以补充乘法交换律的应用考查。",
+    "未提供教材原页，未进行逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

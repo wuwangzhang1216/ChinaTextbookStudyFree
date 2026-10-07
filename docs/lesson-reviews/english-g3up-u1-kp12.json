@@ -1,0 +1,72 @@
+{
+  "lesson_id": "english-g3up-u1-kp12",
+  "point": "情景交际",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "58aae9f1ef9cd894f6ee4bceaeecd5db50506d2d3814f37deb5bceab4682758d",
+  "before_question_count": 1,
+  "after_question_count": 6,
+  "added_question_ids": [
+    53,
+    54,
+    55,
+    56,
+    57
+  ],
+  "revised_question_ids": [
+    13
+  ],
+  "coverage": [
+    {
+      "source_id": 13,
+      "skill": "recognition",
+      "question": "想知道对方的姓名，你可以问："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "早上在学校见到一位朋友，你想向他问好，可以说："
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "哪一项把学习用品的中文和英文都正确配对了？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "“How are you?”可以用来询问别人的姓名。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "读对话：A: What's your name? B: ______"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "Complete the sentence: I have ___ eraser.（填 a 或 an）"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "4c95500133a5fe0b4c514b79b5d51b8ea6caf4f6d5e6b5ac5919ad427bafe52c",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题 source_id 13 的题干、选项与答案。",
+    "共6题，包含选择、判断和文字填空，覆盖识记、应用与推理；学习用品题集中检查大纲列出的常见词汇配对。",
+    "输入未提供教材原页，未声称完成教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g5up-u5-kp4",
+  "point": "列方程解决实际问题（ax±b=c类型）",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit5.json",
+  "before_source_fingerprint": "c3d128392fed213b2f225c9e8292e3470b9d04f5ffaeeef99965d2495f076583",
+  "after_fingerprint": "f92a35cefb860fa3fb1adabbcdc6f64045c98f77ebd3623b1e82e51a537923f1",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27,
+    28
+  ],
+  "revised_question_ids": [
+    11,
+    12,
+    18,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 11,
+      "skill": "recognition",
+      "question": "商店运来 8 袋大米，每袋 x 千克，一共是 200 千克。要求每袋多少千克，下列方程正确的是（    ）。"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "一个三角形的底是 10 厘米，面积是 30 平方厘米，高是 x 厘米。下列方程正确的是（    ）。"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "羽毛球每筒 12 个，王老师买了几筒后又买了 3 个散装的，正好 27 个。王老师买了（    ）筒。"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "练习本每本 2 元，小明买了 x 本，付给营业员 50 元，找回 30 元。小明买了 ___ 本。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "学校买了 4 盒彩笔，每盒有 x 支，送给弟弟 7 支后还剩 29 支。每盒有 ___ 支彩笔。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "三盒球每盒有 x 个，另外有 5 个球。拿走 8 个后还剩 27 个。下面哪个方程表示这个情境？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "d9605eb4ded2996f80871c5b589bf5306e8f7c912d125bbe2a83dacf39b43375",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "已保留旧题的source_id，并对选择题选项顺序作了调整；新增题的source_id为null。",
+    "输入未提供教材原页，未进行教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

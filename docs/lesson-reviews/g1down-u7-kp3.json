@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g1down-u7-kp3",
+  "point": "规律的分析与补全",
+  "source": "output/math/quizzes/义务教育教科书·数学一年级下册_unit7.json",
+  "before_source_fingerprint": "fc3685f6ccc9a27ae0ae6ad7bb793781b91bdc897ccb4f79bba26ef854145540",
+  "after_fingerprint": "daaf1993eab1b0c234868a0d09aa542a2e15188615290629ebc8cd0bc57b0652",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    4,
+    11,
+    14,
+    17,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "一串珠子按“白、白、黑”重复排列。中间一组中的黑珠掉了，剩下的珠子仍能从头到尾按“白、白、黑”重复排列。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "●表示黑珠，○表示白珠。手链上的珠子按“黑、白”重复排列，空格里应补什么？\n●○●○（ ）（ ）●○"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "一个百数表有10列，第一行从1排到10，之后每行接着往下排。35正下方的数是："
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "○表示白珠，●表示黑珠。小红的珠子按“1颗白珠、2颗黑珠”重复排列：○●●○●●○●●。她接着加3颗珠子，最后加的一颗是什么颜色？"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "小明按每组3颗红珠、接着2颗绿珠的顺序重复穿珠子。穿完2组，一共用了___颗珠子。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一列数从2开始，每次先加2，再减1，重复这样的做法：2、4、3、5、4、6、（ ）。括号里填几？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "4af51a3b8d3a3b3cb02449322d5f4e9d8df11dda1ab25ba7ab0f4048e1d5ede7",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题source_id；修正了第4题关于删去黑珠后排列不符合规律的解释，并将第17题选项统一为珠子颜色或明确的回答。",
+    "未提供教材原页，未作教材逐字核对或教师签审声明。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

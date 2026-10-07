@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3up-u4-kp3",
+  "point": "解决问题策略的选择",
+  "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit4.json",
+  "before_source_fingerprint": "af5cab3ce44bd694d6b837cb05cfb5fda85dbad56ec4683b08f9f8210bcc41e3",
+  "after_fingerprint": "705868a81da764874e989f55ae26f3ff6aa236a7ed23fb9336773aaa0df42b03",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    5,
+    8,
+    17
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "在解决“妈妈带了800元买两件商品够不够”的问题时，通常可以先用估算判断；估算不能确定时再精确计算。"
+    },
+    {
+      "source_id": 8,
+      "skill": "application",
+      "question": "李阿姨买了一件298元的上衣和一条196元的裤子，大约需要准备（    ）元。"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "超市里，电风扇245元，电饭煲187元。妈妈带400元买这两样东西，（    ）。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "学校清点两箱纸，一箱有158张，另一箱有276张。老师要知道准确共有多少张，应选哪种方法？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "运动会上午卖出368张票，下午卖出257张票。全天一共卖出多少张票？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "两种物品分别要487元和526元，带1000元购买。估算时两种价格都约看成500元，估算结果约为1000元。要可靠地判断钱够不够，应选哪种做法？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "dbee0e50ddc662eb6f5b45597a428e16cbd8c7a8707c40c59a7dc9af9a859565",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了旧题source_id 5、8、17；修正了source_id 5讲解中与题干无关的计算，并补全了“估算不能确定时再精确计算”的条件。",
+    "修正了source_id 17选项顺序和解析表述，使用准确总价与400元比较说明结论。",
+    "输入未提供教材原页，未声称完成教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

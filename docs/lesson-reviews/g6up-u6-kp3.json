@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g6up-u6-kp3",
+  "point": "生活中的百分数（利率/折扣）",
+  "source": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit6.json",
+  "before_source_fingerprint": "667e1c9161aedf604ee5f14e4faee4f598182f8841992e14ad77090195f2f82d",
+  "after_fingerprint": "9c4864e86411f27f5d6b3353475aaf1cf444dc5345a3d7fa8ccd45a8b3b23dae",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    5,
+    9,
+    13
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "reasoning",
+      "question": "在存款利息计算中，本金越多，利息一定越多。"
+    },
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "一件商品原价100元，活动规定满100元减20元。购买这件商品后，实付80元，相当于打几折？"
+    },
+    {
+      "source_id": 13,
+      "skill": "application",
+      "question": "一辆摩托车的计税金额是10000元，按10%的税率缴纳消费税，应缴税多少元？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "一件商品打六折，表示什么？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "按单利计算，存入本金5000元，年利率为2%，存3年，到期利息是____元。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一件商品原价240元，打七折出售，现价是____元。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "03c56b885aa80d2d6a441cc843498b700a4098544288bb10df6100d264a265fe",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题的source_id。旧题9补充了商品原价恰好为100元的条件，避免把满减活动笼统地视为固定折扣。",
+    "旧题5保留判断方向，并在解析中说明利息还取决于利率和存期；旧题13明确了计税金额。",
+    "依据项目大纲及旧题整理，未提供教材原页，未进行原教材逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

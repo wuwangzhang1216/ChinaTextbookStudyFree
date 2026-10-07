@@ -1,0 +1,73 @@
+{
+  "lesson_id": "english-g3up-u1-kp8",
+  "point": "自我介绍",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "7cba85b953791471517df91ecdf272628bd834e3f707218f82c5c281c1966ed6",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    37,
+    38,
+    39,
+    40
+  ],
+  "revised_question_ids": [
+    6,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 6,
+      "skill": "application",
+      "question": "— Hello, I'm Mike.\n— _______"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "Hi, I ___ Wu Binbin."
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "哪一句用来询问对方的姓名？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "小红正在直接询问你的名字。补全句子：What's ___ name?"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "A 问：“What's your name?” B 回答：“Hello!” A 说：“我已经知道 B 的名字了。”这句话判断对还是错？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "先询问姓名，再回答姓名。哪组对话符合顺序和意思？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "8e6b4b9db925fc75e6f71c9b1c4b872d3617ad1effdc522cb166f35d7c6d26ea",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题 source_id 6 和 19；其余为新增题，source_id 为 null。本课共 6 题。",
+    "将询问姓名的填空题明确为直接询问正在交谈的人，限定答案为 your。",
+    "练习包含选择、文字填空和判断题，覆盖识记、应用与推理。",
+    "本次依据所提供的大纲和旧题整理；未提供教材原页，因此未进行教材逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

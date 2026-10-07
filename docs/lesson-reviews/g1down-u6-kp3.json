@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g1down-u6-kp3",
+  "point": "含小括号的混合运算",
+  "source": "output/math/quizzes/义务教育教科书·数学一年级下册_unit6.json",
+  "before_source_fingerprint": "f7d97a5dd8db4c28b649cec81eded897119e9bfc05810d8ec199b07dcc680c71",
+  "after_fingerprint": "eab637d450e2b23ad636e245d01579f3a4671768156e4c3bb8e3459bcdc78c85",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    4,
+    5,
+    10,
+    15,
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "算式 $10 - (2 + 3)$ 应先算加法。"
+    },
+    {
+      "source_id": 5,
+      "skill": "reasoning",
+      "question": "$15 - 5 - 2$ 与 $15 - (5 - 2)$ 的计算结果相同。"
+    },
+    {
+      "source_id": 10,
+      "skill": "recognition",
+      "question": "计算 $12 - (3 + 4)$，第一步算什么？"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "算式 $34 - (10 + 4)$ 的结果是多少？"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "图书角有 20 本书，上午借出 5 本，下午借出 2 本。还剩多少本？列式正确的是："
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小雨有18张贴纸，送给妹妹4张，又送给弟弟3张。下面哪道算式表示还剩多少张？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "0b0d3e56580a122e827a997dea7716ec838633c1799e72c249681c90286ac91c",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "按所给大纲和旧题整理，保留全部旧题 source_id；新增题的 source_id 为 null。",
+    "未提供教材原页，因此未进行教材逐字核对，也不表示已经教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

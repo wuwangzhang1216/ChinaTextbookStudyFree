@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g6down-u3-kp2",
+  "point": "圆柱的表面积",
+  "source": "output/math/quizzes/义务教育教科书·数学六年级下册_unit3.json",
+  "before_source_fingerprint": "f60677753aa64704f390d0250bda8098675ad40344deaab4d119cd008c403b7f",
+  "after_fingerprint": "ee39f7fa8fe18a6cfbc5085f81453600ac3c34a48ff6f80a3701183aeec040cc",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25
+  ],
+  "revised_question_ids": [
+    4,
+    7,
+    11,
+    15,
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "reasoning",
+      "question": "圆柱的底面直径扩大到原来的2倍，底面积就扩大到原来的4倍。"
+    },
+    {
+      "source_id": 7,
+      "skill": "recognition",
+      "question": "压路机的前轮转动一周，压过的路面面积是指前轮的什么？"
+    },
+    {
+      "source_id": 11,
+      "skill": "recognition",
+      "question": "做一个无盖的圆柱形水桶，需要铁皮的面积是求这个圆柱的哪些部分？"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "底面直径和高均是10厘米的圆柱，其侧面积是多少平方厘米？（取PI为3.14）"
+    },
+    {
+      "source_id": 16,
+      "skill": "recognition",
+      "question": "计算一根圆柱形通风管需要多少铁皮，是求它的哪个部分？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一个圆柱形器皿有盖，底面半径是3厘米，高是5厘米。取π＝3.14，它的表面积是____平方厘米。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "7dbf4e567011c598ba03991c0e719d255b5433389c72f9dfbda8123e6f9bd1c2",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了旧题的全部 source_id 和课题标签；修订了旧题中不必要的验算说明，并补充计算依据。",
+    "新增一道计算题以达到6题；未依据教材原页进行逐字核对，也未声称完成教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

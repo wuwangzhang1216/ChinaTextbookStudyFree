@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5up-u1-kp3",
+  "point": "积的近似数与四舍五入",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit1.json",
+  "before_source_fingerprint": "13c4dbb06df70b777f2cf0e1119ead05575b6e6ac914cba207891ff99079daed",
+  "after_fingerprint": "107ae5950cc3456dcc8ef89811d9b14eec48d97f5e408d0d82181aee54cb0f88",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    15,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "reasoning",
+      "question": "一个两位小数取近似数保留一位小数是5.0，这个数最大是5.04。"
+    },
+    {
+      "source_id": 8,
+      "skill": "application",
+      "question": "3.995保留两位小数约等于："
+    },
+    {
+      "source_id": 15,
+      "skill": "reasoning",
+      "question": "一个三位小数四舍五入到百分位约是1.20，这个三位小数最小是多少？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "把2.5×4.2的积保留整数，约是___。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把1.6×2.3的积保留一位小数，约是___。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "下面哪句话正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "81ef0e728e3b66f2d4a6dc0fed71e8e251887dc0a155a9ea4b5ad4542b1fb03a",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留全部旧题source_id：3、8、15、21。旧题21的原题干与讲解前后矛盾，已改为独立且条件完整的近似数题。",
+    "共6题，含判断、选择、填空三种题型，并覆盖识记、应用和推理。",
+    "依据所给项目大纲与旧题进行整理；未提供教材原页，因此不声称完成教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

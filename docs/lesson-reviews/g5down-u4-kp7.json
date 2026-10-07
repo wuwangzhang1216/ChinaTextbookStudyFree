@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g5down-u4-kp7",
+  "point": "分数和小数的互化",
+  "source": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+  "before_source_fingerprint": "779f3ffa539ffa24c1b556a77f1130b0b4c367395030d089fbe12b26f3f81dcd",
+  "after_fingerprint": "6b58d45730a7bbe4e500a471aa0dc82dd46d480a7049dd8ebd8a861d243beefe",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    39,
+    40,
+    41,
+    42
+  ],
+  "revised_question_ids": [
+    12,
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "把 0.45 化成最简分数是："
+    },
+    {
+      "source_id": 18,
+      "skill": "reasoning",
+      "question": "下列各数中，数值最大的是："
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "0.08等于8/10。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把 0.36 化成最简分数：____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把 3/8、0.4、0.42 从小到大排列，正确的是："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把 7/20 化成小数：____。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "8d0ab94e9751747b2bae622e93ab41b60e88d2698ddc914afad333bc8a73781b",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留旧题source_id 12和18；新增题的source_id为null。",
+    "依据提供的大纲与旧题整理，未进行教材原页逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

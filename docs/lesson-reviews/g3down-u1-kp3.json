@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3down-u1-kp3",
+  "point": "认识东北、东南、西北、西南",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit1.json",
+  "before_source_fingerprint": "ac1a1657f7f0c4176d1fe478d3ad024b82c63bde2ab039b10b438ae97780681a",
+  "after_fingerprint": "9eafa3e450ea197a33c8084c7d2263f56991a1a8ae4c8beb8fe107c55d9751f4",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    26
+  ],
+  "revised_question_ids": [
+    4,
+    5,
+    10,
+    16,
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "reasoning",
+      "question": "西北方向和东南方向是相对的。"
+    },
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "东和北之间的方向是东南。"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "小明家在学校的东北方向，那么学校在小明家的哪个方向？"
+    },
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "一幅地图规定上北下南、左西右东。公园在学校的左上方，公园在学校的哪个方向？"
+    },
+    {
+      "source_id": 18,
+      "skill": "reasoning",
+      "question": "从学校向北走到路口，再从路口向东走到图书馆。图书馆在学校的哪个方向？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "从“东北、东南、西北、西南”中选一个词填空：南和西之间的方向是____。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "cba38085c974cee0fa0843e9573cb987522381ad458ce56f7facaf06f4a07840",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留全部旧题source_id：4、5、10、16、18。将第5题改为易混方向辨析题，并将答案改为“错”；第16题改为条件明确的地图方位题；第18题改为完整的路线判断题。",
+    "新增1题，source_id为null；题目总数为6，符合target_questions。",
+    "未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

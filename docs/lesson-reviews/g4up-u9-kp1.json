@@ -1,0 +1,107 @@
+{
+  "lesson_id": "g4up-u9-kp1",
+  "point": "数与代数综合复习",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit9.json",
+  "before_source_fingerprint": "10c0272b3ed7a6a617e4e2f8d6005de96ed12c7fa4733510b156eb0c2b601ede",
+  "after_fingerprint": "051d68c7b63206085dfd862e4d119b8923cf352c0e06ed7f8f20bf6357293556",
+  "before_question_count": 12,
+  "after_question_count": 12,
+  "added_question_ids": [],
+  "revised_question_ids": [
+    2,
+    3,
+    6,
+    7,
+    8,
+    9,
+    14,
+    17,
+    19,
+    20,
+    22,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "计数单位就是数位。"
+    },
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "省略万位后面的尾数求近似数，要看千位上的数字。"
+    },
+    {
+      "source_id": 6,
+      "skill": "recognition",
+      "question": "一个八位数，它的最高位是（ ）。"
+    },
+    {
+      "source_id": 7,
+      "skill": "application",
+      "question": "在数字 5 和 2 之间添（ ）个 0，这个数就变成了五百万零二。"
+    },
+    {
+      "source_id": 8,
+      "skill": "application",
+      "question": "350 × 80 的积之末尾有（ ）个 0。"
+    },
+    {
+      "source_id": 9,
+      "skill": "reasoning",
+      "question": "两数相商，除数不变，被除数乘 10，商（ ）。"
+    },
+    {
+      "source_id": 14,
+      "skill": "reasoning",
+      "question": "在 582 ÷ □2 中，如果商是一位数，□ 里最小填（ ）。"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "一个公顷大约相当于（ ）个边长 100 米的正方形场地。"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "1 平方千米 = ___ 公顷。"
+    },
+    {
+      "source_id": 20,
+      "skill": "reasoning",
+      "question": "一个五位数，省略万位后面的尾数约是 6 万，这个数最大是 ___。"
+    },
+    {
+      "source_id": 22,
+      "skill": "application",
+      "question": "计算：120 × 40 = ?"
+    },
+    {
+      "source_id": 23,
+      "skill": "application",
+      "question": "计算：672 ÷ 21 = ?"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "ddde1d08cd50bd5c3351eb183dd0d5142015dff1d034546e19d2cd9bb86ce62e",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留全部12道旧题的source_id，题量为12；修正第20题解析中的取值范围为55000至64999。",
+    "依据所给项目大纲与旧题编写和修订；未提供教材原页，未作教材逐字核对或教师签审。",
+    "未从旧exam题库复制题目。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

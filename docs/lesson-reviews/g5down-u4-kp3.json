@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5down-u4-kp3",
+  "point": "真分数、假分数与带分数",
+  "source": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+  "before_source_fingerprint": "779f3ffa539ffa24c1b556a77f1130b0b4c367395030d089fbe12b26f3f81dcd",
+  "after_fingerprint": "422beaff4c4ea38b0551239968a1514373d47c9bcf26a04403b2636d3bb5699e",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    28,
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    2,
+    8,
+    15
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "假分数都大于 1。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "下列分数中，属于真分数的是："
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "a是自然数。在分数 a/7 中，要使它是一个真分数，a最大是："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把 14/5 化成带分数，结果是："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把 12/4 化成整数：____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "n是自然数。若 n/5 是假分数且小于3，n最大可以是："
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "b07c33b7aa308017d6ac71e4a036761597c5b8b117810e8a7d06426c2802b680",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了输入中的旧题 source_id 2、8、15；第15题补充了a是自然数这一条件，使最大值有明确范围。",
+    "新增3题，source_id均为null；补充了假分数化成整数的练习，并覆盖识记、应用和推理。",
+    "仅依据所提供的大纲与旧题修订；未提供教材原页，未声称完成教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

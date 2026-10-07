@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2up-u4-kp1",
+  "point": "乘法的初步认识",
+  "source": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit4.json",
+  "before_source_fingerprint": "c6cbe81310c848e306ab9f4cd076a149e8c289eb087946bf51a2d2b4c01a76a5",
+  "after_fingerprint": "eb8c8b48e440d9906f6698ca1b5c9dce6511724a5a8ea8a9efbb5f5f242c5860",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    1,
+    3,
+    6
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "$4 + 4 + 4$ 改写成乘法算式是 $4 \\times 3$。"
+    },
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "在乘法算式 $3 \\times 6 = 18$ 中，18 叫做和。"
+    },
+    {
+      "source_id": 6,
+      "skill": "recognition",
+      "question": "加法算式 $3+3+3+3$ 表示几个几相加？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把 $7+7+7$ 写成“$7\\times\\square$”，方框里填几？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "下面哪一个加法算式的每个加数都相同？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "每份装2支铅笔，装了5份。一共装了多少支铅笔？只填一个数字。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "ff3cd32113292b7a8d82a9f8fa47b79fa522eac012e49a723a81d6cdfdf13176",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了旧题source_id 1和3的题干与判断结论，并补充了完整解析。",
+    "旧题source_id 6的原题把3+3+3+3+3判为不正确的表示，但它与求3个5的总数相等，只是分组说法不同，原题存在歧义；已改为考查相同加数与个数的独立题。",
+    "输入未提供教材原页，因此未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

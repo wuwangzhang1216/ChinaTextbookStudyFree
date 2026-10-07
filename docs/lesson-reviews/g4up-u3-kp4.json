@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g4up-u3-kp4",
+  "point": "角的角度计算",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit3.json",
+  "before_source_fingerprint": "8ddbaf824b8e19c1b47b484907d1f4339fe649d401d1812fe4a5a5ef06a9eced",
+  "after_fingerprint": "ea5d4490ed432b33a66eb6787c42520ee33fe8993de09b52db9a68fbd92ae8cf",
+  "before_question_count": 1,
+  "after_question_count": 6,
+  "added_question_ids": [
+    26,
+    27,
+    28,
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "已知 ∠1 + ∠2 = 180°，若 ∠1 = 50°，则 ∠2 是多少度？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "两个相邻角拼成一个平角，它们的度数和是180°。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一个直角平均分成两个相等的角，每个角是多少度？只填数字。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "两个角的度数和是100°，大角比小角多28°。小角是多少度？只填数字。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "三个相邻角合起来组成一个较大的角，它们分别是42°、58°和37°。这个较大的角是多少度？只填数字。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "已知∠A＋∠B＝180°。只根据这个条件，能确定什么？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "d4ae859d1420ea969049ba8d1be13cd33cd53f38d24941643356c0f4f41668d5",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留旧题source_id 18；其余5题为新增题，source_id为null。",
+    "已增加角度事实识记题，并调整题目模型，避免集中重复用整体减去已知部分求未知角。",
+    "仅依据输入提供的项目大纲与旧题整理和修订，未进行教材原页逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

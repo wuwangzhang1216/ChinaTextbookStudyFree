@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g3down-u2-kp2",
+  "point": "除法估算",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit2.json",
+  "before_source_fingerprint": "a4e358453414014298cfa8a150b0bf5d94f4d56a6b2e30b769dd876a1a854872",
+  "after_fingerprint": "dec394c44ae61744b8cb65c32738a608aba0851748d9d5e926ded2cefb971bc4",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25,
+    26,
+    27,
+    28
+  ],
+  "revised_question_ids": [
+    8,
+    14
+  ],
+  "coverage": [
+    {
+      "source_id": 8,
+      "skill": "application",
+      "question": "小红4分钟做了118道题，她每分钟大约做多少道？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "298÷6的商大约是多少？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "估算241÷8时，哪种估法既接近241又方便口算？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "估算782÷8时，把782看成800，商大约是____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "估算463÷7时，下面哪种估法最合适？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "学校把183本练习册平均分给6个班，每个班大约分到____本。（把183看成180估算）"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "6db9d79fe2ff33a15b3ae607d493cacc0cb074ffff8af415c06d1e40adaba4f7",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题source_id 8和14。旧题14中的乘法符号与选项及原解析所表达的估算不相符，已改为完整的除法估算题；旧题8保留题干并修正了解析。",
+    "仅依据提供的大纲和旧题进行修订，未声称核对教材原页或完成教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

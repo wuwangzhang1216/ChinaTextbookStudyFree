@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g1down-u8-kp3",
+  "point": "复杂情境下的综合应用题解决",
+  "source": "output/math/quizzes/义务教育教科书·数学一年级下册_unit8.json",
+  "before_source_fingerprint": "a083d9cbf1c0da4190c7b8e3dd58cc6d6a1cb6e59fbd769650ee3ab7b7327d08",
+  "after_fingerprint": "57ec3bcbd256f7551862a70910f7ed1cf49d813b16f6f0e86a15449790cc3bf8",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    12,
+    13,
+    17,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "小明买了一本 7 元的书，付给营业员一张 10 元，应找回："
+    },
+    {
+      "source_id": 13,
+      "skill": "reasoning",
+      "question": "车上原有 20 人，下去 5 人，又上来 7 人。现在车上的人数和原来相比："
+    },
+    {
+      "source_id": 17,
+      "skill": "reasoning",
+      "question": "小红有 15 个气球，小明有 9 个气球。小红给小明几个，两人的气球就一样多？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "树上有 32 只小鸟，飞走了一些，还剩 20 只，飞走了 ___ 只。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "书架上原有 18 本书，拿走 6 本，又放回 3 本。要算现在有多少本，下面哪道算式合适？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "水果店原有 35 个苹果，上午卖出 8 个，下午又卖出 6 个。水果店现在有 ___ 个苹果。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "175ae38a004a9611d02ad2085462525b4f3622a92c1744d95de38a1ddacf0a30",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题 source_id 12、13、17、21；修订第17题解析，用加减法逐步验证答案，避免依赖平均分或除法。",
+    "新增两题，source_id 为 null；本课共6题，包含选择题和填空题，覆盖识记、应用与推理。",
+    "依据输入的大纲和旧题进行编辑；未提供教材原页，未作逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

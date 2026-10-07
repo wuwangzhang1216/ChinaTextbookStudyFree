@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2up-u2-kp4",
+  "point": "含小括号的加减混合运算",
+  "source": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit2.json",
+  "before_source_fingerprint": "36c8aba925792fd0c52e875a7e67933390bafee4290edd3e323e92084a102d2b",
+  "after_fingerprint": "da65e545865931e8176c637a2abdcdff8d68b434290b977e042a0588b88dd5b0",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    26,
+    27,
+    28,
+    29
+  ],
+  "revised_question_ids": [
+    3,
+    11
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "application",
+      "question": "算式 $80 - (20 + 30)$ 的计算结果是 30。"
+    },
+    {
+      "source_id": 11,
+      "skill": "recognition",
+      "question": "结果与 $85 - (20 + 30)$ 相等的算式是（ ）。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "计算：74 - (18 + 26) = ____"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "计算 $59 - (12 + 17)$ 时，第一步应该算什么？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "盒子里有63张卡片，先拿出14张，又拿出19张。盒子里还剩____张卡片。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "计算 $73 - (22 - 15)$。小明把它写成 $73 - 22 - 15$。原算式的正确结果是多少？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "295745559d02a91bc50a7c51148b9428b6ca4ae8da1882d0759a484602a70bb7",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了旧题 source_id 3 和 11；旧题答案经重新计算核对。",
+    "补充了计算、选择和生活情境题，使练习包含识记、应用、推理，并覆盖多种题型。",
+    "仅依据输入的大纲与旧题编辑，未提供教材原页；未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

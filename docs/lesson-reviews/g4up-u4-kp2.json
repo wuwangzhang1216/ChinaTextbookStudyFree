@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g4up-u4-kp2",
+  "point": "积的变化规律",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit4.json",
+  "before_source_fingerprint": "8ce76a2622221c5560d8856478e93a6de399e2cc1d80af63f1145cf4f9e9eb4f",
+  "after_fingerprint": "2c5175e3298673b54c3cd9d3f0e5d2ec267dc25a527c70172181ec1ca0f38028",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    2,
+    9,
+    13,
+    16,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "reasoning",
+      "question": "在 4 × 3 = 12 中，4不变，把3增加5，积也增加5。"
+    },
+    {
+      "source_id": 9,
+      "skill": "reasoning",
+      "question": "两个因数分别是10和12，积是120。把12除以3，把10乘3，新的积是多少？"
+    },
+    {
+      "source_id": 13,
+      "skill": "recognition",
+      "question": "在乘法算式中，一个因数不变，另一个因数扩大到原来的10倍，积会怎样变化？"
+    },
+    {
+      "source_id": 16,
+      "skill": "reasoning",
+      "question": "已知 100 × 6 = 600，求 (100 × 2) × (6 ÷ 3) 的积。"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "已知 12 × 6 = 72，若把12乘10，6不变，则积变为 ___。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "已知 36 × 14 = 504。把36除以6，14不变，新积是 ___。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "44ab2cb3b6e34739a0eb4f3eab53bc34c45592b08db5a654590114c8f49a3cf0",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据提供的项目大纲与旧题整理，未进行教材原页逐字核对，也未进行教师签审。",
+    "保留了全部旧题 source_id。将 source_id 为 2 的题改为辨析“增加5”与“乘5”；将 source_id 为 16 的题改为具体数值，避免使用字母表示因数。",
+    "本课共6题，包含判断、选择、填空和计算题，覆盖识记、应用与推理。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

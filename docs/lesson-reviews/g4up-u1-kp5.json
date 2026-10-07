@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g4up-u1-kp5",
+  "point": "进位制与计算工具的认识",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit1.json",
+  "before_source_fingerprint": "06a90e7a478eb0cefda382cbdc76bbd31efaf93965522d604c4709bebf06c0fa",
+  "after_fingerprint": "73414cbee498ffdb522fdcf80f15c21d5944d5d7ab2b7fddca23cfd380c0df49",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    5,
+    10,
+    22,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "在算盘上，一个上珠表示1，一个下珠也表示1。"
+    },
+    {
+      "source_id": 10,
+      "skill": "recognition",
+      "question": "在常见的、标有 ON 和 OFF 按键的计算器上，开机键通常标为（ ）。"
+    },
+    {
+      "source_id": 22,
+      "skill": "application",
+      "question": "使用计算器计算：25000 + 45000 = ____"
+    },
+    {
+      "source_id": 23,
+      "skill": "application",
+      "question": "使用计算器计算：120 × 40 = ____"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "要记录一堆较多的石子，甲每数到10颗就放成一堆，最后有3堆和4颗散石；乙只记录了3堆，没有记录散石数。谁的记录能确定石子的总数？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "十进制中，10个百可以合成几个千？____"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "17d3cdc80335004f29c0f73d1bfb7c2861d648e4005880e59178605b39720b1c",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据输入的大纲与旧题进行编辑；未进行教材原页逐字核对，也未声称经过教师签审。",
+    "保留了全部旧题 source_id；将新增的计数情境题改为需要根据分组记录和剩余石子数判断能否确定总数。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

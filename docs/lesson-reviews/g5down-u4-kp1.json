@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g5down-u4-kp1",
+  "point": "分数的产生、意义与单位“1”",
+  "source": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+  "before_source_fingerprint": "779f3ffa539ffa24c1b556a77f1130b0b4c367395030d089fbe12b26f3f81dcd",
+  "after_fingerprint": "f59b9698ef667d2dadf1c50ed096fc9d989ddc3055429bd85103b8ef572a42e0",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    1,
+    6,
+    14,
+    17,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "把一个饼分成 4 份，其中的 1 份就是四分之一。"
+    },
+    {
+      "source_id": 6,
+      "skill": "application",
+      "question": "把 3 米长的绳子平均分成 5 段，每段绳子是全长的："
+    },
+    {
+      "source_id": 14,
+      "skill": "recognition",
+      "question": "一个分数的分数单位是 1/8，它有 5 个这样的单位，这个分数是："
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "把 1 块糖平均分给 4 个小朋友，每个小朋友分得这块糖的："
+    },
+    {
+      "source_id": 23,
+      "skill": "reasoning",
+      "question": "一个分数的分子是最小的质数，分母是最小的合数，这个分数的分数单位是 1/4，它有几个这样的单位？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "图书角原有20本书，借走5本。若研究借走的书占原有图书的几分之几，单位“1”是："
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "58a7895814f8859bdb72beb353967f259655a400fae5f95e4b572e3eeb3f719f",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "按要求保留了全部旧题 source_id：1、6、14、17、23；新增题的 source_id 为 null。题数为6。",
+    "依据所给项目大纲与旧题进行审校；未提供教材原页，未作教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

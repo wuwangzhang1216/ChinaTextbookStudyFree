@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g5up-u5-kp2",
+  "point": "方程的意义与等式的性质",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit5.json",
+  "before_source_fingerprint": "c3d128392fed213b2f225c9e8292e3470b9d04f5ffaeeef99965d2495f076583",
+  "after_fingerprint": "6a0cef4ab1572adc67085492acb174de2600fe9d344eefc06e7a69abe7cc5aa3",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    2,
+    3,
+    8
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "$x + 5$ 是一个方程。"
+    },
+    {
+      "source_id": 3,
+      "skill": "application",
+      "question": "如果 $a = b$，那么 $a - c = b - c$。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "下面式子里，哪个是方程？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "等式 $31=31$ 的两边同时减去8，右边得到____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "已知 $m=n$，下面哪个式子一定成立？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "等式两边同时乘以0，得到的两个结果仍相等。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "bbbaa375682ac871b7bce6b08b4858e336bc89f29efb4c36739951fad8a696d4",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了旧题的全部source_id：2、3、8；另增3题，source_id为null，总题数为6。",
+    "本课按所给大纲和旧题信息补充整理；未提供教材原页，未作原教材逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

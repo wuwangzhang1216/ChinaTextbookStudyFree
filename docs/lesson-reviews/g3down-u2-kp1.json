@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3down-u2-kp1",
+  "point": "口算除法",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit2.json",
+  "before_source_fingerprint": "a4e358453414014298cfa8a150b0bf5d94f4d56a6b2e30b769dd876a1a854872",
+  "after_fingerprint": "42f939cb09dfdab20094dac79da7c3babfe964dd2191e478cbbf40543879211a",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    1,
+    6,
+    12,
+    17,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "640÷8=8。"
+    },
+    {
+      "source_id": 6,
+      "skill": "application",
+      "question": "一个影院有 240 个座位，每排有 8 个座位，一共有多少排？"
+    },
+    {
+      "source_id": 12,
+      "skill": "reasoning",
+      "question": "下面算式中，商正确的是："
+    },
+    {
+      "source_id": 17,
+      "skill": "recognition",
+      "question": "400 里包含多少个 8？"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "学校买来 180 本新书，平均分给 9 个班，每个班分 ___ 本。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "直接口算：64÷2=___。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "a4e731ec9dd284c0700c548b7beb890ac6cebee468c330f7f53d61e77f2ab298",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题；保留全部旧题source_id。旧题1和12作了修订，其余旧题在核对算式与解释后保留。",
+    "补充的两位数拆分方法限定在整十部分和个位部分都能被除数整除的情形。",
+    "依据所给项目大纲与旧题整理；未提供教材原页，不作原教材逐字核对或教师签审声明。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

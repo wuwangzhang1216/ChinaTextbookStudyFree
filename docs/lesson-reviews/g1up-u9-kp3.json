@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g1up-u9-kp3",
+  "point": "多步实际问题的解决",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit9.json",
+  "before_source_fingerprint": "4e20454a98c9a29d0fbf1a7b0809dfb8b7e34f3c1f7800a1567585ebbf240b26",
+  "after_fingerprint": "534b9e5725b93c6a0c53dc6cd565d42315a6d609377d72ba50ab214ec126e1af",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    4,
+    11,
+    17,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "小明前面有 3 人，后面有 4 人，这一排一共有 7 人。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "操场上有 8 个小朋友在玩，又来了 4 个，走了 2 个。现在有多少个？"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "小红要做 14 朵红花和 3 朵黄花，已经做了 4 朵红花，黄花还没做。她还要做多少朵花？"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "树上原来有 7 只鸟，飞走了 2 只，又飞来了 5 只。树上现在有 ___ 只鸟。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "停车处有 7 辆自行车，摩托车比自行车少 3 辆。后来又开来 2 辆摩托车。现在有多少辆摩托车？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "盒子里原有一些积木，拿走 5 块，又放进 3 块，现在有 12 块。盒子里原来有多少块积木？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "e5a861f1b08fec7ddb5e3ed3ca1e366f0332443a4c47459a361177977d642b02",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据所给项目大纲和旧题整理；未提供教材原页，因此未进行原教材逐字核对，也未进行教师签审。",
+    "保留全部旧题 source_id，共6题；source_id 为17的题目改为两步问题，另新增2题。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

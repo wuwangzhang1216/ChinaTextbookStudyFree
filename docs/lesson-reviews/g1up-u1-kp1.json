@@ -1,0 +1,107 @@
+{
+  "lesson_id": "g1up-u1-kp1",
+  "point": "1~10各数的数数与认读",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit1.json",
+  "before_source_fingerprint": "d5925a1e96b044d2437c7ff9549d23b922668175746d28cecffbd7af59d5bc24",
+  "after_fingerprint": "16021161d73d23fe1272feb2bbb9e6176b4f58cf86088985c545258621e084bc",
+  "before_question_count": 12,
+  "after_question_count": 12,
+  "added_question_ids": [],
+  "revised_question_ids": [
+    1,
+    3,
+    6,
+    8,
+    9,
+    11,
+    14,
+    15,
+    19,
+    20,
+    22,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "reasoning",
+      "question": "一排有5个物体，只数到第4个，就能说这排物体一共有4个。"
+    },
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "从小到大数，10在9的后面。"
+    },
+    {
+      "source_id": 6,
+      "skill": "recognition",
+      "question": "一只手有几个手指头？"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "按从小到大的顺序数，6前面的一个数是几？"
+    },
+    {
+      "source_id": 9,
+      "skill": "recognition",
+      "question": "下面哪个数比8大？"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "桌上有3支铅笔，盒子里还有2支铅笔。一共有几支铅笔？"
+    },
+    {
+      "source_id": 14,
+      "skill": "reasoning",
+      "question": "从10开始倒着数，第3个数是几？"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "盘子里有2颗红珠、3颗蓝珠和1颗黄珠。盘子里一共有几颗珠子？"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "小明家只有爸爸、妈妈和小明。小明家一共有___口人。"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "桌上有4个苹果和2个梨，一共有___个水果。"
+    },
+    {
+      "source_id": 22,
+      "skill": "recognition",
+      "question": "从6开始往后数一个数，是___。"
+    },
+    {
+      "source_id": 23,
+      "skill": "recognition",
+      "question": "从9开始倒着数一个数，是___。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "67047501ac871b6ea167df2c77beef42162b415007af3b23131b3ff74ceb76de",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部12道旧题的source_id，并将题数控制为12题；第19题补明家中只有题目所列三人。",
+    "将倒数题明确为从10开始，并把原加减计算题改为考查1到10数序的题目；判断题中加入了需要辨别漏数问题的陈述。",
+    "本次依据所提供的项目大纲和旧题编辑，未提供教材原页，因此不声称完成教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

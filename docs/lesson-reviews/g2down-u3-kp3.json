@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g2down-u3-kp3",
+  "point": "旋转现象的辨析",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit3.json",
+  "before_source_fingerprint": "0ad1adf68dbe0e5599e67d862bc84f6fed5aaed952d2462c2add3e599d776031",
+  "after_fingerprint": "2501337c447992cee299fdd233df87575f1ed7ca32c6e743c114b79a8c6259f8",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    12,
+    15,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "钟面上分针从数字12走到数字6是旋转现象。"
+    },
+    {
+      "source_id": 8,
+      "skill": "application",
+      "question": "开门时，门锁把手的转动属于什么运动？"
+    },
+    {
+      "source_id": 12,
+      "skill": "recognition",
+      "question": "下列运动中，属于旋转的是？"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "一枚螺丝钉暂时不向前移动，只绕自身的轴转动。它做的是什么运动？"
+    },
+    {
+      "source_id": 23,
+      "skill": "reasoning",
+      "question": "圆形纸片的中心固定不动，纸片转动后，纸片上的箭头指向也改变了。根据这些条件，纸片做的是什么运动？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一块长方形木片不转动，沿直线从桌面左边移到右边，这个运动是旋转。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "a3ab61e9cb824f1e54a002138ba0db1f728a08fc5ee18698a8c1626c86a3d2b5",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共保留5个旧题的source_id，并补充1道新增题，题数为6。",
+    "source_id=15的题目补充了螺丝钉暂不向前移动的条件，避免旋转与平移同时出现的歧义。",
+    "source_id=23原题考查乘法，与本课知识点无关，已改为辨析旋转的独立题目。",
+    "未提供教材原页，因此不声称完成教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

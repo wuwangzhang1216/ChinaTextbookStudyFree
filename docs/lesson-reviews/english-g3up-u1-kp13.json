@@ -1,0 +1,73 @@
+{
+  "lesson_id": "english-g3up-u1-kp13",
+  "point": "指令语",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "9732e9ecc76053192be946074cbb1994387d17f0b125a9afbf20ca8ab82800d4",
+  "before_question_count": 1,
+  "after_question_count": 6,
+  "added_question_ids": [
+    58,
+    59,
+    60,
+    61,
+    62
+  ],
+  "revised_question_ids": [
+    14
+  ],
+  "coverage": [
+    {
+      "source_id": 14,
+      "skill": "recognition",
+      "question": "看到 'Open your book' 这一指令，你应该做的动作是："
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "老师说“Carry your bag.”，你应该怎么做？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "根据中文意思补全指令，填一个英文单词：把你的书合上。Close your ____."
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "“Show me your pen.”的意思是“转过身”。对还是错？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "老师想让你把自己的橡皮给他看，应该说哪句话？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "从 around 和 book 中选一个完整单词，补全表示“转过身”的指令：Turn ____."
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "54e297f492b0150f3eaf2c648b02507b48310e216060f73f8ace049f02d72ceb",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题source_id 14及其原有题干、选项和答案。",
+    "修正讲解中将所有指令都说成带有物品名称的问题，说明指令有时带物品名称，有时不带。",
+    "修正第6题填空，使空格与答案around相符。",
+    "内容依据所提供的项目大纲与旧题整理；未进行教材原页逐字核对，也未声称经教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,73 @@
+{
+  "lesson_id": "english-g3up-u1-kp5",
+  "point": "词汇识记",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "371da4015606f5241a73e44ac542e0233e5cf90c705529ea169b00f2667f13b3",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27,
+    28
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    12,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "pencil 和 pen 都表示“铅笔”。"
+    },
+    {
+      "source_id": 8,
+      "skill": "application",
+      "question": "你想让同学展示他的书，你会说：'Show me your _______.'"
+    },
+    {
+      "source_id": 12,
+      "skill": "recognition",
+      "question": "以下哪一个单词是“蜡笔”的意思？"
+    },
+    {
+      "source_id": 20,
+      "skill": "recognition",
+      "question": "文具 ruler 对应“尺子、书包、书、铅笔”中的哪个词？请只填一个中文词：____。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "在本课学过的文具词中，表示“橡皮”的英文单词是____。（只填一个英文单词）"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小明要选一种用墨水写字的文具；它不是用来量长度、擦字或装文具的。最符合的是哪一种？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "1bf438f34735e3f1be8083ed48c6ecfddfea48f6d647f5ac79e6648f0b9e4549",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共编排6题，保留了全部旧题 source_id；原匹配题 source_id=20 改为当前支持的文字填空题。",
+    "修订了 pencil 与 pen 的辨析题，并为 ruler 和 eraser 的词汇题补充明确限定。",
+    "已调整第8题、第20题和第6题的解析，避免重复题干中的具体情境或线索。",
+    "内容依据输入的大纲和旧题编辑；未提供教材原页，因此未进行教材原文逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

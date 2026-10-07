@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g3up-u2-kp3",
+  "point": "用估算解决实际问题",
+  "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit2.json",
+  "before_source_fingerprint": "f400041cce54241d90b9071b9ec90026438db511b6a9a60e430792781e902912",
+  "after_fingerprint": "10e5b2f0550ee91fa6490eedce78ab152e77806f448b5b5f8779727881872c51",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    3,
+    10,
+    14
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "reasoning",
+      "question": "判断：498＋203的结果一定大于700。"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "一套课外书192元，一个书包106元。妈妈带300元买这两样物品，够吗？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "小红有412个贝壳，小华有289个。他们大约一共有多少个贝壳？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一段步道长276米，另一段长319米。按整十数估算，两段步道一共约长多少米？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "按整百数估算，735－289约等于____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把597＋204中的两个数都估成整百数，哪种估算正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "b4585f34ec6fc0a98bf5dff940f06746eb8a5ea01c694303ae557286bf631a47",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了旧题source_id 3、10、14。旧题3的判断结论为“对”，但原解释的推理不成立，已改用准确计算说明。",
+    "旧题10保留题意和选项，并说明估算为300元时不能直接判断是否够，需要准确核算；实际总价为298元。",
+    "旧题14将不清楚的“放了多少个”修订为“一共有多少个贝壳”，保留其估算考查内容。",
+    "新增3题，source_id为null；本次依据所给大纲和旧题编辑，未进行教材原页逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

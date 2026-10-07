@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g1up-u6-kp1",
+  "point": "计数单位“十”与数位认识",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit6.json",
+  "before_source_fingerprint": "ae9feb7a6171b9300ab435fc27d1a9a5d14fb3b9aedb632eb6a8a0153503ef6a",
+  "after_fingerprint": "564084d984d1d8ab3d757d455d92e40f3a4f78a891e903b6fe19c2ef4f3ae511",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    2,
+    4,
+    7
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "从右边起，第一位是十位，第二位是个位。"
+    },
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "2个十是20。"
+    },
+    {
+      "source_id": 7,
+      "skill": "application",
+      "question": "十位上是 1，个位上是 5，这个数是："
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "10个一合起来是____个十。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一个计数器的十位上有1颗珠子，个位上没有珠子。它表示的数是："
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小红说：“数12和数21中的数字1，都表示1个十。”下面哪句话正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3dadb8c11cd96d55a12ae0a8fbd153adef9ac950eccc93dd22c694c0bcb5074d",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题的source_id：2、4、7；修订source_id为2的判断题，使其呈现常见的数位顺序错误。",
+    "共6题，达到target_questions；练习包含判断、选择和填空题，并覆盖识记、应用与推理。",
+    "未提供教材原页，无法进行原教材逐字核对，也未进行教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

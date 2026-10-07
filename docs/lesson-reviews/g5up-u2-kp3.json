@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g5up-u2-kp3",
+  "point": "图形平移与数对变化规律",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit2.json",
+  "before_source_fingerprint": "e9f207fbf22e4ee22d42b4cb4415120ffa234bcabd787ba14b71795b8baa4814",
+  "after_fingerprint": "6c68cb179da90d7daf8dc029efd50ad24a526bae32e59e506d90bd2783f666ed",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    4,
+    12,
+    14,
+    17,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "一个点向右平移 3 格，它的行数会增加 3。"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "点 A 的位置是 $(2, 3)$，先向左平移 1 格，再向上平移 2 格，现在的位置是："
+    },
+    {
+      "source_id": 14,
+      "skill": "reasoning",
+      "question": "正方形 ABCD 的顶点 A $(1, 1)$、B $(1, 3)$、C $(3, 3)$，那么顶点 D 的位置是："
+    },
+    {
+      "source_id": 17,
+      "skill": "reasoning",
+      "question": "一个点 $(x, y)$ 向下平移 2 格后再向右平移 3 格，得到的新坐标是："
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "一个点 A $(4, 5)$ 向上平移 3 格后，再向左平移 2 格，平移后的点第 1 个数字是 ___。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "点 R 的位置是 $(3, 4)$。它向右平移 2 格后，点 R' 的位置是："
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "53b7300737667d7e7615137b3a768083bec536d97baf50cf3f9ef6884c5dc78b",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "本内容依据提供的项目大纲与旧题整理，未进行原教材原页逐字核对，也未声称经过教师签审。",
+    "保留了旧题的 source_id；旧题14补充说明了按正方形顶点顺序确定D点的依据，并调整了选择题选项顺序。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

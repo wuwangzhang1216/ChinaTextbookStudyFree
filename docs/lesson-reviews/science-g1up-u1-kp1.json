@@ -1,0 +1,72 @@
+{
+  "lesson_id": "science-g1up-u1-kp1",
+  "point": "植物的辨别与生命意识",
+  "source": "output/science/quizzes/义务教育教科书·科学一年级上册_unit1.json",
+  "before_source_fingerprint": "0ed4fe0bcecc1cd1374dd45c7b7e9de05e0d68f8baac4068c5b331f8d02b857c",
+  "after_fingerprint": "de06e60a689fb2a8001a96f64548ab50cf204f00af4321fae967caf065af0a94",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    1,
+    2,
+    6
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "小林说：“塑料花看起来像花，所以它一定是植物。”他说得对吗？"
+    },
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "公园里一棵活着、正在长新枝的树属于植物。"
+    },
+    {
+      "source_id": 6,
+      "skill": "recognition",
+      "question": "下列属于植物的是（）。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "桌上有一盆小草和一盆仿真草。观察记录写着：一周后，小草长出了新叶，仿真草的样子没有变化。哪句话有观察记录作为依据？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "仿真叶片是植物还是非植物？请只填“植物”或“非植物”：____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小明观察一棵小苗和一块石头两周。他记录到小苗长高了，还长出了新叶；石头没有生长变化。根据这次观察，哪句话最合适？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3561eff091a86ae72601cae84b9bec92b5326af349da6b7ef2e4b587eef29dda",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留旧题 source_id 1、2、6；source_id 1 改为辨析外形与植物身份，source_id 2 明确限定为活着且正在生长的树。",
+    "新增题使用 source_id=null；练习包含判断、选择和文字填空，覆盖识记、应用与推理。",
+    "未提供教材原页，无法进行原教材逐字核对；本稿不代表教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g3up-u6-kp3",
+  "point": "乘数中间或末尾有0的乘法",
+  "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit6.json",
+  "before_source_fingerprint": "4d05f661951601f1aac2e952078cc8bb185f85de4bf335f1c3287e8b2dfde2c7",
+  "after_fingerprint": "98174152d1d18370ab6c409928643357d3b665b85af981b5bb1fd794553793e5",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25
+  ],
+  "revised_question_ids": [
+    2,
+    3,
+    11,
+    12,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "0 和任何数相乘都得 0。"
+    },
+    {
+      "source_id": 3,
+      "skill": "reasoning",
+      "question": "109×2=208，因为十位上的0乘2还是0，不用处理个位的进位。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "504×2 的结果是多少？"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "250×4 的积的末尾有几个0？"
+    },
+    {
+      "source_id": 23,
+      "skill": "application",
+      "question": "106×5="
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "竖式计算208×4，积是多少？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "e27221373f871985c60eeea51c3a6472193563a35753a9ce806f6a8ee6298048",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题的source_id；第3题改为辨析漏加进位的错误说法，并给出正确计算依据。",
+    "本次依据输入的大纲和旧题整理，未对教材原页作逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

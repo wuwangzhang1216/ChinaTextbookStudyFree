@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g1up-u7-kp3",
+  "point": "作息时间的先后逻辑",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit7.json",
+  "before_source_fingerprint": "22ec04dc0b1f0917c314159686cb846ccb3dd97e7b2deab8fcab96eb4600ec53",
+  "after_fingerprint": "75e25b2f433f9638e150e54b2a75e8fa2e43019fcbfcd86950e823a962950630",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    4,
+    9,
+    10,
+    16,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "reasoning",
+      "question": "按通常作息，小明先吃午饭，再吃早饭。"
+    },
+    {
+      "source_id": 9,
+      "skill": "recognition",
+      "question": "上午10时，下面哪件事按通常作息最可能正在进行？"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "按一天中从早晨到晚上排列，哪组活动顺序正确？"
+    },
+    {
+      "source_id": 16,
+      "skill": "reasoning",
+      "question": "同一天上午，小明10时去公园，小乐11时去公园。谁去得早？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "小明上午6时起床，小华比他晚1小时起床。小华上午___时起床。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "从“前、后”中选一个词填空：按一天中的通常顺序，早晨在中午___。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "c1a164004964fece5f78dd05518d2cc074ac8e58b6515f017c02c18ad7784606",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共提供6道题，保留全部旧题source_id；新增题的source_id为null。",
+    "修订了source_id 10的题目，明确要求按一天中从早晨到晚上排列，并将“睡觉”写明为“晚上睡觉”，使顺序条件清楚。",
+    "未提供教材原页，未进行原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

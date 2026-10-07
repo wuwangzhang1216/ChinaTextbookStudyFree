@@ -1,6 +1,6 @@
 # Web UX 修复与验收状态
 
-更新：2026-10-06。总 issue：[#12](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/issues/12)。分支：`codex/ux-quality-repairs`。
+更新：2026-10-06。总 issue：[#12](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/issues/12)。分支：`codex/ux-quality-repairs`。修复PR：[#13](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/pull/13)。
 
 代码与本地生产导出验证已完成；尚未合并或发布到线上。所有“通过”均指这一修复分支，不代表线上已经更新。原始工作目录的未提交内容保留，通过审核指纹导入其中 137 课的已完成模型复核修订。
 
@@ -15,7 +15,7 @@
 | UX-07 | 数学第一课直接点数苹果；其他讲解可跳过；练习中随时查手册 | 点数动作与刷新保留已核验 | 首次学习动作30秒目标、每页理解度需儿童实测 |
 | UX-08 | 商店移除右栏；预览与商品在大屏分栏，卡片按内容宽度排布 | 1024/1280/1440px：商品宽约160/156/156px，无水平溢出 | 发布后重测 |
 | UX-09 | 普通结算合并一页，宝箱可选，一次点击下一课 | 单题纠错完成后直达下一课，状态不串课 | 发布后重测 |
-| UX-10 | 前10课用听读入口；巩固任务可由正常练习推进；空错题页鼓励尝试；少于5道的整轮复习也可回心，完成后直回原课 | 实际任务记账、奖励幂等、3题回心与每日一次回归通过 | 发布后重测；当前Web任务语义与其他客户端有差异 |
+| UX-10 | 前10课用听读入口；巩固任务可由正常练习推进；空错题页鼓励尝试；少于5道的整轮复习也可回心，没有到期题时可额外巩固且不提前推进SRS，完成后直回原课 | 实际任务记账、奖励幂等、3题回心与每日一次回归通过 | 发布后重测；当前Web任务语义与其他客户端有差异 |
 | UX-11 | 退出、设置、朗读、返回、换年级等辅助目标扩大 | 课程主要辅助控件实际44×44px；点数按钮80×96px | 儿童拇指操作、真实设备安全区域 |
 | UX-12 | 聪聪衣橱/装扮统一命名；故事加入聪聪引导；去掉“完美”等绝对评价 | 本次页面文案与视觉修订、生产截图 | 10页品牌一致性、角色认知需人工抽查；故事插画尚未统一重绘 |
 
@@ -23,6 +23,7 @@
 
 - `npm test`：10文件、218测试通过。
 - `npm run type-check`：Web/Core通过。
+- `npx tsx scripts/checks/review-recovery.ts`：无到期题仍可巩固回心，额外练习不提前推进SRS，队列去重与上限通过。
 - `npx tsx scripts/checks/lesson-resume.ts`：阶段、草稿、反馈、旧数据与题库替换通过。
 - `npx tsx --tsconfig apps/web/tsconfig.json scripts/checks/ux-rewards.ts`：微练习奖励、可行动任务、重复领取通过。
 - `npx tsx scripts/check-lesson-revisions.ts`：137课、836题，精确复核指纹、真实判分、内容地址音频一致。
@@ -34,7 +35,7 @@
 
 ## 发布资源
 
-基础资源仍使用 `v1.2.0-assets`，另外安装本分支的音频补充包。见 [安装与校验](ux-content-install.md)。音频不进入Git；补充包通过GitHub草稿release留存，未公开发布。
+基础资源仍使用 `v1.2.0-assets`，另外安装本分支的音频补充包。见 [安装与校验](ux-content-install.md)。音频不进入Git；补充包通过[GitHub草稿release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/untagged-2f6d14cc6d48089c3c13)留存，未公开发布。
 
 ## 持续追踪
 

@@ -1,5 +1,5 @@
 {
-  "created_at": "2026-10-07T02:23:43.887093+00:00",
+  "created_at": "2026-10-07T02:30:25.144900+00:00",
   "counts": {
     "json_files": 2251,
     "books": 44,
@@ -91,7 +91,7 @@
       "chinese-g1up-u8-kp8"
     ],
     "one_question_lessons": 1174,
-    "control_character_fields": 115,
+    "control_character_fields": 109,
     "control_character_examples": [
       {
         "location": "g1up-u9-kp1.questions[7].question",
@@ -430,12 +430,6 @@
     ],
     "questions": [
       {
-        "route": "/lesson/g4down/g4down-u4-kp4/",
-        "question": 21,
-        "length": 131,
-        "text": "把 45 缩小到原来的千分之一后，再扩大 100 倍，结果是 ___。（注：请输入计算过程最终结果的 10 倍整数值，此题特殊要求填 45 对应的最终计算结果的十分位数字，设逻辑为 4.5 则填 45，由于系统只收整数，请计算：0.45 乘以 100 是多少？）"
-      },
-      {
         "route": "/lesson/g4up/g4up-u8-kp3/",
         "question": 21,
         "length": 113,
@@ -488,6 +482,12 @@
         "question": 15,
         "length": 85,
         "text": "一个边长为10厘米的正方形，一边与一个直径为10厘米的半圆的直径重合。半圆在正方形外侧，两个图形只共用这条边且内部不重叠。组合图形外边界的周长是多少厘米？（π取3.14）"
+      },
+      {
+        "route": "/lesson/g6up/g6up-u9-kp2/",
+        "question": 12,
+        "length": 81,
+        "text": "一个圆的周长是12.56厘米，一个正方形的边长是3.14厘米，一个长方形的长是4.28厘米、宽是2厘米。这三个图形的周长相等。哪个图形的面积最大？（π取3.14）"
       }
     ],
     "knowledge": [

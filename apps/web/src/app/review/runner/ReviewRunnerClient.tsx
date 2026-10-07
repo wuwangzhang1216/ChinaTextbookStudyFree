@@ -4,7 +4,7 @@
  * ReviewRunnerClient —— 错题复习 runner（/review/runner/）
  *
  * 多邻国式「真实作答」复习流程：
- *   - 队列 = 今日到期错题（core getDueSrsEntries，毕业条目除外）
+ *   - 普通队列为今日到期错题；回心入口可补充额外巩固，额外题不推进SRS
  *   - 复用 QuestionRenderer + core gradeAnswer 真实判分，答完才亮对错与解析
  *   - 首次作答的结果驱动 SRS（store reviewMistake）；答错的题重排队尾再练
  *   - 完成页：正确数 + XP（store awardReviewXP，每答对 +5）+ 毕业庆祝
@@ -20,7 +20,7 @@ import dynamic from "next/dynamic";
 import { motion, AnimatePresence, useAnimation, useReducedMotion } from "framer-motion";
 import type { Question } from "@/types";
 import { gradeAnswer } from "@/lib/grade";
-import { getDueSrsEntries } from "@/lib/srs";
+import { reviewQueue } from "@/lib/reviewQueue";
 import {
   useProgressStore,
   REVIEW_XP_PER_CORRECT,
@@ -47,6 +47,7 @@ interface ReviewItem {
   lessonId: string;
   lessonTitle: string;
   question: Question;
+  scheduled: boolean;
 }
 
 /** 会话结算快照 */
@@ -78,17 +79,17 @@ export function ReviewRunnerClient() {
 
   useEffect(() => {
     const bank = useProgressStore.getState().mistakesBank;
-    const due = getDueSrsEntries(bank);
-    const items: ReviewItem[] = due.map(e => ({
+    const items: ReviewItem[] = reviewQueue(bank, fromHearts).map(({ entry: e, scheduled }) => ({
       key: `${e.lessonId}:${e.question.id}`,
       lessonId: e.lessonId,
       lessonTitle: e.lessonTitle ?? e.lessonId,
       question: e.question,
+      scheduled,
     }));
     totalRef.current = items.length;
     setQueue(items);
     setReady(true);
-  }, []);
+  }, [fromHearts]);
 
   // ============ 答题状态 ============
   const [answer, setAnswer] = useState("");
@@ -115,10 +116,10 @@ export function ReviewRunnerClient() {
     setPhase("checked");
     currentGraduatedNow.current = false;
 
-    // 首答才驱动 SRS（重练答对不提前升 box）
+    // 仅到期题的首答驱动SRS；额外巩固不提前升级或毕业
     if (!firstAttemptRef.current.has(current.key)) {
       firstAttemptRef.current.set(current.key, ok);
-      const newlyGraduated = reviewMistake(current.lessonId, current.question.id, ok);
+      const newlyGraduated = current.scheduled && reviewMistake(current.lessonId, current.question.id, ok);
       if (newlyGraduated) {
         graduatedRef.current += 1;
         currentGraduatedNow.current = true;
@@ -170,7 +171,7 @@ export function ReviewRunnerClient() {
     const correct = [...attempts.values()].filter(Boolean).length;
     // 统一记账：每首答答对 +5 XP、dailyReviews += 复习量、推进连胜
     const xpGained = awardReviewXP(correct, attempts.size);
-    // 走完一整轮到期错题才结算补心；首答至少五题正确，不足五题则整轮正确。
+    // 走完一整轮才结算补心；首答至少五题正确，不足五题则整轮正确。
     // 上限（不超过 MAX_HEARTS）、当天只领一次都由 store awardReviewHeart 裁决。
     const heartsGained = awardReviewHeart(correct, attempts.size);
     setStats({

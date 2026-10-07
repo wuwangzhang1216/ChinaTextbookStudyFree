@@ -47,9 +47,13 @@
 
 基础资源仍使用 `v1.2.0-assets`，另外安装本分支的音频补充包。见 [安装与校验](ux-content-install.md)。音频不进入Git；补充包通过[GitHub草稿release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/untagged-2f6d14cc6d48089c3c13)留存，未公开发布。
 
-## 持续追踪
+## 追踪状态
 
-每小时检查 issue、关联 PR、检查状态与本文件。无变化时静默；实质进展、失败或需人工验收时通知。不得把本地通过标为已经上线，也不得把屏幕模拟标为儿童或真机验收。
+2026-10-07，按用户要求停止每小时定时任务 `web-ux-12`；应用返回并在本地配置确认状态为 `PAUSED`。后续按用户指令继续处理，不再自动运行。issue 保持开放，线上与人工验收尚未完成。
+
+本轮重新核验用户列出的5项评审发现：修复均已包含在提交 `42c9a7d`，PR #13 的代码与工作区一致。重新运行 `content-math.ts`、`review-content.ts`、`lesson-resume.ts`、`question-drafts.ts`、`service-worker.mjs`、`ux-content.ts` 与 Web/Core 类型检查，全部通过。排序/配对刷新与衣橱滚动仍引用该提交已保存的浏览器证据；本轮未新增浏览器或线上验收。旧版未带内容标识的未完成课程会一次性重开，已入账奖励保留。
+
+不得把本地通过标为已经上线，也不得把屏幕模拟标为儿童或真机验收。
 
 - [x] 代码修复、相关自动回归、生产导出与页面回归。
 - [x] 原始未提交工作保留，独立分支隔离。

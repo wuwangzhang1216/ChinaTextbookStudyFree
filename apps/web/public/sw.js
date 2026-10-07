@@ -10,7 +10,7 @@
  * next 静态导出（output: "export"）下手写注册即可，注册脚本在 layout.tsx。
  */
 
-const VERSION = "v2";
+const VERSION = "v3";
 const SHELL_CACHE = `ctsf-shell-${VERSION}`;
 const DATA_CACHE = `ctsf-data-${VERSION}`;
 const STATIC_CACHE = `ctsf-static-${VERSION}`;
@@ -91,6 +91,12 @@ self.addEventListener("fetch", event => {
   if (request.method !== "GET" || request.headers.has("range")) return;
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
+  // Review explicitly asks for current lesson JSON. An SW cache must not defeat
+  // this request and resurrect an invalid historical answer.
+  if (request.cache === "no-store") {
+    event.respondWith(fetch(request));
+    return;
+  }
 
   // 课程 JSON 与音频：stale-while-revalidate
   if (url.pathname.startsWith("/data/") || url.pathname.startsWith("/audio/")) {

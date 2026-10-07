@@ -4,8 +4,8 @@
   "reviewed_lessons": 137,
   "covered_lessons": 145,
   "bundle": "ux-content-audio.tar.gz",
-  "sha256": "737bc9543094e4a05c9c6fd92ae76a250b838972d0743b331e334a98bd59d8db",
-  "bytes": 450528621,
+  "sha256": "15cec6770542eb9a30d6fb957fe48d58820530112b599e1e13f8bbd1bc07c223",
+  "bytes": 450548356,
   "files": [
     {
       "path": "audio/00/001cb7dc88a08635506f1e10e54744f94edbcad3.mp3",
@@ -1998,6 +1998,16 @@
       "sha256": "bf35b863fda088cf1c29e74e3471d79e5d9dc6ce54f88552e1cfdf633bdecd83"
     },
     {
+      "path": "audio/0c/0cf3a35c3869f350cff4ccd40474bc14b809bb3b.mp3",
+      "bytes": 193005,
+      "sha256": "1d90eff8ffb0c40d29982990b8857f1e84acebedefb1bf3a2b789a9f78037a54"
+    },
+    {
+      "path": "audio/0c/0cf3a35c3869f350cff4ccd40474bc14b809bb3b.opus",
+      "bytes": 140516,
+      "sha256": "cccacf7335559725e18571eee618cc05b64d3229943cb4b4b4a2cb812e096dfb"
+    },
+    {
       "path": "audio/0c/0cf950b5e4d2ebd7c978c76091ddce6176845697.mp3",
       "bytes": 10221,
       "sha256": "f4572e81aff23232246f4764cc67695fa94365641bec97ebbbed74efecaa9676"
@@ -2006,16 +2016,6 @@
       "path": "audio/0c/0cf950b5e4d2ebd7c978c76091ddce6176845697.opus",
       "bytes": 3727,
       "sha256": "ecd758eb6f178b485a9515393af33f2c7743213a84a590f2d72d9426df256fc5"
-    },
-    {
-      "path": "audio/0d/0d117a6869f722332b3a1a8c14712c0a2fe9359f.mp3",
-      "bytes": 27309,
-      "sha256": "ada60cc5c9021c4f81d4d0a7d1db3441b31ad09b74874dba54a39c32bbf50e42"
-    },
-    {
-      "path": "audio/0d/0d117a6869f722332b3a1a8c14712c0a2fe9359f.opus",
-      "bytes": 19804,
-      "sha256": "b007fe1095a5f26e8d99c049d4c6cf633ee60accf61a61d7696799a2518c8d9f"
     },
     {
       "path": "audio/0d/0d13fb1dfc5ccc85812f8b95b81c1697fb04ef54.mp3",
@@ -3216,6 +3216,16 @@
       "path": "audio/14/1435e049eaf66cc1fd9e853c84fdeb78a0fff2d5.opus",
       "bytes": 139579,
       "sha256": "0138f9101fc3fbefa94505c01613dc9724022cccd05cf5530a0eb725e88fd351"
+    },
+    {
+      "path": "audio/14/143d00d7abea4ed66fdfd5582e26236c4b2e232d.mp3",
+      "bytes": 18669,
+      "sha256": "c92ba273c1c80a46fbda3b04c7ca00b8729aa3e9ab1e6b69474dc757abe02798"
+    },
+    {
+      "path": "audio/14/143d00d7abea4ed66fdfd5582e26236c4b2e232d.opus",
+      "bytes": 13882,
+      "sha256": "5ce7f2ab26424dbc5843c47c1ee55c316386d7d0825772c6825272cc309567ff"
     },
     {
       "path": "audio/14/143f7811e6a30b5ee2e02d35d3a96f1d6a0591ec.mp3",
@@ -10178,16 +10188,6 @@
       "sha256": "b0dbeda3d42a96064285c16b3027fd778d05bd0e5beff6c954ab2580bf5a3cd5"
     },
     {
-      "path": "audio/3d/3dd57f89685947701a15cbb16b485991a6dcc3ec.mp3",
-      "bytes": 24429,
-      "sha256": "6eff9f9e3c528f6b6c13a11a9ec0760ee7bba0bf4dc224645a291c398e9e4d4e"
-    },
-    {
-      "path": "audio/3d/3dd57f89685947701a15cbb16b485991a6dcc3ec.opus",
-      "bytes": 17461,
-      "sha256": "6a39b825fc5d13bc90e7587f96c9e940673c63c9b1ca687581cea75baec316a1"
-    },
-    {
       "path": "audio/3d/3dea5f534a06bb5e898084b4afcfa97fd8d33b44.mp3",
       "bytes": 85101,
       "sha256": "1c0ebdbd3843cc39c27e8d1ae44090e284623b2e94388923c0c9d733ec07d73e"
@@ -12366,6 +12366,16 @@
       "path": "audio/49/49c4777553fd91fc23b325e3609d0100a0e0cc3e.opus",
       "bytes": 2539,
       "sha256": "716c06270c59eb1115c78b0296d701f2c5f8ac65e5043c0d07b798f86a664c2c"
+    },
+    {
+      "path": "audio/49/49e4c74f0f35cdf3f2440f85a411d95183bab831.mp3",
+      "bytes": 18669,
+      "sha256": "3216993f0ff6390669c12f63c0e2d36aefff555336ac265926e6c6df31c4e66b"
+    },
+    {
+      "path": "audio/49/49e4c74f0f35cdf3f2440f85a411d95183bab831.opus",
+      "bytes": 13711,
+      "sha256": "25ce32ad58ea46e182b5b97ef3b8a8275f4db36793432e8bf0fb2a5362ed27b5"
     },
     {
       "path": "audio/49/49e5850e22064d285372bad7518b4d133ad99879.mp3",
@@ -17506,16 +17516,6 @@
       "path": "audio/69/690abd60a0ac45d12d5bdf933c3bfdfc6f6bd23d.opus",
       "bytes": 6264,
       "sha256": "0e75c6f1c0bee48abcaa30d00d808c99a1dc708d1984b44e4623df083fc642f2"
-    },
-    {
-      "path": "audio/69/69118942fed4db19107eefe48f261e529410d341.mp3",
-      "bytes": 169581,
-      "sha256": "5dca954b219751c877cf8fa76958487cea0f0654f084465b0ca2cdeebd955c54"
-    },
-    {
-      "path": "audio/69/69118942fed4db19107eefe48f261e529410d341.opus",
-      "bytes": 127077,
-      "sha256": "6d8b6e882092bb90de913e181c197f9ff0def6ec9ae3db63770ebcbd415136b4"
     },
     {
       "path": "audio/69/691537419ad5efded0f5f899f88c7e718e65d03b.mp3",
@@ -27138,16 +27138,6 @@
       "sha256": "8be1a5d2dfc13d5ce438b25a7b48bf9c4920b8f731e440db11b1326675a0ca89"
     },
     {
-      "path": "audio/a0/a091dcc9a9d2cd9b5d3d9cddbe0f940c283fe8b4.mp3",
-      "bytes": 105069,
-      "sha256": "89eed51a73cf95a54ce3cf086b72815d3d4efca0159c89eb168d84c79abad362"
-    },
-    {
-      "path": "audio/a0/a091dcc9a9d2cd9b5d3d9cddbe0f940c283fe8b4.opus",
-      "bytes": 78735,
-      "sha256": "c5dc17788746ccf08712e31e0da4030dc054920a8ac1f17b0500450f3e801844"
-    },
-    {
       "path": "audio/a0/a0975468caa87203bf270355e1a6c54c2f724db7.mp3",
       "bytes": 7725,
       "sha256": "28b9f72e3cb7257c8afe0ef7f939e97d51764c01b0b57a89e56468dbf5cf0b62"
@@ -33878,6 +33868,16 @@
       "sha256": "4b294943dae7a2b76071dc0834d8c863d93c2d819e1d05df8c985df2f9b131a9"
     },
     {
+      "path": "audio/c8/c84ca54ceb84e12eb24822efc708584adc8e4865.mp3",
+      "bytes": 18477,
+      "sha256": "ae150e791baea18415830a7622d8df3716fe7e248596cc4f9908ad1a98397c77"
+    },
+    {
+      "path": "audio/c8/c84ca54ceb84e12eb24822efc708584adc8e4865.opus",
+      "bytes": 13598,
+      "sha256": "06a0ec56a1df993e4cb333be59ec3d7d08c30c0b30cee89fdbf6ea2bac034aec"
+    },
+    {
       "path": "audio/c8/c86717930dcd280f5cf42231fdd464eb6725ff38.mp3",
       "bytes": 204141,
       "sha256": "b2ef24f128bc186b6e4e83899439331809c448aacaffcc6db0a91240936455bc"
@@ -34166,6 +34166,16 @@
       "path": "audio/c9/c9f98239ff7aba9705aa061ae56b3a838fd7b1fc.opus",
       "bytes": 68193,
       "sha256": "34a53c57b79994f545577755fd07af6c5c45897d8281c25428cdc08179cccc1b"
+    },
+    {
+      "path": "audio/ca/ca00600dda079def16ad00a592e1340cc90b3209.mp3",
+      "bytes": 122925,
+      "sha256": "554a76cb2179a5da4318e24d404b135efbc3bf11e04173e0fea8696641ace575"
+    },
+    {
+      "path": "audio/ca/ca00600dda079def16ad00a592e1340cc90b3209.opus",
+      "bytes": 90864,
+      "sha256": "dbcb0aa6036141b78cd463908c6b204cec9b3c7526758c2dd6eb3de63e95457d"
     },
     {
       "path": "audio/ca/ca155d02d53e235a2c5736d6efd44e36d938dd55.mp3",
@@ -38128,16 +38138,6 @@
       "sha256": "eed9406fe4723c8816b791af1fb52771d03a2a41a2d1d99fd36d404f17fdb6f7"
     },
     {
-      "path": "audio/e1/e15ef9eb648c70e4fb3c919f4d6fede2c3ecfbdc.mp3",
-      "bytes": 25389,
-      "sha256": "25fce644fab88324b5cc64bc43844ab45523ccc4993514130158301d1b3487dd"
-    },
-    {
-      "path": "audio/e1/e15ef9eb648c70e4fb3c919f4d6fede2c3ecfbdc.opus",
-      "bytes": 18701,
-      "sha256": "9fc4410cc8e61ac50c956e6dc57d662136174510a957c9bb781104ffc31da76d"
-    },
-    {
       "path": "audio/e1/e168c348266d8af417a8be5b9e64e8cf4d545624.mp3",
       "bytes": 184365,
       "sha256": "958dda56b311078148cf17afe15e05d183febc5d3c9f8516beee1b3d6898b8da"
@@ -40658,16 +40658,6 @@
       "sha256": "4ba24361a0fee089012375e077fe5075614fe3147e0e716d0275fba44239899c"
     },
     {
-      "path": "audio/f1/f1ab4cdbf0ec25fc90c55e41116e6d1d861e1992.mp3",
-      "bytes": 24045,
-      "sha256": "be0c9543e3a8a86b2a25a14b660e099713b88fbcea66bead591b5e26750b0ee2"
-    },
-    {
-      "path": "audio/f1/f1ab4cdbf0ec25fc90c55e41116e6d1d861e1992.opus",
-      "bytes": 17526,
-      "sha256": "88921391c216c6e035ca7051bcddc21ccc9b938e9c7586693ac0c3ea5f39bcbd"
-    },
-    {
       "path": "audio/f1/f1abd670358e036c31296e66b3b66c382ac00812.mp3",
       "bytes": 6381,
       "sha256": "c4483b0321803c86caf770f0bd7f986b5092111b1224a169ff865e53e1102310"
@@ -41196,6 +41186,16 @@
       "path": "audio/f4/f48d0d6a206e60a9a246f19047cddb18f1364334.opus",
       "bytes": 5312,
       "sha256": "edfb221ae8b94ba175a4e7618aa9f404fbf771f474262766474cb23ac6d64c02"
+    },
+    {
+      "path": "audio/f4/f4922cd4504b4de537e1b20d6b6d20d789c52412.mp3",
+      "bytes": 18861,
+      "sha256": "217587c6bc5cbeac44b3ccbba0410352e94e87989b89a402a56c64bd4f5d0216"
+    },
+    {
+      "path": "audio/f4/f4922cd4504b4de537e1b20d6b6d20d789c52412.opus",
+      "bytes": 13766,
+      "sha256": "b24bb99e5b9e9ca8033a40531a664daebe740e65fb1e645819a1b3aec8487ba5"
     },
     {
       "path": "audio/f4/f49d648ee86023cbecf62014170681a8a902b763.mp3",

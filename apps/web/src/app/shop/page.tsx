@@ -213,7 +213,7 @@ export default function ShopPage() {
         {/* 2 列：左大预览 + 右网格 */}
         <div className="lg:grid xl:grid-cols-[minmax(0,260px)_minmax(0,1fr)] lg:gap-4 lg:items-start">
           {/* 大预览面板 */}
-          <div className="mb-6 lg:mb-0 lg:sticky lg:top-24 relative">
+          <div className="mb-6 lg:mb-0 xl:sticky xl:top-24 relative">
             <PreviewPane
               item={previewItem}
               isHoverPreview={hoverItemId !== null && hoverItemId !== getEquippedId(tab)}

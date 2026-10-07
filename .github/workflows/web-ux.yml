@@ -7,6 +7,7 @@ on:
       - 'packages/core/**'
       - 'output/**'
       - 'scripts/checks/**'
+      - 'docs/ux-content-corrections.json'
       - 'package*.json'
       - '.github/workflows/web-ux.yml'
   workflow_dispatch:
@@ -30,6 +31,9 @@ jobs:
         run: |
           npx tsx scripts/checks/lesson-resume.ts
           npx tsx scripts/checks/review-recovery.ts
+          npx tsx scripts/checks/review-content.ts
+          npx tsx scripts/checks/question-drafts.ts
+          npx tsx scripts/checks/content-math.ts
           npx tsx --tsconfig apps/web/tsconfig.json scripts/checks/ux-rewards.ts
           npx tsx scripts/checks/intro-narration.ts
           npx tsx scripts/checks/tts-legacy-audio.ts

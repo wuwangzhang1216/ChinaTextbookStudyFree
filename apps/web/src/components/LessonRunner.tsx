@@ -59,6 +59,8 @@ import {
 import { getCosmeticById, type LessonBackdrop } from "@/lib/cosmetics";
 import { CountingWarmup } from "./CountingWarmup";
 import { hasLessonProgress, restoreQuestionSession } from "@/lib/lessonSession";
+import { lessonContentKey } from "@cstf/core/content";
+import { answerReady } from "@/lib/questionDraft";
 import type { QuestionType } from "@cstf/core";
 
 /** 仿 Duolingo 题型胶囊文案（紫色 NEW WORD tag） */
@@ -275,6 +277,8 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   const xpPerCorrectShown = XP_PER_CORRECT * xpMultiplier;
 
   const questions = useMemo(() => lesson.questions, [lesson]);
+  const contentKey = useMemo(() => lessonContentKey(lesson), [lesson]);
+  const [contentUpdated, setContentUpdated] = useState(false);
   const total = questions.length;
   const questionById = useMemo(
     () => new Map(questions.map(q => [q.id, q])),
@@ -344,7 +348,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
    * 🔒 交互闸门（webrunner-5）：任何遮罩打开时，题目区的键盘快捷键 / 点击 /
    * 配对题自动提交都必须停摆 —— 否则用户在断心遮罩前敲数字键就能把题判掉。
    */
-  const locked = showExitConfirm || gateOpen || showSettings || showIntro;
+  const locked = showExitConfirm || gateOpen || showSettings || showIntro || contentUpdated;
 
   const shakeControls = useAnimation();
   const progressControls = useAnimation();
@@ -361,7 +365,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     let sessionRestored = false;
     // 学习阶段、草稿和反馈都可恢复；旧版已经结束的空队列重新开课。
     const restored = stored && stored.lessonId === lesson.id && hasLessonProgress(stored)
-      ? restoreQuestionSession(stored, questions.map(q => q.id)) : null;
+      ? restoreQuestionSession(stored, questions.map(q => q.id), contentKey) : null;
     if (stored && restored?.currentId != null) {
       setCurrentId(restored.currentId);
       setQueue(restored.queue);
@@ -383,6 +387,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       setShowIntro(stored.stage === "intro");
       sessionRestored = true;
     } else if (stored) {
+      if (stored.lessonId === lesson.id && hasLessonProgress(stored) && stored.contentKey !== contentKey) setContentUpdated(true);
       // 切换到了新课程 / 旧版本留下的空会话 → 丢弃
       useProgressStore.getState().clearLessonSession();
     }
@@ -419,6 +424,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       introPage, introMode: showHandbook ? "handbook" : "warmup", introCompletedPages, warmupCounted,
       currentId, draftAnswer: answer, phase, checkedCorrect: isCorrect,
       attemptedIds: [...attemptedRef.current], totalQuestions: total,
+      contentKey,
     });
   }, [
     ready,
@@ -435,7 +441,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     combo,
     maxCombo,
     sessionXp,
-    upsertLessonSession, answer, isCorrect, introPage, introCompletedPages, warmupCounted, total, showHandbook,
+    upsertLessonSession, answer, isCorrect, introPage, introCompletedPages, warmupCounted, total, showHandbook, contentKey,
   ]);
 
   // 通关时清除持久化会话。
@@ -626,7 +632,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   function handleCheck() {
     if (locked) return;
     if (!current || phase !== "answering") return;
-    if (!answer.trim()) return;
+    if (!answerReady(current, answer)) return;
     const firstAttempt = !attemptedRef.current.has(current.id);
     attemptedRef.current.add(current.id);
     const ok = gradeAnswer(current, answer);
@@ -954,6 +960,14 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   }
 
   // ============ 知识点讲解（首次进入） ============
+  if (contentUpdated) {
+    return <main className="min-h-screen bg-bg-soft flex flex-col items-center justify-center px-5 gap-5 text-center">
+      <Mascot mood="think" size={100} />
+      <h1 className="text-2xl font-extrabold text-ink">先重新练一次吧</h1>
+      <p className="max-w-sm text-ink-light">上次的练习需要重新核对，我们从这节课开头再练。已经获得的奖励还在。</p>
+      <button className="btn-chunky-primary px-8" onClick={() => setContentUpdated(false)}>开始学习</button>
+    </main>;
+  }
   if (showIntro && lesson.id === "g1up-u1-kp1" && !showHandbook) {
     return <CountingWarmup counted={warmupCounted} onCount={id => setWarmupCounted(ids => ids.includes(id) ? ids : [...ids, id])}
       onStart={() => setShowIntro(false)} onHelp={() => setShowHandbook(true)} onExit={() => router.push(`/book/${lesson.bookId}/`)} />;
@@ -1359,8 +1373,8 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
             </button>
             <button
               onClick={handleCheck}
-              disabled={!answer.trim()}
-              className={answer.trim() ? "flex-1 btn-chunky-primary" : "flex-1 btn-chunky-disabled"}
+              disabled={!answerReady(current, answer)}
+              className={answerReady(current, answer) ? "flex-1 btn-chunky-primary" : "flex-1 btn-chunky-disabled"}
             >
               检查
             </button>

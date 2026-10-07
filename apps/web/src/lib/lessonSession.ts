@@ -53,7 +53,10 @@ export function remainingQuestionCount(
 }
 
 /** Restore feedback without grading again; reconcile older snapshots and changed content. */
-export function restoreQuestionSession(session: ActiveLessonSession, ids: number[]) {
+export function restoreQuestionSession(session: ActiveLessonSession, ids: number[], contentKey?: string) {
+  // Equal IDs do not establish equal prompts, answers or explanations. Unversioned
+  // legacy sessions restart once; the runner explains this and retains earned rewards.
+  if (contentKey !== undefined && session.contentKey !== contentKey) return null;
   const valid = new Set(ids);
   const solved = [...new Set(session.solvedIds ?? ids.slice(0, session.index))].filter(id => valid.has(id));
   const pending = [...new Set(session.queueIds ?? ids.slice(session.index))].filter(id => valid.has(id) && !solved.includes(id));

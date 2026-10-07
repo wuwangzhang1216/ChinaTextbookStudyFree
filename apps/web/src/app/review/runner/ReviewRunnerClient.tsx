@@ -21,6 +21,8 @@ import { motion, AnimatePresence, useAnimation, useReducedMotion } from "framer-
 import type { Question } from "@/types";
 import { gradeAnswer } from "@/lib/grade";
 import { reviewQueue } from "@/lib/reviewQueue";
+import { loadReviewLessons, reconcileMistakes } from "@/lib/reviewContent";
+import { answerReady } from "@/lib/questionDraft";
 import {
   useProgressStore,
   REVIEW_XP_PER_CORRECT,
@@ -74,22 +76,35 @@ export function ReviewRunnerClient() {
 
   // ============ 队列：hydrate 后一次性快照（复习中 store 变化不打乱当前会话）============
   const [ready, setReady] = useState(false);
+  const [loadFailed, setLoadFailed] = useState(false);
+  const [retry, setRetry] = useState(0);
+  const [retiredCount, setRetiredCount] = useState(0);
   const [queue, setQueue] = useState<ReviewItem[]>([]);
   const totalRef = useRef(0);
 
   useEffect(() => {
-    const bank = useProgressStore.getState().mistakesBank;
-    const items: ReviewItem[] = reviewQueue(bank, fromHearts).map(({ entry: e, scheduled }) => ({
-      key: `${e.lessonId}:${e.question.id}`,
-      lessonId: e.lessonId,
-      lessonTitle: e.lessonTitle ?? e.lessonId,
-      question: e.question,
-      scheduled,
-    }));
-    totalRef.current = items.length;
-    setQueue(items);
-    setReady(true);
-  }, [fromHearts]);
+    let cancelled = false;
+    setReady(false);
+    setLoadFailed(false);
+    const candidates = reviewQueue(useProgressStore.getState().mistakesBank, fromHearts);
+    void loadReviewLessons(candidates.map(item => item.entry)).then(lessons => {
+      if (cancelled) return;
+      // Resolve only this session's candidates. Reconciliation preserves all SRS metadata.
+      const items: ReviewItem[] = candidates.flatMap(({ entry, scheduled }) =>
+        reconcileMistakes([entry], lessons).map(e => ({ key: `${e.lessonId}:${e.question.id}`,
+          lessonId: e.lessonId, lessonTitle: e.lessonTitle ?? e.lessonId, question: e.question, scheduled })));
+      useProgressStore.getState().refreshMistakeContent(lessons);
+      setRetiredCount(candidates.length - items.length);
+      totalRef.current = items.length;
+      setQueue(items);
+      setReady(true);
+    }).catch(() => {
+      if (cancelled) return;
+      setLoadFailed(true);
+      setReady(true);
+    });
+    return () => { cancelled = true; };
+  }, [fromHearts, retry]);
 
   // ============ 答题状态 ============
   const [answer, setAnswer] = useState("");
@@ -110,7 +125,7 @@ export function ReviewRunnerClient() {
   const currentGraduatedNow = useRef(false);
 
   function handleCheck() {
-    if (!current || !answer.trim()) return;
+    if (!current || phase !== "answering" || !answerReady(current.question, answer)) return;
     const ok = gradeAnswer(current.question, answer);
     setIsCorrect(ok);
     setPhase("checked");
@@ -201,13 +216,22 @@ export function ReviewRunnerClient() {
   // ============ 加载占位 ============
   if (!ready) {
     return (
-      <main className="min-h-screen bg-bg-soft flex items-center justify-center">
+      <main className="min-h-screen bg-bg-soft flex flex-col items-center justify-center gap-5">
         <Mascot mood="think" size={100} />
+        <p className="text-ink-light">正在准备题目…</p>
+        <SoundLink href="/review/" className="btn-chunky-ghost px-8">回错题本</SoundLink>
       </main>
     );
   }
 
   // ============ 完成页 ============
+  if (loadFailed) {
+    return <main className="min-h-screen bg-bg-soft flex items-center justify-center px-5">
+      <EmptyState mood="think" title="题目暂时没有加载好" desc="先重新试试，你的错题进度还在。"
+        action={<div className="flex flex-col gap-3"><button className="btn-chunky-primary px-8" onClick={() => setRetry(n => n + 1)}>重新加载</button>
+          <SoundLink href="/review/" className="btn-chunky-ghost px-8">回错题本</SoundLink></div>} />
+    </main>;
+  }
   if (stats) {
     return <ReviewCompletionScreen stats={stats} fromHearts={fromHearts} />;
   }
@@ -218,8 +242,8 @@ export function ReviewRunnerClient() {
       <main className="min-h-screen bg-bg-soft flex items-center justify-center px-5">
         <EmptyState
           mood="cheer"
-          title="今天没有要复习的错题！"
-          desc="错题都安排好了，明天再来看看吧～"
+          title={retiredCount ? "这些旧题已经更新啦" : "今天没有要复习的错题！"}
+          desc={retiredCount ? "旧题已从错题本移除，可以回课程练习新题。红心也会慢慢恢复。" : "错题都安排好了，明天再来看看吧～"}
           action={
             <SoundLink href="/review/" hapticIntensity="medium" className="btn-chunky-primary px-8">
               回错题本
@@ -303,8 +327,8 @@ export function ReviewRunnerClient() {
           <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-4">
             <button
               onClick={handleCheck}
-              disabled={!answer.trim()}
-              className={answer.trim() ? "w-full btn-chunky-primary" : "w-full btn-chunky-disabled"}
+              disabled={!answerReady(current.question, answer)}
+              className={answerReady(current.question, answer) ? "w-full btn-chunky-primary" : "w-full btn-chunky-disabled"}
             >
               检查
             </button>

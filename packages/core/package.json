@@ -9,6 +9,7 @@
   "exports": {
     ".": "./src/index.ts",
     "./types": "./src/types.ts",
+    "./content": "./src/content.ts",
     "./srs": "./src/srs.ts",
     "./grade": "./src/grade.ts",
     "./subjects": "./src/subjects.ts",

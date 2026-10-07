@@ -2,7 +2,8 @@
 
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
-import type { Question, LessonResult } from "@/types";
+import type { Question, LessonResult, Lesson } from "@/types";
+import { reconcileMistakes } from "@/lib/reviewContent";
 import { DEFAULT_EQUIPPED, getCosmeticById, getStarterCosmetics } from "@/lib/cosmetics";
 import {
   starsFromAccuracy,
@@ -90,7 +91,7 @@ export interface ActiveLessonSession {
   mistakeCount: number;
   combo: number;
   startedAt: number; // ms timestamp
-  // —— 以下为可选扩展字段（错题重排队列持久化），老会话缺省不影响恢复 ——
+  // —— 可选扩展字段；恢复前由 lessonSession 校验课程内容是否一致 ——
   /** 剩余待答题目 id 队列（含错题重排回队尾的顺序） */
   queueIds?: number[];
   /** 已答对（离场）的题目 id */
@@ -110,6 +111,8 @@ export interface ActiveLessonSession {
   checkedCorrect?: boolean | null;
   attemptedIds?: number[];
   totalQuestions?: number;
+  /** Identity of knowledge and questions, excluding audio; prevents stale feedback. */
+  contentKey?: string;
 }
 
 /** 🚩 题目报错类型（E2：小旗子三选） */
@@ -386,6 +389,7 @@ interface ProgressState {
   // 📚 SRS：复习答题后的更新（core reviewSrsEntry 单一事实源）。
   // 返回 true 表示本次复习让该题「新毕业」（box3 + 答对≥2），供 UI 庆祝。
   reviewMistake: (lessonId: string, questionId: number, isCorrect: boolean) => boolean;
+  refreshMistakeContent: (lessons: Map<string, Lesson | null>) => void;
 
   /**
    * 复习会话结算：每答对一题 +5 XP（走统一记账，含每日目标判定与
@@ -1498,6 +1502,10 @@ export const useProgressStore = create<ProgressState>()(
       // --------------------------------------------------------
       // 📚 SRS：复习答题后更新错题状态
       // --------------------------------------------------------
+
+      refreshMistakeContent: lessons => {
+        set(state => ({ mistakesBank: reconcileMistakes(state.mistakesBank, lessons) }));
+      },
 
       reviewMistake: (lessonId, questionId, isCorrect) => {
         // core reviewSrsEntry 单一事实源（box3 答对 → 7 天后），消灭内联 fork。

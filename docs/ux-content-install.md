@@ -32,7 +32,7 @@ python3 scripts/checks/site-integrity.py --public apps/web/public --site apps/we
 ## 来源与范围
 
 - `docs/lesson-reviews/` 保存137课模型复核、内容指纹与待完成的教师审核状态；新增297题。
-- `docs/ux-content-corrections.json` 保存另外9道旧题的修正前后记录。16段新增朗读来自已安装的macOS Tingting，拼音选项按对应音节生成；详见 `ux-repair-evidence/tts-repairs.json`，需教师听审。
+- `docs/ux-content-corrections.json` 保存10道确定性题库修正的前后记录（其中1道是新扩充的概率题）。22段新增朗读来自已安装的macOS Tingting，拼音选项按对应音节生成；详见 `ux-repair-evidence/tts-repairs.json`，需教师听审。
 - `docs/ux-content-assets.json` 保存补充包及每个Opus/MP3文件的长度与SHA256。
 - 在数据与音频生成后运行 `python3 scripts/bundle-ux-content-assets.py` 可重新打包这些课涉及的全部朗读；不调用付费生成API。
-- 本补充包包含已复核修订及9道补充修正涉及的全部音频。其余题库、课文和故事仍依赖基础资源包。
+- 本补充包包含已复核修订及10道题库修正涉及的全部音频。其余题库、课文和故事仍依赖基础资源包。

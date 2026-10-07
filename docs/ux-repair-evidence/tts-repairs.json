@@ -158,5 +158,65 @@
     "provider": "macOS Tingting, local synthesis",
     "spoken_text": "20 加 8 等于 12",
     "teacher_review": "pending"
+  },
+  {
+    "lesson": "g5up-u4-kp3",
+    "question_id": 26,
+    "field": "question",
+    "text": "一个转盘平均分成12格，只涂绿、黄两种颜色，指针停在每格的机会相同。要使指针停在绿格上的可能性是停在黄格上的3倍，哪种涂法符合要求？",
+    "audio": "audio/ca/ca00600dda079def16ad00a592e1340cc90b3209.opus",
+    "provider": "macOS Tingting, local synthesis",
+    "spoken_text": "一个转盘平均分成12格，只涂绿、黄两种颜色，指针停在每格的机会相同。要使指针停在绿格上的可能性是停在黄格上的3倍，哪种涂法符合要求？",
+    "teacher_review": "pending"
+  },
+  {
+    "lesson": "g5up-u4-kp3",
+    "question_id": 26,
+    "field": "explanation",
+    "text": "12格分成绿格和黄格两部分。绿格数是黄格数的3倍，把黄格数看作1份，绿格数就是3份，合起来是4份。12除以4等于3，所以黄格有3格，绿格有9格。9是3的3倍，9加3等于12，因此绿格9格、黄格3格符合要求。",
+    "audio": "audio/0c/0cf3a35c3869f350cff4ccd40474bc14b809bb3b.opus",
+    "provider": "macOS Tingting, local synthesis",
+    "spoken_text": "12格分成绿格和黄格两部分。绿格数是黄格数的3倍，把黄格数看作1份，绿格数就是3份，合起来是4份。12除以4等于3，所以黄格有3格，绿格有9格。9是3的3倍，9加3等于12，因此绿格9格、黄格3格符合要求。",
+    "teacher_review": "pending"
+  },
+  {
+    "lesson": "g5up-u4-kp3",
+    "question_id": 26,
+    "field": "options[0]",
+    "text": "绿格4格，黄格8格",
+    "audio": "audio/c8/c84ca54ceb84e12eb24822efc708584adc8e4865.opus",
+    "provider": "macOS Tingting, local synthesis",
+    "spoken_text": "绿格4格，黄格8格",
+    "teacher_review": "pending"
+  },
+  {
+    "lesson": "g5up-u4-kp3",
+    "question_id": 26,
+    "field": "options[1]",
+    "text": "绿格6格，黄格6格",
+    "audio": "audio/14/143d00d7abea4ed66fdfd5582e26236c4b2e232d.opus",
+    "provider": "macOS Tingting, local synthesis",
+    "spoken_text": "绿格6格，黄格6格",
+    "teacher_review": "pending"
+  },
+  {
+    "lesson": "g5up-u4-kp3",
+    "question_id": 26,
+    "field": "options[2]",
+    "text": "绿格9格，黄格3格",
+    "audio": "audio/f4/f4922cd4504b4de537e1b20d6b6d20d789c52412.opus",
+    "provider": "macOS Tingting, local synthesis",
+    "spoken_text": "绿格9格，黄格3格",
+    "teacher_review": "pending"
+  },
+  {
+    "lesson": "g5up-u4-kp3",
+    "question_id": 26,
+    "field": "options[3]",
+    "text": "绿格10格，黄格2格",
+    "audio": "audio/49/49e4c74f0f35cdf3f2440f85a411d95183bab831.opus",
+    "provider": "macOS Tingting, local synthesis",
+    "spoken_text": "绿格10格，黄格2格",
+    "teacher_review": "pending"
   }
 ]

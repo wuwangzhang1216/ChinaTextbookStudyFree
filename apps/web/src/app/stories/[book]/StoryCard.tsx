@@ -26,7 +26,7 @@ export function StoryCard({ story, bookId }: Props) {
     <SoundLink
       href={`/stories/${bookId}/${story.id}/`}
       className={cn(
-        "block rounded-2xl bg-white border overflow-hidden hover:border-primary/40 transition-colors",
+        "block rounded-2xl bg-white border-2 overflow-hidden hover:border-primary/40 transition-colors",
         done ? "border-primary/30" : "border-bg-softer",
       )}
     >
@@ -45,13 +45,13 @@ export function StoryCard({ story, bookId }: Props) {
         <div
           className={cn(
             "shrink-0 w-10 h-10 rounded-full inline-flex items-center justify-center",
-            done ? "bg-primary/10 text-primary" : "bg-gold/10 text-gold",
+            done ? "bg-primary/10 text-primary" : "bg-secondary/10 text-secondary-dark",
           )}
         >
           <Book className="w-5 h-5" />
         </div>
         <div className="flex-1 min-w-0">
-          <div className="text-base font-bold text-ink truncate">
+          <div className="text-base font-extrabold text-ink leading-snug">
             {story.title}
           </div>
           <div className="text-xs text-ink-light mt-0.5 flex items-center gap-1">

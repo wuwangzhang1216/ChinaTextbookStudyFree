@@ -8,7 +8,7 @@ import { getIntroAudio } from "./introAudio";
 
 const INITIAL: IntroPlaybackSnapshot = { status: "ready", segment: -1, progress: null, remainingSeconds: null };
 
-export function useIntroNarration(sources: Array<string | null | undefined>, key: string, required: boolean) {
+export function useIntroNarration(sources: Array<string | null | undefined>, key: string, required: boolean, alreadyHeard = false) {
   const autoNarrate = useProgressStore(s => s.autoNarrate);
   const muted = useProgressStore(s => s.muted);
   const sourcesRef = useRef(sources);
@@ -17,7 +17,7 @@ export function useIntroNarration(sources: Array<string | null | undefined>, key
   const playerRef = useRef<IntroNarrationPlayer | null>(null);
   const [state, setState] = useState({ ...INITIAL, key });
   const snapshot = state.key === key ? state : INITIAL;
-  const locked = required && !heardRef.current.has(key);
+  const locked = required && !alreadyHeard && !heardRef.current.has(key);
 
   useEffect(() => {
     let active = true;
@@ -31,12 +31,12 @@ export function useIntroNarration(sources: Array<string | null | undefined>, key
     }, undefined, undefined, getIntroAudio());
     playerRef.current = player;
     setState({ ...INITIAL, key });
-    if (autoNarrate && !muted && list.length > 0) {
+    if (!alreadyHeard && autoNarrate && !muted && list.length > 0) {
       stopTTS();
       void player.start();
     }
     const resume = (event: Event) => {
-      if (!event.isTrusted || !autoNarrate || muted || playbackStatus !== "ready" || list.length === 0) return;
+      if (alreadyHeard || !event.isTrusted || !autoNarrate || muted || playbackStatus !== "ready" || list.length === 0) return;
       const target = event.target instanceof Element ? event.target : null;
       // Explicit speaker and navigation controls own their click handlers.
       if (target?.closest('a, [role="button"], [aria-label="退出课程"], [aria-label="上一步"]')) return;
@@ -56,7 +56,7 @@ export function useIntroNarration(sources: Array<string | null | undefined>, key
       playerRef.current = null;
       player.dispose();
     };
-  }, [key, autoNarrate, muted]);
+  }, [key, autoNarrate, muted, alreadyHeard]);
 
   function start() {
     if (muted) return;

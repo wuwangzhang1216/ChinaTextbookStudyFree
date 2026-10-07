@@ -64,7 +64,7 @@ const bootScript = `
       root.style.backgroundColor = cosmeticDark ? DARK_THEMES[equipped] : "#131F24";
     }
   } catch (e) {}
-  if ("serviceWorker" in navigator) {
+  if (${process.env.NODE_ENV === "production"} && "serviceWorker" in navigator) {
     window.addEventListener("load", function () {
       navigator.serviceWorker.register("/sw.js").catch(function () {});
     });

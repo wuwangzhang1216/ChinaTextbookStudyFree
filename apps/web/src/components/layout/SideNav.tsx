@@ -12,10 +12,12 @@
  * 底部：免费深色模式三态开关。
  */
 
+import { useProgressStore } from "@/store/progress";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import type { ComponentType } from "react";
 import {
+  BookOpen,
   Home as HomeIcon,
   HomeFill,
   Trophy,
@@ -68,6 +70,10 @@ function isActive(pathname: string, item: NavItem): boolean {
 export function SideNav() {
   const pathname = usePathname() ?? "/";
 
+  const grade = useProgressStore(s => s.selectedGrade) ?? 1;
+  const completed = useProgressStore(s => Object.keys(s.completedLessons).length);
+  const items = ITEMS.map(item => item.matchPrefix === "/league" && completed < 10 ? { ...item, href: `/reading/chinese-g${grade}up/`, label: "听读", Icon: BookOpen, IconActive: BookOpen, matchPrefix: "/reading" } : item);
+
   return (
     <nav className="flex flex-col gap-2 w-full h-full" aria-label="主导航">
       {/* Logo —— 文字 wordmark（lg+）；md 窄栏显示熊猫图标 */}
@@ -88,7 +94,7 @@ export function SideNav() {
         </span>
       </Link>
 
-      {ITEMS.map(item => {
+      {items.map(item => {
         const active = isActive(pathname, item);
         const Icon = active ? item.IconActive : item.Icon;
         return (

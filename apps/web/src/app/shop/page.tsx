@@ -1,7 +1,7 @@
 "use client";
 
 /**
- * 美妆商店 —— 用 gems 解锁吉祥物皮肤 / UI 主题 / 课程背景
+ * 装扮商店 —— 用 gems 解锁吉祥物皮肤 / UI 主题 / 课程背景
  *
  * 公益项目约束：
  *   - 所有道具都能通过游戏内 gems 解锁
@@ -134,7 +134,7 @@ export default function ShopPage() {
   }
 
   return (
-    <AppShell centerMaxWidth={920}>
+    <AppShell right={null} centerMaxWidth={920}>
     <main className="min-h-screen bg-bg-soft lg:bg-transparent">
       {/* Header —— 仅移动端：白底 sticky（lg+ 宝石数由右栏 RightRail HUD 常驻展示） */}
       <div className="bg-white border-b border-bg-softer sticky top-0 z-10 lg:hidden">
@@ -156,7 +156,8 @@ export default function ShopPage() {
       </div>
 
       <div className="max-w-3xl mx-auto px-4 py-4 lg:py-2 lg:px-0">
-        {/* ⚡ 红心 & 连胜 —— 功能性道具（护盾 / 补心），与纯美妆分区 */}
+        <h1 className="text-2xl font-extrabold text-ink mb-4">聪聪衣橱</h1>
+        {/* ⚡ 红心 & 连胜 —— 功能性道具（护盾 / 补心），与纯装扮分区 */}
         <PowerUpsSection />
 
         {/* Tab 切换 —— 移动端 3 列等宽不溢出 / 桌面端横向 chip */}
@@ -204,7 +205,7 @@ export default function ShopPage() {
         </div>
 
         {/* 2 列：左大预览 + 右网格 */}
-        <div className="lg:grid lg:grid-cols-[minmax(0,300px)_minmax(0,1fr)] lg:gap-4 lg:items-start">
+        <div className="lg:grid xl:grid-cols-[minmax(0,260px)_minmax(0,1fr)] lg:gap-4 lg:items-start">
           {/* 大预览面板 */}
           <div className="mb-6 lg:mb-0 lg:sticky lg:top-24 relative">
             <PreviewPane
@@ -223,7 +224,7 @@ export default function ShopPage() {
 
           {/* 右侧网格 */}
           <div>
-            <div className="grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <div className="grid grid-cols-[repeat(auto-fit,minmax(min(100%,140px),1fr))] gap-3">
               {items.map(item => {
                 const owned = !!ownedCosmetics[item.id];
                 const equipped = isEquipped(item);
@@ -263,7 +264,7 @@ export default function ShopPage() {
 }
 
 // ============================================================
-// ⚡ 红心 & 连胜 —— 连胜护盾 / 补满红心（功能性，非美妆）
+// ⚡ 红心 & 连胜 —— 连胜护盾 / 补满红心（功能性，非装扮）
 // ============================================================
 function PowerUpsSection() {
   const toast = useToast();
@@ -725,12 +726,12 @@ function ItemCard({
 
       {/* 信息 */}
       <div className="px-3 py-2.5 flex flex-col gap-1">
-        <div className="text-[13px] font-extrabold text-ink leading-tight truncate">
+        <div className="text-[13px] font-extrabold text-ink leading-snug break-words">
           {item.name}
         </div>
         <div className="flex items-center justify-between gap-1">
           <span
-            className="text-[9px] uppercase tracking-wider font-extrabold"
+            className="text-[10px] whitespace-nowrap font-extrabold"
             style={{ color: rarityColor }}
           >
             {RARITY_LABELS[item.rarity]}

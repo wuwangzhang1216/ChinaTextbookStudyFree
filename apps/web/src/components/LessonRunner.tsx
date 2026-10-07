@@ -13,12 +13,7 @@ import {
   Lightning,
   Gem,
   Star,
-  Sparkle,
-  Confetti,
-  Rocket,
   Heart,
-  CheckCircle,
-  Trophy,
 } from "@/components/icons";
 import type { Lesson, KnowledgeSummary } from "@/types";
 import { gradeAnswer } from "@/lib/grade";
@@ -27,13 +22,10 @@ import { MathText } from "@/components/MathText";
 import { useProgressStore, MAX_HEARTS, HEART_REFILL_COST, type LessonOutcome } from "@/store/progress";
 import {
   XP_PER_CORRECT,
-  PERFECT_XP_BONUS,
-  FIRST_PERFECT_XP_BONUS,
   THREE_STAR_ACCURACY,
   TWO_STAR_ACCURACY,
   WEEKEND_XP_MULTIPLIER,
   EXAM_XP_MULTIPLIER,
-  DAILY_GOAL_BONUS,
   starsFromAccuracy,
   xpForLesson,
   isWeekendXpActive,
@@ -65,9 +57,8 @@ import {
   type MascotTriggerContext,
 } from "@/lib/mascotTriggers";
 import { getCosmeticById, type LessonBackdrop } from "@/lib/cosmetics";
-import { hasLessonProgress } from "@/lib/lessonSession";
-import { ShareCardButton } from "./ShareCardButton";
-import { renderBadgeCard, renderStreakCard, buildShareWeek } from "@/lib/shareCard";
+import { CountingWarmup } from "./CountingWarmup";
+import { hasLessonProgress, restoreQuestionSession } from "@/lib/lessonSession";
 import type { QuestionType } from "@cstf/core";
 
 /** 仿 Duolingo 题型胶囊文案（紫色 NEW WORD tag） */
@@ -94,10 +85,6 @@ function questionTagLabel(type: QuestionType): string {
 // 重型/条件渲染的子组件：按需加载以减小 LessonRunner 初始 chunk
 const FeedbackPanel = dynamic(
   () => import("./FeedbackPanel").then(m => ({ default: m.FeedbackPanel })),
-  { ssr: false },
-);
-const ConfettiCanvas = dynamic(
-  () => import("./ConfettiCanvas").then(m => ({ default: m.ConfettiCanvas })),
   { ssr: false },
 );
 const Modal = dynamic(
@@ -212,6 +199,7 @@ interface LessonRunnerProps {
   lesson: Lesson;
   /** 本节课紧跟的宝箱 slot（由 page.tsx 预计算） */
   chestSlot?: ChestSlot | null;
+  nextLessonId?: string;
 }
 
 /** 结算页的任务进度快照：before = 通关记账前，after = 记账后 */
@@ -229,6 +217,10 @@ interface SessionStats {
   /** 通关记账原子结算单（recordLessonComplete 返回值） */
   outcome: LessonOutcome;
   accuracy: number;
+  firstCorrect: number;
+  totalQuestions: number;
+  correctedCount: number;
+  practiceOnly: boolean;
   perfect: boolean;
   /** 本节是否享受周末双倍 XP */
   weekend: boolean;
@@ -243,7 +235,7 @@ interface SessionStats {
   quests: QuestSnapshot[];
 }
 
-export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
+export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonRunnerProps) {
   useSyncMute();
   useProgressTicker(); // 红心实时恢复
   const router = useRouter();
@@ -343,7 +335,11 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   // 移动端设置小弹层（web-lesson-9）
   const [settingsMounted, setSettingsMounted] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
-  const [showIntro, setShowIntro] = useState(lesson.knowledge !== null);
+  const [showIntro, setShowIntro] = useState(lesson.knowledge !== null || lesson.id === "g1up-u1-kp1");
+  const [introPage, setIntroPage] = useState(0);
+  const [introCompletedPages, setIntroCompletedPages] = useState<number[]>([]);
+  const [warmupCounted, setWarmupCounted] = useState<number[]>([]);
+  const [showHandbook, setShowHandbook] = useState(false);
   /**
    * 🔒 交互闸门（webrunner-5）：任何遮罩打开时，题目区的键盘快捷键 / 点击 /
    * 配对题自动提交都必须停摆 —— 否则用户在断心遮罩前敲数字键就能把题判掉。
@@ -363,51 +359,29 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
     useProgressStore.getState().refreshHearts();
     const stored = useProgressStore.getState().activeLesson;
     let sessionRestored = false;
-    // 可续会话口径统一（webrunner-7）：同一课程 + 有过实际作答。
-    // 一题未答的空会话不算进度 —— 否则课前知识讲解会被永久跳过。
-    if (stored && stored.lessonId === lesson.id && hasLessonProgress(stored)) {
-      const validIds = new Set(questions.map(q => q.id));
-      let restoredSolved: number[];
-      let restoredQueue: number[];
-      if (stored.queueIds && stored.solvedIds) {
-        restoredSolved = stored.solvedIds.filter(id => validIds.has(id));
-        const seen = new Set(restoredSolved);
-        restoredQueue = stored.queueIds.filter(id => validIds.has(id) && !seen.has(id));
-        // 课程数据更新后可能出现新题：补进队尾
-        const known = new Set([...restoredSolved, ...restoredQueue]);
-        for (const q of questions) if (!known.has(q.id)) restoredQueue.push(q.id);
-      } else {
-        // 老版本会话（线性 index）：前 index 题视为已过，其余按原序排队
-        const safeIndex = Math.min(stored.index, Math.max(0, total - 1));
-        restoredSolved = questions.slice(0, safeIndex).map(q => q.id);
-        restoredQueue = questions.slice(safeIndex).map(q => q.id);
-      }
-      if (restoredQueue.length === 0) {
-        // 异常兜底：队列已空却没结算 → 丢弃会话重新开始
-        useProgressStore.getState().clearLessonSession();
-      } else {
-        setCurrentId(restoredQueue[0]);
-        setQueue(restoredQueue.slice(1));
-        setSolved(restoredSolved);
-        setCorrectCount(stored.correctCount);
-        setMistakeCount(stored.mistakeCount);
-        setCombo(stored.combo);
-        setMaxCombo(stored.maxCombo ?? stored.combo);
-        setSessionXp(stored.sessionXp ?? stored.correctCount * XP_PER_CORRECT);
-        // attempted 还原。队列不变式：[未答过的原序前缀 …… 重排的错题后缀]
-        const freshRemaining = Math.max(
-          0,
-          total - (stored.correctCount + stored.mistakeCount),
-        );
-        const requeued = restoredQueue.slice(
-          Math.min(freshRemaining, restoredQueue.length),
-        );
-        attemptedRef.current = new Set([...restoredSolved, ...requeued]);
-        startTimeRef.current = stored.startedAt || Date.now();
-        // 有进度时默认跳过知识点介绍（用户已经看过了）
-        setShowIntro(false);
-        sessionRestored = true;
-      }
+    // 学习阶段、草稿和反馈都可恢复；旧版已经结束的空队列重新开课。
+    const restored = stored && stored.lessonId === lesson.id && hasLessonProgress(stored)
+      ? restoreQuestionSession(stored, questions.map(q => q.id)) : null;
+    if (stored && restored?.currentId != null) {
+      setCurrentId(restored.currentId);
+      setQueue(restored.queue);
+      setSolved(restored.solved);
+      setPhase(restored.phase);
+      setAnswer(restored.answer);
+      setIsCorrect(restored.isCorrect);
+      setCorrectCount(stored.correctCount);
+      setMistakeCount(stored.mistakeCount);
+      setCombo(stored.combo);
+      setMaxCombo(stored.maxCombo ?? stored.combo);
+      setSessionXp(stored.sessionXp ?? stored.correctCount * XP_PER_CORRECT);
+      attemptedRef.current = new Set(restored.attempted);
+      startTimeRef.current = stored.startedAt || Date.now();
+      setIntroPage(stored.introPage ?? 0);
+      setShowHandbook(stored.introMode === "handbook");
+      setIntroCompletedPages(stored.introCompletedPages ?? []);
+      setWarmupCounted(stored.warmupCounted ?? []);
+      setShowIntro(stored.stage === "intro");
+      sessionRestored = true;
     } else if (stored) {
       // 切换到了新课程 / 旧版本留下的空会话 → 丢弃
       useProgressStore.getState().clearLessonSession();
@@ -429,18 +403,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   // 持久化会话：只要还在答题，就把核心进度写回 store
   useEffect(() => {
     if (!ready || done || failed) return;
-    // 课前知识讲解还没看完 → 一节课都还没开始，不落盘（webrunner-4）
-    if (showIntro) return;
-    // 一题都还没作答 → 不落盘。否则首页会出现假的「继续学习」卡，
-    // 而且下次进入这节课会因为「有进度」跳过课前知识讲解。
-    if (attemptedRef.current.size === 0 && solved.length === 0) return;
-    // answering 相位：当前题还没答，排在持久化队列最前
-    const persistedQueue =
-      phase === "answering" && currentId != null ? [currentId, ...queue] : queue;
-    // 最后一题判定后（checked，队列已空）不要写空会话（webrunner-3）：
-    // 用户此时若直接离开，空队列快照会在恢复时命中「队列空却没结算」兜底 →
-    // 整节课进度被清零。保留上一次非空快照，与 iOS 的 guard 对齐。
-    if (persistedQueue.length === 0) return;
+    const persistedQueue = phase === "answering" && currentId != null ? [currentId, ...queue] : queue;
     upsertLessonSession({
       lessonId: lesson.id,
       index: solved.length,
@@ -452,6 +415,10 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
       solvedIds: solved,
       maxCombo,
       sessionXp,
+      stage: showIntro ? "intro" : "practice",
+      introPage, introMode: showHandbook ? "handbook" : "warmup", introCompletedPages, warmupCounted,
+      currentId, draftAnswer: answer, phase, checkedCorrect: isCorrect,
+      attemptedIds: [...attemptedRef.current], totalQuestions: total,
     });
   }, [
     ready,
@@ -468,7 +435,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
     combo,
     maxCombo,
     sessionXp,
-    upsertLessonSession,
+    upsertLessonSession, answer, isCorrect, introPage, introCompletedPages, warmupCounted, total, showHandbook,
   ]);
 
   // 通关时清除持久化会话。
@@ -758,13 +725,13 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   /** 通关结算：原子记账 + 任务进度快照 + 冻结展示数据 */
   function finishLesson() {
     const accuracy = total > 0 ? correctCount / total : 0;
-    const perfect = mistakeCount === 0;
+    const perfect = mistakeCount === 0 && total >= 3;
     const store = useProgressStore.getState();
 
     // 首次三星（该课历史首次达 3 星）额外奖励 —— 写入前只读快照判断，
     // 真正的 perfectedLessons 标记由 recordLessonComplete 内部完成
     const alreadyPerfected = !!store.perfectedLessons[lesson.id];
-    const firstPerfect = starsFromAccuracy(accuracy) === 3 && !alreadyPerfected;
+    const firstPerfect = total >= 3 && starsFromAccuracy(accuracy) === 3 && !alreadyPerfected;
     // XP 公式单一事实源：@cstf/core xpForLesson（挑战 ×2 → 周末再 ×2，可叠加）
     const xp = xpForLesson({
       correctCount,
@@ -789,7 +756,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
       claimChest(chestReward.slot.id);
       addGems(chestReward.gems);
     }
-    const outcome = recordComplete(lesson.id, lesson.title, accuracy, xp);
+    const outcome = recordComplete(lesson.id, lesson.title, accuracy, xp, { questionCount: total });
     const after = useProgressStore.getState();
     const quests: QuestSnapshot[] = questsToday.map((q, i) => ({
       quest: q,
@@ -801,6 +768,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
     setSessionStats({
       outcome,
       accuracy,
+      firstCorrect: correctCount, totalQuestions: total, correctedCount: mistakeCount, practiceOnly: total < 3,
       perfect,
       weekend,
       isExam,
@@ -968,6 +936,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
       <CompletionScreen
         lesson={lesson}
         stats={sessionStats}
+        onNext={nextLessonId && !useProgressStore.getState().dailyTimeLimitReached() ? () => router.push(`/lesson/${lesson.bookId}/${nextLessonId}/`) : undefined}
         onBack={() => router.push(`/book/${lesson.bookId}/`)}
       />
     );
@@ -985,11 +954,17 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
   }
 
   // ============ 知识点讲解（首次进入） ============
+  if (showIntro && lesson.id === "g1up-u1-kp1" && !showHandbook) {
+    return <CountingWarmup counted={warmupCounted} onCount={id => setWarmupCounted(ids => ids.includes(id) ? ids : [...ids, id])}
+      onStart={() => setShowIntro(false)} onHelp={() => setShowHandbook(true)} onExit={() => router.push(`/book/${lesson.bookId}/`)} />;
+  }
   if (showIntro && lesson.knowledge) {
     return (
       <IntroCard
         lesson={lesson}
         knowledge={lesson.knowledge}
+        pageIdx={introPage} setPageIdx={setIntroPage} completedPages={introCompletedPages}
+        onPageComplete={page => setIntroCompletedPages(pages => pages.includes(page) ? pages : [...pages, page])}
         onStart={() => setShowIntro(false)}
         onExit={() => router.push(`/book/${lesson.bookId}/`)}
       />
@@ -1172,7 +1147,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
           <button
             type="button"
             onClick={handleRequestExit}
-            className="h-9 w-9 -ml-1 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
+            className="h-11 w-11 -ml-1 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors shrink-0"
             aria-label="退出课程"
           >
             <Close className="w-5 h-5" />
@@ -1270,7 +1245,7 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
                 setSettingsMounted(true);
                 setShowSettings(true);
               }}
-              className="h-8 w-8 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors"
+              className="h-11 w-11 inline-flex items-center justify-center rounded-full text-ink-light hover:text-ink hover:bg-bg-softer transition-colors"
               aria-label="课程设置"
             >
               <GearIcon className="w-5 h-5" />
@@ -1280,11 +1255,11 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
       </div>
 
       {/* 三星距离提示（动态：剩 N 题就三星 / 二星，临近时会更激励） */}
-      <StarDistanceHint
+      {total >= 3 && <StarDistanceHint
         correctCount={correctCount}
         answered={answeredFirst}
         total={total}
-      />
+      />}
 
       {/* 吉祥物 + 气泡 */}
       <div className="max-w-md lg:max-w-2xl mx-auto w-full px-5 pt-2 flex items-end gap-3 min-h-[96px]">
@@ -1303,6 +1278,16 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
         </div>
       </div>
 
+      {total < 3 && <p className="max-w-md mx-auto px-5 pt-3 text-sm text-ink-light">微练习 · 先试一试，再通过更多情境巩固</p>}
+      {lesson.knowledge && <details className="max-w-md lg:max-w-2xl mx-auto w-full px-5 pt-3">
+        <summary className="cursor-pointer min-h-11 flex items-center text-secondary-dark font-bold">聪聪的讲解手册</summary>
+        <div className="rounded-2xl bg-white border-2 border-bg-softer p-4 text-ink leading-relaxed space-y-3">
+          <MathText text={lesson.knowledge.core_concept} />
+          <TTSButton src={lesson.knowledge.audio?.core_concept} label="朗读知识讲解" />
+          <MathText text={lesson.knowledge.key_formula} />
+          <MathText text={lesson.knowledge.tips} />
+        </div>
+      </details>}
       {/* Question area */}
       <div className="flex-1 flex flex-col items-center justify-start px-5 py-4">
         <div className="w-full max-w-md lg:max-w-2xl">
@@ -1404,767 +1389,47 @@ export function LessonRunner({ lesson, chestSlot = null }: LessonRunnerProps) {
 // 完成 / 失败子页
 // ============================================================
 
-function useCountUp(target: number, duration = 900): number {
-  const [value, setValue] = useState(0);
-  const rafRef = useRef<number | null>(null);
-  useEffect(() => {
-    const start = performance.now();
-    const from = 0;
-    const tick = (now: number) => {
-      const t = Math.min(1, (now - start) / duration);
-      const eased = 1 - Math.pow(1 - t, 3);
-      setValue(from + (target - from) * eased);
-      if (t < 1) rafRef.current = requestAnimationFrame(tick);
-    };
-    rafRef.current = requestAnimationFrame(tick);
-    return () => {
-      if (rafRef.current != null) cancelAnimationFrame(rafRef.current);
-    };
-  }, [target, duration]);
-  return value;
-}
-
 function formatTime(sec: number): string {
   const m = Math.floor(sec / 60);
   const s = sec % 60;
   return `${m}:${String(s).padStart(2, "0")}`;
 }
 
-function todayKey(offsetDays = 0): string {
-  const d = new Date();
-  d.setDate(d.getDate() + offsetDays);
-  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
-}
-
-/**
- * 结算序列（web-lesson-6 / web-economy-7 / E1 挑战幕）—— 多幕节拍：
- *   1. stars   星星揭示（+完美/首三星/挑战双倍/周末徽章）
- *   2. conquer 单元征服幕（挑战课 accuracy ≥ 0.8 时）
- *   3. streak  连胜幕（当日首课推进连胜时；里程碑大庆祝）
- *   4. goal    每日目标达成幕（本次跨过目标时，+20💎）
- *   5. stats   统计卡（XP 实际入账值 / 宝石全额，宝箱另计弹窗）
- *   6. quests  任务进度幕（before → after 推进动画）
- * 每幕 Enter / 点击继续，幕间音效错峰。
- */
-type CompletionAct = "stars" | "conquer" | "streak" | "goal" | "stats" | "quests";
-
-function CompletionScreen({
-  lesson,
-  stats,
-  onBack,
-}: {
-  lesson: Lesson;
-  stats: SessionStats;
-  onBack: () => void;
-}) {
+function CompletionScreen({ lesson, stats, onBack, onNext }: { lesson: Lesson; stats: SessionStats; onBack: () => void; onNext?: () => void }) {
   const { outcome } = stats;
-  const acts = useMemo<CompletionAct[]>(() => {
-    const a: CompletionAct[] = ["stars"];
-    if (stats.conquered) a.push("conquer");
-    if (outcome.streakIncreased) a.push("streak");
-    if (outcome.dailyGoalReachedNow) a.push("goal");
-    a.push("stats", "quests");
-    return a;
-  }, [outcome, stats.conquered]);
-  const [actIdx, setActIdx] = useState(0);
-  const act = acts[actIdx];
-  const isLast = actIdx >= acts.length - 1;
-
-  function advance() {
-    playSfx("tap");
-    haptic("light");
-    if (isLast) {
-      onBack();
-      return;
-    }
-    setActIdx(i => i + 1);
-  }
-
-  // Enter / 空格 推进当前幕（焦点在按钮上时交给原生 click）
-  useEffect(() => {
-    const onKeyDown = (e: KeyboardEvent) => {
-      if (shouldIgnoreKey(e)) return;
-      if (e.key !== "Enter" && e.key !== " ") return;
-      if (isButtonTarget(e)) return;
-      e.preventDefault();
-      advance();
-    };
-    window.addEventListener("keydown", onKeyDown);
-    return () => window.removeEventListener("keydown", onKeyDown);
-  });
-
-  return (
-    <main className="min-h-screen bg-bg-soft flex flex-col items-center justify-center px-5 relative overflow-hidden">
-      {(act === "stars" ||
-        act === "conquer" ||
-        (act === "streak" && outcome.milestoneGems > 0)) && (
-        <ConfettiCanvas active />
-      )}
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={act}
-          initial={{ x: 40, opacity: 0, scale: 0.97 }}
-          animate={{ x: 0, opacity: 1, scale: 1 }}
-          exit={{ x: -40, opacity: 0, scale: 0.97 }}
-          transition={{ type: "spring", damping: 20, stiffness: 240 }}
-          className="w-full max-w-md relative z-10"
-        >
-          {act === "stars" && <StarsAct lesson={lesson} stats={stats} onContinue={advance} />}
-          {act === "conquer" && <ConquerAct lesson={lesson} onContinue={advance} />}
-          {act === "streak" && <StreakAct outcome={outcome} onContinue={advance} />}
-          {act === "goal" && <GoalAct onContinue={advance} />}
-          {act === "stats" && <StatsAct stats={stats} onContinue={advance} />}
-          {act === "quests" && (
-            <QuestsAct quests={stats.quests} onContinue={advance} />
-          )}
-        </motion.div>
-      </AnimatePresence>
-    </main>
-  );
-}
-
-function ActContinueButton({
-  label = "继续",
-  onClick,
-}: {
-  label?: string;
-  onClick: () => void;
-}) {
-  return (
-    <button
-      autoFocus
-      onClick={onClick}
-      className="btn-chunky-primary mt-8 px-12 mx-auto block"
-    >
-      {label}
-    </button>
-  );
-}
-
-/** 第 1 幕：星星揭示 + 完美/首三星/周末徽章 */
-function StarsAct({
-  lesson,
-  stats,
-  onContinue,
-}: {
-  lesson: Lesson;
-  stats: SessionStats;
-  onContinue: () => void;
-}) {
-  const { outcome, perfect, weekend, isExam } = stats;
-  const stars = outcome.stars;
-  const [revealedStars, setRevealedStars] = useState(0);
-  const [mascotReactKey, setMascotReactKey] = useState(0);
-  // 15% 偶发"超级庆祝" —— 仅在 perfect 通关时有可能触发
-  const [superCelebration] = useState(() => perfect && Math.random() < 0.15);
-
-  useEffect(() => {
-    playSfx("complete");
-    // 星星揭晓完毕后播"完成!"语音（延迟到动画尾声，不抢音效节奏）
-    const voiceTimer = setTimeout(() => {
-      void playTTS(uiAudio("完成!"));
-    }, 500 + 3 * 380 + 200);
-    // 超级庆祝：再叠加一次 unlock 音效 + 多一次 mascot react
-    let superTimer: ReturnType<typeof setTimeout> | null = null;
-    if (superCelebration) {
-      superTimer = setTimeout(() => {
-        playSfx("unlock");
-        haptic("success");
-        setMascotReactKey(k => k + 1);
-      }, 500 + 3 * 380 + 400);
-    }
-    const t0 = setTimeout(() => setMascotReactKey(k => k + 1), 120);
-    const starTimers: ReturnType<typeof setTimeout>[] = [];
-    for (let i = 0; i < stars; i++) {
-      const t = setTimeout(
-        () => {
-          setRevealedStars(s => s + 1);
-          playSfx("star");
-          haptic("light");
-        },
-        500 + i * 380,
-      );
-      starTimers.push(t);
-    }
-    return () => {
-      clearTimeout(voiceTimer);
-      clearTimeout(t0);
-      if (superTimer) clearTimeout(superTimer);
-      starTimers.forEach(clearTimeout);
-    };
-  }, [stars, superCelebration]);
-
-  return (
-    <div className="text-center">
-      {/* 超级庆祝彩带 —— 15% 偶发，让幸运的玩家感觉"赚到了" */}
-      <AnimatePresence>
-        {superCelebration && (
-          <motion.div
-            initial={{ y: -60, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }}
-            exit={{ opacity: 0 }}
-            transition={{ delay: 1.4, type: "spring", damping: 14, stiffness: 240 }}
-            className="inline-flex items-center gap-2 px-5 py-3 mb-3 rounded-full text-white font-extrabold text-base"
-            style={{
-              background: "linear-gradient(135deg, #FFC800, #FF6B6B, #CE82FF)",
-              backgroundSize: "200% 100%",
-              boxShadow: "0 5px 0 0 #A560E8, 0 0 30px rgba(255, 200, 0, 0.6)",
-            }}
-          >
-            <Confetti className="w-5 h-5" />
-            <span>太厉害了！完美通关！</span>
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      <motion.div
-        initial={{ scale: 0.6, opacity: 0, y: 20 }}
-        animate={{ scale: 1, opacity: 1, y: 0 }}
-        transition={{ type: "spring", damping: 16, stiffness: 220 }}
-      >
-        <Mascot mood="cheer" size={150} reactTo="levelup" reactKey={mascotReactKey} />
-        <motion.h1
-          initial={{ y: 10, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ delay: 0.2 }}
-          className="text-4xl font-extrabold text-primary mt-4"
-        >
-          完成!
-        </motion.h1>
-        <p className="text-ink-light mt-2">{lesson.title}</p>
-
-        {/* 完美标徽 */}
-        <AnimatePresence>
-          {perfect && (
-            <motion.div
-              initial={{ scale: 0, rotate: -20, opacity: 0 }}
-              animate={{ scale: 1, rotate: 0, opacity: 1 }}
-              transition={{ delay: 0.5, type: "spring", damping: 12 }}
-              className="inline-flex items-center gap-1.5 h-7 px-3 mt-3 rounded-full font-extrabold text-sm text-white"
-              style={{
-                background: "linear-gradient(135deg, #FFC800, #FF9600)",
-                boxShadow: "0 4px 0 0 #C89600",
-              }}
-            >
-              <Star className="w-3.5 h-3.5 fill-current" />
-              <span>零失误 +{PERFECT_XP_BONUS} XP</span>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        {/* 首次完美额外奖励 */}
-        <AnimatePresence>
-          {outcome.isFirstPerfect && (
-            <motion.div
-              initial={{ scale: 0, y: 6, opacity: 0 }}
-              animate={{ scale: 1, y: 0, opacity: 1 }}
-              transition={{ delay: 0.7, type: "spring", damping: 12 }}
-              className="inline-flex items-center gap-1.5 h-7 px-3 mt-2 ml-2 rounded-full font-extrabold text-sm text-white"
-              style={{
-                background: "linear-gradient(135deg, #1CB0F6, #1899D6)",
-                boxShadow: "0 4px 0 0 #0d7aa8",
-              }}
-            >
-              <Sparkle className="w-3.5 h-3.5" />
-              <span>首次三星 +{FIRST_PERFECT_XP_BONUS} XP</span>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        {/* ⚔️ 挑战双倍徽章 —— 单元挑战 XP 总额已按 ×2 入账 */}
-        <AnimatePresence>
-          {isExam && (
-            <motion.div
-              initial={{ scale: 0, y: 6, opacity: 0 }}
-              animate={{ scale: 1, y: 0, opacity: 1 }}
-              transition={{ delay: 0.8, type: "spring", damping: 12 }}
-              className="inline-flex items-center gap-1.5 h-7 px-3 mt-2 ml-2 rounded-full font-extrabold text-sm text-white"
-              style={{
-                background: "linear-gradient(135deg, #CE82FF, #7C3AED)",
-                boxShadow: "0 4px 0 0 #6B21A8",
-                border: "2px solid #FFC800",
-              }}
-            >
-              <Trophy className="w-3.5 h-3.5" />
-              <span>挑战双倍 ×{EXAM_XP_MULTIPLIER}</span>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        {/* 周末双倍徽章 —— 总额已按 ×2 入账，所见即所得 */}
-        <AnimatePresence>
-          {weekend && (
-            <motion.div
-              initial={{ scale: 0, y: 6, opacity: 0 }}
-              animate={{ scale: 1, y: 0, opacity: 1 }}
-              transition={{ delay: 0.85, type: "spring", damping: 12 }}
-              className="inline-flex items-center gap-1.5 h-7 px-3 mt-2 ml-2 rounded-full font-extrabold text-sm text-white"
-              style={{
-                background: "linear-gradient(135deg, #1CB0F6, #1899D6)",
-                boxShadow: "0 4px 0 0 #0d7aa8",
-              }}
-            >
-              <Confetti className="w-3.5 h-3.5" />
-              <span>周末双倍 ×2</span>
-            </motion.div>
-          )}
-        </AnimatePresence>
-
-        <div className="flex justify-center gap-4 mt-6">
-          {[1, 2, 3].map(i => {
-            const earned = i <= stars;
-            const shown = i <= revealedStars;
-            return (
-              <motion.div
-                key={i}
-                initial={{ scale: 0, rotate: -180 }}
-                animate={shown ? { scale: 1, rotate: 0 } : { scale: 0.4, rotate: -180, opacity: 0.3 }}
-                transition={{ type: "spring", damping: 10, stiffness: 220 }}
-                className={earned && shown ? "text-gold" : "text-bg-softer"}
-                style={
-                  earned && shown
-                    ? { filter: "drop-shadow(0 4px 12px rgba(255,200,0,0.6))" }
-                    : undefined
-                }
-              >
-                <Star className="w-16 h-16 fill-current" strokeWidth={1.5} />
-              </motion.div>
-            );
-          })}
-        </div>
-
-        {/* 📤 三星分享卡（E2）：本地 canvas 渲染，系统分享/降级下载 */}
-        {stars === 3 && (
-          <ShareCardButton
-            makeBlob={() =>
-              renderBadgeCard({
-                heading: "三星通关",
-                title: lesson.title,
-                subtitle: `第 ${lesson.unitNumber} 单元 · ${lesson.unitTitle}`,
-                stars: 3,
-              })
-            }
-            filename={`sanxing-${lesson.id}.png`}
-            shareText={`我在聪聪学堂三星通关了「${lesson.title}」！`}
-            className="btn-chunky-secondary px-10 mx-auto block mt-6"
-          />
-        )}
-
-        <ActContinueButton onClick={onContinue} />
-      </motion.div>
-    </div>
-  );
-}
-
-/** ⚔️ 单元征服幕：挑战课 accuracy ≥ 0.8 —— 金色奖杯大庆祝 */
-function ConquerAct({
-  lesson,
-  onContinue,
-}: {
-  lesson: Lesson;
-  onContinue: () => void;
-}) {
-  useEffect(() => {
-    playSfx("unlock");
-    haptic("success");
-    const t = setTimeout(() => playSfx("star"), 300);
-    return () => clearTimeout(t);
-  }, []);
-
-  return (
-    <div className="text-center">
-      <motion.div
-        initial={{ scale: 0.3, rotate: -15, opacity: 0 }}
-        animate={{ scale: 1, rotate: 0, opacity: 1 }}
-        transition={{ type: "spring", damping: 9, stiffness: 200 }}
-        className="inline-block text-gold"
-        style={{ filter: "drop-shadow(0 8px 28px rgba(255,200,0,0.6))" }}
-      >
-        <Trophy className="w-28 h-28" />
-      </motion.div>
-      <motion.h2
-        initial={{ y: 12, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.25 }}
-        className="text-4xl font-extrabold mt-4"
-        style={{
-          background: "linear-gradient(135deg, #FFC800, #FF9600)",
-          WebkitBackgroundClip: "text",
-          backgroundClip: "text",
-          color: "transparent",
-        }}
-      >
-        单元征服！
-      </motion.h2>
-      <motion.p
-        initial={{ y: 8, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.4 }}
-        className="text-ink-light mt-2"
-      >
-        {lesson.unitTitle}的挑战被你拿下啦，奖杯变成金色了！
-      </motion.p>
-      <motion.div
-        initial={{ scale: 0, y: 10, opacity: 0 }}
-        animate={{ scale: 1, y: 0, opacity: 1 }}
-        transition={{ delay: 0.55, type: "spring", damping: 11 }}
-        className="mt-4 inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-white text-sm font-extrabold"
-        style={{
-          background: "linear-gradient(135deg, #CE82FF, #7C3AED)",
-          boxShadow: "0 4px 0 0 #6B21A8",
-          border: "2px solid #FFC800",
-        }}
-      >
-        ⚔️ 第 {lesson.unitNumber} 单元 · 征服达成
-      </motion.div>
-      <ActContinueButton onClick={onContinue} />
-    </div>
-  );
-}
-
-/** 第 2 幕：连胜幕 —— 大火焰 + 本周 7 格日历 + 里程碑大庆祝 */
-function StreakAct({
-  outcome,
-  onContinue,
-}: {
-  outcome: LessonOutcome;
-  onContinue: () => void;
-}) {
-  const xpHistory = useProgressStore(s => s.xpHistory);
-  const week = useMemo(() => {
-    const now = new Date();
-    const mondayOffset = (now.getDay() + 6) % 7; // 0 = 周一
-    const labels = ["一", "二", "三", "四", "五", "六", "日"];
-    return labels.map((label, i) => {
-      const key = todayKey(i - mondayOffset);
-      return {
-        label,
-        key,
-        isToday: i === mondayOffset,
-        active: (xpHistory[key] ?? 0) > 0,
-      };
-    });
-  }, [xpHistory]);
-
-  useEffect(() => {
-    playSfx("combo");
-    haptic("success");
-    let t: ReturnType<typeof setTimeout> | null = null;
-    if (outcome.milestoneGems > 0) {
-      t = setTimeout(() => {
-        playSfx("unlock");
-        haptic("success");
-      }, 650);
-    }
-    return () => {
-      if (t) clearTimeout(t);
-    };
-  }, [outcome.milestoneGems]);
-
-  return (
-    <div className="text-center">
-      <motion.div
-        initial={{ scale: 0.3, y: 20, opacity: 0 }}
-        animate={{ scale: 1, y: 0, opacity: 1 }}
-        transition={{ type: "spring", damping: 10, stiffness: 200 }}
-        className="inline-block text-warning"
-        style={{ filter: "drop-shadow(0 8px 24px rgba(255,150,0,0.5))" }}
-      >
-        <Flame className="w-28 h-28" />
-      </motion.div>
-      <motion.div
-        initial={{ y: 12, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.25 }}
-      >
-        <div className="text-5xl font-extrabold text-warning tabular-nums">
-          {outcome.streakAfter} 天
-        </div>
-        <div className="text-xl font-extrabold text-ink mt-1">连续学习！</div>
-      </motion.div>
-
-      {/* 本周 7 格日历（xpHistory 渲染） */}
-      <motion.div
-        initial={{ y: 14, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.4 }}
-        className="mt-6 bg-white rounded-2xl border-2 border-bg-softer p-4"
-        style={{ boxShadow: "0 4px 0 0 var(--shadow-card-color)" }}
-      >
-        <div className="grid grid-cols-7 gap-2">
-          {week.map((d, i) => (
-            <div key={d.key} className="flex flex-col items-center gap-1.5">
-              <span className="text-[11px] font-extrabold text-ink-softer">{d.label}</span>
-              <motion.div
-                initial={{ scale: 0.5, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ delay: 0.5 + i * 0.06, type: "spring", damping: 14 }}
-                className={cn(
-                  "w-8 h-8 rounded-full flex items-center justify-center",
-                  d.active ? "bg-warning text-white" : "bg-bg-softer text-ink-softer",
-                  d.isToday && "ring-4 ring-warning/30",
-                )}
-              >
-                {d.active ? (
-                  <Flame className="w-4 h-4" />
-                ) : (
-                  <span className="w-2 h-2 rounded-full bg-white/70" />
-                )}
-              </motion.div>
-            </div>
-          ))}
-        </div>
-      </motion.div>
-
-      {/* 连胜里程碑大庆祝（3/7/14/30/60/100 天，已入账另展示） */}
-      <AnimatePresence>
-        {outcome.milestoneGems > 0 && (
-          <motion.div
-            initial={{ scale: 0, y: 16, opacity: 0 }}
-            animate={{ scale: 1, y: 0, opacity: 1 }}
-            transition={{ delay: 0.65, type: "spring", damping: 11, stiffness: 220 }}
-            className="mt-5 inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-extrabold text-xl text-white"
-            style={{
-              background: "linear-gradient(135deg, #FFC800, #FF9600)",
-              boxShadow: "0 5px 0 0 #C89600, 0 0 30px rgba(255,200,0,0.5)",
-            }}
-          >
-            <Confetti className="w-6 h-6" />
-            <span>
-              里程碑奖励 +{outcome.milestoneGems}
-            </span>
-            <Gem className="w-6 h-6" />
-          </motion.div>
-        )}
-      </AnimatePresence>
-
-      {/* 📤 连胜分享卡（E2）：品牌绿底 + 聪聪 + 大火焰数字 + 本周日历 */}
-      <ShareCardButton
-        makeBlob={() =>
-          renderStreakCard({
-            streak: outcome.streakAfter,
-            week: buildShareWeek(xpHistory),
-          })
-        }
-        filename={`liansheng-${outcome.streakAfter}tian.png`}
-        shareText={`我已经在聪聪学堂连续学习 ${outcome.streakAfter} 天啦！`}
-        className="btn-chunky-secondary px-10 mx-auto block mt-6"
-      />
-
-      <ActContinueButton onClick={onContinue} />
-    </div>
-  );
-}
-
-/** 第 3 幕：每日目标达成幕 */
-function GoalAct({ onContinue }: { onContinue: () => void }) {
-  useEffect(() => {
-    playSfx("star");
-    haptic("success");
-  }, []);
-
-  return (
-    <div className="text-center">
-      <motion.div
-        initial={{ scale: 0.3, rotate: -20, opacity: 0 }}
-        animate={{ scale: 1, rotate: 0, opacity: 1 }}
-        transition={{ type: "spring", damping: 10, stiffness: 200 }}
-        className="inline-block text-primary"
-        style={{ filter: "drop-shadow(0 8px 24px rgba(88,204,2,0.4))" }}
-      >
-        <Target className="w-24 h-24" />
-      </motion.div>
-      <motion.h2
-        initial={{ y: 10, opacity: 0 }}
-        animate={{ y: 0, opacity: 1 }}
-        transition={{ delay: 0.2 }}
-        className="text-3xl font-extrabold text-primary mt-4"
-      >
-        今日目标达成！
-      </motion.h2>
-      <motion.div
-        initial={{ scale: 0, y: 12, opacity: 0 }}
-        animate={{ scale: 1, y: 0, opacity: 1 }}
-        transition={{ delay: 0.45, type: "spring", damping: 11 }}
-        className="mt-4 inline-flex items-center gap-2 px-5 py-3 rounded-2xl font-extrabold text-2xl text-white"
-        style={{
-          background: "linear-gradient(135deg, #1CB0F6, #1899D6)",
-          boxShadow: "0 5px 0 0 #0d7aa8",
-        }}
-      >
-        <Gem className="w-7 h-7" />
-        <span className="tabular-nums">+{DAILY_GOAL_BONUS}</span>
-      </motion.div>
-      <p className="text-ink-light mt-4">坚持每天学一点，进步看得见！</p>
-      <ActContinueButton onClick={onContinue} />
-    </div>
-  );
-}
-
-/** 第 4 幕：统计卡（XP 实际入账值 / 宝石全额；宝箱另计弹窗） */
-function StatsAct({
-  stats,
-  onContinue,
-}: {
-  stats: SessionStats;
-  onContinue: () => void;
-}) {
-  const { outcome, accuracy, maxCombo, durationSec, chestReward } = stats;
   const [chestOpen, setChestOpen] = useState(false);
-  const xpDisplay = useCountUp(outcome.xpGained, 900);
-  const accDisplay = useCountUp(Math.round(accuracy * 100), 900);
-  const gemsDisplay = useCountUp(outcome.gemsGained, 900);
-
-  useEffect(() => {
-    playSfx("progressTick");
-    // 命中宝箱：统计卡出场后自动弹宝箱弹窗
-    let t: ReturnType<typeof setTimeout> | null = null;
-    if (chestReward) {
-      t = setTimeout(() => setChestOpen(true), 800);
-    }
-    return () => {
-      if (t) clearTimeout(t);
-    };
-  }, [chestReward]);
-
-  return (
-    <div className="text-center">
-      <Mascot mood="cheer" size={110} />
-      <h2 className="text-2xl font-extrabold text-ink mt-3">本节课收获</h2>
-      <div className="mt-6 grid gap-3 grid-cols-2">
-        <StatCard label="经验值" value={`+${Math.round(xpDisplay)}`} color="text-secondary" />
-        <StatCard
-          label="宝石"
-          value={`+${Math.round(gemsDisplay)}`}
-          color="text-secondary-dark"
-          icon="gem"
-        />
-        <StatCard label="准确率" value={`${Math.round(accDisplay)}%`} color="text-primary" />
-        <StatCard
-          label={maxCombo >= 3 ? "最高连击" : "用时"}
-          value={maxCombo >= 3 ? `×${maxCombo}` : formatTime(durationSec)}
-          color="text-warning"
-        />
+  useEffect(() => { playSfx("complete"); haptic("success"); }, []);
+  const heading = stats.practiceOnly ? "完成一次微练习" : stats.correctedCount > 0 ? "你把错题改对了！" : "本节练习完成！";
+  return <main className="min-h-screen bg-bg-soft px-5 py-8">
+    <div className="max-w-md mx-auto text-center">
+      <Mascot mood="cheer" size={100} />
+      <h1 className="text-2xl font-extrabold text-ink mt-3">{heading}</h1>
+      <p className="text-ink-light mt-2">{lesson.title}</p>
+      {stats.practiceOnly ? <p className="mt-3 text-sm text-ink-light">一次作答是一个开始。再练不同情境，才能更了解这个知识点。</p> :
+        <div className="flex justify-center gap-2 mt-4" aria-label={`本次练习 ${outcome.stars} 星`}>
+          {[1, 2, 3].map(n => <Star key={n} className={cn("w-9 h-9", n <= outcome.stars ? "text-gold fill-current" : "text-ink-softer")} />)}
+        </div>}
+      <div className="grid grid-cols-2 gap-3 mt-5">
+        <StatCard label="首次答对" value={`${stats.firstCorrect}/${stats.totalQuestions}`} color={stats.accuracy >= .8 ? "text-primary-dark" : "text-ink"} />
+        <StatCard label={stats.correctedCount > 0 ? "重练后答对" : "练习结束答对"} value={`${stats.totalQuestions}/${stats.totalQuestions}`} color="text-primary-dark" />
+        <StatCard label="经验" value={`+${outcome.xpGained}`} color="text-secondary-dark" />
+        <StatCard label="宝石" value={`+${outcome.gemsGained + outcome.milestoneGems + (stats.chestReward?.gems ?? 0)}`} color="text-secondary-dark" icon="gem" />
       </div>
-      {chestReward && (
-        <p className="text-xs text-ink-softer mt-3">宝箱奖励另外计算，已经放进你的口袋啦</p>
-      )}
-
-      <ActContinueButton onClick={onContinue} />
-
-      {/* 宝箱弹窗：命中 chest slot 自动弹出 */}
-      {chestReward && (
-        <ChestModal
-          open={chestOpen}
-          gems={chestReward.gems}
-          tier={chestReward.tier}
-          onClose={() => setChestOpen(false)}
-        />
-      )}
-    </div>
-  );
-}
-
-/** 第 5 幕：任务进度幕 —— before → after 推进动画，完成的打勾 + 领取提示 */
-function QuestsAct({
-  quests,
-  onContinue,
-}: {
-  quests: QuestSnapshot[];
-  onContinue: () => void;
-}) {
-  const [animated, setAnimated] = useState(false);
-
-  useEffect(() => {
-    playSfx("progressTick");
-    const t = setTimeout(() => setAnimated(true), 450);
-    // 本次通关新完成的任务错峰播提示音
-    const doneTimers = quests
-      .filter(q => q.before < q.quest.target && q.after >= q.quest.target)
-      .map((_, i) =>
-        setTimeout(() => {
-          playSfx("star");
-          haptic("light");
-        }, 900 + i * 280),
-      );
-    return () => {
-      clearTimeout(t);
-      doneTimers.forEach(clearTimeout);
-    };
-  }, [quests]);
-
-  const anyClaimable = quests.some(q => q.after >= q.quest.target);
-
-  return (
-    <div className="text-center">
-      <h2 className="text-2xl font-extrabold text-ink">今日任务</h2>
-      <p className="text-sm text-ink-light mt-1">这节课帮你推进了这些任务</p>
-
-      <div className="mt-5 space-y-3">
-        {quests.map(({ quest, before, after }, i) => {
-          const target = Math.max(1, quest.target);
-          const shownValue = animated ? after : before;
-          const pct = Math.min(100, (shownValue / target) * 100);
-          const doneNow = after >= target;
-          return (
-            <motion.div
-              key={quest.id}
-              initial={{ y: 14, opacity: 0 }}
-              animate={{ y: 0, opacity: 1 }}
-              transition={{ delay: 0.15 + i * 0.12 }}
-              className="bg-white rounded-2xl border-2 border-bg-softer p-4 text-left"
-              style={{ boxShadow: "0 4px 0 0 var(--shadow-card-color)" }}
-            >
-              <div className="flex items-center gap-2">
-                <span className="flex-1 font-extrabold text-ink text-sm">{quest.title}</span>
-                {doneNow ? (
-                  <motion.span
-                    initial={{ scale: 0, rotate: -90 }}
-                    animate={{ scale: animated ? 1 : 0, rotate: animated ? 0 : -90 }}
-                    transition={{ delay: 0.75 + i * 0.12, type: "spring", damping: 12 }}
-                    className="text-primary"
-                  >
-                    <CheckCircle className="w-6 h-6" />
-                  </motion.span>
-                ) : (
-                  <span className="inline-flex items-center gap-1 text-secondary-dark font-extrabold text-xs">
-                    <Gem className="w-3.5 h-3.5" />+{quest.reward}
-                  </span>
-                )}
-              </div>
-              <div className="mt-2.5 flex items-center gap-2">
-                <div className="flex-1 h-3 bg-bg-softer rounded-full overflow-hidden">
-                  <motion.div
-                    className={cn(
-                      "h-full rounded-full",
-                      doneNow ? "bg-primary" : "bg-warning",
-                    )}
-                    initial={false}
-                    animate={{ width: `${pct}%` }}
-                    transition={{ duration: 0.8, ease: "easeOut", delay: 0.45 + i * 0.12 }}
-                  />
-                </div>
-                <span className="text-xs font-extrabold text-ink-softer tabular-nums shrink-0">
-                  {Math.min(shownValue, target)}/{target}
-                </span>
-              </div>
-              {doneNow && (
-                <div className="mt-2 text-xs font-bold text-primary-dark">
-                  已完成！去首页领取 +{quest.reward} 宝石
-                </div>
-              )}
-            </motion.div>
-          );
-        })}
+      {stats.correctedCount > 0 && <p className="mt-4 text-sm text-ink">认真改对了 {stats.correctedCount} 道题。首答成绩帮你找到要巩固的地方，改错也是进步。</p>}
+      <div className="mt-4 rounded-2xl border-2 border-bg-softer bg-white p-4 text-left text-sm text-ink space-y-2">
+        <p>🔥 连续学习 {outcome.streakAfter} 天 · 本次用时 {formatTime(stats.durationSec)}</p>
+        {outcome.dailyGoalReachedNow && <p>🎯 今日目标达成，奖励已到账</p>}
+        {outcome.milestoneGems > 0 && <p>🎉 连胜里程碑！+{outcome.milestoneGems} 宝石已到账</p>}
+        {stats.conquered && <p>⚔️ 单元挑战达标</p>}
+        {stats.quests.map(({ quest, after }) => <p key={quest.id}>{after >= quest.target ? "✓" : "○"} {quest.title} · {Math.min(after, quest.target)}/{quest.target}</p>)}
       </div>
-
-      {anyClaimable && (
-        <p className="text-xs text-ink-softer mt-3">完成的任务记得回首页领奖励哦</p>
-      )}
-
-      <ActContinueButton label="继续学习" onClick={onContinue} />
+      {stats.chestReward && <button type="button" className="min-h-11 mt-3 text-secondary-dark font-bold" onClick={() => setChestOpen(true)}>看看宝箱奖励（已到账）</button>}
+      <button autoFocus type="button" className="btn-chunky-primary w-full mt-5" onClick={onNext ?? onBack}>{onNext ? "下一课" : "回到学习路径"}</button>
+      {onNext && <button type="button" className="min-h-11 mt-2 text-ink-light font-bold" onClick={onBack}>先休息一下</button>}
+      <p className="text-xs text-ink-light mt-3">学习成果已保存 · 每日任务奖励可在“我的”领取</p>
+      {stats.chestReward && <ChestModal open={chestOpen} gems={stats.chestReward.gems} tier={stats.chestReward.tier} onClose={() => setChestOpen(false)} />}
     </div>
-  );
+  </main>;
 }
 
 function StatCard({
@@ -2222,11 +1487,16 @@ interface IntroPage {
 function IntroCard({
   lesson,
   knowledge,
+  pageIdx, setPageIdx, completedPages, onPageComplete,
   onStart,
   onExit,
 }: {
   lesson: Lesson;
   knowledge: KnowledgeSummary;
+  pageIdx: number;
+  setPageIdx: React.Dispatch<React.SetStateAction<number>>;
+  completedPages: number[];
+  onPageComplete: (page: number) => void;
   onStart: () => void;
   onExit: () => void;
 }) {
@@ -2275,13 +1545,13 @@ function IntroCard({
   if (Array.isArray(knowledge.common_mistakes) && knowledge.common_mistakes.length > 0) {
     pages.push({
       tone: "mistake",
-      title: "小心这些坑！",
+      title: "一起想一想",
       icon: XCircle,
       iconBg: "bg-danger/15",
       iconColor: "text-danger-dark",
       accent: "#FF4B4B",
       mascotMood: "surprise",
-      bubbleText: "别踩坑哦!",
+      bubbleText: "一起学！",
       audioSrcs: knowledge.audio?.common_mistakes,
       render: (playingIdx: number) => (
         <ul className="space-y-3">
@@ -2350,7 +1620,6 @@ function IntroCard({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const [pageIdx, setPageIdx] = useState(0);
   const [direction, setDirection] = useState<1 | -1>(1);
   const [mascotReactKey, setMascotReactKey] = useState(0);
   const isLast = pageIdx >= pages.length - 1;
@@ -2360,7 +1629,9 @@ function IntroCard({
     [uiAudio(current?.bubbleText ?? ""), ...(current?.audioSrcs ?? [])],
     `${lesson.id}:${pageIdx}`,
     contentSources.some(Boolean),
+    completedPages.includes(pageIdx),
   );
+  useEffect(() => { if (narration.status === "done") onPageComplete(pageIdx); }, [narration.status, pageIdx, onPageComplete]);
   const cancelNarrate = narration.cancel;
   const bubbleCount = uiAudio(current?.bubbleText ?? "") ? 1 : 0;
   const playingContent = narration.status === "playing" ? narration.segment - bubbleCount : -1;
@@ -2568,6 +1839,7 @@ function IntroCard({
         </div>
       </div>
 
+      <button type="button" className="min-h-11 mx-auto px-5 py-3 text-secondary-dark font-bold" onClick={() => { cancelNarrate(); onStart(); }}>先试试，讲解可以随时再看</button>
       {/* 底部：上一步 + 主按钮 */}
       <div className="bg-white border-t-2 border-bg-softer" style={{ paddingBottom: "env(safe-area-inset-bottom)" }}>
         {narration.locked && (narration.muted || narration.status === "error") && <div className="max-w-md lg:max-w-2xl mx-auto px-5 pt-3 text-center text-sm text-ink-light" role="status">

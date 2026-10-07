@@ -34,7 +34,7 @@ interface FeedbackPanelProps {
   reportContext?: ReportContext | null;
 }
 
-const PRAISE_POOL = ["太棒了！", "完美！", "做得好！", "天才！", "继续保持！", "漂亮！"];
+const PRAISE_POOL = ["答对了！", "做得好！", "继续保持！", "太棒了！"];
 const COMFORT_POOL = ["再想想", "差一点", "加油", "没关系", "下次就对！"];
 
 /** 小旗子图标（仅报错入口用，不动 icons.tsx） */
@@ -139,7 +139,7 @@ export function FeedbackPanel({
                 haptic("light");
                 setSheetOpen(true);
               }}
-              className={`shrink-0 h-9 w-9 inline-flex items-center justify-center rounded-full border-2 transition-colors ${
+              className={`shrink-0 h-11 w-11 inline-flex items-center justify-center rounded-full border-2 transition-colors ${
                 reported
                   ? "border-primary/40 bg-primary/10 text-primary cursor-default"
                   : "border-bg-softer bg-white text-ink-softer hover:text-ink hover:border-ink-softer"

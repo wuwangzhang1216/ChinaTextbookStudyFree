@@ -1,0 +1,26 @@
+import assert from 'node:assert/strict';
+import { hasLessonProgress, resumableSession, restoreQuestionSession } from '../../apps/web/src/lib/lessonSession';
+import type { ActiveLessonSession } from '../../apps/web/src/store/progress';
+
+const fresh: ActiveLessonSession = { lessonId: 'g1up-u1-kp1', index: 0, correctCount: 0, mistakeCount: 0, combo: 0, startedAt: 1 };
+assert.equal(hasLessonProgress(fresh), false, 'legacy empty snapshots must not skip introductions');
+const intro = { ...fresh, stage: 'intro' as const, introPage: 2 };
+assert.equal(hasLessonProgress(intro), true, 'introduction progress must survive refresh');
+const draft = { ...fresh, stage: 'practice' as const, draftAnswer: '错' };
+assert.equal(resumableSession(draft, fresh.lessonId), draft, 'the unsubmitted first answer must be resumable');
+assert.equal(resumableSession(draft, 'another-lesson'), null);
+const checked: ActiveLessonSession = { ...draft, currentId: 1, phase: 'checked', checkedCorrect: false, queueIds: [2, 1], attemptedIds: [1], mistakeCount: 1 };
+assert.deepEqual(restoreQuestionSession(checked, [1, 2]), { currentId: 1, queue: [2, 1], solved: [], phase: 'checked', answer: '错', isCorrect: false, attempted: [1] });
+const last = { ...checked, checkedCorrect: true, solvedIds: [1, 2], queueIds: [], correctCount: 1 };
+assert.equal(restoreQuestionSession(last, [1, 2]).phase, 'checked', 'final feedback must survive an empty remaining queue');
+const changed = restoreQuestionSession(checked, [2, 3]);
+assert.equal(changed.currentId, 2);
+assert.equal(changed.phase, 'answering');
+assert.equal(changed.answer, '');
+assert.deepEqual(changed.queue, [3], 'new questions must remain available after a data update');
+const replaced = restoreQuestionSession(checked, [3, 4]);
+assert.equal(replaced.currentId, 3, 'a replaced lesson must serve its new first question');
+assert.deepEqual(replaced.queue, [4]);
+assert.equal(restoreQuestionSession({ ...fresh, index: 2, solvedIds: [1, 2], queueIds: [] }, [1, 2]).currentId, null, 'finished legacy snapshots must not restore a nonexistent question');
+assert.deepEqual(restoreQuestionSession({ ...fresh, index: 1, correctCount: 1 }, [1, 2]).solved, [1]);
+console.log('lesson resume regressions passed');

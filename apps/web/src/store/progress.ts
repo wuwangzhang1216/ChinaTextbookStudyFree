@@ -99,6 +99,17 @@ export interface ActiveLessonSession {
   maxCombo?: number;
   /** 本次会话已累计 XP（展示用） */
   sessionXp?: number;
+  stage?: "intro" | "practice";
+  introPage?: number;
+  introMode?: "warmup" | "handbook";
+  introCompletedPages?: number[];
+  warmupCounted?: number[];
+  currentId?: number | null;
+  draftAnswer?: string;
+  phase?: "answering" | "checked";
+  checkedCorrect?: boolean | null;
+  attemptedIds?: number[];
+  totalQuestions?: number;
 }
 
 /** 🚩 题目报错类型（E2：小旗子三选） */
@@ -294,7 +305,7 @@ interface ProgressState {
    * 通关记账（原子）：XP/宝石/星级/连胜推进/里程碑/每日任务计数一次完成，
    * 返回结算单 LessonOutcome 供结算页展示。
    */
-  recordLessonComplete: (lessonId: string, lessonTitle: string, accuracy: number, xpGained: number) => LessonOutcome;
+  recordLessonComplete: (lessonId: string, lessonTitle: string, accuracy: number, xpGained: number, evidence?: { questionCount: number }) => LessonOutcome;
   /**
    * 完成一篇阅读（课文听读/跟读/故事）：幂等，首次才发 XP，不发通关宝石、不写课程记录。
    * id 请传 `readingId(kind, rawId)`；传历史格式也不会记错账（内部会归一化）。
@@ -1003,12 +1014,12 @@ export const useProgressStore = create<ProgressState>()(
         }));
       },
 
-      recordLessonComplete: (lessonId, lessonTitle, accuracy, xpGained) => {
+      recordLessonComplete: (lessonId, lessonTitle, accuracy, xpGained, evidence) => {
         // ⚠️ XP 公式（含周末 ×2）由调用方经 @cstf/core xpForLesson 算好传入，
         //    这里不再二次翻倍 —— 保证「结算展示值 == 入账值」。
         // 整个通关记账（XP/宝石/连胜/里程碑/每日任务计数）在一个 set 里
         // 原子完成，返回结算单 —— 对齐 iOS ProgressStore.completeLesson。
-        const stars = starsFromAccuracy(accuracy);
+        const stars = evidence && evidence.questionCount < 3 ? 1 : starsFromAccuracy(accuracy);
         const today = todayStr();
 
         let outcome: LessonOutcome = {
@@ -1540,7 +1551,7 @@ export const useProgressStore = create<ProgressState>()(
       // 🗓️ 每日任务
       // --------------------------------------------------------
 
-      todayQuests: () => dailyQuests(todayStr()),
+      todayQuests: () => dailyQuests(todayStr()).map(q => q.kind === "reviewMistakes" ? { ...q, title: `巩固 ${q.target} 次练习或错题` } : q),
 
       questProgress: kind => {
         const state = get();
@@ -1550,7 +1561,7 @@ export const useProgressStore = create<ProgressState>()(
         if (state.dailyQuestDate !== today) return 0;
         switch (kind) {
           case "finishLessons":  return state.dailyLessons;
-          case "reviewMistakes": return state.dailyReviews;
+          case "reviewMistakes": return state.dailyReviews + state.dailyLessons;
           case "readTexts":      return state.dailyReadings;
           default:               return 0;
         }

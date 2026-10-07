@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g2down-u9-kp3",
+  "point": "行列约束推理（数独初步）",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit9.json",
+  "before_source_fingerprint": "5c1844efb444aa0353f033fc54cde0975e6df0fceb2458d1d3b80683f74f5fd9",
+  "after_fingerprint": "856bf094daf131035a0f0707f2076993df222f1d3a073d36b390a96f5edcdad1",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    28,
+    29
+  ],
+  "revised_question_ids": [
+    3,
+    12,
+    17,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "一个3×3方格规定每格填1、2、3。哪种填法规则说得正确？"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "在一个4×4的方格中，每行每列都要有数字1、2、3、4。某一行已经有了1、2、4，这一行的空格里应填多少？"
+    },
+    {
+      "source_id": 17,
+      "skill": "reasoning",
+      "question": "一个4×4方格每行、每列都不能有重复数字。第一行从左到右是1、2、4、3；第二行第一格是2。第二行第二格不能填哪个数字？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "在一段3格的横行里填入1、2、3。第一格填了1，第三格填了2，中间的格子填___。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "3×3方格每行、每列都要有1、2、3各一次。下面哪种完整填法符合规则？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一个4×4方格每行、每列都要有1、2、3、4各一次。某空格所在的行已有1、3、4，所在的列也已有1、3、4。这个空格填___。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "c0dec8aef71bff059e9e5682ea75c368804bd5c9fd5d792acfabf446649ee2fe",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共整理为6题，保留了旧题source_id 3、12、17、21；新增题的source_id为null。",
+    "旧题3原为判断题，因当前支持题型中没有判断题，改为同知识点选择题；旧题17改写为条件清楚的独立题。",
+    "修正了旧题21解析中的错误算式说明，依据行内数字不重复的规则解释答案。",
+    "本次依据所给项目大纲与旧题进行编辑，未声称核对教材原页或完成教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

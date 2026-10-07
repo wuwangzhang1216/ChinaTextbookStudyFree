@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g4up-u1-kp3",
+  "point": "大数的大小比较与改写",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit1.json",
+  "before_source_fingerprint": "06a90e7a478eb0cefda382cbdc76bbd31efaf93965522d604c4709bebf06c0fa",
+  "after_fingerprint": "e8dff05e1975bba2a32bd51a109f82ade5c4bf0d1f80ef8d55e043ab1b98fb52",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    13,
+    17,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "把 730000 改写成以“万”为单位的数，应写作 73，不必写单位“万”。"
+    },
+    {
+      "source_id": 8,
+      "skill": "application",
+      "question": "239000 和 240000 相比，结果是（  ）。"
+    },
+    {
+      "source_id": 13,
+      "skill": "recognition",
+      "question": "由 7 个亿组成的数是（  ）。"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "把 2080000 改写成以“万”为单位的数是（  ）。"
+    },
+    {
+      "source_id": 20,
+      "skill": "reasoning",
+      "question": "用 3 个 0 和 3 个 5 组成最小的六位数是 ___ 。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把 427600、472060、472600 按从小到大的顺序排列，正确的是（  ）。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "ca01303996f384737fe6df06af27df2124b97af6e0b6f5edc624a91007d9e92a",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留旧题 source_id 3、8、13、17、20，并新增1题，source_id 为 null。",
+    "根据反馈明确修订 source_id 3 的判断题，避免把遗漏单位的写法与完整改写结果混淆。",
+    "本次依据所提供的项目大纲和旧题编辑，未核对教材原页，也未进行教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

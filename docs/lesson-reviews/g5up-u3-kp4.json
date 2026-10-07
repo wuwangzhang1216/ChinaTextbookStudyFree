@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5up-u3-kp4",
+  "point": "循环小数的相关概念",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit3.json",
+  "before_source_fingerprint": "b2d2f180564bac2624c0d3b9d19cdb408cc4be01fd8e807aaef2ed48b1dc7d84",
+  "after_fingerprint": "d3b6f571c8cdd35220d2af9cf478fb28f5c62023a022248f58560d7a2edbc420",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    26,
+    27
+  ],
+  "revised_question_ids": [
+    3,
+    4,
+    9,
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "无限小数一定都是循环小数。"
+    },
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "0.6666是一个循环小数。"
+    },
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "将循环小数0.4818181…用简便记法表示，正确的是哪一个？"
+    },
+    {
+      "source_id": 16,
+      "skill": "recognition",
+      "question": "3.2525…的循环节是多少？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把循环小数4.1666…用简便记法表示，正确的是哪一个？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "观察0.2353535…，下面哪句话正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "71e2142e962657b2bcf688f393e67873d32d28c1e886ec96b0fab4fe62aec606",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "根据提供的项目大纲和旧题整理；未提供教材原页，未进行教材逐字核对或教师签审。",
+    "保留了全部旧题source_id。source_id为9的旧题含无法核实的符号，已改编为同知识点的独立题，没有推测或还原原符号。",
+    "已调整讲解中的示例，避免与练习题使用相同的循环结构和简便记法答案。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

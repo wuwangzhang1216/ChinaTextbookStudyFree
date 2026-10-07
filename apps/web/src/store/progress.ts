@@ -2,7 +2,8 @@
 
 import { create } from "zustand";
 import { persist, createJSONStorage } from "zustand/middleware";
-import type { Question, LessonResult } from "@/types";
+import type { Question, LessonResult, Lesson } from "@/types";
+import { reconcileMistakes } from "@/lib/reviewContent";
 import { DEFAULT_EQUIPPED, getCosmeticById, getStarterCosmetics } from "@/lib/cosmetics";
 import {
   starsFromAccuracy,
@@ -90,7 +91,7 @@ export interface ActiveLessonSession {
   mistakeCount: number;
   combo: number;
   startedAt: number; // ms timestamp
-  // —— 以下为可选扩展字段（错题重排队列持久化），老会话缺省不影响恢复 ——
+  // —— 可选扩展字段；恢复前由 lessonSession 校验课程内容是否一致 ——
   /** 剩余待答题目 id 队列（含错题重排回队尾的顺序） */
   queueIds?: number[];
   /** 已答对（离场）的题目 id */
@@ -99,6 +100,19 @@ export interface ActiveLessonSession {
   maxCombo?: number;
   /** 本次会话已累计 XP（展示用） */
   sessionXp?: number;
+  stage?: "intro" | "practice";
+  introPage?: number;
+  introMode?: "warmup" | "handbook";
+  introCompletedPages?: number[];
+  warmupCounted?: number[];
+  currentId?: number | null;
+  draftAnswer?: string;
+  phase?: "answering" | "checked";
+  checkedCorrect?: boolean | null;
+  attemptedIds?: number[];
+  totalQuestions?: number;
+  /** Identity of knowledge and questions, excluding audio; prevents stale feedback. */
+  contentKey?: string;
 }
 
 /** 🚩 题目报错类型（E2：小旗子三选） */
@@ -294,7 +308,7 @@ interface ProgressState {
    * 通关记账（原子）：XP/宝石/星级/连胜推进/里程碑/每日任务计数一次完成，
    * 返回结算单 LessonOutcome 供结算页展示。
    */
-  recordLessonComplete: (lessonId: string, lessonTitle: string, accuracy: number, xpGained: number) => LessonOutcome;
+  recordLessonComplete: (lessonId: string, lessonTitle: string, accuracy: number, xpGained: number, evidence?: { questionCount: number }) => LessonOutcome;
   /**
    * 完成一篇阅读（课文听读/跟读/故事）：幂等，首次才发 XP，不发通关宝石、不写课程记录。
    * id 请传 `readingId(kind, rawId)`；传历史格式也不会记错账（内部会归一化）。
@@ -318,12 +332,12 @@ interface ProgressState {
    */
   addHeart: (n?: number) => void;
   /**
-   * 复习一轮错题后的补心结算（对齐 iOS content-7）：
-   * 答对 ≥ REVIEW_HEART_MIN_CORRECT 才补 REVIEW_HEART_REWARD 颗，
+   * 复习一轮错题后的补心结算（Web按可用题数调整门槛）：
+   * 首答正确达五题（可用题不足五题则需整轮正确）补 REVIEW_HEART_REWARD 颗，
    * 每天最多一次（lastReviewHeartDate 账本，防止刷同一批错题无限刷心）。
    * 返回实际补到的红心数（0 = 没到门槛 / 今天领过 / 已满心）。
    */
-  awardReviewHeart: (correctCount: number) => number;
+  awardReviewHeart: (correctCount: number, availableCount?: number) => number;
   /** 花 350 宝石立即补满红心（先刷新自然回复；已满不扣费返回 false） */
   buyHeartRefill: () => boolean;
   /** 花 200 宝石购买一枚连胜护盾（持有上限 2，满则返回 false） */
@@ -375,6 +389,7 @@ interface ProgressState {
   // 📚 SRS：复习答题后的更新（core reviewSrsEntry 单一事实源）。
   // 返回 true 表示本次复习让该题「新毕业」（box3 + 答对≥2），供 UI 庆祝。
   reviewMistake: (lessonId: string, questionId: number, isCorrect: boolean) => boolean;
+  refreshMistakeContent: (lessons: Map<string, Lesson | null>) => void;
 
   /**
    * 复习会话结算：每答对一题 +5 XP（走统一记账，含每日目标判定与
@@ -1003,12 +1018,12 @@ export const useProgressStore = create<ProgressState>()(
         }));
       },
 
-      recordLessonComplete: (lessonId, lessonTitle, accuracy, xpGained) => {
+      recordLessonComplete: (lessonId, lessonTitle, accuracy, xpGained, evidence) => {
         // ⚠️ XP 公式（含周末 ×2）由调用方经 @cstf/core xpForLesson 算好传入，
         //    这里不再二次翻倍 —— 保证「结算展示值 == 入账值」。
         // 整个通关记账（XP/宝石/连胜/里程碑/每日任务计数）在一个 set 里
         // 原子完成，返回结算单 —— 对齐 iOS ProgressStore.completeLesson。
-        const stars = starsFromAccuracy(accuracy);
+        const stars = evidence && evidence.questionCount < 3 ? 1 : starsFromAccuracy(accuracy);
         const today = todayStr();
 
         let outcome: LessonOutcome = {
@@ -1321,12 +1336,12 @@ export const useProgressStore = create<ProgressState>()(
         }));
       },
 
-      awardReviewHeart: correctCount => {
+      awardReviewHeart: (correctCount, availableCount) => {
         const today = todayStr();
         // 每天一次的账本：不然反复进出同一批错题就能把红心刷成无限
         if (get().lastReviewHeartDate === today) return 0;
         get().refreshHearts();
-        const granted = reviewHeartReward(correctCount, get().hearts);
+        const granted = reviewHeartReward(correctCount, get().hearts, availableCount);
         // 没到门槛 / 已经满心 → 不记账本，今天晚点真赚到了还能补
         if (granted <= 0) return 0;
         get().addHeart(granted);
@@ -1488,6 +1503,10 @@ export const useProgressStore = create<ProgressState>()(
       // 📚 SRS：复习答题后更新错题状态
       // --------------------------------------------------------
 
+      refreshMistakeContent: lessons => {
+        set(state => ({ mistakesBank: reconcileMistakes(state.mistakesBank, lessons) }));
+      },
+
       reviewMistake: (lessonId, questionId, isCorrect) => {
         // core reviewSrsEntry 单一事实源（box3 答对 → 7 天后），消灭内联 fork。
         // 毕业语义：box3 + 答对≥2 → 打 graduated 标记（保留展示，不再进 due 队列）。
@@ -1540,7 +1559,7 @@ export const useProgressStore = create<ProgressState>()(
       // 🗓️ 每日任务
       // --------------------------------------------------------
 
-      todayQuests: () => dailyQuests(todayStr()),
+      todayQuests: () => dailyQuests(todayStr()).map(q => q.kind === "reviewMistakes" ? { ...q, title: `巩固 ${q.target} 次练习或错题` } : q),
 
       questProgress: kind => {
         const state = get();
@@ -1550,7 +1569,7 @@ export const useProgressStore = create<ProgressState>()(
         if (state.dailyQuestDate !== today) return 0;
         switch (kind) {
           case "finishLessons":  return state.dailyLessons;
-          case "reviewMistakes": return state.dailyReviews;
+          case "reviewMistakes": return state.dailyReviews + state.dailyLessons;
           case "readTexts":      return state.dailyReadings;
           default:               return 0;
         }

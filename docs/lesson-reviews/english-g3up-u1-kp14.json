@@ -1,0 +1,71 @@
+{
+  "lesson_id": "english-g3up-u1-kp14",
+  "point": "综合运用",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "df455476b77c5c117e89d2e8048c351c9bd23ad755497cef115e844139cefe6a",
+  "before_question_count": 1,
+  "after_question_count": 6,
+  "added_question_ids": [
+    63,
+    64,
+    65,
+    66,
+    67
+  ],
+  "revised_question_ids": [
+    15
+  ],
+  "coverage": [
+    {
+      "source_id": 15,
+      "skill": "reasoning",
+      "question": "Sarah 想知道 Zoom 的名字，她应该怎样问？Sarah: ______? Zoom: My name's Zoom."
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "在学校见到同学，选择一句问候语。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "从 a 和 an 中选词：I have ___ eraser."
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "“蜡笔”的英文单词是哪个？请填入一个英文单词：____。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "Goodbye! 可以用来在刚见到朋友时说“你好”。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "男孩的名字是 Tom，他在介绍自己。补全句子：I'm ____.（只填名字）"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "613492233e6cffbb5298a543c12e13579031a7220b1abbe12debacda6595b55a",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题 source_id 15，并将一个可能造成歧义的选项改为 Goodbye, Zoom，使询问姓名的答案更明确。",
+    "输入未提供教材原页；本次依据所给大纲与旧题整理，未作教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

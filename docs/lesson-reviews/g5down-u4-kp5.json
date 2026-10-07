@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g5down-u4-kp5",
+  "point": "约分与最大公因数",
+  "source": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+  "before_source_fingerprint": "779f3ffa539ffa24c1b556a77f1130b0b4c367395030d089fbe12b26f3f81dcd",
+  "after_fingerprint": "35b9b8ce0dc624f917d7201ab9d633eb4eb8d14f2a109a4cc3de3318e74dcbcf",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    35,
+    36
+  ],
+  "revised_question_ids": [
+    4,
+    10,
+    20,
+    22
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "reasoning",
+      "question": "分子和分母都是合数的分数，一定不是最简分数。"
+    },
+    {
+      "source_id": 10,
+      "skill": "recognition",
+      "question": "24 和 36 的最大公因数是："
+    },
+    {
+      "source_id": 20,
+      "skill": "reasoning",
+      "question": "一个最简真分数，分子和分母的积是 15，这个分数的分子是 ___ 。（只填较小的那个可能）"
+    },
+    {
+      "source_id": 22,
+      "skill": "application",
+      "question": "求 18 和 30 的最大公因数是多少？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把 42/56 约分成最简分数。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一个分数的分子和分母分别除以6后得到5/8。下面哪个可能是这个分数？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "822b62b19b59bdb8eda3cd33e6e70bb70b0e1bf994a076f0dbcd0ba6cd933ee3",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据输入的大纲和旧题整理，未进行教材原页逐字核对，也未声称经过教师签审。",
+    "保留了全部旧题 source_id；新增两题的 source_id 为 null。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

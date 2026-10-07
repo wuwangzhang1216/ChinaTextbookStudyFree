@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g1up-u5-kp3",
+  "point": "连加、连减运算",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit5.json",
+  "before_source_fingerprint": "c66106bb687d845325d4c90618c787cc46ace6ead48bea6803384f1c837050b2",
+  "after_fingerprint": "a856d1ac2219c93ec98a7cfa4e302e0975323e172190f701754e94e01acde442",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    4,
+    11,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "计算9－3－2时，应该先算3－2。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "算式3＋2＋4的得数是多少？"
+    },
+    {
+      "source_id": 23,
+      "skill": "application",
+      "question": "10－4－3＝____"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "盘子里有7颗葡萄，先吃掉1颗，又吃掉2颗。下面哪个算式按吃掉的先后顺序记录了变化？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "8－2－3＝____"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "从词语“从左往右”“从右往左”中选一个填空：连加、连减先算前两项，再按____继续计算。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "7845d90f7d12a47e178e16841de9b89498ef84eed3a08067042d37474b7645cc",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留了全部旧题的source_id；新增题的source_id为null。",
+    "仅依据本次提供的大纲和旧题整理；未提供教材原页，未进行原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

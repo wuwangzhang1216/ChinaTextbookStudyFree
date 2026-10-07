@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g1up-u3-kp6",
+  "point": "0的认识与相关加减法",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit3.json",
+  "before_source_fingerprint": "0f961d8f296c7b0d875c175efaef7976bf947550daf00a6e7958bed6494983eb",
+  "after_fingerprint": "2803568237d8091f441bbf095af94db7a050f9bcf1dc5012b10e9735b16751e6",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    35,
+    36
+  ],
+  "revised_question_ids": [
+    2,
+    11,
+    15,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "1～5中的一个数加上0，结果还是这个数。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "计算 4 - 0 = ○，圈里应填什么？"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "盒子里原来有3块积木，拿出3块后，盒子里还剩几块？"
+    },
+    {
+      "source_id": 23,
+      "skill": "application",
+      "question": "0 + 5 = ?"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "篮子里一个球也没有。篮子里有几个球？（填一个数字）____"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "每次都从5个圆片开始，分别拿走0个或5个。哪句话正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "d5d99adf8139715992fd61d5cc5937603e106c3d733c431be194c6089d8ef4af",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据所给项目大纲与旧题整理；未提供教材原页，未进行原教材逐字核对或教师签审。",
+    "保留了全部旧题的source_id。source_id为15的题改为积木情境，避免不必要的伤害描述。",
+    "讲解例子已调整，避免与练习中“原有3块、拿出3块”的情境及得数重复。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

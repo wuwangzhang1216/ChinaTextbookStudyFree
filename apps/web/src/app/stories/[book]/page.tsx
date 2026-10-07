@@ -5,6 +5,7 @@ import { SubjectBadge } from "@/components/SubjectBadge";
 import { InnerHeader } from "@/components/InnerHeader";
 import { AppShell } from "@/components/layout/AppShell";
 import type { BookStories, SiteIndex } from "@/types";
+import { Mascot } from "@/components/Mascot";
 import { StoryCard } from "./StoryCard";
 
 async function getIndex(): Promise<SiteIndex> {
@@ -65,6 +66,10 @@ export default async function StoryListPage({
       />
 
       <div className="max-w-md lg:max-w-none mx-auto px-4 lg:px-0 py-5 lg:pt-2 space-y-6">
+        <div className="flex items-center gap-4 rounded-2xl border-2 border-secondary/25 bg-white p-4">
+          <Mascot mood="wave" size={64} />
+          <div><h1 className="text-lg font-extrabold text-ink">聪聪的故事时间</h1><p className="text-sm text-ink-light mt-1">选一个故事，一起听，一起发现。读完再说说你的想法。</p></div>
+        </div>
         {units.map(([unitNum, stories]) => (
           <div key={unitNum}>
             <div className="text-xs font-extrabold text-ink-softer uppercase tracking-wider mb-2 px-1">

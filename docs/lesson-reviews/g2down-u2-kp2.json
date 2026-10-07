@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2down-u2-kp2",
+  "point": "除法算式的意义与读写",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit2.json",
+  "before_source_fingerprint": "07224bb852881c7340a427611cb4cf299c961447d1cb42629c4e4e65dfda9153",
+  "after_fingerprint": "511b84d977419974d55788445f26a87e26426e962b5e86c751a085a57e35b3c5",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    26
+  ],
+  "revised_question_ids": [
+    2,
+    7,
+    10,
+    13,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "reasoning",
+      "question": "算式 12 ÷ 3 = 4 读作：12除以4等于3。"
+    },
+    {
+      "source_id": 7,
+      "skill": "application",
+      "question": "把12个羽毛球平均装在2个筒子里，每个筒子装几个？正确的算式是："
+    },
+    {
+      "source_id": 10,
+      "skill": "recognition",
+      "question": "“18除以6等于3”的算式是："
+    },
+    {
+      "source_id": 13,
+      "skill": "application",
+      "question": "有12个小朋友打乒乓球，每4人一组，可以分成几组？"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "把10个心形饼干平均分成5份，每份有 ___ 个。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把16张卡片平均放进4个信封，算式16 ÷ 4中的“4”表示什么？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "4bfc2dbc4ac065969f98377e8e43430a0641b8f41ab2178440246031c759d96b",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了输入中全部旧题的source_id：2、7、10、13、19；新增1题的source_id为null，共6题。",
+    "根据反馈修改了source_id为2的判断题，使其辨析常见的读法错误；其余旧题保留原知识点并核对答案与解析。",
+    "未提供教材原页，本次不声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,68 @@
+{
+  "lesson_id": "g3down-u5-kp5",
+  "point": "面积与周长的对比应用",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit5.json",
+  "before_source_fingerprint": "e84ab87db182f627c1a2015cfe5e325921e7ebe3b797f93c504876b61a267871",
+  "after_fingerprint": "07e5458e2f1f529c39ed40577b8d78988e77902c32bf0136de9f2563262f9081",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    31
+  ],
+  "revised_question_ids": [
+    5,
+    12,
+    16,
+    17,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "application",
+      "question": "一个正方形的边长扩大到原来的2倍，面积也扩大到原来的2倍。"
+    },
+    {
+      "source_id": 12,
+      "skill": "recognition",
+      "question": "操场的跑道长400（ ）。"
+    },
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "一个正方形的周长是12厘米，它的面积是多少平方厘米？"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "一块长方形菜地，长10米，宽5米。如果长增加2米，宽不变，它的面积增加多少平方米？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "一个正方形的面积是25平方分米，它的边长是___分米。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "甲、乙两个长方形的周长都是16厘米。甲长6厘米、宽2厘米；乙长4厘米、宽4厘米。哪一个长方形的面积大？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "f909897e5d7307aa1382fd06dd2c974d062c7cb716375bbf0857133e58717afb",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

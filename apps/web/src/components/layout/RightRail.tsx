@@ -30,7 +30,7 @@ export function RightRail() {
       <div className="flex justify-end">
         <StatsBar compact />
       </div>
-      <LeaderboardTeaserCard />
+      <LearningNextStep />
       <DailyQuestsPanel />
     </div>
   );
@@ -131,3 +131,10 @@ function LeaderboardTeaserCard() {
   );
 }
 
+
+function LearningNextStep() {
+  const grade = useProgressStore(s => s.selectedGrade) ?? 1;
+  const completed = useProgressStore(s => Object.keys(s.completedLessons).length);
+  if (completed >= UNLOCK_LESSONS) return <LeaderboardTeaserCard />;
+  return <CardShell><p className="font-extrabold text-ink">和聪聪读一读</p><p className="text-sm text-ink-light mt-2">听一个故事，发现课本之外的新世界。</p><Link href={`/stories/chinese-g${grade}up/`} className="inline-flex min-h-11 items-center text-secondary-dark font-bold mt-2">去听故事 →</Link></CardShell>;
+}

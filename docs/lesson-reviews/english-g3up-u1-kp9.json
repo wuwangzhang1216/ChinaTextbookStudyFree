@@ -1,0 +1,72 @@
+{
+  "lesson_id": "english-g3up-u1-kp9",
+  "point": "冠词用法",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "4c0c2a1de1e89ce07ba90fb0abbe9d31b37254421295db609932eadb8d914929",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    41,
+    42,
+    43,
+    44
+  ],
+  "revised_question_ids": [
+    9,
+    17
+  ],
+  "coverage": [
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "从 a 和 an 中选词完成句子：I have _______ eraser and _______ crayon."
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "从 a 和 an 中选词完成句子：I have ___ eraser."
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "哪一组短语正确使用了 an？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "从 a 和 an 中选词完成句子：I have ___ pencil."
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "哪句话正确使用了 a 或 an？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "bag 和 book 的开头音都是辅音。哪句话的两处冠词都正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "69c2351dda2a959a888a3e54883c358e17f90b62fc79f831891860ae69eab2c0",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留旧题 source_id 9 和 17，并修订新增题中正确答案不唯一的问题。",
+    "题目包含选择题和文字填空题，覆盖识记、应用与推理。",
+    "输入未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

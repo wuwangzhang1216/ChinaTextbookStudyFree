@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2down-u1-kp1",
+  "point": "收集数据的方法",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit1.json",
+  "before_source_fingerprint": "164f0f0d4271c722279bb67f88e311f350e0d819f42d1595f69b3dd7a5d9a0ed",
+  "after_fingerprint": "a54663a4fc69961033984579796c236f122316993756ae751870f2fc12656a8a",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    1,
+    4,
+    9
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "recognition",
+      "question": "在调查全班同学最喜欢的颜色时，每人只能选一种颜色。"
+    },
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "调查本班同学最喜欢的运动，可以用举手的方法收集数据。"
+    },
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "要了解本班同学最喜欢哪种课间活动，并规定每人只选一种，下面哪种方法合适？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "要调查全班同学最喜欢的水果，要求每人只选一种。哪种做法能让全班同学参与，并便于不漏记？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "调查全班30名同学时，只记录了先举手的12名同学，就能准确知道全班每个人的选择。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "整理投票结果时，发现小林的同一张票被重复收集了。应该怎样记录？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "ab7c1e67083e3ce6099515730a8bdfa048ef364b989fdb9f167d474f4b51c74a",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留课题标签“收集数据的方法”及旧题 source_id 1、4、9；新增题的 source_id 为 null。",
+    "source_id 9 的旧题把班长选举称为“最公平”缺少明确依据，已改为条件清楚的班级活动调查题。",
+    "未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

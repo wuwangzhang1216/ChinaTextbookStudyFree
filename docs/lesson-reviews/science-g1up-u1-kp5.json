@@ -1,0 +1,74 @@
+{
+  "lesson_id": "science-g1up-u1-kp5",
+  "point": "植物的生长与变化记录",
+  "source": "output/science/quizzes/义务教育教科书·科学一年级上册_unit1.json",
+  "before_source_fingerprint": "0ed4fe0bcecc1cd1374dd45c7b7e9de05e0d68f8baac4068c5b331f8d02b857c",
+  "after_fingerprint": "c21d10895ab11617b920e1725fc4bb54044fc75789e7b4bbec2cdb4fa4213ff3",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    31
+  ],
+  "revised_question_ids": [
+    5,
+    11,
+    15,
+    18,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "做植物观察记录时，没看到的变化也可以凭想象画上去。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "小乐记录了蒜苗的高度：第1天是2厘米，第4天是5厘米。要比较这两次记录，他最适合怎么做？"
+    },
+    {
+      "source_id": 15,
+      "skill": "reasoning",
+      "question": "小明把一瓣大蒜放在浅水盘里。观察记录写着：第2天，蒜瓣底部长出白色细根；第5天，蒜瓣顶端长出绿芽。记录中先出现的是（）。"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "观察时发现蒜苗比上次高了，怎样记录它的高度变化更可靠？"
+    },
+    {
+      "source_id": 20,
+      "skill": "reasoning",
+      "question": "一株小苗的记录写着：4月2日有2片叶，4月5日有3片叶，4月9日有4片叶。根据这几次记录，可以说什么？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "记录单上的“6月3日”表示观察发生的几月几日。请从“日期、颜色”中选一个词填入：观察（）。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "1d996982519f17e0b3c1ac480a069ed4c801148b3be806a7059452146578e5e1",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "未提供教材原页，因此未进行原教材逐字核对，也未作教师签审声明。",
+    "保留全部旧题 source_id：5、11、15、18、20；新增题的 source_id 为 null。旧题按本课知识目标审核并修订，未将旧题或旧讲解视为权威答案。",
+    "修订蒜苗高度记录题的干扰项，避免把损伤植物作为观察方法；修正知识提示，避免暗示所有植物都具有相同且都能观察到的部分。",
+    "不把植物发芽或生长所需天数设为固定答案；有关变化的结论仅依据题目给出的观察记录。",
+    "共6题，包含判断、选择和文字填空，覆盖识记、应用与推理。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

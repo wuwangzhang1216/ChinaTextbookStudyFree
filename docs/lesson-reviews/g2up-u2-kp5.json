@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2up-u2-kp5",
+  "point": "解决问题：求比一个数多（或少）几的数",
+  "source": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit2.json",
+  "before_source_fingerprint": "36c8aba925792fd0c52e875a7e67933390bafee4290edd3e323e92084a102d2b",
+  "after_fingerprint": "54c6960abb8adb1d8c66f74b9dda4c53eeb0bd6a944e7f5014ccaa2769bf39cb",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    30,
+    31
+  ],
+  "revised_question_ids": [
+    5,
+    12,
+    13,
+    17
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "比 25 多 18 的数是 33。"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "小明有 28 张邮票，小红比小明多 15 张，小红有多少张？"
+    },
+    {
+      "source_id": 13,
+      "skill": "reasoning",
+      "question": "二（1）班有女生 22 人，男生比女生少 5 人，全班一共有多少人？"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "甲组收集了 68 节废电池，比乙组多 19 节。乙组收集了多少节？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "小兰有 37 张卡片，小杰比小兰少 9 张。小杰有（ ）张卡片。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "图书角有 46 本故事书，科技书比故事书多 13 本，画册比科技书少 8 本。画册有（ ）本。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3532f3b4eea575a6d9d9f1d2a8f15480c3fac28d5d05921da3a196f64f60f200",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id。source_id 为17的旧题已改编为求相差数量的独立应用题，以贴合本课知识点。",
+    "第6题是情境应用题，按作答形式标为 fill_blank；答案为单个数字。",
+    "本次依据提供的大纲和旧题进行编辑；未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

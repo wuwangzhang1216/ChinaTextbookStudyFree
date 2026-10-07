@@ -1,0 +1,70 @@
+{
+  "lesson_id": "g6up-u8-kp2",
+  "point": "等比数列求和的思想",
+  "source": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit8.json",
+  "before_source_fingerprint": "da2c83e5bd1019f44670bbcab7c36df994b58986ebbd59cc16445c7ca1471311",
+  "after_fingerprint": "723503378fb66dbfc2dc1b416192785528632787d800f01bd0d2cf8e25785ba7",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    3,
+    10,
+    14,
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "在1/2+1/4+1/8+……中，取的项数越多，部分和越接近1。"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "1/2+1/4+1/8+1/16+1/32的结果与1相比："
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "1/2+1/4+1/8的结果是多少？"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "把一个正方形的面积看作1。第一次取其一半，第二次取剩余部分的一半，第三次再取剩余的一半。此时剩余部分的面积是："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "计算：1/2+1/4+1/8+1/16=____（用最简分数表示）。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "对于1/2+1/4+1/8+……，下面哪种说法正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "8374c66f27a1aae2aa17a9c8318143b2b885f7327e462745b2dd99907a7213fc",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据所给大纲与旧题整理、修订并补充练习，保留全部旧题source_id；未提供教材原页，未进行原教材逐字核对，也不代表教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

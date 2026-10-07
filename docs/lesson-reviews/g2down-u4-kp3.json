@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g2down-u4-kp3",
+  "point": "除法算式的规律整理",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit4.json",
+  "before_source_fingerprint": "cb5eb66607d841a6f5a892f8ad971c4e493c37aab36e24897c06ac282b587146",
+  "after_fingerprint": "cf84e408d2e415321fe39d78474cd30cc6a778c9b6b1fc263b635d70623390ec",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    2,
+    5,
+    13,
+    16,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "在商是整数的除法算式中，除数相同，被除数变大，商也变大。"
+    },
+    {
+      "source_id": 5,
+      "skill": "reasoning",
+      "question": "被除数增加，商一定增加。"
+    },
+    {
+      "source_id": 13,
+      "skill": "recognition",
+      "question": "在45÷5 ○ 45÷9中，○里应填什么符号？"
+    },
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "18÷3和36÷3的除数相同。后一个算式的商比前一个算式的商多多少？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "54÷6的商比54÷9的商大___。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "除数都是5。40÷5的商比20÷5的商多___。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "6b9556289c505ad0f6911b8ec19bdd59995b2285475ce65505e477c71c7e0bcb",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共编排6题，保留了全部旧题source_id：2、5、13、16、21；新增题source_id为null。",
+    "调整了练习中的比较算式，避免与讲解示例重复。",
+    "规律说明限定在商是整数的比较情形，并在解析中列出计算依据。",
+    "本次编辑依据所提供的大纲和旧题，未核对教材原页，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

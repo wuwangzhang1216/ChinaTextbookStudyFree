@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3up-u7-kp3",
+  "point": "拼图周长的变化规律",
+  "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit7.json",
+  "before_source_fingerprint": "91294bfa5b19f8e6f2a0f4a695c83d13164a0bd0fc313437b033c2ac457744ed",
+  "after_fingerprint": "7970cea615b48ad611a5fd69f9509a1eed754cc120269c2196a58396d444b5c4",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    4,
+    15,
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "reasoning",
+      "question": "用两个完全一样的长方形拼成一个大长方形，大长方形的周长等于两个小长方形周长的和。"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "用 4 个边长为 1 厘米的小正方形拼成一个大正方形，拼成的图形周长是多少厘米？"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "两个边长为 3 厘米的正方形拼成一个长方形，这个长方形的周长是多少厘米？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "3个边长为2厘米的小正方形排成一行，沿整条边拼接。拼成图形的周长是（ ）厘米。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "4个边长为1厘米的小正方形分别按下列方式沿边拼接，哪种拼法的周长最短？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "从“周长、面积”中选一个词填空：图形拼接后，内部的公共边不计入新图形的（ ）。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "c8780bd286e6cfabd146c8ecf5dc5e6b80d464d9b201bf3cd0b022794cd8ef2a",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "本课按所提供的大纲和旧题整理；未提供教材原页，因此不声称完成原教材逐字核对或教师签审。",
+    "旧题 source_id 4、15、18 均予以保留。source_id 4 的判断结论为“错”，并补充了公共边在拼接前后如何计入周长的说明。",
+    "本课共6题，包含判断、选择、计算和文字填空题型，覆盖识记、应用与推理。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

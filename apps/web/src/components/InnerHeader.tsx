@@ -56,7 +56,7 @@ export function InnerHeader({
           href={backHref}
           aria-label="返回"
           className={cn(
-            "inline-flex items-center justify-center w-10 h-10 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0",
+            "inline-flex items-center justify-center w-11 h-11 rounded-full text-ink-light hover:text-primary hover:bg-bg-soft transition-colors shrink-0",
             flatOnDesktop && "lg:hidden",
           )}
         >

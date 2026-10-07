@@ -1,0 +1,73 @@
+{
+  "lesson_id": "english-g3up-u1-kp11",
+  "point": "人名书写",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "02794645a546bf0ad836ce3b78555b07d64e76857ec3883d65d7390ade066ebd",
+  "before_question_count": 1,
+  "after_question_count": 6,
+  "added_question_ids": [
+    48,
+    49,
+    50,
+    51,
+    52
+  ],
+  "revised_question_ids": [
+    11
+  ],
+  "coverage": [
+    {
+      "source_id": 11,
+      "skill": "recognition",
+      "question": "姓名卡上写着 Chen Jie。下面哪句按姓名卡正确书写了自我介绍？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "姓名卡上写着 Amy Lee。小华写成 AmyLee，并说这与姓名卡上的分词相同。小华说得对吗？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "姓名卡上写着 Lily Brown。哪种写法与姓名卡的大小写和分词都一致？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "姓名卡上写着 Grace。哪句话正确地写出了姓名并作自我介绍？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "姓名卡上写着 Noah King。草稿是“I'm NoahKing.”。要使姓名拼写、大小写和分词都与姓名卡一致，应选哪句？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "姓名卡上写着 Oliver。小文写成“I'm Oliver.”，并判断姓名和自我介绍的书写都符合姓名卡与本课规则。小文判断得对吗？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "689a0413f860bfd0b9f62b4af28a52389fc62404d100dc89195ad6c31fc37c34",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留旧题 source_id 11，新增5题并将 source_id 设为 null；题型包括选择题和判断题，覆盖识记、应用与推理。",
+    "已明确姓名拼写以题目提供的姓名卡为准，不根据中文姓名推测英文拼写；第5题明确要求姓名拼写、大小写和分词都一致，以保证答案唯一。",
+    "姓名大小写和空格通过选择题或判断题考查，不使用可能忽略大小写或空格的文字填空。",
+    "输入未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

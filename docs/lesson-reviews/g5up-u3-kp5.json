@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5up-u3-kp5",
+  "point": "用计算器探索规律",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit3.json",
+  "before_source_fingerprint": "b2d2f180564bac2624c0d3b9d19cdb408cc4be01fd8e807aaef2ed48b1dc7d84",
+  "after_fingerprint": "6854204e96ac3363cdca780d062ddb9e89be5d26791c7e4cf6d288dee480acd2",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    28,
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    12,
+    17,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "已知 1÷11=0.0909…，2÷11=0.1818…，3÷11=0.2727…，那么 5÷11 的结果是多少？"
+    },
+    {
+      "source_id": 17,
+      "skill": "reasoning",
+      "question": "已知 1÷7=0.142857…，这个循环小数小数点后第100位数字是多少？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "用计算器得到 0.6÷3=0.2，0.66÷3=0.22，0.666÷3=0.222。照此规律，0.6666÷3=___。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "计算器显示 1÷9=0.111…，2÷9=0.222…，3÷9=0.333…。根据这组算式，6÷9 的商是多少？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "用计算器依次计算 1.2÷3=0.4，1.23÷3=0.41，1.236÷3=0.412。照此变化，1.2369÷3=___。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "计算器显示 1÷8=0.125，3÷8=0.375，5÷8=0.625。按这组算式的变化规律，7÷8 的商是多少？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "cca2b98a965e659ed3cb06dbc09063809934d74f076acb0f836e9fb7baf23724",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留旧题 source_id 12、17、21；source_id 12、17保留原题意并核正讲解，source_id 21改编为完整且符合本课目标的小数除法规律题。",
+    "修正了旧讲解中关于循环节与除数倍数关系的错误表述，并调整了第6题的干扰项，确保四个选项互不相同且只有一个正确答案。",
+    "未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5down-u2-kp4",
+  "point": "数的奇偶性运算规律",
+  "source": "output/math/quizzes/义务教育教科书·数学五年级下册_unit2.json",
+  "before_source_fingerprint": "00050febace3cd00e59203bdc45680e809acf2f185c94ddd28212a0ed3cc300d",
+  "after_fingerprint": "fd75740b153abe9ba607a9efc595f7685d6750fe4a513c6a58515ae056a4ea5e",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    4,
+    11,
+    17,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "两个奇数的和一定是偶数。"
+    },
+    {
+      "source_id": 11,
+      "skill": "recognition",
+      "question": "一个奇数、一个偶数和另一个奇数相加，和是："
+    },
+    {
+      "source_id": 17,
+      "skill": "reasoning",
+      "question": "101个连续自然数相加，和的奇偶性怎样确定？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "3个连续奇数的和是21，这三个数中最大的一个是___。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "两个同为奇数的自然数相减（差有意义），差一定是："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "两个自然数相减，被减数是17，差是9，减数是___。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "02e99cb25255a523bae6df6e5f68ecbf8ee9c123c10e8624263deeb56f1e2578",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题的source_id。第4题保留原题；第11题使用奇数、偶数连加的修订题；第17题明确了连续自然数首项奇偶性与和的关系。",
+    "第21题保留题意并修正解析，三个连续奇数的中间数应为21÷3=7。",
+    "新增题补充同奇偶数相减得偶数的检验，并保留一个减法应用题。内容依据所提供的大纲与旧题整理，未声称完成教材原页逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

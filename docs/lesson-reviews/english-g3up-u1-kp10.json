@@ -1,0 +1,72 @@
+{
+  "lesson_id": "english-g3up-u1-kp10",
+  "point": "询问姓名",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "3e16d9e262a9d6451d82f2f5d5616a32e3a98a094b2caa49d4cb368bdabdf643",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    45,
+    46,
+    47
+  ],
+  "revised_question_ids": [
+    10,
+    18,
+    22
+  ],
+  "coverage": [
+    {
+      "source_id": 10,
+      "skill": "recognition",
+      "question": "What's _______ name?"
+    },
+    {
+      "source_id": 18,
+      "skill": "recognition",
+      "question": "What is ___ name?"
+    },
+    {
+      "source_id": 22,
+      "skill": "recognition",
+      "question": "哪一句的单词顺序正确，可以询问对方的姓名？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "别人问你姓名。用给定的名字补全回答：I'm ______.（名字：Amy）"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "询问别人姓名时，可以说“What's you name?”。对吗？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "读对话：A: Hi! What's your name? B: Goodbye! B的回答有什么问题？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3256c6b3b3397041fdde054a8de7023bf778eb2379e6c71b95aa6a73f2f7a2ff",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了旧题source_id 10、18、22；source_id 22原题型不在当前支持题型中，已改为选择题考查正确语序。",
+    "共6题，包含选择、文字填空和判断题，并覆盖识记、应用与推理。",
+    "内容依据所提供的项目大纲和旧题整理；未提供教材原页，未声称完成教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

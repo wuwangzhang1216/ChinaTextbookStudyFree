@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g6up-u1-kp2",
+  "point": "分数乘分数的计算法则",
+  "source": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit1.json",
+  "before_source_fingerprint": "c6f9ebf37d206f9034a57c21a2e0039eb0e7f0f5a40156aa53ac784e8e7d1259",
+  "after_fingerprint": "9a97b76dc4881e26562360410b8f185c887f5ccf475f7a93e89a92c092bc643b",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    2,
+    6,
+    9
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "两个真分数相乘，积一定小于 1。"
+    },
+    {
+      "source_id": 6,
+      "skill": "application",
+      "question": "5/6 × 3/10 的计算结果是："
+    },
+    {
+      "source_id": 9,
+      "skill": "reasoning",
+      "question": "已知正数 a、b 满足 a × 1/2 = b × 1/3，那么 a 与 b 的关系是："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "计算：3/8 × 16/3。答案只写一个数字。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一段长3/4米的彩带，用去其中的2/5。已知1米=100厘米，用去多少厘米？答案只写一个数字。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小明计算 2/3 × 3/5 时，把分子相加、分母相加，得出5/8。下面哪种说法正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "75d439ed9a449918a73a1ffb7136a413c1e35039c97068d8dad44274b093213d",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题 source_id 2、6、9；修正知识点中关于约分位置的表述，使其包含同一个分数内的分子、分母因数也可约分。",
+    "依据输入的大纲与旧题整理，未声称完成教材原页逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g4up-u9-kp3",
+  "point": "综合应用与统计复习",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit9.json",
+  "before_source_fingerprint": "10c0272b3ed7a6a617e4e2f8d6005de96ed12c7fa4733510b156eb0c2b601ede",
+  "after_fingerprint": "7f75f04142106be05d0c1be8264465cb696b6eeb779d3c66407c0d4c4afcea71",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    12,
+    13,
+    18,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "小明骑自行车每分钟行 200 米，他 1 小时行（ ）千米。"
+    },
+    {
+      "source_id": 13,
+      "skill": "reasoning",
+      "question": "一只平底锅只能同时煎 2 条鱼，煎熟一条鱼需要 4 分钟（两面各 2 分钟），煎 3 条鱼最快需要（ ）分钟。"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "学校买来 8 盒钢笔，每盒 12 支，共花了 480 元。每支钢笔多少钱？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "一辆货车送货，去时速度 60 千米/时，用了 3 小时。原路返回只用了 2 小时，返回时的平均速度是每小时 ___ 千米。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "图书角记录了四天的借书数量：周一18本，周二25本，周三21本，周四16本。哪一天借出的图书最多？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "统计表记录了四个班回收的废纸质量：一班32千克，二班28千克，三班35千克，四班25千克。四个班一共回收多少千克废纸？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "0a8cd3025771bf4da67379573afd4485e4605cc369aa1ad7e41bbd681e9ab302",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了输入中的全部旧题 source_id；新增两题的 source_id 为 null，题数为6。",
+    "未提供教材原页，本次未进行原教材逐字核对，也未进行教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

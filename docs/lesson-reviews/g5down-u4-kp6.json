@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5down-u4-kp6",
+  "point": "通分与最小公倍数",
+  "source": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+  "before_source_fingerprint": "779f3ffa539ffa24c1b556a77f1130b0b4c367395030d089fbe12b26f3f81dcd",
+  "after_fingerprint": "ea791dc255c508b9d9190be1b6276206d982ad65f84fd9e6a5454d6a86b7d0b8",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    37,
+    38
+  ],
+  "revised_question_ids": [
+    5,
+    11,
+    16,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "通分时，分数的值变大了。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "比较 7/12 和 5/8 的大小，结果是："
+    },
+    {
+      "source_id": 16,
+      "skill": "recognition",
+      "question": "两个正整数的公倍数有："
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "两路公共汽车同时出发，3路车每6分钟发一次车，5路车每8分钟发一次车。假设它们一直按这个间隔发车，下一次同时发车至少要过 ___ 分钟。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "将5/12和7/18通分，取最小公分母后，5/12的分子是 ___。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小明把2/3和3/4通分时写成了2/12和3/12。他错在哪里？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "8dac21148acdaccdaa38cd4089e5609f678c4adbbf38aad58adb43141d0f02d0",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "按要求保留了全部旧题的source_id；对旧题21补充了按固定间隔发车的条件，使情境条件明确。",
+    "修订了旧题16的题干，使“公倍数”明确指两个正整数的公倍数，并补正其说明：公倍数是最小公倍数的正整数倍。",
+    "输入未提供教材原页，因此未进行教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

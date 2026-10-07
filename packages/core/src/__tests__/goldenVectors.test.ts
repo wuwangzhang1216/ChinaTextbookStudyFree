@@ -297,6 +297,14 @@ describe("reviewHeartReward（复习补心，双端同口径）", () => {
     expect(reviewHeartReward(REVIEW_HEART_MIN_CORRECT + 10, 2)).toBe(REVIEW_HEART_REWARD);
   });
 
+  it("可用错题不足五道时，完成整轮仍能回心", () => {
+    expect(reviewHeartReward(3, 0, 3)).toBe(1);
+    expect(reviewHeartReward(2, 0, 3)).toBe(0);
+    expect(reviewHeartReward(1, 0, 1)).toBe(1);
+    expect(reviewHeartReward(0, 0, 0)).toBe(0);
+    expect(reviewHeartReward(3, 0, Number.NaN)).toBe(0);
+  });
+
   it("满心不再补，也不会补出上限", () => {
     expect(reviewHeartReward(20, MAX_HEARTS)).toBe(0);
     expect(reviewHeartReward(20, MAX_HEARTS + 3)).toBe(0);

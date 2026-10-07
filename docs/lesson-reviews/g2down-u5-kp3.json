@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2down-u5-kp3",
+  "point": "带有小括号的混合运算",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit5.json",
+  "before_source_fingerprint": "c29c7caa1c2f52020d23b72e4af53b2c00ea3d99aebd15d221ab9f882c705b02",
+  "after_fingerprint": "b5f7f9ae880b85ecc8ca14845cb6878e46609298d70c0edb2f9ff740764a33f0",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    11,
+    15,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "reasoning",
+      "question": "计算 (9 + 6) ÷ 3 时，有人说第一步先算 15 ÷ 3。这个说法对吗？"
+    },
+    {
+      "source_id": 8,
+      "skill": "application",
+      "question": "下面算式中，结果是 30 的是哪一个？"
+    },
+    {
+      "source_id": 11,
+      "skill": "reasoning",
+      "question": "分步算式是 14 + 10 = 24，24 ÷ 4 = 6。要先求 14 与 10 的和，再除以 4，综合算式是哪一个？"
+    },
+    {
+      "source_id": 15,
+      "skill": "recognition",
+      "question": "48 × (12 - 4) 的第一步算什么？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "计算 8 × (14 - 5) 的结果是 ___。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "每盒有 6 支绿色铅笔和 2 支黄色铅笔，买了 4 盒。一共买了多少支铅笔？只填一个数字：___。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3c75f7dd38a55c64b19a0d3d1d0d7ed4344e706104c68d7969c0f894c10e2370",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id。旧题 3 改为辨析错误运算顺序的判断题；旧题 11 修正分步算式和题意，并改用运算结果为整数的选项；旧题 21 的原数值与答案不符，已改编为本课范围内的正确计算题。",
+    "旧题 8 的选项保留，重新核对并补充了各选项的计算结果；其余题目也已检查答案与解析的一致性。",
+    "根据提供的大纲和旧题整理；未提供教材原页，因此未作教材逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -15,7 +15,7 @@ import { getStarterCosmetics } from "./cosmetics";
 export type AchievementCategory = "milestone" | "streak" | "perfection" | "shop" | "review";
 
 /**
- * 新档白送的初始美妆 id 集合 —— "解锁第一件美妆道具"要排除它们。
+ * 新档白送的初始美妆 id 集合 —— "解锁第一件聪聪的装扮"要排除它们。
  * 用 cosmetics 的 starter 标记推导（而不是减一个魔法数），
  * 将来增删 starter 或用户只拥有部分 starter 都不会错档。
  */
@@ -227,7 +227,7 @@ const A: Achievement[] = [
     id: "first-cosmetic",
     category: "shop",
     name: "时尚启航",
-    description: "解锁第一件美妆道具",
+    description: "解锁第一件聪聪的装扮",
     iconKey: "sparkle",
     color: "#A855F7",
     goal: 1,

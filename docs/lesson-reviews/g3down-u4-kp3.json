@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3down-u4-kp3",
+  "point": "解决两步计算的应用题",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit4.json",
+  "before_source_fingerprint": "41bc30e096bcf12df515daccc513ed849e452bbd368e7aee19acea45ad0e8663",
+  "after_fingerprint": "8a3a05308716d60397a2d609a87001fc7d2c98984c181fcb8255a17e5e4f4f36",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    5,
+    10,
+    13,
+    17,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "每套书有12本，售价30元。买2套需要多少钱？列式为12×30。"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "学校食堂买了11箱苹果，每箱12个，每个苹果卖2元。一共花了多少钱？"
+    },
+    {
+      "source_id": 13,
+      "skill": "reasoning",
+      "question": "3名老师带40名学生去公园。学生票每张15元，老师票费用不计。40名学生的门票共多少钱？"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "2只青蛙3天吃了60只害虫。按题目给出的数量计算，1只青蛙1天吃几只害虫？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "一辆货车一次能运5吨货物。8辆这样的货车各运12次，一共能运___吨。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把96本书平均放到4个书架上，每个书架上的书再平均分给3个班。要先求每个书架上的书有多少本，应该用哪道算式？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "8389835cc2483f549ddb6d8919f8982efd83d889e090b8d3b3d61ee674e9d3d6",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据所提供的大纲和旧题编写与修订；未提供教材原页，因此不作逐字核对或教师签审声明。",
+    "保留了全部旧题的source_id。第13题补清了所求范围和费用条件；第17题整理了两步除法的表述；第21题补明每辆车各运12次。",
+    "练习共6题，包含判断、选择和数字填空，覆盖识记、应用与推理。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g1up-u3-kp2",
+  "point": "通过符号(=、>、<)比较大小",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit3.json",
+  "before_source_fingerprint": "0f961d8f296c7b0d875c175efaef7976bf947550daf00a6e7958bed6494983eb",
+  "after_fingerprint": "a721459f3dec1a8abffcb0307e0a311fba1c271559d738942d08e5ac7f41c3df",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    26,
+    27,
+    28
+  ],
+  "revised_question_ids": [
+    3,
+    7,
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "3比4大，所以可以用符号 3 > 4 表示。"
+    },
+    {
+      "source_id": 7,
+      "skill": "recognition",
+      "question": "下面哪一个大小关系写对了？"
+    },
+    {
+      "source_id": 16,
+      "skill": "recognition",
+      "question": "和 4 相等的数是哪个？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "先算左边，再选出正确的比较式。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "在□中填一个符号（=、>、<）：2 □ 3"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把1、3、5按从小到大排列，并用符号连接，哪一项正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "f0e102af40927802009522968b5c1254f82f31a0233888a65473b0f483f32d46",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共编排6题，保留旧题source_id 3、7、16；新增题的source_id为null。",
+    "第7题改为比较关系选项，干扰项均围绕本课的大小关系设置；第5题更换比较数，避免讲解示例与练习题面、答案重复。",
+    "内容依据所给项目大纲和旧题整理；未进行原教材原页逐字核对，也未取得教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

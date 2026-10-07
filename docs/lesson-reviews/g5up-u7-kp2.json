@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g5up-u7-kp2",
+  "point": "封闭路线的植树规律",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit7.json",
+  "before_source_fingerprint": "ae4fc71f87ebb45c76cb882cf7611d4af02221deb9b081381f7af3fd7bec7a87",
+  "after_fingerprint": "3e3b75b85383a94272dda2a5d4462c4ee4291bf4ed3410376f79c79f6cc9fda9",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    12,
+    16,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "沿封闭路线每隔相同距离栽树，树的棵数比间隔数多1。"
+    },
+    {
+      "source_id": 8,
+      "skill": "application",
+      "question": "一个正方形花坛周长 80 米，每隔 4 米摆一盆花。一共需要多少盆花？"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "一条长 144 米的封闭路线，沿线均匀设置 24 个树位。相邻树位之间的距离是 ___ 米。"
+    },
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "一个等边三角形鱼池的每条边长 20 米，三条边一共长 60 米。沿鱼池周边每隔 5 米放一根钓鱼竿，并且三个角都放。一共放几根？"
+    },
+    {
+      "source_id": 20,
+      "skill": "reasoning",
+      "question": "一条长 56 米的封闭路线，每隔 7 米设置一个树位。有同学算出 56÷7+1=9 个树位。下面哪项纠正正确？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一个正方形场地每条边长 18 米，沿周边每隔 6 米设置一个树位，并且四个角都有树位。四个角上一共有几个树位？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "f423b5a05585b50ba39b2f6c112d13f48ae8e69e37deb6f648032dd6d151f993",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据所给项目大纲和旧题整理，未进行教材原页逐字核对，也未进行教师签审。",
+    "保留了全部旧题 source_id。source_id=3改为辨析封闭路线与直线植树规律的判断题；source_id=12改为反向求间距；source_id=20改为辨析错误解法。",
+    "source_id=16补充了每条边长，使三个角都落在间距位置的条件明确。",
+    "共6题，包含判断、选择和填空题型，并覆盖识记、应用和推理。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

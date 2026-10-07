@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g1up-u9-kp2",
+  "point": "图形与时间的综合回顾",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit9.json",
+  "before_source_fingerprint": "4e20454a98c9a29d0fbf1a7b0809dfb8b7e34f3c1f7800a1567585ebbf240b26",
+  "after_fingerprint": "60368ded06b1f916552d43f1632ca6577254fbc587195f693cce4fa741152ec5",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    2,
+    5,
+    9,
+    10,
+    14
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "reasoning",
+      "question": "长方体和正方体都有平平的面，所以只凭“有平平的面”不能区分它们。"
+    },
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "钟面上，分针指向12时，表示整时。"
+    },
+    {
+      "source_id": 9,
+      "skill": "recognition",
+      "question": "分针指向12，时针指向9，这时是几时？"
+    },
+    {
+      "source_id": 10,
+      "skill": "recognition",
+      "question": "哪种立体图形没有平平的面，能向各个方向滚动？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "同一天上午，过1小时后是11时，现在是几时？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一个立体图形有两个平平的圆面，中间还有一个弯弯的面。它最可能是什么？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3974ac15690ab3cd5aeea34e4e58f3b4ebbe3509fd0cc407e3aa9e382feff6b1",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据提供的大纲和旧题整理；未提供教材原页，未声称完成教材逐字核对或教师签审。",
+    "保留全部旧题 source_id。修订 source_id 为2的题目，避免将长方体面的表述作为辨析依据；修订 source_id 为5的题目，考查整时的明确特征，而非把建议的观察顺序说成必须遵守的规则。",
+    "保留并核对其余旧题的题意；为 source_id 为14的时间问题明确限定为同一天上午。新增题的 source_id 为 null。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

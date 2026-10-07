@@ -1,0 +1,72 @@
+{
+  "lesson_id": "english-g3up-u1-kp6",
+  "point": "物品持有表达",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "11c42b9420024899160c6ae07ebcb0960a2266b2f53d8e526881651c015c682d",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    29,
+    30,
+    31
+  ],
+  "revised_question_ids": [
+    4,
+    7,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "在句子“I have an eraser.”中，使用“an”是因为“eraser”以元音音素开头。"
+    },
+    {
+      "source_id": 7,
+      "skill": "application",
+      "question": "选择表示“我有一把尺子”的句子中缺少的词：I _______ a ruler."
+    },
+    {
+      "source_id": 23,
+      "skill": "reasoning",
+      "question": "把句子里的 has 改正确，只写一个词：I has an orange. 答：___"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "填入 a 或 an，只写一个词：I have ___ crayon."
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "下面哪句话表示“我有一个包”？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "“I am a pen.”可以表示“我有一支钢笔”。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "6a4ad5c5449819bd35f79497a5b5256bb3f2d5743b08977af756fb2417365a74",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共编排6题，保留旧题 source_id 4、7、23；第23题改为改正动词的文字填空，避免与第7题重复考查同一句型语序。",
+    "练习包含判断、选择和文字填空，覆盖识记、应用与推理。",
+    "本次依据所给项目大纲与旧题整理，未对照教材原页逐字核对，也不代表教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

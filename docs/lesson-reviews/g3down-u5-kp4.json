@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g3down-u5-kp4",
+  "point": "面积单位间的进率与换算",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit5.json",
+  "before_source_fingerprint": "e84ab87db182f627c1a2015cfe5e325921e7ebe3b797f93c504876b61a267871",
+  "after_fingerprint": "c17f9b46bc6c4abaf6684f7e5275b8ef6dc934fa0e84b2edd33f7d36d008cf9f",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    4,
+    9,
+    13,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "5 平方米等于 50 平方分米。"
+    },
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "700 平方分米等于多少平方米？"
+    },
+    {
+      "source_id": 13,
+      "skill": "reasoning",
+      "question": "1 平方米比 100 平方厘米多多少？"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "8 平方米等于 ___ 平方分米。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "3 平方米 6 平方分米等于 ___ 平方分米。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "下面哪一个面积最大？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "c2c0a327876b81bad0ae58b4a314d6b58b1ac33f7d05e26e12a63dd4794b666d",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题的 source_id；旧题答案与面积单位换算关系一致。",
+    "本课依据输入的大纲和旧题整理、修订；未提供教材原页，因此未进行原教材逐字核对，也不表示已经教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

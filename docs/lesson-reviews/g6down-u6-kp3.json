@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g6down-u6-kp3",
+  "point": "统计图分析与概率决策",
+  "source": "output/math/quizzes/义务教育教科书·数学六年级下册_unit6.json",
+  "before_source_fingerprint": "4cb6bc648406c31e3165100c4c3dd51a34a41513404e4f1c7056386a63429f92",
+  "after_fingerprint": "7f6bed5cc538443089c196f1b236d92946d47c0467c3b6097b694aa0cee12c46",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "一组数据的平均数代表了这组数据的平均水平，它不容易受极端值的影响。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "要反映某市去年一年各月降水量的变化情况，选哪种统计图最合适？"
+    },
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "盒子里有 5 个红球，3 个黄球，2 个白球，任意摸一个，摸到哪种球的可能性大？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "小林4天读书的页数分别是14页、18页、20页、16页。平均每天读多少页？____页"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "学校想展示参加不同社团的学生人数各占参加社团总人数的比例，选哪种统计图最合适？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一个转盘平均分成8个相同大小的扇形，其中4个涂绿色、3个涂橙色、1个涂紫色。转动转盘一次，指针最可能停在哪种颜色上？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "70d2eec14eff515c6941f45844bd761fb304b17b46369abaa486ed36144991fe",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题 source_id 3、8、16，并依据题意核对答案和完善解析；新增题的 source_id 为 null。",
+    "未提供教材原页，本整理未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g5up-u1-kp5",
+  "point": "小数乘法解决问题（估算与分段计费）",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit1.json",
+  "before_source_fingerprint": "13c4dbb06df70b777f2cf0e1119ead05575b6e6ac914cba207891ff99079daed",
+  "after_fingerprint": "346812387d1dfa60a3115025d6af09dcc982fa460101135c5ed486cd423090c6",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    28,
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    5,
+    11,
+    17
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "application",
+      "question": "妈妈去超市买果汁，每瓶 $4.8$ 元，买 $5$ 瓶带 $25$ 元一定够。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "某市出租车起步价 $10$ 元（$3$ 公里及以内），超过 $3$ 公里后每公里 $2$ 元。小红乘车 $5$ 公里应付多少元？"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "一箱苹果 $25.5$ 千克，每千克 $4$ 元。如果用 $100$ 元钱买这箱苹果，钱够吗？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "每千克谷物6.2元，买3.8千克。用估算判断，费用最接近多少元？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "某寄存柜前4小时收费8元，超过4小时的部分每小时收费1.5元。使用7小时，下面哪个算式表示总费用？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "停车场停车1小时内收费5元，超过1小时后，每增加半小时收费2.5元。停车正好2小时，应付多少元？只填写数字。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "916009dfdf0a3568aaba79e0e6aa9c464f55686ed139ff27a9056674051a5a43",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了旧题 source_id 5、11、17，并补充3道新题，题目总数为6。",
+    "内容依据所提供的项目大纲和旧题整理；未提供教材原页，因此不声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

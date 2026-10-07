@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g4up-u1-kp1",
+  "point": "亿以内数的计数单位与数位顺序",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit1.json",
+  "before_source_fingerprint": "06a90e7a478eb0cefda382cbdc76bbd31efaf93965522d604c4709bebf06c0fa",
+  "after_fingerprint": "3350004e2c1fae1b624fb13776faf9714a46fc0206e048d6cce22e99c765e73a",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    1,
+    6,
+    11,
+    15,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "reasoning",
+      "question": "在数位顺序表中，两个计数单位之间的进率都是10。"
+    },
+    {
+      "source_id": 6,
+      "skill": "recognition",
+      "question": "从个位起，第七位是（  ）。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "一亿里面有（  ）个一千万。"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "在 65 后面添上（  ）个零，这个数就是六百五十万。"
+    },
+    {
+      "source_id": 19,
+      "skill": "recognition",
+      "question": "一个九位数的最高位是（  ）。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一个数由5个万、3个千和8个十组成，这个数是____。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "7b86a1a018b27c0084b7217a503ce0117ddc4c82f4cad7d993414da6353e558b",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题的 source_id；新增题的 source_id 为 null。",
+    "第19题旧答案与解析存在前后不一致，已改为选择题，统一题干、选项和答案。",
+    "本次依据提供的大纲与旧题整理，未声称逐字核对教材原页或完成教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

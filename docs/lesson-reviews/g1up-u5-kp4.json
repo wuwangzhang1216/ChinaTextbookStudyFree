@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g1up-u5-kp4",
+  "point": "加减混合运算",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit5.json",
+  "before_source_fingerprint": "c66106bb687d845325d4c90618c787cc46ace6ead48bea6803384f1c837050b2",
+  "after_fingerprint": "53f32f1a8d4240dc939db266110a01b05a073b59e1d93aca4d3ff14495ae36c0",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27,
+    28,
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    12,
+    17
+  ],
+  "coverage": [
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "算式 $8 - 5 + 2$ 的得数是多少？"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "鱼缸里原有 7 条鱼，捞走 3 条，又放进 2 条。现在鱼缸里有几条鱼？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "计算 $5 + 3 - 4$，应该先算哪一步？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "计算：$9 - 3 + 2 = \\square$"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "在 $7 - 2 + \\square = 8$ 中，方框里填几？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "计算 $4 + 3 - 2$，先算 $3 - 2$。这种计算顺序对吗？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "7756d0e8daaf4a770292bdd35bbb1e89a05a6d7f8f45ae0208c7bdfff92783b0",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题 source_id 12 和 17；两题题意与计算结果一致。",
+    "第3题调整了错误顺序选项，避免出现超出本课范围的减法；第6题改为辨析错误计算顺序。",
+    "本课共6题，包含识记、应用和推理，使用选择、计算、填空和判断题型。",
+    "未提供教材原页，本内容依据所给大纲与旧题整理，不代表完成教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

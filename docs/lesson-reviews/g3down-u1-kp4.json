@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3down-u1-kp4",
+  "point": "简单行走路线的描述",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit1.json",
+  "before_source_fingerprint": "ac1a1657f7f0c4176d1fe478d3ad024b82c63bde2ab039b10b438ae97780681a",
+  "after_fingerprint": "fd870fa5c996593502be9fa0e98d39c0df56d9c68fc62cbca51a63cd0faeea46",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27,
+    28,
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    11,
+    15
+  ],
+  "coverage": [
+    {
+      "source_id": 11,
+      "skill": "recognition",
+      "question": "小林面向北方走到路口，接着要沿东方向走。他需要怎样转弯？"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "从A地向东南走可以到达B地，那么从B地返回A地应该向哪个方向走？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "小林从家向北走到车站，再向东走到书店。第二段路线从____出发。（从“家、车站、书店”中选择）"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "小宁面向南方走到桥边，接着要向西走到亭子。到桥边后，她应怎样转弯？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "从校门向北走到花坛，再从花坛向东走到水池。小明说第二段路线是“从校门向东走到水池”。他的说法正确吗？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小文从起点向东走到邮局，再从邮局向北走到书店。她从书店沿原路返回起点，正确的路线是哪一项？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "0eba7a55eef63e64d858131ac80a837faf093b7d6bc9ee289c603500f97fd59d",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题 source_id 11 和 15；其余新增题的 source_id 为 null。",
+    "根据反馈修订了第二段路线填空题，所填内容不再直接出现在题干中；判断题设置了明确的起点错误供辨析。",
+    "未提供教材原页，未声称完成教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

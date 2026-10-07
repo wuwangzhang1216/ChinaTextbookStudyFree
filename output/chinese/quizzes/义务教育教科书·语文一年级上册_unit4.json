@@ -4,7 +4,7 @@
   "unit_number": 4,
   "unit_test": {
     "title": "第四单元汉语拼音达标测试卷",
-    "total_score": 100,
+    "total_score": 125,
     "time_minutes": 40,
     "questions": [
       {
@@ -19,7 +19,6 @@
         "explanation": "复韵母是由两个元音组成的，发音时要有口形滑动的过程。"
       },
       {
-        "id": 2,
         "type": "true_false",
         "score": 2,
         "difficulty": 1,
@@ -27,7 +26,8 @@
         "question": "yi是一个整体认读音节，可以直接读出来。",
         "options": [],
         "answer": "对",
-        "explanation": "yi、wu、yu属于整体认读音节，不需要拼读。"
+        "explanation": "yi属于整体认读音节。认读时把整个音节连起来读，不用先拆成声母和韵母再拼。",
+        "id": 2
       },
       {
         "id": 3,
@@ -52,15 +52,15 @@
         "explanation": "ei和ie的字母位置不同，读音也完全不同。"
       },
       {
-        "id": 5,
         "type": "true_false",
         "score": 2,
         "difficulty": 1,
         "knowledge_point": "整体认读音节应用",
-        "question": "zhi、chi、shi是整体认读音节。",
+        "question": "zhi、chi、shi需要拆成声母和韵母，再拼读。",
         "options": [],
-        "answer": "对",
-        "explanation": "这三个属于声母后面带-i的整体认读音节。"
+        "answer": "错",
+        "explanation": "zhi、chi、shi都是整体认读音节，应把整个音节连起来直接认读，不用拆开拼读。",
+        "id": 5
       },
       {
         "id": 6,
@@ -95,12 +95,11 @@
         "explanation": "羊读作yáng，韵母是后鼻韵母ang。"
       },
       {
-        "id": 8,
         "type": "choice",
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "整体认读音节应用",
-        "question": "下列音节中属于整体认读音节的是：",
+        "question": "下列音节中，哪个是整体认读音节？",
         "options": [
           "ba",
           "yue",
@@ -108,7 +107,8 @@
           "tian"
         ],
         "answer": "yue",
-        "explanation": "yue是整体认读音节，不要拼读。"
+        "explanation": "yue是整体认读音节，应把整个音节连起来认读。ba、mei、tian不属于整体认读音节。",
+        "id": 8
       },
       {
         "id": 9,
@@ -191,20 +191,20 @@
         "explanation": "老lǎo，草cǎo，好hǎo，韵母都是ao。"
       },
       {
-        "id": 14,
         "type": "choice",
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "整体认读音节应用",
-        "question": "哪个整体认读音节代表‘圆形’中‘圆’的读音？",
+        "question": "“圆形”的“圆”读yuán。哪个音节表示这个读音？",
         "options": [
-          "yu",
-          "yun",
-          "yuan",
-          "yan"
+          "yú",
+          "yǔ",
+          "yuán",
+          "yàn"
         ],
-        "answer": "yuan",
-        "explanation": "yuan是整体认读音节，不要拼读。"
+        "answer": "yuán",
+        "explanation": "“圆形”的“圆”读yuán，声调是第二声，拼写为yuán。yuan是整体认读音节，认读时把整个音节连起来读。",
+        "id": 14
       },
       {
         "id": 15,
@@ -296,54 +296,122 @@
         "explanation": "蓝lán(an)，乒pīng(ing)，分fēn(en)，朋péng(eng)。"
       },
       {
-        "id": 21,
-        "type": "matching",
+        "type": "choice",
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "整体认读音节应用",
-        "question": "将整体认读音节与对应的汉字连线：",
+        "question": "哪一组音节和汉字对应正确？",
         "options": [
-          "zi",
-          "wu",
-          "ri",
-          "yu",
-          "日",
-          "鱼",
-          "子",
-          "五"
+          "zǐ—五，wǔ—子，rì—鱼，yú—日",
+          "zǐ—子，wǔ—五，rì—日，yú—鱼",
+          "zǐ—日，wǔ—鱼，rì—子，yú—五",
+          "zǐ—鱼，wǔ—日，rì—五，yú—子"
         ],
-        "answer": "A-3,B-4,C-1,D-2",
-        "explanation": "zi-子，wu-五，ri-日，yu-鱼。"
+        "answer": "zǐ—子，wǔ—五，rì—日，yú—鱼",
+        "explanation": "子读zǐ，五读wǔ，日读rì，鱼读yú。把每个音节的声调和对应汉字逐一核对，只有这一组全部正确。",
+        "id": 21
       },
       {
-        "id": 22,
-        "type": "word_order",
+        "type": "choice",
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "汉语拼音综合应用",
-        "question": "连词成句：",
+        "question": "“水”（shuǐ）的韵母是哪个？",
         "options": [
-          "小鱼",
-          "在水里",
-          "游来游去"
+          "iu",
+          "ei",
+          "ui",
+          "ie"
         ],
-        "answer": "小鱼,在水里,游来游去",
-        "explanation": "这是典型的主语+地点+动作句式。"
+        "answer": "ui",
+        "explanation": "“水”的拼音是shuǐ，声母是sh，韵母是ui。韵母的字母顺序要按拼音里的写法辨认，不能把ui看成iu。",
+        "id": 22
       },
       {
-        "id": 23,
-        "type": "word_order",
+        "type": "true_false",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "汉语拼音综合应用",
+        "question": "“民”（mín）的韵母是ing。",
+        "options": [],
+        "answer": "错",
+        "explanation": "“民”的拼音是mín，声母是m，韵母是in。in以n结尾，ing以ng结尾，所以“民”的韵母不是ing。",
+        "id": 23
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 2,
+        "knowledge_point": "整体认读音节应用",
+        "question": "小华要把zi、yu、ma、shi放进“直接读”或“先拼一拼”两个盒子。哪种放法正确？",
+        "options": [
+          "zi、yu、shi放进“直接读”盒，ma放进“先拼一拼”盒",
+          "zi、yu、ma放进“直接读”盒，shi放进“先拼一拼”盒",
+          "ma、shi放进“直接读”盒，zi、yu放进“先拼一拼”盒",
+          "zi、ma放进“直接读”盒，yu、shi放进“先拼一拼”盒"
+        ],
+        "answer": "zi、yu、shi放进“直接读”盒，ma放进“先拼一拼”盒",
+        "explanation": "zi、yu、shi都是整体认读音节，应该放进“直接读”盒。ma不是整体认读音节，可以按声母和韵母拼读，因此放进“先拼一拼”盒。",
+        "id": 24
+      },
+      {
+        "type": "choice",
         "score": 5,
         "difficulty": 1,
         "knowledge_point": "汉语拼音综合应用",
-        "question": "连词成句：",
+        "question": "下面哪个是整体认读音节？",
         "options": [
-          "爱吃",
-          "大熊猫",
-          "嫩竹子"
+          "liu",
+          "yuan",
+          "bai",
+          "shui"
         ],
-        "answer": "大熊猫,爱吃,嫩竹子",
-        "explanation": "大熊猫是主语，爱吃是动词，嫩竹子是宾语。"
+        "answer": "yuan",
+        "explanation": "yuan是整体认读音节，要把整个音节直接认读。liu、bai、shui都不是整体认读音节。",
+        "id": 25
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉语拼音综合应用",
+        "question": "“妹”（mèi）的韵母是哪个？",
+        "options": [
+          "ei",
+          "ie",
+          "ai",
+          "ui"
+        ],
+        "answer": "ei",
+        "explanation": "“妹”的拼音是mèi，声母是m，韵母是ei。ei和ie的字母相同但顺序不同，要按拼音中的实际顺序辨认。",
+        "id": 26
+      },
+      {
+        "type": "choice",
+        "score": 5,
+        "difficulty": 3,
+        "knowledge_point": "汉语拼音综合应用",
+        "question": "“山”（shān）和“商”（shāng）的韵母有什么不同？",
+        "options": [
+          "山的韵母是an，商的韵母是ang。",
+          "山的韵母是ang，商的韵母是an。",
+          "山的韵母是en，商的韵母是eng。",
+          "山的韵母是ai，商的韵母是ei。"
+        ],
+        "answer": "山的韵母是an，商的韵母是ang。",
+        "explanation": "“山”的拼音是shān，去掉声母sh后，韵母是an；“商”的拼音是shāng，去掉声母sh后，韵母是ang。an以n结尾，ang以ng结尾，两个韵母不能混淆。",
+        "id": 27
+      },
+      {
+        "type": "fill_blank_text",
+        "score": 5,
+        "difficulty": 1,
+        "knowledge_point": "汉语拼音综合应用",
+        "question": "“白”（bái）的韵母是____。",
+        "options": [],
+        "answer": "ai",
+        "explanation": "“白”的拼音是bái，声母是b，韵母是ai。找韵母时，要按拼音里字母的顺序辨认。",
+        "id": 28
       }
     ]
   },
@@ -697,13 +765,26 @@
     },
     {
       "point": "整体认读音节应用",
-      "core_concept": "整体认读音节是不需要经过声母和韵母拼合，而是直接作为一个整体来认读的音节。本单元涉及的包括zhi, chi, shi, ri, zi, ci, si, yi, wu, yu, ye, yue, yuan, yin, yun, ying等16个。",
-      "key_formula": "见符直接读，不必拼声音。",
+      "core_concept": "整体认读音节要把整个音节连起来直接认读，不用先拆成声母和韵母再拼。例如，yī、wǔ、yú、yuán都是整体认读音节。看到音节时，要看清完整拼写，再判断它是不是整体认读音节。",
+      "key_formula": "看清整个音节；是整体认读音节，就直接认读，不拆开拼。",
+      "tips": "可以按三步来认读：①看清音节里的字母；②想一想它是不是整体认读音节；③如果是，就把整个音节连起来读。整体认读音节有zhi、chi、shi、ri、zi、ci、si、yi、wu、yu、ye、yue、yuan、yin、yun、ying。注意：yu里的u上面不写两点。",
       "common_mistakes": [
-        "习惯性进行拆分拼读，如把yu读成y-u。",
-        "将yuan拆解为y-u-an，实际应整体识记。"
-      ],
-      "tips": "编顺口溜：i u ü 见大y，变身整体别拼读；zhi chi shi ri zi ci si，见到小i躲进屋。"
+        "把整体认读音节拆成声母和韵母，再拼读；例如把yu拆开来拼。",
+        "看漏字母或看错字母，例如把yuan看成yan。",
+        "读音节对应汉字时漏标或读错声调，例如把zǐ写成zi。"
+      ]
+    },
+    {
+      "point": "汉语拼音综合应用",
+      "core_concept": "复韵母由两个或三个元音字母组合而成，读时声音要连贯，口形从前一个音慢慢滑向后一个音，例如“爱”（ài）的韵母是ai。鼻韵母看结尾：以n结尾的是前鼻韵母，如“门”（mén）的韵母en；以ng结尾的是后鼻韵母，如“丁”（dīng）的韵母ing。整体认读音节要把整个音节直接认读，不拆开拼，例如zhi、ci、yi、yuan。",
+      "key_formula": "先看韵母字母的顺序，再看结尾是n还是ng；遇到学过的整体认读音节，就把整个音节连起来认读。",
+      "tips": "①先读清汉字对应的拼音，再找出声母和韵母。②比较两个韵母时，逐个看字母和先后顺序，例如ai与ei、an与ang。③读复韵母时让声音连起来，不把两个元音分开读。④认整体认读音节时直接认整个音节。",
+      "common_mistakes": [
+        "把ui和iu的字母顺序看反；辨认时要按拼音里实际写出的顺序看。",
+        "把以n结尾的韵母和以ng结尾的韵母混淆，例如把in看成ing。",
+        "把ai和ei等不同韵母看成一样；要逐个看清字母。",
+        "把整体认读音节拆开拼读；学过的整体认读音节要整个认读。"
+      ]
     }
   ]
 }

@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2down-u1-kp2",
+  "point": "记录数据的方法（“正”字记录法）",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit1.json",
+  "before_source_fingerprint": "164f0f0d4271c722279bb67f88e311f350e0d819f42d1595f69b3dd7a5d9a0ed",
+  "after_fingerprint": "59cc70d5b61179f9197737bb40ac2855189003c6b9053861a2d7e9fc0417aa16",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27
+  ],
+  "revised_question_ids": [
+    2,
+    5,
+    7,
+    11,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "一个完整的“正”字和1画合起来代表5个数据。"
+    },
+    {
+      "source_id": 5,
+      "skill": "application",
+      "question": "用写“正”字的方法记录数据时，写了两个“正”字和三个笔画，代表 12。"
+    },
+    {
+      "source_id": 7,
+      "skill": "application",
+      "question": "在统计图画书数量时，写了 3 个“正”字，图画书一共有多少本？"
+    },
+    {
+      "source_id": 11,
+      "skill": "reasoning",
+      "question": "用“正”字记录法记录了 18 票，应该写几个完整的“正”字，还余几画？"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "统计记录显示有 4 个完整的“正”字，这代表的数字是 ___。（填一个数字）"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小明用“正”字记录投票结果，写了 2 个完整的“正”字和 1 画，一共记录了多少票？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "30cfbf8dac8b7a20f518dd65675ed941293995b0eedac1fec401ef9199ba947e",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留全部5道旧题的 source_id，并将第1道判断题改为辨析完整“正”字与剩余笔画的题目。",
+    "新增1道题，source_id 为 null；共6道题，符合 target_questions。",
+    "输入未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

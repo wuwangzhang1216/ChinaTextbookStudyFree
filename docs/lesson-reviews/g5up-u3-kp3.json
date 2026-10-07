@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g5up-u3-kp3",
+  "point": "商的近似数（进一法与去尾法）",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit3.json",
+  "before_source_fingerprint": "b2d2f180564bac2624c0d3b9d19cdb408cc4be01fd8e807aaef2ed48b1dc7d84",
+  "after_fingerprint": "5e6a150a5b2808b6d8eb67637c891f32b4f5be2dda8b419b9d878ec63b939429",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    5,
+    10,
+    14,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "reasoning",
+      "question": "每套衣服用布 2.2 米，50 米布最多可以做 23 套衣服。"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "把 60 升油装入容量为 4.5 升的桶中，至少需要准备几个桶？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "计算 2.5 ÷ 0.7，商保留一位小数是多少？"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "老师准备了 25 个苹果，平均分给 6 个小朋友，每个小朋友最多分到 ___ 个完整的苹果。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "下面哪种情况应使用进一法？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "有 9.6 米彩带，每个礼盒装饰要用 1.5 米，最多能装饰几个礼盒？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "6e6b1299bdc9c076ecc8c0d3c9739a8893cdc479a7a10c120094f931c5b10ce9",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "按输入保留了全部4道旧题的 source_id；旧题中除法记号统一为“÷”，未声称与教材原页逐字核对或经过教师签审。",
+    "新增2道题，source_id 均为 null；全课共6题，包含识记、应用和推理技能，并使用选择、判断、填空和计算等题型。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

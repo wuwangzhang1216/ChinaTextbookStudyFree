@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g1up-u8-kp3",
+  "point": "5、4、3、2加几（交换法）",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit8.json",
+  "before_source_fingerprint": "4fc93cd82afea7a511a3b734fac68a08fc0b84a587b096fb659c4fd08bb4f916",
+  "after_fingerprint": "ab3067ee5a0f2027d76e5886c0990d8edeacd042323e1e1bb868ccdf907267e4",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    3,
+    9,
+    14,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "计算5+6时，可以交换加数位置，想6+5=11。"
+    },
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "计算4+7时，可以想7+4。7+4等于多少？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "3个女生和8个男生排队，一共有多少名学生？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "小白兔拔了4个萝卜，小灰兔拔了9个萝卜。它们一共拔了___个萝卜。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把2+8改写成8+2后，下面哪句话正确？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "算一算：2+9=___"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "2761ba46f3b4f0773e47e1886258446db819f74574f80c60025b294447719a5a",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留了旧题的source_id：3、9、14、21；新增题的source_id为null。",
+    "修正旧题中的量词“级学生”为“名学生”。内容依据所提供的大纲与题目整理；未提供教材原页，未声称完成教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

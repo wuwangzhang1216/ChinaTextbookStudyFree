@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g3up-u6-kp1",
+  "point": "口算乘法与算理转化",
+  "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit6.json",
+  "before_source_fingerprint": "4d05f661951601f1aac2e952078cc8bb185f85de4bf335f1c3287e8b2dfde2c7",
+  "after_fingerprint": "93969f07be9e9b234128dde3a207f9bdc84a0fd10b433975a188e2413f948c3d",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    1,
+    6,
+    7,
+    15,
+    19
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "reasoning",
+      "question": "判断：40×5＝20，因为4×5＝20。"
+    },
+    {
+      "source_id": 6,
+      "skill": "application",
+      "question": "300×4的积是多少？"
+    },
+    {
+      "source_id": 7,
+      "skill": "recognition",
+      "question": "计算70×8时，可以先算7×8＝56，再在56的末尾添上几个0？"
+    },
+    {
+      "source_id": 15,
+      "skill": "reasoning",
+      "question": "比较20×3和30×2的大小，应该选择哪项？"
+    },
+    {
+      "source_id": 19,
+      "skill": "application",
+      "question": "一只螃蟹有8条腿，40只螃蟹一共有___条腿。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "口算：800×6＝___。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "9dd576bbc5f32aa04cacda3c00546ff890952ff38dea36c730715a85ee9d4642",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "按所给项目大纲和旧题整理；未提供教材原页，未作原教材逐字核对或教师签审。",
+    "保留了全部旧题的source_id。第1题改为辨析计数单位的判断题，第7题更换了计算数值；新增题的source_id为null。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

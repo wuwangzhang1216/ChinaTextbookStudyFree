@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2down-u7-kp2",
+  "point": "万以内数的读写规则",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit7.json",
+  "before_source_fingerprint": "79f7502f9e9f377792b0ff5a6eca2eb5d0ad6a78c41c39969bfa3c697fcf2c39",
+  "after_fingerprint": "84d9583b3d7906c501e6eb2487c33884bbf1eca5026b1b309a144a767b4815b2",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    26
+  ],
+  "revised_question_ids": [
+    2,
+    8,
+    9,
+    13,
+    17
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "7300读作“七千三百”，末尾的两个0不读。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "三千零五十写作（ ）。"
+    },
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "由5个千和8个一组成的数是（ ）。"
+    },
+    {
+      "source_id": 13,
+      "skill": "recognition",
+      "question": "4008读作（ ）。"
+    },
+    {
+      "source_id": 17,
+      "skill": "reasoning",
+      "question": "用9、0、6、1组成一个最大的四位数，每个数字都要用一次。这个数是（ ）。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一个数由4个千、8个十和2个一组成。这个数写作____。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "e4d3b1326abca6c7277f987867be302a6f79749b8cc967c351acffff2c139b66",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题source_id，并将关于7300末尾0的判断题与4008中间0的读法区分开；题目总数为6。",
+    "为组数题明确了每个数字都要用一次；新增题补足了按数位写数的应用练习。",
+    "未提供教材原页，未作原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

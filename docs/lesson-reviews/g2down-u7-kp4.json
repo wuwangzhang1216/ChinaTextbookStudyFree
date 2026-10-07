@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g2down-u7-kp4",
+  "point": "近似数与估算",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit7.json",
+  "before_source_fingerprint": "79f7502f9e9f377792b0ff5a6eca2eb5d0ad6a78c41c39969bfa3c697fcf2c39",
+  "after_fingerprint": "4797a8965bd116aabfcf0e62073bf6e51f7a1668937616359803b7c3852990b3",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    28,
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    4,
+    10,
+    14
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "按最接近的整百数取近似数，898约是800。"
+    },
+    {
+      "source_id": 10,
+      "skill": "reasoning",
+      "question": "下面各数中，最接近 600 的数是（ ）。"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "电冰箱 2100 元，洗衣机 1800 元。按最接近的整千数估算，买这两件电器大约需要（ ）元。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把 326 和 481 分别看作最接近的整百数，再估算 326＋481。结果是____。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "按最接近的整百数估算，735约是____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "估算 1380＋2460 时，先把两个数分别看作最接近的整千数。下面哪种做法正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "9f8d2c6a16ced2c92f4ba0249ff3a23acc69b798310baf3083ebf4968162f067",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共整理6题，保留旧题 source_id 4、10、14；旧题4补明取近似数的位数，并改成有明确答案的辨析题。旧题14补明按最接近的整千数估算。",
+    "内容依据所提供的大纲与旧题整理，未进行原教材逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

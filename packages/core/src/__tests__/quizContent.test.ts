@@ -18,6 +18,17 @@ function sourceQuestions(subject: string, filename: string): Question[] {
 }
 
 describe("corrected source questions (PR #4)", () => {
+  it("gives an explicit starting point and a self-contained counting situation", () => {
+    const questions = sourceQuestions("math", "义务教育教科书 · 数学一年级上册_unit1.json");
+    const countdown = questions.find(q => q.id === 14)!;
+    expect(countdown.question).toContain("从10开始");
+    const correct = countdown.options.indexOf("8");
+    expect(correct).toBeGreaterThanOrEqual(0);
+    countdown.options.forEach((_, index) => expect(gradeAnswer(countdown, String.fromCharCode(65 + index))).toBe(index === correct));
+    const objects = questions.find(q => q.id === 11)!;
+    expect(objects.question).not.toContain("我们的教室");
+    expect(objects.question).toContain("铅笔");
+  });
   it("offers exactly one grammatical translation for the dinosaur comparison", () => {
     const question = sourceQuestions("english", "义务教育教科书·英语（三年级起点）六年级下册_unit1.json")
       .find(q => q.question.includes("那只恐龙比我高"))!;

@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5up-u6-kp4",
+  "point": "组合图形的面积与不规则图形估算",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit6.json",
+  "before_source_fingerprint": "e71b6c0754cc74f04f43ca5e2b671d4e7877adbffe9c1601a570b8546faa213e",
+  "after_fingerprint": "16dfa176bfe688e6dc9a2e40882cae8c0d4170998d4eab54cde2af6646bd0761",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    5,
+    11,
+    15
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "recognition",
+      "question": "计算组合图形的面积，只能使用分割法进行计算。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "一个由两个边长 10 厘米的正方形拼成的长方形，面积是多少平方厘米？"
+    },
+    {
+      "source_id": 15,
+      "skill": "recognition",
+      "question": "估计一张树叶的面积，通常采用哪种方法？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一块长方形纸板长 8 厘米、宽 6 厘米，从一个角剪去一块长 3 厘米、宽 2 厘米的长方形。剩余图形的面积是多少平方厘米？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "估算一个不规则图形的面积。每个小方格面积是 1 平方厘米，图形覆盖了 10 个完整方格和 4 个不完整方格；按每个不完整方格约算半格，面积约是多少平方厘米？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一个组合图形由两个有重叠部分的长方形组成。两个长方形的面积分别是 20 平方厘米和 12 平方厘米，重叠部分面积是 4 平方厘米。组合图形的面积是多少平方厘米？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "89393ded9bd8beee5e69a64ef770657821615c31676708a2e6b017cee34bc56d",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id：5、11、15；新增题的 source_id 均为 null。",
+    "共编排6题，包含识记、应用和推理，并使用判断题、选择题和计算题。",
+    "未提供教材原页，因此未进行原教材逐字核对，也不表示已完成教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

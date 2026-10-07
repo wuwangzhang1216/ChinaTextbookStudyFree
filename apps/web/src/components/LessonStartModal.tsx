@@ -132,6 +132,7 @@ export function LessonStartModal({
         </div>
         <h2 className="text-2xl font-extrabold text-ink mt-2 leading-tight">{title}</h2>
 
+        {questionCount < 3 && !isExam && <p className="mt-3 text-sm text-ink-light">微练习 · 先试一试，之后再用更多情境巩固。这次不评掌握星级。</p>}
         {isExam && (
           <div
             className="mt-3 inline-flex items-center gap-1.5 h-8 px-3 rounded-full text-white text-xs font-extrabold"

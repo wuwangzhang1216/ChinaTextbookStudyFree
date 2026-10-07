@@ -4,12 +4,12 @@
  * ReviewRunnerClient —— 错题复习 runner（/review/runner/）
  *
  * 多邻国式「真实作答」复习流程：
- *   - 队列 = 今日到期错题（core getDueSrsEntries，毕业条目除外）
+ *   - 普通队列为今日到期错题；回心入口可补充额外巩固，额外题不推进SRS
  *   - 复用 QuestionRenderer + core gradeAnswer 真实判分，答完才亮对错与解析
  *   - 首次作答的结果驱动 SRS（store reviewMistake）；答错的题重排队尾再练
  *   - 完成页：正确数 + XP（store awardReviewXP，每答对 +5）+ 毕业庆祝
- *   - 走完一整轮到期错题且首答答对 ≥ REVIEW_HEART_MIN_CORRECT 题 → 补 1 颗红心
- *     （store awardReviewHeart，每天一次的账本在 store 里，对齐 iOS content-7）
+ *   - 完成整轮：首答正确达五题；可用题不足五题则整轮正确 → 补 1 颗红心
+ *     （store awardReviewHeart，每天一次的账本在 store 里）
  *
  * 无红心消耗：复习是「安全区」，答错只会把题排回队尾，不扣心。
  */
@@ -20,7 +20,9 @@ import dynamic from "next/dynamic";
 import { motion, AnimatePresence, useAnimation, useReducedMotion } from "framer-motion";
 import type { Question } from "@/types";
 import { gradeAnswer } from "@/lib/grade";
-import { getDueSrsEntries } from "@/lib/srs";
+import { reviewQueue } from "@/lib/reviewQueue";
+import { loadReviewLessons, reconcileMistakes } from "@/lib/reviewContent";
+import { answerReady } from "@/lib/questionDraft";
 import {
   useProgressStore,
   REVIEW_XP_PER_CORRECT,
@@ -47,6 +49,7 @@ interface ReviewItem {
   lessonId: string;
   lessonTitle: string;
   question: Question;
+  scheduled: boolean;
 }
 
 /** 会话结算快照 */
@@ -73,22 +76,35 @@ export function ReviewRunnerClient() {
 
   // ============ 队列：hydrate 后一次性快照（复习中 store 变化不打乱当前会话）============
   const [ready, setReady] = useState(false);
+  const [loadFailed, setLoadFailed] = useState(false);
+  const [retry, setRetry] = useState(0);
+  const [retiredCount, setRetiredCount] = useState(0);
   const [queue, setQueue] = useState<ReviewItem[]>([]);
   const totalRef = useRef(0);
 
   useEffect(() => {
-    const bank = useProgressStore.getState().mistakesBank;
-    const due = getDueSrsEntries(bank);
-    const items: ReviewItem[] = due.map(e => ({
-      key: `${e.lessonId}:${e.question.id}`,
-      lessonId: e.lessonId,
-      lessonTitle: e.lessonTitle ?? e.lessonId,
-      question: e.question,
-    }));
-    totalRef.current = items.length;
-    setQueue(items);
-    setReady(true);
-  }, []);
+    let cancelled = false;
+    setReady(false);
+    setLoadFailed(false);
+    const candidates = reviewQueue(useProgressStore.getState().mistakesBank, fromHearts);
+    void loadReviewLessons(candidates.map(item => item.entry)).then(lessons => {
+      if (cancelled) return;
+      // Resolve only this session's candidates. Reconciliation preserves all SRS metadata.
+      const items: ReviewItem[] = candidates.flatMap(({ entry, scheduled }) =>
+        reconcileMistakes([entry], lessons).map(e => ({ key: `${e.lessonId}:${e.question.id}`,
+          lessonId: e.lessonId, lessonTitle: e.lessonTitle ?? e.lessonId, question: e.question, scheduled })));
+      useProgressStore.getState().refreshMistakeContent(lessons);
+      setRetiredCount(candidates.length - items.length);
+      totalRef.current = items.length;
+      setQueue(items);
+      setReady(true);
+    }).catch(() => {
+      if (cancelled) return;
+      setLoadFailed(true);
+      setReady(true);
+    });
+    return () => { cancelled = true; };
+  }, [fromHearts, retry]);
 
   // ============ 答题状态 ============
   const [answer, setAnswer] = useState("");
@@ -109,16 +125,16 @@ export function ReviewRunnerClient() {
   const currentGraduatedNow = useRef(false);
 
   function handleCheck() {
-    if (!current || !answer.trim()) return;
+    if (!current || phase !== "answering" || !answerReady(current.question, answer)) return;
     const ok = gradeAnswer(current.question, answer);
     setIsCorrect(ok);
     setPhase("checked");
     currentGraduatedNow.current = false;
 
-    // 首答才驱动 SRS（重练答对不提前升 box）
+    // 仅到期题的首答驱动SRS；额外巩固不提前升级或毕业
     if (!firstAttemptRef.current.has(current.key)) {
       firstAttemptRef.current.set(current.key, ok);
-      const newlyGraduated = reviewMistake(current.lessonId, current.question.id, ok);
+      const newlyGraduated = current.scheduled && reviewMistake(current.lessonId, current.question.id, ok);
       if (newlyGraduated) {
         graduatedRef.current += 1;
         currentGraduatedNow.current = true;
@@ -170,9 +186,9 @@ export function ReviewRunnerClient() {
     const correct = [...attempts.values()].filter(Boolean).length;
     // 统一记账：每首答答对 +5 XP、dailyReviews += 复习量、推进连胜
     const xpGained = awardReviewXP(correct, attempts.size);
-    // parity-5 断心联动：走完一整轮到期错题才结算补心；门槛（答对 ≥ 5 题）、
+    // 走完一整轮才结算补心；首答至少五题正确，不足五题则整轮正确。
     // 上限（不超过 MAX_HEARTS）、当天只领一次都由 store awardReviewHeart 裁决。
-    const heartsGained = awardReviewHeart(correct);
+    const heartsGained = awardReviewHeart(correct, attempts.size);
     setStats({
       total: solved,
       correct,
@@ -200,13 +216,22 @@ export function ReviewRunnerClient() {
   // ============ 加载占位 ============
   if (!ready) {
     return (
-      <main className="min-h-screen bg-bg-soft flex items-center justify-center">
+      <main className="min-h-screen bg-bg-soft flex flex-col items-center justify-center gap-5">
         <Mascot mood="think" size={100} />
+        <p className="text-ink-light">正在准备题目…</p>
+        <SoundLink href="/review/" className="btn-chunky-ghost px-8">回错题本</SoundLink>
       </main>
     );
   }
 
   // ============ 完成页 ============
+  if (loadFailed) {
+    return <main className="min-h-screen bg-bg-soft flex items-center justify-center px-5">
+      <EmptyState mood="think" title="题目暂时没有加载好" desc="先重新试试，你的错题进度还在。"
+        action={<div className="flex flex-col gap-3"><button className="btn-chunky-primary px-8" onClick={() => setRetry(n => n + 1)}>重新加载</button>
+          <SoundLink href="/review/" className="btn-chunky-ghost px-8">回错题本</SoundLink></div>} />
+    </main>;
+  }
   if (stats) {
     return <ReviewCompletionScreen stats={stats} fromHearts={fromHearts} />;
   }
@@ -217,8 +242,8 @@ export function ReviewRunnerClient() {
       <main className="min-h-screen bg-bg-soft flex items-center justify-center px-5">
         <EmptyState
           mood="cheer"
-          title="今天没有要复习的错题！"
-          desc="错题都安排好了，明天再来看看吧～"
+          title={retiredCount ? "这些旧题已经更新啦" : "今天没有要复习的错题！"}
+          desc={retiredCount ? "旧题已从错题本移除，可以回课程练习新题。红心也会慢慢恢复。" : "错题都安排好了，明天再来看看吧～"}
           action={
             <SoundLink href="/review/" hapticIntensity="medium" className="btn-chunky-primary px-8">
               回错题本
@@ -302,8 +327,8 @@ export function ReviewRunnerClient() {
           <div className="max-w-md lg:max-w-2xl mx-auto px-5 py-4">
             <button
               onClick={handleCheck}
-              disabled={!answer.trim()}
-              className={answer.trim() ? "w-full btn-chunky-primary" : "w-full btn-chunky-disabled"}
+              disabled={!answerReady(current.question, answer)}
+              className={answerReady(current.question, answer) ? "w-full btn-chunky-primary" : "w-full btn-chunky-disabled"}
             >
               检查
             </button>
@@ -403,6 +428,8 @@ function ReviewCompletionScreen({
   stats: ReviewStats;
   fromHearts: boolean;
 }) {
+  const activeLesson = useProgressStore(s => s.activeLesson);
+  const resumeHref = activeLesson ? `/lesson/${activeLesson.lessonId.split("-u")[0]}/${activeLesson.lessonId}/` : "/";
   useEffect(() => {
     playSfx("complete");
   }, []);
@@ -493,15 +520,15 @@ function ReviewCompletionScreen({
           <div className="mt-5 flex items-center justify-center gap-2 px-4 py-3 rounded-2xl bg-danger/10 border-2 border-danger/30 text-danger text-sm font-extrabold">
             <Heart className="w-4 h-4" />
             <span>
-              复习辛苦啦！一轮里答对 {REVIEW_HEART_MIN_CORRECT} 题就能补回 1 颗心，
+              复习辛苦啦！一轮首答正确至少 {Math.min(REVIEW_HEART_MIN_CORRECT, stats.total)} 题可回心，每天可领取一次。
               红心也会每 5 分钟自己恢复 1 颗～
             </span>
           </div>
         )}
 
         <div className="flex flex-col gap-3 mt-8">
-          <SoundLink href="/" hapticIntensity="medium" className="btn-chunky-primary w-full">
-            继续学习
+          <SoundLink href={resumeHref} hapticIntensity="medium" className="btn-chunky-primary w-full">
+            {activeLesson ? "继续上次课程" : "继续学习"}
           </SoundLink>
           <SoundLink href="/review/" hapticIntensity="light" className="btn-chunky-ghost w-full">
             回错题本

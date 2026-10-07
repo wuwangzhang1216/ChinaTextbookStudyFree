@@ -199,7 +199,7 @@ function QuestRow({
             whileTap={{ scale: 0.92 }}
             animate={{ scale: [1, 1.08, 1] }}
             transition={{ duration: 1.2, repeat: Infinity, ease: "easeInOut" }}
-            className="flex flex-col items-center text-white rounded-xl px-2 py-1"
+            className="flex flex-col items-center text-ink rounded-xl px-2 py-1 min-h-11 min-w-11"
             style={{
               background: "linear-gradient(135deg, #FFC800, #FF9600)",
               boxShadow: "0 3px 0 0 #C89600",

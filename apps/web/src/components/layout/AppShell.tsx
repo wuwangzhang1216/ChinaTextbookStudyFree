@@ -36,7 +36,7 @@ export function AppShell({ children, right, centerMaxWidth = 640 }: AppShellProp
         "min-h-screen w-full md:mx-auto md:grid md:max-w-[1240px] md:gap-4 md:px-4 md:py-6 lg:gap-6 lg:px-6 " +
         "md:[grid-template-columns:88px_minmax(0,1fr)] " +
         (showRight
-          ? "lg:[grid-template-columns:260px_minmax(0,1fr)_360px]"
+          ? "lg:[grid-template-columns:220px_minmax(0,1fr)_300px]"
           : "lg:[grid-template-columns:260px_minmax(0,1fr)]")
       }
     >
@@ -54,7 +54,7 @@ export function AppShell({ children, right, centerMaxWidth = 640 }: AppShellProp
       </div>
 
       {showRight && (
-        <aside className="hidden lg:block lg:sticky lg:top-6 lg:self-start lg:h-[calc(100vh-3rem)] overflow-y-auto pb-6">
+        <aside className="hidden lg:block lg:sticky lg:top-6 lg:self-start lg:h-[calc(100vh-3rem)] min-w-0 overflow-y-auto overflow-x-hidden pb-6">
           {right ?? <RightRail />}
         </aside>
       )}

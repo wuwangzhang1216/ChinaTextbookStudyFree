@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g6up-u2-kp3",
+  "point": "观测点的相对性",
+  "source": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit2.json",
+  "before_source_fingerprint": "3b202d67b770ba262efb9639abe35116bc48d807dd9ef66e15c033f9f8546dda",
+  "after_fingerprint": "ae9bac12cc8f2976010981e4357265fd07b5fe8ab3cd8d2826fdfa87ecee9652",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    3,
+    9,
+    17
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "如果甲在乙的南偏西 30 度方向，那么乙就在甲的北偏东 30 度方向。"
+    },
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "如果 A 城市在 B 城市的南偏东 25 度方向，则 B 城市在 A 城市的："
+    },
+    {
+      "source_id": 17,
+      "skill": "reasoning",
+      "question": "敌舰在我国雷达站的南偏西 35 度方向，距离 20 海里。我方母舰在敌舰的南偏西 35 度方向。则雷达站在我方母舰的："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "从Q点看P点，P点在东偏北40°方向。交换观测点后，从P点看Q点，Q点在什么方向？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "如果甲在乙的北偏东 25°方向，那么乙在甲的南偏东 25°方向。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "从雷达站看气象站，气象站在北偏西 18°方向，距离 6 千米。关于从气象站看雷达站的描述，哪一项正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "186ec30df05b7eda5c0cf3491e4c70ee3f8f8b193791e4d60334809dc6b054ec",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "本课按提供的项目大纲和旧题补齐，共6题；保留全部旧题source_id。",
+    "修正了旧题source_id为17的解析，并补充了沿同一方向依次排列的推理依据。",
+    "未提供教材原页，未进行原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2down-u8-kp2",
+  "point": "质量单位“千克”的认识",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit8.json",
+  "before_source_fingerprint": "1e51795a13214de06b0f99d97efdc373ffc11a86b3f14b680d25b74ee8c08404",
+  "after_fingerprint": "275fdb8e345c27ee49240c703f2fde0569e171a1b93d211db4f910fe417fa3dd",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    2,
+    7,
+    11,
+    18,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "小明的体重约是30（ ）。括号里应填哪个单位？"
+    },
+    {
+      "source_id": 7,
+      "skill": "recognition",
+      "question": "一袋大米包装上标着“净含量10千克”，下面哪种写法与标注的质量相同？"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "要称一个小朋友的体重，通常选用哪种秤？"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "1千克有（ ）个500克。"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "爷爷买回4千克苹果，妈妈买回5千克苹果，一共买回 ___ 千克。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一只篮子连同里面的水果共重8千克，空篮子重2千克。水果重多少千克？只填数字。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "2ca89b9d46afd7575e7e6f9ff52571e72914e796c0b9667b776c92e4cecc1642",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留全部5个旧题的source_id，并新增1题，题目总数为6。",
+    "已调整讲解中的易错点，避免直接给出500克相关练习的答案；题目涵盖识记、应用和推理，包含选择题与非选择题。",
+    "本次依据提供的大纲和旧题整理；未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

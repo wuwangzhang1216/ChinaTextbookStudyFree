@@ -1,0 +1,73 @@
+{
+  "lesson_id": "g6up-u1-kp3",
+  "point": "求一个数的几分之几是多少",
+  "source": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit1.json",
+  "before_source_fingerprint": "c6f9ebf37d206f9034a57c21a2e0039eb0e7f0f5a40156aa53ac784e8e7d1259",
+  "after_fingerprint": "600638dbed59c57831b32dfb9bfb18cbec29772b28788ba7e089f5eb84ae4231",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27,
+    28
+  ],
+  "revised_question_ids": [
+    7,
+    12,
+    15,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 7,
+      "skill": "application",
+      "question": "一根绳子长 20 米，用去了它的 $\\frac{3}{4}$，用去了多少米？"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "六(1)班有 50 人，女生占全班人数的 $\\frac{2}{5}$，女生有几个？"
+    },
+    {
+      "source_id": 15,
+      "skill": "reasoning",
+      "question": "仓库原有 80 箱货物，第一天运走总数的 $\\frac{3}{8}$，第二天运走第一天后剩下货物的 $\\frac{1}{5}$。第二天运走多少箱？"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "一桶油重 10 千克，用去了它的 $\\frac{1}{2}$，再用去剩下油的 $\\frac{1}{5}$。现在还剩 ___ 千克。（填一个整数）"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "求 42 的 $\\frac{5}{7}$ 是多少，下面列式正确的是："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一段路长 36 千米，已经修好了全长的 $\\frac{5}{6}$，已经修好的路长 ___ 千米。（填一个整数）"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "3a68598be4c87111372711804751138c305aa1e4b4d68059af921693110b49eb",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留旧题 source_id 7、12、15、20；新增题的 source_id 为 null。",
+    "修订了旧题 source_id 15，将情境调整为连续求一个数的几分之几，并明确第二天所用分率对应的是第一天后剩下的货物。",
+    "修订了旧题 source_id 20，明确第二次用去的是剩下油的1/5，答案为整数4。",
+    "内容依据本次提供的大纲、旧题和反馈编辑；未提供教材原页，未进行原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

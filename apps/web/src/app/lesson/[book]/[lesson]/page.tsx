@@ -56,5 +56,7 @@ export default async function LessonPage({
   ]);
   // 本节课结束后是否紧跟一个宝箱 slot
   const chestSlot = findChestAfterLesson(book, outline.lessons, lessonId);
-  return <LessonPageClient lesson={lesson} chestSlot={chestSlot} />;
+  const index = outline.lessons.findIndex(item => item.id === lessonId);
+  const nextLessonId = index >= 0 ? outline.lessons[index + 1]?.id : undefined;
+  return <LessonPageClient lesson={lesson} chestSlot={chestSlot} nextLessonId={nextLessonId} />;
 }

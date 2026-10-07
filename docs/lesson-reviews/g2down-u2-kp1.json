@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2down-u2-kp1",
+  "point": "平均分的含义与判断",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit2.json",
+  "before_source_fingerprint": "07224bb852881c7340a427611cb4cf299c961447d1cb42629c4e4e65dfda9153",
+  "after_fingerprint": "c99ff3d82958dd1f343746bb082c86bae59d1f6ae204405df72b562acb0911e4",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    1,
+    5,
+    6,
+    12
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "reasoning",
+      "question": "把6个苹果分给2个小朋友，每个小朋友一定分得3个。"
+    },
+    {
+      "source_id": 5,
+      "skill": "application",
+      "question": "将10个饼干平均分给5个同学，每人分得2个。"
+    },
+    {
+      "source_id": 6,
+      "skill": "recognition",
+      "question": "下面哪种分法是平均分？"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "把15根骨头平均分给3只小狗，每只小狗分到几根？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把18粒种子平均放进3个盒子，每个盒子放（ ）粒。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小明把20个积木分成4份，每份5个；小红把20个积木分成4份，每份4个，还剩4个。谁把20个积木平均分成了4份？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "47c4ae0568d63d5f7b6e6ac8cbaaaf45f79ebe16f161fb31b0dc3f76d017bd7f",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id：1、5、6、12；新增题的 source_id 为 null。",
+    "改写并明确了平均分的条件，特别指出题目要求全部分完时不能遗漏剩余物品。",
+    "未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

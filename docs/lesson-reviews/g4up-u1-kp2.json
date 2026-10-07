@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g4up-u1-kp2",
+  "point": "亿以内数的读法与写法",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit1.json",
+  "before_source_fingerprint": "06a90e7a478eb0cefda382cbdc76bbd31efaf93965522d604c4709bebf06c0fa",
+  "after_fingerprint": "c769f43b861bddb50513b9d571adf8b694aa7ebfa1c64aa6c5d7de1f914cdd42",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    2,
+    7,
+    12,
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "读数时，每级末尾不管有几个0，都不读。"
+    },
+    {
+      "source_id": 7,
+      "skill": "application",
+      "question": "由 3 个万、5 个千、4 个十组成的数是（  ）。"
+    },
+    {
+      "source_id": 12,
+      "skill": "recognition",
+      "question": "下面各数中，只读一个“零”的是（  ）。"
+    },
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "一个数由 2 个万和 2 个一组成，这个数是（  ）。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把“六千零四万零三百”写成数字：____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "3040060读作“三百零四万零六十”。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "38095b1e3ae4ebbebfd9c9038d18d9a1d4177c3760f6ca7a57246250cdc88ea4",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id。旧题12调整选项，使“只读一个零”的正确答案唯一。",
+    "修正了数的读法讲解：较低一级开头有空位且该级不为0时，读整个数要在级间读一个“零”；没有将个级0060单独读作“零六十”。",
+    "未提供教材原页，未进行教材原页逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

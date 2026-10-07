@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g4up-u3-kp2",
+  "point": "角的认识与度量",
+  "source": "output/math/quizzes/义务教育教科书 · 数学四年级上册_unit3.json",
+  "before_source_fingerprint": "8ddbaf824b8e19c1b47b484907d1f4339fe649d401d1812fe4a5a5ef06a9eced",
+  "after_fingerprint": "c5f07e00304b0a5cbfc9b56f3fc50bcadbe84d488eb14746092650c76f69a0dc",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25
+  ],
+  "revised_question_ids": [
+    3,
+    8,
+    9,
+    15,
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "角的大小与两边的长度有关，边越长角越大。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "从一点引出两条射线所组成的图形叫做什么？"
+    },
+    {
+      "source_id": 9,
+      "skill": "recognition",
+      "question": "测量角的大小的工具是哪个？"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "量角时，量角器的中心要与角的什么重合？"
+    },
+    {
+      "source_id": 16,
+      "skill": "reasoning",
+      "question": "量角器上有两圈刻度，读数时应根据什么来确定看哪一圈？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "小林用量角器量一个角：量角器中心对准角的顶点，一条角边对准右侧的0刻度线，另一条角边指向内圈70°、外圈110°的位置。这个角是多少度？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "4ec06e29653fcc9c8c4338ea088232b8bc3691acb0cce66b431943856a4deec1",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "本次依据所提供的项目大纲和旧题整理、补充与纠错；未提供教材原页，因此不声称完成教材逐字核对或教师签审。",
+    "保留了全部旧题 source_id；调整了旧题解析中不准确或不够清楚的表述，并新增一道题，source_id 为 null。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g6down-u6-kp2",
+  "point": "图形与几何的综合运用",
+  "source": "output/math/quizzes/义务教育教科书·数学六年级下册_unit6.json",
+  "before_source_fingerprint": "4cb6bc648406c31e3165100c4c3dd51a34a41513404e4f1c7056386a63429f92",
+  "after_fingerprint": "23b8ae4a73440dac7a3d3cc1a584aa2f015a7b68d3d131386460e9ddf1cd6fd5",
+  "before_question_count": 6,
+  "after_question_count": 6,
+  "added_question_ids": [],
+  "revised_question_ids": [
+    2,
+    7,
+    11,
+    14,
+    18,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "圆柱的侧面展开后一定是长方形。"
+    },
+    {
+      "source_id": 7,
+      "skill": "application",
+      "question": "一个等腰三角形的一个底角是 40 度，其顶角是多少度？"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "一个圆柱体和一个圆锥体等底等高，圆锥的体积是 12 立方厘米，圆柱的体积是多少？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "一个正方体的棱长总和是 24 厘米，这个正方体的体积是多少立方厘米？"
+    },
+    {
+      "source_id": 18,
+      "skill": "reasoning",
+      "question": "一个直径是 2 分米的圆柱木料，沿与底面平行的平面锯成两个较小的圆柱，表面积会增加多少平方分米？（π 取 3.14）"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "一个正方形果园的周长是 400 米，它的面积是 ___ 平方米。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "b95f2e643db0108daaf129741da4080c71c35cf78ac91539b5c1d1bfe202921f",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部6道旧题的 source_id；没有新增题目。",
+    "修正了圆柱侧面展开判断题的答案及解析：按沿母线剪开展开的通常含义，展开图是长方形，正方形是长方形的特殊情况。",
+    "明确了圆柱锯切题的切割平面与底面平行，避免切割方向不明确。",
+    "输入未提供教材原页，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

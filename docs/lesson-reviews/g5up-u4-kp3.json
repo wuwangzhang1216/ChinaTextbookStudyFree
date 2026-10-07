@@ -1,0 +1,86 @@
+{
+  "lesson_id": "g5up-u4-kp3",
+  "point": "可能性的大小应用（设计方案）",
+  "source": "output/math/quizzes/义务教育教科书 · 数学五年级上册_unit4.json",
+  "before_source_fingerprint": "738bea3662fdd7b14c55509875d8dbdcbef81a9531dd82b869c03ee8c9208cac",
+  "after_fingerprint": "b70f643d893606b707f67f5e72ac17e539680cefeeafdc60f56d2657d60f9bb1",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    4,
+    12,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "reasoning",
+      "question": "一个转盘总面积不变，指针均匀转动。为了让抽奖的人很难中奖，应该把中奖区域设计得非常大。"
+    },
+    {
+      "source_id": 12,
+      "skill": "recognition",
+      "question": "一个转盘只有红、蓝两个区域，指针均匀转动。要使指针停在红、蓝两色区域的可能性相等，两色区域的面积应该（ ）。"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "箱子里有6个红球。如果要使摸到白球的可能性为零，白球的数量应该是 ___ 个。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一个盒子里只放红球和蓝球，共12个，每个球被摸到的机会相同。要使摸到红球的可能性是摸到蓝球的2倍，下面哪种放法符合要求？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "转盘平均分成8格，原来有3格涂红、5格涂蓝。每次把1个蓝格改涂成红格，格数不变。要让红格数量第一次多于蓝格数量，需要改涂 ___ 格。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一个转盘平均分成12格，只涂绿、黄两种颜色，指针停在每格的机会相同。要使指针停在绿格上的可能性是停在黄格上的3倍，哪种涂法符合要求？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "review_kind": "Codex follow-up review",
+    "reviewed_at": "2026-10-07",
+    "scope": "Question 26 corrected after PR review; all six answers independently checked, mathematical ratio assertions added",
+    "fingerprint": "b70f643d893606b707f67f5e72ac17e539680cefeeafdc60f56d2657d60f9bb1",
+    "teacher_review": "pending"
+  },
+  "editorial_notes": [
+    "保留旧题source_id 4、12、20；按反馈为source_id 4补足固定转盘总面积和均匀转动条件，并将source_id 12明确为比较两种结果的可能性。",
+    "新增3题，source_id为null；共6题，符合target_questions。",
+    "未提供教材原页，因此未声称完成原教材逐字核对或教师签审。",
+    "PR #13 深入复查发现新增题26的9格不能满足整数3:1且误写6是3的3倍。改为12格、9绿3黄；逐项核验总数和倍数。初次模型签审保留为历史记录，不作为此次修订证据；教师与教材原页核验仍待完成。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1",
+  "initial_model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "83fc859c79cfbccb4ba74f776a0af98164ec66e63f336b335697ee505b35182f",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g6up-u1-kp5",
+  "point": "比一个数多/少几分之几的问题",
+  "source": "output/math/quizzes/义务教育教科书 · 数学六年级上册_unit1.json",
+  "before_source_fingerprint": "c6f9ebf37d206f9034a57c21a2e0039eb0e7f0f5a40156aa53ac784e8e7d1259",
+  "after_fingerprint": "cd4125a2e2d6524b02d54ee8cc744cf5d2bee8ba0706ad1aad61b762b51e793c",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    30
+  ],
+  "revised_question_ids": [
+    4,
+    11,
+    13,
+    14,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 4,
+      "skill": "application",
+      "question": "某仓库原有3/4吨面粉，后来增加了原有量的1/3。增加后面粉正好有1吨。"
+    },
+    {
+      "source_id": 11,
+      "skill": "application",
+      "question": "一袋大米吃掉了1/5，剩下的比吃掉的多占这袋大米的几分之几？"
+    },
+    {
+      "source_id": 13,
+      "skill": "application",
+      "question": "某工厂去年产值100万元，今年产值比去年增加了1/10，今年产值是多少？"
+    },
+    {
+      "source_id": 14,
+      "skill": "reasoning",
+      "question": "两根同样长的钢管，第一根用去1/2米，第二根用去它的1/2。剩下的部分相比："
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "小明有60张邮票，小红比小明多1/5，小红有 ___ 张邮票。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "把甲数看作单位“1”，乙数比甲数多2/5。乙数是甲数的几分之几？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "881e8323655ae089deb6ccc86f36c85efcda74710f53d51f1ade6d65c3eaa445",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "依据所提供的项目大纲和旧题进行整理与修订；未提供教材原页，未进行原教材逐字核对或教师签审。",
+    "保留了全部旧题source_id；对source_id为4的题目改编为本课知识点相关的独立判断题，并补充一题以达到目标题数。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

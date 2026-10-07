@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g1down-u4-kp2",
+  "point": "数的读法、写法与位值意义",
+  "source": "output/math/quizzes/义务教育教科书·数学一年级下册_unit4.json",
+  "before_source_fingerprint": "3ea3d3f0aec4318ce107addf3efe067c4c63fa9e030046c6fdc4d3b3968dee1d",
+  "after_fingerprint": "adb92dddaf25ae2c275330a3a5995a0e332a7b7c95b77e39488b174d823510ea",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    2,
+    4,
+    8,
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "reasoning",
+      "question": "从右边起，第一位是十位，第二位是个位。"
+    },
+    {
+      "source_id": 4,
+      "skill": "recognition",
+      "question": "读数和写数都从高位起。"
+    },
+    {
+      "source_id": 8,
+      "skill": "recognition",
+      "question": "“66”中左边的“6”表示："
+    },
+    {
+      "source_id": 16,
+      "skill": "reasoning",
+      "question": "从“4、0、7”中选两个不同的数字（每个数字用一次）组成最大的两位数是："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "一个数由8个十和3个一组成，这个数写作____。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "下面哪个数表示5个十和0个一？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "b773ada7fd5a5733130fcad734edf8460d6f8b295298f9cca849330c67ebdbbc",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题的source_id：2、4、8、16；新增题的source_id为null。对source_id为2的判断题作了针对性修订，使其呈现常见的个位、十位顺序混淆。",
+    "未提供教材原页，因此不声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

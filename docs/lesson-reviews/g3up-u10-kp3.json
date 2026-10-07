@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3up-u10-kp3",
+  "point": "逆向思维与逻辑推导",
+  "source": "output/math/quizzes/义务教育教科书 · 数学三年级上册_unit10.json",
+  "before_source_fingerprint": "f275ece7b1553c729906e23e41f456102cf65e7dcab774857c4e2082fe309b2c",
+  "after_fingerprint": "d964d8f890af49df87d1db3d04143d9932428702d6223af87807a975b6f4079d",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25,
+    26
+  ],
+  "revised_question_ids": [
+    17,
+    18,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 17,
+      "skill": "recognition",
+      "question": "已知一个数加上29等于73，要求这个数，下面哪种算式正确？"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "一个盒子里原有一些球，拿走12个后又放进8个，现在有21个。盒子里原来有多少个球？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "一个正方形的周长是36厘米，它的边长是___厘米。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "一个数先乘3，再加14，结果是50。这个数是___。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "甲、乙两数的和是68，甲比乙多12。乙是多少？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "一个数先加12，再乘3，结果是60。倒推时应先用60减去12，再除以3。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "981ef40371fd4346558b1c1f6637a9b835bbb384f8168ce5c1b58a09c698fa3c",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题source_id 17、18、21；其中第17、18题已修订为考查逆向思维与逻辑推导的完整题目，第21题保留并补充了计算依据。",
+    "本课共6题，包含选择题、填空题、计算题和判断题，覆盖识记、应用与推理。",
+    "仅依据所提供的大纲和旧题整理，未进行原教材原页逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

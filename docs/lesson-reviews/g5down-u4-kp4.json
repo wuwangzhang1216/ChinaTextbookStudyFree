@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5down-u4-kp4",
+  "point": "分数的基本性质",
+  "source": "output/math/quizzes/义务教育教科书·数学五年级下册_unit4.json",
+  "before_source_fingerprint": "779f3ffa539ffa24c1b556a77f1130b0b4c367395030d089fbe12b26f3f81dcd",
+  "after_fingerprint": "ec3c19c49a164834b5ea2beb50bc8c7efe05af9434c29082576d565b0cd7d6c9",
+  "before_question_count": 2,
+  "after_question_count": 6,
+  "added_question_ids": [
+    31,
+    32,
+    33,
+    34
+  ],
+  "revised_question_ids": [
+    3,
+    9
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "分数的分子和分母同时乘以0，分数的大小不变。"
+    },
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "把2/3的分子加上4，要使分数的大小不变，分母应该怎样变化？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "在5/7 = □/28中，□里填一个整数。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "将18/30约分成最简分数后，分子是多少？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "下面哪一组分数相等？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "分数的分子和分母同时加上同一个数，分数的大小一定不变。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "e32a9090781fab238c44cdf982747bdb00699b89580e81a93ee5721c32cb981f",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留旧题source_id 3和9；source_id为null的题目为新增题。",
+    "共6题，包含识记、应用和推理，使用判断、选择、填空和计算题型。",
+    "未提供教材原页，未作原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

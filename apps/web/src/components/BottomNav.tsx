@@ -10,6 +10,7 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import {
+  BookOpen,
   Home as HomeIcon,
   HomeFill,
   Trophy,
@@ -111,6 +112,8 @@ export function BottomNav() {
   const [hydrated, setHydrated] = useState(false);
   useEffect(() => setHydrated(true), []);
 
+  const selectedGrade = useProgressStore(s => s.selectedGrade);
+  const completed = useProgressStore(s => Object.keys(s.completedLessons).length);
   const mistakes = useProgressStore(s => s.mistakesBank);
   const gems = useProgressStore(s => s.gems);
   const ownedCosmetics = useProgressStore(s => s.ownedCosmetics);
@@ -138,7 +141,9 @@ export function BottomNav() {
 
   // 沉浸式路径（课程 / 跳级 / 复习 runner / 阅读器）隐藏底部导航，
   // 否则固定底栏会盖住这些页面底部的「检查 / 继续」按钮。
-  if (isImmersivePath(pathname)) return null;
+  if (!hydrated || selectedGrade == null || isImmersivePath(pathname)) return null;
+
+  const navItems = NAV_ITEMS.map(item => item.matchPrefix === "/league" && completed < 10 ? { ...item, href: `/reading/chinese-g${selectedGrade ?? 1}up/`, label: "听读", Icon: BookOpen, IconActive: BookOpen, matchPrefix: "/reading" } : item);
 
   function getBadge(item: NavItem): { count?: number; dot?: boolean } | null {
     if (item.matchPrefix === "/review" && reviewBadge > 0) return { count: reviewBadge };
@@ -168,7 +173,7 @@ export function BottomNav() {
       aria-label="主导航"
     >
       <div className="grid grid-cols-5 max-w-md mx-auto h-14">
-        {NAV_ITEMS.map(item => {
+        {navItems.map(item => {
           const active = isActive(pathname, item);
           const Icon = active ? item.IconActive : item.Icon;
           const badge = getBadge(item);

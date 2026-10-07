@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g1down-u2-kp2",
+  "point": "十几减5、4、3、2的推导计算",
+  "source": "output/math/quizzes/义务教育教科书·数学一年级下册_unit2.json",
+  "before_source_fingerprint": "bff80fa7c4adebda2ea724a8dbbc9db788ec0e80ab7620d8d676e85296418fc3",
+  "after_fingerprint": "29f13f0582d1b78e9fa82fe06181737c2f70a525d0db004c0eb230054f9c839f",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    2,
+    8,
+    13,
+    17,
+    23
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "12－5与11－4的计算结果相同。"
+    },
+    {
+      "source_id": 8,
+      "skill": "reasoning",
+      "question": "计算12－4时，下列方法错误的是："
+    },
+    {
+      "source_id": 13,
+      "skill": "reasoning",
+      "question": "在○里填上合适的符号：11－3 ○ 9。"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "小刚本来有11支铅笔，用掉一些后还剩2支。他用掉了几支？"
+    },
+    {
+      "source_id": 23,
+      "skill": "application",
+      "question": "计算：13－5＝？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "15－5＝10，15－4＝____。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "d013a8a51713c1d66096adffc7531fc9677c1c4f92ba5978f084cce435e9d5e6",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "未提供教材原页，因此未作教材逐字核对，也未声称经过教师签审。",
+    "保留了全部旧题source_id。为避免与应用题重复考查同一算式及得数，将source_id为23的口算题改为13－5；新增1题，题数共6道。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

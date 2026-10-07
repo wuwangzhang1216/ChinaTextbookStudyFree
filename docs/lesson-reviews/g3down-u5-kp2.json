@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g3down-u5-kp2",
+  "point": "认识面积单位",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit5.json",
+  "before_source_fingerprint": "e84ab87db182f627c1a2015cfe5e325921e7ebe3b797f93c504876b61a267871",
+  "after_fingerprint": "67ec8e7b71e561467b6dc4b5f752788c304be763d51cb8f4bcfc2d195489a745",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27,
+    28
+  ],
+  "revised_question_ids": [
+    2,
+    6,
+    10,
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "边长是1分米的正方形，面积是1平方厘米。"
+    },
+    {
+      "source_id": 6,
+      "skill": "recognition",
+      "question": "测量一张邮票表面的面积，选用哪个单位较合适？"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "一个正方形桌面的面积是100平方分米，换成平方米是多少？"
+    },
+    {
+      "source_id": 18,
+      "skill": "reasoning",
+      "question": "把一张边长为1分米的正方形纸，剪成边长为1厘米的小正方形，可以剪出多少个？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "2平方米 =（　）平方分米。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "同一块地面的面积，分别用平方米和平方分米表示。哪种说法正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "38a2ef200c5c92906aa97eba9ba738cd18bf797f5a5824edcefc07ae40dd0ec5",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共设置6道题，保留旧题source_id 2、6、10、18；新增题的source_id为null。",
+    "修订source_id 2，使其辨析平方单位与单位名称；修订source_id 10，使其考查面积单位换算，不要求使用长方形面积公式。",
+    "仅依据提供的项目大纲和旧题整理，未进行原教材逐字核对，也未声称经过教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

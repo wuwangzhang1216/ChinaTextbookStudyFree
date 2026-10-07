@@ -1,0 +1,113 @@
+{
+  "date_utc": "2026-10-07",
+  "review_head": "77b2d194062fd09f45570adb00f31f52d5ca7690",
+  "status": "five findings repaired; local verification complete; online and human acceptance pending",
+  "checks": {
+    "core_tests": 218,
+    "revised_lessons": 137,
+    "revised_questions": 836,
+    "deterministic_content_repairs": 10,
+    "valid_mp3": 67172,
+    "exported_pages": 3901,
+    "integrity_errors": 0
+  },
+  "browser": {
+    "word_order": "I,am restored; completed order checked; checked feedback restored with 10 XP",
+    "matching": "1/4 pairs restored after refresh; partial draft cannot check; remaining pairs complete and auto-grade",
+    "content_update": "same ID prompt change invalidated checked session; restart notice shown; exact production HTML restored after probe",
+    "load_failure": "invalid JSON showed retry; exact production JSON restored; retry continued original two-item queue",
+    "legacy_review": "imported old q11/q16 snapshots dated 2999; current B/D accepted; 2/2, +10 XP, +1 heart; thereafter future 2/mastered 0; final stable origin no console errors",
+    "shop_scroll": [
+      {
+        "card": {
+          "bottom": 318.375,
+          "left": 480.25,
+          "right": 640.5,
+          "top": 161.5
+        },
+        "documentWidth": 1009,
+        "height": 768,
+        "overlap": 0,
+        "preview": {
+          "bottom": 145.5,
+          "left": 308,
+          "right": 985,
+          "top": -264.25
+        },
+        "previewPosition": "relative",
+        "scrollWidth": 1009,
+        "scrollY": 594,
+        "width": 1024
+      },
+      {
+        "card": {
+          "bottom": 318.375,
+          "left": 482.5,
+          "right": 626.5,
+          "top": 161.5
+        },
+        "documentWidth": 1137,
+        "height": 768,
+        "overlap": 0,
+        "preview": {
+          "bottom": 145.5,
+          "left": 326.5,
+          "right": 1094.5,
+          "top": -264.25
+        },
+        "previewPosition": "relative",
+        "scrollWidth": 1137,
+        "scrollY": 594,
+        "width": 1152
+      },
+      {
+        "card": {
+          "bottom": 318.375,
+          "left": 546,
+          "right": 690,
+          "top": 161.5
+        },
+        "documentWidth": 1264,
+        "height": 768,
+        "overlap": 0,
+        "preview": {
+          "bottom": 145.5,
+          "left": 390,
+          "right": 1158,
+          "top": -264.25
+        },
+        "previewPosition": "relative",
+        "scrollWidth": 1264,
+        "scrollY": 594,
+        "width": 1279
+      },
+      {
+        "card": {
+          "bottom": 149.125,
+          "left": 834.5,
+          "right": 990.5,
+          "top": -7.75
+        },
+        "documentWidth": 1265,
+        "height": 768,
+        "overlap": 0,
+        "preview": {
+          "bottom": 505.75,
+          "left": 390.5,
+          "right": 650.5,
+          "top": 96
+        },
+        "previewPosition": "sticky",
+        "scrollWidth": 1265,
+        "scrollY": 337.5,
+        "width": 1280
+      }
+    ]
+  },
+  "migration": "one-time restart for unfinished legacy sessions without content identity; earned rewards preserved",
+  "limitations": [
+    "controlled local browser response changes are not online verification",
+    "teacher, child, real-device, weak-network and delayed-mastery acceptance remain pending",
+    "no merge or production deployment; supplemental release remains draft"
+  ]
+}

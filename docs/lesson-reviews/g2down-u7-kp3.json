@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g2down-u7-kp3",
+  "point": "数位顺序表与数位意义",
+  "source": "output/math/quizzes/义务教育教科书·数学二年级下册_unit7.json",
+  "before_source_fingerprint": "79f7502f9e9f377792b0ff5a6eca2eb5d0ad6a78c41c39969bfa3c697fcf2c39",
+  "after_fingerprint": "36d945242d587a5fda9a13f53c2a5dfc33089935cf09358a3189286fbea96bb6",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    27
+  ],
+  "revised_question_ids": [
+    3,
+    6,
+    12,
+    18,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "recognition",
+      "question": "从右边起，第四位是百位。"
+    },
+    {
+      "source_id": 6,
+      "skill": "recognition",
+      "question": "一个四位数，最高位是（ ）。"
+    },
+    {
+      "source_id": 12,
+      "skill": "recognition",
+      "question": "在数位顺序表中，从右往左数，第五位是（ ）。"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "数字 8 在百位上的数是（ ）。"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "一个四位数，千位上是 7，个位上是 3，其他数位都是 0，这个数是 ___。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把 4,302 的百位和个位上的数字交换，得到的新数比原数少多少？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "8e519f72be8374da212a57509cc7eedcb0b5999d3262d0708ff56ee191e2ab9f",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "根据提供的大纲和题目整理、修订并补充；未提供教材原页，未作原教材逐字核对或教师签审。",
+    "保留旧题的 source_id；新增题的 source_id 为 null。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

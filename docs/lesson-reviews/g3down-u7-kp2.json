@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g3down-u7-kp2",
+  "point": "小数的大小比较",
+  "source": "output/math/quizzes/义务教育教科书·数学三年级下册_unit7.json",
+  "before_source_fingerprint": "9c9ec0f61353b62cd9ad15ab3dcdfe52d5f64531d3e82f71765a96539e88966a",
+  "after_fingerprint": "12d3a116ff6671a7fd218662f77b9d0565b8f6d1fbf273e17a82da3891075084",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    3,
+    9,
+    11,
+    15
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "reasoning",
+      "question": "比较6.7和7.2时，只看十分位，认为6.7大，这种比法正确。"
+    },
+    {
+      "source_id": 9,
+      "skill": "recognition",
+      "question": "在 0.5、0.3、1.1 中，最大的数是（ ）。"
+    },
+    {
+      "source_id": 11,
+      "skill": "recognition",
+      "question": "0.6 米（ ）0.5 米。"
+    },
+    {
+      "source_id": 15,
+      "skill": "application",
+      "question": "在跳远比赛中，小强跳了 3.2 米，小刚跳了 2.8 米，谁跳得远？"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "把 2.8、2.4、2.6 按从小到大排列，第二个数是____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小明比较 2.7 和 3.1 时，只看十分位，认为 2.7 大。下面哪种说法正确？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "034a4de8a527f6bc05c3c54f6a5acc3086b4a174f3ed8e8c04b820be1d55b0d4",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id（3、9、11、15）；将 source_id 为3的判断题改用不同数值呈现错误比较方法，并新增两题，source_id 均为 null。",
+    "根据提供的大纲和题目整理；未提供教材原页，因此不声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

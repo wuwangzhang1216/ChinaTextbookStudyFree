@@ -116,11 +116,11 @@ export function ReviewClient() {
         {hydrated && totalMistakes === 0 ? (
           <EmptyState
             mood="cheer"
-            title="还没有错题！"
-            desc="继续加油，保持零错误～"
+            title="每一次尝试，都在进步"
+            desc="这里会保存需要再练的题。现在去巩固一节小课，答错也没关系。"
             action={
               <SoundLink href="/" hapticIntensity="medium" className="btn-chunky-primary px-8">
-                去学习
+                去巩固练习
               </SoundLink>
             }
           />

@@ -1,0 +1,71 @@
+{
+  "status": "passed",
+  "json_documents": 2536,
+  "reference_count": 78894,
+  "unique_assets": 67172,
+  "decoder_samples": [
+    {
+      "url": "/audio/52/52238bfd712374ff6eccc1752fc152b166ef40cc.mp3",
+      "category": "reported_core_concept_52238",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/cc/ccd353f69f162112ce59aea1b6203fb5823e8edd.mp3",
+      "category": "reported_intro_bubble_ccd353",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/a6/a6c6abb0999ea304ddbdb53023209b609de33179.mp3",
+      "category": "passage",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/99/997d3d98efefc5b5a320a5be21c0280eac37de4d.mp3",
+      "category": "story",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/00/0000c42e312c28c7af12ce7d647f8ab32ac4d2de.mp3",
+      "category": "deterministic",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/15/154c94e90826e7f910fa83fad893fc5aaddc94c3.mp3",
+      "category": "deterministic",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/2b/2b321aebedb72ec401535a6d7dec3c90b5fa323c.mp3",
+      "category": "deterministic",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/40/4073551b8dc1781ef4dfe2952936fa1452aa5470.mp3",
+      "category": "deterministic",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/55/559f3d1ef961e7fedceabf139b5f2d82a92d97bb.mp3",
+      "category": "deterministic",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/6a/6a897637e3be3da90c617be8b87451e34f1ba2b8.mp3",
+      "category": "deterministic",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/7f/7fd8874e479e816ca54cfdc0c9516a0655352222.mp3",
+      "category": "deterministic",
+      "result": "passed"
+    },
+    {
+      "url": "/audio/95/95345f2d9c0384c37b4be4c2d4bcbcff18c9a673.mp3",
+      "category": "deterministic",
+      "result": "passed"
+    }
+  ],
+  "errors": [],
+  "full_report_sha256": "d8820669b7515a7a8b1cdc34d67f9e0c1c65a47eaab4053c92a9d32f972493b9",
+  "full_report_local": "deploy-output/ux-web-audio-full.json"
+}

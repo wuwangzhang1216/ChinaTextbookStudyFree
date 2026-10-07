@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g2up-u5-kp3",
+  "point": "空间观念建立",
+  "source": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit5.json",
+  "before_source_fingerprint": "0b35abd85da55459fbef3e5bb4d846d14fbb82eb83ce63cbe99d5739eb6ba39b",
+  "after_fingerprint": "1640c97de9d19da6cd81ffe0cf665be99555c7b3e4e4867614855bcd1799ee97",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    25
+  ],
+  "revised_question_ids": [
+    9,
+    11,
+    14,
+    17,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 9,
+      "skill": "application",
+      "question": "小红面向正前方，小强站在她正左侧并面向小红。小强看到的是小红的哪一面？"
+    },
+    {
+      "source_id": 11,
+      "skill": "recognition",
+      "question": "从某一个方向看到的物体外轮廓是圆形。下面哪一种不可能是这个物体？"
+    },
+    {
+      "source_id": 14,
+      "skill": "reasoning",
+      "question": "从一个固定位置斜着观察桌上的正方体，最多能同时看到几个面？"
+    },
+    {
+      "source_id": 17,
+      "skill": "application",
+      "question": "小狗面向正前方，观察者站在小狗身体的正右侧并面向小狗。小狗哪只耳朵在朝向观察者的一侧？"
+    },
+    {
+      "source_id": 21,
+      "skill": "reasoning",
+      "question": "每个球从任何方向观察，看到的图形都是圆。观察10个这样的球，能看到的不同图形共有___种。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "把正方体朝向前方的面叫正面。小明从一个斜上方的位置观察，能看到正方体的上面、右侧面和后面，看不到正面和左侧面。他大约站在哪里？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "644d5278bcb693714bff1161d410da75d576fa23ba740533aaeed69708f2f44a",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "根据提供的大纲补齐讲解并整理为6道练习；未提供教材原页，未进行原教材逐字核对，也未声称经过教师签审。",
+    "保留了全部旧题source_id；对观察方位不够明确的题目补充了条件，并修订了相应解析。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

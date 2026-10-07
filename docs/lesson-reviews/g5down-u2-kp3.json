@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g5down-u2-kp3",
+  "point": "质数与合数及1的特殊性",
+  "source": "output/math/quizzes/义务教育教科书·数学五年级下册_unit2.json",
+  "before_source_fingerprint": "00050febace3cd00e59203bdc45680e809acf2f185c94ddd28212a0ed3cc300d",
+  "after_fingerprint": "2eac9df1caf01d09a08780689f82302227c320524bce7a6229a40a0a75907dff",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    3,
+    9,
+    10,
+    14,
+    18
+  ],
+  "coverage": [
+    {
+      "source_id": 3,
+      "skill": "reasoning",
+      "question": "因为1是奇数，所以1是质数。"
+    },
+    {
+      "source_id": 9,
+      "skill": "recognition",
+      "question": "1至10的自然数中，质数有几个？"
+    },
+    {
+      "source_id": 10,
+      "skill": "recognition",
+      "question": "下列各数中，属于合数的是："
+    },
+    {
+      "source_id": 14,
+      "skill": "reasoning",
+      "question": "两个质数的积一定是："
+    },
+    {
+      "source_id": 18,
+      "skill": "reasoning",
+      "question": "两个质数的和是25，这两个质数的积是："
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "自然数39除1和39以外还有几个因数？____"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "756eba3ccaadd76374d16ac527e64404a8bf36571db83b4faf33dde29d078c05",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了本课全部旧题source_id；将source_id为3的判断题改为辨析奇数与质数的关系。",
+    "保留了source_id为null的填空题，作为已有新增题纳入本课题数。",
+    "未提供教材原页，未进行教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

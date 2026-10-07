@@ -43,7 +43,7 @@ export function GemBadge({ className = "", asLink = true }: GemBadgeProps) {
       transition={{ delay: 0.12 }}
       whileTap={asLink ? { scale: 0.95 } : undefined}
       className={`relative h-8 px-2.5 inline-flex items-center gap-1 rounded-full border-2 font-extrabold text-sm select-none tabular-nums border-secondary/50 text-secondary-dark bg-secondary/10 ${asLink ? "hover:bg-secondary/20 transition-colors cursor-pointer" : ""} ${className}`}
-      aria-label="宝石（点击进入商店）"
+      aria-label={asLink ? "宝石（点击进入商店）" : "当前宝石"}
     >
       <Gem className="w-4 h-4" />
       <motion.span

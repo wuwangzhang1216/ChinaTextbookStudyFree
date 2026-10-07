@@ -23,9 +23,11 @@ const LessonRunner = dynamic(
 export default function LessonPageClient({
   lesson,
   chestSlot,
+  nextLessonId,
 }: {
   lesson: Lesson;
   chestSlot: ChestSlot | null;
+  nextLessonId?: string;
 }) {
-  return <LessonRunner lesson={lesson} chestSlot={chestSlot} />;
+  return <LessonRunner key={lesson.id} lesson={lesson} chestSlot={chestSlot} nextLessonId={nextLessonId} />;
 }

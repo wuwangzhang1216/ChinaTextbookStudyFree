@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g2up-u2-kp3",
+  "point": "连加、连减与加减混合运算",
+  "source": "output/math/quizzes/义务教育教科书 · 数学二年级上册_unit2.json",
+  "before_source_fingerprint": "36c8aba925792fd0c52e875a7e67933390bafee4290edd3e323e92084a102d2b",
+  "after_fingerprint": "6a771aa3fbaad101a35c7994ead755dfdd2fdfa2f80a8801f41029fb0a9e30b0",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    10,
+    15,
+    18,
+    21
+  ],
+  "coverage": [
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "计算 24 + 16 + 30 的结果是（ ）。"
+    },
+    {
+      "source_id": 15,
+      "skill": "reasoning",
+      "question": "算式 90 - 36 - 24，可以把两个减数先合起来计算。先算哪一道？"
+    },
+    {
+      "source_id": 18,
+      "skill": "application",
+      "question": "一辆公交车上原有 86 人。到第一站有 28 人下车，到第二站又有 17 人上车。现在车上有多少人？"
+    },
+    {
+      "source_id": 21,
+      "skill": "application",
+      "question": "三个朋友跳绳，小红跳了 32 下，小军跳了 28 下，小刚跳了 35 下，他们一共跳了 ___ 下。"
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "计算：73 - 28 + 16 = ___"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "算式 46 + 18 - 20 按从左往右计算，第一步先算哪一部分？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "fd19b89ced601f2889cad4e14392f2657bf5cce714f4c0836ea21bd8241c8623",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id；第18题改为需要连续进行减法和加法的完整情境，明确所求为现在车上的人数。",
+    "题量为6题，包含识记、应用和推理，题型包含选择题、文字填空题和计算题。",
+    "依据提供的项目大纲和旧题整理，未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

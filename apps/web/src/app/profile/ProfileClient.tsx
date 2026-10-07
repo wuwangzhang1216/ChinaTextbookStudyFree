@@ -146,7 +146,7 @@ export function ProfileClient() {
             <Gem className="w-6 h-6" />
           </div>
           <div className="flex-1">
-            <div className="text-base font-extrabold text-ink">美妆商店</div>
+            <div className="text-base font-extrabold text-ink">聪聪衣橱</div>
             <div className="text-sm text-ink-light">
               累计获得 <span className="font-extrabold text-secondary-dark">{hydrated ? lifetimeGems : 0}</span> 颗宝石 · 去给聪聪换装吧
             </div>
@@ -502,7 +502,7 @@ function ReportsSection() {
 
       {reports.length === 0 ? (
         <div className="text-sm text-ink-softer py-4 text-center">
-          还没有报告过问题，题目都很乖～
+          还没有报告过问题，发现疑问时，可以在题目旁告诉聪聪。
         </div>
       ) : (
         <ul className="space-y-2">

@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g1up-u3-kp1",
+  "point": "1~5的基数与序数含义",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit3.json",
+  "before_source_fingerprint": "0f961d8f296c7b0d875c175efaef7976bf947550daf00a6e7958bed6494983eb",
+  "after_fingerprint": "f8d5e3a961e2abf112ffec71d2f051fa86cb5934d6d54a1c82349e8b1744c96a",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24,
+    25
+  ],
+  "revised_question_ids": [
+    1,
+    6,
+    12,
+    20
+  ],
+  "coverage": [
+    {
+      "source_id": 1,
+      "skill": "application",
+      "question": "5个小朋友从队伍前面往后排成一队。从前往后数，小明排第2个。小明后面有3个小朋友。"
+    },
+    {
+      "source_id": 6,
+      "skill": "recognition",
+      "question": "把1、2、3、4、5按从小到大的顺序排好，排在最中间的是哪个数？"
+    },
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "一队小朋友排队，从前往后数小红排第3，小红前面有几个人？"
+    },
+    {
+      "source_id": 20,
+      "skill": "application",
+      "question": "一栋楼没有地下层，地面上的楼层从下往上依次叫第1层、第2层……小明家住在第4层，小明家下面有 ___ 层。（填一个数字）"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "有5朵花从左到右排成一排。小乐说：“第4朵花表示一共有4朵花。”下面哪句话正确？"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "桌上摆着4个三角形：△ △ △ △。一共有 ___ 个三角形。（填一个数字）"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "58196dab5072c818967fc3f3c448a1f75093109bb81dff94ca4391d038f0b8ee",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "本课共6题，保留了旧题source_id 1、6、12、20；对source_id 1和20补充了必要条件以消除歧义。",
+    "依据提供的项目大纲和旧题整理；未提供教材原页，因此不作教材逐字核对或教师签审的声明。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

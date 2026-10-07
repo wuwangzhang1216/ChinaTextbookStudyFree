@@ -1,0 +1,71 @@
+{
+  "lesson_id": "g1up-u1-kp2",
+  "point": "同样多、多、少的含义",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit1.json",
+  "before_source_fingerprint": "d5925a1e96b044d2437c7ff9549d23b922668175746d28cecffbd7af59d5bc24",
+  "after_fingerprint": "0e44c548a12e4b244cf4f1966e217575c5b1902b1b11ab86db052d22d1b35ecf",
+  "before_question_count": 5,
+  "after_question_count": 6,
+  "added_question_ids": [
+    24
+  ],
+  "revised_question_ids": [
+    2,
+    4,
+    7,
+    10,
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 2,
+      "skill": "recognition",
+      "question": "两个篮子里各装了5个苹果，说明这两个篮子里的苹果同样多。"
+    },
+    {
+      "source_id": 4,
+      "skill": "application",
+      "question": "小明有3块糖，小红有5块糖，小明比小红多。"
+    },
+    {
+      "source_id": 7,
+      "skill": "recognition",
+      "question": "桌上有3个杯子和3个盖子，杯子和盖子的数量关系是？"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "盘子里有8个红苹果，6个青苹果，哪种苹果少？"
+    },
+    {
+      "source_id": 16,
+      "skill": "recognition",
+      "question": "第一排摆了4个圆，第二排也摆了4个圆，两排圆的关系是？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小华的贴纸比小雨少。填空：从“小华、小雨、一样多”中选一个填在横线上。贴纸多的是______。"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "e9f31e75feb3db8327d012effebd02c0bad35c24633ed20c1c028d34bb213e20",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "本课内容依据所给项目大纲和旧题整理，未提供教材原页，因此未进行原教材逐字核对，也未声称经过教师签审。",
+    "保留了全部旧题的 source_id，并整理选择题选项顺序；新增题的 source_id 为 null。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

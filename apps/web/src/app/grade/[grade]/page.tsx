@@ -4,6 +4,7 @@ import { StatsBar } from "@/components/StatsBar";
 import { SoundLink } from "@/components/SoundLink";
 import { AppShell } from "@/components/layout/AppShell";
 import { ChangeGradeButton } from "@/components/ChangeGradeButton";
+import { ContinueLearningCard } from "@/components/ContinueLearningCard";
 import type { SiteIndex, SubjectId, Book } from "@/types";
 import { SUBJECTS } from "@/lib/subjects";
 
@@ -99,6 +100,7 @@ export default async function GradePage({ params }: { params: Promise<{ grade: s
           </div>
         </div>
       </div>
+      <ContinueLearningCard />
       <div className="w-full">
 
         <div className="space-y-6">
@@ -147,28 +149,28 @@ export default async function GradePage({ params }: { params: Promise<{ grade: s
                         >
                           <span
                             className="text-2xl lg:text-3xl font-extrabold"
-                            style={{ color: theme.bg }}
+                            style={{ color: "#16210e" }}
                           >
                             {theme.glyph}
                           </span>
                         </div>
 
                         {/* 白色文字右侧 */}
-                        <div className="flex-1 min-w-0 text-white">
-                          <div className="text-[10px] lg:text-xs font-extrabold uppercase tracking-widest opacity-80">
+                        <div className="flex-1 min-w-0 text-[#16210e]">
+                          <div className="text-[10px] lg:text-xs font-extrabold uppercase tracking-widest">
                             {subject.label}
                           </div>
                           <div className="text-base lg:text-xl font-extrabold leading-tight truncate mt-0.5">
                             {book.gradeName}
                             {book.semesterName}
                           </div>
-                          <div className="text-[11px] lg:text-xs font-semibold opacity-85 mt-0.5 lg:mt-1">
+                          <div className="text-[11px] lg:text-xs font-semibold mt-0.5 lg:mt-1">
                             {book.unitsCount} 单元 · {book.lessonsCount} 节小课
                           </div>
                         </div>
 
                         {/* 右侧箭头 */}
-                        <div className="text-white/90 text-xl lg:text-2xl font-extrabold shrink-0 group-hover:translate-x-1 transition-transform">
+                        <div className="text-[#16210e] text-xl lg:text-2xl font-extrabold shrink-0 group-hover:translate-x-1 transition-transform">
                           ›
                         </div>
                       </div>

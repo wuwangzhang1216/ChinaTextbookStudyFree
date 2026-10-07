@@ -1,0 +1,72 @@
+{
+  "lesson_id": "g1up-u3-kp5",
+  "point": "减法的初步认识",
+  "source": "output/math/quizzes/义务教育教科书 · 数学一年级上册_unit3.json",
+  "before_source_fingerprint": "0f961d8f296c7b0d875c175efaef7976bf947550daf00a6e7958bed6494983eb",
+  "after_fingerprint": "6a435623096b6d6d2ade8ff8b5609752f0e186623c854974d2bba85ca0abe8f1",
+  "before_question_count": 4,
+  "after_question_count": 6,
+  "added_question_ids": [
+    33,
+    34
+  ],
+  "revised_question_ids": [
+    5,
+    10,
+    14,
+    22
+  ],
+  "coverage": [
+    {
+      "source_id": 5,
+      "skill": "reasoning",
+      "question": "5颗糖果，拿走2颗后还剩3颗。有人说：“要求还剩多少，算式应是2－5＝3。”这个说法对吗？"
+    },
+    {
+      "source_id": 10,
+      "skill": "application",
+      "question": "小明有5块饼干，吃了一些后还剩1块，吃了多少块？"
+    },
+    {
+      "source_id": 14,
+      "skill": "recognition",
+      "question": "算式 4－1 的结果是多少？"
+    },
+    {
+      "source_id": 22,
+      "skill": "application",
+      "question": "4－2＝____"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "5个棋子分成拿走的和留下的两部分，留下的比拿走的多1个。拿走几个？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "有一些积木，拿走2块后还剩2块。原来有多少块？____块"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "a2281b9fd78c91b97eea8defa58b4ff223844cd003f9157da0fe0b21ec55c80a",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "保留了全部旧题 source_id：5、10、14、22；新增题的 source_id 为 null。题目数量为6。",
+    "修订了 source_id 为5的判断题，使其考查减法情境与算式的对应关系。",
+    "未提供教材原页，因此未声称完成原教材逐字核对或教师签审。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

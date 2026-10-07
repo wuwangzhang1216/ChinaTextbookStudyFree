@@ -1,0 +1,73 @@
+{
+  "lesson_id": "science-g1up-u1-kp4",
+  "point": "根据叶寻找和辨认植物",
+  "source": "output/science/quizzes/义务教育教科书·科学一年级上册_unit1.json",
+  "before_source_fingerprint": "0ed4fe0bcecc1cd1374dd45c7b7e9de05e0d68f8baac4068c5b331f8d02b857c",
+  "after_fingerprint": "b660bb9add9a515756237e4d3145287b55645a1207f88191c2662d92cc6db928",
+  "before_question_count": 3,
+  "after_question_count": 6,
+  "added_question_ids": [
+    28,
+    29,
+    30
+  ],
+  "revised_question_ids": [
+    12,
+    14,
+    17
+  ],
+  "coverage": [
+    {
+      "source_id": 12,
+      "skill": "application",
+      "question": "小林想把一片落叶和附近植物的叶子进行比较。记录哪些特点更有助于寻找可能的原植物？"
+    },
+    {
+      "source_id": 14,
+      "skill": "application",
+      "question": "小雨捡到一片落叶，想在附近寻找可能的原植物。哪种做法更合适？"
+    },
+    {
+      "source_id": 17,
+      "skill": "reasoning",
+      "question": "附近有四棵树。小安捡到的叶片细长、边缘平滑。下面哪棵树的叶子更值得列为可能的原植物？"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "同一种植物上的叶子大小可能不完全一样，所以寻找植物时还可以比较叶子的其他特点。"
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "叶片上有小齿的那一圈，叫叶片的____。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "小宁发现一片落叶和一棵树上的叶子形状相同。下面哪种说法更合适？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "de22549b1021c7ba0f366bc992cd5c8be0c7b1ca65b65e0828c5e8bf9a7f9aff",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "输入未提供教材原页，因此未声称完成原教材逐字核对或教师签审。",
+    "保留了全部旧题 source_id：12、14、17；题目内容经审校调整，以聚焦叶片观察、比较和寻找线索。",
+    "将文字填空题改为“叶片上有小齿的那一圈，叫叶片的____”，使答案唯一明确。",
+    "共6题，包含选择题、判断题和文字填空题；新增题的 source_id 为 null。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

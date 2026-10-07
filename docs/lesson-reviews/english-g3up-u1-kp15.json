@@ -1,0 +1,71 @@
+{
+  "lesson_id": "english-g3up-u1-kp15",
+  "point": "持有表达",
+  "source": "output/english/quizzes/义务教育教科书·英语（PEP）（三年级起点）三年级上册_unit1.json",
+  "before_source_fingerprint": "694b2e9fba2b7af47d7c231f20b81a13eec13350649bcfd6bf5bcb032ece3481",
+  "after_fingerprint": "618eff58f485ebdfc4304dbd8529269145401bb7a5252d8bf4fe0cb6ffb8cd9a",
+  "before_question_count": 1,
+  "after_question_count": 6,
+  "added_question_ids": [
+    68,
+    69,
+    70,
+    71,
+    72
+  ],
+  "revised_question_ids": [
+    16
+  ],
+  "coverage": [
+    {
+      "source_id": 16,
+      "skill": "application",
+      "question": "只填入本课表示“有”的词：I ___ a pen."
+    },
+    {
+      "source_id": null,
+      "skill": "recognition",
+      "question": "选择合适的词填空：I have ___ orange."
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "只填a或an：I have ___ pencil."
+    },
+    {
+      "source_id": null,
+      "skill": "application",
+      "question": "选出表达“我有一支蜡笔”的正确句子。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "Ben说“I have a bag.”时，句子中的I指说话人Ben。"
+    },
+    {
+      "source_id": null,
+      "skill": "reasoning",
+      "question": "Lily说：“I have a book and a ruler.” 根据她的话，Lily有哪两件物品？"
+    }
+  ],
+  "model_review": {
+    "approved": true,
+    "issues": [],
+    "answers_verified": true,
+    "alignment_verified": true,
+    "grade_fit": true,
+    "coverage_verified": true,
+    "draft_fingerprint": "6150c23ed03ff9bf5ca21350f125bd4a31cd5d031a648d8aae5307b5ad9c11fa",
+    "model": "openai/gpt-6-luna",
+    "review_kind": "model"
+  },
+  "editorial_notes": [
+    "共6题，保留旧题source_id 16并补充5道新题；旧题已明确限定所填词语，使答案唯一。",
+    "本次依据所提供的大纲与旧题整理；未提供教材原页或教师签审信息，因此不作逐字核对或教师签审声明。"
+  ],
+  "textbook_page_check": "pending",
+  "teacher_review": {
+    "status": "pending"
+  },
+  "version": "lesson-review-v1"
+}

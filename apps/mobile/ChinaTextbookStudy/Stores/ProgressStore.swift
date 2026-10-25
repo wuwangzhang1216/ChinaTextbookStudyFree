@@ -40,7 +40,8 @@ final class ProgressStore: ObservableObject {
         if ProcessInfo.processInfo.arguments.contains("-uitest") {
             var fresh = Self.freshProgress()
             fresh.gems = 500
-            fresh.hearts = Self.maxHearts
+            fresh.hearts = ProcessInfo.processInfo.arguments.contains("-uitest-zero-hearts") ? 0 : Self.maxHearts
+            if fresh.hearts == 0 { fresh.nextHeartAt = (Date().timeIntervalSince1970 + Self.heartRechargeSeconds) * 1000 }
             // Keep UI tests deterministic: no login-reward card popping over
             // the flows under test.
             fresh.lastDailyRewardDate = SRS.todayString()

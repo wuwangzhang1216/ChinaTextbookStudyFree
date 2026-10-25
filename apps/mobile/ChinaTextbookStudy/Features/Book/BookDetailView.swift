@@ -114,7 +114,7 @@ struct BookDetailView: View {
         }
         // 0 心预拦截：先看倒计时/补心，别把孩子放进一节答不了错的课。
         .sheet(isPresented: $showZeroHeartsSheet) {
-            HeartGateSheet(progressStore: progressStore)
+            HeartDetailSheet(progressStore: progressStore)
                 .presentationDetents([.medium, .large])
                 .presentationDragIndicator(.visible)
         }
@@ -139,7 +139,7 @@ struct BookDetailView: View {
                     .font(.system(size: 18, weight: .bold))
                     .foregroundStyle(tint)
                 Text(label)
-                    .font(.system(size: 14, weight: .heavy))
+                    .duoFont(.caption)
                     .foregroundStyle(DuoColors.darkInk)
             }
             .frame(maxWidth: .infinity, minHeight: 48)
@@ -183,88 +183,4 @@ struct BookDetailView: View {
         }
     }
 
-}
-
-// MARK: - Heart gate sheet (ioslesson-2)
-
-/// 0 红心时挡在课程入口前的详情层：还剩几颗心、下一颗什么时候回来、
-/// 要不要用宝石补满。与首页的红心详情同一套内容与文案。
-private struct HeartGateSheet: View {
-    @ObservedObject var progressStore: ProgressStore
-    @Environment(\.dismiss) private var dismiss
-
-    @State private var tick = Date()
-    private let timer = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
-
-    var body: some View {
-        ScrollView {
-            VStack(spacing: 22) {
-                Text("红心")
-                    .duoFont(.title, weight: .black)
-                    .foregroundStyle(DuoColors.darkInk)
-                    .padding(.top, 6)
-
-                HStack(spacing: 10) {
-                    ForEach(0..<ProgressStore.maxHearts, id: \.self) { i in
-                        Image(systemName: "heart.fill")
-                            .font(.system(size: 32, weight: .heavy))
-                            .foregroundStyle(i < progressStore.hearts ? DuoColors.danger : DuoColors.darkSurfaceAlt)
-                    }
-                }
-
-                if progressStore.hearts >= ProgressStore.maxHearts {
-                    Text("你的红心已满！")
-                        .duoFont(.body, weight: .heavy)
-                        .foregroundStyle(DuoColors.darkInkMuted)
-                } else if let next = progressStore.nextHeartAt {
-                    VStack(spacing: 4) {
-                        Text("下一颗红心还需")
-                            .duoFont(.caption, weight: .heavy)
-                            .foregroundStyle(DuoColors.darkInkMuted)
-                        Text(formatCountdown(to: next, now: tick))
-                            .font(.system(size: 40, weight: .black, design: .rounded))
-                            .foregroundStyle(DuoColors.danger)
-                            .monospacedDigit()
-                        Text("每 5 分钟恢复 1 颗红心")
-                            .duoFont(.micro)
-                            .foregroundStyle(DuoColors.darkInkMuted)
-                    }
-                }
-
-                Button {
-                    if progressStore.buyHeartRefill(cost: Economy.heartRefillCost) {
-                        HapticEngine.shared.success()
-                        SFXEngine.shared.play(.purchase)
-                    } else {
-                        HapticEngine.shared.wrong()
-                    }
-                } label: {
-                    HStack(spacing: 6) {
-                        Image(systemName: "diamond.fill").font(.system(size: 13, weight: .heavy))
-                        Text("补满红心  \(Economy.heartRefillCost)")
-                    }
-                }
-                .buttonStyle(ChunkyButtonStyle(
-                    (progressStore.hearts < ProgressStore.maxHearts && progressStore.gems >= Economy.heartRefillCost) ? .secondary : .disabled
-                ))
-                .disabled(progressStore.hearts >= ProgressStore.maxHearts || progressStore.gems < Economy.heartRefillCost)
-
-                Button("知道了") { dismiss() }
-                    .buttonStyle(ChunkyButtonStyle(.primary))
-            }
-            .padding(.horizontal, 20)
-            .padding(.bottom, 24)
-        }
-        .background(DuoColors.darkBg.ignoresSafeArea())
-        .accessibilityIdentifier("heart-gate-sheet")
-        .onReceive(timer) { _ in
-            tick = Date()
-            progressStore.tickHeartRecharge()
-        }
-    }
-
-    private func formatCountdown(to date: Date, now: Date) -> String {
-        let remaining = max(0, date.timeIntervalSince(now))
-        return String(format: "%d:%02d", Int(remaining) / 60, Int(remaining) % 60)
-    }
 }

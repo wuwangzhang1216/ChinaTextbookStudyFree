@@ -48,13 +48,10 @@ struct LessonResultView: View {
     @State private var streakShareImage: UIImage?
 
     private var currentAct: Act { acts.indices.contains(actIndex) ? acts[actIndex] : .stars }
-    private var isDarkAct: Bool {
-        currentAct == .streak || currentAct == .milestone || currentAct == .conquest
-    }
 
     var body: some View {
         ZStack {
-            (isDarkAct ? Color.black.opacity(0.92) : DuoColors.bg)
+            DuoColors.bg
                 .ignoresSafeArea()
 
             // Confetti behind the first act and the stats act.
@@ -79,8 +76,35 @@ struct LessonResultView: View {
                 removal: .opacity
             ))
 
-            // Chest modal overlay (stats act only).
-            if showChest, let chestSlotId {
+        }
+        .animation(reduceMotion ? nil : Motion.reveal, value: actIndex)
+        .safeAreaInset(edge: .bottom, spacing: 0) { resultActions }
+        .safeAreaInset(edge: .top, spacing: 0) {
+            HStack(spacing: 12) {
+                Text("这次进步 · \(min(actIndex + 1, max(1, acts.count)))/\(max(1, acts.count))")
+                    .duoFont(.caption)
+                    .foregroundStyle(DuoColors.inkMuted)
+                Spacer()
+                Button("回到路线") { exitToPath() }
+                    .duoFont(.caption)
+                    .foregroundStyle(DuoColors.linkInk)
+                    .frame(minHeight: 44)
+                    .accessibilityIdentifier("result-back-to-path")
+            }
+            .padding(.horizontal, 24)
+            .frame(maxWidth: LearningLayout.contentWidth)
+            .frame(maxWidth: .infinity)
+            .background(DuoColors.bg)
+        }
+        // ios-lesson-22: the celebration owns the whole screen — no system
+        // 「结算」 title bar poking through any act.
+        .navigationBarBackButtonHidden(true)
+        .toolbar(.hidden, for: .navigationBar)
+        .onAppear { setUp() }
+        // Cover the action dock as well as the body: a reward dialog must not
+        // leave the result's continue action tappable behind it.
+        .fullScreenCover(isPresented: $showChest) {
+            if let chestSlotId {
                 ChestModalView(
                     onClaim: { gems in
                         progressStore.addGems(gems)
@@ -88,32 +112,9 @@ struct LessonResultView: View {
                     },
                     onDismiss: { showChest = false }
                 )
-                .transition(.opacity)
+                .presentationBackground(.clear)
             }
         }
-        .animation(.spring(response: 0.4, dampingFraction: 0.85), value: actIndex)
-        .safeAreaInset(edge: .top, spacing: 0) {
-            HStack(spacing: 12) {
-                Text("这次进步 · \(min(actIndex + 1, max(1, acts.count)))/\(max(1, acts.count))")
-                    .duoFont(.caption)
-                    .foregroundStyle(isDarkAct ? .white.opacity(0.8) : DuoColors.inkMuted)
-                Spacer()
-                Button("回到路线") { exitToPath() }
-                    .duoFont(.caption)
-                    .foregroundStyle(isDarkAct ? .white : DuoColors.linkInk)
-                    .frame(minHeight: 44)
-                    .accessibilityIdentifier("result-back-to-path")
-            }
-            .padding(.horizontal, 24)
-            .frame(maxWidth: LearningLayout.contentWidth)
-            .frame(maxWidth: .infinity)
-            .background(isDarkAct ? Color.black.opacity(0.92) : DuoColors.bg)
-        }
-        // ios-lesson-22: the celebration owns the whole screen — no system
-        // 「结算」 title bar poking through any act.
-        .navigationBarBackButtonHidden(true)
-        .toolbar(.hidden, for: .navigationBar)
-        .onAppear { setUp() }
     }
 
     // MARK: - Setup
@@ -234,286 +235,286 @@ struct LessonResultView: View {
     private func continueButton(_ title: String = "继续", action: @escaping () -> Void) -> some View {
         Button(action: action) { Text(title) }
             .buttonStyle(ChunkyButtonStyle(.primary))
-            .padding(.horizontal, 24)
             .accessibilityIdentifier("result-continue")
+    }
+
+    private var resultActions: some View {
+        LearningActionDock {
+            VStack(spacing: 10) {
+                if currentAct == .shield {
+                    let canBuy = progressStore.streakFreezes < Economy.maxFreezes && progressStore.gems >= Economy.freezeCost
+                    Button(progressStore.streakFreezes >= Economy.maxFreezes ? "护盾已满" : "再备一个护盾  \(Economy.freezeCost)") {
+                        if progressStore.buyStreakFreeze(cost: Economy.freezeCost) {
+                            HapticEngine.shared.success(); SFXEngine.shared.play(.purchase)
+                        }
+                    }
+                    .buttonStyle(ChunkyButtonStyle(canBuy ? .secondary : .disabled))
+                    .disabled(!canBuy).accessibilityIdentifier("shield-rebuy")
+                }
+                if currentAct == .quests {
+                    if hasClaimableQuest {
+                        Button("去领取奖励") {
+                            HapticEngine.shared.tap(); path.removeAll(); path.append(.profile)
+                        }
+                        .buttonStyle(ChunkyButtonStyle(.secondary))
+                        .accessibilityIdentifier("quests-claim-jump")
+                    }
+                    if wrongCount > 0 {
+                        Button("复习本课错题 (\(wrongCount))") { jumpToMistakeReview() }
+                            .buttonStyle(ChunkyButtonStyle(.ghost))
+                            .accessibilityIdentifier("result-review-mistakes")
+                    }
+                    continueButton("继续学习") { exitToPath() }
+                } else {
+                    continueButton(currentAct == .conquest || currentAct == .milestone ? "太棒了！" : "继续") { advanceAct() }
+                }
+            }
+        }
     }
 
     // MARK: - Act 1: stars
 
     private var starsAct: some View {
-        VStack(spacing: 24) {
-            Spacer()
+        LearningCelebrationBody {
 
-            // Mascot — plays its level-up reaction once on appear.
-            MascotView(
-                mood: result.stars >= 3 ? .proud : (result.stars >= 2 ? .happy : .think),
-                size: 110,
-                reactTo: .levelup
-            )
+            VStack(spacing: 24) {
+                Spacer()
 
-            VStack(spacing: 8) {
-                Text("完成！")
-                    .duoFont(.display)
-                    .foregroundStyle(DuoColors.ink)
-                Text(result.lessonTitle)
-                    .duoFont(.body)
-                    .foregroundStyle(DuoColors.inkLight)
-            }
-
-            if result.stars == 3 {
-                HStack(spacing: 6) {
-                    Image(systemName: "sparkles")
-                    Text("完美通关！")
-                }
-                .duoFont(.caption, weight: .heavy)
-                .foregroundStyle(.white)
-                .padding(.horizontal, 16)
-                .padding(.vertical, 8)
-                .background(
-                    LinearGradient(
-                        colors: [DuoColors.primary, DuoColors.secondary],
-                        startPoint: .leading,
-                        endPoint: .trailing
-                    ),
-                    in: .capsule
+                // Mascot — plays its level-up reaction once on appear.
+                MascotView(
+                    mood: result.stars >= 3 ? .proud : (result.stars >= 2 ? .happy : .think),
+                    size: 110,
+                    reactTo: .levelup
                 )
 
-                // 三星分享卡（Wave E2）：把闪亮时刻晒出去。
-                if let image = threeStarShareImage {
-                    ShareCardLink(
-                        image: image,
-                        filename: "三星通关-\(result.lessonId).png",
-                        previewTitle: "三星通关",
-                        label: "分享这份满分"
-                    )
+                VStack(spacing: 8) {
+                    Text("完成！")
+                        .duoFont(.display)
+                        .foregroundStyle(DuoColors.ink)
+                    Text(result.lessonTitle)
+                        .duoFont(.body)
+                        .foregroundStyle(DuoColors.inkLight)
                 }
+
+                if result.stars == 3 {
+                    HStack(spacing: 6) {
+                        Image(systemName: "sparkles")
+                        Text("完美通关！")
+                    }
+                    .duoFont(.caption)
+                    .foregroundStyle(.white)
+                    .padding(.horizontal, 16)
+                    .padding(.vertical, 8)
+                    .background(
+                        LinearGradient(
+                            colors: [DuoColors.primary, DuoColors.secondary],
+                            startPoint: .leading,
+                            endPoint: .trailing
+                        ),
+                        in: .capsule
+                    )
+
+                    // 三星分享卡（Wave E2）：把闪亮时刻晒出去。
+                    if let image = threeStarShareImage {
+                        ShareCardLink(
+                            image: image,
+                            filename: "三星通关-\(result.lessonId).png",
+                            previewTitle: "三星通关",
+                            label: "分享这份满分"
+                        )
+                    }
+                }
+
+                // 挑战双倍 —— exam ×2 与周末 ×2 各自亮牌，叠加时两张都在。
+                if result.outcome.examDoubled {
+                    celebrationBanner(icon: "trophy.fill", tint: DuoColors.beetle, text: "⚔️ 挑战双倍 ×2")
+                }
+                // Weekend ×2 — the doubled XP must be visibly labeled.
+                if result.outcome.weekendDoubled {
+                    celebrationBanner(icon: "bolt.fill", tint: DuoColors.bee, text: "周末双倍 ×2")
+                }
+
+                StarRevealView(earnedStars: result.stars)
+                    .padding(.vertical, 8)
+
+                Spacer()
             }
-
-            // 挑战双倍 —— exam ×2 与周末 ×2 各自亮牌，叠加时两张都在。
-            if result.outcome.examDoubled {
-                celebrationBanner(icon: "trophy.fill", tint: DuoColors.beetle, text: "⚔️ 挑战双倍 ×2")
-            }
-            // Weekend ×2 — the doubled XP must be visibly labeled.
-            if result.outcome.weekendDoubled {
-                celebrationBanner(icon: "bolt.fill", tint: DuoColors.bee, text: "周末双倍 ×2")
-            }
-
-            StarRevealView(earnedStars: result.stars)
-                .padding(.vertical, 8)
-
-            Spacer()
-
-            continueButton { advanceAct() }
-                .padding(.bottom, 28)
         }
     }
 
     // MARK: - Act 1.5: unit conquered (Wave E1, accuracy ≥ 0.8 on the exam)
 
     private var conquestAct: some View {
-        VStack(spacing: 18) {
-            Spacer()
+        LearningCelebrationBody {
 
-            Image(systemName: "trophy.fill")
-                .font(.system(size: 104, weight: .heavy))
-                .foregroundStyle(DuoColors.bee)
-                .shadow(color: DuoColors.bee.opacity(0.6), radius: 26)
+            VStack(spacing: 18) {
+                Spacer()
 
-            Text("单元征服！")
-                .duoFont(.title, weight: .black)
-                .foregroundStyle(.white)
+                Image(systemName: "trophy.fill")
+                    .font(.system(size: 104, weight: .heavy))
+                    .foregroundStyle(DuoColors.bee)
 
-            Text("正确率 \(Int(round(result.accuracy * 100)))%，这个单元被你拿下啦")
-                .duoFont(.body, weight: .bold)
-                .foregroundStyle(.white.opacity(0.85))
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 32)
+                Text("单元征服！")
+                    .duoFont(.title)
+                    .foregroundStyle(DuoColors.ink)
 
-            Text("路径上的奖杯换上金色，快去看看吧")
-                .duoFont(.caption)
-                .foregroundStyle(.white.opacity(0.75))
+                Text("正确率 \(Int(round(result.accuracy * 100)))%，这个单元被你拿下啦")
+                    .duoFont(.body, weight: .bold)
+                    .foregroundStyle(DuoColors.inkMuted)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 32)
 
-            Spacer()
+                Text("路径上的奖杯换上金色，快去看看吧")
+                    .duoFont(.caption)
+                    .foregroundStyle(DuoColors.inkMuted)
 
-            continueButton("太棒了！") { advanceAct() }
-                .padding(.bottom, 28)
+                Spacer()
+            }
         }
     }
 
     // MARK: - Act 2: shield saved the streak (ios-economy-6)
 
     private var shieldAct: some View {
-        VStack(spacing: 20) {
-            Spacer()
+        LearningCelebrationBody {
 
-            Image(systemName: "snowflake")
-                .font(.system(size: 84, weight: .heavy))
-                .foregroundStyle(DuoColors.secondary)
-                .shadow(color: DuoColors.secondary.opacity(0.5), radius: 20)
+            VStack(spacing: 20) {
+                Spacer()
 
-            Text("❄️ 护盾保住了你 \(result.outcome.streakAfter) 天连胜")
-                .duoFont(.heading, weight: .black)
-                .foregroundStyle(DuoColors.ink)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 24)
+                Image(systemName: "snowflake")
+                    .font(.system(size: 84, weight: .heavy))
+                    .foregroundStyle(DuoColors.secondary)
 
-            Text("错过学习的那\(result.outcome.freezesConsumed > 1 ? " \(result.outcome.freezesConsumed) " : "")天，护盾自动帮你顶上了")
+                Text("❄️ 护盾保住了你 \(result.outcome.streakAfter) 天连胜")
+                    .duoFont(.heading)
+                    .foregroundStyle(DuoColors.ink)
+                    .multilineTextAlignment(.center)
+                    .padding(.horizontal, 24)
+
+                Text(
+                    "错过学习的那\(result.outcome.freezesConsumed > 1 ? " \(result.outcome.freezesConsumed) " : "")天，护盾自动帮你顶上了"
+                )
                 .duoFont(.body)
                 .foregroundStyle(DuoColors.inkMuted)
                 .multilineTextAlignment(.center)
                 .padding(.horizontal, 32)
 
-            HStack(spacing: 8) {
-                Image(systemName: "snowflake")
-                    .font(.system(size: 14, weight: .heavy))
-                Text("剩余护盾 \(progressStore.streakFreezes)/\(Economy.maxFreezes)")
-                    .duoFont(.caption, weight: .heavy)
-            }
-            .foregroundStyle(DuoColors.secondary)
-            .padding(.horizontal, 14)
-            .padding(.vertical, 8)
-            .background(DuoColors.secondary.opacity(0.14), in: .capsule)
-
-            Spacer()
-
-            VStack(spacing: 10) {
-                // 「再备一个护盾」入口 — 补上刚消耗掉的那个。
-                let canBuy = progressStore.streakFreezes < Economy.maxFreezes
-                    && progressStore.gems >= Economy.freezeCost
-                Button {
-                    if progressStore.buyStreakFreeze(cost: Economy.freezeCost) {
-                        HapticEngine.shared.success()
-                        SFXEngine.shared.play(.purchase)
-                    } else {
-                        HapticEngine.shared.wrong()
-                    }
-                } label: {
-                    HStack(spacing: 8) {
-                        Image(systemName: "diamond.fill").font(.system(size: 14, weight: .heavy))
-                        Text(progressStore.streakFreezes >= Economy.maxFreezes
-                             ? "护盾已满 \(Economy.maxFreezes)/\(Economy.maxFreezes)"
-                             : "再备一个护盾  \(Economy.freezeCost)")
-                    }
+                HStack(spacing: 8) {
+                    Image(systemName: "snowflake")
+                        .font(.system(size: 14, weight: .heavy))
+                    Text("剩余护盾 \(progressStore.streakFreezes)/\(Economy.maxFreezes)")
+                        .duoFont(.caption)
                 }
-                .buttonStyle(ChunkyButtonStyle(canBuy ? .secondary : .disabled))
-                .disabled(!canBuy)
-                .padding(.horizontal, 24)
-                .accessibilityIdentifier("shield-rebuy")
+                .foregroundStyle(DuoColors.secondary)
+                .padding(.horizontal, 14)
+                .padding(.vertical, 8)
+                .background(DuoColors.secondary.opacity(0.14), in: .capsule)
 
-                continueButton { advanceAct() }
+                Spacer()
+
             }
-            .padding(.bottom, 28)
         }
     }
 
     // MARK: - Act 3: full-screen streak (当日首课)
 
     private var streakAct: some View {
-        VStack(spacing: 18) {
-            Spacer()
+        LearningCelebrationBody {
 
-            Image(systemName: "flame.fill")
-                .font(.system(size: 110, weight: .heavy))
-                .foregroundStyle(DuoColors.fox)
-                .shadow(color: DuoColors.fox.opacity(0.6), radius: 28)
+            VStack(spacing: 18) {
+                Spacer()
 
-            Text("\(result.outcome.streakAfter)")
-                .font(.system(size: 76, weight: .black))
-                .foregroundStyle(.white)
-                .monospacedDigit()
+                Image(systemName: "flame.fill")
+                    .font(.system(size: 110, weight: .heavy))
+                    .foregroundStyle(DuoColors.fox)
 
-            Text("天连胜！")
-                .duoFont(.heading)
-                .foregroundStyle(.white)
+                Text("\(result.outcome.streakAfter)")
+                    .font(.system(size: 76, weight: .black))
+                    .foregroundStyle(DuoColors.ink)
+                    .monospacedDigit()
 
-            // 本周 7 格日历（周一 → 周日；今天那一格必已点亮）。
-            StreakCalendarView(
-                entries: progressStore.weekXPEntries().map { (dateKey: $0.date, studied: $0.xp > 0) },
-                todayIndex: progressStore.todayIndexInWeek(),
-                todayStudied: true
-            )
-            .padding(.horizontal, 24)
-            .padding(.vertical, 14)
-            .background(Color.white.opacity(0.08), in: .rect(cornerRadius: Radius.card))
-            .padding(.horizontal, 24)
+                Text("天连胜！")
+                    .duoFont(.heading)
+                    .foregroundStyle(DuoColors.ink)
 
-            Text("每天学一点，火焰不熄灭")
-                .duoFont(.caption)
-                .foregroundStyle(.white.opacity(0.75))
-
-            // 连胜分享卡（Wave E2）。
-            if let image = streakShareImage {
-                ShareCardLink(
-                    image: image,
-                    filename: "连胜\(result.outcome.streakAfter)天.png",
-                    previewTitle: "\(result.outcome.streakAfter) 天连胜",
-                    label: "分享连胜卡"
+                // 本周 7 格日历（周一 → 周日；今天那一格必已点亮）。
+                StreakCalendarView(
+                    entries: progressStore.weekXPEntries().map { (dateKey: $0.date, studied: $0.xp > 0) },
+                    todayIndex: progressStore.todayIndexInWeek(),
+                    todayStudied: true
                 )
+                .padding(.horizontal, 24)
+                .padding(.vertical, 14)
+                .background(DuoColors.surfaceAlt, in: .rect(cornerRadius: Radius.card))
+                .padding(.horizontal, 24)
+
+                Text("每天学一点，火焰不熄灭")
+                    .duoFont(.caption)
+                    .foregroundStyle(DuoColors.inkMuted)
+
+                // 连胜分享卡（Wave E2）。
+                if let image = streakShareImage {
+                    ShareCardLink(
+                        image: image,
+                        filename: "连胜\(result.outcome.streakAfter)天.png",
+                        previewTitle: "\(result.outcome.streakAfter) 天连胜",
+                        label: "分享连胜卡"
+                    )
+                }
+
+                Spacer()
             }
-
-            Spacer()
-
-            continueButton { advanceAct() }
-                .padding(.bottom, 28)
+            .onAppear { prepareStreakShareImage() }
         }
-        .onAppear { prepareStreakShareImage() }
     }
 
     // MARK: - Act 4: streak milestone (B 波的幕并入序列)
 
     private var milestoneAct: some View {
-        VStack(spacing: 18) {
-            Spacer()
+        LearningCelebrationBody {
 
-            Image(systemName: "flame.fill")
-                .font(.system(size: 96, weight: .heavy))
-                .foregroundStyle(DuoColors.fox)
-                .shadow(color: DuoColors.fox.opacity(0.6), radius: 24)
+            VStack(spacing: 18) {
+                Spacer()
 
-            Text("\(result.outcome.streakAfter)")
-                .font(.system(size: 72, weight: .black))
-                .foregroundStyle(.white)
-                .monospacedDigit()
+                Image(systemName: "flame.fill")
+                    .font(.system(size: 96, weight: .heavy))
+                    .foregroundStyle(DuoColors.fox)
 
-            Text("天连胜里程碑！")
-                .duoFont(.heading)
-                .foregroundStyle(.white)
+                Text("\(result.outcome.streakAfter)")
+                    .font(.system(size: 72, weight: .black))
+                    .foregroundStyle(DuoColors.ink)
+                    .monospacedDigit()
 
-            HStack(spacing: 6) {
-                Image(systemName: "diamond.fill")
-                    .font(.system(size: 18, weight: .heavy))
-                Text("+\(result.outcome.milestoneGems)")
-                    .duoNumeral(.heading, weight: .black)
+                Text("天连胜里程碑！")
+                    .duoFont(.heading)
+                    .foregroundStyle(DuoColors.ink)
+
+                HStack(spacing: 6) {
+                    Image(systemName: "diamond.fill")
+                        .font(.system(size: 18, weight: .heavy))
+                    Text("+\(result.outcome.milestoneGems)")
+                        .duoNumeral(.heading, weight: .black)
+                }
+                .foregroundStyle(DuoColors.beetle)
+                .padding(.horizontal, 18)
+                .padding(.vertical, 10)
+                .background(.white, in: .capsule)
+
+                // 里程碑时刻的连胜分享卡（Wave E2）。
+                if let image = streakShareImage {
+                    ShareCardLink(
+                        image: image,
+                        filename: "连胜\(result.outcome.streakAfter)天.png",
+                        previewTitle: "\(result.outcome.streakAfter) 天连胜",
+                        label: "分享连胜卡"
+                    )
+                }
+
+                Spacer()
+
             }
-            .foregroundStyle(DuoColors.beetle)
-            .padding(.horizontal, 18)
-            .padding(.vertical, 10)
-            .background(.white, in: .capsule)
-
-            // 里程碑时刻的连胜分享卡（Wave E2）。
-            if let image = streakShareImage {
-                ShareCardLink(
-                    image: image,
-                    filename: "连胜\(result.outcome.streakAfter)天.png",
-                    previewTitle: "\(result.outcome.streakAfter) 天连胜",
-                    label: "分享连胜卡"
-                )
-            }
-
-            Spacer()
-
-            Button {
-                advanceAct()
-            } label: {
-                Text("太棒了！")
-                    .frame(maxWidth: .infinity)
-            }
-            .buttonStyle(ChunkyButtonStyle(.primary))
-            .padding(.horizontal, 24)
-            .padding(.bottom, 28)
-            .accessibilityIdentifier("result-continue")
+            .onAppear { prepareStreakShareImage() }
         }
-        .onAppear { prepareStreakShareImage() }
     }
 
     // MARK: - Act 5: stats
@@ -538,9 +539,11 @@ struct LessonResultView: View {
                     )
                 }
 
-                LazyVGrid(columns: [
-                    GridItem(.flexible()), GridItem(.flexible())
-                ], spacing: 12) {
+                LazyVGrid(
+                    columns: [
+                        GridItem(.flexible()), GridItem(.flexible()),
+                    ], spacing: 12
+                ) {
                     statCard(
                         icon: "bolt.fill",
                         value: "+\(displayedXp)",
@@ -569,10 +572,9 @@ struct LessonResultView: View {
                 .padding(.horizontal)
 
                 Spacer(minLength: 16)
-
-                continueButton { advanceAct() }
-                    .padding(.bottom, 24)
             }
+            .frame(maxWidth: LearningLayout.contentWidth)
+            .frame(maxWidth: .infinity)
         }
     }
 
@@ -592,69 +594,29 @@ struct LessonResultView: View {
     }
 
     private var questsAct: some View {
-        VStack(spacing: 18) {
-            Spacer(minLength: 12)
+        LearningCelebrationBody {
 
-            Image(systemName: "checkmark.seal.fill")
-                .font(.system(size: 52, weight: .heavy))
-                .foregroundStyle(DuoColors.bee)
+            VStack(spacing: 18) {
+                Spacer(minLength: 12)
 
-            Text("今日任务")
-                .duoFont(.title)
-                .foregroundStyle(DuoColors.ink)
+                Image(systemName: "checkmark.seal.fill")
+                    .font(.system(size: 52, weight: .heavy))
+                    .foregroundStyle(DuoColors.bee)
 
-            VStack(spacing: 12) {
-                ForEach(questsAfter) { snap in
-                    questRow(snap)
-                }
-            }
-            .padding(.horizontal, 20)
+                Text("今日任务")
+                    .duoFont(.title)
+                    .foregroundStyle(DuoColors.ink)
 
-            Spacer()
-
-            VStack(spacing: 10) {
-                if hasClaimableQuest {
-                    Button {
-                        HapticEngine.shared.tap()
-                        // 去「我的」页领取任务奖励。
-                        path.removeAll()
-                        path.append(.profile)
-                    } label: {
-                        HStack(spacing: 6) {
-                            Image(systemName: "gift.fill").font(.system(size: 14, weight: .heavy))
-                            Text("去领取奖励")
-                        }
+                VStack(spacing: 12) {
+                    ForEach(questsAfter) { snap in
+                        questRow(snap)
                     }
-                    .buttonStyle(ChunkyButtonStyle(.secondary))
-                    .padding(.horizontal, 24)
-                    .accessibilityIdentifier("quests-claim-jump")
                 }
+                .padding(.horizontal, 20)
 
-                // ios-lesson-22: 非满分时给一条「趁热复习」直达通道。
-                if wrongCount > 0 {
-                    Button {
-                        jumpToMistakeReview()
-                    } label: {
-                        HStack(spacing: 6) {
-                            Image(systemName: "arrow.counterclockwise").font(.system(size: 14, weight: .heavy))
-                            Text("复习本课错题 (\(wrongCount))")
-                        }
-                    }
-                    .buttonStyle(ChunkyButtonStyle(.secondary))
-                    .padding(.horizontal, 24)
-                    .accessibilityIdentifier("result-review-mistakes")
-                }
+                Spacer()
 
-                Button {
-                    exitToPath()
-                } label: {
-                    Text("继续学习")
-                }
-                .buttonStyle(ChunkyButtonStyle(.primary))
-                .padding(.horizontal, 24)
-                .accessibilityIdentifier("result-continue")
             }
-            .padding(.bottom, 28)
         }
     }
 

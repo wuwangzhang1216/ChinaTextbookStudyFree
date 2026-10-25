@@ -22,6 +22,13 @@ struct MistakeReviewRunnerView: View {
 
     private let xpPerCorrect = 5
 
+    /// A lesson result can enter review directly while the learning tab is
+    /// underneath. "返回错题本" must still return to the actual review tab.
+    private func exitToReview() {
+        path.removeAll()
+        path.append(.review)
+    }
+
     var body: some View {
         Group {
             if queue.isEmpty {
@@ -33,9 +40,7 @@ struct MistakeReviewRunnerView: View {
             }
         }
         .background(DuoColors.bg.ignoresSafeArea())
-        .navigationTitle("错题复习")
-        .navigationBarTitleDisplayMode(.inline)
-        .toolbar { ToolbarItem(placement: .topBarTrailing) { MuteToggle() } }
+        .toolbar(.hidden, for: .navigationBar)
         .onAppear { if queue.isEmpty { queue = progressStore.dueMistakes } }
         .onDisappear { AudioPlayer.shared.stop() }
     }
@@ -46,52 +51,60 @@ struct MistakeReviewRunnerView: View {
             Text("没有要复习的错题").duoFont(.heading).foregroundStyle(DuoColors.ink)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                Button("返回错题本", action: exitToReview).buttonStyle(ChunkyButtonStyle(.primary))
+            }
+        }
     }
 
     private var summary: some View {
-        VStack(spacing: 18) {
-            MascotView(mood: .proud, size: 110, reactTo: .levelup)
-            Text("复习完成！").duoFont(.title).foregroundStyle(DuoColors.ink)
-            Text("答对 \(correctCount) / \(queue.count)").duoFont(.subhead).foregroundStyle(DuoColors.inkMuted)
+        LearningCelebrationBody {
+            VStack(spacing: 18) {
+                MascotView(mood: .proud, size: 110, reactTo: .levelup)
+                Text("复习完成！").duoFont(.title).foregroundStyle(DuoColors.ink)
+                Text("答对 \(correctCount) / \(queue.count)").duoFont(.subhead).foregroundStyle(DuoColors.inkMuted)
 
-            HStack(spacing: 10) {
-                HStack(spacing: 6) {
-                    Image(systemName: "bolt.fill").font(.system(size: 15, weight: .heavy))
-                    Text("+\(correctCount * xpPerCorrect) XP").duoNumeral(.subhead)
+                HStack(spacing: 10) {
+                    HStack(spacing: 6) {
+                        Image(systemName: "bolt.fill").font(.system(size: 15, weight: .heavy))
+                        Text("+\(correctCount * xpPerCorrect) XP").duoNumeral(.subhead)
+                    }
+                    .foregroundStyle(DuoColors.secondary)
+                    .padding(.horizontal, 16).padding(.vertical, 9)
+                    .background(DuoColors.secondary.opacity(0.14), in: .capsule)
+
+                    if heartRewarded {
+                        HStack(spacing: 6) {
+                            Image(systemName: "heart.fill").font(.system(size: 15, weight: .heavy))
+                            Text("+1").duoNumeral(.subhead)
+                        }
+                        .foregroundStyle(DuoColors.danger)
+                        .padding(.horizontal, 16).padding(.vertical, 9)
+                        .background(DuoColors.danger.opacity(0.12), in: .capsule)
+                        .accessibilityLabel("恢复一颗红心")
+                    }
                 }
-                .foregroundStyle(DuoColors.secondary)
-                .padding(.horizontal, 16).padding(.vertical, 9)
-                .background(DuoColors.secondary.opacity(0.14), in: .capsule)
 
                 if heartRewarded {
-                    HStack(spacing: 6) {
-                        Image(systemName: "heart.fill").font(.system(size: 15, weight: .heavy))
-                        Text("+1").duoNumeral(.subhead)
-                    }
-                    .foregroundStyle(DuoColors.danger)
-                    .padding(.horizontal, 16).padding(.vertical, 9)
-                    .background(DuoColors.danger.opacity(0.12), in: .capsule)
-                    .accessibilityLabel("恢复一颗红心")
+                    Text("坚持复习，补回一颗红心！").duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
                 }
-            }
 
-            if heartRewarded {
-                Text("坚持复习，补回一颗红心！").duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
-            }
+                if graduatedCount > 0 {
+                    Text("🎓 \(graduatedCount) 道题毕业了！")
+                        .duoFont(.subhead).foregroundStyle(DuoColors.primary)
+                        .padding(.horizontal, 16).padding(.vertical, 9)
+                        .background(DuoColors.primary.opacity(0.12), in: .capsule)
+                }
 
-            if graduatedCount > 0 {
-                Text("🎓 \(graduatedCount) 道题毕业了！")
-                    .duoFont(.subhead).foregroundStyle(DuoColors.primary)
-                    .padding(.horizontal, 16).padding(.vertical, 9)
-                    .background(DuoColors.primary.opacity(0.12), in: .capsule)
             }
-
-            Button("返回错题本") { path.removeLast() }
-                .buttonStyle(ChunkyButtonStyle(.primary))
-                .padding(.horizontal, 32)
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .padding()
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                Button("返回错题本", action: exitToReview).buttonStyle(ChunkyButtonStyle(.primary))
+                    .accessibilityIdentifier("review-result-done")
+            }
+        }
         .onAppear {
             guard !awarded else { return }
             awarded = true
@@ -111,14 +124,9 @@ struct MistakeReviewRunnerView: View {
         let entry = queue[index]
         let q = entry.question
         return VStack(spacing: 0) {
-            HStack(spacing: 14) {
-                Button { path.removeLast() } label: {
-                    Image(systemName: "xmark").font(.system(size: 20, weight: .black)).foregroundStyle(DuoColors.inkMuted).frame(width: 36, height: 36)
-                }
-                StyledProgressBar(progress: Double(index) / Double(max(queue.count, 1)), height: 14, trackColor: DuoColors.surfaceAlt)
-                Text("\(index + 1)/\(queue.count)").duoNumeral(.caption).foregroundStyle(DuoColors.inkMuted)
-            }
-            .padding(.horizontal, 18).padding(.top, 6).padding(.bottom, 10)
+            LearningActivityHeader(progress: Double(index) / Double(max(queue.count, 1)),
+                                   position: "\(index + 1)/\(queue.count)", showsMute: true,
+                                   onClose: exitToReview)
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
@@ -131,48 +139,29 @@ struct MistakeReviewRunnerView: View {
                     QuestionRendererView(question: q, answer: currentAnswer, phase: phase, isCorrect: isCorrect, onChange: { currentAnswer = $0 })
                         .id(q.id)
                 }
-                .padding(20)
+                .learningContent()
             }
         }
-        .safeAreaInset(edge: .bottom) {
+        .safeAreaInset(edge: .bottom, spacing: 0) {
             footer(entry: entry, q: q)
         }
     }
 
     @ViewBuilder
     private func footer(entry: MistakeEntry, q: Question) -> some View {
-        VStack(spacing: 0) {
-            if phase == .checked, let ok = isCorrect {
-                VStack(alignment: .leading, spacing: 6) {
-                    HStack(spacing: 10) {
-                        Image(systemName: ok ? "checkmark.circle.fill" : "xmark.circle.fill")
-                            .font(.system(size: 22, weight: .bold))
-                            .foregroundStyle(ok ? DuoColors.primary : DuoColors.danger)
-                        Text(ok ? "答对了！" : "正确答案：\(MathText.render(q.answer))")
-                            .duoFont(.caption).foregroundStyle(ok ? DuoColors.primary : DuoColors.danger)
-                        Spacer()
-                    }
-                    // content-7：判题后展示解析 + 解析朗读按钮
-                    if !q.explanation.isEmpty {
-                        HStack(alignment: .top, spacing: 8) {
-                            Text(MathText.render(q.explanation)).duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                            SlowTTSButton(path: q.audio?.explanation, size: 14)
-                        }
-                    }
-                }
-                .padding(.horizontal, 20).padding(.top, 12)
+        if phase == .checked, let ok = isCorrect {
+            LearningFeedbackPanel(correct: ok, title: ok ? "答对了！" : "再学会一点", answer: q.answer,
+                                  explanation: q.explanation, audio: q.audio?.explanation,
+                                  buttonTitle: index + 1 >= queue.count ? "完成复习" : "继续",
+                                  onContinue: { advance() })
+        } else {
+            LearningActionDock {
+                Button("检查答案") { check(entry: entry) }
+                    .buttonStyle(ChunkyButtonStyle(currentAnswer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? .disabled : .primary))
+                    .disabled(currentAnswer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                    .accessibilityIdentifier("检查答案")
             }
-            Button {
-                phase == .answering ? check(entry: entry) : advance()
-            } label: {
-                Text(phase == .answering ? "检查" : (index + 1 >= queue.count ? "完成复习" : "下一题"))
-            }
-            .buttonStyle(ChunkyButtonStyle(phase == .answering && currentAnswer.trimmingCharacters(in: .whitespaces).isEmpty ? .disabled : .primary))
-            .disabled(phase == .answering && currentAnswer.trimmingCharacters(in: .whitespaces).isEmpty)
-            .padding(.horizontal, 20).padding(.bottom, 32).padding(.top, 12)
         }
-        .background(DuoColors.bg)
     }
 
     private func check(entry: MistakeEntry) {

@@ -186,28 +186,25 @@ struct OnboardingView: View {
     }
 
     private var footer: some View {
-        VStack(spacing: 10) {
-            if step == 3 {
-                Button(requestingAuth ? "正在开启…" : "开启学习提醒") { requestReminder() }
-                    .buttonStyle(ChunkyButtonStyle(.primary))
-                    .disabled(requestingAuth)
-                    .accessibilityIdentifier("onboarding-notify-yes")
-                Button("暂时不用，开始学习") { finish() }
-                    .buttonStyle(ChunkyButtonStyle(.ghost))
-                    .disabled(requestingAuth)
-                    .accessibilityIdentifier("onboarding-notify-later")
-            } else {
-                Button(step == 0 ? "和聪聪一起出发" : "继续") { advance() }
-                    .buttonStyle(ChunkyButtonStyle(step == 1 && selectedBookId == nil ? .disabled : .primary))
-                    .disabled(step == 1 && selectedBookId == nil)
-                    .accessibilityIdentifier("onboarding-continue")
+        LearningActionDock {
+            VStack(spacing: 10) {
+                if step == 3 {
+                    Button(requestingAuth ? "正在开启…" : "开启学习提醒") { requestReminder() }
+                        .buttonStyle(ChunkyButtonStyle(.primary))
+                        .disabled(requestingAuth)
+                        .accessibilityIdentifier("onboarding-notify-yes")
+                    Button("暂时不用，开始学习") { finish() }
+                        .buttonStyle(ChunkyButtonStyle(.ghost))
+                        .disabled(requestingAuth)
+                        .accessibilityIdentifier("onboarding-notify-later")
+                } else {
+                    Button(step == 0 ? "和聪聪一起出发" : "继续") { advance() }
+                        .buttonStyle(ChunkyButtonStyle(step == 1 && selectedBookId == nil ? .disabled : .primary))
+                        .disabled(step == 1 && selectedBookId == nil)
+                        .accessibilityIdentifier("onboarding-continue")
+                }
             }
         }
-        .frame(maxWidth: LearningLayout.contentWidth - 40)
-        .padding(20)
-        .frame(maxWidth: .infinity)
-        .background(DuoColors.bg)
-        .overlay(alignment: .top) { Divider().overlay(DuoColors.border) }
     }
 
     private func advance() {

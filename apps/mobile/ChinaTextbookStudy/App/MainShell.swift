@@ -21,6 +21,9 @@ struct MainShell: View {
     @State private var showFirstLessonToast = false
     /// 自动进第一课只允许发生一次（iosretention-3），避免任何重复推进。
     @State private var didAutoStartFirstLesson = false
+    #if DEBUG
+    @State private var didPrepareUITestSurface = false
+    #endif
 
     enum SidebarItem: Hashable, Identifiable {
         case home
@@ -51,6 +54,7 @@ struct MainShell: View {
                 compactLayout
             }
         }
+        .task { prepareUITestSurface() }
         // 立刻进第一课 (ios-retention-11): the moment onboarding completes,
         // push the learner straight into lesson one — no empty home screen
         // between "I committed to a goal" and "I'm learning".
@@ -125,7 +129,7 @@ struct MainShell: View {
     private var hideTabBar: Bool {
         guard let last = path.last else { return false }
         switch last {
-        case .lesson, .lessonResult, .reviewRunner, .storyReader, .passageReader, .reading,
+        case .lesson, .lessonResult, .reviewRunner, .storyReader, .passageReader,
              .guide, .jumpTest:
             return true
         default:
@@ -163,6 +167,17 @@ struct MainShell: View {
         .onChange(of: activeTab) { _, _ in
             // Clear navigation stack when switching tabs.
             path.removeAll()
+        }
+        .onChange(of: path) { _, routes in
+            // Result/recovery actions target the actual tab, so the selected
+            // navigation item always describes the screen on display.
+            guard let route = routes.last else { return }
+            switch route {
+            case .profile: activeTab = .profile; path.removeAll()
+            case .shop: activeTab = .shop; path.removeAll()
+            case .review: activeTab = .review; path.removeAll()
+            default: break
+            }
         }
     }
 
@@ -208,6 +223,15 @@ struct MainShell: View {
             }
         }
         .navigationSplitViewStyle(.balanced)
+        .onChange(of: path) { _, routes in
+            guard let route = routes.last else { return }
+            switch route {
+            case .profile: selectedSidebar = .profile; path.removeAll()
+            case .shop: selectedSidebar = .shop; path.removeAll()
+            case .review: selectedSidebar = .review; path.removeAll()
+            default: break
+            }
+        }
     }
 
     // MARK: - Sidebar
@@ -300,6 +324,53 @@ struct MainShell: View {
         case .achievements:
             AchievementsView(progressStore: progressStore)
         }
+    }
+
+    /// Deterministic audit entry points reuse real bundled lessons and store
+    /// operations. They are absent from release builds and never change an
+    /// ordinary user's launch or saved progress.
+    private func prepareUITestSurface() {
+        #if DEBUG
+        let args = ProcessInfo.processInfo.arguments
+        guard args.contains("-uitest"), !didPrepareUITestSurface else { return }
+        didPrepareUITestSurface = true
+        let bookId = progressStore.activeBookId ?? "g1up"
+        if args.contains("-uitest-earned"), let outline = try? DataLoader.shared.loadOutline(bookId: bookId) {
+            // Twelve real lessons reach the first five-lesson chest slot in
+            // the bundled edition, as well as unlocking the league.
+            for meta in outline.pathLessonMetas(bookId: bookId).prefix(12) {
+                if let lesson = try? DataLoader.shared.loadLesson(bookId: bookId, lessonId: meta.id) {
+                    progressStore.completeLesson(lessonId: lesson.id, correctCount: lesson.questions.count, questionCount: lesson.questions.count)
+                }
+            }
+        }
+        guard let flag = args.firstIndex(of: "-uitest-route"), args.indices.contains(flag + 1) else { return }
+        switch args[flag + 1] {
+        case "guide": path = [.guide(bookId: bookId, unitNumber: 1)]
+        case "jump": path = [.jumpTest(bookId: bookId, unitNumber: 2)]
+        case "books": path = [.bookList(grade: 1)]
+        case "book": path = [.bookDetail(bookId: bookId)]
+        case "league": activeTab = .league; selectedSidebar = .league
+        case "review", "review-direct", "result":
+            guard let outline = try? DataLoader.shared.loadOutline(bookId: bookId),
+                  let first = outline.pathLessonMetas(bookId: bookId).first,
+                  let lesson = try? DataLoader.shared.loadLesson(bookId: bookId, lessonId: first.id) else { return }
+            if args[flag + 1].hasPrefix("review"), let question = lesson.questions.first {
+                progressStore.recordMistake(lessonId: lesson.id, lessonTitle: lesson.title, question: question)
+                if args[flag + 1] == "review-direct" {
+                    path = [.reviewRunner]
+                } else {
+                    activeTab = .review
+                    selectedSidebar = .review
+                }
+            } else {
+                let outcome = progressStore.completeLesson(lessonId: lesson.id, correctCount: lesson.questions.count, questionCount: lesson.questions.count)
+                path = [.lessonResult(LessonRunResult(bookId: bookId, lessonId: lesson.id, lessonTitle: lesson.title,
+                                                    questionCount: lesson.questions.count, correctCount: lesson.questions.count, outcome: outcome))]
+            }
+        default: break
+        }
+        #endif
     }
 }
 

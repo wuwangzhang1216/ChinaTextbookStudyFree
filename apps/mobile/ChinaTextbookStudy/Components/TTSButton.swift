@@ -50,7 +50,11 @@ struct MuteToggle: View {
             if settings.isMuted { player.stop() }
         } label: {
             Image(systemName: settings.isMuted ? "speaker.slash.fill" : "speaker.wave.2.fill")
+                .font(.system(size: 20, weight: .semibold))
+                .frame(width: 44, height: 44)
+                .contentShape(Rectangle())
         }
+        .buttonStyle(.plain)
         .accessibilityLabel(settings.isMuted ? "取消静音" : "静音")
         .accessibilityIdentifier("mute-toggle")
     }

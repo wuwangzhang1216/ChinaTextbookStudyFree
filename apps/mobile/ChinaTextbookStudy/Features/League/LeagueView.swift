@@ -25,6 +25,8 @@ struct LeagueView: View {
                 lockedGuide
             }
         }
+        .navigationTitle("排行")
+        .navigationBarTitleDisplayMode(.inline)
         .onAppear {
             progressStore.refreshLeague(now: Date())
             now = Date()
@@ -53,42 +55,43 @@ struct LeagueView: View {
 
     private var lockedGuide: some View {
         let done = min(progressStore.totalCompletedLessons, League.unlockLessons)
-        return VStack(spacing: 18) {
-            Spacer()
+        return LearningCelebrationBody {
+            VStack(spacing: 18) {
+                Spacer()
 
-            ZStack {
-                Circle()
-                    .fill(DuoColors.bee.opacity(0.14))
-                    .frame(width: 130, height: 130)
-                Image(systemName: "trophy.fill")
-                    .font(.system(size: 64, weight: .heavy))
-                    .foregroundStyle(DuoColors.inkSofter)
-            }
+                ZStack {
+                    Circle()
+                        .fill(DuoColors.bee.opacity(0.14))
+                        .frame(width: 130, height: 130)
+                    Image(systemName: "trophy.fill")
+                        .font(.system(size: 64, weight: .heavy))
+                        .foregroundStyle(DuoColors.inkSofter)
+                }
 
-            Text("排行榜还没解锁")
-                .duoFont(.title)
-                .foregroundStyle(DuoColors.ink)
+                Text("排行榜还没解锁")
+                    .duoFont(.title)
+                    .foregroundStyle(DuoColors.ink)
 
-            Text("完成 \(League.unlockLessons) 节课，开启每周挑战。\n和模拟学伴一起，保持自己的学习节奏。")
-                .duoFont(.body)
-                .foregroundStyle(DuoColors.inkMuted)
-                .multilineTextAlignment(.center)
-
-            VStack(spacing: 8) {
-                StyledProgressBar(
-                    progress: Double(done) / Double(League.unlockLessons),
-                    height: 16,
-                    trackColor: DuoColors.surfaceAlt
-                )
-                Text("已完成 \(done) / \(League.unlockLessons) 节课")
-                    .duoFont(.caption)
+                Text("完成 \(League.unlockLessons) 节课，开启每周挑战。\n和模拟学伴一起，保持自己的学习节奏。")
+                    .duoFont(.body)
                     .foregroundStyle(DuoColors.inkMuted)
-                    .monospacedDigit()
-            }
-            .padding(.horizontal, 48)
+                    .multilineTextAlignment(.center)
 
-            Spacer()
-            Spacer()
+                VStack(spacing: 8) {
+                    StyledProgressBar(
+                        progress: Double(done) / Double(League.unlockLessons),
+                        height: 16,
+                        trackColor: DuoColors.surfaceAlt
+                    )
+                    Text("已完成 \(done) / \(League.unlockLessons) 节课")
+                        .duoFont(.caption)
+                        .foregroundStyle(DuoColors.inkMuted)
+                        .monospacedDigit()
+                }
+                .padding(.horizontal, 48)
+
+                Spacer()
+            }
         }
         .accessibilityIdentifier("league-locked")
     }
@@ -338,7 +341,8 @@ struct LeagueResultView: View {
                 .ignoresSafeArea()
                 .allowsHitTesting(false)
 
-            VStack(spacing: 18) {
+            LearningCelebrationBody {
+              VStack(spacing: 18) {
                 Spacer()
 
                 MascotView(mood: mascotMood, size: 100, reactTo: result.promoted ? .levelup : .correct)
@@ -346,10 +350,9 @@ struct LeagueResultView: View {
                 Image(systemName: "trophy.fill")
                     .font(.system(size: 72, weight: .heavy))
                     .foregroundStyle(Color(hex: tierAfter.colorHex))
-                    .shadow(color: Color(hex: tierAfter.colorHex).opacity(0.55), radius: 18)
 
                 Text(headline)
-                    .font(.system(size: 30, weight: .black))
+                    .duoFont(.title)
                     .foregroundStyle(DuoColors.ink)
 
                 Text("上周你在「\(tierBefore.name)」拿到第 \(result.rank) 名")
@@ -398,10 +401,12 @@ struct LeagueResultView: View {
 
                 Spacer()
 
-                Button("继续加油！") { onDismiss() }
-                    .buttonStyle(ChunkyButtonStyle(.primary))
-                    .padding(.horizontal, 24)
-                    .padding(.bottom, 28)
+              }
+            }
+        }
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                Button("继续加油！") { onDismiss() }.buttonStyle(ChunkyButtonStyle(.primary))
                     .accessibilityIdentifier("league-result-continue")
             }
         }

@@ -72,6 +72,7 @@ private struct ChoiceQuestionView: View {
                 .buttonStyle(OptionCardButtonStyle(state: state))
                 .disabled(phase == .checked)
                 .modifier(ShakeEffect(animatableData: CGFloat(state == .wrong ? shakeTrigger : 0)))
+                .accessibilityIdentifier("answer-option-\(letter)")
                 .accessibilityAddTraits(isSelected ? .isSelected : [])
                 .accessibilityValue(optionA11yValue(for: state))
             }

@@ -1,7 +1,7 @@
 import SwiftUI
 
 /// Circular progress ring for daily XP goal — ported from `DailyGoalRing.tsx`.
-/// Green gradient while in progress, gold gradient when complete.
+/// Solid green while in progress, gold when complete.
 struct DailyGoalRingView: View {
     @ObservedObject var progressStore: ProgressStore
     var size: CGFloat = 72
@@ -30,19 +30,10 @@ struct DailyGoalRingView: View {
                 Circle()
                     .trim(from: 0, to: progress)
                     .stroke(
-                        AngularGradient(
-                            colors: isComplete
-                                ? [Color(hex: 0xFFE066), Color(hex: 0xFFB300)]
-                                : [Color(hex: 0x76E32A), Color(hex: 0x3FA800)],
-                            center: .center
-                        ),
+                        isComplete ? DuoColors.bee : DuoColors.primary,
                         style: StrokeStyle(lineWidth: lineWidth, lineCap: .round)
                     )
                     .rotationEffect(.degrees(-90))
-                    .shadow(
-                        color: (isComplete ? DuoColors.bee : DuoColors.primary).opacity(isComplete ? 0.55 : 0.25),
-                        radius: 4
-                    )
                     .animation(.spring(response: 0.5, dampingFraction: 0.7), value: progress)
 
                 // Center content
@@ -66,9 +57,11 @@ struct DailyGoalRingView: View {
             .frame(width: size, height: size)
         }
         .buttonStyle(.plain)
+        .accessibilityLabel("每日目标，今天 \(progressStore.todayXp) / \(progressStore.dailyGoal) 经验")
+        .accessibilityIdentifier("daily-goal")
         .sheet(isPresented: $showGoalSheet) {
             goalAdjustSheet
-                .presentationDetents([.medium])
+                .presentationDetents([.medium, .large])
                 .presentationDragIndicator(.visible)
         }
     }
@@ -77,46 +70,37 @@ struct DailyGoalRingView: View {
 
     @ViewBuilder
     private var goalAdjustSheet: some View {
-        VStack(spacing: 20) {
-            Text("每日目标").font(.title2.weight(.heavy)).foregroundStyle(DuoColors.ink)
-            Text("选择你的每日 XP 目标")
-                .font(.subheadline)
-                .foregroundStyle(DuoColors.inkLight)
-
-            // 档位与 Economy.dailyGoalOptions 一致；老用户已选的历史值（如 500）
-            // 不会被改写，只是不再出现在选项里。
-            LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))], spacing: 12) {
-                ForEach(Economy.dailyGoalOptions, id: \.self) { goal in
-                    let isSelected = progressStore.dailyGoal == goal
-                    Button {
-                        progressStore.setDailyGoal(goal)
-                        showGoalSheet = false
-                    } label: {
-                        VStack(spacing: 4) {
-                            Text("\(goal)")
-                                .font(.title2.weight(.heavy))
-                            Text("XP")
-                                .font(.caption.weight(.bold))
-                        }
-                        .foregroundStyle(isSelected ? .white : DuoColors.ink)
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 16)
-                        .background(
-                            isSelected ? DuoColors.primary : DuoColors.bgSofter,
-                            in: .rect(cornerRadius: 14)
-                        )
-                        .overlay {
-                            if !isSelected {
-                                RoundedRectangle(cornerRadius: 14)
-                                    .strokeBorder(DuoColors.bgSofter, lineWidth: 2)
+        ScrollView {
+            VStack(spacing: 20) {
+                Text("每日目标").duoFont(.heading).foregroundStyle(DuoColors.ink)
+                Text("选择你的每日 XP 目标").duoFont(.body).foregroundStyle(DuoColors.inkMuted)
+                LazyVGrid(columns: [GridItem(.adaptive(minimum: 100))], spacing: 12) {
+                    ForEach(Economy.dailyGoalOptions, id: \.self) { goal in
+                        let selected = progressStore.dailyGoal == goal
+                        Button {
+                            progressStore.setDailyGoal(goal); showGoalSheet = false
+                        } label: {
+                            VStack(spacing: 4) {
+                                Text("\(goal)").duoNumeral(.heading)
+                                Text("XP").duoFont(.caption)
                             }
+                            .foregroundStyle(selected ? DuoColors.linkInk : DuoColors.ink)
+                            .frame(maxWidth: .infinity).padding(.vertical, 16)
+                            .background(selected ? DuoColors.selectedFill : DuoColors.surface, in: RoundedRectangle(cornerRadius: Radius.card))
+                            .overlay { RoundedRectangle(cornerRadius: Radius.card).strokeBorder(selected ? DuoColors.selectedBorder : DuoColors.border, lineWidth: 2) }
                         }
+                        .buttonStyle(.plain).accessibilityAddTraits(selected ? [.isSelected] : [])
+                        .accessibilityIdentifier("daily-goal-option-\(goal)")
                     }
-                    .buttonStyle(.plain)
                 }
-            }
-            .padding(.horizontal)
+            }.learningContent()
         }
-        .padding(24)
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                Button("完成") { showGoalSheet = false }.buttonStyle(ChunkyButtonStyle(.primary))
+                    .accessibilityIdentifier("dock-dismiss")
+            }
+        }
+        .background(DuoColors.bg)
     }
 }

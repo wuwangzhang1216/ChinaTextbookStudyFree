@@ -30,7 +30,7 @@ struct AchievementsView: View {
                     familyCard(family)
                 }
             }
-            .padding(20)
+            .learningContent()
         }
         .background(DuoColors.bg.ignoresSafeArea())
         .navigationTitle("成就墙")
@@ -42,38 +42,24 @@ struct AchievementsView: View {
 
     /// 领取成就后的分享小卡：预览 + ShareLink + 关闭。
     private func shareMomentSheet(_ moment: ShareMoment) -> some View {
-        VStack(spacing: 16) {
-            Text("成就到手！晒一晒？")
-                .duoFont(.heading)
-                .foregroundStyle(DuoColors.ink)
-                .padding(.top, 20)
-
-            Image(uiImage: moment.image)
-                .resizable()
-                .scaledToFit()
-                .frame(maxHeight: 300)
-                .clipShape(RoundedRectangle(cornerRadius: Radius.card))
-                .overlay {
-                    RoundedRectangle(cornerRadius: Radius.card)
-                        .strokeBorder(DuoColors.border, lineWidth: 2)
-                }
-
-            ShareCardLink(
-                image: moment.image,
-                filename: "成就-\(moment.name).png",
-                previewTitle: "成就「\(moment.name)」",
-                label: "分享成就卡"
-            )
-
-            Button("先不啦") { shareMoment = nil }
-                .buttonStyle(ChunkyButtonStyle(.ghost))
-                .padding(.horizontal, 20)
-                .padding(.bottom, 16)
+        ScrollView {
+            VStack(spacing: 16) {
+                Text("成就到手！晒一晒？").duoFont(.heading).foregroundStyle(DuoColors.ink)
+                Image(uiImage: moment.image).resizable().scaledToFit().frame(maxHeight: 300)
+                    .clipShape(RoundedRectangle(cornerRadius: Radius.card))
+            }.learningContent()
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                VStack(spacing: 10) {
+                    ShareCardLink(image: moment.image, filename: "成就-\(moment.name).png", previewTitle: "成就「\(moment.name)」", label: "分享成就卡")
+                    Button("先不啦") { shareMoment = nil }.buttonStyle(ChunkyButtonStyle(.ghost))
+                        .accessibilityIdentifier("achievement-share-dismiss")
+                }
+            }
+        }
         .background(DuoColors.bg)
-        .presentationDetents([.height(520)])
-        .presentationDragIndicator(.visible)
+        .presentationDetents([.large]).presentationDragIndicator(.visible)
     }
 
     // MARK: - Summary
@@ -188,7 +174,6 @@ struct AchievementsView: View {
             RoundedRectangle(cornerRadius: Radius.card)
                 .strokeBorder(claimable != nil ? tint : DuoColors.border, lineWidth: 2)
         }
-        .accessibilityIdentifier("ach-family-\(family.id)")
     }
 
     /// One pip per tier — filled in the family tint once that tier is earned.

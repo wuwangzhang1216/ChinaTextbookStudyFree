@@ -27,10 +27,7 @@ struct ChestModalView: View {
 
     var body: some View {
         ZStack {
-            Color.black.opacity(0.4)
-                .ignoresSafeArea()
-                .onTapGesture { if showResult { onDismiss() } }
-
+            LearningDialog(preferredHeight: 420, onDismiss: { if showResult { onDismiss() } }) {
             VStack(spacing: 20) {
                 // 宝箱始终是同一个视图，openAmount 从 0 → 1 时盖子真的翻开。
                 ZStack {
@@ -66,15 +63,8 @@ struct ChestModalView: View {
 
                 if !opened {
                     Text("点击打开宝箱！")
-                        .font(.headline.weight(.heavy))
+                        .duoFont(.heading)
                         .foregroundStyle(DuoColors.ink)
-
-                    Button("打开") {
-                        openChest()
-                    }
-                    .buttonStyle(ChunkyButtonStyle(.primary))
-                    .padding(.horizontal, 40)
-                    .accessibilityIdentifier("chest-open")
 
                 } else {
                     if showResult {
@@ -94,33 +84,24 @@ struct ChestModalView: View {
                                     .font(.system(size: 30))
                                     .foregroundStyle(DuoColors.beetle)
                                 Text("+\(gemAmount) 宝石")
-                                    .font(.title.weight(.heavy))
+                                    .duoNumeral(.title)
                                     .foregroundStyle(DuoColors.beetle)
                             }
                         }
-
-                        Button("收下") {
-                            onDismiss()
-                        }
-                        .buttonStyle(ChunkyButtonStyle(.primary))
-                        .padding(.horizontal, 40)
-                        .accessibilityIdentifier("chest-claim")
                     }
                 }
             }
-            .padding(32)
-            .background(DuoColors.surface, in: .rect(cornerRadius: Radius.large))
-            .overlay {
-                RoundedRectangle(cornerRadius: Radius.large)
-                    .strokeBorder(DuoColors.border, lineWidth: 2)
+            } actions: {
+                if !opened {
+                    Button("打开") { openChest() }.buttonStyle(ChunkyButtonStyle(.primary)).accessibilityIdentifier("chest-open")
+                } else if showResult {
+                    Button("收下", action: onDismiss).buttonStyle(ChunkyButtonStyle(.primary)).accessibilityIdentifier("chest-claim")
+                } else {
+                    ProgressView().frame(height: 54).tint(DuoColors.primary)
+                }
             }
-            .padding(.horizontal, 40)
-
-            // epic：全屏礼花余韵更长。
             if confettiActive {
-                ConfettiView(active: true, burstDuration: 0.9)
-                    .ignoresSafeArea()
-                    .allowsHitTesting(false)
+                ConfettiView(active: true, burstDuration: 0.9).ignoresSafeArea().allowsHitTesting(false)
             }
         }
     }

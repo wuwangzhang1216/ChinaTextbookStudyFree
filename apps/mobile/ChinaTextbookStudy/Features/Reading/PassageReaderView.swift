@@ -259,12 +259,7 @@ struct PassageReaderView: View {
                 .learningContent()
             }
             .safeAreaInset(edge: .bottom, spacing: 0) {
-                completionButton(passage)
-                    .frame(maxWidth: LearningLayout.contentWidth - 40)
-                    .padding(.horizontal, 20).padding(.vertical, 12)
-                    .frame(maxWidth: .infinity)
-                    .background(DuoColors.bg)
-                    .overlay(alignment: .top) { Divider() }
+                LearningActionDock { completionButton(passage) }
             }
             .onChange(of: audioPlayer.nowPlayingIndex) { _, idx in
                 if let idx, idx < passage.sentences.count {
@@ -537,6 +532,8 @@ struct SlowTTSButton: View {
                             Text("🐢").font(.system(size: size * 0.6)).offset(x: 3, y: 3)
                         }
                     }
+                    .frame(minWidth: 44, minHeight: 44)
+                    .contentShape(Rectangle())
             }
             .simultaneousGesture(LongPressGesture(minimumDuration: 0.45).onEnded { _ in
                 player.isSlowMode.toggle()
@@ -572,6 +569,8 @@ struct SlowModeBadge: View {
             .overlay {
                 Capsule().strokeBorder(player.isSlowMode ? DuoColors.primary.opacity(0.5) : DuoColors.border, lineWidth: 1.5)
             }
+            .frame(minHeight: 44)
+            .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
         .accessibilityLabel(player.isSlowMode ? "关闭慢速朗读" : "开启慢速朗读")

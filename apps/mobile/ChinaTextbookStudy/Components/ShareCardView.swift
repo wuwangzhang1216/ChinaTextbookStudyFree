@@ -4,7 +4,7 @@ import UniformTypeIdentifiers
 /// 分享卡（Wave E2）—— 纯本地渲染，ImageRenderer 出图 + ShareLink 分享。
 ///
 /// 两款版式：
-///   1. 连胜卡：品牌绿底 + 聪聪 + 大火焰数字 + 本周 7 格日历 + slogan；
+///   1. 连胜卡：白底亮色 + 聪聪 + 大火焰数字 + 本周 7 格日历 + slogan；
 ///   2. 成就 / 三星卡：徽章 + 课程名 / 成就名。
 ///
 /// 挂点：连胜里程碑庆祝层、结算三星幕、成就领取时刻。
@@ -86,20 +86,14 @@ struct ShareCardLink: View {
                 Text(label)
                     .duoFont(.caption)
             }
-            .foregroundStyle(DuoColors.primary)
-            .padding(.horizontal, 16)
-            .padding(.vertical, 9)
-            .background(DuoColors.primary.opacity(0.12), in: .capsule)
-            .overlay {
-                Capsule().strokeBorder(DuoColors.primary.opacity(0.4), lineWidth: 2)
-            }
         }
+        .buttonStyle(ChunkyButtonStyle(.ghost))
         .accessibilityIdentifier("share-card-link")
     }
 }
 
 // ============================================================
-// 版式 1：连胜卡（品牌绿底）
+// 版式 1：连胜卡（白底亮色）
 // ============================================================
 
 struct StreakShareCardView: View {
@@ -115,11 +109,7 @@ struct StreakShareCardView: View {
 
     var body: some View {
         ZStack {
-            LinearGradient(
-                colors: [DuoColors.feather, DuoColors.treeFrog],
-                startPoint: .top,
-                endPoint: .bottom
-            )
+            DuoColors.snow
 
             VStack(spacing: 14) {
                 MascotView(mood: .cheer, size: 96)
@@ -130,14 +120,14 @@ struct StreakShareCardView: View {
                         .font(.system(size: 52, weight: .heavy))
                         .foregroundStyle(DuoColors.bee)
                     Text("\(data.streak)")
-                        .font(.system(size: 88, weight: .black, design: .rounded))
-                        .foregroundStyle(.white)
+                        .font(.system(size: 88, weight: .bold, design: .rounded))
+                        .foregroundStyle(DuoColors.eel)
                         .monospacedDigit()
                 }
 
                 Text("天连胜！")
-                    .font(.system(size: 26, weight: .heavy, design: .rounded))
-                    .foregroundStyle(.white)
+                    .font(.system(size: 26, weight: .bold, design: .rounded))
+                    .foregroundStyle(DuoColors.eel)
 
                 // 本周 7 格日历
                 HStack(spacing: 8) {
@@ -145,11 +135,11 @@ struct StreakShareCardView: View {
                         let isToday = i == data.todayIndex
                         VStack(spacing: 5) {
                             Text(isToday ? "今" : weekdayLabel(day.dateKey))
-                                .font(.system(size: 11, weight: .heavy, design: .rounded))
-                                .foregroundStyle(.white.opacity(0.85))
+                                .font(.system(size: 11, weight: .bold, design: .rounded))
+                                .foregroundStyle(DuoColors.wolf)
                             ZStack {
                                 Circle()
-                                    .fill(day.studied ? DuoColors.bee : .white.opacity(0.22))
+                                    .fill(day.studied ? DuoColors.fox : DuoColors.swan)
                                     .frame(width: 30, height: 30)
                                 if day.studied {
                                     Image(systemName: "flame.fill")
@@ -162,13 +152,13 @@ struct StreakShareCardView: View {
                 }
                 .padding(.horizontal, 14)
                 .padding(.vertical, 12)
-                .background(.white.opacity(0.12), in: .rect(cornerRadius: 16))
+                .background(DuoColors.polar, in: .rect(cornerRadius: 16))
 
                 Spacer()
 
                 Text(ShareCard.slogan)
-                    .font(.system(size: 14, weight: .heavy, design: .rounded))
-                    .foregroundStyle(.white.opacity(0.9))
+                    .font(.system(size: 14, weight: .bold, design: .rounded))
+                    .foregroundStyle(DuoColors.wolf)
                     .padding(.bottom, 22)
             }
             .padding(.horizontal, 24)
@@ -186,11 +176,7 @@ struct BadgeShareCardView: View {
 
     var body: some View {
         ZStack {
-            LinearGradient(
-                colors: [Color(hex: 0x131F24), Color(hex: 0x202F36)],
-                startPoint: .top,
-                endPoint: .bottom
-            )
+            DuoColors.snow
 
             VStack(spacing: 16) {
                 MascotView(mood: .proud, size: 84)
@@ -198,10 +184,10 @@ struct BadgeShareCardView: View {
 
                 ZStack {
                     Circle()
-                        .fill(data.tint.opacity(0.22))
+                        .fill(data.tint.opacity(0.14))
                         .frame(width: 116, height: 116)
                     Circle()
-                        .strokeBorder(data.tint, lineWidth: 4)
+                        .strokeBorder(data.tint, lineWidth: 2)
                         .frame(width: 116, height: 116)
                     Image(systemName: data.icon)
                         .font(.system(size: 52, weight: .heavy))
@@ -209,11 +195,11 @@ struct BadgeShareCardView: View {
                 }
 
                 Text(data.headline)
-                    .font(.system(size: 26, weight: .black, design: .rounded))
-                    .foregroundStyle(.white)
+                    .font(.system(size: 26, weight: .bold, design: .rounded))
+                    .foregroundStyle(DuoColors.eel)
 
                 Text(data.title)
-                    .font(.system(size: 18, weight: .heavy, design: .rounded))
+                    .font(.system(size: 18, weight: .bold, design: .rounded))
                     .foregroundStyle(data.tint)
                     .multilineTextAlignment(.center)
                     .lineLimit(2)
@@ -221,7 +207,7 @@ struct BadgeShareCardView: View {
 
                 Text(data.subtitle)
                     .font(.system(size: 14, weight: .bold, design: .rounded))
-                    .foregroundStyle(.white.opacity(0.75))
+                    .foregroundStyle(DuoColors.wolf)
                     .multilineTextAlignment(.center)
                     .lineLimit(2)
                     .padding(.horizontal, 28)
@@ -229,8 +215,8 @@ struct BadgeShareCardView: View {
                 Spacer()
 
                 Text(ShareCard.slogan)
-                    .font(.system(size: 14, weight: .heavy, design: .rounded))
-                    .foregroundStyle(.white.opacity(0.8))
+                    .font(.system(size: 14, weight: .bold, design: .rounded))
+                    .foregroundStyle(DuoColors.wolf)
                     .padding(.bottom, 22)
             }
             .padding(.horizontal, 24)

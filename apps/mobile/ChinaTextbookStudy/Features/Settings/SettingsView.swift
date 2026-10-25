@@ -37,9 +37,7 @@ struct SettingsView: View {
                 dataSection
                 aboutSection
             }
-            .padding(20)
-            // Reserve space for the floating tab bar (see ProfileView note).
-            .padding(.bottom, 84)
+            .learningContent()
         }
         .background(DuoColors.bg.ignoresSafeArea())
         .navigationTitle("设置")
@@ -545,12 +543,15 @@ struct ReportsListSheet: View {
                 }
             }
 
-            Button("知道了") { dismiss() }
-                .buttonStyle(ChunkyButtonStyle(.primary))
-                .padding(.bottom, 20)
         }
         .padding(.horizontal, 20)
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                Button("知道了") { dismiss() }.buttonStyle(ChunkyButtonStyle(.primary))
+                    .accessibilityIdentifier("dock-dismiss")
+            }
+        }
         .background(DuoColors.bg)
         .presentationDetents([.medium, .large])
         .presentationDragIndicator(.visible)

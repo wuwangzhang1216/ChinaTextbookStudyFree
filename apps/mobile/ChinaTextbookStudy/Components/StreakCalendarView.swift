@@ -4,8 +4,8 @@ import SwiftUI
 ///
 /// 通用组件：结算页的全屏连胜幕和首页的连胜详情弹层共用，数据来自
 /// `ProgressStore.weekXPEntries()`——**日历周，周一 → 周日**（parity-6），
-/// 所以「今天」可能落在任意一格，绝不是「最后一格」。设计基于深色底
-/// （darkBg / 全屏遮罩）——两处调用场景都是深色环境。
+/// 所以「今天」可能落在任意一格，绝不是「最后一格」。使用自适应颜色与
+/// 等宽日期格，小屏幕上缩小圆点，保持一周七天完整可见。
 ///
 /// - `entries`: 本周 7 天（周一 → 周日），`studied` = 当天有任意学习活动（XP > 0）。
 /// - `todayIndex`: 今天在这 7 格里的下标（周一=0 … 周日=6），
@@ -32,17 +32,23 @@ struct StreakCalendarView: View {
     }
 
     var body: some View {
-        HStack(spacing: 8) {
-            ForEach(entries.indices, id: \.self) { i in
-                dayCell(at: i)
+        GeometryReader { geometry in
+            let count = max(1, entries.count)
+            let diameter = min(42, max(0, (geometry.size.width - CGFloat(count - 1) * 4) / CGFloat(count)))
+            HStack(spacing: 4) {
+                ForEach(entries.indices, id: \.self) { i in
+                    dayCell(at: i, diameter: diameter)
+                }
             }
         }
+        .frame(height: 66)
         .accessibilityElement(children: .combine)
         .accessibilityLabel("本周学习日历")
+        .accessibilityIdentifier("streak-calendar")
     }
 
     @ViewBuilder
-    private func dayCell(at index: Int) -> some View {
+    private func dayCell(at index: Int, diameter: CGFloat) -> some View {
         let entry = entries[index]
         let isToday = index == todayIndex
         let lit = isToday ? todayStudied : entry.studied
@@ -55,7 +61,7 @@ struct StreakCalendarView: View {
             ZStack {
                 Circle()
                     .fill(lit ? DuoColors.fox : DuoColors.darkSurfaceAlt)
-                    .frame(width: 34, height: 34)
+                    .frame(width: max(0, diameter - 8), height: max(0, diameter - 8))
                 if lit {
                     Image(systemName: "flame.fill")
                         .font(.system(size: 15, weight: .heavy))
@@ -70,10 +76,10 @@ struct StreakCalendarView: View {
                 if isToday {
                     Circle()
                         .strokeBorder(DuoColors.fox, lineWidth: 2)
-                        .frame(width: 42, height: 42)
+                        .frame(width: diameter, height: diameter)
                 }
             }
-            .frame(width: 42, height: 42)
+            .frame(width: diameter, height: diameter)
         }
         .frame(maxWidth: .infinity)
     }

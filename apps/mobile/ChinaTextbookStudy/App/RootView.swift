@@ -117,7 +117,7 @@ struct RootView: View {
         didConfigureNavBar = true
 
         func roundedHeavy(size: CGFloat) -> UIFont {
-            let base = UIFont.systemFont(ofSize: size, weight: .heavy)
+            let base = UIFont.systemFont(ofSize: size, weight: .bold)
             guard let descriptor = base.fontDescriptor.withDesign(.rounded) else { return base }
             return UIFont(descriptor: descriptor, size: size)
         }
@@ -196,48 +196,21 @@ private struct CloudRestorePrompt: View {
     }
 
     var body: some View {
-        ZStack {
-            Color.black.opacity(0.55).ignoresSafeArea()
-
-            VStack(spacing: 14) {
-                Image(systemName: "icloud.fill")
-                    .font(.system(size: 44, weight: .heavy))
-                    .foregroundStyle(DuoColors.secondary)
-
-                Text("发现 iCloud 备份")
-                    .duoFont(.title)
-                    .foregroundStyle(DuoColors.ink)
-
-                Text("这台设备是新的，但云端有你之前的学习进度：")
-                    .duoFont(.caption)
-                    .foregroundStyle(DuoColors.inkMuted)
-                    .multilineTextAlignment(.center)
-
-                Text(summary)
-                    .duoFont(.subhead)
-                    .foregroundStyle(DuoColors.primary)
-                    .padding(.horizontal, 16)
-                    .padding(.vertical, 8)
-                    .background(DuoColors.primary.opacity(0.12), in: .capsule)
-
-                VStack(spacing: 10) {
-                    Button("恢复进度") { onRestore() }
-                        .buttonStyle(ChunkyButtonStyle(.primary))
-                        .accessibilityIdentifier("cloud-restore-accept")
-                    Button("从头开始") { onDecline() }
-                        .buttonStyle(ChunkyButtonStyle(.ghost))
-                        .accessibilityIdentifier("cloud-restore-decline")
-                }
-                .padding(.top, 4)
+        LearningDialog {
+            VStack(spacing: 16) {
+                Image(systemName: "icloud.fill").font(.system(size: 44, weight: .bold)).foregroundStyle(DuoColors.secondary)
+                Text("发现 iCloud 备份").duoFont(.title).foregroundStyle(DuoColors.ink)
+                Text("这台设备是新的，但云端有你之前的学习进度。")
+                    .duoFont(.body).foregroundStyle(DuoColors.inkMuted)
+                Text(summary).duoFont(.subhead).foregroundStyle(DuoColors.linkInk)
+            }.multilineTextAlignment(.center)
+        } actions: {
+            VStack(spacing: 10) {
+                Button("恢复进度", action: onRestore).buttonStyle(ChunkyButtonStyle(.primary))
+                    .accessibilityIdentifier("cloud-restore-accept")
+                Button("从头开始", action: onDecline).buttonStyle(ChunkyButtonStyle(.ghost))
+                    .accessibilityIdentifier("cloud-restore-decline")
             }
-            .padding(24)
-            .frame(maxWidth: 340)
-            .background(DuoColors.surface, in: .rect(cornerRadius: Radius.large))
-            .overlay {
-                RoundedRectangle(cornerRadius: Radius.large)
-                    .strokeBorder(DuoColors.border, lineWidth: 2)
-            }
-            .padding(28)
         }
     }
 }
@@ -249,10 +222,14 @@ struct BookListView: View {
     let siteIndex: SiteIndex
     @Binding var path: [AppRoute]
 
+    @State private var includeLegacy = false
+
     var body: some View {
         ScrollView {
-            VStack(spacing: 12) {
-                ForEach(siteIndex.books.filter { $0.grade == grade }, id: \.id) { book in
+            VStack(spacing: 16) {
+                LearningSectionTitle(title: "挑一本课本，开始探索", detail: "优先展示当前教材，旧版进度继续保留。")
+                Toggle("显示旧版教材", isOn: $includeLegacy).duoFont(.caption).tint(DuoColors.primary)
+                ForEach(siteIndex.books.filter { $0.grade == grade && (includeLegacy || $0.supersededBy == nil) }, id: \.id) { book in
                     Button {
                         HapticEngine.shared.tap()
                         path.append(.bookDetail(bookId: book.id))
@@ -262,8 +239,7 @@ struct BookListView: View {
                     .buttonStyle(.plain)
                 }
             }
-            .padding(.horizontal, 16)
-            .padding(.vertical, 16)
+            .learningContent()
         }
         .background(DuoColors.bg.ignoresSafeArea())
         .navigationTitle("\(grade) 年级")
@@ -283,7 +259,7 @@ struct BookListView: View {
                             .stroke(Color.black.opacity(0.25), lineWidth: 2)
                     }
                 Text(cfg.label)
-                    .duoFont(.subhead, weight: .black)
+                    .duoFont(.subhead)
                     .minimumScaleFactor(0.6)   // XXL 档在固定贴纸里自动收缩
                     .foregroundStyle(.white)
                     .padding(.horizontal, 2)

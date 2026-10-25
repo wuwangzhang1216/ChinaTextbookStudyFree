@@ -733,7 +733,7 @@ struct PathMapView: View {
                         Image(systemName: "list.bullet.rectangle.portrait.fill")
                             .font(.system(size: 16, weight: .bold))
                             .foregroundStyle(.white)
-                            .frame(width: 36, height: 32)
+                            .frame(width: 44, height: 44)
                             .contentShape(Rectangle())
                     }
                     .buttonStyle(.plain)

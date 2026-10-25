@@ -1,0 +1,1344 @@
+{
+  "date": "2026-10-25",
+  "branch": "codex/ios-ux-upgrade",
+  "acceptedStyleCommit": "ead3f40",
+  "xcode": "26.5 (17F42)",
+  "simulatorOS": "26.5",
+  "visualContract": {
+    "primary": "#58CC02",
+    "primaryLabel": "#FFFFFF",
+    "primaryLedge": "#58A700",
+    "canvas": "#FFFFFF",
+    "selection": "#DDF4FF",
+    "correct": "#D7FFB8",
+    "wrong": "#FFDFE0",
+    "borderPoints": 2,
+    "primaryCornerPoints": 12,
+    "primaryDepthPoints": 4,
+    "minimumControlTargetPoints": 44,
+    "maximumReadingWidthPoints": 680
+  },
+  "sharedCompositions": [
+    "LearningActionDock",
+    "LearningCelebrationBody",
+    "LearningDialog",
+    "LearningActivityHeader",
+    "LearningFeedbackPanel",
+    "ChunkyButtonStyle",
+    "OptionCardButtonStyle",
+    "BottomTabBar"
+  ],
+  "fixes": [
+    "Libraries keep the same bottom navigation policy; active readers hide it.",
+    "Result actions target the real profile/review/shop tab rather than a duplicate pushed root. Review exits also return to the review tab after entering directly from a lesson result.",
+    "Pinned actions respect the keyboard, content insets and home indicator.",
+    "Dialogs block underlying navigation and actions.",
+    "Seven calendar columns adapt to the available width on small screens.",
+    "Sharing cards use the accepted light palette; purchase/sharing previews show their complete contents.",
+    "One heart sheet serves the home and book paths."
+  ],
+  "pages": [
+    {
+      "name": "学习首页",
+      "view": "HomeView",
+      "screenshot": "../ios-20261025/home.png"
+    },
+    {
+      "name": "排行榜",
+      "view": "LeagueView",
+      "screenshot": "pro-league-unlocked.png"
+    },
+    {
+      "name": "错题本",
+      "view": "ReviewView",
+      "screenshot": "../ios-20261025/review.png"
+    },
+    {
+      "name": "商店",
+      "view": "ShopView",
+      "screenshot": "../ios-20261025/shop.png"
+    },
+    {
+      "name": "我的",
+      "view": "ProfileView",
+      "screenshot": "../ios-20261025/profile.png"
+    },
+    {
+      "name": "设置",
+      "view": "SettingsView",
+      "screenshot": "pro-settings.png"
+    },
+    {
+      "name": "成就墙",
+      "view": "AchievementsView",
+      "screenshot": "pro-achievements.png"
+    },
+    {
+      "name": "年级课本库",
+      "view": "BookListView",
+      "screenshot": "pro-book-catalogue.png"
+    },
+    {
+      "name": "课本路线",
+      "view": "BookDetailView",
+      "screenshot": "pro-book-path.png"
+    },
+    {
+      "name": "课程讲解",
+      "view": "IntroCardView",
+      "screenshot": "pro-02b-knowledge-intro.png"
+    },
+    {
+      "name": "课堂答题",
+      "view": "LessonRunnerView",
+      "screenshot": "../ios-20261025/question.png"
+    },
+    {
+      "name": "课堂结算",
+      "view": "LessonResultView",
+      "screenshot": "pro-lesson-result-1.png"
+    },
+    {
+      "name": "知识手册",
+      "view": "UnitGuideView",
+      "screenshot": "pro-guide-first.png"
+    },
+    {
+      "name": "跳级测试",
+      "view": "JumpTestView",
+      "screenshot": "pro-jump-briefing.png"
+    },
+    {
+      "name": "错题复习",
+      "view": "MistakeReviewRunnerView",
+      "screenshot": "pro-review-feedback.png"
+    },
+    {
+      "name": "课文库",
+      "view": "PassageListView",
+      "screenshot": "../ios-20261025/reading-list.png"
+    },
+    {
+      "name": "课文阅读",
+      "view": "PassageReaderView",
+      "screenshot": "../ios-20261025/reader.png"
+    },
+    {
+      "name": "故事库",
+      "view": "StoryListView",
+      "screenshot": "../ios-20261025/stories.png"
+    },
+    {
+      "name": "故事阅读与答题",
+      "view": "StoryReaderView",
+      "screenshot": "pro-story-feedback.png"
+    },
+    {
+      "name": "新手引导",
+      "view": "OnboardingView",
+      "screenshot": "../ios-20261025/onboarding.png"
+    }
+  ],
+  "dialogs": {
+    "nativeScreenshots": [
+      "连胜",
+      "宝石",
+      "红心",
+      "每日目标",
+      "换课本",
+      "装扮预览",
+      "成就分享",
+      "宝箱",
+      "退出确认",
+      "改名与键盘",
+      "课堂设置",
+      "题目反馈",
+      "反馈记录",
+      "缺心预拦截"
+    ],
+    "sharedLayoutSourceReviewed": [
+      "断心恢复",
+      "课程会话恢复",
+      "每日登录礼物",
+      "iCloud 恢复",
+      "跳级成功与失败",
+      "护盾与里程碑结算"
+    ]
+  },
+  "tests": {
+    "runs": [
+      {
+        "run": "pro3",
+        "device": "iPhone 17 Pro",
+        "result": "Failed",
+        "passed": 246,
+        "failed": 1,
+        "skipped": 0,
+        "startedAt": 1792968998.793,
+        "finishedAt": 1792969540.729
+      },
+      {
+        "run": "pro-final",
+        "device": "iPhone 17 Pro",
+        "result": "Passed",
+        "passed": 231,
+        "failed": 0,
+        "skipped": 0,
+        "startedAt": 1792969593.267,
+        "finishedAt": 1792969863.436
+      },
+      {
+        "run": "units-final",
+        "device": "iPhone 17 Pro",
+        "result": "Passed",
+        "passed": 212,
+        "failed": 0,
+        "skipped": 0,
+        "startedAt": 1792969918.62,
+        "finishedAt": 1792969921.159
+      },
+      {
+        "run": "review-final",
+        "device": "iPhone 17 Pro",
+        "result": "Passed",
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "startedAt": 1792970149.611,
+        "finishedAt": 1792970161.072
+      },
+      {
+        "run": "small-final",
+        "device": "iPhone SE (3rd generation)",
+        "result": "Failed",
+        "passed": 14,
+        "failed": 1,
+        "skipped": 0,
+        "startedAt": 1792969346.31,
+        "finishedAt": 1792969589.567
+      },
+      {
+        "run": "small-fix",
+        "device": "iPhone SE (3rd generation)",
+        "result": "Passed",
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "startedAt": 1792969601.947,
+        "finishedAt": 1792969676.416
+      },
+      {
+        "run": "review-final-small",
+        "device": "iPhone SE (3rd generation)",
+        "result": "Passed",
+        "passed": 1,
+        "failed": 0,
+        "skipped": 0,
+        "startedAt": 1792970149.52,
+        "finishedAt": 1792970161.002
+      },
+      {
+        "run": "ipad-final",
+        "device": "iPad Pro 11-inch (M5)",
+        "result": "Passed",
+        "passed": 4,
+        "failed": 0,
+        "skipped": 0,
+        "startedAt": 1792969347.346,
+        "finishedAt": 1792969385.375
+      }
+    ],
+    "latestCaseOutcomes": {
+      "iPhone 17 Pro": {
+        "ChinaTextbookStudyTests.AchievementsTests/testEmptySnapshotUnlocksNothing": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.AchievementsTests/testFirstLessonUnlocks": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.AchievementsTests/testNewlyUnlockedDiff": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.ChestTests/testRollRewardTiersWithSeededRNG": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.ChestTests/testSlotsEveryFiveLessonsWithinUnit": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.ChestTests/testSlotsResetCounterPerUnit": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.CoreTypesTests/testActivityPrerequisitesFollowCatalogOrder": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.CoreTypesTests/testCanDecodeRealLessonJSON": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.CoreTypesTests/testQuestionTypeRawValuesMatchTSEnum": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.CoreTypesTests/testRevisedEditionAndLegacyMetadataDecode": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.CoreTypesTests/testSeedIndexDecodes": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.CoreTypesTests/testVersionedWebAudioResolvesToInstalledIOSAudio": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.CosmeticsTests/testDefaultEquippedExist": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.CosmeticsTests/testItemsByTypeMatchLayer": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.CosmeticsTests/testStartersHaveZeroCost": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testChestSlotVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testDailyRewardVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testEconomyConstantsMatchSpec": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testExamXpVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testGemDripVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testLeagueBotNameVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testLeagueBotXpVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testLeagueConstantsMatchSpec": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testMilestoneVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testSrsReviewVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testStarVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testStreakAdvanceVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GoldenVectorTests/testXpVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GradeTests/testChoiceLetterAndContent": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GradeTests/testChoiceWithContentAnswer": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GradeTests/testEmptyAnswerFails": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GradeTests/testFillBlankNumeric": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GradeTests/testFillBlankText": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GradeTests/testIssue2DoesNotTreatAnswerTextAsFirstLetter": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GradeTests/testMatchingOrderInsensitive": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GradeTests/testTrueFalseTolerantSynonyms": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.GradeTests/testWordOrder": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testBotXpMonotonicAndConverges": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testClearPendingLeagueResult": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testExamLessonDoublesXpNotGems": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testExamPathNodeStates": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testExamXpStacksWithWeekend": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testLeagueEnrollsAtTenLessons": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testLeagueLockedBeforeTenLessons": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testLeagueWeeklyXpSumsSevenDays": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testSettleRankBoundaries": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testSettleRankDiamondCapAndBronzeFloor": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testSettleRankGems": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testStandingsTieBreak": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testTierLadder": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testWeekKeyForCrossesMonthAndYear": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testWeekKeyForMidweekFallsBackToMonday": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testWeekKeyForMondayReturnsSameDay": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testWeeklySettleDemotionNoGems": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testWeeklySettleDiamondCapAndBronzeFloor": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.LeagueSettleTests/testWeeklySettlePromotionPaysOnce": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MascotTriggersTests/testCheerOnHighCombo": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MascotTriggersTests/testEmbarrassedOnLastHeartWrong": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MascotTriggersTests/testProudOnPerfectFinish": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MascotTriggersTests/testReactionLevelupOnComboMilestones": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MascotTriggersTests/testThinkOnFirstWrong": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MascotTriggersTests/testToneMapping": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testBareBracesAreGroupingOnly": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testDoubleDollarBlock": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testFractionMidSentence": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testFractionWithCommandInside": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testGradingUsesRawStringsNotRendered": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testIncompleteAndEscapedDelimitersStayLiteral": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testMultiDigitFraction": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testMultipleMathSegments": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testNestedFraction": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testNonNumericFractionFallsBack": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testNoSpaceAfterCommand": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testPlainChineseUnchanged": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testRevisedBookDelimitersAndFractions": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testRevisedBookRecurringDecimalDotsRemainDistinct": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testRevisedBookUnitsDegreesAndChineseCommandBoundary": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testSeedBigcircBlank": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testSeedFractionInSentence": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testSeedFractionOption": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testSeedGrade1Comparison": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testSeedTimes": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testSpacingCommands": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testSubscript": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testSuperscript": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testSymbolCommands": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testUnknownCommandDropsBackslash": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testUnmappableScriptKeepsCaret": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.MathTextTests/testUnpairedDollarKeptLiterally": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testBackupCarriesClaimedQuestLedger": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testCloudChangeNotificationConfirmsCloudState": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testCloudReadStaysUnknownUntilGraceElapses": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testDeclineDisownsCloudArchiveSoDeviceKeepsBackingUp": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testDeclineRestoreStillProtectsCloudBackupFromEmptySave": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testDerivedGraduationKeepsImportedEntryOutOfDueQueue": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testEmptyLocalNeverOverwritesCloudBackup": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testExportedReadingDatesAreNeverEmpty": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testImportedZeroHeartSaveStillRecharges": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testImportingYesterdaysArchiveDoesNotResetReviewHeartLedger": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testImportRestoresTodayXpSoDailyGoalBonusIsNotFarmable": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testLegacyReadingKeysMigrateOnLaunch": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testMakeupTopsUpDailyRewardToWebEquivalentTotal": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testNoMakeupKeepsTierZeroReward": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testPendingRestoreBlocksMirror": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testReadingIdNormalizationMatchesCoreRules": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testRecentXpAndWeeklyTotalsUseCalendarWeek": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testRefreshWhilePendingRestoreKeepsPromptAndSkipsSettlement": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testResetProgressIsNotMistakenForANewDevice": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testRestoreOfferGateIgnoresOnboardingProgress": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testReviewHeartIsOncePerDayAndGated": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testReviewHeartLedgerSurvivesExportImportRoundTrip": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testReviewHeartRewardMirrorsCore": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testSrsGraduationGoldenVectors": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testTickHeartRechargeSelfHealsMissingTimer": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testUnknownCloudStateIsReadOnly": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testWeakerLocalNeverOverwritesCloud": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testWebReadingKeysImportIntoCanonicalSpace": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PRFixTests/testWeekWindowIsCalendarWeekMondayFirst": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PathLessonMetasTests/testChestAfterFifthLessonOnly": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.PathLessonMetasTests/testMetasUseDataLoaderLessonIdConvention": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.ProgressStoreEconomyTests/testAllWrongReviewSessionStillCounts": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.ProgressStoreEconomyTests/testLessonGemDripMatchesWebEconomy": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.ProgressStoreEconomyTests/testLessonXpMatchesUnifiedFormula": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.ProgressStoreEconomyTests/testPerfectFirstThreeStarXp": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.ProgressStoreEconomyTests/testStreakFreezeIsConsumedOnMissedDay": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.ProgressStoreEconomyTests/testWeekendDoublesLessonXp": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.QuestsTests/testAlwaysIncludesAnXPQuest": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.QuestsTests/testAlwaysReturnsThreeQuests": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.QuestsTests/testIsDeterministicForTheSameDay": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.QuestsTests/testKindsAreDistinctWithinADay": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.QuestsTests/testSetVariesAcrossDays": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.QuestsTests/testTargetsAndRewardsArePositive": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.SRSTests/testBoxThreeStaysAtThreeAndPushes7Days": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.SRSTests/testCorrectAnswerPromotesBox": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.SRSTests/testDueEntriesSortByBoxThenDate": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.SRSTests/testWrongAnswerResetsToBoxOne": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.SeedUpgradeTests/testSeedUpgradePreservesDownloadedBooksAndAudio": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.StreakTests/testConsecutiveDayIncrements": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.StreakTests/testFirstEverStartsAtOne": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.StreakTests/testFreezesCoverMissedDays": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.StreakTests/testGapResetsWithoutFreezes": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.StreakTests/testInsufficientFreezesResetKeepsShields": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.StreakTests/testMondayTopUpCapsAtMax": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.StreakTests/testMondayTopUpOnConsecutiveDay": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.StreakTests/testMondayTopUpOnlyAppliesToGapOne": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.StreakTests/testSameDayNoChange": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.StreakTests/testUnparseableDateResets": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.SubjectsTests/testEverySubjectHasConfig": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.SubjectsTests/testResolveDefaultsToMath": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveATests/testBuyHeartRefillDoesNotChargeWhenHeartsRechargedOffscreen": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveATests/testBuyHeartRefillStillChargesWhenHeartsAreMissing": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveATests/testDisplayStreakDropsToZeroWhenShieldsCannotCoverTheGap": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveATests/testDisplayStreakHoldsWhileTodayCanStillContinueIt": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveATests/testDisplayStreakShowsCurrentStreakWhenStudiedToday": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveATests/testDisplayStreakSurvivesGapCoveredByShields": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveATests/testRefreshForNowRestoresHeartsAfterTimePassed": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testAchievementLedgerNeverRelocks": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testAchievementRewardPaidOnClaimExactlyOnce": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testBuySucceedsBelowCap": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testClaimRefusedWhileStillLocked": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testDailyGoalOptionsAndLegacyValuePreserved": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testDailyRewardClaimsOncePerDay": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testDailyRewardHonestAfterBrokenChain": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testDailyRewardTierFollowsSalvageableStreak": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testFirstReviewSurvivesGraduation": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testFreshSaveStartsWithTwoShieldsAndCapBlocksPurchase": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testLegacySaveAboveCapKeepsShieldsButBlocksBuying": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testLegacySaveMigratesShieldsUpToTwo": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testLegacySaveTreatsUnlockedAsClaimed": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testMakeUpRefusedWhenStreakIsNotBroken": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testMakeUpRefusedWithoutEnoughGems": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testMakeUpRevivesABrokenStreak": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testMigrationRunsOnlyOnce": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testMondayShieldTopUpThroughTheStore": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testNonMilestoneDayPaysNothing": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveBTests/testStreakMilestonePaidOnceViaLedger": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testAddHeartCapsAtMax": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testClaimableQuestCountMatchesCardLogic": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testClaimAchievementIsIdempotent": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testClaimRequiresUnlock": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testClaimSurvivesRelaunchWithoutDoublePay": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testCompletingAnotherLessonKeepsForeignSession": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testCompletingTheLessonDropsItsSession": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testFamiliesCoverEveryAchievementExactlyOnce": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testFamilyTierHelpers": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testFreezesConsumedReachesLessonOutcome": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testFreshSaveJoinsToday": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testGraduationKeepsEntryOutOfDueQueue": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testLegacySaveBackfillsJoinedDateFromEarliestLesson": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testQuestsSnapshotIsAPureRead": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testSessionSurvivesRelaunch": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testSessionUpsertReadAndClear": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testUngraduatedEntryStillComesDue": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveDStoreTests/testWrongAnswerSendsGraduateBackToOven": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveE2Tests/testApplyJumpUnlockMarksLessonsWithZeroEconomy": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveE2Tests/testBackupRoundTripPreservesProgress": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveE2Tests/testImportWebEnvelope": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveE2Tests/testIntroSeenPersistsAcrossRelaunch": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveE2Tests/testJumpSamplingEvenDedupedAndDeterministic": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveE2Tests/testJumpSamplingSmallPoolTakesAllAndDedupes": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveE2Tests/testReportsDedupeAndPersist": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveE2Tests/testValidateRejectsOnlyStructuralDamage": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveE2Tests/testValidateToleratesBadFieldsAndFutureVersions": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveFTests/testDuoFontCapDoesNotBiteAtModerateSizes": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveFTests/testDuoFontDefaultCategoryKeepsBaseSize": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveFTests/testDuoFontMetadataRolesAreCapped": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveFTests/testDuoFontReadingRolesGrowAtAccessibilitySizes": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveFTests/testDuoFontScalingIsMonotonic": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveFTests/testReviewPrompterAllowsFirstRequest": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveFTests/testReviewPrompterCapsAtTwoPerVersion": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveFTests/testReviewPrompterRecordCountsPerVersion": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyTests.WaveFTests/testReviewPrompterResetsOnNewVersion": {
+          "result": "passed",
+          "run": "units-final"
+        },
+        "ChinaTextbookStudyUITests.CosmeticsUITests/testBuyingCosmeticEquipsItAndPersists": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.CosmeticsUITests/testUnaffordableCosmeticIsNotGranted": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LayoutUITests/testBottomTabBarReachesEveryTab": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.LayoutUITests/testDarkAppearancePreferenceRenders": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.LayoutUITests/testProfileReachesAchievementsAndSettings": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LayoutUITests/testProfileShowsQuestsAndWeeklyReport": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LayoutUITests/testSidebarOnRegularWidth": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testChangingGradeRequiresChoosingAMatchingBook": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testCompletedLessonCanReturnToTheNextStepWithoutLosingProgress": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testEmptyReviewOffersAWayBackToLearning": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testHomeContinueStartsTheCurrentLesson": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testInstalledChineseReleaseReadingJourney": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testInstalledRevisedMathReleaseOpensCurrentLesson": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testLargeTypeKeepsLessonActionsReachable": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testShopPreviewAndProfileRemainReachable": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testWrongAnswerFlowsIntoScheduledReview": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LessonFlowUITests/testAnsweringShowsFeedbackPanel": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LessonFlowUITests/testKnowledgeIntroShowsOnceBeforeFirstRun": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LessonFlowUITests/testPathHomeOpensLessonViaStartPopup": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LessonFlowUITests/testQuittingMidLessonAsksForConfirmation": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.LessonFlowUITests/testQuittingWithZeroProgressExitsDirectly": {
+          "result": "passed",
+          "run": "pro3"
+        },
+        "ChinaTextbookStudyUITests.ScreenshotTests/testCaptureMainScreens": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testBookPickerAndChestKeepTheirControlsInsideTheSheet": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testEveryLessonResultStageKeepsActionsVisibleAndClaimTargetsTheProfileTab": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testGuideHasVisiblePreviousAndNextActions": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testHomeStatisticSheetsAndDailyGoalUseReachableDocks": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testJumpBriefingFeedbackAndQuitUseTheSameControls": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testLargeTypeGuideAndResultKeepTheirBottomActionsVisible": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testLessonSettingsAndQuestionReportHaveTheSamePinnedDismissAction": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testReadingLibrariesKeepNavigationAndStoriesUseSharedFeedback": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testRenameActionsStayAboveTheKeyboardAndPreviewUsesTheSameDock": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testReviewFeedbackAndCompletionHavePinnedActions": {
+          "result": "passed",
+          "run": "review-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testSettingsReportsAndAchievementSharingRemainConsistent": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testUnlockedLeagueHasTheSameNavigationAndReadingWidth": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testZeroHeartsGateKeepsRefillAndDismissVisible": {
+          "result": "passed",
+          "run": "pro-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testBookCatalogueAndBookPathUseTheSameNavigationPolicy": {
+          "result": "passed",
+          "run": "pro-final"
+        }
+      },
+      "iPhone SE (3rd generation)": {
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testLargeTypeKeepsLessonActionsReachable": {
+          "result": "passed",
+          "run": "small-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testBookCatalogueAndBookPathUseTheSameNavigationPolicy": {
+          "result": "passed",
+          "run": "small-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testBookPickerAndChestKeepTheirControlsInsideTheSheet": {
+          "result": "passed",
+          "run": "small-fix"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testEveryLessonResultStageKeepsActionsVisibleAndClaimTargetsTheProfileTab": {
+          "result": "passed",
+          "run": "small-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testGuideHasVisiblePreviousAndNextActions": {
+          "result": "passed",
+          "run": "small-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testHomeStatisticSheetsAndDailyGoalUseReachableDocks": {
+          "result": "passed",
+          "run": "small-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testJumpBriefingFeedbackAndQuitUseTheSameControls": {
+          "result": "passed",
+          "run": "small-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testLargeTypeGuideAndResultKeepTheirBottomActionsVisible": {
+          "result": "passed",
+          "run": "small-fix"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testLessonSettingsAndQuestionReportHaveTheSamePinnedDismissAction": {
+          "result": "passed",
+          "run": "small-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testReadingLibrariesKeepNavigationAndStoriesUseSharedFeedback": {
+          "result": "passed",
+          "run": "small-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testRenameActionsStayAboveTheKeyboardAndPreviewUsesTheSameDock": {
+          "result": "passed",
+          "run": "small-fix"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testReviewFeedbackAndCompletionHavePinnedActions": {
+          "result": "passed",
+          "run": "review-final-small"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testSettingsReportsAndAchievementSharingRemainConsistent": {
+          "result": "passed",
+          "run": "small-fix"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testUnlockedLeagueHasTheSameNavigationAndReadingWidth": {
+          "result": "passed",
+          "run": "small-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testZeroHeartsGateKeepsRefillAndDismissVisible": {
+          "result": "passed",
+          "run": "small-final"
+        }
+      },
+      "iPad Pro 11-inch (M5)": {
+        "ChinaTextbookStudyUITests.LayoutUITests/testSidebarOnRegularWidth": {
+          "result": "passed",
+          "run": "ipad-final"
+        },
+        "ChinaTextbookStudyUITests.LearningExperienceUITests/testChangingGradeRequiresChoosingAMatchingBook": {
+          "result": "passed",
+          "run": "ipad-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testGuideHasVisiblePreviousAndNextActions": {
+          "result": "passed",
+          "run": "ipad-final"
+        },
+        "ChinaTextbookStudyUITests.SurfaceConsistencyUITests/testUnlockedLeagueHasTheSameNavigationAndReadingWidth": {
+          "result": "passed",
+          "run": "ipad-final"
+        }
+      }
+    },
+    "uniquePassingCasesByDevice": {
+      "iPhone 17 Pro": 248,
+      "iPhone SE (3rd generation)": 15,
+      "iPad Pro 11-inch (M5)": 4
+    },
+    "note": "Earlier chest audit failures were caused by an insufficient progress fixture and a swipe that skipped the chest. The fixture now completes real bundled lessons through the first chest and the test scrolls using its actual bounds; it passes on both phones. No unresolved failing case remains.",
+    "unitCases": 212
+  },
+  "references": [
+    "https://blog.duolingo.com/core-tabs-redesign/",
+    "https://blog.duolingo.com/shape-language-duolingos-art-style/"
+  ],
+  "limitations": [
+    "Simulator verification; real-device haptics, microphone permissions, background audio and older iOS versions remain outside this run.",
+    "Official chinese-g1up and g1up-2026 resource bundles are installed and exercised. Other books are not all individually played through.",
+    "Rare restore/gift/milestone variants share the reviewed components; they are not presented as individually captured screens."
+  ]
+}

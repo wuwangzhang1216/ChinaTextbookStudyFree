@@ -71,57 +71,42 @@ struct JumpTestView: View {
     // MARK: - Briefing
 
     private var briefing: some View {
-        VStack(spacing: 18) {
-            HStack {
-                closeButton
-                Spacer()
+        VStack(spacing: 0) {
+            HStack { closeButton; Spacer() }.padding(.horizontal, 12)
+            LearningCelebrationBody {
+                VStack(spacing: 18) {
+                    Spacer(minLength: 12)
+                    Image(systemName: "bolt.fill").font(.system(size: 64, weight: .bold)).foregroundStyle(DuoColors.bee)
+                    Text("跳级测试").duoFont(.title).foregroundStyle(DuoColors.ink)
+                    Text("证明你已经掌握了前面的内容，就能跳到\(unitDisplayLabel)！")
+                        .duoFont(.body).foregroundStyle(DuoColors.inkMuted).multilineTextAlignment(.center)
+                    VStack(alignment: .leading, spacing: 14) {
+                        briefRow(icon: "list.number", text: "\(Jump.testSize) 道题，来自前面所有单元")
+                        briefRow(icon: "target", text: "答对 80% 以上就通过")
+                        briefRow(icon: "heart.fill", text: "没通过会扣 1 颗心，可以再试")
+                        briefRow(icon: "bolt.slash.fill", text: "跳过的课程不发经验和宝石")
+                    }.learningCard()
+                    if let loadError { Text(loadError).duoFont(.caption).foregroundStyle(DuoColors.errorInk) }
+                    Spacer(minLength: 12)
+                }
             }
-            .padding(.horizontal, 18)
-            .padding(.top, 6)
-
-            Spacer()
-
-            Text("⚡")
-                .font(.system(size: 64))
-            Text("跳级测试")
-                .duoFont(.title)
-                .foregroundStyle(DuoColors.ink)
-            Text("证明你已经掌握了前面的内容，\n就能直接跳到\(unitDisplayLabel)！")
-                .duoFont(.body)
-                .foregroundStyle(DuoColors.inkMuted)
-                .multilineTextAlignment(.center)
-                .lineSpacing(4)
-
-            VStack(alignment: .leading, spacing: 10) {
-                briefRow(icon: "list.number", text: "\(Jump.testSize) 道题，来自前面所有单元")
-                briefRow(icon: "target", text: "答对 80% 以上就通过")
-                briefRow(icon: "heart.fill", text: "没通过会扣 1 颗心，可以再试")
-                briefRow(icon: "bolt.slash.fill", text: "跳过的课程不发经验和宝石")
+        }
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                VStack(spacing: 10) {
+                    if loadError != nil {
+                        Button("重新载入") { prepare() }.buttonStyle(ChunkyButtonStyle(.secondary))
+                    } else {
+                        Button("开始测试") {
+                            HapticEngine.shared.tap(); SFXEngine.shared.play(.tap)
+                            withAnimation(Motion.reveal) { stage = .running }
+                        }
+                        .buttonStyle(ChunkyButtonStyle(questions.isEmpty ? .disabled : .primary))
+                        .disabled(questions.isEmpty).accessibilityIdentifier("jump-start")
+                    }
+                    Button("我再想想") { path.removeLast() }.buttonStyle(ChunkyButtonStyle(.ghost))
+                }
             }
-            .padding(16)
-            .background(DuoColors.surface, in: .rect(cornerRadius: Radius.card))
-            .overlay {
-                RoundedRectangle(cornerRadius: Radius.card)
-                    .strokeBorder(DuoColors.border, lineWidth: 2)
-            }
-            .padding(.horizontal, 24)
-
-            Spacer()
-
-            Button("开始测试") {
-                HapticEngine.shared.tap()
-                SFXEngine.shared.play(.tap)
-                withAnimation(Motion.reveal) { stage = .running }
-            }
-            .buttonStyle(ChunkyButtonStyle(questions.isEmpty ? .disabled : .primary))
-            .disabled(questions.isEmpty && loadError == nil)
-            .padding(.horizontal, 24)
-            .accessibilityIdentifier("jump-start")
-
-            Button("我再想想") { path.removeLast() }
-                .buttonStyle(ChunkyButtonStyle(.ghost))
-                .padding(.horizontal, 24)
-                .padding(.bottom, 28)
         }
     }
 
@@ -189,8 +174,7 @@ struct JumpTestView: View {
                     )
                     .id("jump-\(attempt)-\(index)")
                 }
-                .padding(.horizontal, 20)
-                .padding(.bottom, 24)
+                .learningContent()
             }
         }
         .safeAreaInset(edge: .bottom, spacing: 0) {
@@ -205,7 +189,8 @@ struct JumpTestView: View {
 
     private func checkFooter(question: Question) -> some View {
         let empty = currentAnswer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
-        return Button {
+        return LearningActionDock {
+          Button {
             let ok = Grade.gradeAnswer(question: question, userAnswer: currentAnswer)
             withAnimation(Motion.reveal) {
                 phase = .checked
@@ -220,48 +205,18 @@ struct JumpTestView: View {
                 SFXEngine.shared.play(.wrong)
                 HapticEngine.shared.wrong()
             }
-        } label: { Text("检查") }
+        } label: { Text("检查答案") }
             .buttonStyle(ChunkyButtonStyle(empty ? .disabled : .primary))
             .disabled(empty)
             .accessibilityIdentifier("检查答案")
-            .padding(.horizontal, 20)
-            .padding(.bottom, 36)
-            .padding(.top, 14)
-            .background(DuoColors.bg)
+        }
     }
 
     private func jumpFeedback(ok: Bool, question: Question) -> some View {
-        let accent = ok ? DuoColors.primary : DuoColors.danger
-        return VStack(alignment: .leading, spacing: 12) {
-            HStack(spacing: 10) {
-                Image(systemName: ok ? "checkmark.circle.fill" : "xmark.circle.fill")
-                    .font(.system(size: 26, weight: .heavy))
-                    .foregroundStyle(accent)
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(ok ? "答对了！" : "这题不对")
-                        .duoFont(.heading)
-                        .foregroundStyle(accent)
-                    if !ok {
-                        Text("正确答案：\(MathText.render(question.answer))")
-                            .duoFont(.caption)
-                            .foregroundStyle(accent)
-                    }
-                }
-                Spacer()
-            }
-
-            Button {
-                advance()
-            } label: { Text(index + 1 >= total ? "看结果" : "继续") }
-                .buttonStyle(ChunkyButtonStyle(ok ? .primary : .danger))
-        }
-        .padding(.horizontal, 20)
-        .padding(.top, 16)
-        .padding(.bottom, 36)
-        .frame(maxWidth: .infinity, alignment: .leading)
-        .background(accent.opacity(0.12))
-        .background(DuoColors.bg)
-        .transition(.move(edge: .bottom).combined(with: .opacity))
+        LearningFeedbackPanel(correct: ok, title: ok ? "答对了！" : "再学会一点", answer: question.answer,
+                              explanation: question.explanation, audio: question.audio?.explanation,
+                              buttonTitle: index + 1 >= total ? "看结果" : "继续",
+                              onContinue: { advance() })
     }
 
     private func advance() {
@@ -299,34 +254,22 @@ struct JumpTestView: View {
     // MARK: - Passed
 
     private func passedView(unlocked: Int) -> some View {
-        ZStack {
-            ConfettiView(active: showConfetti)
-                .ignoresSafeArea()
-                .allowsHitTesting(false)
-
+        LearningCelebrationBody {
             VStack(spacing: 18) {
                 Spacer()
                 MascotView(mood: .proud, size: 110, reactTo: .levelup)
-                Text("跳级成功！")
-                    .duoFont(.display)
-                    .foregroundStyle(DuoColors.ink)
-                Text("正确率 \(Int(round(accuracy * 100)))%，前面的 \(unlocked) 节课都算你过啦")
-                    .duoFont(.body)
-                    .foregroundStyle(DuoColors.inkMuted)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 32)
-                Text("现在可以从\(unitDisplayLabel)继续冒险 🗺️")
-                    .duoFont(.caption)
-                    .foregroundStyle(DuoColors.inkSofter)
+                Text("跳级成功！").duoFont(.display).foregroundStyle(DuoColors.ink)
+                Text("正确率 \(Int(round(accuracy * 100)))%，前面的 \(unlocked) 节课已解锁")
+                    .duoFont(.body).foregroundStyle(DuoColors.inkMuted).multilineTextAlignment(.center)
+                Text("从\(unitDisplayLabel)继续探索吧！").duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
                 Spacer()
-                Button("回到路径") {
-                    HapticEngine.shared.tap()
-                    path.removeAll()
-                }
-                .buttonStyle(ChunkyButtonStyle(.primary))
-                .padding(.horizontal, 24)
-                .padding(.bottom, 28)
-                .accessibilityIdentifier("jump-pass-continue")
+            }
+        }
+        .overlay { ConfettiView(active: showConfetti).allowsHitTesting(false) }
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                Button("回到路径") { HapticEngine.shared.tap(); path.removeAll() }
+                    .buttonStyle(ChunkyButtonStyle(.primary)).accessibilityIdentifier("jump-pass-continue")
             }
         }
     }
@@ -336,65 +279,33 @@ struct JumpTestView: View {
     private func failedView(correct: Int) -> some View {
         let canRetry = progressStore.hearts > 0
         let canRefill = progressStore.gems >= Economy.heartRefillCost
-
-        return VStack(spacing: 18) {
-            Spacer()
-            MascotView(mood: .sad, size: 110)
-            Text("还差一点点")
-                .duoFont(.title)
-                .foregroundStyle(DuoColors.ink)
-            Text("答对了 \(correct) / \(total) 题（需要 \(Int(Jump.passAccuracy * 100))%）\n先把前面的课程学扎实，或者再试一次！")
-                .duoFont(.body)
-                .foregroundStyle(DuoColors.inkMuted)
-                .multilineTextAlignment(.center)
-                .lineSpacing(4)
-                .padding(.horizontal, 28)
-
-            HStack(spacing: 4) {
-                Image(systemName: "heart.fill")
-                    .font(.system(size: 14, weight: .heavy))
-                Text("已扣 1 颗心 · 剩余 \(progressStore.hearts)")
-                    .duoFont(.caption)
+        return LearningCelebrationBody {
+            VStack(spacing: 18) {
+                Spacer()
+                MascotView(mood: .think, size: 110)
+                Text("还差一点点").duoFont(.title).foregroundStyle(DuoColors.ink)
+                Text("答对了 \(correct) / \(total) 题，需要 \(Int(Jump.passAccuracy * 100))%。先把前面的课程学扎实，或者再试一次。")
+                    .duoFont(.body).foregroundStyle(DuoColors.inkMuted).multilineTextAlignment(.center)
+                Label("已扣 1 颗心 · 剩余 \(progressStore.hearts)", systemImage: "heart.fill")
+                    .duoFont(.caption).foregroundStyle(DuoColors.errorInk)
+                Spacer()
             }
-            .foregroundStyle(DuoColors.danger)
-            .padding(.horizontal, 12)
-            .padding(.vertical, 6)
-            .background(DuoColors.danger.opacity(0.12), in: .capsule)
-
-            Spacer()
-
-            VStack(spacing: 10) {
-                if canRetry {
-                    Button("换一套题再试") {
-                        HapticEngine.shared.tap()
-                        retry()
-                    }
-                    .buttonStyle(ChunkyButtonStyle(.primary))
-                    .accessibilityIdentifier("jump-retry")
-                } else {
-                    Button {
-                        if progressStore.buyHeartRefill(cost: Economy.heartRefillCost) {
-                            HapticEngine.shared.success()
-                            SFXEngine.shared.play(.unlock)
-                            retry()
-                        } else {
-                            HapticEngine.shared.wrong()
+        }
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                VStack(spacing: 10) {
+                    if canRetry {
+                        Button("换一套题再试") { HapticEngine.shared.tap(); retry() }
+                            .buttonStyle(ChunkyButtonStyle(.primary)).accessibilityIdentifier("jump-retry")
+                    } else {
+                        Button("补满红心再试  \(Economy.heartRefillCost) 宝石") {
+                            if progressStore.buyHeartRefill(cost: Economy.heartRefillCost) { HapticEngine.shared.success(); retry() }
                         }
-                    } label: {
-                        HStack(spacing: 6) {
-                            Image(systemName: "diamond.fill").font(.system(size: 14, weight: .heavy))
-                            Text("用宝石补满心再试  \(Economy.heartRefillCost)")
-                        }
+                        .buttonStyle(ChunkyButtonStyle(canRefill ? .secondary : .disabled)).disabled(!canRefill)
                     }
-                    .buttonStyle(ChunkyButtonStyle(canRefill ? .secondary : .disabled))
-                    .disabled(!canRefill)
+                    Button("下次再来") { path.removeLast() }.buttonStyle(ChunkyButtonStyle(.ghost))
                 }
-
-                Button("下次再来") { path.removeLast() }
-                    .buttonStyle(ChunkyButtonStyle(.ghost))
             }
-            .padding(.horizontal, 24)
-            .padding(.bottom, 28)
         }
     }
 
@@ -424,49 +335,24 @@ struct JumpTestView: View {
             Image(systemName: "xmark")
                 .font(.system(size: 20, weight: .black))
                 .foregroundStyle(DuoColors.inkMuted)
-                .frame(width: 36, height: 36)
+                .frame(width: 44, height: 44)
         }
         .accessibilityLabel("关闭")
     }
 
     private var quitConfirmOverlay: some View {
-        ZStack {
-            Color.black.opacity(0.55).ignoresSafeArea()
-                .onTapGesture {
-                    withAnimation(.easeOut(duration: 0.2)) { showQuitConfirm = false }
-                }
-
-            VStack(spacing: Space.l) {
-                MascotView(mood: .sad, size: 92)
-                Text("现在退出，测试不算数哦")
-                    .duoFont(.heading)
-                    .foregroundStyle(DuoColors.ink)
-                    .multilineTextAlignment(.center)
-                Text("退出不扣心，下次可以重新来")
-                    .duoFont(.caption)
-                    .foregroundStyle(DuoColors.inkMuted)
-
-                VStack(spacing: 10) {
-                    Button("继续测试") {
-                        withAnimation(.easeOut(duration: 0.2)) { showQuitConfirm = false }
-                    }
-                    .buttonStyle(ChunkyButtonStyle(.primary))
-
-                    Button("退出") { path.removeLast() }
-                        .buttonStyle(ChunkyButtonStyle(.ghost))
-                        .accessibilityIdentifier("jump-quit")
-                }
+        LearningDialog(onDismiss: { showQuitConfirm = false }) {
+            VStack(spacing: 16) {
+                MascotView(mood: .think, size: 92)
+                Text("现在退出，测试不算数哦").duoFont(.heading).foregroundStyle(DuoColors.ink)
+                Text("退出不扣心，下次可以重新来").duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
+            }.multilineTextAlignment(.center)
+        } actions: {
+            VStack(spacing: 10) {
+                Button("继续测试") { showQuitConfirm = false }.buttonStyle(ChunkyButtonStyle(.primary))
+                Button("退出") { path.removeLast() }.buttonStyle(ChunkyButtonStyle(.ghost)).accessibilityIdentifier("jump-quit")
             }
-            .padding(Space.xl)
-            .frame(maxWidth: 340)
-            .background(DuoColors.surface, in: .rect(cornerRadius: Radius.large))
-            .overlay {
-                RoundedRectangle(cornerRadius: Radius.large)
-                    .strokeBorder(DuoColors.border, lineWidth: 2)
-            }
-            .padding(24)
         }
-        .transition(.opacity)
     }
 
     // MARK: - Error

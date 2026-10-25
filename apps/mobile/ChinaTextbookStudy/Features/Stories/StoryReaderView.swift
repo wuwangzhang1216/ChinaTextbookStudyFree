@@ -114,6 +114,7 @@ struct StoryReaderView: View {
         .navigationTitle(story?.title ?? "")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar { ToolbarItem(placement: .topBarTrailing) { MuteToggle() } }
+        .toolbar(phase == .quiz || phase == .result ? .hidden : .visible, for: .navigationBar)
         .task {
             do {
                 story = try DataLoader.shared.loadStories(bookId: bookId)?.stories.first { $0.id == storyId }
@@ -153,12 +154,7 @@ struct StoryReaderView: View {
                 .learningContent()
             }
             .safeAreaInset(edge: .bottom, spacing: 0) {
-                bottomAction(story)
-                    .frame(maxWidth: LearningLayout.contentWidth - 40)
-                    .padding(.horizontal, 20).padding(.vertical, 12)
-                    .frame(maxWidth: .infinity)
-                    .background(DuoColors.bg)
-                    .overlay(alignment: .top) { Divider() }
+                LearningActionDock { bottomAction(story) }
             }
             .onChange(of: audioPlayer.nowPlayingIndex) { _, idx in
                 if let idx, idx < story.sentences.count {
@@ -272,21 +268,9 @@ struct StoryReaderView: View {
     private func quizPhase(_ story: Story) -> some View {
         let q = Self.question(from: story.questions[qIndex])
         return VStack(spacing: 0) {
-            HStack(spacing: 14) {
-                Button {
-                    AudioPlayer.shared.stop()
-                    withAnimation(Motion.reveal) { phase = .reading }
-                } label: {
-                    Image(systemName: "chevron.left").font(.system(size: 20, weight: .black)).foregroundStyle(DuoColors.inkMuted).frame(width: 36, height: 36)
-                }
-                StyledProgressBar(
-                    progress: Double(qIndex + (qPhase == .checked ? 1 : 0)) / Double(max(story.questions.count, 1)),
-                    height: 14,
-                    trackColor: DuoColors.surfaceAlt
-                )
-                Text("\(qIndex + 1)/\(story.questions.count)").duoNumeral(.caption).foregroundStyle(DuoColors.inkMuted)
-            }
-            .padding(.horizontal, 18).padding(.top, 6).padding(.bottom, 10)
+            LearningActivityHeader(progress: Double(qIndex + (qPhase == .checked ? 1 : 0)) / Double(max(story.questions.count, 1)),
+                                   position: "\(qIndex + 1)/\(story.questions.count)", closeLabel: "返回故事",
+                                   onClose: { AudioPlayer.shared.stop(); withAnimation(Motion.reveal) { phase = .reading } })
 
             ScrollView {
                 VStack(alignment: .leading, spacing: 20) {
@@ -299,45 +283,27 @@ struct StoryReaderView: View {
                     QuestionRendererView(question: q, answer: currentAnswer, phase: qPhase, isCorrect: isCorrect, onChange: { currentAnswer = $0 })
                         .id(q.id)
                 }
-                .padding(20)
+                .learningContent()
             }
         }
-        .safeAreaInset(edge: .bottom) { quizFooter(story, q: q) }
+        .safeAreaInset(edge: .bottom, spacing: 0) { quizFooter(story, q: q) }
     }
 
     @ViewBuilder
     private func quizFooter(_ story: Story, q: Question) -> some View {
-        VStack(spacing: 0) {
-            if qPhase == .checked, let ok = isCorrect {
-                VStack(alignment: .leading, spacing: 6) {
-                    HStack(spacing: 10) {
-                        Image(systemName: ok ? "checkmark.circle.fill" : "xmark.circle.fill")
-                            .font(.system(size: 22, weight: .bold))
-                            .foregroundStyle(ok ? DuoColors.primary : DuoColors.danger)
-                        Text(ok ? "答对了！" : "正确答案：\(MathText.render(q.answer))")
-                            .duoFont(.caption).foregroundStyle(ok ? DuoColors.primary : DuoColors.danger)
-                        Spacer()
-                    }
-                    if !q.explanation.isEmpty {
-                        HStack(alignment: .top, spacing: 8) {
-                            Text(MathText.render(q.explanation)).duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                            SlowTTSButton(path: q.audio?.explanation, size: 14)
-                        }
-                    }
-                }
-                .padding(.horizontal, 20).padding(.top, 12)
+        if qPhase == .checked, let ok = isCorrect {
+            LearningFeedbackPanel(correct: ok, title: ok ? "答对了！" : "再学会一点", answer: q.answer,
+                                  explanation: q.explanation, audio: q.audio?.explanation,
+                                  buttonTitle: qIndex + 1 >= story.questions.count ? "看结果" : "继续",
+                                  onContinue: { advance(story) })
+        } else {
+            LearningActionDock {
+                Button("检查答案") { check(q) }
+                    .buttonStyle(ChunkyButtonStyle(currentAnswer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty ? .disabled : .primary))
+                    .disabled(currentAnswer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
+                    .accessibilityIdentifier("检查答案")
             }
-            Button {
-                qPhase == .answering ? check(q) : advance(story)
-            } label: {
-                Text(qPhase == .answering ? "检查" : (qIndex + 1 >= story.questions.count ? "看结果" : "下一题"))
-            }
-            .buttonStyle(ChunkyButtonStyle(qPhase == .answering && currentAnswer.trimmingCharacters(in: .whitespaces).isEmpty ? .disabled : .primary))
-            .disabled(qPhase == .answering && currentAnswer.trimmingCharacters(in: .whitespaces).isEmpty)
-            .padding(.horizontal, 20).padding(.bottom, 32).padding(.top, 12)
         }
-        .background(DuoColors.bg)
     }
 
     private func check(_ q: Question) {
@@ -381,7 +347,8 @@ struct StoryReaderView: View {
         let acc = accuracy(story)
         let xp = Economy.storyQuizXp(accuracy: acc)
         let alreadyDone = progressStore.isReadingCompleted(storyRewardId)
-        return VStack(spacing: 18) {
+        return LearningCelebrationBody {
+          VStack(spacing: 18) {
             Spacer()
             MascotView(mood: acc >= Economy.ReadingXP.goodThreshold ? .proud : .think, size: 110, reactTo: .levelup)
             StarRevealView(earnedStars: stars(story))
@@ -398,13 +365,14 @@ struct StoryReaderView: View {
             .background(DuoColors.secondary.opacity(0.14), in: .capsule)
 
             Spacer()
-            Button("完成") { dismiss() }
-                .buttonStyle(ChunkyButtonStyle(.primary))
-                .padding(.horizontal, 32)
-                .accessibilityIdentifier("story-result-done")
+          }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .padding()
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                Button("完成") { dismiss() }.buttonStyle(ChunkyButtonStyle(.primary))
+                    .accessibilityIdentifier("story-result-done")
+            }
+        }
         .onAppear {
             guard !awarded else { return }
             // completeReading 内部按 id 幂等 —— 二刷不再发 XP。

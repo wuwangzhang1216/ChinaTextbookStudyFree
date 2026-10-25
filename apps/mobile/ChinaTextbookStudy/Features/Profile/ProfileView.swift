@@ -211,7 +211,8 @@ private struct RenameSheet: View {
     }
 
     var body: some View {
-        VStack(spacing: 18) {
+        ScrollView {
+          VStack(spacing: 18) {
             MascotView(mood: .happy, size: 72)
                 .padding(.top, 20)
 
@@ -239,8 +240,11 @@ private struct RenameSheet: View {
                 .duoFont(.micro)
                 .foregroundStyle(DuoColors.inkMuted)
 
-            Spacer(minLength: 0)
 
+          }.learningContent()
+        }
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
             VStack(spacing: 10) {
                 Button("保存") {
                     onSave()
@@ -253,10 +257,8 @@ private struct RenameSheet: View {
                 Button("取消") { dismiss() }
                     .buttonStyle(ChunkyButtonStyle(.ghost))
             }
-            .padding(.horizontal, 24)
-            .padding(.bottom, 20)
+            }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .top)
         .background(DuoColors.bg.ignoresSafeArea())
         .onAppear { focused = true }
         .onChange(of: draft) { _, newValue in

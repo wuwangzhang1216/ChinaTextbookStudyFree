@@ -164,7 +164,7 @@ struct IntroCardView: View {
                 Image(systemName: "xmark")
                     .font(.system(size: 20, weight: .black))
                     .foregroundStyle(DuoColors.inkMuted)
-                    .frame(width: 36, height: 36)
+                    .frame(width: 44, height: 44)
             }
             .accessibilityLabel("退出课程")
 
@@ -256,7 +256,8 @@ struct IntroCardView: View {
     // MARK: - 底部：上一步 + 主按钮
 
     private func footer(pages all: [Page]) -> some View {
-        HStack(spacing: 12) {
+        LearningActionDock {
+          HStack(spacing: 12) {
             if pageIdx > 0 {
                 Button {
                     HapticEngine.shared.tap()
@@ -297,12 +298,6 @@ struct IntroCardView: View {
             .buttonStyle(ChunkyButtonStyle(.primary))
             .accessibilityIdentifier(isLast ? "intro-start" : "intro-next")
         }
-        .padding(.horizontal, 20)
-        .padding(.top, 12)
-        .padding(.bottom, 28)
-        .background(DuoColors.bg)
-        .overlay(alignment: .top) {
-            Rectangle().fill(DuoColors.border).frame(height: 1)
         }
     }
 

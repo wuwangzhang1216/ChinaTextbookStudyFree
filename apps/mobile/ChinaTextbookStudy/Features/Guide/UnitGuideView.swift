@@ -13,6 +13,7 @@ struct UnitGuideView: View {
         let knowledge: KnowledgeSummary
     }
 
+    @Environment(\.dismiss) private var dismiss
     @State private var cards: [GuideCard] = []
     @State private var unitTitle = ""
     @State private var unitLabel: String?
@@ -64,21 +65,21 @@ struct UnitGuideView: View {
                 audioPlayer.stop()
             }
 
-            // 自定义进度点 + 页码
-            HStack(spacing: 6) {
-                ForEach(cards.indices, id: \.self) { i in
-                    Capsule()
-                        .fill(i == pageIdx ? DuoColors.primary : DuoColors.surfaceAlt)
-                        .frame(width: i == pageIdx ? 22 : 8, height: 8)
-                        .animation(Motion.bounce, value: pageIdx)
+        }
+        .safeAreaInset(edge: .bottom, spacing: 0) {
+            LearningActionDock {
+                HStack(spacing: 12) {
+                    Button("上一课") { withAnimation(Motion.reveal) { pageIdx -= 1 } }
+                        .buttonStyle(ChunkyButtonStyle(pageIdx == 0 ? .disabled : .ghost)).disabled(pageIdx == 0)
+                        .accessibilityIdentifier("guide-previous")
+                    Text("\(pageIdx + 1)/\(cards.count)").duoNumeral(.caption).foregroundStyle(DuoColors.inkMuted).fixedSize()
+                    Button(pageIdx + 1 == cards.count ? "完成" : "下一课") {
+                        if pageIdx + 1 == cards.count { dismiss() }
+                        else { withAnimation(Motion.reveal) { pageIdx += 1 } }
+                    }
+                    .buttonStyle(ChunkyButtonStyle(.primary)).accessibilityIdentifier("guide-next")
                 }
-                Spacer()
-                Text("\(pageIdx + 1)/\(cards.count)")
-                    .duoNumeral(.caption)
-                    .foregroundStyle(DuoColors.inkSofter)
             }
-            .padding(.horizontal, 24)
-            .padding(.vertical, 12)
         }
     }
 
@@ -134,10 +135,10 @@ struct UnitGuideView: View {
                     .frame(maxWidth: .infinity)
                     .padding(.vertical, 18)
                     .padding(.horizontal, 14)
-                    .background(DuoColors.primary.opacity(0.08), in: .rect(cornerRadius: Radius.card))
+                    .background(DuoColors.correctFill, in: .rect(cornerRadius: Radius.card))
                     .overlay {
                         RoundedRectangle(cornerRadius: Radius.card)
-                            .strokeBorder(DuoColors.primary.opacity(0.35), lineWidth: 2)
+                            .strokeBorder(DuoColors.correctBorder, lineWidth: 2)
                     }
                 }
 
@@ -187,8 +188,10 @@ struct UnitGuideView: View {
                 RoundedRectangle(cornerRadius: Radius.large)
                     .strokeBorder(DuoColors.border, lineWidth: 2)
             }
-            .padding(.horizontal, 16)
+            .frame(maxWidth: LearningLayout.contentWidth - 40)
+            .padding(.horizontal, 20)
             .padding(.vertical, 12)
+            .frame(maxWidth: .infinity)
         }
         .accessibilityIdentifier("guide-card-\(card.id)")
     }

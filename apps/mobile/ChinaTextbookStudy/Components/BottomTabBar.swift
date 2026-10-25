@@ -17,6 +17,7 @@ struct BottomTabBar: View {
                 tabItem(tab)
             }
         }
+        .padding(.horizontal, 8)
         .padding(.vertical, 8)
         .background(DuoColors.bg)
         .overlay(alignment: .top) {
@@ -40,7 +41,8 @@ struct BottomTabBar: View {
                     if isActive {
                         RoundedRectangle(cornerRadius: Radius.card)
                             .fill(tab.activeColor.opacity(0.14))
-                            .frame(width: 52, height: 32)
+                            .overlay { RoundedRectangle(cornerRadius: Radius.card).strokeBorder(tab.activeColor.opacity(0.45), lineWidth: 2) }
+                            .frame(width: 48, height: 34)
                     }
                     Image(systemName: tab.symbol)
                         .font(.system(size: 22, weight: .semibold))
@@ -51,19 +53,19 @@ struct BottomTabBar: View {
 
                 if let count = badge?.count, count > 0 {
                     Text(count > 99 ? "99+" : "\(count)")
-                        .duoFont(.micro, weight: .heavy)
+                        .duoFont(.micro)
                         .foregroundStyle(.white)
                         .padding(.horizontal, 5)
                         .frame(minWidth: 18, minHeight: 18)
                         .background(DuoColors.danger, in: .capsule)
                         .overlay(Capsule().strokeBorder(DuoColors.bg, lineWidth: 2))
-                        .offset(x: 8, y: -2)
+                        .offset(x: 2, y: -2)
                 } else if badge?.dot == true {
                     Circle()
                         .fill(DuoColors.danger)
                         .frame(width: 10, height: 10)
                         .overlay(Circle().strokeBorder(DuoColors.bg, lineWidth: 2))
-                        .offset(x: 6, y: 0)
+                        .offset(x: 2, y: 0)
                 }
               }
               Text(tab.label)

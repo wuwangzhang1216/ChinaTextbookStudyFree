@@ -1,0 +1,212 @@
+[
+  {
+    "image": "pro-02b-knowledge-intro.png",
+    "device": "Congcong UX Pro",
+    "test": "ScreenshotTests/testCaptureMainScreens()",
+    "attachment": "02b-knowledge-intro",
+    "capturedAt": 1792969647.876
+  },
+  {
+    "image": "pro-guide-first.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testGuideHasVisiblePreviousAndNextActions()",
+    "attachment": "audit-guide-first",
+    "capturedAt": 1792969709.3
+  },
+  {
+    "image": "pro-jump-briefing.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testJumpBriefingFeedbackAndQuitUseTheSameControls()",
+    "attachment": "audit-jump-briefing",
+    "capturedAt": 1792969733.37
+  },
+  {
+    "image": "pro-jump-feedback.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testJumpBriefingFeedbackAndQuitUseTheSameControls()",
+    "attachment": "audit-jump-feedback",
+    "capturedAt": 1792969737.878
+  },
+  {
+    "image": "pro-review-feedback.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testReviewFeedbackAndCompletionHavePinnedActions()",
+    "attachment": "audit-review-feedback",
+    "capturedAt": 1792970158.225
+  },
+  {
+    "image": "pro-review-result.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testReviewFeedbackAndCompletionHavePinnedActions()",
+    "attachment": "audit-review-result",
+    "capturedAt": 1792970159.788
+  },
+  {
+    "image": "pro-story-feedback.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testReadingLibrariesKeepNavigationAndStoriesUseSharedFeedback()",
+    "attachment": "audit-story-feedback",
+    "capturedAt": 1792969785.459
+  },
+  {
+    "image": "pro-story-result.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testReadingLibrariesKeepNavigationAndStoriesUseSharedFeedback()",
+    "attachment": "audit-story-result",
+    "capturedAt": 1792969798.859
+  },
+  {
+    "image": "pro-lesson-result-1.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testEveryLessonResultStageKeepsActionsVisibleAndClaimTargetsTheProfileTab()",
+    "attachment": "audit-lesson-result-1",
+    "capturedAt": 1792969696.971
+  },
+  {
+    "image": "pro-book-catalogue.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testBookCatalogueAndBookPathUseTheSameNavigationPolicy()",
+    "attachment": "audit-book-catalogue",
+    "capturedAt": 1792969664.751
+  },
+  {
+    "image": "pro-book-path.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testBookCatalogueAndBookPathUseTheSameNavigationPolicy()",
+    "attachment": "audit-book-path",
+    "capturedAt": 1792969669.293
+  },
+  {
+    "image": "pro-league-unlocked.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testUnlockedLeagueHasTheSameNavigationAndReadingWidth()",
+    "attachment": "audit-league-unlocked",
+    "capturedAt": 1792969850.226
+  },
+  {
+    "image": "pro-achievements.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testSettingsReportsAndAchievementSharingRemainConsistent()",
+    "attachment": "audit-achievements",
+    "capturedAt": 1792969842.412
+  },
+  {
+    "image": "pro-settings.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testSettingsReportsAndAchievementSharingRemainConsistent()",
+    "attachment": "audit-settings",
+    "capturedAt": 1792969832.407
+  },
+  {
+    "image": "pro-sheet-streak.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testHomeStatisticSheetsAndDailyGoalUseReachableDocks()",
+    "attachment": "audit-sheet-streak",
+    "capturedAt": 1792969718.456
+  },
+  {
+    "image": "pro-sheet-gems.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testHomeStatisticSheetsAndDailyGoalUseReachableDocks()",
+    "attachment": "audit-sheet-gems",
+    "capturedAt": 1792969721.548
+  },
+  {
+    "image": "pro-sheet-hearts.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testHomeStatisticSheetsAndDailyGoalUseReachableDocks()",
+    "attachment": "audit-sheet-hearts",
+    "capturedAt": 1792969724.615
+  },
+  {
+    "image": "pro-sheet-goal.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testHomeStatisticSheetsAndDailyGoalUseReachableDocks()",
+    "attachment": "audit-sheet-goal",
+    "capturedAt": 1792969727.731
+  },
+  {
+    "image": "pro-book-picker.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testBookPickerAndChestKeepTheirControlsInsideTheSheet()",
+    "attachment": "audit-book-picker",
+    "capturedAt": 1792969676.224
+  },
+  {
+    "image": "pro-cosmetic-preview.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testRenameActionsStayAboveTheKeyboardAndPreviewUsesTheSameDock()",
+    "attachment": "audit-cosmetic-preview",
+    "capturedAt": 1792969813.582
+  },
+  {
+    "image": "pro-achievement-share.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testSettingsReportsAndAchievementSharingRemainConsistent()",
+    "attachment": "audit-achievement-share",
+    "capturedAt": 1792969844.719
+  },
+  {
+    "image": "pro-chest-opened.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testBookPickerAndChestKeepTheirControlsInsideTheSheet()",
+    "attachment": "audit-chest-opened",
+    "capturedAt": 1792969686.208
+  },
+  {
+    "image": "pro-jump-quit.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testJumpBriefingFeedbackAndQuitUseTheSameControls()",
+    "attachment": "audit-jump-quit",
+    "capturedAt": 1792969739.47
+  },
+  {
+    "image": "pro-reports.png",
+    "device": "Congcong UX Pro",
+    "test": "SurfaceConsistencyUITests/testSettingsReportsAndAchievementSharingRemainConsistent()",
+    "attachment": "audit-reports",
+    "capturedAt": 1792969835.647
+  },
+  {
+    "image": "small-rename-keyboard.png",
+    "device": "Congcong UX Small",
+    "test": "SurfaceConsistencyUITests/testRenameActionsStayAboveTheKeyboardAndPreviewUsesTheSameDock()",
+    "attachment": "audit-rename-keyboard",
+    "capturedAt": 1792969649.697
+  },
+  {
+    "image": "small-large-result-1.png",
+    "device": "Congcong UX Small",
+    "test": "SurfaceConsistencyUITests/testLargeTypeGuideAndResultKeepTheirBottomActionsVisible()",
+    "attachment": "audit-large-result-1",
+    "capturedAt": 1792969636.151
+  },
+  {
+    "image": "small-lesson-settings-large.png",
+    "device": "Congcong UX Small",
+    "test": "SurfaceConsistencyUITests/testLessonSettingsAndQuestionReportHaveTheSamePinnedDismissAction()",
+    "attachment": "audit-lesson-settings-large",
+    "capturedAt": 1792969482.218
+  },
+  {
+    "image": "small-question-report-large.png",
+    "device": "Congcong UX Small",
+    "test": "SurfaceConsistencyUITests/testLessonSettingsAndQuestionReportHaveTheSamePinnedDismissAction()",
+    "attachment": "audit-question-report-large",
+    "capturedAt": 1792969486.657
+  },
+  {
+    "image": "small-zero-hearts.png",
+    "device": "Congcong UX Small",
+    "test": "SurfaceConsistencyUITests/testZeroHeartsGateKeepsRefillAndDismissVisible()",
+    "attachment": "audit-zero-hearts",
+    "capturedAt": 1792969576.467
+  },
+  {
+    "image": "ipad-league-unlocked.png",
+    "device": "iPad Pro 11-inch (M5)",
+    "test": "SurfaceConsistencyUITests/testUnlockedLeagueHasTheSameNavigationAndReadingWidth()",
+    "attachment": "audit-league-unlocked",
+    "capturedAt": 1792969384.823
+  }
+]

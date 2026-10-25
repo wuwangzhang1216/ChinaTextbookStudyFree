@@ -337,13 +337,12 @@ struct LessonRunnerView: View {
 
                 HStack(alignment: .top, spacing: 10) {
                     Text(MathText.render(q.question))
-                        .duoFont(.heading, weight: .bold)
+                        .duoFont(.subhead, weight: .medium)
                         .foregroundStyle(DuoColors.ink)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .lineSpacing(4)
                     TTSButton(path: q.audio?.question)
                 }
-                .learningCard()
 
                 QuestionRendererView(
                     question: q,
@@ -399,15 +398,9 @@ struct LessonRunnerView: View {
 
     private func feedbackPanel(ok: Bool, question: Question) -> some View {
         let accent = ok ? DuoColors.successInk : DuoColors.errorInk
-        let surface = (ok ? DuoColors.primary : DuoColors.danger).opacity(0.10)
+        let surface = ok ? DuoColors.correctFill : DuoColors.wrongFill
 
         return VStack(alignment: .leading, spacing: 14) {
-            Rectangle()
-                .fill(DuoColors.border)
-                .frame(height: 2)
-                .frame(maxWidth: .infinity)
-                .padding(.bottom, 4)
-
             HStack(alignment: .center, spacing: 12) {
                 MascotView(mood: mascotMood, size: 54, reactTo: feedbackReaction, reactKey: index + 1)
 

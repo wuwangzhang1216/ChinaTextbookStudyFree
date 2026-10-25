@@ -258,7 +258,7 @@ struct HomeView: View {
                     .buttonStyle(ChunkyButtonStyle(.primary))
                     .accessibilityIdentifier("home-continue")
                 }
-                .learningCard(tint: DuoColors.primary)
+                .learningCard()
             }
             LearningSectionTitle(title: "我的学习路线", detail: "\(book.fullName) · 一步一步，学会每个知识点")
         }

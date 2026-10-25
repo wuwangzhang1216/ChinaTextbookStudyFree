@@ -225,24 +225,24 @@ private struct FillBlankQuestionView: View {
 
     private var fieldBackground: Color {
         switch state {
-        case .correct: return DuoColors.primary.opacity(0.15)
-        case .wrong:   return DuoColors.danger.opacity(0.15)
-        case .selected: return DuoColors.secondary.opacity(0.10)
+        case .correct: return DuoColors.correctFill
+        case .wrong:   return DuoColors.wrongFill
+        case .selected: return DuoColors.selectedFill
         default:       return DuoColors.surface
         }
     }
     private var fieldBorder: Color {
         switch state {
-        case .correct: return DuoColors.primary
-        case .wrong:   return DuoColors.danger
-        case .selected: return DuoColors.secondary
+        case .correct: return DuoColors.correctBorder
+        case .wrong:   return DuoColors.wrongBorder
+        case .selected: return DuoColors.selectedBorder
         default:       return DuoColors.border
         }
     }
     private var fieldForeground: Color {
         switch state {
-        case .correct: return DuoColors.primary
-        case .wrong:   return DuoColors.danger
+        case .correct: return DuoColors.successInk
+        case .wrong:   return DuoColors.errorInk
         default:       return DuoColors.ink
         }
     }

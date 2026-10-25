@@ -349,8 +349,8 @@ struct PassageReaderView: View {
             }
         }
         .buttonStyle(ChunkySmallButtonStyle(
-            background: followup.isActive ? DuoColors.danger : DuoColors.fox,
-            shadowColor: followup.isActive ? DuoColors.dangerDark : DuoColors.fox.opacity(0.6)
+            background: followup.isActive ? DuoColors.danger : DuoColors.secondary,
+            shadowColor: followup.isActive ? DuoColors.dangerDark : DuoColors.secondaryDark
         ))
     }
 

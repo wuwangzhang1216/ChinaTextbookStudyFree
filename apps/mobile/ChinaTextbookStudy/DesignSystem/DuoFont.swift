@@ -39,9 +39,10 @@ enum DuoFont: CaseIterable {
 
     var weight: Font.Weight {
         switch self {
-        case .display, .title, .heading, .button: return .heavy
-        case .subhead, .caption, .micro:          return .bold
-        case .body:                               return .medium
+        case .display, .title, .heading, .button: return .bold
+        case .subhead, .micro:                     return .semibold
+        case .caption:                             return .medium
+        case .body:                               return .regular
         }
     }
 

@@ -39,8 +39,8 @@ enum DuoColors {
     // MARK: - Equipped UI theme
     //
     // A purchased `UiThemeData` (Cosmetics.uiThemes) can repaint the brand
-    // colors app-wide. Surfaces stay on the neutral adaptive tokens so contrast
-    // is guaranteed no matter which theme is on. `nil` = stock Duolingo green.
+    // colors app-wide. Surfaces stay neutral across themes, while filled
+    // controls retain white labels. `nil` = stock Duolingo green.
     static var themeOverride: UiThemeData?
 
     /// Darken a color in HSB — keeps the 3D "ledge" shade in step with a
@@ -78,31 +78,18 @@ enum DuoColors {
     /// Alias of `inkLight` — the canonical name for secondary labels.
     static let inkMuted  = inkLight
 
-    // Bright accents belong on illustrations and controls. Text on white
-    // needs these deeper tones; success/error also have an icon and a label.
-    static let successInk = adaptive(light: 0x286B16, dark: 0xA6E883)
-    static let errorInk = adaptive(light: 0xB32632, dark: 0xFFADB3)
-    static let linkInk = adaptive(light: 0x126B9A, dark: 0x80D4FF)
-    static let brandInk = Color(hex: 0x173B12)
-    static let canvas = adaptive(light: 0xF7F9F5, dark: 0x131F24)
-
-    /// Select a legible label for any purchased control color, including the
-    /// bright default green. White alone disappears on several light themes.
-    static func readableInk(on background: Color) -> Color {
-        func luminance(_ color: Color) -> Double {
-            var r: CGFloat = 0, g: CGFloat = 0, b: CGFloat = 0, a: CGFloat = 0
-            UIColor(color).getRed(&r, green: &g, blue: &b, alpha: &a)
-            func linear(_ value: CGFloat) -> Double {
-                let v = Double(value)
-                return v <= 0.04045 ? v / 12.92 : pow((v + 0.055) / 1.055, 2.4)
-            }
-            return 0.2126 * linear(r) + 0.7152 * linear(g) + 0.0722 * linear(b)
-        }
-        let value = luminance(background)
-        if 1.05 / (value + 0.05) >= 4.5 { return .white }
-        if (value + 0.05) / (luminance(brandInk) + 0.05) >= 4.5 { return brandInk }
-        return .black
-    }
+    // Keep state colors explicit: translucent color over a colored button
+    // ledge changes the intended palette and makes option faces look muddy.
+    static let successInk = adaptive(light: 0x58A700, dark: 0x89E219)
+    static let errorInk = adaptive(light: 0xEA2B2B, dark: 0xFF4B4B)
+    static let linkInk = adaptive(light: 0x1899D6, dark: 0x1CB0F6)
+    static let selectedFill = adaptive(light: 0xDDF4FF, dark: 0x153F50)
+    static let selectedBorder = adaptive(light: 0x84D8FF, dark: 0x1CB0F6)
+    static let correctFill = adaptive(light: 0xD7FFB8, dark: 0x234019)
+    static let correctBorder = adaptive(light: 0xA5ED6E, dark: 0x58A700)
+    static let wrongFill = adaptive(light: 0xFFDFE0, dark: 0x45252B)
+    static let wrongBorder = adaptive(light: 0xFFB2B2, dark: 0xEA2B2B)
+    static let canvas = bg
 
     // Surface tokens — soft gray in light, deep navy in dark (Duolingo night).
     static let bgSoft   = adaptive(light: 0xF7F7F7, dark: 0x131F24)

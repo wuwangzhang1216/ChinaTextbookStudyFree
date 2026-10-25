@@ -21,7 +21,7 @@ struct LearningPageHeader: View {
                     .duoFont(.caption)
                     .foregroundStyle(DuoColors.inkMuted)
                 Text(title)
-                    .duoFont(.title)
+                    .duoFont(.heading)
                     .foregroundStyle(DuoColors.ink)
                     .fixedSize(horizontal: false, vertical: true)
                 Text(subtitle)
@@ -30,9 +30,8 @@ struct LearningPageHeader: View {
                     .fixedSize(horizontal: false, vertical: true)
             }
             .frame(maxWidth: .infinity, alignment: .leading)
-            MascotView(mood: mood, size: 88)
+            MascotView(mood: mood, size: 76)
                 .padding(6)
-                .background(tint.opacity(0.12), in: RoundedRectangle(cornerRadius: 28))
                 .accessibilityHidden(true)
         }
         .accessibilityElement(children: .combine)
@@ -63,7 +62,7 @@ private struct LearningCardModifier: ViewModifier {
             .background(DuoColors.surface, in: RoundedRectangle(cornerRadius: Radius.large))
             .overlay {
                 RoundedRectangle(cornerRadius: Radius.large)
-                    .strokeBorder(tint?.opacity(0.35) ?? DuoColors.border, lineWidth: 2)
+                    .strokeBorder(tint ?? DuoColors.border, lineWidth: 2)
             }
     }
 }

@@ -96,7 +96,7 @@ struct ProfileView: View {
                 .duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
         }
         .frame(maxWidth: .infinity)
-        .learningCard(tint: DuoColors.secondary)
+        .learningCard()
     }
 
     // MARK: - Stat grid

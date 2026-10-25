@@ -4,17 +4,13 @@ import SwiftUI
 enum OptionCardState: Equatable {
     case `default`    // neutral dark surface with thin border
     case selected     // blue fill + blue border
-    case correct      // green fill + green border + glow
-    case wrong        // red fill + red border + glow
+    case correct      // pale green face + green border and label
+    case wrong        // pale red face + red border and label
     case disabled     // grayed out, non-interactive
 }
 
-/// Duolingo-style option card modifier — dark night-mode palette.
-///
-/// Reference (Duolingo iOS dark):
-/// - surface: slightly lighter than page bg (#202F36 on #131F24)
-/// - border: 2pt thin line (#37464F)
-/// - no heavy shadow in default state; colored glow only when correct/wrong
+/// Flat option faces with a crisp 2pt border. State fills are opaque and
+/// adaptive; depth comes from the button's bottom ledge, never a blurred glow.
 struct OptionCardModifier: ViewModifier {
     let state: OptionCardState
 
@@ -24,7 +20,7 @@ struct OptionCardModifier: ViewModifier {
 
     func body(content: Content) -> some View {
         content
-            .font(.body.weight(.heavy))
+            .duoFont(.subhead, weight: .semibold)
             .foregroundStyle(foregroundColor)
             .frame(maxWidth: .infinity, alignment: .leading)
             .frame(minHeight: 60)
@@ -36,34 +32,30 @@ struct OptionCardModifier: ViewModifier {
                 RoundedRectangle(cornerRadius: cornerRadius)
                     .strokeBorder(borderColor, lineWidth: borderWidth)
             }
-            .shadow(color: glowColor, radius: 4, x: 0, y: 0)
             .animation(.spring(response: 0.25, dampingFraction: 0.7), value: state)
     }
 
     private var borderWidth: CGFloat {
-        switch state {
-        case .default, .disabled: return 2
-        default:                  return 2.5
-        }
+        2
     }
 
     private var borderColor: Color {
         switch state {
         case .default:  return DuoColors.darkSurfaceAlt
-        case .selected: return DuoColors.linkInk
-        case .correct:  return DuoColors.successInk
-        case .wrong:    return DuoColors.errorInk
-        case .disabled: return DuoColors.darkSurfaceAlt.opacity(0.5)
+        case .selected: return DuoColors.selectedBorder
+        case .correct:  return DuoColors.correctBorder
+        case .wrong:    return DuoColors.wrongBorder
+        case .disabled: return DuoColors.border
         }
     }
 
     private var backgroundColor: Color {
         switch state {
         case .default:  return DuoColors.darkSurface
-        case .selected: return DuoColors.secondary.opacity(0.18)
-        case .correct:  return DuoColors.primary.opacity(0.22)
-        case .wrong:    return DuoColors.danger.opacity(0.20)
-        case .disabled: return DuoColors.darkSurface.opacity(0.5)
+        case .selected: return DuoColors.selectedFill
+        case .correct:  return DuoColors.correctFill
+        case .wrong:    return DuoColors.wrongFill
+        case .disabled: return DuoColors.surface
         }
     }
 
@@ -77,13 +69,6 @@ struct OptionCardModifier: ViewModifier {
         }
     }
 
-    private var glowColor: Color {
-        switch state {
-        case .correct:  return DuoColors.primary.opacity(0.35)
-        case .wrong:    return DuoColors.danger.opacity(0.30)
-        default:        return .clear
-        }
-    }
 }
 
 extension View {
@@ -98,10 +83,10 @@ extension OptionCardState {
     var ledgeColor: Color {
         switch self {
         case .default:  return DuoColors.border
-        case .selected: return DuoColors.secondaryDark
-        case .correct:  return DuoColors.primaryDark
-        case .wrong:    return DuoColors.dangerDark
-        case .disabled: return DuoColors.border.opacity(0.5)
+        case .selected: return DuoColors.selectedBorder
+        case .correct:  return DuoColors.correctBorder
+        case .wrong:    return DuoColors.wrongBorder
+        case .disabled: return DuoColors.border
         }
     }
 }

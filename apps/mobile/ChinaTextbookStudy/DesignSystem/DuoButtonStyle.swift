@@ -16,7 +16,7 @@ struct ChunkyButtonStyle: ButtonStyle {
         self.variant = variant
     }
 
-    private let cornerRadius: CGFloat = Radius.card
+    private let cornerRadius: CGFloat = Radius.control
     private let depth: CGFloat = 4
 
     func makeBody(configuration: Configuration) -> some View {
@@ -40,7 +40,6 @@ struct ChunkyButtonStyle: ButtonStyle {
                 .frame(maxWidth: .infinity)
                 .frame(minHeight: 50)
                 .padding(.horizontal, 20)
-                .padding(.vertical, 4)
                 .background(colors.background, in: RoundedRectangle(cornerRadius: cornerRadius))
                 .overlay {
                     if variant == .ghost {
@@ -55,7 +54,6 @@ struct ChunkyButtonStyle: ButtonStyle {
         .scaleEffect(isPressed ? 0.99 : 1.0)
         .animation(Motion.press, value: isPressed)
         .allowsHitTesting(variant != .disabled)
-        .opacity(variant == .disabled ? 0.6 : 1.0)
     }
 
     private struct ResolvedColors {
@@ -67,13 +65,13 @@ struct ChunkyButtonStyle: ButtonStyle {
     private func resolveColors() -> ResolvedColors {
         switch variant {
         case .primary:
-            return ResolvedColors(background: DuoColors.primary, foreground: DuoColors.readableInk(on: DuoColors.primary), shadow: DuoColors.primaryDark)
+            return ResolvedColors(background: DuoColors.primary, foreground: .white, shadow: DuoColors.primaryDark)
         case .secondary:
-            return ResolvedColors(background: DuoColors.secondary, foreground: DuoColors.readableInk(on: DuoColors.secondary), shadow: DuoColors.secondaryDark)
+            return ResolvedColors(background: DuoColors.secondary, foreground: .white, shadow: DuoColors.secondaryDark)
         case .danger:
-            return ResolvedColors(background: DuoColors.danger, foreground: DuoColors.readableInk(on: DuoColors.danger), shadow: DuoColors.dangerDark)
+            return ResolvedColors(background: DuoColors.danger, foreground: .white, shadow: DuoColors.dangerDark)
         case .ghost:
-            return ResolvedColors(background: DuoColors.surface, foreground: DuoColors.inkLight, shadow: DuoColors.border)
+            return ResolvedColors(background: DuoColors.surface, foreground: DuoColors.secondary, shadow: DuoColors.border)
         case .disabled:
             return ResolvedColors(background: DuoColors.bgSofter, foreground: DuoColors.inkSofter, shadow: DuoColors.bgSofter)
         }
@@ -95,8 +93,8 @@ struct ChunkySmallButtonStyle: ButtonStyle {
                 .frame(minHeight: 44)
 
             configuration.label
-                .font(.caption.weight(.heavy))
-                .foregroundStyle(DuoColors.readableInk(on: background))
+                .duoFont(.caption)
+                .foregroundStyle(.white)
                 .padding(.horizontal, 12)
                 .frame(minHeight: 44)
                 .background(background, in: RoundedRectangle(cornerRadius: cornerRadius))

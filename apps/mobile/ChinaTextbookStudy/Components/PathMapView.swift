@@ -46,7 +46,7 @@ struct PathMapView: View {
     /// 单元 → 主题色（1 号单元从绿色开始，往后 6 色循环）。
     private func unitColors(_ unitNumber: Int) -> (top: Color, ledge: Color) {
         let count = Self.unitPalette.count
-        let index = ((unitNumber - 1) % count + count) % count
+        let index = (max(1, unitNumber) - 1) % count
         return Self.unitPalette[index]
     }
 
@@ -219,12 +219,12 @@ struct PathMapView: View {
               HStack(alignment: .top, spacing: 10) {
                 Text(isExam ? "⚔️ \(node.title)" : node.title)
                     .duoFont(.subhead)
-                    .foregroundStyle(DuoColors.readableInk(on: accent))
+                    .foregroundStyle(.white)
                     .multilineTextAlignment(.leading)
                     .frame(maxWidth: .infinity, alignment: .leading)
                 Button { withAnimation(Motion.press) { selectedIndex = nil } } label: {
                     Image(systemName: "xmark").font(.system(size: 14, weight: .heavy))
-                        .foregroundStyle(DuoColors.readableInk(on: accent))
+                        .foregroundStyle(.white)
                         .frame(width: 44, height: 44)
                 }
                 .buttonStyle(.plain)
@@ -232,11 +232,11 @@ struct PathMapView: View {
               }
                 Text(subtitle)
                     .duoFont(.caption)
-                    .foregroundStyle(DuoColors.readableInk(on: accent))
+                    .foregroundStyle(.white)
                 if isExam, node.status != .completed {
                     Text("答对 80% 以上就能征服这个单元，赢得金色奖杯！")
                         .duoFont(.micro)
-                        .foregroundStyle(DuoColors.readableInk(on: accent))
+                        .foregroundStyle(.white)
                 }
                 Button {
                     selectedIndex = nil
@@ -246,7 +246,7 @@ struct PathMapView: View {
                          ? (node.status == .completed ? "再战一次" : "开始挑战")
                          : (node.status == .completed ? "再练一次" : "开始"))
                         .duoFont(.button)
-                        .foregroundStyle(DuoColors.brandInk)
+                        .foregroundStyle(accent)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 13)
                         .background(.white, in: .capsule)

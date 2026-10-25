@@ -1,24 +1,24 @@
 # App Store 上架清单
 
-这份文档记录 iOS 端送审所需的全部 metadata 和上架步骤。代码和资源层面的准备已完成，剩下的都是 App Store Connect 后台配置 + 资产产出。
+这份文档记录 iOS 端送审所需的 metadata 和上架步骤。2026-10-25 完成聪聪学堂原生 UX 升级；模拟器截图与验证见 [iOS UX 图库](../../docs/ios-ux-gallery.html)。签名、真机验收和 App Store Connect 配置仍需完成。
 
 ## 0. 当前状态一览
 
 | 项目 | 状态 | 位置 |
 |---|---|---|
 | Xcode 项目生成 | ✅ | `apps/mobile/project.yml` → `xcodegen generate` |
-| App icon (1024×1024 占位) | ✅ | `apps/mobile/ChinaTextbookStudy/Resources/Assets.xcassets/AppIcon.appiconset/` |
+| App icon (1024×1024，不透明) | ✅ | 与 Web 统一的熊猫聪聪图标；`scripts/media/build-ios-icon.sh` 可重建 |
 | 隐私清单 (`PrivacyInfo.xcprivacy`) | ✅ | `apps/mobile/ChinaTextbookStudy/Resources/PrivacyInfo.xcprivacy` |
 | `LSApplicationCategoryType` | ✅ | `public.app-category.education` |
 | `ITSAppUsesNonExemptEncryption` | ✅ | `NO`（没有自研加密） |
 | `NSHumanReadableCopyright` | ✅ | 声明教材内容版权 + 客户端 MIT |
-| 单元测试 | ✅ | 50 passing（iPhone 模拟器） |
-| UI 测试 | ✅ | 11 passing（iPhone 模拟器） |
-| 真实 App icon 设计 | ⬜ | 需要你 / 设计师产出最终 1024px PNG，替换 `icon-1024.png` |
+| 单元测试 | ✅ | 本轮具体结果与设备见 iOS UX 图库 |
+| UI 测试 | ✅ | 本轮具体结果与设备见 iOS UX 图库 |
+| 品牌图标 | ✅ | 复用 `apps/web/public/icons/icon.svg` 的熊猫几何图形 |
 | Bundle ID | ⬜ | 目前是占位 `com.example.ChinaTextbookStudy`，上架前改成你自己的 |
 | `DEVELOPMENT_TEAM` | ⬜ | 需要你的 Apple Developer Team ID |
 | 真机运行验证 | ⬜ | 音频需要真机 / 开声音的模拟器手动听一遍 |
-| GitHub Release iOS 资源包 | ⬜ | 需要跑 `scripts/package-release-ios.sh` 并上传 |
+| GitHub Release iOS 资源包 | ✅ | `v1.7.0-ios-resources`，58 册目录；语文一上和新版数学一上已抽样验证数据与 AAC |
 
 ## 1. 上架前必须改的东西
 
@@ -45,7 +45,7 @@ targets:
 
 ### 1.3 真实的 App Icon
 
-占位图标是一个绿→蓝渐变背景 + 白色 "课" 字，由 `scripts/generate-app-icon.py` 生成。这是占位用，不要拿它去上架。
+当前已使用和 Web 一致的熊猫聪聪品牌图标。运行 `bash scripts/media/build-ios-icon.sh` 可从规范 SVG 重新生成，需安装 `rsvg-convert`。产物为 1024×1024 无 alpha 的 PNG；iOS 自行应用系统圆角。
 
 替换流程：
 1. 产出一张 **1024×1024 sRGB 不透明 PNG**（Apple 要求：无 alpha，方形，系统自动圆角）
@@ -55,24 +55,23 @@ targets:
 
 ### 1.4 GitHub Release 的 iOS 资源包
 
-iOS 端的音频 + 数据不进 bundle，靠 `AssetDownloader` 首启按需下载。要让这个路径真的能用，你需要：
+iOS 端内置一年级上册旧版和 2026 修订版数据，以及各自首课音频。其余内容由 `AssetDownloader` 按需下载。当前已发布的资源为 `v1.7.0-ios-resources`，manifest 包含 58 册；无需重复创建该 Release。
+
+未来发布新版本时：
 
 ```bash
 # 1. 转码 & 打包（~40 min 全量，~10.7MB per book）
 bash scripts/package-release-ios.sh
 
-# 2. 新开一个 GitHub Release（不和 Web 端的 v1.1.0-assets 共用）
-#    tag 必须与 AssetDownloader.releaseBaseURL 一致（当前 v1.1.0-ios-assets）
-gh release create v1.1.0-ios-assets \
+# 2. 使用新的资源 tag，且同步更新 AssetDownloader.releaseBaseURL
+: "${IOS_ASSET_TAG:?请先设置本次新的 iOS 资源 tag}"
+gh release create "$IOS_ASSET_TAG" \
     /tmp/release-assets-ios/*.zip \
     /tmp/release-assets-ios/ios-manifest.json \
     --notes "iOS asset bundle: per-book data + AAC-24k m4a audio"
 ```
 
-对应代码在 [apps/mobile/ChinaTextbookStudy/Services/AssetDownloader.swift:64](ChinaTextbookStudy/Services/AssetDownloader.swift#L64)，
-已指向 `wuwangzhang1216/ChinaTextbookStudyFree/releases/download/v1.1.0-ios-assets`。
-**注意：这个 Release 目前还不存在** —— 未发布前，除内置种子教材（g1up 一年级数学）
-外的所有教材下载都会 404，这是提审前必须完成的硬性步骤。
+对应代码在 [AssetDownloader.swift](ChinaTextbookStudy/Services/AssetDownloader.swift)，已指向 `v1.7.0-ios-resources`。调整离线首课时可运行 `scripts/media/extend-ios-seed.py`，输入官方 manifest、data ZIP 和 AAC ZIP；脚本验证 SHA-256 后追加新版教材，保留旧版种子。
 
 ## 2. App Store Connect metadata 草稿
 
@@ -80,8 +79,8 @@ gh release create v1.1.0-ios-assets \
 
 | 字段 | 值 |
 |---|---|
-| **App 名称** | 课本学习 |
-| **副标题 (30 字符)** | 小学 1-6 年级多邻国式刷题 |
+| **App 名称** | 聪聪学堂 |
+| **副标题 (30 字符)** | 小学全科 · 课本闯关与听读 |
 | **Bundle ID** | (你改过的) |
 | **主分类** | Education |
 | **次要分类** | Reference |
@@ -90,7 +89,7 @@ gh release create v1.1.0-ios-assets \
 ### 2.2 描述 (简体中文)
 
 ```
-课本学习是一款面向中国大陆小学生（1-6 年级）的免费、离线优先的课本辅导应用，
+聪聪学堂是一款面向中国大陆小学生（1-6 年级）的免费、离线优先的课本辅导应用，
 覆盖语文、数学、英语、科学四科，全程零广告、无内购、不收集任何用户数据。
 
 功能亮点：

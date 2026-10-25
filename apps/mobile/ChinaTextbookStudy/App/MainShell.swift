@@ -137,6 +137,7 @@ struct MainShell: View {
 
     @ViewBuilder
     private var compactLayout: some View {
+      VStack(spacing: 0) {
         NavigationStack(path: $path) {
             compactTabRoot
                 .navigationDestination(for: AppRoute.self) { route in
@@ -149,14 +150,15 @@ struct MainShell: View {
                     )
                 }
         }
-        // Attach the tab bar as a bottom inset so every child ScrollView
-        // reserves matching space — content never hides behind the bar.
-        .safeAreaInset(edge: .bottom, spacing: 0) {
-            if !hideTabBar {
+        // Give the navigation stack real layout space above the bar. A bottom
+        // inset attached outside NavigationStack does not reliably propagate
+        // through nested readers/insets, and can cover their primary action.
+        if !hideTabBar {
                 BottomTabBar(activeTab: $activeTab, progressStore: progressStore)
                     .transition(.move(edge: .bottom))
-            }
         }
+      }
+        .background(DuoColors.bg)
         .animation(.easeInOut(duration: 0.2), value: hideTabBar)
         .onChange(of: activeTab) { _, _ in
             // Clear navigation stack when switching tabs.
@@ -177,7 +179,7 @@ struct MainShell: View {
         case .league:
             LeagueView(progressStore: progressStore)
         case .review:
-            ReviewView(progressStore: progressStore, path: $path)
+            ReviewView(progressStore: progressStore, path: $path, onContinueLearning: { activeTab = .learn })
         case .shop:
             ShopView(progressStore: progressStore)
         case .profile:
@@ -234,7 +236,7 @@ struct MainShell: View {
         // the system grouped-gray, heavy rounded labels instead of SF default.
         .scrollContentBackground(.hidden)
         .background(DuoColors.bg.ignoresSafeArea())
-        .navigationTitle("课本学习")
+        .navigationTitle("聪聪学堂")
         .onChange(of: selectedSidebar) { _, _ in
             // Reset the detail-column stack when the sidebar pick changes
             // so pushes from the previous item don't leak.
@@ -290,7 +292,7 @@ struct MainShell: View {
         case .league:
             LeagueView(progressStore: progressStore)
         case .review:
-            ReviewView(progressStore: progressStore, path: $path)
+            ReviewView(progressStore: progressStore, path: $path, onContinueLearning: { selectedSidebar = .home })
         case .shop:
             ShopView(progressStore: progressStore)
         case .profile:

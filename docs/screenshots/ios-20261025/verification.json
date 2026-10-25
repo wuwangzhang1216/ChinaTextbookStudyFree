@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-25",
+  "xcode": "26.5 (17F42)",
+  "baseCommit": "63006daf922cceb55ff50831c88647a7677b68d2",
+  "runs": [
+    {
+      "run": "acceptance",
+      "passed": 235,
+      "failed": 0,
+      "skipped": 0,
+      "devices": [
+        {
+          "name": "Congcong UX Pro",
+          "model": "iPhone 17 Pro",
+          "os": "26.5"
+        }
+      ]
+    },
+    {
+      "run": "layout-small",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "devices": [
+        {
+          "name": "Congcong UX Small",
+          "model": "iPhone SE (3rd generation)",
+          "os": "26.5"
+        }
+      ]
+    },
+    {
+      "run": "ipad",
+      "passed": 2,
+      "failed": 0,
+      "skipped": 0,
+      "devices": [
+        {
+          "name": "iPad Pro 11-inch (M5)",
+          "model": "iPad Pro 11-inch (M5)",
+          "os": "26.5"
+        }
+      ]
+    }
+  ],
+  "release": "v1.7.0-ios-resources",
+  "catalogBookCount": 58,
+  "verifiedBundles": [
+    {
+      "bookId": "chinese-g1up",
+      "audioRefCount": 2533,
+      "data": {
+        "name": "data-chinese-g1up.zip",
+        "bytes": 41567016,
+        "sha256": "d3b84f79e9782cc9d2c22d5c07d3593491f8527ce6031c4ed698b057592a4bd3"
+      },
+      "audio": {
+        "name": "audio-ios-chinese-g1up.zip",
+        "bytes": 33555472,
+        "sha256": "7654abaf37823e386641d26a0ff99e6aff90fdeb7a29123fb2af3ea075e1a768"
+      }
+    },
+    {
+      "bookId": "g1up-2026",
+      "audioRefCount": 1140,
+      "data": {
+        "name": "data-g1up-2026.zip",
+        "bytes": 122808,
+        "sha256": "f67e1d8c29776d1f22fbc068ecdc04b65c485083af6aed1252924563c4cf8bc1"
+      },
+      "audio": {
+        "name": "audio-ios-g1up-2026.zip",
+        "bytes": 19864712,
+        "sha256": "fe9258234f67c59fb033447412ac51f917b74cf14b47631d332dc12ad3aac507"
+      }
+    }
+  ],
+  "offlineSeed": {
+    "bytes": 1198344,
+    "addedBook": "g1up-2026",
+    "firstLessonQuestions": 6,
+    "firstLessonAAC": 35
+  },
+  "limits": [
+    "Simulator verification only; no physical device or TestFlight upload.",
+    "Actual resource integration sampled chinese-g1up and g1up-2026, not every book.",
+    "Microphone permission, real-device haptics, background audio and older iOS require device validation."
+  ]
+}

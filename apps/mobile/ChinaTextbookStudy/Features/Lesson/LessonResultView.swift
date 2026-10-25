@@ -92,6 +92,23 @@ struct LessonResultView: View {
             }
         }
         .animation(.spring(response: 0.4, dampingFraction: 0.85), value: actIndex)
+        .safeAreaInset(edge: .top, spacing: 0) {
+            HStack(spacing: 12) {
+                Text("这次进步 · \(min(actIndex + 1, max(1, acts.count)))/\(max(1, acts.count))")
+                    .duoFont(.caption)
+                    .foregroundStyle(isDarkAct ? .white.opacity(0.8) : DuoColors.inkMuted)
+                Spacer()
+                Button("回到路线") { exitToPath() }
+                    .duoFont(.caption)
+                    .foregroundStyle(isDarkAct ? .white : DuoColors.linkInk)
+                    .frame(minHeight: 44)
+                    .accessibilityIdentifier("result-back-to-path")
+            }
+            .padding(.horizontal, 24)
+            .frame(maxWidth: LearningLayout.contentWidth)
+            .frame(maxWidth: .infinity)
+            .background(isDarkAct ? Color.black.opacity(0.92) : DuoColors.bg)
+        }
         // ios-lesson-22: the celebration owns the whole screen — no system
         // 「结算」 title bar poking through any act.
         .navigationBarBackButtonHidden(true)

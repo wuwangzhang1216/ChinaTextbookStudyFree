@@ -46,8 +46,13 @@ final class ProgressStore: ObservableObject {
             fresh.lastDailyRewardDate = SRS.todayString()
             self.progress = fresh
             self.selectedGrade = 1
-            self.activeBookId = "g1up"
-            self.hasCompletedOnboarding = true
+            let args = ProcessInfo.processInfo.arguments
+            if let flag = args.firstIndex(of: "-uitest-book"), args.indices.contains(flag + 1) {
+                self.activeBookId = args[flag + 1]
+            } else {
+                self.activeBookId = "g1up"
+            }
+            self.hasCompletedOnboarding = !ProcessInfo.processInfo.arguments.contains("-uitest-onboarding")
             return
         }
         #endif

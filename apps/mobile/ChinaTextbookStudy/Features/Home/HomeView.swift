@@ -184,7 +184,8 @@ struct HomeView: View {
                         } else {
                             path.append(.jumpTest(bookId: book.id, unitNumber: unitNumber))
                         }
-                    }
+                    },
+                    introduction: AnyView(learningIntroduction(book: book))
                 )
                 .id(book.id)   // re-instantiate on book switch so scroll resets
             } else if let err = loadError {
@@ -212,6 +213,58 @@ struct HomeView: View {
                 Spacer()
             }
         }
+    }
+
+    private func learningIntroduction(book: Book) -> some View {
+        VStack(alignment: .leading, spacing: 16) {
+            HStack(spacing: 12) {
+                VStack(alignment: .leading, spacing: 5) {
+                    Text("聪聪学堂").duoFont(.title).foregroundStyle(DuoColors.ink)
+                    Text(progressStore.dailyGoalReached ? "今天的目标完成啦，继续探索吧！" : "学习，从好奇心开始。")
+                        .duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
+                }
+                Spacer(minLength: 0)
+                MascotView(mood: .wave, size: 66, allowsTap: true)
+                    .accessibilityLabel("熊猫聪聪")
+            }
+
+            if let current = pathNodes.first(where: { $0.kind == .lesson && $0.status == .current }) {
+                VStack(alignment: .leading, spacing: 12) {
+                    HStack(alignment: .top, spacing: 10) {
+                        Image(systemName: "play.circle.fill")
+                            .font(.system(size: 26, weight: .bold)).foregroundStyle(DuoColors.successInk)
+                        VStack(alignment: .leading, spacing: 5) {
+                            Text("接着学 · \(current.displayLabel)").duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
+                            Text(current.title).duoFont(.subhead).foregroundStyle(DuoColors.ink)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                        Spacer(minLength: 0)
+                    }
+                    Button {
+                        progressStore.tickHeartRecharge()
+                        if progressStore.hearts == 0 {
+                            showZeroHeartsSheet = true
+                        } else {
+                            HapticEngine.shared.tap()
+                            path.append(.lesson(bookId: book.id, lessonId: current.id))
+                        }
+                    } label: {
+                        HStack {
+                            Text(progressStore.activeSession(for: current.id) != nil ? "继续上次学习" : "开始学习")
+                            Spacer()
+                            Image(systemName: "arrow.right")
+                        }
+                    }
+                    .buttonStyle(ChunkyButtonStyle(.primary))
+                    .accessibilityIdentifier("home-continue")
+                }
+                .learningCard(tint: DuoColors.primary)
+            }
+            LearningSectionTitle(title: "我的学习路线", detail: "\(book.fullName) · 一步一步，学会每个知识点")
+        }
+        .padding(.horizontal, 20)
+        .frame(maxWidth: LearningLayout.contentWidth)
+        .padding(.bottom, 4)
     }
 
     private func sideEntry(_ label: String, icon: String, tint: Color, action: @escaping () -> Void) -> some View {
@@ -299,10 +352,11 @@ private struct HomeStatsStrip: View {
     }
 
     var body: some View {
-        HStack(spacing: 18) {
+        HStack(spacing: 8) {
             // Flag / book badge
             Button(action: onFlagTap) {
-                ZStack {
+                HStack(spacing: 5) {
+                  ZStack {
                     RoundedRectangle(cornerRadius: 6)
                         .fill(Subjects.resolve(book: book).accent)
                         .frame(width: 34, height: 26)
@@ -313,9 +367,16 @@ private struct HomeStatsStrip: View {
                     Text(Subjects.resolve(book: book).label)
                         .duoFont(.micro, weight: .heavy)
                         .foregroundStyle(.white)
+                  }
+                  Image(systemName: "chevron.down")
+                    .font(.system(size: 10, weight: .heavy))
+                    .foregroundStyle(DuoColors.inkMuted)
                 }
+                .frame(minWidth: 48, minHeight: 44)
             }
             .buttonStyle(.plain)
+            .accessibilityLabel("切换课本，当前\(book.fullName)")
+            .accessibilityIdentifier("home-book-picker")
 
             Button { activeSheet = .streak } label: {
                 // Three honest flame states: studied today = lit orange;
@@ -328,6 +389,7 @@ private struct HomeStatsStrip: View {
                 )
             }
             .buttonStyle(.plain)
+            .frame(minHeight: 44)
             .accessibilityLabel("连胜 \(progressStore.displayStreak) 天")
 
             Button { activeSheet = .gems } label: {
@@ -338,6 +400,7 @@ private struct HomeStatsStrip: View {
                 )
             }
             .buttonStyle(.plain)
+            .frame(minHeight: 44)
             .accessibilityLabel("宝石 \(progressStore.gems)")
 
             Button { activeSheet = .hearts } label: {
@@ -348,9 +411,10 @@ private struct HomeStatsStrip: View {
                 )
             }
             .buttonStyle(.plain)
+            .frame(minHeight: 44)
             .accessibilityLabel("红心 \(progressStore.hearts)")
 
-            Spacer(minLength: 8)
+            Spacer(minLength: 0)
 
             // Daily-goal ring — today's XP toward the goal (tap to adjust).
             DailyGoalRingView(progressStore: progressStore, size: 46)
@@ -371,13 +435,15 @@ private struct HomeStatsStrip: View {
 
     @ViewBuilder
     private func statItem(icon: Image, value: String, color: Color) -> some View {
-        HStack(spacing: 5) {
+        HStack(spacing: 4) {
             icon
                 .font(.system(size: 18, weight: .heavy))
                 .foregroundStyle(color)
             Text(value)
-                .duoNumeral(.button)
+                .duoNumeral(.caption)
                 .foregroundStyle(color)
+                .lineLimit(1)
+                .minimumScaleFactor(0.7)
         }
     }
 }

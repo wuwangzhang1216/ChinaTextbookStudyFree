@@ -9,6 +9,7 @@ import SwiftUI
 struct BottomTabBar: View {
     @Binding var activeTab: AppTab
     @ObservedObject var progressStore: ProgressStore
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     var body: some View {
         HStack(spacing: 0) {
@@ -16,8 +17,7 @@ struct BottomTabBar: View {
                 tabItem(tab)
             }
         }
-        .frame(height: 60)
-        .padding(.top, 6)
+        .padding(.vertical, 8)
         .background(DuoColors.bg)
         .overlay(alignment: .top) {
             Rectangle().fill(DuoColors.border).frame(height: 1)
@@ -32,21 +32,22 @@ struct BottomTabBar: View {
         Button {
             guard activeTab != tab else { return }
             HapticEngine.shared.tap()
-            withAnimation(Motion.press) { activeTab = tab }
+            withAnimation(reduceMotion ? nil : Motion.press) { activeTab = tab }
         } label: {
-            ZStack(alignment: .topTrailing) {
+            VStack(spacing: 4) {
+              ZStack(alignment: .topTrailing) {
                 ZStack {
                     if isActive {
                         RoundedRectangle(cornerRadius: Radius.card)
                             .fill(tab.activeColor.opacity(0.14))
-                            .frame(width: 60, height: 40)
+                            .frame(width: 52, height: 32)
                     }
                     Image(systemName: tab.symbol)
-                        .font(.system(size: 25, weight: .semibold))
-                        .foregroundStyle(isActive ? tab.activeColor : DuoColors.inkSofter)
-                        .symbolEffect(.bounce, value: isActive)
+                        .font(.system(size: 22, weight: .semibold))
+                        .foregroundStyle(isActive ? tab.activeColor : DuoColors.inkMuted)
+                        .symbolEffect(.bounce, value: reduceMotion ? false : isActive)
                 }
-                .frame(width: 64, height: 44)
+                .frame(width: 54, height: 34)
 
                 if let count = badge?.count, count > 0 {
                     Text(count > 99 ? "99+" : "\(count)")
@@ -64,13 +65,19 @@ struct BottomTabBar: View {
                         .overlay(Circle().strokeBorder(DuoColors.bg, lineWidth: 2))
                         .offset(x: 6, y: 0)
                 }
+              }
+              Text(tab.label)
+                .duoFont(.micro)
+                .foregroundStyle(isActive ? DuoColors.ink : DuoColors.inkMuted)
             }
             .frame(maxWidth: .infinity)
+            .frame(minHeight: 48)
             .contentShape(Rectangle())
         }
         .buttonStyle(.plain)
         .accessibilityLabel(accessibilityLabel(for: tab, badge: badge))
         .accessibilityIdentifier("tab-\(tab.rawValue)")
+        .accessibilityAddTraits(isActive ? [.isSelected] : [])
     }
 
     /// VoiceOver reads the badge, not just the tab name — "我的，3 个奖励可领取".

@@ -11,8 +11,8 @@ import ZIPFoundation
 ///
 /// Both subtrees are siblings of `cstf/`, matching what AssetDownloader writes
 /// for downloaded books. Already-downloaded books overlay the seed without
-/// collision because the seed only ships a single book + the audio for one
-/// of its lessons.
+/// collision. The seed includes the legacy and current grade-one math books,
+/// plus their first-lesson audio; downloaded bundles remain authoritative.
 enum SeedInstaller {
     static func installIfNeeded() {
         guard let zipURL = Bundle.main.url(forResource: "seed-data", withExtension: "zip") else {
@@ -20,7 +20,6 @@ enum SeedInstaller {
         }
         // Parent of `data/` and `audio/` — i.e. `Application Support/cstf/`.
         let cstfRoot = DataLoader.shared.sandboxDataRoot.deletingLastPathComponent()
-        let booksDir = DataLoader.shared.sandboxDataRoot.appendingPathComponent("books", isDirectory: true)
         let fm = FileManager.default
         try? fm.createDirectory(at: cstfRoot, withIntermediateDirectories: true)
 
@@ -34,20 +33,45 @@ enum SeedInstaller {
            stamped.trimmingCharacters(in: .whitespacesAndNewlines) == bundledVersion {
             return
         }
-        // Wipe the audio dir before re-extracting — it's fully reproducible
-        // from the zip and the downloader, so no risk of data loss.
-        // Don't touch books/ here: it may contain user-downloaded books.
-        let audioDir = cstfRoot.appendingPathComponent("audio", isDirectory: true)
-        try? fm.removeItem(at: audioDir)
-        // Same for the seed book's data subtree (we'll re-extract a fresh copy).
-        try? fm.removeItem(at: booksDir.appendingPathComponent("g1up", isDirectory: true))
-
+        let staging = fm.temporaryDirectory.appendingPathComponent("congcong-seed-\(UUID().uuidString)", isDirectory: true)
+        defer { try? fm.removeItem(at: staging) }
         do {
-            try fm.unzipItem(at: zipURL, to: cstfRoot)
+            try fm.createDirectory(at: staging, withIntermediateDirectories: true)
+            try fm.unzipItem(at: zipURL, to: staging)
+            try mergeExtractedSeed(from: staging, into: cstfRoot)
             try? bundledVersion.write(to: stampURL, atomically: true, encoding: .utf8)
         } catch {
             // Non-fatal: the user can still download books normally.
             print("[SeedInstaller] unzip failed: \(error)")
+        }
+    }
+
+    /// A UI/seed upgrade must not erase books or AAC already downloaded by
+    /// a family. Replace only bundled book data without a download marker;
+    /// content-addressed audio can be copied only when absent.
+    static func mergeExtractedSeed(from staging: URL, into root: URL) throws {
+        let fm = FileManager.default
+        let sourceBooks = staging.appendingPathComponent("data/books", isDirectory: true)
+        let targetBooks = root.appendingPathComponent("data/books", isDirectory: true)
+        try fm.createDirectory(at: targetBooks, withIntermediateDirectories: true)
+        if fm.fileExists(atPath: sourceBooks.path) {
+            for source in try fm.contentsOfDirectory(at: sourceBooks, includingPropertiesForKeys: nil) {
+                let marker = root.appendingPathComponent("audio/.downloaded/\(source.lastPathComponent)")
+                guard !fm.fileExists(atPath: marker.path) else { continue }
+                let destination = targetBooks.appendingPathComponent(source.lastPathComponent)
+                if fm.fileExists(atPath: destination.path) { try fm.removeItem(at: destination) }
+                try fm.copyItem(at: source, to: destination)
+            }
+        }
+        let sourceAudio = staging.appendingPathComponent("audio", isDirectory: true)
+        guard let files = fm.enumerator(at: sourceAudio, includingPropertiesForKeys: [.isRegularFileKey]) else { return }
+        for case let file as URL in files {
+            guard try file.resourceValues(forKeys: [.isRegularFileKey]).isRegularFile == true else { continue }
+            let relative = String(file.path.dropFirst(sourceAudio.path.count + 1))
+            let destination = root.appendingPathComponent("audio/\(relative)")
+            guard !fm.fileExists(atPath: destination.path) else { continue }
+            try fm.createDirectory(at: destination.deletingLastPathComponent(), withIntermediateDirectories: true)
+            try fm.copyItem(at: file, to: destination)
         }
     }
 

@@ -109,6 +109,13 @@ final class CosmeticsUITests: XCTestCase {
         confirmPurchase(app)
 
         let helmet = app.buttons["cosmetic-skin_astronaut"]
+        // Cosmetics now form a vertical adaptive grid; later rows are lazy
+        // and must be revealed before they enter the accessibility tree.
+        var scrolls = 0
+        while !helmet.isHittable && scrolls < 6 {
+            app.swipeUp()
+            scrolls += 1
+        }
         XCTAssertTrue(helmet.waitForExistence(timeout: 3))
         helmet.tap()
 

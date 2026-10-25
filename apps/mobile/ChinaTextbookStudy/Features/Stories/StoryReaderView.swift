@@ -8,12 +8,21 @@ struct StoryListView: View {
 
     @State private var stories: [Story] = []
     @State private var loadError: String?
+    @State private var filter: ReadingCollectionFilter = .all
+
+    private var visibleStories: [Story] {
+        stories.filter { filter.includes(done: progressStore.isReadingCompleted(Reading.id(.story, $0.id))) }
+    }
 
     var body: some View {
         ScrollView {
             if !stories.isEmpty {
-                VStack(spacing: 12) {
-                    ForEach(stories, id: \.id) { s in
+                LazyVStack(spacing: 16) {
+                    LearningPageHeader(eyebrow: "课外故事", title: "读一篇，发现新世界", subtitle: "\(stories.count) 篇故事 · 读完故事，再用小问题检验自己的发现。", tint: DuoColors.beetle)
+                    Picker("阅读状态", selection: $filter) {
+                        ForEach(ReadingCollectionFilter.allCases) { Text($0.rawValue).tag($0) }
+                    }.pickerStyle(.segmented)
+                    ForEach(visibleStories, id: \.id) { s in
                         Button { path.append(.storyReader(bookId: bookId, storyId: s.id)) } label: {
                             ReadingCard(
                                 title: s.title,
@@ -26,9 +35,14 @@ struct StoryListView: View {
                             )
                         }
                         .buttonStyle(.plain)
+                        .accessibilityIdentifier("story-\(s.id)")
+                    }
+                    if visibleStories.isEmpty {
+                        Text("这里暂时没有故事，换个分类看看吧。")
+                            .duoFont(.body).foregroundStyle(DuoColors.inkMuted).padding(24)
                     }
                 }
-                .padding(20)
+                .learningContent()
             } else {
                 VStack(spacing: 12) {
                     Image(systemName: "book.closed").font(.system(size: 44)).foregroundStyle(DuoColors.inkSofter)
@@ -37,7 +51,7 @@ struct StoryListView: View {
                 .padding(40)
             }
         }
-        .background(DuoColors.bg.ignoresSafeArea())
+        .background(DuoColors.canvas.ignoresSafeArea())
         .navigationTitle("课外故事")
         .navigationBarTitleDisplayMode(.inline)
         .task { load() }
@@ -60,6 +74,7 @@ struct StoryReaderView: View {
     private enum Phase: Equatable { case reading, quiz, result }
 
     @State private var story: Story?
+    @State private var readerError: String?
     @State private var phase: Phase = .reading
     /// Gate for questionless stories: whole-story listen unlocks completion.
     @State private var listenedWholeThing = false
@@ -89,6 +104,8 @@ struct StoryReaderView: View {
                 case .quiz:    quizPhase(story)
                 case .result:  resultPhase(story)
                 }
+            } else if let readerError {
+                ContentUnavailableView("暂时无法打开故事", systemImage: "book.closed", description: Text(readerError))
             } else {
                 ProgressView().tint(DuoColors.primary)
             }
@@ -98,7 +115,10 @@ struct StoryReaderView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar { ToolbarItem(placement: .topBarTrailing) { MuteToggle() } }
         .task {
-            story = (try? DataLoader.shared.loadStories(bookId: bookId))?.stories.first { $0.id == storyId }
+            do {
+                story = try DataLoader.shared.loadStories(bookId: bookId)?.stories.first { $0.id == storyId }
+                if story == nil { readerError = "返回故事列表，确认这本课本的资源已经下载。" }
+            } catch { readerError = error.localizedDescription }
         }
         .onDisappear { AudioPlayer.shared.stop() }
     }
@@ -112,6 +132,7 @@ struct StoryReaderView: View {
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
                     illustrationHeader(story)
+                    LearningSectionTitle(title: "先读故事，再试一试", detail: "\(story.sentences.count) 句\(story.questions.isEmpty ? "" : " · \(story.questions.count) 道阅读理解题")")
 
                     HStack(spacing: 10) {
                         ReadAllButton(
@@ -128,9 +149,16 @@ struct StoryReaderView: View {
                         }
                     }
 
-                    bottomAction(story)
                 }
-                .padding(20)
+                .learningContent()
+            }
+            .safeAreaInset(edge: .bottom, spacing: 0) {
+                bottomAction(story)
+                    .frame(maxWidth: LearningLayout.contentWidth - 40)
+                    .padding(.horizontal, 20).padding(.vertical, 12)
+                    .frame(maxWidth: .infinity)
+                    .background(DuoColors.bg)
+                    .overlay(alignment: .top) { Divider() }
             }
             .onChange(of: audioPlayer.nowPlayingIndex) { _, idx in
                 if let idx, idx < story.sentences.count {
@@ -174,7 +202,7 @@ struct StoryReaderView: View {
         let active = audioPlayer.nowPlayingIndex == index
         return HStack(alignment: .top, spacing: 10) {
             Text(s.text)
-                .font(.system(size: 20, weight: active ? .heavy : .regular, design: .rounded))
+                .duoFont(.heading, weight: active ? .heavy : .regular)
                 .foregroundStyle(active ? DuoColors.primary : DuoColors.ink)
                 .lineSpacing(6)
                 .frame(maxWidth: .infinity, alignment: .leading)

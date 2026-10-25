@@ -35,11 +35,12 @@ struct ChunkyButtonStyle: ButtonStyle {
 
             // Main surface layer — shifts down on press
             configuration.label
-                .font(.headline.weight(.heavy))
+                .duoFont(.button)
                 .foregroundStyle(colors.foreground)
                 .frame(maxWidth: .infinity)
                 .frame(minHeight: 50)
-                .padding(.horizontal, 24)
+                .padding(.horizontal, 20)
+                .padding(.vertical, 4)
                 .background(colors.background, in: RoundedRectangle(cornerRadius: cornerRadius))
                 .overlay {
                     if variant == .ghost {
@@ -66,11 +67,11 @@ struct ChunkyButtonStyle: ButtonStyle {
     private func resolveColors() -> ResolvedColors {
         switch variant {
         case .primary:
-            return ResolvedColors(background: DuoColors.primary, foreground: .white, shadow: DuoColors.primaryDark)
+            return ResolvedColors(background: DuoColors.primary, foreground: DuoColors.readableInk(on: DuoColors.primary), shadow: DuoColors.primaryDark)
         case .secondary:
-            return ResolvedColors(background: DuoColors.secondary, foreground: .white, shadow: DuoColors.secondaryDark)
+            return ResolvedColors(background: DuoColors.secondary, foreground: DuoColors.readableInk(on: DuoColors.secondary), shadow: DuoColors.secondaryDark)
         case .danger:
-            return ResolvedColors(background: DuoColors.danger, foreground: .white, shadow: DuoColors.dangerDark)
+            return ResolvedColors(background: DuoColors.danger, foreground: DuoColors.readableInk(on: DuoColors.danger), shadow: DuoColors.dangerDark)
         case .ghost:
             return ResolvedColors(background: DuoColors.surface, foreground: DuoColors.inkLight, shadow: DuoColors.border)
         case .disabled:
@@ -91,17 +92,18 @@ struct ChunkySmallButtonStyle: ButtonStyle {
         ZStack {
             RoundedRectangle(cornerRadius: cornerRadius)
                 .fill(isPressed ? background : shadowColor)
-                .frame(minHeight: 36)
+                .frame(minHeight: 44)
 
             configuration.label
                 .font(.caption.weight(.heavy))
-                .foregroundStyle(.white)
+                .foregroundStyle(DuoColors.readableInk(on: background))
                 .padding(.horizontal, 12)
-                .frame(minHeight: 36)
+                .frame(minHeight: 44)
                 .background(background, in: RoundedRectangle(cornerRadius: cornerRadius))
                 .offset(y: isPressed ? 0 : -depth)
         }
-        .frame(minHeight: 36 + depth)
+        .frame(minHeight: 44 + depth)
+        .fixedSize(horizontal: true, vertical: true)
         .animation(Motion.press, value: isPressed)
     }
 }

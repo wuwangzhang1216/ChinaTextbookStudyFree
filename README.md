@@ -94,26 +94,26 @@
 
 </details>
 
-### iOS 原生界面 · 历史素材
+### iOS 原生界面 · 2026-10-25 UX 升级
 
-以下保留原有 iOS 截图，与上方新采集的 Web 画面分别标示；本轮未重新运行 iOS 构建。
+以下为本轮实际运行原生 App 采集的模拟器截图。已通过 213 项单元测试、22 项 iPhone UI 测试及小屏/iPad 补充验证；语文听读、故事和 2026 修订版数学使用官方 v1.7.0 iOS 资源联调。尚未进行本轮真机验收或上传 TestFlight。
 
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/ios/home.jpg" width="180" /><br/><b>学习路径</b></td>
-    <td align="center"><img src="docs/screenshots/ios/feedback.jpg" width="180" /><br/><b>答题反馈</b></td>
-    <td align="center"><img src="docs/screenshots/ios/shop.jpg" width="180" /><br/><b>商店</b></td>
-    <td align="center"><img src="docs/screenshots/ios/profile.jpg" width="180" /><br/><b>我的</b></td>
+    <td align="center"><img src="docs/screenshots/ios-20261025/home.png" width="180" /><br/><b>新版教材 · 继续学习</b></td>
+    <td align="center"><img src="docs/screenshots/ios-20261025/feedback.png" width="180" /><br/><b>答题反馈</b></td>
+    <td align="center"><img src="docs/screenshots/ios-20261025/shop.png" width="180" /><br/><b>奖励小铺</b></td>
+    <td align="center"><img src="docs/screenshots/ios-20261025/profile.png" width="180" /><br/><b>我的成长</b></td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/ios/reader.jpg" width="180" /><br/><b>课文听读</b></td>
-    <td align="center"><img src="docs/screenshots/ios/review.jpg" width="180" /><br/><b>错题本</b></td>
-    <td align="center"><img src="docs/screenshots/ios/profile-quests.jpg" width="180" /><br/><b>每日任务 · 周报</b></td>
-    <td align="center"><img src="docs/screenshots/ios/dark.jpg" width="180" /><br/><b>深色模式</b></td>
+    <td align="center"><img src="docs/screenshots/ios-20261025/reader.png" width="180" /><br/><b>课文听读</b></td>
+    <td align="center"><img src="docs/screenshots/ios-20261025/review.png" width="180" /><br/><b>间隔复习</b></td>
+    <td align="center"><img src="docs/screenshots/ios-20261025/onboarding.png" width="180" /><br/><b>首次引导</b></td>
+    <td align="center"><img src="docs/screenshots/ios-20261025/dark.png" width="180" /><br/><b>深色模式</b></td>
   </tr>
 </table>
 
-> 全部 12 张界面截图与说明见 [`docs/ios-ux-gallery.html`](docs/ios-ux-gallery.html)（本地打开即可，支持点击放大）。
+> 全部 19 张本轮原生截图、验证范围与历史素材见 [`docs/ios-ux-gallery.html`](docs/ios-ux-gallery.html)（本地打开即可，支持点击放大）；[结构化验收记录](docs/screenshots/ios-20261025/verification.json)。
 
 ---
 
@@ -248,9 +248,10 @@ xcodegen generate          # 生成 .xcodeproj
 open ChinaTextbookStudy.xcodeproj
 ```
 
-在 Xcode 里选 iPhone / iPad 模拟器，Cmd+R 即可运行。App 内置一本数学书（一年级上册 + 第一节课的 TTS 音频）作为离线种子，无需网络就能体验完整流程。
+在 Xcode 里选 iPhone / iPad 模拟器，Cmd+R 即可运行。App 内置一年级数学上册的旧版与 2026 修订版数据，以及各自第一课的 AAC 音频；新手引导优先展示当前教材，选新版一年级数学也能离线开始第一课。其他课本与完整音频按需下载。升级种子包会保留已下载教材和音频。
 
 **iOS 端特点：**
+- **聪聪学堂原生 UX 升级**：四步新手引导、首页继续学习、带文字的导航、可筛选的错题与阅读列表、固定阅读操作区、可直接返回路线的结算；支持动态字体和 iPad 分栏。实际截图与验收结果见 [iOS UX 图库](docs/ios-ux-gallery.html)。
 
 - SwiftUI 原生（非 React Native），支持 iPhone + iPad（iPad 自动分栏布局）
 - 域逻辑（SRS / 判分 / 成就 / 宝箱 / 吉祥物）从 `packages/core` 逐文件对译为 Swift

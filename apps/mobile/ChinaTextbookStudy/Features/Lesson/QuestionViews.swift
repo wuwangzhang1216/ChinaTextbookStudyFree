@@ -112,11 +112,11 @@ private func checkMark(for state: OptionCardState) -> some View {
     case .correct:
         Image(systemName: "checkmark.circle.fill")
             .font(.system(size: 22, weight: .bold))
-            .foregroundStyle(DuoColors.primary)
+            .foregroundStyle(DuoColors.successInk)
     case .wrong:
         Image(systemName: "xmark.circle.fill")
             .font(.system(size: 22, weight: .bold))
-            .foregroundStyle(DuoColors.danger)
+            .foregroundStyle(DuoColors.errorInk)
     default:
         EmptyView()
     }

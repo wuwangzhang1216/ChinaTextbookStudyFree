@@ -147,7 +147,7 @@ struct SettingsView: View {
                     .padding(.vertical, 8)
                 }
                 Text(deniedHint
-                     ? "系统未授权通知，请到「设置 › 通知 › 课本学习」中开启。"
+                     ? "系统未授权通知，请到「设置 › 通知 › 聪聪学堂」中开启。"
                      : "每天 \(settings.reminderTimeLabel) 提醒你保住连胜；当天已学习则自动跳过。")
                     .duoFont(.micro)
                     .foregroundStyle(deniedHint ? DuoColors.danger : DuoColors.inkMuted)

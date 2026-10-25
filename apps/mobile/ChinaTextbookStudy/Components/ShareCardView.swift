@@ -10,7 +10,7 @@ import UniformTypeIdentifiers
 /// 挂点：连胜里程碑庆祝层、结算三星幕、成就领取时刻。
 enum ShareCard {
 
-    static let slogan = "每天进步一点点 · 课本学习"
+    static let slogan = "每天进步一点点 · 聪聪学堂"
     /// 出图逻辑尺寸（@3x 渲染）。
     static let size = CGSize(width: 360, height: 480)
 

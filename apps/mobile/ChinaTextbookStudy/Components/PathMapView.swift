@@ -16,12 +16,13 @@ struct PathMapView: View {
     var onGuideTap: ((Int) -> Void)? = nil
     /// 锁定单元 banner 的「⚡ 跳到这里」（Wave E2）：发起跳级测试。
     var onJumpTap: ((Int) -> Void)? = nil
+    var introduction: AnyView? = nil
 
     private static let offsets: [CGFloat] = [0, 35, 45, 35, 0, -35, -45, -35]
     private let nodeSize: CGFloat = 72
     private let stepY: CGFloat = 96
     private let bannerHeight: CGFloat = 72
-    private var stageWidth: CGFloat { 340 }
+    @State private var stageWidth: CGFloat = 340
 
     // MARK: - 单元主题色循环（Wave F ios-path-6）
     //
@@ -70,7 +71,10 @@ struct PathMapView: View {
         GeometryReader { outer in
             ScrollViewReader { proxy in
                 ScrollView {
+                  VStack(spacing: 16) {
+                    if let introduction { introduction }
                     ZStack(alignment: .top) {
+                        trail
                         decorations
 
                         ForEach(unitBannerPositions, id: \.unitNumber) { banner in
@@ -80,24 +84,17 @@ struct PathMapView: View {
 
                         ForEach(Array(lessons.enumerated()), id: \.element.id) { index, node in
                             nodeView(node: node, index: index)
-                                .position(nodePosition(at: index))
                                 .id(node.id)
+                                .position(nodePosition(at: index))
                         }
 
                         // Dismiss layer + anchored start popup
-                        if let sel = selectedIndex, sel < lessons.count {
+                        if selectedIndex != nil {
                             Color.black.opacity(0.001)
                                 .frame(width: stageWidth, height: totalHeight)
                                 .contentShape(Rectangle())
                                 .onTapGesture { withAnimation(Motion.press) { selectedIndex = nil } }
 
-                            startPopup(index: sel)
-                                .position(
-                                    x: stageWidth / 2,
-                                    y: nodePosition(at: sel).y + nodeSize / 2 + 96
-                                )
-                                .transition(.scale(scale: 0.85, anchor: .top).combined(with: .opacity))
-                                .zIndex(10)
                         }
                     }
                     .frame(width: stageWidth, height: totalHeight)
@@ -112,9 +109,25 @@ struct PathMapView: View {
                         }
                     }
                     .padding(.vertical, 20)
+                  }
+                  .padding(.top, 16)
                 }
                 .coordinateSpace(name: "pathViewport")
                 .background(DuoColors.bg.ignoresSafeArea())
+                // A native bottom preview keeps the action visible on small
+                // phones and with enlarged text. Position-based popovers can
+                // land below the viewport when the learner taps a low node.
+                .safeAreaInset(edge: .bottom, spacing: 0) {
+                    if let selectedIndex, lessons.indices.contains(selectedIndex) {
+                        startPopup(index: selectedIndex)
+                            .padding(.horizontal, 16)
+                            .padding(.vertical, 12)
+                            .frame(maxWidth: .infinity)
+                            .background(DuoColors.bg)
+                            .overlay(alignment: .top) { Divider() }
+                            .transition(.move(edge: .bottom).combined(with: .opacity))
+                    }
+                }
                 .overlay(alignment: .bottom) { lockedToast }
                 // 滚动跟随的 sticky 当前单元头（Wave F ios-path-9）。
                 .overlay(alignment: .top) { stickyUnitHeader }
@@ -129,10 +142,12 @@ struct PathMapView: View {
                     updateCurrentNodeViewportY(contentTop: top)
                 }
                 .onAppear {
+                    stageWidth = min(440, max(240, outer.size.width - 32))
                     viewportHeight = outer.size.height
                     scrollToCurrent(proxy, animated: false)
                 }
                 .onChange(of: outer.size.height) { _, h in viewportHeight = h }
+                .onChange(of: outer.size.width) { _, width in stageWidth = min(440, max(240, width - 32)) }
                 // Follow the learner's progress, but only when the current node
                 // actually moves — a chest claim also mutates `lessons`, and
                 // yanking the viewport away from the chest would be jarring.
@@ -200,20 +215,28 @@ struct PathMapView: View {
               (node.questionCount > 0 ? " · 最多 +\(maxXp(for: node)) XP" : "")
 
         VStack(spacing: 0) {
-            CalloutTriangle().fill(accent).frame(width: 22, height: 11)
             VStack(alignment: .leading, spacing: 12) {
+              HStack(alignment: .top, spacing: 10) {
                 Text(isExam ? "⚔️ \(node.title)" : node.title)
                     .duoFont(.subhead)
-                    .foregroundStyle(.white)
-                    .lineLimit(2)
+                    .foregroundStyle(DuoColors.readableInk(on: accent))
                     .multilineTextAlignment(.leading)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                Button { withAnimation(Motion.press) { selectedIndex = nil } } label: {
+                    Image(systemName: "xmark").font(.system(size: 14, weight: .heavy))
+                        .foregroundStyle(DuoColors.readableInk(on: accent))
+                        .frame(width: 44, height: 44)
+                }
+                .buttonStyle(.plain)
+                .accessibilityLabel("关闭课程预览")
+              }
                 Text(subtitle)
                     .duoFont(.caption)
-                    .foregroundStyle(.white.opacity(0.9))
+                    .foregroundStyle(DuoColors.readableInk(on: accent))
                 if isExam, node.status != .completed {
                     Text("答对 80% 以上就能征服这个单元，赢得金色奖杯！")
                         .duoFont(.micro)
-                        .foregroundStyle(.white.opacity(0.85))
+                        .foregroundStyle(DuoColors.readableInk(on: accent))
                 }
                 Button {
                     selectedIndex = nil
@@ -223,7 +246,7 @@ struct PathMapView: View {
                          ? (node.status == .completed ? "再战一次" : "开始挑战")
                          : (node.status == .completed ? "再练一次" : "开始"))
                         .duoFont(.button)
-                        .foregroundStyle(accent)
+                        .foregroundStyle(DuoColors.brandInk)
                         .frame(maxWidth: .infinity)
                         .padding(.vertical, 13)
                         .background(.white, in: .capsule)
@@ -232,7 +255,7 @@ struct PathMapView: View {
                 .accessibilityIdentifier(isExam ? "exam-start" : "lesson-start")
             }
             .padding(16)
-            .frame(width: stageWidth - 48)
+            .frame(maxWidth: LearningLayout.contentWidth - 72)
             .background(accent, in: .rect(cornerRadius: Radius.large))
         }
     }
@@ -777,6 +800,23 @@ struct PathMapView: View {
     }
 
     // MARK: - Decorations
+
+    private var trail: some View {
+        Path { path in
+            guard lessons.count > 1 else { return }
+            for index in 1..<lessons.count where lessons[index].unitNumber == lessons[index - 1].unitNumber {
+                let from = nodePosition(at: index - 1)
+                let to = nodePosition(at: index)
+                path.move(to: from)
+                path.addCurve(to: to,
+                              control1: CGPoint(x: from.x, y: from.y + stepY / 2),
+                              control2: CGPoint(x: to.x, y: to.y - stepY / 2))
+            }
+        }
+        .stroke(DuoColors.border, style: StrokeStyle(lineWidth: 3, lineCap: .round, dash: [3, 9]))
+        .allowsHitTesting(false)
+        .accessibilityHidden(true)
+    }
 
     @ViewBuilder
     private var decorations: some View {

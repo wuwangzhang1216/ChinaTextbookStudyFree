@@ -1,6 +1,14 @@
 import SwiftUI
 import AVFoundation
 
+enum ReadingCollectionFilter: String, CaseIterable, Identifiable {
+    case all = "全部", unread = "未读", finished = "已读"
+    var id: String { rawValue }
+    func includes(done: Bool) -> Bool {
+        self == .all || (self == .finished ? done : !done)
+    }
+}
+
 extension PassageKind {
     var displayName: String {
         switch self {
@@ -30,12 +38,21 @@ struct PassageListView: View {
 
     @State private var passages: [Passage] = []
     @State private var loadError: String?
+    @State private var filter: ReadingCollectionFilter = .all
+
+    private var visiblePassages: [Passage] {
+        passages.filter { filter.includes(done: progressStore.isReadingCompleted(Reading.id(.listen, $0.id))) }
+    }
 
     var body: some View {
         ScrollView {
             if !passages.isEmpty {
-                VStack(spacing: 12) {
-                    ForEach(passages, id: \.id) { p in
+                LazyVStack(spacing: 16) {
+                    LearningPageHeader(eyebrow: "课文听读", title: "听见文字里的世界", subtitle: "\(passages.count) 篇课文 · 听一听，读一读，再跟聪聪练一遍。", tint: DuoColors.secondary)
+                    Picker("阅读状态", selection: $filter) {
+                        ForEach(ReadingCollectionFilter.allCases) { Text($0.rawValue).tag($0) }
+                    }.pickerStyle(.segmented)
+                    ForEach(visiblePassages, id: \.id) { p in
                         Button { path.append(.passageReader(bookId: bookId, passageId: p.id)) } label: {
                             ReadingCard(
                                 title: p.title,
@@ -47,14 +64,19 @@ struct PassageListView: View {
                             )
                         }
                         .buttonStyle(.plain)
+                        .accessibilityIdentifier("passage-\(p.id)")
+                    }
+                    if visiblePassages.isEmpty {
+                        Text("这里暂时没有课文，换个分类看看吧。")
+                            .duoFont(.body).foregroundStyle(DuoColors.inkMuted).padding(24)
                     }
                 }
-                .padding(20)
+                .learningContent()
             } else {
                 emptyState
             }
         }
-        .background(DuoColors.bg.ignoresSafeArea())
+        .background(DuoColors.canvas.ignoresSafeArea())
         .navigationTitle("课文听读")
         .navigationBarTitleDisplayMode(.inline)
         .task { load() }
@@ -107,7 +129,7 @@ struct ReadingCard: View {
                 }
                 VStack(alignment: .leading, spacing: 4) {
                     Text(title).duoFont(.subhead).foregroundStyle(DuoColors.ink).lineLimit(2).multilineTextAlignment(.leading)
-                    HStack(spacing: 6) {
+                    VStack(alignment: .leading, spacing: 6) {
                         Text(subtitle).duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
                         if !done {
                             HStack(spacing: 2) {
@@ -118,7 +140,7 @@ struct ReadingCard: View {
                         }
                     }
                 }
-                Spacer()
+                .frame(maxWidth: .infinity, alignment: .leading)
                 if done {
                     Image(systemName: "crown.fill").font(.system(size: 22)).foregroundStyle(DuoColors.bee)
                 } else {
@@ -139,6 +161,7 @@ struct PassageReaderView: View {
     let bookId: String
     let passageId: String
     @State private var passage: Passage?
+    @State private var readerError: String?
     @ObservedObject private var audioPlayer = AudioPlayer.shared
     @ObservedObject private var progressStore = ProgressStore.shared
 
@@ -155,6 +178,8 @@ struct PassageReaderView: View {
         Group {
             if let passage {
                 reader(passage)
+            } else if let readerError {
+                ContentUnavailableView("暂时无法打开课文", systemImage: "book.closed", description: Text(readerError))
             } else {
                 ProgressView().tint(DuoColors.primary)
             }
@@ -164,7 +189,10 @@ struct PassageReaderView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar { ToolbarItem(placement: .topBarTrailing) { MuteToggle() } }
         .task {
-            passage = (try? DataLoader.shared.loadPassages(bookId: bookId))?.passages.first { $0.id == passageId }
+            do {
+                passage = try DataLoader.shared.loadPassages(bookId: bookId)?.passages.first { $0.id == passageId }
+                if passage == nil { readerError = "返回课文列表，确认这本课本的资源已经下载。" }
+            } catch { readerError = error.localizedDescription }
         }
         .onDisappear {
             AudioPlayer.shared.stop()
@@ -182,11 +210,13 @@ struct PassageReaderView: View {
         ScrollViewReader { proxy in
             ScrollView {
                 VStack(alignment: .leading, spacing: 18) {
+                    LearningSectionTitle(title: passage.kind.displayName, detail: "\(passage.sentences.count) 句 · 听原文，也可以用自己的声音跟读")
                     if let author = passage.author, !author.isEmpty {
                         Text("—— \(author)").duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
                     }
 
-                    HStack(spacing: 10) {
+                    ViewThatFits(in: .horizontal) {
+                      HStack(spacing: 10) {
                         ReadAllButton(
                             sentences: passage.sentences,
                             isPlaying: audioPlayer.isPlaying && !followup.isActive,
@@ -199,6 +229,14 @@ struct PassageReaderView: View {
                         .disabled(followup.isActive)
                         followupButton(passage)
                         SlowModeBadge()
+                      }
+                      VStack(alignment: .leading, spacing: 10) {
+                        ReadAllButton(sentences: passage.sentences, isPlaying: audioPlayer.isPlaying && !followup.isActive,
+                                      onStarted: { readAllRunActive = true },
+                                      onCompleted: { readAllRunActive = false; listenedWholeThing = true })
+                            .disabled(followup.isActive)
+                        HStack(spacing: 10) { followupButton(passage); SlowModeBadge() }
+                      }
                     }
 
                     // 错误态(麦克风被拒 / 录音起不来)也要出卡片,否则提示是死分支。
@@ -217,9 +255,16 @@ struct PassageReaderView: View {
                         FollowupCompareList(sentences: passage.sentences, followup: followup)
                     }
 
-                    completionButton(passage)
                 }
-                .padding(20)
+                .learningContent()
+            }
+            .safeAreaInset(edge: .bottom, spacing: 0) {
+                completionButton(passage)
+                    .frame(maxWidth: LearningLayout.contentWidth - 40)
+                    .padding(.horizontal, 20).padding(.vertical, 12)
+                    .frame(maxWidth: .infinity)
+                    .background(DuoColors.bg)
+                    .overlay(alignment: .top) { Divider() }
             }
             .onChange(of: audioPlayer.nowPlayingIndex) { _, idx in
                 if let idx, idx < passage.sentences.count {
@@ -245,8 +290,8 @@ struct PassageReaderView: View {
         let recording = followup.stage == .recording(index)
         return HStack(alignment: .top, spacing: 10) {
             Text(s.text)
-                .font(.system(size: 20, weight: active ? .heavy : .regular, design: .rounded))
-                .foregroundStyle(active ? (recording ? DuoColors.fox : DuoColors.primary) : DuoColors.ink)
+                .duoFont(.heading, weight: active ? .heavy : .regular)
+                .foregroundStyle(active ? (recording ? DuoColors.ink : DuoColors.successInk) : DuoColors.ink)
                 .lineSpacing(6)
                 .frame(maxWidth: .infinity, alignment: .leading)
             if recording {
@@ -264,6 +309,7 @@ struct PassageReaderView: View {
             active ? (recording ? DuoColors.fox.opacity(0.12) : DuoColors.primary.opacity(0.10)) : Color.clear,
             in: .rect(cornerRadius: Radius.control)
         )
+        .accessibilityIdentifier("reading-sentence-\(index)")
     }
 
     // MARK: - 跟读（content-3）

@@ -1,0 +1,135 @@
+[
+  {
+    "file": "home.png",
+    "capture": "upgrade-revised-math",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testInstalledRevisedMathReleaseOpensCurrentLesson()",
+    "timestamp": 1792946663.096
+  },
+  {
+    "file": "lesson-preview.png",
+    "capture": "02-start-popup",
+    "device": "Congcong UX Pro",
+    "test": "ScreenshotTests/testCaptureMainScreens()",
+    "timestamp": 1792946774.525
+  },
+  {
+    "file": "question.png",
+    "capture": "upgrade-question",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testHomeContinueStartsTheCurrentLesson()",
+    "timestamp": 1792946640.354
+  },
+  {
+    "file": "feedback.png",
+    "capture": "upgrade-feedback",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testHomeContinueStartsTheCurrentLesson()",
+    "timestamp": 1792946642.128
+  },
+  {
+    "file": "wrong-answer.png",
+    "capture": "upgrade-wrong-answer",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testWrongAnswerFlowsIntoScheduledReview()",
+    "timestamp": 1792946693.9
+  },
+  {
+    "file": "result.png",
+    "capture": "upgrade-lesson-result",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testCompletedLessonCanReturnToTheNextStepWithoutLosingProgress()",
+    "timestamp": 1792946622.565
+  },
+  {
+    "file": "reading-list.png",
+    "capture": "upgrade-passage-library",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testInstalledChineseReleaseReadingJourney()",
+    "timestamp": 1792946648.876
+  },
+  {
+    "file": "reader.png",
+    "capture": "upgrade-passage-reader",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testInstalledChineseReleaseReadingJourney()",
+    "timestamp": 1792946651.222
+  },
+  {
+    "file": "stories.png",
+    "capture": "upgrade-story-library",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testInstalledChineseReleaseReadingJourney()",
+    "timestamp": 1792946654.477
+  },
+  {
+    "file": "story-reader.png",
+    "capture": "upgrade-story-reader",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testInstalledChineseReleaseReadingJourney()",
+    "timestamp": 1792946656.84
+  },
+  {
+    "file": "review.png",
+    "capture": "upgrade-review-due",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testWrongAnswerFlowsIntoScheduledReview()",
+    "timestamp": 1792946696.4
+  },
+  {
+    "file": "shop.png",
+    "capture": "upgrade-shop",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testShopPreviewAndProfileRemainReachable()",
+    "timestamp": 1792946681.307
+  },
+  {
+    "file": "profile.png",
+    "capture": "upgrade-profile",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testShopPreviewAndProfileRemainReachable()",
+    "timestamp": 1792946682.792
+  },
+  {
+    "file": "onboarding.png",
+    "capture": "upgrade-onboarding-welcome",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testChangingGradeRequiresChoosingAMatchingBook()",
+    "timestamp": 1792946567.934
+  },
+  {
+    "file": "choose-book.png",
+    "capture": "upgrade-onboarding-books",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testChangingGradeRequiresChoosingAMatchingBook()",
+    "timestamp": 1792946570.767
+  },
+  {
+    "file": "large-type.png",
+    "capture": "upgrade-large-type-feedback",
+    "device": "Congcong UX Small",
+    "test": "LearningExperienceUITests/testLargeTypeKeepsLessonActionsReachable()",
+    "timestamp": 1792946425.147
+  },
+  {
+    "file": "dark.png",
+    "capture": "dark-mode-home",
+    "device": "Congcong UX Pro",
+    "test": "LayoutUITests/testDarkAppearancePreferenceRenders()",
+    "timestamp": 1792946530.943
+  },
+  {
+    "file": "revised-math.png",
+    "capture": "upgrade-revised-math-question",
+    "device": "Congcong UX Pro",
+    "test": "LearningExperienceUITests/testInstalledRevisedMathReleaseOpensCurrentLesson()",
+    "timestamp": 1792946666.117
+  },
+  {
+    "file": "ipad.png",
+    "capture": "ipad-split-achievements",
+    "device": "iPad Pro 11-inch (M5)",
+    "test": "LayoutUITests/testSidebarOnRegularWidth()",
+    "timestamp": 1792945373.555
+  }
+]

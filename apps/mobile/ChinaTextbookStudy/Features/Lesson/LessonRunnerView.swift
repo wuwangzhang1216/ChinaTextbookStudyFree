@@ -59,6 +59,7 @@ struct LessonRunnerView: View {
     @State private var showReportSheet = false
     /// 报错弹层里已提交的类型（打勾反馈）。
     @State private var reportedKind: QuestionReport.Kind?
+    @AccessibilityFocusState private var feedbackFocused: Bool
 
     /// 掉心延迟(ios-lesson-15):答错后 heartLoss 音/触感与 `loseHeart()` 一起
     /// 延迟 0.4s。期间用户就点了「知道了」的话,`proceed` 用它把还没落账的
@@ -129,6 +130,7 @@ struct LessonRunnerView: View {
     private func runner(question q: Question) -> some View {
         VStack(spacing: 0) {
             header
+            sessionSummary
             content(q: q)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
@@ -142,7 +144,7 @@ struct LessonRunnerView: View {
         }
         .overlay { floaters }
         .overlay { comboOverlay }
-        .overlay { FullScreenFlash(color: DuoColors.danger, trigger: wrongFlash) }
+        .overlay { if !reduceMotion { FullScreenFlash(color: DuoColors.danger, trigger: wrongFlash) } }
         .overlay { if showOutOfHearts { outOfHeartsGate } }
         .overlay { if showQuitConfirm { quitConfirmOverlay } }
         .overlay { if pendingResume != nil { resumePromptOverlay } }
@@ -150,6 +152,7 @@ struct LessonRunnerView: View {
         .sheet(isPresented: $showReportSheet, onDismiss: { reportedKind = nil }) {
             reportSheet(question: q)
         }
+        .onChange(of: phase) { _, phase in feedbackFocused = phase == .checked }
     }
 
     // MARK: - Header: [X] [progress] [❤️]
@@ -168,14 +171,16 @@ struct LessonRunnerView: View {
                 Image(systemName: "xmark")
                     .font(.system(size: 20, weight: .black))
                     .foregroundStyle(DuoColors.inkMuted)
-                    .frame(width: 36, height: 36)
+                    .frame(width: 44, height: 44)
             }
             .accessibilityLabel("关闭")
 
             StyledProgressBar(progress: progress, height: 16, trackColor: DuoColors.surfaceAlt)
+                .accessibilityLabel("本课进度")
+                .accessibilityValue("已掌握 \(solvedIDs.count) 题，共 \(originalTotal) 题")
 
             // 单元挑战徽章：双倍 XP 生效中，必须让孩子看见。
-            if isExamLesson {
+            if isExamLesson && !Economy.isWeekend() {
                 HStack(spacing: 2) {
                     Text("⚔️")
                         .font(.system(size: 11))
@@ -192,7 +197,7 @@ struct LessonRunnerView: View {
             }
 
             // Weekend ×2 XP must be visible while it applies — small honest badge.
-            if Economy.isWeekend() {
+            if Economy.isWeekend() && !isExamLesson {
                 HStack(spacing: 2) {
                     Image(systemName: "bolt.fill")
                         .font(.system(size: 11, weight: .heavy))
@@ -227,14 +232,34 @@ struct LessonRunnerView: View {
                 Image(systemName: "gearshape.fill")
                     .font(.system(size: 17, weight: .heavy))
                     .foregroundStyle(DuoColors.inkSofter)
-                    .frame(width: 32, height: 36)
+                    .frame(width: 44, height: 44)
             }
             .accessibilityLabel("课堂设置")
             .accessibilityIdentifier("lesson-settings")
         }
-        .padding(.horizontal, 18)
+        .padding(.horizontal, 12)
         .padding(.top, 6)
         .padding(.bottom, 10)
+    }
+
+    private var sessionSummary: some View {
+        HStack(alignment: .top, spacing: 12) {
+            VStack(alignment: .leading, spacing: 4) {
+                Text(isExamLesson ? "单元挑战 · 双倍经验" : "聪聪陪你练")
+                    .duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
+                Text(lesson?.title ?? "课堂练习")
+                    .duoFont(.subhead).foregroundStyle(DuoColors.ink)
+                    .lineLimit(2)
+            }
+            Spacer(minLength: 0)
+            Text("\(solvedIDs.count) / \(originalTotal)")
+                .duoNumeral(.caption).foregroundStyle(DuoColors.inkMuted)
+                .padding(.horizontal, 10).padding(.vertical, 7)
+                .background(DuoColors.surfaceAlt, in: Capsule())
+                .accessibilityLabel("已掌握 \(solvedIDs.count) 题，共 \(originalTotal) 题")
+        }
+        .padding(.horizontal, 20)
+        .padding(.bottom, 12)
     }
 
     // MARK: - In-lesson settings sheet (ios-lesson-14)
@@ -312,12 +337,13 @@ struct LessonRunnerView: View {
 
                 HStack(alignment: .top, spacing: 10) {
                     Text(MathText.render(q.question))
-                        .duoFont(.subhead, weight: .medium)
-                        .foregroundStyle(DuoColors.inkMuted)
+                        .duoFont(.heading, weight: .bold)
+                        .foregroundStyle(DuoColors.ink)
                         .frame(maxWidth: .infinity, alignment: .leading)
                         .lineSpacing(4)
                     TTSButton(path: q.audio?.question)
                 }
+                .learningCard()
 
                 QuestionRendererView(
                     question: q,
@@ -329,6 +355,8 @@ struct LessonRunnerView: View {
                 .id("\(q.id)-\(index)")
             }
             .padding(.horizontal, 20)
+            .frame(maxWidth: LearningLayout.contentWidth)
+            .frame(maxWidth: .infinity)
             .padding(.bottom, 24)
         }
         .onChange(of: index) { _, _ in autoNarrate(q) }
@@ -370,8 +398,8 @@ struct LessonRunnerView: View {
     // MARK: - Feedback panel (mascot + accent title + big CTA)
 
     private func feedbackPanel(ok: Bool, question: Question) -> some View {
-        let accent = ok ? DuoColors.primary : DuoColors.danger
-        let surface = accent.opacity(0.12)
+        let accent = ok ? DuoColors.successInk : DuoColors.errorInk
+        let surface = (ok ? DuoColors.primary : DuoColors.danger).opacity(0.10)
 
         return VStack(alignment: .leading, spacing: 14) {
             Rectangle()
@@ -384,9 +412,10 @@ struct LessonRunnerView: View {
                 MascotView(mood: mascotMood, size: 54, reactTo: feedbackReaction, reactKey: index + 1)
 
                 VStack(alignment: .leading, spacing: 3) {
-                    Text(feedbackTitleText.isEmpty ? (ok ? "正确" : "答错了") : feedbackTitleText)
-                        .duoFont(.heading)
-                        .foregroundStyle(accent)
+                    Label(feedbackTitleText.isEmpty ? (ok ? "正确" : "再学会一点") : feedbackTitleText,
+                          systemImage: ok ? "checkmark.circle.fill" : "arrow.clockwise.circle.fill")
+                        .duoFont(.heading).foregroundStyle(accent)
+                        .accessibilityFocused($feedbackFocused)
                     if !ok {
                         Text("正确答案：\(MathText.render(question.answer))")
                             .duoFont(.caption)
@@ -407,7 +436,7 @@ struct LessonRunnerView: View {
                     Image(systemName: "flag")
                         .font(.system(size: 16, weight: .heavy))
                         .foregroundStyle(accent.opacity(0.65))
-                        .frame(width: 34, height: 34)
+                        .frame(width: 44, height: 44)
                         .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
@@ -416,22 +445,28 @@ struct LessonRunnerView: View {
             }
 
             if !question.explanation.isEmpty {
-                HStack(alignment: .top, spacing: 8) {
+                ScrollView {
+                  HStack(alignment: .top, spacing: 8) {
                     Text(MathText.render(question.explanation))
                         .duoFont(.body)
                         .foregroundStyle(DuoColors.inkMuted)
                         .frame(maxWidth: .infinity, alignment: .leading)
                     TTSButton(path: question.audio?.explanation, size: 16)
+                  }
                 }
+                .frame(maxHeight: 120)
+                .fixedSize(horizontal: false, vertical: true)
+                .accessibilityIdentifier("lesson-explanation")
             }
 
             Button { proceed(question: question) } label: { Text(ok ? "继续" : "知道了") }
                 .buttonStyle(ChunkyButtonStyle(ok ? .primary : .danger))
                 .padding(.top, 2)
         }
+        .frame(maxWidth: LearningLayout.contentWidth - 40)
         .padding(.horizontal, 20)
         .padding(.top, 16)
-        .padding(.bottom, 36)
+        .padding(.bottom, 12)
         .frame(maxWidth: .infinity, alignment: .leading)
         .background(surface)
         .background(DuoColors.bg)
@@ -531,13 +566,15 @@ struct LessonRunnerView: View {
 
     private func checkFooter(question: Question) -> some View {
         let empty = currentAnswer.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty
-        return Button { check(question: question) } label: { Text("检查") }
+        return Button { check(question: question) } label: { Text("检查答案") }
             .buttonStyle(ChunkyButtonStyle(empty ? .disabled : .primary))
             .disabled(empty)
             .accessibilityIdentifier("检查答案")
+            .frame(maxWidth: LearningLayout.contentWidth - 40)
             .padding(.horizontal, 20)
-            .padding(.bottom, 36)
+            .padding(.bottom, 12)
             .padding(.top, 14)
+            .frame(maxWidth: .infinity)
             .background(DuoColors.bg)
     }
 

@@ -29,15 +29,22 @@ struct ProfileView: View {
                 achievementsCard
                 settingsRow
             }
-            .padding(20)
-            // The floating tab bar does not reliably inset scroll content
-            // through the NavigationStack — reserve space so the last row
-            // (settings) can always scroll fully above the bar.
-            .padding(.bottom, 84)
+            .learningContent()
         }
-        .background(DuoColors.bg.ignoresSafeArea())
+        .background(DuoColors.canvas.ignoresSafeArea())
         .navigationTitle("我的")
         .navigationBarTitleDisplayMode(.inline)
+        .toolbar {
+            ToolbarItem(placement: .topBarTrailing) {
+                Button { path.append(.settings) } label: {
+                    Image(systemName: "gearshape.fill")
+                        .foregroundStyle(DuoColors.inkMuted)
+                        .frame(width: 44, height: 44)
+                }
+                .accessibilityLabel("学习设置")
+                .accessibilityIdentifier("profile-settings")
+            }
+        }
         // ios-feel-20: 改名从系统 alert 换成品牌 sheet（圆角输入 + Chunky 保存）。
         .sheet(isPresented: $editingName) {
             RenameSheet(
@@ -58,7 +65,7 @@ struct ProfileView: View {
         VStack(spacing: 12) {
             ZStack {
                 Circle().fill(DuoColors.secondary.opacity(0.14)).frame(width: 120, height: 120)
-                MascotView(mood: .happy, size: 104)
+                MascotView(mood: .happy, size: 104, allowsTap: true)
             }
             HStack(spacing: 8) {
                 Text(progressStore.displayName).duoFont(.title).foregroundStyle(DuoColors.ink)
@@ -85,15 +92,18 @@ struct ProfileView: View {
                     .foregroundStyle(DuoColors.inkMuted)
                     .accessibilityIdentifier("profile-joined-date")
             }
+            Text("每一次认真，都值得被看见。")
+                .duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
         }
         .frame(maxWidth: .infinity)
+        .learningCard(tint: DuoColors.secondary)
     }
 
     // MARK: - Stat grid
 
     private var statGrid: some View {
         LazyVGrid(columns: [GridItem(.flexible()), GridItem(.flexible())], spacing: 12) {
-            statCard(icon: "flame.fill", value: "\(progressStore.progress.streak)", label: "连胜天数", tint: DuoColors.fox)
+            statCard(icon: "flame.fill", value: "\(progressStore.displayStreak)", label: "连胜天数", tint: DuoColors.fox)
             statCard(icon: "bolt.fill", value: "\(progressStore.progress.xp)", label: "总经验值", tint: DuoColors.secondary)
             statCard(icon: "checkmark.seal.fill", value: "\(progressStore.totalCompletedLessons)", label: "完成课程", tint: DuoColors.primary)
             statCard(icon: "star.fill", value: "\(progressStore.perfectedLessonCount)", label: "完美通关", tint: DuoColors.bee)

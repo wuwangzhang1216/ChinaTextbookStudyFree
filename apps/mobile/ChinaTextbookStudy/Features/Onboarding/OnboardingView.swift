@@ -1,7 +1,6 @@
 import SwiftUI
 
-/// First-run onboarding: greet → pick grade & book → commit to a daily goal
-/// → notification soft-ask. Warm and animated, never a settings form.
+/// Four small decisions, one stable action area, and an explicit opt-in to reminders.
 struct OnboardingView: View {
     @ObservedObject var progressStore: ProgressStore
     let siteIndex: SiteIndex
@@ -10,284 +9,230 @@ struct OnboardingView: View {
     @State private var step = 0
     @State private var selectedGrade = 1
     @State private var selectedBookId: String?
-    /// Guards double-taps on the primer buttons while the system alert is up.
+    @State private var selectedGoal = 50
     @State private var requestingAuth = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
-    private let stepCount = 4
-
-    /// 每日目标档位 —— 与 Economy.dailyGoalOptions（20/50/100/200）一致。
     private let goals: [(label: String, xp: Int, sub: String)] = [
-        ("轻松", 20, "每天几分钟"),
-        ("标准", 50, "每天 1 节"),
-        ("认真", 100, "每天 2 节"),
-        ("学霸", 200, "每天 4 节"),
+        ("轻松起步", 20, "留一点时间给好奇心"),
+        ("每天进步", 50, "从一个小目标开始"),
+        ("多学一点", 100, "给自己多一点挑战"),
+        ("认真探索", 200, "按自己的节奏完成"),
     ]
+    private var booksForGrade: [Book] {
+        siteIndex.books.filter { $0.grade == selectedGrade && $0.supersededBy == nil }
+    }
+    private var stepLabel: String { ["认识聪聪", "选择课本", "每日目标", "学习提醒"][step] }
 
     var body: some View {
-        ZStack {
-            DuoColors.bg.ignoresSafeArea()
-
-            VStack(spacing: 0) {
-                progressDots
-                    .padding(.top, 16)
-
-                Group {
-                    switch step {
-                    case 0: greetStep
-                    case 1: pickStep
-                    case 2: goalStep
-                    default: notifyStep
-                    }
+        VStack(spacing: 0) {
+            HStack(spacing: 14) {
+                Button {
+                    withAnimation(reduceMotion ? nil : Motion.reveal) { step -= 1 }
+                } label: {
+                    Image(systemName: "arrow.left").font(.system(size: 20, weight: .bold))
+                        .frame(width: 44, height: 44)
                 }
-                .transition(.asymmetric(
-                    insertion: .move(edge: .trailing).combined(with: .opacity),
-                    removal: .move(edge: .leading).combined(with: .opacity)
-                ))
-                .frame(maxHeight: .infinity)
-            }
-        }
-    }
-
-    private var progressDots: some View {
-        HStack(spacing: 8) {
-            ForEach(0..<stepCount, id: \.self) { i in
-                Capsule()
-                    .fill(i <= step ? DuoColors.primary : DuoColors.border)
-                    .frame(width: i == step ? 28 : 10, height: 10)
-                    .animation(Motion.reveal, value: step)
-            }
-        }
-    }
-
-    // MARK: - Step 0 — greeting
-
-    private var greetStep: some View {
-        VStack(spacing: Space.l) {
-            Spacer()
-            MascotView(mood: .wave, size: 150, reactTo: .correct)
-            SpeechBubbleView(text: "嗨，我是聪聪！", mood: .happy)
-            Text("欢迎来到课本学习")
-                .duoFont(.title)
-                .foregroundStyle(DuoColors.ink)
-            Text("每天几分钟，把课本变成闯关游戏")
-                .duoFont(.body)
                 .foregroundStyle(DuoColors.inkMuted)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 40)
-            Spacer()
-            Button("开始吧") { withAnimation(Motion.reveal) { step = 1 } }
-                .buttonStyle(ChunkyButtonStyle(.primary))
-                .padding(.horizontal, 32)
-                .padding(.bottom, 40)
-        }
-    }
-
-    // MARK: - Step 1 — grade + book
-
-    private var pickStep: some View {
-        VStack(alignment: .leading, spacing: Space.l) {
-            Text("选择你的课本")
-                .duoFont(.title)
-                .foregroundStyle(DuoColors.ink)
-                .padding(.horizontal, 20)
-                .padding(.top, 20)
-
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 10) {
-                    ForEach(1...6, id: \.self) { g in
-                        gradeChip(g)
-                    }
-                }
-                .padding(.horizontal, 20)
+                .disabled(step == 0 || requestingAuth)
+                .opacity(step == 0 ? 0 : 1)
+                .accessibilityLabel("上一步")
+                StyledProgressBar(progress: Double(step + 1) / 4, height: 12)
+                Text("\(step + 1)/4").duoNumeral(.caption).foregroundStyle(DuoColors.inkMuted)
             }
+            .padding(.horizontal, 16)
+            .padding(.vertical, 8)
+            .frame(maxWidth: LearningLayout.contentWidth)
 
             ScrollView {
-                VStack(spacing: 12) {
-                    ForEach(booksForGrade, id: \.id) { book in
-                        bookRow(book)
-                    }
-                    if booksForGrade.isEmpty {
-                        Text("这个年级暂无课本")
-                            .duoFont(.subhead)
-                            .foregroundStyle(DuoColors.inkMuted)
-                            .padding(.vertical, 20)
+                VStack(spacing: 24) {
+                    if step == 0 {
+                        greeting
+                    } else if step == 1 {
+                        bookSelection
+                    } else if step == 2 {
+                        goalSelection
+                    } else {
+                        notificationPrimer
                     }
                 }
-                .padding(.horizontal, 20)
-                .padding(.bottom, 20)
+                .learningContent()
             }
-
-            Button(selectedBookId == nil ? "先选一本课本" : "下一步") {
-                withAnimation(Motion.reveal) { step = 2 }
-            }
-            .buttonStyle(ChunkyButtonStyle(selectedBookId == nil ? .disabled : .primary))
-            .disabled(selectedBookId == nil)
-            .padding(.horizontal, 32)
-            .padding(.bottom, 32)
+            .safeAreaInset(edge: .bottom, spacing: 0) { footer }
         }
+        .background(DuoColors.bg.ignoresSafeArea())
+        .onChange(of: selectedGrade) { _, _ in selectedBookId = nil }
     }
 
-    private var booksForGrade: [Book] { siteIndex.books.filter { $0.grade == selectedGrade } }
-
-    private func gradeChip(_ g: Int) -> some View {
-        let selected = selectedGrade == g
-        return Button {
-            HapticEngine.shared.tap()
-            withAnimation(Motion.press) { selectedGrade = g }
-        } label: {
-            Text("\(g)年级")
-                .duoFont(.caption)
-                .foregroundStyle(selected ? .white : DuoColors.inkMuted)
-                .frame(width: 76, height: 42)
-                .background(selected ? DuoColors.primary : DuoColors.surface, in: .capsule)
-                .overlay { Capsule().strokeBorder(selected ? .clear : DuoColors.border, lineWidth: 2) }
+    private var greeting: some View {
+        VStack(spacing: 24) {
+            Text("聪聪学堂").duoFont(.caption).foregroundStyle(DuoColors.successInk)
+            MascotView(mood: .wave, size: 180, allowsTap: true)
+                .padding(24)
+                .background(DuoColors.primary.opacity(0.10), in: Circle())
+            VStack(spacing: 12) {
+                Text("你好，我是聪聪！").duoFont(.title).foregroundStyle(DuoColors.ink)
+                Text("学习，从好奇心开始。")
+                    .duoFont(.subhead).foregroundStyle(DuoColors.inkMuted)
+                Text("跟着课本闯关，听一篇故事，\n把每一次小进步变成自己的收获。")
+                    .duoFont(.body).foregroundStyle(DuoColors.inkMuted)
+                    .multilineTextAlignment(.center).lineSpacing(5)
+            }
+            HStack(spacing: 20) {
+                Label("小学全科", systemImage: "books.vertical.fill")
+                Label("免费开源", systemImage: "heart.fill")
+            }
+            .duoFont(.caption).foregroundStyle(DuoColors.successInk)
         }
-        .buttonStyle(.plain)
+        .padding(.top, 24)
+    }
+
+    private var bookSelection: some View {
+        VStack(alignment: .leading, spacing: 20) {
+            LearningPageHeader(eyebrow: stepLabel, title: "从你的课本开始", subtitle: "先选年级，再选一本正在学的课本。以后随时可以更换。")
+            LazyVGrid(columns: Array(repeating: GridItem(.flexible(), spacing: 10), count: 3), spacing: 10) {
+                ForEach(1...6, id: \.self) { grade in
+                    Button {
+                        HapticEngine.shared.tap()
+                        selectedGrade = grade
+                    } label: {
+                        Text("\(grade) 年级").duoFont(.button)
+                            .frame(maxWidth: .infinity, minHeight: 48)
+                            .foregroundStyle(selectedGrade == grade ? DuoColors.successInk : DuoColors.inkMuted)
+                            .background(selectedGrade == grade ? DuoColors.primary.opacity(0.14) : DuoColors.surface,
+                                        in: RoundedRectangle(cornerRadius: Radius.control))
+                            .overlay { RoundedRectangle(cornerRadius: Radius.control).strokeBorder(selectedGrade == grade ? DuoColors.primary : DuoColors.border, lineWidth: 2) }
+                    }
+                    .buttonStyle(.plain)
+                    .accessibilityAddTraits(selectedGrade == grade ? [.isSelected] : [])
+                }
+            }
+            ForEach(booksForGrade, id: \.id) { book in
+                bookRow(book)
+            }
+            if booksForGrade.isEmpty {
+                Text("这个年级暂无课本，可以先选其他年级。")
+                    .duoFont(.body).foregroundStyle(DuoColors.inkMuted)
+            }
+        }
     }
 
     private func bookRow(_ book: Book) -> some View {
-        let cfg = Subjects.resolve(book: book)
         let selected = selectedBookId == book.id
+        let subject = Subjects.resolve(book: book)
         return Button {
-            HapticEngine.shared.tap(); SFXEngine.shared.play(.tap)
-            withAnimation(Motion.press) { selectedBookId = book.id }
-            progressStore.setSelectedGrade(selectedGrade)
-            progressStore.setActiveBook(book.id)
+            HapticEngine.shared.tap()
+            selectedBookId = book.id
         } label: {
-            HStack(spacing: 14) {
-                ZStack {
-                    RoundedRectangle(cornerRadius: Radius.control).fill(cfg.accent).frame(width: 48, height: 48)
-                    Text(cfg.label).duoFont(.subhead).foregroundStyle(.white)
-                }
-                VStack(alignment: .leading, spacing: 3) {
-                    Text(book.fullName).duoFont(.subhead).foregroundStyle(DuoColors.ink).lineLimit(2).multilineTextAlignment(.leading)
-                    Text("\(book.unitsCount) 单元 · \(book.lessonsCount) 节")
+            HStack(spacing: 12) {
+                Text(subject.label).duoFont(.caption)
+                    .foregroundStyle(DuoColors.ink)
+                    .frame(width: 48, height: 48)
+                    .background(subject.accent.opacity(0.16), in: RoundedRectangle(cornerRadius: 14))
+                VStack(alignment: .leading, spacing: 5) {
+                    Text(book.fullName).duoFont(.subhead).foregroundStyle(DuoColors.ink)
+                        .multilineTextAlignment(.leading)
+                    Text("\(book.unitsCount) 单元 · \(book.lessonsCount) 节小课")
                         .duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
-                }
-                .frame(maxWidth: .infinity, alignment: .leading)
-                if selected {
-                    Image(systemName: "checkmark.circle.fill").font(.system(size: 24)).foregroundStyle(DuoColors.primary)
-                }
+                }.frame(maxWidth: .infinity, alignment: .leading)
+                Image(systemName: selected ? "checkmark.circle.fill" : "circle")
+                    .font(.system(size: 24, weight: .semibold))
+                    .foregroundStyle(selected ? DuoColors.successInk : DuoColors.border)
             }
-            .padding(14)
-            .background(DuoColors.surface, in: .rect(cornerRadius: Radius.card))
-            .overlay {
-                RoundedRectangle(cornerRadius: Radius.card)
-                    .strokeBorder(selected ? DuoColors.primary : DuoColors.border, lineWidth: selected ? 2.5 : 2)
-            }
+            .learningCard(tint: selected ? DuoColors.primary : nil)
         }
         .buttonStyle(.plain)
+        .accessibilityIdentifier("onboarding-book-\(book.id)")
+        .accessibilityAddTraits(selected ? [.isSelected] : [])
     }
 
-    // MARK: - Step 2 — daily goal
-
-    private var goalStep: some View {
-        VStack(spacing: Space.l) {
-            Spacer(minLength: 8)
-            MascotView(mood: .proud, size: 110, reactTo: .levelup)
-            Text("设定每日目标")
-                .duoFont(.title)
-                .foregroundStyle(DuoColors.ink)
-            Text("坚持就是胜利，选一个适合你的目标")
-                .duoFont(.body)
-                .foregroundStyle(DuoColors.inkMuted)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 40)
-
-            VStack(spacing: 10) {
-                ForEach(goals, id: \.xp) { goal in
-                    goalRow(goal)
-                }
-            }
-            .padding(.horizontal, 24)
-
-            Spacer(minLength: 8)
-        }
-        .padding(.bottom, 24)
-    }
-
-    private func goalRow(_ goal: (label: String, xp: Int, sub: String)) -> some View {
-        Button {
-            HapticEngine.shared.success(); SFXEngine.shared.play(.complete)
-            progressStore.setDailyGoal(goal.xp)
-            withAnimation(Motion.reveal) { step = 3 }
-        } label: {
-            HStack(spacing: 14) {
-                VStack(alignment: .leading, spacing: 2) {
-                    Text(goal.label).duoFont(.subhead).foregroundStyle(DuoColors.ink)
-                    Text(goal.sub).duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
-                }
-                Spacer()
-                HStack(spacing: 4) {
-                    Image(systemName: "bolt.fill").font(.system(size: 13, weight: .heavy))
-                    Text("\(goal.xp) XP").duoFont(.caption)
-                }
-                .foregroundStyle(DuoColors.secondary)
-                .padding(.horizontal, 12).padding(.vertical, 7)
-                .background(DuoColors.secondary.opacity(0.14), in: .capsule)
-            }
-            .padding(16)
-            .background(DuoColors.surface, in: .rect(cornerRadius: Radius.card))
-            .overlay { RoundedRectangle(cornerRadius: Radius.card).strokeBorder(DuoColors.border, lineWidth: 2) }
-        }
-        .buttonStyle(.plain)
-    }
-
-    // MARK: - Step 3 — notification soft-ask primer (ios-retention-2)
-
-    /// 聪聪 asks first; the scary system alert only appears after an explicit
-    /// 「好呀」. A refusal here never re-prompts — the Settings toggle remains
-    /// the one place to opt in later.
-    private var notifyStep: some View {
-        VStack(spacing: Space.l) {
-            Spacer()
-            MascotView(mood: .wave, size: 130, reactTo: .correct)
-            SpeechBubbleView(text: "每天一条小提醒，帮你保住连胜 🔥", mood: .happy)
-            Text("要聪聪提醒你吗？")
-                .duoFont(.title)
-                .foregroundStyle(DuoColors.ink)
-            Text("每天最多一条，学过就不打扰，随时可以在设置里关掉")
-                .duoFont(.body)
-                .foregroundStyle(DuoColors.inkMuted)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 40)
-            Spacer()
-            VStack(spacing: 10) {
-                Button("好呀") {
-                    guard !requestingAuth else { return }
-                    requestingAuth = true
-                    HapticEngine.shared.tap(); SFXEngine.shared.play(.tap)
-                    Task {
-                        let granted = await NotificationService.shared.requestAuthorization()
-                        if granted {
-                            SettingsStore.shared.streakReminderEnabled = true
-                            NotificationService.shared.rescheduleStreakReminder(
-                                streak: progressStore.reminderStreak,
-                                studiedToday: progressStore.studiedToday
-                            )
-                            HapticEngine.shared.success()
-                        }
-                        finish()
-                    }
-                }
-                .buttonStyle(ChunkyButtonStyle(.primary))
-                .accessibilityIdentifier("onboarding-notify-yes")
-
-                Button("暂时不用") {
-                    guard !requestingAuth else { return }
+    private var goalSelection: some View {
+        VStack(spacing: 20) {
+            LearningPageHeader(eyebrow: stepLabel, title: "每天，进步一点点", subtitle: "选一个轻松坚持的经验目标。目标可以在个人中心调整。", mood: .proud)
+            ForEach(goals, id: \.xp) { goal in
+                Button {
                     HapticEngine.shared.tap()
-                    finish()
+                    selectedGoal = goal.xp
+                } label: {
+                    HStack(spacing: 12) {
+                        Image(systemName: selectedGoal == goal.xp ? "checkmark.circle.fill" : "circle")
+                            .font(.system(size: 24, weight: .semibold))
+                            .foregroundStyle(selectedGoal == goal.xp ? DuoColors.successInk : DuoColors.border)
+                        VStack(alignment: .leading, spacing: 5) {
+                            Text(goal.label).duoFont(.subhead).foregroundStyle(DuoColors.ink)
+                            Text(goal.sub).duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
+                        }.frame(maxWidth: .infinity, alignment: .leading)
+                        Text("\(goal.xp) XP").duoNumeral(.caption).foregroundStyle(DuoColors.linkInk)
+                    }
+                    .learningCard(tint: selectedGoal == goal.xp ? DuoColors.primary : nil)
                 }
-                .buttonStyle(ChunkyButtonStyle(.ghost))
-                .accessibilityIdentifier("onboarding-notify-later")
+                .buttonStyle(.plain)
+                .accessibilityAddTraits(selectedGoal == goal.xp ? [.isSelected] : [])
             }
-            .padding(.horizontal, 32)
-            .padding(.bottom, 40)
         }
     }
 
-    /// Common exit for the last step — mark onboarding done and hand control
-    /// back to the shell (which pushes the first lesson, ios-retention-11).
+    private var notificationPrimer: some View {
+        VStack(spacing: 24) {
+            MascotView(mood: .wave, size: 160).padding(.top, 32)
+            Text("需要一声温柔的提醒吗？").duoFont(.title).foregroundStyle(DuoColors.ink)
+            Text("每天最多一条，学过就不打扰。\n你可以随时在设置里关闭提醒。")
+                .duoFont(.body).foregroundStyle(DuoColors.inkMuted)
+                .multilineTextAlignment(.center).lineSpacing(6)
+            Label("由你决定，现在跳过也没关系", systemImage: "bell.badge")
+                .duoFont(.caption).foregroundStyle(DuoColors.linkInk)
+        }
+        .multilineTextAlignment(.center)
+    }
+
+    private var footer: some View {
+        VStack(spacing: 10) {
+            if step == 3 {
+                Button(requestingAuth ? "正在开启…" : "开启学习提醒") { requestReminder() }
+                    .buttonStyle(ChunkyButtonStyle(.primary))
+                    .disabled(requestingAuth)
+                    .accessibilityIdentifier("onboarding-notify-yes")
+                Button("暂时不用，开始学习") { finish() }
+                    .buttonStyle(ChunkyButtonStyle(.ghost))
+                    .disabled(requestingAuth)
+                    .accessibilityIdentifier("onboarding-notify-later")
+            } else {
+                Button(step == 0 ? "和聪聪一起出发" : "继续") { advance() }
+                    .buttonStyle(ChunkyButtonStyle(step == 1 && selectedBookId == nil ? .disabled : .primary))
+                    .disabled(step == 1 && selectedBookId == nil)
+                    .accessibilityIdentifier("onboarding-continue")
+            }
+        }
+        .frame(maxWidth: LearningLayout.contentWidth - 40)
+        .padding(20)
+        .frame(maxWidth: .infinity)
+        .background(DuoColors.bg)
+        .overlay(alignment: .top) { Divider().overlay(DuoColors.border) }
+    }
+
+    private func advance() {
+        if step == 1 {
+            guard let id = selectedBookId, booksForGrade.contains(where: { $0.id == id }) else { return }
+            progressStore.setSelectedGrade(selectedGrade)
+            progressStore.setActiveBook(id)
+        }
+        if step == 2 { progressStore.setDailyGoal(selectedGoal) }
+        HapticEngine.shared.tap()
+        withAnimation(reduceMotion ? nil : Motion.reveal) { step += 1 }
+    }
+
+    private func requestReminder() {
+        guard !requestingAuth else { return }
+        requestingAuth = true
+        Task {
+            if await NotificationService.shared.requestAuthorization() {
+                SettingsStore.shared.streakReminderEnabled = true
+                NotificationService.shared.rescheduleStreakReminder(streak: progressStore.reminderStreak, studiedToday: progressStore.studiedToday)
+            }
+            finish()
+        }
+    }
+
     private func finish() {
         progressStore.completeOnboarding()
         onDone()

@@ -18,6 +18,9 @@ final class ScreenshotTests: XCTestCase {
         // Start popup over the path.
         app.buttons["lesson-row-g1up-u1-kp1"].firstMatch.tap()
         XCTAssertTrue(app.buttons["lesson-start"].waitForExistence(timeout: 5))
+        XCTAssertTrue(app.buttons["lesson-start"].isHittable, "The start card must be visible without an extra scroll")
+        XCTAssertLessThanOrEqual(app.buttons["lesson-start"].frame.maxY, app.buttons["tab-learn"].frame.minY,
+                                 "The complete primary action must stay above the tab bar")
         attach(name: "02-start-popup")
 
         // 课前知识讲解（Wave E2）——顺手截一张，再翻到题目。

@@ -11,7 +11,7 @@ settings:
     MARKETING_VERSION: "0.1.0"
     CURRENT_PROJECT_VERSION: "1"
     GENERATE_INFOPLIST_FILE: YES
-    INFOPLIST_KEY_CFBundleDisplayName: "课本学习"
+    INFOPLIST_KEY_CFBundleDisplayName: "聪聪学堂"
     INFOPLIST_KEY_UILaunchScreen_Generation: YES
     INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait"
     INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
@@ -69,7 +69,7 @@ targets:
     info:
       path: ChinaTextbookStudyWidget/Info.plist
       properties:
-        CFBundleDisplayName: 课本学习
+        CFBundleDisplayName: 聪聪学堂
         NSExtension:
           NSExtensionPointIdentifier: com.apple.widgetkit-extension
     settings:

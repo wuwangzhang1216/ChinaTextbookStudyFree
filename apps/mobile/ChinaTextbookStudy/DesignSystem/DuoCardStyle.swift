@@ -31,6 +31,7 @@ struct OptionCardModifier: ViewModifier {
             .padding(.horizontal, 16)
             .padding(.vertical, 14)
             .background(backgroundColor, in: .rect(cornerRadius: cornerRadius))
+            .background(DuoColors.surface, in: .rect(cornerRadius: cornerRadius))
             .overlay {
                 RoundedRectangle(cornerRadius: cornerRadius)
                     .strokeBorder(borderColor, lineWidth: borderWidth)
@@ -49,9 +50,9 @@ struct OptionCardModifier: ViewModifier {
     private var borderColor: Color {
         switch state {
         case .default:  return DuoColors.darkSurfaceAlt
-        case .selected: return DuoColors.secondary
-        case .correct:  return DuoColors.primary
-        case .wrong:    return DuoColors.danger
+        case .selected: return DuoColors.linkInk
+        case .correct:  return DuoColors.successInk
+        case .wrong:    return DuoColors.errorInk
         case .disabled: return DuoColors.darkSurfaceAlt.opacity(0.5)
         }
     }
@@ -69,9 +70,9 @@ struct OptionCardModifier: ViewModifier {
     private var foregroundColor: Color {
         switch state {
         case .default:  return DuoColors.darkInk
-        case .selected: return DuoColors.secondary
-        case .correct:  return DuoColors.primary
-        case .wrong:    return DuoColors.danger
+        case .selected: return DuoColors.linkInk
+        case .correct:  return DuoColors.successInk
+        case .wrong:    return DuoColors.errorInk
         case .disabled: return DuoColors.darkInkSofter
         }
     }

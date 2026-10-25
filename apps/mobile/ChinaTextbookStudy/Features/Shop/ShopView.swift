@@ -6,14 +6,33 @@ struct ShopView: View {
     @State private var flash: String?
     /// 未拥有的装扮点开先看大图确认（ios-economy-15）——不再一击误买。
     @State private var previewItem: CosmeticItem?
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.dynamicTypeSize) private var typeSize
 
     private let refillCost = Economy.heartRefillCost
     private let freezeCost = Economy.freezeCost
 
     var body: some View {
+      ScrollViewReader { proxy in
         ScrollView {
             VStack(alignment: .leading, spacing: Space.xl) {
+                LearningPageHeader(eyebrow: "聪聪的奖励小铺", title: "努力，值得一点奖励", subtitle: "用学习赚来的宝石，装扮属于你的学堂。", tint: DuoColors.beetle, mood: .proud)
                 balanceHeader
+
+                ScrollView(.horizontal, showsIndicators: false) {
+                    HStack(spacing: 8) {
+                        ForEach(["红心 & 连胜", "聪聪皮肤", "界面主题", "课程背景"], id: \.self) { category in
+                            Button {
+                                withAnimation(reduceMotion ? nil : Motion.reveal) { proxy.scrollTo(category, anchor: .top) }
+                            } label: {
+                                Text(category).duoFont(.caption).foregroundStyle(DuoColors.ink)
+                                    .padding(.horizontal, 14).frame(minHeight: 44)
+                                    .background(DuoColors.surface, in: Capsule())
+                                    .overlay { Capsule().strokeBorder(DuoColors.border, lineWidth: 2) }
+                            }.buttonStyle(.plain)
+                        }
+                    }
+                }
 
                 if let flash {
                     Text(flash)
@@ -25,14 +44,15 @@ struct ShopView: View {
                         .transition(.opacity)
                 }
 
-                powerUps
+                powerUps.id("红心 & 连胜")
                 cosmeticSection("聪聪皮肤", items: Cosmetics.mascotSkins)
                 cosmeticSection("界面主题", items: Cosmetics.uiThemes.map(\.item))
                 cosmeticSection("课程背景", items: Cosmetics.lessonBackdrops.map(\.item))
             }
-            .padding(20)
+            .learningContent()
         }
-        .background(DuoColors.bg.ignoresSafeArea())
+      }
+        .background(DuoColors.canvas.ignoresSafeArea())
         .navigationTitle("商店")
         .navigationBarTitleDisplayMode(.inline)
         .sheet(item: $previewItem) { item in
@@ -139,15 +159,13 @@ struct ShopView: View {
     private func cosmeticSection(_ title: String, items: [CosmeticItem]) -> some View {
         VStack(alignment: .leading, spacing: 12) {
             sectionHeader(title)
-            ScrollView(.horizontal, showsIndicators: false) {
-                HStack(spacing: 12) {
+            LazyVGrid(columns: typeSize.isAccessibilitySize ? [GridItem(.flexible())] : [GridItem(.adaptive(minimum: 104), spacing: 12)], spacing: 12) {
                     ForEach(items) { item in
                         cosmeticTile(item)
                     }
-                }
-                .padding(.horizontal, 2)
             }
         }
+        .id(title)
     }
 
     private func cosmeticTile(_ item: CosmeticItem) -> some View {
@@ -195,7 +213,7 @@ struct ShopView: View {
                     }
                 }
             }
-            .frame(width: 116)
+            .frame(maxWidth: .infinity)
             .padding(.vertical, 10)
             .background(DuoColors.surface, in: .rect(cornerRadius: Radius.card))
             .overlay {
@@ -205,6 +223,7 @@ struct ShopView: View {
         }
         .buttonStyle(.plain)
         .accessibilityIdentifier("cosmetic-\(item.id)")
+        .accessibilityLabel("\(item.name)，\(equipped ? "使用中" : owned ? "已拥有，点击使用" : "\(item.cost) 宝石，点击预览")")
     }
 
     /// 已拥有 → 一击装备；未拥有 → 先弹预览确认 sheet（ios-economy-15）。
@@ -236,7 +255,7 @@ struct ShopView: View {
     // MARK: - Helpers
 
     private func sectionHeader(_ text: String) -> some View {
-        Text(text).duoFont(.caption).tracking(1).foregroundStyle(DuoColors.inkMuted)
+        LearningSectionTitle(title: text)
     }
 
     private func win(_ msg: String) {

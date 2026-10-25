@@ -69,7 +69,7 @@ struct LeagueView: View {
                 .duoFont(.title)
                 .foregroundStyle(DuoColors.ink)
 
-            Text("完成 \(League.unlockLessons) 节课，就能和 15 位小伙伴\n一起比拼每周经验啦！")
+            Text("完成 \(League.unlockLessons) 节课，开启每周挑战。\n和模拟学伴一起，保持自己的学习节奏。")
                 .duoFont(.body)
                 .foregroundStyle(DuoColors.inkMuted)
                 .multilineTextAlignment(.center)
@@ -122,6 +122,8 @@ struct LeagueView: View {
             VStack(spacing: 16) {
                 tierBanner
                     .padding(.top, 8)
+                Label("本地模拟学伴榜 · 无真人在线排名", systemImage: "info.circle")
+                    .duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
 
                 VStack(spacing: 0) {
                     ForEach(Array(rows.enumerated()), id: \.offset) { _, entry in
@@ -137,6 +139,8 @@ struct LeagueView: View {
                 .padding(.horizontal, 16)
                 .padding(.bottom, 24)
             }
+            .frame(maxWidth: LearningLayout.contentWidth)
+            .frame(maxWidth: .infinity)
         }
         .accessibilityIdentifier("league-board")
     }

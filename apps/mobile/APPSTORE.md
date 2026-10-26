@@ -1,6 +1,6 @@
 # 聪聪学堂 iOS 上架记录
 
-2026-10-25：已建立 [App Store Connect 记录](https://appstoreconnect.apple.com/apps/6826962612/distribution/ios/version/inflight)，Apple ID `6826962612`，首个版本为 `1.0`。记录建立、归档、上传、提交审核和公开上架是不同阶段，不能以归档成功代替后续结果。
+2026-10-25：已建立 [App Store Connect 记录](https://appstoreconnect.apple.com/apps/6826962612/distribution/ios/version/inflight)，Apple ID `6826962612`，首个版本为 `1.0`。`1.0 (4)` 已于 2026-10-26 03:58:32 UTC 成功上传，Apple 返回安装包正在处理。尚未确认处理完成，也未提交审核或公开上架。
 
 ## 应用与签名
 
@@ -11,12 +11,12 @@
 - 主 App 保留 iCloud Key-value storage 权限；两个 App ID 的描述文件都必须包含上述 App Group。
 - 已验证 `0.1.0 (1)` 开发签名 IPA。它只适用于描述文件内已登记设备，不能作为 App Store 分发包上传。
 - 当前送审源版本为 `1.0 (4)`。以后每次上传递增构建号。
-- App Store 包需要 Apple Distribution 或 Xcode 托管的云签名及相应分发描述文件。
+- 已使用 Xcode 托管的 Apple Distribution 签名导出 `1.0 (4)` App Store IPA，主 App 与 Widget 的签名、无设备列表的分发描述文件、共享 App Group 和 iCloud KVS 均已校验。
 - 签名产物和构建日志存放在忽略的 `dist/ios/`，不要提交证书、描述文件、私钥或私有审核联系人。
 
 ## 商店资料
 
-可复用文案见 [app-store-metadata.zh-Hans.json](app-store-metadata.zh-Hans.json)。名称为“聪聪学堂”，主分类 Education，次分类 Reference。应用免费，无广告、无内购、无需登录。审核联系人经用户授权沿用 Oxyn-AI，姓名可读取，但邮箱和电话被 Apple 遮挡；用户已另行提供审核电话，邮箱待确认。联系资料仅在 App Store Connect 填写，不写入公开仓库。
+可复用文案见 [app-store-metadata.zh-Hans.json](app-store-metadata.zh-Hans.json)。名称为“聪聪学堂”，主分类 Education，次分类 Reference。应用免费，无广告、无内购、无需登录。审核联系人经用户授权沿用 Oxyn-AI，姓名可读取，但邮箱和电话被 Apple 遮挡；用户已另行确认审核电话与邮箱。联系资料已在 App Store Connect 保存，不写入公开仓库。
 
 用户已确认教材课文、故事及配图属于自有、公版或已有适当授权。首发地区由用户指定为中国大陆以外；已配置 174 个地区，中国大陆状态为 Not Available，不自动加入未来新增地区。
 
@@ -51,8 +51,14 @@
 - [x] 单元测试 215 项；Pro 家长确认 4 项、SE 3 项均已通过（发现问题后的修正已单独复测）。
 - [x] iPhone 1206×2622 与 iPad 2064×2752 各 4 张实际原生截图已上传。
 - [x] Release `1.0 (4)` 归档及主 App / Widget 签名校验成功。
-- [ ] 使用 App Store 分发签名归档并上传，确认构建处理成功。
+- [x] App Store 分发签名 IPA 导出及验证成功，详见忽略目录 `dist/ios/app-store/DISTRIBUTION-VERIFICATION.json`。
+- [x] 使用 App Store 分发签名归档并上传，Apple 返回 Upload succeeded。
+- [ ] 当前 App Store Connect 服务条款窗口需由用户确认接受，之后核对 TestFlight 处理结果。
 - [ ] 选择上传构建，检查所有必填项并提交审核。
 - [ ] 真机音频、麦克风、通知和 iCloud 最终验收。
 
 参考：[Apple 提交流程](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-an-app/)、[审核指南](https://developer.apple.com/app-store/review/guidelines/)、[隐私定义](https://developer.apple.com/app-store/app-privacy-details/)、[截图规格](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications)。
+
+## 本机导出环境
+
+本机同时安装了系统与 Homebrew 的 rsync。Xcode 打包时可能由系统 rsync 调用到 PATH 中的另一实现，报 `--extended-attributes: unknown option`，最终显示 `Copy failed`。对导出／上传命令单独使用 `env PATH=/usr/bin:/bin:/usr/sbin:/sbin /usr/bin/xcodebuild ...` 已验证可以避免该冲突；无需修改系统配置或重新归档。分发使用 `app-store-connect` 方法，上传时将 ExportOptions 的 `destination` 设为 `upload`，版本／构建号保持不自动修改。

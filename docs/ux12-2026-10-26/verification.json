@@ -1,122 +1,465 @@
 {
-  "status": "local-checks-passed; release-verification-pending",
-  "core_tests": 231,
-  "new_current_default_regression": "passed",
-  "types": "passed",
-  "learning_quality": "passed",
-  "web_experience": "passed",
-  "visual_controls": "passed",
-  "ten_theme_both_modes": "passed",
-  "release_installer_and_grouping": "passed",
-  "production_build": "passed",
-  "mobile_widths": [
-    320,
-    360,
-    390,
-    430
-  ],
-  "height_tested": 844,
-  "floor_target_height": 56,
-  "click_test": "centres and four interior points (12px inset to exclude clipped round corners)",
-  "click_hit_areas": [
+  "status": "automated_passed_human_acceptance_pending",
+  "version": "v1.7.3",
+  "verified_at_utc": "2026-10-26T16:57:03.859895+00:00",
+  "source_commit": "55190ac2b6ae1a9b7885f10328c8f50a9a27ad66",
+  "implementationPR": "https://github.com/wuwangzhang1216/congcong-school/pull/48",
+  "implementationMergeCommit": "3574f004aea6518068582c0253567fe8c6a8e6c2",
+  "ci": [
     {
-      "targets": [
-        {
-          "clear": true,
-          "label": "第4层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第3层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第2层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第1层的教室"
-        }
-      ],
-      "width": 320
+      "link": "https://github.com/wuwangzhang1216/congcong-school/actions/runs/40361195680/job/121706779929",
+      "name": "regressions",
+      "state": "SUCCESS"
     },
     {
-      "targets": [
-        {
-          "clear": true,
-          "label": "第4层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第3层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第2层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第1层的教室"
-        }
-      ],
-      "width": 360
+      "link": "https://github.com/wuwangzhang1216/congcong-school/actions/runs/40361196200/job/121706781999",
+      "name": "experience",
+      "state": "SUCCESS"
     },
     {
-      "targets": [
-        {
-          "clear": true,
-          "label": "第4层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第3层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第2层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第1层的教室"
-        }
-      ],
-      "width": 390
-    },
-    {
-      "targets": [
-        {
-          "clear": true,
-          "label": "第4层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第3层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第2层的教室"
-        },
-        {
-          "clear": true,
-          "label": "第1层的教室"
-        }
-      ],
-      "width": 430
+      "link": "https://github.com/wuwangzhang1216/congcong-school/actions/runs/40361110499/job/121706474732",
+      "name": "build",
+      "state": "SUCCESS"
     }
   ],
-  "fresh_dark_and_light_text_contrast": "passed",
-  "wrong_correct_selection_refresh": "passed",
-  "handbook_refresh": "passed",
-  "draft_and_checked_feedback_refresh": "passed; 10XP remains 10XP",
-  "prior_lecture_page_migration": "regression test passed; not a child or physical-device test",
-  "old_priority_semantic_fingerprints_unchanged": 137,
-  "priority_queue_additions": 4,
-  "unique_priority_lessons": 141,
-  "teacher_signoff": "pending",
-  "child_trial": "pending",
-  "physical_devices": "pending",
-  "delayed_retention": "pending",
-  "issue12": "open",
-  "automation": "paused; not changed",
-  "raw_learner_exports": "private; not committed"
+  "local": {
+    "status": "passed",
+    "core_tests": 231,
+    "new_current_default_regression": "passed",
+    "types": "passed",
+    "learning_quality": "passed",
+    "web_experience": "passed",
+    "visual_controls": "passed",
+    "ten_theme_both_modes": "passed",
+    "release_installer_and_grouping": "passed",
+    "production_build": "passed",
+    "mobile_widths": [
+      320,
+      360,
+      390,
+      430
+    ],
+    "height_tested": 844,
+    "floor_target_height": 56,
+    "click_test": "centres and four interior points (12px inset to exclude clipped round corners)",
+    "click_hit_areas": [
+      {
+        "targets": [
+          {
+            "clear": true,
+            "label": "第4层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第3层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第2层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第1层的教室"
+          }
+        ],
+        "width": 320
+      },
+      {
+        "targets": [
+          {
+            "clear": true,
+            "label": "第4层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第3层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第2层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第1层的教室"
+          }
+        ],
+        "width": 360
+      },
+      {
+        "targets": [
+          {
+            "clear": true,
+            "label": "第4层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第3层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第2层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第1层的教室"
+          }
+        ],
+        "width": 390
+      },
+      {
+        "targets": [
+          {
+            "clear": true,
+            "label": "第4层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第3层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第2层的教室"
+          },
+          {
+            "clear": true,
+            "label": "第1层的教室"
+          }
+        ],
+        "width": 430
+      }
+    ],
+    "fresh_dark_and_light_text_contrast": "passed",
+    "wrong_correct_selection_refresh": "passed",
+    "handbook_refresh": "passed",
+    "draft_and_checked_feedback_refresh": "passed; 10XP remains 10XP",
+    "prior_lecture_page_migration": "regression test passed; not a child or physical-device test",
+    "old_priority_semantic_fingerprints_unchanged": 137,
+    "priority_queue_additions": 4,
+    "unique_priority_lessons": 141,
+    "teacher_signoff": "pending",
+    "child_trial": "pending",
+    "physical_devices": "pending",
+    "delayed_retention": "pending",
+    "issue12": "open",
+    "automation": "paused; not changed",
+    "raw_learner_exports": "private; not committed"
+  },
+  "snapshot": {
+    "status": "passed",
+    "siteFiles": 343533,
+    "mediaFilesByteIdenticalToV172": 330096,
+    "dataFilesByteIdenticalToV172": 3351,
+    "newAudioGenerated": 0,
+    "oldBookIDsAndContentKeysUnchanged": true
+  },
+  "resourceReuse": {
+    "status": "passed",
+    "unchanged_web_archives": [
+      "audio-original-part01.zip",
+      "audio-original-part02.zip",
+      "audio-original-part03.zip",
+      "audio-original-part04.zip",
+      "audio-web-part01.zip",
+      "audio-web-part02.zip",
+      "audio-web-part03.zip",
+      "audio-web-part04.zip",
+      "audio-web-part05.zip",
+      "data.zip",
+      "story-images.zip",
+      "textbook-pages.zip",
+      "data-source.zip",
+      "web-audio-cache.zip"
+    ],
+    "ios_books": 58,
+    "ios_archives": 116,
+    "all_ios_sha256_and_zip_crc": "passed",
+    "v172_binary_reuse": "byte-identical; prior AAC and pronunciation validation inherited; no new audio"
+  },
+  "installation": {
+    "status": "passed",
+    "full_fresh_and_previous_v172_overlay_upgrades": [
+      {
+        "mode": "install-static",
+        "required_files_sha256_verified": 343533
+      },
+      {
+        "mode": "install-source",
+        "required_files_sha256_verified": 335073
+      },
+      {
+        "mode": "upgrade-static",
+        "required_files_sha256_verified": 343533
+      },
+      {
+        "mode": "upgrade-source",
+        "required_files_sha256_verified": 335073
+      }
+    ],
+    "static_and_source_complete_resources": true,
+    "unchanged_archive_bytes_reused": true
+  },
+  "nativeIndex": {
+    "status": "passed",
+    "actualNativeBaseURL": "https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download/v1.7.3-ios-resources",
+    "manifestSha256": "04671e4cf833d6924ae8d78a4e516c3e31fa2730b5a8dc690c3dc8d262eba32f",
+    "books": 58,
+    "decodedUsingUnmodifiedNativeModels": true,
+    "identicalToPrimaryIndex": true,
+    "allBundleServerDigests": "verified by release-digests.json"
+  },
+  "releaseServerDigestsAndAnonymousSamples": {
+    "status": "passed",
+    "releases": [
+      {
+        "tag": "v1.7.3",
+        "files": 7,
+        "allServerDigestsMatch": true
+      },
+      {
+        "tag": "v1.7.3-web-resources",
+        "files": 18,
+        "allServerDigestsMatch": true
+      },
+      {
+        "tag": "v1.7.3-ios-resources",
+        "files": 118,
+        "allServerDigestsMatch": true
+      }
+    ],
+    "anonymous": true,
+    "sourceCommit": "55190ac2b6ae1a9b7885f10328c8f50a9a27ad66"
+  },
+  "historicalReleases": {
+    "status": "passed",
+    "oldReleaseAssetsUnchanged": 751,
+    "oldAssetIDsAndSHAAndURLsPreserved": true,
+    "oldTagCommitsPreserved": true
+  },
+  "online": {
+    "site": {
+      "status": "passed",
+      "website": "https://d3nmsqi4n72idj.cloudfront.net/",
+      "current_files": 343533,
+      "s3_web_files_md5_verified": 10086,
+      "data_and_media_metadata_unchanged_from_verified_v172": 333447,
+      "retained_prior_files": 354,
+      "privacy_page_unchanged": true,
+      "current_and_old_book_ids_unchanged": true,
+      "new_js_cdn_sha_verified": 5,
+      "new_css_cdn_sha_verified": 1,
+      "http_checks": [
+        {
+          "path": "index.html",
+          "status": 200,
+          "bytes": 15731,
+          "mime": "text/html"
+        },
+        {
+          "path": "profile/index.html",
+          "status": 200,
+          "bytes": 49266,
+          "mime": "text/html"
+        },
+        {
+          "path": "grade/1/index.html",
+          "status": 200,
+          "bytes": 56992,
+          "mime": "text/html"
+        },
+        {
+          "path": "book/g1up-2026/index.html",
+          "status": 200,
+          "bytes": 56739,
+          "mime": "text/html"
+        },
+        {
+          "path": "book/g1up/index.html",
+          "status": 200,
+          "bytes": 54752,
+          "mime": "text/html"
+        },
+        {
+          "path": "lesson/g1up-2026/g1up-2026-u101-kp1/index.html",
+          "status": 200,
+          "bytes": 23939,
+          "mime": "text/html"
+        },
+        {
+          "path": "lesson/g1up/g1up-u1-kp1/index.html",
+          "status": 200,
+          "bytes": 23614,
+          "mime": "text/html"
+        },
+        {
+          "path": "data/index.json",
+          "status": 200,
+          "bytes": 24434,
+          "mime": "application/json"
+        },
+        {
+          "path": "data/books/g1up-2026/lessons/g1up-2026-u101-kp1.json",
+          "status": 200,
+          "bytes": 7763,
+          "mime": "application/json"
+        },
+        {
+          "path": "data/books/g1up/lessons/g1up-u1-kp1.json",
+          "status": 200,
+          "bytes": 8143,
+          "mime": "application/json"
+        },
+        {
+          "path": "data/books/chinese-g1up/lessons/chinese-g1up-u3-kp2.json",
+          "status": 200,
+          "bytes": 9852,
+          "mime": "application/json"
+        },
+        {
+          "path": "data/books/chinese-g5up-2026/outline.json",
+          "status": 200,
+          "bytes": 22627,
+          "mime": "application/json"
+        },
+        {
+          "path": "data/books/g4up/lessons/g4up-u1-kp1.json",
+          "status": 200,
+          "bytes": 7719,
+          "mime": "application/json"
+        },
+        {
+          "path": "sw.js",
+          "status": 200,
+          "bytes": 4068,
+          "mime": "text/javascript"
+        },
+        {
+          "path": "404.html",
+          "status": 200,
+          "bytes": 23107,
+          "mime": "text/html"
+        },
+        {
+          "path": "_next/static/chunks/webpack-b66a4ce222c98860.js",
+          "status": 200,
+          "bytes": 4058,
+          "mime": "text/javascript"
+        },
+        {
+          "path": "_next/static/chunks/7265.ec98f6ad85c6fee4.js",
+          "status": 200,
+          "bytes": 64956,
+          "mime": "text/javascript"
+        },
+        {
+          "path": "_next/static/zvWoOVuJeomtTT6V7F5C3/_ssgManifest.js",
+          "status": 200,
+          "bytes": 360,
+          "mime": "text/javascript"
+        },
+        {
+          "path": "_next/static/zvWoOVuJeomtTT6V7F5C3/_buildManifest.js",
+          "status": 200,
+          "bytes": 1087,
+          "mime": "text/javascript"
+        },
+        {
+          "path": "_next/static/chunks/app/lesson/[book]/[lesson]/page-3910156354bfec50.js",
+          "status": 200,
+          "bytes": 4488,
+          "mime": "text/javascript"
+        },
+        {
+          "path": "_next/static/css/f07600dac329aa60.css",
+          "status": 200,
+          "bytes": 74860,
+          "mime": "text/css"
+        },
+        {
+          "path": "audio/11/11419d7f161b0c278879196d607ea59416ac7c82.edge-7b441917c570.mp3",
+          "status": 200,
+          "bytes": 34848,
+          "mime": "audio/mpeg"
+        },
+        {
+          "path": "audio/11/11419d7f161b0c278879196d607ea59416ac7c82.edge-7b441917c570.mp3",
+          "status": 206,
+          "bytes": 32,
+          "mime": "audio/mpeg"
+        }
+      ],
+      "source_commit": "55190ac2b6ae1a9b7885f10328c8f50a9a27ad66",
+      "media_boundary": "No regeneration; exact local bytes and unchanged S3 ETag, LastModified and Size inherit the earlier verified v1.7.2 media and MIME evidence; HTTP representative audio and range checked again"
+    },
+    "learnerPreservation": {
+      "status": "passed",
+      "profilesCompared": 5,
+      "allExportedDataEqual": true,
+      "rawExportsKeptPrivate": true,
+      "rows": [
+        {
+          "profile": "original",
+          "entireExportedDataEqual": true,
+          "completedLessonsPreserved": 0,
+          "completedReadingsPreserved": 1
+        },
+        {
+          "profile": "release",
+          "entireExportedDataEqual": true,
+          "completedLessonsPreserved": 2,
+          "completedReadingsPreserved": 1
+        },
+        {
+          "profile": "chinese",
+          "entireExportedDataEqual": true,
+          "completedLessonsPreserved": 2,
+          "completedReadingsPreserved": 1
+        },
+        {
+          "profile": "math",
+          "entireExportedDataEqual": true,
+          "completedLessonsPreserved": 2,
+          "completedReadingsPreserved": 0
+        },
+        {
+          "profile": "ux12",
+          "entireExportedDataEqual": true,
+          "completedLessonsPreserved": 2,
+          "completedReadingsPreserved": 0
+        }
+      ]
+    },
+    "unscoredWarmup": {
+      "status": "passed",
+      "entireExportedDataUnchanged": true,
+      "wrongAndCorrectSelectionsBeforeComparison": true,
+      "xpGradesAndMistakesUnchanged": true
+    },
+    "newPractice": {
+      "status": "passed",
+      "newLesson": "g1up-2026-u101-kp1",
+      "firstCorrect": "6/6",
+      "endCorrect": "6/6",
+      "stars": 3,
+      "xpDeltaIncludingComboBonus": 70,
+      "newGradeAndEntireExportSurviveReload": true,
+      "twoPreviouslyCompletedQAGradesUnchanged": true,
+      "otherFourProfilesEntireExportedDataUnchanged": true,
+      "originalProfileRestored": true,
+      "originalVisibleResumeLinkPreserved": "chinese-g2down-u5-kp1",
+      "warmupWasUnscored": true
+    }
+  },
+  "documentation": "Teacher priority queue, 12 delayed scenario cards and parent key, ten-page copy inspection and concrete human checklist",
+  "boundaries": {
+    "teacher_review": "pending; 141 priority lessons, not all 2863 lessons",
+    "pronunciation": "prior v172 audio reused; no new full audio audition or regeneration this round",
+    "child_thirty_second_goal": "pending actual child trial; browser actions are not child results",
+    "physical_devices_and_real_weak_network": "pending",
+    "delayed_retention": "pending; prepared cards are not evidence of learning",
+    "brand_child_understanding_and_visual_assessment": "pending; DOM copy inspection is not child or visual signoff",
+    "issue12": "open; UX02/05/06/07/11/12 unchecked",
+    "automation": "paused; untouched",
+    "private_learner_exports": "not uploaded; comparisons concern every exported field; original visible resume link separately checked"
+  },
+  "immutableReleaseBoundary": "Code/source archives and all three release tags fixed to source_commit. Final deployment verification lives in latest main documentation and mutable VALIDATION.json; no public ZIP or old tag was replaced."
 }

@@ -1,15 +1,15 @@
-# v1.7.2 一年级拼音朗读修复：安装与升级
+# v1.7.3 默认首课互动引导：安装与升级
 
-本版修复一年级语文拼音朗读，拼音与英语使用独立音频地址，校正拼音单元四道题；已完成成绩保留。包含此前新增的官方标注“根据2022年版课程标准修订”的七册人教版数学：一上、一下、二下、三下、四上、五上、六上，共 290 个课时、57 个单元挑战、2,082 道配套题，新音频采用 Edge。新版使用独立 ID，保留旧版和原有成绩；连同已更新的二上、三上，覆盖当前官方目录中全部九册修订版数学。包含全部 58 册教材版本的完整网站及资源，无需先安装旧版本，也不需要 AI API Key。
+本版为当前默认修订版一年级数学首课补齐楼层互动，保留原题、ID、音频和成绩；已进入讲解的会话保留讲解进度。儿童、教师及真机验收仍待完成。继承 v1.7.2 修复的一年级语文拼音朗读，拼音与英语使用独立音频地址，校正拼音单元四道题；已完成成绩保留。包含此前新增的官方标注“根据2022年版课程标准修订”的七册人教版数学：一上、一下、二下、三下、四上、五上、六上，共 290 个课时、57 个单元挑战、2,082 道配套题，新音频采用 Edge。新版使用独立 ID，保留旧版和原有成绩；连同已更新的二上、三上，覆盖当前官方目录中全部九册修订版数学。包含全部 58 册教材版本的完整网站及资源，无需先安装旧版本，也不需要 AI API Key。
 
-**不用下载 Assets 中的全部附件。** 在线学习直接[打开课堂](https://d3nmsqi4n72idj.cloudfront.net/)；Web 用户使用安装器自动选择资源；iOS 用户在 App 内按册下载。手动离线下载的分类清单及逐册链接见[下载导航](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/main/docs/releases/v1.7.2-downloads.md)。主发布页仅保留入口和校验文件；大型 Web 包位于 `v1.7.2-web-resources`，iOS 逐册包位于 `v1.7.2-ios-resources`，安装器自动选择对应发布页。Web 音频分为独立 ZIP，每个不超过 1.4 GB（十进制），按安装模式下载对应分包后直接解压，无需拼接。
+**不用下载 Assets 中的全部附件。** 在线学习直接[打开课堂](https://d3nmsqi4n72idj.cloudfront.net/)；Web 用户使用安装器自动选择资源；iOS 用户在 App 内按册下载。手动离线下载的分类清单及逐册链接见[下载导航](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/main/docs/releases/v1.7.3-downloads.md)。主发布页仅保留入口和校验文件；大型 Web 包位于 `v1.7.3-web-resources`，iOS 逐册包位于 `v1.7.3-ios-resources`，安装器自动选择对应发布页。Web 音频分为独立 ZIP，每个不超过 1.4 GB（十进制），按安装模式下载对应分包后直接解压，无需拼接。
 
 ## 最快使用：安装现成网站
 
-只需 Python 3.9+，无需 Node.js 或 FFmpeg。在 [Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.7.2) 下载 `install-release.py`，执行：
+只需 Python 3.9+，无需 Node.js 或 FFmpeg。在 [Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.7.3) 下载 `install-release.py`，执行：
 
 ```sh
-python3 install-release.py --tag v1.7.2 --mode static --root ChinaStudyFree-site
+python3 install-release.py --tag v1.7.3 --mode static --root ChinaStudyFree-site
 python3 -m http.server 8080 --directory ChinaStudyFree-site
 ```
 
@@ -22,7 +22,7 @@ python3 -m http.server 8080 --directory ChinaStudyFree-site
 先备份自定义文件或数据，并从新版 Release 下载新版安装器。不要用旧安装器安装新版分包。
 
 ```sh
-python3 install-release.py --tag v1.7.2 --mode static --root /path/to/existing-site
+python3 install-release.py --tag v1.7.3 --mode static --root /path/to/existing-site
 ```
 
 此命令覆盖已有页面、配套数据、音频和缓存文件，包括旧 GPT 音频的同名兼容文件；不会因音频目录已存在而跳过更新。未包含在材料包中的自定义文件会保留，旧版遗留文件也不会自动删除。浏览器学习记录保存在原来的浏览器存储中；继续使用相同域名、协议和端口可以保留该存储。
@@ -30,7 +30,7 @@ python3 install-release.py --tag v1.7.2 --mode static --root /path/to/existing-s
 如果是源码部署，先备份本地代码修改；希望安装本版匹配源码与所有资源时执行：
 
 ```sh
-python3 install-release.py --tag v1.7.2 --with-source --root /path/to/ChinaTextbookStudyFree
+python3 install-release.py --tag v1.7.3 --with-source --root /path/to/ChinaTextbookStudyFree
 cd /path/to/ChinaTextbookStudyFree
 npm ci
 npm run build
@@ -43,7 +43,7 @@ npm run build
 需要 Node.js 20+、Python 3.9+、带 libmp3lame 的 FFmpeg（均加入 PATH）：
 
 ```sh
-python3 install-release.py --tag v1.7.2 --with-source --root ChinaTextbookStudyFree
+python3 install-release.py --tag v1.7.3 --with-source --root ChinaTextbookStudyFree
 cd ChinaTextbookStudyFree
 npm ci
 npm run build
@@ -54,11 +54,11 @@ python3 -m http.server 8080 --directory apps/web/out
 
 ## 离线安装与完整校验
 
-在[下载导航](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/main/docs/releases/v1.7.2-downloads.md)选择“现成静态网站”或“源码与完整资源”，只下载该模式列出的包至同一目录，另下载安装器、`manifest.json` 与 `files.jsonl`。Web 安装不需要 116 个 iOS 逐册包。
+在[下载导航](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/main/docs/releases/v1.7.3-downloads.md)选择“现成静态网站”或“源码与完整资源”，只下载该模式列出的包至同一目录，另下载安装器、`manifest.json` 与 `files.jsonl`。Web 安装不需要 116 个 iOS 逐册包。
 
 ```sh
-python3 install-release.py --tag v1.7.2 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads
-python3 install-release.py --tag v1.7.2 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads --verify-only
+python3 install-release.py --tag v1.7.3 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads
+python3 install-release.py --tag v1.7.3 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads --verify-only
 ```
 
 源码目录校验使用 `--root /path/to/source`，省略 `--mode static`；如果安装过完整源码，同时加上 `--with-source`。

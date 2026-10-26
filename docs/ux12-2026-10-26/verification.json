@@ -1,0 +1,122 @@
+{
+  "status": "local-checks-passed; release-verification-pending",
+  "core_tests": 231,
+  "new_current_default_regression": "passed",
+  "types": "passed",
+  "learning_quality": "passed",
+  "web_experience": "passed",
+  "visual_controls": "passed",
+  "ten_theme_both_modes": "passed",
+  "release_installer_and_grouping": "passed",
+  "production_build": "passed",
+  "mobile_widths": [
+    320,
+    360,
+    390,
+    430
+  ],
+  "height_tested": 844,
+  "floor_target_height": 56,
+  "click_test": "centres and four interior points (12px inset to exclude clipped round corners)",
+  "click_hit_areas": [
+    {
+      "targets": [
+        {
+          "clear": true,
+          "label": "第4层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第3层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第2层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第1层的教室"
+        }
+      ],
+      "width": 320
+    },
+    {
+      "targets": [
+        {
+          "clear": true,
+          "label": "第4层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第3层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第2层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第1层的教室"
+        }
+      ],
+      "width": 360
+    },
+    {
+      "targets": [
+        {
+          "clear": true,
+          "label": "第4层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第3层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第2层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第1层的教室"
+        }
+      ],
+      "width": 390
+    },
+    {
+      "targets": [
+        {
+          "clear": true,
+          "label": "第4层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第3层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第2层的教室"
+        },
+        {
+          "clear": true,
+          "label": "第1层的教室"
+        }
+      ],
+      "width": 430
+    }
+  ],
+  "fresh_dark_and_light_text_contrast": "passed",
+  "wrong_correct_selection_refresh": "passed",
+  "handbook_refresh": "passed",
+  "draft_and_checked_feedback_refresh": "passed; 10XP remains 10XP",
+  "prior_lecture_page_migration": "regression test passed; not a child or physical-device test",
+  "old_priority_semantic_fingerprints_unchanged": 137,
+  "priority_queue_additions": 4,
+  "unique_priority_lessons": 141,
+  "teacher_signoff": "pending",
+  "child_trial": "pending",
+  "physical_devices": "pending",
+  "delayed_retention": "pending",
+  "issue12": "open",
+  "automation": "paused; not changed",
+  "raw_learner_exports": "private; not committed"
+}

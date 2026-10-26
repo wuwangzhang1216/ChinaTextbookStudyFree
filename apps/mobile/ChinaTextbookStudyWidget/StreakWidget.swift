@@ -31,7 +31,7 @@ struct StreakSnapshot: Codable {
 }
 
 enum SnapshotStore {
-    static let appGroupId = "group.com.example.ChinaTextbookStudy"
+    static let appGroupId = "group.com.wuwangzhang1216.congcongschool"
     static let filename = "widget-snapshot.json"
 
     static func load() -> StreakSnapshot? {

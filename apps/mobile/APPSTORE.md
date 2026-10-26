@@ -1,6 +1,6 @@
 # App Store 上架清单
 
-这份文档记录 iOS 端送审所需的 metadata 和上架步骤。2026-10-25 完成聪聪学堂原生 UX 升级；模拟器截图与验证见 [iOS UX 图库](../../docs/ios-ux-gallery.html)。签名、真机验收和 App Store Connect 配置仍需完成。
+这份文档记录 iOS 端送审所需的 metadata 和上架步骤。2026-10-25 完成聪聪学堂原生 UX 升级；模拟器截图与验证见 [iOS UX 图库](../../docs/ios-ux-gallery.html)。已生成 `0.1.0 (1)` Apple Development 签名测试包；真机运行验收和 App Store Connect 配置仍需完成。
 
 ## 0. 当前状态一览
 
@@ -15,8 +15,9 @@
 | 单元测试 | ✅ | 本轮具体结果与设备见 iOS UX 图库 |
 | UI 测试 | ✅ | 本轮具体结果与设备见 iOS UX 图库 |
 | 品牌图标 | ✅ | 复用 `apps/web/public/icons/icon.svg` 的熊猫几何图形 |
-| Bundle ID | ⬜ | 目前是占位 `com.example.ChinaTextbookStudy`，上架前改成你自己的 |
-| `DEVELOPMENT_TEAM` | ⬜ | 需要你的 Apple Developer Team ID |
+| Bundle ID | ✅ | App：`com.wuwangzhang1216.congcongschool`；Widget：同前缀加 `.widget` |
+| `DEVELOPMENT_TEAM` | ✅ | 本机使用 `46KF5Z549N`；源码保留空值，通过 Xcode 或构建参数选择自己的团队 |
+| 开发测试 IPA | ✅ | 已签名导出；App、Widget 的 App Group 与主 App 的 iCloud 权限已核对 |
 | 真机运行验证 | ⬜ | 音频需要真机 / 开声音的模拟器手动听一遍 |
 | GitHub Release iOS 资源包 | ✅ | `v1.7.0-ios-resources`，58 册目录；语文一上和新版数学一上已抽样验证数据与 AAC |
 
@@ -34,10 +35,12 @@ targets:
   ChinaTextbookStudy:
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.你的域名.ChinaTextbookStudy
+        PRODUCT_BUNDLE_IDENTIFIER: com.wuwangzhang1216.congcongschool
 ```
 
 然后 `cd apps/mobile && xcodegen generate` 重新生成 `.xcodeproj`。
+
+App 与 Widget 共用 `group.com.wuwangzhang1216.congcongschool`，该 App Group 必须在两个 App ID 的描述文件中都启用。修改标识时同步更新 `project.yml`、`PersistenceService.appGroupId` 和 Widget 的 `SnapshotStore.appGroupId`。主 App 另外保留 iCloud Key-value storage 能力。
 
 ### 1.2 版本号
 
@@ -81,7 +84,7 @@ gh release create "$IOS_ASSET_TAG" \
 |---|---|
 | **App 名称** | 聪聪学堂 |
 | **副标题 (30 字符)** | 小学全科 · 课本闯关与听读 |
-| **Bundle ID** | (你改过的) |
+| **Bundle ID** | `com.wuwangzhang1216.congcongschool` |
 | **主分类** | Education |
 | **次要分类** | Reference |
 | **年龄分级** | 4+ |

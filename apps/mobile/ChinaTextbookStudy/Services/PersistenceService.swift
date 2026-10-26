@@ -46,7 +46,7 @@ enum PersistenceService {
 
     /// App Group shared between the main app and the widget extension.
     /// Must match both targets' `com.apple.security.application-groups`.
-    static let appGroupId = "group.com.example.ChinaTextbookStudy"
+    static let appGroupId = "group.com.wuwangzhang1216.congcongschool"
 
     /// Filename of the snapshot JSON inside the App Group container.
     /// The widget extension reads this file with its own tiny decoder —

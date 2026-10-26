@@ -1,0 +1,559 @@
+{
+  "scope": "Four priority lessons added to this round; historical 137-lesson queue retained; no teacher signoff claimed",
+  "previous_queue_semantic_fingerprints_unchanged": 137,
+  "unique_lessons_in_combined_queue": 141,
+  "lessons": [
+    {
+      "book_id": "g1up-2026",
+      "lesson_id": "g1up-2026-u101-kp1",
+      "title": "在校园和教室里发现数学",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/g1up-2026/g1up-2026-u101-kp1/",
+      "reason": "当前默认首课；新增楼层互动，核对参照方向与适龄表达",
+      "question_ids": [
+        1010001,
+        1010002,
+        1010003,
+        1010004,
+        1010005,
+        1010006
+      ],
+      "question_count": 6,
+      "json_sha256": "09b363f3321c458c1d27cd10e8e781d02fc59422a83e475f8c99a491eec42c1f",
+      "content_sha256": "e225e35290c21403a027fba9bf1ed9280f9f0345138b8317f7c0bb8e4787797f",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": "",
+      "questions": [
+        {
+          "id": 1010001,
+          "question": "教学楼有4层，一间教室在第2层。教室在哪一层？",
+          "answer": "第2层",
+          "explanation": "4表示楼层总数，2表示这间教室所在的楼层。",
+          "audio": {
+            "question": "/audio/11/11419d7f161b0c278879196d607ea59416ac7c82.edge-7b441917c570.mp3",
+            "options": [
+              "/audio/06/0659655c7f044b0d405e0803852f813c36a469fe.edge-1da79cf7a068.mp3",
+              "/audio/f5/f53909b854046c077ef65bf67ed76ba23b92e7eb.edge-315329431b8f.mp3",
+              "/audio/68/68d28da1f4582b17adeef5adeaea31acf67ef685.edge-fc540aaa2228.mp3",
+              "/audio/53/53d7ab0ccee3f1cebfd8b2653900f78b8ae78e3e.edge-187541453600.mp3"
+            ],
+            "explanation": "/audio/8b/8bacf0ed93710c9b46fe34f1b5fa8616eb3e8459.edge-867755ecb9e3.mp3"
+          }
+        },
+        {
+          "id": 1010002,
+          "question": "6个班按从前到后的顺序排队。小乐所在的班前面有3个班。小乐所在的班排在第几个？",
+          "answer": "第4个",
+          "explanation": "从前面数，先数到前面的3个班，接着就是小乐所在的班，所以排在第4个。",
+          "audio": {
+            "question": "/audio/e9/e973ba3ddf3058549f6a109438eb32c71b64238d.edge-d819d5083cf0.mp3",
+            "options": [
+              "/audio/0d/0d5e78efc9a9fc0207d41a0e2395915fbc3c39ea.edge-9bf3e4d62d75.mp3",
+              "/audio/3e/3e883448f33ebc77a1b8a07679e6bc2f899d6e9d.edge-a1ccbd3ad5be.mp3",
+              "/audio/4b/4b062b9ea72a10f0081c1e04f7fdebee7b41c98c.edge-80a3b3afdb7a.mp3",
+              "/audio/0b/0bd702531f1ca11963b54a11017940664e5388ec.edge-8f2d3fef1899.mp3"
+            ],
+            "explanation": "/audio/7f/7fe6dfb724afb7b10425d9674d31cdb214b476c5.edge-69c2412a3df0.mp3"
+          }
+        },
+        {
+          "id": 1010003,
+          "question": "小美面向黑板站着，窗户在她左手所指的一边。以小美为准，窗户在她的哪边？",
+          "answer": "左边",
+          "explanation": "小美左手所指的一边就是她的左边。",
+          "audio": {
+            "question": "/audio/e3/e3d7426b09c1d67a6c491a3779206732214ec35f.edge-b39bb546ddf5.mp3",
+            "options": [
+              "/audio/9c/9c61cc16a8e08a58fd0118190b8bb9d3066c40c6.edge-b135684b5beb.mp3",
+              "/audio/85/8566923239e4f57fa51af2cdfa3e6a98eff38737.edge-e513deb70da1.mp3",
+              "/audio/67/67404b82a681410683b73d366d9fd0f4c96a5bc0.edge-c0227d9c8025.mp3",
+              "/audio/b3/b3ceb938fbcfa58e48036d27527f3a9c06ea83c5.edge-a5c0c249f538.mp3"
+            ],
+            "explanation": "/audio/2e/2e53dbc1ceec75ef04807b147147bcfe16306a61.edge-b3ed205967df.mp3"
+          }
+        },
+        {
+          "id": 1010004,
+          "question": "玩“左右反着做”：只把口令中的左、右反过来，动作不变。口令是“跺左脚”。小川应该怎样做？",
+          "answer": "跺右脚",
+          "explanation": "这个游戏只把左右反过来，跺脚的动作不变。口令说左脚，就要跺右脚。",
+          "audio": {
+            "question": "/audio/6d/6d1560fee29b5027661bfa635443bef0305e429a.edge-192849ca83c8.mp3",
+            "options": [
+              "/audio/66/66e21b6276368f6fc121ebe91c73ae75fac1ac64.edge-2a02215c8725.mp3",
+              "/audio/2c/2c1848f2ffa7d82184ed7ae7ad82c326b5653329.edge-beb7e7024a1e.mp3",
+              "/audio/6c/6c5a631363388b276626d504b1121d4547e6176c.edge-d40a1a988f15.mp3",
+              "/audio/d3/d3118e24329c46bb8817c8621e7102b568744d41.edge-2e29fb46d765.mp3"
+            ],
+            "explanation": "/audio/58/58fe7602b2c0c807c3d5b2457834d7a791748a07.edge-6ca76c175989.mp3"
+          }
+        },
+        {
+          "id": 1010005,
+          "question": "4人面向同一方向站成一排。从他们的左边到右边，依次是小兰、小林、小月、小青。从紧挨小青左边的人开始数，小青左边第3个人是谁？",
+          "answer": "小兰",
+          "explanation": "不数小青，从紧挨她左边的人开始：小月第1，小林第2，小兰第3。",
+          "audio": {
+            "question": "/audio/23/233dd5fbc64ba71be926cdfb4c90cdc7f3ac67c2.edge-2950fe141f65.mp3",
+            "options": [
+              "/audio/29/29d5b069ba65e9266e259713b1f594596321552d.edge-99341674bd67.mp3",
+              "/audio/32/32522e1ba94f6e7592af018d660e5fdb513a6a24.edge-7521d09726bb.mp3",
+              "/audio/a1/a14ed3d1888b0aa53fabfafc397febaf530d59f3.edge-2fd897c1ced5.mp3",
+              "/audio/9f/9f8ad8de21da8d41dd77a43059187bf47d7067dd.edge-16c132188be5.mp3"
+            ],
+            "explanation": "/audio/46/468cf3acdec06bed5f36ab01f070e22a0cade875.edge-865655667e8a.mp3"
+          }
+        },
+        {
+          "id": 1010006,
+          "question": "小松、小鹿、小兔排成一队。从前往后依次是小松、小鹿、小兔。判断：队里有3人，所以小鹿排第3。",
+          "answer": "错",
+          "explanation": "小鹿前面只有小松，所以小鹿从前往后排第2。3人表示总人数，不表示小鹿的顺序。",
+          "audio": {
+            "question": "/audio/1d/1da64b5268e254561a1ae6b1b9fce62568f7ad1f.edge-02e60c407d9f.mp3",
+            "explanation": "/audio/41/412ff2a85ee18317c24f946dff108cbc24575ef2.edge-ba7114419c77.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "book_id": "chinese-g1up",
+      "lesson_id": "chinese-g1up-u3-kp1",
+      "title": "单韵母及其四声调认读",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/chinese-g1up/chinese-g1up-u3-kp1/",
+      "reason": "四声选项；声调、顺序与完整音节听审",
+      "question_ids": [
+        1,
+        2,
+        5,
+        6,
+        7,
+        11,
+        14,
+        15,
+        17,
+        20,
+        23
+      ],
+      "question_count": 11,
+      "json_sha256": "ccf591f1ddaa93c3ce467ea0ba705dc349ad4b3613919613c5e77e47cbdb4e1d",
+      "content_sha256": "6ee7ee54da87feb2c306a17af81731f99ca357e5e145238fa238f098bea47d59",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": "",
+      "questions": [
+        {
+          "id": 1,
+          "question": "字母 'a' 是单韵母中的一个。",
+          "answer": "对",
+          "explanation": "汉语拼音中有6个单韵母：a, o, e, i, u, ü。",
+          "audio": {
+            "question": "/audio/60/60260c265cbf337660eed5de2f44a1f7fb2cd6b0.pinyin-497aa521beaedade.mp3",
+            "explanation": "/audio/d4/d4412b59e8bbeb6fbbe5559e38ad185998db13fa.pinyin-36a365cccc761d8c.mp3"
+          }
+        },
+        {
+          "id": 2,
+          "question": "韵母 'o' 的第二声读音就像我们在马路上遇到熟人打招呼时的 '哦'。",
+          "answer": "对",
+          "explanation": "o的二声向上扬，发音类似于惊讶或打招呼的'ó'。",
+          "audio": {
+            "question": "/audio/4a/4a72ac70753869f0673539846c47499614504403.pinyin-439691429e585d5a.mp3",
+            "explanation": "/audio/3a/3a7b4001b832c964223eb4ffba63d12d6cf3d5fb.pinyin-7049251178ec1524.mp3"
+          }
+        },
+        {
+          "id": 5,
+          "question": "给单韵母 'i' 标声调的时候，需要把上面的小点去掉。",
+          "answer": "对",
+          "explanation": "标调规则规定，i标调要去点。",
+          "audio": {
+            "question": "/audio/23/23088293fa7e6a72faa32375c0dcd4ad72538e24.pinyin-62cf5fdd5322ea19.mp3",
+            "explanation": "/audio/f7/f7d7a83abc6f8211489df3b748819ba15f393214.pinyin-f9cae430ddba041c.mp3"
+          }
+        },
+        {
+          "id": 6,
+          "question": "读一段儿歌：'公鸡喔喔啼，白鹅呃呃叫'。诗中的'白鹅'的'鹅'读音是哪个单韵母？",
+          "answer": "e",
+          "explanation": "鹅的读音对应单韵母e。",
+          "audio": {
+            "question": "/audio/eb/eb61f8b06516d0d24ffc78292a91c5a738d3b058.mp3",
+            "options": [
+              "/audio/86/86f7e437faa5a7fce15d1ddcb9eaeaea377667b8.pinyin-193f5fdadc1b759e.mp3",
+              "/audio/7a/7a81af3e591ac713f81ea1efe93dcf36157d8376.pinyin-b53164fba9d38ce6.mp3",
+              "/audio/58/58e6b3a414a1e090dfc6029add0f3555ccba127f.pinyin-8432f312229319ef.mp3",
+              "/audio/51/51e69892ab49df85c6230ccc57f8e1d1606caccc.pinyin-128d4a4c7b684777.mp3"
+            ],
+            "explanation": "/audio/ea/ea162d8578de8765fa1119b91f55c58aa6dd4616.pinyin-7109c195268ec3cd.mp3"
+          }
+        },
+        {
+          "id": 7,
+          "question": "请选出下列四声调排列正确的一组：",
+          "answer": "ā á ǎ à",
+          "explanation": "声调顺序为一声平，二声扬，三声拐弯，四声降。",
+          "audio": {
+            "question": "/audio/ae/ae084c6b5bc57ec2b6d87e8027d6341be0897b3c.mp3",
+            "options": [
+              "/audio/77/77e32a6fb6ecaa04db3aaa4e34b4bc2ad38d59fd.pinyin-3aa43e7de6137e5a.mp3",
+              "/audio/c7/c781e1c7b5df20f6e8d6ba798e06049cd5b30c58.pinyin-eb79fbff418b6bc2.mp3",
+              "/audio/f4/f481703b003a40135bfe4b6624c3304cf67f3853.pinyin-dc2ca67569b385a2.mp3",
+              "/audio/35/35fb9102982041fd522265691ec9f7dd60e8e481.pinyin-f64a544d4497e822.mp3"
+            ],
+            "explanation": "/audio/f6/f602ba52f79f226e266417102596377c2baed5c4.mp3"
+          }
+        },
+        {
+          "id": 11,
+          "question": "当医生检查喉咙让你张大嘴巴时，你会发哪个音？",
+          "answer": "a",
+          "explanation": "发a音时张大嘴巴。",
+          "audio": {
+            "question": "/audio/83/83003627bdd398b0775770bc1b383f72ade32e20.mp3",
+            "options": [
+              "/audio/7a/7a81af3e591ac713f81ea1efe93dcf36157d8376.pinyin-b53164fba9d38ce6.mp3",
+              "/audio/58/58e6b3a414a1e090dfc6029add0f3555ccba127f.pinyin-8432f312229319ef.mp3",
+              "/audio/86/86f7e437faa5a7fce15d1ddcb9eaeaea377667b8.pinyin-193f5fdadc1b759e.mp3",
+              "/audio/04/042dc4512fa3d391c5170cf3aa61e6a638f84342.pinyin-f9a5197d3b9fbc30.mp3"
+            ],
+            "explanation": "/audio/ff/ffaa384a79128b3234be4e98500c88614fde38be.pinyin-e969f4fc94d9a2f8.mp3"
+          }
+        },
+        {
+          "id": 14,
+          "question": "哪个字母像个圆圈圈？",
+          "answer": "o",
+          "explanation": "o的形状像个圆。",
+          "audio": {
+            "question": "/audio/58/58fb61625bd17f9fa84cf326a98440cf4e4be083.mp3",
+            "options": [
+              "/audio/86/86f7e437faa5a7fce15d1ddcb9eaeaea377667b8.pinyin-193f5fdadc1b759e.mp3",
+              "/audio/7a/7a81af3e591ac713f81ea1efe93dcf36157d8376.pinyin-b53164fba9d38ce6.mp3",
+              "/audio/58/58e6b3a414a1e090dfc6029add0f3555ccba127f.pinyin-8432f312229319ef.mp3",
+              "/audio/51/51e69892ab49df85c6230ccc57f8e1d1606caccc.pinyin-128d4a4c7b684777.mp3"
+            ],
+            "explanation": "/audio/3c/3cf14a7029575bd695d24d6f036d95e4a0e10a3c.pinyin-5a74d634047d9a0b.mp3"
+          }
+        },
+        {
+          "id": 15,
+          "question": "乌鸦的'乌'是哪个韵母的发音？",
+          "answer": "u",
+          "explanation": "乌鸦的'乌'发单韵母u的音。",
+          "audio": {
+            "question": "/audio/6e/6eadc80071d629a06662d96f55e07aaaa20ffff1.mp3",
+            "options": [
+              "/audio/94/94a759fd37735430753c7b6b80684306d80ea16e.pinyin-3659f4260f719acf.mp3",
+              "/audio/51/51e69892ab49df85c6230ccc57f8e1d1606caccc.pinyin-128d4a4c7b684777.mp3",
+              "/audio/04/042dc4512fa3d391c5170cf3aa61e6a638f84342.pinyin-f9a5197d3b9fbc30.mp3",
+              "/audio/7a/7a81af3e591ac713f81ea1efe93dcf36157d8376.pinyin-b53164fba9d38ce6.mp3"
+            ],
+            "explanation": "/audio/1b/1b3d4360821b3b2702728ca016c2d7977eaf3858.pinyin-ba59bbf0b89b5760.mp3"
+          }
+        },
+        {
+          "id": 17,
+          "question": "单韵母 a, o, ( ____ ), i, u, ü，括号里应该填哪个字母？",
+          "answer": "e",
+          "explanation": "单韵母的顺序通常是a o e i u ü。",
+          "audio": {
+            "question": "/audio/83/831bb976f4329285945fc910e3bbeb854e4a3ba9.pinyin-8c822098276f9755.mp3",
+            "explanation": "/audio/36/36df0344274f3d18cbe39ba7c94a9297528d2c6d.pinyin-7286e45763e07df8.mp3"
+          }
+        },
+        {
+          "id": 20,
+          "question": "把单韵母与对应的图画音节连起来。",
+          "answer": "A-2,B-1,C-4,D-3",
+          "explanation": "a-ā yí, i-yī fu, u-wǔ, ü-yú。",
+          "audio": {
+            "question": "/audio/9a/9af00f92f1baca40cf154d2eeba56a7291553ff8.mp3",
+            "options": [
+              "/audio/86/86f7e437faa5a7fce15d1ddcb9eaeaea377667b8.pinyin-193f5fdadc1b759e.mp3",
+              "/audio/04/042dc4512fa3d391c5170cf3aa61e6a638f84342.pinyin-f9a5197d3b9fbc30.mp3",
+              "/audio/51/51e69892ab49df85c6230ccc57f8e1d1606caccc.pinyin-128d4a4c7b684777.mp3",
+              "/audio/94/94a759fd37735430753c7b6b80684306d80ea16e.pinyin-3659f4260f719acf.mp3",
+              "/audio/23/233a9476a48db96c5b35dde5ee624daa33648306.pinyin-1c92bcba6c4d6d65.mp3",
+              "/audio/b8/b823bb745b7e127828596e708d63540c3fb005a0.pinyin-912dd7009c978e8f.mp3",
+              "/audio/06/06e02e373a359e502ea5d29e92e02170061453f8.pinyin-5f5749a5f23e4f57.mp3",
+              "/audio/e3/e36c46877d7e7aaba5e32c57aeb4a1950e063ec7.pinyin-31dbc603ade43d32.mp3"
+            ],
+            "explanation": "/audio/ef/ef063688a075c774913056241aef1202bf5fa5f5.pinyin-7c5f944b39626829.mp3"
+          }
+        },
+        {
+          "id": 23,
+          "question": "按单韵母顺序排列：",
+          "answer": "a,o,e,i",
+          "explanation": "单韵母的标准顺序是a, o, e, i, u, ü。",
+          "audio": {
+            "question": "/audio/1c/1ca3bf394e416700fd83d6047f9d1fca467eb0ef.mp3",
+            "options": [
+              "/audio/86/86f7e437faa5a7fce15d1ddcb9eaeaea377667b8.pinyin-193f5fdadc1b759e.mp3",
+              "/audio/58/58e6b3a414a1e090dfc6029add0f3555ccba127f.pinyin-8432f312229319ef.mp3",
+              "/audio/04/042dc4512fa3d391c5170cf3aa61e6a638f84342.pinyin-f9a5197d3b9fbc30.mp3",
+              "/audio/7a/7a81af3e591ac713f81ea1efe93dcf36157d8376.pinyin-b53164fba9d38ce6.mp3"
+            ],
+            "explanation": "/audio/94/94c88d09aa584c13bcfbf72ed478d950a19207f2.pinyin-fc4d806c34c31b41.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "book_id": "chinese-g1up",
+      "lesson_id": "chinese-g1up-u3-kp2",
+      "title": "两拼音节的拼读方法",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/chinese-g1up/chinese-g1up-u3-kp2/",
+      "reason": "两拼音节；题18/19修正后的题干、答案与朗读",
+      "question_ids": [
+        4,
+        8,
+        9,
+        12,
+        16,
+        18,
+        19,
+        21,
+        22
+      ],
+      "question_count": 9,
+      "json_sha256": "3dac2112198974b05feae09ff03e92cb6ecfe146ad59fb5c8377ef091d681822",
+      "content_sha256": "e7c104f688c3dbe18676a8d19ac08a7083716e7c9a49be2584e4960d32559e2a",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": "",
+      "questions": [
+        {
+          "id": 4,
+          "question": "拼音节 'ba' 的时候，声母是 'b'，韵母是 'a'。",
+          "answer": "对",
+          "explanation": "ba是由声母b和单韵母a组成的。",
+          "audio": {
+            "question": "/audio/e8/e86e07e01f71ed8760f284fd4fda396adeedf6cd.pinyin-c8b99bd20a76bc55.mp3",
+            "explanation": "/audio/63/63851d0cb0ae8c57d07bc18abce385291c780b9b.pinyin-2f7d9967bee2ac90.mp3"
+          }
+        },
+        {
+          "id": 8,
+          "question": "声母 'm' 和单韵母 'ù' 拼在一起读什么？",
+          "answer": "木",
+          "explanation": "m-ù -> mù，对应汉字'木'。",
+          "audio": {
+            "question": "/audio/51/51c5273b65e8c9c5ef899572d95f583304502b9c.pinyin-b611708d301c1205.mp3",
+            "options": [
+              "/audio/e3/e3918a99aa057ec83dcdc83e42860f1b76dccf71.mp3",
+              "/audio/ca/ca0bc5e27c656c19f02757ac8b3014816bb65683.mp3",
+              "/audio/82/8294db3a2006ae4a321f7f24d76942cf922c6c2e.mp3",
+              "/audio/ee/ee7f305751a577297d8cdb81ffadd887317f0f22.mp3"
+            ],
+            "explanation": "/audio/05/05113ca36f33e9116a55fd636a5b585ae5181584.pinyin-c74b4861d4f8126a.mp3"
+          }
+        },
+        {
+          "id": 9,
+          "question": "下面哪一个是声母？",
+          "answer": "f",
+          "explanation": "f是声母，u、o、i是单韵母。",
+          "audio": {
+            "question": "/audio/03/03026a1382b46d9a7375a0ba58c62bb47e116021.mp3",
+            "options": [
+              "/audio/51/51e69892ab49df85c6230ccc57f8e1d1606caccc.pinyin-128d4a4c7b684777.mp3",
+              "/audio/4a/4a0a19218e082a343a1b17e5333409af9d98f0f5.pinyin-3b87dc507d3bcf7f.mp3",
+              "/audio/7a/7a81af3e591ac713f81ea1efe93dcf36157d8376.pinyin-b53164fba9d38ce6.mp3",
+              "/audio/04/042dc4512fa3d391c5170cf3aa61e6a638f84342.pinyin-f9a5197d3b9fbc30.mp3"
+            ],
+            "explanation": "/audio/56/565f1c2d0ff39682d0fb0013457b21964983abd9.pinyin-36a0329aad498791.mp3"
+          }
+        },
+        {
+          "id": 12,
+          "question": "图片上一只小猫在打鼓，'鼓'字的拼音是：",
+          "answer": "gǔ",
+          "explanation": "鼓的读音是gǔ。",
+          "audio": {
+            "question": "/audio/86/86447a5414c0f6ac726f0c21c2b590d09f1fa08e.mp3",
+            "options": [
+              "/audio/c7/c72d8ebd932568f7d949a696c04db137588ac51a.pinyin-2064f21c3f370784.mp3",
+              "/audio/24/24914459fa3bcaae3f6bdb81b969e977dfe1012c.pinyin-13936aa79d1b55a0.mp3",
+              "/audio/72/72d936d0cae5d1bb7a611407b906a269a7871b47.pinyin-2982ec90221e53a8.mp3",
+              "/audio/b9/b943c288d6b430cad66c27839b66eabaa25a4f9a.pinyin-43e0c3d0f9f15eb0.mp3"
+            ],
+            "explanation": "/audio/2c/2c00450901efe1c47ce8ba0511c45282e2e4dae7.pinyin-2f1e7c0b63c971dc.mp3"
+          }
+        },
+        {
+          "id": 16,
+          "question": "拼一拼：b—ù—( ____ )。",
+          "answer": "布",
+          "explanation": "b和ù相拼得出bù，常见汉字是'布'。",
+          "audio": {
+            "question": "/audio/74/742102aab5bdb056dc27b6c8b1dbbe76d95c16b4.pinyin-4c20333737ec6feb.mp3",
+            "explanation": "/audio/86/86e0ae6dc3fbfc2000275fb8cb8af283dc517cf7.pinyin-99e3747ca7f21b0d.mp3"
+          }
+        },
+        {
+          "id": 18,
+          "question": "声母p和韵母à拼在一起，组成音节pà。这个音节对应的汉字是（____）。",
+          "answer": "怕",
+          "explanation": "p和à拼成pà，对应汉字“怕”。“跑”读pǎo，韵母和声调都不同。",
+          "audio": {
+            "question": "/audio/e9/e9011dff7b177922d73376d5b8a19d884237e259.pinyin-46f26ffe840a3353.mp3",
+            "explanation": "/audio/72/72381a14d358bdac73e4ea2a3a4cb7159bc33a5d.pinyin-f7b8c2e927cdeefe.mp3"
+          }
+        },
+        {
+          "id": 19,
+          "question": "请将词语与对应的拼音连线。",
+          "answer": "A-3,B-1,C-4,D-2",
+          "explanation": "喇叭读lǎ ba，木马读mù mǎ，地毯读dì tǎn，瀑布读pù bù。按左侧顺序，对应右侧第3、1、4、2项。",
+          "audio": {
+            "question": "/audio/79/791f0f8b06e8f23815155d9ede3a59397e34f49d.mp3",
+            "options": [
+              "/audio/f2/f2daf4b6f032bf5d5c5d6f11fc3b4df338f9d3c9.mp3",
+              "/audio/fa/fa43b4c345398da8f3f38b6621dbf93ef94e84fe.mp3",
+              "/audio/7d/7df5fd97730bb214057fba35b060814a6f6b5424.mp3",
+              "/audio/a7/a7d4745d62bf427092831298a0d013d10d21d8af.mp3",
+              "/audio/4a/4a626aa92874c06bbdc46c2e1dd8dbd0aa87b817.pinyin-8a97299d88009330.mp3",
+              "/audio/10/102aa72452b43a8b9d024b308da9a1815d3bd72a.pinyin-dd43f809192742c7.mp3",
+              "/audio/28/285d7a4b2bc3e8e139d2999e75edda62cb34e178.pinyin-e5805bc35d19f476.mp3",
+              "/audio/7d/7d12e6a0ac24e5ff045d257ab5c990bc531d1b9e.pinyin-318679ca642e89f0.mp3"
+            ],
+            "explanation": "/audio/b2/b204eabbc525be8f1e4f5d3804e79ef98cf3961e.pinyin-ff7a172f126751c8.mp3"
+          }
+        },
+        {
+          "id": 21,
+          "question": "声母与韵母找朋友合音节。",
+          "answer": "A-3,B-4,C-1,D-2",
+          "explanation": "b-a合bā, p-o合pò, m-i合mǐ, f-u合fù。",
+          "audio": {
+            "question": "/audio/59/5978a1764ced4224be49a67692733e380c3fdf35.mp3",
+            "options": [
+              "/audio/68/6820e1ec4e0889d3609acfb89c9e89d39fca54c5.pinyin-f6d6aef0bcf9d687.mp3",
+              "/audio/72/72e43d77f3370004e38fc83c6b7c395eee5884b1.pinyin-0103b4e944b6a949.mp3",
+              "/audio/89/897b087c24f84a8e20739460e4ab2c0b29c4ffdd.pinyin-9d518fabdbddcfa7.mp3",
+              "/audio/f6/f612c814edde5d2ad9bacf1172c1c37582e39add.pinyin-ec25ecad795269e0.mp3",
+              "/audio/b5/b54a739fb154f2e00bb3d8ad3ce4191fd593e748.pinyin-fec77e6cbd0a6bbd.mp3",
+              "/audio/b4/b483b5cb7fe99e8933c59ef852dbb92f89708699.pinyin-e03a7969b090c76b.mp3",
+              "/audio/70/70598020318bcb3379237b76dd4e972cf8be76a0.pinyin-cf996c67c28e0c8b.mp3",
+              "/audio/bd/bdb77f1b860ef4c8a5ba1603b9dc3d3987f7624c.pinyin-7b7927e70d6f3d3a.mp3"
+            ],
+            "explanation": "/audio/76/76aba701302cd016913d93865c36000d8792bdc8.pinyin-8217b06562cbd6ab.mp3"
+          }
+        },
+        {
+          "id": 22,
+          "question": "连词成句：",
+          "answer": "爸爸,带我,去,爬山",
+          "explanation": "按照逻辑，爸爸带我去爬山。",
+          "audio": {
+            "question": "/audio/4b/4b281a1941102f2cee0b832f8c4f574c818c5c91.mp3",
+            "options": [
+              "/audio/c8/c86d1645007ffe6d7857b631f8ad8387b574c763.mp3",
+              "/audio/0c/0c677cb24217acae43ed73cddd252986bbebfbfb.mp3",
+              "/audio/68/68a5e86c2f22ffe401201d7e77939bd18eae5842.mp3",
+              "/audio/03/033fd274f014aec08c2dfb1902e6090cbbb2c295.mp3"
+            ],
+            "explanation": "/audio/9d/9d7d8b27e5c9bc684847712168c9720fe86f27d1.mp3"
+          }
+        }
+      ]
+    },
+    {
+      "book_id": "chinese-g1up",
+      "lesson_id": "chinese-g1up-u3-kp3",
+      "title": "j、q、x与ü相拼规则",
+      "url": "https://d3nmsqi4n72idj.cloudfront.net/lesson/chinese-g1up/chinese-g1up-u3-kp3/",
+      "reason": "j/q/x与ü；特殊拼读规则与独立拼音朗读",
+      "question_ids": [
+        3,
+        10,
+        13,
+        24,
+        25,
+        26
+      ],
+      "question_count": 6,
+      "json_sha256": "3a29a8fedadf93c9a59999b7684f5ddc93e7a0209a257102020265a094a8eb6d",
+      "content_sha256": "5c8fe7b599c6a76af9250602832e4bfba42d98385db63ef76a659cff33b60f6e",
+      "teacher_status": "pending",
+      "audio_listening_status": "pending",
+      "reviewer_notes": "",
+      "questions": [
+        {
+          "id": 3,
+          "question": "小鱼ü见到j、q、x，去掉两点还念ü。",
+          "answer": "对",
+          "explanation": "这句话正确。ü 跟 j、q、x 相拼时，书写时去掉两点，但读音仍是 ü。",
+          "audio": {
+            "question": "/audio/7d/7db20d125a15c4b23aa887cf362ab63d70bb7fc8.pinyin-71463c0599286569.mp3",
+            "explanation": "/audio/8e/8e4b0055defb492658ac98eb07d0f8de677e6590.pinyin-5f560d006541239b.mp3"
+          }
+        },
+        {
+          "id": 10,
+          "question": "下列拼读书写完全正确的一项是：",
+          "answer": "j-ü→ju",
+          "explanation": "j 与 ü 相拼时，ü 去掉两点，写成 ju；读音仍是 ü。其余选项分别把 ü 的两点保留、把 ü 错写成 u，或把这条规则误用于 f。",
+          "audio": {
+            "question": "/audio/22/22d9d6b5bebc064969651d1276073774e3918f16.mp3",
+            "options": [
+              "/audio/3c/3c879962d3e5266379ca1d05dec4920f68ca1416.pinyin-f801206338a4d200.mp3",
+              "/audio/63/63de671b72731874dd89407478d28a72c916d59a.pinyin-d9184ae00a192303.mp3",
+              "/audio/dc/dc07058a73f9eb87d68b2d73191ec38ebab78f72.pinyin-b516e33466189adb.mp3",
+              "/audio/fe/fe24e4628a6b3d426856f8f2f90b48d62d171f1e.pinyin-dd1168b90434a405.mp3"
+            ],
+            "explanation": "/audio/5d/5d97c8d3e998e020fc2824e68a291fe7203bc692.pinyin-1aa77c7c48e28eb0.mp3"
+          }
+        },
+        {
+          "id": 13,
+          "question": "音节“qù”（回去）是由哪两个部分组成的？",
+          "answer": "q 和 ü",
+          "explanation": "题目给出 qù（回去）。这个音节书写时由 q 和去掉两点的 ü 组成，读音仍是 ü，不是单韵母 u。",
+          "audio": {
+            "question": "/audio/80/807dee51aa8cbed3fea2a6198262979608e24249.pinyin-0801c4477a3f1384.mp3",
+            "options": [
+              "/audio/41/41ff1d373b859b8a6c0cc846ee2dffb9b68784bc.pinyin-155f4a84e05de386.mp3",
+              "/audio/e5/e50bee38d4b096d31ba0e04e57b98d08ae2221f3.pinyin-52ff5ab1171a980a.mp3",
+              "/audio/57/5723bd592b57a277da9322916ae4f6bb7918b6dc.pinyin-dad9b0b20695305e.mp3",
+              "/audio/d4/d4c342975cbceb26acb6cf3bc23d30eabaf594f9.pinyin-100acb9fb1bb7dcb.mp3"
+            ],
+            "explanation": "/audio/08/083e6a0ff5ef3a77273d0b6d5c0815f80d661ce9.pinyin-6d1013bbae52c227.mp3"
+          }
+        },
+        {
+          "id": 24,
+          "question": "把“q + ü”拼成一个音节，只写音节，填1个拼音音节：____",
+          "answer": "qu",
+          "explanation": "q 与 ü 相拼时，ü 去掉两点，写成 qu，读音仍是 ü。",
+          "audio": {
+            "question": "/audio/a9/a97d6ea445fe61f81b0f17b4667107b33a13dc12.pinyin-2be3198c069ed2fa.mp3",
+            "explanation": "/audio/76/76c785175a4e474a780d5af6779322c3a5fe63a0.pinyin-1b01c204872f5b63.mp3"
+          }
+        },
+        {
+          "id": 25,
+          "question": "ju 里的 u 原来是哪一个韵母？只填1个拼音字母：____",
+          "answer": "ü",
+          "explanation": "ju 中写出的 u 是 ü 去掉两点后的写法；它与 j 相拼时，原来的韵母是 ü。",
+          "audio": {
+            "question": "/audio/eb/eb429f88847feff7f38260f018f4a0a66ae36d93.pinyin-cdf1a6d3d3bd5278.mp3",
+            "explanation": "/audio/52/521bded7622ff8cd3f2f49ea739679e599f448b2.pinyin-953cd46e6a4af32d.mp3"
+          }
+        },
+        {
+          "id": 26,
+          "question": "n 和 ü 相拼时，ü 也要去掉两点，写成 nu。",
+          "answer": "错",
+          "explanation": "这句话错误。j、q、x 与 ü 相拼时，ü 去掉两点；n 与 ü 相拼时两点保留，写作 nü。",
+          "audio": {
+            "question": "/audio/1f/1f18090f4cd1731faae5d76632f81cec86409c67.pinyin-a6cda49b2a0a22b7.mp3",
+            "explanation": "/audio/56/564826f016ebb015e042816904ba175d16a56c3c.pinyin-08b1c2ef0c43d6d6.mp3"
+          }
+        }
+      ]
+    }
+  ]
+}

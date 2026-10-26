@@ -12,7 +12,7 @@ import urllib.request
 import zipfile
 from pathlib import Path, PurePosixPath
 
-DEFAULT_TAG = 'v1.7.2'
+DEFAULT_TAG = 'v1.7.3'
 RELEASE_ROOT = 'https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download'
 DESTINATIONS = {
     'audio.tar.gz': 'apps/web/public',

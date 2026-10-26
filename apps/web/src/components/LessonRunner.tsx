@@ -63,6 +63,8 @@ import {
 } from "@/lib/mascotTriggers";
 import { getCosmeticById, type LessonBackdrop } from "@/lib/cosmetics";
 import { CountingWarmup } from "./CountingWarmup";
+import { lessonWarmupKind, resumeWarmupHandbook } from "@/lib/lessonWarmup";
+import { SchoolWarmup } from './SchoolWarmup';
 import { hasLessonProgress, restoreQuestionSession } from "@/lib/lessonSession";
 import { lessonContentKey } from "@cstf/core/content";
 import { answerReady } from "@/lib/questionDraft";
@@ -281,6 +283,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   // ⚔️ 单元挑战课：XP 总额 ×2（与周末可叠加 = ×4），宝石 drip 不翻倍
   const isExam = isExamLessonId(lesson.id);
   const numberSkill = numberSkillForLesson(lesson.id);
+  const warmupKind = lessonWarmupKind(lesson);
   const xpMultiplier =
     (isExam ? EXAM_XP_MULTIPLIER : 1) * (weekend ? WEEKEND_XP_MULTIPLIER : 1);
   const xpPerCorrectShown = XP_PER_CORRECT * xpMultiplier;
@@ -355,7 +358,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   // 移动端设置小弹层（web-lesson-9）
   const [settingsMounted, setSettingsMounted] = useState(false);
   const [showSettings, setShowSettings] = useState(false);
-  const [showIntro, setShowIntro] = useState((lesson.knowledge !== null && !numberSkill) || lesson.id === "g1up-u1-kp1");
+  const [showIntro, setShowIntro] = useState((lesson.knowledge !== null && !numberSkill) || warmupKind !== null);
   const questionScrollRef = useRef<HTMLDivElement>(null);
   useEffect(() => {
     if (questionScrollRef.current) questionScrollRef.current.scrollTop = 0;
@@ -404,7 +407,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       independentIds.current = new Set(Array.isArray(stored.independentIds) ? stored.independentIds.filter(id => questionById.has(id)) : []);
       startTimeRef.current = stored.startedAt || Date.now();
       setIntroPage(stored.introPage ?? 0);
-      setShowHandbook(stored.introMode === "handbook");
+      setShowHandbook(resumeWarmupHandbook(warmupKind, stored));
       setIntroCompletedPages(stored.introCompletedPages ?? []);
       setWarmupCounted(stored.warmupCounted ?? []);
       setShowIntro(stored.stage === "intro");
@@ -1014,8 +1017,12 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       <button className="btn-chunky-primary px-8" onClick={() => setContentUpdated(false)}>开始学习</button>
     </main>;
   }
-  if (showIntro && lesson.id === "g1up-u1-kp1" && !showHandbook) {
+  if (showIntro && warmupKind === "count" && !showHandbook) {
     return <CountingWarmup counted={warmupCounted} onCount={id => setWarmupCounted(ids => ids.includes(id) ? ids : [...ids, id])}
+      onStart={() => setShowIntro(false)} onHelp={() => setShowHandbook(true)} onExit={() => router.push(`/book/${lesson.bookId}/`)} />;
+  }
+  if (showIntro && warmupKind === 'school' && !showHandbook) {
+    return <SchoolWarmup selected={warmupCounted[0]} onSelect={floor => setWarmupCounted([floor])}
       onStart={() => setShowIntro(false)} onHelp={() => setShowHandbook(true)} onExit={() => router.push(`/book/${lesson.bookId}/`)} />;
   }
   if (showIntro && lesson.knowledge) {

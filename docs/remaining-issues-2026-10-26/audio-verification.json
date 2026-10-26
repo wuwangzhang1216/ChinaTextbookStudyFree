@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "runtime_json_documents": 3351,
+  "runtime_references": 143207,
+  "unique_mp3_assets": 122055,
+  "invalid_references_or_signatures": 0,
+  "local_full_decodes": 16,
+  "cdn_full_decodes_and_ranges": 16,
+  "fixture_scenarios": 15,
+  "legacy_tts_regression": "passed",
+  "intro_narration_regression": "passed",
+  "real_browser_playback": "manual speaker click, naturally finished, Next enabled",
+  "qa_and_original_exported_data_unchanged": true,
+  "original_profile_restored": true,
+  "physical_ipad6": "not tested",
+  "web_format": "real MP3",
+  "native_format": "AAC/M4A; unchanged from v1.7.3"
+}

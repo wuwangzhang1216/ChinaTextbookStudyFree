@@ -8,8 +8,8 @@ options:
 settings:
   base:
     SWIFT_VERSION: "5.9"
-    MARKETING_VERSION: "0.1.0"
-    CURRENT_PROJECT_VERSION: "1"
+    MARKETING_VERSION: "1.0"
+    CURRENT_PROJECT_VERSION: "4"
     GENERATE_INFOPLIST_FILE: YES
     INFOPLIST_KEY_CFBundleDisplayName: "聪聪学堂"
     INFOPLIST_KEY_UILaunchScreen_Generation: YES
@@ -36,6 +36,7 @@ targets:
       - path: ChinaTextbookStudy/Resources/seed-index.json
       - path: ChinaTextbookStudy/Resources/seed-data.zip
       - path: ChinaTextbookStudy/Resources/PrivacyInfo.xcprivacy
+      - path: ChinaTextbookStudy/Resources/privacy-policy.json
       - path: ChinaTextbookStudy/Resources/Assets.xcassets
     entitlements:
       path: ChinaTextbookStudy/ChinaTextbookStudy.entitlements

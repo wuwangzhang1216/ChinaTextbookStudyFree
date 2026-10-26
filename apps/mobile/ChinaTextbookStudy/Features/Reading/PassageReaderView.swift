@@ -173,6 +173,8 @@ struct PassageReaderView: View {
 
     // ---- 跟读模式（content-3）----
     @StateObject private var followup = FollowupSession()
+    @State private var showMicrophoneApproval = false
+    @State private var showSettingsApproval = false
 
     var body: some View {
         Group {
@@ -188,6 +190,10 @@ struct PassageReaderView: View {
         .navigationTitle(passage?.title ?? "")
         .navigationBarTitleDisplayMode(.inline)
         .toolbar { ToolbarItem(placement: .topBarTrailing) { MuteToggle() } }
+        .parentalApproval(isPresented: $showMicrophoneApproval, reason: "首次跟读需要家长允许使用麦克风。录音只临时保存在本机，不会上传。") {
+            if let passage { startApprovedFollowup(passage) }
+        }
+        .parentalApproval(isPresented: $showSettingsApproval, reason: "即将离开课堂，打开系统设置管理麦克风权限。", onApprove: openAppSettings)
         .task {
             do {
                 passage = try DataLoader.shared.loadPassages(bookId: bookId)?.passages.first { $0.id == passageId }
@@ -311,6 +317,14 @@ struct PassageReaderView: View {
 
     /// 开一轮跟读。按钮和错误卡片的「再试一次」共用同一条路径。
     private func startFollowup(_ passage: Passage) {
+        if AVAudioApplication.shared.recordPermission == .undetermined {
+            showMicrophoneApproval = true
+        } else {
+            startApprovedFollowup(passage)
+        }
+    }
+
+    private func startApprovedFollowup(_ passage: Passage) {
         readAllRunActive = false
         AudioPlayer.shared.stop()
         HapticEngine.shared.tap()
@@ -347,6 +361,7 @@ struct PassageReaderView: View {
             background: followup.isActive ? DuoColors.danger : DuoColors.secondary,
             shadowColor: followup.isActive ? DuoColors.dangerDark : DuoColors.secondaryDark
         ))
+        .accessibilityIdentifier("followup-start")
     }
 
     @ViewBuilder
@@ -367,7 +382,7 @@ struct PassageReaderView: View {
                 Image(systemName: "mic.slash.fill").font(.system(size: 16, weight: .bold)).foregroundStyle(DuoColors.danger)
                 Text("要先允许使用麦克风，才能跟读哦").duoFont(.caption).foregroundStyle(DuoColors.ink)
                 Spacer(minLength: 0)
-                Button("去设置") { openAppSettings() }
+                Button("去设置") { showSettingsApproval = true }
                     .buttonStyle(ChunkySmallButtonStyle(background: DuoColors.fox, shadowColor: DuoColors.fox.opacity(0.6)))
                     .accessibilityIdentifier("followup-open-settings")
             case .recordFailed:

@@ -7,6 +7,8 @@ struct SettingsView: View {
     @ObservedObject private var settings = SettingsStore.shared
     @State private var showResetConfirm = false
     @State private var deniedHint = false
+    @State private var showReminderApproval = false
+    @State private var showPrivacy = false
 
     // Wave E2: 存档备份 & 报错列表
     @State private var showImportPicker = false
@@ -42,6 +44,8 @@ struct SettingsView: View {
         .background(DuoColors.bg.ignoresSafeArea())
         .navigationTitle("设置")
         .navigationBarTitleDisplayMode(.inline)
+        .sheet(isPresented: $showPrivacy) { NavigationStack { PrivacyPolicyView() } }
+        .parentalApproval(isPresented: $showReminderApproval, reason: "开启学习提醒前，请家长确认。提醒只由这台设备发送，可以随时关闭。", onApprove: enableReminders)
         .confirmationDialog("确定要重置全部学习进度吗？此操作无法撤销。", isPresented: $showResetConfirm, titleVisibility: .visible) {
             Button("重置进度", role: .destructive) {
                 progressStore.resetProgress()
@@ -109,19 +113,7 @@ struct SettingsView: View {
                     get: { settings.streakReminderEnabled },
                     set: { wanted in
                         if wanted {
-                            Task {
-                                let granted = await NotificationService.shared.requestAuthorization()
-                                settings.streakReminderEnabled = granted
-                                if granted {
-                                    NotificationService.shared.rescheduleStreakReminder(
-                                        streak: progressStore.reminderStreak,
-                                        studiedToday: progressStore.studiedToday
-                                    )
-                                    HapticEngine.shared.success()
-                                } else {
-                                    deniedHint = true
-                                }
-                            }
+                            showReminderApproval = true
                         } else {
                             settings.streakReminderEnabled = false
                             NotificationService.shared.cancel()
@@ -156,6 +148,22 @@ struct SettingsView: View {
             .padding(.top, 4)
             .background(DuoColors.surface, in: .rect(cornerRadius: Radius.card))
             .overlay { RoundedRectangle(cornerRadius: Radius.card).strokeBorder(DuoColors.border, lineWidth: 2) }
+        }
+    }
+
+    private func enableReminders() {
+        Task {
+            let granted = await NotificationService.shared.requestAuthorization()
+            settings.streakReminderEnabled = granted
+            if granted {
+                NotificationService.shared.rescheduleStreakReminder(
+                    streak: progressStore.reminderStreak,
+                    studiedToday: progressStore.studiedToday
+                )
+                HapticEngine.shared.success()
+            } else {
+                deniedHint = true
+            }
         }
     }
 
@@ -205,17 +213,12 @@ struct SettingsView: View {
         section("数据") {
             VStack(spacing: 0) {
                 // 导出存档：ShareLink 临时 JSON 文件（分享时才落盘）。
-                ShareLink(
-                    item: BackupTransferFile(
-                        json: (try? progressStore.exportBackupData()) ?? Data(),
-                        filename: backupFilename
-                    ),
-                    preview: SharePreview(backupFilename)
-                ) {
+                ParentalShareButton(identifier: "backup-export", makeFile: {
+                    try ParentalShareFile.write(progressStore.exportBackupData(), filename: backupFilename)
+                }) {
                     dataRow(icon: "square.and.arrow.up.fill", tint: DuoColors.primary, title: "导出存档",
-                            subtitle: "保存一份 JSON 备份，网页版也能导入")
+                            subtitle: "家长确认后保存 JSON 备份，网页版也能导入")
                 }
-                .accessibilityIdentifier("backup-export")
 
                 divider
 
@@ -404,6 +407,9 @@ struct SettingsView: View {
                     Spacer()
                     Text(appVersion).duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
                 }
+                Button("隐私政策与数据说明") { showPrivacy = true }
+                    .duoFont(.body).foregroundStyle(DuoColors.linkInk).frame(minHeight: 44)
+                    .accessibilityIdentifier("privacy-policy")
                 Text("教材内容版权归原出版方所有，客户端代码 MIT 开源。")
                     .duoFont(.micro)
                     .foregroundStyle(DuoColors.inkMuted)
@@ -469,13 +475,9 @@ struct ReportsListSheet: View {
                 Spacer()
                 if !progressStore.reports.isEmpty,
                    let data = try? progressStore.exportReportsData() {
-                    ShareLink(
-                        item: BackupTransferFile(
-                            json: data,
-                            filename: "题目报错-\(SRS.todayString()).json"
-                        ),
-                        preview: SharePreview("题目报错列表")
-                    ) {
+                    ParentalShareButton(identifier: "reports-export", makeFile: {
+                        try ParentalShareFile.write(data, filename: "题目报错-\(SRS.todayString()).json")
+                    }) {
                         HStack(spacing: 5) {
                             Image(systemName: "square.and.arrow.up")
                                 .font(.system(size: 13, weight: .heavy))
@@ -487,7 +489,7 @@ struct ReportsListSheet: View {
                         .padding(.vertical, 7)
                         .background(DuoColors.primary.opacity(0.12), in: .capsule)
                     }
-                    .accessibilityIdentifier("reports-export")
+
                 }
             }
             .padding(.top, 18)

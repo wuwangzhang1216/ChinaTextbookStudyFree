@@ -11,6 +11,7 @@ struct OnboardingView: View {
     @State private var selectedBookId: String?
     @State private var selectedGoal = 50
     @State private var requestingAuth = false
+    @State private var showReminderApproval = false
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     private let goals: [(label: String, xp: Int, sub: String)] = [
@@ -62,6 +63,7 @@ struct OnboardingView: View {
         }
         .background(DuoColors.bg.ignoresSafeArea())
         .onChange(of: selectedGrade) { _, _ in selectedBookId = nil }
+        .parentalApproval(isPresented: $showReminderApproval, reason: "开启学习提醒前，请家长确认。提醒只由这台设备发送，可以随时关闭。", onApprove: requestReminder)
     }
 
     private var greeting: some View {
@@ -189,7 +191,7 @@ struct OnboardingView: View {
         LearningActionDock {
             VStack(spacing: 10) {
                 if step == 3 {
-                    Button(requestingAuth ? "正在开启…" : "开启学习提醒") { requestReminder() }
+                    Button(requestingAuth ? "正在开启…" : "开启学习提醒") { showReminderApproval = true }
                         .buttonStyle(ChunkyButtonStyle(.primary))
                         .disabled(requestingAuth)
                         .accessibilityIdentifier("onboarding-notify-yes")

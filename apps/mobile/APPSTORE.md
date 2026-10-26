@@ -1,193 +1,58 @@
-# App Store 上架清单
+# 聪聪学堂 iOS 上架记录
 
-这份文档记录 iOS 端送审所需的 metadata 和上架步骤。2026-10-25 完成聪聪学堂原生 UX 升级；模拟器截图与验证见 [iOS UX 图库](../../docs/ios-ux-gallery.html)。已生成 `0.1.0 (1)` Apple Development 签名测试包；真机运行验收和 App Store Connect 配置仍需完成。
+2026-10-25：已建立 [App Store Connect 记录](https://appstoreconnect.apple.com/apps/6826962612/distribution/ios/version/inflight)，Apple ID `6826962612`，首个版本为 `1.0`。记录建立、归档、上传、提交审核和公开上架是不同阶段，不能以归档成功代替后续结果。
 
-## 0. 当前状态一览
+## 应用与签名
 
-| 项目 | 状态 | 位置 |
-|---|---|---|
-| Xcode 项目生成 | ✅ | `apps/mobile/project.yml` → `xcodegen generate` |
-| App icon (1024×1024，不透明) | ✅ | 与 Web 统一的熊猫聪聪图标；`scripts/media/build-ios-icon.sh` 可重建 |
-| 隐私清单 (`PrivacyInfo.xcprivacy`) | ✅ | `apps/mobile/ChinaTextbookStudy/Resources/PrivacyInfo.xcprivacy` |
-| `LSApplicationCategoryType` | ✅ | `public.app-category.education` |
-| `ITSAppUsesNonExemptEncryption` | ✅ | `NO`（没有自研加密） |
-| `NSHumanReadableCopyright` | ✅ | 声明教材内容版权 + 客户端 MIT |
-| 单元测试 | ✅ | 本轮具体结果与设备见 iOS UX 图库 |
-| UI 测试 | ✅ | 本轮具体结果与设备见 iOS UX 图库 |
-| 品牌图标 | ✅ | 复用 `apps/web/public/icons/icon.svg` 的熊猫几何图形 |
-| Bundle ID | ✅ | App：`com.wuwangzhang1216.congcongschool`；Widget：同前缀加 `.widget` |
-| `DEVELOPMENT_TEAM` | ✅ | 本机使用 `46KF5Z549N`；源码保留空值，通过 Xcode 或构建参数选择自己的团队 |
-| 开发测试 IPA | ✅ | 已签名导出；App、Widget 的 App Group 与主 App 的 iCloud 权限已核对 |
-| 真机运行验证 | ⬜ | 音频需要真机 / 开声音的模拟器手动听一遍 |
-| GitHub Release iOS 资源包 | ✅ | `v1.7.0-ios-resources`，58 册目录；语文一上和新版数学一上已抽样验证数据与 AAC |
+- 主 App：`com.wuwangzhang1216.congcongschool`
+- Widget：`com.wuwangzhang1216.congcongschool.widget`
+- 共用 App Group：`group.com.wuwangzhang1216.congcongschool`
+- 本机团队：`46KF5Z549N`。源码不固定团队，通过 Xcode 或构建参数选择。
+- 主 App 保留 iCloud Key-value storage 权限；两个 App ID 的描述文件都必须包含上述 App Group。
+- 已验证 `0.1.0 (1)` 开发签名 IPA。它只适用于描述文件内已登记设备，不能作为 App Store 分发包上传。
+- 当前送审源版本为 `1.0 (4)`。以后每次上传递增构建号。
+- App Store 包需要 Apple Distribution 或 Xcode 托管的云签名及相应分发描述文件。
+- 签名产物和构建日志存放在忽略的 `dist/ios/`，不要提交证书、描述文件、私钥或私有审核联系人。
 
-## 1. 上架前必须改的东西
+## 商店资料
 
-### 1.1 Bundle ID & 团队
+可复用文案见 [app-store-metadata.zh-Hans.json](app-store-metadata.zh-Hans.json)。名称为“聪聪学堂”，主分类 Education，次分类 Reference。应用免费，无广告、无内购、无需登录。审核联系人经用户授权沿用 Oxyn-AI，姓名可读取，但邮箱和电话被 Apple 遮挡；用户已另行提供审核电话，邮箱待确认。联系资料仅在 App Store Connect 填写，不写入公开仓库。
 
-编辑 `apps/mobile/project.yml`：
+用户已确认教材课文、故事及配图属于自有、公版或已有适当授权。首发地区由用户指定为中国大陆以外；已配置 174 个地区，中国大陆状态为 Not Available，不自动加入未来新增地区。
 
-```yaml
-settings:
-  base:
-    DEVELOPMENT_TEAM: "XXXXXXXXXX"   # 你的 Apple Developer Team ID
-targets:
-  ChinaTextbookStudy:
-    settings:
-      base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.wuwangzhang1216.congcongschool
-```
+年龄分级按实际内容填写：教材中存在少量文学／历史战争、武器、烟酒描写，Apple 当前计算为 13+（部分地区另有分级）。不能沿用旧草稿的 4+，也不能为进入儿童专区而隐瞒内容。用户希望按 7+，但当前全局分级不能手填为 7+；保留真实问卷答案，并在审核说明中交代小学课文的教育语境。
 
-然后 `cd apps/mobile && xcodegen generate` 重新生成 `.xcodeproj`。
+## 隐私与家长确认
 
-App 与 Widget 共用 `group.com.wuwangzhang1216.congcongschool`，该 App Group 必须在两个 App ID 的描述文件中都启用。修改标识时同步更新 `project.yml`、`PersistenceService.appGroupId` 和 Widget 的 `SnapshotStore.appGroupId`。主 App 另外保留 iCloud Key-value storage 能力。
+- [公开 iOS 隐私政策](https://d3nmsqi4n72idj.cloudfront.net/ios-privacy.html)，在 App 内设置中亦可离线阅读。
+- 唯一内容源为 `ChinaTextbookStudy/Resources/privacy-policy.json`；运行 `python3 scripts/media/build-ios-privacy.py` 生成 Web 页面。
+- 学习存档主要保存在本机；系统 iCloud 可用时同步至用户自己的私有 Apple 账户，开发者不能读取。
+- 下载通过 GitHub Release 提供，网络服务会接收完成请求所需的 IP / HTTP 信息；不随下载发送学习存档或录音。
+- 跟读仅在本机临时录音，离开阅读页删除。首次麦克风许可、通知许可、外部分享和打开外部隐私页面前有本地家长确认。
+- 家长确认不收集年龄或身份，不属于真实年龄验证。
+- 本机重置不会自动删除已有 iCloud 备份或用户自行分享的副本。
+- App Privacy 按 Apple 对 collection 的定义填写 Data Not Collected；这不等于没有网络请求、系统 iCloud 或家长主动分享。
+- `PrivacyInfo.xcprivacy` 声明无追踪、无收集数据类型，以及 UserDefaults 和文件时间戳的必要使用理由。
 
-### 1.2 版本号
+## 内容与资源
 
-`MARKETING_VERSION: "0.1.0"` → 发布版改成 `1.0.0`。`CURRENT_PROJECT_VERSION: "1"` 每次上传到 TestFlight 都要递增。
+客户端包含旧版及 2026 修订版一年级上册数学基础数据和首课音频，其余资源按需下载；下载后可离线使用。资源 Release 为 `v1.7.0-ios-resources`，目录含 58 册。不要承诺所有内容首次安装即离线，也不要未经证明宣称全量人工校对。
 
-### 1.3 真实的 App Icon
+图标为与 Web 一致的聪聪熊猫，1024×1024、不透明；可用 `scripts/media/build-ios-icon.sh` 重建。原生界面验证见 [UX 图库](../../docs/ios-ux-gallery.html)。商店截图由 `StoreListingScreenshotTests` 在专用 iPhone 17 Pro Max 与 iPad Pro 13 M5 模拟器采集，不用历史截图或 HTML 模型冒充 App 画面。
 
-当前已使用和 Web 一致的熊猫聪聪品牌图标。运行 `bash scripts/media/build-ios-icon.sh` 可从规范 SVG 重新生成，需安装 `rsvg-convert`。产物为 1024×1024 无 alpha 的 PNG；iOS 自行应用系统圆角。
+## 提交前核对
 
-替换流程：
-1. 产出一张 **1024×1024 sRGB 不透明 PNG**（Apple 要求：无 alpha，方形，系统自动圆角）
-2. 覆盖 `apps/mobile/ChinaTextbookStudy/Resources/Assets.xcassets/AppIcon.appiconset/icon-1024.png`
-3. 无需改 `Contents.json`（iOS 17+ 单图标模式 Xcode 会自动处理所有尺寸）
-4. `xcodebuild clean build` 验证
+- [x] 创建应用记录、正确 Bundle ID、分类及中文副标题。
+- [x] 内容使用权由用户确认。
+- [x] 免费价格及中国大陆以外首发范围。
+- [x] 公开与离线隐私政策、家长确认流程。
+- [x] 准确的产品说明、支持链接、无需测试账户及审核联系人。
+- [ ] 解决用户希望 7+ 与 Apple 按实际内容计算 13+ 的分级差异。
+- [x] 单元测试 215 项；Pro 家长确认 4 项、SE 3 项均已通过（发现问题后的修正已单独复测）。
+- [x] iPhone 1206×2622 与 iPad 2064×2752 各 4 张实际原生截图已上传。
+- [x] Release `1.0 (4)` 归档及主 App / Widget 签名校验成功。
+- [ ] 使用 App Store 分发签名归档并上传，确认构建处理成功。
+- [ ] 选择上传构建，检查所有必填项并提交审核。
+- [ ] 真机音频、麦克风、通知和 iCloud 最终验收。
 
-### 1.4 GitHub Release 的 iOS 资源包
-
-iOS 端内置一年级上册旧版和 2026 修订版数据，以及各自首课音频。其余内容由 `AssetDownloader` 按需下载。当前已发布的资源为 `v1.7.0-ios-resources`，manifest 包含 58 册；无需重复创建该 Release。
-
-未来发布新版本时：
-
-```bash
-# 1. 转码 & 打包（~40 min 全量，~10.7MB per book）
-bash scripts/package-release-ios.sh
-
-# 2. 使用新的资源 tag，且同步更新 AssetDownloader.releaseBaseURL
-: "${IOS_ASSET_TAG:?请先设置本次新的 iOS 资源 tag}"
-gh release create "$IOS_ASSET_TAG" \
-    /tmp/release-assets-ios/*.zip \
-    /tmp/release-assets-ios/ios-manifest.json \
-    --notes "iOS asset bundle: per-book data + AAC-24k m4a audio"
-```
-
-对应代码在 [AssetDownloader.swift](ChinaTextbookStudy/Services/AssetDownloader.swift)，已指向 `v1.7.0-ios-resources`。调整离线首课时可运行 `scripts/media/extend-ios-seed.py`，输入官方 manifest、data ZIP 和 AAC ZIP；脚本验证 SHA-256 后追加新版教材，保留旧版种子。
-
-## 2. App Store Connect metadata 草稿
-
-### 2.1 基本信息
-
-| 字段 | 值 |
-|---|---|
-| **App 名称** | 聪聪学堂 |
-| **副标题 (30 字符)** | 小学全科 · 课本闯关与听读 |
-| **Bundle ID** | `com.wuwangzhang1216.congcongschool` |
-| **主分类** | Education |
-| **次要分类** | Reference |
-| **年龄分级** | 4+ |
-
-### 2.2 描述 (简体中文)
-
-```
-聪聪学堂是一款面向中国大陆小学生（1-6 年级）的免费、离线优先的课本辅导应用，
-覆盖语文、数学、英语、科学四科，全程零广告、无内购、不收集任何用户数据。
-
-功能亮点：
-• 多邻国式闯关学习 —— 每个知识点拆成一节「小课」，5-7 题一闯
-• 八种题型全面覆盖：单选、判断、数字填空、文字填空、计算、连词成句、连线、应用题
-• 内置 TTS 语音点读，题目、选项、解析一键朗读
-• 间隔重复错题本（Leitner 3 box 算法），自动排程复习
-• 课外故事 + 课文听读模块，支持语文英语双语
-• 16 个学习成就激励长期坚持
-• 暗色模式、iPad 分栏布局
-
-教材数据严格对齐人民教育出版社等官方版本，题库和配套音频由 AI 辅助生成后
-人工校对。所有内容均通过 GitHub Release 分发，按教材按需下载，首次安装包 < 20 MB。
-
-本应用为公益项目，代码以 MIT 许可开源，欢迎提交反馈：
-https://github.com/<your>/ChinaTextbookStudyFree
-```
-
-### 2.3 促销文本 (170 字符)
-
-```
-免费 · 无广告 · 不收数据 · 支持离线。小学 1-6 年级四科题库 + AI 朗读 + 错题 SRS 复习。
-开源公益项目，认真做的小学生多邻国。
-```
-
-### 2.4 关键字 (100 字符，逗号分隔)
-
-```
-小学,课本,练习,数学,语文,英语,科学,人教版,错题本,朗读,闯关,教育,学习
-```
-
-### 2.5 支持网址 / 营销网址
-
-- 支持网址: `https://github.com/<your>/ChinaTextbookStudyFree/issues`
-- 营销网址（可选）: 项目主页
-
-## 3. 隐私问卷答案
-
-App Store Connect → App 隐私
-
-> **你的 App 是否收集数据？**
-
-**No** — 所有用户状态（XP、错题本、连续天数、设置）都只存在本机沙盒
-（`Application Support/cstf/`），没有任何网络上报、analytics 或第三方 SDK。
-
-对应声明已在 [PrivacyInfo.xcprivacy](ChinaTextbookStudy/Resources/PrivacyInfo.xcprivacy) 中：
-- `NSPrivacyTracking = false`
-- `NSPrivacyTrackingDomains = []`
-- `NSPrivacyCollectedDataTypes = []`
-- 两个 `NSPrivacyAccessedAPITypes` 条目（UserDefaults 用 CA92.1，FileTimestamp 用 C617.1）
-
-## 4. 截图要求
-
-App Store 要求至少两组尺寸的截图：
-
-| 设备 | 尺寸 | 数量 | 生成方式 |
-|---|---|---|---|
-| iPhone 6.9"（iPhone 16 Pro Max） | 1320×2868 | 3-10 张 | 在 iPhone 16 Pro Max 模拟器跑 `ScreenshotTests.swift` 或手动截 |
-| iPad 13"（iPad Pro 13 M5） | 2064×2752 | 3-10 张 | 在 iPad Pro 13 模拟器跑同样的测试 |
-
-推荐截图场景：
-1. **首页** — 显示快捷入口 + 书架
-2. **课程地图** （Book detail） — 显示分单元的小课列表
-3. **答题页** — 显示带音频按钮的题目
-4. **答题反馈** — 显示正确 / 错误反馈块
-5. **成就墙** — 多色 badge 阵列
-6. **暗色模式首页** — 展示适配效果
-7. **iPad 分栏布局**（仅 iPad 组）
-
-`apps/mobile/ChinaTextbookStudyUITests/ScreenshotTests.swift` 已经有基础 flow
-自动截图能力，需要的话再加几个场景（进入一节课 + 答对一题）。
-
-## 5. 审核风险提示
-
-1. **教材内容版权**：App 内展示的课本题目和音频由 AI 辅助生成并向原教材对齐，但不是原版扫描件。
-   如果审核员质疑版权，准备说明：
-   - 题目是基于课本知识点由 AI 生成 + 人工校对，不是直接复制
-   - 音频全部是 TTS 合成，非课本附带的原声录音
-   - 课本扫描原页 JPG 不进 iOS 包（只有 Web 端用）
-2. **年龄分级**：选 4+。没有 IAP、没有外链、没有广告、没有 UGC。
-3. **审核测试账号**：不需要（没有账号体系）。
-4. **审核说明文本**：建议写一段：
-   > 本 App 离线使用，首次进入某本教材时会从 GitHub Release 下载该书的课文、
-   > 题库和 TTS 音频约 10-15 MB。不需要账号或联网登录即可使用全部功能。
-
-## 6. 上架前最终 Checklist
-
-- [ ] 替换 Bundle ID 为你的真实域名
-- [ ] 填入 `DEVELOPMENT_TEAM` ID
-- [ ] 生成真正的 App Icon 并替换 `icon-1024.png`
-- [ ] 版本号改为 `1.0.0`
-- [ ] 生成并上传 iOS 资源 Release
-- [ ] 更新 `AssetDownloader.releaseBaseURL` 为新 tag
-- [ ] 真机跑一次完整流程（验证音频能发声）
-- [ ] 截 iPhone 6.9" + iPad 13" 两组截图
-- [ ] Archive + Upload to App Store Connect
-- [ ] 填 metadata + 隐私问卷 + 审核说明
-- [ ] 提交审核
+参考：[Apple 提交流程](https://developer.apple.com/help/app-store-connect/manage-submissions-to-app-review/submit-an-app/)、[审核指南](https://developer.apple.com/app-store/review/guidelines/)、[隐私定义](https://developer.apple.com/app-store/app-privacy-details/)、[截图规格](https://developer.apple.com/help/app-store-connect/reference/app-information/screenshot-specifications)。

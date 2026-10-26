@@ -76,10 +76,10 @@ struct ShareCardLink: View {
     var label: String = "分享"
 
     var body: some View {
-        ShareLink(
-            item: ShareCardImage(image: image, filename: filename),
-            preview: SharePreview(previewTitle, image: Image(uiImage: image))
-        ) {
+        ParentalShareButton(identifier: "share-card-link", makeFile: {
+            guard let data = image.pngData() else { throw CocoaError(.fileWriteUnknown) }
+            return try ParentalShareFile.write(data, filename: filename)
+        }) {
             HStack(spacing: 6) {
                 Image(systemName: "square.and.arrow.up")
                     .font(.system(size: 14, weight: .heavy))
@@ -88,7 +88,6 @@ struct ShareCardLink: View {
             }
         }
         .buttonStyle(ChunkyButtonStyle(.ghost))
-        .accessibilityIdentifier("share-card-link")
     }
 }
 

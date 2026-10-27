@@ -133,8 +133,8 @@ final class AssetDownloader: ObservableObject {
     /// 显示「已下载」:课文页点「朗读全文」毫无反应,听读完成门槛永远解不开,
     /// 用户也找不到重新下载的入口(iosretention-6)。
     ///
-    /// 注意 `SeedInstaller` 升级时会整体删掉 `cstf/audio/` —— 标记就放在音频树
-    /// 里面,跟着一起消失,状态自动回落到「需下载」,不会出现「显示已下载但没声音」。
+    /// 内置体验包升级只补缺失文件，保留下载标记。资源包更新由数据/音频指纹
+    /// 判断；标记缺失或不匹配时回到「需下载」，避免出现已下载却无声音的状态。
     func isBookDownloaded(_ bookId: String) -> Bool {
         hasBookData(bookId) && hasBookAudio(bookId)
     }

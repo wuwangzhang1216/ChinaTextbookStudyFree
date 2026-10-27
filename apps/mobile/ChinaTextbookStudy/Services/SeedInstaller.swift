@@ -1,4 +1,5 @@
 import Foundation
+import CryptoKit
 import ZIPFoundation
 
 /// On first launch, unzip the bundled `seed-data.zip` into the sandbox so the
@@ -18,46 +19,48 @@ enum SeedInstaller {
         guard let zipURL = Bundle.main.url(forResource: "seed-data", withExtension: "zip") else {
             return
         }
-        // Parent of `data/` and `audio/` — i.e. `Application Support/cstf/`.
         let cstfRoot = DataLoader.shared.sandboxDataRoot.deletingLastPathComponent()
-        let booksDir = DataLoader.shared.sandboxDataRoot.appendingPathComponent("books", isDirectory: true)
-        let fm = FileManager.default
-        try? fm.createDirectory(at: cstfRoot, withIntermediateDirectories: true)
-
-        // Skip if the seed has already been installed at the current bundled
-        // version. The version stamp lives in `cstf/seed-version.txt` so seed
-        // upgrades (e.g. swapping the bundled book or re-encoding audio) take
-        // effect on the next launch without needing the user to wipe the app.
-        let stampURL = cstfRoot.appendingPathComponent("seed-version.txt")
-        let bundledVersion = Self.currentBundledVersion(zipURL: zipURL)
-        if let stamped = try? String(contentsOf: stampURL, encoding: .utf8),
-           stamped.trimmingCharacters(in: .whitespacesAndNewlines) == bundledVersion {
-            return
-        }
-        // Wipe the audio dir before re-extracting — it's fully reproducible
-        // from the zip and the downloader, so no risk of data loss.
-        // Don't touch books/ here: it may contain user-downloaded books.
-        let audioDir = cstfRoot.appendingPathComponent("audio", isDirectory: true)
-        try? fm.removeItem(at: audioDir)
-        // Same for the seed book's data subtree (we'll re-extract a fresh copy).
-        try? fm.removeItem(at: booksDir.appendingPathComponent("g1up", isDirectory: true))
-
         do {
-            try fm.unzipItem(at: zipURL, to: cstfRoot)
-            try? bundledVersion.write(to: stampURL, atomically: true, encoding: .utf8)
+            try install(zipURL: zipURL, cstfRoot: cstfRoot)
         } catch {
-            // Non-fatal: the user can still download books normally.
+            // Existing books, audio and learning records remain available.
             print("[SeedInstaller] unzip failed: \(error)")
         }
     }
 
-    /// Version derived from the bundled zip's mtime. Re-runs trigger a refresh
-    /// whenever the developer rebuilds the seed via `scripts/build-seed-zip.sh`.
-    private static func currentBundledVersion(zipURL: URL) -> String {
-        if let attrs = try? FileManager.default.attributesOfItem(atPath: zipURL.path),
-           let date = attrs[.modificationDate] as? Date {
-            return "\(Int(date.timeIntervalSince1970))"
+    /// Seed updates only add missing files. Downloaded textbooks, audio and
+    /// receipts may share this tree and must survive an app/seed upgrade.
+    /// Revised textbook contents use independent book IDs; explicit downloads
+    /// handle replacements verified by their resource-manifest fingerprints.
+    @discardableResult
+    static func install(zipURL: URL, cstfRoot: URL) throws -> Bool {
+        let fm = FileManager.default
+        let bundledVersion = SHA256.hash(data: try Data(contentsOf: zipURL))
+            .map { String(format: "%02x", $0) }.joined()
+        try fm.createDirectory(at: cstfRoot, withIntermediateDirectories: true)
+        let stampURL = cstfRoot.appendingPathComponent("seed-version.txt")
+        if let stamped = try? String(contentsOf: stampURL, encoding: .utf8),
+           stamped.trimmingCharacters(in: .whitespacesAndNewlines) == bundledVersion {
+            return false
         }
-        return "unknown"
+        // Fully extract before touching installed files. A corrupt seed cannot
+        // wipe a working offline book or leave a success stamp behind.
+        let stage = cstfRoot.appendingPathComponent(".seed-install-\(UUID().uuidString)", isDirectory: true)
+        defer { try? fm.removeItem(at: stage) }
+        try fm.unzipItem(at: zipURL, to: stage)
+        guard let enumerator = fm.enumerator(at: stage, includingPropertiesForKeys: [.isRegularFileKey]) else {
+            throw CocoaError(.fileReadUnknown)
+        }
+        for case let source as URL in enumerator {
+            guard try source.resourceValues(forKeys: [.isRegularFileKey]).isRegularFile == true else { continue }
+            let relative = String(source.path.dropFirst(stage.path.count + 1))
+            let destination = cstfRoot.appendingPathComponent(relative)
+            if fm.fileExists(atPath: destination.path) { continue }
+            try fm.createDirectory(at: destination.deletingLastPathComponent(), withIntermediateDirectories: true)
+            // Same-volume move publishes a complete extracted file atomically.
+            try fm.moveItem(at: source, to: destination)
+        }
+        try bundledVersion.write(to: stampURL, atomically: true, encoding: .utf8)
+        return true
     }
 }

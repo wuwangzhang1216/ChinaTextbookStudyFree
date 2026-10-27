@@ -28,7 +28,22 @@ final class CoreTypesTests: XCTestCase {
             XCTAssertNil(revised.supersededBy)
             XCTAssertEqual(revised.semester, legacy.semester)
         }
-        XCTAssertEqual(index.books.count, 58)
+        XCTAssertEqual(index.books.count, 84)
+        let parallel = index.books.filter { $0.schoolSystem == "5-4" }
+        XCTAssertEqual(parallel.count, 26)
+        XCTAssertEqual(index.books.filter { ($0.schoolSystem ?? "6-3") == "6-3" }.count, 58)
+        XCTAssertEqual(Set(index.books.map(\.id)).count, 84)
+        XCTAssertEqual(parallel.filter { $0.subject == .math }.count, 10)
+        XCTAssertEqual(parallel.filter { $0.subject == .science }.count, 10)
+        XCTAssertEqual(parallel.filter { $0.subject == .english }.count, 6)
+        for book in parallel {
+            XCTAssertTrue((1...5).contains(book.grade))
+            XCTAssertNil(book.supersedes)
+            XCTAssertNil(book.supersededBy)
+            XCTAssertFalse((book.publisherLabel ?? "").isEmpty)
+            XCTAssertFalse((book.sourceEdition ?? "").isEmpty)
+            XCTAssertFalse((book.sourcePrinting ?? "").isEmpty)
+        }
     }
 
     /// QuestionType.rawValue must stay aligned with packages/core/src/types.ts.

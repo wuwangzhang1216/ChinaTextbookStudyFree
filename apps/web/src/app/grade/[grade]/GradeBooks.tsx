@@ -18,7 +18,7 @@ export default function GradeBooks({ books }: { books: Book[] }) {
   const [system, setSystem] = useState<"6-3" | "5-4">("6-3");
   useEffect(() => {
     const active = books.find(b => b.id === activeBookId);
-    if (active) setSystem(active.schoolSystem ?? "6-3");
+    setSystem(active?.schoolSystem ?? "6-3");
   }, [activeBookId, books]);
   const hasFiveFour = books.some(b => b.schoolSystem === "5-4");
   const visible = books.filter(b => (b.schoolSystem ?? "6-3") === system);

@@ -769,7 +769,8 @@ async function processTextbook(
     editionLabel: outline.editionLabel,
     supersedes: outline.supersedes,
     unitsCount: outline.units.filter(u => !u.label).length,
-    activitiesCount: outline.units.filter(u => !!u.label).length || undefined,
+    activitiesCount: outline.units.filter(u => !!u.label &&
+      (outline.schoolSystem !== "5-4" || u.label === "综合与实践")).length || undefined,
     lessonsCount: allLessons.length,
   };
 

@@ -12,8 +12,8 @@ import urllib.request
 import zipfile
 from pathlib import Path, PurePosixPath
 
-DEFAULT_TAG = 'v1.7.3'
-RELEASE_ROOT = 'https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download'
+DEFAULT_TAG = 'v1.8.0'
+RELEASE_ROOT = 'https://github.com/wuwangzhang1216/congcong-school/releases/download'
 DESTINATIONS = {
     'audio.tar.gz': 'apps/web/public',
     'data.zip': 'apps/web/public/data',

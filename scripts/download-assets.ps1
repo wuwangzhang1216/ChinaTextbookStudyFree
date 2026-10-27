@@ -1,5 +1,5 @@
 # Install or upgrade every resource package with SHA-256 verification.
-param([string]$Tag = "v1.4.2-edge-audio")
+param([string]$Tag = "v1.8.0")
 $ErrorActionPreference = "Stop"
 $RootDir = Split-Path -Parent $PSScriptRoot
 $Installer = Join-Path $PSScriptRoot "install-release.py"

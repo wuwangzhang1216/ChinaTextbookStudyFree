@@ -42,6 +42,7 @@ jobs:
           npx tsx scripts/checks/content-grading.ts
           python3 scripts/checks/revised-math-arithmetic.py
           python3 scripts/checks/ux-content-arithmetic.py
+          python3 scripts/checks/five-four-arithmetic.py
           npx tsx scripts/check-lesson-revisions.ts --content-only
           npx tsx scripts/checks/ux-content.ts --allow-missing-audio
           npx tsx scripts/checks/pinyin-speech.ts

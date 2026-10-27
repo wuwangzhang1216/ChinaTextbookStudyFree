@@ -39,4 +39,39 @@ assert.equal(fetches, 2);
 assert.equal(writes, 1, 'explicit fresh loads must not re-enter the stale cache');
 assert.deepEqual(quotaErrors, [], 'Storage quota failures must not cause unhandled rejections');
 process.off('unhandledRejection', unhandled);
-console.log('PASS: byte ranges bypass cache; cached data refreshes; review loads bypass stale JSON; quota errors are handled.');
+
+// An upgrade must not serve the old catalog from a previously populated data
+// cache. Content-addressed app assets can stay cached across the transition.
+const upgradeHandlers = new Map();
+const cacheContents = new Map([
+  ['ctsf-data-v3-chinese-g5up-edge-v1.6.0', new Response('old catalog: 58')],
+  ['ctsf-shell-v3-chinese-g5up-edge-v1.6.0', new Response('old shell')],
+  ['ctsf-static-v3', new Response('existing hashed asset')],
+]);
+let claimed = false;
+runInNewContext(readFileSync(new URL('../../apps/web/public/sw.js', import.meta.url), 'utf8'), {
+  self: {
+    location: { origin: 'https://classroom.example' },
+    addEventListener: (name, fn) => upgradeHandlers.set(name, fn),
+    clients: { claim: async () => { claimed = true; } },
+  },
+  caches: {
+    keys: async () => [...cacheContents.keys()],
+    delete: async name => cacheContents.delete(name),
+    open: async name => ({
+      match: async () => cacheContents.get(name)?.clone(),
+      put: async (_, response) => { cacheContents.set(name, response); },
+    }),
+  },
+  fetch: async () => new Response('new catalog: 84'),
+  URL, Response,
+});
+let activation;
+upgradeHandlers.get('activate')({ waitUntil: p => { activation = p; } });
+await activation;
+assert.equal(claimed, true);
+assert.equal(cacheContents.has('ctsf-static-v3'), true);
+assert.equal(cacheContents.has('ctsf-data-v3-chinese-g5up-edge-v1.6.0'), false);
+upgradeHandlers.get('fetch')({ request: new Request('https://classroom.example/data/index.json'), respondWith: p => { result = p; } });
+assert.equal(await (await result).text(), 'new catalog: 84');
+console.log('PASS: byte ranges bypass cache; data refreshes; review loads are fresh; quota errors handled; upgrade replaces the old catalog while preserving hashed assets.');

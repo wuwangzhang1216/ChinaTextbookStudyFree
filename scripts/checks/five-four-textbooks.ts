@@ -35,7 +35,7 @@ for (const plan of catalog.books) {
   assert.notEqual(books.find(b => b.grade === book.grade && b.subject === book.subject && b.semester === book.semester && !b.supersededBy)?.schoolSystem, '5-4');
   const outline: Outline & {lessons: PathLessonMeta[]} = read(`${root}/data/books/${book.id}/outline.json`);
   assert.equal(outline.schoolSystem, '5-4');
-  assert.deepEqual(outline.units.map(u => [u.unit_number,u.title]), plan.units.map((u: any) => [u.number,u.title]));
+  assert.deepEqual(outline.units.map(u => [u.unit_number,u.title]), plan.units.map((u: any) => [u.appUnitNumber ?? u.number,u.title]));
   assert.equal(outline.lessons.length, book.lessonsCount);
   const baseBook = book.id.split('-54-')[0];
   const base: Outline & {lessons: PathLessonMeta[]} = read(`${root}/data/books/${baseBook}/outline.json`);
@@ -44,7 +44,7 @@ for (const plan of catalog.books) {
   const oldChests = new Set(computeChestsForBook(baseBook,base.lessons).map(c => c.id));
   assert.ok(computeChestsForBook(book.id,outline.lessons).every(c => !oldChests.has(c.id)));
   for (const u of outline.units) {
-    const expected = plan.units.find((p: any) => p.number === u.unit_number);
+    const expected = plan.units.find((p: any) => (p.appUnitNumber ?? p.number) === u.unit_number);
     const metas = outline.lessons.filter(l => l.unitNumber === u.unit_number);
     assert.deepEqual(metas.map(l => l.title), expected.points.map((p: any) => p.name));
     assert.ok(u.examLessonId);

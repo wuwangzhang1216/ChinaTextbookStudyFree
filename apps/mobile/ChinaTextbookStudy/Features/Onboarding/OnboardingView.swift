@@ -139,7 +139,7 @@ struct OnboardingView: View {
     }
 
     private var booksForGrade: [Book] {
-        siteIndex.books.filter { $0.grade == selectedGrade && ($0.schoolSystem ?? "6-3") == schoolSystem && $0.supersededBy == nil }
+        siteIndex.books.filter { $0.grade == selectedGrade && ($0.schoolSystem ?? "6-3") == schoolSystem }
     }
 
     private func gradeChip(_ g: Int) -> some View {

@@ -18,6 +18,16 @@ exact = importlib.util.module_from_spec(spec)
 spec.loader.exec_module(exact)
 
 
+def math_text(text):
+    # NFKC would turn 5² into 52. Preserve the mathematical meaning first;
+    # bounded squares/cubes expand to multiplication without enabling eval/pow.
+    def expand(match):
+        exponent = {'²':2,'³':3}.get(match[2]) if match[2] else int(match[3])
+        return '(' + '×'.join([match[1]] * exponent) + ')'
+    text = re.sub(r'(\d+(?:\.\d+)?)(?:([²³])|\^([23]))(?!\d)', expand, text)
+    return unicodedata.normalize('NFKC', text).replace('∶', ':')
+
+
 def value(text):
     if re.fullmatch(r'[+-]?\d+(?:\.\d+)?', text.strip()):
         return Fraction(text.strip())
@@ -25,23 +35,38 @@ def value(text):
 
 
 def equations(text):
-    text = unicodedata.normalize('NFKC', text)
+    text = math_text(text)
     text = re.sub(r'(?<=\d)\.{3,}(?=\s*\d)', '余', text)
     if re.search(r'近似|保留|估算|四舍五入|大约|≈|约等于', text):
         return []
     rows = []
-    for match in re.finditer(r'[0-9.()+*/×÷＋－−=＝\-\s]+', text):
-        raw = match.group().strip().replace('＝', '=')
+    for match in re.finditer(r'[0-9.():+*/×÷＋－−=＝\-\s]+', text):
+        raw = match.group().strip().replace('＝', '=').lstrip(':').strip()
         if '=' not in raw:
             continue
         # Do not interpret the numeric suffix of a variable, a percentage,
         # an incomplete formula or a thousands-separated number as an equation.
         before = text[match.start()-1:match.start()] if match.start() else ''
         after = text[match.end():match.end()+1]
-        if (before and before in ',.%□△○又') or (after and after in ',.%个十百千万亿') or re.search(r'[A-Za-z]', before + after):
+        if (before and before in ',.%□△○又^√') or (after and after in ',.%个十百千万亿') or re.search(r'[A-Za-z]', before + after):
             continue
         parts = [p.strip() for p in raw.split('=')]
         if not all(parts):
+            continue
+        if ':' in raw:
+            # Ratios form a complete expression. Never check just the numeric
+            # suffix of x:45=3.6:90, or interpret clock arithmetic as division.
+            number = r'\d+(?:\.\d+)?'
+            if not re.fullmatch(fr'{number}\s*:\s*{number}(?:\s*=\s*{number}\s*:\s*{number})+', raw):
+                continue
+            ratios = []
+            for part in parts:
+                a, b = map(Fraction, part.split(':'))
+                if not b:
+                    break
+                ratios.append(a / b)
+            if len(ratios) == len(parts):
+                rows.append({'equation':raw, 'values':[str(v) for v in ratios], 'correct':len(set(ratios)) == 1})
             continue
         if after == '又':
             fractional = re.match(r'又\s*(\d+)\s*/\s*(\d+)', text[match.end():])
@@ -86,7 +111,7 @@ def strings(data, prefix=''):
 def judgments(data, prefix=''):
     if isinstance(data, dict):
         if data.get('type') == 'true_false':
-            text = unicodedata.normalize('NFKC', data['question'])
+            text = math_text(data['question'])
             if re.fullmatch(r'(?:判断[:：]?)?[0-9.()+*/×÷＋－−=＝\-\s]+[。?？]?', text):
                 rows = equations(text)
                 if len(rows) == 1:
@@ -97,7 +122,7 @@ def judgments(data, prefix=''):
                     row['kind'] = 'numeric_judgment'
                     yield prefix, data['question'], row
         elif data.get('type') == 'calculation':
-            text = unicodedata.normalize('NFKC', data['question'])
+            text = math_text(data['question'])
             if not re.search(r'近似|保留|估算|四舍五入|大约|约等于|余数|写商|填商|整数商|≈', text):
                 # Remove only an explicit answer-entry instruction, never a
                 # number or a condition from a word problem.
@@ -131,6 +156,14 @@ def main():
     assert equations('17/5＝3又2/5。')[0]['correct']
     assert not equations('17/5＝3又1/5。')[0]['correct']
     assert not equations('1又1/4=1.25。')  # Do not evaluate a suffix of a mixed number.
+    assert equations('3.14×3²=28.26。')[0]['correct']
+    assert equations('2³＋3^2＝17。')[0]['correct']
+    assert not equations('5²=10。')[0]['correct']
+    assert equations('比例尺为5:3000=1:600。')[0]['correct']
+    assert equations('计算：3＋4＝7。')[0]['correct']
+    assert not equations('4:7=12:20。')[0]['correct']
+    assert not equations('x:45=3.6:90。')
+    assert not equations('8:30+1:20=9:50。')
     assert list(judgments({'type':'true_false', 'question':'判断：7×1=1。', 'answer':'错'}))[0][2]['correct']
     assert list(judgments({'type':'calculation', 'question':'计算：0.1＋0.2，请填写数字。', 'answer':'0.3'}))[0][2]['correct']
     assert not list(judgments({'type':'calculation', 'question':'计算：21÷5，只写商。', 'answer':'4'}))

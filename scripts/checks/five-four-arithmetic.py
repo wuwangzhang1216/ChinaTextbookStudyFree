@@ -121,19 +121,21 @@ def judgments(data, prefix=''):
                     row['correct'] = row['computedAnswer'] == row['answer']
                     row['kind'] = 'numeric_judgment'
                     yield prefix, data['question'], row
-        elif data.get('type') == 'calculation':
+        elif data.get('type') in ('calculation', 'choice'):
             text = math_text(data['question'])
             if not re.search(r'近似|保留|估算|四舍五入|大约|约等于|余数|写商|填商|整数商|≈', text):
                 # Remove only an explicit answer-entry instruction, never a
                 # number or a condition from a word problem.
                 expression = re.sub(r'[，,；;。]\s*(?:请|只(?:写|填)|填写|写出|直接写|填入|填数字).+$', '', text)
+                expression = re.sub(r'(?:的结果是多少|的结果是|等于多少)[?？。]?$', '', expression)
                 computed = exact.expression_value(expression)
                 if computed is not None:
                     try:
                         answer = Fraction(str(data['answer']))
                     except (ValueError, ZeroDivisionError):
                         answer = None
-                    yield prefix, data['question'], {'kind':'numeric_calculation', 'expression':expression, 'computedAnswer':str(computed), 'answer':data['answer'], 'correct':computed == answer}
+                    if data['type'] != 'choice' or answer is not None:
+                        yield prefix, data['question'], {'kind':'numeric_choice' if data['type'] == 'choice' else 'numeric_calculation', 'expression':expression, 'computedAnswer':str(computed), 'answer':data['answer'], 'correct':computed == answer}
         for key, val in data.items():
             yield from judgments(val, prefix + '/' + key)
     elif isinstance(data, list):
@@ -168,6 +170,9 @@ def main():
     assert list(judgments({'type':'calculation', 'question':'计算：0.1＋0.2，请填写数字。', 'answer':'0.3'}))[0][2]['correct']
     assert not list(judgments({'type':'calculation', 'question':'计算：21÷5，只写商。', 'answer':'4'}))
     assert not list(judgments({'type':'calculation', 'question':'每袋200克，4袋共多少克？', 'answer':'800'}))
+    assert list(judgments({'type':'choice', 'question':'计算：3÷1/4的结果是多少？', 'answer':'12'}))[0][2]['correct']
+    assert not list(judgments({'type':'choice', 'question':'计算：3＋4。', 'answer':'8'}))[0][2]['correct']
+    assert not list(judgments({'type':'choice', 'question':'计算：3＋4。', 'answer':'7个'}))
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--stage', type=Path)
     parser.add_argument('--report', type=Path)
@@ -187,7 +192,7 @@ def main():
         for field, text, row in judgments(doc.get('content', doc)):
             checked.append({'file': file.name, 'field': field, 'text': text, **row})
     failures = [row for row in checked if not row['correct']]
-    result = {'status': 'failed' if failures else 'passed', 'files': len(files), 'numericChecks':len(checked), 'exactEqualities':sum(row['kind'] != 'numeric_calculation' for row in checked), 'calculationAnswers':sum(row['kind'] == 'numeric_calculation' for row in checked), 'failures': failures, 'boundary': 'Exact literal equations, numeric judgments and bare arithmetic questions only; contextual answers, rounded calculations and teacher signoff excluded.'}
+    result = {'status': 'failed' if failures else 'passed', 'files': len(files), 'numericChecks':len(checked), 'exactEqualities':sum(row['kind'] in ('affirmative_equation','numeric_judgment') for row in checked), 'calculationAnswers':sum(row['kind'] == 'numeric_calculation' for row in checked), 'numericChoiceAnswers':sum(row['kind'] == 'numeric_choice' for row in checked), 'failures': failures, 'boundary': 'Exact literal equations, numeric judgments and bare arithmetic questions only; contextual answers, rounded calculations and teacher signoff excluded.'}
     if args.report:
         args.report.parent.mkdir(parents=True, exist_ok=True)
         args.report.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n')

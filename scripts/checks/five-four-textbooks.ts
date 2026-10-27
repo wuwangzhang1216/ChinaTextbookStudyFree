@@ -99,4 +99,13 @@ assert.equal(gradeAnswer(fixedPrice, '1440'), false);
 const correction = read('content/editions/five-four/source-corrections.json').corrections.find((r: any) => r.questionId === 1040098);
 assert.equal(correction.status, 'corrected_content_and_replacement_edge_aac_verified');
 assert.equal(fixedPrice.audio?.explanation, correction.replacementAudio[0].url);
+// Three face pairs: 2 × (45 + 18 + 10) is 146, rather than the draft's 158.
+const surfaceLesson: Lesson = read(`${root}/data/books/g5up-54-qingdao/lessons/g5up-54-qingdao-u3-kp15.json`);
+const surfaceArea = surfaceLesson.questions.find(q => q.id === 30087)!;
+assert.equal(surfaceArea.answer, '146');
+assert.equal(gradeAnswer(surfaceArea, '146'), true);
+assert.equal(gradeAnswer(surfaceArea, '158'), false);
+const surfaceCorrection = read('content/editions/five-four/source-corrections.json').corrections.find((r: any) => r.questionId === 30087 && r.bookId === 'g5up-54-qingdao');
+assert.equal(surfaceCorrection.status, 'corrected_content_and_replacement_edge_aac_verified');
+assert.equal(surfaceArea.audio?.explanation, surfaceCorrection.replacementAudio[0].url);
 console.log(`PASS five-four textbooks: 26 independent books, ${lessons} lessons, ${questions} questions with actual grading, ${readings} source readings, MP3 coverage and unchanged six-three fallbacks.`);

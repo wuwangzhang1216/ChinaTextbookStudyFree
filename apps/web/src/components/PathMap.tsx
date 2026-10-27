@@ -165,7 +165,8 @@ export function PathMap({
         const visible = entries
           .filter(e => e.isIntersecting)
           .map(e => Number((e.target as HTMLElement).dataset.unit ?? "0"))
-          .sort((a, b) => a - b);
+          // Printed unit numbers can follow preparation/activity IDs such as101.
+          .sort((a, b) => unitEntries.findIndex(([n]) => n === a) - unitEntries.findIndex(([n]) => n === b));
         if (visible.length > 0) {
           setActiveUnitNum(visible[0]);
         }

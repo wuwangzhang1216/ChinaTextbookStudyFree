@@ -26,6 +26,7 @@ def value(text):
 
 def equations(text):
     text = unicodedata.normalize('NFKC', text)
+    text = re.sub(r'(?<=\d)\.{3,}(?=\s*\d)', '余', text)
     if re.search(r'近似|保留|估算|四舍五入|大约|≈|约等于', text):
         return []
     rows = []
@@ -37,10 +38,32 @@ def equations(text):
         # an incomplete formula or a thousands-separated number as an equation.
         before = text[match.start()-1:match.start()] if match.start() else ''
         after = text[match.end():match.end()+1]
-        if (before and before in ',.%□△○') or (after and after in ',.%个十百千万亿') or re.search(r'[A-Za-z]', before + after):
+        if (before and before in ',.%□△○又') or (after and after in ',.%个十百千万亿') or re.search(r'[A-Za-z]', before + after):
             continue
         parts = [p.strip() for p in raw.split('=')]
         if not all(parts):
+            continue
+        if after == '又':
+            fractional = re.match(r'又\s*(\d+)\s*/\s*(\d+)', text[match.end():])
+            if len(parts) != 2 or not fractional or not re.fullmatch(r'\d+', parts[1]) or not int(fractional[2]):
+                continue
+            computed = value(parts[0])
+            if computed is not None:
+                mixed = Fraction(parts[1]) + Fraction(int(fractional[1]),int(fractional[2]))
+                rows.append({'equation':raw + fractional[0], 'values':[str(computed),str(mixed)], 'correct':computed == mixed})
+            continue
+        if after == '余':
+            division = re.fullmatch(r'(\d+(?:\.\d+)?)\s*[÷/]\s*(\d+(?:\.\d+)?)', parts[0])
+            remainder = re.match(r'余\s*(\d+(?:\.\d+)?)', text[match.end():])
+            if len(parts) != 2 or not division or not remainder or not re.fullmatch(r'\d+', parts[1]):
+                continue
+            dividend, divisor = map(Fraction, division.groups())
+            if not divisor:
+                continue
+            quotient = dividend // divisor
+            rest = dividend - divisor * quotient
+            actual = (int(parts[1]), Fraction(remainder[1]))
+            rows.append({'equation':raw + remainder[0], 'values':[f'{quotient}余{rest}',f'{actual[0]}余{actual[1]}'], 'correct':actual == (quotient,rest)})
             continue
         values = [value(p) for p in parts]
         if all(v is not None for v in values):
@@ -101,6 +124,13 @@ def main():
     assert not equations('上底＋下底＝总和；a3＋2＝5。')
     assert not equations('算式4□－27＝22中，□里填几？')
     assert not equations('20＝2个十')
+    assert equations('17÷5＝3余2，余数小于除数。')[0]['correct']
+    assert equations('12.5÷2.4＝5余0.5。')[0]['correct']
+    assert not equations('17÷5＝2余7。')[0]['correct']
+    assert equations('17÷5＝3……2，因此17/5＝3又2/5。')[0]['correct']
+    assert equations('17/5＝3又2/5。')[0]['correct']
+    assert not equations('17/5＝3又1/5。')[0]['correct']
+    assert not equations('1又1/4=1.25。')  # Do not evaluate a suffix of a mixed number.
     assert list(judgments({'type':'true_false', 'question':'判断：7×1=1。', 'answer':'错'}))[0][2]['correct']
     assert list(judgments({'type':'calculation', 'question':'计算：0.1＋0.2，请填写数字。', 'answer':'0.3'}))[0][2]['correct']
     assert not list(judgments({'type':'calculation', 'question':'计算：21÷5，只写商。', 'answer':'4'}))

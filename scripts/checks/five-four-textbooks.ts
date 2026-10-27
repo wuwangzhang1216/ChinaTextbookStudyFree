@@ -89,4 +89,14 @@ for (const plan of catalog.books) {
     }
   }
 }
+// A model-reviewed draft had a wrong total despite correct intermediate prices.
+// Keep an independently solved regression, including the replacement narration.
+const fixedLesson: Lesson = read(`${root}/data/books/g3up-54-qingdao/lessons/g3up-54-qingdao-u104-kp17.json`);
+const fixedPrice = fixedLesson.questions.find(q => q.id === 1040098)!;
+assert.equal(fixedPrice.answer, '1680');
+assert.equal(gradeAnswer(fixedPrice, '1680'), true);
+assert.equal(gradeAnswer(fixedPrice, '1440'), false);
+const correction = read('content/editions/five-four/source-corrections.json').corrections.find((r: any) => r.questionId === 1040098);
+assert.equal(correction.status, 'corrected_content_and_replacement_edge_aac_verified');
+assert.equal(fixedPrice.audio?.explanation, correction.replacementAudio[0].url);
 console.log(`PASS five-four textbooks: 26 independent books, ${lessons} lessons, ${questions} questions with actual grading, ${readings} source readings, MP3 coverage and unchanged six-three fallbacks.`);

@@ -153,7 +153,7 @@
 
 ### Docker 全新部署与旧版升级
 
-只需 Git 和 Docker Desktop（Windows/macOS）或 Docker Engine + Compose（Linux），无需在本机安装 Node.js、Python、FFmpeg，也无需 AI API Key。建议预留至少80 GB磁盘空间，容纳镜像、构建缓存和资源暂存。
+只需 Git 和 Docker Desktop（Windows/macOS）或 Docker Engine + Compose（Linux），无需在本机安装 Node.js、Python、FFmpeg，也无需 AI API Key。建议预留至少100 GB磁盘空间，容纳镜像、构建缓存和资源暂存。
 
 **全新部署**：
 
@@ -211,7 +211,7 @@ python3 scripts/install-release.py --tag v1.8.0
 py -3 scripts/install-release.py --tag v1.8.0
 ```
 
-完整包包含 MP3、原路径音频、数据、配图和课本原页，以及可选的匹配源码与现成网站。`manifest.json`、`files.jsonl` 和 `SHA256SUMS` 提供附件及逐文件校验。建议预留至少60 GB用于下载、暂存和安装，已有备份另计；有本地修改时先备份。离线安装、旧版升级及验证命令见 [安装与升级说明](docs/release-install.md)。
+完整包包含 MP3、原路径音频、数据、配图和课本原页，以及可选的匹配源码与现成网站。`manifest.json`、`files.jsonl` 和 `SHA256SUMS` 提供附件及逐文件校验。建议预留至少80 GB用于下载、暂存和安装，已有备份另计；有本地修改时先备份。离线安装、旧版升级及验证命令见 [安装与升级说明](docs/release-install.md)。
 
 ### 3. 运行 Web 端
 

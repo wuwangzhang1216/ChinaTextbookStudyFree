@@ -348,9 +348,12 @@ export function PathMap({
           onClose={() => setActiveExam(null)}
           bookId={bookId}
           lessonId={activeExam.meta.lessonId}
-          title={`第 ${activeExam.unitNumber} 单元挑战`}
+          title={byUnit.get(activeExam.unitNumber)?.label
+            ? `${byUnit.get(activeExam.unitNumber)!.title}挑战`
+            : `第 ${activeExam.unitNumber} 单元挑战`}
           questionCount={activeExam.meta.questionCount}
           unitNumber={activeExam.unitNumber}
+          unitLabel={byUnit.get(activeExam.unitNumber)?.label}
           kpIndex={0}
           kpTotal={0}
           isExam

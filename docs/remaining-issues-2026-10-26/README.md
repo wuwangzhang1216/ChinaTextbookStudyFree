@@ -12,7 +12,7 @@
 
 按维护者本轮明确指示，已向原提问者[询问年级、科目、出版社、上/下册及版次](https://github.com/wuwangzhang1216/congcong-school/issues/7#issuecomment-6423803878)，等待回复，保持开放。没有擅自选一个出版社、把五四制只改成标签或宣称已经接入。
 
-[来源清单](five-four-source-inventory.json)固定到 TapXWorld/ChinaTextbook 的 Git tree `e2b3f62213c77bb8c33c5be355f97625ea1b8b61`，API 未截断。小学现有学科对应：
+[来源清单](five-four-source-inventory.json)固定到 TapXWorld/ChinaTextbook 的 Git commit `e2b3f62213c77bb8c33c5be355f97625ea1b8b61`，API 未截断。小学现有学科对应：
 
 |目录|可直接取得的PDF|边界|
 |---|---:|---|
@@ -54,3 +54,5 @@ Apple [Safari HTML5音频文档](https://developer.apple.com/library/archive/doc
 2. 重新打开原网址，手动点喇叭或“朗读讲解”，检查设备媒体音量及应用声音设置。无需清除网站数据或存档；没有自动发声与没有手动播放声音分开记录。
 3. 可直接试听[核心概念MP3](https://d3nmsqi4n72idj.cloudfront.net/audio/52/52238bfd712374ff6eccc1752fc152b166ef40cc.mp3)，区分文件/网络/系统问题与应用内播放问题。
 4. 若仍失败，请在#3补充iPadOS版本、浏览器、具体课时、手动点击后的提示，以及直接试听是否有声；可重新打开继续定位。无需姓名、录音或完整个人存档。
+
+后续：维护者于2026-10-27明确指定先接入上述26册主教材，已完成[逐册版次、目录与正文边界核对](../five-four-2026-10-27/README.md)，不再等待原提问者指定范围。该记录更新不表示已完成发布。

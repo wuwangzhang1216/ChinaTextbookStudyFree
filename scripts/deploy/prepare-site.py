@@ -85,7 +85,12 @@ def main():
     if omitted_routes:
         raise ValueError(f'Exported routes omitted from deployment: {omitted_routes}')
     index = json.loads((args.destination/'data/index.json').read_text())
-    assert len([book for book in index['books'] if not book.get('supersededBy')]) == 44
+    active = [book for book in index['books'] if not book.get('supersededBy')]
+    assert len([book for book in active if book.get('schoolSystem','6-3') == '6-3']) == 44
+    parallel_catalog = ROOT/'content/editions/five-four/catalog.json'
+    expected_parallel = {book['id'] for book in json.loads(parallel_catalog.read_text())['books']} if parallel_catalog.is_file() else set()
+    assert {book['id'] for book in active if book.get('schoolSystem') == '5-4'} == expected_parallel
+    assert len({book['id'] for book in index['books']}) == len(index['books'])
     missing = set()
     refs = Counter()
     def visit(value):

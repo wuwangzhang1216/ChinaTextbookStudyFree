@@ -895,6 +895,7 @@ private struct BookPickerSheet: View {
 
     @State private var selectedGrade: Int
     @State private var includeLegacy = false
+    @State private var schoolSystem: String
 
     init(siteIndex: SiteIndex, progressStore: ProgressStore, downloader: AssetDownloader, isPresented: Binding<Bool>, onPick: @escaping (String) -> Void) {
         self.siteIndex = siteIndex
@@ -903,6 +904,7 @@ private struct BookPickerSheet: View {
         self._isPresented = isPresented
         self.onPick = onPick
         self._selectedGrade = State(initialValue: progressStore.selectedGrade > 0 ? progressStore.selectedGrade : 1)
+        self._schoolSystem = State(initialValue: siteIndex.books.first(where: { $0.id == progressStore.activeBookId })?.schoolSystem ?? "6-3")
     }
 
     var body: some View {
@@ -918,6 +920,14 @@ private struct BookPickerSheet: View {
                     gradeChips
 
                     sectionLabel("选择课本")
+                    Picker("学制", selection: $schoolSystem) {
+                        Text("六三制").tag("6-3")
+                        Text("五四制").tag("5-4")
+                    }
+                    .pickerStyle(.segmented)
+                    .onChange(of: schoolSystem) { _, value in
+                        if value == "5-4" && selectedGrade > 5 { selectedGrade = 5 }
+                    }
                     Toggle("显示旧版教材", isOn: $includeLegacy)
                         .tint(DuoColors.primary)
                         .foregroundStyle(DuoColors.darkInk)
@@ -949,7 +959,7 @@ private struct BookPickerSheet: View {
     }
 
     private var booksForGrade: [Book] {
-        siteIndex.books.filter { $0.grade == selectedGrade && (includeLegacy || $0.supersededBy == nil) }
+        siteIndex.books.filter { $0.grade == selectedGrade && ($0.schoolSystem ?? "6-3") == schoolSystem && (includeLegacy || $0.supersededBy == nil) }
     }
 
     // MARK: Header
@@ -996,7 +1006,7 @@ private struct BookPickerSheet: View {
     private var gradeChips: some View {
         ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 10) {
-                ForEach(1...6, id: \.self) { g in
+                ForEach(1...(schoolSystem == "5-4" ? 5 : 6), id: \.self) { g in
                     gradeChip(g)
                 }
             }
@@ -1073,6 +1083,9 @@ private struct BookPickerSheet: View {
                         .foregroundStyle(DuoColors.ink)
                         .lineLimit(2)
                         .multilineTextAlignment(.leading)
+                    if let edition = book.sourceEdition {
+                        Text(edition).duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
+                    }
                     HStack(spacing: 4) {
                         Text("\(book.unitsCount) 单元")
                         Text("·").foregroundStyle(DuoColors.inkSofter)

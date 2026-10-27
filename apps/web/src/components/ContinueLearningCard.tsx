@@ -142,12 +142,14 @@ export function CurrentBookBadge({
   gradeBooks: Book[];
 }) {
   const [open, setOpen] = useState(false);
+  const [schoolSystem, setSchoolSystem] = useState<"6-3" | "5-4">(book.schoolSystem ?? "6-3");
+  useEffect(() => setSchoolSystem(book.schoolSystem ?? "6-3"), [book.id, book.schoolSystem]);
   const router = useRouter();
   const setActiveBookId = useProgressStore(s => s.setActiveBookId);
   const setSelectedGrade = useProgressStore(s => s.setSelectedGrade);
 
   // 学科序 + 学期序（上册在前）
-  const sorted = [...gradeBooks].sort((a, b) => {
+  const sorted = gradeBooks.filter(b => (b.schoolSystem ?? "6-3") === schoolSystem).sort((a, b) => {
     const so = SUBJECT_ORDER.indexOf(subjectOf(a)) - SUBJECT_ORDER.indexOf(subjectOf(b));
     if (so !== 0) return so;
     return (a.semester === "up" ? 0 : 1) - (b.semester === "up" ? 0 : 1);
@@ -201,6 +203,13 @@ export function CurrentBookBadge({
         <div className="text-xs text-ink-light mt-1 mb-4">
           {book.gradeName}的全部教材，点一下就换
         </div>
+        {gradeBooks.some(b => b.schoolSystem === "5-4") && <div className="flex flex-wrap gap-2 mb-3" role="group" aria-label="切换学制">
+          {(["6-3", "5-4"] as const).map(value => <button
+            key={value} type="button" aria-pressed={schoolSystem === value}
+            onClick={() => setSchoolSystem(value)}
+            className={`min-h-11 px-4 rounded-xl border-2 font-bold text-sm ${schoolSystem === value ? "border-primary bg-primary/10 text-primary-dark" : "border-bg-softer text-ink"}`}
+          >{value === "6-3" ? "六三制" : "五四制"}</button>)}
+        </div>}
 
         <div className="flex flex-col gap-2 max-h-[52vh] overflow-y-auto pr-0.5">
           {sorted.map(b => {

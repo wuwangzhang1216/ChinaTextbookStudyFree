@@ -166,8 +166,13 @@ def main():
         raise SystemExit('Index could not be read')
     books = index.get('books', [])
     current_books = [book for book in books if not book.get('supersededBy')]
-    if len(current_books) != 44:
-        error('index', f'expected 44 current books, found {len(current_books)}')
+    current_six_three = [book for book in current_books if book.get('schoolSystem','6-3') == '6-3']
+    if len(current_six_three) != 44:
+        error('index', f'expected 44 current six-three books, found {len(current_six_three)}')
+    parallel_catalog = ROOT/'content/editions/five-four/catalog.json'
+    expected_parallel = {b['id'] for b in json.loads(parallel_catalog.read_text())['books']} if parallel_catalog.is_file() else set()
+    if {b['id'] for b in current_books if b.get('schoolSystem') == '5-4'} != expected_parallel:
+        error('index', 'parallel five-four books differ from reviewed catalog')
     if len({b['id'] for b in books}) != len(books):
         error('index', 'duplicate books')
     for book in books:

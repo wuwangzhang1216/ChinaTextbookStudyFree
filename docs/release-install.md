@@ -1,15 +1,17 @@
-# v1.8.0 五四制26册：安装与升级
+# v1.8.1：续学计时修复、安装与升级
 
-新增青岛版数学、科学各10册（小学1—5年级上下册），鲁科版英语6册（3—5年级上下册）。每册按核对后的原书目录编排，独立教材ID与六三制并列，不替换原58册教材或成绩。新增1,585个常规课时、244个单元挑战、375组英语听读，新增语音使用Edge，iOS按册提供AAC/M4A。原书版次为2010—2022年间，并非“2026最新版”；版次、印次、ISBN、来源指纹与目录见[逐册核对报告](five-four-2026-10-27/README.md)。资源包含完整84册，无需先安装旧版，无需AI API Key。
+本版修复课程跨夜续学的结算计时；后台、离页和休息弹窗暂停，刷新保留前台时间、答案和反馈。旧进度没有可靠时长时从本次续学起计，原成绩保留。教材、音频及iOS逐册包与v1.8.0相同。
 
-**不用下载 Assets 中的全部附件。** 在线学习直接[打开课堂](https://d3nmsqi4n72idj.cloudfront.net/)；Web 用户使用安装器自动选择资源；iOS 用户在 App 内按册下载。手动离线下载的分类清单及逐册链接见[下载导航](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/main/docs/releases/v1.8.0-downloads.md)。主发布页仅保留入口和校验文件；大型 Web 包位于 `v1.8.0-web-resources`，iOS 逐册包位于 `v1.8.0-ios-resources`，安装器自动选择对应发布页。Web 音频分为独立 ZIP，每个不超过 1.4 GB（十进制），按安装模式下载对应分包后直接解压，无需拼接。
+v1.8.0已新增青岛版数学、科学各10册（小学1—5年级上下册），鲁科版英语6册（3—5年级上下册）。每册按核对后的原书目录编排，独立教材ID与六三制并列，不替换原58册教材或成绩。新增1,585个常规课时、244个单元挑战、375组英语听读，新增语音使用Edge，iOS按册提供AAC/M4A。原书版次为2010—2022年间，并非“2026最新版”；版次、印次、ISBN、来源指纹与目录见[逐册核对报告](five-four-2026-10-27/README.md)。资源包含完整84册，无需先安装旧版，无需AI API Key。
+
+**不用下载 Assets 中的全部附件。** 在线学习直接[打开课堂](https://d3nmsqi4n72idj.cloudfront.net/)；Web 用户使用安装器自动选择资源；iOS 用户在 App 内按册下载。手动离线下载的分类清单及逐册链接见[下载导航](https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.1/DOWNLOADS.md)。主发布页仅保留入口和校验文件；新Web与源码ZIP位于 `v1.8.1-web-resources`；未变更的大型资源继续位于 `v1.8.0-web-resources`，iOS逐册包继续位于 `v1.8.0-ios-resources`。清单为复用附件注明原发布标签、大小及SHA-256，安装器自动选择，不重复上传191个未变更ZIP。Web 音频分为独立 ZIP，每个不超过 1.4 GB（十进制），按安装模式下载对应分包后直接解压，无需拼接。
 
 ## 最快使用：安装现成网站
 
-只需 Python 3.9+，无需 Node.js 或 FFmpeg。在 [Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.8.0) 下载 `install-release.py`，执行：
+只需 Python 3.9+，无需 Node.js 或 FFmpeg。在 [Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.8.1) 下载 `install-release.py`，执行：
 
 ```sh
-python3 install-release.py --tag v1.8.0 --mode static --root ChinaStudyFree-site
+python3 install-release.py --tag v1.8.1 --mode static --root ChinaStudyFree-site
 python3 -m http.server 8080 --directory ChinaStudyFree-site
 ```
 
@@ -22,7 +24,7 @@ python3 -m http.server 8080 --directory ChinaStudyFree-site
 先备份自定义文件或数据，并从新版 Release 下载新版安装器。不要用旧安装器安装新版分包。
 
 ```sh
-python3 install-release.py --tag v1.8.0 --mode static --root /path/to/existing-site
+python3 install-release.py --tag v1.8.1 --mode static --root /path/to/existing-site
 ```
 
 此命令覆盖已有页面、配套数据、音频和缓存文件，包括旧 GPT 音频的同名兼容文件；不会因音频目录已存在而跳过更新。未包含在材料包中的自定义文件会保留，旧版遗留文件也不会自动删除。浏览器学习记录保存在原来的浏览器存储中；继续使用相同域名、协议和端口可以保留该存储。
@@ -30,7 +32,7 @@ python3 install-release.py --tag v1.8.0 --mode static --root /path/to/existing-s
 如果是源码部署，先备份本地代码修改；希望安装本版匹配源码与所有资源时执行：
 
 ```sh
-python3 install-release.py --tag v1.8.0 --with-source --root /path/to/ChinaTextbookStudyFree
+python3 install-release.py --tag v1.8.1 --with-source --root /path/to/ChinaTextbookStudyFree
 cd /path/to/ChinaTextbookStudyFree
 npm ci
 npm run build
@@ -43,7 +45,7 @@ npm run build
 需要 Node.js 20+、Python 3.9+、带 libmp3lame 的 FFmpeg（均加入 PATH）：
 
 ```sh
-python3 install-release.py --tag v1.8.0 --with-source --root ChinaTextbookStudyFree
+python3 install-release.py --tag v1.8.1 --with-source --root ChinaTextbookStudyFree
 cd ChinaTextbookStudyFree
 npm ci
 npm run build
@@ -54,11 +56,11 @@ python3 -m http.server 8080 --directory apps/web/out
 
 ## 离线安装与完整校验
 
-在[下载导航](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/main/docs/releases/v1.8.0-downloads.md)选择“现成静态网站”或“源码与完整资源”，只下载该模式列出的包至同一目录，另下载安装器、`manifest.json` 与 `files.jsonl`。Web 安装不需要 168个iOS逐册包。
+在[下载导航](https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.1/DOWNLOADS.md)选择“现成静态网站”或“源码与完整资源”，只下载该模式列出的包至同一目录，另下载安装器、`manifest.json` 与 `files.jsonl`。Web 安装不需要 168个iOS逐册包。
 
 ```sh
-python3 install-release.py --tag v1.8.0 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads
-python3 install-release.py --tag v1.8.0 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads --verify-only
+python3 install-release.py --tag v1.8.1 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads
+python3 install-release.py --tag v1.8.1 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads --verify-only
 ```
 
 源码目录校验使用 `--root /path/to/source`，省略 `--mode static`；如果安装过完整源码，同时加上 `--with-source`。
@@ -69,14 +71,14 @@ macOS/Linux 可额外验证所有下载附件：
 shasum -a 256 -c SHA256SUMS --ignore-missing
 ```
 
-`SHA256SUMS` 覆盖所有平台，`--ignore-missing` 只核验已下载文件；所选模式应有的包是否完整由安装器检查。`--verify-only` 只检查，不修改文件。任意分包缺失、校验和不符、归档内容不符、安装路径被符号链接指向外部时，安装器明确失败，不会跳过问题继续宣告成功。
+每个发布页的 `SHA256SUMS` 覆盖该页附件，完整跨版本资源的大小和SHA-256由新版 `manifest.json` 记录并由安装器验证；`--ignore-missing` 只核验已下载文件；所选模式应有的包是否完整由安装器检查。`--verify-only` 只检查，不修改文件。任意分包缺失、校验和不符、归档内容不符、安装路径被符号链接指向外部时，安装器明确失败，不会跳过问题继续宣告成功。
 
 ## 附件对应关系
 
 | 附件 | 内容与用途 |
 | --- | --- |
 | `audio-original-partNN.zip` | 原音频路径的兼容资源；每个 ZIP 含 `audio/` 顶层目录。历史 `.opus` 扩展名下可能是 Ogg/Opus 或 MP3，以实际内容为准 |
-| `audio-web-partNN.zip` | 浏览器 MP3，包括本轮新音频和用于刷新缓存的版本化文件名 |
+| `audio-web-partNN.zip` | 浏览器 MP3与版本化文件名；本版逐字节复用v1.8.0音频 |
 | `data.zip` | 当前线上配套 JSON；手动解压到站点 `data/` |
 | `web-app.zip` | 当前线上页面、界面资源和服务工作线程；手动解压到站点根目录 |
 | `story-images.zip` / `textbook-pages.zip` | 手动解压到站点同名目录 |
@@ -85,8 +87,8 @@ shasum -a 256 -c SHA256SUMS --ignore-missing
 | `web-source.zip` | 对应本版的源码、构建输入、README、安装器及脚本 |
 | `manifest.json` | 附件大小、SHA-256、安装位置、实际材料规模和源码提交 |
 | `files.jsonl` | 每个归档成员的路径、大小、SHA-256，供安装与审计 |
-| `SHA256SUMS` | 所有发布附件的校验和 |
-| `VALIDATION.json` | 本轮全新安装、旧版升级、构建与播放验证结果 |
+| `SHA256SUMS` | 所在发布页附件的校验和；完整资源使用manifest与安装器验证 |
+| `VALIDATION.json` | 本版验证范围与结果；人工和未验证项目单独标明 |
 
 手动安装静态站点时，将全部音频 ZIP 解压到站点根目录，再按表中位置解压数据、页面和图片。安装器可以自动完成这些步骤及全部校验。
 

@@ -21,6 +21,10 @@ const audio = (value: string | undefined) => {
   assert.ok(value?.startsWith('/audio/') && value.endsWith('.mp3'), `Missing MP3: ${value}`);
   assert.ok(existsSync(path.join(root, value!)), value);
 };
+const studentProse = (value: string) => {
+  assert.ok(!/PDF|OCR|物理页|本稿|初稿|原页|readings只保留|不作为主阅读提取/.test(value),
+    `Editorial review notes leaked into student text: ${value}`);
+};
 for (const plan of catalog.books) {
   const book = parallel.find(b => b.id === plan.id)!;
   assert.ok(book.grade >= 1 && book.grade <= 5);
@@ -55,11 +59,13 @@ for (const plan of catalog.books) {
       if (!meta.id.endsWith('-exam')) {
         lessons++;
         const k = lesson.knowledge!; assert.equal(k.point,lesson.title);
+        [k.core_concept,k.key_formula,k.tips,...k.common_mistakes].forEach(studentProse);
         for (const field of ['point','core_concept','key_formula','tips'] as const) if(k[field]) audio(k.audio?.[field]);
         k.common_mistakes.forEach((_,i) => audio(k.audio?.common_mistakes?.[i]));
       }
       for(const q of lesson.questions) {
         questions++;
+        studentProse(q.explanation);
         assert.equal(gradeAnswer(q,''),false);
         if(q.type === 'choice') {
           assert.equal(q.options.length,4);assert.equal(new Set(q.options).size,4);

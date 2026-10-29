@@ -1,0 +1,199 @@
+{
+  "status": "passed",
+  "verifiedAt": "2026-10-29T02:39:54.671848+00:00",
+  "sourceCommit": "289ee7ee02dae502b5569ee5ccc734f57aa6334d",
+  "release": "v1.8.0",
+  "website": "https://d3nmsqi4n72idj.cloudfront.net/",
+  "downloads": "https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.0/DOWNLOADS.md",
+  "sourceReview": {
+    "books": 26,
+    "physicalPagesRenderedAndOcrScreened": 2828,
+    "copyrightContentsAndSectionBoundaryOriginalImagesChecked": true,
+    "sourceEditions": "2010–2022; actual edition/printing displayed",
+    "editorialSignoff": "model_and_codex_checks_not_teacher_signoff"
+  },
+  "newContent": {
+    "books": 26,
+    "sourceSections": 244,
+    "regularLessons": 1585,
+    "questionsIncludingChallenges": 10974,
+    "readings": 375,
+    "independentIds": true,
+    "existing58BooksRetained": true
+  },
+  "voice": {
+    "provider": "Microsoft EdgeTTS",
+    "jobs": 54218,
+    "rate": "-5%",
+    "allMp3Decoded": true,
+    "allAacDecoded": true,
+    "copyeditedStudentFields": 263
+  },
+  "nativePackaging": {
+    "status": "passed",
+    "books": 84,
+    "oldBundlesReusedByteIdentically": 116,
+    "newBundles": 52,
+    "dataMembersCompared": 7885,
+    "newAacMembersComparedToFullyDecodedSource": 55421,
+    "newAudioProvider": "Microsoft EdgeTTS",
+    "allNewArchivedAacMatchedFullyDecodedSources": true,
+    "all84DataBundlesMatchActualWebsiteSources": true
+  },
+  "nativeTests": {
+    "status": "passed",
+    "actualSimulatorTests": 228,
+    "seedBooks": 84,
+    "fiveFourBooks": 26
+  },
+  "nativeOnlineIndex": {
+    "status": "passed",
+    "actualNativeBaseURL": "https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.0-ios-resources",
+    "manifestSha256": "5aef2d3cb8b96dad8f3055b82fbf7657de17fd045bcfb006e5e2f469e0f878d1",
+    "books": 84,
+    "decodedUsingUnmodifiedNativeModels": true,
+    "identicalToPrimaryIndex": true,
+    "allBundleServerDigests": "verified by release-digests.json"
+  },
+  "mathScreen": {
+    "status": "passed",
+    "files": 135,
+    "numericChecks": 2432,
+    "exactEqualities": 2202,
+    "calculationAnswers": 200,
+    "numericChoiceAnswers": 30,
+    "failures": [],
+    "boundary": "Exact literal equations, numeric judgments and bare arithmetic questions only; contextual answers, rounded calculations and teacher signoff excluded."
+  },
+  "legacyData": {
+    "status": "passed",
+    "originalJsonFilesVerified": 3827,
+    "originalBookMetadataVerified": 58,
+    "newBooks": 26,
+    "totalBooks": 84,
+    "failures": []
+  },
+  "legacyMedia": {
+    "status": "passed",
+    "originalMediaFiles": 328233,
+    "bytes": 12246855407,
+    "sha256MatchesPriorPublishedInventory": true,
+    "failures": [],
+    "elapsedSeconds": 78.5
+  },
+  "installations": [
+    {
+      "mode": "install-static",
+      "required_files_sha256_verified": 561394
+    },
+    {
+      "mode": "install-source",
+      "required_files_sha256_verified": 548269
+    },
+    {
+      "mode": "upgrade-static",
+      "required_files_sha256_verified": 561394
+    },
+    {
+      "mode": "upgrade-source",
+      "required_files_sha256_verified": 548269
+    }
+  ],
+  "sourceBuilds": {
+    "install-source": {
+      "sourceBuild": "passed",
+      "allDataDocumentsEqualToVerifiedRelease": 5212
+    },
+    "upgrade-source": {
+      "sourceBuild": "passed",
+      "allDataDocumentsEqualToVerifiedRelease": 5212
+    }
+  },
+  "localUpgrade": {
+    "status": "passed",
+    "previousVersion": "v1.7.3",
+    "version": "v1.8.0",
+    "realInstallerOverlayAndFullFileShaVerified": true,
+    "allPriorExportedDataFieldsUnchangedBeforeNewLearning": true,
+    "priorLessonStarsAccuracyAndCompletionTimestampUnchangedAfterNewLearning": true,
+    "newLessonUsesIndependentId": true,
+    "newLessonSixOfSixThreeStars": true,
+    "newLessonXpAdded": 70,
+    "allProgressFieldsIdenticalAfterReload": true,
+    "verifiedAt": "2026-10-29T01:53:05.062114+00:00"
+  },
+  "ci": {
+    "status": "passed",
+    "sourceCommit": "289ee7ee02dae502b5569ee5ccc734f57aa6334d",
+    "mergedCommit": "46a5038b7b12e31221e747a9d8bfe2e902242fdd",
+    "mergeTreeMatchesFrozenReleaseSource": true,
+    "workflowRuns": [
+      {
+        "id": 40803559549,
+        "name": "Web UX regressions",
+        "conclusion": "success",
+        "url": "https://github.com/wuwangzhang1216/congcong-school/actions/runs/40803559549"
+      },
+      {
+        "id": 40803559555,
+        "name": "Web experience checks",
+        "conclusion": "success",
+        "url": "https://github.com/wuwangzhang1216/congcong-school/actions/runs/40803559555"
+      }
+    ],
+    "verifiedAt": "2026-10-29T02:01:19.417260+00:00"
+  },
+  "production": {
+    "status": "passed",
+    "website": "https://d3nmsqi4n72idj.cloudfront.net/",
+    "books": 84,
+    "newFiveFourBooks": 26,
+    "s3FileMd5Verified": 561394,
+    "existingDataAndMediaMetadataUnchanged": 333446,
+    "everyPriorS3ObjectRetained": true,
+    "privacyPageUnchanged": true,
+    "allCdnJsonSha256Verified": 5212,
+    "bookAndLessonPagesAndNewAppAssetsVerified": 140,
+    "mp3FullShaMimeRangeAndDecodeSamples": 40,
+    "sourceCommit": "289ee7ee02dae502b5569ee5ccc734f57aa6334d"
+  },
+  "productionProfiles": {
+    "status": "passed",
+    "profilesCompared": 5,
+    "allExportedFieldsUnchanged": true,
+    "originalBookAndUnfinishedEntryRetained": true
+  },
+  "productionUi": {
+    "status": "passed",
+    "newLearnerOnboardingThroughVisibleUi": true,
+    "fiveFourBooksSelectableWithActualEditionDates": true,
+    "mathLessonActualSixOfSixAndThreeStars": true,
+    "englishThreeSentencesPlayedToEnd": true,
+    "originalEnglishPageLoaded": {
+      "width": 840,
+      "height": 1180
+    },
+    "lecturePlaybackProgressObserved": 51,
+    "newLessonAndReadingHaveSeparateIndependentIds": true,
+    "newProfileAllExportedDataFieldsIdenticalAfterRefresh": true,
+    "legacyHistoricalBookRouteAndOldLearningPathAvailable": true,
+    "originalProfileRestoredAndEveryExportedFieldStillUnchangedAfterNewQa": true,
+    "originalBookAndPendingEntryRestored": true,
+    "rawLearnerDataNeverUploaded": true,
+    "verifiedAt": "2026-10-29T02:36:34.614721+00:00"
+  },
+  "organization": {
+    "status": "passed",
+    "primaryTag": "v1.8.0",
+    "webTag": "v1.8.0-web-resources",
+    "iosTag": "v1.8.0-ios-resources",
+    "books": 84,
+    "uploadedFilesPerRelease": {
+      "v1.8.0": 7,
+      "v1.8.0-web-resources": 27,
+      "v1.8.0-ios-resources": 170
+    },
+    "binaryBytesUnchanged": true
+  },
+  "privateLearnerExportsUploaded": false
+}

@@ -45,6 +45,14 @@
 
 长数学章节分知识点小组审校；早期审校记录中“缺少其他知识点”的说明针对当次小组，完整覆盖由目录映射及每知识点6题检查确认。模型编写、自动测试和原图复核不替代教师签审。
 
-## 发布进度
+## 发布与线上验证
 
-本地验证已通过；完整安装/升级包验证、正式发布及线上新旧教材和真实成绩复核尚待完成。此处不宣称已经上线。
+已发布 [v1.8.0](https://github.com/wuwangzhang1216/congcong-school/releases/tag/v1.8.0)，[在线学习](https://d3nmsqi4n72idj.cloudfront.net/)。通过学制筛选进入“五四制（小学五年）”；现有六三制及历史版本继续保留。
+
+[下载指南](https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.0/DOWNLOADS.md)按平台组织：主发布页7项安装入口和校验附件，Web资源页27项，iOS分册页170项（84册各数据/音频包，以及索引与校验表）。iOS按册下载，无需全下；旧发布附件及下载地址保留。
+
+完整静态/源码的全新安装和v1.7.3覆盖升级共四种路径均通过逐文件SHA-256校验；两份安装后的源码重建后，5,212份数据与发布快照一致。真实浏览器旧存档在升级前后逐字段一致，新教材独立完成课程、听读并能刷新保留。线上五份已有档案已作发布前后对照；公开报告仅包含汇总结果，原始学习存档不公开。
+
+发布保留全部原有S3对象，旧教材数据、媒体及隐私页保持一致；CDN全部数据JSON、全部84册入口和新旧课程/听读、代表性MP3完整内容、MIME、Range与解码均通过验证。源码提交及两项CI、具体数量和验证边界见 [verification.json](verification.json) 与发布附件 `VALIDATION.json`。
+
+该次交付对应 [#7](https://github.com/wuwangzhang1216/congcong-school/issues/7)。原书版次和逐册目录见上表及 [source-review.json](source-review.json)。

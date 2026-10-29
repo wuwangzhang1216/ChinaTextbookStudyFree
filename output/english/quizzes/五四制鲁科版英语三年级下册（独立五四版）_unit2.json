@@ -1,0 +1,517 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级下册",
+  "unit": "Unit 2 Clothes",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2 Clothes·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "I",
+        "difficulty": 1,
+        "explanation": "说话人介绍自己拥有的毛衣，要用I；You表示“你”，其余两项不能作这里的主语。",
+        "knowledge_point": "I have a new sweater.",
+        "options": [
+          "You",
+          "I",
+          "my",
+          "new"
+        ],
+        "question": "你要介绍自己有一件新毛衣。补全句子：____ have a new sweater.",
+        "type": "choice",
+        "id": 20001,
+        "score": 10
+      },
+      {
+        "answer": "蓝白相间的",
+        "difficulty": 1,
+        "explanation": "blue是蓝色，white是白色，and连接这两种颜色。",
+        "knowledge_point": "I have a new sweater.",
+        "options": [
+          "黑色的",
+          "黑白相间的",
+          "蓝白相间的",
+          "红色的"
+        ],
+        "question": "一位同学说自己的毛衣“It’s blue and white.”。这件毛衣是什么颜色的？",
+        "type": "choice",
+        "id": 20002,
+        "score": 10
+      },
+      {
+        "answer": "Yes, I do.",
+        "difficulty": 1,
+        "explanation": "Do you like it?询问是否喜欢，题目要求肯定简短回答，因此用Yes, I do.。其余选项不能构成对应的肯定简短回答。",
+        "knowledge_point": "I have a new sweater.",
+        "options": [
+          "Yes, it is.",
+          "No, it isn’t.",
+          "Yes, I do.",
+          "It’s small."
+        ],
+        "question": "你喜欢刚收到的毛衣。妈妈问“Do you like it?”，请选择正确的肯定简短回答。",
+        "type": "choice",
+        "id": 20003,
+        "score": 10
+      },
+      {
+        "answer": "Thank you.",
+        "difficulty": 1,
+        "explanation": "题目要求表达感谢，Thank you.符合要求；其他选项分别用于询问、介绍和说明赠送。",
+        "knowledge_point": "I have a new sweater.",
+        "options": [
+          "Do you like it?",
+          "You have a new sweater.",
+          "This is for you.",
+          "Thank you."
+        ],
+        "question": "同伴称赞你的新毛衣，你想用英语说“谢谢你”，应选哪句？",
+        "type": "choice",
+        "id": 20004,
+        "score": 10
+      },
+      {
+        "answer": "Hh、Ii、Jj、Kk",
+        "difficulty": 2,
+        "explanation": "hand、ice-cream、juice、kite的首字母依次为h、i、j、k，对应大小写为Hh、Ii、Jj、Kk。",
+        "knowledge_point": "I have a new sweater.",
+        "options": [
+          "Ii、Hh、Jj、Kk",
+          "Hh、Ii、Jj、Kk",
+          "Hh、Ii、Kk、Jj",
+          "Hh、Jj、Ii、Kk"
+        ],
+        "question": "按hand、ice-cream、juice、kite的顺序，选择各词首字母对应的正确大小写组合。",
+        "type": "choice",
+        "id": 20005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "This is for you.表示“这是给你的”，不是“这是我的”。",
+        "knowledge_point": "I have a new sweater.",
+        "options": [],
+        "question": "判断正误：赠送毛衣时说“This is for you.”，意思是“这是我的”。",
+        "type": "true_false",
+        "id": 20006,
+        "score": 10
+      },
+      {
+        "answer": "cap",
+        "difficulty": 1,
+        "explanation": "cap表示帽子；其他选项分别表示外套、衬衫和毛衣。",
+        "knowledge_point": "Is this your cap?",
+        "options": [
+          "coat",
+          "shirt",
+          "sweater",
+          "cap"
+        ],
+        "question": "你拿着一顶帽子，想问“这是你的帽子吗？”。补全句子：Is this your ____?",
+        "type": "choice",
+        "id": 20007,
+        "score": 10
+      },
+      {
+        "answer": "Yes, it is.",
+        "difficulty": 1,
+        "explanation": "题目要求肯定简短回答，Yes, it is.正确；其余回答或为否定，或不能与该问句对应。",
+        "knowledge_point": "Is this your cap?",
+        "options": [
+          "Yes, it is.",
+          "Yes, I do.",
+          "No, I do.",
+          "No, it isn’t."
+        ],
+        "question": "这顶帽子是你的。同伴问“Is this your cap?”，请选择正确的肯定简短回答。",
+        "type": "choice",
+        "id": 20008,
+        "score": 10
+      },
+      {
+        "answer": "No, it isn’t.",
+        "difficulty": 1,
+        "explanation": "毛衣不是自己的，应作否定回答No, it isn’t.；Yes, it is.与事实相反，其他两项不是所需否定简短回答。",
+        "knowledge_point": "Is this your cap?",
+        "options": [
+          "It’s lovely.",
+          "Yes, it is.",
+          "No, it isn’t.",
+          "Thank you."
+        ],
+        "question": "一件毛衣不是你的。有人问你“Is this your sweater?”，请选择正确的否定简短回答。",
+        "type": "choice",
+        "id": 20009,
+        "score": 10
+      },
+      {
+        "answer": "black",
+        "difficulty": 1,
+        "explanation": "题目明确要求表达黑色，应该使用black；blue、white、red分别表示蓝色、白色、红色。",
+        "knowledge_point": "Is this your cap?",
+        "options": [
+          "blue",
+          "white",
+          "black",
+          "red"
+        ],
+        "question": "你要补充说明“我的帽子是黑色的”。补全句子：My cap is ____.",
+        "type": "choice",
+        "id": 20010,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "your cap表示“你的帽子”，整个问句用于确认帽子是不是对方的。",
+        "knowledge_point": "Is this your cap?",
+        "options": [],
+        "question": "判断正误：“Is this your cap?”是在确认这顶帽子是不是对方的。",
+        "type": "true_false",
+        "id": 20011,
+        "score": 10
+      },
+      {
+        "answer": "蓝色",
+        "difficulty": 2,
+        "explanation": "已知信息中Danny’s cap is blue.直接说明Danny的帽子是蓝色的；黑色说的是Guo Yang的帽子。",
+        "knowledge_point": "Is this your cap?",
+        "options": [
+          "白色",
+          "黑色",
+          "蓝色",
+          "红色"
+        ],
+        "question": "已知Guo Yang说“My cap is black. Danny’s cap is blue.”。根据这两句话，Danny的帽子是什么颜色？",
+        "type": "choice",
+        "id": 20012,
+        "score": 10
+      },
+      {
+        "answer": "Whose",
+        "difficulty": 1,
+        "explanation": "要问衣物的主人，用Whose；其余选项不能完成这个询问归属的句子。",
+        "knowledge_point": "Whose coat is this?",
+        "options": [
+          "My",
+          "Whose",
+          "Your",
+          "This"
+        ],
+        "question": "你不知道一件衬衫的主人是谁。补全问句：____ shirt is that?",
+        "type": "choice",
+        "id": 20013,
+        "score": 10
+      },
+      {
+        "answer": "that",
+        "difficulty": 1,
+        "explanation": "题目要求表达“那”，应选that；this表示“这”，my和your表示归属，不能放在这里。",
+        "knowledge_point": "Whose coat is this?",
+        "options": [
+          "your",
+          "my",
+          "this",
+          "that"
+        ],
+        "question": "你指着远处的一件衬衫，想问“那是谁的衬衫？”。补全句子：Whose shirt is ____?",
+        "type": "choice",
+        "id": 20014,
+        "score": 10
+      },
+      {
+        "answer": "my",
+        "difficulty": 1,
+        "explanation": "说话人说明外套属于自己，用my coat；your表示“你的”，另外两项不能表达所需意思。",
+        "knowledge_point": "Whose coat is this?",
+        "options": [
+          "your",
+          "my",
+          "blue",
+          "whose"
+        ],
+        "question": "你要回答“它是我的外套”。补全句子：It’s ____ coat.",
+        "type": "choice",
+        "id": 20015,
+        "score": 10
+      },
+      {
+        "answer": "Jenny’s",
+        "difficulty": 2,
+        "explanation": "Jenny’s表示“Jenny的”；Jenny本身是人名，my表示“我的”，lovely表示“可爱的”。",
+        "knowledge_point": "Whose coat is this?",
+        "options": [
+          "Jenny",
+          "Jenny’s",
+          "my",
+          "lovely"
+        ],
+        "question": "一件外套属于Jenny。补全回答：—Whose coat is this? —It’s ____.",
+        "type": "choice",
+        "id": 20016,
+        "score": 10
+      },
+      {
+        "answer": "Ll、Mm、Nn",
+        "difficulty": 2,
+        "explanation": "leg、mouth、nose的首字母依次是l、m、n，对应大小写为Ll、Mm、Nn。",
+        "knowledge_point": "Whose coat is this?",
+        "options": [
+          "Mm、Ll、Nn",
+          "Ll、Nn、Mm",
+          "Nn、Mm、Ll",
+          "Ll、Mm、Nn"
+        ],
+        "question": "按leg、mouth、nose的顺序，选择各词首字母对应的正确大小写组合。",
+        "type": "choice",
+        "id": 20017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Peter’s表示“Peter的”，不是“我的”；“我的外套”可以说my coat。",
+        "knowledge_point": "Whose coat is this?",
+        "options": [],
+        "question": "判断正误：回答衣物归属时，“It’s Peter’s.”表示“它是我的”。",
+        "type": "true_false",
+        "id": 20018,
+        "score": 10
+      },
+      {
+        "answer": "coat",
+        "difficulty": 1,
+        "explanation": "coat表示外套；shirt是衬衫，cap是帽子，sweater是毛衣。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "coat",
+          "cap",
+          "shirt",
+          "sweater"
+        ],
+        "question": "服装整理活动中，需要给“外套”贴英文标签，应选哪个词？",
+        "type": "choice",
+        "id": 20019,
+        "score": 10
+      },
+      {
+        "answer": "Is this your coat?",
+        "difficulty": 2,
+        "explanation": "需要确认外套是不是对方的，用Is this your coat?。Whose问主人，另外两项是陈述句。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Whose coat is this?",
+          "It’s my coat.",
+          "Is this your coat?",
+          "It’s Peter’s."
+        ],
+        "question": "你想向同伴确认手中的外套是不是他的，而不是直接问主人是谁，应选哪一句？",
+        "type": "choice",
+        "id": 20020,
+        "score": 10
+      },
+      {
+        "answer": "Peter",
+        "difficulty": 2,
+        "explanation": "回答中的It’s Peter’s.明确说明衬衫属于Peter，没有说明它属于其他人。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Peter",
+          "Guo Yang",
+          "Jenny",
+          "Danny"
+        ],
+        "question": "认领时，一位同学回答“No, it isn’t. It’s Peter’s.”。根据这句话，这件衬衫属于谁？",
+        "type": "choice",
+        "id": 20021,
+        "score": 10
+      },
+      {
+        "answer": "黑色",
+        "difficulty": 1,
+        "explanation": "black表示黑色；句子说明Danny的外套是黑色的。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "黑色",
+          "白色",
+          "红色",
+          "蓝色"
+        ],
+        "question": "表演介绍中说“Danny’s coat is black.”。Danny的外套是什么颜色？",
+        "type": "choice",
+        "id": 20022,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "my coat表示“我的外套”，整句是在说明外套的归属。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：在认领衣物时，“It’s my coat.”可以用来说明“它是我的外套”。",
+        "type": "true_false",
+        "id": 20023,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "这里的He指Danny，He’s cool!是在评价Danny很酷，不是说明外套太小。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：同伴看着Danny的表演说“Oh, Danny’s coat is black. He’s cool!”。其中“He’s cool!”表示“他的外套太小了”。",
+        "type": "true_false",
+        "id": 20024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 2 Clothes·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "You have a new cap.",
+        "difficulty": 2,
+        "explanation": "You have表示“你有”，a new cap表示“一顶新帽子”。其余选项分别改变了人物、衣物或新旧信息。",
+        "knowledge_point": "I have a new sweater.",
+        "options": [
+          "I have a new cap.",
+          "You have a new cap.",
+          "You have a new sweater.",
+          "You have a blue cap."
+        ],
+        "question": "选择准确表达“你有一顶新帽子”的句子。",
+        "type": "choice",
+        "id": 29001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "too small表示“太小”，不是“很可爱”。lovely才表示“可爱的”。",
+        "knowledge_point": "I have a new sweater.",
+        "options": [],
+        "question": "判断正误：“My sweater is too small.”表示“我的毛衣很可爱”。",
+        "type": "true_false",
+        "id": 29002,
+        "score": 10
+      },
+      {
+        "answer": "isn’t",
+        "difficulty": 2,
+        "explanation": "题目明确帽子不是自己的，因此用否定回答“No, it isn’t.”。is构成肯定表达，do和have不能放在这里。",
+        "knowledge_point": "Is this your cap?",
+        "options": [
+          "is",
+          "isn’t",
+          "do",
+          "have"
+        ],
+        "question": "这顶帽子不是你的。补全回答：—Is this your cap? —No, it ____.",
+        "type": "choice",
+        "id": 29003,
+        "score": 10
+      },
+      {
+        "answer": "你的",
+        "difficulty": 1,
+        "explanation": "your表示“你的”，这里是在询问这件毛衣是不是对方的。",
+        "knowledge_point": "Is this your cap?",
+        "options": [
+          "我的",
+          "新的",
+          "谁的",
+          "你的"
+        ],
+        "question": "句子“Is this your sweater?”中的your是什么意思？",
+        "type": "choice",
+        "id": 29004,
+        "score": 10
+      },
+      {
+        "answer": "那是谁的衬衫？",
+        "difficulty": 2,
+        "explanation": "Whose询问主人，shirt是衬衫，that表示“那”。",
+        "knowledge_point": "Whose coat is this?",
+        "options": [
+          "这是你的衬衫吗？",
+          "这是我的毛衣。",
+          "那是谁的衬衫？",
+          "那是谁的外套？"
+        ],
+        "question": "选择“Whose shirt is that?”的准确中文意思。",
+        "type": "choice",
+        "id": 29005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "前句否认衬衫属于自己，后句说明它属于Peter，两句意思衔接正确。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：一件衬衫属于Peter，不属于你。别人问你“Is this your shirt?”，你可以回答“No, it isn’t. It’s Peter’s.”。",
+        "type": "true_false",
+        "id": 29006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "混淆I have和You have：前者表示“我有”，后者表示“你有”。",
+        "漏掉a，或把new放在sweater后面；应说a new sweater。",
+        "把too small理解为“可爱”；它表示“太小”。cool表示“酷的”，lovely表示“可爱的”。",
+        "用“Yes, it is.”回答“Do you like it?”；本课肯定回答是“Yes, I do.”。",
+        "混淆字母大小写配对：Hh、Ii、Jj、Kk。"
+      ],
+      "core_concept": "本课围绕新毛衣学习介绍衣物、描述颜色、表达喜爱和感谢。“I have a new sweater.”表示“我有一件新毛衣”；“You have a new sweater.”表示“你有一件新毛衣”。可以用“It’s blue and white.”描述蓝白相间的颜色，用“It’s cool.”或“It’s lovely.”作评价。“My sweater is too small.”说明毛衣太小；“This is for you.”用于赠送物品。听到“Do you like it?”，喜欢时可回答“Yes, I do.”；收到礼物或赞美时可说“Thank you.”，也可说“I love it.”表达喜爱。学习认读、书写Hh、Ii、Jj、Kk，并结合hand、ice-cream、juice、kite辨认字母。单元导入中的归属问句在本课只作情境感知。",
+      "key_formula": "",
+      "point": "I have a new sweater.",
+      "tips": "介绍自己的新衣物用I have，介绍对方的用You have；然后用It’s补充颜色或评价。书写字母时对照本页四线格范字，注意大小写形状和占格。"
+    },
+    {
+      "common_mistakes": [
+        "把Is this your cap?理解成询问帽子的颜色；它是在确认帽子是否属于对方。",
+        "肯定简短回答误写为Yes, it’s.；应写Yes, it is.。",
+        "否定回答漏掉not的意思；应说No, it isn’t.。",
+        "把my cap和your cap混淆，前者是“我的帽子”，后者是“你的帽子”。",
+        "只看衣物颜色就认定主人；交流时应根据对方回答及已知信息确认归属。"
+      ],
+      "core_concept": "本课用“Is this your cap?”确认“这是你的帽子吗？”，也可把cap换成已学的sweater。物品属于被问者时，回答“Yes, it is.”；不属于时，回答“No, it isn’t.”。问句中的this在简短回答中用it回应。还可用“My cap is black.”说明自己的帽子是黑色的，用“Danny’s cap is blue.”说明Danny的帽子是蓝色的。认领后可以用“Thank you.”表达感谢。本课歌曲用于感知服装、颜色并参与演唱，不把歌词中的表达扩展为独立语法教学。",
+      "key_formula": "Is this your + 衣物名称? — Yes, it is. / No, it isn’t.",
+      "point": "Is this your cap?",
+      "tips": "以被问者的身份判断物品是不是自己的，再选肯定或否定回答。需要时补充自己的帽子颜色，认领物品后记得感谢。"
+    },
+    {
+      "common_mistakes": [
+        "把Whose误解为“什么颜色”；Whose询问“谁的”。",
+        "把Whose问句和Is this your问句混淆；前者询问主人，后者确认是否属于对方。",
+        "把It’s my coat.写成It’s my.；本课表达中my后面要接衣物名称。",
+        "回答It’s Peter’s.或It’s Jenny’s.时漏掉人名后的’s。",
+        "混淆this与that：this指“这”，that指“那”；注意Ll、Mm、Nn的大小写配对。"
+      ],
+      "core_concept": "本课学习用“Whose coat is this?”询问“这是谁的外套？”，用“Whose shirt is that?”询问“那是谁的衬衫？”。this通常指近处物品，that通常指较远处物品。衣物属于自己时，可以回答“It’s my coat.”；属于Peter或Jenny时，可以回答“It’s Peter’s.”或“It’s Jenny’s.”。结合上一课的“Is this your coat?”区分确认归属和询问主人。学习认读、书写Ll、Mm、Nn，并结合leg、mouth、nose辨认字母。",
+      "key_formula": "Whose + 衣物名称 + is this/that? — It’s my + 衣物名称. / It’s + 人名’s.",
+      "point": "Whose coat is this?",
+      "tips": "遇到Whose先找主人信息，不要只回答颜色。my后接衣物名称；Peter’s、Jenny’s可以在上下文明确时直接表示“Peter的”“Jenny的”。"
+    },
+    {
+      "common_mistakes": [
+        "把“Is this your shirt?”误解为“这是谁的衬衫？”。它是在确认衬衫是否属于对方。",
+        "把“It’s my coat.”误解为问句；它是在说明外套属于自己。",
+        "用人名说明主人时漏掉’s，如把“It’s Peter’s.”写成“It’s Peter.”。",
+        "混淆衣物和人物的评价：“Danny’s coat is black.”说外套的颜色，“He’s cool!”评价Danny。"
+      ],
+      "core_concept": "本课复习sweater（毛衣）、cap（帽子）、coat（外套）、shirt（衬衫）以及颜色和归属表达。确认是不是对方的衣物，用“Is this your shirt?”一类问句，回答“Yes, it is.”或“No, it isn’t.”；不知道主人是谁，用“Whose coat is this?”一类问句，可回答“It’s my coat.”或“It’s Peter’s.”。表演活动中还可以介绍衣物颜色并评价人物，如“Danny’s coat is black. He’s cool!”。不新增其他单元的语法内容。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "先判断是在问“是不是你的”还是“是谁的”，再回答。否认后可以补充真正的主人；介绍表演服装时可以先说主人和颜色，再作简单评价。"
+    }
+  ]
+}

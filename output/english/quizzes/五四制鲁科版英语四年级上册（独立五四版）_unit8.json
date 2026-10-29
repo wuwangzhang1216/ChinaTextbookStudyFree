@@ -1,0 +1,741 @@
+{
+  "textbook": "义务教育教科书（五·四学制）英语（三年级起点）四年级 上册",
+  "unit": "Review",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "Review·配套练习",
+    "total_score": 360,
+    "time_minutes": 36,
+    "questions": [
+      {
+        "answer": "windy",
+        "difficulty": 1,
+        "explanation": "windy 表示有风的；park、paper、piano 分别表示公园、纸和钢琴。",
+        "knowledge_point": "词语认读与语音归类",
+        "options": [
+          "windy",
+          "park",
+          "paper",
+          "piano"
+        ],
+        "question": "下面哪一个单词表示“有风的”？",
+        "type": "choice",
+        "id": 80001,
+        "score": 10
+      },
+      {
+        "answer": "hospital",
+        "difficulty": 1,
+        "explanation": "hospital 表示医院；policeman、picture、paper 分别表示警察、图画和纸。",
+        "knowledge_point": "词语认读与语音归类",
+        "options": [
+          "policeman",
+          "hospital",
+          "picture",
+          "paper"
+        ],
+        "question": "下面哪一个单词表示“医院”？",
+        "type": "choice",
+        "id": 80002,
+        "score": 10
+      },
+      {
+        "answer": "will",
+        "difficulty": 2,
+        "explanation": "will 和 hill 中的 i 都发 /ɪ/；run、drum、jump 中的 u 都发 /ʌ/。",
+        "knowledge_point": "词语认读与语音归类",
+        "options": [
+          "run",
+          "jump",
+          "will",
+          "drum"
+        ],
+        "question": "比较指定元音字母的读音：哪一个词中的元音字母与 hill 中的 i 发音相同？",
+        "type": "choice",
+        "id": 80003,
+        "score": 10
+      },
+      {
+        "answer": "jump",
+        "difficulty": 2,
+        "explanation": "jump 和 sunny 中的 u 都发 /ʌ/；skip、hill、will 中的 i 都发 /ɪ/。",
+        "knowledge_point": "词语认读与语音归类",
+        "options": [
+          "skip",
+          "hill",
+          "jump",
+          "will"
+        ],
+        "question": "比较指定元音字母的读音：哪一个词中的元音字母与 sunny 中的 u 发音相同？",
+        "type": "choice",
+        "id": 80004,
+        "score": 10
+      },
+      {
+        "answer": "piano",
+        "difficulty": 2,
+        "explanation": "paper、park、policeman 中的 p 发 /p/；piano 开头的 p 也发 /p/，其他三个选项没有字母 p。",
+        "knowledge_point": "词语认读与语音归类",
+        "options": [
+          "piano",
+          "hill",
+          "winter",
+          "sunny"
+        ],
+        "question": "paper、park、policeman 中的字母 p 都发 /p/。哪个选项也含有发 /p/ 的字母 p？",
+        "type": "choice",
+        "id": 80005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "paper 中的 a 发 /eɪ/，piano 中的 a 发 /æ/；相同字母在不同单词中不一定同音。",
+        "knowledge_point": "词语认读与语音归类",
+        "options": [],
+        "question": "判断正误：paper 和 piano 都有字母 a，所以这两个词中的 a 发音相同。",
+        "type": "true_false",
+        "id": 80006,
+        "score": 10
+      },
+      {
+        "answer": "It’s Friday.",
+        "difficulty": 1,
+        "explanation": "已知今天是星期五，应回答 It’s Friday.；其他选项分别说课程、天气和喜好。",
+        "knowledge_point": "星期与课程问答",
+        "options": [
+          "It’s Friday.",
+          "We have English.",
+          "It’s windy.",
+          "I like music."
+        ],
+        "question": "已知今天是星期五。回答“What day is today?”应选哪一句？",
+        "type": "choice",
+        "id": 80007,
+        "score": 10
+      },
+      {
+        "answer": "学科、课程",
+        "difficulty": 1,
+        "explanation": "subjects 在这个问句中表示学科、课程，不表示星期、季节或运动。",
+        "knowledge_point": "星期与课程问答",
+        "options": [
+          "星期",
+          "季节",
+          "运动",
+          "学科、课程"
+        ],
+        "question": "在“What subjects do we have on Monday?”中，subjects 是什么意思？",
+        "type": "choice",
+        "id": 80008,
+        "score": 10
+      },
+      {
+        "answer": "We have art and music.",
+        "difficulty": 2,
+        "explanation": "给定课程是美术和音乐，对应 art and music；另外三项的课程都与给定安排不符。",
+        "knowledge_point": "星期与课程问答",
+        "options": [
+          "We have Chinese and English.",
+          "We have English and PE.",
+          "We have art and music.",
+          "We have science and Chinese."
+        ],
+        "question": "假设某班星期五有美术和音乐。有人问“What subjects do we have on Friday?”，应怎样回答？",
+        "type": "choice",
+        "id": 80009,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Monday 是星期一，English 可以表示英语这门学科，两者类别不同。",
+        "knowledge_point": "星期与课程问答",
+        "options": [],
+        "question": "判断正误：Monday 是星期名称，English 可以是学科名称。",
+        "type": "true_false",
+        "id": 80010,
+        "score": 10
+      },
+      {
+        "answer": "on",
+        "difficulty": 2,
+        "explanation": "表示在具体星期几时用 on，因此这里用 on Wednesday。",
+        "knowledge_point": "星期与课程问答",
+        "options": [
+          "at",
+          "in",
+          "on",
+          "to"
+        ],
+        "question": "补全句子，表示“星期三我们有哪些课程”：What subjects do we have ___ Wednesday?",
+        "type": "choice",
+        "id": 80011,
+        "score": 10
+      },
+      {
+        "answer": "What day is today?",
+        "difficulty": 1,
+        "explanation": "What day is today? 询问今天是星期几；其余三个问句分别询问课程、爱好和天气。",
+        "knowledge_point": "星期与课程问答",
+        "options": [
+          "What day is today?",
+          "What subjects do we have on Monday?",
+          "What’s your hobby?",
+          "How’s the weather?"
+        ],
+        "question": "你想问“今天是星期几？”，应使用哪一个问句？",
+        "type": "choice",
+        "id": 80012,
+        "score": 10
+      },
+      {
+        "answer": "sunny",
+        "difficulty": 1,
+        "explanation": "给定句中的 sunny 表示晴朗；其他三个选项分别表示多云、有风和下雨。",
+        "knowledge_point": "读懂天气预报",
+        "options": [
+          "sunny",
+          "cloudy",
+          "windy",
+          "rain"
+        ],
+        "question": "预报说“It will be sunny in Zhengzhou.”，郑州将是什么天气？",
+        "type": "choice",
+        "id": 80013,
+        "score": 10
+      },
+      {
+        "answer": "Shanghai",
+        "difficulty": 1,
+        "explanation": "多云对应 It will be cloudy in Shanghai.；其余城市分别对应晴、有风和雨。",
+        "knowledge_point": "读懂天气预报",
+        "options": [
+          "Zhengzhou",
+          "Shanghai",
+          "Lanzhou",
+          "Haikou"
+        ],
+        "question": "预报说：“It will be sunny in Zhengzhou. It will be cloudy in Shanghai. It will be windy in Lanzhou. It will rain in Haikou.”哪个城市将多云？",
+        "type": "choice",
+        "id": 80014,
+        "score": 10
+      },
+      {
+        "answer": "几条表示风的斜线",
+        "difficulty": 1,
+        "explanation": "windy 表示有风，应选表示风的符号；太阳、雨滴和雪花分别表示其他天气。",
+        "knowledge_point": "读懂天气预报",
+        "options": [
+          "一个太阳",
+          "云下有雨滴",
+          "几条表示风的斜线",
+          "一片雪花"
+        ],
+        "question": "预报说“It will be windy in Lanzhou.”。若用下列文字描述的符号表示兰州天气，应选哪一种？",
+        "type": "choice",
+        "id": 80015,
+        "score": 10
+      },
+      {
+        "answer": "be",
+        "difficulty": 2,
+        "explanation": "will 后用动词原形 be，构成 will be cloudy；is、are、am 都不是此处所需的原形。",
+        "knowledge_point": "读懂天气预报",
+        "options": [
+          "am",
+          "be",
+          "are",
+          "is"
+        ],
+        "question": "补全句子，表示“上海将多云”：It will ___ cloudy in Shanghai.",
+        "type": "choice",
+        "id": 80016,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "唯一给出的句子只说明海口将下雨，没有提供哈尔滨的天气，不能推出哈尔滨也将下雨。",
+        "knowledge_point": "读懂天气预报",
+        "options": [],
+        "question": "判断正误：如果一份预报只给出“It will rain in Haikou.”，就能确定哈尔滨也将下雨。",
+        "type": "true_false",
+        "id": 80017,
+        "score": 10
+      },
+      {
+        "answer": "rain",
+        "difficulty": 2,
+        "explanation": "rain 在这里作动词，will rain 表示将下雨；其余三个词是形容词，不能直接填入这一结构表达下雨。",
+        "knowledge_point": "读懂天气预报",
+        "options": [
+          "cloudy",
+          "sunny",
+          "rain",
+          "windy"
+        ],
+        "question": "补全预报，表示“海口将下雨”：It will ___ in Haikou.",
+        "type": "choice",
+        "id": 80018,
+        "score": 10
+      },
+      {
+        "answer": "He’s strong.",
+        "difficulty": 1,
+        "explanation": "strong 表示强壮的，描述外貌；其他选项分别表达爱好、动作和职业。",
+        "knowledge_point": "人物描述与职业辨认",
+        "options": [
+          "He’s strong.",
+          "He likes cooking.",
+          "He’s cooking now.",
+          "He’s a cook."
+        ],
+        "question": "哪一句是在描述一个人的外貌，而不是爱好、当前动作或职业？",
+        "type": "choice",
+        "id": 80019,
+        "score": 10
+      },
+      {
+        "answer": "He likes drawing.",
+        "difficulty": 1,
+        "explanation": "likes drawing 表示喜欢画画；is drawing 表示正在画画，其余两句描述职业和头发。",
+        "knowledge_point": "人物描述与职业辨认",
+        "options": [
+          "He’s drawing a picture.",
+          "He has short hair.",
+          "He’s an art teacher.",
+          "He likes drawing."
+        ],
+        "question": "哪一句表达“他喜欢画画”这一爱好？",
+        "type": "choice",
+        "id": 80020,
+        "score": 10
+      },
+      {
+        "answer": "She’s cooking now.",
+        "difficulty": 2,
+        "explanation": "is cooking 表示正在做饭；likes cooking 只表达爱好，另外两句没有正确使用现在进行时。",
+        "knowledge_point": "人物描述与职业辨认",
+        "options": [
+          "She likes cooking.",
+          "She’s cooking now.",
+          "She cooking now.",
+          "She’s cook now."
+        ],
+        "question": "一位女士此刻正在做饭。哪一句能正确描述她当前的动作？",
+        "type": "choice",
+        "id": 80021,
+        "score": 10
+      },
+      {
+        "answer": "art teacher",
+        "difficulty": 1,
+        "explanation": "介绍最后一句明确说明她是美术老师；喜欢唱歌不改变这项职业信息。",
+        "knowledge_point": "人物描述与职业辨认",
+        "options": [
+          "cook",
+          "art teacher",
+          "farmer",
+          "gardener"
+        ],
+        "question": "阅读新编人物介绍：“She has short hair. She likes singing. She’s an art teacher.”她的职业是什么？",
+        "type": "choice",
+        "id": 80022,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "第一句的 likes 表达爱好，第二句的 is singing 表达此刻正在发生的动作。",
+        "knowledge_point": "人物描述与职业辨认",
+        "options": [],
+        "question": "判断正误：“He likes singing.”表达爱好；“He’s singing now.”表达他此刻正在唱歌。",
+        "type": "true_false",
+        "id": 80023,
+        "score": 10
+      },
+      {
+        "answer": "has",
+        "difficulty": 2,
+        "explanation": "表达他有短发用 He has short hair.；is、are、am 都不能在这里直接连接 short hair。",
+        "knowledge_point": "人物描述与职业辨认",
+        "options": [
+          "am",
+          "has",
+          "are",
+          "is"
+        ],
+        "question": "选择正确的词补全“他留着短发”：He ___ short hair.",
+        "type": "choice",
+        "id": 80024,
+        "score": 10
+      },
+      {
+        "answer": "Class",
+        "difficulty": 1,
+        "explanation": "Class 表示班级；Age、Name、Email 分别表示年龄、姓名和电子邮箱。",
+        "knowledge_point": "制作资料卡并介绍自己",
+        "options": [
+          "Class",
+          "Age",
+          "Name",
+          "Email"
+        ],
+        "question": "为虚构人物制作资料卡时，“班级”应填写在哪个栏目？",
+        "type": "choice",
+        "id": 80025,
+        "score": 10
+      },
+      {
+        "answer": "Favourite food",
+        "difficulty": 1,
+        "explanation": "food 表示食物；sport、colour、season 分别表示运动、颜色和季节。",
+        "knowledge_point": "制作资料卡并介绍自己",
+        "options": [
+          "Favourite sport",
+          "Favourite food",
+          "Favourite colour",
+          "Favourite season"
+        ],
+        "question": "资料卡中，哪个栏目用来填写“最喜欢的食物”？",
+        "type": "choice",
+        "id": 80026,
+        "score": 10
+      },
+      {
+        "answer": "My hobby is singing.",
+        "difficulty": 1,
+        "explanation": "本句用 My hobby is singing. 表达爱好是唱歌；其余选项有主谓搭配、动词形式或语序错误。",
+        "knowledge_point": "制作资料卡并介绍自己",
+        "options": [
+          "My hobby are singing.",
+          "My hobby is sing.",
+          "My hobby is singing.",
+          "My hobby singing is."
+        ],
+        "question": "虚构人物的爱好是唱歌。哪一句自我介绍正确？",
+        "type": "choice",
+        "id": 80027,
+        "score": 10
+      },
+      {
+        "answer": "Favourite colour: blue.",
+        "difficulty": 1,
+        "explanation": "blue 是颜色，应填在 Favourite colour 栏；其他三个栏目与颜色不匹配。",
+        "knowledge_point": "制作资料卡并介绍自己",
+        "options": [
+          "Favourite sport: blue.",
+          "Favourite colour: blue.",
+          "Favourite food: blue.",
+          "Favourite season: blue."
+        ],
+        "question": "资料卡要表达“最喜欢的颜色：蓝色”。哪一项栏目与内容匹配？",
+        "type": "choice",
+        "id": 80028,
+        "score": 10
+      },
+      {
+        "answer": "My favourite sport is basketball.",
+        "difficulty": 2,
+        "explanation": "basketball 是篮球运动，与 sport 匹配，不属于食物、季节或颜色。",
+        "knowledge_point": "制作资料卡并介绍自己",
+        "options": [
+          "My favourite season is basketball.",
+          "My favourite food is basketball.",
+          "My favourite sport is basketball.",
+          "My favourite colour is basketball."
+        ],
+        "question": "虚构人物想介绍“我最喜欢的运动是篮球”。哪一句正确？",
+        "type": "choice",
+        "id": 80029,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "Class: 2 表示二班；Grade: 4 表示四年级，不能调换。",
+        "knowledge_point": "制作资料卡并介绍自己",
+        "options": [],
+        "question": "判断正误：一张虚构资料卡写着“Class: 2; Grade: 4”，意思是“四班、二年级”。",
+        "type": "true_false",
+        "id": 80030,
+        "score": 10
+      },
+      {
+        "answer": "Chinese, English, music, PE.",
+        "difficulty": 2,
+        "explanation": "这一组选项恰好列出四门学科；第二组只有三门，第三组混入季节，第四组是运动。",
+        "knowledge_point": "综合问答闯关",
+        "options": [
+          "Chinese, English, music, PE.",
+          "Chinese, English, music.",
+          "Chinese, English, music, winter.",
+          "Football, basketball, swimming, running."
+        ],
+        "question": "游戏要求“Name four subjects.”，即说出四门学科。哪一组完全符合要求？",
+        "type": "choice",
+        "id": 80031,
+        "score": 10
+      },
+      {
+        "answer": "No, I don’t.",
+        "difficulty": 1,
+        "explanation": "Do you like...? 的否定简短回答是 No, I don’t.；其他选项不符合问句结构或不回答是否喜欢。",
+        "knowledge_point": "综合问答闯关",
+        "options": [
+          "No, I’m not.",
+          "No, I don’t.",
+          "It’s Monday.",
+          "He’s singing."
+        ],
+        "question": "虚构人物不喜欢唱歌。别人问他“Do you like singing?”，他应怎样作否定简短回答？",
+        "type": "choice",
+        "id": 80032,
+        "score": 10
+      },
+      {
+        "answer": "I play football on Sunday.",
+        "difficulty": 1,
+        "explanation": "问句询问周日活动，只有这一项说明星期日踢足球；其余选项分别说季节、天气和职业。",
+        "knowledge_point": "综合问答闯关",
+        "options": [
+          "I like winter.",
+          "It’s cloudy.",
+          "I play football on Sunday.",
+          "He’s a gardener."
+        ],
+        "question": "虚构人物每周日踢足球。别人问“What do you do on Sunday?”，他应怎样回答？",
+        "type": "choice",
+        "id": 80033,
+        "score": 10
+      },
+      {
+        "answer": "I like spring.",
+        "difficulty": 1,
+        "explanation": "season 询问季节，spring 是春天；其他选项分别表示爱好、天气和当前动作。",
+        "knowledge_point": "综合问答闯关",
+        "options": [
+          "I like singing.",
+          "It’s windy.",
+          "I’m drawing.",
+          "I like spring."
+        ],
+        "question": "朋友问“What season do you like?”，你要表达“我喜欢春天”。应选哪一句？",
+        "type": "choice",
+        "id": 80034,
+        "score": 10
+      },
+      {
+        "answer": "She’s a farmer.",
+        "difficulty": 2,
+        "explanation": "What does she do? 询问职业，farmer 是农民；其余选项分别描述当前动作、爱好和天气。",
+        "knowledge_point": "综合问答闯关",
+        "options": [
+          "She’s a farmer.",
+          "She’s singing now.",
+          "She likes drawing.",
+          "It’s sunny."
+        ],
+        "question": "已知一位女士的职业是农民。朋友问“What does she do?”，哪一句是正确回答？",
+        "type": "choice",
+        "id": 80035,
+        "score": 10
+      },
+      {
+        "answer": "Football, basketball, swimming.",
+        "difficulty": 2,
+        "explanation": "这一组恰好有三项运动；第一组有四项，第三组混入学科，第四组是季节。",
+        "knowledge_point": "综合问答闯关",
+        "options": [
+          "Football, basketball, swimming, running.",
+          "Football, basketball, swimming.",
+          "Football, English, swimming.",
+          "Spring, summer, winter."
+        ],
+        "question": "游戏要求“Name three sports.”，即说出三项运动。哪一组完全符合要求？",
+        "type": "choice",
+        "id": 80036,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Review·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "drum",
+        "difficulty": 2,
+        "explanation": "drum 中的 u 与 run 中的 u 都发 /ʌ/；hill、skip、will 中的 i 发 /ɪ/。",
+        "knowledge_point": "词语认读与语音归类",
+        "options": [
+          "hill",
+          "drum",
+          "will",
+          "skip"
+        ],
+        "question": "比较指定字母的读音：哪一个词中的元音字母与 run 中的 u 发音相同？",
+        "type": "choice",
+        "id": 89001,
+        "score": 10
+      },
+      {
+        "answer": "We have music and PE.",
+        "difficulty": 2,
+        "explanation": "题目给定星期二有音乐和体育，因此用 We have 列出这两门课程；其余选项分别回答星期、喜好和天气。",
+        "knowledge_point": "星期与课程问答",
+        "options": [
+          "It’s Tuesday.",
+          "I like music.",
+          "We have music and PE.",
+          "It’s sunny."
+        ],
+        "question": "假设某班星期二有音乐和体育。回答“What subjects do we have on Tuesday?”应选哪一句？",
+        "type": "choice",
+        "id": 89002,
+        "score": 10
+      },
+      {
+        "answer": "Haikou",
+        "difficulty": 1,
+        "explanation": "It will rain in Haikou. 明确说明海口将下雨；另外三句分别说明晴朗、多云和有风。",
+        "knowledge_point": "读懂天气预报",
+        "options": [
+          "Zhengzhou",
+          "Shanghai",
+          "Lanzhou",
+          "Haikou"
+        ],
+        "question": "一份预报说：“It will be sunny in Zhengzhou. It will be cloudy in Shanghai. It will be windy in Lanzhou. It will rain in Haikou.”哪个城市将下雨？",
+        "type": "choice",
+        "id": 89003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "likes singing 表示爱好，不能据此认定职业；He’s a gardener. 已明确说明他是园丁。",
+        "knowledge_point": "人物描述与职业辨认",
+        "options": [],
+        "question": "判断正误：一个人的介绍是“He likes singing. He’s a gardener.”，因此可以认定他的职业是歌手。",
+        "type": "true_false",
+        "id": 89004,
+        "score": 10
+      },
+      {
+        "answer": "I’m ten. My favourite season is winter.",
+        "difficulty": 2,
+        "explanation": "Age: 10 对应十岁；Favourite season: winter 对应最喜欢冬天。其余选项至少有一项与资料卡不符。",
+        "knowledge_point": "制作资料卡并介绍自己",
+        "options": [
+          "I’m ten. My favourite season is winter.",
+          "I’m nine. My favourite season is winter.",
+          "I’m ten. My favourite sport is winter.",
+          "I’m ten. My favourite season is spring."
+        ],
+        "question": "虚构人物的资料卡写着“Age: 10; Favourite season: winter”。哪一组介绍与这两项信息完全一致？",
+        "type": "choice",
+        "id": 89005,
+        "score": 10
+      },
+      {
+        "answer": "He’s swimming.",
+        "difficulty": 2,
+        "explanation": "问句中的 he 要用 He 回答；is swimming 表示正在游泳。I’m swimming. 换成了第一人称，另外两句不表示当前动作。",
+        "knowledge_point": "综合问答闯关",
+        "options": [
+          "I’m swimming.",
+          "He likes swimming.",
+          "He’s swimming.",
+          "He swims on Sunday."
+        ],
+        "question": "男孩 Tom 此刻正在游泳。朋友问“What’s he doing?”，你以旁观者身份回答，哪一句正确？",
+        "type": "choice",
+        "id": 89006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "只看整个词的拼写是否相似，不比较题目指定字母的读音。",
+        "将 piano 和 paper 中的字母 a 都读成相同的音。",
+        "漏认 jump 和 drum，或把这两个词读错。",
+        "把单纯辨认词尾字母当成语音归类；拼写观察不能代替辨音。",
+        "把 hill、will 中的 i 与 run、jump 中的 u 混为同一个元音。"
+      ],
+      "core_concept": "Task 1要求认读并按语音匹配。本页可确认的词有 hill、run、park、jump、skip、picture、windy、piano、paper、hospital、drum、winter、will、hurry、policeman、sunny。练习应比较指定字母或字母组合的实际读音，例如 hill 与 will 中的 i 同音，run、jump、drum 中的 u 同音；不要只比较词义或外形。",
+      "key_formula": "",
+      "point": "词语认读与语音归类",
+      "tips": "先认清单词，再读出目标部分，最后归类。结合读音提示，练习本课单词的语音归类。"
+    },
+    {
+      "common_mistakes": [
+        "用学科名称回答 What day is today?，没有回答星期。",
+        "用星期名称回答 What subjects do we have...?，没有列出课程。",
+        "在具体星期名称前误用 in 或 at；本课使用 on Monday 等表达。",
+        "书写星期名称和 Chinese、English 等学科名时忽略大写。",
+        "根据个人实际课表猜答案，没有使用题目给定的课程安排。"
+      ],
+      "core_concept": "Task 2借助转盘复习星期与课程问答。What day is today? 询问今天是星期几；What subjects do we have on Monday? 询问星期一有哪些课程。回答时分别使用 It’s + 星期名称和 We have + 学科名称。转盘是练习工具，不代表学生真实课表。",
+      "key_formula": "What day is today? — It’s + 星期名称. What subjects do we have on + 星期名称? — We have + 学科名称.",
+      "point": "星期与课程问答",
+      "tips": "先区分 day 与 subjects，再找指定星期的信息。多个学科可用 and 连接；不要将问星期、问课程和问天气混为一谈。"
+    },
+    {
+      "common_mistakes": [
+        "把 sunny、cloudy、windy 等形容词直接放在 will 后，漏掉 be。",
+        "把 It will rain. 误写成 It will be rain.；这里 rain 是动词。",
+        "只记住天气词，却将对应城市读错。",
+        "根据城市常见气候猜天气，而不是依据给定预报。",
+        "把地图上标出的全部城市都当成已经有预报；原文没有给哈尔滨补充天气。"
+      ],
+      "core_concept": "Task 3要求理解预报中城市与天气的对应关系，并将信息与地图位置和天气符号匹配。will 表示将来的情况；sunny、cloudy、windy 是天气形容词，要用 will be；rain 在 It will rain. 中作动词。只使用预报明确提供的信息。",
+      "key_formula": "It will be + 天气形容词 + in + 城市. It will rain in + 城市.",
+      "point": "读懂天气预报",
+      "tips": "每读一句就配对记录城市与天气。城市名通常在 in 后，不一定在天气词前面。符号匹配时先辨认晴、多云、有风、雨等含义，不补写原文未说明的预报。"
+    },
+    {
+      "common_mistakes": [
+        "把 He likes singing. 当成他正在唱歌；这句话表达爱好。",
+        "表达正在做的动作时漏掉 is，如把 He’s cooking. 写成 He cooking.",
+        "只凭唱歌或画画等动作猜职业，忽略明确的职业介绍。",
+        "把 He has short hair. 中的 has 换成 is。",
+        "忽略职业前的冠词：a cook、a farmer、a gardener，但用 an art teacher。"
+      ],
+      "core_concept": "Task 4通过外貌、爱好、当前动作和职业四类线索描述人物。He’s strong. 描述外貌；He likes cooking. 描述爱好；He’s cooking now. 描述当前动作；He’s a cook. 说明职业。辨认人物时要综合信息，不能将爱好或一次动作直接等同于职业。",
+      "key_formula": "He/She likes + 动词-ing. He/She is + 动词-ing. He/She is a/an + 职业名词.",
+      "point": "人物描述与职业辨认",
+      "tips": "先分清每句话说的是外貌、爱好、动作还是职业，再合并线索。he’s 在本页人物描述中表示 he is；has short hair 表示留着短发。"
+    },
+    {
+      "common_mistakes": [
+        "混淆 Class（班级）和 Grade（年级）。",
+        "把 Age（年龄）、Tel（电话）和 Email（电子邮箱）填到错误栏目。",
+        "混淆 favourite food、colour、subject、season、sport 的类别。",
+        "在 My hobby is singing. 这一表达中将 singing 误写成 sing。",
+        "照搬示例资料，不检查介绍是否与给定资料卡一致。"
+      ],
+      "core_concept": "Task 5要求制作资料卡，并根据卡片作自我介绍。栏目包括姓名、年龄、班级、年级、电话、电子邮箱、爱好，以及最喜欢的食物、颜色、学科、季节和运动。填写时先辨认类别，再将信息组织成连贯的英语句子。练习使用虚构人物即可，不要求公开真实个人联系方式。",
+      "key_formula": "I’m + 姓名或年龄. My hobby is + 动词-ing. My favourite + 类别名词 is + 内容.",
+      "point": "制作资料卡并介绍自己",
+      "tips": "先核对栏目与内容是否匹配，再按基本信息、爱好、喜好等顺序介绍。示范句可以用于练习，但不能补写成教材原文。"
+    },
+    {
+      "common_mistakes": [
+        "没有听清问题类别，答非所问。",
+        "混淆 What does he/she do?（问职业）与 What’s he/she doing?（问当前动作）。",
+        "回答第三人称动作问题时误换成 I，导致人物不一致。",
+        "遇到 Name four subjects. 或 Name three sports. 时，没有按数量要求列举。",
+        "将 forward（向前）与 backward（向后）混淆，或把 Go back to 3. 误解成后退三格。"
+      ],
+      "core_concept": "Task 6通过棋盘游戏综合复习学科、爱好、星期、是否喜欢唱歌、周日活动、季节、天气、职业、运动和当前动作。先识别问题所需的信息，再切题回答。游戏中还要理解向前、向后及返回指定格子的指令。",
+      "key_formula": "Do you like singing? — Yes, I do./No, I don’t. What does he/she do? — He/She is a/an + 职业. What’s he/she doing? — He/She is + 动词-ing.",
+      "point": "综合问答闯关",
+      "tips": "hobby 问爱好，season 问季节，weather 问天气；on Sunday 提示周日活动。列举时数清数量；Go back to 3. 表示返回第3格，不是后退3格。"
+    }
+  ]
+}

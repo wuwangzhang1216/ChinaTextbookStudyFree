@@ -1,0 +1,1780 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·数学（一年级上册）",
+  "unit": "三 走进花果山——10以内的加减法",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "三 走进花果山——10以内的加减法·配套练习",
+    "total_score": 1140,
+    "time_minutes": 114,
+    "questions": [
+      {
+        "answer": "5",
+        "difficulty": 1,
+        "explanation": "把2个和3个合起来，2+3=5，所以共有5个。",
+        "knowledge_point": "加法的意义与5以内的加法",
+        "options": [],
+        "question": "篮子里有2个梨，又放入3个梨。现在共有多少个梨？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30001,
+        "score": 10
+      },
+      {
+        "answer": "1+2",
+        "difficulty": 1,
+        "explanation": "原有1支，又放上2支，求合起来的数量，用1+2。3-2求一部分，2-1表示去掉，1+1少算了后来放上的1支。",
+        "knowledge_point": "加法的意义与5以内的加法",
+        "options": [
+          "1+1",
+          "2-1",
+          "1+2",
+          "3-2"
+        ],
+        "question": "桌上原有1支铅笔，又放上2支。求现在共有几支，应选择哪个算式？",
+        "type": "choice",
+        "id": 30002,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "把1个红球和3个蓝球合起来求总数，用加法，可以列1+3。",
+        "knowledge_point": "加法的意义与5以内的加法",
+        "options": [],
+        "question": "判断：1个红球和3个蓝球合在一起，求球的总数，可以列式1+3。",
+        "type": "true_false",
+        "id": 30003,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 1,
+        "explanation": "原有3只，又飞来1只，3+1=4。",
+        "knowledge_point": "加法的意义与5以内的加法",
+        "options": [],
+        "question": "草地上原有3只小鸟，又飞来1只。现在共有多少只？以只为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30004,
+        "score": 10
+      },
+      {
+        "answer": "2加2等于4",
+        "difficulty": 1,
+        "explanation": "“+”读作加，“=”读作等于，2+2=4读作“2加2等于4”。其余选项分别读错运算符号、得数或数字顺序。",
+        "knowledge_point": "加法的意义与5以内的加法",
+        "options": [
+          "2减2等于4",
+          "2加2等于4",
+          "2加2等于5",
+          "4加2等于2"
+        ],
+        "question": "算式2+2=4的正确读法是哪一个？",
+        "type": "choice",
+        "id": 30005,
+        "score": 10
+      },
+      {
+        "answer": "<",
+        "difficulty": 2,
+        "explanation": "1+1=2，2小于3，所以填<。>和=不符合结果，+不是这里需要的比较符号。",
+        "knowledge_point": "加法的意义与5以内的加法",
+        "options": [
+          "<",
+          ">",
+          "+",
+          "="
+        ],
+        "question": "在1+1○3的○里填哪个符号，能正确比较两边的大小？",
+        "type": "choice",
+        "id": 30006,
+        "score": 10
+      },
+      {
+        "answer": "减法",
+        "difficulty": 1,
+        "explanation": "从原有数量中拿走一部分，求剩余，应选减法。加法用于合并求总数；乘法、除法不符合这里的列式要求，也不是本课学习内容。",
+        "knowledge_point": "减法的意义与5以内的减法",
+        "options": [
+          "减法",
+          "加法",
+          "乘法",
+          "除法"
+        ],
+        "question": "盒里原有5颗珠子，拿走2颗，求还剩几颗。应使用哪种运算？",
+        "type": "choice",
+        "id": 30007,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 1,
+        "explanation": "从3块中拿走1块，剩下2块，3-1=2。",
+        "knowledge_point": "减法的意义与5以内的减法",
+        "options": [],
+        "question": "桌上有3块积木，拿走1块，还剩多少块？以块为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30008,
+        "score": 10
+      },
+      {
+        "answer": "5-1=4",
+        "difficulty": 1,
+        "explanation": "原有5朵，拿走1朵，剩下4朵，应选5-1=4。1+4=5表示合并，5+1=6表示增加，4-1=3的原有数量不符合题意。",
+        "knowledge_point": "减法的意义与5以内的减法",
+        "options": [
+          "4-1=3",
+          "1+4=5",
+          "5-1=4",
+          "5+1=6"
+        ],
+        "question": "花瓶里原有5朵花，拿走1朵。哪个等式表示求剩下的花的数量？",
+        "type": "choice",
+        "id": 30009,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "送出1个是从4个中去掉1个，应列4-1，而不是4+1。",
+        "knowledge_point": "减法的意义与5以内的减法",
+        "options": [],
+        "question": "判断：原有4个气球，送出1个，求剩下几个，应列式4+1。",
+        "type": "true_false",
+        "id": 30010,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 1,
+        "explanation": "4-2=2，所以还剩2只。",
+        "knowledge_point": "减法的意义与5以内的减法",
+        "options": [],
+        "question": "树枝上原有4只小鸟，飞走2只，还剩多少只？以只为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30011,
+        "score": 10
+      },
+      {
+        "answer": "4减3等于1",
+        "difficulty": 1,
+        "explanation": "按照数字和符号的顺序，4-3=1读作“4减3等于1”。其余三项分别读错了运算符号、数字顺序或得数。",
+        "knowledge_point": "减法的意义与5以内的减法",
+        "options": [
+          "4加3等于1",
+          "3减4等于1",
+          "4减3等于1",
+          "4减3等于2"
+        ],
+        "question": "算式4-3=1的正确读法是哪一个？",
+        "type": "choice",
+        "id": 30012,
+        "score": 10
+      },
+      {
+        "answer": "0",
+        "difficulty": 1,
+        "explanation": "2块全部拿走，一个也不剩，2-2=0。",
+        "knowledge_point": "有关0的减法",
+        "options": [],
+        "question": "盒里有2块积木，把这2块全部拿走。还剩多少块？以块为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30013,
+        "score": 10
+      },
+      {
+        "answer": "4-0=4",
+        "difficulty": 1,
+        "explanation": "原有4枚，拿走0枚，剩下4枚，应选4-0=4。4-4=0表示全部拿走；0+4=4没有按要求表示拿走；4-0=0计算错误。",
+        "knowledge_point": "有关0的减法",
+        "options": [
+          "4-4=0",
+          "4-0=4",
+          "0+4=4",
+          "4-0=0"
+        ],
+        "question": "桌上有4枚棋子，一枚也没拿走。哪个减法等式正确表示剩下的数量？",
+        "type": "choice",
+        "id": 30014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "从3个中去掉全部3个，一个也不剩，所以3-3=0。",
+        "knowledge_point": "有关0的减法",
+        "options": [],
+        "question": "判断：3-3的得数是0。",
+        "type": "true_false",
+        "id": 30015,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "减去0表示没有去掉任何数量，所以3-0=3。",
+        "knowledge_point": "有关0的减法",
+        "options": [],
+        "question": "计算3-0，只填写整数得数。",
+        "type": "calculation",
+        "id": 30016,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 2,
+        "explanation": "5-0=5，只有5正确。0把减0误当成全部减去；1和4也不等于计算结果。",
+        "knowledge_point": "有关0的减法",
+        "options": [
+          "4",
+          "1",
+          "0",
+          "5"
+        ],
+        "question": "5-0的得数是多少？",
+        "type": "choice",
+        "id": 30017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "5-5=0，5-0=5，两个得数不同。",
+        "knowledge_point": "有关0的减法",
+        "options": [],
+        "question": "判断：5-5和5-0的得数相同。",
+        "type": "true_false",
+        "id": 30018,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 1,
+        "explanation": "5支和1支合起来是6支，5+1=6。",
+        "knowledge_point": "得数是6、7的加法",
+        "options": [],
+        "question": "笔筒里有5支黑笔和1支红笔，没有其他笔。共有多少支笔？以支为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30019,
+        "score": 10
+      },
+      {
+        "answer": "3+3",
+        "difficulty": 1,
+        "explanation": "3+3=6，符合要求。3+2=5，4+3=7，2+2=4，都不等于6。",
+        "knowledge_point": "得数是6、7的加法",
+        "options": [
+          "3+3",
+          "3+2",
+          "4+3",
+          "2+2"
+        ],
+        "question": "哪个算式的得数是6？",
+        "type": "choice",
+        "id": 30020,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 1,
+        "explanation": "原有5只，又飞来2只，5+2=7。",
+        "knowledge_point": "得数是6、7的加法",
+        "options": [],
+        "question": "花丛中原有5只蝴蝶，又飞来2只。现在共有多少只蝴蝶？以只为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30021,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "从4接着数3个，应数5、6、7，所以4+3=7，不是6。",
+        "knowledge_point": "得数是6、7的加法",
+        "options": [],
+        "question": "判断：计算4+3时，从4接着数3个，得数是6。",
+        "type": "true_false",
+        "id": 30022,
+        "score": 10
+      },
+      {
+        "answer": "两排一共有几把椅子",
+        "difficulty": 2,
+        "explanation": "把两排一起括起来，问的是两部分合起来的总数，应选“两排一共有几把椅子”。前两项只问一部分，最后一项是在比较两排的数量。",
+        "knowledge_point": "得数是6、7的加法",
+        "options": [
+          "第一排有几把椅子",
+          "第二排有几把椅子",
+          "两排一共有几把椅子",
+          "第一排比第二排多几把椅子"
+        ],
+        "question": "第一排有4把椅子，第二排有2把椅子。用一条括线把两排椅子全部括在一起，括线下标“？把”。这个问号表示求什么？",
+        "type": "choice",
+        "id": 30023,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 2,
+        "explanation": "每向右跳一格增加1，从1向右跳6格，依次到2、3、4、5、6、7，最后落在7。",
+        "knowledge_point": "得数是6、7的加法",
+        "options": [],
+        "question": "一条数线从左到右依次标着0、1、2、3、4、5、6、7，相邻两个数之间是一格。从1开始向右跳6格，落在哪个数上？只填写整数。",
+        "type": "calculation",
+        "id": 30024,
+        "score": 10
+      },
+      {
+        "answer": "=",
+        "difficulty": 1,
+        "explanation": "2+3=5，3+2=5，所以应填=。>、<都不符合比较结果，+不是这里需要的比较符号。",
+        "knowledge_point": "交换相加与有关0的加法",
+        "options": [
+          "<",
+          ">",
+          "=",
+          "+"
+        ],
+        "question": "在2+3○3+2的○里填哪个符号，能正确比较两边的得数？",
+        "type": "choice",
+        "id": 30025,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 1,
+        "explanation": "加上0，没有增加数量，所以6+0=6。",
+        "knowledge_point": "交换相加与有关0的加法",
+        "options": [],
+        "question": "计算6+0，只填写整数得数。",
+        "type": "calculation",
+        "id": 30026,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "4+1=5，1+4=5。交换两个相加的数的位置，得数不变。",
+        "knowledge_point": "交换相加与有关0的加法",
+        "options": [],
+        "question": "判断：4+1和1+4的得数相同。",
+        "type": "true_false",
+        "id": 30027,
+        "score": 10
+      },
+      {
+        "answer": "0+5=5",
+        "difficulty": 1,
+        "explanation": "0+5=5既满足第一个相加的数是0，也满足得数是5。5+0=5的第一个数不是0；0+4=4的得数不是5；0+5=0计算错误。",
+        "knowledge_point": "交换相加与有关0的加法",
+        "options": [
+          "5+0=5",
+          "0+4=4",
+          "0+5=5",
+          "0+5=0"
+        ],
+        "question": "哪个等式计算正确，而且第一个相加的数是0、得数是5？",
+        "type": "choice",
+        "id": 30028,
+        "score": 10
+      },
+      {
+        "answer": "1+6",
+        "difficulty": 2,
+        "explanation": "交换6+1中两个相加的数，得到1+6。6+0等于6，1+5等于6，6+1没有交换位置。",
+        "knowledge_point": "交换相加与有关0的加法",
+        "options": [
+          "6+0",
+          "1+5",
+          "1+6",
+          "6+1"
+        ],
+        "question": "把6+1中两个相加的数交换位置，得到哪个算式？",
+        "type": "choice",
+        "id": 30029,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "0加4表示把0个和4个合起来，得数是4，不是0。",
+        "knowledge_point": "交换相加与有关0的加法",
+        "options": [],
+        "question": "判断：0+4=0。",
+        "type": "true_false",
+        "id": 30030,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 1,
+        "explanation": "6可以分成2和4，所以拿走2个后剩4个，只有4正确。",
+        "knowledge_point": "6、7的减法",
+        "options": [
+          "4",
+          "3",
+          "6",
+          "5"
+        ],
+        "question": "6个小方块拿走2个，还剩几个小方块？",
+        "type": "choice",
+        "id": 30031,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "6可以分成3和3，取走3枚后剩3枚。",
+        "knowledge_point": "6、7的减法",
+        "options": [],
+        "question": "袋里有6枚游戏币，取走3枚，还剩多少枚？以枚为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30032,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "6减去0仍是6，不是0。",
+        "knowledge_point": "6、7的减法",
+        "options": [],
+        "question": "判断：6-0=0。",
+        "type": "true_false",
+        "id": 30033,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 2,
+        "explanation": "从7向左退1格到6，再退1格到5，所以落在5上，其他选项均不对。",
+        "knowledge_point": "6、7的减法",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "question": "数线从左到右依次标着0至7，相邻两个整数之间是一格。从7开始向左跳2格，落在哪个数上？",
+        "type": "choice",
+        "id": 30034,
+        "score": 10
+      },
+      {
+        "answer": "0",
+        "difficulty": 1,
+        "explanation": "全部拿走就是拿走7颗，7-7=0。",
+        "knowledge_point": "6、7的减法",
+        "options": [],
+        "question": "桌上原有7颗棋子，把它们全部拿走后，还剩多少颗？以颗为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30035,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 2,
+        "explanation": "3+4=7，所以7-3=4，只有4正确。",
+        "knowledge_point": "6、7的减法",
+        "options": [
+          "5",
+          "4",
+          "2",
+          "3"
+        ],
+        "question": "7只小鸟飞走3只，还剩几只小鸟？",
+        "type": "choice",
+        "id": 30036,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 1,
+        "explanation": "5和3合起来是8，所以5+3=8，只有8正确。",
+        "knowledge_point": "得数是8、9的加法",
+        "options": [
+          "8",
+          "9",
+          "7",
+          "10"
+        ],
+        "question": "5个红色圆片和3个蓝色圆片合在一起，一共有几个圆片？",
+        "type": "choice",
+        "id": 30037,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 1,
+        "explanation": "把两篮的数量合起来，4+5=9。",
+        "knowledge_point": "得数是8、9的加法",
+        "options": [],
+        "question": "一篮有4个梨，另一篮有5个梨。两篮共有多少个梨？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30038,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "3+5=8，5+3=8，交换两个相加的数，得数不变。",
+        "knowledge_point": "得数是8、9的加法",
+        "options": [],
+        "question": "判断：3+5和5+3的得数相同。",
+        "type": "true_false",
+        "id": 30039,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 1,
+        "explanation": "2和7合起来是9，所以2+7=9，只有9正确。",
+        "knowledge_point": "得数是8、9的加法",
+        "options": [
+          "8",
+          "7",
+          "9",
+          "10"
+        ],
+        "question": "2只白兔和7只灰兔合在一起，一共有几只兔子？",
+        "type": "choice",
+        "id": 30040,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 2,
+        "explanation": "从2向右跳6格，依次到3、4、5、6、7、8，最后落在8上。",
+        "knowledge_point": "得数是8、9的加法",
+        "options": [],
+        "question": "数线从左到右依次标着0至9，相邻两个整数之间是一格。从2开始向右跳6格，落在哪个数上？只填写整数。",
+        "type": "calculation",
+        "id": 30041,
+        "score": 10
+      },
+      {
+        "answer": "9+0=9",
+        "difficulty": 2,
+        "explanation": "左筐有9个，右筐没有，用0表示，求两筐总数列9+0=9。其余选项不是相应加法或计算错误。",
+        "knowledge_point": "得数是8、9的加法",
+        "options": [
+          "9+0=9",
+          "9-0=9",
+          "9+0=0",
+          "9+1=10"
+        ],
+        "question": "左筐有9个球，右筐没有球。按先左筐、后右筐的顺序，哪个加法等式表示两筐球的总数？",
+        "type": "choice",
+        "id": 30042,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 1,
+        "explanation": "8可以分成3和5，所以8-3=5，只有5正确。",
+        "knowledge_point": "8、9的减法",
+        "options": [
+          "6",
+          "7",
+          "4",
+          "5"
+        ],
+        "question": "8颗糖分给同学3颗，还剩几颗糖？",
+        "type": "choice",
+        "id": 30043,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "9可以分成6和3，所以9-6=3。",
+        "knowledge_point": "8、9的减法",
+        "options": [],
+        "question": "盒里有9支蜡笔，取出6支，还剩多少支？以支为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30044,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "8-0=8，减去0时数量不变。",
+        "knowledge_point": "8、9的减法",
+        "options": [],
+        "question": "判断：8-0=0。",
+        "type": "true_false",
+        "id": 30045,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 1,
+        "explanation": "9可以分成5和4，所以9-5=4，只有4正确。",
+        "knowledge_point": "8、9的减法",
+        "options": [
+          "5",
+          "4",
+          "6",
+          "3"
+        ],
+        "question": "一共有9个气球，飞走5个，还剩几个气球？",
+        "type": "choice",
+        "id": 30046,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 2,
+        "explanation": "想5+3=8，所以8-5=3。",
+        "knowledge_point": "8、9的减法",
+        "options": [],
+        "question": "8本书拿走5本，还剩多少本书？以本为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30047,
+        "score": 10
+      },
+      {
+        "answer": "2+6=8",
+        "difficulty": 2,
+        "explanation": "计算8-6时，可想6加几等于8。2+6=8说明差是2；其余三个等式的总数或已知部分不符合。",
+        "knowledge_point": "8、9的减法",
+        "options": [
+          "3+6=9",
+          "2+6=8",
+          "2+7=9",
+          "3+5=8"
+        ],
+        "question": "想加法计算8-6，下面哪个等式能直接帮助找到得数？",
+        "type": "choice",
+        "id": 30048,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 1,
+        "explanation": "已有4个，还要补画4个才能有8个，所以□填4；其他选项不能使总数成为8。",
+        "knowledge_point": "借助图形找未知数",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "question": "纸上已有4个圆，要补画一些，使圆的总数成为8个。算式4+□=8中的□填几？",
+        "type": "choice",
+        "id": 30049,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 1,
+        "explanation": "7个加上2个是9个，所以要补画2个。",
+        "knowledge_point": "借助图形找未知数",
+        "options": [],
+        "question": "纸上从左到右排着7个正方形，要补画到9个。还要画多少个正方形？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30050,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "8个圆圈去2个后剩6个，不是5个。",
+        "knowledge_point": "借助图形找未知数",
+        "options": [],
+        "question": "判断：纸上有8个圆，圈去2个后，没有被圈的圆有5个。",
+        "type": "true_false",
+        "id": 30051,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 2,
+        "explanation": "8个三角形要留下5个，需要圈去3个，因为8-3=5，只有3正确。",
+        "knowledge_point": "借助图形找未知数",
+        "options": [
+          "3",
+          "4",
+          "5",
+          "2"
+        ],
+        "question": "纸上有8个三角形，要圈去一些，使没有被圈的三角形正好有5个。算式8-□=5中的□填几？",
+        "type": "choice",
+        "id": 30052,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 2,
+        "explanation": "已有的方格分成左边5个和右边4个，5+4=9，所以□填5。",
+        "knowledge_point": "借助图形找未知数",
+        "options": [],
+        "question": "一横排共有9个方格，右边4个涂黄色，其余涂绿色。用□+4=9记录两部分的数量，□填几？只填写整数。",
+        "type": "calculation",
+        "id": 30053,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 2,
+        "explanation": "只求圆的数量，合并3个红圆和4个蓝圆，3+4=7；2个三角形不计入。只有7正确。",
+        "knowledge_point": "借助图形找未知数",
+        "options": [
+          "9",
+          "6",
+          "7",
+          "5"
+        ],
+        "question": "纸上有3个红圆、4个蓝圆和2个黄色三角形。纸上一共有几个圆？",
+        "type": "choice",
+        "id": 30054,
+        "score": 10
+      },
+      {
+        "answer": "10",
+        "difficulty": 1,
+        "explanation": "两种颜色的圆片合起来有8+2=10个。",
+        "knowledge_point": "10的加减法",
+        "options": [],
+        "question": "8个白色圆片和2个黑色圆片合在一起，共有多少个圆片？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30055,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 1,
+        "explanation": "10可以分成6和4，所以10-6=4，只有4正确。",
+        "knowledge_point": "10的加减法",
+        "options": [
+          "5",
+          "2",
+          "4",
+          "3"
+        ],
+        "question": "10个纸杯用掉6个，还剩几个纸杯？",
+        "type": "choice",
+        "id": 30056,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "10-0=10，一个也不拿走，数量不变，不是0。",
+        "knowledge_point": "10的加减法",
+        "options": [],
+        "question": "判断：10-0=0。",
+        "type": "true_false",
+        "id": 30057,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 2,
+        "explanation": "第一堆从7个减少到6个，第二堆从3个增加到4个，合起来仍是10个。",
+        "knowledge_point": "10的加减法",
+        "options": [],
+        "question": "把10个圆片分成两堆，记录第一堆7个、第二堆3个。从第一堆移1个到第二堆后，第一堆有多少个圆片？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30058,
+        "score": 10
+      },
+      {
+        "answer": "10-8=2",
+        "difficulty": 2,
+        "explanation": "整体是10，拿走8，剩下2，用10-8=2表示；其他算式不能表示这次拿走的过程。",
+        "knowledge_point": "10的加减法",
+        "options": [
+          "10-2=8",
+          "8+2=10",
+          "8-2=6",
+          "10-8=2"
+        ],
+        "question": "桌上有10块橡皮，拿走8块。哪个等式表示求剩下的数量？",
+        "type": "choice",
+        "id": 30059,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 2,
+        "explanation": "10可以分成5和5，所以另一堆也是5个。",
+        "knowledge_point": "10的加减法",
+        "options": [],
+        "question": "用10个小石子摆成两堆，第一堆摆5个，其余全部摆在第二堆。第二堆有多少个？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30060,
+        "score": 10
+      },
+      {
+        "answer": "1",
+        "difficulty": 1,
+        "explanation": "5+2=7，8-3=5，4+1=5。只有5+2符合条件，所以有1个。",
+        "knowledge_point": "10以内加减法应用与规律探索",
+        "options": [],
+        "question": "算式5+2、8-3、4+1中，得数是7的算式有几个？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30061,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 1,
+        "explanation": "2+4=6，3+3=6，两者相同的得数是6。",
+        "knowledge_point": "10以内加减法应用与规律探索",
+        "options": [],
+        "question": "算式2+4和3+3的得数相同。这个相同的得数是多少？只填写整数。",
+        "type": "calculation",
+        "id": 30062,
+        "score": 10
+      },
+      {
+        "answer": "红色",
+        "difficulty": 2,
+        "explanation": "每三朵按红、黄、蓝的顺序重复。前六朵排完两组，第7朵是下一组的第一朵，为红色，不是其他三种颜色。",
+        "knowledge_point": "10以内加减法应用与规律探索",
+        "options": [
+          "红色",
+          "黄色",
+          "蓝色",
+          "绿色"
+        ],
+        "question": "一串花从左到右按“红、黄、蓝”这一组颜色不断重复排列。第7朵花是什么颜色？",
+        "type": "choice",
+        "id": 30063,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "6-2=4，4+2=6，4与6不同。",
+        "knowledge_point": "10以内加减法应用与规律探索",
+        "options": [],
+        "question": "判断：6-2和4+2的得数相同。",
+        "type": "true_false",
+        "id": 30064,
+        "score": 10
+      },
+      {
+        "answer": "10",
+        "difficulty": 2,
+        "explanation": "2+6=8，3+7=10，10-6=4。这三个得数中最大的是10。",
+        "knowledge_point": "10以内加减法应用与规律探索",
+        "options": [],
+        "question": "分别计算2+6、3+7、10-6。这三个算式中，最大的得数是多少？只填写整数。",
+        "type": "calculation",
+        "id": 30065,
+        "score": 10
+      },
+      {
+        "answer": "10-1",
+        "difficulty": 2,
+        "explanation": "10-1既是10减去一个数的算式，得数又是9。8+1得9但不是10减几；10-2得8；9-1得8且不是10减几。",
+        "knowledge_point": "10以内加减法应用与规律探索",
+        "options": [
+          "8+1",
+          "10-1",
+          "9-1",
+          "10-2"
+        ],
+        "question": "哪个算式既是“10减几”的算式，得数又是9？",
+        "type": "choice",
+        "id": 30066,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 1,
+        "explanation": "先算2+3=5，再算5+3=8。",
+        "knowledge_point": "10以内的连加",
+        "options": [],
+        "question": "计算2+3+3，只填写整数得数。",
+        "type": "calculation",
+        "id": 30067,
+        "score": 10
+      },
+      {
+        "answer": "4+2+1",
+        "difficulty": 2,
+        "explanation": "原有4只，再来2只和1只，三部分相加。其余选项都含减号，把其中一次增加误写成减少。",
+        "knowledge_point": "10以内的连加",
+        "options": [
+          "4+2+1",
+          "4+2-1",
+          "4-2+1",
+          "4+1-2"
+        ],
+        "question": "草地上原有4只兔子，又来了2只白兔和1只灰兔。哪个算式表示现在兔子的总数？",
+        "type": "choice",
+        "id": 30068,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 1,
+        "explanation": "先算3+2=5，再算5+2=7。",
+        "knowledge_point": "10以内的连加",
+        "options": [],
+        "question": "计算3+2+2，只填写整数得数。",
+        "type": "calculation",
+        "id": 30069,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "2+3=5，5+1=6，判断正确。",
+        "knowledge_point": "10以内的连加",
+        "options": [],
+        "question": "判断：2+3+1按从左到右计算，得数是6。",
+        "type": "true_false",
+        "id": 30070,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 2,
+        "explanation": "先算3+4=7，表示前两种蔬菜共7个；再算7+2=9。",
+        "knowledge_point": "10以内的连加",
+        "options": [],
+        "question": "篮里只有3个番茄、4个青椒和2个茄子。篮里共有多少个蔬菜？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30071,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 2,
+        "explanation": "从0向右跳2格到2，再跳4格到6，最后跳2格到8，对应2+4+2=8。",
+        "knowledge_point": "10以内的连加",
+        "options": [],
+        "question": "一条数线从左到右依次标着0至10，相邻整数间是一格。从0开始，先向右跳2格，再向右跳4格，最后向右跳2格。最后落在哪个数上？只填写整数。",
+        "type": "calculation",
+        "id": 30072,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 1,
+        "explanation": "先算9-2=7，再算7-2=5。",
+        "knowledge_point": "10以内的连减",
+        "options": [],
+        "question": "计算9-2-2，只填写整数得数。",
+        "type": "calculation",
+        "id": 30073,
+        "score": 10
+      },
+      {
+        "answer": "6-1-2",
+        "difficulty": 2,
+        "explanation": "先拿走1块再拿走2块，依次减1、减2。6-2-1虽得数相同，但顺序不符；另外两个选项把拿走写成增加。",
+        "knowledge_point": "10以内的连减",
+        "options": [
+          "6-1-2",
+          "6-2-1",
+          "6-1+2",
+          "6+1-2"
+        ],
+        "question": "盒里有6块积木，先拿走1块，又拿走2块。哪个算式严格按拿走的先后顺序表示最后剩下的块数？",
+        "type": "choice",
+        "id": 30074,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "先算8-4=4，再算4-1=3。",
+        "knowledge_point": "10以内的连减",
+        "options": [],
+        "question": "计算8-4-1，只填写整数得数。",
+        "type": "calculation",
+        "id": 30075,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "10-2=8，8-3=5，所以判断正确。",
+        "knowledge_point": "10以内的连减",
+        "options": [],
+        "question": "判断：10-2-3按从左到右计算，得数是5。",
+        "type": "true_false",
+        "id": 30076,
+        "score": 10
+      },
+      {
+        "answer": "1",
+        "difficulty": 2,
+        "explanation": "先算8-2=6，表示第一次拿走后剩6个；再算6-5=1。",
+        "knowledge_point": "10以内的连减",
+        "options": [],
+        "question": "桌上有8个纽扣，先拿走2个，再拿走5个。还剩多少个？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30077,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 2,
+        "explanation": "从9向左跳2格到7，再向左跳3格到4，对应9-2-3=4。",
+        "knowledge_point": "10以内的连减",
+        "options": [],
+        "question": "一条数线从左到右依次标着0至10，相邻整数间是一格。从9开始，先向左跳2格，再向左跳3格，最后落在哪个数上？只填写整数。",
+        "type": "calculation",
+        "id": 30078,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 1,
+        "explanation": "先算6-4=2，再算2+2=4。",
+        "knowledge_point": "10以内的加减混合",
+        "options": [],
+        "question": "计算6-4+2，只填写整数得数。",
+        "type": "calculation",
+        "id": 30079,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 1,
+        "explanation": "先算2+5=7，再算7-2=5。",
+        "knowledge_point": "10以内的加减混合",
+        "options": [],
+        "question": "计算2+5-2，只填写整数得数。",
+        "type": "calculation",
+        "id": 30080,
+        "score": 10
+      },
+      {
+        "answer": "3+4-2",
+        "difficulty": 2,
+        "explanation": "原有3条，放入4条用加法，捞出2条用减法，因此选3+4-2。其余选项分别把放入或捞出写成了错误的运算。",
+        "knowledge_point": "10以内的加减混合",
+        "options": [
+          "3+4-2",
+          "3-2+4",
+          "3+4+2",
+          "3+2-4"
+        ],
+        "question": "鱼缸里原有3条鱼，先放入4条，后来捞出2条。哪个算式严格按事情发生的先后顺序表示现在鱼的条数？",
+        "type": "choice",
+        "id": 30081,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "先算7-2=5，再算5+3=8，判断正确。",
+        "knowledge_point": "10以内的加减混合",
+        "options": [],
+        "question": "判断：7-2+3按从左到右计算，得数是8。",
+        "type": "true_false",
+        "id": 30082,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 2,
+        "explanation": "先算10-7=3，再算3+1=4。",
+        "knowledge_point": "10以内的加减混合",
+        "options": [],
+        "question": "计算10-7+1，只填写整数得数。",
+        "type": "calculation",
+        "id": 30083,
+        "score": 10
+      },
+      {
+        "answer": "先算8-5=3，再算3+4=7",
+        "difficulty": 2,
+        "explanation": "应从左到右，先减后加。先算5+4改变了运算顺序；把后一步写成减法或漏掉加4也不正确。",
+        "knowledge_point": "10以内的加减混合",
+        "options": [
+          "先算8-5=3，再算3+4=7",
+          "先算5+4=9，再算8-9",
+          "先算8-5=3，再算3-4",
+          "只算8-5=3就结束"
+        ],
+        "question": "计算8-5+4，下面哪种计算过程正确？",
+        "type": "choice",
+        "id": 30084,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 1,
+        "explanation": "先算3+2=5，表示前两次收集5张；再算5+3=8，表示最后共有8张。",
+        "knowledge_point": "两步计算解决问题",
+        "options": [],
+        "question": "小组原有3张卡片，又收集2张，后来再收到3张。现在一共有多少张？以张为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30085,
+        "score": 10
+      },
+      {
+        "answer": "4",
+        "difficulty": 2,
+        "explanation": "先算2+6=8，表示两人共做8面；再算8-4=4，表示送出后剩4面。",
+        "knowledge_point": "两步计算解决问题",
+        "options": [],
+        "question": "小美做了2面纸旗，小刚做了6面纸旗，两人合起来送出4面。还剩多少面？以面为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30086,
+        "score": 10
+      },
+      {
+        "answer": "放入后袋里共有7个球",
+        "difficulty": 2,
+        "explanation": "2+5=7算的是放入后的总数，还没有拿走3个。原有是2个，拿走是3个，最后剩4个，所以其余三个选项均不正确。",
+        "knowledge_point": "两步计算解决问题",
+        "options": [
+          "放入后袋里共有7个球",
+          "袋里原有7个球",
+          "一共拿走7个球",
+          "最后袋里剩下7个球"
+        ],
+        "question": "袋里原有2个球，放入5个，再拿走3个。按顺序列式为2+5-3。第一步算出2+5=7，这个7表示什么？",
+        "type": "choice",
+        "id": 30087,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "先算6-2=4，表示送出后剩4张；再算4+3=7，表示得到3张后共有7张。",
+        "knowledge_point": "两步计算解决问题",
+        "options": [],
+        "question": "判断：小军有6张贴纸，送出2张后又得到3张，最后有7张。",
+        "type": "true_false",
+        "id": 30088,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 2,
+        "explanation": "先算9-4=5，表示第一次取用后剩5个；再算5-3=2，表示最后剩2个。",
+        "knowledge_point": "两步计算解决问题",
+        "options": [],
+        "question": "活动桌上有9个纸杯，第一组取走4个，第二组再取走3个。桌上还剩多少个？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30089,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 3,
+        "explanation": "第一条线中，1+5=6，空格应填4；第二条线中，4+3=7，圆圈应填3。检查：1+5+4=10，4+3+3=10，两条线都符合要求。",
+        "knowledge_point": "两步计算解决问题",
+        "options": [],
+        "question": "两条直线共用一个交点，交点上是同一个空格。第一条线上的三个位置依次填1、5、空格；第二条线上的三个位置依次填空格、3、圆圈。要求每条线上的三个数相加都得10。圆圈里填几？只填写整数。",
+        "type": "calculation",
+        "id": 30090,
+        "score": 10
+      },
+      {
+        "answer": "8-3",
+        "difficulty": 2,
+        "explanation": "8-3=5；8-2=6，7-3=4，9-2=7。只有8-3的得数是5。",
+        "knowledge_point": "回顾整理与算式表",
+        "options": [
+          "8-3",
+          "9-2",
+          "8-2",
+          "7-3"
+        ],
+        "question": "整理减法算式时，要找出得数是5的算式。下面哪个符合要求？",
+        "type": "choice",
+        "id": 30091,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "1+6=7，2+5=7，3+4=7，三个算式的得数都相同。",
+        "knowledge_point": "回顾整理与算式表",
+        "options": [],
+        "question": "判断：按得数分类时，1+6、2+5、3+4可以分在同一组。",
+        "type": "true_false",
+        "id": 30092,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 1,
+        "explanation": "从左到右计算，先算1+4=5，再算5+3=8。",
+        "knowledge_point": "回顾整理与算式表",
+        "options": [],
+        "question": "计算1+4+3，只填写整数得数。",
+        "type": "calculation",
+        "id": 30093,
+        "score": 10
+      },
+      {
+        "answer": "都是从8里面减去一个数",
+        "difficulty": 2,
+        "explanation": "三个算式的被减数都是8；得数分别是6、4、2，并不相同，减去的数也不同，且都不是加法。",
+        "knowledge_point": "回顾整理与算式表",
+        "options": [
+          "都是从8里面减去一个数",
+          "得数都是4",
+          "减去的数都相同",
+          "都是加法算式"
+        ],
+        "question": "把8-2、8-4、8-6放在一组。这三个算式有什么共同点？",
+        "type": "choice",
+        "id": 30094,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "应先算左边的9-4=5，再算5+2=7，不能先算4+2。",
+        "knowledge_point": "回顾整理与算式表",
+        "options": [],
+        "question": "判断：计算9-4+2时，应先算4+2。",
+        "type": "true_false",
+        "id": 30095,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 2,
+        "explanation": "先算10-5=5，再算5-3=2。",
+        "knowledge_point": "回顾整理与算式表",
+        "options": [],
+        "question": "计算10-5-3，只填写整数得数。",
+        "type": "calculation",
+        "id": 30096,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 1,
+        "explanation": "9可以分成3和6，所以3+6=9，空格填6。",
+        "knowledge_point": "综合练习：加减关系与填数",
+        "options": [],
+        "question": "填数：3+□=9。□里填几？只填写整数。",
+        "type": "calculation",
+        "id": 30097,
+        "score": 10
+      },
+      {
+        "answer": "8-5=3",
+        "difficulty": 1,
+        "explanation": "总数是8，已知盒内有5支，求盒外数量用8-5。8+5是再次相加，5-3不是用总数求部分，8-3求的是盒内数量。",
+        "knowledge_point": "综合练习：加减关系与填数",
+        "options": [
+          "8-3=5",
+          "5-3=2",
+          "8-5=3",
+          "8+5=13"
+        ],
+        "question": "一共有8支彩笔，盒内有5支，其余都在盒外。哪个算式表示盒外有多少支彩笔？",
+        "type": "choice",
+        "id": 30098,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "4与6合成10；从10里面去掉其中的4，剩下另一个部分6。",
+        "knowledge_point": "综合练习：加减关系与填数",
+        "options": [],
+        "question": "判断：知道4+6=10，可以用总数和部分的关系得到10-4=6。",
+        "type": "true_false",
+        "id": 30099,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 2,
+        "explanation": "7比8少1，其他选项2、4、5分别比8少6、4、3，所以7最接近8。",
+        "knowledge_point": "综合练习：加减关系与填数",
+        "options": [
+          "2",
+          "4",
+          "5",
+          "7"
+        ],
+        "question": "小明收集了8张卡片。下面四个数量中，哪个与8张最接近？选项中的数都以张为单位。",
+        "type": "choice",
+        "id": 30100,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 2,
+        "explanation": "10可以分成6和4，去掉6就剩4，所以空格填6；检查10-6=4。",
+        "knowledge_point": "综合练习：加减关系与填数",
+        "options": [],
+        "question": "填数：10-□=4。□里填几？只填写整数。",
+        "type": "calculation",
+        "id": 30101,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "2+5=7，5+2=7，7-2=5均正确；最后一道应为7-5=2，不是3。",
+        "knowledge_point": "综合练习：加减关系与填数",
+        "options": [],
+        "question": "判断：用2个红球、5个蓝球和总数7个球的关系写出2+5=7、5+2=7、7-2=5、7-5=3，这四个等式全部正确。",
+        "type": "true_false",
+        "id": 30102,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 2,
+        "explanation": "先算9-5=4，再算4+4=8。",
+        "knowledge_point": "综合练习：计算与生活应用",
+        "options": [],
+        "question": "计算9-5+4，只填写整数得数。",
+        "type": "calculation",
+        "id": 30103,
+        "score": 10
+      },
+      {
+        "answer": "7-2+4",
+        "difficulty": 2,
+        "explanation": "原有7人，先下车2人用减法，再上车4人用加法。其他选项分别弄反了至少一次变化方向。",
+        "knowledge_point": "综合练习：计算与生活应用",
+        "options": [
+          "7-2+4",
+          "7+2-4",
+          "7-2-4",
+          "7+2+4"
+        ],
+        "question": "车上原有7人，到站先下车2人，再上车4人。哪个算式严格按变化顺序表示现在车上的人数？",
+        "type": "choice",
+        "id": 30104,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "左边3+6=9，右边10-2=8，9比8大。",
+        "knowledge_point": "综合练习：计算与生活应用",
+        "options": [],
+        "question": "判断：3+6>10-2。",
+        "type": "true_false",
+        "id": 30105,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 2,
+        "explanation": "先付出2元，剩9-2=7元；再付出4元，剩7-4=3元。",
+        "knowledge_point": "综合练习：计算与生活应用",
+        "options": [],
+        "question": "小林有9元，买一支笔付2元，再买一本本子付4元。还剩多少元？以元为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30106,
+        "score": 10
+      },
+      {
+        "answer": "起点→甲→终点",
+        "difficulty": 3,
+        "explanation": "起点1+6=7，甲9-4+2=7，终点8-1=7，均符合要求。乙的得数是8，丙是6，丁是5，经过这些位置的路线都不符合要求。",
+        "knowledge_point": "综合练习：计算与生活应用",
+        "options": [
+          "起点→乙→终点",
+          "起点→甲→终点",
+          "起点→丁→终点",
+          "起点→丙→终点"
+        ],
+        "question": "有四条路线，分别是“起点→甲→终点”“起点→乙→终点”“起点→丙→终点”“起点→丁→终点”，每条路线的相邻位置都有路相连。起点写1+6，终点写8-1，甲写9-4+2，乙写4+4，丙写10-4，丁写8-3。要求经过的每个位置得数都是7，应走哪条路线？",
+        "type": "choice",
+        "id": 30107,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "先放入2个，盘中有3+2=5个；再拿走4个，剩5-4=1个，不是3个。",
+        "knowledge_point": "综合练习：计算与生活应用",
+        "options": [],
+        "question": "判断：盘里原有3个橘子，先放入2个，再拿走4个，最后还剩3个。",
+        "type": "true_false",
+        "id": 30108,
+        "score": 10
+      },
+      {
+        "answer": "3+4=7",
+        "difficulty": 1,
+        "explanation": "只求小朋友人数，应把3名女孩和4名男孩相加；2只蝴蝶不计入人数。其余三个算式都没有正确表示小朋友总数。",
+        "knowledge_point": "我学会了吗：综合评价",
+        "options": [
+          "4+2=6",
+          "3+2=5",
+          "4-3=1",
+          "3+4=7"
+        ],
+        "question": "公园里有3名女孩、4名男孩和2只蝴蝶，没有其他小朋友。求小朋友一共有多少名，应选哪个算式？",
+        "type": "choice",
+        "id": 30109,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "只给出了花的数量，没有给出蜜蜂数量，不能据此求出蜜蜂总数。",
+        "knowledge_point": "我学会了吗：综合评价",
+        "options": [],
+        "question": "判断：只知道花坛里有4朵红花和5朵黄花，就能算出花坛旁有几只蜜蜂。",
+        "type": "true_false",
+        "id": 30110,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 2,
+        "explanation": "先算两篮共有2+5=7个，再算7-1=6个。",
+        "knowledge_point": "我学会了吗：综合评价",
+        "options": [],
+        "question": "两篮苹果分别有2个和5个，合在一起后取走1个。还剩多少个苹果？以个为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30111,
+        "score": 10
+      },
+      {
+        "answer": "第一步求两堆合起来有多少块",
+        "difficulty": 2,
+        "explanation": "2+4表示合并两堆的数量，第二步才减去用掉的3块。因此第一步不是求用掉的、剩下的或两堆相差的数量。",
+        "knowledge_point": "我学会了吗：综合评价",
+        "options": [
+          "第一步求两堆合起来有多少块",
+          "第一步求用掉多少块",
+          "第一步求最后剩下多少块",
+          "第一步求两堆相差多少块"
+        ],
+        "question": "两堆积木分别有2块和4块，合并后用掉3块。用2+4-3求剩下的块数，第一步2+4求的是什么？",
+        "type": "choice",
+        "id": 30112,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "检查不仅要重新计算，也要确认所用数量和运算符合问题，避免算得对却答非所问。",
+        "knowledge_point": "我学会了吗：综合评价",
+        "options": [],
+        "question": "判断：解答生活中的加减法问题后，既要检查计算，也要检查算式是不是在解决题目所问的问题。",
+        "type": "true_false",
+        "id": 30113,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 1,
+        "explanation": "求还留在树枝上的数量，用原有数量减去飞走数量，8-3=5。",
+        "knowledge_point": "我学会了吗：综合评价",
+        "options": [],
+        "question": "树枝上原有8只鸟，飞走3只，没有其他鸟飞来。树枝上还剩多少只鸟？以只为单位，只填写整数。",
+        "type": "calculation",
+        "id": 30114,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "三 走进花果山——10以内的加减法·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "3",
+        "difficulty": 1,
+        "explanation": "把两部分合起来，用加法计算。1+2=3，所以共有3枚。",
+        "knowledge_point": "加法的意义与5以内的加法",
+        "options": [],
+        "question": "小盒里原有1枚棋子，又放入2枚。现在共有多少枚棋子？以枚为单位，只填写整数。",
+        "type": "calculation",
+        "id": 39001,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 1,
+        "explanation": "7可以分成5和2，拿走5颗后剩2颗；其余三个选项均不符合。",
+        "knowledge_point": "6、7的减法",
+        "options": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "question": "盘里有7颗杏，拿走5颗，还剩几颗？",
+        "type": "choice",
+        "id": 39002,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 1,
+        "explanation": "从左到右计算，先算1+5=6，再算6+3=9。",
+        "knowledge_point": "10以内的连加",
+        "options": [],
+        "question": "计算1+5+3，只填写整数得数。",
+        "type": "calculation",
+        "id": 39003,
+        "score": 10
+      },
+      {
+        "answer": "6+2",
+        "difficulty": 2,
+        "explanation": "6+2=8，与2+6的得数相同；6-2=4，2+5=7，9-2=7，均不符合。",
+        "knowledge_point": "回顾整理与算式表",
+        "options": [
+          "9-2",
+          "6-2",
+          "6+2",
+          "2+5"
+        ],
+        "question": "把得数相同的算式分在一组。哪个算式应与2+6分在同一组？",
+        "type": "choice",
+        "id": 39004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "原有3本，借出1本，求剩余，用减法。3-1=2，列式正确。",
+        "knowledge_point": "减法的意义与5以内的减法",
+        "options": [],
+        "question": "判断：书架上有3本书，借出1本，求还剩几本，可以列式3-1。",
+        "type": "true_false",
+        "id": 39005,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 1,
+        "explanation": "把两盒的数量合起来，6+2=8。",
+        "knowledge_point": "得数是8、9的加法",
+        "options": [],
+        "question": "一盒有6枚徽章，另一盒有2枚。两盒共有多少枚徽章？以枚为单位，只填写整数。",
+        "type": "calculation",
+        "id": 39006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把两部分合起来误当作去掉一部分。",
+        "只数其中一部分，漏掉另一部分。",
+        "把加号读成减号，或漏写等号。",
+        "接着数时重复数起始数，使得数多1。"
+      ],
+      "core_concept": "把两部分合起来求一共有多少，用加法。符号“+”叫加号，“=”叫等号。例如2+1=3，读作“2加1等于3”。两部分的数量分别写在加号两边，合起来的总数写在等号后面。可以把物品合起来数、接着数或利用数的组成计算得数不超过5的加法，也可以先计算再比较大小。",
+      "key_formula": "一部分的数量+另一部分的数量=总数。",
+      "point": "加法的意义与5以内的加法",
+      "tips": "先找齐两部分，再合起来求总数。接着数时，原来有几个，就从这个数后面的数开始数；例如从2接着数1个，要数3。"
+    },
+    {
+      "common_mistakes": [
+        "把拿走一部分、求剩余的问题用加法计算。",
+        "把拿走的数量写在减号前面，颠倒原有数量和拿走数量。",
+        "倒着数时把起始数当作已经减去1次，造成少算或多算。"
+      ],
+      "core_concept": "从原有的总数中去掉一部分，求剩下多少，用减法。符号“-”叫减号，“=”叫等号。例如4-1=3，读作“4减1等于3”。减号前写原有的总数，减号后写去掉的数量，等号后写剩下的数量。可以拿走学具、画线划去物品或利用数的分解计算5以内的减法。",
+      "key_formula": "原有的数量-去掉的数量=剩下的数量。",
+      "point": "减法的意义与5以内的减法",
+      "tips": "先说清原有多少、去掉多少、求什么。计算时只去掉题目指定的数量，最后数清剩余数量；与合起来求总数的加法情境作比较。"
+    },
+    {
+      "common_mistakes": [
+        "把一个数减0误算成0。",
+        "全部拿走后仍写原来的数量。",
+        "把减去0与减去原来的全部数量混为一谈。"
+      ],
+      "core_concept": "从几个物品中把这些物品全部拿走，一个也不剩，用0表示剩余数量，所以相同的两个数相减得0。一个数减0，表示一个也没有去掉，得数仍是原来的数。0也是数，要按照它在情境中的意思参与计算。本课结合5以内的数量理解和练习。",
+      "key_formula": "一个数-它本身=0；一个数-0=这个数。",
+      "point": "有关0的减法",
+      "tips": "先判断去掉的是全部还是0个。全部去掉，剩下0；一个也不去掉，原来的数量不变。可以摆物品验证。"
+    },
+    {
+      "common_mistakes": [
+        "接着数时重复数已有的数量，使得数多1。",
+        "把要接着数的次数弄错。",
+        "把表示总数的括线误看成只表示一部分。",
+        "没有把两个部分全部计入总数。"
+      ],
+      "core_concept": "把两部分合起来求总数，仍用加法。本课学习得数是6或7的加法，可以摆学具、接着数或利用6和7的组成计算。例如已有5个，再添1个，就接着数6，得到5+1=6。用一条括线把两部分括在一起并标上问号，表示求两部分的总数；数线上向右增加，每相邻两个整数之间的一格表示1。",
+      "key_formula": "两部分的数量相加=总数；本课重点得数为6或7。",
+      "point": "得数是6、7的加法",
+      "tips": "接着数时要数够次数，不重复数起始数。也可以用6、7的分与合检查结果。讲加法故事时，要说清两部分各有多少，再提出一共有多少的问题。"
+    },
+    {
+      "common_mistakes": [
+        "认为交换两个相加的数的位置后，得数也会改变。",
+        "把一个数加0误算成0。",
+        "只看算式中有没有相同的数，不检查是否确实交换了两个数的位置。"
+      ],
+      "core_concept": "两个数相加，交换这两个数的位置，得数不变。可以摆两组物品，交换两组的位置后再数一数，验证总数没有变化。0表示一个也没有，一个数加0，或者0加一个数，得数都是原来的那个数；0+0=0。本课通过操作和具体算式认识这些现象，不要求记忆运算定律名称。",
+      "key_formula": "两个数相加，交换位置，得数不变；一个数+0=这个数；0+一个数=这个数；0+0=0。",
+      "point": "交换相加与有关0的加法",
+      "tips": "交换位置时，两个相加的数都要保留，只改变先后顺序。遇到加0，可以想：没有添入任何物品，总数不变。"
+    },
+    {
+      "common_mistakes": [
+        "把拿走的数量当成剩下的数量。",
+        "倒着数时把起点算成退的一步，造成多退或少退。",
+        "把减去0和全部减去混淆。"
+      ],
+      "core_concept": "从6或7中去掉一部分，求剩下多少，用减法。可以倒着数，可以根据6、7的组成计算，也可以想加法算减法。整体分成两部分，知道整体和其中一部分，就能求另一部分。",
+      "key_formula": "如：3+4=7，7-3=4，7-4=3；6-0=6，7-7=0。",
+      "point": "6、7的减法",
+      "tips": "数线上从左到右的数依次增大，减几就从起点向左退几格，不把起点算作一步。算完把剩下的数量与拿走的数量相加，检查是否等于原来的数量。"
+    },
+    {
+      "common_mistakes": [
+        "合并两部分时漏数或重复数。",
+        "交换两部分的位置后误以为总数会改变。",
+        "把一个数加0算成0，或求总数时误用减法。"
+      ],
+      "core_concept": "把两部分合起来求一共有多少，用加法。利用8、9的组成，可以计算得数是8或9的加法。可以把两部分一起数，也可以从一个数接着往后数；交换两部分的位置，总数不变。",
+      "key_formula": "如：6+2=8，2+6=8；6+3=9，3+6=9；9+0=9。",
+      "point": "得数是8、9的加法",
+      "tips": "先分清两部分分别是多少，再合起来求总数。接着数时，起点不算新添的一个。可以用交换两个相加的数的方法检查，也可以用实物或数线表示计算过程。"
+    },
+    {
+      "common_mistakes": [
+        "把去掉的数量和剩下的数量混淆。",
+        "倒着数时多退或少退一步。",
+        "列减法时没有把整体放在减号前面。"
+      ],
+      "core_concept": "从8或9中去掉一部分，求剩下的部分，用减法。可以利用8、9的组成，也可以想几加上去掉的数量等于原来的数量。同一幅表示整体与两部分的图，可以联系加法和减法。",
+      "key_formula": "如：2+7=9，7+2=9，9-2=7，9-7=2。",
+      "point": "8、9的减法",
+      "tips": "先说清原来有多少、去掉多少、求什么，再列式。可以圈去相应数量的图形数剩下的，也可以在数线上向左退。最后用剩下的数量加上去掉的数量检查。"
+    },
+    {
+      "common_mistakes": [
+        "把还要补画的数量误当成最后的总数。",
+        "把圈去的数量与没有圈去的数量混淆。",
+        "填数后不检查算式，或重复计算同一个图形。"
+      ],
+      "core_concept": "用圆、三角形、正方形等表示数量，可以通过补画或圈去找到算式中缺少的数。补画时看已有多少、要达到多少；圈去时看原有多少、要剩多少。填出的数必须同时符合图形数量和算式关系，不需要使用移项方法。",
+      "key_formula": "已有数量+补画数量=总数量；原有数量-圈去数量=剩下数量。",
+      "point": "借助图形找未知数",
+      "tips": "先数清已有图形，再按目标补画或圈去；每个图形只数一次。把找到的数填回□，重新算一遍。综合情境中只选择与所问问题有关的数量。"
+    },
+    {
+      "common_mistakes": [
+        "把分成两部分误解成必须分得同样多。",
+        "记录分法时没有按顺序变化，出现遗漏。",
+        "求另一部分时误把两部分相加，或把10-0算成0。"
+      ],
+      "core_concept": "把10个物品分成两部分，两部分不一定同样多，但合起来都是10。摆一摆，把一边的数量依次减少1，另一边依次增加1，可以有序探索10的组成，用表格记录并交流。知道两部分可以用加法求整体，知道整体10和一部分可以用减法求另一部分。同一组分法可以联系相应的加法和减法。",
+      "key_formula": "如：2+8=10，8+2=10，10-2=8，10-8=2。",
+      "point": "10的加减法",
+      "tips": "先用10个实物分堆，再记录两边各有几个。交换两部分的位置，总数不变；两部分同样多时，交换后算式相同。还可以想一想一边是0时的情况。记录后用两部分相加是否等于10来检查。"
+    },
+    {
+      "common_mistakes": [
+        "把符合条件的算式个数误写成某个算式的得数。",
+        "比较算式时不计算，只比较算式中的某一个数。",
+        "按条件分类时漏查算式，或把不符合条件的算式算进去。",
+        "没有找到完整的重复顺序，就猜后面的颜色。",
+        "把第几朵表示的位置与有几朵表示的数量混淆。"
+      ],
+      "core_concept": "运用10以内的一步加减法，解决按得数分类、比较大小、按条件选择算式和讲数学故事等问题。分类前先计算，再逐个核对条件。探索颜色排列时，从头观察哪一段颜色按相同顺序重复，再按这个顺序接着排；第几表示位置，几朵表示数量。",
+      "key_formula": "",
+      "point": "10以内加减法应用与规律探索",
+      "tips": "先看问题求的是得数、数量还是位置。比较时算出两边的结果；分类时逐项检查。找排列规律可用手指按顺序指读，把重复的一段圈出来，不必使用复杂的计算方法。"
+    },
+    {
+      "common_mistakes": [
+        "漏掉一组，或把同一组重复计算。",
+        "只算前两个数，没有继续加第三个数。",
+        "第二步没有接着第一步的得数算。",
+        "数线上的落点与跳过的格数混淆。"
+      ],
+      "core_concept": "连加可以表示把三个部分合起来，也可以表示原有数量连续增加两次。计算时按从左到右的顺序，先算前两个数的和，再加第三个数。合并三部分时也可以改变各部分的书写顺序，但每部分都要且只能计入一次。",
+      "key_formula": "",
+      "point": "10以内的连加",
+      "tips": "先分清三个部分各有多少，用两个加号连接。计算时记住中间得数，再继续加。可用摆学具、按种类计数或在数线上向右跳来检查，各步数量都保持在10以内。"
+    },
+    {
+      "common_mistakes": [
+        "把后两个数先相减，再用原总数减所得的数。",
+        "第二次仍从原总数中减，没有从第一次剩下的数量中减。",
+        "漏减一部分，或把去掉的数量当成最后剩下的数量。",
+        "读连续图或数线时，混淆每次减少的数量。"
+      ],
+      "core_concept": "连减可以表示从原有数量中连续去掉两部分。按从左到右的顺序，先求第一次去掉后剩下多少，再从这个剩余数量中去掉第二部分。每一步的得数都表示当时剩下的数量。",
+      "key_formula": "",
+      "point": "10以内的连减",
+      "tips": "按“原有多少、第一次去掉多少、第二次去掉多少”讲清过程。摆物时分两次拿走，计算时记住第一次的剩余数。数线上向左移动表示减少，移动几格就减几。"
+    },
+    {
+      "common_mistakes": [
+        "认为有加有减就要一律先算加法。",
+        "没有按事情发生的顺序列式。",
+        "只完成第一步，漏算后一步。",
+        "第二步仍用原来的数量计算，没有接着中间结果算。"
+      ],
+      "core_concept": "一个算式里既有加法又有减法，就是加减混合算式。数量先减少后增加，按顺序写减法再写加法；先增加后减少，按顺序写加法再写减法。本课不含括号的算式按从左到右的顺序计算，第二步接着第一步的结果算。",
+      "key_formula": "",
+      "point": "10以内的加减混合",
+      "tips": "先说清开始有多少、先发生什么、后发生什么，再列式。用手指从左向右指着算，记住中间得数；增加用加法，减少用减法，不能一律先加后减。"
+    },
+    {
+      "common_mistakes": [
+        "只用两个条件，遗漏另一次增加或减少。",
+        "列式的加减号不符合合并、取走等实际含义。",
+        "不知道中间得数表示什么，第二步用错数量。",
+        "填数时只满足一条线，没有检查其他线。"
+      ],
+      "core_concept": "根据实际问题中的三部分数量或两次变化，选择连加、连减或加减混合算式解决问题。先明确第一步求什么，再用中间结果完成第二步，并说明每一步的实际意义。连线填数时，每条线上的三个数都要满足规定的和，填好后逐条检查。",
+      "key_formula": "",
+      "point": "两步计算解决问题",
+      "tips": "边读题边说出开始的数量和后面的变化，按题意列式，不是把数字随意连接。先求中间数量，再求最终数量。遇到连线求和，先从已知两个数的线入手，再利用得到的数求其他空位，不用括号运算。"
+    },
+    {
+      "common_mistakes": [
+        "没有看清算式表的排列方式，就认定横行或竖列的得数一定相同。",
+        "把“得数相同”与“相加的某个数相同”混为一谈。",
+        "连续计算时先算右边，没有把第一步的得数接着用于第二步。"
+      ],
+      "core_concept": "把两部分合起来求总数用加法，从总数中去掉一部分求剩余用减法。整理算式时，可以找得数相同的算式，也可以找某个相加数相同或被减数相同的算式。教材加法表每一横行的得数相同，减法表每一横行的被减数相同；其他规律应结合具体排列观察。连加、连减和加减混合都按从左到右的顺序计算。",
+      "key_formula": "",
+      "point": "回顾整理与算式表",
+      "tips": "先说清按什么标准分类，再逐个计算核对。观察算式表时，可以先选相邻的两三个算式，比较哪些数没变、哪些数变了、得数怎样变化；不要把一种表的规律套到所有表中。"
+    },
+    {
+      "common_mistakes": [
+        "填空时把等号另一边的总数直接填进空格，没有检查。",
+        "混淆总数和两个部分，把求部分也列成加法。",
+        "认为“差不多”就是完全相等，或在没有选项和比较标准时认定只有一个答案。",
+        "一图四式中减法的起始数没有使用总数。"
+      ],
+      "core_concept": "复习10以内的一步加减法，区分总数和部分。知道两部分可以相加求总数，知道总数和一个部分可以用减法求另一部分；据此填数，并把数放回原式检查。两个不同的非零部分和总数可以联系写出两道加法、两道减法。还可与同伴轮流说算式、记录核对，并借助具体数量比较“差不多”。",
+      "key_formula": "",
+      "point": "综合练习：加减关系与填数",
+      "tips": "填数时用数的组成思考，不必使用字母或代数解法。记录同伴说出的算式时，要核对数字、符号和得数。判断哪个数量更接近时，可以比较它们与已知数量分别相差几个。"
+    },
+    {
+      "common_mistakes": [
+        "连续计算时改变运算顺序，或漏算一步。",
+        "把上车与下车、增加与拿走的方向弄反。",
+        "比较算式大小时只看其中一个数字，没有先算得数。",
+        "寻找路径时只看得数，不检查路线是否相连，或漏检中间算式。"
+      ],
+      "core_concept": "综合计算10以内的连加、连减和加减混合，按给定得数选择算式，并进行加几、减几的运算转换。比较算式时先分别计算。解决乘车、购物和连续变化问题时选取有关信息，按变化过程列式。计算路径活动既要检查每个算式的得数，也要检查相邻位置是否有路相连。购物时运用题目给出的元数进行加减。",
+      "key_formula": "",
+      "point": "综合练习：计算与生活应用",
+      "tips": "先用自己的话说出数量怎样变化，再列式。连续运算从左到右逐步算；做路径题时，每经过一个位置都检查得数。算完后联系情境检查：拿走后应减少，放入后应增加。"
+    },
+    {
+      "common_mistakes": [
+        "把不同种类的对象全部相加，忽略问题实际要求数什么。",
+        "提出问题时使用了场景中没有提供的数量信息。",
+        "只报得数，说不清每一步求的是什么，或没有检查结果。"
+      ],
+      "core_concept": "在综合场景中先辨认对象，再整理与问题有关的数量，提出能由已知信息解决的问题。求几部分的总数用加法，求去掉后剩下多少用减法；两步问题要说清每一步求什么。通过列式、计算、解释和检查评价自己的学习，也回顾是否积极提问、认真思考、参与合作并尝试应用。",
+      "key_formula": "",
+      "point": "我学会了吗：综合评价",
+      "tips": "可以按“问什么—知道什么—怎样算—结果表示什么”的顺序说明。与同伴交流时先独立思考，再比较方法；检查时既看计算是否正确，也看选取的对象和数量是否符合问题。"
+    }
+  ]
+}

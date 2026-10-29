@@ -1,0 +1,627 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）五年级上册",
+  "unit": "Unit 2 Feelings",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2 Feelings·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "He's reading.",
+        "difficulty": 1,
+        "explanation": "He's reading.使用is加动词-ing描述正在读书；其余选项的动词形式不符合本句要求。",
+        "knowledge_point": "He's excited.",
+        "options": [
+          "He's reading.",
+          "He reading.",
+          "He's read.",
+          "He's reads."
+        ],
+        "question": "哪句话正确表达“他正在读书”？",
+        "type": "choice",
+        "id": 20001,
+        "score": 10
+      },
+      {
+        "answer": "She's happy.",
+        "difficulty": 1,
+        "explanation": "She's是She is的缩写，后接形容词happy；其他三项分别漏掉be动词、误用副词或主谓搭配错误。",
+        "knowledge_point": "He's excited.",
+        "options": [
+          "She's happy.",
+          "She happy.",
+          "She's happily.",
+          "She are happy."
+        ],
+        "question": "哪句话正确表达“她很高兴”？",
+        "type": "choice",
+        "id": 20002,
+        "score": 10
+      },
+      {
+        "answer": "Don't be sad. I can help you.",
+        "difficulty": 1,
+        "explanation": "第一项既安慰对方不要难过，又表示愿意帮助；其余选项没有同时表达这两层意思。",
+        "knowledge_point": "He's excited.",
+        "options": [
+          "Don't be sad. I can help you.",
+          "I'm happy. Goodbye.",
+          "You're angry. Come here.",
+          "It's raining. I'm dancing."
+        ],
+        "question": "同伴丢了铅笔，很难过。你想说“别难过，我可以帮助你”，应选哪项？",
+        "type": "choice",
+        "id": 20003,
+        "score": 10
+      },
+      {
+        "answer": "watching",
+        "difficulty": 2,
+        "explanation": "now提示正在进行的动作；is后接watching。watch、watches和watched都不能与这里的is构成所需表达。",
+        "knowledge_point": "He's excited.",
+        "options": [
+          "watching",
+          "watches",
+          "watched",
+          "watch"
+        ],
+        "question": "选择合适的词：Tom is _____ a football game now.",
+        "type": "choice",
+        "id": 20004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "angry表示生气的，描述情绪；句子没有说明他正在做什么动作。",
+        "knowledge_point": "He's excited.",
+        "options": [],
+        "question": "判断：“He is angry.”说明了他正在做什么动作。",
+        "type": "true_false",
+        "id": 20005,
+        "score": 10
+      },
+      {
+        "answer": "am",
+        "difficulty": 1,
+        "explanation": "主语I与am搭配。is、are与这里的I不搭配，be原形不能直接填入。",
+        "knowledge_point": "He's excited.",
+        "options": [
+          "is",
+          "be",
+          "are",
+          "am"
+        ],
+        "question": "选择合适的词：I _____ excited now.",
+        "type": "choice",
+        "id": 20006,
+        "score": 10
+      },
+      {
+        "answer": "Was",
+        "difficulty": 1,
+        "explanation": "yesterday表示过去，单数主语Lily用was；Were与主语不搭配，Is和Are不符合这里的过去时间。",
+        "knowledge_point": "Was he happy?",
+        "options": [
+          "Were",
+          "Is",
+          "Was",
+          "Are"
+        ],
+        "question": "选择合适的词：_____ Lily happy yesterday?",
+        "type": "choice",
+        "id": 20007,
+        "score": 10
+      },
+      {
+        "answer": "Yes, he was.",
+        "difficulty": 1,
+        "explanation": "Lucy回答的是Mark的情况，保留第三人称he；问句用Was，肯定回答用was。其他选项的时态或主谓搭配错误。",
+        "knowledge_point": "Was he happy?",
+        "options": [
+          "Yes, he was.",
+          "Yes, he is.",
+          "Yes, he were.",
+          "Yes, he are."
+        ],
+        "question": "Amy问Lucy：“Was Mark excited yesterday?” Lucy知道Mark昨天确实很兴奋。Lucy应怎样回答？",
+        "type": "choice",
+        "id": 20008,
+        "score": 10
+      },
+      {
+        "answer": "No, I wasn't.",
+        "difficulty": 1,
+        "explanation": "Ben回答自己的过去状态，应把you换成I，并用wasn't；其余选项的人称、时态或主谓搭配不合适。",
+        "knowledge_point": "Was he happy?",
+        "options": [
+          "No, I wasn't.",
+          "No, you weren't.",
+          "No, I am not.",
+          "No, I weren't."
+        ],
+        "question": "Amy问Ben：“Were you worried yesterday?” Ben昨天并不担心。Ben应怎样回答？",
+        "type": "choice",
+        "id": 20009,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "you在这里应与were搭配，正确问句是“Were you sad yesterday?”。",
+        "knowledge_point": "Was he happy?",
+        "options": [],
+        "question": "判断：“Was you sad yesterday?”是主语与be动词搭配正确的问句。",
+        "type": "true_false",
+        "id": 20010,
+        "score": 10
+      },
+      {
+        "answer": "worried",
+        "difficulty": 2,
+        "explanation": "形容词worried表示担心的，放在was后描述妈妈当时的情绪；其他三项均不表示担心。",
+        "knowledge_point": "Was he happy?",
+        "options": [
+          "worried",
+          "happy",
+          "excited",
+          "angry"
+        ],
+        "question": "妈妈昨天因为孩子迟迟没有回家而担心。选择准确表达“担心的”的词：Mum was _____ yesterday.",
+        "type": "choice",
+        "id": 20011,
+        "score": 10
+      },
+      {
+        "answer": "No, she wasn't.",
+        "difficulty": 2,
+        "explanation": "Lily是第三人称单数女性，过去状态否定回答用she wasn't；其他选项的时态或主谓搭配不正确。",
+        "knowledge_point": "Was he happy?",
+        "options": [
+          "No, she wasn't.",
+          "No, she isn't.",
+          "No, she weren't.",
+          "No, she aren't."
+        ],
+        "question": "Ben问Amy：“Was Lily angry yesterday?” Amy知道Lily昨天没有生气。Amy应怎样回答？",
+        "type": "choice",
+        "id": 20012,
+        "score": 10
+      },
+      {
+        "answer": "Why",
+        "difficulty": 1,
+        "explanation": "B的回答说明担心的原因，因此A应使用Why询问原因；Where、Who、When分别问地点、人物、时间。",
+        "knowledge_point": "Wang Hong is worried.",
+        "options": [
+          "Why",
+          "Where",
+          "Who",
+          "When"
+        ],
+        "question": "选择合适的疑问词：A: You look worried. _____? B: I can't find my pencil.",
+        "type": "choice",
+        "id": 20013,
+        "score": 10
+      },
+      {
+        "answer": "Don't worry. We can help.",
+        "difficulty": 1,
+        "explanation": "第一项表达别担心、我们能帮助；其他三项都没有表达所需的安慰和帮助。",
+        "knowledge_point": "Wang Hong is worried.",
+        "options": [
+          "Don't worry. We can help.",
+          "I'm angry. Go away.",
+          "It's yellow. I like it.",
+          "He's dancing. Look!"
+        ],
+        "question": "同伴找不到练习本，很担心。你想安慰他并表示大家可以帮忙，哪项最符合这个意思？",
+        "type": "choice",
+        "id": 20014,
+        "score": 10
+      },
+      {
+        "answer": "find",
+        "difficulty": 1,
+        "explanation": "can't后用动词原形find；其他三项都不是这里需要的原形。",
+        "knowledge_point": "Wang Hong is worried.",
+        "options": [
+          "find",
+          "finds",
+          "finding",
+          "found"
+        ],
+        "question": "选择合适的词：Jack can't _____ his schoolbag.",
+        "type": "choice",
+        "id": 20015,
+        "score": 10
+      },
+      {
+        "answer": "worried",
+        "difficulty": 2,
+        "explanation": "is后用形容词worried描述担心的状态；worry、worries、worrying都不符合本句要表达的意思。",
+        "knowledge_point": "Wang Hong is worried.",
+        "options": [
+          "worrying",
+          "worried",
+          "worry",
+          "worries"
+        ],
+        "question": "选择合适的词表达“找不到书包，所以Jack很担心”：Jack can't find his schoolbag. He is _____.",
+        "type": "choice",
+        "id": 20016,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "on the desk表示在书桌上，不是在椅子上；yesterday表示昨天。",
+        "knowledge_point": "Wang Hong is worried.",
+        "options": [],
+        "question": "妈妈谈到王红的书时说：“I saw it on the desk yesterday.” 判断：妈妈说昨天在椅子上看见了书。",
+        "type": "true_false",
+        "id": 20017,
+        "score": 10
+      },
+      {
+        "answer": "Thank you. You're helpful!",
+        "difficulty": 1,
+        "explanation": "第一项同时表达感谢和称赞有帮助；其余选项分别表达担心、描述天气动作或表达生气离开。",
+        "knowledge_point": "Wang Hong is worried.",
+        "options": [
+          "Thank you. You're helpful!",
+          "I'm worried. Where is it?",
+          "It's raining. He's dancing.",
+          "You're angry. Come back!"
+        ],
+        "question": "同伴帮你找到了铅笔。你想说“谢谢你，你真有帮助”，哪项符合这个意思？",
+        "type": "choice",
+        "id": 20018,
+        "score": 10
+      },
+      {
+        "answer": "green、great",
+        "difficulty": 1,
+        "explanation": "green和great都以gr开头；第二项都以tr开头，第三项都含ea，第四项混合了gr和tr。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "green、great",
+          "tree、train",
+          "head、bread",
+          "grandma、travel"
+        ],
+        "question": "哪组中的两个单词都以字母组合gr开头？",
+        "type": "choice",
+        "id": 20019,
+        "score": 10
+      },
+      {
+        "answer": "tree、trousers",
+        "difficulty": 1,
+        "explanation": "tree和trousers都以tr开头；其他三组各有不以tr开头的词。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "train、green",
+          "great、grandma",
+          "tree、trousers",
+          "travel、grandpa"
+        ],
+        "question": "哪组中的两个单词都以字母组合tr开头？",
+        "type": "choice",
+        "id": 20020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "head、sweater、bread、breakfast中标出的字母组合ea均读/e/，不能把breakfast中其他部分的读音误当作ea的读音。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：head、sweater、bread、breakfast这四个单词中的字母组合ea都读/e/。",
+        "type": "true_false",
+        "id": 20021,
+        "score": 10
+      },
+      {
+        "answer": "难过",
+        "difficulty": 1,
+        "explanation": "给出的原句直接说明悲伤时可以说“I feel blue.”；这里不是指颜色变化。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "兴奋",
+          "生气",
+          "饥饿",
+          "难过"
+        ],
+        "question": "读句子：“So when you are sad, you can say ‘I feel blue.’” 这里“I feel blue.”表达哪种感受？",
+        "type": "choice",
+        "id": 20022,
+        "score": 10
+      },
+      {
+        "answer": "worried",
+        "difficulty": 2,
+        "explanation": "题干明确给出第二幅是担心，worried表示担心的；其他词分别表示兴奋的、生气的和高兴的。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "worried",
+          "excited",
+          "angry",
+          "happy"
+        ],
+        "question": "四幅连续画面的情绪依次是：高兴、担心、难过、兴奋。第二幅可用哪个词描述？",
+        "type": "choice",
+        "id": 20023,
+        "score": 10
+      },
+      {
+        "answer": "平静、安宁",
+        "difficulty": 2,
+        "explanation": "calm and peaceful表示平静、安宁；may说明这只是可能出现的感受。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "兴奋、生气",
+          "难过、害怕",
+          "生气、担心",
+          "平静、安宁"
+        ],
+        "question": "读句子：“When we wear blue clothes, we may feel calm and peaceful.” 句子提到穿蓝色衣服时可能有什么感受？",
+        "type": "choice",
+        "id": 20024,
+        "score": 10
+      },
+      {
+        "answer": "生气",
+        "difficulty": 1,
+        "explanation": "very angry表示很生气；其余三项都不是angry的含义。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "生气",
+          "高兴",
+          "担心",
+          "平静"
+        ],
+        "question": "读句子：“Mr Black doesn't like noise. He's very angry.” Mr Black此时的情绪是什么？",
+        "type": "choice",
+        "id": 20025,
+        "score": 10
+      },
+      {
+        "answer": "花园里没有花。",
+        "difficulty": 1,
+        "explanation": "no flowers明确表示没有花；没有提到树、书或帽子。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "花园里没有树。",
+          "花园里有很多书。",
+          "花园里没有花。",
+          "花园里有一顶帽子。"
+        ],
+        "question": "故事描述Mr Black的花园时写道：“There are no flowers in it.” 这句话说明什么？",
+        "type": "choice",
+        "id": 20026,
+        "score": 10
+      },
+      {
+        "answer": "花园",
+        "difficulty": 1,
+        "explanation": "garden表示花园；noise是噪音，school是学校，book是书。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "花园",
+          "学校",
+          "书",
+          "噪音"
+        ],
+        "question": "在“a beautiful garden”中，garden是什么意思？",
+        "type": "choice",
+        "id": 20027,
+        "score": 10
+      },
+      {
+        "answer": "跑开",
+        "difficulty": 2,
+        "explanation": "run away表示跑开；原句没有说孩子们回来、睡觉或读书。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "跑开",
+          "回来",
+          "读书",
+          "睡觉"
+        ],
+        "question": "读句子：“The children are scared. They run away.” 孩子们因为害怕而做了什么？",
+        "type": "choice",
+        "id": 20028,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "题干给出的先后关系是先离开、后受邀请回来，判断句与此一致。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "故事情节是：孩子们因害怕而离开花园；后来Mr Black邀请他们回来。判断：孩子们离开发生在受到回来玩的邀请之前。",
+        "type": "true_false",
+        "id": 20029,
+        "score": 10
+      },
+      {
+        "answer": "He was sad.",
+        "difficulty": 2,
+        "explanation": "yesterday要求用过去的状态表达，he配was，sad是形容词；其余选项分别有主谓搭配、时态或词形错误。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "He was sad.",
+          "He were sad.",
+          "He is sad.",
+          "He was sadly."
+        ],
+        "question": "用一句英语准确表达“他昨天很难过”，哪项可以接在“Yesterday”之后？",
+        "type": "choice",
+        "id": 20030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 2 Feelings·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "She's dancing. She's happy.",
+        "difficulty": 1,
+        "explanation": "题干明确给出正在跳舞和高兴两项信息。第一项同时符合；其余选项分别改变了动作或情绪。",
+        "knowledge_point": "He's excited.",
+        "options": [
+          "She's dancing. She's happy.",
+          "She's reading. She's happy.",
+          "She's dancing. She's sad.",
+          "She's running. She's angry."
+        ],
+        "question": "Lucy正在跳舞，而且很高兴。哪项同时准确描述她的动作和情绪？",
+        "type": "choice",
+        "id": 29001,
+        "score": 10
+      },
+      {
+        "answer": "Were you happy yesterday?",
+        "difficulty": 2,
+        "explanation": "询问对方昨天的情绪，主语用you，过去的be动词用were；其余选项的主谓搭配或时间表达不符。",
+        "knowledge_point": "Was he happy?",
+        "options": [
+          "Were you happy yesterday?",
+          "Was you happy yesterday?",
+          "Are you happy yesterday?",
+          "Were you happily yesterday?"
+        ],
+        "question": "你想询问同伴“你昨天高兴吗？”，哪句正确？",
+        "type": "choice",
+        "id": 29002,
+        "score": 10
+      },
+      {
+        "answer": "He can't find his cap.",
+        "difficulty": 1,
+        "explanation": "题干指定担心的原因是找不到帽子。只有第一项准确表达这个原因。",
+        "knowledge_point": "Wang Hong is worried.",
+        "options": [
+          "He can't find his cap.",
+          "He can't find his book.",
+          "He is watching a game.",
+          "He is dancing in the rain."
+        ],
+        "question": "Ben因为找不到自己的帽子而担心。哪句准确说明他担心的原因？",
+        "type": "choice",
+        "id": 29003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "may表示可能，不能据此推断所有人每次都会有同样的感受。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "读句子：“When we see yellow, we may feel warm and happy.” 判断：这句话表示所有人每次看到黄色都一定高兴。",
+        "type": "true_false",
+        "id": 29004,
+        "score": 10
+      },
+      {
+        "answer": "happy",
+        "difficulty": 1,
+        "explanation": "happy表示高兴的；其他三项依次表示生气的、难过的和担心的。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "happy",
+          "angry",
+          "sad",
+          "worried"
+        ],
+        "question": "花园故事结尾写道：“Everyone is happy.” 哪个词表达结尾时大家的情绪？",
+        "type": "choice",
+        "id": 29005,
+        "score": 10
+      },
+      {
+        "answer": "was",
+        "difficulty": 2,
+        "explanation": "yesterday提示过去时间，单数主语Ben后用was。is表示现在，were与这里的单数主语不搭配，be原形不能直接作本句谓语。",
+        "knowledge_point": "Was he happy?",
+        "options": [
+          "was",
+          "is",
+          "be",
+          "were"
+        ],
+        "question": "选择合适的词：Ben _____ sad yesterday, but he is happy now.",
+        "type": "choice",
+        "id": 29006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "混淆动作和情绪：“He's dancing.”描述动作，“He's excited.”描述情绪。",
+        "描述正在做的动作时漏掉be动词，如把“He is reading.”写成“He reading.”。",
+        "he后误用are；he和单数人物名称通常与is搭配。",
+        "在be动词后用错词形；描述情绪应说“He is sad.”，不说“He is sadly.”。"
+      ],
+      "core_concept": "结合公园情境学习happy、excited、sad、angry。用“What's he doing?”询问正在进行的动作，用“He's + 动词-ing.”回答；用“He's + 情绪形容词.”描述状态。理解“Don't be sad. We can help you.”的安慰与帮助含义。“I've lost my cap.”只结合丢帽子的情境理解，不展开现在完成时语法。",
+      "key_formula": "What's he doing? — He's + 动词-ing.；主语 + am/is/are + 情绪形容词.",
+      "point": "He's excited.",
+      "tips": "先区分要表达的是动作还是心情。例：“He's reading.”说正在读书，“He's happy.”说很高兴。I配am，he/she配is，we/you/they配are。分享自己的活动和感受时可说“I'm watching a game. I'm excited.”。"
+    },
+    {
+      "common_mistakes": [
+        "主语是he时误用Were，主语是you时误用Was。",
+        "询问过去状态，却用is或are回答。",
+        "对别人询问自己的问题“Were you…?”，回答时没有把主语换成I。",
+        "问及第三人称人物时，让该人物本人仍用he回答自己；题目必须交代清楚问答双方。"
+      ],
+      "core_concept": "用was、were描述过去的情绪或状态。Was he…?的简短回答是“Yes, he was.”或“No, he wasn't.”。对别人询问自己的Were you…?，回答“Yes, I was.”或“No, I wasn't.”。主对话中，妈妈先前担心王红，王红在公园玩得高兴，Danny因丢帽子而难过。played、lost结合对话理解，不展开额外时态专题。",
+      "key_formula": "Was he + 情绪形容词? — Yes, he was. / No, he wasn't.；Were you + 情绪形容词? — Yes, I was. / No, I wasn't.",
+      "point": "Was he happy?",
+      "tips": "先看说的是现在还是过去，再看主语。过去状态中I/he/she和单数人物名称配was，you配were。第三人称问答要与谈论的人一致；本人回答“Were you…?”时改用I。"
+    },
+    {
+      "common_mistakes": [
+        "混淆worry和worried：安慰用“Don't worry.”，描述状态用“She is worried.”。",
+        "用Why询问原因时，把问句误放到说明原因的回答者口中。",
+        "在can't后误用finds或finding；这里应接动词原形find。",
+        "把昨天书在书桌上的线索说成现在书仍在书桌上；故事随后写欢欢嘴里叼着书。"
+      ],
+      "core_concept": "王红上学前找不到英语书，因而担心。妈妈安慰她，并说昨天在书桌上见过书；欢欢叼着书进来，王红感谢并称赞欢欢，随后高兴起来。学习用Why询问原因，用“主语 + can't find + 物品.”说明找不到东西，用“Don't worry.”安慰，用“Thank you.”和“You're helpful!”表达感谢与称赞。saw结合昨天的位置线索理解。",
+      "key_formula": "主语 + be动词 + worried.；Why? — 主语 + can't find + 物品.；Don't worry.",
+      "point": "Wang Hong is worried.",
+      "tips": "对照使用“I'm worried.”和“Don't worry.”。说明原因时说清楚谁找不到什么，如“He can't find his book.”。梳理位置线索时区分昨天和现在，不添加书是怎样到欢欢嘴里的情节。"
+    },
+    {
+      "common_mistakes": [
+        "混淆gr和tr：green、great、grandpa、grandma以gr开头；tree、train、travel、trousers以tr开头。",
+        "误说本课head、sweater、bread、breakfast中的ea读音不同；这四个例词中的ea均读/e/。",
+        "把“I feel blue.”在短文中的含义理解为身体变蓝；这里表示感到悲伤。",
+        "把颜色可能引发的感受说成对所有人都成立的必然规律。"
+      ],
+      "core_concept": "复习用be动词加情绪形容词描述人物，通过听力匹配和口头表达辨认情绪。辨认并朗读gr /ɡr/、tr /tr/以及本课例词中读/e/的ea。阅读颜色与情绪短文，理解may表示可能，“I feel blue.”在这里表示感到悲伤。趣味连环图依次呈现Danny高兴、担心、难过、兴奋的变化。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "将例词分组朗读，不把本课ea的读音推广到所有含ea的英语单词。谈自己的颜色感受可说“I feel happy.”等；理解短文时保留“可能”的意思。复述连环图要按左上、右上、左下、右下的顺序。"
+    },
+    {
+      "common_mistakes": [
+        "颠倒故事顺序：孩子们先玩耍，后因害怕离开，最后受邀请回来。",
+        "把故事中花园仍在冬天的情节，当成现实中花园变化的一般规律。",
+        "忽略时间线索，把现在状态的is和过去状态的was混用。",
+        "用副词直接描述人物情绪，如误说“He is sadly.”；应说“He is sad.”。"
+      ],
+      "core_concept": "阅读Mr Black's Garden，梳理人物行为与情绪：孩子们在花园玩耍、唱歌跳舞，Mr Black不喜欢噪音，生气地叫他们离开；孩子们害怕地跑开。春天到来时，他的花园仍在冬天、没有花，他很难过。邀请孩子们回来后，花园重新美丽，大家都高兴。结合自评复习现在和过去的情绪表达、原因问答，并学习用简单表情图识记情绪。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "按人物行为、花园变化、情绪变化三条线索复述，不补写故事没有交代的原因。自评时检查自己能否描述情绪、回答过去状态问题并说明担心的原因。用简单表情辅助记词，但不把自评句型和词表当成阅读课文。"
+    }
+  ]
+}

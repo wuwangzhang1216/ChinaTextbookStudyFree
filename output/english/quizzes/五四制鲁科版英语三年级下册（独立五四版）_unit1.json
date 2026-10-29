@@ -1,0 +1,519 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级下册",
+  "unit": "Unit 1 Food and Drinks",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "Unit 1 Food and Drinks·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "面包",
+        "difficulty": 1,
+        "explanation": "bread表示面包；牛奶、鸡蛋和橙汁分别对应milk、eggs、orange juice。",
+        "knowledge_point": "I like eggs.",
+        "options": [
+          "牛奶",
+          "鸡蛋",
+          "面包",
+          "橙汁"
+        ],
+        "question": "单词bread的中文意思是什么？",
+        "type": "choice",
+        "id": 10001,
+        "score": 10
+      },
+      {
+        "answer": "I don’t like bread.",
+        "difficulty": 1,
+        "explanation": "don’t like表示不喜欢，bread表示面包。其他选项分别表示喜欢牛奶、喜欢面包和不喜欢牛奶。",
+        "knowledge_point": "I like eggs.",
+        "options": [
+          "I like milk.",
+          "I don’t like bread.",
+          "I like bread.",
+          "I don’t like milk."
+        ],
+        "question": "要表达“我不喜欢面包”，应选择哪一句？",
+        "type": "choice",
+        "id": 10002,
+        "score": 10
+      },
+      {
+        "answer": "Have some orange juice?",
+        "difficulty": 2,
+        "explanation": "Have some ...?可用于提供食物或饮料；其余选项都是陈述喜好，没有表达请对方喝点橙汁的意思。",
+        "knowledge_point": "I like eggs.",
+        "options": [
+          "I like orange juice.",
+          "I don’t like orange juice.",
+          "I like milk.",
+          "Have some orange juice?"
+        ],
+        "question": "你给家人递上橙汁，想请对方喝点橙汁，应选择哪一句？",
+        "type": "choice",
+        "id": 10003,
+        "score": 10
+      },
+      {
+        "answer": "c",
+        "difficulty": 1,
+        "explanation": "C对应的小写字母是c；a、b、d分别对应A、B、D。",
+        "knowledge_point": "I like eggs.",
+        "options": [
+          "a",
+          "c",
+          "d",
+          "b"
+        ],
+        "question": "大写字母C对应的小写字母是哪一个？",
+        "type": "choice",
+        "id": 10004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "I don’t like ...表示不喜欢，milk表示牛奶。",
+        "knowledge_point": "I like eggs.",
+        "options": [],
+        "question": "判断正误：“I don’t like milk.”的意思是“我不喜欢牛奶”。",
+        "type": "true_false",
+        "id": 10005,
+        "score": 10
+      },
+      {
+        "answer": "早餐",
+        "difficulty": 1,
+        "explanation": "breakfast表示早餐；午餐和晚餐分别是lunch、dinner，orange juice表示橙汁。",
+        "knowledge_point": "I like eggs.",
+        "options": [
+          "晚餐",
+          "午餐",
+          "橙汁",
+          "早餐"
+        ],
+        "question": "句子“Let’s have breakfast.”中的breakfast表示什么？",
+        "type": "choice",
+        "id": 10006,
+        "score": 10
+      },
+      {
+        "answer": "Yes, I do.",
+        "difficulty": 1,
+        "explanation": "Do you like ...?的本课标准肯定简答为Yes, I do.；Yes, I am.和Yes, please.不对应这种喜好问句，No, I don’t.是否定回答。",
+        "knowledge_point": "Do you like fish?",
+        "options": [
+          "Yes, please.",
+          "Yes, I am.",
+          "Yes, I do.",
+          "No, I don’t."
+        ],
+        "question": "同伴问：“Do you like rice?”你喜欢米饭，要作肯定简答，应选哪一句？",
+        "type": "choice",
+        "id": 10007,
+        "score": 10
+      },
+      {
+        "answer": "No, I don’t.",
+        "difficulty": 1,
+        "explanation": "不喜欢时用No, I don’t.；Yes, I do.是肯定回答，另外两项不能构成本课所学的正确否定简答。",
+        "knowledge_point": "Do you like fish?",
+        "options": [
+          "Yes, I do.",
+          "No, I don’t.",
+          "No, I do.",
+          "No, I am."
+        ],
+        "question": "同伴问：“Do you like chicken?”你不喜欢鸡肉，要作否定简答，应选哪一句？",
+        "type": "choice",
+        "id": 10008,
+        "score": 10
+      },
+      {
+        "answer": "米饭",
+        "difficulty": 1,
+        "explanation": "rice表示米饭；鱼、鸡肉和蔬菜分别对应fish、chicken和vegetables。",
+        "knowledge_point": "Do you like fish?",
+        "options": [
+          "鱼",
+          "鸡肉",
+          "米饭",
+          "蔬菜"
+        ],
+        "question": "单词rice表示哪一种食物？",
+        "type": "choice",
+        "id": 10009,
+        "score": 10
+      },
+      {
+        "answer": "午餐吃什么？",
+        "difficulty": 2,
+        "explanation": "What’s for lunch?询问午餐吃什么，不是询问喜好，也不是询问早餐或晚餐。",
+        "knowledge_point": "Do you like fish?",
+        "options": [
+          "你喜欢午餐吗？",
+          "午餐吃什么？",
+          "晚餐吃什么？",
+          "早餐吃什么？"
+        ],
+        "question": "英语问句“What’s for lunch?”表达什么意思？",
+        "type": "choice",
+        "id": 10010,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Do you like ...?用于询问对方是否喜欢某物，所以这句话是在问是否喜欢蔬菜。",
+        "knowledge_point": "Do you like fish?",
+        "options": [],
+        "question": "判断正误：“Do you like vegetables?”是在询问对方是否喜欢蔬菜。",
+        "type": "true_false",
+        "id": 10011,
+        "score": 10
+      },
+      {
+        "answer": "鱼和米饭",
+        "difficulty": 2,
+        "explanation": "fish是鱼，rice是米饭，and连接两种食物；另外三项都替换了句中至少一种食物。",
+        "knowledge_point": "Do you like fish?",
+        "options": [
+          "鱼和米饭",
+          "鸡肉和米饭",
+          "鱼和面包",
+          "蔬菜和鸡肉"
+        ],
+        "question": "一个孩子介绍自己的喜好：“I like fish and rice.”他喜欢哪两种食物？",
+        "type": "choice",
+        "id": 10012,
+        "score": 10
+      },
+      {
+        "answer": "apple juice",
+        "difficulty": 1,
+        "explanation": "apple juice表示苹果汁；orange juice、milk、coffee分别表示橙汁、牛奶和咖啡。",
+        "knowledge_point": "I’d like some apple juice.",
+        "options": [
+          "orange juice",
+          "milk",
+          "apple juice",
+          "coffee"
+        ],
+        "question": "“苹果汁”对应哪个英语词组？",
+        "type": "choice",
+        "id": 10013,
+        "score": 10
+      },
+      {
+        "answer": "你想喝点饮料吗？",
+        "difficulty": 1,
+        "explanation": "Would you like a drink?礼貌询问是否想喝点饮料，不是陈述喜好，也不是询问午餐内容。",
+        "knowledge_point": "I’d like some apple juice.",
+        "options": [
+          "你喜欢鱼吗？",
+          "你想喝点饮料吗？",
+          "午餐吃什么？",
+          "我喜欢牛奶。"
+        ],
+        "question": "服务员说：“Would you like a drink?”这句话的意思是什么？",
+        "type": "choice",
+        "id": 10014,
+        "score": 10
+      },
+      {
+        "answer": "I’d like some coffee.",
+        "difficulty": 2,
+        "explanation": "I’d like some ...表达想要，coffee表示咖啡；其余选项分别表达喜欢、不喜欢和询问喜好。",
+        "knowledge_point": "I’d like some apple juice.",
+        "options": [
+          "I like coffee.",
+          "I don’t like coffee.",
+          "Do you like coffee?",
+          "I’d like some coffee."
+        ],
+        "question": "一位成年客人在点饮料时，想表达“我想要一些咖啡”，应选择哪一句？",
+        "type": "choice",
+        "id": 10015,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "hungry表示饿；I’m hungry.表示“我饿了”，不是“我喜欢牛奶”。",
+        "knowledge_point": "I’d like some apple juice.",
+        "options": [],
+        "question": "判断正误：“I’m hungry.”的意思是“我喜欢牛奶”。",
+        "type": "true_false",
+        "id": 10016,
+        "score": 10
+      },
+      {
+        "answer": "晚餐",
+        "difficulty": 1,
+        "explanation": "dinner在本课就餐情境中表示晚餐，不是早餐、午餐或饮料。",
+        "knowledge_point": "I’d like some apple juice.",
+        "options": [
+          "饮料",
+          "早餐",
+          "午餐",
+          "晚餐"
+        ],
+        "question": "句子“Let’s have dinner.”中的dinner在本课情境中表示什么？",
+        "type": "choice",
+        "id": 10017,
+        "score": 10
+      },
+      {
+        "answer": "Ee—egg，Ff—fish，Gg—girl",
+        "difficulty": 2,
+        "explanation": "egg、fish、girl的首字母依次是e、f、g，因此分别对应Ee、Ff、Gg；其他选项都存在错配。",
+        "knowledge_point": "I’d like some apple juice.",
+        "options": [
+          "Ee—fish，Ff—egg，Gg—girl",
+          "Ee—egg，Ff—fish，Gg—girl",
+          "Ee—girl，Ff—fish，Gg—egg",
+          "Ee—egg，Ff—girl，Gg—fish"
+        ],
+        "question": "按单词首字母配对，哪一组把Ee、Ff、Gg与egg、fish、girl全部配对正确？",
+        "type": "choice",
+        "id": 10018,
+        "score": 10
+      },
+      {
+        "answer": "Do you like orange juice?",
+        "difficulty": 2,
+        "explanation": "询问平时是否喜欢橙汁，用Do you like orange juice?；其他选项分别询问是否想要、表达喜好或表达需求。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Would you like some orange juice?",
+          "I like orange juice.",
+          "Do you like orange juice?",
+          "I’d like some orange juice."
+        ],
+        "question": "野餐交流时，你想知道同伴平时是否喜欢橙汁，应选择哪一句？",
+        "type": "choice",
+        "id": 10019,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Would you like some ...?可以礼貌询问对方是否想要某物，这里询问是否想喝牛奶。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：野餐时想礼貌地问朋友是否想喝点牛奶，可以说“Would you like some milk?”",
+        "type": "true_false",
+        "id": 10020,
+        "score": 10
+      },
+      {
+        "answer": "Yes, please.",
+        "difficulty": 2,
+        "explanation": "Yes, please.表示礼貌接受；No, I don’t.否定喜好，I like bread.陈述喜好，I’m hungry.表达饥饿，都不符合指定意思。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I like bread.",
+          "Yes, please.",
+          "I’m hungry.",
+          "No, I don’t."
+        ],
+        "question": "朋友问：“Would you like some milk?”你想表达“好的，谢谢”，接受牛奶。应选择哪一句？",
+        "type": "choice",
+        "id": 10021,
+        "score": 10
+      },
+      {
+        "answer": "我想要一些鸡肉。",
+        "difficulty": 1,
+        "explanation": "I’d like some ...表示“我想要一些……”，chicken在这里表示鸡肉，不是询问或否定喜好。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "我喜欢鸡肉。",
+          "我想要一些鸡肉。",
+          "你喜欢鸡肉吗？",
+          "我不喜欢鸡肉。"
+        ],
+        "question": "野餐时，一个孩子说：“I’d like some chicken.”这句话的意思是什么？",
+        "type": "choice",
+        "id": 10022,
+        "score": 10
+      },
+      {
+        "answer": "milk",
+        "difficulty": 2,
+        "explanation": "milk是牛奶，符合白色饮料的线索；橙汁通常不是白色，面包和米饭不是饮料。这是根据线索设计的练习答案，不是补写教材的留空回答。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "rice",
+          "orange juice",
+          "bread",
+          "milk"
+        ],
+        "question": "猜饮料：它是一种通常呈白色的饮料。只在milk、orange juice、bread、rice这四个选项中选择，哪一个符合线索？",
+        "type": "choice",
+        "id": 10023,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "No, I don’t.表示不喜欢面包，不能据此推断不喜欢所有食物。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：甲问“Do you like bread?”，乙回答“No, I don’t.”，这说明乙不喜欢所有食物。",
+        "type": "true_false",
+        "id": 10024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 1 Food and Drinks·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "I like milk.",
+        "difficulty": 1,
+        "explanation": "I like ...表示“我喜欢……”，milk表示牛奶；其余选项分别表示不喜欢、询问喜好和想要。",
+        "knowledge_point": "I like eggs.",
+        "options": [
+          "I don’t like milk.",
+          "Do you like milk?",
+          "I like milk.",
+          "I’d like some milk."
+        ],
+        "question": "要表达“我喜欢牛奶”，应选择哪一句？",
+        "type": "choice",
+        "id": 19001,
+        "score": 10
+      },
+      {
+        "answer": "蔬菜",
+        "difficulty": 1,
+        "explanation": "vegetables表示蔬菜，不是米饭、鱼或鸡肉。",
+        "knowledge_point": "Do you like fish?",
+        "options": [
+          "鱼",
+          "米饭",
+          "鸡肉",
+          "蔬菜"
+        ],
+        "question": "单词vegetables的中文意思是什么？",
+        "type": "choice",
+        "id": 19002,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "I like ...表达喜好；I’d like some ...表达想要。两句话的意思不同。",
+        "knowledge_point": "I’d like some apple juice.",
+        "options": [],
+        "question": "判断正误：“I like orange juice.”和“I’d like some orange juice.”都只表示“我现在想要一些橙汁”，意思完全相同。",
+        "type": "true_false",
+        "id": 19003,
+        "score": 10
+      },
+      {
+        "answer": "a、b、c、d",
+        "difficulty": 1,
+        "explanation": "A、B、C、D对应的小写字母依次是a、b、c、d，其余选项的顺序或对应关系不正确。",
+        "knowledge_point": "I like eggs.",
+        "options": [
+          "a、d、c、b",
+          "a、b、c、d",
+          "e、f、g、d",
+          "b、a、d、c"
+        ],
+        "question": "大写字母A、B、C、D对应的小写字母，按相同顺序排列，哪一项正确？",
+        "type": "choice",
+        "id": 19004,
+        "score": 10
+      },
+      {
+        "answer": "Do you like chicken?",
+        "difficulty": 2,
+        "explanation": "题目要求询问平时的喜好，应使用Do you like ...?；Would you like ...?询问是否想要，另外两项是陈述句。",
+        "knowledge_point": "Do you like fish?",
+        "options": [
+          "I like chicken.",
+          "Would you like some chicken?",
+          "I’d like some chicken.",
+          "Do you like chicken?"
+        ],
+        "question": "你想问同伴“你平时喜欢吃鸡肉吗？”，而不是问他现在是否想吃。应选择哪一句？",
+        "type": "choice",
+        "id": 19005,
+        "score": 10
+      },
+      {
+        "answer": "不喜欢面包，现在想要一些苹果汁。",
+        "difficulty": 3,
+        "explanation": "No, I don’t.否定了对面包的喜好；I’d like some apple juice.说明现在想要苹果汁。其余选项改变了喜好或饮料信息。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "喜欢面包，现在想要一些苹果汁。",
+          "不喜欢面包，现在想要一些苹果汁。",
+          "不喜欢面包，现在想要一些牛奶。",
+          "喜欢面包，现在想要一些橙汁。"
+        ],
+        "question": "野餐时，甲问乙：“Do you like bread?”乙回答：“No, I don’t.”随后乙说：“I’d like some apple juice.”根据这段完整对话，乙的意思是哪一项？",
+        "type": "choice",
+        "id": 19006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把I like ...误说成I am like ...。",
+        "表达不喜欢时漏掉don’t，导致意思相反。",
+        "混淆表达喜好的I like milk.与提供牛奶的Have some milk?。",
+        "把orange juice写成一个词，或混淆A、B、C、D与对应的小写形式。"
+      ],
+      "core_concept": "本课结合单元首页和早餐情境，学习eggs（鸡蛋）、bread（面包）、milk（牛奶）、orange juice（橙汁）。I like ...表示喜欢，I don’t like ...表示不喜欢。Let’s have breakfast.表示提议吃早餐，可以用OK.回应。Have some ...?可用于提供食物或饮料，接受时可说Yes, please.。字母学习范围是Aa、Bb、Cc、Dd，对应示例词为apple、book、cat、desk。",
+      "key_formula": "I like + 食物或饮料名称.\nI don’t like + 食物或饮料名称.",
+      "point": "I like eggs.",
+      "tips": "I要大写；don’t中的撇号不能漏。orange juice是两个词。认读并照教材四线格范例书写Aa、Bb、Cc、Dd，注意大小写对应关系。"
+    },
+    {
+      "common_mistakes": [
+        "想询问对方喜好，却使用陈述句I like ...。",
+        "用Yes, I am.回答Do you like ...?，没有使用本课的Yes, I do.。",
+        "否定回答漏掉don’t，误说No, I do.。",
+        "混淆lunch与breakfast、dinner的意思。"
+      ],
+      "core_concept": "本课在购物和午餐情境中学习fish（鱼、鱼肉）、vegetables（蔬菜）、rice（米饭）、chicken（鸡肉）。询问对方是否喜欢某种食物，用Do you like ...?；肯定回答Yes, I do.，否定回答No, I don’t.。What’s for lunch, mum?表示“妈妈，午餐吃什么？”回答时可以列出食物。歌谣用于巩固词汇和朗读节奏，不作为主对话收录。",
+      "key_formula": "Do you like + 食物名称?\nYes, I do.\nNo, I don’t.",
+      "point": "Do you like fish?",
+      "tips": "看到Do you like ...?，先判断自己的喜好再回答。表达自己喜欢仍用I like ...。朗读食物名称时注意vegetables的词形，不把rice和chicken混淆。"
+    },
+    {
+      "common_mistakes": [
+        "把I’d like ...与I like ...混淆，忽略想要与喜欢的区别。",
+        "询问是否想喝饮料时，把本课问句Would you like a drink?误换成询问一般喜好的句子。",
+        "混淆apple juice与orange juice，或漏写juice。",
+        "混淆Ee、Ff、Gg的大小写对应关系。"
+      ],
+      "core_concept": "本课在就餐和提供饮料的情境中学习I’m hungry, mum.（妈妈，我饿了）、Let’s have dinner.（我们吃晚餐吧）和Would you like a drink?（你想喝点饮料吗）。表达想要某种饮料可说I’d like some ...，也可在回应中说Yes. Apple juice, please.。辨认apple juice、orange juice、milk、coffee，区分一般喜好与当前需求。字母学习范围是Ee、Ff、Gg，示例词为egg、fish、girl。",
+      "key_formula": "Would you like a drink?\nI’d like some + 饮料名称.",
+      "point": "I’d like some apple juice.",
+      "tips": "想表达平时喜欢，用I like ...；想表达现在想要，用I’d like some ...。注意I’d中的撇号。跟随教材范例认读和书写Ee、Ff、Gg，不把字母名称与示例单词混为一谈。"
+    },
+    {
+      "common_mistakes": [
+        "把询问喜好的Do you like ...?与询问是否想要的Would you like ...?混淆。",
+        "把I like ...和I’d like some ...都理解为一般喜好。",
+        "把猜谜中的未完成回答当成已经给出的教材答案。",
+        "认为描述饮料时必须先说固定句式；实际上应根据活动要求说清类别和特征。"
+      ],
+      "core_concept": "本课是单元综合复习，在野餐情境中运用食物和饮料词汇。询问喜好用Do you like ...?，可回答Yes, I do.或No, I don’t.；礼貌询问对方是否想要饮料用Would you like some juice?；表达需求用I’d like some ...。Fun time通过饮料类别、颜色等线索开展猜谜，可以根据白色饮料等线索猜一猜。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "先分清“平时喜欢”与“现在想要”，再选择句子。猜谜时结合所有线索和给定选项判断。本课标题是复习课名称，不应据此把本课目标改成请求重复。"
+    }
+  ]
+}

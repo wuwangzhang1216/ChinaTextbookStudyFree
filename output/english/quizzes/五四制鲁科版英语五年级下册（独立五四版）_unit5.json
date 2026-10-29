@@ -1,0 +1,630 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）五年级下册",
+  "unit": "Unit 5 Country Life",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 Country Life·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "There is a house near the river.",
+        "difficulty": 1,
+        "explanation": "a house是单数，应用There is；其余选项的is/are与名词单复数不匹配。",
+        "knowledge_point": "There is a river near the village.",
+        "options": [
+          "There is a house near the river.",
+          "There are a house near the river.",
+          "There is houses near the river.",
+          "There are a houses near the river."
+        ],
+        "question": "选择正确的句子，表达“河附近有一座房子”。",
+        "type": "choice",
+        "id": 50001,
+        "score": 10
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "many ducks是复数，存在句应使用are；is、am、be均不能直接用于此处。",
+        "knowledge_point": "There is a river near the village.",
+        "options": [
+          "is",
+          "are",
+          "be",
+          "am"
+        ],
+        "question": "选择正确的词补全句子：There ____ many ducks in the river.",
+        "type": "choice",
+        "id": 50002,
+        "score": 10
+      },
+      {
+        "answer": "Are there any birds in the trees?",
+        "difficulty": 2,
+        "explanation": "birds是复数，存在问句以Are there开头；另外三项的助动词或语序不正确。",
+        "knowledge_point": "There is a river near the village.",
+        "options": [
+          "Are there any birds in the trees?",
+          "Is there any birds in the trees?",
+          "Do there any birds in the trees?",
+          "Are any birds there in the trees there?"
+        ],
+        "question": "选择正确的存在问句，询问“树上有鸟吗？”",
+        "type": "choice",
+        "id": 50003,
+        "score": 10
+      },
+      {
+        "answer": "No, there isn’t.",
+        "difficulty": 2,
+        "explanation": "问句是Is there，且已知没有河，所以用No, there isn’t；其余选项或肯否定不符，或is/are不匹配。",
+        "knowledge_point": "There is a river near the village.",
+        "options": [
+          "No, there isn’t.",
+          "Yes, there is.",
+          "No, there aren’t.",
+          "Yes, there are."
+        ],
+        "question": "某个村庄附近没有河。别人问“Is there a river near the village?”，应怎样回答？",
+        "type": "choice",
+        "id": 50004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "three houses是复数，应说There are three houses in the village.",
+        "knowledge_point": "There is a river near the village.",
+        "options": [],
+        "question": "判断正误：句子“There is three houses in the village.”的is使用正确。",
+        "type": "true_false",
+        "id": 50005,
+        "score": 10
+      },
+      {
+        "answer": "They are singing happily.",
+        "difficulty": 2,
+        "explanation": "They后用are，正在唱歌用singing，happily表示愉快地；其余选项分别缺少或误用了必要的动词形式。",
+        "knowledge_point": "There is a river near the village.",
+        "options": [
+          "They are singing happily.",
+          "They is singing happily.",
+          "They are sing happily.",
+          "They singing happily."
+        ],
+        "question": "几只鸟此刻正在愉快地唱歌。选择正确描述这一情景的句子。",
+        "type": "choice",
+        "id": 50006,
+        "score": 10
+      },
+      {
+        "answer": "How many cows do you have?",
+        "difficulty": 1,
+        "explanation": "How many后接复数cows，主语you前用do；其余选项有单复数、疑问词或助动词错误。",
+        "knowledge_point": "How many ducks do you have?",
+        "options": [
+          "How many cows do you have?",
+          "How many cow do you have?",
+          "How much cows do you have?",
+          "How many cows does you have?"
+        ],
+        "question": "选择正确的英语问句，询问“你有多少头奶牛？”",
+        "type": "choice",
+        "id": 50007,
+        "score": 10
+      },
+      {
+        "answer": "does",
+        "difficulty": 2,
+        "explanation": "the boy是第三人称单数，数量问句用does，后面的have保持原形；其他选项不能正确构成此句。",
+        "knowledge_point": "How many ducks do you have?",
+        "options": [
+          "does",
+          "do",
+          "is",
+          "are"
+        ],
+        "question": "选择正确的词补全问句：How many ducks ____ the boy have?",
+        "type": "choice",
+        "id": 50008,
+        "score": 10
+      },
+      {
+        "answer": "Eight.",
+        "difficulty": 1,
+        "explanation": "已知有八只鸭子，数量回答应为Eight；Eighteen是十八，Eighty是八十，Eighth是序数词第八。",
+        "knowledge_point": "How many ducks do you have?",
+        "options": [
+          "Eight.",
+          "Eighteen.",
+          "Eighty.",
+          "Eighth."
+        ],
+        "question": "你养了八只鸭子。别人问“How many ducks do you have?”，请选择正确的数量回答。",
+        "type": "choice",
+        "id": 50009,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "sheep单复数同形，所以three sheep是正确表达。",
+        "knowledge_point": "How many ducks do you have?",
+        "options": [],
+        "question": "判断正误：“三只绵羊”可以写成“three sheep”。",
+        "type": "true_false",
+        "id": 50010,
+        "score": 10
+      },
+      {
+        "answer": "They’re in the soil.",
+        "difficulty": 2,
+        "explanation": "potatoes是复数，用They’re；in the soil表示在土壤里，其他选项的主语或位置不符合要求。",
+        "knowledge_point": "How many ducks do you have?",
+        "options": [
+          "They’re in the soil.",
+          "It’s in the soil.",
+          "They’re in the trees.",
+          "They’re in the river."
+        ],
+        "question": "菜园里的土豆长在土壤里。别人问“Where are the potatoes?”，选择符合这一情况的回答。",
+        "type": "choice",
+        "id": 50011,
+        "score": 10
+      },
+      {
+        "answer": "We have many tomato plants.",
+        "difficulty": 2,
+        "explanation": "主语We后用have，many后接复数plants，名词tomato在这里修饰plants；其余选项有主谓或名词形式错误。",
+        "knowledge_point": "How many ducks do you have?",
+        "options": [
+          "We have many tomato plants.",
+          "We has many tomato plants.",
+          "We have many tomato plant.",
+          "We have many tomatoes plants."
+        ],
+        "question": "小组介绍自己的菜园。选择正确的句子表达“我们有许多西红柿植株”。",
+        "type": "choice",
+        "id": 50012,
+        "score": 10
+      },
+      {
+        "answer": "lives",
+        "difficulty": 1,
+        "explanation": "Ben是第三人称单数，描述日常居住情况用lives；live缺少词形变化，living和to live不能直接作这里的谓语。",
+        "knowledge_point": "He goes to school by school bus.",
+        "options": [
+          "lives",
+          "live",
+          "living",
+          "to live"
+        ],
+        "question": "选择正确的词补全句子：Ben ____ in the country.",
+        "type": "choice",
+        "id": 50013,
+        "score": 10
+      },
+      {
+        "answer": "She goes to school by school bus.",
+        "difficulty": 1,
+        "explanation": "She后用goes，乘校车用by school bus；其余选项分别有动词形式、谓语或介词错误。",
+        "knowledge_point": "He goes to school by school bus.",
+        "options": [
+          "She goes to school by school bus.",
+          "She go to school by school bus.",
+          "She going to school by school bus.",
+          "She goes to school in school bus."
+        ],
+        "question": "选择正确的句子，表达“她乘校车上学”。",
+        "type": "choice",
+        "id": 50014,
+        "score": 10
+      },
+      {
+        "answer": "I help my father pick fruit.",
+        "difficulty": 2,
+        "explanation": "将He改为I后，helps应改为help，his应改为my；pick保留原形。其余选项至少有一处没有正确转换。",
+        "knowledge_point": "He goes to school by school bus.",
+        "options": [
+          "I help my father pick fruit.",
+          "I helps my father pick fruit.",
+          "I help his father pick fruit.",
+          "I help my father picks fruit."
+        ],
+        "question": "男孩介绍自己时，要把“He helps his father pick fruit.”改成第一人称，并保持“帮助自己的父亲摘水果”的意思，应选哪一句？",
+        "type": "choice",
+        "id": 50015,
+        "score": 10
+      },
+      {
+        "answer": "She is picking cherries.",
+        "difficulty": 2,
+        "explanation": "表示她此刻正在摘樱桃，用She is picking cherries；其余选项的be动词或动词形式错误。",
+        "knowledge_point": "He goes to school by school bus.",
+        "options": [
+          "She is picking cherries.",
+          "She are picking cherries.",
+          "She is pick cherries.",
+          "She picking cherries."
+        ],
+        "question": "一名女孩此刻正在摘樱桃。选择正确描述这一动作的句子。",
+        "type": "choice",
+        "id": 50016,
+        "score": 10
+      },
+      {
+        "answer": "In the field.",
+        "difficulty": 2,
+        "explanation": "给出的句子中in the field说明上科学课的地点；其他三个地点均不符合给定信息。",
+        "knowledge_point": "He goes to school by school bus.",
+        "options": [
+          "In the field.",
+          "In the orchard.",
+          "On the school bus.",
+          "In the yard."
+        ],
+        "question": "阅读句子“Sometimes Ben has science classes in the field.”。本有时在哪里上科学课？",
+        "type": "choice",
+        "id": 50017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "He后应使用has，正确句子是He usually has science classes in the field.",
+        "knowledge_point": "He goes to school by school bus.",
+        "options": [],
+        "question": "判断正误：句子“He usually have science classes in the field.”的动词形式正确。",
+        "type": "true_false",
+        "id": 50018,
+        "score": 10
+      },
+      {
+        "answer": "No, I don’t.",
+        "difficulty": 1,
+        "explanation": "问句用Do you have，回答者应使用I；已说明没有黄瓜，因此选否定回答。其余选项的主语或助动词不匹配。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "No, I don’t.",
+          "Yes, I do.",
+          "No, there aren’t.",
+          "No, I’m not."
+        ],
+        "question": "你没有黄瓜。别人问“Do you have any cucumbers?”，你应怎样回答？",
+        "type": "choice",
+        "id": 50019,
+        "score": 10
+      },
+      {
+        "answer": "What vegetables do you have?",
+        "difficulty": 2,
+        "explanation": "回答列举了拥有的蔬菜，应用What vegetables询问种类；其他三项分别询问数量、位置和是否拥有。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "What vegetables do you have?",
+          "How many potatoes do you have?",
+          "Where are the potatoes?",
+          "Do you have any potatoes?"
+        ],
+        "question": "要询问对方“你有哪些蔬菜？”，并让对方回答“I have potatoes and tomatoes.”，应选哪个问句？",
+        "type": "choice",
+        "id": 50020,
+        "score": 10
+      },
+      {
+        "answer": "Ride horses.",
+        "difficulty": 1,
+        "explanation": "给出的句子明确提到ride horses，即骑马；其他活动未在该句中提及。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Feed ducks.",
+          "Ride horses.",
+          "Pick tomatoes.",
+          "Milk cows."
+        ],
+        "question": "阅读句子“On horse farms, people can ride horses.”。句子提到人们在马场可以进行哪项活动？",
+        "type": "choice",
+        "id": 50021,
+        "score": 10
+      },
+      {
+        "answer": "People can pick and buy fresh vegetables.",
+        "difficulty": 2,
+        "explanation": "题干句子给出了采摘和购买新鲜蔬菜两项活动，只有第一项完整对应；其余三项都与给定信息不符。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "People can pick and buy fresh vegetables.",
+          "People can only look at vegetables.",
+          "People cannot buy vegetables.",
+          "People must bring vegetables from home."
+        ],
+        "question": "阅读句子“On vegetable farms, people can pick and buy fresh vegetables.”。哪一项与这句话一致？",
+        "type": "choice",
+        "id": 50022,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "feed and milk cows表示喂奶牛和给奶牛挤奶，判断与给定句子的含义一致。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "阅读句子“On dairy farms, people can feed and milk cows.”。判断正误：这句话说人们在奶牛场可以喂奶牛并给奶牛挤奶。",
+        "type": "true_false",
+        "id": 50023,
+        "score": 10
+      },
+      {
+        "answer": "升调",
+        "difficulty": 2,
+        "explanation": "Do you have...?是一般疑问句，本课语音示例中句末用升调；不是降调或全句保持不变的语调。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "只读出最后一个单词即可",
+          "全句始终保持同一音高",
+          "升调",
+          "降调"
+        ],
+        "question": "按照本课语音练习的一般疑问句读法，朗读“Do you have any potatoes?”时，句末通常用什么语调？",
+        "type": "choice",
+        "id": 50024,
+        "score": 10
+      },
+      {
+        "answer": "说自己打算种土豆",
+        "difficulty": 1,
+        "explanation": "I’m going to表示打算做某事；不是已经完成，也不表示正在做或不喜欢。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "说自己不喜欢土豆",
+          "说自己已经收获土豆",
+          "说自己正在吃土豆",
+          "说自己打算种土豆"
+        ],
+        "question": "猴子说“I’m going to plant potatoes, too.”。这句话表示他在做什么？",
+        "type": "choice",
+        "id": 50025,
+        "score": 10
+      },
+      {
+        "answer": "Tomatoes.",
+        "difficulty": 1,
+        "explanation": "给定句子中planting tomatoes表示正在种西红柿；其他三项分别是土豆、玉米和樱桃。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Tomatoes.",
+          "Potatoes.",
+          "Corn.",
+          "Cherries."
+        ],
+        "question": "阅读句子“Panda is planting tomatoes.”。熊猫正在种什么？",
+        "type": "choice",
+        "id": 50026,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "But he doesn’t do it明确表示猴子没有去做；不能把他说要种理解成实际种了。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "阅读两句：“‘I’m going to plant corn, too,’ Monkey says. But he doesn’t do it.”。判断正误：这两句说明猴子真的去种了玉米。",
+        "type": "true_false",
+        "id": 50027,
+        "score": 10
+      },
+      {
+        "answer": "Winter.",
+        "difficulty": 1,
+        "explanation": "Winter comes明确说明冬天来了；其余三个选项分别是春、夏、秋。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Winter.",
+          "Spring.",
+          "Summer.",
+          "Autumn."
+        ],
+        "question": "阅读两句：“Winter comes. Dog, Panda and Cat have lots of food.”。这两句描写的是哪个季节？",
+        "type": "choice",
+        "id": 50028,
+        "score": 10
+      },
+      {
+        "answer": "先想内容，再列要点，然后写作并修改",
+        "difficulty": 2,
+        "explanation": "合理顺序是头脑风暴、提炼要点、写作与修改；另外三项都省略必要步骤或颠倒了过程。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "先想内容，再列要点，然后写作并修改",
+          "先修改尚未写出的短文，再想内容",
+          "只抄写题目，不写正文",
+          "先交稿，再决定要介绍什么"
+        ],
+        "question": "准备写一篇家乡介绍，哪一种写作过程最合理？",
+        "type": "choice",
+        "id": 50029,
+        "score": 10
+      },
+      {
+        "answer": "My hometown is beautiful.",
+        "difficulty": 2,
+        "explanation": "单数主语My hometown搭配is，句首大写、句末用句号；另外三项分别有主谓一致、语序或大小写与标点问题。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "My hometown is beautiful.",
+          "My hometown are beautiful.",
+          "My hometown beautiful is.",
+          "my hometown is beautiful"
+        ],
+        "question": "选择语法、大小写和标点都正确的句子，表达“我的家乡很美”。",
+        "type": "choice",
+        "id": 50030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 5 Country Life·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "Are there",
+        "difficulty": 2,
+        "explanation": "cows是复数，询问某处是否有牛用Are there；其余选项不能组成正确的存在问句。",
+        "knowledge_point": "There is a river near the village.",
+        "options": [
+          "Are there",
+          "Is there",
+          "There are",
+          "Does there"
+        ],
+        "question": "选择词语补全问句：____ any cows near the river?",
+        "type": "choice",
+        "id": 59001,
+        "score": 10
+      },
+      {
+        "answer": "How many goats does Ben have?",
+        "difficulty": 2,
+        "explanation": "Ben是第三人称单数，用does；does后用have，How many后用复数goats。",
+        "knowledge_point": "How many ducks do you have?",
+        "options": [
+          "How many goats does Ben have?",
+          "How many goats do Ben have?",
+          "How many goat does Ben have?",
+          "How many goats does Ben has?"
+        ],
+        "question": "选择语法正确的问句，询问“本有多少只山羊？”",
+        "type": "choice",
+        "id": 59002,
+        "score": 10
+      },
+      {
+        "answer": "He often helps his parents pick fruit.",
+        "difficulty": 2,
+        "explanation": "He作主语时用helps，help someone do something中的第二个动词用原形pick。",
+        "knowledge_point": "He goes to school by school bus.",
+        "options": [
+          "He often helps his parents pick fruit.",
+          "He often help his parents pick fruit.",
+          "He often helps his parents picks fruit.",
+          "He often helping his parents pick fruit."
+        ],
+        "question": "选择正确的句子，表达“他经常帮助父母摘水果”。",
+        "type": "choice",
+        "id": 59003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "some表示“一些”，不是“所有”；原句只说明一些马场每年有赛马活动。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "已知句子“There are horse races on some horse farms every year.”，判断正误：这句话表示所有马场每年都有赛马活动。",
+        "type": "true_false",
+        "id": 59004,
+        "score": 10
+      },
+      {
+        "answer": "He says he is going to plant corn, but he doesn’t do it.",
+        "difficulty": 3,
+        "explanation": "题干明确说猴子有种玉米的打算，却没有行动；只有第一项同时表达这两点。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "He says he is going to plant corn, but he doesn’t do it.",
+          "He is planting corn now.",
+          "He has lots of corn.",
+          "He helps Cat plant corn."
+        ],
+        "question": "一个故事情节是：猴子说自己要种玉米，但没有去种。哪一句与这个情节一致？",
+        "type": "choice",
+        "id": 59005,
+        "score": 10
+      },
+      {
+        "answer": "There are many flowers near my home.",
+        "difficulty": 2,
+        "explanation": "flowers是复数，用There are；near my home表示“在我家附近”。其余选项存在单复数搭配错误。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "There are many flowers near my home.",
+          "There is many flowers near my home.",
+          "There are many flower near my home.",
+          "There are a flowers near my home."
+        ],
+        "question": "介绍家乡时，选择正确的句子表达“我家附近有许多花”。",
+        "type": "choice",
+        "id": 59006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "用There is搭配复数名词，或用There are搭配a加单数名词。",
+        "在Is there...?和Are there...?的简短回答中混用is与are。",
+        "把any误认为所有疑问句中唯一可以使用的限定词；本课重点练习Are there any...?这一常用问法。",
+        "描述鸟在树上时误用on the trees，本课用in the trees。",
+        "描述正在发生的动作时省略are，或把They are singing写成They are sing。"
+      ],
+      "core_concept": "结合参观村庄的情境，用There is/There are说明某处有什么：单数可数名词通常搭配There is和a/an，复数名词搭配There are。用Is there...?询问单数事物是否存在，用Are there any...?询问复数事物是否存在，简短回答中的is或are要与问句一致。near表示在附近，in表示在里面；鸟停留在树上可说in the trees。询问它们正在做什么用What are they doing?，可用They are singing happily.或They are catching fish.描述当前活动。",
+      "key_formula": "There is + a/an + 单数可数名词 + 地点；There are + 复数名词 + 地点；Is there...? / Are there any...?",
+      "point": "There is a river near the village.",
+      "tips": "先找所描述的事物，判断单复数，再选is或are。回答存在问句时保留there，不要随意换成they。介绍村庄可按房屋、树木、花、河流等顺序组织；描述当前动作时记住be动词和动词-ing形式都不能漏。"
+    },
+    {
+      "common_mistakes": [
+        "How many后误用单数duck、goat，应使用复数ducks、goats。",
+        "sheep单复数同形，不能把复数写成sheeps。",
+        "第三人称单数问句中误用do，或在does后写has，应使用does...have。",
+        "混淆sheep与goat，或将potato plants与土壤里的potatoes混为一谈。",
+        "用Where is询问复数potatoes的位置，或用It’s回答，应使用Where are和They’re。"
+      ],
+      "core_concept": "用How many加可数名词复数询问数量。询问对方时使用do you have，询问the girl等第三人称单数时使用does...have，does后用动词原形。sheep表示绵羊且单复数同形，goat表示山羊。结合院子和菜园情境，认识鸭子、羊及蔬菜；potato plants指土豆植株，potatoes在对话中位于土壤里。询问复数事物的位置用Where are...?，回答用They’re...。介绍小组菜园时，可用There are...和We have...说明种植的蔬菜。",
+      "key_formula": "How many + 可数名词复数 + do/does + 主语 + have?",
+      "point": "How many ducks do you have?",
+      "tips": "先确定询问谁，再选择do或does，并检查have是否保持原形。回答数量可以直接使用数字词。介绍菜园时先说地点，再说蔬菜或植株；注意potato的复数potatoes和tomato的复数tomatoes。"
+    },
+    {
+      "common_mistakes": [
+        "主语为he或单数人名时，仍写go、live、like，应结合句子使用goes、lives、likes。",
+        "在by school bus中多加冠词，误写为by a school bus。",
+        "把often、usually表示的日常习惯与is picking表示的当前动作混淆。",
+        "将help someone pick fruit中的pick误写成picks。"
+      ],
+      "core_concept": "阅读Guo Liang的乡村生活介绍，提取他在四年级、住在乡村、乘校车上学、喜欢科学等信息，并区分课后与周末活动。他有时在田野里上科学课，放学后经常帮助父母喂牛，周末通常去父亲的果园并帮助摘水果。介绍日常习惯时使用一般现在时，he后的动词要注意第三人称单数形式；He is picking cherries.描述他正在摘樱桃。第一人称介绍时，应相应改成I live、I go、I help等形式。",
+      "key_formula": "",
+      "point": "He goes to school by school bus.",
+      "tips": "按“年级—居住地—上学方式—课程—课后—周末”整理信息。先看主语，再检查动词；将He goes改为I go时不能保留goes。复述时分清often、usually与正在发生的动作，不把填空练习补写成教材原文。"
+    },
+    {
+      "common_mistakes": [
+        "把Do you have...?的否定回答误写成No, there aren’t.，应根据问句回答No, I don’t.",
+        "把some horse farms理解成所有马场，或认为美国只有文中举例的三类农场。",
+        "混淆ride horses、pick vegetables与milk cows所表示的活动。",
+        "将一般疑问句、特殊疑问句和陈述句的常见语调混为一谈。"
+      ],
+      "core_concept": "综合复习乡村景物、动物、蔬菜、数量及位置表达。There is/There are说明某处有什么，Do you have any...?询问对方是否拥有某物，回答应与问句一致。农场阅读举例介绍horse farms、vegetable farms和dairy farms：可分别联系骑马、采买新鲜蔬菜、喂奶牛和挤奶等活动。语音对话中，陈述句和特殊疑问句通常读降调，一般疑问句通常读升调。歌曲属于欣赏与演唱活动，不作为主阅读原文。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "先辨认问句是在问“某处有没有”还是“你有没有”，再选择there或I作回答主语。阅读时圈出农场名称、活动以及some、may等限定词，不把例子当作全部种类，也不把“可以”理解成“必须”。跟读完整对话，留意语调。"
+    },
+    {
+      "common_mistakes": [
+        "把猴子说的I’m going to...理解为他已经完成种植。",
+        "复述时混淆狗种土豆、熊猫种西红柿、猫种玉米的对应关系。",
+        "将故事最后的What about Monkey?擅自扩写为原文中没有的结局。",
+        "介绍家乡时只列景物，遗漏自己的感受，或忘记检查单复数、大小写与标点。",
+        "自评时只认读单词，不检查自己能否复述Guo Liang的生活并介绍村庄。"
+      ],
+      "core_concept": "阅读He doesn’t do it.，按春天到冬天的顺序理解故事。狗种土豆、熊猫种西红柿、猫种玉米，猴子每次说也要种，却没有行动；冬天狗、熊猫和猫有许多食物，原文以What about Monkey?提出问题。理解计划与实际行动的区别，讨论不能只说不做。综合自评本单元词汇、存在句、数量问句，以及复述Guo Liang生活、介绍村庄的能力。写家乡介绍时，依次进行头脑风暴、提炼要点、写作与修改，内容可包括家乡、山丘与河流、树木与花及个人感受。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "复述先列出“角色—种植对象—是否行动”，不为故事补写原文没有的句子。介绍家乡前先列要点，再写完整句子；修改时检查There is/There are、句首大写和句末标点。自评关注自己是否真正能说、能复述，而不只是看懂。"
+    }
+  ]
+}

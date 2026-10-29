@@ -1,0 +1,694 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级 上册",
+  "unit": "Review",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "Review·配套练习",
+    "total_score": 360,
+    "time_minutes": 36,
+    "questions": [
+      {
+        "answer": "Hello!",
+        "difficulty": 1,
+        "explanation": "Hello!用于打招呼；其他三项分别表示感谢、询问数量和表达颜色喜好。",
+        "knowledge_point": "Task 1 Ask and answer.",
+        "options": [
+          "Thank you!",
+          "Hello!",
+          "How many pens?",
+          "I like yellow."
+        ],
+        "question": "在角色游戏开始时，需要先向伙伴说“你好！”。应选哪句话？",
+        "type": "choice",
+        "id": 80001,
+        "score": 10
+      },
+      {
+        "answer": "询问对方姓名",
+        "difficulty": 1,
+        "explanation": "What’s your name?询问对方叫什么名字，不是在问颜色、数量或身体部位。",
+        "knowledge_point": "Task 1 Ask and answer.",
+        "options": [
+          "询问物品数量",
+          "介绍自己的身体部位",
+          "表达颜色喜好",
+          "询问对方姓名"
+        ],
+        "question": "角色游戏中，一名学生说“What’s your name?”，他正在做什么？",
+        "type": "choice",
+        "id": 80002,
+        "score": 10
+      },
+      {
+        "answer": "My name’s Ann.",
+        "difficulty": 2,
+        "explanation": "My name’s Ann.正确表达“我的名字是Ann”。其余选项缺少必要成分或混用了询问姓名的结构。",
+        "knowledge_point": "Task 1 Ask and answer.",
+        "options": [
+          "My name Ann.",
+          "My names Ann.",
+          "What’s name Ann?",
+          "My name’s Ann."
+        ],
+        "question": "角色卡要求介绍“我的名字是Ann”。下列哪句话正确？",
+        "type": "choice",
+        "id": 80003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Nice to meet you.表示“很高兴认识你”，不是询问姓名。",
+        "knowledge_point": "Task 1 Ask and answer.",
+        "options": [],
+        "question": "“Nice to meet you.”的意思是“你叫什么名字？”。",
+        "type": "true_false",
+        "id": 80004,
+        "score": 10
+      },
+      {
+        "answer": "name is",
+        "difficulty": 2,
+        "explanation": "介绍姓名时，name’s是name is的缩写；其他选项都不是这里的完整形式。",
+        "knowledge_point": "Task 1 Ask and answer.",
+        "options": [
+          "name are",
+          "name is",
+          "name am",
+          "name do"
+        ],
+        "question": "在“My name’s Ben.”中，name’s是哪一项的缩写？",
+        "type": "choice",
+        "id": 80005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "My name’s后面的Jim是说话人介绍的姓名。",
+        "knowledge_point": "Task 1 Ask and answer.",
+        "options": [],
+        "question": "在虚构角色对话中，一人说“My name’s Jim.”，这句话介绍的角色姓名是Jim。",
+        "type": "true_false",
+        "id": 80006,
+        "score": 10
+      },
+      {
+        "answer": "Six one nine.",
+        "difficulty": 1,
+        "explanation": "619从左到右依次是6、1、9，对应six、one、nine；其他选项改变了顺序。",
+        "knowledge_point": "Task 2 Read and find more.",
+        "options": [
+          "One six nine.",
+          "Six nine one.",
+          "Six one nine.",
+          "Nine one six."
+        ],
+        "question": "练习用编号619要求从左到右逐位读出，正确读法是哪一项？",
+        "type": "choice",
+        "id": 80007,
+        "score": 10
+      },
+      {
+        "answer": "772",
+        "difficulty": 1,
+        "explanation": "Seven seven two.依次对应7、7、2，两个seven都要保留。",
+        "knowledge_point": "Task 2 Read and find more.",
+        "options": [
+          "727",
+          "772",
+          "277",
+          "722"
+        ],
+        "question": "听到编号逐位读作“Seven seven two.”，应记录为哪一项？",
+        "type": "choice",
+        "id": 80008,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "逐位读时每一位都要读出；66中的两个6都读six。",
+        "knowledge_point": "Task 2 Read and find more.",
+        "options": [],
+        "question": "要求逐位读编号66时，两个6都要读出来，不能只读一次six。",
+        "type": "true_false",
+        "id": 80009,
+        "score": 10
+      },
+      {
+        "answer": "Six",
+        "difficulty": 1,
+        "explanation": "编号62的第一位是6，应先读six；two对应第二位，one和nine都不对应第一位。",
+        "knowledge_point": "Task 2 Read and find more.",
+        "options": [
+          "Two",
+          "One",
+          "Nine",
+          "Six"
+        ],
+        "question": "一个练习用门牌编号为62。要求从左到右逐位读，首先读哪个词？",
+        "type": "choice",
+        "id": 80010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "271应读作Two seven one.；One seven two.对应172。",
+        "knowledge_point": "Task 2 Read and find more.",
+        "options": [],
+        "question": "要求从左到右逐位读编号271时，读成“One seven two.”是正确的。",
+        "type": "true_false",
+        "id": 80011,
+        "score": 10
+      },
+      {
+        "answer": "One two six six.",
+        "difficulty": 2,
+        "explanation": "1266的四位数字依次读作one、two、six、six；其他选项漏读数字或改变了顺序。",
+        "knowledge_point": "Task 2 Read and find more.",
+        "options": [
+          "One two six.",
+          "One two six six.",
+          "One six two six.",
+          "Six six two one."
+        ],
+        "question": "练习卡上的编号是1266。哪一项按从左到右的顺序完整逐位读出了这个编号？",
+        "type": "choice",
+        "id": 80012,
+        "score": 10
+      },
+      {
+        "answer": "head",
+        "difficulty": 1,
+        "explanation": "head表示头；hand表示手，arm表示手臂，foot表示脚。",
+        "knowledge_point": "Task 3 Find and say.",
+        "options": [
+          "foot",
+          "hand",
+          "arm",
+          "head"
+        ],
+        "question": "词卡游戏中，需要找出表示“头”的单词。应选哪一项？",
+        "type": "choice",
+        "id": 80013,
+        "score": 10
+      },
+      {
+        "answer": "hand",
+        "difficulty": 1,
+        "explanation": "hand表示手；nose、leg、eye分别表示鼻子、腿和眼睛。",
+        "knowledge_point": "Task 3 Find and say.",
+        "options": [
+          "nose",
+          "hand",
+          "leg",
+          "eye"
+        ],
+        "question": "哪张英语词卡与中文“手”对应？",
+        "type": "choice",
+        "id": 80014,
+        "score": 10
+      },
+      {
+        "answer": "I have two ears.",
+        "difficulty": 2,
+        "explanation": "I与have搭配；two后使用复数ears。其余三项分别错在动词、名词单复数或句式。",
+        "knowledge_point": "Task 3 Find and say.",
+        "options": [
+          "I has two ears.",
+          "I have two ear.",
+          "I am two ears.",
+          "I have two ears."
+        ],
+        "question": "一个玩偶有两只耳朵。替它说“我有两只耳朵”，哪句话正确？",
+        "type": "choice",
+        "id": 80015,
+        "score": 10
+      },
+      {
+        "answer": "This is my nose.",
+        "difficulty": 2,
+        "explanation": "介绍自己的一个鼻子使用This is my nose.；其余选项漏掉is、错用am或使用了复数noses。",
+        "knowledge_point": "Task 3 Find and say.",
+        "options": [
+          "This my nose.",
+          "This is my nose.",
+          "This am my nose.",
+          "This is my noses."
+        ],
+        "question": "一个角色指着自己的鼻子说“这是我的鼻子”。哪句话正确？",
+        "type": "choice",
+        "id": 80016,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "two后应使用复数legs，正确表达是I have two legs.",
+        "knowledge_point": "Task 3 Find and say.",
+        "options": [],
+        "question": "一个有两条腿的玩偶说“I have two leg.”，这句话的名词形式正确。",
+        "type": "true_false",
+        "id": 80017,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "foot表示脚，face表示脸，是不同的身体部位。",
+        "knowledge_point": "Task 3 Find and say.",
+        "options": [],
+        "question": "foot和face的意思不同：foot表示“脚”，face表示“脸”。",
+        "type": "true_false",
+        "id": 80018,
+        "score": 10
+      },
+      {
+        "answer": "喜欢什么颜色",
+        "difficulty": 1,
+        "explanation": "What colour询问颜色，do you like在这里询问喜好；整句不是问姓名、数量或身体部位。",
+        "knowledge_point": "Task 4 Colour and talk.",
+        "options": [
+          "有多少本书",
+          "叫什么名字",
+          "喜欢什么颜色",
+          "有几只眼睛"
+        ],
+        "question": "听到“What colour do you like?”时，需要回答的是哪类信息？",
+        "type": "choice",
+        "id": 80019,
+        "score": 10
+      },
+      {
+        "answer": "like",
+        "difficulty": 2,
+        "explanation": "主语是I，表达喜好时用like；likes、is、am都不能正确完成这个句子。",
+        "knowledge_point": "Task 4 Colour and talk.",
+        "options": [
+          "is",
+          "likes",
+          "like",
+          "am"
+        ],
+        "question": "要表达“我喜欢黄色”，句子“I ____ yellow.”的空格应填哪一项？",
+        "type": "choice",
+        "id": 80020,
+        "score": 10
+      },
+      {
+        "answer": "I like",
+        "difficulty": 2,
+        "explanation": "表达“我喜欢……”应先说I like，再接颜色词；其他选项的词序或动词形式不正确。",
+        "knowledge_point": "Task 4 Colour and talk.",
+        "options": [
+          "Like I",
+          "I likes",
+          "My like",
+          "I like"
+        ],
+        "question": "用英语表达“我喜欢某种颜色”，在颜色词之前应使用哪一组词？",
+        "type": "choice",
+        "id": 80021,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "I like表达自己的喜好；这句话没有说明黄色物品的数量。",
+        "knowledge_point": "Task 4 Colour and talk.",
+        "options": [],
+        "question": "“I like yellow.”是在表达颜色喜好，不是在报告黄色物品的数量。",
+        "type": "true_false",
+        "id": 80022,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "颜色喜好可以不同，示范中的yellow不是所有回答的唯一选择。",
+        "knowledge_point": "Task 4 Colour and talk.",
+        "options": [],
+        "question": "在自由交流中，所有人回答“What colour do you like?”时，都必须说自己喜欢黄色。",
+        "type": "true_false",
+        "id": 80023,
+        "score": 10
+      },
+      {
+        "answer": "What colour",
+        "difficulty": 2,
+        "explanation": "询问喜欢什么颜色用What colour；How many询问数量，其他两项不能构成所要求的问句。",
+        "knowledge_point": "Task 4 Colour and talk.",
+        "options": [
+          "How many",
+          "My name",
+          "What colour",
+          "This is"
+        ],
+        "question": "要询问“你喜欢什么颜色？”，问句“____ do you like?”的空格应填哪一项？",
+        "type": "choice",
+        "id": 80024,
+        "score": 10
+      },
+      {
+        "answer": "Two books.",
+        "difficulty": 1,
+        "explanation": "两本书用Two books.；Two book.单复数不正确，其他两项的数量或物品不符。",
+        "knowledge_point": "Task 5 Read and act.",
+        "options": [
+          "Two book.",
+          "Two books.",
+          "One book.",
+          "Two pens."
+        ],
+        "question": "捐赠盒里明确放着2本书。回答盒里书的数量，应选哪一项？",
+        "type": "choice",
+        "id": 80025,
+        "score": 10
+      },
+      {
+        "answer": "one book",
+        "difficulty": 1,
+        "explanation": "one后使用单数book；其他选项存在单复数错误或表示多本书。",
+        "knowledge_point": "Task 5 Read and act.",
+        "options": [
+          "one books",
+          "two book",
+          "one book",
+          "two books"
+        ],
+        "question": "登记“1本书”时，哪一组英语表达正确且数量相符？",
+        "type": "choice",
+        "id": 80026,
+        "score": 10
+      },
+      {
+        "answer": "books",
+        "difficulty": 2,
+        "explanation": "How many后用可数名词复数；题目要求询问书，因此选books，而不是pens。",
+        "knowledge_point": "Task 5 Read and act.",
+        "options": [
+          "book",
+          "pen",
+          "pens",
+          "books"
+        ],
+        "question": "要询问书的数量，请补全“How many ____?”。哪一项正确？",
+        "type": "choice",
+        "id": 80027,
+        "score": 10
+      },
+      {
+        "answer": "Three books and two pens.",
+        "difficulty": 2,
+        "explanation": "three对应三，two对应二；两类物品的数量都大于一，分别使用books和pens。其余选项有数量或单复数错误。",
+        "knowledge_point": "Task 5 Read and act.",
+        "options": [
+          "Three books and two pens.",
+          "Three book and two pens.",
+          "Three books and two pen.",
+          "Two books and three pens."
+        ],
+        "question": "一份捐赠记录写着“3本书、2支钢笔”。哪一项完整、正确地表达了这份记录？",
+        "type": "choice",
+        "id": 80028,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Thank you!是表达感谢的礼貌用语，不负责说明具体数量。",
+        "knowledge_point": "Task 5 Read and act.",
+        "options": [],
+        "question": "接收捐赠用品时说“Thank you!”，是在表达感谢。",
+        "type": "true_false",
+        "id": 80029,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "one后应用单数pen，“1支钢笔”的正确词组是one pen。",
+        "knowledge_point": "Task 5 Read and act.",
+        "options": [],
+        "question": "捐赠清单上只有1支钢笔，把它写成“one pens”是正确的。",
+        "type": "true_false",
+        "id": 80030,
+        "score": 10
+      },
+      {
+        "answer": "F",
+        "difficulty": 1,
+        "explanation": "字母表中E后紧接F；D在E之前，G和H都不紧接E。",
+        "knowledge_point": "Task 6 Let’s sing.",
+        "options": [
+          "H",
+          "G",
+          "F",
+          "D"
+        ],
+        "question": "按英语字母表顺序，E后面紧接着哪个字母？",
+        "type": "choice",
+        "id": 80031,
+        "score": 10
+      },
+      {
+        "answer": "H",
+        "difficulty": 1,
+        "explanation": "这一段的顺序是H、I、J，所以I前面紧接H。",
+        "knowledge_point": "Task 6 Let’s sing.",
+        "options": [
+          "J",
+          "K",
+          "G",
+          "H"
+        ],
+        "question": "按英语字母表顺序，I前面紧接着哪个字母？",
+        "type": "choice",
+        "id": 80032,
+        "score": 10
+      },
+      {
+        "answer": "S",
+        "difficulty": 2,
+        "explanation": "R、S、T是连续的三个字母，所以中间应填S。",
+        "knowledge_point": "Task 6 Let’s sing.",
+        "options": [
+          "S",
+          "V",
+          "Q",
+          "U"
+        ],
+        "question": "补全按字母表顺序连续排列的三个字母：R、____、T。",
+        "type": "choice",
+        "id": 80033,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "英语字母表共有26个字母，从A开始，到Z结束。",
+        "knowledge_point": "Task 6 Let’s sing.",
+        "options": [],
+        "question": "英语字母表共有26个字母，第一个是A。",
+        "type": "true_false",
+        "id": 80034,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "这一段的正确顺序是U、V、W，题目把V和W的位置调换了。",
+        "knowledge_point": "Task 6 Let’s sing.",
+        "options": [],
+        "question": "U、W、V是按英语字母表顺序连续排列的三个字母。",
+        "type": "true_false",
+        "id": 80035,
+        "score": 10
+      },
+      {
+        "answer": "C, D, E",
+        "difficulty": 2,
+        "explanation": "字母表中C后面依次是D、E；其他三项都调换了顺序。",
+        "knowledge_point": "Task 6 Let’s sing.",
+        "options": [
+          "E, D, C",
+          "C, D, E",
+          "D, C, E",
+          "C, E, D"
+        ],
+        "question": "将字母卡E、C、D按英语字母表的先后顺序排列，正确的是哪一项？",
+        "type": "choice",
+        "id": 80036,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Review·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "My name’s Tom.",
+        "difficulty": 2,
+        "explanation": "角色姓名是Tom，介绍自己应说“My name’s Tom.”；其余选项分别是在询问姓名、表达喜好或介绍身体部位。",
+        "knowledge_point": "Task 1 Ask and answer.",
+        "options": [
+          "What’s your name?",
+          "I like yellow.",
+          "My name’s Tom.",
+          "This is my face."
+        ],
+        "question": "角色卡上的名字是Tom。扮演这个角色时，哪句话能正确介绍自己的姓名？",
+        "type": "choice",
+        "id": 89001,
+        "score": 10
+      },
+      {
+        "answer": "Nine six one.",
+        "difficulty": 2,
+        "explanation": "按从左到右的顺序，9、6、1分别读作nine、six、one；其余选项都改变了数字顺序。",
+        "knowledge_point": "Task 2 Read and find more.",
+        "options": [
+          "Six nine one.",
+          "Nine one six.",
+          "One six nine.",
+          "Nine six one."
+        ],
+        "question": "一个练习用编号是961。要求从左到右逐位读出，正确读法是哪一项？",
+        "type": "choice",
+        "id": 89002,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "mouth表示嘴，ear表示耳朵，两者意思不同。",
+        "knowledge_point": "Task 3 Find and say.",
+        "options": [],
+        "question": "单词mouth和ear都表示“嘴”。",
+        "type": "true_false",
+        "id": 89003,
+        "score": 10
+      },
+      {
+        "answer": "黄色",
+        "difficulty": 1,
+        "explanation": "yellow表示黄色；这句话表达说话人喜欢黄色，并不是在说明物品数量或姓名。",
+        "knowledge_point": "Task 4 Colour and talk.",
+        "options": [
+          "蓝色",
+          "黄色",
+          "红色",
+          "绿色"
+        ],
+        "question": "一个角色说：“I like yellow.”这个角色明确说自己喜欢哪种颜色？",
+        "type": "choice",
+        "id": 89004,
+        "score": 10
+      },
+      {
+        "answer": "One book and six pens.",
+        "difficulty": 2,
+        "explanation": "一本书用one book，六支钢笔用six pens；其余选项存在单复数或数量对应错误。",
+        "knowledge_point": "Task 5 Read and act.",
+        "options": [
+          "One books and six pen.",
+          "One book and six pens.",
+          "Six books and one pen.",
+          "One book and six pen."
+        ],
+        "question": "捐赠登记卡写着“1本书、6支钢笔”。哪一项与登记内容相符且单复数正确？",
+        "type": "choice",
+        "id": 89005,
+        "score": 10
+      },
+      {
+        "answer": "K, L, M",
+        "difficulty": 2,
+        "explanation": "字母表中K后面依次是L、M；其他选项均调换了这三个字母的顺序。",
+        "knowledge_point": "Task 6 Let’s sing.",
+        "options": [
+          "M, L, K",
+          "K, M, L",
+          "L, K, M",
+          "K, L, M"
+        ],
+        "question": "把字母卡M、K、L按英语字母表的先后顺序排列，应选哪一项？",
+        "type": "choice",
+        "id": 89006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把“What’s your name?”写成“What your name?”，漏掉必要的成分。",
+        "把“My name’s …”中的name’s写成names；这里name’s是name is的缩写。",
+        "把询问姓名、介绍姓名和初次见面的礼貌表达混为一谈。"
+      ],
+      "core_concept": "复习见面问候、询问姓名、介绍姓名和初次见面的礼貌表达。Hello!用于打招呼；What’s your name?用于询问对方姓名；My name’s …用于介绍自己的姓名；Nice to meet you.表示“很高兴认识你”。角色活动使用给定的虚构姓名，不要求提供真实个人信息。",
+      "key_formula": "Hello!；What’s your name? — My name’s + 姓名.；Nice to meet you.",
+      "point": "Task 1 Ask and answer.",
+      "tips": "先判断说话目的，再选表达。注意What’s、name’s中的撇号。遇到留给自己交流的内容，可以联系实际作答。"
+    },
+    {
+      "common_mistakes": [
+        "逐位读数字串时漏读重复出现的数字。",
+        "把数字串从右向左读，改变原有顺序。",
+        "把编号的逐位读法与物品数量表达混淆，或把各位数字相加后再读。"
+      ],
+      "core_concept": "复习生活中数字的辨认和使用。教材包含电话号码、门牌和车牌等场景，并示范把119逐位读为One one nine.。本课练习要求逐位读时，应从左到右保留每一位数字及其顺序；这与用数词说明物品数量不同。不要据此认定所有真实门牌或号码都只有一种读法。",
+      "key_formula": "逐位读数字串：从左到右，依次读出每一位数字。",
+      "point": "Task 2 Read and find more.",
+      "tips": "先看清有几位数字，再逐个读；重复数字也不能省略。"
+    },
+    {
+      "common_mistakes": [
+        "混淆head（头）和hand（手），或混淆arm（手臂）和hand（手）。",
+        "在two等数量后仍用eye、leg等单数形式。",
+        "把I have写成I has，或用This is介绍多个部位。"
+      ],
+      "core_concept": "复习head（头）、arm（手臂）、leg（腿）、hand（手）、foot（脚）、nose（鼻子）、eye（眼睛）、mouth（嘴）、ear（耳朵）、face（脸）。用This is my …介绍一个身体部位，用I have …说明拥有的部位及数量。教材在拟人化场景中示范two eyes和four legs，要结合数量理解单复数。",
+      "key_formula": "This is my + 身体部位单数.；I have + 数量 + 身体部位名词.",
+      "point": "Task 3 Find and say.",
+      "tips": "先判断部位名称，再看数量。one后用单数；eye、leg等词在数量大于一时用eyes、legs。不要把所有名词的复数都机械地看成直接加s。"
+    },
+    {
+      "common_mistakes": [
+        "把询问颜色喜好的句子当成询问姓名或数量。",
+        "使用I likes而不是I like。",
+        "把开放的颜色喜好回答误认为只能使用示范中的yellow。"
+      ],
+      "core_concept": "在涂色和交流活动中复习颜色及颜色喜好问答。What colour do you like?询问对方喜欢什么颜色；I like + 颜色.表达自己的喜好。教材明确示范I like yellow.，另有留待学生完成的开放表达。",
+      "key_formula": "What colour do you like? — I like + 颜色.",
+      "point": "Task 4 Colour and talk.",
+      "tips": "颜色喜好可以因人而异；做选择题时要依据题目给出的明确条件。I后使用like。I like后接省略号时，不能据此确定角色喜欢哪种颜色。"
+    },
+    {
+      "common_mistakes": [
+        "在How many后使用book、pen等单数名词。",
+        "忽略数量，把one book写成one books，或把two pens写成two pen。",
+        "把Thank you!误认为询问数量的表达。"
+      ],
+      "core_concept": "在捐赠学习用品的场景中复习询问数量、报告数量和表达感谢。How many books?询问书的数量，How many pens?询问钢笔的数量。回答时让数词与名词单复数对应：one后用单数，数量大于一时book、pen分别用books、pens；and可连接两类物品。Thank you!用于表达感谢。",
+      "key_formula": "How many + 可数名词复数?；one + 单数名词；大于一的数量 + 复数名词；Thank you!",
+      "point": "Task 5 Read and act.",
+      "tips": "先核对是哪种物品、数量是多少，再选单复数。角色表演可先询问两类物品，再分别报告数量，最后表达感谢。"
+    },
+    {
+      "common_mistakes": [
+        "按字母表排序时漏掉字母或调换相邻字母的位置。",
+        "把页面上装饰性散列字母的位置当成字母表顺序。",
+        "混淆字母名称与字母在具体单词中的发音。"
+      ],
+      "core_concept": "通过字母歌复习26个英文字母的名称及字母表顺序，并借助页面散列字母开展辨认、指读和排序。字母表顺序为A、B、C、D、E、F、G、H、I、J、K、L、M、N、O、P、Q、R、S、T、U、V、W、X、Y、Z。歌曲是复习活动，歌词不作为本单元主阅读收录。",
+      "key_formula": "",
+      "point": "Task 6 Let’s sing.",
+      "tips": "可以分段指读，再连成完整字母表。判断某个字母的前后位置时，按字母表核对，不按散列字母在页面上的位置推断。"
+    }
+  ]
+}

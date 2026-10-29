@@ -1,0 +1,627 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）四年级下册",
+  "unit": "Unit 4 Weekend",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Unit 4 Weekend·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "visit",
+        "difficulty": 1,
+        "explanation": "I后用动词原形visit；visits是第三人称单数形式，visiting和to visit不能单独作此处谓语。",
+        "knowledge_point": "Sometimes I do housework.",
+        "options": [
+          "visits",
+          "visit",
+          "visiting",
+          "to visit"
+        ],
+        "question": "选择正确的词：I often ____ my grandparents at the weekend.",
+        "type": "choice",
+        "id": 40001,
+        "score": 10
+      },
+      {
+        "answer": "Sometimes I go to the museum.",
+        "difficulty": 1,
+        "explanation": "Sometimes表示有时，I后用go。第二项误用goes，第三项改变频率，第四项改变活动；四项中只有第一项准确。",
+        "knowledge_point": "Sometimes I do housework.",
+        "options": [
+          "Sometimes I go to the museum.",
+          "Sometimes I goes to the museum.",
+          "I often go to the museum.",
+          "Sometimes I watch TV."
+        ],
+        "question": "选择准确表达“我有时去博物馆”的句子。",
+        "type": "choice",
+        "id": 40002,
+        "score": 10
+      },
+      {
+        "answer": "Yes, I do.",
+        "difficulty": 1,
+        "explanation": "Do you…?的肯定简短回答用Yes, I do.。does与I不匹配，am不是对应助动词，often不能代替do。",
+        "knowledge_point": "Sometimes I do housework.",
+        "options": [
+          "Yes, I does.",
+          "Yes, I do.",
+          "Yes, I often.",
+          "Yes, I am."
+        ],
+        "question": "对“Do you often help your mum?”作肯定简短回答，应选哪一句？",
+        "type": "choice",
+        "id": 40003,
+        "score": 10
+      },
+      {
+        "answer": "No, I don’t.",
+        "difficulty": 2,
+        "explanation": "Do you…?的否定简短回答用No, I don’t.。doesn’t与I不匹配，am not不对应Do，No, I do.肯否搭配错误。",
+        "knowledge_point": "Sometimes I do housework.",
+        "options": [
+          "No, I don’t.",
+          "No, I am not.",
+          "No, I do.",
+          "No, I doesn’t."
+        ],
+        "question": "对“Do you often read books at the weekend?”作否定简短回答，应选哪一句？",
+        "type": "choice",
+        "id": 40004,
+        "score": 10
+      },
+      {
+        "answer": "I sometimes watch TV.",
+        "difficulty": 2,
+        "explanation": "I sometimes watch TV.正确表达我有时看电视。其他选项分别误用watches、改成经常或改为做家务。",
+        "knowledge_point": "Sometimes I do housework.",
+        "options": [
+          "I sometimes watches TV.",
+          "I often watch TV.",
+          "I sometimes watch TV.",
+          "I sometimes do housework."
+        ],
+        "question": "选择准确表达“我有时看电视”的句子。",
+        "type": "choice",
+        "id": 40005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "给出的回答中Sometimes I watch TV.明确说明说话人有时看电视。",
+        "knowledge_point": "Sometimes I do housework.",
+        "options": [],
+        "question": "阅读：A: What do you do at the weekend? B: I often play basketball. Sometimes I watch TV. 判断：B有时看电视。",
+        "type": "true_false",
+        "id": 40006,
+        "score": 10
+      },
+      {
+        "answer": "reads",
+        "difficulty": 1,
+        "explanation": "He作主语，陈述习惯时用reads。read是原形；reading与to read不能单独作此处谓语。",
+        "knowledge_point": "He often plays football.",
+        "options": [
+          "to read",
+          "read",
+          "reads",
+          "reading"
+        ],
+        "question": "选择正确的词：He often ____ books at the weekend.",
+        "type": "choice",
+        "id": 40007,
+        "score": 10
+      },
+      {
+        "answer": "She often goes to the cinema.",
+        "difficulty": 1,
+        "explanation": "She对应goes，“去电影院”用go to the cinema。其他选项分别误用go、漏the或用going代替谓语。",
+        "knowledge_point": "He often plays football.",
+        "options": [
+          "She often go to the cinema.",
+          "She often goes to the cinema.",
+          "She often goes to cinema.",
+          "She often going to the cinema."
+        ],
+        "question": "选择正确表达“她经常去电影院”的句子。",
+        "type": "choice",
+        "id": 40008,
+        "score": 10
+      },
+      {
+        "answer": "usually",
+        "difficulty": 1,
+        "explanation": "usually表示通常；sometimes表示有时，often表示经常，weekend表示周末。",
+        "knowledge_point": "He often plays football.",
+        "options": [
+          "usually",
+          "sometimes",
+          "weekend",
+          "often"
+        ],
+        "question": "选择表示“通常”的英语单词。",
+        "type": "choice",
+        "id": 40009,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "所给句子说经常读书、有时玩电脑游戏，判断句将活动对应的频率颠倒了。",
+        "knowledge_point": "He often plays football.",
+        "options": [],
+        "question": "阅读：“Sam often reads books. Sometimes he plays computer games.” 判断：Sam经常玩电脑游戏，有时读书。",
+        "type": "true_false",
+        "id": 40010,
+        "score": 10
+      },
+      {
+        "answer": "What does your father do at the weekend?",
+        "difficulty": 2,
+        "explanation": "your father是第三人称单数，使用does，后面的do保持原形。其他选项误用了do、does或is。",
+        "knowledge_point": "He often plays football.",
+        "options": [
+          "What do your father do at the weekend?",
+          "What does your father does at the weekend?",
+          "What does your father do at the weekend?",
+          "What is your father do at the weekend?"
+        ],
+        "question": "想询问对方爸爸周末做什么，哪个问句正确？",
+        "type": "choice",
+        "id": 40011,
+        "score": 10
+      },
+      {
+        "answer": "have a picnic",
+        "difficulty": 1,
+        "explanation": "have a picnic表示野餐；其余选项分别表示购物、钓鱼和看电视，均不符合指定意思。",
+        "knowledge_point": "He often plays football.",
+        "options": [
+          "go shopping",
+          "have a picnic",
+          "go fishing",
+          "watch TV"
+        ],
+        "question": "你想邀请朋友星期六去野餐。选择符合意思的短语：Let’s ____ on Saturday.",
+        "type": "choice",
+        "id": 40012,
+        "score": 10
+      },
+      {
+        "answer": "Does Ben often play computer games?",
+        "difficulty": 1,
+        "explanation": "Ben是第三人称单数，使用Does，后接play。其他选项分别误用Do、误用plays或误用playing。",
+        "knowledge_point": "Does he often play the violin?",
+        "options": [
+          "Does Ben often play computer games?",
+          "Do Ben often play computer games?",
+          "Does Ben often plays computer games?",
+          "Does Ben often playing computer games?"
+        ],
+        "question": "想询问Ben是否经常玩电脑游戏，哪个问句正确？",
+        "type": "choice",
+        "id": 40013,
+        "score": 10
+      },
+      {
+        "answer": "No, he doesn’t.",
+        "difficulty": 1,
+        "explanation": "Does开头、询问男孩的问题用No, he doesn’t.作否定简短回答。don’t助动词形式错误，isn’t不匹配，No, he does.肯否搭配错误。",
+        "knowledge_point": "Does he often play the violin?",
+        "options": [
+          "No, he isn’t.",
+          "No, he does.",
+          "No, he don’t.",
+          "No, he doesn’t."
+        ],
+        "question": "Ben是男孩。对“Does Ben often write emails?”作否定简短回答，选哪一句？",
+        "type": "choice",
+        "id": 40014,
+        "score": 10
+      },
+      {
+        "answer": "Yes, she does.",
+        "difficulty": 1,
+        "explanation": "Lily用she指代，Does问句用does作肯定简短回答。do和is不匹配，Yes, she doesn’t.肯否搭配错误。",
+        "knowledge_point": "Does he often play the violin?",
+        "options": [
+          "Yes, she doesn’t.",
+          "Yes, she does.",
+          "Yes, she is.",
+          "Yes, she do."
+        ],
+        "question": "Lily是女孩，经常拉小提琴。对“Does Lily often play the violin?”作肯定简短回答，选哪一句？",
+        "type": "choice",
+        "id": 40015,
+        "score": 10
+      },
+      {
+        "answer": "listens to music",
+        "difficulty": 2,
+        "explanation": "sometimes后的活动是听音乐；弹钢琴是often对应的活动，另两项没有出现在提供的句子中。",
+        "knowledge_point": "Does he often play the violin?",
+        "options": [
+          "plays the piano",
+          "writes emails",
+          "listens to music",
+          "washes clothes"
+        ],
+        "question": "阅读：“Leo often plays the piano. Sometimes he listens to music.” 完成意思对应的句子：Leo sometimes ____.",
+        "type": "choice",
+        "id": 40016,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "No, he doesn’t.否定了经常洗衣服这一说法，不能据此说他经常洗衣服。",
+        "knowledge_point": "Does he often play the violin?",
+        "options": [],
+        "question": "阅读：A: Does Jack often wash clothes at the weekend? B: No, he doesn’t. 判断：Jack经常在周末洗衣服。",
+        "type": "true_false",
+        "id": 40017,
+        "score": 10
+      },
+      {
+        "answer": "the",
+        "difficulty": 1,
+        "explanation": "本课“弹钢琴”的表达是play the piano，用the；a、an和to都不构成该表达。",
+        "knowledge_point": "Does he often play the violin?",
+        "options": [
+          "a",
+          "an",
+          "to",
+          "the"
+        ],
+        "question": "按本单元“弹钢琴”的表达填词：Does your sister often play ____ piano?",
+        "type": "choice",
+        "id": 40018,
+        "score": 10
+      },
+      {
+        "answer": "She sometimes plays computer games.",
+        "difficulty": 1,
+        "explanation": "she作主语时用plays，sometimes表示有时。其余选项分别缺少动词词尾、改变频率或改变活动。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "She sometimes plays computer games.",
+          "She sometimes play computer games.",
+          "She often plays computer games.",
+          "She sometimes takes pictures."
+        ],
+        "question": "选择准确表达“她有时玩电脑游戏”的句子。",
+        "type": "choice",
+        "id": 40019,
+        "score": 10
+      },
+      {
+        "answer": "take",
+        "difficulty": 2,
+        "explanation": "Does后使用动词原形take；takes、taking、took都不符合这一结构。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "took",
+          "takes",
+          "take",
+          "taking"
+        ],
+        "question": "选择正确的词：Does Amy often ____ pictures at the weekend?",
+        "type": "choice",
+        "id": 40020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "问句用Does，主语Amy用she指代，肯定简短回答用Yes, she does.",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：对“Does Amy often climb the hill?”作肯定简短回答，可以说“Yes, she does.”。",
+        "type": "true_false",
+        "id": 40021,
+        "score": 10
+      },
+      {
+        "answer": "black",
+        "difficulty": 1,
+        "explanation": "black以/bl/开头；class、clean和cloudy均以/kl/开头。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "black",
+          "clean",
+          "cloudy",
+          "class"
+        ],
+        "question": "下面哪个词的开头发音与blue的开头/bl/相同？",
+        "type": "choice",
+        "id": 40022,
+        "score": 10
+      },
+      {
+        "answer": "rain",
+        "difficulty": 2,
+        "explanation": "rain中的ai读/eɪ/；其余三个词都没有字母组合ai。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "blood",
+          "climb",
+          "blow",
+          "rain"
+        ],
+        "question": "哪个词含有读/eɪ/的字母组合ai？",
+        "type": "choice",
+        "id": 40023,
+        "score": 10
+      },
+      {
+        "answer": "He is dancing on the drums.",
+        "difficulty": 2,
+        "explanation": "给出的结尾明确说他在鼓上跳舞；其他选项分别是打鼓、爬山和钓鱼，都不是结尾描述的动作。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "He is playing the drums.",
+          "He is climbing the hill.",
+          "He is dancing on the drums.",
+          "He is going fishing."
+        ],
+        "question": "一则故事的结尾写着：“Oh! He’s dancing on the drums!” 结尾中的人物正在做什么？",
+        "type": "choice",
+        "id": 40024,
+        "score": 10
+      },
+      {
+        "answer": "with",
+        "difficulty": 1,
+        "explanation": "play with me表示和我一起玩，其中with表示和……一起；next、busy和earn都不符合这一含义。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "earn",
+          "busy",
+          "next",
+          "with"
+        ],
+        "question": "在“Can you play with me?”中，哪个词表示“和……一起”？",
+        "type": "choice",
+        "id": 40025,
+        "score": 10
+      },
+      {
+        "answer": "忙碌的",
+        "difficulty": 1,
+        "explanation": "busy表示忙碌的，不能解释成下一个的、儿子或美元。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "下一个的",
+          "儿子",
+          "美元",
+          "忙碌的"
+        ],
+        "question": "句子“I’m very busy.”中的busy是什么意思？",
+        "type": "choice",
+        "id": 40026,
+        "score": 10
+      },
+      {
+        "answer": "爸爸说自己很忙。",
+        "difficulty": 1,
+        "explanation": "I’m very busy.明确表示爸爸很忙；其余三项均未由所给回答说明。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "爸爸说自己没钱。",
+          "爸爸说自己正在踢足球。",
+          "爸爸说自己要去购物。",
+          "爸爸说自己很忙。"
+        ],
+        "question": "孩子问爸爸能不能陪他玩，爸爸回答：“Sorry. I’m very busy. Next weekend.” 哪一项准确说明爸爸给出的理由？",
+        "type": "choice",
+        "id": 40027,
+        "score": 10
+      },
+      {
+        "answer": "200 dollars.",
+        "difficulty": 1,
+        "explanation": "孩子明确说I have 200 dollars for you.，数额是200美元；其他数额与给出的句子不符。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "2 dollars.",
+          "200 dollars.",
+          "100 dollars.",
+          "20 dollars."
+        ],
+        "question": "孩子对爸爸说：“Dad, I have 200 dollars for you.” 孩子说他有多少钱可以给爸爸？",
+        "type": "choice",
+        "id": 40028,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "爸爸说没有时间，而不是没有钱；no time不能解释成no money。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "爸爸说：“I’m sorry, my son. I have no time.” 判断：这句话表示爸爸没有钱。",
+        "type": "true_false",
+        "id": 40029,
+        "score": 10
+      },
+      {
+        "answer": "He often goes fishing.",
+        "difficulty": 2,
+        "explanation": "题目规定鱼竿代表钓鱼，且标注often，人物是爸爸，应说He often goes fishing.。其他选项改变了频率、活动或人称。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "He sometimes goes fishing.",
+          "He often reads books.",
+          "He often goes fishing.",
+          "I often go fishing."
+        ],
+        "question": "一张虚构的爸爸周末记录卡上，鱼竿简图代表“钓鱼”，旁边写着often。根据记录，哪句话准确介绍爸爸的活动？",
+        "type": "choice",
+        "id": 40030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 4 Weekend·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "You, too!",
+        "difficulty": 1,
+        "explanation": "对别人说的周末祝愿表示“你也一样”，用You, too!；其余三项分别表示道歉、否定回答和询问活动，不符合指定意思。",
+        "knowledge_point": "Sometimes I do housework.",
+        "options": [
+          "You, too!",
+          "Sorry.",
+          "No, I don’t.",
+          "What do you do?"
+        ],
+        "question": "朋友说“Have a nice weekend!”。你想回答“你也一样！”，应选哪一句？",
+        "type": "choice",
+        "id": 49001,
+        "score": 10
+      },
+      {
+        "answer": "goes",
+        "difficulty": 2,
+        "explanation": "主语My mother是第三人称单数，陈述习惯用goes。go是原形；going不能单独作这里的谓语；does不能与shopping组成所需表达。",
+        "knowledge_point": "He often plays football.",
+        "options": [
+          "go",
+          "goes",
+          "going",
+          "does"
+        ],
+        "question": "选择正确的词：My mother often ____ shopping at the weekend.",
+        "type": "choice",
+        "id": 49002,
+        "score": 10
+      },
+      {
+        "answer": "Does",
+        "difficulty": 2,
+        "explanation": "主语your brother是第三人称单数，询问习惯用Does，后接动词原形write。Do不与该主语匹配；Is和Are不能这样连接write。",
+        "knowledge_point": "Does he often play the violin?",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "question": "选择正确的词：____ your brother often write emails at the weekend?",
+        "type": "choice",
+        "id": 49003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "play the drums表示打鼓；dance on the drums表示在鼓上跳舞，两者不是同一活动。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：“play the drums”和“dance on the drums”都表示“打鼓”。",
+        "type": "true_false",
+        "id": 49004,
+        "score": 10
+      },
+      {
+        "answer": "下一个周末",
+        "difficulty": 1,
+        "explanation": "next表示下一个的，所以next weekend是下一个周末；不是这个周末、每天或一天。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "这个周末",
+          "每天",
+          "下一个周末",
+          "一天"
+        ],
+        "question": "一个孩子邀请爸爸这个周末一起玩，爸爸回答“Sorry. Next weekend.”。其中next weekend表示什么？",
+        "type": "choice",
+        "id": 49005,
+        "score": 10
+      },
+      {
+        "answer": "She sometimes goes to the cinema.",
+        "difficulty": 2,
+        "explanation": "题目要求转述妹妹有时去电影院，应用she、sometimes和goes。其他选项分别改变了频率、主语或活动。",
+        "knowledge_point": "He often plays football.",
+        "options": [
+          "She sometimes goes to the cinema.",
+          "She often goes to the cinema.",
+          "He sometimes goes to the cinema.",
+          "She sometimes goes fishing."
+        ],
+        "question": "你的妹妹说：“Sometimes I go to the cinema.” 你向朋友介绍妹妹的这项活动，哪一句准确保留了人物、活动和频率？",
+        "type": "choice",
+        "id": 49006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "介绍自己的活动时误写I visits…；I后应使用visit。",
+        "误写Does you…?；询问you的习惯活动用Do you…?",
+        "对Do you…?误答Yes, I am.；应为Yes, I do.",
+        "把sometimes理解成经常；sometimes是有时，often是经常。"
+      ],
+      "core_concept": "用What do you do at the weekend?询问对方的周末活动，用I often…或Sometimes I…介绍自己的习惯。用Do you often…?询问是否经常做某事，并用Yes, I do.或No, I don’t.回答。活动表达包括visit my grandparents、do housework、help my mum、go to the museum、take pictures、watch TV、read books和play basketball。周末祝愿可说Have a nice weekend!，回应可说You, too!。",
+      "key_formula": "What do you do at the weekend? — I often + 动词原形… / Sometimes I + 动词原形…；Do you often + 动词原形…? — Yes, I do. / No, I don’t.",
+      "point": "Sometimes I do housework.",
+      "tips": "介绍自己时用I，主要动词用原形。often通常放在I之后、主要动词之前；sometimes可放句首，如Sometimes I do housework.。交流共同活动时认真听对方的活动和频率，不要只听一个词。"
+    },
+    {
+      "common_mistakes": [
+        "误写He often play football.；应为He often plays football.",
+        "误写She often gos shopping.；go应变为goes。",
+        "误写What does he does…?；does后用动词原形do。",
+        "把usually、often和sometimes都理解成同一频率；它们分别表示通常、经常和有时。"
+      ],
+      "core_concept": "询问家人或朋友的周末活动，可以说What does your mother/father do at the weekend?，也可询问What does…usually do?。介绍单个人的习惯时，he、she或单个人名作主语，动词通常用第三人称单数形式，如plays、reads、goes。学习have a picnic、go shopping、go to the cinema、go fishing等活动，并在调查后转述同伴的活动。",
+      "key_formula": "What does + 人物 + do at the weekend? — He/She often + 动词第三人称单数形式…；Sometimes he/she + 动词第三人称单数形式…",
+      "point": "He often plays football.",
+      "tips": "转述同伴的话时，不仅把I换成he/she，也要检查动词：I read变为He reads，I go变为She goes。邀请别人野餐可说Let’s have a picnic on Saturday.；表示赞同可说Great!。频率词不要机械换算成固定次数。"
+    },
+    {
+      "common_mistakes": [
+        "误写Does he plays…?；Does后应为play。",
+        "询问单个人名所指的人是否常做某事时误用Do，应使用Does。",
+        "对Does开头的问句误答Yes, he do.或No, he don’t.",
+        "混淆play the violin与play the piano；前者是拉小提琴，后者是弹钢琴。"
+      ],
+      "core_concept": "用Does he/she…?询问他人是否经常做某事，作肯定或否定简短回答。也用What does…do at the weekend?询问具体活动。本课活动包括take pictures、write emails、play the violin、play the piano、listen to music和wash clothes。“He plays it very well.”表示他演奏得很好，其中it在对话中指小提琴。",
+      "key_formula": "Does + he/she/单个人名 + often + 动词原形…? — Yes, he/she does. / No, he/she doesn’t.",
+      "point": "Does he often play the violin?",
+      "tips": "先区分Do you…?和Does he/she…?，再检查主要动词是否为原形。listen to music中的to不能漏；本课演奏乐器用play the violin和play the piano。规范抄写时注意句首大写、问号和doesn’t中的撇号。"
+    },
+    {
+      "common_mistakes": [
+        "误写Does Jenny takes pictures?；Does后应使用take。",
+        "误用Yes, she do.回答Does开头的问题；应为Yes, she does.",
+        "把play the drums（打鼓）与dance on the drums（在鼓上跳舞）混为一谈。",
+        "只看字母组合而忽略发音练习；本页ai词例中的ai读/eɪ/。"
+      ],
+      "core_concept": "复习询问自己和他人周末活动的What do/does…do…?及Do/Does一般疑问句，用often和sometimes介绍频率。例如：My father often does housework. Sometimes he goes fishing. 学习本页bl、cl、ai词例的发音：bl读/bl/，cl读/kl/，ai在rain、tail、wait、train中读/eɪ/。趣味故事先说丑小鸭经常打鼓，结尾却发现他在鼓上跳舞。",
+      "key_formula": "What do you do at the weekend?；What does he/she do at the weekend?；Does he/she + 动词原形…? — Yes, he/she does. / No, he/she doesn’t.",
+      "point": "Again, please!",
+      "tips": "描述家庭记录时，先确定人物，再确定活动和频率。does提问后动词用原形，he/she作主语的肯定陈述句则注意动词变化。朗读字母组合时连着读，不要在两个辅音之间加一个元音。"
+    },
+    {
+      "common_mistakes": [
+        "把next weekend译成这个周末；应为下一个周末。",
+        "把I have no time.理解成没有钱；这里是没有时间。",
+        "把孩子说有200美元与爸爸说一天挣100美元混淆。",
+        "凭想象补出爸爸最后答应陪玩的结局；教材没有给出爸爸最后的回答。"
+      ],
+      "core_concept": "阅读Can you play with me?，理解孩子希望爸爸陪伴、多次请求以及爸爸推迟或表示没有时间的情节。with表示和……一起，busy表示忙碌的，earn表示赚得，son表示儿子，dollar表示美元；how much在故事中询问收入金额。结尾孩子提出给爸爸200美元，希望爸爸这个周末陪他玩。单元自评复习活动词汇、短语和交际句型；学习用简单图画与符号记录活动及often、sometimes等频率，再交流自己、朋友和家人的周末生活。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "按照漫画从左到右、从上到下的画面顺序阅读，将每次请求与对应回答配对。区分原文写明的事实与自己的猜测。记录活动时，可先画简图，再标频率，并用完整句介绍，不必透露真实个人信息。"
+    }
+  ]
+}

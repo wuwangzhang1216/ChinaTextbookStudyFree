@@ -1,0 +1,623 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）四年级下册",
+  "unit": "Unit 2 Housework",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2 Housework·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "No, I can’t.",
+        "difficulty": 1,
+        "explanation": "题目明确不会擦窗户，应用can的否定简答。Yes, I can.与事实相反；另外两项分别使用am和do，不能作此能力问句的规范简答。",
+        "knowledge_point": "Can you clean the windows?",
+        "options": [
+          "Yes, I can.",
+          "No, I’m not.",
+          "No, I can’t.",
+          "No, I don’t."
+        ],
+        "question": "你不会擦窗户。朋友问“Can you clean the windows?”，哪一项是正确的否定简答？",
+        "type": "choice",
+        "id": 20001,
+        "score": 10
+      },
+      {
+        "answer": "Ben can clean his shoes.",
+        "difficulty": 2,
+        "explanation": "题目要求陈述Ben会擦自己的鞋。第一项表达能力；第二项表达正在擦；第三项表示不会；第四项是问句。",
+        "knowledge_point": "Can you clean the windows?",
+        "options": [
+          "Ben can clean his shoes.",
+          "Ben is cleaning his shoes.",
+          "Ben can’t clean his shoes.",
+          "Can Ben clean his shoes?"
+        ],
+        "question": "Ben会擦自己的鞋。哪一句是对这一能力的肯定陈述，而不是描述当前动作或提出问题？",
+        "type": "choice",
+        "id": 20002,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "can后使用动词原形，不因主语是he而改成cleans。",
+        "knowledge_point": "Can you clean the windows?",
+        "options": [],
+        "question": "判断对错：表达“他会清洁地板”时，应说“He can clean the floor.”，不能说“He can cleans the floor.”。",
+        "type": "true_false",
+        "id": 20003,
+        "score": 10
+      },
+      {
+        "answer": "不能把这件事做好。",
+        "difficulty": 1,
+        "explanation": "can’t do it well表示不能做好。它不等于能做好，也不是不愿做，更没有要求别人停止。",
+        "knowledge_point": "Can you clean the windows?",
+        "options": [
+          "要求别人停止做家务。",
+          "不能把这件事做好。",
+          "能把这件事做好。",
+          "不愿意做任何家务。"
+        ],
+        "question": "做家务时，小林说“I can’t do it well.”。这句话准确表达了什么意思？",
+        "type": "choice",
+        "id": 20004,
+        "score": 10
+      },
+      {
+        "answer": "Let’s do housework.",
+        "difficulty": 1,
+        "explanation": "Let’s do housework.是提议一起做家务。其他选项分别询问位置、描述浇花和表示午饭准备好了。",
+        "knowledge_point": "Can you clean the windows?",
+        "options": [
+          "Where’s dad?",
+          "I’m watering the flowers.",
+          "Lunch is ready.",
+          "Let’s do housework."
+        ],
+        "question": "你想提议“让我们一起做家务吧”，应选哪句话？",
+        "type": "choice",
+        "id": 20005,
+        "score": 10
+      },
+      {
+        "answer": "Amy can clean the floor. She can’t clean the windows.",
+        "difficulty": 2,
+        "explanation": "已知Amy会清洁地板、不会擦窗户，只有第三项同时符合这两条信息。其余三项至少有一条能力信息与题干相反。",
+        "knowledge_point": "Can you clean the windows?",
+        "options": [
+          "Amy can clean the floor. She can clean the windows.",
+          "Amy can’t clean the floor. She can clean the windows.",
+          "Amy can clean the floor. She can’t clean the windows.",
+          "Amy can’t clean the floor. She can’t clean the windows."
+        ],
+        "question": "一次家务能力调查记录：Amy会清洁地板，不会擦窗户。哪组报告与记录完全相符？",
+        "type": "choice",
+        "id": 20006,
+        "score": 10
+      },
+      {
+        "answer": "washing",
+        "difficulty": 1,
+        "explanation": "am后使用washing表达正在洗衣。wash、washes和to wash均不能构成本句所需的现在进行时。",
+        "knowledge_point": "What are you doing?",
+        "options": [
+          "wash",
+          "washing",
+          "to wash",
+          "washes"
+        ],
+        "question": "你此刻正在洗衣服。补全描述：I’m _____ clothes now.",
+        "type": "choice",
+        "id": 20007,
+        "score": 10
+      },
+      {
+        "answer": "Are you watering the flowers?",
+        "difficulty": 2,
+        "explanation": "询问对方是否正在浇花，用Are you watering the flowers?。第一项问能力，第三项问位置，第四项是描述自己的陈述句。",
+        "knowledge_point": "What are you doing?",
+        "options": [
+          "Can you water the flowers?",
+          "Where are the flowers?",
+          "Are you watering the flowers?",
+          "I’m watering the flowers."
+        ],
+        "question": "你想确认朋友此刻是否正在浇花，而不是问他会不会浇花。应选哪一句？",
+        "type": "choice",
+        "id": 20008,
+        "score": 10
+      },
+      {
+        "answer": "No, I’m not.",
+        "difficulty": 1,
+        "explanation": "对Are you…?作个人否定简答用No, I’m not.。Yes, I am.与事实相反；其余两项使用can和do，不符合问句。",
+        "knowledge_point": "What are you doing?",
+        "options": [
+          "No, I can’t.",
+          "Yes, I am.",
+          "No, I don’t.",
+          "No, I’m not."
+        ],
+        "question": "朋友问你“Are you cooking the meal?”，你现在没有做饭。选择规范的否定简答。",
+        "type": "choice",
+        "id": 20009,
+        "score": 10
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "主语you与are搭配，构成What are you doing?；am与I搭配，is不能与you搭配，can不能直接接doing。",
+        "knowledge_point": "What are you doing?",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "can"
+        ],
+        "question": "补全询问对方当前动作的问句：What _____ you doing?",
+        "type": "choice",
+        "id": 20010,
+        "score": 10
+      },
+      {
+        "answer": "在厨房里",
+        "difficulty": 1,
+        "explanation": "He’s in the kitchen.说明爸爸在厨房。其余位置均未出现在给定回答中。",
+        "knowledge_point": "What are you doing?",
+        "options": [
+          "在卧室里",
+          "在厨房里",
+          "在花园里",
+          "在教室里"
+        ],
+        "question": "对话为：“Where’s dad?”“He’s in the kitchen.”。根据这组对话，爸爸在哪里？",
+        "type": "choice",
+        "id": 20011,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "I can cook the meal.表达会做饭，并不说明此刻正在做饭；当前动作应使用I’m cooking the meal.。",
+        "knowledge_point": "What are you doing?",
+        "options": [],
+        "question": "判断对错：“I can cook the meal.”本身就表示“我此刻正在做饭”。",
+        "type": "true_false",
+        "id": 20012,
+        "score": 10
+      },
+      {
+        "answer": "She’s",
+        "difficulty": 1,
+        "explanation": "Mum用she指代，She is可缩写为She’s。He’s指男性；I’m指说话人；We’re指我们。",
+        "knowledge_point": "What's mum doing?",
+        "options": [
+          "We’re",
+          "I’m",
+          "She’s",
+          "He’s"
+        ],
+        "question": "Mum正在洗碗。补全描述：_____ washing the dishes.",
+        "type": "choice",
+        "id": 20013,
+        "score": 10
+      },
+      {
+        "answer": "He’s watering the flowers.",
+        "difficulty": 2,
+        "explanation": "题干明确Ben是男孩且正在浇花。第一项人物和动作均正确；第二项代词错误，第三项表达能力，第四项动作错误。",
+        "knowledge_point": "What's mum doing?",
+        "options": [
+          "He’s watering the flowers.",
+          "She’s watering the flowers.",
+          "He can water the flowers.",
+          "He’s washing the dishes."
+        ],
+        "question": "Ben是一名男孩，现在正在浇花。哪句话准确描述他此刻的动作？",
+        "type": "choice",
+        "id": 20014,
+        "score": 10
+      },
+      {
+        "answer": "What’s dad doing?",
+        "difficulty": 1,
+        "explanation": "单个人物dad用is，What is可缩写为What’s；其他选项分别误用了are、原形do或错误语序。",
+        "knowledge_point": "What's mum doing?",
+        "options": [
+          "What are dad doing?",
+          "What’s dad do?",
+          "What dad is doing?",
+          "What’s dad doing?"
+        ],
+        "question": "选择语法正确、用于询问爸爸正在做什么的问句。",
+        "type": "choice",
+        "id": 20015,
+        "score": 10
+      },
+      {
+        "answer": "No, we aren’t.",
+        "difficulty": 2,
+        "explanation": "两位女孩共同作答使用we；问题以Are开头，否定简答用aren’t。其余选项与人数、问句形式或否定事实不符。",
+        "knowledge_point": "What's mum doing?",
+        "options": [
+          "No, I’m not.",
+          "No, we aren’t.",
+          "No, we can’t.",
+          "Yes, we are."
+        ],
+        "question": "两位女孩都没有在玩电脑游戏。有人问她们“Are you playing computer games?”，她们一起作规范的否定简答，应选哪项？",
+        "type": "choice",
+        "id": 20016,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "What’s是What is的缩写，撇号不可遗漏；该句询问正在做什么，句末用问号。",
+        "knowledge_point": "What's mum doing?",
+        "options": [],
+        "question": "判断对错：句子“What’s she doing?”中，What’s需要撇号，句末需要问号。",
+        "type": "true_false",
+        "id": 20017,
+        "score": 10
+      },
+      {
+        "answer": "Happy birthday, mum!",
+        "difficulty": 1,
+        "explanation": "Happy birthday, mum!是对妈妈的生日祝福。其他选项分别表示稍等、午饭准备好了和过来帮忙，不是生日祝福。",
+        "knowledge_point": "What's mum doing?",
+        "options": [
+          "Wait a minute, mum.",
+          "Lunch is ready, mum.",
+          "Happy birthday, mum!",
+          "Come and help, mum."
+        ],
+        "question": "今天是妈妈的生日。你想直接向她送上生日祝福，应说哪句话？",
+        "type": "choice",
+        "id": 20018,
+        "score": 10
+      },
+      {
+        "answer": "making",
+        "difficulty": 2,
+        "explanation": "am后接动词-ing表达正在做某事。make的-ing形式是making，其他三项均不能填入此句。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "make",
+          "makes",
+          "making",
+          "to make"
+        ],
+        "question": "小杰正在做面包。补全他的描述：I’m _____ bread.",
+        "type": "choice",
+        "id": 20019,
+        "score": 10
+      },
+      {
+        "answer": "What are you cooking?",
+        "difficulty": 2,
+        "explanation": "题目要求进一步询问正在制作什么食物，故选What are you cooking?。其他选项分别问位置、能力、是否正在擦鞋。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Where are you?",
+          "Can you cook?",
+          "Are you cleaning your shoes?",
+          "What are you cooking?"
+        ],
+        "question": "朋友已经告诉你他正在做饭。你想进一步询问他正在制作什么食物，应选哪句话？",
+        "type": "choice",
+        "id": 20020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Sure.在这个能力问答中表示“当然会”，是肯定回应，不表示正在做饭。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断对错：有人问“Can you cook?”，回答“Sure.”可以表达“当然会”。",
+        "type": "true_false",
+        "id": 20021,
+        "score": 10
+      },
+      {
+        "answer": "year",
+        "difficulty": 1,
+        "explanation": "year中的y与yes中的y均发/j/。his不含y；bed和help也不含y。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "his",
+          "help",
+          "bed",
+          "year"
+        ],
+        "question": "yes中的字母y发/j/。哪个选项也含有发/j/的字母y？",
+        "type": "choice",
+        "id": 20022,
+        "score": 10
+      },
+      {
+        "answer": "please",
+        "difficulty": 2,
+        "explanation": "please中的s与his中的s均发/z/。其余选项不含s，不符合题意。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "yellow",
+          "egg",
+          "please",
+          "your"
+        ],
+        "question": "his中的字母s发/z/。下面哪个词也含有发/z/的字母s？",
+        "type": "choice",
+        "id": 20023,
+        "score": 10
+      },
+      {
+        "answer": "I can clean my shoes. I’m cleaning my shoes now.",
+        "difficulty": 2,
+        "explanation": "题目同时要求表达会擦鞋和正在擦鞋。只有第一项同时满足；其余分别否定能力、否定当前动作或描述洗衣。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I can clean my shoes. I’m cleaning my shoes now.",
+          "I can’t clean my shoes. I’m cleaning my shoes now.",
+          "I can clean my shoes. I’m not cleaning my shoes now.",
+          "I can wash clothes. I’m washing clothes now."
+        ],
+        "question": "小雨会擦自己的鞋，而且现在正在擦鞋。哪组句子完整、准确地表达了这两个信息？",
+        "type": "choice",
+        "id": 20024,
+        "score": 10
+      },
+      {
+        "answer": "妈妈",
+        "difficulty": 1,
+        "explanation": "题干已说明拿衣篮并说这句话的是妈妈。Sue是被请求帮忙的人，不能误认成发言者。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Danny",
+          "爸爸",
+          "妈妈",
+          "Sue"
+        ],
+        "question": "故事片段：妈妈拿着衣篮说“I’m going to wash clothes.”，随后叫“Come and help, Sue.”。谁说自己准备洗衣服？",
+        "type": "choice",
+        "id": 20025,
+        "score": 10
+      },
+      {
+        "answer": "Wait a minute.",
+        "difficulty": 1,
+        "explanation": "Wait a minute.表示稍等片刻。其他选项分别表示过来看看、谢谢和生日快乐。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Come and have a look.",
+          "Thank you.",
+          "Happy birthday!",
+          "Wait a minute."
+        ],
+        "question": "你暂时不能马上过去，想请同伴“稍等片刻”。应选哪句话？",
+        "type": "choice",
+        "id": 20026,
+        "score": 10
+      },
+      {
+        "answer": "擦窗户",
+        "difficulty": 1,
+        "explanation": "clean the windows表示擦窗户；其他三项对应洗衣、做饭和浇花，与所给句子不符。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "洗衣服",
+          "擦窗户",
+          "做饭",
+          "浇花"
+        ],
+        "question": "爸爸说“I’m going to clean the windows. Come and help.”。根据这两句话，爸爸准备做哪件家务？",
+        "type": "choice",
+        "id": 20027,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "hungry表示饿，Can we have lunch now?是在询问现在能否吃午饭，并不是请父母吃饭。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断对错：孩子们说“Mum, dad, we are hungry. Can we have lunch now?”，是在说自己饿了，并询问现在能否吃午饭。",
+        "type": "true_false",
+        "id": 20028,
+        "score": 10
+      },
+      {
+        "answer": "cleaning the floor",
+        "difficulty": 2,
+        "explanation": "题干明确动作是清洁地板，故选cleaning the floor。其余动作均与已给信息不同。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "cooking the meal",
+          "washing clothes",
+          "cleaning the floor",
+          "watering the flowers"
+        ],
+        "question": "猜动作游戏中，卡片上的男孩实际正在清洁地板。朋友猜“He’s cooking.”。你纠正说“No. He’s _____.”，应填哪一项？",
+        "type": "choice",
+        "id": 20029,
+        "score": 10
+      },
+      {
+        "answer": "children",
+        "difficulty": 1,
+        "explanation": "children表示孩子们。flowers是花，windows是窗户，dishes是盘碟。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "dishes",
+          "children",
+          "flowers",
+          "windows"
+        ],
+        "question": "选择表示“孩子们”的英语单词。",
+        "type": "choice",
+        "id": 20030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 2 Housework·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "clean",
+        "difficulty": 1,
+        "explanation": "can后接动词原形，故选clean。cleaning不能直接接在can后；cleans和to clean也不符合此结构。",
+        "knowledge_point": "Can you clean the windows?",
+        "options": [
+          "cleaning",
+          "cleans",
+          "clean",
+          "to clean"
+        ],
+        "question": "选择正确形式补全能力陈述：My friend can _____ the windows.",
+        "type": "choice",
+        "id": 29001,
+        "score": 10
+      },
+      {
+        "answer": "Where’s dad?",
+        "difficulty": 1,
+        "explanation": "题目要求询问爸爸的位置，只有Where’s dad?符合。其余分别询问动作、能力和是否正在做饭。",
+        "knowledge_point": "What are you doing?",
+        "options": [
+          "What’s dad doing?",
+          "Where’s dad?",
+          "Can dad cook?",
+          "Are you cooking, dad?"
+        ],
+        "question": "你不知道爸爸在哪里，想询问他的位置，而不是询问他的动作或能力。应选择哪句话？",
+        "type": "choice",
+        "id": 29002,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "两名孩子一起作答，应用we。aren’t不能与I搭配；否定简答应为No, we aren’t.",
+        "knowledge_point": "What's mum doing?",
+        "options": [],
+        "question": "判断对错：两名孩子都没有在玩电脑游戏，一起回答“Are you playing computer games?”时，可以说“No, I aren’t.”",
+        "type": "true_false",
+        "id": 29003,
+        "score": 10
+      },
+      {
+        "answer": "get",
+        "difficulty": 2,
+        "explanation": "get中的字母e与help中的e均发/e/。其余选项不含字母e，不符合题目要求。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "your",
+          "his",
+          "get",
+          "yellow"
+        ],
+        "question": "单词help中字母e发/e/。下面哪个词也含有发/e/的字母e？",
+        "type": "choice",
+        "id": 29004,
+        "score": 10
+      },
+      {
+        "answer": "Come and help.",
+        "difficulty": 1,
+        "explanation": "Come and help.表示“过来帮忙”。其余分别表示稍等、午饭准备好了、我在这里。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Wait a minute.",
+          "Lunch is ready.",
+          "I’m here.",
+          "Come and help."
+        ],
+        "question": "你正在做家务，想请同伴“过来帮忙”。哪句话准确表达这一意思？",
+        "type": "choice",
+        "id": 29005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "can wash表达会洗的能力，am washing表达此刻正在洗的动作，两句意思不同。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断对错：“I can wash clothes.”表示我会洗衣服；“I’m washing clothes.”表示我正在洗衣服。",
+        "type": "true_false",
+        "id": 29006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把Can you…?误认为询问现在正在做什么；它在本课询问家务能力。",
+        "在can后使用cleaning或cleans；can后应接动词原形。",
+        "回答Can you…?时误用Yes, I am.或No, I don’t.。",
+        "把I can’t do it well.理解为完全不会做；well说明做得好不好，整句表示不能做好。"
+      ],
+      "core_concept": "围绕do housework、wash the dishes、clean your shoes、clean the floor和clean the windows，学习用Can you + 动词原形…?询问家务能力，用Yes, I can.或No, I can’t.回答。用I can/can’t…描述自己，用人物名或He/She can/can’t…报告他人的能力。理解Let’s do housework.是在提议一起做家务，I can’t do it well.表示不能把事情做好。",
+      "key_formula": "Can you + 动词原形…? — Yes, I can./No, I can’t.；主语 + can/can’t + 动词原形…",
+      "point": "Can you clean the windows?",
+      "tips": "听到can先想“会不会”。报告他人能力时，can不随主语变化；例如Amy can clean the floor.。注意can’t是否定形式，well表示做得好。"
+    },
+    {
+      "common_mistakes": [
+        "漏掉are，把问句写成What you doing?。",
+        "漏掉am或-ing，把I’m washing clothes.写成I washing clothes.或I’m wash clothes.。",
+        "对Are you…?作个人否定简答时误用No, I don’t.或No, I can’t.。",
+        "把Where’s dad?当成询问爸爸正在做什么；where询问位置。"
+      ],
+      "core_concept": "在家庭与电话情境中，用What are you doing?询问对方正在做什么，用I’m + 动词-ing…回答。重点理解washing clothes、cooking the meal、cooking the chicken、watering the flowers和cleaning the floor。用Are you + 动词-ing…?确认当前动作，个人简答用Yes, I am.或No, I’m not.。理解Where’s dad?与He’s in the kitchen.的位置问答，以及Lunch is ready.和OK. I’m coming!的衔接。",
+      "key_formula": "What are you doing? — I’m + 动词-ing…；Are you + 动词-ing…? — Yes, I am./No, I’m not.",
+      "point": "What are you doing?",
+      "tips": "回答时把问句中的you换成I，并使用am；I am可缩写为I’m。描述正在做的动作不能只写动词原形。where问在哪里，what…doing问正在做什么。"
+    },
+    {
+      "common_mistakes": [
+        "询问单个人的当前动作时误写What are mum doing?；应使用What’s mum doing?。",
+        "把he和she混用；描述爸爸用He’s，描述妈妈用She’s。",
+        "把She’s washing the dishes.写成She’s wash the dishes.。",
+        "忽略you既可指一个人也可指多个人；多人共同否定回答可以用No, we aren’t.。",
+        "书写时漏掉What’s、He’s、She’s中的撇号，或把问句末尾写成句号。"
+      ],
+      "core_concept": "用What’s mum/dad/Li Ming doing?询问第三人称正在做什么，用He’s/She’s + 动词-ing…描述动作，重点理解washing the dishes和cleaning the kitchen。理解Are you playing computer games?在本课询问两个伙伴，他们共同回答No, we aren’t.。在生日情境中理解Happy birthday, mum!及Wow! Thank you.，体会家人间的关爱。抄写时落实句首大写、缩写撇号和句末标点。",
+      "key_formula": "What’s + 单个人物 + doing? — He’s/She’s + 动词-ing…；Are you + 动词-ing…? — No, we aren’t.（多人共同否定回答）",
+      "point": "What's mum doing?",
+      "tips": "先确定询问的是谁，再选代词和be动词。He’s是He is的缩写，She’s是She is的缩写。一般疑问句的回答还要看由一个人还是多个人作答。"
+    },
+    {
+      "common_mistakes": [
+        "把Can you cook?和What are you doing?混淆：前者问能力，后者问当前动作。",
+        "把I’m making bread.写成I’m make bread.；make变为making时去掉词尾不发音的e再加-ing。",
+        "把本课Sure.的作用讲错：它在对话中肯定回应Can you cook?，表示当然会。",
+        "认为同一字母在所有单词中都读相同的音；本课只归纳所列例词中的读音。"
+      ],
+      "core_concept": "在做饭情境中综合区分家务能力与正在进行的动作：Can you cook?询问会不会做饭；I’m cooking.说明正在做饭；What are you cooking?进一步询问正在制作什么，I’m making bread.表示正在做面包。理解Come and have a look.为过来看看，Where’s Danny?询问Danny的位置。通过画图交流练习先说能力，再描述当前动作。语音例词中，yes、your、year、yellow的字母y发/j/；his、please、these、Tuesday中的字母s发/z/；egg、get、bed、help中的字母e发/e/。歌曲仅用于主题巩固，不作为主阅读。",
+      "key_formula": "Can you + 动词原形…?；I can + 动词原形…；I’m + 动词-ing…",
+      "point": "Again, please!",
+      "tips": "先判断交际目的：问会不会用can，问正在做什么用What are you doing?。朗读语音例词时结合整个单词听辨；不要把例词中的读音推广到所有含有该字母的单词。"
+    },
+    {
+      "common_mistakes": [
+        "把故事开头说I’m going to wash clothes.的人误认作Sue；图中是拿着衣篮的妈妈。",
+        "把Wait a minute.理解为马上行动；它表示稍等片刻。",
+        "认为I’m going to…一定表示动作已经在进行；故事中它表达接下来打算做的事。",
+        "仅凭猜测给故事添加人物发言，或把猜画活动中的发言者性别和实际动作混为一谈。"
+      ],
+      "core_concept": "阅读Wait a minute.故事：妈妈准备洗衣并叫Sue帮忙，Sue请妈妈稍等；爸爸准备擦窗户并叫孩子帮忙，也得到稍等的回应；父母商量办法；孩子们饿了，请求吃午饭，父母回应Wait a minute, children.。结合故事理解Come and help.、Wait a minute.、I have a good idea!及Can we have lunch now?。I’m going to…在情境中表示接下来打算做。利用Check it复习家务词汇、能力问答和当前动作表达，利用Draw and guess练习提问、猜测与纠正。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "读故事时先辨认是谁说话，再按画格顺序理解请求与回应。做综合自评时分别检查“会不会做”和“正在做什么”；纠正动作猜测可先用No.，再说正确的动作句。"
+    }
+  ]
+}

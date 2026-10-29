@@ -1,0 +1,629 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）五年级上册",
+  "unit": "Unit 6 Christmas",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "Unit 6 Christmas·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "What do you usually do at Christmas?",
+        "difficulty": 1,
+        "explanation": "usually表示通常，只有这一项询问通常的圣诞活动；其他选项分别询问将来活动、过去活动和日期。",
+        "knowledge_point": "What do you usually do at Christmas?",
+        "options": [
+          "What will you do at Christmas?",
+          "What do you usually do at Christmas?",
+          "What did you do at Christmas?",
+          "When is Christmas Day?"
+        ],
+        "question": "你想问同伴“你通常在圣诞节做什么？”，应选哪一句？",
+        "type": "choice",
+        "id": 60001,
+        "score": 10
+      },
+      {
+        "answer": "家人团聚",
+        "difficulty": 1,
+        "explanation": "get together表示团聚；其余三个选项均不是该句的意思。",
+        "knowledge_point": "What do you usually do at Christmas?",
+        "options": [
+          "家人去上课",
+          "家人准备旅行",
+          "家人团聚",
+          "家人装饰教室"
+        ],
+        "question": "“The family get together.”表达的是哪项活动？",
+        "type": "choice",
+        "id": 60002,
+        "score": 10
+      },
+      {
+        "answer": "Christmas songs",
+        "difficulty": 1,
+        "explanation": "唱圣诞歌曲用sing Christmas songs；cards、presents和trees不能表达“歌曲”。",
+        "knowledge_point": "What do you usually do at Christmas?",
+        "options": [
+          "Christmas trees",
+          "Christmas presents",
+          "Christmas cards",
+          "Christmas songs"
+        ],
+        "question": "要表达“我们唱圣诞歌曲”，补全句子：We sing ______.",
+        "type": "choice",
+        "id": 60003,
+        "score": 10
+      },
+      {
+        "answer": "一个大袋子",
+        "difficulty": 1,
+        "explanation": "a big bag就是一个大袋子；句子没有表示小盒子、袜子或礼物。",
+        "knowledge_point": "What do you usually do at Christmas?",
+        "options": [
+          "一个小盒子",
+          "一个大袋子",
+          "一只圣诞袜",
+          "一件圣诞礼物"
+        ],
+        "question": "有人问sack的意思，Jenny解释：“It’s a big bag.”这里sack指什么？",
+        "type": "choice",
+        "id": 60004,
+        "score": 10
+      },
+      {
+        "answer": "brings",
+        "difficulty": 2,
+        "explanation": "He是第三人称单数，这里介绍通常的行为，用brings；bring、bringing和to bring均不适合这个句子结构。",
+        "knowledge_point": "What do you usually do at Christmas?",
+        "options": [
+          "bring",
+          "bringing",
+          "brings",
+          "to bring"
+        ],
+        "question": "介绍故事中Santa通常怎样带玩具，选择正确形式：He ______ toys in his sack.",
+        "type": "choice",
+        "id": 60005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "一个活动示例不能证明所有人都做同样的事；不能将示例扩大为全体人的固定行为。",
+        "knowledge_point": "What do you usually do at Christmas?",
+        "options": [],
+        "question": "一段圣诞活动交流用“They swim in the sea.”举例介绍澳大利亚的一种活动。判断：仅凭这个示例，就能说澳大利亚所有人圣诞节都在海里游泳。",
+        "type": "true_false",
+        "id": 60006,
+        "score": 10
+      },
+      {
+        "answer": "put",
+        "difficulty": 1,
+        "explanation": "will后接动词原形put，不用puts、putting或to put。",
+        "knowledge_point": "I will put the lights on the tree.",
+        "options": [
+          "puts",
+          "to put",
+          "put",
+          "putting"
+        ],
+        "question": "选择正确形式：I will ______ the balls on the Christmas tree.",
+        "type": "choice",
+        "id": 60007,
+        "score": 10
+      },
+      {
+        "answer": "What will you do?",
+        "difficulty": 1,
+        "explanation": "What will you do?询问对方将做什么；其余选项分别问过去活动、通常活动和地点。",
+        "knowledge_point": "I will put the lights on the tree.",
+        "options": [
+          "What did you do?",
+          "What do you usually do?",
+          "Where is the tree?",
+          "What will you do?"
+        ],
+        "question": "大家准备装饰圣诞树。你想询问同伴接下来将做什么，应选哪一句？",
+        "type": "choice",
+        "id": 60008,
+        "score": 10
+      },
+      {
+        "answer": "彩球",
+        "difficulty": 1,
+        "explanation": "balls在这个装饰圣诞树的语境中指彩球；其余物品不符合这句话。",
+        "knowledge_point": "I will put the lights on the tree.",
+        "options": [
+          "星星",
+          "彩灯",
+          "彩球",
+          "圣诞袜"
+        ],
+        "question": "Danny说：“I will put the balls on the tree.”他计划把什么挂到树上？",
+        "type": "choice",
+        "id": 60009,
+        "score": 10
+      },
+      {
+        "answer": "主动提出帮助对方",
+        "difficulty": 1,
+        "explanation": "Let me help you.意为“让我来帮助你”，不是求助、询问礼物或表达感谢。",
+        "knowledge_point": "I will put the lights on the tree.",
+        "options": [
+          "感谢对方的礼物",
+          "主动提出帮助对方",
+          "请求对方给礼物",
+          "询问对方的礼物"
+        ],
+        "question": "同伴挂彩灯时，Li Ming说：“Let me help you.”这句话的作用是什么？",
+        "type": "choice",
+        "id": 60010,
+        "score": 10
+      },
+      {
+        "answer": "Shall we put the star on the tree?",
+        "difficulty": 2,
+        "explanation": "Shall we…?用来提出一起做某事的建议；其他句子分别表示过去做过、否定计划或询问物品。",
+        "knowledge_point": "I will put the lights on the tree.",
+        "options": [
+          "We put the star on the tree yesterday.",
+          "Shall we put the star on the tree?",
+          "I will not put the star on the tree.",
+          "Where is the star?"
+        ],
+        "question": "要提出“我们把星星放在树上，好吗？”这一建议，应选哪一句？",
+        "type": "choice",
+        "id": 60011,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Jenny明确说把圣诞袜放在床尾，因此不能判断为她同意挂在树上。",
+        "knowledge_point": "I will put the lights on the tree.",
+        "options": [],
+        "question": "Li Ming提议把圣诞袜挂在树上。Jenny回答：“No. I will put it at the end of my bed.”判断：Jenny同意把圣诞袜挂在树上。",
+        "type": "true_false",
+        "id": 60012,
+        "score": 10
+      },
+      {
+        "answer": "got",
+        "difficulty": 1,
+        "explanation": "Yesterday表明事情发生在过去，get的过去式是got；其他选项不符合过去时间或句子结构。",
+        "knowledge_point": "Danny got a football.",
+        "options": [
+          "get",
+          "gets",
+          "got",
+          "getting"
+        ],
+        "question": "选择正确形式：Yesterday, Tom ______ a toy car from his dad.",
+        "type": "choice",
+        "id": 60013,
+        "score": 10
+      },
+      {
+        "answer": "went",
+        "difficulty": 2,
+        "explanation": "Last Christmas指过去的圣诞节，go应变为went；go、goes和going均不适合这里的结构。",
+        "knowledge_point": "Danny got a football.",
+        "options": [
+          "going",
+          "went",
+          "goes",
+          "go"
+        ],
+        "question": "选择正确形式：Last Christmas, Lucy ______ to her friend’s home.",
+        "type": "choice",
+        "id": 60014,
+        "score": 10
+      },
+      {
+        "answer": "say—said",
+        "difficulty": 1,
+        "explanation": "say的过去式是said；go的过去式是went，get的过去式是got，have的过去式是had。",
+        "knowledge_point": "Danny got a football.",
+        "options": [
+          "get—getted",
+          "go—goed",
+          "have—haved",
+          "say—said"
+        ],
+        "question": "哪一组“动词原形—过去式”搭配正确？",
+        "type": "choice",
+        "id": 60015,
+        "score": 10
+      },
+      {
+        "answer": "In the living room.",
+        "difficulty": 1,
+        "explanation": "in the living room明确说明树在客厅；其余三个地点没有出现在给出的句子中。",
+        "knowledge_point": "Danny got a football.",
+        "options": [
+          "In the bedroom.",
+          "In the living room.",
+          "In the classroom.",
+          "In the church."
+        ],
+        "question": "读句子：“There was a beautiful Christmas tree in the living room.”这棵圣诞树在哪里？",
+        "type": "choice",
+        "id": 60016,
+        "score": 10
+      },
+      {
+        "answer": "Jenny",
+        "difficulty": 1,
+        "explanation": "第一句明确说Jenny得到漂亮的连衣裙；Li Ming得到动物书，Danny得到足球。",
+        "knowledge_point": "Danny got a football.",
+        "options": [
+          "Li Ming",
+          "Jenny",
+          "Danny",
+          "Jenny’s father"
+        ],
+        "question": "读三句：“Jenny got a nice dress. Li Ming got a book about animals. Danny got a football.”谁得到了连衣裙？",
+        "type": "choice",
+        "id": 60017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "with his tail表示用他的尾巴，不是用手。",
+        "knowledge_point": "Danny got a football.",
+        "options": [],
+        "question": "故事写道：“Danny got a football. He played it with his tail.”判断：Danny用手玩这个足球。",
+        "type": "true_false",
+        "id": 60018,
+        "score": 10
+      },
+      {
+        "answer": "there",
+        "difficulty": 2,
+        "explanation": "there和this中的th发/ð/；three、thank、month中的th发/θ/。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "thank",
+          "month",
+          "three",
+          "there"
+        ],
+        "question": "选择与this中的th发音相同的单词。",
+        "type": "choice",
+        "id": 60019,
+        "score": 10
+      },
+      {
+        "answer": "house",
+        "difficulty": 2,
+        "explanation": "house含有字母组合ou，且与out中的ou一样发/aʊ/；其余三项不含ou。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "star",
+          "dress",
+          "house",
+          "bag"
+        ],
+        "question": "哪个单词含有字母组合ou，而且这部分与out中的ou发音相同？",
+        "type": "choice",
+        "id": 60020,
+        "score": 10
+      },
+      {
+        "answer": "他们的朋友",
+        "difficulty": 1,
+        "explanation": "to their friends表示寄给他们的朋友；另外三个对象均不符合给出的句子。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "他们的父母",
+          "他们的老师",
+          "他们的朋友",
+          "他们的孩子"
+        ],
+        "question": "读句子：“They send cards to their friends.”这些人把卡片寄给谁？",
+        "type": "choice",
+        "id": 60021,
+        "score": 10
+      },
+      {
+        "answer": "贫困的人",
+        "difficulty": 1,
+        "explanation": "the poor在这里表示贫困的人，不表示其他三个群体。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "贫困的人",
+          "旅游的人",
+          "寄信的人",
+          "唱歌的人"
+        ],
+        "question": "读句子：“They also help the poor.”句子说他们还帮助哪一类人？",
+        "type": "choice",
+        "id": 60022,
+        "score": 10
+      },
+      {
+        "answer": "They sang Christmas songs.",
+        "difficulty": 2,
+        "explanation": "题目明确是去年唱了圣诞歌曲，应用过去式sang。其余选项分别表示通常唱歌、将来唱歌和去年收礼物。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "They usually sing Christmas songs.",
+          "They will sing Christmas songs.",
+          "They got presents last Christmas.",
+          "They sang Christmas songs."
+        ],
+        "question": "Amy和家人去年圣诞节唱了圣诞歌曲。回答“What did they do last Christmas?”时，哪一句符合这项信息？",
+        "type": "choice",
+        "id": 60023,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "don’t go to school表示不去上学，判断句把原意说反了。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "一篇圣诞文化短文写道：“Children don’t go to school.”判断：这句话表示孩子们去学校上课。",
+        "type": "true_false",
+        "id": 60024,
+        "score": 10
+      },
+      {
+        "answer": "Her family.",
+        "difficulty": 1,
+        "explanation": "with her family表示与她的家人一起；其他对象不符合所给句子。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Her classmates.",
+          "Her family.",
+          "Her friends.",
+          "Her teachers."
+        ],
+        "question": "读句子：“Linda went to church with her family.”Linda和谁一起去了教堂？",
+        "type": "choice",
+        "id": 60025,
+        "score": 10
+      },
+      {
+        "answer": "难过",
+        "difficulty": 1,
+        "explanation": "sad表示难过；其他三个选项分别与sad含义不同。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "兴奋",
+          "难过",
+          "生气",
+          "困倦"
+        ],
+        "question": "Linda看见Mr White时，故事写道：“He looked sad.”他看起来是什么心情？",
+        "type": "choice",
+        "id": 60026,
+        "score": 10
+      },
+      {
+        "answer": "Mr White的独子",
+        "difficulty": 2,
+        "explanation": "His指Mr White的，only son指独子；住得远的是他的独子，不是Mr White、Linda或Linda的妈妈。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Linda",
+          "Linda的妈妈",
+          "Mr White本人",
+          "Mr White的独子"
+        ],
+        "question": "故事先介绍Mr White，接着说：“His only son lived far away.”谁住得很远？",
+        "type": "choice",
+        "id": 60027,
+        "score": 10
+      },
+      {
+        "answer": "赞同Linda的建议",
+        "difficulty": 1,
+        "explanation": "Good idea表示“好主意”，说明妈妈赞同邀请Mr White，而不是拒绝或改变安排。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "拒绝Linda的建议",
+          "表示自己听不清楚",
+          "要求取消圣诞活动",
+          "赞同Linda的建议"
+        ],
+        "question": "Linda提议邀请Mr White到家里，妈妈回答：“Good idea.”妈妈表达了什么态度？",
+        "type": "choice",
+        "id": 60028,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "had a good time表示玩得愉快，very happy表示非常开心，均与判断句相反。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "故事结尾写道：“He had a good time. Linda was very happy.”其中He指Mr White。判断：Mr White玩得不开心，Linda也很难过。",
+        "type": "true_false",
+        "id": 60029,
+        "score": 10
+      },
+      {
+        "answer": "拿起书包，读bag，再遮住单词回忆",
+        "difficulty": 1,
+        "explanation": "拿起实物并联系单词的读音和词形，符合“借助实物记单词”的策略；其余做法没有建立这种联系。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "只看书包颜色，不认读单词",
+          "拿起书包，读bag，再遮住单词回忆",
+          "把所有英语单词遮住后不再学习",
+          "只数书包的口袋，不接触英语单词"
+        ],
+        "question": "学习策略是“Use things to remember words.”要用这一策略记住bag，哪种做法最合适？",
+        "type": "choice",
+        "id": 60030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 6 Christmas·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "We usually sing Christmas songs.",
+        "difficulty": 2,
+        "explanation": "usually表示通常；We后用动词原形sing。sang表示过去，will sing表示将来，singing不能直接作这里的谓语。",
+        "knowledge_point": "What do you usually do at Christmas?",
+        "options": [
+          "We usually sang Christmas songs.",
+          "We will sing Christmas songs tomorrow.",
+          "We usually sing Christmas songs.",
+          "We usually singing Christmas songs."
+        ],
+        "question": "要表达“我们通常唱圣诞歌曲”，应选哪一句？",
+        "type": "choice",
+        "id": 69001,
+        "score": 10
+      },
+      {
+        "answer": "in",
+        "difficulty": 2,
+        "explanation": "表示把礼物放进圣诞袜里用in；on表示在表面，under表示在下面，at不表示放在袜子里面。",
+        "knowledge_point": "I will put the lights on the tree.",
+        "options": [
+          "at",
+          "on",
+          "under",
+          "in"
+        ],
+        "question": "装饰活动中，Ben说：“我会把一件礼物放进圣诞袜里。”补全：I will put a present ______ the stocking.",
+        "type": "choice",
+        "id": 69002,
+        "score": 10
+      },
+      {
+        "answer": "had",
+        "difficulty": 2,
+        "explanation": "Last Christmas说明事情发生在过去，have的过去式是had；其余三项不符合这里的过去时间。",
+        "knowledge_point": "Danny got a football.",
+        "options": [
+          "have",
+          "has",
+          "will have",
+          "had"
+        ],
+        "question": "选择正确形式：Last Christmas, we ______ a big dinner together.",
+        "type": "choice",
+        "id": 69003,
+        "score": 10
+      },
+      {
+        "answer": "both",
+        "difficulty": 2,
+        "explanation": "both和thank中的th发清辅音；this、there、weather中的th发浊辅音。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "this",
+          "both",
+          "there",
+          "weather"
+        ],
+        "question": "哪个单词中的th与thank中的th发音相同？",
+        "type": "choice",
+        "id": 69004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "平安夜说的tomorrow指接下来的圣诞节当天，因此判断正确。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "Linda在平安夜问妈妈：“Shall we invite Mr White to our home tomorrow?”判断：这里的tomorrow指圣诞节当天。",
+        "type": "true_false",
+        "id": 69005,
+        "score": 10
+      },
+      {
+        "answer": "家长",
+        "difficulty": 1,
+        "explanation": "Parents是家长；句子说家长常常扮成圣诞老人，把礼物送给孩子。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "老师",
+          "朋友",
+          "家长",
+          "孩子"
+        ],
+        "question": "读句子：“Parents often pretend to be Santa and give presents to their children.”谁常常扮成圣诞老人？",
+        "type": "choice",
+        "id": 69006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把usually表示的通常活动与will表示的将来计划混淆。",
+        "把教材的The family get together.判为错误；这里family强调家庭成员，教材使用复数意义的表达。",
+        "把圣诞节与圣诞前夜混淆；本课Christmas Day的日期是December 25。",
+        "把某个国家活动示例推广为该国所有人都必须采用的庆祝方式。",
+        "将“主语后总用动词原形”作为一般现在时通则；本课He brings toys中的brings需要注意。"
+      ],
+      "core_concept": "本课学习用What do you usually do at Christmas?询问通常的圣诞活动，并用The family get together.、We have a big dinner.和We sing Christmas songs.等句子介绍家人团聚、聚餐及唱歌。对话还说明Christmas Day是December 25，介绍收礼物以及sack是大袋子。教材使用The family get together.，这里family按家庭成员理解，不应强行改成gets。不同国家的活动按教材具体示例交流，不概括成所有人的固定习俗。",
+      "key_formula": "询问通常活动：What do you usually do at Christmas? 回答示例：We usually have a big dinner. 本课搭配：get together；sing Christmas songs；get presents。",
+      "point": "What do you usually do at Christmas?",
+      "tips": "留意usually表示“通常”，回答时围绕经常发生的活动。记住We have、We sing与He brings的不同形式。文化交流时说明具体例子，不用“所有人都……”作过度概括。"
+    },
+    {
+      "common_mistakes": [
+        "在will后写puts或putting；本课句型中will后接动词原形。",
+        "把on the tree、in my stocking和at the end of my bed表示的位置混淆。",
+        "把Shall we…?提出建议的作用与What will you do?询问计划的作用混淆。",
+        "把Let me help you.误解成要求别人帮助自己；它表示主动提供帮助。"
+      ],
+      "core_concept": "本课围绕合作装饰圣诞树，学习用What will you do?询问将做的事情，用I will…说明分工。对话涉及star、lights、balls和stocking：妈妈放星星，Jenny挂彩灯，Danny挂彩球；Jenny计划把圣诞袜放在床尾，Santa会把礼物放进袜子。还学习Let me help you.提供帮助、Shall we…?提出建议和Can I have a present, too?提出请求。",
+      "key_formula": "表达计划：主语 + will + 动词原形 + 其他。询问计划：What will you do? 提出建议：Shall we + 动词原形 + 其他?",
+      "point": "I will put the lights on the tree.",
+      "tips": "交流装饰计划时，说清楚“谁将做什么、把物品放在哪里”。will后的动词不因I、he或we而变化。对建议或请求的回应要结合具体内容理解。"
+    },
+    {
+      "common_mistakes": [
+        "把went、said、got、had误当作表示将来计划的形式。",
+        "叙述过去经历时，仍把go、say、get、have原封不动地放在肯定句里。",
+        "混淆三位孩子的礼物：Jenny得到连衣裙，Li Ming得到动物书，Danny得到足球。",
+        "将练习填空中提到的唱歌擅自补入主阅读；主阅读没有这一事件。"
+      ],
+      "core_concept": "本课按圣诞节早晨到晚上的顺序叙述经历：Li Ming和Danny到Jenny家并送上祝福，看到客厅里的圣诞树和树下的礼物，孩子们收到礼物，Danny用尾巴玩足球，晚上大家聚餐。学习借助时间词理解过去的事情，并运用go—went、say—said、get—got、have—had等形式作简短叙述。导入页What presents did you get?用于询问已经收到的礼物。",
+      "key_formula": "过去经历的肯定句：主语 + 动词过去式 + 其他。go—went；say—said；get—got；have—had。询问收到的礼物：What presents did you get?",
+      "point": "Danny got a football.",
+      "tips": "先找Christmas morning和In the evening等时间线索，再按顺序复述。把人物与礼物配对记录。主阅读事实与写作练习提供的信息要分开，不自行增加事件。"
+    },
+    {
+      "common_mistakes": [
+        "把three、thank、month、both中的th与this、there、weather、clothes中的th一律读成同一种音。",
+        "只看字母而不留意本课例词的读音；本课out、about、mouth、house中的ou都发/aʊ/。",
+        "把文化短文中的两周假期等陈述推广为所有国家、所有人的统一安排。",
+        "回答过去活动的问题时，误用表示通常活动或将来计划的句子。"
+      ],
+      "core_concept": "本课综合复习通常的圣诞活动、装饰计划和已经发生的经历。What did they do at Christmas?询问过去的活动，回答时使用适当的过去式。语音部分将th分成两组：three、thank、month、both中的th发/θ/，this、there、weather、clothes中的th发/ð/；out、about、mouth、house中的ou发/aʊ/。文化短文介绍休假、旅行、寄卡片、帮助贫困者、家长扮成圣诞老人送礼物及讲故事，相关陈述须按该短文语境理解。",
+      "key_formula": "询问过去活动：What did they do at Christmas? 回答示例：They sang Christmas songs.",
+      "point": "Again, please!",
+      "tips": "读两组th时，舌尖轻放在上下齿之间，比较声带是否振动。读ou例词时注意双元音的变化。阅读文化短文时圈出人物和动作，区分often与“所有人每次都做”。"
+    },
+    {
+      "common_mistakes": [
+        "颠倒平安夜提出邀请与圣诞节当天到访的先后顺序。",
+        "把His only son lived far away.误解成Mr White本人住得很远。",
+        "自行增加原文没有交代的饭菜、游戏或其他来访人物。",
+        "把能力自评当成只需抄句子，不检查自己能否在情境中表达。",
+        "把借助实物记单词理解为只看物品而不联系英语词形、词音和词义。"
+      ],
+      "core_concept": "Linda’s Christmas叙述Linda平安夜与家人去教堂唱歌，看到神情难过的Mr White；他的独子住得很远。Linda向妈妈提出次日邀请他到家里的建议，妈妈表示赞同。圣诞节当天Mr White带礼物到访，玩得很愉快，Linda也很开心。阅读时理解人物心情、事件顺序及关心陪伴他人的意义。自评回顾本单元词汇、通常活动、装饰计划和过去经历，学习借助实物记忆单词。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "用“平安夜—提出邀请—圣诞节到访”的顺序复述，不补写情节。自评时试着不看课文说出句子。拿起实物读出对应英语单词，再遮住词形回忆，把物、音、义联系起来。"
+    }
+  ]
+}

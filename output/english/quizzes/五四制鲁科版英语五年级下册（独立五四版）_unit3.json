@@ -1,0 +1,622 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）五年级下册",
+  "unit": "Unit 3 Health",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Unit 3 Health·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "What’s wrong with you?",
+        "difficulty": 1,
+        "explanation": "该句在健康情境中询问哪里不舒服；其他三句分别询问吃什么、年龄和时间。",
+        "knowledge_point": "What's wrong with you?",
+        "options": [
+          "What’s wrong with you?",
+          "What should we eat?",
+          "How old are you?",
+          "What time is it?"
+        ],
+        "question": "在模拟就医对话中，医生要询问“你怎么了？”，选择合适的英语问句。",
+        "type": "choice",
+        "id": 30001,
+        "score": 10
+      },
+      {
+        "answer": "I have a headache.",
+        "difficulty": 1,
+        "explanation": "headache表示头痛，have a headache是本课表达；其他选项分别表示发烧、感冒和觉得冷。",
+        "knowledge_point": "What's wrong with you?",
+        "options": [
+          "I have a headache.",
+          "I have a fever.",
+          "I have a cold.",
+          "I feel cold."
+        ],
+        "question": "你在英语角色扮演中需要准确说“我头痛”，应该选择哪一句？",
+        "type": "choice",
+        "id": 30002,
+        "score": 10
+      },
+      {
+        "answer": "have",
+        "difficulty": 1,
+        "explanation": "主语为I，描述发烧使用have a fever；has不与这里的I搭配，having不能单独作谓语，am也不符合这一表达。",
+        "knowledge_point": "What's wrong with you?",
+        "options": [
+          "have",
+          "has",
+          "having",
+          "am"
+        ],
+        "question": "选择一个词，使句子语法正确并表示“我发烧”：I ___ a fever.",
+        "type": "choice",
+        "id": 30003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "I have a cold表示我感冒了；I feel cold表示我觉得冷，两者含义不同。",
+        "knowledge_point": "What's wrong with you?",
+        "options": [],
+        "question": "判断：“I have a cold.”和“I feel cold.”的意思完全相同。",
+        "type": "true_false",
+        "id": 30004,
+        "score": 10
+      },
+      {
+        "answer": "Go and see the doctor, please.",
+        "difficulty": 2,
+        "explanation": "该句表示请去看医生；其他选项分别表示服药、喝水和吃水果，不能表达指定意思。",
+        "knowledge_point": "What's wrong with you?",
+        "options": [
+          "Go and see the doctor, please.",
+          "Take some medicine.",
+          "Drink some water.",
+          "Have some fruit."
+        ],
+        "question": "英语角色扮演中，你想表达“请去看医生”，选择意思准确的句子。",
+        "type": "choice",
+        "id": 30005,
+        "score": 10
+      },
+      {
+        "answer": "Yes, I do.",
+        "difficulty": 2,
+        "explanation": "Do you开头的一般疑问句可用Yes, I do肯定回答；Yes, I am不匹配助动词，另两项均为否定回答。",
+        "knowledge_point": "What's wrong with you?",
+        "options": [
+          "Yes, I do.",
+          "Yes, I am.",
+          "No, I don’t.",
+          "No, I’m not."
+        ],
+        "question": "模拟就医时，医生问“Do you have a headache?”。角色确实头痛，选择语法正确的肯定简答。",
+        "type": "choice",
+        "id": 30006,
+        "score": 10
+      },
+      {
+        "answer": "How are you feeling today?",
+        "difficulty": 1,
+        "explanation": "该句询问今天感觉怎么样；其他三句分别询问年龄、食物和时间。",
+        "knowledge_point": "How are you feeling today?",
+        "options": [
+          "How are you feeling today?",
+          "How old are you?",
+          "What should we eat?",
+          "What time is it?"
+        ],
+        "question": "你想询问生病的朋友“你今天感觉怎么样？”，应该说哪句话？",
+        "type": "choice",
+        "id": 30007,
+        "score": 10
+      },
+      {
+        "answer": "Much better.",
+        "difficulty": 1,
+        "explanation": "Much better表示好多了；其他选项分别表示担忧、发烧和觉得冷。",
+        "knowledge_point": "How are you feeling today?",
+        "options": [
+          "Much better.",
+          "I’m worried.",
+          "I have a fever.",
+          "I feel cold."
+        ],
+        "question": "朋友问你身体恢复得怎么样，你要明确表达“好多了”，选择相应回答。",
+        "type": "choice",
+        "id": 30008,
+        "score": 10
+      },
+      {
+        "answer": "按时服药",
+        "difficulty": 1,
+        "explanation": "take the medicine表示服药，on time表示按时；句中没有喝水、吃水果或休息的意思。",
+        "knowledge_point": "How are you feeling today?",
+        "options": [
+          "喝一些水",
+          "好好休息",
+          "按时服药",
+          "吃一些水果"
+        ],
+        "question": "在英语课的角色对话中，“Take the medicine on time.”表达什么意思？",
+        "type": "choice",
+        "id": 30009,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Take a good rest表示好好休息，可以作为慰问卡中的关心用语。",
+        "knowledge_point": "How are you feeling today?",
+        "options": [],
+        "question": "判断：慰问卡上写“Take a good rest.”，是在建议对方好好休息。",
+        "type": "true_false",
+        "id": 30010,
+        "score": 10
+      },
+      {
+        "answer": "Don’t worry. We’ll help you.",
+        "difficulty": 2,
+        "explanation": "该句表示别担心，我们会帮助你；其他选项分别询问症状、提供苹果和描述咳嗽，不符合指定意思。",
+        "knowledge_point": "How are you feeling today?",
+        "options": [
+          "Don’t worry. We’ll help you.",
+          "What’s wrong with you?",
+          "Here’s an apple for you.",
+          "I cough and feel cold."
+        ],
+        "question": "同学担心病假期间落下功课。你想说“别担心，我们会帮助你”，选择对应表达。",
+        "type": "choice",
+        "id": 30011,
+        "score": 10
+      },
+      {
+        "answer": "Drink some water. Have some fruit.",
+        "difficulty": 2,
+        "explanation": "该选项完整表达喝一些水、吃一些水果；其他选项分别写成服药、运动或休息，均不符合要求。",
+        "knowledge_point": "How are you feeling today?",
+        "options": [
+          "Drink some water. Have some fruit.",
+          "Take some medicine. Have some fruit.",
+          "Drink some water. Do sports.",
+          "Take a good rest. Have some fruit."
+        ],
+        "question": "制作英语慰问卡，要写“喝一些水，吃一些水果”。选择意思完全相符的两句话。",
+        "type": "choice",
+        "id": 30012,
+        "score": 10
+      },
+      {
+        "answer": "睡眠",
+        "difficulty": 1,
+        "explanation": "have enough sleep表示有充足的睡眠；其余三项不属于sleep的含义。",
+        "knowledge_point": "How can we keep healthy?",
+        "options": [
+          "睡眠",
+          "药物",
+          "糖果",
+          "电脑游戏"
+        ],
+        "question": "健康建议“We should have enough sleep.”中的sleep指什么？",
+        "type": "choice",
+        "id": 30013,
+        "score": 10
+      },
+      {
+        "answer": "We shouldn’t eat too much junk food.",
+        "difficulty": 1,
+        "explanation": "该句准确表达不应该吃太多垃圾食品；第二项肯否定相反，后两项在shouldn’t后没有使用动词原形。",
+        "knowledge_point": "How can we keep healthy?",
+        "options": [
+          "We shouldn’t eat too much junk food.",
+          "We should eat too much junk food.",
+          "We shouldn’t eats too much junk food.",
+          "We shouldn’t eating too much junk food."
+        ],
+        "question": "选择语法正确且表示“我们不应该吃太多垃圾食品”的句子。",
+        "type": "choice",
+        "id": 30014,
+        "score": 10
+      },
+      {
+        "answer": "eat",
+        "difficulty": 1,
+        "explanation": "should后接动词原形eat；eats、eating、ate都不符合这里的结构。",
+        "knowledge_point": "How can we keep healthy?",
+        "options": [
+          "eat",
+          "eats",
+          "ate",
+          "eating"
+        ],
+        "question": "选择符合语法的词：We should ___ vegetables every day.",
+        "type": "choice",
+        "id": 30015,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "for too long限定时间太长，所以句子不等于完全禁止玩电脑游戏。",
+        "knowledge_point": "How can we keep healthy?",
+        "options": [],
+        "question": "判断：“We shouldn’t play computer games for too long.”强调不要玩太久，并不等于完全不能玩电脑游戏。",
+        "type": "true_false",
+        "id": 30016,
+        "score": 10
+      },
+      {
+        "answer": "眼睛",
+        "difficulty": 2,
+        "explanation": "our eyes表示我们的眼睛；其他部位均没有在给出的句子中出现。",
+        "knowledge_point": "How can we keep healthy?",
+        "options": [
+          "牙齿",
+          "双脚",
+          "眼睛",
+          "双手"
+        ],
+        "question": "阅读两句健康提示：“We shouldn’t play computer games for too long. It’s bad for our eyes.”提示指出，玩电脑游戏太久对哪个部位不好？",
+        "type": "choice",
+        "id": 30017,
+        "score": 10
+      },
+      {
+        "answer": "We should do sports every day.",
+        "difficulty": 2,
+        "explanation": "该句属于运动建议；其余三句分别属于睡眠、食物选择和控制垃圾食品摄入。",
+        "knowledge_point": "How can we keep healthy?",
+        "options": [
+          "We should do sports every day.",
+          "We should have enough sleep.",
+          "We should eat fruit and vegetables.",
+          "We shouldn’t eat too much junk food."
+        ],
+        "question": "整理健康建议时，哪一句应放入“运动”栏目，而不是“睡眠”或“饮食”栏目？",
+        "type": "choice",
+        "id": 30018,
+        "score": 10
+      },
+      {
+        "answer": "take exercise",
+        "difficulty": 1,
+        "explanation": "take exercise表示锻炼；其余选项分别表示服药、休息和感冒。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "take exercise",
+          "take medicine",
+          "take a rest",
+          "have a cold"
+        ],
+        "question": "选择与“锻炼”意思相符的英语短语。",
+        "type": "choice",
+        "id": 30019,
+        "score": 10
+      },
+      {
+        "answer": "早晨和傍晚",
+        "difficulty": 2,
+        "explanation": "in the morning and in the evening明确给出早晨和傍晚；没有说只在中午、只在夜里或只在周末。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "只在中午",
+          "早晨和傍晚",
+          "只在夜里",
+          "只在周末"
+        ],
+        "question": "Nancy的生活习惯介绍写道：“She always goes for walks in the morning and in the evening.”她通常什么时候散步？",
+        "type": "choice",
+        "id": 30020,
+        "score": 10
+      },
+      {
+        "answer": "她的牙齿不好",
+        "difficulty": 2,
+        "explanation": "But her teeth are not good说明牙齿不好，So引出她喝苹果汁的结果；其他原因均未给出。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "她只喜欢蔬菜",
+          "她的牙齿不好",
+          "她不喜欢苹果",
+          "她从不锻炼"
+        ],
+        "question": "阅读原句：“Her favourite fruit are apples. But her teeth are not good. So she drinks apple juice.”Nancy为什么喝苹果汁？",
+        "type": "choice",
+        "id": 30021,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "给出的句子说明最喜欢苹果并且喝苹果汁，不能据此确定她每天吃整个苹果。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "已知“Nancy’s favourite fruit are apples. She drinks apple juice.”。判断：仅凭这两句话，就能确定Nancy每天吃整个苹果。",
+        "type": "true_false",
+        "id": 30022,
+        "score": 10
+      },
+      {
+        "answer": "get与up之间",
+        "difficulty": 2,
+        "explanation": "这句的连读位置是get与up之间，前词以辅音结尾，后词以元音开头；其他选项不是本句标出的连读位置。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "get与up之间",
+          "It’s与time之间",
+          "time与to之间",
+          "to与get之间"
+        ],
+        "question": "朗读“It’s time to get up.”时，哪一处可以把前词末尾的辅音与后词开头的元音自然连读？",
+        "type": "choice",
+        "id": 30023,
+        "score": 10
+      },
+      {
+        "answer": "I have a toothache.",
+        "difficulty": 1,
+        "explanation": "toothache表示牙痛；其他三句分别表示发烧、感冒和头痛。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I have a toothache.",
+          "I have a fever.",
+          "I have a cold.",
+          "I have a headache."
+        ],
+        "question": "英语小剧场中，一个角色要说“我牙痛”。选择意思准确的台词。",
+        "type": "choice",
+        "id": 30024,
+        "score": 10
+      },
+      {
+        "answer": "只喝蔬菜汤",
+        "difficulty": 1,
+        "explanation": "vegetable soup only表示只喝蔬菜汤；其他三种安排均不符合给出的原句。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "只吃苹果",
+          "只喝苹果汁",
+          "只喝蔬菜汤",
+          "只吃蛋糕"
+        ],
+        "question": "故事起初，大象妈妈说：“Let’s have vegetable soup only.”她提出了什么安排？",
+        "type": "choice",
+        "id": 30025,
+        "score": 10
+      },
+      {
+        "answer": "hungry",
+        "difficulty": 1,
+        "explanation": "hungry表示饥饿；happy表示高兴，cold表示冷，healthy表示健康，后三者不能表达指定意思。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "cold",
+          "hungry",
+          "happy",
+          "healthy"
+        ],
+        "question": "故事讲到爸爸和宝宝夜里饿了。选择能使“At night, Dad and Baby are ___.”表达这一意思的词。",
+        "type": "choice",
+        "id": 30026,
+        "score": 10
+      },
+      {
+        "answer": "不得不回去",
+        "difficulty": 2,
+        "explanation": "have to表示不得不，go back表示回去；不是可以、想要或拒绝回去。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "可以回去",
+          "不得不回去",
+          "想要回去",
+          "拒绝回去"
+        ],
+        "question": "妈妈阻止爸爸和宝宝夜里吃蛋糕后，故事写道：“They have to go back.”这句话是什么意思？",
+        "type": "choice",
+        "id": 30027,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "have enough food for meals明确表示正餐有足够的食物，与一直只喝汤不同。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "故事后半部分写道：“Mum finds a better way. They have enough food for meals.”判断：后来一家人在正餐时有足够的食物。",
+        "type": "true_false",
+        "id": 30028,
+        "score": 10
+      },
+      {
+        "answer": "去探望他",
+        "difficulty": 2,
+        "explanation": "went to see him在探望生病老人的情境中表示去探望他；其他三项分别是做家务、重感冒和高兴。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "去探望他",
+          "做家务",
+          "重感冒",
+          "高兴"
+        ],
+        "question": "一张演讲提示卡写着“Grandpa Li；bad cold；went to see him；did housework；happy”。其中went to see him在这次关爱老人的活动中表示什么？",
+        "type": "choice",
+        "id": 30029,
+        "score": 10
+      },
+      {
+        "answer": "talk about how to keep healthy",
+        "difficulty": 2,
+        "explanation": "该短语表示谈论如何保持健康；其他选项分别谈论买水果、年龄和学校地点，不符合目标。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "talk about how to keep healthy",
+          "talk about where to buy fruit",
+          "talk about how old people are",
+          "talk about where the school is"
+        ],
+        "question": "进行单元自评时，你要检查自己能否“谈论如何保持健康”。选择对应的英语目标。",
+        "type": "choice",
+        "id": 30030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 3 Health·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "I feel cold.",
+        "difficulty": 1,
+        "explanation": "feel cold表示觉得冷；have a cold表示感冒，不能混同。其他选项分别表示感冒、头痛和好多了。",
+        "knowledge_point": "What's wrong with you?",
+        "options": [
+          "I feel cold.",
+          "I have a cold.",
+          "I have a headache.",
+          "Much better."
+        ],
+        "question": "选择只表达“我觉得冷”、不直接表示患有某种疾病的句子。",
+        "type": "choice",
+        "id": 39001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "have a look表示看一看，不是好好休息；好好休息可说take a good rest。",
+        "knowledge_point": "What's wrong with you?",
+        "options": [],
+        "question": "判断：医生说“Let me have a look.”，意思是“让我好好休息”。",
+        "type": "true_false",
+        "id": 39002,
+        "score": 10
+      },
+      {
+        "answer": "我的功课",
+        "difficulty": 1,
+        "explanation": "my lessons表示我的功课；句子表达对功课的担忧，没有提到其他三项。",
+        "knowledge_point": "How are you feeling today?",
+        "options": [
+          "我的功课",
+          "我的苹果",
+          "我的电脑",
+          "我的牙齿"
+        ],
+        "question": "Wang Hong说“But I’m worried about my lessons.”。她担心的是什么？",
+        "type": "choice",
+        "id": 39003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "这句谚语强调良好饮食习惯的重要性，不是保证吃苹果就永远不会生病。",
+        "knowledge_point": "How are you feeling today?",
+        "options": [],
+        "question": "判断：谚语“An apple a day keeps the doctor away.”保证每天吃一个苹果的人永远不会生病。",
+        "type": "true_false",
+        "id": 39004,
+        "score": 10
+      },
+      {
+        "answer": "We shouldn’t play computer games for too long.",
+        "difficulty": 2,
+        "explanation": "shouldn’t表示不应该，for too long表示太久。其他选项分别改变了肯否定意义、活动内容或时间含义。",
+        "knowledge_point": "How can we keep healthy?",
+        "options": [
+          "We shouldn’t play computer games for too long.",
+          "We should play computer games for too long.",
+          "We shouldn’t do sports every day.",
+          "We should play computer games every morning."
+        ],
+        "question": "健康提示卡需要写“我们不应该玩电脑游戏太久”。选择意思准确的句子。",
+        "type": "choice",
+        "id": 39005,
+        "score": 10
+      },
+      {
+        "answer": "跳绳",
+        "difficulty": 2,
+        "explanation": "Mum skips表示妈妈跳绳；打羽毛球的是爸爸和宝宝，另两项没有出现在给出的原句中。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "跳绳",
+          "打羽毛球",
+          "散步",
+          "玩电脑游戏"
+        ],
+        "question": "故事结尾写道：“Dad and Baby play badminton. Mum skips.”大象妈妈做什么运动？",
+        "type": "choice",
+        "id": 39006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "混淆have a cold与feel cold，前者表示感冒，后者表示觉得冷。",
+        "说have a headache、have a fever或have a cold时漏掉a。",
+        "把“What’s wrong with you?”与询问恢复情况的“How are you feeling today?”不加区别地使用。",
+        "把课堂就医角色扮演中的建议直接当作真实诊断或具体用药方案。"
+      ],
+      "core_concept": "在健康话题中用“What’s wrong with you?”询问哪里不舒服，用“I cough.”、“I feel cold.”、“I have a headache.”、“I have a fever.”和“I have a bad cold.”等描述身体不适。理解“Do you have a headache?”这类询问及肯否定回答，理解“Let me have a look.”、“Go and see the doctor, please.”和“Take some medicine.”等就医对话用语，能开展简短模拟交流。这些表达用于英语学习，不构成真实疾病诊断或用药指导。",
+      "key_formula": "",
+      "point": "What's wrong with you?",
+      "tips": "听到症状询问时，先确认需要表达的是咳嗽、发冷、头痛、发烧还是感冒，再选择相应短语。角色对话按询问、描述、建议、致谢的顺序组织，不必推断真实病因。"
+    },
+    {
+      "common_mistakes": [
+        "把Much better理解为已经完全康复；它只表示好多了。",
+        "把on time理解为有空；它表示按时。",
+        "把I’m worried about my lessons中的worried理解为高兴。",
+        "把苹果谚语当作不会生病的保证。"
+      ],
+      "core_concept": "用“How are you feeling today?”或“How are you feeling now?”询问身体感受、恢复情况，用“Much better.”表达好转。理解“Take the medicine on time and drink some water.”、“Take a good rest.”和“Have some fruit.”等课堂关怀表达。用“Don’t worry. We’ll help you.”安慰担心功课的同学，用“You’ll get well soon.”表达鼓励，并通过慰问卡传递关心。教材谚语强调良好饮食习惯，不是医疗保证。",
+      "key_formula": "",
+      "point": "How are you feeling today?",
+      "tips": "先分清询问、回答、建议和安慰四种交际作用。收到关心后可说“Thank you.”。服药相关句子只作教材语言学习，不据此决定真实用药。"
+    },
+    {
+      "common_mistakes": [
+        "在should或shouldn’t后使用has、eats或动词-ing形式；这里应接动词原形。",
+        "漏掉too long，把不要玩太久误解为完全不能玩。",
+        "混淆healthy与health：keep healthy中的healthy是形容词，our health中的health是名词。",
+        "漏掉too much，改变不要吃太多垃圾食品的原意。"
+      ],
+      "core_concept": "围绕运动、睡眠、饮食和电脑游戏理解健康建议。用“We should + 动词原形”表达应该做的事，用“We shouldn’t + 动词原形”表达不应该做的事。教材提倡每天运动、保证充足睡眠、每天吃水果和蔬菜，不要玩电脑游戏太久，不要吃太多垃圾食品。能够按活动、饮食等方面分类讨论，并用简短句子写健康建议。",
+      "key_formula": "主语 + should/shouldn’t + 动词原形。",
+      "point": "How can we keep healthy?",
+      "tips": "写建议时先确定意思是应该还是不应该，再检查动词是否为原形。保留every day、enough、too much、for too long等限定语，避免改变句意。"
+    },
+    {
+      "common_mistakes": [
+        "把take exercise理解为服药；它表示锻炼，服药是take medicine。",
+        "把最喜欢苹果推断成每天吃苹果，忽略短文明确写出的喝苹果汁。",
+        "连读时添加额外音节，或把两个词误写成一个词。",
+        "把漫画中人物的经历当作所有牙痛的唯一原因。"
+      ],
+      "core_concept": "综合复习症状问答、关心病人的表达和健康建议。朗读时关注教材标出的have与a、get与up、an与apple、mum与and之间的连读。阅读Nancy的短文，提取年龄、锻炼时间、饮食喜好和牙齿状况等信息，区分原文事实与自行推断。理解Fun time中人物吃甜食后说自己牙痛的情节，会用“I have a toothache.”表达牙痛。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "阅读先找人物和关键词，再找能直接支持答案的完整句子。连读不改变单词拼写和句意，可先分词读准，再自然衔接。听辨时根据实际听到的信息作答。"
+    },
+    {
+      "common_mistakes": [
+        "把只喝蔬菜汤当作故事最终认可的方法，忽略妈妈后来找到更好的办法。",
+        "把想吃蛋糕误读成已经吃到蛋糕。",
+        "把have to理解为可以；它表示不得不。",
+        "演讲时只读零散关键词，没有组织成句子；自评时只数星星，不检查实际能否表达。"
+      ],
+      "core_concept": "按事件顺序理解Losing Weight：大象妈妈先提议只喝蔬菜汤，爸爸和宝宝不开心，夜里饥饿并想吃蛋糕；后来妈妈找到更好的办法，一家人有足够的正餐食物、早起运动，最终又变得健康。故事不是儿童节食或减重处方。通过Check it自评单元词语、症状问答和健康建议的掌握情况；通过Learn to learn学习用人物、身体状况、探望、帮忙和心情等关键词提示卡组织简短演讲。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "用起初、夜里、后来梳理故事转折，特别留意better way。演讲提示卡只提供线索，要将关键词组织为简短、连贯的英语句子；自评以自己是否真正会说、会用为依据。"
+    }
+  ]
+}

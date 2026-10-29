@@ -1,0 +1,601 @@
+{
+  "textbook": "义务教育教科书（五·四学制）英语（三年级起点）四年级 上册",
+  "unit": "Unit 4 Seasons",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Unit 4 Seasons·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "spring",
+        "difficulty": 1,
+        "explanation": "spring是春天；summer、autumn、winter分别是夏天、秋天、冬天。",
+        "knowledge_point": "Lesson 1 It's spring.",
+        "options": [
+          "spring",
+          "summer",
+          "autumn",
+          "winter"
+        ],
+        "question": "哪个英语单词表示“春天”？",
+        "type": "choice",
+        "id": 40001,
+        "score": 10
+      },
+      {
+        "answer": "summer",
+        "difficulty": 1,
+        "explanation": "summer表示夏天，其他选项不是夏天。",
+        "knowledge_point": "Lesson 1 It's spring.",
+        "options": [
+          "winter",
+          "autumn",
+          "summer",
+          "spring"
+        ],
+        "question": "在英语季节标签中，“夏天”应写成哪个词？",
+        "type": "choice",
+        "id": 40002,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "autumn表示秋天；冬天是winter。",
+        "knowledge_point": "Lesson 1 It's spring.",
+        "options": [],
+        "question": "判断：autumn的中文意思是“冬天”。",
+        "type": "true_false",
+        "id": 40003,
+        "score": 10
+      },
+      {
+        "answer": "What season is it?",
+        "difficulty": 2,
+        "explanation": "询问是什么季节用“What season is it?”；另一个问句询问喜欢的季节，其余是陈述句。",
+        "knowledge_point": "Lesson 1 It's spring.",
+        "options": [
+          "What season do you like?",
+          "What season is it?",
+          "I like summer.",
+          "It's spring."
+        ],
+        "question": "你想询问“这是什么季节？”，应使用哪一句？",
+        "type": "choice",
+        "id": 40004,
+        "score": 10
+      },
+      {
+        "answer": "I don't like winter.",
+        "difficulty": 2,
+        "explanation": "don't like表示不喜欢，winter表示冬天。",
+        "knowledge_point": "Lesson 1 It's spring.",
+        "options": [
+          "It's winter.",
+          "I don't like winter.",
+          "I like winter.",
+          "I don't like summer."
+        ],
+        "question": "哪句话准确表达“我不喜欢冬天”？",
+        "type": "choice",
+        "id": 40005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "four seasons表示四个季节，in a year表示一年中。",
+        "knowledge_point": "Lesson 1 It's spring.",
+        "options": [],
+        "question": "判断：“We have four seasons in a year.”表示“一年有四个季节”。",
+        "type": "true_false",
+        "id": 40006,
+        "score": 10
+      },
+      {
+        "answer": "warm",
+        "difficulty": 1,
+        "explanation": "题目明确要求表达暖和，因此选warm；其余三个词表示热、凉爽、寒冷。",
+        "knowledge_point": "Lesson 2 It's warm in spring.",
+        "options": [
+          "cool",
+          "warm",
+          "hot",
+          "cold"
+        ],
+        "question": "要表达“春天暖和”，补全句子：It's ___ in spring.",
+        "type": "choice",
+        "id": 40007,
+        "score": 10
+      },
+      {
+        "answer": "T-shirts",
+        "difficulty": 1,
+        "explanation": "T-shirts表示T恤衫；其余分别表示外套、夹克衫和毛衣。",
+        "knowledge_point": "Lesson 2 It's warm in spring.",
+        "options": [
+          "T-shirts",
+          "coats",
+          "jackets",
+          "sweaters"
+        ],
+        "question": "要表达“我们通常穿T恤衫”，补全句子：We often wear ___.",
+        "type": "choice",
+        "id": 40008,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "cool表示凉爽，cold才表示寒冷。",
+        "knowledge_point": "Lesson 2 It's warm in spring.",
+        "options": [],
+        "question": "判断：cool与cold都只能译为“寒冷”，意思没有区别。",
+        "type": "true_false",
+        "id": 40009,
+        "score": 10
+      },
+      {
+        "answer": "It's cool in autumn.",
+        "difficulty": 2,
+        "explanation": "秋天是autumn，凉爽是cool；其余选项改变了季节或冷暖。",
+        "knowledge_point": "Lesson 2 It's warm in spring.",
+        "options": [
+          "It's cool in autumn.",
+          "It's hot in autumn.",
+          "It's cool in summer.",
+          "It's cold in winter."
+        ],
+        "question": "选择“秋天凉爽”的准确英语表达。",
+        "type": "choice",
+        "id": 40010,
+        "score": 10
+      },
+      {
+        "answer": "I often wear my sweater.",
+        "difficulty": 2,
+        "explanation": "I表示我，my sweater表示我的毛衣；其余选项改变了人物或衣物。",
+        "knowledge_point": "Lesson 2 It's warm in spring.",
+        "options": [
+          "I often wear my sweater.",
+          "We often wear sweaters.",
+          "I often wear my coat.",
+          "We often wear T-shirts."
+        ],
+        "question": "小朋友想说“我通常穿我的毛衣”，应选哪句？",
+        "type": "choice",
+        "id": 40011,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "in winter表示在冬天，cold表示寒冷。",
+        "knowledge_point": "Lesson 2 It's warm in spring.",
+        "options": [],
+        "question": "判断：“It's cold in winter.”中的in winter表示“在冬天”。",
+        "type": "true_false",
+        "id": 40012,
+        "score": 10
+      },
+      {
+        "answer": "I like spring.",
+        "difficulty": 1,
+        "explanation": "只有这一项直接表达喜欢春天；其余分别说明季节、冷暖和活动。",
+        "knowledge_point": "Lesson 3 What season do you like?",
+        "options": [
+          "I like spring.",
+          "It's spring.",
+          "It's warm.",
+          "I often fly my kite."
+        ],
+        "question": "有人问“What season do you like?”，你想回答“我喜欢春天”，应选哪句？",
+        "type": "choice",
+        "id": 40013,
+        "score": 10
+      },
+      {
+        "answer": "go swimming",
+        "difficulty": 1,
+        "explanation": "go swimming表示去游泳；其余表示去滑冰、放风筝、穿夹克衫。",
+        "knowledge_point": "Lesson 3 What season do you like?",
+        "options": [
+          "fly my kite",
+          "go skating",
+          "wear jackets",
+          "go swimming"
+        ],
+        "question": "要表达“我夏天可以去游泳”，补全句子：I can ___ in summer.",
+        "type": "choice",
+        "id": 40014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“What about you?”表示“你呢？”，可用于把同一个话题转给对方。",
+        "knowledge_point": "Lesson 3 What season do you like?",
+        "options": [],
+        "question": "判断：谈论喜欢的季节时，可以用“What about you?”请对方也说说自己的喜好。",
+        "type": "true_false",
+        "id": 40015,
+        "score": 10
+      },
+      {
+        "answer": "I like winter. I can go skating in winter.",
+        "difficulty": 2,
+        "explanation": "winter表示冬天，go skating表示去滑冰；其余选项改变了喜好、活动或季节。",
+        "knowledge_point": "Lesson 3 What season do you like?",
+        "options": [
+          "I like winter. I can go skating in winter.",
+          "I like summer. I can go swimming in summer.",
+          "I like winter. I can fly my kite.",
+          "I don't like winter. It's cold."
+        ],
+        "question": "选择“我喜欢冬天。我冬天可以去滑冰”的准确表达。",
+        "type": "choice",
+        "id": 40016,
+        "score": 10
+      },
+      {
+        "answer": "I often fly my kite.",
+        "difficulty": 2,
+        "explanation": "often表示经常，fly my kite表示放我的风筝；can不能替代“经常”的意思。",
+        "knowledge_point": "Lesson 3 What season do you like?",
+        "options": [
+          "I often go swimming.",
+          "I like winter.",
+          "I can fly my kite.",
+          "I often fly my kite."
+        ],
+        "question": "哪一句准确表达“我经常放风筝”？",
+        "type": "choice",
+        "id": 40017,
+        "score": 10
+      },
+      {
+        "answer": "autumn",
+        "difficulty": 1,
+        "explanation": "秋天的规范拼写是autumn，其他选项均有拼写错误。",
+        "knowledge_point": "Lesson 3 What season do you like?",
+        "options": [
+          "autumn",
+          "autum",
+          "autmun",
+          "atum"
+        ],
+        "question": "书写表示“秋天”的英语单词时，哪个拼写正确？",
+        "type": "choice",
+        "id": 40018,
+        "score": 10
+      },
+      {
+        "answer": "autumn",
+        "difficulty": 1,
+        "explanation": "按春、夏、秋、冬排列，第三个是autumn。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "autumn",
+          "winter",
+          "spring",
+          "summer"
+        ],
+        "question": "按春、夏、秋、冬的顺序补全：spring, summer, ___, winter。",
+        "type": "choice",
+        "id": 40019,
+        "score": 10
+      },
+      {
+        "answer": "I like spring.",
+        "difficulty": 2,
+        "explanation": "题目要求先表达喜欢春天，只有该项符合；其他选项改变了喜好或表达目的。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "I like spring.",
+          "I don't like spring.",
+          "What season is it?",
+          "I like winter."
+        ],
+        "question": "你准备介绍自己喜欢的春天。后面接“It's warm in spring. I often wear a sweater. I can fly my kite.”，开头应选哪句来表达喜欢春天？",
+        "type": "choice",
+        "id": 40020,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "fish和four中的f发f音，不是v音。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "判断：fish与four中的字母f都发字母v在very中的音。",
+        "type": "true_false",
+        "id": 40021,
+        "score": 10
+      },
+      {
+        "answer": "five",
+        "difficulty": 2,
+        "explanation": "five中的v与very中的v发音相同；fish、four、roof含f音。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "roof",
+          "five",
+          "four",
+          "fish"
+        ],
+        "question": "哪个单词含有与very中字母v相同的辅音？",
+        "type": "choice",
+        "id": 40022,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "这四个例词中的o都读字母o的名称音，本组呈现的是共同读音特点。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "判断：go、no、nose、home中的字母o具有相同的读音特点。",
+        "type": "true_false",
+        "id": 40023,
+        "score": 10
+      },
+      {
+        "answer": "忙碌的",
+        "difficulty": 2,
+        "explanation": "busy表示忙碌的；原句说秋天凉爽，农民很忙。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "炎热的",
+          "寒冷的",
+          "忙碌的",
+          "暖和的"
+        ],
+        "question": "读韵文中的一句“Autumn is cool and farmers are busy.”，busy表示什么意思？",
+        "type": "choice",
+        "id": 40024,
+        "score": 10
+      },
+      {
+        "answer": "种花生",
+        "difficulty": 1,
+        "explanation": "plant表示种植，peanuts表示花生，所以提议是一起种花生。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "去滑冰",
+          "吃花生",
+          "种花生",
+          "穿外套"
+        ],
+        "question": "故事开头，小母鸡说“Let's plant peanuts together.”。她提议一起做什么？",
+        "type": "choice",
+        "id": 40025,
+        "score": 10
+      },
+      {
+        "answer": "job",
+        "difficulty": 1,
+        "explanation": "job表示工作；eat表示吃，sorry表示对不起，peanut表示花生。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "sorry",
+          "eat",
+          "job",
+          "peanut"
+        ],
+        "question": "哪个英语单词表示“工作”？",
+        "type": "choice",
+        "id": 40026,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "面对劳动邀请，这句话表示不愿承担任务，并非答应帮忙。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断：小母鸡邀请同伴一起劳动，同伴回答“Not me. It's not my job.”，表示“我愿意来帮忙”。",
+        "type": "true_false",
+        "id": 40027,
+        "score": 10
+      },
+      {
+        "answer": "种植→浇水→带回家",
+        "difficulty": 2,
+        "explanation": "题目给出的顺序先plant，再water，最后get ... home，对应种植、浇水、带回家。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "带回家→浇水→种植",
+          "种植→带回家→浇水",
+          "种植→浇水→带回家",
+          "浇水→种植→带回家"
+        ],
+        "question": "一个故事先说“Let's plant peanuts together.”，接着说“Let's water the peanuts together.”，后来又说“Let's get the peanuts home.”。哪项事件顺序与这段叙述一致？",
+        "type": "choice",
+        "id": 40028,
+        "score": 10
+      },
+      {
+        "answer": "这不是你的工作。",
+        "difficulty": 2,
+        "explanation": "your表示你的，not表示否定；不是“我的工作”，也不是肯定句。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "这是你的工作。",
+          "这不是你的工作。",
+          "这不是我的工作。",
+          "我们一起种花生吧。"
+        ],
+        "question": "故事结尾的句子“It's not your job.”是什么意思？",
+        "type": "choice",
+        "id": 40029,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "单元词汇表可帮助查找单词并理解词义，是本页呈现的学习方法。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断：阅读时遇到不认识的单词，可以使用单元词汇表帮助理解词义。",
+        "type": "true_false",
+        "id": 40030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 4 Seasons·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "It's autumn.",
+        "difficulty": 2,
+        "explanation": "autumn表示秋天；其余三项分别表示春天、夏天和冬天。",
+        "knowledge_point": "Lesson 1 It's spring.",
+        "options": [
+          "It's spring.",
+          "It's summer.",
+          "It's autumn.",
+          "It's winter."
+        ],
+        "question": "季节卡片上写着“秋天”。你要用英语说出卡片上的季节，应选哪句？",
+        "type": "choice",
+        "id": 49001,
+        "score": 10
+      },
+      {
+        "answer": "We often wear jackets.",
+        "difficulty": 2,
+        "explanation": "jackets表示夹克衫；其余三项分别表示毛衣、T恤衫和外套。",
+        "knowledge_point": "Lesson 2 It's warm in spring.",
+        "options": [
+          "We often wear sweaters.",
+          "We often wear T-shirts.",
+          "We often wear jackets.",
+          "We often wear coats."
+        ],
+        "question": "选择与“我们通常穿夹克衫”意思一致的句子。",
+        "type": "choice",
+        "id": 49002,
+        "score": 10
+      },
+      {
+        "answer": "What about you?",
+        "difficulty": 2,
+        "explanation": "已经回答自己的喜好后，用“What about you?”表示“你呢？”，把同一话题转给对方。",
+        "knowledge_point": "Lesson 3 What season do you like?",
+        "options": [
+          "It's too hot.",
+          "What about you?",
+          "I don't like winter.",
+          "We have four seasons."
+        ],
+        "question": "补全对话：Amy: “What season do you like?” Ben: “I like autumn. ___” Amy: “I like spring.” Ben想接着询问Amy的季节喜好，空白处选哪句？",
+        "type": "choice",
+        "id": 49003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "often表示经常，can表示能、可以，两句的意思并不完全相同。",
+        "knowledge_point": "Lesson 3 What season do you like?",
+        "options": [],
+        "question": "判断：“I often fly my kite.”与“I can fly my kite.”的意思完全相同。",
+        "type": "true_false",
+        "id": 49004,
+        "score": 10
+      },
+      {
+        "answer": "cold",
+        "difficulty": 2,
+        "explanation": "原句中的cold表示寒冷；warm、hot、cool分别表示暖和、热、凉爽。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "warm",
+          "hot",
+          "cool",
+          "cold"
+        ],
+        "question": "读句子“Winter is cold and the year is gone.”，其中表示“寒冷”的词是哪一个？",
+        "type": "choice",
+        "id": 49005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "给出的查词结果直接说明water在该句中表示给植物浇水，而不是喝水。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断：读故事时遇到“Let's water the peanuts together.”，查到water在这里意为“给……浇水”，就能知道这句话是在提议一起给花生浇水。",
+        "type": "true_false",
+        "id": 49006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "混淆summer（夏天）与autumn（秋天），或混淆autumn与winter（冬天）。",
+        "用“I like spring.”回答季节辨认问题；这句表达喜好，不是直接说明当前季节。",
+        "把It's漏写撇号，或忘记句首大写、句末标点。"
+      ],
+      "core_concept": "一年有四个季节：spring（春天）、summer（夏天）、autumn（秋天）、winter（冬天）。用“What season is it?”询问是什么季节，用“It's ...”回答。用“I like ...”和“I don't like ...”分别表达喜欢和不喜欢某个季节。导入页中的冷暖和活动句子用于整体感知。",
+      "key_formula": "What season is it? — It's + 季节名称.；I like + 季节名称.；I don't like + 季节名称.",
+      "point": "Lesson 1 It's spring.",
+      "tips": "按春、夏、秋、冬的顺序记忆单词，再打乱顺序辨认。可以结合教材里的发芽、绿树、落叶和雪景帮助记忆，但不要把某种景象当作所有地方唯一的季节判断标准。"
+    },
+    {
+      "common_mistakes": [
+        "把warm（暖和）当作hot（热），把cool（凉爽）当作cold（寒冷）。",
+        "在季节前漏掉in，如把in spring写成spring而没有完整连接句子。",
+        "把we与I、sweaters与my sweater机械混用；应先看表达的是大家还是自己。",
+        "误以为个人穿着只能用my；本单元后面的介绍也使用a sweater。"
+      ],
+      "core_concept": "本课用warm、hot、cool、cold描述冷暖，分别呈现春暖、夏热、秋凉、冬冷的典型搭配。用“We often wear ...”表达大家通常的穿着，用“I often wear my sweater.”表达自己通常穿自己的毛衣。课文呈现的衣物有sweaters、T-shirts、coats和jackets。这些是教材中的典型情境，不是所有地区和所有人的固定穿衣规则。",
+      "key_formula": "It's + 冷暖词 + in + 季节名称.；We often wear + 衣物.；I often wear my sweater.",
+      "point": "Lesson 2 It's warm in spring.",
+      "tips": "把warm—春、hot—夏、cool—秋、cold—冬配对练习。说衣物时注意T-shirts的大小写和连字符；often表示通常、经常，wear表示穿、戴。"
+    },
+    {
+      "common_mistakes": [
+        "把“What season do you like?”理解成询问当前季节。",
+        "把often与can混同：often表示经常，can表示能、可以。",
+        "把go swimming或go skating中的活动词形式写错。",
+        "拼写autumn时漏掉字母n，或拼写summer时漏掉一个m。"
+      ],
+      "core_concept": "用“What season do you like?”询问喜欢的季节，用“I like ...”回答；可以补充冷暖或活动说明原因。用“What about you?”表示“你呢？”，请对方接着交流。学习fly my kite、go swimming、go skating，区分“I often ...”表达经常做的活动和“I can ...”表达能够做的活动。本课还练习四季名称的规范书写。",
+      "key_formula": "What season do you like? — I like + 季节名称.；What about you?；I often fly my kite.；I can go swimming/go skating in + 季节名称.",
+      "point": "Lesson 3 What season do you like?",
+      "tips": "先回答喜欢的季节，再补充一句原因或活动。书写四季词时逐字母检查；活动搭配作为整体记忆。不要把教材中的活动搭配理解为其他季节绝对不能开展该活动。"
+    },
+    {
+      "common_mistakes": [
+        "把辨认季节和询问喜好的两种问句混用。",
+        "把f和v读成同一个音；发f时声带不振动，发v时声带振动。",
+        "误说本课go、no、nose、home中的o读音各不相同；这些例词呈现相同的字母o读音特点。",
+        "介绍季节时把冷暖、衣物和活动堆成单词，未组织成完整句子。"
+      ],
+      "core_concept": "综合复习四季名称、季节喜好和活动，通过连续问答开展交流，并按喜欢的季节、冷暖、穿着、活动组织简短介绍。发音练习中，fish、four、beef、roof呈现f的发音，have、five、very、vegetable呈现v的发音；go、no、nose、home中的o都读字母o的名称音。Seasons韵文描写春暖花开、夏日较长、秋季农忙和冬季寒冷，重在理解和欣赏。",
+      "key_formula": "What season do you like? — I like + 季节名称.；What about you?；It's + 冷暖词 + in + 季节名称.；I often wear a sweater.；I can fly my kite.",
+      "point": "Lesson 4 Again, please!",
+      "tips": "练习连续对话时听清问题再作答。介绍季节可按“喜好—冷暖—衣物—活动”展开。读f和v时上齿轻触下唇，体会声带是否振动；跟读o的例词时注意共同读音。"
+    },
+    {
+      "common_mistakes": [
+        "把“Not me.”当成愿意帮忙；故事中它表示拒绝参与。",
+        "把“It's not my job.”与“It's not your job.”中的my、your混淆。",
+        "忽略故事四幅图的顺序：春季种植、夏季浇水、秋季收获、冬季想吃花生。",
+        "把查词示例里的Unit 5天气词当成本单元新增学习内容。"
+      ],
+      "core_concept": "阅读It's not my job.，结合四季图景理解种花生、给花生浇水、把花生带回家以及最后想吃花生的故事过程。小母鸡提出一起劳动，其他角色以不同的话语拒绝，结尾引导思考劳动、合作与分享。plant、water、peanut、together、job、eat、sorry等词借助注释和情境理解。通过单元自评检查词汇、活动短语和交际能力，并学习使用单元词汇表查词。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "先按四幅图整理事件，再对应每个气泡的说话者和内容。读不懂的词先结合情境猜测，再查词汇表。自评时既要能认读，也要能用完整句子描述喜欢的季节。"
+    }
+  ]
+}

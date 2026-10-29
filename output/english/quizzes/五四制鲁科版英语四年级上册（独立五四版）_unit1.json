@@ -1,0 +1,622 @@
+{
+  "textbook": "义务教育教科书（五·四学制）英语（三年级起点）四年级 上册",
+  "unit": "Unit 1 School Life",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "Unit 1 School Life·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "This is Lucy, your new classmate.",
+        "difficulty": 1,
+        "explanation": "This is...用于介绍别人，只有该项介绍了新同学Lucy；其余项分别介绍自己、表达喜好或课程。",
+        "knowledge_point": "We have Chinese.",
+        "options": [
+          "This is Lucy, your new classmate.",
+          "I am Lucy.",
+          "I like art.",
+          "We have PE."
+        ],
+        "question": "老师要向全班介绍新同学Lucy，应选择哪句话？",
+        "type": "choice",
+        "id": 10001,
+        "score": 10
+      },
+      {
+        "answer": "Hello!",
+        "difficulty": 1,
+        "explanation": "Hello!是问候语；其他选项是学科名、时间词或活动短语，不是招呼语。",
+        "knowledge_point": "We have Chinese.",
+        "options": [
+          "Hello!",
+          "Chinese.",
+          "Today.",
+          "Make things."
+        ],
+        "question": "新同学向你说“Hi!”。以下哪项适合用作招呼语回应？",
+        "type": "choice",
+        "id": 10002,
+        "score": 10
+      },
+      {
+        "answer": "We have English and art.",
+        "difficulty": 1,
+        "explanation": "题设上午是英语和美术，只有该项准确列出这两门课；其余三项各换掉了一门课程。",
+        "knowledge_point": "We have Chinese.",
+        "options": [
+          "We have English and art.",
+          "We have Chinese and art.",
+          "We have English and PE.",
+          "We have Chinese and PE."
+        ],
+        "question": "今天上午安排英语和美术。朋友问：“What subjects do we have this morning?”哪项回答符合安排？",
+        "type": "choice",
+        "id": 10003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "this afternoon表示今天下午；今天上午是this morning。",
+        "knowledge_point": "We have Chinese.",
+        "options": [],
+        "question": "“this afternoon”表示“今天上午”。判断正误。",
+        "type": "true_false",
+        "id": 10004,
+        "score": 10
+      },
+      {
+        "answer": "PE",
+        "difficulty": 1,
+        "explanation": "PE表示体育；art是美术，Chinese是语文，computer studies是计算机课。",
+        "knowledge_point": "We have Chinese.",
+        "options": [
+          "PE",
+          "art",
+          "Chinese",
+          "computer studies"
+        ],
+        "question": "补全句子，使它表示“我们今天有体育课”：We have ___ today.",
+        "type": "choice",
+        "id": 10005,
+        "score": 10
+      },
+      {
+        "answer": "Yes, I do.",
+        "difficulty": 1,
+        "explanation": "Do you like...?的肯定简答用Yes, I do.；否定项与题设不符，其他两项没有按要求作肯定简答。",
+        "knowledge_point": "We have Chinese.",
+        "options": [
+          "Yes, I do.",
+          "No, I don’t.",
+          "It’s Chinese.",
+          "We have art."
+        ],
+        "question": "Mia喜欢语文。别人问她：“Do you like Chinese?”她应选哪项作肯定简答？",
+        "type": "choice",
+        "id": 10006,
+        "score": 10
+      },
+      {
+        "answer": "What’s your favourite subject?",
+        "difficulty": 1,
+        "explanation": "该句直接询问最喜欢的学科；其余分别询问今天的课程、是否喜欢科学或介绍音乐教室。",
+        "knowledge_point": "What’s your favourite subject?",
+        "options": [
+          "What’s your favourite subject?",
+          "What subjects do we have today?",
+          "Do you like science?",
+          "This is the music room."
+        ],
+        "question": "你想知道同伴最喜欢哪门学科，而不只是问他喜不喜欢科学。应选哪句话？",
+        "type": "choice",
+        "id": 10007,
+        "score": 10
+      },
+      {
+        "answer": "My favourite subject is PE.",
+        "difficulty": 1,
+        "explanation": "只有该项准确表达最喜欢体育；第二项仅表示喜欢，第三项是有体育课，第四项换成了美术。",
+        "knowledge_point": "What’s your favourite subject?",
+        "options": [
+          "My favourite subject is PE.",
+          "I like PE.",
+          "We have PE.",
+          "My favourite subject is art."
+        ],
+        "question": "哪句话准确表达“我最喜欢的学科是体育”？",
+        "type": "choice",
+        "id": 10008,
+        "score": 10
+      },
+      {
+        "answer": "maths",
+        "difficulty": 1,
+        "explanation": "maths表示数学；science是科学，English是英语，computer studies是计算机课。",
+        "knowledge_point": "What’s your favourite subject?",
+        "options": [
+          "maths",
+          "English",
+          "science",
+          "computer studies"
+        ],
+        "question": "填入学科名称，使句子表示“我喜欢数学”：I like ___.",
+        "type": "choice",
+        "id": 10009,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "I like science.只说明喜欢科学，没有明确说科学是最喜欢的学科。",
+        "knowledge_point": "What’s your favourite subject?",
+        "options": [],
+        "question": "只根据“I like science.”这一句话，就一定能断定说话人最喜欢的学科是科学。判断正误。",
+        "type": "true_false",
+        "id": 10010,
+        "score": 10
+      },
+      {
+        "answer": "subject",
+        "difficulty": 1,
+        "explanation": "询问最喜欢的一门学科时用单数subject；subjects是复数，另外两项不是学科这一类别。",
+        "knowledge_point": "What’s your favourite subject?",
+        "options": [
+          "subject",
+          "subjects",
+          "classmate",
+          "playground"
+        ],
+        "question": "要询问“你最喜欢的一门学科是什么”，补全问句：What’s your favourite ___?",
+        "type": "choice",
+        "id": 10011,
+        "score": 10
+      },
+      {
+        "answer": "Maths club",
+        "difficulty": 2,
+        "explanation": "调查结果明确最喜欢数学，所以应加入Maths club；其他三个组别与这项偏好不符。",
+        "knowledge_point": "What’s your favourite subject?",
+        "options": [
+          "Maths club",
+          "Music club",
+          "Art club",
+          "PE club"
+        ],
+        "question": "按最喜欢的学科分组。虚构学生Leo的调查记录是“最喜欢数学”。他应加入哪一组？",
+        "type": "choice",
+        "id": 10012,
+        "score": 10
+      },
+      {
+        "answer": "We sing in the music room.",
+        "difficulty": 1,
+        "explanation": "题设是音乐教室里唱歌；其余三项分别改变了活动或地点。",
+        "knowledge_point": "We sing here.",
+        "options": [
+          "We sing in the music room.",
+          "We read in the music room.",
+          "We sing in the art room.",
+          "We play basketball on the playground."
+        ],
+        "question": "同学们正在音乐教室唱歌。哪句话准确描述这项活动及地点？",
+        "type": "choice",
+        "id": 10013,
+        "score": 10
+      },
+      {
+        "answer": "make things",
+        "difficulty": 1,
+        "explanation": "make things表示制作物品；其余选项分别表示唱歌、阅读、打篮球。",
+        "knowledge_point": "We sing here.",
+        "options": [
+          "make things",
+          "sing",
+          "read",
+          "play basketball"
+        ],
+        "question": "补全句子，使它表示“我们在美术教室制作物品”：We ___ in the art room.",
+        "type": "choice",
+        "id": 10014,
+        "score": 10
+      },
+      {
+        "answer": "there",
+        "difficulty": 2,
+        "explanation": "题目要求表示“那里”，应选there；here是这里，often是经常，today是今天。",
+        "knowledge_point": "We sing here.",
+        "options": [
+          "often",
+          "today",
+          "there",
+          "here"
+        ],
+        "question": "介绍远处的操场时，想说“我们经常在那里打篮球”。空格应填哪个表示“那里”的词？We often play basketball ___.",
+        "type": "choice",
+        "id": 10015,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "often表示经常，不表示从不；该句意为我们经常在这里画画。",
+        "knowledge_point": "We sing here.",
+        "options": [],
+        "question": "“We often draw here.”中的often表示“从不”。判断正误。",
+        "type": "true_false",
+        "id": 10016,
+        "score": 10
+      },
+      {
+        "answer": "English和Chinese",
+        "difficulty": 2,
+        "explanation": "English和Chinese在句中也保留大写首字母；art和music一般不因学科名称而大写。",
+        "knowledge_point": "We sing here.",
+        "options": [
+          "english和chinese",
+          "english和Chinese",
+          "English和Chinese",
+          "English和chinese"
+        ],
+        "question": "在句中书写“英语”和“语文”这两个学科名称时，哪一组大小写都正确？",
+        "type": "choice",
+        "id": 10017,
+        "score": 10
+      },
+      {
+        "answer": "on the playground",
+        "difficulty": 1,
+        "explanation": "on the playground表示在操场上；其余分别指音乐教室、美术教室和今天下午。",
+        "knowledge_point": "We sing here.",
+        "options": [
+          "on the playground",
+          "in the music room",
+          "in the art room",
+          "this afternoon"
+        ],
+        "question": "选择表示“在操场上”的短语补全句子：We play basketball ___.",
+        "type": "choice",
+        "id": 10018,
+        "score": 10
+      },
+      {
+        "answer": "What subjects do you have at school?",
+        "difficulty": 1,
+        "explanation": "该句询问在学校有哪些课程；其他三项分别询问偏好、是否喜欢美术和介绍操场。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "What subjects do you have at school?",
+          "What’s your favourite subject?",
+          "Do you like art?",
+          "This is our playground."
+        ],
+        "question": "Sam想了解新朋友所在学校开设哪些课程，不是询问个人偏好。他应说哪一句？",
+        "type": "choice",
+        "id": 10019,
+        "score": 10
+      },
+      {
+        "answer": "I have English and music in the morning.",
+        "difficulty": 2,
+        "explanation": "该项用I介绍自己的安排，同时准确包含上午、英语和音乐；其他项改变了时段、课程或活动。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I have English and music in the morning.",
+          "I have English and music in the afternoon.",
+          "I have Chinese and music in the morning.",
+          "I play basketball in the morning."
+        ],
+        "question": "你设计的课程表写着：上午上英语和音乐。哪句话准确介绍你的这项安排？",
+        "type": "choice",
+        "id": 10020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "here可以指正在展示的照片中的地点，不要求说话人此刻真的站在操场上。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "孩子在家指着学校操场的照片说：“This is our playground. We play basketball here.”这里的here可以指照片中展示的操场。判断正误。",
+        "type": "true_false",
+        "id": 10021,
+        "score": 10
+      },
+      {
+        "answer": "ten",
+        "difficulty": 1,
+        "explanation": "ten以字母t开头，t读/t/；red和door以d开头，name以n开头。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "red",
+          "ten",
+          "door",
+          "name"
+        ],
+        "question": "哪个单词以字母t开头，且这个字母读/t/？",
+        "type": "choice",
+        "id": 10022,
+        "score": 10
+      },
+      {
+        "answer": "red和dance",
+        "difficulty": 2,
+        "explanation": "red和dance中的d都读/d/；其余三组分别是t、a、t的练读词。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "red和dance",
+          "let和tell",
+          "make和name",
+          "ten和at"
+        ],
+        "question": "哪一组的两个单词都含有读/d/的字母d？",
+        "type": "choice",
+        "id": 10023,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "make中的a读/eɪ/，at中的a不读这个音；本页at用于练习末尾的t。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "make和at中的字母a都读/eɪ/。判断正误。",
+        "type": "true_false",
+        "id": 10024,
+        "score": 10
+      },
+      {
+        "answer": "学校",
+        "difficulty": 1,
+        "explanation": "He紧接男孩Pool，going to school说明他要去学校；其他地点均不符合这两句。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "学校",
+          "音乐教室",
+          "生日聚会",
+          "电影院"
+        ],
+        "question": "读句子：“Then comes a boy, Pool. He is going to school.”男孩Pool要去哪里？",
+        "type": "choice",
+        "id": 10025,
+        "score": 10
+      },
+      {
+        "answer": "生日聚会",
+        "difficulty": 1,
+        "explanation": "a birthday party意为生日聚会；题目已明确he指青蛙。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "生日聚会",
+          "篮球比赛",
+          "美术课",
+          "电影"
+        ],
+        "question": "介绍青蛙的句子是：“Why is he so happy? He is going to a birthday party.”青蛙要去参加什么？",
+        "type": "choice",
+        "id": 10026,
+        "score": 10
+      },
+      {
+        "answer": "猴子",
+        "difficulty": 1,
+        "explanation": "题干明确这句话由猴子回答，原因是不能为电影迟到；不是青蛙、Pool或Tom。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Tom",
+          "Pool",
+          "猴子",
+          "青蛙"
+        ],
+        "question": "Pool邀请猴子玩，猴子回答：“I can’t play. I can’t be late for the movie.”是谁担心看电影迟到？",
+        "type": "choice",
+        "id": 10027,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "I can’t be late for school!表示不能上学迟到，因此判断正确。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "Pool在故事结尾说：“I can’t be late for school!”这表明他认为自己不能上学迟到。判断正误。",
+        "type": "true_false",
+        "id": 10028,
+        "score": 10
+      },
+      {
+        "answer": "写出单词，再遮挡猜读，最后查看并记忆",
+        "difficulty": 2,
+        "explanation": "该项符合写词、猜读、记忆的活动顺序；其余做法都不能完成完整单词的核对和记忆。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "写出单词，再遮挡猜读，最后查看并记忆",
+          "只画装饰，不写单词",
+          "只记首字母，不核对完整单词",
+          "猜完就丢掉卡片，始终不核对"
+        ],
+        "question": "做课程名称单词卡时，哪种练习方法符合“写词—猜读—记忆”的学习步骤？",
+        "type": "choice",
+        "id": 10029,
+        "score": 10
+      },
+      {
+        "answer": "学校和朋友",
+        "difficulty": 1,
+        "explanation": "My school and friends直接点明学校和朋友；其他选项均不是该句所说的对象。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "学校和朋友",
+          "电影和礼物",
+          "聚会和蛋糕",
+          "操场和篮球"
+        ],
+        "question": "Pool说：“My school and friends are cool.”这句话中，他认为哪些事物很棒？",
+        "type": "choice",
+        "id": 10030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 1 School Life·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "We have art and PE this afternoon.",
+        "difficulty": 2,
+        "explanation": "题目明确下午有美术和体育，只有该项同时符合课程和时间；其余三项分别改变了课程或时间。",
+        "knowledge_point": "We have Chinese.",
+        "options": [
+          "We have art and PE this afternoon.",
+          "We have art and English this afternoon.",
+          "We have art and PE this morning.",
+          "We have Chinese and PE this afternoon."
+        ],
+        "question": "课程表显示：今天上午有语文、英语，下午有美术、体育。哪句话准确介绍今天下午的课程？",
+        "type": "choice",
+        "id": 19001,
+        "score": 10
+      },
+      {
+        "answer": "最喜欢科学",
+        "difficulty": 1,
+        "explanation": "favourite明确表示“最喜欢的”，不能理解成不喜欢或当天有该课程。",
+        "knowledge_point": "What’s your favourite subject?",
+        "options": [
+          "不喜欢科学",
+          "最喜欢体育",
+          "最喜欢科学",
+          "今天只有科学课"
+        ],
+        "question": "Eva说：“My favourite subject is science.”她表达了什么？",
+        "type": "choice",
+        "id": 19002,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "make things表示制作物品，不是打篮球；打篮球是play basketball。",
+        "knowledge_point": "We sing here.",
+        "options": [],
+        "question": "“We make things here.”的意思是“我们在这里打篮球”。判断正误。",
+        "type": "true_false",
+        "id": 19003,
+        "score": 10
+      },
+      {
+        "answer": "face",
+        "difficulty": 2,
+        "explanation": "cake和face中的a都读/eɪ/；其余三个词没有字母a，也不属于这一发音组。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "tell",
+          "door",
+          "face",
+          "red"
+        ],
+        "question": "cake中的字母a读/eɪ/。下面哪个词中的字母a也读这个音？",
+        "type": "choice",
+        "id": 19004,
+        "score": 10
+      },
+      {
+        "answer": "去看电影",
+        "difficulty": 1,
+        "explanation": "go to the movies表示去看电影，不能据此推断去上学、聚会或打球。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "去打篮球",
+          "去上学",
+          "去看电影",
+          "去生日聚会"
+        ],
+        "question": "故事中介绍猴子的原句是“He is going to the movies.”根据这句话，猴子要做什么？",
+        "type": "choice",
+        "id": 19005,
+        "score": 10
+      },
+      {
+        "answer": "Chinese club",
+        "difficulty": 2,
+        "explanation": "按最喜欢的学科分组，最喜欢语文的学生加入Chinese club；其余组名与该偏好不一致。",
+        "knowledge_point": "What’s your favourite subject?",
+        "options": [
+          "Maths club",
+          "English club",
+          "Chinese club",
+          "Science club"
+        ],
+        "question": "班级按最喜欢的学科分组。虚构学生May说：“My favourite subject is Chinese.”她应加入哪一组？",
+        "type": "choice",
+        "id": 19006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把What subjects do we have...?误解为询问最喜欢的学科；它询问有哪些课程。",
+        "混淆this morning和this afternoon：前者是今天上午，后者是今天下午。",
+        "介绍新同学时误用I am...；介绍别人可用This is...。",
+        "把简短回答Chinese.一概判错；语境清楚时可简答，练习完整介绍课程时使用We have...。"
+      ],
+      "core_concept": "本课学习介绍新同学、打招呼和交流课程安排。This is...可介绍别人，new classmate表示新同学；Hello!和Hi!用于问候。What subjects do we have today/this morning/this afternoon?分别询问今天、今天上午、今天下午有哪些课程，回答可用We have...。对别人提问时也可用What subjects do you have...?。课程名称包括Chinese、English、computer studies、PE和art。Do you like Chinese?询问是否喜欢语文，肯定回答为Yes, I do.。",
+      "key_formula": "",
+      "point": "We have Chinese.",
+      "tips": "先听清we或you以及时间词，再按实际安排回答。列举两门课程时可用and连接。Chinese、English和PE注意大写；computer studies作为一个完整课程名称记忆。"
+    },
+    {
+      "common_mistakes": [
+        "把I like...一律译为最喜欢；它只明确表示喜欢，最喜欢可用favourite表达。",
+        "询问最喜欢的一门学科时把subject误写为subjects。",
+        "把What’s your favourite subject?与询问课程安排的What subjects do you have...?混淆。",
+        "认为所有课程名称都应小写；Chinese、English始终保留大写首字母，PE用大写，science、maths、computer studies等在普通句中通常小写。"
+      ],
+      "core_concept": "本课学习询问和表达最喜欢的学科。What’s your favourite subject?可以用It’s...、My favourite subject is...或明确的学科名称简答。favourite表示最喜欢的。I like maths.表示喜欢数学，并不单凭这一句就确定数学是最喜欢的学科。学习science、English、maths、computer studies等课程名称，并通过调查记录偏好，按Chinese、Maths、Music、Art、English、PE、Science等组别分组汇报。",
+      "key_formula": "",
+      "point": "What’s your favourite subject?",
+      "tips": "听到favourite要关注最喜欢的学科；听到I like只确定喜欢。调查时逐人记录，不把一个人的偏好套给所有人；分组时让课程名称与组名对应。"
+    },
+    {
+      "common_mistakes": [
+        "混淆music room与art room：前者是音乐教室，后者是美术教室。",
+        "把here和there当成固定场所名称；它们分别表示语境中的这里和那里。",
+        "把often理解成今天；often表示经常，today才表示今天。",
+        "写play basketball时多加the，或把Chinese、English的首字母写成小写。"
+      ],
+      "core_concept": "本课学习介绍校园地点和活动。music room是音乐教室，art room是美术教室，playground是操场。sing表示唱歌，make things表示制作物品，draw表示画画，read表示阅读，play basketball表示打篮球。可用This is...和That’s...介绍地点，用We...here/there.说明活动，用often表示经常。主对话中的We often draw here.出现在室外校园场景，不能强行解释为美术教室内的活动。书写练习包括art、music、English、Chinese，后两个词的首字母大写。",
+      "key_formula": "",
+      "point": "We sing here.",
+      "tips": "介绍时先说地点，再说活动；here和there要结合说话时指示的位置理解。活动与地点的搭配以题目给出的情境为准，不把教材中的示例当成现实中唯一可能的活动。"
+    },
+    {
+      "common_mistakes": [
+        "混淆询问学校课程和询问最喜欢的学科：前者问有哪些课，后者问个人偏好。",
+        "介绍自己的课程表时仍机械使用we；表达“我有……”可用I have。",
+        "把here只理解为现实中身体所在的位置；指着照片介绍时，也可用here指所展示的这里。",
+        "把at中的a误归入本页a发音组；at在本页用于练习t，a发音组是make、face、name、cake。"
+      ],
+      "core_concept": "本课综合复习学校课程、学科偏好和校园活动。What subjects do you have at school?询问在学校有哪些课；What’s your favourite subject?询问最喜欢的学科。可用We have...列举课程，用It’s...回答偏好，用This is our playground.和We play basketball here.介绍操场及活动。设计最喜欢的一天的课程表后，可用This is my favourite day.及I have...in the morning.介绍。发音练习中，let、at、ten、tell中的t读/t/；red、read、door、dance中的d读/d/；make、face、name、cake中的a读/eɪ/。歌曲Sing Together用于跟唱活动，不作为主阅读。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "先判断交流内容是课程、偏好还是活动，再选句型。介绍课程表时核对上午和下午。练读时注意本页标出的目标字母，不把同一单词中的其他字母也归入该组。"
+    },
+    {
+      "common_mistakes": [
+        "把人物去向弄反：青蛙去生日聚会，Pool去学校，猴子去看电影。",
+        "把Pool按普通名词理解或擅自改成人名Paul；教材人物名确为Pool。",
+        "把I can’t be late理解为“我不能去”；它表示不能迟到。",
+        "只看单词卡上的首字母而不核对完整拼写，或把自评得星填空当成故事正文。"
+      ],
+      "core_concept": "故事I can’t be late for school.按青蛙、男孩Pool、猴子以及Pool的感想展开。青蛙要去生日聚会，Pool要去学校，猴子要去看电影。青蛙和猴子分别表示不能为聚会、电影迟到。结尾Pool认为学校和朋友很棒，表示自己不能上学迟到。be late表示迟到，go to the movies表示去看电影。单元自评包括词汇、介绍学校生活和制作课程表。学习策略是制作单词卡：写单词、遮挡部分内容猜读、再查看记忆。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "阅读时按人物整理去向和不能迟到的事情，不为人物补充原文未说的理由。练习单词卡时先认真书写，再遮挡猜读，最后核对完整单词。"
+    }
+  ]
+}

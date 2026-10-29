@@ -1,0 +1,1805 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·数学三年级上册",
+  "unit": "回顾整理——总复习",
+  "unit_number": 104,
+  "unit_test": {
+    "title": "回顾整理——总复习·配套练习",
+    "total_score": 1140,
+    "time_minutes": 114,
+    "questions": [
+      {
+        "answer": "统计",
+        "difficulty": 1,
+        "explanation": "调查、分类记录捐书数量对应的人数，主要属于统计，不是乘法计算、方向辨认或面积测量。",
+        "knowledge_point": "全册知识回顾整理",
+        "options": [
+          "面积测量",
+          "统计",
+          "方向辨认",
+          "乘法计算"
+        ],
+        "question": "调查班级同学捐书的本数，并按捐书数量分类记录人数，主要属于哪一类数学内容？",
+        "type": "choice",
+        "id": 1040001,
+        "score": 10
+      },
+      {
+        "answer": "数与代数",
+        "difficulty": 1,
+        "explanation": "两位数乘两位数、两三位数除以一位数都是数的运算，归入数与代数。",
+        "knowledge_point": "全册知识回顾整理",
+        "options": [
+          "图形与几何",
+          "体育活动",
+          "数与代数",
+          "统计"
+        ],
+        "question": "整理“两位数乘两位数”和“两三位数除以一位数”的计算方法，最适合归入哪一类？",
+        "type": "choice",
+        "id": 1040002,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "整理知识可以用表格、知识图或分类记录等形式，不限于抄写算式。",
+        "knowledge_point": "全册知识回顾整理",
+        "options": [],
+        "question": "判断：整理数学知识只能抄写算式，不能用表格或知识图。",
+        "type": "true_false",
+        "id": 1040003,
+        "score": 10
+      },
+      {
+        "answer": "知识名称、方法、易错点",
+        "difficulty": 2,
+        "explanation": "这三栏能帮助回顾学过的内容、使用的方法及需要注意的问题；其他选项记录的是与数学知识整理无直接关系的信息。",
+        "knowledge_point": "全册知识回顾整理",
+        "options": [
+          "知识名称、方法、易错点",
+          "午餐名称、颜色、价格",
+          "天气、风向、气温",
+          "书包颜色、品牌、重量"
+        ],
+        "question": "要制作一张帮助自己复习数学知识的整理表，下面哪组三个栏目最合适？",
+        "type": "choice",
+        "id": 1040004,
+        "score": 10
+      },
+      {
+        "answer": "分类",
+        "difficulty": 1,
+        "explanation": "按照知识所属领域分组，采用的是分类整理，不是估算、测量或平移。",
+        "knowledge_point": "全册知识回顾整理",
+        "options": [
+          "分类",
+          "估算",
+          "平移",
+          "测量"
+        ],
+        "question": "把学过的知识按“数与代数”“图形与几何”“统计”等分组，这种整理方法叫什么？",
+        "type": "choice",
+        "id": 1040005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "估算能帮助发现明显不合理的计算结果，是检查计算的一种方法，但不能保证发现所有错误。",
+        "knowledge_point": "全册知识回顾整理",
+        "options": [],
+        "question": "判断：复习计算时，可以用估算帮助检查精确计算结果是否合理。",
+        "type": "true_false",
+        "id": 1040006,
+        "score": 10
+      },
+      {
+        "answer": "744",
+        "difficulty": 1,
+        "explanation": "31×20=620，31×4=124，620+124=744。",
+        "knowledge_point": "两位数乘两位数",
+        "options": [],
+        "question": "计算31×24。",
+        "type": "calculation",
+        "id": 1040007,
+        "score": 10
+      },
+      {
+        "answer": "1064",
+        "difficulty": 2,
+        "explanation": "38×20=760，38×8=304，760+304=1064。",
+        "knowledge_point": "两位数乘两位数",
+        "options": [],
+        "question": "计算38×28。",
+        "type": "calculation",
+        "id": 1040008,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "30表示3个十，24×30=720，不是72。",
+        "knowledge_point": "两位数乘两位数",
+        "options": [],
+        "question": "判断：24×30=72。",
+        "type": "true_false",
+        "id": 1040009,
+        "score": 10
+      },
+      {
+        "answer": "936",
+        "difficulty": 2,
+        "explanation": "36×20=720，36×6=216，720+216=936，其余三个选项均不等于这个积。",
+        "knowledge_point": "两位数乘两位数",
+        "options": [
+          "816",
+          "926",
+          "936",
+          "946"
+        ],
+        "question": "36×26的积是多少？",
+        "type": "choice",
+        "id": 1040010,
+        "score": 10
+      },
+      {
+        "answer": "1800",
+        "difficulty": 1,
+        "explanation": "45×4=180，45×40就是180个十，得1800。",
+        "knowledge_point": "两位数乘两位数",
+        "options": [],
+        "question": "计算45×40。",
+        "type": "calculation",
+        "id": 1040011,
+        "score": 10
+      },
+      {
+        "answer": "1600",
+        "difficulty": 2,
+        "explanation": "按题目要求，42看作40，39也看作40，40×40=1600。1638是精确积，不是指定方法得到的估算结果。",
+        "knowledge_point": "两位数乘两位数",
+        "options": [
+          "1600",
+          "160",
+          "1800",
+          "1638"
+        ],
+        "question": "估算42×39，把两个因数都看作与它们最接近的整十数，估算结果是多少？",
+        "type": "choice",
+        "id": 1040012,
+        "score": 10
+      },
+      {
+        "answer": "80",
+        "difficulty": 1,
+        "explanation": "560是56个十，56个十÷7=8个十，也就是80。",
+        "knowledge_point": "两三位数除以一位数",
+        "options": [],
+        "question": "计算560÷7。",
+        "type": "calculation",
+        "id": 1040013,
+        "score": 10
+      },
+      {
+        "answer": "103",
+        "difficulty": 2,
+        "explanation": "先算4个百÷4=1个百；十位上的1不够商1，商的十位写0；把1个十和2个一合成12，12÷4=3，所以商是103。",
+        "knowledge_point": "两三位数除以一位数",
+        "options": [],
+        "question": "计算412÷4。",
+        "type": "calculation",
+        "id": 1040014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "商的最高位确定后，后面某一位不够商1，需要写0占位，否则会改变商的数值。",
+        "knowledge_point": "两三位数除以一位数",
+        "options": [],
+        "question": "判断：笔算除法时，商的最高位确定后，后面某一位不够商1，要在商的相应数位写0。",
+        "type": "true_false",
+        "id": 1040015,
+        "score": 10
+      },
+      {
+        "answer": "29",
+        "difficulty": 2,
+        "explanation": "7×29=203，所以203÷7=29。28余7的余数不小于除数；29余3和30余1也都不能验算得到203。",
+        "knowledge_point": "两三位数除以一位数",
+        "options": [
+          "28余7",
+          "29余3",
+          "29",
+          "30余1"
+        ],
+        "question": "203÷7的正确结果是哪一个？",
+        "type": "choice",
+        "id": 1040016,
+        "score": 10
+      },
+      {
+        "answer": "51余1",
+        "difficulty": 2,
+        "explanation": "10÷2=5，商的5写在十位；3÷2=1余1，所以103÷2=51余1。2×51+1=103，且1<2。",
+        "knowledge_point": "两三位数除以一位数",
+        "options": [
+          "52",
+          "50余3",
+          "51",
+          "51余1"
+        ],
+        "question": "103÷2的正确结果是哪一个？",
+        "type": "choice",
+        "id": 1040017,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 2,
+        "explanation": "4×41=164，167−164=3，且3<4，因此余数是3。",
+        "knowledge_point": "两三位数除以一位数",
+        "options": [],
+        "question": "167÷4的商是41，余数是多少？",
+        "type": "calculation",
+        "id": 1040018,
+        "score": 10
+      },
+      {
+        "answer": "40",
+        "difficulty": 1,
+        "explanation": "除法和乘法同级，从左往右算：48÷6=8，8×5=40。",
+        "knowledge_point": "四则混合运算",
+        "options": [],
+        "question": "计算48÷6×5。",
+        "type": "calculation",
+        "id": 1040019,
+        "score": 10
+      },
+      {
+        "answer": "37",
+        "difficulty": 1,
+        "explanation": "先算7×4=28，再算9+28=37。",
+        "knowledge_point": "四则混合运算",
+        "options": [],
+        "question": "计算9+7×4。",
+        "type": "calculation",
+        "id": 1040020,
+        "score": 10
+      },
+      {
+        "answer": "36",
+        "difficulty": 1,
+        "explanation": "先算20−8=12，再算3×12=36。",
+        "knowledge_point": "四则混合运算",
+        "options": [],
+        "question": "计算3×（20−8）。",
+        "type": "calculation",
+        "id": 1040021,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "只有加减运算时，应从左往右：25−8=17，17+3=20。先算8+3再用25去减，会得到14，不符合原算式。",
+        "knowledge_point": "四则混合运算",
+        "options": [],
+        "question": "判断：按四则混合运算顺序计算25−8+3，应先算8+3，再用25减去所得的和。",
+        "type": "true_false",
+        "id": 1040022,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 2,
+        "explanation": "先从左往右算乘除：6×5=30，30÷3=10；再算10−5=5。",
+        "knowledge_point": "四则混合运算",
+        "options": [],
+        "question": "计算6×5÷3−5。",
+        "type": "calculation",
+        "id": 1040023,
+        "score": 10
+      },
+      {
+        "answer": "3",
+        "difficulty": 2,
+        "explanation": "先算小括号里面的8+4=12，再算36÷12=3；只有选项3正确。",
+        "knowledge_point": "四则混合运算",
+        "options": [
+          "2",
+          "3",
+          "4",
+          "6"
+        ],
+        "question": "36÷（8+4）的结果是多少？",
+        "type": "choice",
+        "id": 1040024,
+        "score": 10
+      },
+      {
+        "answer": "7",
+        "difficulty": 1,
+        "explanation": "数量=总价÷单价，63÷9=7（本）。",
+        "knowledge_point": "乘除法数量关系",
+        "options": [],
+        "question": "一种练习本每本9元，63元可以买多少本？以本为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040025,
+        "score": 10
+      },
+      {
+        "answer": "240",
+        "difficulty": 1,
+        "explanation": "总瓶数=每箱瓶数×箱数，24×10=240（瓶）。",
+        "knowledge_point": "乘除法数量关系",
+        "options": [],
+        "question": "每箱饮料有24瓶，10箱共有多少瓶？以瓶为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040026,
+        "score": 10
+      },
+      {
+        "answer": "8",
+        "difficulty": 1,
+        "explanation": "每组人数=总人数÷组数，56÷7=8（名）。",
+        "knowledge_point": "乘除法数量关系",
+        "options": [],
+        "question": "56名学生平均分成7组，每组有多少名学生？以名为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040027,
+        "score": 10
+      },
+      {
+        "answer": "不够，还缺14个",
+        "difficulty": 2,
+        "explanation": "苹果共有12×28=336（个），350−336=14（个），所以不够，还缺14个；其余选项的结论或差数不正确。",
+        "knowledge_point": "乘除法数量关系",
+        "options": [
+          "不够，还缺14个",
+          "正好够，每人1个",
+          "够，还剩14个",
+          "不够，还缺24个"
+        ],
+        "question": "有12箱苹果，每箱28个，要给350名学生每人发1个。苹果够吗？",
+        "type": "choice",
+        "id": 1040028,
+        "score": 10
+      },
+      {
+        "answer": "120",
+        "difficulty": 2,
+        "explanation": "单价=总价÷数量，960÷8=120（元）。",
+        "knowledge_point": "乘除法数量关系",
+        "options": [],
+        "question": "8盒价格相同的彩笔共960元，每盒多少元？以元为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040029,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "每盒彩纸18元，20盒需要18×20=360（元），360<400，所以够。",
+        "knowledge_point": "乘除法数量关系",
+        "options": [],
+        "question": "判断：一种彩纸每盒18元，购买20盒，带400元够用。",
+        "type": "true_false",
+        "id": 1040030,
+        "score": 10
+      },
+      {
+        "answer": "480",
+        "difficulty": 2,
+        "explanation": "先统一时间单位：4分钟=240秒，再求路程：2×240=480米。",
+        "knowledge_point": "时分秒与经过时间",
+        "options": [],
+        "question": "一辆玩具车每秒行驶2米，连续行驶4分钟。共行驶多少米？以米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040031,
+        "score": 10
+      },
+      {
+        "answer": "45",
+        "difficulty": 1,
+        "explanation": "下午2:15到下午3:00，经过60−15=45分钟。",
+        "knowledge_point": "时分秒与经过时间",
+        "options": [],
+        "question": "一节课同一天下午2:15开始，下午3:00结束。经过多少分钟？以分钟为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040032,
+        "score": 10
+      },
+      {
+        "answer": "上午10:00",
+        "difficulty": 1,
+        "explanation": "9:35再过25分钟，分钟数达到60，进1小时，正好是上午10:00。其他三个选项均不符合。",
+        "knowledge_point": "时分秒与经过时间",
+        "options": [
+          "上午9:50",
+          "上午10:00",
+          "上午10:10",
+          "上午10:25"
+        ],
+        "question": "小芳上午9:35开始读书，连续读了25分钟。结束时刻是哪一个？",
+        "type": "choice",
+        "id": 1040033,
+        "score": 10
+      },
+      {
+        "answer": "180",
+        "difficulty": 1,
+        "explanation": "1分钟是60秒，3分钟是3×60=180秒。",
+        "knowledge_point": "时分秒与经过时间",
+        "options": [],
+        "question": "3分钟等于多少秒？以秒为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040034,
+        "score": 10
+      },
+      {
+        "answer": "上午7:20",
+        "difficulty": 1,
+        "explanation": "分针指向4，表示20分；时针在7和8之间，表示7时多，所以是上午7:20。其余选项的小时或分钟不符合描述。",
+        "knowledge_point": "时分秒与经过时间",
+        "options": [
+          "上午7:04",
+          "上午7:20",
+          "上午8:20",
+          "上午4:35"
+        ],
+        "question": "一个正常走动的指针钟显示上午的时刻：短时针在7和8之间，长分针正指向4。这个时刻是哪一个？",
+        "type": "choice",
+        "id": 1040035,
+        "score": 10
+      },
+      {
+        "answer": "60秒",
+        "difficulty": 1,
+        "explanation": "正常钟表的秒针走一整圈是1分钟，也就是60秒；30秒是半圈，90秒和120秒都超过一圈。",
+        "knowledge_point": "时分秒与经过时间",
+        "options": [
+          "60秒",
+          "120秒",
+          "90秒",
+          "30秒"
+        ],
+        "question": "正常走动的钟表，秒针从12出发沿正常方向走一整圈，回到12，经过多少时间？",
+        "type": "choice",
+        "id": 1040036,
+        "score": 10
+      },
+      {
+        "answer": "2/5",
+        "difficulty": 1,
+        "explanation": "整张纸平均分成5份，涂色2份，涂色部分占2/5。",
+        "knowledge_point": "分数的意义与比较",
+        "options": [],
+        "question": "一张纸平均分成5份，其中2份涂了颜色。涂色部分占整张纸的几分之几？用a/b表示。",
+        "type": "calculation",
+        "id": 1040037,
+        "score": 10
+      },
+      {
+        "answer": "3/8",
+        "difficulty": 1,
+        "explanation": "整条绳子平均分成8段，取出3段，占整条绳子的3/8。",
+        "knowledge_point": "分数的意义与比较",
+        "options": [],
+        "question": "一条绳子平均分成8段，取出其中3段。取出的部分占原来整条绳子的几分之几？用a/b表示。",
+        "type": "calculation",
+        "id": 1040038,
+        "score": 10
+      },
+      {
+        "answer": "<",
+        "difficulty": 1,
+        "explanation": "同分母分数比较分子，2小于5，所以2/7<5/7。大于、等于和无法比较均不符合。",
+        "knowledge_point": "分数的意义与比较",
+        "options": [
+          "<",
+          "无法比较",
+          "=",
+          ">"
+        ],
+        "question": "比较分数2/7和5/7，在“2/7（ ）5/7”的括号中应填什么？",
+        "type": "choice",
+        "id": 1040039,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "只有平均分后，才能用取出的份数与总份数表示这里的分数。两部分面积不相等，就不能各占原纸片的1/2。",
+        "knowledge_point": "分数的意义与比较",
+        "options": [],
+        "question": "判断：把一张纸剪成面积不相等的两部分，每一部分都占原来整张纸的1/2。",
+        "type": "true_false",
+        "id": 1040040,
+        "score": 10
+      },
+      {
+        "answer": "1/6",
+        "difficulty": 2,
+        "explanation": "分子都是1，分母越大分数越小，所以1/6<1/3。两块巧克力同样大，取出的实际部分也是乙较小。",
+        "knowledge_point": "分数的意义与比较",
+        "options": [
+          "两者相等",
+          "1/6",
+          "无法比较",
+          "1/3"
+        ],
+        "question": "甲、乙两块巧克力同样大。甲平均分成3份取1份，乙平均分成6份取1份。比较取出部分各占原巧克力的分数，较小的分数是哪一个？",
+        "type": "choice",
+        "id": 1040041,
+        "score": 10
+      },
+      {
+        "answer": "5/9",
+        "difficulty": 1,
+        "explanation": "整个披萨平均分成9块，吃掉5块，占整个披萨的5/9。",
+        "knowledge_point": "分数的意义与比较",
+        "options": [],
+        "question": "一个圆形披萨平均分成9块，吃掉其中5块。吃掉的部分占原来整个披萨的几分之几？用a/b表示。",
+        "type": "calculation",
+        "id": 1040042,
+        "score": 10
+      },
+      {
+        "answer": "5/9",
+        "difficulty": 1,
+        "explanation": "两部分不重叠，合计为2/9+3/9=5/9，分母9不变。",
+        "knowledge_point": "同分母分数加减法",
+        "options": [],
+        "question": "一块布平均分成9份，取其中2份做布袋，另取3份做桌垫。两种用途合计用了原来这块布的几分之几？用a/b表示。",
+        "type": "calculation",
+        "id": 1040043,
+        "score": 10
+      },
+      {
+        "answer": "3/7",
+        "difficulty": 1,
+        "explanation": "保留部分占原纸的4/7−1/7=3/7。",
+        "knowledge_point": "同分母分数加减法",
+        "options": [],
+        "question": "先取出一张纸的4/7，再从取出的部分中剪掉原来整张纸的1/7。取出部分中尚未剪掉的纸占原来整张纸的几分之几？用a/b表示。",
+        "type": "calculation",
+        "id": 1040044,
+        "score": 10
+      },
+      {
+        "answer": "4/7",
+        "difficulty": 1,
+        "explanation": "两次都以原来整桶水为整体，所以1/7+3/7=4/7。",
+        "knowledge_point": "同分母分数加减法",
+        "options": [],
+        "question": "一桶水，上午用去原来整桶水的1/7，下午用去原来整桶水的3/7。两次合计用去原来整桶水的几分之几？用a/b表示。",
+        "type": "calculation",
+        "id": 1040045,
+        "score": 10
+      },
+      {
+        "answer": "5/8",
+        "difficulty": 2,
+        "explanation": "原来两条彩带等长，每个1/8一样长。用去部分相差7/8−2/8=5/8。",
+        "knowledge_point": "同分母分数加减法",
+        "options": [],
+        "question": "红、蓝两条彩带原来等长。红彩带用去它的7/8，蓝彩带用去它的2/8。红彩带比蓝彩带多用的长度占原来一条彩带长度的几分之几？用a/b表示。",
+        "type": "calculation",
+        "id": 1040046,
+        "score": 10
+      },
+      {
+        "answer": "2/6",
+        "difficulty": 1,
+        "explanation": "其他人吃掉的部分是3/6−1/6=2/6。按题目要求保留分母6，不要求约分。",
+        "knowledge_point": "同分母分数加减法",
+        "options": [],
+        "question": "一块披萨一共被吃掉原来整块的3/6，其中哥哥吃掉原来整块的1/6，其余由其他人吃掉。其他人吃掉原来整块披萨的几分之几？用a/b表示，分母保留为6。",
+        "type": "calculation",
+        "id": 1040047,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "分母相同，只把分子相加：2/5+1/5=3/5。",
+        "knowledge_point": "同分母分数加减法",
+        "options": [],
+        "question": "判断：同一个整体中互不重叠的2/5和1/5，合起来占这个整体的3/5。",
+        "type": "true_false",
+        "id": 1040048,
+        "score": 10
+      },
+      {
+        "answer": "40",
+        "difficulty": 1,
+        "explanation": "每盒有48÷6=8支，5盒共有8×5=40支。",
+        "knowledge_point": "两步乘除问题",
+        "options": [],
+        "question": "6盒彩笔共有48支，每盒彩笔的支数相同。5盒这样的彩笔共有多少支？以支为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040049,
+        "score": 10
+      },
+      {
+        "answer": "630",
+        "difficulty": 2,
+        "explanation": "每小时行驶360÷4=90千米，7小时行驶90×7=630千米。",
+        "knowledge_point": "两步乘除问题",
+        "options": [],
+        "question": "一辆汽车匀速行驶，4小时行驶360千米。照这样的速度，7小时行驶多少千米？以千米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040050,
+        "score": 10
+      },
+      {
+        "answer": "6",
+        "difficulty": 2,
+        "explanation": "先求教室总数：3×4=12间，再求每间安装的灯数：72÷12=6盏。",
+        "knowledge_point": "两步乘除问题",
+        "options": [],
+        "question": "一栋教学楼有3层，每层有4间教室。72盏灯平均安装到这些教室中。每间教室安装多少盏灯？以盏为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040051,
+        "score": 10
+      },
+      {
+        "answer": "270",
+        "difficulty": 2,
+        "explanation": "往返总路程是90×6=540千米，单程路程是540÷2=270千米。",
+        "knowledge_point": "两步乘除问题",
+        "options": [],
+        "question": "一辆汽车沿同一条路线从甲地到乙地后返回甲地，全程匀速行驶且不停留，共行驶6小时，每小时行90千米。甲、乙两地之间这条路线长多少千米？以千米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040052,
+        "score": 10
+      },
+      {
+        "answer": "5",
+        "difficulty": 1,
+        "explanation": "先求每个方队有40÷2=20名，再求每行有20÷4=5名。",
+        "knowledge_point": "两步乘除问题",
+        "options": [],
+        "question": "40名同学平均组成2个方队，每个方队平均排成4行。每行有多少名同学？以名为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040053,
+        "score": 10
+      },
+      {
+        "answer": "10",
+        "difficulty": 2,
+        "explanation": "原来共有6×15=90本，重新平均分装后每包有90÷9=10本。",
+        "knowledge_point": "两步乘除问题",
+        "options": [],
+        "question": "有6包练习本，每包15本。把这些练习本全部重新平均分装成9包，每包有多少本？以本为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040054,
+        "score": 10
+      },
+      {
+        "answer": "46",
+        "difficulty": 1,
+        "explanation": "先求14的3倍：14×3=42，再加4：42+4=46本。",
+        "knowledge_point": "倍数与相差问题",
+        "options": [],
+        "question": "图书角有故事书14本，科技书的本数比故事书的3倍多4本。科技书有多少本？以本为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040055,
+        "score": 10
+      },
+      {
+        "answer": "420",
+        "difficulty": 1,
+        "explanation": "每副羽毛球拍的价格是96−12=84元，5副共需84×5=420元。",
+        "knowledge_point": "倍数与相差问题",
+        "options": [],
+        "question": "一副网球拍96元，一副羽毛球拍比它便宜12元。买5副这样的羽毛球拍需要多少元？以元为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040056,
+        "score": 10
+      },
+      {
+        "answer": "120",
+        "difficulty": 2,
+        "explanation": "每千克梨的价格是18+6=24元，5千克共需24×5=120元。",
+        "knowledge_point": "倍数与相差问题",
+        "options": [],
+        "question": "苹果每千克18元，梨每千克比苹果贵6元。买5千克梨需要多少元？以元为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040057,
+        "score": 10
+      },
+      {
+        "answer": "60",
+        "difficulty": 2,
+        "explanation": "乙物品每件价钱是360÷3=120元，丙物品每件价钱是120÷2=60元。",
+        "knowledge_point": "倍数与相差问题",
+        "options": [],
+        "question": "一件甲物品360元，价钱相当于3件乙物品的总价。一件乙物品的价钱又是丙物品的2倍。一件丙物品多少元？以元为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040058,
+        "score": 10
+      },
+      {
+        "answer": "12",
+        "difficulty": 2,
+        "explanation": "剩下180−84=96页，每天读96÷8=12页。",
+        "knowledge_point": "倍数与相差问题",
+        "options": [],
+        "question": "一本书有180页，小宁已经读了84页，剩下的计划每天读同样多，8天读完。每天应读多少页？以页为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040059,
+        "score": 10
+      },
+      {
+        "answer": "72",
+        "difficulty": 2,
+        "explanation": "每支便宜46−34=12元，买6支共节省12×6=72元。",
+        "knowledge_point": "倍数与相差问题",
+        "options": [],
+        "question": "一种钢笔原价每支46元，降价后每支34元。买6支这种钢笔，比按原价购买一共节省多少元？以元为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040060,
+        "score": 10
+      },
+      {
+        "answer": "700",
+        "difficulty": 1,
+        "explanation": "1平方米=100平方分米，7×100=700平方分米。",
+        "knowledge_point": "面积单位与换算",
+        "options": [],
+        "question": "7平方米等于多少平方分米？以平方分米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040061,
+        "score": 10
+      },
+      {
+        "answer": "36",
+        "difficulty": 1,
+        "explanation": "1平方分米=100平方厘米，3600÷100=36平方分米。",
+        "knowledge_point": "面积单位与换算",
+        "options": [],
+        "question": "3600平方厘米等于多少平方分米？以平方分米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040062,
+        "score": 10
+      },
+      {
+        "answer": "平方厘米",
+        "difficulty": 1,
+        "explanation": "橡皮擦这个面的面积是3×2=6平方厘米。平方米和平方分米都不符合这个数值，米是长度单位。",
+        "knowledge_point": "面积单位与换算",
+        "options": [
+          "米",
+          "平方分米",
+          "平方厘米",
+          "平方米"
+        ],
+        "question": "一块橡皮擦的一个面是长3厘米、宽2厘米的长方形。这个面的面积是6（ ）。括号里应填哪个单位？",
+        "type": "choice",
+        "id": 1040063,
+        "score": 10
+      },
+      {
+        "answer": "20000",
+        "difficulty": 2,
+        "explanation": "1平方米=10000平方厘米，2×10000=20000平方厘米。",
+        "knowledge_point": "面积单位与换算",
+        "options": [],
+        "question": "2平方米等于多少平方厘米？以平方厘米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040064,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "米是长度单位，不能用来表示面积。地的面积应使用平方米等面积单位。",
+        "knowledge_point": "面积单位与换算",
+        "options": [],
+        "question": "判断：表示一块地的面积，可以用米作单位。",
+        "type": "true_false",
+        "id": 1040065,
+        "score": 10
+      },
+      {
+        "answer": "平方米",
+        "difficulty": 1,
+        "explanation": "黑板面积是4×1=4平方米。平方分米和平方厘米不符合数值4，厘米是长度单位。",
+        "knowledge_point": "面积单位与换算",
+        "options": [
+          "平方米",
+          "平方厘米",
+          "厘米",
+          "平方分米"
+        ],
+        "question": "一块长方形黑板长4米、宽1米。它的面积是4（ ）。括号里应填哪个单位？",
+        "type": "choice",
+        "id": 1040066,
+        "score": 10
+      },
+      {
+        "answer": "3360",
+        "difficulty": 1,
+        "explanation": "长方形面积=长×宽，84×40=3360平方米。",
+        "knowledge_point": "长方形正方形的周长与面积",
+        "options": [],
+        "question": "一个长方形操场长84米、宽40米。它的面积是多少平方米？以平方米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040067,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 1,
+        "explanation": "正方形四条边相等，边长是56÷4=14米。",
+        "knowledge_point": "长方形正方形的周长与面积",
+        "options": [],
+        "question": "一个正方形花圃的周长是56米，它的边长是多少米？以米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040068,
+        "score": 10
+      },
+      {
+        "answer": "长×宽",
+        "difficulty": 1,
+        "explanation": "长方形面积用长×宽计算。长+宽没有求出面积；（长+宽）×2求的是周长；长×长没有使用长方形的宽。",
+        "knowledge_point": "长方形正方形的周长与面积",
+        "options": [
+          "长+宽",
+          "长×长",
+          "（长+宽）×2",
+          "长×宽"
+        ],
+        "question": "一个长方形的长和宽不相等，且已经用相同长度单位表示。求它的面积应使用哪个算式？",
+        "type": "choice",
+        "id": 1040069,
+        "score": 10
+      },
+      {
+        "answer": "72",
+        "difficulty": 2,
+        "explanation": "果园长是12×2=24米，面积是24×12=288平方米，可安排288÷4=72个种植区域，每个区域种1棵，共72棵。",
+        "knowledge_point": "长方形正方形的周长与面积",
+        "options": [],
+        "question": "一个长方形果园宽12米，长是宽的2倍。把果园全部划成面积为4平方米的种植区域，每个区域种1棵树，没有剩余。共种多少棵树？以棵为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040070,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "围栏长度是花圃的周长，为（17+9）×2=52米。",
+        "knowledge_point": "长方形正方形的周长与面积",
+        "options": [],
+        "question": "判断：一个长方形花圃长17米、宽9米，沿四周围一圈围栏，不留出入口，需要围栏52米。",
+        "type": "true_false",
+        "id": 1040071,
+        "score": 10
+      },
+      {
+        "answer": "576",
+        "difficulty": 2,
+        "explanation": "菜地面积是16×6=96平方米，总产量是96×6=576千克。",
+        "knowledge_point": "长方形正方形的周长与面积",
+        "options": [],
+        "question": "一块长方形菜地长16米、宽6米，每平方米收白菜6千克。这块菜地共收多少千克白菜？以千克为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040072,
+        "score": 10
+      },
+      {
+        "answer": "3200",
+        "difficulty": 2,
+        "explanation": "广场面积是80×45=3600平方米，花坛面积是20×20=400平方米，其余面积是3600−400=3200平方米。",
+        "knowledge_point": "场地设计与图形拼摆",
+        "options": [],
+        "question": "一个长80米、宽45米的长方形广场内，有一座完全位于广场内的正方形花坛，花坛边长20米。其余部分全部作为活动场地。活动场地面积是多少平方米？以平方米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040073,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "把正方形的两组边分别与场地的长边、宽边平行放置，35米小于70米，也小于40米，因此能够完全放入。",
+        "knowledge_point": "场地设计与图形拼摆",
+        "options": [],
+        "question": "判断：在长70米、宽40米的长方形场地内，可以放入一个边长35米的正方形区域，使正方形各边分别与场地对应的边平行，且不超出场地。",
+        "type": "true_false",
+        "id": 1040074,
+        "score": 10
+      },
+      {
+        "answer": "长15厘米，宽4厘米",
+        "difficulty": 2,
+        "explanation": "6个小长方形的总面积是6×5×2=60平方厘米。四组选项的面积分别是60、30、40、50平方厘米，只有第一组符合；将小长方形的5厘米边沿大长方形的长方向，每行放3个、放2行，就能拼成15厘米×4厘米的长方形。",
+        "knowledge_point": "场地设计与图形拼摆",
+        "options": [
+          "长15厘米，宽4厘米",
+          "长10厘米，宽3厘米",
+          "长20厘米，宽2厘米",
+          "长10厘米，宽5厘米"
+        ],
+        "question": "用6个长5厘米、宽2厘米的小长方形，不重叠、无空隙地全部拼成一个大长方形。下面哪组长和宽可以实现？",
+        "type": "choice",
+        "id": 1040075,
+        "score": 10
+      },
+      {
+        "answer": "36",
+        "difficulty": 2,
+        "explanation": "大长方形的长是4×4=16厘米，宽是2厘米，周长是（16+2）×2=36厘米。",
+        "knowledge_point": "场地设计与图形拼摆",
+        "options": [],
+        "question": "把4个长4厘米、宽2厘米的小长方形按同一朝向排成一横排，相邻小长方形用2厘米的边完整相接，不重叠、无空隙。拼成的大长方形周长是多少厘米？以厘米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040076,
+        "score": 10
+      },
+      {
+        "answer": "面积相同，周长不同",
+        "difficulty": 2,
+        "explanation": "甲的面积是20×3=60平方厘米，周长是（20+3）×2=46厘米；乙的面积是10×6=60平方厘米，周长是（10+6）×2=32厘米。因此只有“面积相同，周长不同”正确。",
+        "knowledge_point": "场地设计与图形拼摆",
+        "options": [
+          "面积相同，周长不同",
+          "面积不同，周长不同",
+          "面积不同，周长相同",
+          "面积相同，周长相同"
+        ],
+        "question": "4个长5厘米、宽3厘米的相同小长方形全部拼成甲长方形，甲长20厘米、宽3厘米；同样的4个小长方形全部拼成乙长方形，乙长10厘米、宽6厘米。两次拼摆均不重叠、无空隙。甲、乙的面积和周长有什么关系？",
+        "type": "choice",
+        "id": 1040077,
+        "score": 10
+      },
+      {
+        "answer": "48",
+        "difficulty": 1,
+        "explanation": "每个小长方形的面积是6×2=12平方厘米，全部拼成的图形面积是12×4=48平方厘米。",
+        "knowledge_point": "场地设计与图形拼摆",
+        "options": [],
+        "question": "用4个长6厘米、宽2厘米的小长方形，不重叠、无空隙地全部拼成一个大长方形。大长方形面积是多少平方厘米？以平方厘米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040078,
+        "score": 10
+      },
+      {
+        "answer": "平移",
+        "difficulty": 1,
+        "explanation": "题目明确水桶沿竖直方向直线上升且不转动，属于平移；没有发生旋转、翻面或放大。",
+        "knowledge_point": "平移与旋转",
+        "options": [
+          "旋转",
+          "翻面",
+          "放大",
+          "平移"
+        ],
+        "question": "一个水桶沿竖直方向直线上升，整个过程中不转动、形状和大小不变。这种运动属于什么现象？",
+        "type": "choice",
+        "id": 1040079,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "平移不能改变图形的朝向。",
+        "knowledge_point": "平移与旋转",
+        "options": [],
+        "question": "判断：图形只经过平移后，形状和大小不变，但朝向可以改变。",
+        "type": "true_false",
+        "id": 1040080,
+        "score": 10
+      },
+      {
+        "answer": "抽屉沿直线拉出且不转动",
+        "difficulty": 1,
+        "explanation": "抽屉沿直线移动且不转动，是平移；钟表指针、门板和陀螺的三种运动都有转动，不是平移。",
+        "knowledge_point": "平移与旋转",
+        "options": [
+          "钟表指针绕中心转动",
+          "抽屉沿直线拉出且不转动",
+          "陀螺绕自身的轴转动",
+          "门板绕合页打开"
+        ],
+        "question": "下面哪一种运动属于平移？",
+        "type": "choice",
+        "id": 1040081,
+        "score": 10
+      },
+      {
+        "answer": "旋转",
+        "difficulty": 1,
+        "explanation": "门板绕固定的合页转动，属于旋转；它既不是沿直线滑动，也不是静止。",
+        "knowledge_point": "平移与旋转",
+        "options": [
+          "沿直线滑动",
+          "静止",
+          "旋转",
+          "平移"
+        ],
+        "question": "门板绕着固定的合页打开，这种运动属于什么现象？",
+        "type": "choice",
+        "id": 1040082,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "平移不改变大小，缩小后的图形不能由原图形只经过平移得到。",
+        "knowledge_point": "平移与旋转",
+        "options": [],
+        "question": "判断：一个图形缩小后，只要形状相同，就一定能由原图形只经过平移得到。",
+        "type": "true_false",
+        "id": 1040083,
+        "score": 10
+      },
+      {
+        "answer": "在原位置的东面，箭头仍朝北",
+        "difficulty": 2,
+        "explanation": "向东平移后，棋子位于原位置的东面；平移不改变朝向，所以箭头仍朝北。其他选项改变了移动方向或箭头朝向。",
+        "knowledge_point": "平移与旋转",
+        "options": [
+          "在原位置的东面，箭头仍朝北",
+          "在原位置的东面，箭头改朝东",
+          "在原位置的西面，箭头仍朝北",
+          "在原位置的东面，箭头改朝南"
+        ],
+        "question": "一枚带箭头的棋子原来箭头朝北。把棋子沿直线向东平移一段距离，不转动也不翻面。棋子的新位置和箭头朝向应怎样描述？",
+        "type": "choice",
+        "id": 1040084,
+        "score": 10
+      },
+      {
+        "answer": "东北",
+        "difficulty": 1,
+        "explanation": "西南与东北相对。学校在图书馆的西南方向，图书馆就在学校的东北方向，其余三个方向不符合。",
+        "knowledge_point": "方向与位置",
+        "options": [
+          "西北",
+          "西南",
+          "东南",
+          "东北"
+        ],
+        "question": "学校在图书馆的西南方向。以学校为参照，图书馆在什么方向？",
+        "type": "choice",
+        "id": 1040085,
+        "score": 10
+      },
+      {
+        "answer": "东南",
+        "difficulty": 1,
+        "explanation": "上方为北，则右方为东、下方为南，右下方是东南，不是另外三个方向。",
+        "knowledge_point": "方向与位置",
+        "options": [
+          "西南",
+          "东北",
+          "西北",
+          "东南"
+        ],
+        "question": "一张平面图规定上方为北。公园位于学校的右下方。公园在学校的什么方向？",
+        "type": "choice",
+        "id": 1040086,
+        "score": 10
+      },
+      {
+        "answer": "西北",
+        "difficulty": 1,
+        "explanation": "上方为北、左方为西，因此左上方是西北，其余三个方向均不符合。",
+        "knowledge_point": "方向与位置",
+        "options": [
+          "西南",
+          "东南",
+          "东北",
+          "西北"
+        ],
+        "question": "一张平面图规定上方为北。展览馆位于水族馆的左上方。以水族馆为参照，展览馆在什么方向？",
+        "type": "choice",
+        "id": 1040087,
+        "score": 10
+      },
+      {
+        "answer": "西南",
+        "difficulty": 1,
+        "explanation": "上方为北时，左方为西、下方为南，所以左下方是西南，其余三个方向不符合。",
+        "knowledge_point": "方向与位置",
+        "options": [
+          "东南",
+          "东北",
+          "西北",
+          "西南"
+        ],
+        "question": "一张平面图规定上方为北。码头位于旅馆的左下方。码头在旅馆的什么方向？",
+        "type": "choice",
+        "id": 1040088,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "东与西相对。小亭在大门的正东方向，大门就在小亭的正西方向。",
+        "knowledge_point": "方向与位置",
+        "options": [],
+        "question": "判断：小亭在大门的正东方向，那么以小亭为参照，大门也在正东方向。",
+        "type": "true_false",
+        "id": 1040089,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "体育馆在花园的正北方向，因此花园在体育馆的正南方向；游乐场也在体育馆的正南方向，所以花园和游乐场都在体育馆的正南方向。",
+        "knowledge_point": "方向与位置",
+        "options": [],
+        "question": "判断：体育馆在花园的正北方向，游乐场在体育馆的正南方向。那么，以体育馆为参照，花园和游乐场都在它的正南方向。",
+        "type": "true_false",
+        "id": 1040090,
+        "score": 10
+      },
+      {
+        "answer": "34人",
+        "difficulty": 1,
+        "explanation": "各类互不重复且没有遗漏，总人数为8＋13＋9＋4＝34人。其余三个数都不是四类人数之和。",
+        "knowledge_point": "数据整理与统计图表",
+        "options": [
+          "35人",
+          "36人",
+          "34人",
+          "33人"
+        ],
+        "question": "调查一个班每名学生最喜欢的一类课外书，每人只选一类。科技书8人、故事书13人、文艺书9人、其他4人，没有遗漏。共调查了多少人？",
+        "type": "choice",
+        "id": 1040091,
+        "score": 10
+      },
+      {
+        "answer": "踢毽子",
+        "difficulty": 1,
+        "explanation": "比较12、8、6、10，最小的是6，对应踢毽子。",
+        "knowledge_point": "数据整理与统计图表",
+        "options": [
+          "踢毽子",
+          "踢球",
+          "跑步",
+          "跳绳"
+        ],
+        "question": "一次课间活动喜好调查中，每人只选一项，选择跳绳的有12人、跑步的有8人、踢毽子的有6人、踢球的有10人。选择哪项活动的人数最少？",
+        "type": "choice",
+        "id": 1040092,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "统一刻度下，每格表示的人数必须相同，不能一根柱按每格2人、另一根柱按每格3人绘制。",
+        "knowledge_point": "数据整理与统计图表",
+        "options": [],
+        "question": "判断：同一张使用统一刻度的条形统计图中，表示8人的柱子可以按每格2人画，表示12人的柱子可以按每格3人画。",
+        "type": "true_false",
+        "id": 1040093,
+        "score": 10
+      },
+      {
+        "answer": "科技书12人，故事书18人，文艺书9人，其他6人",
+        "difficulty": 2,
+        "explanation": "每格表示3人，四类人数依次是4×3＝12、6×3＝18、3×3＝9、2×3＝6人。",
+        "knowledge_point": "数据整理与统计图表",
+        "options": [
+          "科技书12人，故事书18人，文艺书9人，其他6人",
+          "科技书18人，故事书12人，文艺书9人，其他6人",
+          "科技书12人，故事书18人，文艺书6人，其他9人",
+          "科技书4人，故事书6人，文艺书3人，其他2人"
+        ],
+        "question": "一张条形统计图每格表示3人。科技书、故事书、文艺书、其他四类柱子的高度依次为4格、6格、3格、2格。四类人数依次是多少？",
+        "type": "choice",
+        "id": 1040094,
+        "score": 10
+      },
+      {
+        "answer": "故事书多买一些，文艺书少买一些",
+        "difficulty": 2,
+        "explanation": "调查中喜欢故事书的16人最多，喜欢文艺书的5人最少。在题目给定原则下，应让故事书的购买本数多于文艺书。",
+        "knowledge_point": "数据整理与统计图表",
+        "options": [
+          "四类购买本数必须完全相同",
+          "故事书多买一些，文艺书少买一些",
+          "文艺书多买一些，故事书少买一些",
+          "只买科技书，不买其余类别"
+        ],
+        "question": "班级调查每人最喜欢的一类课外书，科技书10人、故事书16人、文艺书5人、其他7人。计划四类书都购买，并让喜欢人数多的类别比喜欢人数少的类别购买本数多。哪项安排符合这个原则？",
+        "type": "choice",
+        "id": 1040095,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 2,
+        "explanation": "前三类共有5＋9＋7＝21人，其余30－21＝9人。",
+        "knowledge_point": "数据整理与统计图表",
+        "options": [],
+        "question": "一个班30名学生每人都参加捐书。捐3本及以下的有5人，捐4本的有9人，捐5本的有7人，其余学生都捐6本及以上。捐6本及以上的有多少人？以人为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040096,
+        "score": 10
+      },
+      {
+        "answer": "648",
+        "difficulty": 1,
+        "explanation": "先算括号内19－7＝12，再算54×12＝648。",
+        "knowledge_point": "我都学会了吗：综合自测",
+        "options": [],
+        "question": "计算54×（19－7），只填数值。",
+        "type": "calculation",
+        "id": 1040097,
+        "score": 10
+      },
+      {
+        "answer": "1680",
+        "difficulty": 2,
+        "explanation": "每个中箱售价420÷2＝210元，每个小箱售价210÷3＝70元。12个小箱需70×12＝840元，2个大箱需420×2＝840元，共需840＋840＝1680元。",
+        "knowledge_point": "我都学会了吗：综合自测",
+        "options": [],
+        "question": "一个大箱售价420元，相当于2个中箱的总价；一个中箱的售价是一个小箱的3倍。买12个小箱和2个大箱共需多少元？以元为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040098,
+        "score": 10
+      },
+      {
+        "answer": "6/10",
+        "difficulty": 1,
+        "explanation": "两种蔬菜合占2＋4＝6份，整块地平均分成10份，所以合占6/10。",
+        "knowledge_point": "我都学会了吗：综合自测",
+        "options": [
+          "6/20",
+          "4/10",
+          "2/10",
+          "6/10"
+        ],
+        "question": "一块菜地平均分成10份，2份种菠菜，4份种白菜，其余种其他蔬菜。菠菜地和白菜地合占整块地的几分之几？",
+        "type": "choice",
+        "id": 1040099,
+        "score": 10
+      },
+      {
+        "answer": "不能到达，还差40千米",
+        "difficulty": 2,
+        "explanation": "每小时行驶432÷6＝72千米，10小时行驶72×10＝720千米，距终点还差760－720＝40千米。",
+        "knowledge_point": "我都学会了吗：综合自测",
+        "options": [
+          "恰好到达",
+          "不能到达，还差328千米",
+          "不能到达，还差40千米",
+          "能到达，超过40千米"
+        ],
+        "question": "甲、乙两站之间的铁路长760千米。一列火车从甲站出发前往乙站，6小时行驶432千米，始终保持相同速度且不停留。从出发算起行驶10小时能否到达乙站？",
+        "type": "choice",
+        "id": 1040100,
+        "score": 10
+      },
+      {
+        "answer": "1440",
+        "difficulty": 2,
+        "explanation": "菜地面积为15×8＝120平方米，总产量为120×12＝1440千克。",
+        "knowledge_point": "我都学会了吗：综合自测",
+        "options": [],
+        "question": "一块长方形菜地长15米、宽8米，每平方米收白菜12千克。整块菜地共收白菜多少千克？以千克为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040101,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "甲、乙面积分别为16×3＝48和8×6＝48平方厘米；周长分别为（16＋3）×2＝38和（8＋6）×2＝28厘米，所以判断正确。",
+        "knowledge_point": "我都学会了吗：综合自测",
+        "options": [],
+        "question": "把4个长4厘米、宽3厘米的小长方形全部拼成大长方形。甲拼成长16厘米、宽3厘米；乙拼成长8厘米、宽6厘米。两种拼法都不重叠、无空隙。判断：甲、乙面积相等，甲的周长比乙长。",
+        "type": "true_false",
+        "id": 1040102,
+        "score": 10
+      },
+      {
+        "answer": "480",
+        "difficulty": 1,
+        "explanation": "每人一张票，总票价为16×30＝480元。",
+        "knowledge_point": "情境综合实践",
+        "options": [],
+        "question": "一个参观团有30人，每人购买一张16元的门票，没有优惠。一共需要多少元？以元为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040103,
+        "score": 10
+      },
+      {
+        "answer": "108",
+        "difficulty": 1,
+        "explanation": "432÷4＝108，所以可以分给108人。",
+        "knowledge_point": "情境综合实践",
+        "options": [],
+        "question": "活动处有432个气球，每人分4个，全部分完。可以分给多少人？以人为单位，只填数值。",
+        "type": "calculation",
+        "id": 1040104,
+        "score": 10
+      },
+      {
+        "answer": "下午3:15",
+        "difficulty": 2,
+        "explanation": "下午2:50到3:00经过10分钟，还剩15分钟，因此结束时刻是下午3:15。",
+        "knowledge_point": "情境综合实践",
+        "options": [
+          "下午2:75",
+          "下午3:25",
+          "下午3:05",
+          "下午3:15"
+        ],
+        "question": "一场比赛下午2:50开始，连续进行25分钟，中途不停。比赛什么时候结束？",
+        "type": "choice",
+        "id": 1040105,
+        "score": 10
+      },
+      {
+        "answer": "西北",
+        "difficulty": 1,
+        "explanation": "上方为北，左方为西，所以大门的左上方是大门的西北方向。",
+        "knowledge_point": "情境综合实践",
+        "options": [
+          "西北",
+          "东北",
+          "东南",
+          "西南"
+        ],
+        "question": "一张园区平面图规定上方为北。比赛场地位于大门的左上方。以大门为参照，比赛场地在什么方向？",
+        "type": "choice",
+        "id": 1040106,
+        "score": 10
+      },
+      {
+        "answer": "约480人",
+        "difficulty": 2,
+        "explanation": "按每棚约40人估计，12×40＝480人。因为每棚人数是估计数，所以结果也应表述为约480人。",
+        "knowledge_point": "情境综合实践",
+        "options": [
+          "约480人",
+          "约48人",
+          "约960人",
+          "恰好480人"
+        ],
+        "question": "活动区有12个棚。估计人数时，把每个棚的人数都按约40人计算。这些棚里合计大约有多少人？",
+        "type": "choice",
+        "id": 1040107,
+        "score": 10
+      },
+      {
+        "answer": "买完门票后还剩多少元",
+        "difficulty": 2,
+        "explanation": "已知每张票15元、24人和带款400元，可先算总票价，再算剩余钱数。其余问题都缺少必要条件。",
+        "knowledge_point": "情境综合实践",
+        "options": [
+          "园区所有工作人员的工资共多少元",
+          "这个参观团往返车费共多少元",
+          "园区今天所有游客共有多少人",
+          "买完门票后还剩多少元"
+        ],
+        "question": "一个24人的参观团带了400元，每人买一张15元的门票，没有优惠。只根据这些信息，下面哪个新问题可以计算解决？",
+        "type": "choice",
+        "id": 1040108,
+        "score": 10
+      },
+      {
+        "answer": "分数的意义与同分母分数加法",
+        "difficulty": 1,
+        "explanation": "平均分成7份体现分数的意义；2/7＋3/7＝5/7体现同分母分数加法。",
+        "knowledge_point": "丰收园：学习总结与评价",
+        "options": [
+          "时间单位换算",
+          "平移与旋转",
+          "方向与位置",
+          "分数的意义与同分母分数加法"
+        ],
+        "question": "小林总结学习收获时举例：一张纸平均分成7份，其中2份涂红色，另外3份涂蓝色，涂色部分合占整张纸的5/7。这个例子主要说明哪方面的学习？",
+        "type": "choice",
+        "id": 1040109,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "能独立完成具体任务并解释方法，可以作为掌握情况的证据，比没有实例的自我判断更有依据。",
+        "knowledge_point": "丰收园：学习总结与评价",
+        "options": [],
+        "question": "小宁在学习总结中写下自己独立完成的一道题，并说明解题方法。判断：这种记录可以帮助说明自己的知识掌握情况。",
+        "type": "true_false",
+        "id": 1040110,
+        "score": 10
+      },
+      {
+        "answer": "会计算长方形面积",
+        "difficulty": 1,
+        "explanation": "18×7＝126，所用方法是长方形面积＝长×宽，直接体现计算长方形面积的能力。",
+        "knowledge_point": "丰收园：学习总结与评价",
+        "options": [
+          "会计算长方形面积",
+          "会绘制条形统计图",
+          "会描述西北方向",
+          "会辨认旋转"
+        ],
+        "question": "小雨用“长18米、宽7米的长方形草地，面积是18×7＝126平方米”作为学习证据。这个例子最直接说明哪项能力？",
+        "type": "choice",
+        "id": 1040111,
+        "score": 10
+      },
+      {
+        "answer": "先听完理由，再结合计算说明自己的看法",
+        "difficulty": 2,
+        "explanation": "先倾听、再用依据表达看法，既尊重他人，也体现独立思考与交流。",
+        "knowledge_point": "丰收园：学习总结与评价",
+        "options": [
+          "不作检查，直接认定自己正确",
+          "先听完理由，再结合计算说明自己的看法",
+          "立即打断，不让同伴继续说",
+          "只看谁说话声音大就听谁的"
+        ],
+        "question": "交流一道数学题时，小杰与同伴的答案不同。哪种做法最能体现认真倾听和有依据地表达？",
+        "type": "choice",
+        "id": 1040112,
+        "score": 10
+      },
+      {
+        "answer": "复习1分＝60秒，完成几道换算题并核对",
+        "difficulty": 2,
+        "explanation": "这项计划明确了复习内容、练习任务和检查方式，直接针对时间换算困难。",
+        "knowledge_point": "丰收园：学习总结与评价",
+        "options": [
+          "复习1分＝60秒，完成几道换算题并核对",
+          "只写“我要努力”，不安排任务",
+          "避开所有时间换算题",
+          "只练乘法，不处理时间换算问题"
+        ],
+        "question": "小华总结时发现自己常把分和秒的换算做错。下面哪项计划最具体、最有针对性？",
+        "type": "choice",
+        "id": 1040113,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "学习评价不仅包括答案是否正确，也包括参与活动、独立思考、合作交流和克服困难等表现。",
+        "knowledge_point": "丰收园：学习总结与评价",
+        "options": [],
+        "question": "判断：评价数学学习时，只需统计答对多少题，不必回顾自己是否主动参与活动或努力克服困难。",
+        "type": "true_false",
+        "id": 1040114,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "回顾整理——总复习·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "把知识分类，并记录方法和联系",
+        "difficulty": 1,
+        "explanation": "整理既要归类，也要回顾方法、建立联系；只抄答案、只记题号或只挑会做的题，都不能代替知识整理。",
+        "knowledge_point": "全册知识回顾整理",
+        "options": [
+          "只记教材的题号",
+          "只挑已经会做的题",
+          "把知识分类，并记录方法和联系",
+          "只抄练习的答案"
+        ],
+        "question": "准备制作本学期的数学复习表，下面哪种做法最符合知识整理的目的？",
+        "type": "choice",
+        "id": 1049001,
+        "score": 10
+      },
+      {
+        "answer": "上午8:50",
+        "difficulty": 1,
+        "explanation": "15+35=50，未超过60分钟，所以结束时刻是上午8:50。四个选项中只有这一时刻正确。",
+        "knowledge_point": "时分秒与经过时间",
+        "options": [
+          "上午8:40",
+          "上午8:50",
+          "上午9:00",
+          "上午9:10"
+        ],
+        "question": "小林上午8:15开始练琴，连续练了35分钟后开始休息。休息开始的时刻是哪一个？",
+        "type": "choice",
+        "id": 1049002,
+        "score": 10
+      },
+      {
+        "answer": "900",
+        "difficulty": 1,
+        "explanation": "1平方米=100平方分米，9×100=900平方分米。",
+        "knowledge_point": "面积单位与换算",
+        "options": [],
+        "question": "9平方米等于多少平方分米？以平方分米为单位，只填数值。",
+        "type": "calculation",
+        "id": 1049003,
+        "score": 10
+      },
+      {
+        "answer": "32",
+        "difficulty": 1,
+        "explanation": "四类互不重复且包含全部被调查学生，总人数为9＋11＋7＋5＝32人。",
+        "knowledge_point": "数据整理与统计图表",
+        "options": [],
+        "question": "调查一个班每名学生最喜欢的一种活动，每人只选一项。跳绳9人、踢球11人、跑步7人、其他5人，没有遗漏。共调查了多少人？以人为单位，只填数值。",
+        "type": "calculation",
+        "id": 1049004,
+        "score": 10
+      },
+      {
+        "answer": "1008",
+        "difficulty": 2,
+        "explanation": "24×40=960，24×2=48，960+48=1008。",
+        "knowledge_point": "两位数乘两位数",
+        "options": [],
+        "question": "计算24×42。",
+        "type": "calculation",
+        "id": 1049005,
+        "score": 10
+      },
+      {
+        "answer": "1/4",
+        "difficulty": 1,
+        "explanation": "把整个蛋糕平均分成4份，吃了1份，吃掉的部分是整个蛋糕的1/4。",
+        "knowledge_point": "分数的意义与比较",
+        "options": [],
+        "question": "一个蛋糕平均分成4块，小华吃了其中1块。吃掉的部分占整个蛋糕的几分之几？用a/b表示。",
+        "type": "calculation",
+        "id": 1049006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "只罗列知识名称，不整理计算方法和解决问题的思路。",
+        "分类标准不清，同类知识分散记录。",
+        "只记正确答案，不分析错误原因。",
+        "把知识整理当成新授课，加入尚未学过的内容。"
+      ],
+      "core_concept": "总复习要对本学期已经学过的知识分类整理，回顾计算、解决问题和数学活动的方法，发现知识之间的联系及自己的薄弱之处。可以用列表、分类记录或知识图呈现整理结果。本小课只建立复习框架，不展开其余小课的专项教学。",
+      "key_formula": "",
+      "point": "全册知识回顾整理",
+      "tips": "先确定主题，再记录知识名称、方法和易错点。数与代数、图形与几何、统计等可作为整理类别；整理后用自己的话说明各类知识学了什么、怎样使用。"
+    },
+    {
+      "common_mistakes": [
+        "只计算个位相乘，漏算十位相乘的部分。",
+        "把十位上的数当作几个一，忽略它表示几个十。",
+        "竖式第二个部分积的末位没有与十位对齐。",
+        "相乘或相加时漏掉进位。",
+        "把估算结果当成精确结果。"
+      ],
+      "core_concept": "两位数乘两位数，可以先用第二个因数的个位数乘第一个因数，再用第二个因数的整十部分乘第一个因数，最后把两个部分积相加。竖式中，用第二个因数十位上的数字相乘时，所得部分积的末位写在十位上。整十数相乘可先算非零部分，再确定积末尾的0。估算能帮助检查积是否合理。",
+      "key_formula": "积=第一个因数×第二个因数的整十部分+第一个因数×第二个因数的个位数",
+      "point": "两位数乘两位数",
+      "tips": "先口算或估算，再笔算；注意第二个部分积的数位和进位。估算时按题目指定的方法取近似数，不把近似积当作精确积。"
+    },
+    {
+      "common_mistakes": [
+        "最高位不够商1时，仍在最高位写商0，误判商的位数。",
+        "确定商的最高位后，后面某一位不够商1时漏写0。",
+        "每次相除后漏减，或漏落下一位上的数。",
+        "余数等于或大于除数。",
+        "把0除以非零数的结果误写成除数。"
+      ],
+      "core_concept": "计算两、三位数除以一位数，从被除数的高位除起；最高位不够商1，就看前两位，除到哪一位，商就写在那一位上。确定商的最高位后，后面某一位不够商1，要在商的相应数位写0。每次求得的余数都要小于除数。0除以非零数得0。",
+      "key_formula": "被除数=除数×商+余数；0≤余数<除数（除数不为0）",
+      "point": "两三位数除以一位数",
+      "tips": "先判断商是几位数，再按试商、相乘、相减、落下一位的步骤计算。用除数×商+余数验算，结果应等于被除数。"
+    },
+    {
+      "common_mistakes": [
+        "只有加减或只有乘除时，没有按从左往右的顺序计算。",
+        "把先乘除后加减误记为先乘后除、先加后减。",
+        "没有先计算小括号里面的部分。",
+        "脱式时漏抄尚未计算的数或运算符号。",
+        "将除号看成减号，改变原算式。"
+      ],
+      "core_concept": "只有加减运算或只有乘除运算时，按从左往右的顺序计算；既有乘除又有加减时，先算乘除，再算加减；有小括号时，先算小括号里面的。脱式计算每一步都要保持与原算式相等，未计算的部分照抄。",
+      "key_formula": "同级运算从左往右；先乘除后加减；有小括号先算括号内",
+      "point": "四则混合运算",
+      "tips": "动笔前先找出第一步该算的部分。每算一步，检查剩余数字和符号是否抄全，再继续计算；不要把运算顺序与偶然得到相同结果的其他算法混淆。"
+    },
+    {
+      "common_mistakes": [
+        "混淆单价、数量和总价。",
+        "求总量时误用除法，平均分时误用乘法。",
+        "题目未说明价格相同，却直接用总价除以数量求某一件的价钱。",
+        "比较够不够时，只算需求量或现有量中的一个。",
+        "计算结果正确，却漏答单位或实际结论。"
+      ],
+      "core_concept": "每份数量相同时，总量等于每份数量乘份数；已知总量和份数，可以用除法求每份数量；已知总量和每份数量，可以用除法求份数。购物中的单价、数量、总价也符合这样的关系。判断钱或座位够不够，要把相同单位的需求量和现有量进行比较。",
+      "key_formula": "总量=每份数量×份数；每份数量=总量÷份数；份数=总量÷每份数量；总价=单价×数量",
+      "point": "乘除法数量关系",
+      "tips": "先明确每份数量、份数和总量分别是什么。可以列表对应条件，再列式。平均分的份数和用于相除的每份数量都不能是0；够不够的问题还要写出比较结论。"
+    },
+    {
+      "common_mistakes": [
+        "把1小时当成100分钟，或把1分钟当成100秒。",
+        "认读钟面时混淆时针与分针，忘记分针走一大格是5分钟。",
+        "跨整点计算时，直接把分钟数按十进制相减。",
+        "用每秒的数量计算时，没有把分钟换成秒。",
+        "混淆表示某一时刻的“几时几分”和表示时长的“几小时几分钟”。"
+      ],
+      "core_concept": "时、分、秒是时间单位，1小时=60分钟，1分钟=60秒。钟面上短针是时针，长针是分针；分针走一小格是1分钟，走一大格是5分钟。求经过时间可从开始时刻数到结束时刻，跨整点时分段计算；求结束时刻则从开始时刻向后推算。涉及每秒或每分钟完成的数量时，先统一时间单位。",
+      "key_formula": "1小时=60分钟；1分钟=60秒；同一天内结束时刻在开始时刻之后时，经过时间=结束时刻−开始时刻；总数量=每秒数量×秒数",
+      "point": "时分秒与经过时间",
+      "tips": "认钟面时先看时针在哪两个数之间，再读分针。计算经过时间可先算到整点，再算整点后的部分。区分时刻与时长，写答案前检查所用单位。"
+    },
+    {
+      "common_mistakes": [
+        "没有平均分，就直接用所取份数和总份数写分数。",
+        "颠倒分子与分母的含义。",
+        "同分母分数比较时，误认为分子越大分数越小。",
+        "分子都是1时，误认为分母越大分数越大。",
+        "把分数大小与实际部分大小混为一谈，忽略原来整体的大小。"
+      ],
+      "core_concept": "把一个整体平均分成若干份，其中的一份或几份可以用分数表示。分母表示平均分成的份数，分子表示取出的份数。同分母分数中，分子越大，分数越大；分子都是1的分数中，分母越小，分数越大。比较实际部分的大小时，还要确认原来的整体同样大。",
+      "key_formula": "",
+      "point": "分数的意义与比较",
+      "tips": "先找整体，再检查是否平均分，最后数取了几份。比较分数本身不要求它们来自同一物体；用分数比较实际长短或多少时，要注意整体大小是否相同。"
+    },
+    {
+      "common_mistakes": [
+        "把分子和分母同时相加或同时相减。",
+        "把第二次用去的剩余部分的分数，误当作原来整体的分数。",
+        "合并部分时没有确认这些部分是否重叠。",
+        "求相差多少时，颠倒被减数与减数。"
+      ],
+      "core_concept": "同分母分数表示的分数单位相同，相加减时分母不变，只把分子相加减。解决实际问题时，要确认分数以哪个整体为标准：求不重叠部分的合计用加法，求两部分的差用减法。",
+      "key_formula": "同分母分数相加减：分母不变，分子相加减。",
+      "point": "同分母分数加减法",
+      "tips": "先说清每个分数表示哪个整体的几份，再判断求合计还是求相差。可把整体想成若干个同样大的小份，计算后数一数结果应有几份。"
+    },
+    {
+      "common_mistakes": [
+        "没有先求每份数量，就把已知总量当作每份数量使用。",
+        "重新平均分时，忘记原来的总量不变。",
+        "把往返总路程当成两地之间的单程路程。",
+        "连续平均分时，只除以其中一个份数。"
+      ],
+      "core_concept": "两步乘除问题需要先求中间量，再求最终结果。可以先求每份数量再求几份的总量，也可以先求总量再重新平均分，或连续进行两次平均分。用列表整理条件、用线段图表示数量关系，能帮助说明每一步求什么。往返同一路线时，总路程包含两个单程。",
+      "key_formula": "每份数量=总数量÷份数；总数量=每份数量×份数；往返同一路线的单程路程=往返总路程÷2",
+      "point": "两步乘除问题",
+      "tips": "先说清中间问题，再列分步算式或综合算式。每一步都要说明所得数量的含义，检查时间、路程和数量的单位是否一致。"
+    },
+    {
+      "common_mistakes": [
+        "把“比一个数的几倍多几”列成先加再乘。",
+        "求较便宜物品的单价时误用加法。",
+        "已知剩余总量要平均分，却忘记先减去已经完成的部分。",
+        "连续倍数关系中跳过中间量，错误地选择乘法或除法。"
+      ],
+      "core_concept": "遇到倍数关系和相差关系，要先明确比较的基准量。求比基准量的几倍多或少几的数量，应先乘再加减；求几件较贵或较便宜物品的总价，应先求单价再乘；把剩余数量平均分，应先减再除。连续倍数关系可用线段图或替换的方法逐层整理，不需要列方程。",
+      "key_formula": "比一个数的几倍多几的数=这个数×倍数+多出的数；比一个数的几倍少几的数=这个数×倍数−少的数；剩余数量=总数量−已完成数量",
+      "point": "倍数与相差问题",
+      "tips": "圈出“几倍”“多几”“少几”等关键词，并写清它们分别与哪个量比较。逆着倍数关系求一份量时用除法；算完把结果代回条件检查。"
+    },
+    {
+      "common_mistakes": [
+        "用米、厘米等长度单位表示面积。",
+        "把相邻面积单位的进率100记成10。",
+        "换算方向弄反，乘除方法用错。",
+        "平方米与平方厘米之间跨两个相邻单位，却只乘或除100。",
+        "选择单位时不考虑物体表面的实际大小。"
+      ],
+      "core_concept": "面积表示物体表面或平面图形的大小。边长1厘米、1分米、1米的正方形，面积分别是1平方厘米、1平方分米、1平方米。常用面积单位中，平方米与平方分米之间、平方分米与平方厘米之间的进率都是100。计量时应结合物体表面的实际大小选择单位，并区分面积单位与长度单位。",
+      "key_formula": "1平方米=100平方分米；1平方分米=100平方厘米；1平方米=10000平方厘米",
+      "point": "面积单位与换算",
+      "tips": "先看换算前后的单位，再确定进率。大单位换成小单位，数值乘进率；小单位换成大单位，数值除以进率。每跨一个相邻面积单位，进率为100。"
+    },
+    {
+      "common_mistakes": [
+        "混淆周长与面积，把长度单位写成面积单位。",
+        "长方形周长只算长与宽的和，漏乘2。",
+        "把长方形面积算成长加宽。",
+        "混淆正方形周长与面积的计算方法。",
+        "遇到倍数关系，没有先求出所需边长。",
+        "求数量或总产量时，没有先求场地面积。"
+      ],
+      "core_concept": "周长是平面图形一周边线的长度，面积是图形所占平面的大小。长方形有两条长和两条宽，正方形四条边相等，应根据问题选择周长或面积的计算方法。有关种植数量、占地和产量的问题，通常先确定长、宽并求面积，再根据每份占地面积求数量，或根据每平方米产量求总产量。使用公式前要统一相应的长度单位。",
+      "key_formula": "长方形周长=（长+宽）×2；长方形面积=长×宽；正方形周长=边长×4；正方形面积=边长×边长；数量=总面积÷每份占地面积；总产量=每平方米产量×总面积",
+      "point": "长方形正方形的周长与面积",
+      "tips": "问围边、篱笆长度时考虑周长；问占地或表面大小时考虑面积。周长使用厘米、米等长度单位，面积使用平方厘米、平方米等面积单位。多步问题先列出中间要求的量。"
+    },
+    {
+      "common_mistakes": [
+        "设计的区域超出场地边界，或没有检查能否放入。",
+        "把剩余场地面积算成总面积与花坛面积的和。",
+        "拼摆时出现重叠、空隙，或没有用完规定的小长方形。",
+        "认为面积相同的长方形周长一定相同。",
+        "只根据总面积相等就断定一定能拼成，没有检查具体拼法。"
+      ],
+      "core_concept": "场地设计要满足给定的形状、尺寸和位置条件，设计区域必须完全位于场地内。求剩余部分的面积，可以用场地总面积减去已占区域面积。用相同的小长方形拼成大长方形时，要不重叠、无空隙并用完规定的图形；大长方形面积等于小长方形面积之和。不同拼法得到的长和宽可能不同，面积不变，周长可能改变。总面积相等只是能拼成的必要条件，还要说明具体怎样排列。",
+      "key_formula": "剩余面积=场地总面积−已占区域面积；拼成图形的面积=每个小长方形的面积×个数；长方形周长=（长+宽）×2",
+      "point": "场地设计与图形拼摆",
+      "tips": "先标清场地和设计区域的边长。拼摆时说明每行几个、共有几行，以及小长方形的边朝哪个方向；用表格记录长、宽、周长和面积，再比较。"
+    },
+    {
+      "common_mistakes": [
+        "把绕固定点或轴的转动判断为平移。",
+        "只看位置变化，不检查形状、大小和朝向。",
+        "把翻面或镜像得到的图形当作平移后的图形。",
+        "认为大小改变的图形也能由原图形单纯平移得到。"
+      ],
+      "core_concept": "本课结合直线移动的实例认识平移：物体移动时不转动，形状、大小和朝向保持不变，只改变位置。旋转是物体绕一个点或一条轴转动。辨认平移后的图形，要同时检查形状、大小和朝向，不能把旋转、翻面、放大或缩小当作平移。",
+      "key_formula": "",
+      "point": "平移与旋转",
+      "tips": "观察运动时先找有没有固定的转动点或轴；辨认图形时，可选一个明显特征检查朝向。想象平移后的位置时，让图形整体按指定方向移动，不转动、不翻面。"
+    },
+    {
+      "common_mistakes": [
+        "没有确定北方，就直接把纸面上方当作北。",
+        "没有说清以哪个地点为参照。",
+        "把东北、西北、东南、西南混淆。",
+        "交换参照物与目标地点后，仍使用原来的方向。",
+        "仅凭画面印象判断，没有比较地点之间的相对位置。"
+      ],
+      "core_concept": "描述位置要先确定参照物，再根据方向标辨认东、南、西、北以及东北、西北、东南、西南。在上北下南、左西右东的平面图上，右上方是东北，左上方是西北，右下方是东南，左下方是西南。交换两个地点作为参照物和目标时，所描述的方向相反。",
+      "key_formula": "",
+      "point": "方向与位置",
+      "tips": "先找北，再确定其他方向；按“目标在参照物的什么方向”说完整。可用东与西、南与北、东北与西南、西北与东南互相检查。"
+    },
+    {
+      "common_mistakes": [
+        "分类互相重叠或没有覆盖全部记录，造成重复或遗漏。",
+        "把捐书本数与对应人数混为一谈。",
+        "看记录计数时漏数，整理后不核对各类人数之和。",
+        "画条形统计图时不按统一刻度确定柱高。",
+        "把人数最多的类别看成人数最少的类别，或提出与数据不符的建议。",
+        "以为分类人数之和与总人数相等，就能保证每一类都没有记错。"
+      ],
+      "core_concept": "调查后要按明确的分类标准整理记录，用统计表和条形统计图表示各类数量。整理时逐项核对原始记录，并检查各类数量之和是否与总数相符；读图表时看清类别、数据和单位，比较多少、求和或求差，再提出与调查结果相符的建议。",
+      "key_formula": "分类无重复、无遗漏时，总人数＝各类人数之和；两类人数相差数＝较多人数－较少人数。",
+      "point": "数据整理与统计图表",
+      "tips": "同一次单选调查，每人只能归入一个类别。分类边界应清楚，例如“3本及以下、4本、5本、6本及以上”。绘图前确定每格表示多少人；绘图后把每一类柱高与表中人数逐一核对。总数核对只能帮助查错，不能代替逐项核对。"
+    },
+    {
+      "common_mistakes": [
+        "混合运算不先看括号和运算顺序，直接从左到右乱算。",
+        "连续的倍数关系只处理一步，或把乘除关系弄反。",
+        "行程比较时没有先按相同速度计算指定时间内的路程。",
+        "求蔬菜总产量时漏算菜地面积，混淆平方米与千克。",
+        "图形拼摆时不核对是否用完全部小长方形，误以为面积相同则周长也相同。",
+        "分数题没有以同一个整体为标准，或把同分母分数的分母相加。"
+      ],
+      "core_concept": "综合自测通过计算、倍数关系、图形拼摆、行程、面积与产量、分数等任务检查学习情况。解题前整理条件和问题，选择相应方法；解题后核对运算、单位和实际结论。拼摆要同时检查小图形数量、无重叠无空隙的条件、面积和周长；用分数表示部分时要明确整体及平均分的份数。",
+      "key_formula": "路程＝每小时行驶的路程×时间；长方形面积＝长×宽；长方形周长＝（长＋宽）×2；总产量＝每平方米产量×面积。",
+      "point": "我都学会了吗：综合自测",
+      "tips": "混合运算先算括号里面，再算乘除，最后算加减，同级运算从左到右。连续倍数关系可分步整理。算出路程后要与全程比较，不能只写一个计算结果。自测时先独立完成，再用估算、逆向检查或重新计算查错。"
+    },
+    {
+      "common_mistakes": [
+        "没有根据所求问题筛选信息，把无关数据也列入算式。",
+        "把大约的人数当成准确人数，给估计结果加上“恰好”。",
+        "求总票价时漏乘人数，判断钱够不够时不比较总价与所带钱数。",
+        "求可分人数时把除法的被除数、除数颠倒。",
+        "描述方向时没有确定参照物，计算结束时刻时没有处理满60分进1时。"
+      ],
+      "core_concept": "面对包含票价、人数、物品分配、位置和时刻的综合情境，要先明确问题，再选择必要条件。准确数据用于准确计算，估计数据用于估算；方向描述须明确参照物和北方，时间问题须区分开始时刻、经过时间与结束时刻。提出的新问题应有明确条件，并能用已知信息解决。",
+      "key_formula": "总价＝单价×数量；可分人数＝物品总数÷每人分得数量；结束时刻＝开始时刻＋经过时间；1时＝60分。",
+      "point": "情境综合实践",
+      "tips": "可以先列出“要解决的问题”和“需要的数据”。估算时说明估计依据并用“大约”表述。平面图标明上方为北时，右上、左上、右下、左下分别对应东北、西北、东南、西南。所有自编情境的数据与位置均应在题干中给全。"
+    },
+    {
+      "common_mistakes": [
+        "只说“都会了”，不提供具体的解题或活动实例。",
+        "只看答案对错，不回顾独立思考、表达、倾听及克服困难的表现。",
+        "把会背计算方法当成一定能正确解决实际问题。",
+        "发现薄弱内容后只说“更努力”，没有具体练习和检查安排。"
+      ],
+      "core_concept": "学习总结既要回顾知识和方法，也要回顾学习过程。可以从计算、分数、时间、图形、方向、统计和解决问题中选取实例，说明自己能独立完成什么、还容易在哪里出错；同时评价主动参与、独立思考、表达想法、倾听意见和克服困难的表现，再确定具体的巩固计划。",
+      "key_formula": "",
+      "point": "丰收园：学习总结与评价",
+      "tips": "按“学会的内容—具体证据—仍有的困难—下一步行动”整理。证据可以是独立完成的题目、调查记录或实际操作。与同伴意见不同时先听理由，再说明自己的依据；改进后用新的同类任务检查效果。"
+    }
+  ]
+}

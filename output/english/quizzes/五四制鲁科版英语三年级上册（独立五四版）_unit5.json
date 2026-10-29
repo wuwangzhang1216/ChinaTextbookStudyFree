@@ -1,0 +1,510 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级 上册",
+  "unit": "Unit 5 Classroom",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 Classroom·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "That’s my chair.",
+        "difficulty": 1,
+        "explanation": "远处用that，“我的”用my，椅子是chair。其他选项改变了远近或所属。",
+        "knowledge_point": "This is my desk.",
+        "options": [
+          "That’s my chair.",
+          "This is my chair.",
+          "That’s your chair.",
+          "This is our chair."
+        ],
+        "question": "你指着离自己较远的椅子，想表达“那是我的椅子”。应选哪句话？",
+        "type": "choice",
+        "id": 50001,
+        "score": 10
+      },
+      {
+        "answer": "our",
+        "difficulty": 1,
+        "explanation": "指定中文是“我们的教室”，所以用our。my是“我的”，your是“你的或你们的”，that是“那”。",
+        "knowledge_point": "This is my desk.",
+        "options": [
+          "that",
+          "your",
+          "our",
+          "my"
+        ],
+        "question": "按中文意思“这是我们的教室”补全句子：This is _____ classroom.",
+        "type": "choice",
+        "id": 50002,
+        "score": 10
+      },
+      {
+        "answer": "This is your chair.",
+        "difficulty": 2,
+        "explanation": "椅子在说话人手边，应使用this；“你的椅子”是your chair。其他选项的远近、所属或物品名称不符。",
+        "knowledge_point": "This is my desk.",
+        "options": [
+          "This is your chair.",
+          "That’s your chair.",
+          "This is my desk.",
+          "That’s my desk."
+        ],
+        "question": "你和朋友站在一起，你指着自己手边属于朋友的椅子，想说“这是你的椅子”。应选哪句话？",
+        "type": "choice",
+        "id": 50003,
+        "score": 10
+      },
+      {
+        "answer": "chair",
+        "difficulty": 1,
+        "explanation": "chair表示椅子；desk表示课桌，classroom表示教室，book表示书。",
+        "knowledge_point": "This is my desk.",
+        "options": [
+          "book",
+          "chair",
+          "classroom",
+          "desk"
+        ],
+        "question": "请选择合适的词，使句子表示“这是你的椅子”：This is your _____.",
+        "type": "choice",
+        "id": 50004,
+        "score": 10
+      },
+      {
+        "answer": "h",
+        "difficulty": 1,
+        "explanation": "H的小写是h。i、j、k分别是I、J、K的小写。",
+        "knowledge_point": "This is my desk.",
+        "options": [
+          "h",
+          "i",
+          "j",
+          "k"
+        ],
+        "question": "大写字母H对应的小写字母是哪一个？",
+        "type": "choice",
+        "id": 50005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "our表示“我们的”，所以句子应理解为“这是我们的教室”，不是“这是你的教室”。",
+        "knowledge_point": "This is my desk.",
+        "options": [],
+        "question": "“This is our classroom.”可以翻译为“这是你的教室”。",
+        "type": "true_false",
+        "id": 50006,
+        "score": 10
+      },
+      {
+        "answer": "I have a book.",
+        "difficulty": 1,
+        "explanation": "book表示书。其他选项中的desk、classroom、chair分别表示课桌、教室、椅子，不符合指定意思。",
+        "knowledge_point": "I have a new pen.",
+        "options": [
+          "I have a book.",
+          "I have a desk.",
+          "I have a classroom.",
+          "I have a chair."
+        ],
+        "question": "请选择表示“我有一本书”的句子。",
+        "type": "choice",
+        "id": 50007,
+        "score": 10
+      },
+      {
+        "answer": "I have a new pencil.",
+        "difficulty": 1,
+        "explanation": "I搭配have；a放在new前，new放在pencil前。其他选项分别有词序或动词使用错误。",
+        "knowledge_point": "I have a new pen.",
+        "options": [
+          "I have a new pencil.",
+          "I have a pencil new.",
+          "I has a new pencil.",
+          "I have new a pencil."
+        ],
+        "question": "请选择正确表达“我有一支新铅笔”的句子。",
+        "type": "choice",
+        "id": 50008,
+        "score": 10
+      },
+      {
+        "answer": "It’s nice!",
+        "difficulty": 1,
+        "explanation": "It’s nice!可以表示“它真不错！”。Me, too.表示“我也是”；另外两项分别询问物品和介绍课桌，不符合指定意思。",
+        "knowledge_point": "I have a new pen.",
+        "options": [
+          "It’s nice!",
+          "Me, too.",
+          "What’s this?",
+          "That’s my desk."
+        ],
+        "question": "同学展示一支新钢笔，你想用英语称赞“它真不错！”。应说什么？",
+        "type": "choice",
+        "id": 50009,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "本课表达“我有……”用I have，不用I has。",
+        "knowledge_point": "I have a new pen.",
+        "options": [],
+        "question": "判断句子是否正确：I has a book.",
+        "type": "true_false",
+        "id": 50010,
+        "score": 10
+      },
+      {
+        "answer": "k",
+        "difficulty": 1,
+        "explanation": "大写K对应的小写字母是k。h、i、j分别对应H、I、J。",
+        "knowledge_point": "I have a new pen.",
+        "options": [
+          "h",
+          "i",
+          "j",
+          "k"
+        ],
+        "question": "在复习已学字母的活动中，要把大写K与对应的小写字母配对，应选哪一个？",
+        "type": "choice",
+        "id": 50011,
+        "score": 10
+      },
+      {
+        "answer": "Me, too.",
+        "difficulty": 2,
+        "explanation": "题目要求表达“我也有”，应使用Me, too.。其余选项分别表示称赞、询问远处物品和介绍教室。",
+        "knowledge_point": "I have a new pen.",
+        "options": [
+          "Me, too.",
+          "It’s nice!",
+          "What’s that?",
+          "This is our classroom."
+        ],
+        "question": "同学说“I have a pencil.”，你想简短表达“我也有”。请选择合适的回应。",
+        "type": "choice",
+        "id": 50012,
+        "score": 10
+      },
+      {
+        "answer": "What’s this?",
+        "difficulty": 1,
+        "explanation": "尺子在说话人手边，询问“这是什么”用What’s this?。What’s that?询问远处物品，另两项是陈述句。",
+        "knowledge_point": "What’s this?",
+        "options": [
+          "What’s this?",
+          "What’s that?",
+          "This is a ruler.",
+          "It’s a ruler."
+        ],
+        "question": "一把尺子放在你手边，你想问“这是什么？”。应说哪句话？",
+        "type": "choice",
+        "id": 50013,
+        "score": 10
+      },
+      {
+        "answer": "It’s a pencil.",
+        "difficulty": 1,
+        "explanation": "指定物品是铅笔，对应pencil。其他选项分别是尺子、橡皮和文具盒。",
+        "knowledge_point": "What’s this?",
+        "options": [
+          "It’s a pencil.",
+          "It’s a ruler.",
+          "It’s an eraser.",
+          "It’s a pencil-case."
+        ],
+        "question": "朋友指着一支铅笔问“What’s this?”。你应怎样准确回答物品名称？",
+        "type": "choice",
+        "id": 50014,
+        "score": 10
+      },
+      {
+        "answer": "What’s that?",
+        "difficulty": 2,
+        "explanation": "物品离说话人较远，询问“那是什么”用What’s that?。What’s this?询问近处物品，另两项是回答。",
+        "knowledge_point": "What’s this?",
+        "options": [
+          "What’s that?",
+          "What’s this?",
+          "It’s a pencil-case.",
+          "It’s an eraser."
+        ],
+        "question": "一个文具盒放在离你较远的桌子上，你想问“那是什么？”。应说哪句话？",
+        "type": "choice",
+        "id": 50015,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "ruler以辅音音素开头，表达“一把尺子”用a ruler。",
+        "knowledge_point": "What’s this?",
+        "options": [],
+        "question": "用a ruler表示“一把尺子”，冠词使用正确。",
+        "type": "true_false",
+        "id": 50016,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "eraser以元音音素开头，前面应使用an，正确表达是an eraser。",
+        "knowledge_point": "What’s this?",
+        "options": [],
+        "question": "用a eraser表示“一块橡皮”，冠词使用正确。",
+        "type": "true_false",
+        "id": 50017,
+        "score": 10
+      },
+      {
+        "answer": "Ll、Mm、Nn",
+        "difficulty": 1,
+        "explanation": "L、M、N对应的小写依次是l、m、n。其他选项都存在大小写不对应的配对。",
+        "knowledge_point": "What’s this?",
+        "options": [
+          "Ll、Mm、Nn",
+          "Lm、Mn、Nl",
+          "Ln、Ml、Nm",
+          "Ll、Mn、Nm"
+        ],
+        "question": "请选择三对大小写字母全部对应正确的一组。",
+        "type": "choice",
+        "id": 50018,
+        "score": 10
+      },
+      {
+        "answer": "This is Mr Wood.",
+        "difficulty": 1,
+        "explanation": "This is Mr Wood.用于介绍伍德先生。其余选项分别介绍课桌、教室和文具盒，不能介绍这位男士。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is Mr Wood.",
+          "This is my desk.",
+          "This is our classroom.",
+          "This is a pencil-case."
+        ],
+        "question": "你想向妈妈介绍伍德先生。请选择表达“这是伍德先生”的句子。",
+        "type": "choice",
+        "id": 50019,
+        "score": 10
+      },
+      {
+        "answer": "Nice to meet you.",
+        "difficulty": 1,
+        "explanation": "Nice to meet you.表示“很高兴认识你”。其他选项分别表示称赞物品、我也是、询问物品，不符合指定意思。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Nice to meet you.",
+          "It’s nice!",
+          "Me, too.",
+          "What’s this?"
+        ],
+        "question": "第一次见到来访的老师，你要说“很高兴认识你”。应选择哪句话？",
+        "type": "choice",
+        "id": 50020,
+        "score": 10
+      },
+      {
+        "answer": "This is our new classroom.",
+        "difficulty": 2,
+        "explanation": "our、new、classroom分别对应“我们的”“新的”“教室”。其余选项的所属或物品名称不符合指定意思。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is our new classroom.",
+          "This is my new classroom.",
+          "This is your new classroom.",
+          "This is our new desk."
+        ],
+        "question": "请选择准确表达“这是我们的新教室”的句子。",
+        "type": "choice",
+        "id": 50021,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Nice to meet you.是初次见面时的问候语，双方都可以使用。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "两个人初次见面时，可以互相说“Nice to meet you.”。",
+        "type": "true_false",
+        "id": 50022,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "my表示“我的”，our表示“我们的”。两个句子都可以成立，但意思不完全相同。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "“This is my classroom.”与“This is our classroom.”的中文意思完全相同。",
+        "type": "true_false",
+        "id": 50023,
+        "score": 10
+      },
+      {
+        "answer": "It’s a pencil-case.",
+        "difficulty": 2,
+        "explanation": "pencil-case表示文具盒。其余选项分别是椅子、书包和教室，均与题干指定的物品不符。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "It’s a pencil-case.",
+          "It’s a chair.",
+          "It’s a schoolbag.",
+          "It’s a classroom."
+        ],
+        "question": "来访者指着你身旁的一个文具盒问“What’s this?”。请选择正确回答。",
+        "type": "choice",
+        "id": 50024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 5 Classroom·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "This is my desk.",
+        "difficulty": 1,
+        "explanation": "题目明确要求表达“这是我的课桌”。this对应“这”，my对应“我的”，desk对应“课桌”；其余选项分别改变了远近、所属或物品名称。",
+        "knowledge_point": "This is my desk.",
+        "options": [
+          "This is my desk.",
+          "That’s my desk.",
+          "This is your desk.",
+          "This is my chair."
+        ],
+        "question": "你和朋友站在自己的课桌旁。请选择准确表达“这是我的课桌”的句子。",
+        "type": "choice",
+        "id": 59001,
+        "score": 10
+      },
+      {
+        "answer": "schoolbag",
+        "difficulty": 1,
+        "explanation": "schoolbag表示书包；book表示书，pen表示钢笔，pencil表示铅笔。题干指定了物品是书包，因此答案唯一。",
+        "knowledge_point": "I have a new pen.",
+        "options": [
+          "schoolbag",
+          "pen",
+          "book",
+          "pencil"
+        ],
+        "question": "你展示自己的一个书包，说“我有一个书包”。请选择合适的词补全句子：I have a _____.",
+        "type": "choice",
+        "id": 59002,
+        "score": 10
+      },
+      {
+        "answer": "It’s an eraser.",
+        "difficulty": 2,
+        "explanation": "题干指定物品是橡皮，应该用eraser；eraser以元音音素开头，前面用an。其余选项或冠词错误，或物品不符。",
+        "knowledge_point": "What’s this?",
+        "options": [
+          "It’s an eraser.",
+          "It’s a eraser.",
+          "It’s a ruler.",
+          "It’s a pencil-case."
+        ],
+        "question": "朋友指着远处的一块橡皮问“What’s that?”。请选择物品名称和英语表达都正确的回答。",
+        "type": "choice",
+        "id": 59003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "大写字母J对应的小写字母是j，不是i；i对应的大写字母是I。",
+        "knowledge_point": "This is my desk.",
+        "options": [],
+        "question": "判断大小写字母配对是否正确：J—i。",
+        "type": "true_false",
+        "id": 59004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "句子表示“我有一支新钢笔”。new表示“新的”，放在pen前面修饰pen。",
+        "knowledge_point": "I have a new pen.",
+        "options": [],
+        "question": "在“I have a new pen.”中，new说明钢笔是新的。",
+        "type": "true_false",
+        "id": 59005,
+        "score": 10
+      },
+      {
+        "answer": "This is our classroom.",
+        "difficulty": 2,
+        "explanation": "our表示“我们的”，classroom表示“教室”。其他选项分别表示你的教室、我们的课桌、我的椅子，均不符合指定意思。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is our classroom.",
+          "This is your classroom.",
+          "This is our desk.",
+          "This is my chair."
+        ],
+        "question": "参观学校时，你要向来访者表达“这是我们的教室”。请选择意思准确的句子。",
+        "type": "choice",
+        "id": 59006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "不考虑物品与说话人的距离，把this和that混用。",
+        "混淆my（我的）、your（你的或你们的）、our（我们的）。",
+        "混淆desk（课桌）、chair（椅子）和classroom（教室）。",
+        "认错大小写字母配对，如把I的小写认成j。"
+      ],
+      "core_concept": "本课结合教室情境学习classroom（教室）、desk（课桌）和chair（椅子）。介绍近处的物品或所在教室可用“This is…”；介绍远处的物品可用“That’s…”，That’s是That is的缩写。my、your、our分别表示“我的”“你的或你们的”“我们的”，结合交流对象选择即可，不展开系统语法学习。本课还认读Hh、Ii、Jj、Kk；单元导入中的物品问答作为情境感知，完整问答在第三课学习。",
+      "key_formula": "近处：This is…；远处：That’s…",
+      "point": "This is my desk.",
+      "tips": "先以说话人为参照判断近远，再确定物品是谁的。介绍自己的物品用my，介绍对方的物品用your，表达“我们的”用our。认字母时把H和h、I和i、J和j、K和k成对练习。"
+    },
+    {
+      "common_mistakes": [
+        "把I have误写成I has。",
+        "在本课单件物品的表达中漏掉a，如误写I have book。",
+        "把new放到名词后面；本课说a new pen，不说a pen new。",
+        "把Me, too.与It’s nice!混淆：前者表示自己也一样，后者用于称赞。"
+      ],
+      "core_concept": "本课学习schoolbag（书包）、book（书）、pencil（铅笔）和pen（钢笔），用“I have a…”介绍自己拥有的一件学习用品。new表示“新的”，放在物品名称前，如“a new pen”。同伴说自己有某物，而自己也有时，可以回应“Me, too.”；称赞展示的物品可说“It’s nice!”。找字母活动用于巩固已学字母的辨认，不另增加语法内容。",
+      "key_formula": "I have a + 单数物品名称.；I have a new + 单数物品名称.",
+      "point": "I have a new pen.",
+      "tips": "展示物品时，先说I have a，再接物品名称。要说明是新的，就把new放在物品名称前。听清对方的话再回应：想表达“我也有”用Me, too.，想表达“它真不错”用It’s nice!。找字母时留意方向和形状，复习已学大小写字母。"
+    },
+    {
+      "common_mistakes": [
+        "询问物品时混淆this与that，没有以说话人为参照判断近远。",
+        "把询问句What’s this?当作物品名称的回答。",
+        "误说a eraser或an ruler；本课应说an eraser、a ruler。",
+        "混淆pencil（铅笔）和pencil-case（文具盒）。",
+        "把大写L对应的小写l认成其他字母。"
+      ],
+      "core_concept": "本课学习ruler（尺子）、pencil-case（文具盒、铅笔盒）、eraser（橡皮），并复习pencil（铅笔）。询问近处物品用“What’s this?”，询问远处物品用“What’s that?”，回答用“It’s a/an…”接物品名称。结合本课实例体会a与an：a ruler、a pencil、a pencil-case、an eraser；an用于eraser前是因为它以元音音素开头。本课还认读Ll、Mm、Nn。",
+      "key_formula": "What’s this/that? — It’s a/an + 物品名称.",
+      "point": "What’s this?",
+      "tips": "先判断物品相对说话人是近还是远，再用this或that提问；回答时说清物品名称。把问句和答句成对练习，不只背单词。结合an eraser记住冠词用法，并把L与l、M与m、N与n成对认读。"
+    },
+    {
+      "common_mistakes": [
+        "把介绍人物的“This is…”与询问物品的“What’s this?”混淆。",
+        "把our译成“你的”；our表示“我们的”。",
+        "把my classroom一概判错；它可以表示“我的教室”，但不等于“我们的教室”。",
+        "把a pencil-case误写成an pencil-case。"
+      ],
+      "core_concept": "本课通过家长参观教室的对话综合复习：用“Mum, this is Mr Wood.”介绍人物，用“Nice to meet you.”进行初次见面的问候；用“This is our new classroom.”介绍教室，用“This is my desk. This is my chair.”介绍自己的桌椅；用“What’s this?”询问物品，并用“It’s a pencil-case.”回答。字母格找词活动帮助辨认已学词汇，也可联系前课口头复习“I have a…”；这些活动不构成新的语法教学。",
+      "key_formula": "介绍：This is…；询问近处物品：What’s this?；回答：It’s a/an + 物品名称.",
+      "point": "Again, please!",
+      "tips": "角色表演时按“介绍人物—互相问候—介绍教室与桌椅—询问物品”的顺序交流。my是“我的”，our是“我们的”，要按想表达的意思选择，不能仅因教室由多人使用就认定my错误。找词时注意辨认完整单词，不把活动字母格当作课文朗读。"
+    }
+  ]
+}

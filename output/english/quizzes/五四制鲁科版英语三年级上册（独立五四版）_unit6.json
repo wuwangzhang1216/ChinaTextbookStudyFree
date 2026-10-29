@@ -1,0 +1,526 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级 上册",
+  "unit": "Unit 6 Colours",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "Unit 6 Colours·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "It's red.",
+        "difficulty": 1,
+        "explanation": "red是红色，符合题意；green、yellow、blue分别是绿色、黄色、蓝色，均不符合橡皮的颜色。",
+        "knowledge_point": "It's red.",
+        "options": [
+          "It's red.",
+          "It's green.",
+          "It's yellow.",
+          "It's blue."
+        ],
+        "question": "一块橡皮只有红色。回答“What colour is it?”，应选择哪一句？",
+        "type": "choice",
+        "id": 60001,
+        "score": 10
+      },
+      {
+        "answer": "What colour is the pen?",
+        "difficulty": 1,
+        "explanation": "pen表示钢笔，正确选项询问钢笔颜色。含pencil的选项询问铅笔颜色，含do you like的选项询问喜好，It's blue.是回答颜色，都不符合。",
+        "knowledge_point": "It's red.",
+        "options": [
+          "What colour is the pencil?",
+          "What colour is the pen?",
+          "What colour do you like?",
+          "It's blue."
+        ],
+        "question": "你想问一支钢笔是什么颜色，应选择哪一句？",
+        "type": "choice",
+        "id": 60002,
+        "score": 10
+      },
+      {
+        "answer": "green",
+        "difficulty": 1,
+        "explanation": "green表示绿色，符合题意；red、yellow、blue分别表示红色、黄色、蓝色。",
+        "knowledge_point": "It's red.",
+        "options": [
+          "red",
+          "yellow",
+          "green",
+          "blue"
+        ],
+        "question": "一个风车只有绿色。请补全对它的描述：It's ____.",
+        "type": "choice",
+        "id": 60003,
+        "score": 10
+      },
+      {
+        "answer": "What colour is the pencil?",
+        "difficulty": 1,
+        "explanation": "pencil表示铅笔，正确选项询问铅笔颜色。It's red.描述颜色，含pen的问句询问钢笔颜色，含do you like的问句询问喜好，均不符合。",
+        "knowledge_point": "It's red.",
+        "options": [
+          "It's red.",
+          "What colour is the pen?",
+          "What colour do you like?",
+          "What colour is the pencil?"
+        ],
+        "question": "你想问一支铅笔是什么颜色，应选择哪一句？",
+        "type": "choice",
+        "id": 60004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "I like yellow.表示“我喜欢黄色”；It's yellow.表示“它是黄色的”。两句意思不同。",
+        "knowledge_point": "It's red.",
+        "options": [],
+        "question": "“I like yellow.”与“It's yellow.”的意思完全相同，都表示“它是黄色的”。判断正误。",
+        "type": "true_false",
+        "id": 60005,
+        "score": 10
+      },
+      {
+        "answer": "Qq",
+        "difficulty": 1,
+        "explanation": "Q与q是同一个字母的大小写形式。Op、Pq、Qo都把不同字母配在了一起。",
+        "knowledge_point": "It's red.",
+        "options": [
+          "Op",
+          "Qo",
+          "Pq",
+          "Qq"
+        ],
+        "question": "下面哪一组是同一个字母正确的大写、小写配对？",
+        "type": "choice",
+        "id": 60006,
+        "score": 10
+      },
+      {
+        "answer": "It's red and yellow.",
+        "difficulty": 1,
+        "explanation": "red and yellow完整对应红色和黄色。It's red.漏掉黄色；green and yellow把红色换成绿色；red and white把黄色换成白色。",
+        "knowledge_point": "It's red and yellow.",
+        "options": [
+          "It's red and yellow.",
+          "It's green and yellow.",
+          "It's red.",
+          "It's red and white."
+        ],
+        "question": "一条彩带只有红色和黄色两种颜色。要完整描述这两种颜色，应选择哪一句？",
+        "type": "choice",
+        "id": 60007,
+        "score": 10
+      },
+      {
+        "answer": "white",
+        "difficulty": 1,
+        "explanation": "white表示白色，符合题意；green是绿色，blue是蓝色，red是红色，均不能补出题目要求的白色。",
+        "knowledge_point": "It's red and yellow.",
+        "options": [
+          "green",
+          "blue",
+          "white",
+          "red"
+        ],
+        "question": "一个纸盒只有红色和白色。请补全对这两种颜色的描述：It's red and ____.",
+        "type": "choice",
+        "id": 60008,
+        "score": 10
+      },
+      {
+        "answer": "and",
+        "difficulty": 2,
+        "explanation": "and表示“和”，用于连接并列颜色。is、do、am都不能在这里连接blue与white。",
+        "knowledge_point": "It's red and yellow.",
+        "options": [
+          "and",
+          "is",
+          "do",
+          "am"
+        ],
+        "question": "要表达“它是红、蓝、白三色的”，请补全：It's red, blue ____ white.",
+        "type": "choice",
+        "id": 60009,
+        "score": 10
+      },
+      {
+        "answer": "It's green and yellow.",
+        "difficulty": 2,
+        "explanation": "green and yellow完整对应绿色和黄色。green and white把黄色换成白色；blue and yellow把绿色换成蓝色；yellow漏掉绿色。",
+        "knowledge_point": "It's red and yellow.",
+        "options": [
+          "It's green and yellow.",
+          "It's blue and yellow.",
+          "It's green and white.",
+          "It's yellow."
+        ],
+        "question": "一个玩具只有绿色和黄色两种颜色。回答“What colour is it?”并完整说出这两种颜色，应选择哪一句？",
+        "type": "choice",
+        "id": 60010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "这句话表示物品有红色和白色两种颜色，and连接的是并列颜色，不是在说明颜料混合。",
+        "knowledge_point": "It's red and yellow.",
+        "options": [],
+        "question": "描述一个物品时说“It's red and white.”，表示红色和白色颜料混合成了一种新颜色。判断正误。",
+        "type": "true_false",
+        "id": 60011,
+        "score": 10
+      },
+      {
+        "answer": "It's red, blue and white.",
+        "difficulty": 2,
+        "explanation": "正确选项完整列出红、蓝、白三色。red and blue漏掉白色；red, green and white把蓝色换成绿色；blue and white漏掉红色。",
+        "knowledge_point": "It's red and yellow.",
+        "options": [
+          "It's red and blue.",
+          "It's red, blue and white.",
+          "It's red, green and white.",
+          "It's blue and white."
+        ],
+        "question": "一个彩球只有红色、蓝色和白色。要完整描述这三种颜色，应选择哪一句？",
+        "type": "choice",
+        "id": 60012,
+        "score": 10
+      },
+      {
+        "answer": "What colour do you like?",
+        "difficulty": 1,
+        "explanation": "只有What colour do you like?询问颜色喜好。其余三句分别询问某物、钢笔和铅笔的颜色。",
+        "knowledge_point": "I like green.",
+        "options": [
+          "What colour is it?",
+          "What colour is the pen?",
+          "What colour do you like?",
+          "What colour is the pencil?"
+        ],
+        "question": "英语句子“你喜欢什么颜色？”是哪一句？",
+        "type": "choice",
+        "id": 60013,
+        "score": 10
+      },
+      {
+        "answer": "I like orange.",
+        "difficulty": 1,
+        "explanation": "I like orange.表示喜欢橙色。It's orange.描述物品颜色；I like black.表示喜欢黑色；I like green.表示喜欢绿色。",
+        "knowledge_point": "I like green.",
+        "options": [
+          "I like black.",
+          "I like green.",
+          "It's orange.",
+          "I like orange."
+        ],
+        "question": "小丽想说“我喜欢橙色”，应选择哪一句？",
+        "type": "choice",
+        "id": 60014,
+        "score": 10
+      },
+      {
+        "answer": "blue and white",
+        "difficulty": 2,
+        "explanation": "blue and white是蓝色和白色。blue and yellow把白色换成黄色，green and white把蓝色换成绿色，white只保留白色。",
+        "knowledge_point": "I like green.",
+        "options": [
+          "blue and yellow",
+          "green and white",
+          "blue and white",
+          "white"
+        ],
+        "question": "要表达“我喜欢蓝色和白色”，请补全：I like ____.",
+        "type": "choice",
+        "id": 60015,
+        "score": 10
+      },
+      {
+        "answer": "s",
+        "difficulty": 1,
+        "explanation": "S对应的小写是s；r、t、p分别对应大写R、T、P。",
+        "knowledge_point": "I like green.",
+        "options": [
+          "r",
+          "s",
+          "t",
+          "p"
+        ],
+        "question": "大写字母S对应的小写字母是哪一个？",
+        "type": "choice",
+        "id": 60016,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "I like green.是陈述句，意思是“我喜欢绿色”，不是询问对方是否喜欢绿色。",
+        "knowledge_point": "I like green.",
+        "options": [],
+        "question": "“I like green.”的意思是“你喜欢绿色吗？”。判断正误。",
+        "type": "true_false",
+        "id": 60017,
+        "score": 10
+      },
+      {
+        "answer": "I like yellow and orange.",
+        "difficulty": 2,
+        "explanation": "正确选项用I like表达喜欢，并完整列出黄色和橙色。It's yellow and orange.描述物品颜色；I like yellow and black.换成了黑色；I like orange.漏掉了黄色。",
+        "knowledge_point": "I like green.",
+        "options": [
+          "It's yellow and orange.",
+          "I like yellow and black.",
+          "I like yellow and orange.",
+          "I like orange."
+        ],
+        "question": "小林要完整表达“我喜欢黄色和橙色”，应选择哪一句？",
+        "type": "choice",
+        "id": 60018,
+        "score": 10
+      },
+      {
+        "answer": "It's blue.",
+        "difficulty": 2,
+        "explanation": "问题询问书包实际是什么颜色，题目给定蓝色，所以选It's blue.。I like blue.表达喜好，This is my schoolbag.介绍物品，I like it.表达喜爱，都没有直接说明书包颜色。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I like it.",
+          "This is my schoolbag.",
+          "I like blue.",
+          "It's blue."
+        ],
+        "question": "小安喜欢黄色，但他的书包只有蓝色。同学指着这个书包问“What colour is it?”，小安应怎样回答？",
+        "type": "choice",
+        "id": 60019,
+        "score": 10
+      },
+      {
+        "answer": "I like yellow.",
+        "difficulty": 1,
+        "explanation": "I like yellow.表示“我喜欢黄色”。It's yellow.描述物品颜色；I like blue.和I like white.分别表示喜欢蓝色和白色。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "It's yellow.",
+          "I like blue.",
+          "I like yellow.",
+          "I like white."
+        ],
+        "question": "小明想表达“我喜欢黄色”，应选择哪一句？",
+        "type": "choice",
+        "id": 60020,
+        "score": 10
+      },
+      {
+        "answer": "It's black and white.",
+        "difficulty": 2,
+        "explanation": "black and white完整对应黑色和白色。black and yellow把白色换成黄色，blue and white把黑色换成蓝色，yellow则只说了黄色。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "It's black and yellow.",
+          "It's yellow.",
+          "It's blue and white.",
+          "It's black and white."
+        ],
+        "question": "一个书包只有黑色和白色两种颜色。回答“What colour is it?”并完整说出这两种颜色，应选哪一句？",
+        "type": "choice",
+        "id": 60021,
+        "score": 10
+      },
+      {
+        "answer": "Look! I have a new schoolbag.",
+        "difficulty": 2,
+        "explanation": "正确选项完整表达“看！我有一个新书包。”。This is my pen.介绍钢笔，I like yellow.表达颜色喜好，What colour is it?询问颜色，均不符合。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is my pen.",
+          "I like yellow.",
+          "What colour is it?",
+          "Look! I have a new schoolbag."
+        ],
+        "question": "你拿出一个新书包，想说“看！我有一个新书包。”，应选择哪一句？",
+        "type": "choice",
+        "id": 60022,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "What colour do you like?询问对方喜欢什么颜色。询问物品本身的颜色可以说What colour is it?。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "“What colour do you like?”是在询问一个物品本身是什么颜色。判断正误。",
+        "type": "true_false",
+        "id": 60023,
+        "score": 10
+      },
+      {
+        "answer": "This is my schoolbag.",
+        "difficulty": 1,
+        "explanation": "This is my schoolbag.表示“这是我的书包”。This is my pencil.介绍铅笔，I like my schoolbag.表达喜欢书包，It's yellow.描述颜色，都不等于题目要求的介绍。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is my pencil.",
+          "This is my schoolbag.",
+          "It's yellow.",
+          "I like my schoolbag."
+        ],
+        "question": "你要介绍自己的书包，说“这是我的书包。”，应选择哪一句？",
+        "type": "choice",
+        "id": 60024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 6 Colours·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "yellow",
+        "difficulty": 1,
+        "explanation": "yellow是黄色，符合卡片的颜色；blue是蓝色，green是绿色，red是红色，均不符合。",
+        "knowledge_point": "It's red.",
+        "options": [
+          "yellow",
+          "red",
+          "blue",
+          "green"
+        ],
+        "question": "一张卡片只有黄色。请补全对它的描述：It's ____.",
+        "type": "choice",
+        "id": 69001,
+        "score": 10
+      },
+      {
+        "answer": "p",
+        "difficulty": 1,
+        "explanation": "P的小写是p；q、o、t分别对应大写Q、O、T。",
+        "knowledge_point": "It's red.",
+        "options": [
+          "q",
+          "o",
+          "p",
+          "t"
+        ],
+        "question": "大写字母P对应的小写字母是哪一个？",
+        "type": "choice",
+        "id": 69002,
+        "score": 10
+      },
+      {
+        "answer": "It's blue and white.",
+        "difficulty": 2,
+        "explanation": "blue and white完整对应蓝色和白色；blue and yellow把白色换成黄色，red and white把蓝色换成红色，white只说出一种颜色。",
+        "knowledge_point": "It's red and yellow.",
+        "options": [
+          "It's blue and yellow.",
+          "It's blue and white.",
+          "It's red and white.",
+          "It's white."
+        ],
+        "question": "一个盒子只有蓝色和白色两种颜色。要完整说出它的这两种颜色，应选择哪一句？",
+        "type": "choice",
+        "id": 69003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "black是黑色，orange才是橙色。I like black.表示“我喜欢黑色”。",
+        "knowledge_point": "I like green.",
+        "options": [],
+        "question": "“I like black.”的意思是“我喜欢橙色”。判断正误。",
+        "type": "true_false",
+        "id": 69004,
+        "score": 10
+      },
+      {
+        "answer": "Tt",
+        "difficulty": 1,
+        "explanation": "只有T和t是同一个字母的大小写形式。Tr、St、Rs都把不同字母配在了一起。",
+        "knowledge_point": "I like green.",
+        "options": [
+          "Tt",
+          "Tr",
+          "Rs",
+          "St"
+        ],
+        "question": "下面哪一组是同一个字母正确的大写、小写配对？",
+        "type": "choice",
+        "id": 69005,
+        "score": 10
+      },
+      {
+        "answer": "喜欢这个书包。",
+        "difficulty": 2,
+        "explanation": "I like it.表示“我喜欢它”。题目明确it指这个书包，因此只有“喜欢这个书包”正确；句子没有询问颜色、表达不喜欢或限定只喜欢白色。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "不喜欢这个书包。",
+          "喜欢这个书包。",
+          "只喜欢白色。",
+          "询问书包的颜色。"
+        ],
+        "question": "小华指着一个书包说“I like it.”，其中it指这个书包。这句话表达了什么？",
+        "type": "choice",
+        "id": 69006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "混淆red（红色）、green（绿色）、yellow（黄色）、blue（蓝色）。",
+        "用I like ...代替It's ...描述物品颜色；前者表达喜好，后者说明物品颜色。",
+        "混淆pen（钢笔）与pencil（铅笔），没有问到指定物品。",
+        "把Oo、Pp、Qq中不同字母的大小写配在一起。"
+      ],
+      "core_concept": "本课学习询问和回答物品颜色。What colour is it?表示“它是什么颜色的？”。询问具体物品时，可以说What colour is the pen?或What colour is the pencil?。回答用It's ...加颜色词，例如It's blue.。本课认读和运用red（红色）、green（绿色）、yellow（黄色）、blue（蓝色），并认读Oo、Pp、Qq：O对应o，P对应p，Q对应q。导入页的I like yellow.表示“我喜欢黄色”，只作喜好表达的情境感知，不等同于描述物品颜色。",
+      "key_formula": "",
+      "point": "It's red.",
+      "tips": "先弄清问的是哪个物品，再根据给定颜色作答。注意pen与pencil的区别。字母练习要核对大写和小写是否属于同一个字母。"
+    },
+    {
+      "common_mistakes": [
+        "把red and white理解为两种颜料混合成一种新颜色。",
+        "需要完整描述物品的多种颜色时，只说其中一种。",
+        "把white（白色）与其他颜色词混淆。",
+        "误以为并列颜色只有一种正确排列顺序；颜色相同且表达规范时，次序可以不同。",
+        "回答转盘活动中的颜色问题时，不辨认指针所指位置就列出整个转盘的所有颜色。"
+      ],
+      "core_concept": "用What colour is it?询问物品颜色。物品有两种颜色时，可以用It's ... and ...回答；列举三种颜色时，可以说It's red, blue and white.。and表示“和”，连接并列的颜色，并不表示颜料混色。本课学习white（白色），巩固已学颜色词。歌谣活动还帮助感知black（黑色）以及mouth（嘴）、face（脸）、nose（鼻子）、hair（头发）、body（身体）与所描述颜色的对应；这些对应属于歌谣情境，不表示所有人的这些部位都具有相同颜色。",
+      "key_formula": "",
+      "point": "It's red and yellow.",
+      "tips": "先确定要描述的物品或部分，再完整说出题目给定的颜色。两种颜色用and连接；列举三种颜色时，可用逗号分隔前两项，在最后一项前用and。不要把多色描述当成混色结果。"
+    },
+    {
+      "common_mistakes": [
+        "把What colour do you like?当成询问物品实际颜色。",
+        "表达颜色喜好时漏掉like，或用It's ...代替I like ...。",
+        "想表达同时喜欢两种颜色时漏掉and，或误用表示“或者”的or。",
+        "混淆black（黑色）和orange（橙色）。",
+        "把Rr、Ss、Tt的大小写对应关系记错。"
+      ],
+      "core_concept": "用What colour do you like?询问对方喜欢什么颜色，用I like ...表达自己的颜色喜好。例如I like green.表示“我喜欢绿色”；I like blue and white.表示“我喜欢蓝色和白色”。本课学习orange（橙色），巩固black（黑色）以及已学的颜色词。个人喜欢的颜色不一定就是某件物品的实际颜色。本课还认读Rr、Ss、Tt：R对应r，S对应s，T对应t。",
+      "key_formula": "",
+      "point": "I like green.",
+      "tips": "听到do you like，要注意问题在问喜好。喜欢两种颜色时，可以用and把两个颜色词连接起来。认读字母时，把同一个字母的大写和小写配成一组。"
+    },
+    {
+      "common_mistakes": [
+        "把What colour is it?与What colour do you like?混用：前者询问物品颜色，后者询问颜色喜好。",
+        "把It's yellow.当成“我喜欢黄色”；表达这种喜好应说I like yellow.",
+        "把I like it.中的it固定理解为一种颜色；本课书包展示语境中的it指书包。",
+        "把脸谱活动中未说完的颜色列举自行补写成教材原文。"
+      ],
+      "core_concept": "本课综合复习颜色问答、多色描述和喜好表达。What colour is it?询问物品颜色，用It's ...回答；What colour do you like?询问颜色喜好，用I like ...回答。Look! I have a new schoolbag.表示“看！我有一个新书包。”；This is my schoolbag.表示“这是我的书包。”；I like it.表示“我喜欢它”。描述书包或涂色作品时，要根据实际颜色作答，多种颜色可以用and连接。脸谱人物姓名不作为本课新增核心词汇。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "展示物品时，可以依次介绍物品、说明颜色、表达喜爱之情。先分清是在问颜色还是问喜好，再选择回答句型。教材脸谱活动的颜色列举没有说完，不能擅自补成原文。"
+    }
+  ]
+}

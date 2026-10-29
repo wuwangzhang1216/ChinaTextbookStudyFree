@@ -1,0 +1,1209 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·数学（二年级下册）",
+  "edition": "54-qingdao",
+  "editionLabel": "五四制·青岛版",
+  "schoolSystem": "5-4",
+  "publisherLabel": "青岛版",
+  "sourceEdition": "2018年1月第4版",
+  "sourcePrinting": "2022年1月第46次印刷",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "一 游览北京——万以内数的认识",
+      "knowledge_points": [
+        {
+          "name": "千以内数的组成与读写",
+          "description": "结合游览北京情境，借助学具和计数器认识三位数的组成，学习千以内数的读写及按一、十、百数数；理解跨整十、整百时的变化，处理数中间或末尾有0的情况，不引入万以内四位数的系统读写。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识一千",
+          "description": "通过逐个添数、整百计数和计数器进位认识一千，理解10个一百是一千以及千位的位置；结合书本厚度、手拉手长度等实例建立一千的数量感，巩固接近一千时的数数。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "用算盘表示数",
+          "description": "认识算盘的上珠、下珠及数位，理解一个上珠表示5、一个下珠表示1的记数规则；练习拨数、读数和满十进一，能表示含0的数，了解教材中的算盘文化资料，不开展珠算算法教学。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "寻找生活中较大的数",
+          "description": "在生活资料中寻找已学范围内较大的数，记录其读法、组成和实际含义，与同伴交流；结合不同表示方式巩固千以内数的认识，不要求核实或更新教材中的历史资料数据。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识万以内数和一万",
+          "description": "从人民大会堂座位数认识四位数的组成，借助学具和计数器按千数数；经历由九千九百九十九添一得到一万的过程，理解10个一千是一万，整理从个位到万位的数位顺序，并用纸张等实例感受一万的大小。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "万以内数的读写",
+          "description": "依据数位顺序和数的组成读写万以内的数，重点区分中间有0与末尾有0的读写规则；说明同一数字在不同数位上的不同意义，借助计数器、数位表和算盘巩固表示方法，不扩展到万以上数的系统读写。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "调查学校中的数",
+          "description": "调查并记录学校学生人数、图书册数、体育器材件数等数据，正确读写并说明计数单位，交流数据来源及其含义；以万以内数据为主要学习对象，不新增统计图表类型。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识近似数",
+          "description": "借助餐厅座位数及数线理解准确数与近似数的区别，认识约等号，依据接近的整百、整千数表达大约数量；结合实际情境选择合理近似数，不机械引入教材未讲授的四舍五入规则。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "万以内数的大小比较",
+          "description": "学习位数不同时先比较位数、位数相同时从高位依次比较的方法，用大小符号表示结果并将多个数排序；通过猜数缩小范围，理解并运用多一些、多得多等数量关系描述，不把近似比较代替所有精确比较。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "整十整百整千数加减法",
+          "description": "在长度和台阶数量情境中，把整十、整百、整千数看作若干个相应计数单位，理解并口算简单加减法；涵盖整十数进退位、整百数跨千及简单整千数与整百数组合的运算，不扩展为一般万以内数的笔算加减法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "用口算解决实际问题",
+          "description": "从图画与植树统计表中选择信息，解决求总数、求相差数等简单加减问题，并自主提出可解答的问题；区分已装与未装等信息，结合剩余页数比较已读数量，重视数量关系、单位和结果解释，不照抄教材原题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "用参照估计数量",
+          "description": "学习选取一行或一部分作为参照，通过分组、圈画和比较部分与整体来估计字数及物体数量；在班报、容器、菜地、图中物体和书架等情境中说明估计依据，练习估计课本文字数量，强调合理范围而非唯一精确答案；随课巩固已学口算，并保留移动火柴棒组成三位数的观察活动。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "估计操场一周的长度",
+          "description": "围绕估计操场一周长度制定方案，选择一步或一段已知长度作为参照，进行估计并交流不同方法；强调参照长度与计数单位一致，只开展教材要求的长度估计，不提前引入周长公式或复杂测量计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗",
+          "description": "通过教材综合资料梳理万以内数的组成、数位、读写、大小比较、近似数、简单口算和数量估计；练习从资料中提取数并交流收集结果，利用问题口袋与自我评价检查学习情况。资料保留教材原有年代背景，不替换为当代数据，不要求学习万以上数的读写。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "二 甜甜的梦——毫米、分米、千米的认识",
+      "knowledge_points": [
+        {
+          "name": "认识毫米",
+          "description": "从信息窗1的变小情境认识毫米及符号mm，观察直尺小格并借助实物厚度建立1毫米的长度表象；理解1厘米=10毫米，能按毫米读出物体长度。区分毫米小格与厘米刻度，不把示意图的显示尺寸当作实物尺寸。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识分米",
+          "description": "承接信息窗1的变大情境认识分米及符号dm，通过直尺、手长和物体高度建立1分米的长度表象；理解1分米=10厘米、1米=10分米，并用手势比较毫米、厘米、分米和米的大小。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "长度单位换算与比较",
+          "description": "依据米、分米、厘米、毫米之间已学的进率进行简单换算，能解释由几个相同长度单位组成另一种单位的过程；完成等长匹配、统一单位后的大小比较及简单长度加减。以教材涉及的整数换算为限，不引入小数或复杂复名数。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "长度的估测与测量",
+          "description": "选择毫米、厘米、分米或米描述常见物体的长度、厚度和高度；先估计再用直尺测量实物与图形边长，比较估测和实测结果，并利用身体部位建立长度参照。结合教材科普资料体会不同对象应选用不同单位，不扩展图形周长计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识千米",
+          "description": "从信息窗2认识表示较长距离的千米，知道千米又叫公里及其符号km，理解1千米=1000米；借助熟悉的场所长度和步行体验建立1千米的距离表象，梳理本单元出现的五种长度单位。步行时间仅作体验参照，不作为固定标准。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "千米与米的换算和应用",
+          "description": "根据1千米=1000米进行千米与米的简单整数换算，统一单位后比较距离；联系建筑高度、河流长度等情境选择米或千米，并巩固其他已学长度单位的换算与比较。结合配套口算巩固计算基础，不增加小数千米换算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "千米行军与测量实践",
+          "description": "整合“户外体验”和“课外实践”，在组织与安全保障下体验1千米的路程，记录步行时间或步数，并将熟悉路线与1千米比较；利用已知物体长度估计较长距离，开展身边物体的实际测量并交流结果。结合“你知道吗？”辨认毫米与千米的不同应用，不把个人步数推广为统一换算标准，不开展速度计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗",
+          "description": "围绕“我学会了吗？”综合整理毫米、厘米、分米、米、千米的长度表象与已学进率，合理估计并表达身体、家具、活动距离和家校路程等长度；自主选择物体测量，交流长度知识，在“问题口袋”中记录疑问并进行学习反思。交通情境仅用于理解教材中的单位表达，不扩展交通法规教学。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 101,
+      "title": "智慧广场",
+      "label": "智慧广场",
+      "knowledge_points": [
+        {
+          "name": "有序搭配",
+          "description": "理解从两类对象中各选一个组成一种搭配的含义；通过摆图片、连线、编号等方式，学习先固定一类中的一个对象，再依次与另一类的所有对象搭配，有顺序地找全方案，做到不重复、不遗漏，并能说明枚举过程。结合自主练习，将方法应用于饮食搭配、服饰搭配、人员组队以及经过中间地点的两段路线选择，理解每条完整路线由前后两段选择共同组成，巩固有序枚举与计数。以直观操作和图示表达为主，不将排列组合公式或形式化乘法原理作为教学要求，不照抄教材原题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "三 勤劳的小蜜蜂——万以内的加减法（一）",
+      "knowledge_points": [
+        {
+          "name": "两位数不进位加法口算",
+          "description": "结合信息窗1辨认求合并数量的问题，理解按数位分别相加及先加整十数再加个位数的口算方法；通过阅读数量比较等练习说明计算过程，限于两位数加两位数的不进位加法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数不退位减法口算",
+          "description": "结合信息窗1理解求相差数量的减法意义，掌握按数位分别相减及分步减去整十数和个位数的方法；在奖励、比赛、购物和运动情境中选择运算，进行结果比较，限于两位数不退位减法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "口算综合应用与距离拓展",
+          "description": "巩固两位数口算，并借助计数单位联系整百、整千数加减；对同一直线上的距离问题尝试画图，考虑位置不同产生的不同结果。保留教材星号题的拓展性质，不将其提升为复杂行程问题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数不进位加法",
+          "description": "结合信息窗2理解相同计数单位才能相加，从整十数加法过渡到三位数不进位笔算；掌握相同数位对齐、从个位算起，处理三位数与两位数相加及含零数位的书写，并在数量合并情境中应用。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数不退位减法",
+          "description": "承接信息窗2的数量比较问题，运用数位和计数单位理解三位数不退位减法；正确列竖式，处理三位数减两位数及末尾有零的计算，在树木、鲜花等情境中解释差的含义。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "加法估算与合理安排",
+          "description": "根据问题需要把数量看作接近的整百数，估计合计数量，认识约等号并正确读写；结合购物预算和剧场人数安排解释估算用途，必要时用准确计算检查是否满足限制，不把估算结果当作精确值。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数进位加法",
+          "description": "结合信息窗3的路程合并问题，理解十位相加满十要向百位进一，联系已有的个位进位经验掌握三位数进位加法；规范记录进位并计入下一位，通过计数器、竖式及捐书等练习检查结果，不扩展至教材未呈现的复杂连续进位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数退位减法",
+          "description": "结合信息窗3的数量比较和路程比较，理解某一位不够减时向前一位退一作十；掌握个位或十位发生一次退位的三位数减法，正确处理退位后数位上的数及相关含零计算，不引入连续退位和隔位退位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "进退位加减法综合应用",
+          "description": "综合运用进位加法和退位减法，归纳数位对齐、从个位算起及进退位处理规则；通过辨错、先估后算、判断结果接近程度，以及宣传单、人数、捐书和动物数量变化等情境练习，提高选择运算、提出问题和解释结果的能力。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "课外实践：跳绳与脉搏",
+          "description": "保留教材课外实践，合作记录一分钟跳绳次数以及跳绳前后每分钟脉搏次数；利用加减法比较同学间的数据和运动前后的变化，提出并解答数学问题。以数据记录、比较和交流为目标，不据此作健康诊断。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "加法的验算",
+          "description": "结合信息窗4检查蜂蜜生产记录，理解交换两个加数的位置重新计算，以及用和减去一个加数这两种加法验算方法；在笔算、辨错和数量合并练习中选择方法，清楚区分原计算与验算过程。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "减法的验算",
+          "description": "结合信息窗4检查蜂蜜使用记录，理解用差加减数以及用被减数减差这两种减法验算方法；联系加减法各部分之间的关系补全数量记录、发现并改正计算错误，形成计算后验算的习惯。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "加减法与验算综合练习",
+          "description": "通过摆数、口算、购物和龋齿抽查数据等情境，综合选择加减法并进行计算与检查；巩固含零数位的退位处理，运用数量关系提出不同问题，正确区分总量、部分量和相差量，不照抄教材原题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗：单元复习",
+          "description": "围绕“我学会了吗？”的葡萄种植与收获情境，整理口算、笔算、估算及验算方法；辨认棵、箱、筐等不同单位，选择有关信息解决求和与求差问题，提出新问题并交流解法，结合“问题口袋”和学习评价反思掌握情况。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "四 爱心行动——图形与拼组",
+      "knowledge_points": [
+        {
+          "name": "长方形的特征",
+          "description": "结合爱护花草的牌子情境，通过折叠、测量和检验直角，认识长方形对边相等、四个角都是直角，理解长和宽的名称。结合点子图画图、小棒摆图、依据特征辨认图形及方格纸画图巩固认识；方格纸活动只比较所占格数与形状，不引入面积公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "正方形的特征",
+          "description": "通过折叠、测量和检验直角，认识正方形四条边都相等、四个角都是直角，理解边长的含义。通过画图、摆图和逐步提供条件的猜图活动，比较长方形与正方形的边、角特征；不要求学习四边形的包含关系。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识四边形、五边形和六边形",
+          "description": "依据边的条数认识四边形、五边形和六边形，能沿图形边界有序数边并分类，知道长方形和正方形都是四边形。结合小棒摆图及六边形剪纸活动巩固认识；不把五边形、六边形限定为教材图示的规则外形。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "图形的分割与折叠",
+          "description": "通过剪纸、折纸和展开观察，辨认长方形、正方形分割后得到的图形，预测并验证小图形的形状和数量，尝试用不同方法分割图形。保留六边形经折叠、剪切转成长方形的操作探究，发展空间想象；不引入分数或面积计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "图案的组成与拼摆",
+          "description": "从信息窗2的组合图案中辨认三角形、平行四边形、圆、五边形和六边形等组成部分，学习有序分类计数。根据想表现的物体选择图形，尝试拼摆，并用上、下、左、右说明各部分位置；不扩展为平行四边形的性质教学。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "七巧板拼图",
+          "description": "结合“你知道吗？”认识七巧板的组成，了解其传统拼图文化背景。用不同板块拼成已学平面图形，记录所选板块与拼成图形的对应关系，再合作拼摆较复杂的图案并交流方法；不要求推导板块面积关系。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "图形排列的规律",
+          "description": "观察连续图案中的重复单元，按规律续画；比较数字、字母和图形排列中相同的重复结构，尝试用另一种材料表示同一规律。侧重发现、描述和迁移规律，不引入代数表达。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "图形与拼组综合复习",
+          "description": "结合“我学会了吗？”综合运用长方形、正方形、三角形、平行四边形和圆设计图案，说明图形选择、组成与位置安排。回顾长方形和正方形的特征及图形拼组方法，交流作品，在“问题口袋”中整理疑问，并围绕合作、提问、思考和应用开展自评。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "五 田园小卫士——万以内的加减法（二）",
+      "knowledge_points": [
+        {
+          "name": "连续进位加法",
+          "description": "结合信息窗1的菜园情境，理解连续进位加法的算理，掌握相同数位对齐、从个位加起、满十向前一位进一的方法，正确处理连续进位及最高位进位；结合有关练习巩固计算与验算，不扩展为本单元未呈现的复杂计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "连续退位减法",
+          "description": "结合信息窗1中求剩余量和求相差量的问题，理解连续退位减法，掌握退位后本位及前一位数字的变化；通过计算、验算和情境练习巩固，暂不将中间有零的特殊退位作为本课重点。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "加减法应用与数学游戏",
+          "description": "综合运用信息窗1的加减法解决合并、剩余、相差和路线比较问题，能够从图中选择有关信息并说明列式依据；保留找规律及掷骰子组成三位数进行加减计算的数学游戏，强调交流算法与检查结果。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "中间有零的退位减法",
+          "description": "结合信息窗2及计数器、竖式，理解个位不够减而十位为零时如何从百位退一，再向个位退一；掌握被减数中间有零的减法，明确退位后的各数位数值，并用验算和辨错防止漏退、错减。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "整百、整千数的退位减法",
+          "description": "在信息窗2的基础上，掌握整百数减三位数时连续退位的方法，并迁移到教材练习中的一千减三位数；借助数位意义说明零经过退位后的变化，结合表格、路程和找零问题巩固，不扩展到任意多位数的跨零减法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "图表信息与购物决策",
+          "description": "综合读取物品使用、动物奔跑、光盘架容量与价格、识字情况等图表信息，选择加减法解决问题；结合计算结果进行大小判断，比较购买方案是否同时满足容量和预算，区分会读与会写等不同数量，避免混用信息。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "求比一个数多几的数",
+          "description": "结合信息窗3，用摆纸条和对应的示意图表示已知数量与多出的部分，理解求比一个数多几的数要用加法；练习辨认比较对象和标准量，完整表达数量关系，不只依据“多”字机械选择运算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "求比一个数少几的数",
+          "description": "结合信息窗3，用摆纸条表示已知数量与少去的部分，理解求比一个数少几的数要用减法；通过跳远、鸟类、植物等情境及卡片游戏对比多几、少几两类关系，区分求相差量与求另一个数量。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "先求另一数量再求总数",
+          "description": "结合信息窗4的青蛙和蝌蚪情境，用纸条图分析先求另一个数量、再求两者总数的两步问题，分别理解另一数量比已知数量少几或多几的情况；能说明每一步所求的量，并用分步算式或综合算式表达。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "连加、连减与加减混合",
+          "description": "掌握连加、连减及加减混合运算按从左往右的顺序计算，学习教材呈现的分步竖式与连写竖式；结合总量中去掉两部分、数量连续变化等问题确定步骤，检查中间结果，不引入乘除混合运算的新规则。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "回顾整理与计算巩固",
+          "description": "围绕回顾整理，系统梳理口算、笔算和验算的适用方法，归纳进位加法、连续退位及含零退位减法的注意点；整理多几、少几问题的数量关系，结合综合练习检查计算方法与解题依据。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "综合练习与献爱心活动",
+          "description": "综合完成运力判断、购物剩余、组数猜数及魔术箱规律等练习，运用加减法关系解释结果；保留献爱心义卖情境中的制作数量、收入比较、礼物购买及平均分配活动，其中有余数的平均分配只作为已有知识的综合运用。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "聪明小屋：海底探宝",
+          "description": "保留聪明小屋的海底探宝活动，读懂路线方向与沿途运算标记，依次计算并检验终点结果；通过记录、比较和调整路线培养有序尝试能力，不把探宝图误读为无顺序的数字拼算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗：单元评价",
+          "description": "结合我学会了吗中的动物身高、体长和尾长信息，自主提出并解决加减法问题，辨别不同测量项目，避免把体长与身高混为同一数量；保留生活信息搜集与同伴交流、问题口袋和收获园自评，检查计算、应用、合作及提问能力。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "六 动物趣闻——克、千克、吨的认识",
+      "knowledge_points": [
+        {
+          "name": "克的认识",
+          "description": "从动物轻重情境提出计量问题，认识克及符号g，知道较轻物品通常用克计量。结合天平、砝码和实物掂量建立1克的初步表象，能判断小物品比1克轻还是重，并读取简单的克数信息；不扩展到天平的复杂操作。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "千克的认识",
+          "description": "认识千克及符号kg，知道千克又叫公斤，通过掂量和观察称量结果建立1千克的表象。认识盘秤、弹簧秤、电子秤和磅秤，读取教材中的简单示数与包装质量标识；理解1千克等于1000克，并用整包物品组合体会这一关系。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "吨的认识",
+          "description": "认识吨及符号t，知道很重的物品通常用吨计量。借助成袋大米和多人总体重建立1吨的初步表象，理解1吨等于1000千克，能结合运输、载重等情境说明吨的用途，并根据每份质量判断组成1吨所需的份数。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "质量单位的选择与估测",
+          "description": "结合物品和动物的实际轻重选择克、千克或吨，利用已有质量表象进行合理估计。开展先掂量估计、再称量验证并记录的活动；在查阅动物资料的任务中区分体重单位与表示行进距离的单位，不把长度单位混作质量单位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "质量单位换算与比较",
+          "description": "运用1千克等于1000克、1吨等于1000千克进行教材范围内的简单整数换算，理解换算前后表示的质量不变。能先统一单位再比较物品轻重，并辨别练习中质量比较与已有长度比较的不同；不引入小数、复名数或复杂跨级换算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "质量计算与实际问题",
+          "description": "读取载重、球类质量及容器称量信息，运用已有整数运算解决总质量、质量差和能否一次运完等问题。理解物品与容器合重减去容器质量可得到物品质量，能根据图表信息提出并解释简单问题，不照抄教材原题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "按质量购物",
+          "description": "理解每千克价格与购买质量之间的关系，利用已有乘法和加减法解决购粮费用问题。能读取优惠价格及限购条件，将优惠部分与普通价格部分分别计算后合并，并说明购买方案；不引入超出本册范围的数量关系公式训练。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "称量实践与猜体重",
+          "description": "完成教材课外实践：称取一定质量的鸡蛋、苹果，拎一拎并数出个数，寻找和记录生活中约重1千克的物品。结合猜体重活动，根据轻得多、重了一点等反馈逐步调整估计，巩固质量表象；认识相同质量的不同物品个数可能不同。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识斤和两",
+          "description": "结合教材“你知道吗？”了解日常生活中使用的斤和两，认识1斤等于10两、1千克等于2斤、1斤等于500克、1两等于50克。重点理解常见生活表达与克、千克的对应关系，仅作拓展认识，不替代本单元克、千克、吨的核心学习。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗：单元复习",
+          "description": "依托“我学会了吗？”的小超市情境，综合运用质量单位、进率、简单计算与估测，解决包装食品组合质量和多个水果总质量等问题，并提出新的质量问题。通过“问题口袋”和学习收获交流梳理疑问，回顾克、千克、吨的适用情境与进率，评价估测、合作和解决问题的表现。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 102,
+      "title": "奇妙的动物世界",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "奇妙的动物世界",
+          "description": "围绕动物的身高、体长、寿命、种类等确定调查问题，制订简单的查阅计划并进行小组分工；通过动物园、图书馆或网络等途径搜集并记录相关数据信息，结合已有的数与量知识理解和交流调查结果；回顾资料获取方式、记录与表达情况以及小组合作表现。完整覆盖“想一想、查一查、说一说、议一议”四个活动环节，重在经历提出问题、搜集资料、交流成果和反思评价的过程，不将资料中的速度表述扩展为速度公式教学，不额外增加统计图表等教材未要求的新知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "七 快乐大课间——两位数乘一位数",
+      "knowledge_points": [
+        {
+          "name": "整十数乘一位数",
+          "description": "结合信息窗1的分组活动，通过摆小棒和相同加数连加，理解整十数乘一位数就是几个十相乘，掌握积为两位数或三位数的口算。结合成组口算、连续计算和载货表格巩固方法，说明积末尾的0与计数单位的关系，不仅记忆添0规则。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数乘一位数（不进位）",
+          "description": "结合信息窗1的另一组活动，用木块和数的组成理解两位数分成整十数与一位数分别相乘后再相加的算理，建立不进位乘法的口算与竖式联系。掌握相同数位对齐、从个位乘起的写法，理解交换因数位置便于列竖式；配套完成不进位口算、笔算及购物、数量和倍数关系应用，不提前混入进位算法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数乘一位数（一次进位）",
+          "description": "结合信息窗2，用摆小棒与分步竖式说明个位乘得满十时向十位进位的原因，过渡到简便竖式，明确十位相乘后还要加上个位进来的数。练习积为两位数的一次进位计算，并利用相应辨错内容检查进位遗漏和积的数位书写。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数乘一位数（积是三位数）",
+          "description": "承接信息窗2的拓展计算，掌握积为三位数的乘法，包括十位乘后向百位进位、连续进位以及积中或末尾出现0的情况。理解进位数的来源和处理顺序，结合竖式填数、计算、辨错及积的位数判断巩固算法；通过捐款统计、购物、成串物品、鱼干用料、饮料进货和收集物品等情境运用两位数乘一位数，不将这些情境扩展为新的统计或比例知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "求比一个数的几倍多几的数",
+          "description": "结合信息窗3，学习用线段图表示已知数量、它的几倍和另外多出的部分，确定先求几倍是多少、再加上多出数量的两步思路。结合叶片制作和动物体重情境迁移方法，说明每一步所求数量及单位，以分步算式为主，不额外引入教材未要求的综合算式规则。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "求比一个数的几倍少几的数",
+          "description": "承接信息窗3，利用线段图表示一个数的几倍与少去的部分，掌握先乘后减的两步解题思路。结合车辆限乘和水果数量等情境，区分“几倍”与“少几”的作用，比较倍数多几与倍数少几问题，避免只凭关键词选运算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗？",
+          "description": "完成“我学会了吗？”的综合复习，梳理整十数口算、不进位与进位笔算，以及倍数关系两步问题。学习从图中提取多组数量，综合运用乘法与加减法解决收获和购票情境中的问题，并提出可解答的新问题；通过“问题口袋”和“丰收园”整理疑问、交流方法，从计算、应用、提问与合作等方面自我评价，不增加本单元范围外的新算法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 103,
+      "title": "智慧广场",
+      "label": "智慧广场",
+      "knowledge_points": [
+        {
+          "name": "汉字算式中的数字推理",
+          "description": "理解每个汉字代表一个数字、同一算式中相同汉字代表相同数字的规则；观察加法竖式，从个位入手提出猜想，结合进位和十位条件排除不成立的情况，再代入完整算式检验。结合自主练习中的汉字算式巩固推理方法，不把汉字仅当作词语理解，不引入方程求解。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "加减法竖式填数",
+          "description": "根据加减法竖式的数位关系确定缺失数字，理解进位、退位对相邻数位的影响；能从已知条件较充分的数位入手逐步推断，并用完整计算检验结果。覆盖自主练习中的方框填数和字母减法算式；区分独立空格与相同字母的含义，不默认不同方框必须填写相同数字。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "等和图形填数",
+          "description": "读懂方格及连线图中的位置关系，利用每条指定直线上三个数的和相等这一条件，确定缺少的数或进行配对安排。覆盖横向、竖向、斜向的和的条件以及给定数各用一次的限制；通过逐条核算复习观察、尝试、推理和检验的方法，不增加教材未规定的填数限制。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "八 富饶的大海——三位数乘一位数",
+      "knowledge_points": [
+        {
+          "name": "整百数乘一位数",
+          "description": "结合信息窗1的海产品购买情境，理解整百数乘一位数就是几个百相乘，联系整十数乘法和表内乘法进行口算；通过成组计算观察计数单位变化，并解决简单的总价、总量问题，不提前引入笔算进位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数乘一位数的不进位笔算",
+          "description": "学习信息窗1中三位数乘一位数的不进位笔算，理解相同数位对齐、从个位乘起以及各位乘积的意义；结合竖式、数列规律和购物、装箱情境巩固算法，练习从图中选择信息并提出乘法问题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数乘一位数的一次进位",
+          "description": "学习信息窗2中只有一次进位的三位数乘一位数笔算，理解某一位乘得的积满几十就向前一位进几，计算下一位时加上进位数；兼顾积为三位数或四位数的情况，通过相关竖式和实际问题巩固，不将连续进位混同为一次进位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数乘一位数的连续进位",
+          "description": "学习信息窗2中连续进位的笔算方法，逐位处理乘积和进位，说明十位、百位结果的来源；完成相关计算、大小比较、捐书统计、购物总价及预算选择练习，并利用聪明小屋的遮数竖式进行有依据的推理。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "中间有0的三位数乘一位数",
+          "description": "学习信息窗3中间有0的三位数乘一位数，理解0所在数位也要参与计算；区分十位无进位时写0与个位进位后十位需要加上进位数的情况，结合辨错、计算、总量和倍数问题巩固，避免机械地认为因数中间有0则积中间必有0。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "末尾有0的三位数乘一位数",
+          "description": "学习信息窗3末尾有0的三位数乘一位数，理解常规竖式与简便写法的联系，明确积末尾的0所表示的数位；结合辨错和应用练习防止漏0，并通过成组算式探索一个因数扩大到原来的10倍时积的变化，按教材练习适度迁移到末尾有更多0的计算，不扩展为新的多位数乘法单元。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "乘法估算与够不够",
+          "description": "学习信息窗3的乘法估算，根据情境把因数看作接近的整百数或整十数求近似结果；区分求大约数量与判断钱够不够，说明估大或估小能否支持结论，必要时用准确计算确认，避免把近似值当作准确值。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "乘法解决问题与方案比较",
+          "description": "综合运用三位数乘一位数解决购物、倍数关系及先乘后加的两步问题，说明每一步所求数量；结合聪明小屋的家庭会餐情境，按相同人数计算不同方案的费用并比较，训练选择信息和解释方案的能力，不照抄教材原题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "综合练习",
+          "description": "整合综合练习中的口算、笔算、估算和积的大小比较，巩固不进位、进位以及中间或末尾有0的计算；完成运输、座位、停车、就餐、滑行和购物情境的综合应用，并观察有趣算式的积的规律，用计算验证后续结果，不作无依据的规律推广。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗",
+          "description": "通过我学会了吗梳理本单元各类笔算方法和估算策略；综合读取交通图中的票价、路程与每小时行驶距离信息，计算费用并判断规定时间内能否到达，说明交通工具选择的理由；利用问题口袋与丰收园进行提问、反思和学习自评，不引入除法求时间的新算法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "九 我是体育小明星——数据的收集与整理（一）",
+      "knowledge_points": [
+        {
+          "name": "按不同标准分类统计",
+          "description": "结合运动会获奖记录，学习确定分类标准、逐项分类计数并将结果填入简单统计表，理解合计与各类数量的关系；比较按获奖名次和获奖项目整理所得的信息，认识同一组数据按不同标准分类，分类结果不同而总数不变。结合车辆、班级学生和树叶的分类统计巩固方法，做到同一次分类标准一致、不重复、不遗漏。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "用统计表和涂格表示数量",
+          "description": "通过整理自己的书包开展实际调查，按课本、练习本和课外读物等类别收集数量，填写统计表，并在教材提供的方格图中用涂格表示相应数量；学习让表中数量与涂格数量对应，比较各类物品的多少并表达发现。仅使用教材已有的简单方格表示，不扩展到正式条形统计图的结构与绘制要求。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "用“正”字记录和整理数据",
+          "description": "结合体育小明星评选，经历逐票收集、用符号记录、整理成表并比较结果的过程；比较画符号与画“正”字的记录方式，理解一笔表示一个数据、一个完整的“正”字表示五个数据，能读出含不完整“正”字的记录。通过车辆通行记录练习完成计数、填表与涂格；保留摞积木实践，连续记录五次操作结果，用表格和涂格整理并交流数量变化。重视记录与实际数据一一对应，不引入平均数等后续知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗",
+          "description": "综合复习确定标准、分类计数、核对合计、读取“正”字记录、填表和涂格表示数量。通过同一场景的两种分类结果检验总数的一致性，通过评选情境依据整理后的数量作出判断；结合问题口袋和丰收园，回顾分类统计中避免重复遗漏、保持标准一致等注意事项，交流合作收集与整理数据的经验。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 104,
+      "title": "漂亮的花朵",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "漂亮的花朵：分类调查与交流",
+          "description": "围绕花朵的颜色、花瓣数等特征提出调查问题，选择按颜色或花瓣数分类的标准，通过查阅资料或实地观察收集多种花朵的信息，并按选定标准分类整理、比较各类数量。交流调查方法与发现，回顾从提出问题、收集信息到分类整理和解释结果的过程，体会分类整理数据的作用。引导学生认识到调查发现只适用于所收集的材料，要观察更多花朵才有可能发现规律，不能把少量样本中的结果直接推广到所有花朵。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 10,
+      "title": "十 奥运在我心中——总复习",
+      "knowledge_points": [
+        {
+          "name": "运动会中的数学与知识整理",
+          "description": "观察运动会全景，提取人数、座位、比赛成绩、长度、质量和图形等信息，提出可用已学知识解决的问题；结合回顾与整理建立本学期知识框架，不将场景中的半圆扩展为新的系统教学内容。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "万以内数的认识",
+          "description": "复习万以内数的数位、组成、读写和大小比较，通过计数器表示与数量描述沟通数形联系；结合生活情境理解近似数的用途，不扩展到超出本册要求的近似数规则。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "万以内加减法与验算",
+          "description": "整理万以内加减法的口算与笔算方法，巩固相同数位对齐、进位和退位，运用验算检查结果；复习连加、连减与加减混合计算的顺序，关注含零数的退位计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "加减法问题与有序选择",
+          "description": "从生产、购物等情境及图表中辨认总量、部分量与相差关系，分步解决加减法问题并说明每一步的意义；在预算约束下有序寻找两件物品的可行选择，避免重复和遗漏，不照抄教材题目。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两三位数乘一位数",
+          "description": "复习整十、整百数及两、三位数乘一位数的口算和笔算，巩固进位处理以及因数中间、末尾有零时的计算；联系相同加数求和理解乘法意义，并检查结果是否合理。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "倍数关系与两步问题",
+          "description": "借助纸条图或线段图分析倍数关系，解决求一个数的几倍、比几倍多或少以及乘法与加减法结合的问题；区分作为比较标准的数量与比较量，练习连续使用中间结果，不引入方程。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "长度单位与换算",
+          "description": "整理毫米、厘米、分米、米、千米之间的关系，结合跑步、跳高等经验建立长度单位表象；进行教材范围内的单位换算，并根据对象选择合适单位，不扩展面积或速度计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "质量单位与承重判断",
+          "description": "复习克、千克、吨的实际意义及进率，依据物体特点选择质量单位，统一单位后比较质量；结合承重情境先求总质量再判断是否超限，区分长度单位与质量单位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "图形特征与剪纸实践",
+          "description": "复习长方形、正方形的边和角的特征，按边数辨认组合图中的多边形；保留剪纸操作，经历由长方形剪出正方形及再剪一刀的探索，交流不同结果，不引入面积公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "分类统计与信息分析",
+          "description": "结合运动会情境复习按不同标准分类、记录人数和填写统计表，理解合计与各类别数量的关系；从统计结果中提取信息、比较数量并表达发现，注意分类标准一致且不重复计数。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "家庭用量调查",
+          "description": "读取煤气表、电表的累计示数，理解每月实际用量由本月与上月读数之差得到，并将结果整理到表格中；保留家庭用量调查，记录真实信息，不将累计示数直接当作当月用量，不讲授仪表小字或单位换算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "掷硬币与数据记录",
+          "description": "保留掷硬币课外实践，按教材规定的次数开展实验，自选方法逐次记录正反面结果并汇总成表；比较自己与同伴的数据、交流发现，不预设两面出现次数相等，也不引入概率公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "数图填数与有序尝试",
+          "description": "围绕聪明小屋的数图任务，辨认相邻正方形共用的位置，利用和的约束进行有序尝试与调整；检查数字使用是否符合要求及各组和是否一致，重视推理过程，不将其提升为方程组教学。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我都学会了吗：计算与应用",
+          "description": "完成“我都学会了吗？”中的计算与实际问题综合检查，整合加减法、乘法、身高比较、购物预算和游泳池人数关系；要求解释数量关系、核查运算并订正错误，不仅报告得数。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我都学会了吗：统计",
+          "description": "完成“我都学会了吗？”中的竞选统计任务，将正字记录转化为票数、统计表和涂格表示，比较不同表示方式并交流结果；逐笔核对未写完整的正字，避免将其全部按五计数。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "丰收园与学习反思",
+          "description": "结合丰收园，从知识技能、数学应用、解决问题和学习态度等方面举例自评，回顾有序思考、分类整理及借助图示分析的方法；完成对老师、家长、同伴和自己的学习表达，提出具体改进目标，不增加新的数学知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    }
+  ]
+}

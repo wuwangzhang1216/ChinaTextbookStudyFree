@@ -1,0 +1,499 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级下册",
+  "unit": "Unit 3 Animals",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Unit 3 Animals·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "These are elephants.",
+        "difficulty": 1,
+        "explanation": "These表示近处的多个对象，elephants表示多头大象。Those表示远处；It’s an elephant.是单数；pandas是熊猫。",
+        "knowledge_point": "These are pandas.",
+        "options": [
+          "It’s an elephant.",
+          "These are pandas.",
+          "Those are elephants.",
+          "These are elephants."
+        ],
+        "question": "你要介绍身边的多头大象，说“这些是大象”，应选哪句？",
+        "type": "choice",
+        "id": 30001,
+        "score": 10
+      },
+      {
+        "answer": "It’s a tiger.",
+        "difficulty": 1,
+        "explanation": "题目指一只老虎，用It’s a tiger.回答；其余选项不是单复数不符，就是动物种类不符。",
+        "knowledge_point": "These are pandas.",
+        "options": [
+          "They’re tigers.",
+          "It’s a panda.",
+          "It’s a tiger.",
+          "Those are elephants."
+        ],
+        "question": "同伴指着一只老虎问“What’s this?”，哪句回答正确？",
+        "type": "choice",
+        "id": 30002,
+        "score": 10
+      },
+      {
+        "answer": "panda",
+        "difficulty": 1,
+        "explanation": "panda的首字母是p；orange、queen、tiger的首字母分别是o、q、t。",
+        "knowledge_point": "These are pandas.",
+        "options": [
+          "orange",
+          "panda",
+          "queen",
+          "tiger"
+        ],
+        "question": "哪个单词的首字母是小写p？",
+        "type": "choice",
+        "id": 30003,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Those用于远处的多个对象，pandas表示多只熊猫，所以该表达正确。",
+        "knowledge_point": "These are pandas.",
+        "options": [],
+        "question": "判断：介绍远处的多只熊猫时，可以说“Those are pandas.”。",
+        "type": "true_false",
+        "id": 30004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "These后应使用are，不能使用is；正确表达是“These are tigers.”。",
+        "knowledge_point": "These are pandas.",
+        "options": [],
+        "question": "判断：“These is tigers.”是介绍近处多只老虎的正确表达。",
+        "type": "true_false",
+        "id": 30005,
+        "score": 10
+      },
+      {
+        "answer": "So big!",
+        "difficulty": 1,
+        "explanation": "So big!表示“好大！”；其余选项分别表示“它们很可爱”“我们去动物园吧”和“那些是老虎”。",
+        "knowledge_point": "These are pandas.",
+        "options": [
+          "They’re lovely.",
+          "Let’s go to the zoo.",
+          "Those are tigers.",
+          "So big!"
+        ],
+        "question": "看到大象，你想用英语赞叹“好大！”，应选哪句？",
+        "type": "choice",
+        "id": 30006,
+        "score": 10
+      },
+      {
+        "answer": "They’re bears.",
+        "difficulty": 1,
+        "explanation": "bears表示熊，They’re bears.表示“它们是熊”；其余选项分别为单数、猴子和兔子。",
+        "knowledge_point": "What are these?",
+        "options": [
+          "They’re bears.",
+          "It’s a bear.",
+          "They’re monkeys.",
+          "They’re rabbits."
+        ],
+        "question": "同伴指着几只熊问“What are these?”。你要回答“它们是熊”，应选哪句？",
+        "type": "choice",
+        "id": 30007,
+        "score": 10
+      },
+      {
+        "answer": "What are those?",
+        "difficulty": 1,
+        "explanation": "那些对应those，多个对象搭配are；其余选项分别询问单个对象、近处多个对象或数量。",
+        "knowledge_point": "What are these?",
+        "options": [
+          "What is this?",
+          "What are these?",
+          "What are those?",
+          "How many monkeys can you see?"
+        ],
+        "question": "你指着远处的几只动物，想问“那些是什么？”，应选哪句？",
+        "type": "choice",
+        "id": 30008,
+        "score": 10
+      },
+      {
+        "answer": "Let’s go and see the monkeys.",
+        "difficulty": 1,
+        "explanation": "只有该句表达一起去看猴子的提议；其余选项分别是介绍猴子、询问名称和介绍兔子。",
+        "knowledge_point": "What are these?",
+        "options": [
+          "They’re monkeys.",
+          "What are those?",
+          "Let’s go and see the monkeys.",
+          "They’re rabbits."
+        ],
+        "question": "你想提议“我们去看看猴子吧”，应选哪句？",
+        "type": "choice",
+        "id": 30009,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "They’re由They are缩写而来，撇号表示省略的字母。",
+        "knowledge_point": "What are these?",
+        "options": [],
+        "question": "判断：“They’re rabbits.”中的They’re可以展开为They are。",
+        "type": "true_false",
+        "id": 30010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "these指多个对象，要与are搭配；正确问句是“What are these?”。",
+        "knowledge_point": "What are these?",
+        "options": [],
+        "question": "判断：询问近处的多个动物是什么，可以正确地说“What is these?”。",
+        "type": "true_false",
+        "id": 30011,
+        "score": 10
+      },
+      {
+        "answer": "monkeys",
+        "difficulty": 1,
+        "explanation": "monkeys表示猴子；bears、rabbits、pandas分别表示熊、兔子、熊猫。",
+        "knowledge_point": "What are these?",
+        "options": [
+          "bears",
+          "rabbits",
+          "monkeys",
+          "pandas"
+        ],
+        "question": "你要完成句子“They’re ___.”，使它表示“它们是猴子”。应填哪个单词？",
+        "type": "choice",
+        "id": 30012,
+        "score": 10
+      },
+      {
+        "answer": "fourteen",
+        "difficulty": 1,
+        "explanation": "从小到大数数时，thirteen表示13，紧接着是14，即fourteen；其他选项不表示14。",
+        "knowledge_point": "How many monkeys can you see?",
+        "options": [
+          "thirteen",
+          "fourteen",
+          "fifteen",
+          "sixteen"
+        ],
+        "question": "按从小到大的顺序用英语数数，thirteen后面紧接着哪个数词？",
+        "type": "choice",
+        "id": 30013,
+        "score": 10
+      },
+      {
+        "answer": "twenty",
+        "difficulty": 1,
+        "explanation": "nineteen表示19，后面紧接20，即twenty；其他选项分别表示18、19和12。",
+        "knowledge_point": "How many monkeys can you see?",
+        "options": [
+          "eighteen",
+          "nineteen",
+          "twenty",
+          "twelve"
+        ],
+        "question": "按从小到大的顺序用英语数数，nineteen后面紧接着哪个数词？",
+        "type": "choice",
+        "id": 30014,
+        "score": 10
+      },
+      {
+        "answer": "How many tigers can you see?",
+        "difficulty": 2,
+        "explanation": "询问数量用How many，后接复数tigers，再接can you see；其他选项分别存在单复数错误、询问内容不符或语序错误。",
+        "knowledge_point": "How many monkeys can you see?",
+        "options": [
+          "How many tiger can you see?",
+          "What are these?",
+          "How many tigers can you see?",
+          "How many can see tigers?"
+        ],
+        "question": "你想问“你能看见多少只老虎？”，哪句话正确？",
+        "type": "choice",
+        "id": 30015,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "thirteen表示13，所以Thirteen.可回答数量为13。",
+        "knowledge_point": "How many monkeys can you see?",
+        "options": [],
+        "question": "判断：你能看见13只兔子时，可以用“Thirteen.”回答“How many rabbits can you see?”。",
+        "type": "true_false",
+        "id": 30016,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "eighteen表示18，nineteen才表示19。",
+        "knowledge_point": "How many monkeys can you see?",
+        "options": [],
+        "question": "判断：英语数词eighteen表示19。",
+        "type": "true_false",
+        "id": 30017,
+        "score": 10
+      },
+      {
+        "answer": "Ss",
+        "difficulty": 1,
+        "explanation": "swan的首字母是s，对应的大小写字母组是Ss；其他三组分别是Rr、Tt、Qq。",
+        "knowledge_point": "How many monkeys can you see?",
+        "options": [
+          "Rr",
+          "Tt",
+          "Ss",
+          "Qq"
+        ],
+        "question": "单词swan的首字母属于哪一组大小写字母？",
+        "type": "choice",
+        "id": 30018,
+        "score": 10
+      },
+      {
+        "answer": "They’re pandas.",
+        "difficulty": 1,
+        "explanation": "题目指定表达“它们是熊猫”，只有They’re pandas.符合；其余选项表示其他动物。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "They’re rabbits.",
+          "They’re pandas.",
+          "They’re bears.",
+          "They’re monkeys."
+        ],
+        "question": "同伴指着几只熊猫问“What are these?”。你要回答“它们是熊猫”，应选哪句？",
+        "type": "choice",
+        "id": 30019,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "双方已经明确谈论兔子时，可以使用How many rabbits?这一简短数量问句。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：双方正在谈论兔子时，可以用“How many rabbits?”询问兔子的数量。",
+        "type": "true_false",
+        "id": 30020,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "What are these?询问这些是什么，不询问有多少；询问数量要用How many开头的问句。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：“What are these?”是在询问动物的数量。",
+        "type": "true_false",
+        "id": 30021,
+        "score": 10
+      },
+      {
+        "answer": "Eleven.",
+        "difficulty": 1,
+        "explanation": "11的英语是eleven；其余选项分别表示10、12、13。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Ten.",
+          "Eleven.",
+          "Twelve.",
+          "Thirteen."
+        ],
+        "question": "分类点数后，你确认有11只熊猫。同伴询问熊猫数量时，你应怎样用英语回答？",
+        "type": "choice",
+        "id": 30022,
+        "score": 10
+      },
+      {
+        "answer": "Twelve rabbits.",
+        "difficulty": 2,
+        "explanation": "题目指定12只兔子；Twelve rabbits.的数词和动物名称均符合。其余选项不是数量不符，就是动物种类不符。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Two rabbits.",
+          "Twelve bears.",
+          "Twenty rabbits.",
+          "Twelve rabbits."
+        ],
+        "question": "你要用英语报告“十二只兔子”，应选哪一项？",
+        "type": "choice",
+        "id": 30023,
+        "score": 10
+      },
+      {
+        "answer": "Four.",
+        "difficulty": 1,
+        "explanation": "4对应four；three、thirteen、fourteen分别表示3、13、14。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Three.",
+          "Thirteen.",
+          "Four.",
+          "Fourteen."
+        ],
+        "question": "桌上只有4只纸兔子。同伴问“How many rabbits?”，你应怎样回答？",
+        "type": "choice",
+        "id": 30024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 3 Animals·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "Those are tigers.",
+        "difficulty": 1,
+        "explanation": "远处的多个对象用those，搭配are；tigers表示多只老虎。其余选项分别表示近处、单数或动物种类不符。",
+        "knowledge_point": "These are pandas.",
+        "options": [
+          "Those are tigers.",
+          "These are tigers.",
+          "It’s a tiger.",
+          "Those are pandas."
+        ],
+        "question": "要表达“那些是老虎”，介绍远处的多只老虎，应选哪句？",
+        "type": "choice",
+        "id": 39001,
+        "score": 10
+      },
+      {
+        "answer": "They’re rabbits.",
+        "difficulty": 1,
+        "explanation": "rabbits表示兔子，They’re表示它们是；其余选项分别表示熊、猴子和大象。",
+        "knowledge_point": "What are these?",
+        "options": [
+          "They’re bears.",
+          "They’re monkeys.",
+          "They’re rabbits.",
+          "They’re elephants."
+        ],
+        "question": "同伴指着几只兔子问“What are those?”。你要回答“它们是兔子”，应选哪句？",
+        "type": "choice",
+        "id": 39002,
+        "score": 10
+      },
+      {
+        "answer": "seventeen",
+        "difficulty": 2,
+        "explanation": "17对应seventeen；sixteen、eighteen、nineteen分别对应16、18、19。",
+        "knowledge_point": "How many monkeys can you see?",
+        "options": [
+          "sixteen",
+          "seventeen",
+          "eighteen",
+          "nineteen"
+        ],
+        "question": "哪个英语数词表示17？",
+        "type": "choice",
+        "id": 39003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "How many后接动物名称的复数形式，应说“How many bears can you see?”。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：“How many bear can you see?”能正确表达“你能看见多少只熊？”",
+        "type": "true_false",
+        "id": 39004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "queen的首字母是小写q，其对应的大写字母是Q。",
+        "knowledge_point": "These are pandas.",
+        "options": [],
+        "question": "判断：单词queen的首字母对应的大写字母是Q。",
+        "type": "true_false",
+        "id": 39005,
+        "score": 10
+      },
+      {
+        "answer": "Fifteen.",
+        "difficulty": 2,
+        "explanation": "已知看见15只猴子，数量应回答Fifteen；其余选项分别为12、14和20。",
+        "knowledge_point": "How many monkeys can you see?",
+        "options": [
+          "Twelve.",
+          "Fourteen.",
+          "Fifteen.",
+          "Twenty."
+        ],
+        "question": "你能看见15只猴子。同伴问“How many monkeys can you see?”，应怎样回答数量？",
+        "type": "choice",
+        "id": 39006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "介绍近处的多个对象时误用those，介绍远处的多个对象时误用these。",
+        "把These与is搭配；应使用These are。",
+        "介绍多个动物时仍使用panda、elephant、tiger等单数形式。",
+        "把字母Oo、Pp、Qq的大小写对应关系或例词首字母记错。"
+      ],
+      "core_concept": "在动物园情境中认识panda、elephant、tiger，介绍多个动物时使用pandas、elephants、tigers。介绍近处的多个对象用“These are ...”，介绍远处的多个对象用“Those are ...”。单个动物可用“What’s this?”询问，用“It’s a tiger.”等回答。“Let’s go to the zoo.”用于提议去动物园；“They’re lovely.”表示它们很可爱，“So big!”表示好大。学习Oo、Pp、Qq的认读与书写，orange、panda、queen的首字母分别是o、p、q。",
+      "key_formula": "",
+      "point": "These are pandas.",
+      "tips": "先判断一个还是多个，再判断离说话者近还是远。字母书写参照教材四线格，注意大小写字形、位置和笔顺。导入页的数量问句先作情境感知，数量问答在第三课集中学习。"
+    },
+    {
+      "common_mistakes": [
+        "询问多个对象时误说What is these?；these应与are搭配。",
+        "混淆these和those，未按离说话者的远近选择问句。",
+        "把They’re理解为It is；They’re是They are的缩写。",
+        "混淆bears、rabbits、monkeys的含义，或漏写复数词尾。"
+      ],
+      "core_concept": "学习bears、rabbits、monkeys三个动物名称的复数形式。询问近处的多个动物是什么，可用“What are these?”；询问远处的多个动物，可用“What are those?”。回答可用“They’re + 动物名称复数”，其中They’re是They are的缩写。“Let’s go and see the monkeys.”用于邀请同伴一起去看猴子，教材中的回应是“OK.”。歌曲活动用于巩固动物词汇，不另作时态教学。",
+      "key_formula": "",
+      "point": "What are these?",
+      "tips": "问名称时先判断远近，回答时确认动物种类。They’re可回答these或those引出的复数名称问句，不必在回答中重复these或those。"
+    },
+    {
+      "common_mistakes": [
+        "混淆eleven和twelve，或把它们的顺序记反。",
+        "混淆thirteen与其他十几的数词，点数时跳过或重复数词。",
+        "在How many后把monkeys、rabbits误写成单数形式。",
+        "把Rr、Ss、Tt的大小写配对弄错，或与rabbit、swan、tiger的首字母对应错。"
+      ],
+      "core_concept": "学习11—20的英语数词：eleven、twelve、thirteen、fourteen、fifteen、sixteen、seventeen、eighteen、nineteen、twenty。询问能看见的动物数量，用“How many + 动物名称复数 + can you see?”，如“How many monkeys can you see?”；回答可用数词，也可加上动物名称复数。点数要让每个数词对应一个对象。学习Rr、Ss、Tt的认读与书写，rabbit、swan、tiger的首字母分别是r、s、t。",
+      "key_formula": "",
+      "point": "How many monkeys can you see?",
+      "tips": "先练习按顺序说出11—20，再逐个点数。书写字母时分清大小写，并参照教材四线格中的字形、位置和笔顺。"
+    },
+    {
+      "common_mistakes": [
+        "把询问名称的What are these?与询问数量的How many rabbits?混淆。",
+        "在How many后使用单数rabbit；这里应使用复数rabbits。",
+        "把语境明确时可用的简短问句How many rabbits?误判为错误。",
+        "点数时漏数或重复数，导致回答与实际数量不符。"
+      ],
+      "core_concept": "本课综合复习动物名称和数量问答。询问多个动物是什么，可说“What are these?”，回答“They’re rabbits.”。询问能看见多少只兔子，可说“How many rabbits can you see?”；谈论对象明确时，也可简短地问“How many rabbits?”。数量可用数词回答，也可用数词加动物名称的复数形式回答，如“Twelve rabbits!”。Fun time要求按动物类别分别点数，不把不同类别混在一起。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "先辨认动物类别，再逐个点数，最后说出数量。复习时把名称问答与数量问答配成两组练习；使用已学动物词和20以内的数词，不增加新语法。"
+    }
+  ]
+}

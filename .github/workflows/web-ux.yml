@@ -38,6 +38,7 @@ jobs:
       - name: Learning state, rewards and media transport regressions
         run: |
           npx tsx scripts/checks/lesson-resume.ts
+          npx tsx --tsconfig scripts/checks/tsconfig.json scripts/checks/lesson-time.tsx
           npx tsx scripts/checks/review-recovery.ts
           npx tsx scripts/checks/review-content.ts
           npx tsx scripts/checks/review-preparation.ts

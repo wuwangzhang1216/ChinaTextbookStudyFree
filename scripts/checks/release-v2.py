@@ -74,6 +74,37 @@ with tempfile.TemporaryDirectory() as temporary:
     legacy_guide = guide.render(guide_manifest, {'books': [ios_entry]}, book_index)
     assert '/v1.7.0/data-g1up.zip' in legacy_guide and '/v1.7.0/data.zip' in legacy_guide
 
+    # Per-asset tags allow a code patch to reuse old data/audio without duplicate
+    # uploads. Destinations are still restricted to this repository's releases.
+    reused = dict(guide_manifest, resource_tag='v1.8.1-web-resources')
+    reused['assets'] = [dict(a, release_tag='v1.8.0-web-resources') if a['name']=='data.zip' else a for a in guide_manifest['assets']]
+    links = guide.render(reused, {'books': [ios_entry]}, book_index)
+    assert '/v1.8.0-web-resources/data.zip' in links
+    assert '/v1.8.1-web-resources/web-app.zip' in links
+    installer = load('installer_reuse', ROOT/'scripts/install-release.py')
+    assert installer.asset_base(reused, 'v1.8.1', {'release_tag': 'v1.8.0-web-resources'}).endswith('/v1.8.0-web-resources')
+    for bad in ['../escape', 'https://evil.invalid', 'x/y']:
+        try: installer.asset_base(reused, 'v1.8.1', {'release_tag': bad})
+        except ValueError: pass
+        else: raise AssertionError('unsafe release override accepted')
+
+    # Exercise the actual downloader with recorded URLs and real SHA verification.
+    import shutil
+    from unittest.mock import patch
+    original = json.loads((cache/'manifest.json').read_text())
+    original['resource_tag'] = 'fixture-new'
+    original['assets'][0]['release_tag'] = 'fixture-old'
+    (cache/'manifest.json').write_text(json.dumps(original))
+    urls = []
+    def retrieve(url, destination):
+        urls.append(url)
+        shutil.copyfile(cache/url.rsplit('/', 1)[1], destination)
+    with patch.object(sys, 'argv', ['installer', '--tag', 'fixture', '--mode', 'static', '--root', str(tmp/'remote-install')]), patch.object(installer.urllib.request, 'urlretrieve', retrieve):
+        installer.main()
+    assert any('/fixture-old/'+assets[0]['name'] in url for url in urls)
+    assert any('/fixture-new/web-app.zip' in url for url in urls)
+    manifest()  # Restore the ordinary fixture for the existing upgrade checks.
+
     def run(target, mode='static', extra=(), success=True):
         result = subprocess.run([sys.executable, str(ROOT / 'scripts/install-release.py'), '--tag', 'fixture',
                                  '--root', str(target), '--mode', mode, '--archives-dir', str(cache), *extra],

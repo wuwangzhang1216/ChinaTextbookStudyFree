@@ -12,7 +12,7 @@ import urllib.request
 import zipfile
 from pathlib import Path, PurePosixPath
 
-DEFAULT_TAG = 'v1.8.0'
+DEFAULT_TAG = 'v1.8.1'
 RELEASE_ROOT = 'https://github.com/wuwangzhang1216/congcong-school/releases/download'
 DESTINATIONS = {
     'audio.tar.gz': 'apps/web/public',
@@ -40,6 +40,12 @@ def safe_name(name):
 def resource_base(manifest, requested_tag):
     """A primary release may keep large resources on another release in this repo."""
     return f"{RELEASE_ROOT}/{safe_name(manifest.get('resource_tag', requested_tag))}"
+
+
+def asset_base(manifest, requested_tag, asset):
+    """Reuse immutable archives from another release in the same repository."""
+    tag = asset.get('release_tag')
+    return f'{RELEASE_ROOT}/{safe_name(tag)}' if tag is not None else resource_base(manifest, requested_tag)
 
 
 def target_path(destination, name):
@@ -186,11 +192,11 @@ def main():
         cache = args.archives_dir.resolve() if args.archives_dir else Path(temporary)
         base = f'{RELEASE_ROOT}/{args.tag}'
 
-        def download(name):
+        def download(name, location=None):
             safe_name(name)
             if not args.archives_dir:
                 print(f'Downloading {name}…', flush=True)
-                urllib.request.urlretrieve(base + '/' + name, cache / name)
+                urllib.request.urlretrieve((location or base) + '/' + name, cache / name)
 
         download('manifest.json')
         manifest = json.loads((cache / 'manifest.json').read_text(encoding='utf-8'))
@@ -206,7 +212,7 @@ def main():
         # Check every package before extracting or changing any installed file.
         for item, _ in selected:
             name = item['name']
-            download(name)
+            download(name, asset_base(manifest, args.tag, item))
             path = cache / name
             if path.stat().st_size != item['bytes'] or sha256(path) != item['sha256']:
                 raise ValueError(f'Size/SHA-256 mismatch: {name}')

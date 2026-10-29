@@ -93,7 +93,9 @@ export interface ActiveLessonSession {
   correctCount: number;
   mistakeCount: number;
   combo: number;
-  startedAt: number; // ms timestamp
+  startedAt: number; // legacy timestamp; not an elapsed-time counter
+  /** Checkpointed foreground time; absent on legacy drafts. */
+  activeTimeMs?: number;
   // —— 可选扩展字段；恢复前由 lessonSession 校验课程内容是否一致 ——
   /** 剩余待答题目 id 队列（含错题重排回队尾的顺序） */
   queueIds?: number[];

@@ -67,6 +67,7 @@ import { lessonWarmupKind, resumeWarmupHandbook } from "@/lib/lessonWarmup";
 import { SchoolWarmup } from './SchoolWarmup';
 import { hasLessonProgress, restoreQuestionSession } from "@/lib/lessonSession";
 import { lessonContentKey } from "@cstf/core/content";
+import { LessonTime } from "@/lib/lessonTime";
 import { answerReady } from "@/lib/questionDraft";
 import type { QuestionType } from "@cstf/core";
 
@@ -376,7 +377,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
   const shakeControls = useAnimation();
   const progressControls = useAnimation();
 
-  const startTimeRef = useRef<number>(Date.now());
+  const lessonTime = useRef(new LessonTime());
   const bubbleTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
   const comboTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
@@ -405,7 +406,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       setHintLevels(stored.hintLevels ?? {});
       setVisualDraft(Array.isArray(stored.visualDraft) ? stored.visualDraft.filter(n => Number.isInteger(n) && n >= 0 && n < 10) : []);
       independentIds.current = new Set(Array.isArray(stored.independentIds) ? stored.independentIds.filter(id => questionById.has(id)) : []);
-      startTimeRef.current = stored.startedAt || Date.now();
+      lessonTime.current.reset(stored.activeTimeMs);
       setIntroPage(stored.introPage ?? 0);
       setShowHandbook(resumeWarmupHandbook(warmupKind, stored));
       setIntroCompletedPages(stored.introCompletedPages ?? []);
@@ -442,7 +443,8 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       correctCount,
       mistakeCount,
       combo,
-      startedAt: startTimeRef.current,
+      startedAt: Date.now(), // retained for older clients; never used to infer elapsed time
+      activeTimeMs: lessonTime.current.snapshot(),
       queueIds: persistedQueue,
       solvedIds: solved,
       maxCombo,
@@ -490,52 +492,40 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [gateOpen, hearts, phase]);
 
-  // ⏱️ 学习时长：课中每 30s 冲一次账。
-  // 只计「页面可见」的时间（webrunner-6）：切后台先把可见的那段冲掉再停表，
-  // 回到前台重新起表。挂机放着不管不会计入当日时长，也就不会误触发家长上限。
-  useEffect(() => {
-    if (!ready || done || failed || timeLimited) return;
-    let lastFlush = Date.now();
-    let interval: ReturnType<typeof setInterval> | null = null;
+  // Daily allowance and completion use the same clock. Flush on hide, navigation,
+  // BFCache entry and each heartbeat; no timestamps survive as running clocks.
+  function flushLessonTime(pause = false) {
+    const { deltaMs, totalMs } = lessonTime.current.checkpoint(pause);
+    if (deltaMs > 0) addLearningTimeMs(deltaMs);
+    const active = useProgressStore.getState().activeLesson;
+    if (active?.lessonId === lesson.id && active.contentKey === contentKey) {
+      upsertLessonSession({ ...active, activeTimeMs: totalMs });
+    }
+    return totalMs;
+  }
 
-    /** 结算「上次结算点 → 现在」这段；spanWasVisible=false 时只推进游标不记账 */
-    const flush = (spanWasVisible: boolean) => {
-      const now = Date.now();
-      const delta = now - lastFlush;
-      lastFlush = now;
-      if (!spanWasVisible) return;
-      // 单次冲账封顶 10 分钟：极端情况下（系统休眠等）也不把当日时长打爆
-      if (delta > 500) addLearningTimeMs(Math.min(delta, 10 * 60_000));
-    };
-    const startTimer = () => {
-      if (interval == null) {
-        interval = setInterval(() => flush(document.visibilityState === "visible"), 30_000);
-      }
-    };
-    const stopTimer = () => {
-      if (interval != null) {
-        clearInterval(interval);
-        interval = null;
-      }
-    };
+  useEffect(() => {
+    if (!ready || done || failed || timeLimited || showExitConfirm || gateOpen || showSettings || contentUpdated) return;
+    const resume = () => { if (document.visibilityState === "visible") lessonTime.current.start(); };
     const onVisibility = () => {
-      if (document.visibilityState === "hidden") {
-        // 这段（前台 → 现在）确实是可见时间，先记账再停表
-        flush(true);
-        stopTimer();
-      } else {
-        lastFlush = Date.now();
-        startTimer();
-      }
+      if (document.visibilityState === "hidden") flushLessonTime(true);
+      else resume();
     };
-    if (document.visibilityState === "visible") startTimer();
+    const onHide = () => { flushLessonTime(true); };
+    resume();
+    const interval = setInterval(() => flushLessonTime(), 15_000);
     document.addEventListener("visibilitychange", onVisibility);
+    window.addEventListener("pagehide", onHide);
+    window.addEventListener("pageshow", resume);
     return () => {
-      stopTimer();
+      clearInterval(interval);
       document.removeEventListener("visibilitychange", onVisibility);
-      flush(document.visibilityState === "visible");
+      window.removeEventListener("pagehide", onHide);
+      window.removeEventListener("pageshow", resume);
+      flushLessonTime(true);
     };
-  }, [ready, done, failed, timeLimited, addLearningTimeMs]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ready, done, failed, timeLimited, showExitConfirm, gateOpen, showSettings, contentUpdated, lesson.id]);
 
   const current = currentId != null ? questionById.get(currentId) : undefined;
   const answeredFirst = correctCount + mistakeCount;
@@ -822,7 +812,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
       isExam,
       conquered: isExam && accuracy >= EXAM_CONQUER_ACCURACY,
       maxCombo,
-      durationSec: Math.round((Date.now() - startTimeRef.current) / 1000),
+      durationSec: Math.round(flushLessonTime(true) / 1000),
       chestReward,
       quests,
     });
@@ -917,7 +907,7 @@ export function LessonRunner({ lesson, chestSlot = null, nextLessonId }: LessonR
     setBubbleText(null);
     setComboOverlay(null);
     setGateOpen(false);
-    startTimeRef.current = Date.now();
+    lessonTime.current.reset();
   }
 
   function handleRequestExit() {
@@ -1499,7 +1489,7 @@ function CompletionScreen({ lesson, stats, onBack, onNext }: { lesson: Lesson; s
       </div>
       {stats.correctedCount > 0 && <p className="mt-4 text-sm text-ink">认真改对了 {stats.correctedCount} 道题。首答成绩帮你找到要巩固的地方，改错也是进步。</p>}
       <div className="mt-4 rounded-2xl border-2 border-bg-softer bg-white p-4 text-left text-sm text-ink space-y-2">
-        <p>🔥 连续学习 {outcome.streakAfter} 天 · 本次用时 {formatTime(stats.durationSec)}</p>
+        <p>🔥 连续学习 {outcome.streakAfter} 天 · 前台学习用时 {formatTime(stats.durationSec)}</p>
         {outcome.dailyGoalReachedNow && <p>🎯 今日目标达成，奖励已到账</p>}
         {outcome.milestoneGems > 0 && <p>🎉 连胜里程碑！+{outcome.milestoneGems} 宝石已到账</p>}
         {stats.conquered && <p>⚔️ 单元挑战达标</p>}

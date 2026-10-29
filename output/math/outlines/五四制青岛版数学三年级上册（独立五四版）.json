@@ -1,0 +1,1355 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·数学三年级上册",
+  "edition": "54-qingdao",
+  "editionLabel": "五四制·青岛版",
+  "schoolSystem": "5-4",
+  "publisherLabel": "青岛版",
+  "sourceEdition": "2017年6月第6版",
+  "sourcePrinting": "2021年6月第48次印刷",
+  "units": [
+    {
+      "unit_number": 1,
+      "title": "一 风筝厂见闻——两、三位数除以一位数（一）",
+      "knowledge_points": [
+        {
+          "name": "整十数、几百几十数除以一位数",
+          "description": "结合信息窗1的生产任务，理解把整十数看作若干个十进行平均分的算理，掌握整十数及几百几十数除以一位数、商为整十数的口算方法，并用乘法关系解释结果；不扩展到本单元尚未涉及的商中间或末尾有0的笔算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "口算除法的实际应用",
+          "description": "运用口算解决平均分、按每份数量求份数和简单速度比较问题；通过输入输出规律、分装表格观察数量关系，结合分跳绳情境学习先求总份数再平均分的两步问题，说明每一步的意义，不引入比例术语。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数除以一位数的笔算",
+          "description": "结合信息窗2的小棒分组过程，学习两位数除以一位数且各数位能整除的笔算；理解从十位除起、商与相应数位对齐的道理，联系分物过程说明竖式各步含义。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数除法的退位计算",
+          "description": "理解十位除后有剩余时，要把剩余的十与个位合并再除；掌握两位数除以一位数的退位除法，能判断商是几十多，并通过竖式填空和辨错巩固商的位置与落下数字的规则。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "有余数除法与验算",
+          "description": "学习两位数除以一位数有余数的笔算，理解余数必须小于除数；分别用商乘除数、商乘除数再加余数检验没有余数和有余数的除法，利用乘除关系检查并改正计算错误。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数除法解决问题",
+          "description": "在装箱、制作、安装车辆、购物和分组等情境中选择除法解决问题；区分最多能完成多少与全部装完需要多少两类结果解释方式，依据实际意义处理余数；结合人数合计解决先加后除的两步问题，不机械套用余数处理规则。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数除以一位数的笔算",
+          "description": "结合信息窗3的风筝装盒情境，将两位数笔算方法迁移到三位数；学习各数位能整除、商为三位数的计算，理解从百位除起及商的百位位置，并在计算前判断本节所涉算式的商的位数。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数除法的退位与验算",
+          "description": "理解百位、十位除后剩余数与下一位合并继续除的过程，掌握三位数除以一位数的连续退位计算及有余数计算；归纳逐位除、确定商、相乘相减和继续下除的步骤，并用乘法或乘加关系验算。限于本单元商为三位数且不需补0占位的类型。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数除法的综合应用",
+          "description": "运用三位数除法解决平均搬运、选择恰好装完的包装、平均增长和采集数量等问题；结合乘除对应练习理解验算关系，巩固求一个数是另一个数几倍及求一个数的几倍，能筛选情境信息并提出可解答的问题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "设计合理的编班方案",
+          "description": "读取报名统计表，先整理总人数，再依据班级数上限和每班人数上限设计可行编班方案；比较不同方案并说明满足条件的理由。作为教材带星号的拓展活动，不要求方案唯一，也不引入超出本单元的算法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "聪明小屋：除法竖式推理",
+          "description": "依据竖式中保留的商、乘积、差和余数等线索，结合数位意义及乘除关系逐步推断缺失数字，并以完整计算检验；作为“聪明小屋”思维拓展，不将试探推理提升为额外的新授运算类型。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "单元复习：我学会了吗",
+          "description": "围绕“我学会了吗？”中的牛奶收集、包装和运输情境，综合运用两、三位数除以一位数解决问题并验算；梳理口算、笔算、余数和实际应用之间的联系，利用“问题口袋”记录疑问，并从提问、思考、应用和合作等方面进行自我评价。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 2,
+      "title": "二 走进新农村——位置与变换",
+      "knowledge_points": [
+        {
+          "name": "认识东北、西北、东南、西南",
+          "description": "结合信息窗1的新农村示意图，在已认识东、南、西、北的基础上，认识东北、西北、东南、西南，理解四个斜向分别处于哪两个基本方向之间；能先确定参照物，再用八个方向描述物体的位置。结合简单场所图进行辨认与表达，不引入角度、距离或坐标。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "用方向描述位置",
+          "description": "运用八个方向阅读区域地图、游览示意图和校园平面图；依据方向标和参照物判断相对位置，体会更换参照物后需要重新判断方向。完成地图跨页练习，并通过模拟导游、按方位描述标注建筑、介绍校园等活动巩固应用；只作大致方位判断，不扩展到比例尺或路线长度计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识平移",
+          "description": "结合信息窗2中的大门、传送带和升降机工作台的运动初步认识平移，理解平移不只限于水平方向。通过观察和比对，判断图形能否仅靠平移互相重合，辨认平移所得图案，关注形状、大小和朝向保持不变；联系生活寻找实例，不要求计算平移距离或在方格纸上作图。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识旋转",
+          "description": "从信息窗2的换气扇叶轮、汽车车轮和吊扇的运动认识旋转，初步体会物体绕中心或轴转动的特点。结合生活现象与动作观察，区分平移和旋转，并能举例说明判断理由；判断时明确观察的是哪个物体或部件，不把车轮的旋转与整车的移动混为一谈，不涉及旋转角度计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "位置与变换综合复习",
+          "description": "围绕“我学会了吗？”综合复习八个方向及平移、旋转现象，依据情境提供的方位信息确定方向，观察并说明设施或部件可能出现的运动方式。开展自主提问、交流解释、问题口袋记录和学习收获评价，检查是否能确定参照物、准确表述方位并区分两种运动；不将静态图片中无法确定的运动直接作为唯一结论。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 101,
+      "title": "变化的影子",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "设计影子观察方案",
+          "description": "从树影长短的现象提出研究问题，选择有太阳的日子，确定多个观察时刻，商定直接观察大树或用竹竿代替大树的方案；明确需要收集时刻与影长两类数据，并结合测量要求安排分工，为实际观察作准备。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "测量影长与记录数据",
+          "description": "按照方案开展观察与测量，将竹竿扶直，在选定的各个时刻测量同一观察对象的影长，选择合适的长度单位，将时刻与对应影长完整记入记录表；重视测量条件一致和数据对应，不以猜测代替实际测量。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "分析影长变化与活动总结",
+          "description": "读取并比较记录表中的数据，交流各组观察对象、测量结果及所测时刻中影子最长和最短的时刻，结合实际数据认识影长随时刻变化及越接近中午影子越短的现象；结论限定于实际观察范围，不把最短时刻预设为固定钟点。回顾提出问题、设计方案、观察测量、记录与分析的过程，体会观察和测量可以收集数据，分析数据可以发现规律、解释生活现象。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 3,
+      "title": "三 采摘节——混合运算",
+      "knowledge_points": [
+        {
+          "name": "乘法与加减法的混合运算",
+          "description": "结合信息窗1的分篮子和乘车情境，从分步计算过渡到综合算式，理解没有括号、既有加减法又有乘法时应先算乘法；学习按运算顺序逐步书写计算过程，并用数量意义辨析错误。不扩展到含括号的运算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "乘加乘减的实际应用",
+          "description": "运用先乘后加减的顺序解决购物、容量和劳动数量等两步计算问题，说明先求什么、再求什么，检查结果是否符合实际；结合自主练习巩固计算与错例辨析，不照抄教材原题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "比较总量求一份量",
+          "description": "结合“聪明小屋”的称重情境，比较两次总质量的变化，先求增加的一份水的质量，再求空容器质量；培养从相同部分与变化部分分析数量关系的意识，不引入方程或超出教材的公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "除法与加减法的混合运算",
+          "description": "结合信息窗2的葡萄装箱情境，理解先求箱数再比较或合并的数量关系；掌握没有括号、既有加减法又有除法时先算除法的顺序，能列综合算式并规范计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "无括号混合运算的顺序与应用",
+          "description": "通过自主练习中的对比计算，区分只有同一级运算与含两级运算的算式：只有加减法或只有乘除法时从左往右算，既有乘除法又有加减法时先算乘除法。结合购物、装盒、采摘和含盐量情境选择合适的两步算式，不把连乘连除误作先乘后除。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "含小括号的混合运算",
+          "description": "结合信息窗3的苹果与梨的情境，认识小括号改变运算顺序的作用，理解需要先求和或差时怎样列综合算式；掌握先算括号里面、再算括号外面的顺序，覆盖括号在乘除法前后不同位置的形式，不引入中括号或多层括号。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "小括号的应用与算式比较",
+          "description": "在电脑数量、购物余款、作品数量和颠球数量等情境中，依据数量关系判断是否需要小括号；通过算式对比、大小比较和错例辨析，体会小括号对运算顺序与结果的影响，并观察连续减去两个数与减去两数之和的联系，不要求形式化证明运算性质。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "按运算顺序逆向推算",
+          "description": "结合“聪明小屋”的未知数填框情境，依据混合运算顺序确定思考起点，利用加减、乘除之间的逆向关系逐步求出未知数，并代回检验；采用算术推理，不引入字母方程解法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "混合运算单元复习",
+          "description": "围绕“我学会了吗？”系统整理同级运算、两级运算和含小括号运算的顺序，综合练习计算与算式比较；在租船情境中先求总人数，再结合每船限乘人数及余数解释至少所需船数。通过“问题口袋”和“丰收园”梳理疑问、自评计算与解决问题的表现，不增加本单元之外的新运算规则。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 4,
+      "title": "四 庆元旦——时、分、秒的认识",
+      "knowledge_points": [
+        {
+          "name": "认识时和分",
+          "description": "结合元旦联欢会情境认识钟面的12个大格和60个小格，理解时针、分针的计时意义及1时=60分；借助短时活动与生活经验感受1分钟、1小时的长短。仅建立本单元所需的时、分概念，不引入其他时间计量内容。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认读和记录时刻",
+          "description": "掌握先看时针、再看分针的认读方法，能读写精确到分的时刻，理解半时的表达，区分大约几时与准确时刻；通过拨钟、画分针、记录日常作息及调查节目时刻巩固认读，注意时针随分针移动的位置变化。钟面追及和成直角问题仅作为拨钟观察的选学拓展，不引入追及公式或角度计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "一分钟测量实践",
+          "description": "开展每分钟步数与跳绳次数的估计、测量和交流，比较直接测量1分钟、测量半分钟后推算及测量2分钟后推算的方法，体会统一计时的重要性。推算用于本次实践体验，不扩展为速度或比例知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "计算经过时间",
+          "description": "借助歌曲联唱及读书等情境区分开始时刻、结束时刻和经过时间，运用数钟面大格、小格或同一小时内分钟数相减的方法计算经过时间，并说明计算依据；不把时刻与时间段混为一谈。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "时间计算的生活应用",
+          "description": "在乘车、上课、游戏、用餐、读书、看电视和制作鸟巢等情境中，根据开始时刻与经过时间推求结束时刻，解决跨整时的简单经过时间问题；借助拨钟或分段计时解释方法，并联系上学经历表达时间信息。不引入复杂跨日计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识秒",
+          "description": "从新年倒计时认识秒，观察秒针走动，理解秒针走1小格表示1秒、走1圈表示60秒，建立1分=60秒的关系；通过短时活动体验1秒和10秒，认读整时前后以秒描述的钟面信息及秒表记录，比较相同路程的用时并开展计时体验。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "时间单位换算与比较",
+          "description": "运用1时=60分、1分=60秒进行简单的相邻时间单位换算，先统一单位再比较时间长短；结合生活事件选择恰当的时、分、秒单位。以教材中的整数量换算为范围，不引入小数时间或复杂复名数计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "时间的价值与应用",
+          "description": "结合教材中单位时间内完成事情的资料交流时间的价值，理解短时间也能发挥重要作用；综合运用时刻认读和分段计时解决跨整时的节目播放时长问题，形成珍惜时间的意识。资料按教材原有背景理解，不将其中历史数据表述为当前统计。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "时分秒单元复习",
+          "description": "系统整理时、分、秒的意义及进率，综合复习时刻认读、时间估计与简单计算；通过拨表记录一天作息、评价安排是否合理、补充并尝试撰写数学日记检验学习成果，利用问题口袋提出疑问，完成自评与交流。不增加本单元以外的新知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 5,
+      "title": "五 美化校园——图形的周长",
+      "knowledge_points": [
+        {
+          "name": "认识周长",
+          "description": "结合花坛边线认识周长，能够沿图形边界指出完整的一周，理解周长是一周边线的长度。通过描边与比较辨别边界，不把内部线段或图形所占地方的大小当作周长；利用共用边界的图形练习说明比较周长的依据。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "测量与计算周长",
+          "description": "根据边界特点选择直尺、卷尺或小绳测量周长，学习把曲线边界转化为可测量的长度，把多边形各边长度相加求周长。结合实物估测、图形比较、装饰用线和方格画图巩固，注意不遗漏、不重复测量，统一长度单位；曲线周长只作实际测量，不学习计算公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "长方形的周长",
+          "description": "从长方形花坛围护栏的情境出发，比较四边相加、两个长与两个宽相加、长宽和乘2等方法，依据对边相等理解并掌握长方形周长的计算。能通过测量或读取长、宽求周长，并解决先求周长再求材料费用的问题；结合场地情境选择合适单位，巩固所需乘法计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "正方形的周长",
+          "description": "依据正方形四条边相等，从四边相加概括出周长等于边长乘4，能测量或读取边长计算周长，并解决围护栏费用问题。与长方形周长方法进行比较，根据图形特征选择计算方法，不把边长与周长混淆。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "拼摆与分割中的周长",
+          "description": "通过纸片拼摆、定长小棒围图形和分割图形，确定新图形的长、宽或边长后计算周长，理解拼接处不属于新图形的外边界。比较不同拼法的周长，并有序记录固定周长下长方形的不同长宽组合；依据教材分格图推得剪出图形的边长，不拓展面积公式或复杂组合图形公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "路线长度的比较",
+          "description": "读懂路线图的方向标记、各段长度与公共路段，按各自路线完整累加路程，再比较总长度。联系周长学习巩固沿指定线路有序计量的方法，区分指定行驶路线和图形外边界，不凭视觉长短判断。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "课外实践：测量校园周长",
+          "description": "围绕校园场地和设施开展周长调查，先估计，再选择工具实际测量，必要时测量有关边长后计算。分工合作记录估计值与测量值，统一单位并比较差异，交流工具选择和测量方法；曲线边界采用实际测量，不套用未学公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗：周长综合复习",
+          "description": "结合房间平面图综合复习周长的意义及长方形、正方形周长计算，能够从分段标注中提取或合成长、宽，解决沿四周安装材料和判断材料是否足够的问题。注意米与分米的统一，按教材给出的完整四周模型计算，不自行增加门洞扣除等条件；自主提出有关问题，并通过问题口袋与丰收园梳理疑问、总结方法和评价合作表现。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 6,
+      "title": "六 采访果蔬会——两、三位数除以一位数（二）",
+      "knowledge_points": [
+        {
+          "name": "两位数除以一位数的口算",
+          "description": "依据信息窗1的采访情境，理解把两位数按十和一分开计算再合并的口算道理，掌握各数位上的数都能被一位数整除的两位数除法；结合平均分、求倍数和等边图形边长等问题练习，不扩展为一般两位数除法的笔算新授。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "几百几十数除以一位数的口算",
+          "description": "理解把整十数看作若干个十进行除法的口算方法，联系两位数除法迁移到几百几十数除以一位数；通过价格、数量及测量情境解决问题，比较时注意统一到每千克或每箱等相同标准。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "三位数除以一位数，商是两位数",
+          "description": "依据信息窗2，学习被除数最高位不够除时先看前两位，确定首位商写在十位上，掌握三位数除以一位数、商是两位数的笔算过程；巩固余数与除数的关系，并联系平均分、包含除和求倍数的情境解释结果。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "判断商的位数与估计商",
+          "description": "通过比较被除数最高位与除数判断商的位数，先估计商接近几十或几百，再用笔算检验；结合表格观察除数不变时被除数与商的变化，限于教材具体数值的直观发现，不引入比例术语。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "商中间有0的除法",
+          "description": "依据信息窗3的果汁、果脯生产情境，理解除到十位不够商1时要商0占位，区分被除数十位不是0但不够除与十位本身是0两种情况；掌握完整竖式及教材中的简便写法，并用乘法验算，兼顾有余数的练习。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "商末尾有0的除法",
+          "description": "依据信息窗3的生产情境，理解除到个位时余下的数为0仍须在商的个位写0，掌握商末尾有0的除法；结合商末尾为0但仍有余数的练习辨析占位与余数，避免漏写0或把余数写进商。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "含0除法的应用与综合练习",
+          "description": "综合运用商中间或末尾有0的除法解决平均每分钟工作量、阅读安排和正方形边长等问题；通过单位时间数量比较快慢，利用乘除法关系补全数量表，并在年龄关系、购物选法练习中合理选择运算，购物选法采用有序列举，不另立组合公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "回顾整理与计算巩固",
+          "description": "借助联欢会情境回顾口算、商的位数判断、商是两位数的笔算以及商中间和末尾有0的除法；整理从高位除起、商的位置、0占位和余数大小等注意事项，综合运用乘除法关系与估算检查计算结果。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "除法综合应用",
+          "description": "综合练习图示数量关系、平均分、求一份量和先求总量再平均分等问题，学会从钟面、路牌、表格与情境图中选择必要信息；比较不同方案，观察总量一定时份数与每份数量的变化，并在桶装水情境中区分售价、进价与每桶收益，不引入正式速度或反比例公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗——小小图书管理员",
+          "description": "围绕图书摆放、修补、贴标签与打包的综合情境，自主选择口算或笔算解决平均分和包含除问题，检验并解释结果；通过问题口袋梳理疑问，从计算、应用、提问思考和合作等方面完成单元自评，不额外增设教材没有的实践课题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 7,
+      "title": "七 美丽的街景——两位数乘两位数",
+      "knowledge_points": [
+        {
+          "name": "两位数乘10",
+          "description": "结合信息窗1的气球情境，理解两位数乘10就是求若干个十，掌握两位数与10相乘的口算方法；通过计数单位解释积末尾添0的原因，并用于简单总量计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "整十数乘整十数",
+          "description": "承接信息窗1，借助分步计算和计数单位理解整十数乘整十数的算理，掌握口算方法；结合排列、订购和生产情境求总量，能读懂表格、汇总结果，并初步判断积接近几百。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数乘两位数的不进位笔算",
+          "description": "结合信息窗2的花坛和点子图，把两位数乘两位数分解为乘整十数与乘一位数，再合并两个部分积；掌握不进位乘法竖式，重点解释第二个部分积的数位位置，学习交换两个因数的位置进行验算。结合数量、倍数等情境巩固计算，不提前引入进位计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数乘整十数",
+          "description": "结合信息窗2的喷头情境，对照完整竖式与简便竖式，理解两位数乘整十数的计算方法及积末尾0的意义；练习口算与笔算的合理选择，解决按行、按袋、按盘求总量的问题，不把简便写法误解为随意省略数位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数乘两位数的进位笔算",
+          "description": "结合信息窗3的广告灯和彩灯线情境，掌握两位数乘两位数的进位笔算；正确处理各部分积内部的进位、数位对齐和最后相加，利用交换因数验算。通过辨错和对比练习区分漏进位、乘法口诀及部分积相加等错误，覆盖灯泡总数等情境中的自主提问。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "乘法计算解决实际问题",
+          "description": "综合运用口算、笔算和验算，解决运输容量、订阅费用、成倍数量、加工总量和建筑容量等问题；能从图表提取条件，用计算结果判断是否足够，并完成先求总量再平均分的两步问题。涉及年份差的练习须先明确题设起始年份，不把相对时间当作固定条件。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "综合练习：计算与估算",
+          "description": "落实“综合练习”中的计算复习，整理两位数乘两位数与已学乘除法的联系，巩固口算、竖式、验算和估算；复习含小括号及乘除加减混合运算的顺序，并通过被除数高位与除数的关系判断商的位数。旧知识仅作综合巩固，不作为本单元新增算法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "综合练习：数量关系与应用",
+          "description": "落实“综合练习”中的生活应用，依据图表和文字选择乘法或除法，解决分装有余数、平均分、订阅、节水、购物找零、单价比较和乘车安排等问题；能分步分析先求差再求总量、先求总量再平均分等数量关系，使用估算判断费用是否合理并自主提出问题。不将打折情境扩展为折扣率教学。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "找规律与估算填数",
+          "description": "依据教材的乘法算式序列观察一个因数不变、另一个因数等量增加时积的变化，利用已有结果推算后续结果并用计算验证；结合“聪明小屋”，根据近似结果尝试确定合适的数，说明估算依据，允许符合条件的不同答案，不扩展为代数方程教学。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗：单元整理与自评",
+          "description": "完成“我学会了吗？”中的牧场数量问题，综合检验两位数乘两位数的列式、计算、验算和提问能力；通过“问题口袋”整理尚未解决的问题，并从计算方法、数量关系、合作交流等方面进行单元自评与查漏补缺。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 8,
+      "title": "八 绿色生态园——解决问题",
+      "knowledge_points": [
+        {
+          "name": "用连乘解决问题",
+          "description": "结合信息窗1的花卉摆放情境，通过学具摆放或示意图理解每行数量、行数与组数之间的关系，掌握先求一组数量、再求总量的两步连乘方法；能列分步算式和综合算式，解释中间结果及单位，并迁移到包装、购物和连续多天用量等问题。不将已有乘法计算另立为新知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "用连除解决问题",
+          "description": "结合信息窗1的花架情境，理解将总量连续平均分的过程，掌握先求每组数量、再求每份数量的连除方法；能联系装箱、供给和队列等情境解释每一步的意义，列分步与综合算式，并比较连续除以两个数与除以它们乘积的关系。结合配套口算、运算顺序及算式比较巩固计算，不把除号误读为减号。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "拼桌中的座位规律",
+          "description": "保留“聪明小屋”的拼桌探究。通过画图、摆学具或列表观察连续拼接长方形桌子时座位数的变化，发现首张桌子与以后每增加一张桌子的座位贡献不同，并据此解决给定人数的拼桌问题。强调拼接处不能安排座位，以直观推理和检验为主，不要求使用字母公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "先求一份再求总量",
+          "description": "结合信息窗2的购物情境，学习用表格或对应关系整理条件和问题，明确数量与总价的对应关系；掌握先求一份量、再求若干份量的先除后乘方法，并在适用时比较先求倍数再求总量的方法。迁移到材料用量、路程和费用等“照这样计算”问题，说明单位量或标准不变这一前提，不引入比例术语或比例方程。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "先求总量再重新分配",
+          "description": "结合信息窗2的移栽情境，用表格或简明文字整理调整前后的对应数量，理解总量不变；掌握先乘求总量、再除求份数或每份量的两步方法，并迁移到分装、住宿、购物换算和队列调整等问题。能解释中间量、列综合算式并检查答案；结合配套练习辨析先除后乘与先乘后除，处理必要的时间、长度单位换算及结果比较，不扩展为正式的反比例教学。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗？",
+          "description": "依托“我学会了吗？”综合整理连乘、连除、先除后乘与先乘后除四类两步问题，能够从图文中提取条件、确定中间问题、选择运算并解释数量关系。通过包装与购物情境开展独立解答、方法交流和结果检验；结合“问题口袋”提出或记录问题，并从提问、合作及运用方法等方面进行自我评价。不照抄教材原题，不增加超出本单元的运算模型。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 102,
+      "title": "点击双休日",
+      "label": "综合与实践",
+      "knowledge_points": [
+        {
+          "name": "双休日调查设计与时间整理",
+          "description": "围绕双休日生活确定调查对象、调查内容与调查方法；设计活动时间调查表，按参加特长班、看电视、体育锻炼、写作业、实践活动及其他活动分类记录时间，并将个人记录汇总为小组记录。明确活动时间以小时为单位，区分参加项目的数量与所用时间，保持记录口径一致；只依据实际调查填写，不预设各项活动用时。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "满意程度统计与社区访谈",
+          "description": "按满意、一般、不满意三类调查全班同学对双休日生活的满意程度，将人数整理到教材提供的方格统计图和统计表中，核对分类记录与汇总结果。通过访谈了解学校对双休日生活的看法、社区提供的活动条件以及同学们的需求，记录意见与不满意的原因；区分人数统计和访谈信息，不凭图中空格或示例推定调查结果。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "调查结果分析与活动回顾",
+          "description": "结合活动时间记录、满意程度统计和访谈材料，交流双休日活动安排的特点，比较不同满意程度的人数，分析原因，并提出合理安排学习、休息、体育锻炼和社会实践的建议。回顾确定问题、设计调查表、收集资料、整理数据和交流结论的过程，体会先调查再得出结论以及恰当调查方法的重要性；结论须有资料支持，不将个别意见概括为全体意见。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 9,
+      "title": "九 我家买新房子了——长方形和正方形的面积",
+      "knowledge_points": [
+        {
+          "name": "面积的认识与比较",
+          "description": "结合新房平面图和物体表面理解面积表示面的大小；经历观察、重叠和借助同样大小图形铺摆的比较过程，理解比较面积需使用一致的测量标准。不将边界长度当作面积。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识常用面积单位",
+          "description": "认识平方厘米、平方分米、平方米及其符号，通过对应边长的正方形和生活实例建立单位表象；理解统一面积单位的必要性，能根据物体表面大小选择合适单位。本课不提前讲授面积单位进率。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "数方格与估测面积",
+          "description": "通过数方格、用单位正方形铺摆、估测和画图确定或比较面积；对不规则图形尝试合并不足整格的部分作合理估计，体会不同形状可以具有相同面积。以操作和计数为主，不提前套用面积公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "长方形分割与拼摆",
+          "description": "结合聪明小屋开展长方形分割与拼摆探究，尝试调整小长方形的摆放方向，记录方案并说明如何减少剩余部分；通过实际操作和方格图验证，不把单一方向的排列结果直接视为最多数量。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "长方形的面积",
+          "description": "经历单位正方形全部铺满、沿长宽摆放到测量长宽的探索过程，理解每行个数与行数的关系，归纳长方形面积等于长乘宽；能在长度单位一致的条件下计算面积，并正确使用面积单位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "正方形的面积",
+          "description": "利用正方形是长和宽相等的长方形这一关系，理解并掌握正方形面积等于边长乘边长；结合图形与生活情境计算面积，区分边长的长度单位与计算结果的面积单位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "面积单位的换算",
+          "description": "通过同一个正方形分别以不同单位计算面积，理解平方分米与平方厘米、平方米与平方分米之间的进率都是100，并完成相邻面积单位的简单换算；明确面积单位进率不能照搬长度单位进率。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "面积计算的实际应用",
+          "description": "运用长方形、正方形面积解决物体表面和场地的测算问题，经历先估计再测量计算的过程；理解按每平方米计价或安排种植时，应先求面积再求总价或总数量，并从平面图中识别所需长度。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "分割与补形求面积",
+          "description": "利用已学周长知识补求缺少的边长，再计算面积；通过剪去、分割或补成长方形等方法计算剩余部分和简单组合图形的面积，说明各部分的关系。仅使用本单元涉及的长方形和正方形，不引入其他图形面积公式。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "用课桌面估计教室面积",
+          "description": "落实课外实践：先测量课桌面的长宽并计算其面积，再以课桌面为参照估计教室面积；说明参照单位、估计方法及可能误差，不把估计结果当作精确测量值。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "周长与面积的区别和应用",
+          "description": "结合房间装饰情境，区分沿边界安装材料与铺满表面材料的不同需求，分别选择周长或面积计算并求费用；比较两者的含义、公式和计量单位，结合围栏、花边和镜框等情境巩固判断。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "周长与面积的综合探究",
+          "description": "综合运用周长、面积及单位换算，根据周长或面积补求边长；通过画图、计算和比较，认识面积相等的长方形周长不一定相等，理解等长铁丝围图形时周长相同。分析剪去正方形后边界与面积的变化，并将扩建面积问题作为拓展，不要求一般化结论。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "身边物品的面积测量",
+          "description": "落实课外实践：寻找身边具有长方形表面的物品，选择合适的面积单位，先估计再测量长宽并计算实际面积；记录比较估计值与计算值，交流估计依据和改进方法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗",
+          "description": "围绕我学会了吗中的花卉基地平面图，综合识图、推求边长、计算长方形和正方形面积及解决按单位面积种植的问题；整理面积含义、常用单位、换算与计算方法，利用问题口袋提出问题并开展自我评价。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 103,
+      "title": "智慧广场",
+      "label": "智慧广场",
+      "knowledge_points": [
+        {
+          "name": "等量代换求未知数",
+          "description": "结合图形之间的相等关系和总量关系，理解同一图形表示同一个数。比较尝试配数、按顺序试数与等量代换的方法，学会把一种图形换成与它相等的若干个另一种图形，将两种未知量转化为一种未知量，再用整数四则运算求值，并代回原有关系检验。覆盖合作探索及跨页的方法总结，突出“换前换后数量相等”的依据；不引入字母方程或形式化消元。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "等量代换的应用",
+          "description": "运用等量代换解决自主练习中的问题：根据天平平衡和容器容量关系进行连续代换；结合图形的和、差及倍数关系求未知数；借助画图，把两种物品的总数量或总价统一转化为一种物品对应的数量或价钱，再求出各自的数量或单价。覆盖自主练习第1—5题，并回顾识别相等关系、选择替换对象、计算和检验的步骤。只讲解解题方法并设计同类练习，不照抄教材原题，不超出本单元的整数运算与直观推理范围。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 10,
+      "title": "十 我当小厨师——分数的初步认识",
+      "knowledge_points": [
+        {
+          "name": "认识几分之一",
+          "description": "结合信息窗1的分食情境，通过折纸、平均分和涂色认识二分之一及其他几分之一，理解把一个物体或图形平均分成若干份，其中一份可以用分数表示。能辨别是否平均分，并用图形表示几分之一；强调平均分这一前提，不扩展到一组物体的分数意义。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "认识几分之几与分数读写",
+          "description": "由一份扩展到几份，理解几分之几表示平均分后的若干份，认识分子、分母和分数线，掌握简单分数的读写。通过看图写分数、按分数涂色及果汁分装情境巩固意义，区分平均分的份数与所取的份数；不引入约分、通分等后续知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "分数表示与设计实践",
+          "description": "开展“小小设计师”和“数学手抄报”活动，用分数描述花坛或版面中部分面积与整体面积的关系，尝试设计、估计并交流自己的表示方法。结合“你知道吗？”了解教材介绍的分数产生及表示方法演变；面积估计以直观分割为依据，不要求用面积公式精确计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "同分母分数比较大小",
+          "description": "结合信息窗2，通过图形和相同大小的分数单位比较同分母分数，理解分母相同时分子越大分数越大。完成同分母分数的大小判断、排序和简单情境推理，说明比较依据；比较实际部分大小时注意所对应整体相同。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "几分之一比较大小",
+          "description": "通过同样大小图形的分割、线段表示及涂色交流，理解分子为1时分母越大、每份越小。综合运用两类比较方法进行排序、选择和开放填数，并保留教材穿插的整数混合运算复习；不推广到任意异分母分数的通分比较。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "简单同分母分数加法",
+          "description": "结合信息窗3的合并情境，用涂色和数相同分数单位的方法理解简单同分母分数加法，说明分母不变、分子相加的原因。练习看图列式与计算，并认识若干份合成整个图形时可以用1表示；限于教材中的简单同分母加法，不引入异分母运算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "简单同分母分数减法",
+          "description": "从信息窗3的比较情境出发，借助图形理解简单同分母分数减法，用相同分数单位的个数相减解释计算方法。通过去掉一部分、比较相差多少等情境巩固，区分加法与减法的数量关系；不扩展到异分母减法或带分数运算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "分数加减法的实际应用",
+          "description": "综合运用分数意义、大小比较及简单同分母加减法，解决水量变化、纸张使用和部分与整体关系等问题，借助图示说明思路并判断整体是否用完。结合教材的人体资料辨认生活中的分数，保留整数四则计算复习；不把拓展阅读中的数据另设为需要记忆的知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "分数的初步认识整理与复习",
+          "description": "围绕“我学会了吗？”的拼图情境，综合表示部分占整体的分数、比较大小、求和与求差，并自主提出数学问题。通过“问题口袋”和“丰收园”梳理分数意义、读写、比较及简单加减法，开展学习反思与合作评价，不增加本单元范围外的新知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 11,
+      "title": "十一 谁长得快——数据的收集与整理（二）",
+      "knowledge_points": [
+        {
+          "name": "身高增长数据的收集",
+          "description": "结合身高增长情境提出统计问题，明确需要测量当前身高、查阅上年记录并计算增长量；学习小组分工调查和记录，为全班汇总准备数据。区分当前身高与身高增长量，统一测量单位和比较时间，不用个人数据代替全班情况。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "分组汇总与图表表示",
+          "description": "学习将各小组数据按指定类别汇总到统计表，并在方格图中涂格表示人数；理解两端包含界限的分类含义，做到不重复、不遗漏。比较各类人数，依据图表描述身高增长情况，体会数据较多时先分组统计、再汇总的方法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "数据收集与整理的应用",
+          "description": "通过头围测量、比赛成绩调查和属相调查巩固数据收集与整理；根据调查对象选择测量、查阅记录或询问等方法，完成分类计数、统计表填写及相应涂格表示。完整衔接头围活动的跨页内容，区分严格小于或大于的类别与包含边界的类别，并根据真实调查数据交流发现，不预设统计结果。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "纸桥承载实验统计",
+          "description": "开展拱形纸桥实验，按教材规定的材料规格和桥墩距离逐次操作，记录各距离下纸桥最多承载的硬币数量，用统计表和方格图整理实验数据。依据实际结果比较不同桥墩距离下的承载情况，交流发现；不编造实验数据，不将有限实验结果表述为普遍规律。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "课外实践：车辆调查",
+          "description": "设计并实施规定时段内的路口车辆分类统计，明确观察时长、车辆类别与记录方法，通过分工合作减少遗漏和重复，整理统计表并说明发现。在成人组织下选择安全观察位置，不进入车道；结论仅针对本次观察时段。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我学会了吗：单元复习",
+          "description": "结合职业梦想调查复习读取正字记录、分类计数、求总人数、涂格表示和比较人数等方法，依据统计结果作出解释。回顾提出问题、收集数据、整理表示和交流发现的过程，借助问题口袋与自我评价反思合作及学习收获；不把复习情境扩展为新的统计知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    },
+    {
+      "unit_number": 104,
+      "title": "回顾整理——总复习",
+      "label": "总复习",
+      "knowledge_points": [
+        {
+          "name": "全册知识回顾整理",
+          "description": "梳理本学期数与代数、图形与几何、统计等知识，借助分类、列表或知识图建立联系；回顾计算、解决问题和数学活动的方法，形成后续分项复习的框架，不将整理页当作新授内容。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两位数乘两位数",
+          "description": "复习两位数乘两位数的口算、估算与笔算，说明数位对齐、分步相乘和部分积相加的道理；结合整十数及进位情况检查计算，利用估算判断结果是否合理。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两三位数除以一位数",
+          "description": "复习两、三位数除以一位数的口算与笔算，关注商的位数、商中有0及有余数的情况；正确处理0除以非零数，结合乘法或估算检验商与余数。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "四则混合运算",
+          "description": "梳理同级运算、含两级运算及带小括号算式的运算顺序，正确进行脱式计算；说明每一步的依据，不引入教材范围之外的复杂运算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "乘除法数量关系",
+          "description": "结合购物、座位安排等情境整理数量关系，依据已知条件选择乘法或除法；运用列表比较数量和总量，用估算或精确计算作出够不够等判断，注意答案的单位及实际意义。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "时分秒与经过时间",
+          "description": "复习时、分、秒及其关系，认读钟面，计算经过时间和结束时刻；在生活问题中先统一时间单位，再结合每秒或每分钟的数量进行计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "分数的意义与比较",
+          "description": "从平均分的图形、线段和实际情境中理解分数，辨认整体与部分；复习同分母分数、分子为1的分数的大小比较，不扩展到一般异分母分数的通分比较。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "同分母分数加减法",
+          "description": "结合平均分的意义解释同分母分数加减法，正确计算并解决部分合并、部分相差的问题；保持整体一致，不引入异分母分数加减法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "两步乘除问题",
+          "description": "分析先求单位量再求总量、总量不变后重新分配、连续平均分等两步乘除问题；借助列表或线段图说明中间问题，选择分步或综合算式，并辨清往返路程与单程路程。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "倍数与相差问题",
+          "description": "分析倍数关系与相差关系交织的实际问题，明确先求什么、再求什么；利用线段图或替换的方法整理条件，解决先乘后加减、先加减后乘除及连续倍数关系问题，不使用方程等超出本册范围的方法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "面积单位与换算",
+          "description": "复习平方厘米、平方分米、平方米的实际大小，选择适当单位描述物体表面的面积；整理相邻面积单位间的进率并进行换算，区分长度单位与面积单位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "长方形正方形的周长与面积",
+          "description": "区分周长与面积的含义，复习长方形、正方形的周长和面积计算；处理根据倍数关系确定边长、已知单位面积占用量求数量及根据面积求总产量等问题，正确选择公式和单位。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "场地设计与图形拼摆",
+          "description": "在给定的长方形场地内设计正方形区域，说明设计条件并计算各部分面积；动手将相同小长方形无重叠拼成不同大长方形，用表格比较长、宽、周长和面积，体会面积相同而周长可能不同。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "平移与旋转",
+          "description": "结合生活现象辨认平移与旋转，依据形状、大小及朝向判断平移后的图形；想象物体运动后的位置，避免将旋转、翻转或大小变化误判为平移，不扩展到旋转角度计算。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "方向与位置",
+          "description": "依据方向标辨认东、南、西、北及东北、西北、东南、西南，选准参照物描述景点或场地的位置；体会参照物变化时方向描述随之变化，并尝试提出方位问题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "数据整理与统计图表",
+          "description": "将调查记录分类整理为统计表和条形统计图，核对各类人数与总人数；比较数据、提取信息并说明合理建议，体会调查与数据的作用，不因栏目名为“统计与概率”而增添教材未出现的概率知识。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "我都学会了吗：综合自测",
+          "description": "整合乘除法、混合运算、倍数关系、路程问题和面积知识开展自测；说明解题思路，检查计算及单位，并把图形拼摆、分数等专项活动中的表现纳入评价，不重复机械刷题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "情境综合实践",
+          "description": "从综合情境图中筛选票价、人数、气球数量、方位和钟面等信息，综合运用估算、乘除法、方向描述及时间计算解决问题；区分准确数据与估计数据，提出有依据且可解决的新问题。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        },
+        {
+          "name": "丰收园：学习总结与评价",
+          "description": "对照丰收园回顾计算、分数、时间、图形、方向、统计及解决问题的方法，选取学习实例说明掌握情况；评价独立思考、合作倾听和克服困难的表现，确定需要继续巩固的知识与方法。",
+          "difficulty": 1,
+          "question_types": [
+            "choice",
+            "true_false",
+            "calculation"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -23,6 +23,11 @@ def expression_value(text):
     text = text.replace(r'\times', '*').replace(r'\div', '/')
     text = re.sub(r'\\(?:d?frac)\{(-?\d+)\}\{(\d+)\}', r'(\1/\2)', text)
     text = re.sub(r'[=＝]\s*(?:\(\s*\)|[_□]+)?\s*$', '', text).strip()
+    # In textbook notation, slash fractions are single operands when the
+    # operation is explicitly written × or ÷: 3÷1/4 means 3÷(1/4).
+    # Preserve ordinary slash-only chains, whose association is ambiguous.
+    if '×' in text or '÷' in text:
+        text = re.sub(r'(?<![\d./])(\d+(?:\.\d+)?)\s*/\s*(\d+(?:\.\d+)?)(?![\d./])', r'(\1/\2)', text)
     text = text.translate(str.maketrans({'×': '*', '÷': '/', '−': '-', '－': '-', '＋': '+'}))
     if len(text) > 200 or not re.fullmatch(r'[\d\s.()+*/-]+', text) or not re.search(r'[+*/-]', text) or '**' in text or '//' in text:
         return None
@@ -61,6 +66,8 @@ def main():
     parser.add_argument('--report', type=Path)
     args = parser.parse_args()
     for expression, answer in [('计算：36－18＋6。', 24), ('计算：65－5×6。', 35), ('计算：（12－6）×6。', 36), ('$0.5 \\times 40=$', 20), (r'$\frac{3}{8}\times 2$', Fraction(3, 4)), ('计算0.1+0.2。', Fraction(3, 10))]:
+        assert expression_value(expression) == answer, expression
+    for expression, answer in [('3÷1/4', 12), ('2/3÷4/9', Fraction(3, 2)), ('5/6÷5/9×2/3', 1), ('9÷3/4×1/3', 4), ('2÷-3/4', Fraction(-8, 3)), ('12/3/2', 2)]:
         assert expression_value(expression) == answer, expression
     for text in ['每袋200克，4袋重多少克？', '计算3÷7，保留两位小数。', '__import__("os")', '2**9999']:
         assert expression_value(text) is None

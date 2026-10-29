@@ -11,8 +11,8 @@
  */
 
 const VERSION = "v3";
-const SHELL_CACHE = `ctsf-shell-${VERSION}-chinese-g5up-edge-v1.6.0`;
-const DATA_CACHE = `ctsf-data-${VERSION}-chinese-g5up-edge-v1.6.0`;
+const SHELL_CACHE = `ctsf-shell-${VERSION}-five-four-v1.8.0`;
+const DATA_CACHE = `ctsf-data-${VERSION}-five-four-v1.8.0`;
 const STATIC_CACHE = `ctsf-static-${VERSION}`;
 
 const SHELL_PRECACHE = [

@@ -1,0 +1,572 @@
+{
+  "textbook": "义务教育教科书（五·四学制）英语（三年级起点）四年级 上册",
+  "unit": "Unit 6 Family",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "Unit 6 Family·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "Is that your mother?",
+        "difficulty": 1,
+        "explanation": "Is that your mother? 是正确问法。第二项误用 Does，第三项把 your 写成 you，第四项误用 Are。",
+        "knowledge_point": "My father has short hair.",
+        "options": [
+          "Is that your mother?",
+          "Does that your mother?",
+          "Is that you mother?",
+          "Are that your mother?"
+        ],
+        "question": "选择正确的英语问句，询问“那是你妈妈吗？”。",
+        "type": "choice",
+        "id": 60001,
+        "score": 10
+      },
+      {
+        "answer": "My father is tall and strong.",
+        "difficulty": 1,
+        "explanation": "描述父亲个子高而且强壮用 is tall and strong。第二项误用 has，第三项误用 are，第四项不是正确的头发表达。",
+        "knowledge_point": "My father has short hair.",
+        "options": [
+          "My father has tall and strong.",
+          "My father is tall and strong.",
+          "My father are tall and strong.",
+          "My father is short hair."
+        ],
+        "question": "选择正确的句子，表示“我爸爸个子高而且强壮”。",
+        "type": "choice",
+        "id": 60002,
+        "score": 10
+      },
+      {
+        "answer": "He has big eyes.",
+        "difficulty": 2,
+        "explanation": "He 后用 has，一双大眼睛用 big eyes。其余选项分别误用 have、误用 is 或把 eyes 写成单数。",
+        "knowledge_point": "My father has short hair.",
+        "options": [
+          "He have big eyes.",
+          "He is big eyes.",
+          "He has big eyes.",
+          "He has big eye."
+        ],
+        "question": "选择正确的句子，表示“他有一双大眼睛”。",
+        "type": "choice",
+        "id": 60003,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "He’s 是 He is 的缩写，tall 表示个子高。",
+        "knowledge_point": "My father has short hair.",
+        "options": [],
+        "question": "判断：“He’s tall.”可以表示“他个子高”。",
+        "type": "true_false",
+        "id": 60004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "描述她留着长头发应说 She has long hair.，这里不能用 is 直接连接 long hair。",
+        "knowledge_point": "My father has short hair.",
+        "options": [],
+        "question": "判断：“She is long hair.”是表达“她留着长头发”的正确句子。",
+        "type": "true_false",
+        "id": 60005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "parents 指父母双亲，不只是父亲。",
+        "knowledge_point": "My father has short hair.",
+        "options": [],
+        "question": "判断：“My parents are coming.”中的 parents 只指爸爸一个人。",
+        "type": "true_false",
+        "id": 60006,
+        "score": 10
+      },
+      {
+        "answer": "What does your father do?",
+        "difficulty": 1,
+        "explanation": "询问父亲职业用 What does your father do?。其余选项分别误用 do、误用 is，或在 does 后又用了 does。",
+        "knowledge_point": "What does your mother do?",
+        "options": [
+          "What do your father do?",
+          "What is your father do?",
+          "What does your father do?",
+          "What does your father does?"
+        ],
+        "question": "选择正确的英语问句，询问“你爸爸是做什么工作的？”。",
+        "type": "choice",
+        "id": 60007,
+        "score": 10
+      },
+      {
+        "answer": "She’s an art teacher.",
+        "difficulty": 1,
+        "explanation": "art 以元音音素开头，用 an；女性用 she。其余选项分别冠词不当、代词不符或漏冠词。",
+        "knowledge_point": "What does your mother do?",
+        "options": [
+          "She’s an art teacher.",
+          "She’s a art teacher.",
+          "He’s an art teacher.",
+          "She’s art teacher."
+        ],
+        "question": "选择语法正确且表示“她是一名美术老师”的句子。",
+        "type": "choice",
+        "id": 60008,
+        "score": 10
+      },
+      {
+        "answer": "He’s a businessman.",
+        "difficulty": 2,
+        "explanation": "businessman 表示商人，前面用 a，男性用 he。其余选项分别冠词不当、代词不符或漏冠词。",
+        "knowledge_point": "What does your mother do?",
+        "options": [
+          "He’s an businessman.",
+          "She’s a businessman.",
+          "He’s businessman.",
+          "He’s a businessman."
+        ],
+        "question": "选择语法正确且表示“他是一名商人”的句子。",
+        "type": "choice",
+        "id": 60009,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "She’s a doctor. 表示她是一名医生，不能据此判断她是美术老师。",
+        "knowledge_point": "What does your mother do?",
+        "options": [],
+        "question": "对方回答妈妈的职业：“She’s a doctor.” 判断：这句话说明妈妈是一名美术老师。",
+        "type": "true_false",
+        "id": 60010,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "在欣赏母亲创作的画这一语境中，work 指作品，而不是职业名称。",
+        "knowledge_point": "What does your mother do?",
+        "options": [],
+        "question": "两人正在欣赏一幅由母亲创作的画，其中一人说：“It’s my mother’s work.” 判断：这里的 work 指母亲的作品。",
+        "type": "true_false",
+        "id": 60011,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "cute 表示可爱的，She’s cute! 可以用来表达这只雌性宠物狗很可爱。",
+        "knowledge_point": "What does your mother do?",
+        "options": [],
+        "question": "已知欢欢是一只雌性宠物狗，介绍后有人说：“She’s cute!” 判断：这句话是在说欢欢很可爱。",
+        "type": "true_false",
+        "id": 60012,
+        "score": 10
+      },
+      {
+        "answer": "She’s a nurse.",
+        "difficulty": 1,
+        "explanation": "She’s a nurse. 表示她是一名护士。第二项漏 a，第三项代词表示男性，第四项职业是厨师。",
+        "knowledge_point": "She works in a hospital.",
+        "options": [
+          "She’s nurse.",
+          "She’s a nurse.",
+          "He’s a nurse.",
+          "She’s a cook."
+        ],
+        "question": "选择正确的句子，表示“她是一名护士”。",
+        "type": "choice",
+        "id": 60013,
+        "score": 10
+      },
+      {
+        "answer": "He works in a park.",
+        "difficulty": 2,
+        "explanation": "男性人物用 he，在公园工作用 works in a park。第二项人称不符，第三项缺少动词词尾，第四项多用了 is。",
+        "knowledge_point": "She works in a hospital.",
+        "options": [
+          "He works in a park.",
+          "She works in a park.",
+          "He work in a park.",
+          "He is works in a park."
+        ],
+        "question": "一位爷爷是一名园丁，已知他在公园工作。选择语法正确且符合这一地点信息的句子。",
+        "type": "choice",
+        "id": 60014,
+        "score": 10
+      },
+      {
+        "answer": "a doctor",
+        "difficulty": 1,
+        "explanation": "doctor 的开头是辅音音素，用 a；an doctor 冠词不当，a doctors 单复数不匹配，doctor a 词序错误。",
+        "knowledge_point": "She works in a hospital.",
+        "options": [
+          "an doctor",
+          "a doctors",
+          "doctor a",
+          "a doctor"
+        ],
+        "question": "选择表示“一名医生”的正确短语。",
+        "type": "choice",
+        "id": 60015,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "nurse 表示护士，works in a hospital 表示在医院工作。",
+        "knowledge_point": "She works in a hospital.",
+        "options": [],
+        "question": "已知介绍为“She’s a nurse. She works in a hospital.”。判断：这位女性是一名护士，在医院工作。",
+        "type": "true_false",
+        "id": 60016,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "cook 表示厨师，policeman 才表示警察。",
+        "knowledge_point": "She works in a hospital.",
+        "options": [],
+        "question": "判断：“He’s a cook.”的意思是“他是一名警察”。",
+        "type": "true_false",
+        "id": 60017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "单数职业 farmer 前需要冠词，正确表达为 He’s a farmer.",
+        "knowledge_point": "She works in a hospital.",
+        "options": [],
+        "question": "判断：“He’s farmer.”是表达“他是一名农民”的规范句子。",
+        "type": "true_false",
+        "id": 60018,
+        "score": 10
+      },
+      {
+        "answer": "She has long hair.",
+        "difficulty": 1,
+        "explanation": "has long hair 表示留着长头发。第二项误用 is，第三项误用 have，第四项表示短头发。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "She has long hair.",
+          "She is long hair.",
+          "She have long hair.",
+          "She has short hair."
+        ],
+        "question": "选择语法正确且表示“她留着长头发”的句子。",
+        "type": "choice",
+        "id": 60019,
+        "score": 10
+      },
+      {
+        "answer": "She’s a nurse. She works in a hospital.",
+        "difficulty": 2,
+        "explanation": "nurse 是护士，hospital 是医院。其余选项分别改成医生、改成公园或存在漏冠词及动词形式错误。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "She’s a doctor. She works in a hospital.",
+          "She’s a nurse. She works in a park.",
+          "She’s a nurse. She works in a hospital.",
+          "She’s nurse. She work in a hospital."
+        ],
+        "question": "小丽介绍虚构人物：“她是一名护士，在医院工作。”哪一项完整、正确地表达了这两条信息？",
+        "type": "choice",
+        "id": 60020,
+        "score": 10
+      },
+      {
+        "answer": "He’s a teacher.",
+        "difficulty": 1,
+        "explanation": "He’s a teacher. 表示他是一名教师。其余选项分别漏冠词、性别代词不符或职业不符。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "He’s teacher.",
+          "She’s a teacher.",
+          "He’s a nurse.",
+          "He’s a teacher."
+        ],
+        "question": "选择语法正确且表示“他是一名教师”的句子。",
+        "type": "choice",
+        "id": 60021,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "这四个例词中的字母 a 都发 /æ/；这里比较的是字母 a，而不是每个词的开头音。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：在 apple、at、has、dad 这四个例词中，字母 a 的读音相同。",
+        "type": "true_false",
+        "id": 60022,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "hot 的开头音是 /h/，run 的开头音是 /r/，二者不同。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：hot 和 run 的开头音相同。",
+        "type": "true_false",
+        "id": 60023,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "先整理家庭成员，再补充各自信息，可以帮助按顺序组织介绍。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：练习介绍一个虚构家庭时，先用家庭关系图整理成员，再补充他们的外貌和职业，可以帮助组织介绍。",
+        "type": "true_false",
+        "id": 60024,
+        "score": 10
+      },
+      {
+        "answer": "一把短柄小斧",
+        "difficulty": 1,
+        "explanation": "hatchet 表示短柄小斧。其余三个选项都不是这个词的意思。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "一本书",
+          "一把短柄小斧",
+          "一朵花",
+          "一件外套"
+        ],
+        "question": "父亲对乔治说：“Here’s a hatchet for you.” 已知 hatchet 表示短柄小斧。父亲给乔治的是什么？",
+        "type": "choice",
+        "id": 60025,
+        "score": 10
+      },
+      {
+        "answer": "乔治承认自己用新斧头砍倒了树。",
+        "difficulty": 2,
+        "explanation": "题中说话人是乔治，I cut it down 表示他承认砍倒了树，with my new hatchet 说明使用了新斧头。其余选项均与给定发言不符。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "乔治说自己没有碰过树。",
+          "父亲承认自己砍倒了树。",
+          "乔治承认自己用新斧头砍倒了树。",
+          "乔治请求父亲送一本书。"
+        ],
+        "question": "一棵树被砍倒后，乔治对父亲说：“I’m sorry, dad. I cut it down with my new hatchet.” 哪一项正确概括了这句话？",
+        "type": "choice",
+        "id": 60026,
+        "score": 10
+      },
+      {
+        "answer": "诚实",
+        "difficulty": 1,
+        "explanation": "承认自己的行为、讲出实话体现诚实。害怕、职业和外貌都不是这段情节所突出的品质。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "诚实",
+          "外貌",
+          "职业",
+          "害怕"
+        ],
+        "question": "故事里，乔治砍倒树后主动承认，父亲肯定他讲了实话。这段情节主要表现什么品质？",
+        "type": "choice",
+        "id": 60027,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "honest 的意思是诚实的，符合题目的词义说明。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断：英语单词 honest 的意思是“诚实的”。",
+        "type": "true_false",
+        "id": 60028,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Don’t 表示不要，be afraid 表示害怕，my son 是对儿子的称呼。因此该句意思是“不要害怕，我的儿子”。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "父亲说：“Don’t be afraid, my son.” 判断：这句话是在让儿子不要害怕。",
+        "type": "true_false",
+        "id": 60029,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "mother 是家庭成员，nurse 是职业；整理成员及其职业时，二者不能颠倒。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "在整理一个虚构家庭的英语思维导图时，判断：应把 mother 当作职业词，把 nurse 当作家庭成员称谓。",
+        "type": "true_false",
+        "id": 60030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 6 Family·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "has",
+        "difficulty": 1,
+        "explanation": "主语 My mother 是第三人称单数，描述她有大眼睛用 has；is、are 不能直接连接 big eyes，have 不符合这里的主语。",
+        "knowledge_point": "My father has short hair.",
+        "options": [
+          "has",
+          "have",
+          "is",
+          "are"
+        ],
+        "question": "选择正确的词补全句子，表示“我妈妈有一双大眼睛”：My mother ___ big eyes.",
+        "type": "choice",
+        "id": 69001,
+        "score": 10
+      },
+      {
+        "answer": "What does your mother do?",
+        "difficulty": 1,
+        "explanation": "询问母亲职业用 What does your mother do?；其余三项分别询问父亲职业、辨认母亲、描述母亲头发，不符合题意。",
+        "knowledge_point": "What does your mother do?",
+        "options": [
+          "What does your mother do?",
+          "What does your father do?",
+          "Is that your mother?",
+          "Does your mother have long hair?"
+        ],
+        "question": "你想询问同伴“你妈妈是做什么工作的？”，应选择哪一句？",
+        "type": "choice",
+        "id": 69002,
+        "score": 10
+      },
+      {
+        "answer": "She works in a hospital.",
+        "difficulty": 2,
+        "explanation": "She 后用 works，in a hospital 表示“在医院”。第二项缺少第三人称单数词尾，第三项的地点是公园，第四项多用了 is。",
+        "knowledge_point": "She works in a hospital.",
+        "options": [
+          "She works in a hospital.",
+          "She work in a hospital.",
+          "She works in a park.",
+          "She is works in a hospital."
+        ],
+        "question": "选择语法正确且表示“她在医院工作”的句子。",
+        "type": "choice",
+        "id": 69003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "题中已说明母亲是护士，正确职业表达应为 She’s a nurse.；teacher 表示教师，与给定信息不符。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "小文的妈妈留着长头发，是一名护士。判断：介绍她时说“She has long hair. She’s a teacher.”，两句话都符合给定信息。",
+        "type": "true_false",
+        "id": 69004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "long hair 表示长头发；She has long hair. 可以表达“她留着长头发”。",
+        "knowledge_point": "My father has short hair.",
+        "options": [],
+        "question": "判断：句子“She has long hair.”可以表示“她留着长头发”。",
+        "type": "true_false",
+        "id": 69005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "told me the truth 表示“对我说了实话”；父亲明确说自己为此感到高兴。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "故事中，乔治承认砍倒了树，父亲说：“I’m happy you told me the truth.” 判断：父亲为乔治讲了实话而感到高兴。",
+        "type": "true_false",
+        "id": 69006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "描述身高、体格时用 is，如 He is tall and strong.；不能说 He has tall and strong.",
+        "描述头发、眼睛时用 has，如 He has short hair.、She has big eyes.",
+        "he、she 或单个人物作主语时，这类肯定句用 has，不用 have。",
+        "本课描述整体头发时用 hair，不写成 hairs；一双大眼睛用 big eyes。",
+        "Is that your father? 是辨认人物，不是询问职业。"
+      ],
+      "core_concept": "认识 father、mother、parents、sister、brother 等家庭称谓，理解 tall、strong、short、long、hair 和 big eyes。用 Is that your father/mother? 辨认人物，用 This is my ... 介绍家人；用 is 描述身高和体格，用 has 描述头发和眼睛。parents 指父母双亲。猜人活动可综合外貌和喜好线索，但不能把活动中不同学生的猜测当作已经证实的唯一身份。",
+      "key_formula": "Is that your father/mother? — Yes. / No.；My father is tall and strong.；My father has short hair.；This is my sister/brother.",
+      "point": "My father has short hair.",
+      "tips": "先判断要表达的是“个子高、强壮”，还是“有怎样的头发、眼睛”，再选择 is 或 has。介绍头发时可对比 short hair 和 long hair；回答辨认人物的问题时要与已给信息一致。"
+    },
+    {
+      "common_mistakes": [
+        "询问单个人物职业时用 What does ... do?，不说 What do your father do?",
+        "does 后保留 do，不再把末尾的 do 写成 does。",
+        "介绍母亲用 she，介绍父亲用 he。",
+        "单数职业前保留 a/an，如 an art teacher、a businessman、a doctor。",
+        "It’s my mother’s work. 中的 work 指作品，不是在直接说明职业。",
+        "看到 my good friend 就以为介绍的一定是人，忽略了这里介绍的是宠物狗 Huanhuan。"
+      ],
+      "core_concept": "用 What does your father/mother do? 询问父母职业，用 He’s/She’s a/an ... 回答。理解 art teacher（美术老师）、businessman（商人），结合 teacher、doctor、farmer 开展职业辨认和问答。对话中母亲的 work 指她创作的作品；How beautiful! 表示赞美。This is Huanhuan, my good friend. 介绍宠物狗欢欢，She’s cute! 表示她很可爱。",
+      "key_formula": "What does your mother/father do? — She’s/He’s a/an ...",
+      "point": "What does your mother do?",
+      "tips": "先看被询问的是谁，再选 he 或 she；说职业时注意 a/an，例如 an art teacher、a businessman。辨别 work 的意思要结合完整语境：画作是作品，works in ... 则表示在某处工作。"
+    },
+    {
+      "common_mistakes": [
+        "询问职业用 What does she do?，不说 What is she do?",
+        "he 或 she 作主语时，本课地点句用 works，不用 work，也不在 works 前加 is。",
+        "单数职业表达要保留冠词，如 a nurse、a policeman、a cook、a gardener。",
+        "不能仅凭职业推断某个人实际在哪里工作；阅读题应依据已给的地点信息作答。",
+        "抄写 a teacher、a farmer、a nurse、a doctor 时注意词间空格和字母书写。"
+      ],
+      "core_concept": "认识 nurse（护士）、policeman（警察）、cook（厨师）、gardener（园丁），以及 hospital（医院）、park（公园）。能用 What does she/he do? 询问职业，用 She’s/He’s a/an ... 回答，并用 She/He works in ... 介绍已知工作地点。课文明确介绍一位护士在医院工作、一位园丁在公园工作，但这不是对所有职业工作地点的绝对规定。会规范抄写 a teacher、a farmer、a nurse、a doctor。",
+      "key_formula": "What does she/he do? — She’s/He’s a/an ...；She works in a hospital.；He works in a park.",
+      "point": "She works in a hospital.",
+      "tips": "把职业句和地点句分开理解：She’s a nurse. 说职业；She works in a hospital. 说地点。介绍男性人物时换用 he。遇到没有提供的工作地点，不自行添加。"
+    },
+    {
+      "common_mistakes": [
+        "介绍身高用 is，介绍头发用 has，不说 She is long hair.",
+        "介绍职业不能漏掉 a/an，如 He’s a teacher.、She’s an art teacher.",
+        "主语是 he 或 she 时，本单元工作地点句中的动词用 works。",
+        "不能把例词中的读音推广到所有单词；a 组练习的是单词中字母 a 的读音，不是这些词的开头音。"
+      ],
+      "core_concept": "综合复习家庭成员辨认、外貌描述、职业问答和工作地点表达。用家庭关系图整理 grandma、grandpa、mother、father、me 等成员信息，再组织简短介绍。语音练习中，h 在 hot、hill、has、home 中发 /h/，r 在 run、red、rice、rain 中发 /r/，a 在 apple、at、has、dad 中发 /æ/；只按这些例词辨听和模仿，不概括为适用于所有单词的规则。歌曲 Family 用于听唱和感受家庭主题，不作为主课文拼入 readings。",
+      "key_formula": "Is that your father? — Yes.；What does he do? — He’s a teacher.；She has long hair.；She’s a nurse. She works in a hospital.",
+      "point": "Again, please!",
+      "tips": "介绍虚构家庭也可以练习：先说成员，再说外貌、职业，最后补充已知工作地点。跟读时分别留意 h、r 的开头音和 a 在例词中的读音。不要仅凭职业名称猜工作地点。"
+    },
+    {
+      "common_mistakes": [
+        "不能打乱获得斧头、看到砍树枝、自己砍树、父亲发现、承认事实、父亲回应的故事顺序。",
+        "故事中 I’m cutting the branches. 是另一位人物的回答，不能把所有砍树相关发言都归给乔治。",
+        "Don’t be afraid. 表示不要害怕，不是要求对方害怕。",
+        "父亲为孩子说实话感到高兴，不等于赞成砍倒树。",
+        "词汇认读、句型表达和介绍家庭是不同的自评项目，不能只会认词就认为全部达标。"
+      ],
+      "core_concept": "阅读 An Honest Boy，理解乔治获得短柄小斧、看到别人砍树枝、自己砍倒树、承认事实以及父亲回应的情节，体会诚实主题。理解 honest（诚实的）、hatchet（短柄小斧）、branch（树枝）、with（用）、afraid（害怕的）及 told the truth（说实话）。结合 Check it. 检查词汇、句型和家庭介绍能力，用家庭思维导图整理成员与职业信息。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "阅读时先找每幅图中的人物和发言，再按顺序理解故事。用结尾的 truth 判断诚实主题，不把“说实话受到肯定”误解为“砍树受到肯定”。练习家庭介绍可使用虚构信息，无须提供真实姓名、住址或电话。"
+    }
+  ]
+}

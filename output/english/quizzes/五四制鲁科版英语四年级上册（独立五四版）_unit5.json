@@ -1,0 +1,628 @@
+{
+  "textbook": "义务教育教科书（五·四学制）英语（三年级起点）四年级 上册",
+  "unit": "Unit 5 Weather",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 Weather·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "sunny",
+        "difficulty": 1,
+        "explanation": "sunny表示晴朗；cloudy表示多云，windy表示有风，cool表示凉爽，均不符合“晴朗”。",
+        "knowledge_point": "Lesson 1 It’s sunny.",
+        "options": [
+          "cloudy",
+          "sunny",
+          "windy",
+          "cool"
+        ],
+        "question": "给英语天气卡选择“晴朗”的对应词。",
+        "type": "choice",
+        "id": 50001,
+        "score": 10
+      },
+      {
+        "answer": "凉爽",
+        "difficulty": 1,
+        "explanation": "cool在天气表达中表示凉爽，不表示寒冷、下雨或多云。",
+        "knowledge_point": "Lesson 1 It’s sunny.",
+        "options": [
+          "寒冷",
+          "凉爽",
+          "正在下雨",
+          "多云"
+        ],
+        "question": "听到天气描述“It’s cool.”，其中cool表示什么？",
+        "type": "choice",
+        "id": 50002,
+        "score": 10
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "主语It搭配is，完整句为It is windy today.；am、are不与It这样搭配，be不能直接用于此处。",
+        "knowledge_point": "Lesson 1 It’s sunny.",
+        "options": [
+          "am",
+          "is",
+          "be",
+          "are"
+        ],
+        "question": "表示“今天有风”，选择合适的词填空：It ____ windy today.",
+        "type": "choice",
+        "id": 50003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "cloudy表示多云；有风应使用windy。",
+        "knowledge_point": "Lesson 1 It’s sunny.",
+        "options": [],
+        "question": "判断：把“It’s cloudy.”翻译为“天气有风”是正确的。",
+        "type": "true_false",
+        "id": 50004,
+        "score": 10
+      },
+      {
+        "answer": "go",
+        "difficulty": 2,
+        "explanation": "Let’s后接动词原形go；goes、going、went都不是此处需要的动词原形。",
+        "knowledge_point": "Lesson 1 It’s sunny.",
+        "options": [
+          "went",
+          "going",
+          "goes",
+          "go"
+        ],
+        "question": "两位朋友商量去公园。选择合适的词填空：Let’s ____ to the park today.",
+        "type": "choice",
+        "id": 50005,
+        "score": 10
+      },
+      {
+        "answer": "Put on",
+        "difficulty": 2,
+        "explanation": "Put on表示穿上，与your jacket搭配构成穿衣提醒；其余选项分别涉及观看、攀爬或询问天气，不能完成句意。",
+        "knowledge_point": "Lesson 1 It’s sunny.",
+        "options": [
+          "Watch",
+          "Put on",
+          "Climb",
+          "How’s"
+        ],
+        "question": "你要提醒朋友“穿上你的夹克”，选择合适的表达：____ your jacket.",
+        "type": "choice",
+        "id": 50006,
+        "score": 10
+      },
+      {
+        "answer": "raining",
+        "difficulty": 1,
+        "explanation": "正在下雨用It’s raining.；snowing表示正在下雪，sunny表示晴朗，windy表示有风。",
+        "knowledge_point": "Lesson 2 It’s snowing.",
+        "options": [
+          "snowing",
+          "windy",
+          "sunny",
+          "raining"
+        ],
+        "question": "朋友所在的城市现在正在下雨。完成他的回答：It’s ____ now.",
+        "type": "choice",
+        "id": 50007,
+        "score": 10
+      },
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "表示在某座城市，城市名称前使用in；on、at、for不适用于本句的城市地点表达。",
+        "knowledge_point": "Lesson 2 It’s snowing.",
+        "options": [
+          "for",
+          "at",
+          "in",
+          "on"
+        ],
+        "question": "选择合适的词填空：How’s the weather ____ Jinan today?",
+        "type": "choice",
+        "id": 50008,
+        "score": 10
+      },
+      {
+        "answer": "雨衣",
+        "difficulty": 1,
+        "explanation": "raincoat表示雨衣，不是夹克、衬衫或毛衣。",
+        "knowledge_point": "Lesson 2 It’s snowing.",
+        "options": [
+          "毛衣",
+          "夹克",
+          "雨衣",
+          "衬衫"
+        ],
+        "question": "在提醒“Put on your raincoat.”中，raincoat指哪一种衣物？",
+        "type": "choice",
+        "id": 50009,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "It’s time for school.表示该上学了，可以用于结束通话、准备上学的情境。",
+        "knowledge_point": "Lesson 2 It’s snowing.",
+        "options": [],
+        "question": "判断：孩子准备结束通话去上学，可以用“It’s time for school.”说明原因。",
+        "type": "true_false",
+        "id": 50010,
+        "score": 10
+      },
+      {
+        "answer": "It’s snowing in Jinan.",
+        "difficulty": 2,
+        "explanation": "记录明确说明济南当前下雪，因此只有含snowing且城市为Jinan的选项符合；另外三项改变了天气或城市。",
+        "knowledge_point": "Lesson 2 It’s snowing.",
+        "options": [
+          "It’s raining in Jinan.",
+          "It’s snowing in Shanghai.",
+          "It’s snowing in Jinan.",
+          "It’s sunny in Jinan."
+        ],
+        "question": "一份课堂练习记录注明：济南当前正在下雪。选择与这份记录一致的句子。",
+        "type": "choice",
+        "id": 50011,
+        "score": 10
+      },
+      {
+        "answer": "How’s the weather in Beijing today?",
+        "difficulty": 2,
+        "explanation": "正确选项明确询问北京今天的天气；其余选项分别询问明天天气、北京的位置或上学时间。",
+        "knowledge_point": "Lesson 2 It’s snowing.",
+        "options": [
+          "How’s the weather in Beijing tomorrow?",
+          "Where is Beijing?",
+          "Is it time for school?",
+          "How’s the weather in Beijing today?"
+        ],
+        "question": "你正在制作“北京今日天气”记录卡，需要向朋友询问天气。选择意思准确的问题。",
+        "type": "choice",
+        "id": 50012,
+        "score": 10
+      },
+      {
+        "answer": "明天",
+        "difficulty": 1,
+        "explanation": "tomorrow表示明天，不是今天、早晨或中午。",
+        "knowledge_point": "Lesson 3 It will snow.",
+        "options": [
+          "今天",
+          "早晨",
+          "明天",
+          "中午"
+        ],
+        "question": "在天气询问“How’s the weather tomorrow?”中，tomorrow指什么时间？",
+        "type": "choice",
+        "id": 50013,
+        "score": 10
+      },
+      {
+        "answer": "rain",
+        "difficulty": 2,
+        "explanation": "will后接动词原形rain；rains和raining形式不符，raincoat是名词雨衣。",
+        "knowledge_point": "Lesson 3 It will snow.",
+        "options": [
+          "raining",
+          "raincoat",
+          "rain",
+          "rains"
+        ],
+        "question": "练习用预报说明：上海明天将下雨。选择合适的词填空：It will ____ in Shanghai tomorrow.",
+        "type": "choice",
+        "id": 50014,
+        "score": 10
+      },
+      {
+        "answer": "will be",
+        "difficulty": 2,
+        "explanation": "未来天气形容词sunny前使用will be；will缺少be，will is和will are都不是正确结构。",
+        "knowledge_point": "Lesson 3 It will snow.",
+        "options": [
+          "will be",
+          "will is",
+          "will are",
+          "will"
+        ],
+        "question": "练习用预报说明：青岛明天晴朗。选择合适的表达：It ____ sunny in Qingdao tomorrow.",
+        "type": "choice",
+        "id": 50015,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "snow在此处表示下雪，will后直接接snow，不加be；应为It will snow tomorrow.",
+        "knowledge_point": "Lesson 3 It will snow.",
+        "options": [],
+        "question": "判断：表示“明天将下雪”，句子“It will be snow tomorrow.”的结构正确。",
+        "type": "true_false",
+        "id": 50016,
+        "score": 10
+      },
+      {
+        "answer": "go",
+        "difficulty": 2,
+        "explanation": "Shall we后使用动词原形go；goes、going、went均不符合这一建议句式。",
+        "knowledge_point": "Lesson 3 It will snow.",
+        "options": [
+          "went",
+          "goes",
+          "going",
+          "go"
+        ],
+        "question": "两位朋友根据明天的天气商量去公园。选择合适的词：Shall we ____ to the park tomorrow?",
+        "type": "choice",
+        "id": 50017,
+        "score": 10
+      },
+      {
+        "answer": "sunny",
+        "difficulty": 1,
+        "explanation": "晴朗的正确拼写是sunny，有两个n；其余三项均拼写错误。",
+        "knowledge_point": "Lesson 3 It will snow.",
+        "options": [
+          "suny",
+          "sunny",
+          "sunney",
+          "sunn"
+        ],
+        "question": "要在天气词卡上写“晴朗的”，选择拼写正确的单词。",
+        "type": "choice",
+        "id": 50018,
+        "score": 10
+      },
+      {
+        "answer": "因为今天正在下雨。",
+        "difficulty": 2,
+        "explanation": "对话明确把取消今天行程的原因与下雨相联系；晴天、穿新衣和上学都不是已给出的原因。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "因为明天晴朗。",
+          "因为要穿新衣服。",
+          "因为今天要上学。",
+          "因为今天正在下雨。"
+        ],
+        "question": "阅读自编对话：A: It’s raining today. We can’t go to the zoo today. B: It will be sunny tomorrow. Let’s go tomorrow. 两人为什么不在今天去动物园？",
+        "type": "choice",
+        "id": 50019,
+        "score": 10
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "表示在星期一用on Monday；in、at、for均不能替代此处的on。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "on",
+          "at",
+          "in",
+          "for"
+        ],
+        "question": "选择合适的词填空：It will snow ____ Monday.",
+        "type": "choice",
+        "id": 50020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "will be后可接天气形容词cloudy，on Sunday表示在星期日，句子结构正确。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "判断：一份自编预报要表达“星期日将是多云天气”，可以写“It will be cloudy on Sunday.”。",
+        "type": "true_false",
+        "id": 50021,
+        "score": 10
+      },
+      {
+        "answer": "/s/",
+        "difficulty": 2,
+        "explanation": "yes末尾的s读/s/，不读/z/、/l/或/ʌ/。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "/s/",
+          "/ʌ/",
+          "/z/",
+          "/l/"
+        ],
+        "question": "单词yes中，字母s的发音是哪一个？",
+        "type": "choice",
+        "id": 50022,
+        "score": 10
+      },
+      {
+        "answer": "/l/",
+        "difficulty": 2,
+        "explanation": "look开头的l读/l/；其他三个音均不是该字母在look中的发音。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "/ʌ/",
+          "/z/",
+          "/l/",
+          "/s/"
+        ],
+        "question": "单词look中，开头字母l的发音是哪一个？",
+        "type": "choice",
+        "id": 50023,
+        "score": 10
+      },
+      {
+        "answer": "/ʌ/",
+        "difficulty": 2,
+        "explanation": "run中的u读/ʌ/，不读字母名称音/juː/，也不读/s/或/l/。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "/ʌ/",
+          "/l/",
+          "/s/",
+          "/juː/"
+        ],
+        "question": "单词run中，字母u的发音是哪一个？",
+        "type": "choice",
+        "id": 50024,
+        "score": 10
+      },
+      {
+        "answer": "Autumn.",
+        "difficulty": 1,
+        "explanation": "原句直接说明in autumn，即在秋天；其他三个季节不符合原句。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Summer.",
+          "Winter.",
+          "Spring.",
+          "Autumn."
+        ],
+        "question": "阅读原句：“It is a sunny day in autumn.”问：Which season is it?",
+        "type": "choice",
+        "id": 50025,
+        "score": 10
+      },
+      {
+        "answer": "Hot.",
+        "difficulty": 1,
+        "explanation": "原句中的very hot说明中午很热；cold、cool、windy分别表示冷、凉爽和有风。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Cold.",
+          "Hot.",
+          "Cool.",
+          "Windy."
+        ],
+        "question": "阅读原句：“It is very hot at noon.”问：How is the weather at noon?",
+        "type": "choice",
+        "id": 50026,
+        "score": 10
+      },
+      {
+        "answer": "Grapes and watermelons.",
+        "difficulty": 1,
+        "explanation": "给出的原句明确写着grapes and watermelons，即葡萄和西瓜；其余组合都改变了水果信息。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Bananas and watermelons.",
+          "Grapes and watermelons.",
+          "Apples and bananas.",
+          "Apples and grapes."
+        ],
+        "question": "阅读原句：“They are eating grapes and watermelons.”其中They指Alim和Hana。问：What are they eating?",
+        "type": "choice",
+        "id": 50027,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "已给原句说明早晨很冷，中午很热，因此不能概括为两个时段都很热。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "阅读原句：“It is very cold in the morning.”和“It is very hot at noon.”判断：早晨和中午都很热。",
+        "type": "true_false",
+        "id": 50028,
+        "score": 10
+      },
+      {
+        "answer": "morning → noon → evening",
+        "difficulty": 2,
+        "explanation": "给出的三句依次描述早晨、中午、晚上；其他选项都改变了顺序。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "noon → morning → evening",
+          "morning → evening → noon",
+          "morning → noon → evening",
+          "evening → noon → morning"
+        ],
+        "question": "阅读按顺序排列的三句：“It is very cold in the morning.”“It is very hot at noon.”“It is cold in the evening.”选择这三句介绍时段的顺序。",
+        "type": "choice",
+        "id": 50029,
+        "score": 10
+      },
+      {
+        "answer": "他们的",
+        "difficulty": 1,
+        "explanation": "their表示他们的；他们、我的、你的均不符合该词在句中的意思。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "你的",
+          "我的",
+          "他们",
+          "他们的"
+        ],
+        "question": "阅读原句：“Alim and Hana are wearing their coats.”其中their是什么意思？",
+        "type": "choice",
+        "id": 50030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 5 Weather·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "cloudy",
+        "difficulty": 1,
+        "explanation": "cloudy表示多云；sunny表示晴朗，windy表示有风，cold表示冷，后三项均不符合指定意思。",
+        "knowledge_point": "Lesson 1 It’s sunny.",
+        "options": [
+          "sunny",
+          "cloudy",
+          "windy",
+          "cold"
+        ],
+        "question": "天气记录写着“今天多云”。选择对应的英语天气词。",
+        "type": "choice",
+        "id": 59001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "snowing表示正在下雪，不是正在下雨；正在下雨用raining。",
+        "knowledge_point": "Lesson 2 It’s snowing.",
+        "options": [],
+        "question": "判断：电话里听到“It’s snowing.”，可以把对方所在地的当前天气记录为“正在下雨”。",
+        "type": "true_false",
+        "id": 59002,
+        "score": 10
+      },
+      {
+        "answer": "It will snow tomorrow.",
+        "difficulty": 2,
+        "explanation": "will snow表示将下雪，tomorrow表示明天。其余三项分别表示现在下雪、明天下雨和明天多风。",
+        "knowledge_point": "Lesson 3 It will snow.",
+        "options": [
+          "It’s snowing now.",
+          "It will rain tomorrow.",
+          "It will snow tomorrow.",
+          "It will be windy tomorrow."
+        ],
+        "question": "你要转述预报“明天将下雪”。选择意思准确的句子。",
+        "type": "choice",
+        "id": 59003,
+        "score": 10
+      },
+      {
+        "answer": "It will be cloudy on Monday.",
+        "difficulty": 2,
+        "explanation": "cloudy表示多云，on Monday表示在星期一。其余选项改变了天气或日期。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "It will rain on Monday.",
+          "It will be cloudy on Sunday.",
+          "It will be sunny on Monday.",
+          "It will be cloudy on Monday."
+        ],
+        "question": "一份练习用天气预报注明“星期一多云”。选择准确的英语播报。",
+        "type": "choice",
+        "id": 59004,
+        "score": 10
+      },
+      {
+        "answer": "Their sweaters.",
+        "difficulty": 2,
+        "explanation": "给出的原句明确说他们穿着毛衣。coats、shirts和raincoats分别是外套、衬衫和雨衣，均不符合原句。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Their coats.",
+          "Their sweaters.",
+          "Their shirts.",
+          "Their raincoats."
+        ],
+        "question": "阅读原句：“It is cold in the evening. They are eating grapes and watermelons. They are wearing their sweaters.”其中They指Alim和Hana。问：What are they wearing in the evening?",
+        "type": "choice",
+        "id": 59005,
+        "score": 10
+      },
+      {
+        "answer": "先获取天气信息，再用英语转述。",
+        "difficulty": 2,
+        "explanation": "获取天气信息并用英语谈论天气符合本页学习目标。随意猜测、忽略时间或只背城市名称，都不能完成准确转述。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "忽略今天和明天的区别。",
+          "先获取天气信息，再用英语转述。",
+          "不查信息，随意猜一种天气。",
+          "只背城市名称，不说天气。"
+        ],
+        "question": "要完成“了解天气信息并用英语谈论天气”的学习任务，下面哪种做法符合要求？",
+        "type": "choice",
+        "id": 59006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "sunny是晴朗，cloudy是多云，windy是有风，不要混淆。",
+        "描述当前天气时不要漏掉It’s中的is，如不能写成“It sunny.”。",
+        "cold表示冷，cool表示凉爽，二者不能不看意思就互换。",
+        "Let’s后接动词原形；go to the park与go and climb the hill的结构不同，不能概括成所有活动前都加go to。"
+      ],
+      "core_concept": "本课连同单元导入，学习询问和描述当前天气，认识不同城市的天气可以不同。主要表达为How’s the weather in Beijing?以及It’s sunny/cloudy/windy.；用cold、cool描述冷暖。根据已知天气提出活动建议或提醒添衣，如Let’s go to the park.、Let’s go and climb the hill.、Put on your jacket.，也可用I can climb the hill.说明可以进行的活动。",
+      "key_formula": "当前天气：It’s + 天气形容词.；询问某地天气：How’s the weather in + 城市名?；建议：Let’s + 动词原形及其他内容.；提醒穿衣：Put on your + 衣物.",
+      "point": "Lesson 1 It’s sunny.",
+      "tips": "先辨认天气和冷暖，再选择表达；有风不一定冷，做题应依据题目给出的信息。It’s是It is的缩写。说活动时分别记住go to the park和climb the hill，不要套用同一个地点结构。"
+    },
+    {
+      "common_mistakes": [
+        "It’s raining.表示正在下雨；It’s snowing.表示正在下雪，不要互换。",
+        "描述正在下雨或下雪时，要保留is和-ing形式，不能写成“It raining.”或“It’s snow.”。",
+        "询问城市天气时，城市名称前使用in，如in Shanghai。",
+        "raincoat表示雨衣，是衣物名词；不能把它当作天气词。"
+      ],
+      "core_concept": "本课学习通过电话等情境询问某地当前的天气：How’s the weather in + 城市名? 可加today明确表示今天。用It’s raining.或It’s snowing.描述正在下雨、下雪。理解It’s time for school.表示该上学了，Put on your raincoat.表示提醒穿上雨衣；也练习获取、记录和汇报城市天气信息。",
+      "key_formula": "询问当前天气：How’s the weather in + 城市名 + today?；正在下雨：It’s raining.；正在下雪：It’s snowing.；上学提醒：It’s time for school.",
+      "point": "Lesson 2 It’s snowing.",
+      "tips": "先确认城市和时间，再记录天气。练习表中没有提供的天气，需要实际查询或由题目另行给出，不能自行猜填。将raining、snowing作为完整天气表达的一部分记忆。"
+    },
+    {
+      "common_mistakes": [
+        "today表示今天，tomorrow表示明天，不要混淆。",
+        "will后用rain、snow的原形，不能写成will rains或will snowing。",
+        "sunny、windy是形容词，表达未来天气时要用will be，不能漏掉be。",
+        "Shall we后接动词原形，如go，不用goes或going。"
+      ],
+      "core_concept": "本课学习询问明天天气并转述天气预报：How’s the weather tomorrow? 或How’s the weather in Kunming tomorrow? 将下雨、将下雪用It will rain/snow.；将晴朗、将有风用It will be sunny/windy.。结合预报商量出行，用Shall we go to the zoo?提出建议。认读并规范书写rain、snow、sunny、windy。",
+      "key_formula": "未来下雨或下雪：It will + rain/snow.；未来晴朗或有风：It will be + sunny/windy.；询问明天天气：How’s the weather tomorrow?；建议：Shall we + 动词原形及其他内容?",
+      "point": "Lesson 3 It will snow.",
+      "tips": "表达前先看是否有tomorrow，再选择当前或未来句式。记住rain、snow前直接用will，sunny、windy前用will be。抄写sunny时注意有两个n。"
+    },
+    {
+      "common_mistakes": [
+        "It’s raining.说明现在正在下雨；It will rain.说明将下雨，不要混用。",
+        "未来多云用will be cloudy，不能写成will cloudy。",
+        "表示在星期几时，本课使用on，如on Sunday、on Monday。",
+        "本页例词中，目标字母s读/s/，l读/l/，u读/ʌ/；不能把字母名称当作它在单词中的发音，也不能误说本页同组例词的目标字母读音不同。"
+      ],
+      "core_concept": "本课复习当前天气、未来天气、活动安排和穿衣提醒。通过对话理解因当前下雨而调整去动物园的时间，并在天气冷时提醒穿外套。依据已给信息练习星期天气预报。辨认本页例词中目标字母的发音：yes、this、sunny、snow中的s读/s/；like、look、leg、long中的l读/l/；up、run、sunny、Sunday中的u读/ʌ/。歌曲仅用于巩固天气表达。",
+      "key_formula": "当前天气：It’s raining.；未来天气：It will rain/snow.或It will be + 天气形容词.；星期天气：It will rain on + 星期.或It will be + 天气形容词 + on + 星期.",
+      "point": "Lesson 4 Again, please!",
+      "tips": "播报前先确认日期、城市和天气，不能给空白天气格擅自补信息。读音练习只辨认指定字母在本页例词中的发音，不推断这些字母在所有英语单词中都只有一种读音。"
+    },
+    {
+      "common_mistakes": [
+        "早晨、中午、晚上的天气和衣着要分别对应，不能把外套、衬衫和毛衣的时段对调。",
+        "早晨用in the morning，中午用at noon，晚上用in the evening。",
+        "their表示他们的；They are wearing their coats.中的wearing描述穿着状态，不等于命令对方穿上衣服。",
+        "教材提出Where is it?，但没有给出明确的文字地点答案，不把推测写成阅读事实。",
+        "天气信息转述要保留时间和城市，不能把今天的信息改说成明天。"
+      ],
+      "core_concept": "阅读Where is it?，按早晨、中午、晚上理解同一天的冷暖变化及衣着：秋日晴朗，早晨很冷，Alim和Hana穿外套；中午很热，穿衬衫；晚上冷，穿毛衣并吃葡萄和西瓜。理解their、noon等词。结合单元自评复习天气词语、短语和今天、明天的天气问答，学习先获取天气信息，再用英语准确转述。",
+      "key_formula": "时间表达：in the morning；at noon；in the evening。穿着表达：They are wearing their + 衣物复数.",
+      "point": "Try yourself.",
+      "tips": "阅读时先找时间，再核对天气、衣物和活动；答题只依赖题目提供的原句。学习转述时核对城市、时间、天气三项信息，必要时查阅天气信息，不凭想象补写。"
+    }
+  ]
+}

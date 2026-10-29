@@ -1,0 +1,502 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级 上册",
+  "unit": "Unit 4 Body",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Unit 4 Body·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "This is my arm.",
+        "difficulty": 1,
+        "explanation": "arm表示胳膊；其他三项分别介绍腿、脚和头。",
+        "knowledge_point": "This is my head.",
+        "options": [
+          "This is my arm.",
+          "This is my leg.",
+          "This is my foot.",
+          "This is my head."
+        ],
+        "question": "要介绍自己的胳膊，哪句话正确？",
+        "type": "choice",
+        "id": 40001,
+        "score": 10
+      },
+      {
+        "answer": "This is your head.",
+        "difficulty": 1,
+        "explanation": "your表示你的，head表示头；其他选项改变了所属人或身体部位。",
+        "knowledge_point": "This is my head.",
+        "options": [
+          "This is your head.",
+          "This is my head.",
+          "This is your foot.",
+          "This is your arm."
+        ],
+        "question": "你指着同伴的头，想说“这是你的头”，哪句话正确？",
+        "type": "choice",
+        "id": 40002,
+        "score": 10
+      },
+      {
+        "answer": "Yes.",
+        "difficulty": 2,
+        "explanation": "Yes.明确表示肯定。No. This is my leg.是否定并纠正，Me, too!表示我也一样，Oh!表示感叹，均不是明确肯定这次指认。",
+        "knowledge_point": "This is my head.",
+        "options": [
+          "No. This is my leg.",
+          "Me, too!",
+          "Oh!",
+          "Yes."
+        ],
+        "question": "同伴正确指着你的头说“This is your head.”。你要用一个词明确表示“是的”，应选哪一项？",
+        "type": "choice",
+        "id": 40003,
+        "score": 10
+      },
+      {
+        "answer": "Cc",
+        "difficulty": 1,
+        "explanation": "大写C对应小写c；其余三项也各为字母的大小写组合，但不是字母C。",
+        "knowledge_point": "This is my head.",
+        "options": [
+          "Aa",
+          "Bb",
+          "Cc",
+          "Dd"
+        ],
+        "question": "哪一项是字母C的大写和小写形式组成的一组？",
+        "type": "choice",
+        "id": 40004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "your表示你的，不是我的；我的用my。",
+        "knowledge_point": "This is my head.",
+        "options": [],
+        "question": "判断：“This is your head.”表示“这是我的头”。",
+        "type": "true_false",
+        "id": 40005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "foot表示脚，This is my foot.表示这是我的脚。",
+        "knowledge_point": "This is my head.",
+        "options": [],
+        "question": "判断：指着自己的脚说“This is my foot.”，表达的是“这是我的脚”。",
+        "type": "true_false",
+        "id": 40006,
+        "score": 10
+      },
+      {
+        "answer": "I have a nose.",
+        "difficulty": 1,
+        "explanation": "只有I have a nose.准确表示我有一个鼻子；其余分别是指认鼻子、有两个鼻子和摸鼻子的指令。",
+        "knowledge_point": "I have a face.",
+        "options": [
+          "I have a nose.",
+          "This is my nose.",
+          "I have two noses.",
+          "Touch your nose."
+        ],
+        "question": "要表达“我有一个鼻子”，哪句话正确？",
+        "type": "choice",
+        "id": 40007,
+        "score": 10
+      },
+      {
+        "answer": "I have a face.",
+        "difficulty": 1,
+        "explanation": "face表示脸；其余选项分别说尾巴、指认对方的脸和有两张脸。",
+        "knowledge_point": "I have a face.",
+        "options": [
+          "I have a face.",
+          "I have a tail.",
+          "This is your face.",
+          "I have two faces."
+        ],
+        "question": "要表达“我有一张脸”，哪句话正确？",
+        "type": "choice",
+        "id": 40008,
+        "score": 10
+      },
+      {
+        "answer": "I have a tail.",
+        "difficulty": 2,
+        "explanation": "tail表示尾巴；a tail表示一条尾巴。其余选项说的是嘴、两条尾巴或胳膊。",
+        "knowledge_point": "I have a face.",
+        "options": [
+          "I have a tail.",
+          "I have a mouth.",
+          "I have two tails.",
+          "This is my arm."
+        ],
+        "question": "一只小动物要表达“我有一条尾巴”，哪句话正确？",
+        "type": "choice",
+        "id": 40009,
+        "score": 10
+      },
+      {
+        "answer": "I have a nose, too!",
+        "difficulty": 2,
+        "explanation": "too表示也，只有这一项表达我也有一个鼻子；其他选项没有表达这一完整意思。",
+        "knowledge_point": "I have a face.",
+        "options": [
+          "I have a nose, too!",
+          "I have two noses.",
+          "This is my nose.",
+          "Touch your nose."
+        ],
+        "question": "同伴说“I have a nose.”，你也有鼻子。哪句话表示“我也有一个鼻子”？",
+        "type": "choice",
+        "id": 40010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "mouth表示嘴，不是脸；脸是face。",
+        "knowledge_point": "I have a face.",
+        "options": [],
+        "question": "判断：句子“I have a mouth.”表示“我有一张脸”。",
+        "type": "true_false",
+        "id": 40011,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "Me, too!可以回应相同情况，在这里表示自己也有脸。",
+        "knowledge_point": "I have a face.",
+        "options": [],
+        "question": "判断：别人说“I have a face.”，你也有脸时，可以回答“Me, too!”。",
+        "type": "true_false",
+        "id": 40012,
+        "score": 10
+      },
+      {
+        "answer": "Look! I have two eyes.",
+        "difficulty": 1,
+        "explanation": "Look!表示看，two eyes表示两只眼睛。其他选项的部位或单复数搭配不符合题意。",
+        "knowledge_point": "I have two eyes.",
+        "options": [
+          "Look! I have two eyes.",
+          "Look! I have two nose.",
+          "I have a eyes.",
+          "This is my eyes."
+        ],
+        "question": "要说“看！我有两只眼睛”，哪句话正确？",
+        "type": "choice",
+        "id": 40013,
+        "score": 10
+      },
+      {
+        "answer": "I have two hands.",
+        "difficulty": 1,
+        "explanation": "two后要用hands；two hand、a hands和This is my hands.均有单复数搭配错误。",
+        "knowledge_point": "I have two eyes.",
+        "options": [
+          "I have two hands.",
+          "I have two hand.",
+          "I have a hands.",
+          "This is my hands."
+        ],
+        "question": "哪句话正确地表达“我有两只手”？",
+        "type": "choice",
+        "id": 40014,
+        "score": 10
+      },
+      {
+        "answer": "I have two arms.",
+        "difficulty": 2,
+        "explanation": "表达两条胳膊用two arms；其余选项均存在单复数搭配错误。",
+        "knowledge_point": "I have two eyes.",
+        "options": [
+          "I have two arms.",
+          "I have two arm.",
+          "I have a arms.",
+          "This is my arms."
+        ],
+        "question": "哪句话正确地表达“我有两条胳膊”？",
+        "type": "choice",
+        "id": 40015,
+        "score": 10
+      },
+      {
+        "answer": "Ff",
+        "difficulty": 1,
+        "explanation": "大写F对应小写f；其他三项都将不同字母错误配对。",
+        "knowledge_point": "I have two eyes.",
+        "options": [
+          "Fe",
+          "Ef",
+          "Ff",
+          "Fg"
+        ],
+        "question": "哪一项把字母F的大写和小写形式正确地配在一起？",
+        "type": "choice",
+        "id": 40016,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "ears表示耳朵的复数，two ears就是两只耳朵。“I have two ears.”表示“我有两只耳朵”，所以判断为“对”。",
+        "knowledge_point": "I have two eyes.",
+        "options": [],
+        "question": "判断：“I have two ears.”表示“我有两只耳朵”。",
+        "type": "true_false",
+        "id": 40017,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "字母G的大写是G，小写是g。",
+        "knowledge_point": "I have two eyes.",
+        "options": [],
+        "question": "判断：字母G的小写形式是g。",
+        "type": "true_false",
+        "id": 40018,
+        "score": 10
+      },
+      {
+        "answer": "Touch your nose.",
+        "difficulty": 1,
+        "explanation": "Touch your nose.表示摸你的鼻子；head是头，另两项是陈述句，不是摸鼻子的指令。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Touch your nose.",
+          "Touch your head.",
+          "I have a mouth.",
+          "This is my leg."
+        ],
+        "question": "老师要你摸自己的鼻子，应该说哪句话？",
+        "type": "choice",
+        "id": 40019,
+        "score": 10
+      },
+      {
+        "answer": "This is my nose.",
+        "difficulty": 1,
+        "explanation": "介绍自己的鼻子用This is my nose.；其他选项分别涉及胳膊、两只手和摸嘴的指令。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is my nose.",
+          "This is my arm.",
+          "I have two hands.",
+          "Touch your mouth."
+        ],
+        "question": "你指着自己的鼻子，想说“这是我的鼻子”，哪句话正确？",
+        "type": "choice",
+        "id": 40020,
+        "score": 10
+      },
+      {
+        "answer": "I have a mouth. I have two eyes.",
+        "difficulty": 2,
+        "explanation": "应先保留原句，再添加指定的新句；其余选项颠倒顺序、漏句或改变了新增内容。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I have a mouth. I have two eyes.",
+          "I have two eyes. I have a mouth.",
+          "I have two eyes.",
+          "I have a mouth. I have a nose."
+        ],
+        "question": "一次新接龙已有“I have a mouth.”，下一位须先重复原句，再添加“I have two eyes.”。应说什么？",
+        "type": "choice",
+        "id": 40021,
+        "score": 10
+      },
+      {
+        "answer": "This is my arm. I have a nose. I have two hands.",
+        "difficulty": 2,
+        "explanation": "完整保留原有两句及其顺序，再添加指定句，才符合规则。其他选项分别换序、漏句或换了新增句。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is my arm. I have a nose. I have two hands.",
+          "I have a nose. This is my arm. I have two hands.",
+          "This is my arm. I have two hands.",
+          "This is my arm. I have a nose. I have two ears."
+        ],
+        "question": "接龙已有“This is my arm. I have a nose.”，下一位须按原顺序重复，再添加“I have two hands.”。应说什么？",
+        "type": "choice",
+        "id": 40022,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Touch your nose.是摸鼻子的指令，听到后应摸自己的鼻子。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：听到“Touch your nose.”，应摸自己的鼻子。",
+        "type": "true_false",
+        "id": 40023,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "I have two eyes.表示我有两只眼睛；This is my head.才表示这是我的头。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：“I have two eyes.”的意思是“这是我的头”。",
+        "type": "true_false",
+        "id": 40024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 4 Body·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "leg",
+        "difficulty": 1,
+        "explanation": "leg表示腿；head是头，arm是胳膊，foot是脚。",
+        "knowledge_point": "This is my head.",
+        "options": [
+          "foot",
+          "arm",
+          "leg",
+          "head"
+        ],
+        "question": "哪个英语单词表示“腿”？",
+        "type": "choice",
+        "id": 49001,
+        "score": 10
+      },
+      {
+        "answer": "No. This is my leg.",
+        "difficulty": 2,
+        "explanation": "同伴把小明的腿误认成胳膊，小明应先否定，再介绍自己的腿。其余选项分别表示肯定错误指认、自己也一样、自己有两只眼睛，都不能纠正这次错误。",
+        "knowledge_point": "This is my head.",
+        "options": [
+          "No. This is my leg.",
+          "Yes. This is my arm.",
+          "Me, too!",
+          "I have two eyes."
+        ],
+        "question": "同伴指着小明的腿，对小明说“This is your arm.”。小明要纠正这个错误，应说哪句话？",
+        "type": "choice",
+        "id": 49002,
+        "score": 10
+      },
+      {
+        "answer": "mouth",
+        "difficulty": 1,
+        "explanation": "mouth表示嘴，nose表示鼻子，face表示脸，tail表示尾巴。",
+        "knowledge_point": "I have a face.",
+        "options": [
+          "mouth",
+          "nose",
+          "face",
+          "tail"
+        ],
+        "question": "要把“我有一张嘴”说成英语，应在“I have a ___.”中填入哪个词？",
+        "type": "choice",
+        "id": 49003,
+        "score": 10
+      },
+      {
+        "answer": "我也有一个鼻子！",
+        "difficulty": 2,
+        "explanation": "nose表示鼻子，too表示也；句子不是指认鼻子，也不是说有两个鼻子。",
+        "knowledge_point": "I have a face.",
+        "options": [
+          "这是你的鼻子。",
+          "摸你的鼻子。",
+          "我也有一个鼻子！",
+          "我有两个鼻子！"
+        ],
+        "question": "“I have a nose, too!”的意思是哪一项？",
+        "type": "choice",
+        "id": 49004,
+        "score": 10
+      },
+      {
+        "answer": "ears",
+        "difficulty": 2,
+        "explanation": "表达两只耳朵要用two ears；ear是单数，eyes是眼睛，hands是手。",
+        "knowledge_point": "I have two eyes.",
+        "options": [
+          "ears",
+          "eyes",
+          "ear",
+          "hands"
+        ],
+        "question": "要表达“我有两只耳朵”，应在“I have two ___.”中填入哪一项？",
+        "type": "choice",
+        "id": 49005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "接龙要求保留已有内容并添加新句，只说新增句会漏掉已有内容。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：接龙规则是先重复已有的“This is my head. I have a mouth.”，再添加“I have a nose.”；小东只说“I have a nose.”，就完成了这次接龙要求。",
+        "type": "true_false",
+        "id": 49006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "混淆my（我的）和your（你的）。",
+        "介绍自己的部位时漏说This is或my。",
+        "混淆head（头）、arm（胳膊）、leg（腿）和foot（脚）。",
+        "把Aa、Bb、Cc、Dd的大小写形式配错。"
+      ],
+      "core_concept": "结合Body导入认识身体主题，学习head、arm、leg、foot。用This is my ...介绍自己的身体部位，用This is your ...指认对方的身体部位。指认正确时可回答Yes.；指认错误时可先说No.，再说明正确部位，例如No. This is my leg.。认读Aa、Bb、Cc、Dd及其大小写形式。导入出现的其他身体表达随主题感知，在后课学习。",
+      "key_formula": "This is my/your + 单数身体部位词.",
+      "point": "This is my head.",
+      "tips": "先确认部位属于谁，再选择my或your；接着确认是头、胳膊、腿还是脚。纠错时说清真正的部位，不是所有错误都用leg纠正。"
+    },
+    {
+      "common_mistakes": [
+        "说I have a nose.时漏掉a。",
+        "混淆nose（鼻子）、mouth（嘴）、face（脸）和tail（尾巴）。",
+        "把too误解成two；too表示也，two表示二。",
+        "不考虑说话对象是否有相同特征，就使用Me, too!。"
+      ],
+      "core_concept": "认识face、nose、mouth、tail，用I have a ...描述自己有一个相应部位。I have a nose, too!表示我也有一个鼻子；Me, too!表示我也一样，适用于确有相同特征的情况。tail用于教材中有尾巴的动物形象，不把它当作人的身体特征。歌曲Head, shoulders用于配合动作感知和复习身体部位，不作为主对话。",
+      "key_formula": "I have a + 本课单数身体部位词.",
+      "point": "I have a face.",
+      "tips": "先确认要表达的部位，再说完整句子。用Me, too!前，先想一想自己是否也有对方所说的特征。歌曲中的词可随动作感知。"
+    },
+    {
+      "common_mistakes": [
+        "在two后使用eye、ear等单数形式。",
+        "混淆hands（手）和arms（胳膊）、eyes（眼睛）和ears（耳朵）。",
+        "把大写E、F、G与错误的小写字母配对。"
+      ],
+      "core_concept": "认识eyes、ears、hands、arms、legs，用I have two ...描述自己有两个相应的身体部位。本课这些复数词都在相应单数词后加s。Look!用于引起注意，Me, too!用于回应相同情况。认读Ee、Ff、Gg并对应其大小写形式。",
+      "key_formula": "I have two + 身体部位复数词.",
+      "point": "I have two eyes.",
+      "tips": "先分清手和胳膊、眼睛和耳朵，再选择词语。说two时，检查后面的词是否为eyes、ears、hands、arms或legs。字母配对要同时看清大写和小写。"
+    },
+    {
+      "common_mistakes": [
+        "把Touch your nose.误当作介绍鼻子的句子；它是让对方摸鼻子的指令。",
+        "接龙时只说新增句，漏掉已有内容，或打乱已有句子的顺序。",
+        "在two后误用eye等单数形式。"
+      ],
+      "core_concept": "综合运用This is my ...介绍自己的身体部位，用I have a ...表达自己有一个部位，用I have two ...表达自己有两个部位。口语接龙要先按顺序重复已有内容，再增加一句。听懂Touch your nose.，摸自己的鼻子，并可用This is my nose.介绍。结合前课复习Aa—Gg；本页不新增字母。",
+      "key_formula": "This is my + 单数身体部位词.；I have a + 本单元适用的单数身体部位词.；I have two + 身体部位复数词.",
+      "point": "Again, please!",
+      "tips": "接龙时先听清、记住已有内容，再依次重复并增加新句。Touch your nose.中的your指听指令的人；介绍自己的鼻子时用my。"
+    }
+  ]
+}

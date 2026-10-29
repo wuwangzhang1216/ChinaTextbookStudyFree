@@ -1,0 +1,1658 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·数学（一年级下册）",
+  "unit": "六 大海边——100以内的加减法（二）",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "六 大海边——100以内的加减法（二）·配套练习",
+    "total_score": 1080,
+    "time_minutes": 108,
+    "questions": [
+      {
+        "answer": "57",
+        "difficulty": 1,
+        "explanation": "个位3＋4＝7，十位2＋3＝5，所以23＋34＝57。",
+        "knowledge_point": "两位数加两位数（不进位）",
+        "options": [],
+        "question": "计算23＋34，结果写整数。",
+        "type": "calculation",
+        "id": 60001,
+        "score": 10
+      },
+      {
+        "answer": "77",
+        "difficulty": 1,
+        "explanation": "个位2＋5＝7，十位4＋3＝7，所以42＋35＝77。",
+        "knowledge_point": "两位数加两位数（不进位）",
+        "options": [],
+        "question": "计算42＋35，结果写整数。",
+        "type": "calculation",
+        "id": 60002,
+        "score": 10
+      },
+      {
+        "answer": "87",
+        "difficulty": 1,
+        "explanation": "5个十与3个十合成8个十，4个一与3个一合成7个一，共87。",
+        "knowledge_point": "两位数加两位数（不进位）",
+        "options": [],
+        "question": "一组小棒有5捆和4根，另一组有3捆和3根，每捆都是10根。两组共多少根？以根为单位，写整数。",
+        "type": "calculation",
+        "id": 60003,
+        "score": 10
+      },
+      {
+        "answer": "个位对个位，十位对十位",
+        "difficulty": 1,
+        "explanation": "第一项符合相同数位对齐要求；第二项错配数位；第三项没有按数位对齐；第四项混合不同数位的数。",
+        "knowledge_point": "两位数加两位数（不进位）",
+        "options": [
+          "个位对个位，十位对十位",
+          "个位对十位，十位对个位",
+          "只要两个数的左端靠近即可",
+          "把所有数字写在同一列"
+        ],
+        "question": "用竖式计算两位数加两位数，哪项书写要求正确？",
+        "type": "choice",
+        "id": 60004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "34由30和4组成。先算42＋30＝72，再算72＋4＝76，符合按数位拆分的计算方法。",
+        "knowledge_point": "两位数加两位数（不进位）",
+        "options": [],
+        "question": "判断：计算42＋34，可以先算42＋30＝72，再算72＋4＝76。",
+        "type": "true_false",
+        "id": 60005,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 2,
+        "explanation": "个位要满足5＋□＝7，所以□＝2；十位6＋2＝8，核对得65＋22＝87。",
+        "knowledge_point": "两位数加两位数（不进位）",
+        "options": [],
+        "question": "算式65＋2□＝87中，2□表示十位是2、个位是□的两位数。□里应填哪个数字？只写整数。",
+        "type": "calculation",
+        "id": 60006,
+        "score": 10
+      },
+      {
+        "answer": "73",
+        "difficulty": 1,
+        "explanation": "红花和黄花合起来：32＋41＝73（朵）。",
+        "knowledge_point": "不进位加法的应用",
+        "options": [],
+        "question": "花园里只有红花和黄花，红花32朵、黄花41朵。一共有多少朵花？以朵为单位，写整数。",
+        "type": "calculation",
+        "id": 60007,
+        "score": 10
+      },
+      {
+        "answer": "24＋54",
+        "difficulty": 1,
+        "explanation": "求两类书的总数要相加。第二、三项求差；第四项只用了故事书数量，不能表示所求总数。",
+        "knowledge_point": "不进位加法的应用",
+        "options": [
+          "24＋54",
+          "54－24",
+          "24－24",
+          "24＋24"
+        ],
+        "question": "书架上有24本故事书和54本科普书。求这两类书一共有多少本，应选哪个算式？",
+        "type": "choice",
+        "id": 60008,
+        "score": 10
+      },
+      {
+        "answer": "77",
+        "difficulty": 1,
+        "explanation": "上午与下午运来的数量相加：32＋45＝77（筐）。",
+        "knowledge_point": "不进位加法的应用",
+        "options": [],
+        "question": "上午运来32筐草莓，下午运来45筐草莓。两次一共运来多少筐？以筐为单位，写整数。",
+        "type": "calculation",
+        "id": 60009,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "节目总集数由已播和未播两部分组成，23＋42＝65（集）。",
+        "knowledge_point": "不进位加法的应用",
+        "options": [],
+        "question": "一部动画片已播23集，还有42集未播。判断：这部动画片一共有65集。",
+        "type": "true_false",
+        "id": 60010,
+        "score": 10
+      },
+      {
+        "answer": "35",
+        "difficulty": 2,
+        "explanation": "只买帽子和水杯，计算22＋13＝35（元）；玩具车的价格不用参与计算。",
+        "knowledge_point": "不进位加法的应用",
+        "options": [],
+        "question": "商店一顶帽子22元，一个水杯13元，一辆玩具车41元。只买一顶帽子和一个水杯，共需多少元？以元为单位，写整数。",
+        "type": "calculation",
+        "id": 60011,
+        "score": 10
+      },
+      {
+        "answer": "A＝2，B＝7",
+        "difficulty": 3,
+        "explanation": "第一项得到27＋72＝99，符合条件。其余三项分别得到27＋72＝99、36＋63＝99、36＋63＝99，但它们分别对应A＝7、A＝3、A＝6，均不符合A小于B这一条件的要求中相应选项？应逐项核对：A＝3、B＝6也满足A小于B，因此不能据此设问。本题已改用指定A＝2的条件，只有第一项同时满足。",
+        "knowledge_point": "不进位加法的应用",
+        "options": [
+          "A＝2，B＝7",
+          "A＝7，B＝2",
+          "A＝3，B＝6",
+          "A＝6，B＝3"
+        ],
+        "question": "A、B各代表一个数字。第一个两位数的十位是A、个位是B；第二个两位数的十位是B、个位是A。两个数相加等于99，并且已知A＝2。哪一组选数符合全部条件？",
+        "type": "choice",
+        "id": 60012,
+        "score": 10
+      },
+      {
+        "answer": "35",
+        "difficulty": 1,
+        "explanation": "个位6－1＝5，十位8－5＝3，所以86－51＝35。",
+        "knowledge_point": "两位数减两位数（不退位）",
+        "options": [],
+        "question": "计算86－51，结果写整数。",
+        "type": "calculation",
+        "id": 60013,
+        "score": 10
+      },
+      {
+        "answer": "23",
+        "difficulty": 1,
+        "explanation": "个位9－6＝3，十位7－5＝2，所以79－56＝23。",
+        "knowledge_point": "两位数减两位数（不退位）",
+        "options": [],
+        "question": "计算79－56，结果写整数。",
+        "type": "calculation",
+        "id": 60014,
+        "score": 10
+      },
+      {
+        "answer": "31",
+        "difficulty": 1,
+        "explanation": "个位8－7＝1，十位6－3＝3，所以68－37＝31。",
+        "knowledge_point": "两位数减两位数（不退位）",
+        "options": [],
+        "question": "计算68－37，结果写整数。",
+        "type": "calculation",
+        "id": 60015,
+        "score": 10
+      },
+      {
+        "answer": "个位上的9与个位上的4对齐",
+        "difficulty": 1,
+        "explanation": "列竖式时相同数位对齐，9与4都是个位。第二项把个位对着十位；第三项把十位对着个位；第四项忽略了对齐要求。",
+        "knowledge_point": "两位数减两位数（不退位）",
+        "options": [
+          "个位上的9与个位上的4对齐",
+          "个位上的9与十位上的3对齐",
+          "十位上的7与个位上的4对齐",
+          "两个数不需要按数位对齐"
+        ],
+        "question": "用竖式计算79－34，下面哪种书写要求正确？",
+        "type": "choice",
+        "id": 60016,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "个位7－7＝0，十位8－2＝6，结果是60。个位的0表示没有剩余的单个，不能漏写。",
+        "knowledge_point": "两位数减两位数（不退位）",
+        "options": [],
+        "question": "判断：87－27＝60，结果个位上的0不能省略。",
+        "type": "true_false",
+        "id": 60017,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 2,
+        "explanation": "个位要满足□－7＝2，所以□＝9；十位4－2＝2，核对得49－27＝22。",
+        "knowledge_point": "两位数减两位数（不退位）",
+        "options": [],
+        "question": "算式4□－27＝22中，4□表示十位是4、个位是□的两位数。□里应填哪个数字？只写整数。",
+        "type": "calculation",
+        "id": 60018,
+        "score": 10
+      },
+      {
+        "answer": "26",
+        "difficulty": 1,
+        "explanation": "求红色彩纸比蓝色彩纸多多少：58－32＝26（张）。",
+        "knowledge_point": "不退位减法的应用",
+        "options": [],
+        "question": "红色彩纸58张，蓝色彩纸32张。红色彩纸比蓝色彩纸多多少张？以张为单位，写整数。",
+        "type": "calculation",
+        "id": 60019,
+        "score": 10
+      },
+      {
+        "answer": "24",
+        "difficulty": 1,
+        "explanation": "从原有的76支中减去借出的52支：76－52＝24（支）。",
+        "knowledge_point": "不退位减法的应用",
+        "options": [],
+        "question": "盒子里原有76支铅笔，借出52支，没有其他变化。还剩多少支？以支为单位，写整数。",
+        "type": "calculation",
+        "id": 60020,
+        "score": 10
+      },
+      {
+        "answer": "23",
+        "difficulty": 1,
+        "explanation": "求较矮的树比高树矮多少，仍用较大的高度减较小的高度：67－44＝23（米）。",
+        "knowledge_point": "不退位减法的应用",
+        "options": [],
+        "question": "两棵树分别高67米和44米。较矮的树比较高的树矮多少米？以米为单位，写整数。",
+        "type": "calculation",
+        "id": 60021,
+        "score": 10
+      },
+      {
+        "answer": "85－53",
+        "difficulty": 2,
+        "explanation": "求两种球数量的差，用85－53。85＋53求总数；另两项分别把同一种球的数量重复相加，都不是求差。",
+        "knowledge_point": "不退位减法的应用",
+        "options": [
+          "85－53",
+          "85＋53",
+          "85＋85",
+          "53＋53"
+        ],
+        "question": "学校有85个足球、53个排球。求排球比足球少多少个，应选哪个算式？",
+        "type": "choice",
+        "id": 60022,
+        "score": 10
+      },
+      {
+        "answer": "18",
+        "difficulty": 2,
+        "explanation": "求糖葫芦剩余数量，只用69－51＝18（串）；橘子的数量与问题无关。",
+        "knowledge_point": "不退位减法的应用",
+        "options": [],
+        "question": "摊位原有69串糖葫芦和24个橘子。卖出51串糖葫芦后，糖葫芦还剩多少串？以串为单位，写整数。",
+        "type": "calculation",
+        "id": 60023,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "74－31＝43（个）。红球比蓝球多43个，也就是蓝球比红球少43个。",
+        "knowledge_point": "不退位减法的应用",
+        "options": [],
+        "question": "红球有74个，蓝球有31个。判断：“红球比蓝球多43个”和“蓝球比红球少43个”都正确。",
+        "type": "true_false",
+        "id": 60024,
+        "score": 10
+      },
+      {
+        "answer": "A→B→C→D→A→C",
+        "difficulty": 2,
+        "explanation": "第一条路线依次画AB、BC、CD、DA、AC，正好覆盖所有线段。第二条遗漏AC；第三条重复AC并遗漏AD；第四条重复AB并遗漏AC。",
+        "knowledge_point": "一笔画探究",
+        "options": [
+          "A→B→C→D→A→C",
+          "A→B→C→D→A",
+          "A→C→A→B→C→D",
+          "A→B→A→D→C→B"
+        ],
+        "question": "正方形ABCD的A、B、C、D依次在左下、右下、右上、左上。图形由四条边AB、BC、CD、DA和对角线AC组成，没有其他线。箭头表示沿一条已有线段画到下一点。哪条路线能从A出发，不抬笔且每条线段恰好画一次？",
+        "type": "choice",
+        "id": 60025,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "一笔画要求所有线各画一次，重复画线不符合要求。",
+        "knowledge_point": "一笔画探究",
+        "options": [],
+        "question": "判断：一笔画时，只要没有遗漏，重复画一条线也符合要求。",
+        "type": "true_false",
+        "id": 60026,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "路线依次经过三角形的三条边，每条边各一次，中途不用抬笔。",
+        "knowledge_point": "一笔画探究",
+        "options": [],
+        "question": "三角形ABC只有三条边，没有其他线。判断：沿A→B→C→A连续画，可以不抬笔且把每条边恰好画一次。",
+        "type": "true_false",
+        "id": 60027,
+        "score": 10
+      },
+      {
+        "answer": "逐条检查所有线是否各画了一次",
+        "difficulty": 1,
+        "explanation": "第一项同时检查重复和遗漏，符合要求。对称、颜色和擦除线段都不能确认路线是否合格。",
+        "knowledge_point": "一笔画探究",
+        "options": [
+          "逐条检查所有线是否各画了一次",
+          "只检查图形是否对称",
+          "只数用了几种颜色",
+          "擦掉没有画到的线"
+        ],
+        "question": "一笔画要求不抬笔、不重复、不遗漏。完成后，哪种方法能检查是否重复或遗漏了线？",
+        "type": "choice",
+        "id": 60028,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "中途抬笔再换位置，不符合一笔画的连续作画要求。",
+        "knowledge_point": "一笔画探究",
+        "options": [],
+        "question": "判断：一笔画过程中，可以把笔尖抬离纸面，再换到另一处接着画。",
+        "type": "true_false",
+        "id": 60029,
+        "score": 10
+      },
+      {
+        "answer": "A→B→C→D",
+        "difficulty": 1,
+        "explanation": "第一项把AB、BC、CD各画一次；第二项重复AB；第三项遗漏CD；第四项重复BC。",
+        "knowledge_point": "一笔画探究",
+        "options": [
+          "A→B→C→D",
+          "A→B→A→B→C→D",
+          "A→B→C",
+          "A→B→C→B"
+        ],
+        "question": "一条折线只有AB、BC、CD三段：从A向右到B，从B向上到C，再从C向右到D，各段除相邻端点外不相交。箭头表示沿一段线画到下一点。从A出发，哪条路线能不抬笔且把三段线各画一次？",
+        "type": "choice",
+        "id": 60030,
+        "score": 10
+      },
+      {
+        "answer": "42",
+        "difficulty": 1,
+        "explanation": "个位7＋5＝12，写2进1；十位2＋1＋1＝4，所以结果是42。",
+        "knowledge_point": "两位数加两位数（进位）",
+        "options": [],
+        "question": "计算27＋15，结果写整数。",
+        "type": "calculation",
+        "id": 60031,
+        "score": 10
+      },
+      {
+        "answer": "把10根单根小棒换成1捆，放到整捆的小棒中",
+        "difficulty": 1,
+        "explanation": "每捆10根，把10根单根换成1捆，表示10个一换成1个十，总数不变。丢掉小棒、换成2捆或完全不换，都不符合题目要求。",
+        "knowledge_point": "两位数加两位数（进位）",
+        "options": [
+          "把10根单根小棒换成2捆",
+          "把10根单根小棒换成1捆，放到整捆的小棒中",
+          "把13根单根小棒全部留在个位，不作交换",
+          "把10根单根小棒直接丢掉"
+        ],
+        "question": "每捆小棒有10根。计算两组小棒的总数时，合并后有13根单根小棒。要用小棒表示向十位进1，应怎样做？",
+        "type": "choice",
+        "id": 60032,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "个位4＋8＝12，写2进1；十位2＋3＋1＝6，所以24＋38＝62，不是52。",
+        "knowledge_point": "两位数加两位数（进位）",
+        "options": [],
+        "question": "判断：24＋38＝52。",
+        "type": "true_false",
+        "id": 60033,
+        "score": 10
+      },
+      {
+        "answer": "70",
+        "difficulty": 2,
+        "explanation": "个位7＋3＝10，写0进1；十位4＋2＋1＝7，所以结果是70，个位的0不能漏写。",
+        "knowledge_point": "两位数加两位数（进位）",
+        "options": [],
+        "question": "计算47＋23，结果写整数。",
+        "type": "calculation",
+        "id": 60034,
+        "score": 10
+      },
+      {
+        "answer": "进位的1",
+        "difficulty": 2,
+        "explanation": "个位的14个一中，10个一换成1个十，所以十位除了3和2，还要加进位的1。两个加数的个位和个位和中的4，都不能再加到十位上。",
+        "knowledge_point": "两位数加两位数（进位）",
+        "options": [
+          "进位的1",
+          "个位和中的4",
+          "第二个加数的个位8",
+          "第一个加数的个位6"
+        ],
+        "question": "计算36＋28时，个位6＋8＝14。计算十位时，除了3和2，还要加上什么？",
+        "type": "choice",
+        "id": 60035,
+        "score": 10
+      },
+      {
+        "answer": "75",
+        "difficulty": 2,
+        "explanation": "把8与67的个位7对齐。7＋8＝15，写5进1；十位6＋1＝7，所以结果是75。",
+        "knowledge_point": "两位数加两位数（进位）",
+        "options": [],
+        "question": "计算8＋67，结果写整数。",
+        "type": "calculation",
+        "id": 60036,
+        "score": 10
+      },
+      {
+        "answer": "73",
+        "difficulty": 1,
+        "explanation": "求上午和下午合起来摘下的花数，用加法：28＋45＝73朵。",
+        "knowledge_point": "进位加法的应用",
+        "options": [],
+        "question": "花圃上午摘下28朵花，下午摘下45朵花。两次一共摘下多少朵？以朵为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60037,
+        "score": 10
+      },
+      {
+        "answer": "36＋27",
+        "difficulty": 1,
+        "explanation": "求总人数要把女生和男生人数相加。36－27求人数差，36＋36和27＋27都重复计算了一部分。",
+        "knowledge_point": "进位加法的应用",
+        "options": [
+          "36－27",
+          "36＋27",
+          "27＋27",
+          "36＋36"
+        ],
+        "question": "合唱队只有女生和男生，女生36人、男生27人。求合唱队总人数，应列哪个算式？",
+        "type": "choice",
+        "id": 60038,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "求两轮的总下数，用38＋25；个位8＋5＝13，写3进1，十位3＋2＋1＝6，共63下。",
+        "knowledge_point": "进位加法的应用",
+        "options": [],
+        "question": "一名同学第一轮跳绳38下，第二轮跳绳25下。判断：这两轮一共跳了63下。",
+        "type": "true_false",
+        "id": 60039,
+        "score": 10
+      },
+      {
+        "answer": "83",
+        "difficulty": 2,
+        "explanation": "求两类书的总数，用46＋37。个位6＋7＝13，写3进1；十位4＋3＋1＝8，共83本。",
+        "knowledge_point": "进位加法的应用",
+        "options": [],
+        "question": "书架上有46本故事书和37本科普书。这两类书一共有多少本？以本为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60040,
+        "score": 10
+      },
+      {
+        "answer": "26＋19",
+        "difficulty": 2,
+        "explanation": "减价后应使用26元和19元，所以列26＋19。34＋27使用原价，另外两个算式混用了原价和现价。",
+        "knowledge_point": "进位加法的应用",
+        "options": [
+          "34＋27",
+          "26＋19",
+          "26＋27",
+          "34＋19"
+        ],
+        "question": "一本画册原价34元，现价26元；一本童话书原价27元，现价19元。求减价后各买一本的总价，应列哪个算式？",
+        "type": "choice",
+        "id": 60041,
+        "score": 10
+      },
+      {
+        "answer": "64",
+        "difficulty": 2,
+        "explanation": "只求二班的总数，应选二班的28本和36本，28＋36＝64本。一班的17本不参加计算。",
+        "knowledge_point": "进位加法的应用",
+        "options": [],
+        "question": "捐书记录：一班捐故事书17本；二班捐故事书28本、科技书36本。二班捐的这两类书一共有多少本？以本为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60042,
+        "score": 10
+      },
+      {
+        "answer": "27",
+        "difficulty": 1,
+        "explanation": "个位2不够减5，退1后算12－5＝7；十位剩3，3－1＝2，所以42－15＝27。",
+        "knowledge_point": "两位数减两位数（退位）",
+        "options": [],
+        "question": "计算42－15，结果写整数。",
+        "type": "calculation",
+        "id": 60043,
+        "score": 10
+      },
+      {
+        "answer": "从十位退1，在个位上加10再减",
+        "difficulty": 1,
+        "explanation": "1个十可以换成10个一，所以应从十位退1，在个位上加10。其他选项分别弄反了数位、交换了数字或把减法改成加法，都不正确。",
+        "knowledge_point": "两位数减两位数（退位）",
+        "options": [
+          "从十位退1，在个位上加10再减",
+          "从个位退1，在十位上加10再减",
+          "把被减数的个位和十位交换",
+          "把两个个位数字相加"
+        ],
+        "question": "用竖式计算53－27，个位3不够减7时，应该怎样做？",
+        "type": "choice",
+        "id": 60044,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "个位4不够减8，从十位退1后，个位变成14，十位上的6变成5。",
+        "knowledge_point": "两位数减两位数（退位）",
+        "options": [],
+        "question": "判断：计算64－38时，个位退位后按14－8计算，十位上的6要变成5再计算。",
+        "type": "true_false",
+        "id": 60045,
+        "score": 10
+      },
+      {
+        "answer": "36",
+        "difficulty": 2,
+        "explanation": "个位退位后，14－8＝6；十位6变成5，5－2＝3，所以64－28＝36。",
+        "knowledge_point": "两位数减两位数（退位）",
+        "options": [],
+        "question": "计算64－28，结果写整数。",
+        "type": "calculation",
+        "id": 60046,
+        "score": 10
+      },
+      {
+        "answer": "6－3",
+        "difficulty": 2,
+        "explanation": "个位1不够减6，十位上的7退1后变成6，因此十位算6－3。7－3漏掉退位，8－3把退位误作增加，6＋3则用错运算。",
+        "knowledge_point": "两位数减两位数（退位）",
+        "options": [
+          "8－3",
+          "7－3",
+          "6－3",
+          "6＋3"
+        ],
+        "question": "用竖式计算71－36，个位已从十位退1。接下来十位应计算哪个算式？",
+        "type": "choice",
+        "id": 60047,
+        "score": 10
+      },
+      {
+        "answer": "33",
+        "difficulty": 2,
+        "explanation": "个位0不够减7，退位后10－7＝3；十位剩7，7－4＝3，所以结果是33。",
+        "knowledge_point": "两位数减两位数（退位）",
+        "options": [],
+        "question": "计算80－47，结果写整数。",
+        "type": "calculation",
+        "id": 60048,
+        "score": 10
+      },
+      {
+        "answer": "19",
+        "difficulty": 1,
+        "explanation": "求乙组比甲组少多少，用较大的67减较小的48：67－48＝19张。",
+        "knowledge_point": "退位减法的应用",
+        "options": [],
+        "question": "甲组收集了67张树叶画，乙组收集了48张。乙组比甲组少收集多少张？以张为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60049,
+        "score": 10
+      },
+      {
+        "answer": "62－28",
+        "difficulty": 1,
+        "explanation": "求多载多少人，用大车的载客人数减小车的载客人数。62＋28求总人数，62－62和28＋28都不表示两车的差。",
+        "knowledge_point": "退位减法的应用",
+        "options": [
+          "62－62",
+          "62＋28",
+          "62－28",
+          "28＋28"
+        ],
+        "question": "一辆大车可载62人，一辆小车可载28人。求大车比小车多载多少人，应列哪个算式？",
+        "type": "choice",
+        "id": 60050,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "求两班收到星星的数量差，用45－27。退位后15－7＝8，十位3－2＝1，所以大班比小班多18颗。",
+        "knowledge_point": "退位减法的应用",
+        "options": [],
+        "question": "小班收到27颗纸星星，大班收到45颗纸星星。判断：大班比小班多收到18颗。",
+        "type": "true_false",
+        "id": 60051,
+        "score": 10
+      },
+      {
+        "answer": "24",
+        "difficulty": 2,
+        "explanation": "甲队比乙队多得的奖牌数是53－29。个位13－9＝4，十位4－2＝2，结果是24枚。",
+        "knowledge_point": "退位减法的应用",
+        "options": [],
+        "question": "甲队得到53枚奖牌，乙队得到29枚奖牌。甲队比乙队多多少枚？以枚为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60052,
+        "score": 10
+      },
+      {
+        "answer": "74－38",
+        "difficulty": 2,
+        "explanation": "求红球比蓝球多多少，用红球数74减蓝球数38。74＋38求总数，74－74是同一数量相减，38＋38是把蓝球数量重复相加。",
+        "knowledge_point": "退位减法的应用",
+        "options": [
+          "74－38",
+          "74＋38",
+          "38＋38",
+          "74－74"
+        ],
+        "question": "红球有74个，蓝球有38个。求红球比蓝球多多少个，应列哪个算式？",
+        "type": "choice",
+        "id": 60053,
+        "score": 10
+      },
+      {
+        "answer": "37",
+        "difficulty": 2,
+        "explanation": "比较红、蓝纸花，只用红色和蓝色的数量：65－28＝37朵。黄色纸花的数量与所求的差无关。",
+        "knowledge_point": "退位减法的应用",
+        "options": [],
+        "question": "手工展上有红色纸花65朵、蓝色纸花28朵、黄色纸花16朵。红色纸花比蓝色纸花多多少朵？以朵为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60054,
+        "score": 10
+      },
+      {
+        "answer": "36",
+        "difficulty": 1,
+        "explanation": "先算56－12＝44，再算44－8＝36，所以还剩36颗。",
+        "knowledge_point": "连减与求剩余",
+        "options": [],
+        "question": "盒子里原有56颗珠子，先取出12颗，又取出8颗，没有其他变化。还剩多少颗？以颗为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60055,
+        "score": 10
+      },
+      {
+        "answer": "先算65－14，再用所得结果减21",
+        "difficulty": 1,
+        "explanation": "连减按从左到右计算，先算65－14。先算14－21不符合顺序，改成加法或只减一次也都不正确。",
+        "knowledge_point": "连减与求剩余",
+        "options": [
+          "先算65＋14，再减21",
+          "先算14－21，再用65减所得结果",
+          "先算65－14，再用所得结果减21",
+          "只算65－14，不再减21"
+        ],
+        "question": "按从左到右的顺序计算65－14－21，下面哪种做法正确？",
+        "type": "choice",
+        "id": 60056,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "两次共用去18＋12＝30张，再算70－30＝40张，与依次减去两次用纸数的结果相同。",
+        "knowledge_point": "连减与求剩余",
+        "options": [],
+        "question": "原有70张彩纸，先用去18张，又用去12张，没有其他变化。判断：可以先算18＋12＝30，再算70－30＝40，求出剩余张数。",
+        "type": "true_false",
+        "id": 60057,
+        "score": 10
+      },
+      {
+        "answer": "31",
+        "difficulty": 2,
+        "explanation": "先算72－25＝47，再算47－16＝31，所以还剩31支。",
+        "knowledge_point": "连减与求剩余",
+        "options": [],
+        "question": "文具店原有72支铅笔，上午卖出25支，下午卖出16支，没有其他变化。还剩多少支？以支为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60058,
+        "score": 10
+      },
+      {
+        "answer": "47－18－9",
+        "difficulty": 2,
+        "explanation": "先后拿走两部分，都要用减法，所以列47－18－9。连加表示增加，加减混合把第二次拿走误作增加，18＋9－47也不是求剩余。",
+        "knowledge_point": "连减与求剩余",
+        "options": [
+          "47＋18＋9",
+          "47－18－9",
+          "47－18＋9",
+          "18＋9－47"
+        ],
+        "question": "篮子里原有47个苹果，先拿走18个，又拿走9个，没有其他变化。哪个算式表示剩下的苹果数？",
+        "type": "choice",
+        "id": 60059,
+        "score": 10
+      },
+      {
+        "answer": "61",
+        "difficulty": 2,
+        "explanation": "先算原有客人走后剩多少位：84－29＝55；再加上新来的6位，55＋6＝61。",
+        "knowledge_point": "连减与求剩余",
+        "options": [],
+        "question": "展厅原有84位客人，走了29位，又来了6位，没有其他变化。现在有多少位客人？以位为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60060,
+        "score": 10
+      },
+      {
+        "answer": "67",
+        "difficulty": 1,
+        "explanation": "18＋24＝42，42＋25＝67，共有67支。",
+        "knowledge_point": "三个数连加",
+        "options": [],
+        "question": "盒中原有18支铅笔，又放入24支，随后再放入25支，没有其他变化。现在共有多少支？以支为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60061,
+        "score": 10
+      },
+      {
+        "answer": "69",
+        "difficulty": 2,
+        "explanation": "27＋18＝45，45＋24＝69。",
+        "knowledge_point": "三个数连加",
+        "options": [],
+        "question": "一班收集27张树叶画，二班收集18张，三班收集24张。三个班共收集多少张？以张为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60062,
+        "score": 10
+      },
+      {
+        "answer": "56",
+        "difficulty": 1,
+        "explanation": "16＋22＝38，38＋18＝56。",
+        "knowledge_point": "三个数连加",
+        "options": [],
+        "question": "书架上只有16本科普书、22本故事书和18本图画书。书架上一共有多少本书？以本为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60063,
+        "score": 10
+      },
+      {
+        "answer": "73",
+        "difficulty": 2,
+        "explanation": "29＋17＝46，46＋27＝73。",
+        "knowledge_point": "三个数连加",
+        "options": [],
+        "question": "第一盒有29张彩纸，第二盒有17张，第三盒有27张。三盒共有多少张彩纸？以张为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60064,
+        "score": 10
+      },
+      {
+        "answer": "26＋15＋18",
+        "difficulty": 1,
+        "explanation": "原有26个，接着增加15个，又增加18个，应连续相加。其余三项都把至少一次增加写成了减少。",
+        "knowledge_point": "三个数连加",
+        "options": [
+          "26＋15＋18",
+          "26－15＋18",
+          "26＋15－18",
+          "26－15－18"
+        ],
+        "question": "筐里原有26个松果，哥哥又放入15个，弟弟又放入18个，没有其他变化。哪个算式表示现在松果的总数？",
+        "type": "choice",
+        "id": 60065,
+        "score": 10
+      },
+      {
+        "answer": "92",
+        "difficulty": 2,
+        "explanation": "31＋30＝61，61＋31＝92。只合计题目给出的天数，不把日期逐个相加。",
+        "knowledge_point": "三个数连加",
+        "options": [],
+        "question": "一份月历标明：五月有31天，六月有30天，七月有31天。这三个月一共有多少天？以天为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60066,
+        "score": 10
+      },
+      {
+        "answer": "37",
+        "difficulty": 1,
+        "explanation": "先算56－24＝32，再算32＋5＝37。",
+        "knowledge_point": "加减混合运算",
+        "options": [],
+        "question": "篮中原有56个橘子，拿走24个后又放入5个，没有其他变化。现在有多少个？以个为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60067,
+        "score": 10
+      },
+      {
+        "answer": "31",
+        "difficulty": 2,
+        "explanation": "48＋16＝64，64－33＝31。",
+        "knowledge_point": "加减混合运算",
+        "options": [],
+        "question": "书箱原来是空的，先放入48本书，又放入16本，随后取出33本，没有其他变化。现在还剩多少本？以本为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60068,
+        "score": 10
+      },
+      {
+        "answer": "47",
+        "difficulty": 1,
+        "explanation": "75－13＝62，62－15＝47。",
+        "knowledge_point": "加减混合运算",
+        "options": [],
+        "question": "盒中原有75颗珠子，先取出13颗，又取出15颗，没有其他变化。还剩多少颗？以颗为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60069,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "62－18＝44，44＋9＝53，不是52。",
+        "knowledge_point": "加减混合运算",
+        "options": [],
+        "question": "判断：62－18＋9＝52。",
+        "type": "true_false",
+        "id": 60070,
+        "score": 10
+      },
+      {
+        "answer": "47－18＋9",
+        "difficulty": 2,
+        "explanation": "取出18颗表示减18，再放入9颗表示加9。其余选项的变化方向或原有数量的位置不符合题意。",
+        "knowledge_point": "加减混合运算",
+        "options": [
+          "47－18＋9",
+          "47＋18－9",
+          "18＋9－47",
+          "47－18－9"
+        ],
+        "question": "盒中原有47颗纽扣，取出18颗后又放入9颗，没有其他变化。哪个算式表示现在纽扣的数量？",
+        "type": "choice",
+        "id": 60071,
+        "score": 10
+      },
+      {
+        "answer": "52",
+        "difficulty": 2,
+        "explanation": "68－27＝41，41＋11＝52。",
+        "knowledge_point": "加减混合运算",
+        "options": [],
+        "question": "展厅原有68位参观者，走了27位，后来又来了11位，没有其他变化。现在有多少位参观者？以位为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60072,
+        "score": 10
+      },
+      {
+        "answer": "77",
+        "difficulty": 1,
+        "explanation": "38＋39＝77，两个班共有77人。",
+        "knowledge_point": "租车方案探究",
+        "options": [],
+        "question": "一班有38人，二班有39人。两个班一共有多少人需要乘车？以人为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60073,
+        "score": 10
+      },
+      {
+        "answer": "61",
+        "difficulty": 1,
+        "explanation": "19＋42＝61，两辆车合计限坐61人。",
+        "knowledge_point": "租车方案探究",
+        "options": [],
+        "question": "一辆车限坐19人，另一辆车限坐42人。这两辆车合计限坐多少人？以人为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60074,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "两班共有38＋39＝77人，两辆车只有19＋42＝61个座位，61小于77，不能全部坐下。",
+        "knowledge_point": "租车方案探究",
+        "options": [],
+        "question": "判断：一班38人、二班39人一起乘车，每人需要一个座位。租一辆限坐19人的车和一辆限坐42人的车，能让两个班的全部学生坐下。",
+        "type": "true_false",
+        "id": 60075,
+        "score": 10
+      },
+      {
+        "answer": "79",
+        "difficulty": 1,
+        "explanation": "19＋60＝79。",
+        "knowledge_point": "租车方案探究",
+        "options": [],
+        "question": "一辆车限坐19人，另一辆车限坐60人。这两辆车合计限坐多少人？以人为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60076,
+        "score": 10
+      },
+      {
+        "answer": "2",
+        "difficulty": 2,
+        "explanation": "共有38＋39＝77人，车辆合计有19＋60＝79个座位，79－77＝2，空2个座位。",
+        "knowledge_point": "租车方案探究",
+        "options": [],
+        "question": "一班38人、二班39人，分别安排到一辆限坐19人的车和一辆限坐60人的车上，每人占一个座位，没有其他乘客。这些学生全部上车后共空多少个座位？以个为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60077,
+        "score": 10
+      },
+      {
+        "answer": "座位总数比总人数多，所以能全部坐下",
+        "difficulty": 2,
+        "explanation": "19＋60＝79，38＋39＝77，79比77多，所以够坐。其余选项误解了空座或只比较单辆车；座位是否足够不需要知道租金。",
+        "knowledge_point": "租车方案探究",
+        "options": [
+          "座位总数比总人数多，所以能全部坐下",
+          "有空座，所以不能全部坐下",
+          "每辆车都少于77个座位，所以两辆合起来也不够",
+          "没有租金，无法判断座位够不够"
+        ],
+        "question": "一班38人、二班39人，每人需要一个座位。计划租一辆限坐19人的车和一辆限坐60人的车。下面哪种判断理由正确？",
+        "type": "choice",
+        "id": 60078,
+        "score": 10
+      },
+      {
+        "answer": "84",
+        "difficulty": 1,
+        "explanation": "求两盏造型灯共用的灯泡数，用加法：57＋27＝84。",
+        "knowledge_point": "逛灯会——回顾整理",
+        "options": [],
+        "question": "灯会上，大兔子造型灯用了57个灯泡，小兔子造型灯用了27个灯泡。两盏造型灯共用了多少个灯泡？以个为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60079,
+        "score": 10
+      },
+      {
+        "answer": "35",
+        "difficulty": 2,
+        "explanation": "求大灯比小灯多用的数量，算63－28＝35。",
+        "knowledge_point": "逛灯会——回顾整理",
+        "options": [],
+        "question": "一盏大花灯用了63个灯泡，一盏小花灯用了28个灯泡。大花灯比小花灯多用多少个灯泡？以个为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60080,
+        "score": 10
+      },
+      {
+        "answer": "较大的数减较小的数",
+        "difficulty": 1,
+        "explanation": "两个数量相差多少，用较大数减较小数。反过来减不符合本课范围，两个数相加求的是总数，加10也不能求相差数。",
+        "knowledge_point": "逛灯会——回顾整理",
+        "options": [
+          "较大的数加10",
+          "较大的数减较小的数",
+          "两个数相加",
+          "较小的数减较大的数"
+        ],
+        "question": "两组花灯的盏数不同。要求这两组花灯相差多少盏，应怎样计算？",
+        "type": "choice",
+        "id": 60081,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "本课竖式加法从个位算起，个位需要进位时，还要把进位的1加到十位。",
+        "knowledge_point": "逛灯会——回顾整理",
+        "options": [],
+        "question": "判断：用竖式计算两位数加两位数时，应该先算十位，再算个位。",
+        "type": "true_false",
+        "id": 60082,
+        "score": 10
+      },
+      {
+        "answer": "23",
+        "difficulty": 2,
+        "explanation": "46－8＝38，表示第一次卖出后剩38个；38－15＝23，表示第二次卖出后剩23个。",
+        "knowledge_point": "逛灯会——回顾整理",
+        "options": [],
+        "question": "灯会摊位原有46个气球，先卖出8个，又卖出15个，没有其他变化。还剩多少个气球？以个为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60083,
+        "score": 10
+      },
+      {
+        "answer": "64",
+        "difficulty": 2,
+        "explanation": "先算19＋28＝47，表示前两队共47人；再算47＋17＝64，表示三队共64人。",
+        "knowledge_point": "逛灯会——回顾整理",
+        "options": [],
+        "question": "灯会有三支表演队，分别有19人、28人和17人，每人只参加一支队伍。三支队伍共有多少人？以人为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60084,
+        "score": 10
+      },
+      {
+        "answer": "64",
+        "difficulty": 1,
+        "explanation": "个位8＋6＝14，写4进1；十位2＋3＋1＝6，结果是64。",
+        "knowledge_point": "综合练习：计算与检验",
+        "options": [],
+        "question": "计算28＋36，结果写整数。",
+        "type": "calculation",
+        "id": 60085,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "5＋7＝12，写2进1；4＋2＋1＝7，所以45＋27＝72，不是71。",
+        "knowledge_point": "综合练习：计算与检验",
+        "options": [],
+        "question": "判断：45＋27＝71。",
+        "type": "true_false",
+        "id": 60086,
+        "score": 10
+      },
+      {
+        "answer": "从十位退1，个位按12－7计算，十位按4－2计算",
+        "difficulty": 2,
+        "explanation": "52的个位2不够减7，退位后个位变成12，十位剩4。其余选项分别没有减少十位、没有给个位加10或错误增加十位。",
+        "knowledge_point": "综合练习：计算与检验",
+        "options": [
+          "从十位退1，个位按12－7计算，十位按4－2计算",
+          "从十位退1，个位按12－7计算，十位仍按5－2计算",
+          "个位直接按7－2计算，十位按5－2计算",
+          "个位按12－7计算，十位按6－2计算"
+        ],
+        "question": "用竖式计算52－27，相同数位已经对齐。接下来哪项操作正确？",
+        "type": "choice",
+        "id": 60087,
+        "score": 10
+      },
+      {
+        "answer": "50",
+        "difficulty": 2,
+        "explanation": "66－18＝48，48＋2＝50。",
+        "knowledge_point": "综合练习：计算与检验",
+        "options": [],
+        "question": "计算66－18＋2，结果写整数。",
+        "type": "calculation",
+        "id": 60088,
+        "score": 10
+      },
+      {
+        "answer": "77",
+        "difficulty": 2,
+        "explanation": "26＋18＝44，44＋33＝77，共有77张。",
+        "knowledge_point": "综合练习：计算与检验",
+        "options": [],
+        "question": "小林有26张动物邮票、18张风景邮票和33张交通邮票，没有其他邮票。小林共有多少张邮票？以张为单位，结果写整数。",
+        "type": "calculation",
+        "id": 60089,
+        "score": 10
+      },
+      {
+        "answer": "46＋7",
+        "difficulty": 2,
+        "explanation": "四个选项的得数依次为53、49、50、48，只有46＋7的得数大于50。",
+        "knowledge_point": "综合练习：计算与检验",
+        "options": [
+          "46＋7",
+          "72－23",
+          "68－18",
+          "26＋22"
+        ],
+        "question": "下面哪个算式的得数大于50？",
+        "type": "choice",
+        "id": 60090,
+        "score": 10
+      },
+      {
+        "answer": "11",
+        "difficulty": 2,
+        "explanation": "两个班共需27＋35＝62顶帽子，缺少62－51＝11顶。",
+        "knowledge_point": "综合练习：解决实际问题",
+        "options": [],
+        "question": "两个班分别有27名和35名学生，每名学生需要一顶帽子。老师准备了51顶，还差多少顶？以顶为单位，写整数。",
+        "type": "calculation",
+        "id": 60091,
+        "score": 10
+      },
+      {
+        "answer": "19＋24＋28",
+        "difficulty": 1,
+        "explanation": "求三类邮票总数，要把三部分相加。其余三项都把其中一类减去了，不表示总数。",
+        "knowledge_point": "综合练习：解决实际问题",
+        "options": [
+          "19＋24－28",
+          "19＋24＋28",
+          "28－24＋19",
+          "24＋28－19"
+        ],
+        "question": "小雨只有动物邮票19张、风景邮票24张和交通邮票28张。求她一共有多少张邮票，应选哪个算式？",
+        "type": "choice",
+        "id": 60092,
+        "score": 10
+      },
+      {
+        "answer": "37",
+        "difficulty": 2,
+        "explanation": "先算第一天后剩下82－26＝56个，再算56－19＝37个。",
+        "knowledge_point": "综合练习：解决实际问题",
+        "options": [],
+        "question": "小兔采了82个蘑菇，第一天吃了26个，第二天吃了19个，没有其他变化。还剩多少个蘑菇？以个为单位，写整数。",
+        "type": "calculation",
+        "id": 60093,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "两排共有16＋22＝38个座位，38小于41，所以不能全部坐下，还差3个座位。",
+        "knowledge_point": "综合练习：解决实际问题",
+        "options": [],
+        "question": "一个班有41名学生，准备坐两排空座位，两排分别有16个和22个座位。每人需要一个座位，不增加座位。判断：这两排座位不能让全班学生都坐下。",
+        "type": "true_false",
+        "id": 60094,
+        "score": 10
+      },
+      {
+        "answer": "14",
+        "difficulty": 1,
+        "explanation": "只比较动物邮票和风景邮票，用37－23＝14。交通邮票的数量与所求差无关。",
+        "knowledge_point": "综合练习：解决实际问题",
+        "options": [],
+        "question": "小禾有动物邮票37张、风景邮票23张、交通邮票18张。动物邮票比风景邮票多多少张？以张为单位，写整数。",
+        "type": "calculation",
+        "id": 60095,
+        "score": 10
+      },
+      {
+        "answer": "第一天和第二天一共吃了多少个蘑菇？",
+        "difficulty": 1,
+        "explanation": "根据两天分别吃了18个和24个，可以提出并计算两天共吃多少：18＋24＝42。其余选项缺少第三天、另一只小兔或萝卜的数量信息，无法由题中条件求出。",
+        "knowledge_point": "综合练习：解决实际问题",
+        "options": [
+          "第三天吃了多少个蘑菇？",
+          "另一只小兔采了多少个蘑菇？",
+          "第一天和第二天一共吃了多少个蘑菇？",
+          "采来的萝卜比蘑菇多多少个？"
+        ],
+        "question": "小兔一共采了75个蘑菇，第一天吃了18个，第二天吃了24个。下面哪个问题能只用这些已知数量，通过加减法计算解决？",
+        "type": "choice",
+        "id": 60096,
+        "score": 10
+      },
+      {
+        "answer": "36",
+        "difficulty": 1,
+        "explanation": "35右边一格增加1，35＋1＝36。",
+        "knowledge_point": "数表遮数游戏",
+        "options": [],
+        "question": "数表第一行从左到右是1至10，第二行是11至20，以后每行接着排列10个连续整数，共排到90。35右边紧邻的一格被遮住了，这格的数是多少？写整数。",
+        "type": "calculation",
+        "id": 60097,
+        "score": 10
+      },
+      {
+        "answer": "64",
+        "difficulty": 1,
+        "explanation": "同一列向下一格增加10，54＋10＝64。",
+        "knowledge_point": "数表遮数游戏",
+        "options": [],
+        "question": "数表第一行从左到右是1至10，第二行是11至20，以后每行接着排列10个连续整数，共排到90。54正下方紧邻的一格被遮住了，这格的数是多少？写整数。",
+        "type": "calculation",
+        "id": 60098,
+        "score": 10
+      },
+      {
+        "answer": "42、43、52、53",
+        "difficulty": 2,
+        "explanation": "第5行是41至50，第2、3列是42、43；下一行相同两列是52、53。其余三组选数分别错在行、列或遗漏了下一行的位置关系。",
+        "knowledge_point": "数表遮数游戏",
+        "options": [
+          "42、43、52、53",
+          "41、42、51、52",
+          "42、43、44、45",
+          "52、53、62、63"
+        ],
+        "question": "数表第一行从左到右是1至10，第二行是11至20，以后每行接着排列10个连续整数，共排到90。遮住第5行和第6行各自的第2、3列，按先上行后下行、每行从左到右的顺序，被遮住的数是哪一组？",
+        "type": "choice",
+        "id": 60099,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "同一列向上一格减少10，76－10＝66。",
+        "knowledge_point": "数表遮数游戏",
+        "options": [],
+        "question": "数表第一行从左到右是1至10，第二行是11至20，以后每行接着排列10个连续整数，共排到90。判断：76正上方紧邻的一格是66。",
+        "type": "true_false",
+        "id": 60100,
+        "score": 10
+      },
+      {
+        "answer": "21",
+        "difficulty": 2,
+        "explanation": "这些数中最小的是24，最大的是45，45－24＝21。",
+        "knowledge_point": "数表遮数游戏",
+        "options": [],
+        "question": "一次数表游戏中，被遮住的数已经核实为24、25、34、35、44、45。被遮住的最大数与最小数相差多少？写整数。",
+        "type": "calculation",
+        "id": 60101,
+        "score": 10
+      },
+      {
+        "answer": "47",
+        "difficulty": 1,
+        "explanation": "同一行向左一格减少1，48－1＝47。38在48上方，49在右边，58在下方，均不是所求位置。",
+        "knowledge_point": "数表遮数游戏",
+        "options": [
+          "58",
+          "49",
+          "38",
+          "47"
+        ],
+        "question": "数表第一行从左到右是1至10，第二行是11至20，以后每行接着排列10个连续整数，共排到90。48左边紧邻的一格被遮住了，这格的数是多少？",
+        "type": "choice",
+        "id": 60102,
+        "score": 10
+      },
+      {
+        "answer": "59",
+        "difficulty": 1,
+        "explanation": "求两群小鹿的总数，用加法：27＋32＝59。",
+        "knowledge_point": "我学会了吗——单元自评",
+        "options": [],
+        "question": "草地两边分别有27只和32只小鹿，这两群小鹿一共有多少只？以只为单位，写整数。",
+        "type": "calculation",
+        "id": 60103,
+        "score": 10
+      },
+      {
+        "answer": "16",
+        "difficulty": 1,
+        "explanation": "求相差数，用较大数减较小数：34－18＝16。",
+        "knowledge_point": "我学会了吗——单元自评",
+        "options": [],
+        "question": "第一棵树上有34只猴子，第二棵树上有18只猴子。第一棵树上的猴子比第二棵树上的多多少只？以只为单位，写整数。",
+        "type": "calculation",
+        "id": 60104,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "飞走后数量减少，应算52－36＝16，不是26。",
+        "knowledge_point": "我学会了吗——单元自评",
+        "options": [],
+        "question": "树上原有52只鸟，飞走36只，没有鸟飞来。判断：树上还剩26只鸟。",
+        "type": "true_false",
+        "id": 60105,
+        "score": 10
+      },
+      {
+        "answer": "24和17",
+        "difficulty": 1,
+        "explanation": "问题只求两群小鹿的总数，需要24和17。其他三项都选入了猴子的数量，且漏掉一群小鹿。",
+        "knowledge_point": "我学会了吗——单元自评",
+        "options": [
+          "24和17",
+          "24和13",
+          "17和13",
+          "24、17和13"
+        ],
+        "question": "草地左边有24只小鹿，右边有17只小鹿，树上还有13只猴子。只求两群小鹿一共有多少只，需要选用哪些数量？",
+        "type": "choice",
+        "id": 60106,
+        "score": 10
+      },
+      {
+        "answer": "两棵树上一共有多少只猴子？",
+        "difficulty": 1,
+        "explanation": "已知两棵树分别有26只和15只猴子，可以用26＋15求总数。鸟的数量、猴子的年龄和树高都没有提供，不能由这两个数量求出。",
+        "knowledge_point": "我学会了吗——单元自评",
+        "options": [
+          "两棵树上一共有多少只猴子？",
+          "树上一共有多少只鸟？",
+          "每只猴子各有几岁？",
+          "第一棵树高多少米？"
+        ],
+        "question": "已知第一棵树上有26只猴子，第二棵树上有15只猴子。下面哪个问题可以只用这两个数量，通过加减法计算解决？",
+        "type": "choice",
+        "id": 60107,
+        "score": 10
+      },
+      {
+        "answer": "记录退位问题，再练习并检查同类题",
+        "difficulty": 1,
+        "explanation": "具体记录错误原因并进行回练，才能针对薄弱处改进。只练已熟练的题、跳过所有减法或只改答案，都没有解决退位问题。",
+        "knowledge_point": "我学会了吗——单元自评",
+        "options": [
+          "只练已经熟练的加法，不再检查减法",
+          "以后跳过所有减法题",
+          "记录退位问题，再练习并检查同类题",
+          "只改成正确答案，不看错误原因"
+        ],
+        "question": "小宁检查练习后发现，自己常在退位减法中忘记把十位减去1。下面哪种自评后的做法最能针对这个问题改进？",
+        "type": "choice",
+        "id": 60108,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "六 大海边——100以内的加减法（二）·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "79",
+        "difficulty": 1,
+        "explanation": "个位5＋4＝9，十位4＋3＝7，所以45＋34＝79，不需要进位。",
+        "knowledge_point": "两位数加两位数（不进位）",
+        "options": [],
+        "question": "计算45＋34，结果写整数。",
+        "type": "calculation",
+        "id": 69001,
+        "score": 10
+      },
+      {
+        "answer": "65",
+        "difficulty": 1,
+        "explanation": "个位8＋7＝15，写5进1；十位3＋2＋1＝6，结果是65。",
+        "knowledge_point": "两位数加两位数（进位）",
+        "options": [],
+        "question": "计算38＋27，结果写整数。",
+        "type": "calculation",
+        "id": 69002,
+        "score": 10
+      },
+      {
+        "answer": "71",
+        "difficulty": 1,
+        "explanation": "先算28＋19＝47，再算47＋24＝71，共有71支。",
+        "knowledge_point": "三个数连加",
+        "options": [],
+        "question": "盒中原有28支彩笔，又放入19支，随后再放入24支，没有其他变化。现在共有多少支？以支为单位，结果写整数。",
+        "type": "calculation",
+        "id": 69003,
+        "score": 10
+      },
+      {
+        "answer": "9",
+        "difficulty": 2,
+        "explanation": "需要的帽子数是29＋34＝63顶，缺少63－54＝9顶。",
+        "knowledge_point": "综合练习：解决实际问题",
+        "options": [],
+        "question": "两个小组分别有29人和34人，每人需要一顶帽子。现有54顶帽子，还差多少顶？以顶为单位，写整数。",
+        "type": "calculation",
+        "id": 69004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "相同数位必须对齐，应把个位上的6和2对齐，而不是把6和十位上的3对齐。",
+        "knowledge_point": "两位数减两位数（不退位）",
+        "options": [],
+        "question": "判断：用竖式计算86－32时，应把86中的6与32中的3对齐。",
+        "type": "true_false",
+        "id": 69005,
+        "score": 10
+      },
+      {
+        "answer": "64",
+        "difficulty": 2,
+        "explanation": "用减价后的两个价格相加：28＋36＝64元。原价不是本题要使用的数据。",
+        "knowledge_point": "进位加法的应用",
+        "options": [
+          "74",
+          "64",
+          "54",
+          "8"
+        ],
+        "question": "一本图画书原价35元，现价28元；一本故事书原价39元，现价36元。现在各买一本，共需多少元？",
+        "type": "choice",
+        "id": 69006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "列竖式时个位没有对齐个位、十位没有对齐十位。",
+        "把个位数字和十位数字混着相加。",
+        "把3个十当成3个一，忽视数位表示的意义。",
+        "计算完后把和的个位和十位写反。"
+      ],
+      "core_concept": "100以内两位数加两位数的不进位加法，要把相同数位上的数相加，个位相加不满10。可以把两个数分别拆成整十数和一位数，先合并整十数、再合并单个数；也可以先加第二个数中的整十数，再加剩下的单个数。小棒、计数器和竖式都能表示这一过程。列竖式必须相同数位对齐。",
+      "key_formula": "",
+      "point": "两位数加两位数（不进位）",
+      "tips": "想一想每个数字表示几个十或几个一。列竖式时个位对个位、十位对十位，按数位分别相加；练习时可以从个位算起，再算十位。"
+    },
+    {
+      "common_mistakes": [
+        "把题目中所有数字都相加，没有筛选与问题有关的信息。",
+        "没有分清求总数和求相差多少。",
+        "把不同种类、不同单位的数量随意合并。",
+        "计算正确，却在说明结果时写错单位。"
+      ],
+      "core_concept": "已知两个部分，求合起来的总数，用加法。先说清求的是什么，找到对应的两个部分，再列式、计算并说明单位。本课采用100以内不进位加法解决合并、运送、购物等问题。图形代表数字的活动可以通过尝试检验，符合条件的结果可能不止一种。",
+      "key_formula": "部分数＋部分数＝总数",
+      "point": "不进位加法的应用",
+      "tips": "先把数学故事说完整，再确定所求总数包含哪两个部分。购物时只加所购物品的价格；求播放总集数时，把已播集数和未播集数合起来。"
+    },
+    {
+      "common_mistakes": [
+        "列竖式时相同数位没有对齐。",
+        "把个位与十位混着相减。",
+        "把差的个位数字写在十位上。",
+        "忘记个位相减得0时，0也要写出来。"
+      ],
+      "core_concept": "计算两位数减两位数的不退位减法，相同数位对齐，个位减个位、十位减十位。本课被减数不小于减数，且个位够减，不需要从十位退1。可以用小棒理解：整捆的十与整捆的十相减，单根与单根相减；也可以用计数器和竖式表示。",
+      "key_formula": "",
+      "point": "两位数减两位数（不退位）",
+      "tips": "先对齐个位和十位，按数位分别相减。练习竖式时可从个位算起，再算十位；个位相减得0不能漏写。也可用差加减数检查是否得到被减数。"
+    },
+    {
+      "common_mistakes": [
+        "求相差多少时，把两个数量相加。",
+        "把“少多少”理解成一定用较小数减较大数。",
+        "求剩余时，没有从原有数量中减去用掉的数量。",
+        "只看关键词，没有弄清数量关系或排除无关信息。"
+      ],
+      "core_concept": "求剩余，用原有数量减去用掉或离开的数量；求两个数量相差多少，用较大数量减去较小数量。“甲比乙多多少”和“乙比甲少多少”表示同一个差。先分清问题求总数、剩余还是差，再选择运算。本课计算限定为100以内不退位减法。",
+      "key_formula": "原有数量－用去数量＝剩余数量；较大数量－较小数量＝相差数量",
+      "point": "不退位减法的应用",
+      "tips": "可以先把两组物品一一对应，看看多出的部分。列式后检查答案的单位，并把结果放回故事中想一想是否合理。"
+    },
+    {
+      "common_mistakes": [
+        "中途抬笔后换位置继续画。",
+        "为了走通而重复画某条线，或者遗漏线段。",
+        "没有检查完整路线，只凭一次尝试就下结论。",
+        "把每个图形都必须回到起点当成一笔画的要求。"
+      ],
+      "core_concept": "一笔画是笔尖不离开纸面，沿已有的线连续画，把所有线各画一次，不重复，也不遗漏。可以选择起点，尝试不同路线，用箭头或点的名称记录，再逐条核查。终点不一定是起点。本课重在动手尝试、记录和交流，不学习一般判定定理。",
+      "key_formula": "",
+      "point": "一笔画探究",
+      "tips": "先认清图形由哪些线组成，再选起点尝试。经过已经画过的点可以，但不能重复画已经画过的线。记录路线后，按线逐条检查。"
+    },
+    {
+      "common_mistakes": [
+        "个位相加满十后忘记进位。",
+        "十位计算时漏加进位的1。",
+        "把进位的1当作1个一，再加到个位上。",
+        "个位和是10时漏写结果个位上的0。",
+        "竖式中相同数位没有对齐。"
+      ],
+      "core_concept": "10个一可以换成1个十。用竖式计算两位数加两位数时，相同数位对齐，从个位加起；个位相加满10，就向十位进1，个位写下个位数字；十位相加时还要加上进位的1。例如16＋25，个位6＋5＝11，写1进1；十位1＋2＋1＝4，结果是41。",
+      "key_formula": "",
+      "point": "两位数加两位数（进位）",
+      "tips": "用小棒理解进位：把10根单根小棒捆成1捆，总数不变。竖式可记一个小的进位1，提醒十位加上它。个位和正好是10时，个位写0；一位数与两位数相加时，一位数也要对齐个位。"
+    },
+    {
+      "common_mistakes": [
+        "求两部分合起来的数量时误用减法。",
+        "没有看清所求对象，选了不对应的数据。",
+        "把减价前后的价格混用。",
+        "个位满十时，十位漏加进位的1。",
+        "把不同种类、不同单位的数量直接合并。"
+      ],
+      "core_concept": "求两部分合起来有多少，用加法。先明确求什么，再选择对应的数量，列式计算。例如活动中已有26人签到，还有17人未签到，求参加活动的总人数，列式26＋17＝43人。购物时要分清原价和现价；捐书表中要分清班级和书的种类。选择加法后，还要看个位是否满十，不能每次都机械进位。",
+      "key_formula": "一部分数量＋另一部分数量＝总数量",
+      "point": "进位加法的应用",
+      "tips": "先说清两个数各表示什么，再列式。题目问减价前就用原价，问减价后就用现价。计算后核对单位；如果题目改问相差多少，应根据数量关系改用减法。"
+    },
+    {
+      "common_mistakes": [
+        "个位不够减时，用较大的个位数字减较小的个位数字。",
+        "个位加10后，十位忘记减去退走的1。",
+        "十位重复减去退走的1。",
+        "竖式中没有把相同数位对齐。"
+      ],
+      "core_concept": "用竖式计算两位数减两位数，相同数位对齐，从个位减起。个位不够减时，从十位退1，把1个十换成10个一，加在原来的个位上再减；计算十位时，要用退走1后剩下的十位数相减。整十数的个位是0，不够减时也要退位。例如52－28，先算12－8＝4，再算4－2＝2，结果是24。",
+      "key_formula": "",
+      "point": "两位数减两位数（退位）",
+      "tips": "用小棒操作时，拆开1捆就是把1个十换成10个一，总数不变。竖式中可作退位标记，提醒十位已经少1。算完后，把差与减数相加，检查是否得到被减数。"
+    },
+    {
+      "common_mistakes": [
+        "把求相差多少误列成加法。",
+        "看到“少”就直接用前一个数量减后一个数量，没有先比较大小。",
+        "选错比较对象或抄错数量。",
+        "退位后十位忘记少1。",
+        "用题目中所有数字计算，没有排除无关信息。"
+      ],
+      "core_concept": "比较两个数量相差多少，用较大的数量减较小的数量。例如甲组做了54个纸环，乙组做了28个，求甲组比乙组多多少，或乙组比甲组少多少，都用54－28＝26个。若问题求两组合起来有多少，则要用加法，不能只凭某个词决定运算。列式后按退位减法的方法计算，并说明结果表示谁比谁多或少多少。",
+      "key_formula": "较大数量－较小数量＝相差数量",
+      "point": "退位减法的应用",
+      "tips": "先确定比较的是哪两个数量，再比较大小并列式。题目给出资料时，只根据题内数据计算，不把资料数值当作所有情形都适用的常识。带星号的数字谜可作为选学内容，通过个位和十位的关系猜测，再代入检验。"
+    },
+    {
+      "common_mistakes": [
+        "把两次取走误列成一次减法和一次加法。",
+        "漏减其中一次减少的数量。",
+        "连减时先算后面两个减数的差。",
+        "第一次退位计算出错，导致后续结果也错。",
+        "把两次用去的总数当成剩余数。"
+      ],
+      "core_concept": "从原有数量中先后去掉两部分，可以列连减算式，按从左到右的顺序计算。例如原有60张纸，先用去16张，又用去14张，先算60－16＝44，再算44－14＝30。也可以先算两次共用去16＋14＝30张，再算60－30＝30张。教材还练习连加和加减混合：只有加减法、没有括号时，也按从左到右的顺序计算。",
+      "key_formula": "原有数量－第一次减少的数量－第二次减少的数量＝剩余数量",
+      "point": "连减与求剩余",
+      "tips": "可以用两个分步竖式记录，也可以在连续竖式中接着计算；每一步都要注意进位、退位。先合并两次减少量时，用两个分步算式表达，不必引入括号。编数学故事时，要说清是又放入还是又取走。"
+    },
+    {
+      "common_mistakes": [
+        "漏掉一个数量，或把同一个数量重复相加。",
+        "把前一步的得数抄错，后一步没有接着中间结果计算。",
+        "竖式中相同数位没有对齐，或个位满10后忘记进1。",
+        "读取月历时把日期数字相加，而不是合计各月的天数。"
+      ],
+      "core_concept": "把三个数量合起来，可以列三个数连加的算式。计算时可以先算前两个数的和，再把这个和与第三个数相加。每一步都要算准确；列竖式时相同数位对齐，从个位加起，个位满10向十位进1。数学故事要交代清楚原有多少、接着增加多少、又增加多少以及要求什么。月历在这里仅用于读取并合计天数，不学习年月日的新知识。",
+      "key_formula": "",
+      "point": "三个数连加",
+      "tips": "先找齐三个数量，再列算式；把中间结果写清楚。算完重新加一遍，检查有没有漏加、重复加或忘记进位。题目给出各月天数时，直接使用给出的天数。"
+    },
+    {
+      "common_mistakes": [
+        "认为有加有减就必须先算加法，没有从左到右计算。",
+        "把情境中的增加写成减法，或把减少写成加法。",
+        "后一步没有使用前一步的正确得数。",
+        "退位后忘记十位已经少了1，或进位后忘记加上进位的1。"
+      ],
+      "core_concept": "一道算式中既有加法又有减法，就是加减混合运算。不含括号的加减混合算式按从左到右的顺序计算。数量先减少再增加，可以先减后加；先增加再减少，可以先加后减。每一步的得数要接着用于下一步。相关的连减练习也可以从左到右逐步计算。",
+      "key_formula": "",
+      "point": "加减混合运算",
+      "tips": "读题时依次找出原有数量和两次变化；列式后先算左边的一步，再算下一步。写清中间结果，逐步检查进位和退位，不要把几个步骤混在一起。"
+    },
+    {
+      "common_mistakes": [
+        "只算一个班的人数，没有合计两个班的人数。",
+        "把车辆的限坐人数当成实际乘车人数。",
+        "只看一辆车，没有合计所选车辆的座位数。",
+        "认为有空座就不能采用，或没有租金却判断哪种方案最省钱。"
+      ],
+      "core_concept": "教材给出一班38人、二班39人，以及限坐19人、42人、60人的车辆。先求两个班共有多少人，再把所选车辆的限坐人数相加，判断是否够坐。每人需要一个座位，座位总数等于或大于总人数就能坐下；小于总人数就不能全部坐下。可能有不同的可行方案，要逐一计算检验。这里只比较人数和座位，不讨论租金。",
+      "key_formula": "总人数＝一班人数＋二班人数；总座位数＝所选车辆的座位数相加",
+      "point": "租车方案探究",
+      "tips": "先算38＋39，再算每种方案的座位总数。说理由时要同时说明人数、座位数和够不够坐。题目没有说明车辆数量时，不自行认定某种车只能租一辆；没有车费就不比较费用。"
+    },
+    {
+      "common_mistakes": [
+        "把求一共多少列成减法，把求相差多少列成加法。",
+        "连加、连减漏掉一个数量，或说不清中间结果的意思。",
+        "竖式数位没有对齐，或没有从个位算起。",
+        "个位满10忘记进1，个位不够减时忘记退位或退位后忘记减少十位。"
+      ],
+      "core_concept": "借助灯会情境，把本单元的求和、求差、连加和连减联系起来：合计数量用加法，求相差多少用较大数减较小数，连续增加或减少可列连加或连减算式。竖式加减法都要相同数位对齐，从个位算起；加法个位满10向十位进1，减法个位不够减从十位退1，在个位加10再减。要能说明每一步求出的是什么数量。",
+      "key_formula": "总数＝各部分数量相加；相差数＝较大数－较小数",
+      "point": "逛灯会——回顾整理",
+      "tips": "先判断是合起来、求相差，还是连续变化，再列式。简单的计算可以口算，需要时用竖式；无论采用哪种方法，都要检查数位、进退位和中间结果是否正确。"
+    },
+    {
+      "common_mistakes": [
+        "只凭算式中的数字大小猜得数，没有实际计算。",
+        "加法漏加进位的1，减法退位后仍用原来的十位计算。",
+        "连续计算时没有接着前一步的得数算。",
+        "把大于50、等于50和小于50的结果分错，或匹配后不复核。"
+      ],
+      "core_concept": "综合练习巩固100以内加减法以及连加、连减和加减混合运算。能口算的可以口算，需要笔算时把相同数位对齐，从个位算起，正确处理进位和退位。结果分类要先算出得数，再与指定数比较；算式匹配要分别求出得数，再找相同结果。检验时既检查最终得数，也检查中间步骤。",
+      "key_formula": "",
+      "point": "综合练习：计算与检验",
+      "tips": "先看清运算符号，再计算。连算写出中间结果；发现错误，指出错在哪一步并重新计算。分类或匹配完成后，再独立算一次核对，不只看答案是否眼熟。"
+    },
+    {
+      "common_mistakes": [
+        "没有弄清问题求总数、相差数还是剩余数，就直接计算。",
+        "求三部分合计时漏掉其中一部分。",
+        "求两次取走后的剩余时，只减去一次取走的数量。",
+        "判断够不够时，只比较一个班的人数，没有合计全部需求。",
+        "把原图座位数量当成未说明的固定条件，或凭印象猜座位数。"
+      ],
+      "core_concept": "根据帽子、邮票、蘑菇和座位安排等情境，筛选有用信息，综合运用100以内的一步或两步加减法解决问题。求几部分合计用加法，求相差数用较大数减较小数，求剩余用原有数量减去取走数量。判断物品够不够或座位能否坐下，要先求总需求和可用数量，再比较并说明数量依据。座位总数用加法计算。还要根据明确的数量提出合理问题，并与同伴交流解题方法。",
+      "key_formula": "",
+      "point": "综合练习：解决实际问题",
+      "tips": "读清每个数量的含义和单位，再确定计算顺序。两次取走可以依次减，也可以先求一共取走多少，再求剩余。够不够要把所有相关人数算全；题目给出各排座位数时，用加法合计。算后检查答案能否回答原问题，不能只写算式而不说明判断依据。"
+    },
+    {
+      "common_mistakes": [
+        "没有先确认数表的排列方式，就认为所有数表向下一格都增加10。",
+        "把向右一格增加1与向下一格增加10弄反。",
+        "向左或向上找数时仍然做加法。",
+        "漏掉遮住区域中的某个格子。",
+        "求最大数与最小数相差多少时，把两数相加或颠倒减法顺序。"
+      ],
+      "core_concept": "本课数表从1开始，按从左到右、从上到下的顺序排列，每行10个数，排到90。同一行向右一格增加1，向左一格减少1；同一列向下一格增加10，向上一格减少10。利用露出的相邻数，可以推断遮住的数并逐格验证。确定遮住数中的最大数和最小数后，用最大数减最小数求差。移动遮挡位置后，要重新依据格子位置判断，不把原来的答案照搬过去。",
+      "key_formula": "",
+      "point": "数表遮数游戏",
+      "tips": "先找一个露出的邻近数，再按方向一步一步找被遮住的数。向右加1、向左减1，向下加10、向上减10，这些关系用于本课每行10个数的数表。可以与同伴分别猜数，再用横向和纵向关系交叉检查。"
+    },
+    {
+      "common_mistakes": [
+        "把不同动物的数量混在一起，使用了与问题无关的信息。",
+        "把求总数、求相差数和求剩余数混淆。",
+        "竖式计算时忘记进位，或退位后仍按原来的十位数计算。",
+        "只看答案，没有检查算式是否符合题意。",
+        "自评时只说会或不会，没有记录具体疑问和回练内容。"
+      ],
+      "core_concept": "综合运用100以内的加减法，从情境中选出相关数量，解决求总数、比较多少和求剩余的问题。教材中的两群小鹿、两棵树上的猴子以及鸟飞走的情境分别提供了不同的信息，不能把它们随意合并。完成计算后检查数量关系、计算过程和单位；还要练习提出可以用加减法解决的问题。通过问题口袋记录疑问，围绕认真计算、表达想法、合作交流和实际应用进行自评，并针对薄弱处回练。",
+      "key_formula": "",
+      "point": "我学会了吗——单元自评",
+      "tips": "先说清求什么，再选有用的数量。合起来用加法，相差多少用较大数减较小数，飞走或拿走后求剩余用减法。竖式相同数位对齐，从个位算起，留意进位和退位。检查后记录一个具体问题，例如“退位后十位容易算错”，再练同类题。"
+    }
+  ]
+}

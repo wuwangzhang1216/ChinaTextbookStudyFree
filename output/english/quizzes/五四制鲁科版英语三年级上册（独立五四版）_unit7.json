@@ -1,0 +1,521 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级 上册",
+  "unit": "Unit 7 Numbers",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "Unit 7 Numbers·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "Two.",
+        "difficulty": 1,
+        "explanation": "题设只有红、白两种颜色，因此选Two。One、Three、Four分别表示一、三、四。",
+        "knowledge_point": "How many colours?",
+        "options": [
+          "One.",
+          "Two.",
+          "Three.",
+          "Four."
+        ],
+        "question": "一面小旗只使用红色和白色。回答“How many colours?”应选哪项？",
+        "type": "choice",
+        "id": 70001,
+        "score": 10
+      },
+      {
+        "answer": "One.",
+        "difficulty": 1,
+        "explanation": "题设只有一块橡皮，应回答One。Two、Four、Five与给定数量均不相符。",
+        "knowledge_point": "How many colours?",
+        "options": [
+          "Two.",
+          "Four.",
+          "One.",
+          "Five."
+        ],
+        "question": "桌上恰好有一块橡皮。回答“How many erasers?”应选哪项？",
+        "type": "choice",
+        "id": 70002,
+        "score": 10
+      },
+      {
+        "answer": "u",
+        "difficulty": 1,
+        "explanation": "大写U对应小写u；v对应V，w对应W，U本身仍是大写形式。",
+        "knowledge_point": "How many colours?",
+        "options": [
+          "u",
+          "U",
+          "w",
+          "v"
+        ],
+        "question": "大写字母U对应的小写字母是哪一个？",
+        "type": "choice",
+        "id": 70003,
+        "score": 10
+      },
+      {
+        "answer": "V",
+        "difficulty": 1,
+        "explanation": "小写v对应大写V。U和W是其他字母，v仍为小写形式。",
+        "knowledge_point": "How many colours?",
+        "options": [
+          "W",
+          "V",
+          "U",
+          "v"
+        ],
+        "question": "小写字母v对应的大写字母是哪一个？",
+        "type": "choice",
+        "id": 70004,
+        "score": 10
+      },
+      {
+        "answer": "Five.",
+        "difficulty": 2,
+        "explanation": "从一开始按顺序数是one、two、three、four、five，因此four后紧接Five。One、Three、Four都不是该位置的数词。",
+        "knowledge_point": "How many colours?",
+        "options": [
+          "Five.",
+          "Three.",
+          "Four.",
+          "One."
+        ],
+        "question": "从one开始按顺序数数，紧接four后面的数词是哪一个？",
+        "type": "choice",
+        "id": 70005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "题设明确只有两块橡皮，Two erasers.表示两块橡皮，数量正确，不能因为两块颜色相同就只算一块。",
+        "knowledge_point": "How many colours?",
+        "options": [],
+        "question": "判断正误：桌上只有两块红色橡皮，回答“How many erasers?”时说“Two erasers.”是错误的。",
+        "type": "true_false",
+        "id": 70006,
+        "score": 10
+      },
+      {
+        "answer": "Six.",
+        "difficulty": 1,
+        "explanation": "Six表示六；Five表示五；Seven表示七；Eight表示八。",
+        "knowledge_point": "How many books do you have?",
+        "options": [
+          "Seven.",
+          "Six.",
+          "Five.",
+          "Eight."
+        ],
+        "question": "哪个英语数词表示数字6？",
+        "type": "choice",
+        "id": 70007,
+        "score": 10
+      },
+      {
+        "answer": "I have seven pencils.",
+        "difficulty": 1,
+        "explanation": "七支铅笔是seven pencils，表达拥有用I have。seven books指七本书；I’m seven pencils.不能正确表达拥有；Seven pens.指七支钢笔。",
+        "knowledge_point": "How many books do you have?",
+        "options": [
+          "Seven pens.",
+          "I’m seven pencils.",
+          "I have seven books.",
+          "I have seven pencils."
+        ],
+        "question": "一个角色有七支铅笔。哪一句准确表达“我有七支铅笔”？",
+        "type": "choice",
+        "id": 70008,
+        "score": 10
+      },
+      {
+        "answer": "How many pens do you have?",
+        "difficulty": 1,
+        "explanation": "pens指钢笔，因此应选How many pens do you have?。其余选项分别问年龄、书的数量和姓名。",
+        "knowledge_point": "How many books do you have?",
+        "options": [
+          "How old are you?",
+          "How many books do you have?",
+          "How many pens do you have?",
+          "What’s your name?"
+        ],
+        "question": "你想询问同伴有多少支钢笔，应选哪一句？",
+        "type": "choice",
+        "id": 70009,
+        "score": 10
+      },
+      {
+        "answer": "Ten.",
+        "difficulty": 1,
+        "explanation": "题设明确有十支铅笔，Ten表示十。Seven、Eight、Nine分别表示七、八、九。",
+        "knowledge_point": "How many books do you have?",
+        "options": [
+          "Seven.",
+          "Eight.",
+          "Nine.",
+          "Ten."
+        ],
+        "question": "角色卡写明：有十支铅笔。别人问“How many pencils do you have?”，扮演者应选哪个简短回答？",
+        "type": "choice",
+        "id": 70010,
+        "score": 10
+      },
+      {
+        "answer": "Uu",
+        "difficulty": 2,
+        "explanation": "Uu是同一字母的大写和小写。Uv、Vu、Wv均把不同字母放在一起，不是正确的大小写配对。",
+        "knowledge_point": "How many books do you have?",
+        "options": [
+          "Uv",
+          "Wv",
+          "Vu",
+          "Uu"
+        ],
+        "question": "字母配对游戏中，哪一组把同一字母的大写和小写正确配在一起？",
+        "type": "choice",
+        "id": 70011,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Let’s count.表示“我们来数一数”，可以提议通过共同点数核实数量。",
+        "knowledge_point": "How many books do you have?",
+        "options": [],
+        "question": "判断正误：“Let’s count.”可以用来提议一起点数核实物品数量。",
+        "type": "true_false",
+        "id": 70012,
+        "score": 10
+      },
+      {
+        "answer": "I’m eight.",
+        "difficulty": 1,
+        "explanation": "How old are you?询问年龄，八岁用I’m eight.回答。其他选项分别表达拥有书、颜色数量和赠送物品，不回答年龄。",
+        "knowledge_point": "How old are you?",
+        "options": [
+          "I’m eight.",
+          "I have eight books.",
+          "Eight colours.",
+          "This is for you."
+        ],
+        "question": "角色卡写明：八岁。扮演该角色时，怎样回答“How old are you?”？",
+        "type": "choice",
+        "id": 70013,
+        "score": 10
+      },
+      {
+        "answer": "Thank you!",
+        "difficulty": 1,
+        "explanation": "Thank you!用于致谢。Guess!表示猜一猜；How many books?询问书的数量；Happy birthday!表示生日祝福，均不是感谢语。",
+        "knowledge_point": "How old are you?",
+        "options": [
+          "Thank you!",
+          "Guess!",
+          "Happy birthday!",
+          "How many books?"
+        ],
+        "question": "朋友把礼物送给你，你要向朋友表示感谢，应说哪一句？",
+        "type": "choice",
+        "id": 70014,
+        "score": 10
+      },
+      {
+        "answer": "Happy birthday!",
+        "difficulty": 1,
+        "explanation": "Happy birthday!意为“生日快乐”。其他选项分别询问年龄、表达拥有的数量、提议点数，不是生日祝福语。",
+        "knowledge_point": "How old are you?",
+        "options": [
+          "Happy birthday!",
+          "How old are you?",
+          "I have one.",
+          "Let’s count."
+        ],
+        "question": "你要向正在过生日的角色送上“生日快乐”的祝福，应选哪一句？",
+        "type": "choice",
+        "id": 70015,
+        "score": 10
+      },
+      {
+        "answer": "Guess!",
+        "difficulty": 1,
+        "explanation": "Guess!表示“猜一猜”，可以邀请对方猜年龄。Thank you!表示感谢；I have nine.表达拥有的数量；How many colours?询问颜色数量。",
+        "knowledge_point": "How old are you?",
+        "options": [
+          "Thank you!",
+          "I have nine.",
+          "Guess!",
+          "How many colours?"
+        ],
+        "question": "别人询问一个角色的年龄，该角色想说“猜一猜！”，应选哪一句？",
+        "type": "choice",
+        "id": 70016,
+        "score": 10
+      },
+      {
+        "answer": "Zz",
+        "difficulty": 1,
+        "explanation": "Zz表示大写Z和它的小写z配对；Xx、Yy、Ww分别是其他字母的配对，不符合题目指定的Z。",
+        "knowledge_point": "How old are you?",
+        "options": [
+          "Xx",
+          "Yy",
+          "Zz",
+          "Ww"
+        ],
+        "question": "哪一组表示大写字母Z与它对应的小写字母？",
+        "type": "choice",
+        "id": 70017,
+        "score": 10
+      },
+      {
+        "answer": "This is for you.",
+        "difficulty": 2,
+        "explanation": "This is for you.表示“这是给你的”，符合递送礼物的指定意思。其他选项分别表示我也九岁、请猜测、询问铅笔数量。",
+        "knowledge_point": "How old are you?",
+        "options": [
+          "I’m nine, too.",
+          "Guess!",
+          "This is for you.",
+          "How many pencils do you have?"
+        ],
+        "question": "角色表演中，你递出礼物，想表达“这是给你的”，应选哪一句？",
+        "type": "choice",
+        "id": 70018,
+        "score": 10
+      },
+      {
+        "answer": "Seven.",
+        "difficulty": 1,
+        "explanation": "七种颜色对应Seven。Five、Six、Eight分别表示五、六、八，均不符合题设。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Five.",
+          "Six.",
+          "Seven.",
+          "Eight."
+        ],
+        "question": "一幅装饰画恰好使用七种不同颜色。用英语简短回答“How many colours?”应选哪项？",
+        "type": "choice",
+        "id": 70019,
+        "score": 10
+      },
+      {
+        "answer": "I have two.",
+        "difficulty": 1,
+        "explanation": "题设有两个兄弟，应答I have two.。I’m two.表示两岁；My name’s Ben.回答姓名；Two colours.说的是颜色数量。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I have two.",
+          "My name’s Ben.",
+          "Two colours.",
+          "I’m two."
+        ],
+        "question": "虚构人物Ben有两个兄弟。别人问“How many brothers do you have?”，Ben应怎样回答？",
+        "type": "choice",
+        "id": 70020,
+        "score": 10
+      },
+      {
+        "answer": "My name’s Amy.",
+        "difficulty": 1,
+        "explanation": "What’s your name?询问姓名，角色名字为Amy，应选My name’s Amy.。其他选项分别表达年龄、拥有的数量和颜色数量。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "My name’s Amy.",
+          "I’m nine.",
+          "I have one.",
+          "Seven colours."
+        ],
+        "question": "角色卡上的虚构姓名是Amy。扮演该角色时，怎样回答“What’s your name?”？",
+        "type": "choice",
+        "id": 70021,
+        "score": 10
+      },
+      {
+        "answer": "six",
+        "difficulty": 2,
+        "explanation": "五、六、七的英语顺序是five、six、seven。four在five之前；eight和ten都不在five与seven之间。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "ten",
+          "six",
+          "eight",
+          "four"
+        ],
+        "question": "按1到10的顺序数数：“four, five, ___, seven”。空缺处应选哪个数词？",
+        "type": "choice",
+        "id": 70022,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "How many brothers do you have?询问有几个兄弟，不是询问年龄。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：“How many brothers do you have?”的意思是“你几岁了？”",
+        "type": "true_false",
+        "id": 70023,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "问题已经说明询问兄弟数量，I have one.中的one承接这个对象，表示有一个兄弟，无须再次重复brother。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：虚构人物有一个兄弟，回答“How many brothers do you have?”时，可以说“I have one.”。",
+        "type": "true_false",
+        "id": 70024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 7 Numbers·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "Three.",
+        "difficulty": 1,
+        "explanation": "题干明确有三种不同颜色，因此选Three。One、Four、Five分别表示一、四、五，均不符合数量。",
+        "knowledge_point": "How many colours?",
+        "options": [
+          "One.",
+          "Three.",
+          "Four.",
+          "Five."
+        ],
+        "question": "一张卡片只有红、黄、蓝三种颜色。回答“How many colours?”应选哪一项？",
+        "type": "choice",
+        "id": 79001,
+        "score": 10
+      },
+      {
+        "answer": "I have six books.",
+        "difficulty": 1,
+        "explanation": "六本书应表达为six books。six pencils指六支铅笔；I’m six表示六岁；Six colours指六种颜色。",
+        "knowledge_point": "How many books do you have?",
+        "options": [
+          "Six colours.",
+          "I have six books.",
+          "I have six pencils.",
+          "I’m six."
+        ],
+        "question": "虚构人物Mia有六本书。她要表达“我有六本书”，应选哪一句？",
+        "type": "choice",
+        "id": 79002,
+        "score": 10
+      },
+      {
+        "answer": "How old are you?",
+        "difficulty": 1,
+        "explanation": "How old are you?询问年龄。其余三项分别询问颜色数量、书的数量和姓名，不能用于询问年龄。",
+        "knowledge_point": "How old are you?",
+        "options": [
+          "How many colours?",
+          "How old are you?",
+          "How many books do you have?",
+          "What’s your name?"
+        ],
+        "question": "在角色表演中，你只想询问对方几岁，应使用哪一句？",
+        "type": "choice",
+        "id": 79003,
+        "score": 10
+      },
+      {
+        "answer": "ten, nine, eight, seven",
+        "difficulty": 2,
+        "explanation": "从十开始倒数，依次是十、九、八、七，对应ten、nine、eight、seven。其他选项均有跳数或次序错误。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "ten, eight, nine, seven",
+          "seven, eight, nine, ten",
+          "ten, nine, eight, seven",
+          "ten, nine, seven, eight"
+        ],
+        "question": "从10开始，每次倒数一个数。前四个数的英语顺序是哪一项？",
+        "type": "choice",
+        "id": 79004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "W是大写形式，w是同一字母的小写形式，二者配对正确。",
+        "knowledge_point": "How many colours?",
+        "options": [],
+        "question": "判断正误：大写字母W对应的小写字母是w。",
+        "type": "true_false",
+        "id": 79005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "I’m nine, too.中的too表示“也”，整句意为“我也九岁”，并不表示对方年龄更大。",
+        "knowledge_point": "How old are you?",
+        "options": [],
+        "question": "判断正误：甲说“I’m nine.”，乙回答“I’m nine, too.”，说明乙比甲年龄大。",
+        "type": "true_false",
+        "id": 79006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "将one、two、three、four、five的顺序或含义混淆。",
+        "询问颜色数量时，把物品个数当作颜色种类数；同一种颜色重复出现不增加颜色种类。",
+        "没有听清所问对象，把颜色数量和橡皮数量混在一起。",
+        "混淆Uu、Vv、Ww的大小写对应关系。"
+      ],
+      "core_concept": "本课重点学习one（一）、two（二）、three（三）、four（四）、five（五），用How many colours?询问有几种颜色，并用数词简答。How many erasers?询问橡皮数量；发现数量回答不准确时，可以用No.开头纠正，再说出正确数量。本课认读Uu、Vv、Ww，建立同一字母大小写的对应关系。单元首页呈现生日和年龄交际情境，具体年龄问答在第三课继续学习。",
+      "key_formula": "How many + 名词复数? — 数词.",
+      "point": "How many colours?",
+      "tips": "先弄清数的是颜色种类还是物品个数，再逐一确认数量。按one、two、three、four、five顺序练习，不漏数、不重复。字母成对记忆：U和u、V和v、W和w。"
+    },
+    {
+      "common_mistakes": [
+        "把six、seven、eight、nine、ten的顺序或含义记混。",
+        "没有听清books、pencils、pens，回答成另一种物品的数量。",
+        "用I’m表达拥有物品；表达拥有应使用I have。",
+        "误以为只说数词就一定不完整；问答对象明确时可以简短回答。",
+        "把大小写配对误认为寻找外形完全相同的两个字母。"
+      ],
+      "core_concept": "本课学习six、seven、eight、nine、ten，结合one至five练习1—10点数。用How many books/pencils/pens do you have?询问对方拥有多少本书、多少支铅笔或钢笔；可用I have six books.等句子回答，对象明确时也可简答Eight.等。对数量有疑问时，用Let’s count.提议一起点数核实。Find and match活动复习原图中B/b、D/d、Q/q、U/u、V/v、W/w、Y/y的大小写配对。",
+      "key_formula": "How many + 物品名词复数 + do you have? — I have + 数词 + 物品名词复数.",
+      "point": "How many books do you have?",
+      "tips": "先确定所数的物品，再从one开始逐个点数，数到的最后一个数表示总数。回答时保持物品名称一致。两个及以上的书、铅笔、钢笔分别用books、pencils、pens。字母活动要找同一字母的大写与小写，而不是只比外形。"
+    },
+    {
+      "common_mistakes": [
+        "混淆How old are you?和How many ...?：前者询问年龄，后者询问数量。",
+        "用I have nine.表达九岁；年龄应表达为I’m nine.。",
+        "把Guess!当成确定年龄的回答；它表示请对方猜一猜。",
+        "混淆赠送礼物时的This is for you.、收到礼物时的Thank you!和生日祝福Happy birthday!。",
+        "漏掉too的“也”这一含义，或混淆Xx、Yy、Zz的大小写配对。"
+      ],
+      "core_concept": "在生日情境中，用How old are you?询问年龄，用I’m nine.等表达年龄。Guess!邀请对方猜测；可以用Nine?等进行猜测，再用Yes, I’m nine.确认。I’m nine, too.表示“我也九岁”，用于表达年龄相同。送礼物时可说This is for you.，收到礼物后用Thank you!致谢，用Happy birthday!祝贺生日。本课认读Xx、Yy、Zz及其大小写对应形式。",
+      "key_formula": "How old are you? — I’m + 年龄数词.",
+      "point": "How old are you?",
+      "tips": "先判断是在问年龄、请人猜测还是赠送礼物，再使用对应表达。I’m是I am的缩写，表达年龄不用I have。遇到too时注意“也”的意思。将X和x、Y和y、Z和z配对认读。"
+    },
+    {
+      "common_mistakes": [
+        "混淆How many colours?、How many brothers do you have?和How old are you?所询问的信息。",
+        "用年龄回答姓名问题，或用姓名回答年龄问题。",
+        "误以为回答数量时一定要重复物品名称；对象明确时，Seven.或I have one.也可以表达清楚。",
+        "倒数时仍按正序说数词，或漏掉中间的数。"
+      ],
+      "core_concept": "本课综合复习数量、姓名和年龄的问答。How many colours?询问颜色数量；How many brothers do you have?询问兄弟数量，可根据实际数量回答I have one.等；What’s your name?询问姓名，可用My name’s ...回答；How old are you?询问年龄，可用I’m ...回答。复习one、two、three、four、five、six、seven、eight、nine、ten，并通过Ten little pandas演唱活动练习正序和倒序数数。歌曲是活动材料，不作为主对话原文收录。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "先听清问题问的是颜色、兄弟、姓名还是年龄，再选择对应信息回答。练习姓名问答时使用虚构角色，不填写真实个人信息。正数从one到ten，倒数从ten到one，逐个对应，不跳数。"
+    }
+  ]
+}

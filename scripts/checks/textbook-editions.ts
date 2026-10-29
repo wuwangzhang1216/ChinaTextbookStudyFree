@@ -15,7 +15,7 @@ assert.equal(legacy.supersededBy, current.id);
 assert.equal(current.unitsCount, 6);
 assert.equal(current.activitiesCount, 2);
 assert.equal(current.editionLabel, "2026秋版");
-assert.equal(books.filter(b => b.grade === 2 && b.semester === "up" && b.subject === "math" && !b.supersededBy).length, 1);
+assert.equal(books.filter(b => b.grade === 2 && b.semester === "up" && b.subject === "math" && !b.supersededBy && b.schoolSystem !== "5-4").length, 1);
 const outline: Outline & { lessons: PathLessonMeta[] } = read(`${root}/books/${current.id}/outline.json`);
 const oldOutline: Outline & { lessons: PathLessonMeta[] } = read(`${root}/books/${legacy.id}/outline.json`);
 // Official current preview, page 5. Practice themes retain their own labels

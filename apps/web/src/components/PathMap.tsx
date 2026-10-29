@@ -165,7 +165,8 @@ export function PathMap({
         const visible = entries
           .filter(e => e.isIntersecting)
           .map(e => Number((e.target as HTMLElement).dataset.unit ?? "0"))
-          .sort((a, b) => a - b);
+          // Printed unit numbers can follow preparation/activity IDs such as101.
+          .sort((a, b) => unitEntries.findIndex(([n]) => n === a) - unitEntries.findIndex(([n]) => n === b));
         if (visible.length > 0) {
           setActiveUnitNum(visible[0]);
         }
@@ -347,9 +348,12 @@ export function PathMap({
           onClose={() => setActiveExam(null)}
           bookId={bookId}
           lessonId={activeExam.meta.lessonId}
-          title={`第 ${activeExam.unitNumber} 单元挑战`}
+          title={byUnit.get(activeExam.unitNumber)?.label
+            ? `${byUnit.get(activeExam.unitNumber)!.title}挑战`
+            : `第 ${activeExam.unitNumber} 单元挑战`}
           questionCount={activeExam.meta.questionCount}
           unitNumber={activeExam.unitNumber}
+          unitLabel={byUnit.get(activeExam.unitNumber)?.label}
           kpIndex={0}
           kpTotal={0}
           isExam

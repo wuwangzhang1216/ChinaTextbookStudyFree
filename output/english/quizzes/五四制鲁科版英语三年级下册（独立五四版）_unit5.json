@@ -1,0 +1,530 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级下册",
+  "unit": "Unit 5 School",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 School·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "Yes, it is.",
+        "difficulty": 1,
+        "explanation": "题目明确要求肯定回答，应选Yes, it is.；其他选项是否定、介绍或描述大小。",
+        "knowledge_point": "Is this your classroom?",
+        "options": [
+          "Yes, it is.",
+          "No. It’s the lab.",
+          "That’s the playground.",
+          "It’s big!"
+        ],
+        "question": "有人问“Is this the teachers’ office?”，眼前确实是教师办公室。要作肯定回答，应说什么？",
+        "type": "choice",
+        "id": 50001,
+        "score": 10
+      },
+      {
+        "answer": "classroom",
+        "difficulty": 1,
+        "explanation": "classroom表示教室；lab、playground、teachers’ office分别表示实验室、操场、教师办公室。",
+        "knowledge_point": "Is this your classroom?",
+        "options": [
+          "lab",
+          "classroom",
+          "playground",
+          "teachers’ office"
+        ],
+        "question": "要询问“这是你的教室吗？”，请选择合适的词：Is this your ___?",
+        "type": "choice",
+        "id": 50002,
+        "score": 10
+      },
+      {
+        "answer": "This is my friend, Ben.",
+        "difficulty": 1,
+        "explanation": "This is my friend, Ben.用于介绍朋友Ben；其余选项分别询问教室、欢迎来访者和介绍操场。",
+        "knowledge_point": "Is this your classroom?",
+        "options": [
+          "This is my friend, Ben.",
+          "Is this your classroom?",
+          "Welcome to our school!",
+          "That’s the playground."
+        ],
+        "question": "你想向同伴介绍一位名叫Ben的朋友，应选哪一句？",
+        "type": "choice",
+        "id": 50003,
+        "score": 10
+      },
+      {
+        "answer": "Welcome to our school!",
+        "difficulty": 1,
+        "explanation": "Welcome to our school!表示欢迎来到我们学校；其他选项不表达欢迎。",
+        "knowledge_point": "Is this your classroom?",
+        "options": [
+          "This is the lab.",
+          "Welcome to our school!",
+          "Is this your classroom?",
+          "It’s big!"
+        ],
+        "question": "新朋友来学校参观，你想说“欢迎来到我们学校！”，应选哪一句？",
+        "type": "choice",
+        "id": 50004,
+        "score": 10
+      },
+      {
+        "answer": "操场",
+        "difficulty": 1,
+        "explanation": "playground表示操场，不是教室、实验室或教师办公室。",
+        "knowledge_point": "Is this your classroom?",
+        "options": [
+          "操场",
+          "教师办公室",
+          "实验室",
+          "教室"
+        ],
+        "question": "在校园介绍中，playground的中文意思是什么？",
+        "type": "choice",
+        "id": 50005,
+        "score": 10
+      },
+      {
+        "answer": "h",
+        "difficulty": 1,
+        "explanation": "H对应的小写字母是h；j、k、e分别对应J、K、E。",
+        "knowledge_point": "Is this your classroom?",
+        "options": [
+          "j",
+          "h",
+          "k",
+          "e"
+        ],
+        "question": "大写字母H对应的小写字母是哪一个？",
+        "type": "choice",
+        "id": 50006,
+        "score": 10
+      },
+      {
+        "answer": "third",
+        "difficulty": 1,
+        "explanation": "third表示第三；first、second分别表示第一、第二，music不是楼层序数词。",
+        "knowledge_point": "It’s on the first floor.",
+        "options": [
+          "first",
+          "second",
+          "third",
+          "music"
+        ],
+        "question": "某校教室在三楼。请选择合适的词：The classroom is on the ___ floor.",
+        "type": "choice",
+        "id": 50007,
+        "score": 10
+      },
+      {
+        "answer": "art room",
+        "difficulty": 1,
+        "explanation": "art room表示美术室；其余选项分别是音乐室、教室和操场。",
+        "knowledge_point": "It’s on the first floor.",
+        "options": [
+          "art room",
+          "music room",
+          "classroom",
+          "playground"
+        ],
+        "question": "“美术室”的英语表达是哪一个？",
+        "type": "choice",
+        "id": 50008,
+        "score": 10
+      },
+      {
+        "answer": "It’s on the second floor.",
+        "difficulty": 1,
+        "explanation": "二楼用the second floor表示。其余选项分别表示一楼、三楼或操场，不符合已给位置。",
+        "knowledge_point": "It’s on the first floor.",
+        "options": [
+          "It’s on the first floor.",
+          "It’s on the second floor.",
+          "It’s on the third floor.",
+          "It’s on the playground."
+        ],
+        "question": "一所学校的美术室在二楼。有人问“Where’s the art room?”，应选择哪一句回答？",
+        "type": "choice",
+        "id": 50009,
+        "score": 10
+      },
+      {
+        "answer": "Where’s your classroom?",
+        "difficulty": 2,
+        "explanation": "Where’s your classroom?询问你的教室在哪里；Is this ...?用于辨认场所，另一条Where’s问的是美术室。",
+        "knowledge_point": "It’s on the first floor.",
+        "options": [
+          "Where’s your classroom?",
+          "Is this the music room?",
+          "Is this your classroom?",
+          "Where’s the art room?"
+        ],
+        "question": "要询问“你的教室在哪里？”，应选择哪一句？",
+        "type": "choice",
+        "id": 50010,
+        "score": 10
+      },
+      {
+        "answer": "音乐室",
+        "difficulty": 1,
+        "explanation": "music room表示音乐室；教室、美术室、教师办公室分别有不同的英语名称。",
+        "knowledge_point": "It’s on the first floor.",
+        "options": [
+          "教室",
+          "美术室",
+          "音乐室",
+          "教师办公室"
+        ],
+        "question": "句子“We have a music room.”中的music room是什么意思？",
+        "type": "choice",
+        "id": 50011,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "first floor表示一楼，不是三楼；三楼应说third floor。",
+        "knowledge_point": "It’s on the first floor.",
+        "options": [],
+        "question": "判断正误：在本教材的楼层表达中，It’s on the first floor.表示“它在三楼”。",
+        "type": "true_false",
+        "id": 50012,
+        "score": 10
+      },
+      {
+        "answer": "We sing here.",
+        "difficulty": 1,
+        "explanation": "sing表示唱歌；read、draw、play分别表示阅读、画画、玩耍。",
+        "knowledge_point": "We read in the library.",
+        "options": [
+          "We sing here.",
+          "We read here.",
+          "We draw here.",
+          "We play here."
+        ],
+        "question": "想表达“我们在这里唱歌”，应选哪一句？",
+        "type": "choice",
+        "id": 50013,
+        "score": 10
+      },
+      {
+        "answer": "library",
+        "difficulty": 1,
+        "explanation": "library表示图书馆；music room、art room、playground分别是音乐室、美术室、操场。",
+        "knowledge_point": "We read in the library.",
+        "options": [
+          "library",
+          "music room",
+          "art room",
+          "playground"
+        ],
+        "question": "“图书馆”的英语单词是哪一个？",
+        "type": "choice",
+        "id": 50014,
+        "score": 10
+      },
+      {
+        "answer": "We read in the library.",
+        "difficulty": 1,
+        "explanation": "题目指定的活动是阅读，对应read；其他三项把活动改成了唱歌、画画或玩耍。",
+        "knowledge_point": "We read in the library.",
+        "options": [
+          "We read in the library.",
+          "We sing in the library.",
+          "We draw in the library.",
+          "We play in the library."
+        ],
+        "question": "要准确表达“我们在图书馆阅读”，应选哪一句？",
+        "type": "choice",
+        "id": 50015,
+        "score": 10
+      },
+      {
+        "answer": "How beautiful!",
+        "difficulty": 1,
+        "explanation": "How beautiful!表示多么漂亮啊；其他选项分别询问位置、辨认场所或介绍活动，不表达这句赞美。",
+        "knowledge_point": "We read in the library.",
+        "options": [
+          "How beautiful!",
+          "Where’s the library?",
+          "Is this your library?",
+          "We draw here."
+        ],
+        "question": "看到一幅漂亮的画，你想用英语说“多么漂亮啊！”，应选哪一句？",
+        "type": "choice",
+        "id": 50016,
+        "score": 10
+      },
+      {
+        "answer": "美术室",
+        "difficulty": 1,
+        "explanation": "art room表示美术室；其余三个选项都不是art room的意思。",
+        "knowledge_point": "We read in the library.",
+        "options": [
+          "美术室",
+          "图书馆",
+          "音乐室",
+          "操场"
+        ],
+        "question": "句子“We draw in the art room.”中的art room指什么场所？",
+        "type": "choice",
+        "id": 50017,
+        "score": 10
+      },
+      {
+        "answer": "q",
+        "difficulty": 1,
+        "explanation": "Q对应的小写字母是q；w、r、y分别对应W、R、Y。",
+        "knowledge_point": "We read in the library.",
+        "options": [
+          "w",
+          "r",
+          "q",
+          "y"
+        ],
+        "question": "大写字母Q对应的小写字母是哪一个？",
+        "type": "choice",
+        "id": 50018,
+        "score": 10
+      },
+      {
+        "answer": "This is my school.",
+        "difficulty": 1,
+        "explanation": "my school表示我的学校；其他选项分别介绍图书馆、音乐室和操场。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is my school.",
+          "This is the library.",
+          "This is the music room.",
+          "This is our playground."
+        ],
+        "question": "要介绍“这是我的学校”，应选择哪一句？",
+        "type": "choice",
+        "id": 50019,
+        "score": 10
+      },
+      {
+        "answer": "our",
+        "difficulty": 1,
+        "explanation": "our表示我们的；my表示我的，your表示你的或你们的，the不表示所属关系。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "our",
+          "my",
+          "your",
+          "the"
+        ],
+        "question": "选择合适的词，准确表达“这是我们的操场”：This is ___ playground.",
+        "type": "choice",
+        "id": 50020,
+        "score": 10
+      },
+      {
+        "answer": "操场",
+        "difficulty": 2,
+        "explanation": "前一句介绍的是操场，因此后一句的here指这里的操场，不是其他功能室。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "音乐室",
+          "图书馆",
+          "美术室",
+          "操场"
+        ],
+        "question": "一名学生站在操场上说：“This is our playground. We play here.” 这里的here指哪里？",
+        "type": "choice",
+        "id": 50021,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "要求的位置是二楼，但图片贴在了一楼，两者不一致。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "贴图活动的要求是“The library is on the second floor.”。小朋友把图书馆图片贴在一楼。判断正误：这次贴图符合要求。",
+        "type": "true_false",
+        "id": 50022,
+        "score": 10
+      },
+      {
+        "answer": "How nice!",
+        "difficulty": 1,
+        "explanation": "How nice!表示真好啊；其余三项分别是询问位置、辨认场所和否定回应，不是题目要求的赞美。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "How nice!",
+          "Where’s the library?",
+          "Is this the lab?",
+          "Oh, no!"
+        ],
+        "question": "听完同伴的学校介绍，你想用英语说“真好啊！”，应选哪一句？",
+        "type": "choice",
+        "id": 50023,
+        "score": 10
+      },
+      {
+        "answer": "This is the music room. It’s on the second floor.",
+        "difficulty": 2,
+        "explanation": "题目要求同时介绍音乐室和二楼位置。其余选项分别改变了楼层或场所，不能完整表达指定意思。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is the music room. It’s on the first floor.",
+          "This is the library. It’s on the second floor.",
+          "This is the music room. It’s on the second floor.",
+          "This is the art room. It’s on the third floor."
+        ],
+        "question": "某校音乐室在二楼。要介绍“这是音乐室。它在二楼”，应选择哪一组句子？",
+        "type": "choice",
+        "id": 50024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 5 School·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "实验室",
+        "difficulty": 1,
+        "explanation": "lab表示实验室；教室是classroom，操场是playground，图书馆是library。",
+        "knowledge_point": "Is this your classroom?",
+        "options": [
+          "实验室",
+          "教室",
+          "操场",
+          "图书馆"
+        ],
+        "question": "校园介绍牌上的英语单词lab表示什么场所？",
+        "type": "choice",
+        "id": 59001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "V对应的小写字母是v；w对应的大写字母是W。",
+        "knowledge_point": "Is this your classroom?",
+        "options": [],
+        "question": "判断正误：大写字母V与小写字母w是一对大小写字母。",
+        "type": "true_false",
+        "id": 59002,
+        "score": 10
+      },
+      {
+        "answer": "on",
+        "difficulty": 2,
+        "explanation": "表达在某一楼层用on the ... floor；in、at、under均不能替代这里的on。",
+        "knowledge_point": "It’s on the first floor.",
+        "options": [
+          "on",
+          "at",
+          "under",
+          "in"
+        ],
+        "question": "选择合适的词，表达“教室在二楼”：The classroom is ___ the second floor.",
+        "type": "choice",
+        "id": 59003,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "这句话明确说音乐室在三楼，third表示第三。",
+        "knowledge_point": "It’s on the first floor.",
+        "options": [],
+        "question": "某校的介绍是“The music room is on the third floor.”。判断正误：这所学校的音乐室在三楼。",
+        "type": "true_false",
+        "id": 59004,
+        "score": 10
+      },
+      {
+        "answer": "read",
+        "difficulty": 2,
+        "explanation": "题目要求表达“阅读”，应选read；sing、draw、play分别表示唱歌、画画、玩耍。",
+        "knowledge_point": "We read in the library.",
+        "options": [
+          "sing",
+          "draw",
+          "read",
+          "play"
+        ],
+        "question": "选择合适的词，表达“我们在这里阅读”：We ___ here.",
+        "type": "choice",
+        "id": 59005,
+        "score": 10
+      },
+      {
+        "answer": "二楼",
+        "difficulty": 2,
+        "explanation": "回答中的second floor表示二楼；一楼和三楼分别是first floor和third floor，“操场”不是楼层。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "一楼",
+          "二楼",
+          "三楼",
+          "操场"
+        ],
+        "question": "校园参观时，两人交谈：“Where’s the library?” “It’s on the second floor.” 这里的图书馆在哪一层？",
+        "type": "choice",
+        "id": 59006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "Is this ...?用于询问眼前的单个事物，肯定回答用Yes, it is.，不要回答Yes, this is.",
+        "介绍自己的朋友可以说This is my friend, ...，其中my表示我的；介绍其他人的朋友时应按实际情况选择所属词，不能认为friend前永远必须用my。",
+        "classroom是教室，teachers’ office是教师办公室，lab是实验室，playground是操场，不能混淆。",
+        "注意字母大小写配对，例如Hh、Jj、Kk、Vv，不能把字形相近的字母配错。"
+      ],
+      "core_concept": "认识classroom（教室）、teachers’ office（教师办公室）、lab（实验室）、playground（操场）。用Is this ...?辨认眼前的场所，用Yes, it is.作肯定回答，或用No. It’s ...否定并说明实际场所。学习介绍朋友This is my friend, ...、欢迎来访者Welcome to our school!，用This is ...或That’s ...介绍场所，用It’s big!描述大小。按本页分组认读和书写Aa、Hh、Jj、Kk以及Ee、Bb、Cc、Dd、Gg、Pp、Tt、Vv。",
+      "key_formula": "Is this ...? — Yes, it is. / No. It’s ...",
+      "point": "Is this your classroom?",
+      "tips": "先听清提问中的场所，再根据实际情况回答。this通常指较近的事物，that通常指较远的事物。字母练习要核对大小写配对，并参照教材四线格书写，不额外套用拼读规则。"
+    },
+    {
+      "common_mistakes": [
+        "本课询问单个场所的位置用Where’s ...?，不能漏写’s。",
+        "楼层表达用on the first/second/third floor，不能在这个句型中把序数词换成one、two、three。",
+        "art room表示美术室，music room表示音乐室，不要混淆。",
+        "某个场所的楼层应依据当前给出的信息判断，不能把课本示例的楼层当作所有学校的固定安排。"
+      ],
+      "core_concept": "用Where’s ...?询问教室或功能室的位置，用It’s on the ... floor.回答。按本教材的楼层表示方式，first floor、second floor、third floor分别是一楼、二楼、三楼。认识art room（美术室）、music room（音乐室），理解And we have a music room.表示我们还有一间音乐室。结合校园楼层图进行问答，通过本页歌曲巩固场所与楼层表达。",
+      "key_formula": "Where’s ...? — It’s on the first/second/third floor.",
+      "point": "It’s on the first floor.",
+      "tips": "回答前先确定所问场所，再找对应楼层；first、second、third依次对应第一、第二、第三。"
+    },
+    {
+      "common_mistakes": [
+        "read表示阅读，draw表示画画，sing表示唱歌，play表示玩耍，不能混淆。",
+        "library是图书馆，不是美术室或音乐室。",
+        "here本身表示这里，本课句子说We sing here.，不要说We sing in here.来机械替换本课句型。",
+        "here的具体指代要结合场景判断，不是永远指音乐室。",
+        "大小写配对要准确，尤其注意Ii、Ll、Qq等字母的字形。"
+      ],
+      "core_concept": "学习library（图书馆），以及sing（唱歌）、draw（画画）、read（阅读）、play（玩耍）。能说We sing in the music room.、We draw in the art room.、We read in the library.，也能用We sing here.或We play here.介绍这里的活动。理解Is this your library?及其肯定回答，并用How beautiful!表达赞美。字母按教材分组认读和书写：Ii、Yy；Oo；Uu、Qq、Ww；Rr；Ff、Ll、Mm、Nn、Ss、Xx、Zz。",
+      "key_formula": "We + 活动词 + in the + 场所名称. / We + 活动词 + here.",
+      "point": "We read in the library.",
+      "tips": "可以把本课介绍的活动与场所配对记忆：唱歌—音乐室，画画—美术室，阅读—图书馆。这是本课的介绍方式，并不表示其他场所绝对不能开展这些活动。字母书写按教材四线格范例练习。"
+    },
+    {
+      "common_mistakes": [
+        "介绍眼前的单个场所用This is ...，不能说These is ...。",
+        "楼层表达中的on和the不要遗漏，例如It’s on the second floor.",
+        "here表示这里，具体指哪里要结合说话者的位置或前一句介绍判断。",
+        "贴图活动中应根据楼层描述摆放图片，不能只凭场所名称判断楼层。"
+      ],
+      "core_concept": "综合运用校园场所、楼层和活动表达。能用This is my school.介绍学校，用This is the music room.介绍功能室，用It’s on the first floor.说明楼层，用This is our playground. We play here.介绍操场及活动。能用It’s beautiful!或How nice!赞美学校；在贴图交流中询问位置、确认并纠正楼层。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "可以按“介绍学校—介绍场所—说明楼层或活动”的顺序交流。听位置描述时，先辨认场所，再核对first、second、third对应的楼层；发现位置不对时，可以先说Oh, no!再说明正确位置。"
+    }
+  ]
+}

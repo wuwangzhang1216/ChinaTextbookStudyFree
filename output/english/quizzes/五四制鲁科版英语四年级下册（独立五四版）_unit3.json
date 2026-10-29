@@ -1,0 +1,626 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）四年级下册",
+  "unit": "Unit 3 Restaurant",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Unit 3 Restaurant·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "What do you want to eat?",
+        "difficulty": 1,
+        "explanation": "目标是询问想吃什么，因此选含want to eat的问句。其余选项分别表示询问姓名、表达饥饿和致谢。",
+        "knowledge_point": "Lesson 1 I want to eat noodles.",
+        "options": [
+          "What’s your name?",
+          "I’m hungry.",
+          "What do you want to eat?",
+          "Thank you."
+        ],
+        "question": "你想问同伴“你想吃什么？”，应该说哪一句？",
+        "type": "choice",
+        "id": 30001,
+        "score": 10
+      },
+      {
+        "answer": "I want to eat rice.",
+        "difficulty": 1,
+        "explanation": "want to eat表示“想吃”，rice表示米饭。其余选项分别表示想吃鱼肉、喜欢米饭和拥有米饭，不等于题目要求。",
+        "knowledge_point": "Lesson 1 I want to eat noodles.",
+        "options": [
+          "I want to eat fish.",
+          "I like rice.",
+          "I have some rice.",
+          "I want to eat rice."
+        ],
+        "question": "你想准确表达“我想吃米饭”，应选哪一句？",
+        "type": "choice",
+        "id": 30002,
+        "score": 10
+      },
+      {
+        "answer": "饿的",
+        "difficulty": 1,
+        "explanation": "hungry表示“饿的”，不表示口渴、高兴或寒冷。",
+        "knowledge_point": "Lesson 1 I want to eat noodles.",
+        "options": [
+          "渴的",
+          "饿的",
+          "高兴的",
+          "冷的"
+        ],
+        "question": "句子“I’m hungry.”中的hungry是什么意思？",
+        "type": "choice",
+        "id": 30003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "want后接动词时，本课句型使用want to eat；原句漏了to。",
+        "knowledge_point": "Lesson 1 I want to eat noodles.",
+        "options": [],
+        "question": "判断：表达“我想吃蔬菜”时，“I want eat vegetables.”是正确的英语句子。",
+        "type": "true_false",
+        "id": 30004,
+        "score": 10
+      },
+      {
+        "answer": "提议外出就餐。",
+        "difficulty": 2,
+        "explanation": "Shall we…?在这里提出建议，eat out表示外出就餐。其余选项分别误解为回家、询问食物和结束午饭。",
+        "knowledge_point": "Lesson 1 I want to eat noodles.",
+        "options": [
+          "要求马上回家。",
+          "询问想吃哪种蔬菜。",
+          "提议外出就餐。",
+          "宣布午饭已经结束。"
+        ],
+        "question": "一家人正在商量午饭，有人说“Shall we eat out?”这句话表达什么？",
+        "type": "choice",
+        "id": 30005,
+        "score": 10
+      },
+      {
+        "answer": "What do you want to eat, Amy?",
+        "difficulty": 2,
+        "explanation": "正确语序是What do you want to eat，称呼Amy前用逗号。其余三项分别漏掉do、错用does、漏掉to。",
+        "knowledge_point": "Lesson 1 I want to eat noodles.",
+        "options": [
+          "What you want to eat, Amy?",
+          "What do you want to eat, Amy?",
+          "What does you want to eat, Amy?",
+          "What do you want eat, Amy?"
+        ],
+        "question": "你要用本课句型询问Amy想吃什么。哪一句语序和用词都正确？",
+        "type": "choice",
+        "id": 30006,
+        "score": 10
+      },
+      {
+        "answer": "I’d like some chicken.",
+        "difficulty": 1,
+        "explanation": "I’d like some chicken.准确表示想要一些鸡肉。其余选项分别选择鱼肉、递送鸡肉或反问对方。",
+        "knowledge_point": "Lesson 2 What would you like?",
+        "options": [
+          "I’d like some fish.",
+          "Have some chicken, please.",
+          "I’d like some chicken.",
+          "What would you like?"
+        ],
+        "question": "服务员询问你的选择。你想用I’d like表达“我想要一些鸡肉”，应选哪一句？",
+        "type": "choice",
+        "id": 30007,
+        "score": 10
+      },
+      {
+        "answer": "请稍等。",
+        "difficulty": 1,
+        "explanation": "Wait a minute, please.是请对方稍等，不是催促吃饭、欢迎入座或表示感谢。",
+        "knowledge_point": "Lesson 2 What would you like?",
+        "options": [
+          "请坐下。",
+          "请稍等。",
+          "谢谢你。",
+          "请快吃。"
+        ],
+        "question": "服务员说“Wait a minute, please.”，意思是什么？",
+        "type": "choice",
+        "id": 30008,
+        "score": 10
+      },
+      {
+        "answer": "tomato soup",
+        "difficulty": 1,
+        "explanation": "tomato soup表示番茄汤；potatoes是土豆，rice是米饭，chicken是鸡肉。",
+        "knowledge_point": "Lesson 2 What would you like?",
+        "options": [
+          "potatoes",
+          "rice",
+          "tomato soup",
+          "chicken"
+        ],
+        "question": "菜单上哪个英语名称表示“番茄汤”？",
+        "type": "choice",
+        "id": 30009,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "I’d是I would的缩写，因此两种写法在这个句子中表达相同意思。",
+        "knowledge_point": "Lesson 2 What would you like?",
+        "options": [],
+        "question": "判断：“I’d like some rice.”中的I’d可以写成I would。",
+        "type": "true_false",
+        "id": 30010,
+        "score": 10
+      },
+      {
+        "answer": "Would you like some soup?",
+        "difficulty": 2,
+        "explanation": "这句礼貌询问是否要一些汤。其余选项分别表达自己的选择、请人喝汤以及询问想吃什么，都不准确对应题意。",
+        "knowledge_point": "Lesson 2 What would you like?",
+        "options": [
+          "I’d like some soup.",
+          "Have some soup, please.",
+          "Would you like some soup?",
+          "What do you want to eat?"
+        ],
+        "question": "你想礼貌地问客人“您想要一些汤吗？”，应选哪一句？",
+        "type": "choice",
+        "id": 30011,
+        "score": 10
+      },
+      {
+        "answer": "米饭和土豆",
+        "difficulty": 2,
+        "explanation": "rice是米饭，potatoes是土豆；句子没有提到面条、鱼肉或汤。",
+        "knowledge_point": "Lesson 2 What would you like?",
+        "options": [
+          "米饭和汤",
+          "米饭和土豆",
+          "面条和土豆",
+          "米饭和鱼肉"
+        ],
+        "question": "客人说：“I’d like rice and potatoes.”他点了什么？",
+        "type": "choice",
+        "id": 30012,
+        "score": 10
+      },
+      {
+        "answer": "Would you like something to drink?",
+        "difficulty": 1,
+        "explanation": "to drink表示喝，整句询问是否需要饮品。其余选项分别询问食物、招待水果和表达想要梨汁。",
+        "knowledge_point": "Lesson 3 Would you like something to drink?",
+        "options": [
+          "What do you want to eat?",
+          "Would you like something to drink?",
+          "Have some fruit, please.",
+          "I’d like some pear juice."
+        ],
+        "question": "你想询问朋友是否想喝点什么，应选哪一句问话？",
+        "type": "choice",
+        "id": 30013,
+        "score": 10
+      },
+      {
+        "answer": "Have some fruit, please.",
+        "difficulty": 1,
+        "explanation": "这句表示请吃些水果；其余选项分别是自己的选择、询问饮品和致谢，不是所要求的招待用语。",
+        "knowledge_point": "Lesson 3 Would you like something to drink?",
+        "options": [
+          "I’d like some fruit.",
+          "Would you like something to drink?",
+          "Thank you.",
+          "Have some fruit, please."
+        ],
+        "question": "你把一盘水果递给客人，想说“请吃些水果”，应选哪一句？",
+        "type": "choice",
+        "id": 30014,
+        "score": 10
+      },
+      {
+        "answer": "Thank you.",
+        "difficulty": 1,
+        "explanation": "题目明确要求接受并致谢，只有Thank you.表示感谢。其余选项分别表示稍等、饥饿和询问选择。",
+        "knowledge_point": "Lesson 3 Would you like something to drink?",
+        "options": [
+          "Thank you.",
+          "Wait a minute, please.",
+          "I’m hungry.",
+          "What would you like?"
+        ],
+        "question": "朋友递给你一根香蕉。你接受后想说“谢谢”，应选哪一句？",
+        "type": "choice",
+        "id": 30015,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "pear juice表示梨汁，不表示一个梨；一个梨可以说a pear。",
+        "knowledge_point": "Lesson 3 Would you like something to drink?",
+        "options": [],
+        "question": "判断：pear juice表示“一个梨”。",
+        "type": "true_false",
+        "id": 30016,
+        "score": 10
+      },
+      {
+        "answer": "two small cakes",
+        "difficulty": 2,
+        "explanation": "two后用复数cakes，small表示小的。其余选项分别单复数错误、数量不符或大小不符。",
+        "knowledge_point": "Lesson 3 Would you like something to drink?",
+        "options": [
+          "two small cake",
+          "a small cake",
+          "two small cakes",
+          "two big cakes"
+        ],
+        "question": "你要表达“两块小蛋糕”，哪个短语准确且形式正确？",
+        "type": "choice",
+        "id": 30017,
+        "score": 10
+      },
+      {
+        "answer": "I’d like some noodles.",
+        "difficulty": 2,
+        "explanation": "正确句子中I大写，I’d有撇号，句末有句号。其余选项分别存在I小写、漏撇号或漏句末标点的问题。",
+        "knowledge_point": "Lesson 3 Would you like something to drink?",
+        "options": [
+          "i’d like some noodles.",
+          "Id like some noodles.",
+          "I’d like some noodles",
+          "I’d like some noodles."
+        ],
+        "question": "按句首大写、缩写撇号和句末句号的要求检查，哪一句书写完全正确？",
+        "type": "choice",
+        "id": 30018,
+        "score": 10
+      },
+      {
+        "answer": "face",
+        "difficulty": 1,
+        "explanation": "face中的c发/s/；cap、call、come中的c都发/k/。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "come",
+          "cap",
+          "call",
+          "face"
+        ],
+        "question": "下面哪个单词中的字母c发/s/？",
+        "type": "choice",
+        "id": 30019,
+        "score": 10
+      },
+      {
+        "answer": "cold",
+        "difficulty": 1,
+        "explanation": "cold中的c发/k/；nice、rice、dance中的c都发/s/。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "rice",
+          "nice",
+          "dance",
+          "cold"
+        ],
+        "question": "下面哪个单词中的字母c发/k/？",
+        "type": "choice",
+        "id": 30020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "hot和body都是本页o的例词，按本课读音，它们的o发音相同。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "判断：按本课例词的读音，hot和body中的字母o发音相同。",
+        "type": "true_false",
+        "id": 30021,
+        "score": 10
+      },
+      {
+        "answer": "香蕉",
+        "difficulty": 1,
+        "explanation": "a banana表示一根香蕉；饺子、橙子和蛋糕都不是这句回答中的食物。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "饺子",
+          "橙子",
+          "蛋糕",
+          "香蕉"
+        ],
+        "question": "梦境对话中，有人问“What do you want to eat, Danny?”Danny回答“I want to eat a banana.”他想吃什么？",
+        "type": "choice",
+        "id": 30022,
+        "score": 10
+      },
+      {
+        "answer": "What would you like for Monday?",
+        "difficulty": 2,
+        "explanation": "for Monday指向星期一，符合询问周一菜单的要求；其余选项分别询问饮品、星期二菜单或提出稍等要求。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "Would you like something to drink?",
+          "What would you like for Monday?",
+          "What would you like for Tuesday?",
+          "Wait a minute, please."
+        ],
+        "question": "你正在和同伴制定下周菜单，想明确询问星期一想要什么，应选哪一句？",
+        "type": "choice",
+        "id": 30023,
+        "score": 10
+      },
+      {
+        "answer": "Yes. I’d like some orange juice.",
+        "difficulty": 2,
+        "explanation": "题目明确要橙汁，只有orange juice符合。其余选项分别选择梨汁、香蕉和饺子。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "Yes. I’d like some pear juice.",
+          "I want to eat a banana.",
+          "Yes. I’d like some orange juice.",
+          "I’d like jiaozi."
+        ],
+        "question": "同伴问“Would you like something to drink?”你想明确回答要一些橙汁，应选哪一句？",
+        "type": "choice",
+        "id": 30024,
+        "score": 10
+      },
+      {
+        "answer": "我饿极了。",
+        "difficulty": 1,
+        "explanation": "在点餐和饥饿情境中，这个习语表示“我饿极了”，不是骑马、养马或已经吃饱。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "我想骑马。",
+          "我想养马。",
+          "我已经吃饱了。",
+          "我饿极了。"
+        ],
+        "question": "在餐厅里，Fred用“I could eat a horse.”形容自己非常饥饿。这句话应理解为什么？",
+        "type": "choice",
+        "id": 30025,
+        "score": 10
+      },
+      {
+        "answer": "beef",
+        "difficulty": 1,
+        "explanation": "beef是牛肉；horse是马，soup是汤，fruit是水果。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "fruit",
+          "soup",
+          "horse",
+          "beef"
+        ],
+        "question": "哪个单词表示“牛肉”？",
+        "type": "choice",
+        "id": 30026,
+        "score": 10
+      },
+      {
+        "answer": "牛肉",
+        "difficulty": 1,
+        "explanation": "some beef表示一些牛肉。鸡肉、鱼肉和土豆均未出现在给出的回答中。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "鸡肉",
+          "土豆",
+          "牛肉",
+          "鱼肉"
+        ],
+        "question": "服务员问“What do you want to eat?”客人回答“I want to eat some beef.”这位客人想吃什么？",
+        "type": "choice",
+        "id": 30027,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "自评既检查能否说出句子，也检查能否谈论饮食和点餐；只认单词不能代替交际运用。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断：检查自己是否会点餐时，只要认识食物单词就够了，不需要练习询问和回答。",
+        "type": "true_false",
+        "id": 30028,
+        "score": 10
+      },
+      {
+        "answer": "Fruit",
+        "difficulty": 2,
+        "explanation": "题目已约定水果单列，banana是香蕉，应归入Fruit。Drinks是饮品，Food在本题专指其他餐食，Monday是星期一。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Monday",
+          "Fruit",
+          "Drinks",
+          "Food"
+        ],
+        "question": "制作词汇鱼骨图，约定Fruit放水果，Drinks放饮品，Food放其他餐食。在这个约定下，banana应放在哪一栏？",
+        "type": "choice",
+        "id": 30029,
+        "score": 10
+      },
+      {
+        "answer": "Drinks",
+        "difficulty": 2,
+        "explanation": "pear juice是梨汁，属于饮品，因此放入Drinks。Fruit用于水果，Food在本题用于其他餐食，Monday不是食物类别。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Food",
+          "Monday",
+          "Fruit",
+          "Drinks"
+        ],
+        "question": "整理词汇时，约定Fruit放水果，Drinks放饮品，Food放其他餐食。pear juice应归入哪一栏？",
+        "type": "choice",
+        "id": 30030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 3 Restaurant·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "to",
+        "difficulty": 1,
+        "explanation": "表达“想吃”用want to eat；want后不能直接接eat。其余三个词都不能构成本题句型。",
+        "knowledge_point": "Lesson 1 I want to eat noodles.",
+        "options": [
+          "some",
+          "and",
+          "a",
+          "to"
+        ],
+        "question": "选择一个词补全“我想吃米饭”：I want ___ eat rice.",
+        "type": "choice",
+        "id": 39001,
+        "score": 10
+      },
+      {
+        "answer": "米饭、鸡肉和番茄汤",
+        "difficulty": 2,
+        "explanation": "rice是米饭，chicken在点餐中表示鸡肉，tomato soup是番茄汤。其余选项分别替换了食物或汤的名称。",
+        "knowledge_point": "Lesson 2 What would you like?",
+        "options": [
+          "面条、鸡肉和番茄汤",
+          "米饭、鱼肉和番茄汤",
+          "米饭、鸡肉和番茄汤",
+          "米饭、鸡肉和梨汁"
+        ],
+        "question": "一位客人点餐说：“I’d like rice, chicken and tomato soup.”他选择了哪一组餐食？",
+        "type": "choice",
+        "id": 39002,
+        "score": 10
+      },
+      {
+        "answer": "也想要梨汁。",
+        "difficulty": 2,
+        "explanation": "Me, too.表示“我也是”。紧接在想要梨汁的回答后，表示也想要梨汁，而不是改点水果或拒绝饮品。",
+        "knowledge_point": "Lesson 3 Would you like something to drink?",
+        "options": [
+          "想请别人稍等。",
+          "也想要梨汁。",
+          "不想喝任何饮品。",
+          "只想吃一个梨。"
+        ],
+        "question": "服务员询问饮品需要。甲说“Yes. I’d like some pear juice.”乙接着说“Me, too.”乙表达了什么？",
+        "type": "choice",
+        "id": 39003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "nice中的c发/s/，cold中的c发/k/，两者不同。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "判断：nice和cold中的字母c发音相同。",
+        "type": "true_false",
+        "id": 39004,
+        "score": 10
+      },
+      {
+        "answer": "把表示非常饥饿的话按字面理解了。",
+        "difficulty": 2,
+        "explanation": "I could eat a horse.在这里表示“我饿极了”。服务员却回答没有马，说明他按字面理解了习语。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "没有听清客人要鸡肉。",
+          "把表示非常饥饿的话按字面理解了。",
+          "认为客人已经吃饱了。",
+          "正在介绍餐厅里的饮品。"
+        ],
+        "question": "Fred说：“I’m very hungry now. I could eat a horse.”服务员回答：“Sorry. We have no horse here.”已知“I could eat a horse.”表示“我饿极了”，这段对话的幽默在哪里？",
+        "type": "choice",
+        "id": 39005,
+        "score": 10
+      },
+      {
+        "answer": "先确定类别，再把词语放到相应分支上。",
+        "difficulty": 2,
+        "explanation": "鱼骨图按词义分类整理词汇。先确定水果、饮品、食物等类别，再归类，才有助于复习；按长度排列、全部混放或只数数量都不符合此项分类目标。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "只按单词的长短排列。",
+          "把所有词都放进同一分支。",
+          "先确定类别，再把词语放到相应分支上。",
+          "只数单词数量，不关注词义。"
+        ],
+        "question": "你要用鱼骨图按“水果、饮品、食物”整理本单元词汇。哪种做法符合这项学习活动的目的？",
+        "type": "choice",
+        "id": 39006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "漏掉问句中的do，误说“What you want to eat?”；应说“What do you want to eat?”",
+        "漏掉want后面的to，误说“I want eat rice.”；应说“I want to eat rice.”",
+        "混淆hungry和食物名称：I’m hungry.说明感到饿，I want to eat…说明想吃什么。"
+      ],
+      "core_concept": "本课在午餐前的家庭情境中学习询问和表达饮食意愿。What do you want to eat?表示“你想吃什么？”，可用I want to eat…回答。认识noodles（面条）、jiaozi（饺子）、fish（鱼肉）、vegetables（蔬菜）等食物表达；理解hungry（饿的）、Chinese food（中国食物）和eat out（外出就餐）。Oh! It’s time for lunch.表示到了午饭时间；Shall we eat out?是在提议外出就餐。",
+      "key_formula": "What do you want to eat? — I want to eat + 食物.",
+      "point": "Lesson 1 I want to eat noodles.",
+      "tips": "先听清问题是在问想吃什么，再用完整句子回答。例如：I want to eat rice. 练习角色扮演时可以替换食物词。句首字母大写，问句末尾用问号，陈述句末尾用句号。"
+    },
+    {
+      "common_mistakes": [
+        "把What would you like?当成自己的点餐回答；它是问句，表达选择可用I’d like…。",
+        "把I’d like误写为I like would；I’d是I would的缩写。",
+        "混淆potatoes和tomato soup：前者是土豆，后者是番茄汤。",
+        "把Wait a minute, please.理解成请吃饭；它表示“请稍等”。"
+      ],
+      "core_concept": "本课围绕餐厅点餐，学习用What would you like?礼貌询问，用I’d like…表达选择。食物词包括rice、potatoes、noodles、jiaozi、chicken、fish和tomato soup。Would you like some soup?询问对方是否要一些汤；可结合需要回答，例如Yes. Tomato soup, please. 点餐后可复述所选餐食，用Wait a minute, please.请顾客稍等，并用Thank you.表达感谢。",
+      "key_formula": "What would you like? — I’d like + 食物.\nWould you like some soup? — Yes. …, please.",
+      "point": "Lesson 2 What would you like?",
+      "tips": "点餐时用I’d like…说清选择，多种食物可用and连接，例如I’d like fish and rice. 先听清食物名称，再复述，避免漏掉餐食。注意please和Thank you.的礼貌作用，不额外学习付款句型。"
+    },
+    {
+      "common_mistakes": [
+        "把something to drink理解为想吃的食物；这里询问的是饮品需要。",
+        "把pear juice当作一个梨；pear juice表示梨汁。",
+        "忽略单复数：a banana表示一根香蕉，two small cakes中的cakes要用复数。",
+        "书写时漏掉I的大写、I’d中的撇号或句末标点。"
+      ],
+      "core_concept": "本课在餐厅和野餐情境中学习询问饮品、表达选择和分享水果。Would you like something to drink?表示“你想喝点什么吗？”，可回答Yes. I’d like some pear juice. Me, too.表示“我也是”，需联系前一句理解。Have some fruit, please.或Have a banana, please.用于招待别人，接受时可以说Thank you. 认识pizza、cakes、pear juice、fruit、bananas、oranges等表达，并练习规范书写句子。",
+      "key_formula": "Would you like something to drink? — Yes. I’d like some + 饮品.\nHave some fruit, please. — Thank you.",
+      "point": "Lesson 3 Would you like something to drink?",
+      "tips": "区分吃的食物与喝的饮品，听到to drink时注意饮品名称。抄写时做到句首大写、词间留空、撇号清楚、标点完整。例如：Have some fruit, please. 不把抄写范句当作另一篇课文。"
+    },
+    {
+      "common_mistakes": [
+        "认为c在所有单词中都发同一种音；本页nice、rice、face、dance中的c发/s/，cap、call、cold、come中的c发/k/。",
+        "把本页o的例词读音扩大成所有含o单词都适用的规则；应结合具体单词跟读。",
+        "制定菜单时混淆食物与饮品，或漏说自己需要的饮品。",
+        "脱离梦境对话理解人物意愿；应根据完整问答判断谁想吃什么、喝什么。"
+      ],
+      "core_concept": "本课用Danny的梦境对话综合复习What would you like?、What do you want to eat?和Would you like something to drink?及相应回答。语音学习包括c在nice、rice、face、dance中发/s/，在cap、call、cold、come中发/k/；按教材所列on、often、hot、body练习字母o的读音，不扩大为无例外规则。通过下周菜单活动，用What would you like for Monday?等表达交流食物，再询问饮品。歌谣用于巩固句型和节奏，不作为主对话原文收录。",
+      "key_formula": "What would you like for Monday? — I’d like + 食物.\nWould you like something to drink? — Yes. I’d like some + 饮品.",
+      "point": "Lesson 4 Again, please!",
+      "tips": "把c的两组例词分别朗读，注意听音区别；o的例词应逐词跟读。合作菜单先确认日期，再记录食物和饮品。复习时既练问句，也练回答，不只记食物单词。"
+    },
+    {
+      "common_mistakes": [
+        "把I could eat a horse.当作真的想吃马；故事注释给出的意思是“我饿极了”。",
+        "混淆beef和horse：beef是牛肉，horse是马。",
+        "分类时忘记水果也属于广义食物；在本活动中应按约定把水果单列，把其他餐食归入Food。",
+        "把自评星级、填空和词表拼成阅读原文；这些内容用于检查学习情况，不是主阅读。"
+      ],
+      "core_concept": "阅读故事I could eat a horse.，理解客人点鸡肉、牛肉，以及Fred说自己非常饿的情节。I could eat a horse.在这里是“我饿极了”，服务员把它按字面理解，形成幽默。认识beef（牛肉）和horse（马）。结合Check it.复习单元词汇、三类核心问答以及谈论饮食和点餐的能力；用鱼骨图按词义整理词汇。分类活动将水果、饮品和其他餐食分开，不把这些类别说成严格互不包含的自然分类。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "读故事时按画格顺序连接问答，结合注释理解习语。自评应检查自己是否能听懂、说出并运用句子。整理鱼骨图时先约定分类标准，再归类，例如把水果单列为Fruit，把饮品放入Drinks，把其他餐食放入Food。"
+    }
+  ]
+}

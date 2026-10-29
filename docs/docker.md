@@ -2,9 +2,7 @@
 
 安装 Docker Desktop（Windows/macOS）或 Docker Engine + Compose（Linux）。无需安装 Node.js、Python、FFmpeg，无需 AI API Key。
 
-**当前 v1.5.0**：五册修订教材、旧版及原成绩保留；新增 150 课时、1,110 道题、118 篇/组朗读。全新安装与原地址升级使用下列匹配材料包。
-
-**历史 v1.4.3 已修复题库版本衔接**：此前补齐版的 2,356 课、15,117 题与讲解已完整保留，当前共 2,387 课、15,303 道常规题。新版全新构建，以及从 v1.4.0 / v1.4.2 原项目升级均通过内容保留、音频和实际播放验证。详见 [本版审计](content-audit-v1.4.3.md)。
+**当前v1.8.0**：新增26册五四制，保留原58册六三制教材及成绩，共84册版本。数学、科学为青岛版1—5年级上下册，英语为鲁科版3—5年级上下册；新增音频使用Edge，原有内容和媒体保留。来源版次及目录见[逐册核对报告](five-four-2026-10-27/README.md)。
 
 ## 全新部署
 
@@ -13,11 +11,11 @@
 ```sh
 git clone --branch main https://github.com/wuwangzhang1216/ChinaTextbookStudyFree.git
 cd ChinaTextbookStudyFree
-docker compose build --build-arg ASSETS_RELEASE=v1.7.1
+docker compose build --build-arg ASSETS_RELEASE=v1.8.0
 docker compose up -d --no-build --wait --wait-timeout 120
 ```
 
-打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载并校验 `v1.7.1` 的全部资源（音频按体积分包），复用已验证的 MP3 与转换缓存，再导出静态站点。下载、校验和构建需要时间；建议至少预留 40 GB 磁盘空间。后续修改页面复用依赖及资源层缓存。
+打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载并校验 `v1.8.0`的全部资源（音频按体积分包），复用已验证的 MP3 与转换缓存，再导出静态站点。下载、校验和构建需要时间；建议至少预留100 GB磁盘空间（含镜像、构建缓存及资源暂存）。后续修改页面复用依赖及资源层缓存。
 
 镜像包含四科题库、课文、故事、配图、原音频及 Web MP3；运行阶段只有 Nginx，无需业务后端或数据库。代码、构建工具和环境密钥不进入运行镜像。
 
@@ -28,7 +26,7 @@ docker compose up -d --no-build --wait --wait-timeout 120
 ```sh
 git switch main
 git pull --ff-only origin main
-docker compose build --build-arg ASSETS_RELEASE=v1.7.1
+docker compose build --build-arg ASSETS_RELEASE=v1.8.0
 docker compose up -d --no-build --force-recreate --wait --wait-timeout 120
 ```
 

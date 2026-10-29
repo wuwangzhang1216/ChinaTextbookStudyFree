@@ -1,0 +1,617 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）五年级上册",
+  "unit": "Unit 3 Birthday",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Unit 3 Birthday·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "When",
+        "difficulty": 1,
+        "explanation": "询问生日时间用When；What、Where、Who分别主要询问什么、哪里和谁。",
+        "knowledge_point": "When is your birthday?",
+        "options": [
+          "What",
+          "Where",
+          "When",
+          "Who"
+        ],
+        "question": "想询问生日在什么时候，完成问句：____ is your birthday?",
+        "type": "choice",
+        "id": 30001,
+        "score": 10
+      },
+      {
+        "answer": "It’s in May.",
+        "difficulty": 1,
+        "explanation": "只说月份May时用in；on、at、to均不适用于这里的月份表达。",
+        "knowledge_point": "When is your birthday?",
+        "options": [
+          "It’s to May.",
+          "It’s at May.",
+          "It’s in May.",
+          "It’s on May."
+        ],
+        "question": "虚构人物Alex的生日在五月。要回答生日月份，哪个句子正确？",
+        "type": "choice",
+        "id": 30002,
+        "score": 10
+      },
+      {
+        "answer": "October",
+        "difficulty": 1,
+        "explanation": "October 7表示十月七日，所以月份是October，不是其他三个选项。",
+        "knowledge_point": "When is your birthday?",
+        "options": [
+          "April",
+          "March",
+          "October",
+          "May"
+        ],
+        "question": "虚构人物Amy说：“My birthday is October 7.”她的生日在哪个月？",
+        "type": "choice",
+        "id": 30003,
+        "score": 10
+      },
+      {
+        "answer": "Lucy’s birthday is in June.",
+        "difficulty": 2,
+        "explanation": "汇报Lucy的生日应使用Lucy’s birthday，主语为单数，后接is，月份前用in。",
+        "knowledge_point": "When is your birthday?",
+        "options": [
+          "My birthday is in June.",
+          "Lucy’s birthday are in June.",
+          "Lucy’s birthday is in June.",
+          "Lucy’s birthday is on June."
+        ],
+        "question": "一份虚构生日调查表记录：Lucy—六月。向同伴汇报Lucy的生日月份，哪个句子正确？",
+        "type": "choice",
+        "id": 30004,
+        "score": 10
+      },
+      {
+        "answer": "May",
+        "difficulty": 1,
+        "explanation": "月份名称首字母大写，其余字母小写，五月写作May。",
+        "knowledge_point": "When is your birthday?",
+        "options": [
+          "may",
+          "May",
+          "maY",
+          "mAy"
+        ],
+        "question": "在句子“My birthday is in ____.”中填入“五月”，哪种大小写形式规范？",
+        "type": "choice",
+        "id": 30005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "in March只说明在三月，没有说明三月几日，不能确定是三月一日。",
+        "knowledge_point": "When is your birthday?",
+        "options": [],
+        "question": "判断正误：虚构人物Ben说“My birthday is in March.”，因此可以确定他的生日是三月一日。",
+        "type": "true_false",
+        "id": 30006,
+        "score": 10
+      },
+      {
+        "answer": "Happy birthday.",
+        "difficulty": 1,
+        "explanation": "Happy birthday.直接表达生日祝福；其余三项分别是感谢、请许愿和拍照用语。",
+        "knowledge_point": "Have some cake, please.",
+        "options": [
+          "Happy birthday.",
+          "Thank you.",
+          "Make a wish.",
+          "Say cheese."
+        ],
+        "question": "虚构人物Tom今天过生日。你想用英语对他表达“生日快乐”，应选哪句？",
+        "type": "choice",
+        "id": 30007,
+        "score": 10
+      },
+      {
+        "answer": "Here’s a present for you.",
+        "difficulty": 1,
+        "explanation": "这句话表示“这是送给你的礼物”；其他三项不表达赠送礼物的意思。",
+        "knowledge_point": "Have some cake, please.",
+        "options": [
+          "Can I open it?",
+          "Here’s a present for you.",
+          "I’m very happy today.",
+          "Let’s take a picture."
+        ],
+        "question": "你把礼物递给朋友，想说“这是送给你的礼物”，应选哪句？",
+        "type": "choice",
+        "id": 30008,
+        "score": 10
+      },
+      {
+        "answer": "Can I open it?",
+        "difficulty": 2,
+        "explanation": "Can I open it?询问自己是否可以打开礼物；Open the present, please.则是请对方打开。",
+        "knowledge_point": "Have some cake, please.",
+        "options": [
+          "Open the present, please.",
+          "Can I open it?",
+          "Have some cake, please.",
+          "Make a wish, please."
+        ],
+        "question": "你刚收到一个包装好的礼物，想询问送礼物的人“我可以打开它吗？”，应选哪句？",
+        "type": "choice",
+        "id": 30009,
+        "score": 10
+      },
+      {
+        "answer": "Have some cake, please.",
+        "difficulty": 1,
+        "explanation": "Have some cake, please.用于请对方吃些蛋糕；其他选项不表达这一意思。",
+        "knowledge_point": "Have some cake, please.",
+        "options": [
+          "Say cheese.",
+          "Can I open it?",
+          "Here’s a present for you.",
+          "Have some cake, please."
+        ],
+        "question": "你想礼貌地请客人吃一些蛋糕，应选哪句？",
+        "type": "choice",
+        "id": 30010,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Let’s表示让我们一起做某事，take a picture表示拍照。",
+        "knowledge_point": "Have some cake, please.",
+        "options": [],
+        "question": "判断正误：“Let’s take a picture.”可以用来提议大家一起拍张照片。",
+        "type": "true_false",
+        "id": 30011,
+        "score": 10
+      },
+      {
+        "answer": "I will clean the room.",
+        "difficulty": 2,
+        "explanation": "will clean表达将要打扫；其他三项分别描述昨天打扫、正在打开礼物和过去举行聚会。",
+        "knowledge_point": "Have some cake, please.",
+        "options": [
+          "I cleaned the room yesterday.",
+          "I will clean the room.",
+          "I am opening the present.",
+          "I had a birthday party."
+        ],
+        "question": "妈妈的生日还没有到。孩子想表达“我将打扫房间”，应选哪句？",
+        "type": "choice",
+        "id": 30012,
+        "score": 10
+      },
+      {
+        "answer": "had",
+        "difficulty": 1,
+        "explanation": "yesterday提示过去，have的过去式是had；have、has、having均不符合本句。",
+        "knowledge_point": "She had a birthday party.",
+        "options": [
+          "have",
+          "had",
+          "having",
+          "has"
+        ],
+        "question": "选择正确的词：Lily ____ a birthday party yesterday.（Lily昨天举行了生日聚会。）",
+        "type": "choice",
+        "id": 30013,
+        "score": 10
+      },
+      {
+        "answer": "sang",
+        "difficulty": 1,
+        "explanation": "sing的过去式是sang；另外三项不能在本句中表示昨天唱了歌。",
+        "knowledge_point": "She had a birthday party.",
+        "options": [
+          "sing",
+          "sings",
+          "sang",
+          "singing"
+        ],
+        "question": "选择正确的词：The children ____ a song yesterday.（孩子们昨天唱了一首歌。）",
+        "type": "choice",
+        "id": 30014,
+        "score": 10
+      },
+      {
+        "answer": "ate",
+        "difficulty": 1,
+        "explanation": "eat的过去式是ate，与yesterday相符；其余三项不符合本句所需形式。",
+        "knowledge_point": "She had a birthday party.",
+        "options": [
+          "eat",
+          "eats",
+          "eating",
+          "ate"
+        ],
+        "question": "选择正确的词：We ____ a cake yesterday.（我们昨天吃了一个蛋糕。）",
+        "type": "choice",
+        "id": 30015,
+        "score": 10
+      },
+      {
+        "answer": "do",
+        "difficulty": 2,
+        "explanation": "问句中已有did，后面的动作动词用原形do，不能再用did或其他形式。",
+        "knowledge_point": "She had a birthday party.",
+        "options": [
+          "does",
+          "doing",
+          "do",
+          "did"
+        ],
+        "question": "选择正确的词：What did Ben ____ at the party yesterday?（Ben昨天在聚会上做了什么？）",
+        "type": "choice",
+        "id": 30016,
+        "score": 10
+      },
+      {
+        "answer": "played",
+        "difficulty": 1,
+        "explanation": "play的过去式是played；yesterday说明动作发生在过去。",
+        "knowledge_point": "She had a birthday party.",
+        "options": [
+          "playing",
+          "played",
+          "play",
+          "plays"
+        ],
+        "question": "选择正确的词：The children ____ games yesterday.（孩子们昨天玩了游戏。）",
+        "type": "choice",
+        "id": 30017,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "题干给出的句子明确写着It was her birthday，说明昨天是她的生日，支持这一原因判断。",
+        "knowledge_point": "She had a birthday party.",
+        "options": [],
+        "question": "阅读：“Eva was happy yesterday. It was her birthday. She had a party.”判断正误：Eva昨天开心的原因之一是昨天是她的生日。",
+        "type": "true_false",
+        "id": 30018,
+        "score": 10
+      },
+      {
+        "answer": "A card.",
+        "difficulty": 1,
+        "explanation": "made a card表示制作了一张贺卡；kite、cake和cup分别是风筝、蛋糕和杯子。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "A kite.",
+          "A cake.",
+          "A card.",
+          "A cup."
+        ],
+        "question": "阅读一句生日记录：“Sam made a card for me.”Sam为记录者制作了什么？",
+        "type": "choice",
+        "id": 30019,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Saturday是星期六，Friday才是星期五。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：一篇日记的日期栏写着“Saturday”，这表示日记记录的是星期五。",
+        "type": "true_false",
+        "id": 30020,
+        "score": 10
+      },
+      {
+        "answer": "After the party.",
+        "difficulty": 2,
+        "explanation": "After the party明确说明做家务发生在聚会后，其他选项分别表示聚会前、聚会中和第二天。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Before the party.",
+          "At the party.",
+          "The next day.",
+          "After the party."
+        ],
+        "question": "阅读：“We had a party. After the party, I cleaned the room.”记录者在什么时候打扫了房间？",
+        "type": "choice",
+        "id": 30021,
+        "score": 10
+      },
+      {
+        "answer": "fruit",
+        "difficulty": 1,
+        "explanation": "fruit以fr开头，fr发/fr/；其余选项没有这个词首字母组合。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "boat",
+          "fruit",
+          "coat",
+          "shirts"
+        ],
+        "question": "哪个单词以字母组合fr开头，且该组合读音与friend中的fr相同？",
+        "type": "choice",
+        "id": 30022,
+        "score": 10
+      },
+      {
+        "answer": "parents",
+        "difficulty": 2,
+        "explanation": "parents词尾有ts，读/ts/；其余三个单词均不以ts结尾。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Friday",
+          "friend",
+          "goal",
+          "parents"
+        ],
+        "question": "哪个单词以ts结尾，且词尾读音与rabbits中的ts相同？",
+        "type": "choice",
+        "id": 30023,
+        "score": 10
+      },
+      {
+        "answer": "goat",
+        "difficulty": 2,
+        "explanation": "goat中的oa与boat中的oa读音相同；其他三个选项没有字母组合oa。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "fruit",
+          "jackets",
+          "from",
+          "goat"
+        ],
+        "question": "哪个单词含有oa，且oa的读音与boat中的oa相同？",
+        "type": "choice",
+        "id": 30024,
+        "score": 10
+      },
+      {
+        "answer": "A cup.",
+        "difficulty": 1,
+        "explanation": "I liked the little cup明确说明喜欢的是杯子，其他选项没有出现在这句话中。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "A kite.",
+          "A card.",
+          "A coat.",
+          "A cup."
+        ],
+        "question": "阅读一则新编生日记录：“I got some presents. I liked the little cup.”记录者喜欢哪件礼物？",
+        "type": "choice",
+        "id": 30025,
+        "score": 10
+      },
+      {
+        "answer": "Sauce.",
+        "difficulty": 1,
+        "explanation": "spilled the sauce表示洒出了调味汁；题干中noodles是想吃的食物，而不是洒出的调味汁。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Milk.",
+          "Cake.",
+          "Sauce.",
+          "Water."
+        ],
+        "question": "阅读一则新编记录：“I wanted to eat the noodles, but I spilled the sauce.”记录者洒出了什么？",
+        "type": "choice",
+        "id": 30026,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "I had a good time明确表示玩得开心，不能因为前面打破杯子就忽略结尾的感受。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "阅读：“I broke a cup. But my family love me. I had a good time.”判断正误：记录者最后表示自己玩得不开心。",
+        "type": "true_false",
+        "id": 30027,
+        "score": 10
+      },
+      {
+        "answer": "To",
+        "difficulty": 1,
+        "explanation": "To后写收卡人的名字；From后写送卡人的名字，Wish和Party不用于标明收卡人。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "From",
+          "To",
+          "Wish",
+          "Party"
+        ],
+        "question": "制作一张送给虚构人物Anna的生日贺卡，在Anna的名字前用哪个词标明收卡人？",
+        "type": "choice",
+        "id": 30028,
+        "score": 10
+      },
+      {
+        "answer": "They danced and played games.",
+        "difficulty": 2,
+        "explanation": "danced和played表示过去发生的动作，符合昨天的语境；其他三项分别表达现在、正在进行或将来。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "They dance and play games.",
+          "They are dancing and playing games.",
+          "They will dance and play games.",
+          "They danced and played games."
+        ],
+        "question": "要表达“他们昨天跳了舞、玩了游戏”，在已说明时间是昨天的情况下，哪句合适？",
+        "type": "choice",
+        "id": 30029,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "单元自评包括谈论生日和生日聚会；能在交流中运用句子也是目标，不能只检查是否会认单词。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断正误：复习生日单元时，除了检查是否认识单词，还应该检查自己能否用英语谈论生日及生日聚会。",
+        "type": "true_false",
+        "id": 30030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 3 Birthday·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "只说生日所在月份时，月份前用in；on用于具体某一天，at和to不符合本句表达。",
+        "knowledge_point": "When is your birthday?",
+        "options": [
+          "in",
+          "at",
+          "to",
+          "on"
+        ],
+        "question": "完成句子：My birthday is ____ September.（我的生日在九月。）",
+        "type": "choice",
+        "id": 39001,
+        "score": 10
+      },
+      {
+        "answer": "Is it in April?",
+        "difficulty": 2,
+        "explanation": "Is it in April?用于猜测生日是否在四月。其他三项分别询问地点、提议拍照和询问能否打开物品。",
+        "knowledge_point": "When is your birthday?",
+        "options": [
+          "Where is it?",
+          "Let’s take a picture.",
+          "Can I open it?",
+          "Is it in April?"
+        ],
+        "question": "Leo让同伴猜他的生日月份。同伴想问“是在四月吗？”，应该选择哪句话？",
+        "type": "choice",
+        "id": 39002,
+        "score": 10
+      },
+      {
+        "answer": "Sure.",
+        "difficulty": 1,
+        "explanation": "Sure.表示同意，可以回答能否打开礼物的请求。其他选项分别表示感谢、生日祝福和邀请吃蛋糕。",
+        "knowledge_point": "Have some cake, please.",
+        "options": [
+          "Thank you.",
+          "Sure.",
+          "Happy birthday.",
+          "Have some cake, please."
+        ],
+        "question": "朋友收到你送的礼物后问：“Can I open it?”你想表示“当然可以”，应选哪句？",
+        "type": "choice",
+        "id": 39003,
+        "score": 10
+      },
+      {
+        "answer": "was",
+        "difficulty": 1,
+        "explanation": "yesterday表示昨天，主语Nina是一个人，表示昨天的状态应选was；is、are表示现在，were不与这里的单数主语搭配。",
+        "knowledge_point": "She had a birthday party.",
+        "options": [
+          "is",
+          "are",
+          "were",
+          "was"
+        ],
+        "question": "选择正确的词：Nina ____ excited yesterday.（Nina昨天很兴奋。）",
+        "type": "choice",
+        "id": 39004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "gave me a kite表示给了我一只风筝，不是制作了风筝；gave不能理解成made。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：一篇生日记录写道：“Amy gave me a kite.”仅凭这句话就能确定这只风筝是Amy亲手制作的。",
+        "type": "true_false",
+        "id": 39005,
+        "score": 10
+      },
+      {
+        "answer": "From",
+        "difficulty": 1,
+        "explanation": "From后填写送卡人的名字；To后填写收卡人的名字，Happy和Birthday不能表示送卡人。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "To",
+          "Birthday",
+          "From",
+          "Happy"
+        ],
+        "question": "一张示例生日贺卡由虚构人物Ben送给虚构人物Lucy。若要在Ben的名字前标明“来自谁”，应使用哪个词？",
+        "type": "choice",
+        "id": 39006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "用What is your birthday?代替本课询问生日时间的When is your birthday?。",
+        "只说月份时漏掉in，或误写成on May、at May。",
+        "月份名称首字母没有大写，或把只说明月份误当成已经说明具体日期。"
+      ],
+      "core_concept": "学习用When is your birthday?询问生日时间，用It’s in March.或My birthday is in May.回答生日所在月份，用Is it in April?猜测月份。月份前用in，月份名称首字母大写。教材还出现It’s October 7.这一具体日期表达，不据此扩展系统的序数词教学。结合月份表调查、记录并汇报生日信息，例如Lucy’s birthday is in June.；调查练习可使用虚构资料。",
+      "key_formula": "",
+      "point": "When is your birthday?",
+      "tips": "区分询问、回答和猜测三种表达。回答自己的生日可用My birthday is ...，汇报他人的生日应换成该人物的名字加’s birthday is ...。只说月份时用in，具体日期按本课实例理解。"
+    },
+    {
+      "common_mistakes": [
+        "把赠送礼物时说的Here’s a present for you.当成收到礼物后的感谢语。",
+        "混淆Can I open it?与Open the present, please.；前者请求允许自己打开，后者请对方打开。",
+        "把Have some cake, please.、Make a wish.和Let’s take a picture.当成同一种邀请；三句分别用于请吃蛋糕、请许愿和提议拍照。"
+      ],
+      "core_concept": "在生日聚会情境中学习祝福、感谢、赠送与接受礼物、请求打开礼物、许愿、邀请吃蛋糕和合影。Happy birthday.用于生日祝福，Thank you.用于感谢，Here’s a present for you.用于赠送礼物，Can I open it?用于请求允许打开礼物，Sure.表示同意。Make a wish.表示请许愿，Have some cake, please.表示请吃些蛋糕，Let’s take a picture.表示提议拍照，Say cheese.是拍照时引导大家微笑的用语。结合妈妈生日的活动，用I will clean the room.等简单表达谈准备做的事。",
+      "key_formula": "",
+      "point": "Have some cake, please.",
+      "tips": "先判断交际目的，再选择句子。请求和邀请时注意使用please；收到祝福或礼物时表示感谢。练习妈妈生日计划时，可仿照On her birthday, I will clean the room.说一个力所能及的行动。"
+    },
+    {
+      "common_mistakes": [
+        "叙述昨天已经发生的事时仍使用have、sing、eat等原形。",
+        "把不规则过去式一律加-ed；have、sing、make、eat的过去式分别是had、sang、made、ate。",
+        "在What did ... do?中把do再改成过去式；did已表示过去，后面的动作动词用原形。"
+      ],
+      "core_concept": "阅读王红昨天的生日聚会，理解她开心的原因，并按顺序提取唱生日歌、许愿、吃蛋糕以及唱歌、跳舞、玩游戏等活动。用过去式表达已经发生的事及当时的感受：was表示过去的状态，had、sang、made、ate分别用于举行聚会、唱歌、许愿和吃东西等语境；danced、played、loved是阅读中出现的规则过去式。What did the children do at the party?询问孩子们在聚会上做了什么，回答时使用相应过去式。",
+      "key_formula": "",
+      "point": "She had a birthday party.",
+      "tips": "先找yesterday等过去时间提示，再联系人物和动作理解过去式。复述时使用Then连接后续活动。回答原因时应说明发生了什么，回答活动时应说清谁做了什么，不只罗列孤立单词。"
+    },
+    {
+      "common_mistakes": [
+        "把字母组合的读音当成逐个读字母名称；应在单词中听辨fr、ts、oa。",
+        "忽略日记中的Saturday和Today is my birthday；这篇日记记录的生日当天是星期六。",
+        "把送礼物的人、制作礼物的人和活动先后顺序混淆；gave表示给，made表示制作，After the party表示聚会后。"
+      ],
+      "core_concept": "综合复习生日月份问答、祝福和过去的生日活动。通过from、friend、fruit、Friday感知fr的读音/fr/，通过rabbits、shirts、jackets、parents感知词尾ts的读音/ts/，通过coat、boat、goat、goal感知oa的读音/əʊ/。阅读王红日记，提取日期、地点、人物、礼物和聚会后的活动；阅读A Happy Day for Mum，按便条顺序理解喝水、去客厅、打开礼物及生日祝福。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "读日记时先看日期栏，再找人物和动作。日记写明星期六，不必自行查找年份推算。朗读字母组合时结合完整单词，不把读音规律无限推广到所有单词。读图画故事时按从上到下、每排从左到右的顺序连接信息。"
+    },
+    {
+      "common_mistakes": [
+        "只看见打破杯子、洒出调味汁和掉下刀子的意外，就断定主人公最后不开心。",
+        "把拓展故事中所有过去式都追加为必须熟练拼写的核心词；应以理解情节和结尾感受为主。",
+        "把贺卡上的To与From写反；To标明收卡人，From标明送卡人。"
+      ],
+      "core_concept": "阅读My Birthday Story，理解主人公在生日聚会上打破杯子、洒出调味汁、掉下刀子的经历，并理解她仍然玩得开心与父母、朋友的爱有关。借助图画、上下文和注释理解broke、spilled、dropped，不把全部拓展词作为拼写要求。自评能否谈论生日和生日聚会，复习月份问答、祝福、邀请以及过去活动表达。合作制作生日贺卡，写生日祝福，并用To和From区分收卡人与送卡人。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "阅读时留意But引出的转折，既看发生的小意外，也看故事结尾。自评应检查是否能实际运用句子，而不只是认出词语。合作贺卡练习可使用虚构人物姓名，不需要填写真实个人信息。"
+    }
+  ]
+}

@@ -1,0 +1,833 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）五年级下册",
+  "unit": "Review",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "Review·配套练习",
+    "total_score": 420,
+    "time_minutes": 42,
+    "questions": [
+      {
+        "answer": "picture",
+        "difficulty": 1,
+        "explanation": "picture的主要重音在第一音节；today、enjoy和behind都重读第二音节。",
+        "knowledge_point": "Review：语音与听力",
+        "options": [
+          "today",
+          "picture",
+          "enjoy",
+          "behind"
+        ],
+        "question": "下面哪个单词的主要重音在第一音节？",
+        "type": "choice",
+        "id": 70001,
+        "score": 10
+      },
+      {
+        "answer": "computer",
+        "difficulty": 2,
+        "explanation": "computer的主要重音在第二音节；photo、tiger、also都重读第一音节。",
+        "knowledge_point": "Review：语音与听力",
+        "options": [
+          "photo",
+          "tiger",
+          "computer",
+          "also"
+        ],
+        "question": "下面哪个单词的主要重音在第二音节？",
+        "type": "choice",
+        "id": 70002,
+        "score": 10
+      },
+      {
+        "answer": "potato",
+        "difficulty": 2,
+        "explanation": "potato通常有三个音节，重音在第二音节；其余三词均通常为两个音节且重读第一音节。",
+        "knowledge_point": "Review：语音与听力",
+        "options": [
+          "picture",
+          "photo",
+          "tiger",
+          "potato"
+        ],
+        "question": "按这些单词的通常读音，哪个词有三个音节且主要重音在第二音节？",
+        "type": "choice",
+        "id": 70003,
+        "score": 10
+      },
+      {
+        "answer": "拜访祖父母",
+        "difficulty": 1,
+        "explanation": "visited my grandparents表示拜访祖父母；其他选项的动作没有出现在给定话语中。",
+        "knowledge_point": "Review：语音与听力",
+        "options": [
+          "踢足球",
+          "拜访祖父母",
+          "给花浇水",
+          "参加绘画课"
+        ],
+        "question": "模拟听力信息识别（本题提供话语文字，并非教材录音）：“I visited my grandparents yesterday.”说话者昨天做了什么？",
+        "type": "choice",
+        "id": 70004,
+        "score": 10
+      },
+      {
+        "answer": "正在给花浇水。",
+        "difficulty": 1,
+        "explanation": "watering the flowers表示给花浇水；话语还明确说明不是在踢足球。",
+        "knowledge_point": "Review：语音与听力",
+        "options": [
+          "正在给花浇水。",
+          "正在滑冰。",
+          "正在踢足球。",
+          "正在睡觉。"
+        ],
+        "question": "模拟听力信息识别（本题提供话语文字，并非教材录音）：“Danny is watering the flowers. He isn't playing football.”Danny正在做什么？",
+        "type": "choice",
+        "id": 70005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "没有录音或真实听力文字，不能仅凭选项图片确定听到的内容及正确答案。",
+        "knowledge_point": "Review：语音与听力",
+        "options": [],
+        "question": "判断正误：做一道只给出选项图片的听力题时，即使没有听到录音，也一定能仅凭图片确定正确选项。",
+        "type": "true_false",
+        "id": 70006,
+        "score": 10
+      },
+      {
+        "answer": "Don't run.",
+        "difficulty": 1,
+        "explanation": "禁止跑动用Don't加动词原形run；其他选项不符合该完整祈使句结构。",
+        "knowledge_point": "Review：规则与场景描述",
+        "options": [
+          "Doesn't run.",
+          "Don't runs.",
+          "Don't run.",
+          "Not running."
+        ],
+        "question": "请选择语法正确、表示“不要跑”的完整祈使句。",
+        "type": "choice",
+        "id": 70007,
+        "score": 10
+      },
+      {
+        "answer": "There is one duck on the grass.",
+        "difficulty": 1,
+        "explanation": "one duck为单数，使用There is；其他选项或数量不符，或单复数搭配错误。",
+        "knowledge_point": "Review：规则与场景描述",
+        "options": [
+          "There are one duck on the grass.",
+          "There is one duck on the grass.",
+          "There is two ducks on the grass.",
+          "There are one ducks on the grass."
+        ],
+        "question": "场景说明：草地上有一只鸭子。选择语法正确、符合说明的句子。",
+        "type": "choice",
+        "id": 70008,
+        "score": 10
+      },
+      {
+        "answer": "There are three trees behind the house.",
+        "difficulty": 2,
+        "explanation": "三棵树用three trees和There are；behind the house对应房子后面。",
+        "knowledge_point": "Review：规则与场景描述",
+        "options": [
+          "There are three trees behind the house.",
+          "There are three tree behind the house.",
+          "There are three trees in front of the house.",
+          "There is three trees behind the house."
+        ],
+        "question": "场景说明：一所房子的后面有三棵树。选择数量、位置和语法都正确的描述。",
+        "type": "choice",
+        "id": 70009,
+        "score": 10
+      },
+      {
+        "answer": "eat",
+        "difficulty": 1,
+        "explanation": "Don't后接动词原形eat，其他选项分别为第三人称单数、过去式和-ing形式。",
+        "knowledge_point": "Review：规则与场景描述",
+        "options": [
+          "eats",
+          "ate",
+          "eating",
+          "eat"
+        ],
+        "question": "选择正确的动词形式，补全“不要在这里吃东西”：“Don't ___ here.”",
+        "type": "choice",
+        "id": 70010,
+        "score": 10
+      },
+      {
+        "answer": "There is one tree in Scene A. There are two trees in Scene B.",
+        "difficulty": 2,
+        "explanation": "A场景是一棵树，用There is one tree；B场景是两棵树，用There are two trees。其他选项数量颠倒或形式错误。",
+        "knowledge_point": "Review：规则与场景描述",
+        "options": [
+          "There are one tree in Scene A. There is two trees in Scene B.",
+          "There is two trees in Scene A. There are one tree in Scene B.",
+          "There is one tree in Scene A. There are two trees in Scene B.",
+          "There is one trees in Scene A. There are two tree in Scene B."
+        ],
+        "question": "两个场景的文字说明是：Scene A有一棵树，Scene B有两棵树。选择正确的完整比较。",
+        "type": "choice",
+        "id": 70011,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "two books是复数，应使用There are，而不是There is。",
+        "knowledge_point": "Review：规则与场景描述",
+        "options": [],
+        "question": "判断正误：“There is two books on the desk.”是语法正确的句子。",
+        "type": "true_false",
+        "id": 70012,
+        "score": 10
+      },
+      {
+        "answer": "No, I don't.",
+        "difficulty": 1,
+        "explanation": "问句以Do you开头，否定回答用No, I don't.；其余选项的助动词或be动词不对应。",
+        "knowledge_point": "Review：健康调查",
+        "options": [
+          "No, I'm not.",
+          "No, I didn't.",
+          "No, I don't.",
+          "No, I can't."
+        ],
+        "question": "虚构学生Tom并非每天运动。请选择“Do you do sports every day?”的正确否定回答。",
+        "type": "choice",
+        "id": 70013,
+        "score": 10
+      },
+      {
+        "answer": "Do you go to bed before nine?",
+        "difficulty": 1,
+        "explanation": "go to bed表示上床睡觉，before nine表示九点之前；其他问题分别询问运动、蔬菜和水果。",
+        "knowledge_point": "Review：健康调查",
+        "options": [
+          "Do you eat vegetables every day?",
+          "Do you go to bed before nine?",
+          "Do you do sports every day?",
+          "Do you often eat fruit?"
+        ],
+        "question": "要调查“你是否在九点前睡觉”，应该选择哪一个问题？",
+        "type": "choice",
+        "id": 70014,
+        "score": 10
+      },
+      {
+        "answer": "should",
+        "difficulty": 1,
+        "explanation": "题目要求表达“应该”，应使用should；shouldn't意思相反，另两项不能构成所需建议。",
+        "knowledge_point": "Review：健康调查",
+        "options": [
+          "shouldn't",
+          "is",
+          "should",
+          "does"
+        ],
+        "question": "选择表示“应该”的词，给出饭前洗手的建议：“You ___ wash your hands before meals.”",
+        "type": "choice",
+        "id": 70015,
+        "score": 10
+      },
+      {
+        "answer": "eat",
+        "difficulty": 1,
+        "explanation": "shouldn't后接动词原形eat，不能接eats、ate或eating。",
+        "knowledge_point": "Review：健康调查",
+        "options": [
+          "eat",
+          "ate",
+          "eats",
+          "eating"
+        ],
+        "question": "选择正确的动词形式：“You shouldn't ___ too much candy.”",
+        "type": "choice",
+        "id": 70016,
+        "score": 10
+      },
+      {
+        "answer": "Do you often eat fruit?",
+        "difficulty": 2,
+        "explanation": "询问对方的日常习惯，用Do you加动词原形；其他三项存在助动词或动词形式错误。",
+        "knowledge_point": "Review：健康调查",
+        "options": [
+          "Are you often eat fruit?",
+          "Does you often eat fruit?",
+          "Do you often eats fruit?",
+          "Do you often eat fruit?"
+        ],
+        "question": "选择语法正确、用来询问日常吃水果习惯的句子。",
+        "type": "choice",
+        "id": 70017,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "before meals意为饭前，该句确实询问饭前洗手的习惯。",
+        "knowledge_point": "Review：健康调查",
+        "options": [],
+        "question": "判断正误：“Do you wash your hands before meals?”询问的是是否有饭前洗手的习惯。",
+        "type": "true_false",
+        "id": 70018,
+        "score": 10
+      },
+      {
+        "answer": "I'm going to take painting classes.",
+        "difficulty": 1,
+        "explanation": "I后需要am，going to后接动词原形take；其他选项均缺少成分或误用动词形式。",
+        "knowledge_point": "Review：暑期计划",
+        "options": [
+          "I going to take painting classes.",
+          "I'm going to taking painting classes.",
+          "I'm going to take painting classes.",
+          "I'm go to take painting classes."
+        ],
+        "question": "选择语法正确、表示将来打算参加绘画课的句子。",
+        "type": "choice",
+        "id": 70019,
+        "score": 10
+      },
+      {
+        "answer": "From August 2 to August 8.",
+        "difficulty": 1,
+        "explanation": "题目指定8月2日开始、8日结束，只有这一项准确表达起止日期。",
+        "knowledge_point": "Review：暑期计划",
+        "options": [
+          "From August 2 to August 8.",
+          "From August 8 to August 12.",
+          "At 7:00.",
+          "On July 2."
+        ],
+        "question": "一份暑期计划安排8月2日至8月8日参加绘画课。选择“When?”的正确回答。",
+        "type": "choice",
+        "id": 70020,
+        "score": 10
+      },
+      {
+        "answer": "At 8:00.",
+        "difficulty": 1,
+        "explanation": "时间表给定8:00对应do sports，故运动时间是八点。",
+        "knowledge_point": "Review：暑期计划",
+        "options": [
+          "At 8:00.",
+          "At 8:30.",
+          "At 7:00.",
+          "At 7:30."
+        ],
+        "question": "Lily的暑假每日时间表为：“7:30 — get up; 8:00 — do sports.”回答“What time is Lily going to do sports?”应选哪项？",
+        "type": "choice",
+        "id": 70021,
+        "score": 10
+      },
+      {
+        "answer": "get",
+        "difficulty": 1,
+        "explanation": "will后接动词原形，所以选择get。",
+        "knowledge_point": "Review：暑期计划",
+        "options": [
+          "getting",
+          "got",
+          "gets",
+          "get"
+        ],
+        "question": "选择正确的动词形式：“During the coming summer holiday, I will ___ up at 7:30.”",
+        "type": "choice",
+        "id": 70022,
+        "score": 10
+      },
+      {
+        "answer": "暑期活动计划表，记录日期范围和活动。",
+        "difficulty": 2,
+        "explanation": "这项安排跨度为多日，内容是参加课程，应写入记录日期和活动的暑期计划表，而不是只记录每日钟点。",
+        "knowledge_point": "Review：暑期计划",
+        "options": [
+          "每日时间表，只记录几点起床。",
+          "暑期活动计划表，记录日期范围和活动。",
+          "健康调查表，记录是否吃水果。",
+          "颜色记录表，记录铅笔颜色。"
+        ],
+        "question": "要记录“7月12日至7月18日参加绘画课”，最适合使用哪种表格？",
+        "type": "choice",
+        "id": 70023,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "询问具体安排时间可用When?；What colour?询问颜色。",
+        "knowledge_point": "Review：暑期计划",
+        "options": [],
+        "question": "判断正误：想追问暑期课程什么时候进行，可以用“What colour?”。",
+        "type": "true_false",
+        "id": 70024,
+        "score": 10
+      },
+      {
+        "answer": "In the lake.",
+        "difficulty": 1,
+        "explanation": "原句明确写着in the lake，即在湖里；其余地点均未被该句说明。",
+        "knowledge_point": "Review：故事阅读",
+        "options": [
+          "In a museum.",
+          "In the lake.",
+          "In a classroom.",
+          "In a house."
+        ],
+        "question": "读句子：“Spring comes. The little tadpoles are swimming in the lake.”小蝌蚪在哪里游泳？",
+        "type": "choice",
+        "id": 70025,
+        "score": 10
+      },
+      {
+        "answer": "A big head.",
+        "difficulty": 1,
+        "explanation": "鸭妈妈的回答是Your mum has a big head，提供的线索是大脑袋。",
+        "knowledge_point": "Review：故事阅读",
+        "options": [
+          "A red dress.",
+          "Two wings.",
+          "A big head.",
+          "A long nose."
+        ],
+        "question": "小蝌蚪向鸭妈妈询问妈妈在哪里。鸭妈妈回答：“I don't know. But your mum has a big head.”她提供了妈妈的哪项外形线索？",
+        "type": "choice",
+        "id": 70026,
+        "score": 10
+      },
+      {
+        "answer": "The fish.",
+        "difficulty": 2,
+        "explanation": "She紧接a fish，指代前句出现的鱼，不是小蝌蚪或其他角色。",
+        "knowledge_point": "Review：故事阅读",
+        "options": [
+          "Mother Duck.",
+          "Mother Frog.",
+          "The fish.",
+          "The tortoise."
+        ],
+        "question": "读句子：“The tadpoles see a fish. She is swimming.”这里的“She”指谁？",
+        "type": "choice",
+        "id": 70027,
+        "score": 10
+      },
+      {
+        "answer": "Sleeping.",
+        "difficulty": 1,
+        "explanation": "She指乌龟，is sleeping表示正在睡觉，其他动作均不符合给出的句子。",
+        "knowledge_point": "Review：故事阅读",
+        "options": [
+          "Sleeping.",
+          "Swimming.",
+          "Jumping.",
+          "Playing football."
+        ],
+        "question": "读句子：“They see a tortoise. She is sleeping.”乌龟正在做什么？",
+        "type": "choice",
+        "id": 70028,
+        "score": 10
+      },
+      {
+        "answer": "A fish → a tortoise → a frog.",
+        "difficulty": 2,
+        "explanation": "给出的三个连续段落先写鱼，再写乌龟，Finally引出青蛙。",
+        "knowledge_point": "Review：故事阅读",
+        "options": [
+          "A tortoise → a frog → a fish.",
+          "A frog → a fish → a tortoise.",
+          "A fish → a tortoise → a frog.",
+          "A fish → a frog → a tortoise."
+        ],
+        "question": "故事的三个连续段落依次写道：“The tadpoles see a fish.”“They see a tortoise.”“Finally, they see a frog.”选择与这些段落一致的相遇顺序。",
+        "type": "choice",
+        "id": 70029,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "is jumping around表示正在跳来跳去，不是正在睡觉。",
+        "knowledge_point": "Review：故事阅读",
+        "options": [],
+        "question": "判断正误：“The frog is jumping around.”表示青蛙正在睡觉。",
+        "type": "true_false",
+        "id": 70030,
+        "score": 10
+      },
+      {
+        "answer": "visited",
+        "difficulty": 1,
+        "explanation": "last winter holiday表示已结束的假期，应使用visit的过去式visited。",
+        "knowledge_point": "Review：假期回顾与展望",
+        "options": [
+          "visiting",
+          "visit",
+          "visits",
+          "visited"
+        ],
+        "question": "选择正确的词补全句子：“Last winter holiday, I ___ my grandparents.”",
+        "type": "choice",
+        "id": 70031,
+        "score": 10
+      },
+      {
+        "answer": "What did you do last winter holiday?",
+        "difficulty": 2,
+        "explanation": "答句讲述上个寒假做过的事，需用What did you do询问；其他问题分别询问计划、正在做的事和地点。",
+        "knowledge_point": "Review：假期回顾与展望",
+        "options": [
+          "What are you going to do this summer holiday?",
+          "What are you doing now?",
+          "What did you do last winter holiday?",
+          "Where are you going this summer?"
+        ],
+        "question": "选择能与答句“I learned Beijing Opera last winter holiday.”对应的问题。",
+        "type": "choice",
+        "id": 70032,
+        "score": 10
+      },
+      {
+        "answer": "English",
+        "difficulty": 1,
+        "explanation": "题目明确为英语课程，应选English；其他词不表示英语。",
+        "knowledge_point": "Review：假期回顾与展望",
+        "options": [
+          "holiday",
+          "English",
+          "country",
+          "difficult"
+        ],
+        "question": "一份未来夏令营计划安排了英语课。选择正确的词：“I'll go to ___ classes at summer camp.”",
+        "type": "choice",
+        "id": 70033,
+        "score": 10
+      },
+      {
+        "answer": "difficult",
+        "difficulty": 2,
+        "explanation": "but表示转折，“有趣但有一点难”符合句意；difficult是形容词，可放在a little后描述学习感受。",
+        "knowledge_point": "Review：假期回顾与展望",
+        "options": [
+          "difficult",
+          "make",
+          "learned",
+          "country"
+        ],
+        "question": "选择合适的词表达“京剧很有趣，但有一点难”：“Beijing Opera was fun, but a little ___.”",
+        "type": "choice",
+        "id": 70034,
+        "score": 10
+      },
+      {
+        "answer": "make",
+        "difficulty": 1,
+        "explanation": "will后接动词原形；make plans表示制订计划。",
+        "knowledge_point": "Review：假期回顾与展望",
+        "options": [
+          "make",
+          "made",
+          "makes",
+          "making"
+        ],
+        "question": "选择正确的动词形式：“I'll go to a summer camp next month. I will ___ plans for it.”",
+        "type": "choice",
+        "id": 70035,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "第一句用visited回顾过去，第二句用am going to表达未来打算，并非都在回顾过去。",
+        "knowledge_point": "Review：假期回顾与展望",
+        "options": [],
+        "question": "判断正误：短文“Last winter holiday, I visited my grandparents. Next summer holiday, I'm going to visit London.”中的两句话都在回顾过去经历。",
+        "type": "true_false",
+        "id": 70036,
+        "score": 10
+      },
+      {
+        "answer": "It's blue.",
+        "difficulty": 1,
+        "explanation": "问题询问单数物品的颜色，It's blue.直接回答蓝色；其他选项不回答该问题。",
+        "knowledge_point": "Review：成长情境综合交流",
+        "options": [
+          "It's blue.",
+          "They're pencils.",
+          "I like winter.",
+          "It's Monday."
+        ],
+        "question": "一支铅笔是蓝色的。选择“What colour is the pencil?”的正确回答。",
+        "type": "choice",
+        "id": 70037,
+        "score": 10
+      },
+      {
+        "answer": "Yes, I do.",
+        "difficulty": 1,
+        "explanation": "Do you like ...?用do回应；题干明确喜欢鱼，因此选择肯定回答。",
+        "knowledge_point": "Review：成长情境综合交流",
+        "options": [
+          "Yes, I did.",
+          "Yes, I am.",
+          "Yes, I do.",
+          "No, I don't."
+        ],
+        "question": "角色卡写着“Ben likes fish.”。Ben回答“Do you like fish?”时应选哪一句？",
+        "type": "choice",
+        "id": 70038,
+        "score": 10
+      },
+      {
+        "answer": "I like winter. I can go skating in winter.",
+        "difficulty": 2,
+        "explanation": "角色卡指定喜欢冬季及冬季滑冰，这一选项同时表达了季节和相应活动。",
+        "knowledge_point": "Review：成长情境综合交流",
+        "options": [
+          "I like summer. I can swim in summer.",
+          "It's Thursday. We can play football.",
+          "I'm watering the flowers.",
+          "I like winter. I can go skating in winter."
+        ],
+        "question": "角色卡写着“最喜欢的季节：冬季；该季节的活动：滑冰”。选择符合角色卡、能回答“What season do you like?”的一项。",
+        "type": "choice",
+        "id": 70039,
+        "score": 10
+      },
+      {
+        "answer": "I'm reading a book.",
+        "difficulty": 2,
+        "explanation": "now提示正在进行的动作，用am reading；其余选项分别表达过去、未来和日常习惯。",
+        "knowledge_point": "Review：成长情境综合交流",
+        "options": [
+          "I read a book yesterday.",
+          "I'm going to read a book tomorrow.",
+          "I'm reading a book.",
+          "I read books every Sunday."
+        ],
+        "question": "角色卡写着“正在做的事：读书”。选择“What are you doing now?”的正确回答。",
+        "type": "choice",
+        "id": 70040,
+        "score": 10
+      },
+      {
+        "answer": "I'd like to join the Table Tennis Club.",
+        "difficulty": 1,
+        "explanation": "题目询问希望加入的社团，角色卡指定乒乓球社团，应以I'd like to join回应。",
+        "knowledge_point": "Review：成长情境综合交流",
+        "options": [
+          "It's Thursday.",
+          "I'd like to join the Table Tennis Club.",
+          "I'm watering the flowers.",
+          "I got a prize yesterday."
+        ],
+        "question": "角色卡写着“希望加入：乒乓球社团”。选择“What club would you like to join?”的恰当回答。",
+        "type": "choice",
+        "id": 70041,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Please sit here用于礼貌请人坐下；接受让座后说Thank you符合交往情境。",
+        "knowledge_point": "Review：成长情境综合交流",
+        "options": [],
+        "question": "判断正误：给老人让座时可以说“Please sit here, grandpa.”，对方可以回答“Thank you.”。",
+        "type": "true_false",
+        "id": 70042,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Review·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "photo",
+        "difficulty": 2,
+        "explanation": "photo的重音在第一音节；today、enjoy和behind的重音都在第二音节。",
+        "knowledge_point": "Review：语音与听力",
+        "options": [
+          "today",
+          "enjoy",
+          "photo",
+          "behind"
+        ],
+        "question": "下面哪个单词的主要重音在第一音节？",
+        "type": "choice",
+        "id": 79001,
+        "score": 10
+      },
+      {
+        "answer": "There are two birds in the tree.",
+        "difficulty": 2,
+        "explanation": "两只鸟用复数two birds，存在句使用There are；in the tree表示鸟在树上。",
+        "knowledge_point": "Review：规则与场景描述",
+        "options": [
+          "There is two birds in the tree.",
+          "There are two birds in the tree.",
+          "There is a birds in the tree.",
+          "There are two bird in the tree."
+        ],
+        "question": "一棵树上有两只鸟。选择语法正确且符合这一场景的完整描述。",
+        "type": "choice",
+        "id": 79002,
+        "score": 10
+      },
+      {
+        "answer": "You should eat vegetables every day.",
+        "difficulty": 2,
+        "explanation": "题目明确要求鼓励每天吃蔬菜，只有should eat表达这一建议且结构正确。",
+        "knowledge_point": "Review：健康调查",
+        "options": [
+          "You shouldn't eat vegetables every day.",
+          "You should eat vegetables every day.",
+          "You should eating vegetables every day.",
+          "You should eats vegetables every day."
+        ],
+        "question": "调查发现，一名虚构学生从不吃蔬菜。请选择语法正确、鼓励他每天吃蔬菜的建议。",
+        "type": "choice",
+        "id": 79003,
+        "score": 10
+      },
+      {
+        "answer": "From July 16 to July 22.",
+        "difficulty": 1,
+        "explanation": "日期范围用from起始日期to结束日期表达；题目给定的是7月16日至22日。",
+        "knowledge_point": "Review：暑期计划",
+        "options": [
+          "On July 6.",
+          "From July 16 to July 22.",
+          "From July 22 to July 26.",
+          "At 8:00."
+        ],
+        "question": "Ben的绘画课计划从7月16日开始，到7月22日结束。回答“When are you going to take painting classes?”时，哪项符合安排？",
+        "type": "choice",
+        "id": 79004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "这句话由Mother Frog说出，表示青蛙妈妈认出了自己的孩子，并非拒绝小蝌蚪。",
+        "knowledge_point": "Review：故事阅读",
+        "options": [],
+        "question": "判断正误：故事结尾写道：“‘Oh, my dear babies!’ Mother Frog says happily.”这说明青蛙妈妈不承认小蝌蚪是自己的孩子。",
+        "type": "true_false",
+        "id": 79005,
+        "score": 10
+      },
+      {
+        "answer": "She visited her grandparents.",
+        "difficulty": 2,
+        "explanation": "last winter holiday询问过去经历，题目给定visited her grandparents；其余选项是未来计划、日常习惯或正在进行的动作。",
+        "knowledge_point": "Review：假期回顾与展望",
+        "options": [
+          "She will visit her grandparents.",
+          "She visits her grandparents every week.",
+          "She is visiting her grandparents now.",
+          "She visited her grandparents."
+        ],
+        "question": "假期记录写道：“Last winter holiday, May visited her grandparents.”根据这条记录，选择“What did May do last winter holiday?”的正确回答。",
+        "type": "choice",
+        "id": 79006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "不能根据字母数量判断音节数量或重音位置。",
+        "tomorrow和potato都重读第二音节，不能把它们放进只有一个第二音节重读答案的同一组选项。",
+        "family和interesting的音节数可能受语速及读音变体影响，不宜设计不限定读音的唯一音节数题。",
+        "图片不等于录音，不能根据静态图猜教材Task 2的听力原文或答案。"
+      ],
+      "core_concept": "Task 1复习词语读音、音节和重音，通过朗读进行匹配，例如picture、photo通常重读第一音节，today、enjoy通常重读第二音节。听力练习应先了解选项的差别，再抓住人物、动作、地点等关键信息。",
+      "key_formula": "",
+      "point": "Review：语音与听力",
+      "tips": "先正确读词，再比较重读部分。配套模拟题中的文字只是新编训练材料，不是教材录音；实际听力训练需听录音，不能用阅读代替听音。"
+    },
+    {
+      "common_mistakes": [
+        "Don't后接动词原形，不能写成Don't takes。",
+        "一个事物用There is，多个事物用There are，名词也要匹配单复数。",
+        "描述数量时不能只列名词，应说出完整句。",
+        "描述位置必须依据已提供的场景，不能凭空增加事物或方向。"
+      ],
+      "core_concept": "Task 3用Don't加动词原形表达禁止做某事，可补充地点，如Don't run in the museum.。Task 4比较场景中事物的数量和位置：单数可数名词使用There is，复数可数名词使用There are，如There is a book on the desk.和There are two books on the desk.。比较时同时检查数量、名词形式和位置表达。",
+      "key_formula": "",
+      "point": "Review：规则与场景描述",
+      "tips": "先找要禁止的动作，或场景中的数量和位置，再组句。没有提供图片时，按题目文字给出的完整场景作答，不猜原图细节。"
+    },
+    {
+      "common_mistakes": [
+        "回答Do you ...?时，不要误用Yes, I am.。",
+        "should和shouldn't后都接动词原形。",
+        "before meals是饭前，不是饭后。",
+        "调查中的Yes或No表示习惯回答，不能在没有调查结果时虚构某人的得分。"
+      ],
+      "core_concept": "Task 5用Do you ...?询问日常健康习惯，包括运动、睡觉时间、吃蔬菜、饭前洗手和吃水果。一般可用Yes, I do.或No, I don't.回答；调查表中的Yes和No是简短记录形式。根据明确的调查结果，用should提出建议，用shouldn't表达不建议做的事，再用完整句交流。",
+      "key_formula": "",
+      "point": "Review：健康调查",
+      "tips": "先看调查问的是哪种习惯，再对应回答；提出建议时，让建议针对已知情况。作答重点是英语表达，不把调查得分当作医学诊断。"
+    },
+    {
+      "common_mistakes": [
+        "I后应使用am going to，不能遗漏am。",
+        "be going to和will后接动词原形。",
+        "日期范围用from ... to ...，几点做事通常用at加时间。",
+        "活动计划表的日期不能当作每日时间表中的钟点。"
+      ],
+      "core_concept": "Task 6复习制定暑期活动计划与每日作息时间表。活动计划表记录日期范围和活动，每日时间表记录几点做什么。可用What's your plan for the summer?询问计划，用I'm going to ...回答；用When?追问时间，用From ... to ...表达日期范围。will加动词原形也可以表达未来安排，如I will get up at 7:00.。",
+      "key_formula": "",
+      "point": "Review：暑期计划",
+      "tips": "先选合适的表：一段日期内做什么写入活动计划，几点做什么写入每日时间表。完整表达中要同时交代活动及所需时间信息。"
+    },
+    {
+      "common_mistakes": [
+        "不要把鸭妈妈说的大脑袋、鱼说的四条腿和乌龟说的大眼睛及绿裙子相互混淆。",
+        "She的指代要结合紧邻的角色判断，不能总认为指青蛙妈妈。",
+        "现在进行时不能遗漏be动词，如She is sleeping.。",
+        "故事按段落先后发展，不能按右侧待匹配图片的上下位置复述。"
+      ],
+      "core_concept": "Task 7讲述小蝌蚪寻找妈妈的故事。先读春天小蝌蚪在湖里游泳，再依次理解它们与鸭妈妈、鱼、乌龟和青蛙的相遇。通过角色的外形线索和动作确认情节，注意is swimming、is sleeping、is jumping等现在进行时以及she、they的指代。复述时保留原有顺序和结局，不增加教材以外的情节。",
+      "key_formula": "",
+      "point": "Review：故事阅读",
+      "tips": "可用“角色—动作—提供的线索”整理各段，再按One day和Finally等提示串联。遇到阅读题，先在题目提供的原句中找依据。"
+    },
+    {
+      "common_mistakes": [
+        "叙述已结束的假期经历时，不要把过去式写成动词原形。",
+        "will和be going to后接动词原形，不能写成will visited或going to visited。",
+        "选词填空要同时检查词义、词性和上下文，不能只看一个时间词。",
+        "this summer holiday的时间意义要结合语境判断，不能脱离语境一律判为将来。"
+      ],
+      "core_concept": "Task 8综合复习假期回顾、计划和语境选词。回顾已结束的假期可用一般过去时，如I visited my grandparents.；表达未来安排可用will或be going to，如I will make plans for it.。What did ... do?询问过去做过的事；What is ... going to do?询问未来打算。组织短文时先写过去经历，再写未来计划，保持时间与动词形式一致。",
+      "key_formula": "",
+      "point": "Review：假期回顾与展望",
+      "tips": "先明确过去还是未来，再选动词；用country、difficult、holiday、English等词时检查它们在句中的意义和位置。个人表达可使用虚构人物，不必提供真实个人信息。"
+    },
+    {
+      "common_mistakes": [
+        "What colour问颜色，What season问季节，What day问星期，不能混答。",
+        "What are these?询问复数事物，回答可用They're加复数名词。",
+        "正在做的事、未来打算和过去经历不能混用动词形式。",
+        "would like to join后接社团名称，不用正在进行的动作回答。"
+      ],
+      "core_concept": "Task 9沿Danny的成长路线综合复习问候、自我介绍、事物识别、颜色、食物喜好、季节、星期与活动安排，以及现在进行时、未来计划、过去经历、社团选择和礼貌交往。回答前先确定问句要问什么，再确定时间。现在进行时使用am/is/are加动词-ing；计划可用be going to加动词原形；过去经历用相应过去式。让座、送贺卡等情境要使用恰当礼貌用语。",
+      "key_formula": "",
+      "point": "Review：成长情境综合交流",
+      "tips": "角色表演时按问答顺序接话，不把相邻气泡误配成同一段对话。可用虚构姓名练习I'm ...，不需要报告真实个人资料。"
+    }
+  ]
+}

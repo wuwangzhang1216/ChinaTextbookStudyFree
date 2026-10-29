@@ -8,6 +8,7 @@ on:
       - 'output/**'
       - 'scripts/checks/**'
       - 'scripts/quiz/**'
+      - 'scripts/editions/**'
       - 'scripts/tts/**'
       - 'docs/ux-content-corrections.json'
       - 'package*.json'
@@ -47,6 +48,7 @@ jobs:
           npx tsx scripts/checks/content-math.ts
           npx tsx scripts/checks/math-speech.ts
           python scripts/checks/textbook-editions.py
+          python scripts/checks/five-four-import.py
           npx tsx --tsconfig apps/web/tsconfig.json scripts/checks/ux-rewards.ts
           npx tsx scripts/checks/intro-narration.ts
           npx tsx scripts/checks/tts-legacy-audio.ts

@@ -1,0 +1,820 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）五年级上册",
+  "unit": "Review",
+  "unit_number": 8,
+  "unit_test": {
+    "title": "Review·配套练习",
+    "total_score": 420,
+    "time_minutes": 42,
+    "questions": [
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "sky和my中的y都读/aɪ/。",
+        "knowledge_point": "Task 1：语音归类",
+        "options": [],
+        "question": "判断正误：sky和my中的字母y读音相同。",
+        "type": "true_false",
+        "id": 80001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "head中的ea读/e/，clean中的ea读/iː/，读音不同。",
+        "knowledge_point": "Task 1：语音归类",
+        "options": [],
+        "question": "判断正误：head和clean中的字母组合ea读音相同。",
+        "type": "true_false",
+        "id": 80002,
+        "score": 10
+      },
+      {
+        "answer": "book和foot",
+        "difficulty": 1,
+        "explanation": "book和foot中的oo都读/ʊ/；其他三组的指定字母或字母组合读音各不相同。",
+        "knowledge_point": "Task 1：语音归类",
+        "options": [
+          "head和sea",
+          "sky和happy",
+          "breakfast和teacher",
+          "book和foot"
+        ],
+        "question": "哪一组词中指定部分读音相同？比较book和foot的oo、head和sea的ea、sky和happy的y、breakfast和teacher的ea。",
+        "type": "choice",
+        "id": 80003,
+        "score": 10
+      },
+      {
+        "answer": "about",
+        "difficulty": 2,
+        "explanation": "about和mouth中的ou都读/aʊ/。其他选项不含ou，也不具有这个目标音。",
+        "knowledge_point": "Task 1：语音归类",
+        "options": [
+          "about",
+          "book",
+          "teacher",
+          "my"
+        ],
+        "question": "哪个词中的ou与mouth中的ou读音相同？",
+        "type": "choice",
+        "id": 80004,
+        "score": 10
+      },
+      {
+        "answer": "sweater",
+        "difficulty": 2,
+        "explanation": "sweater中的ea读/e/；sea、clean、teacher中的ea均读/iː/。",
+        "knowledge_point": "Task 1：语音归类",
+        "options": [
+          "sea",
+          "sweater",
+          "teacher",
+          "clean"
+        ],
+        "question": "以下四个词都含ea，哪个词的ea读音与另外三个不同？",
+        "type": "choice",
+        "id": 80005,
+        "score": 10
+      },
+      {
+        "answer": "party",
+        "difficulty": 2,
+        "explanation": "party和busy的词尾y都读/i/；my、fly、sky中的y都读/aɪ/。",
+        "knowledge_point": "Task 1：语音归类",
+        "options": [
+          "fly",
+          "my",
+          "party",
+          "sky"
+        ],
+        "question": "哪个词的词尾y与busy的词尾y读音相同？",
+        "type": "choice",
+        "id": 80006,
+        "score": 10
+      },
+      {
+        "answer": "Saturday",
+        "difficulty": 1,
+        "explanation": "Saturday表示星期六；其余选项分别表示星期日、星期一和星期五。",
+        "knowledge_point": "Task 2：周末活动听辨",
+        "options": [
+          "Saturday",
+          "Sunday",
+          "Monday",
+          "Friday"
+        ],
+        "question": "自编听辨材料：I will visit my grandparents on Saturday. 句中表示“星期六”的词是哪一个？",
+        "type": "choice",
+        "id": 80007,
+        "score": 10
+      },
+      {
+        "answer": "看电影",
+        "difficulty": 1,
+        "explanation": "see a film表示看电影；不是踢足球、看望长辈或吃晚饭。",
+        "knowledge_point": "Task 2：周末活动听辨",
+        "options": [
+          "看电影",
+          "踢足球",
+          "看望爷爷奶奶",
+          "吃晚饭"
+        ],
+        "question": "自编听辨材料：On Sunday, I will see a film. 说话人周日将做什么？",
+        "type": "choice",
+        "id": 80008,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "材料明确把play football安排在Saturday，即周六。",
+        "knowledge_point": "Task 2：周末活动听辨",
+        "options": [],
+        "question": "自编听辨材料：I will play football on Saturday. 判断正误：说话人将于周六踢足球。",
+        "type": "true_false",
+        "id": 80009,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "材料中的Sunday是周日，不是周六。",
+        "knowledge_point": "Task 2：周末活动听辨",
+        "options": [],
+        "question": "自编听辨材料：I will have dinner with my family on Sunday. 判断正误：说话人将于周六和家人吃晚饭。",
+        "type": "true_false",
+        "id": 80010,
+        "score": 10
+      },
+      {
+        "answer": "周六看望爷爷奶奶，周日踢足球",
+        "difficulty": 2,
+        "explanation": "Saturday对应visit my grandparents，Sunday对应play football；其余选项交换了时间或改变了活动。",
+        "knowledge_point": "Task 2：周末活动听辨",
+        "options": [
+          "周六看望爷爷奶奶，周日踢足球",
+          "周六踢足球，周日看望爷爷奶奶",
+          "周六看电影，周日踢足球",
+          "周六看望爷爷奶奶，周日看电影"
+        ],
+        "question": "自编听辨材料：On Saturday, I will visit my grandparents. On Sunday, I will play football. 哪项安排与材料完全相符？",
+        "type": "choice",
+        "id": 80011,
+        "score": 10
+      },
+      {
+        "answer": "周日",
+        "difficulty": 2,
+        "explanation": "see a film所在句的时间是Sunday；Saturday安排的是和家人吃晚饭。",
+        "knowledge_point": "Task 2：周末活动听辨",
+        "options": [
+          "周五",
+          "周六",
+          "周日",
+          "周一"
+        ],
+        "question": "自编听辨材料：I will have dinner with my family on Saturday. I will see a film on Sunday. 看电影安排在哪一天？",
+        "type": "choice",
+        "id": 80012,
+        "score": 10
+      },
+      {
+        "answer": "was",
+        "difficulty": 1,
+        "explanation": "then和中文提示明确表示过去，单数主语she应接was。",
+        "knowledge_point": "Task 3：人物今昔变化",
+        "options": [
+          "is",
+          "are",
+          "was",
+          "were"
+        ],
+        "question": "选择正确的词：She ___ a little girl then.（她那时是个小女孩。）",
+        "type": "choice",
+        "id": 80013,
+        "score": 10
+      },
+      {
+        "answer": "is",
+        "difficulty": 1,
+        "explanation": "now表示现在，Ben是单数人物，使用is。",
+        "knowledge_point": "Task 3：人物今昔变化",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "is"
+        ],
+        "question": "选择正确的词：Now Ben ___ a big boy.（现在本是个大男孩了。）",
+        "type": "choice",
+        "id": 80014,
+        "score": 10
+      },
+      {
+        "answer": "Her hair was long then.",
+        "difficulty": 2,
+        "explanation": "过去用was，长头发用long；其余选项分别改变了时间、长短或使用了错误的be动词。",
+        "knowledge_point": "Task 3：人物今昔变化",
+        "options": [
+          "Her hair was long then.",
+          "Her hair is long now.",
+          "Her hair was short then.",
+          "Her hair were long then."
+        ],
+        "question": "哪句话正确表示“她的头发那时很长”？",
+        "type": "choice",
+        "id": 80015,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "He was happy then.表示他那时很开心，不表示现在个子很高。",
+        "knowledge_point": "Task 3：人物今昔变化",
+        "options": [],
+        "question": "判断正误：“He was happy then.”表示“他现在个子很高”。",
+        "type": "true_false",
+        "id": 80016,
+        "score": 10
+      },
+      {
+        "answer": "Yes, it is.",
+        "difficulty": 1,
+        "explanation": "题目要求作肯定回答；Is it ...?对应Yes, it is.。No, it isn't.是否定回答，另外两项主语或结构不对应。",
+        "knowledge_point": "Task 3：人物今昔变化",
+        "options": [
+          "Yes, it is.",
+          "No, it isn't.",
+          "Yes, he was.",
+          "Yes, I am."
+        ],
+        "question": "同伴指着一张照片问“Is it Tom?”，你确认照片中的人就是汤姆，应怎样作肯定回答？",
+        "type": "choice",
+        "id": 80017,
+        "score": 10
+      },
+      {
+        "answer": "She was short then. Now she is tall.",
+        "difficulty": 2,
+        "explanation": "第一句用was描述过去个子矮，第二句用is描述现在个子高；其他选项改变了特征或时间对应。",
+        "knowledge_point": "Task 3：人物今昔变化",
+        "options": [
+          "She was short then. Now she is tall.",
+          "She was tall then. Now she is short.",
+          "She is short now. She was tall then.",
+          "She was happy then. Now she is sad."
+        ],
+        "question": "莉莉过去个子矮，现在个子高。哪组句子与这两条信息完全相符？",
+        "type": "choice",
+        "id": 80018,
+        "score": 10
+      },
+      {
+        "answer": "At the Spring Festival",
+        "difficulty": 1,
+        "explanation": "At the Spring Festival表示春节期间；其他选项分别表示圣诞节、放学后和星期日。",
+        "knowledge_point": "Task 4：春节与圣诞节",
+        "options": [
+          "At the Spring Festival",
+          "At Christmas",
+          "After school",
+          "On Sunday"
+        ],
+        "question": "选择与“春节期间”意义相符的时间表达。",
+        "type": "choice",
+        "id": 80019,
+        "score": 10
+      },
+      {
+        "answer": "团聚",
+        "difficulty": 1,
+        "explanation": "get together表示相聚、团聚，不表示吃饺子、做饮料或看电影。",
+        "knowledge_point": "Task 4：春节与圣诞节",
+        "options": [
+          "团聚",
+          "做饮料",
+          "吃饺子",
+          "看电影"
+        ],
+        "question": "句子“At Christmas, the family get together.”中的get together是什么意思？",
+        "type": "choice",
+        "id": 80020,
+        "score": 10
+      },
+      {
+        "answer": "eat",
+        "difficulty": 1,
+        "explanation": "主语是we，介绍经常发生的习俗使用动词原形eat；另外三项不符合此句结构。",
+        "knowledge_point": "Task 4：春节与圣诞节",
+        "options": [
+          "eat",
+          "eats",
+          "eating",
+          "to eat"
+        ],
+        "question": "选择正确的词：We often ___ jiaozi at the Spring Festival.",
+        "type": "choice",
+        "id": 80021,
+        "score": 10
+      },
+      {
+        "answer": "We often have a big dinner at Christmas.",
+        "difficulty": 2,
+        "explanation": "该句完整表达圣诞节经常吃丰盛晚餐；其他选项改变了活动或节日。",
+        "knowledge_point": "Task 4：春节与圣诞节",
+        "options": [
+          "We often have a big dinner at Christmas.",
+          "We often make drinks at Christmas.",
+          "We often have a big dinner at the Spring Festival.",
+          "We often eat jiaozi at Christmas."
+        ],
+        "question": "梅介绍自己的家庭：“我们圣诞节经常吃一顿丰盛的晚餐。”哪句英语与她的介绍完全相符？",
+        "type": "choice",
+        "id": 80022,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "often表示经常，get together表示团聚。",
+        "knowledge_point": "Task 4：春节与圣诞节",
+        "options": [],
+        "question": "判断正误：“We often get together at the Spring Festival.”可以用来表达“我们春节经常团聚”。",
+        "type": "true_false",
+        "id": 80023,
+        "score": 10
+      },
+      {
+        "answer": "吃饺子",
+        "difficulty": 2,
+        "explanation": "第一句把春节与吃饺子对应；第二句说的是圣诞节吃丰盛晚餐，不能调换。",
+        "knowledge_point": "Task 4：春节与圣诞节",
+        "options": [
+          "吃饺子",
+          "做蛋糕",
+          "踢足球",
+          "参观博物馆"
+        ],
+        "question": "一个家庭这样介绍习俗：“At the Spring Festival, we often eat jiaozi. At Christmas, we often have a big dinner.”这个家庭春节经常做什么？",
+        "type": "choice",
+        "id": 80024,
+        "score": 10
+      },
+      {
+        "answer": "excited",
+        "difficulty": 1,
+        "explanation": "题目明确要求表达兴奋、激动，应选excited；sad为难过，worried为担心，thirsty为口渴。",
+        "knowledge_point": "Task 5：生日与情绪",
+        "options": [
+          "thirsty",
+          "worried",
+          "excited",
+          "sad"
+        ],
+        "question": "露西期待生日派对，感到十分“兴奋、激动”。哪个英语词表达这里明确给出的心情？",
+        "type": "choice",
+        "id": 80025,
+        "score": 10
+      },
+      {
+        "answer": "worried",
+        "difficulty": 1,
+        "explanation": "题干明确给出“担心”，对应worried；不能仅按生日情境选happy或excited。",
+        "knowledge_point": "Task 5：生日与情绪",
+        "options": [
+          "excited",
+          "worried",
+          "happy",
+          "sad"
+        ],
+        "question": "本回家找不到妈妈，心里十分“担心”。哪个英语词准确表达题目给出的心情？",
+        "type": "choice",
+        "id": 80026,
+        "score": 10
+      },
+      {
+        "answer": "sad",
+        "difficulty": 1,
+        "explanation": "sad表示难过；happy表示开心，excited表示兴奋，hungry表示饥饿。",
+        "knowledge_point": "Task 5：生日与情绪",
+        "options": [
+          "happy",
+          "sad",
+          "hungry",
+          "excited"
+        ],
+        "question": "朋友不能参加生日派对，艾米感到“难过”。选择与“难过”对应的英语词。",
+        "type": "choice",
+        "id": 80027,
+        "score": 10
+      },
+      {
+        "answer": "What will you do after school?",
+        "difficulty": 2,
+        "explanation": "What will you do询问将做什么；其他问句分别询问过去的活动、位置或生日日期。",
+        "knowledge_point": "Task 5：生日与情绪",
+        "options": [
+          "What will you do after school?",
+          "What did you do after school?",
+          "Where are you?",
+          "When is your birthday?"
+        ],
+        "question": "想询问同学“你放学后将做什么？”，应选择哪一句？",
+        "type": "choice",
+        "id": 80028,
+        "score": 10
+      },
+      {
+        "answer": "visit",
+        "difficulty": 1,
+        "explanation": "will后接动词原形visit；visits、visiting和visited都不能直接放在这里。",
+        "knowledge_point": "Task 5：生日与情绪",
+        "options": [
+          "visit",
+          "visited",
+          "visits",
+          "visiting"
+        ],
+        "question": "选择正确的词：I will ___ my good friend after school.",
+        "type": "choice",
+        "id": 80029,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "在这个对话中，Me, too.表示乙也将去拜访自己的好朋友，并不表示两人一定拜访同一个人。",
+        "knowledge_point": "Task 5：生日与情绪",
+        "options": [],
+        "question": "甲说“I will visit my good friend.”，乙回答“Me, too.”。判断正误：乙表示自己也将去拜访自己的好朋友。",
+        "type": "true_false",
+        "id": 80030,
+        "score": 10
+      },
+      {
+        "answer": "cooking room",
+        "difficulty": 1,
+        "explanation": "there指向前句中的cooking room，因此做蛋糕的地点是烹饪教室。",
+        "knowledge_point": "Task 6：My School Life",
+        "options": [
+          "basketball club",
+          "cooking room",
+          "gym",
+          "museum"
+        ],
+        "question": "杰克介绍：“There is a cooking room in my school. We can make cakes there.”这里there指哪个地点？",
+        "type": "choice",
+        "id": 80031,
+        "score": 10
+      },
+      {
+        "answer": "做运动",
+        "difficulty": 1,
+        "explanation": "do sports表示做运动；另外三项不符合给出的句子。",
+        "knowledge_point": "Task 6：My School Life",
+        "options": [
+          "做运动",
+          "做蛋糕",
+          "洗碗",
+          "买食物"
+        ],
+        "question": "杰克介绍：“There is a gym, too. We do sports in it.”学生在体育馆里做什么？",
+        "type": "choice",
+        "id": 80032,
+        "score": 10
+      },
+      {
+        "answer": "basketball",
+        "difficulty": 1,
+        "explanation": "原句明确说明最喜爱的运动是basketball；art是美术，另外两项是其他运动。",
+        "knowledge_point": "Task 6：My School Life",
+        "options": [
+          "basketball",
+          "football",
+          "swimming",
+          "art"
+        ],
+        "question": "杰克说：“My favourite sport is basketball.”他最喜爱的运动是什么？",
+        "type": "choice",
+        "id": 80033,
+        "score": 10
+      },
+      {
+        "answer": "art",
+        "difficulty": 1,
+        "explanation": "原句明确说明最喜爱的学科是art；不是英语、音乐或科学。",
+        "knowledge_point": "Task 6：My School Life",
+        "options": [
+          "English",
+          "science",
+          "music",
+          "art"
+        ],
+        "question": "杰克说：“My favourite subject is art. I like drawing pictures.”他最喜爱的学科是什么？",
+        "type": "choice",
+        "id": 80034,
+        "score": 10
+      },
+      {
+        "answer": "is; are",
+        "difficulty": 2,
+        "explanation": "a gym是单数名词短语，用is；two cooking rooms是复数名词短语，用are。",
+        "knowledge_point": "Task 6：My School Life",
+        "options": [
+          "is; are",
+          "are; is",
+          "is; is",
+          "are; are"
+        ],
+        "question": "依次选择正确的词：There ___ a gym in my school. There ___ two cooking rooms.",
+        "type": "choice",
+        "id": 80035,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "Sometimes表示有时，不表示每天。",
+        "knowledge_point": "Task 6：My School Life",
+        "options": [],
+        "question": "杰克说：“Sometimes we visit the museum.”判断正误：这句话说明他们每天都参观博物馆。",
+        "type": "true_false",
+        "id": 80036,
+        "score": 10
+      },
+      {
+        "answer": "Dog and Duck",
+        "difficulty": 2,
+        "explanation": "狗先说将做饮料，鸭用Me, too.表示也将这样做；熊猫在该片段中只是提问。",
+        "knowledge_point": "Task 7：聚会与分工",
+        "options": [
+          "Panda",
+          "Panda and Dog",
+          "Dog and Duck",
+          "Panda and Duck"
+        ],
+        "question": "阅读片段：Panda asks, “Who will make drinks?” “I will make drinks,” says Dog. “Me, too,” says Duck. 谁表示将做饮料？",
+        "type": "choice",
+        "id": 80037,
+        "score": 10
+      },
+      {
+        "answer": "Playing with his ball.",
+        "difficulty": 1,
+        "explanation": "句子明确说明狗正在玩球；没有说他正在做饮料、买食物或洗碗。",
+        "knowledge_point": "Task 7：聚会与分工",
+        "options": [
+          "Buying food.",
+          "Washing the dishes.",
+          "Playing with his ball.",
+          "Making drinks."
+        ],
+        "question": "阅读片段：Panda comes back with some food. Dog is playing with his ball. 熊猫回来时，狗正在做什么？",
+        "type": "choice",
+        "id": 80038,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "is swimming表示正在游泳，不表示已经做好饮料；No one makes drinks还说明没有人做饮料。",
+        "knowledge_point": "Task 7：聚会与分工",
+        "options": [],
+        "question": "阅读片段：Duck is swimming. No one makes drinks. 判断正误：这两句说明鸭已经做好饮料。",
+        "type": "true_false",
+        "id": 80039,
+        "score": 10
+      },
+      {
+        "answer": "你没有帮忙。",
+        "difficulty": 2,
+        "explanation": "didn't是did not的缩写，表示过去没有做某事，因此didn't help表示没有帮忙。",
+        "knowledge_point": "Task 7：聚会与分工",
+        "options": [
+          "你将会帮忙。",
+          "你没有帮忙。",
+          "你正在帮忙。",
+          "请你帮忙。"
+        ],
+        "question": "熊猫说：“You didn't help.”这句话是什么意思？",
+        "type": "choice",
+        "id": 80040,
+        "score": 10
+      },
+      {
+        "answer": "聚会后做清洁",
+        "difficulty": 2,
+        "explanation": "do the cleaning表示做清洁，after the party表示聚会后；不能改成洗碗或聚会前。",
+        "knowledge_point": "Task 7：聚会与分工",
+        "options": [
+          "聚会后洗碗",
+          "聚会前买食物",
+          "聚会后做清洁",
+          "聚会前做清洁"
+        ],
+        "question": "狗说：“I'm sorry. But I will do the cleaning after the party.”狗承诺做什么？",
+        "type": "choice",
+        "id": 80041,
+        "score": 10
+      },
+      {
+        "answer": "Can I have something to drink?",
+        "difficulty": 2,
+        "explanation": "口渴时请求喝的东西用something to drink；something to eat是吃的东西，另外两项不是请求饮料。",
+        "knowledge_point": "Task 7：聚会与分工",
+        "options": [
+          "Can I have something to drink?",
+          "Can I have something to eat?",
+          "Who will buy food?",
+          "I will wash the dishes."
+        ],
+        "question": "在聚会上，你口渴了，想礼貌地询问能否喝点东西。哪句话准确表达这个请求？",
+        "type": "choice",
+        "id": 80042,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Review·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "cook",
+        "difficulty": 1,
+        "explanation": "cook和foot中的oo都读/ʊ/；其余三个词中的目标元音不同。",
+        "knowledge_point": "Task 1：语音归类",
+        "options": [
+          "mouth",
+          "cook",
+          "head",
+          "sea"
+        ],
+        "question": "比较元音读音：哪个词中的oo与foot中的oo读音相同？",
+        "type": "choice",
+        "id": 89001,
+        "score": 10
+      },
+      {
+        "answer": "周日看电影",
+        "difficulty": 2,
+        "explanation": "Sunday表示周日，see a film表示看电影；不是周六，也不是踢足球。",
+        "knowledge_point": "Task 2：周末活动听辨",
+        "options": [
+          "周六看电影",
+          "周日看电影",
+          "周六踢足球",
+          "周日踢足球"
+        ],
+        "question": "以下为自编听辨练习的文字材料：On Saturday, I will play football. On Sunday, I will see a film. 说话人周日的计划是什么？",
+        "type": "choice",
+        "id": 89002,
+        "score": 10
+      },
+      {
+        "answer": "was; is",
+        "difficulty": 2,
+        "explanation": "then表示过去，单数主语用was；now表示现在，单数主语用is。",
+        "knowledge_point": "Task 3：人物今昔变化",
+        "options": [
+          "was; is",
+          "were; is",
+          "is; was",
+          "was; are"
+        ],
+        "question": "选择依次填入两处空格的词：My brother ___ short then. Now he ___ tall.",
+        "type": "choice",
+        "id": 89003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "get together表示团聚，不表示买食物。",
+        "knowledge_point": "Task 4：春节与圣诞节",
+        "options": [],
+        "question": "判断正误：句子“At Christmas, we get together.”中的get together表示“买食物”。",
+        "type": "true_false",
+        "id": 89004,
+        "score": 10
+      },
+      {
+        "answer": "have",
+        "difficulty": 1,
+        "explanation": "will后接动词原形，所以选have；has、having和had均不符合这里的结构。",
+        "knowledge_point": "Task 5：生日与情绪",
+        "options": [
+          "has",
+          "had",
+          "having",
+          "have"
+        ],
+        "question": "选择正确的词：Tomorrow is my birthday. I will ___ a party after school.",
+        "type": "choice",
+        "id": 89005,
+        "score": 10
+      },
+      {
+        "answer": "Panda",
+        "difficulty": 2,
+        "explanation": "第一句说明熊猫买食物，第二句说明熊猫还将做饮料；没有说狗或鸭做了这两项工作。",
+        "knowledge_point": "Task 7：聚会与分工",
+        "options": [
+          "Panda",
+          "Dog",
+          "Duck",
+          "Dog and Duck"
+        ],
+        "question": "阅读给定片段：Panda comes back with some food. “Well, I will make drinks,” says Panda. 根据这两句，谁既买了食物，又表示将做饮料？",
+        "type": "choice",
+        "id": 89006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "只看拼写相似，不比较题目指定字母或字母组合的读音。",
+        "认为ea在所有词中读音相同，混淆head和sea中的ea。",
+        "把sky中的y与happy中的词尾y归为同一种读音。"
+      ],
+      "core_concept": "本页按标红字母或字母组合的读音归类。sky、fly、my中的y读/aɪ/；head、breakfast、sweater中的ea读/e/；cook、book、foot中的oo读/ʊ/；mouth、housework、about中的ou读/aʊ/；happy、party、busy中的词尾y读/i/；sea、teacher、clean中的ea读/iː/。比较的是目标部分，不是整个单词。",
+      "key_formula": "",
+      "point": "Task 1：语音归类",
+      "tips": "先明确要比较的字母，再轻声读词、比较目标音。拼写相同不保证发音相同；本页的ea就有两种读音。以下配套题为新编练习，不要求重做教材连线。"
+    },
+    {
+      "common_mistakes": [
+        "把Saturday与Sunday听混，导致活动与星期对调。",
+        "只记住活动，没有记录活动对应的时间。",
+        "根据教材图片自行认定连线答案，或把自编材料当作教材听力原文。"
+      ],
+      "core_concept": "本任务训练提取周末时间与活动之间的对应关系。Saturday表示星期六，Sunday表示星期日。教材的日期卡为Saturday 9和Sunday 10，活动图涉及看望长辈、看电影、踢足球和家庭用餐；图片本身不能确定音频中的时间分配。听力连线需要根据实际听到的信息作答。",
+      "key_formula": "",
+      "point": "Task 2：周末活动听辨",
+      "tips": "听前辨认星期和活动，听时分别记录“哪一天—做什么”，听后核对是否对调。下面六题均为自编听辨练习的文字版，可由领读者朗读，不是教材音频转写。"
+    },
+    {
+      "common_mistakes": [
+        "看到then仍用is描述本课中的过去状态。",
+        "hair在表示一个人的头发整体时误与are或were搭配。",
+        "把身高的tall、short与情绪的happy混淆。"
+      ],
+      "core_concept": "本任务通过人物今昔比较复习状态表达。then表示那时，now表示现在。描述一个人过去的样子可说He was short then.，描述现在可说Now he is tall.。描述头发可说His hair was short.，描述过去的情绪可说He was happy.。辨认人物时可用Is it ...?，肯定回答为Yes, it is.。",
+      "key_formula": "",
+      "point": "Task 3：人物今昔变化",
+      "tips": "先确定过去还是现在，再选择was或is；随后检查主语和描述的特征。连贯介绍时可先说过去，再说现在，不要把两个时间的特征调换。"
+    },
+    {
+      "common_mistakes": [
+        "漏掉at the Spring Festival中的the，或在at Christmas中随意添加the。",
+        "在We often后误用eats、has或动词-ing形式。",
+        "把教材介绍的家庭习俗说成所有家庭都必须遵守的规则。",
+        "把the family只能接一种动词形式当成绝对规则；教材此处强调家人，用get together。"
+      ],
+      "core_concept": "本任务比较春节与圣诞节的家庭活动。教材使用at the Spring Festival和at Christmas引出节日情境，使用the family get together介绍家人团聚。描述经常进行的活动可用We often eat jiaozi.或We often have a big dinner.。介绍习俗时用一般现在时，并明确是哪个家庭、哪个节日的活动。",
+      "key_formula": "",
+      "point": "Task 4：春节与圣诞节",
+      "tips": "可按“节日—和谁一起—经常做什么”介绍。We often后使用动词原形。family是集合名词，不能笼统地把gets判为任何语境都错；本课保留教材强调家庭成员的get用法。"
+    },
+    {
+      "common_mistakes": [
+        "把sad、worried、excited和happy混为一谈。",
+        "仅凭“生日”推断人物必定开心，忽略故事中的事件变化。",
+        "在will后使用visits或visiting，而不是动词原形visit。",
+        "把情绪填空的推测答案写进教材原文。"
+      ],
+      "core_concept": "本任务复习生日情境中的情绪与计划表达。sad表示难过，excited表示兴奋，happy表示开心，worried表示担心。理解情绪时要联系具体事件；独立练习应给出明确的心情线索，不能把一种可能感受当成唯一事实。What will you do after school?用于询问放学后的计划，回答可用I will visit my good friend.，will后接动词原形。",
+      "key_formula": "",
+      "point": "Task 5：生日与情绪",
+      "tips": "先读事件和明确的情绪提示，再选词。表达计划时先用will，再用动词原形。Me, too.表示“我也一样”。"
+    },
+    {
+      "common_mistakes": [
+        "There is与复数设施搭配，或There are与a gym搭配。",
+        "混淆favourite sport与favourite subject，把运动当成学科。",
+        "没有根据前句确认there或it指代的地点。",
+        "照抄杰克的情况，误把范文内容当作自己学校的真实情况。"
+      ],
+      "core_concept": "本任务阅读杰克的校园生活介绍，并学习按设施及用途、运动、学科、参观活动和总体感受组织短文。There is后可接a cooking room、a gym等单数名词短语，There are后接复数名词。My favourite sport is ...介绍最喜爱的运动，My favourite subject is ...介绍最喜爱的学科；I like drawing pictures.表达喜欢画画。",
+      "key_formula": "",
+      "point": "Task 6：My School Life",
+      "tips": "阅读时把设施和用途配对，分清运动与学科。写作时先列真实信息，再组织句子；无需提供真实姓名或学校地址。每道阅读事实题都应附上作答所需的原句。"
+    },
+    {
+      "common_mistakes": [
+        "把I will make drinks误读成已经做好饮料。",
+        "把is playing、is swimming表示的正在进行的动作当作将来计划。",
+        "忽视didn't help的否定意义，误认为狗和鸭已经帮了忙。",
+        "把after the party的承诺放到聚会前，或对调狗和鸭承诺的工作。"
+      ],
+      "core_concept": "故事按商量分工、实际准备、请求饮食、道歉和承诺的顺序展开。will加动词原形表示将来的计划或承诺；is playing、is swimming表示正在进行的动作；didn't help表示先前没有帮忙。阅读时必须区分角色说要做的事和实际做的事。Can I have something to drink/eat?用于请求饮料或食物，Help yourselves.表示请自便。",
+      "key_formula": "",
+      "point": "Task 7：聚会与分工",
+      "tips": "分别记录每个角色的计划、行动和后续承诺。故事结尾的清洁、洗碗尚属承诺，不是已经完成的工作。讨论合作时依据具体行为，不把人物一次没有帮忙扩大成对人物的永久评价。"
+    }
+  ]
+}

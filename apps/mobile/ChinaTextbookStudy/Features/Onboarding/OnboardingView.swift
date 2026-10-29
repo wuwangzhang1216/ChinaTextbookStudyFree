@@ -10,6 +10,7 @@ struct OnboardingView: View {
     @State private var step = 0
     @State private var selectedGrade = 1
     @State private var selectedBookId: String?
+    @State private var schoolSystem = "6-3"
     /// Guards double-taps on the primer buttons while the system alert is up.
     @State private var requestingAuth = false
 
@@ -94,7 +95,7 @@ struct OnboardingView: View {
 
             ScrollView(.horizontal, showsIndicators: false) {
                 HStack(spacing: 10) {
-                    ForEach(1...6, id: \.self) { g in
+                    ForEach(1...(schoolSystem == "5-4" ? 5 : 6), id: \.self) { g in
                         gradeChip(g)
                     }
                 }
@@ -103,6 +104,11 @@ struct OnboardingView: View {
 
             ScrollView {
                 VStack(spacing: 12) {
+                    Picker("学制", selection: $schoolSystem) {
+                        Text("六三制").tag("6-3")
+                        Text("五四制").tag("5-4")
+                    }
+                    .pickerStyle(.segmented)
                     ForEach(booksForGrade, id: \.id) { book in
                         bookRow(book)
                     }
@@ -116,6 +122,11 @@ struct OnboardingView: View {
                 .padding(.horizontal, 20)
                 .padding(.bottom, 20)
             }
+            .onChange(of: schoolSystem) { _, value in
+                selectedBookId = nil
+                if value == "5-4" && selectedGrade > 5 { selectedGrade = 5 }
+            }
+            .onChange(of: selectedGrade) { _, _ in selectedBookId = nil }
 
             Button(selectedBookId == nil ? "先选一本课本" : "下一步") {
                 withAnimation(Motion.reveal) { step = 2 }
@@ -127,7 +138,9 @@ struct OnboardingView: View {
         }
     }
 
-    private var booksForGrade: [Book] { siteIndex.books.filter { $0.grade == selectedGrade } }
+    private var booksForGrade: [Book] {
+        siteIndex.books.filter { $0.grade == selectedGrade && ($0.schoolSystem ?? "6-3") == schoolSystem }
+    }
 
     private func gradeChip(_ g: Int) -> some View {
         let selected = selectedGrade == g
@@ -161,6 +174,9 @@ struct OnboardingView: View {
                 }
                 VStack(alignment: .leading, spacing: 3) {
                     Text(book.fullName).duoFont(.subhead).foregroundStyle(DuoColors.ink).lineLimit(2).multilineTextAlignment(.leading)
+                    if let edition = book.sourceEdition {
+                        Text(edition).duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
+                    }
                     Text("\(book.unitsCount) 单元 · \(book.lessonsCount) 节")
                         .duoFont(.caption).foregroundStyle(DuoColors.inkMuted)
                 }

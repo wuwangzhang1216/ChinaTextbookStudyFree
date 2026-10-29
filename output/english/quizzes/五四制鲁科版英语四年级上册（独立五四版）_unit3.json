@@ -1,0 +1,621 @@
+{
+  "textbook": "义务教育教科书（五·四学制）英语（三年级起点）四年级 上册",
+  "unit": "Unit 3 Days of the Week",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Unit 3 Days of the Week·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "Thursday",
+        "difficulty": 1,
+        "explanation": "Thursday是星期四；Tuesday是星期二，Wednesday是星期三，Friday是星期五。",
+        "knowledge_point": "What day is today?",
+        "options": [
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "question": "“星期四”对应哪个英语单词？",
+        "type": "choice",
+        "id": 30001,
+        "score": 10
+      },
+      {
+        "answer": "It’s",
+        "difficulty": 1,
+        "explanation": "完整回答为It’s Tuesday，即It is Tuesday；其余选项不构成正确回答。",
+        "knowledge_point": "What day is today?",
+        "options": [
+          "I",
+          "We",
+          "It’s",
+          "Have"
+        ],
+        "question": "今天是星期二。选择正确的词补全问答：“What day is today?”“___ Tuesday.”",
+        "type": "choice",
+        "id": 30002,
+        "score": 10
+      },
+      {
+        "answer": "We have science on Friday.",
+        "difficulty": 2,
+        "explanation": "只有该句同时表达我们、星期五和科学课；其他选项分别改变了学科、星期或句意。",
+        "knowledge_point": "What day is today?",
+        "options": [
+          "We have music on Friday.",
+          "We have science on Monday.",
+          "I like Friday.",
+          "We have science on Friday."
+        ],
+        "question": "一张新课程表注明：我们星期五有科学课。哪句英语与这一信息一致？",
+        "type": "choice",
+        "id": 30003,
+        "score": 10
+      },
+      {
+        "answer": "Wednesday",
+        "difficulty": 2,
+        "explanation": "题干明确给出星期三第2节是English，其他三个星期第2节均为别的学科。",
+        "knowledge_point": "What day is today?",
+        "options": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday"
+        ],
+        "question": "一张新课程表的第2节课安排为：星期一Chinese，星期二maths，星期三English，星期四art。哪一天第2节是英语课？",
+        "type": "choice",
+        "id": 30004,
+        "score": 10
+      },
+      {
+        "answer": "I like Tuesday.",
+        "difficulty": 1,
+        "explanation": "I like Tuesday表示我喜欢星期二；其余选项分别表示当天星期、课程和星期四的课程。",
+        "knowledge_point": "What day is today?",
+        "options": [
+          "It’s Tuesday.",
+          "I like Tuesday.",
+          "We have English on Tuesday.",
+          "We have science on Thursday."
+        ],
+        "question": "选择表达“我喜欢星期二”的句子。",
+        "type": "choice",
+        "id": 30005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Monday是星期名称，首字母应大写；规范写法为It’s Monday.。",
+        "knowledge_point": "What day is today?",
+        "options": [],
+        "question": "判断正误：在规范英语句子“It’s monday.”中，monday的首字母不需要大写。",
+        "type": "true_false",
+        "id": 30006,
+        "score": 10
+      },
+      {
+        "answer": "We",
+        "difficulty": 1,
+        "explanation": "题目要求表达我们，应选We；I是我，He是他，She是她。",
+        "knowledge_point": "I can dance on Friday.",
+        "options": [
+          "She",
+          "He",
+          "We",
+          "I"
+        ],
+        "question": "要表达“我们星期一可以画画”，应填哪个词？“___ can draw pictures on Monday.”",
+        "type": "choice",
+        "id": 30007,
+        "score": 10
+      },
+      {
+        "answer": "dance",
+        "difficulty": 1,
+        "explanation": "can后接动词原形dance，不用dances、dancing或danced。",
+        "knowledge_point": "I can dance on Friday.",
+        "options": [
+          "danced",
+          "dances",
+          "dance",
+          "dancing"
+        ],
+        "question": "选择正确形式填空：“I can ___ on Tuesday.”",
+        "type": "choice",
+        "id": 30008,
+        "score": 10
+      },
+      {
+        "answer": "on",
+        "difficulty": 1,
+        "explanation": "表示在具体星期几做某事，使用on加星期；这里不用in、at或to。",
+        "knowledge_point": "I can dance on Friday.",
+        "options": [
+          "on",
+          "in",
+          "at",
+          "to"
+        ],
+        "question": "选择正确的词填空：“We can play football ___ Thursday.”",
+        "type": "choice",
+        "id": 30009,
+        "score": 10
+      },
+      {
+        "answer": "I can play the piano on Friday.",
+        "difficulty": 2,
+        "explanation": "只有该句同时符合我、星期五和弹钢琴三个信息；其他选项改变了主语、活动或星期。",
+        "knowledge_point": "I can dance on Friday.",
+        "options": [
+          "We can play the piano on Friday.",
+          "I can play the piano on Friday.",
+          "I can draw pictures on Friday.",
+          "I can play the piano on Monday."
+        ],
+        "question": "一份新活动安排写着：我，星期五，弹钢琴。选择与这份安排完全一致的句子。",
+        "type": "choice",
+        "id": 30010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "We表示我们，不是我；句意为我们星期三可以画画。",
+        "knowledge_point": "I can dance on Friday.",
+        "options": [],
+        "question": "判断正误：“We can draw pictures on Wednesday.”中的We表示“我”。",
+        "type": "true_false",
+        "id": 30011,
+        "score": 10
+      },
+      {
+        "answer": "Thursday",
+        "difficulty": 2,
+        "explanation": "给定记录中make things与Thursday对应，其他三个星期均不符合。",
+        "knowledge_point": "I can dance on Friday.",
+        "options": [
+          "Friday",
+          "Tuesday",
+          "Thursday",
+          "Monday"
+        ],
+        "question": "小林的新活动记录是：“I can make things on Thursday.” 制作物品安排在哪一天？",
+        "type": "choice",
+        "id": 30012,
+        "score": 10
+      },
+      {
+        "answer": "What do you do on Sunday?",
+        "difficulty": 1,
+        "explanation": "该句询问星期日做什么；其余问句分别询问当天星期、星期六活动和星期二课程。",
+        "knowledge_point": "What do you do on Saturday?",
+        "options": [
+          "What day is today?",
+          "What do you do on Saturday?",
+          "What do you do on Sunday?",
+          "What subjects do we have on Tuesday?"
+        ],
+        "question": "想问同伴“你星期日做什么”，应选哪个问句？",
+        "type": "choice",
+        "id": 30013,
+        "score": 10
+      },
+      {
+        "answer": "I often play basketball.",
+        "difficulty": 1,
+        "explanation": "often表示经常，play basketball表示打篮球；其他选项改变了活动或表达的含义。",
+        "knowledge_point": "What do you do on Saturday?",
+        "options": [
+          "I often play football.",
+          "I often play basketball.",
+          "I can play basketball.",
+          "I often play the piano."
+        ],
+        "question": "选择准确表达“我经常打篮球”的句子。",
+        "type": "choice",
+        "id": 30014,
+        "score": 10
+      },
+      {
+        "answer": "often",
+        "difficulty": 1,
+        "explanation": "often意为经常；today是今天，Monday是星期一，picture是图画。",
+        "knowledge_point": "What do you do on Saturday?",
+        "options": [
+          "Monday",
+          "picture",
+          "today",
+          "often"
+        ],
+        "question": "要表达“我经常画画”，选择合适的词：“I ___ draw pictures.”",
+        "type": "choice",
+        "id": 30015,
+        "score": 10
+      },
+      {
+        "answer": "星期六",
+        "difficulty": 1,
+        "explanation": "Saturday表示星期六，不是星期日、星期一或星期五。",
+        "knowledge_point": "What do you do on Saturday?",
+        "options": [
+          "星期五",
+          "星期一",
+          "星期日",
+          "星期六"
+        ],
+        "question": "小明纠正同伴说：“No! It’s Saturday today.” 这句话说明今天是星期几？",
+        "type": "choice",
+        "id": 30016,
+        "score": 10
+      },
+      {
+        "answer": "picture",
+        "difficulty": 1,
+        "explanation": "picture的规范拼写是p-i-c-t-u-r-e；其余选项有字母遗漏或顺序错误。",
+        "knowledge_point": "What do you do on Saturday?",
+        "options": [
+          "pictrue",
+          "pictur",
+          "picture",
+          "pitcure"
+        ],
+        "question": "下面哪个选项是“图画”的正确英语拼写？",
+        "type": "choice",
+        "id": 30017,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Let’s go and play表示邀请大家一起去玩，不是在询问星期。",
+        "knowledge_point": "What do you do on Saturday?",
+        "options": [],
+        "question": "判断正误：“Let’s go and play.”可以用来邀请别人一起去玩。",
+        "type": "true_false",
+        "id": 30018,
+        "score": 10
+      },
+      {
+        "answer": "We have music today.",
+        "difficulty": 1,
+        "explanation": "have music表示有音乐课；其他选项分别表示喜欢音乐、今天星期三和弹钢琴。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I like music.",
+          "It’s Wednesday.",
+          "We have music today.",
+          "I can play the piano."
+        ],
+        "question": "选择表达“我们今天有音乐课”的句子。",
+        "type": "choice",
+        "id": 30019,
+        "score": 10
+      },
+      {
+        "answer": "Friday",
+        "difficulty": 1,
+        "explanation": "on Friday说明可以跳舞的时间是星期五，其他三个星期与给定句子不符。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Sunday",
+          "Monday",
+          "Saturday",
+          "Friday"
+        ],
+        "question": "小华说：“I can dance on Friday.” 小华说自己哪一天可以跳舞？",
+        "type": "choice",
+        "id": 30020,
+        "score": 10
+      },
+      {
+        "answer": "I often play the erhu on Saturday.",
+        "difficulty": 2,
+        "explanation": "often表示经常，play the erhu表示拉二胡，Saturday表示星期六；其他选项改变了频率表达、活动或星期。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I can play the erhu on Saturday.",
+          "I often play football on Saturday.",
+          "I often play the erhu on Sunday.",
+          "I often play the erhu on Saturday."
+        ],
+        "question": "选择准确表达“我星期六经常拉二胡”的句子。",
+        "type": "choice",
+        "id": 30021,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "big中的i读/ɪ/，kite中的i读/aɪ/，两者不同。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：big和kite中的字母i发音相同。",
+        "type": "true_false",
+        "id": 30022,
+        "score": 10
+      },
+      {
+        "answer": "like",
+        "difficulty": 2,
+        "explanation": "like中的i与time中的i都读/aɪ/；big中的i读/ɪ/，pen和bed中的e读/e/。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "like",
+          "big",
+          "pen",
+          "bed"
+        ],
+        "question": "下面哪个单词中的元音字母与time中的i发音相同？",
+        "type": "choice",
+        "id": 30023,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "pen中的p和cap中的p都读/p/；字母所在位置不同不影响这两个词中的该发音。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：pen和cap中的字母p都读/p/。",
+        "type": "true_false",
+        "id": 30024,
+        "score": 10
+      },
+      {
+        "answer": "一件外套",
+        "difficulty": 1,
+        "explanation": "a coat表示一件外套；其余选项都不是coat的含义。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "一幅画",
+          "一架钢琴",
+          "一件外套",
+          "一个足球"
+        ],
+        "question": "巴依说：“Avanti, make a coat for me.” 他请阿凡提制作什么？",
+        "type": "choice",
+        "id": 30025,
+        "score": 10
+      },
+      {
+        "answer": "blue",
+        "difficulty": 1,
+        "explanation": "给定话语明确包含not blue；purple、brown和orange没有出现在这份排除清单中。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "purple",
+          "blue",
+          "orange",
+          "brown"
+        ],
+        "question": "巴依说：“Not red, not blue, not black, not white, not green, and not yellow.” 下列哪个颜色词在他明确排除的清单中？",
+        "type": "choice",
+        "id": 30026,
+        "score": 10
+      },
+      {
+        "answer": "什么时候可以取衣服",
+        "difficulty": 2,
+        "explanation": "when询问时间；结合制作外套的背景，get it指取衣服，不是询问颜色、课程或活动。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "什么时候可以取衣服",
+          "星期六做什么活动",
+          "外套是什么颜色",
+          "星期二有什么课"
+        ],
+        "question": "巴依请阿凡提做外套，随后问“When can I get it?”。他这句话想问什么？",
+        "type": "choice",
+        "id": 30027,
+        "score": 10
+      },
+      {
+        "answer": "星期日之后",
+        "difficulty": 2,
+        "explanation": "after Sunday表示星期日之后，不是星期日当天或之前；句中也未指定星期五。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "星期五下午",
+          "星期日当天",
+          "星期日之后",
+          "星期日之前"
+        ],
+        "question": "巴依说：“Oh, I can get it after Sunday.” 其中after Sunday是什么意思？",
+        "type": "choice",
+        "id": 30028,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "给定话语明确说not Thursday，表示星期四不行，并没有答应星期四交衣服。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断正误：阿凡提说“No. Not Thursday, not Friday, not Saturday, and not Sunday.”，这表示他答应星期四交衣服。",
+        "type": "true_false",
+        "id": 30029,
+        "score": 10
+      },
+      {
+        "answer": "星期与活动",
+        "difficulty": 1,
+        "explanation": "一周活动小书应记录哪一天开展什么活动；其余三项与这一学习任务无关。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "真实家庭住址",
+          "私人电话号码",
+          "星期与活动",
+          "衣服价格"
+        ],
+        "question": "要制作一本用于练习本单元英语的一周活动小书，下面哪项最应该作为记录内容？",
+        "type": "choice",
+        "id": 30030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 3 Days of the Week·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "It’s Monday.",
+        "difficulty": 1,
+        "explanation": "已知今天是星期一，询问星期应回答It’s Monday；其余选项分别表达喜好、课程和活动。",
+        "knowledge_point": "What day is today?",
+        "options": [
+          "I like Monday.",
+          "We have maths on Monday.",
+          "It’s Monday.",
+          "I can dance on Monday."
+        ],
+        "question": "今天是星期一。有人问“What day is today?”，应选哪句回答？",
+        "type": "choice",
+        "id": 39001,
+        "score": 10
+      },
+      {
+        "answer": "We can make things on Thursday.",
+        "difficulty": 2,
+        "explanation": "We表示我们，can表示可以，make things表示制作物品，on Thursday表示在星期四；其余选项改变了人物、活动或星期。",
+        "knowledge_point": "I can dance on Friday.",
+        "options": [
+          "I can make things on Thursday.",
+          "We can make things on Tuesday.",
+          "We can draw pictures on Thursday.",
+          "We can make things on Thursday."
+        ],
+        "question": "选择表达“我们星期四可以制作物品”的句子。",
+        "type": "choice",
+        "id": 39002,
+        "score": 10
+      },
+      {
+        "answer": "Sunday",
+        "difficulty": 2,
+        "explanation": "问句中的on Sunday明确询问星期日，不能根据回答中的活动改判为其他星期。",
+        "knowledge_point": "What do you do on Saturday?",
+        "options": [
+          "Saturday",
+          "Sunday",
+          "Friday",
+          "Monday"
+        ],
+        "question": "一段新对话是：“What do you do on Sunday?”“I often draw pictures.” 问话者询问的是哪一天的活动？",
+        "type": "choice",
+        "id": 39003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "have English表示上英语课，不能理解为踢足球；踢足球是play football。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：“We have English today.”的意思是“我们今天踢足球”。",
+        "type": "true_false",
+        "id": 39004,
+        "score": 10
+      },
+      {
+        "answer": "七天都被排除了",
+        "difficulty": 2,
+        "explanation": "所给两段话合起来排除了Monday至Sunday全部七天，并非只排除工作日或只排除周末。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "只排除了星期一",
+          "只排除了星期一至星期五",
+          "只排除了星期六和星期日",
+          "七天都被排除了"
+        ],
+        "question": "阿凡提先说“But not Monday, not Tuesday, and not Wednesday.”，接着说“No. Not Thursday, not Friday, not Saturday, and not Sunday.” 这些话合起来说明什么？",
+        "type": "choice",
+        "id": 39005,
+        "score": 10
+      },
+      {
+        "answer": "What day is today?",
+        "difficulty": 2,
+        "explanation": "星期翻牌显示的是当天星期，应询问What day is today；其他问句询问活动、课程或颜色。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "What day is today?",
+          "What colour would you like?",
+          "What do you do on Saturday?",
+          "What subjects do we have on Tuesday?"
+        ],
+        "question": "两名同学用星期翻牌练习。甲想问乙“今天是星期几”，乙准备根据翻牌回答“It’s Tuesday.”。甲应问哪一句？",
+        "type": "choice",
+        "id": 39006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把What day is today理解为询问具体日期。",
+        "把It’s漏写成It，或把星期首字母写成小写。",
+        "把Tuesday和Thursday混淆。",
+        "没有按题目提供的课程安排判断学科与星期的对应。"
+      ],
+      "core_concept": "认识Monday星期一、Tuesday星期二、Wednesday星期三、Thursday星期四、Friday星期五。用What day is today询问当天星期，用It’s加星期回答；用I like加星期表达喜好，用We have加学科说明课程。结合课程表练习What subjects do we have on Tuesday等问句。",
+      "key_formula": "What day is today? — It’s + 星期. / I like + 星期. / We have + 学科 + on + 星期.",
+      "point": "What day is today?",
+      "tips": "回答星期时直接说It’s Wednesday；说明某天有课时使用on Wednesday。PE是体育，music是音乐，science是科学。课程表中的空白表示没有提供该格的课程，不能据此断言那天完全没有课。"
+    },
+    {
+      "common_mistakes": [
+        "在can后把dance写成dances。",
+        "混淆I can和We can的主语。",
+        "把play football写成play the football，或把play the piano中的the漏掉。",
+        "表达具体星期的活动时漏写on，或把星期首字母写成小写。"
+      ],
+      "core_concept": "根据课外活动安排，用I can说明自己某个星期几可以开展的活动，用We can说明集体可以开展的活动。活动包括draw pictures、dance、play the piano、play football和make things。",
+      "key_formula": "I/We can + 动词原形（及其他活动词语）+ on + 星期.",
+      "point": "I can dance on Friday.",
+      "tips": "I表示我，We表示我们。can后使用动词原形；星期名称首字母大写。例如：We can draw pictures on Friday. 表达今天下午时可用this afternoon，不在它前面加on。"
+    },
+    {
+      "common_mistakes": [
+        "混淆Saturday星期六和Sunday星期日。",
+        "把询问周末活动的问句当成询问当天星期。",
+        "把often理解为将要，误将习惯说成将来计划。",
+        "误认为回答必须带often才正确；often用于明确表达经常，并非每个合适回答都必须包含它。"
+      ],
+      "core_concept": "学习Saturday、Sunday，用What do you do on Saturday或Sunday询问周末活动，用I often或We often加活动说明经常做的事。理解主对话中把星期六当成上学日的误会，以及Let’s go and play的邀请。练习football、picture、draw、play的拼写。",
+      "key_formula": "What do you do on + 星期? — I/We often + 活动.",
+      "point": "What do you do on Saturday?",
+      "tips": "often通常放在本课活动动词之前，例如I often play basketball。踢足球用play football，弹钢琴用play the piano。询问哪一天，就围绕哪一天的活动回答；经常性活动不等同于未来计划。"
+    },
+    {
+      "common_mistakes": [
+        "混淆询问星期、课程和活动的问句。",
+        "把can表示的可以开展的活动与often表示的经常性活动混为一谈。",
+        "把big和kite中的i读成相同的音。"
+      ],
+      "core_concept": "综合复习星期、当天课程、某天可以开展的活动及周末习惯。能用星期和活动制作一周活动记录并交流。结合up、pen、cap、play感知p的发音，结合big、lab、bed、job感知b的发音，结合kite、nice、like、time感知i在这些词中的发音。七天名称通过歌曲复习，歌曲不列为主阅读。",
+      "key_formula": "What day is today? — It’s + 星期. / We have + 学科 + today. / I can + 动词原形 + on + 星期. / I often + 活动.",
+      "point": "Again, please!",
+      "tips": "先辨认问题询问什么，再回答。制作记录时分别写清星期和活动。p在本课词例中读/p/，b读/b/；kite、nice、like、time中的i读/aɪ/，big中的i读/ɪ/。"
+    },
+    {
+      "common_mistakes": [
+        "把not后面的星期理解为可以取衣服的日期。",
+        "把after Sunday理解成星期日当天。",
+        "根据故事最后一句自行补写实际交衣日期或结局。",
+        "制作星期学习工具时混淆星期拼写或漏写首字母大写。"
+      ],
+      "core_concept": "阅读Avanti and Bay，理解巴依要求做外套、排除多种颜色以及阿凡提排除一周七天的幽默。辨认七个星期词，依据实际话语理解故事，不推断未交代的结局。通过自评、一周活动小书和可翻换的星期工具练习词汇及问答。",
+      "key_formula": "What day is today? — It’s + 星期.",
+      "point": "Try yourself.",
+      "tips": "阅读时把颜色和星期分开记录。not表示否定，after表示在……之后。结尾是巴依说自己能在星期日之后取衣服，不等于故事已经确定交衣日期。活动小书可用虚构安排，不必填写个人隐私。"
+    }
+  ]
+}

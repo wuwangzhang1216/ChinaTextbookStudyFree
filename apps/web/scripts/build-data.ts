@@ -561,6 +561,13 @@ async function processTextbook(
   if (outline.edition && !/^[a-z0-9-]+$/.test(outline.edition)) {
     throw new Error(`Invalid edition ID in ${outlineFile}`);
   }
+  if (outline.schoolSystem && !["6-3", "5-4"].includes(outline.schoolSystem)) {
+    throw new Error(`Invalid school system in ${outlineFile}`);
+  }
+  if (outline.schoolSystem === "5-4" &&
+      (grade > 5 || !outline.edition || !outline.publisherLabel || outline.supersedes)) {
+    throw new Error(`Five-four primary books require an independent edition, publisher and grade 1–5: ${outlineFile}`);
+  }
   const bookId = outline.edition ? `${parsed.bookId}-${outline.edition}` : parsed.bookId;
   const editionSuffix = outline.editionLabel ? `（${outline.editionLabel}）` : "";
   if (outline.requiredPassageTitles?.length) {
@@ -754,11 +761,16 @@ async function processTextbook(
     semesterName,
     subjectName: subject.name,
     textbookName: `${gradeName}${semesterName}${editionSuffix}`,
-    fullName: `${subject.publisherLabel}小学${subject.name}${gradeName}${semesterName}${editionSuffix}`,
+    fullName: `${outline.publisherLabel ?? subject.publisherLabel}小学${subject.name}${gradeName}${semesterName}${editionSuffix}`,
+    ...(outline.schoolSystem ? { schoolSystem: outline.schoolSystem } : {}),
+    ...(outline.publisherLabel ? { publisherLabel: outline.publisherLabel } : {}),
+    ...(outline.sourceEdition ? { sourceEdition: outline.sourceEdition } : {}),
+    ...(outline.sourcePrinting ? { sourcePrinting: outline.sourcePrinting } : {}),
     editionLabel: outline.editionLabel,
     supersedes: outline.supersedes,
     unitsCount: outline.units.filter(u => !u.label).length,
-    activitiesCount: outline.units.filter(u => !!u.label).length || undefined,
+    activitiesCount: outline.units.filter(u => !!u.label &&
+      (outline.schoolSystem !== "5-4" || u.label === "综合与实践")).length || undefined,
     lessonsCount: allLessons.length,
   };
 
@@ -855,7 +867,9 @@ async function main() {
     const sb = subjectOrder[b.subject ?? "math"] ?? 99;
     if (sa !== sb) return sa - sb;
     if (a.semester !== b.semester) return a.semester === "up" ? -1 : 1;
-    return a.grade - b.grade;
+    if (a.grade !== b.grade) return a.grade - b.grade;
+    // A parallel school system must not become the fallback book for existing learners.
+    return Number(a.schoolSystem === "5-4") - Number(b.schoolSystem === "5-4");
   });
 
   const index: SiteIndex = {

@@ -9,7 +9,7 @@ interface JumpOutline {
 
 /** A jump may only assess an existing destination and a complete prerequisite bank. */
 export async function loadJumpData(bookId: string, unitNumber: number, fetcher: typeof fetch = fetch) {
-  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(bookId) || !Number.isInteger(unitNumber) || unitNumber < 2) {
+  if (!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(bookId) || !Number.isInteger(unitNumber) || unitNumber < 1) {
     throw new Error('跳级链接不完整，回到学习页面再试一次吧');
   }
   const outlineRes = await fetcher(`/data/books/${bookId}/outline.json`);

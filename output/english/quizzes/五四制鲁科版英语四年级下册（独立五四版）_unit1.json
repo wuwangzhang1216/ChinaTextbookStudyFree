@@ -1,0 +1,637 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）四年级下册",
+  "unit": "Unit 1 Countries",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "Unit 1 Countries·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "I'm from China.",
+        "difficulty": 1,
+        "explanation": "角色来自中国，应以第一人称回答I'm from China.；其他选项改变了国家或人物，或仍在提问。",
+        "knowledge_point": "I'm from Britain.",
+        "options": [
+          "I'm from Canada.",
+          "She's from China.",
+          "I'm from China.",
+          "Where are you from?"
+        ],
+        "question": "角色卡说明你扮演的人物来自中国。朋友问：“Where are you from?” 你应如何按角色信息回答？",
+        "type": "choice",
+        "id": 10001,
+        "score": 10
+      },
+      {
+        "answer": "from",
+        "difficulty": 1,
+        "explanation": "I'm from...表示我来自……；其他选项均不能补成符合题意的规范句子。",
+        "knowledge_point": "I'm from Britain.",
+        "options": [
+          "name",
+          "from",
+          "are",
+          "meet"
+        ],
+        "question": "补全句子，表达“我来自英国”：I'm ______ Britain.",
+        "type": "choice",
+        "id": 10002,
+        "score": 10
+      },
+      {
+        "answer": "My name's Lucy.",
+        "difficulty": 1,
+        "explanation": "What's your name?询问姓名。My name's Lucy.与指定姓名一致，其余选项不构成正确的姓名回答。",
+        "knowledge_point": "I'm from Britain.",
+        "options": [
+          "I'm from Lucy.",
+          "My name's Lucy.",
+          "Welcome to Lucy!",
+          "Where are you from?"
+        ],
+        "question": "你扮演的虚构角色名叫Lucy。对方问：“What's your name?” 应选择哪一句？",
+        "type": "choice",
+        "id": 10003,
+        "score": 10
+      },
+      {
+        "answer": "Welcome to China!",
+        "difficulty": 1,
+        "explanation": "Welcome to China!明确表示欢迎来到中国；其余分别是问姓名、介绍来源和初次见面问候。",
+        "knowledge_point": "I'm from Britain.",
+        "options": [
+          "What's your name?",
+          "I'm from China.",
+          "Nice to meet you.",
+          "Welcome to China!"
+        ],
+        "question": "新朋友刚来到中国，你想明确表达“欢迎来到中国！”，应选哪一句？",
+        "type": "choice",
+        "id": 10004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Nice to meet you.是初次见面的礼貌表达；询问来源应说Where are you from?",
+        "knowledge_point": "I'm from Britain.",
+        "options": [],
+        "question": "判断：“Nice to meet you.”是在询问对方来自哪个国家。",
+        "type": "true_false",
+        "id": 10005,
+        "score": 10
+      },
+      {
+        "answer": "the U.S.",
+        "difficulty": 2,
+        "explanation": "本课使用the U.S.表示美国，保留the、大写字母和缩写点；其他选项都是不同国家。",
+        "knowledge_point": "I'm from Britain.",
+        "options": [
+          "Britain",
+          "Canada",
+          "the U.S.",
+          "China"
+        ],
+        "question": "补全角色介绍，明确表达“我来自美国”：I'm from ______.",
+        "type": "choice",
+        "id": 10006,
+        "score": 10
+      },
+      {
+        "answer": "She's from India.",
+        "difficulty": 1,
+        "explanation": "女生用she，印度用India；其余选项改变了性别或国家，或没有作答。",
+        "knowledge_point": "Where's she from?",
+        "options": [
+          "He's from India.",
+          "She's from France.",
+          "She's from India.",
+          "Where's she from?"
+        ],
+        "question": "角色卡写着：Eva，女生，来自India。别人问Eva来自哪里，应选择哪一句介绍她？",
+        "type": "choice",
+        "id": 10007,
+        "score": 10
+      },
+      {
+        "answer": "Where's he from?",
+        "difficulty": 1,
+        "explanation": "题目要求询问男生来源，用Where's he from?；其余问句分别询问女生来源、对方姓名和对方居住地。",
+        "knowledge_point": "Where's she from?",
+        "options": [
+          "Where's she from?",
+          "What's your name?",
+          "Where do you live?",
+          "Where's he from?"
+        ],
+        "question": "你向同伴询问男生Jack来自哪个国家，应使用哪个问句？",
+        "type": "choice",
+        "id": 10008,
+        "score": 10
+      },
+      {
+        "answer": "Yes, he is.",
+        "difficulty": 2,
+        "explanation": "男生确实来自法国，应肯定回答；问句主语是he，不能在简短回答中改成she。",
+        "knowledge_point": "Where's she from?",
+        "options": [
+          "No, he isn't.",
+          "Yes, she is.",
+          "Yes, he is.",
+          "No, she isn't."
+        ],
+        "question": "角色Paul是男生，来自France。有人问：“Is he from France?” 哪个简短回答与角色信息一致？",
+        "type": "choice",
+        "id": 10009,
+        "score": 10
+      },
+      {
+        "answer": "Her",
+        "difficulty": 1,
+        "explanation": "name前表示她的，用Her；She是主语形式，He's表示他是，I'm表示我是，均不符合。",
+        "knowledge_point": "Where's she from?",
+        "options": [
+          "He's",
+          "Her",
+          "She",
+          "I'm"
+        ],
+        "question": "介绍女生Lily的姓名，补全句子：______ name's Lily.",
+        "type": "choice",
+        "id": 10010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "问句询问男生，简短回答应保持he，写成Yes, he is.；不能换成she。",
+        "knowledge_point": "Where's she from?",
+        "options": [],
+        "question": "判断：谈论同一个男生时，问“Is he from Canada?”，可以用“Yes, she is.”作对应的肯定回答。",
+        "type": "true_false",
+        "id": 10011,
+        "score": 10
+      },
+      {
+        "answer": "Australia",
+        "difficulty": 2,
+        "explanation": "Australia表示澳大利亚；India、France、Britain分别表示印度、法国和英国。",
+        "knowledge_point": "Where's she from?",
+        "options": [
+          "India",
+          "France",
+          "Australia",
+          "Britain"
+        ],
+        "question": "要把男生角色的来源国家记为“澳大利亚”，国家信息栏应选择哪个英文名称？",
+        "type": "choice",
+        "id": 10012,
+        "score": 10
+      },
+      {
+        "answer": "Where do you live?",
+        "difficulty": 1,
+        "explanation": "要询问居住城市，应选Where do you live?；其余分别询问来源、姓名和女生来源。",
+        "knowledge_point": "I live in Beijing.",
+        "options": [
+          "What's your name?",
+          "Where are you from?",
+          "Where do you live?",
+          "Where's she from?"
+        ],
+        "question": "角色Amy想知道新朋友现在住在哪座城市，而不是来自哪个国家。她应使用哪个问句？",
+        "type": "choice",
+        "id": 10013,
+        "score": 10
+      },
+      {
+        "answer": "in",
+        "difficulty": 1,
+        "explanation": "表达住在某城市用live in；from用于来源，其他选项不能构成这里的正确表达。",
+        "knowledge_point": "I live in Beijing.",
+        "options": [
+          "from",
+          "is",
+          "in",
+          "are"
+        ],
+        "question": "角色Ben住在渥太华。补全他的介绍：I live ______ Ottawa.",
+        "type": "choice",
+        "id": 10014,
+        "score": 10
+      },
+      {
+        "answer": "beautiful",
+        "difficulty": 1,
+        "explanation": "题目明确要求表达美丽，应用beautiful；famous表示有名，live和from都不符合。",
+        "knowledge_point": "I live in Beijing.",
+        "options": [
+          "famous",
+          "beautiful",
+          "from",
+          "live"
+        ],
+        "question": "补全句子，使第二句表示“它很美丽”：I live in Beijing. It's ______.",
+        "type": "choice",
+        "id": 10015,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "from说明来源，live in说明居住地；一个人可以来自一个国家而住在另一个国家的城市。",
+        "knowledge_point": "I live in Beijing.",
+        "options": [],
+        "question": "判断：虚构角色说“I'm from France. I live in London.”，两句分别表达来源和居住地，并不互相矛盾。",
+        "type": "true_false",
+        "id": 10016,
+        "score": 10
+      },
+      {
+        "answer": "Washington D.C.",
+        "difficulty": 1,
+        "explanation": "Washington D.C.是本课城市名称；另外三个选项都是国家名称。",
+        "knowledge_point": "I live in Beijing.",
+        "options": [
+          "India",
+          "Washington D.C.",
+          "France",
+          "Australia"
+        ],
+        "question": "整理“城市名称”卡片时，下列哪一项应放入城市组，而不是国家组？",
+        "type": "choice",
+        "id": 10017,
+        "score": 10
+      },
+      {
+        "answer": "is",
+        "difficulty": 2,
+        "explanation": "London作为单个城市名称，使用is；are不匹配，live和from不能构成这里的评价句。",
+        "knowledge_point": "I live in Beijing.",
+        "options": [
+          "from",
+          "is",
+          "are",
+          "live"
+        ],
+        "question": "补全句子，表达“伦敦很有名”：London ______ famous.",
+        "type": "choice",
+        "id": 10018,
+        "score": 10
+      },
+      {
+        "answer": "He's from France.",
+        "difficulty": 2,
+        "explanation": "男生用he，来自法国用from France；其余选项分别弄错性别、国家或改成居住信息。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "She's from France.",
+          "He's from Canada.",
+          "He's from France.",
+          "I live in France."
+        ],
+        "question": "角色卡写着：Tom，男生，来自France。要向同伴介绍他的来源，应选哪一句？",
+        "type": "choice",
+        "id": 10019,
+        "score": 10
+      },
+      {
+        "answer": "No, she isn't.",
+        "difficulty": 2,
+        "explanation": "已知女生不来自印度，因此应否定回答；问句主语是she，回答仍用she。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "No, he isn't.",
+          "Yes, she is.",
+          "Yes, he is.",
+          "No, she isn't."
+        ],
+        "question": "角色卡说明女生Rose来自China，不来自India。别人问：“Is she from India?” 请选择与信息一致的简短回答。",
+        "type": "choice",
+        "id": 10020,
+        "score": 10
+      },
+      {
+        "answer": "I'm from Canada. I live in London.",
+        "difficulty": 2,
+        "explanation": "来源为Canada，居住地为London，必须分别用from和live in表达；二者不必被强行配成固定国家与城市组合。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I'm from London. I live in Canada.",
+          "I'm from Canada. I live in London.",
+          "I'm from Canada. I live in Beijing.",
+          "I'm from Britain. I live in London."
+        ],
+        "question": "虚构角色Nora来自加拿大，现在住在伦敦。她的哪段介绍准确表达了这两条信息？",
+        "type": "choice",
+        "id": 10021,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "I'm from Britain.只说明来自英国，没有提供居住城市，不能据此确定住在伦敦。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：仅凭一个人说“I'm from Britain.”，就能确定这个人住在London。",
+        "type": "true_false",
+        "id": 10022,
+        "score": 10
+      },
+      {
+        "answer": "well",
+        "difficulty": 1,
+        "explanation": "well以w开头，与warm相同；jump和June以j开头，music以m开头。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "music",
+          "jump",
+          "well",
+          "June"
+        ],
+        "question": "在本课字母例词中，哪个单词与warm一样以字母w开头？",
+        "type": "choice",
+        "id": 10023,
+        "score": 10
+      },
+      {
+        "answer": "cute",
+        "difficulty": 2,
+        "explanation": "本课例词music和cute中的字母u都读作/juː/；其余三个词中的u不读这个音。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "jump",
+          "cute",
+          "June",
+          "July"
+        ],
+        "question": "按照本课例词的读音，哪个单词中的字母u与music中的字母u读音相同？",
+        "type": "choice",
+        "id": 10024,
+        "score": 10
+      },
+      {
+        "answer": "做衣服",
+        "difficulty": 1,
+        "explanation": "can't make clothes表示不会做衣服；grow rice才是种稻米，其他选项未由该句表达。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "种稻米",
+          "做衣服",
+          "住在城市里",
+          "介绍姓名"
+        ],
+        "question": "故事介绍Riceland的人们：“The people of Riceland grow rice. They can't make clothes.” 这两句说明他们不会做什么？",
+        "type": "choice",
+        "id": 10025,
+        "score": 10
+      },
+      {
+        "answer": "稻米",
+        "difficulty": 1,
+        "explanation": "don't have rice明确表示没有稻米；其余三项不是该句所说缺少的物品。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "衣服",
+          "城市",
+          "稻米",
+          "朋友"
+        ],
+        "question": "故事原句是“The people of Clothesland don't have rice. They are hungry.” 句中明确说Clothesland的人们缺少什么？",
+        "type": "choice",
+        "id": 10026,
+        "score": 10
+      },
+      {
+        "answer": "先交换物品，后成为朋友",
+        "difficulty": 2,
+        "explanation": "给出的叙述先写exchange，再写become good friends，因此应选先交换、后成为朋友；其他选项颠倒或否认了原句信息。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "先成为朋友，后想出交换主意",
+          "先交换物品，后成为朋友",
+          "只交换物品，没有成为朋友",
+          "只成为朋友，没有交换物品"
+        ],
+        "question": "故事连续写道：“They exchange rice and clothes. They become good friends.” 按这两句的叙述顺序，哪一项正确？",
+        "type": "choice",
+        "id": 10027,
+        "score": 10
+      },
+      {
+        "answer": "主意",
+        "difficulty": 1,
+        "explanation": "idea表示主意；人们是people，衣服是clothes，冬天是winter。原题用英文选项回答中文词义，现已修正。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "人们",
+          "衣服",
+          "主意",
+          "冬天"
+        ],
+        "question": "在故事句子“They have a good idea.”中，idea的中文意思是什么？",
+        "type": "choice",
+        "id": 10028,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "They are cold in winter.表示他们冬天感到冷，不是感到热。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "故事说Riceland的人们“The people of Riceland don't have clothes. They are cold in winter.”。判断：这两句说明他们没有衣服，但冬天感到很热。",
+        "type": "true_false",
+        "id": 10029,
+        "score": 10
+      },
+      {
+        "answer": "Anna",
+        "difficulty": 2,
+        "explanation": "My name's后面给出姓名Anna；Britain是来源国家，London是居住城市，China并未出现在角色信息中。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "China",
+          "Britain",
+          "London",
+          "Anna"
+        ],
+        "question": "虚构角色介绍说：“My name's Anna. I'm from Britain. I live in London.” 制作她的信息卡时，“姓名”一栏应填写什么？",
+        "type": "choice",
+        "id": 10030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 1 Countries·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "I'm from India.",
+        "difficulty": 2,
+        "explanation": "题目指定说话者来自印度，应使用I'm from India.；其余选项分别表示居住地、她的来源或姓名。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I live in India.",
+          "She's from India.",
+          "I'm from India.",
+          "My name's Anna."
+        ],
+        "question": "角色Anna来自印度。她要用第一人称说明自己来自哪个国家，应选择哪一句？",
+        "type": "choice",
+        "id": 19001,
+        "score": 10
+      },
+      {
+        "answer": "Is she from Australia?",
+        "difficulty": 2,
+        "explanation": "确认一位女生是否来自澳大利亚，用Is she from Australia?；Where's she from?是询问来源，不是确认指定国家。",
+        "knowledge_point": "Where's she from?",
+        "options": [
+          "Is he from Australia?",
+          "Where's she from?",
+          "Is she from Australia?",
+          "Where are you from?"
+        ],
+        "question": "你想向同伴确认女生Ella是否来自澳大利亚。哪一句符合这一目的？",
+        "type": "choice",
+        "id": 19002,
+        "score": 10
+      },
+      {
+        "answer": "Ottawa",
+        "difficulty": 2,
+        "explanation": "from Canada说明来源；live in Ottawa明确说明居住城市是Ottawa，不能把Canada当成居住城市答案。",
+        "knowledge_point": "I live in Beijing.",
+        "options": [
+          "Beijing",
+          "London",
+          "Canada",
+          "Ottawa"
+        ],
+        "question": "角色Ben介绍说：“I'm from Canada. I live in Ottawa.” 他明确说自己住在哪座城市？",
+        "type": "choice",
+        "id": 19003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Britain是国家专有名称，首字母应大写；正确写法为I'm from Britain.",
+        "knowledge_point": "I'm from Britain.",
+        "options": [],
+        "question": "判断：句子“I'm from britain.”中国家名称的大小写正确。",
+        "type": "true_false",
+        "id": 19004,
+        "score": 10
+      },
+      {
+        "answer": "交换",
+        "difficulty": 2,
+        "explanation": "exchange在故事中表示交换；rice and clothes是交换的物品，不是这个动词的含义。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "衣服",
+          "成为",
+          "种植",
+          "交换"
+        ],
+        "question": "故事原句是“They exchange rice and clothes.”。其中exchange表示什么？",
+        "type": "choice",
+        "id": 19005,
+        "score": 10
+      },
+      {
+        "answer": "先说明姓名，再说明来源国家，最后说明居住城市",
+        "difficulty": 2,
+        "explanation": "My name's介绍姓名，I'm from介绍来源，I live in介绍居住地，顺序与第一项一致。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "先说明姓名，再说明来源国家，最后说明居住城市",
+          "先说明来源国家，再说明姓名，最后说明居住城市",
+          "先说明居住城市，再说明来源国家，最后说明姓名",
+          "只说明姓名，没有说明国家和城市"
+        ],
+        "question": "虚构角色的信息卡介绍是：“My name's Leo. I'm from Britain. I live in Beijing.” 这段介绍按什么顺序组织信息？",
+        "type": "choice",
+        "id": 19006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "询问对方来源用Where are you from?，不能漏掉are。",
+        "回答自己的来源用I'm from...，不能写成I from...。",
+        "问句中的you指对方，回答自己时应改用I。",
+        "China、Canada、Britain等国家名首字母大写；the U.S.按教材形式书写，不能漏掉the。",
+        "What's your name?询问姓名，不能用国家名称代替姓名回答。",
+        "Nice to meet you.是初次见面的礼貌用语，不是询问来源的问句。"
+      ],
+      "core_concept": "本课在欢迎新朋友的情境中学习China、Canada、the U.S.和Britain。用Where are you from?询问对方来自哪里，用I'm from...说明自己的来源；结合Hello!、What's your name?、My name's...和I'm...进行简单交流。理解Welcome to China!表示欢迎来到中国，Nice to meet you.表示初次见面的礼貌问候。导入中出现的第三人称来源问答先作情境理解，在下一课系统学习。",
+      "key_formula": "Where are you from? — I'm from + 国家名.；What's your name? — My name's + 姓名.",
+      "point": "I'm from Britain.",
+      "tips": "角色交流可先打招呼、介绍姓名，再询问来源。用虚构姓名和国家卡片练习即可，不需要提供真实个人信息。书写I'm和name's时保留撇号，并检查国家名的大写。"
+    },
+    {
+      "common_mistakes": [
+        "谈论男生用he，谈论女生用she，不要颠倒。",
+        "Where's是Where is的缩写，不能写成Where are he/she from?",
+        "He's和She's分别是He is和She is的缩写，不能漏掉is。",
+        "Is he/she from...?的简短回答要保持人称一致：Yes, he/she is.或No, he/she isn't.",
+        "Her name's...中的her表示她的，不能写成She's name's...。",
+        "Australia、India、France等国家名要大写，不在本课强行改写为国籍形容词。"
+      ],
+      "core_concept": "本课学习Australia、India和France。用Where's he from?或Where's she from?询问他人来源，用He's from...或She's from...回答。用Is he/she from...?确认他人是否来自某国，并根据事实作肯定或否定回答。介绍女生姓名时可用Her name's...，其中she表示她，her在这里表示她的。结合人物信息整理姓名与来源国家。",
+      "key_formula": "Where's he/she from? — He's/She's from + 国家名.；Is he/she from + 国家名? — Yes, he/she is. / No, he/she isn't.；Her name's + 姓名.",
+      "point": "Where's she from?",
+      "tips": "先确认谈论人物，再选he或she；先核对国家信息，再决定Yes还是No。where问句需要说明来源，is开头的确认问句可用简短肯定或否定回答。"
+    },
+    {
+      "common_mistakes": [
+        "Where do you live?中的do不能省略。",
+        "表达居住地用live in，不能写成live from或漏掉in。",
+        "Where are you from?询问来源，Where do you live?询问居住地，不是同一个问题。",
+        "不能仅根据来源国家推断一个人的现居城市。",
+        "Beijing、Ottawa、London和Washington D.C.都要按教材形式书写。",
+        "评价城市时需要be动词，如London is famous.，不能写成London famous."
+      ],
+      "core_concept": "本课学习Beijing、Ottawa、London、Washington D.C.四个城市名称。用Where do you live?询问对方住在哪里，用I live in...回答；用It's beautiful.表示它很美丽，用城市名加is famous表示某城市很有名。同时区分来源与居住：I'm from...说明来自哪里，I live in...说明住在哪里。",
+      "key_formula": "Where do you live? — I live in + 城市名.；It's beautiful.；城市名 + is famous.",
+      "point": "I live in Beijing.",
+      "tips": "听清问题是在问from还是live。回答居住城市时使用完整的I live in...；书写时核对城市名大小写和Washington D.C.的缩写形式。beautiful是美丽的，famous是有名的，应依据明确语义选用。"
+    },
+    {
+      "common_mistakes": [
+        "from表示来源，live in表示居住，不能互相替换。",
+        "询问他人来源时，he、she要与所指人物一致；确认问句用Is he/she from...?",
+        "回答Is she...?时应保持she与is的对应，不能改用he。",
+        "国家和城市的名称要按规范大写，不能把城市名一律当成国家名。",
+        "字母发音练习只针对本课例词，不能据此认定这些字母在所有单词中都只有一种读音。",
+        "动物与国家配对是课堂游戏，不表示某种动物只能生活在某一个国家。"
+      ],
+      "core_concept": "本课复习来源国家、居住城市和人物介绍，综合使用Where are you from?、Where's he/she from?、Is he/she from...?和Where do you live?，根据已给人物信息进行问答。可按姓名、来源国家、居住城市、简单评价的顺序组织介绍。本课字母例词为j：jump、juice、June、July；w：well、warm、winter、wear；u：music、menu、cute、computer。结合听读感知j、w以及u在这些例词中的读音。国家与动物的配对用于角色交流。",
+      "key_formula": "I'm from + 国家名.；I live in + 城市名.；Is he/she from + 国家名? — Yes, he/she is. / No, he/she isn't.",
+      "point": "Again, please!",
+      "tips": "先确认人物信息，再决定用from还是live in。一般疑问句的简短回答要与问句中的he或she对应。整理介绍时逐项核对姓名、国家和城市，不根据国家自行猜测居住城市。字母例词应结合示范听读练习。"
+    },
+    {
+      "common_mistakes": [
+        "不要把两地的生产能力颠倒：Riceland种稻米，Clothesland做衣服。",
+        "can't表示不能，don't have表示没有，两者表达的信息不同。",
+        "Riceland缺衣服、冬天冷；Clothesland缺稻米、感到饥饿，不能张冠李戴。",
+        "故事先出现困难，再想出主意并交换，最后成为朋友、大家开心。",
+        "idea表示主意，exchange表示交换，不能把词义与题目答案形式混淆。",
+        "个人信息卡练习可使用虚构角色，不填写真实住址、电话等隐私信息。"
+      ],
+      "core_concept": "阅读Riceland and Clothesland：Riceland的人们会种稻米但不会做衣服，没有衣服，冬天感到冷；Clothesland的人们会做衣服但不会种稻米，没有稻米，感到饥饿。后来两地人想出好主意，交换稻米和衣服，成为好朋友，大家都很开心。理解各有所长、互通有无和友好合作的主题。结合Check it.自评能否辨认本单元国家、城市和关键词，能否询问及介绍来源与居住地；结合Learn to learn.制作虚构角色信息卡并作口头介绍。故事拓展词以理解为主，不要求全部默写。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "按“各会生产什么—各缺少什么—怎样解决—结果如何”梳理故事。遇到can't和don't have先辨清否定含义。自评时分别检查词汇、问答和连贯介绍；不会的项目再练习，不随意给自己勾选。"
+    }
+  ]
+}

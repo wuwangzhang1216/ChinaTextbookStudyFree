@@ -110,6 +110,10 @@ export interface Unit {
 
 export interface Outline {
   textbook: string;
+  schoolSystem?: "6-3" | "5-4";
+  publisherLabel?: string;
+  sourceEdition?: string;
+  sourcePrinting?: string;
   edition?: string;
   editionLabel?: string;
   supersedes?: string;
@@ -134,6 +138,10 @@ export interface Book {
   subjectName?: string; // '数学'（显示用）
   textbookName: string; // '三年级上册'
   fullName: string; // '人教版小学数学三年级上册'
+  schoolSystem?: "6-3" | "5-4";
+  publisherLabel?: string;
+  sourceEdition?: string;
+  sourcePrinting?: string;
   editionLabel?: string;
   supersedes?: string;
   supersededBy?: string;

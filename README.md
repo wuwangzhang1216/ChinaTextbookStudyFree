@@ -5,7 +5,7 @@
 <details>
 <summary>版本与资源说明</summary>
 
-> **当前版本 v1.7.3**：当前默认修订版一年级数学首课新增点楼层互动，直接开始学习动作；保留已听讲解、未提交答案、旧教材和已完成成绩。儿童30秒目标及教师、真机和隔日掌握仍待人工验收（#12）。包含 v1.7.2 的拼音修复：修复一年级语文拼音被读成英语字母的问题，使用独立的 Edge 拼音音频地址，并校正拼音单元四道错题。英语音频、旧版教材及已完成成绩保留；该内容改变的课时未提交会话需重新开始。包含 v1.7.1 的对比度、按钮尺寸及数位题修复。v1.7.0 已新增一上、一下、二下、三下、四上、五上、六上七册人教版数学修订版，配套 290 个课时和 2,082 道题，音频采用 Edge；新版使用独立 ID，旧版教材及原成绩保留。连同已更新的二上、三上，覆盖当前官方目录全部九册修订版数学。当前共 58 册版本（44 册当前教材、14 册保留旧版），2,863 个常规课时、18,159 道常规题。
+> **当前版本 v1.8.0**：新增26册五四制教材：青岛版数学、科学各10册（小学1—5年级上下册），鲁科版英语6册（3—5年级上下册）。按原书版次与目录独立编排，增加1,585个常规课时、244个单元挑战和375组英语听读，新增音频使用Edge。五四制与六三制分别选书，新教材使用独立ID，原58册教材和成绩保留。来源为2010—2022年间的相应版次，并非“2026最新版”；[逐册版次、ISBN与目录核对](docs/five-four-2026-10-27/README.md)。继承v1.7.3首课互动、v1.7.2拼音朗读及此前修订教材。#12的教师、儿童与真机验收仍待完成。
 
 </details>
 
@@ -122,7 +122,7 @@
 | 功能 | 说明 |
 |------|------|
 | **单元小测** | 跟着课本章节走，学完一课就能练 |
-| **知识讲解** | 2,537 节常规课均有知识讲解数据，题组每课至少 6 题；见 [当前内容与资源审计](docs/content-audit-v1.4.3.md) |
+| **知识讲解** | 4,448节常规课均有知识讲解，题组每课至少6题；[五四制来源与范围](docs/five-four-2026-10-27/README.md) |
 | **课文听读** | 语文/英语课文逐句朗读，支持跟读练习，展示课本原页 |
 | **跟读录音** | 浏览器内录音与回放，不上传录音；需要 HTTPS 和麦克风授权，暂无语音识别评分 |
 | **课外故事** | 每单元 2 篇 AI 分级故事 + 阅读理解题 + 儿童插画配图 |
@@ -143,7 +143,7 @@
 | 英语 | 人教版 PEP | 三至六年级 | 96 篇 |
 | 科学 | 教科版 | 一至六年级 | — |
 
-**当前资源规模（v1.7.3）**：58 册教材版本（44 册当前版本、14 册旧版兼容）、2,863 个常规课节、385 个单元挑战，常规题 18,159 道、挑战题 4,875 道，另有 936 篇课文和 284 篇故事。这是资源覆盖统计，不代表所有题目已通过教师逐题审核。
+**当前资源规模（v1.8.0）**：84册教材版本（70册当前版本、14册旧版兼容），其中六三制58册、五四制26册；4,448个常规课时、629个单元挑战，常规题27,669道、挑战题6,339道，另有1,311篇/组课文和284篇故事。这是资源覆盖统计，不代表所有题目已通过教师逐题审核。
 
 **历史审计状态（v1.4.3，非当前规模）**：原补齐版的 2,356 课、15,117 道常规题及讲解已恢复；保留 2026 秋版二上数学的 28 课、168 题，以及三节视觉数感示范的 18 题。原数感课的 24 道题另保留为三节巩固练习，旧错题仍可按原记录复习。全库共 2,387 节常规课、15,303 题，缺讲解 0、单题课 0、少于六题课 0。题目及故事题共 20,804 道通过实际判分检查，音频与 Docker 验证通过；教师签审仍为独立待办。详见 [本版审计及验证记录](docs/content-audit-v1.4.3.md)。
 
@@ -153,25 +153,25 @@
 
 ### Docker 全新部署与旧版升级
 
-只需 Git 和 Docker Desktop（Windows/macOS）或 Docker Engine + Compose（Linux），无需在本机安装 Node.js、Python、FFmpeg，也无需 AI API Key。建议预留至少 40 GB 磁盘空间。
+只需 Git 和 Docker Desktop（Windows/macOS）或 Docker Engine + Compose（Linux），无需在本机安装 Node.js、Python、FFmpeg，也无需 AI API Key。建议预留至少100 GB磁盘空间，容纳镜像、构建缓存和资源暂存。
 
 **全新部署**：
 
 ```sh
 git clone --branch main https://github.com/wuwangzhang1216/ChinaTextbookStudyFree.git
 cd ChinaTextbookStudyFree
-docker compose build --build-arg ASSETS_RELEASE=v1.7.3
+docker compose build --build-arg ASSETS_RELEASE=v1.8.0
 docker compose up -d --no-build --wait --wait-timeout 120
 ```
 
-打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载、校验 `v1.7.3` 全部资源，复用已验证的 MP3 与转换缓存，再构建网站。
+打开 [http://localhost:8080](http://localhost:8080)。首次构建自动下载、校验 `v1.8.0` 全部资源，复用已验证的 MP3 与转换缓存，再构建网站。
 
 **从旧版升级**：升级前备份自定义代码，在原项目根目录执行以下命令，并保留原来的 `.env`、Compose 项目名和访问协议、域名/IP、端口；如原先使用 `-p`、`-f` 等参数，以下每条 `docker compose` 命令都沿用这些参数。构建完成后再替换容器，浏览器学习记录继续保存在同一地址下。
 
 ```sh
 git switch main
 git pull --ff-only origin main
-docker compose build --build-arg ASSETS_RELEASE=v1.7.3
+docker compose build --build-arg ASSETS_RELEASE=v1.8.0
 docker compose up -d --no-build --force-recreate --wait --wait-timeout 120
 ```
 
@@ -201,17 +201,17 @@ cd ChinaTextbookStudyFree
 
 ### 2. 下载或升级完整资源
 
-音频、图片和配套数据通过 [v1.7.3 Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.7.3) 分发。音频按体积分为多个独立 ZIP，每个不超过 1.4 GB；新版安装器会下载全部所需分包，先校验，再解压和逐文件核验，已有目录也会正常更新。
+音频、图片和配套数据通过 [v1.8.0 Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.8.0) 分发。音频按体积分为多个独立 ZIP，每个不超过 1.4 GB；新版安装器会下载全部所需分包，先校验，再解压和逐文件核验，已有目录也会正常更新。
 
 ```bash
 # macOS / Linux：在仓库根目录执行
-python3 scripts/install-release.py --tag v1.7.3
+python3 scripts/install-release.py --tag v1.8.0
 
 # Windows PowerShell
-py -3 scripts/install-release.py --tag v1.7.3
+py -3 scripts/install-release.py --tag v1.8.0
 ```
 
-完整包包含 MP3、原路径音频、数据、配图和课本原页，以及可选的匹配源码与现成网站。`manifest.json`、`files.jsonl` 和 `SHA256SUMS` 提供附件及逐文件校验。建议预留至少 40 GB 用于下载、暂存、安装和备份；有本地修改时先备份。离线安装、旧版升级及验证命令见 [安装与升级说明](docs/release-install.md)。
+完整包包含 MP3、原路径音频、数据、配图和课本原页，以及可选的匹配源码与现成网站。`manifest.json`、`files.jsonl` 和 `SHA256SUMS` 提供附件及逐文件校验。建议预留至少80 GB用于下载、暂存和安装，已有备份另计；有本地修改时先备份。离线安装、旧版升级及验证命令见 [安装与升级说明](docs/release-install.md)。
 
 ### 3. 运行 Web 端
 
@@ -225,7 +225,7 @@ npm run dev
 **直接使用现成网站**：无需 Git、Node.js 或 FFmpeg。从 Release 下载新版 `install-release.py`，执行：
 
 ```bash
-python3 install-release.py --tag v1.7.3 --mode static --root ChinaStudyFree-site
+python3 install-release.py --tag v1.8.0 --mode static --root ChinaStudyFree-site
 python3 -m http.server 8080 --directory ChinaStudyFree-site
 ```
 
@@ -298,7 +298,7 @@ open ChinaTextbookStudy.xcodeproj
 
 ### 5. （可选）运行数据生成 Pipeline
 
-当前材料的覆盖统计、教师复核状态和完整性检查见 [当前内容与资源审计](docs/content-audit-v1.4.3.md)。语文课外阅读的历史难度校准与修订流程见 [内容质量审计与升级说明](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/content-quality-review.md)。
+本次新增26册的版次、目录、来源与审校范围见[五四制核对报告](docs/five-four-2026-10-27/README.md)；原题库恢复的历史记录见[旧版审计](docs/content-audit-v1.4.3.md)。语文课外阅读的历史难度校准与修订流程见 [内容质量审计与升级说明](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/blob/codex/publish-tested-web/docs/content-quality-review.md)。
 
 中文补音当前使用 Edge TTS，默认并发 4、每秒最多启动 2 次合成（含重试），失败按指数退避。下面的生成命令只用于修改内容后的重新生成；安装和构建现成 Release 不需要调用在线 TTS。改写内容应先完成样例审阅，再同步文本、配图、音频，并保留原数据备份。
 
@@ -461,7 +461,7 @@ ChinaStudyFree/
 - [ ] 老师端与班级学习报告
 - [ ] iOS / Android 真机完整验收与正式签名、应用商店发布
 
-路线图对应 v1.4.3 修正版。完整材料包支持下载后离线安装；Docker 首次构建需联网下载资源。校园内网的跟读录音需要 HTTPS；全库 PWA 离线预缓存及实体手机 / iPad 验收仍需补充。
+路线图包含历史已完成项，当前版本和资源规模见上方安装与升级说明。完整材料包支持下载后离线安装；Docker 首次构建需联网下载资源。校园内网的跟读录音需要 HTTPS；全库 PWA 离线预缓存及实体手机 / iPad 验收仍需补充。
 
 ---
 

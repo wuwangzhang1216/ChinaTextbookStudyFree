@@ -12,7 +12,7 @@ RUN npm ci --no-audit --no-fund
 
 # Keep the large, verified resource installation cached across UI changes.
 COPY scripts/install-release.py scripts/install-release.py
-ARG ASSETS_RELEASE=v1.7.3
+ARG ASSETS_RELEASE=v1.8.0
 RUN python3 scripts/install-release.py --tag "$ASSETS_RELEASE"
 
 COPY packages/core packages/core

@@ -28,7 +28,22 @@ final class CoreTypesTests: XCTestCase {
             XCTAssertNil(revised.supersededBy)
             XCTAssertEqual(revised.semester, legacy.semester)
         }
-        XCTAssertEqual(index.books.count, 58)
+        XCTAssertEqual(index.books.count, 84)
+        let parallel = index.books.filter { $0.schoolSystem == "5-4" }
+        XCTAssertEqual(parallel.count, 26)
+        XCTAssertEqual(index.books.filter { ($0.schoolSystem ?? "6-3") == "6-3" }.count, 58)
+        XCTAssertEqual(Set(index.books.map(\.id)).count, 84)
+        XCTAssertEqual(parallel.filter { $0.subject == .math }.count, 10)
+        XCTAssertEqual(parallel.filter { $0.subject == .science }.count, 10)
+        XCTAssertEqual(parallel.filter { $0.subject == .english }.count, 6)
+        for book in parallel {
+            XCTAssertTrue((1...5).contains(book.grade))
+            XCTAssertNil(book.supersedes)
+            XCTAssertNil(book.supersededBy)
+            XCTAssertFalse((book.publisherLabel ?? "").isEmpty)
+            XCTAssertFalse((book.sourceEdition ?? "").isEmpty)
+            XCTAssertFalse((book.sourcePrinting ?? "").isEmpty)
+        }
     }
 
     /// QuestionType.rawValue must stay aligned with packages/core/src/types.ts.
@@ -91,6 +106,31 @@ final class CoreTypesTests: XCTestCase {
         let revised = try JSONDecoder().decode(Book.self, from: JSONSerialization.data(withJSONObject: fields))
         XCTAssertEqual(revised.supersedes, "chinese-g2up")
         XCTAssertEqual(revised.editionLabel, "2026秋版")
+    }
+
+    func testParallelSchoolSystemMetadataRoundTripAndLegacyCompatibility() throws {
+        let json = """
+        {"id":"g1up","grade":1,"semester":"up","subject":"math","gradeName":"一年级","semesterName":"上册","textbookName":"一年级上册","fullName":"数学","unitsCount":8,"lessonsCount":30}
+        """.data(using: .utf8)!
+        let legacy = try JSONDecoder().decode(Book.self, from: json)
+        XCTAssertNil(legacy.schoolSystem)
+        XCTAssertNil(legacy.publisherLabel)
+        var fields = try XCTUnwrap(JSONSerialization.jsonObject(with: json) as? [String: Any])
+        fields["id"] = "g1up-54-qingdao"
+        fields["schoolSystem"] = "5-4"
+        fields["publisherLabel"] = "青岛版"
+        fields["sourceEdition"] = "2017年6月第7版"
+        fields["sourcePrinting"] = "2021年6月第68次印刷"
+        let parallel = try JSONDecoder().decode(Book.self, from: JSONSerialization.data(withJSONObject: fields))
+        XCTAssertEqual(parallel.schoolSystem, "5-4")
+        XCTAssertEqual(parallel.publisherLabel, "青岛版")
+        XCTAssertEqual(parallel.sourceEdition, "2017年6月第7版")
+        XCTAssertEqual(parallel.sourcePrinting, "2021年6月第68次印刷")
+        XCTAssertNil(parallel.supersedes)
+        XCTAssertNil(parallel.supersededBy)
+        XCTAssertNotEqual(parallel.id, legacy.id)
+        let reloaded = try JSONDecoder().decode(Book.self, from: JSONEncoder().encode(parallel))
+        XCTAssertEqual(reloaded, parallel)
     }
 
     func testActivityPrerequisitesFollowCatalogOrder() throws {

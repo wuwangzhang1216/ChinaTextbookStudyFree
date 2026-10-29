@@ -95,3 +95,25 @@ for (const edition of revisions) {
 }
 console.log('PASS latest-main learner profiles: actual v13 store, migration, independent progress/rewards/achievements/settings, reading/review/number-sense sessions, reload, theme boot and tab isolation.');
 console.log(`PASS: ${revisions.length} revised editions retain legacy grades and active book through reload; new completion and perfect rewards stay independent.`);
+// Parallel five-four books share a grade/subject with six-three books but never
+// share their progress identities or implicitly replace an explicit selection.
+const fiveFour = JSON.parse(readFileSync('docs/five-four-2026-10-27/source-review.json', 'utf8')).books as {id: string}[];
+assert.equal(fiveFour.length, 26);
+for (const book of fiveFour) {
+  const previousBook = book.id.split('-54-')[0];
+  const previousLesson = `${previousBook}-u1-kp1`, lesson = `${book.id}-u1-kp1`;
+  back.store.getState().recordLessonComplete(previousLesson, '原教材第一课', 1, 10);
+  const previousGrade = structuredClone(back.store.getState().completedLessons[previousLesson]);
+  back.store.getState().setActiveBookId(previousBook);
+  assert.equal(back.store.getState().completedLessons[lesson], undefined);
+  back.store.getState().recordLessonComplete(lesson, '五四制第一课', 0.6, 6);
+  const again = tab(sessionA).store.getState();
+  assert.deepEqual(again.completedLessons[previousLesson], previousGrade);
+  assert.ok(again.completedLessons[lesson]);
+  assert.equal(again.perfectedLessons[previousLesson], true);
+  assert.equal(again.perfectedLessons[lesson], undefined);
+  assert.equal(again.activeBookId, previousBook);
+  again.setActiveBookId(book.id);
+  assert.equal(tab(sessionA).store.getState().activeBookId, book.id);
+}
+console.log('PASS 26 parallel five-four textbooks: old grades/perfect rewards preserved, new grades isolated, explicit selection survives reload.');

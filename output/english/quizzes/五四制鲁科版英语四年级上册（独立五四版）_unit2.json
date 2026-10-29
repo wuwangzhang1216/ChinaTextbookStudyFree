@@ -1,0 +1,617 @@
+{
+  "textbook": "义务教育教科书（五·四学制）英语（三年级起点）四年级 上册",
+  "unit": "Unit 2 Hobbies",
+  "unit_number": 2,
+  "unit_test": {
+    "title": "Unit 2 Hobbies·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "Yes, I do.",
+        "difficulty": 1,
+        "explanation": "Do you like...?的肯定简答用Yes, I do.；am、can和is均不能替换这里的do。",
+        "knowledge_point": "Do you like running?",
+        "options": [
+          "Yes, I am.",
+          "Yes, I do.",
+          "Yes, I can.",
+          "Yes, it is."
+        ],
+        "question": "同伴问：“Do you like singing?”你喜欢唱歌。请选择正确的肯定简短回答。",
+        "type": "choice",
+        "id": 20001,
+        "score": 10
+      },
+      {
+        "answer": "No, I don’t.",
+        "difficulty": 1,
+        "explanation": "不喜欢所问活动时，使用No, I don’t.；其余选项不是这个问句的正确否定简答。",
+        "knowledge_point": "Do you like running?",
+        "options": [
+          "No, I’m not.",
+          "No, I can’t.",
+          "No, I don’t.",
+          "No, it isn’t."
+        ],
+        "question": "同伴问：“Do you like drawing?”你不喜欢画画。请选择正确的否定简短回答。",
+        "type": "choice",
+        "id": 20002,
+        "score": 10
+      },
+      {
+        "answer": "I like skipping.",
+        "difficulty": 1,
+        "explanation": "主语I后用like，跳绳的活动表达是skipping；其余选项分别误用likes、skip或多加am。",
+        "knowledge_point": "Do you like running?",
+        "options": [
+          "I likes skipping.",
+          "I like skip.",
+          "I am like skipping.",
+          "I like skipping."
+        ],
+        "question": "喜好调查中，你要表达“我喜欢跳绳”。哪一句正确？",
+        "type": "choice",
+        "id": 20003,
+        "score": 10
+      },
+      {
+        "answer": "What do you like?",
+        "difficulty": 1,
+        "explanation": "What do you like?询问喜欢什么；其余三项分别是邀请、陈述自己的喜好和询问是否喜欢唱歌。",
+        "knowledge_point": "Do you like running?",
+        "options": [
+          "Come and skip!",
+          "I like drawing.",
+          "What do you like?",
+          "Do you like singing?"
+        ],
+        "question": "你希望同伴说出自己喜欢什么，而不只是回答“是”或“不是”。哪一句表示“你喜欢什么？”",
+        "type": "choice",
+        "id": 20004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Come and skip!是邀请，回答OK!可以表示接受邀请。",
+        "knowledge_point": "Do you like running?",
+        "options": [],
+        "question": "判断正误：同伴邀请你“Come and skip!”时，你想接受邀请，可以回答“OK!”。",
+        "type": "true_false",
+        "id": 20005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "No, I don’t.表示不喜欢问句所说的活动。这里是否定喜欢打鼓，而不是表示非常喜欢。",
+        "knowledge_point": "Do you like running?",
+        "options": [],
+        "question": "判断正误：问“Do you like playing the drums?”时，回答“No, I don’t.”表示回答者非常喜欢打鼓。",
+        "type": "true_false",
+        "id": 20006,
+        "score": 10
+      },
+      {
+        "answer": "He likes dancing.",
+        "difficulty": 1,
+        "explanation": "Leo是男孩，用He；介绍一个人的喜好用likes，跳舞用dancing。其余选项分别误用like、She或dance。",
+        "knowledge_point": "She likes dancing.",
+        "options": [
+          "He like dancing.",
+          "She likes dancing.",
+          "He likes dancing.",
+          "He likes dance."
+        ],
+        "question": "Leo是男孩，喜欢跳舞。哪一句正确介绍了他的爱好？",
+        "type": "choice",
+        "id": 20007,
+        "score": 10
+      },
+      {
+        "answer": "She likes playing the piano.",
+        "difficulty": 1,
+        "explanation": "Lily是女孩，用She likes；弹钢琴用playing the piano。其余选项的主语、动词或活动形式不正确。",
+        "knowledge_point": "She likes dancing.",
+        "options": [
+          "She likes playing the piano.",
+          "She like playing the piano.",
+          "He likes playing the piano.",
+          "She likes play the piano."
+        ],
+        "question": "Lily是女孩，喜欢弹钢琴。应怎样介绍她的爱好？",
+        "type": "choice",
+        "id": 20008,
+        "score": 10
+      },
+      {
+        "answer": "Sam likes playing the erhu.",
+        "difficulty": 2,
+        "explanation": "Sam是一个人的姓名，后面用likes；拉二胡用playing the erhu。其余选项分别误用like、play或多加is。",
+        "knowledge_point": "She likes dancing.",
+        "options": [
+          "Sam like playing the erhu.",
+          "Sam likes play the erhu.",
+          "Sam is likes playing the erhu.",
+          "Sam likes playing the erhu."
+        ],
+        "question": "Sam喜欢拉二胡。请选择正确的英文介绍。",
+        "type": "choice",
+        "id": 20009,
+        "score": 10
+      },
+      {
+        "answer": "她演奏得好",
+        "difficulty": 1,
+        "explanation": "在演奏情境中，She plays well.表示她演奏得好；没有表达跑步、喜欢打鼓或不喜欢唱歌。",
+        "knowledge_point": "She likes dancing.",
+        "options": [
+          "她演奏得好",
+          "她不喜欢唱歌",
+          "她跑得快",
+          "她喜欢打鼓"
+        ],
+        "question": "一位女孩弹完钢琴后，同伴评价：“She plays well.”这句话是什么意思？",
+        "type": "choice",
+        "id": 20010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "主语She后应使用likes。正确表达是She likes singing.",
+        "knowledge_point": "She likes dancing.",
+        "options": [],
+        "question": "判断正误：“She like singing.”可以正确表达“她喜欢唱歌”。",
+        "type": "true_false",
+        "id": 20011,
+        "score": 10
+      },
+      {
+        "answer": "May",
+        "difficulty": 2,
+        "explanation": "线索She likes singing.指向喜欢唱歌的人，即May；Rose喜欢跳舞、Anna喜欢拉二胡、Lucy喜欢打鼓，都不符合。",
+        "knowledge_point": "She likes dancing.",
+        "options": [
+          "Lucy",
+          "Anna",
+          "Rose",
+          "May"
+        ],
+        "question": "四位女孩的爱好分别是：Rose喜欢跳舞，Anna喜欢拉二胡，May喜欢唱歌，Lucy喜欢打鼓。猜人物的线索是“She likes singing.”，说的是谁？",
+        "type": "choice",
+        "id": 20012,
+        "score": 10
+      },
+      {
+        "answer": "your",
+        "difficulty": 1,
+        "explanation": "询问对方的爱好用your hobby；you不是这里所需的形式，my表示我的，his表示他的。",
+        "knowledge_point": "What’s your hobby?",
+        "options": [
+          "his",
+          "your",
+          "my",
+          "you"
+        ],
+        "question": "你想问面前的同伴“你的爱好是什么？”。补全句子：“What’s ____ hobby?”",
+        "type": "choice",
+        "id": 20013,
+        "score": 10
+      },
+      {
+        "answer": "My hobby is singing.",
+        "difficulty": 1,
+        "explanation": "表达我的爱好是唱歌，用My hobby is singing.；其余选项分别漏掉is、误用I或误用复数hobbies与is搭配。",
+        "knowledge_point": "What’s your hobby?",
+        "options": [
+          "My hobby singing.",
+          "My hobby is singing.",
+          "I hobby is singing.",
+          "My hobbies is singing."
+        ],
+        "question": "你想用My hobby开头表达“我的爱好是唱歌”。哪一句正确？",
+        "type": "choice",
+        "id": 20014,
+        "score": 10
+      },
+      {
+        "answer": "reading",
+        "difficulty": 1,
+        "explanation": "reading表示阅读；cooking是烹饪，paper cutting是剪纸，doing taijiquan是打太极拳。",
+        "knowledge_point": "What’s your hobby?",
+        "options": [
+          "doing taijiquan",
+          "reading",
+          "paper cutting",
+          "cooking"
+        ],
+        "question": "你要表达“我的爱好是阅读”。请选择合适的活动表达补全“My hobby is ____.”。",
+        "type": "choice",
+        "id": 20015,
+        "score": 10
+      },
+      {
+        "answer": "漂亮",
+        "difficulty": 1,
+        "explanation": "How beautiful!表达对事物漂亮的赞美；其余选项不是这句话的意思。",
+        "knowledge_point": "What’s your hobby?",
+        "options": [
+          "漂亮",
+          "很饿",
+          "很累",
+          "很冷"
+        ],
+        "question": "同伴展示一件剪纸作品，你赞叹“How beautiful!”。你是在称赞这件作品怎样？",
+        "type": "choice",
+        "id": 20016,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "doing taijiquan表示打太极拳，可以放在My hobby is后介绍爱好。",
+        "knowledge_point": "What’s your hobby?",
+        "options": [],
+        "question": "判断正误：在句子“My hobby is doing taijiquan.”中，doing taijiquan指打太极拳。",
+        "type": "true_false",
+        "id": 20017,
+        "score": 10
+      },
+      {
+        "answer": "cook",
+        "difficulty": 1,
+        "explanation": "表示烹饪的原形词是cook；cooking、cooks和cooked都不是题目要求的原形。",
+        "knowledge_point": "What’s your hobby?",
+        "options": [
+          "cooking",
+          "cook",
+          "cooks",
+          "cooked"
+        ],
+        "question": "制作活动词卡时，需要写表示“烹饪”的英语动词原形。应选哪一个词？",
+        "type": "choice",
+        "id": 20018,
+        "score": 10
+      },
+      {
+        "answer": "Miss Green likes cooking.",
+        "difficulty": 2,
+        "explanation": "Miss Green是一个人的称呼，后用likes；cooking表示烹饪。其余三项分别误用like、cook或多加is。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Miss Green like cooking.",
+          "Miss Green likes cooking.",
+          "Miss Green likes cook.",
+          "Miss Green is likes cooking."
+        ],
+        "question": "采访时，Miss Green说：“My hobby is cooking.”你应怎样向同学正确汇报她的爱好？",
+        "type": "choice",
+        "id": 20019,
+        "score": 10
+      },
+      {
+        "answer": "No, I don’t.",
+        "difficulty": 1,
+        "explanation": "问句以Do you like开头，否定的简短回答用No, I don’t.；其余三项所用的am、can、is与该问句不匹配。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "No, I’m not.",
+          "No, I can’t.",
+          "No, it isn’t.",
+          "No, I don’t."
+        ],
+        "question": "同伴问：“Do you like playing the piano?”你不喜欢弹钢琴。请选择正确的否定简短回答。",
+        "type": "choice",
+        "id": 20020,
+        "score": 10
+      },
+      {
+        "answer": "唱歌",
+        "difficulty": 1,
+        "explanation": "likes singing表示喜欢唱歌；其余活动均与所给句子不符。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "唱歌",
+          "跑步",
+          "打鼓",
+          "跳绳"
+        ],
+        "question": "一份采访记录写着：“Mr Brown likes singing.”Mr Brown的爱好是什么？",
+        "type": "choice",
+        "id": 20021,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "自述用I like；介绍男孩Tom时可将I换为He，并将like改为likes。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：男孩Tom说“I like skipping.”，向别人介绍Tom的这一爱好时，可以说“He likes skipping.”。",
+        "type": "true_false",
+        "id": 20022,
+        "score": 10
+      },
+      {
+        "answer": "book",
+        "difficulty": 1,
+        "explanation": "book中的k与kite中的k都读/k/；bag中的g读/ɡ/，me和she中的e读/iː/。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "bag",
+          "she",
+          "me",
+          "book"
+        ],
+        "question": "比较指定字母的发音：kite中的k与下面哪个单词中的指定字母发音相同？选项中的指定字母依次是bag的g、me的e、book的k、she的e。",
+        "type": "choice",
+        "id": 20023,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "good中的g读/ɡ/，he中的e读/iː/，二者发音不同。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：good中的字母g和he中的字母e发音相同。",
+        "type": "true_false",
+        "id": 20024,
+        "score": 10
+      },
+      {
+        "answer": "拉小提琴",
+        "difficulty": 1,
+        "explanation": "playing the violin表示拉小提琴，与其他三种乐器不符。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "弹钢琴",
+          "拉二胡",
+          "打鼓",
+          "拉小提琴"
+        ],
+        "question": "阅读句子“The boy likes playing the violin.”。这个男孩喜欢什么活动？",
+        "type": "choice",
+        "id": 20025,
+        "score": 10
+      },
+      {
+        "answer": "他开始演奏得不好",
+        "difficulty": 1,
+        "explanation": "can’t play well表示演奏得不好；句子没有说不喜欢、不练习或不会唱歌。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "他不会唱歌",
+          "他开始演奏得不好",
+          "他每天都不练习",
+          "他不喜欢小提琴"
+        ],
+        "question": "故事开头先说男孩喜欢拉小提琴，接着说“But he can’t play well.”。后一句说明什么？",
+        "type": "choice",
+        "id": 20026,
+        "score": 10
+      },
+      {
+        "answer": "Thank you!",
+        "difficulty": 1,
+        "explanation": "得到赞美后表示感谢，用Thank you!；其余选项分别是询问爱好、否定简答和邀请跳绳，不表示感谢。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "What’s your hobby?",
+          "Thank you!",
+          "No, I don’t.",
+          "Come and skip!"
+        ],
+        "question": "你演奏后，一位长辈说：“You play well. I like it.”你想表示感谢，应选择哪一句？",
+        "type": "choice",
+        "id": 20027,
+        "score": 10
+      },
+      {
+        "answer": "每天",
+        "difficulty": 1,
+        "explanation": "every day的意思是每天，不是每周、每月或每年。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "每天",
+          "每年",
+          "每月",
+          "每周"
+        ],
+        "question": "句子“He plays the violin every day.”中的every day表示什么？",
+        "type": "choice",
+        "id": 20028,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "最后一句明确说明她一点儿也听不见。不能仅凭先前的赞美推断奶奶听得很清楚。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断正误：故事中奶奶说“You play well. I like it.”，母亲后来却说“But she can’t hear at all!”。根据这两句话，可以确定奶奶听得很清楚。",
+        "type": "true_false",
+        "id": 20029,
+        "score": 10
+      },
+      {
+        "answer": "What’s his hobby?",
+        "difficulty": 1,
+        "explanation": "询问画中男孩的爱好，用What’s his hobby?；your询问对方本人，另外两项分别询问喜好和陈述自己的喜好。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "What’s your hobby?",
+          "Do you like singing?",
+          "What’s his hobby?",
+          "I like running."
+        ],
+        "question": "你和同伴正在交流制作好的爱好图。图中是一位男孩，你要问“他的爱好是什么？”，应说哪一句？",
+        "type": "choice",
+        "id": 20030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 2 Hobbies·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "Do you like drawing?",
+        "difficulty": 1,
+        "explanation": "询问对方是否喜欢画画，用Do you like drawing?；其余选项分别是陈述自己、陈述她的喜好和询问爱好，均不符合指定意思。",
+        "knowledge_point": "Do you like running?",
+        "options": [
+          "I like drawing.",
+          "She likes drawing.",
+          "Do you like drawing?",
+          "What’s your hobby?"
+        ],
+        "question": "你想问同伴“你喜欢画画吗？”，应选择哪一句？",
+        "type": "choice",
+        "id": 29001,
+        "score": 10
+      },
+      {
+        "answer": "Amy likes playing the drums.",
+        "difficulty": 2,
+        "explanation": "Amy是一个人的姓名，介绍其爱好用likes；打鼓用playing the drums。其余选项分别误用like、play或多加is。",
+        "knowledge_point": "She likes dancing.",
+        "options": [
+          "Amy like playing the drums.",
+          "Amy likes play the drums.",
+          "Amy is likes playing the drums.",
+          "Amy likes playing the drums."
+        ],
+        "question": "Amy喜欢打鼓。哪一句能正确表达这条信息？",
+        "type": "choice",
+        "id": 29002,
+        "score": 10
+      },
+      {
+        "answer": "拉二胡",
+        "difficulty": 1,
+        "explanation": "playing the erhu表示拉二胡，不是弹钢琴、唱歌或剪纸。",
+        "knowledge_point": "What’s your hobby?",
+        "options": [
+          "剪纸",
+          "唱歌",
+          "弹钢琴",
+          "拉二胡"
+        ],
+        "question": "一位同学说：“My hobby is playing the erhu.”这位同学的爱好是什么？",
+        "type": "choice",
+        "id": 29003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "转述一位女性的爱好时，主语She后要用likes，应说She likes running.",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：一位女同学说“I like running.”，介绍她的爱好时可以说“She like running.”。",
+        "type": "true_false",
+        "id": 29004,
+        "score": 10
+      },
+      {
+        "answer": "她一点儿也听不见",
+        "difficulty": 1,
+        "explanation": "can’t hear at all表示一点儿也听不见；不能理解为听得清楚、不喜欢音乐或每天演奏。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "她每天演奏",
+          "她不喜欢音乐",
+          "她一点儿也听不见",
+          "她听得很清楚"
+        ],
+        "question": "故事结尾有一句：“Dear me! But she can’t hear at all!”其中“But she can’t hear at all!”说明什么？",
+        "type": "choice",
+        "id": 29005,
+        "score": 10
+      },
+      {
+        "answer": "He likes playing football.",
+        "difficulty": 2,
+        "explanation": "介绍男孩的爱好用He likes；踢足球用playing football。其余选项分别误用like、在football前多加the或将He误换为She。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "He like playing football.",
+          "He likes playing the football.",
+          "He likes playing football.",
+          "She likes playing football."
+        ],
+        "question": "Ben是男孩，喜欢踢足球。你用爱好图介绍Ben时，应选择哪一句？",
+        "type": "choice",
+        "id": 29006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "询问对方是否喜欢某项活动，要说Do you like...?，不要漏掉Do。",
+        "肯定的简短回答用Yes, I do.，否定的简短回答用No, I don’t.，不能用Yes, I am.代替。",
+        "介绍自己的喜好用I like，不用I likes。",
+        "本课的跑步、跳绳、唱歌、画画活动表达分别是running、skipping、singing、drawing；不要直接把run等原形填入这些活动表达的位置。"
+      ],
+      "core_concept": "本课学习用Do you like...?询问对方是否喜欢某项活动，并根据实际喜好用Yes, I do.或No, I don’t.回答。教材包含basketball、running、skipping等表达；调查活动还使用singing、drawing。What do you like?询问对方喜欢什么，可用I like...回答。Come and skip!用于邀请同伴来跳绳，OK!可表示接受邀请。导入页还出现playing the drums。",
+      "key_formula": "Do you like + 活动或事物表达? — Yes, I do. / No, I don’t.；What do you like? — I like + 活动或事物表达.",
+      "point": "Do you like running?",
+      "tips": "先辨别问的是“是否喜欢”还是“喜欢什么”：Do you like...?可用肯定或否定简答；What do you like?要说出喜欢的内容。回答喜好调查时不必与同伴选择相同。"
+    },
+    {
+      "common_mistakes": [
+        "介绍一个人的喜好时，He、She或一个人的姓名后用likes，不用like。",
+        "介绍男性用He，介绍女性用She，不把代词混用。",
+        "本课说playing the piano、playing the erhu和playing the drums，不漏掉这些乐器表达中的the。",
+        "He plays well.中的plays表示演奏，well表示好；不要把这句话误解为他喜欢演奏。"
+      ],
+      "core_concept": "本课学习介绍他人的爱好，可用He likes...、She likes...或一个人的姓名加likes。活动包括弹钢琴、拉二胡、打鼓、唱歌和跳舞，分别用playing the piano、playing the erhu、playing the drums、singing、dancing表达。He plays well.用于评价他演奏得好。猜人物活动要把已知爱好与人物对应起来，不凭性别或外貌猜测爱好。",
+      "key_formula": "He/She/一个人的姓名 + likes + 活动表达.",
+      "point": "She likes dancing.",
+      "tips": "将I like...转为介绍他人的话时，既要换主语，也要把like改成likes。先确认题目中的人物信息，再选择He、She或姓名；不要扩大为本课未涉及的系统语法练习。"
+    },
+    {
+      "common_mistakes": [
+        "询问对方的爱好用What’s your hobby?，your不能写成you。",
+        "My hobby is...中的is不能漏掉；使用I like...时则不要再加is。",
+        "活动表达要保持完整，如doing taijiquan、paper cutting、reading、cooking。",
+        "抄写run、sing、cook、dance时按原形写，不把题目要求的原形擅自改成running或dancing。"
+      ],
+      "core_concept": "本课学习用What’s your hobby?询问爱好，并用My hobby is...或I like...回答。结合导入页与家庭成员对话，理解playing the erhu、doing taijiquan、paper cutting、reading、cooking等爱好表达；同伴问答还使用dancing。How beautiful!用于赞美漂亮的作品等事物。抄写活动要求规范书写run、sing、cook、dance四个词。",
+      "key_formula": "What’s your hobby? — My hobby is + 活动表达. / I like + 活动表达.",
+      "point": "What’s your hobby?",
+      "tips": "回答爱好时选用一种完整句型，不把My hobby is和I like混在一起。认读活动表达时将整组词一起记忆；抄写时注意dance末尾的e和cook中两个o。"
+    },
+    {
+      "common_mistakes": [
+        "介绍自己用I like，介绍一位男性或女性用He likes或She likes，不要漏掉likes中的s。",
+        "Do you like...?的简短回答用Yes, I do.或No, I don’t.，不把do换成am。",
+        "采访时问对方用your；转述采访结果时须根据人物选择姓名、He或She。",
+        "本页语音练习中，cook、book的k与kite、kitchen的k发音相同；不要把字母名称当成词中的读音。"
+      ],
+      "core_concept": "本课综合复习询问喜好、询问爱好以及介绍他人爱好。Do you like...?询问是否喜欢，What’s your hobby?询问爱好；回答可用Yes, I do.、No, I don’t.或My hobby is...。采访后用人物姓名或He/She加likes汇报，也可根据寻线活动确认的信息介绍爱好。语音练习限于教材所列词：cook、book、kite、kitchen中的k读/k/，big、bag、girl、good中的g读/ɡ/，we、me、he、she中的e读/iː/。",
+      "key_formula": "I like + 活动表达.；He/She/一个人的姓名 + likes + 活动表达.；What’s your hobby? — My hobby is + 活动表达.",
+      "point": "Again, please!",
+      "tips": "采访时先记录人物和爱好，再把自述转换为介绍他人的句子。寻线时沿同一条线确认终点，不能猜测。语音练习比较指定字母的声音，不按单词长短分类，也不推广为所有单词的发音规则。"
+    },
+    {
+      "common_mistakes": [
+        "故事中的奶奶鼓励男孩，但结尾说明她一点儿也听不见；不能根据表扬的话断定她听得见。",
+        "every day表示每天，作为本故事中的时间表达要分开写。",
+        "listen to me中的to不能漏掉；hear表示听见，不能把两者在故事里的意思混淆。",
+        "初读时不能把男孩最初演奏不好和后来受到赞美的情节颠倒，也不能补写故事没有交代的家庭关系或图外事件。"
+      ],
+      "core_concept": "阅读You play well.，理解男孩喜欢拉小提琴、开始演奏得不好、受到奶奶鼓励、每天演奏，后来又获得赞美的情节。故事最后通过母亲的话揭示奶奶一点儿也听不见，阅读时须结合前后信息理解。重点理解violin、granny、listen to、every day、can’t hear at all以及You play well.等表达。Check it.用于检查本单元词汇、句型和谈论爱好的能力；Learn to learn.展示制作爱好图画、询问并介绍他人爱好的学习方法。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "按连续画面的先后顺序读故事，区分叙述和人物发言。自评时根据自己实际能否认读、表达来检查，不把星数填空当作课文。制作爱好图后，可用What’s his hobby?询问男孩的爱好，再用He likes...介绍。"
+    }
+  ]
+}

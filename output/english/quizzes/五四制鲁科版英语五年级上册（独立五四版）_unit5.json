@@ -1,0 +1,627 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）五年级上册",
+  "unit": "Unit 5 Sports",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 Sports·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "I like basketball.",
+        "difficulty": 1,
+        "explanation": "问题要求表达喜欢的运动，只有I like basketball直接表达“我喜欢篮球”。",
+        "knowledge_point": "What club would you like to join?",
+        "options": [
+          "I like basketball.",
+          "I’m playing basketball.",
+          "Try again, please.",
+          "I played football yesterday."
+        ],
+        "question": "你想用英语说“我喜欢篮球”，回答“What sport do you like?”。应选择哪句？",
+        "type": "choice",
+        "id": 50001,
+        "score": 10
+      },
+      {
+        "answer": "Would you like to join the Basketball Club?",
+        "difficulty": 1,
+        "explanation": "Would you like to join…?询问是否愿意加入；其余问题询问正在做什么、获胜者或过去的运动。",
+        "knowledge_point": "What club would you like to join?",
+        "options": [
+          "Would you like to join the Basketball Club?",
+          "What are they doing now?",
+          "Who won the football match?",
+          "What sport did you play yesterday?"
+        ],
+        "question": "请选择问句，询问同伴是否愿意加入篮球俱乐部。",
+        "type": "choice",
+        "id": 50002,
+        "score": 10
+      },
+      {
+        "answer": "swimming",
+        "difficulty": 1,
+        "explanation": "表达擅长游泳用be good at swimming；这里at后使用swimming。",
+        "knowledge_point": "What club would you like to join?",
+        "options": [
+          "swam",
+          "swimming",
+          "swims",
+          "swim"
+        ],
+        "question": "选择正确的词，表达“我擅长游泳”：I’m good at ____.",
+        "type": "choice",
+        "id": 50003,
+        "score": 10
+      },
+      {
+        "answer": "Don’t worry. Try again!",
+        "difficulty": 1,
+        "explanation": "这句话表示“别担心，再试一次”，符合失误后安慰和鼓励同伴的情境。",
+        "knowledge_point": "What club would you like to join?",
+        "options": [
+          "He’s running to the basket.",
+          "We won the match yesterday.",
+          "Don’t worry. Try again!",
+          "I like table tennis."
+        ],
+        "question": "同伴练球失误，有些担心。你想说“别担心，再试一次”，应选择哪句话？",
+        "type": "choice",
+        "id": 50004,
+        "score": 10
+      },
+      {
+        "answer": "likes",
+        "difficulty": 2,
+        "explanation": "Peter是第三人称单数，介绍他的爱好时用likes。",
+        "knowledge_point": "What club would you like to join?",
+        "options": [
+          "like",
+          "likes",
+          "liking",
+          "to like"
+        ],
+        "question": "调查记录显示Peter喜欢游泳和乒乓球。选择正确的词完成汇报：Peter ____ swimming and table tennis.",
+        "type": "choice",
+        "id": 50005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "已给出的调查记录说明她想加入游泳俱乐部。喜欢篮球不等于一定想加入篮球俱乐部。",
+        "knowledge_point": "What club would you like to join?",
+        "options": [],
+        "question": "调查记录：May喜欢篮球，但她说“I’d like to join the Swimming Club.” 判断：根据这份记录，可以汇报“May想加入篮球俱乐部”。",
+        "type": "true_false",
+        "id": 50006,
+        "score": 10
+      },
+      {
+        "answer": "They are having a basketball match.",
+        "difficulty": 1,
+        "explanation": "they搭配are，are having表示正在进行；其余选项或主谓不一致，或不符合给定的现在情境。",
+        "knowledge_point": "They are having a basketball match.",
+        "options": [
+          "They is having a basketball match.",
+          "They are having a basketball match.",
+          "They had a basketball match.",
+          "They are having a football match."
+        ],
+        "question": "几名男孩此刻正在进行篮球比赛。哪句话准确描述这一情境？",
+        "type": "choice",
+        "id": 50007,
+        "score": 10
+      },
+      {
+        "answer": "He’s running to the basket.",
+        "difficulty": 1,
+        "explanation": "He’s running to the basket表示他正在跑向篮筐，符合题目给出的动作。",
+        "knowledge_point": "They are having a basketball match.",
+        "options": [
+          "He’s swimming.",
+          "He’s joining the Swimming Club.",
+          "He’s running to the basket.",
+          "He’s playing table tennis."
+        ],
+        "question": "Peter此刻正跑向篮筐。别人问“What’s Peter doing?”，应选择哪句回答？",
+        "type": "choice",
+        "id": 50008,
+        "score": 10
+      },
+      {
+        "answer": "He plays well.",
+        "difficulty": 1,
+        "explanation": "plays well表示打得好；另外三个选项分别表示跳得高、拿着球、跑向篮筐。",
+        "knowledge_point": "They are having a basketball match.",
+        "options": [
+          "He jumps high.",
+          "He has the ball.",
+          "He runs to the basket.",
+          "He plays well."
+        ],
+        "question": "观看篮球比赛时，你想称赞一名男孩“他打得好”。应选择哪句话？",
+        "type": "choice",
+        "id": 50009,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Li Ming是第三人称单数，应说Li Ming is playing basketball.",
+        "knowledge_point": "They are having a basketball match.",
+        "options": [],
+        "question": "判断：表示“李明正在打篮球”可以说“Li Ming are playing basketball.”",
+        "type": "true_false",
+        "id": 50010,
+        "score": 10
+      },
+      {
+        "answer": "shoot the ball",
+        "difficulty": 2,
+        "explanation": "篮球比赛中的shoot the ball表示投篮，不是得球或跑向篮筐。",
+        "knowledge_point": "They are having a basketball match.",
+        "options": [
+          "get the ball",
+          "run to the basket",
+          "jump high",
+          "shoot the ball"
+        ],
+        "question": "在篮球比赛中，哪个短语表示“投篮”？",
+        "type": "choice",
+        "id": 50011,
+        "score": 10
+      },
+      {
+        "answer": "What are they doing?",
+        "difficulty": 2,
+        "explanation": "询问他们正在做什么，用What are they doing?；其他选项分别询问爱好、获胜者和俱乐部选择。",
+        "knowledge_point": "They are having a basketball match.",
+        "options": [
+          "What sport do they like?",
+          "Who won the match?",
+          "What are they doing?",
+          "What club would they like to join?"
+        ],
+        "question": "你想询问几名同学“他们正在做什么”，而不是询问爱好或比赛结果。应选哪个问句？",
+        "type": "choice",
+        "id": 50012,
+        "score": 10
+      },
+      {
+        "answer": "played",
+        "difficulty": 1,
+        "explanation": "yesterday说明事情发生在过去，play应使用过去式played。",
+        "knowledge_point": "We had a football match.",
+        "options": [
+          "playing",
+          "played",
+          "plays",
+          "play"
+        ],
+        "question": "选择正确的词：The children ____ football at school yesterday.",
+        "type": "choice",
+        "id": 50013,
+        "score": 10
+      },
+      {
+        "answer": "Class Four",
+        "difficulty": 1,
+        "explanation": "Class Four won明确说明四班获胜；不能因为五班也踢得好就认定五班获胜。",
+        "knowledge_point": "We had a football match.",
+        "options": [
+          "Class Five",
+          "Class Four",
+          "Class One",
+          "Class Two"
+        ],
+        "question": "阅读这段新编比赛记录：Class Four had a football match with Class Five. Both classes played well. Class Four won. 哪个班获胜？",
+        "type": "choice",
+        "id": 50014,
+        "score": 10
+      },
+      {
+        "answer": "传球 → 接球 → 射门",
+        "difficulty": 2,
+        "explanation": "passed、got、shot依次表示传球、接到球、射门，顺序不能颠倒。",
+        "knowledge_point": "We had a football match.",
+        "options": [
+          "接球 → 射门 → 传球",
+          "射门 → 传球 → 接球",
+          "传球 → 接球 → 射门",
+          "传球 → 射门 → 接球"
+        ],
+        "question": "阅读新编比赛记录：At the last minute, Tom passed the ball to Jack. Jack got the ball and shot. 哪个顺序符合这段记录？",
+        "type": "choice",
+        "id": 50015,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "所给原句说Danny用尾巴射门，不是用脚。",
+        "knowledge_point": "We had a football match.",
+        "options": [],
+        "question": "阅读：Danny got the ball and shot with his tail. 判断：Danny用脚完成了这次射门。",
+        "type": "true_false",
+        "id": 50016,
+        "score": 10
+      },
+      {
+        "answer": "非常兴奋",
+        "difficulty": 1,
+        "explanation": "very excited表示非常兴奋，描述赢球后的心情。",
+        "knowledge_point": "We had a football match.",
+        "options": [
+          "非常兴奋",
+          "毫不关心",
+          "十分饥饿",
+          "非常困倦"
+        ],
+        "question": "阅读：Class Two won the match. They were very excited. 获胜后，队员们是什么心情？",
+        "type": "choice",
+        "id": 50017,
+        "score": 10
+      },
+      {
+        "answer": "比赛不容易获胜。",
+        "difficulty": 2,
+        "explanation": "not easy to win表示不容易获胜；它不表示比赛取消，也不表示没有获胜者。",
+        "knowledge_point": "We had a football match.",
+        "options": [
+          "比赛不容易获胜。",
+          "比赛没有获胜者。",
+          "比赛很容易获胜。",
+          "比赛没有举行。"
+        ],
+        "question": "新编比赛日记写道：Both teams played well. It was not easy to win the match. 第二句的意思是什么？",
+        "type": "choice",
+        "id": 50018,
+        "score": 10
+      },
+      {
+        "answer": "They’re swimming.",
+        "difficulty": 1,
+        "explanation": "题目已说明孩子们此刻正在游泳，只有They’re swimming准确描述该活动。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "They’re swimming.",
+          "They’re playing football.",
+          "They’re playing basketball.",
+          "They’re playing table tennis."
+        ],
+        "question": "两名孩子此刻正在游泳。别人问“What are the children doing?”，哪句回答符合这一情境？",
+        "type": "choice",
+        "id": 50019,
+        "score": 10
+      },
+      {
+        "answer": "the tiger",
+        "difficulty": 1,
+        "explanation": "The tiger is the winner明确说明老虎获胜。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "the rabbit",
+          "the lion",
+          "the frog",
+          "the tiger"
+        ],
+        "question": "阅读：The tiger and the lion are running a race. The tiger is the winner. 谁赢得了赛跑？",
+        "type": "choice",
+        "id": 50020,
+        "score": 10
+      },
+      {
+        "answer": "the long jump",
+        "difficulty": 1,
+        "explanation": "doing the long jump表示正在跳远。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "basketball",
+          "the long jump",
+          "swimming",
+          "football"
+        ],
+        "question": "阅读：The rabbit and the frog are doing the long jump. 兔子和青蛙正在参加什么项目？",
+        "type": "choice",
+        "id": 50021,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "she中的sh发/ʃ/，chair中的ch发/tʃ/，两者不同。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：she中的sh与chair中的ch发音相同。",
+        "type": "true_false",
+        "id": 50022,
+        "score": 10
+      },
+      {
+        "answer": "school",
+        "difficulty": 1,
+        "explanation": "school中的oo与too中的oo都发/uː/；其余三个词没有oo字母组合。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "chair",
+          "lunch",
+          "school",
+          "wash"
+        ],
+        "question": "下面哪个词含有与too中相同、且读音相同的字母组合oo？",
+        "type": "choice",
+        "id": 50023,
+        "score": 10
+      },
+      {
+        "answer": "climbing the tree",
+        "difficulty": 2,
+        "explanation": "所给句子明确说猫和熊猫正在爬树。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "climbing the tree",
+          "swimming",
+          "running a race",
+          "doing the long jump"
+        ],
+        "question": "阅读：The cat and the panda are climbing the tree. 猫和熊猫正在做什么？",
+        "type": "choice",
+        "id": 50024,
+        "score": 10
+      },
+      {
+        "answer": "running",
+        "difficulty": 1,
+        "explanation": "The first event is running明确说明第一个项目是跑步。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "gymnastics",
+          "swimming",
+          "running",
+          "the long jump"
+        ],
+        "question": "阅读：It is Animal Sports Day today. The first event is running. 第一个比赛项目是什么？",
+        "type": "choice",
+        "id": 50025,
+        "score": 10
+      },
+      {
+        "answer": "Kangaroo",
+        "difficulty": 1,
+        "explanation": "所给句子明确说明Kangaroo是跳远获胜者。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Kangaroo",
+          "Danny",
+          "Cheetah",
+          "Monkey"
+        ],
+        "question": "阅读：Monkey jumps far. Kangaroo jumps farther. Kangaroo is the winner. 谁赢得了跳远比赛？",
+        "type": "choice",
+        "id": 50026,
+        "score": 10
+      },
+      {
+        "answer": "Monkey → Cheetah",
+        "difficulty": 2,
+        "explanation": "Monkey runs fast说明Monkey跑得快；Cheetah runs faster说明Cheetah比Monkey跑得更快。按由慢到快排列，应先Monkey后Cheetah。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "两者都没有跑步",
+          "Monkey → Cheetah",
+          "Cheetah → Monkey",
+          "两者速度相同"
+        ],
+        "question": "阅读：Monkey runs fast. Cheetah runs faster. 只比较这两个动物，按跑步速度由慢到快排列，应选哪项？",
+        "type": "choice",
+        "id": 50027,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "句子明确说Cheetah和Kangaroo不擅长体操，而Monkey表现好并成为获胜者。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "阅读：Cheetah and Kangaroo are not good at gymnastics. But Monkey does well. Now he is the winner. 判断：Monkey赢得了体操项目。",
+        "type": "true_false",
+        "id": 50028,
+        "score": 10
+      },
+      {
+        "answer": "不确定",
+        "difficulty": 1,
+        "explanation": "not sure表示不确定。它既不表示肯定会赢，也不表示比赛已经结束。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "不确定",
+          "不想参赛",
+          "肯定会赢",
+          "已经获胜"
+        ],
+        "question": "阅读：The last event is gymnastics. Can Monkey win? He’s not sure. 体操比赛结果揭晓前，Monkey对自己能否获胜是什么态度？",
+        "type": "choice",
+        "id": 50029,
+        "score": 10
+      },
+      {
+        "answer": "在卡片上写运动词语，配图或例句，反复抽认",
+        "difficulty": 1,
+        "explanation": "本页学习方法是用卡片学习词语；配图、例句和抽认都直接服务于记忆与运用。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "在卡片上写运动词语，配图或例句，反复抽认",
+          "把不会的词语全部跳过",
+          "只抄写页码，不学习词语",
+          "只记卡片的颜色，不读词语"
+        ],
+        "question": "你想按“用卡片学习词语”的方法复习本单元运动词语。哪种做法符合这一方法？",
+        "type": "choice",
+        "id": 50030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 5 Sports·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "Swimming Club",
+        "difficulty": 1,
+        "explanation": "Swimming Club表示游泳俱乐部，其他三个选项分别对应足球、篮球和乒乓球。",
+        "knowledge_point": "What club would you like to join?",
+        "options": [
+          "Football Club",
+          "Swimming Club",
+          "Basketball Club",
+          "Table Tennis Club"
+        ],
+        "question": "学校开设四个运动俱乐部。请选择“游泳俱乐部”对应的英文名称。",
+        "type": "choice",
+        "id": 59001,
+        "score": 10
+      },
+      {
+        "answer": "are",
+        "difficulty": 1,
+        "explanation": "主语The girls是复数，描述正在进行的动作时用are playing。",
+        "knowledge_point": "They are having a basketball match.",
+        "options": [
+          "am",
+          "is",
+          "are",
+          "be"
+        ],
+        "question": "两名女孩此刻正在打乒乓球。选择正确的词：The girls ____ playing table tennis now.",
+        "type": "choice",
+        "id": 59002,
+        "score": 10
+      },
+      {
+        "answer": "We had a football match yesterday.",
+        "difficulty": 2,
+        "explanation": "yesterday表示昨天，have在这里要用过去式had；其他选项的动词形式不符合句意。",
+        "knowledge_point": "We had a football match.",
+        "options": [
+          "We have a football match yesterday.",
+          "We are having a football match yesterday.",
+          "We has a football match yesterday.",
+          "We had a football match yesterday."
+        ],
+        "question": "选择语法正确、表示“我们昨天进行了一场足球比赛”的句子。",
+        "type": "choice",
+        "id": 59003,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "China和chair中的ch都发/tʃ/，所以判断为对。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：China和chair中的字母组合ch发音相同。",
+        "type": "true_false",
+        "id": 59004,
+        "score": 10
+      },
+      {
+        "answer": "更远",
+        "difficulty": 1,
+        "explanation": "farther在跳远情境中表示“更远”，不是速度更快。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "更慢",
+          "更快",
+          "更远",
+          "更高"
+        ],
+        "question": "读句子：Monkey jumps far. Kangaroo jumps farther. 其中farther表示什么意思？",
+        "type": "choice",
+        "id": 59005,
+        "score": 10
+      },
+      {
+        "answer": "不能确定",
+        "difficulty": 2,
+        "explanation": "所给句子只说明鱼和鸭子正在游泳，没有说明谁获胜，不能把猜测当作事实。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "不能确定",
+          "鸭子已经获胜",
+          "鱼已经获胜",
+          "双方都已获胜"
+        ],
+        "question": "一段运动会介绍只有这句游泳信息：The fish and the duck are swimming. 根据这句信息，能否确定游泳比赛的获胜者？",
+        "type": "choice",
+        "id": 59006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "What sport do you like?询问喜欢的运动；What club would you like to join?询问想加入的俱乐部，不能混为一问。",
+        "I’m good at swimming.是陈述擅长游泳，不是问句；at后不能在这里直接写swim。",
+        "I’d like to join中的to不能漏掉；课文俱乐部名称用the加完整名称，如the Football Club。",
+        "介绍他人时注意第三人称形式：Peter likes…和He wants to join…。"
+      ],
+      "core_concept": "认识Table Tennis Club、Football Club、Basketball Club和Swimming Club。用What sport do you like?询问运动爱好，用I like…回答；用I’m good at…陈述擅长的项目。用What club would you like to join?询问入会意愿，用I’d like to join the…Club.回答，也可用Would you like to join…?询问是否愿意加入。用Don’t worry. Try again!安慰和鼓励失误的同伴，并尝试调查、汇报他人的爱好与选择。",
+      "key_formula": "What sport do you like? — I like basketball.\nWhat club would you like to join? — I’d like to join the Swimming Club.\nI’m good at swimming.\nPeter likes swimming. He wants to join the Swimming Club.",
+      "point": "What club would you like to join?",
+      "tips": "把“喜欢什么”“擅长什么”“想加入哪个俱乐部”分别记录，不要只凭爱好推断入会选择。汇报同伴时，先确认调查所得信息，再使用likes、wants等形式。遇到同伴失误，可用Don’t worry. Try again!鼓励。"
+    },
+    {
+      "common_mistakes": [
+        "描述正在进行的动作时，不能只写动词-ing而漏掉be动词。",
+        "He和Li Ming搭配is；they搭配are；I搭配am，不能只按主语人数一概套用is。",
+        "run变为running时要双写n；have变为having时要去掉末尾不发音的e。",
+        "He’s playing basketball.回答正在做什么；He plays well.评价表现，二者作用不同。"
+      ],
+      "core_concept": "在观看篮球比赛的情境中，用What’s Li Ming doing?和What are they doing?询问正在进行的活动，用is或are加动词-ing回答。理解jump high、get the ball、run to the basket、shoot the ball等动作表达，并用He plays well.或Peter is great!评价表现。Are they doing well?询问他们表现是否出色。",
+      "key_formula": "What’s Li Ming doing? — He’s playing basketball.\nWhat are they doing? — They’re playing table tennis.\nAre they doing well? — Yes, they are.",
+      "point": "They are having a basketball match.",
+      "tips": "先确定人物和动作，再检查be动词与-ing形式。区分basket（篮筐）和basketball（篮球）。描述比赛时，可依次说正在做什么、动作怎样、表现如何，不必把所有表现句都改成现在进行时。"
+    },
+    {
+      "common_mistakes": [
+        "叙述昨天的比赛要注意过去式，如played、had、passed、got、shot、won。",
+        "passed the ball表示传球，got the ball表示接到或得到球，不能颠倒关键动作顺序。",
+        "Class One也踢得好，所以比赛不容易获胜；不能误读为Class One没有参赛。",
+        "原故事中Danny用尾巴射门，不能自行改成用脚射门。"
+      ],
+      "core_concept": "阅读并复述一场已经发生的足球比赛。故事先交代昨天的天气、地点和参赛双方，再说明双方踢得都好；最后时刻Li Ming传球给Danny，Danny接球并用尾巴射门，Class Two获胜，大家很兴奋。学习在具体故事和简短比赛日记中使用过去时表达，按背景、过程、关键动作、结果和心情组织内容。",
+      "key_formula": "叙述已发生的比赛：主语 + 动词过去式 + 其他。\nplay→played；have→had；pass→passed；get→got；shoot→shot；win→won；is→was；are→were。",
+      "point": "We had a football match.",
+      "tips": "先画出比赛事件的先后顺序，再用短句复述或写日记。yesterday是明确的过去时间线索；at the last minute表示最后时刻，其时间背景要结合整段故事判断。写作后检查动词、参赛双方和结果是否一致。"
+    },
+    {
+      "common_mistakes": [
+        "China、chair、lunch、much中的ch发/tʃ/；she、shall、wash、dish中的sh发/ʃ/，两组不能混淆。",
+        "本页too、school、cool、afternoon中的oo都发/uː/，不能误说它们在本页属于不同读音组。",
+        "描述正在发生的活动不能漏掉am、is或are。",
+        "动物运动会阅读只明确老虎赢得赛跑，其他项目的获胜者尚未揭晓，不能把预测写成事实。"
+      ],
+      "core_concept": "综合复习运动爱好、俱乐部选择和比赛描述；结合具体情境区分正在进行的活动和已经发生的比赛。练读本页ch、sh和oo的发音。阅读动物运动会短文，提取动物与项目的对应关系：老虎和狮子赛跑，兔子和青蛙跳远，鱼和鸭子游泳，猫和熊猫爬树；老虎是赛跑获胜者。歌曲是体验活动，不作为主阅读原文。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "把词语按ch、sh、oo分组朗读，再放入短句练习。阅读可用“动物—项目—已知结果”整理信息；未说明的结果留空。复习交流时先确定要表达爱好、入会意愿、正在进行的运动，还是过去的比赛。"
+    },
+    {
+      "common_mistakes": [
+        "faster表示更快，farther表示更远，不能交换使用。",
+        "Monkey thinks he will win.只表示Monkey认为自己会赢，不表示比赛已经获胜。",
+        "不能由某个动物赢得一个项目，推断它赢得所有项目。",
+        "He’s not sure.表示他不确定，不等于他已经输了。"
+      ],
+      "core_concept": "阅读Sports Day，按跑步、跳远、体操的顺序理解故事：Cheetah跑得更快，Kangaroo跳得更远，Monkey体操表现好，三者分别赢得不同项目。借助语境理解faster和farther，认识不同动物各有所长，不展开比较级规则专项教学。结合自评检查运动词语、俱乐部问答和比赛交流能力，并学习用卡片复习词语。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "按“项目—表现—获胜者”整理故事，注意区分赛前想法和比赛结果。做自评时尝试不看书说词语、完成问答、介绍一次比赛。词语卡片可写单词并配图或例句，先尝试回忆，再核对。"
+    }
+  ]
+}

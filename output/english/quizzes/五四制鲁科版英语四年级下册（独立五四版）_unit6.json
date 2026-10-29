@@ -1,0 +1,622 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）四年级下册",
+  "unit": "Unit 6 Travel",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "Unit 6 Travel·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "I'm going to Shanghai.",
+        "difficulty": 1,
+        "explanation": "该句表达去上海。其余分别表达交通方式、活动和当前月份，不能回答指定目的地。",
+        "knowledge_point": "I'm going to Mount Taishan.",
+        "options": [
+          "I'm going to Shanghai.",
+          "By plane.",
+          "I'm going to learn kung fu.",
+          "It's June now."
+        ],
+        "question": "小美计划去上海。朋友询问她的目的地，她应选哪句话回答？",
+        "type": "choice",
+        "id": 60001,
+        "score": 10
+      },
+      {
+        "answer": "Where",
+        "difficulty": 1,
+        "explanation": "Where询问去哪里；How、What、Who分别询问怎样、什么、谁。",
+        "knowledge_point": "I'm going to Mount Taishan.",
+        "options": [
+          "Where",
+          "How",
+          "What",
+          "Who"
+        ],
+        "question": "要询问今年夏天的目的地，补全问句：“___ are you going this summer?”",
+        "type": "choice",
+        "id": 60002,
+        "score": 10
+      },
+      {
+        "answer": "七月",
+        "difficulty": 1,
+        "explanation": "July表示七月；六月为June，八月为August。",
+        "knowledge_point": "I'm going to Mount Taishan.",
+        "options": [
+          "六月",
+          "八月",
+          "五月",
+          "七月"
+        ],
+        "question": "旅行计划写着“I'm going back to Canada in July.”。这位旅行者计划在几月返回加拿大？",
+        "type": "choice",
+        "id": 60003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "the Shaolin Temple表示少林寺，不是泰山。",
+        "knowledge_point": "I'm going to Mount Taishan.",
+        "options": [],
+        "question": "“I'm going to the Shaolin Temple.”的意思是“我打算去泰山”。",
+        "type": "true_false",
+        "id": 60004,
+        "score": 10
+      },
+      {
+        "answer": "I'm going back to Canada.",
+        "difficulty": 2,
+        "explanation": "back to表示返回。其余句子分别表示去大连、去加拿大和返回大连，都没有准确表达指定信息。",
+        "knowledge_point": "I'm going to Mount Taishan.",
+        "options": [
+          "I'm going back to Canada.",
+          "I'm going to Dalian.",
+          "I'm going to Canada.",
+          "I'm going back to Dalian."
+        ],
+        "question": "要明确表达“我打算返回加拿大”，地点和“返回”的意思都必须保留，应选哪句？",
+        "type": "choice",
+        "id": 60005,
+        "score": 10
+      },
+      {
+        "answer": "Yes, I am.",
+        "difficulty": 1,
+        "explanation": "问句用Are you开头，肯定回答用Yes, I am。其余分别是否定回答、月份陈述和祝愿。",
+        "knowledge_point": "I'm going to Mount Taishan.",
+        "options": [
+          "Yes, I am.",
+          "No, I'm not.",
+          "It's June now.",
+          "Have a good time!"
+        ],
+        "question": "你已经决定暑假去旅行。朋友问“Are you going to travel?”，你要作肯定回答，应选哪句？",
+        "type": "choice",
+        "id": 60006,
+        "score": 10
+      },
+      {
+        "answer": "By plane.",
+        "difficulty": 1,
+        "explanation": "计划指定乘飞机，只有By plane符合；其余分别是乘船、乘火车和骑自行车。",
+        "knowledge_point": "How are you going there?",
+        "options": [
+          "By plane.",
+          "By ship.",
+          "By train.",
+          "By bike."
+        ],
+        "question": "小兰计划乘飞机去海南。朋友问“How are you going there?”，她应按计划选择哪项？",
+        "type": "choice",
+        "id": 60007,
+        "score": 10
+      },
+      {
+        "answer": "How",
+        "difficulty": 1,
+        "explanation": "询问出行方式用How；Where问地点，What问什么，Who问谁。",
+        "knowledge_point": "How are you going there?",
+        "options": [
+          "What",
+          "Where",
+          "Who",
+          "How"
+        ],
+        "question": "你想问对方打算怎样去已经提到的地方。补全问句：“___ are you going there?”",
+        "type": "choice",
+        "id": 60008,
+        "score": 10
+      },
+      {
+        "answer": "by ship",
+        "difficulty": 1,
+        "explanation": "ship表示船，by ship表示乘船；其他三项的交通工具不符合中文意思。",
+        "knowledge_point": "How are you going there?",
+        "options": [
+          "by ship",
+          "by bike",
+          "by train",
+          "by plane"
+        ],
+        "question": "哪一个短语表示“乘船”？",
+        "type": "choice",
+        "id": 60009,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Where询问目的地。要问交通方式应使用How。",
+        "knowledge_point": "How are you going there?",
+        "options": [],
+        "question": "“Where are you going?”是在询问对方乘什么交通工具出行。",
+        "type": "true_false",
+        "id": 60010,
+        "score": 10
+      },
+      {
+        "answer": "I'm going there by bike.",
+        "difficulty": 2,
+        "explanation": "there前不加to，by bike中不加a。其余三项分别在there前、bike前或going前多加了词。",
+        "knowledge_point": "How are you going there?",
+        "options": [
+          "I'm going there by bike.",
+          "I'm going to there by bike.",
+          "I'm going there by a bike.",
+          "I'm go going there by bike."
+        ],
+        "question": "目的地已经说过了。要规范表达“我打算骑自行车去那里”，哪一句正确？",
+        "type": "choice",
+        "id": 60011,
+        "score": 10
+      },
+      {
+        "answer": "交通方式",
+        "difficulty": 2,
+        "explanation": "by plane说明怎样出行，不说明目的地、月份或计划活动。",
+        "knowledge_point": "How are you going there?",
+        "options": [
+          "出行月份",
+          "计划开展的活动",
+          "交通方式",
+          "目的地"
+        ],
+        "question": "旅行记录表设有“目的地、交通方式、出行月份、计划开展的活动”四栏。短语“by plane”应填入哪一栏？",
+        "type": "choice",
+        "id": 60012,
+        "score": 10
+      },
+      {
+        "answer": "I'm going to learn kung fu.",
+        "difficulty": 1,
+        "explanation": "learn kung fu表示学习功夫。其余分别说目的地、交通方式或返回某地，不是指定活动。",
+        "knowledge_point": "What are you going to do there?",
+        "options": [
+          "I'm going to learn kung fu.",
+          "I'm going to Mount Taishan.",
+          "By train.",
+          "I'm going back to Canada."
+        ],
+        "question": "小杰计划在少林寺学习功夫。别人问“What are you going to do there?”，哪句符合他的活动计划？",
+        "type": "choice",
+        "id": 60013,
+        "score": 10
+      },
+      {
+        "answer": "看日出",
+        "difficulty": 1,
+        "explanation": "see the sunrise表示看日出，不是学习功夫、在海里游泳或参观大连。",
+        "knowledge_point": "What are you going to do there?",
+        "options": [
+          "参观大连",
+          "看日出",
+          "在海里游泳",
+          "学习功夫"
+        ],
+        "question": "小宁说“I'm going to see the sunrise.”。她打算做什么？",
+        "type": "choice",
+        "id": 60014,
+        "score": 10
+      },
+      {
+        "answer": "八月",
+        "difficulty": 1,
+        "explanation": "August表示八月。June和July分别表示六月和七月。",
+        "knowledge_point": "What are you going to do there?",
+        "options": [
+          "六月",
+          "七月",
+          "八月",
+          "五月"
+        ],
+        "question": "计划写着“I'm going to visit Dalian in August.”。出行月份是几月？",
+        "type": "choice",
+        "id": 60015,
+        "score": 10
+      },
+      {
+        "answer": "What",
+        "difficulty": 1,
+        "explanation": "What are you going to do用于询问打算做什么；其余疑问词不能构成题目需要的活动问句。",
+        "knowledge_point": "What are you going to do there?",
+        "options": [
+          "How",
+          "Where",
+          "What",
+          "Who"
+        ],
+        "question": "你想询问对方到达目的地后打算做什么。补全问句：“___ are you going to do there?”",
+        "type": "choice",
+        "id": 60016,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "swim in the sea表示在海里游泳；学习功夫应为learn kung fu。",
+        "knowledge_point": "What are you going to do there?",
+        "options": [],
+        "question": "“I'm going to swim in the sea.”表示“我打算学习功夫”。",
+        "type": "true_false",
+        "id": 60017,
+        "score": 10
+      },
+      {
+        "answer": "Have a good time!",
+        "difficulty": 1,
+        "explanation": "该句祝愿别人玩得愉快。其他三项分别询问交通方式、目的地和计划活动，都不是祝愿。",
+        "knowledge_point": "What are you going to do there?",
+        "options": [
+          "Have a good time!",
+          "How are you going there?",
+          "Where are you going this summer?",
+          "What are you going to do there?"
+        ],
+        "question": "同学即将出发旅行。你想祝他玩得愉快，应选哪一句？",
+        "type": "choice",
+        "id": 60018,
+        "score": 10
+      },
+      {
+        "answer": "Where are you going this summer?",
+        "difficulty": 2,
+        "explanation": "要询问暑假目的地应使用where。其余分别询问交通方式、活动或表达祝愿。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Where are you going this summer?",
+          "How are you going there?",
+          "What are you going to do there?",
+          "Have a good time!"
+        ],
+        "question": "旅行调查表中，小丽的“目的地”一栏还没有填写。你要询问她今年夏天去哪里，应选哪句？",
+        "type": "choice",
+        "id": 60019,
+        "score": 10
+      },
+      {
+        "answer": "I'm going there by ship.",
+        "difficulty": 2,
+        "explanation": "by ship表示乘船，完整句说明交通方式。其余分别说明活动、目的地或表示感谢。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "I'm going there by ship.",
+          "I'm going to see the sunrise.",
+          "I'm going to Dalian.",
+          "Thank you!"
+        ],
+        "question": "小文计划去大连，乘船前往。调查表的“How”一栏需要记录交通方式，哪句话提供了这项信息？",
+        "type": "choice",
+        "id": 60020,
+        "score": 10
+      },
+      {
+        "answer": "bread",
+        "difficulty": 1,
+        "explanation": "bread开头的br读/br/；draw、driver和drink开头都是dr，不属于br一组。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "driver",
+          "drink",
+          "bread",
+          "draw"
+        ],
+        "question": "哪一个单词开头的字母组合读/br/？",
+        "type": "choice",
+        "id": 60021,
+        "score": 10
+      },
+      {
+        "answer": "tree",
+        "difficulty": 1,
+        "explanation": "tree中的ee读/iː/。brown、drum、breakfast均不含该字母组合。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "tree",
+          "brown",
+          "breakfast",
+          "drum"
+        ],
+        "question": "哪一个单词含有读/iː/的字母组合ee？",
+        "type": "choice",
+        "id": 60022,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "fly表示飞，swim表示游泳。给出的句子表达打算飞往伦敦，不是游泳去。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "一个故事角色说“I'm going to fly to London.”。这句话表示它打算游泳去伦敦。",
+        "type": "true_false",
+        "id": 60023,
+        "score": 10
+      },
+      {
+        "answer": "骑自行车",
+        "difficulty": 1,
+        "explanation": "by bike表示骑自行车，不是乘船、乘火车或乘飞机。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "骑自行车",
+          "乘飞机",
+          "乘火车",
+          "乘船"
+        ],
+        "question": "故事角色先说“We're going to London.”，其中一个接着说“I'm going there by bike!”。它打算怎样去伦敦？",
+        "type": "choice",
+        "id": 60024,
+        "score": 10
+      },
+      {
+        "answer": "Kingdom Chu",
+        "difficulty": 1,
+        "explanation": "句中to后的Kingdom Chu是目的地。其他地点没有出现在这句话中。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Canada",
+          "London",
+          "Kingdom Chu",
+          "Dalian"
+        ],
+        "question": "一个人说“I'm going to Kingdom Chu.”。他想去哪里？",
+        "type": "choice",
+        "id": 60025,
+        "score": 10
+      },
+      {
+        "answer": "北方",
+        "difficulty": 1,
+        "explanation": "you're going to the north表示你正向北方走；south才表示南方。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "南方",
+          "东方",
+          "北方",
+          "西方"
+        ],
+        "question": "朋友说“Kingdom Chu is in the south, but you're going to the north.”。被提醒的人实际正向哪个方向走？",
+        "type": "choice",
+        "id": 60026,
+        "score": 10
+      },
+      {
+        "answer": "他的马跑得快。",
+        "difficulty": 1,
+        "explanation": "My horse runs fast说明他的马跑得快，没有说马很慢、目的地在北方或已经到达。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "他的马跑得快。",
+          "他的马跑得慢。",
+          "他已经到达目的地。",
+          "目的地在北方。"
+        ],
+        "question": "旅行者说“My horse runs fast.”。这句话说明什么？",
+        "type": "choice",
+        "id": 60027,
+        "score": 10
+      },
+      {
+        "answer": "马车夫",
+        "difficulty": 1,
+        "explanation": "在马车旅行的背景中，driver指马车夫；王国、南方、担心分别对应kingdom、south、worry。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "马车夫",
+          "王国",
+          "南方",
+          "担心"
+        ],
+        "question": "一个人乘马车旅行，说“I have a good driver.”。结合马车旅行的背景，这里的driver指什么？",
+        "type": "choice",
+        "id": 60028,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "not going the right way表示走的方向不对，never get there表示永远到不了那里，都是朋友的提醒。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "朋友对旅行者说“But you are not going the right way. You will never get there.”。朋友是在提醒旅行者：方向不对，会到不了目的地。",
+        "type": "true_false",
+        "id": 60029,
+        "score": 10
+      },
+      {
+        "answer": "I'm going to Beijing. I'm going there by train.",
+        "difficulty": 2,
+        "explanation": "第一项同时准确表达北京和乘火车。其余三项分别把交通方式改成飞机、把目的地改成上海、把交通方式改成自行车。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "I'm going to Beijing. I'm going there by train.",
+          "I'm going to Beijing. I'm going there by plane.",
+          "I'm going to Shanghai. I'm going there by train.",
+          "I'm going to Beijing. I'm going there by bike."
+        ],
+        "question": "制作旅行滑动卡片时，你选定的目的地是北京，交通方式是火车。哪组句子与这两项选择完全一致？",
+        "type": "choice",
+        "id": 60030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 6 Travel·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "I'm going to Hainan.",
+        "difficulty": 1,
+        "explanation": "题目要求表达目的地海南，只有该句符合。其余分别表达交通方式、活动和祝愿。",
+        "knowledge_point": "I'm going to Mount Taishan.",
+        "options": [
+          "I'm going to Hainan.",
+          "By ship.",
+          "I'm going to learn kung fu.",
+          "Have a good time!"
+        ],
+        "question": "你今年夏天计划去海南。要用完整英语句子告诉同学目的地，应选哪一句？",
+        "type": "choice",
+        "id": 69001,
+        "score": 10
+      },
+      {
+        "answer": "By train.",
+        "difficulty": 1,
+        "explanation": "train表示火车。plane、ship、bike分别表示飞机、船和自行车，均不符合指定计划。",
+        "knowledge_point": "How are you going there?",
+        "options": [
+          "By plane.",
+          "By ship.",
+          "By train.",
+          "By bike."
+        ],
+        "question": "小华计划乘火车去上海。朋友问“How are you going there?”，哪项符合小华的计划？",
+        "type": "choice",
+        "id": 69002,
+        "score": 10
+      },
+      {
+        "answer": "I'm going to swim in the sea.",
+        "difficulty": 2,
+        "explanation": "问题询问计划开展的活动。该句表达在海里游泳；其余分别表达目的地、交通方式和祝愿。",
+        "knowledge_point": "What are you going to do there?",
+        "options": [
+          "I'm going to Dalian.",
+          "I'm going there by plane.",
+          "I'm going to swim in the sea.",
+          "Have a good time!"
+        ],
+        "question": "你计划去大连，在海里游泳。朋友问“What are you going to do there?”，哪句准确回答活动安排？",
+        "type": "choice",
+        "id": 69003,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“Have a good time!”表达祝愿，“Thank you!”表示感谢，这样回应合适。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "出发旅行前，朋友说“Have a good time!”，你回答“Thank you!”。这样的回应合适。",
+        "type": "true_false",
+        "id": 69004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "题干明确说明目的地在南方而人向北走。马跑得快不能改变方向不对这一事实。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "一个人要去的Kingdom Chu在南方，他却一直向北走。他说自己的马跑得快。因此，可以判断他走的方向是正确的。",
+        "type": "true_false",
+        "id": 69005,
+        "score": 10
+      },
+      {
+        "answer": "June—July—August",
+        "difficulty": 2,
+        "explanation": "June、July、August依次表示六月、七月、八月，其余选项的月份顺序不符合题意。",
+        "knowledge_point": "I'm going to Mount Taishan.",
+        "options": [
+          "June—July—August",
+          "July—June—August",
+          "August—July—June",
+          "June—August—July"
+        ],
+        "question": "按“六月、七月、八月”的顺序排列英语月份，哪一项正确？",
+        "type": "choice",
+        "id": 69006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把目的地问题回答成交通方式或活动；Where询问去哪里。",
+        "表达去某个地点时漏掉to，如误说“I'm going Dalian.”。",
+        "忽略back的意思；going back to表示返回某地。",
+        "混淆June和July：June是六月，July是七月。"
+      ],
+      "core_concept": "围绕暑假旅行学习询问和表达目的地。“The summer vacation is coming.”表示暑假快到了。“Where are you going this summer?”询问今年夏天去哪里；可回答“I'm going to Dalian.”。询问是否打算旅行可说“Are you going to travel?”，肯定回答为“Yes, I am.”。“I'm going back to Canada in July.”表示打算七月返回加拿大。认识June（六月）和July（七月），结合题目给出的计划判断地点和时间。",
+      "key_formula": "Where are you going this summer? — I'm going to + 地点.",
+      "point": "I'm going to Mount Taishan.",
+      "tips": "回答目的地时用to接地点名；表达“返回”时保留back。月份名称首字母大写，表示“在某月”可用in加月份。"
+    },
+    {
+      "common_mistakes": [
+        "把How和Where混淆：How询问怎样出行，Where询问去哪里。",
+        "在by后多加冠词；本课表达用by plane、by ship、by train、by bike。",
+        "在there前误加to；应说“I'm going there by train.”。",
+        "只根据地点猜交通工具；同一目的地可以有不同出行方式，应按题目给出的计划回答。"
+      ],
+      "core_concept": "学习询问和表达交通方式。点明目的地时可问“How are you going to Dalian?”；目的地已知时可问“How are you going there?”。回答可以简短地说“By ship.”，也可以说“I'm going there by train.”。掌握by plane（乘飞机）、by ship（乘船）、by train（乘火车）、by bike（骑自行车），并在调查中同时记录目的地和交通方式。",
+      "key_formula": "How are you going there? — By + 交通工具. / I'm going there by + 交通工具.",
+      "point": "How are you going there?",
+      "tips": "先看问题问地点还是交通方式，再看计划中指定的交通工具。there表示已经提到的地点，前面不用to。"
+    },
+    {
+      "common_mistakes": [
+        "把活动问题回答成目的地或交通方式；what...do询问计划做什么。",
+        "在going to后漏掉活动动词，如learn、see或swim。",
+        "混淆去某地和做某事：“I'm going to Dalian.”说目的地，“I'm going to swim in the sea.”说活动。",
+        "把August误认成七月；August表示八月。"
+      ],
+      "core_concept": "学习询问和表达旅行活动计划。“What are you going to do there?”询问打算在那里做什么；也可用具体地点，如“at the Shaolin Temple”或“on Mount Taishan”。回答用“I'm going to”接动词短语：learn kung fu（学习功夫）、see the sunrise（看日出）、swim in the sea（在海里游泳）。认识August（八月），理解“I'm going to visit Dalian in August.”。用“Have a good time!”祝愿旅行愉快，回应可说“Thank you!”。",
+      "key_formula": "What are you going to do there? — I'm going to + 动词短语.",
+      "point": "What are you going to do there?",
+      "tips": "看到问句中的do，注意回答活动。具体地点前的介词要随表达学习，例如at the Shaolin Temple、on Mount Taishan；不要直接把地点名生硬替换进句子。"
+    },
+    {
+      "common_mistakes": [
+        "把目的地、交通方式和活动安排混在一起：where问哪里，how问出行方式，what...do问做什么。",
+        "听到“Have a good time!”后不回应感谢；可说“Thank you!”或“I will. Thank you!”。",
+        "只认出字母组合，却忽略发音：br读/br/，dr读/dr/，本页例词中的ee读/iː/。",
+        "把故事角色说出的旅行打算当作已经完成的旅行，或自行补写谁最终到达伦敦。"
+      ],
+      "core_concept": "综合运用旅行目的地、交通方式和活动计划表达，理解电话交谈中的祝愿与回应。例：“How are you going there?”—“By ship.”；“What are you going to do there?”—“I'm going to swim in the sea.”。语音练习中，bread、brother、brown、breakfast的br读/br/；draw、driver、drink、drum的dr读/dr/；see、meet、tree、sheep的ee读/iː/。阅读Who can get to London?，区分骑自行车、游泳和飞往伦敦的打算，教材没有交代最终结果。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "交流时按“去哪里—怎样去—做什么”整理信息。读语音例词时注意字母组合的共同发音。阅读小故事只判断明确说出的计划，不添加结局。"
+    },
+    {
+      "common_mistakes": [
+        "把south和north记反：south表示南方，north表示北方。",
+        "把故事中的driver理解为乘车人；本页注释中指马车夫。",
+        "认为马跑得快就说明方向正确；速度和行进方向是不同的信息。",
+        "把朋友关于到不了目的地的提醒，扩写成原文没有叙述的后续经历。"
+      ],
+      "core_concept": "阅读You are not going the right way.，理解一个人想去Kingdom Chu，但朋友指出目的地在南方，而他正向北走。那个人强调马跑得快、自己有好马车夫，朋友仍指出他方向不对，会到不了。借助注释认识kingdom（王国）、south（南方）、north（北方）、worry（担心）、driver（马车夫）、never（从不，永不）。结合自评复习旅行词汇和目的地、交通方式、活动计划表达，用滑动卡片组合目的地与出行方式。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "把“想去哪里、目的地在哪个方向、实际向哪里走、具有什么交通条件”分开整理。自评时检查自己能否分别表达目的地、出行方式和计划活动，不必填写真实个人信息。"
+    }
+  ]
+}

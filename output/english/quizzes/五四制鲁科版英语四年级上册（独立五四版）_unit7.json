@@ -1,0 +1,615 @@
+{
+  "textbook": "义务教育教科书（五·四学制）英语（三年级起点）四年级 上册",
+  "unit": "Unit 7 Communications",
+  "unit_number": 7,
+  "unit_test": {
+    "title": "Unit 7 Communications·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "May I speak to Ben?",
+        "difficulty": 1,
+        "explanation": "该项请求与Ben通话；其余选项分别询问Ben的活动、自报身份和提出活动邀请。",
+        "knowledge_point": "This is Jenny speaking.",
+        "options": [
+          "What’s Ben doing?",
+          "This is Ben speaking.",
+          "May I speak to Ben?",
+          "Shall we go to the park?"
+        ],
+        "question": "你打电话找Ben，接电话的是他的家人。你想礼貌地请求与Ben通话，应该说什么？",
+        "type": "choice",
+        "id": 70001,
+        "score": 10
+      },
+      {
+        "answer": "Ben, Amy is calling.",
+        "difficulty": 2,
+        "explanation": "该项叫Ben来接Amy的电话；第二项颠倒了两人的角色，另两项描述的是跑步或写邮件。",
+        "knowledge_point": "This is Jenny speaking.",
+        "options": [
+          "Amy, Ben is calling.",
+          "Ben, Amy is calling.",
+          "Amy is running.",
+          "Ben is writing an email."
+        ],
+        "question": "Amy来电找Ben。你去叫Ben接电话，哪句话能准确转告“Amy来电话了”？",
+        "type": "choice",
+        "id": 70002,
+        "score": 10
+      },
+      {
+        "answer": "运动日快到了。",
+        "difficulty": 1,
+        "explanation": "is coming在这里表示即将到来，不表示已经结束，也不是说某个人正在跑步。",
+        "knowledge_point": "This is Jenny speaking.",
+        "options": [
+          "我们正在写邮件。",
+          "运动日快到了。",
+          "运动员正在跑步。",
+          "运动日已经结束。"
+        ],
+        "question": "朋友说“Sports Day is coming.”，这句话是什么意思？",
+        "type": "choice",
+        "id": 70003,
+        "score": 10
+      },
+      {
+        "answer": "Let’s do some training tomorrow.",
+        "difficulty": 2,
+        "explanation": "只有该项同时表达一起训练和明天这个时间；其余选项分别改变了活动、时间或句子功能。",
+        "knowledge_point": "This is Jenny speaking.",
+        "options": [
+          "Let’s go to the library tomorrow.",
+          "Let’s do some training this afternoon.",
+          "May I speak to Amy?",
+          "Let’s do some training tomorrow."
+        ],
+        "question": "你想提议“我们明天做些训练吧”，哪句话完整符合这个意思？",
+        "type": "choice",
+        "id": 70004,
+        "score": 10
+      },
+      {
+        "answer": "I’m coming.",
+        "difficulty": 1,
+        "explanation": "I’m coming.表示自己这就过去；其余选项分别表示打电话、唱歌和跳舞。",
+        "knowledge_point": "This is Jenny speaking.",
+        "options": [
+          "I’m calling.",
+          "I’m coming.",
+          "I’m singing.",
+          "I’m dancing."
+        ],
+        "question": "家人叫你去接电话，你想说“我这就来”。哪句话合适？",
+        "type": "choice",
+        "id": 70005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "OK表示接受，See you用于告别；这句话兼有接受邀请和道别的意思。",
+        "knowledge_point": "This is Jenny speaking.",
+        "options": [],
+        "question": "判断正误：朋友邀请你明天一起去公园，你说“OK. See you.”，可以表示接受邀请并道别。",
+        "type": "true_false",
+        "id": 70006,
+        "score": 10
+      },
+      {
+        "answer": "I’m writing an email.",
+        "difficulty": 1,
+        "explanation": "只有该项同时使用I’m和writing，能规范表达自己正在写邮件；其他三项缺少必要成分或动词形式错误。",
+        "knowledge_point": "I’m writing an email.",
+        "options": [
+          "I writing an email.",
+          "I’m write an email.",
+          "I’m writing an email.",
+          "I’m an email."
+        ],
+        "question": "你正在写邮件。下面哪句话语法正确且符合这个意思？",
+        "type": "choice",
+        "id": 70007,
+        "score": 10
+      },
+      {
+        "answer": "May I have a look?",
+        "difficulty": 1,
+        "explanation": "have a look表示看一看；其他选项分别询问活动、请求通话和建议时间。",
+        "knowledge_point": "I’m writing an email.",
+        "options": [
+          "What are you doing?",
+          "May I have a look?",
+          "May I speak to Tom?",
+          "What about this afternoon?"
+        ],
+        "question": "朋友正在展示邮件里的照片。你想礼貌地问“我可以看一看吗？”，应该说什么？",
+        "type": "choice",
+        "id": 70008,
+        "score": 10
+      },
+      {
+        "answer": "Sure.",
+        "difficulty": 1,
+        "explanation": "Sure表示同意；No表示拒绝，其他两项并未直接表达同意查看。",
+        "knowledge_point": "I’m writing an email.",
+        "options": [
+          "No.",
+          "I’m singing.",
+          "Who says that?",
+          "Sure."
+        ],
+        "question": "朋友问“May I have a look?”，你想直接表示同意，不提出其他要求。选择哪句话？",
+        "type": "choice",
+        "id": 70009,
+        "score": 10
+      },
+      {
+        "answer": "Yes, he can.",
+        "difficulty": 2,
+        "explanation": "问句使用Can he，肯定简答保留he和can；其余选项改变了主语或误用了is、does。",
+        "knowledge_point": "I’m writing an email.",
+        "options": [
+          "Yes, he is.",
+          "Yes, she can.",
+          "Yes, he can.",
+          "Yes, he does."
+        ],
+        "question": "对问句“Can he see the pictures?”作肯定简答，哪一项正确？",
+        "type": "choice",
+        "id": 70010,
+        "score": 10
+      },
+      {
+        "answer": "I’m singing.",
+        "difficulty": 1,
+        "explanation": "singing表示正在唱歌；其他三项分别表示跳舞、跑步和打篮球。",
+        "knowledge_point": "I’m writing an email.",
+        "options": [
+          "I’m dancing.",
+          "I’m singing.",
+          "I’m running.",
+          "I’m playing basketball."
+        ],
+        "question": "你正在唱歌，朋友问你正在做什么。哪句话符合你的活动？",
+        "type": "choice",
+        "id": 70011,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "to Amy说明邮件写给Amy；句子的主语I才是写邮件的人。",
+        "knowledge_point": "I’m writing an email.",
+        "options": [],
+        "question": "判断正误：“I’m writing an email to Amy.”表示“我正在给Amy写一封邮件”。",
+        "type": "true_false",
+        "id": 70012,
+        "score": 10
+      },
+      {
+        "answer": "What’s Amy doing?",
+        "difficulty": 1,
+        "explanation": "询问Amy正在做什么，应把Amy放在“What’s … doing?”中；其余选项分别询问对方活动、请求通话和提出邀请。",
+        "knowledge_point": "Guo Yang is running.",
+        "options": [
+          "What are you doing?",
+          "May I speak to Amy?",
+          "What’s Amy doing?",
+          "Shall we go to the park?"
+        ],
+        "question": "你想向同伴询问Amy此刻正在做什么，应该说哪句话？",
+        "type": "choice",
+        "id": 70013,
+        "score": 10
+      },
+      {
+        "answer": "She’s doing the long jump.",
+        "difficulty": 1,
+        "explanation": "女孩用She’s，跳远用doing the long jump；其他选项改变了人物代词或运动项目。",
+        "knowledge_point": "Guo Yang is running.",
+        "options": [
+          "He’s doing the long jump.",
+          "She’s doing the long jump.",
+          "She’s doing the high jump.",
+          "He’s doing the high jump."
+        ],
+        "question": "Amy是一名女孩，正在参加跳远。哪句话准确描述她的活动？",
+        "type": "choice",
+        "id": 70014,
+        "score": 10
+      },
+      {
+        "answer": "He’s skipping.",
+        "difficulty": 1,
+        "explanation": "男孩用He’s，正在跳绳用skipping；其余选项的代词或动作不符合条件。",
+        "knowledge_point": "Guo Yang is running.",
+        "options": [
+          "She’s skipping.",
+          "He’s singing.",
+          "He’s skipping.",
+          "She’s dancing."
+        ],
+        "question": "Ben是一名男孩，正在跳绳。你怎样向朋友描述他？",
+        "type": "choice",
+        "id": 70015,
+        "score": 10
+      },
+      {
+        "answer": "Come on, Ben!",
+        "difficulty": 1,
+        "explanation": "Come on在比赛情境中用于加油；其余选项是请稍候、自报身份和请求通话。",
+        "knowledge_point": "Guo Yang is running.",
+        "options": [
+          "Hold on, please.",
+          "This is Ben speaking.",
+          "May I speak to Ben?",
+          "Come on, Ben!"
+        ],
+        "question": "Ben正在比赛，你想喊“Ben，加油！”哪句话合适？",
+        "type": "choice",
+        "id": 70016,
+        "score": 10
+      },
+      {
+        "answer": "获胜者",
+        "difficulty": 1,
+        "explanation": "winner表示获胜者，不表示比赛项目或通讯物品。",
+        "knowledge_point": "Guo Yang is running.",
+        "options": [
+          "跳高",
+          "电子邮件",
+          "获胜者",
+          "电话"
+        ],
+        "question": "比赛结束后有人说：“Amy is the winner.” winner在这里是什么意思？",
+        "type": "choice",
+        "id": 70017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "read a book表示读书；写邮件是write an email。",
+        "knowledge_point": "Guo Yang is running.",
+        "options": [],
+        "question": "判断正误：短语read a book表示“写一封邮件”。",
+        "type": "true_false",
+        "id": 70018,
+        "score": 10
+      },
+      {
+        "answer": "What about this afternoon?",
+        "difficulty": 1,
+        "explanation": "this afternoon是今天下午，符合另约时间的要求；其余三项没有提出这个时间。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "What’s the hurry?",
+          "What about this afternoon?",
+          "May I have a look?",
+          "What are you doing?"
+        ],
+        "question": "你现在没有空，想建议朋友改到今天下午一起活动。哪句话符合这个意思？",
+        "type": "choice",
+        "id": 70019,
+        "score": 10
+      },
+      {
+        "answer": "Sorry. I’m writing an email.",
+        "difficulty": 2,
+        "explanation": "该项先表达歉意，再说明正在写邮件；其余三项分别是接受、自报身份和询问活动。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "OK. See you.",
+          "This is Tom speaking.",
+          "Sorry. I’m writing an email.",
+          "What are you doing?"
+        ],
+        "question": "朋友邀请你现在出去玩。你想表达歉意，并说明自己正在写邮件，应该选择哪句话？",
+        "type": "choice",
+        "id": 70020,
+        "score": 10
+      },
+      {
+        "answer": "本周六去动物园。",
+        "difficulty": 2,
+        "explanation": "zoo表示动物园，this Saturday表示本周六；其他选项改变了时间或地点。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "明天去图书馆。",
+          "本周六去动物园。",
+          "今天下午去动物园。",
+          "本周六去公园。"
+        ],
+        "question": "老师请你转告：“We will go to the zoo this Saturday.” 哪条中文信息与这句话完全一致？",
+        "type": "choice",
+        "id": 70021,
+        "score": 10
+      },
+      {
+        "answer": "n",
+        "difficulty": 1,
+        "explanation": "ten和nose中的n发/n/；m、i、s均不是这两个单词共有的目标字母。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "m",
+          "i",
+          "s",
+          "n"
+        ],
+        "question": "ten和nose中，哪个相同的字母发/n/？",
+        "type": "choice",
+        "id": 70022,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "本课这两个例词中的i都发短音/ɪ/。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：在six和big中，字母i的发音相同。",
+        "type": "true_false",
+        "id": 70023,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "He’s running.表示他正在跑步；跳舞应为dancing。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：动作猜测游戏中，一名男孩正在跳舞，说“He’s running.”能准确描述他的动作。",
+        "type": "true_false",
+        "id": 70024,
+        "score": 10
+      },
+      {
+        "answer": "树枝",
+        "difficulty": 1,
+        "explanation": "branch表示树枝；其余选项都不是branch的含义。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "整片森林",
+          "树枝",
+          "电子邮件",
+          "篮球"
+        ],
+        "question": "故事结尾有一句“It’s just a branch.”，其中branch指什么？",
+        "type": "choice",
+        "id": 70025,
+        "score": 10
+      },
+      {
+        "answer": "Who says that?",
+        "difficulty": 2,
+        "explanation": "Who says that?询问是谁说的；其他选项分别询问活动、请求通话和建议时间。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "What are you doing?",
+          "May I speak to Ben?",
+          "Who says that?",
+          "What about this afternoon?"
+        ],
+        "question": "你听到一个消息，想追问“是谁这么说的？”，哪句话合适？",
+        "type": "choice",
+        "id": 70026,
+        "score": 10
+      },
+      {
+        "answer": "询问奔跑的原因。",
+        "difficulty": 1,
+        "explanation": "Why询问原因，running表示正在跑；其余选项都不是这个问句的交际目的。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "邀请对方写邮件。",
+          "询问奔跑的原因。",
+          "说明自己是获胜者。",
+          "请对方稍候。"
+        ],
+        "question": "一句话是“Why are you running?”，说话者想做什么？",
+        "type": "choice",
+        "id": 70027,
+        "score": 10
+      },
+      {
+        "answer": "提醒同伴快跑。",
+        "difficulty": 1,
+        "explanation": "Run!在这里是行动提醒，不是请求看图片、介绍身份或道别。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "请求查看图片。",
+          "向同伴道别。",
+          "介绍自己的身份。",
+          "提醒同伴快跑。"
+        ],
+        "question": "一只动物喊“The forest is falling. Run!”。其中“Run!”的作用是什么？",
+        "type": "choice",
+        "id": 70028,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "题目已说明手势及其含义，使用这个手势表达同意就是用手势辅助交流。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断正误：一个手势表示“OK”，你用这个手势表达同意，这是在用手势辅助交流。",
+        "type": "true_false",
+        "id": 70029,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "Run!表示快跑，不能作为森林确实倒下的证据；结尾明确说森林没有倒下。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "判断正误：故事中的动物喊“The forest is falling. Run!”；结尾又说“The forest is not falling.”。因此，只凭动物喊“Run!”就能证明森林真的倒下了。",
+        "type": "true_false",
+        "id": 70030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 7 Communications·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "This is Lucy speaking.",
+        "difficulty": 1,
+        "explanation": "电话中自报身份可用“This is … speaking.”；其余三项分别表示找人、稍候和询问活动，不能说明自己是Lucy。",
+        "knowledge_point": "This is Jenny speaking.",
+        "options": [
+          "May I speak to Lucy?",
+          "Hold on, please.",
+          "This is Lucy speaking.",
+          "What are you doing?"
+        ],
+        "question": "Lucy打电话时想先说明“我是Lucy”。她应该说什么？",
+        "type": "choice",
+        "id": 79001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Hold on表示稍候；为运动员加油可用Come on，二者不能混淆。",
+        "knowledge_point": "This is Jenny speaking.",
+        "options": [],
+        "question": "判断正误：电话用语“Hold on, please.”的意思是“请加油”。",
+        "type": "true_false",
+        "id": 79002,
+        "score": 10
+      },
+      {
+        "answer": "I’m dancing.",
+        "difficulty": 1,
+        "explanation": "dancing表示正在跳舞；其余选项分别表示唱歌、打篮球和写邮件。",
+        "knowledge_point": "I’m writing an email.",
+        "options": [
+          "I’m singing.",
+          "I’m playing basketball.",
+          "I’m writing an email.",
+          "I’m dancing."
+        ],
+        "question": "朋友问你正在做什么。你正在跳舞，应该怎样回答？",
+        "type": "choice",
+        "id": 79003,
+        "score": 10
+      },
+      {
+        "answer": "He’s doing the high jump.",
+        "difficulty": 2,
+        "explanation": "男孩用He’s，跳高用doing the high jump；跳远是doing the long jump。",
+        "knowledge_point": "Guo Yang is running.",
+        "options": [
+          "She’s doing the long jump.",
+          "He’s doing the long jump.",
+          "She’s doing the high jump.",
+          "He’s doing the high jump."
+        ],
+        "question": "一名男孩正在参加跳高比赛。哪句话准确描述他的活动？",
+        "type": "choice",
+        "id": 79004,
+        "score": 10
+      },
+      {
+        "answer": "milk",
+        "difficulty": 2,
+        "explanation": "milk中的m与room中的m都发/m/；其余三个单词没有这个辅音。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "ten",
+          "milk",
+          "six",
+          "nose"
+        ],
+        "question": "room中的字母m发/m/。下面哪个单词也含有这个辅音？",
+        "type": "choice",
+        "id": 79005,
+        "score": 10
+      },
+      {
+        "answer": "森林没有倒下。",
+        "difficulty": 2,
+        "explanation": "not表示否定；树枝掉落不等于森林倒下，句中也没有动物获胜或写邮件的信息。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "森林已经倒下。",
+          "森林没有倒下。",
+          "动物赢得了比赛。",
+          "动物正在写邮件。"
+        ],
+        "question": "故事结尾说：“It’s just a branch. The forest is not falling.” 其中第二句说明什么？",
+        "type": "choice",
+        "id": 79006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "误以为“This is … speaking.”只能由接听者使用；来电者也可以用它自报身份。",
+        "把“May I speak to …?”理解成陈述正在与某人说话；它是在请求与某人通话。",
+        "把“Hold on, please.”与加油用语“Come on!”混淆。",
+        "误说“I am speaking Jenny.”；本课电话自报身份的目标表达是“This is Jenny speaking.”。"
+      ],
+      "core_concept": "在电话情境中，用“This is … speaking.”说明自己是谁，用“May I speak to …?”礼貌地请求与某人通话，用“Hold on, please.”请对方稍候，用“… is calling.”转告某人来电。理解“Sports Day is coming.”表示运动日快到了；用“Let’s …”或“Shall we …?”提出一起训练、去图书馆或去公园等建议，并作出简单回应和告别。纸杯电话活动用于练习同类交流。",
+      "key_formula": "",
+      "point": "This is Jenny speaking.",
+      "tips": "电话中听不到面对面的介绍，可先问候、自报身份，再提出通话请求。转告来电时分清谁来电、找谁。This is … speaking.和This is …都可用于电话身份说明，不要把后者一概判错。"
+    },
+    {
+      "common_mistakes": [
+        "把“What are you doing?”中的are漏掉。",
+        "误说“I writing an email.”或“I’m write an email.”；描述正在写邮件应说“I’m writing an email.”。",
+        "把“write an email to Tom”中的Tom误认作写邮件的人；to Tom说明邮件写给Tom。",
+        "回答“Can he …?”时误换主语或助动词；肯定简答是“Yes, he can.”。"
+      ],
+      "core_concept": "用“What are you doing?”询问对方此刻正在做什么，用“I’m …”加动词-ing形式描述自己的活动，如writing an email、singing、dancing、playing basketball。理解“I’m writing an email to …”说明邮件的收件人；用“May I have a look?”请求看一看，用“Sure.”表示同意；理解“Can he see the pictures?”及其肯定回答“Yes, he can.”。结合新年情境，尝试给老师写简短的祝福邮件。",
+      "key_formula": "",
+      "point": "I’m writing an email.",
+      "tips": "I’m是I am的缩写，后接表示正在进行的动作时，要使用动词-ing形式。请求查看时语气礼貌。祝福邮件可按示例写称呼、简短祝福和署名，不需要提供真实个人信息。"
+    },
+    {
+      "common_mistakes": [
+        "指代男孩时误用She’s，或指代女孩时误用He’s。",
+        "混淆high jump和long jump；前者是跳高，后者是跳远。",
+        "把running、skipping误写为runing、skiping，或在描述正在进行的动作时漏掉is。"
+      ],
+      "core_concept": "在运动日情境中，用“What’s … doing?”询问某个人正在做什么，用人物姓名加is，或用He’s、She’s加动词-ing形式回答。理解running、skipping、doing the high jump、doing the long jump等活动表达；用“Come on, …!”为参赛者加油，用“… is the winner.”说明某人是获胜者。规范认读和抄写play basketball、read a book、write an email。",
+      "key_formula": "",
+      "point": "Guo Yang is running.",
+      "tips": "先确定人物，再确定动作。He’s是He is的缩写，She’s是She is的缩写。练习时把跳高、跳远与相应英语短语配对，注意running和skipping的拼写。"
+    },
+    {
+      "common_mistakes": [
+        "把“What about this afternoon?”误解为询问当前动作；这里是在建议改到今天下午。",
+        "说明正在进行的动作时漏掉be动词或-ing形式，如误写“I writing an email.”。",
+        "把字母名称与单词中的发音混为一谈；本课例词中的m、n、i分别练习/m/、/n/、/ɪ/。"
+      ],
+      "core_concept": "综合复习电话自报身份、请求通话、邀请一起活动，以及说明自己正在做什么。当前不能接受邀请时，可以说明原因，再商量其他时间，如“What about this afternoon?”。结合my、milk、jump、room等例词感知m的发音，结合ten、on、new、nose感知n的发音，结合in、it、six、big感知i的发音。通过电话或邮件传递简短的周末活动信息，并用问答进行动作猜测。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "电话交流时先听清身份和请求，再回应活动邀请。传话时不要漏掉活动地点和时间。动作猜测先问“What’s … doing?”，再根据已知人物和动作回答；语音练习应结合例词朗读。"
+    },
+    {
+      "common_mistakes": [
+        "把动物传播的“The forest is falling!”当成故事最终证实的事实；结尾明确否定了这一说法。",
+        "把追问消息来源时的Bear、Monkey、Rabbit误当成最初消息向外传播的先后顺序。",
+        "只凭人物奔跑就认定它们在训练；应结合故事给出的原因理解活动。",
+        "把自评中的空格或手势活动中尚未填写的内容当作现成课文。"
+      ],
+      "core_concept": "阅读“The forest is falling!”故事，理解动物因误信森林倒下而奔跑。消息从兔子传给猴子，再传给熊、老虎；狮子追问来源时，依次听到Bear、Monkey、Rabbit，最后指出只是树枝，森林并没有倒下。理解“Why are you running?”询问奔跑原因，“What’s the hurry?”询问为何匆忙，“Who says that?”追问消息来源。结合Check it.复习单元词语、电话交流和活动描述，并通过Learn to learn.体验用手势辅助交流。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "把“动物听到的说法”和“结尾确认的真相”分开记录。表演时按画格顺序安排发言，区分消息传播方向与追溯来源方向。自评应检查自己能否理解和运用表达，不把待填空格读成课文。"
+    }
+  ]
+}

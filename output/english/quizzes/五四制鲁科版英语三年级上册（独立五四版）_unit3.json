@@ -1,0 +1,499 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级 上册",
+  "unit": "Unit 3 Family",
+  "unit_number": 3,
+  "unit_test": {
+    "title": "Unit 3 Family·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "father",
+        "difficulty": 1,
+        "explanation": "father表示父亲；mother、sister、brother分别表示母亲、姐妹、兄弟。",
+        "knowledge_point": "This is my mother.",
+        "options": [
+          "mother",
+          "father",
+          "sister",
+          "brother"
+        ],
+        "question": "“父亲”对应的英语单词是哪一个？",
+        "type": "choice",
+        "id": 30001,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "brother既可以指哥哥，也可以指弟弟。",
+        "knowledge_point": "This is my mother.",
+        "options": [],
+        "question": "判断：brother可以表示哥哥，也可以表示弟弟。",
+        "type": "true_false",
+        "id": 30002,
+        "score": 10
+      },
+      {
+        "answer": "This is my sister.",
+        "difficulty": 1,
+        "explanation": "sister表示姐姐或妹妹；其他选项中的brother、father、mother均不表示妹妹。",
+        "knowledge_point": "This is my mother.",
+        "options": [
+          "This is my brother.",
+          "This is my father.",
+          "This is my sister.",
+          "This is my mother."
+        ],
+        "question": "小禾要向朋友介绍自己的妹妹，应选择哪一句？",
+        "type": "choice",
+        "id": 30003,
+        "score": 10
+      },
+      {
+        "answer": "Look!",
+        "difficulty": 1,
+        "explanation": "Look!表示“看！”，用于引起注意；family、mother、father都是名词，不表达这一提醒。",
+        "knowledge_point": "This is my mother.",
+        "options": [
+          "Mother.",
+          "Father.",
+          "Family.",
+          "Look!"
+        ],
+        "question": "介绍家庭照片前，要先用英语提醒朋友“看！”，应选择哪一项？",
+        "type": "choice",
+        "id": 30004,
+        "score": 10
+      },
+      {
+        "answer": "my",
+        "difficulty": 2,
+        "explanation": "my表示“我的”，符合“这是我的妈妈”；is、look、family都不能填在这里组成目标句。",
+        "knowledge_point": "This is my mother.",
+        "options": [
+          "is",
+          "family",
+          "my",
+          "look"
+        ],
+        "question": "要表达“这是我的妈妈”，在“This is ____ mother.”中应填哪个词？",
+        "type": "choice",
+        "id": 30005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "介绍家人应使用This is的顺序，正确表达是“This is my father.”。",
+        "knowledge_point": "This is my mother.",
+        "options": [],
+        "question": "判断：把“这是我的爸爸”说成“Is this my father.”，语序正确。",
+        "type": "true_false",
+        "id": 30006,
+        "score": 10
+      },
+      {
+        "answer": "grandpa",
+        "difficulty": 1,
+        "explanation": "grandpa表示爷爷或外公；grandma、brother、sister分别表示奶奶或外婆、兄弟、姐妹。",
+        "knowledge_point": "He’s my grandpa.",
+        "options": [
+          "grandma",
+          "brother",
+          "grandpa",
+          "sister"
+        ],
+        "question": "“爷爷、外公”对应的英语称谓是哪一个？",
+        "type": "choice",
+        "id": 30007,
+        "score": 10
+      },
+      {
+        "answer": "她是我的姐姐或妹妹。",
+        "difficulty": 1,
+        "explanation": "She’s表示“她是”，my sister表示“我的姐姐或妹妹”；其余选项改变了性别或亲属关系。",
+        "knowledge_point": "He’s my grandpa.",
+        "options": [
+          "他是我的哥哥或弟弟。",
+          "她是我的姐姐或妹妹。",
+          "她是我的奶奶或外婆。",
+          "他是我的爷爷或外公。"
+        ],
+        "question": "“She’s my sister.”的意思是哪一项？",
+        "type": "choice",
+        "id": 30008,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "grandma可指奶奶，也可指外婆，均为女性家庭成员。",
+        "knowledge_point": "He’s my grandpa.",
+        "options": [],
+        "question": "判断：英语grandma既可以指奶奶，也可以指外婆。",
+        "type": "true_false",
+        "id": 30009,
+        "score": 10
+      },
+      {
+        "answer": "He’s",
+        "difficulty": 2,
+        "explanation": "表达“他是”应选He’s；She’s表示“她是”，I am表示“我是”，my表示“我的”。",
+        "knowledge_point": "He’s my grandpa.",
+        "options": [
+          "She’s",
+          "my",
+          "He’s",
+          "I am"
+        ],
+        "question": "要表达“他是我的弟弟”，在“____ my brother.”中应填哪一项？",
+        "type": "choice",
+        "id": 30010,
+        "score": 10
+      },
+      {
+        "answer": "I am GRANDMA.",
+        "difficulty": 2,
+        "explanation": "介绍自己扮演奶奶，用I am；She’s和He’s介绍他人，GRANDPA表示爷爷角色。",
+        "knowledge_point": "He’s my grandpa.",
+        "options": [
+          "He’s GRANDPA.",
+          "She’s GRANDMA.",
+          "I am GRANDPA.",
+          "I am GRANDMA."
+        ],
+        "question": "角色表演时，小月扮演奶奶。她要说“我是奶奶”，应选择哪一句？",
+        "type": "choice",
+        "id": 30011,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "He’s表示“他是”，She’s才表示“她是”。",
+        "knowledge_point": "He’s my grandpa.",
+        "options": [],
+        "question": "判断：He’s和She’s都表示“她是”，没有区别。",
+        "type": "true_false",
+        "id": 30012,
+        "score": 10
+      },
+      {
+        "answer": "farmer",
+        "difficulty": 1,
+        "explanation": "farmer表示农民；doctor表示医生，teacher表示教师，father表示父亲。",
+        "knowledge_point": "She’s a doctor.",
+        "options": [
+          "teacher",
+          "doctor",
+          "father",
+          "farmer"
+        ],
+        "question": "“农民”对应哪个英语单词？",
+        "type": "choice",
+        "id": 30013,
+        "score": 10
+      },
+      {
+        "answer": "She’s a teacher.",
+        "difficulty": 1,
+        "explanation": "She’s对应“她是”，teacher对应教师；其他选项分别改变了人物、职业或说话对象。",
+        "knowledge_point": "She’s a doctor.",
+        "options": [
+          "He’s a teacher.",
+          "She’s a teacher.",
+          "She’s a doctor.",
+          "I’m a teacher."
+        ],
+        "question": "要表达“她是一位教师”，应选择哪一句？",
+        "type": "choice",
+        "id": 30014,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "I’m表示“我是”，a doctor表示“一位医生”，整句用于介绍自己的职业。",
+        "knowledge_point": "She’s a doctor.",
+        "options": [],
+        "question": "判断：说话人可以用“I’m a doctor.”介绍自己的职业是医生。",
+        "type": "true_false",
+        "id": 30015,
+        "score": 10
+      },
+      {
+        "answer": "a",
+        "difficulty": 2,
+        "explanation": "表达“他是一位教师”用“He’s a teacher.”；my会变成“他是我的教师”，too和is均不能这样填入。",
+        "knowledge_point": "She’s a doctor.",
+        "options": [
+          "my",
+          "too",
+          "a",
+          "is"
+        ],
+        "question": "要表达“他是一位教师”，在“He’s ____ teacher.”中应填哪个词？",
+        "type": "choice",
+        "id": 30016,
+        "score": 10
+      },
+      {
+        "answer": "too",
+        "difficulty": 2,
+        "explanation": "too表示“也”；a、my、he均不能在这里表达“也”的意思。",
+        "knowledge_point": "She’s a doctor.",
+        "options": [
+          "too",
+          "a",
+          "my",
+          "he"
+        ],
+        "question": "爷爷是一位农民，奶奶也是一位农民。要表达“她也是一位农民”，在“She’s a farmer, ____.”中应填哪个词？",
+        "type": "choice",
+        "id": 30017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "本课职业句中doctor前要有a，应说“He’s a doctor.”。",
+        "knowledge_point": "She’s a doctor.",
+        "options": [],
+        "question": "判断：表达“他是一位医生”时，“He’s doctor.”是正确的英语句子。",
+        "type": "true_false",
+        "id": 30018,
+        "score": 10
+      },
+      {
+        "answer": "This is my father. He’s a doctor.",
+        "difficulty": 2,
+        "explanation": "father表示父亲，He’s用于男性，doctor表示医生；其他选项分别把代词、职业或亲属称谓改错了。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is my father. She’s a doctor.",
+          "This is my father. He’s a doctor.",
+          "This is my father. He’s a teacher.",
+          "This is my brother. He’s a doctor."
+        ],
+        "question": "小林的爸爸是一位医生。小林要介绍“这是我的爸爸。他是一位医生”，应说哪一组句子？",
+        "type": "choice",
+        "id": 30019,
+        "score": 10
+      },
+      {
+        "answer": "This is my grandma. She’s a teacher.",
+        "difficulty": 2,
+        "explanation": "grandma对应奶奶，She’s用于女性，teacher对应教师；其余选项分别改变了人物、性别指代或职业。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is my grandpa. He’s a teacher.",
+          "This is my grandma. He’s a teacher.",
+          "This is my grandma. She’s a farmer.",
+          "This is my grandma. She’s a teacher."
+        ],
+        "question": "小宁的奶奶是一位教师。小宁要用两句话介绍奶奶及其职业，哪一组完全符合这些信息？",
+        "type": "choice",
+        "id": 30020,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "第一句介绍弟弟，第二句中的He指这位弟弟，doctor表示医生，两句衔接正确。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：“This is my brother. He’s a doctor.”可以表示“这是我的弟弟。他是一位医生”。",
+        "type": "true_false",
+        "id": 30021,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "第一句介绍姐姐，是女性；第二句应使用She’s，而不是He’s。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断：介绍“这是我的姐姐。她是一位教师”，可以说“This is my sister. He’s a teacher.”。",
+        "type": "true_false",
+        "id": 30022,
+        "score": 10
+      },
+      {
+        "answer": "family",
+        "difficulty": 1,
+        "explanation": "family表示家庭，符合介绍整个家庭的意思；father、mother、grandpa分别只表示一位家庭成员。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "father",
+          "mother",
+          "family",
+          "grandpa"
+        ],
+        "question": "小安要表达“这是我的家庭”，在“This is my ____.”中应填哪个词？",
+        "type": "choice",
+        "id": 30023,
+        "score": 10
+      },
+      {
+        "answer": "爸爸妈妈，我爱你们！",
+        "difficulty": 2,
+        "explanation": "Father and mother指爸爸妈妈，I love you表示“我爱你们”；其他选项改变了人物或意思。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "爸爸妈妈，我爱你们！",
+          "这是我的爷爷奶奶。",
+          "我的爸爸是一位教师。",
+          "我的妈妈是一位医生。"
+        ],
+        "question": "认读句子“Father and mother, I love you!”时，哪一项准确表达了它的意思？",
+        "type": "choice",
+        "id": 30024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 3 Family·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "家庭",
+        "difficulty": 1,
+        "explanation": "family表示“家庭”；母亲、父亲、兄弟分别对应mother、father、brother，均不符合题意。",
+        "knowledge_point": "This is my mother.",
+        "options": [
+          "母亲",
+          "家庭",
+          "父亲",
+          "兄弟"
+        ],
+        "question": "在“This is my family.”中，family的中文意思是什么？",
+        "type": "choice",
+        "id": 39001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "sister表示姐姐或妹妹，brother才表示哥哥或弟弟。",
+        "knowledge_point": "This is my mother.",
+        "options": [],
+        "question": "判断：“This is my sister.”可以表示“这是我的弟弟”。",
+        "type": "true_false",
+        "id": 39002,
+        "score": 10
+      },
+      {
+        "answer": "She’s",
+        "difficulty": 2,
+        "explanation": "grandma是女性称谓，应用She’s；He’s用于男性，I am表示“我是”，This不含这里需要的is。",
+        "knowledge_point": "He’s my grandpa.",
+        "options": [
+          "He’s",
+          "I am",
+          "She’s",
+          "This"
+        ],
+        "question": "要表达“她是我的外婆”，在“____ my grandma.”中应填入哪一项？",
+        "type": "choice",
+        "id": 39003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "He’s表示“他是”，I am表示“我是”，二者不能互换来表达同一意思。",
+        "knowledge_point": "He’s my grandpa.",
+        "options": [],
+        "question": "判断：介绍哥哥时，把“He’s my brother.”中的He’s换成I am，句意不变。",
+        "type": "true_false",
+        "id": 39004,
+        "score": 10
+      },
+      {
+        "answer": "她也是一位农民。",
+        "difficulty": 2,
+        "explanation": "She’s表示“她是”，farmer表示“农民”，too表示“也”；其余选项分别改变了职业、人物或遗漏了“也”。",
+        "knowledge_point": "She’s a doctor.",
+        "options": [
+          "她也是一位医生。",
+          "他也是一位农民。",
+          "她是一位农民。",
+          "她也是一位农民。"
+        ],
+        "question": "“She’s a farmer, too.”的完整中文意思是哪一项？",
+        "type": "choice",
+        "id": 39005,
+        "score": 10
+      },
+      {
+        "answer": "This is my mother. She’s a farmer.",
+        "difficulty": 3,
+        "explanation": "mother对应母亲，介绍她用She’s，farmer对应农民；其余选项分别错在称谓、代词或职业。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "This is my father. He’s a farmer.",
+          "This is my mother. He’s a farmer.",
+          "This is my mother. She’s a farmer.",
+          "This is my mother. She’s a doctor."
+        ],
+        "question": "小雨的妈妈是一位农民。小雨介绍“这是我的妈妈。她是一位农民”，应选择哪组英语句子？",
+        "type": "choice",
+        "id": 39006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把mother与father的意思记反。",
+        "把sister与brother混淆；sister指姐姐或妹妹，brother指哥哥或弟弟。",
+        "表达“这是我的……”时漏掉my，或把This is的顺序颠倒。",
+        "把family当作father，未区分“家庭”和“父亲”。"
+      ],
+      "core_concept": "本课学习family（家庭）、mother（母亲）、father（父亲）、sister（姐姐或妹妹）、brother（哥哥或弟弟）。用“This is my …”介绍自己的家庭成员，用“This is my family.”介绍自己的家庭。Look!表示“看！”，用于引起注意。单元导入页的“He’s a doctor.”只作情境感知，职业表达在第三课集中学习。",
+      "key_formula": "This is my + 家庭成员称谓. This is my family.",
+      "point": "This is my mother.",
+      "tips": "可以先说Look!引起注意，再介绍家人。my表示“我的”。如要介绍妹妹，称谓用sister；英语sister本身不区分姐姐与妹妹，brother本身也不区分哥哥与弟弟。"
+    },
+    {
+      "common_mistakes": [
+        "把grandpa和grandma混淆：前者指爷爷或外公，后者指奶奶或外婆。",
+        "介绍男性时误用She’s，介绍女性时误用He’s。",
+        "把表示“我是”的I am用于介绍别人。",
+        "只说He或She，遗漏本课介绍句中表示“是”的部分。"
+      ],
+      "core_concept": "学习grandpa（爷爷、外公）和grandma（奶奶、外婆），复习brother与sister。用“He’s my …”介绍男性家庭成员，用“She’s my …”介绍女性家庭成员。He’s是He is的缩写，She’s是She is的缩写。本课角色表演中的I am表示“我是”，用于表演者介绍自己扮演的身份，与介绍他人的He’s、She’s不同。",
+      "key_formula": "He’s my + 男性家庭成员称谓. She’s my + 女性家庭成员称谓.",
+      "point": "He’s my grandpa.",
+      "tips": "先确定说的是自己还是别人，再确定人物是男性还是女性。爷爷、外公、哥哥、弟弟用He’s；奶奶、外婆、姐姐、妹妹用She’s。角色表演说“I am GRANDPA.”是介绍自己扮演的角色，不是说“他是我的爷爷”。"
+    },
+    {
+      "common_mistakes": [
+        "把farmer（农民）、teacher（教师）和doctor（医生）的词义混淆。",
+        "说“He’s teacher.”或“She’s doctor.”，遗漏a。",
+        "介绍自己时误用He’s或She’s，介绍别人时误用I’m。",
+        "把too理解为职业名称，或在翻译时遗漏它表示的“也”。"
+      ],
+      "core_concept": "学习farmer（农民）、teacher（教师）、doctor（医生）。用“He’s a …”介绍男性的职业，用“She’s a …”介绍女性的职业，用“I’m a …”介绍自己的职业；I’m是I am的缩写。在本课这些句子中，一个职业名词前用a。too表示“也”，教材例句“She’s a farmer, too.”把too放在句尾，并在它前面用逗号。",
+      "key_formula": "He’s a + 职业名词. She’s a + 职业名词. I’m a + 职业名词.",
+      "point": "She’s a doctor.",
+      "tips": "先选表示人物的I’m、He’s或She’s，再加a和职业词。不能从性别或亲属关系猜职业；农民、教师、医生都可以是男性或女性。表达相同情况时，可在句尾使用too。"
+    },
+    {
+      "common_mistakes": [
+        "只介绍亲属关系，遗漏题目要求介绍的职业。",
+        "介绍妈妈或奶奶时误用He’s，介绍爸爸或爷爷时误用She’s。",
+        "把teacher、doctor、farmer混淆，或在本单元职业句中漏掉a。",
+        "把family理解为某一个家庭成员，而不是家庭。"
+      ],
+      "core_concept": "本课综合复习家庭成员及职业介绍，不另设新语法。先用“This is my …”说明亲属关系，再用“He’s a …”或“She’s a …”说明这位家人的职业。复习mother、father、sister、brother、grandpa、grandma以及teacher、doctor、farmer。用“This is my family.”介绍自己的家庭。Fun time通过“Father and mother, I love you!”中有关词语的首字母联系family，理解关爱家人的主题。",
+      "key_formula": "This is my + 家庭成员称谓. He’s a + 职业名词. She’s a + 职业名词.",
+      "point": "Again, please!",
+      "tips": "连续介绍时，两句话要指向同一位家人。例如“This is my grandma. She’s a teacher.”先说关系，再说职业。职业应根据已提供的信息表达，不能仅凭亲属称谓猜测。Fun time是认读活动，不必把字母联系当作新语法背诵。"
+    }
+  ]
+}

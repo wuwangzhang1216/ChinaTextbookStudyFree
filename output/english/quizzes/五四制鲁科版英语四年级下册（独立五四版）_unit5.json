@@ -1,0 +1,628 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）四年级下册",
+  "unit": "Unit 5 Shopping",
+  "unit_number": 5,
+  "unit_test": {
+    "title": "Unit 5 Shopping·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "Can I help you?",
+        "difficulty": 1,
+        "explanation": "Can I help you?是店员主动询问顾客需求的表达；其余选项都是顾客可能使用的话。",
+        "knowledge_point": "Can I help you?",
+        "options": [
+          "Can I help you?",
+          "I’d like a ruler.",
+          "I’ll take it.",
+          "I want a toy car."
+        ],
+        "question": "顾客刚走进文具店，店员想主动询问“我能帮你吗？”，应选哪一句？",
+        "type": "choice",
+        "id": 50001,
+        "score": 10
+      },
+      {
+        "answer": "toy bus",
+        "difficulty": 1,
+        "explanation": "toy bus表示玩具公共汽车；toy car表示玩具小汽车。",
+        "knowledge_point": "Can I help you?",
+        "options": [
+          "pen",
+          "toy car",
+          "schoolbag",
+          "toy bus"
+        ],
+        "question": "小朋友要买一辆“玩具公共汽车”，对应的英语是哪一项？",
+        "type": "choice",
+        "id": 50002,
+        "score": 10
+      },
+      {
+        "answer": "cheap",
+        "difficulty": 1,
+        "explanation": "cheap表示“便宜的”；fast、big、blue分别表示快、大和蓝色。",
+        "knowledge_point": "Can I help you?",
+        "options": [
+          "cheap",
+          "fast",
+          "big",
+          "blue"
+        ],
+        "question": "介绍一件玩具“价格便宜”时，应使用哪个单词？",
+        "type": "choice",
+        "id": 50003,
+        "score": 10
+      },
+      {
+        "answer": "I’ll take it.",
+        "difficulty": 1,
+        "explanation": "I’ll take it.表示“我要买下它”。其他三项都没有表达决定购买。",
+        "knowledge_point": "Can I help you?",
+        "options": [
+          "I’ll take it.",
+          "Can I help you?",
+          "How about this one?",
+          "It’s too big."
+        ],
+        "question": "一位顾客选中了一支笔，想明确表示“我要买下它”，应说哪一句？",
+        "type": "choice",
+        "id": 50004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "too big表示“太大”，所以拒绝它的原因是大小不合适。",
+        "knowledge_point": "Can I help you?",
+        "options": [],
+        "question": "顾客指着一辆玩具车说“It’s too big.”。判断正误：顾客认为这辆玩具车太大。",
+        "type": "true_false",
+        "id": 50005,
+        "score": 10
+      },
+      {
+        "answer": "How about this ruler? It’s nice and cheap.",
+        "difficulty": 2,
+        "explanation": "正确选项先推荐尺子，再评价它好看又便宜；其余选项的商品或评价不符合题意。",
+        "knowledge_point": "Can I help you?",
+        "options": [
+          "How about this ruler? It’s nice and cheap.",
+          "How about this pen? It’s nice and cheap.",
+          "How about this ruler? It’s too big.",
+          "I’d like a ruler."
+        ],
+        "question": "店员要推荐一把尺子，并说“它好看又便宜”，哪一句完整符合要求？",
+        "type": "choice",
+        "id": 50006,
+        "score": 10
+      },
+      {
+        "answer": "Excuse me. Do you have rulers?",
+        "difficulty": 1,
+        "explanation": "Do you have rulers?询问有没有尺子；其他选项分别询价、表达需求和询问喜好。",
+        "knowledge_point": "Do you have schoolbags?",
+        "options": [
+          "Excuse me. Do you have rulers?",
+          "How much is the ruler?",
+          "I’d like a ruler.",
+          "Do you like this ruler?"
+        ],
+        "question": "顾客想礼貌地问“请问，你们有尺子吗？”，应选哪一句？",
+        "type": "choice",
+        "id": 50007,
+        "score": 10
+      },
+      {
+        "answer": "Sorry, we don’t.",
+        "difficulty": 1,
+        "explanation": "店里没有所问的商品，用Sorry, we don’t.作否定回答。",
+        "knowledge_point": "Do you have schoolbags?",
+        "options": [
+          "I’ll take it.",
+          "Yes, we do.",
+          "It’s forty yuan.",
+          "Sorry, we don’t."
+        ],
+        "question": "顾客问“Do you have a green schoolbag?”，店里没有绿色书包。店员应怎样直接回答商品有无？",
+        "type": "choice",
+        "id": 50008,
+        "score": 10
+      },
+      {
+        "answer": "a blue pencil-case",
+        "difficulty": 1,
+        "explanation": "blue表示蓝色，pencil-case表示铅笔盒。",
+        "knowledge_point": "Do you have schoolbags?",
+        "options": [
+          "a green pencil-case",
+          "a blue pencil-case",
+          "a black pen",
+          "a blue schoolbag"
+        ],
+        "question": "购物清单要写“一个蓝色铅笔盒”，应选哪一项？",
+        "type": "choice",
+        "id": 50009,
+        "score": 10
+      },
+      {
+        "answer": "Yes, we do.",
+        "difficulty": 1,
+        "explanation": "店员代表商店，对Do you have…?作肯定回答用Yes, we do.。",
+        "knowledge_point": "Do you have schoolbags?",
+        "options": [
+          "Yes, it is.",
+          "They’re forty yuan.",
+          "Sorry, we don’t.",
+          "Yes, we do."
+        ],
+        "question": "顾客问“Do you have red pens?”，商店有红色钢笔。店员应怎样直接作肯定回答？",
+        "type": "choice",
+        "id": 50010,
+        "score": 10
+      },
+      {
+        "answer": "书包",
+        "difficulty": 2,
+        "explanation": "对话一直在谈书包，因此a green one中的one代替schoolbag。",
+        "knowledge_point": "Do you have schoolbags?",
+        "options": [
+          "颜色",
+          "商店",
+          "价格",
+          "书包"
+        ],
+        "question": "顾客和店员正在挑书包。顾客说“I’d like a green one.”，这里one代替什么物品？",
+        "type": "choice",
+        "id": 50011,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Sorry, we don’t.是否定回答，表示没有顾客所问的商品。",
+        "knowledge_point": "Do you have schoolbags?",
+        "options": [],
+        "question": "顾客问“Do you have blue schoolbags?”，店员回答“Sorry, we don’t.”。判断正误：店员表示店里有蓝色书包。",
+        "type": "true_false",
+        "id": 50012,
+        "score": 10
+      },
+      {
+        "answer": "It’s forty yuan.",
+        "difficulty": 1,
+        "explanation": "shirt是单数，回答用It’s；40用forty表达。",
+        "knowledge_point": "How much is this shirt?",
+        "options": [
+          "It’s fifty yuan.",
+          "It’s forty yuan.",
+          "They’re forty yuan.",
+          "Yes, we do."
+        ],
+        "question": "一件衬衫标价40元。顾客问“How much is this shirt?”，正确回答是哪一句？",
+        "type": "choice",
+        "id": 50013,
+        "score": 10
+      },
+      {
+        "answer": "How much are the trousers?",
+        "difficulty": 2,
+        "explanation": "询问价格用How much；trousers是复数形式，配are。",
+        "knowledge_point": "How much is this shirt?",
+        "options": [
+          "How much is the trousers?",
+          "Do you like the trousers?",
+          "How much are the trousers?",
+          "Do you have trousers?"
+        ],
+        "question": "你想问一条裤子的价格，哪一句既表达询价又符合语法？",
+        "type": "choice",
+        "id": 50014,
+        "score": 10
+      },
+      {
+        "answer": "fifty-eight",
+        "difficulty": 1,
+        "explanation": "fifty-eight是58；fifty、forty、one hundred分别是50、40、100。",
+        "knowledge_point": "How much is this shirt?",
+        "options": [
+          "fifty-eight",
+          "fifty",
+          "forty",
+          "one hundred"
+        ],
+        "question": "价格标签写着58元，其中数字58对应哪个英语表达？",
+        "type": "choice",
+        "id": 50015,
+        "score": 10
+      },
+      {
+        "answer": "We’ll take them.",
+        "difficulty": 2,
+        "explanation": "题目指定用We’ll表示“我们将”，trousers是复数形式，用them指代。",
+        "knowledge_point": "How much is this shirt?",
+        "options": [
+          "How much are they?",
+          "I’ll take it.",
+          "We’ll take them.",
+          "We’ll take it."
+        ],
+        "question": "两位顾客选好一条裤子，要用We’ll开头说“我们买下它”，应选哪一句？",
+        "type": "choice",
+        "id": 50016,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "sweater是单数，应说How much is the sweater?。",
+        "knowledge_point": "How much is this shirt?",
+        "options": [],
+        "question": "判断正误：询问一件毛衣的价格，可以说“How much are the sweater?”。",
+        "type": "true_false",
+        "id": 50017,
+        "score": 10
+      },
+      {
+        "answer": "It fits you well.",
+        "difficulty": 1,
+        "explanation": "It fits you well.表示衣物很合身；其余选项分别说明颜色喜好、价格和购买决定。",
+        "knowledge_point": "How much is this shirt?",
+        "options": [
+          "It fits you well.",
+          "I like the colour.",
+          "It’s fifty yuan.",
+          "I’ll take it."
+        ],
+        "question": "一位妈妈想说孩子试穿的衬衫“很合你身”，应选哪一句？",
+        "type": "choice",
+        "id": 50018,
+        "score": 10
+      },
+      {
+        "answer": "We’d like a cake.",
+        "difficulty": 1,
+        "explanation": "We’d like…表示“我们想要……”。其余三句分别是个人想要、询问有无和询价。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "We’d like a cake.",
+          "I’d like a cake.",
+          "Do you have cakes?",
+          "How much is the cake?"
+        ],
+        "question": "两位顾客要表达“我们想要一个蛋糕”，应选哪一句？",
+        "type": "choice",
+        "id": 50019,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "too small表示“太小”，不是“太大”。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：顾客说“It’s too small.”，意思是“它太大了”。",
+        "type": "true_false",
+        "id": 50020,
+        "score": 10
+      },
+      {
+        "answer": "How about this cake?",
+        "difficulty": 2,
+        "explanation": "How about…?可用于推荐商品；其他选项分别询价、表达购买意愿和询问商品有无。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "How about this cake?",
+          "How much is this cake?",
+          "We’d like a cake.",
+          "Do you have cakes?"
+        ],
+        "question": "店员拿起另一个蛋糕，想说“这个蛋糕怎么样？”，应选哪一句？",
+        "type": "choice",
+        "id": 50021,
+        "score": 10
+      },
+      {
+        "answer": "It’s forty yuan.",
+        "difficulty": 1,
+        "explanation": "basketball是单数，回答用It’s；forty表示40。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "Yes, we do.",
+          "They’re forty yuan.",
+          "It’s forty yuan.",
+          "It’s fifty yuan."
+        ],
+        "question": "模拟商店的一只篮球标价40元。顾客问“How much is the basketball?”，应怎样回答？",
+        "type": "choice",
+        "id": 50022,
+        "score": 10
+      },
+      {
+        "answer": "pl",
+        "difficulty": 1,
+        "explanation": "please与plane开头都有pl，读/pl/。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "oo",
+          "fl",
+          "ea",
+          "pl"
+        ],
+        "question": "please和plane开头相同的字母组合是哪一个？",
+        "type": "choice",
+        "id": 50023,
+        "score": 10
+      },
+      {
+        "answer": "flower",
+        "difficulty": 2,
+        "explanation": "flower开头的fl读/fl/；play、please开头是/pl/，cheap没有/fl/。",
+        "knowledge_point": "Again, please!",
+        "options": [
+          "please",
+          "flower",
+          "play",
+          "cheap"
+        ],
+        "question": "哪个单词开头的字母组合发/fl/音？",
+        "type": "choice",
+        "id": 50024,
+        "score": 10
+      },
+      {
+        "answer": "购物",
+        "difficulty": 1,
+        "explanation": "likes shopping表示“喜欢购物”，原句直接给出了Mrs Green的喜好。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "踢球",
+          "游泳",
+          "购物",
+          "唱歌"
+        ],
+        "question": "阅读原句：Mrs Green likes shopping. Mrs Green喜欢做什么？",
+        "type": "choice",
+        "id": 50025,
+        "score": 10
+      },
+      {
+        "answer": "Mr Green",
+        "difficulty": 1,
+        "explanation": "he承接前面的Mr Green，因此是Mr Green付款。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Mr Green",
+          "店员",
+          "孩子",
+          "Mrs Green"
+        ],
+        "question": "阅读原句：“All right. How much is it?” Mr Green says and he pays for it. 谁为商品付款？",
+        "type": "choice",
+        "id": 50026,
+        "score": 10
+      },
+      {
+        "answer": "疲倦的",
+        "difficulty": 1,
+        "explanation": "tired表示“疲倦的”，原句描述Mr Green走出商店时的状态。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "美丽的",
+          "便宜的",
+          "疲倦的",
+          "快速的"
+        ],
+        "question": "阅读原句：When they come out of the shop, Mr Green is very tired. 其中tired是什么意思？",
+        "type": "choice",
+        "id": 50027,
+        "score": 10
+      },
+      {
+        "answer": "把购物时的询价重复到了看月亮的情境中",
+        "difficulty": 2,
+        "explanation": "前面购物时反复询价，结尾看到月亮后又出现同样的询价，产生幽默；并不表示月亮在出售。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "把购物时的询价重复到了看月亮的情境中",
+          "他们决定买一只篮球",
+          "商店正在出售月亮",
+          "月亮上写着商品价格"
+        ],
+        "question": "故事中Mr Green购物时多次询价并付款。离店后，Mrs Green说“Look at the beautiful moon.”，接着出现“All right, dear. How much is it?”。这个结尾的幽默主要在哪里？",
+        "type": "choice",
+        "id": 50028,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "原句说Mrs Green经常与Mr Green一起购物，不是经常独自购物。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "阅读原句：Mrs Green likes shopping. She often goes shopping with Mr Green. 判断正误：这里说Mrs Green经常独自购物。",
+        "type": "true_false",
+        "id": 50029,
+        "score": 10
+      },
+      {
+        "answer": "It’s fifty-eight yuan.",
+        "difficulty": 2,
+        "explanation": "sweater是单数，用It’s回答；58用fifty-eight表达。题目指定用英语单词表达价格，因此不能选数字形式以外的其他数值。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "It’s fifty yuan.",
+          "They’re fifty-eight yuan.",
+          "It’s one hundred yuan.",
+          "It’s fifty-eight yuan."
+        ],
+        "question": "模拟服装店中，一件毛衣标价58元。顾客问“How much is the sweater?”，请选出用英语单词准确回答价格的一句。",
+        "type": "choice",
+        "id": 50030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 5 Shopping·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "It goes fast.",
+        "difficulty": 1,
+        "explanation": "fast表示“快”；It goes fast.表示“它跑得快”。其余选项分别表示太大、合身和便宜。",
+        "knowledge_point": "Can I help you?",
+        "options": [
+          "It goes fast.",
+          "It’s too big.",
+          "It fits you well.",
+          "It’s cheap."
+        ],
+        "question": "介绍一辆玩具汽车时，哪句话表示“它跑得快”？",
+        "type": "choice",
+        "id": 59001,
+        "score": 10
+      },
+      {
+        "answer": "This way, please.",
+        "difficulty": 1,
+        "explanation": "This way, please.表示“这边请”，用于引导顾客。",
+        "knowledge_point": "Do you have schoolbags?",
+        "options": [
+          "I’ll take it.",
+          "It’s forty yuan.",
+          "Sorry, we don’t.",
+          "This way, please."
+        ],
+        "question": "店员想请顾客跟着自己到书包货架前，应怎样说“这边请”？",
+        "type": "choice",
+        "id": 59002,
+        "score": 10
+      },
+      {
+        "answer": "They’re fifty yuan.",
+        "difficulty": 2,
+        "explanation": "shoes用复数形式，回答用They’re；50是fifty。",
+        "knowledge_point": "How much is this shirt?",
+        "options": [
+          "They’re fifty yuan.",
+          "They’re forty yuan.",
+          "It’s fifty yuan.",
+          "It’s forty yuan."
+        ],
+        "question": "一双鞋标价50元。顾客问“How much are the shoes?”，店员应选哪句回答？",
+        "type": "choice",
+        "id": 59003,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "meal和clean中的ea在本课例词中都读/iː/。",
+        "knowledge_point": "Again, please!",
+        "options": [],
+        "question": "判断正误：meal和clean这两个词中的字母组合ea发音相同。",
+        "type": "true_false",
+        "id": 59004,
+        "score": 10
+      },
+      {
+        "answer": "月亮",
+        "difficulty": 1,
+        "explanation": "moon表示“月亮”；这里说的是美丽的月亮。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "书包",
+          "商店",
+          "月亮",
+          "衣服"
+        ],
+        "question": "阅读句子：“Look at the beautiful moon,” Mrs Green says. 其中moon是什么意思？",
+        "type": "choice",
+        "id": 59005,
+        "score": 10
+      },
+      {
+        "answer": "a red ruler",
+        "difficulty": 2,
+        "explanation": "red表示红色，ruler表示尺子；a red ruler是“一把红色尺子”。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "a red ruler",
+          "a blue ruler",
+          "a red pen",
+          "a green schoolbag"
+        ],
+        "question": "模拟购物清单中需要写“一把红色尺子”，应选哪一项？",
+        "type": "choice",
+        "id": 59006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "Can I help you?是店员询问顾客需要什么的常用表达，不是顾客说明购买需求的表达。",
+        "toy bus是玩具公共汽车，toy car是玩具小汽车，不能混用。",
+        "fast说明速度快，cheap说明价格便宜，big说明大小。",
+        "I’ll与We’ll的选择取决于谁作购买决定；it与them的选择取决于所指商品，不能把两组区别混为一谈。"
+      ],
+      "core_concept": "在玩具和文具选购中理解完整购物过程：店员用Can I help you?询问需求，顾客用I’d like…表达想要的商品，店员用How about…?推荐，顾客用I’ll take it.或We’ll take it.表示决定购买。理解toy、bus、car、fast、cheap及too big的意义。单元导入中的商品有无和价格问答先整体感知，后续小课再重点学习。",
+      "key_formula": "",
+      "point": "Can I help you?",
+      "tips": "先判断谁是店员、谁是顾客，再确定说话目的。可以换用不同玩具或文具练习，评价商品时分清大小、速度和价格。"
+    },
+    {
+      "common_mistakes": [
+        "Do you have…?询问商品有无，How much…?询问价格，不能混淆。",
+        "店员代表商店回答时，肯定回答用Yes, we do.，否定回答可用Sorry, we don’t.。",
+        "this one或a blue one中的one代替前面提到的同类单数物品，不是商品名称。",
+        "询问单件商品可说a black pen；询问一类商品可用schoolbags、erasers等复数形式。"
+      ],
+      "core_concept": "礼貌询问商品有无可以先说Excuse me.，再用Do you have…?，店员根据实际情况作肯定或否定回答。This way, please.用于引导顾客。结合书包颜色理解one的指代，并用How about…?推荐商品、用We’ll take it.等表达购买决定。buy表示“买”，forty表示40；本课绿色书包的价格为forty yuan。能够把颜色与物品组合成购物清单。",
+      "key_formula": "",
+      "point": "Do you have schoolbags?",
+      "tips": "列购物清单时写清颜色和物品名称；模拟购物先问有没有，再选择颜色。遇到one时回看正在谈论的物品，确定它代替什么。"
+    },
+    {
+      "common_mistakes": [
+        "shirt、sweater等单数名词搭配is，回答用It’s，不能用They’re。",
+        "trousers和shoes在本课按复数形式使用，即使汉语说“一条裤子”“一双鞋”，英语仍配are和they。",
+        "fifty是50，fifty-eight是58，one hundred是100；fifty-eight中保留连字符。",
+        "It fits you well.说明衣服合身；I like the colour.说明喜欢颜色，两句含义不同。"
+      ],
+      "core_concept": "用How much is this shirt?等询问单件商品价格，用It’s…yuan.回答；对trousers、shoes等复数形式商品，用How much are they?或How much are the shoes?询价，用They’re…yuan.回答。理解trousers、fit、hundred、fifty以及fifty-eight等价格表达。能说明衣物合身、表达颜色喜好，并根据商品使用take it或take them表达购买决定。",
+      "key_formula": "",
+      "point": "How much is this shirt?",
+      "tips": "先找商品名词，判断句中用单数还是复数，再选择is或are、it或they。书写问句注意句首大写、词间空格和问号，价格回答注意数词拼写。"
+    },
+    {
+      "common_mistakes": [
+        "We’d like…表示“我们想要……”，不要与表示“我想要……”的I’d like…混淆。",
+        "It’s too small.中的too表示“太”，不是“也”。",
+        "单件蛋糕或篮球用How much is it?询价，不能把is换成are。",
+        "本课例词中fl读/fl/，pl读/pl/，ea读/iː/；不能由这些例词断言所有含ea的单词都这样读。"
+      ],
+      "core_concept": "通过购买生日蛋糕复习服务询问、表达共同需求、评价大小、推荐商品、询价和决定购买。We’d like a birthday cake.表示“我们想要一个生日蛋糕”；How about the fruit cake?用于推荐水果蛋糕。结合模拟商店活动复习商品有无和价格问答。辨读fly、floor、flower、flag中的fl，plan、please、play、plane中的pl，以及meal、clean、season、cheap中的ea。",
+      "key_formula": "",
+      "point": "Again, please!",
+      "tips": "模拟购物时依次说明需求、选择商品、询问价格并决定是否购买。读字母组合时结合本页例词，不自行扩展读音规则；歌曲用于练习询价语感，不作为主课文。"
+    },
+    {
+      "common_mistakes": [
+        "Mrs Green喜欢购物，Mr Green陪她购物并付款，不要把人物行为颠倒。",
+        "原文说离店时Mr Green很疲倦，不能改成Mrs Green。",
+        "结尾重复询价形成幽默，不表示月亮真的可以买卖。",
+        "原文最后一句没有另行标明说话者，转录时不得擅自添加人物标签；可以结合情节理解。",
+        "自评句型清单和思维导图填空不应拼接成阅读课文。"
+      ],
+      "core_concept": "阅读How much is it?，按六幅图的顺序理解格林夫妇购物、付款、离店以及看到月亮的过程。结合语境理解shopping、shop、dear、pay、tired、moon等词，体会反复询价的幽默。利用Check it复习词汇和购物问答，检查能否制作购物清单、用英语模拟购物；利用服装与价格思维导图整理商品并练习询价。",
+      "key_formula": "",
+      "point": "Try yourself.",
+      "tips": "阅读时分别记录人物、行为和事件顺序，并用原句核对。自评时不仅看是否记住句子，还要试着完成一次模拟购物；整理思维导图时把商品与价格对应起来。"
+    }
+  ]
+}

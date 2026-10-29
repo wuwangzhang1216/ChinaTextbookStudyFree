@@ -1,0 +1,619 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）五年级上册",
+  "unit": "Unit 4 School in Canada",
+  "unit_number": 4,
+  "unit_test": {
+    "title": "Unit 4 School in Canada·配套练习",
+    "total_score": 300,
+    "time_minutes": 30,
+    "questions": [
+      {
+        "answer": "Does she like her new school?",
+        "difficulty": 1,
+        "explanation": "主语she对应Does，后面的like用原形；其他三个选项分别误用了likes、Do或Is。",
+        "knowledge_point": "Lesson 1 Lucy is in a new school.",
+        "options": [
+          "Does she like her new school?",
+          "Does she likes her new school?",
+          "Do she like her new school?",
+          "Is she like her new school?"
+        ],
+        "question": "要询问“她喜欢她的新学校吗？”，哪句正确？",
+        "type": "choice",
+        "id": 40001,
+        "score": 10
+      },
+      {
+        "answer": "She has science and art.",
+        "difficulty": 1,
+        "explanation": "she后的have应变为has；science和art分别表示科学和美术。",
+        "knowledge_point": "Lesson 1 Lucy is in a new school.",
+        "options": [
+          "She has science and art.",
+          "She have science and art.",
+          "She is have science and art.",
+          "She having science and art."
+        ],
+        "question": "Mia有科学和美术课。用she介绍这两门课程，哪句正确？",
+        "type": "choice",
+        "id": 40002,
+        "score": 10
+      },
+      {
+        "answer": "She often draws pictures.",
+        "difficulty": 1,
+        "explanation": "often放在行为动词前；主语she对应draws，其余选项的动词结构不正确。",
+        "knowledge_point": "Lesson 1 Lucy is in a new school.",
+        "options": [
+          "She often draws pictures.",
+          "She often draw pictures.",
+          "She often drawing pictures.",
+          "She does often draws pictures."
+        ],
+        "question": "选择正确表达“Mia经常画画”的句子。",
+        "type": "choice",
+        "id": 40003,
+        "score": 10
+      },
+      {
+        "answer": "No, she doesn’t.",
+        "difficulty": 1,
+        "explanation": "问句以Does开头，否定简答使用doesn’t，而不是don’t或isn’t。",
+        "knowledge_point": "Lesson 1 Lucy is in a new school.",
+        "options": [
+          "No, she aren’t.",
+          "No, she isn’t.",
+          "No, she don’t.",
+          "No, she doesn’t."
+        ],
+        "question": "已知Kate没有中文课。对“Does Kate have Chinese?”作否定简答，哪句正确？",
+        "type": "choice",
+        "id": 40004,
+        "score": 10
+      },
+      {
+        "answer": "She watches films.",
+        "difficulty": 2,
+        "explanation": "用she回答时，watch应变为watches；其余选项均没有正确构成句子。",
+        "knowledge_point": "Lesson 1 Lucy is in a new school.",
+        "options": [
+          "She watches films.",
+          "She watch films.",
+          "She is watch films.",
+          "She does watches films."
+        ],
+        "question": "Nina放学后看电影。回答“What does Nina do after school?”时，哪句正确？",
+        "type": "choice",
+        "id": 40005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "应改为Sometimes she plays the piano.，she后用plays，piano前需有the。",
+        "knowledge_point": "Lesson 1 Lucy is in a new school.",
+        "options": [],
+        "question": "句子“Sometimes she play piano.”能正确表达“她有时弹钢琴”，对吗？",
+        "type": "true_false",
+        "id": 40006,
+        "score": 10
+      },
+      {
+        "answer": "There is an old building in our school.",
+        "difficulty": 1,
+        "explanation": "一座建筑用There is；old前用an。其余选项存在is/are、冠词或名词形式错误。",
+        "knowledge_point": "Lesson 2 There is an old building in my school.",
+        "options": [
+          "There is an old building in our school.",
+          "There are an old building in our school.",
+          "There is a old building in our school.",
+          "There are an old buildings in our school."
+        ],
+        "question": "选择正确表达“我们学校里有一座旧建筑”的句子。",
+        "type": "choice",
+        "id": 40007,
+        "score": 10
+      },
+      {
+        "answer": "There are many flowers.",
+        "difficulty": 1,
+        "explanation": "many flowers是复数名词短语，应与There are搭配。",
+        "knowledge_point": "Lesson 2 There is an old building in my school.",
+        "options": [
+          "There are many flowers.",
+          "There is a many flower.",
+          "There is many flowers.",
+          "There are many flower."
+        ],
+        "question": "选择正确表达“有许多花”的句子。",
+        "type": "choice",
+        "id": 40008,
+        "score": 10
+      },
+      {
+        "answer": "What’s your new school like?",
+        "difficulty": 1,
+        "explanation": "What’s...like?用于询问样貌或特点；其余三个选项不能正确表达这一问法。",
+        "knowledge_point": "Lesson 2 There is an old building in my school.",
+        "options": [
+          "What’s your new school like?",
+          "What does your new school like?",
+          "How your new school is?",
+          "What’s like your new school?"
+        ],
+        "question": "你想询问朋友的新学校是什么样的。选择正确的问句。",
+        "type": "choice",
+        "id": 40009,
+        "score": 10
+      },
+      {
+        "answer": "Yes, we do.",
+        "difficulty": 1,
+        "explanation": "用we代表本校师生作答时，Do you have...?的肯定简答是Yes, we do.。",
+        "knowledge_point": "Lesson 2 There is an old building in my school.",
+        "options": [
+          "Yes, we does.",
+          "Yes, we do.",
+          "Yes, we are.",
+          "Yes, we is."
+        ],
+        "question": "访客问你们学校：“Do you have a library?” 学校确实有图书馆。用we作肯定简答，哪句正确？",
+        "type": "choice",
+        "id": 40010,
+        "score": 10
+      },
+      {
+        "answer": "Can you send me some photos?",
+        "difficulty": 2,
+        "explanation": "Can you...?可用于提出请求，can后用send原形；其余选项结构错误。",
+        "knowledge_point": "Lesson 2 There is an old building in my school.",
+        "options": [
+          "Can you send me some photos?",
+          "Can you sends me some photos?",
+          "Are you send me some photos?",
+          "Can you sending me some photos?"
+        ],
+        "question": "你想请朋友给你发送一些照片。选择语法正确的请求用语。",
+        "type": "choice",
+        "id": 40011,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "a gym是单数名词短语，应改为There is a gym in the school.。",
+        "knowledge_point": "Lesson 2 There is an old building in my school.",
+        "options": [],
+        "question": "一所学校有一座体育馆。“There are a gym in the school.”是正确的表达，对吗？",
+        "type": "true_false",
+        "id": 40012,
+        "score": 10
+      },
+      {
+        "answer": "There are eighteen pupils in the class.",
+        "difficulty": 1,
+        "explanation": "eighteen pupils表示十八名学生，是复数，应使用There are，pupils也要用复数。",
+        "knowledge_point": "Lesson 3 There are twenty pupils in my class.",
+        "options": [
+          "There is eighteen pupils in the class.",
+          "There are eighteen pupil in the class.",
+          "There are eighteen pupils in the class.",
+          "There is a eighteen pupils in the class."
+        ],
+        "question": "一个班有18名学生。选择语法和意思都正确的句子。",
+        "type": "choice",
+        "id": 40013,
+        "score": 10
+      },
+      {
+        "answer": "班级人数少，但教室大。",
+        "difficulty": 1,
+        "explanation": "class与classroom分别指班级和教室；在介绍班级人数的语境中，class is small表示班级人数少。",
+        "knowledge_point": "Lesson 3 There are twenty pupils in my class.",
+        "options": [
+          "班级人数少，但教室大。",
+          "班级人数多，但教室小。",
+          "学校很小，但图书馆大。",
+          "教室很小，但体育馆大。"
+        ],
+        "question": "Lucy在介绍班级人数后写道：“My class is small, but my classroom is big.” 这句话表达了什么？",
+        "type": "choice",
+        "id": 40014,
+        "score": 10
+      },
+      {
+        "answer": "We often sit in a circle.",
+        "difficulty": 1,
+        "explanation": "主语we后用sit；often表示经常，in a circle表示围成一圈。",
+        "knowledge_point": "Lesson 3 There are twenty pupils in my class.",
+        "options": [
+          "We often sit in a circle.",
+          "We often are sit in a circle.",
+          "We often sits in a circle.",
+          "We often sitting in a circle."
+        ],
+        "question": "选择正确表达“我们经常围成一圈坐着”的句子。",
+        "type": "choice",
+        "id": 40015,
+        "score": 10
+      },
+      {
+        "answer": "Some are making things.",
+        "difficulty": 2,
+        "explanation": "Some在这里指一些学生，用are making表示正在制作东西。",
+        "knowledge_point": "Lesson 3 There are twenty pupils in my class.",
+        "options": [
+          "Some is making things.",
+          "Some are make things.",
+          "Some are making things.",
+          "Some making things."
+        ],
+        "question": "要描述“一些学生此刻正在做手工”，哪句英语正确？",
+        "type": "choice",
+        "id": 40016,
+        "score": 10
+      },
+      {
+        "answer": "Some are telling stories.",
+        "difficulty": 2,
+        "explanation": "一些学生正在讲故事，用Some are telling stories.；其余选项缺少正确的be动词或动词-ing形式。",
+        "knowledge_point": "Lesson 3 There are twenty pupils in my class.",
+        "options": [
+          "Some are telling stories.",
+          "Some is telling stories.",
+          "Some are tell stories.",
+          "Some telling stories."
+        ],
+        "question": "要描述“一些学生此刻正在讲故事”，哪句正确？",
+        "type": "choice",
+        "id": 40017,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "第一句介绍经常做的事；第二句使用are singing，介绍此刻正在发生的动作。",
+        "knowledge_point": "Lesson 3 There are twenty pupils in my class.",
+        "options": [],
+        "question": "“We often sing songs.”表示我们经常唱歌；“We are singing songs now.”表示我们现在正在唱歌。这个区别正确吗？",
+        "type": "true_false",
+        "id": 40018,
+        "score": 10
+      },
+      {
+        "answer": "Canada",
+        "difficulty": 1,
+        "explanation": "I’m from Canada.明确说明Lily来自加拿大，而不是其他三个国家。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "China",
+          "Canada",
+          "Britain",
+          "France"
+        ],
+        "question": "Lily说：“My name is Lily. I’m from Canada.” 她来自哪个国家？",
+        "type": "choice",
+        "id": 40019,
+        "score": 10
+      },
+      {
+        "answer": "books and toys",
+        "difficulty": 1,
+        "explanation": "books and toys分别表示书和玩具；题干原句明确列出了这两类物品。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "books and toys",
+          "maps and chairs",
+          "computers and plants",
+          "balls and rulers"
+        ],
+        "question": "Lily介绍教室时说：“We have books and toys in it.” 她在这句话中提到了哪两类物品？",
+        "type": "choice",
+        "id": 40020,
+        "score": 10
+      },
+      {
+        "answer": "on the walls",
+        "difficulty": 1,
+        "explanation": "句末的on the walls说明这些物品在墙上，其他位置均未在原句中出现。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "behind the door",
+          "under the desks",
+          "in the gym",
+          "on the walls"
+        ],
+        "question": "Lily说：“There are many cards, pictures and posters on the walls.” 这些卡片、图片和海报在哪里？",
+        "type": "choice",
+        "id": 40021,
+        "score": 10
+      },
+      {
+        "answer": "教师办公室",
+        "difficulty": 1,
+        "explanation": "the teacher’s office表示教师办公室；also表示也。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "教师办公室",
+          "家长的家",
+          "图书馆",
+          "体育馆"
+        ],
+        "question": "Lily说：“The classroom is also the teacher’s office.” 这间教室还用作什么地方？",
+        "type": "choice",
+        "id": 40022,
+        "score": 10
+      },
+      {
+        "answer": "cook",
+        "difficulty": 2,
+        "explanation": "本课例词book和cook中的oo都读/ʊ/；sky、star和skip不含这一元音。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "cook",
+          "star",
+          "sky",
+          "skip"
+        ],
+        "question": "按本课语音例词的读音，哪个词含有与book中的oo相同的元音/ʊ/？",
+        "type": "choice",
+        "id": 40023,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "sky和skirt的sk均读/sk/；story和stop的st均读/st/，两个组合的第二个辅音不同。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "在sky、skirt中，sk读/sk/；在story、stop中，st读/st/。这个说法正确吗？",
+        "type": "true_false",
+        "id": 40024,
+        "score": 10
+      },
+      {
+        "answer": "Saturday morning",
+        "difficulty": 1,
+        "explanation": "It is Saturday morning.明确给出故事开始的时间。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "Saturday morning",
+          "Sunday morning",
+          "Monday morning",
+          "Saturday afternoon"
+        ],
+        "question": "故事开头写道：“It is Saturday morning. John is going to do his homework.” John准备做作业时是什么时间？",
+        "type": "choice",
+        "id": 40025,
+        "score": 10
+      },
+      {
+        "answer": "play football",
+        "difficulty": 1,
+        "explanation": "wants to play football表示想踢足球，是计划，而不是已经发生的结果。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "play football",
+          "sing songs",
+          "send photos",
+          "tell stories"
+        ],
+        "question": "关于John的计划，故事写道：“He wants to play football in the afternoon.” 他想在下午做什么？",
+        "type": "choice",
+        "id": 40026,
+        "score": 10
+      },
+      {
+        "answer": "his dog",
+        "difficulty": 2,
+        "explanation": "it承接前句的his dog，表示他和自己的狗玩。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "his homework",
+          "the afternoon",
+          "his dog",
+          "the garden"
+        ],
+        "question": "故事写道：“When he begins to do his homework, his dog comes to him. He plays with it.” 这里的it指什么？",
+        "type": "choice",
+        "id": 40027,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "给出的结尾只有提问，没有说他午餐后马上完成作业；不能把推测当作明示事实。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "John的故事结尾只有：“It’s lunchtime now. When can John finish his homework?” 这两句已经明确说明John在午餐后马上完成作业，对吗？",
+        "type": "true_false",
+        "id": 40028,
+        "score": 10
+      },
+      {
+        "answer": "They’re sitting in groups.",
+        "difficulty": 2,
+        "explanation": "题干说明学生分组坐着，应用in groups；They’re sitting结构完整，其他选项或意思不符，或语法错误。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "They’re sitting in groups.",
+          "They’re sitting in a circle.",
+          "They’re sit in groups.",
+          "They is sitting in groups."
+        ],
+        "question": "一间教室里，学生此刻分成三个小组，每组围着一张桌子坐着，没有围成一个大圈。哪句描述正确？",
+        "type": "choice",
+        "id": 40029,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "They’re是They are的缩写；展开后句子的意思不变。",
+        "knowledge_point": "Try yourself.",
+        "options": [],
+        "question": "“They’re sitting in a circle.”中的They’re可以展开为They are，对吗？",
+        "type": "true_false",
+        "id": 40030,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 4 School in Canada·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "What subjects does Amy have?",
+        "difficulty": 2,
+        "explanation": "询问Amy有哪些课程，用What subjects；主语Amy是第三人称单数，用does，后接动词原形have。",
+        "knowledge_point": "Lesson 1 Lucy is in a new school.",
+        "options": [
+          "What subjects does Amy have?",
+          "What subjects do Amy have?",
+          "What subjects does Amy has?",
+          "What subjects is Amy have?"
+        ],
+        "question": "你想询问Amy有哪些课程。选择语法正确的问句。",
+        "type": "choice",
+        "id": 49001,
+        "score": 10
+      },
+      {
+        "answer": "There is a new gym.",
+        "difficulty": 1,
+        "explanation": "a new gym表示一座新体育馆，是单数名词短语，与There is搭配。",
+        "knowledge_point": "Lesson 2 There is an old building in my school.",
+        "options": [
+          "There is a new gym.",
+          "There are a new gym.",
+          "There is new gyms.",
+          "There are a new gyms."
+        ],
+        "question": "要表达“有一座新体育馆”，哪句英语正确？",
+        "type": "choice",
+        "id": 49002,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "原句说学生正在分组坐着，不是正在围成一圈坐着；in groups与in a circle含义不同。",
+        "knowledge_point": "Lesson 3 There are twenty pupils in my class.",
+        "options": [],
+        "question": "一句照片说明写着：“We are sitting in groups.” 把它理解为“我们正在围成一圈坐着”，对吗？",
+        "type": "true_false",
+        "id": 49003,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "Sometimes表示有时，不表示每天；parents表示家长，不是学生。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "Lily介绍教室时说：“Sometimes our parents come to the classroom to help.” 这句话表示“我们的家长每天都来教室帮忙”，对吗？",
+        "type": "true_false",
+        "id": 49004,
+        "score": 10
+      },
+      {
+        "answer": "dog → bird → Tom and Jerry",
+        "difficulty": 2,
+        "explanation": "先和狗玩，再去看鸟，最后想看Tom and Jerry；应严格按题干给出的事件先后排序。",
+        "knowledge_point": "Try yourself.",
+        "options": [
+          "dog → Tom and Jerry → bird",
+          "Tom and Jerry → dog → bird",
+          "dog → bird → Tom and Jerry",
+          "bird → dog → Tom and Jerry"
+        ],
+        "question": "John做作业时，先和来到身边的狗玩，接着去看花园里的鸟，后来想看Tom and Jerry。选择与这段叙述一致的顺序。",
+        "type": "choice",
+        "id": 49005,
+        "score": 10
+      },
+      {
+        "answer": "There are three trees.",
+        "difficulty": 1,
+        "explanation": "three trees表示三棵树，是复数名词短语，应用There are。",
+        "knowledge_point": "Lesson 2 There is an old building in my school.",
+        "options": [
+          "There is a three trees.",
+          "There is three trees.",
+          "There are three trees.",
+          "There are three tree."
+        ],
+        "question": "校园里有三棵树。选择语法和意思都正确的英语句子。",
+        "type": "choice",
+        "id": 49006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "Does后面的行为动词用原形，应说Does she like...?，不能说Does she likes...?。",
+        "肯定陈述句中，she后用has、draws、plays、watches等相应形式；不能照搬问句里的have、draw、play、watch。",
+        "回答Does she...?时，本课使用Yes, she does.或No, she doesn’t.，不要与is的简答混淆。",
+        "弹钢琴说play the piano；本课often表示经常，sometimes表示有时，不能把二者都理解为总是。"
+      ],
+      "core_concept": "本课介绍Lucy对新学校的感受、她的课程和放学后的活动。Does she like her new school?询问她是否喜欢新学校；What subjects does she have?询问课程；What does she do after school?询问课后活动。问句中does后用动词原形，肯定陈述句中she后使用相应的第三人称单数形式。课程包括science、maths、art、reading和French；对话明确说Lucy没有Chinese。她经常画画，有时弹钢琴，有时看电影。",
+      "key_formula": "Does she + 动词原形...? — Yes, she does. / No, she doesn’t.；What subjects does she have? — She has...；What does she do after school? — She + 动词第三人称单数形式...",
+      "point": "Lesson 1 Lucy is in a new school.",
+      "tips": "把课程和课后活动分两栏整理。读问句时留意does，作答时留意has、draws、plays和watches；可用often、sometimes介绍活动频率，不必扩展到完整时态体系。"
+    },
+    {
+      "common_mistakes": [
+        "单个事物用There is，如There is a library.；多个事物用There are，如There are many trees.。",
+        "many后接复数名词，不能写many tree或many book。",
+        "old以元音音素开头，应说an old building，不能说a old building。",
+        "What’s your school like?询问学校的样貌或特点，不是问学校喜欢什么。"
+      ],
+      "core_concept": "本课用What’s your new school like?询问学校的样貌，并用It’s not big, but very beautiful.等句子描述学校。介绍校园里的单个事物用There is，介绍多个事物用There are。Lucy的学校有一座旧建筑、许多树和花、图书馆以及一座新体育馆。Do you have a library?用于询问是否有图书馆；Can you send me some photos?用于请求对方发送照片。结合导入和活动，可按明确的建筑、颜色及设施信息介绍或辨认学校。",
+      "key_formula": "What’s your school like? — It’s...；There is + 单数名词短语.；There are + 复数名词短语.；Do you have a library? — Yes, we do. / No, we don’t.；Can you send me some photos?",
+      "point": "Lesson 2 There is an old building in my school.",
+      "tips": "先判断介绍的是一个还是多个事物，再选择is或are。介绍学校时可先说整体特点，再说建筑和环境；并列介绍不同设施时，使用两个完整的简单句可以避免单复数混淆。"
+    },
+    {
+      "common_mistakes": [
+        "class指班级，classroom指教室；班级人数少不等于教室小。",
+        "twenty pupils是复数，用There are，不能用There is。",
+        "描述正在进行的活动不能漏掉are或动词-ing，如Some are making things.。",
+        "in groups表示分组，in a circle表示围成一圈；二者不能混用。",
+        "often、sometimes可用于描述常规活动，但不能据此断言它们在所有语境中都不能与其他时态搭配。"
+      ],
+      "core_concept": "本课主阅读是一封Lucy写给Li Ming的信。Lucy班里有二十名学生，班级小而教室大，教室里有许多书和图片。信中既介绍日常活动We read books and draw pictures here.，也描述照片中正在发生的活动We are sitting in groups.、Some are making things.和Some are telling stories.。We often sit in a circle.以及Sometimes we sing songs./play games.介绍常规活动。学习时应结合书信语境理解人数、设施和不同活动方式。",
+      "key_formula": "There are + 数量 + 复数名词.；How many pupils are there...?；We often + 动词原形...；Some are + 动词-ing...；in groups；in a circle",
+      "point": "Lesson 3 There are twenty pupils in my class.",
+      "tips": "先按人数、教室、照片中的活动、平时的活动整理信件信息。描述照片中的正在进行的动作时使用are加动词-ing；描述本课常规活动时使用sit、sing、play等一般现在时形式。"
+    },
+    {
+      "common_mistakes": [
+        "教材本课例词中的oo读/ʊ/，不能推广成所有含oo的词都这样读。",
+        "sk、st读作辅音组合时，不能在两个辅音中随意加一个元音。",
+        "The classroom is also the teacher’s office.表示教室也用作教师办公室，不表示教室就是图书馆。",
+        "School—Go slow!中的慢行提醒不是要求学生迟到；笑话利用了Jack对标语的误解。",
+        "听力勾选须依据配套音频，不能只看图片就宣称核实了录音答案。"
+      ],
+      "core_concept": "本课综合复习学校样貌、班级人数和学生的活动。语音部分中，sky、skip、skate、skirt的sk读/sk/；story、study、star、stop的st读/st/；book、look、cook、foot的oo读/ʊ/。Lily的主阅读介绍她来自加拿大、在五年级、班里有25名学生；教室大而美丽，里面有书和玩具，墙上有卡片、图片和海报，教室也用作教师办公室，家长有时来帮忙。趣味对话通过Jack对慢行标语的误解构成笑话。",
+      "key_formula": "There are + 数量 + 复数名词.；sk → /sk/；st → /st/；oo → /ʊ/（限本课所列例词）",
+      "point": "Lesson 4 Again, please!",
+      "tips": "朗读时把字母组合与整词一起练习。阅读时圈出人数、物品、位置和人物等细节；听力活动先听配套音频再选择。"
+    },
+    {
+      "common_mistakes": [
+        "故事顺序是先和狗玩，再看鸟，后来想看Tom and Jerry，不能颠倒。",
+        "John想在下午踢足球，不等于故事已经写到他下午踢了足球。",
+        "故事没有交代John最终何时完成作业，不能补写午餐后完成等结局。",
+        "They’re是They are的缩写；描述正在进行的动作时不能漏掉are或动词-ing。"
+      ],
+      "core_concept": "拓展故事写John星期六上午准备做作业，想在下午踢足球，却先后因狗、花园里的鸟和Tom and Jerry而分心。故事在午餐时间以提问结束，没有给出完成作业的时间。阅读要区分计划、已叙述的行动和未交代的结果，并思考怎样专注完成任务。Check it.用于自评本单元词汇、句型以及介绍加拿大的学校和自己的学校的能力；Learn to learn.鼓励用不同教室布局练习描述活动。",
+      "key_formula": "They’re = They are；They are + 动词-ing...；There is + 单数名词短语.；There are + 复数名词短语.",
+      "point": "Try yourself.",
+      "tips": "可按“原计划—分心的事情—故事结束时的情况”梳理阅读，不续写结局。自评时逐项检查是否会认读词语、使用句型和介绍学校；描述布局时先分清围圈还是分组，再组织完整句子。"
+    }
+  ]
+}

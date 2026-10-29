@@ -182,6 +182,10 @@ struct Book: Codable, Hashable, Identifiable {
     var subjectName: String?
     var textbookName: String
     var fullName: String
+    var schoolSystem: String? = nil
+    var publisherLabel: String? = nil
+    var sourceEdition: String? = nil
+    var sourcePrinting: String? = nil
     var unitsCount: Int
     var lessonsCount: Int
     var hasPassages: Bool?

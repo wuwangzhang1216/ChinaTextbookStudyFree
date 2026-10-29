@@ -1,0 +1,501 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级 上册",
+  "unit": "Unit 1 Greetings",
+  "unit_number": 1,
+  "unit_test": {
+    "title": "Unit 1 Greetings·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "Hello!",
+        "difficulty": 1,
+        "explanation": "Hello!表示你好；其余三项都是教材人物的姓名，不是问候语。",
+        "knowledge_point": "Lesson 1 Hello!",
+        "options": [
+          "Jenny",
+          "Hello!",
+          "Danny",
+          "Li Ming"
+        ],
+        "question": "下面哪一项是表示“你好”的英语问候语，而不是人物姓名？",
+        "type": "choice",
+        "id": 10001,
+        "score": 10
+      },
+      {
+        "answer": "你好！",
+        "difficulty": 1,
+        "explanation": "Hi!用于打招呼，意思是你好，不包含自我介绍、致谢或告别的意思。",
+        "knowledge_point": "Lesson 1 Hello!",
+        "options": [
+          "我叫珍妮。",
+          "谢谢你。",
+          "你好！",
+          "再见！"
+        ],
+        "question": "同伴见面时说“Hi!”，这里的意思是哪一个？",
+        "type": "choice",
+        "id": 10002,
+        "score": 10
+      },
+      {
+        "answer": "I'm",
+        "difficulty": 1,
+        "explanation": "介绍自己使用I'm加姓名。其余词不能放在这里组成题目要求的自我介绍。",
+        "knowledge_point": "Lesson 1 Hello!",
+        "options": [
+          "Jenny",
+          "I'm",
+          "Hello",
+          "Hi"
+        ],
+        "question": "扮演Danny的同学要说“你好！我叫Danny。”请选择合适的部分补全：“Hello! ______ Danny.”",
+        "type": "choice",
+        "id": 10003,
+        "score": 10
+      },
+      {
+        "answer": "Hi! I'm Lily.",
+        "difficulty": 2,
+        "explanation": "Hi!用于问候，I'm Lily.介绍自己的姓名。其余选项缺少必要成分或词序不正确。",
+        "knowledge_point": "Lesson 1 Hello!",
+        "options": [
+          "Hi! I'm Lily.",
+          "Hi! I Lily.",
+          "Hi! I'm.",
+          "Hi! Lily I'm."
+        ],
+        "question": "角色扮演中，一个虚构角色叫Lily。她要先打招呼，再完整介绍自己的姓名，哪一句正确？",
+        "type": "choice",
+        "id": 10004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Hello!和Hi!都是本课的问候语，可以用于同伴见面时打招呼。",
+        "knowledge_point": "Lesson 1 Hello!",
+        "options": [],
+        "question": "判断正误：同伴见面打招呼时，可以说“Hello!”，也可以说“Hi!”。",
+        "type": "true_false",
+        "id": 10005,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "I'm中的撇号是缩写的一部分，不能省去写成Im。",
+        "knowledge_point": "Lesson 1 Hello!",
+        "options": [],
+        "question": "判断正误：抄写“I'm Jenny.”时，可以把I'm写成Im。",
+        "type": "true_false",
+        "id": 10006,
+        "score": 10
+      },
+      {
+        "answer": "Good morning.",
+        "difficulty": 1,
+        "explanation": "Good morning.准确表示早上好；其他选项分别表示告别、询问近况和致谢。",
+        "knowledge_point": "Lesson 2 How are you?",
+        "options": [
+          "Goodbye!",
+          "Good morning.",
+          "How are you?",
+          "Thank you."
+        ],
+        "question": "小禾早晨到校，想对同伴说“早上好”。哪一句准确表达这个意思？",
+        "type": "choice",
+        "id": 10007,
+        "score": 10
+      },
+      {
+        "answer": "How are you?",
+        "difficulty": 1,
+        "explanation": "How are you?用于询问对方近况。其他选项分别是自我介绍、致谢和告别。",
+        "knowledge_point": "Lesson 2 How are you?",
+        "options": [
+          "I'm Jenny.",
+          "Thank you.",
+          "How are you?",
+          "Bye!"
+        ],
+        "question": "小禾想用一句问句询问同伴近况，应选择哪一句？",
+        "type": "choice",
+        "id": 10008,
+        "score": 10
+      },
+      {
+        "answer": "I'm fine. Thank you.",
+        "difficulty": 1,
+        "explanation": "I'm fine.表示我很好，Thank you.表示谢谢。其他选项不同时包含这两个意思。",
+        "knowledge_point": "Lesson 2 How are you?",
+        "options": [
+          "Good morning.",
+          "I'm fine. Thank you.",
+          "Goodbye!",
+          "How are you?"
+        ],
+        "question": "朋友询问近况后，小禾要回答“我很好，谢谢你”。哪一句完整表达这两个意思？",
+        "type": "choice",
+        "id": 10009,
+        "score": 10
+      },
+      {
+        "answer": "And you?",
+        "difficulty": 2,
+        "explanation": "And you?在这里表示你呢，用于反问对方的近况。其余选项不是反问。",
+        "knowledge_point": "Lesson 2 How are you?",
+        "options": [
+          "Bye!",
+          "I'm fine.",
+          "Thank you.",
+          "And you?"
+        ],
+        "question": "小禾已经回答自己很好并表示感谢，现在想接着问“你呢？”。应说哪一句？",
+        "type": "choice",
+        "id": 10010,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Fine, thank you.是本课出现的近况回答，意思是很好，谢谢你。",
+        "knowledge_point": "Lesson 2 How are you?",
+        "options": [],
+        "question": "判断正误：别人询问近况时，可以用“Fine, thank you.”回答自己很好并致谢。",
+        "type": "true_false",
+        "id": 10011,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Goodbye!和Bye!都可以用于告别，不能把Bye!判为不是告别语。",
+        "knowledge_point": "Lesson 2 How are you?",
+        "options": [],
+        "question": "判断正误：“Goodbye!”可以用于告别，但“Bye!”不能用于告别。",
+        "type": "true_false",
+        "id": 10012,
+        "score": 10
+      },
+      {
+        "answer": "afternoon",
+        "difficulty": 1,
+        "explanation": "Good afternoon.表示下午好。morning表示早晨，其他两项不能补成题目要求的问候语。",
+        "knowledge_point": "Lesson 3 Nice to meet you.",
+        "options": [
+          "morning",
+          "fine",
+          "afternoon",
+          "you"
+        ],
+        "question": "要表达“下午好”，请选择合适的词补全：“Good ______.”",
+        "type": "choice",
+        "id": 10013,
+        "score": 10
+      },
+      {
+        "answer": "很高兴认识你。",
+        "difficulty": 1,
+        "explanation": "Nice to meet you.用于初次见面致意，意思是很高兴认识你，不是询问近况或告别。",
+        "knowledge_point": "Lesson 3 Nice to meet you.",
+        "options": [
+          "你好吗？",
+          "很高兴认识你。",
+          "早上好。",
+          "再见！"
+        ],
+        "question": "两位新同伴初次见面，其中一位说：“Nice to meet you.”这句话的意思是什么？",
+        "type": "choice",
+        "id": 10014,
+        "score": 10
+      },
+      {
+        "answer": "too",
+        "difficulty": 1,
+        "explanation": "回应句末尾使用too，表示也。to、you、fine均不能填在这里构成正确回应。",
+        "knowledge_point": "Lesson 3 Nice to meet you.",
+        "options": [
+          "you",
+          "fine",
+          "too",
+          "to"
+        ],
+        "question": "甲说：“Nice to meet you.”乙想说“我也很高兴认识你”，请补全：“Nice to meet you, ______.”",
+        "type": "choice",
+        "id": 10015,
+        "score": 10
+      },
+      {
+        "answer": "Good afternoon. I'm Tom.",
+        "difficulty": 2,
+        "explanation": "Good afternoon.表示下午好，I'm Tom.介绍自己叫Tom。其余选项或时段不符，或姓名不符，或没有完成自我介绍。",
+        "knowledge_point": "Lesson 3 Nice to meet you.",
+        "options": [
+          "Good afternoon. I'm Tom.",
+          "Good morning. I'm Tom.",
+          "Good afternoon. I'm Jenny.",
+          "Good afternoon, Tom."
+        ],
+        "question": "角色扮演中，一个虚构角色叫Tom。他要表达“下午好。我叫Tom。”哪一句同时准确表达这两个意思？",
+        "type": "choice",
+        "id": 10016,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "Good afternoon.表示下午好，后面的Miss Zhang是在直接称呼张老师。",
+        "knowledge_point": "Lesson 3 Nice to meet you.",
+        "options": [],
+        "question": "判断正误：“Good afternoon, Miss Zhang.”是在向张老师问下午好。",
+        "type": "true_false",
+        "id": 10017,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 2,
+        "explanation": "Nice to meet you.表示很高兴认识你；询问近况要使用How are you?。",
+        "knowledge_point": "Lesson 3 Nice to meet you.",
+        "options": [],
+        "question": "判断正误：“Nice to meet you.”与“How are you?”意思相同，都在询问对方近况。",
+        "type": "true_false",
+        "id": 10018,
+        "score": 10
+      },
+      {
+        "answer": "Hi! I'm Ben.",
+        "difficulty": 2,
+        "explanation": "Hi!完成问候，I'm Ben.完成Ben的自我介绍。其余选项或介绍了错误姓名，或只称呼对方，或使用告别语。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "Hi, Ben.",
+          "Hi! I'm Ben.",
+          "Hi! I'm Amy.",
+          "Bye! I'm Ben."
+        ],
+        "question": "姓名卡活动中，甲扮演Amy，乙扮演Ben。甲已向乙问好。乙要用“你好！我叫Ben。”回应，哪一句准确？",
+        "type": "choice",
+        "id": 10019,
+        "score": 10
+      },
+      {
+        "answer": "Hi, Amy. I'm Ben.",
+        "difficulty": 2,
+        "explanation": "Hi, Amy.是在问候Amy，I'm Ben.说明说话者叫Ben。其余选项没有同时正确对应被问候者和说话者。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "Hi, Ben. I'm Amy.",
+          "Hi, Amy. I'm Amy.",
+          "Hi, Amy. I'm Ben.",
+          "Hi, Ben. I'm Ben."
+        ],
+        "question": "两个虚构角色交流：说话者叫Ben，他正向Amy问好并介绍自己。哪句话中的两个姓名位置都正确？",
+        "type": "choice",
+        "id": 10020,
+        "score": 10
+      },
+      {
+        "answer": "Nice to meet you, too.",
+        "difficulty": 1,
+        "explanation": "题目要求表达我也很高兴认识你，只有Nice to meet you, too.符合。其他选项分别是近况回答、反问和告别。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "Fine, thank you.",
+          "And you?",
+          "Bye!",
+          "Nice to meet you, too."
+        ],
+        "question": "新同伴说：“Nice to meet you.”你要回应“我也很高兴认识你”，而不是回答近况。应选哪一句？",
+        "type": "choice",
+        "id": 10021,
+        "score": 10
+      },
+      {
+        "answer": "Fine, thank you. And you?",
+        "difficulty": 2,
+        "explanation": "Fine回答自己很好，thank you表示感谢，And you?反问对方。其他选项都缺少题目要求的一个或多个交流内容。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "Fine, thank you. And you?",
+          "Fine, thank you.",
+          "And you?",
+          "Nice to meet you, too."
+        ],
+        "question": "甲问乙近况。乙要一次完成“回答很好、表示感谢、反问甲近况”三个任务，哪一项最完整？",
+        "type": "choice",
+        "id": 10022,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Bye!表示再见，不表示我很好；回答自己很好可用I'm fine.。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "判断正误：同伴问“How are you?”时，可以用“Bye!”表达“我很好”。",
+        "type": "true_false",
+        "id": 10023,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "这句话先用Hi问候Danny，再用I'm介绍说话者叫Liu Yubin；两个姓名的作用不同。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "判断正误：在“Hi, Danny. I'm Liu Yubin.”中，被问候的人叫Danny，说话者介绍自己叫Liu Yubin。",
+        "type": "true_false",
+        "id": 10024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 1 Greetings·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "Danny",
+        "difficulty": 1,
+        "explanation": "“I'm Danny.”表示说话者介绍自己叫Danny；Hello是问候语，其他两个姓名没有出现在这句自我介绍中。",
+        "knowledge_point": "Lesson 1 Hello!",
+        "options": [
+          "Hello",
+          "Danny",
+          "Jenny",
+          "Li Ming"
+        ],
+        "question": "一个玩偶说：“Hello! I'm Danny.”它介绍的姓名是哪一个？",
+        "type": "choice",
+        "id": 19001,
+        "score": 10
+      },
+      {
+        "answer": "Good morning. → How are you? → Goodbye!",
+        "difficulty": 2,
+        "explanation": "题目要求依次完成早晨问候、询问近况、告别。只有这一项的三个表达与要求逐一对应。",
+        "knowledge_point": "Lesson 2 How are you?",
+        "options": [
+          "Goodbye! → How are you? → Good morning.",
+          "Good morning. → How are you? → Goodbye!",
+          "How are you? → Goodbye! → Good morning.",
+          "Good morning. → Goodbye! → How are you?"
+        ],
+        "question": "小林要依次完成“早晨问候—询问近况—告别”这三个交流任务，哪组表达的顺序正确？",
+        "type": "choice",
+        "id": 19002,
+        "score": 10
+      },
+      {
+        "answer": "Good afternoon, Miss Zhang.",
+        "difficulty": 2,
+        "explanation": "下午好用Good afternoon表示；直接称呼张老师时使用Miss Zhang。其他选项或时段不符，或姓名不符，或是在告别。",
+        "knowledge_point": "Lesson 3 Nice to meet you.",
+        "options": [
+          "Good morning, Miss Zhang.",
+          "Good afternoon, Jenny.",
+          "Goodbye, Miss Zhang.",
+          "Good afternoon, Miss Zhang."
+        ],
+        "question": "下午，小林见到张老师，要说“下午好，张老师”。哪一句准确表达这个意思？",
+        "type": "choice",
+        "id": 19003,
+        "score": 10
+      },
+      {
+        "answer": "先向Danny问好，再介绍自己叫Liu Yubin",
+        "difficulty": 2,
+        "explanation": "Hi, Danny.是在向Danny问好；I'm Liu Yubin.是在介绍说话者自己的姓名，不是在介绍Danny的姓名。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "先介绍自己叫Danny，再向Liu Yubin问好",
+          "先向Danny告别，再介绍自己叫Liu Yubin",
+          "先向Danny问好，再介绍自己叫Liu Yubin",
+          "先询问Danny的近况，再表示感谢"
+        ],
+        "question": "姓名卡交流中，一个角色说：“Hi, Danny. I'm Liu Yubin.”这两句话依次表达什么？",
+        "type": "choice",
+        "id": 19004,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "Good morning.表示早上好；Good afternoon.表示下午好。两个表达对应的时段不同。",
+        "knowledge_point": "Lesson 3 Nice to meet you.",
+        "options": [],
+        "question": "判断正误：“Good morning.”和“Good afternoon.”都表示“下午好”。",
+        "type": "true_false",
+        "id": 19005,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 2,
+        "explanation": "这段对话先询问近况，再回答并致谢、反问，最后回答反问，问答衔接正确。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "判断下面的近况交流是否衔接正确。甲：“How are you?”乙：“Fine, thank you. And you?”甲：“I'm fine. Thank you.”",
+        "type": "true_false",
+        "id": 19006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "把Hello!或Hi!误当成姓名介绍；它们用于打招呼。",
+        "介绍自己时只说姓名而漏掉I'm；本课练习使用I'm加姓名。",
+        "把I'm写成Im；规范写法中的撇号不能漏掉。",
+        "把I'm后面的姓名误认为被问候者的姓名；它表示说话者自己的姓名。"
+      ],
+      "core_concept": "用Hello!和Hi!打招呼，用I'm加姓名介绍自己，例如：Hello! I'm Li Ming.。Hello!与Hi!在同伴见面的情境中都可以使用，不能把其中一个判为错误。",
+      "key_formula": "",
+      "point": "Lesson 1 Hello!",
+      "tips": "可用角色扮演先问候、再介绍姓名。I'm是I am的缩写，I要大写并保留撇号。练习可以使用教材角色姓名或虚构姓名，不必提供学生真实姓名。"
+    },
+    {
+      "common_mistakes": [
+        "把Good morning.误解为告别；它表示早上好。",
+        "把How are you?误解为询问姓名；它用于询问近况。",
+        "把And you?当成告别语；它在回答近况后用于反问对方。",
+        "认为只有I'm fine. Thank you.才正确；Fine, thank you.也是教材中的回答。",
+        "把Thank you.说成任何回答中都必须出现的成分；本课是在回答近况时练习礼貌致谢。"
+      ],
+      "core_concept": "本课学习早晨见面的问候Good morning.，询问近况How are you?，回答I'm fine. Thank you.或Fine, thank you.，以及用And you?反问对方。交流结束时可用Goodbye!或Bye!告别。应理解每句话的交流作用，而不是把整段对话当成任何场合都必须照搬的固定程序。",
+      "key_formula": "",
+      "point": "Lesson 2 How are you?",
+      "tips": "结对练习时轮流提问和回答。说完自己很好并致谢后，可以用And you?把问题转给对方。How are you?和And you?是问句，书写时用问号。"
+    },
+    {
+      "common_mistakes": [
+        "混淆morning和afternoon，导致问候时段不符。",
+        "把Nice to meet you.误解为询问近况；它用于初次见面致意。",
+        "把回应句中too误写成to；Nice to meet you, too.末尾的too表示也。",
+        "误以为所有问候都必须先自我介绍；向已认识的老师问好时，可以直接问候并称呼老师。"
+      ],
+      "core_concept": "本课学习下午问候Good afternoon.，结合I'm加姓名进行自我介绍，并用Nice to meet you.表达初次见面的喜悦，用Nice to meet you, too.回应。师生问候中使用教材已有称呼Miss Zhang，例如Good afternoon, Miss Zhang.。角色交流包含师生和同伴情境；歌曲复习早晨问候，但不作为主对话收入听读原文。",
+      "key_formula": "",
+      "point": "Lesson 3 Nice to meet you.",
+      "tips": "用morning表示早晨，用afternoon表示下午。初次见面的致意与近况询问作用不同。跟读时注意Nice to meet you, too.中的too；书写直接称呼时，按例句在问候语与称呼之间使用逗号。"
+    },
+    {
+      "common_mistakes": [
+        "不辨交流任务，把告别语用来回答近况。",
+        "在回应初次见面致意时，混用近况回答Fine, thank you.。",
+        "把问候中直接称呼的姓名与I'm后面介绍的姓名混淆。",
+        "把综合复习误当成新增句型学习，额外加入本单元没有出现的姓名问答。",
+        "根据气泡位置猜测说话人，而不看气泡指向，导致角色归属错误。"
+      ],
+      "core_concept": "本课综合复习问候、自我介绍、初次见面致意、询问近况、回答致谢、反问和告别。按教材分格顺序连贯练习，不新增句型。姓名卡活动保留制作与交流任务，使用Hello! I'm Danny.和Hi, Danny. I'm Liu Yubin.这类已有表达；其中Hi后面的姓名是被问候者，I'm后面的姓名是说话者自己。",
+      "key_formula": "",
+      "point": "Lesson 4 Again, please!",
+      "tips": "先判断自己是在问候、介绍、回应致意、回答近况还是告别，再选择表达。姓名卡可以写教材角色名或虚构姓名。"
+    }
+  ]
+}

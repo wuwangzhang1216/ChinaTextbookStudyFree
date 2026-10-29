@@ -13,7 +13,7 @@ spec.loader.exec_module(installer)
 
 def render(manifest, ios, index):
     tag = installer.safe_name(manifest['tag'])
-    base = f'https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/download/{tag}'
+    base = f'{installer.RELEASE_ROOT}/{tag}'
     resources = installer.resource_base(manifest, tag)
     ios_base = f"{installer.RELEASE_ROOT}/{installer.safe_name(manifest.get('ios_resource_tag', tag))}"
     assets = {a['name']: a for a in manifest['assets']}
@@ -54,7 +54,7 @@ def render(manifest, ios, index):
     for subject, label in [('math', '数学'), ('chinese', '语文'), ('english', '英语'), ('science', '科学')]:
         lines += [f'<details><summary>{label}</summary>', '', '| 教材 | 数据 | AAC 音频 |', '| --- | --- | --- |']
         for book in sorted((b for b in books.values() if b['subject'] == subject),
-                           key=lambda b: (b['grade'], b['semester'] != 'up', bool(b.get('supersededBy')))):
+                           key=lambda b: (b.get('schoolSystem', '6-3') == '5-4', b['grade'], b['semester'] != 'up', bool(b.get('supersededBy')))):
             entry = entries[book['id']]
             for field in ('data', 'audio'):
                 bundle = entry[field]

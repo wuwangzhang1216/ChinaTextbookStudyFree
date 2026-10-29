@@ -1,0 +1,524 @@
+{
+  "textbook": "义务教育教科书（五·四学制）·英语（三年级起点）三年级下册",
+  "unit": "Unit 6 Time",
+  "unit_number": 6,
+  "unit_test": {
+    "title": "Unit 6 Time·配套练习",
+    "total_score": 240,
+    "time_minutes": 24,
+    "questions": [
+      {
+        "answer": "What time is it?",
+        "difficulty": 1,
+        "explanation": "What time 用来询问时间。其余选项分别询问年龄、地点和姓名，不能表达“现在几点”。",
+        "knowledge_point": "Lesson 1 It's seven o’clock.",
+        "options": [
+          "How old are you?",
+          "What time is it?",
+          "Where is it?",
+          "What's your name?"
+        ],
+        "question": "小文想知道现在几点，应该用哪个英语问句？",
+        "type": "choice",
+        "id": 60001,
+        "score": 10
+      },
+      {
+        "answer": "It's six o'clock.",
+        "difficulty": 1,
+        "explanation": "six o'clock 表示六点整；其余选项分别表示六点二十分、七点整和六点三十分。",
+        "knowledge_point": "Lesson 1 It's seven o’clock.",
+        "options": [
+          "It's six twenty.",
+          "It's seven o'clock.",
+          "It's six o'clock.",
+          "It's six thirty."
+        ],
+        "question": "现在是六点整。选择与这个时间相符的英语句子。",
+        "type": "choice",
+        "id": 60002,
+        "score": 10
+      },
+      {
+        "answer": "Get up!",
+        "difficulty": 1,
+        "explanation": "Get up 表示起床。其余选项分别是告别、表示准备好了和道晚安，不能表达起床提醒。",
+        "knowledge_point": "Lesson 1 It's seven o’clock.",
+        "options": [
+          "Goodbye!",
+          "I'm ready.",
+          "Good night!",
+          "Get up!"
+        ],
+        "question": "早晨，你想提醒还在床上的玩偶角色“起床！”，应选哪一句？",
+        "type": "choice",
+        "id": 60003,
+        "score": 10
+      },
+      {
+        "answer": "It's seven twenty.",
+        "difficulty": 2,
+        "explanation": "seven twenty 表示七点二十分；其余选项分别是七点三十分、七点整和八点二十分。",
+        "knowledge_point": "Lesson 1 It's seven o’clock.",
+        "options": [
+          "It's seven thirty.",
+          "It's seven twenty.",
+          "It's seven o'clock.",
+          "It's eight twenty."
+        ],
+        "question": "小宁看到的时间是7:20。他应该怎样报时？",
+        "type": "choice",
+        "id": 60004,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“Have a nice day!”表示祝愿对方度过愉快的一天，可用于白天告别。",
+        "knowledge_point": "Lesson 1 It's seven o’clock.",
+        "options": [],
+        "question": "判断：白天告别时，说“Have a nice day!”是在祝对方度过愉快的一天。",
+        "type": "true_false",
+        "id": 60005,
+        "score": 10
+      },
+      {
+        "answer": "I'm ready, mum.",
+        "difficulty": 1,
+        "explanation": "ready 表示准备好的。其余选项分别表示饿了、询问时间和告别，不能表达题目要求。",
+        "knowledge_point": "Lesson 1 It's seven o’clock.",
+        "options": [
+          "I'm hungry.",
+          "What time is it?",
+          "I'm ready, mum.",
+          "Goodbye, mum!"
+        ],
+        "question": "小安收拾好书包，想告诉妈妈“妈妈，我准备好了”。应说哪一句？",
+        "type": "choice",
+        "id": 60006,
+        "score": 10
+      },
+      {
+        "answer": "It's time for class.",
+        "difficulty": 1,
+        "explanation": "class 对应上课；其余选项分别提示午餐、游戏和上学，不符合“该上课了”的要求。",
+        "knowledge_point": "Lesson 2 It's time for class.",
+        "options": [
+          "It's time for lunch.",
+          "It's time for class.",
+          "It's time for games.",
+          "It's time for school."
+        ],
+        "question": "同学们已经坐在教室里。你要明确表达“该上课了”，应选哪一句？",
+        "type": "choice",
+        "id": 60007,
+        "score": 10
+      },
+      {
+        "answer": "It's time for games.",
+        "difficulty": 1,
+        "explanation": "games 对应游戏。其余选项分别提示上学、午餐和上课，不符合开始游戏的情境。",
+        "knowledge_point": "Lesson 2 It's time for class.",
+        "options": [
+          "It's time for school.",
+          "It's time for lunch.",
+          "It's time for games.",
+          "It's time for class."
+        ],
+        "question": "老师宣布接下来开始做游戏。你想说“该做游戏了”，应选哪一句？",
+        "type": "choice",
+        "id": 60008,
+        "score": 10
+      },
+      {
+        "answer": "Let's go home.",
+        "difficulty": 1,
+        "explanation": "“Let's go home.”是一起回家的建议。其余选项分别提议上床睡觉、提示午餐和询问时间。",
+        "knowledge_point": "Lesson 2 It's time for class.",
+        "options": [
+          "Let's go to bed.",
+          "What time is it?",
+          "It's time for lunch.",
+          "Let's go home."
+        ],
+        "question": "放学后，小乐想对同伴说“我们回家吧”。应选择哪一句？",
+        "type": "choice",
+        "id": 60009,
+        "score": 10
+      },
+      {
+        "answer": "school",
+        "difficulty": 2,
+        "explanation": "“It's time for school.”表示该上学了。lunch、games 和 class 分别对应午餐、游戏和上课。",
+        "knowledge_point": "Lesson 2 It's time for class.",
+        "options": [
+          "school",
+          "lunch",
+          "games",
+          "class"
+        ],
+        "question": "小青还在家里，想说“该上学了”。选择正确的词补全句子：It's time for ___.",
+        "type": "choice",
+        "id": 60010,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "“It's four thirty.”只报出四点三十分，并没有提出一起回家的建议。“我们回家吧”应说“Let's go home.”。",
+        "knowledge_point": "Lesson 2 It's time for class.",
+        "options": [],
+        "question": "判断：“It's four thirty.”这句话本身的意思就是“我们回家吧”。",
+        "type": "true_false",
+        "id": 60011,
+        "score": 10
+      },
+      {
+        "answer": "Yeah!",
+        "difficulty": 1,
+        "explanation": "Yeah 可以表示赞同。其余选项分别道晚安、表达饥饿和询问时间，不表示同意一起回家。",
+        "knowledge_point": "Lesson 2 It's time for class.",
+        "options": [
+          "Good night!",
+          "Yeah!",
+          "I'm hungry.",
+          "What time is it?"
+        ],
+        "question": "同伴说“Let's go home.”，你想明确表示赞同。应选哪个回应？",
+        "type": "choice",
+        "id": 60012,
+        "score": 10
+      },
+      {
+        "answer": "I get up at six.",
+        "difficulty": 1,
+        "explanation": "get up 表示起床，at six 表示在六点。其余选项分别表示六点睡觉、六点上学和七点起床。",
+        "knowledge_point": "Lesson 3 I get up at seven.",
+        "options": [
+          "I go to bed at six.",
+          "I get up at six.",
+          "I go to school at six.",
+          "I get up at seven."
+        ],
+        "question": "在角色表演中，小熊的作息是六点起床。它要说“我六点起床”，应选哪一句？",
+        "type": "choice",
+        "id": 60013,
+        "score": 10
+      },
+      {
+        "answer": "I go to school at seven thirty.",
+        "difficulty": 2,
+        "explanation": "go to school 表示去上学，at seven thirty 表示在七点三十分。其余选项的活动或时间不符。",
+        "knowledge_point": "Lesson 3 I get up at seven.",
+        "options": [
+          "I get up at seven thirty.",
+          "I go to school at eight.",
+          "I go to school at seven thirty.",
+          "I go home at seven thirty."
+        ],
+        "question": "虚构角色小鹿七点三十分去上学。它应该怎样介绍这项作息？",
+        "type": "choice",
+        "id": 60014,
+        "score": 10
+      },
+      {
+        "answer": "We go home at five.",
+        "difficulty": 2,
+        "explanation": "We 表示我们，go home 表示回家，at five 表示在五点。其余选项的人称、活动或时间不符。",
+        "knowledge_point": "Lesson 3 I get up at seven.",
+        "options": [
+          "I go home at five.",
+          "We go to school at five.",
+          "We go home at four.",
+          "We go home at five."
+        ],
+        "question": "两个玩偶共同介绍“我们五点回家”，应选择哪一句？",
+        "type": "choice",
+        "id": 60015,
+        "score": 10
+      },
+      {
+        "answer": "I go to bed at eight thirty.",
+        "difficulty": 2,
+        "explanation": "go to bed 表示上床睡觉，eight thirty 表示八点三十分。其余选项分别只报时、表示起床和表示八点睡觉。",
+        "knowledge_point": "Lesson 3 I get up at seven.",
+        "options": [
+          "It's eight thirty.",
+          "I go to bed at eight thirty.",
+          "I get up at eight thirty.",
+          "I go to bed at eight."
+        ],
+        "question": "故事里的小兔八点三十分上床睡觉。它要完整介绍“我八点三十分上床睡觉”，应选哪一句？",
+        "type": "choice",
+        "id": 60016,
+        "score": 10
+      },
+      {
+        "answer": "对",
+        "difficulty": 1,
+        "explanation": "“Me, too!”表示我也是。两个人都是八点去上学，作息相同，因此可以这样回应。",
+        "knowledge_point": "Lesson 3 I get up at seven.",
+        "options": [],
+        "question": "判断：小甲说“I go to school at eight.”。小乙也八点去上学，因此可以用“Me, too!”表示自己也一样。",
+        "type": "true_false",
+        "id": 60017,
+        "score": 10
+      },
+      {
+        "answer": "I have breakfast at eight.",
+        "difficulty": 1,
+        "explanation": "have breakfast 表示吃早餐；at eight 表示在八点。其余选项的活动或时间与要求不符。",
+        "knowledge_point": "Lesson 3 I get up at seven.",
+        "options": [
+          "I have breakfast at seven.",
+          "I go to school at eight.",
+          "I have breakfast at eight.",
+          "I get up at eight."
+        ],
+        "question": "角色卡写着“小猫八点吃早餐”。小猫要用英语介绍这项安排，应选哪一句？",
+        "type": "choice",
+        "id": 60018,
+        "score": 10
+      },
+      {
+        "answer": "I'm hungry.",
+        "difficulty": 1,
+        "explanation": "hungry 表示饥饿。其余选项分别表示准备好了、道晚安和提议出发，不能表达我饿了。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "I'm ready.",
+          "Good night!",
+          "Let's go!",
+          "I'm hungry."
+        ],
+        "question": "午饭前，小果想告诉同伴“我饿了”，应选哪一句？",
+        "type": "choice",
+        "id": 60019,
+        "score": 10
+      },
+      {
+        "answer": "Chicken and rice.",
+        "difficulty": 1,
+        "explanation": "Chicken and rice 表示鸡肉和米饭；其余三项分别是报时、提示上课和告别，不能回答所给的午餐内容。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "It's twelve.",
+          "Chicken and rice.",
+          "It's time for class.",
+          "Goodbye!"
+        ],
+        "question": "学校今天的午餐是鸡肉和米饭。同伴问“What's for lunch?”，应怎样回答？",
+        "type": "choice",
+        "id": 60020,
+        "score": 10
+      },
+      {
+        "answer": "Let's go!",
+        "difficulty": 1,
+        "explanation": "“Let's go!”表示我们走吧。其余选项分别是问时间、表达饥饿和报出食物，不是出发建议。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "What time is it?",
+          "I'm hungry.",
+          "Let's go!",
+          "Chicken and rice."
+        ],
+        "question": "大家已经准备好去餐厅，你要说“我们走吧！”，应选哪一句？",
+        "type": "choice",
+        "id": 60021,
+        "score": 10
+      },
+      {
+        "answer": "It's nine o'clock.",
+        "difficulty": 1,
+        "explanation": "nine o'clock 表示九点整。其余选项分别是九点三十分、八点整和十二点整。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "It's nine thirty.",
+          "It's eight o'clock.",
+          "It's twelve o'clock.",
+          "It's nine o'clock."
+        ],
+        "question": "模拟钟面游戏中，主持人指定时间为9:00。哪句英语准确报出了这个时间？",
+        "type": "choice",
+        "id": 60022,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "“It's nine o'clock.”只说明现在九点，没有说明谁在九点做什么。介绍睡觉时间还需要活动表达。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [],
+        "question": "判断：“It's nine o'clock.”已经完整表达了“我九点上床睡觉”。",
+        "type": "true_false",
+        "id": 60023,
+        "score": 10
+      },
+      {
+        "answer": "It's twelve. It's time for lunch.",
+        "difficulty": 2,
+        "explanation": "正确选项同时表达十二点和该吃午饭了。其余选项分别错在时间、活动，或只报时而缺少午餐提示。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "It's nine. It's time for lunch.",
+          "It's twelve. It's time for lunch.",
+          "It's twelve. It's time for games.",
+          "It's twelve."
+        ],
+        "question": "小雨要完整表达两层意思：“现在十二点了。该吃午饭了。”应选择哪一项？",
+        "type": "choice",
+        "id": 60024,
+        "score": 10
+      }
+    ]
+  },
+  "exam": {
+    "title": "Unit 6 Time·单元挑战",
+    "total_score": 60,
+    "time_minutes": 15,
+    "questions": [
+      {
+        "answer": "It's five twenty.",
+        "difficulty": 1,
+        "explanation": "five 表示五，twenty 表示二十；报时先说小时，再说分钟。其余选项分别表示五点十二分、十二点五分和五点整。",
+        "knowledge_point": "Lesson 1 It's seven o’clock.",
+        "options": [
+          "It's five twelve.",
+          "It's twelve five.",
+          "It's five twenty.",
+          "It's five o'clock."
+        ],
+        "question": "小林要用英语表达“现在是五点二十分”，应选哪一句？",
+        "type": "choice",
+        "id": 69001,
+        "score": 10
+      },
+      {
+        "answer": "错",
+        "difficulty": 1,
+        "explanation": "这句话只提示该吃午饭了，没有说出具体是几点，不能据此确定现在一定是十二点。",
+        "knowledge_point": "Lesson 2 It's time for class.",
+        "options": [],
+        "question": "判断：只听到“It's time for lunch.”，就能确定说话人明确说出了“现在是十二点”。",
+        "type": "true_false",
+        "id": 69002,
+        "score": 10
+      },
+      {
+        "answer": "at",
+        "difficulty": 1,
+        "explanation": "介绍在某个具体时刻做某事，时间前用 at。for、is 和 now 均不能在此处连接活动与时刻。",
+        "knowledge_point": "Lesson 3 I get up at seven.",
+        "options": [
+          "for",
+          "now",
+          "at",
+          "is"
+        ],
+        "question": "小东想说“我八点上床睡觉”。选择正确的词补全句子：I go to bed ___ eight.",
+        "type": "choice",
+        "id": 69003,
+        "score": 10
+      },
+      {
+        "answer": "What's for lunch?",
+        "difficulty": 2,
+        "explanation": "询问午餐吃什么用“What's for lunch?”。其余选项分别询问时间、提示午餐时间和表达饥饿。",
+        "knowledge_point": "Lesson 4 Again, please!",
+        "options": [
+          "What time is it?",
+          "It's time for lunch.",
+          "I'm hungry.",
+          "What's for lunch?"
+        ],
+        "question": "小云知道现在该吃午饭了，还想问“午餐吃什么？”，应选择哪一句？",
+        "type": "choice",
+        "id": 69004,
+        "score": 10
+      },
+      {
+        "answer": "eight thirty",
+        "difficulty": 2,
+        "explanation": "八点三十分是 eight thirty。eight thirteen 是八点十三分，three eight 是三点八分，eight o'clock 是八点整。",
+        "knowledge_point": "Lesson 2 It's time for class.",
+        "options": [
+          "eight o'clock",
+          "eight thirty",
+          "eight thirteen",
+          "three eight"
+        ],
+        "question": "要回答“现在是八点三十分”，应怎样补全答句？What time is it? — It's ___.",
+        "type": "choice",
+        "id": 69005,
+        "score": 10
+      },
+      {
+        "answer": "Good night!",
+        "difficulty": 1,
+        "explanation": "向即将睡觉的人道晚安用“Good night!”。其余选项分别是白天的祝愿、回家建议和表示自己也一样。",
+        "knowledge_point": "Lesson 3 I get up at seven.",
+        "options": [
+          "Have a nice day!",
+          "Let's go home.",
+          "Good night!",
+          "Me, too!"
+        ],
+        "question": "晚上，朋友准备上床睡觉。你想对他说“晚安！”，应选哪一句？",
+        "type": "choice",
+        "id": 69006,
+        "score": 10
+      }
+    ]
+  },
+  "knowledge_summary": [
+    {
+      "common_mistakes": [
+        "询问时间用“What time is it?”，不要漏掉 time 或 is。",
+        "整点可以说“It's seven o'clock.”；有分钟数时不要再加 o'clock，如“It's seven twenty.”。",
+        "几点几分先说小时，再说分钟，不要颠倒顺序。",
+        "“I'm ready, mum.”是告诉妈妈自己准备好了；“Have a nice day!”是祝愿，不是报时。"
+      ],
+      "core_concept": "学习用“What time is it?”询问时间，用“It's...”表达整点及教材出现的几点几分，如 seven twenty、seven thirty、five twenty。结合早餐、起床和出门情境，理解“Get up!”、“I'm ready.”以及告别和祝愿用语。城市钟面用于读时交流，不进行时区计算。",
+      "key_formula": "What time is it? — It's + 小时数 + o'clock. / It's + 小时数 + 分钟数.",
+      "point": "Lesson 1 It's seven o’clock.",
+      "tips": "把问句和答句配对练习。整点可用 o'clock，也可像“It's eight now.”一样直接说小时数；不要认为整点必须带 o'clock。听到起床提醒可表示应答；出门时可用“Goodbye!”或“Bye!”告别，用“Have a nice day!”祝愿对方。"
+    },
+    {
+      "common_mistakes": [
+        "“It's eight thirty.”是在报时；“It's time for class.”是在提示该上课了，不能把两者当作同一个意思。",
+        "本课提示活动使用“It's time for...”，不要漏掉 for。",
+        "class 表示上课，school 在“It's time for school.”中表示该上学了，两种提示要按表达目的选择。",
+        "“Let's go home.”中的 home 前不加 to。"
+      ],
+      "core_concept": "把时间表达与上课、午餐、回家、游戏和上学等活动联系起来，学习用“It's time for...”提示活动时间。理解“Let's go home.”提出一起回家的建议，并用“Yeah!”表示赞同。不把教材中的活动安排当成所有人都必须遵守的固定时间。",
+      "key_formula": "It's time for + class/lunch/games/school.",
+      "point": "Lesson 2 It's time for class.",
+      "tips": "先判断要表达具体时间，还是提示活动。报时可说“It's twelve.”；提示午餐可说“It's time for lunch.”。同一个时刻可以有不同安排，做题应依据题干给出的活动，而不是只凭钟点猜活动。"
+    },
+    {
+      "common_mistakes": [
+        "介绍几点做某事时，具体时刻前用 at，不要用 for 代替。",
+        "get up 是起床，go to bed 是上床睡觉，不要混淆。",
+        "上学说 go to school，回家说 go home，不能把两者的结构混用。",
+        "“Me, too!”表示我也是；如果自己的情况不同，就不适合这样回应。"
+      ],
+      "core_concept": "使用“at + 具体时刻”介绍起床、上学、回家、上床睡觉和吃早餐等日常活动时间。理解 I 表示我、We 表示我们，能够用“Me, too!”回应相同的作息，用“Good night!”道晚安。",
+      "key_formula": "I/We + 日常活动表达 + at + 具体时刻.",
+      "point": "Lesson 3 I get up at seven.",
+      "tips": "把活动短语和时间连起来练习，如“I get up at seven.”。注意“It’s seven thirty.”只报时，“I have breakfast at seven thirty.”还说明了谁在什么时间做什么。介绍作息可以使用题目设定的虚构角色，不必提供真实个人信息。"
+    },
+    {
+      "common_mistakes": [
+        "“What time is it?”问时间；“What's for lunch?”问午餐吃什么，不要混淆。",
+        "“I'm hungry.”表示我饿了，不是我准备好了。",
+        "“It's nine o'clock.”报出时间；“I go to bed at nine.”介绍作息，两者不能互相替代。",
+        "“Chicken and rice.”回答午餐内容；“Let's go!”是出发建议，不是食物名称。"
+      ],
+      "core_concept": "综合复习时间问答、活动时间提示和日常作息表达。在午餐主对话中理解表达饥饿、询问时间、提示午餐、询问及回答午餐内容和提议出发的交际顺序；通过动作与报时活动联系具体时刻和日常活动。",
+      "key_formula": "What time is it? — It's + 时间.；It's time for + 活动.；I + 日常活动表达 + at + 具体时刻.",
+      "point": "Lesson 4 Again, please!",
+      "tips": "先确定要表达什么，再选句型：问几点用 What time；问午餐吃什么用 What's for lunch；说自己几点做事要有活动和 at。动作活动中也要把时间说清楚，不只说动作名称。"
+    }
+  ]
+}

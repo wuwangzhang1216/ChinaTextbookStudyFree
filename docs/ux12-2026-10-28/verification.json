@@ -1,0 +1,104 @@
+{
+  "status": "passed",
+  "release": "v1.8.1",
+  "sourceCommit": "9776b2e34e71609923030b75b3c2b0a2c9eb273f",
+  "implementationMerge": "5fe09e3deee430aba9835e4ea1dc6aef2ecb44b4",
+  "pullRequest": 54,
+  "ci": {
+    "status": "passed",
+    "sourceCommit": "9776b2e34e71609923030b75b3c2b0a2c9eb273f",
+    "runIds": [
+      40811127979,
+      40811127977
+    ]
+  },
+  "build": {
+    "pages": 7463,
+    "coreTests": 231,
+    "gradingCases": 35234,
+    "types": "passed",
+    "webExperienceLearningQualityAndControls": "passed",
+    "completeInstalledStaticFilesSHA256": 561394,
+    "matchingSourceFiles": 1875
+  },
+  "resourceUpgrade": {
+    "status": "passed",
+    "previousRelease": "v1.8.0",
+    "newRelease": "v1.8.1",
+    "oldWebFilesAndUserFilesRetained": 15047,
+    "allNewWebFilesSHA256Verified": 15046
+  },
+  "localUi": {
+    "status": "passed",
+    "draftAndCheckedFeedbackReload": true,
+    "heartsDeductedOnce": true,
+    "firstCorrect": "5/6",
+    "afterCorrection": "6/6",
+    "stars": 2,
+    "foregroundSeconds": 181,
+    "dailyTimeAgreement": "covered by actual-runner deterministic regression, not present in user backup export",
+    "allExportedFieldsRetainedAfterReload": true,
+    "layouts": "320/360/390/430; no overflow, clipping or undersized actionable buttons",
+    "realChildOrPhysicalDeviceTest": false
+  },
+  "online": {
+    "status": "passed",
+    "sourceCommit": "9776b2e34e71609923030b75b3c2b0a2c9eb273f",
+    "s3CurrentFileMd5Verified": 561394,
+    "existingDataAndMediaMetadataUnchanged": 546348,
+    "allPriorObjectsRetained": 561758,
+    "privacyPageUnchanged": true,
+    "cdnpagesDataAndNewChunkChecks": 243,
+    "mp3FullShaMimeAndRangeSamples": 32,
+    "books": 84,
+    "oldReleaseAssetsPreserved": 1098
+  },
+  "profiles": {
+    "status": "passed",
+    "profilesCompared": 6,
+    "allExportedFieldsUnchanged": true,
+    "rawBackupsPrivate": true,
+    "originalBookAndUnfinishedEntryRetained": true
+  },
+  "onlineUi": {
+    "status": "passed",
+    "newLesson": "g1up-2026-u101-kp1",
+    "firstCorrect": "6/6",
+    "finishCorrect": "6/6",
+    "stars": 3,
+    "xpGained": 70,
+    "allExportedFieldsRetainedAfterReload": true,
+    "existingQaGradesUnchanged": true,
+    "originalProfileRestoredAndEntireExportUnchanged": true,
+    "originalBookAndUnfinishedEntryRetained": true,
+    "timing": {
+      "wallSeconds": 97,
+      "settingsBreakSeconds": 44,
+      "foregroundSeconds": 51,
+      "settingsBreakExcluded": true
+    },
+    "physicalDeviceOrRealChildTest": false
+  },
+  "releaseOrganization": {
+    "status": "passed",
+    "stableLatest": "v1.8.1",
+    "sourceCommit": "9776b2e34e71609923030b75b3c2b0a2c9eb273f",
+    "primaryAssets": 7,
+    "webPatchAssets": 4,
+    "unchangedArchivesReused": 191,
+    "priorReleaseAssetsUnchanged": 1098,
+    "newAudioArchives": 0,
+    "noTagOrZipReplacement": true
+  },
+  "humanAcceptance": {
+    "teacherSemantics": "pending",
+    "childUnderstandingAndThumbUse": "pending",
+    "physicalDevices": "pending",
+    "delayedTransferDay1AndDay7": "pending",
+    "priorityTeacherLessons": 141,
+    "fiveFour26BooksNotTeacherSignedOff": true
+  },
+  "issue12": "open",
+  "existingAutomation": "paused",
+  "privateBackupsPublished": false
+}

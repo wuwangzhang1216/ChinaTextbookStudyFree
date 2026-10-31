@@ -1,17 +1,17 @@
-# v1.8.1：续学计时修复、安装与升级
+# v1.8.2：长数字答题修复、资源增量更新与安装升级
 
-本版修复课程跨夜续学的结算计时；后台、离页和休息弹窗暂停，刷新保留前台时间、答案和反馈。旧进度没有可靠时长时从本次续学起计，原成绩保留。教材、音频及iOS逐册包与v1.8.0相同。
+本版修复计算填空题超过 10 个字符无法完整输入的问题，屏幕数字键盘和实体键盘均可输入长答案，长数字可换行显示。新版安装器先校验本地资源，跳过完全一致的分包，支持 `--dry-run` 预览下载量、`--full-download` 强制全量更新；`--verify-only` 无需下载大型归档。包含 v1.8.1 的续学计时修复，教材、音频及 iOS 逐册包与 v1.8.0 相同，原成绩保留。
 
 v1.8.0已新增青岛版数学、科学各10册（小学1—5年级上下册），鲁科版英语6册（3—5年级上下册）。每册按核对后的原书目录编排，独立教材ID与六三制并列，不替换原58册教材或成绩。新增1,585个常规课时、244个单元挑战、375组英语听读，新增语音使用Edge，iOS按册提供AAC/M4A。原书版次为2010—2022年间，并非“2026最新版”；版次、印次、ISBN、来源指纹与目录见[逐册核对报告](five-four-2026-10-27/README.md)。资源包含完整84册，无需先安装旧版，无需AI API Key。
 
-**不用下载 Assets 中的全部附件。** 在线学习直接[打开课堂](https://d3nmsqi4n72idj.cloudfront.net/)；Web 用户使用安装器自动选择资源；iOS 用户在 App 内按册下载。手动离线下载的分类清单及逐册链接见[下载导航](https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.1/DOWNLOADS.md)。主发布页仅保留入口和校验文件；新Web与源码ZIP位于 `v1.8.1-web-resources`；未变更的大型资源继续位于 `v1.8.0-web-resources`，iOS逐册包继续位于 `v1.8.0-ios-resources`。清单为复用附件注明原发布标签、大小及SHA-256，安装器自动选择，不重复上传191个未变更ZIP。Web 音频分为独立 ZIP，每个不超过 1.4 GB（十进制），按安装模式下载对应分包后直接解压，无需拼接。
+**不用下载 Assets 中的全部附件。** 在线学习直接[打开课堂](https://d3nmsqi4n72idj.cloudfront.net/)；Web 用户使用安装器自动选择资源；iOS 用户在 App 内按册下载。手动离线下载的分类清单及逐册链接见[下载导航](https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.2/DOWNLOADS.md)。主发布页仅保留入口和校验文件；新 Web 与源码 ZIP 位于 `v1.8.2-web-resources`；未变更的大型资源继续位于 `v1.8.0-web-resources`，iOS逐册包继续位于 `v1.8.0-ios-resources`。清单为复用附件注明原发布标签、大小及SHA-256，安装器自动选择，不重复上传191个未变更ZIP。Web 音频分为独立 ZIP，每个不超过 1.4 GB（十进制），按安装模式下载对应分包后直接解压，无需拼接。
 
 ## 最快使用：安装现成网站
 
-只需 Python 3.9+，无需 Node.js 或 FFmpeg。在 [Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.8.1) 下载 `install-release.py`，执行：
+只需 Python 3.9+，无需 Node.js 或 FFmpeg。在 [Release](https://github.com/wuwangzhang1216/ChinaTextbookStudyFree/releases/tag/v1.8.2) 下载 `install-release.py`，执行：
 
 ```sh
-python3 install-release.py --tag v1.8.1 --mode static --root ChinaStudyFree-site
+python3 install-release.py --tag v1.8.2 --mode static --root ChinaStudyFree-site
 python3 -m http.server 8080 --directory ChinaStudyFree-site
 ```
 
@@ -24,7 +24,7 @@ python3 -m http.server 8080 --directory ChinaStudyFree-site
 先备份自定义文件或数据。增量更新需使用[仓库当前安装器](https://raw.githubusercontent.com/wuwangzhang1216/congcong-school/main/scripts/install-release.py)（可另存为 `install-release.py`）；已发布 v1.7.0 至 v1.8.1 附件中的旧安装器仍会全量下载。新版安装器兼容现有分包及清单，不要求重新发布资源。
 
 ```sh
-python3 install-release.py --tag v1.8.1 --mode static --root /path/to/existing-site
+python3 install-release.py --tag v1.8.2 --mode static --root /path/to/existing-site
 ```
 
 默认执行**按分包增量更新**：只有包内全部文件均与目标版本一致时才跳过该包，不仅判断目录是否存在，也不依赖 `ASSETS-VERSION.json`。即使旧版没有安装记录，也可以复用一致的音频和图片；缺失、损坏、内容变化的文件会触发对应分包重新下载。比对需要读取本地资源，较慢磁盘可能需要几分钟。
@@ -32,7 +32,7 @@ python3 install-release.py --tag v1.8.1 --mode static --root /path/to/existing-s
 可以先预览所需包及总字节数（只获取清单，不下载资源包、不写入安装目录）：
 
 ```sh
-python3 install-release.py --tag v1.8.1 --mode static --root /path/to/existing-site --dry-run
+python3 install-release.py --tag v1.8.2 --mode static --root /path/to/existing-site --dry-run
 ```
 
 分包内只要有一个文件变化，就仍需下载整个分包；当前不提供跨版本的逐文件差量补丁。没有逐文件清单的旧 schema 1 发布仍全量安装。需要强制重新下载并安装全部所选包时加 `--full-download`。
@@ -42,7 +42,7 @@ python3 install-release.py --tag v1.8.1 --mode static --root /path/to/existing-s
 如果是源码部署，先备份本地代码修改；希望安装本版匹配源码与所有资源时执行：
 
 ```sh
-python3 install-release.py --tag v1.8.1 --with-source --root /path/to/ChinaTextbookStudyFree
+python3 install-release.py --tag v1.8.2 --with-source --root /path/to/ChinaTextbookStudyFree
 cd /path/to/ChinaTextbookStudyFree
 npm ci
 npm run build
@@ -55,7 +55,7 @@ npm run build
 需要 Node.js 20+、Python 3.9+、带 libmp3lame 的 FFmpeg（均加入 PATH）：
 
 ```sh
-python3 install-release.py --tag v1.8.1 --with-source --root ChinaTextbookStudyFree
+python3 install-release.py --tag v1.8.2 --with-source --root ChinaTextbookStudyFree
 cd ChinaTextbookStudyFree
 npm ci
 npm run build
@@ -66,11 +66,11 @@ python3 -m http.server 8080 --directory apps/web/out
 
 ## 离线安装与完整校验
 
-在[下载导航](https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.1/DOWNLOADS.md)选择“现成静态网站”或“源码与完整资源”，只下载该模式列出的包至同一目录，另下载安装器、`manifest.json` 与 `files.jsonl`。Web 安装不需要 168个iOS逐册包。
+在[下载导航](https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.2/DOWNLOADS.md)选择“现成静态网站”或“源码与完整资源”，只下载该模式列出的包至同一目录，另下载安装器、`manifest.json` 与 `files.jsonl`。Web 安装不需要 168个iOS逐册包。
 
 ```sh
-python3 install-release.py --tag v1.8.1 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads
-python3 install-release.py --tag v1.8.1 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads --verify-only
+python3 install-release.py --tag v1.8.2 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads
+python3 install-release.py --tag v1.8.2 --mode static --root ChinaStudyFree-site --archives-dir /path/to/downloads --verify-only
 ```
 
 源码目录校验使用 `--root /path/to/source`，省略 `--mode static`；如果安装过完整源码，同时加上 `--with-source`。
@@ -87,13 +87,13 @@ shasum -a 256 -c SHA256SUMS --ignore-missing
 
 ## 单独下载与覆盖资源
 
-[下载导航](https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.1/DOWNLOADS.md)提供音频、数据、配图、课本原页和网站页面的独立下载链接。只需更新某类资源时，也可以让安装器自动选择、校验并覆盖该类资源，例如：
+[下载导航](https://github.com/wuwangzhang1216/congcong-school/releases/download/v1.8.2/DOWNLOADS.md)提供音频、数据、配图、课本原页和网站页面的独立下载链接。只需更新某类资源时，也可以让安装器自动选择、校验并覆盖该类资源，例如：
 
 ```sh
 # 静态站点：页面和配套 JSON 一起更新，保留现有音频及图片
-python3 install-release.py --tag v1.8.1 --mode static --root /path/to/existing-site --asset-kind web --asset-kind data
+python3 install-release.py --tag v1.8.2 --mode static --root /path/to/existing-site --asset-kind web --asset-kind data
 # 源码部署：只更新配图
-python3 install-release.py --tag v1.8.1 --root /path/to/ChinaTextbookStudyFree --asset-kind story-images --asset-kind textbook-pages
+python3 install-release.py --tag v1.8.2 --root /path/to/ChinaTextbookStudyFree --asset-kind story-images --asset-kind textbook-pages
 ```
 
 可选资源类型及安装目录由目标版本清单决定，常用类型为 `audio-original`、`audio-web`、`data`、`story-images`、`textbook-pages`；静态站点另有 `web`，源码模式另有 `source-data`、`build-cache`。选择性更新不会检查未选资源是否匹配；若新页面或数据引用了新音频、图片，需要同步更新相关类型。一般升级建议省略 `--asset-kind`，让安装器检查全部资源并自动跳过一致的包。

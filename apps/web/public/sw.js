@@ -11,7 +11,7 @@
  */
 
 const VERSION = "v3";
-const SHELL_CACHE = `ctsf-shell-${VERSION}-five-four-v1.8.0`;
+const SHELL_CACHE = `ctsf-shell-${VERSION}-numeric-input-v1.8.2`;
 const DATA_CACHE = `ctsf-data-${VERSION}-five-four-v1.8.0`;
 const STATIC_CACHE = `ctsf-static-${VERSION}`;
 

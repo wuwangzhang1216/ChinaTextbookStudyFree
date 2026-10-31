@@ -41,6 +41,8 @@ def render(manifest, ios, index):
              '## Web：在线安装', '',
              '下载安装器后运行，安装器不会下载 iOS 的逐册包：', '', '```sh',
              f'python3 install-release.py --tag {tag} --mode static --root ChinaStudyFree-site', '```', '',
+             '已有安装可使用[仓库当前安装器](https://raw.githubusercontent.com/wuwangzhang1216/congcong-school/main/scripts/install-release.py)按分包增量更新；旧 Release 中的安装器可能仍会全量下载。', '',
+             '新版安装器逐文件比较大小与 SHA-256，跳过本地完全一致的分包；`--dry-run` 预览所需包及大小，`--full-download` 强制全量安装。分包内任一文件变化仍需下载整个分包。单独下载后覆盖的位置与 `--asset-kind` 用法见[安装与升级说明](https://github.com/wuwangzhang1216/congcong-school/blob/main/docs/release-install.md)。', '',
              '## Web：离线下载清单', '',
              '以下清单由安装器实际选择规则生成。选一种模式，只下载该模式列出的 ZIP；另需 `manifest.json`、`files.jsonl` 和安装器。', '']
     for mode, source, label in [('static', False, '现成静态网站'), ('source', True, '源码与完整资源')]:

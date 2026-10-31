@@ -133,6 +133,28 @@ def read_inventory(cache, manifest, selected):
     return result
 
 
+def installed_files(root, selected, inventory):
+    """Resolve every inventory path before checking or trusting local content."""
+    destinations = {a['name']: d for a, d in selected}
+    return [(archive, target_path(root, str(PurePosixPath(destinations[archive]) / name)), row)
+            for (archive, name), row in inventory.items()]
+
+
+def matches_file(path, row):
+    return path.is_file() and path.stat().st_size == row['bytes'] and sha256(path) == row['sha256']
+
+
+def pending_archives(root, selected, inventory):
+    """Reuse installed bytes only after comparison with the target release inventory."""
+    if inventory is None:
+        return selected
+    changed = set()
+    for archive, path, row in installed_files(root, selected, inventory):
+        if archive not in changed and not matches_file(path, row):
+            changed.add(archive)
+    return [(a, d) for a, d in selected if a['name'] in changed]
+
+
 def extract(path, destination, expected=None):
     destination.mkdir(parents=True, exist_ok=True)
     seen = set()
@@ -178,7 +200,9 @@ def main():
     parser.add_argument('--mode', choices=['source', 'static'], default='source')
     parser.add_argument('--with-source', action='store_true', help='Also replace source files; back up local edits first')
     parser.add_argument('--archives-dir', type=Path, help='Use already downloaded archives and manifest')
-    parser.add_argument('--verify-only', action='store_true', help='Verify packages and installed files without writing')
+    parser.add_argument('--verify-only', action='store_true', help='Verify installed files against the inventory without downloading packages or writing')
+    parser.add_argument('--full-download', action='store_true', help='Download and reinstall all selected packages, even if local files match')
+    parser.add_argument('--dry-run', action='store_true', help='Check local files and show required packages without installing')
     parser.add_argument('--asset-kind', action='append', help='Install only selected resource kinds (for example source-data for CI)')
     args = parser.parse_args()
     safe_name(args.tag)
@@ -187,6 +211,8 @@ def main():
             args.tag = safe_name(json.load(response)['tag_name'])
     if args.with_source and args.mode != 'source':
         parser.error('--with-source requires --mode source')
+    if args.verify_only and (args.full_download or args.dry_run):
+        parser.error('--verify-only cannot be combined with --full-download or --dry-run')
     root = args.root.resolve()
     with tempfile.TemporaryDirectory(prefix='china-study-assets-') as temporary:
         cache = args.archives_dir.resolve() if args.archives_dir else Path(temporary)
@@ -209,32 +235,43 @@ def main():
             selected = [(asset, destination) for asset, destination in selected if asset.get('kind') in args.asset_kind]
             if set(args.asset_kind) != {asset.get('kind') for asset, _ in selected}:
                 raise ValueError('Requested asset kind is absent or unavailable in this installation mode')
-        # Check every package before extracting or changing any installed file.
-        for item, _ in selected:
-            name = item['name']
-            download(name, asset_base(manifest, args.tag, item))
-            path = cache / name
-            if path.stat().st_size != item['bytes'] or sha256(path) != item['sha256']:
-                raise ValueError(f'Size/SHA-256 mismatch: {name}')
-            print(f'Verified {name}', flush=True)
         if manifest['schema_version'] == 2:
             download(manifest['file_inventory']['name'])
         inventory = read_inventory(cache, manifest, selected)
         if args.verify_only:
             if inventory is None:
                 raise ValueError('--verify-only requires a schema 2 release')
-            destinations = {a['name']: d for a, d in selected}
-            for (archive, name), row in inventory.items():
-                target = target_path(root, str(PurePosixPath(destinations[archive]) / name))
-                if not target.is_file() or target.stat().st_size != row['bytes'] or sha256(target) != row['sha256']:
+            for _, target, row in installed_files(root, selected, inventory):
+                if not matches_file(target, row):
                     raise ValueError(f'Installed file mismatch: {target}')
             print(f'Verified {len(inventory):,} installed files in {root}')
             return
+        if inventory is not None and not args.full_download:
+            print('Checking installed resources against the release inventory…', flush=True)
+        elif inventory is None:
+            print('Legacy release has no file inventory; all selected packages are required.', flush=True)
+        pending = selected if args.full_download else pending_archives(root, selected, inventory)
+        needed = {a['name'] for a, _ in pending}
+        for item, _ in selected:
+            action = 'Required' if item['name'] in needed else 'Unchanged; skipping'
+            print(f"{action}: {item['name']} ({item['bytes']:,} bytes)", flush=True)
+        total = sum(a['bytes'] for a, _ in pending)
+        print(f'Packages required: {len(pending)}/{len(selected)}; {total:,} bytes', flush=True)
+        if args.dry_run:
+            return
+        # Check every required package before extracting or changing any installed file.
+        for item, _ in pending:
+            name = item['name']
+            download(name, asset_base(manifest, args.tag, item))
+            path = cache / name
+            if path.stat().st_size != item['bytes'] or sha256(path) != item['sha256']:
+                raise ValueError(f'Size/SHA-256 mismatch: {name}')
+            print(f'Verified {name}', flush=True)
         # Stage alongside the destination so final per-file replacements are atomic.
         root.parent.mkdir(parents=True, exist_ok=True)
         with tempfile.TemporaryDirectory(prefix='.china-study-stage-', dir=root.parent) as staged:
             stage = Path(staged)
-            for item, destination in selected:
+            for item, destination in pending:
                 print(f"Staging {item['name']}…", flush=True)
                 extract(cache / item['name'], target_path(stage, destination), inventory)
             staged_files = [p for p in stage.rglob('*') if p.is_file()]

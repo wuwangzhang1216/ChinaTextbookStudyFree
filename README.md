@@ -211,7 +211,7 @@ python3 scripts/install-release.py --tag v1.8.0
 py -3 scripts/install-release.py --tag v1.8.0
 ```
 
-完整包包含 MP3、原路径音频、数据、配图和课本原页，以及可选的匹配源码与现成网站。`manifest.json`、`files.jsonl` 和 `SHA256SUMS` 提供附件及逐文件校验。建议预留至少80 GB用于下载、暂存和安装，已有备份另计；有本地修改时先备份。离线安装、旧版升级及验证命令见 [安装与升级说明](docs/release-install.md)。
+完整包包含 MP3、原路径音频、数据、配图和课本原页，以及可选的匹配源码与现成网站。`manifest.json`、`files.jsonl` 和 `SHA256SUMS` 提供附件及逐文件校验。仓库中的新版安装器默认按分包增量更新：本地文件与目标版本完全一致的包不再下载，`--dry-run` 可预览所需包及大小。首次完整安装建议预留至少 80 GB 用于下载、暂存和安装，已有备份另计；有本地修改时先备份。增量更新、单独资源下载、离线安装及验证命令见 [安装与升级说明](docs/release-install.md)。
 
 ### 3. 运行 Web 端
 

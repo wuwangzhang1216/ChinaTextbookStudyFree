@@ -53,8 +53,6 @@ export function FillBlankQuestion({
     if (k === "-" && answer.length > 0) return;
     // "/" 只允许出现一次，且前面必须已有数字（分数写法 3/4）
     if (k === "/" && (answer.includes("/") || !/\d$/.test(answer))) return;
-    // 限制长度，防止误操作输入过长
-    if (answer.length >= 10) return;
     onChange(answer + k);
   }
 
@@ -100,7 +98,11 @@ export function FillBlankQuestion({
         animate={{ scale: 1, opacity: 1 }}
         transition={{ type: "spring", damping: 18, stiffness: 260 }}
       >
-        {answer || <span className="text-ink-light text-xl font-bold">点下方数字键</span>}
+        {answer ? (
+          <span className="min-w-0 max-w-full break-all">{answer}</span>
+        ) : (
+          <span className="text-ink-light text-xl font-bold">点下方数字键</span>
+        )}
       </motion.div>
 
       {phase === "checked" && !isCorrect && (

@@ -2,11 +2,13 @@
 import hashlib
 import importlib.util
 import json
+import shutil
 import subprocess
 import sys
 import tempfile
 import zipfile
 from pathlib import Path
+from unittest.mock import patch
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -21,6 +23,7 @@ def load(name, path):
 pack = load('packager', ROOT / 'scripts/package-release.py')
 alias = load('aliases', ROOT / 'scripts/tts/apply_audio_versions.py')
 guide = load('guide', ROOT / 'scripts/release-download-guide.py')
+installer = load('installer', ROOT / 'scripts/install-release.py')
 with tempfile.TemporaryDirectory() as temporary:
     tmp = Path(temporary);cache = tmp / 'archives';cache.mkdir()
     assets, records = [], []
@@ -138,9 +141,69 @@ with tempfile.TemporaryDirectory() as temporary:
     # The last corrupt split must prevent every installed file from changing.
     before = {p.relative_to(upgrade): p.read_bytes() for p in upgrade.rglob('*') if p.is_file()}
     audio = cache / 'audio-web-part02.zip';original = audio.read_bytes();audio.write_bytes(b'broken part')
-    run(upgrade, success=False)
+    run(upgrade, extra=['--full-download'], success=False)
     assert all((upgrade / rel).read_bytes() == raw for rel, raw in before.items())
-    audio.unlink();run(upgrade, success=False);audio.write_bytes(original)
+    audio.unlink();run(upgrade, extra=['--full-download'], success=False);audio.write_bytes(original)
+    # Exercise the online path without network access: assert exactly which
+    # release URLs are requested, rather than merely checking installed output.
+    def online(target, mode='static', extra=()):
+        requested = []
+        def retrieve(url, destination):
+            requested.append(url)
+            shutil.copyfile(cache / url.rsplit('/', 1)[1], destination)
+        argv = ['install-release.py', '--tag', 'fixture', '--root', str(target), '--mode', mode, *extra]
+        with patch.object(sys, 'argv', argv), patch.object(installer.urllib.request, 'urlretrieve', retrieve):
+            installer.main()
+        return requested
+
+    # A receipt is not evidence of correct bytes, and is not needed for reuse.
+    (upgrade / 'ASSETS-VERSION.json').unlink()
+    metadata = [installer.RELEASE_ROOT + '/fixture/' + n for n in ['manifest.json', 'files.jsonl']]
+    audio_mtime = (upgrade / 'audio/aa/1.mp3').stat().st_mtime_ns
+    assert online(upgrade) == metadata
+    assert (upgrade / 'audio/aa/1.mp3').stat().st_mtime_ns == audio_mtime
+    preview = tmp / 'preview-only'
+    assert online(preview, extra=['--dry-run']) == metadata and not preview.exists()
+    (upgrade / 'audio/aa/1.mp3').write_bytes(b'bad web 1')  # same size as the expected file
+    (upgrade / 'audio/aa/2.opus').unlink()
+    requests = online(upgrade, extra=['--dry-run'])
+    assert requests == metadata and not (upgrade / 'audio/aa/2.opus').exists()
+    assert online(upgrade) == metadata + [installer.RELEASE_ROOT + '/fixture/' + n for n in
+                                         ['audio-web-part01.zip', 'audio-original-part02.zip']]
+    assert online(upgrade, extra=['--verify-only']) == metadata
+    assert online(source, mode='source', extra=['--with-source']) == metadata
+    # Incremental preflight also verifies all required packages before writing.
+    (upgrade / 'audio/aa/1.mp3').write_bytes(b'bad web 1')
+    (upgrade / 'audio/aa/2.mp3').unlink()
+    snapshot = {p.relative_to(upgrade): p.read_bytes() for p in upgrade.rglob('*') if p.is_file()}
+    audio.write_bytes(b'broken part')
+    run(upgrade, success=False)
+    assert all((upgrade / rel).read_bytes() == raw for rel, raw in snapshot.items())
+    assert not (upgrade / 'audio/aa/2.mp3').exists()
+    audio.write_bytes(original);run(upgrade)
+    # Data-only changes download only data.zip and leave audio untouched.
+    records[:] = [r for r in records if r['archive'] != 'data.zip']
+    assets[:] = [a for a in assets if a['name'] != 'data.zip']
+    archive('data.zip', 'data', {'source': 'apps/web/public/data', 'static': 'data'}, {'index.json': b'{"new":true,"revision":2}'})
+    manifest()
+    repaired_mtime = (upgrade / 'audio/aa/1.mp3').stat().st_mtime_ns
+    assert online(upgrade) == metadata + [installer.RELEASE_ROOT + '/fixture/data.zip']
+    assert (upgrade / 'audio/aa/1.mp3').stat().st_mtime_ns == repaired_mtime
+    # Unchanged archives need not be present for an offline incremental install.
+    moved = tmp / 'held-audio.zip';audio.rename(moved)
+    run(upgrade);run(upgrade, extra=['--verify-only'])
+    moved.rename(audio)
+    # A corrupt inventory must fail even if every installed file matches.
+    inv = cache / 'files.jsonl';valid_inventory = inv.read_bytes();inv.write_bytes(b'corrupt inventory')
+    run(upgrade, success=False);inv.write_bytes(valid_inventory)
+    # Selective updates and split resource releases must preserve URL routing.
+    routed = json.loads((cache / 'manifest.json').read_text())
+    routed['resource_tag'] = 'fixture-web'
+    (cache / 'manifest.json').write_text(json.dumps(routed))
+    (upgrade / 'data/index.json').unlink()
+    assert online(upgrade, extra=['--asset-kind', 'data']) == [metadata[0]] + [
+        installer.RELEASE_ROOT + '/fixture-web/' + n for n in ['files.jsonl', 'data.zip']]
+    before = {p.relative_to(upgrade): p.read_bytes() for p in upgrade.rglob('*') if p.is_file()}
     # A malicious but correctly checksummed archive still cannot escape staging.
     archive('escape.zip', 'data', {'static': '.'}, {'../escaped.txt': b'bad'})
     manifest();run(upgrade, success=False)
@@ -203,3 +266,4 @@ with tempfile.TemporaryDirectory() as temporary:
         else:raise AssertionError('Invalid or absent edition for scoped audio accepted')
         assert new.read_bytes() == prior
 print('PASS: split-package fresh/source installs, upgrades, preservation, corruption, missing parts, traversal and audio alias validation')
+print('PASS: incremental download URLs, unchanged resources, data-only updates, dry-run, offline reuse and incremental preflight')

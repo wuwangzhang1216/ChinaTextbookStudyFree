@@ -5,6 +5,8 @@ on:
       - 'apps/web/**'
       - 'packages/core/**'
       - 'scripts/checks/**'
+      - 'scripts/install-release.py'
+      - 'scripts/release-download-guide.py'
       - 'output/**/quizzes/**'
       - 'output/**/outlines/**'
       - 'release/content-baseline-v1.4.0.json'
